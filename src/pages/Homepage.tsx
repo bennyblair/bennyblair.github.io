@@ -22,6 +22,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
+import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -36,16 +37,17 @@ const Homepage = () => {
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Animated background */}
+        {/* Sydney Skyline Background */}
         <div 
-          className="absolute inset-0 bg-gradient-to-br from-primary via-primary-dark to-background"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
+            backgroundImage: `url(${sydneySkyline})`,
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
         />
         
         {/* Glassmorphism overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/10 to-background/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/60" />
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
