@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-primary to-primary-light rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">E</span>
             </div>
             <span className="text-xl font-bold text-primary">Emet Capital</span>
@@ -41,6 +41,10 @@ const Navbar = () => {
             >
               Home
             </Link>
+            
+            <div className="text-sm font-medium text-primary">
+              📞 0485 952 651
+            </div>
 
             {/* Resources Dropdown */}
             <div className="relative">
@@ -96,7 +100,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <Button 
               asChild
-              className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground font-medium"
+              className="bg-primary hover:bg-primary-dark text-primary-foreground font-medium"
             >
               <Link to="/contact">Get Quote Now</Link>
             </Button>
@@ -150,10 +154,13 @@ const Navbar = () => {
               >
                 Contact
               </Link>
-              <div className="px-4 pt-2">
+              <div className="px-4 pt-2 space-y-2">
+                <div className="text-center text-primary font-medium py-2">
+                  📞 0485 952 651
+                </div>
                 <Button 
                   asChild 
-                  className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
+                  className="w-full bg-primary hover:bg-primary-dark text-primary-foreground"
                 >
                   <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                     Get Quote Now

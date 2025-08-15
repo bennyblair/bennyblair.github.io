@@ -34,47 +34,47 @@ const Homepage = () => {
   const services = [
     {
       icon: Building2,
-      title: "Asset Finance",
-      description: "Premium equipment, vehicle, and machinery financing solutions engineered for scale.",
-      gradient: "from-accent to-accent-light"
+      title: "Private Lending",
+      description: "Quick access to funds with flexible terms tailored to your needs as an alternative to traditional bank loans.",
+      gradient: "from-primary to-primary-light"
     },
     {
       icon: FileText,
-      title: "Debtor Funding",
-      description: "Sophisticated accounts receivable and invoice factoring for immediate liquidity.",
-      gradient: "from-accent-light to-accent"
+      title: "Bridging Finance",
+      description: "Short-term financing to help you cover the gap between buying a new property and selling your current one.",
+      gradient: "from-primary-light to-primary"
     },
     {
       icon: TrendingUp,
-      title: "Structured Lending",
-      description: "Bespoke development, construction, and working capital solutions.",
-      gradient: "from-accent to-accent-metallic"
+      title: "Asset-Based Lending",
+      description: "Use your assets to get the funding you need to drive growth, improve cash flow, or seize new opportunities.",
+      gradient: "from-primary to-primary-dark"
     }
   ];
 
   const achievements = [
     { 
-      icon: DollarSign, 
-      value: "$500M+", 
-      label: "Loans Facilitated",
+      icon: Zap, 
+      value: "24hrs", 
+      label: "Credit Decision",
       progress: 95 
     },
     { 
-      icon: Zap, 
-      value: "72hrs", 
-      label: "Average Approval",
+      icon: Timer, 
+      value: "48hrs", 
+      label: "Funding Available",
       progress: 88 
     },
     { 
-      icon: Trophy, 
-      value: "98%", 
-      label: "Success Rate",
+      icon: CheckCircle, 
+      value: "Flexible", 
+      label: "Terms",
       progress: 98 
     },
     { 
-      icon: Target, 
-      value: "100+", 
-      label: "Lender Partners",
+      icon: Shield, 
+      value: "Asset", 
+      label: "Backed",
       progress: 92 
     }
   ];
@@ -82,77 +82,72 @@ const Homepage = () => {
   const processSteps = [
     {
       icon: Handshake,
-      title: "Initial Consultation",
-      description: "Deep-dive analysis of your requirements and strategic objectives"
+      title: "Step 1 - Fact Find",
+      description: "We start with a detailed consultation to understand your financial needs and goals."
     },
     {
       icon: BarChart3,
-      title: "Market Analysis",
-      description: "Comprehensive lender mapping and rate optimization"
-    },
-    {
-      icon: Shield,
-      title: "Structured Proposal",
-      description: "Bespoke lending solution with competitive terms"
+      title: "Step 2 - Customised Proposal",
+      description: "Based on our discussion, we'll provide a customized financing proposal outlining the loan terms and benefits."
     },
     {
       icon: CheckCircle,
-      title: "Seamless Settlement",
-      description: "White-glove execution and ongoing relationship management"
+      title: "Step 3 - Fast Approval and Funding",
+      description: "Once you approve the proposal, we'll expedite the approval process so you receive the funds as quickly as possible."
     }
   ];
 
   const testimonials = [
     {
-      quote: "Emet Capital secured $2.5M development finance when our bank declined. Their expertise and network are unmatched.",
-      client: "Property Development Group",
-      deal: "$2.5M Development Finance"
+      quote: "Emet Capital provided us with a fast and flexible private loan when we needed it most. Their professionalism and efficiency made the entire process seamless. Thanks to them, we expanded our business ahead of schedule.",
+      client: "Sydney Fridges",
+      deal: "Small Business Owner"
     },
     {
-      quote: "The team's deep market knowledge saved us 1.2% on our equipment financing. Exceptional service.",
-      client: "Manufacturing Specialist",
-      deal: "$1.8M Asset Finance"
+      quote: "Using Emet Capital for a bridging loan, I secured my new property without waiting for the old one to settle. Their team understood the urgency and delivered exactly what they promised. Highly recommended!",
+      client: "Michael T.",
+      deal: "Property Investor"
     },
     {
-      quote: "Complex import/export structure completed in 48 hours. True professionals.",
-      client: "International Trader",
-      deal: "$3.2M Trade Finance"
+      quote: "Emet Capital exceeded our expectations with quick, reliable loan funding for our new build. Their attentive team guided us expertly, helping us successfully seize a vital growth opportunity.",
+      client: "James R.",
+      deal: "Property Developer"
     }
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-primary-dark to-primary">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iNCIvPjwvZz48L2c+PC9zdmc+')] opacity-20"></div>
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-muted to-background">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iNCIvPjwvZz48L2c+PC9zdmc+')] opacity-20"></div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className={`max-w-6xl mx-auto text-center transition-all duration-1000 ${isVisible ? 'fade-in-up' : ''}`}>
             <div className="mb-8">
-              <span className="inline-block px-6 py-2 glass-card border border-glass-border rounded-2xl text-accent-light font-medium text-sm mb-6">
-                Australia's Premier Commercial Lending Specialists
+              <span className="inline-block px-6 py-2 bg-card border border-border rounded-2xl text-primary font-medium text-sm mb-6">
+                Private Lending Solutions Across Australia
               </span>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-              <span className="text-foreground">Bespoke Commercial Lending,</span>
+              <span className="text-foreground">Flexible Private Lending Solutions</span>
               <br />
-              <span className="bg-gradient-gold bg-clip-text text-transparent">Expertly Engineered</span>
+              <span className="text-primary">Across Australia</span>
             </h1>
             
             <p className="text-xl lg:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
-              Australia-wide, asset-backed solutions that scale with your ambition. 
-              Connect with industry-leading expertise and an exclusive network of premium lenders.
+              Empowering your financial journey with fast, tailored financing options. 
+              Alternative solutions when traditional banks can't meet your needs.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button 
                 asChild 
                 size="lg"
-                className="bg-gradient-gold hover:scale-105 transition-all duration-300 gold-glow text-accent-foreground font-semibold px-8 py-6 text-lg rounded-2xl"
+                className="bg-primary hover:bg-primary-dark hover:scale-105 transition-all duration-300 text-primary-foreground font-semibold px-8 py-6 text-lg rounded-2xl"
               >
                 <Link to="/contact">
-                  Get Your Quote
+                  Get Started
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
@@ -161,7 +156,7 @@ const Homepage = () => {
                 asChild 
                 size="lg" 
                 variant="outline"
-                className="glass-card hover:scale-105 transition-all duration-300 border-glass-border text-foreground hover:bg-glass px-8 py-6 text-lg rounded-2xl"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground hover:scale-105 transition-all duration-300 px-8 py-6 text-lg rounded-2xl"
               >
                 <Link to="/resources">Explore Resources</Link>
               </Button>
@@ -169,16 +164,16 @@ const Homepage = () => {
             
             <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">$500M+</div>
-                <div className="text-muted-foreground">Loans Facilitated</div>
+                <div className="text-3xl font-bold text-primary mb-2">24hrs</div>
+                <div className="text-muted-foreground">Credit Decision</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">15+ Years</div>
-                <div className="text-muted-foreground">Industry Expertise</div>
+                <div className="text-3xl font-bold text-primary mb-2">48hrs</div>
+                <div className="text-muted-foreground">Funding Available</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">100+ Lenders</div>
-                <div className="text-muted-foreground">Premium Network</div>
+                <div className="text-3xl font-bold text-primary mb-2">0485 952 651</div>
+                <div className="text-muted-foreground">Call Us Today</div>
               </div>
             </div>
           </div>
@@ -196,10 +191,10 @@ const Homepage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              Precision-Engineered Financing Solutions
+              Why Choose Emet Capital?
             </h2>
             <p className="text-xl text-muted-foreground">
-              Three core pillars of commercial lending excellence, designed for ambitious Australian businesses.
+              Fast, flexible, and tailored financing solutions designed for your unique needs.
             </p>
           </div>
 
@@ -212,7 +207,7 @@ const Homepage = () => {
               >
                 <CardContent className="p-8 h-full flex flex-col">
                   <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                    <service.icon className="w-8 h-8 text-primary-dark" />
+                    <service.icon className="w-8 h-8 text-primary-foreground" />
                   </div>
                   <h3 className="text-2xl font-bold text-foreground mb-4">
                     {service.title}
@@ -220,7 +215,7 @@ const Homepage = () => {
                   <p className="text-muted-foreground text-lg leading-relaxed flex-grow">
                     {service.description}
                   </p>
-                  <div className="mt-6 flex items-center text-accent group-hover:translate-x-2 transition-transform duration-300">
+                  <div className="mt-6 flex items-center text-primary group-hover:translate-x-2 transition-transform duration-300">
                     <span className="font-medium">Learn More</span>
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </div>
@@ -231,17 +226,17 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* Why Emet Capital */}
-      <section className="py-32 bg-gradient-to-br from-secondary to-primary relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iNCIvPjwvZz48L2c+PC9zdmc+')] opacity-10"></div>
+      {/* Key Benefits */}
+      <section className="py-32 bg-muted relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iNCIvPjwvZz48L2c+PC9zdmc+')] opacity-10"></div>
         
         <div className="container mx-auto px-4 relative">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              Unmatched Industry Excellence
+              Fast & Reliable Service
             </h2>
             <p className="text-xl text-muted-foreground">
-              Track record of delivering results through deep expertise and strategic partnerships.
+              We prioritize speed, reliability, and transparent service to meet your financial requirements efficiently.
             </p>
           </div>
 
@@ -252,12 +247,12 @@ const Homepage = () => {
                 className="glass-card border-0 text-center group hover-lift"
               >
                 <CardContent className="p-8">
-                  <achievement.icon className="w-12 h-12 text-accent mx-auto mb-6 group-hover:scale-110 transition-transform duration-300" />
+                  <achievement.icon className="w-12 h-12 text-primary mx-auto mb-6 group-hover:scale-110 transition-transform duration-300" />
                   <div className="text-4xl font-bold text-foreground mb-2">{achievement.value}</div>
                   <div className="text-muted-foreground mb-4">{achievement.label}</div>
-                  <div className="w-full bg-secondary rounded-full h-2">
+                  <div className="w-full bg-muted rounded-full h-2">
                     <div 
-                      className="bg-gradient-gold h-2 rounded-full transition-all duration-1000 ease-out"
+                      className="bg-primary h-2 rounded-full transition-all duration-1000 ease-out"
                       style={{ width: `${achievement.progress}%` }}
                     ></div>
                   </div>
@@ -267,17 +262,17 @@ const Homepage = () => {
           </div>
 
           <div className="mt-16 text-center">
-            <div className="inline-flex items-center space-x-8 px-8 py-4 glass-card rounded-2xl">
-              <span className="text-muted-foreground">Trusted by:</span>
-              <div className="flex items-center space-x-6 text-accent">
+            <div className="inline-flex items-center space-x-8 px-8 py-4 bg-card border border-border rounded-2xl">
+              <span className="text-muted-foreground">Expertise in:</span>
+              <div className="flex items-center space-x-6 text-primary">
                 <Building2 className="w-6 h-6" />
-                <span className="text-sm font-medium">Major Banks</span>
-                <div className="w-1 h-6 bg-glass-border"></div>
+                <span className="text-sm font-medium">Non-Bank Lending</span>
+                <div className="w-1 h-6 bg-border"></div>
                 <Globe className="w-6 h-6" />
-                <span className="text-sm font-medium">Non-Bank Lenders</span>
-                <div className="w-1 h-6 bg-glass-border"></div>
+                <span className="text-sm font-medium">Asset-Backed Finance</span>
+                <div className="w-1 h-6 bg-border"></div>
                 <Shield className="w-6 h-6" />
-                <span className="text-sm font-medium">Private Funders</span>
+                <span className="text-sm font-medium">Flexible Terms</span>
               </div>
             </div>
           </div>
@@ -289,24 +284,21 @@ const Homepage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              Streamlined Excellence in Four Steps
+              How We Work
             </h2>
             <p className="text-xl text-muted-foreground">
-              Our proven methodology delivers optimal outcomes through strategic precision.
+              Our streamlined three-step process gets you the funding you need quickly.
             </p>
           </div>
 
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
               {processSteps.map((step, index) => (
                 <div key={step.title} className="relative">
                   <div className="text-center">
                     <div className="relative mb-6">
-                      <div className="w-20 h-20 bg-gradient-gold rounded-2xl flex items-center justify-center mx-auto shadow-glow">
-                        <step.icon className="w-10 h-10 text-primary-dark" />
-                      </div>
-                      <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent text-primary-dark rounded-full flex items-center justify-center text-sm font-bold">
-                        {index + 1}
+                      <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center mx-auto">
+                        <step.icon className="w-10 h-10 text-primary-foreground" />
                       </div>
                     </div>
                     <h3 className="text-xl font-bold text-foreground mb-4">{step.title}</h3>
@@ -314,7 +306,7 @@ const Homepage = () => {
                   </div>
                   
                   {index < processSteps.length - 1 && (
-                    <div className="hidden lg:block absolute top-10 left-full w-full h-0.5 bg-gradient-to-r from-accent to-transparent transform translate-x-4"></div>
+                    <div className="hidden lg:block absolute top-10 left-full w-full h-0.5 bg-gradient-to-r from-primary to-transparent transform translate-x-4"></div>
                   )}
                 </div>
               ))}
@@ -324,7 +316,7 @@ const Homepage = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="py-32 bg-gradient-to-br from-primary to-secondary relative overflow-hidden">
+      <section className="py-32 bg-muted relative overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto mb-20">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
@@ -344,14 +336,14 @@ const Homepage = () => {
                 <CardContent className="p-8">
                   <div className="flex items-center mb-6">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-accent fill-current" />
+                      <Star key={i} className="w-5 h-5 text-primary fill-current" />
                     ))}
                   </div>
                   <blockquote className="text-lg text-foreground mb-6 leading-relaxed">
                     "{testimonial.quote}"
                   </blockquote>
-                  <div className="border-t border-glass-border pt-6">
-                    <div className="font-semibold text-accent">{testimonial.client}</div>
+                  <div className="border-t border-border pt-6">
+                    <div className="font-semibold text-primary">{testimonial.client}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.deal}</div>
                   </div>
                 </CardContent>
@@ -365,52 +357,46 @@ const Homepage = () => {
       <section className="py-32 relative">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <Card className="glass-card border-0 shadow-elegant">
+            <Card className="bg-card border border-border">
               <CardContent className="p-12">
                 <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                  Ready to Engineer Your Success?
+                  Talk to us today!
                 </h2>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Connect with Australia's premier commercial lending specialists. 
-                  Receive a bespoke proposal crafted for your unique requirements.
+                  Ready to explore your financing options? Contact us now for a free, no-obligation chat.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                   <Button 
                     asChild 
                     size="lg"
-                    className="bg-gradient-gold hover:scale-105 transition-all duration-300 gold-glow text-accent-foreground font-semibold px-8 py-6 rounded-2xl"
+                    className="bg-primary hover:bg-primary-dark hover:scale-105 transition-all duration-300 text-primary-foreground font-semibold px-8 py-6 rounded-2xl"
                   >
                     <Link to="/contact">
-                      Get Your Bespoke Quote
+                      Contact Us
                       <ArrowRight className="w-5 h-5 ml-2" />
                     </Link>
                   </Button>
                   
-                  <Button 
-                    asChild 
-                    size="lg" 
-                    variant="outline"
-                    className="glass-card border-glass-border text-foreground hover:bg-glass px-8 py-6 rounded-2xl"
-                  >
-                    <Link to="/resources">Explore Our Expertise</Link>
-                  </Button>
+                  <div className="text-2xl font-bold text-primary">
+                    📞 0485 952 651
+                  </div>
                 </div>
                 
                 <div className="flex items-center justify-center space-x-6 text-sm text-muted-foreground">
                   <div className="flex items-center">
-                    <Timer className="w-4 h-4 mr-2 text-accent" />
-                    72hr Response
+                    <Timer className="w-4 h-4 mr-2 text-primary" />
+                    24hr Credit Decision
                   </div>
-                  <div className="w-1 h-4 bg-glass-border"></div>
+                  <div className="w-1 h-4 bg-border"></div>
                   <div className="flex items-center">
-                    <Shield className="w-4 h-4 mr-2 text-accent" />
-                    No Upfront Fees
+                    <Shield className="w-4 h-4 mr-2 text-primary" />
+                    48hr Funding
                   </div>
-                  <div className="w-1 h-4 bg-glass-border"></div>
+                  <div className="w-1 h-4 bg-border"></div>
                   <div className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2 text-accent" />
-                    Confidential Process
+                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+                    No Obligation Chat
                   </div>
                 </div>
               </CardContent>
