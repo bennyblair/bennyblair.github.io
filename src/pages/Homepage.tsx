@@ -52,10 +52,6 @@ const Homepage = () => {
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <div className="fade-in-up">
-            <Badge className="mb-6 bg-accent/20 text-accent border-accent/30 hover:bg-accent/30">
-              Australia-Wide Premium Lending
-            </Badge>
-            
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Bespoke Commercial Lending,
               <span className="gradient-text block">
@@ -79,14 +75,6 @@ const Homepage = () => {
               </Button>
             </div>
           </div>
-        </div>
-        
-        {/* Floating elements */}
-        <div className="absolute top-20 left-10 opacity-30">
-          <Building2 className="h-16 w-16 text-accent float" />
-        </div>
-        <div className="absolute bottom-20 right-10 opacity-30">
-          <TrendingUp className="h-12 w-12 text-accent-light float" style={{ animationDelay: '2s' }} />
         </div>
       </section>
 
@@ -309,7 +297,7 @@ const Homepage = () => {
               </div>
               
               <Button className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
-                Meet the Team
+                Learn More About Us
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>

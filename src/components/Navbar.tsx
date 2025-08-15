@@ -41,50 +41,33 @@ const Navbar = () => {
             >
               Home
             </Link>
-            
-            <div className="text-sm font-medium text-primary">
-              📞 0485 952 651
-            </div>
 
-            {/* Resources Dropdown */}
-            <div className="relative">
-              <button
-                className={`flex items-center space-x-1 text-sm font-medium transition-colors hover:text-primary ${
-                  location.pathname.startsWith("/resources") ? "text-primary" : "text-muted-foreground"
-                }`}
-                onMouseEnter={() => setIsResourcesOpen(true)}
-                onMouseLeave={() => setIsResourcesOpen(false)}
-              >
-                <span>Resources</span>
-                <ChevronDown className="w-4 h-4" />
-              </button>
-              
-              {isResourcesOpen && (
-                <div
-                  className="absolute top-full left-0 mt-1 w-56 bg-popover border border-border rounded-md shadow-lg z-50"
-                  onMouseEnter={() => setIsResourcesOpen(true)}
-                  onMouseLeave={() => setIsResourcesOpen(false)}
-                >
-                  <div className="py-1">
-                    <Link
-                      to="/resources"
-                      className="block px-4 py-2 text-sm text-popover-foreground hover:bg-muted"
-                    >
-                      Resources Hub
-                    </Link>
-                    {resourcesLinks.map((link) => (
-                      <Link
-                        key={link.href}
-                        to={link.href}
-                        className="block px-4 py-2 text-sm text-popover-foreground hover:bg-muted"
-                      >
-                        {link.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
+            <Link
+              to="/consultation"
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                isActive("/consultation") ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              Consultation
+            </Link>
+
+            <Link
+              to="/services"
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                isActive("/services") ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              Services
+            </Link>
+
+            <Link
+              to="/about"
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                isActive("/about") ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              About Us
+            </Link>
 
             <Link
               to="/contact"
@@ -92,8 +75,12 @@ const Navbar = () => {
                 isActive("/contact") ? "text-primary" : "text-muted-foreground"
               }`}
             >
-              Contact
+              Contact Us
             </Link>
+            
+            <div className="text-sm font-medium text-primary">
+              📞 0485 952 651
+            </div>
           </div>
 
           {/* CTA Button */}
@@ -131,28 +118,32 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                to="/resources"
+                to="/consultation"
                 className="block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-primary"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Resources
+                Consultation
               </Link>
-              {resourcesLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  to={link.href}
-                  className="block px-6 py-2 text-sm text-muted-foreground hover:text-primary"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              ))}
+              <Link
+                to="/services"
+                className="block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-primary"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Services
+              </Link>
+              <Link
+                to="/about"
+                className="block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-primary"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                About Us
+              </Link>
               <Link
                 to="/contact"
                 className="block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-primary"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Contact
+                Contact Us
               </Link>
               <div className="px-4 pt-2 space-y-2">
                 <div className="text-center text-primary font-medium py-2">
