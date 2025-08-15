@@ -180,14 +180,14 @@ const Contact = () => {
                   <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-primary" />
                     <div>
-                      <div className="font-medium text-foreground">1300 EMET CAPITAL</div>
+                      <div className="font-medium text-foreground">0485 952 651</div>
                       <div className="text-sm text-muted-foreground">Monday to Friday, 8:00 AM - 6:00 PM</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-primary" />
                     <div>
-                      <div className="font-medium text-foreground">info@emetcapital.com.au</div>
+                      <div className="font-medium text-foreground">enquiry@emetcapital.com.au</div>
                       <div className="text-sm text-muted-foreground">We respond within 2 hours</div>
                     </div>
                   </div>
@@ -235,7 +235,7 @@ const Contact = () => {
                   className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
                   asChild
                 >
-                  <a href="tel:1300363822">Call Now: 1300 EMET CAPITAL</a>
+                  <a href="tel:0485952651">Call Now: 0485 952 651</a>
                 </Button>
               </CardContent>
             </Card>
