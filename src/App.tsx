@@ -14,6 +14,8 @@ import FAQs from "./pages/FAQs";
 import MarketInsights from "./pages/MarketInsights";
 import GuideArticle from "./pages/GuideArticle";
 import Contact from "./pages/Contact";
+import Services from "./pages/Services";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -39,8 +41,8 @@ const App = () => (
             <Route path="/resources/insights/:slug" element={<GuideArticle />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/consultation" element={<Contact />} />
-            <Route path="/services" element={<Homepage />} />
-            <Route path="/about" element={<Homepage />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
