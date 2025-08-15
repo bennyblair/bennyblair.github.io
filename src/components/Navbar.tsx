@@ -26,7 +26,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">E</span>
+              <span className="text-primary-foreground font-bold text-sm">Emet</span>
             </div>
             <span className="text-xl font-bold text-primary">Emet Capital</span>
           </Link>
@@ -67,6 +67,15 @@ const Navbar = () => {
               }`}
             >
               About Us
+            </Link>
+
+            <Link
+              to="/resources"
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                location.pathname.startsWith("/resources") ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              Resources
             </Link>
 
             <Link
@@ -137,6 +146,13 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About Us
+              </Link>
+              <Link
+                to="/resources"
+                className="block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-primary"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Resources
               </Link>
               <Link
                 to="/contact"

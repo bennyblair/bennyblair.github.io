@@ -94,18 +94,18 @@ const Homepage = () => {
             {[
               {
                 icon: Building2,
-                title: "Asset Finance",
-                description: "Unlock the equipment and assets your business needs to grow with flexible financing solutions."
+                title: "Private Commercial Lending",
+                description: "Fast, flexible commercial lending solutions when traditional banks can't meet your timeline or requirements."
               },
               {
                 icon: TrendingUp,
-                title: "Debtor Funding",
-                description: "Transform outstanding invoices into immediate working capital for operational flexibility."
+                title: "Bridging & Development Finance",
+                description: "Short-term funding for property development, bridging finance, and time-sensitive commercial opportunities."
               },
               {
                 icon: Shield,
-                title: "Structured Lending",
-                description: "Bespoke facilities for complex acquisitions, MBOs, and growth initiatives."
+                title: "Asset-Backed Lending",
+                description: "Leverage your commercial property, equipment, or business assets to secure competitive funding solutions."
               }
             ].map((service, index) => (
               <Card key={index} className="premium-card group">
@@ -138,10 +138,11 @@ const Homepage = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-4 gap-8 mb-16">
             {[
               { label: "Approval Speed", value: 95, suffix: "% within 24hrs" },
               { label: "Deal Success Rate", value: 87, suffix: "% approved" },
+              { label: "Google Rating", value: 5, suffix: " stars (18 reviews)" },
               { label: "Client Satisfaction", value: 98, suffix: "% rating" }
             ].map((metric, index) => (
               <Card key={index} className="premium-card text-center">
@@ -150,12 +151,12 @@ const Homepage = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="text-4xl font-bold gradient-text mb-4">
-                    {metric.value}{metric.suffix.includes('%') ? '%' : ''}
+                    {metric.value}{metric.suffix.includes('stars') ? '' : '%'}
                   </div>
                   <div className="progress-bar mb-4">
                     <div 
                       className="progress-fill" 
-                      style={{ width: `${metric.value}%` }}
+                      style={{ width: `${metric.value === 5 ? 100 : metric.value}%` }}
                     />
                   </div>
                   <p className="text-sm text-muted-foreground">
@@ -372,7 +373,7 @@ const Homepage = () => {
           <div className="grid md:grid-cols-3 gap-8 mt-16 text-center">
             {[
               { icon: Phone, title: "Call Us", content: "0485 952 651" },
-              { icon: Mail, title: "Email Us", content: "info@emetcapital.com.au" },
+              { icon: Mail, title: "Email Us", content: "enquiry@emetcapital.com.au" },
               { icon: MapPin, title: "Australia Wide", content: "Serving all states & territories" }
             ].map((contact, index) => (
               <div key={index} className="premium-card p-6 hover-lift">
