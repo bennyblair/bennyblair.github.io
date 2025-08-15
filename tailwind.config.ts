@@ -33,8 +33,8 @@ export default {
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))',
-					blue: 'hsl(var(--secondary-blue))',
-					'blue-foreground': 'hsl(var(--secondary-blue-foreground))'
+					light: 'hsl(var(--secondary-light))',
+					dark: 'hsl(var(--secondary-dark))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -48,7 +48,8 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))',
 					light: 'hsl(var(--accent-light))',
-					dark: 'hsl(var(--accent-dark))'
+					dark: 'hsl(var(--accent-dark))',
+					metallic: 'hsl(var(--accent-metallic))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -58,6 +59,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))',
 					hover: 'hsl(var(--card-hover))'
+				},
+				glass: {
+					DEFAULT: 'hsl(var(--glass))',
+					border: 'hsl(var(--glass-border))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -71,9 +76,26 @@ export default {
 				}
 			},
 			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
+				lg: 'var(--radius-lg)',
+				md: 'var(--radius)',
+				sm: 'calc(var(--radius) - 4px)',
+				xl: 'var(--radius-xl)',
+				'2xl': '2rem'
+			},
+			boxShadow: {
+				elegant: 'var(--shadow-elegant)',
+				glass: 'var(--shadow-glass)',
+				glow: 'var(--shadow-glow)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-glass': 'var(--gradient-glass)'
+			},
+			transitionTimingFunction: {
+				'spring': 'cubic-bezier(0.34, 1.56, 0.64, 1)',
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)'
 			},
 			keyframes: {
 				'accordion-down': {
