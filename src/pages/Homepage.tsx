@@ -1,224 +1,134 @@
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Progress } from "@/components/ui/progress";
 import { 
   Building2, 
-  FileText, 
-  Banknote, 
   TrendingUp, 
   Shield, 
-  Truck,
-  ArrowRight,
-  CheckCircle,
-  Users,
   Clock,
-  DollarSign,
+  CheckCircle,
+  ArrowRight,
+  Phone,
+  Mail,
+  MapPin,
   Star,
   Zap,
-  Trophy,
   Target,
-  Handshake,
-  BarChart3,
-  Globe,
-  Timer
+  Award,
+  Users,
+  DollarSign
 } from "lucide-react";
-import { useState, useEffect } from "react";
 
 const Homepage = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    setIsVisible(true);
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const services = [
-    {
-      icon: Building2,
-      title: "Private Lending",
-      description: "Quick access to funds with flexible terms tailored to your needs as an alternative to traditional bank loans.",
-      gradient: "from-primary to-primary-light"
-    },
-    {
-      icon: FileText,
-      title: "Bridging Finance",
-      description: "Short-term financing to help you cover the gap between buying a new property and selling your current one.",
-      gradient: "from-primary-light to-primary"
-    },
-    {
-      icon: TrendingUp,
-      title: "Asset-Based Lending",
-      description: "Use your assets to get the funding you need to drive growth, improve cash flow, or seize new opportunities.",
-      gradient: "from-primary to-primary-dark"
-    }
-  ];
-
-  const achievements = [
-    { 
-      icon: Zap, 
-      value: "24hrs", 
-      label: "Credit Decision",
-      progress: 95 
-    },
-    { 
-      icon: Timer, 
-      value: "48hrs", 
-      label: "Funding Available",
-      progress: 88 
-    },
-    { 
-      icon: CheckCircle, 
-      value: "Flexible", 
-      label: "Terms",
-      progress: 98 
-    },
-    { 
-      icon: Shield, 
-      value: "Asset", 
-      label: "Backed",
-      progress: 92 
-    }
-  ];
-
-  const processSteps = [
-    {
-      icon: Handshake,
-      title: "Step 1 - Fact Find",
-      description: "We start with a detailed consultation to understand your financial needs and goals."
-    },
-    {
-      icon: BarChart3,
-      title: "Step 2 - Customised Proposal",
-      description: "Based on our discussion, we'll provide a customized financing proposal outlining the loan terms and benefits."
-    },
-    {
-      icon: CheckCircle,
-      title: "Step 3 - Fast Approval and Funding",
-      description: "Once you approve the proposal, we'll expedite the approval process so you receive the funds as quickly as possible."
-    }
-  ];
-
-  const testimonials = [
-    {
-      quote: "Emet Capital provided us with a fast and flexible private loan when we needed it most. Their professionalism and efficiency made the entire process seamless. Thanks to them, we expanded our business ahead of schedule.",
-      client: "Sydney Fridges",
-      deal: "Small Business Owner"
-    },
-    {
-      quote: "Using Emet Capital for a bridging loan, I secured my new property without waiting for the old one to settle. Their team understood the urgency and delivered exactly what they promised. Highly recommended!",
-      client: "Michael T.",
-      deal: "Property Investor"
-    },
-    {
-      quote: "Emet Capital exceeded our expectations with quick, reliable loan funding for our new build. Their attentive team guided us expertly, helping us successfully seize a vital growth opportunity.",
-      client: "James R.",
-      deal: "Property Developer"
-    }
-  ];
-
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-muted to-background">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iNCIvPjwvZz48L2c+PC9zdmc+')] opacity-20"></div>
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Animated background */}
+        <div 
+          className="absolute inset-0 bg-gradient-to-br from-primary via-primary-dark to-background"
+          style={{
+            transform: `translateY(${scrollY * 0.5}px)`,
+          }}
+        />
         
-        <div className="container mx-auto px-4 relative z-10">
-          <div className={`max-w-6xl mx-auto text-center transition-all duration-1000 ${isVisible ? 'fade-in-up' : ''}`}>
-            <div className="mb-8">
-              <span className="inline-block px-6 py-2 bg-card border border-border rounded-2xl text-primary font-medium text-sm mb-6">
-                Private Lending Solutions Across Australia
-              </span>
-            </div>
+        {/* Glassmorphism overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/10 to-background/30" />
+        
+        {/* Hero content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
+          <div className="fade-in-up">
+            <Badge className="mb-6 bg-accent/20 text-accent border-accent/30 hover:bg-accent/30">
+              Australia-Wide Premium Lending
+            </Badge>
             
-            <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-              <span className="text-foreground">Flexible Private Lending Solutions</span>
-              <br />
-              <span className="text-primary">Across Australia</span>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+              Bespoke Commercial Lending,
+              <span className="gradient-text block">
+                Expertly Engineered
+              </span>
             </h1>
             
-            <p className="text-xl lg:text-2xl text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
-              Empowering your financial journey with fast, tailored financing options. 
-              Alternative solutions when traditional banks can't meet your needs.
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+              Australia-wide, asset-backed solutions that scale with your ambition
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button 
-                asChild 
-                size="lg"
-                className="bg-primary hover:bg-primary-dark hover:scale-105 transition-all duration-300 text-primary-foreground font-semibold px-8 py-6 text-lg rounded-2xl"
-              >
-                <Link to="/contact">
-                  Get Started
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-8 py-6 text-lg rounded-2xl hover-lift">
+                Get Your Quote
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               
-              <Button 
-                asChild 
-                size="lg" 
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground hover:scale-105 transition-all duration-300 px-8 py-6 text-lg rounded-2xl"
-              >
-                <Link to="/resources">Explore Resources</Link>
+              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-8 py-6 text-lg rounded-2xl">
+                <Phone className="mr-2 h-5 w-5" />
+                0485 952 651
               </Button>
-            </div>
-            
-            <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">24hrs</div>
-                <div className="text-muted-foreground">Credit Decision</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">48hrs</div>
-                <div className="text-muted-foreground">Funding Available</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">0485 952 651</div>
-                <div className="text-muted-foreground">Call Us Today</div>
-              </div>
             </div>
           </div>
         </div>
         
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-accent rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-accent rounded-full mt-2 animate-pulse"></div>
-          </div>
+        {/* Floating elements */}
+        <div className="absolute top-20 left-10 opacity-30">
+          <Building2 className="h-16 w-16 text-accent float" />
+        </div>
+        <div className="absolute bottom-20 right-10 opacity-30">
+          <TrendingUp className="h-12 w-12 text-accent-light float" style={{ animationDelay: '2s' }} />
         </div>
       </section>
 
       {/* What We Do */}
-      <section className="py-32 relative">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-4xl mx-auto mb-20">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              Why Choose Emet Capital?
+      <section className="py-24 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              What We <span className="gradient-text">Do</span>
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Fast, flexible, and tailored financing solutions designed for your unique needs.
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Three core pillars of commercial finance excellence
             </p>
           </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {services.map((service, index) => (
-              <Card 
-                key={service.title} 
-                className={`glass-card hover-lift group cursor-pointer border-0 ${isVisible ? 'scale-in' : ''}`}
-                style={{ animationDelay: `${index * 200}ms` }}
-              >
-                <CardContent className="p-8 h-full flex flex-col">
-                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                    <service.icon className="w-8 h-8 text-primary-foreground" />
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                icon: Building2,
+                title: "Asset Finance",
+                description: "Unlock the equipment and assets your business needs to grow with flexible financing solutions."
+              },
+              {
+                icon: TrendingUp,
+                title: "Debtor Funding",
+                description: "Transform outstanding invoices into immediate working capital for operational flexibility."
+              },
+              {
+                icon: Shield,
+                title: "Structured Lending",
+                description: "Bespoke facilities for complex acquisitions, MBOs, and growth initiatives."
+              }
+            ].map((service, index) => (
+              <Card key={index} className="premium-card group">
+                <CardHeader className="text-center pb-4">
+                  <div className="mx-auto mb-4 p-4 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
+                    <service.icon className="h-8 w-8 text-accent" />
                   </div>
-                  <h3 className="text-2xl font-bold text-foreground mb-4">
-                    {service.title}
-                  </h3>
-                  <p className="text-muted-foreground text-lg leading-relaxed flex-grow">
+                  <CardTitle className="text-2xl mb-2">{service.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-center text-muted-foreground text-lg leading-relaxed">
                     {service.description}
-                  </p>
-                  <div className="mt-6 flex items-center text-primary group-hover:translate-x-2 transition-transform duration-300">
-                    <span className="font-medium">Learn More</span>
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </div>
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
@@ -226,126 +136,104 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* Key Benefits */}
-      <section className="py-32 bg-muted relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMwMDAwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iNCIvPjwvZz48L2c+PC9zdmc+')] opacity-10"></div>
-        
-        <div className="container mx-auto px-4 relative">
-          <div className="text-center max-w-4xl mx-auto mb-20">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              Fast & Reliable Service
+      {/* Why Emet Capital */}
+      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/5">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Why <span className="gradient-text">Emet Capital</span>
             </h2>
-            <p className="text-xl text-muted-foreground">
-              We prioritize speed, reliability, and transparent service to meet your financial requirements efficiently.
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Industry-leading metrics that speak to our expertise
             </p>
           </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
-              <Card 
-                key={achievement.label} 
-                className="glass-card border-0 text-center group hover-lift"
-              >
-                <CardContent className="p-8">
-                  <achievement.icon className="w-12 h-12 text-primary mx-auto mb-6 group-hover:scale-110 transition-transform duration-300" />
-                  <div className="text-4xl font-bold text-foreground mb-2">{achievement.value}</div>
-                  <div className="text-muted-foreground mb-4">{achievement.label}</div>
-                  <div className="w-full bg-muted rounded-full h-2">
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            {[
+              { label: "Approval Speed", value: 95, suffix: "% within 24hrs" },
+              { label: "Deal Success Rate", value: 87, suffix: "% approved" },
+              { label: "Client Satisfaction", value: 98, suffix: "% rating" }
+            ].map((metric, index) => (
+              <Card key={index} className="premium-card text-center">
+                <CardHeader>
+                  <CardTitle className="text-lg text-muted-foreground">{metric.label}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-4xl font-bold gradient-text mb-4">
+                    {metric.value}{metric.suffix.includes('%') ? '%' : ''}
+                  </div>
+                  <div className="progress-bar mb-4">
                     <div 
-                      className="bg-primary h-2 rounded-full transition-all duration-1000 ease-out"
-                      style={{ width: `${achievement.progress}%` }}
-                    ></div>
+                      className="progress-fill" 
+                      style={{ width: `${metric.value}%` }}
+                    />
                   </div>
+                  <p className="text-sm text-muted-foreground">
+                    {metric.suffix.replace('%', '')}
+                  </p>
                 </CardContent>
               </Card>
             ))}
           </div>
-
-          <div className="mt-16 text-center">
-            <div className="inline-flex items-center space-x-8 px-8 py-4 bg-card border border-border rounded-2xl">
-              <span className="text-muted-foreground">Expertise in:</span>
-              <div className="flex items-center space-x-6 text-primary">
-                <Building2 className="w-6 h-6" />
-                <span className="text-sm font-medium">Non-Bank Lending</span>
-                <div className="w-1 h-6 bg-border"></div>
-                <Globe className="w-6 h-6" />
-                <span className="text-sm font-medium">Asset-Backed Finance</span>
-                <div className="w-1 h-6 bg-border"></div>
-                <Shield className="w-6 h-6" />
-                <span className="text-sm font-medium">Flexible Terms</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works */}
-      <section className="py-32">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-4xl mx-auto mb-20">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              How We Work
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Our streamlined three-step process gets you the funding you need quickly.
-            </p>
-          </div>
-
-          <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8">
-              {processSteps.map((step, index) => (
-                <div key={step.title} className="relative">
-                  <div className="text-center">
-                    <div className="relative mb-6">
-                      <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center mx-auto">
-                        <step.icon className="w-10 h-10 text-primary-foreground" />
-                      </div>
-                    </div>
-                    <h3 className="text-xl font-bold text-foreground mb-4">{step.title}</h3>
-                    <p className="text-muted-foreground">{step.description}</p>
-                  </div>
-                  
-                  {index < processSteps.length - 1 && (
-                    <div className="hidden lg:block absolute top-10 left-full w-full h-0.5 bg-gradient-to-r from-primary to-transparent transform translate-x-4"></div>
-                  )}
-                </div>
+          
+          {/* As Seen In */}
+          <div className="text-center">
+            <p className="text-muted-foreground mb-8">Trusted by industry leaders</p>
+            <div className="flex justify-center items-center gap-8 opacity-60">
+              {[1, 2, 3, 4, 5].map((i) => (
+                <div key={i} className="h-12 w-24 bg-muted/30 rounded-lg" />
               ))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-32 bg-muted relative overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-4xl mx-auto mb-20">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8">
-              Client Success Stories
+      {/* Case Studies */}
+      <section className="py-24 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Success <span className="gradient-text">Stories</span>
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Real results from real partnerships across diverse industry sectors.
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Real deals, real results, real growth
             </p>
           </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {testimonials.map((testimonial, index) => (
-              <Card 
-                key={index} 
-                className="glass-card border-0 hover-lift"
-              >
-                <CardContent className="p-8">
-                  <div className="flex items-center mb-6">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-primary fill-current" />
-                    ))}
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {[
+              {
+                amount: "$2.4M",
+                type: "Equipment Finance",
+                industry: "Manufacturing",
+                result: "Enabled 40% production increase",
+                quote: "Emet Capital understood our unique needs and delivered exactly what we required."
+              },
+              {
+                amount: "$850K",
+                type: "Debtor Finance",
+                industry: "Logistics",
+                result: "Improved cash flow by 60%",
+                quote: "The speed of approval meant we could take on contracts we would have missed."
+              }
+            ].map((study, index) => (
+              <Card key={index} className="premium-card">
+                <CardHeader>
+                  <div className="flex items-center gap-4 mb-4">
+                    <Badge className="bg-accent/20 text-accent">
+                      {study.type}
+                    </Badge>
+                    <Badge variant="outline">
+                      {study.industry}
+                    </Badge>
                   </div>
-                  <blockquote className="text-lg text-foreground mb-6 leading-relaxed">
-                    "{testimonial.quote}"
+                  <CardTitle className="text-3xl gradient-text">{study.amount}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-lg font-medium mb-4">{study.result}</p>
+                  <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
+                    "{study.quote}"
                   </blockquote>
-                  <div className="border-t border-border pt-6">
-                    <div className="font-semibold text-primary">{testimonial.client}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.deal}</div>
-                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -353,54 +241,156 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-32 relative">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <Card className="bg-card border border-border">
-              <CardContent className="p-12">
-                <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                  Talk to us today!
-                </h2>
-                <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Ready to explore your financing options? Contact us now for a free, no-obligation chat.
-                </p>
+      {/* How It Works */}
+      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/5">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              How It <span className="gradient-text">Works</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Four simple steps to funding success
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-4 gap-8">
+            {[
+              { step: "01", title: "Enquiry", description: "Tell us about your funding requirements" },
+              { step: "02", title: "Assessment", description: "We evaluate your proposal and present options" },
+              { step: "03", title: "Approval", description: "Fast-track approval with our lender network" },
+              { step: "04", title: "Settlement", description: "Quick settlement and funding deployment" }
+            ].map((step, index) => (
+              <div key={index} className="text-center group">
+                <div className="premium-card p-8 mb-4">
+                  <div className="text-4xl font-bold gradient-text mb-4">{step.step}</div>
+                  <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground">{step.description}</p>
+                </div>
+                {index < 3 && (
+                  <ArrowRight className="hidden md:block absolute top-1/2 -right-4 h-6 w-6 text-accent opacity-50" />
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* About Us */}
+      <section className="py-24 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="fade-in-up">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                Built by Industry Insiders, 
+                <span className="gradient-text block">
+                  Backed by Deep Expertise
+                </span>
+              </h2>
+              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+                Our founding team brings decades of combined experience from Australia's leading 
+                financial institutions. We understand the complexities of commercial lending 
+                because we've lived them.
+              </p>
+              
+              <div className="grid sm:grid-cols-3 gap-6 mb-8">
+                {[
+                  { icon: Award, label: "20+ Years", description: "Combined Experience" },
+                  { icon: Users, label: "500+", description: "Deals Completed" },
+                  { icon: DollarSign, label: "$250M+", description: "Funds Deployed" }
+                ].map((stat, index) => (
+                  <div key={index} className="text-center">
+                    <stat.icon className="h-8 w-8 text-accent mx-auto mb-2" />
+                    <div className="text-2xl font-bold gradient-text">{stat.label}</div>
+                    <div className="text-sm text-muted-foreground">{stat.description}</div>
+                  </div>
+                ))}
+              </div>
+              
+              <Button className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
+                Meet the Team
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+            
+            <div className="relative">
+              <div className="premium-card p-8">
+                <div className="grid grid-cols-2 gap-4">
+                  {[1, 2, 3, 4].map((i) => (
+                    <div key={i} className="aspect-square bg-muted/30 rounded-xl hover:bg-muted/50 transition-colors" />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form */}
+      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/10">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16 fade-in-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Ready to <span className="gradient-text">Get Started?</span>
+            </h2>
+            <p className="text-xl text-muted-foreground">
+              Tell us about your requirements and we'll be in touch within 24 hours
+            </p>
+          </div>
+          
+          <Card className="premium-card">
+            <CardContent className="p-8">
+              <form className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-sm font-medium mb-2">Name</label>
+                  <Input className="bg-background/50 border-glass-border focus:border-accent" />
+                </div>
                 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                  <Button 
-                    asChild 
-                    size="lg"
-                    className="bg-primary hover:bg-primary-dark hover:scale-105 transition-all duration-300 text-primary-foreground font-semibold px-8 py-6 rounded-2xl"
-                  >
-                    <Link to="/contact">
-                      Contact Us
-                      <ArrowRight className="w-5 h-5 ml-2" />
-                    </Link>
+                <div>
+                  <label className="block text-sm font-medium mb-2">Email</label>
+                  <Input type="email" className="bg-background/50 border-glass-border focus:border-accent" />
+                </div>
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Phone</label>
+                  <Input type="tel" className="bg-background/50 border-glass-border focus:border-accent" />
+                </div>
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Funding Amount</label>
+                  <Input placeholder="e.g. $500,000" className="bg-background/50 border-glass-border focus:border-accent" />
+                </div>
+                
+                <div className="md:col-span-2">
+                  <label className="block text-sm font-medium mb-2">Tell us about your requirements</label>
+                  <Textarea 
+                    className="bg-background/50 border-glass-border focus:border-accent min-h-[120px]" 
+                    placeholder="Describe your funding needs, timeline, and any specific requirements..."
+                  />
+                </div>
+                
+                <div className="md:col-span-2">
+                  <Button className="w-full bg-accent hover:bg-accent-light text-accent-foreground py-6 text-lg hover-lift">
+                    Submit Your Enquiry
+                    <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
-                  
-                  <div className="text-2xl font-bold text-primary">
-                    📞 0485 952 651
-                  </div>
                 </div>
-                
-                <div className="flex items-center justify-center space-x-6 text-sm text-muted-foreground">
-                  <div className="flex items-center">
-                    <Timer className="w-4 h-4 mr-2 text-primary" />
-                    24hr Credit Decision
-                  </div>
-                  <div className="w-1 h-4 bg-border"></div>
-                  <div className="flex items-center">
-                    <Shield className="w-4 h-4 mr-2 text-primary" />
-                    48hr Funding
-                  </div>
-                  <div className="w-1 h-4 bg-border"></div>
-                  <div className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    No Obligation Chat
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+              </form>
+            </CardContent>
+          </Card>
+          
+          {/* Contact Info */}
+          <div className="grid md:grid-cols-3 gap-8 mt-16 text-center">
+            {[
+              { icon: Phone, title: "Call Us", content: "0485 952 651" },
+              { icon: Mail, title: "Email Us", content: "info@emetcapital.com.au" },
+              { icon: MapPin, title: "Australia Wide", content: "Serving all states & territories" }
+            ].map((contact, index) => (
+              <div key={index} className="premium-card p-6 hover-lift">
+                <contact.icon className="h-8 w-8 text-accent mx-auto mb-4" />
+                <h3 className="font-semibold mb-2">{contact.title}</h3>
+                <p className="text-muted-foreground">{contact.content}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
