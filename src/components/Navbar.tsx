@@ -32,7 +32,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
             <Link
               to="/"
               className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
@@ -86,7 +86,7 @@ const Navbar = () => {
             </div>
             
             {/* CTA Button */}
-            <div className="hidden lg:block">
+            <div className="hidden md:block">
               <Button 
                 asChild
                 className="bg-primary hover:bg-primary-dark text-primary-foreground font-medium whitespace-nowrap"
@@ -97,7 +97,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Button */}
             <button
-              className="lg:hidden p-2"
+              className="md:hidden p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? (
@@ -111,7 +111,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden border-t border-border">
+          <div className="md:hidden border-t border-border">
             <div className="py-4 space-y-2">
               <Link
                 to="/"
