@@ -228,7 +228,7 @@ const FAQs = () => {
               Didn't Find Your Answer?
             </h2>
             <p className="text-primary-foreground/90 mb-6">
-              Our commercial lending experts are ready to provide personalized answers to your specific questions and circumstances.
+              Our commercial lending specialists are ready to discuss your specific questions and circumstances.
             </p>
             <Button 
               asChild 

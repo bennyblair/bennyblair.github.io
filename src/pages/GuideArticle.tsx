@@ -139,7 +139,7 @@ const GuideArticle = () => {
               Ready to Explore Bridging Finance Options?
             </h2>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Our commercial lending experts can assess your specific situation and connect you with the right bridging finance solution. Get a personalized quote today.
+              Our commercial lending specialists can assess your specific situation and connect you with the right bridging finance solution. Get a custom quote today.
             </p>
             <Button 
               asChild 

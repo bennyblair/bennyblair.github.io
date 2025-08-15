@@ -224,7 +224,7 @@ const Guides = () => {
               Can't Find What You're Looking For?
             </h2>
             <p className="text-muted-foreground mb-6">
-              Our lending experts are here to help with personalized advice for your specific situation.
+              Our lending specialists are here to help with information tailored to your specific situation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

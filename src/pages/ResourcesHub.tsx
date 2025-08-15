@@ -91,8 +91,8 @@ const ResourcesHub = () => {
   ];
 
   const keyTakeaways = [
-    "Access expert commercial lending knowledge from industry professionals",
-    "Understand different loan types and their optimal use cases",
+    "Access comprehensive commercial lending information from industry professionals",
+    "Understand different loan types and their optimal use cases", 
     "Learn from real client success stories and outcomes",
     "Use professional-grade calculators and planning tools",
     "Stay updated with the latest market trends and rates"
@@ -112,14 +112,14 @@ const ResourcesHub = () => {
             Commercial Lending Resources
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Expert insights, tools, and guidance to help you navigate Australia's commercial lending landscape. Everything you need to make informed financing decisions.
+            Comprehensive insights, tools, and information to help you navigate Australia's commercial lending landscape. Everything you need to make informed financing decisions.
           </p>
           <Button 
             asChild 
             size="lg"
             className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
           >
-            <Link to="/contact">Get Expert Advice</Link>
+            <Link to="/contact">Discuss Your Requirements</Link>
           </Button>
         </div>
 
@@ -214,10 +214,10 @@ const ResourcesHub = () => {
         <section className="text-center mt-16 py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
           <div className="max-w-3xl mx-auto px-8">
             <h2 className="text-3xl font-bold text-primary-foreground mb-6">
-              Need Personalized Advice?
+              Need Bespoke Lending Solutions?
             </h2>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Our resources provide valuable insights, but every business is unique. Get personalized commercial lending advice from our expert team.
+              Our resources provide valuable insights, but every business is unique. Connect with our commercial lending specialists to explore tailored financing options.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

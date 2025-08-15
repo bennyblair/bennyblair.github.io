@@ -269,7 +269,7 @@ const MarketInsights = () => {
               Stay Updated with Market Insights
             </h2>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Get weekly market updates, rate alerts, and expert analysis delivered directly to your inbox. Stay ahead of market changes that could impact your business.
+              Get weekly market updates, rate alerts, and industry analysis delivered directly to your inbox. Stay ahead of market changes that could impact your business.
             </p>
             <form onSubmit={handleNewsletterSubmit} className="max-w-md mx-auto">
               <div className="flex gap-4">
@@ -299,10 +299,10 @@ const MarketInsights = () => {
         <section className="text-center py-12 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
           <div className="max-w-2xl mx-auto px-8">
             <h2 className="text-2xl font-bold text-primary-foreground mb-4">
-              Need Market-Specific Advice?
+              Need Market-Specific Information?
             </h2>
             <p className="text-primary-foreground/90 mb-6">
-              Our market insights provide general trends, but your specific situation deserves personalized analysis. Get expert advice tailored to your industry and financing needs.
+              Our market insights provide general trends, but your specific situation deserves tailored information. Connect with our specialists for industry-specific financing options.
             </p>
             <Button 
               asChild 

@@ -174,7 +174,7 @@ const Tools = () => {
                     asChild 
                     className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
                   >
-                    <Link to="/contact">Get Personalized Quote</Link>
+                    <Link to="/contact">Get Custom Quote</Link>
                   </Button>
                 </div>
               </div>
@@ -253,7 +253,7 @@ const Tools = () => {
               Need More Than Just Calculations?
             </h2>
             <p className="text-primary-foreground/90 mb-6">
-              Our tools provide estimates, but every business situation is unique. Get expert analysis and personalized lending solutions.
+              Our tools provide estimates, but every business situation is unique. Connect with our commercial lending specialists for tailored solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -262,7 +262,7 @@ const Tools = () => {
                 className="bg-accent hover:bg-accent-dark text-accent-foreground"
               >
                 <Link to="/contact">
-                  Speak with Expert
+                  Speak with Specialist
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
               </Button>
