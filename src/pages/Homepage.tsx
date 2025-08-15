@@ -52,24 +52,24 @@ const Homepage = () => {
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <div className="fade-in-up">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
               Bespoke Commercial Lending,
-              <span className="gradient-text block">
+              <span className="gradient-text block mt-2">
                 Expertly Engineered
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
               Australia-wide, asset-backed solutions that scale with your ambition
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-8 py-6 text-lg rounded-2xl hover-lift">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
                 Get Your Quote
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               
-              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-8 py-6 text-lg rounded-2xl">
+              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-7 text-lg rounded-2xl">
                 <Phone className="mr-2 h-5 w-5" />
                 0485 952 651
               </Button>
@@ -79,13 +79,13 @@ const Homepage = () => {
       </section>
 
       {/* What We Do */}
-      <section className="py-24 px-4">
+      <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               What We <span className="gradient-text">Do</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Three core pillars of commercial finance excellence
             </p>
           </div>
@@ -110,13 +110,13 @@ const Homepage = () => {
             ].map((service, index) => (
               <Card key={index} className="premium-card group">
                 <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-4 p-4 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
-                    <service.icon className="h-8 w-8 text-accent" />
+                  <div className="mx-auto mb-6 p-6 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
+                    <service.icon className="h-10 w-10 text-accent" />
                   </div>
-                  <CardTitle className="text-2xl mb-2">{service.title}</CardTitle>
+                  <CardTitle className="text-xl md:text-2xl mb-4">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-center text-muted-foreground text-lg leading-relaxed">
+                  <CardDescription className="text-center text-muted-foreground text-base md:text-lg leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardContent>
@@ -127,13 +127,13 @@ const Homepage = () => {
       </section>
 
       {/* Why Emet Capital */}
-      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/5">
+      <section className="py-20 px-4 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               Why <span className="gradient-text">Emet Capital</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Industry-leading metrics that speak to our expertise
             </p>
           </div>
