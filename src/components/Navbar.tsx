@@ -24,11 +24,19 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 flex-shrink-0">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">Emet</span>
+          <Link to="/" className="flex items-center space-x-3 flex-shrink-0 group">
+            <div className="relative">
+              <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl">
+                <span className="text-primary-foreground font-bold text-lg">1</span>
+              </div>
+              <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary-glow/20 rounded-xl blur opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
             </div>
-            <span className="text-xl font-bold text-primary">Emet Capital</span>
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+                emet capital
+              </span>
+              <span className="text-xs text-muted-foreground -mt-1">Commercial Lending</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
