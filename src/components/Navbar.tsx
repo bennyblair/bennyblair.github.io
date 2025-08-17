@@ -2,6 +2,12 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -59,14 +65,28 @@ const Navbar = () => {
               Services
             </Link>
 
-            <Link
-              to="/resources"
-              className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
+            <DropdownMenu>
+              <DropdownMenuTrigger className={`flex items-center space-x-1 text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
                 location.pathname.startsWith("/resources") ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
-              Resources
-            </Link>
+              }`}>
+                <span>Resources</span>
+                <ChevronDown className="w-4 h-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="w-56 bg-card border-border">
+                <DropdownMenuItem asChild>
+                  <Link to="/resources" className="w-full">
+                    Resources Hub
+                  </Link>
+                </DropdownMenuItem>
+                {resourcesLinks.map((link) => (
+                  <DropdownMenuItem key={link.href} asChild>
+                    <Link to={link.href} className="w-full">
+                      {link.label}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
 
             <Link
               to="/about"
