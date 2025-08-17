@@ -17,6 +17,10 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import FirstSecondMortgages from "./pages/services/FirstSecondMortgages";
+import StrataFinance from "./pages/services/StrataFinance";
+import CommercialPropertyDevelopment from "./pages/services/CommercialPropertyDevelopment";
+import WorkingCapital from "./pages/services/WorkingCapital";
 
 const queryClient = new QueryClient();
 
@@ -42,6 +46,10 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/consultation" element={<Contact />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/first-second-mortgages" element={<FirstSecondMortgages />} />
+            <Route path="/services/strata-finance" element={<StrataFinance />} />
+            <Route path="/services/commercial-property-development" element={<CommercialPropertyDevelopment />} />
+            <Route path="/services/working-capital" element={<WorkingCapital />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

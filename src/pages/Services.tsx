@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { Link } from "react-router-dom";
 import { 
   Building2, 
   TrendingUp, 
@@ -13,75 +15,161 @@ import {
   Phone,
   DollarSign,
   FileText,
-  Calculator
+  Calculator,
+  Home,
+  Briefcase,
+  ChevronDown,
+  ChevronRight
 } from "lucide-react";
 
 const Services = () => {
-  const [activeService, setActiveService] = useState(0);
+  const [openSections, setOpenSections] = useState<string[]>(['property-finance']);
 
-  const services = [
+  const toggleSection = (sectionId: string) => {
+    setOpenSections(prev => 
+      prev.includes(sectionId) 
+        ? prev.filter(id => id !== sectionId)
+        : [...prev, sectionId]
+    );
+  };
+
+  const serviceCategories = [
     {
+      id: 'property-finance',
+      title: 'Property Finance',
       icon: Building2,
-      title: "Private Commercial Lending",
-      subtitle: "Fast, flexible commercial financing",
-      description: "When traditional banks can't meet your timeline or requirements, our private commercial lending solutions provide the speed and flexibility you need.",
-      features: [
-        "Asset-backed commercial loans",
-        "Business acquisition financing", 
-        "Working capital solutions",
-        "Equipment and machinery finance",
-        "Commercial property loans"
-      ],
-      benefits: [
-        "24-48 hour approvals possible",
-        "Flexible terms and structures",
-        "Competitive rates",
-        "Minimal documentation required"
-      ],
-      loanRange: "$100K - $50M+",
-      terms: "3-36 months typically"
+      description: 'Comprehensive property financing solutions',
+      services: [
+        {
+          title: '1st & 2nd Mortgages',
+          description: 'Primary and secondary mortgage financing',
+          link: '/services/first-second-mortgages',
+          loanRange: '$100K - $50M+',
+          terms: '1-30 years'
+        },
+        {
+          title: 'Commercial Property Development',
+          description: 'Development and construction financing',
+          link: '/services/commercial-property-development',
+          loanRange: '$500K - $100M+',
+          terms: '6-24 months'
+        },
+        {
+          title: 'Bridging Finance',
+          description: 'Short-term property bridging loans',
+          link: '/services/bridging-finance',
+          loanRange: '$200K - $50M+',
+          terms: '3-18 months'
+        },
+        {
+          title: 'Refinancing Solutions',
+          description: 'Property refinance and restructure',
+          link: '/services/refinancing',
+          loanRange: '$250K - $100M+',
+          terms: '1-25 years'
+        }
+      ]
     },
     {
-      icon: TrendingUp,
-      title: "Bridging & Development Finance", 
-      subtitle: "Short-term funding for opportunities",
-      description: "Bridge the gap between opportunity and permanent financing with our specialized bridging and development finance solutions.",
-      features: [
-        "Property development funding",
-        "Construction finance",
-        "Settlement bridging loans",
-        "Renovation and fit-out finance",
-        "Land acquisition funding"
-      ],
-      benefits: [
-        "Fast settlement capabilities",
-        "Interest-only payment options",
-        "Progressive funding available",
-        "Exit strategy flexibility"
-      ],
-      loanRange: "$200K - $100M+",
-      terms: "6-24 months typically"
+      id: 'strata-finance',
+      title: 'Strata Finance',
+      icon: Home,
+      description: 'Specialized strata and community financing',
+      services: [
+        {
+          title: 'Strata Finance',
+          description: 'Strata corporation and body corporate loans',
+          link: '/services/strata-finance',
+          loanRange: '$50K - $10M+',
+          terms: '1-20 years'
+        },
+        {
+          title: 'Building Maintenance Loans',
+          description: 'Major repairs and maintenance funding',
+          link: '/services/maintenance-loans',
+          loanRange: '$25K - $5M+',
+          terms: '1-15 years'
+        },
+        {
+          title: 'Capital Works Finance',
+          description: 'Major building improvements and upgrades',
+          link: '/services/capital-works',
+          loanRange: '$100K - $20M+',
+          terms: '2-25 years'
+        }
+      ]
     },
     {
+      id: 'business-finance',
+      title: 'Business Finance',
+      icon: Briefcase,
+      description: 'Business growth and operational financing',
+      services: [
+        {
+          title: 'Working Capital',
+          description: 'Short-term business operational funding',
+          link: '/services/working-capital',
+          loanRange: '$50K - $20M+',
+          terms: '3-24 months'
+        },
+        {
+          title: 'Equipment Finance',
+          description: 'Machinery and equipment funding',
+          link: '/services/equipment-finance',
+          loanRange: '$25K - $10M+',
+          terms: '1-10 years'
+        },
+        {
+          title: 'Business Acquisition',
+          description: 'Business purchase and expansion loans',
+          link: '/services/business-acquisition',
+          loanRange: '$200K - $50M+',
+          terms: '1-15 years'
+        },
+        {
+          title: 'Trade Finance',
+          description: 'Import/export and trade financing',
+          link: '/services/trade-finance',
+          loanRange: '$100K - $25M+',
+          terms: '30 days - 2 years'
+        }
+      ]
+    },
+    {
+      id: 'specialized-finance',
+      title: 'Specialized Finance',
       icon: Shield,
-      title: "Asset-Backed Lending",
-      subtitle: "Leverage your assets for growth",
-      description: "Unlock the value in your commercial property, equipment, or business assets to secure competitive funding solutions.",
-      features: [
-        "Commercial property leverage",
-        "Equipment and machinery as security",
-        "Business asset financing", 
-        "Portfolio property lending",
-        "Refinancing solutions"
-      ],
-      benefits: [
-        "Higher lending amounts available",
-        "Competitive interest rates",
-        "Flexible repayment terms",
-        "Quick asset valuations"
-      ],
-      loanRange: "$250K - $200M+",
-      terms: "1-25 years available"
+      description: 'Unique and complex financing solutions',
+      services: [
+        {
+          title: 'Asset-Backed Lending',
+          description: 'Loans secured by business assets',
+          link: '/services/asset-backed-lending',
+          loanRange: '$250K - $200M+',
+          terms: '1-25 years'
+        },
+        {
+          title: 'Private Lending',
+          description: 'Non-bank private financing solutions',
+          link: '/services/private-lending',
+          loanRange: '$100K - $100M+',
+          terms: '3-36 months'
+        },
+        {
+          title: 'SMSF Lending',
+          description: 'Self-managed super fund property loans',
+          link: '/services/smsf-lending',
+          loanRange: '$150K - $25M+',
+          terms: '5-30 years'
+        },
+        {
+          title: 'Debt Consolidation',
+          description: 'Business debt restructure and consolidation',
+          link: '/services/debt-consolidation',
+          loanRange: '$100K - $50M+',
+          terms: '1-20 years'
+        }
+      ]
     }
   ];
 
@@ -141,114 +229,101 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Service Cards */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          {services.map((service, index) => (
-            <Card 
-              key={index} 
-              className={`premium-card cursor-pointer transition-all duration-300 ${
-                activeService === index ? 'ring-2 ring-accent shadow-lg' : ''
-              }`}
-              onClick={() => setActiveService(index)}
-            >
-              <CardHeader className="text-center pb-4">
-                <div className="mx-auto mb-4 p-6 bg-accent/10 rounded-2xl w-fit">
-                  <service.icon className="h-10 w-10 text-accent" />
-                </div>
-                <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
-                <CardDescription className="text-accent font-medium">
-                  {service.subtitle}
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  {service.description}
-                </p>
-                <div className="space-y-2 mb-4">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Loan Range:</span>
-                    <span className="font-medium">{service.loanRange}</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Terms:</span>
-                    <span className="font-medium">{service.terms}</span>
-                  </div>
-                </div>
-                <Button 
-                  variant="outline" 
-                  className="w-full"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setActiveService(index);
-                  }}
-                >
-                  View Details
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+        {/* Services Directory */}
+        <div className="mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">
+              Our <span className="gradient-text">Service Directory</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Browse our comprehensive range of commercial finance solutions. Click on any service to learn more about specific lending options.
+            </p>
+          </div>
 
-        {/* Service Details */}
-        <Card className="mb-16">
-          <CardContent className="p-8">
-            <div className="grid lg:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-2xl font-bold mb-4">
-                  {services[activeService].title}
-                </h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  {services[activeService].description}
-                </p>
-                
-                <h4 className="font-semibold mb-3">What We Offer:</h4>
-                <ul className="space-y-2 mb-6">
-                  {services[activeService].features.map((feature, index) => (
-                    <li key={index} className="flex items-center text-sm">
-                      <CheckCircle className="w-4 h-4 text-accent mr-3 flex-shrink-0" />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="font-semibold mb-3">Key Benefits:</h4>
-                <ul className="space-y-2 mb-6">
-                  {services[activeService].benefits.map((benefit, index) => (
-                    <li key={index} className="flex items-center text-sm">
-                      <CheckCircle className="w-4 h-4 text-primary mr-3 flex-shrink-0" />
-                      {benefit}
-                    </li>
-                  ))}
-                </ul>
-                
-                <div className="bg-accent/5 rounded-lg p-4 mb-6">
-                  <div className="grid grid-cols-2 gap-4 text-center">
-                    <div>
-                      <div className="text-2xl font-bold text-accent mb-1">
-                        {services[activeService].loanRange}
+          <div className="space-y-6">
+            {serviceCategories.map((category) => (
+              <Collapsible 
+                key={category.id}
+                open={openSections.includes(category.id)}
+                onOpenChange={() => toggleSection(category.id)}
+              >
+                <Card className="premium-card">
+                  <CollapsibleTrigger asChild>
+                    <CardHeader className="cursor-pointer hover:bg-accent/5 transition-colors">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center space-x-4">
+                          <div className="p-3 bg-accent/10 rounded-xl">
+                            <category.icon className="h-8 w-8 text-accent" />
+                          </div>
+                          <div className="text-left">
+                            <CardTitle className="text-2xl">{category.title}</CardTitle>
+                            <CardDescription className="text-base mt-1">
+                              {category.description}
+                            </CardDescription>
+                          </div>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <Badge variant="secondary" className="bg-accent/10 text-accent">
+                            {category.services.length} Services
+                          </Badge>
+                          {openSections.includes(category.id) ? (
+                            <ChevronDown className="h-5 w-5 text-muted-foreground" />
+                          ) : (
+                            <ChevronRight className="h-5 w-5 text-muted-foreground" />
+                          )}
+                        </div>
                       </div>
-                      <div className="text-sm text-muted-foreground">Loan Range</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold text-accent mb-1">
-                        {services[activeService].terms}
+                    </CardHeader>
+                  </CollapsibleTrigger>
+                  
+                  <CollapsibleContent>
+                    <CardContent className="pt-0">
+                      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {category.services.map((service, index) => (
+                          <Card key={index} className="border-accent/20 hover:border-accent/40 transition-colors group">
+                            <CardContent className="p-4">
+                              <div className="flex justify-between items-start mb-2">
+                                <h4 className="font-semibold text-lg group-hover:text-accent transition-colors">
+                                  {service.title}
+                                </h4>
+                                <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent transition-colors" />
+                              </div>
+                              <p className="text-muted-foreground text-sm mb-3 leading-relaxed">
+                                {service.description}
+                              </p>
+                              <div className="space-y-1 mb-4">
+                                <div className="flex justify-between text-xs">
+                                  <span className="text-muted-foreground">Range:</span>
+                                  <span className="font-medium">{service.loanRange}</span>
+                                </div>
+                                <div className="flex justify-between text-xs">
+                                  <span className="text-muted-foreground">Terms:</span>
+                                  <span className="font-medium">{service.terms}</span>
+                                </div>
+                              </div>
+                              <Link 
+                                to={service.link}
+                                className="block w-full"
+                              >
+                                <Button 
+                                  variant="outline" 
+                                  size="sm" 
+                                  className="w-full text-xs group-hover:bg-accent group-hover:text-accent-foreground"
+                                >
+                                  Learn More
+                                </Button>
+                              </Link>
+                            </CardContent>
+                          </Card>
+                        ))}
                       </div>
-                      <div className="text-sm text-muted-foreground">Terms</div>
-                    </div>
-                  </div>
-                </div>
-                
-                <Button className="w-full bg-accent hover:bg-accent-light text-accent-foreground">
-                  Discuss This Service
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+                    </CardContent>
+                  </CollapsibleContent>
+                </Card>
+              </Collapsible>
+            ))}
+          </div>
+        </div>
 
         {/* Process Section */}
         <section className="mb-16">
