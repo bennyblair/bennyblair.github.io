@@ -87,7 +87,7 @@ const Homepage = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button size="lg" className="group bg-blue-500 hover:bg-blue-600 text-white px-12 py-8 text-xl rounded-2xl shadow-2xl hover:shadow-blue-500/30 transition-all duration-500 hover:scale-105 border border-blue-400/30">
+              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-12 py-8 text-xl rounded-2xl shadow-2xl hover:shadow-glow transition-all duration-500 hover:scale-105 border border-accent/30">
                 Get Your Quote
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
               </Button>
