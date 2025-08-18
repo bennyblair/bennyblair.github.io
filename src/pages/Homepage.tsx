@@ -22,7 +22,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
-import sydneyCBDDusk from "@/assets/sydney-cbd-dusk.jpg";
+import sydneyHarbour from "@/assets/sydney-harbour-natural.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -41,7 +41,7 @@ const Homepage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${sydneyCBDDusk})`,
+            backgroundImage: `url(${sydneyHarbour})`,
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
         />
