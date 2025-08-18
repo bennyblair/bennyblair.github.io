@@ -22,7 +22,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
-import financeSkyline from "@/assets/finance-skyline-hero.jpg";
+import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -37,61 +37,59 @@ const Homepage = () => {
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Finance Skyline Background with Data Overlays */}
+        {/* Sydney Skyline Background */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${financeSkyline})`,
+            backgroundImage: `url(${sydneySkyline})`,
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
         />
         
-        {/* Premium financial overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background/80" />
-        
-        {/* Abstract data grid overlay */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-20 left-1/4 w-64 h-32 border border-accent/30 rounded-lg transform rotate-12" />
-          <div className="absolute bottom-40 right-1/4 w-48 h-24 border border-accent/20 rounded-lg transform -rotate-6" />
-        </div>
+        {/* Premium navy to electric blue gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-slate-800/60 to-blue-900/70" />
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <div className="fade-in-up">
-            {/* Trust indicators */}
-            <div className="mb-8 flex justify-center items-center gap-8 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-accent rounded-full" />
-                <span>$250M+ Funded</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-accent rounded-full" />
-                <span>95% Approval Rate</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-accent rounded-full" />
-                <span>Australia-wide</span>
-              </div>
+          <div className="animate-fade-in">
+            {/* Premium Trust Indicators as Cards */}
+            <div className="mb-12 flex flex-wrap justify-center items-center gap-4">
+              {[
+                { value: "$250M+", label: "Funded" },
+                { value: "95%", label: "Approval Rate" },
+                { value: "Australia", label: "Wide" }
+              ].map((stat, index) => (
+                <div key={index} className="premium-card px-6 py-3 backdrop-blur-sm bg-white/10 border border-white/20">
+                  <div className="text-lg font-bold text-white">{stat.value}</div>
+                  <div className="text-sm text-white/80">{stat.label}</div>
+                </div>
+              ))}
             </div>
             
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight text-white">
               Smart Commercial Lending.
-              <span className="gradient-text block mt-2">
-                Engineered for Growth.
+              <span className="block mt-2 relative">
+                <span className="text-white">Engineered for </span>
+                <span className="relative text-white">
+                  Growth
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full opacity-80"></div>
+                  <div className="absolute -bottom-1 left-0 w-full h-3 bg-gradient-to-r from-blue-400/30 to-blue-600/30 blur-sm rounded-full"></div>
+                </span>
+                <span className="text-white">.</span>
               </span>
             </h1>
             
-            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
               Australia-wide, asset-backed lending solutions designed for ambitious businesses.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-12 py-8 text-xl rounded-2xl blue-glow hover:shadow-glow transition-all duration-500 hover:scale-105">
+              <Button size="lg" className="group bg-blue-500 hover:bg-blue-600 text-white px-12 py-8 text-xl rounded-2xl shadow-2xl hover:shadow-blue-500/30 transition-all duration-500 hover:scale-105 border border-blue-400/30">
                 Get Your Quote
                 <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
               </Button>
               
-              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-8 text-lg rounded-2xl backdrop-blur-sm">
+              <Button variant="outline" size="lg" className="border-2 border-white/30 text-white hover:bg-white/10 px-10 py-8 text-lg rounded-2xl backdrop-blur-sm">
                 <Phone className="mr-2 h-5 w-5" />
                 0485 952 651
               </Button>
