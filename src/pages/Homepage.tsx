@@ -22,7 +22,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
-import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
+import sydneySkyline from "@/assets/sydney-skyline-hd.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
