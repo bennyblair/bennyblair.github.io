@@ -22,7 +22,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
-import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
+import financeSkyline from "@/assets/finance-skyline-hero.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -37,39 +37,61 @@ const Homepage = () => {
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Sydney Skyline Background */}
+        {/* Finance Skyline Background with Data Overlays */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${sydneySkyline})`,
+            backgroundImage: `url(${financeSkyline})`,
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
         />
         
-        {/* Glassmorphism overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/60" />
+        {/* Premium financial overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background/80" />
+        
+        {/* Abstract data grid overlay */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 left-1/4 w-64 h-32 border border-accent/30 rounded-lg transform rotate-12" />
+          <div className="absolute bottom-40 right-1/4 w-48 h-24 border border-accent/20 rounded-lg transform -rotate-6" />
+        </div>
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <div className="fade-in-up">
+            {/* Trust indicators */}
+            <div className="mb-8 flex justify-center items-center gap-8 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-accent rounded-full" />
+                <span>$250M+ Funded</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-accent rounded-full" />
+                <span>95% Approval Rate</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-accent rounded-full" />
+                <span>Australia-wide</span>
+              </div>
+            </div>
+            
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
-              Bespoke Commercial Lending,
+              Smart Commercial Lending.
               <span className="gradient-text block mt-2">
-                Expertly Engineered
+                Engineered for Growth.
               </span>
             </h1>
             
             <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
-              Australia-wide, asset-backed solutions that scale with your ambition
+              Australia-wide, asset-backed lending solutions designed for ambitious businesses.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
+              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-12 py-8 text-xl rounded-2xl blue-glow hover:shadow-glow transition-all duration-500 hover:scale-105">
                 Get Your Quote
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
               </Button>
               
-              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-7 text-lg rounded-2xl">
+              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-8 text-lg rounded-2xl backdrop-blur-sm">
                 <Phone className="mr-2 h-5 w-5" />
                 0485 952 651
               </Button>
@@ -167,14 +189,40 @@ const Homepage = () => {
             ))}
           </div>
           
-          {/* As Seen In */}
+          {/* Industry Recognition & Media */}
           <div className="text-center">
-            <p className="text-muted-foreground mb-8">Trusted by industry leaders</p>
-            <div className="flex justify-center items-center gap-8 opacity-60">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className="h-12 w-24 bg-muted/30 rounded-lg" />
+            <p className="text-muted-foreground mb-8 text-lg">Featured in leading financial publications</p>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 items-center opacity-60 mb-12">
+              {[
+                "Australian Financial Review",
+                "Business Review Weekly",
+                "Property Observer",
+                "The Adviser",
+                "Mortgage Professional"
+              ].map((publication, i) => (
+                <div key={i} className="premium-card p-4 text-center">
+                  <div className="h-8 w-full bg-muted/30 rounded-lg mb-2" />
+                  <span className="text-xs text-muted-foreground">{publication}</span>
+                </div>
               ))}
             </div>
+            
+            {/* Client Testimonial Highlight */}
+            <Card className="premium-card max-w-2xl mx-auto">
+              <CardContent className="p-8 text-center">
+                <div className="flex justify-center mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Star key={star} className="h-5 w-5 text-accent fill-accent" />
+                  ))}
+                </div>
+                <blockquote className="text-lg italic mb-4">
+                  "Emet Capital delivered exactly what we needed when the big banks couldn't. Their understanding of commercial lending is unmatched."
+                </blockquote>
+                <div className="text-sm text-muted-foreground">
+                  <strong>Sarah Chen</strong> · CEO, Chen Property Group
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
