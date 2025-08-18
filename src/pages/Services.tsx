@@ -71,6 +71,35 @@ const Services = () => {
       ]
     },
     {
+      id: 'strata-finance',
+      title: 'Strata Finance',
+      icon: Home,
+      description: 'Specialized strata and community financing',
+      services: [
+        {
+          title: 'Strata Finance',
+          description: 'Strata corporation and body corporate loans',
+          link: '/services/strata-finance',
+          loanRange: '$50K - $10M+',
+          terms: '1-20 years'
+        },
+        {
+          title: 'Building Maintenance Loans',
+          description: 'Major repairs and maintenance funding',
+          link: '/services/maintenance-loans',
+          loanRange: '$25K - $5M+',
+          terms: '1-15 years'
+        },
+        {
+          title: 'Capital Works Finance',
+          description: 'Major building improvements and upgrades',
+          link: '/services/capital-works',
+          loanRange: '$100K - $20M+',
+          terms: '2-25 years'
+        }
+      ]
+    },
+    {
       id: 'business-finance',
       title: 'Business Finance',
       icon: Briefcase,

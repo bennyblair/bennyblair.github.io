@@ -22,12 +22,12 @@
     --secondary-light: 220 8% 15%;
     --secondary-dark: 220 12% 8%;
 
-    /* Deep navy accents */
-    --accent: 220 50% 15%;
+    /* Premium blue accents */
+    --accent: 210 100% 56%;
     --accent-foreground: 0 0% 100%;
-    --accent-light: 220 45% 20%;
-    --accent-dark: 220 55% 10%;
-    --accent-metallic: 220 40% 18%;
+    --accent-light: 210 100% 65%;
+    --accent-dark: 210 100% 45%;
+    --accent-metallic: 210 80% 50%;
 
     /* Glassmorphism surfaces */
     --card: 220 15% 12%;
@@ -45,7 +45,7 @@
     --popover-foreground: 0 0% 95%;
     --border: 220 20% 25%;
     --input: 220 15% 15%;
-    --ring: 220 50% 15%;
+    --ring: 210 100% 56%;
 
     /* Destructive colors */
     --destructive: 0 84% 60%;
@@ -59,13 +59,13 @@
     /* Premium shadows with blue glow */
     --shadow-elegant: 0 8px 32px hsl(220 15% 5% / 0.3);
     --shadow-lg: 0 16px 48px hsl(220 15% 5% / 0.4);
-    --shadow-glow: 0 0 40px hsl(220 50% 15% / 0.15);
+    --shadow-glow: 0 0 40px hsl(210 100% 56% / 0.15);
     --shadow-glass: 0 8px 32px hsl(220 15% 5% / 0.2), inset 0 1px 0 hsl(0 0% 100% / 0.1);
     
     /* Premium gradients with blue accents */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-light)));
-    --gradient-blue: linear-gradient(135deg, hsl(220 50% 15%), hsl(220 45% 20%));
+    --gradient-blue: linear-gradient(135deg, hsl(210 100% 56%), hsl(210 100% 65%));
     --gradient-glass: linear-gradient(135deg, hsl(220 15% 12% / 0.8), hsl(220 20% 15% / 0.6));
     
     /* Smooth premium transitions */
@@ -103,13 +103,13 @@
     --secondary-foreground: 224 15% 25%;
     --muted: 210 20% 94%;
     --muted-foreground: 215 16% 47%;
-    --accent: 220 50% 15%;
+    --accent: 210 100% 56%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 220 50% 15%;
+    --ring: 210 100% 56%;
   }
 }
 

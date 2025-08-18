@@ -22,7 +22,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
-import sydneyHarbour from "@/assets/sydney-harbour-natural.jpg";
+import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -41,58 +41,35 @@ const Homepage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${sydneyHarbour})`,
+            backgroundImage: `url(${sydneySkyline})`,
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
         />
         
-        {/* Premium navy to royal blue gradient overlay */}
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(135deg, #0A2540 0%, #1A4E8A 100%)',
-          opacity: 0.85
-        }} />
+        {/* Glassmorphism overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/60" />
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <div className="animate-fade-in">
-            {/* Premium Trust Indicators as Cards */}
-            <div className="mb-12 flex flex-wrap justify-center items-center gap-4">
-              {[
-                { value: "$250M+", label: "Funded" },
-                { value: "95%", label: "Approval Rate" },
-                { value: "Australia", label: "Wide" }
-              ].map((stat, index) => (
-                <div key={index} className="premium-card px-6 py-3 backdrop-blur-sm bg-white/10 border border-white/20">
-                  <div className="text-lg font-bold text-white">{stat.value}</div>
-                  <div className="text-sm text-white/80">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-            
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight text-white">
-              Smart Commercial Lending.
-              <span className="block mt-2 relative">
-                <span className="text-white">Engineered for </span>
-                <span className="relative text-white">
-                  Growth
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full opacity-80"></div>
-                  <div className="absolute -bottom-1 left-0 w-full h-3 bg-gradient-to-r from-blue-400/30 to-blue-600/30 blur-sm rounded-full"></div>
-                </span>
-                <span className="text-white">.</span>
+          <div className="fade-in-up">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+              Bespoke Commercial Lending,
+              <span className="gradient-text block mt-2">
+                Expertly Engineered
               </span>
             </h1>
             
-            <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
-              Australia-wide, asset-backed lending solutions designed for ambitious businesses.
+            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
+              Australia-wide, asset-backed solutions that scale with your ambition
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-12 py-8 text-xl rounded-2xl shadow-2xl hover:shadow-glow transition-all duration-500 hover:scale-105 border border-accent/30">
+              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
                 Get Your Quote
-                <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               
-              <Button variant="outline" size="lg" className="border-2 border-white/30 text-white hover:bg-white/10 px-10 py-8 text-lg rounded-2xl backdrop-blur-sm">
+              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-7 text-lg rounded-2xl">
                 <Phone className="mr-2 h-5 w-5" />
                 0485 952 651
               </Button>
@@ -190,40 +167,14 @@ const Homepage = () => {
             ))}
           </div>
           
-          {/* Industry Recognition & Media */}
+          {/* As Seen In */}
           <div className="text-center">
-            <p className="text-muted-foreground mb-8 text-lg">Featured in leading financial publications</p>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 items-center opacity-60 mb-12">
-              {[
-                "Australian Financial Review",
-                "Business Review Weekly",
-                "Property Observer",
-                "The Adviser",
-                "Mortgage Professional"
-              ].map((publication, i) => (
-                <div key={i} className="premium-card p-4 text-center">
-                  <div className="h-8 w-full bg-muted/30 rounded-lg mb-2" />
-                  <span className="text-xs text-muted-foreground">{publication}</span>
-                </div>
+            <p className="text-muted-foreground mb-8">Trusted by industry leaders</p>
+            <div className="flex justify-center items-center gap-8 opacity-60">
+              {[1, 2, 3, 4, 5].map((i) => (
+                <div key={i} className="h-12 w-24 bg-muted/30 rounded-lg" />
               ))}
             </div>
-            
-            {/* Client Testimonial Highlight */}
-            <Card className="premium-card max-w-2xl mx-auto">
-              <CardContent className="p-8 text-center">
-                <div className="flex justify-center mb-4">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <Star key={star} className="h-5 w-5 text-accent fill-accent" />
-                  ))}
-                </div>
-                <blockquote className="text-lg italic mb-4">
-                  "Emet Capital delivered exactly what we needed when the big banks couldn't. Their understanding of commercial lending is unmatched."
-                </blockquote>
-                <div className="text-sm text-muted-foreground">
-                  <strong>Sarah Chen</strong> · CEO, Chen Property Group
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
