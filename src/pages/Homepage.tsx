@@ -22,7 +22,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
-import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
+import sydneyCBD from "@/assets/sydney-cbd-premium.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -41,13 +41,16 @@ const Homepage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${sydneySkyline})`,
+            backgroundImage: `url(${sydneyCBD})`,
             transform: `translateY(${scrollY * 0.5}px)`,
           }}
         />
         
-        {/* Premium navy to electric blue gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-slate-800/60 to-blue-900/70" />
+        {/* Premium navy to royal blue gradient overlay */}
+        <div className="absolute inset-0" style={{
+          background: 'linear-gradient(135deg, #0A2540 0%, #1A4E8A 100%)',
+          opacity: 0.85
+        }} />
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
