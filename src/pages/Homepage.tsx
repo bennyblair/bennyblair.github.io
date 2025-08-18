@@ -36,7 +36,7 @@ const Homepage = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
         {/* Sydney Skyline Background */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
