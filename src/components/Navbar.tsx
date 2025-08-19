@@ -36,8 +36,8 @@ const Navbar = () => {
               </div>
               <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary-glow/20 rounded-xl blur opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
             </div>
-            <div className="flex flex-col">
-              <span className="text-2xl font-bold text-accent">
+            <div className="flex flex-col justify-center min-h-[3rem]">
+              <span className="text-2xl font-bold text-accent leading-tight">
                 Emet Capital
               </span>
             </div>
