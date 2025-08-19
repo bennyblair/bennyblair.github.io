@@ -33,12 +33,12 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-3 flex-shrink-0 group">
             <div className="relative">
               <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl">
-                <span className="text-primary-foreground font-bold text-lg">1</span>
+                <span className="text-primary-foreground font-bold text-lg">E</span>
               </div>
               <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary-glow/20 rounded-xl blur opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
             </div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+              <span className="text-2xl font-bold text-accent">
                 Emet Capital
               </span>
               <span className="text-xs text-muted-foreground -mt-1">Commercial Lending</span>
