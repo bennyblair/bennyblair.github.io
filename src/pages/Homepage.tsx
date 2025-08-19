@@ -138,12 +138,11 @@ const Homepage = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-4 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
             {[
-              { label: "Approval Speed", value: 95, suffix: "% within 24hrs" },
+              { label: "Approval Speed", value: 90, suffix: "% within 48hrs" },
               { label: "Deal Success Rate", value: 87, suffix: "% approved" },
-              { label: "Google Rating", value: 5, suffix: " stars (18 reviews)" },
-              { label: "Client Satisfaction", value: 98, suffix: "% rating" }
+              { label: "Google Rating", value: 5, suffix: " stars (18 reviews)" }
             ].map((metric, index) => (
               <Card key={index} className="premium-card text-center">
                 <CardHeader>
@@ -170,9 +169,17 @@ const Homepage = () => {
           {/* As Seen In */}
           <div className="text-center">
             <p className="text-muted-foreground mb-8">Trusted by industry leaders</p>
-            <div className="flex justify-center items-center gap-8 opacity-60">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className="h-12 w-24 bg-muted/30 rounded-lg" />
+            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
+              {[
+                "Commonwealth Bank",
+                "ANZ Banking Group", 
+                "Westpac",
+                "Macquarie Group",
+                "NAB"
+              ].map((company, i) => (
+                <div key={i} className="px-6 py-3 bg-muted/20 rounded-lg border border-muted/30">
+                  <span className="text-sm font-medium text-muted-foreground">{company}</span>
+                </div>
               ))}
             </div>
           </div>
