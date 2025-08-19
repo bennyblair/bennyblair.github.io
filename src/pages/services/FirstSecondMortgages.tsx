@@ -5,21 +5,21 @@ import { CheckCircle, Phone, ArrowRight, Home, Shield, Clock, DollarSign } from 
 
 const FirstSecondMortgages = () => {
   const benefits = [
-    "Primary and secondary mortgage options",
-    "Competitive interest rates",
-    "Flexible repayment terms",
-    "Fast approval process",
-    "Professional property valuations",
-    "Interest-only payment options"
+    "Primary and secondary commercial mortgage options",
+    "Competitive commercial interest rates",
+    "Flexible business-oriented repayment terms",
+    "Fast commercial approval process",
+    "Professional commercial property valuations",
+    "Interest-only payment options for businesses"
   ];
 
   const features = [
-    "First mortgage lending up to 80% LVR",
-    "Second mortgage solutions",
-    "Investment property mortgages",
-    "Commercial property mortgages",
-    "Self-managed super fund (SMSF) lending",
-    "No bank statement requirements available"
+    "First mortgage lending up to 80% LVR for commercial properties",
+    "Second mortgage solutions for business expansion",
+    "Investment property mortgages for portfolio growth",
+    "Commercial property mortgages across all sectors",
+    "Self-managed super fund (SMSF) commercial lending",
+    "Alternative documentation commercial loans"
   ];
 
   return (
@@ -34,12 +34,23 @@ const FirstSecondMortgages = () => {
         {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            1st & 2nd Mortgages
+            Commercial 1st & 2nd Mortgages
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Primary and secondary mortgage financing solutions for commercial and investment properties. 
-            Competitive rates with flexible terms from $100K to $50M+.
+            Specialized commercial mortgage financing for first and second mortgages on investment and business properties. 
+            Fast approval commercial lending from $100K to $50M+ across Australia.
           </p>
+          
+          {/* SEO Overview */}
+          <div className="bg-muted/30 rounded-lg p-6 mt-8 text-left max-w-3xl mx-auto">
+            <h2 className="text-xl font-semibold mb-3">Commercial Mortgage Finance Overview</h2>
+            <p className="text-muted-foreground leading-relaxed">
+              Our commercial mortgage broking services connect businesses and investors with competitive 
+              first and second mortgage financing. Whether you're acquiring commercial property, refinancing 
+              existing loans, or accessing equity for business growth, we provide access to multiple lenders 
+              offering tailored commercial mortgage solutions with flexible terms and competitive rates.
+            </p>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="bg-accent hover:bg-accent-light text-accent-foreground">
               <a href="tel:0485952651">
@@ -155,7 +166,7 @@ const FirstSecondMortgages = () => {
               Ready to Secure Your Mortgage?
             </h2>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Contact our mortgage specialists to discuss your requirements and get competitive quotes.
+              Contact our commercial lending brokers to discuss your business requirements and access competitive mortgage options.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

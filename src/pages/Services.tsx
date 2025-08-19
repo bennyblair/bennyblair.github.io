@@ -229,6 +229,18 @@ const Services = () => {
           </div>
         </div>
 
+        {/* SEO Overview */}
+        <div className="bg-muted/30 rounded-lg p-8 mb-16 text-center">
+          <h2 className="text-2xl font-semibold mb-4">Commercial Finance Broking Services</h2>
+          <p className="text-muted-foreground leading-relaxed max-w-4xl mx-auto">
+            As commercial finance brokers, we connect Australian businesses with the right lending solutions across 
+            property finance, business funding, and specialized commercial loans. Our extensive lender network enables 
+            us to secure competitive rates and flexible terms for businesses of all sizes. From property development 
+            finance to working capital solutions, we streamline the commercial lending process with fast approvals 
+            and expert guidance throughout your financing journey.
+          </p>
+        </div>
+
         {/* Services Directory */}
         <div className="mb-16">
           <div className="text-center mb-12">
@@ -301,18 +313,27 @@ const Services = () => {
                                   <span className="font-medium">{service.terms}</span>
                                 </div>
                               </div>
-                              <Link 
-                                to={service.link}
-                                className="block w-full"
-                              >
-                                <Button 
-                                  variant="outline" 
-                                  size="sm" 
-                                  className="w-full text-xs group-hover:bg-accent group-hover:text-accent-foreground"
-                                >
-                                  Learn More
-                                </Button>
-                              </Link>
+                               <div className="flex gap-2">
+                                 <Link 
+                                   to={service.link}
+                                   className="flex-1"
+                                 >
+                                   <Button 
+                                     variant="outline" 
+                                     size="sm" 
+                                     className="w-full text-xs group-hover:bg-accent group-hover:text-accent-foreground"
+                                   >
+                                     Details
+                                   </Button>
+                                 </Link>
+                                 <Button 
+                                   asChild
+                                   size="sm" 
+                                   className="flex-1 text-xs bg-accent hover:bg-accent-dark text-accent-foreground"
+                                 >
+                                   <a href="/contact">Apply</a>
+                                 </Button>
+                               </div>
                             </CardContent>
                           </Card>
                         ))}
@@ -359,7 +380,7 @@ const Services = () => {
               Ready to Explore Your Options?
             </h2>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Contact our commercial lending specialists to discuss your specific requirements and explore tailored financing solutions.
+              Contact our commercial lending brokers to discuss your specific business requirements and explore tailored financing solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
