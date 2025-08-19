@@ -166,23 +166,6 @@ const Homepage = () => {
             ))}
           </div>
           
-          {/* As Seen In */}
-          <div className="text-center">
-            <p className="text-muted-foreground mb-8">Trusted by industry leaders</p>
-            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              {[
-                "Commonwealth Bank",
-                "ANZ Banking Group", 
-                "Westpac",
-                "Macquarie Group",
-                "NAB"
-              ].map((company, i) => (
-                <div key={i} className="px-6 py-3 bg-muted/20 rounded-lg border border-muted/30">
-                  <span className="text-sm font-medium text-muted-foreground">{company}</span>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
@@ -279,22 +262,22 @@ const Homepage = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-in-up">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Built by Industry Insiders, 
+                Founded on Expertise,
                 <span className="gradient-text block">
-                  Backed by Deep Expertise
+                  Driven by Results
                 </span>
               </h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Our founding team brings decades of combined experience from Australia's leading 
-                financial institutions. We understand the complexities of commercial lending 
-                because we've lived them.
+                Our team combines extensive commercial lending experience with a deep understanding 
+                of Australia's financial landscape. We've structured complex deals across diverse 
+                industries and know what it takes to secure funding when it matters most.
               </p>
               
               <div className="grid sm:grid-cols-3 gap-6 mb-8">
                 {[
-                  { icon: Award, label: "20+ Years", description: "Combined Experience" },
-                  { icon: Users, label: "500+", description: "Deals Completed" },
-                  { icon: DollarSign, label: "$250M+", description: "Funds Deployed" }
+                  { icon: Award, label: "15+ Years", description: "Industry Experience" },
+                  { icon: Users, label: "300+", description: "Successful Deals" },
+                  { icon: DollarSign, label: "$150M+", description: "Funds Facilitated" }
                 ].map((stat, index) => (
                   <div key={index} className="text-center">
                     <stat.icon className="h-8 w-8 text-accent mx-auto mb-2" />
