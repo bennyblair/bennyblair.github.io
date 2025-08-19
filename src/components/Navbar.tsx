@@ -33,7 +33,6 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-3 flex-shrink-0 group">
             <div className="relative">
               <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl">
-                <span className="text-primary-foreground font-bold text-lg">E</span>
               </div>
               <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary-glow/20 rounded-xl blur opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
             </div>
@@ -41,7 +40,6 @@ const Navbar = () => {
               <span className="text-2xl font-bold text-accent">
                 Emet Capital
               </span>
-              <span className="text-xs text-muted-foreground -mt-1">Commercial Lending</span>
             </div>
           </Link>
 
@@ -109,7 +107,7 @@ const Navbar = () => {
 
           {/* Right side items */}
           <div className="flex items-center space-x-4">
-            <div className="hidden md:block text-sm font-medium text-primary whitespace-nowrap">
+            <div className="hidden md:block text-sm font-medium text-foreground whitespace-nowrap">
               📞 0485 952 651
             </div>
             
