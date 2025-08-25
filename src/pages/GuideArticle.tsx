@@ -10,7 +10,6 @@ const GuideArticle = () => {
   // This would normally fetch content based on the slug
   const guide = {
     title: "Complete Guide to Bridging Finance in Australia",
-    author: "Sarah Mitchell",
     readTime: "12 min",
     publishDate: "2024-01-15",
     category: "Property Finance",
@@ -64,10 +63,6 @@ const GuideArticle = () => {
               <div className="flex items-center">
                 <Clock className="w-4 h-4 mr-1" />
                 {guide.readTime} read
-              </div>
-              <div className="flex items-center">
-                <User className="w-4 h-4 mr-1" />
-                {guide.author}
               </div>
             </div>
           </div>

@@ -24,7 +24,6 @@ const Guides = () => {
       excerpt: "Master bridging loans with our comprehensive guide covering everything from basics to advanced strategies, including real examples and expert tips.",
       category: "Property Finance",
       readTime: "12 min",
-      author: "Sarah Mitchell",
       featured: true,
       slug: "bridging-finance-complete-guide"
     },
@@ -33,7 +32,6 @@ const Guides = () => {
       excerpt: "Compare asset finance options and equipment leasing to make the best decision for your business equipment needs.",
       category: "Asset Finance",
       readTime: "8 min",
-      author: "Michael Chen",
       featured: false,
       slug: "asset-finance-vs-equipment-leasing"
     },
@@ -42,7 +40,6 @@ const Guides = () => {
       excerpt: "Step-by-step guide to securing development finance in Australia, including documentation, timelines, and common pitfalls.",
       category: "Development Finance",
       readTime: "15 min",
-      author: "David Thompson",
       featured: false,
       slug: "development-finance-application-guide"
     },
@@ -51,7 +48,6 @@ const Guides = () => {
       excerpt: "Explore flexible working capital options including lines of credit, invoice finance, and trade facilities.",
       category: "Working Capital",
       readTime: "10 min",
-      author: "Lisa Rodriguez",
       featured: false,
       slug: "working-capital-solutions-guide"
     },
@@ -60,7 +56,6 @@ const Guides = () => {
       excerpt: "Understand the differences between investment and owner-occupied commercial property finance, including rates and structures.",
       category: "Property Finance",
       readTime: "11 min",
-      author: "James Wilson",
       featured: false,
       slug: "commercial-property-finance-guide"
     },
@@ -69,7 +64,6 @@ const Guides = () => {
       excerpt: "Navigate letters of credit, trade finance facilities, and international payment structures for your import/export business.",
       category: "Trade Finance",
       readTime: "13 min",
-      author: "Amanda Foster",
       featured: false,
       slug: "trade-finance-essentials"
     },
@@ -78,7 +72,6 @@ const Guides = () => {
       excerpt: "Everything new commercial borrowers need to know, from credit preparation to documentation requirements.",
       category: "Getting Started",
       readTime: "9 min",
-      author: "Sarah Mitchell",
       featured: false,
       slug: "first-time-borrower-checklist"
     },
@@ -87,7 +80,6 @@ const Guides = () => {
       excerpt: "Expert strategies for managing construction finance including progress payment structures and risk mitigation.",
       category: "Development Finance",
       readTime: "14 min",
-      author: "David Thompson",
       featured: false,
       slug: "construction-finance-guide"
     }
@@ -138,10 +130,6 @@ const Guides = () => {
                     <div className="flex items-center">
                       <Clock className="w-4 h-4 mr-1" />
                       {featuredGuide.readTime} read
-                    </div>
-                    <div className="flex items-center">
-                      <User className="w-4 h-4 mr-1" />
-                      {featuredGuide.author}
                     </div>
                     <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">
                       {featuredGuide.category}
@@ -201,10 +189,6 @@ const Guides = () => {
                   <div className="flex items-center">
                     <Clock className="w-4 h-4 mr-1" />
                     {guide.readTime} read
-                  </div>
-                  <div className="flex items-center">
-                    <User className="w-4 h-4 mr-1" />
-                    {guide.author}
                   </div>
                 </div>
                 <Button asChild variant="outline" className="w-full">
