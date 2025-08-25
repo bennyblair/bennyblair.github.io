@@ -1,4 +1,10 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
+import React from 'npm:react@18.3.1';
+import { Resend } from 'npm:resend@4.0.0';
+import { renderAsync } from 'npm:@react-email/components@0.0.22';
+import { FormNotificationEmail } from './_templates/form-notification.tsx';
+
+const resend = new Resend(Deno.env.get('RESEND_API_KEY') as string);
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
@@ -25,69 +31,43 @@ const handler = async (req: Request): Promise<Response> => {
     const formData: FormData = await req.json();
     console.log('Received form submission:', formData);
 
-    const mailgunDomain = Deno.env.get('MailGun Domain');
-    const mailgunApiKey = Deno.env.get('MAILGUN_API_KEY');
     const toEmail = Deno.env.get('TO_EMAIL');
     const fromEmail = Deno.env.get('FROM_EMAIL');
 
-    if (!mailgunDomain || !mailgunApiKey || !toEmail || !fromEmail) {
-      throw new Error('Missing required Mailgun configuration');
+    if (!toEmail || !fromEmail) {
+      throw new Error('Missing required email configuration (TO_EMAIL, FROM_EMAIL)');
     }
 
-    // Prepare email content
-    const subject = `New Commercial Lending Application - ${formData.name}`;
-    const htmlContent = `
-      <h2>New Commercial Lending Application Received</h2>
-      <p><strong>Applicant Details:</strong></p>
-      <ul>
-        <li><strong>Name:</strong> ${formData.name}</li>
-        <li><strong>Email:</strong> ${formData.email}</li>
-        <li><strong>Phone:</strong> ${formData.phone || 'Not provided'}</li>
-        <li><strong>Business:</strong> ${formData.business || 'Not provided'}</li>
-      </ul>
-      
-      <p><strong>Loan Details:</strong></p>
-      <ul>
-        <li><strong>Loan Type:</strong> ${formData.loanType || 'Not specified'}</li>
-        <li><strong>Loan Amount:</strong> ${formData.loanAmount || 'Not specified'}</li>
-      </ul>
-      
-      <p><strong>Message:</strong></p>
-      <p>${formData.message || 'No additional message provided'}</p>
-      
-      <hr>
-      <p><em>This email was automatically generated from the Emet Capital website contact form.</em></p>
-    `;
-
-    // Send email using Mailgun
-    const formData2 = new FormData();
-    formData2.append('from', fromEmail);
-    formData2.append('to', toEmail);
-    formData2.append('subject', subject);
-    formData2.append('html', htmlContent);
-
-    const mailgunResponse = await fetch(
-      `https://api.mailgun.net/v3/${mailgunDomain}/messages`,
-      {
-        method: 'POST',
-        headers: {
-          'Authorization': `Basic ${btoa(`api:${mailgunApiKey}`)}`,
-        },
-        body: formData2,
-      }
+    // Render the React email template
+    const html = await renderAsync(
+      React.createElement(FormNotificationEmail, {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        business: formData.business,
+        loanType: formData.loanType,
+        loanAmount: formData.loanAmount,
+        message: formData.message,
+      })
     );
 
-    if (!mailgunResponse.ok) {
-      const errorText = await mailgunResponse.text();
-      console.error('Mailgun API error:', errorText);
-      throw new Error(`Mailgun API error: ${mailgunResponse.status}`);
+    // Send email using Resend
+    const { data, error } = await resend.emails.send({
+      from: fromEmail,
+      to: [toEmail],
+      subject: `New Commercial Lending Application - ${formData.name}`,
+      html,
+    });
+
+    if (error) {
+      console.error('Resend API error:', error);
+      throw error;
     }
 
-    const mailgunResult = await mailgunResponse.json();
-    console.log('Email sent successfully:', mailgunResult);
+    console.log('Email sent successfully:', data);
 
     return new Response(
-      JSON.stringify({ success: true, messageId: mailgunResult.id }),
+      JSON.stringify({ success: true, messageId: data?.id }),
       {
         status: 200,
         headers: {
