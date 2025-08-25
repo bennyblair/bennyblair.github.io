@@ -31,11 +31,6 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 flex-shrink-0 group">
-            <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl">
-              </div>
-              <div className="absolute -inset-1 bg-gradient-to-br from-primary/20 to-primary-glow/20 rounded-xl blur opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-            </div>
             <div className="flex flex-col justify-center min-h-[3rem]">
               <span className="text-2xl font-bold text-accent leading-tight">
                 Emet Capital
@@ -48,7 +43,7 @@ const Navbar = () => {
             <Link
               to="/"
               className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/") ? "text-primary" : "text-muted-foreground"
+                isActive("/") ? "text-primary" : "text-foreground"
               }`}
             >
               Home
@@ -57,7 +52,7 @@ const Navbar = () => {
             <Link
               to="/services"
               className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/services") ? "text-primary" : "text-muted-foreground"
+                isActive("/services") ? "text-primary" : "text-foreground"
               }`}
             >
               Services
@@ -65,7 +60,7 @@ const Navbar = () => {
 
             <DropdownMenu>
               <DropdownMenuTrigger className={`flex items-center space-x-1 text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                location.pathname.startsWith("/resources") ? "text-primary" : "text-muted-foreground"
+                location.pathname.startsWith("/resources") ? "text-primary" : "text-foreground"
               }`}>
                 <span>Resources</span>
                 <ChevronDown className="w-4 h-4" />
@@ -89,7 +84,7 @@ const Navbar = () => {
             <Link
               to="/about"
               className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/about") ? "text-primary" : "text-muted-foreground"
+                isActive("/about") ? "text-primary" : "text-foreground"
               }`}
             >
               About
@@ -98,7 +93,7 @@ const Navbar = () => {
             <Link
               to="/contact"
               className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/contact") ? "text-primary" : "text-muted-foreground"
+                isActive("/contact") ? "text-primary" : "text-foreground"
               }`}
             >
               Contact
