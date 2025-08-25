@@ -19,9 +19,9 @@ import {
 
 const About = () => {
   const stats = [
-    { icon: Award, label: "Years Experience", value: "20+", description: "Combined team experience" },
+    { icon: Award, label: "Years Experience", value: "15+", description: "Combined team experience" },
     { icon: Users, label: "Deals Completed", value: "500+", description: "Successful transactions" },
-    { icon: DollarSign, label: "Funds Facilitated", value: "$250M+", description: "Total lending arranged" },
+    { icon: DollarSign, label: "Funds Facilitated", value: "$150M+", description: "Total lending arranged" },
     { icon: Star, label: "Google Rating", value: "5.0", description: "18 client reviews" }
   ];
 
