@@ -14,7 +14,42 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      "Form Submissions": {
+        Row: {
+          "Aproximate Loan Amount": string | null
+          "Business Name": string | null
+          created_at: string
+          "Email Address": string | null
+          "Full Name": string | null
+          id: number
+          "Loan Type": string | null
+          "Phone Number": string | null
+          "Tell us about your financing needs": string | null
+        }
+        Insert: {
+          "Aproximate Loan Amount"?: string | null
+          "Business Name"?: string | null
+          created_at?: string
+          "Email Address"?: string | null
+          "Full Name"?: string | null
+          id?: number
+          "Loan Type"?: string | null
+          "Phone Number"?: string | null
+          "Tell us about your financing needs"?: string | null
+        }
+        Update: {
+          "Aproximate Loan Amount"?: string | null
+          "Business Name"?: string | null
+          created_at?: string
+          "Email Address"?: string | null
+          "Full Name"?: string | null
+          id?: number
+          "Loan Type"?: string | null
+          "Phone Number"?: string | null
+          "Tell us about your financing needs"?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
