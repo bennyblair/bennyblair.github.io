@@ -6,6 +6,8 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -17,11 +19,62 @@ const Contact = () => {
     loanAmount: "",
     message: ""
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    // Handle form submission
+    setIsSubmitting(true);
+
+    try {
+      // Submit to Supabase
+      const { error } = await (supabase as any)
+        .from("Form Submissions")
+        .insert({
+          "Full Name": formData.name,
+          "Email Address": formData.email,
+          "Phone Number": formData.phone,
+          "Business Name": formData.business,
+          "Loan Type": formData.loanType,
+          "Aproximate Loan Amount": formData.loanAmount,
+          "Tell us about your financing needs": formData.message,
+        });
+
+      if (error) {
+        throw error;
+      }
+
+      // Send notification email
+      await supabase.functions.invoke('send-form-notification', {
+        body: formData
+      });
+
+      // Reset form and show success message
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        business: "",
+        loanType: "",
+        loanAmount: "",
+        message: ""
+      });
+
+      toast({
+        title: "Form submitted successfully!",
+        description: "We'll get back to you within 24-48 hours.",
+      });
+
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: "Error submitting form",
+        description: "Please try again or contact us directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleInputChange = (field: string, value: string) => {
@@ -161,9 +214,10 @@ const Contact = () => {
                   <Button 
                     type="submit" 
                     size="lg" 
+                    disabled={isSubmitting}
                     className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
                   >
-                    Get Your Free Quote
+                    {isSubmitting ? "Submitting..." : "Get Your Free Quote"}
                   </Button>
                 </form>
               </CardContent>
