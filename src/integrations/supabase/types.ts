@@ -14,39 +14,39 @@ export type Database = {
   }
   public: {
     Tables: {
-      "Form Submissions": {
+      form_submissions: {
         Row: {
-          "Aproximate Loan Amount": string | null
-          "Business Name": string | null
+          approximate_loan_amount: string | null
+          business_name: string | null
           created_at: string
-          "Email Address": string | null
-          "Full Name": string | null
+          email_address: string | null
+          financing_needs: string | null
+          full_name: string | null
           id: number
-          "Loan Type": string | null
-          "Phone Number": string | null
-          "Tell us about your financing needs": string | null
+          loan_type: string | null
+          phone_number: string | null
         }
         Insert: {
-          "Aproximate Loan Amount"?: string | null
-          "Business Name"?: string | null
+          approximate_loan_amount?: string | null
+          business_name?: string | null
           created_at?: string
-          "Email Address"?: string | null
-          "Full Name"?: string | null
+          email_address?: string | null
+          financing_needs?: string | null
+          full_name?: string | null
           id?: number
-          "Loan Type"?: string | null
-          "Phone Number"?: string | null
-          "Tell us about your financing needs"?: string | null
+          loan_type?: string | null
+          phone_number?: string | null
         }
         Update: {
-          "Aproximate Loan Amount"?: string | null
-          "Business Name"?: string | null
+          approximate_loan_amount?: string | null
+          business_name?: string | null
           created_at?: string
-          "Email Address"?: string | null
-          "Full Name"?: string | null
+          email_address?: string | null
+          financing_needs?: string | null
+          full_name?: string | null
           id?: number
-          "Loan Type"?: string | null
-          "Phone Number"?: string | null
-          "Tell us about your financing needs"?: string | null
+          loan_type?: string | null
+          phone_number?: string | null
         }
         Relationships: []
       }

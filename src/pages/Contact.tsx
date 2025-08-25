@@ -28,16 +28,16 @@ const Contact = () => {
 
     try {
       // Submit to Supabase
-      const { error } = await (supabase as any)
-        .from("Form Submissions")
+      const { error } = await supabase
+        .from("form_submissions")
         .insert({
-          "Full Name": formData.name,
-          "Email Address": formData.email,
-          "Phone Number": formData.phone,
-          "Business Name": formData.business,
-          "Loan Type": formData.loanType,
-          "Aproximate Loan Amount": formData.loanAmount,
-          "Tell us about your financing needs": formData.message,
+          full_name: formData.name,
+          email_address: formData.email,
+          phone_number: formData.phone,
+          business_name: formData.business,
+          loan_type: formData.loanType,
+          approximate_loan_amount: formData.loanAmount,
+          financing_needs: formData.message,
         });
 
       if (error) {
