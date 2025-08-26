@@ -49,31 +49,74 @@ const Homepage = () => {
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
+    console.log('🚀 HOMEPAGE FORM SUBMIT STARTED');
+    console.log('Form data at start:', formData);
+    
     e.preventDefault();
+    console.log('preventDefault called');
+    
     setIsSubmitting(true);
+    console.log('isSubmitting set to true');
+
+    // Add a simple validation check
+    if (!formData.name || !formData.email) {
+      console.error('Validation failed: missing required fields');
+      toast({
+        title: "Validation Error",
+        description: "Please fill in all required fields (Name and Email)",
+        variant: "destructive",
+      });
+      setIsSubmitting(false);
+      return;
+    }
 
     try {
+      console.log('Basic validation passed');
+      
+      // Prepare insert data, removing empty strings for optional fields
+      const insertData = {
+        full_name: formData.name.trim(),
+        email_address: formData.email.trim(),
+        phone_number: formData.phone?.trim() || null,
+        business_name: formData.business?.trim() || null,
+        loan_type: formData.loanType || null,
+        approximate_loan_amount: formData.loanAmount?.trim() || null,
+        financing_needs: formData.message?.trim() || null,
+      };
+
+      console.log('Insert data prepared:', insertData);
+      
       // Submit to Supabase
-      const { error } = await supabase
+      console.log('Calling Supabase insert...');
+      const { data, error } = await supabase
         .from("form_submissions")
-        .insert({
-          full_name: formData.name,
-          email_address: formData.email,
-          phone_number: formData.phone,
-          business_name: formData.business,
-          loan_type: formData.loanType,
-          approximate_loan_amount: formData.loanAmount,
-          financing_needs: formData.message,
-        });
+        .insert(insertData);
+
+      console.log('Supabase insert result:', { data, error });
 
       if (error) {
+        console.error('❌ Detailed Supabase error:', {
+          message: error.message,
+          details: error.details,
+          hint: error.hint,
+          code: error.code
+        });
         throw error;
       }
 
+      console.log('✅ Database insert successful, calling edge function...');
+      
       // Send notification email
-      await supabase.functions.invoke('send-form-notification', {
+      const { data: emailData, error: emailError } = await supabase.functions.invoke('send-form-notification', {
         body: formData
       });
+
+      console.log('Edge function result:', { emailData, emailError });
+
+      if (emailError) {
+        console.error('Edge function error:', emailError);
+        // Don't throw here - form submission was successful even if email fails
+      }
 
       // Reset form and show success message
       setFormData({
@@ -91,15 +134,33 @@ const Homepage = () => {
         description: "We'll get back to you within 24-48 hours.",
       });
 
-    } catch (error) {
-      console.error('Error submitting form:', error);
+      console.log('🎉 HOMEPAGE FORM SUBMIT COMPLETED SUCCESSFULLY');
+
+    } catch (error: any) {
+      console.error('❌ HOMEPAGE FORM SUBMIT ERROR:', error);
+      console.error('Error details:', {
+        name: error?.name,
+        message: error?.message,
+        details: error?.details,
+        hint: error?.hint,
+        code: error?.code,
+        stack: error?.stack
+      });
+      
+      let errorMessage = "Please try again or contact us directly.";
+      if (error?.message) {
+        errorMessage = error.message;
+      }
+      
       toast({
         title: "Error submitting form",
-        description: "Please try again or contact us directly.",
+        description: errorMessage,
         variant: "destructive",
       });
     } finally {
+      console.log('Setting isSubmitting to false');
       setIsSubmitting(false);
+      console.log('🏁 HOMEPAGE FORM SUBMIT ENDED');
     }
   };
 
