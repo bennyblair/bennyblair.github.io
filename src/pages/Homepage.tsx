@@ -264,7 +264,7 @@ const Homepage = () => {
       {/* About Us */}
       <section className="py-24 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="max-w-4xl mx-auto text-center">
             <div className="fade-in-up">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 Founded on Expertise,
@@ -272,22 +272,22 @@ const Homepage = () => {
                   Driven by Results
                 </span>
               </h2>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 Our team combines extensive commercial lending experience with a deep understanding 
                 of Australia's financial landscape. We've structured complex deals across diverse 
                 industries and know what it takes to secure funding when it matters most.
               </p>
               
-              <div className="grid sm:grid-cols-3 gap-6 mb-8">
+              <div className="grid sm:grid-cols-3 gap-8 mb-12">
                 {[
                   { icon: Award, label: "15+ Years", description: "Industry Experience" },
                   { icon: Users, label: "300+", description: "Successful Deals" },
                   { icon: DollarSign, label: "$150M+", description: "Funds Facilitated" }
                 ].map((stat, index) => (
                   <div key={index} className="text-center">
-                    <stat.icon className="h-8 w-8 text-accent mx-auto mb-2" />
-                    <div className="text-2xl font-bold gradient-text">{stat.label}</div>
-                    <div className="text-sm text-muted-foreground">{stat.description}</div>
+                    <stat.icon className="h-10 w-10 text-accent mx-auto mb-4" />
+                    <div className="text-3xl font-bold gradient-text">{stat.label}</div>
+                    <div className="text-base text-muted-foreground">{stat.description}</div>
                   </div>
                 ))}
               </div>
@@ -298,16 +298,6 @@ const Homepage = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-            </div>
-            
-            <div className="relative">
-              <div className="premium-card p-8">
-                <div className="grid grid-cols-2 gap-4">
-                  {[1, 2, 3, 4].map((i) => (
-                    <div key={i} className="aspect-square bg-muted/30 rounded-xl hover:bg-muted/50 transition-colors" />
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
         </div>
