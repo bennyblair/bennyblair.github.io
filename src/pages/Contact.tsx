@@ -45,6 +45,12 @@ const Contact = () => {
       console.log('Supabase insert result:', { data, error });
 
       if (error) {
+        console.error('Detailed Supabase error:', {
+          message: error.message,
+          details: error.details,
+          hint: error.hint,
+          code: error.code
+        });
         throw error;
       }
 
@@ -78,11 +84,19 @@ const Contact = () => {
         description: "We'll get back to you within 24-48 hours.",
       });
 
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error submitting form:', error);
+      console.error('Error details:', {
+        message: error?.message,
+        details: error?.details,
+        hint: error?.hint,
+        code: error?.code,
+        stack: error?.stack
+      });
+      
       toast({
         title: "Error submitting form",
-        description: "Please try again or contact us directly.",
+        description: error?.message || "Please try again or contact us directly.",
         variant: "destructive",
       });
     } finally {
