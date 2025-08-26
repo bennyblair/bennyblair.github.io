@@ -200,9 +200,9 @@ const Homepage = () => {
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <div className="fade-in-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
               Bespoke Commercial Lending,
-              <span className="gradient-text block mt-2">
+              <span className="gradient-text block mt-2 leading-normal">
                 Expertly Engineered
               </span>
             </h1>
