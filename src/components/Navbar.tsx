@@ -42,8 +42,8 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
             <Link
               to="/"
-              className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/") ? "text-primary" : "text-foreground"
+              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
+                isActive("/") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
               }`}
             >
               Home
@@ -51,16 +51,16 @@ const Navbar = () => {
 
             <Link
               to="/services"
-              className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/services") ? "text-primary" : "text-foreground"
+              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
+                isActive("/services") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
               }`}
             >
               Services
             </Link>
 
             <DropdownMenu>
-              <DropdownMenuTrigger className={`flex items-center space-x-1 text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                location.pathname.startsWith("/resources") ? "text-primary" : "text-foreground"
+              <DropdownMenuTrigger className={`flex items-center space-x-1 text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
+                location.pathname.startsWith("/resources") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
               }`}>
                 <span>Resources</span>
                 <ChevronDown className="w-4 h-4" />
@@ -83,8 +83,8 @@ const Navbar = () => {
 
             <Link
               to="/about"
-              className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/about") ? "text-primary" : "text-foreground"
+              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
+                isActive("/about") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
               }`}
             >
               About
@@ -92,8 +92,8 @@ const Navbar = () => {
 
             <Link
               to="/contact"
-              className={`text-sm font-medium transition-colors hover:text-primary whitespace-nowrap ${
-                isActive("/contact") ? "text-primary" : "text-foreground"
+              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
+                isActive("/contact") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
               }`}
             >
               Contact
