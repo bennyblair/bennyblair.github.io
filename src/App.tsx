@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import Layout from "./components/Layout";
 import ScrollToTop from "./components/ScrollToTop";
 import Homepage from "./pages/Homepage";
@@ -38,48 +39,50 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <ScrollToTop />
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/resources" element={<ResourcesHub />} />
-            <Route path="/resources/guides" element={<Guides />} />
-            <Route path="/resources/guides/:slug" element={<GuideArticle />} />
-            <Route path="/resources/case-studies" element={<CaseStudies />} />
-            <Route path="/resources/case-studies/:slug" element={<GuideArticle />} />
-            <Route path="/resources/tools" element={<Tools />} />
-            <Route path="/resources/glossary" element={<Glossary />} />
-            <Route path="/resources/faqs" element={<FAQs />} />
-            <Route path="/resources/insights" element={<MarketInsights />} />
-            <Route path="/resources/insights/:slug" element={<GuideArticle />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/consultation" element={<Contact />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/services/first-second-mortgages" element={<FirstSecondMortgages />} />
-            <Route path="/services/strata-finance" element={<StrataFinance />} />
-            <Route path="/services/commercial-property-development" element={<CommercialPropertyDevelopment />} />
-            <Route path="/services/working-capital" element={<WorkingCapital />} />
-            <Route path="/services/bridging-finance" element={<BridgingFinance />} />
-            <Route path="/services/refinancing" element={<RefinancingSolutions />} />
-            <Route path="/services/maintenance-loans" element={<BuildingMaintenanceLoans />} />
-            <Route path="/services/capital-works" element={<CapitalWorksFinance />} />
-            <Route path="/services/equipment-finance" element={<EquipmentFinance />} />
-            <Route path="/services/business-acquisition" element={<BusinessAcquisition />} />
-            <Route path="/services/trade-finance" element={<TradeFinance />} />
-            <Route path="/services/asset-backed-lending" element={<AssetBackedLending />} />
-            <Route path="/services/private-lending" element={<PrivateLending />} />
-            <Route path="/services/smsf-lending" element={<SMSFLending />} />
-            <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
-            <Route path="/about" element={<About />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
-      </BrowserRouter>
-    </TooltipProvider>
+    <HelmetProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <ScrollToTop />
+          <Layout>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/resources" element={<ResourcesHub />} />
+              <Route path="/resources/guides" element={<Guides />} />
+              <Route path="/resources/guides/:slug" element={<GuideArticle />} />
+              <Route path="/resources/case-studies" element={<CaseStudies />} />
+              <Route path="/resources/case-studies/:slug" element={<GuideArticle />} />
+              <Route path="/resources/tools" element={<Tools />} />
+              <Route path="/resources/glossary" element={<Glossary />} />
+              <Route path="/resources/faqs" element={<FAQs />} />
+              <Route path="/resources/insights" element={<MarketInsights />} />
+              <Route path="/resources/insights/:slug" element={<GuideArticle />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/consultation" element={<Contact />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/services/first-second-mortgages" element={<FirstSecondMortgages />} />
+              <Route path="/services/strata-finance" element={<StrataFinance />} />
+              <Route path="/services/commercial-property-development" element={<CommercialPropertyDevelopment />} />
+              <Route path="/services/working-capital" element={<WorkingCapital />} />
+              <Route path="/services/bridging-finance" element={<BridgingFinance />} />
+              <Route path="/services/refinancing" element={<RefinancingSolutions />} />
+              <Route path="/services/maintenance-loans" element={<BuildingMaintenanceLoans />} />
+              <Route path="/services/capital-works" element={<CapitalWorksFinance />} />
+              <Route path="/services/equipment-finance" element={<EquipmentFinance />} />
+              <Route path="/services/business-acquisition" element={<BusinessAcquisition />} />
+              <Route path="/services/trade-finance" element={<TradeFinance />} />
+              <Route path="/services/asset-backed-lending" element={<AssetBackedLending />} />
+              <Route path="/services/private-lending" element={<PrivateLending />} />
+              <Route path="/services/smsf-lending" element={<SMSFLending />} />
+              <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
+              <Route path="/about" element={<About />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+      </TooltipProvider>
+    </HelmetProvider>
   </QueryClientProvider>
 );
 
