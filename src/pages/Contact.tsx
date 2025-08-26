@@ -29,18 +29,23 @@ const Contact = () => {
     try {
       console.log('Form data being submitted:', formData);
       
+      // Prepare insert data, removing empty strings for optional fields
+      const insertData = {
+        full_name: formData.name || null,
+        email_address: formData.email || null,
+        phone_number: formData.phone || null,
+        business_name: formData.business || null,
+        loan_type: formData.loanType || null,
+        approximate_loan_amount: formData.loanAmount || null,
+        financing_needs: formData.message || null,
+      };
+
+      console.log('Insert data prepared:', insertData);
+      
       // Submit to Supabase
       const { data, error } = await supabase
         .from("form_submissions")
-        .insert({
-          full_name: formData.name,
-          email_address: formData.email,
-          phone_number: formData.phone,
-          business_name: formData.business,
-          loan_type: formData.loanType,
-          approximate_loan_amount: formData.loanAmount,
-          financing_needs: formData.message,
-        });
+        .insert(insertData);
 
       console.log('Supabase insert result:', { data, error });
 
@@ -54,7 +59,7 @@ const Contact = () => {
         throw error;
       }
 
-      console.log('Calling edge function with:', formData);
+      console.log('Database insert successful, calling edge function with:', formData);
       
       // Send notification email
       const { data: emailData, error: emailError } = await supabase.functions.invoke('send-form-notification', {
@@ -94,9 +99,14 @@ const Contact = () => {
         stack: error?.stack
       });
       
+      let errorMessage = "Please try again or contact us directly.";
+      if (error?.message) {
+        errorMessage = error.message;
+      }
+      
       toast({
         title: "Error submitting form",
-        description: error?.message || "Please try again or contact us directly.",
+        description: errorMessage,
         variant: "destructive",
       });
     } finally {
