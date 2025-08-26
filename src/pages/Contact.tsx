@@ -27,8 +27,10 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
+      console.log('Form data being submitted:', formData);
+      
       // Submit to Supabase
-      const { error } = await supabase
+      const { data, error } = await supabase
         .from("form_submissions")
         .insert({
           full_name: formData.name,
@@ -40,14 +42,25 @@ const Contact = () => {
           financing_needs: formData.message,
         });
 
+      console.log('Supabase insert result:', { data, error });
+
       if (error) {
         throw error;
       }
 
+      console.log('Calling edge function with:', formData);
+      
       // Send notification email
-      await supabase.functions.invoke('send-form-notification', {
+      const { data: emailData, error: emailError } = await supabase.functions.invoke('send-form-notification', {
         body: formData
       });
+
+      console.log('Edge function result:', { emailData, emailError });
+
+      if (emailError) {
+        console.error('Edge function error:', emailError);
+        // Don't throw here - form submission was successful even if email fails
+      }
 
       // Reset form and show success message
       setFormData({
