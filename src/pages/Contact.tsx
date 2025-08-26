@@ -23,24 +23,48 @@ const Contact = () => {
   const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent) => {
+    console.log('=== FORM SUBMIT STARTED ===');
     e.preventDefault();
+    console.log('preventDefault called');
     setIsSubmitting(true);
+    console.log('isSubmitting set to true');
 
     try {
       console.log('Form data being submitted:', formData);
       
+      // Basic validation
+      if (!formData.name || !formData.email) {
+        throw new Error('Name and email are required fields');
+      }
+      
+      console.log('Basic validation passed');
+      
       // Prepare insert data, removing empty strings for optional fields
       const insertData = {
-        full_name: formData.name || null,
-        email_address: formData.email || null,
-        phone_number: formData.phone || null,
-        business_name: formData.business || null,
+        full_name: formData.name.trim(),
+        email_address: formData.email.trim(),
+        phone_number: formData.phone?.trim() || null,
+        business_name: formData.business?.trim() || null,
         loan_type: formData.loanType || null,
-        approximate_loan_amount: formData.loanAmount || null,
-        financing_needs: formData.message || null,
+        approximate_loan_amount: formData.loanAmount?.trim() || null,
+        financing_needs: formData.message?.trim() || null,
       };
 
       console.log('Insert data prepared:', insertData);
+      
+      // Test Supabase connection first
+      console.log('Testing Supabase connection...');
+      const { data: testData, error: testError } = await supabase
+        .from("form_submissions")
+        .select('count', { count: 'exact', head: true });
+      
+      console.log('Supabase connection test:', { testData, testError });
+      
+      if (testError) {
+        throw new Error(`Database connection failed: ${testError.message}`);
+      }
+      
+      console.log('Supabase connection successful, proceeding with insert...');
       
       // Submit to Supabase
       const { data, error } = await supabase
@@ -70,7 +94,7 @@ const Contact = () => {
 
       if (emailError) {
         console.error('Edge function error:', emailError);
-        // Don't throw here - form submission was successful even if email fails
+        console.warn('Email notification failed, but form submission was successful');
       }
 
       // Reset form and show success message
@@ -89,9 +113,13 @@ const Contact = () => {
         description: "We'll get back to you within 24-48 hours.",
       });
 
+      console.log('=== FORM SUBMIT COMPLETED SUCCESSFULLY ===');
+
     } catch (error: any) {
+      console.error('=== FORM SUBMIT ERROR ===');
       console.error('Error submitting form:', error);
       console.error('Error details:', {
+        name: error?.name,
         message: error?.message,
         details: error?.details,
         hint: error?.hint,
@@ -110,7 +138,9 @@ const Contact = () => {
         variant: "destructive",
       });
     } finally {
+      console.log('Setting isSubmitting to false');
       setIsSubmitting(false);
+      console.log('=== FORM SUBMIT ENDED ===');
     }
   };
 
