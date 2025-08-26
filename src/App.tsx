@@ -21,6 +21,17 @@ import FirstSecondMortgages from "./pages/services/FirstSecondMortgages";
 import StrataFinance from "./pages/services/StrataFinance";
 import CommercialPropertyDevelopment from "./pages/services/CommercialPropertyDevelopment";
 import WorkingCapital from "./pages/services/WorkingCapital";
+import BridgingFinance from "./pages/services/BridgingFinance";
+import RefinancingSolutions from "./pages/services/RefinancingSolutions";
+import BuildingMaintenanceLoans from "./pages/services/BuildingMaintenanceLoans";
+import CapitalWorksFinance from "./pages/services/CapitalWorksFinance";
+import EquipmentFinance from "./pages/services/EquipmentFinance";
+import BusinessAcquisition from "./pages/services/BusinessAcquisition";
+import TradeFinance from "./pages/services/TradeFinance";
+import AssetBackedLending from "./pages/services/AssetBackedLending";
+import PrivateLending from "./pages/services/PrivateLending";
+import SMSFLending from "./pages/services/SMSFLending";
+import DebtConsolidation from "./pages/services/DebtConsolidation";
 
 const queryClient = new QueryClient();
 
@@ -50,6 +61,17 @@ const App = () => (
             <Route path="/services/strata-finance" element={<StrataFinance />} />
             <Route path="/services/commercial-property-development" element={<CommercialPropertyDevelopment />} />
             <Route path="/services/working-capital" element={<WorkingCapital />} />
+            <Route path="/services/bridging-finance" element={<BridgingFinance />} />
+            <Route path="/services/refinancing" element={<RefinancingSolutions />} />
+            <Route path="/services/maintenance-loans" element={<BuildingMaintenanceLoans />} />
+            <Route path="/services/capital-works" element={<CapitalWorksFinance />} />
+            <Route path="/services/equipment-finance" element={<EquipmentFinance />} />
+            <Route path="/services/business-acquisition" element={<BusinessAcquisition />} />
+            <Route path="/services/trade-finance" element={<TradeFinance />} />
+            <Route path="/services/asset-backed-lending" element={<AssetBackedLending />} />
+            <Route path="/services/private-lending" element={<PrivateLending />} />
+            <Route path="/services/smsf-lending" element={<SMSFLending />} />
+            <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
