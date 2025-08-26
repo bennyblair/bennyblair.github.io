@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Car, Cog, Building2, AlertTriangle, FileText, Phone, TrendingUp } from "lucide-react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
 
@@ -437,35 +438,37 @@ const AssetFinance = () => {
         {/* FAQs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
-          <div className="space-y-6">
-            {[
-              {
-                question: "Can I finance used equipment?",
-                answer: "Yes, subject to lender approval and valuation. The age and condition of the asset will affect terms."
-              },
-              {
-                question: "What is the maximum term?",
-                answer: "Usually up to 7 years depending on the asset type and value."
-              },
-              {
-                question: "Is a deposit required?",
-                answer: "Often no, but some lenders require 10–20% depending on the asset and borrower profile."
-              },
-              {
-                question: "Do I own the asset during finance?",
-                answer: "Depends on structure: ownership varies between chattel mortgage, hire purchase, and leasing arrangements."
-              }
-            ].map((faq, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <CardTitle className="text-lg">{faq.question}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{faq.answer}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          <Card className="premium-card">
+            <CardContent className="pt-6">
+              <Accordion type="single" collapsible className="w-full">
+                {[
+                  {
+                    question: "Can I finance used equipment?",
+                    answer: "Yes, subject to lender approval and valuation. The age and condition of the asset will affect terms."
+                  },
+                  {
+                    question: "What is the maximum term?",
+                    answer: "Usually up to 7 years depending on the asset type and value."
+                  },
+                  {
+                    question: "Is a deposit required?",
+                    answer: "Often no, but some lenders require 10–20% depending on the asset and borrower profile."
+                  },
+                  {
+                    question: "Do I own the asset during finance?",
+                    answer: "Depends on structure: ownership varies between chattel mortgage, hire purchase, and leasing arrangements."
+                  }
+                ].map((faq, index) => (
+                  <AccordionItem key={index} value={`item-${index}`}>
+                    <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground">
+                      {faq.answer}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Related Services */}

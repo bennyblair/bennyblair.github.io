@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Clock, DollarSign, Shield, AlertTriangle, FileText, Phone, TrendingUp } from "lucide-react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
 
@@ -317,42 +318,44 @@ const CaveatLoans = () => {
         {/* FAQs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
-          <div className="space-y-6">
-            {[
-              {
-                question: "How fast can I get a caveat loan?",
-                answer: "Usually within 24–48 hours from application approval."
-              },
-              {
-                question: "What loan term is available?",
-                answer: "Typically 1–12 months, depending on your specific requirements."
-              },
-              {
-                question: "Can I have an existing mortgage?",
-                answer: "Yes, provided there is sufficient equity and the mortgage terms allow it."
-              },
-              {
-                question: "Are caveat loans for personal use?",
-                answer: "No, they are designed for business purposes only."
-              }
-            ].map((faq, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <CardTitle className="text-lg">{faq.question}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{faq.answer}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          <Card className="premium-card">
+            <CardContent className="pt-6">
+              <Accordion type="single" collapsible className="w-full">
+                {[
+                  {
+                    question: "How fast can I get a caveat loan?",
+                    answer: "Usually within 24–48 hours from application approval."
+                  },
+                  {
+                    question: "What loan term is available?",
+                    answer: "Typically 1–12 months, depending on your specific requirements."
+                  },
+                  {
+                    question: "Can I have an existing mortgage?",
+                    answer: "Yes, provided there is sufficient equity and the mortgage terms allow it."
+                  },
+                  {
+                    question: "Are caveat loans for personal use?",
+                    answer: "No, they are designed for business purposes only."
+                  }
+                ].map((faq, index) => (
+                  <AccordionItem key={index} value={`item-${index}`}>
+                    <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground">
+                      {faq.answer}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Related Services */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6">Related Services</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Link to="/services/bridging-loans" className="block">
+            <Link to="/services/bridging-finance" className="block">
               <Card className="hover:shadow-lg transition-shadow cursor-pointer">
                 <CardContent className="p-4">
                   <h3 className="font-semibold">Bridging Loans</h3>

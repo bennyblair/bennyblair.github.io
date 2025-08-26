@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Cog, Truck, Building2, AlertTriangle, FileText, Phone, TrendingUp } from "lucide-react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
 
@@ -331,35 +332,37 @@ const EquipmentFinance = () => {
         {/* FAQs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
-          <div className="space-y-6">
-            {[
-              {
-                question: "Can I finance second-hand equipment?",
-                answer: "Yes, subject to condition and lender acceptance. The age and condition will affect terms and rates."
-              },
-              {
-                question: "What term lengths are available?",
-                answer: "Usually 2–7 years depending on the equipment type and value."
-              },
-              {
-                question: "Do I own the equipment during finance?",
-                answer: "Depends on product type — some provide ownership, others don't until final payment."
-              },
-              {
-                question: "Can start-ups access equipment finance?",
-                answer: "Yes, though stricter conditions or guarantees may apply for new businesses."
-              }
-            ].map((faq, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <CardTitle className="text-lg">{faq.question}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{faq.answer}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          <Card className="premium-card">
+            <CardContent className="pt-6">
+              <Accordion type="single" collapsible className="w-full">
+                {[
+                  {
+                    question: "Can I finance second-hand equipment?",
+                    answer: "Yes, subject to condition and lender acceptance. The age and condition will affect terms and rates."
+                  },
+                  {
+                    question: "What term lengths are available?",
+                    answer: "Usually 2–7 years depending on the equipment type and value."
+                  },
+                  {
+                    question: "Do I own the equipment during finance?",
+                    answer: "Depends on product type — some provide ownership, others don't until final payment."
+                  },
+                  {
+                    question: "Can start-ups access equipment finance?",
+                    answer: "Yes, though stricter conditions or guarantees may apply for new businesses."
+                  }
+                ].map((faq, index) => (
+                  <AccordionItem key={index} value={`item-${index}`}>
+                    <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground">
+                      {faq.answer}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Related Services */}
