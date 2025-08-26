@@ -6,6 +6,9 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/hooks/use-toast";
 import { 
   Building2, 
   TrendingUp, 
@@ -27,12 +30,95 @@ import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    business: "",
+    loanType: "",
+    loanAmount: "",
+    message: ""
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast } = useToast();
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      // Submit to Supabase
+      const { error } = await supabase
+        .from("form_submissions")
+        .insert({
+          full_name: formData.name,
+          email_address: formData.email,
+          phone_number: formData.phone,
+          business_name: formData.business,
+          loan_type: formData.loanType,
+          approximate_loan_amount: formData.loanAmount,
+          financing_needs: formData.message,
+        });
+
+      if (error) {
+        throw error;
+      }
+
+      // Send notification email
+      await supabase.functions.invoke('send-form-notification', {
+        body: formData
+      });
+
+      // Reset form and show success message
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        business: "",
+        loanType: "",
+        loanAmount: "",
+        message: ""
+      });
+
+      toast({
+        title: "Form submitted successfully!",
+        description: "We'll get back to you within 24-48 hours.",
+      });
+
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: "Error submitting form",
+        description: "Please try again or contact us directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({
+      ...prev,
+      [field]: value
+    }));
+  };
+
+  const loanTypes = [
+    "Asset Finance",
+    "Development Finance",
+    "Bridging Finance", 
+    "Working Capital",
+    "Invoice Finance",
+    "Trade Finance",
+    "Other"
+  ];
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -317,41 +403,91 @@ const Homepage = () => {
           
           <Card className="premium-card">
             <CardContent className="p-8">
-              <form className="grid md:grid-cols-2 gap-6">
+              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-sm font-medium mb-2">Name</label>
-                  <Input className="bg-background/50 border-glass-border focus:border-accent" />
+                  <label className="block text-sm font-medium mb-2">Name *</label>
+                  <Input 
+                    value={formData.name}
+                    onChange={(e) => handleInputChange("name", e.target.value)}
+                    required
+                    className="bg-background/50 border-glass-border focus:border-accent" 
+                  />
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium mb-2">Email</label>
-                  <Input type="email" className="bg-background/50 border-glass-border focus:border-accent" />
+                  <label className="block text-sm font-medium mb-2">Email *</label>
+                  <Input 
+                    type="email" 
+                    value={formData.email}
+                    onChange={(e) => handleInputChange("email", e.target.value)}
+                    required
+                    className="bg-background/50 border-glass-border focus:border-accent" 
+                  />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium mb-2">Phone</label>
-                  <Input type="tel" className="bg-background/50 border-glass-border focus:border-accent" />
+                  <Input 
+                    type="tel" 
+                    value={formData.phone}
+                    onChange={(e) => handleInputChange("phone", e.target.value)}
+                    className="bg-background/50 border-glass-border focus:border-accent" 
+                  />
+                </div>
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Business Name</label>
+                  <Input 
+                    value={formData.business}
+                    onChange={(e) => handleInputChange("business", e.target.value)}
+                    className="bg-background/50 border-glass-border focus:border-accent" 
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium mb-2">Loan Type</label>
+                  <Select onValueChange={(value) => handleInputChange("loanType", value)}>
+                    <SelectTrigger className="bg-background/50 border-glass-border focus:border-accent">
+                      <SelectValue placeholder="Select loan type" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {loanTypes.map((type) => (
+                        <SelectItem key={type} value={type}>
+                          {type}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium mb-2">Funding Amount</label>
-                  <Input placeholder="e.g. $500,000" className="bg-background/50 border-glass-border focus:border-accent" />
+                  <Input 
+                    placeholder="e.g. $500,000" 
+                    value={formData.loanAmount}
+                    onChange={(e) => handleInputChange("loanAmount", e.target.value)}
+                    className="bg-background/50 border-glass-border focus:border-accent" 
+                  />
                 </div>
                 
                 <div className="md:col-span-2">
                   <label className="block text-sm font-medium mb-2">Tell us about your requirements</label>
                   <Textarea 
+                    value={formData.message}
+                    onChange={(e) => handleInputChange("message", e.target.value)}
                     className="bg-background/50 border-glass-border focus:border-accent min-h-[120px]" 
                     placeholder="Describe your funding needs, timeline, and any specific requirements..."
                   />
                 </div>
                 
                 <div className="md:col-span-2">
-                  <Button asChild className="w-full bg-accent hover:bg-accent-light text-accent-foreground py-6 text-lg hover-lift">
-                    <Link to="/contact">
-                      Submit Your Enquiry
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
+                  <Button 
+                    type="submit" 
+                    disabled={isSubmitting}
+                    className="w-full bg-accent hover:bg-accent-light text-accent-foreground py-6 text-lg hover-lift"
+                  >
+                    {isSubmitting ? "Submitting..." : "Submit Your Enquiry"}
+                    <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </div>
               </form>
