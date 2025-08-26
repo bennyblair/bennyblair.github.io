@@ -34,6 +34,8 @@ import AssetBackedLending from "./pages/services/AssetBackedLending";
 import PrivateLending from "./pages/services/PrivateLending";
 import SMSFLending from "./pages/services/SMSFLending";
 import DebtConsolidation from "./pages/services/DebtConsolidation";
+import CaveatLoans from "./pages/services/CaveatLoans";
+import AssetFinance from "./pages/services/AssetFinance";
 
 const queryClient = new QueryClient();
 
@@ -76,6 +78,8 @@ const App = () => (
               <Route path="/services/private-lending" element={<PrivateLending />} />
               <Route path="/services/smsf-lending" element={<SMSFLending />} />
               <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
+              <Route path="/services/caveat-loans" element={<CaveatLoans />} />
+              <Route path="/services/asset-finance" element={<AssetFinance />} />
               <Route path="/about" element={<About />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
