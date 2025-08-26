@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -109,9 +110,11 @@ const About = () => {
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Today, we maintain relationships with a diverse network of private lenders, non-bank institutions, and alternative funding sources across Australia, ensuring we can match the right solution to your specific requirements.
             </p>
-            <Button className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
-              <Phone className="mr-2 h-4 w-4" />
-              Discuss Your Requirements
+            <Button asChild className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
+              <Link to="/contact">
+                <Phone className="mr-2 h-4 w-4" />
+                Discuss Your Requirements
+              </Link>
             </Button>
           </div>
           
@@ -246,10 +249,10 @@ const About = () => {
                 size="lg"
                 className="bg-accent hover:bg-accent-dark text-accent-foreground"
               >
-                <a href="/contact">
+                <Link to="/contact">
                   Start Your Application
                   <ArrowRight className="w-5 h-5 ml-2" />
-                </a>
+                </Link>
               </Button>
               <Button 
                 asChild 

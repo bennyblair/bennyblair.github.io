@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -64,14 +65,18 @@ const Homepage = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
-                Get Your Quote
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <Button asChild size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
+                <Link to="/contact">
+                  Get Your Quote
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </Button>
               
-              <Button variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-7 text-lg rounded-2xl">
-                <Phone className="mr-2 h-5 w-5" />
-                0485 952 651
+              <Button asChild variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-7 text-lg rounded-2xl">
+                <a href="tel:0485952651">
+                  <Phone className="mr-2 h-5 w-5" />
+                  0485 952 651
+                </a>
               </Button>
             </div>
           </div>
@@ -287,9 +292,11 @@ const Homepage = () => {
                 ))}
               </div>
               
-              <Button className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
-                Learn More About Us
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button asChild className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
+                <Link to="/about">
+                  Learn More About Us
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </Button>
             </div>
             
@@ -350,9 +357,11 @@ const Homepage = () => {
                 </div>
                 
                 <div className="md:col-span-2">
-                  <Button className="w-full bg-accent hover:bg-accent-light text-accent-foreground py-6 text-lg hover-lift">
-                    Submit Your Enquiry
-                    <ArrowRight className="ml-2 h-5 w-5" />
+                  <Button asChild className="w-full bg-accent hover:bg-accent-light text-accent-foreground py-6 text-lg hover-lift">
+                    <Link to="/contact">
+                      Submit Your Enquiry
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Link>
                   </Button>
                 </div>
               </form>

@@ -224,7 +224,7 @@ const Services = () => {
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="/contact">Get Custom Quote</a>
+              <Link to="/contact">Get Custom Quote</Link>
             </Button>
           </div>
         </div>
@@ -326,13 +326,13 @@ const Services = () => {
                                      Details
                                    </Button>
                                  </Link>
-                                 <Button 
-                                   asChild
-                                   size="sm" 
-                                   className="flex-1 text-xs bg-accent hover:bg-accent-dark text-accent-foreground"
-                                 >
-                                   <a href="/contact">Apply</a>
-                                 </Button>
+                                  <Button 
+                                    asChild
+                                    size="sm" 
+                                    className="flex-1 text-xs bg-accent hover:bg-accent-dark text-accent-foreground"
+                                  >
+                                    <Link to="/contact">Apply</Link>
+                                  </Button>
                                </div>
                             </CardContent>
                           </Card>
@@ -388,7 +388,7 @@ const Services = () => {
                 size="lg"
                 className="bg-accent hover:bg-accent-dark text-accent-foreground"
               >
-                <a href="/contact">Start Your Application</a>
+                <Link to="/contact">Start Your Application</Link>
               </Button>
               <Button 
                 asChild 
