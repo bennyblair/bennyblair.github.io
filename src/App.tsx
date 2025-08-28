@@ -20,13 +20,10 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import FirstSecondMortgages from "./pages/services/FirstSecondMortgages";
-import StrataFinance from "./pages/services/StrataFinance";
 import CommercialPropertyDevelopment from "./pages/services/CommercialPropertyDevelopment";
 import WorkingCapital from "./pages/services/WorkingCapital";
 import BridgingFinance from "./pages/services/BridgingFinance";
 import RefinancingSolutions from "./pages/services/RefinancingSolutions";
-import BuildingMaintenanceLoans from "./pages/services/BuildingMaintenanceLoans";
-import CapitalWorksFinance from "./pages/services/CapitalWorksFinance";
 import EquipmentFinance from "./pages/services/EquipmentFinance";
 import BusinessAcquisition from "./pages/services/BusinessAcquisition";
 import TradeFinance from "./pages/services/TradeFinance";
@@ -64,13 +61,10 @@ const App = () => (
               <Route path="/consultation" element={<Contact />} />
               <Route path="/services" element={<Services />} />
               <Route path="/services/first-second-mortgages" element={<FirstSecondMortgages />} />
-              <Route path="/services/strata-finance" element={<StrataFinance />} />
               <Route path="/services/commercial-property-development" element={<CommercialPropertyDevelopment />} />
               <Route path="/services/working-capital" element={<WorkingCapital />} />
               <Route path="/services/bridging-finance" element={<BridgingFinance />} />
               <Route path="/services/refinancing" element={<RefinancingSolutions />} />
-              <Route path="/services/maintenance-loans" element={<BuildingMaintenanceLoans />} />
-              <Route path="/services/capital-works" element={<CapitalWorksFinance />} />
               <Route path="/services/equipment-finance" element={<EquipmentFinance />} />
               <Route path="/services/business-acquisition" element={<BusinessAcquisition />} />
               <Route path="/services/trade-finance" element={<TradeFinance />} />
