@@ -1,11 +1,48 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Briefcase, TrendingUp, Target, Phone, CheckCircle, ArrowRight } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const BusinessAcquisition = () => {
+  const keyTakeaways = [
+    "Business acquisition finance from $200K to $50M+ for purchasing established operating businesses",
+    "Flexible deal structures including 100% funding, management buyouts, and vendor finance arrangements",
+    "Strategic growth through acquisition allows rapid expansion without building from scratch",
+    "Expert deal structuring with earnouts, contingent payments, and leveraged buyout options",
+    "Fast approval process for time-sensitive acquisition opportunities with competitive terms"
+  ];
+
+  const faqs = [
+    {
+      question: "What is business acquisition finance and how does it work?",
+      answer: "Business acquisition finance provides funding to purchase existing businesses, allowing you to expand operations, enter new markets, or consolidate industry positions. The finance is secured against business assets, cash flows, or additional security, enabling purchase of established operations with proven revenue streams and customer bases."
+    },
+    {
+      question: "How much can I borrow for business acquisitions?",
+      answer: "Acquisition finance ranges from $200,000 to $50M+ depending on the target business value, your financial capacity, and deal structure. Most lenders offer 60-80% of purchase price, requiring you to contribute 20-40% equity. The amount depends on target business cash flows, asset values, and your ability to service debt."
+    },
+    {
+      question: "What types of businesses can be acquired with finance?",
+      answer: "We finance acquisitions across all industries including manufacturing, retail, services, healthcare, technology, and hospitality businesses. Target businesses should have established operations, proven profitability, quality management systems, and growth potential. Distressed acquisitions and turnaround situations are also considered."
+    },
+    {
+      question: "What deal structures are available for acquisitions?",
+      answer: "Deal structures include 100% business acquisition funding, management buyouts (MBO), leveraged buyouts (LBO), vendor finance arrangements, earnout structures, and contingent payment deals. Each structure is tailored to buyer capacity, seller requirements, and business risk profile to optimize transaction success."
+    },
+    {
+      question: "How long does acquisition finance approval take?",
+      answer: "Acquisition finance approval typically takes 2-4 weeks depending on deal complexity, due diligence requirements, and documentation completeness. Time-sensitive opportunities can be fast-tracked with preliminary approvals within 48-72 hours, allowing you to proceed with confidence in competitive situations."
+    },
+    {
+      question: "What due diligence is required for acquisition financing?",
+      answer: "Due diligence includes financial audit, legal review, operational assessment, market analysis, and management evaluation. We require 3 years of target business financials, tax returns, customer/supplier analysis, lease agreements, and growth projections. Professional advisors conduct detailed reviews to identify risks and opportunities."
+    }
+  ];
+
   return (
     <div className="min-h-screen py-8">
       <div className="container mx-auto px-4">
