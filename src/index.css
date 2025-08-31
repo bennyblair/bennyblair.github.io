@@ -11,10 +11,10 @@
     --foreground: 0 0% 95%;
 
     /* Deep navy primary */
-    --primary: 220 25% 15%;
-    --primary-foreground: 0 0% 95%;
-    --primary-light: 220 20% 20%;
-    --primary-dark: 220 30% 10%;
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 210 100% 60%;
+    --primary-dark: 210 100% 40%;
 
     /* Dark charcoal secondary */
     --secondary: 220 10% 12%;
@@ -97,7 +97,7 @@
     --card-foreground: 224 15% 25%;
     --popover: 0 0% 100%;
     --popover-foreground: 224 15% 25%;
-    --primary: 216 32% 25%;
+    --primary: 210 100% 45%;
     --primary-foreground: 0 0% 100%;
     --secondary: 210 20% 96%;
     --secondary-foreground: 224 15% 25%;
