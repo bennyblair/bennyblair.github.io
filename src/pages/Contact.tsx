@@ -191,12 +191,13 @@ const Contact = () => {
                 <h2 className="text-2xl font-bold text-foreground mb-6">
                   Request Your Free Consultation
                 </h2>
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6" netlify name="contact">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <Label htmlFor="name">Full Name *</Label>
                       <Input
                         id="name"
+                        name="name"
                         value={formData.name}
                         onChange={(e) => handleInputChange("name", e.target.value)}
                         required
@@ -207,6 +208,7 @@ const Contact = () => {
                       <Label htmlFor="email">Email Address *</Label>
                       <Input
                         id="email"
+                        name="email"
                         type="email"
                         value={formData.email}
                         onChange={(e) => handleInputChange("email", e.target.value)}
@@ -221,6 +223,7 @@ const Contact = () => {
                       <Label htmlFor="phone">Phone Number</Label>
                       <Input
                         id="phone"
+                        name="phone"
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => handleInputChange("phone", e.target.value)}
@@ -231,6 +234,7 @@ const Contact = () => {
                       <Label htmlFor="business">Business Name</Label>
                       <Input
                         id="business"
+                        name="business"
                         value={formData.business}
                         onChange={(e) => handleInputChange("business", e.target.value)}
                         className="mt-1"
@@ -241,7 +245,7 @@ const Contact = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <Label>Loan Type</Label>
-                      <Select onValueChange={(value) => handleInputChange("loanType", value)}>
+                      <Select onValueChange={(value) => handleInputChange("loanType", value)} name="loanType">
                         <SelectTrigger className="mt-1">
                           <SelectValue placeholder="Select loan type" />
                         </SelectTrigger>
@@ -258,6 +262,7 @@ const Contact = () => {
                       <Label htmlFor="loanAmount">Approximate Loan Amount</Label>
                       <Input
                         id="loanAmount"
+                        name="loanAmount"
                         placeholder="e.g., $500,000"
                         value={formData.loanAmount}
                         onChange={(e) => handleInputChange("loanAmount", e.target.value)}
@@ -270,6 +275,7 @@ const Contact = () => {
                     <Label htmlFor="message">Tell us about your financing needs</Label>
                     <Textarea
                       id="message"
+                      name="message"
                       rows={4}
                       placeholder="Describe your business, financing requirements, timeline, and any specific questions..."
                       value={formData.message}
