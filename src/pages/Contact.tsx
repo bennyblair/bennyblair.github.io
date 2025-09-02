@@ -192,6 +192,7 @@ const Contact = () => {
                   Request Your Free Consultation
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6" netlify name="contact">
+                  <input type="hidden" name="form-name" value="contact" />
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <Label htmlFor="name">Full Name *</Label>
