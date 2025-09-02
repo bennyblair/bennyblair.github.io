@@ -6,7 +6,6 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
-import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -23,78 +22,28 @@ const Contact = () => {
   const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent) => {
-    console.log('=== FORM SUBMIT STARTED ===');
     e.preventDefault();
-    console.log('preventDefault called');
     setIsSubmitting(true);
-    console.log('isSubmitting set to true');
 
     try {
-      console.log('Form data being submitted:', formData);
-      
       // Basic validation
       if (!formData.name || !formData.email) {
         throw new Error('Name and email are required fields');
       }
-      
-      console.log('Basic validation passed');
-      
-      // Prepare insert data, removing empty strings for optional fields
-      const insertData = {
-        full_name: formData.name.trim(),
-        email_address: formData.email.trim(),
-        phone_number: formData.phone?.trim() || null,
-        business_name: formData.business?.trim() || null,
-        loan_type: formData.loanType || null,
-        approximate_loan_amount: formData.loanAmount?.trim() || null,
-        financing_needs: formData.message?.trim() || null,
-      };
 
-      console.log('Insert data prepared:', insertData);
-      
-      // Test Supabase connection first
-      console.log('Testing Supabase connection...');
-      const { data: testData, error: testError } = await supabase
-        .from("form_submissions")
-        .select('count', { count: 'exact', head: true });
-      
-      console.log('Supabase connection test:', { testData, testError });
-      
-      if (testError) {
-        throw new Error(`Database connection failed: ${testError.message}`);
-      }
-      
-      console.log('Supabase connection successful, proceeding with insert...');
-      
-      // Submit to Supabase
-      const { data, error } = await supabase
-        .from("form_submissions")
-        .insert(insertData);
+      // Prepare form data for Netlify
+      const form = e.target as HTMLFormElement;
+      const netlifyFormData = new FormData(form);
 
-      console.log('Supabase insert result:', { data, error });
-
-      if (error) {
-        console.error('Detailed Supabase error:', {
-          message: error.message,
-          details: error.details,
-          hint: error.hint,
-          code: error.code
-        });
-        throw error;
-      }
-
-      console.log('Database insert successful, calling edge function with:', formData);
-      
-      // Send notification email
-      const { data: emailData, error: emailError } = await supabase.functions.invoke('send-form-notification', {
-        body: formData
+      // Submit to Netlify
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(netlifyFormData as any).toString()
       });
 
-      console.log('Edge function result:', { emailData, emailError });
-
-      if (emailError) {
-        console.error('Edge function error:', emailError);
-        console.warn('Email notification failed, but form submission was successful');
+      if (!response.ok) {
+        throw new Error(`Form submission failed: ${response.status}`);
       }
 
       // Reset form and show success message
@@ -113,34 +62,16 @@ const Contact = () => {
         description: "We'll get back to you within 24-48 hours.",
       });
 
-      console.log('=== FORM SUBMIT COMPLETED SUCCESSFULLY ===');
-
     } catch (error: any) {
-      console.error('=== FORM SUBMIT ERROR ===');
-      console.error('Error submitting form:', error);
-      console.error('Error details:', {
-        name: error?.name,
-        message: error?.message,
-        details: error?.details,
-        hint: error?.hint,
-        code: error?.code,
-        stack: error?.stack
-      });
-      
-      let errorMessage = "Please try again or contact us directly.";
-      if (error?.message) {
-        errorMessage = error.message;
-      }
+      console.error('Form submission error:', error);
       
       toast({
         title: "Error submitting form",
-        description: errorMessage,
+        description: error?.message || "Please try again or contact us directly.",
         variant: "destructive",
       });
     } finally {
-      console.log('Setting isSubmitting to false');
       setIsSubmitting(false);
-      console.log('=== FORM SUBMIT ENDED ===');
     }
   };
 

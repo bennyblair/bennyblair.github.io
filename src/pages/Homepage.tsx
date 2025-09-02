@@ -7,7 +7,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import { 
   Building2, 
@@ -49,18 +48,11 @@ const Homepage = () => {
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
-    console.log('🚀 HOMEPAGE FORM SUBMIT STARTED');
-    console.log('Form data at start:', formData);
-    
     e.preventDefault();
-    console.log('preventDefault called');
-    
     setIsSubmitting(true);
-    console.log('isSubmitting set to true');
 
-    // Add a simple validation check
+    // Basic validation
     if (!formData.name || !formData.email) {
-      console.error('Validation failed: missing required fields');
       toast({
         title: "Validation Error",
         description: "Please fill in all required fields (Name and Email)",
@@ -71,51 +63,19 @@ const Homepage = () => {
     }
 
     try {
-      console.log('Basic validation passed');
-      
-      // Prepare insert data, removing empty strings for optional fields
-      const insertData = {
-        full_name: formData.name.trim(),
-        email_address: formData.email.trim(),
-        phone_number: formData.phone?.trim() || null,
-        business_name: formData.business?.trim() || null,
-        loan_type: formData.loanType || null,
-        approximate_loan_amount: formData.loanAmount?.trim() || null,
-        financing_needs: formData.message?.trim() || null,
-      };
+      // Prepare form data for Netlify
+      const form = e.target as HTMLFormElement;
+      const netlifyFormData = new FormData(form);
 
-      console.log('Insert data prepared:', insertData);
-      
-      // Submit to Supabase
-      console.log('Calling Supabase insert...');
-      const { data, error } = await supabase
-        .from("form_submissions")
-        .insert(insertData);
-
-      console.log('Supabase insert result:', { data, error });
-
-      if (error) {
-        console.error('❌ Detailed Supabase error:', {
-          message: error.message,
-          details: error.details,
-          hint: error.hint,
-          code: error.code
-        });
-        throw error;
-      }
-
-      console.log('✅ Database insert successful, calling edge function...');
-      
-      // Send notification email
-      const { data: emailData, error: emailError } = await supabase.functions.invoke('send-form-notification', {
-        body: formData
+      // Submit to Netlify
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(netlifyFormData as any).toString()
       });
 
-      console.log('Edge function result:', { emailData, emailError });
-
-      if (emailError) {
-        console.error('Edge function error:', emailError);
-        // Don't throw here - form submission was successful even if email fails
+      if (!response.ok) {
+        throw new Error(`Form submission failed: ${response.status}`);
       }
 
       // Reset form and show success message
@@ -134,33 +94,16 @@ const Homepage = () => {
         description: "We'll get back to you within 24-48 hours.",
       });
 
-      console.log('🎉 HOMEPAGE FORM SUBMIT COMPLETED SUCCESSFULLY');
-
     } catch (error: any) {
-      console.error('❌ HOMEPAGE FORM SUBMIT ERROR:', error);
-      console.error('Error details:', {
-        name: error?.name,
-        message: error?.message,
-        details: error?.details,
-        hint: error?.hint,
-        code: error?.code,
-        stack: error?.stack
-      });
-      
-      let errorMessage = "Please try again or contact us directly.";
-      if (error?.message) {
-        errorMessage = error.message;
-      }
+      console.error('Form submission error:', error);
       
       toast({
         title: "Error submitting form",
-        description: errorMessage,
+        description: error?.message || "Please try again or contact us directly.",
         variant: "destructive",
       });
     } finally {
-      console.log('Setting isSubmitting to false');
       setIsSubmitting(false);
-      console.log('🏁 HOMEPAGE FORM SUBMIT ENDED');
     }
   };
 
@@ -464,10 +407,12 @@ const Homepage = () => {
           
           <Card className="premium-card">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6">
+              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6" netlify name="homepage-contact">
+                <input type="hidden" name="form-name" value="homepage-contact" />
                 <div>
                   <label className="block text-sm font-medium mb-2">Name *</label>
                   <Input 
+                    name="name"
                     value={formData.name}
                     onChange={(e) => handleInputChange("name", e.target.value)}
                     required
@@ -478,6 +423,7 @@ const Homepage = () => {
                 <div>
                   <label className="block text-sm font-medium mb-2">Email *</label>
                   <Input 
+                    name="email"
                     type="email" 
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
@@ -489,6 +435,7 @@ const Homepage = () => {
                 <div>
                   <label className="block text-sm font-medium mb-2">Phone</label>
                   <Input 
+                    name="phone"
                     type="tel" 
                     value={formData.phone}
                     onChange={(e) => handleInputChange("phone", e.target.value)}
@@ -499,6 +446,7 @@ const Homepage = () => {
                 <div>
                   <label className="block text-sm font-medium mb-2">Business Name</label>
                   <Input 
+                    name="business"
                     value={formData.business}
                     onChange={(e) => handleInputChange("business", e.target.value)}
                     className="bg-background/50 border-glass-border focus:border-accent" 
@@ -507,7 +455,7 @@ const Homepage = () => {
 
                 <div>
                   <label className="block text-sm font-medium mb-2">Loan Type</label>
-                  <Select onValueChange={(value) => handleInputChange("loanType", value)}>
+                  <Select onValueChange={(value) => handleInputChange("loanType", value)} name="loanType">
                     <SelectTrigger className="bg-background/50 border-glass-border focus:border-accent">
                       <SelectValue placeholder="Select loan type" />
                     </SelectTrigger>
@@ -524,6 +472,7 @@ const Homepage = () => {
                 <div>
                   <label className="block text-sm font-medium mb-2">Funding Amount</label>
                   <Input 
+                    name="loanAmount"
                     placeholder="e.g. $500,000" 
                     value={formData.loanAmount}
                     onChange={(e) => handleInputChange("loanAmount", e.target.value)}
@@ -534,6 +483,7 @@ const Homepage = () => {
                 <div className="md:col-span-2">
                   <label className="block text-sm font-medium mb-2">Tell us about your requirements</label>
                   <Textarea 
+                    name="message"
                     value={formData.message}
                     onChange={(e) => handleInputChange("message", e.target.value)}
                     className="bg-background/50 border-glass-border focus:border-accent min-h-[120px]" 
