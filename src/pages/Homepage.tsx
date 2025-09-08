@@ -63,22 +63,38 @@ const Homepage = () => {
     }
 
     try {
-      // Prepare form data for Netlify
-      const form = e.target as HTMLFormElement;
-      const netlifyFormData = new FormData(form);
+      // Check if we're in development mode
+      const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+      
+      if (isDevelopment) {
+        // In development, just simulate success
+        console.log('Development mode - form data:', formData);
+        toast({
+          title: "Development Mode",
+          description: "Form submission simulated. Deploy to Netlify to test actual submission.",
+        });
+      } else {
+        // In production, submit to Netlify
+        const form = e.target as HTMLFormElement;
+        const netlifyFormData = new FormData(form);
 
-      // Submit to Netlify
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(netlifyFormData as any).toString()
-      });
+        const response = await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(netlifyFormData as any).toString()
+        });
 
-      if (!response.ok) {
-        throw new Error(`Form submission failed: ${response.status}`);
+        if (!response.ok) {
+          throw new Error(`Form submission failed: ${response.status}`);
+        }
+
+        toast({
+          title: "Form submitted successfully!",
+          description: "We'll get back to you within 24-48 hours.",
+        });
       }
 
-      // Reset form and show success message
+      // Reset form
       setFormData({
         name: "",
         email: "",
@@ -87,11 +103,6 @@ const Homepage = () => {
         loanType: "",
         loanAmount: "",
         message: ""
-      });
-
-      toast({
-        title: "Form submitted successfully!",
-        description: "We'll get back to you within 24-48 hours.",
       });
 
     } catch (error: any) {
