@@ -1,3 +1,6 @@
+# Redirects for old URLs
+/about-us    /about    301
+
 # SPA Fallback - Send all routes to index.html for React Router to handle
 /*    /index.html   200
 
