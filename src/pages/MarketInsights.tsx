@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,10 +6,34 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { TrendingUp, Calendar, Clock, Filter, Star, Mail, ChevronRight } from "lucide-react";
+import { getContentFiles, type Article } from "@/lib/content";
 
 const MarketInsights = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [email, setEmail] = useState("");
+  const [latestInsight, setLatestInsight] = useState<Article | null>(null);
+  const [publishedInsights, setPublishedInsights] = useState<Article[]>([]);
+
+  useEffect(() => {
+    // Load published insights from content system
+    const insights = getContentFiles('insights');
+    setPublishedInsights(insights);
+    
+    // Get the most recent insight for hero section
+    if (insights.length > 0) {
+      const latest = insights.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
+      setLatestInsight(latest);
+    }
+  }, []);
+
+  // Helper function to check if insight is "new" (within 7 days)
+  const isNewInsight = (date: string) => {
+    const articleDate = new Date(date);
+    const now = new Date();
+    const diffTime = Math.abs(now.getTime() - articleDate.getTime());
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays <= 7;
+  };
 
   const categories = [
     "All",
@@ -133,6 +157,60 @@ const MarketInsights = () => {
             Stay informed with the latest trends, analysis, and insights from Australia's commercial lending market. Expert commentary to guide your financing decisions.
           </p>
         </div>
+
+        {/* Latest Insight Hero Section */}
+        {latestInsight && (
+          <Card className="mb-8 bg-gradient-to-r from-accent/10 to-accent-light/10 border-accent/20">
+            <CardContent className="p-8">
+              <div className="flex items-center mb-4">
+                {isNewInsight(latestInsight.date) && (
+                  <span className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-sm font-medium mr-3">
+                    NEW
+                  </span>
+                )}
+                <Star className="w-5 h-5 text-accent mr-2" />
+                <span className="text-sm font-medium text-accent">Latest Market Insight</span>
+              </div>
+              <div className="grid lg:grid-cols-3 gap-8 items-center">
+                <div className="lg:col-span-2">
+                  <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
+                    {latestInsight.title}
+                  </h2>
+                  <p className="text-lg text-muted-foreground mb-6">
+                    {latestInsight.description}
+                  </p>
+                  <div className="flex items-center space-x-6 text-sm text-muted-foreground mb-6">
+                    <div className="flex items-center">
+                      <Clock className="w-4 h-4 mr-1" />
+                      {latestInsight.readingTime} min read
+                    </div>
+                    <span className="bg-accent/20 text-accent px-3 py-1 rounded-full">
+                      {latestInsight.category}
+                    </span>
+                    <span className="text-muted-foreground">
+                      {new Date(latestInsight.date).toLocaleDateString('en-AU', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                      })}
+                    </span>
+                  </div>
+                </div>
+                <div className="text-center lg:text-right">
+                  <Button 
+                    asChild 
+                    size="lg"
+                    className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
+                  >
+                    <Link to={`/resources/insights/${latestInsight.slug}`}>
+                      Read Latest Insight
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        )}
 
         {/* Market Summary */}
         <Card className="mb-12 bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20">
