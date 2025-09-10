@@ -69,7 +69,6 @@ jobs:
           
           python scripts/publish_from_sot.py \
             --csv data/emet_ai_feed_daily.csv \
-            --published-dir src/content \
             $DRY_RUN_FLAG
 
       - name: Apply internal links (if interlinks.csv exists)
