@@ -276,10 +276,32 @@ def main():
         for path in published_files:
             print(f"   📄 {path}")
         
+        # Generate updated sitemap
+        if not args.dry_run:
+            try:
+                print(f"\n🗺️  Generating updated sitemap...")
+                import subprocess
+                result = subprocess.run(
+                    ['python3', 'scripts/generate_sitemap.py'], 
+                    capture_output=True, 
+                    text=True, 
+                    cwd=os.getcwd()
+                )
+                
+                if result.returncode == 0:
+                    print(f"✅ Sitemap updated successfully")
+                    print(f"   {result.stdout.strip()}")
+                else:
+                    print(f"⚠️  Warning: Sitemap generation failed")
+                    print(f"   {result.stderr.strip()}")
+            except Exception as e:
+                print(f"⚠️  Warning: Could not generate sitemap: {e}")
+        
         print(f"\n💡 Next steps:")
         print(f"   1. Run build process to generate static files")
-        print(f"   2. Commit and push changes")
+        print(f"   2. Commit and push changes (including updated sitemap.xml)")
         print(f"   3. Verify articles are live on website")
+        print(f"   4. Sitemap will be automatically discovered by search engines")
     
     return 0
 
