@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, FormEvent } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -26,6 +26,7 @@ import {
   DollarSign
 } from "lucide-react";
 import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
+import { getContentFiles, type Article } from "@/lib/content";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -39,6 +40,7 @@ const Homepage = () => {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [latestArticles, setLatestArticles] = useState<Article[]>([]);
   const { toast } = useToast();
 
   useEffect(() => {
@@ -46,6 +48,39 @@ const Homepage = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    const loadLatestArticles = async () => {
+      try {
+        const [guides, caseStudies, insights] = await Promise.all([
+          getContentFiles('guides'),
+          getContentFiles('case-studies'),
+          getContentFiles('insights')
+        ]);
+        
+        // Combine all articles and sort by date (newest first)
+        const allArticles = [...guides, ...caseStudies, ...insights];
+        const sortedArticles = allArticles.sort((a, b) => 
+          new Date(b.date).getTime() - new Date(a.date).getTime()
+        );
+        
+        // Take the latest 6 articles
+        setLatestArticles(sortedArticles.slice(0, 6));
+      } catch (error) {
+        console.error('Error loading latest articles:', error);
+      }
+    };
+
+    loadLatestArticles();
+  }, []);
+
+  // Helper function to check if article is new (within 7 days)
+  const isNewArticle = (date: string) => {
+    const articleDate = new Date(date);
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+    return articleDate > sevenDaysAgo;
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -77,11 +112,17 @@ const Homepage = () => {
         // In production, submit to Netlify
         const form = e.target as HTMLFormElement;
         const netlifyFormData = new FormData(form);
+        
+        // Convert FormData to URLSearchParams compatible format
+        const formParams = new URLSearchParams();
+        for (const [key, value] of netlifyFormData.entries()) {
+          formParams.append(key, value.toString());
+        }
 
         const response = await fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams(netlifyFormData as any).toString()
+          body: formParams.toString()
         });
 
         if (!response.ok) {
@@ -105,12 +146,12 @@ const Homepage = () => {
         message: ""
       });
 
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Form submission error:', error);
       
       toast({
         title: "Error submitting form",
-        description: error?.message || "Please try again or contact us directly.",
+        description: error instanceof Error ? error.message : "Please try again or contact us directly.",
         variant: "destructive",
       });
     } finally {
@@ -362,6 +403,86 @@ const Homepage = () => {
         </div>
       </section>
 
+      {/* Latest Articles */}
+      <section className="py-24 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="fade-in-up">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-slate-800 bg-clip-text text-transparent">
+                Latest Articles & Insights
+              </h2>
+              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+                Stay informed with our latest guides, case studies, and market insights. 
+                Fresh content to help you make smarter financing decisions.
+              </p>
+            </div>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {latestArticles.map((article, index) => (
+              <div key={article.slug} className={`fade-in-up delay-${index * 100}`}>
+                <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/80 backdrop-blur-sm">
+                  <CardHeader className="pb-3">
+                    <div className="flex items-start justify-between gap-3 mb-2">
+                      <Badge variant="outline" className="text-xs font-medium">
+                        {article.category}
+                      </Badge>
+                      {isNewArticle(article.date) && (
+                        <Badge className="bg-green-100 text-green-800 border-green-200 hover:bg-green-100 text-xs font-medium">
+                          NEW
+                        </Badge>
+                      )}
+                    </div>
+                    <CardTitle className="text-lg line-clamp-2 leading-tight hover:text-blue-600 transition-colors">
+                      <Link 
+                        to={`/resources/${article.category.toLowerCase().replace(/\s+/g, '-')}/${article.slug}`}
+                        className="block"
+                      >
+                        {article.title}
+                      </Link>
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <p className="text-sm text-slate-600 line-clamp-3 mb-4">
+                      {article.description}
+                    </p>
+                    <div className="flex items-center justify-between text-xs text-slate-500">
+                      <span>{article.author}</span>
+                      <span>{new Date(article.date).toLocaleDateString()}</span>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <div className="fade-in-up delay-600">
+              <p className="text-slate-600 mb-6">
+                Explore more resources tailored to your needs
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button asChild size="lg" className="min-w-[160px]">
+                  <Link to="/resources/guides">
+                    View All Guides
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="min-w-[160px]">
+                  <Link to="/resources/case-studies">
+                    Browse Case Studies
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="min-w-[160px]">
+                  <Link to="/resources/insights">
+                    Market Insights
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Us */}
       <section className="py-24 px-4">
         <div className="max-w-7xl mx-auto">
@@ -418,7 +539,7 @@ const Homepage = () => {
           
           <Card className="premium-card">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6" netlify name="homepage-contact">
+              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6" data-netlify="true" name="homepage-contact">
                 <input type="hidden" name="form-name" value="homepage-contact" />
                 <div>
                   <label className="block text-sm font-medium mb-2">Name *</label>
