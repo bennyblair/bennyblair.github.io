@@ -1,7 +1,3 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-
 export interface Article {
   slug: string;
   title: string;
@@ -22,73 +18,179 @@ export interface Article {
   featured?: boolean;
 }
 
-export function getContentFiles(contentType: 'guides' | 'case-studies' | 'insights'): Article[] {
-  const contentDir = path.join(process.cwd(), 'src', 'content', contentType);
+// Import all markdown files at build time using Vite's glob imports
+const guideModules = import.meta.glob('/src/content/guides/*.md', { 
+  eager: true, 
+  as: 'raw' 
+});
+
+const caseStudyModules = import.meta.glob('/src/content/case-studies/*.md', { 
+  eager: true, 
+  as: 'raw' 
+});
+
+const insightModules = import.meta.glob('/src/content/insights/*.md', { 
+  eager: true, 
+  as: 'raw' 
+});
+
+// Simple frontmatter parser
+function parseFrontmatter(content: string) {
+  const frontmatterRegex = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/;
+  const match = content.match(frontmatterRegex);
   
-  if (!fs.existsSync(contentDir)) {
-    return [];
+  if (!match) {
+    return { data: {}, content: content };
   }
 
-  const filenames = fs.readdirSync(contentDir);
+  const frontmatter = match[1];
+  const body = match[2];
   
-  const articles = filenames
-    .filter(filename => filename.endsWith('.md'))
-    .map(filename => {
-      const filePath = path.join(contentDir, filename);
-      const fileContents = fs.readFileSync(filePath, 'utf8');
-      const { data, content } = matter(fileContents);
+  // Parse YAML-like frontmatter
+  const data: Record<string, string | number | string[] | boolean> = {};
+  
+  frontmatter.split('\n').forEach(line => {
+    const colonIndex = line.indexOf(':');
+    if (colonIndex > 0) {
+      const key = line.slice(0, colonIndex).trim();
+      let value: string = line.slice(colonIndex + 1).trim();
       
-      return {
-        slug: filename.replace('.md', ''),
-        title: data.title,
-        date: data.date,
-        description: data.description,
-        category: data.category,
-        tags: data.tags || [],
-        author: data.author,
-        readingTime: data.readingTime,
-        featuredImage: data.featuredImage,
-        content,
-        loanAmount: data.loanAmount,
-        loanType: data.loanType,
-        industry: data.industry,
-        duration: data.duration,
-        outcome: data.outcome,
-        challenge: data.challenge,
-        featured: data.featured
-      } as Article;
-    })
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+      // Remove quotes if present
+      if ((value.startsWith('"') && value.endsWith('"')) || 
+          (value.startsWith("'") && value.endsWith("'"))) {
+        value = value.slice(1, -1);
+      }
+      
+      // Parse arrays (simple format: [item1, item2])
+      if (value.startsWith('[') && value.endsWith(']')) {
+        const arrayValue = value.slice(1, -1).split(',').map(item => item.trim().replace(/['"]/g, ''));
+        data[key] = arrayValue;
+        return;
+      }
+      
+      // Parse booleans
+      if (value === 'true' || value === 'false') {
+        data[key] = value === 'true';
+        return;
+      }
+      
+      // Parse numbers
+      if (!isNaN(Number(value)) && value !== '') {
+        data[key] = Number(value);
+        return;
+      }
+      
+      data[key] = value;
+    }
+  });
+  
+  return { data, content: body };
+}
 
-  return articles;
+function createArticleFromModule(filePath: string, content: string): Article {
+  const { data, content: body } = parseFrontmatter(content);
+  const filename = filePath.split('/').pop() || '';
+  const slug = filename.replace('.md', '');
+  
+  // Helper functions for type-safe data extraction
+  const getString = (key: string, defaultValue: string = ''): string => {
+    const value = data[key];
+    return typeof value === 'string' ? value : defaultValue;
+  };
+  
+  const getNumber = (key: string, defaultValue: number = 0): number => {
+    const value = data[key];
+    return typeof value === 'number' ? value : defaultValue;
+  };
+  
+  const getBoolean = (key: string, defaultValue: boolean = false): boolean => {
+    const value = data[key];
+    return typeof value === 'boolean' ? value : defaultValue;
+  };
+  
+  const getStringArray = (key: string, defaultValue: string[] = []): string[] => {
+    const value = data[key];
+    return Array.isArray(value) ? value : defaultValue;
+  };
+  
+  const getOptionalString = (key: string): string | undefined => {
+    const value = data[key];
+    return typeof value === 'string' ? value : undefined;
+  };
+  
+  return {
+    slug,
+    title: getString('title', 'Untitled'),
+    date: getString('date', new Date().toISOString().split('T')[0]),
+    description: getString('description'),
+    category: getString('category', 'General'),
+    tags: getStringArray('tags'),
+    author: getString('author', 'EMET Capital'),
+    readingTime: getNumber('readingTime', 5),
+    featuredImage: getOptionalString('featuredImage'),
+    content: body,
+    loanAmount: getOptionalString('loanAmount'),
+    loanType: getOptionalString('loanType'),
+    industry: getOptionalString('industry'),
+    duration: getOptionalString('duration'),
+    outcome: getOptionalString('outcome'),
+    challenge: getOptionalString('challenge'),
+    featured: getBoolean('featured', false)
+  };
+}
+
+export function getContentFiles(contentType: 'guides' | 'case-studies' | 'insights'): Article[] {
+  let modules: Record<string, string>;
+  
+  switch (contentType) {
+    case 'guides':
+      modules = guideModules;
+      break;
+    case 'case-studies':
+      modules = caseStudyModules;
+      break;
+    case 'insights':
+      modules = insightModules;
+      break;
+    default:
+      return [];
+  }
+  
+  const articles = Object.entries(modules).map(([filePath, content]) => 
+    createArticleFromModule(filePath, content)
+  );
+  
+  return articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 export function getArticleBySlug(contentType: 'guides' | 'case-studies' | 'insights', slug: string): Article | null {
-  try {
-    const filePath = path.join(process.cwd(), 'src', 'content', contentType, `${slug}.md`);
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    const { data, content } = matter(fileContents);
-    
-    return {
-      slug,
-      title: data.title,
-      date: data.date,
-      description: data.description,
-      category: data.category,
-      tags: data.tags || [],
-      author: data.author,
-      readingTime: data.readingTime,
-      featuredImage: data.featuredImage,
-      content,
-      loanAmount: data.loanAmount,
-      loanType: data.loanType,
-      industry: data.industry,
-      duration: data.duration,
-      outcome: data.outcome,
-      challenge: data.challenge,
-      featured: data.featured
-    } as Article;
-  } catch (error) {
+  let modules: Record<string, string>;
+  
+  switch (contentType) {
+    case 'guides':
+      modules = guideModules;
+      break;
+    case 'case-studies':
+      modules = caseStudyModules;
+      break;
+    case 'insights':
+      modules = insightModules;
+      break;
+    default:
+      return null;
+  }
+  
+  // Find the module that matches the slug
+  const matchingEntry = Object.entries(modules).find(([filePath]) => {
+    const filename = filePath.split('/').pop() || '';
+    const fileSlug = filename.replace('.md', '');
+    return fileSlug === slug;
+  });
+  
+  if (!matchingEntry) {
     return null;
   }
+  
+  const [filePath, content] = matchingEntry;
+  return createArticleFromModule(filePath, content);
 }
