@@ -3,8 +3,8 @@ import { Link, useParams, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { Clock, User, CheckCircle, ArrowRight, Star } from "lucide-react";
-import { getArticleBySlug, getContentFiles, type Article } from "@/lib/content";
+import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-react";
+import { getArticleBySlug, getContentFiles, isArticleComingSoon, type Article } from "@/lib/content";
 import { markdownToHtml } from "@/lib/markdown";
 
 const GuideArticle = () => {
@@ -14,6 +14,7 @@ const GuideArticle = () => {
   const [relatedArticles, setRelatedArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isComingSoon, setIsComingSoon] = useState(false);
 
   // Determine content type from URL path
   const getContentType = (): 'guides' | 'case-studies' | 'insights' => {
@@ -41,6 +42,14 @@ const GuideArticle = () => {
         const foundArticle = getArticleBySlug(contentType, slug);
         
         if (!foundArticle) {
+          // Check if it's a coming soon article
+          const comingSoon = await isArticleComingSoon(contentType, slug);
+          if (comingSoon) {
+            setIsComingSoon(true);
+            setLoading(false);
+            return;
+          }
+          
           setError('Article not found');
           setLoading(false);
           return;
@@ -84,7 +93,7 @@ const GuideArticle = () => {
     );
   }
 
-  if (error || !article) {
+  if (error || (!article && !isComingSoon)) {
     return (
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -96,6 +105,88 @@ const GuideArticle = () => {
             <Button asChild>
               <Link to="/resources">Back to Resources</Link>
             </Button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Show "Coming Soon" page
+  if (isComingSoon && !article) {
+    const contentTypeName = contentType === 'guides' ? 'Guide' : 
+                           contentType === 'case-studies' ? 'Case Study' : 'Market Insight';
+    
+    return (
+      <div className="min-h-screen py-8">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <Breadcrumbs items={[
+            { label: "Home", href: "/" },
+            { label: "Resources", href: "/resources" },
+            { label: contentTypeName.replace('Market ', '') + 's', href: `/resources/${contentType}` },
+            { label: "Coming Soon" }
+          ]} />
+          
+          <div className="text-center max-w-2xl mx-auto">
+            <div className="mb-8">
+              <Calendar className="w-16 h-16 text-accent mx-auto mb-4" />
+              <h1 className="text-4xl font-bold text-foreground mb-4">Coming Soon</h1>
+              <p className="text-xl text-muted-foreground mb-6">
+                This {contentTypeName.toLowerCase()} is being prepared and will be published soon as part of our content automation.
+              </p>
+            </div>
+
+            <Card className="mb-8 bg-secondary-blue">
+              <CardContent className="p-6">
+                <h2 className="text-xl font-bold text-secondary-blue-foreground mb-4">
+                  What to expect:
+                </h2>
+                <div className="space-y-3 text-left">
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-secondary-blue-foreground text-sm">
+                      Comprehensive {contentTypeName.toLowerCase()} with expert insights
+                    </span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-secondary-blue-foreground text-sm">
+                      Real-world examples and case studies
+                    </span>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+                    <span className="text-secondary-blue-foreground text-sm">
+                      Actionable advice for Australian businesses
+                    </span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <div className="space-y-4">
+              <Button asChild size="lg">
+                <Link to="/contact">
+                  Get Expert Advice Now
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+              </Button>
+              
+              <div className="text-sm text-muted-foreground">
+                <Link 
+                  to="/resources" 
+                  className="hover:text-primary underline"
+                >
+                  Browse available resources
+                </Link>
+                {" or "}
+                <Link 
+                  to="/resources/guides" 
+                  className="hover:text-primary underline"
+                >
+                  explore our guides
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

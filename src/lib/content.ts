@@ -163,6 +163,41 @@ export function getContentFiles(contentType: 'guides' | 'case-studies' | 'insigh
   return articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
+// Check if an article is referenced in interlinking data (coming soon)
+export async function isArticleComingSoon(contentType: 'guides' | 'case-studies' | 'insights', slug: string): Promise<boolean> {
+  try {
+    // Import interlinking data
+    const response = await fetch('/data/interlinks.csv');
+    if (!response.ok) return false;
+    
+    const csvText = await response.text();
+    const lines = csvText.split('\n');
+    
+    // Skip header row
+    for (let i = 1; i < lines.length; i++) {
+      const line = lines[i].trim();
+      if (!line) continue;
+      
+      // Parse CSV row (simple parsing for our use case)
+      const columns = line.split(',');
+      if (columns.length >= 6) {
+        const targetUrl = columns[5]?.replace(/"/g, '').trim(); // target_url column
+        
+        // Check if this URL matches our content type and slug
+        const expectedUrl = `/resources/${contentType}/${slug}`;
+        if (targetUrl === expectedUrl) {
+          return true;
+        }
+      }
+    }
+    
+    return false;
+  } catch (error) {
+    console.warn('Could not check interlinking data:', error);
+    return false;
+  }
+}
+
 export function getArticleBySlug(contentType: 'guides' | 'case-studies' | 'insights', slug: string): Article | null {
   let modules: Record<string, string>;
   
