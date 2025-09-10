@@ -40,7 +40,7 @@ const Homepage = () => {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [latestArticles, setLatestArticles] = useState<Article[]>([]);
+  const [latestArticles, setLatestArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' | 'insights' })[]>([]);
   const { toast } = useToast();
 
   useEffect(() => {
@@ -58,8 +58,13 @@ const Homepage = () => {
           getContentFiles('insights')
         ]);
         
+        // Add content type to articles for proper URL generation
+        const guidesWithType = guides.map(article => ({ ...article, contentType: 'guides' as const }));
+        const caseStudiesWithType = caseStudies.map(article => ({ ...article, contentType: 'case-studies' as const }));
+        const insightsWithType = insights.map(article => ({ ...article, contentType: 'insights' as const }));
+        
         // Combine all articles and sort by date (newest first)
-        const allArticles = [...guides, ...caseStudies, ...insights];
+        const allArticles = [...guidesWithType, ...caseStudiesWithType, ...insightsWithType];
         const sortedArticles = allArticles.sort((a, b) => 
           new Date(b.date).getTime() - new Date(a.date).getTime()
         );
@@ -80,6 +85,11 @@ const Homepage = () => {
     const sevenDaysAgo = new Date();
     sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
     return articleDate > sevenDaysAgo;
+  };
+
+  // Helper function to generate correct article URL based on content type
+  const getArticleUrl = (article: Article & { contentType: 'guides' | 'case-studies' | 'insights' }) => {
+    return `/resources/${article.contentType}/${article.slug}`;
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -404,14 +414,14 @@ const Homepage = () => {
       </section>
 
       {/* Latest Articles */}
-      <section className="py-24 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+      <section className="py-24 px-4 bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-slate-800 bg-clip-text text-transparent">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-white bg-clip-text text-transparent">
                 Latest Articles & Insights
               </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="text-xl text-slate-300 max-w-3xl mx-auto">
                 Stay informed with our latest guides, case studies, and market insights. 
                 Fresh content to help you make smarter financing decisions.
               </p>
@@ -421,21 +431,21 @@ const Homepage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {latestArticles.map((article, index) => (
               <div key={article.slug} className={`fade-in-up delay-${index * 100}`}>
-                <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/80 backdrop-blur-sm">
+                <Card className="h-full hover:shadow-xl transition-all duration-300 border-slate-700 bg-slate-800/50 backdrop-blur-sm">
                   <CardHeader className="pb-3">
                     <div className="flex items-start justify-between gap-3 mb-2">
-                      <Badge variant="outline" className="text-xs font-medium">
+                      <Badge variant="outline" className="text-xs font-medium border-slate-600 text-slate-300">
                         {article.category}
                       </Badge>
                       {isNewArticle(article.date) && (
-                        <Badge className="bg-green-100 text-green-800 border-green-200 hover:bg-green-100 text-xs font-medium">
+                        <Badge className="bg-green-900/50 text-green-300 border-green-700 hover:bg-green-900/70 text-xs font-medium">
                           NEW
                         </Badge>
                       )}
                     </div>
-                    <CardTitle className="text-lg line-clamp-2 leading-tight hover:text-blue-600 transition-colors">
+                    <CardTitle className="text-lg line-clamp-2 leading-tight text-white hover:text-blue-400 transition-colors">
                       <Link 
-                        to={`/resources/${article.category.toLowerCase().replace(/\s+/g, '-')}/${article.slug}`}
+                        to={getArticleUrl(article)}
                         className="block"
                       >
                         {article.title}
@@ -443,10 +453,10 @@ const Homepage = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="pt-0">
-                    <p className="text-sm text-slate-600 line-clamp-3 mb-4">
+                    <p className="text-sm text-slate-300 line-clamp-3 mb-4">
                       {article.description}
                     </p>
-                    <div className="flex items-center justify-between text-xs text-slate-500">
+                    <div className="flex items-center justify-between text-xs text-slate-400">
                       <span>{article.author}</span>
                       <span>{new Date(article.date).toLocaleDateString()}</span>
                     </div>
@@ -458,21 +468,21 @@ const Homepage = () => {
           
           <div className="text-center mt-12">
             <div className="fade-in-up delay-600">
-              <p className="text-slate-600 mb-6">
+              <p className="text-slate-300 mb-6">
                 Explore more resources tailored to your needs
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button asChild size="lg" className="min-w-[160px]">
+                <Button asChild size="lg" className="min-w-[160px] bg-blue-600 hover:bg-blue-700 text-white">
                   <Link to="/resources/guides">
                     View All Guides
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px]">
+                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-slate-600 text-slate-300 hover:bg-slate-700 hover:text-white">
                   <Link to="/resources/case-studies">
                     Browse Case Studies
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px]">
+                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-slate-600 text-slate-300 hover:bg-slate-700 hover:text-white">
                   <Link to="/resources/insights">
                     Market Insights
                   </Link>
