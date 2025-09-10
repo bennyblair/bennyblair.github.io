@@ -118,6 +118,24 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/resources/tools", 'priority': '0.6', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/resources/faqs", 'priority': '0.5', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/resources/glossary", 'priority': '0.4', 'changefreq': 'monthly'},
+        # Service pages
+        {'url': f"{DOMAIN}/services/first-second-mortgages", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/commercial-property-development", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/bridging-finance", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/refinancing", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/working-capital", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/equipment-finance", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/business-acquisition", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/trade-finance", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/asset-backed-lending", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/private-lending", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/smsf-lending", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/debt-consolidation", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/caveat-loans", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/asset-finance", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/building-maintenance-loans", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/capital-works-finance", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/strata-finance", 'priority': '0.7', 'changefreq': 'monthly'},
     ]
     
     # Get all articles from content directories

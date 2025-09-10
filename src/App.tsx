@@ -33,6 +33,9 @@ import SMSFLending from "./pages/services/SMSFLending";
 import DebtConsolidation from "./pages/services/DebtConsolidation";
 import CaveatLoans from "./pages/services/CaveatLoans";
 import AssetFinance from "./pages/services/AssetFinance";
+import BuildingMaintenanceLoans from "./pages/services/BuildingMaintenanceLoans";
+import CapitalWorksFinance from "./pages/services/CapitalWorksFinance";
+import StrataFinance from "./pages/services/StrataFinance";
 
 const queryClient = new QueryClient();
 
@@ -74,6 +77,9 @@ const App = () => (
               <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
               <Route path="/services/caveat-loans" element={<CaveatLoans />} />
               <Route path="/services/asset-finance" element={<AssetFinance />} />
+              <Route path="/services/building-maintenance-loans" element={<BuildingMaintenanceLoans />} />
+              <Route path="/services/capital-works-finance" element={<CapitalWorksFinance />} />
+              <Route path="/services/strata-finance" element={<StrataFinance />} />
               <Route path="/about" element={<About />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

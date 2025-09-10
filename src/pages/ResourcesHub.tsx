@@ -69,24 +69,24 @@ const ResourcesHub = () => {
   const featuredContent = [
     {
       type: "Guide",
-      title: "Complete Guide to Bridging Finance in Australia",
-      description: "Everything you need to know about bridging loans, from basics to advanced strategies.",
-      readTime: "12 min read",
-      href: "/resources/guides/bridging-finance-complete-guide"
-    },
-    {
-      type: "Case Study",
-      title: "$2.5M Development Finance Success Story",
-      description: "How we secured competitive development financing for a major Brisbane project.",
+      title: "Commercial Bridging Finance: Short Term Property Finance — Costs, Timing, Uses",
+      description: "Understanding short-term property finance options, costs, timing, and how we arrange these facilities with lenders.",
       readTime: "8 min read",
-      href: "/resources/case-studies/2-5m-development-finance"
+      href: "/resources/guides/short-term-property-finance"
     },
     {
-      type: "Tool",
-      title: "Bridging Loan Calculator",
-      description: "Calculate monthly payments, interest costs, and total repayments instantly.",
-      readTime: "Interactive",
-      href: "/resources/tools/bridging-loan-calculator"
+      type: "Guide", 
+      title: "Understanding Commercial Asset Finance in 2025",
+      description: "A comprehensive guide to commercial asset finance options, rates, and approval processes for Australian businesses in 2025.",
+      readTime: "12 min read",
+      href: "/resources/guides/2025-09-09-commercial-asset-finance-guide"
+    },
+    {
+      type: "Guide",
+      title: "Second Mortgage for Business Use: Second Mortgage Australia",
+      description: "Australian commercial guide on second mortgage australia: when to use it, eligibility, pricing and how we arrange it with lenders.",
+      readTime: "8 min read",
+      href: "/resources/guides/second-mortgage-australia"
     }
   ];
 
