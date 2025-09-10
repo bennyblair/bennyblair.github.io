@@ -1,0 +1,146 @@
+name: Automated Daily Content Publishing
+
+on:
+  schedule:
+    # Morning post: 06:00 AEST (20:00 UTC previous day)
+    - cron: '0 20 * * *'
+    # Afternoon post: 14:00 AEST (04:00 UTC same day) 
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run in dry-run mode (no files written)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+jobs:
+  publish-daily-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install pandas pytz
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node.js dependencies (if needed for build)
+        run: |
+          # Skip if no package.json or using different package manager
+          if [ -f package.json ]; then
+            npm install
+          fi
+
+      - name: Upload CSV data files
+        run: |
+          # Check if CSV files exist (user needs to add these)
+          if [ ! -f "data/emet_ai_feed_daily.csv" ]; then
+            echo "⚠️  Warning: data/emet_ai_feed_daily.csv not found"
+            echo "📋 Please add your CSV files to the data/ directory"
+            echo "ℹ️  Expected files:"
+            echo "   - data/emet_ai_feed_daily.csv"
+            echo "   - data/interlinks.csv"
+            exit 1
+          fi
+
+      - name: Publish today's articles
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+            echo "🔍 Running in DRY RUN mode"
+          fi
+          
+          python scripts/publish_from_sot.py \
+            --csv data/emet_ai_feed_daily.csv \
+            --published-dir src/content \
+            $DRY_RUN_FLAG
+
+      - name: Apply internal links (if interlinks.csv exists)
+        run: |
+          if [ -f "data/interlinks.csv" ]; then
+            DRY_RUN_FLAG=""
+            if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+              DRY_RUN_FLAG="--dry-run"
+            fi
+            
+            python scripts/apply_interlinks.py \
+              --csv data/interlinks.csv \
+              --dir src/content \
+              $DRY_RUN_FLAG
+          else
+            echo "ℹ️  No interlinks.csv found, skipping internal link application"
+          fi
+
+      - name: Build site (if needed)
+        run: |
+          # Add your build command here if needed
+          # For example: npm run build or yarn build
+          echo "ℹ️  Site will be built by Netlify on push"
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+
+      - name: Commit and push changes
+        run: |
+          # Check if there are any changes to commit
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "ℹ️  No changes to commit"
+            exit 0
+          fi
+          
+          # Get current date in AEST
+          PUBLISH_DATE=$(TZ=Australia/Sydney date +%Y-%m-%d)
+          PUBLISH_TIME=$(TZ=Australia/Sydney date +%H:%M)
+          
+          # Determine if this is morning or afternoon run
+          HOUR=$(TZ=Australia/Sydney date +%H)
+          if [ $HOUR -lt 12 ]; then
+            TIME_SLOT="morning"
+          else
+            TIME_SLOT="afternoon"
+          fi
+          
+          git add .
+          git commit -m "chore(publish): ${PUBLISH_DATE} ${TIME_SLOT} content + interlinks
+          
+          - Published daily articles for ${PUBLISH_DATE} ${TIME_SLOT}
+          - Applied internal linking strategy
+          - Updated content structure and SEO optimization
+          - Automated via GitHub Actions at ${PUBLISH_TIME} AEST"
+          
+          git push
+
+      - name: Display published content summary
+        run: |
+          echo "🎉 Content publishing workflow completed!"
+          echo ""
+          echo "📊 Summary:"
+          echo "  📅 Date: $(TZ=Australia/Sydney date +%Y-%m-%d)"
+          echo "  🕐 Time: $(TZ=Australia/Sydney date +%H:%M) AEST"
+          echo "  📁 Content directory: src/content"
+          echo ""
+          echo "🔗 Published articles will be available at:"
+          echo "  🌐 https://emetcapital.com.au/resources/guides/"
+          echo ""
+          echo "📋 Next automatic run:"
+          echo "  🌅 Morning: 06:00 AEST (20:00 UTC)"
+          echo "  🌆 Afternoon: 14:00 AEST (04:00 UTC)"
