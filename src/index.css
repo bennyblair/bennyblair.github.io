@@ -205,3 +205,103 @@
 .float {
   animation: float 6s ease-in-out infinite;
 }
+
+/* Enhanced article content styling for better readability */
+@layer components {
+  .article-content {
+    /* Optimal line length for readability */
+    max-width: 65ch;
+    margin: 0 auto;
+  }
+
+  /* Enhanced table styling */
+  .article-content table {
+    /* Subtle shadow for depth */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .article-content table th {
+    /* Better text contrast for headers */
+    font-weight: 600;
+    letter-spacing: 0.025em;
+  }
+
+  .article-content table tr:hover {
+    /* Smooth hover transition */
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+  }
+
+  /* Enhanced blockquotes */
+  .article-content blockquote {
+    position: relative;
+    font-style: italic;
+  }
+
+  .article-content blockquote::before {
+    content: '"';
+    position: absolute;
+    left: -0.5rem;
+    top: -0.25rem;
+    font-size: 3rem;
+    opacity: 0.3;
+    color: hsl(var(--accent));
+    font-family: Georgia, serif;
+  }
+
+  /* Enhanced link styling */
+  .article-content a {
+    border-radius: 0.125rem;
+    padding: 0.125rem 0.25rem;
+    margin: -0.125rem -0.25rem;
+    transition: all 0.2s ease;
+  }
+
+  .article-content a:hover {
+    background-color: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    text-decoration: none;
+  }
+
+  /* List marker enhancements */
+  .article-content ul {
+    list-style: none;
+  }
+
+  .article-content ul li {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+
+  .article-content ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: hsl(var(--primary));
+    font-weight: bold;
+  }
+
+  /* Focus states for accessibility */
+  .article-content a:focus,
+  .article-content button:focus {
+    outline: 2px solid hsl(var(--primary));
+    outline-offset: 2px;
+  }
+}
+
+/* Mobile responsiveness for articles */
+@media (max-width: 768px) {
+  .article-content table {
+    font-size: 0.875rem;
+  }
+  
+  .article-content th,
+  .article-content td {
+    padding: 0.5rem !important;
+  }
+  
+  .article-content blockquote {
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}

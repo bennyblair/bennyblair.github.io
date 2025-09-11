@@ -1,0 +1,172 @@
+/**
+ * Enhanced article styling for better readability and visual hierarchy
+ * This file provides additional styling that complements the Tailwind classes
+ */
+
+/* Reading experience improvements */
+.article-content {
+  /* Optimal line length for readability */
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+/* Enhanced table styling */
+.article-content table {
+  /* Subtle shadow for depth */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.article-content table th {
+  /* Better text contrast for headers */
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.article-content table tr:hover {
+  /* Smooth hover transition */
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* Enhanced blockquotes */
+.article-content blockquote {
+  position: relative;
+  font-style: italic;
+}
+
+.article-content blockquote::before {
+  content: '"';
+  position: absolute;
+  left: -0.5rem;
+  top: -0.25rem;
+  font-size: 3rem;
+  opacity: 0.3;
+  color: var(--accent);
+  font-family: Georgia, serif;
+}
+
+/* Code block enhancements */
+.article-content pre {
+  position: relative;
+}
+
+.article-content pre::before {
+  content: attr(data-language, 'code');
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Enhanced link styling */
+.article-content a {
+  border-radius: 0.125rem;
+  padding: 0.125rem 0.25rem;
+  margin: -0.125rem -0.25rem;
+  transition: all 0.2s ease;
+}
+
+.article-content a:hover {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  text-decoration: none;
+}
+
+/* Definition lists (FAQ styling) */
+.article-content dl {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.article-content dt {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.article-content dt:hover {
+  background-color: var(--muted);
+}
+
+/* List marker enhancements */
+.article-content ul {
+  list-style: none;
+}
+
+.article-content ul li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.article-content ul li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus states for accessibility */
+.article-content a:focus,
+.article-content button:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .article-content {
+    max-width: none;
+  }
+  
+  .article-content table {
+    font-size: 0.875rem;
+  }
+  
+  .article-content a {
+    text-decoration: underline !important;
+    color: inherit !important;
+  }
+  
+  .article-content a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.75rem;
+    color: #666;
+  }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .article-content table {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .article-content blockquote::before {
+    opacity: 0.2;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .article-content table {
+    font-size: 0.875rem;
+  }
+  
+  .article-content th,
+  .article-content td {
+    padding: 0.5rem !important;
+  }
+  
+  .article-content blockquote {
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}

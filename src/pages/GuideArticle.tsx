@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Link, useParams, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,6 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-react";
 import { getArticleBySlug, getContentFiles, isArticleComingSoon, type Article } from "@/lib/content";
 import { markdownToHtml } from "@/lib/markdown";
+import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 
 const GuideArticle = () => {
   const { slug } = useParams();
@@ -15,6 +16,7 @@ const GuideArticle = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isComingSoon, setIsComingSoon] = useState(false);
+  const articleRef = useRef<HTMLDivElement>(null);
 
   // Determine content type from URL path
   const getContentType = (): 'guides' | 'case-studies' | 'insights' => {
@@ -74,6 +76,18 @@ const GuideArticle = () => {
 
     loadArticle();
   }, [slug, contentType]);
+
+  // Initialize article enhancements after content loads
+  useEffect(() => {
+    if (article && articleRef.current) {
+      // Small delay to ensure DOM is fully rendered
+      setTimeout(() => {
+        if (articleRef.current) {
+          initializeArticleEnhancements(articleRef.current);
+        }
+      }, 100);
+    }
+  }, [article]);
 
   if (loading) {
     return (
@@ -297,7 +311,9 @@ const GuideArticle = () => {
         {/* Article Content */}
         <article className="mb-12">
           <div 
+            ref={articleRef}
             className="
+              article-content
               prose prose-lg prose-slate max-w-none 
               prose-headings:scroll-mt-20 
               prose-h1:text-3xl prose-h1:font-bold prose-h1:text-foreground prose-h1:mb-6 prose-h1:mt-8 prose-h1:leading-tight
@@ -318,6 +334,7 @@ const GuideArticle = () => {
               prose-th:px-6 prose-th:py-4 prose-th:text-left prose-th:font-semibold prose-th:text-foreground prose-th:bg-muted/30 prose-th:border-b-2 prose-th:border-primary/20
               prose-td:px-6 prose-td:py-4 prose-td:text-muted-foreground prose-td:border-b prose-td:border-border/20
               prose-tr:hover:bg-muted/20 prose-tr:transition-colors
+              fade-in-up
             "
             dangerouslySetInnerHTML={{ __html: markdownToHtml(article.content) }} 
           />
