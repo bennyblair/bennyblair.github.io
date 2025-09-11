@@ -118,6 +118,9 @@ function createArticleFromModule(filePath: string, content: string): Article {
     return typeof value === 'string' ? value : undefined;
   };
   
+  // Filter and enhance content
+  const filteredContent = filterAndEnhanceContent(body);
+  
   return {
     slug,
     title: getString('title', 'Untitled'),
@@ -128,7 +131,7 @@ function createArticleFromModule(filePath: string, content: string): Article {
     author: getString('author', 'EMET Capital'),
     readingTime: getNumber('readingTime', 5),
     featuredImage: getOptionalString('featuredImage'),
-    content: body,
+    content: filteredContent,
     loanAmount: getOptionalString('loanAmount'),
     loanType: getOptionalString('loanType'),
     industry: getOptionalString('industry'),
@@ -137,6 +140,115 @@ function createArticleFromModule(filePath: string, content: string): Article {
     challenge: getOptionalString('challenge'),
     featured: getBoolean('featured', false)
   };
+}
+
+/**
+ * Filter and enhance content for better readability and quality
+ */
+function filterAndEnhanceContent(content: string): string {
+  let filtered = content;
+  
+  // 1. Remove any remaining non-English characters
+  filtered = removeNonEnglishContent(filtered);
+  
+  // 2. Remove excessive repetition common in AI-generated content
+  filtered = removeDuplicateSentences(filtered);
+  
+  // 3. Improve paragraph structure
+  filtered = improveContentStructure(filtered);
+  
+  // 4. Fix common formatting issues
+  filtered = fixCommonFormattingIssues(filtered);
+  
+  return filtered;
+}
+
+/**
+ * Remove content with non-English characters
+ */
+function removeNonEnglishContent(content: string): string {
+  const lines = content.split('\n');
+  const filteredLines = lines.filter(line => {
+    // Keep lines that are primarily English
+    // Simple check: if it contains common non-English characters, skip it
+    const hasNonEnglish = /[\u4e00-\u9fff\u3400-\u4dbf\u20000-\u2a6df\u2a700-\u2b73f\u2b740-\u2b81f\u2b820-\u2ceaf]/.test(line);
+    return !hasNonEnglish;
+  });
+  
+  return filteredLines.join('\n');
+}
+
+/**
+ * Remove duplicate sentences that are common in AI-generated content
+ */
+function removeDuplicateSentences(content: string): string {
+  const sentences = content.split(/(?<=[.!?])\s+/);
+  const seen = new Set<string>();
+  const unique: string[] = [];
+  
+  for (const sentence of sentences) {
+    const normalized = sentence.trim().toLowerCase()
+      .replace(/[^\w\s]/g, '') // Remove punctuation for comparison
+      .replace(/\s+/g, ' '); // Normalize whitespace
+    
+    if (normalized.length > 10 && !seen.has(normalized)) {
+      seen.add(normalized);
+      unique.push(sentence);
+    } else if (normalized.length <= 10) {
+      // Keep short sentences as they might be important
+      unique.push(sentence);
+    }
+  }
+  
+  return unique.join(' ').trim();
+}
+
+/**
+ * Improve content structure and readability
+ */
+function improveContentStructure(content: string): string {
+  let improved = content;
+  
+  // Fix paragraph breaks - ensure proper spacing
+  improved = improved.replace(/\n{3,}/g, '\n\n');
+  
+  // Ensure headers have proper spacing
+  improved = improved.replace(/([^\n])\n(#{1,6}\s)/g, '$1\n\n$2');
+  improved = improved.replace(/(#{1,6}[^\n]*)\n([^#\n])/g, '$1\n\n$2');
+  
+  // Ensure lists have proper spacing
+  improved = improved.replace(/([^\n])\n([-*+]\s)/g, '$1\n\n$2');
+  improved = improved.replace(/([^\n])\n(\d+\.\s)/g, '$1\n\n$2');
+  
+  return improved;
+}
+
+/**
+ * Fix common formatting issues in content
+ */
+function fixCommonFormattingIssues(content: string): string {
+  let fixed = content;
+  
+  // Fix spacing around punctuation
+  fixed = fixed.replace(/\s+([.!?])/g, '$1'); // Remove spaces before punctuation
+  fixed = fixed.replace(/([.!?])([A-Z])/g, '$1 $2'); // Add space after punctuation before capitals
+  
+  // Fix dash usage - use em dashes consistently
+  fixed = fixed.replace(/(\w)\s*[-–—]\s*(\w)/g, '$1—$2');
+  
+  // Fix quote marks - use standard quotes for now
+  fixed = fixed.replace(/"([^"]*)"/g, '"$1"');
+  fixed = fixed.replace(/'([^']*)'/g, "'$1'");
+  
+  // Fix ellipsis
+  fixed = fixed.replace(/\.{3}/g, '…');
+  
+  // Ensure proper capitalization after colons in titles/headers
+  fixed = fixed.replace(/(#{1,6}[^:\n]*:\s*)([a-z])/g, (match, prefix, letter) => 
+    prefix + letter.toUpperCase()
+  );
+  
+  return fixed;
 }
 
 export function getContentFiles(contentType: 'guides' | 'case-studies' | 'insights'): Article[] {
