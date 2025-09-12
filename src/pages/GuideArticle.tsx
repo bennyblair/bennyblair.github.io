@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-react";
-import { getArticleBySlug, getContentFiles, isArticleComingSoon, type Article } from "@/lib/content";
+import { getArticleBySlug, getContentFiles, isArticleComingSoon, debugModules, type Article } from "@/lib/content";
 import { markdownToHtml } from "@/lib/markdown";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 
@@ -40,8 +40,14 @@ const GuideArticle = () => {
         setLoading(true);
         setError(null);
 
+        // Debug: Check what modules are loaded
+        const debugInfo = debugModules();
+        console.log('Debug info:', debugInfo);
+        console.log('Looking for slug:', slug, 'in contentType:', contentType);
+
         // Load the specific article
         const foundArticle = getArticleBySlug(contentType, slug);
+        console.log('Found article:', foundArticle);
         
         if (!foundArticle) {
           // Check if it's a coming soon article

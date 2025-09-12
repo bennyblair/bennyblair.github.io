@@ -19,20 +19,30 @@ export interface Article {
 }
 
 // Import all markdown files at build time using Vite's glob imports
-const guideModules = import.meta.glob('/src/content/guides/*.md', { 
+const guideModules = import.meta.glob('../content/guides/*.md', { 
   eager: true, 
   as: 'raw' 
 });
 
-const caseStudyModules = import.meta.glob('/src/content/case-studies/*.md', { 
+const caseStudyModules = import.meta.glob('../content/case-studies/*.md', { 
   eager: true, 
   as: 'raw' 
 });
 
-const insightModules = import.meta.glob('/src/content/insights/*.md', { 
+const insightModules = import.meta.glob('../content/insights/*.md', { 
   eager: true, 
   as: 'raw' 
 });
+
+// Debug function to check what modules are loaded
+export function debugModules() {
+  console.log('Guide modules:', Object.keys(guideModules));
+  console.log('Guide modules content:', guideModules);
+  return {
+    guideKeys: Object.keys(guideModules),
+    guideCount: Object.keys(guideModules).length
+  };
+}
 
 // Simple frontmatter parser
 function parseFrontmatter(content: string) {
