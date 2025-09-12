@@ -46,7 +46,7 @@ const GuideArticle = () => {
         console.log('Looking for slug:', slug, 'in contentType:', contentType);
 
         // Load the specific article
-        const foundArticle = getArticleBySlug(contentType, slug);
+        const foundArticle = await getArticleBySlug(contentType, slug);
         console.log('Found article:', foundArticle);
         
         if (!foundArticle) {

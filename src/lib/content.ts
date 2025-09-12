@@ -34,6 +34,17 @@ const insightModules = import.meta.glob('../content/insights/*.md', {
   as: 'raw' 
 });
 
+// Alternative fallback approach - try to import specific files we know exist
+const manualGuideImports = {
+  'bridging-loan': () => import('../content/guides/bridging-loan.md?raw'),
+  'no-doc-abn-loans': () => import('../content/guides/no-doc-abn-loans.md?raw'),
+  'short-term-property-finance': () => import('../content/guides/short-term-property-finance.md?raw'),
+  'second-mortgage-australia': () => import('../content/guides/second-mortgage-australia.md?raw'),
+  'second-mortgage-lenders-australia': () => import('../content/guides/second-mortgage-lenders-australia.md?raw'),
+  'no-doc-short-term-mortgages': () => import('../content/guides/no-doc-short-term-mortgages.md?raw'),
+  '2025-09-09-commercial-asset-finance-guide': () => import('../content/guides/2025-09-09-commercial-asset-finance-guide.md?raw'),
+};
+
 // Debug function to check what modules are loaded
 export function debugModules() {
   console.log('Guide modules:', Object.keys(guideModules));
@@ -320,7 +331,7 @@ export async function isArticleComingSoon(contentType: 'guides' | 'case-studies'
   }
 }
 
-export function getArticleBySlug(contentType: 'guides' | 'case-studies' | 'insights', slug: string): Article | null {
+export async function getArticleBySlug(contentType: 'guides' | 'case-studies' | 'insights', slug: string): Promise<Article | null> {
   let modules: Record<string, string>;
   
   switch (contentType) {
@@ -344,10 +355,22 @@ export function getArticleBySlug(contentType: 'guides' | 'case-studies' | 'insig
     return fileSlug === slug;
   });
   
-  if (!matchingEntry) {
-    return null;
+  if (matchingEntry) {
+    const [filePath, content] = matchingEntry;
+    return createArticleFromModule(filePath, content);
   }
   
-  const [filePath, content] = matchingEntry;
-  return createArticleFromModule(filePath, content);
+  // Fallback: try manual imports for guides
+  if (contentType === 'guides' && manualGuideImports[slug]) {
+    try {
+      const module = await manualGuideImports[slug]();
+      const content = typeof module === 'string' ? module : module.default;
+      return createArticleFromModule(`../content/guides/${slug}.md`, content);
+    } catch (error) {
+      console.error(`Failed to load article ${slug}:`, error);
+      return null;
+    }
+  }
+  
+  return null;
 }
