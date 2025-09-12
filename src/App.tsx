@@ -14,6 +14,7 @@ import Tools from "./pages/Tools";
 import Glossary from "./pages/Glossary";
 import FAQs from "./pages/FAQs";
 import MarketInsights from "./pages/MarketInsights";
+import TestPage from "./pages/TestPage";
 import GuideArticle from "./pages/GuideArticle";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
@@ -81,6 +82,7 @@ const App = () => (
               <Route path="/services/capital-works-finance" element={<CapitalWorksFinance />} />
               <Route path="/services/strata-finance" element={<StrataFinance />} />
               <Route path="/about" element={<About />} />
+              <Route path="/test" element={<TestPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Layout>
