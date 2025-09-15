@@ -1,5 +1,7 @@
 import { getPrecompiledArticleBySlug, getPrecompiledContentFiles, debugPrecompiledContent } from './precompiled-content';
 
+export { getPrecompiledArticleBySlug, getPrecompiledContentFiles, debugPrecompiledContent };
+
 export interface Article {
   slug: string;
   title: string;
