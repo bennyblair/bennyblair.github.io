@@ -216,6 +216,8 @@ def main():
             content_subdir = 'case-studies'
         elif '/insights/' in post_url:
             content_subdir = 'insights'
+        elif '/tools/' in post_url:
+            content_subdir = 'tools'
         else:
             content_subdir = 'guides'  # Default fallback
         
