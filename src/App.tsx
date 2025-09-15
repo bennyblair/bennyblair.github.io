@@ -15,6 +15,7 @@ import Glossary from "./pages/Glossary";
 import FAQs from "./pages/FAQs";
 import MarketInsights from "./pages/MarketInsights";
 import TestPage from "./pages/TestPage";
+import SimpleGuideArticle from "./pages/SimpleGuideArticle";
 import GuideArticle from "./pages/GuideArticle";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
@@ -53,7 +54,7 @@ const App = () => (
               <Route path="/" element={<Homepage />} />
               <Route path="/resources" element={<ResourcesHub />} />
               <Route path="/resources/guides" element={<Guides />} />
-              <Route path="/resources/guides/:slug" element={<GuideArticle />} />
+              <Route path="/resources/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/case-studies" element={<CaseStudies />} />
               <Route path="/resources/case-studies/:slug" element={<GuideArticle />} />
               <Route path="/resources/tools" element={<Tools />} />
