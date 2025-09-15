@@ -1,3 +1,5 @@
+import { getPrecompiledArticleBySlug, getPrecompiledContentFiles, debugPrecompiledContent } from './precompiled-content';
+
 export interface Article {
   slug: string;
   title: string;
@@ -47,11 +49,19 @@ const manualGuideImports = {
 
 // Debug function to check what modules are loaded
 export function debugModules() {
-  console.log('Guide modules:', Object.keys(guideModules));
-  console.log('Guide modules content:', guideModules);
-  return {
+  const precompiledDebug = debugPrecompiledContent();
+  const dynamicDebug = {
     guideKeys: Object.keys(guideModules),
     guideCount: Object.keys(guideModules).length
+  };
+  
+  console.log('Precompiled content:', precompiledDebug);
+  console.log('Dynamic modules:', dynamicDebug);
+  
+  return {
+    precompiled: precompiledDebug,
+    dynamic: dynamicDebug,
+    total: precompiledDebug.guideCount + dynamicDebug.guideCount
   };
 }
 
@@ -273,6 +283,14 @@ function fixCommonFormattingIssues(content: string): string {
 }
 
 export function getContentFiles(contentType: 'guides' | 'case-studies' | 'insights'): Article[] {
+  // First try precompiled content (production-safe)
+  const precompiledArticles = getPrecompiledContentFiles(contentType);
+  if (precompiledArticles.length > 0) {
+    console.log(`Loaded ${precompiledArticles.length} articles from precompiled content`);
+    return precompiledArticles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  }
+
+  // Fallback to dynamic imports (development)
   let modules: Record<string, string>;
   
   switch (contentType) {
@@ -332,6 +350,14 @@ export async function isArticleComingSoon(contentType: 'guides' | 'case-studies'
 }
 
 export async function getArticleBySlug(contentType: 'guides' | 'case-studies' | 'insights', slug: string): Promise<Article | null> {
+  // First try precompiled content (production-safe)
+  const precompiledArticle = getPrecompiledArticleBySlug(contentType, slug);
+  if (precompiledArticle) {
+    console.log('Loaded article from precompiled content:', slug);
+    return precompiledArticle;
+  }
+
+  // Fallback to dynamic imports (development)
   let modules: Record<string, string>;
   
   switch (contentType) {
@@ -357,6 +383,7 @@ export async function getArticleBySlug(contentType: 'guides' | 'case-studies' | 
   
   if (matchingEntry) {
     const [filePath, content] = matchingEntry;
+    console.log('Loaded article from dynamic import:', slug);
     return createArticleFromModule(filePath, content);
   }
   
@@ -365,6 +392,7 @@ export async function getArticleBySlug(contentType: 'guides' | 'case-studies' | 
     try {
       const module = await manualGuideImports[slug]();
       const content = typeof module === 'string' ? module : module.default;
+      console.log('Loaded article from manual import:', slug);
       return createArticleFromModule(`../content/guides/${slug}.md`, content);
     } catch (error) {
       console.error(`Failed to load article ${slug}:`, error);
@@ -372,5 +400,6 @@ export async function getArticleBySlug(contentType: 'guides' | 'case-studies' | 
     }
   }
   
+  console.warn('Article not found in any content source:', slug);
   return null;
 }
