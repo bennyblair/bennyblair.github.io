@@ -54,6 +54,7 @@ const App = () => (
               <Route path="/" element={<Homepage />} />
               <Route path="/resources" element={<ResourcesHub />} />
               <Route path="/resources/guides" element={<Guides />} />
+              <Route path="/resources/guides/test-route" element={<div><h1>Guide Test Route Works</h1><p>Direct guide route test</p></div>} />
               <Route path="/resources/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/case-studies" element={<CaseStudies />} />
               <Route path="/resources/case-studies/:slug" element={<GuideArticle />} />
@@ -84,6 +85,7 @@ const App = () => (
               <Route path="/services/strata-finance" element={<StrataFinance />} />
               <Route path="/about" element={<About />} />
               <Route path="/test" element={<TestPage />} />
+              <Route path="/simple-test" element={<div><h1>Simple Test Works</h1><p>This is a direct test component</p></div>} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Layout>
