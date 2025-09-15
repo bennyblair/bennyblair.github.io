@@ -170,9 +170,41 @@ const SimpleGuideArticle = () => {
       }
       
       // Check if it's a coming soon article
-      const comingSoon = await isArticleComingSoon(contentType, slug);
-      if (comingSoon) {
-        setIsComingSoon(true);
+      try {
+        const comingSoon = await isArticleComingSoon(contentType, slug);
+        console.log(`Coming Soon check for ${slug}:`, comingSoon);
+        if (comingSoon) {
+          setIsComingSoon(true);
+          setLoading(false);
+          return;
+        }
+      } catch (error) {
+        console.warn('Coming Soon check failed:', error);
+        
+        // Fallback: Check against hardcoded list of known scheduled articles
+        const knownScheduledSlugs = [
+          'bridging-finance-for-property-development',
+          'mortgage-rates-for-second-mortgage', 
+          'short-term-property-finance',
+          'short-term-property-loans',
+          'short-term-property-funding',
+          'short-term-property-loan',
+          'commercial-bridging-loan',
+          'bridging-loan-for-property-development',
+          'low-doc-business-finance',
+          'no-doc-short-term-mortgages',
+          '10000-small-business-grant-nsw',
+          '2nd-mortgage-australia',
+          '2nd-mortgage-lenders',
+          '2nd-mortgage-loan',
+          '2nd-mortgages-with-bad-credit'
+        ];
+        
+        if (knownScheduledSlugs.includes(slug)) {
+          setIsComingSoon(true);
+          setLoading(false);
+          return;
+        }
       }
       
       setLoading(false);
