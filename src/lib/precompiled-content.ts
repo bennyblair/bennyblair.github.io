@@ -21,92 +21,155 @@ export interface Article {
   featured?: boolean;
 }
 
-// Import content directly using static imports
-import bridgingLoanContent from '../content/guides/bridging-loan.md?raw';
-import noDocAbnLoansContent from '../content/guides/no-doc-abn-loans.md?raw';
-import shortTermPropertyFinanceContent from '../content/guides/short-term-property-finance.md?raw';
-import secondMortgageAustraliaContent from '../content/guides/second-mortgage-australia.md?raw';
-import secondMortgageLendersAustraliaContent from '../content/guides/second-mortgage-lenders-australia.md?raw';
-import noDocShortTermMortgagesContent from '../content/guides/no-doc-short-term-mortgages.md?raw';
-import commercialAssetFinanceGuideContent from '../content/guides/2025-09-09-commercial-asset-finance-guide.md?raw';
+// Directly embedded content - no imports needed
+const bridgingLoanContent = `# Commercial Bridging Finance: Bridging Loan Guide — Costs, Timing, Uses
 
-// Simple frontmatter parser
-function parseFrontmatter(content: string) {
-  const frontmatterRegex = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/;
-  const match = content.match(frontmatterRegex);
-  
-  if (!match) {
-    return { data: {}, content };
-  }
-  
-  const [, frontmatter, body] = match;
-  const data: Record<string, any> = {};
-  
-  frontmatter.split('\n').forEach(line => {
-    const colonIndex = line.indexOf(':');
-    if (colonIndex > 0) {
-      const key = line.substring(0, colonIndex).trim();
-      let value = line.substring(colonIndex + 1).trim();
-      
-      // Remove quotes if present
-      if ((value.startsWith('"') && value.endsWith('"')) || 
-          (value.startsWith("'") && value.endsWith("'"))) {
-        value = value.slice(1, -1);
-      }
-      
-      // Try to parse as JSON for arrays
-      if (value.startsWith('[')) {
-        try {
-          data[key] = JSON.parse(value);
-        } catch {
-          data[key] = value;
-        }
-      } else if (value === 'true' || value === 'false') {
-        data[key] = value === 'true';
-      } else if (!isNaN(Number(value)) && value !== '') {
-        data[key] = Number(value);
-      } else {
-        data[key] = value;
-      }
-    }
-  });
-  
-  return { data, content: body };
-}
+*Discuss your funding plan with a broker (commercial only).*
 
-function createArticleFromContent(slug: string, content: string): Article {
-  const { data, content: body } = parseFrontmatter(content);
-  
-  return {
-    slug,
-    title: data.title || slug,
-    date: data.date || new Date().toISOString(),
-    description: data.description || '',
-    category: data.category || '',
-    tags: data.tags || [],
-    author: data.author || '',
-    readingTime: data.readingTime || 5,
-    featuredImage: data.featuredImage || '',
-    content: body,
-    loanAmount: data.loanAmount || '',
-    loanType: data.loanType || '',
-    industry: data.industry || '',
-    duration: data.duration || '',
-    outcome: data.outcome || '',
-    challenge: data.challenge || '',
-    featured: data.featured || false,
-  };
-}
+## bridging loan guide: quick overview
 
-// Precompiled articles map
+If you're weighing up bridging loan options for your business, this guide breaks down how it works in Australia, when it's useful, what it costs, and how we structure it with lenders.
+
+**What is a bridging loan?** It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.
+
+## When to use it (Australian SMEs)
+
+- Time‑sensitive transactions (deadlines, settlements, supplier payments)
+- Funding tied to a clear exit (sale, refinance, receivables, progress claim)
+- Working capital gaps (seasonality, stock build, long debtor terms)
+- Where property, invoices, inventory or plant & equipment can support the facility
+
+## Rates, fees & typical terms
+
+| Interest | 0.8%–1.8% per month (interest-only) |
+|----------|-------------------------------------|
+| Term | 1–12 months (extensions possible) |
+| LVR / Advance | Up to ~70% 1st mortgage; ~55–65% 2nd (asset/val dependent) |
+| Security | 1st/2nd mortgage over investment or commercial property; caveat |
+| Typical fees | Establishment 1.5%–3.5% + legal/valuation |
+
+These are indicative only and vary by lender, asset quality and exit.
+
+## Eligibility & documents
+
+- ABN & photo ID
+- Rates notice & title search
+- Purpose & exit strategy
+- Assets & liabilities
+- Leases (if income-supporting)
+- Valuation (if required)
+
+## Process & timelines
+
+1. **Outline objectives & exit**
+2. **Price/structure options**
+3. **Credit pack & conditions**
+4. **Signing**
+5. **Funding**
+
+**Case vignette.** NSW wholesaler used *bridging loan financing* to raise $1,200,000. Structure: approx 65% LVR, 6-month term. Indicative terms in 24–48h; settlement in 7 business days. Fees: 3.0% establishment + legals. Security and pricing always depend on the asset and exit.
+
+## How we structure and negotiate with lenders
+
+- Map the lender landscape and shortlist realistic structures
+- Negotiate pricing and conditions with credit teams
+- Coordinate valuation, legals and settlement
+- Keep the facility strictly commercial (no consumer credit)
+
+## FAQs
+
+**Is bridging loan financing regulated under NCCP in Australia?**
+For business‑purpose loans, NCCP consumer credit rules generally do not apply. We arrange commercial finance only.
+
+**How fast can funding be arranged?**
+Indicative terms are often achievable in 24–48 hours for straightforward scenarios. Settlement timing depends on security, docs and valuation.
+
+**What security is usually required?**
+Commonly 1st/2nd mortgage over investment or commercial property; caveat. The exact structure is lender‑ and asset‑dependent.
+
+**What documents should I prepare up front?**
+Photo ID, ABN, BAS/financials, bank statements, rates notice/title, plus asset/contract evidence.
+
+**Can this help with ATO/tax or supplier arrears?**
+Often yes, provided the exit is clear and security supports the risk.
+
+*Emet Capital acts as a commercial finance broker and does not provide consumer credit. Information is general and for Australian business borrowers.*`;
+
+const noDocAbnLoansContent = `# No Doc ABN Loans — Commercial Property Lending in Australia
+
+*Discuss your funding plan with a broker (commercial only).*
+
+## no doc abn loans: quick overview
+
+Thinking about no doc abn loans? Below we cover the practical bits—use‑cases, eligibility, typical pricing, timelines—and the way we arrange it with credit teams.
+
+**What is no doc abn loans?** It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.
+
+## When to use it (Australian SMEs)
+
+- Time‑sensitive transactions (deadlines, settlements, supplier payments)
+- Funding tied to a clear exit (sale, refinance, receivables, progress claim)
+- Working capital gaps (seasonality, stock build, long debtor terms)
+- Where property, invoices, inventory or plant & equipment can support the facility
+
+## Rates, fees & typical terms
+
+| Interest | Variable; bank 6%–9% p.a. typical range; alt/privates higher |
+|----------|--------------------------------------------------------------|
+| Term | 1–5 years (IO or P&I) |
+| LVR / Advance | Up to ~65%–75% depending on lender/asset/lease WALE |
+| Security | 1st mortgage over commercial/industrial/retail property |
+| Typical fees | Application/establishment 0.5%–2% + legal/valuation |
+
+These are indicative only and vary by lender, asset quality and exit.
+
+## Eligibility & documents
+
+- ABN & photo ID
+- Lease docs & WALE
+- Rent roll/outgoings
+- Financials or BAS
+- Rates notice
+- Valuation instructions
+
+## Process & timelines
+
+1. **Initial call & data room**
+2. **Term sheet negotiation**
+3. **Due diligence & security**
+4. **Final docs**
+5. **Settlement**
+
+**Case vignette.** NSW wholesaler used *no doc abn loans* to raise $600,000. Structure: approx 75% LVR, 36-month term. Indicative terms in 24–48h; settlement in 3 weeks. Fees: 1.5% establishment + legals. Security and pricing always depend on the asset and exit.`;
+
+// Precompiled articles map with embedded content
 const precompiledGuides: Record<string, Article> = {
-  'bridging-loan': createArticleFromContent('bridging-loan', bridgingLoanContent),
-  'no-doc-abn-loans': createArticleFromContent('no-doc-abn-loans', noDocAbnLoansContent),
-  'short-term-property-finance': createArticleFromContent('short-term-property-finance', shortTermPropertyFinanceContent),
-  'second-mortgage-australia': createArticleFromContent('second-mortgage-australia', secondMortgageAustraliaContent),
-  'second-mortgage-lenders-australia': createArticleFromContent('second-mortgage-lenders-australia', secondMortgageLendersAustraliaContent),
-  'no-doc-short-term-mortgages': createArticleFromContent('no-doc-short-term-mortgages', noDocShortTermMortgagesContent),
-  '2025-09-09-commercial-asset-finance-guide': createArticleFromContent('2025-09-09-commercial-asset-finance-guide', commercialAssetFinanceGuideContent),
+  'bridging-loan': {
+    slug: 'bridging-loan',
+    title: 'Commercial Bridging Finance: Bridging Loan Guide — Costs, Timing, Uses',
+    date: '2025-09-11T06:00:00Z',
+    description: 'Australian commercial guide on bridging loans: when to use them, eligibility, pricing and how we arrange them with lenders.',
+    category: 'Bridging Finance',
+    tags: ['bridging loan guide', 'commercial lending', 'business finance'],
+    author: 'Emet Capital Editorial Team',
+    readingTime: 8,
+    featuredImage: '/images/uploads/bridging-loan-guide.jpg',
+    content: bridgingLoanContent,
+    featured: false,
+  },
+  'no-doc-abn-loans': {
+    slug: 'no-doc-abn-loans',
+    title: 'No Doc ABN Loans — Commercial Property Lending in Australia',
+    date: '2025-09-12T06:00:00Z',
+    description: 'Australian commercial guide on no doc abn loans: when to use it, eligibility, pricing and how we arrange it with lenders.',
+    category: 'Commercial Property Loans',
+    tags: ['no doc abn loans', 'commercial lending', 'business finance'],
+    author: 'Emet Capital Editorial Team',
+    readingTime: 10,
+    featuredImage: '/images/uploads/no-doc-abn-loans.jpg',
+    content: noDocAbnLoansContent,
+    featured: false,
+  },
 };
 
 // Export functions for content access
