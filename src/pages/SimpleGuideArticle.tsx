@@ -279,20 +279,33 @@ const SimpleGuideArticle = () => {
   const article = slug ? STATIC_CONTENT[slug] : null;
   
   if (!loading && !article && !isComingSoon) {
+    // For now, show Coming Soon for any missing article instead of Article Not Found
+    // This ensures scheduled articles show the right message
     return (
-      <div className="min-h-screen py-8">
-        <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
             { label: "Resources", href: "/resources" },
             { label: "Guides", href: "/resources/guides" },
-            { label: "Article Not Found" }
+            { label: "Coming Soon" }
           ]} />
-          
-          <div className="text-center">
-            <h1 className="text-2xl font-bold text-foreground mb-4">Article Not Found</h1>
-            <p className="text-muted-foreground">The article you're looking for doesn't exist or has been moved.</p>
-          </div>
+
+          <Card className="bg-gradient-to-br from-primary/5 to-primary/10 border-primary/20">
+            <CardContent className="p-8 text-center">
+              <h1 className="text-4xl font-bold text-foreground mb-4">Coming Soon</h1>
+              <p className="text-xl text-muted-foreground mb-6">
+                This article is currently being prepared and will be available soon.
+              </p>
+              <p className="text-muted-foreground">
+                Check back later or{" "}
+                <a href="/contact" className="text-primary hover:underline">
+                  contact us
+                </a>{" "}
+                if you have specific questions about this topic.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </div>
     );
