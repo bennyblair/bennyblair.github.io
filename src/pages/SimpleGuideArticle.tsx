@@ -155,8 +155,22 @@ const SimpleGuideArticle = () => {
         return;
       }
       
+      // Determine content type from current URL path
+      const currentPath = window.location.href;
+      let contentType: 'guides' | 'case-studies' | 'insights' | 'tools' = 'guides';
+      
+      if (currentPath.includes('/case-studies/')) {
+        contentType = 'case-studies';
+      } else if (currentPath.includes('/insights/')) {
+        contentType = 'insights';
+      } else if (currentPath.includes('/tools/')) {
+        contentType = 'tools';
+      } else {
+        contentType = 'guides'; // default
+      }
+      
       // Check if it's a coming soon article
-      const comingSoon = await isArticleComingSoon('guides', slug);
+      const comingSoon = await isArticleComingSoon(contentType, slug);
       if (comingSoon) {
         setIsComingSoon(true);
       }

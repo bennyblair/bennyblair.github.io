@@ -317,9 +317,11 @@ export function getContentFiles(contentType: 'guides' | 'case-studies' | 'insigh
 }
 
 // Check if an article is referenced in interlinking data (coming soon)
-export async function isArticleComingSoon(contentType: 'guides' | 'case-studies' | 'insights', slug: string): Promise<boolean> {
+export async function isArticleComingSoon(contentType: 'guides' | 'case-studies' | 'insights' | 'tools', slug: string): Promise<boolean> {
   try {
-    // Import interlinking data
+    // Check if article exists in main content data (emet_ai_feed_daily.csv via public endpoint)
+    // Since we can't directly access the CSV from client, we'll check the interlinks.csv
+    // which contains references to future articles
     const response = await fetch('/data/interlinks.csv');
     if (!response.ok) return false;
     
@@ -343,10 +345,43 @@ export async function isArticleComingSoon(contentType: 'guides' | 'case-studies'
         }
       }
     }
+
+    // Alternative approach: Check if the slug matches known patterns from scheduled content
+    // This is a fallback for articles that might be scheduled but not yet in interlinks
+    const knownScheduledSlugs = [
+      'bridging-finance-for-property-development',
+      'mortgage-rates-for-second-mortgage',
+      'short-term-property-finance',
+      'short-term-property-loans',
+      'short-term-property-funding',
+      'short-term-property-loan',
+      'commercial-bridging-loan',
+      'bridging-loan-for-property-development',
+      'low-doc-business-finance',
+      'no-doc-short-term-mortgages',
+      '10000-small-business-grant-nsw',
+      '2nd-mortgage-australia',
+      '2nd-mortgage-lenders',
+      '2nd-mortgage-loan',
+      '2nd-mortgages-with-bad-credit',
+      'abn-auto-loan-brisbane',
+      'abn-car-finance-adelaide',
+      'abn-car-finance-brisbane',
+      'abn-car-finance-melbourne',
+      'abn-car-finance-sydney',
+      'abn-car-lease',
+      'abn-holder-car-finance',
+      'abn-holder-loans',
+      'bridging-loan-example'
+    ];
+    
+    if (knownScheduledSlugs.includes(slug)) {
+      return true;
+    }
     
     return false;
   } catch (error) {
-    console.warn('Could not check interlinking data:', error);
+    console.warn('Could not check coming soon status:', error);
     return false;
   }
 }
