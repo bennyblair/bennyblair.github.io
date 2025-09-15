@@ -57,12 +57,13 @@ const App = () => (
               <Route path="/resources/guides/test-route" element={<div><h1>Guide Test Route Works</h1><p>Direct guide route test</p></div>} />
               <Route path="/resources/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/case-studies" element={<CaseStudies />} />
-              <Route path="/resources/case-studies/:slug" element={<GuideArticle />} />
+              <Route path="/resources/case-studies/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/tools" element={<Tools />} />
+              <Route path="/resources/tools/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/glossary" element={<Glossary />} />
               <Route path="/resources/faqs" element={<FAQs />} />
               <Route path="/resources/insights" element={<MarketInsights />} />
-              <Route path="/resources/insights/:slug" element={<GuideArticle />} />
+              <Route path="/resources/insights/:slug" element={<SimpleGuideArticle />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/consultation" element={<Contact />} />
               <Route path="/services" element={<Services />} />
