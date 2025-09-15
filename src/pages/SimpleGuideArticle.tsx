@@ -1,10 +1,22 @@
 import { useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { markdownToHtml } from "@/lib/markdown";
+import { isArticleComingSoon } from "@/lib/content";
 
 // Direct content embedding - bypassing all import issues
-const STATIC_CONTENT: Record<string, any> = {
+interface StaticArticle {
+  title: string;
+  date: string;
+  description: string;
+  category: string;
+  author: string;
+  readingTime: number;
+  content: string;
+}
+
+const STATIC_CONTENT: Record<string, StaticArticle> = {
   'bridging-loan': {
     title: 'Commercial Bridging Finance: Bridging Loan Guide — Costs, Timing, Uses',
     date: '2025-09-11T06:00:00Z',
@@ -130,11 +142,85 @@ These are indicative only and vary by lender, asset quality and exit.
 
 const SimpleGuideArticle = () => {
   const { slug } = useParams<{ slug: string }>();
+  const [isComingSoon, setIsComingSoon] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const checkArticle = async () => {
+      if (!slug) return;
+      
+      // Check if article exists in our static content
+      if (STATIC_CONTENT[slug]) {
+        setLoading(false);
+        return;
+      }
+      
+      // Check if it's a coming soon article
+      const comingSoon = await isArticleComingSoon('guides', slug);
+      if (comingSoon) {
+        setIsComingSoon(true);
+      }
+      
+      setLoading(false);
+    };
+    
+    checkArticle();
+  }, [slug]);
+
+  if (loading) {
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="animate-pulse">
+            <div className="h-8 bg-gray-200 rounded mb-4"></div>
+            <div className="h-12 bg-gray-200 rounded mb-6"></div>
+            <div className="space-y-3">
+              <div className="h-4 bg-gray-200 rounded"></div>
+              <div className="h-4 bg-gray-200 rounded"></div>
+              <div className="h-4 bg-gray-200 rounded w-2/3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Show "Coming Soon" page
+  if (isComingSoon && !STATIC_CONTENT[slug]) {
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <Breadcrumbs items={[
+            { label: "Home", href: "/" },
+            { label: "Resources", href: "/resources" },
+            { label: "Guides", href: "/resources/guides" },
+            { label: "Coming Soon" }
+          ]} />
+
+          <Card className="bg-gradient-to-br from-primary/5 to-primary/10 border-primary/20">
+            <CardContent className="p-8 text-center">
+              <h1 className="text-4xl font-bold text-foreground mb-4">Coming Soon</h1>
+              <p className="text-xl text-muted-foreground mb-6">
+                This article is currently being prepared and will be available soon.
+              </p>
+              <p className="text-muted-foreground">
+                Check back later or{" "}
+                <a href="/contact" className="text-primary hover:underline">
+                  contact us
+                </a>{" "}
+                if you have specific questions about this topic.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    );
+  }
   
-  // Direct lookup - no complex loading logic
+  // Direct lookup - no complex loading logic  
   const article = slug ? STATIC_CONTENT[slug] : null;
   
-  if (!article) {
+  if (!loading && !article && !isComingSoon) {
     return (
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4 max-w-4xl">
