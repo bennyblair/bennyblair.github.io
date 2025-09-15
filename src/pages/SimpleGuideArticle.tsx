@@ -170,41 +170,53 @@ const SimpleGuideArticle = () => {
       }
       
       // Check if it's a coming soon article
+      // First check hardcoded list of known scheduled articles
+      const knownScheduledSlugs = [
+        'bridging-finance-for-property-development',
+        'mortgage-rates-for-second-mortgage', 
+        'short-term-property-finance',
+        'short-term-property-loans',
+        'short-term-property-funding',
+        'short-term-property-loan',
+        'commercial-bridging-loan',
+        'bridging-loan-for-property-development',
+        'low-doc-business-finance',
+        'no-doc-short-term-mortgages',
+        '10000-small-business-grant-nsw',
+        '2nd-mortgage-australia',
+        '2nd-mortgage-lenders',
+        '2nd-mortgage-loan',
+        '2nd-mortgages-with-bad-credit',
+        'abn-auto-loan-brisbane',
+        'abn-car-finance-adelaide',
+        'abn-car-finance-brisbane',
+        'abn-car-finance-melbourne',
+        'abn-car-finance-sydney',
+        'abn-car-lease',
+        'abn-holder-car-finance',
+        'abn-holder-loans'
+      ];
+      
+      console.log(`Checking slug: ${slug}, in scheduled list: ${knownScheduledSlugs.includes(slug)}`);
+      
+      if (knownScheduledSlugs.includes(slug)) {
+        console.log(`Setting Coming Soon for: ${slug}`);
+        setIsComingSoon(true);
+        setLoading(false);
+        return;
+      }
+      
+      // Also try the CSV-based check as backup
       try {
         const comingSoon = await isArticleComingSoon(contentType, slug);
-        console.log(`Coming Soon check for ${slug}:`, comingSoon);
+        console.log(`CSV Coming Soon check for ${slug}:`, comingSoon);
         if (comingSoon) {
           setIsComingSoon(true);
           setLoading(false);
           return;
         }
       } catch (error) {
-        console.warn('Coming Soon check failed:', error);
-        
-        // Fallback: Check against hardcoded list of known scheduled articles
-        const knownScheduledSlugs = [
-          'bridging-finance-for-property-development',
-          'mortgage-rates-for-second-mortgage', 
-          'short-term-property-finance',
-          'short-term-property-loans',
-          'short-term-property-funding',
-          'short-term-property-loan',
-          'commercial-bridging-loan',
-          'bridging-loan-for-property-development',
-          'low-doc-business-finance',
-          'no-doc-short-term-mortgages',
-          '10000-small-business-grant-nsw',
-          '2nd-mortgage-australia',
-          '2nd-mortgage-lenders',
-          '2nd-mortgage-loan',
-          '2nd-mortgages-with-bad-credit'
-        ];
-        
-        if (knownScheduledSlugs.includes(slug)) {
-          setIsComingSoon(true);
-          setLoading(false);
-          return;
-        }
+        console.warn('CSV Coming Soon check failed:', error);
       }
       
       setLoading(false);
