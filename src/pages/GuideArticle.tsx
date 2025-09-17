@@ -51,7 +51,7 @@ const GuideArticle = () => {
         
         if (!foundArticle) {
           // Check if it's a coming soon article
-          const comingSoon = await isArticleComingSoon(contentType, slug);
+          const comingSoon = await isArticleComingSoon(slug);
           if (comingSoon) {
             setIsComingSoon(true);
             setLoading(false);

@@ -534,7 +534,7 @@ const SimpleGuideArticle = () => {
       
       // Also try the CSV-based check as backup
       try {
-        const comingSoon = await isArticleComingSoon(contentType, slug);
+        const comingSoon = await isArticleComingSoon(slug);
         console.log(`CSV Coming Soon check for ${slug}:`, comingSoon);
         if (comingSoon) {
           setIsComingSoon(true);
