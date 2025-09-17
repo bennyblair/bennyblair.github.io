@@ -339,7 +339,7 @@ const GuideArticle = () => {
             <Card className="p-8 shadow-lg">
               <div 
                 ref={articleRef}
-                className="prose prose-lg prose-slate dark:prose-invert max-w-none"
+                className="article-content space-y-8"
                 dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent) }} 
               />
             </Card>
