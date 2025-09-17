@@ -223,6 +223,7 @@
   line-height: 1.2;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  scroll-margin-top: 6rem;
 }
 
 .article-content h2 {

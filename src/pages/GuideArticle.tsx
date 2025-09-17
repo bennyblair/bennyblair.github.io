@@ -356,39 +356,65 @@ const GuideArticle = () => {
               <div className="space-y-2 text-sm">
                 {tableOfContents.length > 0 ? (
                   tableOfContents.map((item) => (
-                    <a
+                    <button
                       key={item.id}
-                      href={`#${item.id}`}
-                      className={`block text-muted-foreground hover:text-primary transition-colors py-1 ${
+                      onClick={() => {
+                        const element = document.getElementById(item.id);
+                        if (element) {
+                          element.scrollIntoView({ behavior: 'smooth' });
+                        }
+                      }}
+                      className={`block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full ${
                         item.level === 3 ? 'ml-4' : ''
                       }`}
                     >
                       {item.text}
-                    </a>
+                    </button>
                   ))
                 ) : (
                   <>
-                    <a href="#introduction" className="block text-muted-foreground hover:text-primary transition-colors py-1">
+                    <button 
+                      onClick={() => {
+                        const element = document.getElementById('introduction');
+                        if (element) element.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                      className="block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full"
+                    >
                       Introduction
-                    </a>
-                    <a href="#key-points" className="block text-muted-foreground hover:text-primary transition-colors py-1">
+                    </button>
+                    <button 
+                      onClick={() => {
+                        const element = document.getElementById('key-points');
+                        if (element) element.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                      className="block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full"
+                    >
                       Key Points
-                    </a>
-                    <a href="#conclusion" className="block text-muted-foreground hover:text-primary transition-colors py-1">
+                    </button>
+                    <button 
+                      onClick={() => {
+                        const element = document.getElementById('conclusion');
+                        if (element) element.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                      className="block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full"
+                    >
                       Conclusion
-                    </a>
+                    </button>
                   </>
                 )}
                 {/* Related Articles Link */}
                 {relatedArticles.length > 0 && (
                   <>
                     <hr className="my-3 border-border/50" />
-                    <a 
-                      href="#related-articles" 
-                      className="block text-muted-foreground hover:text-primary transition-colors py-1 font-medium"
+                    <button 
+                      onClick={() => {
+                        const element = document.getElementById('related-articles');
+                        if (element) element.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                      className="block text-muted-foreground hover:text-primary transition-colors py-1 font-medium text-left w-full"
                     >
                       Related Guides
-                    </a>
+                    </button>
                   </>
                 )}
               </div>
