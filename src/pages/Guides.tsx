@@ -42,72 +42,7 @@ const Guides = () => {
     "Getting Started"
   ];
 
-  const guides = [
-    {
-      title: "Complete Guide to Bridging Finance in Australia",
-      excerpt: "Master bridging loans with our comprehensive guide covering everything from basics to advanced strategies, including real examples and expert tips.",
-      category: "Property Finance",
-      readTime: "12 min",
-      featured: true,
-      slug: "bridging-finance-complete-guide"
-    },
-    {
-      title: "Asset Finance vs Equipment Leasing: Which is Right for You?",
-      excerpt: "Compare asset finance options and equipment leasing to make the best decision for your business equipment needs.",
-      category: "Asset Finance",
-      readTime: "8 min",
-      featured: false,
-      slug: "asset-finance-vs-equipment-leasing"
-    },
-    {
-      title: "Development Finance: From Application to Settlement",
-      excerpt: "Step-by-step guide to securing development finance in Australia, including documentation, timelines, and common pitfalls.",
-      category: "Development Finance",
-      readTime: "15 min",
-      featured: false,
-      slug: "development-finance-application-guide"
-    },
-    {
-      title: "Working Capital Solutions for Growing Businesses",
-      excerpt: "Explore flexible working capital options including lines of credit, invoice finance, and trade facilities.",
-      category: "Working Capital",
-      readTime: "10 min",
-      featured: false,
-      slug: "working-capital-solutions-guide"
-    },
-    {
-      title: "Commercial Property Finance: Investment vs Owner-Occupied",
-      excerpt: "Understand the differences between investment and owner-occupied commercial property finance, including rates and structures.",
-      category: "Property Finance",
-      readTime: "11 min",
-      featured: false,
-      slug: "commercial-property-finance-guide"
-    },
-    {
-      title: "Trade Finance Essentials for Import/Export Businesses",
-      excerpt: "Navigate letters of credit, trade finance facilities, and international payment structures for your import/export business.",
-      category: "Trade Finance",
-      readTime: "13 min",
-      featured: false,
-      slug: "trade-finance-essentials"
-    },
-    {
-      title: "First-Time Commercial Borrower's Complete Checklist",
-      excerpt: "Everything new commercial borrowers need to know, from credit preparation to documentation requirements.",
-      category: "Getting Started",
-      readTime: "9 min",
-      featured: false,
-      slug: "first-time-borrower-checklist"
-    },
-    {
-      title: "Construction Finance: Managing Progress Payments & Risk",
-      excerpt: "Expert strategies for managing construction finance including progress payment structures and risk mitigation.",
-      category: "Development Finance",
-      readTime: "14 min",
-      featured: false,
-      slug: "construction-finance-guide"
-    }
-  ];
+  const guides: any[] = [];
 
   const filteredGuides = selectedCategory === "All" 
     ? guides 
