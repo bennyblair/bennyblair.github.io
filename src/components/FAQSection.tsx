@@ -29,12 +29,12 @@ const FAQSection = ({ faqs }: FAQSectionProps) => {
           <AccordionItem 
             key={index} 
             value={`item-${index}`} 
-            className="border border-border rounded-lg px-4 py-1 bg-card hover:bg-muted/50 transition-colors"
+            className="border border-border rounded-lg px-3 py-0.5 bg-card hover:bg-muted/50 transition-colors"
           >
-            <AccordionTrigger className="text-left hover:no-underline py-2 font-medium text-foreground text-sm">
+            <AccordionTrigger className="text-left hover:no-underline py-1.5 font-medium text-foreground text-sm">
               {faq.question}
             </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground leading-relaxed pb-2 text-sm">
+            <AccordionContent className="text-muted-foreground leading-relaxed pb-1.5 text-sm">
               {faq.answer}
             </AccordionContent>
           </AccordionItem>
