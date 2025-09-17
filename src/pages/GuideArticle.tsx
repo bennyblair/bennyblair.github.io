@@ -415,7 +415,7 @@ const GuideArticle = () => {
             </Card>
 
             {/* CTA Card */}
-            <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
+            <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20 sticky top-80">
               <h3 className="text-lg font-bold text-foreground mb-3">
                 Need Expert Advice?
               </h3>
