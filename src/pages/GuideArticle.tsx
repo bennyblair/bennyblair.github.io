@@ -379,6 +379,18 @@ const GuideArticle = () => {
                     </a>
                   </>
                 )}
+                {/* Related Articles Link */}
+                {relatedArticles.length > 0 && (
+                  <>
+                    <hr className="my-3 border-border/50" />
+                    <a 
+                      href="#related-articles" 
+                      className="block text-muted-foreground hover:text-primary transition-colors py-1 font-medium"
+                    >
+                      Related Guides
+                    </a>
+                  </>
+                )}
               </div>
             </Card>
 
@@ -431,7 +443,7 @@ const GuideArticle = () => {
 
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
-          <section>
+          <section id="related-articles">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
               Related {contentType === 'guides' ? 'Guides' : contentType === 'case-studies' ? 'Case Studies' : 'Insights'}
             </h2>
