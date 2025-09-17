@@ -38,6 +38,7 @@ import AssetFinance from "./pages/services/AssetFinance";
 import BuildingMaintenanceLoans from "./pages/services/BuildingMaintenanceLoans";
 import CapitalWorksFinance from "./pages/services/CapitalWorksFinance";
 import StrataFinance from "./pages/services/StrataFinance";
+import FastBusinessFunding from "./pages/FastBusinessFunding";
 
 const queryClient = new QueryClient();
 
@@ -52,6 +53,7 @@ const App = () => (
           <Layout>
             <Routes>
               <Route path="/" element={<Homepage />} />
+              <Route path="/fast-business-funding" element={<FastBusinessFunding />} />
               <Route path="/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/guides" element={<Guides />} />
               <Route path="/resources" element={<ResourcesHub />} />
