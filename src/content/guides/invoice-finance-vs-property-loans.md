@@ -53,11 +53,11 @@ Property loans suit situations where:
 
 ## Key Differences Between Invoice Finance and Property Loans
 
-- **Security**: Invoice finance relies on receivables; property loans rely on real estate
-- **Speed**: Invoice finance can fund within 24–48 hours once ledgers are verified. Caveat loans can be similarly fast; second mortgages are slower
-- **Scalability**: Invoice finance grows with sales; property loans are capped by asset equity
-- **Repayment**: Invoice finance self-liquidates as debtors pay. Property loans rely on sales or refinance
-- **Cost**: Invoice finance fees are typically a % of invoices; property loan costs are interest-based plus establishment fees
+- Security: Invoice finance relies on receivables; property loans rely on real estate
+- Speed: Invoice finance can fund within 24–48 hours once ledgers are verified. Caveat loans can be similarly fast; second mortgages are slower
+- Scalability: Invoice finance grows with sales; property loans are capped by asset equity
+- Repayment: Invoice finance self-liquidates as debtors pay. Property loans rely on sales or refinance
+- Cost: Invoice finance fees are typically a % of invoices; property loan costs are interest-based plus establishment fees
 
 ## Risks to Consider
 
