@@ -43,61 +43,38 @@ const Guides = () => {
   ];
 
   const guides = [
-    {
-      title: "Second Mortgage for Business in Australia: What It Is and When to Use It",
-      excerpt: "Guide to second mortgage for business: what it is and when to use it for Australian businesses. Eligibility, costs, timelines, risks.",
-      category: "Property Finance",
-      readTime: "12 min",
-      featured: true,
-      slug: "second-mortgage-for-business-australia"
-    },
-    {
-      title: "Caveat Loans vs Second Mortgages: Which Works Best for Australian Businesses?",
-      excerpt: "Guide comparing caveat loans and second mortgages: speed, costs, risks, and use cases for Australian businesses.",
-      category: "Property Finance", 
-      readTime: "10 min",
-      featured: false,
-      slug: "caveat-loans-vs-second-mortgages"
-    },
-    {
-      title: "Bridging Loans in Australia: How They Help Businesses Manage Timing Gaps",
-      excerpt: "Guide to bridging loans in Australia: how they work, when to use them, costs, risks, and alternatives.",
-      category: "Property Finance",
-      readTime: "11 min", 
-      featured: false,
-      slug: "bridging-loans-australia"
-    }
+    // Keep any truly hardcoded guides that don't exist as markdown files
+    // The markdown files will provide: bridging-loans-australia, caveat-loans-vs-second-mortgages, second-mortgage-for-business-australia
   ];
 
   const filteredGuides = selectedCategory === "All" 
     ? guides 
     : guides.filter(guide => guide.category === selectedCategory);
 
-  const featuredGuide = guides.find(guide => guide.featured);
+  const featuredGuide = publishedArticles.find(article => 
+    article.slug === "second-mortgage-for-business-australia"
+  ) ? {
+    title: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.title || "",
+    excerpt: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.description || "",
+    category: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.category || "",
+    readTime: `${publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.readingTime || 0} min`,
+    featured: true,
+    slug: "second-mortgage-for-business-australia"
+  } : null;
 
-  // Combine hardcoded and published articles for display
-  const allGuides = [
-    ...guides.filter(g => !g.featured).map(guide => ({
-      ...guide,
-      isNew: false,
-      date: undefined as string | undefined
-    })), // Hardcoded guides (excluding featured)
-    ...publishedArticles.map(article => ({
-      title: article.title,
-      excerpt: article.description,
-      category: article.category,
-      readTime: `${article.readingTime} min`,
-      featured: false,
-      slug: article.slug,
-      isNew: isNewArticle(article.date),
-      date: article.date
-    }))
-  ].sort((a, b) => {
-    // Sort by date if both have dates, otherwise hardcoded first
-    if (a.date && b.date) {
-      return new Date(b.date).getTime() - new Date(a.date).getTime();
-    }
-    return a.date ? -1 : 1; // Articles with dates first
+  // Use only published articles from markdown files
+  const allGuides = publishedArticles.map(article => ({
+    title: article.title,
+    excerpt: article.description,
+    category: article.category,
+    readTime: `${article.readingTime} min`,
+    featured: article.slug === "second-mortgage-for-business-australia",
+    slug: article.slug,
+    isNew: isNewArticle(article.date),
+    date: article.date
+  })).sort((a, b) => {
+    // Sort by date, newest first
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
 
   const filteredAllGuides = selectedCategory === "All" 
