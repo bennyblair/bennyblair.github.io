@@ -19,6 +19,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import FirstSecondMortgages from "./pages/services/FirstSecondMortgages";
+import GuideArticle from "./pages/GuideArticle";
 import CommercialPropertyDevelopment from "./pages/services/CommercialPropertyDevelopment";
 import WorkingCapital from "./pages/services/WorkingCapital";
 import BridgingFinance from "./pages/services/BridgingFinance";
@@ -52,6 +53,7 @@ const App = () => (
               <Route path="/guides" element={<Guides />} />
               <Route path="/resources" element={<ResourcesHub />} />
               <Route path="/resources/guides" element={<Guides />} />
+              <Route path="/resources/guides/:slug" element={<GuideArticle />} />
               <Route path="/resources/case-studies" element={<CaseStudies />} />
               <Route path="/resources/tools" element={<Tools />} />
               <Route path="/resources/glossary" element={<Glossary />} />
