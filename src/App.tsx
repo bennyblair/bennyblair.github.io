@@ -54,6 +54,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/fast-business-funding" element={<FastBusinessFunding />} />
+              <Route path="/test-new-page" element={<div><h1>TEST PAGE WORKS!</h1><p>This is a test of new page routing</p></div>} />
               <Route path="/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/guides" element={<Guides />} />
               <Route path="/resources" element={<ResourcesHub />} />
