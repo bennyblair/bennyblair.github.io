@@ -133,7 +133,7 @@ const Contact = () => {
                 <h2 className="text-2xl font-bold text-foreground mb-6">
                   Request Your Free Consultation
                 </h2>
-                <form onSubmit={handleSubmit} className="space-y-6" netlify name="contact">
+                <form onSubmit={handleSubmit} className="space-y-6" data-netlify="true" name="contact">
                   <input type="hidden" name="form-name" value="contact" />
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
