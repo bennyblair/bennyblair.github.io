@@ -53,7 +53,32 @@ const App = () => (
           <Layout>
             <Routes>
               <Route path="/" element={<Homepage />} />
-              <Route path="/fast-business-funding" element={<FastBusinessFunding />} />
+              <Route path="/fast-business-funding" element={
+                <div style={{padding: '40px', maxWidth: '800px', margin: '0 auto'}}>
+                  <h1 style={{fontSize: '32px', marginBottom: '20px'}}>How to Secure Fast Business Funding in Australia</h1>
+                  <p style={{fontSize: '18px', marginBottom: '20px'}}>
+                    In today's competitive business environment, access to fast funding can make the difference between seizing an opportunity and watching it slip away.
+                  </p>
+                  <h2 style={{fontSize: '24px', marginBottom: '15px'}}>What is Fast Business Funding?</h2>
+                  <p style={{marginBottom: '20px'}}>
+                    Fast business funding refers to financing solutions that can be approved and disbursed quickly, typically within 24-48 hours to a few weeks.
+                  </p>
+                  <h2 style={{fontSize: '24px', marginBottom: '15px'}}>Types of Fast Funding</h2>
+                  <ul style={{marginBottom: '20px'}}>
+                    <li>Asset-Based Lending</li>
+                    <li>Bridging Loans</li>
+                    <li>Caveat Loans</li>
+                    <li>Alternative Lenders</li>
+                  </ul>
+                  <div style={{backgroundColor: '#f0f8ff', padding: '20px', borderRadius: '8px', marginTop: '30px'}}>
+                    <h3>Ready to Discuss Your Funding Requirements?</h3>
+                    <p>Our commercial lending specialists are here to help.</p>
+                    <a href="/contact" style={{backgroundColor: '#007bff', color: 'white', padding: '10px 20px', textDecoration: 'none', borderRadius: '5px'}}>
+                      Get Your Quote
+                    </a>
+                  </div>
+                </div>
+              } />
               <Route path="/test-new-page" element={<div><h1>TEST PAGE WORKS!</h1><p>This is a test of new page routing</p></div>} />
               <Route path="/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/guides" element={<Guides />} />
