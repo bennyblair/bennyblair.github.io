@@ -354,9 +354,9 @@ const GuideArticle = () => {
           </article>
 
           {/* Sidebar */}
-          <aside className="lg:col-span-4 space-y-6">
+          <aside className="lg:col-span-4 space-y-6 sticky top-8">
             {/* Table of Contents */}
-            <Card className="p-6 sticky top-8">
+            <Card className="p-6">
               <h3 className="text-lg font-bold text-foreground mb-4 flex items-center">
                 <Star className="w-5 h-5 mr-2 text-accent" />
                 Quick Navigation
@@ -415,7 +415,7 @@ const GuideArticle = () => {
             </Card>
 
             {/* CTA Card */}
-            <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20 sticky top-[340px]">
+            <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
               <h3 className="text-lg font-bold text-foreground mb-3">
                 Need Expert Advice?
               </h3>
