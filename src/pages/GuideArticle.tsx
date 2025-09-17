@@ -5,7 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-react";
 import { getArticleBySlug, getContentFiles, isArticleComingSoon, debugModules, type Article } from "@/lib/content";
-import { convertMarkdownToHtml, extractTableOfContents, stripFirstHeading, type TableOfContentsItem } from "@/lib/markdown-converter";
+import { convertMarkdownToHtml, extractTableOfContents, extractFAQs, stripFirstHeading, type TableOfContentsItem, type FAQItem } from "@/lib/markdown-converter";
+import FAQSection from "@/components/FAQSection";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 
 const GuideArticle = () => {
@@ -17,6 +18,7 @@ const GuideArticle = () => {
   const [error, setError] = useState<string | null>(null);
   const [isComingSoon, setIsComingSoon] = useState(false);
   const [tableOfContents, setTableOfContents] = useState<TableOfContentsItem[]>([]);
+  const [faqs, setFaqs] = useState<FAQItem[]>([]);
   const articleRef = useRef<HTMLDivElement>(null);
 
   // Determine content type from URL path
@@ -69,6 +71,10 @@ const GuideArticle = () => {
         // Extract table of contents from the article content
         const toc = extractTableOfContents(foundArticle.content);
         setTableOfContents(toc);
+
+        // Extract FAQs from the article content
+        const faqItems = extractFAQs(foundArticle.content);
+        setFaqs(faqItems);
 
         // Load related articles (same content type, excluding current article)
         const allArticles = getContentFiles(contentType);
@@ -340,8 +346,10 @@ const GuideArticle = () => {
               <div 
                 ref={articleRef}
                 className="article-content space-y-8"
-                dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent) }} 
-              />
+              >
+                <div dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent) }} />
+                {faqs.length > 0 && <FAQSection faqs={faqs} />}
+              </div>
             </Card>
           </article>
 
