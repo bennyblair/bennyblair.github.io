@@ -402,21 +402,7 @@ const GuideArticle = () => {
                     </button>
                   </>
                 )}
-                {/* Related Articles Link */}
-                {relatedArticles.length > 0 && (
-                  <>
-                    <hr className="my-3 border-border/50" />
-                    <button 
-                      onClick={() => {
-                        const element = document.getElementById('related-articles');
-                        if (element) element.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                      className="block text-muted-foreground hover:text-primary transition-colors py-1 font-medium text-left w-full"
-                    >
-                      Related Guides
-                    </button>
-                  </>
-                )}
+                {/* Related Articles navigation handled by extracted TOC */}
               </div>
             </Card>
 

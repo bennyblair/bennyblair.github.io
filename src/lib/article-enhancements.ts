@@ -208,14 +208,7 @@ export function initializeArticleEnhancements(element: HTMLElement): void {
   enhanceCodeBlocks(element);
   enhanceAccessibility(element);
   
-  // Add table of contents if applicable
-  const toc = generateTableOfContents(element);
-  if (toc) {
-    const firstHeading = element.querySelector('h1, h2');
-    if (firstHeading) {
-      firstHeading.parentNode?.insertBefore(toc, firstHeading.nextSibling);
-    }
-  }
+  // Table of contents disabled - using sidebar navigation instead
   
   // Add reading progress for long articles
   const wordCount = element.textContent?.split(/\s+/).length || 0;
