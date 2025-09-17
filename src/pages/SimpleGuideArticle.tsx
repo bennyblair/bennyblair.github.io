@@ -475,13 +475,8 @@ const SimpleGuideArticle = () => {
     const checkArticle = async () => {
       if (!slug) return;
       
-      console.log(`DEBUG: Checking article with slug: "${slug}"`);
-      console.log(`DEBUG: Available articles:`, Object.keys(STATIC_CONTENT));
-      console.log(`DEBUG: Article exists in STATIC_CONTENT:`, !!STATIC_CONTENT[slug]);
-      
       // Check if article exists in our static content
       if (STATIC_CONTENT[slug]) {
-        console.log(`DEBUG: Found article in STATIC_CONTENT: ${slug}`);
         setLoading(false);
         return;
       }

@@ -52,12 +52,12 @@ const App = () => (
           <Layout>
             <Routes>
               <Route path="/" element={<Homepage />} />
+              <Route path="/guides/:slug" element={<SimpleGuideArticle />} />
+              <Route path="/guides" element={<Guides />} />
               <Route path="/resources" element={<ResourcesHub />} />
+              <Route path="/resources/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/guides" element={<Guides />} />
               <Route path="/resources/guides/test-route" element={<div><h1>Guide Test Route Works</h1><p>Direct guide route test</p></div>} />
-              <Route path="/resources/guides/:slug" element={<SimpleGuideArticle />} />
-              <Route path="/guides" element={<Guides />} />
-              <Route path="/guides/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/case-studies" element={<CaseStudies />} />
               <Route path="/resources/case-studies/:slug" element={<SimpleGuideArticle />} />
               <Route path="/resources/tools" element={<Tools />} />
