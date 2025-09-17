@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-react";
 import { getArticleBySlug, getContentFiles, isArticleComingSoon, debugModules, type Article } from "@/lib/content";
-import { markdownToHtml } from "@/lib/markdown";
+import { convertMarkdownToHtml, extractTableOfContents, stripFirstHeading, type TableOfContentsItem } from "@/lib/markdown-converter";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 
 const GuideArticle = () => {
@@ -16,6 +16,7 @@ const GuideArticle = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isComingSoon, setIsComingSoon] = useState(false);
+  const [tableOfContents, setTableOfContents] = useState<TableOfContentsItem[]>([]);
   const articleRef = useRef<HTMLDivElement>(null);
 
   // Determine content type from URL path
@@ -64,6 +65,10 @@ const GuideArticle = () => {
         }
 
         setArticle(foundArticle);
+
+        // Extract table of contents from the article content
+        const toc = extractTableOfContents(foundArticle.content);
+        setTableOfContents(toc);
 
         // Load related articles (same content type, excluding current article)
         const allArticles = getContentFiles(contentType);
@@ -263,6 +268,9 @@ const GuideArticle = () => {
   };
 
   const keyTakeaways = extractKeyTakeaways(article.content);
+  
+  // Process the content - strip first heading if it matches the title
+  const processedContent = stripFirstHeading(article.content);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
@@ -331,29 +339,8 @@ const GuideArticle = () => {
             <Card className="p-8 shadow-lg">
               <div 
                 ref={articleRef}
-                className="
-                  article-content prose prose-lg max-w-none
-                  prose-headings:text-foreground prose-headings:font-bold prose-headings:tracking-tight
-                  prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-12 prose-h1:leading-tight prose-h1:border-b prose-h1:border-border/30 prose-h1:pb-4
-                  prose-h2:text-3xl prose-h2:mb-6 prose-h2:mt-10 prose-h2:leading-tight prose-h2:text-primary prose-h2:border-b prose-h2:border-border/20 prose-h2:pb-3
-                  prose-h3:text-2xl prose-h3:mb-5 prose-h3:mt-8 prose-h3:leading-tight prose-h3:text-foreground
-                  prose-h4:text-xl prose-h4:mb-4 prose-h4:mt-6 prose-h4:leading-tight prose-h4:text-foreground/90
-                  prose-p:text-muted-foreground prose-p:mb-6 prose-p:leading-8 prose-p:text-lg
-                  prose-strong:text-foreground prose-strong:font-semibold
-                  prose-em:text-foreground/90 prose-em:italic
-                  prose-a:text-primary prose-a:no-underline prose-a:font-medium hover:prose-a:text-primary/80 hover:prose-a:underline prose-a:transition-all
-                  prose-ul:text-muted-foreground prose-ul:mb-8 prose-ul:space-y-3 prose-ul:text-lg
-                  prose-ol:text-muted-foreground prose-ol:mb-8 prose-ol:space-y-3 prose-ol:text-lg
-                  prose-li:leading-8 prose-li:mb-2 prose-li:text-muted-foreground
-                  prose-blockquote:border-l-4 prose-blockquote:border-l-accent prose-blockquote:bg-accent/5 prose-blockquote:px-8 prose-blockquote:py-6 prose-blockquote:rounded-r-lg prose-blockquote:my-8 prose-blockquote:text-foreground prose-blockquote:italic
-                  prose-code:bg-muted prose-code:px-3 prose-code:py-1 prose-code:rounded-md prose-code:text-sm prose-code:font-mono prose-code:border prose-code:text-foreground
-                  prose-pre:bg-muted prose-pre:border-2 prose-pre:border-border/20 prose-pre:p-6 prose-pre:rounded-xl prose-pre:mb-8 prose-pre:overflow-x-auto prose-pre:shadow-inner
-                  prose-table:w-full prose-table:border-collapse prose-table:mb-10 prose-table:rounded-xl prose-table:overflow-hidden prose-table:border-2 prose-table:border-border/20 prose-table:shadow-lg
-                  prose-th:px-6 prose-th:py-5 prose-th:text-left prose-th:font-bold prose-th:text-foreground prose-th:bg-primary/10 prose-th:text-lg
-                  prose-td:px-6 prose-td:py-4 prose-td:text-muted-foreground prose-td:border-b prose-td:border-border/10 prose-td:text-lg
-                  prose-tr:transition-colors prose-tr:hover:bg-muted/30
-                "
-                dangerouslySetInnerHTML={{ __html: markdownToHtml(article.content) }} 
+                className="prose prose-lg prose-slate dark:prose-invert max-w-none"
+                dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent) }} 
               />
             </Card>
           </article>
@@ -367,18 +354,31 @@ const GuideArticle = () => {
                 Quick Navigation
               </h3>
               <div className="space-y-2 text-sm">
-                <a href="#introduction" className="block text-muted-foreground hover:text-primary transition-colors py-1">
-                  Introduction
-                </a>
-                <a href="#key-points" className="block text-muted-foreground hover:text-primary transition-colors py-1">
-                  Key Points
-                </a>
-                <a href="#conclusion" className="block text-muted-foreground hover:text-primary transition-colors py-1">
-                  Conclusion
-                </a>
-                <a href="#faqs" className="block text-muted-foreground hover:text-primary transition-colors py-1">
-                  FAQs
-                </a>
+                {tableOfContents.length > 0 ? (
+                  tableOfContents.map((item) => (
+                    <a
+                      key={item.id}
+                      href={`#${item.id}`}
+                      className={`block text-muted-foreground hover:text-primary transition-colors py-1 ${
+                        item.level === 3 ? 'ml-4' : ''
+                      }`}
+                    >
+                      {item.text}
+                    </a>
+                  ))
+                ) : (
+                  <>
+                    <a href="#introduction" className="block text-muted-foreground hover:text-primary transition-colors py-1">
+                      Introduction
+                    </a>
+                    <a href="#key-points" className="block text-muted-foreground hover:text-primary transition-colors py-1">
+                      Key Points
+                    </a>
+                    <a href="#conclusion" className="block text-muted-foreground hover:text-primary transition-colors py-1">
+                      Conclusion
+                    </a>
+                  </>
+                )}
               </div>
             </Card>
 
