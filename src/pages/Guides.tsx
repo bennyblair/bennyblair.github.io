@@ -42,7 +42,32 @@ const Guides = () => {
     "Getting Started"
   ];
 
-  const guides: any[] = [];
+  const guides = [
+    {
+      title: "Second Mortgage for Business in Australia: What It Is and When to Use It",
+      excerpt: "Guide to second mortgage for business: what it is and when to use it for Australian businesses. Eligibility, costs, timelines, risks.",
+      category: "Property Finance",
+      readTime: "12 min",
+      featured: true,
+      slug: "second-mortgage-for-business-australia"
+    },
+    {
+      title: "Caveat Loans vs Second Mortgages: Which Works Best for Australian Businesses?",
+      excerpt: "Guide comparing caveat loans and second mortgages: speed, costs, risks, and use cases for Australian businesses.",
+      category: "Property Finance", 
+      readTime: "10 min",
+      featured: false,
+      slug: "caveat-loans-vs-second-mortgages"
+    },
+    {
+      title: "Bridging Loans in Australia: How They Help Businesses Manage Timing Gaps",
+      excerpt: "Guide to bridging loans in Australia: how they work, when to use them, costs, risks, and alternatives.",
+      category: "Property Finance",
+      readTime: "11 min", 
+      featured: false,
+      slug: "bridging-loans-australia"
+    }
+  ];
 
   const filteredGuides = selectedCategory === "All" 
     ? guides 
