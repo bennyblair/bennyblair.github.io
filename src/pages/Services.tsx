@@ -69,7 +69,7 @@ const Services = () => {
         {
           title: 'Refinancing Solutions',
           description: 'Property refinance and restructure',
-          link: '/services/refinancing',
+          link: '/services/refinancing-solutions',
           loanRange: '$250K - $100M+',
           terms: '1-25 years'
         }
