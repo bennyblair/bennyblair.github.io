@@ -21,8 +21,10 @@ export interface Article {
 
 // Load markdown files at build time (Vite)
 const guideModules = import.meta.glob("../content/guides/*.md", { as: "raw", eager: true }) as Record<string, string>;
+const caseStudyModules = import.meta.glob("../content/case-studies/*.md", { as: "raw", eager: true }) as Record<string, string>;
 
 let guidesCache: Article[] | null = null;
+let caseStudiesCache: Article[] | null = null;
 
 function parseArticlesFromModules(modules: Record<string, string>): Article[] {
   const articles: Article[] = [];
@@ -57,11 +59,19 @@ function parseArticlesFromModules(modules: Record<string, string>): Article[] {
 }
 
 export const getContentFiles = (contentType: string = "guides"): Article[] => {
-  if (contentType !== "guides") return [];
-  if (!guidesCache) {
-    guidesCache = parseArticlesFromModules(guideModules);
+  if (contentType === "guides") {
+    if (!guidesCache) {
+      guidesCache = parseArticlesFromModules(guideModules);
+    }
+    return guidesCache;
   }
-  return guidesCache;
+  if (contentType === "case-studies") {
+    if (!caseStudiesCache) {
+      caseStudiesCache = parseArticlesFromModules(caseStudyModules);
+    }
+    return caseStudiesCache;
+  }
+  return [];
 };
 
 export const getArticleBySlug = (contentType: string = "guides", slug?: string): Article | null => {
