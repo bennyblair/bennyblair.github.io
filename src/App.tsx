@@ -10,6 +10,7 @@ import Homepage from "./pages/Homepage";
 import ResourcesHub from "./pages/ResourcesHub";
 import Guides from "./pages/Guides";
 import CaseStudies from "./pages/CaseStudies";
+import CaseStudyArticle from "./pages/CaseStudyArticle";
 import Tools from "./pages/Tools";
 import Glossary from "./pages/Glossary";
 import FAQs from "./pages/FAQs";
@@ -60,7 +61,8 @@ const App = () => (
               <Route path="/resources" element={<ResourcesHub />} />
               <Route path="/resources/guides" element={<Guides />} />
               <Route path="/resources/guides/:slug" element={<GuideArticle />} />
-              <Route path="/resources/case-studies" element={<CaseStudies />} />
+          <Route path="/resources/case-studies" element={<CaseStudies />} />
+          <Route path="/resources/case-studies/:slug" element={<CaseStudyArticle />} />
               <Route path="/resources/tools" element={<Tools />} />
               <Route path="/resources/glossary" element={<Glossary />} />
               <Route path="/resources/faqs" element={<FAQs />} />

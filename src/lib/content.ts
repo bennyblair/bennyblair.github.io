@@ -17,6 +17,10 @@ export interface Article {
   duration?: string;
   outcome?: string;
   challenge?: string;
+  keywords?: string[];
+  location?: string;
+  propertyType?: string;
+  lvr?: string;
 }
 
 // Load markdown files at build time (Vite)
@@ -51,6 +55,16 @@ function parseArticlesFromModules(modules: Record<string, string>): Article[] {
       readingTime: Number(data.readingTime ?? 8),
       featuredImage: data.featuredImage,
       content,
+      loanAmount: data.loanAmount,
+      loanType: data.loanType,
+      industry: data.industry,
+      duration: data.duration,
+      outcome: data.outcome,
+      challenge: data.challenge,
+      keywords: Array.isArray(data.keywords) ? data.keywords : [],
+      location: data.location,
+      propertyType: data.propertyType,
+      lvr: data.lvr,
     });
   }
 
