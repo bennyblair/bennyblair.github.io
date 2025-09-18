@@ -57,26 +57,33 @@ const Tools = () => {
     }
   ];
 
-  const upcomingTools = [
+  // Add the new calculators to available tools
+  const newCalculators = [
     {
       title: "Asset Finance ROI Calculator",
       description: "Calculate return on investment for equipment purchases",
       features: ["ROI analysis", "Depreciation factors", "Tax implications"],
-      status: "Coming Soon"
+      url: "/tools/asset-finance-roi-calculator",
+      status: "Available"
     },
     {
       title: "Working Capital Requirements Calculator", 
       description: "Determine optimal working capital for your business",
       features: ["Industry benchmarks", "Seasonal adjustments", "Growth planning"],
-      status: "Coming Soon"
+      url: "/tools/working-capital-calculator",
+      status: "Available"
     },
     {
       title: "Loan Comparison Tool",
       description: "Compare multiple loan offers side by side",
       features: ["Rate comparison", "Cost analysis", "Term optimization"],
-      status: "Coming Soon"
+      url: "/tools/loan-comparison-tool",
+      status: "Available"
     }
   ];
+
+  // Combine all available calculators
+  const allAvailableCalculators = [...availableCalculators, ...newCalculators];
 
   return (
     <div className="min-h-screen py-8">
@@ -186,22 +193,43 @@ const Tools = () => {
               </div>
             </div>
 
-            <div className="mt-8 p-4 bg-secondary-blue rounded-lg">
-              <h4 className="font-semibold text-secondary-blue-foreground mb-2">Calculator Features:</h4>
-              <ul className="grid md:grid-cols-3 gap-2 text-sm text-secondary-blue-foreground">
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-accent mr-2" />
-                  Real-time calculations
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-accent mr-2" />
-                  Professional accuracy
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-accent mr-2" />
-                  Detailed breakdown
-                </li>
-              </ul>
+            {/* SEO Content Section */}
+            <div className="mt-8 space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-card p-6 rounded-lg border border-border">
+                  <h4 className="font-semibold text-foreground mb-3">What is a Bridging Loan?</h4>
+                  <p className="text-sm text-muted-foreground">
+                    A bridging loan is a short-term financing solution designed to "bridge" the gap between immediate funding needs and permanent financing. Perfect for property purchases, business acquisitions, or urgent cash flow requirements.
+                  </p>
+                </div>
+                <div className="bg-card p-6 rounded-lg border border-border">
+                  <h4 className="font-semibold text-foreground mb-3">Key Benefits</h4>
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    <li>• Fast approval (24-48 hours)</li>
+                    <li>• Flexible repayment terms</li>
+                    <li>• No prepayment penalties</li>
+                    <li>• Asset-based security</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="p-4 bg-secondary-blue rounded-lg">
+                <h4 className="font-semibold text-secondary-blue-foreground mb-2">Calculator Features:</h4>
+                <ul className="grid md:grid-cols-3 gap-2 text-sm text-secondary-blue-foreground">
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 text-accent mr-2" />
+                    Real-time calculations
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 text-accent mr-2" />
+                    Professional accuracy
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-4 h-4 text-accent mr-2" />
+                    Detailed breakdown
+                  </li>
+                </ul>
+              </div>
             </div>
           </CardContent>
         </Card>
@@ -212,7 +240,7 @@ const Tools = () => {
             Available Calculators
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {availableCalculators.map((tool, index) => (
+            {allAvailableCalculators.map((tool, index) => (
               <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-primary/20">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between mb-4">
@@ -254,51 +282,6 @@ const Tools = () => {
           </div>
         </section>
 
-        {/* Upcoming Tools */}
-        <section>
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
-            More Tools Coming Soon
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {upcomingTools.map((tool, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300">
-                <CardContent className="p-6">
-                  <div className="flex items-center justify-between mb-4">
-                    <Calculator className="w-8 h-8 text-muted-foreground" />
-                    <span className="text-sm font-medium text-accent bg-accent/10 px-3 py-1 rounded-full">
-                      {tool.status}
-                    </span>
-                  </div>
-                  
-                  <h3 className="text-lg font-semibold text-foreground mb-3">
-                    {tool.title}
-                  </h3>
-                  
-                  <p className="text-muted-foreground mb-4 text-sm">
-                    {tool.description}
-                  </p>
-                  
-                  <ul className="space-y-2 mb-4">
-                    {tool.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center text-sm text-muted-foreground">
-                        <CheckCircle className="w-4 h-4 text-primary mr-2 flex-shrink-0" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                  
-                  <Button 
-                    disabled 
-                    className="w-full opacity-50 cursor-not-allowed"
-                  >
-                    <Clock className="w-4 h-4 mr-2" />
-                    Coming Soon
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
 
         {/* Call to Action */}
         <section className="text-center mt-16 py-12 bg-gradient-to-r from-primary to-primary-light rounded-2xl">

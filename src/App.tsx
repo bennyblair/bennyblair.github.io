@@ -39,6 +39,9 @@ import StrataFinance from "./pages/services/StrataFinance";
 import CommercialPropertyLoanCalculator from "./pages/tools/CommercialPropertyLoanCalculator";
 import SecondMortgageCalculator from "./pages/tools/SecondMortgageCalculator";
 import CommercialRealEstateCalculator from "./pages/tools/CommercialRealEstateCalculator";
+import AssetFinanceROICalculator from "./pages/tools/AssetFinanceROICalculator";
+import WorkingCapitalCalculator from "./pages/tools/WorkingCapitalCalculator";
+import LoanComparisonTool from "./pages/tools/LoanComparisonTool";
 
 const queryClient = new QueryClient();
 
@@ -91,6 +94,9 @@ const App = () => (
               <Route path="/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
               <Route path="/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
               <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
+              <Route path="/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />
+              <Route path="/tools/working-capital-calculator" element={<WorkingCapitalCalculator />} />
+              <Route path="/tools/loan-comparison-tool" element={<LoanComparisonTool />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Layout>
