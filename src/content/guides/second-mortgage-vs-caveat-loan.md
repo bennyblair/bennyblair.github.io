@@ -1,6 +1,6 @@
 ---
 title: "Second Mortgage vs Caveat Loan: Which Is Right for Your Business?"
-date: "2025-09-29T06:00:00Z"
+date: "2024-03-28T06:00:00Z"
 description: "Comprehensive comparison of second mortgages vs caveat loans in Australian private lending: key differences, use cases, risks, worked examples, and decision-making guidance."
 featuredImage: "/api/placeholder/1200/630"
 category: "Commercial Finance"

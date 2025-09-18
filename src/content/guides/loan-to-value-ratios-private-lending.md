@@ -1,6 +1,6 @@
 ---
 title: "Loan-to-Value Ratios (LVR) in Private Lending: Why They Matter for Australian Businesses"
-date: "2025-09-26T06:00:00Z"
+date: "2024-04-12T06:00:00Z"
 description: "In Australian private lending, Loan-to-Value Ratio (LVR) is the key metric that drives loan approvals, pricing, and exit planning. Learn how it's calculated, common caps, risks, and practical tips."
 featuredImage: "/images/loan-to-value-ratios-private-lending.jpg"
 category: "Commercial Finance"

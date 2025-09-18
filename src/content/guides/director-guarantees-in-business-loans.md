@@ -1,6 +1,6 @@
 ---
 title: "Director Guarantees in Business Loans: What They Mean for Borrowers"
-date: "2025-09-25T06:00:00Z"
+date: "2024-06-10T06:00:00Z"
 description: "Guide explaining director guarantees in Australian business lending: what they are, why lenders require them, risks, and protections for directors."
 featuredImage: "/images/director-guarantees-business-loans.jpg"
 category: "Commercial Finance"

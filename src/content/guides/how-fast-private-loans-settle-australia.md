@@ -1,6 +1,6 @@
 ---
 title: "How Fast Can Private Loans Settle? Timelines for Business Funding in Australia"
-date: "2025-09-21T06:00:00Z"
+date: "2024-09-05T06:00:00Z"
 description: "Guide on settlement timelines for private loans in Australia, including caveat loans, second mortgages, and bridging finance."
 featuredImage: ""
 category: "Commercial Finance"

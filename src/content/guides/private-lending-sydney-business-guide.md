@@ -1,7 +1,7 @@
 ---
 title: "Private Lending in Sydney: A Guide for Businesses"
 description: "Private lending in Sydney explained: caveat loans, second mortgages, bridging finance, and case studies for businesses in Rose Bay and Alexandria."
-date: "2025-09-30"
+date: "2024-09-12"
 category: "Location Guides"
 slug: "private-lending-sydney-business-guide"
 keywords: ["private lending Sydney", "caveat loans Sydney", "second mortgage Sydney", "bridging finance Sydney", "business loans Sydney", "property development finance", "Rose Bay", "Alexandria"]

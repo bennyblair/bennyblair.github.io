@@ -1,6 +1,6 @@
 ---
 title: "Understanding Loan-to-Value Ratios (LVRs) and Priority Deeds in Commercial Lending"
-date: "2025-09-20T06:00:00Z"
+date: "2024-02-14T06:00:00Z"
 description: "Guide explaining LVRs and priority deeds in Australian commercial lending: what they are, why they matter, risks, and practical examples."
 featuredImage: ""
 category: "Commercial Finance"

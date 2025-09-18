@@ -1,6 +1,6 @@
 ---
 title: "Bridging Loans in Australia: How They Work for Businesses"
-date: "2025-09-27T06:00:00Z"
+date: "2024-08-15T06:00:00Z"
 description: "Bridging loans explained for Australian businesses: what they are, how they work, benefits, risks, worked examples, and preparation checklists."
 featuredImage: "/images/bridging-loans-australia-business.jpg"
 category: "Commercial Finance"

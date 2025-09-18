@@ -1,6 +1,6 @@
 ---
 title: "Invoice Finance vs Property Loans: Which Funding Tool Fits Your Business?"
-date: "2025-09-19T06:00:00Z"
+date: "2024-05-18T06:00:00Z"
 description: "Guide comparing invoice finance and property loans for Australian businesses: how they work, when to use them, costs, risks, and use cases."
 featuredImage: ""
 category: "Commercial Finance"

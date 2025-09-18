@@ -1,6 +1,6 @@
 ---
 title: "Caveat Loans in Australia: Fast Finance for Urgent Business Needs"
-date: "2025-09-28T06:00:00Z"
+date: "2024-07-22T06:00:00Z"
 description: "Caveat loans explained for Australian businesses: how they work, advantages, risks, worked examples, FAQs, and preparation tips for urgent property-secured finance."
 featuredImage: "/api/placeholder/1200/630"
 category: "Commercial Finance"
