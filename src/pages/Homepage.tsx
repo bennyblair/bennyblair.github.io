@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
+import SEO from "@/components/SEO";
 import { 
   Building2, 
   TrendingUp, 
@@ -188,6 +189,13 @@ const Homepage = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SEO 
+        title="Commercial Lending Solutions | Fast Business Finance | Emet Capital"
+        description="Australia's leading commercial finance brokers. Fast approval on business loans $100K-$50M+. Expert property development finance."
+        canonical="/"
+        keywords="commercial lending, business loans, commercial finance, private lending, bridging finance, commercial property loans, business finance brokers, Sydney Australia"
+      />
+      
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
         {/* Sydney Skyline Background */}
@@ -206,14 +214,14 @@ const Homepage = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <div className="fade-in-up">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
-              Bespoke Commercial Lending,
+              Commercial Lending Solutions,
               <span className="gradient-text block mt-2 leading-normal">
                 Expertly Engineered
               </span>
             </h1>
             
             <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
-              Australia-wide, asset-backed solutions that scale with your ambition
+              Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -235,15 +243,62 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* What We Do */}
+      {/* Commercial Finance Expertise Overview */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16 fade-in-up">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+              Australia's Leading Commercial Finance Specialists
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              With over 15 years of expertise in Australian commercial lending, we've facilitated over $2 billion in business finance across all major markets. 
+              Our specialized team delivers fast settlements on complex deals that traditional banks won't touch, offering competitive rates 
+              for property development, business acquisition, working capital, bridging finance, and specialized commercial lending solutions.
+            </p>
+          </div>
+          
+          {/* Market Expertise Stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+            <div className="text-center fade-in-up">
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">$2B+</div>
+              <div className="text-sm text-muted-foreground">Commercial Loans Facilitated</div>
+            </div>
+            <div className="text-center fade-in-up">
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">48HR</div>
+              <div className="text-sm text-muted-foreground">Fast Approval Process</div>
+            </div>
+            <div className="text-center fade-in-up">
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">15+</div>
+              <div className="text-sm text-muted-foreground">Years Industry Experience</div>
+            </div>
+            <div className="text-center fade-in-up">
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">95%</div>
+              <div className="text-sm text-muted-foreground">Client Success Rate</div>
+            </div>
+          </div>
+
+          {/* Australian Market Focus */}
+          <div className="bg-card/50 backdrop-blur-sm rounded-3xl p-8 mb-16">
+            <h3 className="text-2xl font-bold mb-6 text-center">Nationwide Commercial Finance Coverage</h3>
+            <p className="text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto">
+              Operating across Sydney, Melbourne, Brisbane, Perth, Adelaide, and regional centers, we understand the unique challenges 
+              of Australian commercial property markets. From CBD high-rise developments to suburban commercial acquisitions, 
+              our local expertise ensures your finance solution is tailored to Australian regulations, market conditions, and business requirements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Core Commercial Finance Services */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 fade-in-up">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              What We <span className="gradient-text">Do</span>
+              Commercial Finance <span className="gradient-text">Solutions</span>
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Three core pillars of commercial finance excellence
+              Comprehensive business lending services designed for Australian commercial property investors, 
+              developers, and business owners who need fast, flexible financing solutions.
             </p>
           </div>
           
