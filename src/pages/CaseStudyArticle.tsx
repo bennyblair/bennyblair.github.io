@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { useEffect, useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -7,12 +8,13 @@ import { ArrowLeft, MapPin, DollarSign, Calendar, Building2, TrendingUp } from "
 import { Link } from "react-router-dom";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { getArticleBySlug } from "@/lib/content";
-import { marked } from "marked";
-import DOMPurify from "dompurify";
+import { convertMarkdownToHtml, stripFirstHeading } from "@/lib/markdown-converter";
+import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 
 const CaseStudyArticle = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = getArticleBySlug("case-studies", slug);
+  const articleRef = useRef<HTMLDivElement>(null);
 
   if (!article) {
     return (
@@ -33,7 +35,20 @@ const CaseStudyArticle = () => {
     );
   }
 
-  const htmlContent = DOMPurify.sanitize(marked(article.content) as string);
+  // Process the content - strip first heading if it matches the title
+  const processedContent = stripFirstHeading(article.content);
+  
+  // Initialize article enhancements after content loads
+  useEffect(() => {
+    if (article && articleRef.current) {
+      // Small delay to ensure DOM is fully rendered
+      setTimeout(() => {
+        if (articleRef.current) {
+          initializeArticleEnhancements(articleRef.current);
+        }
+      }, 100);
+    }
+  }, [article]);
 
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -64,8 +79,8 @@ const CaseStudyArticle = () => {
         {article.featuredImage && <meta name="twitter:image" content={article.featuredImage} />}
       </Helmet>
 
-      <div className="min-h-screen bg-background">
-        <div className="container mx-auto px-4 py-8">
+      <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
+        <div className="container mx-auto px-4 py-8 max-w-5xl">
           <Breadcrumbs items={breadcrumbItems} />
           
           <div className="mb-8">
@@ -75,119 +90,159 @@ const CaseStudyArticle = () => {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <article className="prose prose-lg max-w-none">
-                <div 
-                  dangerouslySetInnerHTML={{ __html: htmlContent }}
-                  className="text-foreground"
-                />
-              </article>
+          {/* Article Header */}
+          <header className="mb-12 text-center">
+            <div className="inline-flex items-center space-x-4 mb-6">
+              <span className="bg-gradient-to-r from-primary to-primary-light text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-sm">
+                {article.category || 'Case Study'}
+              </span>
             </div>
+            
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight max-w-4xl mx-auto">
+              {article.title}
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              {article.description}
+            </p>
+          </header>
+
+          <div className="grid lg:grid-cols-12 gap-8 mb-12">
+            {/* Main Content */}
+            <article className="lg:col-span-8">
+              <Card className="p-8 shadow-lg">
+                <div 
+                  ref={articleRef}
+                  className="article-content space-y-8"
+                  dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent) }}
+                />
+              </Card>
+            </article>
 
             {/* Sidebar */}
-            <div className="lg:col-span-1">
-              <div className="sticky top-8 space-y-6">
-                {/* Case Study Details */}
+            <aside className="lg:col-span-4 space-y-6 sticky top-8">
+              {/* Case Study Details */}
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center">
+                    <Building2 className="w-5 h-5 mr-2" />
+                    Case Study Details
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  {article.loanAmount && (
+                    <div className="flex items-center justify-between">
+                      <span className="flex items-center text-sm text-muted-foreground">
+                        <DollarSign className="w-4 h-4 mr-1" />
+                        Loan Amount
+                      </span>
+                      <Badge variant="secondary">{article.loanAmount}</Badge>
+                    </div>
+                  )}
+                  
+                  {article.loanType && (
+                    <div className="flex items-center justify-between">
+                      <span className="flex items-center text-sm text-muted-foreground">
+                        <TrendingUp className="w-4 h-4 mr-1" />
+                        Loan Type
+                      </span>
+                      <Badge variant="outline">{article.loanType}</Badge>
+                    </div>
+                  )}
+                  
+                  {article.location && (
+                    <div className="flex items-center justify-between">
+                      <span className="flex items-center text-sm text-muted-foreground">
+                        <MapPin className="w-4 h-4 mr-1" />
+                        Location
+                      </span>
+                      <Badge variant="secondary">{article.location}</Badge>
+                    </div>
+                  )}
+                  
+                  {article.duration && (
+                    <div className="flex items-center justify-between">
+                      <span className="flex items-center text-sm text-muted-foreground">
+                        <Calendar className="w-4 h-4 mr-1" />
+                        Duration
+                      </span>
+                      <Badge variant="outline">{article.duration}</Badge>
+                    </div>
+                  )}
+                  
+                  {article.industry && (
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-muted-foreground">Industry</span>
+                      <Badge>{article.industry}</Badge>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+
+              {/* Key Outcome */}
+              {article.outcome && (
+                <Card className="border-primary/20 bg-primary/5">
+                  <CardHeader>
+                    <CardTitle className="text-primary">Key Outcome</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-foreground">{article.outcome}</p>
+                  </CardContent>
+                </Card>
+              )}
+
+              {/* Challenge */}
+              {article.challenge && (
                 <Card>
                   <CardHeader>
-                    <CardTitle className="flex items-center">
-                      <Building2 className="w-5 h-5 mr-2" />
-                      Case Study Details
-                    </CardTitle>
+                    <CardTitle>Main Challenge</CardTitle>
                   </CardHeader>
-                  <CardContent className="space-y-4">
-                    {article.loanAmount && (
-                      <div className="flex items-center justify-between">
-                        <span className="flex items-center text-sm text-muted-foreground">
-                          <DollarSign className="w-4 h-4 mr-1" />
-                          Loan Amount
-                        </span>
-                        <Badge variant="secondary">{article.loanAmount}</Badge>
-                      </div>
-                    )}
-                    
-                    {article.loanType && (
-                      <div className="flex items-center justify-between">
-                        <span className="flex items-center text-sm text-muted-foreground">
-                          <TrendingUp className="w-4 h-4 mr-1" />
-                          Loan Type
-                        </span>
-                        <Badge variant="outline">{article.loanType}</Badge>
-                      </div>
-                    )}
-                    
-                    {article.location && (
-                      <div className="flex items-center justify-between">
-                        <span className="flex items-center text-sm text-muted-foreground">
-                          <MapPin className="w-4 h-4 mr-1" />
-                          Location
-                        </span>
-                        <Badge variant="secondary">{article.location}</Badge>
-                      </div>
-                    )}
-                    
-                    {article.duration && (
-                      <div className="flex items-center justify-between">
-                        <span className="flex items-center text-sm text-muted-foreground">
-                          <Calendar className="w-4 h-4 mr-1" />
-                          Duration
-                        </span>
-                        <Badge variant="outline">{article.duration}</Badge>
-                      </div>
-                    )}
-                    
-                    {article.industry && (
-                      <div className="flex items-center justify-between">
-                        <span className="text-sm text-muted-foreground">Industry</span>
-                        <Badge>{article.industry}</Badge>
-                      </div>
-                    )}
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">{article.challenge}</p>
                   </CardContent>
                 </Card>
+              )}
 
-                {/* Key Outcome */}
-                {article.outcome && (
-                  <Card className="border-primary/20 bg-primary/5">
-                    <CardHeader>
-                      <CardTitle className="text-primary">Key Outcome</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-foreground">{article.outcome}</p>
-                    </CardContent>
-                  </Card>
-                )}
-
-                {/* Challenge */}
-                {article.challenge && (
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Main Challenge</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">{article.challenge}</p>
-                    </CardContent>
-                  </Card>
-                )}
-
-                {/* Call to Action */}
-                <Card className="bg-gradient-to-r from-primary/10 to-primary/5 border-primary/20">
-                  <CardContent className="p-6 text-center">
-                    <h3 className="font-semibold text-foreground mb-2">
-                      Need Similar Financing?
-                    </h3>
-                    <p className="text-sm text-muted-foreground mb-4">
-                      Let us help you achieve your property finance goals
-                    </p>
-                    <Button asChild className="w-full">
-                      <Link to="/contact">Get Started Today</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
+              {/* Call to Action */}
+              <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
+                <h3 className="text-lg font-bold text-foreground mb-3">
+                  Need Similar Financing?
+                </h3>
+                <p className="text-sm text-muted-foreground mb-4">
+                  Let us help you achieve your property finance goals with expert guidance.
+                </p>
+                <Button 
+                  asChild 
+                  className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent"
+                >
+                  <Link to="/contact">Get Free Consultation</Link>
+                </Button>
+              </Card>
+            </aside>
           </div>
+
+          {/* Bottom CTA Section */}
+          <Card className="mb-12 bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20 shadow-lg">
+            <CardContent className="p-10 text-center">
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                Ready to Discuss Your Financing Needs?
+              </h2>
+              <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+                Our experienced team can help you secure the right financing solution for your next property venture.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button asChild size="lg" className="min-w-[200px]">
+                  <Link to="/contact">
+                    Get Expert Advice
+                    <ArrowLeft className="w-4 h-4 ml-2 rotate-180" />
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="min-w-[200px]">
+                  <Link to="/resources/case-studies">View More Case Studies</Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </>
