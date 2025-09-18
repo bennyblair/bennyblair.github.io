@@ -33,13 +33,31 @@ const Tools = () => {
 
   const results = calculatePayments();
 
-  const upcomingTools = [
+  const availableCalculators = [
     {
-      title: "Cash Flow Projection Calculator",
-      description: "Project future cash flows with loan payments factored in",
-      features: ["Monthly projections", "Scenario planning", "Break-even analysis"],
-      status: "Coming Soon"
+      title: "Commercial Property Loan Calculator",
+      description: "Calculate loan payments for commercial property purchases",
+      features: ["Purchase price analysis", "Deposit calculations", "Monthly payment estimates"],
+      url: "/tools/commercial-property-loan-calculator",
+      status: "Available"
     },
+    {
+      title: "Second Mortgage Calculator",
+      description: "Determine rates and payments for business second mortgages",
+      features: ["Rate comparison", "Equity assessment", "Cost analysis"],
+      url: "/tools/second-mortgage-calculator", 
+      status: "Available"
+    },
+    {
+      title: "Commercial Real Estate Loans Calculator",
+      description: "Plan your commercial real estate investment financing",
+      features: ["Investment analysis", "Cash flow projections", "ROI calculations"],
+      url: "/tools/commercial-real-estate-calculator",
+      status: "Available"
+    }
+  ];
+
+  const upcomingTools = [
     {
       title: "Asset Finance ROI Calculator",
       description: "Calculate return on investment for equipment purchases",
@@ -47,13 +65,7 @@ const Tools = () => {
       status: "Coming Soon"
     },
     {
-      title: "Development Finance Feasibility Tool",
-      description: "Assess project viability and financing requirements",
-      features: ["Cost estimation", "Profit projections", "Risk assessment"],
-      status: "Coming Soon"
-    },
-    {
-      title: "Working Capital Requirements Calculator",
+      title: "Working Capital Requirements Calculator", 
       description: "Determine optimal working capital for your business",
       features: ["Industry benchmarks", "Seasonal adjustments", "Growth planning"],
       status: "Coming Soon"
@@ -62,12 +74,6 @@ const Tools = () => {
       title: "Loan Comparison Tool",
       description: "Compare multiple loan offers side by side",
       features: ["Rate comparison", "Cost analysis", "Term optimization"],
-      status: "Coming Soon"
-    },
-    {
-      title: "Risk Assessment Calculator",
-      description: "Evaluate lending risk factors for your application",
-      features: ["Credit scoring", "Industry analysis", "Improvement tips"],
       status: "Coming Soon"
     }
   ];
@@ -199,6 +205,54 @@ const Tools = () => {
             </div>
           </CardContent>
         </Card>
+
+        {/* Available Calculators */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+            Available Calculators
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {availableCalculators.map((tool, index) => (
+              <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-primary/20">
+                <CardContent className="p-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <Calculator className="w-8 h-8 text-primary" />
+                    <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
+                      {tool.status}
+                    </span>
+                  </div>
+                  
+                  <h3 className="text-lg font-semibold text-foreground mb-3">
+                    {tool.title}
+                  </h3>
+                  
+                  <p className="text-muted-foreground mb-4 text-sm">
+                    {tool.description}
+                  </p>
+                  
+                  <ul className="space-y-2 mb-4">
+                    {tool.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-center text-sm text-muted-foreground">
+                        <CheckCircle className="w-4 h-4 text-primary mr-2 flex-shrink-0" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                  
+                  <Button 
+                    asChild
+                    className="w-full bg-primary hover:bg-primary/90"
+                  >
+                    <Link to={tool.url}>
+                      Use Calculator
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Link>
+                  </Button>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
 
         {/* Upcoming Tools */}
         <section>

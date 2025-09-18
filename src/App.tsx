@@ -36,6 +36,9 @@ import AssetFinance from "./pages/services/AssetFinance";
 import BuildingMaintenanceLoans from "./pages/services/BuildingMaintenanceLoans";
 import CapitalWorksFinance from "./pages/services/CapitalWorksFinance";
 import StrataFinance from "./pages/services/StrataFinance";
+import CommercialPropertyLoanCalculator from "./pages/tools/CommercialPropertyLoanCalculator";
+import SecondMortgageCalculator from "./pages/tools/SecondMortgageCalculator";
+import CommercialRealEstateCalculator from "./pages/tools/CommercialRealEstateCalculator";
 
 const queryClient = new QueryClient();
 
@@ -85,6 +88,9 @@ const App = () => (
               <Route path="/services/building-maintenance-loans" element={<BuildingMaintenanceLoans />} />
               <Route path="/services/capital-works-finance" element={<CapitalWorksFinance />} />
               <Route path="/services/strata-finance" element={<StrataFinance />} />
+              <Route path="/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
+              <Route path="/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
+              <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Layout>
