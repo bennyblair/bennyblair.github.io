@@ -39,6 +39,7 @@ const Guides = () => {
     "Property Finance",
     "Working Capital",
     "Trade Finance",
+    "Location Guides",
     "Getting Started"
   ];
 
