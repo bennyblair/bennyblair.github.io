@@ -107,15 +107,16 @@ The market divides into five main lender categories: non-bank commercial special
 
 ## Lender Comparison Matrix
 
-| Lender Type | Speed Rank | Pricing Rank | Risk Appetite | Min Deal Size | Max LVR |
-|-------------|------------|--------------|---------------|---------------|---------|
-| Private HNW | ⭐⭐⭐⭐⭐ | 💰💰💰💰💰 | High | $250k | 75% |
-| Non-Bank Commercial | ⭐⭐⭐⭐ | 💰💰💰 | Moderate | $100k | 70% |
-| Specialist Bridging | ⭐⭐⭐ | 💰💰 | Moderate-High | $500k | 65% |
-| Second-Tier Banks | ⭐⭐ | 💰 | Conservative | $300k | 65% |
-| Family Office | ⭐ | 💰💰 | Variable | $1M | 60% |
+| Lender Type | Speed | Cost | Risk | Min Size | Max LVR |
+|-------------|-------|------|------|----------|---------|
+| Private HNW | ⭐⭐⭐⭐⭐ | High | High | $250k | 75% |
+| Non-Bank | ⭐⭐⭐⭐ | Med | Med | $100k | 70% |
+| Bridging | ⭐⭐⭐ | Low | Med+ | $500k | 65% |
+| 2nd Tier Banks | ⭐⭐ | Low | Low | $300k | 65% |
+| Family Office | ⭐ | Med | Varies | $1M | 60% |
 
-*⭐ = Speed (more stars = faster), 💰 = Cost (more symbols = higher cost)*
+*Speed: ⭐⭐⭐⭐⭐ = Fastest (5-10 days), ⭐ = Slowest (21-35 days)*  
+*Cost: High = 1.5-2.5% monthly, Med = 1.0-1.8% monthly, Low = 0.8-1.4% monthly*
 
 ## State-by-State Lender Preferences
 
