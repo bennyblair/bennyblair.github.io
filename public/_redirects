@@ -1,6 +1,7 @@
 # Redirects for old URLs
 /about-us    /about    301
 /resources/guides/2nd-mortgage-loan    /resources/guides/second-mortgage-for-business-australia    301
+/resources/guides/2nd-mortgage-lenders    /resources/guides/second-mortgage-for-business-australia    301
 
 # Static assets should be served directly
 /assets/*  /assets/:splat  200
