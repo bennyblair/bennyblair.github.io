@@ -1,7 +1,17 @@
 ---
-title: "<h2>construction bridge loans: quick overview</h2><p>If you're weighing up construction bridge loans for your business, this guide breaks down how it works in Australia, when it's useful, what it costs, and how we structure it with lenders.</p><p><strong>What is construction bridge loans?</strong> It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.</p><p><strong>For a comprehensive overview of all bridging finance options in Australia,</strong> see our detailed <a href="/resources/guides/bridging-loans-australia">bridging loans guide</a> covering eligibility, costs, risks, and worked examples across all industries.</p>ommercial Bridging Finance: Construction Bridge Loans — Costs, Timing, Uses"
+title:# Commercial Bridging Finance: Construction Bridge Loans — Costs, Timing, Uses
+
+*Tell us your scenario—we'll map lenders and likely structures.*
+
+## Construction Bridge Loans: Quick Overview
+
+If you're weighing up construction bridge loans for your business, this guide breaks down how they work in Australia, when they're useful, what they cost, and how we structure them with lenders.
+
+**What are construction bridge loans?** They're a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.
+
+**For a comprehensive overview of all bridging finance options in Australia,** see our detailed [bridging loans guide](/resources/guides/bridging-loans-australia) covering eligibility, costs, risks, and worked examples across all industries.ommercial Bridging Finance: Construction Bridge Loans — Costs, Timing, Uses"
 date: 2025-09-22T06:00:00Z
-description: "Australian commercial guide on construction bridge loans: when to use it, eligibility, pricing and how we arrange it with lenders."
+description: "Australian commercial guide on construction bridge loans: when to use them, eligibility, pricing and how we arrange them with lenders."
 featuredImage: "/images/uploads/construction-bridge-loans.jpg"
 category: "Bridging Finance"
 tags: ["construction bridge loans", "commercial lending", "business finance"]
