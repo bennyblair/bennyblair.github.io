@@ -1,5 +1,13 @@
 ---
-title: "Commercial Bridging Finance: Short Term Property Funding — Costs, Timing, Uses"
+title:# Commercial Bridging Finance: Short Term Property Funding — Costs, Timing, Uses
+
+*Speak with a broker about your options (no consumer credit).*
+
+## Short Term Property Funding: Quick Overview
+
+Thinking about short term property funding? Below we cover the practical bits—use cases, eligibility, typical pricing, timelines—and the way we arrange it with credit teams.
+
+**What is short term property funding?** It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.ommercial Bridging Finance: Short Term Property Funding — Costs, Timing, Uses"
 date: 2025-09-23T06:00:00Z
 description: "Australian commercial guide on short term property funding: when to use it, eligibility, pricing and how we arrange it with lenders."
 featuredImage: "/images/uploads/short-term-property-funding.jpg"
