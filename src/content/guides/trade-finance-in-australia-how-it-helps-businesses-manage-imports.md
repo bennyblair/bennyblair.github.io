@@ -137,7 +137,7 @@ Trade finance is a flexible tool that helps Australian businesses bridge the gap
 ### Related Guides
 
 - [Invoice Finance in Australia: How Businesses Use It for Cashflow](/resources/guides/invoice-finance-australia-how-businesses-use-it)
-- [Caveat Loans in Australia: Fast Finance for Urgent Business Needs](/resources/guides/caveat-loans-australia-guide)
+- [Caveat Loans in Australia: Fast Finance for Urgent Business Needs](/resources/guides/caveat-loans-australia)
 - [Bridging Loans in Australia: How They Work for Businesses](/resources/guides/bridging-loans-australia)
 
 ---

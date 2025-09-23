@@ -48,6 +48,74 @@ Caveat loans are most suitable when:
 - **Exit is clear and dated**: Sale contract, refinance, or signed receivable
 - **Equity exists but time is short**: The property has value, but there's no time to register a full mortgage
 
+## Industry-Specific Applications
+
+Different industries leverage caveat loans to address unique cash flow challenges and opportunities.
+
+### Construction Industry Applications
+
+Construction companies face unique funding challenges during project execution, making caveat loans particularly valuable for this sector.
+
+**Progress Payment Bridging**
+When project milestones create cash flow gaps between work completion and client payments, construction companies use caveat loans to maintain operations.
+
+*Example: Commercial Fitout Contractor*
+- **Situation**: $180k progress payment delayed 6 weeks due to client approval processes
+- **Solution**: 60-day caveat loan against director's investment property
+- **Outcome**: Payroll and suppliers maintained, project completed on schedule
+
+**Equipment Purchase Opportunities**
+Construction businesses often encounter time-sensitive equipment deals requiring immediate funding.
+
+*Example: Excavation Specialist*
+- **Opportunity**: $250k excavator available at 30% below market value
+- **Timeline**: 5 days to secure purchase
+- **Solution**: Caveat loan settled in 72 hours, equipment refinanced long-term after acquisition
+
+### Wholesale Business Applications
+
+Wholesale businesses experience significant seasonal variations and inventory requirements that traditional banking often cannot accommodate quickly enough.
+
+**Peak Season Inventory Stocking**
+Seasonal businesses require rapid inventory financing ahead of peak trading periods.
+
+*Example: Fashion Wholesaler*
+- **Challenge**: Pre-Christmas inventory purchase worth $320k
+- **Bank timeline**: 8 weeks for facility increase
+- **Solution**: 45-day caveat loan against warehouse property
+- **Result**: Inventory secured, orders fulfilled, loan repaid from seasonal sales
+
+**Supplier Payment Acceleration**
+Early payment discounts from suppliers can significantly improve margins when funded strategically.
+
+*Example: Electronics Distributor*
+- **Opportunity**: 4% discount for payment within 7 days vs 60-day terms
+- **Purchase value**: $150k
+- **Saving**: $6k (significantly exceeding caveat loan costs)
+- **Execution**: 48-hour caveat loan settlement preserved discount opportunity
+
+### Property Development Applications
+
+Property developers regularly encounter timing mismatches between opportunities, settlements, and funding availability.
+
+**Land Acquisition Bridging**
+Development sites often require rapid settlement to secure strategic locations.
+
+*Example: Residential Developer*
+- **Opportunity**: Prime development site, 14-day settlement required
+- **Construction loan**: Approved but 6-week settlement timeline
+- **Solution**: $800k caveat loan against existing development
+- **Strategy**: Site secured, full development funding replaced caveat facility
+
+**Pre-Sales Settlement Management**
+Off-the-plan sales create complex settlement timing challenges.
+
+*Example: Apartment Developer*
+- **Challenge**: Purchaser settlement delay affecting project cash flow
+- **Amount required**: $220k for 30 days
+- **Security**: Caveat over completed apartment stock
+- **Result**: Project completion maintained, settlement delays managed
+
 ## Advantages of Caveat Loans
 
 - **Speed**: Fastest settlement of all property-backed facilities
@@ -116,6 +184,18 @@ Usually 1–6 months, occasionally longer.
 
 **Can interest be capitalised?**
 Yes. Most lenders add interest to the balance.
+
+**Which industries benefit most from caveat loans?**
+Construction, wholesale, and property development sectors frequently use caveat loans due to their project-based cash flows and timing-sensitive opportunities.
+
+**What security can construction companies use?**
+Workshops, commercial premises, investment properties, or development sites, typically at 50-60% LVR.
+
+**How do wholesale businesses structure seasonal caveat loans?**
+Interest capitalisation during inventory build-up with repayment aligned to seasonal sales cycles, often 45-90 day terms.
+
+**Can property developers use multiple caveats across projects?**
+Yes, each project can support separate facilities, though lenders assess overall exposure and cross-default risks.
 
 **Is this consumer credit?**
 No. These loans are business-purpose only.
