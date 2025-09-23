@@ -68,6 +68,28 @@ A construction business needs $500,000 for six months to complete a fit-out. The
 
 If the works allow the business to trigger $250,000 per year in rental income, the facility may be commercially justified.
 
+## Regional Case Studies
+
+### Melbourne CBD Commercial Investor
+
+**Scenario:** Commercial investor needed $1.2m to complete refurbishment of a CBD office floor.
+
+**Security:** Office building valued at $8m, with $5m first mortgage.
+
+**Loan:** $1.2m second mortgage at 72% combined LVR.
+
+**Outcome:** Renovation completed, property revalued at $10m, refinanced with bank, loan repaid.
+
+### Melbourne Manufacturing Business
+
+**Scenario:** Dandenong manufacturer faced $600k ATO debt that risked supplier contracts.
+
+**Security:** Industrial site valued at $4.5m with $2.5m first mortgage.
+
+**Loan:** $700k second mortgage, 65% combined LVR.
+
+**Outcome:** Loan settled in 9 days, debt cleared, refinance completed within 5 months.
+
 ## Process and Timelines
 
 Settlement speed depends on the quality of the borrower's file. A "clean file" includes:

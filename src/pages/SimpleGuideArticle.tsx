@@ -509,7 +509,7 @@ const SimpleGuideArticle = () => {
         'low-doc-business-finance',
         'no-doc-short-term-mortgages',
         '10000-small-business-grant-nsw',
-        '2nd-mortgage-australia',
+
         '2nd-mortgage-lenders',
         '2nd-mortgage-loan',
         '2nd-mortgages-with-bad-credit',
