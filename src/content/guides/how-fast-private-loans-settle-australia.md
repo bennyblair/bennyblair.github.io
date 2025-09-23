@@ -112,7 +112,7 @@ No. They are strictly for business-purpose funding.
 
 - [Bridging Loans in Australia](/resources/guides/bridging-loans-australia)
 - [Second Mortgage for Business in Australia](/resources/guides/second-mortgage-for-business-australia)
-- [Caveat Loans vs Second Mortgages](/resources/guides/caveat-loans-vs-second-mortgages)
+- [Second Mortgage vs Caveat Loan](/resources/guides/second-mortgage-vs-caveat-loan)
 
 ---
 

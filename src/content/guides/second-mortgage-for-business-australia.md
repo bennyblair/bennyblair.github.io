@@ -155,7 +155,7 @@ No. These facilities are for business purposes only and not for owner-occupied o
 
 ## Related Guides
 
-- [Caveat Loans vs Second Mortgages](/resources/guides/caveat-loans-vs-second-mortgages)
+- [Second Mortgage vs Caveat Loan](/resources/guides/second-mortgage-vs-caveat-loan)
 - [Bridging Loans in Australia](/resources/guides/bridging-loans-australia)
 - [Understanding LVRs and Priority Deeds](/resources/guides/understanding-lvrs-priority-deeds)
 

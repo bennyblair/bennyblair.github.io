@@ -109,7 +109,7 @@ No. They apply to business-purpose, property-secured loans only.
 ## Related Guides
 
 - [Second Mortgage for Business in Australia](/resources/guides/second-mortgage-for-business-australia)
-- [Caveat Loans vs Second Mortgages](/resources/guides/caveat-loans-vs-second-mortgages)
+- [Second Mortgage vs Caveat Loan](/resources/guides/second-mortgage-vs-caveat-loan)
 - [Bridging Loans in Australia](/resources/guides/bridging-loans-australia)
 
 ---
