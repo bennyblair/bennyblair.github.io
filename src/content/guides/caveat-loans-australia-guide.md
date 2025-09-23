@@ -228,7 +228,7 @@ Each sector benefits from the speed and flexibility that caveat loans provide, b
 
 - [Second Mortgage for Business in Australia](/resources/guides/second-mortgage-for-business-australia)
 - [Commercial Bridge Loan Costs and Timing](/resources/guides/commercial-bridge-loan)
-- [Bridging Loans for Business Cash Flow](/resources/guides/bridging-loans-business-cashflow-gaps)
+- [Bridging Loans in Australia](/resources/guides/bridging-loans-australia)
 
 *This information is general in nature and for Australian business borrowers only. Emet Capital arranges commercial finance and does not provide consumer credit.*
 

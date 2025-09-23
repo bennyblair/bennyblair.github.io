@@ -136,7 +136,7 @@ The lender may enforce rights under the caveat, potentially forcing sale.
 ## Related Guides
 
 - [Second Mortgage for Business in Australia](/resources/guides/second-mortgage-for-business-australia)
-- [Bridging Loans Australia Business Guide](/resources/guides/bridging-loans-australia-business-guide)
+- [Bridging Loans in Australia](/resources/guides/bridging-loans-australia)
 - [Loan-to-Value Ratios in Private Lending](/resources/guides/loan-to-value-ratios-private-lending)
 
 ## Important Notice

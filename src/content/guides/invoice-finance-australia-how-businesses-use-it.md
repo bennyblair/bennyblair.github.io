@@ -190,5 +190,5 @@ At Emet Capital, we arrange invoice finance and alternative solutions such as ca
 ## Related Guides
 
 - [Caveat Loans in Australia: Fast Finance for Urgent Business Needs](/resources/guides/caveat-loans-australia)
-- [Bridging Loans in Australia: How They Work for Businesses](/resources/guides/bridging-loans-australia-business-guide)
+- [Bridging Loans in Australia: How They Work for Businesses](/resources/guides/bridging-loans-australia)
 - [Invoice Finance vs Property Loans: Which Funding Tool Fits Your Business?](/resources/guides/invoice-finance-vs-property-loans)

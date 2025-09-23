@@ -150,7 +150,7 @@ Lower. Private lenders stay conservative due to higher risks.
 ## Related Guides
 
 - [Capitalised Interest Explained](/resources/guides/capitalised-interest-explained)
-- [Bridging Loans in Australia](/resources/guides/bridging-loans-australia-business-guide)
+- [Bridging Loans in Australia](/resources/guides/bridging-loans-australia)
 - [Second Mortgage for Business in Australia](/resources/guides/second-mortgage-for-business-australia)
 
 ## Important Notice

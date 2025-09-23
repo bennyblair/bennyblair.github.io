@@ -13,8 +13,6 @@ readingTime: 11
 
 Short term property bridging loans in Australia provide critical funding solutions for businesses facing time-sensitive property settlements, acquisition deadlines, and property-related cashflow gaps. This comprehensive guide focuses on property settlement scenarios, risk management strategies, and real-world case studies to help Australian businesses navigate their short-term property financing needs effectively.
 
-**Looking for broader bridging finance information?** Our comprehensive [bridging loans guide for Australian businesses](/resources/guides/bridging-loans-australia) covers all types of bridging finance, including costs, eligibility requirements, and detailed risk analysis.
-
 ## What is a Short Term Property Bridging Loan Australia?
 
 A short term property bridging loan Australia is specialised commercial finance designed to bridge temporary funding gaps in property transactions. Unlike general business bridging loans, these facilities specifically target property settlement scenarios where traditional bank financing cannot meet tight deadlines or complex settlement requirements.
@@ -291,7 +289,7 @@ The key to successful short term property bridging loan arrangements lies in ear
 
 ## Related Guides
 
-- [Bridging Loans in Australia: Complete Guide for Businesses](/resources/guides/bridging-loans-australia) - Comprehensive overview of all bridging finance options
+- [Bridging Loans in Australia: How They Work for Businesses](/resources/guides/bridging-loans-australia)
 - [Commercial Property Development Finance](/resources/services/commercial-property-development)
 - [Second Mortgage for Business in Australia](/resources/guides/second-mortgage-for-business-australia)
 
