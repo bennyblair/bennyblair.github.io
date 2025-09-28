@@ -277,31 +277,31 @@ The exit strategy involves either permanent financing retention as an investment
 
 ## Frequently Asked Questions
 
-### What's the typical loan-to-cost ratio for commercial development finance?
+**What's the typical loan-to-cost ratio for commercial development finance?**
 
 Commercial development finance typically provides 70-80% of total development costs, requiring developers to contribute 20-30% equity. Ratios vary based on development type, developer experience, pre-commitment levels, and lender policies. Office developments with strong pre-leasing may achieve higher ratios, while retail or specialised developments might face more conservative limits.
 
-### How do progressive drawdowns work in development finance?
+**How do progressive drawdowns work in development finance?**
 
 Progressive drawdowns release funding based on construction milestones such as foundation completion, frame completion, and practical completion. Quantity surveyors or building consultants verify progress before each drawdown, ensuring funds align with actual construction advancement. This protects lenders while providing developers with working capital as projects progress.
 
-### What pre-commitment levels do lenders typically require?
+**What pre-commitment levels do lenders typically require?**
 
 Pre-commitment requirements vary by development type and lender, typically ranging from 50-70% of total development value. Office developments often require higher pre-commitment levels due to tenant-specific fitouts, while industrial developments may proceed with lower levels due to standardised specifications and broader tenant appeal.
 
-### Can interest be capitalised during the construction period?
+**Can interest be capitalised during the construction period?**
 
 Yes, most development finance facilities allow interest capitalisation, adding interest charges to the loan balance rather than requiring monthly payments. This suits development cash flows as projects generate limited income during construction. However, capitalised interest increases total borrowing costs and reduces available facility headroom for contingencies.
 
-### What happens if construction costs exceed the original budget?
+**What happens if construction costs exceed the original budget?**
 
 Cost overruns require additional funding through increased equity contributions, contingency facilities, or facility limit increases. Lenders may provide additional funding if justified by scope changes or market conditions, but typically require enhanced security or higher equity ratios. Comprehensive cost estimation and fixed-price contracts help minimise overrun risks.
 
-### How long do development finance facilities typically run?
+**How long do development finance facilities typically run?**
 
 Development finance terms typically range from 12-36 months depending on project complexity and construction timelines. Most facilities include extension options for completion delays or marketing periods, though extensions may incur additional fees or rate adjustments. Developers usually aim to exit development finance quickly due to higher costs compared to permanent loans.
 
-### What documentation is required for development finance approval?
+**What documentation is required for development finance approval?**
 
 Documentation requirements include detailed development budgets, construction contracts, planning approvals, pre-commitment agreements, financial statements, cash flow projections, and professional feasibility studies. Lenders also require comprehensive due diligence on contractors, quantity surveyor reports, and appropriate insurance arrangements before funding commitment.
 
