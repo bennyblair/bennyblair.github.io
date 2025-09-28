@@ -1,104 +1,13 @@
 ---
 title: "Commercial Property Development Finance: A Complete Guide"
+date: "2025-09-28T06:00:00Z"
 description: "Comprehensive guide to commercial property development finance in Australia, covering funding stages, costs, lenders, and requirements for business developers."
-date: "2025-09-28"
-slug: "commercial-property-development-finance"
+featuredImage: "/images/uploads/commercial-property-development-finance.jpg"
+category: "Property Finance"
 tags: ["commercial property development finance", "development funding", "construction loans", "property development", "commercial finance", "development lending"]
 author: "Emet Capital"
-featured: false
-draft: false
-seoTitle: "Commercial Property Development Finance: A Complete Guide | Emet Capital"
-seoDescription: "Comprehensive guide to commercial property development finance in Australia, covering funding stages, costs, lenders, and requirements for business developers."
-canonical: "https://emetcapital.com.au/resources/guides/commercial-property-development-finance"
-jsonld: |
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "headline": "Commercial Property Development Finance: A Complete Guide",
-        "description": "Comprehensive guide to commercial property development finance in Australia, covering funding stages, costs, lenders, and requirements for business developers.",
-        "author": {
-          "@type": "Organization",
-          "name": "Emet Capital"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Emet Capital"
-        },
-        "datePublished": "2025-09-28",
-        "dateModified": "2025-09-28",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://emetcapital.com.au/resources/guides/commercial-property-development-finance"
-        },
-        "articleSection": "Property Finance",
-        "keywords": ["commercial property development finance", "development funding", "construction loans", "property development", "commercial finance", "development lending"],
-        "wordCount": 1923
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What's the typical loan-to-cost ratio for commercial development finance?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Commercial development finance typically provides 70-80% of total development costs, requiring developers to contribute 20-30% equity. Ratios vary based on development type, developer experience, pre-commitment levels, and lender policies. Office developments with strong pre-leasing may achieve higher ratios, while retail or specialised developments might face more conservative limits."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do progressive drawdowns work in development finance?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Progressive drawdowns release funding based on construction milestones such as foundation completion, frame completion, and practical completion. Quantity surveyors or building consultants verify progress before each drawdown, ensuring funds align with actual construction advancement. This protects lenders while providing developers with working capital as projects progress."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What pre-commitment levels do lenders typically require?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Pre-commitment requirements vary by development type and lender, typically ranging from 50-70% of total development value. Office developments often require higher pre-commitment levels due to tenant-specific fitouts, while industrial developments may proceed with lower levels due to standardised specifications and broader tenant appeal."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can interest be capitalised during the construction period?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, most development finance facilities allow interest capitalisation, adding interest charges to the loan balance rather than requiring monthly payments. This suits development cash flows as projects generate limited income during construction. However, capitalised interest increases total borrowing costs and reduces available facility headroom for contingencies."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What happens if construction costs exceed the original budget?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Cost overruns require additional funding through increased equity contributions, contingency facilities, or facility limit increases. Lenders may provide additional funding if justified by scope changes or market conditions, but typically require enhanced security or higher equity ratios. Comprehensive cost estimation and fixed-price contracts help minimise overrun risks."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How long do development finance facilities typically run?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Development finance terms typically range from 12-36 months depending on project complexity and construction timelines. Most facilities include extension options for completion delays or marketing periods, though extensions may incur additional fees or rate adjustments. Developers usually aim to exit development finance quickly due to higher costs compared to permanent loans."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What documentation is required for development finance approval?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Documentation requirements include detailed development budgets, construction contracts, planning approvals, pre-commitment agreements, financial statements, cash flow projections, and professional feasibility studies. Lenders also require comprehensive due diligence on contractors, quantity surveyor reports, and appropriate insurance arrangements before funding commitment."
-            }
-          }
-        ]
-      }
-    ]
-  }
+readingTime: 10
+slug: "commercial-property-development-finance"
 ---
 
 # Commercial Property Development Finance: A Complete Guide
