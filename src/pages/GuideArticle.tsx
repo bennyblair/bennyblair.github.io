@@ -7,6 +7,7 @@ import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-rea
 import { getArticleBySlug, getContentFiles, isArticleComingSoon, debugModules, type Article } from "@/lib/content";
 import { convertMarkdownToHtml, extractTableOfContents, extractFAQs, stripFirstHeading, type TableOfContentsItem, type FAQItem } from "@/lib/markdown-converter";
 import FAQSection from "@/components/FAQSection";
+import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 
 const GuideArticle = () => {
@@ -278,8 +279,23 @@ const GuideArticle = () => {
   // Process the content - strip first heading if it matches the title
   const processedContent = stripFirstHeading(article.content);
 
+  // Generate SEO-optimized title and description
+  const seoTitle = `${article.title} | Emet Capital`;
+  const seoDescription = article.description;
+  const seoKeywords = article.tags?.join(', ') || 'commercial finance, business lending, Australia';
+  const canonicalUrl = `/resources/${contentType}/${slug}`;
+  const seoImage = article.featuredImage || `/images/uploads/${slug}.jpg`;
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
+      <SEO 
+        title={seoTitle}
+        description={seoDescription}
+        keywords={seoKeywords}
+        canonical={canonicalUrl}
+        type="article"
+        image={seoImage}
+      />
       <div className="container mx-auto px-4 py-8 max-w-5xl">
         <Breadcrumbs items={getBreadcrumbs()} />
 
