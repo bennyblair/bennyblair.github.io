@@ -390,7 +390,7 @@ const FirstSecondMortgages = () => {
                     <p className="text-sm text-muted-foreground">Super fund property investments</p>
                   </Link>
                   <Link to="/contact" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Get Expert Advice</h3>
+                    <h3 className="font-semibold mb-2">Learn About Your Options</h3>
                     <p className="text-sm text-muted-foreground">Discuss your requirements</p>
                   </Link>
                 </div>

@@ -198,7 +198,7 @@ const GuideArticle = () => {
             <div className="space-y-4">
               <Button asChild size="lg">
                 <Link to="/contact">
-                  Get Expert Advice Now
+                  Learn About Your Options
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
               </Button>
@@ -433,16 +433,16 @@ const GuideArticle = () => {
             {/* CTA Card */}
             <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
               <h3 className="text-lg font-bold text-foreground mb-3">
-                Need Expert Advice?
+                Want to Understand Your Options?
               </h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Our lending specialists can help you navigate your financing options.
+                We share general information on financing solutions and guide you through the next steps.
               </p>
               <Button 
                 asChild 
                 className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent"
               >
-                <Link to="/contact">Get Free Consultation</Link>
+                <Link to="/contact">Reach Out to Us Today</Link>
               </Button>
             </Card>
           </aside>
@@ -455,7 +455,7 @@ const GuideArticle = () => {
               Ready to Discuss Your Financing Needs?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Our commercial lending specialists can assess your specific situation and connect you with the right financing solution. Get expert advice today.
+              Contact us today to discuss your situation. We share general information and guidance on financing solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 

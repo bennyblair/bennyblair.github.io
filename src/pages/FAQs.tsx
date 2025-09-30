@@ -228,14 +228,14 @@ const FAQs = () => {
               Didn't Find Your Answer?
             </h2>
             <p className="text-primary-foreground/90 mb-6">
-              Our commercial lending specialists are ready to discuss your specific questions and circumstances.
+              Our commercial lending specialists are ready to provide information about your specific questions and circumstances.
             </p>
             <Button 
               asChild 
               size="lg"
               className="bg-accent hover:bg-accent-dark text-accent-foreground"
             >
-              <a href="/contact">Ask Our Experts</a>
+              <a href="/contact">Contact Us</a>
             </Button>
           </div>
         </section>

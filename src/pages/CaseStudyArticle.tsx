@@ -206,16 +206,16 @@ const CaseStudyArticle = () => {
               {/* Call to Action */}
               <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
                 <h3 className="text-lg font-bold text-foreground mb-3">
-                  Need Similar Financing?
+                  Want to Understand Your Options?
                 </h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Let us help you achieve your property finance goals with expert guidance.
+                  We share general information on financing solutions and guide you through the next steps.
                 </p>
                 <Button 
                   asChild 
                   className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent"
                 >
-                  <Link to="/contact">Get Free Consultation</Link>
+                  <Link to="/contact">Reach Out to Us Today</Link>
                 </Button>
               </Card>
             </aside>
@@ -228,12 +228,12 @@ const CaseStudyArticle = () => {
                 Ready to Discuss Your Financing Needs?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-                Our experienced team can help you secure the right financing solution for your next property venture.
+                We can provide information and guidance on potential financing solutions for your next property venture.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" className="min-w-[200px]">
                   <Link to="/contact">
-                    Get Expert Advice
+                    Reach Out to Us Today
                     <ArrowLeft className="w-4 h-4 ml-2 rotate-180" />
                   </Link>
                 </Button>

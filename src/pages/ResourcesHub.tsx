@@ -217,7 +217,7 @@ const ResourcesHub = () => {
               Need Bespoke Lending Solutions?
             </h2>
             <p className="text-xl text-primary-foreground/90 mb-8">
-              Our resources provide valuable insights, but every business is unique. Connect with our commercial lending specialists to explore tailored financing options.
+              Our resources provide valuable insights, but every business is unique. Connect with our commercial lending specialists to discuss potential financing options.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
