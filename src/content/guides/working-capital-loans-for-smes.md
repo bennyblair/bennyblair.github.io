@@ -155,9 +155,9 @@ Overdraft facilities offer revolving credit lines that businesses can draw upon 
 
 ### Asset-Based Working Capital Finance
 
-Invoice financing allows businesses to access cash by selling outstanding invoices to lenders at discounts, typically receiving 70-90% of invoice values immediately. This option suits businesses with strong customer bases but extended payment terms creating cash flow constraints.
+Invoice financing allows businesses to access cash by selling outstanding invoices to lenders at discounts, typically receiving 70-90% of invoice values immediately. For comprehensive invoice-based solutions, [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) provides detailed guidance on factoring and discounting structures.
 
-Inventory financing uses existing stock as security for working capital loans, typically providing 40-60% of inventory value. This structure suits retailers, manufacturers, and wholesalers with valuable, marketable inventory requiring additional cash for operations or growth.
+Inventory financing uses existing stock as security for working capital loans, typically providing 40-60% of inventory value. [Asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) offers comprehensive facilities leveraging multiple asset types including inventory, receivables, and equipment.
 
 ### Alternative Working Capital Solutions
 
@@ -215,7 +215,7 @@ The choice between secured and unsecured working capital financing significantly
 
 ### Secured Working Capital Options
 
-Property-secured working capital loans offer the lowest interest rates and highest loan amounts, typically allowing borrowing of 70-80% of property values. Commercial or residential properties can secure working capital facilities, though businesses must accept property loss risks in default scenarios.
+Property-secured working capital loans offer the lowest interest rates and highest loan amounts, typically allowing borrowing of 70-80% of property values. For businesses with multiple debts, [business debt consolidation](/resources/guides/business-debt-consolidation-australia) can optimize debt structures while improving cash flow. Import/export businesses may benefit from specialized [trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) solutions.
 
 Inventory and receivables financing provides security without property requirements, using business assets as collateral. These arrangements typically offer competitive rates while maintaining direct relationships between security values and working capital needs.
 

@@ -155,7 +155,7 @@ Australian businesses can access diverse equipment financing structures tailored
 
 ### Chattel Mortgage Benefits and Applications
 
-Chattel mortgages enable immediate equipment ownership with competitive interest rates, typically 4-8% per annum for established businesses. Full depreciation claims provide significant tax benefits, while asset ownership enables modifications, relocations, and eventual disposal at residual values.
+Chattel mortgages enable immediate equipment ownership with competitive interest rates, typically 4-8% per annum for established businesses. Full depreciation claims provide significant tax benefits, while asset ownership enables modifications, relocations, and eventual disposal at residual values. For broader asset financing strategies, [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) can leverage equipment alongside other business assets.
 
 This structure suits businesses planning long-term equipment usage, requiring equipment modifications, or seeking maximum tax depreciation benefits. Manufacturing businesses, construction companies, and transport operators commonly prefer chattel mortgages for major equipment acquisitions.
 

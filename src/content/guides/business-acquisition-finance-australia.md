@@ -135,11 +135,11 @@ Business acquisition finance combines multiple funding sources to enable busines
 
 Traditional acquisition finance structures combine senior debt covering 50-70% of purchase prices with equity contributions from acquirers. Senior debt typically secures against business assets, cash flows, or additional security provided by acquirers, while equity contributions demonstrate acquirer commitment and provide loss absorption capacity.
 
-Mezzanine finance may bridge gaps between senior debt and equity requirements, offering higher returns to lenders in exchange for subordinated positions and potential equity participation. These arrangements enable higher leverage while reducing acquirer equity requirements for larger transactions.
+Understanding [mezzanine finance](/resources/guides/mezzanine-finance-australia-complete-guide) helps structure complex acquisition transactions, as mezzanine finance may bridge gaps between senior debt and equity requirements, offering higher returns to lenders in exchange for subordinated positions and potential equity participation.
 
 ### Asset-Based Versus Cash Flow Lending
 
-Asset-based acquisition finance secures against tangible business assets including property, equipment, inventory, and accounts receivable. This approach suits businesses with substantial asset bases but may limit funding to asset values rather than business earning capacity.
+Asset-based acquisition finance secures against tangible business assets including property, equipment, inventory, and accounts receivable. For detailed information on leveraging business assets, [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) provides comprehensive guidance on using existing assets as security.
 
 Cash flow-based lending evaluates target business earnings, cash generation capacity, and debt servicing ability to determine appropriate funding levels. These structures may enable higher leverage for profitable businesses with limited tangible assets but strong earning power and cash flows.
 

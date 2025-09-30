@@ -145,7 +145,7 @@ The single asset principle prevents SMSFs from borrowing to acquire property por
 
 ### Compliance and Regulatory Framework
 
-SMSF commercial property investments must satisfy the sole purpose test, ensuring investments are made solely to provide retirement benefits for members. Related party transactions face additional restrictions, with commercial properties leased to related businesses subject to strict arm's length terms and commercial lease documentation.
+SMSF commercial property investments must satisfy the sole purpose test, ensuring investments are made solely to provide retirement benefits for members. Related party transactions face additional restrictions, with commercial properties leased to related businesses subject to strict arm's length terms and commercial lease documentation. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) helps structure appropriate LRBA security arrangements.
 
 Investment strategies must be documented and reviewed annually, demonstrating that commercial property investments align with fund objectives and member circumstances. Professional advice is essential to ensure ongoing compliance with evolving superannuation and taxation legislation.
 
@@ -163,7 +163,7 @@ Small office buildings, medical centres, and professional suites offer accessibl
 
 Industrial properties including warehouses, manufacturing facilities, and distribution centres typically offer higher rental yields than office buildings while requiring less intensive management. These assets often feature longer lease terms and established tenant relationships providing stable cash flows.
 
-Location near transport infrastructure, industrial estates, or manufacturing hubs enhances property values and tenant appeal. However, industrial properties may face higher vacancy risks and require specialist knowledge for effective management and valuation.
+Location near transport infrastructure, industrial estates, or manufacturing hubs enhances property values and tenant appeal. However, industrial properties may face higher vacancy risks and require specialist knowledge for effective management and valuation. For commercial property investors outside superannuation, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) offers strategies to optimize property debt structures.
 
 ### Retail Commercial Properties
 
@@ -238,6 +238,8 @@ Recent legislative changes regarding Non-Arm's Length Income create additional c
 Commercial property leases to related businesses must be documented at arm's length terms with market-based rental rates and appropriate lease conditions. Professional advice ensures compliance with evolving NALI provisions and avoids inadvertent penalty taxation.
 
 ## Worked Example: Medical Centre Investment
+
+For urgent SMSF funding needs, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) can provide interim solutions, while [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer rapid access for time-sensitive SMSF investment opportunities.
 
 Consider an SMSF with two members approaching retirement, holding $800,000 in accumulation phase assets and seeking to invest in a $1.2 million medical centre with established tenant leases generating $96,000 annual rental income.
 

@@ -133,7 +133,7 @@ Private lending operates on fundamentally different principles from traditional 
 
 ### Private Lender Types and Characteristics
 
-High-net-worth individuals often provide private lending as investment diversification strategies, seeking higher returns than traditional fixed-income investments while maintaining some capital security through mortgage or asset backing. These lenders typically prefer property-secured transactions and may offer competitive terms for quality opportunities.
+High-net-worth individuals often provide private lending as investment diversification strategies, seeking higher returns than traditional fixed-income investments while maintaining some capital security through mortgage or asset backing. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) helps structure appropriate security arrangements in private lending transactions.
 
 Private debt funds and institutional private lenders bring professional management expertise and substantial capital capacity to larger transactions. These entities often specialize in specific sectors or transaction types, developing sophisticated assessment capabilities and standardized processes while maintaining flexibility advantages over banks.
 
@@ -141,7 +141,7 @@ Family offices and private wealth managers increasingly allocate portions of por
 
 ### Risk Assessment and Decision-Making Approaches
 
-Private lenders typically emphasize security quality and exit strategies over traditional cash flow analysis, focusing on asset values, marketability, and recovery prospects in various scenarios. This approach enables lending in circumstances where bank cash flow requirements cannot be satisfied despite adequate security coverage.
+Private lenders typically emphasize security quality and exit strategies over traditional cash flow analysis, focusing on asset values, marketability, and recovery prospects in various scenarios. For urgent funding needs with property security, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) provide rapid access to capital through second mortgage structures.
 
 Relationship factors including borrower experience, track record, and professional network often influence private lending decisions more significantly than in traditional banking. Personal guarantees, cross-collateralization, and additional security arrangements provide flexibility in structuring appropriate risk mitigation.
 
@@ -165,7 +165,7 @@ Business acquisition opportunities, property transactions, or strategic initiati
 
 Auction properties, distressed asset purchases, or competitive tender situations frequently require unconditional funding offers within days or weeks, timeframes that exceed bank capability even for well-qualified borrowers with strong relationships.
 
-Bridging finance requirements between asset disposal and acquisition, or pending longer-term funding arrangements, often require interim solutions that private lenders can provide more efficiently than traditional alternatives.
+Bridging finance requirements between asset disposal and acquisition, or pending longer-term funding arrangements, often require interim solutions that private lenders can provide more efficiently than traditional alternatives. For detailed information on short-term property funding, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) offers comprehensive guidance on interim property financing.
 
 ### Specialized Transaction Requirements
 

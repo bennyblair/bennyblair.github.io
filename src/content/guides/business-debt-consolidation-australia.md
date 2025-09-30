@@ -177,15 +177,15 @@ Australian businesses can access various debt consolidation structures ranging f
 
 ### Secured Debt Consolidation Facilities
 
-Property-secured consolidation loans offer the most competitive interest rates and terms, typically ranging from 6-10% per annum with extended repayment periods up to 25-30 years. These facilities can consolidate substantial debt amounts while providing manageable payment structures.
+Property-secured consolidation loans offer the most competitive interest rates and terms, typically ranging from 6-10% per annum with extended repayment periods up to 25-30 years. For businesses with commercial property, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) can provide debt consolidation opportunities through property equity release.
 
-Asset-based consolidation utilizes business equipment, inventory, or receivables as security, enabling competitive rates without property requirements. These structures particularly suit businesses with substantial tangible assets but limited property holdings.
+Asset-based consolidation utilizes business equipment, inventory, or receivables as security, enabling competitive rates without property requirements. Businesses with significant asset bases may benefit from [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) facilities that consolidate multiple debts while leveraging business assets.
 
 ### Unsecured Consolidation Options
 
 Unsecured business consolidation facilities provide flexibility without security requirements but typically carry higher interest rates ranging from 10-18% per annum. These options suit businesses preferring to preserve assets or lacking suitable security for secured facilities.
 
-Cash flow-based consolidation focuses on business earning capacity rather than asset security, potentially enabling higher consolidation amounts for profitable businesses with strong cash flows but limited tangible assets.
+Cash flow-based consolidation focuses on business earning capacity rather than asset security, potentially enabling higher consolidation amounts for profitable businesses with strong cash flows but limited tangible assets. For ongoing operational funding needs, [working capital loans](/resources/guides/working-capital-loans-for-smes) provide flexible solutions that complement consolidation strategies.
 
 ### Alternative Consolidation Approaches
 
