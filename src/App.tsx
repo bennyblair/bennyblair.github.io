@@ -39,9 +39,6 @@ const RefinancingSolutions = lazy(() => import("./pages/services/RefinancingSolu
 const EquipmentFinance = lazy(() => import("./pages/services/EquipmentFinance"));
 const TradeFinance = lazy(() => import("./pages/services/TradeFinance"));
 const SMSFLending = lazy(() => import("./pages/services/SMSFLending"));
-const StrataFinance = lazy(() => import("./pages/services/StrataFinance"));
-const CapitalWorksFinance = lazy(() => import("./pages/services/CapitalWorksFinance"));
-const BuildingMaintenanceLoans = lazy(() => import("./pages/services/BuildingMaintenanceLoans"));
 
 // Tool pages
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
@@ -109,9 +106,6 @@ const App = () => (
                 <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
                 <Route path="/services/caveat-loans" element={<CaveatLoans />} />
                 <Route path="/services/asset-finance" element={<AssetFinance />} />
-                <Route path="/services/building-maintenance-loans" element={<BuildingMaintenanceLoans />} />
-                <Route path="/services/capital-works-finance" element={<CapitalWorksFinance />} />
-                <Route path="/services/strata-finance" element={<StrataFinance />} />
                 <Route path="/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
                 <Route path="/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
