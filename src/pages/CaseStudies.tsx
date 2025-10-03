@@ -5,8 +5,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { DollarSign, Building2, Clock, Filter, Star, TrendingUp } from "lucide-react";
 import { getContentFiles, type Article } from "@/lib/content";
+import { generateBreadcrumbSchema, generateCollectionPageSchema } from "@/lib/schema-utils";
 
 const CaseStudies = () => {
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "Resources", href: "/resources" },
+    { label: "Case Studies" }
+  ];
+
   const [selectedIndustry, setSelectedIndustry] = useState("All");
   const [latestCaseStudy, setLatestCaseStudy] = useState<Article | null>(null);
   const [publishedCaseStudies, setPublishedCaseStudies] = useState<Article[]>([]);
@@ -51,12 +58,18 @@ const CaseStudies = () => {
 
   return (
     <div className="min-h-screen py-8">
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify(generateCollectionPageSchema(
+          "Commercial Lending Case Studies",
+          "Real success stories from Australian businesses that achieved their goals with our commercial lending solutions",
+          "https://emetcapital.com.au/resources/case-studies",
+          publishedCaseStudies.length
+        ))}
+      </script>
+      
       <div className="container mx-auto px-4">
-        <Breadcrumbs items={[
-          { label: "Home", href: "/" },
-          { label: "Resources", href: "/resources" },
-          { label: "Case Studies" }
-        ]} />
+        <Breadcrumbs items={breadcrumbItems} />
 
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">

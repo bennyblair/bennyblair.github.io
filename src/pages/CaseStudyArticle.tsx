@@ -58,24 +58,6 @@ const CaseStudyArticle = () => {
   ];
 
   // Generate JSON-LD structured data
-  const breadcrumbListSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": breadcrumbItems.map((item, index) => {
-      const listItem: any = {
-        "@type": "ListItem",
-        "position": index + 1,
-        "name": item.label
-      };
-      
-      if ('href' in item && item.href) {
-        listItem.item = `https://emetcapital.com.au${item.href}`;
-      }
-      
-      return listItem;
-    })
-  };
-
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -140,9 +122,6 @@ const CaseStudyArticle = () => {
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(breadcrumbListSchema)}
         </script>
       </Helmet>
 

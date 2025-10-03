@@ -17,8 +17,14 @@ import {
   Building2,
   TrendingUp
 } from "lucide-react";
+import { generateBreadcrumbSchema, generateAboutPageSchema, generateAggregateRatingSchema } from "@/lib/schema-utils";
 
 const About = () => {
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "About Us" }
+  ];
+
   const stats = [
     { icon: Award, label: "Years Experience", value: "15+", description: "Combined team experience" },
     { icon: Users, label: "Deals Completed", value: "500+", description: "Successful transactions" },
@@ -62,11 +68,13 @@ const About = () => {
 
   return (
     <div className="min-h-screen py-8">
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify(generateAboutPageSchema())}
+      </script>
+      
       <div className="container mx-auto px-4">
-        <Breadcrumbs items={[
-          { label: "Home", href: "/" },
-          { label: "About Us" }
-        ]} />
+        <Breadcrumbs items={breadcrumbItems} />
 
         {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-16">

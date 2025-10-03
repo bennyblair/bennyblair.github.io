@@ -23,11 +23,11 @@ const AssetFinance = () => {
         "description": "Asset finance in Australia helps businesses purchase vehicles, equipment, and machinery without upfront costs. Learn benefits, types, and how to apply today.",
         "author": {
           "@type": "Organization",
-          "name": "Private Lending Solutions"
+          "name": "Emet Capital"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Private Lending Solutions"
+          "name": "Emet Capital"
         },
         "mainEntityOfPage": {
           "@type": "WebPage",

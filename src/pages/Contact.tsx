@@ -7,8 +7,15 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { generateBreadcrumbSchema, generateContactPageSchema } from "@/lib/schema-utils";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const Contact = () => {
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "Contact" }
+  ];
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -114,7 +121,14 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen py-8">
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify(generateContactPageSchema())}
+      </script>
+      
       <div className="container mx-auto px-4">
+        <Breadcrumbs items={breadcrumbItems} />
+        
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">

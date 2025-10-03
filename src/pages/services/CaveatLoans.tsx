@@ -23,11 +23,11 @@ const CaveatLoans = () => {
         "description": "Caveat loans in Australia provide urgent short-term business funding secured by property. Learn eligibility, costs, benefits, risks, and apply online today.",
         "author": {
           "@type": "Organization",
-          "name": "Private Lending Solutions"
+          "name": "Emet Capital"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Private Lending Solutions"
+          "name": "Emet Capital"
         },
         "mainEntityOfPage": {
           "@type": "WebPage",

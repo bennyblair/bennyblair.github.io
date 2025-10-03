@@ -23,11 +23,11 @@ const EquipmentFinance = () => {
         "description": "Equipment finance helps Australian businesses purchase or lease specialised tools, vehicles, and machinery. Learn how it works, benefits, and apply online today.",
         "author": {
           "@type": "Organization",
-          "name": "Private Lending Solutions"
+          "name": "Emet Capital"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Private Lending Solutions"
+          "name": "Emet Capital"
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
