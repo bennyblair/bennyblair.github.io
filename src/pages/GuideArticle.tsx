@@ -286,6 +286,73 @@ const GuideArticle = () => {
   const canonicalUrl = `/resources/${contentType}/${slug}`;
   const seoImage = article.featuredImage || `/images/uploads/${slug}.jpg`;
 
+  // Generate JSON-LD structured data
+  const breadcrumbListSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": getBreadcrumbs().map((item, index) => {
+      const listItem: any = {
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": item.label
+      };
+      
+      if ('href' in item && item.href) {
+        listItem.item = `https://emetcapital.com.au${item.href}`;
+      }
+      
+      return listItem;
+    })
+  };
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.description,
+    "image": article.featuredImage ? `https://emetcapital.com.au${article.featuredImage}` : `https://emetcapital.com.au${seoImage}`,
+    "datePublished": article.date,
+    "dateModified": article.date,
+    "author": {
+      "@type": "Organization",
+      "name": article.author || "Emet Capital",
+      "url": "https://emetcapital.com.au"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Emet Capital",
+      "url": "https://emetcapital.com.au",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://emetcapital.com.au/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://emetcapital.com.au${canonicalUrl}`
+    },
+    "articleSection": article.category,
+    "keywords": article.tags?.join(', '),
+    "wordCount": article.content.split(/\s+/).length,
+    "timeRequired": `PT${article.readingTime}M`,
+    "inLanguage": "en-AU",
+    "isAccessibleForFree": true
+  };
+
+  // Generate FAQ schema if FAQs exist
+  const faqSchema = faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  } : null;
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
       <SEO 
@@ -296,6 +363,19 @@ const GuideArticle = () => {
         type="article"
         image={seoImage}
       />
+      
+      {/* JSON-LD Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify(articleSchema)}
+      </script>
+      <script type="application/ld+json">
+        {JSON.stringify(breadcrumbListSchema)}
+      </script>
+      {faqSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(faqSchema)}
+        </script>
+      )}
       <div className="container mx-auto px-4 py-8 max-w-5xl">
         <Breadcrumbs items={getBreadcrumbs()} />
 

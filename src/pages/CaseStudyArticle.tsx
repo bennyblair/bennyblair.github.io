@@ -57,6 +57,65 @@ const CaseStudyArticle = () => {
     { label: article.title }
   ];
 
+  // Generate JSON-LD structured data
+  const breadcrumbListSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbItems.map((item, index) => {
+      const listItem: any = {
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": item.label
+      };
+      
+      if ('href' in item && item.href) {
+        listItem.item = `https://emetcapital.com.au${item.href}`;
+      }
+      
+      return listItem;
+    })
+  };
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.description,
+    "image": article.featuredImage ? `https://emetcapital.com.au${article.featuredImage}` : `https://emetcapital.com.au/images/uploads/${article.slug}.jpg`,
+    "datePublished": article.date,
+    "dateModified": article.date,
+    "author": {
+      "@type": "Organization",
+      "name": "Emet Capital",
+      "url": "https://emetcapital.com.au"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Emet Capital",
+      "url": "https://emetcapital.com.au",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://emetcapital.com.au/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://emetcapital.com.au/resources/case-studies/${article.slug}`
+    },
+    "articleSection": article.category || "Case Study",
+    "keywords": article.keywords?.join(', '),
+    "wordCount": article.content.split(/\s+/).length,
+    "inLanguage": "en-AU",
+    "isAccessibleForFree": true,
+    ...(article.loanAmount && { "about": {
+      "@type": "FinancialProduct",
+      "name": article.loanType || "Business Loan",
+      "amount": article.loanAmount,
+      ...(article.location && { "areaServed": article.location }),
+      ...(article.industry && { "applicationCategory": article.industry })
+    }})
+  };
+
   return (
     <>
       <Helmet>
@@ -77,6 +136,14 @@ const CaseStudyArticle = () => {
         <meta name="twitter:title" content={article.title} />
         <meta name="twitter:description" content={article.description} />
         {article.featuredImage && <meta name="twitter:image" content={article.featuredImage} />}
+
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify(articleSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbListSchema)}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
