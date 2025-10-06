@@ -133,47 +133,6 @@ const AssetFinance = () => {
           </Card>
         </section>
 
-        {/* Asset Finance Solutions */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-center mb-8">Finance Any Business Asset</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="text-center">
-              <CardHeader>
-                <Car className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <CardTitle>Vehicle Finance</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Cars, trucks, buses, and commercial fleets with flexible terms to suit your business.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <Cog className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <CardTitle>Machinery & Equipment</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Construction, manufacturing, agricultural, and medical equipment financing.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center">
-              <CardHeader>
-                <Building2 className="w-12 h-12 mx-auto mb-4 text-primary" />
-                <CardTitle>Technology Assets</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  IT equipment, software, and office technology to keep your business competitive.
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
 
         {/* Quick Stats */}
         <section className="mb-12">
@@ -262,27 +221,25 @@ const AssetFinance = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center py-12 bg-gradient-to-r from-primary to-primary/80 rounded-2xl">
-          <div className="max-w-3xl mx-auto px-8">
-            <h2 className="text-3xl font-bold text-primary-foreground mb-6">
-              Ready to Finance Your Business Assets?
-            </h2>
-            <p className="text-xl text-primary-foreground/90 mb-8">
-              Get competitive rates and flexible terms. Our asset finance specialists will structure the right solution for your business needs.
+        <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border-primary/20">
+          <CardContent className="p-8 text-center">
+            <h2 className="text-2xl font-bold mb-4">Ready to Finance Your Business Assets?</h2>
+            <p className="text-muted-foreground mb-6">
+              Competitive rates and flexible terms for all business equipment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" variant="secondary">
-                <Link to="/contact">
-                  Apply Now
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
+              <Button size="lg" asChild>
+                <Link to="/contact">Get Quote</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <a href="tel:0485952651">Call Finance Expert</a>
+              <Button size="lg" variant="outline" asChild>
+                <a href="tel:0485952651">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Call Expert
+                </a>
               </Button>
             </div>
-          </div>
-        </section>
+          </CardContent>
+        </Card>
       </main>
     </>
   );

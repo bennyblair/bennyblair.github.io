@@ -37,27 +37,15 @@ const FirstSecondMortgages = () => {
   const faqs = [
     {
       question: "What's the difference between first and second mortgages?",
-      answer: "A first mortgage is the primary loan secured against a property, typically offering the lowest interest rates and highest loan amounts up to 80% LVR. A second mortgage is additional financing secured against the same property's remaining equity, usually at higher rates but providing extra capital for business needs without refinancing the first mortgage."
+      answer: "A first mortgage is the primary loan on a property with lower rates (up to 80% LVR). A second mortgage provides additional funding against remaining equity without refinancing the first."
     },
     {
       question: "How quickly can commercial mortgages be approved?",
-      answer: "Commercial mortgage approval typically takes 24-48 hours for pre-approval, with full approval and settlement possible within 5-10 business days. This depends on documentation completeness, property valuation, and the complexity of the transaction."
+      answer: "Pre-approval typically takes 24-48 hours, with full settlement possible within 5-10 business days."
     },
     {
-      question: "What commercial property types are acceptable security?",
-      answer: "We accept various commercial properties including office buildings, retail spaces, industrial warehouses, mixed-use developments, investment properties, and specialised facilities. The property must have clear title and adequate valuation to support the loan amount."
-    },
-    {
-      question: "Can I get interest-only payments on commercial mortgages?",
-      answer: "Yes, interest-only payment periods are available on commercial mortgages, typically for 1-5 years initially. This helps preserve cash flow during business growth phases or property development periods before reverting to principal and interest payments."
-    },
-    {
-      question: "What documentation is required for commercial mortgage applications?",
-      answer: "Required documents include business financial statements (2-3 years), tax returns, property contracts or valuations, rent rolls (for investment properties), business plan, personal financial statements, and identification. Additional documents may be needed for complex structures."
-    },
-    {
-      question: "Are commercial mortgages available for SMSF property purchases?",
-      answer: "Yes, we arrange SMSF commercial mortgages through Limited Recourse Borrowing Arrangements (LRBA). The SMSF must have adequate balance, compliant structure, and professional administration. Personal guarantees from SMSF members are typically required."
+      question: "What commercial property types are acceptable?",
+      answer: "We accept office, retail, industrial, mixed-use, and investment properties with clear title and adequate valuation."
     }
   ];
 
@@ -125,52 +113,25 @@ const FirstSecondMortgages = () => {
             </div>
           </div>
 
-        {/* Key Features */}
-        <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          <Card className="premium-card">
-            <CardHeader>
-              <div className="p-4 bg-accent/10 rounded-xl w-fit mb-4">
-                <Home className="h-8 w-8 text-accent" />
-              </div>
-              <CardTitle className="text-2xl">What We Offer</CardTitle>
-              <CardDescription>
-                Comprehensive mortgage solutions for all property types
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                {features.map((feature, index) => (
-                  <li key={index} className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-
-          <Card className="premium-card">
-            <CardHeader>
-              <div className="p-4 bg-primary/10 rounded-xl w-fit mb-4">
-                <Shield className="h-8 w-8 text-primary" />
-              </div>
-              <CardTitle className="text-2xl">Key Benefits</CardTitle>
-              <CardDescription>
-                Why choose our mortgage solutions
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground">{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
+        {/* Key Benefits */}
+        <Card className="mb-16">
+          <CardHeader>
+            <CardTitle className="text-2xl">Key Benefits</CardTitle>
+            <CardDescription>
+              Professional commercial mortgage solutions for your business
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <ul className="grid md:grid-cols-2 gap-3">
+              {benefits.map((benefit, index) => (
+                <li key={index} className="flex items-start">
+                  <CheckCircle className="w-5 h-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                  <span className="text-foreground">{benefit}</span>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
 
         {/* Loan Details */}
         <Card className="mb-16">
@@ -221,155 +182,21 @@ const FirstSecondMortgages = () => {
         </Card>
 
           {/* What are Commercial Mortgages */}
-          <section className="mb-16">
-            <Card>
-              <CardContent className="p-8">
-                <h2 className="text-3xl font-bold mb-6">What are Commercial 1st & 2nd Mortgages?</h2>
-                <div className="prose max-w-none text-muted-foreground mb-6">
-                  <p className="text-lg mb-4">
-                    Commercial first and second mortgages are specialized lending products secured against commercial or investment properties. 
-                    A first mortgage is the primary loan secured against the property, while a second mortgage provides additional funding 
-                    secured against the remaining equity in the same property.
-                  </p>
-                  <p className="mb-4">
-                    First mortgages typically offer the most competitive rates and highest loan-to-value ratios (up to 80% LVR) because 
-                    they hold the primary security position. Second mortgages complement existing financing by accessing additional equity 
-                    without disturbing the first mortgage arrangement, making them ideal for business expansion, renovations, or investment opportunities.
-                  </p>
-                </div>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="p-4 bg-accent/5 rounded-lg">
-                    <h3 className="font-semibold text-lg mb-2">First Mortgage Benefits</h3>
-                    <ul className="space-y-2 text-sm">
-                      <li>• Lowest interest rates available</li>
-                      <li>• Up to 80% LVR on commercial property</li>
-                      <li>• Primary security position</li>
-                      <li>• Longer repayment terms available</li>
-                    </ul>
-                  </div>
-                  <div className="p-4 bg-primary/5 rounded-lg">
-                    <h3 className="font-semibold text-lg mb-2">Second Mortgage Benefits</h3>
-                    <ul className="space-y-2 text-sm">
-                      <li>• Access additional property equity</li>
-                      <li>• No need to refinance first mortgage</li>
-                      <li>• Flexible loan structures</li>
-                      <li>• Quick access to funds</li>
-                    </ul>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
-
-          {/* When to Use Commercial Mortgages */}
-          <section className="mb-16">
-            <Card>
-              <CardContent className="p-8">
-                <h2 className="text-3xl font-bold mb-6">When Should You Consider Commercial Mortgages?</h2>
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-xl font-semibold mb-4">First Mortgage Scenarios</h3>
-                    <ul className="space-y-3">
-                      {[
-                        "Purchasing owner-occupied commercial premises",
-                        "Acquiring investment properties for rental income", 
-                        "Refinancing existing commercial property loans",
-                        "SMSF property investments with limited recourse",
-                        "Mixed-use property developments"
-                      ].map((scenario, index) => (
-                        <li key={index} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" />
-                          <span>{scenario}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold mb-4">Second Mortgage Scenarios</h3>
-                    <ul className="space-y-3">
-                      {[
-                        "Business expansion requiring additional capital",
-                        "Property renovations and improvements",
-                        "Equipment purchases for existing business",
-                        "Working capital for established businesses",
-                        "Investment opportunities requiring quick funding"
-                      ].map((scenario, index) => (
-                        <li key={index} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                          <span>{scenario}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
-
-          {/* Application Process */}
-          <section className="mb-16">
-            <Card>
-              <CardContent className="p-8">
-                <h2 className="text-3xl font-bold mb-6">How Does the Application Process Work?</h2>
-                <div className="grid md:grid-cols-4 gap-6">
-                  {[
-                    {
-                      step: "1",
-                      title: "Initial Consultation",
-                      description: "Discuss your financing needs, property details, and business objectives with our commercial mortgage specialists."
-                    },
-                    {
-                      step: "2", 
-                      title: "Documentation",
-                      description: "Prepare financial statements, property information, and business plans for lender assessment."
-                    },
-                    {
-                      step: "3",
-                      title: "Lender Submission",
-                      description: "We present your application to suitable lenders with competitive commercial mortgage products."
-                    },
-                    {
-                      step: "4",
-                      title: "Settlement",
-                      description: "Complete property valuation, final approval, and settle your commercial mortgage facility."
-                    }
-                  ].map((process, index) => (
-                    <div key={index} className="text-center">
-                      <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4">
-                        {process.step}
-                      </div>
-                      <h3 className="font-semibold mb-2">{process.title}</h3>
-                      <p className="text-sm text-muted-foreground">{process.description}</p>
-                    </div>
-                  ))}
-                </div>
-                
-                <div className="mt-8 p-6 bg-muted/30 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-3">Required Documentation</h3>
-                  <div className="grid md:grid-cols-2 gap-4 text-sm">
-                    <div>
-                      <h4 className="font-medium mb-2">Business Documents</h4>
-                      <ul className="space-y-1 text-muted-foreground">
-                        <li>• Financial statements (2-3 years)</li>
-                        <li>• Business tax returns</li>
-                        <li>• Business activity statements</li>
-                        <li>• Management accounts</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h4 className="font-medium mb-2">Property Documents</h4>
-                      <ul className="space-y-1 text-muted-foreground">
-                        <li>• Property contracts or valuations</li>
-                        <li>• Rent rolls (investment properties)</li>
-                        <li>• Building inspections</li>
-                        <li>• Council certificates</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+          <Card className="mb-16">
+            <CardContent className="p-8">
+              <h2 className="text-3xl font-bold mb-6">What are Commercial 1st & 2nd Mortgages?</h2>
+              <p className="text-lg text-muted-foreground mb-4">
+                Commercial first and second mortgages are specialized lending products secured against commercial or investment properties. 
+                First mortgages offer up to 80% LVR with competitive rates, while second mortgages provide additional funding against 
+                remaining equity without refinancing the first mortgage.
+              </p>
+              <Button asChild variant="outline">
+                <Link to="/resources/guides/first-and-second-mortgages-for-business">
+                  Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </CardContent>
+          </Card>
 
           {/* Internal Links Section */}
           <section className="mb-16">

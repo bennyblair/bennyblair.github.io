@@ -130,47 +130,6 @@ const WorkingCapital = () => {
             </Card>
           </section>
 
-          {/* Funding Solutions */}
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center">Working Capital Solutions</h2>
-            <div className="grid lg:grid-cols-3 gap-6">
-              <Card>
-                <CardHeader className="text-center">
-                  <Briefcase className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <CardTitle>Business Lines of Credit</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center">
-                    Revolving credit facilities for ongoing operational funding needs.
-                  </CardDescription>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className="text-center">
-                  <DollarSign className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <CardTitle>Invoice Finance</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center">
-                    Convert outstanding invoices into immediate working capital.
-                  </CardDescription>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader className="text-center">
-                  <Clock className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <CardTitle>Seasonal Funding</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center">
-                    Flexible facilities aligned with business trading cycles.
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            </div>
-          </section>
 
           {/* Quick Stats */}
           <section className="mb-16">
@@ -259,27 +218,25 @@ const WorkingCapital = () => {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center py-12 bg-gradient-to-r from-primary to-primary/80 rounded-2xl">
-            <div className="max-w-3xl mx-auto px-8">
-              <h2 className="text-3xl font-bold text-primary-foreground mb-6">
-                Ready to Improve Your Cash Flow?
-              </h2>
-              <p className="text-xl text-primary-foreground/90 mb-8">
-                Don't let cash flow constraints limit your growth. Our specialists will structure flexible facilities that align with your trading cycle and business needs.
+          <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border-primary/20">
+            <CardContent className="p-8 text-center">
+              <h2 className="text-2xl font-bold mb-4">Ready to Improve Your Cash Flow?</h2>
+              <p className="text-muted-foreground mb-6">
+                Flexible working capital solutions aligned with your business cycle.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button asChild size="lg" variant="secondary">
-                  <Link to="/contact">
-                    Start Application
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
+                <Button size="lg" asChild>
+                  <Link to="/contact">Apply Now</Link>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                  <a href="tel:0485952651">Call Cash Flow Expert</a>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="tel:0485952651">
+                    <Phone className="mr-2 h-5 w-5" />
+                    Call Expert
+                  </a>
                 </Button>
               </div>
-            </div>
-          </section>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </>

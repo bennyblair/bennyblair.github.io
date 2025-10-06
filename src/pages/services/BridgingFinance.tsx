@@ -136,55 +136,6 @@ const BridgingFinance = () => {
             </Card>
           </section>
 
-          {/* Loan Types */}
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center">Bridging Loan Types</h2>
-            <div className="grid lg:grid-cols-2 gap-8">
-              <Card>
-                <CardHeader>
-                  <Shield className="w-12 h-12 text-accent mb-4" />
-                  <CardTitle>Closed Bridging Loan</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="mb-4">
-                    When you've exchanged contracts on your sale property. Lower rates due to confirmed exit strategy.
-                  </CardDescription>
-                  <ul className="space-y-2">
-                    <li className="flex items-center text-sm">
-                      <CheckCircle className="w-4 h-4 mr-2 text-accent" />
-                      Confirmed buyer in place
-                    </li>
-                    <li className="flex items-center text-sm">
-                      <CheckCircle className="w-4 h-4 mr-2 text-accent" />
-                      Lower interest rates
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <Building2 className="w-12 h-12 text-accent mb-4" />
-                  <CardTitle>Open Bridging Loan</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="mb-4">
-                    When your sale property hasn't yet secured a buyer. More flexibility but higher rates.
-                  </CardDescription>
-                  <ul className="space-y-2">
-                    <li className="flex items-center text-sm">
-                      <CheckCircle className="w-4 h-4 mr-2 text-accent" />
-                      No buyer required yet
-                    </li>
-                    <li className="flex items-center text-sm">
-                      <CheckCircle className="w-4 h-4 mr-2 text-accent" />
-                      Maximum flexibility
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
-          </section>
 
           {/* Quick Stats */}
           <section className="mb-16">
@@ -273,27 +224,25 @@ const BridgingFinance = () => {
           </section>
 
           {/* CTA Section */}
-          <section className="text-center py-12 bg-gradient-to-r from-accent to-accent/80 rounded-2xl">
-            <div className="max-w-3xl mx-auto px-8">
-              <h2 className="text-3xl font-bold text-accent-foreground mb-6">
-                Don't Miss Your Property Opportunity
-              </h2>
-              <p className="text-xl text-accent-foreground/90 mb-8">
-                Fast bridging finance means you can buy now and sell later. Our specialists provide quick approvals and flexible terms to help you seize time-sensitive opportunities.
+          <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border-primary/20">
+            <CardContent className="p-8 text-center">
+              <h2 className="text-2xl font-bold mb-4">Don't Miss Your Property Opportunity</h2>
+              <p className="text-muted-foreground mb-6">
+                Fast bridging finance for time-sensitive opportunities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button asChild size="lg" variant="secondary">
-                  <Link to="/contact">
-                    Apply Now
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
+                <Button size="lg" asChild>
+                  <Link to="/contact">Apply Now</Link>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent">
-                  <a href="tel:0485952651">Call Bridging Expert</a>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="tel:0485952651">
+                    <Phone className="mr-2 h-5 w-5" />
+                    Call Expert
+                  </a>
                 </Button>
               </div>
-            </div>
-          </section>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </>
