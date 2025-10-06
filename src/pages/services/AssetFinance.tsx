@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, Car, Cog, Building2, AlertTriangle, FileText, Phone, TrendingUp } from "lucide-react";
+import { CheckCircle, Car, Cog, Building2, Phone, TrendingUp, FileText, ArrowRight } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
@@ -16,69 +16,26 @@ const AssetFinance = () => {
 
   const structuredData = {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "headline": "Asset Finance Australia | Fund Vehicles, Machinery & Equipment",
-        "description": "Asset finance in Australia helps businesses purchase vehicles, equipment, and machinery without upfront costs. Learn benefits, types, and how to apply today.",
-        "author": {
-          "@type": "Organization",
-          "name": "Emet Capital"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Emet Capital"
-        },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "/services/asset-finance"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can I finance used equipment?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, subject to lender approval and valuation."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the maximum term?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Usually up to 7 years depending on the asset type and value."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is a deposit required?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Often no, but some lenders require 10–20% depending on the asset and borrower profile."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do I own the asset during finance?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Depends on structure: ownership varies between chattel mortgage, hire purchase, and leasing arrangements."
-            }
-          }
-        ]
-      }
-    ]
+    "@type": "Service",
+    "serviceType": "FinancialProduct",
+    "name": "Asset Finance",
+    "description": "Asset finance in Australia helps businesses purchase vehicles, equipment, and machinery without upfront costs.",
+    "provider": {
+      "@type": "FinancialService",
+      "name": "Emet Capital"
+    },
+    "areaServed": "AU",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "AUD"
+    }
   };
 
   return (
     <>
       <Helmet>
         <title>Asset Finance Australia | Fund Vehicles, Machinery & Equipment</title>
-        <meta name="description" content="Asset finance in Australia helps businesses purchase vehicles, equipment, and machinery without upfront costs. Learn benefits, types, and how to apply today." />
+        <meta name="description" content="Asset finance in Australia helps businesses purchase vehicles, equipment, and machinery without upfront costs. Get competitive rates from $10,000 to $5 million." />
         <meta name="keywords" content="Asset Finance Australia, asset finance, vehicle finance, equipment loan, business asset loan, machinery finance" />
         <link rel="canonical" href="/services/asset-finance" />
         <script type="application/ld+json">
@@ -91,65 +48,94 @@ const AssetFinance = () => {
         
         {/* Hero Section */}
         <section className="mb-12">
-          <div className="flex flex-col lg:flex-row gap-8 items-start">
-            <div className="flex-1">
-              <Badge variant="secondary" className="mb-4">
-                <Building2 className="w-4 h-4 mr-2" />
-                Business Growth
-              </Badge>
-              <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                Asset Finance Australia
-              </h1>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Fund vehicles, machinery, and equipment without upfront costs. Flexible asset finance solutions from $10,000 to $5 million with terms up to 7 years.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-primary hover:bg-primary/90">
+          <div className="text-center max-w-4xl mx-auto">
+            <Badge variant="secondary" className="mb-4">
+              <Building2 className="w-4 h-4 mr-2" />
+              Business Growth Finance
+            </Badge>
+            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+              Asset Finance Australia
+            </h1>
+            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+              Fund vehicles, machinery, and equipment without upfront costs. Access flexible asset finance from $10,000 to $5 million with competitive rates and terms up to 7 years.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" asChild className="bg-primary hover:bg-primary/90">
+                <Link to="/contact">
                   <FileText className="w-5 h-5 mr-2" />
-                  Apply for Asset Finance
-                </Button>
-                <Button variant="outline" size="lg">
+                  Get Quote
+                </Link>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
+                <a href="tel:0485952651">
                   <Phone className="w-5 h-5 mr-2" />
                   Call Expert
-                </Button>
-              </div>
+                </a>
+              </Button>
             </div>
           </div>
         </section>
 
         {/* Key Takeaways */}
-        <section className="mb-12 p-6 bg-muted/50 rounded-lg">
-          <h2 className="text-2xl font-bold mb-4 flex items-center">
-            <TrendingUp className="w-6 h-6 mr-3 text-primary" />
-            Key Takeaways
-          </h2>
-          <ul className="space-y-2 text-muted-foreground">
-            <li className="flex items-start">
-              <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-              Asset finance helps businesses acquire vehicles, machinery, or equipment without paying upfront.
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-              Structures include chattel mortgage, hire purchase, finance lease, and operating lease.
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-              Loan terms usually range from 2–7 years.
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-              Improves cash flow while enabling business growth.
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-              Suitable for cars, trucks, construction, medical, agricultural, and IT equipment.
-            </li>
-          </ul>
+        <section className="mb-12">
+          <Card className="bg-muted/30">
+            <CardHeader>
+              <CardTitle className="text-2xl flex items-center">
+                <TrendingUp className="w-6 h-6 mr-3 text-primary" />
+                Key Benefits
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="grid md:grid-cols-2 gap-3">
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
+                  <span>Acquire vehicles, machinery & equipment without upfront costs</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
+                  <span>Preserve working capital for business operations</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
+                  <span>Flexible structures with potential tax benefits</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
+                  <span>Terms from 2-7 years aligned with asset lifespan</span>
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
         </section>
 
-        {/* Key Features */}
+        {/* What Is Section with Guide Link */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-center mb-8">Asset Finance Solutions</h2>
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl">What Is Asset Finance?</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p className="text-lg text-muted-foreground">
+                Asset finance allows businesses to access essential equipment while spreading the cost over time. The asset itself serves as security, making finance more accessible with competitive rates and flexible repayment structures.
+              </p>
+              <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
+                <p className="text-sm text-muted-foreground mb-3">
+                  <strong>Learn more:</strong> Discover detailed asset finance strategies, tax implications, and how to choose the right structure for your business.
+                </p>
+                <Button asChild variant="outline" className="w-full sm:w-auto">
+                  <Link to="/resources/guides/asset-backed-lending-and-asset-finance">
+                    Read Complete Asset Finance Guide
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Asset Finance Solutions */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center mb-8">Finance Any Business Asset</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="text-center">
               <CardHeader>
@@ -158,7 +144,7 @@ const AssetFinance = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Cars, trucks, buses, and commercial fleets. Flexible terms and structures to suit your business needs.
+                  Cars, trucks, buses, and commercial fleets with flexible terms to suit your business.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -170,7 +156,7 @@ const AssetFinance = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Construction, manufacturing, agricultural, and medical equipment. Finance the tools your business needs to grow.
+                  Construction, manufacturing, agricultural, and medical equipment financing.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -182,290 +168,65 @@ const AssetFinance = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  IT equipment, software, and office technology. Keep your business at the cutting edge without capital outlay.
+                  IT equipment, software, and office technology to keep your business competitive.
                 </CardDescription>
               </CardContent>
             </Card>
           </div>
         </section>
 
-        {/* What Is Section */}
+        {/* Quick Stats */}
         <section className="mb-12">
           <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl">What Is Asset Finance?</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <p>
-                Asset finance allows businesses to access essential equipment while spreading the cost over time. The asset itself serves as security for the loan or lease, reducing risk for the lender and making finance more accessible.
-              </p>
-              
-              <h3 className="text-xl font-semibold mt-6 mb-4">How Asset Finance Works</h3>
-              <ol className="list-decimal list-inside space-y-2 text-muted-foreground">
-                <li>Business chooses an asset to purchase.</li>
-                <li>Lender pays the supplier directly.</li>
-                <li>Business repays the lender via fixed instalments.</li>
-                <li>At the end of the term, ownership is transferred, renewed, or the asset is upgraded depending on finance type.</li>
-              </ol>
-            </CardContent>
-          </Card>
-        </section>
-
-        {/* Finance Types */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-8">Types of Asset Finance</h2>
-          <div className="grid lg:grid-cols-2 gap-6">
-            <Card>
-              <CardHeader>
-                <CardTitle>Chattel Mortgage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Borrower owns the asset, lender takes mortgage over it. Full ownership from day one with tax benefits.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Immediate ownership and control
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Tax depreciation benefits
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    GST benefits available
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Hire Purchase</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Lender owns asset until last payment. Lower monthly repayments with ownership at the end.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Lower monthly payments
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Ownership at completion
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Fixed interest rates
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Finance Lease</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Lender owns asset, business leases it long term. Option to purchase at fair market value.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    100% tax deductible payments
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Off-balance sheet financing
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Flexible end-of-term options
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Operating Lease</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Short-term rental, no ownership. Ideal for businesses wanting flexibility without ownership.
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Maximum flexibility
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Regular upgrades available
-                  </li>
-                  <li className="flex items-center text-sm">
-                    <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                    Lower monthly costs
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
-        {/* Benefits & Risks */}
-        <section className="mb-12">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <Card className="border-green-200 bg-green-50">
-              <CardHeader>
-                <CardTitle className="text-xl text-green-800">Benefits</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-green-700">
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Access critical business tools without large upfront payments
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Repayments aligned with asset life
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Preserves working capital
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Potential tax deductions for interest and depreciation
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="border-orange-200 bg-orange-50">
-              <CardHeader>
-                <CardTitle className="text-xl text-orange-800">Risks</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-orange-700">
-                  <li className="flex items-center">
-                    <AlertTriangle className="w-4 h-4 mr-2" />
-                    Missed payments may result in repossession
-                  </li>
-                  <li className="flex items-center">
-                    <AlertTriangle className="w-4 h-4 mr-2" />
-                    Total cost over term may exceed upfront purchase
-                  </li>
-                  <li className="flex items-center">
-                    <AlertTriangle className="w-4 h-4 mr-2" />
-                    Restrictions on usage depending on structure
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
-        {/* Eligible Assets */}
-        <section className="mb-12">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl">Eligible Assets</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-6">
+            <CardContent className="p-8">
+              <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
-                  <h4 className="font-semibold mb-3">Vehicles & Transport</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Commercial vehicles and fleets
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Cars, trucks, and buses
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Trailers and specialty vehicles
-                    </li>
-                  </ul>
+                  <div className="text-3xl font-bold text-primary mb-2">$10K - $5M</div>
+                  <div className="text-sm text-muted-foreground">Loan Amount</div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-3">Machinery & Equipment</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Construction and mining machinery
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Agricultural tractors and harvesters
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Medical and dental technology
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      IT and office equipment
-                    </li>
-                  </ul>
+                  <div className="text-3xl font-bold text-primary mb-2">2-7 Years</div>
+                  <div className="text-sm text-muted-foreground">Loan Terms</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">48-72 Hours</div>
+                  <div className="text-sm text-muted-foreground">Approval Time</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">Up to 100%</div>
+                  <div className="text-sm text-muted-foreground">Finance Available</div>
                 </div>
               </div>
             </CardContent>
           </Card>
         </section>
 
-        {/* Case Study */}
+        {/* Simple FAQ */}
         <section className="mb-12">
-          <Card className="bg-gradient-to-r from-primary/10 to-primary/5">
+          <Card>
             <CardHeader>
-              <CardTitle className="text-2xl">Case Study: Fleet Upgrade</CardTitle>
+              <CardTitle className="text-2xl">Quick Questions</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-lg">
-                A logistics company needed 10 new delivery vans worth $600,000. Using asset finance, they acquired the fleet with no upfront outlay, paying fixed monthly instalments over 5 years. The business preserved working capital while modernising its operations.
-              </p>
-            </CardContent>
-          </Card>
-        </section>
-
-        {/* FAQs */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
-          <Card className="premium-card">
-            <CardContent className="pt-6">
               <Accordion type="single" collapsible className="w-full">
-                {[
-                  {
-                    question: "Can I finance used equipment?",
-                    answer: "Yes, subject to lender approval and valuation. The age and condition of the asset will affect terms."
-                  },
-                  {
-                    question: "What is the maximum term?",
-                    answer: "Usually up to 7 years depending on the asset type and value."
-                  },
-                  {
-                    question: "Is a deposit required?",
-                    answer: "Often no, but some lenders require 10–20% depending on the asset and borrower profile."
-                  },
-                  {
-                    question: "Do I own the asset during finance?",
-                    answer: "Depends on structure: ownership varies between chattel mortgage, hire purchase, and leasing arrangements."
-                  }
-                ].map((faq, index) => (
-                  <AccordionItem key={index} value={`item-${index}`}>
-                    <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground">
-                      {faq.answer}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
+                <AccordionItem value="item-1">
+                  <AccordionTrigger>Can I finance used equipment?</AccordionTrigger>
+                  <AccordionContent>
+                    Yes, most lenders will finance used equipment subject to valuation and condition assessment.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2">
+                  <AccordionTrigger>Is a deposit required?</AccordionTrigger>
+                  <AccordionContent>
+                    Often no deposit is required, though some lenders may ask for 10-20% depending on the asset and your business profile.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-3">
+                  <AccordionTrigger>What finance structures are available?</AccordionTrigger>
+                  <AccordionContent>
+                    Common structures include chattel mortgage, hire purchase, finance lease, and operating lease. Each offers different ownership and tax benefits.
+                  </AccordionContent>
+                </AccordionItem>
               </Accordion>
             </CardContent>
           </Card>
@@ -473,40 +234,53 @@ const AssetFinance = () => {
 
         {/* Related Services */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Related Services</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Link to="/services/equipment-finance" className="block">
-              <Card className="hover:shadow-lg transition-shadow cursor-pointer">
-                <CardContent className="p-4">
-                  <h3 className="font-semibold">Equipment Finance</h3>
-                  <p className="text-sm text-muted-foreground">Specialised equipment financing solutions</p>
-                </CardContent>
-              </Card>
-            </Link>
-            <Link to="/services/working-capital" className="block">
-              <Card className="hover:shadow-lg transition-shadow cursor-pointer">
-                <CardContent className="p-4">
-                  <h3 className="font-semibold">Working Capital</h3>
-                  <p className="text-sm text-muted-foreground">General business funding for operations</p>
-                </CardContent>
-              </Card>
-            </Link>
-          </div>
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl">Related Services</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid md:grid-cols-4 gap-4">
+                <Link to="/services/equipment-finance" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">Equipment Finance</h3>
+                  <p className="text-sm text-muted-foreground">Specialized equipment funding</p>
+                </Link>
+                <Link to="/services/working-capital" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">Working Capital</h3>
+                  <p className="text-sm text-muted-foreground">Business cash flow solutions</p>
+                </Link>
+                <Link to="/services/debt-consolidation" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">Debt Consolidation</h3>
+                  <p className="text-sm text-muted-foreground">Simplify business debts</p>
+                </Link>
+                <Link to="/services" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">All Services</h3>
+                  <p className="text-sm text-muted-foreground">View complete range</p>
+                </Link>
+              </div>
+            </CardContent>
+          </Card>
         </section>
 
         {/* CTA Section */}
-        <section className="text-center bg-gradient-to-r from-primary/10 to-primary/5 rounded-lg p-8">
-          <h2 className="text-3xl font-bold mb-4">Apply for Asset Finance Today</h2>
-          <p className="text-xl text-muted-foreground mb-8">
-            Need vehicles, machinery, or equipment? Asset finance makes growth affordable.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Apply Now for Asset Finance
-            </Button>
-            <Button variant="outline" size="lg">
-              Speak to Specialist
-            </Button>
+        <section className="text-center py-12 bg-gradient-to-r from-primary to-primary/80 rounded-2xl">
+          <div className="max-w-3xl mx-auto px-8">
+            <h2 className="text-3xl font-bold text-primary-foreground mb-6">
+              Ready to Finance Your Business Assets?
+            </h2>
+            <p className="text-xl text-primary-foreground/90 mb-8">
+              Get competitive rates and flexible terms. Our asset finance specialists will structure the right solution for your business needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button asChild size="lg" variant="secondary">
+                <Link to="/contact">
+                  Apply Now
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+                <a href="tel:0485952651">Call Finance Expert</a>
+              </Button>
+            </div>
           </div>
         </section>
       </main>
