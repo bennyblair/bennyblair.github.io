@@ -28,18 +28,6 @@ const DebtConsolidation = () => {
     {
       question: "What are the requirements for debt consolidation loans?",
       answer: "Requirements include stable business cash flow, acceptable credit history, adequate security (property, equipment, or other assets), and demonstration that consolidation improves the business's financial position. Lenders assess total debt levels and repayment capacity."
-    },
-    {
-      question: "How long does the debt consolidation process take?",
-      answer: "Business debt consolidation typically takes 3-6 weeks from application to settlement. This includes credit assessment, asset valuation, legal documentation, and coordination with existing lenders for payout. Complex consolidations with multiple lenders may take longer."
-    },
-    {
-      question: "Can I access additional funds when consolidating debt?",
-      answer: "Yes, debt consolidation often provides access to additional working capital by leveraging improved security positions or business performance. You can typically access 10-30% additional funds above debt payouts, depending on security and cash flow capacity."
-    },
-    {
-      question: "What security is required for debt consolidation loans?",
-      answer: "Security requirements depend on the loan amount and risk profile. Options include commercial property, business assets, equipment, or personal guarantees. Secured consolidation loans typically offer better rates than unsecured facilities due to reduced lender risk."
     }
   ];
 
@@ -112,17 +100,13 @@ const DebtConsolidation = () => {
               <CardContent className="p-8">
                 <h2 className="text-3xl font-bold mb-6">What is Business Debt Consolidation?</h2>
                 <div className="prose max-w-none text-muted-foreground mb-6">
-                  <p className="text-lg mb-4">
-                    Business debt consolidation involves combining multiple existing debts into a single new loan facility, 
-                    typically with better interest rates, terms, and simplified management. This strategic financial restructuring 
-                    can reduce total borrowing costs, improve cash flow, and eliminate the complexity of managing multiple 
-                    loan payments and lender relationships.
+                  <p className="text-lg">
+                    Business debt consolidation involves combining multiple existing debts into a single new loan facility, typically with better interest rates, terms, and simplified management. This strategic financial restructuring can reduce total borrowing costs, improve cash flow, and eliminate the complexity of managing multiple loan payments and lender relationships.
                   </p>
-                  <p className="mb-4">
-                    The process involves comprehensive analysis of existing debt obligations, negotiation with current lenders, 
-                    and structuring a new facility that pays out multiple debts while providing better overall terms. 
-                    Consolidation can also provide access to additional working capital for business growth while simplifying 
-                    financial management through a single monthly payment.
+                </div>
+                <div className="mt-4 p-4 bg-muted/50 rounded-lg">
+                  <p className="text-sm text-muted-foreground">
+                    <strong>Learn more:</strong> For detailed information on debt consolidation strategies, cost analysis, and restructuring options, see our <Link to="/resources/guides/business-debt-consolidation-australia" className="text-primary hover:underline">comprehensive Debt Consolidation guide</Link>.
                   </p>
                 </div>
               </CardContent>
@@ -218,98 +202,34 @@ const DebtConsolidation = () => {
             </div>
           </section>
 
-          {/* Consolidation Benefits */}
+          {/* Quick Stats */}
           <section className="mb-16">
-            <Card className="premium-card">
-              <CardHeader>
-                <CardTitle className="text-2xl">Debt Consolidation Benefits</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-lg font-semibold mb-4">Financial Advantages</h3>
-                    <ul className="space-y-3">
-                      {[
-                        "Single monthly payment simplicity",
-                        "Potentially lower interest rates",
-                        "Reduced total monthly payments",
-                        "Improved cash flow management",
-                        "Lower administrative costs"
-                      ].map((advantage, index) => (
-                        <li key={index} className="flex items-center">
-                          <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                          <span>{advantage}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-4">Debt Types We Consolidate</h3>
-                    <ul className="space-y-3">
-                      {[
-                        "Multiple business loans",
-                        "Credit cards and overdrafts",
-                        "Equipment finance facilities",
-                        "Trade creditor arrangements",
-                        "Property and asset loans"
-                      ].map((debtType, index) => (
-                        <li key={index} className="flex items-center">
-                          <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                          <span>{debtType}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
-
-          {/* Process */}
-          <section className="mb-16">
-            <Card className="premium-card">
-              <CardHeader>
-                <CardTitle className="text-2xl">Consolidation Process</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-lg font-semibold mb-4">Assessment Phase</h3>
-                    <ul className="space-y-3">
-                      {[
-                        "Comprehensive debt analysis and review",
-                        "Cash flow and repayment capacity assessment",
-                        "Security valuation and lending capacity",
-                        "Cost-benefit analysis of consolidation",
-                        "Structure recommendations and options"
-                      ].map((step, index) => (
-                        <li key={index} className="flex items-center">
-                          <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                          <span>{step}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-4">Implementation Phase</h3>
-                    <ul className="space-y-3">
-                      {[
-                        "New facility application and approval",
-                        "Legal documentation and security preparation",
-                        "Coordination with existing lenders",
-                        "Settlement and debt payout execution",
-                        "Ongoing relationship management"
-                      ].map((step, index) => (
-                        <li key={index} className="flex items-center">
-                          <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                          <span>{step}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="text-3xl font-bold text-primary mb-2">$100K+</div>
+                  <p className="text-sm text-muted-foreground">Minimum Amount</p>
+                </CardContent>
+              </Card>
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="text-3xl font-bold text-primary mb-2">1-5%</div>
+                  <p className="text-sm text-muted-foreground">Rate Savings</p>
+                </CardContent>
+              </Card>
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="text-3xl font-bold text-primary mb-2">3-6wks</div>
+                  <p className="text-sm text-muted-foreground">Typical Timeline</p>
+                </CardContent>
+              </Card>
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="text-3xl font-bold text-primary mb-2">Single</div>
+                  <p className="text-sm text-muted-foreground">Monthly Payment</p>
+                </CardContent>
+              </Card>
+            </div>
           </section>
 
           {/* CTA Section */}

@@ -61,14 +61,6 @@ const EquipmentFinance = () => {
               "text": "Depends on product type — some provide ownership, others don't until final payment."
             }
           },
-          {
-            "@type": "Question",
-            "name": "Can start-ups access equipment finance?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, though stricter conditions or guarantees may apply for new businesses."
-            }
-          }
         ]
       }
     ]
@@ -197,136 +189,45 @@ const EquipmentFinance = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p>
-                Equipment finance is a loan or lease that enables businesses to purchase or upgrade the tools they need to operate. The equipment itself is the security for the loan, reducing lender risk.
+                Equipment finance is a loan or lease that enables businesses to purchase or upgrade the tools they need to operate. The equipment itself is the security for the loan, reducing lender risk. Terms typically range from 2-7 years with flexible structures including hire purchase, finance lease, or chattel mortgage.
               </p>
-              
-              <h3 className="text-xl font-semibold mt-6 mb-4">How It Works</h3>
-              <ol className="list-decimal list-inside space-y-2 text-muted-foreground">
-                <li>Choose the required equipment.</li>
-                <li>Lender funds purchase directly.</li>
-                <li>Repayments spread across the asset's useful life.</li>
-                <li>End-of-term options: ownership, renewal, or upgrade.</li>
-              </ol>
-            </CardContent>
-          </Card>
-        </section>
-
-        {/* Benefits & Risks */}
-        <section className="mb-12">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <Card className="border-green-200 bg-green-50">
-              <CardHeader>
-                <CardTitle className="text-xl text-green-800">Benefits</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-green-700">
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Access modern technology without upfront capital
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Match repayments to asset productivity
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Tax advantages through depreciation and deductions
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-4 h-4 mr-2" />
-                    Flexible structures tailored to asset type
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="border-orange-200 bg-orange-50">
-              <CardHeader>
-                <CardTitle className="text-xl text-orange-800">Risks</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-orange-700">
-                  <li className="flex items-center">
-                    <AlertTriangle className="w-4 h-4 mr-2" />
-                    Equipment may depreciate faster than the loan term
-                  </li>
-                  <li className="flex items-center">
-                    <AlertTriangle className="w-4 h-4 mr-2" />
-                    Missed payments risk repossession
-                  </li>
-                  <li className="flex items-center">
-                    <AlertTriangle className="w-4 h-4 mr-2" />
-                    Leasing may cost more than outright purchase long term
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
-        {/* Eligible Equipment */}
-        <section className="mb-12">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-2xl">Eligible Equipment</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold mb-3">Heavy Machinery</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Construction equipment
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Mining machinery
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Manufacturing equipment
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-3">Transport & Technology</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Trucks, buses, and transport fleets
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Medical and dental equipment
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Office and IT technology
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                      Agricultural tools
-                    </li>
-                  </ul>
-                </div>
+              <div className="mt-4 p-4 bg-muted/50 rounded-lg">
+                <p className="text-sm text-muted-foreground">
+                  <strong>Learn more:</strong> For detailed information on equipment finance structures, tax benefits, and industry-specific applications, see our <Link to="/resources/guides/equipment-finance-and-leasing-australia" className="text-primary hover:underline">comprehensive Equipment Finance guide</Link>.
+                </p>
               </div>
             </CardContent>
           </Card>
         </section>
 
-        {/* Case Study */}
+        {/* Quick Stats */}
         <section className="mb-12">
-          <Card className="bg-gradient-to-r from-primary/10 to-primary/5">
-            <CardHeader>
-              <CardTitle className="text-2xl">Case Study: Medical Equipment Upgrade</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-lg">
-                A Sydney dental clinic needed to replace X-ray machines costing $300,000. With equipment finance, the lender funded the purchase, and repayments were spread over 5 years. The clinic upgraded its services without depleting cash reserves.
-              </p>
-            </CardContent>
-          </Card>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">$10K+</div>
+                <p className="text-sm text-muted-foreground">Minimum Amount</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">2-7 yrs</div>
+                <p className="text-sm text-muted-foreground">Typical Terms</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">24-48h</div>
+                <p className="text-sm text-muted-foreground">Approval Time</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">All</div>
+                <p className="text-sm text-muted-foreground">Industries</p>
+              </CardContent>
+            </Card>
+          </div>
         </section>
 
         {/* FAQs */}
@@ -347,10 +248,6 @@ const EquipmentFinance = () => {
                   {
                     question: "Do I own the equipment during finance?",
                     answer: "Depends on product type — some provide ownership, others don't until final payment."
-                  },
-                  {
-                    question: "Can start-ups access equipment finance?",
-                    answer: "Yes, though stricter conditions or guarantees may apply for new businesses."
                   }
                 ].map((faq, index) => (
                   <AccordionItem key={index} value={`item-${index}`}>
@@ -382,6 +279,22 @@ const EquipmentFinance = () => {
                 <CardContent className="p-4">
                   <h3 className="font-semibold">Working Capital</h3>
                   <p className="text-sm text-muted-foreground">General business funding for operations</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link to="/services/asset-backed-lending" className="block">
+              <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+                <CardContent className="p-4">
+                  <h3 className="font-semibold">Asset Backed Lending</h3>
+                  <p className="text-sm text-muted-foreground">Leverage business assets</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link to="/services/bridging-finance" className="block">
+              <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+                <CardContent className="p-4">
+                  <h3 className="font-semibold">Bridging Finance</h3>
+                  <p className="text-sm text-muted-foreground">Short-term property finance</p>
                 </CardContent>
               </Card>
             </Link>

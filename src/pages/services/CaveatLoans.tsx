@@ -61,14 +61,6 @@ const CaveatLoans = () => {
               "text": "Yes, provided there is sufficient equity and the mortgage terms allow it."
             }
           },
-          {
-            "@type": "Question",
-            "name": "Are caveat loans for personal use?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No, they are designed for business purposes only."
-            }
-          }
         ]
       }
     ]
@@ -197,122 +189,45 @@ const CaveatLoans = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p>
-                A caveat loan is a short-term funding solution that allows businesses to quickly release equity from property. Unlike a full mortgage, a caveat is a legal notice lodged on the property's title that prevents sale or further encumbrance without the lender's consent.
+                A caveat loan is a short-term funding solution that allows businesses to quickly release equity from property. Unlike a full mortgage, a caveat is a legal notice lodged on the property's title that prevents sale or further encumbrance without the lender's consent. Funds are typically released within 24-48 hours with terms of 1-12 months.
               </p>
-              
-              <h3 className="text-xl font-semibold mt-6 mb-4">How Caveat Loans Work</h3>
-              <ol className="list-decimal list-inside space-y-2 text-muted-foreground">
-                <li>You apply with details of your property and funding needs.</li>
-                <li>The lender confirms equity and registers a caveat on the property.</li>
-                <li>Funds are released, often within 24–48 hours.</li>
-                <li>Repayment is made through sale, refinance, or business income.</li>
-                <li>Once repaid, the caveat is removed.</li>
-              </ol>
+              <div className="mt-4 p-4 bg-muted/50 rounded-lg">
+                <p className="text-sm text-muted-foreground">
+                  <strong>Learn more:</strong> For detailed information on caveat loan structures, costs, and exit strategies, see our <Link to="/resources/guides/caveat-loans-australia-complete-guide" className="text-primary hover:underline">comprehensive Caveat Loans guide</Link>.
+                </p>
+              </div>
             </CardContent>
           </Card>
         </section>
 
-        {/* Common Uses & Benefits */}
+        {/* Quick Stats */}
         <section className="mb-12">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl">Common Uses</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-                    ATO tax debt repayment to avoid penalties
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-                    Business cash flow — payroll, suppliers, or urgent expenses
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-                    Property settlements where timing is critical
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-                    Creditor payments to prevent winding-up orders
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-5 h-5 mr-2 text-primary mt-0.5 shrink-0" />
-                    Growth opportunities such as bulk stock purchases or contract bidding
-                  </li>
-                </ul>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">24-48h</div>
+                <p className="text-sm text-muted-foreground">Approval Time</p>
               </CardContent>
             </Card>
-
-            <div className="space-y-6">
-              <Card className="border-green-200 bg-green-50">
-                <CardHeader>
-                  <CardTitle className="text-xl text-green-800">Benefits</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-green-700">
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      Ultra-fast approval and funding
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      Minimal documentation required
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      Flexible use for most business purposes
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      Short loan terms reduce long-term commitment
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="border-orange-200 bg-orange-50">
-                <CardHeader>
-                  <CardTitle className="text-xl text-orange-800">Risks</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2 text-orange-700">
-                    <li className="flex items-center">
-                      <AlertTriangle className="w-4 h-4 mr-2" />
-                      Higher interest rates than traditional finance
-                    </li>
-                    <li className="flex items-center">
-                      <AlertTriangle className="w-4 h-4 mr-2" />
-                      Short repayment terms (1–12 months)
-                    </li>
-                    <li className="flex items-center">
-                      <AlertTriangle className="w-4 h-4 mr-2" />
-                      Inability to sell/refinance property until caveat is cleared
-                    </li>
-                    <li className="flex items-center">
-                      <AlertTriangle className="w-4 h-4 mr-2" />
-                      Default may lead to legal enforcement
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">1-12mo</div>
+                <p className="text-sm text-muted-foreground">Loan Terms</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">60% LVR</div>
+                <p className="text-sm text-muted-foreground">Max Property</p>
+              </CardContent>
+            </Card>
+            <Card className="text-center">
+              <CardContent className="pt-6">
+                <div className="text-3xl font-bold text-primary mb-2">Minimal</div>
+                <p className="text-sm text-muted-foreground">Documentation</p>
+              </CardContent>
+            </Card>
           </div>
-        </section>
-
-        {/* Case Study */}
-        <section className="mb-12">
-          <Card className="bg-gradient-to-r from-primary/10 to-primary/5">
-            <CardHeader>
-              <CardTitle className="text-2xl">Case Study: ATO Debt Clearance</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-lg">
-                A Melbourne transport company had an urgent $250,000 ATO debt with 14 days to pay. They owned a depot valued at $1.5m with a $600k mortgage. A caveat loan of $300k was approved and settled in 48 hours. The debt was cleared, and the loan repaid six months later after refinancing with a mainstream lender.
-              </p>
-            </CardContent>
-          </Card>
         </section>
 
         {/* FAQs */}
@@ -333,10 +248,6 @@ const CaveatLoans = () => {
                   {
                     question: "Can I have an existing mortgage?",
                     answer: "Yes, provided there is sufficient equity and the mortgage terms allow it."
-                  },
-                  {
-                    question: "Are caveat loans for personal use?",
-                    answer: "No, they are designed for business purposes only."
                   }
                 ].map((faq, index) => (
                   <AccordionItem key={index} value={`item-${index}`}>
@@ -368,6 +279,22 @@ const CaveatLoans = () => {
                 <CardContent className="p-4">
                   <h3 className="font-semibold">Working Capital</h3>
                   <p className="text-sm text-muted-foreground">Designed for ongoing liquidity needs</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link to="/services/asset-backed-lending" className="block">
+              <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+                <CardContent className="p-4">
+                  <h3 className="font-semibold">Asset Backed Lending</h3>
+                  <p className="text-sm text-muted-foreground">Leverage business assets</p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link to="/services/first-second-mortgages" className="block">
+              <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+                <CardContent className="p-4">
+                  <h3 className="font-semibold">First & Second Mortgages</h3>
+                  <p className="text-sm text-muted-foreground">Property-secured finance</p>
                 </CardContent>
               </Card>
             </Link>
