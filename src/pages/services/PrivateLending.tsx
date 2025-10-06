@@ -19,27 +19,15 @@ const PrivateLending = () => {
   const faqs = [
     {
       question: "When should I consider private lending over traditional bank finance?",
-      answer: "Private lending is ideal when you need fast approvals, have been declined by banks, require flexible terms, or have unique circumstances. It's particularly suitable for property development, business acquisitions, bridging finance, or when time-sensitive opportunities arise that banks can't accommodate quickly enough."
-    },
-    {
-      question: "What interest rates and fees apply to private lending facilities?",
-      answer: "Private lending rates typically range from 8-20% per annum depending on risk, security, and loan terms. Fees include establishment costs (1-3% of loan amount), ongoing fees, and potential exit fees. While rates are higher than banks, the speed and flexibility often justify the premium."
+      answer: "When you need fast approvals, have been declined by banks, or have time-sensitive opportunities that require flexible terms."
     },
     {
       question: "How quickly can private lending be arranged?",
-      answer: "Private lending can be approved within 24-48 hours and settled within 5-10 business days, significantly faster than traditional bank processes. Quick decisions are possible due to streamlined documentation requirements and relationship-based assessment approaches."
+      answer: "Approvals within 24-48 hours and settlements within 5-10 business days, much faster than bank processes."
     },
     {
-      question: "What security is required for private lending facilities?",
-      answer: "Private lenders typically require first or second mortgage security over real estate. Some lenders accept other assets like equipment, inventory, or business assets. Security ratios are usually conservative (60-80% of asset values) to protect both borrower and lender interests."
-    },
-    {
-      question: "Can private lending help if I have credit issues or complex situations?",
-      answer: "Yes, private lenders focus on security and exit strategy rather than credit history alone. They can accommodate past credit issues, complex business structures, or unusual situations that traditional lenders won't consider, provided adequate security and repayment capacity exists."
-    },
-    {
-      question: "What are the typical loan terms and repayment options?",
-      answer: "Private loans typically range from 3-36 months with interest-only payments during the term. Some lenders offer principal and interest options or capitalized interest structures. Terms are usually shorter than bank loans but can be extended or refinanced if needed."
+      question: "Can private lending help if I have credit issues?",
+      answer: "Yes, private lenders focus on security and exit strategy rather than credit history alone."
     }
   ];
 
@@ -111,17 +99,14 @@ const PrivateLending = () => {
             <Card>
               <CardContent className="p-8">
                 <h2 className="text-3xl font-bold mb-6">What is Private Lending?</h2>
-                <div className="prose max-w-none text-muted-foreground mb-6">
-                  <p className="text-lg mb-4">
-                    Private lending involves non-bank financial institutions and private capital sources providing business 
-                    and property finance outside the traditional banking system. These specialized lenders offer flexible, 
-                    fast-approval loans for borrowers who need quick decisions or have complex situations that banks won't accommodate.
-                  </p>
-                  <p className="mb-4">
-                    Private lenders focus on security and exit strategy rather than rigid credit policies, enabling them to 
-                    approve loans within 24-48 hours and settle within days. This approach is invaluable for time-sensitive 
-                    opportunities, development projects, and businesses that need immediate access to capital without lengthy 
-                    bank approval processes.
+                <p className="text-lg text-muted-foreground mb-6">
+                  Private lending provides fast, flexible non-bank finance when traditional lenders can't meet your needs. 
+                  With approvals in 24-48 hours and focus on security rather than credit history, private lenders enable 
+                  quick access to capital for time-sensitive opportunities.
+                </p>
+                <div className="p-4 bg-accent/5 rounded-lg border border-accent/20">
+                  <p className="text-sm text-muted-foreground">
+                    <strong>Learn more:</strong> Read our comprehensive <Link to="/resources/guides/what-is-private-lending-australia" className="text-accent hover:underline">Private Lending Guide</Link> for detailed information.
                   </p>
                 </div>
               </CardContent>

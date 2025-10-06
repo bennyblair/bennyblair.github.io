@@ -61,6 +61,27 @@ const BusinessAcquisition = () => {
           <p className="text-xl text-muted-foreground mb-8">
             Secure funding to acquire established businesses and expand your operations. From $200K to $50M+ with flexible terms and strategic structuring.
           </p>
+          
+          {/* Key Takeaways */}
+          <Card className="bg-muted/30 mb-8 text-left">
+            <CardHeader>
+              <CardTitle className="text-lg flex items-center">
+                <TrendingUp className="mr-2 h-5 w-5 text-accent" />
+                Key Takeaways
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ul className="space-y-2">
+                {keyTakeaways.map((takeaway, index) => (
+                  <li key={index} className="flex items-start">
+                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
+                    <span className="text-sm text-muted-foreground">{takeaway}</span>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="bg-accent hover:bg-accent-light text-accent-foreground">
               <Link to="/contact">Get Quote</Link>
@@ -115,6 +136,73 @@ const BusinessAcquisition = () => {
           </div>
         </section>
 
+        {/* What is Business Acquisition Finance */}
+        <section className="mb-16">
+          <Card>
+            <CardContent className="p-8">
+              <h2 className="text-3xl font-bold mb-6">What is Business Acquisition Finance?</h2>
+              <p className="text-lg text-muted-foreground mb-6">
+                Business acquisition finance provides funding to purchase existing businesses with established operations, proven 
+                revenue streams, and customer bases. This enables rapid expansion into new markets or consolidation of industry 
+                positions without building from scratch.
+              </p>
+              <div className="p-4 bg-accent/5 rounded-lg border border-accent/20">
+                <p className="text-sm text-muted-foreground">
+                  <strong>Learn more:</strong> Read our comprehensive <Link to="/resources/guides/business-acquisition-finance-australia" className="text-accent hover:underline">Business Acquisition Guide</Link> for detailed information.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="mb-16">
+          <Card>
+            <CardContent className="p-8">
+              <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
+              <Accordion type="single" collapsible className="w-full">
+                {faqs.map((faq, index) => (
+                  <AccordionItem key={index} value={`item-${index}`}>
+                    <AccordionTrigger className="text-left">
+                      {faq.question}
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground">
+                      {faq.answer}
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Internal Links */}
+        <section className="mb-16">
+          <Card>
+            <CardContent className="p-8">
+              <h2 className="text-2xl font-bold mb-6">Related Finance Solutions</h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <Link to="/services/private-lending" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">Private Lending</h3>
+                  <p className="text-sm text-muted-foreground">Fast non-bank finance</p>
+                </Link>
+                <Link to="/services/working-capital" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">Working Capital</h3>
+                  <p className="text-sm text-muted-foreground">Operational funding</p>
+                </Link>
+                <Link to="/services/asset-backed-lending" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">Asset-Backed Lending</h3>
+                  <p className="text-sm text-muted-foreground">Secured financing</p>
+                </Link>
+                <Link to="/contact" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
+                  <h3 className="font-semibold mb-2">Deal Assessment</h3>
+                  <p className="text-sm text-muted-foreground">Free consultation</p>
+                </Link>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* Acquisition Types */}
         <section className="mb-16">
           <Card className="premium-card">
@@ -162,6 +250,53 @@ const BusinessAcquisition = () => {
           </Card>
         </section>
 
+        {/* Quick Stats */}
+        <section className="mb-16">
+          <Card>
+            <CardContent className="p-8">
+              <div className="text-center mb-8">
+                <h2 className="text-3xl font-bold mb-4">
+                  Acquisition Finance <span className="gradient-text">at a Glance</span>
+                </h2>
+              </div>
+              <div className="grid md:grid-cols-4 gap-6 text-center">
+                <div className="p-6">
+                  <div className="p-4 bg-accent/10 rounded-xl w-fit mx-auto mb-4">
+                    <Briefcase className="h-8 w-8 text-accent" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Loan Amount</h3>
+                  <p className="text-2xl font-bold text-accent mb-1">$200K - $50M+</p>
+                  <p className="text-sm text-muted-foreground">Business value based</p>
+                </div>
+                <div className="p-6">
+                  <div className="p-4 bg-primary/10 rounded-xl w-fit mx-auto mb-4">
+                    <Target className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">LVR</h3>
+                  <p className="text-2xl font-bold text-primary mb-1">60-80%</p>
+                  <p className="text-sm text-muted-foreground">Of purchase price</p>
+                </div>
+                <div className="p-6">
+                  <div className="p-4 bg-accent/10 rounded-xl w-fit mx-auto mb-4">
+                    <TrendingUp className="h-8 w-8 text-accent" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Approval</h3>
+                  <p className="text-2xl font-bold text-accent mb-1">2-4 Weeks</p>
+                  <p className="text-sm text-muted-foreground">Standard timeline</p>
+                </div>
+                <div className="p-6">
+                  <div className="p-4 bg-primary/10 rounded-xl w-fit mx-auto mb-4">
+                    <CheckCircle className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Fast Track</h3>
+                  <p className="text-2xl font-bold text-primary mb-1">48-72 Hours</p>
+                  <p className="text-sm text-muted-foreground">Pre-approval</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* CTA Section */}
         <section className="text-center py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
           <div className="max-w-3xl mx-auto px-8">
@@ -186,6 +321,7 @@ const BusinessAcquisition = () => {
         </section>
       </div>
     </div>
+    </>
   );
 };
 

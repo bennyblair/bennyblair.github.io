@@ -19,27 +19,15 @@ const AssetBackedLending = () => {
   const faqs = [
     {
       question: "What assets can be used as security for asset-backed lending?",
-      answer: "Asset-backed lending accepts various business assets including commercial real estate, manufacturing equipment, vehicle fleets, inventory, accounts receivable, investment portfolios, and business goodwill. The asset must have verifiable value and be readily marketable if enforcement is required."
+      answer: "Commercial property, equipment, inventory, receivables, and business goodwill can all secure asset-backed loans."
     },
     {
       question: "How much can I borrow against my business assets?",
-      answer: "Borrowing capacity varies by asset type: commercial property (up to 80%), equipment (60-70%), inventory (40-60%), and receivables (80-90%). Total facilities can range from $250K to $200M+ depending on the combined value and quality of security assets provided."
+      answer: "Typically 60-80% of asset value depending on type, with total facilities from $250K to $200M+."
     },
     {
       question: "What are the advantages of asset-backed lending over unsecured loans?",
-      answer: "Asset-backed lending typically offers lower interest rates, higher borrowing limits, longer terms, and more flexible repayment structures. Lenders view secured lending as lower risk, which translates to better pricing and terms for borrowers with suitable security assets."
-    },
-    {
-      question: "How are asset values determined for lending purposes?",
-      answer: "Asset valuations are conducted by qualified independent valuers using market-based approaches. Property is valued at current market value, equipment at forced sale value, and receivables at face value less aging provisions. Regular revaluations may be required to maintain borrowing capacity."
-    },
-    {
-      question: "What happens if I can't repay an asset-backed loan?",
-      answer: "If loan defaults occur, lenders have the right to enforce security by selling the pledged assets to recover outstanding amounts. This process follows strict legal procedures with opportunities for borrowers to remedy defaults before enforcement action is taken."
-    },
-    {
-      question: "Can I use multiple assets to secure a single loan facility?",
-      answer: "Yes, combining multiple assets (cross-collateralization) can increase total borrowing capacity and provide flexibility in loan structures. However, this means all pledged assets are at risk if defaults occur, so careful consideration of security arrangements is essential."
+      answer: "Lower interest rates, higher borrowing limits, and more flexible terms due to reduced lender risk."
     }
   ];
 
@@ -107,21 +95,19 @@ const AssetBackedLending = () => {
           </div>
 
           {/* What is Asset-Backed Lending */}
+          {/* What is Asset-Backed Lending */}
           <section className="mb-16">
             <Card>
               <CardContent className="p-8">
                 <h2 className="text-3xl font-bold mb-6">What is Asset-Backed Lending?</h2>
-                <div className="prose max-w-none text-muted-foreground mb-6">
-                  <p className="text-lg mb-4">
-                    Asset-backed lending uses your business assets as security to provide lower-cost financing with higher borrowing 
-                    limits than unsecured loans. By pledging valuable business assets like property, equipment, inventory, or receivables, 
-                    lenders can offer more competitive rates and flexible terms due to the reduced risk profile.
-                  </p>
-                  <p className="mb-4">
-                    This financing approach allows businesses to unlock the equity tied up in their assets while maintaining 
-                    operational control. Whether you need working capital, growth funding, or debt consolidation, asset-backed 
-                    lending provides a pathway to access significant capital at attractive rates by leveraging your existing 
-                    business infrastructure.
+                <p className="text-lg text-muted-foreground mb-6">
+                  Asset-backed lending uses business assets as security to provide lower-cost financing with higher borrowing 
+                  limits than unsecured loans. By leveraging property, equipment, inventory, or receivables, you can access 
+                  competitive rates and flexible terms while maintaining operational control.
+                </p>
+                <div className="p-4 bg-accent/5 rounded-lg border border-accent/20">
+                  <p className="text-sm text-muted-foreground">
+                    <strong>Learn more:</strong> Read our comprehensive <Link to="/resources/guides/asset-backed-lending-and-asset-finance" className="text-accent hover:underline">Asset-Backed Lending Guide</Link> for detailed information.
                   </p>
                 </div>
               </CardContent>

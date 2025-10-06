@@ -19,27 +19,15 @@ const CommercialPropertyDevelopment = () => {
   const faqs = [
     {
       question: "What is commercial property development finance?",
-      answer: "Commercial property development finance provides funding for the acquisition, construction, and completion of commercial property projects. This includes land purchase, construction costs, professional fees, and holding costs during the development phase. Funding is typically released progressively based on construction milestones."
+      answer: "Funding for commercial property projects from land acquisition through construction to completion, released progressively."
     },
     {
       question: "How much can I borrow for development projects?",
-      answer: "Development finance ranges from $500,000 to $100M+ depending on project scope, location, and borrower capacity. Most lenders offer up to 75% of total development costs (TDC) or gross development value (GDV), requiring developers to contribute 25-30% equity or presales."
-    },
-    {
-      question: "What are the typical interest rates and terms?",
-      answer: "Development finance rates are typically 2-4% above standard commercial rates due to higher risk. Terms are usually 6-24 months aligned with construction timeframes, with interest-only payments during construction and principal repayment upon completion or sale."
-    },
-    {
-      question: "What documentation is required for development applications?",
-      answer: "Required documents include development application approvals, construction contracts, quantity surveyor reports, sales evidence for comparable properties, detailed cash flow projections, architect plans, and experienced development team credentials."
-    },
-    {
-      question: "How are funds released during construction?",
-      answer: "Funds are released progressively based on construction milestones verified by quantity surveyors. Typical stages include land settlement, foundation completion, frame/roof completion, lockup stage, practical completion, and final release upon title registration or sale settlement."
+      answer: "From $500K to $100M+ with up to 75% of total development costs, requiring 25-30% equity contribution."
     },
     {
       question: "What types of commercial developments can be financed?",
-      answer: "We finance various commercial developments including office buildings, retail centers, industrial facilities, mixed-use projects, subdivision developments, and specialised commercial facilities. Each project is assessed based on location, market demand, and development team experience."
+      answer: "Office buildings, retail centers, industrial facilities, mixed-use projects, and subdivision developments."
     }
   ];
 
@@ -130,31 +118,15 @@ const CommercialPropertyDevelopment = () => {
             <Card>
               <CardContent className="p-8">
                 <h2 className="text-3xl font-bold mb-6">What is Commercial Property Development Finance?</h2>
-                <div className="prose max-w-none text-muted-foreground mb-6">
-                  <p className="text-lg mb-4">
-                    Commercial property development finance provides comprehensive funding for developing commercial real estate projects 
-                    from initial land acquisition through to project completion. This specialized financing covers land purchase costs, 
-                    construction expenses, professional fees, and holding costs throughout the development phase.
+                <p className="text-lg text-muted-foreground mb-6">
+                  Commercial property development finance provides funding from land acquisition through construction to completion, 
+                  with progressive releases aligned to verified milestones. This optimizes cash flow while managing risk throughout 
+                  the development phase.
+                </p>
+                <div className="p-4 bg-accent/5 rounded-lg border border-accent/20">
+                  <p className="text-sm text-muted-foreground">
+                    <strong>Learn more:</strong> Read our comprehensive <Link to="/resources/guides/commercial-property-development-finance" className="text-accent hover:underline">Development Finance Guide</Link> for detailed information.
                   </p>
-                  <p className="mb-4">
-                    Unlike traditional property loans, development finance is structured with progressive funding releases aligned to 
-                    construction milestones, verified by independent quantity surveyors. This approach manages risk for lenders while 
-                    optimizing cash flow for developers, ensuring funds are available when needed without paying interest on unused capital.
-                  </p>
-                </div>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="p-4 bg-accent/5 rounded-lg">
-                    <h3 className="font-semibold text-lg mb-2">Land Acquisition</h3>
-                    <p className="text-sm">Initial funding for site purchase and preparation costs</p>
-                  </div>
-                  <div className="p-4 bg-primary/5 rounded-lg">
-                    <h3 className="font-semibold text-lg mb-2">Construction Phase</h3>
-                    <p className="text-sm">Progressive releases aligned with building milestones</p>
-                  </div>
-                  <div className="p-4 bg-accent/5 rounded-lg">
-                    <h3 className="font-semibold text-lg mb-2">Project Completion</h3>
-                    <p className="text-sm">Final funding for completion and exit strategy implementation</p>
-                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -208,52 +180,46 @@ const CommercialPropertyDevelopment = () => {
             </Card>
           </section>
 
-        {/* Key Features */}
-        <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          <Card className="premium-card">
-            <CardHeader>
-              <div className="p-4 bg-accent/10 rounded-xl w-fit mb-4">
-                <Building2 className="h-8 w-8 text-accent" />
-              </div>
-              <CardTitle className="text-2xl">Development Solutions</CardTitle>
-              <CardDescription>
-                End-to-end development financing options
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                {features.map((feature, index) => (
-                  <li key={index} className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-accent mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
+          {/* Key Features */}
+          <section className="mb-16">
+            <div className="grid lg:grid-cols-3 gap-8">
+              <Card className="premium-card">
+                <CardHeader className="text-center">
+                  <Building2 className="h-12 w-12 text-primary mx-auto mb-4" />
+                  <CardTitle>Land to Completion</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-center">
+                    Comprehensive funding from land acquisition through construction to project completion and settlement.
+                  </CardDescription>
+                </CardContent>
+              </Card>
 
-          <Card className="premium-card">
-            <CardHeader>
-              <div className="p-4 bg-primary/10 rounded-xl w-fit mb-4">
-                <Shield className="h-8 w-8 text-primary" />
-              </div>
-              <CardTitle className="text-2xl">Key Benefits</CardTitle>
-              <CardDescription>
-                Why choose our development finance
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-3">
-                {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-start">
-                    <CheckCircle className="w-5 h-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground">{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
+              <Card className="premium-card">
+                <CardHeader className="text-center">
+                  <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
+                  <CardTitle>Progressive Releases</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-center">
+                    Funds released at verified construction milestones with professional quantity surveyor oversight.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+
+              <Card className="premium-card">
+                <CardHeader className="text-center">
+                  <Hammer className="h-12 w-12 text-primary mx-auto mb-4" />
+                  <CardTitle>All Project Types</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-center">
+                    Office, retail, industrial, mixed-use, and subdivision developments across Australia.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
 
         {/* Loan Details */}
         <Card className="mb-16">

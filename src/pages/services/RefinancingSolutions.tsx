@@ -19,27 +19,15 @@ const RefinancingSolutions = () => {
   const faqs = [
     {
       question: "When should I consider refinancing my commercial property loans?",
-      answer: "Consider refinancing when interest rates have dropped, your business financial position has improved, you need additional funding, or want to consolidate multiple loans. Also consider refinancing if loan terms are restrictive, you want to remove guarantees, or access equity for business growth opportunities."
+      answer: "When rates drop, your financial position improves, you need additional funding, or want to consolidate multiple loans."
     },
     {
       question: "How much can I save through commercial loan refinancing?",
-      answer: "Savings vary but typically range from 1-3% per annum in interest rate reductions, plus potential fee savings from consolidation. On a $1M loan, a 2% rate reduction saves $20,000 annually. Additional savings come from improved terms, reduced fees, and better cash flow management."
-    },
-    {
-      question: "What costs are involved in refinancing commercial loans?",
-      answer: "Refinancing costs include application fees, valuation fees, legal costs, and potential break costs on existing loans. These typically range from $5,000-$15,000 but are often offset by interest savings within 6-12 months. Some lenders may contribute to costs for quality applications."
-    },
-    {
-      question: "How long does the commercial refinancing process take?",
-      answer: "Commercial refinancing typically takes 4-8 weeks from application to settlement. This includes credit assessment, property valuation, legal documentation, and settlement coordination. Existing client relationships and complete documentation can expedite the process."
+      answer: "Typically 1-3% per annum in interest rate reductions. On a $1M loan, a 2% reduction saves $20,000 annually."
     },
     {
       question: "Can I access additional funds when refinancing?",
-      answer: "Yes, refinancing often provides access to additional funds through increased borrowing capacity or accessing property equity growth. You can typically borrow up to 80% of current property values, potentially releasing significant capital for business expansion or debt consolidation."
-    },
-    {
-      question: "What documentation is required for refinancing applications?",
-      answer: "Required documents include current loan statements, financial statements (2-3 years), tax returns, property valuations, rent rolls for investment properties, and details of proposed use for additional funds. Lenders also require current business trading information and projected cash flows."
+      answer: "Yes, you can access equity growth and borrow up to 80% of current property values for expansion or consolidation."
     }
   ];
 
@@ -112,16 +100,14 @@ const RefinancingSolutions = () => {
             <Card>
               <CardContent className="p-8">
                 <h2 className="text-3xl font-bold mb-6">What is Commercial Loan Refinancing?</h2>
-                <div className="prose max-w-none text-muted-foreground mb-6">
-                  <p className="text-lg mb-4">
-                    Commercial loan refinancing involves replacing existing business or property loans with new financing that offers 
-                    better terms, rates, or features. This strategic financial move can significantly reduce borrowing costs, improve 
-                    cash flow, and provide access to additional capital for business growth.
-                  </p>
-                  <p className="mb-4">
-                    Refinancing opportunities arise when market conditions improve, your business strengthens, or property values increase. 
-                    The process involves comprehensive analysis of current loans, market comparison, and strategic restructuring to 
-                    optimize your financing arrangements for maximum benefit.
+                <p className="text-lg text-muted-foreground mb-6">
+                  Commercial loan refinancing replaces existing loans with new financing offering better rates, terms, or features. 
+                  This strategic move can reduce borrowing costs, improve cash flow, and provide access to additional capital for 
+                  business growth.
+                </p>
+                <div className="p-4 bg-accent/5 rounded-lg border border-accent/20">
+                  <p className="text-sm text-muted-foreground">
+                    <strong>Learn more:</strong> Read our comprehensive <Link to="/resources/guides/commercial-property-refinancing-solutions" className="text-accent hover:underline">Refinancing Guide</Link> for detailed information.
                   </p>
                 </div>
               </CardContent>
@@ -217,52 +203,52 @@ const RefinancingSolutions = () => {
           </div>
         </section>
 
-        {/* Benefits */}
-        <section className="mb-16">
-          <Card className="premium-card">
-            <CardHeader>
-              <CardTitle className="text-2xl">Refinancing Benefits</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-lg font-semibold mb-4">Financial Advantages</h3>
-                  <ul className="space-y-3">
-                    {[
-                      "Reduced interest rates and fees",
-                      "Improved monthly cash flow",
-                      "Access to additional funding",
-                      "Tax-efficient debt structuring",
-                      "Better loan terms and conditions"
-                    ].map((benefit, index) => (
-                      <li key={index} className="flex items-center">
-                        <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                        <span>{benefit}</span>
-                      </li>
-                    ))}
-                  </ul>
+          {/* Quick Stats */}
+          <section className="mb-16">
+            <Card>
+              <CardContent className="p-8">
+                <div className="text-center mb-8">
+                  <h2 className="text-3xl font-bold mb-4">
+                    Refinancing <span className="gradient-text">at a Glance</span>
+                  </h2>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-4">Strategic Options</h3>
-                  <ul className="space-y-3">
-                    {[
-                      "Consolidate multiple properties",
-                      "Switch from P&I to interest-only",
-                      "Access equity for expansion",
-                      "Improve loan flexibility",
-                      "Remove guarantors or security"
-                    ].map((option, index) => (
-                      <li key={index} className="flex items-center">
-                        <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                        <span>{option}</span>
-                      </li>
-                    ))}
-                  </ul>
+                <div className="grid md:grid-cols-4 gap-6 text-center">
+                  <div className="p-6">
+                    <div className="p-4 bg-accent/10 rounded-xl w-fit mx-auto mb-4">
+                      <TrendingDown className="h-8 w-8 text-accent" />
+                    </div>
+                    <h3 className="font-semibold text-lg mb-2">Rate Savings</h3>
+                    <p className="text-2xl font-bold text-accent mb-1">1-3%</p>
+                    <p className="text-sm text-muted-foreground">Per annum reduction</p>
+                  </div>
+                  <div className="p-6">
+                    <div className="p-4 bg-primary/10 rounded-xl w-fit mx-auto mb-4">
+                      <Calculator className="h-8 w-8 text-primary" />
+                    </div>
+                    <h3 className="font-semibold text-lg mb-2">Loan Amount</h3>
+                    <p className="text-2xl font-bold text-primary mb-1">$250K - $100M+</p>
+                    <p className="text-sm text-muted-foreground">Plus equity access</p>
+                  </div>
+                  <div className="p-6">
+                    <div className="p-4 bg-accent/10 rounded-xl w-fit mx-auto mb-4">
+                      <RefreshCw className="h-8 w-8 text-accent" />
+                    </div>
+                    <h3 className="font-semibold text-lg mb-2">Processing</h3>
+                    <p className="text-2xl font-bold text-accent mb-1">4-8 Weeks</p>
+                    <p className="text-sm text-muted-foreground">To settlement</p>
+                  </div>
+                  <div className="p-6">
+                    <div className="p-4 bg-primary/10 rounded-xl w-fit mx-auto mb-4">
+                      <CheckCircle className="h-8 w-8 text-primary" />
+                    </div>
+                    <h3 className="font-semibold text-lg mb-2">Payback</h3>
+                    <p className="text-2xl font-bold text-primary mb-1">6-12 Months</p>
+                    <p className="text-sm text-muted-foreground">Cost recovery</p>
+                  </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
+              </CardContent>
+            </Card>
+          </section>
 
         {/* CTA Section */}
         <section className="text-center py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">

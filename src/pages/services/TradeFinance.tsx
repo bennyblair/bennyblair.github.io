@@ -19,27 +19,15 @@ const TradeFinance = () => {
   const faqs = [
     {
       question: "What types of trade finance facilities are available for importers?",
-      answer: "Import finance options include letters of credit, documentary collections, inventory funding, pre-shipment finance, and foreign exchange hedging. These facilities help manage cash flow gaps between ordering goods and receiving payment from customers, while providing security for overseas suppliers."
+      answer: "Letters of credit, inventory funding, pre-shipment finance, documentary collections, and foreign exchange hedging."
     },
     {
-      question: "How does export invoice factoring work for Australian businesses?",
-      answer: "Export factoring involves selling your export invoices to a financier for immediate cash flow, typically 80-90% of invoice value within 24-48 hours. The factor handles collection from overseas buyers and provides protection against non-payment, while you retain customer relationships."
-    },
-    {
-      question: "What documentation is required for trade finance applications?",
-      answer: "Trade finance applications require business financials, trade history, customer/supplier details, purchase orders or sales contracts, shipping documents, and details of the goods being traded. Bank statements, credit checks on trading partners, and insurance documentation may also be required."
-    },
-    {
-      question: "Can trade finance help with foreign exchange risk management?",
-      answer: "Yes, trade finance facilities often include foreign exchange hedging options such as forward contracts, options, and currency swaps. These tools help protect against adverse currency movements and provide certainty over future cash flows in foreign currency transactions."
-    },
-    {
-      question: "What are the costs and fees associated with trade finance?",
-      answer: "Trade finance costs vary by facility type and include interest rates (typically 8-18% for short-term facilities), establishment fees, letter of credit issuance fees, and foreign exchange margins. Factoring typically charges 2-5% of invoice value plus interest on advances."
+      question: "How does export invoice factoring work?",
+      answer: "Sell export invoices for 80-90% upfront within 24-48 hours, with factor handling collection and payment protection."
     },
     {
       question: "How quickly can trade finance facilities be established?",
-      answer: "Simple facilities like invoice factoring can be established within 5-10 business days. More complex arrangements like letters of credit may take 2-4 weeks depending on documentation requirements and credit approvals. Existing banking relationships can expedite the process."
+      answer: "Invoice factoring within 5-10 days, letters of credit within 2-4 weeks depending on complexity."
     }
   ];
 
@@ -146,69 +134,68 @@ const TradeFinance = () => {
           </div>
         </section>
 
-        {/* Trade Services */}
-        <section className="mb-16">
-          <Card className="premium-card">
-            <CardHeader>
-              <CardTitle className="text-2xl">Trade Finance Services</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-lg font-semibold mb-4">Import Finance</h3>
-                  <ul className="space-y-3">
-                    {[
-                      "Import letters of credit",
-                      "Inventory and stock funding",
-                      "Pre-shipment finance",
-                      "Documentary collections",
-                      "Foreign exchange hedging"
-                    ].map((service, index) => (
-                      <li key={index} className="flex items-center">
-                        <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                        <span>{service}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-4">Export Finance</h3>
-                  <ul className="space-y-3">
-                    {[
-                      "Export invoice factoring",
-                      "Pre-export finance",
-                      "Export credit insurance",
-                      "Performance guarantees",
-                      "Multi-currency facilities"
-                    ].map((service, index) => (
-                      <li key={index} className="flex items-center">
-                        <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0" />
-                        <span>{service}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
 
         {/* What is Trade Finance */}
         <section className="mb-16">
           <Card>
             <CardContent className="p-8">
               <h2 className="text-3xl font-bold mb-6">What is Trade Finance?</h2>
-              <div className="prose max-w-none text-muted-foreground mb-6">
-                <p className="text-lg mb-4">
-                  Trade finance encompasses various financial instruments and facilities that support international trade by providing 
-                  working capital, reducing payment risks, and facilitating the movement of goods between countries. These specialized 
-                  financing solutions help businesses manage the complex cash flow and risk challenges of global commerce.
+              <p className="text-lg text-muted-foreground mb-6">
+                Trade finance provides working capital, reduces payment risks, and facilitates international commerce through 
+                specialized instruments like letters of credit and invoice factoring. These solutions bridge cash flow gaps in 
+                the global trade cycle.
+              </p>
+              <div className="p-4 bg-accent/5 rounded-lg border border-accent/20">
+                <p className="text-sm text-muted-foreground">
+                  <strong>Learn more:</strong> Read our comprehensive <Link to="/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports" className="text-accent hover:underline">Trade Finance Guide</Link> for detailed information.
                 </p>
-                <p className="mb-4">
-                  From letters of credit that secure payments between trading partners to invoice factoring that provides immediate 
-                  cash flow from export sales, trade finance bridges the gap between sending goods and receiving payment. Our 
-                  solutions support the entire trade cycle, from pre-shipment finance to post-delivery collections.
-                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Quick Stats */}
+        <section className="mb-16">
+          <Card>
+            <CardContent className="p-8">
+              <div className="text-center mb-8">
+                <h2 className="text-3xl font-bold mb-4">
+                  Trade Finance <span className="gradient-text">at a Glance</span>
+                </h2>
+              </div>
+              <div className="grid md:grid-cols-4 gap-6 text-center">
+                <div className="p-6">
+                  <div className="p-4 bg-accent/10 rounded-xl w-fit mx-auto mb-4">
+                    <Globe className="h-8 w-8 text-accent" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Facility Size</h3>
+                  <p className="text-2xl font-bold text-accent mb-1">$100K - $25M+</p>
+                  <p className="text-sm text-muted-foreground">Trade volumes</p>
+                </div>
+                <div className="p-6">
+                  <div className="p-4 bg-primary/10 rounded-xl w-fit mx-auto mb-4">
+                    <Ship className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Setup Time</h3>
+                  <p className="text-2xl font-bold text-primary mb-1">5-10 Days</p>
+                  <p className="text-sm text-muted-foreground">For factoring</p>
+                </div>
+                <div className="p-6">
+                  <div className="p-4 bg-accent/10 rounded-xl w-fit mx-auto mb-4">
+                    <CreditCard className="h-8 w-8 text-accent" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Advance Rate</h3>
+                  <p className="text-2xl font-bold text-accent mb-1">80-90%</p>
+                  <p className="text-sm text-muted-foreground">Of invoice value</p>
+                </div>
+                <div className="p-6">
+                  <div className="p-4 bg-primary/10 rounded-xl w-fit mx-auto mb-4">
+                    <CheckCircle className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Payment Speed</h3>
+                  <p className="text-2xl font-bold text-primary mb-1">24-48 Hours</p>
+                  <p className="text-sm text-muted-foreground">Invoice funding</p>
+                </div>
               </div>
             </CardContent>
           </Card>
