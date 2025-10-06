@@ -44,13 +44,24 @@ const BusinessAcquisition = () => {
   ];
 
   return (
-    <div className="min-h-screen py-8">
-      <div className="container mx-auto px-4">
-        <Breadcrumbs items={[
-          { label: "Home", href: "/" },
-          { label: "Services", href: "/services" },
-          { label: "Business Acquisition" }
-        ]} />
+    <>
+      <Helmet>
+        <title>Business Acquisition Finance Australia | Business Purchase Funding | Emet Capital</title>
+        <meta 
+          name="description" 
+          content="Finance business acquisitions from $200K-$50M+ with flexible structures. MBO, LBO & 100% funding options with expert deal structuring." 
+        />
+        <meta name="keywords" content="business acquisition finance, business purchase loans, MBO finance, leveraged buyout, business expansion" />
+        <link rel="canonical" href="https://emetcapital.com.au/services/business-acquisition" />
+      </Helmet>
+      
+      <div className="min-h-screen py-8">
+        <div className="container mx-auto px-4">
+          <Breadcrumbs items={[
+            { label: "Home", href: "/" },
+            { label: "Services", href: "/services" },
+            { label: "Business Acquisition" }
+          ]} />
 
         {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-16">
