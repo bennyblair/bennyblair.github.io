@@ -1,7 +1,7 @@
 ---
 title: "Building Development Loans: Complete Funding Guide for Developers"
 description: "Complete guide to building development loans for Australian developers. Learn about funding stages, costs, requirements, and how to secure project finance."
-date: "2025-01-10"
+date: "2025-10-11"
 category: "Property Finance"
 slug: "building-development-loans-funding-guide"
 keywords: ["building development loans", "property development finance", "construction funding", "development loan stages", "developer finance", "property development", "construction loans", "development finance Australia"]

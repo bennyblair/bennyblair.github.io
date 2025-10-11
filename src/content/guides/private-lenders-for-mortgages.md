@@ -1,7 +1,7 @@
 ---
 title: "Private Mortgage Lenders: When Banks Say No"
 description: "Rejected by banks? Private lenders for mortgages offer flexible solutions with 48-hour approvals. Learn costs, requirements & how to qualify in Australia."
-date: "2025-01-10"
+date: "2025-10-11"
 category: "Property Finance"
 slug: "private-lenders-for-mortgages"
 keywords:

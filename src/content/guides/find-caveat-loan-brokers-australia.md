@@ -1,7 +1,7 @@
 ---
 title: "How to Find Caveat Loan Brokers in Australia [2025]"
 description: "Learn how to find and vet caveat loan brokers in Australia. Expert selection criteria, questions to ask, and red flags to avoid when choosing brokers."
-date: "2025-01-10"
+date: "2025-10-11"
 category: "Property Finance"
 slug: "find-caveat-loan-brokers-australia"
 keywords: ["caveat loan brokers", "find caveat broker", "caveat loan specialist", "broker selection", "private lending broker", "property finance broker", "caveat finance", "Australian brokers", "broker credentials", "lender panel"]
