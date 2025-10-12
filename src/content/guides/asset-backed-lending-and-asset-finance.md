@@ -357,6 +357,10 @@ Usage restrictions vary by facility type and lender, though funds are generally 
 
 **Stock Take**: Physical count and valuation of inventory items to verify accuracy of reported quantities and values for borrowing base calculations.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Conclusion
 
 Asset-backed lending provides sophisticated financing solutions enabling Australian businesses to unlock capital trapped in productive assets while accessing competitive terms and substantial borrowing capacity. This approach particularly suits businesses with strong asset bases seeking growth capital, working capital solutions, or strategic financing arrangements.

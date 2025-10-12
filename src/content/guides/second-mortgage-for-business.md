@@ -243,7 +243,7 @@ If you're considering a second mortgage for business funding and need expert gui
 
 *This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
 
-*Written by the expert team at Emet Capital, licensed finance brokers specialising in commercial property and business lending across Australia.*
+*Written by the expert team at Emet Capital, experienced commercial finance specialists serving businesses across Australia.*
 
 ## Frequently Asked Questions
 

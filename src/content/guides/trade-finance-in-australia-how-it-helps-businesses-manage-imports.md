@@ -196,6 +196,10 @@ Ongoing fees including commitment fees on unutilized facilities, amendment fees 
 
 Third-party costs including credit insurance premiums, foreign exchange hedging costs, and legal documentation fees should be factored into total transaction cost analysis for accurate comparison purposes.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 <details>

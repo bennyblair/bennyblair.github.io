@@ -57,7 +57,7 @@ const About = () => {
 
   const whyChooseUs = [
     "Extensive network of private and institutional lenders",
-    "No upfront fees - we're paid by successful settlements only",
+    "Success-based fee structure - We'll discuss our complete fee approach upfront",
     "Competitive rates negotiated through our lending relationships", 
     "Streamlined application and approval processes",
     "Australia-wide service coverage",
@@ -210,32 +210,32 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-6">
-                  <div className="text-center p-4 bg-accent/5 rounded-lg">
-                    <div className="text-2xl font-bold text-accent mb-1">No Success, No Fee</div>
-                    <div className="text-sm text-muted-foreground">We only get paid when you get funded</div>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-semibold mb-3">What This Means:</h4>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li className="flex items-center">
-                        <CheckCircle className="w-4 h-4 text-accent mr-2" />
-                        No upfront application fees
-                      </li>
-                      <li className="flex items-center">
-                        <CheckCircle className="w-4 h-4 text-accent mr-2" />
-                        No ongoing management fees
-                      </li>
-                      <li className="flex items-center">
-                        <CheckCircle className="w-4 h-4 text-accent mr-2" />
-                        Commission paid by successful settlement only
-                      </li>
-                      <li className="flex items-center">
-                        <CheckCircle className="w-4 h-4 text-accent mr-2" />
-                        100% aligned with your success
-                      </li>
-                    </ul>
-                  </div>
+                <div className="text-center p-4 bg-accent/5 rounded-lg">
+                  <div className="text-2xl font-bold text-accent mb-1">Transparent Fee Structure</div>
+                  <div className="text-sm text-muted-foreground">Our remuneration is success-based</div>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold mb-3">How We're Compensated:</h4>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent mr-2 mt-0.5 flex-shrink-0" />
+                      <span>Our remuneration comes from successful loan settlements</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent mr-2 mt-0.5 flex-shrink-0" />
+                      <span>This may include lender-paid commissions and/or direct fees</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent mr-2 mt-0.5 flex-shrink-0" />
+                      <span>We'll discuss our complete fee structure upfront</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-accent mr-2 mt-0.5 flex-shrink-0" />
+                      <span>100% aligned with your success</span>
+                    </li>
+                  </ul>
+                </div>
                 </div>
               </CardContent>
             </Card>

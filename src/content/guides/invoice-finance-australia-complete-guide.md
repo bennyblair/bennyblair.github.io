@@ -237,6 +237,10 @@ Trade credit insurance provides bad debt protection without cash flow benefits, 
 
 Supply chain financing arrangements with major customers can provide early payment opportunities while maintaining commercial relationships and potentially improving overall supply chain efficiency. For businesses with multiple funding needs, [working capital loans](/resources/guides/working-capital-loans-for-smes) provide alternative solutions, while [asset-backed lending](/resources/guides/asset-backed-lending-australia) can complement invoice finance for comprehensive funding strategies.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **What's the difference between invoice factoring and invoice discounting?**  

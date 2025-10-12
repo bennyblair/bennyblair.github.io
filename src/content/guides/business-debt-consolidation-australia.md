@@ -281,6 +281,10 @@ Consolidating multiple lender relationships into single arrangements reduces fin
 
 Some lenders prefer businesses with existing multiple relationships as evidence of access to diverse funding sources. Consolidation may impact future credit assessments and borrowing capacity evaluations by prospective lenders.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **When does business debt consolidation make financial sense?**

@@ -134,6 +134,10 @@ Professional advisor engagement including commercial finance brokers, lawyers, a
 
 Regular loan reviews every 2-3 years ensure continued market competitiveness, particularly in changing rate environments. Established owners should proactively assess refinancing opportunities rather than accepting existing arrangements, with professional guidance identifying optimal timing based on market conditions and business circumstances.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 ### What deposit do I need for a commercial property loan?

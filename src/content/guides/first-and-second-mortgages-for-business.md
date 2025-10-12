@@ -130,6 +130,10 @@ Second mortgage lenders focus heavily on equity position and exit strategy docum
 
 Security documentation must clearly establish subordinate positions while protecting lender interests. Inter-creditor agreements may be required to define relationships between first and second mortgage holders.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **What's the main difference between first and second mortgages for business?**

@@ -351,6 +351,10 @@ Yes, vendor finance often combines with bank debt to bridge funding gaps or enab
 
 **Due Diligence**: Comprehensive investigation of target businesses covering financial, operational, legal, and commercial aspects to assess acquisition risks and opportunities.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Conclusion
 
 Business acquisition finance provides essential funding mechanisms enabling strategic business purchases, management buyouts, and entrepreneurial opportunities across the Australian market. Success requires comprehensive understanding of available funding sources, due diligence requirements, and risk management strategies appropriate for different transaction types.

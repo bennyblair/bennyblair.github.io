@@ -297,6 +297,10 @@ Accountants and business advisers provide valuable perspective on working capita
 
 Commercial finance brokers access diverse lender networks and can structure optimal working capital solutions for specific business circumstances. Professional guidance often results in better terms and more suitable financing structures than direct lender approaches.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **What is the difference between working capital loans and business overdrafts?**

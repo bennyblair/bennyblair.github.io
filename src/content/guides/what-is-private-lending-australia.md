@@ -287,6 +287,10 @@ Performance monitoring including security maintenance, insurance compliance, and
 
 Professional property management, regular inspections, and appropriate maintenance programmes help preserve security values while demonstrating responsible borrower management to private lenders throughout loan terms.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **What types of businesses typically use private lending?**

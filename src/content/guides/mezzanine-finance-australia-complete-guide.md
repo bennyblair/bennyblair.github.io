@@ -236,6 +236,10 @@ For businesses exploring permanent capital structures after growth phases, under
 
 Equity value realization for warrant holders requires liquidity events including sales, IPOs, or redemptions, creating alignment but also potential conflicts between lenders seeking exits and owners preferring continued business ownership.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 ### What is mezzanine finance and how does it work?

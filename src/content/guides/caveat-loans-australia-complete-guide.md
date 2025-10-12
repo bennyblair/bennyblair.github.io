@@ -264,6 +264,10 @@ For property-related urgent funding requirements, [bridging finance](/resources/
 
 Bridging loans suit scenarios where urgency spans weeks rather than days, providing cost savings compared to caveats while maintaining relatively rapid execution compared to traditional lending.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 ### How quickly can caveat loans be arranged and funded?

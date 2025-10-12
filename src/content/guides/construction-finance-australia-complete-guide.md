@@ -288,6 +288,10 @@ Export facility construction or strategically important infrastructure may quali
 
 Regional development incentives supporting business expansion into designated areas sometimes provide construction grants or concessions encouraging economic development through infrastructure investment.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 ### How does construction finance differ from development finance?

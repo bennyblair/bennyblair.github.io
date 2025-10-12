@@ -256,6 +256,10 @@ Ultimate payment collection remains critical regardless of earlier-stage funding
 
 Buyer financial deterioration during extended supply chain cycles necessitates proactive monitoring systems, early warning indicators, and contingency planning for payment difficulties or insolvency scenarios.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 ### How does debtor finance differ from invoice finance?

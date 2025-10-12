@@ -283,6 +283,10 @@ Commercial property investments are relatively illiquid compared to other supera
 
 Loan servicing obligations create fixed commitments regardless of rental income variations, requiring conservative cash flow planning and appropriate contingency arrangements. Professional cash flow modelling helps identify potential issues and plan appropriate solutions.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **Can my SMSF borrow money to buy commercial property?**

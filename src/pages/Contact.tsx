@@ -111,7 +111,7 @@ const Contact = () => {
   ];
 
   const benefits = [
-    "No upfront fees - we only get paid when you do",
+    "Success-based fee structure - We'll discuss our complete fee approach upfront",
     "Access to 100+ commercial lenders",
     "Expert guidance through the entire process",
     "Competitive rates and terms",

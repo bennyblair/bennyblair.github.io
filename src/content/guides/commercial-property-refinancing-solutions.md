@@ -297,6 +297,10 @@ Increased debt levels from cash-out refinancing require higher cash flow to serv
 
 Stress testing debt servicing capacity against various scenarios helps ensure sustainable borrowing levels. Conservative debt service coverage ratios provide safety margins for unexpected business or property performance variations.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **When does commercial property refinancing make financial sense?**

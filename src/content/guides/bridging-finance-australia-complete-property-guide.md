@@ -326,6 +326,10 @@ Yes, specialist SMSF bridging lenders provide compliant facilities enabling supe
 
 **Unconditional Offer**: Property purchase offer without subject clauses or conditions, common in auction scenarios and requiring financing certainty for settlement completion.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Conclusion
 
 Bridging finance represents an essential tool in Australian property finance, enabling strategic opportunities, timing flexibility, and transaction execution where traditional lending proves inadequate or inappropriate. The ability to move quickly and structure flexible arrangements often determines success in competitive property markets.

@@ -275,6 +275,10 @@ Total development costs including capitalised interest are projected at $8.5 mil
 
 The exit strategy involves either permanent financing retention as an investment property or complete disposal to commercial property investors. Current market conditions support both options, providing flexibility in final project execution.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **What's the typical loan-to-cost ratio for commercial development finance?**

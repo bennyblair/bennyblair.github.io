@@ -309,6 +309,10 @@ Equipment finance agreements typically provide limited flexibility for early ter
 
 Lease agreements may offer more flexibility through upgrade options, early termination rights, or equipment swap provisions, though these features often carry cost implications. Businesses should evaluate flexibility value against additional costs.
 
+---
+
+*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+
 ## Frequently Asked Questions
 
 **What's the difference between equipment finance and leasing?**
