@@ -1,7 +1,7 @@
 ---
 title: "Caveat Lenders in Australia: 2025 Directory & Comparison"
 description: "Compare caveat lenders in Australia by type, rates, and speed. Learn which lender category suits your urgent property funding needs. General information only."
-date: "2025-01-15"
+date: "2025-10-13"
 author: "Emet Capital"
 category: "Property Finance"
 tags: ["caveat lenders", "private lenders", "fintech lenders", "caveat loans", "urgent property finance", "non-bank lenders"]
