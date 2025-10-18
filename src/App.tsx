@@ -1,6 +1,6 @@
 import { Suspense, lazy } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/toaster";
@@ -72,6 +72,10 @@ const App = () => (
             <Suspense fallback={<LoadingSpinner />}>
               <Routes>
                 <Route path="/" element={<Homepage />} />
+                {/* Legacy URL redirects */}
+                <Route path="/about-us" element={<Navigate to="/about" replace />} />
+                <Route path="/commercial-property-development" element={<Navigate to="/services/commercial-property-development" replace />} />
+                <Route path="/business-investment-expansion" element={<Navigate to="/services/business-acquisition" replace />} />
                 <Route path="/guides" element={<Guides />} />
                 <Route path="/resources" element={<ResourcesHub />} />
                 <Route path="/resources/guides" element={<Guides />} />

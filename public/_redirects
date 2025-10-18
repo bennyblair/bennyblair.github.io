@@ -1,5 +1,7 @@
 # Redirects for old URLs
 /about-us    /about    301
+/commercial-property-development    /services/commercial-property-development    301
+/business-investment-expansion    /services/business-acquisition    301
 /resources/guides/2nd-mortgage-loan    /resources/guides/second-mortgage-for-business-australia    301
 /resources/guides/2nd-mortgage-lenders    /resources/guides/second-mortgage-for-business-australia    301
 /resources/guides/bridging-finance-commercial-property-australia    /resources/guides/bridging-loans-australia    301
