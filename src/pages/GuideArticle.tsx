@@ -536,6 +536,113 @@ const GuideArticle = () => {
           </CardContent>
         </Card>
 
+        {/* Related Services Section */}
+        {contentType === 'guides' && (
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+              Related Finance Solutions
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              {article.tags?.includes('caveat') && (
+                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
+                  <CardContent className="p-6">
+                    <h3 className="font-bold text-foreground mb-3 text-lg">Caveat Loans</h3>
+                    <p className="text-muted-foreground mb-4 text-sm">
+                      Fast access to capital using property as security with 24-48 hour approval.
+                    </p>
+                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
+                      <Link to="/services/caveat-loans">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              )}
+              {(article.tags?.includes('mortgage') || article.tags?.includes('second mortgage')) && (
+                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
+                  <CardContent className="p-6">
+                    <h3 className="font-bold text-foreground mb-3 text-lg">First & Second Mortgages</h3>
+                    <p className="text-muted-foreground mb-4 text-sm">
+                      Access equity in your property for business growth and expansion.
+                    </p>
+                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
+                      <Link to="/services/first-second-mortgages">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              )}
+              {(article.tags?.includes('bridging') || article.tags?.includes('development')) && (
+                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
+                  <CardContent className="p-6">
+                    <h3 className="font-bold text-foreground mb-3 text-lg">Bridging & Development Finance</h3>
+                    <p className="text-muted-foreground mb-4 text-sm">
+                      Short-term funding for property development and time-sensitive opportunities.
+                    </p>
+                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
+                      <Link to="/services/bridging-finance">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              )}
+              {article.tags?.includes('private lending') && (
+                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
+                  <CardContent className="p-6">
+                    <h3 className="font-bold text-foreground mb-3 text-lg">Private Lending</h3>
+                    <p className="text-muted-foreground mb-4 text-sm">
+                      Flexible finance solutions when traditional banks can't help.
+                    </p>
+                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
+                      <Link to="/services/private-lending">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              )}
+              {(article.tags?.includes('commercial property') || article.tags?.includes('property development')) && (
+                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
+                  <CardContent className="p-6">
+                    <h3 className="font-bold text-foreground mb-3 text-lg">Commercial Property Development</h3>
+                    <p className="text-muted-foreground mb-4 text-sm">
+                      Specialized finance for commercial property development projects.
+                    </p>
+                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
+                      <Link to="/services/commercial-property-development">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              )}
+              {article.tags?.includes('working capital') && (
+                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
+                  <CardContent className="p-6">
+                    <h3 className="font-bold text-foreground mb-3 text-lg">Working Capital</h3>
+                    <p className="text-muted-foreground mb-4 text-sm">
+                      Fund day-to-day operations and grow your business with flexible capital.
+                    </p>
+                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
+                      <Link to="/services/working-capital">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
           <section id="related-articles">

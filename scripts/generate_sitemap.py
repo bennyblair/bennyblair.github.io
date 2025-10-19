@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration
-DOMAIN = "https://emetcapital.com.au"
+DOMAIN = "https://www.emetcapital.com.au"
 CONTENT_DIRS = {
     'guides': 'src/content/guides',
     'case-studies': 'src/content/case-studies', 
@@ -115,27 +115,31 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/resources/guides", 'priority': '0.8', 'changefreq': 'daily'},
         {'url': f"{DOMAIN}/resources/case-studies", 'priority': '0.8', 'changefreq': 'daily'},
         {'url': f"{DOMAIN}/resources/insights", 'priority': '0.8', 'changefreq': 'daily'},
-        {'url': f"{DOMAIN}/resources/tools", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/resources/tools", 'priority': '0.7', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/resources/faqs", 'priority': '0.5', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/glossary", 'priority': '0.4', 'changefreq': 'monthly'},
-        # Service pages
-        {'url': f"{DOMAIN}/services/first-second-mortgages", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/refinancing", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/working-capital", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/equipment-finance", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/business-acquisition", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/trade-finance", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-backed-lending", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/private-lending", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/smsf-lending", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/debt-consolidation", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/caveat-loans", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-finance", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/building-maintenance-loans", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/capital-works-finance", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/strata-finance", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/resources/glossary", 'priority': '0.5', 'changefreq': 'monthly'},
+        # Service pages (pillar pages)
+        {'url': f"{DOMAIN}/services/first-second-mortgages", 'priority': '0.9', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/commercial-property-development", 'priority': '0.9', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/bridging-finance", 'priority': '0.9', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/refinancing", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/working-capital", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/equipment-finance", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/business-acquisition", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/trade-finance", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/asset-backed-lending", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/private-lending", 'priority': '0.9', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/smsf-lending", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/debt-consolidation", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/caveat-loans", 'priority': '0.9', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/asset-finance", 'priority': '0.8', 'changefreq': 'monthly'},
+        # Tool pages
+        {'url': f"{DOMAIN}/resources/tools/commercial-property-loan-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/resources/tools/second-mortgage-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/resources/tools/commercial-real-estate-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/resources/tools/asset-finance-roi-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/resources/tools/working-capital-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/resources/tools/loan-comparison-tool", 'priority': '0.6', 'changefreq': 'monthly'},
     ]
     
     # Get all articles from content directories
@@ -171,22 +175,32 @@ def generate_sitemap():
     
     # Add article pages
     for article in all_articles:
-        # Determine priority based on recency
+        # Determine priority based on recency and content type
         days_old = (datetime.now() - article['date']).days
-        if days_old <= 7:
-            priority = '0.9'  # New articles get high priority
-            changefreq = 'daily'
-        elif days_old <= 30:
+        
+        # Pillar articles (guides with key topics) get higher priority
+        is_pillar = article['content_type'] == 'guides' and any(keyword in article['title'].lower() for keyword in [
+            'complete guide', 'comprehensive', 'everything you need', 'ultimate guide'
+        ])
+        
+        if is_pillar:
             priority = '0.8'
+            changefreq = 'monthly'
+        elif days_old <= 7:
+            priority = '0.7'  # New articles
+            changefreq = 'weekly'
+        elif days_old <= 30:
+            priority = '0.7'
             changefreq = 'weekly'
         elif days_old <= 90:
-            priority = '0.7'
+            priority = '0.6'
             changefreq = 'monthly'
         else:
             priority = '0.6'
             changefreq = 'monthly'
             
-        article_date = article['date'].strftime('%Y-%m-%d')
+        # Use current date as lastmod for better freshness signals
+        article_date = datetime.now().strftime('%Y-%m-%d')
         
         xml_content += f'''  <url>
     <loc>{article['url']}</loc>
