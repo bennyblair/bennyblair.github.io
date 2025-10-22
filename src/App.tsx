@@ -47,6 +47,7 @@ const LoanComparisonTool = lazy(() => import("./pages/tools/LoanComparisonTool")
 const SecondMortgageCalculator = lazy(() => import("./pages/tools/SecondMortgageCalculator"));
 const WorkingCapitalCalculator = lazy(() => import("./pages/tools/WorkingCapitalCalculator"));
 const AssetFinanceROICalculator = lazy(() => import("./pages/tools/AssetFinanceROICalculator"));
+const BridgingLoanCalculator = lazy(() => import("./pages/tools/BridgingLoanCalculator"));
 
 // Loading component
 const LoadingSpinner = () => (
@@ -116,6 +117,7 @@ const App = () => (
                 <Route path="/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />
                 <Route path="/tools/working-capital-calculator" element={<WorkingCapitalCalculator />} />
                 <Route path="/tools/loan-comparison-tool" element={<LoanComparisonTool />} />
+                <Route path="/tools/bridging-loan-calculator" element={<BridgingLoanCalculator />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>

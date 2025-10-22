@@ -35,6 +35,13 @@ const Tools = () => {
 
   const availableCalculators = [
     {
+      title: "Bridging Loan Calculator",
+      description: "Calculate costs and repayments for bridging finance",
+      features: ["Monthly payment estimates", "Total cost analysis", "Interest breakdowns"],
+      url: "/tools/bridging-loan-calculator",
+      status: "Available"
+    },
+    {
       title: "Commercial Property Loan Calculator",
       description: "Calculate loan payments for commercial property purchases",
       features: ["Purchase price analysis", "Deposit calculations", "Monthly payment estimates"],
