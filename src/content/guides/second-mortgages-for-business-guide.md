@@ -1,7 +1,7 @@
 ---
 title: "Second Mortgages for Business: Is It Right for Your Company?"
 description: "Comprehensive decision framework for evaluating second mortgages for business funding, including ROI analysis, cost comparisons, and suitability criteria for Australian companies."
-date: "2025-01-15"
+date: "2025-10-30"
 category: "Guides"
 author: "Emet Capital"
 image: "https://www.emetcapital.com.au/images/second-mortgage-business.jpg"
@@ -207,8 +207,8 @@ Ready to evaluate whether second mortgages suit your business? Conduct thorough 
       "url": "https://www.emetcapital.com.au/logo.png"
     }
   },
-  "datePublished": "2025-01-15",
-  "dateModified": "2025-01-15"
+  "datePublished": "2025-10-30",
+  "dateModified": "2025-10-30"
 }
 </script>
 
