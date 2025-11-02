@@ -1,7 +1,7 @@
 ---
 title: "Private Real Estate Investment Lenders: Investor Guide 2025"
 description: "Find private lenders for real estate investment in Australia. Compare rates, LVRs, approval speed and learn when private lending beats traditional finance for investors."
-date: "2025-11-01"
+date: "2025-11-03"
 category: "Guides"
 author: "Emet Capital"
 slug: "private-real-estate-investment-lenders-guide"
@@ -171,8 +171,8 @@ Building relationships with multiple private lending sources provides options wh
       "url": "https://emetcapital.com.au/logo.png"
     }
   },
-  "datePublished": "2025-11-01",
-  "dateModified": "2025-11-01"
+  "datePublished": "2025-11-03",
+  "dateModified": "2025-11-03"
 }
 </script>
 

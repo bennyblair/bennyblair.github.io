@@ -1,7 +1,7 @@
 ---
 title: "Commercial Land Loans: Finance Your Property Development"
 description: "Secure commercial land loans for your development project. Learn rates, LVR limits, lender requirements and how to transition from land purchase to construction finance."
-date: "2025-11-01"
+date: "2025-11-03"
 category: "Guides"
 author: "Emet Capital"
 slug: "commercial-land-loans-financing-property-development"
@@ -145,8 +145,8 @@ Working with experienced commercial finance brokers who understand both land and
       "url": "https://emetcapital.com.au/logo.png"
     }
   },
-  "datePublished": "2025-11-01",
-  "dateModified": "2025-11-01"
+  "datePublished": "2025-11-03",
+  "dateModified": "2025-11-03"
 }
 </script>
 
