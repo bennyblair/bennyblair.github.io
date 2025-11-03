@@ -95,11 +95,11 @@ keywords:
 
 # First Mortgage Loans: Understanding Primary Property Finance
 
-When you're securing finance for commercial property, you'll likely encounter the term "[first mortgage](/guides/1st-2nd-mortgages-for-business) loan." It's the most common form of property lending in Australia, but understanding how it works—and why it takes priority over other debts—can make a significant difference to your borrowing capacity and interest rate.
+When you're securing finance for commercial property, you'll likely encounter the term "[first mortgage](/resources/guides/first-and-second-mortgages-for-business) loan." It's the most common form of property lending in Australia, but understanding how it works—and why it takes priority over other debts—can make a significant difference to your borrowing capacity and interest rate.
 
-A first mortgage loan is a loan secured by a property where the lender holds first priority over the asset. If you default on repayments, that lender gets first claim on sale proceeds before any other creditors. This priority position means lenders typically offer lower interest rates and higher loan amounts compared to [second mortgages](/guides/second-mortgages-for-business) or unsecured finance.
+A first mortgage loan is a loan secured by a property where the lender holds first priority over the asset. If you default on repayments, that lender gets first claim on sale proceeds before any other creditors. This priority position means lenders typically offer lower interest rates and higher loan amounts compared to [second mortgages](/resources/guides/second-mortgages-for-business-guide) or unsecured finance.
 
-For business owners and property investors, first mortgages represent the foundation of [commercial property](/guides/commercial-property-loans-australia-complete-guide) finance. Whether you're purchasing an office building in Melbourne, a warehouse in Brisbane, or a retail space in Perth, your first mortgage will likely provide 60-70% of the property's value. The security position, loan terms, and interest rates all differ significantly from second-tier lending options.
+For business owners and property investors, first mortgages represent the foundation of [commercial property](/resources/guides/commercial-property-loans-australia-complete-guide) finance. Whether you're purchasing an office building in Melbourne, a warehouse in Brisbane, or a retail space in Perth, your first mortgage will likely provide 60-70% of the property's value. The security position, loan terms, and interest rates all differ significantly from second-tier lending options.
 
 This guide explains how first mortgage loans work in the Australian commercial property market, what lenders look for when assessing applications, and how they compare to other financing structures. We'll cover everything from loan-to-value ratios to interest rate expectations, helping you determine whether a first mortgage suits your business financing strategy.
 
@@ -111,17 +111,17 @@ The "first" designation matters because it determines repayment priority if the 
 
 In commercial property finance, first mortgages typically cover the primary purchase price or refinancing amount. A Sydney business buying a $3 million warehouse might secure a $2.1 million first mortgage at 7.2% interest, using the property itself as collateral. The lender's security is registered on the title, giving them legal recourse to the asset if repayments aren't met.
 
-Most Australian commercial lenders only provide first mortgage finance. They won't take a secondary position behind another lender because the increased risk doesn't align with their lending policies. This means your first mortgage will usually come from a bank, credit union, or mainstream commercial lender, while [second mortgages](/guides/second-mortgage-lenders-australia-directory) typically involve specialist finance providers or private lenders.
+Most Australian commercial lenders only provide first mortgage finance. They won't take a secondary position behind another lender because the increased risk doesn't align with their lending policies. This means your first mortgage will usually come from a bank, credit union, or mainstream commercial lender, while [second mortgages](/resources/guides/second-mortgage-lenders-australia-directory) typically involve specialist finance providers or private lenders.
 
 ## How First Mortgages Differ from Second Mortgages
 
-The primary difference between first and second mortgages lies in their security position and the risk each lender assumes. A first mortgage holder gets paid first from sale proceeds, while a [second mortgage](/guides/2nd-loan-mortgage-business-capital) lender only receives payment after the first mortgage is fully satisfied. This fundamental distinction creates significant differences in lending terms, interest rates, and loan structures.
+The primary difference between first and second mortgages lies in their security position and the risk each lender assumes. A first mortgage holder gets paid first from sale proceeds, while a [second mortgage](/resources/guides/2nd-loan-mortgage-business-capital) lender only receives payment after the first mortgage is fully satisfied. This fundamental distinction creates significant differences in lending terms, interest rates, and loan structures.
 
 Interest rates reflect this risk differential. First mortgage rates for commercial property currently sit between 6.5-8.5% for most borrowers, depending on property type, location, and borrower strength. Second mortgage rates typically range from 9.5-15% or higher because lenders face greater potential loss if the property value drops or the business defaults.
 
 Loan-to-value ratios also differ substantially. First mortgage lenders might advance 65-70% of a commercial property's value, sometimes reaching 80% for premium assets or strong borrowers. Second mortgage lenders typically cap their combined loan-to-value ratio (first mortgage plus second mortgage) at 75-85%, meaning they're lending into whatever equity remains after the first mortgage.
 
-A Brisbane business might secure a $1.8 million first mortgage on a $3 million property at 7.5% interest. If they need additional capital, they could add a $450,000 [second mortgage](/guides/when-second-mortgages-make-financial-sense-smes) at 12% interest, bringing the total lending to $2.25 million (75% LVR). The second mortgage lender accepts higher risk because they're only protected by the remaining $750,000 equity buffer.
+A Brisbane business might secure a $1.8 million first mortgage on a $3 million property at 7.5% interest. If they need additional capital, they could add a $450,000 [second mortgage](/resources/guides/when-second-mortgages-make-financial-sense-smes) at 12% interest, bringing the total lending to $2.25 million (75% LVR). The second mortgage lender accepts higher risk because they're only protected by the remaining $750,000 equity buffer.
 
 Documentation and approval processes also differ. First mortgage applications typically involve comprehensive financial analysis, formal property valuations, and detailed serviceability assessments. Second mortgages often move faster with less documentation, but they compensate for streamlined processes with higher rates and fees. Both loan types serve different purposes in a business's capital structure.
 
@@ -139,7 +139,7 @@ Fees typically include application fees ($1,000-$5,000), valuation costs ($2,000
 
 ## Who Should Consider a First Mortgage Loan?
 
-Business owners purchasing [commercial property](/guides/commercial-property-development-finance) will almost always use a first mortgage as their primary financing tool. If you're buying your first office, warehouse, or retail space, a first mortgage provides the foundational funding that makes the purchase possible. A Brisbane consulting firm buying a $1.2 million office might secure an $840,000 first mortgage (70% LVR), using savings or other assets for the $360,000 deposit.
+Business owners purchasing [commercial property](/resources/guides/commercial-property-development-finance) will almost always use a first mortgage as their primary financing tool. If you're buying your first office, warehouse, or retail space, a first mortgage provides the foundational funding that makes the purchase possible. A Brisbane consulting firm buying a $1.2 million office might secure an $840,000 first mortgage (70% LVR), using savings or other assets for the $360,000 deposit.
 
 Established businesses refinancing existing commercial property loans often switch to new first mortgages with better rates or terms. If you've built equity in your property or improved your business's financial position, refinancing your first mortgage could reduce your interest rate by 0.5-1.5%, saving thousands annually. The existing first mortgage is paid out and replaced with a new first mortgage from a different lender.
 
@@ -147,7 +147,7 @@ Property investors expanding their commercial property portfolio will use first 
 
 Businesses needing maximum borrowing capacity at competitive rates should prioritise first mortgage finance over other options. Since first mortgages offer the lowest commercial property rates and highest LVRs, they provide the most cost-effective funding for substantial property purchases. Second mortgages or alternative finance might fill gaps, but shouldn't replace first mortgage lending where available.
 
-Self-managed super funds buying commercial property for retirement savings commonly use first mortgages, though [SMSF lending](/guides/smsf-loans-for-commercial-property) has specific restrictions. An SMSF might secure a $700,000 first mortgage to purchase a $1 million commercial property, with the property leased back to the business owner's company. These structures require specialist advice but follow first mortgage principles.
+Self-managed super funds buying commercial property for retirement savings commonly use first mortgages, though [SMSF lending](/resources/guides/smsf-loans-for-commercial-property) has specific restrictions. An SMSF might secure a $700,000 first mortgage to purchase a $1 million commercial property, with the property leased back to the business owner's company. These structures require specialist advice but follow first mortgage principles.
 
 ## The Application and Approval Process
 
