@@ -4,6 +4,7 @@ description: "Comprehensive decision framework for evaluating second mortgages f
 date: "2025-10-30"
 category: "Guides"
 author: "Emet Capital"
+readingTime: 10
 image: "https://www.emetcapital.com.au/images/second-mortgage-business.jpg"
 slug: "second-mortgages-for-business-guide"
 ---
@@ -12,7 +13,7 @@ A second mortgage for business funding provides access to property equity withou
 
 The decision framework extends beyond simple cost comparison. Second mortgages preserve favourable first mortgage arrangements—if your existing loan sits at 5% fixed for another four years, avoiding refinancing to a new 7% rate saves substantial interest that partially offsets second mortgage premiums. They provide faster approval than traditional refinancing (2 to 4 weeks versus 6 to 12 weeks), enable accessing equity when banks won't increase first mortgages, and maintain flexibility through typically shorter terms allowing refinancing once circumstances improve. However, the subordinate security position means second mortgage lenders charge premium rates reflecting higher risk, combined debt service increases monthly obligations potentially creating cash flow stress, and defaulting on either mortgage puts your business property at risk.
 
-This guide provides systematic decision framework evaluating whether [1st & 2nd mortgages for business](/guides/second-mortgages-for-business-guide) funding makes sense for your company. We'll examine when second mortgages deliver genuine value versus when alternatives prove more suitable, how to calculate true return on investment including all costs, what factors strengthen or weaken the business case, and strategies to structure second mortgages maximising benefits whilst managing risks. Whether considering expansion funding, acquisition finance, or debt consolidation, these analytical approaches help you make informed decisions based on your specific circumstances rather than generalisations.
+This guide provides systematic decision framework evaluating whether [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) funding makes sense for your company. We'll examine when second mortgages deliver genuine value versus when alternatives prove more suitable, how to calculate true return on investment including all costs, what factors strengthen or weaken the business case, and strategies to structure second mortgages maximising benefits whilst managing risks. Whether considering expansion funding, acquisition finance, or debt consolidation, these analytical approaches help you make informed decisions based on your specific circumstances rather than generalisations.
 
 ## Understanding Second Mortgage Business Applications
 
