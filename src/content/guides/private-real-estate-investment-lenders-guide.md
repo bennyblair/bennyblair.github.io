@@ -7,7 +7,7 @@ author: "Emet Capital"
 slug: "private-real-estate-investment-lenders-guide"
 ---
 
-Real estate investors who've been declined by traditional banks or need faster settlement timeframes increasingly turn to [private lenders](/guides/private-lending-guide) as viable financing alternatives. Private lending has evolved from a last-resort option into a strategic financing tool that sophisticated investors use to capitalise on time-sensitive opportunities, overcome serviceability limitations, or access capital that conventional lenders won't provide.
+Real estate investors who've been declined by traditional banks or need faster settlement timeframes increasingly turn to [private lenders](/resources/guides/private-lending-guide) as viable financing alternatives. Private lending has evolved from a last-resort option into a strategic financing tool that sophisticated investors use to capitalise on time-sensitive opportunities, overcome serviceability limitations, or access capital that conventional lenders won't provide.
 
 Private lenders operate outside traditional banking systems, using their own capital or funds from private investors to provide real estate loans. Unlike banks that rely on rigid credit policies and lengthy approval processes, private lenders focus primarily on property value and equity position. This fundamental difference means investors with complex income structures, multiple properties, or recent credit issues can often secure funding that mainstream lenders reject.
 
@@ -39,7 +39,7 @@ These companies provide consistency and reliability that individual lenders can'
 
 Mortgage funds and managed investment schemes pool capital from multiple investors and deploy it through property loans. These funds operate under specific investment mandates that define acceptable LVRs, property types, loan sizes, and risk profiles. Rates typically range from 11-15% with establishment fees around 2-3%, and they handle loans from $200,000 upward depending on the fund's size and strategy.
 
-Mortgage funds provide substantial capital pools, making them suitable for larger investment acquisitions or [commercial property loans](/guides/commercial-property-finance-guide) that individual lenders couldn't fund. However, their investment mandates create less flexibility than individual lenders or private lending companies. A Sydney investor seeking $5 million for a commercial property acquisition would naturally look toward mortgage funds rather than individual lenders.
+Mortgage funds provide substantial capital pools, making them suitable for larger investment acquisitions or [commercial property loans](/resources/guides/commercial-property-finance-guide) that individual lenders couldn't fund. However, their investment mandates create less flexibility than individual lenders or private lending companies. A Sydney investor seeking $5 million for a commercial property acquisition would naturally look toward mortgage funds rather than individual lenders.
 
 Credit unions and smaller banks sometimes offer products that bridge traditional and private lending, providing faster approvals and more flexible serviceability than major banks while maintaining lower rates than pure private lenders. These hybrid options suit investors who don't quite fit mainstream lending boxes but don't need true private lending's speed or flexibility. Rates might range from 8-11%, sitting between bank and private lending pricing.
 
@@ -61,7 +61,7 @@ Credit impairments such as defaults, judgments, or bankruptcies typically disqua
 
 Renovation and value-add strategies often struggle with conventional lending because banks value properties conservatively in their current condition. Private lenders more readily recognise post-renovation value, particularly when you provide detailed renovation plans and costings. A Brisbane investor purchasing a $450,000 property requiring $100,000 renovation with post-renovation value of $650,000 might secure private lending to $400,000 (61% of end value) despite banks capping loans at $315,000 (70% of current value).
 
-SMSF property investment can utilise private lending when [SMSF loans](/guides/smsf-property-loans-guide) through traditional channels face delays or complications. Private lenders familiar with SMSF lending structures can provide faster approvals for self-managed super funds purchasing commercial or residential investment properties. The higher interest rates are paid from the SMSF's tax-advantaged environment, somewhat offsetting the cost premium versus conventional SMSF lending.
+SMSF property investment can utilise private lending when [SMSF loans](/resources/guides/smsf-property-loans-guide) through traditional channels face delays or complications. Private lenders familiar with SMSF lending structures can provide faster approvals for self-managed super funds purchasing commercial or residential investment properties. The higher interest rates are paid from the SMSF's tax-advantaged environment, somewhat offsetting the cost premium versus conventional SMSF lending.
 
 ## Typical Rates, Terms and Costs
 
