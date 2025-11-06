@@ -3,7 +3,7 @@ title: "Commercial Property Loan Eligibility: What You Need to Qualify"
 description: "Discover the key eligibility criteria for commercial property loans in Australia. Learn about credit requirements, deposit expectations, financial documentation, and strategies to improve your approval chances."
 slug: "commercial-property-loan-eligibility-what-you-need-to-qualify"
 date: 2025-11-07
-author: "Ben Blair"
+author: "Emet Capital"
 tags: ["Commercial Property Loans", "Loan Eligibility", "Business Finance", "Property Investment"]
 category: "Guides"
 featured: false
