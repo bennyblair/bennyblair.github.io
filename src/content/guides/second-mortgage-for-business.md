@@ -93,7 +93,7 @@ Personal identification, including driver's licence or passport, plus evidence o
 
 Second mortgage approval typically takes three to seven business days from complete application submission. "Complete" is critical—missing documents restart the assessment process. One Adelaide business owner waited three weeks for approval because she submitted documentation progressively rather than providing everything upfront.
 
-Lenders verify your first mortgage status, confirm property values through their own valuation process, and assess your business's capacity to service both mortgages. Unlike [working capital loans](/resources/guides/working-capital-loans-for-smes) that might approve in 24 hours with minimal documentation, second mortgages require thorough due diligence given the property security involved.
+Lenders verify your first mortgage status, confirm property values through their own valuation process, and assess your business's capacity to service both mortgages. Unlike working capital loans that might approve in 24 hours with minimal documentation, second mortgages require thorough due diligence given the property security involved.
 
 Settlement schedules depend on legal requirements and coordination with your existing lender. If your first mortgage lender requires notification or consent for the second mortgage (most do), this adds time. Straightforward second mortgages settle within 10 to 14 business days after approval. Complex situations involving commercial property, multiple existing mortgages, or properties with easements or encumbrances might extend to four weeks.
 
@@ -113,7 +113,7 @@ Second mortgages work brilliantly for specific business funding needs but poorly
 
 Purchasing equipment, vehicles, or other business assets represents ideal second mortgage use. The equipment you acquire generates revenue servicing the additional debt, while your property equity provides security the lender requires.
 
-A Queensland construction company used a $320,000 second mortgage to purchase two excavators and a truck. The equipment immediately enabled them to take larger contracts previously unavailable, generating sufficient additional revenue to cover the 13% second mortgage interest. Within 18 months, they refinanced to [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) at 8% using the equipment itself as security.
+A Queensland construction company used a $320,000 second mortgage to purchase two excavators and a truck. The equipment immediately enabled them to take larger contracts previously unavailable, generating sufficient additional revenue to cover the 13% second mortgage interest. Within 18 months, they refinanced to asset-backed lending at 8% using the equipment itself as security.
 
 Equipment purchases also provide exit strategies if business circumstances change. The equipment itself has resale value that can partially or fully repay the second mortgage. Contrast this with using second mortgages for working capital or operational expenses that leave no tangible assets if difficulties emerge.
 
@@ -189,7 +189,7 @@ Business lines of credit provide flexibility second mortgages can't match. You o
 
 ### Equipment Finance and Asset-Based Lending
 
-If you're purchasing specific equipment or assets, [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) often delivers better terms than second mortgages. Equipment financiers charge 7-12% with the equipment itself providing security, preserving your property equity for other purposes.
+If you're purchasing specific equipment or assets, asset-backed lending often delivers better terms than second mortgages. Equipment financiers charge 7-12% with the equipment itself providing security, preserving your property equity for other purposes.
 
 Asset finance typically requires minimal deposit—often 10-20% compared to the 20-35% equity buffer second mortgages require through combined LVR limits. This means you can acquire assets with less capital outlay, preserving cashflow for business operations.
 

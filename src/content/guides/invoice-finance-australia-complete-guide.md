@@ -235,7 +235,7 @@ Selective invoice finance combined with improved collection procedures provides 
 
 Trade credit insurance provides bad debt protection without cash flow benefits, potentially enabling bank lending arrangements that consider insured receivables in serviceability calculations.
 
-Supply chain financing arrangements with major customers can provide early payment opportunities while maintaining commercial relationships and potentially improving overall supply chain efficiency. For businesses with multiple funding needs, [working capital loans](/resources/guides/working-capital-loans-for-smes) provide alternative solutions, while [asset-backed lending](/resources/guides/asset-backed-lending-australia) can complement invoice finance for comprehensive funding strategies.
+Supply chain financing arrangements with major customers can provide early payment opportunities while maintaining commercial relationships and potentially improving overall supply chain efficiency. For businesses with multiple funding needs, working capital loans provide alternative solutions, while [asset-backed lending](/resources/guides/asset-backed-lending-australia) can complement invoice finance for comprehensive funding strategies.
 
 ---
 
