@@ -7,7 +7,7 @@ author: "Emet Capital"
 slug: "commercial-land-loans-financing-property-development"
 ---
 
-Securing finance for commercial land purchases presents unique challenges that differ significantly from traditional property lending. Banks and lenders view vacant land as higher risk than established properties, which affects interest rates, loan-to-value ratios, and approval criteria. Understanding how [commercial land loans](/resources/guides/commercial-land-loans-financing-property-development) work—and how they connect to your broader development strategy—is essential for successfully financing your project from acquisition through to construction.
+Securing finance for commercial land purchases presents unique challenges that differ significantly from traditional property lending. Banks and lenders view vacant land as higher risk than established properties, which affects interest rates, loan-to-value ratios, and approval criteria. Understanding how commercial land loans work—and how they connect to your broader development strategy—is essential for successfully financing your project from acquisition through to construction.
 
 A commercial land loan provides funding to purchase land intended for commercial development, whether you're planning offices, retail spaces, warehouses, or mixed-use projects. Unlike residential land loans where you might build a single house, commercial land finance typically forms the first stage of larger development projects involving multiple titles, substantial construction, or income-generating assets. These loans bridge the gap between identifying your opportunity and securing the construction finance that brings your development to life.
 
