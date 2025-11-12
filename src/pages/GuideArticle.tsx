@@ -416,7 +416,7 @@ const GuideArticle = () => {
         {/* Article Content */}
         <div className="grid lg:grid-cols-12 gap-8 mb-12">
           {/* Main Content */}
-          <article className="lg:col-span-8">
+          <article className={slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-9' : 'lg:col-span-8'}>
             <Card className="p-8 shadow-lg">
               <div 
                 ref={articleRef}
@@ -429,7 +429,7 @@ const GuideArticle = () => {
           </article>
 
           {/* Sidebar */}
-          <aside className="lg:col-span-4 space-y-6 sticky top-8">
+          <aside className={`space-y-6 sticky top-8 ${slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-3' : 'lg:col-span-4'}`}>
             {/* Table of Contents */}
             <Card className="p-6">
               <h3 className="text-lg font-bold text-foreground mb-4 flex items-center">
