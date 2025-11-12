@@ -69,20 +69,36 @@ export function extractTableOfContents(markdown: string): TableOfContentsItem[] 
 export function extractFAQs(markdown: string): FAQItem[] {
   if (!markdown) return [];
   
-  const faqMatch = markdown.match(/## FAQs?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i);
+  const faqMatch = markdown.match(/## (?:Frequently Asked Questions|FAQs?)\s*\n([\s\S]*?)(?=\n## |\n# |$)/i);
   if (!faqMatch) return [];
   
   const faqSection = faqMatch[1];
   const faqs: FAQItem[] = [];
   
-  // Split by question patterns (bold text followed by question mark or line starting with **)
+  // Try to match h3 format first (### Question?)
+  const h3Matches = faqSection.match(/###\s+([^\n]+)\n\n([^\n#]+(?:\n(?!###)[^\n#]+)*)/g);
+  
+  if (h3Matches && h3Matches.length > 0) {
+    // Parse h3 format
+    h3Matches.forEach(match => {
+      const lines = match.split('\n');
+      const question = lines[0].replace(/^###\s+/, '').trim();
+      const answer = lines.slice(2).join(' ').trim(); // Skip empty line after question
+      if (question && answer) {
+        faqs.push({ question, answer });
+      }
+    });
+    return faqs;
+  }
+  
+  // Fallback to bold format (**Question?**)
   const lines = faqSection.split('\n');
   let currentFAQ: Partial<FAQItem> = {};
   
   for (const line of lines) {
     const trimmedLine = line.trim();
     
-    // Check if this is a question (starts with ** and ends with ? or is bold)
+    // Check if this is a question (starts with ** and ends with **)
     const questionMatch = trimmedLine.match(/^\*\*(.*?)\*\*(.*)$/);
     if (questionMatch) {
       // Save previous FAQ if complete
@@ -96,12 +112,13 @@ export function extractFAQs(markdown: string): FAQItem[] {
         question: questionText.replace(/\?$/, '') + '?', // ensure question ends with ?
         answer: ''
       };
-    } else if (trimmedLine && currentFAQ.question && !currentFAQ.answer) {
-      // This is the answer
-      currentFAQ.answer = trimmedLine;
-    } else if (trimmedLine && currentFAQ.answer) {
-      // Continue building the answer
-      currentFAQ.answer += ' ' + trimmedLine;
+    } else if (trimmedLine && currentFAQ.question) {
+      // Build the answer (append lines)
+      if (currentFAQ.answer) {
+        currentFAQ.answer += ' ' + trimmedLine;
+      } else {
+        currentFAQ.answer = trimmedLine;
+      }
     }
   }
   
