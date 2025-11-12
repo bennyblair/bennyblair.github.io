@@ -129,27 +129,27 @@ Financing flexibility requirements influence mortgage appropriateness. Commercia
 
 ## Frequently Asked Questions
 
-### Why are commercial mortgage interest rates higher than residential rates?
+**Why are commercial mortgage interest rates higher than residential rates?**
 
 Commercial mortgage rates run 0.5-2% higher than residential rates due to increased lender risk from narrower buyer markets, business income dependency, more complex property valuations, and reduced regulatory protections. Commercial properties face greater value volatility than residential properties, with demand dependent on business conditions and specific location characteristics. Lenders compensate for this additional risk through higher interest rates. Additionally, commercial mortgages involve smaller loan volumes than residential lending, preventing economies of scale that reduce residential mortgage costs. The rate premium reflects genuine risk differences rather than arbitrary pricing, with competitive commercial lending markets preventing excessive rate inflation.
 
-### Can I use a residential mortgage to purchase commercial property?
+**Can I use a residential mortgage to purchase commercial property?**
 
 No, lenders specifically restrict residential mortgages to residential property purchases. Residential lending operates under consumer credit regulations with pricing, assessment, and terms designed for housing finance. Using residential property equity to support commercial property purchases occurs through cross-collateralisation where residential property provides additional security for commercial mortgages, but the commercial property itself requires commercial mortgage financing. Some business owners purchase residential property in commercial zoning for business use, accessing residential mortgage rates whilst establishing business premises, though conversion to commercial use may trigger lender review and potential loan reclassification.
 
-### How much larger are commercial mortgage deposits compared to residential?
+**How much larger are commercial mortgage deposits compared to residential?**
 
 Commercial mortgages typically require 20-40% deposits compared to residential deposits of 5-20%. On a $1 million property purchase, residential buyers might provide $50,000-200,000 deposits, whilst commercial purchasers need $200,000-400,000. This difference stems from commercial lender risk management prioritising equity buffers over lenders mortgage insurance unavailable for most commercial properties. Maximum commercial LVRs rarely exceed 70-80% versus residential LVRs reaching 95% with LMI. Specialised commercial properties including medical centres or hotels face even lower LVRs of 50-65%, requiring larger deposits. This capital requirement difference significantly impacts property acquisition accessibility across categories.
 
-### Do commercial mortgages require business trading history?
+**Do commercial mortgages require business trading history?**
 
 Yes, most commercial mortgage lenders require minimum 12-24 months business trading history evidencing sustainable operations and income generation capacity. Newer businesses often face declined commercial mortgage applications regardless of strong projections or significant owner experience. This requirement reflects lenders assessing business viability as primary repayment source rather than personal income. Pre-revenue businesses or those trading under 12 months might access commercial property finance through larger deposits (40-50% LVR), director guarantees supported by substantial personal assets, or alternative lenders specialising in newer business lending at premium rates. Residential mortgages don't require business trading history, assessing only personal employment and income stability.
 
-### Are commercial mortgages eligible for offset accounts like residential loans?
+**Are commercial mortgages eligible for offset accounts like residential loans?**
 
 Commercial mortgages less commonly offer offset account facilities compared to residential lending, with availability varying significantly between lenders. When commercial offsets exist, they often include minimum balance requirements and monthly account fees of $50-100 that residential offsets don't typically charge. Some commercial lenders prefer direct loan reduction over offset arrangements, citing administrative complexity and system limitations. Business owners wanting offset functionality should specifically request this feature during mortgage comparison, as it's not standard across commercial lending products. For businesses maintaining substantial operational cash, commercial offsets deliver significant interest savings justifying account fees, though fewer lenders provide this facility compared to near-universal residential offset availability.
 
-### Can I claim tax deductions on commercial mortgage interest?
+**Can I claim tax deductions on commercial mortgage interest?**
 
 Yes, commercial mortgage interest is tax-deductible as business expense when properties are used for business operations or generate rental income. Owner-occupied commercial properties where your business operates from premises permit interest deductibility against business income, creating substantial tax advantages over residential owner-occupied mortgages where interest isn't deductible. Commercial investment properties generating rental income similarly permit interest deductions against rental income. The deductibility applies regardless of whether property ownership sits within company structures, trusts, or individual ownership, provided the property serves business or income-producing purposes. Residential owner-occupied mortgage interest provides no tax deductions, whilst residential investment property interest is deductible only against rental income, not other income sources.
 
