@@ -1,29 +1,31 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { CheckCircle, Phone, ArrowRight, Briefcase, Shield, Clock, DollarSign, TrendingUp, FileText } from "lucide-react";
+import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import FAQSection, { FAQItem } from "@/components/FAQSection";
 
 const WorkingCapital = () => {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "FinancialProduct",
-    "name": "Working Capital Finance",
-    "description": "Flexible short-term business funding from $50K-$20M+ with revolving credit facilities and fast approval across Australia.",
-    "provider": {
-      "@type": "FinancialService",
-      "name": "Emet Capital"
+  const faqs: FAQItem[] = [
+    {
+      question: "What types of security are accepted?",
+      answer: "Property, equipment, inventory, receivables, or a combination of business assets. Some lenders offer unsecured options for established businesses with strong financials."
     },
-    "areaServed": "AU",
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "AUD"
+    {
+      question: "How fast can approval take?",
+      answer: "Initial assessments typically within 24-48 hours for straightforward applications. Approval timeframes depend on security type and documentation completeness."
+    },
+    {
+      question: "Are these loans available Australia-wide?",
+      answer: "Yes, working capital finance is available for businesses across all Australian states and territories through our national lender network."
+    },
+    {
+      question: "Is this for business purposes only?",
+      answer: "Yes, this is commercial lending for business operational purposes only. Consumer finance is not offered."
     }
-  };
+  ];
 
   return (
     <>
@@ -31,13 +33,10 @@ const WorkingCapital = () => {
         <title>Working Capital Finance Solutions Australia | Emet Capital</title>
         <meta 
           name="description" 
-          content="Access working capital from $50K-$20M+ with flexible credit lines, fast approval, and minimal security for business cash flow needs across Australia." 
+          content="Access working capital from $50K-$20M+ with flexible credit lines and fast approval for business cash flow needs across Australia." 
         />
-        <meta name="keywords" content="working capital, business cash flow, revolving credit, business overdraft, short term finance" />
+        <meta name="keywords" content="working capital, business cash flow, revolving credit, business finance, operational funding" />
         <link rel="canonical" href="https://emetcapital.com.au/services/working-capital" />
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -54,10 +53,7 @@ const WorkingCapital = () => {
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Working Capital Finance
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              Flexible short-term business funding to support operations and growth. Access working capital from $50K to $20M+ with revolving credit facilities and fast 24-48 hour approval.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                 <Link to="/contact">
                   <FileText className="mr-2 h-5 w-5" />
@@ -73,170 +69,167 @@ const WorkingCapital = () => {
             </div>
           </div>
 
-          {/* Key Benefits */}
-          <section className="mb-16">
-            <Card className="bg-muted/30">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center">
-                  <TrendingUp className="mr-2 h-5 w-5 text-accent" />
-                  Key Benefits
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="grid md:grid-cols-2 gap-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">Fast approval typically within 24-48 hours</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">Revolving credit lines for ongoing flexibility</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">Minimal security required for established businesses</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">Flexible repayment aligned with cash flow cycles</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </section>
+          {/* Main Content */}
+          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+            {/* What this service is */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">What is Working Capital Finance?</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Working capital finance provides short-term funding for day-to-day business operations, enabling companies to manage cash flow fluctuations, fund inventory purchases, cover operational expenses, and bridge timing gaps between receivables and payables. These facilities offer flexible access to capital without long-term commitments, supporting ongoing business operations through revolving credit lines, overdrafts, and short-term loans.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Funding structures include revolving credit facilities allowing repeated drawdowns and repayments, term loans for specific working capital needs, and invoice finance converting receivables to immediate cash. Security requirements vary from unsecured facilities for strong businesses to asset-backed arrangements utilizing property, equipment, inventory, or receivables. Repayment terms align with business cash flow cycles, providing operational flexibility.
+              </p>
+            </section>
 
-          {/* What Is Section with Guide Link */}
-          <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">What is Working Capital Finance?</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-lg text-muted-foreground">
-                  Working capital finance provides short-term funding to support your business's day-to-day operations, including covering inventory purchases, meeting payroll, managing accounts receivable gaps, and handling seasonal cash flow variations.
-                </p>
-                <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
-                  <p className="text-sm text-muted-foreground mb-3">
-                    <strong>Learn more:</strong> Discover detailed working capital strategies, cash flow optimization techniques, seasonal funding solutions, and industry-specific applications.
-                  </p>
-                  <Button asChild variant="outline" className="w-full sm:w-auto">
-                    <Link to="/resources/guides/working-capital-loans-for-smes">
-                      Read Complete Working Capital Guide
-                      <ArrowRight className="w-4 h-4 ml-2" />
-                    </Link>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+            {/* Who this service is for */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Working capital finance serves business owners, companies, contractors, and operators across all industries requiring operational funding. Retailers and wholesalers utilize working capital for inventory management, while service businesses access funding for operational expenses and growth initiatives. Manufacturing businesses fund production cycles, and seasonal businesses manage cash flow fluctuations through working capital facilities.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), demonstrated trading history, and capacity to service debt from business operations. Both established businesses and growing companies benefit from flexible working capital solutions tailored to commercial lending requirements and operational cash flow patterns.
+              </p>
+            </section>
 
+            {/* How Emet Capital helps */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist working capital providers, and alternative funders. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in business cash flow solutions. We match clients with lenders offering appropriate facility structures, competitive pricing, and terms aligned with operational requirements.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                We guide clients through facility structuring, lender selection, and application processes. Our expertise includes secured and unsecured options, revolving facilities, and specialized structures like invoice finance or inventory funding. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance. We structure flexible arrangements compared to traditional bank constraints, accommodating diverse business models and cash flow patterns.
+              </p>
+            </section>
 
-          {/* Quick Stats */}
-          <section className="mb-16">
-            <Card>
-              <CardContent className="p-8">
-                <div className="grid md:grid-cols-4 gap-6 text-center">
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">$50K - $20M+</div>
-                    <div className="text-sm text-muted-foreground">Facility Size</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">3-24 Months</div>
-                    <div className="text-sm text-muted-foreground">Terms</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">24-48 Hours</div>
-                    <div className="text-sm text-muted-foreground">Approval</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">Flexible</div>
-                    <div className="text-sm text-muted-foreground">Security</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+            {/* Key features & benefits */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <Briefcase className="mr-2 h-5 w-5 text-accent" />
+                      Loan Ranges & Terms
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Finance available from $50,000 to $20M+ with flexible terms from 6 months to 3 years. Revolving facilities provide ongoing access as needs arise.
+                    </p>
+                  </CardContent>
+                </Card>
 
-          {/* Simple FAQ */}
-          <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">Quick Questions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Accordion type="single" collapsible className="w-full">
-                  <AccordionItem value="item-1">
-                    <AccordionTrigger>How much working capital can my business access?</AccordionTrigger>
-                    <AccordionContent>
-                      Working capital facilities range from $50K to $20M+ depending on business size, revenue, and trading history. Most lenders offer 1-3 months of turnover as a guide.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-2">
-                    <AccordionTrigger>How quickly can working capital be approved?</AccordionTrigger>
-                    <AccordionContent>
-                      Applications can be approved within 24-48 hours for established businesses with complete documentation. Simple facilities can be funded within 2-3 business days.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-3">
-                    <AccordionTrigger>What security is required?</AccordionTrigger>
-                    <AccordionContent>
-                      Many facilities require minimal security, often secured by business assets like inventory or equipment. Established businesses may access unsecured facilities based on trading history.
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
-              </CardContent>
-            </Card>
-          </section>
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <TrendingUp className="mr-2 h-5 w-5 text-accent" />
+                      Suitable Use Cases
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Supports operational expenses, inventory purchases, payroll funding, seasonal cash flow management, growth initiatives, and bridging receivable timing gaps.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <Shield className="mr-2 h-5 w-5 text-accent" />
+                      Flexible Security Options
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Security may include property, equipment, inventory, receivables, or general business assets. Unsecured options available for established businesses with strong financials.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <FileText className="mr-2 h-5 w-5 text-accent" />
+                      Streamlined Process
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Efficient assessment and approval processes designed for operational urgency. Broker expertise ensures appropriate facility structuring and quick decision-making.
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
+
+            {/* Eligibility & next steps */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), demonstrated trading history, and capacity to service debt from business operations. Documentation typically includes business financial statements, tax returns, and cash flow projections. Security requirements vary by lender and facility size, from unsecured for strong businesses to asset-backed arrangements.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                To proceed, contact our team for an initial assessment. We'll evaluate your business operations, cash flow requirements, and circumstances to identify optimal working capital solutions. Our process includes facility recommendation, lender selection, and guidance through to facility establishment.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
+                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
+                </Button>
+              </div>
+            </section>
+
+            {/* FAQs */}
+            <FAQSection faqs={faqs} />
+          </div>
 
           {/* Related Services */}
           <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">Related Services</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid md:grid-cols-4 gap-4">
-                  <Link to="/services/trade-finance" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Trade Finance</h3>
-                    <p className="text-sm text-muted-foreground">Import/export funding</p>
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Trade Finance</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Import/export financing and supply chain solutions</p>
+                  <Link to="/services/trade-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
-                  <Link to="/services/equipment-finance" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Equipment Finance</h3>
-                    <p className="text-sm text-muted-foreground">Asset funding solutions</p>
-                  </Link>
-                  <Link to="/services/debt-consolidation" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Debt Consolidation</h3>
-                    <p className="text-sm text-muted-foreground">Simplify business debts</p>
-                  </Link>
-                  <Link to="/services" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">All Services</h3>
-                    <p className="text-sm text-muted-foreground">View complete range</p>
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+                </CardContent>
+              </Card>
 
-          {/* CTA Section */}
-          <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border-primary/20">
-            <CardContent className="p-8 text-center">
-              <h2 className="text-2xl font-bold mb-4">Ready to Improve Your Cash Flow?</h2>
-              <p className="text-muted-foreground mb-6">
-                Flexible working capital solutions aligned with your business cycle.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild>
-                  <Link to="/contact">Apply Now</Link>
-                </Button>
-                <Button size="lg" variant="outline" asChild>
-                  <a href="tel:0485952651">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call Expert
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Debt Consolidation</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Simplify multiple business debts into one facility</p>
+                  <Link to="/services/debt-consolidation" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Asset Finance</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Equipment and machinery acquisition funding</p>
+                  <Link to="/services/asset-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
         </div>
       </div>
     </>
