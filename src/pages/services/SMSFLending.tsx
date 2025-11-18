@@ -1,29 +1,31 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { PiggyBank, TrendingUp, Shield, Phone, CheckCircle, ArrowRight, FileText } from "lucide-react";
+import { PiggyBank, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import FAQSection, { FAQItem } from "@/components/FAQSection";
 
 const SMSFLending = () => {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "FinancialProduct",
-    "name": "SMSF Property Lending",
-    "description": "Specialized SMSF property lending with Limited Recourse Borrowing Arrangements. Super fund loans from $150K-$25M+ with compliant structures.",
-    "provider": {
-      "@type": "FinancialService",
-      "name": "Emet Capital"
+  const faqs: FAQItem[] = [
+    {
+      question: "What types of security are accepted?",
+      answer: "Commercial and residential property purchased by the SMSF. Property must be held in compliant custody trust structures and meet regulatory requirements for SMSF property investment."
     },
-    "areaServed": "AU",
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "AUD"
+    {
+      question: "How fast can approval take?",
+      answer: "Initial assessments typically within 48-72 hours for SMSF applications. Full approval depends on property valuation, SMSF documentation, and compliance verification."
+    },
+    {
+      question: "Are these loans available Australia-wide?",
+      answer: "Yes, SMSF property lending is available for properties across all Australian states and territories through our specialist lender network."
+    },
+    {
+      question: "Is this for business purposes only?",
+      answer: "Yes, SMSF lending is for investment purposes only through self-managed superannuation funds. This is not consumer or business operational lending."
     }
-  };
+  ];
 
   return (
     <>
@@ -31,13 +33,10 @@ const SMSFLending = () => {
         <title>SMSF Property Lending Australia | Super Fund Loans | Emet Capital</title>
         <meta 
           name="description" 
-          content="Specialized SMSF property lending with Limited Recourse Borrowing Arrangements. Super fund loans from $150K-$25M+ with compliant structures and competitive rates." 
+          content="Specialized SMSF property lending with Limited Recourse Borrowing Arrangements. Super fund loans from $150K-$25M+ with compliant structures." 
         />
-        <meta name="keywords" content="SMSF lending, super fund loans, LRBA, self managed super fund property, SMSF investment property" />
+        <meta name="keywords" content="SMSF lending, super fund loans, LRBA, self managed super fund property, SMSF investment" />
         <link rel="canonical" href="https://emetcapital.com.au/services/smsf-lending" />
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -54,10 +53,7 @@ const SMSFLending = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               SMSF Property Lending
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              Build wealth through tax-effective property investment in your Self-Managed Super Fund. Compliant Limited Recourse Borrowing Arrangements from $150K to $25M+ with competitive rates and expert guidance.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                 <Link to="/contact">
                   <FileText className="mr-2 h-5 w-5" />
@@ -73,170 +69,167 @@ const SMSFLending = () => {
             </div>
           </div>
 
-          {/* Key Benefits */}
-          <section className="mb-16">
-            <Card className="bg-muted/30">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center">
-                  <TrendingUp className="mr-2 h-5 w-5 text-accent" />
-                  Key Benefits
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="grid md:grid-cols-2 gap-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">Tax-effective property investment at 15% rate in accumulation phase</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">Potential CGT exemption during pension phase</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">Leverage super funds for property investment</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-accent mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-sm">LVR up to 80% on residential and commercial property</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </section>
+          {/* Main Content */}
+          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+            {/* What this service is */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">What is SMSF Property Lending?</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                SMSF property lending enables self-managed superannuation funds to borrow for property investment through Limited Recourse Borrowing Arrangements (LRBAs). These specialized structures allow SMSFs to leverage borrowings for property acquisition while maintaining regulatory compliance with superannuation legislation. Property is held in compliant custody trust arrangements, protecting the broader SMSF from lender recourse beyond the secured property asset.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Lending applies to both commercial and residential investment properties, including office buildings, retail premises, industrial facilities, and residential real estate held for investment purposes. Loan structures accommodate SMSF cash flow characteristics with interest-only options and terms aligned with retirement planning horizons. All arrangements must comply with SIS Act requirements, including sole purpose test, in-house asset rules, and related party transaction restrictions.
+              </p>
+            </section>
 
-          {/* What Is Section with Guide Link */}
-          <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">What is SMSF Property Lending?</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-lg text-muted-foreground">
-                  SMSF property lending allows Self-Managed Super Funds to borrow money for property investment through Limited Recourse Borrowing Arrangements (LRBAs). This specialized structure enables your super fund to leverage property investment while maintaining compliance with strict superannuation regulations.
-                </p>
-                <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
-                  <p className="text-sm text-muted-foreground mb-3">
-                    <strong>Learn more:</strong> Discover detailed SMSF lending strategies, LRBA structures, compliance requirements, tax implications, and property selection criteria.
-                  </p>
-                  <Button asChild variant="outline" className="w-full sm:w-auto">
-                    <Link to="/resources/guides/smsf-loans-for-commercial-property">
-                      Read Complete SMSF Lending Guide
-                      <ArrowRight className="w-4 h-4 ml-2" />
-                    </Link>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+            {/* Who this service is for */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                SMSF property lending serves self-managed superannuation fund trustees seeking property investment within their retirement savings strategy. Fund members utilize SMSF lending to build property portfolios within tax-effective superannuation structures, benefiting from concessional tax treatment during accumulation phase and potential tax-free income during pension phase. Property investors diversify retirement savings beyond traditional super investments through direct property holdings.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                This is specialized investment lending through self-managed superannuation structures only—not consumer or business operational lending. Funds require appropriate SMSF establishment with compliant trust deeds, sufficient fund balance for deposits and costs, and ongoing capacity to service debt from fund income or contributions. Both established SMSFs and those establishing funds for property investment benefit from specialized SMSF lending solutions.
+              </p>
+            </section>
 
+            {/* How Emet Capital helps */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                As commercial finance brokers with SMSF lending expertise, we provide access to specialist lenders nationwide offering Limited Recourse Borrowing Arrangement facilities. Our lender relationships include major banks with SMSF divisions, specialist SMSF lenders, and private capital providers understanding superannuation property investment requirements. We match trustees with lenders offering competitive rates and compliant structures for property acquisition.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                We guide trustees through LRBA structuring, custody trust establishment, and documentation preparation ensuring regulatory compliance. Our expertise includes coordination with SMSF administrators, accountants, and legal advisors to establish compliant borrowing arrangements. Approval processes consider SMSF-specific criteria including fund balance, investment strategy alignment, and ongoing serviceability. We structure arrangements accommodating SMSF cash flow characteristics while maintaining full compliance with superannuation legislation.
+              </p>
+            </section>
 
-          {/* Quick Stats */}
-          <section className="mb-16">
-            <Card>
-              <CardContent className="p-8">
-                <div className="grid md:grid-cols-4 gap-6 text-center">
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">$150K - $25M+</div>
-                    <div className="text-sm text-muted-foreground">Loan Amount</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">Up to 80%</div>
-                    <div className="text-sm text-muted-foreground">LVR Available</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">$200K Min</div>
-                    <div className="text-sm text-muted-foreground">Fund Balance</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">15% Tax</div>
-                    <div className="text-sm text-muted-foreground">Accumulation Rate</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+            {/* Key features & benefits */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <PiggyBank className="mr-2 h-5 w-5 text-accent" />
+                      Loan Ranges & Terms
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Finance available from $150,000 to $25M+ with terms from 5 to 30 years. Interest-only options available to optimize SMSF cash flow during accumulation phase.
+                    </p>
+                  </CardContent>
+                </Card>
 
-          {/* Simple FAQ */}
-          <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">Quick Questions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Accordion type="single" collapsible className="w-full">
-                  <AccordionItem value="item-1">
-                    <AccordionTrigger>What is an LRBA?</AccordionTrigger>
-                    <AccordionContent>
-                      A Limited Recourse Borrowing Arrangement allows your SMSF to borrow money to purchase property while limiting the lender's recourse to that specific asset, ensuring compliance with super laws.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-2">
-                    <AccordionTrigger>What properties can my SMSF purchase?</AccordionTrigger>
-                    <AccordionContent>
-                      SMSF can purchase residential investment properties, commercial premises, industrial facilities, and vacant land. The property must be acquired at market value from unrelated parties.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-3">
-                    <AccordionTrigger>What are the tax benefits?</AccordionTrigger>
-                    <AccordionContent>
-                      Income and capital gains are taxed at 15% during accumulation phase. In pension phase, income is tax-free and capital gains may be exempt from CGT.
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
-              </CardContent>
-            </Card>
-          </section>
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <TrendingUp className="mr-2 h-5 w-5 text-accent" />
+                      Suitable Use Cases
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Supports commercial and residential investment property acquisition within SMSF structures. Enables leveraged property investment within retirement savings strategies.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <Shield className="mr-2 h-5 w-5 text-accent" />
+                      Compliant LRBA Structure
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Secured through Limited Recourse Borrowing Arrangements with compliant custody trust structures. Protection for broader SMSF assets beyond secured property.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <FileText className="mr-2 h-5 w-5 text-accent" />
+                      Expert Guidance
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Specialized expertise in SMSF lending requirements and regulatory compliance. Coordination with SMSF administrators and legal advisors throughout the process.
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
+
+            {/* Eligibility & next steps */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Eligibility requires compliant SMSF establishment with appropriate trust deed, sufficient fund balance for deposit and costs (typically minimum $200,000+ fund balance), acceptable investment property for security, and ongoing capacity to service debt from fund income or contributions. Property must align with SMSF investment strategy and comply with sole purpose test and related party restrictions.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                To proceed, contact our SMSF lending specialists for initial assessment. We'll evaluate your fund circumstances, property investment plans, and serviceability to identify optimal lender options. Our process includes LRBA structure coordination, custody trust establishment, and guidance through to compliant settlement.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
+                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
+                </Button>
+              </div>
+            </section>
+
+            {/* FAQs */}
+            <FAQSection faqs={faqs} />
+          </div>
 
           {/* Related Services */}
           <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">Related Services</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid md:grid-cols-4 gap-4">
-                  <Link to="/services/first-second-mortgages" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Commercial Mortgages</h3>
-                    <p className="text-sm text-muted-foreground">Property investment loans</p>
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">1st & 2nd Mortgages</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Commercial property finance solutions</p>
+                  <Link to="/services/first-second-mortgages" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
-                  <Link to="/services/asset-backed-lending" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Asset-Backed Lending</h3>
-                    <p className="text-sm text-muted-foreground">Property security finance</p>
-                  </Link>
-                  <Link to="/services/refinancing-solutions" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Refinancing</h3>
-                    <p className="text-sm text-muted-foreground">Improve loan terms</p>
-                  </Link>
-                  <Link to="/services" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">All Services</h3>
-                    <p className="text-sm text-muted-foreground">View complete range</p>
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+                </CardContent>
+              </Card>
 
-          {/* CTA Section */}
-          <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border-primary/20">
-            <CardContent className="p-8 text-center">
-              <h2 className="text-2xl font-bold mb-4">Maximize Your Super Fund Potential</h2>
-              <p className="text-muted-foreground mb-6">
-                Build wealth through compliant property investment in your SMSF.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild>
-                  <Link to="/contact">Start Planning</Link>
-                </Button>
-                <Button size="lg" variant="outline" asChild>
-                  <a href="tel:0485952651">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call Expert
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Property Development</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Construction and development project finance</p>
+                  <Link to="/services/commercial-property-development" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Refinancing Solutions</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Optimize existing property finance arrangements</p>
+                  <Link to="/services/refinancing-solutions" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
         </div>
       </div>
     </>

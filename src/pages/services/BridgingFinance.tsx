@@ -1,49 +1,39 @@
 import { Helmet } from "react-helmet-async";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
-import { 
-  Building2, 
-  Phone, 
-  CheckCircle, 
-  ArrowRight, 
-  Shield,
-  TrendingUp,
-  FileText,
-  Clock
-} from "lucide-react";
+import { Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
+import FAQSection, { FAQItem } from "@/components/FAQSection";
 
 const BridgingFinance = () => {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "FinancialProduct",
-    "name": "Bridging Finance",
-    "description": "Fast short-term property finance that lets you buy before you sell. Bridging loans from 3-12 months across Australia.",
-    "provider": {
-      "@type": "FinancialService",
-      "name": "Emet Capital"
+  const faqs: FAQItem[] = [
+    {
+      question: "What types of security are accepted?",
+      answer: "Commercial and residential property across Australia. Security may include the property being purchased, existing property holdings, or a combination of both depending on loan-to-value ratios."
     },
-    "areaServed": "AU",
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "AUD"
+    {
+      question: "How fast can approval take?",
+      answer: "Initial assessments typically within 24-48 hours for straightforward applications. Settlement can occur within 5-10 business days depending on property valuation and documentation."
+    },
+    {
+      question: "Are these loans available Australia-wide?",
+      answer: "Yes, bridging finance is available for properties across all Australian states and territories through our national lender network."
+    },
+    {
+      question: "Is this for business purposes only?",
+      answer: "Yes, these are commercial lending products for business purposes only. Consumer bridging loans are not offered."
     }
-  };
+  ];
 
   return (
     <>
       <Helmet>
         <title>Bridging Loans Australia | Fast Short-Term Property Finance</title>
-        <meta name="description" content="Fast bridging loans in Australia. Buy before you sell with flexible short-term property finance from 3-12 months. Quick approval and competitive rates." />
-        <meta name="keywords" content="bridging loans australia, bridging finance, bridging loan rates, short-term property finance" />
+        <meta name="description" content="Fast bridging loans in Australia. Short-term property finance from 3-12 months with quick approval and competitive rates for commercial purposes." />
+        <meta name="keywords" content="bridging loans, bridging finance, short-term property finance, property settlement loans" />
         <link rel="canonical" href="/services/bridging-finance" />
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
       </Helmet>
 
       <div className="min-h-screen py-8">
@@ -60,10 +50,7 @@ const BridgingFinance = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Bridging Loans Australia
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">
-              Fast short-term property finance that lets you buy before you sell. Bridge the gap with flexible loans from 3-12 months and approval in days.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                 <Link to="/contact">
                   <FileText className="mr-2 h-5 w-5" />
@@ -79,170 +66,167 @@ const BridgingFinance = () => {
             </div>
           </div>
 
-          {/* Key Benefits */}
-          <section className="mb-16">
-            <Card className="bg-muted/30">
-              <CardHeader>
-                <CardTitle className="flex items-center text-2xl">
-                  <TrendingUp className="mr-3 h-6 w-6 text-accent" />
-                  Key Benefits
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="grid md:grid-cols-2 gap-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0 mt-0.5" />
-                    <span>Buy before you sell - seize property opportunities</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0 mt-0.5" />
-                    <span>Fast approval - funds in 3-7 days with private lenders</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0 mt-0.5" />
-                    <span>Flexible repayment via sale or refinance</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-accent mr-3 flex-shrink-0 mt-0.5" />
-                    <span>Interest-only or capitalized payment options</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </section>
+          {/* Main Content */}
+          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+            {/* What this service is */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">What is Bridging Finance?</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Bridging finance provides short-term property funding that enables businesses and investors to proceed with property acquisition before completing existing property sales or refinancing arrangements. These facilities bridge temporary funding gaps, allowing strategic property moves without timing constraints. Bridging loans are property-secured with terms typically ranging from 3 to 12 months, providing flexibility for commercial property transactions and business property needs.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                The funding structure accommodates various scenarios including property purchase pending sale, auction purchases requiring quick settlement, property settlement timing mismatches, and temporary funding during refinancing processes. Security arrangements are flexible, utilizing either the property being purchased, existing holdings, or combined security positions. Interest structures often feature capitalization options, minimizing cash flow impact during the bridging period.
+              </p>
+            </section>
 
-          {/* What Is Section with Guide Link */}
-          <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">What Is a Bridging Loan?</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-lg text-muted-foreground">
-                  A bridging loan is short-term finance that helps you purchase a new property before selling your existing one. It provides a temporary "bridge" to complete transactions without delay, with terms typically ranging from 3-12 months.
-                </p>
-                <div className="bg-accent/5 border border-accent/20 rounded-lg p-4">
-                  <p className="text-sm text-muted-foreground mb-3">
-                    <strong>Learn more:</strong> Explore detailed bridging finance strategies, LVR calculations, exit strategies, and closed vs. open bridging structures.
-                  </p>
-                  <Button asChild variant="outline" className="w-full sm:w-auto">
-                    <Link to="/resources/guides/bridging-finance-australia-complete-property-guide">
-                      Read Complete Bridging Finance Guide
-                      <ArrowRight className="w-4 h-4 ml-2" />
-                    </Link>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+            {/* Who this service is for */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Bridging finance serves property investors, business owners, developers, and companies requiring immediate property funding. Investors utilize bridging loans to secure opportunities before completing sales of existing properties. Business owners access short-term funding for premises acquisition while arranging permanent financing. Developers use bridging finance for land acquisition and pre-development funding before construction finance activation.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                This is commercial and business-purpose lending only—no consumer bridging loans are provided. Borrowers require property security and clear exit strategies demonstrating repayment capacity through property sale, refinancing, or business cash flow. Both established property holders and those building portfolios benefit from short-term bridging solutions tailored to commercial lending requirements.
+              </p>
+            </section>
 
+            {/* How Emet Capital helps */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist bridging lenders, and private capital providers. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in short-term property finance. We match clients with lenders offering competitive rates and structures aligned with property transaction timing and exit strategies.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                We guide clients through rapid approval processes essential for time-sensitive property transactions. Our expertise includes security structuring, exit strategy planning, and coordination with property settlements. Approval timeframes are significantly faster than traditional property finance, with streamlined processes enabling quick decision-making. We structure flexible arrangements accommodating diverse property scenarios and business circumstances, ensuring successful property acquisition within tight timeframes.
+              </p>
+            </section>
 
-          {/* Quick Stats */}
-          <section className="mb-16">
-            <Card>
-              <CardContent className="p-8">
-                <div className="grid md:grid-cols-4 gap-6 text-center">
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">3-12 Months</div>
-                    <div className="text-sm text-muted-foreground">Loan Terms</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">70-80% LVR</div>
-                    <div className="text-sm text-muted-foreground">Maximum Lending</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">3-7 Days</div>
-                    <div className="text-sm text-muted-foreground">Approval Time</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-accent mb-2">No Limit</div>
-                    <div className="text-sm text-muted-foreground">Loan Amount</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+            {/* Key features & benefits */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <Building2 className="mr-2 h-5 w-5 text-accent" />
+                      Loan Ranges & Terms
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Finance available from $100,000 to $50M+ with terms from 3 to 12 months. Flexible structures accommodate property transaction timing and exit strategies.
+                    </p>
+                  </CardContent>
+                </Card>
 
-          {/* Simple FAQ */}
-          <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">Quick Questions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <Accordion type="single" collapsible className="w-full">
-                  <AccordionItem value="item-1">
-                    <AccordionTrigger>How fast can I get a bridging loan?</AccordionTrigger>
-                    <AccordionContent>
-                      Private lenders can approve and settle in 3-7 business days, while banks typically take 2-4+ weeks.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-2">
-                    <AccordionTrigger>Do I need monthly repayments?</AccordionTrigger>
-                    <AccordionContent>
-                      Many bridging loans allow capitalized interest, meaning you don't make monthly repayments - interest is added to the loan balance.
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="item-3">
-                    <AccordionTrigger>What properties are eligible?</AccordionTrigger>
-                    <AccordionContent>
-                      Bridging loans are available for residential, investment, and commercial properties across Australia.
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
-              </CardContent>
-            </Card>
-          </section>
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <TrendingUp className="mr-2 h-5 w-5 text-accent" />
+                      Suitable Use Cases
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Supports property purchase pending sale, auction settlements, timing mismatches, refinancing transitions, and opportunity acquisition where immediate funding is required.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <Shield className="mr-2 h-5 w-5 text-accent" />
+                      Property-Based Security
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Secured by commercial or residential property. Security arrangements include property being purchased, existing holdings, or combined positions depending on loan-to-value requirements.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <FileText className="mr-2 h-5 w-5 text-accent" />
+                      Streamlined Process
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      Rapid assessment and approval processes designed for time-sensitive property transactions. Broker expertise ensures efficient documentation and quick settlement coordination.
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
+
+            {/* Eligibility & next steps */}
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Eligibility requires business purpose (no consumer lending), property security with adequate valuation, clear exit strategy demonstrating repayment capacity, and appropriate business structure where applicable. Documentation includes property details, exit strategy evidence (sale contracts or refinancing capacity), and business information. Both property investors and business owners with commercial property needs are considered.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                To proceed, contact our team for immediate assessment. Time-sensitive property transactions require rapid response, and we prioritize quick turnaround for bridging finance enquiries. We'll evaluate your property transaction, exit strategy, and security to identify optimal lender options and expedite approval processes.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
+                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
+                </Button>
+              </div>
+            </section>
+
+            {/* FAQs */}
+            <FAQSection faqs={faqs} />
+          </div>
 
           {/* Related Services */}
           <section className="mb-16">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl">Related Services</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid md:grid-cols-4 gap-4">
-                  <Link to="/services/commercial-property-development" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Development Finance</h3>
-                    <p className="text-sm text-muted-foreground">Property development loans</p>
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">1st & 2nd Mortgages</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Long-term commercial property finance solutions</p>
+                  <Link to="/services/first-second-mortgages" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
-                  <Link to="/services/refinancing-solutions" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Refinancing</h3>
-                    <p className="text-sm text-muted-foreground">Better loan terms</p>
-                  </Link>
-                  <Link to="/services/caveat-loans" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">Caveat Loans</h3>
-                    <p className="text-sm text-muted-foreground">Ultra-fast property finance</p>
-                  </Link>
-                  <Link to="/services" className="p-4 border rounded-lg hover:bg-muted/50 transition-colors">
-                    <h3 className="font-semibold mb-2">All Services</h3>
-                    <p className="text-sm text-muted-foreground">View complete range</p>
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
-          </section>
+                </CardContent>
+              </Card>
 
-          {/* CTA Section */}
-          <Card className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 border-primary/20">
-            <CardContent className="p-8 text-center">
-              <h2 className="text-2xl font-bold mb-4">Don't Miss Your Property Opportunity</h2>
-              <p className="text-muted-foreground mb-6">
-                Fast bridging finance for time-sensitive opportunities.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild>
-                  <Link to="/contact">Apply Now</Link>
-                </Button>
-                <Button size="lg" variant="outline" asChild>
-                  <a href="tel:0485952651">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Call Expert
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Caveat Loans</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Ultra-fast property-secured business finance</p>
+                  <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Property Development</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Construction and development project finance</p>
+                  <Link to="/services/commercial-property-development" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
         </div>
       </div>
     </>
