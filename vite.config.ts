@@ -28,5 +28,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/bennyblair.github.io/' // Since this will be the base directory
+  base: '/' 
 }));
