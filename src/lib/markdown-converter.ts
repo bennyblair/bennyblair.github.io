@@ -78,14 +78,16 @@ export function extractFAQs(markdown: string): FAQItem[] {
   const faqs: FAQItem[] = [];
   
   // Try to match h3 format first (### Question?)
-  const h3Matches = faqSection.match(/###\s+([^\n]+)\n\n([^\n#]+(?:\n(?!###)[^\n#]+)*)/g);
+  // Allow single or double newlines after question
+  const h3Matches = faqSection.match(/###\s+([^\n]+)\n+([^\n#]+(?:\n(?!###)[^\n#]+)*)/g);
   
   if (h3Matches && h3Matches.length > 0) {
     // Parse h3 format
     h3Matches.forEach(match => {
-      const lines = match.split('\n');
-      const question = lines[0].replace(/^###\s+/, '').trim();
-      const answer = lines.slice(2).join(' ').trim(); // Skip empty line after question
+      // Split by newline to separate question and answer
+      const parts = match.split(/\n+/);
+      const question = parts[0].replace(/^###\s+/, '').trim();
+      const answer = parts.slice(1).join('\n').trim();
       if (question && answer) {
         faqs.push({ question, answer });
       }
