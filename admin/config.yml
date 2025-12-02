@@ -1,0 +1,61 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# This line should *not* be indented
+media_folder: "public/images/uploads" # Media files will be stored in the repo under public/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "guides" # Used in routes, e.g., /admin/collections/guides
+    label: "Guides" # Used in the UI
+    folder: "src/content/guides" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
+      - {label: "Category", name: "category", widget: "select", options: ["Commercial Lending", "Asset Finance", "Development Finance", "Market Insights", "Guides"]}
+      - {label: "Tags", name: "tags", widget: "list", default: []}
+      - {label: "Author", name: "author", widget: "string", default: "Emet Capital"}
+      - {label: "Reading Time", name: "readingTime", widget: "number", default: 5}
+      - {label: "Body", name: "body", widget: "markdown"}
+      
+  - name: "case-studies" 
+    label: "Case Studies" 
+    folder: "src/content/case-studies" 
+    create: true 
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Loan Amount", name: "loanAmount", widget: "string"}
+      - {label: "Loan Type", name: "loanType", widget: "string"}
+      - {label: "Industry", name: "industry", widget: "string"}
+      - {label: "Duration", name: "duration", widget: "string"}
+      - {label: "Outcome", name: "outcome", widget: "string"}
+      - {label: "Challenge", name: "challenge", widget: "text"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      
+  - name: "market-insights" 
+    label: "Market Insights" 
+    folder: "src/content/insights" 
+    create: true 
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
+      - {label: "Category", name: "category", widget: "select", options: ["Market Analysis", "Interest Rates", "Industry Trends", "Economic Outlook"]}
+      - {label: "Tags", name: "tags", widget: "list", default: []}
+      - {label: "Author", name: "author", widget: "string", default: "Emet Capital Research Team"}
+      - {label: "Reading Time", name: "readingTime", widget: "number", default: 5}
+      - {label: "Body", name: "body", widget: "markdown"}

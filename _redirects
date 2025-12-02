@@ -1,0 +1,27 @@
+# Redirects for old URLs
+/about-us    /about    301
+/commercial-property-development    /services/commercial-property-development    301
+/business-investment-expansion    /services/business-acquisition    301
+/resources/guides/2nd-mortgage-loan    /resources/guides/second-mortgage-for-business-australia    301
+/resources/guides/2nd-mortgage-lenders    /resources/guides/second-mortgage-for-business-australia    301
+/resources/guides/bridging-finance-commercial-property-australia    /resources/guides/bridging-loans-australia    301
+
+# Tool page consolidation redirects
+/resources/tools/2nd-mortgage-loan-rates    /resources/tools/second-mortgage-calculator    301
+/resources/tools/2nd-mortgage-rates    /resources/tools/second-mortgage-calculator    301
+/resources/tools/mortgage-rates-for-second-mortgage    /resources/tools/second-mortgage-calculator    301
+/resources/tools/second-mortgage-rates    /resources/tools/second-mortgage-calculator    301
+/resources/tools/commercial-property-loan-repayment-calculator    /resources/tools/commercial-property-loan-calculator    301
+/resources/tools/commercial-real-estate-loans-calculator    /resources/tools/commercial-property-loan-calculator    301
+/resources/tools/loan-calculator-commercial-loan    /resources/tools/commercial-property-loan-calculator    301
+/resources/tools/loan-for-commercial-property-calculator    /resources/tools/commercial-property-loan-calculator    301
+/resources/tools/repayment-calculator-commercial-property    /resources/tools/commercial-property-loan-calculator    301
+
+# Static assets should be served directly
+/assets/*  /assets/:splat  200
+/favicon.ico  /favicon.ico  200
+/robots.txt   /robots.txt   200
+/sitemap.xml  /sitemap.xml  200
+
+# SPA Fallback - Send all routes to index.html for React Router to handle
+/*    /index.html   200
