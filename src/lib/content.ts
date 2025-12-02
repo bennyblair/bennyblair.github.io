@@ -24,8 +24,8 @@ export interface Article {
 }
 
 // Load markdown files at build time (Vite)
-const guideModules = import.meta.glob("../content/guides/*.md", { as: "raw", eager: true }) as Record<string, string>;
-const caseStudyModules = import.meta.glob("../content/case-studies/*.md", { as: "raw", eager: true }) as Record<string, string>;
+const guideModules = import.meta.glob("../content/guides/*.md", { query: "?raw", import: "default", eager: true }) as Record<string, string>;
+const caseStudyModules = import.meta.glob("../content/case-studies/*.md", { query: "?raw", import: "default", eager: true }) as Record<string, string>;
 
 let guidesCache: Article[] | null = null;
 let caseStudiesCache: Article[] | null = null;
