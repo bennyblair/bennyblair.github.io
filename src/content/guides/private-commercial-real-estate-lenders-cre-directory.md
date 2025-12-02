@@ -1,11 +1,11 @@
 ---
 title: "Private Commercial Real Estate Lenders: CRE Directory"
-author: Emet Capital
-date: 2025-11-25
-slug: private-commercial-real-estate-lenders-cre-directory
-word_count: 2000-2500
+author: "Emet Capital"
+date: "2025-11-25"
+slug: "private-commercial-real-estate-lenders-cre-directory"
+word_count: "2000-2500"
 keywords: ["private lenders for commercial real estate", "CRE lenders Australia", "commercial property finance directory"]
-description: Comprehensive directory and expert guide to private commercial real estate lenders in Australia. Includes CRE-focused lender profiles, lending criteria, and how to choose the right lender for your commercial property needs.
+description: "Comprehensive directory and expert guide to private commercial real estate lenders in Australia. Includes CRE-focused lender profiles, lending criteria, and how to choose the right lender for your commercial property needs."
 ---
 
 # Private Commercial Real Estate Lenders: CRE Directory

@@ -1,11 +1,11 @@
 ---
 title: "Commercial Property Finance Rates: 2025 Comparison"
-author: Emet Capital
-date: 2025-11-26
-slug: commercial-property-finance-rates-2025-comparison
-word_count: 2000-2500
+author: "Emet Capital"
+date: "2025-11-26"
+slug: "commercial-property-finance-rates-2025-comparison"
+word_count: "2000-2500"
 keywords: ["commercial property finance rates", "2025 comparison", "commercial loan rates Australia", "CRE finance trends"]
-description: In-depth comparison of commercial property finance rates in Australia for 2025, including trends, lender types, and expert insights. Focuses on rate analysis, not a comprehensive guide.
+description: "In-depth comparison of commercial property finance rates in Australia for 2025, including trends, lender types, and expert insights. Focuses on rate analysis, not a comprehensive guide."
 ---
 
 # Commercial Property Finance Rates: 2025 Comparison
