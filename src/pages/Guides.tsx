@@ -39,19 +39,35 @@ const Guides = () => {
     return diffDays <= 7;
   };
 
-  const categories = ["All", ...Array.from(new Set(publishedArticles.map(article => article.category))).filter(Boolean).sort()];
+  const categories = [
+    "All",
+    "Asset Finance",
+    "Development Finance", 
+    "Property Finance",
+    "Working Capital",
+    "Trade Finance",
+    "Location Guides",
+    "Getting Started"
+  ];
 
-  const featuredArticle = publishedArticles.find(article => 
+  const guides = [
+    // Keep any truly hardcoded guides that don't exist as markdown files
+    // The markdown files will provide: bridging-loans-australia, caveat-loans-vs-second-mortgages, second-mortgage-for-business-australia
+  ];
+
+  const filteredGuides = selectedCategory === "All" 
+    ? guides 
+    : guides.filter(guide => guide.category === selectedCategory);
+
+  const featuredGuide = publishedArticles.find(article => 
     article.slug === "second-mortgage-for-business-australia"
-  );
-
-  const featuredGuide = featuredArticle ? {
-    title: featuredArticle.title,
-    excerpt: featuredArticle.description,
-    category: featuredArticle.category,
-    readTime: `${featuredArticle.readingTime} min`,
+  ) ? {
+    title: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.title || "",
+    excerpt: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.description || "",
+    category: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.category || "",
+    readTime: `${publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.readingTime || 0} min`,
     featured: true,
-    slug: featuredArticle.slug
+    slug: "second-mortgage-for-business-australia"
   } : null;
 
   // Use only published articles from markdown files
