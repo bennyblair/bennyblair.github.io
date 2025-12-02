@@ -30,11 +30,58 @@ const caseStudyModules = import.meta.glob("../content/case-studies/*.md", { quer
 let guidesCache: Article[] | null = null;
 let caseStudiesCache: Article[] | null = null;
 
+// Fallback parser for when gray-matter fails
+function simpleFrontmatterParser(raw: string) {
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (!match) return { data: {}, content: raw };
+
+  const frontmatter = match[1];
+  const content = match[2];
+  const data: Record<string, any> = {};
+
+  frontmatter.split('\n').forEach(line => {
+    const parts = line.split(':');
+    if (parts.length >= 2) {
+      const key = parts[0].trim();
+      let value = parts.slice(1).join(':').trim();
+      // Remove quotes
+      if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+        value = value.slice(1, -1);
+      }
+      // Handle arrays (simple comma separated)
+      if (value.startsWith('[') && value.endsWith(']')) {
+        data[key] = value.slice(1, -1).split(',').map(s => s.trim().replace(/^["']|["']$/g, ''));
+      } else {
+        data[key] = value;
+      }
+    }
+  });
+
+  return { data, content };
+}
+
 function parseArticlesFromModules(modules: Record<string, string>): Article[] {
   const articles: Article[] = [];
   for (const path in modules) {
     const raw = modules[path];
-    const parsed = matter(raw);
+    let parsed;
+    try {
+      parsed = matter(raw);
+    } catch (e) {
+      console.warn(`Gray-matter failed for ${path}, using fallback parser. Error:`, e);
+      try {
+        parsed = simpleFrontmatterParser(raw);
+      } catch (e2) {
+        console.error(`Fallback parser also failed for ${path}`, e2);
+        continue;
+      }
+    }
+    
+    if (!parsed || !parsed.data) {
+       console.warn(`No data found for ${path}`);
+       continue;
+    }
+
     // slug = filename without extension
     const match = path.match(/([^\/]+)\.md$/);
     const slug = match ? match[1] : path;
@@ -42,7 +89,10 @@ function parseArticlesFromModules(modules: Record<string, string>): Article[] {
     const data = parsed.data as any;
     const content = parsed.content || "";
 
-    if (!data || !data.title) continue; // skip invalid
+    if (!data.title) {
+        console.warn(`Skipping ${path}: No title found`);
+        continue; 
+    }
 
     articles.push({
       slug,

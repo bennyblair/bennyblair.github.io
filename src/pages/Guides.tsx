@@ -8,6 +8,7 @@ import { getContentFiles, type Article } from "@/lib/content";
 import { generateBreadcrumbSchema, generateCollectionPageSchema } from "@/lib/schema-utils";
 
 const Guides = () => {
+  console.log("Guides component rendering");
   const breadcrumbItems = [
     { label: "Home", href: "/" },
     { label: "Resources", href: "/resources" },
@@ -88,6 +89,15 @@ const Guides = () => {
   const filteredAllGuides = selectedCategory === "All" 
     ? allGuides 
     : allGuides.filter(guide => guide.category === selectedCategory);
+
+  if (publishedArticles.length === 0) {
+    return (
+      <div className="min-h-screen py-8 flex flex-col items-center justify-center">
+        <h1 className="text-2xl font-bold mb-4">Loading Guides...</h1>
+        <p className="text-muted-foreground">If this persists, please check the console for errors.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen py-8">
