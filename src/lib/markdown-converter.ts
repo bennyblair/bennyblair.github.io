@@ -34,7 +34,8 @@ export function convertMarkdownToHtml(markdown: string): string {
   let cleanedMarkdown = markdown.replace(/```json[\s\S]*?```/g, '');
   
   // Replace FAQ section with placeholder
-  cleanedMarkdown = cleanedMarkdown.replace(/## FAQs?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i, '\n<div id="faq-placeholder"></div>\n');
+  // Matches: ## FAQs, ## Frequently Asked Questions, ## 6. Frequently Asked Questions (FAQ), ## FAQ Section
+  cleanedMarkdown = cleanedMarkdown.replace(/##\s*(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)(?:.*)?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i, '\n<div id="faq-placeholder"></div>\n');
   
   // Convert markdown to HTML
   const rawHtml = marked(cleanedMarkdown) as string;
@@ -69,7 +70,8 @@ export function extractTableOfContents(markdown: string): TableOfContentsItem[] 
 export function extractFAQs(markdown: string): FAQItem[] {
   if (!markdown) return [];
   
-  const faqMatch = markdown.match(/## (?:Frequently Asked Questions|FAQs?)\s*\n([\s\S]*?)(?=\n## |\n# |$)/i);
+  // Matches: ## FAQs, ## Frequently Asked Questions, ## 6. Frequently Asked Questions (FAQ), ## FAQ Section
+  const faqMatch = markdown.match(/##\s*(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)(?:.*)?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i);
   if (!faqMatch) return [];
   
   const faqSection = faqMatch[1];
