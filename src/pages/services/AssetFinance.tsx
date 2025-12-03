@@ -6,6 +6,7 @@ import { Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } from "luci
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const AssetFinance = () => {
   const faqs: FAQItem[] = [
@@ -186,11 +187,17 @@ const AssetFinance = () => {
             </div>
           </section>
 
-          {/* FAQs */}
-          <FAQSection faqs={faqs} />
-        </div>
+            {/* FAQs */}
+            <FAQSection faqs={faqs} />
+          </div>
 
-        {/* Related Services */}
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Asset-Backed Lending and Asset Finance", slug: "asset-backed-lending-and-asset-finance", description: "Understanding asset-secured business funding" },
+            { title: "Equipment Finance and Leasing Australia", slug: "equipment-finance-and-leasing-australia", description: "Complete guide to equipment finance options" }
+          ] as RelatedArticle[]} />
+
+          {/* Related Services */}
         <section className="mb-16">
           <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
           <div className="grid md:grid-cols-3 gap-6">

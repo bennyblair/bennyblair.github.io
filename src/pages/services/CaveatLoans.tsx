@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const CaveatLoans = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,13 @@ const CaveatLoans = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Caveat Loans Australia: The Complete Guide", slug: "caveat-loans-australia-complete-guide", description: "Everything you need to know about caveat loans and urgent property finance" },
+            { title: "Urgent Caveat Loans: When Speed Matters", slug: "urgent-caveat-loans", description: "How to access fast caveat funding for time-critical business needs" },
+            { title: "Quick Caveat Loans: 48 Hour Settlement Possible", slug: "quick-caveat-loans-48-hour-settlement-possible", description: "Understanding rapid settlement options for caveat finance" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { PiggyBank, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const SMSFLending = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,11 @@ const SMSFLending = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "SMSF Loans for Commercial Property", slug: "smsf-loans-for-commercial-property", description: "Guide to SMSF property investment and LRBA structures" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

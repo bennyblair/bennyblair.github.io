@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const AssetBackedLending = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,12 @@ const AssetBackedLending = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Asset-Backed Lending and Asset Finance Guide", slug: "asset-backed-lending-and-asset-finance", description: "Comprehensive overview of asset-backed lending options for businesses" },
+            { title: "First Mortgage Loans: Primary Property Finance", slug: "first-mortgage-loans-primary-property-finance", description: "Understanding first mortgage positions and their advantages" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">
