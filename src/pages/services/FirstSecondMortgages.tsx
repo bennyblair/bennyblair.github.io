@@ -6,6 +6,7 @@ import { Phone, FileText, Building2, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const FirstSecondMortgages = () => {
   const faqs: FAQItem[] = [
@@ -183,6 +184,13 @@ const FirstSecondMortgages = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "First and Second Mortgages for Business", slug: "first-and-second-mortgages-for-business", description: "Understanding mortgage positions and their strategic uses" },
+            { title: "Second Mortgage Lenders Australia Directory", slug: "second-mortgage-lenders-australia-directory", description: "Guide to second mortgage lender options across Australia" },
+            { title: "How to Find Second Mortgage Brokers in Australia", slug: "how-to-find-second-mortgage-brokers-australia", description: "Finding the right broker for your second mortgage needs" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

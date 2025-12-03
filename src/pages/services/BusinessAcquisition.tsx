@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const BusinessAcquisition = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,12 @@ const BusinessAcquisition = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Business Acquisition Finance Australia", slug: "business-acquisition-finance-australia", description: "Comprehensive guide to financing business purchases" },
+            { title: "Mezzanine Finance Australia: Complete Guide", slug: "mezzanine-finance-australia-complete-guide", description: "Understanding mezzanine funding for acquisitions" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const BridgingFinance = () => {
   const faqs: FAQItem[] = [
@@ -185,6 +186,13 @@ const BridgingFinance = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Bridging Finance Australia: Complete Property Guide", slug: "bridging-finance-australia-complete-property-guide", description: "Comprehensive guide to bridging loans for property investors and developers" },
+            { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-finance-auction-purchases", description: "How to secure auction properties with fast bridging finance" },
+            { title: "Short-Term Property Loans: When You Need Fast Finance", slug: "short-term-property-loans-when-you-need-fast-finance", description: "Understanding when short-term property finance is the right solution" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">
