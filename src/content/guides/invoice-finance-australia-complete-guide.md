@@ -13,7 +13,7 @@ readingTime: 12
 
 ## Introduction
 
-Invoice finance provides essential cash flow solutions for Australian businesses by converting outstanding customer invoices into immediate working capital, addressing the fundamental challenge of maintaining operations while waiting for customer payments. This sophisticated financing approach enables businesses to access up to 90% of invoice values within 24-48 hours of delivery, transforming accounts receivable into operational funding.
+Invoice finance provides essential cash flow solutions for Australian businesses by converting outstanding customer invoices into immediate working capital, addressing the fundamental challenge of maintaining operations while waiting for customer payments. This sophisticated financing approach enables businesses to access up to 90% of invoice values within 24-48 hours of delivery, transforming accounts receivable into operational funding. For tailored [working capital solutions](/services/working-capital), understanding invoice finance is a crucial starting point.
 
 The Australian invoice finance market offers diverse structures including invoice factoring, invoice discounting, selective facilities, and whole ledger arrangements, each designed to suit different business models, customer relationships, and cash flow requirements. These solutions particularly benefit businesses with extended customer payment terms, seasonal variations, or rapid growth requiring increased working capital.
 

@@ -10,7 +10,7 @@ description: Urgency-focused guide to short-term private lenders in Australia, c
 
 # Short-Term Private Lenders: Fast Business Finance Solutions
 
-When time is critical, short-term private lenders offer fast, flexible business finance solutions for Australian companies facing urgent funding needs. This guide explains how short-term private lending works, who it suits, and how to access rapid finance for business opportunities, cash flow gaps, or emergency situations.
+When time is critical, short-term private lenders offer fast, flexible business finance solutions for Australian companies facing urgent funding needs. This guide explains how short-term private lending works, who it suits, and how to access rapid finance for business opportunities, cash flow gaps, or emergency situations. For businesses requiring [private commercial lending](/services/private-lending) or [urgent caveat finance](/services/caveat-loans), understanding these options is essential.
 
 ## Table of Contents
 1. Introduction: Why Short-Term Private Lending?

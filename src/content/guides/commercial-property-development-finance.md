@@ -119,7 +119,7 @@ slug: "commercial-property-development-finance"
 }
 </script>
 
-Commercial property development finance represents one of the most complex yet rewarding areas of business lending in Australia. Unlike traditional property purchases, development projects require sophisticated funding structures that accommodate the unique risks, timelines, and cash flow patterns inherent in creating new commercial assets from the ground up.
+Commercial property development finance represents one of the most complex yet rewarding areas of business lending in Australia. Unlike traditional property purchases, development projects require sophisticated funding structures that accommodate the unique risks, timelines, and cash flow patterns inherent in creating new commercial assets from the ground up. For developers seeking [property development finance](/services/commercial-property-development), understanding these structures is essential for project success.
 
 Development finance typically involves multiple funding stages, from initial land acquisition through construction completion and final settlement. Lenders evaluate projects based on feasibility studies, development experience, pre-sales or pre-leasing commitments, and comprehensive risk assessment frameworks. Interest rates generally range from 6-12% per annum, with loan-to-cost ratios reaching 70-80% for experienced developers with strong projects.
 

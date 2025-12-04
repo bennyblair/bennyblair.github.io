@@ -119,7 +119,7 @@ slug: "working-capital-loans-for-smes"
 }
 </script>
 
-Working capital represents the lifeblood of small and medium enterprises (SMEs), enabling day-to-day operations, inventory management, and growth opportunities. Working capital loans provide essential funding to bridge cash flow gaps, support seasonal fluctuations, and capitalise on immediate business opportunities when internal cash reserves prove insufficient for operational requirements.
+Working capital represents the lifeblood of small and medium enterprises (SMEs), enabling day-to-day operations, inventory management, and growth opportunities. Working capital loans provide essential funding to bridge cash flow gaps, support seasonal fluctuations, and capitalise on immediate business opportunities when internal cash reserves prove insufficient for operational requirements. For tailored [working capital solutions](/services/working-capital), understanding the options available helps businesses make informed funding decisions.
 
 Australian SMEs face unique working capital challenges including extended payment terms from large customers, seasonal demand variations, and growth-related cash flow pressures. Working capital loans offer flexible solutions ranging from traditional term loans and overdraft facilities to modern invoice financing and merchant cash advances, each designed to address specific cash flow timing issues.
 

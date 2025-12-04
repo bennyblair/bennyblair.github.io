@@ -112,11 +112,16 @@ No. This case reflects a business-purpose loan only.
 **Priority deed:** Agreement on lender ranking.  
 **Capitalised interest:** Interest added to balance, not paid monthly.
 
+## Related Services
+
+- [Bridging Finance](/services/bridging-finance) - Short-term property finance for developers
+- [Commercial Property Development](/services/commercial-property-development) - Development funding solutions
+- [Private Lending](/services/private-lending) - Non-bank commercial finance options
+
 ## Related Resources
 
-- [Private Lending in Sydney](/resources/guides/private-lending-sydney-business-guide)
-- [Bridging Loans in Australia](/resources/guides/bridging-loans-australia)
-- [Second Mortgage vs Caveat Loan](/resources/guides/second-mortgage-vs-caveat-loan)
+- [Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)
+- [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
 
 <script type="application/ld+json">
 {

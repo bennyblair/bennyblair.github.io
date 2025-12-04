@@ -230,6 +230,12 @@ The key was partnering with a commercial property lender who understood both the
 
 Adelaide's continued growth as a business destination ensures that quality commercial properties will remain in demand, making commercial property investment an attractive opportunity for investors with the right expertise and financing partners.
 
+## Related Services
+
+- [Refinancing Solutions](/services/refinancing-solutions) - Commercial property refinancing
+- [First & Second Mortgages](/services/first-second-mortgages) - Property-secured business finance
+- [Private Lending](/services/private-lending) - Flexible non-bank funding
+
 ---
 
 *Emet Capital provides specialized commercial property finance across Australia's capital cities and regional centers. Our local market knowledge and flexible lending approach help property investors maximize returns while managing renovation and development risks.*
