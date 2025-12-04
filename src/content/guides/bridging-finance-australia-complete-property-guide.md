@@ -102,7 +102,7 @@ Self-managed superannuation funds acquiring commercial property investments may 
 
 Auction properties or time-sensitive commercial opportunities may require rapid settlement that SMSF contribution timing or member liquidity cannot accommodate immediately. Bridging enables property security while SMSF funding arrangements are finalized.
 
-For comprehensive understanding of permanent solutions, trustees should explore [SMSF loans for commercial property](/resources/services/smsf-lending) structures that can replace bridging arrangements once established.
+For comprehensive understanding of permanent solutions, trustees should explore [SMSF loans for commercial property](/services/smsf-lending) structures that can replace bridging arrangements once established. For all your [commercial bridging finance](/services/bridging-finance) needs, our team can help structure the right solution.
 
 Limited recourse borrowing arrangement (LRBA) compliance requires careful bridging structure to ensure superannuation legislation adherence while providing necessary interim funding. Specialist SMSF bridging lenders understand these complexities and provide compliant solutions.
 

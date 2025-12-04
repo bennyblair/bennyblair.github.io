@@ -77,7 +77,7 @@ schema:
           text: "Using your home to secure urgent business funding carries serious risks you must weigh carefully. Your home represents your family's financial security, and putting it at risk for business purposes requires absolute certainty you can repay the loan. Consider whether you have other security options—business premises, investment properties, or equipment—that could be used instead. If your home is your only substantial asset, ensure you have a clear, realistic exit strategy before proceeding."
 ---
 
-When your business faces a financial emergency, waiting weeks for traditional bank approval isn't an option. Urgent caveat loans deliver what conventional lenders can't: lightning-fast access to capital when time is critical.
+When your business faces a financial emergency, waiting weeks for traditional bank approval isn't an option. Urgent caveat loans deliver what conventional lenders can't: lightning-fast access to capital when time is critical. For businesses requiring [urgent caveat finance](/services/caveat-loans), understanding these products helps secure rapid funding when it matters most.
 
 These specialised short-term loans use your property as security and can put funds in your account within 24 to 48 hours of approval. Whether you're facing settlement deadlines, urgent business opportunities, or unexpected financial pressures, urgent caveat loans provide immediate liquidity when you need it most.
 

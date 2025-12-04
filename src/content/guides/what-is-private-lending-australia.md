@@ -119,7 +119,7 @@ slug: "what-is-private-lending-australia"
 }
 </script>
 
-Private lending represents a sophisticated alternative financing sector where non-bank lenders provide capital to businesses and individuals using flexible structures, faster decision-making processes, and risk assessment criteria that often differ significantly from traditional banking approaches. These lenders typically include high-net-worth individuals, family offices, private debt funds, and specialist lending institutions operating outside mainstream banking systems.
+Private lending represents a sophisticated alternative financing sector where non-bank lenders provide capital to businesses and individuals using flexible structures, faster decision-making processes, and risk assessment criteria that often differ significantly from traditional banking approaches. These lenders typically include high-net-worth individuals, family offices, private debt funds, and specialist lending institutions operating outside mainstream banking systems. For businesses seeking [private commercial lending solutions](/services/private-lending), understanding how this sector operates is crucial for accessing the right funding.
 
 The Australian private lending market has expanded substantially over recent decades, driven by regulatory constraints on traditional banks, increased demand for alternative financing solutions, and growing sophistication among private capital providers. Private lenders often fill market gaps where banks cannot or will not lend, providing solutions for complex transactions, time-sensitive opportunities, or circumstances requiring specialized expertise.
 

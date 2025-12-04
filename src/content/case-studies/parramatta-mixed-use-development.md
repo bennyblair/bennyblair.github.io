@@ -196,6 +196,12 @@ The key was having a finance partner who understood both the opportunities and r
 
 Parramatta's continued growth ensures that quality mixed-use developments like this will remain in high demand, making it an attractive market for experienced developers with the right financing partners.
 
+## Related Services
+
+- [Bridging Finance](/services/bridging-finance) - Short-term development funding
+- [Commercial Property Development](/services/commercial-property-development) - Development finance solutions
+- [Private Lending](/services/private-lending) - Flexible non-bank funding
+
 ---
 
 *Emet Capital provides specialized development and bridging finance across Sydney's growth corridors. Our local market expertise and flexible approach help developers capitalize on opportunities while managing construction and market risks.*

@@ -119,7 +119,7 @@ slug: "smsf-loans-for-commercial-property"
 }
 </script>
 
-Self-Managed Super Fund (SMSF) loans for commercial property enable fund trustees to leverage superannuation savings for property investment through Limited Recourse Borrowing Arrangements (LRBA). These specialized financing structures allow SMSFs to purchase commercial properties using borrowed funds while maintaining compliance with strict superannuation and taxation legislation.
+Self-Managed Super Fund (SMSF) loans for commercial property enable fund trustees to leverage superannuation savings for property investment through Limited Recourse Borrowing Arrangements (LRBA). These specialized financing structures allow SMSFs to purchase commercial properties using borrowed funds while maintaining compliance with strict superannuation and taxation legislation. For trustees seeking [SMSF commercial property loans](/services/smsf-lending), understanding these arrangements is essential for compliant and successful investment.
 
 The Australian Tax Office (ATO) permits SMSFs to borrow money to acquire single acquirable assets through LRBAs, with commercial properties being among the most popular investment choices due to their potential for stable rental income and long-term capital growth. However, these arrangements require careful structuring to ensure ongoing compliance with complex regulatory requirements.
 

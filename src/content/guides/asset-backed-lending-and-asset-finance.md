@@ -119,7 +119,7 @@ slug: "asset-backed-lending-and-asset-finance"
 }
 </script>
 
-Asset-backed lending represents a sophisticated financing approach where businesses leverage their existing assets as security for working capital, growth funding, or strategic initiatives. Unlike traditional unsecured lending that relies primarily on cash flow and creditworthiness, asset-backed facilities focus on the value and quality of underlying business assets to determine lending capacity and terms.
+Asset-backed lending represents a sophisticated financing approach where businesses leverage their existing assets as security for working capital, growth funding, or strategic initiatives. Unlike traditional unsecured lending that relies primarily on cash flow and creditworthiness, asset-backed facilities focus on the value and quality of underlying business assets to determine lending capacity and terms. For businesses seeking [asset-backed lending solutions](/services/asset-backed-lending), understanding these principles is crucial for maximizing borrowing capacity.
 
 Australian businesses increasingly utilise asset-backed lending to unlock capital trapped in inventory, accounts receivable, equipment, and other productive assets. This financing method enables access to larger loan amounts at competitive interest rates while preserving unsecured borrowing capacity for future needs and maintaining operational flexibility.
 

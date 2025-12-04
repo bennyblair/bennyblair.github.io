@@ -214,6 +214,12 @@ The key was partnering with a development financier who understood both the comp
 
 South Yarra's continued appeal ensures that thoughtfully designed heritage developments will remain highly sought after, making them attractive opportunities for developers with the right expertise and financing partners.
 
+## Related Services
+
+- [Commercial Property Development](/services/commercial-property-development) - Development finance solutions
+- [Bridging Finance](/services/bridging-finance) - Short-term development funding
+- [Private Lending](/services/private-lending) - Flexible non-bank funding
+
 ---
 
 *Emet Capital specializes in complex development finance including heritage projects across Melbourne and Australia. Our expertise in navigating regulatory requirements and construction challenges helps developers realize their vision for exceptional properties.*

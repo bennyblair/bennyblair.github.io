@@ -10,7 +10,7 @@ readTime: "12 min read"
 
 # Mezzanine Finance in Australia: The Complete Guide for Business Growth
 
-Mezzanine finance represents sophisticated hybrid funding combining debt and equity characteristics, sitting between senior debt and pure equity in capital structures. This subordinated financing enables businesses to access substantial growth capital, fund acquisitions, or recapitalize operations without excessive equity dilution while providing lenders with enhanced returns through equity participation features compensating for subordinated security positions.
+Mezzanine finance represents sophisticated hybrid funding combining debt and equity characteristics, sitting between senior debt and pure equity in capital structures. This subordinated financing enables businesses to access substantial growth capital, fund acquisitions, or recapitalize operations without excessive equity dilution while providing lenders with enhanced returns through equity participation features compensating for subordinated security positions. For businesses exploring [business acquisition funding](/services/business-acquisition) structures, mezzanine often plays a critical role.
 
 The Australian mezzanine market serves mid-market businesses requiring $2 million to $50 million for expansion, acquisitions, management buyouts, or recapitalization where senior debt alone proves insufficient and pure equity proves too expensive or dilutive. Mezzanine providers bridge gaps between conservative bank lending limits and total funding requirements through flexible structures accommodating diverse business circumstances.
 
