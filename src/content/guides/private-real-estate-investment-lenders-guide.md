@@ -13,7 +13,7 @@ Private lenders operate outside traditional banking systems, using their own cap
 
 The Australian private lending market has grown substantially over the past decade, with numerous established operators providing capital for residential, commercial, and development properties. Interest rates typically range from 9-18% depending on risk profile, with loan terms from 3 months to 3 years. While significantly more expensive than bank rates currently sitting around 6-8%, private lending provides access, speed, and flexibility that justify the premium for many investment scenarios.
 
-Understanding when private lending makes strategic sense—versus when it's simply expensive capital masking underlying problems—separates successful investors from those who accumulate costly debt. This guide examines how private real estate lenders operate, what they assess when evaluating applications, typical rates and terms across different property types, and strategies for using private lending effectively within your investment portfolio.
+Understanding when private lending makes strategic sense—versus when it's simply expensive capital masking underlying problems—separates successful investors from those who accumulate costly debt. This guide examines how private real estate lenders operate, what they assess when evaluating applications, typical rates and terms across different property types, and strategies for using private lending effectively within your investment portfolio. Emet Capital provides [private lending solutions](/services/private-lending) for real estate investors seeking flexible finance options.
 
 ## How Private Real Estate Lenders Operate
 

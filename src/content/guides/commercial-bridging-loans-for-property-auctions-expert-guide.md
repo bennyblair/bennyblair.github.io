@@ -104,4 +104,4 @@ Repayment is usually from refinance to a long-term loan, sale of the property, o
 
 ## Conclusion
 
-Commercial bridging loans are essential for property auction success, providing rapid finance and settlement certainty. Buyers should plan ahead, secure pre-approval, and understand all costs and risks before bidding. With the right strategy and professional support, bridging finance enables confident auction participation and successful property acquisition.
+Commercial bridging loans are essential for property auction success, providing rapid finance and settlement certainty. Buyers should plan ahead, secure pre-approval, and understand all costs and risks before bidding. With the right strategy and professional support, bridging finance enables confident auction participation and successful property acquisition. Emet Capital provides [bridging finance solutions](/services/bridging-finance) for commercial property auction purchases.

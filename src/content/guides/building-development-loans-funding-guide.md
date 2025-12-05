@@ -106,7 +106,7 @@ For property developers, securing appropriate building development loans represe
 
 Understanding how building development loans work—from initial land purchase through to practical completion—helps developers navigate the financing process effectively and maintain healthy project cash flow. The staged funding approach protects both lenders and developers by ensuring capital is released only as value is created through construction progress, reducing risk while maintaining project momentum.
 
-This guide examines every aspect of [building development loans for Australian developers](/resources/guides/commercial-property-development-finance), from understanding funding stages and eligibility requirements through to application strategies and managing draw-down schedules throughout your project.
+This guide examines every aspect of [building development loans for Australian developers](/resources/guides/commercial-property-development-finance), from understanding funding stages and eligibility requirements through to application strategies and managing draw-down schedules throughout your project. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for developers seeking flexible funding solutions.
 
 ## Understanding Building Development Loans
 

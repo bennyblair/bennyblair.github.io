@@ -26,7 +26,7 @@ Property mortgages operate on strict priority based on registration order with s
 
 This priority system explains why second mortgages cost substantially more than first mortgages. Consider a property worth $800,000 with a $500,000 first mortgage and a proposed $150,000 second mortgage. If property values decline and you default, the first lender receives their full $500,000 first, leaving potentially insufficient funds for the second lender.
 
-Understanding [1st and 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) provides comprehensive context on how these security structures work together and when each suits different business funding scenarios.
+Understanding [1st and 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) provides comprehensive context on how these security structures work together and when each suits different business funding scenarios. Emet Capital offers [first and second mortgage solutions](/services/first-second-mortgages) tailored to commercial property owners seeking flexible equity access.
 
 ### Second Mortgages Versus Refinancing
 

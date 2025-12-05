@@ -16,7 +16,7 @@ Industrial property finance operates under fundamentally different parameters th
 
 These unique physical characteristics directly impact tenant suitability, rental achievability, and property versatility—factors that determine lender confidence and ultimately your loan-to-value ratio, interest rate, and approval probability. Industrial property finance typically achieves 65-75% LVR, with interest rates ranging from 6.2% to 8.5% depending on property specifications, location, tenant quality, and intended use.
 
-This guide examines industrial property finance requirements, from understanding how lenders evaluate warehouse specifications and manufacturing facility suitability to securing optimal terms for industrial property acquisitions or refinancing.
+This guide examines industrial property finance requirements, from understanding how lenders evaluate warehouse specifications and manufacturing facility suitability to securing optimal terms for industrial property acquisitions or refinancing. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for industrial property investments.
 
 ## Understanding Industrial Property Lending
 

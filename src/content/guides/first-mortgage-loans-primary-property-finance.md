@@ -101,7 +101,7 @@ A first mortgage loan is a loan secured by a property where the lender holds fir
 
 For business owners and property investors, first mortgages represent the foundation of [commercial property](/resources/guides/commercial-property-loans-australia-complete-guide) finance. Whether you're purchasing an office building in Melbourne, a warehouse in Brisbane, or a retail space in Perth, your first mortgage will likely provide 60-70% of the property's value. The security position, loan terms, and interest rates all differ significantly from second-tier lending options.
 
-This guide explains how first mortgage loans work in the Australian commercial property market, what lenders look for when assessing applications, and how they compare to other financing structures. We'll cover everything from loan-to-value ratios to interest rate expectations, helping you determine whether a first mortgage suits your business financing strategy.
+This guide explains how first mortgage loans work in the Australian commercial property market, what lenders look for when assessing applications, and how they compare to other financing structures. We'll cover everything from loan-to-value ratios to interest rate expectations, helping you determine whether a first mortgage suits your business financing strategy. Emet Capital offers [first and second mortgage solutions](/services/first-second-mortgages) for businesses seeking flexible property-backed finance.
 
 ## What Is a First Mortgage Loan?
 

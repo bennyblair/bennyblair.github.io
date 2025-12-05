@@ -12,7 +12,7 @@ readingTime: 10
 
 Commercial property auctions require unconditional finance within tight timeframes that traditional lenders simply cannot accommodate. When you win a commercial property at auction, you're typically facing settlement deadlines of 30 to 60 days with no financing contingencies—if you can't settle, you forfeit your deposit and face potential penalties that can exceed $100,000 on multi-million dollar purchases.
 
-Commercial bridging finance solves this timing challenge by providing rapid approval (often within 48-72 hours) and settlement capability matching auction requirements. These short-term facilities—typically 3 to 12 months—enable you to secure auction properties with confidence, then refinance to permanent commercial property finance once you have time for comprehensive loan applications.
+Commercial bridging finance solves this timing challenge by providing rapid approval (often within 48-72 hours) and settlement capability matching auction requirements. These short-term facilities—typically 3 to 12 months—enable you to secure auction properties with confidence, then refinance to permanent commercial property finance once you have time for comprehensive loan applications. Emet Capital provides [bridging finance solutions](/services/bridging-finance) designed for time-sensitive auction purchases.
 
 Interest rates for commercial bridging finance range from 8% to 15% annually depending on loan-to-value ratios, property quality, and borrower strength. While higher than traditional commercial property loans at 6-8%, bridging finance costs prove manageable over short periods when they enable you to capture valuable commercial property opportunities available through auction processes.
 

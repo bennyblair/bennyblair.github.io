@@ -15,7 +15,7 @@ Private lenders loans provide essential funding when traditional banks decline o
 
 The challenge extends beyond simply finding lowest interest rates. Reputable private lenders deliver transparent pricing, responsive service, reasonable terms, and professional conduct—factors that matter enormously when urgent funding needs arise. Understanding how to evaluate [what is private lending](/resources/guides/what-is-private-lending-australia) options comprehensively—examining total costs, lender reputations, term flexibility, and service quality alongside base interest rates—helps businesses secure funding that genuinely solves problems rather than creating new ones.
 
-This 2025 guide provides systematic methodology for finding, evaluating, and comparing private lenders loans across key decision factors. Whether seeking secured property lending, equipment finance, working capital facilities, or acquisition funding, these comparison approaches help you make informed decisions securing competitive private financing whilst avoiding costly mistakes.
+This 2025 guide provides systematic methodology for finding, evaluating, and comparing private lenders loans across key decision factors. Whether seeking secured property lending, equipment finance, working capital facilities, or acquisition funding, these comparison approaches help you make informed decisions securing competitive private financing whilst avoiding costly mistakes. Emet Capital provides [private lending solutions](/services/private-lending) for businesses seeking flexible, fast finance options.
 
 ## Where to Find Private Lenders
 
