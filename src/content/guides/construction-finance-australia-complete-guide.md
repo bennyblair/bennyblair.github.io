@@ -16,7 +16,7 @@ Owner-occupier construction represents a strategic investment for established bu
 
 Interest rates for construction finance typically range from 5-9% per annum depending on business strength, land equity, pre-construction preparations, and lender assessment of project viability. Loan-to-value ratios commonly reach 70-80% of total project costs including land, construction, and associated expenses, requiring businesses to contribute 20-30% equity.
 
-This comprehensive guide examines construction finance for commercial owner-occupier buildings, covering application processes, progressive funding mechanisms, cost structures, and strategic considerations. From understanding when construction proves more advantageous than purchasing existing premises to navigating builder selection and managing project risks, we explore how businesses can successfully finance custom commercial building projects.
+This comprehensive guide examines construction finance for commercial owner-occupier buildings, covering application processes, progressive funding mechanisms, cost structures, and strategic considerations. From understanding when construction proves more advantageous than purchasing existing premises to navigating builder selection and managing project risks, we explore how businesses can successfully finance custom commercial building projects. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for businesses planning custom building projects.
 
 ## Understanding Construction Finance Fundamentals
 

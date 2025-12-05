@@ -36,7 +36,7 @@ Fintech-based lenders have entered the caveat market in recent years, applying t
 
 Specialist non-bank institutions occupy the space between private lenders and fintech platforms, offering commercial finance products including caveat loans as part of broader property and development finance services. These lenders combine institutional processes with flexibility that deposit-taking banks cannot match, serving experienced property investors and developers.
 
-Understanding [what is private lending](/guides/what-is-private-lending-australia) provides broader context on how these alternative lenders operate compared to traditional banking institutions.
+Understanding [what is private lending](/guides/what-is-private-lending-australia) provides broader context on how these alternative lenders operate compared to traditional banking institutions. Emet Capital offers [caveat loan solutions](/services/caveat-loans) for businesses requiring urgent property-secured funding.
 
 ### Geographic Coverage and Service Areas
 

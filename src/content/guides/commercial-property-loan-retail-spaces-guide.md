@@ -17,7 +17,7 @@ A thriving café in Melbourne's CBD with verified daily foot traffic of 15,000 p
 
 Retail property loans typically achieve 60-70% LVR compared to 70-80% for office or industrial properties, reflecting lenders' perception of higher vacancy risks and income volatility in retail sectors. Interest rates for retail property loans currently range from 6.5% to 9.5% depending on property location, tenant quality, lease terms, and your business financial strength.
 
-This comprehensive guide examines retail-specific considerations affecting commercial property loan applications, from foot traffic analysis and tenancy mix assessment to lease structure evaluation and location factors. We'll explore how lenders evaluate retail properties differently, what strengthens your application, and strategies for securing optimal terms on retail space acquisitions or refinancing.
+This comprehensive guide examines retail-specific considerations affecting commercial property loan applications, from foot traffic analysis and tenancy mix assessment to lease structure evaluation and location factors. We'll explore how lenders evaluate retail properties differently, what strengthens your application, and strategies for securing optimal terms on retail space acquisitions or refinancing. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for retail space acquisitions and investments.
 
 ## Understanding Retail Property Lending Fundamentals
 

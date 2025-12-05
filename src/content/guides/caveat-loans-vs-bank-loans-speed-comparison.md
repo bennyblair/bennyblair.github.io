@@ -110,7 +110,7 @@ Caveat loan comparison against traditional bank lending reveals fundamental trad
 
 Understanding when caveat loans justify their premium pricing versus when bank loan timelines prove adequate determines optimal funding choices. A $150,000 caveat loan for one month costs approximately $4,500 in interest and fees, while avoiding a $400,000 contract penalty makes this expensive capital worthwhile. The same caveat loan held for six months costs $27,000+, potentially making cheaper bank finance the smarter choice despite longer approval times.
 
-This comprehensive caveat loan comparison examines approval speeds, cost structures, documentation requirements, and strategic use cases helping you determine which funding option suits your business circumstances.
+This comprehensive caveat loan comparison examines approval speeds, cost structures, documentation requirements, and strategic use cases helping you determine which funding option suits your business circumstances. Emet Capital provides [caveat loan solutions](/services/caveat-loans) for businesses requiring fast property-secured funding.
 
 ## Approval Speed Comparison
 

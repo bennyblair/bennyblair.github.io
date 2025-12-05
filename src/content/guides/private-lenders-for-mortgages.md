@@ -21,7 +21,7 @@ You've spent weeks gathering documents, filling out applications, and waiting fo
 
 Private lenders for mortgages step in precisely at this moment. These non-bank financiers assess your application through a different lens, focusing primarily on the property's value rather than your credit score or employment status. While they charge higher interest rates—typically between 8% and 15% annually—they can approve your loan within 48 to 72 hours and settle within a week.
 
-This guide explores everything you need to know about private mortgage lending in Australia: how these lenders operate, what they truly cost, who qualifies, and when they make financial sense. We'll examine real scenarios where private lending saves deals that banks won't touch, and reveal the red flags that signal you should walk away.
+This guide explores everything you need to know about private mortgage lending in Australia: how these lenders operate, what they truly cost, who qualifies, and when they make financial sense. We'll examine real scenarios where private lending saves deals that banks won't touch, and reveal the red flags that signal you should walk away. Emet Capital provides [private lending solutions](/services/private-lending) for property-secured finance requirements.
 
 ## Understanding Private Mortgage Lenders in Australia
 
