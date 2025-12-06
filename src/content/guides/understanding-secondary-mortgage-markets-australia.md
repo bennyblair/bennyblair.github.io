@@ -29,7 +29,7 @@ The secondary mortgage market refers to the buying and selling of existing mortg
 
 This market is essential for liquidity, risk management, and innovation in property finance.
 
-For a primer on first and second mortgages, see: [1st & 2nd Mortgages for Business](./first-and-second-mortgages-for-business.md)
+For a primer on first and second mortgages, see: [First & Second Mortgages for Business](/services/first-second-mortgages)
 
 ---
 

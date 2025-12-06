@@ -51,7 +51,7 @@ Non-bank second mortgage lenders typically require credit impairments be histori
 
 ### Private Lenders and Individual Investors
 
-[What is private lending](/resources/guides/what-is-private-lending-australia) in the bad credit context involves high-net-worth individuals, family offices, or small private investment funds providing subordinate lending when institutional sources decline. Private lenders operate with maximum flexibility—no standardised policies, individual deal assessment, and rapid decision-making reflecting personal risk tolerances rather than bureaucratic frameworks.
+[Private lending](/services/private-lending) in the bad credit context involves high-net-worth individuals, family offices, or small private investment funds providing subordinate lending when institutional sources decline. Private lenders operate with maximum flexibility—no standardised policies, individual deal assessment, and rapid decision-making reflecting personal risk tolerances rather than bureaucratic frameworks.
 
 Private second mortgage lenders focus predominantly on equity protection and exit strategy clarity rather than credit history. If you own a Brisbane property worth $1.2 million with $600,000 first mortgage, the $600,000 equity provides substantial protection enabling private lenders to overlook significant credit impairments. Interest rates from private lenders typically range from 15% to 20% annually, sometimes reaching 22% to 25% for severe credit impairments.
 
@@ -145,7 +145,7 @@ Compare refinancing costs against existing loan expenses to determine whether ea
 
 ### Alternative Exit Strategies
 
-Property sales represent the most definitive exit from bad credit second mortgages when refinancing proves difficult. [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) consolidation into single facilities once credit improves provides another exit strategy. After 24 months of successful second mortgage repayment and credit rehabilitation, some non-bank lenders offer to consolidate first and second mortgages into single facilities at blended rates of 9% to 11%.
+Property sales represent the most definitive exit from bad credit second mortgages when refinancing proves difficult. [First & second mortgages for business](/services/first-second-mortgages) consolidation into single facilities once credit improves provides another exit strategy. After 24 months of successful second mortgage repayment and credit rehabilitation, some non-bank lenders offer to consolidate first and second mortgages into single facilities at blended rates of 9% to 11%.
 
 Business performance improvements or asset sales generating lump sums enable outright second mortgage repayment without refinancing. This strategy works best when lump-sum repayments don't compromise business operations or create tax consequences exceeding interest savings.
 

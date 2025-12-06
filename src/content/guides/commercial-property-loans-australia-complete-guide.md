@@ -26,7 +26,7 @@ Owner-occupier loans finance premises for business operations, with serviceabili
 
 Investment property loans finance properties purchased for rental income, with lenders heavily weighting rental cash flows and tenant covenant strength when determining serviceability. Most lenders apply 20-30% rental income discounts accounting for vacancy periods, management costs, and income volatility.
 
-Development and construction loans provide progressive funding throughout building or renovation projects, with funds advanced against completion milestones. For businesses undertaking significant builds, [construction finance](/resources/guides/construction-finance-australia-complete-guide) offers structured funding aligned with project stages, while development finance suits property developers pursuing commercial projects.
+Development and construction loans provide progressive funding throughout building or renovation projects, with funds advanced against completion milestones. For businesses undertaking significant builds, [construction finance](/services/commercial-property-development) offers structured funding aligned with project stages, while development finance suits property developers pursuing commercial projects.
 
 ### Commercial Versus Residential Loans
 

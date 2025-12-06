@@ -166,6 +166,8 @@ Traditional bank lending isn't the only option for office property finance. Unde
 
 ### Private Lending for Office Properties
 
+[Private lending](/services/private-lending) provides flexible alternatives when traditional bank finance proves unavailable or unsuitable for office property acquisitions. Private lenders assess properties on security value and exit strategy rather than strict income verification, enabling faster approvals for time-sensitive office purchases.
+
 Private lenders fill gaps where banks decline or offer insufficient leverage, though at premium pricing. Office property loans through private lenders typically range from 8.5% to 12% interest with LVRs between 60% and 65%. These lenders often approve applications faster—sometimes within two weeks—and accept properties that banks view as problematic, such as offices with high vacancy, upcoming expiries, or requiring significant capital works.
 
 Private lending suits specific scenarios: purchasing off-market opportunities requiring quick settlement, bridging finance whilst you secure tenants for vacant space, or funding renovations before refinancing to traditional lenders. A buyer securing a suburban office building at $2.5 million with 40% vacancy might use private finance initially, spend six months filling vacancies and completing minor upgrades, then refinance to bank lending at improved valuation and reduced rates.

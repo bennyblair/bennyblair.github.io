@@ -40,7 +40,7 @@ For a full overview of private lending in Australia, see our guide: [What is Pri
 
 ## 2. Why Choose Private Lenders for Commercial Real Estate?
 
-Private lenders offer several advantages for CRE borrowers:
+[Private lending](/services/private-lending) offers several advantages for CRE borrowers:
 - **Speed:** Approvals and settlements are often much faster than banks.
 - **Flexibility:** Willingness to consider unique property types, structures, and borrower profiles.
 - **Customisation:** Loan terms can be tailored to suit the project or investment.
