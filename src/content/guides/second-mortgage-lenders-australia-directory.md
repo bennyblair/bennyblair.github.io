@@ -39,7 +39,7 @@ These lenders assess applications primarily on equity position and property valu
 
 ### Private Lenders and Individual Investors
 
-[What is private lending](/resources/guides/what-is-private-lending-australia) in the second mortgage context involves high-net-worth individuals, family offices, or small private investment funds providing subordinate debt secured against property. These lenders operate with maximum flexibility—no standardised policies, bespoke terms for each deal, and rapid decision-making reflecting individual investor preferences rather than institutional processes.
+[Private lending](/services/private-lending) in the second mortgage context involves high-net-worth individuals, family offices, or small private investment funds providing subordinate debt secured against property. These lenders operate with maximum flexibility—no standardised policies, bespoke terms for each deal, and rapid decision-making reflecting individual investor preferences rather than institutional processes.
 
 Private second mortgage lenders typically charge 10% to 18% annually, with some reaching 20% to 25% for higher-risk scenarios involving credit-impaired borrowers, unusual property types, or aggressive leverage. Loan amounts from private lenders range from $50,000 to $3 million depending on the individual lender's capacity and risk appetite, with most comfortable in the $200,000 to $1 million range.
 

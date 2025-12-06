@@ -107,7 +107,7 @@ Brokers working regularly with second mortgages understand intercreditor dynamic
 
 ### Types of Second Mortgage Brokers
 
-Second mortgage brokers typically fall into several categories based on their primary focus areas. Commercial property finance brokers often work with second mortgages as part of broader commercial lending services, particularly [1st & 2nd mortgages for business](/services/first-second-mortgages) purposes like equipment purchases, working capital, or business acquisitions. These brokers understand how businesses use subordinate lending strategically whilst maintaining existing banking relationships.
+Second mortgage brokers typically fall into several categories based on their primary focus areas. Commercial property finance brokers often work with second mortgages as part of broader commercial lending services, particularly [first & second mortgages for business](/services/first-second-mortgages) purposes like equipment purchases, working capital, or business acquisitions. These brokers understand how businesses use subordinate lending strategically whilst maintaining existing banking relationships.
 
 Private lending specialists represent another category, focusing heavily on non-bank and private lender products including second mortgages. These brokers maintain strong relationships with high-net-worth private lenders, family offices, and specialist funds providing second mortgage capital. Their expertise lies in matching unconventional borrower profiles—those with credit impairments, complex income structures, or unique security situations—with flexible private lenders accepting higher risk for premium returns.
 
