@@ -183,7 +183,7 @@ Emergency caveat loans work best as short-term bridges whilst you implement long
 
 ### Developing Exit Strategies Before Borrowing
 
-Never arrange emergency caveat funding without a clear repayment plan. The monthly interest costs—often $2,000 to $5,000 on typical loan amounts—quickly become unsustainable if continued beyond six months. Before proceeding, identify specific actions that will generate repayment capacity: asset sales, [working capital loans](/resources/guides/working-capital-loans-for-smes) with lower costs, major contract completions, or insurance claim settlements.
+Never arrange emergency caveat funding without a clear repayment plan. The monthly interest costs—often $2,000 to $5,000 on typical loan amounts—quickly become unsustainable if continued beyond six months. Before proceeding, identify specific actions that will generate repayment capacity: asset sales, [working capital loans](/guides/working-capital-loans-for-smes) with lower costs, major contract completions, or insurance claim settlements.
 
 For instance, a Canberra IT business using $120,000 emergency caveat funding to settle ATO debt should simultaneously negotiate longer-term refinancing with traditional lenders or arrange payment plans for future tax obligations. The emergency loan buys time—perhaps 90 days—to secure conventional financing at 7% to 9% annually instead of 18% to 24% through the caveat loan. Without this exit strategy, the business simply exchanges ATO debt problems for unsustainable private lender debt.
 
@@ -193,7 +193,7 @@ Some borrowers use emergency caveat loans specifically to improve their position
 
 Emergency situations often signal deeper business issues requiring restructuring beyond immediate funding. Use the breathing space provided by caveat loans to implement meaningful operational changes addressing root causes rather than just symptoms. If poor cash flow management created the emergency, implement proper forecasting and debtor management whilst the emergency loan provides temporary relief.
 
-Consider whether [business debt consolidation](/resources/guides/business-debt-consolidation-australia) makes sense once immediate emergencies are resolved. You might have multiple expensive debts—caveat loans, merchant cash advances, director loans—that could be consolidated into single structured facilities at lower overall cost. Some commercial lenders specialise in helping businesses emerge from emergency funding situations into sustainable long-term finance structures.
+Consider whether [business debt consolidation](/guides/business-debt-consolidation-australia) makes sense once immediate emergencies are resolved. You might have multiple expensive debts—caveat loans, merchant cash advances, director loans—that could be consolidated into single structured facilities at lower overall cost. Some commercial lenders specialise in helping businesses emerge from emergency funding situations into sustainable long-term finance structures.
 
 Engage professional advisors during emergency periods—accountants, business consultants, or turnaround specialists who can objectively assess your business and recommend sustainable solutions. The emergency loan buys time for proper restructuring, not just delay of inevitable failure. If your business fundamentally isn't viable, emergency funding simply increases ultimate losses. Professional advice helps distinguish temporary problems from terminal ones, guiding appropriate responses.
 

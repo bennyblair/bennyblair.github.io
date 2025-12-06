@@ -35,7 +35,7 @@ slug: "asset-backed-lending-and-asset-finance"
   "dateModified": "2025-09-29",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/asset-backed-lending-and-asset-finance"
+    "@id": "https://emetcapital.com.au/guides/asset-backed-lending-and-asset-finance"
   },
   "articleSection": "Specialized Finance",
   "keywords": ["asset-backed lending", "asset finance", "inventory financing", "receivables financing", "plant and equipment finance", "secured business loans", "borrowing base", "advance rates"],
@@ -161,19 +161,19 @@ Specialist inventory lenders understand different industry dynamics, seasonal pa
 
 ### Accounts Receivable Financing
 
-Receivables financing advances funds against outstanding customer invoices, typically providing 70-90% of invoice values immediately upon delivery verification. For comprehensive solutions covering the complete invoicing cycle, [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) provides detailed structures for managing accounts receivable funding.
+Receivables financing advances funds against outstanding customer invoices, typically providing 70-90% of invoice values immediately upon delivery verification. For comprehensive solutions covering the complete invoicing cycle, [invoice finance](/guides/invoice-finance-australia-complete-guide) provides detailed structures for managing accounts receivable funding.
 
 Confidential receivables financing maintains existing customer relationships by avoiding notification of financing arrangements, while disclosed factoring may include collection services and credit protection benefits. The choice depends on business preferences and customer relationship considerations.
 
 ### Plant and Equipment Financing
 
-Equipment-based lending utilises existing plant, machinery, and equipment as security for various funding purposes beyond original purchase financing. For businesses considering new equipment acquisitions, [equipment finance and leasing](/resources/guides/equipment-finance-and-leasing-australia) offers comprehensive options for machinery and vehicle purchases.
+Equipment-based lending utilises existing plant, machinery, and equipment as security for various funding purposes beyond original purchase financing. For businesses considering new equipment acquisitions, [equipment finance and leasing](/guides/equipment-finance-and-leasing-australia) offers comprehensive options for machinery and vehicle purchases.
 
 Specialist equipment lenders understand resale markets, depreciation patterns, and industry-specific factors affecting equipment values, often providing competitive terms for businesses with substantial equipment portfolios across various industry sectors.
 
 ### Comprehensive Asset-Based Facilities
 
-Multi-asset facilities combine inventory, receivables, equipment, and other assets into single borrowing arrangements with aggregate lending limits. For businesses requiring ongoing operational funding, [working capital loans](/resources/guides/working-capital-loans-for-smes) provide tailored solutions that complement asset-backed facilities.
+Multi-asset facilities combine inventory, receivables, equipment, and other assets into single borrowing arrangements with aggregate lending limits. For businesses requiring ongoing operational funding, [working capital loans](/guides/working-capital-loans-for-smes) provide tailored solutions that complement asset-backed facilities.
 
 Comprehensive facilities suit larger businesses with diverse asset bases requiring substantial funding capacity and preferring single-source solutions over multiple specialist arrangements with different lenders and varying terms.
 
