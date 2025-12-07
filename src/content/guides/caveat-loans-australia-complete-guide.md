@@ -38,7 +38,7 @@ Removal requirements compel property owners to provide notice before caveat remo
 
 Speed of execution represents the primary differentiator, with caveat loans settling within 24-48 hours compared to weeks or months for traditional mortgages. This acceleration results from minimal documentation requirements and streamlined security registration processes.
 
-For businesses exploring different property security options, understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) provides context on traditional alternatives that may suit less urgent requirements.
+For businesses exploring different property security options, understanding [first and second mortgages](/guides/first-and-second-mortgages-for-business) provides context on traditional alternatives that may suit less urgent requirements.
 
 Legal priority considerations differ significantly, as caveats don't provide the same priority protection as registered mortgages. Existing mortgages maintain superior claims, making caveats suitable primarily for properties with substantial equity beyond existing debt.
 
@@ -70,7 +70,7 @@ Commercial investment property owners may require urgent funding for various pur
 
 Property portfolio management sometimes requires rapid funding for deposit payments, settlement obligations, or urgent property acquisitions where timing considerations exceed traditional lending capabilities.
 
-When considering permanent financing solutions after urgent needs are addressed, exploring [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) options helps businesses transition from short-term to sustainable funding structures.
+When considering permanent financing solutions after urgent needs are addressed, exploring [commercial property refinancing](/guides/commercial-property-refinancing-solutions) options helps businesses transition from short-term to sustainable funding structures.
 
 ### Development and Construction Caveat Funding
 
@@ -192,7 +192,7 @@ Caveat loans involve specific risks requiring careful management through clear e
 
 Primary repayment sources must be clearly identified including property sales, refinancing arrangements, business receipts, or definite funding commitments providing certainty about caveat loan discharge within agreed timeframes.
 
-For businesses needing permanent solutions after urgent needs are addressed, exploring [private lending](/resources/guides/what-is-private-lending-australia) alternatives helps transition from ultra-short caveat facilities to more sustainable funding structures.
+For businesses needing permanent solutions after urgent needs are addressed, exploring [private lending](/guides/what-is-private-lending-australia) alternatives helps transition from ultra-short caveat facilities to more sustainable funding structures.
 
 Contingency planning addresses potential delays in primary repayment sources through alternative strategies including property sales, additional security offers, or supplementary funding arrangements preventing default scenarios.
 
