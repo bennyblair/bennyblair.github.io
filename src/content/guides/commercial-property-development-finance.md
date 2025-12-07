@@ -163,7 +163,7 @@ Development finance facilities are specifically designed to accommodate these pr
 
 Project completion triggers the transition from development finance to permanent financing or asset disposal. This phase involves final inspections, occupation certificates, tenant fitouts, and marketing activities for sale or lease.
 
-Many development finance facilities include extension options to accommodate completion delays or extended marketing periods. However, developers typically aim to exit development finance quickly due to higher interest rates compared to permanent commercial loans. For interim property funding needs, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) provides flexible short-term solutions between project stages.
+Many development finance facilities include extension options to accommodate completion delays or extended marketing periods. However, developers typically aim to exit development finance quickly due to higher interest rates compared to permanent commercial loans. For interim property funding needs, [bridging finance](/guides/bridging-finance-australia-complete-property-guide) provides flexible short-term solutions between project stages.
 
 ## Lender Types and Funding Sources
 
@@ -177,7 +177,7 @@ Regional banks often provide more flexible approaches to smaller developments, p
 
 ### Non-Bank Development Lenders
 
-[Private lenders](/resources/guides/what-is-private-lending-australia) and non-bank institutions fill important gaps in the development finance market, particularly for projects that fall outside traditional bank parameters. These lenders often provide faster approval processes, more flexible structures, and willingness to fund higher-risk or innovative developments.
+[Private lenders](/guides/what-is-private-lending-australia) and non-bank institutions fill important gaps in the development finance market, particularly for projects that fall outside traditional bank parameters. These lenders often provide faster approval processes, more flexible structures, and willingness to fund higher-risk or innovative developments.
 
 Interest rates from non-bank lenders typically range 2-4% above bank rates, reflecting their increased risk tolerance and funding costs. However, their flexibility in deal structure and decision-making often justifies rate premiums for time-sensitive or complex projects.
 
@@ -185,7 +185,7 @@ Interest rates from non-bank lenders typically range 2-4% above bank rates, refl
 
 High-net-worth individuals, family offices, and private investment groups increasingly participate in development finance through direct lending or joint venture arrangements. These funding sources offer maximum flexibility but require careful structuring to align interests and manage relationships.
 
-Joint venture arrangements may involve profit-sharing rather than traditional interest payments, creating partnership structures that benefit both developers and capital providers. For complex funding structures, [mezzanine finance](/resources/guides/mezzanine-finance-australia-complete-guide) offers subordinated debt solutions that bridge senior debt and equity gaps.
+Joint venture arrangements may involve profit-sharing rather than traditional interest payments, creating partnership structures that benefit both developers and capital providers. For complex funding structures, [mezzanine finance](/guides/mezzanine-finance-australia-complete-guide) offers subordinated debt solutions that bridge senior debt and equity gaps.
 
 ## Loan-to-Cost Ratios and Equity Requirements
 
@@ -223,7 +223,7 @@ Fixed rate options are available but typically carry premiums of 0.5-1.5% above 
 
 Most development finance facilities allow interest capitalisation, meaning interest charges are added to the loan balance rather than requiring monthly cash payments. This structure suits development cash flows as projects generate limited income during construction phases.
 
-Capitalised interest increases total borrowing costs and reduces available equity for contingencies, requiring careful balance between cash flow preservation and cost minimisation. For urgent gap funding needs, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) can provide rapid supplementary capital during development phases.
+Capitalised interest increases total borrowing costs and reduces available equity for contingencies, requiring careful balance between cash flow preservation and cost minimisation. For urgent gap funding needs, [caveat loans](/guides/caveat-loans-australia-complete-guide) can provide rapid supplementary capital during development phases.
 
 ### Establishment Fees and Ongoing Charges
 

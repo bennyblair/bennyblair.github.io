@@ -23,7 +23,7 @@ This comprehensive guide examines invoice finance options available to Australia
 
 ## Understanding Invoice Finance Fundamentals
 
-Invoice finance operates by purchasing or providing advances against outstanding customer invoices, converting accounts receivable into immediate cash flow while transferring collection responsibilities and credit risks to financing providers in many arrangements. For businesses with substantial physical assets, [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) provides complementary funding using inventory and equipment as security.
+Invoice finance operates by purchasing or providing advances against outstanding customer invoices, converting accounts receivable into immediate cash flow while transferring collection responsibilities and credit risks to financing providers in many arrangements. For businesses with substantial physical assets, [asset-backed lending](/guides/asset-backed-lending-and-asset-finance) provides complementary funding using inventory and equipment as security.
 
 ### Core Invoice Finance Concepts
 
@@ -55,7 +55,7 @@ Notification factoring involves informing customers about factoring arrangements
 
 ### Industry-Specific Factoring Solutions
 
-Healthcare factoring specializes in medical practice receivables including Medicare, private health insurance, and patient payment processing, addressing the unique collection challenges and regulatory requirements in healthcare industries. For broader operational funding needs, [working capital loans](/resources/guides/working-capital-loans-for-smes) provide flexible solutions beyond receivables-based financing.
+Healthcare factoring specializes in medical practice receivables including Medicare, private health insurance, and patient payment processing, addressing the unique collection challenges and regulatory requirements in healthcare industries. For broader operational funding needs, [working capital loans](/guides/working-capital-loans-for-smes) provide flexible solutions beyond receivables-based financing.
 
 Construction factoring manages progress payments, retention amounts, and subcontractor arrangements common in building and construction industries, providing working capital during extended project cycles and complex payment structures.
 
