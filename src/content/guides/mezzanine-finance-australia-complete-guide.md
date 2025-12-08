@@ -232,7 +232,7 @@ Information rights and reporting obligations create ongoing disclosure requireme
 
 Refinancing requirements at maturity demand planning throughout facility terms, with businesses developing senior debt capacity, equity value, or sale processes enabling mezzanine repayment.
 
-For businesses exploring permanent capital structures after growth phases, understanding [private lending](/resources/guides/what-is-private-lending-australia) alternatives helps identify sustainable long-term financing beyond short-term mezzanine arrangements.
+For businesses exploring permanent capital structures after growth phases, understanding [private lending](/guides/what-is-private-lending-australia) alternatives helps identify sustainable long-term financing beyond short-term mezzanine arrangements.
 
 Equity value realization for warrant holders requires liquidity events including sales, IPOs, or redemptions, creating alignment but also potential conflicts between lenders seeking exits and owners preferring continued business ownership.
 
@@ -304,10 +304,10 @@ The Australian mezzanine market provides essential growth capital infrastructure
 
 ## Related Guides
 
-- [Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)
-- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
-- [Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)
-- [What is Private Lending Australia](/resources/guides/what-is-private-lending-australia)
+- [Business Acquisition Finance Australia](/guides/business-acquisition-finance-australia)
+- [Working Capital Loans for SMEs](/guides/working-capital-loans-for-smes)
+- [Business Debt Consolidation Australia](/guides/business-debt-consolidation-australia)
+- [What is Private Lending Australia](/guides/what-is-private-lending-australia)
 
 ---
 
@@ -331,7 +331,7 @@ The Australian mezzanine market provides essential growth capital infrastructure
   "dateModified": "2025-09-30",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/mezzanine-finance-australia-complete-guide"
+    "@id": "https://emetcapital.com.au/guides/mezzanine-finance-australia-complete-guide"
   },
   "articleSection": "Specialized Finance",
   "keywords": ["mezzanine finance", "subordinated debt", "mezzanine loans", "acquisition finance", "growth capital", "hybrid finance Australia"],
