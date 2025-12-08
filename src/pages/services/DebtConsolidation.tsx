@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const DebtConsolidation = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,11 @@ const DebtConsolidation = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Business Debt Consolidation Australia", slug: "business-debt-consolidation-australia", description: "Guide to consolidating business debts effectively" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

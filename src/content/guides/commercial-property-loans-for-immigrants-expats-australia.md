@@ -88,6 +88,8 @@ Securing a commercial property loan as an immigrant or expat in Australia is a c
 
 By looking beyond the major banks to the diverse world of non-bank and private lenders, foreign borrowers can access the funds they need to build a robust property portfolio Down Under. Whether you are a returning expat or a foreign investor, professional advice is non-negotiable. Partnering with experienced finance brokers who specialise in non-resident lending will ensure you navigate the maze of regulations and secure a loan that aligns with your investment goals.
 
+Emet Capital offers [private lending solutions](/services/private-lending) for non-resident and expat borrowers seeking flexible commercial finance.
+
 *This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
 
 *Written by the expert team at Emet Capital, experienced finance brokers specialising in commercial property and business lending across Australia.*

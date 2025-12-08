@@ -35,7 +35,7 @@ slug: "commercial-property-refinancing-solutions"
   "dateModified": "2025-09-29",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/commercial-property-refinancing-solutions"
+    "@id": "https://emetcapital.com.au/guides/commercial-property-refinancing-solutions"
   },
   "articleSection": "Property Finance",
   "keywords": ["commercial property refinancing", "commercial mortgage refinancing", "business property loans", "commercial finance", "property refinance Australia", "LVR", "cash-out refinancing"],
@@ -119,7 +119,7 @@ slug: "commercial-property-refinancing-solutions"
 }
 </script>
 
-Commercial property refinancing represents a strategic financial tool that enables Australian businesses to optimise their property finance arrangements, reduce borrowing costs, and unlock capital for growth opportunities. Unlike residential refinancing, commercial property refinancing involves complex evaluation processes that consider property performance, business cash flows, market conditions, and long-term investment strategies.
+Commercial property refinancing represents a strategic financial tool that enables Australian businesses to optimise their property finance arrangements, reduce borrowing costs, and unlock capital for growth opportunities. Unlike residential refinancing, commercial property refinancing involves complex evaluation processes that consider property performance, business cash flows, market conditions, and long-term investment strategies. For businesses seeking [refinancing solutions](/services/refinancing-solutions), understanding the process and benefits is essential.
 
 The Australian commercial property refinancing market offers diverse solutions ranging from simple rate-and-term refinancing to sophisticated cash-out refinancing structures that release equity for business expansion. Interest rate differentials of just 1-2% can generate substantial savings over loan terms, while access to improved loan features, higher loan-to-value ratios, or extended repayment periods can enhance business flexibility and cash flow management.
 
@@ -195,7 +195,7 @@ Understanding commercial property refinancing rates and structures helps propert
 
 Commercial property refinancing rates depend on factors including property type, location, tenant quality, loan-to-value ratios, and borrower strength. Prime commercial properties with strong tenant covenants typically achieve the most competitive rates.
 
-Current market rates for commercial property refinancing range from 4-8% per annum, with spreads above bank reference rates varying based on risk assessment. Major banks generally offer the lowest rates for high-quality properties and borrowers. For businesses requiring faster settlement during the refinancing process, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may provide interim funding solutions.
+Current market rates for commercial property refinancing range from 4-8% per annum, with spreads above bank reference rates varying based on risk assessment. Major banks generally offer the lowest rates for high-quality properties and borrowers. For businesses requiring faster settlement during the refinancing process, [bridging finance](/guides/bridging-finance-australia-complete-property-guide) may provide interim funding solutions.
 
 ### Fixed Versus Variable Rate Considerations
 
@@ -227,7 +227,7 @@ Equity release requires careful consideration of future property performance, bu
 
 ### Cash-Out Refinancing Strategies
 
-Cash-out refinancing enables property owners to access equity for business expansion, additional property purchases, or [debt consolidation](/resources/guides/business-debt-consolidation-australia). This strategy suits growing businesses with proven cash flow capacity to service increased debt levels. Development properties or those with planning approval may benefit from [commercial property development finance](/resources/guides/commercial-property-development-finance) products that provide progressive funding during development phases.
+Cash-out refinancing enables property owners to access equity for business expansion, additional property purchases, or [debt consolidation](/guides/business-debt-consolidation-australia). This strategy suits growing businesses with proven cash flow capacity to service increased debt levels. Development properties or those with planning approval may benefit from [commercial property development finance](/guides/commercial-property-development-finance) products that provide progressive funding during development phases.
 
 Conservative cash-out approaches maintain adequate equity buffers for market volatility, while aggressive strategies maximise capital access for high-return opportunities. The optimal approach depends on individual risk tolerance and business objectives.
 
@@ -245,7 +245,7 @@ Property valuation fees range from $2,000-8,000 depending on property size and c
 
 Existing loans may involve break costs for early repayment, particularly fixed-rate loans terminated before maturity. Break costs depend on remaining loan terms, interest rate movements, and lender calculation methodologies.
 
-Some existing loans include exit fees or administrative charges for early termination. These costs should be factored into refinancing calculations to determine net benefits of new financing arrangements. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) provides additional options, as second mortgages can deliver borrowing capacity without refinancing existing first mortgages.
+Some existing loans include exit fees or administrative charges for early termination. These costs should be factored into refinancing calculations to determine net benefits of new financing arrangements. Understanding [first and second mortgages](/guides/first-and-second-mortgages-for-business) provides additional options, as second mortgages can deliver borrowing capacity without refinancing existing first mortgages.
 
 ### Cost-Benefit Analysis Framework
 

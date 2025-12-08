@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const PrivateLending = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,13 @@ const PrivateLending = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "What is Private Lending in Australia?", slug: "what-is-private-lending-australia", description: "Understanding private lending and how it differs from traditional bank finance" },
+            { title: "Finding the Best Private Lenders for Your Business", slug: "finding-best-private-lenders-for-your-business", description: "How to identify and work with reputable private lenders" },
+            { title: "Private Lenders for Small Business: Fast Approval Guide", slug: "private-lenders-small-business-fast-approval-guide", description: "Navigating private lending options for SMEs" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

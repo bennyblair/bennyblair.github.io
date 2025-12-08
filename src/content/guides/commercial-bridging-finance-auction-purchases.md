@@ -12,7 +12,7 @@ readingTime: 10
 
 Commercial property auctions require unconditional finance within tight timeframes that traditional lenders simply cannot accommodate. When you win a commercial property at auction, you're typically facing settlement deadlines of 30 to 60 days with no financing contingencies—if you can't settle, you forfeit your deposit and face potential penalties that can exceed $100,000 on multi-million dollar purchases.
 
-Commercial bridging finance solves this timing challenge by providing rapid approval (often within 48-72 hours) and settlement capability matching auction requirements. These short-term facilities—typically 3 to 12 months—enable you to secure auction properties with confidence, then refinance to permanent commercial property finance once you have time for comprehensive loan applications.
+Commercial bridging finance solves this timing challenge by providing rapid approval (often within 48-72 hours) and settlement capability matching auction requirements. These short-term facilities—typically 3 to 12 months—enable you to secure auction properties with confidence, then refinance to permanent commercial property finance once you have time for comprehensive loan applications. Emet Capital provides [bridging finance solutions](/services/bridging-finance) designed for time-sensitive auction purchases.
 
 Interest rates for commercial bridging finance range from 8% to 15% annually depending on loan-to-value ratios, property quality, and borrower strength. While higher than traditional commercial property loans at 6-8%, bridging finance costs prove manageable over short periods when they enable you to capture valuable commercial property opportunities available through auction processes.
 
@@ -34,7 +34,7 @@ A Melbourne investor won a retail property at auction for $1.8 million, paying $
 
 Bank commercial property loans require comprehensive property valuations taking 2-3 weeks, detailed business financial analysis spanning multiple meetings, credit committee approvals following specific meeting schedules, and legal documentation preparation coordinating multiple parties. This cumulative process rarely completes within auction settlement timeframes.
 
-Understanding [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) helps you evaluate how bridging structures can accommodate auction contract requirements within compressed timeframes that traditional lenders cannot match.
+Understanding [bridging finance in Australia](/guides/bridging-finance-australia-complete-property-guide) helps you evaluate how bridging structures can accommodate auction contract requirements within compressed timeframes that traditional lenders cannot match.
 
 ## How Commercial Bridging Finance Works
 
@@ -56,7 +56,7 @@ Commercial bridging finance typically provides 60-70% LVR for standard commercia
 
 Prime commercial properties in major CBD locations may achieve 70% LVR, while secondary locations or specialized commercial properties typically max out at 60-65% LVR. Property type significantly influences available LVR, with office and industrial properties generally achieving better ratios than retail properties.
 
-Deposit requirements of 30-40% create substantial cash demands. On a $2 million auction purchase at 65% LVR, you need $700,000 including the $200,000 (10%) immediate auction deposit plus additional $500,000 at settlement. Understanding [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) helps you compare bridging LVRs against traditional lending.
+Deposit requirements of 30-40% create substantial cash demands. On a $2 million auction purchase at 65% LVR, you need $700,000 including the $200,000 (10%) immediate auction deposit plus additional $500,000 at settlement. Understanding [commercial property loans in Australia](/guides/commercial-property-loans-australia-complete-guide) helps you compare bridging LVRs against traditional lending.
 
 ### Interest Rates and Fee Structures
 
@@ -92,7 +92,7 @@ Auction fever—the competitive bidding environment causing buyers to exceed pla
 
 ### Backup Funding Contingencies
 
-Secondary bridging options provide fallback if primary lenders decline post-auction for unforeseen reasons. For truly urgent situations where bridging finance approval doesn't materialize quickly enough, understanding [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) reveals ultra-fast funding options that can provide 24-48 hour settlement capability, though at premium pricing.
+Secondary bridging options provide fallback if primary lenders decline post-auction for unforeseen reasons. For truly urgent situations where bridging finance approval doesn't materialize quickly enough, understanding [caveat loans in Australia](/guides/caveat-loans-australia-complete-guide) reveals ultra-fast funding options that can provide 24-48 hour settlement capability, though at premium pricing.
 
 Personal guarantees and additional security often enable larger bridging amounts or better terms when standard pre-approvals prove insufficient.
 

@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const CommercialPropertyDevelopment = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,13 @@ const CommercialPropertyDevelopment = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Commercial Property Development Finance Guide", slug: "commercial-property-development-finance", description: "Comprehensive guide to development finance structures and requirements" },
+            { title: "Building & Development Loans: Funding Guide", slug: "building-development-loans-funding-guide", description: "Understanding construction loan processes and requirements" },
+            { title: "Bridging Finance for Developers", slug: "bridging-finance-developers-project-funding-solutions", description: "Short-term funding solutions for property development projects" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

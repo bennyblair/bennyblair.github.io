@@ -119,7 +119,7 @@ slug: "smsf-loans-for-commercial-property"
 }
 </script>
 
-Self-Managed Super Fund (SMSF) loans for commercial property enable fund trustees to leverage superannuation savings for property investment through Limited Recourse Borrowing Arrangements (LRBA). These specialized financing structures allow SMSFs to purchase commercial properties using borrowed funds while maintaining compliance with strict superannuation and taxation legislation.
+Self-Managed Super Fund (SMSF) loans for commercial property enable fund trustees to leverage superannuation savings for property investment through Limited Recourse Borrowing Arrangements (LRBA). These specialized financing structures allow SMSFs to purchase commercial properties using borrowed funds while maintaining compliance with strict superannuation and taxation legislation. For trustees seeking [SMSF commercial property loans](/services/smsf-lending), understanding these arrangements is essential for compliant and successful investment.
 
 The Australian Tax Office (ATO) permits SMSFs to borrow money to acquire single acquirable assets through LRBAs, with commercial properties being among the most popular investment choices due to their potential for stable rental income and long-term capital growth. However, these arrangements require careful structuring to ensure ongoing compliance with complex regulatory requirements.
 
@@ -163,7 +163,7 @@ Small office buildings, medical centres, and professional suites offer accessibl
 
 Industrial properties including warehouses, manufacturing facilities, and distribution centres typically offer higher rental yields than office buildings while requiring less intensive management. These assets often feature longer lease terms and established tenant relationships providing stable cash flows.
 
-Location near transport infrastructure, industrial estates, or manufacturing hubs enhances property values and tenant appeal. However, industrial properties may face higher vacancy risks and require specialist knowledge for effective management and valuation. For commercial property investors outside superannuation, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) offers strategies to optimize property debt structures.
+Location near transport infrastructure, industrial estates, or manufacturing hubs enhances property values and tenant appeal. However, industrial properties may face higher vacancy risks and require specialist knowledge for effective management and valuation. For commercial property investors outside superannuation, [commercial property refinancing](/guides/commercial-property-refinancing-solutions) offers strategies to optimize property debt structures.
 
 ### Retail Commercial Properties
 

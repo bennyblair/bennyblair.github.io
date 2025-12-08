@@ -8,7 +8,7 @@ readingTime: "14"
 author: "Emet Capital"
 metaTitle: "Second Mortgage Brokers Australia: How to Find the Right One"
 metaDescription: "Find experienced second mortgage brokers in Australia. Compare fees, specialisations, and lender networks to secure competitive second mortgage funding."
-canonicalUrl: "https://www.emetcapital.com.au/resources/guides/how-to-find-second-mortgage-brokers-australia"
+canonicalUrl: "https://www.emetcapital.com.au/guides/how-to-find-second-mortgage-brokers-australia"
 keywords: ["second mortgage brokers", "second mortgage australia", "commercial finance brokers", "subordinate lending", "broker fees", "lender panel"]
 articleSchema: {
   "@context": "https://schema.org",
@@ -107,7 +107,7 @@ Brokers working regularly with second mortgages understand intercreditor dynamic
 
 ### Types of Second Mortgage Brokers
 
-Second mortgage brokers typically fall into several categories based on their primary focus areas. Commercial property finance brokers often work with second mortgages as part of broader commercial lending services, particularly [1st & 2nd mortgages for business](/services/first-second-mortgages) purposes like equipment purchases, working capital, or business acquisitions. These brokers understand how businesses use subordinate lending strategically whilst maintaining existing banking relationships.
+Second mortgage brokers typically fall into several categories based on their primary focus areas. Commercial property finance brokers often work with second mortgages as part of broader commercial lending services, particularly [first & second mortgages for business](/services/first-second-mortgages) purposes like equipment purchases, working capital, or business acquisitions. These brokers understand how businesses use subordinate lending strategically whilst maintaining existing banking relationships.
 
 Private lending specialists represent another category, focusing heavily on non-bank and private lender products including second mortgages. These brokers maintain strong relationships with high-net-worth private lenders, family offices, and specialist funds providing second mortgage capital. Their expertise lies in matching unconventional borrower profiles—those with credit impairments, complex income structures, or unique security situations—with flexible private lenders accepting higher risk for premium returns.
 
@@ -277,7 +277,7 @@ Using experienced second mortgage brokers typically delivers better outcomes tha
 
 ### What's the difference between commercial property loans and second mortgages?
 
-[Commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) represent first mortgage facilities for purchasing or refinancing commercial real estate—offices, retail, industrial, or other business-use properties. These loans hold primary security position, meaning they're repaid first if borrowers default. Second mortgages, conversely, represent subordinate lending secured behind existing first mortgages, accepting second position in security priority. Commercial property loans typically offer lower rates (6% to 9%), higher LVRs (60% to 70%), and longer terms (15 to 25 years) due to their superior security position. Second mortgages carry higher rates (8% to 15%), lower LVRs (50% to 65% of available equity), and shorter terms (1 to 5 years) reflecting increased lender risk.
+[Commercial property loans](/guides/commercial-property-loans-australia-complete-guide) represent first mortgage facilities for purchasing or refinancing commercial real estate—offices, retail, industrial, or other business-use properties. These loans hold primary security position, meaning they're repaid first if borrowers default. Second mortgages, conversely, represent subordinate lending secured behind existing first mortgages, accepting second position in security priority. Commercial property loans typically offer lower rates (6% to 9%), higher LVRs (60% to 70%), and longer terms (15 to 25 years) due to their superior security position. Second mortgages carry higher rates (8% to 15%), lower LVRs (50% to 65% of available equity), and shorter terms (1 to 5 years) reflecting increased lender risk.
 
 ## Conclusion
 

@@ -16,7 +16,7 @@ Industrial property finance operates under fundamentally different parameters th
 
 These unique physical characteristics directly impact tenant suitability, rental achievability, and property versatility—factors that determine lender confidence and ultimately your loan-to-value ratio, interest rate, and approval probability. Industrial property finance typically achieves 65-75% LVR, with interest rates ranging from 6.2% to 8.5% depending on property specifications, location, tenant quality, and intended use.
 
-This guide examines industrial property finance requirements, from understanding how lenders evaluate warehouse specifications and manufacturing facility suitability to securing optimal terms for industrial property acquisitions or refinancing.
+This guide examines industrial property finance requirements, from understanding how lenders evaluate warehouse specifications and manufacturing facility suitability to securing optimal terms for industrial property acquisitions or refinancing. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for industrial property investments.
 
 ## Understanding Industrial Property Lending
 
@@ -36,7 +36,7 @@ Modern logistics and distribution facilities attract premium lending terms due t
 
 General warehouses and storage facilities serving diverse tenant types represent mainstream industrial lending, typically achieving 65-72% LVR at 6.5-8% interest rates. Properties with versatile specifications including reasonable clearance (6-8 meters), adequate loading facilities, and appropriate power supply suit multiple tenant categories.
 
-Manufacturing facilities face more nuanced lending assessment, with modern facilities featuring flexible layouts achieving better terms than specialized manufacturing buildings requiring extensive modifications for alternative uses. Understanding [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) provides broader context on how industrial property lending compares to retail and office property financing.
+Manufacturing facilities face more nuanced lending assessment, with modern facilities featuring flexible layouts achieving better terms than specialized manufacturing buildings requiring extensive modifications for alternative uses. Understanding [commercial property loans in Australia](/guides/commercial-property-loans-australia-complete-guide) provides broader context on how industrial property lending compares to retail and office property financing.
 
 ## Critical Building Specifications
 
@@ -74,7 +74,7 @@ Industrial leases typically span 5-10 years with 3-5 year option periods, provid
 
 National logistics operators including major freight companies, third-party logistics providers, and e-commerce distributors represent premium tenant covenants when backed by strong parent companies. Properties leased to these tenants often achieve 70-75% LVR at competitive rates reflecting minimal income risk.
 
-For businesses seeking to purchase industrial properties through self-managed superannuation, exploring [SMSF loans for commercial property](/resources/guides/smsf-loans-for-commercial-property) reveals specific structures and limitations applying to SMSF industrial property acquisitions.
+For businesses seeking to purchase industrial properties through self-managed superannuation, exploring [SMSF loans for commercial property](/guides/smsf-loans-for-commercial-property) reveals specific structures and limitations applying to SMSF industrial property acquisitions.
 
 Owner-occupier industrial properties where borrowers operate businesses from purchased properties receive different treatment than investment properties. A Brisbane logistics company purchased a warehouse for their operations using 65% LVR finance, with the lender assessing both property and business viability.
 
@@ -86,7 +86,7 @@ Industrial property loans incorporate structures addressing industrial property 
 
 Principal-and-interest structures amortizing loans over 15-25 years represent mainstream industrial property finance, with lenders typically requiring minimum 5-year initial terms. Interest-only periods of 3-5 years provide initial cash flow advantages during establishment phases or when rental income growth is anticipated.
 
-Owner-occupier structures combine property acquisition with business premises needs, with lenders assessing both property value and business financial viability. When businesses also require equipment or fit-out funding alongside property acquisition, understanding [asset-backed lending and asset finance](/resources/guides/asset-backed-lending-and-asset-finance) helps structure comprehensive funding packages.
+Owner-occupier structures combine property acquisition with business premises needs, with lenders assessing both property value and business financial viability. When businesses also require equipment or fit-out funding alongside property acquisition, understanding [asset-backed lending and asset finance](/guides/asset-backed-lending-and-asset-finance) helps structure comprehensive funding packages.
 
 A Perth manufacturing business purchased their premises using 68% LVR finance, with the lender requiring detailed business financials demonstrating consistent profitability and cashflow covering property debt comfortably.
 

@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const RefinancingSolutions = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,12 @@ const RefinancingSolutions = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Commercial Property Refinancing Solutions", slug: "commercial-property-refinancing-solutions", description: "Guide to refinancing commercial property loans" },
+            { title: "Commercial Property Finance Rates 2025 Comparison", slug: "commercial-property-finance-rates-2025-comparison", description: "Compare current commercial lending rates" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

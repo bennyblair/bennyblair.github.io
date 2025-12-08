@@ -140,6 +140,12 @@ This Surry Hills case study demonstrates how alternative lending can unlock oppo
 
 The client not only secured their dream location but built a thriving business that contributes to Surry Hills' reputation as Sydney's premier dining destination.
 
+## Related Services
+
+- [Caveat Loans](/services/caveat-loans) - Fast property-secured funding
+- [Business Acquisition Finance](/services/business-acquisition) - Funding for commercial acquisitions
+- [Bridging Finance](/services/bridging-finance) - Short-term property finance
+
 ---
 
 *Emet Capital specializes in fast commercial property finance across Sydney and Australia. With deep local market knowledge and streamlined processes, we help businesses seize opportunities when timing is critical.*

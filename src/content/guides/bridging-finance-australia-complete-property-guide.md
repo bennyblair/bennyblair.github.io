@@ -48,7 +48,7 @@ Owner-occupier businesses seeking to purchase commercial premises often require 
 
 Auction purchases of commercial properties frequently require unconditional offers with rapid settlement timeframes that exceed bank approval processes. Bridging finance enables competitive bidding with settlement certainty, providing strategic advantages in competitive acquisition scenarios.
 
-For businesses requiring funding for construction phases and development milestones, exploring [commercial property development finance](/resources/guides/commercial-property-development-finance) options provides comprehensive solutions that complement bridging arrangements during pre-construction periods.
+For businesses requiring funding for construction phases and development milestones, exploring [commercial property development finance](/guides/commercial-property-development-finance) options provides comprehensive solutions that complement bridging arrangements during pre-construction periods.
 
 ### Investment Property Portfolio Management
 
@@ -62,7 +62,7 @@ Strategic repositioning of property portfolios sometimes requires interim fundin
 
 Properties requiring refinancing due to loan maturity, facility expiry, or strategic optimization opportunities may need bridging finance when new lender approval processes extend beyond existing loan terms. This prevents forced sales and maintains negotiating positions with prospective lenders.
 
-When exploring long-term solutions, businesses often benefit from understanding [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) options that can serve as permanent solutions following bridging arrangements.
+When exploring long-term solutions, businesses often benefit from understanding [commercial property refinancing](/guides/commercial-property-refinancing-solutions) options that can serve as permanent solutions following bridging arrangements.
 
 Debt consolidation across multiple properties may require bridging arrangements during transition periods while new lenders conduct due diligence and documentation processes. Interim funding maintains payment continuity and protects credit standings during refinancing execution.
 
@@ -102,7 +102,7 @@ Self-managed superannuation funds acquiring commercial property investments may 
 
 Auction properties or time-sensitive commercial opportunities may require rapid settlement that SMSF contribution timing or member liquidity cannot accommodate immediately. Bridging enables property security while SMSF funding arrangements are finalized.
 
-For comprehensive understanding of permanent solutions, trustees should explore [SMSF loans for commercial property](/resources/services/smsf-lending) structures that can replace bridging arrangements once established.
+For comprehensive understanding of permanent solutions, trustees should explore [SMSF loans for commercial property](/services/smsf-lending) structures that can replace bridging arrangements once established. For all your [commercial bridging finance](/services/bridging-finance) needs, our team can help structure the right solution.
 
 Limited recourse borrowing arrangement (LRBA) compliance requires careful bridging structure to ensure superannuation legislation adherence while providing necessary interim funding. Specialist SMSF bridging lenders understand these complexities and provide compliant solutions.
 
@@ -260,7 +260,7 @@ While bridging finance provides excellent solutions for many property scenarios,
 
 ### Private Lender Alternatives
 
-Businesses seeking rapid property funding with flexible structures often benefit from exploring [private lending](/resources/guides/what-is-private-lending-australia) options that provide similar speed advantages with potentially different cost structures and term flexibility.
+Businesses seeking rapid property funding with flexible structures often benefit from exploring [private lending](/guides/what-is-private-lending-australia) options that provide similar speed advantages with potentially different cost structures and term flexibility.
 
 High-net-worth individuals and family offices sometimes provide direct property funding at competitive rates for quality opportunities, particularly when existing relationships or mutual strategic interests support lending arrangements.
 
@@ -268,7 +268,7 @@ Private debt funds and institutional private lenders offer sophisticated propert
 
 ### Second Mortgage Solutions
 
-Existing property equity can be accessed through second mortgage arrangements without refinancing first mortgages that may have favorable terms or prepayment penalties. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) helps optimize financing structures.
+Existing property equity can be accessed through second mortgage arrangements without refinancing first mortgages that may have favorable terms or prepayment penalties. Understanding [first and second mortgages](/guides/first-and-second-mortgages-for-business) helps optimize financing structures.
 
 Second mortgages may provide longer terms than bridging finance at comparable rates, suiting situations where extended funding periods benefit strategic objectives while maintaining permanent financing potential.
 
@@ -348,11 +348,11 @@ Success with bridging finance requires realistic assessment of circumstances, ap
 
 ## Related Guides
 
-- [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
-- [SMSF Loans for Commercial Property](/resources/services/smsf-lending)
-- [What is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [Commercial Property Development Finance](/guides/commercial-property-development-finance)
+- [Commercial Property Refinancing Solutions](/guides/commercial-property-refinancing-solutions)
+- [SMSF Loans for Commercial Property](/services/smsf-lending)
+- [What is Private Lending in Australia](/guides/what-is-private-lending-australia)
+- [First and Second Mortgages for Business](/guides/first-and-second-mortgages-for-business)
 
 <script type="application/ld+json">
 {
@@ -372,7 +372,7 @@ Success with bridging finance requires realistic assessment of circumstances, ap
   "dateModified": "2025-09-29",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide"
+    "@id": "https://emetcapital.com.au/guides/bridging-finance-australia-complete-property-guide"
   },
   "articleSection": "Property Finance",
   "keywords": ["bridging finance", "bridging loans", "property bridging", "commercial bridging finance", "development bridging", "short term property loans Australia"],

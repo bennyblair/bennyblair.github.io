@@ -6,6 +6,7 @@ import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "luci
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const WorkingCapital = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,12 @@ const WorkingCapital = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Working Capital Loans for SMEs", slug: "working-capital-loans-for-smes", description: "Understanding working capital options for small and medium businesses" },
+            { title: "Invoice Finance Australia: Complete Guide", slug: "invoice-finance-australia-complete-guide", description: "How invoice financing can improve your business cash flow" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

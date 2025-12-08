@@ -17,7 +17,7 @@ A thriving café in Melbourne's CBD with verified daily foot traffic of 15,000 p
 
 Retail property loans typically achieve 60-70% LVR compared to 70-80% for office or industrial properties, reflecting lenders' perception of higher vacancy risks and income volatility in retail sectors. Interest rates for retail property loans currently range from 6.5% to 9.5% depending on property location, tenant quality, lease terms, and your business financial strength.
 
-This comprehensive guide examines retail-specific considerations affecting commercial property loan applications, from foot traffic analysis and tenancy mix assessment to lease structure evaluation and location factors. We'll explore how lenders evaluate retail properties differently, what strengthens your application, and strategies for securing optimal terms on retail space acquisitions or refinancing.
+This comprehensive guide examines retail-specific considerations affecting commercial property loan applications, from foot traffic analysis and tenancy mix assessment to lease structure evaluation and location factors. We'll explore how lenders evaluate retail properties differently, what strengthens your application, and strategies for securing optimal terms on retail space acquisitions or refinancing. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for retail space acquisitions and investments.
 
 ## Understanding Retail Property Lending Fundamentals
 
@@ -43,7 +43,7 @@ One Sydney investor purchased a retail property in a thriving precinct for $2.8 
 
 **Large format retail** encompassing supermarkets, hardware stores, or category-killer retailers attracts institutional-grade lending when tenants include major corporations with strong covenants. A Woolworths-anchored retail property achieves 75% LVR at 6.5% interest, while a similar property with independent retailers might achieve only 60% LVR at 8.5%.
 
-For property investors exploring different commercial property financing options, understanding [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) provides broader context on how retail lending compares to other commercial property categories.
+For property investors exploring different commercial property financing options, understanding [commercial property loans in Australia](/guides/commercial-property-loans-australia-complete-guide) provides broader context on how retail lending compares to other commercial property categories.
 
 ### Retail Property Valuation Methods
 
@@ -121,7 +121,7 @@ Independent retail tenants require detailed financial analysis, with lenders rev
 
 Personal guarantees from tenant directors add security but don't substitute for strong business covenant. A struggling business owned by wealthy individuals provides limited comfort if the business model proves unviable—personal guarantees require enforcement action that creates vacancies and legal costs rather than preventing income disruption.
 
-For investors considering self-managed superannuation fund structures for retail property acquisition, exploring [SMSF loans for commercial property](/resources/guides/smsf-loans-for-commercial-property) reveals specific considerations and lending parameters applying to SMSF trustees.
+For investors considering self-managed superannuation fund structures for retail property acquisition, exploring [SMSF loans for commercial property](/guides/smsf-loans-for-commercial-property) reveals specific considerations and lending parameters applying to SMSF trustees.
 
 ## Location Factors in Retail Property Lending
 
@@ -185,7 +185,7 @@ However, lenders limit top-up availability based on property values and equity p
 
 Staged equity release structures enable investors to access equity from increasing property values during loan terms, though lenders require revaluations confirming value increases before approving equity release. This structure proves useful for portfolio expansion but requires sustained property value growth for activation.
 
-For retail property owners exploring refinancing to access equity or improve terms, understanding [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) helps evaluate when refinancing delivers value compared to maintaining existing facilities.
+For retail property owners exploring refinancing to access equity or improve terms, understanding [commercial property refinancing solutions](/guides/commercial-property-refinancing-solutions) helps evaluate when refinancing delivers value compared to maintaining existing facilities.
 
 ## Application Process for Retail Property Loans
 

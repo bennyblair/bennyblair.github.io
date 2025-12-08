@@ -12,7 +12,7 @@ readingTime: "10 min read"
 
 # Trade Finance in Australia: The Complete Guide for Business Imports and Exports
 
-Trade finance provides essential funding solutions enabling Australian businesses to participate effectively in international commerce by bridging the timing gap between supplier payments and customer receipts. These specialized financing arrangements support import and export activities through various instruments including letters of credit, documentary collections, and direct funding facilities.
+Trade finance provides essential funding solutions enabling Australian businesses to participate effectively in international commerce by bridging the timing gap between supplier payments and customer receipts. These specialized financing arrangements support import and export activities through various instruments including letters of credit, documentary collections, and direct funding facilities. For businesses seeking [trade finance solutions](/services/trade-finance), understanding these instruments is essential for managing international commerce effectively.
 
 Australian businesses engaged in international trade face unique challenges including extended payment terms from overseas suppliers, foreign currency exposures, lengthy shipping periods, and the need to secure inventory before seasonal demand peaks. Trade finance addresses these challenges through structured solutions that provide working capital while managing commercial and political risks.
 
@@ -48,9 +48,9 @@ Import finance provides Australian businesses with working capital to purchase g
 
 Trust receipt facilities enable importers to take possession of goods while banks retain title until payment, providing security for lenders while allowing normal business operations. These arrangements suit regular importers with predictable sales cycles and established customer bases.
 
-Import documentary credit facilities combine letters of credit with funding arrangements, providing both supplier payment guarantees and working capital to manage cash flow requirements. For broader supply chain funding, [debtor finance and supply chain finance](/resources/guides/debtor-finance-supply-chain-finance-australia) provides comprehensive solutions for managing international trade receivables.
+Import documentary credit facilities combine letters of credit with funding arrangements, providing both supplier payment guarantees and working capital to manage cash flow requirements. For broader supply chain funding, [debtor finance and supply chain finance](/guides/debtor-finance-supply-chain-finance-australia) provides comprehensive solutions for managing international trade receivables.
 
-Inventory finance against imported goods provides working capital based on stock values, enabling businesses to maintain adequate inventory levels while managing seasonal variations or growth requirements. [Asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) facilities can leverage inventory alongside other business assets for comprehensive working capital solutions.
+Inventory finance against imported goods provides working capital based on stock values, enabling businesses to maintain adequate inventory levels while managing seasonal variations or growth requirements. [Asset-backed lending](/guides/asset-backed-lending-and-asset-finance) facilities can leverage inventory alongside other business assets for comprehensive working capital solutions.
 
 ### Specialized Import Applications
 
@@ -74,7 +74,7 @@ Export working capital facilities support ongoing export operations through revo
 
 ### Post-Shipment Export Solutions
 
-Export receivables financing advances funds against shipping documents and export invoices, providing immediate cash flow while awaiting customer payments. For businesses requiring invoice-based funding, [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) offers detailed structures for converting receivables into working capital.
+Export receivables financing advances funds against shipping documents and export invoices, providing immediate cash flow while awaiting customer payments. For businesses requiring invoice-based funding, [invoice finance](/guides/invoice-finance-australia-complete-guide) offers detailed structures for converting receivables into working capital.
 
 Forfaiting arrangements enable exporters to sell medium-term export receivables at discount, transferring credit risk to forfaiting banks while receiving immediate payment. These solutions suit capital equipment exporters with extended payment terms.
 

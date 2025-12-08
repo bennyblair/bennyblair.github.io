@@ -13,9 +13,9 @@ Finding a qualified caveat loan broker can mean the difference between securing 
 
 The right caveat loan broker brings more than just lender connections—they provide expert guidance through complex security arrangements, negotiate competitive rates on your behalf, and structure deals that protect your interests while meeting urgent funding needs. With caveat loan interest rates ranging from 1-3% per month and deals typically settling within 24-72 hours, choosing an experienced broker who understands the urgency while maintaining thorough due diligence becomes essential.
 
-Not all brokers possess genuine caveat lending expertise, as this specialised area requires different knowledge and lender relationships than standard [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide). Many mortgage brokers lack the specific connections with private lenders and specialist finance providers who dominate the caveat lending market.
+Not all brokers possess genuine caveat lending expertise, as this specialised area requires different knowledge and lender relationships than standard [commercial property loans](/guides/commercial-property-loans-australia-complete-guide). Many mortgage brokers lack the specific connections with private lenders and specialist finance providers who dominate the caveat lending market.
 
-This guide walks you through the complete process of finding, vetting, and selecting caveat loan brokers who can deliver the fast finance solutions your business needs. From understanding broker licensing requirements through to asking the right questions about their lender panel and fee structures, you'll gain the knowledge necessary to make an informed broker selection decision.
+This guide walks you through the complete process of finding, vetting, and selecting caveat loan brokers who can deliver the fast finance solutions your business needs. From understanding broker licensing requirements through to asking the right questions about their lender panel and fee structures, you'll gain the knowledge necessary to make an informed broker selection decision. Emet Capital provides [caveat loan solutions](/services/caveat-loans) for businesses requiring urgent property-secured finance.
 
 ## Understanding Caveat Loan Broker Specialisation
 
@@ -23,7 +23,7 @@ Caveat loan brokers operate in a distinct segment of the finance industry, requi
 
 The caveat lending market relies heavily on relationships with private lenders, family offices, and specialist finance providers rather than major banks. Effective caveat loan brokers maintain active relationships with 10-20 lenders willing to assess applications quickly and settle within days rather than weeks. This network becomes crucial when you need urgent funding, as having multiple lender options ensures competitive terms even under time pressure.
 
-Broker specialisation in [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) means understanding the legal mechanics of caveats, property valuation nuances, and risk assessment from a private lender's perspective. They know which lenders prefer first-ranking caveats versus those who accept subordinate positions, which properties attract the best rates, and how to structure security arrangements that satisfy lender requirements while preserving your flexibility.
+Broker specialisation in [caveat loans](/guides/caveat-loans-australia-complete-guide) means understanding the legal mechanics of caveats, property valuation nuances, and risk assessment from a private lender's perspective. They know which lenders prefer first-ranking caveats versus those who accept subordinate positions, which properties attract the best rates, and how to structure security arrangements that satisfy lender requirements while preserving your flexibility.
 
 The best caveat loan brokers have typically worked directly with private lenders or in legal firms handling property security, bringing insider knowledge of how lenders assess deals and what documentation accelerates approval. This experience proves invaluable when positioning your application for fast approval under challenging circumstances.
 
@@ -101,7 +101,7 @@ Certain broker behaviours or circumstances should trigger caution, potentially i
 
 ### Pressure Tactics and Unrealistic Promises
 
-Brokers who pressure you to sign applications immediately without adequate time to review terms and conditions often prioritise their commission over your interests. Reputable brokers provide sufficient time to understand loan structures, compare options, and seek independent legal advice before committing to [private lending arrangements](/resources/guides/what-is-private-lending-australia).
+Brokers who pressure you to sign applications immediately without adequate time to review terms and conditions often prioritise their commission over your interests. Reputable brokers provide sufficient time to understand loan structures, compare options, and seek independent legal advice before committing to [private lending arrangements](/guides/what-is-private-lending-australia).
 
 Guaranteed approval promises should raise immediate concerns, as no broker can guarantee lender decisions. Even with excellent property security and strong financial positions, lending decisions ultimately rest with lenders who conduct their own risk assessment. Brokers promising certainty lack credibility or misrepresent their influence with lenders.
 

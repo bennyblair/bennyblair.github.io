@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import SEO from "@/components/SEO";
 import { 
   Award,
   Users,
@@ -15,7 +16,10 @@ import {
   Phone,
   Star,
   Building2,
-  TrendingUp
+  TrendingUp,
+  Handshake,
+  Scale,
+  Network
 } from "lucide-react";
 import { generateBreadcrumbSchema, generateAboutPageSchema, generateAggregateRatingSchema } from "@/lib/schema-utils";
 
@@ -68,6 +72,13 @@ const About = () => {
 
   return (
     <div className="min-h-screen py-8">
+      <SEO 
+        title="About Emet Capital | Commercial Finance Broker in Australia"
+        description="Learn about Emet Capital, a trusted commercial finance broker in Australia. We connect businesses, property investors, and developers with tailored lending solutions through our extensive network of private and institutional lenders."
+        keywords="commercial finance broker, commercial finance broker australia, business finance broker, property finance broker, private lending, commercial lending"
+        canonical="/about"
+      />
+      
       {/* JSON-LD Structured Data */}
       <script type="application/ld+json">
         {JSON.stringify(generateAboutPageSchema())}
@@ -151,6 +162,141 @@ const About = () => {
             </Card>
           </div>
         </div>
+
+        {/* What Is a Commercial Finance Broker Section */}
+        <section className="mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">
+              What Is a <span className="gradient-text">Commercial Finance Broker?</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Understanding how a commercial finance broker in Australia can help your business access the right funding
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">The Role of a Commercial Finance Broker</h3>
+              <p className="text-muted-foreground mb-4 leading-relaxed">
+                A commercial finance broker acts as an intermediary between businesses seeking funding and the lenders who provide it. Unlike dealing directly with a single bank, a broker maintains relationships across multiple lending institutions—including private lenders, non-bank financiers, and traditional banks—to source the most appropriate financing solution for each client's unique circumstances.
+              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                As a commercial finance broker in Australia, Emet Capital specialises in connecting property investors, developers, and business owners with tailored lending solutions. We analyse your requirements, identify suitable funding options, and negotiate terms on your behalf.
+              </p>
+
+              <h3 className="text-2xl font-semibold mb-4">How We Operate</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Our process begins with understanding your funding needs, timeline, and financial position. We then leverage our network of lenders to identify options that align with your requirements—whether that's <Link to="/services/bridging-finance" className="text-accent hover:underline">bridging finance</Link> for a time-sensitive acquisition, <Link to="/services/commercial-property-development" className="text-accent hover:underline">development finance</Link> for a construction project, <Link to="/services/working-capital" className="text-accent hover:underline">working capital</Link> to support business growth, <Link to="/services/private-lending" className="text-accent hover:underline">private lending</Link> for situations outside bank criteria, <Link to="/services/asset-backed-lending" className="text-accent hover:underline">asset-backed lending</Link> secured against business assets, or <Link to="/services/caveat-loans" className="text-accent hover:underline">caveat loans</Link> for urgent funding needs.
+              </p>
+            </div>
+
+            <Card className="premium-card">
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <Scale className="w-6 h-6 text-accent mr-3" />
+                  Broker vs Bank: Key Differences
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="grid grid-cols-2 gap-4 text-sm">
+                  <div className="p-3 bg-muted/50 rounded-lg">
+                    <div className="font-semibold mb-2">Direct to Bank</div>
+                    <ul className="space-y-1 text-muted-foreground text-xs">
+                      <li>• Limited to one lender's products</li>
+                      <li>• Standard criteria and processes</li>
+                      <li>• May lack specialised commercial expertise</li>
+                      <li>• Fixed rate structures</li>
+                    </ul>
+                  </div>
+                  <div className="p-3 bg-accent/10 rounded-lg border border-accent/20">
+                    <div className="font-semibold mb-2 text-accent">Through a Broker</div>
+                    <ul className="space-y-1 text-muted-foreground text-xs">
+                      <li>• Access to multiple lenders</li>
+                      <li>• Flexible criteria matching</li>
+                      <li>• Commercial lending specialists</li>
+                      <li>• Competitive rate negotiation</li>
+                    </ul>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <Card className="premium-card">
+              <CardContent className="p-6">
+                <div className="mx-auto mb-4 p-4 bg-accent/10 rounded-2xl w-fit">
+                  <Network className="h-8 w-8 text-accent" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-center">Extensive Lender Network</h3>
+                <p className="text-sm text-muted-foreground text-center leading-relaxed">
+                  We maintain relationships with private lenders, non-bank institutions, and alternative funding sources across Australia, giving you access to options beyond traditional banks.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="premium-card">
+              <CardContent className="p-6">
+                <div className="mx-auto mb-4 p-4 bg-accent/10 rounded-2xl w-fit">
+                  <Handshake className="h-8 w-8 text-accent" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-center">Advocacy & Negotiation</h3>
+                <p className="text-sm text-muted-foreground text-center leading-relaxed">
+                  We present your case to lenders professionally, negotiate terms, and advocate for the best possible outcome—saving you time and potentially securing better rates.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="premium-card">
+              <CardContent className="p-6">
+                <div className="mx-auto mb-4 p-4 bg-accent/10 rounded-2xl w-fit">
+                  <Target className="h-8 w-8 text-accent" />
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-center">Tailored Solutions</h3>
+                <p className="text-sm text-muted-foreground text-center leading-relaxed">
+                  Every business situation is different. We structure solutions that match your specific requirements, whether you're acquiring property, funding growth, or managing cash flow.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="bg-muted/30 rounded-2xl p-8">
+            <h3 className="text-2xl font-semibold mb-4">Why Businesses, Investors & Developers Use a Broker</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-3">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong>Time efficiency</strong> — We do the research and legwork, presenting you with vetted options</span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong>Broader access</strong> — Reach lenders you may not know exist or qualify for directly</span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong>Complex situations</strong> — Brokers specialise in non-standard scenarios that banks often decline</span>
+                </div>
+              </div>
+              <div className="space-y-3">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong>Expert guidance</strong> — Navigate lending criteria, documentation, and structuring with professional support</span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong>Speed</strong> — Established relationships can accelerate approvals when timing is critical</span>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong>Ongoing relationship</strong> — A broker who understands your business can support future funding needs</span>
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground mt-6 text-sm">
+              Explore our full range of <Link to="/services" className="text-accent hover:underline">commercial finance services</Link> to see how we can assist with your specific requirements.
+            </p>
+          </div>
+        </section>
 
         {/* Our Values */}
         <section className="mb-16">

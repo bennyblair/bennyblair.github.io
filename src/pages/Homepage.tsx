@@ -302,38 +302,70 @@ const Homepage = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 icon: Building2,
-                title: "Private Commercial Lending",
-                description: "Fast, flexible commercial lending solutions when traditional banks can't meet your timeline or requirements."
+                title: "Private Lending",
+                description: "Fast, flexible commercial lending solutions when traditional banks can't meet your timeline or requirements.",
+                link: "/services/private-lending"
               },
               {
                 icon: TrendingUp,
-                title: "Bridging & Development Finance",
-                description: "Short-term funding for property development, bridging finance, and time-sensitive commercial opportunities."
+                title: "Bridging Finance",
+                description: "Short-term funding for property acquisition, settlements, and time-sensitive commercial opportunities.",
+                link: "/services/bridging-finance"
               },
               {
                 icon: Shield,
                 title: "Asset-Backed Lending",
-                description: "Leverage your commercial property, equipment, or business assets to secure competitive funding solutions."
+                description: "Leverage your commercial property, equipment, or business assets to secure competitive funding solutions.",
+                link: "/services/asset-backed-lending"
+              },
+              {
+                icon: Building2,
+                title: "Property Development Finance",
+                description: "Construction and development funding for residential, commercial, and mixed-use projects across Australia.",
+                link: "/services/commercial-property-development"
+              },
+              {
+                icon: Zap,
+                title: "Caveat Loans",
+                description: "Ultra-fast property-secured funding with settlements possible within 24-72 hours for urgent business needs.",
+                link: "/services/caveat-loans"
+              },
+              {
+                icon: Target,
+                title: "Business Acquisition",
+                description: "Funding solutions for purchasing existing businesses, management buyouts, and strategic acquisitions.",
+                link: "/services/business-acquisition"
               }
             ].map((service, index) => (
-              <Card key={index} className="premium-card group">
-                <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-6 p-6 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
-                    <service.icon className="h-10 w-10 text-accent" />
-                  </div>
-                  <CardTitle className="text-xl md:text-2xl mb-4">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-center text-muted-foreground text-base md:text-lg leading-relaxed">
-                    {service.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
+              <Link key={index} to={service.link}>
+                <Card className="premium-card group h-full hover:border-accent/50 transition-colors">
+                  <CardHeader className="text-center pb-4">
+                    <div className="mx-auto mb-6 p-6 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
+                      <service.icon className="h-10 w-10 text-accent" />
+                    </div>
+                    <CardTitle className="text-xl md:text-2xl mb-4 group-hover:text-accent transition-colors">{service.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-center text-muted-foreground text-base md:text-lg leading-relaxed">
+                      {service.description}
+                    </CardDescription>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <Button asChild variant="outline" size="lg" className="border-accent/30 hover:bg-accent/10">
+              <Link to="/services">
+                View All Services
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
           </div>
         </div>
       </section>

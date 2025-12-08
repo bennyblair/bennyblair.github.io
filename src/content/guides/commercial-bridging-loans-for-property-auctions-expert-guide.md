@@ -88,6 +88,8 @@ Commercial bridging loans for property auctions are a powerful enabler for Austr
 
 Success with bridging finance lies in preparation and partnership. Understanding the costs, having a solid exit strategy, and working with experienced finance brokers can ensure that your auction purchase is smooth and profitable. As the commercial property market continues to evolve, having access to agile funding solutions like bridging loans will remain a critical advantage for savvy market participants.
 
+Emet Capital provides [bridging finance solutions](/services/bridging-finance) for commercial property auction purchases.
+
 *This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
 
 *Written by the expert team at Emet Capital, experienced finance brokers specialising in commercial property and business lending across Australia.*

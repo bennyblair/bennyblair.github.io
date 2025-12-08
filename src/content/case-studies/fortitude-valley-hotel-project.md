@@ -223,6 +223,12 @@ The key was partnering with a development financier who understood both the oppo
 
 Brisbane's continued growth as a business and tourism destination ensures that quality boutique hotels will remain in high demand, making hospitality development an attractive opportunity for experienced developers with the right financing partners.
 
+## Related Services
+
+- [Commercial Property Development](/services/commercial-property-development) - Development finance solutions
+- [Bridging Finance](/services/bridging-finance) - Short-term hospitality funding
+- [Private Lending](/services/private-lending) - Flexible non-bank funding
+
 ---
 
 *Emet Capital provides specialized hospitality development finance across Australia. Our industry expertise and understanding of operational requirements help developers create successful hotels, restaurants, and tourism facilities.*

@@ -33,7 +33,7 @@ Refinancing replaces your existing first mortgage with a new, larger loan from t
 
 Second mortgages leave your first mortgage untouched. This matters enormously if your first mortgage carries a low interest rate locked in years ago. A business owner in Melbourne held a first mortgage at 4.5% fixed until 2026. Rather than refinancing to a current 7% rate, she took a $180,000 second mortgage at 11%. While the second mortgage costs more than current first mortgage rates, her blended rate across both loans remained lower than a full refinance would cost.
 
-Second mortgages also avoid break costs on fixed-rate first mortgages. Breaking a fixed loan early often incurs penalties of $10,000 to $50,000 depending on remaining term and interest rate differences. These costs can eliminate any benefit from accessing additional funds. Understanding [1st and 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) helps you compare these options accurately.
+Second mortgages also avoid break costs on fixed-rate first mortgages. Breaking a fixed loan early often incurs penalties of $10,000 to $50,000 depending on remaining term and interest rate differences. These costs can eliminate any benefit from accessing additional funds. Understanding [first and second mortgages for business](/services/first-second-mortgages) helps you compare these options accurately.
 
 ### Combined Loan-to-Value Ratios
 

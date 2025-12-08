@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Globe, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 
 const TradeFinance = () => {
   const faqs: FAQItem[] = [
@@ -188,6 +189,12 @@ const TradeFinance = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          {/* Related Reading */}
+          <RelatedReading articles={[
+            { title: "Trade Finance in Australia: Managing Imports", slug: "trade-finance-in-australia-how-it-helps-businesses-manage-imports", description: "How trade finance supports import operations" },
+            { title: "Debtor Finance & Supply Chain Finance Australia", slug: "debtor-finance-supply-chain-finance-australia", description: "Managing cash flow through supply chain financing" }
+          ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">

@@ -169,7 +169,7 @@ Line fees or establishment fees typically add 1% to 3% of the loan amount at set
 
 ### Loan Duration and Options
 
-Private land loans typically span 12 to 36 months, reflecting their role as bridging finance until you execute exit strategies through development, sale, or refinancing. Twelve-month terms suit quick turnaround scenarios—purchasing land with existing approvals, immediately commencing construction, then refinancing to [commercial property development finance](/services/commercial-property-development) within the year. Longer 24 to 36-month terms accommodate development approval processes, subdivision completion, or staged development approaches requiring extended timelines.
+Private land loans typically span 12 to 36 months, reflecting their role as bridging finance until you execute exit strategies through development, sale, or refinancing. Twelve-month terms suit quick turnaround scenarios—purchasing land with existing approvals, immediately commencing construction, then refinancing to [commercial property development finance](/services/commercial-property-development) within the year. For land purchases requiring flexible assessment, [private lending](/services/private-lending) provides solutions when banks decline. Longer 24 to 36-month terms accommodate development approval processes, subdivision completion, or staged development approaches requiring extended timelines.
 
 Most private land loans offer interest-only repayments, with principal repaid at loan maturity through your planned exit strategy. This structure maximises your cashflow during the holding period—rather than paying $15,000 monthly covering principal and interest on a $2 million loan at 9%, you pay only $15,000 monthly in interest, preserving capital for development costs.
 
@@ -179,7 +179,7 @@ Extension options matter significantly—can you extend the loan if development 
 
 Don't accept the first private land loan offer you receive. Compare multiple lenders examining total cost of borrowing, not just interest rates. Calculate total interest plus all fees over your expected loan duration. A 9% loan with $40,000 fees costs more over 12 months than a 10% loan with $15,000 fees if you're borrowing $1.5 million.
 
-Some private lenders specialise in specific land types or geographic areas. A lender focusing on Queensland coastal development land might offer better terms for your Gold Coast site than a Sydney-focused lender working outside their specialty. Using [what is private lending](/resources/guides/what-is-private-lending-australia) specialists who understand your specific land type typically delivers better pricing and terms than generalist lenders.
+Some private lenders specialise in specific land types or geographic areas. A lender focusing on Queensland coastal development land might offer better terms for your Gold Coast site than a Sydney-focused lender working outside their specialty. Using [what is private lending](/guides/what-is-private-lending-australia) specialists who understand your specific land type typically delivers better pricing and terms than generalist lenders.
 
 Reputation matters enormously with private lenders. Research potential lenders through online reviews, industry references, and past borrower experiences. Established lenders with five-plus years operating history and professional advisors typically provide more reliable service than unknown entities promising unusually attractive terms.
 
@@ -229,7 +229,7 @@ Development approval processes, construction delays, or market timing might requ
 
 Extension requests require demonstrating progress toward your exit strategy, not just seeking more time because plans have stalled. Show lenders development approval progress with council correspondence, construction progress with photos and contractor reports if building has commenced, marketing evidence if selling, or refinancing quotes from alternative lenders confirming imminent repayment.
 
-Plan refinancing to traditional lenders well before private loan maturity—start discussions 3 to 6 months prior. [Commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) typically require 6 to 12 weeks processing even for established borrowers. Waiting until your private loan matures creates pressure, forcing you to accept unfavourable terms or expensive further extensions.
+Plan refinancing to traditional lenders well before private loan maturity—start discussions 3 to 6 months prior. [Commercial property loans in Australia](/guides/commercial-property-loans-australia-complete-guide) typically require 6 to 12 weeks processing even for established borrowers. Waiting until your private loan matures creates pressure, forcing you to accept unfavourable terms or expensive further extensions.
 
 ### Lender Communication
 

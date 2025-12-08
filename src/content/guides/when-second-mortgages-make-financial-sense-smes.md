@@ -111,7 +111,7 @@ Calculate total costs over realistic timeframes rather than comparing annual per
 
 The second mortgage costs $7,750 more but delivers funds 6-8 weeks faster and preserves your existing first mortgage terms. If your business needs funds urgently to prevent a $100,000 contract penalty or capture a $200,000 profit opportunity, the $7,750 premium proves easily justified.
 
-Understanding [1st and 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) provides comprehensive context on how these security structures work together and when each delivers optimal outcomes for different business scenarios.
+Understanding [first and second mortgages for business](/services/first-second-mortgages) provides comprehensive context on how these security structures work together and when each delivers optimal outcomes for different business scenarios.
 
 ### Time Value Assessment
 

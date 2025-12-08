@@ -119,7 +119,7 @@ Quick caveat loans represent one of several fast funding options, each with diff
 
 Invoice financing or debtor finance can settle within 2 to 3 days for businesses with strong receivables, offering similar speed to quick caveat loans without requiring property security. However, invoice finance only suits businesses with appropriate debtor books and ongoing facility management requirements that caveat loans avoid.
 
-[Bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) typically requires 1 to 3 weeks for approval and settlement, longer than caveat loans but still faster than traditional bank lending. Bridging finance often provides larger amounts ($500,000-plus) and slightly better rates than caveat loans, making it appropriate when you have 2 to 3 weeks available rather than needing funds within days.
+[Bridging finance](/services/bridging-finance) typically requires 1 to 3 weeks for approval and settlement, longer than caveat loans but still faster than traditional bank lending. Bridging finance often provides larger amounts ($500,000-plus) and slightly better rates than caveat loans, making it appropriate when you have 2 to 3 weeks available rather than needing funds within days.
 
 ## Factors That Accelerate Settlement
 
@@ -147,7 +147,7 @@ Not all lenders offering quick caveat loans deliver equal speed. Established cav
 
 Lenders with strong relationships with valuation firms sometimes secure priority service enabling same-day desktop valuations. This matters enormously—if valuation takes 24 hours instead of 72 hours, you've gained two days toward achieving genuine 48-hour settlement. Similarly, lenders using panel lawyers specialising in caveat documentation process legal work faster than those engaging general commercial lawyers unfamiliar with these products.
 
-Consider using experienced mortgage brokers specialising in [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) rather than approaching lenders directly. Specialist brokers know which lenders genuinely deliver speed versus those with more marketing than capability. They can pre-qualify your scenario, submit to appropriate lenders, and chase documentation processing—services that often accelerate settlement versus self-managed applications. Discuss their fee structure upfront—brokers may receive commission from lenders, charge fees directly to clients, or use a combination of both models.
+Consider using experienced mortgage brokers specialising in [caveat loans](/services/caveat-loans) rather than approaching lenders directly. Specialist brokers know which lenders genuinely deliver speed versus those with more marketing than capability. They can pre-qualify your scenario, submit to appropriate lenders, and chase documentation processing—services that often accelerate settlement versus self-managed applications. Discuss their fee structure upfront—brokers may receive commission from lenders, charge fees directly to clients, or use a combination of both models.
 
 ## Common Delays in Quick Caveat Loans
 

@@ -16,7 +16,7 @@ Owner-occupier construction represents a strategic investment for established bu
 
 Interest rates for construction finance typically range from 5-9% per annum depending on business strength, land equity, pre-construction preparations, and lender assessment of project viability. Loan-to-value ratios commonly reach 70-80% of total project costs including land, construction, and associated expenses, requiring businesses to contribute 20-30% equity.
 
-This comprehensive guide examines construction finance for commercial owner-occupier buildings, covering application processes, progressive funding mechanisms, cost structures, and strategic considerations. From understanding when construction proves more advantageous than purchasing existing premises to navigating builder selection and managing project risks, we explore how businesses can successfully finance custom commercial building projects.
+This comprehensive guide examines construction finance for commercial owner-occupier buildings, covering application processes, progressive funding mechanisms, cost structures, and strategic considerations. From understanding when construction proves more advantageous than purchasing existing premises to navigating builder selection and managing project risks, we explore how businesses can successfully finance custom commercial building projects. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for businesses planning custom building projects.
 
 ## Understanding Construction Finance Fundamentals
 
@@ -26,7 +26,7 @@ Construction finance operates through specialized structures accommodating the u
 
 Construction finance targets owner-occupier businesses building premises for their own operational use, focusing on long-term business benefits rather than profit-oriented development outcomes. This fundamental difference affects risk assessment, approval criteria, and facility structures significantly.
 
-For businesses exploring profit-oriented building projects, understanding [commercial property development finance](/resources/guides/commercial-property-development-finance) provides comprehensive coverage of build-to-sell scenarios and their distinct financing requirements.
+For businesses exploring profit-oriented building projects, understanding [commercial property development finance](/guides/commercial-property-development-finance) provides comprehensive coverage of build-to-sell scenarios and their distinct financing requirements.
 
 Owner-occupiers demonstrate business need and operational capacity to service debt from existing business cash flows, while developers must prove sales feasibility and market absorption to justify lending. These different value propositions require distinct assessment approaches from lenders.
 
@@ -256,7 +256,7 @@ Most construction finance agreements include provisions for conversion to standa
 
 Alternative lender refinancing enables businesses to secure competitive permanent financing terms through comprehensive market assessment, though requiring new application processes and settlement coordination.
 
-Businesses exploring refinancing options after construction completion can benefit from understanding [commercial property refinancing strategies](/resources/guides/commercial-property-refinancing-solutions) that optimize long-term financing structures.
+Businesses exploring refinancing options after construction completion can benefit from understanding [commercial property refinancing strategies](/guides/commercial-property-refinancing-solutions) that optimize long-term financing structures.
 
 ### Loan Structure Optimization
 
@@ -356,10 +356,10 @@ The Australian construction finance market provides essential infrastructure ena
 
 ## Related Guides
 
-- [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
-- [What is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
-- [Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
+- [Commercial Property Development Finance](/guides/commercial-property-development-finance)
+- [Commercial Property Refinancing Solutions](/guides/commercial-property-refinancing-solutions)
+- [What is Private Lending in Australia?](/guides/what-is-private-lending-australia)
+- [Bridging Finance: Complete Property Guide](/guides/bridging-finance-australia-complete-property-guide)
 
 ---
 
@@ -383,7 +383,7 @@ The Australian construction finance market provides essential infrastructure ena
   "dateModified": "2025-09-30",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/construction-finance-australia-complete-guide"
+    "@id": "https://emetcapital.com.au/guides/construction-finance-australia-complete-guide"
   },
   "articleSection": "Property Finance",
   "keywords": ["construction finance", "commercial construction loans", "owner builder finance", "building finance Australia", "commercial construction funding"],

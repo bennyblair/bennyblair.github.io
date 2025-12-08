@@ -29,7 +29,7 @@ Equity calculation starts with current property value minus all existing debt. A
 
 Combined loan-to-value ratios (combined LVR) determine maximum total lending against property value. Most second mortgage lenders cap combined LVRs at 75-80% for residential property and 65-70% for commercial property. Using the Sydney warehouse example at 70% combined LVR, maximum total lending is $2.45 million. With $1.8 million already borrowed, available second mortgage capacity is $650,000.
 
-Understanding [1st and 2nd mortgages for business](/guides/first-and-second-mortgages-for-business) provides comprehensive context on how these security structures work together and when each suits different business funding scenarios.
+Understanding [first and second mortgages for business](/services/first-second-mortgages) provides comprehensive context on how these security structures work together and when each suits different business funding scenarios.
 
 ### How Second Position Security Works
 
