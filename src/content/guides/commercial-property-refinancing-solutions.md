@@ -35,7 +35,7 @@ slug: "commercial-property-refinancing-solutions"
   "dateModified": "2025-09-29",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/commercial-property-refinancing-solutions"
+    "@id": "https://emetcapital.com.au/guides/commercial-property-refinancing-solutions"
   },
   "articleSection": "Property Finance",
   "keywords": ["commercial property refinancing", "commercial mortgage refinancing", "business property loans", "commercial finance", "property refinance Australia", "LVR", "cash-out refinancing"],

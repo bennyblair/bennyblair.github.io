@@ -34,7 +34,7 @@ Multi-stage funding structures release capital progressively throughout commerci
 
 Buyer-led programs involve large customers providing early payment options to suppliers through bank or fintech intermediaries, improving supplier cash flows while enabling buyers to negotiate extended payment terms supporting their working capital positions.
 
-While [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) addresses post-delivery funding needs, supply chain finance extends earlier into commercial cycles, funding production and procurement stages before goods are delivered and invoiced.
+While [invoice finance](/guides/invoice-finance-australia-complete-guide) addresses post-delivery funding needs, supply chain finance extends earlier into commercial cycles, funding production and procurement stages before goods are delivered and invoiced.
 
 Supplier-initiated arrangements enable smaller businesses to access funding based on creditworthy customer relationships, leveraging buyer credit quality rather than relying solely on supplier financial strength for lending decisions.
 
@@ -66,7 +66,7 @@ Importers receiving substantial orders from retail or commercial customers can f
 
 Wholesale distributors with large retail orders requiring inventory procurement before delivery can utilize purchase order finance for supplier payments, enabling order fulfillment without tying up working capital in pre-sold inventory.
 
-Businesses exploring comprehensive funding for import operations should understand [trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) structures that may complement or provide alternatives to purchase order arrangements.
+Businesses exploring comprehensive funding for import operations should understand [trade finance](/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) structures that may complement or provide alternatives to purchase order arrangements.
 
 ### Seasonal Business Applications
 
@@ -94,7 +94,7 @@ Production cycle financing addresses working capital requirements during manufac
 
 ### Inventory Finance Versus Asset-Based Lending
 
-While [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) provides comprehensive facilities against multiple asset types, pure inventory finance focuses specifically on stock funding with specialized monitoring and risk management for inventory-based security.
+While [asset-backed lending](/guides/asset-backed-lending-and-asset-finance) provides comprehensive facilities against multiple asset types, pure inventory finance focuses specifically on stock funding with specialized monitoring and risk management for inventory-based security.
 
 Combined facilities incorporating inventory alongside receivables and equipment provide comprehensive working capital solutions for businesses with diverse asset bases requiring integrated funding approaches across multiple collateral types.
 
@@ -202,7 +202,7 @@ Platform fees for technology-based supply chain finance may include subscription
 
 Effective cost evaluation should consider total financing expenses including interest, fees, and opportunity costs compared to alternative funding sources and the value of growth opportunities enabled by comprehensive supply chain financing.
 
-Comparison with [working capital loans](/resources/guides/working-capital-loans-for-smes) helps businesses evaluate whether dedicated working capital facilities or supply chain-specific arrangements provide better value for particular operational requirements.
+Comparison with [working capital loans](/guides/working-capital-loans-for-smes) helps businesses evaluate whether dedicated working capital facilities or supply chain-specific arrangements provide better value for particular operational requirements.
 
 ## Worked Example: Wholesale Distribution Business
 
@@ -326,10 +326,10 @@ The Australian debtor and supply chain finance market continues evolving with te
 
 ## Related Guides
 
-- [Invoice Finance Australia: Complete Guide](/resources/guides/invoice-finance-australia-complete-guide)
-- [Trade Finance in Australia: How It Helps Businesses Manage Imports](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)
-- [Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)
-- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
+- [Invoice Finance Australia: Complete Guide](/guides/invoice-finance-australia-complete-guide)
+- [Trade Finance in Australia: How It Helps Businesses Manage Imports](/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)
+- [Asset-Backed Lending and Asset Finance](/guides/asset-backed-lending-and-asset-finance)
+- [Working Capital Loans for SMEs](/guides/working-capital-loans-for-smes)
 
 ---
 
@@ -353,7 +353,7 @@ The Australian debtor and supply chain finance market continues evolving with te
   "dateModified": "2025-09-30",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/debtor-finance-supply-chain-finance-australia"
+    "@id": "https://emetcapital.com.au/guides/debtor-finance-supply-chain-finance-australia"
   },
   "articleSection": "Business Finance",
   "keywords": ["debtor finance", "supply chain finance", "purchase order finance", "inventory finance", "trade credit", "receivables finance Australia"],

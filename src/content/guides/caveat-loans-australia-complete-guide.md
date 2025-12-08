@@ -260,7 +260,7 @@ Asset-based facilities often provide ongoing revolving credit rather than one-ti
 
 ### Bridging Finance Considerations
 
-For property-related urgent funding requirements, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) provides structured short-term solutions with slightly lower costs than caveats though requiring marginally extended approval timeframes.
+For property-related urgent funding requirements, [bridging finance](/guides/bridging-finance-australia-complete-property-guide) provides structured short-term solutions with slightly lower costs than caveats though requiring marginally extended approval timeframes.
 
 Bridging loans suit scenarios where urgency spans weeks rather than days, providing cost savings compared to caveats while maintaining relatively rapid execution compared to traditional lending.
 
@@ -336,10 +336,10 @@ Success with caveat loans requires realistic assessment of urgency, appropriate 
 
 Explore these comprehensive guides to understand related property finance options:
 
-- [Private Lending in Australia: Complete Guide](/resources/guides/what-is-private-lending-australia) - Understand flexible private lending alternatives for business funding
-- [Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide) - Learn about short-term property funding solutions
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business) - Explore traditional property security options
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions) - Discover long-term refinancing strategies
+- [Private Lending in Australia: Complete Guide](/guides/what-is-private-lending-australia) - Understand flexible private lending alternatives for business funding
+- [Bridging Finance: Complete Property Guide](/guides/bridging-finance-australia-complete-property-guide) - Learn about short-term property funding solutions
+- [First and Second Mortgages for Business](/guides/first-and-second-mortgages-for-business) - Explore traditional property security options
+- [Commercial Property Refinancing Solutions](/guides/commercial-property-refinancing-solutions) - Discover long-term refinancing strategies
 
 ---
 
@@ -363,7 +363,7 @@ Explore these comprehensive guides to understand related property finance option
   "dateModified": "2025-09-30",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/caveat-loans-australia-complete-guide"
+    "@id": "https://emetcapital.com.au/guides/caveat-loans-australia-complete-guide"
   },
   "articleSection": "Property Finance",
   "keywords": ["caveat loans", "caveat finance", "urgent property finance", "fast business loans", "property secured loans", "caveat lending Australia"],
