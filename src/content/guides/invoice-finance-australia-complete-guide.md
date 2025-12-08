@@ -211,7 +211,7 @@ Professional advice from accountants, lawyers, and industry specialists helps na
 
 ## Alternative Cash Flow Solutions
 
-While invoice finance provides excellent cash flow solutions for many businesses, alternative approaches may be more suitable depending on specific circumstances, customer relationships, and strategic objectives. Understanding [debtor finance and supply chain finance](/resources/guides/debtor-finance-supply-chain-finance-australia) provides broader context for receivables-based funding strategies. For import/export businesses, [trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) offers specialized solutions for international transactions.
+While invoice finance provides excellent cash flow solutions for many businesses, alternative approaches may be more suitable depending on specific circumstances, customer relationships, and strategic objectives. Understanding [debtor finance and supply chain finance](/guides/debtor-finance-supply-chain-finance-australia) provides broader context for receivables-based funding strategies. For import/export businesses, [trade finance](/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) offers specialized solutions for international transactions.
 
 ### Traditional Banking Alternatives
 
@@ -235,7 +235,7 @@ Selective invoice finance combined with improved collection procedures provides 
 
 Trade credit insurance provides bad debt protection without cash flow benefits, potentially enabling bank lending arrangements that consider insured receivables in serviceability calculations.
 
-Supply chain financing arrangements with major customers can provide early payment opportunities while maintaining commercial relationships and potentially improving overall supply chain efficiency. For businesses with multiple funding needs, working capital loans provide alternative solutions, while [asset-backed lending](/resources/guides/asset-backed-lending-australia) can complement invoice finance for comprehensive funding strategies.
+Supply chain financing arrangements with major customers can provide early payment opportunities while maintaining commercial relationships and potentially improving overall supply chain efficiency. For businesses with multiple funding needs, working capital loans provide alternative solutions, while [asset-backed lending](/guides/asset-backed-lending-and-asset-finance) can complement invoice finance for comprehensive funding strategies.
 
 ---
 
@@ -284,9 +284,9 @@ Some invoice finance providers work with newer businesses, focusing on customer 
 
 ## Related Guides
 
-- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
-- [Asset-Backed Lending in Australia](/resources/guides/asset-backed-lending-australia)
-- [Business Debt Consolidation](/resources/guides/business-debt-consolidation-australia)
+- [Working Capital Loans for SMEs](/guides/working-capital-loans-for-smes)
+- [Asset-Backed Lending in Australia](/guides/asset-backed-lending-and-asset-finance)
+- [Business Debt Consolidation](/guides/business-debt-consolidation-australia)
 
 ## Conclusion
 
@@ -327,7 +327,7 @@ Success with invoice finance requires realistic assessment of business circumsta
   "dateModified": "2025-09-26",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/invoice-finance-australia-complete-guide"
+    "@id": "https://emetcapital.com.au/guides/invoice-finance-australia-complete-guide"
   },
   "articleSection": "Business Finance",
   "keywords": ["invoice finance", "invoice factoring", "invoice discounting", "receivables finance", "cash flow funding", "business factoring Australia"],
