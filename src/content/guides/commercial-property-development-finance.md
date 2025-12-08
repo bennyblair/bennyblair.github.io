@@ -35,7 +35,7 @@ slug: "commercial-property-development-finance"
   "dateModified": "2025-09-28",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/commercial-property-development-finance"
+    "@id": "https://emetcapital.com.au/guides/commercial-property-development-finance"
   },
   "articleSection": "Property Finance",
   "keywords": ["commercial property development finance", "development funding", "construction loans", "property development", "commercial finance", "development lending", "LTC ratios", "progressive drawdowns", "Australia"],

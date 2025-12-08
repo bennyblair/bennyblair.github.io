@@ -35,7 +35,7 @@ slug: "equipment-finance-and-leasing-australia"
   "dateModified": "2025-09-29",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/equipment-finance-and-leasing-australia"
+    "@id": "https://emetcapital.com.au/guides/equipment-finance-and-leasing-australia"
   },
   "articleSection": "Business Finance",
   "keywords": ["equipment finance", "equipment leasing", "business equipment loans", "chattel mortgage", "commercial hire purchase", "equipment funding Australia", "tax benefits equipment finance", "manufacturing equipment finance"],

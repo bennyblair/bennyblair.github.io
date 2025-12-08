@@ -251,7 +251,7 @@ Businesses with strong debtor books might access emergency funding through invoi
 
 Invoice finance costs vary—typically 0.5% to 1.5% monthly plus establishment fees—making it cheaper than caveat loans whilst potentially providing similar approval speed. However, you need quality debtors with good payment histories. Businesses with overdue invoices, disputed amounts, or customers with poor credit won't qualify. Invoice finance also requires ongoing facility management—as invoices get paid, new ones must be submitted to maintain funding levels.
 
-For businesses with seasonal cashflow patterns or long payment terms creating temporary funding gaps, invoice finance often proves more appropriate than caveat loans. You're leveraging business assets (debtors) rather than personal property, better aligning risk with reward. Explore [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) comprehensively alongside debtor finance options before deciding which emergency funding suits your circumstances best.
+For businesses with seasonal cashflow patterns or long payment terms creating temporary funding gaps, invoice finance often proves more appropriate than caveat loans. You're leveraging business assets (debtors) rather than personal property, better aligning risk with reward. Explore [caveat loans in Australia](/guides/caveat-loans-australia-complete-guide) comprehensively alongside debtor finance options before deciding which emergency funding suits your circumstances best.
 
 ### Director Loans and Private Capital
 

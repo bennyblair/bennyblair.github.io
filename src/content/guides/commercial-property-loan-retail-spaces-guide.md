@@ -185,7 +185,7 @@ However, lenders limit top-up availability based on property values and equity p
 
 Staged equity release structures enable investors to access equity from increasing property values during loan terms, though lenders require revaluations confirming value increases before approving equity release. This structure proves useful for portfolio expansion but requires sustained property value growth for activation.
 
-For retail property owners exploring refinancing to access equity or improve terms, understanding [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) helps evaluate when refinancing delivers value compared to maintaining existing facilities.
+For retail property owners exploring refinancing to access equity or improve terms, understanding [commercial property refinancing solutions](/guides/commercial-property-refinancing-solutions) helps evaluate when refinancing delivers value compared to maintaining existing facilities.
 
 ## Application Process for Retail Property Loans
 
