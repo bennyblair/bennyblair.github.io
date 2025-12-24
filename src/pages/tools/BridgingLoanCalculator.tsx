@@ -103,7 +103,7 @@ const BridgingLoanCalculator = () => {
         <title>Bridging Loan Calculator Australia: Calculate Costs Instantly</title>
         <meta name="description" content="Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance." />
         <meta name="keywords" content="bridging loan calculator, bridging finance calculator, bridge loan calculator, commercial bridging calculator" />
-        <link rel="canonical" href="https://www.emetcapital.com.au/resources/tools/bridging-loan-calculator-costs-repayments" />
+        <link rel="canonical" href="https://emetcapital.com.au/tools/bridging-loan-calculator" />
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>

@@ -23,8 +23,8 @@ https://www.emetcapital.com.au/*  https://emetcapital.com.au/:splat  301!
 /apply-now                        /contact                                   301
 
 # Clean up "Copy of" pages (410 Gone)
-/copy-of-commercial-property-development  410
-/copy-of-working-capital                  410
+/copy-of-commercial-property-development  -  410
+/copy-of-working-capital                  -  410
 
 # Tool page consolidation redirects (Legacy)
 /resources/tools/2nd-mortgage-loan-rates    /tools/second-mortgage-calculator    301

@@ -115,7 +115,7 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/resources/guides", 'priority': '0.8', 'changefreq': 'daily'},
         {'url': f"{DOMAIN}/resources/case-studies", 'priority': '0.8', 'changefreq': 'daily'},
         {'url': f"{DOMAIN}/resources/insights", 'priority': '0.8', 'changefreq': 'daily'},
-        {'url': f"{DOMAIN}/resources/tools", 'priority': '0.7', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools", 'priority': '0.7', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/resources/faqs", 'priority': '0.5', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/resources/glossary", 'priority': '0.5', 'changefreq': 'monthly'},
         # Service pages (pillar pages)

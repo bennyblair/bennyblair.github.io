@@ -233,7 +233,7 @@ const ResourcesHub = () => {
                 variant="outline"
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
               >
-                <Link to="/resources/tools">Try Our Calculators</Link>
+                <Link to="/tools">Try Our Calculators</Link>
               </Button>
             </div>
           </div>
