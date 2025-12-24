@@ -40,7 +40,7 @@ The strength of the Australian RMBS sector lies in the low default rates of Aust
 
 ## Second Mortgages: A Different "Secondary" Market
 
-Confusingly, the term "secondary market" is sometimes used in the private lending space to refer to the market for **Second Mortgages**. A second mortgage is a loan secured against a property that already has a primary (first) mortgage. In the event of a default and sale, the first mortgagee gets paid first, and the second mortgagee gets whatever is left. Because of this subordinate position, second mortgages are higher risk and carry higher interest rates.
+Confusingly, the term "secondary market" is sometimes used in the private lending space to refer to the market for [Second Mortgages](/services/first-second-mortgages). A second mortgage is a loan secured against a property that already has a primary (first) mortgage. In the event of a default and sale, the first mortgagee gets paid first, and the second mortgagee gets whatever is left. Because of this subordinate position, second mortgages are higher risk and carry higher interest rates.
 
 This market is distinct from the institutional secondary market described above. It is largely the domain of private lenders and specialised finance companies. Business owners often use second mortgages to release equity from a property without disturbing their low-rate first mortgage. For example, if a business owner has a home worth $2 million with a $1 million bank loan, they might take a $500,000 second mortgage to fund a business expansion.
 
