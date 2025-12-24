@@ -1,21 +1,41 @@
+# Canonical Host Redirect (www -> non-www)
+https://www.emetcapital.com.au/*  https://emetcapital.com.au/:splat  301!
+
+# Fix Tools URL Structure (resources/tools -> tools)
+/resources/tools/commercial-property-loan-calculator  /tools/commercial-property-loan-calculator  301
+/resources/tools/second-mortgage-calculator           /tools/second-mortgage-calculator           301
+/resources/tools/commercial-real-estate-calculator    /tools/commercial-real-estate-calculator    301
+/resources/tools/asset-finance-roi-calculator         /tools/asset-finance-roi-calculator         301
+/resources/tools/working-capital-calculator           /tools/working-capital-calculator           301
+/resources/tools/loan-comparison-tool                 /tools/loan-comparison-tool                 301
+/resources/tools/bridging-loan-calculator             /tools/bridging-loan-calculator             301
+
 # Redirects for old URLs
 /about-us    /about    301
 /commercial-property-development    /services/commercial-property-development    301
 /business-investment-expansion    /services/business-acquisition    301
-/resources/guides/2nd-mortgage-loan    /resources/guides/second-mortgage-for-business-australia    301
-/resources/guides/2nd-mortgage-lenders    /resources/guides/second-mortgage-for-business-australia    301
-/resources/guides/bridging-finance-commercial-property-australia    /resources/guides/bridging-loans-australia    301
+/asset-based-lending              /services/asset-backed-lending    301
+/construction                     /resources/guides/construction-finance-australia-complete-guide  301
+/strata-finance                   /services/commercial-property-development  301
+/refinance                        /services/refinancing-solutions            301
+/working-capital                  /services/working-capital                  301
+/first-second-mortgages           /services/first-second-mortgages           301
+/apply-now                        /contact                                   301
 
-# Tool page consolidation redirects
-/resources/tools/2nd-mortgage-loan-rates    /resources/tools/second-mortgage-calculator    301
-/resources/tools/2nd-mortgage-rates    /resources/tools/second-mortgage-calculator    301
-/resources/tools/mortgage-rates-for-second-mortgage    /resources/tools/second-mortgage-calculator    301
-/resources/tools/second-mortgage-rates    /resources/tools/second-mortgage-calculator    301
-/resources/tools/commercial-property-loan-repayment-calculator    /resources/tools/commercial-property-loan-calculator    301
-/resources/tools/commercial-real-estate-loans-calculator    /resources/tools/commercial-property-loan-calculator    301
-/resources/tools/loan-calculator-commercial-loan    /resources/tools/commercial-property-loan-calculator    301
-/resources/tools/loan-for-commercial-property-calculator    /resources/tools/commercial-property-loan-calculator    301
-/resources/tools/repayment-calculator-commercial-property    /resources/tools/commercial-property-loan-calculator    301
+# Clean up "Copy of" pages (410 Gone)
+/copy-of-commercial-property-development  410
+/copy-of-working-capital                  410
+
+# Tool page consolidation redirects (Legacy)
+/resources/tools/2nd-mortgage-loan-rates    /tools/second-mortgage-calculator    301
+/resources/tools/2nd-mortgage-rates         /tools/second-mortgage-calculator    301
+/resources/tools/mortgage-rates-for-second-mortgage    /tools/second-mortgage-calculator    301
+/resources/tools/second-mortgage-rates      /tools/second-mortgage-calculator    301
+/resources/tools/commercial-property-loan-repayment-calculator    /tools/commercial-property-loan-calculator    301
+/resources/tools/commercial-real-estate-loans-calculator    /tools/commercial-property-loan-calculator    301
+/resources/tools/loan-calculator-commercial-loan    /tools/commercial-property-loan-calculator    301
+/resources/tools/loan-for-commercial-property-calculator    /tools/commercial-property-loan-calculator    301
+/resources/tools/repayment-calculator-commercial-property    /tools/commercial-property-loan-calculator    301
 
 # Static assets should be served directly
 /assets/*  /assets/:splat  200

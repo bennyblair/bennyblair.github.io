@@ -17,7 +17,7 @@ const SEO = ({
   type = "website",
   image = "/assets/sydney-skyline-hero.jpg"
 }: SEOProps) => {
-  const baseUrl = "https://www.emetcapital.com.au";
+  const baseUrl = "https://emetcapital.com.au";
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
   const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
 

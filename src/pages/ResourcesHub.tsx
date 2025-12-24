@@ -36,7 +36,7 @@ const ResourcesHub = () => {
       icon: Calculator,
       title: "Tools & Calculators",
       description: "Interactive tools to help plan and estimate your commercial lending needs.",
-      href: "/resources/tools",
+      href: "/tools",
       features: ["Loan calculators", "Cash flow tools", "ROI estimators"],
       count: "8+ Tools"
     },

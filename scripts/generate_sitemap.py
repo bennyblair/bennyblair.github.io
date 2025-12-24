@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration
-DOMAIN = "https://www.emetcapital.com.au"
+DOMAIN = "https://emetcapital.com.au"
 CONTENT_DIRS = {
     'guides': 'src/content/guides',
     'case-studies': 'src/content/case-studies', 
@@ -122,7 +122,7 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/services/first-second-mortgages", 'priority': '0.9', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/commercial-property-development", 'priority': '0.9', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/bridging-finance", 'priority': '0.9', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/refinancing", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/refinancing-solutions", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/working-capital", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/equipment-finance", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/business-acquisition", 'priority': '0.8', 'changefreq': 'monthly'},
@@ -134,12 +134,13 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/services/caveat-loans", 'priority': '0.9', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/asset-finance", 'priority': '0.8', 'changefreq': 'monthly'},
         # Tool pages
-        {'url': f"{DOMAIN}/resources/tools/commercial-property-loan-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/tools/second-mortgage-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/tools/commercial-real-estate-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/tools/asset-finance-roi-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/tools/working-capital-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/tools/loan-comparison-tool", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools/commercial-property-loan-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools/second-mortgage-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools/commercial-real-estate-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools/asset-finance-roi-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools/working-capital-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools/loan-comparison-tool", 'priority': '0.6', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/tools/bridging-loan-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
     ]
     
     # Get all articles from content directories

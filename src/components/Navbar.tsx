@@ -17,7 +17,7 @@ const Navbar = () => {
   const resourcesLinks = [
     { href: "/resources/guides", label: "Guides" },
     { href: "/resources/case-studies", label: "Case Studies" },
-    { href: "/resources/tools", label: "Tools & Calculators" },
+    { href: "/tools", label: "Tools & Calculators" },
     { href: "/resources/glossary", label: "Glossary" },
     { href: "/resources/faqs", label: "FAQs" },
     { href: "/resources/insights", label: "Market Insights" },
