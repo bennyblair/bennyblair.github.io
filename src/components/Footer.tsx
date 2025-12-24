@@ -46,11 +46,11 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center text-muted-foreground">
                 <Phone className="w-4 h-4 mr-2 text-accent" />
-                <span>1300 000 000</span>
+                <span>0485 952 651</span>
               </li>
               <li className="flex items-center text-muted-foreground">
                 <Mail className="w-4 h-4 mr-2 text-accent" />
-                <span>info@emetcapital.com.au</span>
+                <span>enquiry@emetcapital.com.au</span>
               </li>
               <li className="flex items-center text-muted-foreground">
                 <MapPin className="w-4 h-4 mr-2 text-accent" />
