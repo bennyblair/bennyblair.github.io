@@ -284,7 +284,7 @@ International trade success often depends on access to appropriate financing and
 
 - [Working Capital Loans for SMEs](/guides/working-capital-loans-for-smes)
 - [Asset-Backed Lending Solutions](/services/asset-backed-lending)
-- [Invoice Finance in Australia: How Businesses Use It](/guides/invoice-finance-australia-how-businesses-use-it)
+- [Invoice Finance in Australia: How Businesses Use It](/resources/guides/invoice-finance-australia-complete-guide)
 - [Debt Consolidation Strategies](/services/debt-consolidation)
 
 ---
