@@ -95,13 +95,13 @@ keywords:
 
 # The Best Bridging Loan Lenders & Finance Companies [2025]
 
-Choosing the right bridging loan lender can mean the difference between securing your property quickly or missing out on time-sensitive opportunities. With dozens of lenders offering [bridging finance](/guides/bridging-finance-australia-complete-property-guide) across Australia, the challenge isn't finding options—it's identifying which lender aligns with your specific situation, timeline, and borrowing capacity.
+Choosing the right bridging loan lender can mean the difference between securing your property quickly or missing out on time-sensitive opportunities. With dozens of lenders offering [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) across Australia, the challenge isn't finding options—it's identifying which lender aligns with your specific situation, timeline, and borrowing capacity.
 
 Bridging loans serve a unique purpose in property finance. They're short-term funding solutions that help you purchase a new property before selling your existing one, cover auction deposits, or complete time-critical renovations. Unlike traditional mortgages that take 4-6 weeks to settle, bridging finance can be approved and funded within 7-14 days when you're working with the right lender. Emet Capital provides [bridging finance solutions](/services/bridging-finance) designed for time-sensitive commercial property transactions.
 
-The Australian bridging loan market has evolved significantly in recent years. Major banks have largely stepped back from this space, leaving specialist lenders and [private funders](/guides/what-is-private-lending-australia) to fill the gap. This shift has created a diverse landscape where rates, LVR limits, and approval criteria vary dramatically. A Melbourne developer might secure bridging finance at 8.9% from one lender, while a Brisbane investor with similar circumstances faces 12.5% rates elsewhere.
+The Australian bridging loan market has evolved significantly in recent years. Major banks have largely stepped back from this space, leaving specialist lenders and [private funders](/resources/guides/what-is-private-lending-australia) to fill the gap. This shift has created a diverse landscape where rates, LVR limits, and approval criteria vary dramatically. A Melbourne developer might secure bridging finance at 8.9% from one lender, while a Brisbane investor with similar circumstances faces 12.5% rates elsewhere.
 
-This comprehensive guide examines Australia's leading bridging loan lenders for 2025, comparing their rates, approval speeds, LVR limits, and ideal borrower profiles. Whether you're bridging between residential properties, funding [commercial acquisitions](/guides/commercial-property-loans-australia-complete-guide), or managing development projects, understanding your lender options is crucial for making informed financing decisions.
+This comprehensive guide examines Australia's leading bridging loan lenders for 2025, comparing their rates, approval speeds, LVR limits, and ideal borrower profiles. Whether you're bridging between residential properties, funding [commercial acquisitions](/resources/guides/commercial-property-loans-australia-complete-guide), or managing development projects, understanding your lender options is crucial for making informed financing decisions.
 
 ## Understanding the Bridging Loan Market in 2025
 
@@ -127,7 +127,7 @@ Qualitas dominates the commercial bridging space, providing loans from $2 millio
 
 MaxCap provides commercial bridging finance from $3 million to $100 million+, focusing on investment-grade commercial properties and development projects. Their rates range from 8.95-12.50% with LVRs reaching 75% for quality assets. MaxCap's strength lies in their speed for large transactions—they've settled $20 million+ deals within 10 business days when documentation is prepared. They prefer borrowers with property development or commercial investment experience.
 
-Thinktank specialises in commercial bridging loans from $1 million to $30 million, with particular strength in the $2-10 million range. Their rates span 9.95-13.50% with LVRs up to 70%, and they're known for pragmatic risk assessment. Approval timeframes run 10-21 days, and Thinktank excels at bridging finance for [business acquisitions](/guides/business-acquisition-finance-australia), commercial property purchases, or development opportunities requiring quick action.
+Thinktank specialises in commercial bridging loans from $1 million to $30 million, with particular strength in the $2-10 million range. Their rates span 9.95-13.50% with LVRs up to 70%, and they're known for pragmatic risk assessment. Approval timeframes run 10-21 days, and Thinktank excels at bridging finance for [business acquisitions](/resources/guides/business-acquisition-finance-australia), commercial property purchases, or development opportunities requiring quick action.
 
 ## Private Bridging Loan Providers
 
@@ -143,9 +143,9 @@ Shift Capital provides private bridging finance from $300,000 to $5 million, spe
 
 Your property type significantly influences which lenders suit your situation. Residential bridging between houses or apartments under $3 million typically works best with specialist lenders like Bridgit, LaTrobe Financial, or Pepper Money where rates are most competitive. Commercial properties, development sites, or mixed-use assets require commercial specialists like Qualitas, MaxCap, or Thinktank who understand these asset classes.
 
-Your timeline determines whether you can use traditional specialists (7-14 days) or need private lenders who settle within 3-7 days. If you're bidding at [auction with 30 days to settle](/guides/commercial-bridging-finance-auction-purchases), you have time for proper specialist lender assessment. If you need 14-day settlement without arranged finance, you're in private lender territory despite the higher rates.
+Your timeline determines whether you can use traditional specialists (7-14 days) or need private lenders who settle within 3-7 days. If you're bidding at [auction with 30 days to settle](/resources/guides/commercial-bridging-finance-auction-purchases), you have time for proper specialist lender assessment. If you need 14-day settlement without arranged finance, you're in private lender territory despite the higher rates.
 
-Credit history influences which lenders will consider your application. Clean credit with no defaults opens all options. Minor defaults push you toward flexible specialists like Bluestone or Pepper Money. Serious credit impairments—recent bankruptcies or multiple defaults—mean [private lenders](/guides/private-lenders-for-mortgages) become your primary option.
+Credit history influences which lenders will consider your application. Clean credit with no defaults opens all options. Minor defaults push you toward flexible specialists like Bluestone or Pepper Money. Serious credit impairments—recent bankruptcies or multiple defaults—mean [private lenders](/resources/guides/private-lenders-for-mortgages) become your primary option.
 
 Exit strategy clarity affects lender interest and rates. Having a signed sale contract on your existing property or confirmed refinance pre-approval positions you strongly with all lenders. Vague plans like "we'll sell eventually" make lenders nervous, potentially increasing rates or reducing LVRs.
 
@@ -179,7 +179,7 @@ Most bridging loans include provisions for extensions, typically 3-6 months beyo
 
 ### Are bridging loans only for property purchases or can I use them for other purposes?
 
-While purchasing before selling is the classic scenario, bridging loans fund numerous purposes: renovation costs before refinancing, auction deposits, commercial property settlements, business [working capital](/guides/working-capital-loans-for-smes) secured by property, and development costs before [construction finance](/guides/construction-finance-australia-complete-guide). Some lenders offer "closed bridging" where funds must purchase specific property, while others provide "open bridging" for flexible use. Commercial and private lenders are generally more flexible about loan purpose than residential specialists who prefer clear property transactions.
+While purchasing before selling is the classic scenario, bridging loans fund numerous purposes: renovation costs before refinancing, auction deposits, commercial property settlements, business [working capital](/resources/guides/working-capital-loans-for-smes) secured by property, and development costs before [construction finance](/resources/guides/construction-finance-australia-complete-guide). Some lenders offer "closed bridging" where funds must purchase specific property, while others provide "open bridging" for flexible use. Commercial and private lenders are generally more flexible about loan purpose than residential specialists who prefer clear property transactions.
 
 ### How do lenders assess exit strategy viability?
 

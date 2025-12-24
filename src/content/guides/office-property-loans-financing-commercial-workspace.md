@@ -174,7 +174,7 @@ Private lending suits specific scenarios: purchasing off-market opportunities re
 
 ### SMSF Office Property Investment
 
-Self-managed superannuation funds can purchase office property, including premises you occupy for your own business, though strict regulations apply. [SMSF loans for commercial property](/guides/smsf-loans-for-commercial-property) require limited recourse borrowing arrangements (LRBA) with slightly different terms—typically 70% LVR maximum, interest rates 0.3% to 0.5% higher than conventional commercial loans, and loan terms capped at 15 years.
+Self-managed superannuation funds can purchase office property, including premises you occupy for your own business, though strict regulations apply. [SMSF loans for commercial property](/resources/guides/smsf-loans-for-commercial-property) require limited recourse borrowing arrangements (LRBA) with slightly different terms—typically 70% LVR maximum, interest rates 0.3% to 0.5% higher than conventional commercial loans, and loan terms capped at 15 years.
 
 Using your SMSF to purchase office space your business leases provides potential tax benefits, with rental payments from your business flowing into your tax-advantaged superannuation environment. However, lease terms must reflect market rates, and you can't artificially structure arrangements to benefit yourself over other SMSF members. The property must also satisfy the sole purpose test—acquiring and holding assets to provide retirement benefits.
 
@@ -190,7 +190,7 @@ Once you've successfully acquired and operated an office property, refinancing a
 
 ### Optimal Refinancing Triggers
 
-Several circumstances justify [commercial property refinancing solutions](/guides/commercial-property-refinancing-solutions) for office investments. Firstly, significant improvements in property performance—increased occupancy, rental growth, or extended lease terms—might support higher valuations enabling equity release. An office building purchased at $3 million that you've since improved through renovations and tenant upgrades might revalue at $3.6 million, creating $600,000 additional equity at 70% LVR.
+Several circumstances justify [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) for office investments. Firstly, significant improvements in property performance—increased occupancy, rental growth, or extended lease terms—might support higher valuations enabling equity release. An office building purchased at $3 million that you've since improved through renovations and tenant upgrades might revalue at $3.6 million, creating $600,000 additional equity at 70% LVR.
 
 Market interest rate changes also trigger refinancing opportunities. If you've held an office property for three years at 8% interest and current competitive rates sit around 6.5%, refinancing could save $45,000 annually on a $3 million loan. However, break costs on fixed-rate loans can be substantial—sometimes exceeding the first year's interest savings—so calculate total costs carefully before proceeding.
 
@@ -244,7 +244,7 @@ Before proceeding with any office property acquisition, engage professionals inc
 
 Discuss their fee structure upfront—brokers may receive commission from lenders, charge fees directly to clients, or use a combination of both models.
 
-Ready to explore [commercial property loans in Australia](/guides/commercial-property-loans-australia-complete-guide) for your office investment? Proper preparation and expert guidance position you for successful acquisition and long-term investment performance in Australia's commercial workspace sector.
+Ready to explore [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) for your office investment? Proper preparation and expert guidance position you for successful acquisition and long-term investment performance in Australia's commercial workspace sector.
 
 **Disclaimer:** This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.
 

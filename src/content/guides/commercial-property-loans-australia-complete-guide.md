@@ -56,7 +56,7 @@ Commercial property loans typically require loan-to-value ratios of 60-70%, mean
 
 Premium properties in prime locations with strong tenant covenants may achieve 75-80% LVR from select lenders, though these arrangements typically involve interest rate premiums and stricter assessment criteria. Owner-occupier premises often achieve higher ratios than investment properties due to reduced vacancy risk.
 
-Lower loan-to-value ratios typically achieve better interest rates, with rate differentials of 0.25-1% frequently applying between 60% and 70% LVR loans. Conservative borrowing approaches provide protection against property value fluctuations and enhance refinancing flexibility. For property owners seeking to optimise existing loans, [commercial property refinancing](/guides/commercial-property-refinancing-solutions) enables accessing improved terms or additional capital.
+Lower loan-to-value ratios typically achieve better interest rates, with rate differentials of 0.25-1% frequently applying between 60% and 70% LVR loans. Conservative borrowing approaches provide protection against property value fluctuations and enhance refinancing flexibility. For property owners seeking to optimise existing loans, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) enables accessing improved terms or additional capital.
 
 ## Interest Rates and Loan Structures
 
@@ -90,13 +90,13 @@ Personal documents include director tax returns, asset and liability statements,
 
 Initial assessment typically occurs within 5-7 business days, with preliminary approval subject to satisfactory property valuation and detailed documentation review. Formal approval follows comprehensive due diligence requiring 4-6 weeks depending on transaction complexity.
 
-Property valuation represents a critical milestone, with independent valuers determining market value and lending security. Valuation outcomes significantly influence loan amounts, with properties valuing below purchase prices requiring additional deposit or transaction renegotiation. For transactions requiring faster completion, [bridging finance](/guides/bridging-finance-australia-complete-property-guide) may provide interim funding solutions.
+Property valuation represents a critical milestone, with independent valuers determining market value and lending security. Valuation outcomes significantly influence loan amounts, with properties valuing below purchase prices requiring additional deposit or transaction renegotiation. For transactions requiring faster completion, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may provide interim funding solutions.
 
 ## Security Requirements and Guarantees
 
 Commercial property loans involve registered first mortgages over financed properties, giving lenders priority claim over assets in default situations. Most loans require director personal guarantees for company borrowers, extending lender recourse to guarantor personal assets beyond secured property holdings.
 
-Cross-collateralisation using multiple properties as security enables higher borrowing capacity and supports portfolio growth. However, this approach creates interconnected security where default risks extend across portfolios and individual property sales require lender consent. Understanding [first and second mortgages](/guides/first-and-second-mortgages-for-business) helps businesses evaluate security structures appropriately.
+Cross-collateralisation using multiple properties as security enables higher borrowing capacity and supports portfolio growth. However, this approach creates interconnected security where default risks extend across portfolios and individual property sales require lender consent. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) helps businesses evaluate security structures appropriately.
 
 ## Lender Selection Strategies
 
@@ -104,7 +104,7 @@ Major banks including Commonwealth Bank, Westpac, ANZ, and NAB dominate commerci
 
 Regional banks including Bendigo Bank and Bank of Queensland provide alternative options with flexible assessment approaches and personalised service. Decision-making processes often involve localised authority and faster turnaround than major banks navigating complex approval hierarchies.
 
-Specialist non-bank lenders fill market gaps where bank lending criteria prove restrictive, charging interest premiums of 1-3% above bank rates but offering flexible assessment for complex properties or developing businesses. For very urgent property financing needs, [caveat loans](/guides/caveat-loans-australia-complete-guide) offer rapid funding solutions.
+Specialist non-bank lenders fill market gaps where bank lending criteria prove restrictive, charging interest premiums of 1-3% above bank rates but offering flexible assessment for complex properties or developing businesses. For very urgent property financing needs, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer rapid funding solutions.
 
 ## Common Challenges and Solutions
 
@@ -112,7 +112,7 @@ Serviceability shortfalls represent the most common decline reason, addressable 
 
 Property valuations below purchase prices create funding gaps requiring additional deposit contributions or price renegotiations. Obtaining independent pre-purchase valuations helps identify potential issues before contract commitment, while alternative lenders may apply different valuation methodologies.
 
-Complex ownership structures including trusts and partnerships require careful consideration of lending entities and security arrangements. Some lenders restrict trust lending or apply additional requirements including corporate trustees, with professional legal advice ensuring appropriate structure selection. Complex acquisitions may benefit from [business acquisition finance](/guides/business-acquisition-finance-australia) products designed for corporate transactions.
+Complex ownership structures including trusts and partnerships require careful consideration of lending entities and security arrangements. Some lenders restrict trust lending or apply additional requirements including corporate trustees, with professional legal advice ensuring appropriate structure selection. Complex acquisitions may benefit from [business acquisition finance](/resources/guides/business-acquisition-finance-australia) products designed for corporate transactions.
 
 ## Tax Considerations
 
@@ -188,11 +188,11 @@ Professional advice from experienced commercial finance brokers, lawyers, and ac
 
 ## Related Guides
 
-- [Commercial Property Refinancing Solutions in Australia](/guides/commercial-property-refinancing-solutions)
-- [Bridging Finance in Australia: The Complete Property Guide](/guides/bridging-finance-australia-complete-property-guide)
-- [Construction Finance in Australia: The Complete Guide for Commercial Builds](/guides/construction-finance-australia-complete-guide)
-- [Commercial Property Development Finance: A Complete Guide](/guides/commercial-property-development-finance)
-- [SMSF Loans for Commercial Property: The Complete Guide](/guides/smsf-loans-for-commercial-property)
-- [Caveat Loans in Australia: The Complete Guide for Fast Property Finance](/guides/caveat-loans-australia-complete-guide)
-- [1st & 2nd Mortgages for Business: The Definitive Guide](/guides/first-and-second-mortgages-for-business)
-- [Business Acquisition Finance in Australia: A Complete Guide](/guides/business-acquisition-finance-australia)
+- [Commercial Property Refinancing Solutions in Australia](/resources/guides/commercial-property-refinancing-solutions)
+- [Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
+- [Construction Finance in Australia: The Complete Guide for Commercial Builds](/resources/guides/construction-finance-australia-complete-guide)
+- [Commercial Property Development Finance: A Complete Guide](/resources/guides/commercial-property-development-finance)
+- [SMSF Loans for Commercial Property: The Complete Guide](/resources/guides/smsf-loans-for-commercial-property)
+- [Caveat Loans in Australia: The Complete Guide for Fast Property Finance](/resources/guides/caveat-loans-australia-complete-guide)
+- [1st & 2nd Mortgages for Business: The Definitive Guide](/resources/guides/first-and-second-mortgages-for-business)
+- [Business Acquisition Finance in Australia: A Complete Guide](/resources/guides/business-acquisition-finance-australia)

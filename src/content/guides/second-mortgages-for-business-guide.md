@@ -33,7 +33,7 @@ Compare second mortgage costs against equipment finance alternatives. Equipment 
 
 ### Business Acquisition Funding
 
-[Business acquisition finance in Australia](/guides/business-acquisition-finance-australia) sometimes involves second mortgages when buyers can't secure sufficient traditional lending for purchase prices. A Brisbane hospitality operator acquiring a competitor for $1.2 million might structure: $600,000 first mortgage, $300,000 second mortgage, $300,000 equity—enabling acquisition that $600,000 bank lending alone couldn't achieve.
+[Business acquisition finance in Australia](/resources/guides/business-acquisition-finance-australia) sometimes involves second mortgages when buyers can't secure sufficient traditional lending for purchase prices. A Brisbane hospitality operator acquiring a competitor for $1.2 million might structure: $600,000 first mortgage, $300,000 second mortgage, $300,000 equity—enabling acquisition that $600,000 bank lending alone couldn't achieve.
 
 Acquisition economics must support both first and second mortgage debt service. If the acquired business generates $180,000 EBITDA, first mortgage at 7% costs $42,000, second mortgage at 12% costs $36,000, totalling $78,000 (43% of EBITDA). This leaves reasonable buffer, though any performance deterioration quickly creates stress. Conversely, if EBITDA is only $120,000, combined debt service of $78,000 (65% of EBITDA) leaves insufficient margin for working capital, growth investment, or unexpected challenges.
 
@@ -41,7 +41,7 @@ Acquisition economics must support both first and second mortgage debt service. 
 
 Businesses with expensive debts—merchant cash advances at 30% to 40% effective rates, credit cards at 18% to 22%, or multiple equipment loans at 14% to 16%—sometimes consolidate through second mortgages at 10% to 14%. A Perth manufacturer with $250,000 expensive debt costing $52,000 annually (21% average rate) could consolidate through $250,000 second mortgage at 12% costing $30,000 annually—saving $22,000 whilst simplifying multiple payments into single monthly obligations.
 
-However, [business debt consolidation in Australia](/guides/business-debt-consolidation-australia) through second mortgages converts unsecured debt into secured obligations—defaulting now risks property loss rather than just credit damage. Only consolidate when confident you'll maintain payments and when root causes of original debt accumulation have been addressed. Consolidating without fixing underlying cash flow problems simply creates breathing room before accumulating new expensive debt alongside the second mortgage.
+However, [business debt consolidation in Australia](/resources/guides/business-debt-consolidation-australia) through second mortgages converts unsecured debt into secured obligations—defaulting now risks property loss rather than just credit damage. Only consolidate when confident you'll maintain payments and when root causes of original debt accumulation have been addressed. Consolidating without fixing underlying cash flow problems simply creates breathing room before accumulating new expensive debt alongside the second mortgage.
 
 ## Calculating True Costs and ROI
 

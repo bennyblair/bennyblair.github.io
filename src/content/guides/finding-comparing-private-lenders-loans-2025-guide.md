@@ -13,7 +13,7 @@ readingTime: 18
 
 Private lenders loans provide essential funding when traditional banks decline or can't meet business timelines, but navigating the diverse private lending market requires systematic comparison approaches to secure competitive terms whilst avoiding predatory operators. The Australian private lending landscape comprises hundreds of non-bank lenders, private investment funds, and individual high-net-worth lenders—each with distinct risk appetites, pricing structures, and service standards. A Melbourne business owner seeking $300,000 working capital might receive quotes ranging from 10% to 24% annually with establishment fees varying from 1% to 5%, creating total cost differences exceeding $40,000 over a 24-month term.
 
-The challenge extends beyond simply finding lowest interest rates. Reputable private lenders deliver transparent pricing, responsive service, reasonable terms, and professional conduct—factors that matter enormously when urgent funding needs arise. Understanding how to evaluate [what is private lending](/guides/what-is-private-lending-australia) options comprehensively—examining total costs, lender reputations, term flexibility, and service quality alongside base interest rates—helps businesses secure funding that genuinely solves problems rather than creating new ones.
+The challenge extends beyond simply finding lowest interest rates. Reputable private lenders deliver transparent pricing, responsive service, reasonable terms, and professional conduct—factors that matter enormously when urgent funding needs arise. Understanding how to evaluate [what is private lending](/resources/guides/what-is-private-lending-australia) options comprehensively—examining total costs, lender reputations, term flexibility, and service quality alongside base interest rates—helps businesses secure funding that genuinely solves problems rather than creating new ones.
 
 This 2025 guide provides systematic methodology for finding, evaluating, and comparing private lenders loans across key decision factors. Whether seeking secured property lending, equipment finance, working capital facilities, or acquisition funding, these comparison approaches help you make informed decisions securing competitive private financing whilst avoiding costly mistakes. Emet Capital provides [private lending solutions](/services/private-lending) for businesses seeking flexible, fast finance options.
 
@@ -85,7 +85,7 @@ Question lenders about approval timelines, documentation requirements, and decis
 
 ## Comparing Specific Loan Types
 
-Private lenders loans vary dramatically by purpose and structure. Comparison approaches differ across property-secured lending, equipment finance, [working capital loans for Australian SMEs](/guides/working-capital-loans-for-smes), and receivables finance—each requiring specific evaluation criteria.
+Private lenders loans vary dramatically by purpose and structure. Comparison approaches differ across property-secured lending, equipment finance, [working capital loans for Australian SMEs](/resources/guides/working-capital-loans-for-smes), and receivables finance—each requiring specific evaluation criteria.
 
 ### Property-Secured Private Loans
 
@@ -107,7 +107,7 @@ Consider whether facilities are revolving or term loans. Revolving facilities en
 
 ### Invoice and Receivables Finance
 
-[Invoice finance in Australia](/guides/invoice-finance-australia-complete-guide) typically costs 1% to 3% monthly advancing 70% to 90% of invoice values. Compare whether facilities are disclosed (customers know you're using invoice finance) or confidential. Confidential facilities typically cost 0.3% to 0.5% monthly more.
+[Invoice finance in Australia](/resources/guides/invoice-finance-australia-complete-guide) typically costs 1% to 3% monthly advancing 70% to 90% of invoice values. Compare whether facilities are disclosed (customers know you're using invoice finance) or confidential. Confidential facilities typically cost 0.3% to 0.5% monthly more.
 
 Assess minimum monthly fees and usage charges—some lenders impose $500 to $2,000 monthly minimums regardless of actual facility usage. Calculate total costs based on your realistic usage rather than best-case scenarios.
 

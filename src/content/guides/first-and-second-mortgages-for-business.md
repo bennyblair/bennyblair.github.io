@@ -32,7 +32,7 @@ Principal and interest repayments are standard, though interest-only periods may
 
 Industrial properties, office buildings, retail spaces, and mixed-use developments all qualify for first mortgage financing. Lenders evaluate factors including location, tenant quality, lease terms, and property condition when determining lending parameters.
 
-Manufacturing facilities and warehouses often secure favourable terms due to their stable income potential and broad market appeal. Office buildings in prime locations typically achieve higher LVR ratios, while specialty properties may face more conservative lending criteria. For businesses seeking to optimize existing property debt structures, [commercial property refinancing](/guides/commercial-property-refinancing-solutions) provides strategic alternatives to traditional mortgage structures.
+Manufacturing facilities and warehouses often secure favourable terms due to their stable income potential and broad market appeal. Office buildings in prime locations typically achieve higher LVR ratios, while specialty properties may face more conservative lending criteria. For businesses seeking to optimize existing property debt structures, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) provides strategic alternatives to traditional mortgage structures.
 
 ## Second Mortgages: Accessing Additional Capital
 
@@ -48,7 +48,7 @@ The combined LVR of first and second mortgages generally cannot exceed 80-85% of
 
 Businesses can access additional capital without refinancing existing first mortgages that may have favourable terms or prepayment penalties. This approach preserves established banking relationships while providing supplementary funding for growth initiatives.
 
-Second mortgages often feature faster approval processes than complete refinancing, as lenders focus primarily on equity position and repayment capacity rather than comprehensive property revaluation and legal documentation updates. For urgent funding needs, [bridging finance](/guides/bridging-finance-australia-complete-property-guide) provides short-term solutions, while [caveat loans](/guides/caveat-loans-australia-complete-guide) offer rapid access through simplified structures.
+Second mortgages often feature faster approval processes than complete refinancing, as lenders focus primarily on equity position and repayment capacity rather than comprehensive property revaluation and legal documentation updates. For urgent funding needs, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) provides short-term solutions, while [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer rapid access through simplified structures.
 
 ## Loan-to-Value Ratios and Equity Requirements
 
@@ -112,7 +112,7 @@ The business requires $540,000 in additional funding for the balance of purchase
 
 A second mortgage lender provides $490,000 (bringing combined LVR to 80%) at 10% interest with a 3-year term. Interest-only payments of approximately $4,080 monthly are manageable within the property's cash flow, with principal repayment planned through business cash flow or refinancing.
 
-This structure allows property acquisition with manageable debt service while preserving business working capital for operations and growth initiatives. For Self-Managed Super Funds considering commercial property investment, [SMSF loans](/guides/smsf-loans-for-commercial-property) provide specialized mortgage structures complying with superannuation legislation.
+This structure allows property acquisition with manageable debt service while preserving business working capital for operations and growth initiatives. For Self-Managed Super Funds considering commercial property investment, [SMSF loans](/resources/guides/smsf-loans-for-commercial-property) provide specialized mortgage structures complying with superannuation legislation.
 
 ## Application Process and Documentation Requirements
 
@@ -188,7 +188,7 @@ Understanding the risk-return relationship between these mortgage types enables 
 
 Successful implementation requires careful consideration of combined loan-to-value ratios, debt service capacity, and exit strategies. Professional advice helps navigate the complexities of inter-creditor relationships, security documentation, and optimal structuring for individual business circumstances.
 
-The Australian commercial lending market offers sophisticated first and second mortgage products through banks, non-bank lenders, and [private capital sources](/guides/what-is-private-lending-australia). Businesses that understand these fundamental financing tools can access competitive capital solutions while maintaining financial flexibility and preserving existing banking relationships for their strategic growth objectives.
+The Australian commercial lending market offers sophisticated first and second mortgage products through banks, non-bank lenders, and [private capital sources](/resources/guides/what-is-private-lending-australia). Businesses that understand these fundamental financing tools can access competitive capital solutions while maintaining financial flexibility and preserving existing banking relationships for their strategic growth objectives.
 
 ---
 

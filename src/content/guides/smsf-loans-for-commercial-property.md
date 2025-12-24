@@ -163,7 +163,7 @@ Small office buildings, medical centres, and professional suites offer accessibl
 
 Industrial properties including warehouses, manufacturing facilities, and distribution centres typically offer higher rental yields than office buildings while requiring less intensive management. These assets often feature longer lease terms and established tenant relationships providing stable cash flows.
 
-Location near transport infrastructure, industrial estates, or manufacturing hubs enhances property values and tenant appeal. However, industrial properties may face higher vacancy risks and require specialist knowledge for effective management and valuation. For commercial property investors outside superannuation, [commercial property refinancing](/guides/commercial-property-refinancing-solutions) offers strategies to optimize property debt structures.
+Location near transport infrastructure, industrial estates, or manufacturing hubs enhances property values and tenant appeal. However, industrial properties may face higher vacancy risks and require specialist knowledge for effective management and valuation. For commercial property investors outside superannuation, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) offers strategies to optimize property debt structures.
 
 ### Retail Commercial Properties
 

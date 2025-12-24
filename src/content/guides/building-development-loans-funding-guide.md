@@ -106,11 +106,11 @@ For property developers, securing appropriate building development loans represe
 
 Understanding how building development loans work—from initial land purchase through to practical completion—helps developers navigate the financing process effectively and maintain healthy project cash flow. The staged funding approach protects both lenders and developers by ensuring capital is released only as value is created through construction progress, reducing risk while maintaining project momentum.
 
-This guide examines every aspect of [building development loans for Australian developers](/guides/commercial-property-development-finance), from understanding funding stages and eligibility requirements through to application strategies and managing draw-down schedules throughout your project. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for developers seeking flexible funding solutions.
+This guide examines every aspect of [building development loans for Australian developers](/resources/guides/commercial-property-development-finance), from understanding funding stages and eligibility requirements through to application strategies and managing draw-down schedules throughout your project. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for developers seeking flexible funding solutions.
 
 ## Understanding Building Development Loans
 
-Building development loans are specialised financial products designed specifically for property development projects, structured to fund construction progressively rather than providing full capital at settlement. These loans differ fundamentally from standard [commercial property loans](/guides/commercial-property-loans-australia-complete-guide) by recognising that property value increases incrementally as construction progresses, with funding released to match that value creation.
+Building development loans are specialised financial products designed specifically for property development projects, structured to fund construction progressively rather than providing full capital at settlement. These loans differ fundamentally from standard [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) by recognising that property value increases incrementally as construction progresses, with funding released to match that value creation.
 
 Development finance typically operates on a two-stage structure combining land acquisition funding with progressive construction funding. The land component is advanced at settlement, while construction funds are released in stages as the building work reaches predetermined milestones verified by quantity surveyors or bank valuers who confirm work completion before each draw-down.
 
@@ -160,7 +160,7 @@ Frame stage funding is usually the largest single draw-down in the development p
 
 Developers need to maintain careful coordination between construction progress and funding draw-downs during this stage, as the capital requirements are substantial and delays in funding release can quickly halt construction progress. Having all documentation prepared—quantity surveyor certificates, builder progress claims, council inspection approvals—accelerates the draw-down process.
 
-The frame and roof stage represents a critical milestone for presales, as potential buyers can visualise the completed building and make purchase decisions with greater confidence. For [construction finance projects](/guides/construction-finance-australia-complete-guide), achieving frame stage on schedule significantly de-risks the remainder of the project.
+The frame and roof stage represents a critical milestone for presales, as potential buyers can visualise the completed building and make purchase decisions with greater confidence. For [construction finance projects](/resources/guides/construction-finance-australia-complete-guide), achieving frame stage on schedule significantly de-risks the remainder of the project.
 
 ### Stage Four: Lock-Up and Fixing
 
@@ -178,7 +178,7 @@ Practical completion represents the final stage where the building is finished, 
 
 Before releasing practical completion funding, lenders require occupation certificates, building certifier sign-off, and often a final valuation confirming the completed building meets the projected end value that formed the basis for the loan approval. Any defects or incomplete work must be addressed before this final funding stage is released.
 
-Practical completion marks the transition from construction phase to either hold or sale phase, depending on the developer's strategy. If selling immediately, practical completion enables unconditional sales to settle and loan repayment to commence. If holding for rental income, the property can be leased and potentially [refinanced to permanent commercial finance](/guides/commercial-property-refinancing-solutions).
+Practical completion marks the transition from construction phase to either hold or sale phase, depending on the developer's strategy. If selling immediately, practical completion enables unconditional sales to settle and loan repayment to commence. If holding for rental income, the property can be leased and potentially [refinanced to permanent commercial finance](/resources/guides/commercial-property-refinancing-solutions).
 
 The practical completion stage is when the project's success becomes definitively measurable—final costs are tallied, sale prices are achieved (or rental income commences), and profit margins are realised. For developers planning multiple projects, successfully completing this stage establishes track record and experience that improves access to building development loans for future projects.
 

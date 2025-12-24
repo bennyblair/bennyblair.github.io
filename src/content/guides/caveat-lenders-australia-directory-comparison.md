@@ -36,7 +36,7 @@ Fintech-based lenders have entered the caveat market in recent years, applying t
 
 Specialist non-bank institutions occupy the space between private lenders and fintech platforms, offering commercial finance products including caveat loans as part of broader property and development finance services. These lenders combine institutional processes with flexibility that deposit-taking banks cannot match, serving experienced property investors and developers.
 
-Understanding [what is private lending](/guides/what-is-private-lending-australia) provides broader context on how these alternative lenders operate compared to traditional banking institutions. Emet Capital offers [caveat loan solutions](/services/caveat-loans) for businesses requiring urgent property-secured funding.
+Understanding [what is private lending](/resources/guides/what-is-private-lending-australia) provides broader context on how these alternative lenders operate compared to traditional banking institutions. Emet Capital offers [caveat loan solutions](/services/caveat-loans) for businesses requiring urgent property-secured funding.
 
 ### Geographic Coverage and Service Areas
 
@@ -96,7 +96,7 @@ Specialist non-bank lenders excel at commercial property scenarios including off
 
 Ongoing relationships with specialist lenders often evolve into broader banking relationships, with successful caveat loans leading to development finance facilities, commercial property mortgages, or investment loan arrangements. This relationship potential adds strategic value beyond immediate caveat loan terms.
 
-For businesses exploring different property-secured funding options, understanding [caveat loans in Australia](/guides/caveat-loans-australia-complete-guide) provides comprehensive context on how these urgent finance facilities work across all lender types.
+For businesses exploring different property-secured funding options, understanding [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) provides comprehensive context on how these urgent finance facilities work across all lender types.
 
 ## Caveat Lender Comparison Framework
 
@@ -146,7 +146,7 @@ Loan amounts under $500,000 for standard residential properties in major cities 
 
 Larger emergency funding or complex property security situations require private lenders offering human judgment and relationship-based decision making. A Brisbane manufacturer needed $750,000 within 48 hours against their commercial premises to cover unexpected equipment failure repairs preventing production—a private lender assessed the situation overnight and settled next day, while fintech platforms declined due to commercial property and loan size.
 
-For businesses exploring whether caveat loans or other structures suit their working capital needs, comparing [bridging finance in Australia](/guides/bridging-finance-australia-complete-property-guide) options helps identify the most appropriate urgent funding solution.
+For businesses exploring whether caveat loans or other structures suit their working capital needs, comparing [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) options helps identify the most appropriate urgent funding solution.
 
 ### Property Investment and Development Funding
 

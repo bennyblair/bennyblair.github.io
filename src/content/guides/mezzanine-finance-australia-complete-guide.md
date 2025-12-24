@@ -42,7 +42,7 @@ Payment-in-kind (PIK) interest options allow interest capitalization rather than
 
 Higher costs than senior debt reflect subordinated positions and enhanced risk, with mezzanine typically costing 12-20% compared to senior debt at 5-10%, though remaining less expensive than equity returns typically targeting 20-30% annually.
 
-For businesses exploring broader capital structures, understanding [business acquisition finance](/guides/business-acquisition-finance-australia) provides context on how mezzanine integrates with senior debt and equity in comprehensive acquisition funding packages.
+For businesses exploring broader capital structures, understanding [business acquisition finance](/resources/guides/business-acquisition-finance-australia) provides context on how mezzanine integrates with senior debt and equity in comprehensive acquisition funding packages.
 
 Less dilutive than pure equity enables founders and existing shareholders to maintain greater ownership percentages compared to equity funding requirements, preserving control while accessing substantial capital for growth or acquisitions.
 
@@ -88,7 +88,7 @@ Product development or innovation programs requiring substantial R&D investment 
 
 ### Working Capital for Rapid Growth
 
-High-growth businesses experiencing revenue acceleration require working capital for inventory, receivables, and operational expenses that mezzanine supplements beyond [working capital loans](/guides/working-capital-loans-for-smes) and senior facilities.
+High-growth businesses experiencing revenue acceleration require working capital for inventory, receivables, and operational expenses that mezzanine supplements beyond [working capital loans](/resources/guides/working-capital-loans-for-smes) and senior facilities.
 
 Contract wins or major customer acquisitions necessitating operational scaling before revenue collection occurs suit mezzanine's patient capital approach enabling infrastructure development supporting growth.
 
@@ -116,7 +116,7 @@ Dividend recapitalizations funded through mezzanine enable shareholder distribut
 
 Debt consolidation including multiple lender obligations, varied maturities, or complex covenant structures into streamlined mezzanine facilities simplifies financial management while potentially reducing overall costs.
 
-For businesses managing multiple debt facilities, understanding [business debt consolidation](/guides/business-debt-consolidation-australia) strategies helps evaluate when mezzanine-led restructuring provides optimal solutions compared to traditional consolidation approaches.
+For businesses managing multiple debt facilities, understanding [business debt consolidation](/resources/guides/business-debt-consolidation-australia) strategies helps evaluate when mezzanine-led restructuring provides optimal solutions compared to traditional consolidation approaches.
 
 Capital structure optimization replacing expensive equity or inflexible debt with appropriately structured mezzanine improves business financial efficiency while maintaining operational flexibility for strategic initiatives.
 
@@ -232,7 +232,7 @@ Information rights and reporting obligations create ongoing disclosure requireme
 
 Refinancing requirements at maturity demand planning throughout facility terms, with businesses developing senior debt capacity, equity value, or sale processes enabling mezzanine repayment.
 
-For businesses exploring permanent capital structures after growth phases, understanding [private lending](/guides/what-is-private-lending-australia) alternatives helps identify sustainable long-term financing beyond short-term mezzanine arrangements.
+For businesses exploring permanent capital structures after growth phases, understanding [private lending](/resources/guides/what-is-private-lending-australia) alternatives helps identify sustainable long-term financing beyond short-term mezzanine arrangements.
 
 Equity value realization for warrant holders requires liquidity events including sales, IPOs, or redemptions, creating alignment but also potential conflicts between lenders seeking exits and owners preferring continued business ownership.
 
@@ -304,10 +304,10 @@ The Australian mezzanine market provides essential growth capital infrastructure
 
 ## Related Guides
 
-- [Business Acquisition Finance Australia](/guides/business-acquisition-finance-australia)
-- [Working Capital Loans for SMEs](/guides/working-capital-loans-for-smes)
-- [Business Debt Consolidation Australia](/guides/business-debt-consolidation-australia)
-- [What is Private Lending Australia](/guides/what-is-private-lending-australia)
+- [Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)
+- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
+- [Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)
+- [What is Private Lending Australia](/resources/guides/what-is-private-lending-australia)
 
 ---
 

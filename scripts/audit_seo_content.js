@@ -33,7 +33,9 @@ const pillarArticles = [
     '/resources/guides/invoice-finance-australia-complete-guide',
     '/resources/guides/mezzanine-finance-australia-complete-guide',
     '/resources/guides/bridging-finance-australia-complete-property-guide',
-    '/resources/guides/private-commercial-real-estate-lenders-cre-directory'
+    '/resources/guides/private-commercial-real-estate-lenders-cre-directory',
+    '/resources/guides/second-mortgages-for-business-guide',
+    '/resources/guides/commercial-property-refinancing-solutions'
 ];
 
 function auditContent() {

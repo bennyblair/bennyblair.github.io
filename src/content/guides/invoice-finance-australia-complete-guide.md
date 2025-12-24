@@ -23,7 +23,7 @@ This comprehensive guide examines invoice finance options available to Australia
 
 ## Understanding Invoice Finance Fundamentals
 
-Invoice finance operates by purchasing or providing advances against outstanding customer invoices, converting accounts receivable into immediate cash flow while transferring collection responsibilities and credit risks to financing providers in many arrangements. For businesses with substantial physical assets, [asset-backed lending](/guides/asset-backed-lending-and-asset-finance) provides complementary funding using inventory and equipment as security.
+Invoice finance operates by purchasing or providing advances against outstanding customer invoices, converting accounts receivable into immediate cash flow while transferring collection responsibilities and credit risks to financing providers in many arrangements. For businesses with substantial physical assets, [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) provides complementary funding using inventory and equipment as security.
 
 ### Core Invoice Finance Concepts
 
@@ -55,7 +55,7 @@ Notification factoring involves informing customers about factoring arrangements
 
 ### Industry-Specific Factoring Solutions
 
-Healthcare factoring specializes in medical practice receivables including Medicare, private health insurance, and patient payment processing, addressing the unique collection challenges and regulatory requirements in healthcare industries. For broader operational funding needs, [working capital loans](/guides/working-capital-loans-for-smes) provide flexible solutions beyond receivables-based financing.
+Healthcare factoring specializes in medical practice receivables including Medicare, private health insurance, and patient payment processing, addressing the unique collection challenges and regulatory requirements in healthcare industries. For broader operational funding needs, [working capital loans](/resources/guides/working-capital-loans-for-smes) provide flexible solutions beyond receivables-based financing.
 
 Construction factoring manages progress payments, retention amounts, and subcontractor arrangements common in building and construction industries, providing working capital during extended project cycles and complex payment structures.
 
@@ -211,7 +211,7 @@ Professional advice from accountants, lawyers, and industry specialists helps na
 
 ## Alternative Cash Flow Solutions
 
-While invoice finance provides excellent cash flow solutions for many businesses, alternative approaches may be more suitable depending on specific circumstances, customer relationships, and strategic objectives. Understanding [debtor finance and supply chain finance](/guides/debtor-finance-supply-chain-finance-australia) provides broader context for receivables-based funding strategies. For import/export businesses, [trade finance](/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) offers specialized solutions for international transactions.
+While invoice finance provides excellent cash flow solutions for many businesses, alternative approaches may be more suitable depending on specific circumstances, customer relationships, and strategic objectives. Understanding [debtor finance and supply chain finance](/resources/guides/debtor-finance-supply-chain-finance-australia) provides broader context for receivables-based funding strategies. For import/export businesses, [trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) offers specialized solutions for international transactions.
 
 ### Traditional Banking Alternatives
 
@@ -235,7 +235,7 @@ Selective invoice finance combined with improved collection procedures provides 
 
 Trade credit insurance provides bad debt protection without cash flow benefits, potentially enabling bank lending arrangements that consider insured receivables in serviceability calculations.
 
-Supply chain financing arrangements with major customers can provide early payment opportunities while maintaining commercial relationships and potentially improving overall supply chain efficiency. For businesses with multiple funding needs, working capital loans provide alternative solutions, while [asset-backed lending](/guides/asset-backed-lending-and-asset-finance) can complement invoice finance for comprehensive funding strategies.
+Supply chain financing arrangements with major customers can provide early payment opportunities while maintaining commercial relationships and potentially improving overall supply chain efficiency. For businesses with multiple funding needs, working capital loans provide alternative solutions, while [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) can complement invoice finance for comprehensive funding strategies.
 
 ---
 
@@ -284,9 +284,9 @@ Some invoice finance providers work with newer businesses, focusing on customer 
 
 ## Related Guides
 
-- [Working Capital Loans for SMEs](/guides/working-capital-loans-for-smes)
-- [Asset-Backed Lending in Australia](/guides/asset-backed-lending-and-asset-finance)
-- [Business Debt Consolidation](/guides/business-debt-consolidation-australia)
+- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
+- [Asset-Backed Lending in Australia](/resources/guides/asset-backed-lending-and-asset-finance)
+- [Business Debt Consolidation](/resources/guides/business-debt-consolidation-australia)
 
 ## Conclusion
 

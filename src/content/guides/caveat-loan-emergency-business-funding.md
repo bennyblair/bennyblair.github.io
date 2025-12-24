@@ -183,7 +183,7 @@ Emergency caveat loans work best as short-term bridges whilst you implement long
 
 ### Developing Exit Strategies Before Borrowing
 
-Never arrange emergency caveat funding without a clear repayment plan. The monthly interest costs—often $2,000 to $5,000 on typical loan amounts—quickly become unsustainable if continued beyond six months. Before proceeding, identify specific actions that will generate repayment capacity: asset sales, [working capital loans](/guides/working-capital-loans-for-smes) with lower costs, major contract completions, or insurance claim settlements.
+Never arrange emergency caveat funding without a clear repayment plan. The monthly interest costs—often $2,000 to $5,000 on typical loan amounts—quickly become unsustainable if continued beyond six months. Before proceeding, identify specific actions that will generate repayment capacity: asset sales, [working capital loans](/resources/guides/working-capital-loans-for-smes) with lower costs, major contract completions, or insurance claim settlements.
 
 For instance, a Canberra IT business using $120,000 emergency caveat funding to settle ATO debt should simultaneously negotiate longer-term refinancing with traditional lenders or arrange payment plans for future tax obligations. The emergency loan buys time—perhaps 90 days—to secure conventional financing at 7% to 9% annually instead of 18% to 24% through the caveat loan. Without this exit strategy, the business simply exchanges ATO debt problems for unsustainable private lender debt.
 
@@ -193,7 +193,7 @@ Some borrowers use emergency caveat loans specifically to improve their position
 
 Emergency situations often signal deeper business issues requiring restructuring beyond immediate funding. Use the breathing space provided by caveat loans to implement meaningful operational changes addressing root causes rather than just symptoms. If poor cash flow management created the emergency, implement proper forecasting and debtor management whilst the emergency loan provides temporary relief.
 
-Consider whether [business debt consolidation](/guides/business-debt-consolidation-australia) makes sense once immediate emergencies are resolved. You might have multiple expensive debts—caveat loans, merchant cash advances, director loans—that could be consolidated into single structured facilities at lower overall cost. Some commercial lenders specialise in helping businesses emerge from emergency funding situations into sustainable long-term finance structures.
+Consider whether [business debt consolidation](/resources/guides/business-debt-consolidation-australia) makes sense once immediate emergencies are resolved. You might have multiple expensive debts—caveat loans, merchant cash advances, director loans—that could be consolidated into single structured facilities at lower overall cost. Some commercial lenders specialise in helping businesses emerge from emergency funding situations into sustainable long-term finance structures.
 
 Engage professional advisors during emergency periods—accountants, business consultants, or turnaround specialists who can objectively assess your business and recommend sustainable solutions. The emergency loan buys time for proper restructuring, not just delay of inevitable failure. If your business fundamentally isn't viable, emergency funding simply increases ultimate losses. Professional advice helps distinguish temporary problems from terminal ones, guiding appropriate responses.
 
@@ -251,7 +251,7 @@ Businesses with strong debtor books might access emergency funding through invoi
 
 Invoice finance costs vary—typically 0.5% to 1.5% monthly plus establishment fees—making it cheaper than caveat loans whilst potentially providing similar approval speed. However, you need quality debtors with good payment histories. Businesses with overdue invoices, disputed amounts, or customers with poor credit won't qualify. Invoice finance also requires ongoing facility management—as invoices get paid, new ones must be submitted to maintain funding levels.
 
-For businesses with seasonal cashflow patterns or long payment terms creating temporary funding gaps, invoice finance often proves more appropriate than caveat loans. You're leveraging business assets (debtors) rather than personal property, better aligning risk with reward. Explore [caveat loans in Australia](/guides/caveat-loans-australia-complete-guide) comprehensively alongside debtor finance options before deciding which emergency funding suits your circumstances best.
+For businesses with seasonal cashflow patterns or long payment terms creating temporary funding gaps, invoice finance often proves more appropriate than caveat loans. You're leveraging business assets (debtors) rather than personal property, better aligning risk with reward. Explore [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) comprehensively alongside debtor finance options before deciding which emergency funding suits your circumstances best.
 
 ### Director Loans and Private Capital
 

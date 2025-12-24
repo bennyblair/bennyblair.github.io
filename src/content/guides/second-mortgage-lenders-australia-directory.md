@@ -143,7 +143,7 @@ Identifying appropriate second mortgage lenders for your specific circumstances 
 
 ### Working With Specialist Mortgage Brokers
 
-Specialist mortgage brokers focusing on [1st & 2nd mortgages for business](/guides/first-and-second-mortgages-for-business) represent the most efficient path to appropriate second mortgage lenders for most borrowers. These brokers maintain established relationships with non-bank lenders, credit unions, and private capital sources, understanding each lender's current appetite, pricing, and approval criteria. Rather than applying directly to multiple lenders sequentially, brokers can pre-qualify your scenario and target 2 to 3 lenders most likely to approve.
+Specialist mortgage brokers focusing on [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) represent the most efficient path to appropriate second mortgage lenders for most borrowers. These brokers maintain established relationships with non-bank lenders, credit unions, and private capital sources, understanding each lender's current appetite, pricing, and approval criteria. Rather than applying directly to multiple lenders sequentially, brokers can pre-qualify your scenario and target 2 to 3 lenders most likely to approve.
 
 Experienced brokers also manage application presentation strategically. They know whether specific lenders prefer concise executive summaries or comprehensive documentation packages, which property types each favours, and how to position credit impairments or unusual circumstances to maximise approval likelihood. This expertise often means the difference between approval and decline for borderline applications.
 
@@ -231,7 +231,7 @@ Second mortgages excel in specific scenarios where their advantages outweigh cos
 
 Time-sensitive opportunities where traditional refinancing timelines (6 to 12 weeks) prove too slow benefit from second mortgage speed (1 to 3 weeks typical approval). A Perth investor securing an off-market property requiring settlement within 21 days might use second mortgage finance despite higher costs, planning to refinance to cheaper first mortgage finance once time pressure abates.
 
-[Asset-backed lending & asset finance](/guides/asset-backed-lending-and-asset-finance) strategies sometimes incorporate second mortgages to maximise leverage across property portfolios. Rather than concentrating debt on single properties, spreading security across multiple properties through strategic first and second mortgages can optimise overall portfolio LVRs, providing maximum borrowing capacity whilst maintaining manageable service costs.
+[Asset-backed lending & asset finance](/resources/guides/asset-backed-lending-and-asset-finance) strategies sometimes incorporate second mortgages to maximise leverage across property portfolios. Rather than concentrating debt on single properties, spreading security across multiple properties through strategic first and second mortgages can optimise overall portfolio LVRs, providing maximum borrowing capacity whilst maintaining manageable service costs.
 
 ### Alternative Approaches to Consider
 

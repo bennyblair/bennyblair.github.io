@@ -124,7 +124,7 @@ Initial assessment occurs within 2-6 hours of application submission, with indic
 
 Property valuation uses desktop assessments or automated models rather than physical inspections, enabling same-day value determination. Caveat lodgment proceeds immediately upon approval, with electronic systems enabling same-day registration in most Australian jurisdictions.
 
-Understanding [caveat loans in Australia](/guides/caveat-loans-australia-complete-guide) provides comprehensive detail on how these ultra-fast facilities work and when they make financial sense despite premium pricing.
+Understanding [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) provides comprehensive detail on how these ultra-fast facilities work and when they make financial sense despite premium pricing.
 
 ### Bank Loan Timeline
 
@@ -134,7 +134,7 @@ Initial assessment takes 5-10 business days as banks review business financials,
 
 Property valuations for secured bank loans require physical inspections and comprehensive reports taking 10-14 days. Legal documentation preparation adds another 1-2 weeks after approval, coordinating between borrowers, banks, solicitors, and security providers.
 
-A Brisbane business received bank approval on day 28, but final settlement occurred on day 42 due to legal documentation requirements. Understanding [what is private lending](/guides/what-is-private-lending-australia) helps you recognize how alternative lenders operate differently from banks.
+A Brisbane business received bank approval on day 28, but final settlement occurred on day 42 due to legal documentation requirements. Understanding [what is private lending](/resources/guides/what-is-private-lending-australia) helps you recognize how alternative lenders operate differently from banks.
 
 ### Emergency Funding Reality
 
@@ -198,7 +198,7 @@ An Adelaide manufacturer's bank loan application required: 3 years of company ta
 
 Caveat lenders prioritize property security adequacy and exit strategy clarity, asking: "If this borrower defaults, can we sell this property quickly to recover our capital?" Business financial strength matters less than property equity.
 
-Banks prioritize business financial strength and comprehensive risk assessment, evaluating business profitability, industry position, management capability, and detailed cashflow serviceability. Understanding [commercial property loans in Australia](/guides/commercial-property-loans-australia-complete-guide) provides context on traditional property-secured lending.
+Banks prioritize business financial strength and comprehensive risk assessment, evaluating business profitability, industry position, management capability, and detailed cashflow serviceability. Understanding [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) provides context on traditional property-secured lending.
 
 Credit history affects both lending types differently. Caveat lenders often accept borrowers with imperfect credit provided property security proves adequate, while banks typically decline applications with significant credit impairments regardless of property security quality.
 

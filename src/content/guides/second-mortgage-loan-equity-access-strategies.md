@@ -65,7 +65,7 @@ Conservative strategies maintain substantial equity buffers by limiting combined
 
 A Perth retail property owner comparing $300,000 second mortgage options found 60% combined LVR attracted 10.5% rates while 72% combined LVR required 13.8% rates—saving $9,900 annually by contributing additional deposit.
 
-Understanding [business debt consolidation in Australia](/guides/business-debt-consolidation-australia) helps evaluate whether equity access through second mortgages suits debt restructuring strategies.
+Understanding [business debt consolidation in Australia](/resources/guides/business-debt-consolidation-australia) helps evaluate whether equity access through second mortgages suits debt restructuring strategies.
 
 ### Staged Equity Release
 
@@ -105,7 +105,7 @@ Property documentation forms the core of applications: current first mortgage st
 
 Total timeline from application to settlement typically spans 10-14 business days for straightforward second mortgage loans, compared to 6-8 weeks for traditional bank refinancing. A Brisbane business submitted a second mortgage application Monday morning and settled the following Monday—12 business days total.
 
-Understanding [asset-backed lending and asset finance](/guides/asset-backed-lending-and-asset-finance) provides alternative perspectives on accessing capital through assets other than property.
+Understanding [asset-backed lending and asset finance](/resources/guides/asset-backed-lending-and-asset-finance) provides alternative perspectives on accessing capital through assets other than property.
 
 ### Business Expansion Funding
 

@@ -26,7 +26,7 @@ Property mortgages operate on strict priority based on registration order with s
 
 This priority system explains why second mortgages cost substantially more than first mortgages. Consider a property worth $800,000 with a $500,000 first mortgage and a proposed $150,000 second mortgage. If property values decline and you default, the first lender receives their full $500,000 first, leaving potentially insufficient funds for the second lender.
 
-Understanding [1st and 2nd mortgages for business](/guides/first-and-second-mortgages-for-business) provides comprehensive context on how these security structures work together and when each suits different business funding scenarios. Emet Capital offers [first and second mortgage solutions](/services/first-second-mortgages) tailored to commercial property owners seeking flexible equity access.
+Understanding [1st and 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) provides comprehensive context on how these security structures work together and when each suits different business funding scenarios. Emet Capital offers [first and second mortgage solutions](/services/first-second-mortgages) tailored to commercial property owners seeking flexible equity access.
 
 ### Second Mortgages Versus Refinancing
 
@@ -40,7 +40,7 @@ Break costs on fixed-rate mortgages often eliminate refinancing benefits. Breaki
 
 Lenders assess second mortgages using combined loan-to-value ratios (combined LVR), adding your first and second mortgage balances then dividing by property value. A property worth $900,000 with a $450,000 first mortgage and proposed $200,000 second mortgage has 72% combined LVR ($650,000 divided by $900,000).
 
-Most second mortgage lenders cap combined LVRs at 75-80% for residential property and 65-70% for commercial property. A Perth business owner owned a warehouse valued at $1.2 million with a $600,000 first mortgage. At 70% combined LVR, total lending couldn't exceed $840,000. With $600,000 already borrowed, she could access up to $240,000 through a second mortgage—substantially more than [working capital loans](/guides/working-capital-loans-for-smes) would provide without property security.
+Most second mortgage lenders cap combined LVRs at 75-80% for residential property and 65-70% for commercial property. A Perth business owner owned a warehouse valued at $1.2 million with a $600,000 first mortgage. At 70% combined LVR, total lending couldn't exceed $840,000. With $600,000 already borrowed, she could access up to $240,000 through a second mortgage—substantially more than [working capital loans](/resources/guides/working-capital-loans-for-smes) would provide without property security.
 
 ## Strategic Uses of 2nd Loan Mortgages
 
@@ -60,7 +60,7 @@ Expanding into new premises, acquiring competitors, or launching product lines r
 
 However, growth strategies carry risk. A Perth professional services firm used a $400,000 second mortgage to acquire a competitor. Integration challenges resulted in lower revenue than projected, creating financial stress servicing expensive debt during difficult periods.
 
-For businesses exploring acquisitions specifically, understanding [business acquisition finance in Australia](/guides/business-acquisition-finance-australia) helps evaluate whether second mortgages or specialized acquisition funding structures better suit purchase scenarios.
+For businesses exploring acquisitions specifically, understanding [business acquisition finance in Australia](/resources/guides/business-acquisition-finance-australia) helps evaluate whether second mortgages or specialized acquisition funding structures better suit purchase scenarios.
 
 ### Working Capital and Timing Gaps
 
