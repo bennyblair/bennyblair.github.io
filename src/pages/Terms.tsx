@@ -36,7 +36,7 @@ const Terms = () => {
                 Emet Capital Pty Ltd operates as a commercial finance broker. We act as an intermediary between borrowers and lenders to arrange commercial finance facilities.
               </p>
               <p className="mt-2">
-                <strong>Business Purpose Only:</strong> Our services and the products we arrange are strictly for business and commercial purposes. 
+                Our services and the products we arrange are strictly for business and commercial purposes. 
                 We do not provide consumer credit or loans for personal, domestic, or household purposes regulated by the National Consumer Credit Protection Act 2009 (NCCP).
               </p>
             </section>

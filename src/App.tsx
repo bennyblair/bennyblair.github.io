@@ -42,6 +42,9 @@ const EquipmentFinance = lazy(() => import("./pages/services/EquipmentFinance"))
 const TradeFinance = lazy(() => import("./pages/services/TradeFinance"));
 const SMSFLending = lazy(() => import("./pages/services/SMSFLending"));
 
+// City-specific service pages
+const FirstSecondMortgagesSydney = lazy(() => import("./pages/services/cities/FirstSecondMortgagesSydney"));
+
 // Tool pages
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
 const CommercialRealEstateCalculator = lazy(() => import("./pages/tools/CommercialRealEstateCalculator"));
@@ -115,6 +118,8 @@ const App = () => (
                 <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
                 <Route path="/services/caveat-loans" element={<CaveatLoans />} />
                 <Route path="/services/asset-finance" element={<AssetFinance />} />
+                {/* City-specific service pages */}
+                <Route path="/services/first-second-mortgages/cities/sydney" element={<FirstSecondMortgagesSydney />} />
                 <Route path="/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
                 <Route path="/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />

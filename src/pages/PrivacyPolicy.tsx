@@ -35,9 +35,9 @@ const PrivacyPolicy = () => {
               <h2 className="text-2xl font-semibold text-foreground mb-4">2. Information We Collect</h2>
               <p>We collect information that is reasonably necessary for us to provide our commercial lending brokerage services. This may include:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2">
-                <li><strong>Identity Data:</strong> Name, contact details (email, phone number, address).</li>
-                <li><strong>Financial Data:</strong> Loan requirements, loan amounts, business details, and financial circumstances relevant to your application.</li>
-                <li><strong>Technical Data:</strong> IP address, browser type, and usage data when you visit our website.</li>
+                <li>Identity data: name, contact details (email, phone number, address).</li>
+                <li>Financial data: loan requirements, loan amounts, business details, and financial circumstances relevant to your application.</li>
+                <li>Technical data: IP address, browser type, and usage data when you visit our website.</li>
               </ul>
             </section>
 

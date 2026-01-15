@@ -233,6 +233,39 @@ const FirstSecondMortgages = () => {
               </Card>
             </div>
           </section>
+
+          {/* City-specific pages */}
+          <section className="mb-16">
+            <div className="bg-muted/30 rounded-lg p-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">1st & 2nd Mortgages by Location</h2>
+              <p className="text-muted-foreground mb-6">
+                Looking for commercial mortgage finance in your area? Explore our city-specific guides with local market insights and examples:
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link 
+                  to="/services/first-second-mortgages/cities/sydney" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Sydney <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
+                  Melbourne <span className="ml-2 text-xs">(Coming Soon)</span>
+                </span>
+                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
+                  Brisbane <span className="ml-2 text-xs">(Coming Soon)</span>
+                </span>
+                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
+                  Perth <span className="ml-2 text-xs">(Coming Soon)</span>
+                </span>
+                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
+                  Adelaide <span className="ml-2 text-xs">(Coming Soon)</span>
+                </span>
+                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
+                  Gold Coast <span className="ml-2 text-xs">(Coming Soon)</span>
+                </span>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </>
