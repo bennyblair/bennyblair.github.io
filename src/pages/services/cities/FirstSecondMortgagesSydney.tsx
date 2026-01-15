@@ -171,7 +171,7 @@ const FirstSecondMortgagesSydney = () => {
             </div>
 
             <div className="mt-12 p-6 bg-muted/30 rounded-lg">
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-foreground">
                 <strong>Looking for this service in your area?</strong> Explore 1st & 2nd Mortgages in{" "}
                 <Link to="/services/first-second-mortgages/cities/sydney" className="text-accent hover:underline">Sydney</Link>,{" "}
                 <Link to="/services/first-second-mortgages/cities/melbourne" className="text-accent hover:underline">Melbourne</Link>,{" "}
