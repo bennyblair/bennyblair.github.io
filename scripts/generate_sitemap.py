@@ -143,6 +143,8 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/tools/bridging-loan-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
         # City-specific service pages
         {'url': f"{DOMAIN}/services/first-second-mortgages/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
     ]
     
     # Get all articles from content directories

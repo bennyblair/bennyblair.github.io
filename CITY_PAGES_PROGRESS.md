@@ -2,12 +2,14 @@
 
 **Total**: 84 pages (14 services × 6 cities)  
 **Rate**: 3 pages per day  
-**Status**: 1 of 84 completed
+**Status**: 3 of 84 completed
 
 ## Completed Pages
 
 ### Batch 1 - Day 1 (15 Jan 2026)
 1. ✅ 1st & 2nd Mortgages - Sydney
+2. ✅ 1st & 2nd Mortgages - Melbourne
+3. ✅ 1st & 2nd Mortgages - Brisbane
 
 ## Pending Pages
 

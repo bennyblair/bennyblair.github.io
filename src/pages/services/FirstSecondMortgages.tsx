@@ -248,12 +248,18 @@ const FirstSecondMortgages = () => {
                 >
                   Sydney <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
-                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
-                  Melbourne <span className="ml-2 text-xs">(Coming Soon)</span>
-                </span>
-                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
-                  Brisbane <span className="ml-2 text-xs">(Coming Soon)</span>
-                </span>
+                <Link 
+                  to="/services/first-second-mortgages/cities/melbourne" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Melbourne <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/first-second-mortgages/cities/brisbane" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Brisbane <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
                 <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
                   Perth <span className="ml-2 text-xs">(Coming Soon)</span>
                 </span>
