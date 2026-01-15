@@ -19,8 +19,8 @@ const PrivacyPolicy = () => {
 
           <h1 className="text-4xl font-bold mb-8 text-foreground">Privacy Policy</h1>
           
-          <div className="prose prose-lg max-w-none text-muted-foreground">
-            <p className="mb-6">Last updated: {new Date().toLocaleDateString('en-AU', { month: 'long', year: 'numeric' })}</p>
+          <div className="prose prose-lg max-w-none text-foreground">
+            <p className="mb-6 text-foreground">Last updated: {new Date().toLocaleDateString('en-AU', { month: 'long', year: 'numeric' })}</p>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-foreground mb-4">1. Introduction</h2>
