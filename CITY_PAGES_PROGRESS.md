@@ -2,7 +2,7 @@
 
 **Total**: 84 pages (14 services × 6 cities)  
 **Rate**: 3 pages per day  
-**Status**: 3 of 84 completed
+**Status**: 6 of 84 completed
 
 ## Completed Pages
 
@@ -10,6 +10,11 @@
 1. ✅ 1st & 2nd Mortgages - Sydney
 2. ✅ 1st & 2nd Mortgages - Melbourne
 3. ✅ 1st & 2nd Mortgages - Brisbane
+
+### Batch 2 - Day 2 (16 Jan 2026)
+4. ✅ 1st & 2nd Mortgages - Perth
+5. ✅ 1st & 2nd Mortgages - Adelaide
+6. ✅ 1st & 2nd Mortgages - Gold Coast
 
 ## Pending Pages
 

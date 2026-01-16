@@ -260,15 +260,24 @@ const FirstSecondMortgages = () => {
                 >
                   Brisbane <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
-                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
-                  Perth <span className="ml-2 text-xs">(Coming Soon)</span>
-                </span>
-                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
-                  Adelaide <span className="ml-2 text-xs">(Coming Soon)</span>
-                </span>
-                <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
-                  Gold Coast <span className="ml-2 text-xs">(Coming Soon)</span>
-                </span>
+                <Link 
+                  to="/services/first-second-mortgages/cities/perth" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Perth <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/first-second-mortgages/cities/adelaide" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Adelaide <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/first-second-mortgages/cities/gold-coast" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Gold Coast <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </div>
             </div>
           </section>

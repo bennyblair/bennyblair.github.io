@@ -46,6 +46,9 @@ const SMSFLending = lazy(() => import("./pages/services/SMSFLending"));
 const FirstSecondMortgagesSydney = lazy(() => import("./pages/services/cities/FirstSecondMortgagesSydney"));
 const FirstSecondMortgagesMelbourne = lazy(() => import("./pages/services/cities/FirstSecondMortgagesMelbourne"));
 const FirstSecondMortgagesBrisbane = lazy(() => import("./pages/services/cities/FirstSecondMortgagesBrisbane"));
+const FirstSecondMortgagesPerth = lazy(() => import("./pages/services/cities/FirstSecondMortgagesPerth"));
+const FirstSecondMortgagesAdelaide = lazy(() => import("./pages/services/cities/FirstSecondMortgagesAdelaide"));
+const FirstSecondMortgagesGoldCoast = lazy(() => import("./pages/services/cities/FirstSecondMortgagesGoldCoast"));
 
 // Tool pages
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
@@ -124,6 +127,9 @@ const App = () => (
                 <Route path="/services/first-second-mortgages/cities/sydney" element={<FirstSecondMortgagesSydney />} />
                 <Route path="/services/first-second-mortgages/cities/melbourne" element={<FirstSecondMortgagesMelbourne />} />
                 <Route path="/services/first-second-mortgages/cities/brisbane" element={<FirstSecondMortgagesBrisbane />} />
+                <Route path="/services/first-second-mortgages/cities/perth" element={<FirstSecondMortgagesPerth />} />
+                <Route path="/services/first-second-mortgages/cities/adelaide" element={<FirstSecondMortgagesAdelaide />} />
+                <Route path="/services/first-second-mortgages/cities/gold-coast" element={<FirstSecondMortgagesGoldCoast />} />
                 <Route path="/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
                 <Route path="/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
