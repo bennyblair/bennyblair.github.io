@@ -2,36 +2,36 @@
 
 **Total**: 84 pages (14 services × 6 cities)  
 **Rate**: 3 pages per day  
-**Status**: 6 of 84 completed
+**Status**: 9 of 84 completed (11%)
 
 ## Completed Pages
 
-### Batch 1 - Day 1 (15 Jan 2026)
+### Batch 1 - Day 1 (15 Jan 2026) - 1st & 2nd Mortgages
 1. ✅ 1st & 2nd Mortgages - Sydney
 2. ✅ 1st & 2nd Mortgages - Melbourne
 3. ✅ 1st & 2nd Mortgages - Brisbane
 
-### Batch 2 - Day 2 (16 Jan 2026)
+### Batch 2 - Day 2 (16 Jan 2026) - 1st & 2nd Mortgages
 4. ✅ 1st & 2nd Mortgages - Perth
 5. ✅ 1st & 2nd Mortgages - Adelaide
 6. ✅ 1st & 2nd Mortgages - Gold Coast
 
+### Batch 3 - Day 3 (19 Jan 2026) - Commercial Development Finance
+7. ✅ Commercial Development Finance - Sydney
+8. ✅ Commercial Development Finance - Melbourne
+9. ✅ Commercial Development Finance - Brisbane
+
 ## Pending Pages
 
-### Batch 2 - Next (awaiting "next 3" command)
-2. ⏳ 1st & 2nd Mortgages - Melbourne
-3. ⏳ 1st & 2nd Mortgages - Brisbane
-4. ⏳ 1st & 2nd Mortgages - Perth
-
-### Batch 3
-5. ⏳ 1st & 2nd Mortgages - Adelaide
-6. ⏳ 1st & 2nd Mortgages - Gold Coast
-7. ⏳ Commercial Development Finance - Sydney
-
-### Batch 4
-8. ⏳ Commercial Development Finance - Melbourne
-9. ⏳ Commercial Development Finance - Brisbane
+### Batch 4 - Next (awaiting "next 3" command)
 10. ⏳ Commercial Development Finance - Perth
+11. ⏳ Commercial Development Finance - Adelaide
+12. ⏳ Commercial Development Finance - Gold Coast
+
+### Batch 5
+13. ⏳ Bridging Finance - Sydney
+14. ⏳ Bridging Finance - Melbourne
+15. ⏳ Bridging Finance - Brisbane
 
 (Continue pattern for all 84 pages...)
 

@@ -49,6 +49,9 @@ const FirstSecondMortgagesBrisbane = lazy(() => import("./pages/services/cities/
 const FirstSecondMortgagesPerth = lazy(() => import("./pages/services/cities/FirstSecondMortgagesPerth"));
 const FirstSecondMortgagesAdelaide = lazy(() => import("./pages/services/cities/FirstSecondMortgagesAdelaide"));
 const FirstSecondMortgagesGoldCoast = lazy(() => import("./pages/services/cities/FirstSecondMortgagesGoldCoast"));
+const CommercialDevelopmentSydney = lazy(() => import("./pages/services/cities/CommercialDevelopmentSydney"));
+const CommercialDevelopmentMelbourne = lazy(() => import("./pages/services/cities/CommercialDevelopmentMelbourne"));
+const CommercialDevelopmentBrisbane = lazy(() => import("./pages/services/cities/CommercialDevelopmentBrisbane"));
 
 // Tool pages
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
@@ -130,6 +133,9 @@ const App = () => (
                 <Route path="/services/first-second-mortgages/cities/perth" element={<FirstSecondMortgagesPerth />} />
                 <Route path="/services/first-second-mortgages/cities/adelaide" element={<FirstSecondMortgagesAdelaide />} />
                 <Route path="/services/first-second-mortgages/cities/gold-coast" element={<FirstSecondMortgagesGoldCoast />} />
+                <Route path="/services/commercial-property-development/cities/sydney" element={<CommercialDevelopmentSydney />} />
+                <Route path="/services/commercial-property-development/cities/melbourne" element={<CommercialDevelopmentMelbourne />} />
+                <Route path="/services/commercial-property-development/cities/brisbane" element={<CommercialDevelopmentBrisbane />} />
                 <Route path="/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
                 <Route path="/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />

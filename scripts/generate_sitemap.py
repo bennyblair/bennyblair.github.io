@@ -148,6 +148,9 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/services/first-second-mortgages/cities/perth", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/first-second-mortgages/cities/adelaide", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/first-second-mortgages/cities/gold-coast", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/commercial-property-development/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/commercial-property-development/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/commercial-property-development/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
     ]
     
     # Get all articles from content directories

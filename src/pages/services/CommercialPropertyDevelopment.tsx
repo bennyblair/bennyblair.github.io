@@ -197,6 +197,75 @@ const CommercialPropertyDevelopment = () => {
             { title: "Bridging Finance for Developers", slug: "bridging-finance-developers-project-funding-solutions", description: "Short-term funding solutions for property development projects" }
           ] as RelatedArticle[]} />
 
+          {/* City-Specific Pages */}
+          <section className="mb-16">
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Development Finance by City</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Sydney</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Development finance for Australia's largest property market</p>
+                  <Link to="/services/commercial-property-development/cities/sydney" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Melbourne</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Construction finance for Victoria's diverse development market</p>
+                  <Link to="/services/commercial-property-development/cities/melbourne" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Brisbane</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Development funding for southeast Queensland's growing market</p>
+                  <Link to="/services/commercial-property-development/cities/brisbane" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Perth</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Coming soon</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Adelaide</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Coming soon</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Gold Coast</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Coming soon</p>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
           {/* Related Services */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
