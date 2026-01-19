@@ -52,6 +52,9 @@ const FirstSecondMortgagesGoldCoast = lazy(() => import("./pages/services/cities
 const CommercialDevelopmentSydney = lazy(() => import("./pages/services/cities/CommercialDevelopmentSydney"));
 const CommercialDevelopmentMelbourne = lazy(() => import("./pages/services/cities/CommercialDevelopmentMelbourne"));
 const CommercialDevelopmentBrisbane = lazy(() => import("./pages/services/cities/CommercialDevelopmentBrisbane"));
+const CommercialDevelopmentPerth = lazy(() => import("./pages/services/cities/CommercialDevelopmentPerth"));
+const CommercialDevelopmentAdelaide = lazy(() => import("./pages/services/cities/CommercialDevelopmentAdelaide"));
+const CommercialDevelopmentGoldCoast = lazy(() => import("./pages/services/cities/CommercialDevelopmentGoldCoast"));
 
 // Tool pages
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
@@ -136,6 +139,9 @@ const App = () => (
                 <Route path="/services/commercial-property-development/cities/sydney" element={<CommercialDevelopmentSydney />} />
                 <Route path="/services/commercial-property-development/cities/melbourne" element={<CommercialDevelopmentMelbourne />} />
                 <Route path="/services/commercial-property-development/cities/brisbane" element={<CommercialDevelopmentBrisbane />} />
+                <Route path="/services/commercial-property-development/cities/perth" element={<CommercialDevelopmentPerth />} />
+                <Route path="/services/commercial-property-development/cities/adelaide" element={<CommercialDevelopmentAdelaide />} />
+                <Route path="/services/commercial-property-development/cities/gold-coast" element={<CommercialDevelopmentGoldCoast />} />
                 <Route path="/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
                 <Route path="/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />

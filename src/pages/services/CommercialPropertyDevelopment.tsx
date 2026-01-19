@@ -242,7 +242,10 @@ const CommercialPropertyDevelopment = () => {
                   <CardTitle className="text-lg">Perth</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Coming soon</p>
+                  <p className="text-sm text-muted-foreground mb-4">Development finance for Western Australia's resource-driven market</p>
+                  <Link to="/services/commercial-property-development/cities/perth" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
                 </CardContent>
               </Card>
 
@@ -251,7 +254,10 @@ const CommercialPropertyDevelopment = () => {
                   <CardTitle className="text-lg">Adelaide</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Coming soon</p>
+                  <p className="text-sm text-muted-foreground mb-4">Construction funding for South Australia's manufacturing and defense sectors</p>
+                  <Link to="/services/commercial-property-development/cities/adelaide" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
                 </CardContent>
               </Card>
 
@@ -260,7 +266,10 @@ const CommercialPropertyDevelopment = () => {
                   <CardTitle className="text-lg">Gold Coast</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Coming soon</p>
+                  <p className="text-sm text-muted-foreground mb-4">Development finance for Australia's premier tourism and lifestyle destination</p>
+                  <Link to="/services/commercial-property-development/cities/gold-coast" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
                 </CardContent>
               </Card>
             </div>
