@@ -3,13 +3,13 @@
 ## Overview
 Creating city-specific landing pages for 14 services across 6 Australian cities = **84 total pages**
 
-Progress: **15/84 pages complete (17.9%)**
+Progress: **18/84 pages complete (21.4%)**
 
 ## Services (14 total)
 1. 1st & 2nd Mortgages
 2. Commercial Property Development  
-3. **Bridging Finance** ⬅️ Currently working on this
-4. Asset Finance
+3. Bridging Finance
+4. **Asset Finance** ⬅️ Next service to work on
 5. Asset Backed Lending
 6. Refinancing Solutions
 7. Trade Finance

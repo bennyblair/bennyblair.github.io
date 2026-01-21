@@ -194,6 +194,87 @@ const BridgingFinance = () => {
             { title: "Short-Term Property Loans: When You Need Fast Finance", slug: "short-term-property-loans-when-you-need-fast-finance", description: "Understanding when short-term property finance is the right solution" }
           ] as RelatedArticle[]} />
 
+          {/* City-Specific Pages */}
+          <section className="mb-16">
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Bridging Finance by City</h2>
+            <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
+              Get localized bridging finance information for Australia's major capital cities. Each city page provides market-specific insights, use cases, and examples tailored to your location.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-lg">Sydney</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Fast bridging loans for Sydney's dynamic property market - auction purchases, upgraders, and development sites.</p>
+                  <Link to="/services/bridging-finance/cities/sydney" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
+                    Sydney Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-lg">Melbourne</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Bridging finance for Melbourne's auction market - unconditional purchases, Bayside properties, and townhouse developments.</p>
+                  <Link to="/services/bridging-finance/cities/melbourne" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
+                    Melbourne Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-lg">Brisbane</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Brisbane bridging loans for Olympic-precinct developments, interstate relocations, and riverside property purchases.</p>
+                  <Link to="/services/bridging-finance/cities/brisbane" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
+                    Brisbane Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-lg">Perth</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Perth bridging finance for mining sector opportunities, resource-backed deals, and Western Australia property market.</p>
+                  <Link to="/services/bridging-finance/cities/perth" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
+                    Perth Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-lg">Adelaide</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Adelaide bridging loans for defense sector properties, urban renewal projects, and South Australian market opportunities.</p>
+                  <Link to="/services/bridging-finance/cities/adelaide" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
+                    Adelaide Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-lg">Gold Coast</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Gold Coast bridging finance for tourism properties, waterfront developments, and Queensland coastal opportunities.</p>
+                  <Link to="/services/bridging-finance/cities/gold-coast" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
+                    Gold Coast Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
           {/* Related Services */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>

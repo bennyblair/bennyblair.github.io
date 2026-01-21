@@ -157,6 +157,9 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/services/bridging-finance/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/bridging-finance/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/bridging-finance/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/bridging-finance/cities/perth", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/bridging-finance/cities/adelaide", 'priority': '0.8', 'changefreq': 'monthly'},
+        {'url': f"{DOMAIN}/services/bridging-finance/cities/gold-coast", 'priority': '0.8', 'changefreq': 'monthly'},
     ]
     
     # Get all articles from content directories
