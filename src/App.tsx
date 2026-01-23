@@ -43,6 +43,7 @@ const TradeFinance = lazy(() => import("./pages/services/TradeFinance"));
 const SMSFLending = lazy(() => import("./pages/services/SMSFLending"));
 
 // City-specific service pages
+const PrivateLendingSydney = lazy(() => import("./pages/services/cities/PrivateLendingSydney"));
 const FirstSecondMortgagesSydney = lazy(() => import("./pages/services/cities/FirstSecondMortgagesSydney"));
 const FirstSecondMortgagesMelbourne = lazy(() => import("./pages/services/cities/FirstSecondMortgagesMelbourne"));
 const FirstSecondMortgagesBrisbane = lazy(() => import("./pages/services/cities/FirstSecondMortgagesBrisbane"));
@@ -141,6 +142,7 @@ const App = () => (
                 <Route path="/services/caveat-loans" element={<CaveatLoans />} />
                 <Route path="/services/asset-finance" element={<AssetFinance />} />
                 {/* City-specific service pages */}
+                <Route path="/services/private-lending/cities/sydney" element={<PrivateLendingSydney />} />
                 <Route path="/services/first-second-mortgages/cities/sydney" element={<FirstSecondMortgagesSydney />} />
                 <Route path="/services/first-second-mortgages/cities/melbourne" element={<FirstSecondMortgagesMelbourne />} />
                 <Route path="/services/first-second-mortgages/cities/brisbane" element={<FirstSecondMortgagesBrisbane />} />
