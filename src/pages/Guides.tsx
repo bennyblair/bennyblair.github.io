@@ -6,6 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { BookOpen, Clock, User, Filter, Star, CheckCircle } from "lucide-react";
 import { getContentFiles, type Article } from "@/lib/content";
 import { generateBreadcrumbSchema, generateCollectionPageSchema } from "@/lib/schema-utils";
+import SEO from "@/components/SEO";
 
 const Guides = () => {
   console.log("Guides component rendering");
@@ -93,6 +94,13 @@ const Guides = () => {
   if (publishedArticles.length === 0) {
     return (
       <div className="min-h-screen py-8 flex flex-col items-center justify-center">
+      <SEO 
+        title="Commercial Lending Guides | Expert Business Finance Articles | Emet Capital"
+        description="In-depth guides on commercial lending, bridging finance, asset finance, development loans and more. Expert advice for Australian businesses seeking funding."
+        canonical="/resources/guides"
+        keywords="commercial lending guides, business finance articles, bridging finance guide, asset finance guide, development finance guide"
+      />
+      
         <h1 className="text-2xl font-bold mb-4">Loading Guides...</h1>
         <p className="text-muted-foreground">If this persists, please check the console for errors.</p>
       </div>
@@ -101,6 +109,13 @@ const Guides = () => {
 
   return (
     <div className="min-h-screen py-8">
+      <SEO 
+        title="Commercial Lending Guides | Expert Business Finance Articles | Emet Capital"
+        description="In-depth guides on commercial lending, bridging finance, asset finance, development loans and more. Expert advice for Australian businesses seeking funding."
+        canonical="/resources/guides"
+        keywords="commercial lending guides, business finance articles, bridging finance guide, asset finance guide, development finance guide"
+      />
+      
       {/* JSON-LD Structured Data */}
       <script type="application/ld+json">
         {JSON.stringify(generateCollectionPageSchema(

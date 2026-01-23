@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Calculator, Star, Clock, CheckCircle, ArrowRight } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const Tools = () => {
   const [loanAmount, setLoanAmount] = useState("");
@@ -94,6 +95,13 @@ const Tools = () => {
 
   return (
     <div className="min-h-screen py-8">
+      <SEO 
+        title="Commercial Loan Calculators & Tools | Emet Capital"
+        description="Free commercial lending calculators including bridging loan calculator, commercial property calculator, and more. Plan your business financing with confidence."
+        canonical="/resources/tools"
+        keywords="commercial loan calculator, bridging loan calculator, business finance tools, loan repayment calculator"
+      />
+      
       <div className="container mx-auto px-4">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },

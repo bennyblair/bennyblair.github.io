@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { TrendingUp, Calendar, Clock, Filter, Star, Mail, ChevronRight } from "lucide-react";
 import { getContentFiles, type Article } from "@/lib/content";
+import SEO from "@/components/SEO";
 
 const MarketInsights = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -141,6 +142,13 @@ const MarketInsights = () => {
 
   return (
     <div className="min-h-screen py-8">
+      <SEO 
+        title="Commercial Lending Market Insights | Industry Analysis | Emet Capital"
+        description="Stay informed with the latest commercial lending market insights, interest rate trends, and industry analysis for Australian businesses."
+        canonical="/resources/insights"
+        keywords="commercial lending insights, market analysis, interest rate trends, business finance news, lending industry updates"
+      />
+      
       <div className="container mx-auto px-4">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },

@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Search, Book } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const Glossary = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -100,6 +101,13 @@ const Glossary = () => {
 
   return (
     <div className="min-h-screen py-8">
+      <SEO 
+        title="Commercial Lending Glossary | Finance Terms Explained | Emet Capital"
+        description="Comprehensive glossary of commercial lending and business finance terms. Understand LVR, DSCR, capitalised interest, and more."
+        canonical="/resources/glossary"
+        keywords="commercial lending glossary, finance terms, LVR meaning, DSCR explained, business loan terminology"
+      />
+      
       <div className="container mx-auto px-4">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },

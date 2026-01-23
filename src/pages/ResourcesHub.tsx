@@ -13,6 +13,7 @@ import {
   CheckCircle,
   Star
 } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const ResourcesHub = () => {
   const resourceSections = [
@@ -100,6 +101,13 @@ const ResourcesHub = () => {
 
   return (
     <div className="min-h-screen py-8">
+      <SEO 
+        title="Commercial Lending Resources | Guides, Tools & Insights | Emet Capital"
+        description="Free commercial lending resources including guides, calculators, case studies, FAQs and market insights. Expert knowledge to help Australian businesses secure financing."
+        canonical="/resources"
+        keywords="commercial lending resources, business finance guides, loan calculators, case studies, commercial lending FAQs"
+      />
+      
       <div className="container mx-auto px-4">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },
