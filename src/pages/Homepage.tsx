@@ -449,12 +449,14 @@ const Homepage = () => {
                         {study.industry || "Business"}
                       </Badge>
                     </div>
-                    <CardTitle className="text-3xl gradient-text">
+                    <CardTitle className="text-3xl gradient-text mb-2">
                       {study.loanAmount || "Custom Solution"}
                     </CardTitle>
+                    <p className="text-sm text-muted-foreground">{study.location || ""}</p>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-lg font-medium mb-4">{study.outcome || study.title}</p>
+                    <h3 className="text-lg font-semibold mb-3">{study.title}</h3>
+                    <p className="text-base text-muted-foreground mb-4">{study.outcome}</p>
                     {study.quote && (
                       <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
                         "{study.quote}"
