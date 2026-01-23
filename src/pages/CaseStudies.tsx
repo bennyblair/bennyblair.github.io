@@ -53,8 +53,8 @@ const CaseStudies = () => {
     ? publishedCaseStudies 
     : publishedCaseStudies.filter(study => study.industry === selectedIndustry);
 
-  // Featured case study (first one)
-  const featuredCase = publishedCaseStudies[0];
+  // Featured case study (second one to avoid duplication with latest)
+  const featuredCase = publishedCaseStudies[1];
 
   return (
     <div className="min-h-screen py-8">
