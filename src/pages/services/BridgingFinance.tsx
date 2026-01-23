@@ -1,4 +1,5 @@
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/SEO";
+import { generateServiceSchema } from "@/lib/schema-utils";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -30,12 +31,17 @@ const BridgingFinance = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Bridging Loans Australia | Fast Short-Term Property Finance</title>
-        <meta name="description" content="Fast bridging loans in Australia. Short-term property finance from 3-12 months with quick approval and competitive rates for commercial purposes." />
-        <meta name="keywords" content="bridging loans, bridging finance, short-term property finance, property settlement loans" />
-        <link rel="canonical" href="/services/bridging-finance" />
-      </Helmet>
+      <SEO 
+        title="Bridging Finance Australia | Short-Term Property Loans | Emet Capital"
+        description="Fast bridging loans for property purchases, auctions, and time-sensitive opportunities. Approval in 24-48 hours, settlements within 7-14 days."
+        canonical="/services/bridging-finance"
+        keywords="bridging finance, bridging loans, short term property loans, auction finance, settlement bridge loans"
+        schemas={[generateServiceSchema(
+          "Bridging Finance",
+          "Short-term finance for property purchases and time-sensitive opportunities",
+          "https://emetcapital.com.au/services/bridging-finance"
+        )]}
+      />
 
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4">

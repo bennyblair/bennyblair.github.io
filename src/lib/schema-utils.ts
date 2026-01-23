@@ -203,3 +203,31 @@ export const generateFAQPageSchema = (faqs: { question: string; answer: string }
     }))
   };
 };
+
+/**
+ * Generates Service JSON-LD schema
+ */
+export const generateServiceSchema = (
+  name: string,
+  description: string,
+  url: string,
+  areaServed: string = "Australia"
+) => {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": name,
+    "description": description,
+    "url": url,
+    "provider": {
+      "@type": "Organization",
+      "name": "Emet Capital",
+      "url": "https://emetcapital.com.au"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": areaServed
+    },
+    "serviceType": "Commercial Finance"
+  };
+};

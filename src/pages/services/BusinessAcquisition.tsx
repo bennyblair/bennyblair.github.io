@@ -4,7 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/SEO";
+import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 

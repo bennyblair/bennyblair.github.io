@@ -1,10 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle, Clock, DollarSign, TrendingUp, Home, Building2, Hammer, MapPin } from 'lucide-react';
+import SEO from '@/components/SEO';
+import { generateServiceSchema } from '@/lib/schema-utils';
 
 const BridgingFinanceBrisbane: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <SEO 
+        title="Bridging Finance Brisbane | QLD Commercial Finance | Emet Capital"
+        description="Fast bridging loans in Brisbane QLD. 24-48 hour approvals for property purchases, auctions, and time-sensitive opportunities. Local expertise, competitive rates."
+        canonical="/bridging-finance-brisbane"
+        keywords="bridging finance Brisbane, bridging finance QLD, commercial loans Brisbane, business finance Brisbane, brisbane property finance"
+        schemas={[generateServiceSchema(
+          "Bridging Finance Brisbane",
+          "Fast bridging loans in Brisbane QLD. 24-48 hour approvals for property purchases, auctions, and time-sensitive opportunities. Local expertise, competitive rates.",
+          "https://emetcapital.com.au/bridging-finance-brisbane"
+        )]}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
         <div className="container mx-auto px-4">

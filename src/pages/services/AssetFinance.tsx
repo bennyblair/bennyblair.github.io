@@ -1,4 +1,5 @@
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/SEO";
+import { generateServiceSchema } from "@/lib/schema-utils";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -30,12 +31,17 @@ const AssetFinance = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Asset Finance Australia | Fund Vehicles, Machinery & Equipment</title>
-        <meta name="description" content="Asset finance helps businesses acquire vehicles, equipment, and machinery. Competitive rates from $10,000 to $5 million for commercial purposes." />
-        <meta name="keywords" content="asset finance, equipment finance, vehicle finance, machinery finance, business equipment loans" />
-        <link rel="canonical" href="/services/asset-finance" />
-      </Helmet>
+      <SEO 
+        title="Asset Finance Australia | Fund Vehicles, Machinery & Equipment | Emet Capital"
+        description="Asset finance helps businesses acquire vehicles, equipment, and machinery. Competitive rates from $10,000 to $5 million for commercial purposes."
+        canonical="/services/asset-finance"
+        keywords="asset finance, equipment finance, vehicle finance, machinery finance, business equipment loans"
+        schemas={[generateServiceSchema(
+          "Asset Finance",
+          "Finance for business vehicles, equipment, and machinery acquisition",
+          "https://emetcapital.com.au/services/asset-finance"
+        )]}
+      />
 
       <main className="container mx-auto px-4 py-8">
         <Breadcrumbs items={[

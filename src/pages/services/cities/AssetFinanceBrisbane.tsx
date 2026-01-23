@@ -1,10 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle, Clock, DollarSign, TrendingUp, Wrench, Building2, Truck, MapPin } from 'lucide-react';
+import SEO from '@/components/SEO';
+import { generateServiceSchema } from '@/lib/schema-utils';
 
 const AssetFinanceBrisbane: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <SEO 
+        title="Asset Finance Brisbane | QLD Commercial Finance | Emet Capital"
+        description="Asset finance for Brisbane businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+."
+        canonical="/asset-finance-brisbane"
+        keywords="asset finance Brisbane, asset finance QLD, commercial loans Brisbane, business finance Brisbane, brisbane property finance"
+        schemas={[generateServiceSchema(
+          "Asset Finance Brisbane",
+          "Asset finance for Brisbane businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+.",
+          "https://emetcapital.com.au/asset-finance-brisbane"
+        )]}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
         <div className="container mx-auto px-4">
