@@ -32,7 +32,7 @@ const EquipmentFinance = () => {
   return (
     <>
       <Helmet>
-        <title>Equipment Finance & Leasing Australia | Emet Capital</title>
+        <title>Commercial Equipment Finance for Businesses | Emet Capital</title>
         <meta 
           name="description" 
           content="Finance business equipment from $10K-$5M+ with flexible lease and loan structures for all commercial assets across Australia." 

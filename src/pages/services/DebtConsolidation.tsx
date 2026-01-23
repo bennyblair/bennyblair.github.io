@@ -32,7 +32,7 @@ const DebtConsolidation = () => {
   return (
     <>
       <Helmet>
-        <title>Business Debt Consolidation Solutions Australia | Emet Capital</title>
+        <title>Business Restructure & Refinancing Solutions | Emet Capital</title>
         <meta 
           name="description" 
           content="Consolidate multiple business debts into one facility with simplified management, improved cash flow, and competitive rates across Australia." 
