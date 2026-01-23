@@ -32,7 +32,7 @@ const CaveatLoans = () => {
   return (
     <>
       <Helmet>
-        <title>Caveat Loans Australia | Fast Business Finance | Emet Capital</title>
+        <title>Caveat Finance for Property Developers & Business Loans | Emet Capital</title>
         <meta 
           name="description" 
           content="Fast caveat loans from $50K-$5M+ with 24-72 hour settlement for urgent business funding needs secured against Australian property." 
