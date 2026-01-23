@@ -63,6 +63,11 @@ const BridgingFinanceBrisbane = lazy(() => import("./pages/services/cities/Bridg
 const BridgingFinancePerth = lazy(() => import("./pages/services/cities/BridgingFinancePerth"));
 const BridgingFinanceAdelaide = lazy(() => import("./pages/services/cities/BridgingFinanceAdelaide"));
 const BridgingFinanceGoldCoast = lazy(() => import("./pages/services/cities/BridgingFinanceGoldCoast"));
+
+const AssetFinanceSydney = lazy(() => import("./pages/services/cities/AssetFinanceSydney"));
+const AssetFinanceMelbourne = lazy(() => import("./pages/services/cities/AssetFinanceMelbourne"));
+const AssetFinanceBrisbane = lazy(() => import("./pages/services/cities/AssetFinanceBrisbane"));
+
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
 const CommercialRealEstateCalculator = lazy(() => import("./pages/tools/CommercialRealEstateCalculator"));
 const LoanComparisonTool = lazy(() => import("./pages/tools/LoanComparisonTool"));
@@ -156,6 +161,11 @@ const App = () => (
                 <Route path="/services/bridging-finance/cities/perth" element={<BridgingFinancePerth />} />
                 <Route path="/services/bridging-finance/cities/adelaide" element={<BridgingFinanceAdelaide />} />
                 <Route path="/services/bridging-finance/cities/gold-coast" element={<BridgingFinanceGoldCoast />} />
+
+                <Route path="/services/asset-finance/cities/sydney" element={<AssetFinanceSydney />} />
+                <Route path="/services/asset-finance/cities/melbourne" element={<AssetFinanceMelbourne />} />
+                <Route path="/services/asset-finance/cities/brisbane" element={<AssetFinanceBrisbane />} />
+
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
                 <Route path="/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />
                 <Route path="/tools/working-capital-calculator" element={<WorkingCapitalCalculator />} />
