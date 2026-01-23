@@ -9,6 +9,7 @@ import { Progress } from "@/components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
+import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
 import { 
   Building2, 
   TrendingUp, 
@@ -201,6 +202,7 @@ const Homepage = () => {
         description="Australia's leading commercial finance brokers. Fast approval on business loans $100K-$50M+. Expert property development finance."
         canonical="/"
         keywords="commercial lending, business loans, commercial finance, private lending, bridging finance, commercial property loans, business finance brokers, Sydney Australia"
+        schemas={[generateOrganizationSchema(), generateLocalBusinessSchema()]}
       />
       
       {/* Hero Section */}

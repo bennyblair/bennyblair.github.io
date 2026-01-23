@@ -7,7 +7,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import { generateBreadcrumbSchema, generateContactPageSchema } from "@/lib/schema-utils";
+import { generateContactPageSchema } from "@/lib/schema-utils";
+import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 const Contact = () => {
@@ -121,10 +122,13 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen py-8">
-      {/* JSON-LD Structured Data */}
-      <script type="application/ld+json">
-        {JSON.stringify(generateContactPageSchema())}
-      </script>
+      <SEO 
+        title="Contact Emet Capital | Commercial Finance Enquiries | Get a Quote"
+        description="Get in touch with Emet Capital for commercial lending solutions. Fast response, expert advice, competitive rates. Call 0485 952 651 or submit your enquiry online."
+        canonical="/contact"
+        keywords="contact Emet Capital, commercial lending enquiry, business loan quote, finance broker contact, Sydney"
+        schemas={[generateContactPageSchema()]}
+      />
       
       <div className="container mx-auto px-4">
         <Breadcrumbs items={breadcrumbItems} />

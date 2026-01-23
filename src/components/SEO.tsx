@@ -7,6 +7,7 @@ interface SEOProps {
   canonical?: string;
   type?: string;
   image?: string;
+  schemas?: object[];
 }
 
 const SEO = ({ 
@@ -15,7 +16,8 @@ const SEO = ({
   keywords = "commercial lending, business loans, private lending, bridging finance, commercial property loans, Sydney, Australia",
   canonical,
   type = "website",
-  image = "/assets/sydney-skyline-hero.jpg"
+  image = "/assets/sydney-skyline-hero.jpg",
+  schemas = []
 }: SEOProps) => {
   const baseUrl = "https://emetcapital.com.au";
   const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
@@ -53,6 +55,13 @@ const SEO = ({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={fullImage} />
+      
+      {/* JSON-LD Structured Data */}
+      {schemas.map((schema, index) => (
+        <script key={index} type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
+      ))}
     </Helmet>
   );
 };

@@ -5,7 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { DollarSign, Building2, Clock, Filter, Star, TrendingUp } from "lucide-react";
 import { getContentFiles, type Article } from "@/lib/content";
-import { generateBreadcrumbSchema, generateCollectionPageSchema } from "@/lib/schema-utils";
+import { generateCollectionPageSchema } from "@/lib/schema-utils";
+import SEO from "@/components/SEO";
 
 const CaseStudies = () => {
   const breadcrumbItems = [
@@ -58,15 +59,18 @@ const CaseStudies = () => {
 
   return (
     <div className="min-h-screen py-8">
-      {/* JSON-LD Structured Data */}
-      <script type="application/ld+json">
-        {JSON.stringify(generateCollectionPageSchema(
+      <SEO 
+        title="Commercial Lending Case Studies | Success Stories | Emet Capital"
+        description="Read real success stories from Australian businesses. See how Emet Capital helped companies secure bridging loans, asset finance, development funding and more."
+        canonical="/resources/case-studies"
+        keywords="commercial lending case studies, business loan success stories, bridging finance examples, asset finance case study, Australian business loans"
+        schemas={[generateCollectionPageSchema(
           "Commercial Lending Case Studies",
           "Real success stories from Australian businesses that achieved their goals with our commercial lending solutions",
           "https://emetcapital.com.au/resources/case-studies",
           publishedCaseStudies.length
-        ))}
-      </script>
+        )]}
+      />
       
       <div className="container mx-auto px-4">
         <Breadcrumbs items={breadcrumbItems} />

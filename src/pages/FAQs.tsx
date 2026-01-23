@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { ChevronDown, ChevronUp, HelpCircle, Star } from "lucide-react";
+import SEO from "@/components/SEO";
+import { generateFAQPageSchema } from "@/lib/schema-utils";
 
 const FAQs = () => {
   const [selectedCategory, setSelectedCategory] = useState("General");
@@ -140,7 +142,18 @@ const FAQs = () => {
     setOpenFAQ(openFAQ === faqId ? null : faqId);
   };
 
+  // Flatten all FAQs for schema
+  const allFaqs = Object.values(faqs).flat().map(f => ({ question: f.question, answer: f.answer }));
+
   return (
+    <>
+      <SEO 
+        title="Commercial Lending FAQs | Emet Capital | Business Finance Questions"
+        description="Get answers to frequently asked questions about commercial lending, asset finance, bridging loans, development finance and more. Expert guidance from Emet Capital."
+        canonical="/resources/faqs"
+        keywords="commercial lending FAQ, business loan questions, asset finance questions, bridging loan FAQ, commercial finance help"
+        schemas={[generateFAQPageSchema(allFaqs)]}
+      />
     <div className="min-h-screen py-8">
       <div className="container mx-auto px-4">
         <Breadcrumbs items={[
@@ -241,6 +254,7 @@ const FAQs = () => {
         </section>
       </div>
     </div>
+    </>
   );
 };
 

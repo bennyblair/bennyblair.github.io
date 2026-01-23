@@ -21,7 +21,7 @@ import {
   Scale,
   Network
 } from "lucide-react";
-import { generateBreadcrumbSchema, generateAboutPageSchema, generateAggregateRatingSchema } from "@/lib/schema-utils";
+import { generateAboutPageSchema } from "@/lib/schema-utils";
 
 const About = () => {
   const breadcrumbItems = [
@@ -77,12 +77,8 @@ const About = () => {
         description="Learn about Emet Capital, a trusted commercial finance broker in Australia. We connect businesses, property investors, and developers with tailored lending solutions through our extensive network of private and institutional lenders."
         keywords="commercial finance broker, commercial finance broker australia, business finance broker, property finance broker, private lending, commercial lending"
         canonical="/about"
+        schemas={[generateAboutPageSchema()]}
       />
-      
-      {/* JSON-LD Structured Data */}
-      <script type="application/ld+json">
-        {JSON.stringify(generateAboutPageSchema())}
-      </script>
       
       <div className="container mx-auto px-4">
         <Breadcrumbs items={breadcrumbItems} />

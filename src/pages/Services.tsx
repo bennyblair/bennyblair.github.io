@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -273,15 +273,13 @@ const Services = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Commercial Lending Services Australia | Business Finance & Property Loans</title>
-        <meta name="description" content="Expert commercial finance brokers in Australia. Fast approvals on property finance, business funding, and specialist loans. Access 50+ lenders with competitive rates." />
-        <meta name="keywords" content="commercial lending Australia, business finance brokers, commercial loans, property finance, private lending solutions, development finance Australia" />
-        <link rel="canonical" href="/services" />
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
-      </Helmet>
+      <SEO 
+        title="Commercial Lending Services Australia | Business Finance & Property Loans"
+        description="Expert commercial finance brokers in Australia. Fast approvals on property finance, business funding, and specialist loans. Access 50+ lenders with competitive rates."
+        canonical="/services"
+        keywords="commercial lending Australia, business finance brokers, commercial loans, property finance, private lending solutions, development finance Australia"
+        schemas={[structuredData]}
+      />
 
       <div className="min-h-screen py-8">
       <div className="container mx-auto px-4">
