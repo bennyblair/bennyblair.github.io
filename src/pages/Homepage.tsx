@@ -480,7 +480,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* How It Works */
+      {/* How It Works */}
       <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 fade-in-up">
