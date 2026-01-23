@@ -42,6 +42,7 @@ const Homepage = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [latestArticles, setLatestArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' | 'insights' })[]>([]);
+  const [featuredCaseStudies, setFeaturedCaseStudies] = useState<Article[]>([]);
   const { toast } = useToast();
 
   useEffect(() => {
@@ -58,6 +59,12 @@ const Homepage = () => {
           getContentFiles('case-studies'),
           getContentFiles('insights')
         ]);
+        
+        // Set featured case studies for success stories (latest 2)
+        const sortedCaseStudies = caseStudies.sort((a, b) => 
+          new Date(b.date).getTime() - new Date(a.date).getTime()
+        );
+        setFeaturedCaseStudies(sortedCaseStudies.slice(0, 2));
         
         // Add content type to articles for proper URL generation
         const guidesWithType = guides.map(article => ({ ...article, contentType: 'guides' as const }));
@@ -426,41 +433,36 @@ const Homepage = () => {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
-            {[
-              {
-                amount: "$2.4M",
-                type: "Equipment Finance",
-                industry: "Manufacturing",
-                result: "Enabled 40% production increase",
-                quote: "Emet Capital understood our unique needs and delivered exactly what we required."
-              },
-              {
-                amount: "$850K",
-                type: "Debtor Finance",
-                industry: "Logistics",
-                result: "Improved cash flow by 60%",
-                quote: "The speed of approval meant we could take on contracts we would have missed."
-              }
-            ].map((study, index) => (
-              <Card key={index} className="premium-card">
-                <CardHeader>
-                  <div className="flex items-center gap-4 mb-4">
-                    <Badge className="bg-accent/20 text-accent">
-                      {study.type}
-                    </Badge>
-                    <Badge variant="outline">
-                      {study.industry}
-                    </Badge>
-                  </div>
-                  <CardTitle className="text-3xl gradient-text">{study.amount}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-lg font-medium mb-4">{study.result}</p>
-                  <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
-                    "{study.quote}"
-                  </blockquote>
-                </CardContent>
-              </Card>
+            {featuredCaseStudies.map((study) => (
+              <Link 
+                key={study.slug} 
+                to={`/resources/case-studies/${study.slug}`}
+                className="block transition-transform hover:scale-[1.02]"
+              >
+                <Card className="premium-card h-full cursor-pointer">
+                  <CardHeader>
+                    <div className="flex items-center gap-4 mb-4">
+                      <Badge className="bg-accent/20 text-accent">
+                        {study.loanType || "Business Finance"}
+                      </Badge>
+                      <Badge variant="outline">
+                        {study.industry || "Business"}
+                      </Badge>
+                    </div>
+                    <CardTitle className="text-3xl gradient-text">
+                      {study.loanAmount || "Custom Solution"}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-lg font-medium mb-4">{study.outcome || study.title}</p>
+                    {study.quote && (
+                      <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
+                        "{study.quote}"
+                      </blockquote>
+                    )}
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
           
