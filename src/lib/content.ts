@@ -21,6 +21,7 @@ export interface Article {
   location?: string;
   propertyType?: string;
   lvr?: string;
+  quote?: string;
 }
 
 // Load markdown files at build time (Vite)
@@ -115,6 +116,7 @@ function parseArticlesFromModules(modules: Record<string, string>): Article[] {
       location: data.location,
       propertyType: data.propertyType,
       lvr: data.lvr,
+      quote: data.quote,
     });
   }
 
