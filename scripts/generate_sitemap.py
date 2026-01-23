@@ -160,10 +160,6 @@ def generate_sitemap():
         {'url': f"{DOMAIN}/services/bridging-finance/cities/perth", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/bridging-finance/cities/adelaide", 'priority': '0.8', 'changefreq': 'monthly'},
         {'url': f"{DOMAIN}/services/bridging-finance/cities/gold-coast", 'priority': '0.8', 'changefreq': 'monthly'},
-        # Asset Finance city pages
-        {'url': f"{DOMAIN}/services/asset-finance/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-finance/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-finance/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
     ]
     
     # Get all articles from content directories
