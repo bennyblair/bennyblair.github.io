@@ -68,6 +68,9 @@ const BridgingFinanceGoldCoast = lazy(() => import("./pages/services/cities/Brid
 const AssetFinanceSydney = lazy(() => import("./pages/services/cities/AssetFinanceSydney"));
 const AssetFinanceMelbourne = lazy(() => import("./pages/services/cities/AssetFinanceMelbourne"));
 const AssetFinanceBrisbane = lazy(() => import("./pages/services/cities/AssetFinanceBrisbane"));
+const AssetFinancePerth = lazy(() => import("./pages/services/cities/AssetFinancePerth"));
+const AssetFinanceAdelaide = lazy(() => import("./pages/services/cities/AssetFinanceAdelaide"));
+const AssetFinanceGoldCoast = lazy(() => import("./pages/services/cities/AssetFinanceGoldCoast"));
 
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
 const CommercialRealEstateCalculator = lazy(() => import("./pages/tools/CommercialRealEstateCalculator"));
@@ -167,6 +170,9 @@ const App = () => (
                 <Route path="/services/asset-finance/cities/sydney" element={<AssetFinanceSydney />} />
                 <Route path="/services/asset-finance/cities/melbourne" element={<AssetFinanceMelbourne />} />
                 <Route path="/services/asset-finance/cities/brisbane" element={<AssetFinanceBrisbane />} />
+                <Route path="/services/asset-finance/cities/perth" element={<AssetFinancePerth />} />
+                <Route path="/services/asset-finance/cities/adelaide" element={<AssetFinanceAdelaide />} />
+                <Route path="/services/asset-finance/cities/gold-coast" element={<AssetFinanceGoldCoast />} />
 
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
                 <Route path="/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />
