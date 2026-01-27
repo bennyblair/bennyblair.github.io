@@ -1,27 +1,31 @@
 # AI Handover Context & Critical Instructions
 
 **Project Name**: Emet Capital (bennyblair.github.io)
-**Last Updated**: 8 December 2025
+**Last Updated**: 27 January 2026
 **Tech Stack**: Vite, React, TypeScript, Tailwind CSS, Shadcn UI
 
 ## 1. Project Overview
 This is a static site generated using Vite and React, serving content for "Emet Capital". The site relies heavily on Markdown files for content (Guides, Case Studies, etc.) and uses a custom content loading system.
 
 ## 2. Deployment Strategy
-There are multiple deployment mechanisms visible in the project. **Always verify which one is the active target for the user's request.**
+**PRIMARY DEPLOYMENT: Netlify** - This is the active deployment mechanism.
 
-*   **GitHub Pages (Automated)**:
-    *   **Workflow**: `.github/workflows/workflow.yml`
-    *   **Trigger**: Push to `main` branch.
-    *   **Mechanism**: Uses `vite-github-pages-deployer` to build and deploy to the `gh-pages` branch.
-*   **Netlify (Implicit)**:
-    *   **Configuration**: `public/_redirects` exists, handling 301 redirects.
-    *   **Trigger**: Typically connected to the GitHub repo, triggering a build on push to `main`.
-*   **Manual Deployment**:
+*   **Netlify (ACTIVE)**:
+    *   **Trigger**: Automatically deploys on push to `main` branch.
+    *   **Configuration**: `public/_redirects` handles URL redirects.
+    *   **Build Command**: `npm run build` (Vite build)
+    *   **Publish Directory**: `dist/`
+
+*   **GitHub Pages (DISABLED)**:
+    *   **Status**: Workflow disabled as of January 2026 (renamed to `workflow.yml.disabled`)
+    *   **Reason**: Was causing failed runner notifications; Netlify is the actual deployment target.
+    *   **Note**: Do NOT re-enable unless explicitly switching away from Netlify.
+
+*   **Manual Deployment** (not typically needed):
     *   **Command**: `npm run deploy`
-    *   **Mechanism**: Runs `vite build` and uses the `gh-pages` package to push the `dist` folder to the `gh-pages` branch.
+    *   **Mechanism**: Uses `gh-pages` package to push `dist` folder.
 
-**Critical Instruction**: When asked to "deploy", pushing to `main` is usually sufficient to trigger the CI/CD pipelines. If manual intervention is needed, use `npm run deploy`.
+**Critical Instruction**: To deploy, simply push to `main`. Netlify auto-deploys within ~1-2 minutes.
 
 ## 3. Content Management System
 Content is stored as Markdown (`.md`) files in `src/content/`.
