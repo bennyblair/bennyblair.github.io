@@ -28,7 +28,8 @@ import {
 } from "lucide-react";
 
 const Services = () => {
-  const [openSections, setOpenSections] = useState<string[]>(['property-finance']);
+  // All sections expanded by default
+  const [openSections, setOpenSections] = useState<string[]>(['property-finance', 'business-finance', 'specialized-finance']);
 
   const toggleSection = (sectionId: string) => {
     setOpenSections(prev => 
@@ -537,42 +538,52 @@ const Services = () => {
                 type: "Development Finance",
                 industry: "Property Development",
                 outcome: "Multi-stage residential development funding secured within 3 weeks",
-                challenge: "Complex staged funding requirements"
+                challenge: "Complex staged funding requirements",
+                link: "/services/commercial-property-development"
               },
               {
                 amount: "$2.8M", 
                 type: "Equipment Finance",
                 industry: "Manufacturing",
                 outcome: "Production line upgrade with flexible repayment terms",
-                challenge: "Seasonal cash flow variations"
+                challenge: "Seasonal cash flow variations",
+                link: "/services/equipment-finance"
               },
               {
                 amount: "$850K",
                 type: "Working Capital",
                 industry: "Professional Services",
                 outcome: "Business expansion across 3 new locations",
-                challenge: "Rapid growth funding needs"
+                challenge: "Rapid growth funding needs",
+                link: "/services/working-capital"
               }
             ].map((story, index) => (
-              <Card key={index} className="premium-card">
-                <CardContent className="p-6">
-                  <div className="text-center mb-4">
-                    <div className="text-3xl font-bold gradient-text mb-2">{story.amount}</div>
-                    <Badge className="bg-accent/20 text-accent mb-2">{story.type}</Badge>
-                    <div className="text-sm text-muted-foreground">{story.industry}</div>
-                  </div>
-                  <div className="space-y-3">
-                    <div>
-                      <span className="font-semibold text-sm">Challenge:</span>
-                      <p className="text-sm text-muted-foreground">{story.challenge}</p>
+              <Link to={story.link} key={index} className="block">
+                <Card className="premium-card h-full hover:border-accent/40 transition-colors">
+                  <CardContent className="p-6">
+                    <div className="text-center mb-4">
+                      <div className="text-3xl font-bold gradient-text mb-2">{story.amount}</div>
+                      <Badge className="bg-accent/20 text-accent mb-2">{story.type}</Badge>
+                      <div className="text-sm text-muted-foreground">{story.industry}</div>
                     </div>
-                    <div>
-                      <span className="font-semibold text-sm">Outcome:</span>
-                      <p className="text-sm text-muted-foreground">{story.outcome}</p>
+                    <div className="space-y-3">
+                      <div>
+                        <span className="font-semibold text-sm">Challenge:</span>
+                        <p className="text-sm text-muted-foreground">{story.challenge}</p>
+                      </div>
+                      <div>
+                        <span className="font-semibold text-sm">Outcome:</span>
+                        <p className="text-sm text-muted-foreground">{story.outcome}</p>
+                      </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                    <div className="mt-4 pt-4 border-t border-accent/20 text-center">
+                      <span className="text-accent text-sm font-medium inline-flex items-center">
+                        Learn about {story.type} <ArrowRight className="ml-1 h-4 w-4" />
+                      </span>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </section>
