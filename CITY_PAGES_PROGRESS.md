@@ -3,15 +3,15 @@
 ## Overview
 Creating city-specific landing pages for 14 services across 6 Australian cities = **84 total pages**
 
-**Progress: 28/84 pages complete (33.3%)**
+**Progress: 31/84 pages complete (36.9%)**
 
 ## Services (14 total)
 1. 1st & 2nd Mortgages ✅
 2. Commercial Property Development ✅
 3. Bridging Finance ✅
 4. Asset Finance ✅
-5. **Asset Backed Lending** ⬅️ Next service to work on
-6. Refinancing Solutions
+5. Asset Backed Lending ✅
+6. **Refinancing Solutions** ⬅️ Next service to work on
 7. Trade Finance
 8. Debt Consolidation
 9. Equipment Finance
@@ -65,85 +65,85 @@ Creating city-specific landing pages for 14 services across 6 Australian cities 
 - [x] Adelaide
 - [x] Gold Coast
 
-### 🚧 Asset Backed Lending (3/6)
+### ✅ Asset Backed Lending (6/6)
 - [x] Sydney
 - [x] Melbourne
 - [x] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 Refinancing Solutions (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 Trade Finance (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 Debt Consolidation (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 Equipment Finance (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 Working Capital (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 Business Acquisition (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 Caveat Loans (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🚧 Private Lending (1/6)
 - [x] Sydney (with FAQ schema)
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ### 🔲 SMSF Lending (0/6)
 - [ ] Sydney
 - [ ] Melbourne
 - [ ] Brisbane
-- [ ] Perth
-- [ ] Adelaide
-- [ ] Gold Coast
+- [x] Perth
+- [x] Adelaide
+- [x] Gold Coast
 
 ---
 
