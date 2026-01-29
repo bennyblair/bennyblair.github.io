@@ -79,6 +79,10 @@ const AssetBackedLendingPerth = lazy(() => import("./pages/services/cities/Asset
 const AssetBackedLendingAdelaide = lazy(() => import("./pages/services/cities/AssetBackedLendingAdelaide"));
 const AssetBackedLendingGoldCoast = lazy(() => import("./pages/services/cities/AssetBackedLendingGoldCoast"));
 
+const RefinancingSolutionsSydney = lazy(() => import("./pages/services/cities/RefinancingSolutionsSydney"));
+const RefinancingSolutionsMelbourne = lazy(() => import("./pages/services/cities/RefinancingSolutionsMelbourne"));
+const RefinancingSolutionsBrisbane = lazy(() => import("./pages/services/cities/RefinancingSolutionsBrisbane"));
+
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
 const CommercialRealEstateCalculator = lazy(() => import("./pages/tools/CommercialRealEstateCalculator"));
 const LoanComparisonTool = lazy(() => import("./pages/tools/LoanComparisonTool"));
@@ -187,6 +191,10 @@ const App = () => (
                 <Route path="/services/asset-backed-lending/perth" element={<AssetBackedLendingPerth />} />
                 <Route path="/services/asset-backed-lending/adelaide" element={<AssetBackedLendingAdelaide />} />
                 <Route path="/services/asset-backed-lending/gold-coast" element={<AssetBackedLendingGoldCoast />} />
+
+                <Route path="/services/refinancing-solutions/sydney" element={<RefinancingSolutionsSydney />} />
+                <Route path="/services/refinancing-solutions/melbourne" element={<RefinancingSolutionsMelbourne />} />
+                <Route path="/services/refinancing-solutions/brisbane" element={<RefinancingSolutionsBrisbane />} />
 
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
                 <Route path="/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />
