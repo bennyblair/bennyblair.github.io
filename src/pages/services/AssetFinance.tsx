@@ -3,7 +3,7 @@ import { generateServiceSchema } from "@/lib/schema-utils";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
+import { BookOpen, Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
 import FAQSection, { FAQItem } from "@/components/FAQSection";

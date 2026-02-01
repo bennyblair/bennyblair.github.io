@@ -33,7 +33,7 @@ const BridgingLoanCalculator = () => {
     "@type": "Article",
     "headline": "Bridging Loan Calculator: Calculate Costs & Repayments Instantly",
     "description": "Comprehensive guide to using bridging loan calculators for accurate cost estimation, including hidden fees, total expense calculations, and scenario comparisons for Australian commercial bridging finance.",
-    "image": "https://www.emetcapital.com.au/images/bridging-loan-calculator.jpg",
+    "image": "https://emetcapital.com.au/images/bridging-loan-calculator.jpg",
     "author": {
       "@type": "Organization",
       "name": "Emet Capital"
@@ -43,7 +43,7 @@ const BridgingLoanCalculator = () => {
       "name": "Emet Capital",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.emetcapital.com.au/logo.png"
+        "url": "https://emetcapital.com.au/logo.png"
       }
     },
     "datePublished": "2025-10-21",

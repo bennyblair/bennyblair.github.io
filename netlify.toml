@@ -1,0 +1,277 @@
+# Netlify Configuration for emetcapital.com.au
+# Single source of truth for redirects - DO NOT duplicate in public/_redirects
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# =============================================================================
+# REDIRECTS - Order matters! More specific rules first, SPA fallback LAST
+# =============================================================================
+
+# 1. Host Canonicalization: Enforce https://emetcapital.com.au (non-www)
+# Using force=true ensures these always apply, even if file exists
+# These handle all 4 combinations to avoid redirect chains:
+
+# http://www -> https://non-www (single hop)
+[[redirects]]
+  from = "http://www.emetcapital.com.au/*"
+  to = "https://emetcapital.com.au/:splat"
+  status = 301
+  force = true
+
+# https://www -> https://non-www (single hop)
+[[redirects]]
+  from = "https://www.emetcapital.com.au/*"
+  to = "https://emetcapital.com.au/:splat"
+  status = 301
+  force = true
+
+# http://non-www -> https://non-www (single hop)
+[[redirects]]
+  from = "http://emetcapital.com.au/*"
+  to = "https://emetcapital.com.au/:splat"
+  status = 301
+  force = true
+
+# 2. Remove trailing slashes (except root /)
+# Must be after host redirects but before content redirects
+[[redirects]]
+  from = "/:splat/"
+  to = "/:splat"
+  status = 301
+  force = true
+
+# =============================================================================
+# CONTENT REDIRECTS - Legacy URL mappings
+# =============================================================================
+
+# Fix Tools URL Structure (resources/tools -> tools)
+[[redirects]]
+  from = "/resources/tools/commercial-property-loan-calculator"
+  to = "/tools/commercial-property-loan-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/second-mortgage-calculator"
+  to = "/tools/second-mortgage-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/commercial-real-estate-calculator"
+  to = "/tools/commercial-real-estate-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/asset-finance-roi-calculator"
+  to = "/tools/asset-finance-roi-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/working-capital-calculator"
+  to = "/tools/working-capital-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/loan-comparison-tool"
+  to = "/tools/loan-comparison-tool"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/bridging-loan-calculator"
+  to = "/tools/bridging-loan-calculator"
+  status = 301
+
+# Legacy page redirects
+[[redirects]]
+  from = "/about-us"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/commercial-property-development"
+  to = "/services/commercial-property-development"
+  status = 301
+
+[[redirects]]
+  from = "/business-investment-expansion"
+  to = "/services/business-acquisition"
+  status = 301
+
+[[redirects]]
+  from = "/asset-based-lending"
+  to = "/services/asset-backed-lending"
+  status = 301
+
+[[redirects]]
+  from = "/construction"
+  to = "/resources/guides/construction-finance-australia-complete-guide"
+  status = 301
+
+[[redirects]]
+  from = "/strata-finance"
+  to = "/services/commercial-property-development"
+  status = 301
+
+[[redirects]]
+  from = "/refinance"
+  to = "/services/refinancing-solutions"
+  status = 301
+
+[[redirects]]
+  from = "/working-capital"
+  to = "/services/working-capital"
+  status = 301
+
+[[redirects]]
+  from = "/first-second-mortgages"
+  to = "/services/first-second-mortgages"
+  status = 301
+
+[[redirects]]
+  from = "/apply-now"
+  to = "/contact"
+  status = 301
+
+# Tool page consolidation redirects (Legacy calculator URLs)
+[[redirects]]
+  from = "/resources/tools/2nd-mortgage-loan-rates"
+  to = "/tools/second-mortgage-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/2nd-mortgage-rates"
+  to = "/tools/second-mortgage-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/mortgage-rates-for-second-mortgage"
+  to = "/tools/second-mortgage-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/second-mortgage-rates"
+  to = "/tools/second-mortgage-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/commercial-property-loan-repayment-calculator"
+  to = "/tools/commercial-property-loan-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/commercial-real-estate-loans-calculator"
+  to = "/tools/commercial-property-loan-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/loan-calculator-commercial-loan"
+  to = "/tools/commercial-property-loan-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/loan-for-commercial-property-calculator"
+  to = "/tools/commercial-property-loan-calculator"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/repayment-calculator-commercial-property"
+  to = "/tools/commercial-property-loan-calculator"
+  status = 301
+
+# 410 Gone - Removed pages
+[[redirects]]
+  from = "/copy-of-commercial-property-development"
+  to = "/"
+  status = 410
+
+[[redirects]]
+  from = "/copy-of-working-capital"
+  to = "/"
+  status = 410
+
+# =============================================================================
+# SPA FALLBACK - MUST BE LAST
+# =============================================================================
+
+# All unmatched routes go to index.html for React Router client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# =============================================================================
+# HEADERS - Security and Caching
+# =============================================================================
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Content-Security-Policy = "frame-ancestors 'none'"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache images
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+# Don't cache HTML (for SPA updates)
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+# Don't cache sitemap or robots
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

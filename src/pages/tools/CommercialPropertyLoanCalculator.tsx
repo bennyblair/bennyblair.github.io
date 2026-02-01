@@ -78,7 +78,7 @@ const CommercialPropertyLoanCalculator = () => {
         <title>Commercial Property Loan Calculator: Estimate Your Repayments | Emet Capital</title>
         <meta name="description" content="Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors." />
         <meta name="keywords" content="commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool" />
-        <link rel="canonical" href="https://www.emetcapital.com.au/tools/commercial-property-loan-calculator" />
+        <link rel="canonical" href="https://emetcapital.com.au/tools/commercial-property-loan-calculator" />
         
         {/* JSON-LD Article Schema */}
         <script type="application/ld+json">
@@ -87,25 +87,25 @@ const CommercialPropertyLoanCalculator = () => {
             "@type": "Article",
             "headline": "Commercial Property Loan Calculator: Estimate Your Repayments",
             "description": "Guide to using commercial property loan calculators for Australian investors, covering repayment calculations, scenario comparisons, and investment planning insights.",
-            "image": "https://www.emetcapital.com.au/images/commercial-property-loan-calculator.jpg",
+            "image": "https://emetcapital.com.au/images/commercial-property-loan-calculator.jpg",
             "author": {
               "@type": "Organization",
               "name": "Emet Capital",
-              "url": "https://www.emetcapital.com.au"
+              "url": "https://emetcapital.com.au"
             },
             "publisher": {
               "@type": "Organization",
               "name": "Emet Capital",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.emetcapital.com.au/logo.png"
+                "url": "https://emetcapital.com.au/logo.png"
               }
             },
             "datePublished": "2025-01-16",
             "dateModified": "2025-01-16",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://www.emetcapital.com.au/tools/commercial-property-loan-calculator"
+              "@id": "https://emetcapital.com.au/tools/commercial-property-loan-calculator"
             },
             "articleSection": "Commercial Property Finance",
             "keywords": "commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool",
