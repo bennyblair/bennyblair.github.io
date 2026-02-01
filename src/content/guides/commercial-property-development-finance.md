@@ -127,6 +127,21 @@ The Australian commercial development finance market encompasses diverse propert
 
 This comprehensive guide examines the complete development finance landscape, covering funding stages, lender requirements, cost structures, and risk management strategies. Whether you're an experienced developer seeking to optimise your funding approach or a business considering your first development project, understanding these fundamental principles will help navigate the complexities of commercial development finance in today's market environment.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Developers undertaking commercial projects |
+| **What it addresses** | Commercial-specific development funding structures and requirements |
+| **When this is appropriate** | When developing office, retail, or mixed-use commercial projects |
+| **When it's NOT appropriate** | For residential-only developments |
+
+---
+
 ## Understanding Commercial Development Finance Structures
 
 Commercial property development finance differs fundamentally from traditional property loans due to the progressive nature of development projects. Rather than funding a completed asset, lenders finance the creation of new commercial properties through carefully structured loan facilities that release funds as construction milestones are achieved.

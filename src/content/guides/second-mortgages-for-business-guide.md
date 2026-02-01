@@ -15,6 +15,21 @@ The decision framework extends beyond simple cost comparison. Second mortgages p
 
 This guide provides systematic decision framework evaluating whether [first & second mortgages for business](/services/first-second-mortgages) funding makes sense for your company. We'll examine when second mortgages deliver genuine value versus when alternatives prove more suitable, how to calculate true return on investment including all costs, what factors strengthen or weaken the business case, and strategies to structure second mortgages maximising benefits whilst managing risks. Whether considering expansion funding, acquisition finance, or debt consolidation, these analytical approaches help you make informed decisions based on your specific circumstances rather than generalisations.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Company directors evaluating second mortgages for business funding |
+| **What it addresses** | Suitability analysis, pros/cons, and decision framework for businesses |
+| **When this is appropriate** | When deciding if a second mortgage is the right funding choice for your company |
+| **When it's NOT appropriate** | If you've already decided and need lender comparisons |
+
+---
+
 ## Understanding Second Mortgage Business Applications
 
 Second mortgages serve distinct business purposes, each with different risk-reward profiles and suitability criteria. Understanding common applications helps assess whether your intended use aligns with scenarios where second mortgages typically deliver value.

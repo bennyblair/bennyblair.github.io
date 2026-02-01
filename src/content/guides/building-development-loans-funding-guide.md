@@ -108,6 +108,21 @@ Understanding how building development loans work—from initial land purchase t
 
 This guide examines every aspect of [building development loans for Australian developers](/resources/guides/commercial-property-development-finance), from understanding funding stages and eligibility requirements through to application strategies and managing draw-down schedules throughout your project. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for developers seeking flexible funding solutions.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Developers seeking comprehensive funding guidance |
+| **What it addresses** | End-to-end development loan structures and draw-down schedules |
+| **When this is appropriate** | When planning a development project from acquisition to completion |
+| **When it's NOT appropriate** | For simple property purchases without development components |
+
+---
+
 ## Understanding Building Development Loans
 
 Building development loans are specialised financial products designed specifically for property development projects, structured to fund construction progressively rather than providing full capital at settlement. These loans differ fundamentally from standard [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) by recognising that property value increases incrementally as construction progresses, with funding released to match that value creation.

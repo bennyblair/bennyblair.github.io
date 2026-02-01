@@ -18,6 +18,21 @@ Interest rates for mezzanine finance typically range from 12-20% per annum combi
 
 This comprehensive guide examines mezzanine finance structures, applications, and strategic considerations for Australian businesses pursuing growth or transformational initiatives. From understanding when mezzanine provides optimal solutions to navigating complex structuring and managing stakeholder relationships, we explore how businesses can leverage this sophisticated financing tool for accelerated growth while maintaining operational control and optimizing capital structures.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Developers needing gap funding for larger projects |
+| **What it addresses** | Mezzanine structures, pricing, and appropriate project scales |
+| **When this is appropriate** | When senior debt alone doesn't cover your development funding gap |
+| **When it's NOT appropriate** | For smaller projects that don't require layered funding |
+
+---
+
 ## Understanding Mezzanine Finance Fundamentals
 
 Mezzanine finance occupies unique positions in capital structures between senior secured debt and equity, incorporating characteristics of both while creating distinct risk-return profiles requiring sophisticated assessment and structuring approaches.

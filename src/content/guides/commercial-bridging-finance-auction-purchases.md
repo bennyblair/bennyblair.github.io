@@ -16,6 +16,21 @@ Commercial bridging finance solves this timing challenge by providing rapid appr
 
 Interest rates for commercial bridging finance range from 8% to 15% annually depending on loan-to-value ratios, property quality, and borrower strength. While higher than traditional commercial property loans at 6-8%, bridging finance costs prove manageable over short periods when they enable you to capture valuable commercial property opportunities available through auction processes.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business buyers targeting commercial properties at auction |
+| **What it addresses** | Unconditional bidding, pre-approval strategies, and rapid settlement for commercial auctions |
+| **When this is appropriate** | When purchasing commercial property at auction requiring unconditional finance |
+| **When it's NOT appropriate** | For residential auctions or off-market commercial purchases with flexible settlement |
+
+---
+
 ## Understanding Auction Settlement Requirements
 
 Commercial property auctions operate under strict contractual terms that create unique financing challenges requiring specialized lending solutions designed for speed and certainty.

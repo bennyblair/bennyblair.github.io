@@ -72,6 +72,21 @@ The Australian office market has transformed considerably since 2020, with hybri
 
 Understanding these market dynamics helps you position your loan application strategically. Lenders now scrutinise tenant quality, lease terms, and location fundamentals more closely than ever. This guide explores how to navigate office property loan applications, what lenders examine when valuing different office types, and strategies to strengthen your financing position whether you're targeting premium CBD space or suburban alternatives.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Investors or occupiers acquiring office space |
+| **What it addresses** | Office-specific lending criteria and valuation approaches |
+| **When this is appropriate** | When financing office buildings, suites, or co-working spaces |
+| **When it's NOT appropriate** | For retail or industrial property |
+
+---
+
 ## Understanding Office Property Loan Fundamentals
 
 Office property loans operate differently from other commercial property finance, reflecting the unique risk profile of workspace assets. Lenders assess these properties based on tenancy stability, location desirability, and the broader office market outlook in your target area.

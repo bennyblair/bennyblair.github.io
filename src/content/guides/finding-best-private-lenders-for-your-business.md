@@ -16,6 +16,21 @@ The Australian private lending sector has expanded substantially over the past d
 
 This comprehensive guide examines private lender categories and their distinguishing characteristics, explores evaluation criteria for assessing lender suitability including pricing competitiveness, lending criteria flexibility, and operational professionalism, investigates due diligence processes verifying lender legitimacy and capabilities, analyses specific lender strengths across different financing scenarios, and provides systematic selection frameworks ensuring optimal lender matches for specific business requirements. Understanding [what is private lending](/resources/guides/what-is-private-lending-australia) fundamentals provides essential context for informed lender selection, whilst knowledge of specific lender categories and evaluation methodologies prevents costly mistakes from hasty lender choices made under time pressure or inadequate information. Emet Capital offers [private lending solutions](/services/private-lending) tailored to diverse business finance needs.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners ready to engage private lenders |
+| **What it addresses** | Evaluation criteria, red flags, and selection strategies |
+| **When this is appropriate** | When you've decided private lending suits your needs and want to find the right provider |
+| **When it's NOT appropriate** | If you're still evaluating whether private lending is appropriate |
+
+---
+
 ## Understanding Private Lender Categories
 
 High-net-worth individual lenders represent traditional private lending, with wealthy investors deploying personal capital directly into business and property loans generating higher returns than conservative investment portfolios. These lenders typically focus on specific lending niches based on personal expertise including commercial property finance, development funding, business acquisition loans, or equipment finance, bringing industry knowledge that informs lending decisions beyond pure financial assessment. Individual lenders offer potential advantages including flexible lending criteria accommodating unique deal structures, personalised service through direct borrower communication, and sometimes competitive pricing when personal relationships or strategic interests reduce return requirements. However, limitations include potentially slower decision-making from single decision-maker availability, variable lending capacity depending on personal capital deployment across multiple investments, and sometimes inconsistent processes lacking professional lending operation sophistication.

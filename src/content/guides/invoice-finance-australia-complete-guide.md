@@ -11,6 +11,21 @@ readingTime: 12
 
 # Invoice Finance in Australia: The Complete Guide for Business Cash Flow
 
+---
+
+> **📖 Series Context**: This guide is part of our **Working Capital & Refinancing** series. For a complete overview, see our [Working Capital Loans Guide for SMEs](/resources/guides/working-capital-loans-for-smes).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Businesses with outstanding invoices seeking cash flow |
+| **What it addresses** | Invoice factoring, discounting, and receivables financing options |
+| **When this is appropriate** | When you have quality debtors and need to accelerate cash collection |
+| **When it's NOT appropriate** | For businesses with few invoices or poor debtor quality |
+
+---
+
 ## Introduction
 
 Invoice finance provides essential cash flow solutions for Australian businesses by converting outstanding customer invoices into immediate working capital, addressing the fundamental challenge of maintaining operations while waiting for customer payments. This sophisticated financing approach enables businesses to access up to 90% of invoice values within 24-48 hours of delivery, transforming accounts receivable into operational funding. For tailored [working capital solutions](/services/working-capital), understanding invoice finance is a crucial starting point.

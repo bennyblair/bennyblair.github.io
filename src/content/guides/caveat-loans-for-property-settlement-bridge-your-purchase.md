@@ -17,6 +17,21 @@ The Australian property settlement context creates specific scenarios where cave
 
 This comprehensive guide examines how caveat loans facilitate property settlement bridge finance, covering approval processes, cost structures, eligibility requirements, and strategic deployment. We'll explore specific settlement scenarios, compare alternatives, analyse risk management considerations, and provide practical frameworks for determining when caveat loans represent optimal solutions versus situations where alternative approaches better serve your interests. Emet Capital offers [caveat loans](/services/caveat-loans) and [bridging finance](/services/bridging-finance) for urgent property settlement requirements.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Property buyers with imminent settlement deadlines |
+| **What it addresses** | Using caveat finance to bridge settlement gaps when other funding falls through |
+| **When this is appropriate** | When facing settlement default and needing emergency bridging within days |
+| **When it's NOT appropriate** | When you have 2+ weeks and can arrange standard bridging finance |
+
+---
+
 ## Understanding Caveat Loans for Settlement Finance
 
 [Caveat loans](/resources/guides/caveat-loans-australia-complete-guide) function as secured short-term lending facilities using property equity as security through caveat registration rather than traditional mortgage processes. This fundamental structural difference enables rapid deployment but creates distinct obligations and cost implications borrowers must understand before proceeding. The caveat itself represents a legal instrument registered on property title preventing dealings—sales, refinancing, or additional encumbrances—without caveat holder permission, providing lenders security interest supporting their lending exposure.

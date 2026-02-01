@@ -17,6 +17,21 @@ The challenge extends beyond simply finding lowest interest rates. Reputable pri
 
 This 2025 guide provides systematic methodology for finding, evaluating, and comparing private lenders loans across key decision factors. Whether seeking secured property lending, equipment finance, working capital facilities, or acquisition funding, these comparison approaches help you make informed decisions securing competitive private financing whilst avoiding costly mistakes. Emet Capital provides [private lending solutions](/services/private-lending) for businesses seeking flexible, fast finance options.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers comparing current private lending options |
+| **What it addresses** | 2025 market overview, rates, and lender comparisons |
+| **When this is appropriate** | When actively comparing private lender offers |
+| **When it's NOT appropriate** | For understanding private lending fundamentals |
+
+---
+
 ## Where to Find Private Lenders
 
 Discovering appropriate private lenders matching your specific circumstances and funding requirements demands understanding various discovery channels, each providing access to different lender categories with varying risk profiles and pricing structures.

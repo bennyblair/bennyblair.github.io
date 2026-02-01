@@ -16,6 +16,21 @@ Australian commercial property transactions typically span 60-120 days from init
 
 This comprehensive guide provides systematic step-by-step processes for successfully purchasing commercial property in Australia, covering property identification and selection criteria, [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide) arrangement and approval, due diligence procedures and timeline management, contract negotiation and legal considerations, settlement preparation and completion, plus post-settlement property management establishment. Whether purchasing owner-occupied business premises, investment properties generating rental income, or development sites for future projects, following structured purchase processes significantly improves transaction success rates whilst minimising financial risks and unexpected complications throughout the acquisition journey. Emet Capital offers [bridging finance](/services/bridging-finance) for time-sensitive commercial property acquisitions.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | First-time commercial property buyers |
+| **What it addresses** | Complete acquisition process from search to settlement |
+| **When this is appropriate** | When planning your first commercial property purchase |
+| **When it's NOT appropriate** | For investors adding to existing portfolios |
+
+---
+
 ## Defining Your Commercial Property Requirements and Budget
 
 Successful commercial property purchases begin with clearly defined property requirements and realistic budget parameters established before property searching commences. Business owners purchasing owner-occupied premises must balance immediate operational needs with future growth capacity, assessing factors including required floor space for current staffing levels plus 20-30% expansion capacity, specific zoning permissions enabling intended business activities, customer accessibility and visibility impacting revenue generation, employee amenity and parking availability affecting recruitment and retention, and proximity to suppliers, customers, or industry clusters reducing operational costs. Investors purchasing rental properties prioritise different criteria including tenant quality and lease security, net rental yields exceeding 6-8% after outgoings, capital growth potential within specific precincts or property categories, property condition minimising immediate capital expenditure, and management requirements fitting available time or budget for professional management.

@@ -17,6 +17,21 @@ These differences stem from fundamental risk assessment variations between prope
 
 This comprehensive guide examines the critical differences between commercial and residential mortgages in Australia, providing detailed comparisons across interest rates, deposit requirements, loan terms, approval processes, and ongoing obligations. We'll analyse how these differences impact borrowing costs, application strategies, and long-term financing management, enabling informed decisions when pursuing property acquisitions across residential and commercial sectors. Whether you're a residential property investor considering commercial expansion or a business owner comparing financing options, understanding these fundamental distinctions ensures appropriate expectations and optimal strategy deployment. Emet Capital provides [first and second mortgage solutions](/services/first-second-mortgages) for businesses seeking flexible property-backed finance.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers new to commercial lending |
+| **What it addresses** | Key differences between residential and commercial loan requirements |
+| **When this is appropriate** | When transitioning from residential to commercial property investment |
+| **When it's NOT appropriate** | For experienced commercial investors |
+
+---
+
 ## Interest Rate Structures and Pricing Differences
 
 [Commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) typically carry interest rates 0.5-2% higher than residential mortgages, reflecting increased lender risk from property type, narrower buyer markets, and business income dependency. Current Australian residential mortgage rates range from 6.0-7.5% for owner-occupiers and 6.5-8.0% for investors, whilst commercial mortgages typically span 7.0-9.5% depending on property type, location, and borrower strength. A Sydney business owner securing commercial property finance at 8.2% pays approximately $82,000 annually on a $1 million loan, versus $70,000 at residential investor rates of 7.0%—a $12,000 annual premium reflecting commercial lending risk adjustments.

@@ -14,6 +14,21 @@ The Australian property finance system is a complex ecosystem, and while most bo
 
 Understanding the secondary mortgage market is essential not just for economists, but for sophisticated investors and business owners. It explains why non-bank lenders can offer competitive rates despite not taking deposits, and how global economic shifts impact your local mortgage repayment. Furthermore, the term "secondary market" is often used interchangeably to describe the market for "second mortgages"—a distinct but related sector of private finance. This guide unpacks the layers of the secondary mortgage market in Australia, explaining how it works, who the key players are, and what it means for the availability and cost of credit in the commercial and residential sectors.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Sophisticated borrowers interested in wholesale mortgage markets |
+| **What it addresses** | How secondary markets work and affect retail second mortgage availability |
+| **When this is appropriate** | When you want deeper understanding of market dynamics affecting your options |
+| **When it's NOT appropriate** | For straightforward second mortgage applications |
+
+---
+
 ## What is the Secondary Mortgage Market?
 
 In its purest financial sense, the secondary mortgage market is where existing mortgages are bought and sold. When you take out a home loan, you are in the primary market. The lender originates the loan and gives you the cash. However, lenders often do not want to hold these loans on their balance sheets for 30 years. They need to recycle their capital so they can lend to the next borrower. To do this, they sell your loan (often bundled with thousands of others) to investors in the secondary market.

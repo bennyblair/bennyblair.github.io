@@ -95,6 +95,21 @@ The Australian second mortgage market operates differently from traditional lend
 
 Selecting the wrong broker can cost thousands through higher interest rates, excessive fees, or inappropriate loan structures that create future refinancing problems. This guide explains how to identify qualified second mortgage brokers, what questions to ask during initial consultations, how to compare broker services and costs, and red flags indicating brokers who might not serve your best interests in this specialised lending category.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers seeking specialist broker assistance |
+| **What it addresses** | Finding, evaluating, and working with second mortgage specialists |
+| **When this is appropriate** | When you want expert guidance navigating the second mortgage market |
+| **When it's NOT appropriate** | If you prefer dealing directly with lenders |
+
+---
+
 ## Understanding Second Mortgage Broker Specialisation
 
 Second mortgage brokers require different skills and lender relationships compared to brokers primarily handling first mortgage business. Understanding these specialisation differences helps you identify brokers genuinely equipped to handle your second mortgage needs effectively.

@@ -18,6 +18,28 @@ First mortgages represent the primary security interest over a property, typical
 
 This comprehensive guide explores the mechanics, benefits, and strategic applications of first and second mortgages in the Australian business lending landscape. Whether you're considering property acquisition, seeking additional capital against existing assets, or evaluating refinancing options, understanding these fundamental financing tools will help inform your commercial borrowing decisions. We'll examine qualification criteria, cost structures, risk considerations, and practical scenarios where each mortgage type provides optimal solutions for different business objectives and financial circumstances.
 
+---
+
+> **📚 Complete Guide**: This is Emet Capital's comprehensive guide to first & second mortgages in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
+
+### Related In-Depth Guides
+
+Explore our specialist first & second mortgages guides for specific scenarios:
+
+- **[First Mortgage Fundamentals](/resources/guides/first-mortgage-loans-primary-property-finance)** — Understanding primary property finance for business
+- **[How Second Mortgages Work](/resources/guides/second-mortgage-for-business)** — Mechanics of business funding through second mortgages
+- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Is a second mortgage right for your company?
+- **[2nd Mortgages for Capital](/resources/guides/2nd-loan-mortgage-business-capital)** — Accessing business capital through property equity
+- **[Bad Credit Second Mortgages](/resources/guides/second-mortgage-bad-credit-qualify)** — Qualifying options when credit is impaired
+- **[Second Mortgage Lenders](/resources/guides/second-mortgage-lenders-australia-directory)** — Directory of Australian second mortgage providers
+- **[Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — Unlocking your property's hidden value
+- **[Partnership Buyouts](/resources/guides/second-mortgage-partnership-buyout-financing-transitions)** — Financing business ownership transitions
+- **[Finding Mortgage Brokers](/resources/guides/how-to-find-second-mortgage-brokers-australia)** — Selecting specialist second mortgage brokers
+- **[When Second Mortgages Make Sense](/resources/guides/when-second-mortgages-make-financial-sense-smes)** — Financial analysis for SME decision-making
+- **[Secondary Mortgage Markets](/resources/guides/understanding-secondary-mortgage-markets-australia)** — How the wholesale market affects your options
+
+---
+
 ## Understanding First Mortgages for Business
 
 A first mortgage represents the primary lien or security interest held against a commercial property, giving the lender priority claim over the asset in case of default. For businesses, first mortgages typically fund property acquisitions, major developments, or significant capital investments where the property serves as primary security.

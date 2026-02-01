@@ -103,6 +103,21 @@ For business owners and property investors, first mortgages represent the founda
 
 This guide explains how first mortgage loans work in the Australian commercial property market, what lenders look for when assessing applications, and how they compare to other financing structures. We'll cover everything from loan-to-value ratios to interest rate expectations, helping you determine whether a first mortgage suits your business financing strategy. Emet Capital offers [first and second mortgage solutions](/services/first-second-mortgages) for businesses seeking flexible property-backed finance.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners seeking primary property-secured lending |
+| **What it addresses** | First mortgage structures, LVRs, and qualification requirements for business purposes |
+| **When this is appropriate** | When purchasing property or refinancing with no existing mortgage debt |
+| **When it's NOT appropriate** | When there's an existing first mortgage you need to work around |
+
+---
+
 ## What Is a First Mortgage Loan?
 
 A first mortgage loan is a debt secured against property where the lender registers their interest as the primary charge. This registration happens through the relevant state or territory's land titles office, creating a legal priority that protects the lender's position. When you take out a first mortgage, that lender's security interest appears before any other financial claims on the property title.

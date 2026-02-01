@@ -14,6 +14,21 @@ Securing a commercial property at auction requires more than just a winning bid;
 
 In the fast-paced world of commercial real estate, missing a settlement date can result in the loss of your deposit and significant legal complications. Commercial bridging loans bridge the gap between the immediate need for funds at auction and the eventual availability of permanent financing or the sale of an existing asset. Whether you are looking to acquire a retail storefront, an industrial warehouse, or a development site, understanding how to leverage bridging finance can be the difference between securing a prime asset and missing out on a lucrative opportunity. This guide explores the mechanics, benefits, and strategic application of bridging loans for auction purchases.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Experienced investors seeking expert-level auction finance strategies |
+| **What it addresses** | Advanced due diligence, deposit structuring, and competitive bidding tactics |
+| **When this is appropriate** | When bidding on high-value commercial properties in competitive auctions |
+| **When it's NOT appropriate** | For first-time auction buyers or residential property auctions |
+
+---
+
 ## Understanding Auction Finance Dynamics
 
 The auction environment in Australia is uniquely high-pressure, characterised by unconditional contracts and non-negotiable settlement periods, typically ranging from 30 to 42 days. When the hammer falls, you are legally committed to the purchase, and failure to settle can have severe financial and legal consequences. Traditional lenders, such as major banks, often struggle to meet these accelerated timeframes due to their rigorous and lengthy credit approval processes. This misalignment between auction requirements and bank processing times creates a significant risk for unprepared buyers.

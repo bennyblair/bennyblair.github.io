@@ -127,6 +127,18 @@ Asset-backed lending encompasses various structures including inventory financin
 
 This comprehensive guide examines asset-backed lending and asset finance options available to Australian businesses, covering structures, eligibility criteria, application processes, and strategic considerations. Whether seeking working capital solutions, expansion funding, or acquisition finance, understanding asset-backed lending principles helps businesses optimise their financing arrangements while managing associated risks and maximising operational benefits.
 
+---
+
+> **📚 Complete Guide**: This is Emet Capital's comprehensive guide to asset finance in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
+
+### Related In-Depth Guides
+
+Explore our specialist asset finance guides for specific scenarios:
+
+- **[Equipment Finance & Leasing](/resources/guides/equipment-finance-and-leasing-australia)** — Financing business equipment, vehicles, and machinery purchases
+
+---
+
 ## Understanding Asset-Backed Lending Principles
 
 Asset-backed lending fundamentally differs from traditional cash flow-based lending by focusing on asset values rather than earnings capacity as the primary security and repayment source. This approach enables businesses with substantial asset bases to access funding regardless of temporary cash flow constraints or limited operating history.

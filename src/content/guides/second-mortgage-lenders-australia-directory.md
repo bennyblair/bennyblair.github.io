@@ -17,6 +17,21 @@ Second mortgages serve numerous commercial and investment purposes: accessing eq
 
 This comprehensive directory explains the different types of second mortgage lenders operating in Australia, what each category offers, typical rates and terms across lender types, eligibility requirements, and how to identify lenders most likely to approve your specific scenario. Understanding the landscape helps you target appropriate lenders efficiently rather than wasting time with applications to institutions that don't suit your situation or rarely approve second mortgage lending.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers ready to compare specific second mortgage providers |
+| **What it addresses** | Directory of Australian second mortgage lenders with rates and criteria |
+| **When this is appropriate** | When you've decided on a second mortgage and need to find the right lender |
+| **When it's NOT appropriate** | If you're still evaluating whether a second mortgage suits your needs |
+
+---
+
 ## Understanding Australia's Second Mortgage Landscape
 
 The Australian second mortgage market operates differently from primary mortgage lending, with distinct lender categories filling various niches based on risk tolerance, return expectations, and target borrower profiles.

@@ -20,6 +20,21 @@ The Australian trade finance market offers diverse products ranging from simple 
 
 This comprehensive guide examines trade finance solutions available to Australian businesses, covering application processes, cost structures, risk management strategies, and strategic considerations for different trade scenarios. Whether managing regular import cycles, pursuing export growth opportunities, or handling complex international transactions, understanding trade finance principles helps businesses optimize their international trade operations while managing associated risks effectively.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Working Capital & Refinancing** series. For a complete overview, see our [Working Capital Loans Guide for SMEs](/resources/guides/working-capital-loans-for-smes).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Importers and exporters managing international trade |
+| **What it addresses** | Letters of credit, trade guarantees, and import/export financing |
+| **When this is appropriate** | When conducting international trade requiring payment security |
+| **When it's NOT appropriate** | For domestic-only business operations |
+
+---
+
 ## Understanding Trade Finance Fundamentals
 
 Trade finance encompasses various financial instruments and services designed to facilitate international commerce by providing payment security, risk mitigation, and working capital solutions for importers and exporters. These arrangements address the inherent risks and timing mismatches in cross-border transactions.

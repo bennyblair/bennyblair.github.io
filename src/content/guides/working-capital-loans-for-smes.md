@@ -127,6 +127,22 @@ Interest rates for working capital loans typically range from 6-25% per annum de
 
 This comprehensive guide examines working capital loan options available to Australian SMEs, covering application processes, eligibility criteria, cost structures, and strategic considerations for different business scenarios. Whether managing seasonal cash flow cycles, funding growth initiatives, or navigating unexpected financial challenges, understanding working capital financing options helps business owners make informed decisions that support operational stability and strategic objectives.
 
+---
+
+> **📚 Complete Guide**: This is Emet Capital's comprehensive guide to working capital & refinancing in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
+
+### Related In-Depth Guides
+
+Explore our specialist working capital & refinancing guides for specific scenarios:
+
+- **[Invoice Finance Guide](/resources/guides/invoice-finance-australia-complete-guide)** — Unlock cash tied up in unpaid invoices
+- **[Debtor & Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia)** — Comprehensive receivables and supply chain funding
+- **[Trade Finance Guide](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — Managing imports, exports, and international trade
+- **[Business Debt Consolidation](/resources/guides/business-debt-consolidation-australia)** — Restructuring multiple debts into manageable facilities
+- **[Business Acquisition Finance](/resources/guides/business-acquisition-finance-australia)** — Funding business purchases and acquisitions
+
+---
+
 ## Understanding Working Capital and Business Cash Flow
 
 Working capital represents the difference between current assets and current liabilities, indicating a business's ability to meet short-term obligations and fund ongoing operations. Positive working capital ensures businesses can pay suppliers, employees, and other immediate expenses while maintaining inventory levels and pursuing growth opportunities.

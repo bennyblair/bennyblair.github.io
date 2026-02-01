@@ -15,6 +15,21 @@ The commercial lending landscape has evolved considerably in recent years, with 
 
 This guide examines the essential eligibility criteria for commercial property loans in Australia, including credit score expectations, deposit requirements, income verification processes, and property assessment standards. We'll explore how different lender types approach eligibility, strategies to strengthen your application, and common obstacles that prevent approval. Whether you're a first-time commercial borrower or an experienced property investor, understanding these criteria will help you navigate the application process with confidence and secure the financing you need for your commercial property goals.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers assessing their qualification chances |
+| **What it addresses** | Eligibility criteria, documentation requirements, and pre-approval processes |
+| **When this is appropriate** | When preparing a commercial loan application |
+| **When it's NOT appropriate** | If you're comparing final loan offers |
+
+---
+
 ## Credit Score and History Requirements
 
 Your credit score serves as a fundamental indicator of financial reliability when applying for a commercial property loan. Australian lenders typically require a minimum credit score of 650 for commercial lending, though scores above 700 significantly improve approval chances and access to competitive interest rates. Unlike residential lending, commercial lenders examine both personal and business credit histories, as the business entity's financial track record directly impacts perceived repayment risk.

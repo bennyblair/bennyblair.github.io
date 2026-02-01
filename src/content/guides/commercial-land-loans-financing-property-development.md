@@ -21,6 +21,21 @@ The Australian commercial land lending market has tightened considerably over re
 
 This guide examines how commercial land loans work in Australia, what lenders assess when evaluating applications, and how to structure your land acquisition to position yourself optimally for construction finance. We'll cover typical rates and terms, the transition from land loan to development funding, and strategies for managing the financial gap between purchase and project commencement. Whether you're a first-time developer or an experienced property professional, understanding the nuances of commercial land finance is crucial for project success.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Developers acquiring sites for future development |
+| **What it addresses** | Land acquisition finance before DA or construction |
+| **When this is appropriate** | When purchasing development sites ahead of project commencement |
+| **When it's NOT appropriate** | For developed property purchases |
+
+---
+
 ## How Commercial Land Loans Differ from Property Loans
 
 Commercial land loans carry higher risk for lenders because vacant land generates no income and has limited alternative uses if the development doesn't proceed. An established commercial building in Melbourne's CBD can be sold to numerous potential buyers or leased to generate income immediately. A vacant development site in the same location only appeals to developers with specific plans, capital, and expertise to execute a project.

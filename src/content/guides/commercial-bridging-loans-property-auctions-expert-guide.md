@@ -16,6 +16,21 @@ Australian commercial property auctions increasingly attract investor and owner-
 
 This comprehensive guide examines commercial [bridging loan](/services/bridging-finance) fundamentals for auction scenarios, explores pre-auction preparation strategies including finance pre-approval and due diligence timing, investigates bidding strategies and limit setting based on total acquisition costs including bridging expenses, analyses settlement coordination ensuring smooth transitions from auction success to ownership transfer, evaluates permanent finance refinancing approaches converting temporary bridging to conventional mortgages, and provides risk management frameworks preventing common auction pitfalls from inadequate preparation, emotional bidding, or insufficient exit planning destroying intended investment returns through excessive costs or forced property sales.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Property investors preparing for auction day financing |
+| **What it addresses** | Settlement timelines, title searches, and lender requirements for auction purchases |
+| **When this is appropriate** | When you need detailed preparation checklists for auction bidding |
+| **When it's NOT appropriate** | If you're comparing bridging to other finance types |
+
+---
+
 ## Understanding Commercial Bridging Loan Auction Applications
 
 Commercial bridging loans for auctions provide 6-12 month temporary funding enabling property settlement then refinancing to permanent conventional mortgages once ownership transfers and buyers secure adequate time arranging optimal long-term financing without auction deadline pressure. Loan amounts typically match full purchase price plus acquisition costs including stamp duty, legal fees, and bridging establishment expenses, though some lenders cap advances at 70-75% of property value requiring buyers contributing 25-30% equity from personal resources. On $2 million commercial property auction, typical bridging provides $1.4-1.5 million with buyers funding $500,000-600,000 covering deposit, settlement balance portion, and acquisition costs totalling approximately 25-30% of purchase price.

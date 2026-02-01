@@ -101,6 +101,21 @@ The decision to take a second mortgage shouldn't center solely on interest rate 
 
 Understanding when second mortgages make financial sense requires evaluating your complete situation: existing first mortgage terms, urgency of funding needs, anticipated holding period, and whether borrowed funds generate returns exceeding borrowing costs. This decision framework helps you determine whether second mortgages suit your specific SME circumstances or whether alternatives deliver better outcomes.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | SME owners analysing the financial viability of second mortgages |
+| **What it addresses** | Financial analysis framework for deciding if second mortgages are worthwhile |
+| **When this is appropriate** | When you need to justify second mortgage costs against business returns |
+| **When it's NOT appropriate** | For urgent funding where detailed analysis isn't possible |
+
+---
+
 ## The Second Mortgage Decision Framework
 
 Evaluating second mortgages requires systematic analysis balancing costs against strategic benefits that extend beyond simple interest rate comparisons.

@@ -16,6 +16,21 @@ The Australian short-term property lending market has grown substantially over t
 
 This comprehensive guide examines short-term property loan fundamentals including product categories, typical use cases, and cost structures, explores [bridging finance](/services/bridging-finance) applications for settlement timing mismatches, analyses [caveat loans](/services/caveat-loans) providing ultra-fast funding against existing property equity, investigates approval processes and documentation requirements enabling rapid settlement, and evaluates strategic considerations determining when short-term property loans represent optimal financing solutions versus alternatives including conventional mortgages, personal asset sales, or transaction restructuring avoiding financing needs entirely.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners needing property-secured finance within days |
+| **What it addresses** | Fastest approval pathways, documentation shortcuts, and urgent settlement options |
+| **When this is appropriate** | When timing is critical and you need funding in 7-14 days or less |
+| **When it's NOT appropriate** | When you have 4+ weeks and can access lower-cost traditional lending |
+
+---
+
 ## Understanding Short-Term Property Loan Fundamentals
 
 Short-term property loans encompass various finance products sharing common characteristics including abbreviated approval timelines, temporary funding periods, asset-based lending criteria, and premium interest rates reflecting accelerated service delivery and elevated lender risk. Primary short-term property loan categories include bridging finance spanning settlement gaps between property sales and purchases, caveat loans secured through caveats lodged against property titles rather than registered mortgages, development finance providing initial project funding before construction loan approval, and refinance solutions addressing urgent debt consolidation or default prevention. Each category serves distinct purposes with varying approval criteria, loan terms, and cost structures, though all prioritise speed and flexibility over conventional lending's detailed income verification and extended assessment processes.

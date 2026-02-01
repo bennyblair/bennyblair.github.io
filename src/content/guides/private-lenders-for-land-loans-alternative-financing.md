@@ -99,6 +99,21 @@ The private lending market for land acquisition has grown substantially over the
 
 Understanding how private lenders for land loans operate—their assessment criteria, pricing structures, typical terms, and expectations—helps you access this alternative financing source effectively. Interest rates range from 8% to 15% depending on land type, location, and your development plans, whilst loan terms typically span 12 to 36 months. This guide explores when private land loans make sense, how to find appropriate lenders, what they examine during assessment, and strategies to structure deals maximising approval likelihood whilst managing the higher costs inherent in private financing.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Land buyers unable to access bank land finance |
+| **What it addresses** | Private financing options for raw land and development sites |
+| **When this is appropriate** | When purchasing land that banks won't finance due to zoning or location |
+| **When it's NOT appropriate** | For developed property with standard bank eligibility |
+
+---
+
 ## Understanding Private Land Lending
 
 Private lenders for land loans operate fundamentally differently from traditional banks, using alternative assessment frameworks that enable them to approve deals banks systematically decline. Recognising these differences helps you approach private lenders appropriately and structure applications for optimal outcomes.

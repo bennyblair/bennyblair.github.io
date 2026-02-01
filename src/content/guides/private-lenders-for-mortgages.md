@@ -23,6 +23,21 @@ Private lenders for mortgages step in precisely at this moment. These non-bank f
 
 This guide explores everything you need to know about private mortgage lending in Australia: how these lenders operate, what they truly cost, who qualifies, and when they make financial sense. We'll examine real scenarios where private lending saves deals that banks won't touch, and reveal the red flags that signal you should walk away. Emet Capital provides [private lending solutions](/services/private-lending) for property-secured finance requirements.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers declined by banks seeking mortgage alternatives |
+| **What it addresses** | Private mortgage options when traditional lenders say no |
+| **When this is appropriate** | When bank mortgage applications have been declined or are unsuitable |
+| **When it's NOT appropriate** | For borrowers who qualify for mainstream bank mortgages |
+
+---
+
 ## Understanding Private Mortgage Lenders in Australia
 
 Private lenders for mortgages operate outside the traditional banking system. They're typically high-net-worth individuals, private equity funds, or specialist lending companies that use their own capital rather than depositor funds to issue loans.

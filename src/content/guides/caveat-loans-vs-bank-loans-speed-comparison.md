@@ -112,6 +112,21 @@ Understanding when caveat loans justify their premium pricing versus when bank l
 
 This comprehensive caveat loan comparison examines approval speeds, cost structures, documentation requirements, and strategic use cases helping you determine which funding option suits your business circumstances. Emet Capital provides [caveat loan solutions](/services/caveat-loans) for businesses requiring fast property-secured funding.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners weighing caveat finance against bank alternatives |
+| **What it addresses** | Direct comparison of speed, cost, documentation, and approval requirements |
+| **When this is appropriate** | When you have time to consider options and want to make an informed choice |
+| **When it's NOT appropriate** | In genuine emergencies where speed is the only priority |
+
+---
+
 ## Approval Speed Comparison
 
 The most dramatic difference between caveat loans and bank loans lies in approval and funding timelines, with caveat loans delivering capital in days while banks require weeks or months.

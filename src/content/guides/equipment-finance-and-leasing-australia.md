@@ -127,6 +127,21 @@ Interest rates for equipment finance typically range from 4-12% per annum depend
 
 This comprehensive guide examines equipment financing and leasing options available to Australian businesses, covering application processes, tax considerations, cost comparisons, and strategic decision frameworks. Whether acquiring manufacturing equipment, commercial vehicles, IT systems, or specialised machinery, understanding these funding mechanisms helps business owners make informed choices that optimise cash flow, tax outcomes, and operational efficiency.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Asset Finance** series. For a complete overview, see our [Complete Asset Finance Guide](/resources/guides/asset-backed-lending-and-asset-finance).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners acquiring equipment, vehicles, or machinery |
+| **What it addresses** | Equipment loans, chattel mortgages, leasing structures, and novated leases |
+| **When this is appropriate** | When financing specific equipment purchases or vehicle acquisitions |
+| **When it's NOT appropriate** | For property-based lending or general working capital needs |
+
+---
+
 ## Understanding Equipment Finance Versus Leasing
 
 Equipment finance and leasing represent fundamentally different approaches to acquiring business assets, each offering distinct advantages depending on business objectives, cash flow requirements, and tax planning strategies. Understanding these differences is crucial for optimal decision-making.

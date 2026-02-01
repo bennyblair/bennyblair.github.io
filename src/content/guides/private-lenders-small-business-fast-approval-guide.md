@@ -17,6 +17,21 @@ The private lending market for small business has expanded substantially over th
 
 Understanding how private lenders for small business operate—their assessment criteria, typical terms, costs, and expectations—helps you access this alternative funding source effectively whilst managing the premium pricing inherent in private finance. Interest rates typically range from 12% to 30% annually depending on security, business strength, and loan structure, with terms spanning 6 to 36 months. This guide explores when private lending suits small businesses, how to find appropriate lenders, what they examine during assessment, and strategies to structure applications maximising approval likelihood whilst minimising costs. Emet Capital offers [private lending solutions](/services/private-lending) for small businesses requiring fast approval.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Small business owners needing quick funding decisions |
+| **What it addresses** | Fast-track approval processes and documentation shortcuts |
+| **When this is appropriate** | When approval speed is as important as the funding itself |
+| **When it's NOT appropriate** | When you have time to pursue lower-cost bank options |
+
+---
+
 ## Understanding Private Lending for Small Business
 
 Private lenders for small business operate fundamentally differently from banks, using alternative assessment frameworks that enable them to approve deals banks systematically decline. Recognising these differences helps you approach private lenders appropriately and set realistic expectations.

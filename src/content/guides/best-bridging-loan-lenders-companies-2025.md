@@ -103,6 +103,21 @@ The Australian bridging loan market has evolved significantly in recent years. M
 
 This comprehensive guide examines Australia's leading bridging loan lenders for 2025, comparing their rates, approval speeds, LVR limits, and ideal borrower profiles. Whether you're bridging between residential properties, funding [commercial acquisitions](/resources/guides/commercial-property-loans-australia-complete-guide), or managing development projects, understanding your lender options is crucial for making informed financing decisions.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers who have decided bridging finance is right for them and need to compare specific lenders |
+| **What it addresses** | Comparing rates, LVRs, approval speeds, and serviceability requirements across providers |
+| **When this is appropriate** | When you have a clear bridging scenario and need the best lender match |
+| **When it's NOT appropriate** | If you're still deciding whether bridging finance suits your situation |
+
+---
+
 ## Understanding the Bridging Loan Market in 2025
 
 Australia's bridging loan market has transformed significantly, with major banks reducing their participation and specialist lenders expanding offerings. The current market divides into three distinct tiers: top-tier specialist lenders offering rates from 8.5-10.5% with LVRs up to 80%, mid-tier lenders providing flexible serviceability at 10-13% with LVRs reaching 75%, and private lenders charging 12-18% but accepting deals traditional lenders decline.

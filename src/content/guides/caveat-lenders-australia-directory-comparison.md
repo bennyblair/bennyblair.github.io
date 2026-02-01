@@ -22,6 +22,21 @@ Understanding which lender type aligns with your specific situation—whether yo
 
 This comprehensive directory examines Australia's caveat lending landscape by lender category, comparing rate structures, settlement speeds, loan parameters, and ideal applications. Rather than promoting specific competitors, we'll help you identify which lender type suits your circumstances, enabling informed discussions with experienced finance specialists who can match you with appropriate providers.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers ready to compare specific caveat lenders |
+| **What it addresses** | Rates, LVRs, approval speeds, and terms across major caveat providers |
+| **When this is appropriate** | When you've decided caveat finance suits your needs and want to compare options |
+| **When it's NOT appropriate** | If you're still evaluating whether caveat loans are right for your situation |
+
+---
+
 ## Understanding Australia's Caveat Lending Market
 
 The Australian caveat lending market has evolved significantly, with distinct lender categories emerging to serve different segments of the urgent property finance market. Understanding these categories helps you target your search effectively.

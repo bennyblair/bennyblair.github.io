@@ -16,6 +16,21 @@ Traditional partnership buyout financing approaches including business cash flow
 
 This comprehensive guide examines partnership buyout fundamentals including valuation methodologies and equity calculations, explores [second mortgage structures](/services/first-second-mortgages) enabling buyout funding whilst preserving first mortgage arrangements, investigates legal documentation and shareholder agreement provisions protecting buyout transaction integrity, analyses [business acquisition finance](/services/business-acquisition) alternatives comparing second mortgages against other buyout funding approaches, evaluates tax implications and structuring considerations optimising financial outcomes, and provides systematic buyout processes ensuring smooth transitions protecting continuing partner interests whilst fairly compensating exiting partners for contributed value.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business partners planning ownership changes |
+| **What it addresses** | Using second mortgages to fund partner buyouts and business transitions |
+| **When this is appropriate** | When buying out a partner or restructuring business ownership |
+| **When it's NOT appropriate** | For general working capital or non-transition funding needs |
+
+---
+
 ## Understanding Partnership Buyout Valuation and Equity Calculation
 
 Business valuation methodologies determine buyout pricing, with multiple approaches yielding varying results requiring negotiation between exiting and continuing partners establishing mutually acceptable values. Earnings-based valuations applying multiples to normalised business earnings represent most common methodology for profitable established businesses, typically using 2-5x EBITDA (earnings before interest, tax, depreciation, and amortisation) depending on industry, growth trajectory, and business risk profile. Professional services firms including accounting practices, legal firms, or consulting businesses command premium multiples of 4-6x EBITDA reflecting recurring revenue and established client relationships, whilst retail operations, hospitality businesses, or manufacturing enterprises attract lower multiples of 2-3x reflecting greater operational complexity and market volatility.

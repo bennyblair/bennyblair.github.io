@@ -91,6 +91,21 @@ The truth sits somewhere between promise and practicality. Quick caveat loans ca
 
 Understanding what determines actual settlement speed helps you assess whether quick caveat loans suit your timeframe, prepare appropriately to maximise speed, and set realistic expectations rather than assuming automatic 48-hour funding. This guide examines the real timelines for caveat loan settlement, identifies factors that accelerate or delay the process, explores what "quick" actually means in different scenarios, and provides strategies to achieve genuinely fast funding when urgency matters. We'll also share real case studies showing when 48-hour settlement happens and when it doesn't, helping you plan accordingly.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers needing the fastest possible caveat settlement |
+| **What it addresses** | Realistic timelines, documentation requirements, and what enables 48-hour funding |
+| **When this is appropriate** | When you need to understand what's achievable for ultra-urgent funding |
+| **When it's NOT appropriate** | For standard caveat applications with 5-7 day timelines |
+
+---
+
 ## Understanding Quick Caveat Loan Timelines
 
 Quick caveat loans operate on compressed timelines compared to traditional bank lending, but "quick" means different things depending on your specific circumstances, property type, and how well you prepare the application.

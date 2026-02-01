@@ -16,6 +16,21 @@ Second loan mortgages sit behind your primary mortgage in the security queue, cr
 
 Understanding how 2nd loan mortgages work, what they cost, and when they make financial sense helps you evaluate whether accessing property equity through second position lending suits your business funding needs better than alternatives like refinancing, unsecured business loans, or asset finance.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners needing to access property equity for capital |
+| **What it addresses** | Strategies for releasing business capital through 2nd mortgages |
+| **When this is appropriate** | When you have substantial property equity and need growth capital |
+| **When it's NOT appropriate** | For property purchases rather than equity release |
+
+---
+
 ## Understanding 2nd Loan Mortgage Fundamentals
 
 A 2nd loan mortgage creates an additional security interest registered against property you already own, with your first mortgage remaining in place with its existing terms, rates, and conditions completely unchanged.

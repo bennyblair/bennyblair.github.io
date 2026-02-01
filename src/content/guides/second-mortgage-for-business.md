@@ -15,6 +15,21 @@ Second mortgages sit behind your primary mortgage in the priority queue. If you 
 
 Understanding how second mortgages actually work helps you decide whether this funding structure makes financial sense for your business. This guide explains the mechanics, costs, qualification requirements, and practical considerations that determine whether a second mortgage delivers the capital you need without creating unsustainable financial pressure.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners with existing mortgages seeking additional funding |
+| **What it addresses** | How second mortgages work mechanically, including subordination and security |
+| **When this is appropriate** | When you need to understand second mortgage fundamentals before applying |
+| **When it's NOT appropriate** | If you're ready to compare specific lenders |
+
+---
+
 ## Understanding Second Mortgage Structures
 
 A second mortgage creates an additional security interest registered against property you already own. While your first mortgage remains in place with its existing terms, the second mortgage functions as a separate loan with its own interest rate, fees, and repayment schedule.

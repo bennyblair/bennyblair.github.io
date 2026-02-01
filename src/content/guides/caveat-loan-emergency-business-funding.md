@@ -95,6 +95,21 @@ Australian businesses commonly use emergency caveat loans for several critical s
 
 The trade-off for this speed comes through higher interest rates—typically 1% to 2% monthly—and establishment fees around 2% to 4% of the loan amount. However, when facing business-threatening situations, the cost of not acting often exceeds the expense of emergency funding. This guide explains when caveat loans make sense for emergencies, how to access them quickly, and strategies to manage these expensive facilities whilst resolving the underlying financial pressures driving your immediate funding needs. Emet Capital provides [caveat loan solutions](/services/caveat-loans) for businesses facing urgent funding requirements.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners facing urgent cash flow crises or ATO debt |
+| **What it addresses** | Emergency funding for tax debt, payroll shortfalls, and supplier payments |
+| **When this is appropriate** | When you need funds within 24-72 hours to address a business emergency |
+| **When it's NOT appropriate** | For planned capital expenditure or growth funding with flexible timelines |
+
+---
+
 ## Understanding Caveat Loan Emergency Funding
 
 Caveat loans provide fast access to capital by placing a legal interest (caveat) over property you own, giving lenders security without the delays associated with traditional mortgage registration. This speed makes them particularly valuable during business emergencies requiring immediate action.

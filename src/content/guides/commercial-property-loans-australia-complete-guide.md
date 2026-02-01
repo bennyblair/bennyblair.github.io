@@ -16,6 +16,21 @@ The Australian commercial property lending market offers diverse solutions from 
 
 Understanding commercial property loan mechanics, lender requirements, and structure options helps businesses secure appropriate finance while optimising borrowing costs. This guide examines eligibility criteria, interest rates, loan structures, application processes, and strategic considerations for Australian commercial property financing.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners buying commercial property |
+| **What it addresses** | Comprehensive overview of commercial property lending options |
+| **When this is appropriate** | When you need full understanding of the commercial property finance landscape |
+| **When it's NOT appropriate** | If you've already decided on a specific loan type |
+
+---
+
 ## Understanding Commercial Property Loans
 
 Commercial property loans provide financing secured against business real estate including offices, retail premises, industrial facilities, warehouses, and mixed-use developments. These specialised products assess both property merit and borrower capacity, with lending decisions reflecting property income potential, location quality, tenant strength, and business financial performance.

@@ -19,6 +19,21 @@ Retail property loans typically achieve 60-70% LVR compared to 70-80% for office
 
 This comprehensive guide examines retail-specific considerations affecting commercial property loan applications, from foot traffic analysis and tenancy mix assessment to lease structure evaluation and location factors. We'll explore how lenders evaluate retail properties differently, what strengthens your application, and strategies for securing optimal terms on retail space acquisitions or refinancing. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for retail space acquisitions and investments.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Investors or owner-occupiers acquiring retail property |
+| **What it addresses** | Retail-specific lending considerations and valuation factors |
+| **When this is appropriate** | When purchasing shops, shopping centres, or retail strips |
+| **When it's NOT appropriate** | For office or industrial property purchases |
+
+---
+
 ## Understanding Retail Property Lending Fundamentals
 
 Retail property represents the most volatile segment of commercial property markets, with lender assessment focusing intensely on factors driving customer traffic and tenant viability that don't apply to office or industrial lending.

@@ -85,6 +85,21 @@ Unlike traditional commercial finance that scrutinises credit history and financ
 
 The speed comes with trade-offs, particularly in cost and loan terms. But when you're staring down a time-sensitive opportunity or emergency, understanding how urgent caveat loans work could be the difference between seizing the moment and watching it slip away.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners needing same-day or next-day approval |
+| **What it addresses** | 24-48 hour approval processes, required documentation, and urgent settlement pathways |
+| **When this is appropriate** | When a business emergency requires immediate funding action |
+| **When it's NOT appropriate** | For planned funding needs where you can shop for better rates |
+
+---
+
 ## What Makes Caveat Loans "Urgent" Compared to Standard Finance
 
 The defining characteristic of urgent caveat loans is their compressed approval timeline. Traditional commercial loans typically require 3-8 weeks from application to settlement. Banks need time to verify employment, analyse financial statements, conduct property valuations, and satisfy internal credit committees.

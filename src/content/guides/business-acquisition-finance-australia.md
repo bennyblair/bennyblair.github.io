@@ -127,6 +127,21 @@ Interest rates for acquisition finance typically range from 6-15% per annum depe
 
 This comprehensive guide examines business acquisition finance options, processes, and strategic considerations for Australian transactions. From understanding funding sources and due diligence requirements to structuring optimal acquisition arrangements and managing associated risks, we'll explore how acquirers can successfully finance business purchases while maximising their strategic and financial outcomes in competitive market conditions.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Working Capital & Refinancing** series. For a complete overview, see our [Working Capital Loans Guide for SMEs](/resources/guides/working-capital-loans-for-smes).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Entrepreneurs acquiring existing businesses |
+| **What it addresses** | Funding strategies for buying businesses, goodwill, and trading stock |
+| **When this is appropriate** | When purchasing an existing business as a going concern |
+| **When it's NOT appropriate** | For starting new businesses from scratch |
+
+---
+
 ## Understanding Business Acquisition Finance Structures
 
 Business acquisition finance combines multiple funding sources to enable business purchases, typically involving debt facilities secured against target business assets or cash flows, complemented by acquirer equity contributions or alternative funding arrangements. These structures must address purchase price funding, working capital requirements, and transaction costs.

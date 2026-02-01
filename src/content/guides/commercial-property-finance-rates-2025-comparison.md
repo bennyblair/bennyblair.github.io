@@ -14,6 +14,21 @@ Navigating the commercial property finance market in 2025 requires a keen unders
 
 Understanding these nuances is critical. A difference of just 0.5% in your interest rate can translate to tens of thousands of dollars in annual savings, directly impacting your bottom line. Whether you are looking to refinance an existing portfolio, acquire a new industrial site, or fund a [commercial property development](/services/commercial-property-development) project, having a clear picture of the current rate landscape is essential. This comprehensive guide breaks down the commercial property finance rates for 2025, offering a detailed comparison across different lending sectors to help you make informed financing decisions.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers comparing current market rates |
+| **What it addresses** | 2025 rate comparison across lender types and loan products |
+| **When this is appropriate** | When rate shopping or benchmarking your current loan |
+| **When it's NOT appropriate** | For understanding loan structures rather than rates |
+
+---
+
 ## The 2025 Commercial Lending Landscape
 
 The commercial lending landscape in 2025 has been shaped by a mix of global economic pressures and local regulatory adjustments. The Reserve Bank of Australia's monetary policy has continued to influence the base cost of funds, but the transmission to commercial rates has been uneven. Major banks have tightened their credit appetite for certain sectors, such as retail and office spaces in secondary locations, leading to a risk premium on these assets. Conversely, industrial and logistics properties continue to attract competitive pricing due to their strong performance and low vacancy rates.

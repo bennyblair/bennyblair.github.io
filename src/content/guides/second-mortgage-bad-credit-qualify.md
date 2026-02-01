@@ -17,6 +17,21 @@ The distinction between "bad credit" and "no credit hope" matters enormously. A 
 
 Understanding how second mortgage lenders assess bad credit applications, what rates and terms to expect, strategies to improve approval likelihood, and realistic timelines for credit repair helps borrowers navigate this challenging financing space. Interest rates for second mortgages with bad credit typically range from 12% to 20% annually—substantially higher than 8% to 12% for clean credit applicants—with lower maximum LVRs, higher establishment fees, and stricter ongoing conditions reflecting the elevated risk lenders accept.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers with credit issues seeking second mortgage options |
+| **What it addresses** | Qualification pathways, specialist lenders, and realistic expectations with bad credit |
+| **When this is appropriate** | When credit history may disqualify you from mainstream lenders |
+| **When it's NOT appropriate** | If you have clean credit and can access standard products |
+
+---
+
 ## Understanding Bad Credit Impact on Second Mortgages
 
 Bad credit affects second mortgage applications more severely than first mortgage lending given the compounding effect of subordinate security position and credit impairment creating elevated risk that most conservative lenders won't accept.

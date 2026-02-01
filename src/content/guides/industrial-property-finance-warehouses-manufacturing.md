@@ -18,6 +18,21 @@ These unique physical characteristics directly impact tenant suitability, rental
 
 This guide examines industrial property finance requirements, from understanding how lenders evaluate warehouse specifications and manufacturing facility suitability to securing optimal terms for industrial property acquisitions or refinancing. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for industrial property investments.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Industrial property investors and owner-occupiers |
+| **What it addresses** | Warehouse and manufacturing facility financing specifics |
+| **When this is appropriate** | When acquiring industrial, logistics, or manufacturing facilities |
+| **When it's NOT appropriate** | For office or retail property |
+
+---
+
 ## Understanding Industrial Property Lending
 
 Industrial property represents the most diverse commercial property category, with lending criteria varying substantially based on building specifications, tenant uses, and location characteristics that determine property versatility and long-term value.

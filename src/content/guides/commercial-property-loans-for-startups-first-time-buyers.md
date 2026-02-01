@@ -15,6 +15,21 @@ Australian commercial property lending has evolved significantly over recent yea
 
 This guide examines how startups and first-time buyers can successfully navigate commercial property lending in Australia. We'll cover realistic lending criteria, deposit requirements, documentation strategies, alternative financing options when traditional banks decline, and specific tactics that improve your application strength. Whether you're a tech startup seeking office space, a trades business wanting workshop premises, or a retail operator securing your first shopfront, the principles and strategies outlined here apply across industries and property types. Emet Capital provides [private lending solutions](/services/private-lending) for startups and first-time commercial property buyers who may not qualify for traditional bank finance.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | First-time commercial property buyers |
+| **What it addresses** | Entry strategies, deposit requirements, and beginner pathways |
+| **When this is appropriate** | When purchasing your first commercial property |
+| **When it's NOT appropriate** | For experienced investors with established portfolios |
+
+---
+
 ## Understanding Lending Criteria for Startup Borrowers
 
 Traditional commercial property lenders assess applications through three primary lenses: business financial strength, personal financial position, and property security value. For startups without established trading history, the weight shifts heavily toward personal financial strength and property security, with business projections playing a supporting rather than leading role. A Melbourne tech startup seeking $600,000 to purchase office space might succeed based primarily on the founder's $400,000 personal property equity and strong personal income history, even though the business itself only launched six months ago.

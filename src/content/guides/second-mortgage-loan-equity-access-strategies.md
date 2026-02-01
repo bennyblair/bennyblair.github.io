@@ -19,6 +19,21 @@ Second mortgage loans sit behind your primary mortgage in the security queue, cr
 
 The equity trapped in property often represents the largest untapped capital source available to business owners. A Melbourne office building purchased for $2 million five years ago now worth $2.8 million with a $1.2 million first mortgage contains $1.6 million equity. A second mortgage loan accessing just 60% of that equity ($960,000) could fund significant business expansion while maintaining your existing favorable first mortgage terms.
 
+---
+
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Property owners wanting to maximise equity extraction |
+| **What it addresses** | Advanced strategies for unlocking hidden property value |
+| **When this is appropriate** | When you want to optimise the amount you can access against your property |
+| **When it's NOT appropriate** | For basic second mortgage applications |
+
+---
+
 ## Understanding Property Equity Access
 
 Property equity represents the difference between your property's current market value and outstanding debt secured against it, creating a capital pool you can potentially access through second mortgage loans.

@@ -18,6 +18,35 @@ Interest rates for construction finance typically range from 5-9% per annum depe
 
 This comprehensive guide examines construction finance for commercial owner-occupier buildings, covering application processes, progressive funding mechanisms, cost structures, and strategic considerations. From understanding when construction proves more advantageous than purchasing existing premises to navigating builder selection and managing project risks, we explore how businesses can successfully finance custom commercial building projects. Emet Capital provides [commercial property development finance](/services/commercial-property-development) for businesses planning custom building projects.
 
+---
+
+> **📚 Complete Guide**: This is Emet Capital's comprehensive guide to construction & development finance in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
+
+### Related In-Depth Guides
+
+Explore our specialist construction & development finance guides for specific scenarios:
+
+- **[Building Development Loans](/resources/guides/building-development-loans-funding-guide)** — Complete funding guide for developers
+- **[Commercial Development Finance](/resources/guides/commercial-property-development-finance)** — Comprehensive commercial development funding
+- **[Commercial Land Loans](/resources/guides/commercial-land-loans-financing-property-development)** — Financing land acquisition for development
+- **[Commercial Property Loans](/resources/guides/commercial-property-loans-australia-complete-guide)** — Complete guide to commercial property lending
+- **[Loans for Startups](/resources/guides/commercial-property-loans-for-startups-first-time-buyers)** — First-time commercial buyers guide
+- **[Loans for Immigrants/Expats](/resources/guides/commercial-property-loans-for-immigrants-expats-australia)** — Options for non-residents
+- **[Loan Eligibility Guide](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Qualification requirements explained
+- **[Retail Property Loans](/resources/guides/commercial-property-loan-retail-spaces-guide)** — Financing retail and shop fronts
+- **[Finance Rates 2025](/resources/guides/commercial-property-finance-rates-2025-comparison)** — Current rate comparison
+- **[Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Restructuring existing development debt
+- **[Commercial vs Residential](/resources/guides/commercial-mortgages-vs-residential-key-differences-explained)** — Key differences explained
+- **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Step-by-step acquisition guide
+- **[Owner-Occupier Loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)** — Buying your business premises
+- **[Office Property Loans](/resources/guides/office-property-loans-financing-commercial-workspace)** — Commercial office financing
+- **[Industrial Finance](/resources/guides/industrial-property-finance-warehouses-manufacturing)** — Warehouses and manufacturing facilities
+- **[Hospitality Finance](/resources/guides/hospitality-property-finance-restaurants-hotels-venues)** — Restaurants, hotels, and venues
+- **[Mezzanine Finance](/resources/guides/mezzanine-finance-australia-complete-guide)** — Gap funding for larger developments
+- **[SMSF Commercial Loans](/resources/guides/smsf-loans-for-commercial-property)** — Buying commercial property through super
+
+---
+
 ## Understanding Construction Finance Fundamentals
 
 Construction finance operates through specialized structures accommodating the unique characteristics of building projects where properties progress from vacant land through various construction stages to completed commercial premises over extended timeframes.

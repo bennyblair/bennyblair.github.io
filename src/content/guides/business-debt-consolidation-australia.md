@@ -127,6 +127,21 @@ Interest rates for business debt consolidation typically range from 6-15% per an
 
 This comprehensive guide examines business debt consolidation options, processes, and strategic considerations for Australian companies seeking to optimize their debt structures. From understanding when consolidation makes financial sense to navigating application processes and managing risks, we'll explore how businesses can leverage consolidation strategies to improve cash flow management, reduce costs, and enhance operational flexibility.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Working Capital & Refinancing** series. For a complete overview, see our [Working Capital Loans Guide for SMEs](/resources/guides/working-capital-loans-for-smes).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners with multiple debts seeking simplification |
+| **What it addresses** | Consolidating business debts into single, manageable facilities |
+| **When this is appropriate** | When juggling multiple loans and seeking lower overall repayments |
+| **When it's NOT appropriate** | When individual debts have better terms than consolidation options |
+
+---
+
 ## Understanding Business Debt Consolidation
 
 Business debt consolidation involves replacing multiple existing debts with single financing arrangements that typically offer improved terms, simplified administration, or enhanced cash flow management. This process requires careful analysis of existing debt obligations and strategic planning to achieve optimal outcomes.

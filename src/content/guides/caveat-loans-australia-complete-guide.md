@@ -22,6 +22,24 @@ Interest rates for caveat loans typically range from 2-6% per month (equivalent 
 
 This comprehensive guide examines caveat loan structures, applications, and strategic considerations for Australian businesses requiring ultra-fast property-secured funding. From understanding legal caveat mechanisms to navigating approval processes and managing associated risks, we explore how businesses can leverage this specialized financing tool effectively while maintaining realistic expectations about costs and appropriate usage scenarios.
 
+---
+
+> **📚 Complete Guide**: This is Emet Capital's comprehensive guide to caveat loans in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
+
+### Related In-Depth Guides
+
+Explore our specialist caveat loans guides for specific scenarios:
+
+- **[Caveat Lenders Directory 2025](/resources/guides/caveat-lenders-australia-directory-comparison)** — Compare Australia's caveat finance providers by rates, speed, and LVR
+- **[Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — Caveat loans for tax debt, cash flow crises, and urgent needs
+- **[Caveat Loans for Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Bridging property purchases when timing is critical
+- **[Caveat vs Bank Loans](/resources/guides/caveat-loans-vs-bank-loans-speed-comparison)** — Speed and cost comparison to help you choose
+- **[Finding Caveat Brokers](/resources/guides/find-caveat-loan-brokers-australia)** — How to find and evaluate caveat loan specialists
+- **[Quick Caveat Loans](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Is 48-hour settlement really achievable?
+- **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Same-day and next-day approval options
+
+---
+
 ## Understanding Caveat Loan Fundamentals
 
 Caveat loans operate through unique legal mechanisms that enable rapid funding by leveraging property interests without requiring traditional mortgage registration processes. Understanding these fundamentals helps businesses evaluate whether caveat financing suits their specific circumstances and urgency requirements.

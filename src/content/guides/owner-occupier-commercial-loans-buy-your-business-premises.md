@@ -16,6 +16,21 @@ Owner-occupier commercial loans typically provide 60-70% loan-to-value ratios re
 
 This comprehensive guide examines owner-occupier commercial loan fundamentals including eligibility criteria and documentation requirements, explores financial advantages versus leasing through detailed cost-benefit analysis, investigates [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide) structures and features specific to owner-occupier scenarios, analyses tax implications and deductibility opportunities maximising financial outcomes, evaluates strategic considerations around property selection and business growth alignment, and provides systematic application processes ensuring successful approval whilst optimising loan terms and conditions for specific business circumstances. Emet Capital offers [first and second mortgage solutions](/services/first-second-mortgages) for owner-occupier commercial property purchases.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Business owners buying their operating premises |
+| **What it addresses** | Owner-occupier lending options and self-use requirements |
+| **When this is appropriate** | When purchasing property your business will occupy |
+| **When it's NOT appropriate** | For investment property without self-occupation |
+
+---
+
 ## Understanding Owner-Occupier Commercial Loan Eligibility
 
 Owner-occupier commercial loan eligibility centres on business trading history demonstrating sustainable revenue generation and profit capacity supporting mortgage repayments alongside business operational expenses. Lenders typically require minimum 12-24 months established trading history evidenced through financial statements, business tax returns, and business activity statements confirming consistent income patterns. Newer businesses trading under 12 months face approval challenges even with strong initial performance, as lenders prioritise proven sustainability over promising early results potentially reflecting temporary market conditions or initial sales surges unsustainable long-term. Some specialist lenders accommodate 6-9 month trading histories for businesses in stable industries with experienced operators demonstrating strong personal financial positions, though these applications attract interest rate premiums of 0.5-1% and lower loan-to-value ratios of 55-65% versus 65-70% for established businesses.

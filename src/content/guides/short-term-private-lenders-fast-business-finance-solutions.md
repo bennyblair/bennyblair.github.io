@@ -14,6 +14,21 @@ In the fast-paced world of business, cash flow is oxygen, and timing is everythi
 
 Short-term private lending is a specialised sector of the finance market that prioritises speed and asset security over historical trading performance. Unlike banks that may take weeks to assess a loan application based on years of tax returns, private lenders can make decisions in hours and fund in days. This agility makes them an invaluable resource for business owners who need capital "yesterday." Whether it is a [caveat loan](/services/caveat-loans), a second mortgage, or a [short-term business loan](/services/private-lending), these facilities provide a bridge to a future liquidity event. This guide explores how short-term private lending works, when to use it, and how to navigate the market to secure the funds you need.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Businesses needing funds within days |
+| **What it addresses** | Ultra-fast private lending options for urgent business needs |
+| **When this is appropriate** | When timing is critical and you need funding in 3-14 days |
+| **When it's NOT appropriate** | When you have 4+ weeks and can pursue lower-cost options |
+
+---
+
 ## When to Use Short-Term Private Finance
 
 Short-term private finance is not a replacement for long-term bank debt; rather, it is a strategic tool for specific situations where speed or flexibility is paramount. The most common use case is managing **cash flow gaps**. A business might have a large invoice due from a reliable client in 60 days but needs to pay suppliers today to fulfil the order. A short-term loan bridges this gap, allowing the business to operate smoothly without stalling production.

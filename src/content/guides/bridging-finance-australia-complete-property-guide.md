@@ -18,6 +18,23 @@ Interest rates for bridging finance typically range from 8-18% per annum dependi
 
 This comprehensive guide examines bridging finance applications, structures, and strategic considerations for Australian property transactions. From understanding when bridging provides optimal solutions to navigating application processes and managing associated risks, we explore how property investors and businesses can leverage short-term financing strategically while maintaining clear exit pathways and cost management disciplines.
 
+---
+
+> **📚 Complete Guide**: This is Emet Capital's comprehensive guide to bridging finance in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
+
+### Related In-Depth Guides
+
+Explore our specialist bridging finance guides for specific scenarios:
+
+- **[Best Bridging Loan Lenders 2025](/resources/guides/best-bridging-loan-lenders-companies-2025)** — Compare rates, LVRs and approval speeds across Australia's top providers
+- **[Bridging Finance for Developers](/resources/guides/bridging-finance-developers-project-funding-solutions)** — Project funding between development phases and construction draws
+- **[Commercial Bridging for Auctions](/resources/guides/commercial-bridging-finance-auction-purchases)** — Unconditional bidding strategies for commercial property auctions
+- **[Property Auction Bridging Loans](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Expert tactics for auction day financing
+- **[Auction Finance Expert Guide](/resources/guides/commercial-bridging-loans-property-auctions-expert-guide)** — Due diligence and settlement timelines for auction purchases
+- **[Short-Term Property Loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance)** — When you need finance in days, not weeks
+
+---
+
 ## Understanding Bridging Finance Fundamentals
 
 Bridging finance operates as short-term lending secured against property assets, providing immediate funding while borrowers arrange permanent financing, complete property sales, or execute strategic property transactions requiring rapid execution timeframes that traditional lending cannot accommodate.

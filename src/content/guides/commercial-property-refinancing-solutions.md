@@ -127,6 +127,21 @@ Commercial property owners typically consider refinancing when interest rates de
 
 This comprehensive guide examines commercial property refinancing strategies, processes, and considerations for Australian businesses. From understanding when refinancing makes financial sense to navigating lender requirements and optimising loan structures, we'll explore how property owners can leverage refinancing to achieve their business and investment objectives while managing associated costs and risks effectively.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Property owners with existing commercial debt |
+| **What it addresses** | Refinancing strategies, break costs, and restructuring options |
+| **When this is appropriate** | When seeking better rates or restructuring existing loans |
+| **When it's NOT appropriate** | For new property acquisitions |
+
+---
+
 ## Understanding Commercial Property Refinancing
 
 Commercial property refinancing involves replacing existing property loans with new finance arrangements, typically to achieve better interest rates, improved loan terms, or access additional capital. Unlike simple loan renewals, refinancing usually requires comprehensive reassessment of both property and borrower circumstances.

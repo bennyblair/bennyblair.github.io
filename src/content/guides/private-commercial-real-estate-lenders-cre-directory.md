@@ -14,6 +14,21 @@ In the evolving landscape of Australian property finance, [private commercial re
 
 Navigating the private lending market can be daunting. It is a fragmented sector comprising high-net-worth individuals, family offices, and specialised private debt funds, each with their own risk appetites and lending parameters. There is no single "directory" that lists every player, but understanding the categories of lenders and how they operate is the key to unlocking this capital. This guide serves as your roadmap to the private CRE lending ecosystem in Australia. We will explore who these lenders are, what they look for in a deal, and how to identify the right partner for your specific commercial property needs, ensuring you have the funding to move your projects forward.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Commercial property investors seeking specialist lenders |
+| **What it addresses** | Directory of private lenders specialising in CRE |
+| **When this is appropriate** | When financing commercial property outside bank criteria |
+| **When it's NOT appropriate** | For standard commercial property eligible for bank funding |
+
+---
+
 ## The Role of Private Lenders in Australian CRE
 
 Private lenders play a critical role in filling the funding gap left by traditional institutions. Following the Global Financial Crisis and subsequent regulatory tightening, major banks retreated from certain segments of the commercial market, particularly construction finance and specialised asset lending. Private capital stepped in to meet this demand, and today, it is a mainstream source of funding for projects ranging from boutique apartment developments to large-scale industrial acquisitions. Their primary value proposition is speed and solution-oriented thinking.

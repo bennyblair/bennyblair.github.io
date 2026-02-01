@@ -17,6 +17,21 @@ The hospitality sector operates differently from standard commercial property tr
 
 Understanding hospitality property finance means recognising how lenders assess venues differently—examining trading history, customer demographics, location fundamentals, competition analysis, and operational expertise alongside standard property metrics. Liquor licence values, fit-out quality, kitchen equipment conditions, and accommodation ratings all influence lending decisions in ways that don't apply to standard commercial property transactions. This guide explores how to finance hospitality properties effectively, what lenders examine when assessing venues, strategies for structuring multi-component funding packages, and approaches to managing the premium costs associated with specialist hospitality lending. Emet Capital provides [private lending solutions](/services/private-lending) for hospitality property acquisitions requiring flexible finance structures.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Hospitality business owners and investors |
+| **What it addresses** | Hotel, restaurant, and venue financing specialist requirements |
+| **When this is appropriate** | When acquiring or developing hospitality properties |
+| **When it's NOT appropriate** | For standard commercial property without hospitality use |
+
+---
+
 ## Understanding Hospitality Property Lending Challenges
 
 Hospitality property finance presents distinct challenges that traditional commercial property lenders find difficult to accommodate within standard lending frameworks, creating need for specialist approaches and flexible structures.

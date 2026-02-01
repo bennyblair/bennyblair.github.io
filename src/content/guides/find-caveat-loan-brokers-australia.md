@@ -17,6 +17,21 @@ Not all brokers possess genuine caveat lending expertise, as this specialised ar
 
 This guide walks you through the complete process of finding, vetting, and selecting caveat loan brokers who can deliver the fast finance solutions your business needs. From understanding broker licensing requirements through to asking the right questions about their lender panel and fee structures, you'll gain the knowledge necessary to make an informed broker selection decision. Emet Capital provides [caveat loan solutions](/services/caveat-loans) for businesses requiring urgent property-secured finance.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Borrowers seeking specialist brokers to navigate the caveat market |
+| **What it addresses** | Finding, evaluating, and working with caveat loan brokers effectively |
+| **When this is appropriate** | When you want expert guidance on structuring and placing caveat finance |
+| **When it's NOT appropriate** | If you prefer dealing directly with lenders |
+
+---
+
 ## Understanding Caveat Loan Broker Specialisation
 
 Caveat loan brokers operate in a distinct segment of the finance industry, requiring specific expertise that differs substantially from residential mortgage broking or even standard commercial lending. These specialists focus exclusively on short-term, property-secured finance where speed and creative structuring often matter more than pristine credit histories or detailed financial documentation.

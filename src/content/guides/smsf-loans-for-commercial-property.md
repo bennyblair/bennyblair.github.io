@@ -127,6 +127,21 @@ Interest rates for SMSF commercial property loans typically range from 5-8% per 
 
 This comprehensive guide examines SMSF loans for commercial property investment, covering LRBA structures, compliance requirements, application processes, and strategic considerations. Whether trustees are considering their first SMSF property investment or expanding existing portfolios, understanding these specialized lending arrangements is essential for successful implementation while maintaining superannuation compliance and maximizing retirement savings outcomes.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | SMSF trustees considering commercial property |
+| **What it addresses** | Limited recourse borrowing arrangements for super funds |
+| **When this is appropriate** | When purchasing commercial property through your SMSF |
+| **When it's NOT appropriate** | For personal or company purchases outside super |
+
+---
+
 ## Understanding SMSF Commercial Property Lending
 
 SMSF commercial property lending operates under specific legislative frameworks that distinguish it from traditional property finance. The Limited Recourse Borrowing Arrangement structure ensures compliance with superannuation law while enabling property investment leverage within strict parameters.

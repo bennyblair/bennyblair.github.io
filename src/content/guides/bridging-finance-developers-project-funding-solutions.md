@@ -16,6 +16,21 @@ Development project complexity creates numerous scenarios where conventional con
 
 This comprehensive guide examines developer [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) fundamentals including typical use cases and structural approaches, explores site acquisition bridging enabling opportunistic land purchases without extended approval delays, investigates pre-development funding supporting project establishment before construction finance drawdown, analyses construction transition bridges connecting temporary and permanent financing phases, evaluates pricing structures and cost management strategies optimising total development financing expenses, and provides exit strategy planning ensuring bridge repayment from project proceeds or refinancing preventing bridge extensions at premium rates eroding project profitability. Emet Capital offers specialised [bridging finance](/services/bridging-finance) and [commercial property development funding](/services/commercial-property-development) for developers across Australia.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Property developers needing interim funding between project phases |
+| **What it addresses** | Bridging gaps between land settlement, DA approval, and construction finance |
+| **When this is appropriate** | When development timelines create funding gaps that banks can't accommodate |
+| **When it's NOT appropriate** | For standard property purchases without development components |
+
+---
+
 ## Understanding Developer Bridging Finance Fundamentals
 
 Developer bridging finance differs substantially from residential bridging supporting homeowners upgrading properties or property investors managing settlement timing gaps. Development bridges accommodate significantly larger loan sizes typically ranging $500,000 to $20 million+ compared to residential bridges of $200,000 to $2 million, reflecting development project capital intensity requiring substantial land costs plus preliminary works funding. Terms typically span 6-24 months versus residential bridges at 6-12 months, providing extended timeframes enabling lengthy development approval processes, construction finance applications, or initial construction phases preceding project completion and sales proceeds. Interest rates range 9-16% annually depending on loan-to-value ratios, developer experience, and project risk profiles, sitting 2-4% above residential bridge equivalents reflecting elevated development risks from market volatility, construction complications, or approval uncertainties.

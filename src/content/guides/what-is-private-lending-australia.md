@@ -127,6 +127,25 @@ Interest rates in private lending typically range from 8-25% per annum depending
 
 This comprehensive guide examines private lending in the Australian context, covering lender types, application processes, cost structures, and strategic considerations for businesses evaluating private finance options. Whether facing bank lending difficulties, requiring rapid funding access, or seeking specialized financing solutions, understanding private lending principles helps businesses make informed decisions about optimal funding strategies.
 
+---
+
+> **📚 Complete Guide**: This is Emet Capital's comprehensive guide to private lending in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
+
+### Related In-Depth Guides
+
+Explore our specialist private lending guides for specific scenarios:
+
+- **[Finding the Best Private Lenders](/resources/guides/finding-best-private-lenders-for-your-business)** — How to evaluate and select private lenders
+- **[Comparing Private Lenders 2025](/resources/guides/finding-comparing-private-lenders-loans-2025-guide)** — Current market comparison and rates
+- **[Private Mortgage Lenders](/resources/guides/private-lenders-for-mortgages)** — When banks say no to mortgage applications
+- **[Private Lenders for Small Business](/resources/guides/private-lenders-small-business-fast-approval-guide)** — Fast approval options for SMEs
+- **[Private Land Loans](/resources/guides/private-lenders-for-land-loans-alternative-financing)** — Alternative financing for land purchases
+- **[Private CRE Lenders Directory](/resources/guides/private-commercial-real-estate-lenders-cre-directory)** — Commercial real estate specialist lenders
+- **[Private Investment Lenders](/resources/guides/private-real-estate-investment-lenders-guide)** — Lenders for property investors
+- **[Short-Term Private Finance](/resources/guides/short-term-private-lenders-fast-business-finance-solutions)** — Fast business finance when time is critical
+
+---
+
 ## Understanding Private Lending Fundamentals
 
 Private lending operates on fundamentally different principles from traditional banking, emphasizing relationship-based decision-making, flexible structures, and risk assessment methodologies that focus on security quality and exit strategies rather than purely cash flow-based analysis.

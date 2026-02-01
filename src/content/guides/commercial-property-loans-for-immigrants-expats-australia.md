@@ -14,6 +14,21 @@ Australia’s commercial property market is a global magnet for investment, offe
 
 Despite these challenges, financing is available. The key lies in understanding the specific lending criteria that apply to your visa status and knowing which lenders have an appetite for foreign borrower risk. While major banks have tightened their policies, a vibrant sector of non-bank and private lenders has emerged to fill the void, offering tailored solutions for expats and new arrivals. This guide provides a comprehensive roadmap for immigrants and expats looking to secure [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) in Australia, covering everything from FIRB approval and loan structuring to finding the right lender for your investment journey.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Non-residents and expats seeking Australian commercial property |
+| **What it addresses** | Visa requirements, foreign ownership rules, and specialist lenders |
+| **When this is appropriate** | When you're a non-citizen purchasing Australian commercial property |
+| **When it's NOT appropriate** | For Australian citizens and permanent residents |
+
+---
+
 ## Can Non-Residents Buy Commercial Property in Australia?
 
 The short answer is yes, non-residents and temporary visa holders can buy commercial property in Australia, but it is a regulated privilege rather than an automatic right. Unlike residential property, which has strict limitations to prevent speculation and housing shortages, the commercial sector is generally more open to foreign investment. The Australian government recognises that commercial investment drives economic activity, creates jobs, and develops infrastructure. Therefore, the pathway for purchasing offices, [retail spaces](/resources/guides/commercial-property-loan-retail-spaces-guide), industrial warehouses, and [development sites](/resources/guides/commercial-property-development-finance) is well-trodden.

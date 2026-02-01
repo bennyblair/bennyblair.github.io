@@ -18,6 +18,21 @@ Interest rates for debtor and supply chain finance typically range from 8-18% pe
 
 This comprehensive guide examines debtor finance and supply chain finance structures, applications, and strategic considerations for Australian businesses requiring comprehensive working capital solutions. From understanding when these facilities provide advantages over simpler invoice finance to navigating multi-party arrangements and managing supply chain risks, we explore how businesses can leverage sophisticated financing for accelerated growth and enhanced competitive positioning. Emet Capital offers [working capital solutions](/services/working-capital) for businesses with complex supply chain funding requirements.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Working Capital & Refinancing** series. For a complete overview, see our [Working Capital Loans Guide for SMEs](/resources/guides/working-capital-loans-for-smes).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Businesses managing complex receivables and supply chains |
+| **What it addresses** | Comprehensive debtor finance and supply chain funding structures |
+| **When this is appropriate** | When managing supplier payments, inventory, and debtor collections together |
+| **When it's NOT appropriate** | For simple invoice discounting needs |
+
+---
+
 ## Understanding Debtor and Supply Chain Finance Fundamentals
 
 Debtor finance and supply chain finance operate through complex arrangements involving multiple parties across commercial supply chains, providing funding at various stages from initial purchase orders through final payment collection beyond traditional post-delivery invoice financing.

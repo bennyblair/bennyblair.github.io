@@ -15,6 +15,21 @@ The Australian private lending market has grown substantially over the past deca
 
 Understanding when private lending makes strategic sense—versus when it's simply expensive capital masking underlying problems—separates successful investors from those who accumulate costly debt. This guide examines how private real estate lenders operate, what they assess when evaluating applications, typical rates and terms across different property types, and strategies for using private lending effectively within your investment portfolio. Emet Capital provides [private lending solutions](/services/private-lending) for real estate investors seeking flexible finance options.
 
+---
+
+> **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
+
+### At a Glance
+
+| | |
+|---|---|
+| **Who this guide is for** | Property investors building portfolios with private finance |
+| **What it addresses** | Lenders specialising in investor scenarios and portfolio lending |
+| **When this is appropriate** | When bank serviceability limits prevent further borrowing |
+| **When it's NOT appropriate** | For owner-occupier purchases with bank eligibility |
+
+---
+
 ## How Private Real Estate Lenders Operate
 
 Private lenders assess loan applications fundamentally differently than banks. Where traditional lenders scrutinise your income, employment history, credit score, and existing debts through detailed serviceability calculations, private lenders focus primarily on property value and equity position. A Melbourne investor earning $120,000 annually might struggle to secure bank approval for their seventh investment property due to serviceability constraints, yet easily obtain private lending based purely on the property's $850,000 value and their $400,000 equity position.
