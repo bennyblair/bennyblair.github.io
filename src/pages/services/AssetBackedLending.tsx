@@ -188,6 +188,70 @@ const AssetBackedLending = () => {
               </div>
             </section>
 
+            {/* Guides & Resources Section */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <BookOpen className="h-6 w-6 text-accent" />
+                Guides & Resources
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                Explore our in-depth guides to learn more about this financing option before you apply.
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+              {/* Pillar Guide - Featured */}
+              <div className="md:col-span-2 lg:col-span-3">
+                <a 
+                  href="/resources/guides/asset-backed-lending-and-asset-finance"
+                  className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
+                >
+                  <div className="flex items-start gap-4">
+                    <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
+                    <div>
+                      <h3 className="text-xl font-semibold text-foreground mb-2">Complete Asset Finance Guide</h3>
+                      <p className="text-muted-foreground mb-3">Comprehensive guide to asset-backed lending—using equipment, vehicles, and property as security for business funding.</p>
+                      <span className="text-accent font-medium inline-flex items-center">
+                        Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <a 
+                href="/resources/guides/equipment-finance-and-leasing-australia"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Equipment Finance & Leasing</h3>
+                <p className="text-sm text-muted-foreground mb-2">Financing business equipment, vehicles, and machinery purchases.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/first-and-second-mortgages-for-business"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">First & Second Mortgages</h3>
+                <p className="text-sm text-muted-foreground mb-2">Property-secured business funding through first and second mortgages.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/caveat-loans-australia-complete-guide"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Caveat Loans Guide</h3>
+                <p className="text-sm text-muted-foreground mb-2">Fast property-secured finance using caveat arrangements.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              </div>
+            </section>
+
+
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>

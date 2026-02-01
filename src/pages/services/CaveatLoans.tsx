@@ -188,6 +188,80 @@ const CaveatLoans = () => {
               </div>
             </section>
 
+            {/* Guides & Resources Section */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <BookOpen className="h-6 w-6 text-accent" />
+                Guides & Resources
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                Explore our in-depth guides to learn more about this financing option before you apply.
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+              {/* Pillar Guide - Featured */}
+              <div className="md:col-span-2 lg:col-span-3">
+                <a 
+                  href="/resources/guides/caveat-loans-australia-complete-guide"
+                  className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
+                >
+                  <div className="flex items-start gap-4">
+                    <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
+                    <div>
+                      <h3 className="text-xl font-semibold text-foreground mb-2">Complete Caveat Loans Guide</h3>
+                      <p className="text-muted-foreground mb-3">Everything you need to know about caveat finance—mechanics, costs, risks, and when it's the right choice.</p>
+                      <span className="text-accent font-medium inline-flex items-center">
+                        Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <a 
+                href="/resources/guides/caveat-lenders-australia-directory-comparison"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Caveat Lenders Directory 2025</h3>
+                <p className="text-sm text-muted-foreground mb-2">Compare Australia's caveat finance providers by rates, speed, and LVR.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/caveat-loan-emergency-business-funding"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Emergency Business Funding</h3>
+                <p className="text-sm text-muted-foreground mb-2">Caveat loans for tax debt, cash flow crises, and urgent business needs.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/urgent-caveat-loans"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Urgent Caveat Loans</h3>
+                <p className="text-sm text-muted-foreground mb-2">Same-day and next-day approval options for time-critical funding.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/caveat-loans-vs-bank-loans-speed-comparison"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Caveat vs Bank Loans</h3>
+                <p className="text-sm text-muted-foreground mb-2">Speed and cost comparison to help you choose the right option.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              </div>
+            </section>
+
+
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>

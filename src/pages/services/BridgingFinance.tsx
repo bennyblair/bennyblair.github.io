@@ -189,6 +189,80 @@ const BridgingFinance = () => {
               </div>
             </section>
 
+            {/* Guides & Resources Section */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
+                <BookOpen className="h-6 w-6 text-accent" />
+                Guides & Resources
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                Explore our in-depth guides to learn more about this financing option before you apply.
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+              {/* Pillar Guide - Featured */}
+              <div className="md:col-span-2 lg:col-span-3">
+                <a 
+                  href="/resources/guides/bridging-finance-australia-complete-property-guide"
+                  className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
+                >
+                  <div className="flex items-start gap-4">
+                    <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
+                    <div>
+                      <h3 className="text-xl font-semibold text-foreground mb-2">Complete Bridging Finance Guide</h3>
+                      <p className="text-muted-foreground mb-3">Our comprehensive guide covers everything from fundamentals to advanced bridging strategies, exit planning, and cost management.</p>
+                      <span className="text-accent font-medium inline-flex items-center">
+                        Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <a 
+                href="/resources/guides/best-bridging-loan-lenders-companies-2025"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Best Bridging Loan Lenders 2025</h3>
+                <p className="text-sm text-muted-foreground mb-2">Compare rates, LVRs, and approval speeds across Australia's top bridging finance providers.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/commercial-bridging-finance-auction-purchases"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Commercial Bridging for Auctions</h3>
+                <p className="text-sm text-muted-foreground mb-2">Strategies for unconditional bidding at commercial property auctions.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/bridging-finance-developers-project-funding-solutions"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Bridging Finance for Developers</h3>
+                <p className="text-sm text-muted-foreground mb-2">Project funding solutions between development phases and construction draws.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/short-term-property-loans-when-you-need-fast-finance"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Short-Term Property Loans</h3>
+                <p className="text-sm text-muted-foreground mb-2">When you need finance in days rather than weeks—fast approval pathways explained.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              </div>
+            </section>
+
+
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
