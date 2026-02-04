@@ -326,7 +326,7 @@ const AssetBackedLendingSydney: React.FC = () => {
                 <h3 className="font-semibold mb-2">1st & 2nd Mortgages Sydney</h3>
                 <p className="text-gray-600 text-sm">Property-secured lending for Sydney businesses</p>
               </Link>
-              <Link to="/services/bridging-finance/sydney" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <Link to="/services/bridging-finance/cities/sydney" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold mb-2">Bridging Finance Sydney</h3>
                 <p className="text-gray-600 text-sm">Short-term funding secured by property</p>
               </Link>

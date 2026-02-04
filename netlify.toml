@@ -85,6 +85,103 @@
   to = "/tools/bridging-loan-calculator"
   status = 301
 
+# =============================================================================
+# CITY PAGE REDIRECTS - Non-/cities/ URLs to /cities/ structure
+# =============================================================================
+
+# Bridging Finance city pages
+[[redirects]]
+  from = "/services/bridging-finance/sydney"
+  to = "/services/bridging-finance/cities/sydney"
+  status = 301
+
+[[redirects]]
+  from = "/services/bridging-finance/melbourne"
+  to = "/services/bridging-finance/cities/melbourne"
+  status = 301
+
+[[redirects]]
+  from = "/services/bridging-finance/brisbane"
+  to = "/services/bridging-finance/cities/brisbane"
+  status = 301
+
+[[redirects]]
+  from = "/services/bridging-finance/perth"
+  to = "/services/bridging-finance/cities/perth"
+  status = 301
+
+[[redirects]]
+  from = "/services/bridging-finance/adelaide"
+  to = "/services/bridging-finance/cities/adelaide"
+  status = 301
+
+[[redirects]]
+  from = "/services/bridging-finance/gold-coast"
+  to = "/services/bridging-finance/cities/gold-coast"
+  status = 301
+
+# Asset Finance city pages
+[[redirects]]
+  from = "/services/asset-finance/sydney"
+  to = "/services/asset-finance/cities/sydney"
+  status = 301
+
+[[redirects]]
+  from = "/services/asset-finance/melbourne"
+  to = "/services/asset-finance/cities/melbourne"
+  status = 301
+
+[[redirects]]
+  from = "/services/asset-finance/brisbane"
+  to = "/services/asset-finance/cities/brisbane"
+  status = 301
+
+[[redirects]]
+  from = "/services/asset-finance/perth"
+  to = "/services/asset-finance/cities/perth"
+  status = 301
+
+[[redirects]]
+  from = "/services/asset-finance/adelaide"
+  to = "/services/asset-finance/cities/adelaide"
+  status = 301
+
+[[redirects]]
+  from = "/services/asset-finance/gold-coast"
+  to = "/services/asset-finance/cities/gold-coast"
+  status = 301
+
+# First & Second Mortgages city pages
+[[redirects]]
+  from = "/services/first-second-mortgages/sydney"
+  to = "/services/first-second-mortgages/cities/sydney"
+  status = 301
+
+[[redirects]]
+  from = "/services/first-second-mortgages/melbourne"
+  to = "/services/first-second-mortgages/cities/melbourne"
+  status = 301
+
+[[redirects]]
+  from = "/services/first-second-mortgages/brisbane"
+  to = "/services/first-second-mortgages/cities/brisbane"
+  status = 301
+
+[[redirects]]
+  from = "/services/first-second-mortgages/perth"
+  to = "/services/first-second-mortgages/cities/perth"
+  status = 301
+
+[[redirects]]
+  from = "/services/first-second-mortgages/adelaide"
+  to = "/services/first-second-mortgages/cities/adelaide"
+  status = 301
+
+[[redirects]]
+  from = "/services/first-second-mortgages/gold-coast"
+  to = "/services/first-second-mortgages/cities/gold-coast"
+  status = 301
+
 # Legacy page redirects
 [[redirects]]
   from = "/about-us"
