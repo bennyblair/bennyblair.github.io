@@ -15,11 +15,9 @@
 # REDIRECTS - Order matters! More specific rules first, SPA fallback LAST
 # =============================================================================
 
-# Remove trailing slashes (except root /)
-[[redirects]]
-  from = "/:splat/"
-  to = "/:splat"
-  status = 301
+# NOTE: Trailing slash removal handled by Netlify post-processing settings.
+# Do NOT add a /:splat/ redirect here — it causes 301 loops with Netlify's
+# internal routing.
 
 # =============================================================================
 # CONTENT REDIRECTS - Legacy URL mappings
