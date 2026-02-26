@@ -30,12 +30,10 @@
   status = 301
   force = true
 
-# http://non-www -> https://non-www (single hop)
-[[redirects]]
-  from = "http://emetcapital.com.au/*"
-  to = "https://emetcapital.com.au/:splat"
-  status = 301
-  force = true
+# http://non-www -> https://non-www
+# REMOVED: This caused infinite 301 loops because Netlify terminates TLS at the
+# edge, so all requests appear as HTTP internally. Use Netlify dashboard
+# "Force HTTPS" setting instead.
 
 # 2. Remove trailing slashes (except root /)
 # Must be after host redirects but before content redirects
