@@ -156,6 +156,18 @@
   to = "/services/first-second-mortgages/cities/gold-coast"
   status = 301
 
+# Squarespace orphan pages (never existed on current site)
+[[redirects]]
+  from = "/contact-6"
+  to = "/contact"
+  status = 301
+
+# Resources/tools parent path → tools
+[[redirects]]
+  from = "/resources/tools"
+  to = "/tools"
+  status = 301
+
 # Legacy page redirects
 [[redirects]]
   from = "/about-us"
@@ -347,3 +359,4 @@
   for = "/robots.txt"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
