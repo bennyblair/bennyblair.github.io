@@ -230,18 +230,18 @@ const BridgingFinanceSydney: React.FC = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-muted/30 to-background p-8 rounded-lg border border-border">
+              <div className="bg-muted/20 p-8 rounded-lg border border-border">
                 <div className="flex items-center mb-4">
-                  <Building2 className="text-green-600 mr-3" size={32} />
+                  <Building2 className="text-accent mr-3" size={32} />
                   <h3 className="text-2xl font-semibold">Parramatta Development Site</h3>
                 </div>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-semibold mb-2 text-green-900">Scenario:</h4>
+                    <h4 className="font-semibold mb-2 text-foreground">Scenario:</h4>
                     <p className="text-foreground/80 mb-4">
                       Developer identified rezoned site in Parramatta for 80-apartment project. Needed fast settlement to secure site before competitors, with 8-month DA approval process ahead.
                     </p>
-                    <h4 className="font-semibold mb-2 text-green-900">Solution:</h4>
+                    <h4 className="font-semibold mb-2 text-foreground">Solution:</h4>
                     <ul className="text-foreground/80 space-y-2">
                       <li>• Bridging loan: $4.5M (12 months)</li>
                       <li>• Site acquisition secured in 3 weeks</li>
@@ -250,7 +250,7 @@ const BridgingFinanceSydney: React.FC = () => {
                     </ul>
                   </div>
                   <div className="bg-background p-6 rounded-lg">
-                    <h4 className="font-semibold mb-3 text-green-900">Financial Outcome:</h4>
+                    <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
                         <span className="text-foreground/70">Site Purchase:</span>
@@ -270,25 +270,25 @@ const BridgingFinanceSydney: React.FC = () => {
                       </div>
                       <div className="flex justify-between pt-3 border-t">
                         <span className="text-foreground/70 font-semibold">Expected Profit:</span>
-                        <span className="font-semibold text-green-600">$8.2M (17% margin)</span>
+                        <span className="font-semibold text-accent">$8.2M (17% margin)</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-8 rounded-lg border border-purple-200">
+              <div className="bg-muted/20 p-8 rounded-lg border border-border">
                 <div className="flex items-center mb-4">
-                  <DollarSign className="text-purple-600 mr-3" size={32} />
+                  <DollarSign className="text-accent mr-3" size={32} />
                   <h3 className="text-2xl font-semibold">Bondi Auction Success</h3>
                 </div>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-semibold mb-2 text-purple-900">Scenario:</h4>
+                    <h4 className="font-semibold mb-2 text-foreground">Scenario:</h4>
                     <p className="text-foreground/80 mb-4">
                       Investor wanted to secure off-market Bondi apartment before auction. Required unconditional offer with no finance clause to convince vendor to sell pre-auction.
                     </p>
-                    <h4 className="font-semibold mb-2 text-purple-900">Solution:</h4>
+                    <h4 className="font-semibold mb-2 text-foreground">Solution:</h4>
                     <ul className="text-foreground/80 space-y-2">
                       <li>• Pre-approved bridging: $2.1M</li>
                       <li>• Unconditional offer accepted</li>
@@ -297,7 +297,7 @@ const BridgingFinanceSydney: React.FC = () => {
                     </ul>
                   </div>
                   <div className="bg-background p-6 rounded-lg">
-                    <h4 className="font-semibold mb-3 text-purple-900">Financial Outcome:</h4>
+                    <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
                         <span className="text-foreground/70">Purchase Price:</span>
@@ -309,7 +309,7 @@ const BridgingFinanceSydney: React.FC = () => {
                       </div>
                       <div className="flex justify-between">
                         <span className="text-foreground/70">Instant Equity:</span>
-                        <span className="font-semibold text-green-600">$250,000</span>
+                        <span className="font-semibold text-accent">$250,000</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-foreground/70">Bridge Interest (4mo):</span>
@@ -317,7 +317,7 @@ const BridgingFinanceSydney: React.FC = () => {
                       </div>
                       <div className="flex justify-between pt-3 border-t">
                         <span className="text-foreground/70 font-semibold">Net Benefit:</span>
-                        <span className="font-semibold text-green-600">$187,000 equity gain</span>
+                        <span className="font-semibold text-accent">$187,000 equity gain</span>
                       </div>
                     </div>
                   </div>
@@ -329,37 +329,37 @@ const BridgingFinanceSydney: React.FC = () => {
       </section>
 
       {/* Why Choose Emet Capital for Sydney */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-muted/20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Why Sydney Clients Choose Emet Capital</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-blue-800/50 p-6 rounded-lg">
-                <Clock className="mb-4" size={40} />
+              <div className="bg-background p-6 rounded-lg border shadow-sm">
+                <Clock className="mb-4 text-accent" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Sydney Market Speed</h3>
-                <p className="text-blue-100">
-                  We understand Sydney's fast-moving property market. Pre-approvals in 24 hours, settlements in 2-3 weeks, giving you the competitive edge at auctions and in negotiation.
+                <p className="text-foreground/80">
+                  We understand Sydney's fast-moving property market. Pre-approvals in 24 hours, settlements in 2-3 weeks, giving you a stronger position at auctions and in negotiation.
                 </p>
               </div>
-              <div className="bg-blue-800/50 p-6 rounded-lg">
-                <DollarSign className="mb-4" size={40} />
+              <div className="bg-background p-6 rounded-lg border shadow-sm">
+                <DollarSign className="mb-4 text-accent" size={40} />
                 <h3 className="text-xl font-semibold mb-3">High-Value Expertise</h3>
-                <p className="text-blue-100">
-                  Experienced with Sydney's premium property values. Regular loans from $2-5M+ in Eastern Suburbs, North Shore, and Inner West. We understand luxury market valuations.
+                <p className="text-foreground/80">
+                  We work with Sydney's premium property values regularly, including larger loan sizes across the Eastern Suburbs, North Shore, and Inner West.
                 </p>
               </div>
-              <div className="bg-blue-800/50 p-6 rounded-lg">
-                <Building2 className="mb-4" size={40} />
+              <div className="bg-background p-6 rounded-lg border shadow-sm">
+                <Building2 className="mb-4 text-accent" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Development Knowledge</h3>
-                <p className="text-blue-100">
-                  Deep experience with Sydney's development precincts - Parramatta, Green Square, Barangaroo, Rhodes. We bridge to construction finance seamlessly.
+                <p className="text-foreground/80">
+                  We understand Sydney development precincts such as Parramatta, Green Square, Barangaroo, and Rhodes, including bridging structures that may later move into construction finance.
                 </p>
               </div>
-              <div className="bg-blue-800/50 p-6 rounded-lg">
-                <TrendingUp className="mb-4" size={40} />
+              <div className="bg-background p-6 rounded-lg border shadow-sm">
+                <TrendingUp className="mb-4 text-accent" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Local Partnerships</h3>
-                <p className="text-blue-100">
-                  Strong relationships with Sydney valuers, conveyancers, and solicitors. We expedite approvals and settlements through established local networks.
+                <p className="text-foreground/80">
+                  We work closely with Sydney valuers, conveyancers, and solicitors to help reduce friction in approval and settlement timelines.
                 </p>
               </div>
             </div>
@@ -374,22 +374,22 @@ const BridgingFinanceSydney: React.FC = () => {
             <h2 className="text-3xl font-bold mb-12 text-center">Sydney Bridging Finance Application Process</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="bg-blue-100 text-foreground w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                <div className="bg-accent/10 text-accent w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
                 <h3 className="font-semibold mb-2">Initial Enquiry</h3>
                 <p className="text-foreground/70 text-sm">Contact us with your Sydney property scenario - purchase, upgrade, or development</p>
               </div>
               <div className="text-center">
-                <div className="bg-blue-100 text-foreground w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                <div className="bg-accent/10 text-accent w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
                 <h3 className="font-semibold mb-2">Quick Assessment</h3>
                 <p className="text-foreground/70 text-sm">We evaluate property values, equity position, and exit strategy within 4-8 hours</p>
               </div>
               <div className="text-center">
-                <div className="bg-blue-100 text-foreground w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                <div className="bg-accent/10 text-accent w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
                 <h3 className="font-semibold mb-2">Fast Approval</h3>
                 <p className="text-foreground/70 text-sm">Formal approval in 24-48 hours with Sydney valuers for quick turnaround</p>
               </div>
               <div className="text-center">
-                <div className="bg-blue-100 text-foreground w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                <div className="bg-accent/10 text-accent w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
                 <h3 className="font-semibold mb-2">Rapid Settlement</h3>
                 <p className="text-foreground/70 text-sm">Settlement in 2-3 weeks with Sydney legal teams for time-sensitive deals</p>
               </div>
@@ -451,19 +451,19 @@ const BridgingFinanceSydney: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+      <section className="py-16 bg-muted/20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Secure Your Sydney Property?</h2>
-          <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
             Get pre-approved bridging finance for your Sydney property purchase, upgrade, or development. Fast decisions for Sydney's competitive market.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="bg-background text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-              Get Pre-Approved Now
-            </Link>
-            <Link to="/services/bridging-finance" className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors">
-              Learn More About Bridging Finance
-            </Link>
+            <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
+              <Link to="/contact">Get Pre-Approved Now</Link>
+            </Button>
+            <Button size="lg" variant="outline" asChild>
+              <Link to="/services/bridging-finance">Learn More About Bridging Finance</Link>
+            </Button>
           </div>
         </div>
       </section>
