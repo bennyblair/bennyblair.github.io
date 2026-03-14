@@ -56,7 +56,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
       </section>
 
       {/* Brisbane Market Overview */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Brisbane's Property Market Dynamics</h2>
@@ -114,7 +114,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Brisbane Bridging Finance Use Cases</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Home className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Auction Purchases</h3>
                 <p className="text-gray-700 mb-4">
@@ -128,7 +128,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <TrendingUp className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Interstate Upgraders</h3>
                 <p className="text-gray-700 mb-4">
@@ -142,7 +142,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Hammer className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Olympic Infrastructure</h3>
                 <p className="text-gray-700 mb-4">
@@ -161,7 +161,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
       </section>
 
       {/* Brisbane-Specific Examples */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Brisbane Bridging Finance Examples</h2>
@@ -186,7 +186,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
                       <li>• Sydney apartment sold after 5 months</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -233,7 +233,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
                       <li>• Presale campaign commenced</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -280,7 +280,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
                       <li>• Refinanced to standard home loan</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -352,7 +352,7 @@ const BridgingFinanceBrisbane: React.FC = () => {
       </section>
 
       {/* Application Process */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Brisbane Bridging Finance Application Process</h2>
@@ -388,42 +388,42 @@ const BridgingFinanceBrisbane: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Brisbane Bridging Finance FAQs</h2>
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can I get bridging finance to move from Sydney/Melbourne to Brisbane?</h3>
                 <p className="text-gray-700">
                   Absolutely. We regularly help interstate buyers relocate to Brisbane, allowing you to purchase your Brisbane home before selling in Sydney or Melbourne. This is particularly common given Brisbane's more affordable property prices. We coordinate with interstate conveyancers and understand cross-state settlement logistics.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">How does the 2032 Olympics affect Brisbane bridging finance?</h3>
                 <p className="text-gray-700">
                   The 2032 Olympics are creating significant opportunities in Brisbane property, particularly near Olympic venues (Brisbane Arena in Hamilton, Gabba redevelopment, Olympic precincts). We provide bridging finance for development sites and upgraders in these areas, understanding the infrastructure benefits and growth potential driving property values.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What LVR can I get for Brisbane inner-city properties?</h3>
                 <p className="text-gray-700">
                   For established inner-city Brisbane suburbs (New Farm, Paddington, Red Hill, Teneriffe), we typically lend 70-75% LVR. For premium riverside or character homes, we can offer up to 75-80% LVR depending on the specific property and market. Brisbane's lower property values compared to Sydney/Melbourne often mean buyers have more equity to work with.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">How quickly can you approve bridging finance for a Brisbane auction?</h3>
                 <p className="text-gray-700">
                   We provide pre-approval within 24-48 hours for Brisbane auction purchases, giving you unconditional bidding confidence. While Brisbane's auction market is less prevalent than Melbourne's, we understand the growing auction activity in premium suburbs and can fast-track approvals for Saturday auctions.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Do you provide bridging finance for Queenslander character homes?</h3>
                 <p className="text-gray-700">
                   Yes, we love Brisbane's iconic Queenslander homes. We provide bridging finance for character properties in suburbs like Paddington, Red Hill, Bardon, and Ashgrove. We understand their unique value proposition and work with valuers experienced in heritage and character home valuations.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can you help with bridging finance for development sites near Olympic venues?</h3>
                 <p className="text-gray-700">
                   Absolutely. We're actively funding development site acquisitions near Olympic precincts including Hamilton (Brisbane Arena), Woolloongabba (Gabba), and designated Olympic infrastructure zones. We bridge during DA approval periods (typically 8-12 months) then transition to construction finance once approvals and presales are secured.

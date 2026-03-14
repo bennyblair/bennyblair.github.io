@@ -56,7 +56,7 @@ const BridgingFinancePerth: React.FC = () => {
       </section>
 
       {/* Perth Market Overview */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Perth's Property Market Dynamics</h2>
@@ -114,7 +114,7 @@ const BridgingFinancePerth: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Perth Bridging Finance Use Cases</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Home className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">FIFO Investment</h3>
                 <p className="text-gray-700 mb-4">
@@ -128,7 +128,7 @@ const BridgingFinancePerth: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <TrendingUp className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Coastal Upgraders</h3>
                 <p className="text-gray-700 mb-4">
@@ -142,7 +142,7 @@ const BridgingFinancePerth: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Hammer className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Development Sites</h3>
                 <p className="text-gray-700 mb-4">
@@ -161,7 +161,7 @@ const BridgingFinancePerth: React.FC = () => {
       </section>
 
       {/* Perth-Specific Examples */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Perth Bridging Finance Examples</h2>
@@ -186,7 +186,7 @@ const BridgingFinancePerth: React.FC = () => {
                       <li>• Mount Lawley sold after 7 months</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -233,7 +233,7 @@ const BridgingFinancePerth: React.FC = () => {
                       <li>• Lots presold, construction finance arranged</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -280,7 +280,7 @@ const BridgingFinancePerth: React.FC = () => {
                       <li>• Refinanced to investment loan after 4 months</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -352,7 +352,7 @@ const BridgingFinancePerth: React.FC = () => {
       </section>
 
       {/* Application Process */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Perth Bridging Finance Application Process</h2>
@@ -388,42 +388,42 @@ const BridgingFinancePerth: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Perth Bridging Finance FAQs</h2>
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can I get bridging finance as a FIFO worker?</h3>
                 <p className="text-gray-700">
                   Absolutely. We regularly work with FIFO workers from mining and resource sectors. We understand roster-based income assessment and can coordinate fast approvals and settlements around your roster schedule. Many FIFO workers use bridging finance to secure properties between rosters when time is limited.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What LVR can I get for coastal suburbs like Cottesloe or Scarborough?</h3>
                 <p className="text-gray-700">
                   For established coastal suburbs (Cottesloe, Scarborough, City Beach, Swanbourne), we typically lend 70-75% LVR due to strong market demand and property liquidity. For premium beachfront properties, we can offer up to 75-80% LVR depending on the specific property and equity position in your existing property.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">How quickly can you approve bridging finance for Perth properties?</h3>
                 <p className="text-gray-700">
                   We provide indicative approval within 4-6 hours and formal approval within 24-48 hours for Perth properties. Our network of Perth valuers typically complete valuations within 3-5 business days. For urgent scenarios (FIFO roster timing, competitive purchases), we can fast-track the entire process.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Do you provide bridging finance for subdivision projects in growth areas?</h3>
                 <p className="text-gray-700">
                   Yes, we regularly facilitate bridging finance for subdivision projects in growth corridors like Joondalup, Ellenbrook, Baldivis, and Mandurah. We bridge during subdivision approval periods (typically 8-12 months in WA) then transition to development finance once approvals are secured and lots can be presold.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What if I need to extend my bridging loan due to Perth's slower sales market?</h3>
                 <p className="text-gray-700">
                   We understand Perth's market can be slower than east coast cities. Most of our Perth bridges are structured for 10-12 months with the ability to extend for an additional 6 months if your property takes longer to sell. We work with you on pricing strategy and agent selection to optimize sale outcomes in Perth's market conditions.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can you help with bridging finance for investment properties in inner suburbs?</h3>
                 <p className="text-gray-700">
                   Yes, we provide bridging finance for investment properties in sought-after inner suburbs like Subiaco, Mount Lawley, Leederville, and Northbridge. These areas have strong rental demand from professionals and students, making them attractive for investors. We typically lend 70-75% LVR for established investment properties in these precincts.

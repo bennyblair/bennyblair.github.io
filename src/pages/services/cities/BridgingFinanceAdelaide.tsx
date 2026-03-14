@@ -56,7 +56,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
       </section>
 
       {/* Adelaide Market Overview */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Adelaide's Property Market Dynamics</h2>
@@ -114,7 +114,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Adelaide Bridging Finance Use Cases</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Home className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Interstate Relocations</h3>
                 <p className="text-gray-700 mb-4">
@@ -128,7 +128,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <TrendingUp className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Coastal Lifestyle</h3>
                 <p className="text-gray-700 mb-4">
@@ -142,7 +142,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Hammer className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Infill Development</h3>
                 <p className="text-gray-700 mb-4">
@@ -161,7 +161,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
       </section>
 
       {/* Adelaide-Specific Examples */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Adelaide Bridging Finance Examples</h2>
@@ -186,7 +186,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
                       <li>• Melbourne apartment sold after 6 months</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -233,7 +233,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
                       <li>• Presales achieved, construction commenced</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -280,7 +280,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
                       <li>• Prospect house sold after 7 months</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -352,7 +352,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
       </section>
 
       {/* Application Process */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Adelaide Bridging Finance Application Process</h2>
@@ -388,42 +388,42 @@ const BridgingFinanceAdelaide: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Adelaide Bridging Finance FAQs</h2>
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can I get bridging finance to move from Sydney or Melbourne to Adelaide?</h3>
                 <p className="text-gray-700">
                   Absolutely. We regularly help interstate buyers relocate to Adelaide, capitalizing on Adelaide's more affordable property prices. This allows you to secure your Adelaide home before selling in Sydney or Melbourne. We coordinate with interstate conveyancers and understand cross-state settlement logistics and timing.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What LVR can I get for coastal suburbs like Glenelg or Brighton?</h3>
                 <p className="text-gray-700">
                   For established coastal suburbs (Glenelg, Brighton, Henley Beach, Semaphore), we typically lend 70-75% LVR due to strong market demand and lifestyle appeal. For beachfront properties or prestige eastern suburbs (Burnside, Norwood), we can offer up to 75-80% LVR depending on the property and your equity position.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">How quickly can you approve bridging finance for Adelaide properties?</h3>
                 <p className="text-gray-700">
                   We provide indicative approval within 4-6 hours and formal approval within 24-48 hours for Adelaide properties. Our network of Adelaide valuers typically complete valuations within 3-5 business days. Adelaide's generally efficient market enables faster turnaround than some other capital cities.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Do you provide bridging finance for Adelaide Hills lifestyle properties?</h3>
                 <p className="text-gray-700">
                   Yes, we regularly facilitate bridging finance for Adelaide Hills properties in suburbs like Stirling, Aldgate, Crafers, and Hahndorf. We understand the unique appeal of Hills lifestyle properties and work with valuers experienced in this market. These tree-change properties are increasingly popular with professionals seeking lifestyle balance.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can you help with bridging finance for infill development sites?</h3>
                 <p className="text-gray-700">
                   Yes, we regularly fund infill development sites in established Adelaide suburbs. With SA's code-compliant pathway, many townhouse and unit developments have streamlined approval processes. We bridge during planning approval (typically 6-9 months) then transition to construction finance once approvals are secured and presales achieved.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What's the advantage of using bridging finance in Adelaide's market?</h3>
                 <p className="text-gray-700">
                   Adelaide's affordability means many interstate buyers have substantial equity from east coast property sales. Bridging finance allows you to secure your ideal Adelaide property immediately rather than renting while you sell interstate. This is particularly valuable given Adelaide's growing popularity and increasing competition from interstate buyers seeking lifestyle and affordability.

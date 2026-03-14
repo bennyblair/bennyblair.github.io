@@ -56,7 +56,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
       </section>
 
       {/* Gold Coast Market Overview */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">Gold Coast's Property Market Dynamics</h2>
@@ -114,7 +114,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Gold Coast Bridging Finance Use Cases</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Home className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Interstate Sea Change</h3>
                 <p className="text-gray-700 mb-4">
@@ -128,7 +128,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <TrendingUp className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Holiday Investment</h3>
                 <p className="text-gray-700 mb-4">
@@ -142,7 +142,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <Hammer className="text-accent mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Development Sites</h3>
                 <p className="text-gray-700 mb-4">
@@ -161,7 +161,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
       </section>
 
       {/* Gold Coast-Specific Examples */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Gold Coast Bridging Finance Examples</h2>
@@ -186,7 +186,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
                       <li>• Sydney apartment sold after 5 months</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -233,7 +233,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
                       <li>• Strong presale interest, construction commenced</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -280,7 +280,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
                       <li>• Refinanced after Melbourne sale (4 months)</li>
                     </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-background p-6 rounded-lg border shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
@@ -352,7 +352,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
       </section>
 
       {/* Application Process */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Gold Coast Bridging Finance Application Process</h2>
@@ -388,42 +388,42 @@ const BridgingFinanceGoldCoast: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center">Gold Coast Bridging Finance FAQs</h2>
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can I get bridging finance for a sea change move to Gold Coast?</h3>
                 <p className="text-gray-700">
                   Absolutely. We regularly help Sydney and Melbourne buyers relocate to Gold Coast, seeking beachfront lifestyle and relative value. Bridging finance allows you to secure your Gold Coast property before selling interstate. We coordinate with Queensland and interstate conveyancers for seamless settlements.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What LVR can I get for beachfront apartments or canal estates?</h3>
                 <p className="text-gray-700">
                   For established beachfront apartments (Surfers Paradise, Broadbeach, Main Beach), we typically lend 70-75% LVR. For premium canal estates (Sovereign Islands, Sorrento, Paradise Waters), we can offer up to 75-80% LVR depending on the property and market conditions. Holiday rental income can support serviceability.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">How do you assess holiday rental properties for bridging finance?</h3>
                 <p className="text-gray-700">
                   We assess holiday rental properties based on both the property's capital value and rental income potential. Gold Coast's strong tourism market supports holiday letting returns. We work with valuers who understand holiday rental income and can factor this into our assessment, particularly for properties in high-demand tourist precincts.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can you help with bridging finance for townhouse developments?</h3>
                 <p className="text-gray-700">
                   Yes, we regularly facilitate bridging finance for townhouse development sites on the Gold Coast. Popular areas include Burleigh Heads, Palm Beach, and Currumbin. We bridge during planning approval periods (typically 8-12 months) then transition to construction finance once approvals are secured and presales achieved.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What if the Gold Coast market changes while I have a bridging loan?</h3>
                 <p className="text-gray-700">
                   Gold Coast's market is generally strong with consistent demand from interstate buyers and tourists. However, we build flexibility into our bridging loans with extension options if needed. Most loans are structured for 9-12 months with the ability to extend for an additional 6 months. We also help with exit strategy planning to ensure successful outcomes.
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-background p-6 rounded-lg border shadow-sm shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Do you provide bridging finance for Gold Coast Hinterland properties?</h3>
                 <p className="text-gray-700">
                   Yes, we provide bridging finance for Gold Coast Hinterland lifestyle properties in suburbs like Mudgeeraba, Tallebudgera Valley, and Advancetown. These tree-change properties appeal to buyers seeking tranquility while remaining close to beaches. We work with valuers experienced in hinterland acreage and lifestyle property valuations.
