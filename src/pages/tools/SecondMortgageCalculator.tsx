@@ -368,10 +368,10 @@ const SecondMortgageCalculator = () => {
           {/* CTA */}
           <section className="text-center mt-16 py-12 bg-gradient-to-r from-accent to-accent-light rounded-2xl">
             <div className="max-w-2xl mx-auto px-8">
-              <h2 className="text-2xl font-bold text-foreground mb-4">
+              <h2 className="text-2xl font-bold text-white mb-4">
                 Ready to Explore Second Mortgage Options?
               </h2>
-              <p className="text-foreground/80 mb-6">
+              <p className="text-white/90 mb-6">
                 Our calculator provides estimates, but every property and business situation is unique. Connect with our commercial lending specialists for tailored second mortgage solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
