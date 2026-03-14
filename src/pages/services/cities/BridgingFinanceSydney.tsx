@@ -81,19 +81,19 @@ const BridgingFinanceSydney: React.FC = () => {
                 <h3 className="text-xl font-semibold mb-4 text-foreground">Market Characteristics</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-accent mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>High Property Values:</strong> Median house prices $1.4M+ requiring substantial bridging capital</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-accent mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Competitive Market:</strong> Fast-moving auctions demand quick settlement capability</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-accent mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Upgrader Activity:</strong> Strong demand for bridge loans in premium suburbs</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-accent mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Development Pipeline:</strong> Major projects in Parramatta, Green Square, Barangaroo</span>
                   </li>
                 </ul>
@@ -183,7 +183,7 @@ const BridgingFinanceSydney: React.FC = () => {
             <h2 className="text-3xl font-bold mb-12 text-center">Sydney Bridging Finance Examples</h2>
             
             <div className="space-y-8">
-              <div className="bg-gradient-to-r from-muted/30 to-background p-8 rounded-lg border border-border">
+              <div className="bg-muted/20 p-8 rounded-lg border border-border">
                 <div className="flex items-center mb-4">
                   <Home className="text-accent mr-3" size={32} />
                   <h3 className="text-2xl font-semibold">Mosman Family Home Upgrade</h3>
@@ -223,7 +223,7 @@ const BridgingFinanceSydney: React.FC = () => {
                       </div>
                       <div className="flex justify-between pt-3 border-t">
                         <span className="text-foreground/70 font-semibold">Benefit:</span>
-                        <span className="font-semibold text-green-600">Secured dream home</span>
+                        <span className="font-semibold text-accent">Secured dream home</span>
                       </div>
                     </div>
                   </div>
