@@ -389,7 +389,7 @@ const SecondMortgageCalculator = () => {
                   asChild 
                   size="lg" 
                   variant="outline"
-                  className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent"
+                  className="border-white/80 bg-white/10 text-white hover:bg-white hover:text-primary"
                 >
                   <Link to="/resources/guides">Read Our Mortgage Guides</Link>
                 </Button>
