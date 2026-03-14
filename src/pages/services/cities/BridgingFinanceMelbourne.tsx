@@ -34,19 +34,19 @@ const BridgingFinanceMelbourne: React.FC = () => {
               Fast bridging loans for Melbourne's vibrant property market. From Bayside to inner suburbs, we fund property transitions, developments, and time-sensitive opportunities across Greater Melbourne.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">24-48hrs</div>
                 <div className="text-muted-foreground text-sm">Approval Time</div>
               </div>
-              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">Up to 80%</div>
                 <div className="text-muted-foreground text-sm">LVR Available</div>
               </div>
-              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">1-24 months</div>
                 <div className="text-muted-foreground text-sm">Flexible Terms</div>
               </div>
-              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">$100K-$15M</div>
                 <div className="text-muted-foreground text-sm">Loan Range</div>
               </div>
@@ -114,7 +114,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center text-white">Melbourne Bridging Finance Use Cases</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <Home className="text-primary mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Auction Purchases</h3>
                 <p className="text-slate-300 mb-4">
@@ -128,7 +128,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <TrendingUp className="text-primary mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Property Upgraders</h3>
                 <p className="text-slate-300 mb-4">
@@ -142,7 +142,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <Hammer className="text-primary mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Development Finance</h3>
                 <p className="text-slate-300 mb-4">
@@ -186,27 +186,27 @@ const BridgingFinanceMelbourne: React.FC = () => {
                       <li>• Apartment sold after 7 months</li>
                     </ul>
                   </div>
-                  <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+                  <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
-                        <span className="text-slate-400">New Property Value:</span>
+                        <span className="text-slate-300">New Property Value:</span>
                         <span className="font-semibold">$2,400,000</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Bridging Loan:</span>
+                        <span className="text-slate-300">Bridging Loan:</span>
                         <span className="font-semibold">$1,700,000</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Bridge Term:</span>
+                        <span className="text-slate-300">Bridge Term:</span>
                         <span className="font-semibold">7 months (actual)</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Interest Cost:</span>
+                        <span className="text-slate-300">Interest Cost:</span>
                         <span className="font-semibold">$89,250</span>
                       </div>
                       <div className="flex justify-between pt-3 border-t">
-                        <span className="text-slate-400 font-semibold">Benefit:</span>
+                        <span className="text-slate-300 font-semibold">Benefit:</span>
                         <span className="font-semibold text-primary">Secured Bayside lifestyle</span>
                       </div>
                     </div>
@@ -233,27 +233,27 @@ const BridgingFinanceMelbourne: React.FC = () => {
                       <li>• Transitioned to construction loan</li>
                     </ul>
                   </div>
-                  <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+                  <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Site Purchase:</span>
+                        <span className="text-slate-300">Site Purchase:</span>
                         <span className="font-semibold">$1,850,000</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Bridging Term:</span>
+                        <span className="text-slate-300">Bridging Term:</span>
                         <span className="font-semibold">11 months (actual)</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Interest + Fees:</span>
+                        <span className="text-slate-300">Interest + Fees:</span>
                         <span className="font-semibold">$196,000</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Project GRV:</span>
+                        <span className="text-slate-300">Project GRV:</span>
                         <span className="font-semibold">$4,200,000</span>
                       </div>
                       <div className="flex justify-between pt-3 border-t">
-                        <span className="text-slate-400 font-semibold">Expected Profit:</span>
+                        <span className="text-slate-300 font-semibold">Expected Profit:</span>
                         <span className="font-semibold text-primary">$680K (16% margin)</span>
                       </div>
                     </div>
@@ -261,7 +261,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
                 </div>
               </div>
 
-              <div className="bg-slate-900/80 p-8 rounded-lg border border-slate-700">
+              <div className="bg-slate-950/90 p-8 rounded-lg border border-slate-800">
                 <div className="flex items-center mb-4">
                   <DollarSign className="text-primary mr-3" size={32} />
                   <h3 className="text-2xl font-semibold text-white">Fitzroy Auction Win</h3>
@@ -280,27 +280,27 @@ const BridgingFinanceMelbourne: React.FC = () => {
                       <li>• Refinanced to investment loan after 3 months</li>
                     </ul>
                   </div>
-                  <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+                  <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                     <h4 className="font-semibold mb-3 text-foreground">Financial Outcome:</h4>
                     <div className="space-y-3 text-sm">
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Purchase Price:</span>
+                        <span className="text-slate-300">Purchase Price:</span>
                         <span className="font-semibold">$850,000</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Rental Yield:</span>
+                        <span className="text-slate-300">Rental Yield:</span>
                         <span className="font-semibold">$32,000 p.a. (3.8%)</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Bridge Interest (3mo):</span>
+                        <span className="text-slate-300">Bridge Interest (3mo):</span>
                         <span className="font-semibold">$19,125</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-slate-400">Capital Growth (12mo):</span>
+                        <span className="text-slate-300">Capital Growth (12mo):</span>
                         <span className="font-semibold text-primary">$68,000 (8%)</span>
                       </div>
                       <div className="flex justify-between pt-3 border-t">
-                        <span className="text-slate-400 font-semibold">Net Position:</span>
+                        <span className="text-slate-300 font-semibold">Net Position:</span>
                         <span className="font-semibold text-primary">Strong equity gain</span>
                       </div>
                     </div>
@@ -318,28 +318,28 @@ const BridgingFinanceMelbourne: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center text-white">Why Melbourne Clients Choose Emet Capital</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-slate-900/80 border border-slate-700 p-6 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-6 rounded-lg">
                 <Clock className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Auction Expertise</h3>
                 <p className="text-slate-300">
                   We understand Melbourne's auction-dominated market. Pre-approvals in 24 hours give you unconditional bidding confidence every Saturday across all Melbourne suburbs.
                 </p>
               </div>
-              <div className="bg-slate-900/80 border border-slate-700 p-6 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-6 rounded-lg">
                 <DollarSign className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Local Valuer Network</h3>
                 <p className="text-slate-300">
                   Strong relationships with Melbourne's leading property valuers enabling 3-5 day turnaround on valuations across metro Melbourne, from Bayside to growth corridors.
                 </p>
               </div>
-              <div className="bg-slate-900/80 border border-slate-700 p-6 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-6 rounded-lg">
                 <Building2 className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Development Knowledge</h3>
                 <p className="text-slate-300">
                   Deep experience with Melbourne's planning system and development precincts. We bridge to construction finance for townhouse and medium-density projects seamlessly.
                 </p>
               </div>
-              <div className="bg-slate-900/80 border border-slate-700 p-6 rounded-lg">
+              <div className="bg-slate-950/90 border border-slate-800 p-6 rounded-lg">
                 <TrendingUp className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3">Upgrader Specialists</h3>
                 <p className="text-slate-300">
@@ -360,22 +360,22 @@ const BridgingFinanceMelbourne: React.FC = () => {
               <div className="text-center">
                 <div className="bg-accent/10 text-primary w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
                 <h3 className="font-semibold mb-2">Initial Enquiry</h3>
-                <p className="text-slate-400 text-sm">Contact us with your Melbourne property scenario - auction, upgrade, or development</p>
+                <p className="text-slate-300 text-sm">Contact us with your Melbourne property scenario - auction, upgrade, or development</p>
               </div>
               <div className="text-center">
                 <div className="bg-accent/10 text-primary w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
                 <h3 className="font-semibold mb-2">Quick Assessment</h3>
-                <p className="text-slate-400 text-sm">We evaluate property values, equity, and exit strategy within 4-6 hours for time-sensitive auctions</p>
+                <p className="text-slate-300 text-sm">We evaluate property values, equity, and exit strategy within 4-6 hours for time-sensitive auctions</p>
               </div>
               <div className="text-center">
                 <div className="bg-accent/10 text-primary w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
                 <h3 className="font-semibold mb-2">Fast Approval</h3>
-                <p className="text-slate-400 text-sm">Formal approval in 24-48 hours with Melbourne valuers for quick turnaround before auctions</p>
+                <p className="text-slate-300 text-sm">Formal approval in 24-48 hours with Melbourne valuers for quick turnaround before auctions</p>
               </div>
               <div className="text-center">
                 <div className="bg-accent/10 text-primary w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
                 <h3 className="font-semibold mb-2">Rapid Settlement</h3>
-                <p className="text-slate-400 text-sm">Settlement in 3-4 weeks with Melbourne conveyancers for standard auction contracts</p>
+                <p className="text-slate-300 text-sm">Settlement in 3-4 weeks with Melbourne conveyancers for standard auction contracts</p>
               </div>
             </div>
           </div>
@@ -388,42 +388,42 @@ const BridgingFinanceMelbourne: React.FC = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center text-white">Melbourne Bridging Finance FAQs</h2>
             <div className="space-y-6">
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can I use bridging finance for a Saturday auction in Melbourne?</h3>
                 <p className="text-slate-300">
                   Absolutely. Melbourne's auction market is our specialty. We provide pre-approved bridging finance specifically for auction purchases, allowing you to bid unconditionally with confidence. Contact us by Wednesday for Saturday auction pre-approval, though we've approved deals faster when needed.
                 </p>
               </div>
 
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What LVR can I get for Bayside properties like Brighton or Sandringham?</h3>
                 <p className="text-slate-300">
                   For premium Bayside suburbs (Brighton, Black Rock, Sandringham, Beaumaris), we typically lend up to 70-75% LVR due to strong market fundamentals and high liquidity. For upgraders with substantial equity in their current property, we can structure security across both properties up to 80% combined LVR.
                 </p>
               </div>
 
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">How long does bridging finance approval take for Melbourne properties?</h3>
                 <p className="text-slate-300">
                   We provide indicative approval within 4-6 hours and formal approval within 24-48 hours for Melbourne properties. This includes engaging our network of Melbourne valuers who typically complete valuations within 3-5 business days. For urgent auction scenarios, we can fast-track the entire process.
                 </p>
               </div>
 
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Can you help with bridging finance for townhouse developments in growth suburbs?</h3>
                 <p className="text-slate-300">
                   Yes, we regularly facilitate bridging finance for townhouse and medium-density development sites in growth corridors like Footscray, Coburg, Preston, and outer suburbs. We bridge during planning permit approval (typically 6-12 months) then transition to construction finance once permits are secured.
                 </p>
               </div>
 
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">What happens if I can't sell my existing Melbourne property within the bridge term?</h3>
                 <p className="text-slate-300">
                   We build flexibility into our bridging loans with extension options if market conditions or property marketing takes longer than anticipated. Most Melbourne bridges are structured for 9-12 months with the ability to extend for an additional 6 months. We also provide guidance on pricing and agent selection to optimize sale outcomes.
                 </p>
               </div>
 
-              <div className="bg-slate-900/80 p-6 rounded-lg border border-slate-700 shadow-sm">
+              <div className="bg-slate-950/90 p-6 rounded-lg border border-slate-800 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-foreground">Do you provide bridging finance for apartments in inner Melbourne?</h3>
                 <p className="text-slate-300">
                   Yes, we provide bridging finance for quality apartments in inner Melbourne suburbs (Carlton, Fitzroy, South Yarra, Richmond). However, we're selective about oversupplied precincts and focus on established, well-located properties with strong rental demand and capital growth history. We typically lend 65-70% LVR for apartments versus 70-80% for houses.
@@ -442,7 +442,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
             Get pre-approved bridging finance for Melbourne's competitive auction market. Fast decisions, unconditional offers, settlement certainty.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="bg-slate-900/70 text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+            <Link to="/contact" className="bg-slate-950 text-slate-100 px-8 py-3 rounded-lg font-semibold border border-slate-700 hover:bg-slate-900 transition-colors">
               Get Pre-Approved Now
             </Link>
             <Link to="/services/bridging-finance" className="border-2 border-white text-foreground px-8 py-3 rounded-lg font-semibold border transition-colors bg-slate-900 hover:bg-slate-800">
