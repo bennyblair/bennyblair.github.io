@@ -6,7 +6,7 @@ import { generateServiceSchema } from '@/lib/schema-utils';
 
 const BridgingFinanceMelbourne: React.FC = () => {
   return (
-    <div className="min-h-screen bg-muted/20">
+    <div className="min-h-screen bg-slate-950">
       <SEO 
         title="Bridging Finance Melbourne | VIC Commercial Finance | Emet Capital"
         description="Fast bridging loans in Melbourne VIC. 24-48 hour approvals for property purchases, auctions, and time-sensitive opportunities. Local expertise, competitive rates."
@@ -21,7 +21,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
       {/* Hero Section */}
       <section className="text-center max-w-5xl mx-auto mb-16">
         <div className="container mx-auto px-4">
-          <Link to="/services/bridging-finance" className="inline-flex items-center text-muted-foreground hover:text-white mb-6 transition-colors">
+          <Link to="/services/bridging-finance" className="inline-flex items-center text-slate-300 hover:text-white mb-6 transition-colors">
             <ArrowLeft className="mr-2" size={20} />
             Back to Bridging Finance
           </Link>
@@ -34,19 +34,19 @@ const BridgingFinanceMelbourne: React.FC = () => {
               Fast bridging loans for Melbourne's vibrant property market. From Bayside to inner suburbs, we fund property transitions, developments, and time-sensitive opportunities across Greater Melbourne.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-muted/40 border p-4 rounded-lg">
+              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">24-48hrs</div>
                 <div className="text-muted-foreground text-sm">Approval Time</div>
               </div>
-              <div className="bg-muted/40 border p-4 rounded-lg">
+              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">Up to 80%</div>
                 <div className="text-muted-foreground text-sm">LVR Available</div>
               </div>
-              <div className="bg-muted/40 border p-4 rounded-lg">
+              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">1-24 months</div>
                 <div className="text-muted-foreground text-sm">Flexible Terms</div>
               </div>
-              <div className="bg-muted/40 border p-4 rounded-lg">
+              <div className="bg-slate-900/80 border border-slate-700 p-4 rounded-lg">
                 <div className="text-2xl font-bold mb-1">$100K-$15M</div>
                 <div className="text-muted-foreground text-sm">Loan Range</div>
               </div>
@@ -435,7 +435,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+      <section className="py-16 bg-slate-950 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Win Your Melbourne Auction?</h2>
           <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
@@ -445,7 +445,7 @@ const BridgingFinanceMelbourne: React.FC = () => {
             <Link to="/contact" className="bg-slate-900/70 text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
               Get Pre-Approved Now
             </Link>
-            <Link to="/services/bridging-finance" className="border-2 border-white text-foreground px-8 py-3 rounded-lg font-semibold border transition-colors bg-muted/20 hover:bg-muted">
+            <Link to="/services/bridging-finance" className="border-2 border-white text-foreground px-8 py-3 rounded-lg font-semibold border transition-colors bg-slate-900 hover:bg-slate-800">
               Learn More About Bridging Finance
             </Link>
           </div>
