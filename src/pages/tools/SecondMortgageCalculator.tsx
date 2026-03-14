@@ -266,9 +266,9 @@ const SecondMortgageCalculator = () => {
           {/* Quick Overview */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-6">Second Mortgage for Business: Quick Overview</h2>
-            <div className="prose max-w-none text-foreground/85 mb-8">
+            <div className="max-w-none mb-8 space-y-4 text-foreground/85">
               <p>Thinking about mortgage rates for second mortgage? Below we cover the practical bits—use-cases, eligibility, typical pricing, timelines—and the way we arrange it with credit teams.</p>
-              <p><strong>What is a second mortgage for business?</strong> It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.</p>
+              <p><span className="font-semibold text-foreground">What is a second mortgage for business?</span> It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
