@@ -9,7 +9,7 @@ import { generateServiceSchema } from '@/lib/schema-utils';
 
 const BridgingFinanceSydney: React.FC = () => {
   return (
-    <div className="min-h-screen py-8 bg-background">
+    <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted/20">
       <SEO 
         title="Bridging Finance Sydney | NSW Commercial Finance | Emet Capital"
         description="Fast bridging loans in Sydney NSW. 24-48 hour approvals for property purchases, auctions, and time-sensitive opportunities. Local expertise, competitive rates."
@@ -30,7 +30,7 @@ const BridgingFinanceSydney: React.FC = () => {
         ]} />
 
         {/* Hero Section */}
-        <section className="text-center max-w-5xl mx-auto mb-16">
+        <section className="text-center max-w-5xl mx-auto mb-16 pt-8">
           <Badge className="mb-4 bg-accent/10 text-accent">Sydney Market</Badge>
           <div className="flex items-center justify-center gap-3 mb-4">
             <MapPin className="h-8 w-8 text-accent" />
