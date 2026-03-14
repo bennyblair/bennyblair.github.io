@@ -198,10 +198,10 @@ const Homepage = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SEO 
-        title="Commercial Lending Solutions | Fast Business Finance | Emet Capital"
-        description="Australia's leading commercial finance brokers. Fast approval on business loans $100K-$50M+. Expert property development finance."
+        title="Commercial Lending Solutions Australia | Emet Capital"
+        description="Commercial lending solutions for Australian businesses, investors, and developers, including private lending, bridging finance, and property-backed funding."
         canonical="/"
-        keywords="commercial lending, business loans, commercial finance, private lending, bridging finance, commercial property loans, business finance brokers, Sydney Australia"
+        keywords="commercial lending australia, business finance, private lending, bridging finance, commercial property loans, commercial finance brokers"
         schemas={[generateOrganizationSchema(), generateLocalBusinessSchema()]}
       />
       

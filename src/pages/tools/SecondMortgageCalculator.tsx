@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQSection from "@/components/FAQSection";
+import SEO from "@/components/SEO";
 import { Calculator, CheckCircle, ArrowRight, AlertTriangle } from "lucide-react";
 
 const SecondMortgageCalculator = () => {
@@ -68,14 +68,38 @@ const SecondMortgageCalculator = () => {
     }
   ];
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Second Mortgage Calculator for Business Use",
+        "url": "https://emetcapital.com.au/tools/second-mortgage-calculator",
+        "description": "Estimate second mortgage payments, combined LVR, equity position, and indicative costs for business-use second mortgages in Australia."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((faq) => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      }
+    ]
+  };
+
   return (
     <>
-      <Helmet>
-        <title>Second Mortgage Calculator for Business — Mortgage Rates Australia | Emet Capital</title>
-        <meta name="description" content="Calculate second mortgage rates, payments, and equity requirements for business use. Professional calculator for Australian commercial second mortgages." />
-        <meta name="keywords" content="second mortgage calculator, mortgage rates for second mortgage, commercial lending, business finance" />
-        <link rel="canonical" href="/tools/second-mortgage-calculator" />
-      </Helmet>
+      <SEO
+        title="Second Mortgage Calculator Australia | Emet Capital Tool"
+        description="Use our second mortgage calculator to estimate payments, combined LVR, equity access, and indicative costs for business-use property-backed lending."
+        canonical="/tools/second-mortgage-calculator"
+        keywords="second mortgage calculator australia, second mortgage business calculator, second mortgage rates, combined lvr calculator, business second mortgage"
+        schemas={[structuredData]}
+      />
 
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4">
@@ -300,6 +324,37 @@ const SecondMortgageCalculator = () => {
                     </div>
                   </div>
                   <p className="text-xs text-muted-foreground mt-3">These are indicative only and vary by lender, asset quality and exit.</p>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
+          {/* Decision Support Content */}
+          <section className="mb-12">
+            <div className="grid lg:grid-cols-2 gap-8">
+              <Card>
+                <CardContent className="p-6">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">What this second mortgage calculator may help you assess</h2>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    This calculator is designed to help business borrowers, investors, and advisers pressure-test a second mortgage scenario before speaking with a lender. It gives you a rough view of equity position, combined LVR, monthly interest cost, and how quickly a short-term facility may become expensive if the exit is delayed.
+                  </p>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    That matters because second mortgages are usually used where timing is tight, where bank policy is restrictive, or where the borrower wants to preserve an existing first mortgage. In those situations, understanding the likely cost and leverage range early may help you compare this option with <Link to="/services/bridging-finance" className="text-accent hover:underline">bridging finance</Link>, <Link to="/services/private-lending" className="text-accent hover:underline">private lending</Link>, or a more traditional <Link to="/services/refinancing-solutions" className="text-accent hover:underline">refinancing solution</Link>.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    The output is indicative only, but it may be useful for spotting whether the proposed second mortgage amount sits in a realistic range before you move into full credit assessment.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="p-6">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">Common business uses for a second mortgage</h2>
+                  <div className="space-y-3 text-muted-foreground">
+                    <p>Borrowers often explore second mortgages when they need capital for a clear short-to-medium term purpose and there is usable equity in property security.</p>
+                    <p>Typical scenarios include tax debt pressure, settlement timing gaps, urgent working capital, partner buyouts, short-term restructuring, and opportunities where a business wants speed without replacing an existing first mortgage.</p>
+                    <p>If your scenario is broader than simple equity access, it may also be worth comparing this tool with our <Link to="/resources/guides/second-mortgage-for-business" className="text-accent hover:underline">second mortgage for business guide</Link>, the <Link to="/resources/guides/first-and-second-mortgages-for-business" className="text-accent hover:underline">first and second mortgages guide</Link>, and the <Link to="/resources/guides/second-mortgage-lenders-australia-directory" className="text-accent hover:underline">second mortgage lenders directory</Link>.</p>
+                  </div>
                 </CardContent>
               </Card>
             </div>

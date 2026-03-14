@@ -219,6 +219,42 @@
   to = "/contact"
   status = 301
 
+# GSC-discovered legacy guide URL consolidation
+[[redirects]]
+  from = "/resources/guides/2nd-mortgages-with-bad-credit"
+  to = "/resources/guides/second-mortgage-bad-credit-qualify"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/caveat-loans-australia"
+  to = "/resources/guides/caveat-loans-australia-complete-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/caveat-loans-australia-guide"
+  to = "/resources/guides/caveat-loans-australia-complete-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/bridging-loans-australia"
+  to = "/resources/guides/bridging-finance-australia-complete-property-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/bridging-finance-commercial-property-australia"
+  to = "/resources/guides/bridging-finance-australia-complete-property-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/caveat-loans-vs-second-mortgages"
+  to = "/resources/guides/caveat-loans-vs-bank-loans-speed-comparison"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/private-lending-sydney-business-guide"
+  to = "/services/private-lending/cities/sydney"
+  status = 301
+
 # Tool page consolidation redirects (Legacy calculator URLs)
 [[redirects]]
   from = "/resources/tools/2nd-mortgage-loan-rates"

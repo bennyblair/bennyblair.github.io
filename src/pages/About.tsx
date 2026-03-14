@@ -73,9 +73,9 @@ const About = () => {
   return (
     <div className="min-h-screen py-8">
       <SEO 
-        title="About Emet Capital | Commercial Finance Broker in Australia"
-        description="Learn about Emet Capital, a trusted commercial finance broker in Australia. We connect businesses, property investors, and developers with tailored lending solutions through our extensive network of private and institutional lenders."
-        keywords="commercial finance broker, commercial finance broker australia, business finance broker, property finance broker, private lending, commercial lending"
+        title="About Emet Capital | Commercial Finance Specialists"
+        description="Learn about Emet Capital, our commercial finance background, lender network, and how we help Australian businesses and property borrowers structure funding."
+        keywords="about emet capital, commercial finance specialists, commercial finance broker australia, property finance broker, business lending specialists"
         canonical="/about"
         schemas={[generateAboutPageSchema()]}
       />
