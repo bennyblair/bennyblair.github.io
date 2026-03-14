@@ -275,10 +275,10 @@ const Services = () => {
   return (
     <>
       <SEO 
-        title="Commercial Lending Services Australia | Business Finance & Property Loans"
-        description="Expert commercial finance brokers in Australia. Fast approvals on property finance, business funding, and specialist loans. Access 50+ lenders with competitive rates."
+        title="Commercial Lending Services Australia | Emet Capital"
+        description="Explore commercial lending services in Australia, including property finance, business funding, private lending, and specialist loan solutions."
         canonical="/services"
-        keywords="commercial lending Australia, business finance brokers, commercial loans, property finance, private lending solutions, development finance Australia"
+        keywords="commercial lending services Australia, commercial finance brokers, business finance, property finance, private lending, specialist commercial loans"
         schemas={[structuredData]}
       />
 
@@ -347,16 +347,56 @@ const Services = () => {
         </div>
 
         {/* SEO Overview */}
-        <div className="bg-muted/30 rounded-lg p-8 mb-16 text-center">
+        <div className="bg-muted/30 rounded-lg p-8 mb-10 text-center">
           <h2 className="text-2xl font-semibold mb-4">Commercial Finance Broking Services</h2>
           <p className="text-muted-foreground leading-relaxed max-w-4xl mx-auto">
-            As commercial finance brokers, we connect Australian businesses with the right lending solutions across 
-            property finance, business funding, and specialized commercial loans. Our extensive lender network enables 
-            us to secure competitive rates and flexible terms for businesses of all sizes. From property development 
-            finance to working capital solutions, we streamline the commercial lending process with fast approvals 
-            and expert guidance throughout your financing journey.
+            Emet Capital helps Australian businesses, investors, and developers compare commercial lending services across property finance, business funding, and specialist loan scenarios. This page is your starting point if you want to understand which loan type may fit your objective, how lenders typically assess a deal, and where a bank, non-bank, or private lender structure may be more suitable.
           </p>
         </div>
+
+        {/* Hub Intro */}
+        <section className="mb-16">
+          <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-8 items-start">
+            <Card className="premium-card">
+              <CardContent className="p-8">
+                <h2 className="text-2xl font-bold mb-4">How to use this services hub</h2>
+                <p className="text-muted-foreground mb-4 leading-relaxed">
+                  Not every commercial lending solution is built for the same borrower or transaction. Some facilities are designed for speed. Others are built around longer terms, lower rates, or more complex security structures. This hub brings those options together in one place so you can compare loan types before you enquire.
+                </p>
+                <p className="text-muted-foreground mb-4 leading-relaxed">
+                  If you're weighing short-term funding, start with <Link to="/services/bridging-finance" className="text-accent underline-offset-4 hover:underline">bridging finance</Link>, <Link to="/services/caveat-loans" className="text-accent underline-offset-4 hover:underline">caveat loans</Link>, or <Link to="/services/private-lending" className="text-accent underline-offset-4 hover:underline">private lending</Link>. If you're planning a longer-term business or property strategy, compare <Link to="/services/first-second-mortgages" className="text-accent underline-offset-4 hover:underline">first and second mortgages</Link>, <Link to="/services/commercial-property-development" className="text-accent underline-offset-4 hover:underline">commercial property development finance</Link>, and <Link to="/services/working-capital" className="text-accent underline-offset-4 hover:underline">working capital solutions</Link>.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  We’ve organised the services below by use case, funding style, and borrower need so the page works as a genuine commercial lending reference point rather than just a directory.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="premium-card">
+              <CardContent className="p-8">
+                <h2 className="text-2xl font-bold mb-4">What borrowers usually want to compare</h2>
+                <div className="space-y-4 text-muted-foreground">
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Speed vs cost</h3>
+                    <p>Private and short-term lenders may move faster, while major lenders typically focus on lower pricing and stronger documentation.</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Security type</h3>
+                    <p>Some loans are property-backed, while others lean more heavily on business cash flow, equipment value, or trade assets.</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Loan purpose</h3>
+                    <p>Acquisition, development, refinance, debtor pressure, tax debt, stock purchases, and partner buyouts often need different structures.</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Exit strategy</h3>
+                    <p>Shorter-term facilities typically work best where there is a clear refinance, sale, or business cash event supporting repayment.</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
 
         {/* Services Directory */}
         <div className="mb-16">
@@ -696,6 +736,42 @@ const Services = () => {
             </div>
           </div>
         </section>
+        {/* Commercial Lending Fit Section */}
+        <section className="mb-16">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-center">Which commercial lending service may fit your scenario?</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="premium-card">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-3">Property-led transactions</h3>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    If the property is central to the deal, borrowers usually compare development finance, bridging finance, refinance options, and first or second mortgage structures first. These facilities may suit acquisitions, residual stock exits, refinance deadlines, or projects where the asset drives the credit decision.
+                  </p>
+                  <div className="space-y-2 text-sm">
+                    <Link to="/services/commercial-property-development" className="block text-accent hover:underline">Commercial property development finance</Link>
+                    <Link to="/services/bridging-finance" className="block text-accent hover:underline">Bridging finance</Link>
+                    <Link to="/services/refinancing-solutions" className="block text-accent hover:underline">Refinancing solutions</Link>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="premium-card">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-3">Business-led transactions</h3>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    Where the deal is more about operations, growth, or cash flow than pure property strategy, working capital, trade finance, business acquisition funding, and equipment finance may be more suitable. These structures typically depend on transaction purpose, turnover, assets, and repayment path.
+                  </p>
+                  <div className="space-y-2 text-sm">
+                    <Link to="/services/working-capital" className="block text-accent hover:underline">Working capital</Link>
+                    <Link to="/services/business-acquisition" className="block text-accent hover:underline">Business acquisition finance</Link>
+                    <Link to="/services/trade-finance" className="block text-accent hover:underline">Trade finance</Link>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* Process Section */}
         <section className="mb-16">
           <div className="text-center mb-12">

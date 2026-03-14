@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQSection from "@/components/FAQSection";
+import SEO from "@/components/SEO";
 import { Calculator, CheckCircle, ArrowRight, AlertTriangle } from "lucide-react";
 
 const SecondMortgageCalculator = () => {
@@ -68,14 +68,38 @@ const SecondMortgageCalculator = () => {
     }
   ];
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Second Mortgage Calculator for Business Use",
+        "url": "https://emetcapital.com.au/tools/second-mortgage-calculator",
+        "description": "Estimate second mortgage payments, combined LVR, equity position, and indicative costs for business-use second mortgages in Australia."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((faq) => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      }
+    ]
+  };
+
   return (
     <>
-      <Helmet>
-        <title>Second Mortgage Calculator for Business — Mortgage Rates Australia | Emet Capital</title>
-        <meta name="description" content="Calculate second mortgage rates, payments, and equity requirements for business use. Professional calculator for Australian commercial second mortgages." />
-        <meta name="keywords" content="second mortgage calculator, mortgage rates for second mortgage, commercial lending, business finance" />
-        <link rel="canonical" href="/tools/second-mortgage-calculator" />
-      </Helmet>
+      <SEO
+        title="Second Mortgage Calculator Australia | Emet Capital Tool"
+        description="Use our second mortgage calculator to estimate payments, combined LVR, equity access, and indicative costs for business-use property-backed lending."
+        canonical="/tools/second-mortgage-calculator"
+        keywords="second mortgage calculator australia, second mortgage business calculator, second mortgage rates, combined lvr calculator, business second mortgage"
+        schemas={[structuredData]}
+      />
 
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4">
@@ -90,10 +114,10 @@ const SecondMortgageCalculator = () => {
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Second Mortgage Calculator for Business Use
             </h1>
-            <p className="text-xl text-muted-foreground mb-4">
+            <p className="text-xl text-foreground/90 mb-4">
               Calculate mortgage rates, equity requirements, and monthly payments for business second mortgages in Australia.
             </p>
-            <p className="text-sm text-muted-foreground italic">
+            <p className="text-sm text-foreground/75 italic">
               Tell us your scenario—we'll map lenders and likely structures.
             </p>
           </div>
@@ -164,7 +188,7 @@ const SecondMortgageCalculator = () => {
                       onChange={(e) => setMonthlyRate(e.target.value)}
                       className="mt-1"
                     />
-                    <p className="text-xs text-muted-foreground mt-1">Typical range: 1.0%-2.2% per month</p>
+                    <p className="text-xs text-foreground/70 mt-1">Typical range: 1.0%-2.2% per month</p>
                   </div>
                   
                   <div>
@@ -179,7 +203,7 @@ const SecondMortgageCalculator = () => {
                       onChange={(e) => setLoanTerm(e.target.value)}
                       className="mt-1"
                     />
-                    <p className="text-xs text-muted-foreground mt-1">Typical range: 3-24 months</p>
+                    <p className="text-xs text-foreground/70 mt-1">Typical range: 3-24 months</p>
                   </div>
                 </div>
 
@@ -189,29 +213,29 @@ const SecondMortgageCalculator = () => {
                   {results ? (
                     <div className="space-y-4">
                       <div className="flex justify-between items-center py-3 border-b border-border">
-                        <span className="text-muted-foreground">Available Equity:</span>
+                        <span className="text-foreground/80">Available Equity:</span>
                         <span className="text-lg font-bold text-primary">${results.availableEquity}</span>
                       </div>
                       <div className="flex justify-between items-center py-3 border-b border-border">
-                        <span className="text-muted-foreground">Combined LVR:</span>
+                        <span className="text-foreground/80">Combined LVR:</span>
                         <span className={`text-lg font-bold ${parseFloat(results.combinedLVR) > 75 ? 'text-destructive' : 'text-foreground'}`}>
                           {results.combinedLVR}%
                         </span>
                       </div>
                       <div className="flex justify-between items-center py-3 border-b border-border">
-                        <span className="text-muted-foreground">Monthly Payment:</span>
-                        <span className="text-lg font-bold text-accent">${results.monthlyInterestPayment}</span>
+                        <span className="text-foreground/80">Monthly Payment:</span>
+                        <span className="text-lg font-bold text-primary">${results.monthlyInterestPayment}</span>
                       </div>
                       <div className="flex justify-between items-center py-3 border-b border-border">
-                        <span className="text-muted-foreground">Establishment Fee:</span>
+                        <span className="text-foreground/80">Establishment Fee:</span>
                         <span className="text-lg font-bold text-foreground">${results.establishmentFee}</span>
                       </div>
                       <div className="flex justify-between items-center py-3 border-b border-border">
-                        <span className="text-muted-foreground">Total Interest:</span>
+                        <span className="text-foreground/80">Total Interest:</span>
                         <span className="text-lg font-bold text-foreground">${results.totalInterest}</span>
                       </div>
                       <div className="flex justify-between items-center py-3">
-                        <span className="text-muted-foreground">Total Repayment:</span>
+                        <span className="text-foreground/80">Total Repayment:</span>
                         <span className="text-lg font-bold text-foreground">${results.totalRepayment}</span>
                       </div>
                       
@@ -223,7 +247,7 @@ const SecondMortgageCalculator = () => {
                       )}
                     </div>
                   ) : (
-                    <p className="text-muted-foreground">Enter mortgage details to see calculations</p>
+                    <p className="text-foreground/75">Enter mortgage details to see calculations</p>
                   )}
                   
                   <div className="mt-6">
@@ -242,7 +266,7 @@ const SecondMortgageCalculator = () => {
           {/* Quick Overview */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-6">Second Mortgage for Business: Quick Overview</h2>
-            <div className="prose max-w-none text-muted-foreground mb-8">
+            <div className="prose max-w-none text-foreground/85 mb-8">
               <p>Thinking about mortgage rates for second mortgage? Below we cover the practical bits—use-cases, eligibility, typical pricing, timelines—and the way we arrange it with credit teams.</p>
               <p><strong>What is a second mortgage for business?</strong> It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.</p>
             </div>
@@ -299,7 +323,38 @@ const SecondMortgageCalculator = () => {
                       <span className="text-sm">2%-4% + legal/valuation</span>
                     </div>
                   </div>
-                  <p className="text-xs text-muted-foreground mt-3">These are indicative only and vary by lender, asset quality and exit.</p>
+                  <p className="text-xs text-foreground/70 mt-3">These are indicative only and vary by lender, asset quality and exit.</p>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
+          {/* Decision Support Content */}
+          <section className="mb-12">
+            <div className="grid lg:grid-cols-2 gap-8">
+              <Card>
+                <CardContent className="p-6">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">What this second mortgage calculator may help you assess</h2>
+                  <p className="text-foreground/80 mb-4 leading-relaxed">
+                    This calculator is designed to help business borrowers, investors, and advisers pressure-test a second mortgage scenario before speaking with a lender. It gives you a rough view of equity position, combined LVR, monthly interest cost, and how quickly a short-term facility may become expensive if the exit is delayed.
+                  </p>
+                  <p className="text-foreground/80 mb-4 leading-relaxed">
+                    That matters because second mortgages are usually used where timing is tight, where bank policy is restrictive, or where the borrower wants to preserve an existing first mortgage. In those situations, understanding the likely cost and leverage range early may help you compare this option with <Link to="/services/bridging-finance" className="text-primary hover:underline">bridging finance</Link>, <Link to="/services/private-lending" className="text-primary hover:underline">private lending</Link>, or a more traditional <Link to="/services/refinancing-solutions" className="text-primary hover:underline">refinancing solution</Link>.
+                  </p>
+                  <p className="text-foreground/80 leading-relaxed">
+                    The output is indicative only, but it may be useful for spotting whether the proposed second mortgage amount sits in a realistic range before you move into full credit assessment.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="p-6">
+                  <h2 className="text-2xl font-bold text-foreground mb-4">Common business uses for a second mortgage</h2>
+                  <div className="space-y-3 text-foreground/80">
+                    <p>Borrowers often explore second mortgages when they need capital for a clear short-to-medium term purpose and there is usable equity in property security.</p>
+                    <p>Typical scenarios include tax debt pressure, settlement timing gaps, urgent working capital, partner buyouts, short-term restructuring, and opportunities where a business wants speed without replacing an existing first mortgage.</p>
+                    <p>If your scenario is broader than simple equity access, it may also be worth comparing this tool with our <Link to="/resources/guides/second-mortgage-for-business" className="text-primary hover:underline">second mortgage for business guide</Link>, the <Link to="/resources/guides/first-and-second-mortgages-for-business" className="text-primary hover:underline">first and second mortgages guide</Link>, and the <Link to="/resources/guides/second-mortgage-lenders-australia-directory" className="text-primary hover:underline">second mortgage lenders directory</Link>.</p>
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -334,7 +389,7 @@ const SecondMortgageCalculator = () => {
                   asChild 
                   size="lg" 
                   variant="outline"
-                  className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent"
+                  className="border-white/80 bg-white/10 text-white hover:bg-white hover:text-primary"
                 >
                   <Link to="/resources/guides">Read Our Mortgage Guides</Link>
                 </Button>

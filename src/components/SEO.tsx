@@ -8,6 +8,7 @@ interface SEOProps {
   type?: string;
   image?: string;
   schemas?: object[];
+  noindex?: boolean;
 }
 
 const SEO = ({ 
@@ -17,18 +18,28 @@ const SEO = ({
   canonical,
   type = "website",
   image = "/assets/sydney-skyline-hero.jpg",
-  schemas = []
+  schemas = [],
+  noindex = false
 }: SEOProps) => {
   const baseUrl = "https://emetcapital.com.au";
-  const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl;
+  const normalizePath = (value?: string) => {
+    if (!value || value === '/') return '/';
+    if (value.startsWith('http://') || value.startsWith('https://')) return value;
+    return value.startsWith('/') ? value : `/${value}`;
+  };
+  const canonicalPath = normalizePath(canonical);
+  const fullCanonical = canonicalPath.startsWith('http') ? canonicalPath : `${baseUrl}${canonicalPath}`;
   const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
+  const robots = noindex
+    ? "noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1";
 
   return (
-    <Helmet>
+    <Helmet prioritizeSeoTags>
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+      <meta name="robots" content={robots} />
       <link rel="canonical" href={fullCanonical} />
       
       {/* Hreflang for Australian targeting */}

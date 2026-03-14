@@ -123,10 +123,10 @@ const Contact = () => {
   return (
     <div className="min-h-screen py-8">
       <SEO 
-        title="Contact Emet Capital | Commercial Finance Enquiries | Get a Quote"
-        description="Get in touch with Emet Capital for commercial lending solutions. Fast response, expert advice, competitive rates. Call 0485 952 651 or submit your enquiry online."
+        title="Contact Emet Capital | Commercial Finance Quote"
+        description="Contact Emet Capital to discuss commercial finance, private lending, bridging finance, or property-backed business funding in Australia."
         canonical="/contact"
-        keywords="contact Emet Capital, commercial lending enquiry, business loan quote, finance broker contact, Sydney"
+        keywords="contact emet capital, commercial finance quote, business finance enquiry, bridging finance contact, private lending enquiry"
         schemas={[generateContactPageSchema()]}
       />
       
