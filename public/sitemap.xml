@@ -907,4 +907,19 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/swing-loan-vs-bridging-finance-australia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

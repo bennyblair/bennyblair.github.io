@@ -266,9 +266,9 @@ const SecondMortgageCalculator = () => {
           {/* Quick Overview */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-6">Second Mortgage for Business: Quick Overview</h2>
-            <div className="prose max-w-none text-foreground/85 mb-8">
+            <div className="max-w-none mb-8 space-y-4 text-foreground/85">
               <p>Thinking about mortgage rates for second mortgage? Below we cover the practical bits—use-cases, eligibility, typical pricing, timelines—and the way we arrange it with credit teams.</p>
-              <p><strong>What is a second mortgage for business?</strong> It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.</p>
+              <p><span className="font-semibold text-foreground">What is a second mortgage for business?</span> It's a commercial finance solution used by Australian businesses. We arrange and negotiate terms with lenders, then coordinate credit and settlement.</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -368,10 +368,10 @@ const SecondMortgageCalculator = () => {
           {/* CTA */}
           <section className="text-center mt-16 py-12 bg-gradient-to-r from-accent to-accent-light rounded-2xl">
             <div className="max-w-2xl mx-auto px-8">
-              <h2 className="text-2xl font-bold text-accent-foreground mb-4">
+              <h2 className="text-2xl font-bold text-white mb-4">
                 Ready to Explore Second Mortgage Options?
               </h2>
-              <p className="text-accent-foreground/90 mb-6">
+              <p className="text-white/90 mb-6">
                 Our calculator provides estimates, but every property and business situation is unique. Connect with our commercial lending specialists for tailored second mortgage solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

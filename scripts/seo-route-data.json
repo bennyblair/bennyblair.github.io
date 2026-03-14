@@ -1,0 +1,975 @@
+{
+  "/": {
+    "title": "Homepage | Emet Capital",
+    "description": "Commercial lending solutions for Australian businesses, investors, and developers, including private lending, bridging finance, and property-backed funding.",
+    "canonical": "https://emetcapital.com.au/",
+    "h1": "Homepage",
+    "noscript": "Commercial lending solutions for Australian businesses, investors, and developers, including private lending, bridging finance, and property-backed funding."
+  },
+  "/about": {
+    "title": "about | Emet Capital",
+    "description": "Explore emet capital from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/about",
+    "h1": "about",
+    "noscript": "Explore emet capital from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/contact": {
+    "title": "contact | Emet Capital",
+    "description": "Explore contact emet capital from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/contact",
+    "h1": "contact",
+    "noscript": "Explore contact emet capital from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/resources": {
+    "title": "resources | Emet Capital",
+    "description": "Explore commercial lending resources australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/resources",
+    "h1": "resources",
+    "noscript": "Explore commercial lending resources australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/resources/case-studies": {
+    "title": "resources/case studies | Emet Capital",
+    "description": "Explore commercial lending case studies australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies",
+    "h1": "resources/case studies",
+    "noscript": "Explore commercial lending case studies australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/resources/case-studies/adelaide-cbd-asset-backed-lending": {
+    "title": "Adelaide CBD Property Portfolio: $3.8M Asset Backed Lending Facility | Emet Capital",
+    "description": "Read this Emet Capital case study covering adelaide cbd asset backed lending and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/adelaide-cbd-asset-backed-lending",
+    "h1": "Adelaide CBD Property Portfolio: $3.8M Asset Backed Lending Facility",
+    "noscript": "Read this Emet Capital case study covering adelaide cbd asset backed lending and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/adelaide-cbd-office-complex": {
+    "title": "Adelaide CBD Office Complex: $2.1M Commercial Refurbishment Success | Emet Capital",
+    "description": "Read this Emet Capital case study covering adelaide cbd office complex and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/adelaide-cbd-office-complex",
+    "h1": "Adelaide CBD Office Complex: $2.1M Commercial Refurbishment Success",
+    "noscript": "Read this Emet Capital case study covering adelaide cbd office complex and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/brisbane-fortitude-valley-trade-finance": {
+    "title": "Fortitude Valley Import Co: $1.2M Trade Finance for Asian Homeware | Emet Capital",
+    "description": "Read this Emet Capital case study covering brisbane fortitude valley trade finance and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/brisbane-fortitude-valley-trade-finance",
+    "h1": "Fortitude Valley Import Co: $1.2M Trade Finance for Asian Homeware",
+    "noscript": "Read this Emet Capital case study covering brisbane fortitude valley trade finance and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/fortitude-valley-hotel-project": {
+    "title": "Fortitude Valley Boutique Hotel: $6.2M Development Finance Success | Emet Capital",
+    "description": "Read this Emet Capital case study covering fortitude valley hotel project and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/fortitude-valley-hotel-project",
+    "h1": "Fortitude Valley Boutique Hotel: $6.2M Development Finance Success",
+    "noscript": "Read this Emet Capital case study covering fortitude valley hotel project and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/gold-coast-surfers-second-mortgage": {
+    "title": "Gold Coast Surfers Paradise: $650K Second Mortgage for Beachfront Apartment Development Deposit | Emet Capital",
+    "description": "Read this Emet Capital case study covering gold coast surfers second mortgage and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/gold-coast-surfers-second-mortgage",
+    "h1": "Gold Coast Surfers Paradise: $650K Second Mortgage for Beachfront Apartment Development Deposit",
+    "noscript": "Read this Emet Capital case study covering gold coast surfers second mortgage and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/melbourne-collingwood-refinancing": {
+    "title": "Collingwood Hospitality Group: $2.1M Refinancing Saves $185K Annually | Emet Capital",
+    "description": "Read this Emet Capital case study covering melbourne collingwood refinancing and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/melbourne-collingwood-refinancing",
+    "h1": "Collingwood Hospitality Group: $2.1M Refinancing Saves $185K Annually",
+    "noscript": "Read this Emet Capital case study covering melbourne collingwood refinancing and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/melbourne-richmond-asset-finance": {
+    "title": "Richmond Manufacturing: $850K Asset Finance for Production Equipment | Emet Capital",
+    "description": "Read this Emet Capital case study covering melbourne richmond asset finance and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/melbourne-richmond-asset-finance",
+    "h1": "Richmond Manufacturing: $850K Asset Finance for Production Equipment",
+    "noscript": "Read this Emet Capital case study covering melbourne richmond asset finance and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/newcastle-hamilton-working-capital": {
+    "title": "Hamilton Hospitality Group: $850K Working Capital for Multi-Venue Expansion | Emet Capital",
+    "description": "Read this Emet Capital case study covering newcastle hamilton working capital and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/newcastle-hamilton-working-capital",
+    "h1": "Hamilton Hospitality Group: $850K Working Capital for Multi-Venue Expansion",
+    "noscript": "Read this Emet Capital case study covering newcastle hamilton working capital and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/newcastle-junction-smsf-lending": {
+    "title": "The Junction Medical Centre: $2.4M SMSF Property Purchase | Emet Capital",
+    "description": "Read this Emet Capital case study covering newcastle junction smsf lending and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/newcastle-junction-smsf-lending",
+    "h1": "The Junction Medical Centre: $2.4M SMSF Property Purchase",
+    "noscript": "Read this Emet Capital case study covering newcastle junction smsf lending and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/newcastle-merewether-equipment-finance": {
+    "title": "Merewether Medical Clinic: $850K Equipment Finance Success | Emet Capital",
+    "description": "Read this Emet Capital case study covering newcastle merewether equipment finance and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/newcastle-merewether-equipment-finance",
+    "h1": "Merewether Medical Clinic: $850K Equipment Finance Success",
+    "noscript": "Read this Emet Capital case study covering newcastle merewether equipment finance and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/newcastle-wickham-business-acquisition": {
+    "title": "Wickham Engineering Firm: $1.9M Business Acquisition Finance | Emet Capital",
+    "description": "Read this Emet Capital case study covering newcastle wickham business acquisition and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/newcastle-wickham-business-acquisition",
+    "h1": "Wickham Engineering Firm: $1.9M Business Acquisition Finance",
+    "noscript": "Read this Emet Capital case study covering newcastle wickham business acquisition and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/parramatta-mixed-use-development": {
+    "title": "Parramatta Mixed-Use Development: $5.8M Bridging Finance Success | Emet Capital",
+    "description": "Read this Emet Capital case study covering parramatta mixed use development and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/parramatta-mixed-use-development",
+    "h1": "Parramatta Mixed-Use Development: $5.8M Bridging Finance Success",
+    "noscript": "Read this Emet Capital case study covering parramatta mixed use development and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/perth-business-group-debt-consolidation": {
+    "title": "Perth Business Group: $4.2M Debt Consolidation Saves $195K Annually | Emet Capital",
+    "description": "Read this Emet Capital case study covering perth business group debt consolidation and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/perth-business-group-debt-consolidation",
+    "h1": "Perth Business Group: $4.2M Debt Consolidation Saves $195K Annually",
+    "noscript": "Read this Emet Capital case study covering perth business group debt consolidation and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/perth-fremantle-first-mortgage": {
+    "title": "Perth Fremantle Investment: $1.8M First Mortgage for Heritage Commercial Acquisition | Emet Capital",
+    "description": "Read this Emet Capital case study covering perth fremantle first mortgage and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/perth-fremantle-first-mortgage",
+    "h1": "Perth Fremantle Investment: $1.8M First Mortgage for Heritage Commercial Acquisition",
+    "noscript": "Read this Emet Capital case study covering perth fremantle first mortgage and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/rose-bay-property-development-bridging-loan": {
+    "title": "Rose Bay Property Development Bridging Loan | Emet Capital",
+    "description": "Read this Emet Capital case study covering rose bay property development bridging loan and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/rose-bay-property-development-bridging-loan",
+    "h1": "Rose Bay Property Development Bridging Loan",
+    "noscript": "Read this Emet Capital case study covering rose bay property development bridging loan and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/south-yarra-apartment-development": {
+    "title": "South Yarra Luxury Apartments: $4.1M Development Finance Success | Emet Capital",
+    "description": "Read this Emet Capital case study covering south yarra apartment development and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/south-yarra-apartment-development",
+    "h1": "South Yarra Luxury Apartments: $4.1M Development Finance Success",
+    "noscript": "Read this Emet Capital case study covering south yarra apartment development and the commercial funding structure behind the outcome."
+  },
+  "/resources/case-studies/surry-hills-commercial-acquisition": {
+    "title": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success | Emet Capital",
+    "description": "Read this Emet Capital case study covering surry hills commercial acquisition and the commercial funding structure behind the outcome.",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+    "h1": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+    "noscript": "Read this Emet Capital case study covering surry hills commercial acquisition and the commercial funding structure behind the outcome."
+  },
+  "/resources/faqs": {
+    "title": "resources/faqs | Emet Capital",
+    "description": "Explore commercial lending faqs australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/resources/faqs",
+    "h1": "resources/faqs",
+    "noscript": "Explore commercial lending faqs australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/resources/glossary": {
+    "title": "resources/glossary | Emet Capital",
+    "description": "Explore commercial lending glossary australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/resources/glossary",
+    "h1": "resources/glossary",
+    "noscript": "Explore commercial lending glossary australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/resources/guides": {
+    "title": "resources/guides | Emet Capital",
+    "description": "Explore commercial finance guides australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/resources/guides",
+    "h1": "resources/guides",
+    "noscript": "Explore commercial finance guides australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/resources/guides/2nd-loan-mortgage-business-capital": {
+    "title": "2nd Loan Mortgages: Access Business Capital Through Property | Emet Capital",
+    "description": "Read our guide to 2nd loan mortgage business capital, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/2nd-loan-mortgage-business-capital",
+    "h1": "2nd Loan Mortgages: Access Business Capital Through Property",
+    "noscript": "Read our guide to 2nd loan mortgage business capital, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/asset-backed-lending-and-asset-finance": {
+    "title": "Asset-Backed Lending & Asset Finance: A Guide | Emet Capital",
+    "description": "Read our guide to asset backed lending and asset finance, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/asset-backed-lending-and-asset-finance",
+    "h1": "Asset-Backed Lending & Asset Finance: A Guide",
+    "noscript": "Read our guide to asset backed lending and asset finance, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/best-bridging-loan-lenders-companies-2025": {
+    "title": "The Best Bridging Loan Lenders & Finance Companies [2025] | Emet Capital",
+    "description": "Read our guide to best bridging loan lenders companies 2025, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/best-bridging-loan-lenders-companies-2025",
+    "h1": "The Best Bridging Loan Lenders & Finance Companies [2025]",
+    "noscript": "Read our guide to best bridging loan lenders companies 2025, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/bridging-finance-australia-complete-property-guide": {
+    "title": "Bridging Finance in Australia: The Complete Property Guide | Emet Capital",
+    "description": "Read our guide to bridging finance australia complete property guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide",
+    "h1": "Bridging Finance in Australia: The Complete Property Guide",
+    "noscript": "Read our guide to bridging finance australia complete property guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/bridging-finance-developers-project-funding-solutions": {
+    "title": "Bridging Finance for Developers: Project Funding Solutions | Emet Capital",
+    "description": "Read our guide to bridging finance developers project funding solutions, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-developers-project-funding-solutions",
+    "h1": "Bridging Finance for Developers: Project Funding Solutions",
+    "noscript": "Read our guide to bridging finance developers project funding solutions, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/building-development-loans-funding-guide": {
+    "title": "Building Development Loans: Complete Funding Guide for Developers | Emet Capital",
+    "description": "Read our guide to building development loans funding guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/building-development-loans-funding-guide",
+    "h1": "Building Development Loans: Complete Funding Guide for Developers",
+    "noscript": "Read our guide to building development loans funding guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/business-acquisition-finance-australia": {
+    "title": "A Guide to Business Acquisition Finance in Australia | Emet Capital",
+    "description": "Read our guide to business acquisition finance australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-acquisition-finance-australia",
+    "h1": "A Guide to Business Acquisition Finance in Australia",
+    "noscript": "Read our guide to business acquisition finance australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/business-debt-consolidation-australia": {
+    "title": "A Guide to Business Debt Consolidation in Australia | Emet Capital",
+    "description": "Read our guide to business debt consolidation australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-debt-consolidation-australia",
+    "h1": "A Guide to Business Debt Consolidation in Australia",
+    "noscript": "Read our guide to business debt consolidation australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/caveat-lenders-australia-directory-comparison": {
+    "title": "Caveat Lenders in Australia: 2025 Directory & Comparison | Emet Capital",
+    "description": "Read our guide to caveat lenders australia directory comparison, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-lenders-australia-directory-comparison",
+    "h1": "Caveat Lenders in Australia: 2025 Directory & Comparison",
+    "noscript": "Read our guide to caveat lenders australia directory comparison, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/caveat-loan-emergency-business-funding": {
+    "title": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow | Emet Capital",
+    "description": "Read our guide to caveat loan emergency business funding, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-emergency-business-funding",
+    "h1": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow",
+    "noscript": "Read our guide to caveat loan emergency business funding, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/caveat-loans-australia-complete-guide": {
+    "title": "Caveat Loans in Australia: The Complete Guide for Fast Property Finance | Emet Capital",
+    "description": "Read our guide to caveat loans australia complete guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loans-australia-complete-guide",
+    "h1": "Caveat Loans in Australia: The Complete Guide for Fast Property Finance",
+    "noscript": "Read our guide to caveat loans australia complete guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase": {
+    "title": "Caveat Loans for Property Settlement: Bridge Your Purchase | Emet Capital",
+    "description": "Read our guide to caveat loans for property settlement bridge your purchase, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase",
+    "h1": "Caveat Loans for Property Settlement: Bridge Your Purchase",
+    "noscript": "Read our guide to caveat loans for property settlement bridge your purchase, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/caveat-loans-vs-bank-loans-speed-comparison": {
+    "title": "Caveat Loans vs Bank Loans: Which is Faster for Your Business? | Emet Capital",
+    "description": "Read our guide to caveat loans vs bank loans speed comparison, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loans-vs-bank-loans-speed-comparison",
+    "h1": "Caveat Loans vs Bank Loans: Which is Faster for Your Business?",
+    "noscript": "Read our guide to caveat loans vs bank loans speed comparison, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-bridging-finance-auction-purchases": {
+    "title": "Commercial Bridging Finance for Auction Purchases | Emet Capital",
+    "description": "Read our guide to commercial bridging finance auction purchases, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-bridging-finance-auction-purchases",
+    "h1": "Commercial Bridging Finance for Auction Purchases",
+    "noscript": "Read our guide to commercial bridging finance auction purchases, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide": {
+    "title": "Commercial Bridging Loans for Property Auctions | Emet Capital",
+    "description": "Read our guide to commercial bridging loans for property auctions expert guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
+    "h1": "Commercial Bridging Loans for Property Auctions",
+    "noscript": "Read our guide to commercial bridging loans for property auctions expert guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-bridging-loans-property-auctions-expert-guide": {
+    "title": "Commercial Bridging Loans for Property Auctions [Expert Guide] | Emet Capital",
+    "description": "Read our guide to commercial bridging loans property auctions expert guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-property-auctions-expert-guide",
+    "h1": "Commercial Bridging Loans for Property Auctions [Expert Guide]",
+    "noscript": "Read our guide to commercial bridging loans property auctions expert guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-land-loans-financing-property-development": {
+    "title": "Commercial Land Loans: Finance Your Property Development | Emet Capital",
+    "description": "Read our guide to commercial land loans financing property development, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-land-loans-financing-property-development",
+    "h1": "Commercial Land Loans: Finance Your Property Development",
+    "noscript": "Read our guide to commercial land loans financing property development, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained": {
+    "title": "Commercial Mortgages vs Residential: Key Differences Explained | Emet Capital",
+    "description": "Read our guide to commercial mortgages vs residential key differences explained, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-mortgages-vs-residential-key-differences-explained",
+    "h1": "Commercial Mortgages vs Residential: Key Differences Explained",
+    "noscript": "Read our guide to commercial mortgages vs residential key differences explained, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-development-finance": {
+    "title": "Commercial Property Development Finance: A Complete Guide | Emet Capital",
+    "description": "Read our guide to commercial property development finance, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-development-finance",
+    "h1": "Commercial Property Development Finance: A Complete Guide",
+    "noscript": "Read our guide to commercial property development finance, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-finance-rates-2025-comparison": {
+    "title": "Commercial Property Finance Rates: 2025 Comparison | Emet Capital",
+    "description": "Read our guide to commercial property finance rates comparison, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-finance-rates-2025-comparison",
+    "h1": "Commercial Property Finance Rates: 2025 Comparison",
+    "noscript": "Read our guide to commercial property finance rates comparison, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify": {
+    "title": "Commercial Property Loan Eligibility: What You Need to Qualify | Emet Capital",
+    "description": "Read our guide to commercial property loan eligibility what you need to qualify, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify",
+    "h1": "Commercial Property Loan Eligibility: What You Need to Qualify",
+    "noscript": "Read our guide to commercial property loan eligibility what you need to qualify, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-loan-retail-spaces-guide": {
+    "title": "Commercial Property Loans for Retail Spaces: 2025 Guide | Emet Capital",
+    "description": "Read our guide to commercial property loan retail spaces guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loan-retail-spaces-guide",
+    "h1": "Commercial Property Loans for Retail Spaces: 2025 Guide",
+    "noscript": "Read our guide to commercial property loan retail spaces guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-loans-australia-complete-guide": {
+    "title": "Commercial Property Loans in Australia: The Complete Guide | Emet Capital",
+    "description": "Read our guide to commercial property loans australia complete guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+    "h1": "Commercial Property Loans in Australia: The Complete Guide",
+    "noscript": "Read our guide to commercial property loans australia complete guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-loans-for-immigrants-expats-australia": {
+    "title": "Commercial Property Loans for Immigrants & Expats in Australia | Emet Capital",
+    "description": "Read our guide to commercial property loans for immigrants expats australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-for-immigrants-expats-australia",
+    "h1": "Commercial Property Loans for Immigrants & Expats in Australia",
+    "noscript": "Read our guide to commercial property loans for immigrants expats australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-loans-for-startups-first-time-buyers": {
+    "title": "Commercial Property Loans for Startups: First-Time Buyers | Emet Capital",
+    "description": "Read our guide to commercial property loans for startups first time buyers, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-for-startups-first-time-buyers",
+    "h1": "Commercial Property Loans for Startups: First-Time Buyers",
+    "noscript": "Read our guide to commercial property loans for startups first time buyers, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/commercial-property-refinancing-solutions": {
+    "title": "Commercial Property Refinancing Solutions in Australia | Emet Capital",
+    "description": "Read our guide to commercial property refinancing solutions, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-refinancing-solutions",
+    "h1": "Commercial Property Refinancing Solutions in Australia",
+    "noscript": "Read our guide to commercial property refinancing solutions, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/construction-finance-australia-complete-guide": {
+    "title": "Construction Finance in Australia: The Complete Guide for Commercial Builds | Emet Capital",
+    "description": "Read our guide to construction finance australia complete guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/construction-finance-australia-complete-guide",
+    "h1": "Construction Finance in Australia: The Complete Guide for Commercial Builds",
+    "noscript": "Read our guide to construction finance australia complete guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/debtor-finance-supply-chain-finance-australia": {
+    "title": "Debtor Finance & Supply Chain Finance in Australia: The Complete Guide | Emet Capital",
+    "description": "Read our guide to debtor finance supply chain finance australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/debtor-finance-supply-chain-finance-australia",
+    "h1": "Debtor Finance & Supply Chain Finance in Australia: The Complete Guide",
+    "noscript": "Read our guide to debtor finance supply chain finance australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/equipment-finance-and-leasing-australia": {
+    "title": "Equipment Finance and Leasing for Australian Businesses | Emet Capital",
+    "description": "Read our guide to equipment finance and leasing australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/equipment-finance-and-leasing-australia",
+    "h1": "Equipment Finance and Leasing for Australian Businesses",
+    "noscript": "Read our guide to equipment finance and leasing australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/find-caveat-loan-brokers-australia": {
+    "title": "How to Find Caveat Loan Brokers in Australia [2025] | Emet Capital",
+    "description": "Read our guide to find caveat loan brokers australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/find-caveat-loan-brokers-australia",
+    "h1": "How to Find Caveat Loan Brokers in Australia [2025]",
+    "noscript": "Read our guide to find caveat loan brokers australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/finding-best-private-lenders-for-your-business": {
+    "title": "Finding the Best Private Lenders for Your Business | Emet Capital",
+    "description": "Read our guide to finding best private lenders for your business, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/finding-best-private-lenders-for-your-business",
+    "h1": "Finding the Best Private Lenders for Your Business",
+    "noscript": "Read our guide to finding best private lenders for your business, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/finding-comparing-private-lenders-loans-2025-guide": {
+    "title": "Finding & Comparing Private Lenders Loans [2025 Guide] | Emet Capital",
+    "description": "Read our guide to finding comparing private lenders loans guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/finding-comparing-private-lenders-loans-2025-guide",
+    "h1": "Finding & Comparing Private Lenders Loans [2025 Guide]",
+    "noscript": "Read our guide to finding comparing private lenders loans guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/first-and-second-mortgages-for-business": {
+    "title": "1st & 2nd Mortgages for Business: The Definitive Guide | Emet Capital",
+    "description": "Read our guide to first and second mortgages for business, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/first-and-second-mortgages-for-business",
+    "h1": "1st & 2nd Mortgages for Business: The Definitive Guide",
+    "noscript": "Read our guide to first and second mortgages for business, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/first-mortgage-loans-primary-property-finance": {
+    "title": "First Mortgage Loans: Understanding Primary Property Finance | Emet Capital",
+    "description": "Read our guide to first mortgage loans primary property finance, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/first-mortgage-loans-primary-property-finance",
+    "h1": "First Mortgage Loans: Understanding Primary Property Finance",
+    "noscript": "Read our guide to first mortgage loans primary property finance, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/hospitality-property-finance-restaurants-hotels-venues": {
+    "title": "Hospitality Property Finance: Restaurants, Hotels & Venues | Emet Capital",
+    "description": "Read our guide to hospitality property finance restaurants hotels venues, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/hospitality-property-finance-restaurants-hotels-venues",
+    "h1": "Hospitality Property Finance: Restaurants, Hotels & Venues",
+    "noscript": "Read our guide to hospitality property finance restaurants hotels venues, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/how-to-buy-commercial-property-step-by-step-guide": {
+    "title": "How to Buy Commercial Property: Step-by-Step Guide [2025] | Emet Capital",
+    "description": "Read our guide to how to buy commercial property step by step guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/how-to-buy-commercial-property-step-by-step-guide",
+    "h1": "How to Buy Commercial Property: Step-by-Step Guide [2025]",
+    "noscript": "Read our guide to how to buy commercial property step by step guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide": {
+    "title": "How to Choose a Bridging Loan Broker [Expert Selection Guide] | Emet Capital",
+    "description": "Read our guide to bridging loan broker, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide",
+    "h1": "How to Choose a Bridging Loan Broker [Expert Selection Guide]",
+    "noscript": "Read our guide to bridging loan broker, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/how-to-find-second-mortgage-brokers-australia": {
+    "title": "How to Find Second Mortgage Brokers in Australia | Emet Capital",
+    "description": "Read our guide to how to find second mortgage brokers australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/how-to-find-second-mortgage-brokers-australia",
+    "h1": "How to Find Second Mortgage Brokers in Australia",
+    "noscript": "Read our guide to how to find second mortgage brokers australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/industrial-property-finance-warehouses-manufacturing": {
+    "title": "Industrial Property Finance: Warehouses & Manufacturing | Emet Capital",
+    "description": "Read our guide to industrial property finance warehouses manufacturing, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/industrial-property-finance-warehouses-manufacturing",
+    "h1": "Industrial Property Finance: Warehouses & Manufacturing",
+    "noscript": "Read our guide to industrial property finance warehouses manufacturing, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/invoice-finance-australia-complete-guide": {
+    "title": "Invoice Finance in Australia: The Complete Guide for Business Cash Flow | Emet Capital",
+    "description": "Read our guide to invoice finance australia complete guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/invoice-finance-australia-complete-guide",
+    "h1": "Invoice Finance in Australia: The Complete Guide for Business Cash Flow",
+    "noscript": "Read our guide to invoice finance australia complete guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/mezzanine-finance-australia-complete-guide": {
+    "title": "Mezzanine Finance in Australia: The Complete Guide for Business Growth | Emet Capital",
+    "description": "Read our guide to mezzanine finance australia complete guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/mezzanine-finance-australia-complete-guide",
+    "h1": "Mezzanine Finance in Australia: The Complete Guide for Business Growth",
+    "noscript": "Read our guide to mezzanine finance australia complete guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/office-property-loans-financing-commercial-workspace": {
+    "title": "Office Property Loans: Financing Your Commercial Workspace | Emet Capital",
+    "description": "Read our guide to office property loans financing commercial workspace, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/office-property-loans-financing-commercial-workspace",
+    "h1": "Office Property Loans: Financing Your Commercial Workspace",
+    "noscript": "Read our guide to office property loans financing commercial workspace, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises": {
+    "title": "Owner-Occupier Commercial Loans: Buy Your Business Premises | Emet Capital",
+    "description": "Read our guide to owner occupier commercial loans buy your business premises, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises",
+    "h1": "Owner-Occupier Commercial Loans: Buy Your Business Premises",
+    "noscript": "Read our guide to owner occupier commercial loans buy your business premises, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/private-commercial-real-estate-lenders-cre-directory": {
+    "title": "Private Commercial Real Estate Lenders: CRE Directory | Emet Capital",
+    "description": "Read our guide to private commercial real estate lenders cre directory, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-commercial-real-estate-lenders-cre-directory",
+    "h1": "Private Commercial Real Estate Lenders: CRE Directory",
+    "noscript": "Read our guide to private commercial real estate lenders cre directory, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/private-lenders-for-land-loans-alternative-financing": {
+    "title": "Private Lenders for Land Loans: Alternative Finance Options | Emet Capital",
+    "description": "Read our guide to private lenders for land loans alternative financing, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-lenders-for-land-loans-alternative-financing",
+    "h1": "Private Lenders for Land Loans: Alternative Finance Options",
+    "noscript": "Read our guide to private lenders for land loans alternative financing, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/private-lenders-for-mortgages": {
+    "title": "Private Mortgage Lenders: When Banks Say No | Emet Capital",
+    "description": "Read our guide to private lenders for mortgages, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-lenders-for-mortgages",
+    "h1": "Private Mortgage Lenders: When Banks Say No",
+    "noscript": "Read our guide to private lenders for mortgages, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/private-lenders-small-business-fast-approval-guide": {
+    "title": "Private Lenders for Small Business: Fast Approval Guide | Emet Capital",
+    "description": "Read our guide to private lenders small business fast approval guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-lenders-small-business-fast-approval-guide",
+    "h1": "Private Lenders for Small Business: Fast Approval Guide",
+    "noscript": "Read our guide to private lenders small business fast approval guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/private-mortgage-lenders-australia-directory": {
+    "title": "Private Mortgage Lenders: Complete Australia Directory [2025] | Emet Capital",
+    "description": "Read our guide to private mortgage lenders, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory",
+    "h1": "Private Mortgage Lenders: Complete Australia Directory [2025]",
+    "noscript": "Read our guide to private mortgage lenders, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/private-real-estate-investment-lenders-guide": {
+    "title": "Private Real Estate Investment Lenders: Investor Guide 2025 | Emet Capital",
+    "description": "Read our guide to private real estate investment lenders guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-real-estate-investment-lenders-guide",
+    "h1": "Private Real Estate Investment Lenders: Investor Guide 2025",
+    "noscript": "Read our guide to private real estate investment lenders guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/quick-caveat-loans-48-hour-settlement-possible": {
+    "title": "Quick Caveat Loans: Is 48-Hour Settlement Really Possible? | Emet Capital",
+    "description": "Read our guide to quick caveat loans 48 hour settlement possible, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/quick-caveat-loans-48-hour-settlement-possible",
+    "h1": "Quick Caveat Loans: Is 48-Hour Settlement Really Possible?",
+    "noscript": "Read our guide to quick caveat loans 48 hour settlement possible, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/second-mortgage-bad-credit-qualify": {
+    "title": "Second Mortgage with Bad Credit: Can You Still Qualify? | Emet Capital",
+    "description": "Read our guide to second mortgage bad credit qualify, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-bad-credit-qualify",
+    "h1": "Second Mortgage with Bad Credit: Can You Still Qualify?",
+    "noscript": "Read our guide to second mortgage bad credit qualify, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/second-mortgage-for-business": {
+    "title": "How Second Mortgages Work for Business Funding in Australia | Emet Capital",
+    "description": "Read our guide to second mortgage for business, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-for-business",
+    "h1": "How Second Mortgages Work for Business Funding in Australia",
+    "noscript": "Read our guide to second mortgage for business, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/second-mortgage-lenders-australia-directory": {
+    "title": "Second Mortgage Lenders in Australia: Complete Directory | Emet Capital",
+    "description": "Read our guide to second mortgage lenders australia directory, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-lenders-australia-directory",
+    "h1": "Second Mortgage Lenders in Australia: Complete Directory",
+    "noscript": "Read our guide to second mortgage lenders australia directory, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/second-mortgage-loan-equity-access-strategies": {
+    "title": "Second Mortgage Loans: Unlock Your Property's Hidden Equity | Emet Capital",
+    "description": "Read our guide to second mortgage loan equity access strategies, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-loan-equity-access-strategies",
+    "h1": "Second Mortgage Loans: Unlock Your Property's Hidden Equity",
+    "noscript": "Read our guide to second mortgage loan equity access strategies, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/second-mortgage-partnership-buyout-financing-transitions": {
+    "title": "Second Mortgage for Partnership Buyout: Financing Transitions | Emet Capital",
+    "description": "Read our guide to second mortgage partnership buyout financing transitions, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-partnership-buyout-financing-transitions",
+    "h1": "Second Mortgage for Partnership Buyout: Financing Transitions",
+    "noscript": "Read our guide to second mortgage partnership buyout financing transitions, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/second-mortgages-for-business-guide": {
+    "title": "Second Mortgages for Business: Is It Right for Your Company? | Emet Capital",
+    "description": "Read our guide to second mortgages for business guide, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgages-for-business-guide",
+    "h1": "Second Mortgages for Business: Is It Right for Your Company?",
+    "noscript": "Read our guide to second mortgages for business guide, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/short-term-private-lenders-fast-business-finance-solutions": {
+    "title": "Short-Term Private Lenders: Fast Business Finance Solutions | Emet Capital",
+    "description": "Read our guide to short term private lenders fast business finance solutions, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
+    "h1": "Short-Term Private Lenders: Fast Business Finance Solutions",
+    "noscript": "Read our guide to short term private lenders fast business finance solutions, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/short-term-property-loans-when-you-need-fast-finance": {
+    "title": "Short-Term Property Loans: When You Need Fast Finance | Emet Capital",
+    "description": "Read our guide to short term property loans when you need fast finance, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/short-term-property-loans-when-you-need-fast-finance",
+    "h1": "Short-Term Property Loans: When You Need Fast Finance",
+    "noscript": "Read our guide to short term property loans when you need fast finance, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/smsf-loans-for-commercial-property": {
+    "title": "SMSF Loans for Commercial Property: The Complete Guide | Emet Capital",
+    "description": "Read our guide to smsf loans for commercial property, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/smsf-loans-for-commercial-property",
+    "h1": "SMSF Loans for Commercial Property: The Complete Guide",
+    "noscript": "Read our guide to smsf loans for commercial property, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/subordination-agreement-second-mortgage": {
+    "title": "Subordination Agreements in Second Mortgages: What They Mean | Emet Capital",
+    "description": "Read our guide to subordination agreement second mortgage, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/subordination-agreement-second-mortgage",
+    "h1": "Subordination Agreements in Second Mortgages: What They Mean",
+    "noscript": "Read our guide to subordination agreement second mortgage, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/swing-loan-vs-bridging-finance-australia": {
+    "title": "Resources Guides Swing Loan Vs Bridging Finance Australia | Emet Capital",
+    "description": "Explore Resources Guides Swing Loan Vs Bridging Finance Australia with Emet Capital, including commercial finance context and related property-backed lending information.",
+    "canonical": "https://emetcapital.com.au/resources/guides/swing-loan-vs-bridging-finance-australia",
+    "h1": "Resources Guides Swing Loan Vs Bridging Finance Australia",
+    "noscript": "Explore Resources Guides Swing Loan Vs Bridging Finance Australia with Emet Capital, including commercial finance context and related property-backed lending information."
+  },
+  "/resources/guides/swing-loans-explained-seamless-property-transitions": {
+    "title": "Swing Loans Explained: Seamless Property Transitions | Emet Capital",
+    "description": "Read our guide to swing loan, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/swing-loans-explained-seamless-property-transitions",
+    "h1": "Swing Loans Explained: Seamless Property Transitions",
+    "noscript": "Read our guide to swing loan, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports": {
+    "title": "Trade Finance in Australia: The Complete Guide for Business Imports and Exports | Emet Capital",
+    "description": "Read our guide to trade finance in australia how it helps businesses manage imports, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports",
+    "h1": "Trade Finance in Australia: The Complete Guide for Business Imports and Exports",
+    "noscript": "Read our guide to trade finance in australia how it helps businesses manage imports, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/understanding-secondary-mortgage-markets-australia": {
+    "title": "Understanding Secondary Mortgage Markets in Australia | Emet Capital",
+    "description": "Read our guide to understanding secondary mortgage markets australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/understanding-secondary-mortgage-markets-australia",
+    "h1": "Understanding Secondary Mortgage Markets in Australia",
+    "noscript": "Read our guide to understanding secondary mortgage markets australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/urgent-caveat-loans": {
+    "title": "Urgent Caveat Loans: Get Approved in 24-48 Hours | Emet Capital",
+    "description": "Read our guide to urgent caveat loans, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/urgent-caveat-loans",
+    "h1": "Urgent Caveat Loans: Get Approved in 24-48 Hours",
+    "noscript": "Read our guide to urgent caveat loans, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/what-is-private-lending-australia": {
+    "title": "What is Private Lending? A Guide for Australian Businesses | Emet Capital",
+    "description": "Read our guide to what is private lending australia, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/what-is-private-lending-australia",
+    "h1": "What is Private Lending? A Guide for Australian Businesses",
+    "noscript": "Read our guide to what is private lending australia, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/when-second-mortgages-make-financial-sense-smes": {
+    "title": "When Second Mortgages Make Financial Sense for SMEs | Emet Capital",
+    "description": "Read our guide to when second mortgages make financial sense smes, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/when-second-mortgages-make-financial-sense-smes",
+    "h1": "When Second Mortgages Make Financial Sense for SMEs",
+    "noscript": "Read our guide to when second mortgages make financial sense smes, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/guides/working-capital-loans-for-smes": {
+    "title": "Working Capital Loans: A Guide for Australian SMEs | Emet Capital",
+    "description": "Read our guide to working capital loans for smes, including commercial use cases, lender considerations, and Australian funding context.",
+    "canonical": "https://emetcapital.com.au/resources/guides/working-capital-loans-for-smes",
+    "h1": "Working Capital Loans: A Guide for Australian SMEs",
+    "noscript": "Read our guide to working capital loans for smes, including commercial use cases, lender considerations, and Australian funding context."
+  },
+  "/resources/insights": {
+    "title": "resources/insights | Emet Capital",
+    "description": "Explore commercial finance market insights australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/resources/insights",
+    "h1": "resources/insights",
+    "noscript": "Explore commercial finance market insights australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/services": {
+    "title": "services | Emet Capital",
+    "description": "Explore commercial lending services australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/services",
+    "h1": "services",
+    "noscript": "Explore commercial lending services australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/services/asset-backed-lending": {
+    "title": "asset backed lending | Emet Capital",
+    "description": "Explore asset backed lending australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/asset-backed-lending",
+    "h1": "asset backed lending",
+    "noscript": "Explore asset backed lending australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/asset-finance": {
+    "title": "asset finance | Emet Capital",
+    "description": "Explore asset finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/asset-finance",
+    "h1": "asset finance",
+    "noscript": "Explore asset finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/asset-finance/cities/brisbane": {
+    "title": "asset finance brisbane | Emet Capital",
+    "description": "Explore asset finance brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/asset-finance/cities/brisbane",
+    "h1": "asset finance brisbane",
+    "noscript": "Explore asset finance brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/asset-finance/cities/melbourne": {
+    "title": "asset finance melbourne | Emet Capital",
+    "description": "Explore asset finance melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/asset-finance/cities/melbourne",
+    "h1": "asset finance melbourne",
+    "noscript": "Explore asset finance melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/asset-finance/cities/sydney": {
+    "title": "asset finance sydney | Emet Capital",
+    "description": "Explore asset finance sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/asset-finance/cities/sydney",
+    "h1": "asset finance sydney",
+    "noscript": "Explore asset finance sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/bridging-finance": {
+    "title": "bridging finance | Emet Capital",
+    "description": "Explore bridging finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/bridging-finance",
+    "h1": "bridging finance",
+    "noscript": "Explore bridging finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/bridging-finance/cities/adelaide": {
+    "title": "bridging finance adelaide | Emet Capital",
+    "description": "Explore bridging finance adelaide solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/adelaide",
+    "h1": "bridging finance adelaide",
+    "noscript": "Explore bridging finance adelaide solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/bridging-finance/cities/brisbane": {
+    "title": "bridging finance brisbane | Emet Capital",
+    "description": "Explore bridging finance brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/brisbane",
+    "h1": "bridging finance brisbane",
+    "noscript": "Explore bridging finance brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/bridging-finance/cities/gold-coast": {
+    "title": "bridging finance gold coast | Emet Capital",
+    "description": "Explore bridging finance gold coast solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/gold-coast",
+    "h1": "bridging finance gold coast",
+    "noscript": "Explore bridging finance gold coast solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/bridging-finance/cities/melbourne": {
+    "title": "bridging finance melbourne | Emet Capital",
+    "description": "Explore bridging finance melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/melbourne",
+    "h1": "bridging finance melbourne",
+    "noscript": "Explore bridging finance melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/bridging-finance/cities/perth": {
+    "title": "bridging finance perth | Emet Capital",
+    "description": "Explore bridging finance perth solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/perth",
+    "h1": "bridging finance perth",
+    "noscript": "Explore bridging finance perth solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/bridging-finance/cities/sydney": {
+    "title": "bridging finance sydney | Emet Capital",
+    "description": "Explore bridging finance sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/sydney",
+    "h1": "bridging finance sydney",
+    "noscript": "Explore bridging finance sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/business-acquisition": {
+    "title": "business acquisition | Emet Capital",
+    "description": "Explore business acquisition australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/business-acquisition",
+    "h1": "business acquisition",
+    "noscript": "Explore business acquisition australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/caveat-loans": {
+    "title": "caveat loans | Emet Capital",
+    "description": "Explore caveat loans australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/caveat-loans",
+    "h1": "caveat loans",
+    "noscript": "Explore caveat loans australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/commercial-property-development": {
+    "title": "commercial property development | Emet Capital",
+    "description": "Explore commercial property development australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-development",
+    "h1": "commercial property development",
+    "noscript": "Explore commercial property development australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/commercial-property-development/cities/adelaide": {
+    "title": "commercial property development adelaide | Emet Capital",
+    "description": "Explore commercial property development adelaide solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/adelaide",
+    "h1": "commercial property development adelaide",
+    "noscript": "Explore commercial property development adelaide solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/commercial-property-development/cities/brisbane": {
+    "title": "commercial property development brisbane | Emet Capital",
+    "description": "Explore commercial property development brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/brisbane",
+    "h1": "commercial property development brisbane",
+    "noscript": "Explore commercial property development brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/commercial-property-development/cities/gold-coast": {
+    "title": "commercial property development gold coast | Emet Capital",
+    "description": "Explore commercial property development gold coast solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/gold-coast",
+    "h1": "commercial property development gold coast",
+    "noscript": "Explore commercial property development gold coast solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/commercial-property-development/cities/melbourne": {
+    "title": "commercial property development melbourne | Emet Capital",
+    "description": "Explore commercial property development melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/melbourne",
+    "h1": "commercial property development melbourne",
+    "noscript": "Explore commercial property development melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/commercial-property-development/cities/perth": {
+    "title": "commercial property development perth | Emet Capital",
+    "description": "Explore commercial property development perth solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/perth",
+    "h1": "commercial property development perth",
+    "noscript": "Explore commercial property development perth solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/commercial-property-development/cities/sydney": {
+    "title": "commercial property development sydney | Emet Capital",
+    "description": "Explore commercial property development sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/sydney",
+    "h1": "commercial property development sydney",
+    "noscript": "Explore commercial property development sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/debt-consolidation": {
+    "title": "debt consolidation | Emet Capital",
+    "description": "Explore debt consolidation australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/debt-consolidation",
+    "h1": "debt consolidation",
+    "noscript": "Explore debt consolidation australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/equipment-finance": {
+    "title": "equipment finance | Emet Capital",
+    "description": "Explore equipment finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/equipment-finance",
+    "h1": "equipment finance",
+    "noscript": "Explore equipment finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/first-second-mortgages": {
+    "title": "first second mortgages | Emet Capital",
+    "description": "Explore first second mortgages australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/first-second-mortgages",
+    "h1": "first second mortgages",
+    "noscript": "Explore first second mortgages australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/first-second-mortgages/cities/adelaide": {
+    "title": "first second mortgages adelaide | Emet Capital",
+    "description": "Explore first second mortgages adelaide solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/adelaide",
+    "h1": "first second mortgages adelaide",
+    "noscript": "Explore first second mortgages adelaide solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/first-second-mortgages/cities/brisbane": {
+    "title": "first second mortgages brisbane | Emet Capital",
+    "description": "Explore first second mortgages brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/brisbane",
+    "h1": "first second mortgages brisbane",
+    "noscript": "Explore first second mortgages brisbane solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/first-second-mortgages/cities/gold-coast": {
+    "title": "first second mortgages gold coast | Emet Capital",
+    "description": "Explore first second mortgages gold coast solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/gold-coast",
+    "h1": "first second mortgages gold coast",
+    "noscript": "Explore first second mortgages gold coast solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/first-second-mortgages/cities/melbourne": {
+    "title": "first second mortgages melbourne | Emet Capital",
+    "description": "Explore first second mortgages melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/melbourne",
+    "h1": "first second mortgages melbourne",
+    "noscript": "Explore first second mortgages melbourne solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/first-second-mortgages/cities/perth": {
+    "title": "first second mortgages perth | Emet Capital",
+    "description": "Explore first second mortgages perth solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/perth",
+    "h1": "first second mortgages perth",
+    "noscript": "Explore first second mortgages perth solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/first-second-mortgages/cities/sydney": {
+    "title": "first second mortgages sydney | Emet Capital",
+    "description": "Explore first second mortgages sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers.",
+    "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/sydney",
+    "h1": "first second mortgages sydney",
+    "noscript": "Explore first second mortgages sydney solutions, lender considerations, and local commercial finance scenarios for Australian business and property borrowers."
+  },
+  "/services/private-lending": {
+    "title": "private lending | Emet Capital",
+    "description": "Explore private lending australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/private-lending",
+    "h1": "private lending",
+    "noscript": "Explore private lending australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/refinancing-solutions": {
+    "title": "refinancing solutions | Emet Capital",
+    "description": "Explore refinancing solutions australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/refinancing-solutions",
+    "h1": "refinancing solutions",
+    "noscript": "Explore refinancing solutions australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/smsf-lending": {
+    "title": "smsf lending | Emet Capital",
+    "description": "Explore smsf lending australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/smsf-lending",
+    "h1": "smsf lending",
+    "noscript": "Explore smsf lending australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/trade-finance": {
+    "title": "trade finance | Emet Capital",
+    "description": "Explore trade finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/trade-finance",
+    "h1": "trade finance",
+    "noscript": "Explore trade finance australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/services/working-capital": {
+    "title": "working capital | Emet Capital",
+    "description": "Explore working capital australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
+    "canonical": "https://emetcapital.com.au/services/working-capital",
+    "h1": "working capital",
+    "noscript": "Explore working capital australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
+  },
+  "/tools": {
+    "title": "tools | Emet Capital",
+    "description": "Explore commercial finance calculators australia from Emet Capital, including guides, tools, service pages, and commercial finance resources.",
+    "canonical": "https://emetcapital.com.au/tools",
+    "h1": "tools",
+    "noscript": "Explore commercial finance calculators australia from Emet Capital, including guides, tools, service pages, and commercial finance resources."
+  },
+  "/tools/asset-finance-roi-calculator": {
+    "title": "asset finance roi calculator | Emet Capital",
+    "description": "Use this asset finance roi calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/asset-finance-roi-calculator",
+    "h1": "asset finance roi calculator",
+    "noscript": "Use this asset finance roi calculator tool to estimate scenarios and review commercial finance considerations in Australia."
+  },
+  "/tools/bridging-loan-calculator": {
+    "title": "bridging loan calculator | Emet Capital",
+    "description": "Use this bridging loan calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/bridging-loan-calculator",
+    "h1": "bridging loan calculator",
+    "noscript": "Use this bridging loan calculator tool to estimate scenarios and review commercial finance considerations in Australia."
+  },
+  "/tools/commercial-property-loan-calculator": {
+    "title": "Commercial Property Loan Calculator — Commercial Real Estate Financing in Australia | Emet Capital",
+    "description": "Use this commercial property loan calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/commercial-property-loan-calculator",
+    "h1": "Commercial Property Loan Calculator — Commercial Real Estate Financing in Australia",
+    "noscript": "Use this commercial property loan calculator tool to estimate scenarios and review commercial finance considerations in Australia."
+  },
+  "/tools/commercial-real-estate-calculator": {
+    "title": "commercial real estate calculator | Emet Capital",
+    "description": "Use this commercial real estate calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/commercial-real-estate-calculator",
+    "h1": "commercial real estate calculator",
+    "noscript": "Use this commercial real estate calculator tool to estimate scenarios and review commercial finance considerations in Australia."
+  },
+  "/tools/loan-comparison-tool": {
+    "title": "loan comparison tool | Emet Capital",
+    "description": "Use this loan comparison tool tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/loan-comparison-tool",
+    "h1": "loan comparison tool",
+    "noscript": "Use this loan comparison tool tool to estimate scenarios and review commercial finance considerations in Australia."
+  },
+  "/tools/second-mortgage-calculator": {
+    "title": "Second Mortgage Calculator — Business Second Mortgage Rates in Australia | Emet Capital",
+    "description": "Use this second mortgage calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/second-mortgage-calculator",
+    "h1": "Second Mortgage Calculator — Business Second Mortgage Rates in Australia",
+    "noscript": "Use this second mortgage calculator tool to estimate scenarios and review commercial finance considerations in Australia."
+  },
+  "/tools/smsf-commercial-property-loan-interest-rates": {
+    "title": "Smsf Commercial Property Loan Interest Rates — Commercial Property Lending in Australia | Emet Capital",
+    "description": "Use this smsf commercial property loan interest rates tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/smsf-commercial-property-loan-interest-rates",
+    "h1": "Smsf Commercial Property Loan Interest Rates — Commercial Property Lending in Australia",
+    "noscript": "Use this smsf commercial property loan interest rates tool to estimate scenarios and review commercial finance considerations in Australia."
+  },
+  "/tools/working-capital-calculator": {
+    "title": "working capital calculator | Emet Capital",
+    "description": "Use this working capital calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
+    "canonical": "https://emetcapital.com.au/tools/working-capital-calculator",
+    "h1": "working capital calculator",
+    "noscript": "Use this working capital calculator tool to estimate scenarios and review commercial finance considerations in Australia."
+  }
+}
