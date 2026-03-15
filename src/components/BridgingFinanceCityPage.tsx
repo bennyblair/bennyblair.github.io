@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, MapPin, Clock, DollarSign, TrendingUp, CheckCircle } from 'lucide-react';
+import { ArrowLeft, MapPin, Clock, DollarSign, TrendingUp, CheckCircle, Building2, FileText, ArrowRight } from 'lucide-react';
 import SEO from '@/components/SEO';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { Button } from '@/components/ui/button';
@@ -14,6 +14,22 @@ type DetailedScenario = {
   outcomes: { label: string; value: string }[];
 };
 
+type LocalPoint = {
+  title: string;
+  text: string;
+};
+
+type LinkItem = {
+  title: string;
+  href: string;
+  description: string;
+};
+
+type FAQItem = {
+  question: string;
+  answer: string;
+};
+
 type Props = {
   city: string;
   state: string;
@@ -22,66 +38,32 @@ type Props = {
   description: string;
   localIntro: string;
   localFocus: string;
+  marketOverview: string;
+  timingPressures: string;
+  suburbCoverage: LocalPoint[];
+  localUseCases: LocalPoint[];
   scenarios: DetailedScenario[];
+  relatedLinks: LinkItem[];
+  faqs: FAQItem[];
 };
 
-const faqs = (city: string) => [
-  {
-    question: `When might bridging finance be used in ${city}?`,
-    answer:
-      `Bridging finance may be used in ${city} when timing matters more than a standard bank timeline. Common examples include auction purchases, refinance deadlines, site acquisitions, property upgrades, and short-term settlement gaps.`
-  },
-  {
-    question: `How fast can ${city} bridging finance move?`,
-    answer:
-      'Timing depends on security, legal readiness, valuation, and lender fit. In stronger scenarios, private and specialist lenders may move much faster than mainstream bank processes.'
-  },
-  {
-    question: 'What do lenders usually focus on?',
-    answer:
-      'Lenders typically focus on security quality, combined leverage, transaction purpose, and the exit strategy. The clearer the exit, the easier a short-term facility may be to assess.'
-  },
-  {
-    question: `Can bridging finance work for commercial property in ${city}?`,
-    answer:
-      'Yes. It may be used for commercial acquisitions, time-sensitive refinance events, residual stock situations, and certain development-related transitions where there is a clear repayment path.'
-  }
-];
-
 const stats = [
-  { label: 'Approval Time', value: '24-48hrs', icon: Clock },
-  { label: 'Indicative LVR', value: 'Up to 80%', icon: TrendingUp },
-  { label: 'Terms', value: '1-24 months', icon: CheckCircle },
-  { label: 'Loan Range', value: '$100K-$20M', icon: DollarSign }
-];
-
-const useCases = [
-  {
-    title: 'Auction settlements',
-    text: 'Bridging finance may help buyers settle quickly where an auction contract is unconditional and long-form refinance funding is still in progress.'
-  },
-  {
-    title: 'Commercial refinance deadlines',
-    text: 'Where an existing facility is expiring before a replacement loan is ready, a bridge may help protect the asset position and buy time for a cleaner refinance.'
-  },
-  {
-    title: 'Development and site transitions',
-    text: 'Developers may use short-term funding for site acquisition, residual stock, or a transition between one facility and the next stage of project funding.'
-  },
-  {
-    title: 'Business and property timing gaps',
-    text: 'Business owners may use a bridge where a settlement, sale, or restructure is moving on a different timeline from the funding needed today.'
-  }
+  { label: 'Indicative review', value: '24-48hrs', icon: Clock },
+  { label: 'Common leverage', value: 'Up to 80%', icon: TrendingUp },
+  { label: 'Typical term', value: '1-24 months', icon: CheckCircle },
+  { label: 'Facility size', value: '$100K-$20M', icon: DollarSign }
 ];
 
 const processSteps = [
-  'Clarify the property, transaction purpose, timing pressure, and likely exit.',
-  'Match the deal to lenders that may suit the asset, leverage, and time frame.',
-  'Coordinate valuation, legal, and credit requirements for a fast decision path.',
-  'Settle the facility and manage the transition toward sale, refinance, or the next funding stage.'
+  'Clarify the property, transaction purpose, timing pressure, current debt, and likely exit.',
+  'Shortlist lenders that fit the asset type, leverage, legal complexity, and required turnaround.',
+  'Coordinate valuation, legal, and credit items early so the deal can move without avoidable friction.',
+  'Settle the bridge and manage the path to refinance, sale, project milestone, or another defined exit.'
 ];
 
-export default function BridgingFinanceCityPage({ city, canonical, title, description, localIntro, localFocus, scenarios }: Props) {
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+
+export default function BridgingFinanceCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <SEO
@@ -108,7 +90,8 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
             <MapPin className="h-8 w-8 text-sky-300" />
             <h1 className="text-4xl lg:text-5xl font-bold text-white">Bridging Finance {city}</h1>
           </div>
-          <p className="text-xl text-slate-300 max-w-4xl mx-auto mb-8">{localIntro}</p>
+          <p className="text-xl text-slate-300 max-w-4xl mx-auto mb-6">{localIntro}</p>
+          <p className="text-slate-400 max-w-4xl mx-auto mb-8 leading-relaxed">{marketOverview}</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
               <div key={label} className="bg-slate-900 border border-slate-800 rounded-xl p-4">
@@ -120,7 +103,7 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="bg-sky-500 hover:bg-sky-400 text-slate-950">
-              <Link to="/contact">Get Quote</Link>
+              <Link to="/contact">Discuss your scenario</Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="border-slate-700 text-slate-100 hover:bg-slate-900">
               <Link to="/services/bridging-finance">
@@ -138,20 +121,36 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
             <p className="text-slate-300 leading-relaxed">{localFocus}</p>
           </div>
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
-            <h2 className="text-2xl font-bold text-white mb-4">What lenders usually want to see</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Why timing pressure shows up in {city}</h2>
+            <p className="text-slate-300 leading-relaxed mb-4">{timingPressures}</p>
             <div className="space-y-4 text-slate-300">
-              <p><span className="font-semibold text-white">Security quality:</span> property type, location, value, and existing debt all matter.</p>
-              <p><span className="font-semibold text-white">Time frame:</span> bridging works best when the short-term need is clear and realistic.</p>
-              <p><span className="font-semibold text-white">Exit strategy:</span> sale, refinance, project milestone, or another defined repayment event.</p>
-              <p><span className="font-semibold text-white">Commercial fit:</span> the lender still wants to know why the bridge exists and what happens if timing slips.</p>
+              <p><span className="font-semibold text-white">Security quality:</span> property type, location, title position, and existing debt all matter.</p>
+              <p><span className="font-semibold text-white">Exit strategy:</span> sale, refinance, project milestone, or another defined repayment event needs to be credible.</p>
+              <p><span className="font-semibold text-white">Commercial purpose:</span> lenders still want to understand why a bridge is needed and what comes after it.</p>
+              <p><span className="font-semibold text-white">Execution readiness:</span> valuation access, legal coordination, and clear documentation can materially affect speed.</p>
             </div>
           </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">{city} Bridging Finance Use Cases</h2>
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">Suburbs, precincts, and corridors we watch in {city}</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {suburbCoverage.map((item) => (
+              <div key={item.title} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <Building2 className="h-5 w-5 text-sky-300" />
+                  <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                </div>
+                <p className="text-slate-300 leading-relaxed">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="max-w-5xl mx-auto mb-12">
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">Common {city} bridging finance use cases</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            {useCases.map((item) => (
+            {localUseCases.map((item) => (
               <div key={item.title} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
                 <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
                 <p className="text-slate-300 leading-relaxed">{item.text}</p>
@@ -161,7 +160,7 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">Local {city} scenarios</h2>
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">Local {city} case studies</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {scenarios.map((item) => (
               <div key={item.title} className="bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-sm">
@@ -176,7 +175,7 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
                     <p className="text-slate-100 leading-relaxed">{item.solution}</p>
                   </div>
                   <div>
-                    <div className="text-slate-400 text-sm mb-2">Financial Outcome</div>
+                    <div className="text-slate-400 text-sm mb-2">Transaction snapshot</div>
                     <div className="bg-slate-900 border border-slate-700 rounded-lg p-4 space-y-2">
                       {item.outcomes.map((o) => (
                         <div key={o.label} className="flex items-center justify-between gap-4">
@@ -208,9 +207,29 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
 
         <section className="max-w-5xl mx-auto mb-12">
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
+            <h2 className="text-3xl font-bold text-white mb-8 text-center">Related guides and service pages</h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              {relatedLinks.map((item) => (
+                <Link key={item.href} to={item.href} className="block rounded-xl border border-slate-800 bg-slate-950 p-5 hover:border-sky-500/40 hover:bg-slate-900 transition-colors">
+                  <div className="flex items-start gap-3 mb-3">
+                    <FileText className="h-5 w-5 text-sky-300 mt-0.5" />
+                    <h3 className="font-semibold text-white">{item.title}</h3>
+                  </div>
+                  <p className="text-sm text-slate-400 leading-relaxed mb-3">{item.description}</p>
+                  <span className="inline-flex items-center text-sky-300 text-sm font-medium">
+                    Explore page <ArrowRight className="ml-2 h-4 w-4" />
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-5xl mx-auto mb-12">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
             <h2 className="text-3xl font-bold text-white mb-8 text-center">Frequently asked questions</h2>
             <div className="space-y-4">
-              {faqs(city).map((faq) => (
+              {faqs.map((faq) => (
                 <div key={faq.question} className="rounded-xl border border-slate-800 bg-slate-950 p-6">
                   <h3 className="text-lg font-semibold text-white mb-2">{faq.question}</h3>
                   <p className="text-slate-300 leading-relaxed">{faq.answer}</p>
@@ -221,10 +240,10 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
         </section>
 
         <section className="max-w-4xl mx-auto text-center pb-12">
-          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8 mb-6">
             <h2 className="text-3xl font-bold text-white mb-4">Need a {city} bridging finance solution?</h2>
-            <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-              If timing is the issue, the right bridging structure may help protect the transaction while the exit catches up. We can help assess lender fit, timing, and likely structure for {city} scenarios.
+            <p className="text-slate-300 mb-6 max-w-2xl mx-auto leading-relaxed">
+              If timing is the issue, the right bridging structure may help protect the transaction while the exit catches up. We can help assess lender fit, timeline pressure, and likely structure for {city} commercial and business-purpose scenarios.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-sky-500 hover:bg-sky-400 text-slate-950">
@@ -234,6 +253,9 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
                 <Link to="/services/bridging-finance">Explore bridging finance</Link>
               </Button>
             </div>
+          </div>
+          <div className="rounded-xl border border-slate-800 bg-slate-950 p-5 text-left">
+            <p className="text-sm text-slate-400 leading-relaxed">{disclaimer}</p>
           </div>
         </section>
       </div>
