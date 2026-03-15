@@ -15,7 +15,7 @@ If you are searching for **private mortgage lenders** in Australia, the first th
 
 That is especially true for business borrowers, investors, and developers. Private mortgage lending is not one neat category. It is a mix of private credit funds, specialist non-bank lenders, relationship-driven lenders, short-term bridge lenders, and more selective second-position lenders. Some like clean first mortgages. Some prefer short-term transitional deals. Some are comfortable with unusual scenarios. Others are not.
 
-So this guide is built as a practical Australian directory framework rather than a vanity list. The aim is to help you understand the lender buckets, the deal types they tend to suit, what to compare beyond marketing language, and how to build a shortlist that makes sense for a commercial borrowing scenario.
+So this guide is built as a practical Australian directory framework rather than a vanity list. The aim is to help you understand the lender buckets, the deal types they tend to suit, what to compare beyond marketing language, how the topic connects to broader [private lending solutions](/services/private-lending), how it overlaps with [private commercial real estate lenders in Australia](/resources/guides/private-commercial-real-estate-lenders-cre-directory), and how to build a shortlist that makes sense for a commercial borrowing scenario.
 
 ## What private mortgage lenders actually are
 
