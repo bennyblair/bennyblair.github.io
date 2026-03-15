@@ -5,7 +5,6 @@ import SEO from '@/components/SEO';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Card, CardContent } from '@/components/ui/card';
 import { generateServiceSchema } from '@/lib/schema-utils';
 
 type CityScenario = { title: string; text: string };
@@ -107,13 +106,11 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
           <p className="text-xl text-slate-300 max-w-4xl mx-auto mb-8">{localIntro}</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
-              <Card key={label} className="bg-slate-900/80 border-slate-800">
-                <CardContent className="p-4">
+              <div key={label} className="bg-slate-900 border border-slate-800 rounded-xl p-4">
                   <Icon className="h-5 w-5 text-sky-300 mb-3" />
                   <div className="text-2xl font-bold text-white mb-1">{value}</div>
                   <div className="text-sm text-slate-400">{label}</div>
-                </CardContent>
-              </Card>
+                </div>
             ))}
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -130,15 +127,12 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
         </section>
 
         <section className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-6 mb-12">
-          <Card className="bg-slate-900/80 border-slate-800">
-            <CardContent className="p-8">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
               <h2 className="text-2xl font-bold text-white mb-4">How bridging finance may fit {city} deals</h2>
               <p className="text-slate-300 leading-relaxed mb-4">{description}</p>
               <p className="text-slate-300 leading-relaxed">{localFocus}</p>
-            </CardContent>
-          </Card>
-          <Card className="bg-slate-900/80 border-slate-800">
-            <CardContent className="p-8">
+            </div>
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
               <h2 className="text-2xl font-bold text-white mb-4">What lenders usually want to see</h2>
               <div className="space-y-4 text-slate-300">
                 <p><span className="font-semibold text-white">Security quality:</span> property type, location, value, and existing debt all matter.</p>
@@ -146,20 +140,17 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
                 <p><span className="font-semibold text-white">Exit strategy:</span> sale, refinance, project milestone, or another defined repayment event.</p>
                 <p><span className="font-semibold text-white">Commercial fit:</span> the lender still wants to know why the bridge exists and what happens if timing slips.</p>
               </div>
-            </CardContent>
-          </Card>
+            </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
           <h2 className="text-3xl font-bold text-white mb-8 text-center">{city} Bridging Finance Use Cases</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {useCases.map((item) => (
-              <Card key={item.title} className="bg-slate-900/80 border-slate-800">
-                <CardContent className="p-6">
+              <div key={item.title} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
                   <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
                   <p className="text-slate-300 leading-relaxed">{item.text}</p>
-                </CardContent>
-              </Card>
+                </div>
             ))}
           </div>
         </section>
@@ -168,7 +159,7 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
           <h2 className="text-3xl font-bold text-white mb-8 text-center">Local {city} scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {scenarios.map((item) => (
-              <div key={item.title} className="rounded-xl border border-slate-800 bg-slate-950/95 p-6 shadow-sm">
+              <div key={item.title} className="rounded-xl border border-slate-800 bg-slate-950 p-6 shadow-sm">
                 <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
                 <p className="text-slate-300 leading-relaxed">{item.text}</p>
               </div>
@@ -177,40 +168,35 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <Card className="bg-slate-900/80 border-slate-800">
-            <CardContent className="p-8">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
               <h2 className="text-3xl font-bold text-white mb-8 text-center">How the process usually works</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {processSteps.map((step, idx) => (
-                  <div key={idx} className="flex gap-4 items-start bg-slate-950/70 rounded-lg border border-slate-800 p-5">
+                  <div key={idx} className="flex gap-4 items-start bg-slate-950 rounded-lg border border-slate-800 p-5">
                     <div className="w-10 h-10 rounded-full bg-sky-500/15 text-sky-300 flex items-center justify-center font-bold shrink-0">{idx + 1}</div>
                     <p className="text-slate-300 leading-relaxed">{step}</p>
                   </div>
                 ))}
               </div>
-            </CardContent>
-          </Card>
+            </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <Card className="bg-slate-900/80 border-slate-800">
-            <CardContent className="p-8">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
               <h2 className="text-3xl font-bold text-white mb-8 text-center">Frequently asked questions</h2>
               <div className="space-y-4">
                 {faqs(city).map((faq) => (
-                  <div key={faq.question} className="rounded-xl border border-slate-800 bg-slate-950/95 p-6">
+                  <div key={faq.question} className="rounded-xl border border-slate-800 bg-slate-950 p-6">
                     <h3 className="text-lg font-semibold text-white mb-2">{faq.question}</h3>
                     <p className="text-slate-300 leading-relaxed">{faq.answer}</p>
                   </div>
                 ))}
               </div>
-            </CardContent>
-          </Card>
+            </div>
         </section>
 
         <section className="max-w-4xl mx-auto text-center pb-12">
-          <Card className="bg-slate-900/80 border-slate-800">
-            <CardContent className="p-8">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
               <h2 className="text-3xl font-bold text-white mb-4">Need a {city} bridging finance solution?</h2>
               <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
                 If timing is the issue, the right bridging structure may help protect the transaction while the exit catches up. We can help assess lender fit, timing, and likely structure for {city} scenarios.
@@ -223,8 +209,7 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
                   <Link to="/services/bridging-finance">Explore bridging finance</Link>
                 </Button>
               </div>
-            </CardContent>
-          </Card>
+            </div>
         </section>
       </div>
     </div>
