@@ -6,7 +6,6 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
-import FAQSection from '@/components/FAQSection';
 import { generateServiceSchema } from '@/lib/schema-utils';
 
 type CityScenario = { title: string; text: string };
@@ -194,7 +193,19 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <FAQSection faqs={faqs(city)} />
+          <Card className="bg-slate-900/80 border-slate-800">
+            <CardContent className="p-8">
+              <h2 className="text-3xl font-bold text-white mb-8 text-center">Frequently asked questions</h2>
+              <div className="space-y-4">
+                {faqs(city).map((faq) => (
+                  <div key={faq.question} className="rounded-xl border border-slate-800 bg-slate-950/95 p-6">
+                    <h3 className="text-lg font-semibold text-white mb-2">{faq.question}</h3>
+                    <p className="text-slate-300 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
         </section>
 
         <section className="max-w-4xl mx-auto text-center pb-12">
