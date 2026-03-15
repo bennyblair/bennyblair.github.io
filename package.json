@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/generate-static-route-html.mjs",
+    "build": "vite build && node scripts/generate-static-route-html.mjs && python3 scripts/generate_sitemap.py",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",

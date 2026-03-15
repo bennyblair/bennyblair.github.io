@@ -1,260 +1,185 @@
 #!/usr/bin/env python3
 """
-Dynamic Sitemap Generator for EMET Capital
-Automatically generates sitemap.xml including all published articles
+Dynamic sitemap generator for Emet Capital.
+Builds sitemap.xml from the canonical route metadata generated from the app router,
+then excludes redirect aliases so the sitemap only contains canonical URLs.
 """
 
-import os
+from __future__ import annotations
+
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
-# Configuration
 DOMAIN = "https://emetcapital.com.au"
-CONTENT_DIRS = {
-    'guides': 'src/content/guides',
-    'case-studies': 'src/content/case-studies', 
-    'insights': 'src/content/insights'
+REPO_ROOT = Path(__file__).resolve().parents[1]
+ROUTE_DATA_PATH = REPO_ROOT / "scripts" / "seo-route-data.generated.json"
+NETLIFY_TOML_PATH = REPO_ROOT / "netlify.toml"
+OUTPUT_PATH = REPO_ROOT / "public" / "sitemap.xml"
+
+DEFAULT_CHANGEFREQ = "monthly"
+DEFAULT_PRIORITY = "0.6"
+
+PRIORITY_OVERRIDES = {
+    "/": ("weekly", "1.0"),
+    "/services": ("monthly", "0.9"),
+    "/resources": ("weekly", "0.8"),
+    "/resources/guides": ("daily", "0.8"),
+    "/resources/case-studies": ("weekly", "0.8"),
+    "/tools": ("monthly", "0.7"),
+    "/contact": ("monthly", "0.8"),
+    "/about": ("monthly", "0.8"),
 }
 
-def parse_frontmatter(content):
-    """Parse YAML frontmatter from markdown content"""
-    if not content.startswith('---'):
-        return {}, content
-    
-    try:
-        parts = content.split('---', 2)
-        if len(parts) < 3:
-            return {}, content
-            
-        # Simple YAML parser for basic frontmatter
-        frontmatter_text = parts[1].strip()
-        frontmatter = {}
-        
-        for line in frontmatter_text.split('\n'):
-            line = line.strip()
-            if ':' in line:
-                key, value = line.split(':', 1)
-                key = key.strip()
-                value = value.strip()
-                
-                # Remove quotes if present
-                if value.startswith('"') and value.endswith('"'):
-                    value = value[1:-1]
-                elif value.startswith("'") and value.endswith("'"):
-                    value = value[1:-1]
-                
-                frontmatter[key] = value
-        
-        body = parts[2].strip()
-        return frontmatter, body
-    except Exception:
-        return {}, content
+PREFIX_OVERRIDES = [
+    ("/resources/guides/", ("monthly", "0.6")),
+    ("/resources/case-studies/", ("monthly", "0.6")),
+    ("/services/", ("monthly", "0.8")),
+    ("/tools/", ("monthly", "0.6")),
+]
 
-def get_articles_from_directory(dir_path, content_type):
-    """Get all articles from a content directory"""
-    articles = []
-    
-    if not os.path.exists(dir_path):
-        print(f"Warning: Directory {dir_path} not found")
-        return articles
-    
-    for file_path in Path(dir_path).glob('*.md'):
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-            
-            frontmatter, _ = parse_frontmatter(content)
-            
-            if not frontmatter:
-                continue
-                
-            slug = file_path.stem
-            date = frontmatter.get('date', datetime.now().isoformat())
-            
-            # Parse date string to datetime object
-            if isinstance(date, str):
-                # Handle different date formats
-                try:
-                    if 'T' in date:
-                        # Remove timezone info for simplicity
-                        date_str = date.replace('Z', '').split('T')[0]
-                        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-                    else:
-                        date_obj = datetime.strptime(date, '%Y-%m-%d')
-                except ValueError:
-                    date_obj = datetime.now()
-            else:
-                date_obj = date if hasattr(date, 'strftime') else datetime.now()
-            
-            articles.append({
-                'slug': slug,
-                'content_type': content_type,
-                'date': date_obj,
-                'title': frontmatter.get('title', 'Untitled'),
-                'url': f"{DOMAIN}/resources/{content_type}/{slug}"
-            })
-            
-        except Exception as e:
-            print(f"Error processing {file_path}: {e}")
+
+def canonical_path_from_value(value: str) -> str:
+    if not value:
+        return "/"
+    if value.startswith("http://") or value.startswith("https://"):
+        parsed = urlparse(value)
+        return parsed.path or "/"
+    return value if value.startswith("/") else f"/{value}"
+
+
+def load_route_data() -> dict:
+    if not ROUTE_DATA_PATH.exists():
+        raise FileNotFoundError(f"Missing route data file: {ROUTE_DATA_PATH}")
+    with ROUTE_DATA_PATH.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def netlify_pattern_to_regex(pattern: str) -> re.Pattern | None:
+    if pattern == "/*":
+        return None
+    regex_parts: list[str] = []
+    i = 0
+    while i < len(pattern):
+        ch = pattern[i]
+        if ch == ':':
+            j = i + 1
+            while j < len(pattern) and (pattern[j].isalnum() or pattern[j] in {'-', '_'}):
+                j += 1
+            name = pattern[i + 1:j]
+            regex_parts.append('.+' if name == 'splat' else '[^/]+')
+            i = j
             continue
-    
-    return articles
+        if ch == '*':
+            regex_parts.append('.*')
+            i += 1
+            continue
+        regex_parts.append(re.escape(ch))
+        i += 1
+    return re.compile('^' + ''.join(regex_parts) + '$')
 
-def generate_sitemap():
-    """Generate complete sitemap.xml"""
-    
-    # Static pages with their priorities and change frequencies
-    static_pages = [
-        {'url': f"{DOMAIN}/", 'priority': '1.0', 'changefreq': 'weekly'},
-        {'url': f"{DOMAIN}/about", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services", 'priority': '0.9', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/contact", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources", 'priority': '0.8', 'changefreq': 'weekly'},
-        {'url': f"{DOMAIN}/resources/guides", 'priority': '0.8', 'changefreq': 'daily'},
-        {'url': f"{DOMAIN}/resources/case-studies", 'priority': '0.8', 'changefreq': 'daily'},
-        {'url': f"{DOMAIN}/resources/insights", 'priority': '0.8', 'changefreq': 'daily'},
-        {'url': f"{DOMAIN}/tools", 'priority': '0.7', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/faqs", 'priority': '0.5', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/resources/glossary", 'priority': '0.5', 'changefreq': 'monthly'},
-        # Service pages (pillar pages)
-        {'url': f"{DOMAIN}/services/first-second-mortgages", 'priority': '0.9', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development", 'priority': '0.9', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance", 'priority': '0.9', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/refinancing-solutions", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/working-capital", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/equipment-finance", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/business-acquisition", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/trade-finance", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-backed-lending", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/private-lending", 'priority': '0.9', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/smsf-lending", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/debt-consolidation", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/caveat-loans", 'priority': '0.9', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-finance", 'priority': '0.8', 'changefreq': 'monthly'},
-        # Tool pages
-        {'url': f"{DOMAIN}/tools/commercial-property-loan-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/tools/second-mortgage-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/tools/commercial-real-estate-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/tools/asset-finance-roi-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/tools/working-capital-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/tools/loan-comparison-tool", 'priority': '0.6', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/tools/bridging-loan-calculator", 'priority': '0.6', 'changefreq': 'monthly'},
-        # City-specific service pages
-        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/perth", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/adelaide", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/first-second-mortgages/cities/gold-coast", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development/cities/perth", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development/cities/adelaide", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/commercial-property-development/cities/gold-coast", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance/cities/perth", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance/cities/adelaide", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/bridging-finance/cities/gold-coast", 'priority': '0.8', 'changefreq': 'monthly'},
-        # Asset Finance city pages
-        {'url': f"{DOMAIN}/services/asset-finance/cities/sydney", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-finance/cities/melbourne", 'priority': '0.8', 'changefreq': 'monthly'},
-        {'url': f"{DOMAIN}/services/asset-finance/cities/brisbane", 'priority': '0.8', 'changefreq': 'monthly'},
-    ]
-    
-    # Get all articles from content directories
-    all_articles = []
-    for content_type, dir_path in CONTENT_DIRS.items():
-        articles = get_articles_from_directory(dir_path, content_type)
-        all_articles.extend(articles)
-    
-    # Sort articles by date (newest first)
-    all_articles.sort(key=lambda x: x['date'], reverse=True)
-    
-    # Generate XML
-    today = datetime.now().strftime('%Y-%m-%d')
-    
-    xml_content = '''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-'''
-    
-    # Add static pages
-    for page in static_pages:
-        xml_content += f'''  <url>
-    <loc>{page['url']}</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>{page['changefreq']}</changefreq>
-    <priority>{page['priority']}</priority>
-  </url>
-  
-'''
-    
-    # Add article pages
-    for article in all_articles:
-        # Determine priority based on recency and content type
-        days_old = (datetime.now() - article['date']).days
-        
-        # Pillar articles (guides with key topics) get higher priority
-        is_pillar = article['content_type'] == 'guides' and any(keyword in article['title'].lower() for keyword in [
-            'complete guide', 'comprehensive', 'everything you need', 'ultimate guide'
-        ])
-        
-        if is_pillar:
-            priority = '0.8'
-            changefreq = 'monthly'
-        elif days_old <= 7:
-            priority = '0.7'  # New articles
-            changefreq = 'weekly'
-        elif days_old <= 30:
-            priority = '0.7'
-            changefreq = 'weekly'
-        elif days_old <= 90:
-            priority = '0.6'
-            changefreq = 'monthly'
+def parse_redirect_sources() -> tuple[set[str], list[re.Pattern]]:
+    text = NETLIFY_TOML_PATH.read_text(encoding="utf-8")
+    fixed_sources: set[str] = set()
+    pattern_sources: list[re.Pattern] = []
+    blocks = text.split("[[redirects]]")
+    for block in blocks[1:]:
+        from_match = re.search(r'from\s*=\s*"([^"]+)"', block)
+        to_match = re.search(r'to\s*=\s*"([^"]+)"', block)
+        status_match = re.search(r'status\s*=\s*(\d+)', block)
+        if not (from_match and to_match and status_match):
+            continue
+        status = int(status_match.group(1))
+        if status not in {301, 302}:
+            continue
+        from_path = from_match.group(1)
+        to_path = to_match.group(1)
+        if from_path == to_path:
+            continue
+        if ":" in from_path or "*" in from_path:
+            regex = netlify_pattern_to_regex(from_path)
+            if regex:
+                pattern_sources.append(regex)
         else:
-            priority = '0.6'
-            changefreq = 'monthly'
-            
-        # Use current date as lastmod for better freshness signals
-        article_date = datetime.now().strftime('%Y-%m-%d')
-        
-        xml_content += f'''  <url>
-    <loc>{article['url']}</loc>
-    <lastmod>{article_date}</lastmod>
-    <changefreq>{changefreq}</changefreq>
-    <priority>{priority}</priority>
-  </url>
-  
-'''
-    
-    xml_content += '</urlset>\n'
-    
-    # Write to public directory
-    output_path = 'public/sitemap.xml'
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(xml_content)
-    
-    print(f"✅ Generated sitemap.xml with {len(static_pages)} static pages and {len(all_articles)} articles")
-    print(f"📊 Total URLs: {len(static_pages) + len(all_articles)}")
-    
-    # Show recent articles for verification
-    if all_articles:
-        print(f"\n📝 Latest articles included:")
-        for article in all_articles[:5]:
-            print(f"   • {article['title']} ({article['date'].strftime('%Y-%m-%d')})")
-            print(f"     {article['url']}")
-    
-    return output_path
+            fixed_sources.add(from_path)
+    return fixed_sources, pattern_sources
+
+
+def pick_priority(path: str) -> tuple[str, str]:
+    if path in PRIORITY_OVERRIDES:
+        return PRIORITY_OVERRIDES[path]
+    for prefix, values in PREFIX_OVERRIDES:
+        if path.startswith(prefix):
+            return values
+    return DEFAULT_CHANGEFREQ, DEFAULT_PRIORITY
+
+
+def build_entries() -> list[dict]:
+    route_data = load_route_data()
+    redirect_sources, redirect_patterns = parse_redirect_sources()
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    entries: dict[str, dict] = {}
+    for route_path, meta in route_data.items():
+        if route_path == "*" or ":" in route_path or "*" in route_path:
+            continue
+        canonical_path = canonical_path_from_value(meta.get("canonical") or route_path)
+        canonical_path = canonical_path.rstrip("/") or "/"
+
+        # Exclude redirect aliases and any non-canonical path that differs from canonical.
+        if route_path.rstrip("/") != canonical_path:
+            continue
+        if canonical_path in redirect_sources:
+            continue
+        if any(pattern.match(canonical_path) for pattern in redirect_patterns):
+            continue
+
+        changefreq, priority = pick_priority(canonical_path)
+        entries[canonical_path] = {
+            "loc": f"{DOMAIN}{canonical_path}" if canonical_path != "/" else f"{DOMAIN}/",
+            "lastmod": today,
+            "changefreq": changefreq,
+            "priority": priority,
+        }
+
+    return [entries[path] for path in sorted(entries.keys())]
+
+
+def render_xml(entries: list[dict]) -> str:
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"',
+        '        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9',
+        '        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">',
+        '',
+    ]
+    for entry in entries:
+        lines.extend([
+            '  <url>',
+            f"    <loc>{entry['loc']}</loc>",
+            f"    <lastmod>{entry['lastmod']}</lastmod>",
+            f"    <changefreq>{entry['changefreq']}</changefreq>",
+            f"    <priority>{entry['priority']}</priority>",
+            '  </url>',
+            '',
+        ])
+    lines.append('</urlset>')
+    lines.append('')
+    return '\n'.join(lines)
+
+
+def main() -> None:
+    entries = build_entries()
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(render_xml(entries), encoding="utf-8")
+    print(f"✅ Generated sitemap.xml with {len(entries)} canonical URLs")
+    for entry in entries[:10]:
+        print(f"   • {entry['loc']}")
+
 
 if __name__ == "__main__":
-    generate_sitemap()
+    main()
