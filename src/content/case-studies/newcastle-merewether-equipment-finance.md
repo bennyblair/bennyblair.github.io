@@ -261,8 +261,8 @@ Newcastle's growing population and aging demographics ensure continued demand fo
 
 ## Related Resources
 
-- [Equipment Finance Guide](/resources/guides/equipment-finance-guide) - Complete guide to equipment financing
-- [Healthcare Business Finance](/resources/guides/healthcare-business-finance) - Specialized healthcare funding options
+- [Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia) - Complete guide to equipment financing
+- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes) - Specialized healthcare funding options
 
 ---
 

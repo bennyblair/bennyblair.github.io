@@ -401,8 +401,8 @@ Newcastle's growing population, aging demographic, and constrained supply of qua
 
 ## Related Resources
 
-- [SMSF Lending Guide](/resources/guides/smsf-property-investment-guide) - Complete guide to SMSF property purchases
-- [Medical Practice Finance](/resources/guides/medical-practice-finance) - Healthcare sector financing options
+- [SMSF Loans for Commercial Property](/resources/guides/smsf-loans-for-commercial-property) - Complete guide to SMSF property purchases
+- [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) - Healthcare sector financing options
 
 ---
 

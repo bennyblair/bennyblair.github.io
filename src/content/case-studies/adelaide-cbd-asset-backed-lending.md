@@ -605,9 +605,9 @@ Adelaide's commercial property market, with 7-9% yields and strong value-add opp
 
 ## Related Resources
 
-- [Asset Backed Lending Guide](/resources/guides/asset-backed-lending-guide) - Complete guide to portfolio financing
-- [Commercial Property Investment](/resources/guides/commercial-property-investment-finance) - Adelaide market opportunities
-- [Portfolio Management](/resources/guides/commercial-property-portfolio-management) - Multi-property strategies
+- [Asset Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance) - Complete guide to portfolio financing
+- [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) - Adelaide market opportunities
+- [How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide) - Multi-property strategies
 
 ---
 

@@ -489,9 +489,9 @@ Brisbane's position as Australia's third-largest container port, with efficient 
 
 ## Related Resources
 
-- [Trade Finance Guide](/resources/guides/trade-finance-import-export-guide) - Complete guide to import financing
-- [Brisbane Business Growth](/resources/guides/brisbane-business-finance) - Southeast Queensland business finance options
-- [Currency Risk Management](/resources/guides/currency-risk-management-importers) - Hedging strategies for importers
+- [Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports) - Complete guide to import financing
+- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes) - Southeast Queensland business finance options
+- [Debtor Finance and Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia) - Cash-flow and import-cycle support
 
 ---
 

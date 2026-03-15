@@ -498,14 +498,14 @@ The Gold Coast development market continues to attract sophisticated developers 
 ## Related Services
 
 - [1st & 2nd Mortgages](/services/first-second-mortgages) - Second mortgage lending solutions
-- [Development Finance](/services/development-finance) - Construction and development funding
+- [Commercial Property Development](/services/commercial-property-development) - Construction and development funding
 - [Bridging Finance](/services/bridging-finance) - Short-term property finance
 
 ## Related Resources
 
-- [Second Mortgage Guide](/resources/guides/first-second-mortgage-guide) - Understanding mortgage positions
-- [Development Finance Guide](/resources/guides/development-finance-guide) - Complete development funding
-- [Gold Coast Market Analysis](/resources/market-insights/gold-coast-development) - Queensland market overview
+- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business) - Understanding mortgage positions
+- [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance) - Complete development funding
+- [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide) - Queensland market overview
 
 ---
 

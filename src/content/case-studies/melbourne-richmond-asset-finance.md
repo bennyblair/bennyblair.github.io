@@ -531,9 +531,9 @@ Melbourne's position as Australia's specialty food manufacturing hub, combined w
 
 ## Related Resources
 
-- [Asset Finance Guide](/resources/guides/asset-finance-equipment-guide) - Complete guide to equipment financing
-- [Manufacturing Finance](/resources/guides/manufacturing-business-finance) - Melbourne manufacturing finance options
-- [Tax Benefits of Asset Finance](/resources/guides/asset-finance-tax-benefits) - Depreciation and tax strategies
+- [Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia) - Complete guide to equipment financing
+- [Industrial Property Finance](/resources/guides/industrial-property-finance-warehouses-manufacturing) - Melbourne manufacturing finance options
+- [Asset Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance) - Depreciation and tax strategies
 
 ---
 

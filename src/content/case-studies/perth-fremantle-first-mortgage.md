@@ -471,9 +471,9 @@ Fremantle's heritage commercial market continues to attract investors seeking ch
 
 ## Related Resources
 
-- [First Mortgage Guide](/resources/guides/first-second-mortgage-guide) - Understanding mortgage positions
-- [Commercial Property Investment](/resources/guides/commercial-property-investment-finance) - Investment strategies
-- [Perth Market Analysis](/resources/market-insights/perth-commercial-property) - WA market overview
+- [First Mortgage Loans](/resources/guides/first-mortgage-loans-primary-property-finance) - Understanding mortgage positions
+- [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) - Investment strategies
+- [Commercial Property Finance Rates 2025](/resources/guides/commercial-property-finance-rates-2025-comparison) - WA market overview
 
 ---
 

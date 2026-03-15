@@ -370,8 +370,8 @@ Newcastle's growing reputation as a lifestyle destination, combined with the reg
 
 ## Related Resources
 
-- [Working Capital Finance Guide](/resources/guides/working-capital-loans-for-smes) - Complete guide to working capital solutions
-- [Newcastle Business Growth](/resources/guides/newcastle-business-growth) - Regional business finance options
+- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes) - Complete guide to working capital solutions
+- [Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia) - Regional business finance options
 
 ---
 
