@@ -98,7 +98,7 @@ const Tools = () => {
       <SEO 
         title="Commercial Loan Calculators & Tools | Emet Capital"
         description="Free commercial lending calculators including bridging loan calculator, commercial property calculator, and more. Plan your business financing with confidence."
-        canonical="/resources/tools"
+        canonical="/tools"
         keywords="commercial loan calculator, bridging loan calculator, business finance tools, loan repayment calculator"
       />
       
