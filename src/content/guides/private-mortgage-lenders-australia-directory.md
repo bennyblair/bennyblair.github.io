@@ -53,7 +53,7 @@ For obvious reasons, these structures may carry higher cost and tighter conditio
 
 ### Second mortgage and subordinate-position lenders
 
-Not every private lender is willing to sit behind an existing first mortgage. Those that do usually pay closer attention to combined LVR, lender priority, consent issues, and exit clarity. Borrowers exploring this path should also understand linked topics such as [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business) and [subordination agreements in second mortgages](/resources/guides/subordination-agreement-second-mortgage).
+Not every private lender is willing to sit behind an existing first mortgage. Those that do usually pay closer attention to combined LVR, lender priority, consent issues, and exit clarity. Borrowers exploring this path should also understand linked topics such as [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business) and [second mortgage lenders in Australia](/resources/guides/second-mortgage-lenders-australia-directory).
 
 This part of the market may be useful where replacing a good first mortgage is unattractive, but additional capital is still needed for business or property reasons.
 

@@ -255,6 +255,11 @@
   to = "/services/private-lending/cities/sydney"
   status = 301
 
+[[redirects]]
+  from = "/resources/guides/subordination-agreement-second-mortgage"
+  to = "/resources/guides/second-mortgage-lenders-australia-directory"
+  status = 301
+
 # Tool page consolidation redirects (Legacy calculator URLs)
 [[redirects]]
   from = "/resources/tools/2nd-mortgage-loan-rates"
