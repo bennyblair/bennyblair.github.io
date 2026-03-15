@@ -20,8 +20,71 @@
 # internal routing.
 
 # =============================================================================
-# CONTENT REDIRECTS - Legacy URL mappings
+# CONTENT REDIRECTS - Canonical consolidation + legacy URL mappings
 # =============================================================================
+
+# Canonical path consolidation
+# Case studies canonical live under /resources/case-studies/*
+[[redirects]]
+  from = "/case-studies"
+  to = "/resources/case-studies"
+  status = 301
+
+[[redirects]]
+  from = "/case-studies/"
+  to = "/resources/case-studies"
+  status = 301
+
+[[redirects]]
+  from = "/case-studies/:slug"
+  to = "/resources/case-studies/:slug"
+  status = 301
+
+[[redirects]]
+  from = "/case-studies/:slug/"
+  to = "/resources/case-studies/:slug"
+  status = 301
+
+[[redirects]]
+  from = "/resources/case-studies/"
+  to = "/resources/case-studies"
+  status = 301
+
+[[redirects]]
+  from = "/resources/case-studies/:slug/"
+  to = "/resources/case-studies/:slug"
+  status = 301
+
+# Tools canonical live under /tools/*
+[[redirects]]
+  from = "/resources/tools"
+  to = "/tools"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/"
+  to = "/tools"
+  status = 301
+
+[[redirects]]
+  from = "/tools/"
+  to = "/tools"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/:slug"
+  to = "/tools/:slug"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/:slug/"
+  to = "/tools/:slug"
+  status = 301
+
+[[redirects]]
+  from = "/tools/:slug/"
+  to = "/tools/:slug"
+  status = 301
 
 # Fix Tools URL Structure (resources/tools -> tools)
 [[redirects]]
