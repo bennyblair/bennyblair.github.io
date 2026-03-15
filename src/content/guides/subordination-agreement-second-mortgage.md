@@ -146,7 +146,7 @@ That is why these documents continue to appear even when the ranking looks obvio
 
 ## Internal links and related reading
 
-If you are still working out how second-position property finance fits together, it helps to read this topic alongside Emet Capital's broader content on [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business), [how second mortgages work for business funding](/resources/guides/second-mortgage-for-business), and [second mortgage lenders in Australia](/resources/guides/second-mortgage-lenders-australia-directory). Those guides cover the wider structure. This article is about the legal priority layer that often determines whether the structure is actually workable.
+If you are still working out how second-position property finance fits together, it helps to read this topic alongside Emet Capital's broader content on [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business), [how second mortgages work for business funding](/resources/guides/second-mortgage-for-business), [second mortgage lenders in Australia](/resources/guides/second-mortgage-lenders-australia-directory), the broader [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide), and our [first and second mortgage solutions](/services/first-second-mortgages). Those guides cover the wider structure. This article is about the legal priority layer that often determines whether the structure is actually workable.
 
 ## Frequently Asked Questions
 

@@ -17,7 +17,7 @@ If you're searching for **private mortgage lenders**, you're usually trying to s
 
 This is where a directory-style guide becomes useful. Rather than treating all private mortgage lenders as one category, it helps to break them down by lender type, loan purpose, speed, documentation standards, and typical security position. For commercial borrowers in Australia, the better question usually isn't just "who lends?" It's "which kind of private lender may fit this deal, and what should I check before I proceed?"
 
-This guide takes that narrower angle on purpose. Emet Capital already has content on [what private lending is](/resources/guides/what-is-private-lending-australia), how [private lenders for mortgages](/resources/guides/private-lenders-for-mortgages) work when banks say no, and how to approach finding and comparing private lender options. Here, the focus is a practical Australian directory framework for business owners, investors, and developers who want to understand the market structure before shortlisting a lender.
+This guide takes that narrower angle on purpose. Emet Capital already has content on [what private lending is](/resources/guides/what-is-private-lending-australia), how [private lenders for mortgages](/resources/guides/private-lenders-for-mortgages) work when banks say no, how to approach finding and comparing private lender options, and the broader [private lending solutions](/services/private-lending) available for commercial borrowers. Here, the focus is a practical Australian directory framework for business owners, investors, and developers who want to understand the market structure before shortlisting a lender.
 
 ## What a private mortgage lenders directory should actually help you do
 
