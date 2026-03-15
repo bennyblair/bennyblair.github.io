@@ -13,12 +13,24 @@ export default function BridgingFinanceSydney() {
       localFocus="That may include premium residential-backed business scenarios, commercial acquisitions, development site timing gaps, and refinance events where the next funding step is clear but not ready yet."
       scenarios={[
         {
-          title: 'Brighton-style premium timing gap',
-          text: 'A borrower needing to secure a premium Sydney property position before another sale completed may use bridging finance to avoid losing momentum while the exit catches up.'
+          title: 'Eastern Suburbs Upgrade Window',
+          scenario: 'A borrower needed to secure a premium Sydney property position before another sale completed.',
+          solution: 'A bridging structure protected the purchase timing while the planned exit stayed tied to the sale of the current property.',
+          outcomes: [
+            { label: 'Security', value: 'Premium Sydney property' },
+            { label: 'Facility purpose', value: 'Upgrade timing bridge' },
+            { label: 'Exit path', value: 'Sale of existing property' }
+          ]
         },
         {
-          title: 'Inner-west value-add opportunity',
-          text: 'A short-term facility may suit a commercial or mixed-use opportunity where the asset has a clear repositioning or refinance path after acquisition.'
+          title: 'Inner-West Mixed-Use Opportunity',
+          scenario: 'A borrower needed short-term funding to secure a mixed-use opportunity while refinance planning was still being finalised.',
+          solution: 'Bridging finance created room for the acquisition to complete while the borrower moved toward the intended longer-term funding solution.',
+          outcomes: [
+            { label: 'Asset type', value: 'Mixed-use property' },
+            { label: 'Facility purpose', value: 'Acquisition bridge' },
+            { label: 'Exit path', value: 'Refinance' }
+          ]
         }
       ]}
     />

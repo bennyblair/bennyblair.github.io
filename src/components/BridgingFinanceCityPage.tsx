@@ -7,7 +7,12 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { generateServiceSchema } from '@/lib/schema-utils';
 
-type CityScenario = { title: string; text: string };
+type DetailedScenario = {
+  title: string;
+  scenario: string;
+  solution: string;
+  outcomes: { label: string; value: string }[];
+};
 
 type Props = {
   city: string;
@@ -17,7 +22,7 @@ type Props = {
   description: string;
   localIntro: string;
   localFocus: string;
-  scenarios: CityScenario[];
+  scenarios: DetailedScenario[];
 };
 
 const faqs = (city: string) => [
@@ -76,7 +81,7 @@ const processSteps = [
   'Settle the facility and manage the transition toward sale, refinance, or the next funding stage.'
 ];
 
-export default function BridgingFinanceCityPage({ city, state, canonical, title, description, localIntro, localFocus, scenarios }: Props) {
+export default function BridgingFinanceCityPage({ city, canonical, title, description, localIntro, localFocus, scenarios }: Props) {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <SEO
@@ -107,10 +112,10 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
               <div key={label} className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-                  <Icon className="h-5 w-5 text-sky-300 mb-3" />
-                  <div className="text-2xl font-bold text-white mb-1">{value}</div>
-                  <div className="text-sm text-slate-400">{label}</div>
-                </div>
+                <Icon className="h-5 w-5 text-sky-300 mb-3" />
+                <div className="text-2xl font-bold text-white mb-1">{value}</div>
+                <div className="text-sm text-slate-400">{label}</div>
+              </div>
             ))}
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -128,19 +133,19 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
 
         <section className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-6 mb-12">
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
-              <h2 className="text-2xl font-bold text-white mb-4">How bridging finance may fit {city} deals</h2>
-              <p className="text-slate-300 leading-relaxed mb-4">{description}</p>
-              <p className="text-slate-300 leading-relaxed">{localFocus}</p>
-            </div>
+            <h2 className="text-2xl font-bold text-white mb-4">How bridging finance may fit {city} deals</h2>
+            <p className="text-slate-300 leading-relaxed mb-4">{description}</p>
+            <p className="text-slate-300 leading-relaxed">{localFocus}</p>
+          </div>
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
-              <h2 className="text-2xl font-bold text-white mb-4">What lenders usually want to see</h2>
-              <div className="space-y-4 text-slate-300">
-                <p><span className="font-semibold text-white">Security quality:</span> property type, location, value, and existing debt all matter.</p>
-                <p><span className="font-semibold text-white">Time frame:</span> bridging works best when the short-term need is clear and realistic.</p>
-                <p><span className="font-semibold text-white">Exit strategy:</span> sale, refinance, project milestone, or another defined repayment event.</p>
-                <p><span className="font-semibold text-white">Commercial fit:</span> the lender still wants to know why the bridge exists and what happens if timing slips.</p>
-              </div>
+            <h2 className="text-2xl font-bold text-white mb-4">What lenders usually want to see</h2>
+            <div className="space-y-4 text-slate-300">
+              <p><span className="font-semibold text-white">Security quality:</span> property type, location, value, and existing debt all matter.</p>
+              <p><span className="font-semibold text-white">Time frame:</span> bridging works best when the short-term need is clear and realistic.</p>
+              <p><span className="font-semibold text-white">Exit strategy:</span> sale, refinance, project milestone, or another defined repayment event.</p>
+              <p><span className="font-semibold text-white">Commercial fit:</span> the lender still wants to know why the bridge exists and what happens if timing slips.</p>
             </div>
+          </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
@@ -148,18 +153,6 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
           <div className="grid md:grid-cols-2 gap-6">
             {useCases.map((item) => (
               <div key={item.title} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                  <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
-                  <p className="text-slate-300 leading-relaxed">{item.text}</p>
-                </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="max-w-5xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">Local {city} scenarios</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            {scenarios.map((item) => (
-              <div key={item.title} className="rounded-xl border border-slate-800 bg-slate-950 p-6 shadow-sm">
                 <h3 className="text-xl font-semibold text-white mb-3">{item.title}</h3>
                 <p className="text-slate-300 leading-relaxed">{item.text}</p>
               </div>
@@ -168,48 +161,80 @@ export default function BridgingFinanceCityPage({ city, state, canonical, title,
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
-              <h2 className="text-3xl font-bold text-white mb-8 text-center">How the process usually works</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                {processSteps.map((step, idx) => (
-                  <div key={idx} className="flex gap-4 items-start bg-slate-950 rounded-lg border border-slate-800 p-5">
-                    <div className="w-10 h-10 rounded-full bg-sky-500/15 text-sky-300 flex items-center justify-center font-bold shrink-0">{idx + 1}</div>
-                    <p className="text-slate-300 leading-relaxed">{step}</p>
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">Local {city} scenarios</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {scenarios.map((item) => (
+              <div key={item.title} className="bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-semibold text-white mb-4">{item.title}</h3>
+                <div className="space-y-4 text-slate-100">
+                  <div>
+                    <div className="text-slate-400 text-sm mb-1">Scenario</div>
+                    <p className="text-slate-100 leading-relaxed">{item.scenario}</p>
                   </div>
-                ))}
+                  <div>
+                    <div className="text-slate-400 text-sm mb-1">Solution</div>
+                    <p className="text-slate-100 leading-relaxed">{item.solution}</p>
+                  </div>
+                  <div>
+                    <div className="text-slate-400 text-sm mb-2">Financial Outcome</div>
+                    <div className="bg-slate-900 border border-slate-700 rounded-lg p-4 space-y-2">
+                      {item.outcomes.map((o) => (
+                        <div key={o.label} className="flex items-center justify-between gap-4">
+                          <span className="text-slate-400 text-sm">{o.label}</span>
+                          <span className="text-white font-semibold text-right">{o.value}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            ))}
+          </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
-              <h2 className="text-3xl font-bold text-white mb-8 text-center">Frequently asked questions</h2>
-              <div className="space-y-4">
-                {faqs(city).map((faq) => (
-                  <div key={faq.question} className="rounded-xl border border-slate-800 bg-slate-950 p-6">
-                    <h3 className="text-lg font-semibold text-white mb-2">{faq.question}</h3>
-                    <p className="text-slate-300 leading-relaxed">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
+            <h2 className="text-3xl font-bold text-white mb-8 text-center">How the process usually works</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              {processSteps.map((step, idx) => (
+                <div key={idx} className="flex gap-4 items-start bg-slate-950 rounded-lg border border-slate-800 p-5">
+                  <div className="w-10 h-10 rounded-full bg-sky-500/15 text-sky-300 flex items-center justify-center font-bold shrink-0">{idx + 1}</div>
+                  <p className="text-slate-300 leading-relaxed">{step}</p>
+                </div>
+              ))}
             </div>
+          </div>
+        </section>
+
+        <section className="max-w-5xl mx-auto mb-12">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
+            <h2 className="text-3xl font-bold text-white mb-8 text-center">Frequently asked questions</h2>
+            <div className="space-y-4">
+              {faqs(city).map((faq) => (
+                <div key={faq.question} className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                  <h3 className="text-lg font-semibold text-white mb-2">{faq.question}</h3>
+                  <p className="text-slate-300 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </section>
 
         <section className="max-w-4xl mx-auto text-center pb-12">
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
-              <h2 className="text-3xl font-bold text-white mb-4">Need a {city} bridging finance solution?</h2>
-              <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-                If timing is the issue, the right bridging structure may help protect the transaction while the exit catches up. We can help assess lender fit, timing, and likely structure for {city} scenarios.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" asChild className="bg-sky-500 hover:bg-sky-400 text-slate-950">
-                  <Link to="/contact">Discuss your scenario</Link>
-                </Button>
-                <Button size="lg" variant="outline" asChild className="border-slate-700 text-slate-100 hover:bg-slate-900">
-                  <Link to="/services/bridging-finance">Explore bridging finance</Link>
-                </Button>
-              </div>
+            <h2 className="text-3xl font-bold text-white mb-4">Need a {city} bridging finance solution?</h2>
+            <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
+              If timing is the issue, the right bridging structure may help protect the transaction while the exit catches up. We can help assess lender fit, timing, and likely structure for {city} scenarios.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" asChild className="bg-sky-500 hover:bg-sky-400 text-slate-950">
+                <Link to="/contact">Discuss your scenario</Link>
+              </Button>
+              <Button size="lg" variant="outline" asChild className="border-slate-700 text-slate-100 hover:bg-slate-900">
+                <Link to="/services/bridging-finance">Explore bridging finance</Link>
+              </Button>
             </div>
+          </div>
         </section>
       </div>
     </div>

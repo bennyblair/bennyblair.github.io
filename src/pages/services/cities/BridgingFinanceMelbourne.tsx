@@ -13,12 +13,24 @@ export default function BridgingFinanceMelbourne() {
       localFocus="That may include premium residential-backed business scenarios, commercial acquisitions, development-related timing gaps, and refinance events where the next funding step is clear but not ready yet."
       scenarios={[
         {
-          title: 'Brighton transaction timing gap',
-          text: 'A borrower needing to secure a premium property position before another sale completed may use bridging finance to avoid losing momentum while the exit catches up.'
+          title: 'Brighton Family Home Upgrade',
+          scenario: 'A borrower needed to secure a premium Melbourne property upgrade before the sale of their existing home had settled.',
+          solution: 'A short-term bridging structure created room for the purchase to proceed first while the planned exit remained tied to the sale of the current property.',
+          outcomes: [
+            { label: 'Security', value: 'Premium residential property' },
+            { label: 'Facility purpose', value: 'Upgrade timing bridge' },
+            { label: 'Exit path', value: 'Sale of existing property' }
+          ]
         },
         {
-          title: 'Footscray value-add opportunity',
-          text: 'A short-term facility may suit a commercial or mixed-use opportunity where the asset has a clear repositioning or refinance path after acquisition.'
+          title: 'Footscray Townhouse Development',
+          scenario: 'A borrower needed short-term finance to hold a development position while the next funding stage was being finalised.',
+          solution: 'Bridging finance provided transaction continuity so the borrower could protect the opportunity while completing the next refinance or project funding step.',
+          outcomes: [
+            { label: 'Asset type', value: 'Townhouse development site' },
+            { label: 'Facility purpose', value: 'Development timing bridge' },
+            { label: 'Exit path', value: 'Refinance / next-stage funding' }
+          ]
         }
       ]}
     />
