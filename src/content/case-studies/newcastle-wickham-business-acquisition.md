@@ -334,8 +334,8 @@ Newcastle's strategic position as Australia's second-largest port, combined with
 
 ## Related Resources
 
-- [Business Acquisition Finance Guide](/resources/guides/business-acquisition-finance-guide) - Complete guide to buying a business
-- [Newcastle Business Growth](/resources/guides/newcastle-business-growth) - Regional business finance options
+- [Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia) - Complete guide to buying a business
+- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes) - Regional business finance options
 
 ---
 

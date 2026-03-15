@@ -663,9 +663,9 @@ Perth's resource-driven economy, with cyclical opportunities in construction, eq
 
 ## Related Resources
 
-- [Debt Consolidation Guide](/resources/guides/business-debt-consolidation-guide) - Complete guide to consolidating loans
-- [Group Lending](/resources/guides/multi-entity-business-lending) - Financing for business groups
-- [Cash Flow Management](/resources/guides/business-cash-flow-improvement) - Improving business cash flow
+- [Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia) - Complete guide to consolidating loans
+- [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes) - Financing for business groups
+- [Debtor Finance and Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia) - Improving business cash flow
 
 ---
 
