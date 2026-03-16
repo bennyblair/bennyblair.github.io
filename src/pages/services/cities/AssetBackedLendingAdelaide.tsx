@@ -66,19 +66,19 @@ const AssetBackedLendingAdelaide: React.FC = () => {
                 <h3 className="text-xl font-semibold mb-4 text-blue-900">Market Characteristics</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Manufacturing Hub:</strong> Strong defence, automotive and food processing equipment base</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Wine & Agriculture:</strong> Barossa, McLaren Vale and regional farming assets</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Healthcare Growth:</strong> Medical equipment and practice assets increasing</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Competitive Rates:</strong> Lower property costs enable better LVRs</span>
                   </li>
                 </ul>
@@ -126,19 +126,19 @@ const AssetBackedLendingAdelaide: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Up to 70% LVR (first mortgage)
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Second mortgages available
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Regional property considered
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Winery & rural commercial
                   </li>
                 </ul>
@@ -155,19 +155,19 @@ const AssetBackedLendingAdelaide: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Up to 80% of equipment value
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Wine production equipment
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Defence manufacturing assets
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Food processing machinery
                   </li>
                 </ul>
@@ -184,19 +184,19 @@ const AssetBackedLendingAdelaide: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Up to 60% of inventory value
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Up to 85% of receivables
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Wine stock financing
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Defence contractor invoices
                   </li>
                 </ul>
