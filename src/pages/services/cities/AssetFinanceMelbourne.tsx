@@ -65,19 +65,19 @@ const AssetFinanceMelbourne: React.FC = () => {
                 <h3 className="text-xl font-semibold mb-4 text-blue-900">Market Characteristics</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Manufacturing Hub:</strong> Australia's largest manufacturing center requiring diverse equipment</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Food Processing:</strong> Major food manufacturing requiring specialized equipment</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Healthcare Leader:</strong> Strong medical equipment and technology demand</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Transport Hub:</strong> Distribution center for southeastern Australia</span>
                   </li>
                 </ul>
@@ -125,19 +125,19 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     $200K-$5M typical range
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     5-10 year terms
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     New & imported equipment
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Automation solutions
                   </li>
                 </ul>
@@ -154,19 +154,19 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     $100K-$3M typical range
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     3-7 year terms
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     HACCP compliant equipment
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Cold storage solutions
                   </li>
                 </ul>
@@ -183,19 +183,19 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     $100K-$3M typical range
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     5-7 year terms
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Technology upgrades
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Practice expansion funding
                   </li>
                 </ul>
@@ -212,19 +212,19 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     $40K-$1.5M typical range
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     3-5 year terms
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Fleet solutions
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Novated lease options
                   </li>
                 </ul>
@@ -241,19 +241,19 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     $50K-$2M typical range
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     3-7 year terms
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Used equipment financing
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Seasonal payments
                   </li>
                 </ul>
@@ -270,19 +270,19 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     $30K-$800K typical range
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     2-5 year terms
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Fast venue openings
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Complete fit-out packages
                   </li>
                 </ul>
@@ -305,15 +305,15 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Asset ownership immediate
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     GST claimable upfront
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Balloon payment options
                   </li>
                 </ul>
@@ -326,15 +326,15 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Payments fully deductible
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Asset not on balance sheet
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Purchase option at end
                   </li>
                 </ul>
@@ -347,15 +347,15 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Fixed monthly payments
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     No residual at end
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Ownership on completion
                   </li>
                 </ul>
@@ -368,15 +368,15 @@ const AssetFinanceMelbourne: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Lower monthly payments
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Upgrade flexibility
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     No residual risk
                   </li>
                 </ul>

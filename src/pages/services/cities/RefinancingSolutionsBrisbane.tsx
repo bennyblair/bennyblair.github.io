@@ -66,19 +66,19 @@ const RefinancingSolutionsBrisbane: React.FC = () => {
                 <h3 className="text-xl font-semibold mb-4 text-blue-900">Market Opportunities</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Strong Growth:</strong> Brisbane property values rising, creating equity opportunities</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Olympic Momentum:</strong> 2032 Olympics driving commercial property investment</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Infrastructure Spend:</strong> Major projects creating business lending opportunities</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="text-green-600 mr-3 flex-shrink-0 mt-1" size={20} />
+                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
                     <span><strong>Interstate Migration:</strong> Population growth supporting commercial property values</span>
                   </li>
                 </ul>
@@ -126,19 +126,19 @@ const RefinancingSolutionsBrisbane: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Lower interest rates
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Extended loan terms
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Reduced monthly payments
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Remove restrictive covenants
                   </li>
                 </ul>
@@ -155,19 +155,19 @@ const RefinancingSolutionsBrisbane: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Unlock property equity
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Fund business growth
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Acquire additional assets
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Up to 80% LVR available
                   </li>
                 </ul>
@@ -184,19 +184,19 @@ const RefinancingSolutionsBrisbane: React.FC = () => {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Single monthly payment
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Simplified administration
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Potentially lower costs
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle className="text-green-600 mr-2" size={16} />
+                    <CheckCircle className="text-blue-600 mr-2" size={16} />
                     Improved cash flow
                   </li>
                 </ul>
