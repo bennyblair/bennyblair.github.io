@@ -16,25 +16,23 @@ const RecentArticles = ({
   title = "Latest Articles",
   filterByTags = []
 }: RecentArticlesProps) => {
-  const [articles, setArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' | 'insights' })[]>([]);
+  const [articles, setArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' })[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const loadArticles = async () => {
       try {
-        const [guides, caseStudies, insights] = await Promise.all([
+        const [guides, caseStudies] = await Promise.all([
           getContentFiles('guides'),
-          getContentFiles('case-studies'),
-          getContentFiles('insights')
+          getContentFiles('case-studies')
         ]);
         
         // Add content type to articles for proper URL generation
         const guidesWithType = guides.map(article => ({ ...article, contentType: 'guides' as const }));
         const caseStudiesWithType = caseStudies.map(article => ({ ...article, contentType: 'case-studies' as const }));
-        const insightsWithType = insights.map(article => ({ ...article, contentType: 'insights' as const }));
         
-        // Combine all articles
-        let allArticles = [...guidesWithType, ...caseStudiesWithType, ...insightsWithType];
+        // Combine only routable article types
+        let allArticles = [...guidesWithType, ...caseStudiesWithType];
         
         // Filter by tags if specified
         if (filterByTags.length > 0) {
