@@ -42,7 +42,7 @@ const Homepage = () => {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [latestArticles, setLatestArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' | 'insights' })[]>([]);
+  const [latestArticles, setLatestArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' })[]>([]);
   const [featuredCaseStudies, setFeaturedCaseStudies] = useState<Article[]>([]);
   const { toast } = useToast();
 
@@ -55,10 +55,9 @@ const Homepage = () => {
   useEffect(() => {
     const loadLatestArticles = async () => {
       try {
-        const [guides, caseStudies, insights] = await Promise.all([
+        const [guides, caseStudies] = await Promise.all([
           getContentFiles('guides'),
-          getContentFiles('case-studies'),
-          getContentFiles('insights')
+          getContentFiles('case-studies')
         ]);
         
         // Set featured case studies for success stories (latest 2)
@@ -70,10 +69,9 @@ const Homepage = () => {
         // Add content type to articles for proper URL generation
         const guidesWithType = guides.map(article => ({ ...article, contentType: 'guides' as const }));
         const caseStudiesWithType = caseStudies.map(article => ({ ...article, contentType: 'case-studies' as const }));
-        const insightsWithType = insights.map(article => ({ ...article, contentType: 'insights' as const }));
         
-        // Combine all articles and sort by date (newest first)
-        const allArticles = [...guidesWithType, ...caseStudiesWithType, ...insightsWithType];
+        // Combine only routable article types and sort by date (newest first)
+        const allArticles = [...guidesWithType, ...caseStudiesWithType];
         const sortedArticles = allArticles.sort((a, b) => 
           new Date(b.date).getTime() - new Date(a.date).getTime()
         );
@@ -97,7 +95,7 @@ const Homepage = () => {
   };
 
   // Helper function to generate correct article URL based on content type
-  const getArticleUrl = (article: Article & { contentType: 'guides' | 'case-studies' | 'insights' }) => {
+  const getArticleUrl = (article: Article & { contentType: 'guides' | 'case-studies' }) => {
     return `/resources/${article.contentType}/${article.slug}`;
   };
 
