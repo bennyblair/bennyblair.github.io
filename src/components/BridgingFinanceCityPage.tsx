@@ -193,6 +193,33 @@ export default function BridgingFinanceCityPage({ city, canonical, title, descri
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
+          <div className="grid lg:grid-cols-2 gap-6">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
+              <h2 className="text-3xl font-bold text-white mb-6">What lenders usually focus on in {city}</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>
+                  A bridge file is usually strongest when the property, the urgency, and the exit all line up. In {city}, lenders tend to look closely at the quality of the security, the amount of existing debt already on title, and whether there is a genuine commercial reason the facility has to move quickly.
+                </p>
+                <p>
+                  They also want to see that the borrower understands the transaction rather than just the deadline. If the bridge is supporting an acquisition, refinance, residual-stock hold, or business event, the file tends to work better when the sequence is clear and the fallback plan is visible from day one.
+                </p>
+              </div>
+            </div>
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
+              <h2 className="text-3xl font-bold text-white mb-6">When bridging finance may not be the right fit</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>
+                  Bridging finance is usually less suitable when the repayment path is speculative, when the borrower really needs long-term debt, or when the property position is too uncertain for a short-term lender to get comfortable. In those cases, forcing a bridge can create more pressure instead of solving the original problem.
+                </p>
+                <p>
+                  In practical terms, a {city} borrower is often better served by a more conventional commercial structure if there is enough time to complete full underwriting and the goal is stable medium-term funding rather than a short transitional facility. The bridge works best when it solves sequencing, not when it tries to hide structural weakness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-5xl mx-auto mb-12">
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
             <h2 className="text-3xl font-bold text-white mb-8 text-center">How the process usually works</h2>
             <div className="grid md:grid-cols-2 gap-6">
