@@ -10,7 +10,7 @@ const BridgingFinanceAdelaide: React.FC = () => {
       <SEO 
         title="Bridging Finance Adelaide | SA Commercial Finance | Emet Capital"
         description="Fast bridging loans in Adelaide SA. 24-48 hour approvals for property purchases, auctions, and time-sensitive opportunities. Local expertise, competitive rates."
-        canonical="/bridging-finance-adelaide"
+        canonical="/services/bridging-finance/cities/adelaide"
         keywords="bridging finance Adelaide, bridging finance SA, commercial loans Adelaide, business finance Adelaide, adelaide property finance"
         schemas={[generateServiceSchema(
           "Bridging Finance Adelaide",

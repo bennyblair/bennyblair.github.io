@@ -10,7 +10,7 @@ const AssetFinanceAdelaide: React.FC = () => {
       <SEO 
         title="Asset Finance Adelaide | SA Commercial Finance | Emet Capital"
         description="Asset finance for Adelaide businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+ across South Australia."
-        canonical="/asset-finance-adelaide"
+        canonical="/services/asset-finance/cities/adelaide"
         keywords="asset finance Adelaide, asset finance SA, commercial loans Adelaide, business finance Adelaide, equipment finance South Australia"
         schemas={[generateServiceSchema(
           "Asset Finance Adelaide",

@@ -10,7 +10,7 @@ const BridgingFinanceGoldCoast: React.FC = () => {
       <SEO 
         title="Bridging Finance Gold Coast | QLD Commercial Finance | Emet Capital"
         description="Fast bridging loans in Gold Coast QLD. 24-48 hour approvals for property purchases, auctions, and time-sensitive opportunities. Local expertise, competitive rates."
-        canonical="/bridging-finance-gold-coast"
+        canonical="/services/bridging-finance/cities/gold-coast"
         keywords="bridging finance Gold Coast, bridging finance QLD, commercial loans Gold Coast, business finance Gold Coast, gold coast property finance"
         schemas={[generateServiceSchema(
           "Bridging Finance Gold Coast",

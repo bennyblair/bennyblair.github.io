@@ -10,7 +10,7 @@ const BridgingFinancePerth: React.FC = () => {
       <SEO 
         title="Bridging Finance Perth | WA Commercial Finance | Emet Capital"
         description="Fast bridging loans in Perth WA. 24-48 hour approvals for property purchases, auctions, and time-sensitive opportunities. Local expertise, competitive rates."
-        canonical="/bridging-finance-perth"
+        canonical="/services/bridging-finance/cities/perth"
         keywords="bridging finance Perth, bridging finance WA, commercial loans Perth, business finance Perth, perth property finance"
         schemas={[generateServiceSchema(
           "Bridging Finance Perth",

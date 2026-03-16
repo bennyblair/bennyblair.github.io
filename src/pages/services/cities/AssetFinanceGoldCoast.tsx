@@ -10,7 +10,7 @@ const AssetFinanceGoldCoast: React.FC = () => {
       <SEO 
         title="Asset Finance Gold Coast | QLD Commercial Finance | Emet Capital"
         description="Asset finance for Gold Coast businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+ across the Gold Coast region."
-        canonical="/asset-finance-gold-coast"
+        canonical="/services/asset-finance/cities/gold-coast"
         keywords="asset finance Gold Coast, asset finance QLD, commercial loans Gold Coast, business finance Gold Coast, equipment finance Queensland"
         schemas={[generateServiceSchema(
           "Asset Finance Gold Coast",
