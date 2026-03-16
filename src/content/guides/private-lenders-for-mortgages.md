@@ -58,7 +58,7 @@ However, private lenders accessing sophisticated or wholesale investors may be e
 
 ### Types of Private Lending Structures
 
-Private mortgage lending in Australia typically falls into three categories. First mortgages provide primary financing secured against unencumbered property. [First and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business) serve different purposes—second mortgages sit behind existing first mortgages and carry higher interest rates due to increased risk.
+Private mortgage lending in Australia typically falls into three categories. First mortgages provide primary financing secured against unencumbered property. [First and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business) serve different purposes—second mortgages sit behind existing first mortgages and carry higher interest rates due to increased risk. If you are actively comparing lender types rather than just trying to solve a bank decline, our [private mortgage lenders Australia directory for 2026](/resources/guides/private-mortgage-lenders-australia-directory-2026) gives a more structured shortlist framework.
 
 Caveat loans represent short-term emergency funding, often settled within 24 hours but costing 2-4% per month. These ultra-short-term solutions work for bridging gaps of days or weeks, not months or years.
 
