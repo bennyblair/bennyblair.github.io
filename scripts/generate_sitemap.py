@@ -17,7 +17,10 @@ DOMAIN = "https://emetcapital.com.au"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ROUTE_DATA_PATH = REPO_ROOT / "scripts" / "seo-route-data.generated.json"
 NETLIFY_TOML_PATH = REPO_ROOT / "netlify.toml"
-OUTPUT_PATH = REPO_ROOT / "public" / "sitemap.xml"
+OUTPUT_PATHS = [
+    REPO_ROOT / "public" / "sitemap.xml",
+    REPO_ROOT / "dist" / "sitemap.xml",
+]
 
 DEFAULT_CHANGEFREQ = "monthly"
 DEFAULT_PRIORITY = "0.6"
@@ -128,9 +131,10 @@ def build_entries() -> list[dict]:
             continue
         canonical_path = canonical_path_from_value(meta.get("canonical") or route_path)
         canonical_path = canonical_path.rstrip("/") or "/"
+        normalized_route_path = route_path.rstrip("/") or "/"
 
         # Exclude redirect aliases and any non-canonical path that differs from canonical.
-        if route_path.rstrip("/") != canonical_path:
+        if normalized_route_path != canonical_path:
             continue
         if canonical_path in redirect_sources:
             continue
@@ -174,8 +178,10 @@ def render_xml(entries: list[dict]) -> str:
 
 def main() -> None:
     entries = build_entries()
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(render_xml(entries), encoding="utf-8")
+    rendered_xml = render_xml(entries)
+    for output_path in OUTPUT_PATHS:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(rendered_xml, encoding="utf-8")
     print(f"✅ Generated sitemap.xml with {len(entries)} canonical URLs")
     for entry in entries[:10]:
         print(f"   • {entry['loc']}")
