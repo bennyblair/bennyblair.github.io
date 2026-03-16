@@ -10,7 +10,7 @@ const AssetFinanceSydney: React.FC = () => {
       <SEO 
         title="Asset Finance Sydney | NSW Commercial Finance | Emet Capital"
         description="Asset finance for Sydney businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+."
-        canonical="/asset-finance-sydney"
+        canonical="/services/asset-finance/cities/sydney"
         keywords="asset finance Sydney, asset finance NSW, commercial loans Sydney, business finance Sydney, sydney property finance"
         schemas={[generateServiceSchema(
           "Asset Finance Sydney",

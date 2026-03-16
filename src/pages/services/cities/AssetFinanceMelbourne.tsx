@@ -10,7 +10,7 @@ const AssetFinanceMelbourne: React.FC = () => {
       <SEO 
         title="Asset Finance Melbourne | VIC Commercial Finance | Emet Capital"
         description="Asset finance for Melbourne businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+."
-        canonical="/asset-finance-melbourne"
+        canonical="/services/asset-finance/cities/melbourne"
         keywords="asset finance Melbourne, asset finance VIC, commercial loans Melbourne, business finance Melbourne, melbourne property finance"
         schemas={[generateServiceSchema(
           "Asset Finance Melbourne",

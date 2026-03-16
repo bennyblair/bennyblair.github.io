@@ -10,7 +10,7 @@ const AssetFinanceBrisbane: React.FC = () => {
       <SEO 
         title="Asset Finance Brisbane | QLD Commercial Finance | Emet Capital"
         description="Asset finance for Brisbane businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+."
-        canonical="/asset-finance-brisbane"
+        canonical="/services/asset-finance/cities/brisbane"
         keywords="asset finance Brisbane, asset finance QLD, commercial loans Brisbane, business finance Brisbane, brisbane property finance"
         schemas={[generateServiceSchema(
           "Asset Finance Brisbane",

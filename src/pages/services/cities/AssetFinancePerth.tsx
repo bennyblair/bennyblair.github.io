@@ -10,7 +10,7 @@ const AssetFinancePerth: React.FC = () => {
       <SEO 
         title="Asset Finance Perth | WA Commercial Finance | Emet Capital"
         description="Asset finance for Perth businesses. Fund vehicles, equipment, and machinery with flexible terms. Fast approvals from $30K to $5M+ across Western Australia."
-        canonical="/asset-finance-perth"
+        canonical="/services/asset-finance/cities/perth"
         keywords="asset finance Perth, asset finance WA, commercial loans Perth, business finance Perth, equipment finance Western Australia"
         schemas={[generateServiceSchema(
           "Asset Finance Perth",

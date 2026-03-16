@@ -225,10 +225,35 @@
   to = "/contact"
   status = 301
 
-# Resources/tools parent path → tools
+# Canonical path consolidation
+[[redirects]]
+  from = "/case-studies"
+  to = "/resources/case-studies"
+  status = 301
+
+[[redirects]]
+  from = "/case-studies/:slug"
+  to = "/resources/case-studies/:slug"
+  status = 301
+
 [[redirects]]
   from = "/resources/tools"
   to = "/tools"
+  status = 301
+
+[[redirects]]
+  from = "/resources/tools/:slug"
+  to = "/tools/:slug"
+  status = 301
+
+[[redirects]]
+  from = "/private-mortgage-lenders-australia-directory-2026"
+  to = "/resources/guides/private-mortgage-lenders-australia-directory-2026"
+  status = 301
+
+[[redirects]]
+  from = "/subordination-agreement-second-mortgage"
+  to = "/resources/guides/subordination-agreement-second-mortgage"
   status = 301
 
 # Legacy page redirects
