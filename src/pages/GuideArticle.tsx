@@ -78,7 +78,7 @@ const GuideArticle = () => {
         setFaqs(faqItems);
 
         // Load related articles (same content type, excluding current article)
-        const allArticles = getContentFiles(contentType);
+        const allArticles = await getContentFiles(contentType);
         const related = allArticles
           .filter(a => a.slug !== slug)
           .slice(0, 3);
