@@ -10,6 +10,19 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) return 'framework';
+            if (id.includes('@tanstack/react-query') || id.includes('react-helmet-async')) return 'app-vendors';
+            if (id.includes('gray-matter') || id.includes('remark') || id.includes('rehype') || id.includes('marked')) return 'markdown';
+          }
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     nodePolyfills({
