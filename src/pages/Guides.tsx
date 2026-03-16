@@ -21,15 +21,17 @@ const Guides = () => {
   const [publishedArticles, setPublishedArticles] = useState<Article[]>([]);
 
   useEffect(() => {
-    // Load published articles from content system
-    const articles = getContentFiles('guides');
-    setPublishedArticles(articles);
-    
-    // Get the most recent article for hero section
-    if (articles.length > 0) {
-      const latest = articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
-      setLatestArticle(latest);
-    }
+    const loadGuides = async () => {
+      const articles = await getContentFiles('guides');
+      setPublishedArticles(articles);
+
+      if (articles.length > 0) {
+        const latest = [...articles].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
+        setLatestArticle(latest);
+      }
+    };
+
+    loadGuides();
   }, []);
 
   // Helper function to check if article is "new" (within 7 days)

@@ -16,15 +16,17 @@ const MarketInsights = () => {
   const [publishedInsights, setPublishedInsights] = useState<Article[]>([]);
 
   useEffect(() => {
-    // Load published insights from content system
-    const insights = getContentFiles('insights');
-    setPublishedInsights(insights);
-    
-    // Get the most recent insight for hero section
-    if (insights.length > 0) {
-      const latest = insights.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
-      setLatestInsight(latest);
-    }
+    const loadInsights = async () => {
+      const insights = await getContentFiles('insights');
+      setPublishedInsights(insights);
+
+      if (insights.length > 0) {
+        const latest = [...insights].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
+        setLatestInsight(latest);
+      }
+    };
+
+    loadInsights();
   }, []);
 
   // Helper function to check if insight is "new" (within 7 days)

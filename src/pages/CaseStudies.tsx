@@ -20,15 +20,17 @@ const CaseStudies = () => {
   const [publishedCaseStudies, setPublishedCaseStudies] = useState<Article[]>([]);
 
   useEffect(() => {
-    // Load published case studies from content system
-    const caseStudies = getContentFiles('case-studies');
-    setPublishedCaseStudies(caseStudies);
-    
-    // Get the most recent case study for hero section
-    if (caseStudies.length > 0) {
-      const latest = caseStudies.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
-      setLatestCaseStudy(latest);
-    }
+    const loadCaseStudies = async () => {
+      const caseStudies = await getContentFiles('case-studies');
+      setPublishedCaseStudies(caseStudies);
+
+      if (caseStudies.length > 0) {
+        const latest = [...caseStudies].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
+        setLatestCaseStudy(latest);
+      }
+    };
+
+    loadCaseStudies();
   }, []);
 
   // Helper function to check if case study is "new" (within 7 days)
