@@ -150,7 +150,7 @@ Property documentation includes contracts of sale, building reports, environment
 
 Second mortgage lenders focus heavily on equity position and exit strategy documentation. Current property valuations, existing loan statements, and detailed cash flow analysis demonstrate repayment capacity.
 
-Security documentation must clearly establish subordinate positions while protecting lender interests. Inter-creditor agreements may be required to define relationships between first and second mortgage holders.
+Security documentation must clearly establish subordinate positions while protecting lender interests. Inter-creditor agreements may be required to define relationships between first and second mortgage holders. For a practical legal explainer on lender priority, consent, notices, and enforcement, see our guide to [subordination agreements in second mortgages](/resources/guides/subordination-agreement-second-mortgage).
 
 ---
 
