@@ -54,10 +54,9 @@
   to = "/resources/case-studies"
   status = 301
 
-[[redirects]]
-  from = "/resources/case-studies/:slug/"
-  to = "/resources/case-studies/:slug"
-  status = 301
+# NOTE: Do NOT add /:slug/ trailing slash redirects here - they conflict with
+# Netlify's post-processing and cause infinite loops for non-existent routes.
+# Pre-rendered routes work fine, and the SPA fallback handles 404s.
 
 # Tools canonical live under /tools/*
 [[redirects]]
@@ -89,10 +88,8 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/tools/:slug/"
-  to = "/tools/:slug"
-  status = 301
+# NOTE: Same as case studies - do NOT add /tools/:slug/ redirect
+# (conflicts with Netlify post-processing, causes loops for non-existent slugs)
 
 # Fix Tools URL Structure (resources/tools -> tools)
 [[redirects]]
