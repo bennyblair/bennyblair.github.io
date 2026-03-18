@@ -69,7 +69,7 @@ Second mortgages work best when you have a specific funding need with a clear re
 A company purchasing new equipment, fit-out costs, or business premises may use a second mortgage to access required capital in one advance. The business knows exactly how much it needs and can structure repayments around expected returns from the expansion.
 
 **Debt consolidation:**
-Business owners with multiple high-interest debts may consolidate into a single second mortgage with lower rates and structured repayment. This works when total debt is clear and the business benefits from simplified payments and reduced interest costs. [Learn more about debt consolidation strategies and structures](/resources/guides/debt-consolidation-strategies).
+Business owners with multiple high-interest debts may consolidate into a single second mortgage with lower rates and structured repayment. This works when total debt is clear and the business benefits from simplified payments and reduced interest costs. [Learn more about business debt consolidation strategies and structures](/resources/guides/business-debt-consolidation-australia).
 
 **Property investment:**
 Investors acquiring additional property may use a second mortgage against existing holdings to fund the deposit or full purchase. This is a one-time capital requirement with repayment linked to rental income or eventual property sale.
