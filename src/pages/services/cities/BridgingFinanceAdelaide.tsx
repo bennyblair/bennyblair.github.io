@@ -24,11 +24,11 @@ export default function BridgingFinanceAdelaide() {
         },
         {
           title: 'Western growth: Henley Beach, Glenelg, coastal corridor',
-          text: 'Adelaide's coastal precincts can produce premium property-backed bridging scenarios including mixed-use acquisitions, commercial refinance bridges, and development timing gaps tied to infill projects and coastal property transactions.'
+          text: "Adelaide's coastal precincts can produce premium property-backed bridging scenarios including mixed-use acquisitions, commercial refinance bridges, and development timing gaps tied to infill projects and coastal property transactions."
         },
         {
           title: 'Northern and southern industrial: Gepps Cross, Lonsdale, Edinburgh',
-          text: 'Adelaide's industrial corridors generate bridging finance opportunities around warehouse acquisitions, manufacturing site purchases, logistics facility transitions, and commercial property serving trade and distribution sectors where timing windows are tight.'
+          text: "Adelaide's industrial corridors generate bridging finance opportunities around warehouse acquisitions, manufacturing site purchases, logistics facility transitions, and commercial property serving trade and distribution sectors where timing windows are tight."
         }
       ]}
       localUseCases={[
@@ -42,11 +42,11 @@ export default function BridgingFinanceAdelaide() {
         },
         {
           title: 'Infill development and site acquisition timing',
-          text: 'Adelaide developers working on infill projects, subdivision opportunities, or medium-density residential development may use bridging to secure sites, cover holding costs, or manage transitions between acquisition finance and construction facilities when funding milestones don't align perfectly.'
+          text: "Adelaide developers working on infill projects, subdivision opportunities, or medium-density residential development may use bridging to secure sites, cover holding costs, or manage transitions between acquisition finance and construction facilities when funding milestones don't align perfectly."
         },
         {
           title: 'Commercial acquisition and settlement windows',
-          text: 'Adelaide commercial property buyers sometimes face short settlement windows or competitive acquisition scenarios where standard bank processes can't deliver funding in time. Bridging finance preserves deal control without forcing rushed permanent structures before they're properly assessed and priced.'
+          text: "Adelaide commercial property buyers sometimes face short settlement windows or competitive acquisition scenarios where standard bank processes can't deliver funding in time. Bridging finance preserves deal control without forcing rushed permanent structures before they're properly assessed and priced."
         }
       ]}
       scenarios={[
@@ -109,7 +109,7 @@ export default function BridgingFinanceAdelaide() {
       faqs={[
         {
           question: 'When might bridging finance make sense in Adelaide?',
-          answer: 'It may make sense when an Adelaide borrower has a clear transaction and exit strategy, but timing doesn't align with standard bank processes. Common examples include purchase-before-sale scenarios, refinance deadlines, commercial acquisitions with short settlement windows, and development funding transitions.'
+          answer: "It may make sense when an Adelaide borrower has a clear transaction and exit strategy, but timing doesn't align with standard bank processes. Common examples include purchase-before-sale scenarios, refinance deadlines, commercial acquisitions with short settlement windows, and development funding transitions."
         },
         {
           question: 'Can bridging finance work for commercial property in Adelaide?',
@@ -121,7 +121,7 @@ export default function BridgingFinanceAdelaide() {
         },
         {
           question: 'Can I use bridging finance while waiting for a sale in Adelaide to settle?',
-          answer: 'Potentially, yes, if the sale is sufficiently advanced and the wider structure remains sensible. Lenders will want to understand the expected settlement timing, debt position, market conditions, and fallback options if the sale drifts or doesn't complete as planned.'
+          answer: "Potentially, yes, if the sale is sufficiently advanced and the wider structure remains sensible. Lenders will want to understand the expected settlement timing, debt position, market conditions, and fallback options if the sale drifts or doesn't complete as planned."
         },
         {
           question: 'Is bridging finance only for property investors in Adelaide?',

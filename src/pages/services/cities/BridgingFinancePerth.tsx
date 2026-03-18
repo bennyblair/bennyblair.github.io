@@ -16,7 +16,7 @@ export default function BridgingFinancePerth() {
       suburbCoverage={[
         {
           title: 'Kewdale, Welshpool, and southern industrial corridor',
-          text: 'Perth's established industrial precincts produce regular bridging scenarios involving warehouses, logistics facilities, trade distribution centers, and commercial property serving resource-sector businesses. These are often refinance or acquisition bridges where settlement timing matters more than long-term rate optimization.'
+          text: "Perth's established industrial precincts produce regular bridging scenarios involving warehouses, logistics facilities, trade distribution centers, and commercial property serving resource-sector businesses. These are often refinance or acquisition bridges where settlement timing matters more than long-term rate optimization."
         },
         {
           title: 'Malaga, Wangara, and northern industrial growth',
@@ -42,7 +42,7 @@ export default function BridgingFinancePerth() {
         },
         {
           title: 'Development site acquisition and funding transitions',
-          text: 'Developers purchasing sites or managing transitions between acquisition finance, construction facilities, and takeout refinancing may use bridging to cover timing gaps. This is common in Perth where project funding milestones don't always align neatly with development stages.'
+          text: "Developers purchasing sites or managing transitions between acquisition finance, construction facilities, and takeout refinancing may use bridging to cover timing gaps. This is common in Perth where project funding milestones don't always align neatly with development stages."
         },
         {
           title: 'Resource sector business transactions',
@@ -110,7 +110,7 @@ export default function BridgingFinancePerth() {
       faqs={[
         {
           question: 'When might bridging finance make sense in Perth?',
-          answer: 'It may make sense when a Perth borrower has a clear transaction and exit strategy, but timing doesn't align with standard bank processes. Common examples include industrial acquisitions, refinance deadlines, development funding transitions, and sale-and-purchase timing gaps.'
+          answer: "It may make sense when a Perth borrower has a clear transaction and exit strategy, but timing doesn't align with standard bank processes. Common examples include industrial acquisitions, refinance deadlines, development funding transitions, and sale-and-purchase timing gaps."
         },
         {
           question: 'Can bridging finance work for industrial property in Perth?',
@@ -118,11 +118,11 @@ export default function BridgingFinancePerth() {
         },
         {
           question: 'What do Perth lenders focus on most?',
-          answer: 'They usually focus on security quality, combined leverage across all debt positions, legal readiness, and the credibility of the exit strategy. Industrial and resource-sector property requires careful valuation and market assessment given Perth's cyclical market dynamics.'
+          answer: "They usually focus on security quality, combined leverage across all debt positions, legal readiness, and the credibility of the exit strategy. Industrial and resource-sector property requires careful valuation and market assessment given Perth's cyclical market dynamics."
         },
         {
           question: 'Can I use bridging finance while waiting for a sale in Perth to settle?',
-          answer: 'Potentially, yes, if the sale is sufficiently advanced and the wider structure remains sensible. Lenders will want to understand the expected settlement timing, debt position, and fallback options if the sale drifts or doesn't complete as planned.'
+          answer: "Potentially, yes, if the sale is sufficiently advanced and the wider structure remains sensible. Lenders will want to understand the expected settlement timing, debt position, and fallback options if the sale drifts or doesn't complete as planned."
         },
         {
           question: 'Is bridging finance only for property investors in Perth?',

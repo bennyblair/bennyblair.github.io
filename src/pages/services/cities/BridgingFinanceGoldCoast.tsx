@@ -16,11 +16,11 @@ export default function BridgingFinanceGoldCoast() {
       suburbCoverage={[
         {
           title: 'Broadbeach, Surfers Paradise, and coastal commercial',
-          text: 'Gold Coast's premium coastal corridor regularly produces timing-driven deals involving mixed-use buildings, hospitality assets, office suites, and commercial property serving tourism and professional services sectors. These are often refinance or acquisition bridges where settlement discipline and execution speed matter.'
+          text: "Gold Coast's premium coastal corridor regularly produces timing-driven deals involving mixed-use buildings, hospitality assets, office suites, and commercial property serving tourism and professional services sectors. These are often refinance or acquisition bridges where settlement discipline and execution speed matter."
         },
         {
           title: 'Southport CBD and commercial precinct',
-          text: 'Southport's established commercial district generates bridging scenarios around office buildings, mixed-use developments, hospitality property, and owner-occupied business premises. Transactions may involve refinance timing gaps, acquisition settlements, or development funding transitions.'
+          text: "Southport's established commercial district generates bridging scenarios around office buildings, mixed-use developments, hospitality property, and owner-occupied business premises. Transactions may involve refinance timing gaps, acquisition settlements, or development funding transitions."
         },
         {
           title: 'Robina, Varsity Lakes, and southern growth corridor',
@@ -42,7 +42,7 @@ export default function BridgingFinanceGoldCoast() {
         },
         {
           title: 'Development site acquisition and funding transitions',
-          text: 'Gold Coast developers working on medium-density residential, mixed-use, or commercial projects may use bridging to secure sites, cover holding costs, or manage transitions between acquisition finance and construction facilities when funding milestones don't align perfectly with project stages.'
+          text: "Gold Coast developers working on medium-density residential, mixed-use, or commercial projects may use bridging to secure sites, cover holding costs, or manage transitions between acquisition finance and construction facilities when funding milestones don't align perfectly with project stages."
         },
         {
           title: 'Hospitality and tourism business transactions',
@@ -120,7 +120,7 @@ export default function BridgingFinanceGoldCoast() {
       faqs={[
         {
           question: 'When might bridging finance make sense on the Gold Coast?',
-          answer: 'It may make sense when a Gold Coast borrower has a clear transaction and exit strategy, but timing doesn't align with standard bank processes. Common examples include mixed-use acquisitions, hospitality purchases, refinance deadlines, development funding transitions, and purchase-before-sale scenarios.'
+          answer: "It may make sense when a Gold Coast borrower has a clear transaction and exit strategy, but timing doesn't align with standard bank processes. Common examples include mixed-use acquisitions, hospitality purchases, refinance deadlines, development funding transitions, and purchase-before-sale scenarios."
         },
         {
           question: 'Can bridging finance work for mixed-use property on the Gold Coast?',
@@ -132,7 +132,7 @@ export default function BridgingFinanceGoldCoast() {
         },
         {
           question: 'Can I use bridging finance while waiting for a sale on the Gold Coast to settle?',
-          answer: 'Potentially, yes, if the sale is sufficiently advanced and the wider structure remains sensible. Lenders will want to understand the expected settlement timing, debt position, market conditions, and fallback options if the sale drifts or doesn't complete as planned.'
+          answer: "Potentially, yes, if the sale is sufficiently advanced and the wider structure remains sensible. Lenders will want to understand the expected settlement timing, debt position, market conditions, and fallback options if the sale drifts or doesn't complete as planned."
         },
         {
           question: 'Is bridging finance only for property investors on the Gold Coast?',
