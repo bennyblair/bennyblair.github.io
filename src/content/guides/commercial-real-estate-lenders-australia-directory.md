@@ -170,9 +170,9 @@ For time-sensitive commercial transactions, [bridging finance](/resources/guides
 
 Start with your deal constraints and requirements. Time-sensitive transactions rule out banks immediately. Complex ownership structures or credit issues narrow the field to non-banks and private capital.
 
-Next, consider your risk tolerance and cost sensitivity. Bank rates are lowest but come with rigid criteria and slow processes. Private rates are highest but provide speed and flexibility when timing matters more than cost. [Learn more about private lending options](/services/private-lending).
+Next, consider your risk tolerance and cost sensitivity. Bank rates are lowest but come with rigid criteria and slow processes. Private rates are highest but provide speed and flexibility when timing matters more than cost. [Learn more about private lending structures and scenarios](/resources/guides/what-is-private-lending-australia).
 
-Match lender specialization to your asset type and transaction structure. Industrial assets may suit certain non-banks better than others. Development finance requires lenders experienced in construction drawdowns and project risk. [Explore development finance solutions](/services/commercial-property-development).
+Match lender specialization to your asset type and transaction structure. Industrial assets may suit certain non-banks better than others. Development finance requires lenders experienced in construction drawdowns and project risk. [Explore development finance structures and requirements](/resources/guides/construction-finance-australia-complete-guide).
 
 Finally, work with experienced commercial finance brokers who maintain relationships across multiple lender types. They can quickly identify which lenders are actively writing business in your market segment and structure applications to maximize approval probability.
 
@@ -337,7 +337,7 @@ Major banks require 6-12 weeks minimum. Non-banks typically deliver decisions in
 
 ### Can I use bridging finance while waiting for bank approval?
 
-Yes. Bridging finance from private lenders can secure transactions while bank facilities are approved, or provide short-term funding between sale and purchase settlement dates. This is common when timing doesn't align with traditional bank processes. [Learn more about bridging finance](/services/bridging-finance) and [read our complete bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide).
+Yes. Bridging finance from private lenders can secure transactions while bank facilities are approved, or provide short-term funding between sale and purchase settlement dates. This is common when timing doesn't align with traditional bank processes. [Read our complete bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide) for detailed scenarios and requirements.
 
 ### What happens if multiple properties secure the loan?
 
@@ -347,9 +347,9 @@ Most lenders accept multiple properties as security, particularly when a single 
 
 - **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Detailed overview of commercial lending structures, requirements, and processes
 - **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — How bridging finance works for time-sensitive commercial transactions
-- **[Private Lending Services](/services/private-lending)** — Emet Capital's private lending solutions for commercial property
+- **[Construction Finance Australia: Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — Development finance structures and requirements
+- **[What is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Understanding private lending structures and use cases
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Comparison of two common commercial finance options
-- **[Case Studies: Commercial Property Finance](/resources/case-studies)** — Real examples of commercial lending scenarios we've supported
 
 ---
 

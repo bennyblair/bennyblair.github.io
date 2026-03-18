@@ -43,7 +43,7 @@ This subordinate position means second mortgages carry higher risk for lenders, 
 - Security registered against property title behind first mortgage
 - Interest charged on full loan amount regardless of usage
 
-Second mortgages work well when you need a specific capital amount for a defined purpose with a clear repayment plan. [Learn more about first and second mortgage structures](/services/first-second-mortgages).
+Second mortgages work well when you need a specific capital amount for a defined purpose with a clear repayment plan. [Learn more about first and second mortgage structures and applications](/resources/guides/second-mortgages-for-business-guide).
 
 ## What is a Line of Credit?
 
@@ -311,11 +311,11 @@ Lines of credit provide more flexibility—you can make additional repayments an
 
 ## Related Articles
 
-- **[First & Second Mortgages for Business](/services/first-second-mortgages)** — Overview of mortgage structures for commercial property financing
+- **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Comprehensive guide to second mortgage structures, applications, and scenarios
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — How to leverage business assets for funding
 - **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Complete directory of commercial lenders
+- **[What is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Understanding private lending structures and use cases
 - **[Case Studies: Business Finance](/resources/case-studies)** — Real examples of business lending scenarios we've supported
-- **[Private Lending Services](/services/private-lending)** — Emet Capital's private lending solutions for business and property
 
 ---
 
