@@ -263,6 +263,14 @@
     "h1": "Commercial Property Refinancing Solutions in Australia",
     "noscript": "Complete guide to commercial property refinancing in Australia. Learn about rates, processes, benefits, and when to refinance. General information only - not advice."
   },
+  "/resources/guides/commercial-real-estate-lenders-australia-directory": {
+    "title": "Commercial Real Estate Lenders in Australia [Directory] | Emet Capital",
+    "description": "Complete directory of Australian commercial real estate lenders including major banks, regional lenders, and private capital providers with specialization details and contact information.",
+    "keywords": "",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-real-estate-lenders-australia-directory",
+    "h1": "Commercial Real Estate Lenders in Australia [Directory]",
+    "noscript": "Complete directory of Australian commercial real estate lenders including major banks, regional lenders, and private capital providers with specialization details and contact information."
+  },
   "/resources/guides/construction-finance-australia-complete-guide": {
     "title": "Construction Finance in Australia: The Complete Guide for Commercial Builds | Emet Capital",
     "description": "Complete guide to construction finance in Australia. Learn about owner-occupier commercial builds, costs, stages, and how construction finance differs from development. General information only - not advice.",
@@ -510,6 +518,14 @@
     "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-partnership-buyout-financing-transitions",
     "h1": "Second Mortgage for Partnership Buyout: Financing Transitions",
     "noscript": "Complete guide to using second mortgages for partnership buyouts in Australia, covering valuation, financing structures, legal considerations, and transition strategies."
+  },
+  "/resources/guides/second-mortgage-vs-line-of-credit": {
+    "title": "Second Mortgage vs Line of Credit: Which to Choose? | Emet Capital",
+    "description": "Compare second mortgages and lines of credit for business funding. Understand structure differences, cost implications, and which option suits your commercial financing needs.",
+    "keywords": "",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-vs-line-of-credit",
+    "h1": "Second Mortgage vs Line of Credit: Which to Choose?",
+    "noscript": "Compare second mortgages and lines of credit for business funding. Understand structure differences, cost implications, and which option suits your commercial financing needs."
   },
   "/resources/guides/second-mortgages-for-business-guide": {
     "title": "Second Mortgages for Business: Is It Right for Your Company? | Emet Capital",
@@ -1129,27 +1145,27 @@
   },
   "/services/bridging-finance/cities/perth": {
     "title": "Bridging Finance Perth | WA Commercial Finance | Emet Capital",
-    "description": "Fast bridging finance in Perth for commercial property, refinance deadlines, acquisition timing gaps, and time-sensitive business-backed transactions.",
+    "description": "Bridging finance in Perth for commercial property acquisitions, refinance deadlines, development timing gaps, and time-sensitive business transactions across WA's key industrial and metro markets.",
     "keywords": "bridging finance Perth, bridging finance Perth finance",
     "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/perth",
     "h1": "Bridging Finance Perth | WA Commercial Finance",
-    "noscript": "Fast bridging finance in Perth for commercial property, refinance deadlines, acquisition timing gaps, and time-sensitive business-backed transactions."
+    "noscript": "Bridging finance in Perth for commercial property acquisitions, refinance deadlines, development timing gaps, and time-sensitive business transactions across WA's key industrial and metro markets."
   },
   "/services/bridging-finance/cities/adelaide": {
     "title": "Bridging Finance Adelaide | SA Commercial Finance | Emet Capital",
-    "description": "Fast bridging finance in Adelaide for commercial property, refinance deadlines, acquisition timing gaps, and time-sensitive business-backed transactions.",
+    "description": "Bridging finance in Adelaide for commercial property acquisitions, refinance deadlines, purchase-before-sale scenarios, and time-sensitive business transactions across established and growth-market suburbs.",
     "keywords": "bridging finance Adelaide, bridging finance Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/adelaide",
     "h1": "Bridging Finance Adelaide | SA Commercial Finance",
-    "noscript": "Fast bridging finance in Adelaide for commercial property, refinance deadlines, acquisition timing gaps, and time-sensitive business-backed transactions."
+    "noscript": "Bridging finance in Adelaide for commercial property acquisitions, refinance deadlines, purchase-before-sale scenarios, and time-sensitive business transactions across established and growth-market suburbs."
   },
   "/services/bridging-finance/cities/gold-coast": {
     "title": "Bridging Finance Gold Coast | QLD Commercial Finance | Emet Capital",
-    "description": "Fast bridging finance on the Gold Coast for commercial property, refinance deadlines, acquisition timing gaps, and time-sensitive business-backed transactions.",
+    "description": "Bridging finance on the Gold Coast for commercial property acquisitions, refinance deadlines, development timing gaps, and time-sensitive business transactions across coastal, canal-front, and growth-market locations.",
     "keywords": "bridging finance Gold Coast, bridging finance Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/bridging-finance/cities/gold-coast",
     "h1": "Bridging Finance Gold Coast | QLD Commercial Finance",
-    "noscript": "Fast bridging finance on the Gold Coast for commercial property, refinance deadlines, acquisition timing gaps, and time-sensitive business-backed transactions."
+    "noscript": "Bridging finance on the Gold Coast for commercial property acquisitions, refinance deadlines, development timing gaps, and time-sensitive business transactions across coastal, canal-front, and growth-market locations."
   },
   "/services/asset-finance/cities/sydney": {
     "title": "Asset Finance Sydney | NSW Commercial Finance | Emet Capital",
