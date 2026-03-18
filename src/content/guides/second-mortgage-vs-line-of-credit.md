@@ -10,7 +10,7 @@ pillar: 1st & 2nd Mortgages for Business
 
 Business owners seeking additional capital often face a choice between second mortgages and lines of credit. Both leverage property equity. Both provide access to funds without disturbing existing first mortgage arrangements. But they work differently and suit different scenarios.
 
-This guide explains how second mortgages and lines of credit compare, when each makes sense, and what factors should drive your decision.
+This guide explains how second mortgages and lines of credit compare, when each makes sense, and what factors should drive your decision. For businesses considering [first and second mortgage structures](/services/first-second-mortgages), this comparison provides essential context for informed financing decisions.
 
 > **📖 Related Guide**: This comparison complements our [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide), which covers second mortgage structures, applications, and scenarios in detail.
 
@@ -309,7 +309,7 @@ Generally no interest on undrawn amounts, though some lenders charge line fees (
 
 Lines of credit provide more flexibility—you can make additional repayments anytime to reduce drawn balance and interest costs without penalties. Second mortgages often have fixed repayment schedules and may charge early repayment fees or break costs if you repay ahead of schedule.
 
-## Related Articles
+## Related Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Comprehensive guide to second mortgage structures, applications, and scenarios
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — How to leverage business assets for funding

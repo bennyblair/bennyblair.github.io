@@ -10,7 +10,7 @@ pillar: Commercial Property Loans in Australia
 
 Finding the right commercial real estate lender can make or break a property transaction. The Australian market includes major banks, regional institutions, and private lenders—each with different appetites, pricing structures, and approval processes.
 
-This directory provides an overview of commercial real estate lenders across Australia, organized by lender type, with insights into specializations and typical deal profiles.
+This directory provides an overview of commercial real estate lenders across Australia, organized by lender type, with insights into specializations and typical deal profiles. For businesses seeking [commercial property finance solutions](/services/commercial-property-development), understanding lender differences helps target appropriate funding sources.
 
 > **📖 Related Guide**: This directory complements our [Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide), which covers commercial lending structures, requirements, and processes in detail.
 
@@ -343,7 +343,7 @@ Yes. Bridging finance from private lenders can secure transactions while bank fa
 
 Most lenders accept multiple properties as security, particularly when a single asset doesn't provide sufficient equity. This may involve cross-collateralization where all properties secure the full debt amount. Legal and documentation complexity increases with multiple securities.
 
-## Related Articles
+## Related Guides
 
 - **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Detailed overview of commercial lending structures, requirements, and processes
 - **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — How bridging finance works for time-sensitive commercial transactions
