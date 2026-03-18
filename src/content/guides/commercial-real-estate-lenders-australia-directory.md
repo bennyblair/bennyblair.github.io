@@ -12,6 +12,8 @@ Finding the right commercial real estate lender can make or break a property tra
 
 This directory provides an overview of commercial real estate lenders across Australia, organized by lender type, with insights into specializations and typical deal profiles.
 
+> **📖 Related Guide**: This directory complements our [Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide), which covers commercial lending structures, requirements, and processes in detail.
+
 ## At a Glance
 
 - **Major banks** dominate commercial lending but require strong serviceability, pristine credit, and longer approval timeframes
@@ -161,6 +163,8 @@ Common in development projects and portfolio refinancing where senior debt alone
 - The deal doesn't fit traditional lending criteria
 - You need second mortgage or subordinated debt structures
 - Exit strategy is clear but timing doesn't suit bank processes
+
+For time-sensitive commercial transactions, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may provide appropriate short-term solutions while permanent funding arrangements finalize.
 
 ## How to Choose the Right Lender
 

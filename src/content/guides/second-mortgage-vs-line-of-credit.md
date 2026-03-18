@@ -12,6 +12,8 @@ Business owners seeking additional capital often face a choice between second mo
 
 This guide explains how second mortgages and lines of credit compare, when each makes sense, and what factors should drive your decision.
 
+> **📖 Related Guide**: This comparison complements our [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide), which covers second mortgage structures, applications, and scenarios in detail.
+
 ## At a Glance
 
 - **Second mortgages** provide a lump sum secured against property equity, typically with fixed terms and structured repayments
