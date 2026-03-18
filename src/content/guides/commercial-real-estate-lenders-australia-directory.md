@@ -166,9 +166,9 @@ Common in development projects and portfolio refinancing where senior debt alone
 
 Start with your deal constraints and requirements. Time-sensitive transactions rule out banks immediately. Complex ownership structures or credit issues narrow the field to non-banks and private capital.
 
-Next, consider your risk tolerance and cost sensitivity. Bank rates are lowest but come with rigid criteria and slow processes. Private rates are highest but provide speed and flexibility when timing matters more than cost.
+Next, consider your risk tolerance and cost sensitivity. Bank rates are lowest but come with rigid criteria and slow processes. Private rates are highest but provide speed and flexibility when timing matters more than cost. [Learn more about private lending options](/services/private-lending).
 
-Match lender specialization to your asset type and transaction structure. Industrial assets may suit certain non-banks better than others. Development finance requires lenders experienced in construction drawdowns and project risk.
+Match lender specialization to your asset type and transaction structure. Industrial assets may suit certain non-banks better than others. Development finance requires lenders experienced in construction drawdowns and project risk. [Explore development finance solutions](/services/commercial-property-development).
 
 Finally, work with experienced commercial finance brokers who maintain relationships across multiple lender types. They can quickly identify which lenders are actively writing business in your market segment and structure applications to maximize approval probability.
 
@@ -333,11 +333,19 @@ Major banks require 6-12 weeks minimum. Non-banks typically deliver decisions in
 
 ### Can I use bridging finance while waiting for bank approval?
 
-Yes. Bridging finance from private lenders can secure transactions while bank facilities are approved, or provide short-term funding between sale and purchase settlement dates. This is common when timing doesn't align with traditional bank processes.
+Yes. Bridging finance from private lenders can secure transactions while bank facilities are approved, or provide short-term funding between sale and purchase settlement dates. This is common when timing doesn't align with traditional bank processes. [Learn more about bridging finance](/services/bridging-finance) and [read our complete bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide).
 
 ### What happens if multiple properties secure the loan?
 
 Most lenders accept multiple properties as security, particularly when a single asset doesn't provide sufficient equity. This may involve cross-collateralization where all properties secure the full debt amount. Legal and documentation complexity increases with multiple securities.
+
+## Related Articles
+
+- **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Detailed overview of commercial lending structures, requirements, and processes
+- **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — How bridging finance works for time-sensitive commercial transactions
+- **[Private Lending Services](/services/private-lending)** — Emet Capital's private lending solutions for commercial property
+- **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Comparison of two common commercial finance options
+- **[Case Studies: Commercial Property Finance](/resources/case-studies)** — Real examples of commercial lending scenarios we've supported
 
 ---
 
