@@ -69,13 +69,13 @@ Second mortgages work best when you have a specific funding need with a clear re
 A company purchasing new equipment, fit-out costs, or business premises may use a second mortgage to access required capital in one advance. The business knows exactly how much it needs and can structure repayments around expected returns from the expansion.
 
 **Debt consolidation:**
-Business owners with multiple high-interest debts may consolidate into a single second mortgage with lower rates and structured repayment. This works when total debt is clear and the business benefits from simplified payments and reduced interest costs.
+Business owners with multiple high-interest debts may consolidate into a single second mortgage with lower rates and structured repayment. This works when total debt is clear and the business benefits from simplified payments and reduced interest costs. [Learn more about debt consolidation strategies and structures](/resources/guides/debt-consolidation-strategies).
 
 **Property investment:**
 Investors acquiring additional property may use a second mortgage against existing holdings to fund the deposit or full purchase. This is a one-time capital requirement with repayment linked to rental income or eventual property sale.
 
 **Time-sensitive opportunities:**
-When a business opportunity requires immediate capital—such as stock purchases, contract deposits, or acquisition opportunities—a second mortgage provides lump sum funding quickly without refinancing existing facilities.
+When a business opportunity requires immediate capital—such as stock purchases, contract deposits, or acquisition opportunities—a second mortgage provides lump sum funding quickly without refinancing existing facilities. For urgent financing needs, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer even faster alternatives when timing is critical.
 
 **Key advantages:**
 - Predictable repayment structure
@@ -92,10 +92,10 @@ Lines of credit excel when capital needs fluctuate or when you want standby fund
 Businesses with seasonal revenue or project-based cash flow may draw on a line of credit during lean periods and repay when cash flow improves. This provides financial cushion without paying interest on unused capacity.
 
 **Ongoing investment opportunities:**
-Property investors who regularly purchase assets benefit from having credit available to seize opportunities without reapplying for finance each time. Draw down for deposits, repay from rental income or sales, and maintain ongoing access.
+Property investors who regularly purchase assets benefit from having credit available to seize opportunities without reapplying for finance each time. Draw down for deposits, repay from rental income or sales, and maintain ongoing access. [Explore commercial real estate lender options](/resources/guides/commercial-real-estate-lenders-australia-directory) for investment property financing.
 
 **Business cash flow buffer:**
-Companies wanting backup funding for unexpected expenses, delayed receivables, or short-term cash flow gaps can maintain a line of credit as insurance. You only pay interest when you actually draw funds.
+Companies wanting backup funding for unexpected expenses, delayed receivables, or short-term cash flow gaps can maintain a line of credit as insurance. You only pay interest when you actually draw funds. For businesses with invoice-based cash flow gaps, [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) provides alternative working capital solutions.
 
 **Flexible expansion funding:**
 Businesses scaling operations but uncertain of exact capital requirements benefit from lines of credit. Draw down progressively as expansion needs crystallize rather than borrowing a lump sum upfront.
@@ -250,7 +250,7 @@ Choose carefully at the outset based on your expected funding pattern over the n
 
 A manufacturing company needs $400,000 to purchase new equipment and expand production capacity. The equipment purchase is a one-time requirement with expected ROI allowing full repayment within 3 years.
 
-**Best choice:** Second mortgage. The company borrows exactly what it needs, receives funds at settlement to purchase equipment, and makes structured monthly repayments from improved production revenue. No need for ongoing revolving credit.
+**Best choice:** Second mortgage. The company borrows exactly what it needs, receives funds at settlement to purchase equipment, and makes structured monthly repayments from improved production revenue. No need for ongoing revolving credit. For equipment-specific financing, [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) may provide alternative structures.
 
 **Scenario 2: Property investor with active acquisition strategy**
 
