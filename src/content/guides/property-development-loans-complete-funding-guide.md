@@ -10,7 +10,9 @@ category: "Commercial Property Development Finance"
 
 # Property Development Loans: Complete Funding Guide
 
-Property development loans provide the capital needed to fund construction and development projects across Australia. From residential subdivisions and apartment buildings to commercial towers and mixed-use developments, these specialised facilities enable developers, builders, and investors to transform land into completed properties. This guide explains how development finance works, who qualifies, what lenders assess, and how to structure your next project for success.
+Property development loans provide the capital needed to fund construction and development projects across Australia. From residential subdivisions and apartment buildings to commercial towers and mixed-use developments, these specialised facilities enable developers, builders, and investors to transform land into completed properties. This guide explains how development finance works, who qualifies, what lenders assess, and how to structure your next project for success. For businesses undertaking significant builds, [construction finance](/services/commercial-property-development) offers structured funding solutions.
+
+> **📖 Related Guide**: This guide complements our [Construction Finance Australia: Complete Guide](/resources/guides/construction-finance-australia-complete-guide), which covers development finance structures, requirements, and processes in detail.
 
 ## At a Glance: Key Takeaways
 
@@ -28,11 +30,19 @@ These facilities are typically structured as progress payment loans, where funds
 
 Development finance addresses the unique capital requirements of construction projects: high upfront costs, progressive capital deployment, and the gap between expenditure timing and revenue realisation. Lenders assess these facilities differently from standard property loans, focusing on project feasibility, builder credentials, presale levels (for residential), and exit strategy credibility.
 
-## Who This Guide Is For
+## Who This Is For
 
-This guide serves property developers, builders, investors, and business owners considering or actively planning construction projects in Australia. Property developers undertaking residential subdivisions, townhouse developments, apartment projects, or commercial construction will find practical guidance on structuring finance applications. Builders constructing spec projects, display homes, or project home developments can understand lender requirements and documentation needs.
+**Property developers** undertaking residential subdivisions, townhouse developments, apartment projects, or commercial construction who need structured finance for construction phases.
 
-Investors funding value-add developments, subdivision projects, or construction of income-producing assets will learn how to present projects to lenders. Business owners developing owner-occupied premises, constructing warehouses or industrial facilities, or building retail/commercial premises can navigate the development finance process. Joint venture partners combining land ownership with development capital and expertise will understand how to structure finance applications that satisfy lender risk criteria.
+**Builders and construction companies** working on spec projects, display homes, or contract developments requiring progress payment facilities tied to building milestones.
+
+**Property investors** funding value-add developments, subdivision opportunities, or construction of income-producing assets where timing and capital deployment matter.
+
+**Business owners** developing owner-occupied premises, constructing warehouses or industrial facilities, or building retail/commercial premises for operational use.
+
+**Joint venture partners** combining land ownership with development expertise who need finance structures that accommodate multiple parties and profit-sharing arrangements.
+
+**First-time developers** with viable projects but limited track records, needing guidance on lender requirements and how to present applications effectively.
 
 ## When Development Finance Makes Sense vs Alternatives
 
@@ -65,6 +75,8 @@ Development finance is specifically designed for construction projects where cap
 - The facility is for acquisition, refinance, or holding purposes rather than construction
 - You have a clear exit strategy that doesn't involve building completion
 - The transaction is simpler with fewer moving parts than a full development
+
+For time-sensitive property transactions, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) provides alternative short-term solutions.
 
 ## How Property Development Loans Work: The Process
 
@@ -292,7 +304,7 @@ Use this checklist to ensure your development finance application is comprehensi
 ## Frequently Asked Questions
 
 ### What equity contribution is typically required for development projects?
-Most lenders require developers to contribute 20-35% of total development costs as equity. The exact percentage depends on project type, developer experience, presale levels, and market conditions. Equity can come from cash reserves, existing property equity, or joint venture partner contributions.
+Most lenders require 20-35% of total development costs as equity. The percentage varies by project type, developer experience, and presale levels. Equity sources include cash reserves, property equity, or joint venture contributions.
 
 ### How long does development finance approval take?
 Simple projects with complete documentation can receive indicative approval within 2-3 weeks. Complex projects may require 4-8 weeks for full due diligence and approval. The timeline depends on project complexity, documentation completeness, and lender processes.
@@ -314,6 +326,14 @@ Interest is typically capitalised during construction—added to the loan balanc
 
 ### What exit strategies do lenders prefer?
 Lenders assess exit strategies based on credibility and market conditions. For residential projects, presales to genuine buyers provide the clearest exit. For commercial projects, pre-commitments from quality tenants or refinance based on completed value are common. The key is demonstrating a realistic path to full repayment within the facility term.
+
+## Related Guides
+
+- **[Construction Finance Australia: Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — Detailed overview of development finance structures, requirements, and lender assessment
+- **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term financing solutions for timing gaps in property transactions
+- **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Comprehensive guide to commercial property financing options
+- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Directory of lenders specialising in commercial and development finance
+- **[Case Studies: Development Projects](/resources/case-studies)** — Real examples of development finance scenarios we've supported
 
 ## Next Steps for Your Development Project
 

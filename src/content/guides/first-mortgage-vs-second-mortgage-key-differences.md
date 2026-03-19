@@ -10,7 +10,9 @@ category: "1st & 2nd Mortgages for Business"
 
 # First Mortgage vs Second Mortgage: Key Differences
 
-In commercial property finance, understanding the distinction between first and second mortgages is fundamental to structuring optimal lending arrangements. These positions represent different priority levels in property security, with significant implications for risk, cost, flexibility, and lender requirements. This guide explains the key differences, when each structure makes sense, and how business borrowers can navigate these options effectively.
+In commercial property finance, understanding the distinction between first and second mortgages is fundamental to structuring optimal lending arrangements. These positions represent different priority levels in property security, with significant implications for risk, cost, flexibility, and lender requirements. This guide explains the key differences, when each structure makes sense, and how business borrowers can navigate these options effectively. For businesses considering [first and second mortgage structures](/services/first-second-mortgages), this comparison provides essential context for informed financing decisions.
+
+> **📖 Related Guide**: This comparison complements our [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide), which covers second mortgage applications, scenarios, and lender requirements in detail.
 
 ## At a Glance: Key Takeaways
 
@@ -20,6 +22,20 @@ In commercial property finance, understanding the distinction between first and 
 - **Loan-to-value ratios:** First mortgages often fund 60-70% of property value; second mortgages add 10-20% behind existing first mortgages.
 - **Use cases:** First mortgages suit property acquisition and refinance; second mortgages enable equity access without disturbing existing facilities.
 - **Documentation:** Second mortgages require intercreditor agreements with first mortgage lenders; first mortgages have simpler documentation.
+
+## Who This Is For
+
+**Business owners** with commercial property equity seeking additional capital without refinancing existing first mortgages with favourable terms.
+
+**Property investors** wanting to access equity for further investments while preserving low-rate first mortgage facilities on existing assets.
+
+**Companies facing timing gaps** between property transactions (purchase before sale, refinance deadlines, development funding transitions) needing short-term bridging solutions.
+
+**Businesses consolidating higher-cost debt** (credit cards, equipment finance, unsecured loans) into a single facility secured against property equity.
+
+**Developers and builders** managing staged projects where different financing structures suit different risk profiles and timing requirements.
+
+**Succession planning scenarios** where outgoing partners take vendor finance positions while the business maintains operational banking facilities.
 
 ## What Are First and Second Mortgages?
 
@@ -139,6 +155,8 @@ When a business has built substantial equity in a property but wants to avoid re
 - Early repayment penalties would be significant
 - Refinancing would trigger revaluation affecting LVR covenants
 - The borrower wants to maintain an established lender relationship
+
+For businesses exploring equity release options, [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) provide structured solutions without disturbing existing facilities.
 
 ### Timing Gaps Between Transactions
 Second mortgages can bridge timing mismatches between property-related events. Examples include:
@@ -432,6 +450,14 @@ Choosing between first and second mortgage structures depends on your specific c
 - Multiple properties or entities are involved
 - Tax implications are significant
 - You're navigating business transitions or succession
+
+## Related Guides
+
+- **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Comprehensive guide to second mortgage structures, applications, and scenarios
+- **[First & Second Mortgages for Business](/services/first-second-mortgages)** — Overview of mortgage structures for commercial property financing
+- **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Detailed overview of commercial lending options and requirements
+- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Directory of lenders specialising in commercial property finance
+- **[Case Studies: Business Finance](/resources/case-studies)** — Real examples of commercial lending scenarios we've supported
 
 ## Next Steps
 
