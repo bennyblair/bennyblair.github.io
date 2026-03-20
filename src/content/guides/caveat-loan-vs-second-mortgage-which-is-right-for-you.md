@@ -3,7 +3,7 @@ title: "Caveat Loan vs Second Mortgage: Which is Right for You?"
 description: "Compare caveat loans and second mortgages for Australian business borrowers. Understand speed, cost, security, and suitability differences to choose the right property-backed finance solution."
 date: 2026-03-20
 author: Emet Capital
-pillar: Caveat Loans in Australia: The Complete Guide
+pillar: "Caveat Loans in Australia: The Complete Guide"
 ---
 
 # Caveat Loan vs Second Mortgage: Which is Right for You?
