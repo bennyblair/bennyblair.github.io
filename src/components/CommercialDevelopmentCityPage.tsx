@@ -86,9 +86,9 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         />
 
         <section className="max-w-5xl mx-auto text-center pt-4 pb-12">
-          <Badge className="mb-4 bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">{city} Development Market</Badge>
+          <Badge className="mb-4 bg-muted/40 text-foreground border">{city} Development Market</Badge>
           <div className="flex items-center justify-center gap-3 mb-4">
-            <Building2 className="h-8 w-8 text-emerald-300" />
+            <Building2 className="h-8 w-8 text-foreground/70" />
             <h1 className="text-4xl lg:text-5xl font-bold text-white">Commercial Development Finance {city}</h1>
           </div>
           <p className="text-xl text-slate-300 max-w-4xl mx-auto mb-6">{localIntro}</p>
@@ -96,14 +96,14 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
               <div key={label} className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-                <Icon className="h-5 w-5 text-emerald-300 mb-3" />
+                <Icon className="h-5 w-5 text-foreground/70 mb-3" />
                 <div className="text-2xl font-bold text-white mb-1">{value}</div>
                 <div className="text-sm text-slate-400">{label}</div>
               </div>
             ))}
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" asChild className="bg-emerald-600 hover:bg-emerald-700 text-white">
+            <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Get Development Quote</Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="border-slate-700 text-slate-300 hover:bg-slate-800">
@@ -152,13 +152,13 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
                 <h3 className="text-2xl font-bold text-white mb-4">{scenario.title}</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="text-lg font-semibold text-emerald-300 mb-2">Scenario</h4>
+                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Scenario</h4>
                     <p className="text-slate-400 mb-4">{scenario.scenario}</p>
-                    <h4 className="text-lg font-semibold text-emerald-300 mb-2">Solution</h4>
+                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Solution</h4>
                     <p className="text-slate-400">{scenario.solution}</p>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-emerald-300 mb-2">Outcomes</h4>
+                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Outcomes</h4>
                     <div className="grid grid-cols-2 gap-4">
                       {scenario.outcomes.map((outcome, idx) => (
                         <div key={idx} className="bg-slate-800 rounded-lg p-4">
@@ -180,7 +180,7 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
             <ol className="space-y-4">
               {processSteps.map((step, index) => (
                 <li key={index} className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-emerald-900 text-emerald-300 rounded-full flex items-center justify-center mr-4 mt-1">
+                  <div className="flex-shrink-0 w-8 h-8 bg-emerald-900 text-foreground/70 rounded-full flex items-center justify-center mr-4 mt-1">
                     {index + 1}
                   </div>
                   <p className="text-slate-300 pt-1">{step}</p>
@@ -194,10 +194,10 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
           <h2 className="text-3xl font-bold text-white mb-6">Related Reading</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {relatedLinks.map((link, index) => (
-              <div key={index} className="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-emerald-500/50 transition-colors">
+              <div key={index} className="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-primary/50 transition-colors">
                 <h3 className="text-lg font-semibold text-white mb-2">{link.title}</h3>
                 <p className="text-slate-400 text-sm mb-4">{link.description}</p>
-                <Link to={link.href} className="inline-flex items-center text-emerald-400 hover:text-emerald-300">
+                <Link to={link.href} className="inline-flex items-center text-foreground/70 hover:text-foreground/70">
                   Read more <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </div>
@@ -222,7 +222,7 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         <section className="max-w-5xl mx-auto mb-16">
           <div className="bg-slate-900/30 border border-slate-800 rounded-xl p-8">
             <div className="flex items-start gap-4">
-              <Shield className="h-6 w-6 text-emerald-400 mt-1 flex-shrink-0" />
+              <Shield className="h-6 w-6 text-foreground/70 mt-1 flex-shrink-0" />
               <div>
                 <h3 className="text-lg font-semibold text-white mb-2">Important Disclaimer</h3>
                 <p className="text-slate-400">{disclaimer}</p>
@@ -232,14 +232,14 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto text-center">
-          <Button size="lg" asChild className="bg-emerald-600 hover:bg-emerald-700 text-white">
+          <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
             <Link to="/contact">
               <FileText className="mr-2 h-5 w-5" />
               Discuss Your {city} Development Project
             </Link>
           </Button>
           <p className="text-slate-400 mt-4">
-            Return to <Link to="/services/commercial-property-development" className="text-emerald-400 hover:text-emerald-300">Property Development service page</Link>
+            Return to <Link to="/services/commercial-property-development" className="text-foreground/70 hover:text-foreground/70">Property Development service page</Link>
           </p>
         </section>
       </div>
