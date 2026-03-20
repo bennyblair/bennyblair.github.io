@@ -1,27 +1,9 @@
-## Related Guides
-
-- [Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide) - Finance options for commercial property acquisition
-- [Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide) - Short-term property financing solutions
-- [How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide) - Step-by-step purchase process
-- [Private Lending in Australia](/resources/guides/what-is-private-lending-australia) - Non-bank lending alternatives
-- [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance) - Development and construction finance
-
-
 ---
 title: "Commercial Property Settlement Process: Finance Timeline"
 description: "Complete timeline guide to commercial property settlement in Australia. Understand key milestones, finance coordination, documentation requirements, and common timing challenges for business property transactions."
 date: 2026-03-20
 author: Emet Capital
 pillar: Commercial Property Loans in Australia
-## Related Guides
-
-- [Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide) - Finance options for commercial property acquisition
-- [Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide) - Short-term property financing solutions
-- [How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide) - Step-by-step purchase process
-- [Private Lending in Australia](/resources/guides/what-is-private-lending-australia) - Non-bank lending alternatives
-- [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance) - Development and construction finance
-
-
 ---
 
 # Commercial Property Settlement Process: Finance Timeline
