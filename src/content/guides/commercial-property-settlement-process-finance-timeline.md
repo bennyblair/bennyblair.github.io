@@ -14,6 +14,16 @@ This guide outlines the commercial property settlement timeline from contract ex
 
 ### Related In-Depth Guides
 
+- **[Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Finance options for commercial property acquisition and development
+- **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Step-by-step purchase process including finance coordination
+- **[Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term finance for time-sensitive settlements
+- **[Property Development Loans: Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)** — Funding guide for construction and development projects
+- **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Non-bank lending options for property buyers
+- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Refinancing options after settlement
+
+
+### Related In-Depth Guides
+
 - **[Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Finance options for commercial property acquisition
 - **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Step-by-step purchase guide including finance coordination
 - **[Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term finance for time-sensitive settlements
