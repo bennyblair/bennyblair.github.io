@@ -12,6 +12,15 @@ Commercial property settlement involves coordinated execution between purchasers
 
 This guide outlines the commercial property settlement timeline from contract exchange through to post-settlement completion, highlighting finance coordination milestones, documentation requirements, common challenges, and strategies for managing timing pressures in Australian business property transactions.
 
+### Related In-Depth Guides
+
+- **[Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Finance options for commercial property acquisition
+- **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Step-by-step purchase guide including finance coordination
+- **[Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term finance for time-sensitive settlements
+- **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** — Development finance for construction projects
+- **[Property Development Loans: Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)** — Funding guide for development projects
+- **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Non-bank lending options for property buyers
+
 > **📖 Related Guide**: This timeline complements our [Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist) and [How to Buy Commercial Property: Step-by-Step Guide](/resources/guides/how-to-buy-commercial-property-step-by-step-guide), which cover broader purchase and finance processes.
 
 ## At a Glance
