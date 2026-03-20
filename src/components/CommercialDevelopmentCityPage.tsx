@@ -180,7 +180,7 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
             <ol className="space-y-4">
               {processSteps.map((step, index) => (
                 <li key={index} className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-emerald-900 text-foreground/70 rounded-full flex items-center justify-center mr-4 mt-1">
+                  <div className="flex-shrink-0 w-8 h-8 bg-muted text-foreground/70 rounded-full flex items-center justify-center mr-4 mt-1">
                     {index + 1}
                   </div>
                   <p className="text-slate-300 pt-1">{step}</p>
