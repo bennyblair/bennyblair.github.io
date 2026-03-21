@@ -8,64 +8,59 @@ export default function BridgingFinancePerth() {
       state="WA"
       canonical="/services/bridging-finance/cities/perth"
       title="Bridging Finance Perth | WA Commercial Finance | Emet Capital"
-      description="Bridging finance in Perth for commercial property acquisitions, refinance deadlines, development timing gaps, and time-sensitive business transactions across WA's key industrial and metro markets." 
-      localIntro="Bridging finance for Perth transactions where purchase, refinance, or project timelines require short-term funding before permanent finance or exit events complete."
-      localFocus="In Perth this includes industrial and logistics assets across Kewdale, Welshpool, and Malaga corridors, mixed-use acquisitions in inner-metro precincts, refinance pressure on investment and commercial property, development site timing gaps, and resource sector-linked business scenarios where exits are visible but settlement timing doesn't align with standard bank processes."
-      marketOverview="Perth's property market moves differently from the east coast. Resource sector cycles, interstate migration patterns, and WA-specific lending appetite create timing gaps that bridging finance can fill. Transactions often involve industrial assets serving mining and logistics sectors, commercial property tied to resource-linked businesses, and development projects where funding milestones don't align neatly with project stages."
-      timingPressures="Timing pressure in Perth commonly comes from refinance deadlines on investment property, acquisition opportunities requiring fast settlement, sale-and-purchase timing mismatches, and development funding transitions. The WA market can move quickly when conditions align, and bridging facilities help borrowers execute transactions without forcing rushed permanent structures or losing deals to timing constraints."
+      description="Bridging finance in Perth for industrial acquisitions, refinance deadlines, development timing gaps, and resource-linked business transactions where WA deal flow can move faster than standard lender turnaround."
+      localIntro="Bridging finance for Perth borrowers dealing with industrial settlements, refinance maturities, and project-stage funding gaps across a market shaped by logistics demand, resource-sector activity, and WA-specific lender appetite."
+      localFocus="Perth bridging files often centre on warehouses and hardstand in Kewdale, Welshpool, Malaga, and Wangara, mixed-use or office assets in inner-metro precincts, owner-occupied property linked to trade and resource-service businesses, and development timing gaps where a takeout refinance, sale, or construction drawdown is credible but not ready in time."
+      marketOverview="Perth behaves differently from the east coast. Resource cycles, interstate migration, constrained quality industrial stock, and a smaller lender universe can all affect how quickly transactions move. Borrowers may need to act while a mine-services contract is being renewed, a valuer is still assessing an industrial yard, or a mainstream lender is working through WA-specific credit conditions. Bridging finance is often used to keep those transactions from stalling."
+      timingPressures="Perth timing pressure commonly comes from short settlement windows on industrial or mixed-use assets, refinance deadlines where the next lender is not yet ready, and development or business transactions linked to contract milestones. The key issue is usually whether the borrower can bridge a short execution gap without compromising the long-term outcome."
       suburbCoverage={[
         {
-          title: 'Kewdale, Welshpool, and southern industrial corridor',
-          text: "Perth's established industrial precincts produce regular bridging scenarios involving warehouses, logistics facilities, trade distribution centers, and commercial property serving resource-sector businesses. These are often refinance or acquisition bridges where settlement timing matters more than long-term rate optimization."
+          title: 'Kewdale, Welshpool, and southern freight corridor',
+          text: 'These established logistics precincts regularly generate bridging scenarios involving warehouses, transport depots, hardstand sites, and trade facilities where settlement speed matters more than optimising long-term pricing.'
         },
         {
           title: 'Malaga, Wangara, and northern industrial growth',
-          text: 'Northern industrial corridors generate timing-driven deals around manufacturing sites, commercial workshops, warehousing expansion, and mixed-use development opportunities. Bridging finance may support acquisition timing or development funding transitions in these growth precincts.'
+          text: 'Northern industrial corridors can produce acquisition, refinance, and expansion bridges tied to workshops, manufacturing premises, warehousing, and trade-service businesses needing fast execution.'
         },
         {
-          title: 'CBD, Northbridge, and inner-metro mixed-use',
-          text: 'Perth CBD and inner-metro areas including Northbridge, Mount Lawley, and Leederville can produce commercial settlement bridges, mixed-use acquisition timing gaps, and refinance events tied to office suites, hospitality property, and owner-occupied business premises.'
-        },
-        {
-          title: 'Fremantle, South Perth, and premium precincts',
-          text: 'Established suburbs with higher-value commercial and investment property may require bridging finance where equity is strong but transactions need short-term funding to align sale and purchase timing, or to bridge refinance deadlines while permanent structures are finalized.'
+          title: 'CBD, Northbridge, Osborne Park, and inner metro',
+          text: 'Inner Perth precincts often involve office suites, mixed-use assets, showrooms, and owner-occupied commercial property where another refinance, sale, or corporate event needs to line up first.'
         }
       ]}
       localUseCases={[
         {
-          title: 'Industrial acquisition and settlement timing',
-          text: 'Perth industrial buyers often compete for well-located logistics and warehouse assets. Short settlement windows or auction conditions may require bridging finance to secure the deal before long-term funding completes documentation and valuation processes.'
+          title: 'Industrial acquisition and auction settlement timing',
+          text: 'Perth industrial buyers may need a bridge when a warehouse or yard must settle before a takeout lender has completed valuation, legal review, or final credit approval.'
         },
         {
           title: 'Refinance deadlines on commercial and investment assets',
-          text: 'Where existing lenders are expiring, repricing, or no longer suitable, short-term bridging may buy time to complete valuation, legal work, and credit approval for a more stable refinance outcome without forcing rushed decisions.'
+          text: 'Short-term bridging may buy time where an existing lender is expiring, repricing, or withdrawing before the next refinance is ready to settle.'
         },
         {
-          title: 'Development site acquisition and funding transitions',
-          text: "Developers purchasing sites or managing transitions between acquisition finance, construction facilities, and takeout refinancing may use bridging to cover timing gaps. This is common in Perth where project funding milestones don't always align neatly with development stages."
+          title: 'Development site and construction-transition funding',
+          text: 'Developers may use bridging finance to secure a site, cover a short holding period, or move between acquisition debt and construction drawdown when milestones do not align perfectly.'
         },
         {
-          title: 'Resource sector business transactions',
-          text: 'Perth businesses tied to mining, oil and gas, or related services sometimes need property-backed bridging finance for acquisitions, partner buyouts, or urgent capital requirements while longer-term funding solutions or asset sales complete.'
+          title: 'Resource-services and trade-business transactions',
+          text: 'Some Perth borrowers use property-backed bridging finance for partner buyouts, business acquisitions, or contract-linked liquidity events where commercial purpose and a clear exit can be demonstrated.'
         }
       ]}
       scenarios={[
         {
           title: 'Kewdale Warehouse Acquisition Bridge',
-          scenario: 'A logistics operator identified a $1.85 million warehouse in Kewdale with strong tenant demand and immediate operational value. The buyer had another property sale in Joondalup scheduled to settle in seven weeks, but the warehouse vendor required settlement within 30 days to avoid the property going back to market.',
-          solution: 'A short-term first-ranking bridge of $1.15 million allowed the warehouse purchase to settle on time while the Joondalup sale progressed. The structure preserved deal control without forcing the borrower into rushed disposal or unnecessary long-term refinance before the intended exit completed.',
+          scenario: 'A logistics operator identified a $1.85 million warehouse in Kewdale, but the sale of another property in Joondalup was still seven weeks from settlement and the vendor required completion within 30 days.',
+          solution: 'A short-term first-ranking bridge of $1.15 million allowed the warehouse purchase to settle on time while the Joondalup sale progressed, preserving the deal without forcing a rushed disposal or permanent refinance.',
           outcomes: [
             { label: 'Purchase price', value: '$1.85M warehouse asset' },
             { label: 'Bridge facility', value: '$1.15M' },
             { label: 'Indicative leverage', value: '62% LVR' },
-            { label: 'Support sale proceeds', value: '$950K expected from Joondalup property' },
             { label: 'Planned term', value: '2 to 3 months to sale settlement' }
           ]
         },
         {
           title: 'Malaga Commercial Refinance Deadline',
-          scenario: 'A manufacturing business had a $2.65 million commercial property in Malaga with an existing senior facility maturing before the incoming refinance could complete. Valuation and tenant review for the replacement lender were still in progress, but the current lender required discharge on a fixed date to avoid penalty rates and potential enforcement.',
-          solution: 'A short-term first-ranking bridge of $1.62 million gave the borrower time to complete valuation, legal documentation, and refinance credit approval without risking a distressed rollover or forced asset sale. The exit remained a refinance into a longer-term commercial facility once lender conditions were satisfied.',
+          scenario: 'A manufacturing business had a $2.65 million commercial property in Malaga, but its senior facility matured before the incoming refinance could complete valuation, tenant review, and legal documentation.',
+          solution: 'A short-term first-ranking bridge of $1.62 million gave the borrower time to complete the refinance properly and avoid default pricing or a distressed asset response from the outgoing lender.',
           outcomes: [
             { label: 'Security value', value: '$2.65M commercial property' },
             { label: 'Bridge facility', value: '$1.62M' },
@@ -74,14 +69,14 @@ export default function BridgingFinancePerth() {
           ]
         },
         {
-          title: 'South Perth Mixed-Use Development Timing',
-          scenario: 'A developer secured a $3.1 million mixed-use site in South Perth with approval for residential and commercial use. Construction finance was approved but required the existing debt to be discharged before drawdown could commence. The gap between site acquisition settlement and construction facility availability created a 6-week funding window.',
-          solution: 'A short-term development bridge of $1.95 million covered the existing debt discharge and holding costs while construction finance documentation finalized and first drawdown conditions were met. This kept the project on schedule without forcing the developer to delay site settlement or risk losing the approved construction facility.',
+          title: 'Osborne Park Trade Business Buyout',
+          scenario: 'An engineering-services business in Osborne Park needed to complete a shareholder buyout tied to a key contract renewal, but its long-term refinance against commercial property security could not settle for another six weeks.',
+          solution: 'A $1.48 million bridge supported the short-term buyout funding need, with repayment expected from the incoming refinance once valuation and legal work were complete.',
           outcomes: [
-            { label: 'Site value', value: '$3.1M with development approval' },
-            { label: 'Bridge facility', value: '$1.95M' },
-            { label: 'Support funding', value: 'Construction finance approved' },
-            { label: 'Planned term', value: '6 to 8 weeks to construction drawdown' }
+            { label: 'Security', value: 'Commercial premises in Osborne Park' },
+            { label: 'Bridge facility', value: '$1.48M' },
+            { label: 'Commercial purpose', value: 'Shareholder exit and restructuring' },
+            { label: 'Expected exit', value: 'Refinance within 6 weeks' }
           ]
         }
       ]}
@@ -100,41 +95,28 @@ export default function BridgingFinancePerth() {
           title: 'Commercial Bridging Finance for Auction Purchases',
           href: '/resources/guides/commercial-bridging-finance-auction-purchases',
           description: 'Useful if your Perth transaction is tied to auction timing or short contractual deadlines.'
-        },
-        {
-          title: 'Bridging Finance for Developers',
-          href: '/resources/guides/bridging-finance-developers-project-funding-solutions',
-          description: 'Project funding strategies for Perth developers managing acquisition and construction timing gaps.'
         }
       ]}
       faqs={[
         {
           question: 'When might bridging finance make sense in Perth?',
-          answer: "It may make sense when a Perth borrower has a clear transaction and exit strategy, but timing doesn't align with standard bank processes. Common examples include industrial acquisitions, refinance deadlines, development funding transitions, and sale-and-purchase timing gaps."
+          answer: 'Usually when a Perth borrower has a clear transaction and a credible exit, but timing does not line up with standard lender turnaround. Common examples include industrial acquisitions, refinance deadlines, development transitions, and sale-before-purchase gaps.'
         },
         {
-          question: 'Can bridging finance work for industrial property in Perth?',
-          answer: 'Yes. Perth bridging deals frequently involve warehouses, logistics facilities, manufacturing sites, and commercial property in key industrial corridors like Kewdale, Welshpool, Malaga, and Wangara where timing and execution matter.'
+          question: 'Can bridging finance work well for Perth industrial assets?',
+          answer: 'Potentially, yes. Warehouses, workshops, trade facilities, and logistics property in precincts like Kewdale, Welshpool, Malaga, and Wangara are common bridge scenarios if leverage and exit are acceptable.'
         },
         {
-          question: 'What do Perth lenders focus on most?',
-          answer: "They usually focus on security quality, combined leverage across all debt positions, legal readiness, and the credibility of the exit strategy. Industrial and resource-sector property requires careful valuation and market assessment given Perth's cyclical market dynamics."
+          question: 'Why is Perth lending sometimes harder to line up quickly?',
+          answer: 'WA deals can be affected by a smaller lender pool, cyclical industrial demand, and resource-linked business exposure. Even good assets can take time to work through valuation and credit, which is where a bridge may help.'
         },
         {
-          question: 'Can I use bridging finance while waiting for a sale in Perth to settle?',
-          answer: "Potentially, yes, if the sale is sufficiently advanced and the wider structure remains sensible. Lenders will want to understand the expected settlement timing, debt position, and fallback options if the sale drifts or doesn't complete as planned."
+          question: 'Can bridging finance be used while waiting for a Perth sale to settle?',
+          answer: 'Potentially, yes, if the sale is sufficiently advanced and the wider debt structure is sensible. Lenders will want to understand fallback options if the sale timing slips.'
         },
         {
-          question: 'Is bridging finance only for property investors in Perth?',
-          answer: 'No. Perth bridging finance may also be used by business owners, developers, manufacturing operators, and companies with genuine commercial purposes and defined short-term funding needs tied to property transactions.'
-        },
-        {
-          question: 'How long does bridging finance approval take in Perth?',
-          answer: 'Private lenders can assess and approve bridging finance within 24-72 hours for straightforward scenarios with quality security and clear exit strategies. Settlement timing depends on legal readiness, valuation completion, and documentation complexity.'
-        },
-        {
-          question: 'What are typical costs for Perth bridging finance?',
-          answer: 'Costs include interest rates typically ranging from 10-16% p.a., establishment fees of 1-3% of the facility amount, valuation costs, and legal fees. The total cost depends on facility size, term length, security complexity, and urgency of settlement required.'
+          question: 'Is bridging finance only for investors in Perth?',
+          answer: 'No. Perth bridge transactions may also involve owner-occupiers, developers, trade businesses, manufacturing operators, and resource-services companies with a genuine commercial purpose.'
         }
       ]}
     />
