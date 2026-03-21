@@ -82,6 +82,9 @@ const AssetBackedLendingGoldCoast = lazy(() => import("./pages/services/cities/A
 const RefinancingSolutionsSydney = lazy(() => import("./pages/services/cities/RefinancingSolutionsSydney"));
 const RefinancingSolutionsMelbourne = lazy(() => import("./pages/services/cities/RefinancingSolutionsMelbourne"));
 const RefinancingSolutionsBrisbane = lazy(() => import("./pages/services/cities/RefinancingSolutionsBrisbane"));
+const RefinancingSolutionsGoldCoast = lazy(() => import("./pages/services/cities/RefinancingSolutionsGoldCoast"));
+const RefinancingSolutionsAdelaide = lazy(() => import("./pages/services/cities/RefinancingSolutionsAdelaide"));
+const RefinancingSolutionsPerth = lazy(() => import("./pages/services/cities/RefinancingSolutionsPerth"));
 
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
 const CommercialRealEstateCalculator = lazy(() => import("./pages/tools/CommercialRealEstateCalculator"));
@@ -194,6 +197,12 @@ const App = () => (
                 <Route path="/services/refinancing-solutions/sydney" element={<RefinancingSolutionsSydney />} />
                 <Route path="/services/refinancing-solutions/melbourne" element={<RefinancingSolutionsMelbourne />} />
                 <Route path="/services/refinancing-solutions/brisbane" element={<RefinancingSolutionsBrisbane />} />
+                <Route path="/services/refinancing-solutions/cities/sydney" element={<RefinancingSolutionsSydney />} />
+                <Route path="/services/refinancing-solutions/cities/melbourne" element={<RefinancingSolutionsMelbourne />} />
+                <Route path="/services/refinancing-solutions/cities/brisbane" element={<RefinancingSolutionsBrisbane />} />
+                <Route path="/services/refinancing-solutions/cities/perth" element={<RefinancingSolutionsPerth />} />
+                <Route path="/services/refinancing-solutions/cities/adelaide" element={<RefinancingSolutionsAdelaide />} />
+                <Route path="/services/refinancing-solutions/cities/gold-coast" element={<RefinancingSolutionsGoldCoast />} />
 
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
                 <Route path="/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />

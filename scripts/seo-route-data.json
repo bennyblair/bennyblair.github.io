@@ -314,6 +314,13 @@
     "h1": "Commercial Property Finance Rates: 2025 Comparison",
     "noscript": "Read our guide to commercial property finance rates comparison, including commercial use cases, lender considerations, and Australian funding context."
   },
+  "/resources/guides/commercial-property-finance-sydney-local-expert-hub": {
+    "title": "Commercial Property Finance Sydney: Local Expert Hub | Emet Capital",
+    "description": "A practical Sydney commercial property finance guide covering lender expectations, local market timing, and common borrower scenarios across commercial assets.",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-finance-sydney-local-expert-hub",
+    "h1": "Commercial Property Finance Sydney: Local Expert Hub",
+    "noscript": "A practical Sydney commercial property finance guide covering lender expectations, local market timing, and common borrower scenarios across commercial assets."
+  },
   "/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify": {
     "title": "Commercial Property Loan Eligibility: What You Need to Qualify | Emet Capital",
     "description": "Read our guide to commercial property loan eligibility what you need to qualify, including commercial use cases, lender considerations, and Australian funding context.",
@@ -589,10 +596,10 @@
   },
   "/resources/guides/subordination-agreement-second-mortgage": {
     "title": "Subordination Agreements in Second Mortgages: What They Mean | Emet Capital",
-    "description": "Read our guide to subordination agreement second mortgage, including commercial use cases, lender considerations, and Australian funding context.",
+    "description": "Understand subordination agreements in second mortgages, how priority works, and what commercial borrowers should prepare before seeking layered finance.",
     "canonical": "https://emetcapital.com.au/resources/guides/subordination-agreement-second-mortgage",
     "h1": "Subordination Agreements in Second Mortgages: What They Mean",
-    "noscript": "Read our guide to subordination agreement second mortgage, including commercial use cases, lender considerations, and Australian funding context."
+    "noscript": "Understand subordination agreements in second mortgages, how priority works, and what commercial borrowers should prepare before seeking layered finance."
   },
   "/resources/guides/swing-loan-vs-bridging-finance-australia": {
     "title": "Resources Guides Swing Loan Vs Bridging Finance Australia | Emet Capital",
@@ -888,6 +895,48 @@
     "h1": "refinancing solutions",
     "noscript": "Explore refinancing solutions australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios."
   },
+  "/services/refinancing-solutions/cities/adelaide": {
+    "title": "Commercial Refinancing Adelaide | Emet Capital",
+    "description": "Commercial refinancing for Adelaide borrowers seeking better structure, equity release, or cleaner long-term debt across South Australian assets.",
+    "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/adelaide",
+    "h1": "Commercial Refinancing Adelaide",
+    "noscript": "Commercial refinancing for Adelaide borrowers seeking better structure, equity release, or cleaner long-term debt across South Australian assets."
+  },
+  "/services/refinancing-solutions/cities/brisbane": {
+    "title": "Commercial Refinancing Brisbane | Emet Capital",
+    "description": "Commercial refinancing for Brisbane borrowers looking to restructure debt, release equity, or move into a more stable commercial lending solution.",
+    "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/brisbane",
+    "h1": "Commercial Refinancing Brisbane",
+    "noscript": "Commercial refinancing for Brisbane borrowers looking to restructure debt, release equity, or move into a more stable commercial lending solution."
+  },
+  "/services/refinancing-solutions/cities/gold-coast": {
+    "title": "Commercial Refinancing Gold Coast | Emet Capital",
+    "description": "Commercial refinancing for Gold Coast borrowers needing a better lending structure across commercial, mixed-use, industrial, and business-purpose property holdings.",
+    "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/gold-coast",
+    "h1": "Commercial Refinancing Gold Coast",
+    "noscript": "Commercial refinancing for Gold Coast borrowers needing a better lending structure across commercial, mixed-use, industrial, and business-purpose property holdings."
+  },
+  "/services/refinancing-solutions/cities/melbourne": {
+    "title": "Commercial Refinancing Melbourne | Emet Capital",
+    "description": "Commercial refinancing for Melbourne borrowers seeking improved structure, equity release, or debt consolidation across commercial assets.",
+    "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/melbourne",
+    "h1": "Commercial Refinancing Melbourne",
+    "noscript": "Commercial refinancing for Melbourne borrowers seeking improved structure, equity release, or debt consolidation across commercial assets."
+  },
+  "/services/refinancing-solutions/cities/perth": {
+    "title": "Commercial Refinancing Perth | Emet Capital",
+    "description": "Commercial refinancing for Perth borrowers needing a practical reset on business or property debt across commercial assets in Western Australia.",
+    "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/perth",
+    "h1": "Commercial Refinancing Perth",
+    "noscript": "Commercial refinancing for Perth borrowers needing a practical reset on business or property debt across commercial assets in Western Australia."
+  },
+  "/services/refinancing-solutions/cities/sydney": {
+    "title": "Commercial Refinancing Sydney | Emet Capital",
+    "description": "Commercial refinancing for Sydney business owners, investors, and developers seeking cleaner terms, equity release, or lender changes.",
+    "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/sydney",
+    "h1": "Commercial Refinancing Sydney",
+    "noscript": "Commercial refinancing for Sydney business owners, investors, and developers seeking cleaner terms, equity release, or lender changes."
+  },
   "/services/smsf-lending": {
     "title": "smsf lending | Emet Capital",
     "description": "Explore smsf lending australia solutions in Australia for business borrowers, investors, and property-backed commercial funding scenarios.",
@@ -931,10 +980,10 @@
     "noscript": "Use this bridging loan calculator tool to estimate scenarios and review commercial finance considerations in Australia."
   },
   "/tools/commercial-property-loan-calculator": {
-    "title": "Commercial Property Loan Calculator — Commercial Real Estate Financing in Australia | Emet Capital",
+    "title": "Commercial Property Loan Calculator \u2014 Commercial Real Estate Financing in Australia | Emet Capital",
     "description": "Use this commercial property loan calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
     "canonical": "https://emetcapital.com.au/tools/commercial-property-loan-calculator",
-    "h1": "Commercial Property Loan Calculator — Commercial Real Estate Financing in Australia",
+    "h1": "Commercial Property Loan Calculator \u2014 Commercial Real Estate Financing in Australia",
     "noscript": "Use this commercial property loan calculator tool to estimate scenarios and review commercial finance considerations in Australia."
   },
   "/tools/commercial-real-estate-calculator": {
@@ -952,17 +1001,17 @@
     "noscript": "Use this loan comparison tool tool to estimate scenarios and review commercial finance considerations in Australia."
   },
   "/tools/second-mortgage-calculator": {
-    "title": "Second Mortgage Calculator — Business Second Mortgage Rates in Australia | Emet Capital",
+    "title": "Second Mortgage Calculator \u2014 Business Second Mortgage Rates in Australia | Emet Capital",
     "description": "Use this second mortgage calculator tool to estimate scenarios and review commercial finance considerations in Australia.",
     "canonical": "https://emetcapital.com.au/tools/second-mortgage-calculator",
-    "h1": "Second Mortgage Calculator — Business Second Mortgage Rates in Australia",
+    "h1": "Second Mortgage Calculator \u2014 Business Second Mortgage Rates in Australia",
     "noscript": "Use this second mortgage calculator tool to estimate scenarios and review commercial finance considerations in Australia."
   },
   "/tools/smsf-commercial-property-loan-interest-rates": {
-    "title": "Smsf Commercial Property Loan Interest Rates — Commercial Property Lending in Australia | Emet Capital",
+    "title": "Smsf Commercial Property Loan Interest Rates \u2014 Commercial Property Lending in Australia | Emet Capital",
     "description": "Use this smsf commercial property loan interest rates tool to estimate scenarios and review commercial finance considerations in Australia.",
     "canonical": "https://emetcapital.com.au/tools/smsf-commercial-property-loan-interest-rates",
-    "h1": "Smsf Commercial Property Loan Interest Rates — Commercial Property Lending in Australia",
+    "h1": "Smsf Commercial Property Loan Interest Rates \u2014 Commercial Property Lending in Australia",
     "noscript": "Use this smsf commercial property loan interest rates tool to estimate scenarios and review commercial finance considerations in Australia."
   },
   "/tools/working-capital-calculator": {

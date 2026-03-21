@@ -1,345 +1,223 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle, Building2, Shield, MapPin, Briefcase, TrendingUp, DollarSign, RefreshCw } from 'lucide-react';
-import SEO from '@/components/SEO';
-import { generateServiceSchema } from '@/lib/schema-utils';
+import React from "react";
+import RefinancingSolutionsCityTemplate from "./RefinancingSolutionsCityTemplate";
 
-const RefinancingSolutionsMelbourne: React.FC = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <SEO 
-        title="Commercial Refinancing Melbourne | Business Loan Refinance VIC | Emet Capital"
-        description="Refinance commercial property and business loans in Melbourne. Access better rates, improved terms, and unlock equity. $250K to $100M+ facilities across Victoria."
-        canonical="/services/refinancing-solutions/melbourne"
-        keywords="commercial refinancing Melbourne, business loan refinance VIC, property refinancing Melbourne, debt refinancing Melbourne, loan restructure Victoria"
-        schemas={[generateServiceSchema(
-          "Commercial Refinancing Melbourne",
-          "Refinance commercial property and business loans in Melbourne. Access better rates, improved terms, and unlock equity. $250K to $100M+ facilities across Victoria.",
-          "https://emetcapital.com.au/services/refinancing-solutions/melbourne"
-        )]}
-      />
-      
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <Link to="/services/refinancing-solutions" className="inline-flex items-center text-blue-200 hover:text-white mb-6 transition-colors">
-            <ArrowLeft className="mr-2" size={20} />
-            Back to Refinancing Solutions
-          </Link>
-          <div className="max-w-4xl">
-            <div className="flex items-center mb-4">
-              <MapPin className="mr-3" size={32} />
-              <h1 className="text-4xl md:text-5xl font-bold">Commercial Refinancing Melbourne</h1>
-            </div>
-            <p className="text-xl text-blue-100 mb-8">
-              Optimise your Melbourne commercial finance with better rates, improved terms, and access to equity. Refinance property loans, business debt, and equipment finance from $250K to $100M+.
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">$250K-$100M+</div>
-                <div className="text-blue-200 text-sm">Facility Range</div>
-              </div>
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">Up to 80%</div>
-                <div className="text-blue-200 text-sm">LVR Available</div>
-              </div>
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">1-30 Years</div>
-                <div className="text-blue-200 text-sm">Flexible Terms</div>
-              </div>
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">3-6 Weeks</div>
-                <div className="text-blue-200 text-sm">Typical Settlement</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Melbourne Market Overview */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Melbourne Commercial Refinancing Market</h2>
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div>
-                <h3 className="text-xl font-semibold mb-4 text-blue-900">Market Opportunities</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Strong Fundamentals:</strong> Melbourne's diverse economy supports stable property values</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Industrial Growth:</strong> Booming logistics sector creating refinancing demand</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Competitive Rates:</strong> Strong lender competition in Victoria's commercial market</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Equity Access:</strong> Property appreciation enables cash-out refinancing</span>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-4 text-blue-900">Key Business Precincts</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Melbourne CBD:</strong> Premium office and retail property refinancing</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>South Melbourne:</strong> Commercial and creative industry debt restructure</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Western Suburbs:</strong> Industrial and logistics property refinancing</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>South East:</strong> Manufacturing and distribution facility refinance</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Refinancing Types */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Refinancing Solutions in Melbourne</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Rate & Term Refinance */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-center mb-4">
-                  <TrendingUp className="text-blue-600 mr-3" size={32} />
-                  <h3 className="text-xl font-semibold">Rate & Term Refinance</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                  Replace existing loans with better rates and improved terms without changing loan amounts.
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Lower interest rates
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Extended loan terms
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Reduced monthly payments
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Remove restrictive covenants
-                  </li>
-                </ul>
-              </div>
-
-              {/* Cash-Out Refinance */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-center mb-4">
-                  <DollarSign className="text-blue-600 mr-3" size={32} />
-                  <h3 className="text-xl font-semibold">Cash-Out Refinance</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                  Access equity in your Melbourne property for business expansion, acquisitions, or working capital.
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Unlock property equity
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Fund business growth
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Acquire additional assets
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Up to 80% LVR available
-                  </li>
-                </ul>
-              </div>
-
-              {/* Debt Consolidation */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-center mb-4">
-                  <RefreshCw className="text-blue-600 mr-3" size={32} />
-                  <h3 className="text-xl font-semibold">Debt Consolidation</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                  Combine multiple business debts into a single facility with streamlined management.
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Single monthly payment
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Simplified administration
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Potentially lower costs
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Improved cash flow
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Use Cases */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Common Refinancing Scenarios in Melbourne</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Manufacturing Finance Upgrade</h3>
-                <p className="text-gray-600">Refinance industrial property and equipment loans to release capital for modernisation and expansion.</p>
-              </div>
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Investment Portfolio Restructure</h3>
-                <p className="text-gray-600">Optimise lending across multiple Melbourne commercial properties with better rates and terms.</p>
-              </div>
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Business Acquisition Funding</h3>
-                <p className="text-gray-600">Refinance to access equity for acquiring Melbourne businesses or commercial property.</p>
-              </div>
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Covenant Relief</h3>
-                <p className="text-gray-600">Move from restrictive bank facilities to flexible lenders without burdensome reporting requirements.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Melbourne Industries */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Industries We Serve in Melbourne</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[
-                "Manufacturing",
-                "Professional Services",
-                "Healthcare & Medical",
-                "Property Investment",
-                "Retail & Hospitality",
-                "Transport & Logistics",
-                "Construction",
-                "Technology"
-              ].map((industry, index) => (
-                <div key={index} className="bg-white p-4 rounded-lg shadow text-center">
-                  <Briefcase className="text-blue-600 mx-auto mb-2" size={24} />
-                  <span className="text-sm font-medium">{industry}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Process */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">How Refinancing Works</h2>
-            <div className="grid md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
-                <h3 className="font-semibold mb-2">Loan Review</h3>
-                <p className="text-gray-600 text-sm">We analyse your existing facilities and identify refinancing opportunities</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
-                <h3 className="font-semibold mb-2">Lender Search</h3>
-                <p className="text-gray-600 text-sm">We compare options across 50+ lenders to find optimal rates and terms</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
-                <h3 className="font-semibold mb-2">Application</h3>
-                <p className="text-gray-600 text-sm">We prepare and submit applications with supporting documentation</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
-                <h3 className="font-semibold mb-2">Settlement</h3>
-                <p className="text-gray-600 text-sm">New facility settles, existing loans discharged, savings begin</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-blue-900 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Optimise Your Melbourne Commercial Finance</h2>
-            <p className="text-xl text-blue-100 mb-8">
-              Get a free assessment of your refinancing options. Our Melbourne commercial finance specialists will identify potential savings and equity access opportunities.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
-              >
-                Get Refinance Assessment
-              </Link>
-              <a
-                href="tel:0485952651"
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors"
-              >
-                Call 0485 952 651
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Related Services */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8 text-center">Related Services</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              <Link to="/services/first-second-mortgages/melbourne" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold mb-2">1st & 2nd Mortgages Melbourne</h3>
-                <p className="text-gray-600 text-sm">Property-secured lending for Melbourne businesses</p>
-              </Link>
-              <Link to="/services/bridging-finance/melbourne" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold mb-2">Bridging Finance Melbourne</h3>
-                <p className="text-gray-600 text-sm">Short-term funding while refinancing settles</p>
-              </Link>
-              <Link to="/services/debt-consolidation" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold mb-2">Debt Consolidation</h3>
-                <p className="text-gray-600 text-sm">Combine multiple debts into one facility</p>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+const data = {
+  "city": "Melbourne",
+  "state": "VIC",
+  "title": "Commercial Refinancing Melbourne",
+  "description": "Commercial refinancing for Melbourne borrowers seeking improved structure, equity release, or debt consolidation across industrial, office, mixed-use, and owner-occupied commercial property.",
+  "canonical": "/services/refinancing-solutions/cities/melbourne",
+  "keywords": "commercial refinancing melbourne, business loan refinance melbourne, property refinance victoria, commercial debt restructure melbourne",
+  "heroStats": [
+    {
+      "label": "Indicative review",
+      "value": "24-48hrs"
+    },
+    {
+      "label": "Facility sizes",
+      "value": "$250K-$50M+"
+    },
+    {
+      "label": "Frequent assets",
+      "value": "Industrial + mixed-use"
+    },
+    {
+      "label": "Typical outcome",
+      "value": "Restructure debt"
+    }
+  ],
+  "marketOverview": [
+    "Melbourne refinance files often hinge on how clearly the borrower can explain tenant quality, lease rollover, and the wider commercial purpose of the transaction. Industrial and city-fringe assets continue to attract attention, but lender confidence still depends on execution detail.",
+    "We regularly see refinance conversations across the west, south-east, and inner-city mixed-use corridors where borrowers want to release equity, consolidate facilities, or shift away from restrictive legacy debt."
+  ],
+  "timingPressures": [
+    "A bank or non-bank lender is approaching review and the borrower wants more certainty.",
+    "An investor wants to reposition debt before leasing changes or capex works begin.",
+    "A portfolio owner wants one cleaner facility instead of multiple loans with different terms.",
+    "A business owner needs to align property debt with expansion plans without selling a well-located asset."
+  ],
+  "precinctGroups": [
+    {
+      "name": "Inner-city mixed-use",
+      "areas": "Richmond, Collingwood, South Melbourne",
+      "note": "Refinances often involve mixed-use, showroom, creative-office, or retail holdings."
+    },
+    {
+      "name": "Western industrial",
+      "areas": "Laverton North, Derrimut, Truganina",
+      "note": "Industrial and logistics stock regularly supports refinance and working capital release."
+    },
+    {
+      "name": "South-east employment belt",
+      "areas": "Dandenong, Moorabbin, Braeside",
+      "note": "Owner-occupied commercial premises and industrial assets are common refinance files."
+    },
+    {
+      "name": "CBD and fringe office",
+      "areas": "Melbourne CBD, Docklands, Carlton",
+      "note": "Lenders can be selective, so lease profile and building story matter."
+    },
+    {
+      "name": "Inner north",
+      "areas": "Brunswick, Coburg, Preston",
+      "note": "Mixed commercial property where local demand and repositioning plans influence structure."
+    },
+    {
+      "name": "Bayside commercial",
+      "areas": "St Kilda, Elwood, Brighton fringe",
+      "note": "Smaller commercial and mixed-use holdings where valuation discipline is important."
+    }
+  ],
+  "useCases": [
+    {
+      "title": "Industrial equity release",
+      "body": "Borrowers refinance established warehouses to fund plant upgrades, stock growth, or expansion into adjacent sites."
+    },
+    {
+      "title": "Portfolio debt consolidation",
+      "body": "A refinance can replace multiple facilities with one cleaner structure, improving administration and future planning."
+    },
+    {
+      "title": "Non-bank to bank transition",
+      "body": "Once an asset or borrower file has stabilised, some Melbourne borrowers refinance from short-term or specialist debt into a longer-term facility."
+    },
+    {
+      "title": "Lease and covenant reset",
+      "body": "Refinancing can help borrowers move away from a lender whose reporting, revaluation, or covenant settings no longer fit the business."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Truganina warehouse refinance",
+      "summary": "A transport group refinanced an owner-occupied warehouse after strong trading growth. The new facility aligned debt term with business expansion and freed capital for racking and loading upgrades.",
+      "figures": [
+        {
+          "label": "Security value",
+          "value": "$6.1 million"
+        },
+        {
+          "label": "Outgoing debt",
+          "value": "$3.4 million"
+        },
+        {
+          "label": "New facility",
+          "value": "$4.1 million"
+        },
+        {
+          "label": "Released capital",
+          "value": "$700,000"
+        }
+      ]
+    },
+    {
+      "title": "Collingwood mixed-use consolidation",
+      "summary": "A borrower with separate facilities over two adjacent commercial assets refinanced into one structure to simplify repayments and strengthen future sale or hold optionality.",
+      "figures": [
+        {
+          "label": "Combined value",
+          "value": "$4.8 million"
+        },
+        {
+          "label": "Existing lenders",
+          "value": "2 lenders"
+        },
+        {
+          "label": "New debt",
+          "value": "$2.95 million"
+        },
+        {
+          "label": "Primary goal",
+          "value": "Consolidate + simplify"
+        }
+      ]
+    },
+    {
+      "title": "Moorabbin owner-occupier reset",
+      "summary": "An equipment business refinanced its premises after the current lender became restrictive on annual reviews. The transaction focused on predictability and a cleaner repayment runway.",
+      "figures": [
+        {
+          "label": "Property value",
+          "value": "$3.3 million"
+        },
+        {
+          "label": "Refinanced balance",
+          "value": "$2.1 million"
+        },
+        {
+          "label": "Term structure",
+          "value": "Longer amortisation"
+        },
+        {
+          "label": "Outcome",
+          "value": "Improved cash flow management"
+        }
+      ]
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Review the current debt",
+      "body": "We assess the existing Melbourne facility, current lender settings, payout position, and what needs to change."
+    },
+    {
+      "title": "Test lender fit",
+      "body": "We compare bank, non-bank, and specialist refinance options that suit the asset, leverage, and timing."
+    },
+    {
+      "title": "Package the application",
+      "body": "We prepare valuation, lease, financial, and entity information so lenders can assess the file cleanly."
+    },
+    {
+      "title": "Settle the refinance",
+      "body": "Once terms are accepted, the outgoing lender is repaid and the new facility is documented and settled."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I refinance a commercial property in Melbourne to release equity?",
+      "a": "Potentially, yes. That depends on valuation support, existing debt, lease quality where relevant, and the commercial purpose of the funds."
+    },
+    {
+      "q": "What types of assets are commonly refinanced in Melbourne?",
+      "a": "Office, industrial, mixed-use, medical, and owner-occupied commercial properties are common, though lender appetite varies by asset quality and location."
+    },
+    {
+      "q": "Do I need to move away from my current bank to refinance in Melbourne?",
+      "a": "Not always. Some borrowers stay with mainstream lenders, while others move to non-bank or specialist lenders when flexibility, timing, or structure matters more."
+    },
+    {
+      "q": "How long does a Melbourne commercial refinance usually take?",
+      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, documents, lender process, and how complex the current debt structure is."
+    },
+    {
+      "q": "Can mixed-use property be refinanced in Melbourne?",
+      "a": "Potentially, yes. Mixed-use property can be financeable, but lenders usually assess tenancy mix, liquidity, and the balance between commercial and other components carefully."
+    },
+    {
+      "q": "What should I prepare before seeking a refinance in Melbourne?",
+      "a": "Current loan statements, property details, lease schedules where applicable, business financials if relevant, entity information, and a clear explanation of the purpose and desired outcome."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Refinancing Solutions service page",
+      "to": "/services/refinancing-solutions"
+    },
+    {
+      "label": "Commercial Property Refinancing Solutions guide",
+      "to": "/resources/guides/commercial-property-refinancing-solutions"
+    },
+    {
+      "label": "Business Debt Consolidation Australia",
+      "to": "/resources/guides/business-debt-consolidation-australia"
+    },
+    {
+      "label": "What Is Private Lending in Australia?",
+      "to": "/resources/guides/what-is-private-lending-australia"
+    }
+  ]
 };
+
+const RefinancingSolutionsMelbourne: React.FC = () => <RefinancingSolutionsCityTemplate data={data} />;
 
 export default RefinancingSolutionsMelbourne;
