@@ -18,7 +18,24 @@ A bank is usually designed for lower-risk, more standardised lending. A private 
 
 For Australian business borrowers, investors, and developers, the question is rarely “which one is universally better?” The better question is: which one fits the asset, the timing, the level of complexity, and the commercial objective in front of you?
 
-If you get that part wrong, you can waste weeks chasing the wrong credit path. If you get it right, the funding structure is more likely to support the transaction instead of slowing it down.
+If you get that part wrong, you can waste weeks chasing the wrong credit path. If you get it right, the funding structure is more likely to support the transaction instead of slowing it down. If you want the wider context first, our [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia) guide explains how private credit fits into the broader commercial finance market.
+
+---
+
+> **📚 Complete Guide**: This guide compares private lending and bank lending at a decision-making level. It works best alongside our broader [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia) guide and our more tactical structure guides for bridging, caveat, and mortgage-backed scenarios.
+
+### Related In-Depth Guides
+
+Explore these guides if you are comparing lender types across different commercial scenarios:
+
+- **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Broader explanation of private credit, lender appetite, and use cases
+- **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Best reference for timing-sensitive transactions
+- **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — Useful where speed matters and property security is available
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — Compare property-backed private lender types and positioning
+- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant when private lending is being used as a transition into longer-term debt
+- **[1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Helpful if the structure may involve layered or second-position security
+
+---
 
 ### At a Glance
 
@@ -33,7 +50,7 @@ If you get that part wrong, you can waste weeks chasing the wrong credit path. I
 
 Bank lending is usually policy-led. Private lending is usually scenario-led.
 
-Banks tend to work best when the borrower, property, income profile, and documentation all sit comfortably inside an established credit framework. The lender wants to see a strong file, clean servicing, acceptable security, and enough time to run a full process.
+Banks tend to work best when the borrower, property, income profile, and documentation all sit comfortably inside an established credit framework. If that framework breaks because the deal is transitional, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) often becomes part of the conversation. The lender wants to see a strong file, clean servicing, acceptable security, and enough time to run a full process.
 
 Private lenders usually start from a different place. They ask whether the deal is understandable, whether the security or commercial case is strong enough, and whether the risk can be managed in a way that makes sense for a private credit decision.
 
@@ -73,7 +90,7 @@ If the right long-term solution exists but cannot complete in time, private lend
 
 ### Complex or layered structures
 
-Second mortgages, caveat-backed scenarios, short-term property-backed transitions, and mixed commercial situations often sit better with private credit than with standard bank policy.
+[Second mortgages](/resources/guides/first-and-second-mortgages-for-business), [caveat-backed scenarios](/resources/guides/caveat-loans-australia-complete-guide), short-term property-backed transitions, and mixed commercial situations often sit better with private credit than with standard bank policy.
 
 ### Borrowers with a good deal that does not fit a standard credit box
 
@@ -188,7 +205,7 @@ This matters in both worlds, but especially in private credit.
 
 ### 5. What matters more here: lowest friction in process, or maximum flexibility under pressure?
 
-That is often the real trade-off.
+That is often the real trade-off. Borrowers comparing only private lenders and banks may also miss other useful structures such as [asset-backed lending and asset finance](/resources/guides/asset-backed-lending-and-asset-finance) or [invoice finance](/resources/guides/invoice-finance-australia-complete-guide), depending on what is actually driving the funding need.
 
 ## Frequently asked questions
 
@@ -220,7 +237,7 @@ Often that depends on timing, security position, and structure. If the deal is l
 
 Private lending vs bank lending is not really a debate about good versus bad. It is a fit question.
 
-If the transaction is standard, long-term, and has enough time, bank lending often makes sense. If the transaction is urgent, transitional, or structurally awkward, private lending may be the better tool.
+If the transaction is standard, long-term, and has enough time, bank lending often makes sense. If the transaction is urgent, transitional, or structurally awkward, private lending may be the better tool. That is especially true where the underlying scenario already looks like [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [caveat finance](/resources/guides/caveat-loans-australia-complete-guide), or a [property-backed private lending](/resources/guides/private-mortgage-lenders-australia-directory) case rather than a standard bank file.
 
 The strongest funding decisions usually come from matching the lender type to the actual commercial problem instead of forcing every deal through the same channel.
 
