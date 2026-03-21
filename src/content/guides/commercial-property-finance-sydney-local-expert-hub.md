@@ -16,24 +16,7 @@ Sydney is not a market where slow finance usually feels harmless.
 
 When a borrower is trying to secure a warehouse in the Inner West, refinance a mixed-use asset in Parramatta, or move quickly on an industrial opportunity in Western Sydney, the funding structure matters almost as much as the asset itself. Commercial property finance in Sydney is shaped by high values, tight timeframes, diverse asset classes, and lender scrutiny around serviceability, leverage, and exit.
 
-For investors, developers, and business owners, the practical challenge is not just finding a lender. It is choosing a structure that fits the asset, the business purpose, and the timing pressure of the deal. If you are comparing Sydney options against broader national structures, it helps to pair this article with our guide to [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide).
-
----
-
-> **📚 Complete Guide**: This is Emet Capital's Sydney-specific commercial property finance hub. Use it alongside our broader guide to [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) when you want both local market context and national structure guidance.
-
-### Related In-Depth Guides
-
-Explore these related commercial property guides for adjacent Sydney scenarios:
-
-- **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — National overview of structures, lender logic, and borrower fit
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant for Sydney debt restructures and equity release
-- **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Helpful for acquisition planning and transaction sequencing
-- **[Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Useful if approval strength is the main issue
-- **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Relevant where Sydney settlement timing is the real pressure point
-- **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Good comparison when deciding between flexibility and mainstream pricing
-
----
+For investors, developers, and business owners, the practical challenge is not just finding a lender. It is choosing a structure that fits the asset, the business purpose, and the timing pressure of the deal. In Sydney, that often means deciding between a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinance path](/resources/guides/commercial-property-refinancing-solutions), or a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution when settlement speed is the real pressure point.
 
 ### At a Glance
 

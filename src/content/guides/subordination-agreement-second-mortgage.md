@@ -16,23 +16,7 @@ A subordination agreement is one of those documents that can quietly decide whet
 
 If you are using a second mortgage in a commercial scenario, you are already dealing with layered security. That means there is a first lender sitting in front, a second lender looking at remaining equity, and a borrower who needs all parties to be aligned enough for settlement to happen. A subordination agreement is often the legal tool that clarifies that ranking, control, and enforcement position.
 
-For business owners, investors, and developers in Australia, the practical issue is not just the definition. The issue is how a subordination agreement affects approval speed, lender appetite, and your exit plan. If you are still working out how layered security works more broadly, start with our guide to [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business).
-
----
-
-> **📚 Complete Guide**: This guide explains one of the key legal mechanics behind layered second-mortgage structures. Read it alongside our broader guide to [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) if you want the full commercial context.
-
-### Related In-Depth Guides
-
-Explore these related guides before structuring a layered property-backed facility:
-
-- **[1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Core overview of how layered mortgage structures work
-- **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — Useful comparison where speed matters and security is property-based
-- **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Relevant when the second mortgage is part of a short-term transition
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful if the second mortgage is intended as a temporary step before refinance
-- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — Compare lender types that commonly operate in layered security positions
-
----
+For business owners, investors, and developers in Australia, the practical issue is not just the definition. The issue is how a subordination agreement affects approval speed, lender appetite, and your exit plan. In most cases, it makes the most sense as part of the broader [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) conversation, especially where the deal may later move into [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or a short-term [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) structure.
 
 ### At a Glance
 
