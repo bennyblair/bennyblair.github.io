@@ -5,12 +5,12 @@ const data = {
   "city": "Brisbane",
   "state": "QLD",
   "title": "Commercial Refinancing Brisbane",
-  "description": "Commercial refinancing for Brisbane and South East Queensland borrowers looking to restructure debt, release equity, or move from short-term facilities into a more stable commercial lending solution.",
+  "description": "Commercial refinancing for Brisbane and South East Queensland borrowers who need a cleaner debt structure, equity release, or a refinance out of short-term facilities across industrial, mixed-use, office, medical, and owner-occupied commercial property.",
   "canonical": "/services/refinancing-solutions/cities/brisbane",
   "keywords": "commercial refinancing brisbane, business refinance brisbane, commercial property refinance queensland, debt restructure brisbane",
   "heroStats": [
     {
-      "label": "Indicative review",
+      "label": "Typical first review",
       "value": "24-48hrs"
     },
     {
@@ -18,134 +18,134 @@ const data = {
       "value": "$250K-$35M+"
     },
     {
-      "label": "Local themes",
-      "value": "Growth + restructure"
+      "label": "Frequent trigger",
+      "value": "Growth + expiry"
     },
     {
-      "label": "Popular assets",
+      "label": "Local asset mix",
       "value": "Industrial + mixed-use"
     }
   ],
   "marketOverview": [
-    "Brisbane refinance activity often reflects growth. Borrowers may be reacting to higher asset values, stronger business performance, or a need to reposition debt before the next stage of expansion.",
-    "The city also produces many refinance files tied to industrial assets, mixed-use holdings, and owner-occupied premises where a simpler long-term structure is preferable to short-term debt used during acquisition or transition."
+    "Brisbane refinance enquiries are often driven by growth rather than distress alone. Borrowers may hold assets that have benefited from stronger metro demand, improved occupancy, or business expansion, but the original debt structure no longer suits the next stage of the business or portfolio.",
+    "We regularly discuss refinancing across Trade Coast industrial property, southern industrial corridors, inner-city mixed-use assets, and owner-occupied premises in Brisbane's middle-ring business precincts. Timing pressure often comes from expiring specialist debt, the desire to extract equity while values are supportive, or the need to restructure repayments before taking on new inventory, staff, or equipment commitments."
   ],
   "timingPressures": [
-    "Borrowers want to release equity after value uplift in established precincts.",
-    "An expiring specialist facility needs to be replaced before it becomes expensive or restrictive.",
-    "A portfolio owner wants to consolidate Queensland assets into one cleaner lending arrangement.",
-    "A business operator wants premises debt to better match growth plans and cash flow."
+    "A short-term or specialist facility used for acquisition now needs to be refinanced into a more stable structure before costs rise further.",
+    "A borrower wants to access equity from a Brisbane asset to fund capex, another property, or working capital while valuations remain supportive.",
+    "Multiple facilities across Queensland assets have become administratively messy and need to be cleaned up before expansion.",
+    "A business operator wants to refinance premises debt so repayments and covenants better reflect current trading patterns."
   ],
   "precinctGroups": [
     {
       "name": "CBD and inner-city",
       "areas": "Brisbane CBD, Spring Hill, South Brisbane",
-      "note": "Office, mixed-use, and medical assets where tenant profile and demand remain key."
+      "note": "Office, mixed-use, and medical holdings where tenant profile, building quality, and valuation support shape refinance appetite."
     },
     {
-      "name": "Trade Coast and industrial",
+      "name": "Trade Coast industrial",
       "areas": "Eagle Farm, Pinkenba, Hendra",
-      "note": "Industrial refinance files often tie into logistics, transport, and warehousing growth."
+      "note": "Warehouse and logistics assets where refinance is often linked to equipment spend, contract growth, or debt reset."
     },
     {
-      "name": "Northern growth corridor",
+      "name": "Northern business corridor",
       "areas": "Chermside, Geebung, Brendale",
-      "note": "Owner-occupied and investment-grade commercial assets with solid metro demand."
+      "note": "Commercial and light-industrial premises held by established operators and metro investors."
     },
     {
-      "name": "Southern corridor",
-      "areas": "Salisbury, Rocklea, Acacia Ridge",
-      "note": "Industrial and trade-linked premises where refinance can release working capital."
+      "name": "Southern industrial belt",
+      "areas": "Rocklea, Acacia Ridge, Salisbury",
+      "note": "Trade and owner-occupier properties where borrowers often seek cash-out for machinery, stock, or expansion."
     },
     {
       "name": "Inner east and riverside",
-      "areas": "New Farm, Teneriffe, Bulimba",
-      "note": "Smaller commercial and mixed-use holdings where valuation support matters."
+      "areas": "Newstead, Teneriffe, Bulimba",
+      "note": "Smaller commercial and mixed-use assets where lender appetite can depend heavily on tenancy durability and valuation evidence."
     },
     {
-      "name": "Western business belt",
+      "name": "Western commercial corridor",
       "areas": "Milton, Toowong, Indooroopilly",
-      "note": "Commercial premises and mixed-use stock used by established businesses and investors."
+      "note": "Professional suites, office stock, and mixed-use assets where borrowers often refinance for simplicity rather than maximum leverage."
     }
   ],
   "useCases": [
     {
-      "title": "Refinancing after short-term acquisition debt",
-      "body": "Borrowers who moved quickly on a property purchase may later refinance into a longer-term commercial facility once the full file is ready."
+      "title": "Refinancing out of acquisition debt",
+      "body": "Borrowers who moved quickly with short-term or non-bank funding often refinance once the asset is settled, leased, or better documented for a longer-term lender."
     },
     {
-      "title": "Equity release for expansion",
-      "body": "Brisbane owners may use refinance proceeds for fit-outs, equipment, staffing, or another commercial acquisition."
+      "title": "Releasing equity for expansion",
+      "body": "Brisbane owners may refinance to access capital for a second site, equipment, fit-out, inventory, or strategic working capital, subject to valuation and servicing support."
     },
     {
-      "title": "Debt consolidation across multiple facilities",
-      "body": "A single refinance can reduce administrative friction where business and property debt have become fragmented."
+      "title": "Consolidating multiple facilities",
+      "body": "A single refinance can reduce friction where business debt, property debt, and related-entity facilities have become fragmented over time."
     },
     {
-      "title": "Resetting lender fit as the business grows",
-      "body": "The right lender at acquisition is not always the right lender two years later. Refinancing can align debt with the current stage of the business."
+      "title": "Resetting lender settings as the business matures",
+      "body": "The lender that suited the initial purchase does not always suit a more mature, larger, or faster-growing business. Refinancing can align debt with current reality."
     }
   ],
   "caseStudies": [
     {
-      "title": "Trade Coast warehouse refinance",
-      "summary": "A logistics operator refinanced a warehouse facility after several years of growth. The new structure released capital for equipment and improved debt certainty ahead of contract expansion.",
+      "title": "Eagle Farm warehouse refinance for contract growth",
+      "summary": "A logistics operator in Eagle Farm refinanced a warehouse facility after winning larger distribution contracts. The refinance needed to improve certainty around debt term while releasing enough capital for equipment and yard improvements ahead of the growth phase.",
       "figures": [
         {
           "label": "Security value",
-          "value": "$4.7 million"
+          "value": "$4.9 million"
         },
         {
           "label": "Outgoing debt",
-          "value": "$2.6 million"
+          "value": "$2.7 million"
         },
         {
           "label": "New facility",
-          "value": "$3.15 million"
+          "value": "$3.2 million"
         },
         {
           "label": "Released capital",
-          "value": "$420,000"
+          "value": "$500,000"
         }
       ]
     },
     {
-      "title": "South Brisbane mixed-use restructure",
-      "summary": "An investor refinanced a mixed-use building to simplify debt and preserve flexibility during tenant turnover. The emphasis was on control and cleaner terms, not maximum leverage.",
+      "title": "South Brisbane mixed-use refinance during tenant change",
+      "summary": "An investor refinanced a South Brisbane mixed-use property while one tenancy was turning over and the prior lender had become conservative on lease and revaluation settings. The new structure focused on sustainability and flexibility rather than pushing leverage.",
       "figures": [
         {
           "label": "Property value",
-          "value": "$3.6 million"
+          "value": "$3.8 million"
         },
         {
           "label": "Refinanced debt",
-          "value": "$2.05 million"
+          "value": "$2.15 million"
         },
         {
           "label": "Vacancy reserve",
-          "value": "$125,000"
+          "value": "$130,000"
         },
         {
-          "label": "Primary benefit",
-          "value": "Reduced pressure"
+          "label": "Primary outcome",
+          "value": "Reduced lender pressure"
         }
       ]
     },
     {
-      "title": "Acacia Ridge owner-occupier refinance",
-      "summary": "A manufacturer refinanced existing premises debt to align the repayment structure with seasonal cash flow and planned machinery upgrades.",
+      "title": "Acacia Ridge owner-occupier reset for machinery spend",
+      "summary": "A manufacturing business refinanced its Acacia Ridge premises to better align debt with seasonal cash flow and fund machinery upgrades. The outgoing structure had become too tight for the business's operating cycle.",
       "figures": [
         {
           "label": "Property value",
-          "value": "$5.1 million"
+          "value": "$5.3 million"
         },
         {
           "label": "Existing debt",
-          "value": "$3.0 million"
+          "value": "$3.05 million"
         },
         {
           "label": "New facility",
-          "value": "$3.45 million"
+          "value": "$3.55 million"
         },
         {
           "label": "Business purpose",
@@ -157,45 +157,45 @@ const data = {
   "processSteps": [
     {
       "title": "Review the current debt",
-      "body": "We assess the existing Brisbane facility, current lender settings, payout position, and what needs to change."
+      "body": "We assess the Brisbane facility, payout figure, review timing, and whether the refinance is driven by growth, maturity, or lender fit."
     },
     {
-      "title": "Test lender fit",
-      "body": "We compare bank, non-bank, and specialist refinance options that suit the asset, leverage, and timing."
+      "title": "Compare lender appetite",
+      "body": "We test bank, non-bank, and specialist options based on the asset, cash-out purpose, tenancy profile, and how quickly the file needs to settle."
     },
     {
-      "title": "Package the application",
-      "body": "We prepare valuation, lease, financial, and entity information so lenders can assess the file cleanly."
+      "title": "Package the refinance",
+      "body": "We prepare valuation context, leases, financials, entity documents, and a practical explanation of how the new structure supports the borrower's commercial objectives."
     },
     {
-      "title": "Settle the refinance",
-      "body": "Once terms are accepted, the outgoing lender is repaid and the new facility is documented and settled."
+      "title": "Replace the outgoing facility",
+      "body": "Once terms are accepted, we coordinate discharge, documentation, and settlement so the refinance lands cleanly and on time."
     }
   ],
   "faqs": [
     {
-      "q": "Can I refinance a commercial property in Brisbane to release equity?",
-      "a": "Potentially, yes. That depends on valuation support, existing debt, lease quality where relevant, and the commercial purpose of the funds."
+      "q": "Can I refinance a Brisbane commercial property to fund business expansion?",
+      "a": "Potentially, yes. Lenders typically want a clear commercial use for the funds, current valuation support, and evidence that the new debt remains serviceable after the cash-out."
     },
     {
-      "q": "What types of assets are commonly refinanced in Brisbane?",
-      "a": "Office, industrial, mixed-use, medical, and owner-occupied commercial properties are common, though lender appetite varies by asset quality and location."
+      "q": "Are Brisbane industrial assets commonly refinanced for equity release?",
+      "a": "Yes, that is a common scenario, especially where the property is well located and the business has grown. Approval still depends on leverage, income, and lender policy."
     },
     {
-      "q": "Do I need to move away from my current bank to refinance in Brisbane?",
-      "a": "Not always. Some borrowers stay with mainstream lenders, while others move to non-bank or specialist lenders when flexibility, timing, or structure matters more."
+      "q": "Can I refinance if my current loan started as short-term specialist debt?",
+      "a": "Potentially, yes. Many borrowers refinance once the asset is stabilised, the valuation position is clearer, and the file better suits a longer-term lender."
     },
     {
       "q": "How long does a Brisbane commercial refinance usually take?",
-      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, documents, lender process, and how complex the current debt structure is."
+      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, lease documents, discharge turnaround, legal work, and how complete the application is at the outset."
     },
     {
       "q": "Can mixed-use property be refinanced in Brisbane?",
-      "a": "Potentially, yes. Mixed-use property can be financeable, but lenders usually assess tenancy mix, liquidity, and the balance between commercial and other components carefully."
+      "a": "Potentially, yes. Mixed-use assets are financeable in many cases, but lenders will examine the tenancy mix, location, and balance between commercial and any other components."
     },
     {
-      "q": "What should I prepare before seeking a refinance in Brisbane?",
-      "a": "Current loan statements, property details, lease schedules where applicable, business financials if relevant, entity information, and a clear explanation of the purpose and desired outcome."
+      "q": "What should I gather before starting a Brisbane refinance?",
+      "a": "Current loan statements, property details, lease schedules where relevant, financial statements, entity documents, and a concise explanation of the desired refinance outcome will usually help."
     }
   ],
   "relatedLinks": [

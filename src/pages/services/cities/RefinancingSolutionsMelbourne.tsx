@@ -5,12 +5,12 @@ const data = {
   "city": "Melbourne",
   "state": "VIC",
   "title": "Commercial Refinancing Melbourne",
-  "description": "Commercial refinancing for Melbourne borrowers seeking improved structure, equity release, or debt consolidation across industrial, office, mixed-use, and owner-occupied commercial property.",
+  "description": "Commercial refinancing for Melbourne borrowers who need to refinance around lease events, reset lender fit, consolidate layered debt, or release equity from industrial, office, medical, mixed-use, and owner-occupied commercial assets across Victoria.",
   "canonical": "/services/refinancing-solutions/cities/melbourne",
   "keywords": "commercial refinancing melbourne, business loan refinance melbourne, property refinance victoria, commercial debt restructure melbourne",
   "heroStats": [
     {
-      "label": "Indicative review",
+      "label": "Typical first review",
       "value": "24-48hrs"
     },
     {
@@ -18,138 +18,138 @@ const data = {
       "value": "$250K-$50M+"
     },
     {
-      "label": "Frequent assets",
-      "value": "Industrial + mixed-use"
+      "label": "Frequent trigger",
+      "value": "Lease rollover"
     },
     {
-      "label": "Typical outcome",
-      "value": "Restructure debt"
+      "label": "Local asset mix",
+      "value": "Industrial + office"
     }
   ],
   "marketOverview": [
-    "Melbourne refinance files often hinge on how clearly the borrower can explain tenant quality, lease rollover, and the wider commercial purpose of the transaction. Industrial and city-fringe assets continue to attract attention, but lender confidence still depends on execution detail.",
-    "We regularly see refinance conversations across the west, south-east, and inner-city mixed-use corridors where borrowers want to release equity, consolidate facilities, or shift away from restrictive legacy debt."
+    "Melbourne refinancing files often turn on detail: lease expiry concentration, covenant settings, valuation softness in some office segments, and whether the borrower is refinancing for stability rather than leverage alone. Industrial and city-fringe commercial assets still attract lender interest, but the best outcome usually comes from matching the scenario to the right credit appetite rather than pushing a generic bank submission.",
+    "We commonly discuss refinancing in western logistics precincts, south-east industrial belts, inner-city mixed-use corridors, and professional or medical holdings around the CBD fringe. Timing pressure frequently comes from upcoming reviews, changes in tenancy mix, or a decision to move away from legacy debt that no longer suits how the business or portfolio now operates."
   ],
   "timingPressures": [
-    "A bank or non-bank lender is approaching review and the borrower wants more certainty.",
-    "An investor wants to reposition debt before leasing changes or capex works begin.",
-    "A portfolio owner wants one cleaner facility instead of multiple loans with different terms.",
-    "A business owner needs to align property debt with expansion plans without selling a well-located asset."
+    "A lender review is approaching while one or more leases are rolling in the next 6 to 12 months.",
+    "An investor wants to refinance before commencing capex, repositioning works, or a change in tenant profile.",
+    "A borrower has multiple Melbourne facilities with inconsistent terms and wants one clearer debt structure before expanding.",
+    "A prior specialist or private facility solved a short-term issue but is no longer the right long-term funding platform."
   ],
   "precinctGroups": [
     {
-      "name": "Inner-city mixed-use",
-      "areas": "Richmond, Collingwood, South Melbourne",
-      "note": "Refinances often involve mixed-use, showroom, creative-office, or retail holdings."
+      "name": "City fringe commercial",
+      "areas": "Richmond, Cremorne, South Melbourne",
+      "note": "Showroom, office, and mixed-use holdings where future leasing depth and valuation evidence matter."
     },
     {
-      "name": "Western industrial",
-      "areas": "Laverton North, Derrimut, Truganina",
-      "note": "Industrial and logistics stock regularly supports refinance and working capital release."
+      "name": "Western logistics belt",
+      "areas": "Truganina, Derrimut, Laverton North",
+      "note": "Warehouse and transport-linked assets where borrowers often refinance for growth capital or larger operating buffers."
     },
     {
-      "name": "South-east employment belt",
-      "areas": "Dandenong, Moorabbin, Braeside",
-      "note": "Owner-occupied commercial premises and industrial assets are common refinance files."
+      "name": "South-east industrial corridor",
+      "areas": "Moorabbin, Braeside, Dandenong",
+      "note": "Owner-occupied and investment-grade industrial assets commonly refinanced to improve term and cash flow."
     },
     {
       "name": "CBD and fringe office",
       "areas": "Melbourne CBD, Docklands, Carlton",
-      "note": "Lenders can be selective, so lease profile and building story matter."
+      "note": "Office stock where lender selectivity can be sharper and lease expiry profile becomes central to refinance terms."
     },
     {
-      "name": "Inner north",
-      "areas": "Brunswick, Coburg, Preston",
-      "note": "Mixed commercial property where local demand and repositioning plans influence structure."
+      "name": "Inner north mixed-use",
+      "areas": "Collingwood, Brunswick, Preston",
+      "note": "Mixed commercial property where tenancy diversity and repositioning plans often shape lender fit."
     },
     {
       "name": "Bayside commercial",
-      "areas": "St Kilda, Elwood, Brighton fringe",
-      "note": "Smaller commercial and mixed-use holdings where valuation discipline is important."
+      "areas": "St Kilda Road, Elsternwick, Brighton fringe",
+      "note": "Medical, professional, and smaller commercial assets where conservative leverage can broaden lender choice."
     }
   ],
   "useCases": [
     {
-      "title": "Industrial equity release",
-      "body": "Borrowers refinance established warehouses to fund plant upgrades, stock growth, or expansion into adjacent sites."
+      "title": "Refinancing around lease rollover risk",
+      "body": "Melbourne owners often refinance before leases expire so they can negotiate from a position of control rather than under lender pressure during vacancy or incentive discussions."
     },
     {
-      "title": "Portfolio debt consolidation",
-      "body": "A refinance can replace multiple facilities with one cleaner structure, improving administration and future planning."
+      "title": "Industrial equity release for business expansion",
+      "body": "Warehouse and owner-occupied industrial assets are regularly refinanced to fund plant, inventory, fit-out, or a second site, subject to valuation and servicing support."
     },
     {
-      "title": "Non-bank to bank transition",
-      "body": "Once an asset or borrower file has stabilised, some Melbourne borrowers refinance from short-term or specialist debt into a longer-term facility."
+      "title": "Consolidating portfolio debt",
+      "body": "Where multiple properties or entities have accumulated separate facilities, a refinance can create a more workable structure with better visibility over repayments and review dates."
     },
     {
-      "title": "Lease and covenant reset",
-      "body": "Refinancing can help borrowers move away from a lender whose reporting, revaluation, or covenant settings no longer fit the business."
+      "title": "Moving from specialist debt to a steadier lender",
+      "body": "A borrower may refinance out of short-term or higher-cost debt once the asset is stabilised, documentation is current, and the file is better suited to mainstream or mid-market credit."
     }
   ],
   "caseStudies": [
     {
-      "title": "Truganina warehouse refinance",
-      "summary": "A transport group refinanced an owner-occupied warehouse after strong trading growth. The new facility aligned debt term with business expansion and freed capital for racking and loading upgrades.",
+      "title": "Truganina warehouse refinance for working capital release",
+      "summary": "A transport and distribution business refinanced its Truganina warehouse after several years of trading growth. The existing facility no longer matched the scale of operations and the borrower wanted additional liquidity for racking, yard works, and contract mobilisation without selling a strategic site.",
       "figures": [
         {
           "label": "Security value",
-          "value": "$6.1 million"
+          "value": "$6.4 million"
         },
         {
           "label": "Outgoing debt",
-          "value": "$3.4 million"
+          "value": "$3.55 million"
         },
         {
           "label": "New facility",
-          "value": "$4.1 million"
+          "value": "$4.2 million"
         },
         {
           "label": "Released capital",
-          "value": "$700,000"
+          "value": "$650,000"
         }
       ]
     },
     {
-      "title": "Collingwood mixed-use consolidation",
-      "summary": "A borrower with separate facilities over two adjacent commercial assets refinanced into one structure to simplify repayments and strengthen future sale or hold optionality.",
+      "title": "Collingwood mixed-use consolidation before tenant resets",
+      "summary": "An investor holding adjacent mixed-use assets in Collingwood wanted to consolidate two lenders before retail lease negotiations and planned building improvements. The refinance focused on simplifying the debt stack and preserving strategic flexibility while the properties were repositioned.",
       "figures": [
         {
           "label": "Combined value",
-          "value": "$4.8 million"
+          "value": "$5.1 million"
         },
         {
-          "label": "Existing lenders",
+          "label": "Previous lenders",
           "value": "2 lenders"
         },
         {
           "label": "New debt",
-          "value": "$2.95 million"
+          "value": "$3.05 million"
         },
         {
           "label": "Primary goal",
-          "value": "Consolidate + simplify"
+          "value": "Consolidate + reposition"
         }
       ]
     },
     {
-      "title": "Moorabbin owner-occupier reset",
-      "summary": "An equipment business refinanced its premises after the current lender became restrictive on annual reviews. The transaction focused on predictability and a cleaner repayment runway.",
+      "title": "Moorabbin owner-occupier refinance after covenant fatigue",
+      "summary": "A manufacturing business in Moorabbin refinanced its premises after annual reviews and covenant settings had become overly restrictive relative to current trading performance. The replacement facility prioritised a cleaner amortisation profile and more predictable reporting requirements.",
       "figures": [
         {
           "label": "Property value",
-          "value": "$3.3 million"
+          "value": "$3.6 million"
         },
         {
           "label": "Refinanced balance",
-          "value": "$2.1 million"
+          "value": "$2.2 million"
         },
         {
-          "label": "Term structure",
+          "label": "Repayment structure",
           "value": "Longer amortisation"
         },
         {
           "label": "Outcome",
-          "value": "Improved cash flow management"
+          "value": "Improved cash flow certainty"
         }
       ]
     }
@@ -157,45 +157,45 @@ const data = {
   "processSteps": [
     {
       "title": "Review the current debt",
-      "body": "We assess the existing Melbourne facility, current lender settings, payout position, and what needs to change."
+      "body": "We assess the Melbourne facility, lender review cycle, lease profile, payout position, and the real commercial reason the borrower wants to refinance."
     },
     {
-      "title": "Test lender fit",
-      "body": "We compare bank, non-bank, and specialist refinance options that suit the asset, leverage, and timing."
+      "title": "Map lender fit",
+      "body": "We test bank, non-bank, and specialist options against the asset type, tenant quality, leverage, and timing pressures in the file."
     },
     {
-      "title": "Package the application",
-      "body": "We prepare valuation, lease, financial, and entity information so lenders can assess the file cleanly."
+      "title": "Prepare the credit story",
+      "body": "We package valuation evidence, leases, financials, entity documents, and any capex or repositioning plan so the refinance rationale is clear."
     },
     {
-      "title": "Settle the refinance",
-      "body": "Once terms are accepted, the outgoing lender is repaid and the new facility is documented and settled."
+      "title": "Settle the replacement facility",
+      "body": "Once terms are accepted, we coordinate discharge, legal documentation, and settlement so the outgoing debt is cleanly replaced."
     }
   ],
   "faqs": [
     {
-      "q": "Can I refinance a commercial property in Melbourne to release equity?",
-      "a": "Potentially, yes. That depends on valuation support, existing debt, lease quality where relevant, and the commercial purpose of the funds."
+      "q": "Can I refinance a Melbourne commercial property before major leases expire?",
+      "a": "Potentially, yes. Many borrowers refinance before lease rollover to improve certainty, but the lender will usually examine vacancy risk, reletting prospects, incentives, and current income strength."
     },
     {
-      "q": "What types of assets are commonly refinanced in Melbourne?",
-      "a": "Office, industrial, mixed-use, medical, and owner-occupied commercial properties are common, though lender appetite varies by asset quality and location."
+      "q": "Are Melbourne office assets harder to refinance than industrial assets?",
+      "a": "In some cases, yes. Office appetite can be more selective depending on building grade, submarket, vacancy, and lease concentration. Industrial assets may attract broader appetite, but lender policy still depends on location, utility, and leverage."
     },
     {
-      "q": "Do I need to move away from my current bank to refinance in Melbourne?",
-      "a": "Not always. Some borrowers stay with mainstream lenders, while others move to non-bank or specialist lenders when flexibility, timing, or structure matters more."
+      "q": "Can I refinance to consolidate debt across multiple Melbourne properties?",
+      "a": "Potentially, yes. Some borrowers combine facilities to simplify administration and create a more coherent debt structure, provided valuation, servicing, and security coverage support it."
     },
     {
       "q": "How long does a Melbourne commercial refinance usually take?",
-      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, documents, lender process, and how complex the current debt structure is."
+      "a": "Straightforward scenarios can move relatively quickly, but timing depends on valuation availability, lease documentation, entity complexity, legal turnaround, and lender workflow."
     },
     {
-      "q": "Can mixed-use property be refinanced in Melbourne?",
-      "a": "Potentially, yes. Mixed-use property can be financeable, but lenders usually assess tenancy mix, liquidity, and the balance between commercial and other components carefully."
+      "q": "Do mixed-use assets in Melbourne need non-bank lenders?",
+      "a": "Not necessarily, but mixed-use stock often narrows the lender pool. The right outcome depends on zoning, tenancy mix, valuation evidence, and how much of the asset falls within each use type."
     },
     {
-      "q": "What should I prepare before seeking a refinance in Melbourne?",
-      "a": "Current loan statements, property details, lease schedules where applicable, business financials if relevant, entity information, and a clear explanation of the purpose and desired outcome."
+      "q": "What documents help most for a Melbourne refinance?",
+      "a": "Current loan statements, rent roll or lease schedule where relevant, recent financials, property details, trust or company documents, and a clear note explaining the refinance objective and time pressure are all helpful."
     }
   ],
   "relatedLinks": [

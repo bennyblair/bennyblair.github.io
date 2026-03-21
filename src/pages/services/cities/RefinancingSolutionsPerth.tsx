@@ -5,12 +5,12 @@ const data = {
   "city": "Perth",
   "state": "WA",
   "title": "Commercial Refinancing Perth",
-  "description": "Commercial refinancing for Perth borrowers needing a practical reset on business or property debt across industrial, office, mixed-use, and owner-occupied commercial assets in Western Australia.",
+  "description": "Commercial refinancing for Perth borrowers seeking a practical reset on business or property debt, including lender changes, equity release, and maturity refinancing across industrial, office, mixed-use, and owner-occupied commercial assets in Western Australia.",
   "canonical": "/services/refinancing-solutions/cities/perth",
   "keywords": "commercial refinancing perth, business loan refinance perth, commercial property refinance wa, debt restructure perth",
   "heroStats": [
     {
-      "label": "Indicative review",
+      "label": "Typical first review",
       "value": "24-72hrs"
     },
     {
@@ -18,126 +18,126 @@ const data = {
       "value": "$250K-$35M+"
     },
     {
-      "label": "Common sectors",
-      "value": "Industrial + services"
+      "label": "Frequent trigger",
+      "value": "Maturity reset"
     },
     {
-      "label": "Frequent aim",
-      "value": "Reset lender fit"
+      "label": "Local asset mix",
+      "value": "Industrial + services"
     }
   ],
   "marketOverview": [
-    "Perth refinance activity often reflects the city\u2019s mix of industrial demand, resource-linked service businesses, and owner-occupied commercial assets that have outgrown the original debt structure.",
-    "Borrowers frequently refinance to replace inflexible terms, release capital for growth, or reposition debt once an asset is more stabilised and easier for lenders to assess."
+    "Perth refinancing is often tied to industrial demand, resource-linked service businesses, and owner-occupied commercial assets that have outgrown the original debt structure. Borrowers are commonly less focused on aggressive leverage than on securing a lender that understands how the asset and operating business actually function in the WA market.",
+    "We regularly discuss refinancing across Kewdale and Welshpool logistics property, Osborne Park and Wangara business precincts, West Perth office holdings, and southern industrial corridors such as Bibra Lake and Jandakot. Timing pressure usually comes from near-term maturities, a need to release equity for fleet or equipment spend, or the desire to move away from reporting settings that no longer fit the business."
   ],
   "timingPressures": [
-    "A business wants to switch from an expensive specialist facility into a more stable structure.",
-    "Asset value growth has created usable equity for expansion or acquisition.",
-    "The current lender no longer suits the borrower\u2019s sector, reporting profile, or growth plans.",
-    "Multiple debt lines need to be simplified into one commercial facility."
+    "An existing facility is nearing maturity and the borrower wants to refinance before the lender dictates a compressed timetable.",
+    "A Perth asset has appreciated or become better utilised, creating an opportunity to release equity for expansion or acquisition.",
+    "The current lender has become too conservative on covenants, annual reviews, or sector appetite for a trade or resource-services business.",
+    "Several debt lines across WA entities or properties need to be simplified into one more manageable structure."
   ],
   "precinctGroups": [
     {
       "name": "CBD and west Perth",
       "areas": "Perth CBD, West Perth, Subiaco",
-      "note": "Office and mixed commercial assets where tenancy and valuation quality matter."
+      "note": "Office and mixed commercial assets where lender appetite is shaped by building quality, tenant profile, and future leasing depth."
     },
     {
-      "name": "Industrial core",
-      "areas": "Welshpool, Kewdale, Canning Vale",
-      "note": "Logistics, trade, and warehousing assets are common refinance securities."
+      "name": "Airport and logistics core",
+      "areas": "Kewdale, Welshpool, Belmont",
+      "note": "Transport, warehouse, and industrial assets often refinanced for operational capital or maturity reset."
     },
     {
-      "name": "Northern corridor",
+      "name": "Northern industrial corridor",
       "areas": "Osborne Park, Wangara, Malaga",
-      "note": "Owner-occupied premises and industrial investments with strong local demand."
+      "note": "Owner-occupied and investment-grade industrial property held by established operators and trade businesses."
     },
     {
-      "name": "Southern corridor",
-      "areas": "Bibra Lake, OConnor, Jandakot",
-      "note": "Industrial and service-business properties often tied to expansion capital."
+      "name": "Southern industrial belt",
+      "areas": "Bibra Lake, Jandakot, Cockburn Central",
+      "note": "Industrial and service-business premises where refinance is often linked to equipment, fleet, or working capital needs."
     },
     {
-      "name": "Fremantle belt",
-      "areas": "Fremantle, Myaree, Spearwood",
-      "note": "Mixed-use and trade-linked commercial assets with varied lender appetite."
+      "name": "Fremantle and inner south-west",
+      "areas": "Fremantle, O'Connor, Myaree",
+      "note": "Mixed-use and trade-linked commercial stock with varied lender appetite depending on configuration."
     },
     {
-      "name": "Growth metro precincts",
-      "areas": "Joondalup, Midland, Cockburn",
-      "note": "Commercial holdings where borrowers want a cleaner long-term debt structure."
+      "name": "Growth metro hubs",
+      "areas": "Joondalup, Midland, Canning Vale",
+      "note": "Commercial holdings where borrowers often seek a cleaner long-term debt structure before further expansion."
     }
   ],
   "useCases": [
     {
-      "title": "Industrial refinancing for growth capital",
-      "body": "Perth borrowers often refinance warehouses or service premises to fund equipment, inventory, or expansion."
+      "title": "Maturity refinance before terms tighten",
+      "body": "Perth borrowers often refinance when an existing lender is approaching expiry and the extension offer does not suit current trading, security values, or future plans."
     },
     {
-      "title": "Maturity refinance",
-      "body": "Where an existing facility is reaching term, a refinance can preserve control and avoid forced decisions under time pressure."
+      "title": "Industrial equity release for expansion",
+      "body": "Warehouses and service-business premises are commonly refinanced to fund equipment, inventory, fleet, or another site, subject to valuation and servicing support."
     },
     {
-      "title": "Portfolio clean-up",
-      "body": "Investors may consolidate separate facilities across WA assets into a more manageable structure."
+      "title": "Portfolio consolidation across WA assets",
+      "body": "A refinance can replace separate facilities across multiple properties or entities with one structure that is easier to manage and explain to lenders."
     },
     {
-      "title": "Covenant relief and lender change",
-      "body": "A refinance can help move away from a lender whose reporting settings no longer fit the business."
+      "title": "Moving to a lender better aligned with the sector",
+      "body": "Some Perth borrowers need a lender comfortable with resource-services exposure, industrial cash flow cycles, or non-standard security rather than a generic policy response."
     }
   ],
   "caseStudies": [
     {
-      "title": "Kewdale industrial refinance",
-      "summary": "A transport-linked business refinanced an owner-occupied industrial property to replace a near-maturity facility and release capital for fleet-related upgrades.",
+      "title": "Kewdale industrial refinance for fleet and yard upgrades",
+      "summary": "A transport-linked business refinanced its Kewdale industrial property ahead of facility maturity so it could repay the outgoing lender, preserve operational certainty, and release funds for fleet-related capex and yard improvements.",
       "figures": [
         {
           "label": "Security value",
-          "value": "$4.9 million"
+          "value": "$5.1 million"
         },
         {
           "label": "Outgoing debt",
-          "value": "$2.8 million"
+          "value": "$2.9 million"
         },
         {
           "label": "New facility",
-          "value": "$3.3 million"
+          "value": "$3.45 million"
         },
         {
           "label": "Released capital",
-          "value": "$350,000"
+          "value": "$550,000"
         }
       ]
     },
     {
-      "title": "West Perth office restructure",
-      "summary": "An investor refinanced a boutique office asset after tenant changes created friction with the existing lender. The new lender was better aligned with the revised leasing profile.",
+      "title": "West Perth office refinance after tenant reshuffle",
+      "summary": "An investor refinanced a boutique West Perth office asset after several tenancy changes created friction with the current lender. The new structure was built around realistic leasing assumptions and a lender with a more pragmatic view of the building's revised income profile.",
       "figures": [
         {
           "label": "Property value",
-          "value": "$3.2 million"
+          "value": "$3.4 million"
         },
         {
           "label": "Refinanced debt",
-          "value": "$1.95 million"
+          "value": "$2.0 million"
         },
         {
           "label": "Lease incentive reserve",
-          "value": "$90,000"
+          "value": "$100,000"
         },
         {
           "label": "Outcome",
-          "value": "More flexible structure"
+          "value": "More workable lender fit"
         }
       ]
     },
     {
-      "title": "Canning Vale debt consolidation",
-      "summary": "A borrower consolidated two WA commercial facilities into one refinance to simplify repayments and create a clearer growth plan for the business.",
+      "title": "Canning Vale consolidation across related entities",
+      "summary": "A borrower with two WA commercial facilities across related entities refinanced into one structure secured against stronger industrial property. The objective was to reduce administration and create a clearer platform for business growth.",
       "figures": [
         {
           "label": "Combined value",
-          "value": "$5.7 million"
+          "value": "$5.9 million"
         },
         {
           "label": "Previous lenders",
@@ -145,7 +145,7 @@ const data = {
         },
         {
           "label": "New debt",
-          "value": "$3.25 million"
+          "value": "$3.35 million"
         },
         {
           "label": "Primary benefit",
@@ -157,45 +157,45 @@ const data = {
   "processSteps": [
     {
       "title": "Review the current debt",
-      "body": "We assess the existing Perth facility, current lender settings, payout position, and what needs to change."
+      "body": "We assess the Perth facility, maturity timing, payout position, and whether the refinance is driven by term pressure, equity release, or lender fit."
     },
     {
-      "title": "Test lender fit",
-      "body": "We compare bank, non-bank, and specialist refinance options that suit the asset, leverage, and timing."
+      "title": "Match the lender profile",
+      "body": "We compare bank, non-bank, and specialist options based on the asset, operating business, sector exposure, and time available before settlement."
     },
     {
-      "title": "Package the application",
-      "body": "We prepare valuation, lease, financial, and entity information so lenders can assess the file cleanly."
+      "title": "Prepare the file",
+      "body": "We package valuation context, leases, financials, entity documents, and a clear explanation of the commercial purpose of the refinance."
     },
     {
-      "title": "Settle the refinance",
-      "body": "Once terms are accepted, the outgoing lender is repaid and the new facility is documented and settled."
+      "title": "Settle the new structure",
+      "body": "Once approved, the outgoing lender is repaid and the replacement facility is documented and settled under the revised terms."
     }
   ],
   "faqs": [
     {
-      "q": "Can I refinance a commercial property in Perth to release equity?",
-      "a": "Potentially, yes. That depends on valuation support, existing debt, lease quality where relevant, and the commercial purpose of the funds."
+      "q": "Can I refinance a Perth industrial property to access growth capital?",
+      "a": "Potentially, yes. That depends on valuation support, current debt levels, the purpose of the capital release, and whether servicing remains comfortable under the new structure."
     },
     {
-      "q": "What types of assets are commonly refinanced in Perth?",
-      "a": "Office, industrial, mixed-use, medical, and owner-occupied commercial properties are common, though lender appetite varies by asset quality and location."
+      "q": "Do Perth borrowers often refinance before a facility matures?",
+      "a": "Yes. Starting early can preserve options, particularly where discharge timing, updated valuations, or lender appetite for a specific sector may affect settlement speed."
     },
     {
-      "q": "Do I need to move away from my current bank to refinance in Perth?",
-      "a": "Not always. Some borrowers stay with mainstream lenders, while others move to non-bank or specialist lenders when flexibility, timing, or structure matters more."
+      "q": "Can office assets in West Perth still be refinanced?",
+      "a": "Potentially, yes. Lender appetite depends on building quality, leasing profile, submarket strength, and leverage. Some assets remain financeable, but the scenario needs to be presented realistically."
     },
     {
       "q": "How long does a Perth commercial refinance usually take?",
-      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, documents, lender process, and how complex the current debt structure is."
+      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, tenant information, legal work, and how responsive the outgoing lender is with discharge requirements."
     },
     {
-      "q": "Can mixed-use property be refinanced in Perth?",
-      "a": "Potentially, yes. Mixed-use property can be financeable, but lenders usually assess tenancy mix, liquidity, and the balance between commercial and other components carefully."
+      "q": "Can I consolidate multiple WA facilities into one refinance?",
+      "a": "Potentially, yes. Some borrowers refinance several facilities into one structure to simplify reporting and improve control, provided security, valuation, and servicing support the change."
     },
     {
-      "q": "What should I prepare before seeking a refinance in Perth?",
-      "a": "Current loan statements, property details, lease schedules where applicable, business financials if relevant, entity information, and a clear explanation of the purpose and desired outcome."
+      "q": "What should I prepare for a Perth refinance review?",
+      "a": "Current loan statements, financial statements, lease schedules where relevant, entity and trust documents, property details, and a clear summary of why the refinance is needed now are typically useful."
     }
   ],
   "relatedLinks": [

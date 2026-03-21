@@ -5,12 +5,12 @@ const data = {
   "city": "Sydney",
   "state": "NSW",
   "title": "Commercial Refinancing Sydney",
-  "description": "Commercial refinancing for Sydney business owners, investors, and developers seeking cleaner terms, equity release, or lender changes across office, industrial, mixed-use, and investment assets.",
+  "description": "Commercial refinancing for Sydney business owners, investors, and developers who need to refinance before expiry dates, release equity from tightly held assets, or replace restrictive debt across metro office, industrial, medical, mixed-use, and investment property.",
   "canonical": "/services/refinancing-solutions/cities/sydney",
   "keywords": "commercial refinancing sydney, business loan refinance sydney, commercial property refinance nsw, debt restructure sydney",
   "heroStats": [
     {
-      "label": "Typical review",
+      "label": "Typical first review",
       "value": "24-48hrs"
     },
     {
@@ -18,138 +18,138 @@ const data = {
       "value": "$250K-$50M+"
     },
     {
-      "label": "Common purpose",
-      "value": "Refinance + equity"
+      "label": "Frequent trigger",
+      "value": "Maturity + cash-out"
     },
     {
-      "label": "Security focus",
-      "value": "Commercial property"
+      "label": "Local asset mix",
+      "value": "Industrial + mixed-use"
     }
   ],
   "marketOverview": [
-    "Sydney refinancing files tend to move fastest when the borrower can explain both the property story and the business reason for change. Strong demand usually comes from borrowers trying to improve structure rather than simply chase a headline rate.",
-    "We regularly see refinance conversations around industrial assets in South Sydney and Western Sydney, mixed-use holdings in the Inner West, and office or medical suites in North Sydney and the CBD fringe. Different precincts produce different lender appetite, so local context matters."
+    "Sydney refinancing tends to be less about chasing a marginally lower rate and more about solving a structure problem before it becomes urgent. Borrowers often hold expensive land, tightly held commercial assets, or mixed-use property where equity is substantial but lender appetite is highly sensitive to tenancy, location, and exit clarity.",
+    "We regularly see Sydney refinance discussions in South Sydney industrial precincts, Parramatta and Westmead commercial corridors, North Sydney medical and office stock, and mixed-use Inner West assets. Timing is often shaped by review dates, expiring interest-only periods, covenant fatigue, or the need to release capital without disposing of a well-located asset in a supply-constrained market."
   ],
   "timingPressures": [
-    "An existing lender maturity date is approaching and extension terms are unattractive.",
-    "A Sydney asset has appreciated and the borrower wants to release equity for business growth or another acquisition.",
-    "The current lender has become restrictive on covenants, reporting, or cash-out flexibility.",
-    "A prior short-term or private facility needs to be refinanced into a more stable commercial structure."
+    "An existing lender is within 30 to 90 days of maturity and the renewal terms are materially weaker than the borrower expected.",
+    "A Sydney asset has revalued strongly, but the borrower needs cash-out approval quickly to secure another site, fund fit-out works, or shore up working capital.",
+    "The current bank has become restrictive on lease rollover, annual reviews, or evidence requirements for mixed-use and layered-security files.",
+    "Short-term debt used for acquisition, tax arrears, or urgent settlement now needs to be refinanced before rates, fees, or default pressure escalate."
   ],
   "precinctGroups": [
     {
-      "name": "CBD and fringe",
+      "name": "CBD and city fringe",
       "areas": "Sydney CBD, Surry Hills, Alexandria",
-      "note": "Office, mixed-use, and medical suites where tenant quality and valuation discipline are central."
+      "note": "Office, showroom, and fringe commercial assets where valuation discipline, lease profile, and lender scrutiny are usually high."
     },
     {
-      "name": "North Shore",
+      "name": "North Shore and lower north",
       "areas": "North Sydney, St Leonards, Chatswood",
-      "note": "Borrowers often refinance office, specialist medical, and investment assets with strong metro demand."
+      "note": "Medical, office, and professional suites where borrower quality and tenant durability shape refinance terms."
     },
     {
-      "name": "Inner West and South Sydney",
-      "areas": "Marrickville, Mascot, Botany",
-      "note": "Well-located mixed-use and industrial property often needs flexible lender positioning."
+      "name": "Inner West mixed-use belt",
+      "areas": "Marrickville, Newtown, Leichhardt",
+      "note": "Mixed-use and character commercial property where non-standard improvements and tenancy mix can limit mainstream options."
     },
     {
-      "name": "Western Sydney logistics",
-      "areas": "Wetherill Park, Smithfield, Eastern Creek",
-      "note": "Industrial assets can support refinance and equity release when lease quality is clear."
+      "name": "South Sydney industrial",
+      "areas": "Mascot, Botany, Banksmeadow",
+      "note": "Trade, warehouse, and service-business stock where borrowers often refinance for capital release or better review settings."
     },
     {
-      "name": "Parramatta corridor",
+      "name": "Parramatta growth corridor",
       "areas": "Parramatta, Granville, Westmead",
-      "note": "A blend of commercial, medical, and development-linked refinance scenarios."
+      "note": "Commercial, medical, and development-adjacent assets where refinance is often tied to expansion or portfolio repositioning."
     },
     {
-      "name": "Eastern suburbs commercial",
-      "areas": "Rose Bay, Double Bay, Bondi Junction",
-      "note": "Smaller commercial assets and mixed-use holdings where value concentration matters."
+      "name": "Western Sydney logistics belt",
+      "areas": "Wetherill Park, Smithfield, Eastern Creek",
+      "note": "Industrial holdings with strong occupier demand where borrowers commonly seek larger facilities and cleaner lender fit."
     }
   ],
   "useCases": [
     {
-      "title": "Refinancing an expiring non-bank facility",
-      "body": "Borrowers often refinance after using specialist debt for speed, then transition to a more stable commercial facility once leases, cash flow, or property positioning are stronger."
+      "title": "Refinancing before a hard maturity date",
+      "body": "Sydney borrowers often contact us when a bank or non-bank extension offer is too restrictive, too expensive, or too short. The goal is usually to refinance before the lender gains more leverage over the timetable."
     },
     {
-      "title": "Cash-out for expansion",
-      "body": "Sydney property owners may use refinancing to release capital for fit-outs, acquisitions, working capital, or a second site, subject to lender policy and valuation support."
+      "title": "Equity release from premium metro assets",
+      "body": "Owners of industrial, medical, and mixed-use property may refinance to access capital for another acquisition, partner buyout, tax debt clearance, or business growth, subject to valuation and lender cash-out policy."
     },
     {
-      "title": "Debt simplification across multiple securities",
-      "body": "Where several loans have built up across a portfolio, a refinance can create a cleaner structure with fewer moving parts and better visibility on repayments."
+      "title": "Replacing short-term or private debt",
+      "body": "A temporary facility that solved an acquisition or urgent liquidity problem can often be refinanced once leases, trading, or documentation are in better order."
     },
     {
-      "title": "Restructuring mixed-use or layered security",
-      "body": "Not every Sydney property fits a straightforward bank box. A refinance may involve moving to a lender better suited to mixed-use, specialist, or non-standard files."
+      "title": "Untangling multi-entity or multi-security debt",
+      "body": "Where several loans sit across related entities, trusts, or securities, a Sydney refinance can simplify reporting, improve visibility on repayments, and reduce renewal risk."
     }
   ],
   "caseStudies": [
     {
-      "title": "South Sydney industrial refinance",
-      "summary": "An owner of a modern warehouse in Mascot refinanced a $3.1 million facility approaching maturity. The new structure reduced pressure on the review cycle and released additional capital for warehouse automation and fleet expansion.",
+      "title": "Mascot warehouse refinance ahead of lender expiry",
+      "summary": "An owner-occupier in Mascot had less than six weeks before a non-bank facility matured on a modern warehouse used by a wholesale distribution business. The refinance needed to repay the outgoing lender, preserve operational cash flow, and release funds for fit-out and racking without stretching leverage beyond a level acceptable to the incoming lender.",
       "figures": [
         {
           "label": "Security value",
-          "value": "$5.2 million"
+          "value": "$5.6 million"
         },
         {
           "label": "Outgoing debt",
-          "value": "$3.1 million"
+          "value": "$3.35 million"
         },
         {
           "label": "New facility",
-          "value": "$3.6 million"
-        },
-        {
-          "label": "Capital released",
-          "value": "$500,000"
-        }
-      ]
-    },
-    {
-      "title": "North Sydney medical suite portfolio",
-      "summary": "A borrower holding three medical suites refinanced several fragmented facilities into one commercial structure. The goal was simplicity, stronger lender fit, and easier future planning rather than chasing an aggressive leverage outcome.",
-      "figures": [
-        {
-          "label": "Portfolio value",
-          "value": "$4.4 million"
-        },
-        {
-          "label": "Previous facilities",
-          "value": "3 separate loans"
-        },
-        {
-          "label": "New consolidated debt",
-          "value": "$2.75 million"
-        },
-        {
-          "label": "Purpose",
-          "value": "Simplify + preserve flexibility"
-        }
-      ]
-    },
-    {
-      "title": "Parramatta mixed-use restructure",
-      "summary": "An investor refinanced a mixed-use building with retail below and commercial tenancies above after the current lender tightened conditions. A pragmatic refinance preserved the asset while the tenancy mix was improved over time.",
-      "figures": [
-        {
-          "label": "Property value",
           "value": "$3.9 million"
         },
         {
-          "label": "Refinanced balance",
-          "value": "$2.25 million"
+          "label": "Capital released",
+          "value": "$550,000"
+        }
+      ]
+    },
+    {
+      "title": "North Sydney medical suite consolidation",
+      "summary": "A borrower holding multiple medical suites across related entities wanted to replace three separate loans with one cleaner structure before upcoming lease reviews. The refinance focused on simplicity, future flexibility, and a lender comfortable with specialist medical tenancies rather than maximum leverage.",
+      "figures": [
+        {
+          "label": "Portfolio value",
+          "value": "$4.9 million"
         },
         {
-          "label": "Lease-up reserve",
-          "value": "$180,000"
+          "label": "Previous facilities",
+          "value": "3 loans"
+        },
+        {
+          "label": "New consolidated debt",
+          "value": "$3.0 million"
         },
         {
           "label": "Primary outcome",
-          "value": "Improved lender alignment"
+          "value": "Simplify + improve control"
+        }
+      ]
+    },
+    {
+      "title": "Parramatta mixed-use refinance during tenant changeover",
+      "summary": "An investor with a Parramatta mixed-use building needed a refinance while one retail tenancy was changing over and the existing lender was tightening conditions. The new structure prioritised workable leverage, a sensible interest cover story, and enough flexibility to complete leasing adjustments rather than force a rushed asset sale.",
+      "figures": [
+        {
+          "label": "Property value",
+          "value": "$4.2 million"
+        },
+        {
+          "label": "Refinanced balance",
+          "value": "$2.4 million"
+        },
+        {
+          "label": "Lease-up reserve",
+          "value": "$160,000"
+        },
+        {
+          "label": "Primary outcome",
+          "value": "Avoid forced timing"
         }
       ]
     }
@@ -157,45 +157,45 @@ const data = {
   "processSteps": [
     {
       "title": "Review the current debt",
-      "body": "We assess the existing Sydney facility, current lender settings, payout position, and what needs to change."
+      "body": "We assess the existing Sydney facility, payout position, lender review timing, and whether the refinance is rate-driven, structure-driven, or urgency-driven."
     },
     {
-      "title": "Test lender fit",
-      "body": "We compare bank, non-bank, and specialist refinance options that suit the asset, leverage, and timing."
+      "title": "Map lender appetite",
+      "body": "We compare bank, non-bank, and specialist lenders based on asset type, tenancy, cash-out purpose, and how much time remains before expiry."
     },
     {
-      "title": "Package the application",
-      "body": "We prepare valuation, lease, financial, and entity information so lenders can assess the file cleanly."
+      "title": "Package the scenario",
+      "body": "We organise valuation context, leases, entity documents, financials, and a clear explanation of why the refinance is commercially sensible."
     },
     {
-      "title": "Settle the refinance",
-      "body": "Once terms are accepted, the outgoing lender is repaid and the new facility is documented and settled."
+      "title": "Settle and replace the debt",
+      "body": "Once terms are accepted, outgoing debt is repaid, discharge timing is managed, and the replacement facility settles under the new structure."
     }
   ],
   "faqs": [
     {
-      "q": "Can I refinance a commercial property in Sydney to release equity?",
-      "a": "Potentially, yes. That depends on valuation support, existing debt, lease quality where relevant, and the commercial purpose of the funds."
+      "q": "Can I refinance a Sydney commercial property while leases are rolling over?",
+      "a": "Potentially, yes. It depends on vacancy risk, the strength of remaining income, the asset location, and whether the incoming lender is comfortable with the leasing story and intended exit."
     },
     {
-      "q": "What types of assets are commonly refinanced in Sydney?",
-      "a": "Office, industrial, mixed-use, medical, and owner-occupied commercial properties are common, though lender appetite varies by asset quality and location."
+      "q": "Are Sydney industrial assets generally easier to refinance than office assets?",
+      "a": "Often they can be, but not automatically. Quality location, building utility, tenant covenant, and leverage still matter. Some industrial assets attract stronger lender appetite than secondary office stock, but the scenario still needs to be packaged properly."
     },
     {
-      "q": "Do I need to move away from my current bank to refinance in Sydney?",
-      "a": "Not always. Some borrowers stay with mainstream lenders, while others move to non-bank or specialist lenders when flexibility, timing, or structure matters more."
+      "q": "Can I use a Sydney refinance to release funds for another acquisition?",
+      "a": "Potentially, yes. Lenders usually want a clear commercial purpose for the cash-out, updated valuation support, and evidence that the borrower can service the new structure."
     },
     {
-      "q": "How long does a Sydney commercial refinance usually take?",
-      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, documents, lender process, and how complex the current debt structure is."
+      "q": "How quickly can a Sydney refinance settle if the current lender is near maturity?",
+      "a": "Straightforward files can move relatively quickly, but timing depends on valuation, legal documentation, discharge turnaround, and how complete the borrower information is from the outset."
     },
     {
-      "q": "Can mixed-use property be refinanced in Sydney?",
-      "a": "Potentially, yes. Mixed-use property can be financeable, but lenders usually assess tenancy mix, liquidity, and the balance between commercial and other components carefully."
+      "q": "Do mixed-use Sydney properties need specialist lenders?",
+      "a": "Not always, but they often need a lender with a pragmatic policy on tenancy mix, zoning, and the proportion of non-commercial income. Mainstream options can narrow quickly where the asset falls outside a standard policy box."
     },
     {
-      "q": "What should I prepare before seeking a refinance in Sydney?",
-      "a": "Current loan statements, property details, lease schedules where applicable, business financials if relevant, entity information, and a clear explanation of the purpose and desired outcome."
+      "q": "What should I prepare for a commercial refinance in Sydney?",
+      "a": "Current loan statements, lease schedules where relevant, entity and trust information, recent financials, property details, and a concise explanation of timing pressure and desired refinance outcome all help."
     }
   ],
   "relatedLinks": [
