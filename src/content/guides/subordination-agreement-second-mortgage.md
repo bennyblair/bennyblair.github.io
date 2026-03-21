@@ -16,7 +16,23 @@ A subordination agreement is one of those documents that can quietly decide whet
 
 If you are using a second mortgage in a commercial scenario, you are already dealing with layered security. That means there is a first lender sitting in front, a second lender looking at remaining equity, and a borrower who needs all parties to be aligned enough for settlement to happen. A subordination agreement is often the legal tool that clarifies that ranking, control, and enforcement position.
 
-For business owners, investors, and developers in Australia, the practical issue is not just the definition. The issue is how a subordination agreement affects approval speed, lender appetite, and your exit plan.
+For business owners, investors, and developers in Australia, the practical issue is not just the definition. The issue is how a subordination agreement affects approval speed, lender appetite, and your exit plan. If you are still working out how layered security works more broadly, start with our guide to [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business).
+
+---
+
+> **📚 Complete Guide**: This guide explains one of the key legal mechanics behind layered second-mortgage structures. Read it alongside our broader guide to [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) if you want the full commercial context.
+
+### Related In-Depth Guides
+
+Explore these related guides before structuring a layered property-backed facility:
+
+- **[1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Core overview of how layered mortgage structures work
+- **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — Useful comparison where speed matters and security is property-based
+- **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Relevant when the second mortgage is part of a short-term transition
+- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful if the second mortgage is intended as a temporary step before refinance
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — Compare lender types that commonly operate in layered security positions
+
+---
 
 ### At a Glance
 
@@ -29,7 +45,7 @@ For business owners, investors, and developers in Australia, the practical issue
 
 ## What a subordination agreement actually is
 
-A subordination agreement is a contract that confirms one creditor ranks behind another in priority for repayment or enforcement. In a second mortgage context, it usually makes clear that the first mortgage lender remains senior and that the second lender accepts a subordinated position.
+A subordination agreement is a contract that confirms one creditor ranks behind another in priority for repayment or enforcement. In many commercial scenarios, that sits inside a broader [second mortgage](/resources/guides/first-and-second-mortgages-for-business) or layered private lending structure. In a second mortgage context, it usually makes clear that the first mortgage lender remains senior and that the second lender accepts a subordinated position.
 
 Sometimes this is straightforward because the title position already shows who is first and who is second. But title ranking alone does not always answer every operational question. Lenders may still want a separate document dealing with payment waterfalls, notice obligations, standstill periods, cure rights, enforcement steps, and what happens if the borrower defaults.
 
@@ -118,7 +134,7 @@ A second lender may support the request, but only after reviewing the first mort
 
 A Melbourne investor has a commercial asset under pressure because an expiring non-bank facility must be repaid within weeks. A second mortgage is proposed to create breathing room while a broader refinance is arranged.
 
-Here, a subordination agreement matters because everyone needs certainty about who controls the file if the bridge runs longer than planned. The document can help turn a vaguely risky structure into a defined one.
+Here, a subordination agreement matters because everyone needs certainty about who controls the file if the bridge runs longer than planned. That is one reason [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) and second-mortgage deals often overlap in real transactions. The document can help turn a vaguely risky structure into a defined one.
 
 ### Example 3: Development site with layered debt
 
@@ -138,7 +154,7 @@ Some first lenders are pragmatic. Others are not. The answer can materially chan
 
 ### Be realistic about leverage
 
-A second mortgage might be technically possible but commercially unattractive if the combined leverage is too aggressive for available equity and exit certainty.
+A second mortgage might be technically possible but commercially unattractive if the combined leverage is too aggressive for available equity and exit certainty. In some cases, a cleaner [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) or [private mortgage lending](/resources/guides/private-mortgage-lenders-australia-directory) path may be stronger.
 
 ### Keep the exit simple
 
