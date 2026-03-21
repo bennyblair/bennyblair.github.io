@@ -8,64 +8,64 @@ export default function CommercialDevelopmentMelbourne() {
       state="VIC"
       canonical="/services/commercial-property-development/cities/melbourne"
       title="Commercial Development Finance Melbourne | Property Development Loans Melbourne | Emet Capital"
-      description="Secure development finance for construction projects in Melbourne. Fund residential, commercial, and mixed-use developments across Victoria's dynamic property market. Apply today."
-      localIntro="Development finance in Melbourne supports construction projects across Victoria's diverse and evolving property landscape."
-      localFocus="In Melbourne, development finance enables projects ranging from inner-city apartment towers and mixed-use precincts to suburban residential subdivisions, commercial office developments, and industrial estates in key logistics corridors. The city's urban growth boundary, planning framework evolution, infrastructure investment, and population growth create both constraints and opportunities for developers."
-      marketOverview="Melbourne's development market balances inner-city density with suburban expansion, creating diverse opportunities across residential, commercial, and industrial sectors. The city's planning system undergoes regular review, influencing development potential in established and growth areas. Development finance addresses Melbourne's specific requirements—managing planning uncertainty, aligning with infrastructure timelines, navigating community consultation processes, and structuring finance for projects with extended approval pathways."
-      timingPressures="Timing pressure in Melbourne development comes from planning approval complexity, community objection processes, infrastructure coordination requirements, construction sequencing in dense urban environments, and market cycle considerations. Successful Melbourne developers manage these pressures through early engagement with planning authorities, realistic project phasing, contingency allowances for approval delays, and finance structures that accommodate extended timelines without excessive cost accumulation."
+      description="Secure development finance for Melbourne projects including infill apartments, industrial developments, mixed-use precincts, and staged subdivisions across Victoria's broad development market."
+      localIntro="Melbourne development finance tends to revolve around planning patience, realistic contingencies, and lender structures that can survive longer approval and delivery timelines without killing the deal economics."
+      localFocus="Across Melbourne, developers are working in very different micro-markets: apartment and mixed-use infill in the inner suburbs, logistics and industrial product in the west and south-east, urban renewal around Fishermans Bend and Arden, and land subdivision through the city's outer growth fronts. Funding needs to reflect whether the pressure point is planning complexity, build cost escalation, presale depth, or a staged civil works program rather than treating the whole city as one market."
+      marketOverview="Melbourne combines dense urban redevelopment with one of Australia's largest greenfield housing pipelines. Inner-city projects often face design review, neighbourhood character concerns, heritage overlays, and slower pathways to certainty. By contrast, outer-corridor projects depend on infrastructure timing, lot release sequencing, and construction contractor availability. Industrial development has its own dynamic again, with occupier demand around Truganina, Laverton North, Dandenong South, and Somerton shaping feasibility. Good development finance in Melbourne usually requires a lender that understands the local planning context as much as the spreadsheet."
+      timingPressures="Timing pressure in Melbourne is often created by permit amendments, VCAT or objection risk, service authority delays, builder repricing, and the need to hold sites through a longer pre-construction period than many borrowers originally modelled. That makes contingency, interest capitalisation, and practical milestone structuring especially important for Melbourne transactions."
       suburbCoverage={[
         {
-          title: 'CBD, Docklands, and Southbank precincts',
-          text: 'Melbourne CBD, Docklands, Southbank, and Fishermans Bend feature high-rise residential, commercial, and mixed-use developments with complex engineering requirements, premium finishes, and extended construction programs in dense urban environments.'
+          title: 'CBD, Southbank, Docklands, and major renewal precincts',
+          text: 'The CBD, Southbank, Docklands, Arden, and Fishermans Bend suit apartment, hotel, office, and mixed-use projects where build complexity, consultant coordination, and planning overlays often shape the lender pool.'
         },
         {
-          title: 'Inner suburbs and established urban areas',
-          text: 'South Yarra, Prahran, Richmond, Fitzroy, Brunswick, and Carlton generate medium-density residential, boutique commercial, and mixed-use developments where heritage considerations, neighbourhood character, and community expectations influence design and approval processes.'
+          title: 'Inner and middle-ring infill suburbs',
+          text: 'Richmond, Brunswick, Carlton, Preston, Footscray, Camberwell, and Box Hill support townhouse, apartment, medical, education-adjacent, and mixed-use redevelopment where neighbourhood character, heritage, and local sales evidence matter.'
         },
         {
-          title: 'Middle and outer suburban growth corridors',
-          text: 'Werribee, Point Cook, Craigieburn, Mernda, Cranbourne, and Pakenham produce residential subdivisions, townhouse developments, and mixed-use precincts serving Melbourne\'s expanding population through greenfield and brownfield development opportunities.'
+          title: 'Western, northern, and south-eastern growth corridors',
+          text: 'Werribee, Tarneit, Craigieburn, Mickleham, Clyde, Officer, Truganina, and Dandenong South generate subdivision, industrial, logistics, and business-park projects linked to freight networks and ongoing population growth.'
         }
       ]}
       localUseCases={[
         {
-          title: 'Inner-city apartment and mixed-use developments',
-          text: 'High-density residential and mixed-use projects in CBD, Docklands, and inner suburbs, where population growth, infrastructure investment, and urban renewal policies support development feasibility despite planning complexity.'
+          title: 'Medium-density infill apartments and townhouses',
+          text: 'Projects in established suburbs where strong local owner-occupier demand can support pricing, but finance still needs to allow for design revisions, neighbour objections, and elongated planning periods.'
         },
         {
-          title: 'Suburban residential subdivisions',
-          text: 'Land subdivision and medium-density residential projects in growth corridors, where population expansion, infrastructure rollout, and affordability considerations drive demand for new housing stock.'
+          title: 'Industrial and logistics development',
+          text: 'Warehouse, showroom, and estate delivery across the west and south-east where low vacancy and freight access support take-up, but lender scrutiny remains high on leasing assumptions and construction budgets.'
         },
         {
-          title: 'Commercial and office developments',
-          text: 'Office buildings, business parks, and commercial premises in CBD, fringe, and suburban locations, where tenant demand, location quality, and sustainability standards influence development viability.'
+          title: 'Growth-corridor subdivision funding',
+          text: 'Civil works and staged lot-release projects where infrastructure timing, drainage, council conditions, and sales absorption all need to be reflected in the facility term and drawdown mechanics.'
         },
         {
-          title: 'Industrial and logistics facilities',
-          text: 'Warehouses, distribution centres, and industrial estates in key logistics corridors including Dandenong South, Truganina, and Somerton, where e-commerce growth and supply chain evolution drive development demand.'
+          title: 'Mixed-use urban renewal projects',
+          text: 'Projects combining residential, retail, office, or build-to-sell outcomes in precincts undergoing rezoning or densification, where the capital stack often needs more nuance than a standard construction facility.'
         }
       ]}
       scenarios={[
         {
-          title: 'South Yarra Mixed-Use Development',
-          scenario: 'A developer acquired a 1,850sqm site in South Yarra with existing commercial buildings. The project involved constructing an 8-storey mixed-use building with ground-floor retail, two levels of commercial space, and five levels of residential apartments. Total development costs were estimated at $28 million with a projected end value of $39 million upon completion.',
-          solution: 'A development finance facility of $21 million (75% of costs) was structured with progressive drawdowns against 10 certified construction milestones. The facility included heritage considerations, community consultation requirements, and a 12-month post-completion interest capitalisation period to allow for strata registration and sales settlement.',
+          title: 'Brunswick Mixed-Use Corner Redevelopment',
+          scenario: 'A borrower assembled two adjoining Brunswick sites and proposed a 6-level project with ground-floor hospitality and 22 apartments above. The location offered strong end-buyer demand, but the deal carried design review risk and a longer consultant program than the sponsor first expected. Total development costs were budgeted at $15.8 million with projected gross realisation of $21.9 million.',
+          solution: 'A $11.7 million facility was structured with interest capitalisation, progressive drawdowns against consultant, demolition, structure, and completion milestones, plus a covenant package that allowed the sponsor to update sales evidence as campaigns matured. That reduced pressure to force early pricing into a soft launch.' ,
           outcomes: [
-            { label: 'Total development cost', value: '$28M' },
-            { label: 'Development finance', value: '$21M' },
-            { label: 'Developer equity', value: '$7M (25%)' },
-            { label: 'Projected end value', value: '$39M' }
+            { label: 'Total development cost', value: '$15.8M' },
+            { label: 'Development finance', value: '$11.7M' },
+            { label: 'Developer equity', value: '$4.1M' },
+            { label: 'Projected realisation', value: '$21.9M' }
           ]
         },
         {
-          title: 'Werribee Residential Subdivision',
-          scenario: 'A landowner with 8 hectares in Werribee sought to subdivide the property into 60 residential lots. The project involved earthworks, road construction, utility services installation, parkland dedication, and landscaping. Total development costs were $9.8 million with projected lot sales totalling $15.3 million upon completion and registration.',
-          solution: 'A subdivision development facility of $7.35 million (75% of costs) was provided with drawdowns tied to planning approval, earthworks completion, services installation, and final registration stages. The facility term allowed for 24-month construction (including planning phase) plus 9-month sales period, reflecting Melbourne\'s typical subdivision timelines.',
+          title: 'Truganina Industrial Estate Stage',
+          scenario: 'An experienced sponsor sought funding for a 9-unit industrial estate in Truganina targeting owner-occupiers and trade businesses wanting access to the Western Freeway and Port of Melbourne freight routes. Total project costs were $13.2 million, with a projected end value of $17.6 million once completed and sold down.',
+          solution: 'Development finance of $9.9 million was arranged with staged drawdowns and a structure that recognised a mix of pre-committed sales and speculative stock. The lender focused on local comparables, builder capacity, and estate design rather than imposing apartment-style presale hurdles that did not fit the asset class.',
           outcomes: [
-            { label: 'Number of lots', value: '60 residential lots' },
-            { label: 'Development cost', value: '$9.8M' },
-            { label: 'Development finance', value: '$7.35M' },
-            { label: 'Projected sales', value: '$15.3M' }
+            { label: 'Industrial units', value: '9 units' },
+            { label: 'Development cost', value: '$13.2M' },
+            { label: 'Development finance', value: '$9.9M' },
+            { label: 'Projected end value', value: '$17.6M' }
           ]
         }
       ]}
@@ -88,28 +88,28 @@ export default function CommercialDevelopmentMelbourne() {
       ]}
       faqs={[
         {
-          question: 'What are Melbourne\'s key development precincts?',
-          answer: 'Key precincts include CBD and Docklands for high-density projects, Fishermans Bend for urban renewal, inner suburbs for medium-density infill, and growth corridors (Werribee, Craigieburn, Cranbourne) for residential subdivisions. Each precinct has specific planning frameworks and development considerations.'
+          question: 'What Melbourne project types are easiest to finance?',
+          answer: 'Well-located medium-density infill projects, industrial developments in proven precincts, and subdivision stages with clear infrastructure pathways are usually easier to finance than highly speculative high-rise projects with unresolved planning or weak end-value support.'
         },
         {
-          question: 'How does Melbourne\'s planning system affect development finance?',
-          answer: 'Melbourne\'s planning system can introduce uncertainty through extended approval timelines, community consultation requirements, and potential objections. Development finance structures often include contingency for planning delays and may stage drawdowns to align with approval milestones rather than construction commencement.'
+          question: 'How do planning delays affect Melbourne development loans?',
+          answer: 'Planning delays can materially increase holding costs and reduce borrower flexibility. A sensible Melbourne facility often needs enough time, capitalised interest, and milestone design to absorb permit, services, or objection delays without immediately breaching feasibility.'
         },
         {
-          question: 'What equity is typically required for Melbourne developments?',
-          answer: 'Equity requirements generally range from 20-35% of total development costs. Inner-city projects with planning complexity may require higher equity (25-35%), while established suburban subdivisions might secure finance with 20-30% equity. Developer experience and presale levels significantly influence requirements.'
+          question: 'Do lenders look differently at Melbourne apartments versus industrial projects?',
+          answer: 'Yes. Apartment lending is typically more sensitive to presales, buyer depth, and project scale, while industrial funding often turns on location, take-up evidence, tenant or buyer demand, and construction simplicity relative to the end product.'
         },
         {
-          question: 'Are presales required for Melbourne apartment developments?',
-          answer: 'Most lenders require 50-70% presales for high-density residential projects in Melbourne. Some specialist lenders may fund with lower presale levels (30-50%) for experienced developers or projects with strong feasibility. Presale requirements are typically higher for projects over 10 units or in oversupplied submarkets.'
+          question: 'Can finance be arranged for a Melbourne site before all presales are complete?',
+          answer: 'Potentially. Specialist lenders may support a project with partial presales if the suburb, stock profile, sponsor experience, and end-value evidence are strong enough, although terms and pricing will depend on risk.'
         },
         {
-          question: 'Can development finance cover planning and approval costs?',
-          answer: 'Yes, development finance can include planning, design, and approval costs as part of the total development budget. These are typically funded early in the facility, with drawdowns conditional on achieving specific planning milestones or providing evidence of expenditure.'
+          question: 'Which Melbourne precincts are most active for development finance?',
+          answer: 'Activity is commonly seen across inner-north and inner-west infill markets, urban renewal corridors such as Fishermans Bend and Arden, growth areas in the west and north, and industrial precincts including Truganina, Laverton North, and Dandenong South.'
         },
         {
-          question: 'How long do Melbourne development approvals typically take?',
-          answer: 'Timelines vary significantly: simple residential subdivisions 6-12 months, medium-density residential 12-18 months, high-density mixed-use 18-36 months. Complex projects with heritage considerations or community objections can extend beyond these ranges. Finance structures should accommodate realistic approval timelines.'
+          question: 'Can a Melbourne development facility include soft costs and contingencies?',
+          answer: 'Yes. Depending on the deal, lenders may fund land or site refinance, consultant and permit costs, civil works, hard construction costs, interest capitalisation, and contingency allowances supported by the quantity surveyor and feasibility.'
         }
       ]}
     />

@@ -8,64 +8,64 @@ export default function CommercialDevelopmentPerth() {
       state="WA"
       canonical="/services/commercial-property-development/cities/perth"
       title="Commercial Development Finance Perth | Property Development Loans Perth | Emet Capital"
-      description="Secure development finance for construction projects in Perth. Fund residential, commercial, and industrial developments across Western Australia's resource-driven property market. Apply today."
-      localIntro="Development finance in Perth provides funding for construction and development projects across Western Australia's resource-driven property market."
-      localFocus="In Perth, development finance enables projects ranging from residential subdivisions in growth corridors to commercial developments serving the mining sector, industrial facilities in strategic logistics hubs, and regional mining accommodation projects. The city's resource sector cycles, population growth, and infrastructure investment in transport and employment precincts create diverse opportunities across residential, commercial, and industrial sectors."
-      marketOverview="Perth's property development landscape is uniquely influenced by resource sector cycles, with mining industry employment and investment driving population growth, housing demand, and commercial property requirements. The city's planning framework supports urban consolidation in established areas while accommodating expansion in northern corridors toward Two Rocks and southern growth areas extending to Mandurah and Pinjarra. Recent infrastructure investment including Metronet rail extensions, Perth Stadium precinct development, and industrial estate expansions creates development opportunities across residential, commercial, and industrial sectors."
-      timingPressures="Timing pressure in Perth development comes from resource sector cycles influencing demand, planning approval processes, construction scheduling with skilled labor often deployed to mining projects, presale achievement timelines, and interest cost accumulation during extended builds. Successful Perth developers manage these pressures through realistic feasibility accounting for resource sector exposure, experienced project teams, contingency planning, and finance structures that align with project rhythms and market conditions."
+      description="Secure development finance for Perth projects including industrial assets, townhouse sites, infill apartments, and subdivision stages across Western Australia's distinct market cycle."
+      localIntro="Perth development finance is usually less about copying east-coast templates and more about understanding resource-linked demand, lower-density urban form, and the suburbs where supply remains genuinely constrained."
+      localFocus="Perth developers often operate in a market shaped by mining and energy confidence, migration into affordable corridors, and strong occupier demand for industrial product near freight networks. That creates very different funding requirements for townhouse infill in established suburbs, warehouse development in Kewdale or Jandakot, apartment sites near the river or coast, and subdivision stages further north or south. The best funding structures recognise Perth's local absorption patterns instead of assuming Sydney or Melbourne style presale behaviour."
+      marketOverview="Perth's market can move sharply when confidence improves, especially in industrial and selected residential segments, but lender appetite still depends heavily on product type and suburb. Infill redevelopment around Subiaco, Osborne Park, Mount Hawthorn, and Como looks nothing like estate delivery through Alkimos, Baldivis, or Byford. Industrial demand in Welshpool, Kewdale, Hazelmere, and Jandakot is often driven by freight access, trade users, and supply-chain activity rather than institutional-grade leasing stories. Development finance in Perth works best when the lender understands this local mix, the likely buyer or tenant pool, and the practical contractor environment."
+      timingPressures="Timing pressure in Perth often comes from trying to lock in builder capacity before labour shifts toward large resources or infrastructure work, settling sites while approvals are still progressing, and taking advantage of improving demand without overextending on speculative stock. The wrong debt structure can leave a borrower carrying too much land or construction risk through a changing cycle."
       suburbCoverage={[
         {
-          title: 'CBD, inner-city, and established suburbs',
-          text: 'Perth CBD, East Perth, West Perth, Subiaco, and Leederville feature medium to high-density residential, commercial, and mixed-use developments with complex planning requirements, premium construction standards, and extended approval timelines in established urban environments.'
+          title: 'CBD, riverfront, and established inner suburbs',
+          text: 'Perth CBD, East Perth, South Perth, Subiaco, Leederville, Mount Lawley, and Como support apartment, mixed-use, office, and medical redevelopment where design quality and local resale evidence are central to lender confidence.'
         },
         {
           title: 'Northern and southern growth corridors',
-          text: 'Butler, Alkimos, Yanchep, Baldivis, and Mandurah produce residential subdivisions, townhouse developments, and mixed-use precincts serving Perth\'s expanding population through greenfield development opportunities supported by infrastructure investment.'
+          text: 'Alkimos, Yanchep, Ellenbrook, Byford, Baldivis, and Mandurah generate subdivision, townhouse, childcare, neighbourhood retail, and mixed-use projects linked to population growth and new transport connections.'
         },
         {
-          title: 'Industrial and logistics precincts',
-          text: 'Welshpool, Kewdale, Hazelmere, and Jandakot generate industrial warehouse, distribution centre, and manufacturing facility developments serving the mining sector, logistics networks, and broader Western Australian economy.'
+          title: 'Industrial and airport-freight precincts',
+          text: 'Kewdale, Welshpool, Hazelmere, Forrestdale, and Jandakot are key locations for warehouses, transport depots, workshops, and trade estates serving logistics, construction, and mining-service users.'
         }
       ]}
       localUseCases={[
         {
-          title: 'Residential subdivisions and townhouse developments',
-          text: 'Land subdivision and medium-density residential projects in growth corridors, where population growth drives demand for new housing stock and infrastructure investment supports development feasibility.'
+          title: 'Industrial warehouse and trade-estate projects',
+          text: 'Perth\'s industrial market often provides some of the clearest development stories, particularly where access, yard design, and occupier demand support either pre-lease or sell-down strategies.'
         },
         {
-          title: 'Mining accommodation and workforce housing',
-          text: 'Workforce accommodation facilities, mining camps, and residential developments serving resource sector employment hubs in Perth and regional Western Australia.'
+          title: 'Townhouse and medium-density infill',
+          text: 'Established suburbs can suit smaller-scale projects aimed at owner-occupiers and downsizers who want location and amenity without inner-city tower product.'
         },
         {
-          title: 'Industrial and logistics facilities',
-          text: 'Warehouses, distribution centres, and industrial estates in strategic logistics hubs, where mining sector demand, e-commerce growth, and supply chain evolution drive development requirements.'
+          title: 'Subdivision stages in expanding corridors',
+          text: 'Growth-area projects require finance that fits civil works sequencing, title issuance, and realistic lot absorption rather than overly aggressive sell-down assumptions.'
         },
         {
-          title: 'Commercial and office developments',
-          text: 'Office buildings, business parks, and commercial premises serving mining services, engineering, and professional services sectors in Perth\'s CBD and established business precincts.'
+          title: 'Specialised projects servicing resource and trade demand',
+          text: 'Selected developments linked to mining services, heavy vehicle use, engineering, or contractor accommodation can be funded where the sponsor, asset, and local evidence are strong.'
         }
       ]}
       scenarios={[
         {
-          title: 'Baldivis Townhouse Development',
-          scenario: 'A Perth developer identified a 4,000sqm infill site in Baldivis within the southern growth corridor, with approved DA for 16 townhouses targeting young families and mining sector workers. With construction costs of $4.2M and land valued at $1.6M, they required $4.8M development finance (having $1M equity). Traditional banks required 60% presales and were hesitant about resource sector exposure despite strong local employment from nearby industrial estates and mining service companies.',
-          solution: 'Specialist development finance with 25% presale requirements was arranged, approved in 3 weeks based on end-value assessment and strong local demand fundamentals. The facility provided progressive drawdowns against 8 construction milestones with interest capitalisation during the 14-month build period.',
+          title: 'Jandakot Trade and Warehouse Estate',
+          scenario: 'A sponsor secured a Jandakot site to deliver a 12-unit trade and warehouse estate targeting contractors, auto-related users, and small logistics businesses needing south-of-river access. Total development costs were projected at $11.4 million with an expected end value of $15.5 million once the units were completed and sold.',
+          solution: 'A facility of $8.3 million was arranged with progressive drawdowns against civil works, slabs, structure, and completion. The debt was matched to a staged sell-down approach so the borrower could pre-sell some units while retaining flexibility to hold the balance for stronger market pricing if needed.',
           outcomes: [
-            { label: 'Total development cost', value: '$5.8M' },
-            { label: 'Development finance', value: '$4.8M' },
-            { label: 'Developer equity', value: '$1M (17%)' },
-            { label: 'Projected end value', value: '$7.6M' }
+            { label: 'Industrial units', value: '12 units' },
+            { label: 'Development cost', value: '$11.4M' },
+            { label: 'Development finance', value: '$8.3M' },
+            { label: 'Projected end value', value: '$15.5M' }
           ]
         },
         {
-          title: 'Welshpool Industrial Warehouse Development',
-          scenario: 'An investor secured a 5,000sqm site in Welshpool zoned for industrial development. The project involved constructing a 3,500sqm warehouse with 10m clear height, office amenities, and yard space. Total development costs were $6.8 million with a projected end value of $9.2 million upon completion and lease execution.',
-          solution: 'A development finance facility of $5.1 million (75% of costs) was structured with progressive drawdowns against 6 certified construction milestones. The facility included a 6-month interest capitalisation period post-completion to allow for tenant fitout and lease commencement.',
+          title: 'Como Boutique Apartment Redevelopment',
+          scenario: 'A Perth borrower acquired an older riverside site in Como with plans for 18 boutique apartments aimed at downsizers seeking low-maintenance stock close to the CBD and foreshore amenity. Total costs were estimated at $14.1 million with projected gross realisation of $19.2 million.',
+          solution: 'Development finance of $10.2 million was structured with a measured presale covenant, interest capitalisation during construction, and reporting milestones that reflected the slower but premium nature of the target buyer pool. That gave the sponsor time to market properly rather than discounting early to satisfy a generic metropolitan rule set.',
           outcomes: [
-            { label: 'Warehouse size', value: '3,500sqm' },
-            { label: 'Development cost', value: '$6.8M' },
-            { label: 'Development finance', value: '$5.1M' },
-            { label: 'Projected end value', value: '$9.2M' }
+            { label: 'Apartments', value: '18 units' },
+            { label: 'Development cost', value: '$14.1M' },
+            { label: 'Development finance', value: '$10.2M' },
+            { label: 'Projected realisation', value: '$19.2M' }
           ]
         }
       ]}
@@ -88,28 +88,28 @@ export default function CommercialDevelopmentPerth() {
       ]}
       faqs={[
         {
-          question: 'What development types can be financed in Perth?',
-          answer: 'Residential subdivisions, townhouse developments, apartment buildings, commercial offices, industrial warehouses, retail centers, and mining accommodation facilities across greater Perth and regional Western Australia are commonly financed.'
+          question: 'What Perth development sectors currently attract the most lender interest?',
+          answer: 'Industrial and trade-focused developments in proven precincts are often attractive, alongside selected townhouse, boutique apartment, and subdivision projects where local demand and sponsor capability are well evidenced.'
         },
         {
-          question: 'How quickly can development finance be approved in Perth?',
-          answer: 'Simple developments with clear feasibility can receive indicative approval within 2-3 weeks. Complex projects or regional locations may require 4-6 weeks for full approval and documentation.'
+          question: 'Is Perth development finance more flexible on presales than Sydney or Melbourne?',
+          answer: 'It can be, depending on the asset class. Specialist lenders may take a more practical view on presales for Perth projects if the stock is well located, the borrower is experienced, and the end-value evidence is strong.'
         },
         {
-          question: 'Do I need Western Australian planning approvals before applying?',
-          answer: 'Either approved development applications or clear pathways to approval are typically required. Some lenders offer pre-approval land facilities that convert to construction finance once development approval is received.'
+          question: 'Can finance be arranged for warehouse projects in Perth logistics precincts?',
+          answer: 'Yes. Warehouses, trade estates, and specialised industrial buildings in areas such as Kewdale, Welshpool, Hazelmere, and Jandakot are commonly considered, subject to the sponsor, design, and local demand profile.'
         },
         {
-          question: 'What equity contribution is required for Perth developments?',
-          answer: 'Typical equity requirements range from 20-35% of total development costs. Factors include project type, developer experience, location, and overall project risk. Experienced developers with proven track records may access lower equity requirements.'
+          question: 'How do resource-sector conditions affect Perth development lending?',
+          answer: 'They can influence labour availability, occupier demand, and broader confidence. Lenders do not usually fund purely on mining sentiment, but they do take local economic conditions into account when assessing project risk and exit strategy.'
         },
         {
-          question: 'Are presales required for Perth residential developments?',
-          answer: 'Presale requirements vary by lender and project. Traditional banks often require 50-70% presales, while specialist lenders may assess on end-value with reduced or no presale requirements, particularly for established locations or experienced developers.'
+          question: 'Can a Perth development facility include land carry and soft costs?',
+          answer: 'Potentially, yes. Depending on the structure, finance can cover acquisition or site refinance, consultant and approval costs, hard construction, capitalised interest, and contingency allocations supported by the feasibility and QS review.'
         },
         {
-          question: 'Can development finance cover land acquisition in Perth?',
-          answer: 'Yes, integrated development finance structures typically include land acquisition funding, either as combined facilities or as land loans converting to construction finance upon development approval and construction commencement.'
+          question: 'Which Perth suburbs are common for smaller infill development projects?',
+          answer: 'Established pockets such as Subiaco, Como, Mount Hawthorn, Leederville, Innaloo, and parts of South Perth often generate boutique redevelopment opportunities where owner-occupier demand supports smaller, more targeted projects.'
         }
       ]}
     />
