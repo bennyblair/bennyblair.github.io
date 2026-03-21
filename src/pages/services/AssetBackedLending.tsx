@@ -304,6 +304,54 @@ const AssetBackedLending = () => {
             </div>
           </section>
         </div>
+
+          {/* City-specific pages */}
+          <section className="mb-16">
+            <div className="bg-muted/30 rounded-lg p-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">Asset-Backed Lending by Location</h2>
+              <p className="text-muted-foreground mb-6">
+                Explore our city-specific asset-backed lending pages for local market context and commercial funding scenarios:
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link 
+                  to="/services/asset-backed-lending/sydney" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Sydney <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/asset-backed-lending/melbourne" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Melbourne <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/asset-backed-lending/brisbane" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Brisbane <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/asset-backed-lending/perth" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Perth <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/asset-backed-lending/adelaide" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Adelaide <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+                <Link 
+                  to="/services/asset-backed-lending/gold-coast" 
+                  className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors"
+                >
+                  Gold Coast <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+          </section>
       </div>
     </>
   );
