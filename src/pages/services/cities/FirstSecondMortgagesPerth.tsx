@@ -9,40 +9,40 @@ export default function FirstSecondMortgagesPerth() {
       canonical="/services/first-second-mortgages/cities/perth"
       title="1st & 2nd Mortgages Perth | Commercial Property Finance | Emet Capital"
       description="Commercial first and second mortgages in Perth for acquisitions, refinance pressure, equity release, and business-purpose property transactions across metro and WA-linked industrial corridors."
-      localIntro="Commercial first and second mortgages for Perth borrowers who need a property-backed structure that respects local market cycles, asset quality, and transaction speed."
-      localFocus="In Perth that may include industrial owner-occupied property near freight and trade corridors, investor deals tied to metro commercial assets, second mortgage funding against established equity, and refinance work where a resource-linked or industrial borrower needs flexibility rather than a rigid bank template."
-      marketOverview="Perth can reward lenders who understand the asset and punish those who rely on generic assumptions. Industrial, logistics, trade-linked, and mixed commercial assets can all work well, but underwriting usually turns on lease profile, market depth, and how exposed the borrower is to timing or sector concentration."
-      timingPressures="Timing pressure in Perth often appears around business expansion, debt maturities, and acquisition windows where the property is solid but the borrower cannot wait for a long mainstream process. Second mortgage scenarios also show up when equity exists and the first mortgage is worth preserving."
+      localIntro="Commercial first and second mortgages for Perth borrowers who need structures that make sense in a market shaped by industrial demand, trade exposure, and a lender preference for assets with clear local depth rather than generic east-coast assumptions."
+      localFocus="In Perth that may include a first mortgage on a Welshpool or Canning Vale industrial site, a second mortgage behind existing debt on a Subiaco or West Perth commercial asset, refinance work for businesses tied to freight and logistics corridors, or funding that supports operational expansion without forcing a full capital-stack reset."
+      marketOverview="Perth can be extremely workable for commercial mortgage borrowers when the asset is well located and the purpose of funds is coherent. Industrial and trade-linked property often receives stronger attention than more specialised stock, while office and mixed-use assets may need tighter explanation around leasing, vacancy, and marketability. Borrowers with WA exposure also tend to be assessed through the lens of cash-flow resilience, sector concentration, and how practical the property would be to refinance or sell if conditions changed."
+      timingPressures="Timing pressure in Perth often shows up around debt maturities, equipment or stock expansion tied to property security, acquisitions in established industrial precincts, or situations where a borrower wants to move before a mainstream lender completes a slower review. Second mortgages are also used when there is usable equity but a worthwhile first mortgage should be left in place."
       suburbCoverage={[
         {
           title: 'CBD and inner-metro commercial precincts',
-          text: 'Perth CBD, West Perth, East Perth, and Subiaco can produce office and mixed-use mortgage files where lease quality, vacancy profile, and valuation evidence matter heavily.'
+          text: 'Perth CBD, West Perth, East Perth, and Subiaco can produce office and mixed-use mortgage files where lease profile, vacancy settings, and valuation evidence are central to lender confidence.'
         },
         {
-          title: 'Industrial and port-linked corridors',
-          text: 'Welshpool, Kewdale, Canning Vale, Bibra Lake, and Fremantle-linked precincts often support warehouse and industrial mortgage scenarios tied to transport, trade, and light manufacturing.'
+          title: 'Industrial and freight-linked corridors',
+          text: 'Welshpool, Kewdale, Canning Vale, Bibra Lake, and Fremantle-linked precincts often support warehouse and industrial mortgage scenarios tied to logistics, light manufacturing, trade businesses, and transport operators.'
         },
         {
-          title: 'Northern and southern growth markets',
-          text: 'Osborne Park, Wangara, Malaga, and Cockburn corridors can generate owner-occupied and investor demand where business-purpose property finance helps expansion and consolidation.'
+          title: 'Northern and southern operating hubs',
+          text: 'Osborne Park, Wangara, Malaga, Cockburn, and other operating corridors can generate owner-occupied and investor demand where business-purpose property finance supports expansion, consolidation, or refinancing.'
         }
       ]}
       localUseCases={[
         {
           title: 'Owner-occupied industrial purchases',
-          text: 'Perth businesses often use first mortgages to secure warehouses, yards, and operating premises so they can control their footprint rather than rely on leased stock.'
+          text: 'Perth businesses often use first mortgages to secure warehouses, yards, and operating premises so they can control their footprint rather than remain exposed to shifting lease conditions.'
         },
         {
-          title: 'Second mortgages for business liquidity',
-          text: 'A second mortgage may suit borrowers who have property equity but need additional capital for stock, acquisition support, or operational upgrades without disturbing senior debt.'
+          title: 'Second mortgages for growth liquidity',
+          text: 'A second mortgage may suit borrowers who have equity in a Perth commercial asset and need additional capital for stock, equipment, acquisition support, or operational upgrades without disturbing senior debt.'
         },
         {
-          title: 'Refinance stabilisation',
+          title: 'Refinance stabilisation for maturing debt',
           text: 'When an existing lender reaches maturity or changes appetite, a new first mortgage can reset the structure around the property and the borrower’s current commercial plan.'
         },
         {
-          title: 'Investor repositioning',
-          text: 'Investors may also use first or second mortgage debt to complete improvements, hold an asset through lease-up, or support a later refinance once the property story strengthens.'
+          title: 'Investor repositioning through lease-up or capex',
+          text: 'Investors may also use first or second mortgage debt to complete improvements, hold an asset through leasing works, or support a later refinance once the property story strengthens.'
         }
       ]}
       scenarios={[
@@ -88,20 +88,20 @@ export default function FirstSecondMortgagesPerth() {
       ]}
       faqs={[
         {
-          question: 'Can Perth industrial property support a first mortgage?',
-          answer: 'Yes, if the warehouse or industrial asset is marketable, appropriately valued, and the borrower’s business purpose fits lender policy.'
+          question: 'Do Perth lenders usually prefer industrial property over specialised commercial assets?',
+          answer: 'Often yes. Standard industrial property in established operating corridors can be easier for lenders to assess than niche or thinly traded assets, although each deal still depends on leverage, cash flow, and property quality.'
         },
         {
-          question: 'When might a second mortgage be used in Perth?',
-          answer: 'Common examples include business expansion, acquisition support, or liquidity against property equity where refinancing the whole first mortgage is not the preferred move.'
+          question: 'When might a Perth borrower use a second mortgage instead of refinancing?',
+          answer: 'Usually when the first mortgage remains commercially worthwhile and the borrower only needs additional capital for a defined business purpose such as acquisition support, stock, equipment, or expansion.'
         },
         {
-          question: 'Do lenders treat Perth differently from east-coast markets?',
-          answer: 'They often look more closely at asset liquidity, local demand, and sector exposure, especially for specialised or trade-linked property.'
+          question: 'What documentation tends to matter most in WA mortgage files?',
+          answer: 'Clear financials, a sensible explanation of sector exposure, property details, valuation support, and a practical exit or refinance path usually matter most, especially where the borrower operates in trade-linked industries.'
         },
         {
-          question: 'Can a first mortgage help with an expiring private facility?',
-          answer: 'Potentially, yes. A refinance can stabilise the position if the property and broader structure support a new lender taking over.'
+          question: 'Can Perth refinancing work while capex or site upgrades are still underway?',
+          answer: 'Potentially, yes. Some lenders will consider that scenario if the underlying asset remains strong and the borrower can clearly show what the works are achieving and how the position improves afterward.'
         },
         {
           question: 'Is this page financial advice?',
