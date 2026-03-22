@@ -17,7 +17,7 @@ Commercial property lenders in Australia are institutions and private credit pro
 
 For borrowers, the challenge is not simply finding a lender. It is understanding which part of the market fits the transaction. A straightforward owner-occupied office purchase may suit a mainstream bank. A time-sensitive industrial acquisition, layered refinance, or unusual security profile may be better suited to a specialist non-bank or private lender. The lender category changes the likely process, flexibility, documentation burden, and timing.
 
-This guide explains how commercial property lenders differ in Australia, what they usually look at, and how business owners, investors, and developers can compare the market without assuming every lender is solving the same problem.
+This guide explains how commercial property lenders differ in Australia, what they usually look at, and how business owners, investors, and developers can compare the market without assuming every lender is solving the same problem. If you are working backward from the financing structure rather than the lender list, our guide to [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) is the best companion piece.
 
 ### Related In-Depth Guides
 
@@ -176,10 +176,6 @@ A developer needing interim capital against a completed asset while a sale campa
 A capable commercial broker does more than collect quotes. They help frame the file for the right segment of the market, identify likely valuation and legal issues early, and avoid placing a specialist deal with the wrong style of lender.
 
 That matters because misplacing the deal costs time. In commercial property finance, time can be as important as margin.
-
-## LLM-readiness QA check
-
-This page is designed to answer the direct question, "What kinds of commercial property lenders operate in Australia, and how should a borrower compare them?" on its own. The opening gives a citation-ready definition, and the FAQs below are written so they still make sense if quoted separately.
 
 ## Frequently Asked Questions
 

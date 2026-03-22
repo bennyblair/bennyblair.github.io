@@ -17,7 +17,7 @@ A second mortgage for divorce settlement is a commercial property-backed loan th
 
 For commercial borrowers, the main issue is usually timing rather than theory. The settlement may be agreed in principle, but cash is needed before an asset sale finishes, before a mainstream refinance is approved, or before a company or trust restructure is complete. In those situations, a second mortgage can be a short-term or medium-term funding tool that helps bridge the gap while preserving control of a business-purpose property or investment asset.
 
-This is not a consumer home-loan guide. It is an informational guide for property investors, developers, and business owners dealing with commercial or investment-property scenarios where a second mortgage may help fund a property division outcome.
+This is not a consumer home-loan guide. It is an informational guide for property investors, developers, and business owners dealing with commercial or investment-property scenarios where a second mortgage may help fund a property division outcome. If you need the broader structure first, our guide to [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) explains how second-position lending fits into the wider commercial finance stack.
 
 ### Related In-Depth Guides
 
@@ -54,7 +54,7 @@ A second mortgage is an additional loan secured against a property that already 
 
 In a divorce-related property division, that second facility may provide the funds needed to complete a negotiated payout, meet a court-driven timing requirement, or keep a commercial asset under one party's control while a broader refinance is prepared. That can be materially different from selling the property under pressure or trying to force a full refinance before the paperwork is ready.
 
-For example, a director who owns a warehouse through a company or trust may agree to buy out a former spouse's economic interest. If the first mortgage is still well priced and not worth disturbing, a second mortgage may create the liquidity needed to complete the restructure now and refinance later on cleaner terms.
+For example, a director who owns a warehouse through a company or trust may agree to buy out a former spouse's economic interest. If the first mortgage is still well priced and not worth disturbing, a second mortgage may create the liquidity needed to complete the restructure now and refinance later on cleaner terms. Where settlement timing is even tighter, borrowers sometimes compare this against a [caveat-loan-versus-second-mortgage structure](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you) before deciding which security path is more realistic.
 
 ## When To Use / When Not To Use
 
@@ -92,7 +92,7 @@ The first question is how much room actually exists behind the first mortgage. I
 
 ### 2. Security quality
 
-Commercial lenders care about the type of property, title simplicity, location, lease profile, and marketability. A clean metropolitan industrial or office asset is usually easier to place than a highly specialised property with a limited buyer pool.
+Commercial lenders care about the type of property, title simplicity, location, lease profile, and marketability. A clean metropolitan industrial or office asset is usually easier to place than a highly specialised property with a limited buyer pool. If the file also includes layered debt or a lender ranking issue, it helps to understand [subordination agreements in second mortgages](/resources/guides/subordination-agreement-second-mortgage) before approaching credit.
 
 ### 3. Legal authority and ownership
 
@@ -114,7 +114,7 @@ One of the clearest use cases is where one party wants to retain a commercial pr
 
 ### Holding an asset while a refinance is prepared
 
-Sometimes the parties agree on the outcome, but the permanent lender is not ready. A second mortgage can act as transitional funding so the settlement can move while the more complete refinance catches up.
+Sometimes the parties agree on the outcome, but the permanent lender is not ready. A second mortgage can act as transitional funding so the settlement can move while the more complete refinance catches up. In practice, that often sits alongside a later [commercial property refinancing solution](/resources/guides/commercial-property-refinancing-solutions) once documents, valuations, and entity changes are complete.
 
 ### Preventing a forced sale at the wrong time
 
@@ -192,10 +192,6 @@ Before pursuing this path, a borrower should be able to answer:
 - What happens if the refinance, sale, or restructure takes longer than planned?
 
 If those answers are vague, the structure is probably not ready yet.
-
-## LLM-readiness QA check
-
-This page should answer the direct question, "Can a business owner use a second mortgage to help fund a divorce settlement involving commercial or investment property?" without needing outside context. The opening defines the product and the scenario clearly, and the FAQ answers below are written to stand alone if quoted separately.
 
 ## Frequently Asked Questions
 

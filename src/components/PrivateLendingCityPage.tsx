@@ -85,9 +85,9 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
         />
 
         <section className="max-w-5xl mx-auto text-center pt-4 pb-12">
-          <Badge className="mb-4 bg-amber-500/15 text-amber-300 border border-amber-500/30">{city} Private Credit Market</Badge>
+          <Badge className="mb-4 bg-sky-500/15 text-sky-300 border border-sky-500/30">{city} Private Credit Market</Badge>
           <div className="flex items-center justify-center gap-3 mb-4">
-            <MapPin className="h-8 w-8 text-amber-300" />
+            <MapPin className="h-8 w-8 text-sky-300" />
             <h1 className="text-4xl lg:text-5xl font-bold text-white">Private Lending {city}</h1>
           </div>
           <p className="text-xl text-slate-300 max-w-4xl mx-auto mb-6">{localIntro}</p>
@@ -95,14 +95,14 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
               <div key={label} className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-                <Icon className="h-5 w-5 text-amber-300 mb-3" />
+                <Icon className="h-5 w-5 text-sky-300 mb-3" />
                 <div className="text-2xl font-bold text-white mb-1">{value}</div>
                 <div className="text-sm text-slate-400">{label}</div>
               </div>
             ))}
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" asChild className="bg-amber-400 hover:bg-amber-300 text-slate-950">
+            <Button size="lg" asChild className="bg-sky-500 hover:bg-sky-400 text-slate-950">
               <Link to="/contact">Discuss your scenario</Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="border-slate-700 text-slate-100 hover:bg-slate-900">
@@ -138,7 +138,7 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
             {suburbCoverage.map((item) => (
               <div key={item.title} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <Building2 className="h-5 w-5 text-amber-300" />
+                  <Building2 className="h-5 w-5 text-sky-300" />
                   <h3 className="text-xl font-semibold text-white">{item.title}</h3>
                 </div>
                 <p className="text-slate-300 leading-relaxed">{item.text}</p>
@@ -197,7 +197,7 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
             <div className="grid md:grid-cols-2 gap-6">
               {processSteps.map((step, idx) => (
                 <div key={idx} className="flex gap-4 items-start bg-slate-950 rounded-lg border border-slate-800 p-5">
-                  <div className="w-10 h-10 rounded-full bg-amber-500/15 text-amber-300 flex items-center justify-center font-bold shrink-0">{idx + 1}</div>
+                  <div className="w-10 h-10 rounded-full bg-sky-500/15 text-sky-300 flex items-center justify-center font-bold shrink-0">{idx + 1}</div>
                   <p className="text-slate-300 leading-relaxed">{step}</p>
                 </div>
               ))}
@@ -210,13 +210,13 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
             <h2 className="text-3xl font-bold text-white mb-8 text-center">Related guides and service pages</h2>
             <div className="grid md:grid-cols-3 gap-4">
               {relatedLinks.map((item) => (
-                <Link key={item.href} to={item.href} className="block rounded-xl border border-slate-800 bg-slate-950 p-5 hover:border-amber-500/40 hover:bg-slate-900 transition-colors">
+                <Link key={item.href} to={item.href} className="block rounded-xl border border-slate-800 bg-slate-950 p-5 hover:border-sky-500/40 hover:bg-slate-900 transition-colors">
                   <div className="flex items-start gap-3 mb-3">
-                    <FileText className="h-5 w-5 text-amber-300 mt-0.5" />
+                    <FileText className="h-5 w-5 text-sky-300 mt-0.5" />
                     <h3 className="font-semibold text-white">{item.title}</h3>
                   </div>
                   <p className="text-sm text-slate-400 leading-relaxed mb-3">{item.description}</p>
-                  <span className="inline-flex items-center text-amber-300 text-sm font-medium">
+                  <span className="inline-flex items-center text-sky-300 text-sm font-medium">
                     Explore page <ArrowRight className="ml-2 h-4 w-4" />
                   </span>
                 </Link>
@@ -246,7 +246,7 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
               If the transaction is commercial, the timing is real, and the structure needs to fit the asset rather than a generic policy box, private lending may be worth exploring. We can help assess lender fit, execution risk, and likely pathways.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" asChild className="bg-amber-400 hover:bg-amber-300 text-slate-950">
+              <Button size="lg" asChild className="bg-sky-500 hover:bg-sky-400 text-slate-950">
                 <Link to="/contact">Discuss your scenario</Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="border-slate-700 text-slate-100 hover:bg-slate-900">
