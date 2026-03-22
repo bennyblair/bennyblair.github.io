@@ -1,284 +1,124 @@
-import { Helmet } from "react-helmet-async";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import FAQSection, { FAQItem } from "@/components/FAQSection";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-import { Phone, ArrowRight } from "lucide-react";
+import React from 'react';
+import PrivateLendingCityPage from '@/components/PrivateLendingCityPage';
 
-const PrivateLendingSydney = () => {
-  const faqs: FAQItem[] = [
-    {
-      question: "How do you qualify for a first mortgage private loan in Sydney?",
-      answer: "Sydney private first-mortgage lenders are typically asset-first underwriters. They focus primarily on: (1) Security (the property: type, location/saleability, clean title, valuation, and confirmed 1st ranking mortgage position), (2) Leverage (LVR, commonly in the ~65–75% range depending on the scenario), and (3) Exit strategy (a clear, realistic path to repay within a short term such as refinance after a trigger, sale of the asset, or completion + refinance). They also assess the borrower structure (individual/company/trust, guarantees) and serviceability during the term, often supported by bank statements, income evidence, and/or an interest reserve if interest is capitalised."
-    },
-    {
-      question: "What do private lenders in Sydney actually look for when assessing a first mortgage deal?",
-      answer: "Most private lenders assess deals using three core pillars: Security (property quality, liquidity, title/encumbrances, valuation, and ability to register a first mortgage), LVR (risk-adjusted leverage with tighter LVRs for complex scenarios), and Exit (how the loan will be repaid within the agreed short term, including Plan B). They also look at how quickly the deal can settle and whether documentation is complete (contract/leases, rates/strata, insurance, and development documents if applicable)."
-    },
-    {
-      question: "What documents do you typically need for a Sydney private first mortgage application?",
-      answer: "Common requirements include: borrower/entity details (ID, ABN/ACN, directors/shareholders, trust deed if applicable, and guarantees), AML/KYC, purpose of funds and requested terms (amount, term, settlement date, interest structure), serviceability evidence (bank statements, income proof, liabilities schedule), and property/legal documents (contract, lease schedule, rates notices, strata report if applicable, insurance). For development, lenders often request DA, plans, builder contract, costings/QS, feasibility, and presales (if any)."
-    },
-    {
-      question: "What improves approval odds for a private first mortgage in Sydney?",
-      answer: "Practically, the fastest 'yes' at better pricing usually comes from: (1) a tight 1–2 page credit memo outlining security, conservative LVR, use of funds, timeline, and a clear exit with a Plan B; (2) a clean settlement path (payout figures, title search, caveat checks, solicitor ready, insurance prepared); and (3) conservative leverage paired with a credible, time-bound exit strategy."
-    },
-    {
-      question: "What are typical interest rates for private first mortgage loans in Sydney?",
-      answer: "Indicatively, many private first-mortgage deals in Australia/Sydney are commonly seen in the ~8%–14% p.a. range, with cleaner, low-LVR metro residential scenarios toward the lower end and urgent/complex/commercial scenarios toward the higher end (sometimes higher). Pricing depends heavily on LVR, asset quality, scenario complexity, term, whether interest is capitalised, and speed requirements."
-    },
-    {
-      question: "What fees do Sydney private lenders commonly charge on first mortgage loans?",
-      answer: "Private loans often have higher upfront costs than banks. Typical fees can include: establishment/origination (often ~1%–3% and sometimes higher), line/admin fees, valuation fees (borrower-paid), lender and borrower legal fees (borrower often pays lender's legal costs), settlement/admin fees, default interest and enforcement costs if in arrears, minimum interest periods (e.g., 3 months), and exit/discharge fees (fixed or %)."
-    },
-    {
-      question: "How does private lending compare to bank lending for property development in Sydney?",
-      answer: "Banks typically offer lower pricing and longer terms but are stricter on documentation, serviceability, presales (for many residential projects), QS monitoring, builder diligence, and credit committee timelines. Private lenders tend to be faster and more bespoke, focusing more on asset value, downside protection via LVR, feasibility/exit, and sponsor track record—often allowing short terms (e.g., 3–36 months) and structures like capitalised interest or interest reserves. The trade-off is higher cost (rates + fees)."
-    },
-    {
-      question: "What due diligence should a borrower do when dealing with a Sydney family office lender?",
-      answer: "Borrower diligence should cover: (1) counterparty legitimacy (legal entity name, ABN/ACN, authority to sign, proof they can fund, track record/references), (2) economics clarity (written term sheet stating rate basis, default interest, all fees, minimum interest, early repayment treatment, and capitalised interest mechanics), (3) legal review (first-ranking registration mechanics, PPSR/general security deed if applicable, guarantees, covenants, events of default, cure periods, and enforcement/receiver provisions), and (4) operational execution (panel solicitors, valuation ordering speed, willingness to use PEXA, and any unusual conditions)."
-    },
-    {
-      question: "What are red flags to watch for in Sydney private lending?",
-      answer: "Common red flags include: refusing to provide a clear written term sheet, vague or shifting fee descriptions, requests for large upfront payments before documentation (beyond normal valuation/legal deposits), unclear lender identity or signing authority, and pressure to use only the lender's lawyer without independent review."
-    },
-    {
-      question: "What templates should I use to request loan terms from a private lender in Sydney?",
-      answer: "Useful templates include: (A) a short 'Term Sheet Request' email with property details, estimated value, requested facility/LVR, term, purpose, settlement date, and exit; (B) a one-page 'Borrower Information Pack' summarising borrower, transaction, security, valuation/LVR, servicing approach, exit strategy, and documents available; (C) a due diligence questionnaire covering lender identity/process, proof of funds, economics, conditions/covenants, and security requirements; and (D) a 'Request for Formal Offer/Letter of Offer' once indicative terms are acceptable."
-    }
-  ];
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How do you qualify for a first mortgage private loan in Sydney?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sydney private first-mortgage lenders are typically asset-first underwriters. They focus primarily on: (1) Security (the property: type, location/saleability, clean title, valuation, and confirmed 1st ranking mortgage position), (2) Leverage (LVR, commonly in the ~65–75% range depending on the scenario), and (3) Exit strategy (a clear, realistic path to repay within a short term such as refinance after a trigger, sale of the asset, or completion + refinance). They also assess the borrower structure (individual/company/trust, guarantees) and serviceability during the term, often supported by bank statements, income evidence, and/or an interest reserve if interest is capitalised."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What do private lenders in Sydney actually look for when assessing a first mortgage deal?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most private lenders assess deals using three core pillars: Security (property quality, liquidity, title/encumbrances, valuation, and ability to register a first mortgage), LVR (risk-adjusted leverage with tighter LVRs for complex scenarios), and Exit (how the loan will be repaid within the agreed short term, including Plan B). They also look at how quickly the deal can settle and whether documentation is complete (contract/leases, rates/strata, insurance, and development documents if applicable)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What documents do you typically need for a Sydney private first mortgage application?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Common requirements include: borrower/entity details (ID, ABN/ACN, directors/shareholders, trust deed if applicable, and guarantees), AML/KYC, purpose of funds and requested terms (amount, term, settlement date, interest structure), serviceability evidence (bank statements, income proof, liabilities schedule), and property/legal documents (contract, lease schedule, rates notices, strata report if applicable, insurance). For development, lenders often request DA, plans, builder contract, costings/QS, feasibility, and presales (if any)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What improves approval odds for a private first mortgage in Sydney?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Practically, the fastest 'yes' at better pricing usually comes from: (1) a tight 1–2 page credit memo outlining security, conservative LVR, use of funds, timeline, and a clear exit with a Plan B; (2) a clean settlement path (payout figures, title search, caveat checks, solicitor ready, insurance prepared); and (3) conservative leverage paired with a credible, time-bound exit strategy."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are typical interest rates for private first mortgage loans in Sydney?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Indicatively, many private first-mortgage deals in Australia/Sydney are commonly seen in the ~8%–14% p.a. range, with cleaner, low-LVR metro residential scenarios toward the lower end and urgent/complex/commercial scenarios toward the higher end (sometimes higher). Pricing depends heavily on LVR, asset quality, scenario complexity, term, whether interest is capitalised, and speed requirements."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What fees do Sydney private lenders commonly charge on first mortgage loans?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Private loans often have higher upfront costs than banks. Typical fees can include: establishment/origination (often ~1%–3% and sometimes higher), line/admin fees, valuation fees (borrower-paid), lender and borrower legal fees (borrower often pays lender's legal costs), settlement/admin fees, default interest and enforcement costs if in arrears, minimum interest periods (e.g., 3 months), and exit/discharge fees (fixed or %)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does private lending compare to bank lending for property development in Sydney?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Banks typically offer lower pricing and longer terms but are stricter on documentation, serviceability, presales (for many residential projects), QS monitoring, builder diligence, and credit committee timelines. Private lenders tend to be faster and more bespoke, focusing more on asset value, downside protection via LVR, feasibility/exit, and sponsor track record—often allowing short terms (e.g., 3–36 months) and structures like capitalised interest or interest reserves. The trade-off is higher cost (rates + fees)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What due diligence should a borrower do when dealing with a Sydney family office lender?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Borrower diligence should cover: (1) counterparty legitimacy (legal entity name, ABN/ACN, authority to sign, proof they can fund, track record/references), (2) economics clarity (written term sheet stating rate basis, default interest, all fees, minimum interest, early repayment treatment, and capitalised interest mechanics), (3) legal review (first-ranking registration mechanics, PPSR/general security deed if applicable, guarantees, covenants, events of default, cure periods, and enforcement/receiver provisions), and (4) operational execution (panel solicitors, valuation ordering speed, willingness to use PEXA, and any unusual conditions)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are red flags to watch for in Sydney private lending?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Common red flags include: refusing to provide a clear written term sheet, vague or shifting fee descriptions, requests for large upfront payments before documentation (beyond normal valuation/legal deposits), unclear lender identity or signing authority, and pressure to use only the lender's lawyer without independent review."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What templates should I use to request loan terms from a private lender in Sydney?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Useful templates include: (A) a short 'Term Sheet Request' email with property details, estimated value, requested facility/LVR, term, purpose, settlement date, and exit; (B) a one-page 'Borrower Information Pack' summarising borrower, transaction, security, valuation/LVR, servicing approach, exit strategy, and documents available; (C) a due diligence questionnaire covering lender identity/process, proof of funds, economics, conditions/covenants, and security requirements; and (D) a 'Request for Formal Offer/Letter of Offer' once indicative terms are acceptable."
-        }
-      }
-    ]
-  };
-
+export default function PrivateLendingSydney() {
   return (
-    <>
-      <Helmet>
-        <title>Private Lending Sydney | First Mortgage Private Loans | Emet Capital</title>
-        <meta 
-          name="description" 
-          content="Access private first mortgage loans in Sydney from family offices and non-bank lenders. Fast approval, flexible terms, asset-focused underwriting for property developers and investors."
-        />
-        <meta name="keywords" content="private lending Sydney, first mortgage Sydney, private lender Sydney, non-bank loans Sydney, family office lending Sydney, private mortgage Sydney" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/private-lending/cities/sydney" />
-        <script type="application/ld+json">
-          {JSON.stringify(faqSchema)}
-        </script>
-      </Helmet>
-
-      <div className="min-h-screen py-8">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <Breadcrumbs items={[
-            { label: "Home", href: "/" },
-            { label: "Services", href: "/services" },
-            { label: "Private Lending", href: "/services/private-lending" },
-            { label: "Sydney" }
-          ]} />
-
-          <article className="space-y-8">
-            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">Private Lending in Sydney</h1>
-            
-            <p className="text-muted-foreground leading-relaxed">
-              Private lending in Sydney connects property developers, investors, and business owners with non-bank finance from family offices, private credit funds, and specialist lenders. These asset-focused lenders assess deals based on security strength, LVR, and exit strategy rather than rigid bank criteria—enabling faster approvals and flexible structures for Sydney's dynamic property market.
-            </p>
-
-            <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Why Private Lending in Sydney?</h2>
-              
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Sydney's property market moves fast. Whether you're acquiring a development site before auction, bridging between settlements, or funding construction while awaiting bank refinance, private lenders offer the speed and flexibility that traditional banks often can't match.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Private first mortgage lenders in Sydney typically focus on three core pillars: the quality and liquidity of the security property, conservative leverage (commonly 65–75% LVR), and a clear, realistic exit strategy. This asset-first approach means borrowers with non-standard circumstances—business transitions, past credit events, or complex structures—can still access finance based on deal merit.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Sydney's high property values and transparent market support larger facilities and provide strong security positions. Combined with specialist brokers who understand local dynamics, private lending offers a powerful alternative to traditional bank channels.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Who Uses Private Lending in Sydney</h2>
-
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Private lending in Sydney is particularly suited for:
-              </p>
-
-              <ul className="space-y-2 text-muted-foreground">
-                <li><strong className="text-foreground">Property Developers</strong> requiring fast settlement for site acquisitions, construction funding, or bridging between project stages</li>
-                <li><strong className="text-foreground">Property Investors</strong> building portfolios, undertaking value-add projects, or refinancing to release capital for new opportunities</li>
-                <li><strong className="text-foreground">Business Owners</strong> accessing working capital secured against commercial property without lengthy bank approval processes</li>
-                <li><strong className="text-foreground">Companies in Transition</strong> needing bridge finance while restructuring or awaiting alternative finance approval</li>
-                <li><strong className="text-foreground">Borrowers with Non-Standard Circumstances</strong> including past credit events, complex income structures, or situations outside standard bank policy</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Private Lending vs Bank Lending</h2>
-
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Banks typically offer lower pricing and longer terms but are stricter on documentation, serviceability calculations, presales requirements, and credit committee timelines. Private lenders trade off higher costs (rates typically 8–14% p.a. plus fees) for speed, flexibility, and asset-focused assessment.
-              </p>
-
-              <ul className="space-y-2 text-muted-foreground">
-                <li><strong className="text-foreground">Speed</strong> - Private lenders can approve in days rather than weeks or months</li>
-                <li><strong className="text-foreground">Flexibility</strong> - Short terms (3–36 months), capitalised interest, interest reserves</li>
-                <li><strong className="text-foreground">Assessment Focus</strong> - Security value and exit strategy over rigid serviceability formulas</li>
-                <li><strong className="text-foreground">Structure</strong> - Bespoke arrangements for complex scenarios</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Typical Costs</h2>
-
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Private first mortgage loans in Sydney commonly range from ~8%–14% p.a. interest, with cleaner, low-LVR metro residential scenarios toward the lower end and urgent or complex scenarios toward the higher end.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Fees typically include:
-              </p>
-
-              <ul className="space-y-2 text-muted-foreground">
-                <li>Establishment/origination: often ~1%–3%</li>
-                <li>Valuation fees (borrower-paid)</li>
-                <li>Legal fees (borrower often pays lender's legal costs)</li>
-                <li>Settlement/admin fees</li>
-                <li>Minimum interest periods (e.g., 3 months)</li>
-                <li>Exit/discharge fees</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
-              <FAQSection faqs={faqs} />
-            </section>
-
-            <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Get Started</h2>
-
-              <div className="bg-accent/10 border border-accent/20 rounded-lg p-8 my-8">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Apply for Private Lending in Sydney</h3>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                  Access Sydney's private lending market through our network of family offices, private credit funds, and specialist lenders. We'll match your scenario with lenders who assess deals on security strength and exit strategy.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" asChild className="bg-accent hover:bg-accent-dark text-accent-foreground">
-                    <Link to="/contact">
-                      Apply Now
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
-                  <Button size="lg" variant="outline" asChild>
-                    <a href="tel:0485952651">
-                      <Phone className="mr-2 h-5 w-5" />
-                      Call 0485 952 651
-                    </a>
-                  </Button>
-                </div>
-              </div>
-            </section>
-
-            <div className="mt-12 p-6 bg-muted/30 rounded-lg">
-              <p className="text-sm text-foreground">
-                <strong>Looking for other services?</strong> Explore{" "}
-                <Link to="/services/private-lending" className="text-accent hover:underline">Private Lending (National)</Link>,{" "}
-                <Link to="/services/first-second-mortgages/cities/sydney" className="text-accent hover:underline">1st & 2nd Mortgages Sydney</Link>,{" "}
-                <Link to="/services/bridging-finance/cities/sydney" className="text-accent hover:underline">Bridging Finance Sydney</Link>, or{" "}
-                <Link to="/services/commercial-property-development/cities/sydney" className="text-accent hover:underline">Commercial Development Sydney</Link>.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </>
+    <PrivateLendingCityPage
+      city="Sydney"
+      state="NSW"
+      canonical="/services/private-lending/cities/sydney"
+      title="Private Lending Sydney | Commercial Private Credit | Emet Capital"
+      description="Private lending in Sydney for commercial acquisitions, urgent refinance gaps, development timing pressure, and bespoke property-backed transactions where mainstream credit can move too slowly or fit the file poorly."
+      localIntro="Private lending for Sydney borrowers who need commercial property-backed capital when timing, complexity, or lender fit makes a standard bank path too rigid."
+      localFocus="Sydney private lending files often involve premium-value assets, short settlement windows, layered existing debt, and borrowers who are not short of strategy but are short of time. The right structure usually depends on security quality, leverage discipline, and a credible exit rather than generic consumer-style scoring."
+      marketOverview="Sydney remains the deepest private-credit market in Australia for commercial property-backed transactions. That depth helps when borrowers need a lender who understands industrial acquisitions in the west, mixed-use stock in the inner ring, premium assets in the east or north shore, or short-term timing gaps around refinance, sale, or project milestones."
+      timingPressures="In Sydney, private lending usually appears when auction and contract deadlines beat bank turnaround times, when a current lender wants repayment before a takeout refinance is ready, or when a business owner needs a bespoke structure around a commercial asset without losing control of the transaction."
+      suburbCoverage={[
+        {
+          title: 'CBD, South Sydney, and city fringe',
+          text: 'Sydney CBD, Alexandria, Mascot, Zetland, Waterloo, and Surry Hills often produce private lending scenarios tied to offices, mixed-use buildings, hospitality sites, and fast-moving commercial settlements.'
+        },
+        {
+          title: 'Lower North Shore, eastern suburbs, and premium stock',
+          text: 'North Sydney, Crows Nest, Mosman, Double Bay, Rose Bay, and Bondi Junction frequently involve higher-value transactions where equity is strong but speed, lender appetite, or structure is the constraint.'
+        },
+        {
+          title: 'Parramatta and western industrial corridors',
+          text: 'Parramatta, Silverwater, Smithfield, Wetherill Park, Liverpool, and Penrith regularly generate warehouse, trade, and owner-occupied commercial files where an urgent lender decision can protect settlement control.'
+        }
+      ]}
+      localUseCases={[
+        {
+          title: 'Short-term acquisition funding',
+          text: 'Private lenders may suit Sydney acquisitions where a borrower has strong security and a clear exit, but not enough time for a full mainstream credit process before settlement.'
+        },
+        {
+          title: 'Refinance rescue and maturity exits',
+          text: 'When an existing lender has reached maturity before the next refinance can settle, private debt can be used as a transitional structure rather than a permanent home for the loan.'
+        },
+        {
+          title: 'Development and residual stock transitions',
+          text: 'Developers may need private capital while DA conditions, titles, pre-sales, or takeout debt are still catching up to the transaction timeline.'
+        },
+        {
+          title: 'Business-purpose liquidity against property',
+          text: 'Some Sydney borrowers use private lending against commercial or investment property to support restructures, partner exits, acquisitions, or other time-sensitive business events.'
+        }
+      ]}
+      scenarios={[
+        {
+          title: 'North Sydney office refinance gap',
+          scenario: 'A professional services group owned a North Sydney office suite valued at $3.4 million and needed to repay an expiring facility before its replacement lender finished valuation and legal sign-off.',
+          solution: 'A short-term private first mortgage of $2.05 million created enough room to meet the maturity deadline and refinance later into a more conventional facility once documents were complete.',
+          outcomes: [
+            { label: 'Security value', value: '$3.4M office suite' },
+            { label: 'Private facility', value: '$2.05M' },
+            { label: 'Indicative leverage', value: '60% LVR' },
+            { label: 'Expected exit', value: 'Refinance within 4 months' }
+          ]
+        },
+        {
+          title: 'Marrickville mixed-use short settlement',
+          scenario: 'An investor exchanged on a $2.62 million Marrickville mixed-use asset with a tight settlement date while their preferred lender was still reviewing tenancy and entity structure details.',
+          solution: 'A private acquisition facility of $1.58 million allowed settlement on time and preserved the purchase while the longer-term refinance path stayed in motion.',
+          outcomes: [
+            { label: 'Purchase price', value: '$2.62M mixed-use asset' },
+            { label: 'Private facility', value: '$1.58M' },
+            { label: 'Contract pressure', value: 'Short settlement window' },
+            { label: 'Expected exit', value: 'Takeout refinance' }
+          ]
+        },
+        {
+          title: 'Silverwater industrial liquidity event',
+          scenario: 'A transport operator needed commercial liquidity against a Silverwater warehouse while finalising a shareholder restructure and could not wait for a slower mainstream approval path.',
+          solution: 'A private property-backed loan of $2.4 million gave the business time to complete the restructure and move to a longer-term debt solution on a cleaner footing.',
+          outcomes: [
+            { label: 'Security value', value: '$4.1M warehouse asset' },
+            { label: 'Private facility', value: '$2.4M' },
+            { label: 'Commercial purpose', value: 'Shareholder restructure' },
+            { label: 'Planned term', value: '3 to 6 months' }
+          ]
+        }
+      ]}
+      relatedLinks={[
+        {
+          title: 'Private Lending service page',
+          href: '/services/private-lending',
+          description: 'Overview of commercial private lending, lender types, and structuring considerations.'
+        },
+        {
+          title: 'What Is Private Lending in Australia?',
+          href: '/resources/guides/what-is-private-lending-australia',
+          description: 'Long-form guide to how private lending works and where it fits.'
+        },
+        {
+          title: 'Bridging Finance in Australia',
+          href: '/resources/guides/bridging-finance-australia-complete-property-guide',
+          description: 'Useful if the Sydney scenario is really a short-term timing problem around property.'
+        }
+      ]}
+      faqs={[
+        {
+          question: 'When does private lending usually come up in Sydney?',
+          answer: 'Usually when a Sydney commercial borrower has a genuine timing, policy-fit, or structuring problem rather than a lack of asset quality. Common examples include short settlements, refinance maturities, development transitions, and business-purpose liquidity needs.'
+        },
+        {
+          question: 'Can private lending work for Sydney commercial property?',
+          answer: 'Potentially, yes. Offices, warehouses, mixed-use assets, and some development or investment properties may suit private lending if leverage is sensible and the exit is clear.'
+        },
+        {
+          question: 'Is private lending only for distressed borrowers?',
+          answer: 'No. Many private lending files involve strong assets and commercially capable borrowers who simply need a faster or more flexible structure than a mainstream lender can offer on the required timeline.'
+        },
+        {
+          question: 'What matters most to a Sydney private lender?',
+          answer: 'Security quality, leverage, documentation readiness, and exit strategy usually matter most. The stronger those four areas are, the more workable the file tends to be.'
+        },
+        {
+          question: 'Can private lending be used before a later refinance?',
+          answer: 'Potentially, yes. That is a common use case, provided the refinance path is credible and the private debt is genuinely solving a timing gap rather than delaying a bigger structural problem.'
+        }
+      ]}
+    />
   );
-};
-
-export default PrivateLendingSydney;
+}
