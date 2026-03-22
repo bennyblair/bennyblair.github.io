@@ -19,6 +19,10 @@ For commercial borrowers, the real issue is usually timing and structure. One pa
 
 This is not a consumer home-loan article. It is a commercial guide for business owners, developers, and investors dealing with investment or business-purpose property. If you need the broader structure first, our guide to [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) explains how second-position lending fits into the wider commercial finance stack.
 
+---
+
+> **📚 Complete Guide**: This guide explains how a second mortgage may fit a divorce-related commercial property division, when it can work, where it can go wrong, and what lenders usually need to see before they will take the file seriously.
+
 ### Related In-Depth Guides
 
 - **[1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Core guide to how first and second mortgage structures work in commercial lending
