@@ -44,6 +44,7 @@ const SEO = ({
       
       {/* Hreflang for Australian targeting */}
       <link rel="alternate" hrefLang="en-AU" href={fullCanonical} />
+      <link rel="alternate" hrefLang="en" href={fullCanonical} />
       <link rel="alternate" hrefLang="x-default" href={fullCanonical} />
       
       {/* Geo targeting */}

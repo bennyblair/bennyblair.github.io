@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -120,10 +121,31 @@ def pick_priority(path: str) -> tuple[str, str]:
     return DEFAULT_CHANGEFREQ, DEFAULT_PRIORITY
 
 
+def resolve_lastmod(source_path: str | None) -> str:
+    if source_path:
+        source_file = REPO_ROOT / source_path
+        if source_file.exists():
+            try:
+                result = subprocess.run(
+                    ["git", "log", "-1", "--format=%cs", "--", str(source_file)],
+                    cwd=REPO_ROOT,
+                    capture_output=True,
+                    text=True,
+                    check=False,
+                )
+                git_date = result.stdout.strip()
+                if git_date:
+                    return git_date
+            except Exception:
+                pass
+            return datetime.fromtimestamp(source_file.stat().st_mtime, timezone.utc).strftime("%Y-%m-%d")
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+
 def build_entries() -> list[dict]:
     route_data = load_route_data()
     redirect_sources, redirect_patterns = parse_redirect_sources()
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     entries: dict[str, dict] = {}
     for route_path, meta in route_data.items():
@@ -144,7 +166,7 @@ def build_entries() -> list[dict]:
         changefreq, priority = pick_priority(canonical_path)
         entries[canonical_path] = {
             "loc": f"{DOMAIN}{canonical_path}" if canonical_path != "/" else f"{DOMAIN}/",
-            "lastmod": today,
+            "lastmod": resolve_lastmod(meta.get("sourcePath")),
             "changefreq": changefreq,
             "priority": priority,
         }
