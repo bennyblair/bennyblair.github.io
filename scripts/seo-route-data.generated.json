@@ -332,6 +332,15 @@
     "noscript": "Complete timeline guide to commercial property settlement in Australia. Understand key milestones, finance coordination, documentation requirements, and common timing challenges for business property transactions.",
     "sourcePath": "src/content/guides/commercial-property-settlement-process-finance-timeline.md"
   },
+  "/resources/guides/commercial-property-valuation-for-finance-lender-requirements": {
+    "title": "Commercial Property Valuation for Finance: Lender Requirements | Emet Capital",
+    "description": "Learn how commercial property valuation works for finance in Australia, what lenders assess, what can delay a report, and how investors, developers, and business owners can prepare for a smoother funding process.",
+    "keywords": "commercial property valuation, commercial valuation for finance, commercial property lender requirements, valuation for commercial loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
+    "h1": "Commercial Property Valuation for Finance: Lender Requirements",
+    "noscript": "Learn how commercial property valuation works for finance in Australia, what lenders assess, what can delay a report, and how investors, developers, and business owners can prepare for a smoother funding process.",
+    "sourcePath": "src/content/guides/commercial-property-valuation-for-finance-lender-requirements.md"
+  },
   "/resources/guides/commercial-real-estate-lenders-australia-directory": {
     "title": "Commercial Real Estate Lenders in Australia [Directory] | Emet Capital",
     "description": "Complete directory of Australian commercial real estate lenders including major banks, regional lenders, and private capital providers with specialization details and contact information.",
@@ -475,6 +484,15 @@
     "h1": "Industrial Property Finance: Warehouses & Manufacturing",
     "noscript": "Guide to industrial property finance in Australia. Learn about warehouse and manufacturing loans, building specs, LVRs, rates, and unique industrial requirements.",
     "sourcePath": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md"
+  },
+  "/resources/guides/intercreditor-agreements-second-mortgage-complexity": {
+    "title": "Intercreditor Agreements: Second Mortgage Complexity | Emet Capital",
+    "description": "A practical guide to intercreditor agreements in second mortgage transactions, including why they matter, what first and second lenders usually negotiate, and how borrowers should think about timing, control, and exit risk.",
+    "keywords": "intercreditor agreement, second mortgage intercreditor, intercreditor agreement second mortgage, second mortgage priority",
+    "canonical": "https://emetcapital.com.au/resources/guides/intercreditor-agreements-second-mortgage-complexity",
+    "h1": "Intercreditor Agreements: Second Mortgage Complexity",
+    "noscript": "A practical guide to intercreditor agreements in second mortgage transactions, including why they matter, what first and second lenders usually negotiate, and how borrowers should think about timing, control, and exit risk.",
+    "sourcePath": "src/content/guides/intercreditor-agreements-second-mortgage-complexity.md"
   },
   "/resources/guides/invoice-finance-australia-complete-guide": {
     "title": "Invoice Finance in Australia: The Complete Guide for Business Cash Flow | Emet Capital",
