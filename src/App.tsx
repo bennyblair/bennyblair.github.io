@@ -44,6 +44,11 @@ const SMSFLending = lazy(() => import("./pages/services/SMSFLending"));
 
 // City-specific service pages
 const PrivateLendingSydney = lazy(() => import("./pages/services/cities/PrivateLendingSydney"));
+const PrivateLendingMelbourne = lazy(() => import("./pages/services/cities/PrivateLendingMelbourne"));
+const PrivateLendingBrisbane = lazy(() => import("./pages/services/cities/PrivateLendingBrisbane"));
+const PrivateLendingPerth = lazy(() => import("./pages/services/cities/PrivateLendingPerth"));
+const PrivateLendingAdelaide = lazy(() => import("./pages/services/cities/PrivateLendingAdelaide"));
+const PrivateLendingGoldCoast = lazy(() => import("./pages/services/cities/PrivateLendingGoldCoast"));
 const FirstSecondMortgagesSydney = lazy(() => import("./pages/services/cities/FirstSecondMortgagesSydney"));
 const FirstSecondMortgagesMelbourne = lazy(() => import("./pages/services/cities/FirstSecondMortgagesMelbourne"));
 const FirstSecondMortgagesBrisbane = lazy(() => import("./pages/services/cities/FirstSecondMortgagesBrisbane"));
@@ -159,6 +164,11 @@ const App = () => (
                 <Route path="/services/asset-finance" element={<AssetFinance />} />
                 {/* City-specific service pages */}
                 <Route path="/services/private-lending/cities/sydney" element={<PrivateLendingSydney />} />
+                <Route path="/services/private-lending/cities/melbourne" element={<PrivateLendingMelbourne />} />
+                <Route path="/services/private-lending/cities/brisbane" element={<PrivateLendingBrisbane />} />
+                <Route path="/services/private-lending/cities/perth" element={<PrivateLendingPerth />} />
+                <Route path="/services/private-lending/cities/adelaide" element={<PrivateLendingAdelaide />} />
+                <Route path="/services/private-lending/cities/gold-coast" element={<PrivateLendingGoldCoast />} />
                 <Route path="/services/first-second-mortgages/cities/sydney" element={<FirstSecondMortgagesSydney />} />
                 <Route path="/services/first-second-mortgages/cities/melbourne" element={<FirstSecondMortgagesMelbourne />} />
                 <Route path="/services/first-second-mortgages/cities/brisbane" element={<FirstSecondMortgagesBrisbane />} />
