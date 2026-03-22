@@ -25,7 +25,7 @@ A valuation for finance is usually more detailed than an agent estimate. The val
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Lender view on borrower, security, and serviceability.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When the valuation matters most in a refinance.
 - **[Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)** — How valuation timing affects settlement.
-- **[Commercial Property LVR Explained: Maximise Your Borrowing](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)** — Why value and leverage always move together.
+- **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Why lender policy, value, and leverage need to line up.
 
 ## At a Glance
 
@@ -132,7 +132,7 @@ If you already expect a refinance, the valuation should not be treated as a last
 
 ### Before stretching too hard on leverage
 
-A borrower trying to maximise debt against a commercial asset should understand that finance is built on a lender's value view, not an owner's preferred number. Reading the deal through a valuation lens early usually leads to a cleaner [commercial property LVR](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing) strategy.
+A borrower trying to maximise debt against a commercial asset should understand that finance is built on a lender's value view, not an owner's preferred number. Reading the deal through a valuation lens early usually leads to a cleaner leverage strategy and a more realistic view of [commercial property loan eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify).
 
 ### Before making settlement assumptions
 
@@ -203,6 +203,12 @@ Timing varies by property type, access, and report complexity. Straightforward a
 ### What can delay a valuation?
 
 Common delays include poor access, missing leases, unclear tenancy information, title or planning questions, or difficulty finding relevant comparable evidence. A disorganised information pack can slow the process more than many borrowers expect.
+
+## Bottom line
+
+A commercial property valuation can shape leverage, lender choice, timing, and how confidently a deal moves through credit. The stronger the information pack and the more realistic the borrower's expectations, the easier it is to keep the valuation from becoming the part of the transaction that creates avoidable friction.
+
+Borrowers who treat valuation as an early decision tool rather than a last-minute hurdle usually put themselves in a better position to structure the right facility, manage settlement timing, and respond if the lender's value view lands lower than expected.
 
 ## Related Guides
 

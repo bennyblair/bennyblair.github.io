@@ -219,6 +219,12 @@ That depends on the documents, but in many cases the first lender retains strong
 
 Yes. Even where the asset and leverage are acceptable, lender-to-lender legal negotiation can slow the process. That is why these issues should be identified early rather than left until final documents.
 
+## Bottom line
+
+Intercreditor agreements matter because they turn a layered second mortgage structure from a rough idea into a defined lender relationship. If the rights, notice rules, payout mechanics, and enforcement position are not clear, settlement speed and exit flexibility usually suffer.
+
+For borrowers, the real lesson is to treat lender-to-lender coordination as part of structuring the deal, not as a legal clean-up exercise at the very end. The earlier those issues are understood, the easier it is to judge whether a second mortgage is genuinely workable.
+
 ## Related Guides
 
 - [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
