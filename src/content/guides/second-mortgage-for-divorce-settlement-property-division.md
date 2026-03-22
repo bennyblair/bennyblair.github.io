@@ -48,7 +48,7 @@ This guide is for:
 
 This guide is not for owner-occupier consumer mortgage scenarios. Emet Capital focuses on commercial lending solutions for eligible business borrowers only.
 
-## How does a second mortgage for divorce settlement work?
+## How a second mortgage for divorce settlement works
 
 A second mortgage is an additional loan secured against a property that already has a first mortgage registered over it. The first mortgage lender remains in priority position. The second mortgage lender accepts a higher-risk position, which is why the underwriting is usually tighter around equity, exit planning, and downside protection.
 
@@ -82,7 +82,7 @@ A second mortgage may be the wrong tool when:
 
 In other words, the loan only works if the asset, documents, and exit are real enough to support it.
 
-## What do lenders look at in a divorce-settlement second mortgage?
+## What lenders look at in a divorce-settlement second mortgage
 
 Lenders do not usually treat a divorce-related second mortgage as a special emotional category. They treat it as a risk and structure question.
 
@@ -106,7 +106,7 @@ The loan still needs a clear repayment path. That might be a refinance once the 
 
 If a deadline is driving the file, lenders will want to understand why the money is needed now and why the next step has not already happened. Timing pressure is normal. Undefined timing is not.
 
-## Common divorce-settlement use cases for commercial borrowers
+## Common divorce-settlement use cases
 
 ### Buying out an interest in a business property
 
@@ -146,7 +146,7 @@ A business owner held a mixed-use property through a company with multiple relat
 
 A second mortgage created enough flexibility to complete the immediate obligation, then roll into a broader refinance once the company structure and supporting documents were cleaned up.
 
-## What documents are usually needed?
+## What documents are usually needed
 
 The exact checklist depends on the lender and the property, but most second-mortgage files require:
 

@@ -47,7 +47,7 @@ This guide is for:
 
 It is written for commercial and business-purpose borrowing only.
 
-## What types of commercial property lenders operate in Australia?
+## What types of commercial property lenders operate in Australia
 
 ### Major banks
 
@@ -99,7 +99,7 @@ Not every transaction needs the same repayment profile, term, or covenant packag
 
 That is one reason borrowers often compare mainstream commercial mortgages with [first and second mortgage options](/resources/guides/first-and-second-mortgages-for-business) or other specialist structures when a standard refinance is not enough.
 
-## What do lenders usually assess?
+## What lenders usually assess
 
 ### The property itself
 
@@ -121,7 +121,7 @@ Lenders want a clear commercial reason for the facility. Acquisition, refinance,
 
 For longer-term lenders, the exit may simply be normal amortisation and stable business performance. For shorter-term or specialist lenders, the exit can be central: refinance, sale, completion of works, lease-up, or another defined event.
 
-## When To Use / When Not To Use specific lender types
+## When to use different lender types
 
 ### Major or regional bank may fit when
 
