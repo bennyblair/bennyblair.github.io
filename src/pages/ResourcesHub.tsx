@@ -70,24 +70,24 @@ const ResourcesHub = () => {
   const featuredContent = [
     {
       type: "Guide",
-      title: "Commercial Bridging Finance: Short Term Property Finance — Costs, Timing, Uses",
-      description: "Understanding short-term property finance options, costs, timing, and how we arrange these facilities with lenders.",
+      title: "Short-Term Property Loans: When You Need Fast Finance",
+      description: "A practical guide to short-term property loans, when they fit, what lenders assess, and how timing pressure changes the funding structure.",
       readTime: "8 min read",
-      href: "/resources/guides/short-term-property-finance"
+      href: "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
     },
     {
       type: "Guide", 
-      title: "Understanding Commercial Asset Finance in 2025",
-      description: "A comprehensive guide to commercial asset finance options, rates, and approval processes for Australian businesses in 2025.",
+      title: "Asset-Backed Lending & Asset Finance",
+      description: "A practical guide to asset-backed lending and asset finance, including use cases, lender expectations, and how these facilities are typically structured.",
       readTime: "12 min read",
-      href: "/resources/guides/2025-09-09-commercial-asset-finance-guide"
+      href: "/resources/guides/asset-backed-lending-and-asset-finance"
     },
     {
       type: "Guide",
-      title: "Second Mortgage for Business Use: Second Mortgage Australia",
-      description: "Australian commercial guide on second mortgage australia: when to use it, eligibility, pricing and how we arrange it with lenders.",
+      title: "Second Mortgage for Business",
+      description: "A practical Australian guide to second mortgages for business use, including when they fit, what lenders assess, and how layered debt should be structured.",
       readTime: "8 min read",
-      href: "/resources/guides/second-mortgage-australia"
+      href: "/resources/guides/second-mortgage-for-business"
     }
   ];
 
