@@ -34,7 +34,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -341,6 +341,13 @@
   </url>
 
   <url>
+    <loc>https://emetcapital.com.au/resources/guides/commercial-property-finance-melbourne-local-expert-hub</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://emetcapital.com.au/resources/guides/commercial-property-finance-rates-2025-comparison</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -546,6 +553,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/invoice-finance-australia-complete-guide</loc>
     <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
