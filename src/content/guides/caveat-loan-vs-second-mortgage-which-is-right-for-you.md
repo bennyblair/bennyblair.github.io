@@ -22,7 +22,7 @@ Business owners and property investors often face a choice between caveat loans 
 
 This comparison examines caveat loans and second mortgages across key dimensions—approval timeframes, interest rates, security requirements, loan terms, and exit strategies—helping Australian business borrowers select the appropriate solution for their commercial finance needs. For more on [bridging finance](/services/bridging-finance), which often complements these options, see our complete guide.
 
-> **📖 Related Guide**: This comparison complements our [Caveat Loans in Australia: Complete Guide](/resources/guides/caveat-loans-australia-complete-property-guide) and [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide), which provide detailed information on each product type.
+> **📖 Related Guide**: This comparison complements our [Caveat Loans in Australia: Complete Guide](/resources/guides/caveat-loans-australia-complete-guide) and [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide), which provide detailed information on each product type.
 
 ## At a Glance
 
