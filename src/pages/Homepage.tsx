@@ -28,7 +28,7 @@ import {
   DollarSign
 } from "lucide-react";
 import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
-import { getContentFiles, type Article } from "@/lib/content";
+import { getContentFiles, isRoutableContentArticle, type Article } from "@/lib/content";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -66,9 +66,13 @@ const Homepage = () => {
         );
         setFeaturedCaseStudies(sortedCaseStudies.slice(0, 2));
         
-        // Add content type to articles for proper URL generation
-        const guidesWithType = guides.map(article => ({ ...article, contentType: 'guides' as const }));
-        const caseStudiesWithType = caseStudies.map(article => ({ ...article, contentType: 'case-studies' as const }));
+        // Only surface articles that exist in the generated SEO route manifest
+        const guidesWithType = guides
+          .filter(article => isRoutableContentArticle('guides', article.slug))
+          .map(article => ({ ...article, contentType: 'guides' as const }));
+        const caseStudiesWithType = caseStudies
+          .filter(article => isRoutableContentArticle('case-studies', article.slug))
+          .map(article => ({ ...article, contentType: 'case-studies' as const }));
         
         // Combine only routable article types and sort by date (newest first)
         const allArticles = [...guidesWithType, ...caseStudiesWithType];

@@ -333,6 +333,11 @@
   status = 301
 
 [[redirects]]
+  from = "/resources/guides/caveat-loans-australia-complete-property-guide"
+  to = "/resources/guides/caveat-loans-australia-complete-guide"
+  status = 301
+
+[[redirects]]
   from = "/resources/guides/bridging-loans-australia"
   to = "/resources/guides/bridging-finance-australia-complete-property-guide"
   status = 301

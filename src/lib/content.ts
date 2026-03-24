@@ -1,4 +1,5 @@
 import matter from "gray-matter";
+import seoRouteData from "../../scripts/seo-route-data.generated.json";
 
 export interface Article {
   slug: string;
@@ -37,6 +38,7 @@ const contentLoaders: Record<string, Record<string, RawModuleLoader>> = {
 
 const articleListCache = new Map<string, Promise<Article[]>>();
 const articleBySlugCache = new Map<string, Promise<Article | null>>();
+const seoRoutes = seoRouteData as Record<string, { canonical?: string; sourcePath?: string }>;
 
 function simpleFrontmatterParser(raw: string) {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -106,6 +108,17 @@ function parseArticle(path: string, raw: string): Article | null {
     lvr: data.lvr,
     quote: data.quote,
   };
+}
+
+function getArticleRoute(contentType: string, slug: string): string {
+  return contentType === "case-studies"
+    ? `/resources/case-studies/${slug}`
+    : `/resources/guides/${slug}`;
+}
+
+export function isRoutableContentArticle(contentType: string, slug: string): boolean {
+  const routePath = getArticleRoute(contentType, slug);
+  return Boolean(seoRoutes[routePath]?.canonical);
 }
 
 async function loadArticlesFromModules(modules: Record<string, RawModuleLoader>): Promise<Article[]> {

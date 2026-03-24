@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 
 const repoRoot = process.cwd();
 const guidesDir = path.join(repoRoot, 'src/content/guides');
+const seoRouteDataPath = path.join(repoRoot, 'scripts/seo-route-data.generated.json');
+const sitemapPath = path.join(repoRoot, 'public/sitemap.xml');
 
 const args = process.argv.slice(2);
 const fileArgs = [];
@@ -34,9 +36,20 @@ const allGuideSlugs = new Set(
     .filter((file) => file.endsWith('.md'))
     .map((file) => file.replace(/\.md$/, ''))
 );
+const seoRouteData = fs.existsSync(seoRouteDataPath)
+  ? JSON.parse(fs.readFileSync(seoRouteDataPath, 'utf8'))
+  : {};
+const sitemapXml = fs.existsSync(sitemapPath)
+  ? fs.readFileSync(sitemapPath, 'utf8')
+  : '';
 
 function extractGuideLinks(content) {
   return [...content.matchAll(/\]\((\/resources\/guides\/[^)]+)\)/g)].map((match) => match[1]);
+}
+
+function getArticleRoute(filePath) {
+  const slug = path.basename(filePath, '.md');
+  return `/resources/guides/${slug}`;
 }
 
 function extractSection(content, heading) {
@@ -84,6 +97,9 @@ for (const fileArg of fileArgs) {
   const raw = fs.readFileSync(filePath, 'utf8');
   matter(raw);
 
+  const articleRoute = getArticleRoute(filePath);
+  const canonicalUrl = `https://emetcapital.com.au${articleRoute}`;
+
   const guideLinks = extractGuideLinks(raw);
   const missingSlugs = [];
   for (const url of guideLinks) {
@@ -123,6 +139,21 @@ for (const fileArg of fileArgs) {
     } else {
       console.log(`OK: top/bottom related-guide blocks are distinct (${topSlugs.length} top, ${bottomSlugs.length} bottom)`);
     }
+  }
+
+  const routeMeta = seoRouteData[articleRoute];
+  if (!routeMeta) {
+    console.error(`ERROR: generated SEO route data is missing ${articleRoute}`);
+    errorCount++;
+  } else {
+    console.log(`OK: generated SEO route data includes ${articleRoute}`);
+  }
+
+  if (!sitemapXml.includes(`<loc>${canonicalUrl}</loc>`)) {
+    console.error(`ERROR: sitemap.xml is missing ${canonicalUrl}`);
+    errorCount++;
+  } else {
+    console.log(`OK: sitemap.xml includes ${canonicalUrl}`);
   }
 
   if (previewBase) {

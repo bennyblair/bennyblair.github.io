@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, Calendar, ArrowRight } from "lucide-react";
-import { getContentFiles, type Article } from "@/lib/content";
+import { getContentFiles, isRoutableContentArticle, type Article } from "@/lib/content";
 
 interface RecentArticlesProps {
   count?: number;
@@ -27,9 +27,13 @@ const RecentArticles = ({
           getContentFiles('case-studies')
         ]);
         
-        // Add content type to articles for proper URL generation
-        const guidesWithType = guides.map(article => ({ ...article, contentType: 'guides' as const }));
-        const caseStudiesWithType = caseStudies.map(article => ({ ...article, contentType: 'case-studies' as const }));
+        // Only surface content that exists in the generated SEO route manifest
+        const guidesWithType = guides
+          .filter(article => isRoutableContentArticle('guides', article.slug))
+          .map(article => ({ ...article, contentType: 'guides' as const }));
+        const caseStudiesWithType = caseStudies
+          .filter(article => isRoutableContentArticle('case-studies', article.slug))
+          .map(article => ({ ...article, contentType: 'case-studies' as const }));
         
         // Combine only routable article types
         let allArticles = [...guidesWithType, ...caseStudiesWithType];
