@@ -116,6 +116,15 @@
     "noscript": "Compare caveat lenders in Australia by type, rates, and speed. Learn which lender category suits your urgent property funding needs. General information only.",
     "sourcePath": "src/content/guides/caveat-lenders-australia-directory-comparison.md"
   },
+  "/resources/guides/caveat-loan-application-rejected-what-to-do-next": {
+    "title": "Caveat Loan Application Rejected? What to Do Next | Emet Capital",
+    "description": "A practical commercial-only guide to what usually causes caveat loan rejections, what borrowers can fix quickly, and how to assess alternative funding paths after a declined application.",
+    "keywords": "caveat loan rejected, caveat loan application rejected, caveat loan declined, what to do after caveat loan rejection",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-application-rejected-what-to-do-next",
+    "h1": "Caveat Loan Application Rejected? What to Do Next",
+    "noscript": "A practical commercial-only guide to what usually causes caveat loan rejections, what borrowers can fix quickly, and how to assess alternative funding paths after a declined application.",
+    "sourcePath": "src/content/guides/caveat-loan-application-rejected-what-to-do-next.md"
+  },
   "/resources/guides/caveat-loan-emergency-business-funding": {
     "title": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow | Emet Capital",
     "description": "Caveat loan emergency solutions for tax debt, cashflow crises & urgent business needs. Fast approval, 24-48hr settlement. Australian guide.",
@@ -602,15 +611,6 @@
     "noscript": "A practical guide to private mortgage lenders in Australia for business borrowers, investors, and developers, including lender categories, deal fit, and shortlist criteria.",
     "sourcePath": "src/content/guides/private-mortgage-lenders-australia-directory-2026.md"
   },
-  "/resources/guides/private-mortgage-lenders-australia-directory": {
-    "title": "Private Mortgage Lenders: Complete Australia Directory [2025] | Emet Capital",
-    "description": "Compare private mortgage lenders in Australia, including lender types, deal fit, fees, review questions, and how business borrowers may shortlist options.",
-    "keywords": "",
-    "canonical": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory",
-    "h1": "Private Mortgage Lenders: Complete Australia Directory [2025]",
-    "noscript": "Compare private mortgage lenders in Australia, including lender types, deal fit, fees, review questions, and how business borrowers may shortlist options.",
-    "sourcePath": "src/content/guides/private-mortgage-lenders-australia-directory.md"
-  },
   "/resources/guides/private-real-estate-investment-lenders-guide": {
     "title": "Private Real Estate Investment Lenders: Investor Guide 2025 | Emet Capital",
     "description": "Find private lenders for real estate investment in Australia. Compare rates, LVRs, approval speed and learn when private lending beats traditional finance for investors.",
@@ -664,6 +664,15 @@
     "h1": "Second Mortgage for Divorce Settlement: How Business Owners Handle Property Division",
     "noscript": "A practical guide to using a second mortgage during a divorce settlement for business owners and property investors in Australia. Learn how it works, when it may fit, risks, documents, and exit planning.",
     "sourcePath": "src/content/guides/second-mortgage-for-divorce-settlement-property-division.md"
+  },
+  "/resources/guides/second-mortgage-interest-rates-current-market-analysis": {
+    "title": "Second Mortgage Interest Rates: Current Market Analysis | Emet Capital",
+    "description": "A commercial-only guide to how second mortgage interest rates are assessed in Australia, what usually pushes pricing up or down, and how business borrowers should compare second-position debt.",
+    "keywords": "second mortgage interest rates, second mortgage rates, commercial second mortgage, second position lending",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-interest-rates-current-market-analysis",
+    "h1": "Second Mortgage Interest Rates: Current Market Analysis",
+    "noscript": "A commercial-only guide to how second mortgage interest rates are assessed in Australia, what usually pushes pricing up or down, and how business borrowers should compare second-position debt.",
+    "sourcePath": "src/content/guides/second-mortgage-interest-rates-current-market-analysis.md"
   },
   "/resources/guides/second-mortgage-lenders-australia-directory": {
     "title": "Second Mortgage Lenders in Australia: Complete Directory | Emet Capital",
