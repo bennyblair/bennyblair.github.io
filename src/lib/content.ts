@@ -1,5 +1,6 @@
 import matter from "gray-matter";
 import seoRouteData from "../../scripts/seo-route-data.generated.json";
+import { getPrecompiledArticleBySlug, getPrecompiledContentFiles } from "./precompiled-content";
 
 export interface Article {
   slug: string;
@@ -135,6 +136,13 @@ async function loadArticlesFromModules(modules: Record<string, RawModuleLoader>)
 }
 
 export const getContentFiles = async (contentType: string = "guides"): Promise<Article[]> => {
+  const precompiled = getPrecompiledContentFiles(contentType as "guides" | "case-studies" | "insights") as Article[];
+  if (precompiled.length > 0) {
+    return precompiled
+      .filter((article) => isRoutableContentArticle(contentType, article.slug))
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  }
+
   const loaders = contentLoaders[contentType] ?? {};
   if (!articleListCache.has(contentType)) {
     articleListCache.set(contentType, loadArticlesFromModules(loaders));
@@ -144,6 +152,12 @@ export const getContentFiles = async (contentType: string = "guides"): Promise<A
 
 export const getArticleBySlug = async (contentType: string = "guides", slug?: string): Promise<Article | null> => {
   if (!slug) return null;
+
+  const precompiled = getPrecompiledArticleBySlug(contentType as "guides" | "case-studies" | "insights", slug) as Article | null;
+  if (precompiled && isRoutableContentArticle(contentType, slug)) {
+    return precompiled;
+  }
+
   const cacheKey = `${contentType}:${slug}`;
   if (!articleBySlugCache.has(cacheKey)) {
     articleBySlugCache.set(
@@ -157,16 +171,14 @@ export const getArticleBySlug = async (contentType: string = "guides", slug?: st
   return articleBySlugCache.get(cacheKey)!;
 };
 
-export const getPrecompiledArticleBySlug = async (_contentType?: string, _slug?: string): Promise<Article | null> => {
-  return null;
-};
-
-export const getPrecompiledContentFiles = async (_contentType?: string): Promise<Article[]> => {
-  return [];
-};
-
 export const debugPrecompiledContent = () => {
-  return { message: "Content loaded via import.meta.glob", guides: Object.keys(guideModules).length };
+  const guides = getPrecompiledContentFiles("guides" as "guides") as Article[];
+  const caseStudies = getPrecompiledContentFiles("case-studies" as "case-studies") as Article[];
+  return {
+    message: "Content loaded via generated precompiled manifest",
+    guides: guides.length,
+    caseStudies: caseStudies.length,
+  };
 };
 
 export const isArticleComingSoon = async (_slug: string): Promise<boolean> => {
