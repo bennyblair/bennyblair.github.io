@@ -17,6 +17,12 @@ npm run qa:article -- <article1.md> <article2.md> --preview-base <preview-base-u
 - Top and bottom related-guide lists are not identical
 - Preview URLs for the provided articles return HTTP 200 when `--preview-base` is supplied
 
+## Important limitation
+
+This checker proves article integrity and route/build readiness. It does **not** prove the article is visibly showing in homepage, guides, case studies, or recent-article listing surfaces after deploy.
+
+For any task that affects visible listings, you must separately verify the actual listing surface after deploy.
+
 ## Example
 
 ```bash
