@@ -53,6 +53,24 @@
     "noscript": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, eligibility, benefits, and applications for businesses. General information only - not advice.",
     "sourcePath": "src/content/guides/asset-backed-lending-and-asset-finance.md"
   },
+  "/resources/guides/ato-tax-debt-finance-for-australian-business-owners": {
+    "title": "ATO Tax Debt Finance for Australian Business Owners | Emet Capital",
+    "description": "A practical guide to ATO tax debt finance for Australian business owners, including how it works, when commercial borrowers use it, lender considerations, and when short-term or property-backed finance may be relevant.",
+    "keywords": "ato tax debt finance, tax debt finance australia, ato debt funding, business tax debt refinance",
+    "canonical": "https://emetcapital.com.au/resources/guides/ato-tax-debt-finance-for-australian-business-owners",
+    "h1": "ATO Tax Debt Finance for Australian Business Owners",
+    "noscript": "A practical guide to ATO tax debt finance for Australian business owners, including how it works, when commercial borrowers use it, lender considerations, and when short-term or property-backed finance may be relevant.",
+    "sourcePath": "src/content/guides/ato-tax-debt-finance-for-australian-business-owners.md"
+  },
+  "/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved": {
+    "title": "Bank vs Non-Bank Commercial Lending in Australia: Which Borrowers Get Approved? | Emet Capital",
+    "description": "A practical guide to bank vs non-bank commercial lending in Australia, including approval differences, borrower fit, speed, flexibility, and when each option may suit a commercial property or business-purpose transaction.",
+    "keywords": "bank vs non-bank commercial lending, non-bank commercial lenders, commercial lending australia, commercial property finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved",
+    "h1": "Bank vs Non-Bank Commercial Lending in Australia: Which Borrowers Get Approved?",
+    "noscript": "A practical guide to bank vs non-bank commercial lending in Australia, including approval differences, borrower fit, speed, flexibility, and when each option may suit a commercial property or business-purpose transaction.",
+    "sourcePath": "src/content/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved.md"
+  },
   "/resources/guides/best-bridging-loan-lenders-companies-2025": {
     "title": "The Best Bridging Loan Lenders & Finance Companies [2025] | Emet Capital",
     "description": "Compare Australia's top bridging loan lenders for 2025. Expert ratings on rates, speed, LVR limits and serviceability for commercial and residential bridging finance.",
