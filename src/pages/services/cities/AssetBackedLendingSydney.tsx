@@ -1,345 +1,124 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle, Clock, DollarSign, TrendingUp, Building2, Shield, MapPin, Briefcase, FileText } from 'lucide-react';
-import SEO from '@/components/SEO';
-import { generateServiceSchema } from '@/lib/schema-utils';
+import AssetBackedLendingCityPage from '@/components/AssetBackedLendingCityPage';
 
-const AssetBackedLendingSydney: React.FC = () => {
+export default function AssetBackedLendingSydney() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <SEO 
-        title="Asset Backed Lending Sydney | Secured Business Finance NSW | Emet Capital"
-        description="Asset backed lending for Sydney businesses. Unlock capital using property, equipment, inventory or receivables as security. $100K to $20M+ facilities."
-        canonical="/services/asset-backed-lending/sydney"
-        keywords="asset backed lending Sydney, secured business finance NSW, property backed loans Sydney, commercial lending Sydney, asset secured finance"
-        schemas={[generateServiceSchema(
-          "Asset Backed Lending Sydney",
-          "Asset backed lending for Sydney businesses. Unlock capital using property, equipment, inventory or receivables as security. $100K to $20M+ facilities.",
-          "https://emetcapital.com.au/services/asset-backed-lending/sydney"
-        )]}
-      />
-      
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <Link to="/services/asset-backed-lending" className="inline-flex items-center text-blue-200 hover:text-white mb-6 transition-colors">
-            <ArrowLeft className="mr-2" size={20} />
-            Back to Asset Backed Lending
-          </Link>
-          <div className="max-w-4xl">
-            <div className="flex items-center mb-4">
-              <MapPin className="mr-3" size={32} />
-              <h1 className="text-4xl md:text-5xl font-bold">Asset Backed Lending Sydney</h1>
-            </div>
-            <p className="text-xl text-blue-100 mb-8">
-              Unlock the value in your Sydney business assets. Commercial property, equipment, inventory, and receivables can secure flexible funding from $100K to $20M+.
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">$100K-$20M+</div>
-                <div className="text-blue-200 text-sm">Facility Range</div>
-              </div>
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">65-80%</div>
-                <div className="text-blue-200 text-sm">Typical LVR</div>
-              </div>
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">1-5 Years</div>
-                <div className="text-blue-200 text-sm">Flexible Terms</div>
-              </div>
-              <div className="bg-blue-800/50 p-4 rounded-lg">
-                <div className="text-2xl font-bold mb-1">5-14 Days</div>
-                <div className="text-blue-200 text-sm">Approval Time</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sydney Market Overview */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Sydney Asset Backed Finance Market</h2>
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div>
-                <h3 className="text-xl font-semibold mb-4 text-blue-900">Market Characteristics</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Premium Property Values:</strong> Sydney commercial property provides strong security base</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Diverse Asset Base:</strong> Manufacturing, logistics, healthcare, retail all represented</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Trade Hub:</strong> Strong receivables from import/export businesses</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Deep Lender Network:</strong> Access to 60+ private lenders active in NSW</span>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-4 text-blue-900">Key Business Precincts</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Sydney CBD:</strong> Commercial property, professional services receivables</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>Western Sydney:</strong> Industrial property, logistics equipment, inventory</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>North Shore:</strong> Medical equipment, healthcare receivables</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Building2 className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={20} />
-                    <span><strong>South Sydney:</strong> Manufacturing assets, wholesale inventory</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Asset Types */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Assets We Finance in Sydney</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Commercial Property */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-center mb-4">
-                  <Building2 className="text-blue-600 mr-3" size={32} />
-                  <h3 className="text-xl font-semibold">Commercial Property</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                  Offices, retail, industrial, and mixed-use properties across Greater Sydney.
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Up to 70% LVR (first mortgage)
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Second mortgages available
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Development sites considered
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Strata & freehold accepted
-                  </li>
-                </ul>
-              </div>
-
-              {/* Equipment & Machinery */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-center mb-4">
-                  <Shield className="text-blue-600 mr-3" size={32} />
-                  <h3 className="text-xl font-semibold">Equipment & Machinery</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                  Manufacturing, medical, construction, and specialist equipment as security.
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Up to 80% of equipment value
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Owned & financed equipment
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Fleet vehicles included
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Independent valuations arranged
-                  </li>
-                </ul>
-              </div>
-
-              {/* Inventory & Receivables */}
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex items-center mb-4">
-                  <FileText className="text-blue-600 mr-3" size={32} />
-                  <h3 className="text-xl font-semibold">Inventory & Receivables</h3>
-                </div>
-                <p className="text-gray-600 mb-4">
-                  Stock financing and invoice-backed facilities for wholesalers and distributors.
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Up to 60% of inventory value
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Up to 85% of receivables
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Revolving facilities available
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="text-blue-600 mr-2" size={16} />
-                    Combined asset pools
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Use Cases */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Common Uses in Sydney</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Working Capital</h3>
-                <p className="text-gray-600">Unlock equity in owned assets to fund operations, seasonal demands, or growth opportunities without selling.</p>
-              </div>
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Business Expansion</h3>
-                <p className="text-gray-600">Use existing commercial property or equipment equity to fund new locations, acquisitions, or market entry.</p>
-              </div>
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Debt Restructuring</h3>
-                <p className="text-gray-600">Consolidate multiple facilities into a single asset-backed loan with better terms or lower repayments.</p>
-              </div>
-              <div className="border-l-4 border-blue-600 pl-6">
-                <h3 className="text-xl font-semibold mb-3">Opportunity Funding</h3>
-                <p className="text-gray-600">Fast access to capital when time-sensitive deals arise - property purchases, bulk inventory, or distressed acquisitions.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sydney Industries */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">Industries We Serve in Sydney</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[
-                "Manufacturing",
-                "Wholesale & Distribution",
-                "Healthcare & Medical",
-                "Construction",
-                "Transport & Logistics",
-                "Professional Services",
-                "Retail & Hospitality",
-                "Import/Export"
-              ].map((industry, index) => (
-                <div key={index} className="bg-white p-4 rounded-lg shadow text-center">
-                  <Briefcase className="text-blue-600 mx-auto mb-2" size={24} />
-                  <span className="text-sm font-medium">{industry}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Process */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">How It Works</h2>
-            <div className="grid md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
-                <h3 className="font-semibold mb-2">Asset Assessment</h3>
-                <p className="text-gray-600 text-sm">We review your assets, their values, and lending potential</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
-                <h3 className="font-semibold mb-2">Lender Matching</h3>
-                <p className="text-gray-600 text-sm">We match your profile to lenders who specialise in your asset type</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
-                <h3 className="font-semibold mb-2">Valuation & Approval</h3>
-                <p className="text-gray-600 text-sm">Independent valuations arranged, credit approval obtained</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
-                <h3 className="font-semibold mb-2">Settlement</h3>
-                <p className="text-gray-600 text-sm">Funds released upon security registration</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-blue-900 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Unlock Your Sydney Asset Value</h2>
-            <p className="text-xl text-blue-100 mb-8">
-              Get a confidential assessment of your borrowing capacity based on your business assets.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
-              >
-                Get Asset Assessment
-              </Link>
-              <a
-                href="tel:1300123456"
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors"
-              >
-                Call 1300 123 456
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Related Services */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8 text-center">Related Services</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              <Link to="/services/first-second-mortgages/sydney" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold mb-2">1st & 2nd Mortgages Sydney</h3>
-                <p className="text-gray-600 text-sm">Property-secured lending for Sydney businesses</p>
-              </Link>
-              <Link to="/services/bridging-finance/cities/sydney" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold mb-2">Bridging Finance Sydney</h3>
-                <p className="text-gray-600 text-sm">Short-term funding secured by property</p>
-              </Link>
-              <Link to="/services/asset-finance/sydney" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h3 className="font-semibold mb-2">Asset Finance Sydney</h3>
-                <p className="text-gray-600 text-sm">Equipment and vehicle finance solutions</p>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <AssetBackedLendingCityPage
+      city="Sydney"
+      state="NSW"
+      canonical="/services/asset-backed-lending/sydney"
+      title="Asset Backed Lending Sydney | Secured Business Finance NSW | Emet Capital"
+      description="Asset backed lending in Sydney for commercial borrowers using property, equipment, inventory, or receivables to unlock working capital, refinance pressure, or transaction funding where lender fit and execution speed matter."
+      localIntro="Asset backed lending for Sydney businesses that need to unlock capital from commercial property, plant, equipment, stock, or receivables without relying on a generic unsecured-credit assessment."
+      localFocus="Sydney asset backed lending files are often driven by premium-value property, industrial and logistics assets, wholesale stock, and receivables-heavy trading businesses. The strongest structures usually come from matching the lender to the security mix rather than treating every asset as if it should be funded the same way."
+      marketOverview="Sydney remains the deepest asset-backed lending market in Australia because the city combines high-value commercial property, dense industrial corridors, large healthcare and professional-services businesses, and strong import-export activity. That depth creates options, but it also means lenders look closely at valuation quality, existing debt, and how cleanly the security package can be documented."
+      timingPressures="In Sydney, timing pressure often comes from acquisitions that need quick certainty, refinance deadlines where mainstream credit is still catching up, and businesses that need liquidity before debtors clear or stock turns into cash. When those events collide with complex assets or layered security, execution discipline matters as much as headline pricing."
+      suburbCoverage={[
+        {
+          title: 'CBD, South Sydney, and city-fringe trade corridors',
+          text: 'Sydney CBD, Alexandria, Mascot, Botany, and Port-linked precincts often produce receivables, inventory, and owner-occupied commercial-property files tied to logistics, wholesale, and trade-driven businesses.'
+        },
+        {
+          title: 'Inner West, Parramatta, and western industrial belts',
+          text: 'Silverwater, Lidcombe, Wetherill Park, Smithfield, Parramatta, and surrounding industrial corridors regularly generate machinery, warehouse, and mixed-security lending scenarios where asset value can be leveraged for growth or refinance.'
+        },
+        {
+          title: 'North Shore and healthcare or professional-service hubs',
+          text: 'North Sydney, Chatswood, St Leonards, and Macquarie Park can suit equipment-backed or property-backed structures for medical, technology, and professional firms with quality balance-sheet assets but non-standard funding needs.'
+        }
+      ]}
+      localUseCases={[
+        {
+          title: 'Working capital against commercial security',
+          text: 'Sydney borrowers often use property, plant, or debtor books to create liquidity without selling strategic assets or waiting for a slower unsecured approval process.'
+        },
+        {
+          title: 'Refinance support for layered asset pools',
+          text: 'Some files involve replacing expensive short-term debt or cleaning up multiple facilities by restructuring around the strongest available security package.'
+        },
+        {
+          title: 'Growth and acquisition funding',
+          text: 'Asset backed lending can help when a business wants to secure stock, equipment, or an acquisition opportunity faster than a mainstream lender can fully assess the file.'
+        },
+        {
+          title: 'Bridge-style commercial liquidity',
+          text: 'Where the exit is tied to receivables collection, sale of another asset, or later refinance, a shorter-term asset-backed structure may create breathing room without losing transaction control.'
+        }
+      ]}
+      scenarios={[
+        {
+          title: 'Silverwater warehouse and fleet refinance',
+          scenario: 'A transport operator in Silverwater owned an industrial warehouse and a fleet of heavy vehicles but needed to refinance an expensive short-term facility before maturity. Mainstream lenders wanted more time to review trading figures and asset values.',
+          solution: 'A blended asset-backed structure using the warehouse and transport assets created enough room to clear the expiring debt and stabilise the business while a longer-term refinance path remained available.',
+          outcomes: [
+            { label: 'Security pool', value: 'Warehouse + heavy vehicle fleet' },
+            { label: 'Facility size', value: '$2.8M' },
+            { label: 'Primary purpose', value: 'Refinance and liquidity reset' },
+            { label: 'Planned exit', value: 'Takeout refinance within 6 months' }
+          ]
+        },
+        {
+          title: 'Botany importer stock funding',
+          scenario: 'An importer with stock arriving through Port Botany needed capital to clear inventory and keep trading while waiting for a major debtor cycle to complete. The business had strong inventory and receivables but needed faster access to working capital.',
+          solution: 'A structured facility backed by inventory and debtor strength gave the business room to meet supplier obligations and trade through the cash-flow gap without relying on unsecured debt.',
+          outcomes: [
+            { label: 'Security type', value: 'Inventory + receivables support' },
+            { label: 'Facility size', value: '$1.15M' },
+            { label: 'Commercial pressure', value: 'Import and supplier timing' },
+            { label: 'Expected exit', value: 'Debtor collections and trading cycle' }
+          ]
+        },
+        {
+          title: 'North Shore medical equipment expansion',
+          scenario: 'A specialist healthcare group on the North Shore wanted to expand capacity quickly and had valuable equipment plus strong property support, but the transaction timing did not suit a slower bank process.',
+          solution: 'An asset-backed facility secured against equipment and property support funded the expansion while keeping the business on schedule and preserving room for a later refinance if needed.',
+          outcomes: [
+            { label: 'Security value', value: 'Equipment + property support' },
+            { label: 'Facility size', value: '$1.9M' },
+            { label: 'Commercial purpose', value: 'Capacity expansion' },
+            { label: 'Term', value: '12 to 24 months' }
+          ]
+        }
+      ]}
+      relatedLinks={[
+        {
+          title: 'Asset Backed Lending service page',
+          href: '/services/asset-backed-lending',
+          description: 'Overview of how asset-backed facilities are structured and what security types lenders usually accept.'
+        },
+        {
+          title: 'Asset-Backed Lending & Asset Finance guide',
+          href: '/resources/guides/asset-backed-lending-and-asset-finance',
+          description: 'Long-form guide covering how these structures work and when they fit.'
+        },
+        {
+          title: 'Asset Finance Sydney',
+          href: '/services/asset-finance/sydney',
+          description: 'Useful if the Sydney requirement is more equipment-specific than broad asset-backed funding.'
+        }
+      ]}
+      faqs={[
+        {
+          question: 'What assets can support asset backed lending in Sydney?',
+          answer: 'Common security types include commercial property, warehouses, owner-occupied premises, machinery, transport assets, inventory, and debtor books. What matters most is how marketable the security is and how well the repayment plan lines up with it.'
+        },
+        {
+          question: 'Is asset backed lending only for distressed Sydney businesses?',
+          answer: 'No. Many Sydney files involve capable businesses using existing assets to move quickly on growth, refinance, or working-capital opportunities where mainstream policy or timing is too rigid.'
+        },
+        {
+          question: 'Can a Sydney borrower use more than one asset type as security?',
+          answer: 'Potentially, yes. Some of the strongest structures combine property support with equipment, inventory, or receivables, provided the lender is comfortable with the overall security package and documentation.'
+        },
+        {
+          question: 'How fast can asset backed lending move in Sydney?',
+          answer: 'Timing depends on the asset mix, valuations, and legal work, but a well-prepared file can move faster than a conventional bank process. Simpler property- or equipment-backed deals usually move more cleanly than blended multi-asset structures.'
+        },
+        {
+          question: 'When does asset backed lending make more sense than unsecured funding?',
+          answer: 'Usually when the business has quality assets and wants stronger borrowing capacity, a more tailored structure, or a lower-risk pathway than relying on unsecured debt alone.'
+        }
+      ]}
+    />
   );
-};
-
-export default AssetBackedLendingSydney;
+}
