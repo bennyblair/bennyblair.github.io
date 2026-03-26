@@ -133,6 +133,26 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
+            <h2 className="text-3xl font-bold text-white mb-6 text-center">Who private lending is usually for in {city}</h2>
+            <div className="grid md:grid-cols-3 gap-6 text-left">
+              <div className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                <h3 className="text-xl font-semibold text-white mb-3">Investors and commercial buyers</h3>
+                <p className="text-slate-300 leading-relaxed">Borrowers securing warehouses, offices, mixed-use property, or investment assets often need a lender that can move at the pace of the transaction instead of the pace of a generic retail-style process.</p>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                <h3 className="text-xl font-semibold text-white mb-3">Business owners using property strategically</h3>
+                <p className="text-slate-300 leading-relaxed">Owner-occupiers and company directors may use private lending to handle refinancing, liquidity events, restructures, or business-purpose capital needs where commercial property equity is the strongest part of the file.</p>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                <h3 className="text-xl font-semibold text-white mb-3">Developers and transition-stage borrowers</h3>
+                <p className="text-slate-300 leading-relaxed">Private credit can also fit borrowers moving between debt stages, waiting on asset sales, lease-up, titles, or formal takeout finance, provided the short-term purpose and exit are both credible.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-5xl mx-auto mb-12">
           <h2 className="text-3xl font-bold text-white mb-8 text-center">Suburbs, precincts, and corridors we watch in {city}</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {suburbCoverage.map((item) => (
@@ -144,6 +164,30 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
                 <p className="text-slate-300 leading-relaxed">{item.text}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section className="max-w-5xl mx-auto mb-12">
+          <div className="bg-slate-900 border border-slate-800 rounded-xl p-8">
+            <h2 className="text-3xl font-bold text-white mb-6 text-center">What private lenders usually assess in {city}</h2>
+            <div className="grid md:grid-cols-2 gap-6 text-left">
+              <div className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                <h3 className="text-xl font-semibold text-white mb-3">Security and local market depth</h3>
+                <p className="text-slate-300 leading-relaxed">The lender will normally look at asset quality, likely liquidity, title position, and how the property would be viewed in the local market if the file ever had to be worked out under pressure.</p>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                <h3 className="text-xl font-semibold text-white mb-3">Leverage and downside protection</h3>
+                <p className="text-slate-300 leading-relaxed">Private lenders are flexible, but they still care about sensible leverage. Cleaner LVRs usually create more lender appetite and a more stable path to approval.</p>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                <h3 className="text-xl font-semibold text-white mb-3">Commercial purpose and document readiness</h3>
+                <p className="text-slate-300 leading-relaxed">A lender wants a clean explanation of why the funds are needed, how the transaction works, and whether valuation, legal, lease, and entity documents are organised enough to settle without avoidable delays.</p>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950 p-6">
+                <h3 className="text-xl font-semibold text-white mb-3">Exit quality</h3>
+                <p className="text-slate-300 leading-relaxed">Refinance, sale, project completion, or another liquidity event must be more than a vague hope. In most private lending files, the exit is where the full credit story either holds together or falls apart.</p>
+              </div>
+            </div>
           </div>
         </section>
 
