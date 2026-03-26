@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { Globe, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
+import { Globe, Phone, FileText, TrendingUp, Shield, ArrowRight, BookOpen } from "lucide-react";
 import SEO from "@/components/SEO";
 import { Helmet } from "react-helmet-async";
 import { generateServiceSchema } from "@/lib/schema-utils";
