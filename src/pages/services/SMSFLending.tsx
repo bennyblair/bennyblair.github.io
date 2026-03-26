@@ -261,6 +261,28 @@ const SMSFLending = () => {
             { title: "SMSF Loans for Commercial Property", slug: "smsf-loans-for-commercial-property", description: "Guide to SMSF property investment and LRBA structures" }
           ] as RelatedArticle[]} />
 
+          {/* City Pages */}
+          <section className="mb-16">
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">SMSF Lending by City</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                ["Sydney", "/services/smsf-lending/cities/sydney"],
+                ["Melbourne", "/services/smsf-lending/cities/melbourne"],
+                ["Brisbane", "/services/smsf-lending/cities/brisbane"],
+                ["Perth", "/services/smsf-lending/cities/perth"],
+                ["Adelaide", "/services/smsf-lending/cities/adelaide"],
+                ["Gold Coast", "/services/smsf-lending/cities/gold-coast"],
+              ].map(([label, href]) => (
+                <Link key={href} to={href} className="p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="font-semibold text-foreground">{label}</span>
+                    <ArrowRight className="h-4 w-4 text-accent" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+
           {/* Related Services */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>

@@ -1232,6 +1232,60 @@
     "noscript": "Specialized SMSF property lending with Limited Recourse Borrowing Arrangements. Super fund loans from $150K-$25M+ with compliant structures.",
     "sourcePath": "src/pages/services/SMSFLending.tsx"
   },
+  "/services/smsf-lending/cities/sydney": {
+    "title": "Services Smsf Lending Cities Sydney | Emet Capital",
+    "description": "Explore Services Smsf Lending Cities Sydney with Emet Capital.",
+    "keywords": "smsf lending Sydney, smsf lending Sydney finance",
+    "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/sydney",
+    "h1": "Services Smsf Lending Cities Sydney",
+    "noscript": "Explore Services Smsf Lending Cities Sydney with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/SMSFLendingSydney.tsx"
+  },
+  "/services/smsf-lending/cities/melbourne": {
+    "title": "Services Smsf Lending Cities Melbourne | Emet Capital",
+    "description": "Explore Services Smsf Lending Cities Melbourne with Emet Capital.",
+    "keywords": "smsf lending Melbourne, smsf lending Melbourne finance",
+    "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/melbourne",
+    "h1": "Services Smsf Lending Cities Melbourne",
+    "noscript": "Explore Services Smsf Lending Cities Melbourne with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/SMSFLendingMelbourne.tsx"
+  },
+  "/services/smsf-lending/cities/brisbane": {
+    "title": "Services Smsf Lending Cities Brisbane | Emet Capital",
+    "description": "Explore Services Smsf Lending Cities Brisbane with Emet Capital.",
+    "keywords": "smsf lending Brisbane, smsf lending Brisbane finance",
+    "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/brisbane",
+    "h1": "Services Smsf Lending Cities Brisbane",
+    "noscript": "Explore Services Smsf Lending Cities Brisbane with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/SMSFLendingBrisbane.tsx"
+  },
+  "/services/smsf-lending/cities/perth": {
+    "title": "Services Smsf Lending Cities Perth | Emet Capital",
+    "description": "Explore Services Smsf Lending Cities Perth with Emet Capital.",
+    "keywords": "smsf lending Perth, smsf lending Perth finance",
+    "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/perth",
+    "h1": "Services Smsf Lending Cities Perth",
+    "noscript": "Explore Services Smsf Lending Cities Perth with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/SMSFLendingPerth.tsx"
+  },
+  "/services/smsf-lending/cities/adelaide": {
+    "title": "Services Smsf Lending Cities Adelaide | Emet Capital",
+    "description": "Explore Services Smsf Lending Cities Adelaide with Emet Capital.",
+    "keywords": "smsf lending Adelaide, smsf lending Adelaide finance",
+    "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/adelaide",
+    "h1": "Services Smsf Lending Cities Adelaide",
+    "noscript": "Explore Services Smsf Lending Cities Adelaide with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/SMSFLendingAdelaide.tsx"
+  },
+  "/services/smsf-lending/cities/gold-coast": {
+    "title": "Services Smsf Lending Cities Gold Coast | Emet Capital",
+    "description": "Explore Services Smsf Lending Cities Gold Coast with Emet Capital.",
+    "keywords": "smsf lending Gold Coast, smsf lending Gold Coast finance",
+    "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/gold-coast",
+    "h1": "Services Smsf Lending Cities Gold Coast",
+    "noscript": "Explore Services Smsf Lending Cities Gold Coast with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/SMSFLendingGoldCoast.tsx"
+  },
   "/services/debt-consolidation": {
     "title": "Business Restructure & Refinancing Solutions | Emet Capital",
     "description": "Consolidate multiple business debts into one facility with simplified management, improved cash flow, and competitive rates across Australia.",

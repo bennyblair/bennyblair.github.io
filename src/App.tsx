@@ -41,6 +41,12 @@ const RefinancingSolutions = lazy(() => import("./pages/services/RefinancingSolu
 const EquipmentFinance = lazy(() => import("./pages/services/EquipmentFinance"));
 const TradeFinance = lazy(() => import("./pages/services/TradeFinance"));
 const SMSFLending = lazy(() => import("./pages/services/SMSFLending"));
+const SMSFLendingSydney = lazy(() => import("./pages/services/cities/SMSFLendingSydney"));
+const SMSFLendingMelbourne = lazy(() => import("./pages/services/cities/SMSFLendingMelbourne"));
+const SMSFLendingBrisbane = lazy(() => import("./pages/services/cities/SMSFLendingBrisbane"));
+const SMSFLendingPerth = lazy(() => import("./pages/services/cities/SMSFLendingPerth"));
+const SMSFLendingAdelaide = lazy(() => import("./pages/services/cities/SMSFLendingAdelaide"));
+const SMSFLendingGoldCoast = lazy(() => import("./pages/services/cities/SMSFLendingGoldCoast"));
 
 // City-specific service pages
 const PrivateLendingSydney = lazy(() => import("./pages/services/cities/PrivateLendingSydney"));
@@ -202,6 +208,12 @@ const App = () => (
                 <Route path="/services/asset-backed-lending" element={<AssetBackedLending />} />
                 <Route path="/services/private-lending" element={<PrivateLending />} />
                 <Route path="/services/smsf-lending" element={<SMSFLending />} />
+                <Route path="/services/smsf-lending/cities/sydney" element={<SMSFLendingSydney />} />
+                <Route path="/services/smsf-lending/cities/melbourne" element={<SMSFLendingMelbourne />} />
+                <Route path="/services/smsf-lending/cities/brisbane" element={<SMSFLendingBrisbane />} />
+                <Route path="/services/smsf-lending/cities/perth" element={<SMSFLendingPerth />} />
+                <Route path="/services/smsf-lending/cities/adelaide" element={<SMSFLendingAdelaide />} />
+                <Route path="/services/smsf-lending/cities/gold-coast" element={<SMSFLendingGoldCoast />} />
                 <Route path="/services/debt-consolidation" element={<DebtConsolidation />} />
                 <Route path="/services/caveat-loans" element={<CaveatLoans />} />
                 <Route path="/services/asset-finance" element={<AssetFinance />} />
