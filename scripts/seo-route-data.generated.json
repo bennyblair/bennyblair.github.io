@@ -1682,6 +1682,330 @@
     "noscript": "Explore Services Refinancing Solutions Cities Gold Coast with Emet Capital.",
     "sourcePath": "src/pages/services/cities/RefinancingSolutionsGoldCoast.tsx"
   },
+  "/services/business-acquisition/cities/sydney": {
+    "title": "Services Business Acquisition Cities Sydney | Emet Capital",
+    "description": "Explore Services Business Acquisition Cities Sydney with Emet Capital.",
+    "keywords": "business acquisition Sydney, business acquisition Sydney finance",
+    "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/sydney",
+    "h1": "Services Business Acquisition Cities Sydney",
+    "noscript": "Explore Services Business Acquisition Cities Sydney with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/BusinessAcquisitionSydney.tsx"
+  },
+  "/services/business-acquisition/cities/melbourne": {
+    "title": "Services Business Acquisition Cities Melbourne | Emet Capital",
+    "description": "Explore Services Business Acquisition Cities Melbourne with Emet Capital.",
+    "keywords": "business acquisition Melbourne, business acquisition Melbourne finance",
+    "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/melbourne",
+    "h1": "Services Business Acquisition Cities Melbourne",
+    "noscript": "Explore Services Business Acquisition Cities Melbourne with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/BusinessAcquisitionMelbourne.tsx"
+  },
+  "/services/business-acquisition/cities/brisbane": {
+    "title": "Services Business Acquisition Cities Brisbane | Emet Capital",
+    "description": "Explore Services Business Acquisition Cities Brisbane with Emet Capital.",
+    "keywords": "business acquisition Brisbane, business acquisition Brisbane finance",
+    "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/brisbane",
+    "h1": "Services Business Acquisition Cities Brisbane",
+    "noscript": "Explore Services Business Acquisition Cities Brisbane with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/BusinessAcquisitionBrisbane.tsx"
+  },
+  "/services/business-acquisition/cities/perth": {
+    "title": "Services Business Acquisition Cities Perth | Emet Capital",
+    "description": "Explore Services Business Acquisition Cities Perth with Emet Capital.",
+    "keywords": "business acquisition Perth, business acquisition Perth finance",
+    "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/perth",
+    "h1": "Services Business Acquisition Cities Perth",
+    "noscript": "Explore Services Business Acquisition Cities Perth with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/BusinessAcquisitionPerth.tsx"
+  },
+  "/services/business-acquisition/cities/adelaide": {
+    "title": "Services Business Acquisition Cities Adelaide | Emet Capital",
+    "description": "Explore Services Business Acquisition Cities Adelaide with Emet Capital.",
+    "keywords": "business acquisition Adelaide, business acquisition Adelaide finance",
+    "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/adelaide",
+    "h1": "Services Business Acquisition Cities Adelaide",
+    "noscript": "Explore Services Business Acquisition Cities Adelaide with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/BusinessAcquisitionAdelaide.tsx"
+  },
+  "/services/business-acquisition/cities/gold-coast": {
+    "title": "Services Business Acquisition Cities Gold Coast | Emet Capital",
+    "description": "Explore Services Business Acquisition Cities Gold Coast with Emet Capital.",
+    "keywords": "business acquisition Gold Coast, business acquisition Gold Coast finance",
+    "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/gold-coast",
+    "h1": "Services Business Acquisition Cities Gold Coast",
+    "noscript": "Explore Services Business Acquisition Cities Gold Coast with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/BusinessAcquisitionGoldCoast.tsx"
+  },
+  "/services/debt-consolidation/cities/sydney": {
+    "title": "Services Debt Consolidation Cities Sydney | Emet Capital",
+    "description": "Explore Services Debt Consolidation Cities Sydney with Emet Capital.",
+    "keywords": "debt consolidation Sydney, debt consolidation Sydney finance",
+    "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/sydney",
+    "h1": "Services Debt Consolidation Cities Sydney",
+    "noscript": "Explore Services Debt Consolidation Cities Sydney with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/DebtConsolidationSydney.tsx"
+  },
+  "/services/debt-consolidation/cities/melbourne": {
+    "title": "Services Debt Consolidation Cities Melbourne | Emet Capital",
+    "description": "Explore Services Debt Consolidation Cities Melbourne with Emet Capital.",
+    "keywords": "debt consolidation Melbourne, debt consolidation Melbourne finance",
+    "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/melbourne",
+    "h1": "Services Debt Consolidation Cities Melbourne",
+    "noscript": "Explore Services Debt Consolidation Cities Melbourne with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/DebtConsolidationMelbourne.tsx"
+  },
+  "/services/debt-consolidation/cities/brisbane": {
+    "title": "Services Debt Consolidation Cities Brisbane | Emet Capital",
+    "description": "Explore Services Debt Consolidation Cities Brisbane with Emet Capital.",
+    "keywords": "debt consolidation Brisbane, debt consolidation Brisbane finance",
+    "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/brisbane",
+    "h1": "Services Debt Consolidation Cities Brisbane",
+    "noscript": "Explore Services Debt Consolidation Cities Brisbane with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/DebtConsolidationBrisbane.tsx"
+  },
+  "/services/debt-consolidation/cities/perth": {
+    "title": "Services Debt Consolidation Cities Perth | Emet Capital",
+    "description": "Explore Services Debt Consolidation Cities Perth with Emet Capital.",
+    "keywords": "debt consolidation Perth, debt consolidation Perth finance",
+    "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/perth",
+    "h1": "Services Debt Consolidation Cities Perth",
+    "noscript": "Explore Services Debt Consolidation Cities Perth with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/DebtConsolidationPerth.tsx"
+  },
+  "/services/debt-consolidation/cities/adelaide": {
+    "title": "Services Debt Consolidation Cities Adelaide | Emet Capital",
+    "description": "Explore Services Debt Consolidation Cities Adelaide with Emet Capital.",
+    "keywords": "debt consolidation Adelaide, debt consolidation Adelaide finance",
+    "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/adelaide",
+    "h1": "Services Debt Consolidation Cities Adelaide",
+    "noscript": "Explore Services Debt Consolidation Cities Adelaide with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/DebtConsolidationAdelaide.tsx"
+  },
+  "/services/debt-consolidation/cities/gold-coast": {
+    "title": "Services Debt Consolidation Cities Gold Coast | Emet Capital",
+    "description": "Explore Services Debt Consolidation Cities Gold Coast with Emet Capital.",
+    "keywords": "debt consolidation Gold Coast, debt consolidation Gold Coast finance",
+    "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/gold-coast",
+    "h1": "Services Debt Consolidation Cities Gold Coast",
+    "noscript": "Explore Services Debt Consolidation Cities Gold Coast with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/DebtConsolidationGoldCoast.tsx"
+  },
+  "/services/equipment-finance/cities/sydney": {
+    "title": "Services Equipment Finance Cities Sydney | Emet Capital",
+    "description": "Explore Services Equipment Finance Cities Sydney with Emet Capital.",
+    "keywords": "equipment finance Sydney, equipment finance Sydney finance",
+    "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/sydney",
+    "h1": "Services Equipment Finance Cities Sydney",
+    "noscript": "Explore Services Equipment Finance Cities Sydney with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/EquipmentFinanceSydney.tsx"
+  },
+  "/services/equipment-finance/cities/melbourne": {
+    "title": "Services Equipment Finance Cities Melbourne | Emet Capital",
+    "description": "Explore Services Equipment Finance Cities Melbourne with Emet Capital.",
+    "keywords": "equipment finance Melbourne, equipment finance Melbourne finance",
+    "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/melbourne",
+    "h1": "Services Equipment Finance Cities Melbourne",
+    "noscript": "Explore Services Equipment Finance Cities Melbourne with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/EquipmentFinanceMelbourne.tsx"
+  },
+  "/services/equipment-finance/cities/brisbane": {
+    "title": "Services Equipment Finance Cities Brisbane | Emet Capital",
+    "description": "Explore Services Equipment Finance Cities Brisbane with Emet Capital.",
+    "keywords": "equipment finance Brisbane, equipment finance Brisbane finance",
+    "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/brisbane",
+    "h1": "Services Equipment Finance Cities Brisbane",
+    "noscript": "Explore Services Equipment Finance Cities Brisbane with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/EquipmentFinanceBrisbane.tsx"
+  },
+  "/services/equipment-finance/cities/perth": {
+    "title": "Services Equipment Finance Cities Perth | Emet Capital",
+    "description": "Explore Services Equipment Finance Cities Perth with Emet Capital.",
+    "keywords": "equipment finance Perth, equipment finance Perth finance",
+    "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/perth",
+    "h1": "Services Equipment Finance Cities Perth",
+    "noscript": "Explore Services Equipment Finance Cities Perth with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/EquipmentFinancePerth.tsx"
+  },
+  "/services/equipment-finance/cities/adelaide": {
+    "title": "Services Equipment Finance Cities Adelaide | Emet Capital",
+    "description": "Explore Services Equipment Finance Cities Adelaide with Emet Capital.",
+    "keywords": "equipment finance Adelaide, equipment finance Adelaide finance",
+    "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/adelaide",
+    "h1": "Services Equipment Finance Cities Adelaide",
+    "noscript": "Explore Services Equipment Finance Cities Adelaide with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/EquipmentFinanceAdelaide.tsx"
+  },
+  "/services/equipment-finance/cities/gold-coast": {
+    "title": "Services Equipment Finance Cities Gold Coast | Emet Capital",
+    "description": "Explore Services Equipment Finance Cities Gold Coast with Emet Capital.",
+    "keywords": "equipment finance Gold Coast, equipment finance Gold Coast finance",
+    "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/gold-coast",
+    "h1": "Services Equipment Finance Cities Gold Coast",
+    "noscript": "Explore Services Equipment Finance Cities Gold Coast with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/EquipmentFinanceGoldCoast.tsx"
+  },
+  "/services/working-capital/cities/sydney": {
+    "title": "Services Working Capital Cities Sydney | Emet Capital",
+    "description": "Explore Services Working Capital Cities Sydney with Emet Capital.",
+    "keywords": "working capital Sydney, working capital Sydney finance",
+    "canonical": "https://emetcapital.com.au/services/working-capital/cities/sydney",
+    "h1": "Services Working Capital Cities Sydney",
+    "noscript": "Explore Services Working Capital Cities Sydney with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/WorkingCapitalSydney.tsx"
+  },
+  "/services/working-capital/cities/melbourne": {
+    "title": "Services Working Capital Cities Melbourne | Emet Capital",
+    "description": "Explore Services Working Capital Cities Melbourne with Emet Capital.",
+    "keywords": "working capital Melbourne, working capital Melbourne finance",
+    "canonical": "https://emetcapital.com.au/services/working-capital/cities/melbourne",
+    "h1": "Services Working Capital Cities Melbourne",
+    "noscript": "Explore Services Working Capital Cities Melbourne with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/WorkingCapitalMelbourne.tsx"
+  },
+  "/services/working-capital/cities/brisbane": {
+    "title": "Services Working Capital Cities Brisbane | Emet Capital",
+    "description": "Explore Services Working Capital Cities Brisbane with Emet Capital.",
+    "keywords": "working capital Brisbane, working capital Brisbane finance",
+    "canonical": "https://emetcapital.com.au/services/working-capital/cities/brisbane",
+    "h1": "Services Working Capital Cities Brisbane",
+    "noscript": "Explore Services Working Capital Cities Brisbane with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/WorkingCapitalBrisbane.tsx"
+  },
+  "/services/working-capital/cities/perth": {
+    "title": "Services Working Capital Cities Perth | Emet Capital",
+    "description": "Explore Services Working Capital Cities Perth with Emet Capital.",
+    "keywords": "working capital Perth, working capital Perth finance",
+    "canonical": "https://emetcapital.com.au/services/working-capital/cities/perth",
+    "h1": "Services Working Capital Cities Perth",
+    "noscript": "Explore Services Working Capital Cities Perth with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/WorkingCapitalPerth.tsx"
+  },
+  "/services/working-capital/cities/adelaide": {
+    "title": "Services Working Capital Cities Adelaide | Emet Capital",
+    "description": "Explore Services Working Capital Cities Adelaide with Emet Capital.",
+    "keywords": "working capital Adelaide, working capital Adelaide finance",
+    "canonical": "https://emetcapital.com.au/services/working-capital/cities/adelaide",
+    "h1": "Services Working Capital Cities Adelaide",
+    "noscript": "Explore Services Working Capital Cities Adelaide with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/WorkingCapitalAdelaide.tsx"
+  },
+  "/services/working-capital/cities/gold-coast": {
+    "title": "Services Working Capital Cities Gold Coast | Emet Capital",
+    "description": "Explore Services Working Capital Cities Gold Coast with Emet Capital.",
+    "keywords": "working capital Gold Coast, working capital Gold Coast finance",
+    "canonical": "https://emetcapital.com.au/services/working-capital/cities/gold-coast",
+    "h1": "Services Working Capital Cities Gold Coast",
+    "noscript": "Explore Services Working Capital Cities Gold Coast with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/WorkingCapitalGoldCoast.tsx"
+  },
+  "/services/trade-finance/cities/sydney": {
+    "title": "Services Trade Finance Cities Sydney | Emet Capital",
+    "description": "Explore Services Trade Finance Cities Sydney with Emet Capital.",
+    "keywords": "trade finance Sydney, trade finance Sydney finance",
+    "canonical": "https://emetcapital.com.au/services/trade-finance/cities/sydney",
+    "h1": "Services Trade Finance Cities Sydney",
+    "noscript": "Explore Services Trade Finance Cities Sydney with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/TradeFinanceSydney.tsx"
+  },
+  "/services/trade-finance/cities/melbourne": {
+    "title": "Services Trade Finance Cities Melbourne | Emet Capital",
+    "description": "Explore Services Trade Finance Cities Melbourne with Emet Capital.",
+    "keywords": "trade finance Melbourne, trade finance Melbourne finance",
+    "canonical": "https://emetcapital.com.au/services/trade-finance/cities/melbourne",
+    "h1": "Services Trade Finance Cities Melbourne",
+    "noscript": "Explore Services Trade Finance Cities Melbourne with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/TradeFinanceMelbourne.tsx"
+  },
+  "/services/trade-finance/cities/brisbane": {
+    "title": "Services Trade Finance Cities Brisbane | Emet Capital",
+    "description": "Explore Services Trade Finance Cities Brisbane with Emet Capital.",
+    "keywords": "trade finance Brisbane, trade finance Brisbane finance",
+    "canonical": "https://emetcapital.com.au/services/trade-finance/cities/brisbane",
+    "h1": "Services Trade Finance Cities Brisbane",
+    "noscript": "Explore Services Trade Finance Cities Brisbane with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/TradeFinanceBrisbane.tsx"
+  },
+  "/services/trade-finance/cities/perth": {
+    "title": "Services Trade Finance Cities Perth | Emet Capital",
+    "description": "Explore Services Trade Finance Cities Perth with Emet Capital.",
+    "keywords": "trade finance Perth, trade finance Perth finance",
+    "canonical": "https://emetcapital.com.au/services/trade-finance/cities/perth",
+    "h1": "Services Trade Finance Cities Perth",
+    "noscript": "Explore Services Trade Finance Cities Perth with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/TradeFinancePerth.tsx"
+  },
+  "/services/trade-finance/cities/adelaide": {
+    "title": "Services Trade Finance Cities Adelaide | Emet Capital",
+    "description": "Explore Services Trade Finance Cities Adelaide with Emet Capital.",
+    "keywords": "trade finance Adelaide, trade finance Adelaide finance",
+    "canonical": "https://emetcapital.com.au/services/trade-finance/cities/adelaide",
+    "h1": "Services Trade Finance Cities Adelaide",
+    "noscript": "Explore Services Trade Finance Cities Adelaide with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/TradeFinanceAdelaide.tsx"
+  },
+  "/services/trade-finance/cities/gold-coast": {
+    "title": "Services Trade Finance Cities Gold Coast | Emet Capital",
+    "description": "Explore Services Trade Finance Cities Gold Coast with Emet Capital.",
+    "keywords": "trade finance Gold Coast, trade finance Gold Coast finance",
+    "canonical": "https://emetcapital.com.au/services/trade-finance/cities/gold-coast",
+    "h1": "Services Trade Finance Cities Gold Coast",
+    "noscript": "Explore Services Trade Finance Cities Gold Coast with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/TradeFinanceGoldCoast.tsx"
+  },
+  "/services/caveat-loans/cities/sydney": {
+    "title": "Services Caveat Loans Cities Sydney | Emet Capital",
+    "description": "Explore Services Caveat Loans Cities Sydney with Emet Capital.",
+    "keywords": "caveat loans Sydney, caveat loans Sydney finance",
+    "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/sydney",
+    "h1": "Services Caveat Loans Cities Sydney",
+    "noscript": "Explore Services Caveat Loans Cities Sydney with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/CaveatLoansSydney.tsx"
+  },
+  "/services/caveat-loans/cities/melbourne": {
+    "title": "Services Caveat Loans Cities Melbourne | Emet Capital",
+    "description": "Explore Services Caveat Loans Cities Melbourne with Emet Capital.",
+    "keywords": "caveat loans Melbourne, caveat loans Melbourne finance",
+    "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/melbourne",
+    "h1": "Services Caveat Loans Cities Melbourne",
+    "noscript": "Explore Services Caveat Loans Cities Melbourne with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/CaveatLoansMelbourne.tsx"
+  },
+  "/services/caveat-loans/cities/brisbane": {
+    "title": "Services Caveat Loans Cities Brisbane | Emet Capital",
+    "description": "Explore Services Caveat Loans Cities Brisbane with Emet Capital.",
+    "keywords": "caveat loans Brisbane, caveat loans Brisbane finance",
+    "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/brisbane",
+    "h1": "Services Caveat Loans Cities Brisbane",
+    "noscript": "Explore Services Caveat Loans Cities Brisbane with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/CaveatLoansBrisbane.tsx"
+  },
+  "/services/caveat-loans/cities/perth": {
+    "title": "Services Caveat Loans Cities Perth | Emet Capital",
+    "description": "Explore Services Caveat Loans Cities Perth with Emet Capital.",
+    "keywords": "caveat loans Perth, caveat loans Perth finance",
+    "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/perth",
+    "h1": "Services Caveat Loans Cities Perth",
+    "noscript": "Explore Services Caveat Loans Cities Perth with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/CaveatLoansPerth.tsx"
+  },
+  "/services/caveat-loans/cities/adelaide": {
+    "title": "Services Caveat Loans Cities Adelaide | Emet Capital",
+    "description": "Explore Services Caveat Loans Cities Adelaide with Emet Capital.",
+    "keywords": "caveat loans Adelaide, caveat loans Adelaide finance",
+    "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/adelaide",
+    "h1": "Services Caveat Loans Cities Adelaide",
+    "noscript": "Explore Services Caveat Loans Cities Adelaide with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/CaveatLoansAdelaide.tsx"
+  },
+  "/services/caveat-loans/cities/gold-coast": {
+    "title": "Services Caveat Loans Cities Gold Coast | Emet Capital",
+    "description": "Explore Services Caveat Loans Cities Gold Coast with Emet Capital.",
+    "keywords": "caveat loans Gold Coast, caveat loans Gold Coast finance",
+    "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/gold-coast",
+    "h1": "Services Caveat Loans Cities Gold Coast",
+    "noscript": "Explore Services Caveat Loans Cities Gold Coast with Emet Capital.",
+    "sourcePath": "src/pages/services/cities/CaveatLoansGoldCoast.tsx"
+  },
   "/tools/commercial-real-estate-calculator": {
     "title": "Commercial Real Estate Loans Calculator — Investment Property Finance Australia | Emet Capital",
     "description": "Calculate commercial real estate loan payments, ROI, and cash flow for Australian investment properties. Professional calculator for commercial property finance.",

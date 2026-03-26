@@ -302,6 +302,18 @@ const DebtConsolidation = () => {
               </Card>
             </div>
           </section>
+
+          <section className="mb-16">
+            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Debt Consolidation in Major Cities</h2>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Link to="/services/debt-consolidation/cities/sydney" className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors">Sydney <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/services/debt-consolidation/cities/melbourne" className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors">Melbourne <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/services/debt-consolidation/cities/brisbane" className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors">Brisbane <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/services/debt-consolidation/cities/perth" className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors">Perth <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/services/debt-consolidation/cities/adelaide" className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors">Adelaide <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/services/debt-consolidation/cities/gold-coast" className="inline-flex items-center px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg transition-colors">Gold Coast <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            </div>
+          </section>
         </div>
       </div>
     </>

@@ -91,6 +91,49 @@ const RefinancingSolutionsGoldCoast = lazy(() => import("./pages/services/cities
 const RefinancingSolutionsAdelaide = lazy(() => import("./pages/services/cities/RefinancingSolutionsAdelaide"));
 const RefinancingSolutionsPerth = lazy(() => import("./pages/services/cities/RefinancingSolutionsPerth"));
 
+
+const BusinessAcquisitionSydney = lazy(() => import("./pages/services/cities/BusinessAcquisitionSydney"));
+const BusinessAcquisitionMelbourne = lazy(() => import("./pages/services/cities/BusinessAcquisitionMelbourne"));
+const BusinessAcquisitionBrisbane = lazy(() => import("./pages/services/cities/BusinessAcquisitionBrisbane"));
+const BusinessAcquisitionPerth = lazy(() => import("./pages/services/cities/BusinessAcquisitionPerth"));
+const BusinessAcquisitionAdelaide = lazy(() => import("./pages/services/cities/BusinessAcquisitionAdelaide"));
+const BusinessAcquisitionGoldCoast = lazy(() => import("./pages/services/cities/BusinessAcquisitionGoldCoast"));
+
+const DebtConsolidationSydney = lazy(() => import("./pages/services/cities/DebtConsolidationSydney"));
+const DebtConsolidationMelbourne = lazy(() => import("./pages/services/cities/DebtConsolidationMelbourne"));
+const DebtConsolidationBrisbane = lazy(() => import("./pages/services/cities/DebtConsolidationBrisbane"));
+const DebtConsolidationPerth = lazy(() => import("./pages/services/cities/DebtConsolidationPerth"));
+const DebtConsolidationAdelaide = lazy(() => import("./pages/services/cities/DebtConsolidationAdelaide"));
+const DebtConsolidationGoldCoast = lazy(() => import("./pages/services/cities/DebtConsolidationGoldCoast"));
+
+const EquipmentFinanceSydney = lazy(() => import("./pages/services/cities/EquipmentFinanceSydney"));
+const EquipmentFinanceMelbourne = lazy(() => import("./pages/services/cities/EquipmentFinanceMelbourne"));
+const EquipmentFinanceBrisbane = lazy(() => import("./pages/services/cities/EquipmentFinanceBrisbane"));
+const EquipmentFinancePerth = lazy(() => import("./pages/services/cities/EquipmentFinancePerth"));
+const EquipmentFinanceAdelaide = lazy(() => import("./pages/services/cities/EquipmentFinanceAdelaide"));
+const EquipmentFinanceGoldCoast = lazy(() => import("./pages/services/cities/EquipmentFinanceGoldCoast"));
+
+const WorkingCapitalSydney = lazy(() => import("./pages/services/cities/WorkingCapitalSydney"));
+const WorkingCapitalMelbourne = lazy(() => import("./pages/services/cities/WorkingCapitalMelbourne"));
+const WorkingCapitalBrisbane = lazy(() => import("./pages/services/cities/WorkingCapitalBrisbane"));
+const WorkingCapitalPerth = lazy(() => import("./pages/services/cities/WorkingCapitalPerth"));
+const WorkingCapitalAdelaide = lazy(() => import("./pages/services/cities/WorkingCapitalAdelaide"));
+const WorkingCapitalGoldCoast = lazy(() => import("./pages/services/cities/WorkingCapitalGoldCoast"));
+
+const TradeFinanceSydney = lazy(() => import("./pages/services/cities/TradeFinanceSydney"));
+const TradeFinanceMelbourne = lazy(() => import("./pages/services/cities/TradeFinanceMelbourne"));
+const TradeFinanceBrisbane = lazy(() => import("./pages/services/cities/TradeFinanceBrisbane"));
+const TradeFinancePerth = lazy(() => import("./pages/services/cities/TradeFinancePerth"));
+const TradeFinanceAdelaide = lazy(() => import("./pages/services/cities/TradeFinanceAdelaide"));
+const TradeFinanceGoldCoast = lazy(() => import("./pages/services/cities/TradeFinanceGoldCoast"));
+
+const CaveatLoansSydney = lazy(() => import("./pages/services/cities/CaveatLoansSydney"));
+const CaveatLoansMelbourne = lazy(() => import("./pages/services/cities/CaveatLoansMelbourne"));
+const CaveatLoansBrisbane = lazy(() => import("./pages/services/cities/CaveatLoansBrisbane"));
+const CaveatLoansPerth = lazy(() => import("./pages/services/cities/CaveatLoansPerth"));
+const CaveatLoansAdelaide = lazy(() => import("./pages/services/cities/CaveatLoansAdelaide"));
+const CaveatLoansGoldCoast = lazy(() => import("./pages/services/cities/CaveatLoansGoldCoast"));
+
 const CommercialPropertyLoanCalculator = lazy(() => import("./pages/tools/CommercialPropertyLoanCalculator"));
 const CommercialRealEstateCalculator = lazy(() => import("./pages/tools/CommercialRealEstateCalculator"));
 const LoanComparisonTool = lazy(() => import("./pages/tools/LoanComparisonTool"));
@@ -213,6 +256,49 @@ const App = () => (
                 <Route path="/services/refinancing-solutions/cities/perth" element={<RefinancingSolutionsPerth />} />
                 <Route path="/services/refinancing-solutions/cities/adelaide" element={<RefinancingSolutionsAdelaide />} />
                 <Route path="/services/refinancing-solutions/cities/gold-coast" element={<RefinancingSolutionsGoldCoast />} />
+
+
+                <Route path="/services/business-acquisition/cities/sydney" element={<BusinessAcquisitionSydney />} />
+                <Route path="/services/business-acquisition/cities/melbourne" element={<BusinessAcquisitionMelbourne />} />
+                <Route path="/services/business-acquisition/cities/brisbane" element={<BusinessAcquisitionBrisbane />} />
+                <Route path="/services/business-acquisition/cities/perth" element={<BusinessAcquisitionPerth />} />
+                <Route path="/services/business-acquisition/cities/adelaide" element={<BusinessAcquisitionAdelaide />} />
+                <Route path="/services/business-acquisition/cities/gold-coast" element={<BusinessAcquisitionGoldCoast />} />
+
+                <Route path="/services/debt-consolidation/cities/sydney" element={<DebtConsolidationSydney />} />
+                <Route path="/services/debt-consolidation/cities/melbourne" element={<DebtConsolidationMelbourne />} />
+                <Route path="/services/debt-consolidation/cities/brisbane" element={<DebtConsolidationBrisbane />} />
+                <Route path="/services/debt-consolidation/cities/perth" element={<DebtConsolidationPerth />} />
+                <Route path="/services/debt-consolidation/cities/adelaide" element={<DebtConsolidationAdelaide />} />
+                <Route path="/services/debt-consolidation/cities/gold-coast" element={<DebtConsolidationGoldCoast />} />
+
+                <Route path="/services/equipment-finance/cities/sydney" element={<EquipmentFinanceSydney />} />
+                <Route path="/services/equipment-finance/cities/melbourne" element={<EquipmentFinanceMelbourne />} />
+                <Route path="/services/equipment-finance/cities/brisbane" element={<EquipmentFinanceBrisbane />} />
+                <Route path="/services/equipment-finance/cities/perth" element={<EquipmentFinancePerth />} />
+                <Route path="/services/equipment-finance/cities/adelaide" element={<EquipmentFinanceAdelaide />} />
+                <Route path="/services/equipment-finance/cities/gold-coast" element={<EquipmentFinanceGoldCoast />} />
+
+                <Route path="/services/working-capital/cities/sydney" element={<WorkingCapitalSydney />} />
+                <Route path="/services/working-capital/cities/melbourne" element={<WorkingCapitalMelbourne />} />
+                <Route path="/services/working-capital/cities/brisbane" element={<WorkingCapitalBrisbane />} />
+                <Route path="/services/working-capital/cities/perth" element={<WorkingCapitalPerth />} />
+                <Route path="/services/working-capital/cities/adelaide" element={<WorkingCapitalAdelaide />} />
+                <Route path="/services/working-capital/cities/gold-coast" element={<WorkingCapitalGoldCoast />} />
+
+                <Route path="/services/trade-finance/cities/sydney" element={<TradeFinanceSydney />} />
+                <Route path="/services/trade-finance/cities/melbourne" element={<TradeFinanceMelbourne />} />
+                <Route path="/services/trade-finance/cities/brisbane" element={<TradeFinanceBrisbane />} />
+                <Route path="/services/trade-finance/cities/perth" element={<TradeFinancePerth />} />
+                <Route path="/services/trade-finance/cities/adelaide" element={<TradeFinanceAdelaide />} />
+                <Route path="/services/trade-finance/cities/gold-coast" element={<TradeFinanceGoldCoast />} />
+
+                <Route path="/services/caveat-loans/cities/sydney" element={<CaveatLoansSydney />} />
+                <Route path="/services/caveat-loans/cities/melbourne" element={<CaveatLoansMelbourne />} />
+                <Route path="/services/caveat-loans/cities/brisbane" element={<CaveatLoansBrisbane />} />
+                <Route path="/services/caveat-loans/cities/perth" element={<CaveatLoansPerth />} />
+                <Route path="/services/caveat-loans/cities/adelaide" element={<CaveatLoansAdelaide />} />
+                <Route path="/services/caveat-loans/cities/gold-coast" element={<CaveatLoansGoldCoast />} />
 
                 <Route path="/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
                 <Route path="/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />
