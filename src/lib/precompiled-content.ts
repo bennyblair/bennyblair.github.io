@@ -1,5 +1,5 @@
 // Auto-generated content module
-// Generated on 2026-03-26T20:16:11.303Z
+// Generated on 2026-03-26T21:14:08.671Z
 
 export const precompiledGuides = {
   "2nd-loan-mortgage-business-capital": {

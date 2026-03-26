@@ -173,13 +173,6 @@
   </url>
 
   <url>
-    <loc>https://emetcapital.com.au/resources/glossary</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://emetcapital.com.au/resources/guides</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>daily</changefreq>
@@ -819,13 +812,6 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/working-capital-loans-for-smes</loc>
     <lastmod>2026-02-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://emetcapital.com.au/resources/insights</loc>
-    <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

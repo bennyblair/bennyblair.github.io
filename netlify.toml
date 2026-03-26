@@ -288,7 +288,27 @@
 
 [[redirects]]
   from = "/construction"
-  to = "/resources/guides/construction-finance-australia-complete-guide"
+  to = "/services/commercial-property-development"
+  status = 301
+
+[[redirects]]
+  from = "/guides"
+  to = "/resources/guides"
+  status = 301
+
+[[redirects]]
+  from = "/guides/*"
+  to = "/resources/guides/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/resources/insights"
+  to = "/resources/guides"
+  status = 301
+
+[[redirects]]
+  from = "/resources/glossary"
+  to = "/resources/guides"
   status = 301
 
 [[redirects]]
