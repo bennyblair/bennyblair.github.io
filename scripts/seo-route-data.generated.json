@@ -386,6 +386,15 @@
     "noscript": "Complete directory of Australian commercial real estate lenders including major banks, regional lenders, and private capital providers with specialization details and contact information.",
     "sourcePath": "src/content/guides/commercial-real-estate-lenders-australia-directory.md"
   },
+  "/resources/guides/commercial-real-estate-lenders-in-australia": {
+    "title": "Commercial Real Estate Lenders in Australia | Emet Capital",
+    "description": "An Australia-focused guide to commercial real estate lenders, covering banks, non-banks, private lenders, borrower fit, asset types, and how to compare lender categories for business-purpose property finance. Informational only.",
+    "keywords": "commercial real estate lenders, commercial real estate lenders australia, commercial mortgage lenders australia, private commercial real estate lenders",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-real-estate-lenders-in-australia",
+    "h1": "Commercial Real Estate Lenders in Australia",
+    "noscript": "An Australia-focused guide to commercial real estate lenders, covering banks, non-banks, private lenders, borrower fit, asset types, and how to compare lender categories for business-purpose property finance. Informational only.",
+    "sourcePath": "src/content/guides/commercial-real-estate-lenders-in-australia.md"
+  },
   "/resources/guides/construction-finance-australia-complete-guide": {
     "title": "Construction Finance in Australia: The Complete Guide for Commercial Builds | Emet Capital",
     "description": "Complete guide to construction finance in Australia. Learn about owner-occupier commercial builds, costs, stages, and how construction finance differs from development. General information only - not advice.",
@@ -484,6 +493,15 @@
     "h1": "Hospitality Property Finance: Restaurants, Hotels & Venues",
     "noscript": "Hospitality property finance for restaurants, hotels & venues. Liquor licence valuation, fit-out funding & specialist lending options in Australia.",
     "sourcePath": "src/content/guides/hospitality-property-finance-restaurants-hotels-venues.md"
+  },
+  "/resources/guides/how-payday-super-will-affect-sme-cash-flow-and-when-short-term-finance-makes-sense": {
+    "title": "How Payday Super Will Affect SME Cash Flow — and When Short-Term Finance Makes Sense | Emet Capital",
+    "description": "A practical guide for Australian business owners on payday super cash-flow pressure, what changes operationally, when short-term finance may help, and when it may not. Informational only.",
+    "keywords": "payday super cash flow, payday super business cash flow, short-term finance for payroll, working capital for SMEs",
+    "canonical": "https://emetcapital.com.au/resources/guides/how-payday-super-will-affect-sme-cash-flow-and-when-short-term-finance-makes-sense",
+    "h1": "How Payday Super Will Affect SME Cash Flow — and When Short-Term Finance Makes Sense",
+    "noscript": "A practical guide for Australian business owners on payday super cash-flow pressure, what changes operationally, when short-term finance may help, and when it may not. Informational only.",
+    "sourcePath": "src/content/guides/how-payday-super-will-affect-sme-cash-flow-and-when-short-term-finance-makes-sense.md"
   },
   "/resources/guides/how-to-buy-commercial-property-step-by-step-guide": {
     "title": "How to Buy Commercial Property: Step-by-Step Guide [2025] | Emet Capital",
