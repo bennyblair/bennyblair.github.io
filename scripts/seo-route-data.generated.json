@@ -467,6 +467,15 @@
     "noscript": "Understand the critical differences between first and second mortgages in commercial property finance. Learn about priority positions, risk profiles, lender requirements, and when each structure makes sense for business borrowers.",
     "sourcePath": "src/content/guides/first-mortgage-vs-second-mortgage-key-differences.md"
   },
+  "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia": {
+    "title": "GST Loan for Commercial Property Settlement in Australia | Emet Capital",
+    "description": "A practical guide to GST loans for commercial property settlement in Australia, including when a GST funding gap appears, how short-term settlement finance is commonly structured, what lenders assess, and when this type of loan may or may not fit.",
+    "keywords": "gst loan commercial property settlement, gst funding commercial settlement, commercial property settlement finance, gst settlement loan australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/gst-loan-for-commercial-property-settlement-in-australia",
+    "h1": "GST Loan for Commercial Property Settlement in Australia",
+    "noscript": "A practical guide to GST loans for commercial property settlement in Australia, including when a GST funding gap appears, how short-term settlement finance is commonly structured, what lenders assess, and when this type of loan may or may not fit.",
+    "sourcePath": "src/content/guides/gst-loan-for-commercial-property-settlement-in-australia.md"
+  },
   "/resources/guides/hospitality-property-finance-restaurants-hotels-venues": {
     "title": "Hospitality Property Finance: Restaurants, Hotels & Venues | Emet Capital",
     "description": "Hospitality property finance for restaurants, hotels & venues. Liquor licence valuation, fit-out funding & specialist lending options in Australia.",
@@ -835,6 +844,15 @@
     "h1": "Urgent Caveat Loans: Get Approved in 24-48 Hours",
     "noscript": "Need urgent funding? Urgent caveat loans can be approved in 24-48 hours. Learn how fast caveat finance works, eligibility, costs & when to use it.",
     "sourcePath": "src/content/guides/urgent-caveat-loans.md"
+  },
+  "/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for": {
+    "title": "Vacant Commercial Property Refinance in Australia: What Lenders Look For | Emet Capital",
+    "description": "A practical guide to refinancing vacant commercial property in Australia, including how lenders assess vacancy risk, valuation pressure, exit strategy, and when short-term or specialist refinance options may fit.",
+    "keywords": "vacant commercial property refinance, refinance vacant commercial property, commercial property refinance australia, vacant commercial loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for",
+    "h1": "Vacant Commercial Property Refinance in Australia: What Lenders Look For",
+    "noscript": "A practical guide to refinancing vacant commercial property in Australia, including how lenders assess vacancy risk, valuation pressure, exit strategy, and when short-term or specialist refinance options may fit.",
+    "sourcePath": "src/content/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for.md"
   },
   "/resources/guides/what-is-private-lending-australia": {
     "title": "What is Private Lending? A Guide for Australian Businesses | Emet Capital",
