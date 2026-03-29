@@ -1,8 +1,6 @@
 # Netlify Configuration for emetcapital.com.au
-# Single source of truth for redirects - DO NOT duplicate in public/_redirects
-# NOTE: www->non-www and http->https are handled via Netlify dashboard settings
-# (Domain management + Force HTTPS). Do NOT add protocol/host redirects here
-# as Netlify terminates TLS at the edge, causing redirect loops.
+# Redirect rules are maintained here and mirrored into public/_redirects for visibility.
+# Keep the two in sync when changing canonical URL behaviour.
 
 [build]
   publish = "dist"
@@ -58,73 +56,34 @@
 # Netlify's post-processing and cause infinite loops for non-existent routes.
 # Pre-rendered routes work fine, and the SPA fallback handles 404s.
 
-# Tools canonical live under /tools/*
+# Tools canonical live under /resources/tools/*
 [[redirects]]
-  from = "/resources/tools"
-  to = "/tools"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/resources/tools/"
-  to = "/tools"
+  from = "/tools"
+  to = "/resources/tools"
   status = 301
   force = true
 
 [[redirects]]
   from = "/tools/"
-  to = "/tools"
-  status = 301
-
-[[redirects]]
-  from = "/resources/tools/:slug"
-  to = "/tools/:slug"
+  to = "/resources/tools"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/resources/tools/:slug/"
-  to = "/tools/:slug"
+  from = "/tools/:slug"
+  to = "/resources/tools/:slug"
   status = 301
   force = true
 
-# NOTE: Same as case studies - do NOT add /tools/:slug/ redirect
-# (conflicts with Netlify post-processing, causes loops for non-existent slugs)
-
-# Fix Tools URL Structure (resources/tools -> tools)
 [[redirects]]
-  from = "/resources/tools/commercial-property-loan-calculator"
-  to = "/tools/commercial-property-loan-calculator"
+  from = "/tools/:slug/"
+  to = "/resources/tools/:slug"
   status = 301
+  force = true
 
 [[redirects]]
-  from = "/resources/tools/second-mortgage-calculator"
-  to = "/tools/second-mortgage-calculator"
-  status = 301
-
-[[redirects]]
-  from = "/resources/tools/commercial-real-estate-calculator"
-  to = "/tools/commercial-real-estate-calculator"
-  status = 301
-
-[[redirects]]
-  from = "/resources/tools/asset-finance-roi-calculator"
-  to = "/tools/asset-finance-roi-calculator"
-  status = 301
-
-[[redirects]]
-  from = "/resources/tools/working-capital-calculator"
-  to = "/tools/working-capital-calculator"
-  status = 301
-
-[[redirects]]
-  from = "/resources/tools/loan-comparison-tool"
-  to = "/tools/loan-comparison-tool"
-  status = 301
-
-[[redirects]]
-  from = "/resources/tools/bridging-loan-calculator"
-  to = "/tools/bridging-loan-calculator"
+  from = "/resources/tools/"
+  to = "/resources/tools"
   status = 301
 
 # =============================================================================
@@ -243,17 +202,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/resources/tools"
-  to = "/tools"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/resources/tools/:slug"
-  to = "/tools/:slug"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/private-mortgage-lenders-australia-directory-2026"
@@ -302,13 +250,13 @@
   status = 301
 
 [[redirects]]
-  from = "/resources/insights"
-  to = "/resources/guides"
+  from = "/market-insights"
+  to = "/resources/insights"
   status = 301
 
 [[redirects]]
-  from = "/resources/glossary"
-  to = "/resources/guides"
+  from = "/glossary"
+  to = "/resources/glossary"
   status = 301
 
 [[redirects]]
@@ -335,6 +283,18 @@
   from = "/apply-now"
   to = "/contact"
   status = 301
+
+[[redirects]]
+  from = "http://emetcapital.com.au/*"
+  to = "https://emetcapital.com.au/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/*"
+  to = "https://emetcapital.com.au/:splat"
+  status = 301
+  force = true
 
 # GSC-discovered legacy guide URL consolidation
 [[redirects]]
@@ -365,6 +325,36 @@
 [[redirects]]
   from = "/resources/guides/bridging-finance-commercial-property-australia"
   to = "/resources/guides/bridging-finance-australia-complete-property-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/commercial-bridging-loan"
+  to = "/resources/guides/bridging-finance-australia-complete-property-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/commercial-bridge-loan"
+  to = "/resources/guides/bridging-finance-australia-complete-property-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/fast-bridging-finance"
+  to = "/resources/guides/bridging-finance-australia-complete-property-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/short-term-property-loan"
+  to = "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/short-term-property-loans"
+  to = "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/short-term-property-funding"
+  to = "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
   status = 301
 
 [[redirects]]
@@ -423,16 +413,15 @@
   to = "/tools/commercial-property-loan-calculator"
   status = 301
 
-# 410 Gone - Removed pages
 [[redirects]]
   from = "/copy-of-commercial-property-development"
-  to = "/"
-  status = 410
+  to = "/services/commercial-property-development"
+  status = 301
 
 [[redirects]]
   from = "/copy-of-working-capital"
-  to = "/"
-  status = 410
+  to = "/services/working-capital"
+  status = 301
 
 # Serve llms.txt as plain text (not through SPA)
 [[redirects]]
