@@ -1,9 +1,18 @@
+# Direct canonical redirects for known legacy www URLs (avoid multi-hop chains)
+https://www.emetcapital.com.au/about-us https://emetcapital.com.au/about 301!
+https://www.emetcapital.com.au/apply-now https://emetcapital.com.au/contact 301!
+https://www.emetcapital.com.au/contact-6 https://emetcapital.com.au/contact 301!
+https://www.emetcapital.com.au/construction https://emetcapital.com.au/services/commercial-property-development 301!
+https://www.emetcapital.com.au/first-second-mortgages https://emetcapital.com.au/services/first-second-mortgages 301!
+
 # Canonical host redirects
 http://emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
 https://www.emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
 
 # Legacy path fixes
 /contact-6 /contact 301
+/about-us /about 301
+/apply-now /contact 301
 /first-second-mortgages /services/first-second-mortgages 301
 /construction /services/commercial-property-development 301
 /copy-of-working-capital /services/working-capital 301

@@ -74,7 +74,7 @@ const SecondMortgageCalculator = () => {
       {
         "@type": "WebPage",
         "name": "Second Mortgage Calculator for Business Use",
-        "url": "https://emetcapital.com.au/tools/second-mortgage-calculator",
+        "url": "https://emetcapital.com.au/resources/tools/second-mortgage-calculator",
         "description": "Estimate second mortgage payments, combined LVR, equity position, and indicative costs for business-use second mortgages in Australia."
       },
       {
@@ -96,7 +96,7 @@ const SecondMortgageCalculator = () => {
       <SEO
         title="Second Mortgage Calculator Australia | Emet Capital Tool"
         description="Use our second mortgage calculator to estimate payments, combined LVR, equity access, and indicative costs for business-use property-backed lending."
-        canonical="/tools/second-mortgage-calculator"
+        canonical="/resources/tools/second-mortgage-calculator"
         keywords="second mortgage calculator australia, second mortgage business calculator, second mortgage rates, combined lvr calculator, business second mortgage"
         schemas={[structuredData]}
       />
@@ -105,7 +105,7 @@ const SecondMortgageCalculator = () => {
         <div className="container mx-auto px-4">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
-            { label: "Tools", href: "/tools" },
+            { label: "Tools", href: "/resources/tools" },
             { label: "Second Mortgage Calculator" }
           ]} />
 

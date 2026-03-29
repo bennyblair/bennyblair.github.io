@@ -94,14 +94,14 @@ const WorkingCapitalCalculator = () => {
         <title>Working Capital Calculator | Business Liquidity Analysis Australia</title>
         <meta name="description" content="Calculate your business working capital requirements. Analyze current ratio, quick ratio, and liquidity position with industry benchmarks." />
         <meta name="keywords" content="working capital calculator, current ratio calculator, business liquidity, cash flow analysis, working capital finance Australia" />
-        <link rel="canonical" href="/tools/working-capital-calculator" />
+        <link rel="canonical" href="/resources/tools/working-capital-calculator" />
       </Helmet>
 
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
-            { label: "Tools", href: "/tools" },
+            { label: "Tools", href: "/resources/tools" },
             { label: "Working Capital Calculator" }
           ]} />
 

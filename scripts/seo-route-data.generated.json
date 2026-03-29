@@ -1056,10 +1056,73 @@
     "title": "Commercial Loan Calculators & Tools | Emet Capital",
     "description": "Free commercial lending calculators including bridging loan calculator, commercial property calculator, and more. Plan your business financing with confidence.",
     "keywords": "commercial loan calculator, bridging loan calculator, business finance tools, loan repayment calculator",
-    "canonical": "https://emetcapital.com.au/tools",
+    "canonical": "https://emetcapital.com.au/resources/tools",
     "h1": "Commercial Lending Tools & Calculators",
     "noscript": "Free commercial lending calculators including bridging loan calculator, commercial property calculator, and more. Plan your business financing with confidence.",
     "sourcePath": "src/pages/Tools.tsx"
+  },
+  "/resources/tools/commercial-property-loan-calculator": {
+    "title": "Commercial Property Loan Calculator: Estimate Your Repayments | Emet Capital",
+    "description": "Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors.",
+    "keywords": "commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool",
+    "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+    "h1": "Commercial Property Loan Calculator",
+    "noscript": "Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors.",
+    "sourcePath": "src/pages/tools/CommercialPropertyLoanCalculator.tsx"
+  },
+  "/resources/tools/second-mortgage-calculator": {
+    "title": "Second Mortgage Calculator Australia | Emet Capital Tool",
+    "description": "Use our second mortgage calculator to estimate payments, combined LVR, equity access, and indicative costs for business-use property-backed lending.",
+    "keywords": "second mortgage calculator australia, second mortgage business calculator, second mortgage rates, combined lvr calculator, business second mortgage",
+    "canonical": "https://emetcapital.com.au/resources/tools/second-mortgage-calculator",
+    "h1": "Second Mortgage Calculator for Business Use",
+    "noscript": "Use our second mortgage calculator to estimate payments, combined LVR, equity access, and indicative costs for business-use property-backed lending.",
+    "sourcePath": "src/pages/tools/SecondMortgageCalculator.tsx"
+  },
+  "/resources/tools/commercial-real-estate-calculator": {
+    "title": "Commercial Real Estate Loans Calculator — Investment Property Finance Australia | Emet Capital",
+    "description": "Calculate commercial real estate loan payments, ROI, and cash flow for Australian investment properties. Professional calculator for commercial property finance.",
+    "keywords": "commercial real estate loans calculator, commercial lending, investment property finance, Australia",
+    "canonical": "https://emetcapital.com.au/resources/tools/commercial-real-estate-calculator",
+    "h1": "Commercial Real Estate Loans Calculator",
+    "noscript": "Calculate commercial real estate loan payments, ROI, and cash flow for Australian investment properties. Professional calculator for commercial property finance.",
+    "sourcePath": "src/pages/tools/CommercialRealEstateCalculator.tsx"
+  },
+  "/resources/tools/asset-finance-roi-calculator": {
+    "title": "Asset Finance ROI Calculator | Equipment Finance Returns Australia",
+    "description": "Calculate return on investment for equipment purchases. Factor in depreciation, tax benefits, and operational savings to make informed asset finance decisions.",
+    "keywords": "asset finance ROI calculator, equipment finance returns, asset finance Australia, equipment ROI, depreciation calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/asset-finance-roi-calculator",
+    "h1": "Asset Finance ROI Calculator",
+    "noscript": "Calculate return on investment for equipment purchases. Factor in depreciation, tax benefits, and operational savings to make informed asset finance decisions.",
+    "sourcePath": "src/pages/tools/AssetFinanceROICalculator.tsx"
+  },
+  "/resources/tools/working-capital-calculator": {
+    "title": "Working Capital Calculator | Business Liquidity Analysis Australia",
+    "description": "Calculate your business working capital requirements. Analyze current ratio, quick ratio, and liquidity position with industry benchmarks.",
+    "keywords": "working capital calculator, current ratio calculator, business liquidity, cash flow analysis, working capital finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/tools/working-capital-calculator",
+    "h1": "Working Capital Calculator",
+    "noscript": "Calculate your business working capital requirements. Analyze current ratio, quick ratio, and liquidity position with industry benchmarks.",
+    "sourcePath": "src/pages/tools/WorkingCapitalCalculator.tsx"
+  },
+  "/resources/tools/loan-comparison-tool": {
+    "title": "Loan Comparison Tool | Compare Business Loans Australia",
+    "description": "Compare multiple business loan offers side by side. Analyze rates, fees, monthly payments and total costs to find the best financing option.",
+    "keywords": "loan comparison tool, business loan comparison, loan calculator Australia, compare loan offers, loan rates comparison",
+    "canonical": "https://emetcapital.com.au/resources/tools/loan-comparison-tool",
+    "h1": "Loan Comparison Tool",
+    "noscript": "Compare multiple business loan offers side by side. Analyze rates, fees, monthly payments and total costs to find the best financing option.",
+    "sourcePath": "src/pages/tools/LoanComparisonTool.tsx"
+  },
+  "/resources/tools/bridging-loan-calculator": {
+    "title": "Bridging Loan Calculator Australia: Calculate Costs Instantly",
+    "description": "Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance.",
+    "keywords": "bridging loan calculator, bridging finance calculator, bridge loan calculator, commercial bridging calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/bridging-loan-calculator",
+    "h1": "Bridging Loan Calculator",
+    "noscript": "Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance.",
+    "sourcePath": "src/pages/tools/BridgingLoanCalculator.tsx"
   },
   "/resources/glossary": {
     "title": "Commercial Lending Glossary | Finance Terms Explained | Emet Capital",
@@ -1101,7 +1164,7 @@
     "title": "Commercial Loan Calculators & Tools | Emet Capital",
     "description": "Free commercial lending calculators including bridging loan calculator, commercial property calculator, and more. Plan your business financing with confidence.",
     "keywords": "commercial loan calculator, bridging loan calculator, business finance tools, loan repayment calculator",
-    "canonical": "https://emetcapital.com.au/tools",
+    "canonical": "https://emetcapital.com.au/resources/tools",
     "h1": "Commercial Lending Tools & Calculators",
     "noscript": "Free commercial lending calculators including bridging loan calculator, commercial property calculator, and more. Plan your business financing with confidence.",
     "sourcePath": "src/pages/Tools.tsx"
@@ -1533,7 +1596,7 @@
     "title": "Commercial Property Loan Calculator: Estimate Your Repayments | Emet Capital",
     "description": "Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors.",
     "keywords": "commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool",
-    "canonical": "https://emetcapital.com.au/tools/commercial-property-loan-calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
     "h1": "Commercial Property Loan Calculator",
     "noscript": "Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors.",
     "sourcePath": "src/pages/tools/CommercialPropertyLoanCalculator.tsx"
@@ -1569,7 +1632,7 @@
     "title": "Second Mortgage Calculator Australia | Emet Capital Tool",
     "description": "Use our second mortgage calculator to estimate payments, combined LVR, equity access, and indicative costs for business-use property-backed lending.",
     "keywords": "second mortgage calculator australia, second mortgage business calculator, second mortgage rates, combined lvr calculator, business second mortgage",
-    "canonical": "https://emetcapital.com.au/tools/second-mortgage-calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/second-mortgage-calculator",
     "h1": "Second Mortgage Calculator for Business Use",
     "noscript": "Use our second mortgage calculator to estimate payments, combined LVR, equity access, and indicative costs for business-use property-backed lending.",
     "sourcePath": "src/pages/tools/SecondMortgageCalculator.tsx"
@@ -2118,7 +2181,7 @@
     "title": "Commercial Real Estate Loans Calculator — Investment Property Finance Australia | Emet Capital",
     "description": "Calculate commercial real estate loan payments, ROI, and cash flow for Australian investment properties. Professional calculator for commercial property finance.",
     "keywords": "commercial real estate loans calculator, commercial lending, investment property finance, Australia",
-    "canonical": "https://emetcapital.com.au/tools/commercial-real-estate-calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/commercial-real-estate-calculator",
     "h1": "Commercial Real Estate Loans Calculator",
     "noscript": "Calculate commercial real estate loan payments, ROI, and cash flow for Australian investment properties. Professional calculator for commercial property finance.",
     "sourcePath": "src/pages/tools/CommercialRealEstateCalculator.tsx"
@@ -2127,7 +2190,7 @@
     "title": "Asset Finance ROI Calculator | Equipment Finance Returns Australia",
     "description": "Calculate return on investment for equipment purchases. Factor in depreciation, tax benefits, and operational savings to make informed asset finance decisions.",
     "keywords": "asset finance ROI calculator, equipment finance returns, asset finance Australia, equipment ROI, depreciation calculator",
-    "canonical": "https://emetcapital.com.au/tools/asset-finance-roi-calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/asset-finance-roi-calculator",
     "h1": "Asset Finance ROI Calculator",
     "noscript": "Calculate return on investment for equipment purchases. Factor in depreciation, tax benefits, and operational savings to make informed asset finance decisions.",
     "sourcePath": "src/pages/tools/AssetFinanceROICalculator.tsx"
@@ -2136,7 +2199,7 @@
     "title": "Working Capital Calculator | Business Liquidity Analysis Australia",
     "description": "Calculate your business working capital requirements. Analyze current ratio, quick ratio, and liquidity position with industry benchmarks.",
     "keywords": "working capital calculator, current ratio calculator, business liquidity, cash flow analysis, working capital finance Australia",
-    "canonical": "https://emetcapital.com.au/tools/working-capital-calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/working-capital-calculator",
     "h1": "Working Capital Calculator",
     "noscript": "Calculate your business working capital requirements. Analyze current ratio, quick ratio, and liquidity position with industry benchmarks.",
     "sourcePath": "src/pages/tools/WorkingCapitalCalculator.tsx"
@@ -2145,7 +2208,7 @@
     "title": "Loan Comparison Tool | Compare Business Loans Australia",
     "description": "Compare multiple business loan offers side by side. Analyze rates, fees, monthly payments and total costs to find the best financing option.",
     "keywords": "loan comparison tool, business loan comparison, loan calculator Australia, compare loan offers, loan rates comparison",
-    "canonical": "https://emetcapital.com.au/tools/loan-comparison-tool",
+    "canonical": "https://emetcapital.com.au/resources/tools/loan-comparison-tool",
     "h1": "Loan Comparison Tool",
     "noscript": "Compare multiple business loan offers side by side. Analyze rates, fees, monthly payments and total costs to find the best financing option.",
     "sourcePath": "src/pages/tools/LoanComparisonTool.tsx"
@@ -2154,7 +2217,7 @@
     "title": "Bridging Loan Calculator Australia: Calculate Costs Instantly",
     "description": "Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance.",
     "keywords": "bridging loan calculator, bridging finance calculator, bridge loan calculator, commercial bridging calculator",
-    "canonical": "https://emetcapital.com.au/tools/bridging-loan-calculator",
+    "canonical": "https://emetcapital.com.au/resources/tools/bridging-loan-calculator",
     "h1": "Bridging Loan Calculator",
     "noscript": "Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance.",
     "sourcePath": "src/pages/tools/BridgingLoanCalculator.tsx"

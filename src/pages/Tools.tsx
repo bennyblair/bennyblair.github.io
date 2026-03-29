@@ -39,28 +39,28 @@ const Tools = () => {
       title: "Bridging Loan Calculator",
       description: "Calculate costs and repayments for bridging finance",
       features: ["Monthly payment estimates", "Total cost analysis", "Interest breakdowns"],
-      url: "/tools/bridging-loan-calculator",
+      url: "/resources/tools/bridging-loan-calculator",
       status: "Available"
     },
     {
       title: "Commercial Property Loan Calculator",
       description: "Calculate loan payments for commercial property purchases",
       features: ["Purchase price analysis", "Deposit calculations", "Monthly payment estimates"],
-      url: "/tools/commercial-property-loan-calculator",
+      url: "/resources/tools/commercial-property-loan-calculator",
       status: "Available"
     },
     {
       title: "Second Mortgage Calculator",
       description: "Determine rates and payments for business second mortgages",
       features: ["Rate comparison", "Equity assessment", "Cost analysis"],
-      url: "/tools/second-mortgage-calculator", 
+      url: "/resources/tools/second-mortgage-calculator", 
       status: "Available"
     },
     {
       title: "Commercial Real Estate Loans Calculator",
       description: "Plan your commercial real estate investment financing",
       features: ["Investment analysis", "Cash flow projections", "ROI calculations"],
-      url: "/tools/commercial-real-estate-calculator",
+      url: "/resources/tools/commercial-real-estate-calculator",
       status: "Available"
     }
   ];
@@ -71,21 +71,21 @@ const Tools = () => {
       title: "Asset Finance ROI Calculator",
       description: "Calculate return on investment for equipment purchases",
       features: ["ROI analysis", "Depreciation factors", "Tax implications"],
-      url: "/tools/asset-finance-roi-calculator",
+      url: "/resources/tools/asset-finance-roi-calculator",
       status: "Available"
     },
     {
       title: "Working Capital Requirements Calculator", 
       description: "Determine optimal working capital for your business",
       features: ["Industry benchmarks", "Seasonal adjustments", "Growth planning"],
-      url: "/tools/working-capital-calculator",
+      url: "/resources/tools/working-capital-calculator",
       status: "Available"
     },
     {
       title: "Loan Comparison Tool",
       description: "Compare multiple loan offers side by side",
       features: ["Rate comparison", "Cost analysis", "Term optimization"],
-      url: "/tools/loan-comparison-tool",
+      url: "/resources/tools/loan-comparison-tool",
       status: "Available"
     }
   ];
@@ -98,7 +98,7 @@ const Tools = () => {
       <SEO 
         title="Commercial Loan Calculators & Tools | Emet Capital"
         description="Free commercial lending calculators including bridging loan calculator, commercial property calculator, and more. Plan your business financing with confidence."
-        canonical="/tools"
+        canonical="/resources/tools"
         keywords="commercial loan calculator, bridging loan calculator, business finance tools, loan repayment calculator"
       />
       

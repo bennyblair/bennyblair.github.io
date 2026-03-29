@@ -78,7 +78,7 @@ const CommercialPropertyLoanCalculator = () => {
         <title>Commercial Property Loan Calculator: Estimate Your Repayments | Emet Capital</title>
         <meta name="description" content="Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors." />
         <meta name="keywords" content="commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool" />
-        <link rel="canonical" href="https://emetcapital.com.au/tools/commercial-property-loan-calculator" />
+        <link rel="canonical" href="https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator" />
         
         {/* JSON-LD Article Schema */}
         <script type="application/ld+json">
@@ -105,7 +105,7 @@ const CommercialPropertyLoanCalculator = () => {
             "dateModified": "2025-01-16",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://emetcapital.com.au/tools/commercial-property-loan-calculator"
+              "@id": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator"
             },
             "articleSection": "Commercial Property Finance",
             "keywords": "commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool",
@@ -185,7 +185,7 @@ const CommercialPropertyLoanCalculator = () => {
         <div className="container mx-auto px-4">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
-            { label: "Tools", href: "/tools" },
+            { label: "Tools", href: "/resources/tools" },
             { label: "Commercial Property Loan Calculator" }
           ]} />
 

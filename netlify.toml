@@ -21,6 +21,37 @@
 # CONTENT REDIRECTS - Canonical consolidation + legacy URL mappings
 # =============================================================================
 
+# Direct canonical redirects for known legacy www URLs (avoid multi-hop chains)
+[[redirects]]
+  from = "https://www.emetcapital.com.au/about-us"
+  to = "https://emetcapital.com.au/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/apply-now"
+  to = "https://emetcapital.com.au/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/contact-6"
+  to = "https://emetcapital.com.au/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/construction"
+  to = "https://emetcapital.com.au/services/commercial-property-development"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/first-second-mortgages"
+  to = "https://emetcapital.com.au/services/first-second-mortgages"
+  status = 301
+  force = true
+
 # Canonical path consolidation
 # Case studies canonical live under /resources/case-studies/*
 [[redirects]]

@@ -183,6 +183,13 @@ const App = () => (
                 <Route path="/resources/case-studies" element={<CaseStudies />} />
                 <Route path="/resources/case-studies/:slug" element={<CaseStudyArticle />} />
                 <Route path="/resources/tools" element={<Tools />} />
+                <Route path="/resources/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
+                <Route path="/resources/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
+                <Route path="/resources/tools/commercial-real-estate-calculator" element={<CommercialRealEstateCalculator />} />
+                <Route path="/resources/tools/asset-finance-roi-calculator" element={<AssetFinanceROICalculator />} />
+                <Route path="/resources/tools/working-capital-calculator" element={<WorkingCapitalCalculator />} />
+                <Route path="/resources/tools/loan-comparison-tool" element={<LoanComparisonTool />} />
+                <Route path="/resources/tools/bridging-loan-calculator" element={<BridgingLoanCalculator />} />
                 <Route path="/resources/glossary" element={<Glossary />} />
                 <Route path="/resources/faqs" element={<FAQs />} />
                 <Route path="/resources/insights" element={<MarketInsights />} />
