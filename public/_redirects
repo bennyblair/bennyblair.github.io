@@ -1,0 +1,30 @@
+# Canonical host redirects
+http://emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
+https://www.emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
+
+# Legacy path fixes
+/contact-6 /contact 301
+/first-second-mortgages /services/first-second-mortgages 301
+/construction /services/commercial-property-development 301
+/copy-of-working-capital /services/working-capital 301
+/copy-of-commercial-property-development /services/commercial-property-development 301
+
+# Duplicate path consolidation
+/tools /resources/tools 301!
+/tools/ /resources/tools 301!
+/tools/* /resources/tools/:splat 301!
+/glossary /resources/glossary 301
+/case-studies /resources/case-studies 301!
+/case-studies/ /resources/case-studies 301!
+/case-studies/* /resources/case-studies/:splat 301!
+/market-insights /resources/insights 301
+/commercial-property-development /services/commercial-property-development 301
+
+# Overlapping guide consolidation
+/resources/guides/commercial-bridging-loan /resources/guides/bridging-finance-australia-complete-property-guide 301
+/resources/guides/commercial-bridge-loan /resources/guides/bridging-finance-australia-complete-property-guide 301
+/resources/guides/fast-bridging-finance /resources/guides/bridging-finance-australia-complete-property-guide 301
+/resources/guides/bridging-finance-commercial-property-australia /resources/guides/bridging-finance-australia-complete-property-guide 301
+/resources/guides/short-term-property-loan /resources/guides/short-term-property-loans-when-you-need-fast-finance 301
+/resources/guides/short-term-property-loans /resources/guides/short-term-property-loans-when-you-need-fast-finance 301
+/resources/guides/short-term-property-funding /resources/guides/short-term-property-loans-when-you-need-fast-finance 301
