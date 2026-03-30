@@ -242,6 +242,15 @@
     "noscript": "Secure commercial land loans for your development project. Learn rates, LVR limits, lender requirements and how to transition from land purchase to construction finance.",
     "sourcePath": "src/content/guides/commercial-land-loans-financing-property-development.md"
   },
+  "/resources/guides/commercial-loan-refinance": {
+    "title": "Commercial Loan Refinance: When Business Borrowers Should Rework Existing Debt | Emet Capital",
+    "description": "A practical guide to commercial loan refinance for Australian business borrowers, including when refinancing can make sense, what lenders assess, common structures, and when it may not be the right move.",
+    "keywords": "commercial loan refinance, refinance commercial loan, business loan refinance, refinancing commercial debt",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-loan-refinance",
+    "h1": "Commercial Loan Refinance: When Business Borrowers Should Rework Existing Debt",
+    "noscript": "A practical guide to commercial loan refinance for Australian business borrowers, including when refinancing can make sense, what lenders assess, common structures, and when it may not be the right move.",
+    "sourcePath": "src/content/guides/commercial-loan-refinance.md"
+  },
   "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained": {
     "title": "Commercial Mortgages vs Residential: Key Differences Explained | Emet Capital",
     "description": "Understand the critical differences between commercial and residential mortgages in Australia. Compare interest rates, loan terms, deposit requirements, and approval criteria.",
@@ -556,6 +565,15 @@
     "h1": "Invoice Finance in Australia: The Complete Guide for Business Cash Flow",
     "noscript": "Complete guide to invoice finance in Australia. Learn about factoring, discounting, eligibility, costs, and alternatives for business cash flow funding. General information only - not advice.",
     "sourcePath": "src/content/guides/invoice-finance-australia-complete-guide.md"
+  },
+  "/resources/guides/line-of-credit-equity": {
+    "title": "Line of Credit Equity: How Business Borrowers Use Property Equity | Emet Capital",
+    "description": "A practical guide to line of credit equity for Australian business borrowers, including how property equity-backed facilities work, when they fit, lender considerations, and how they compare with term loans and second mortgages.",
+    "keywords": "line of credit equity, equity line of credit business, property equity business finance, business line of credit secured by property",
+    "canonical": "https://emetcapital.com.au/resources/guides/line-of-credit-equity",
+    "h1": "Line of Credit Equity: How Business Borrowers Use Property Equity",
+    "noscript": "A practical guide to line of credit equity for Australian business borrowers, including how property equity-backed facilities work, when they fit, lender considerations, and how they compare with term loans and second mortgages.",
+    "sourcePath": "src/content/guides/line-of-credit-equity.md"
   },
   "/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide": {
     "title": "Low Doc & No Doc Commercial Loans: Complete Alternative Guide | Emet Capital",
