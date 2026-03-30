@@ -34,7 +34,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -203,6 +203,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/ato-tax-debt-finance-for-australian-business-owners</loc>
     <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance</loc>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -684,6 +691,13 @@
   </url>
 
   <url>
+    <loc>https://emetcapital.com.au/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://emetcapital.com.au/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -860,56 +874,56 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools/asset-finance-roi-calculator</loc>
-    <lastmod>2025-09-18</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools/bridging-loan-calculator</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools/commercial-real-estate-calculator</loc>
-    <lastmod>2025-09-18</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools/loan-comparison-tool</loc>
-    <lastmod>2025-09-18</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools/second-mortgage-calculator</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://emetcapital.com.au/resources/tools/working-capital-calculator</loc>
-    <lastmod>2025-09-18</lastmod>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

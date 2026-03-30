@@ -62,6 +62,15 @@
     "noscript": "A practical guide to ATO tax debt finance for Australian business owners, including how it works, when commercial borrowers use it, lender considerations, and when short-term or property-backed finance may be relevant.",
     "sourcePath": "src/content/guides/ato-tax-debt-finance-for-australian-business-owners.md"
   },
+  "/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance": {
+    "title": "Balloon Payment Refinance for Equipment and Asset Finance | Emet Capital",
+    "description": "A practical guide to balloon payment refinance for equipment and asset finance, including when business borrowers refinance, pay out, sell, or upgrade vehicles, plant, and machinery at end of term.",
+    "keywords": "balloon payment refinance business, equipment finance balloon refinance, asset finance balloon payment, refinance balloon payment business",
+    "canonical": "https://emetcapital.com.au/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance",
+    "h1": "Balloon Payment Refinance for Equipment and Asset Finance",
+    "noscript": "A practical guide to balloon payment refinance for equipment and asset finance, including when business borrowers refinance, pay out, sell, or upgrade vehicles, plant, and machinery at end of term.",
+    "sourcePath": "src/content/guides/balloon-payment-refinance-for-equipment-and-asset-finance.md"
+  },
   "/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved": {
     "title": "Bank vs Non-Bank Commercial Lending in Australia: Which Borrowers Get Approved? | Emet Capital",
     "description": "A practical guide to bank vs non-bank commercial lending in Australia, including approval differences, borrower fit, speed, flexibility, and when each option may suit a commercial property or business-purpose transaction.",
@@ -673,6 +682,15 @@
     "h1": "Quick Caveat Loans: Is 48-Hour Settlement Really Possible?",
     "noscript": "Quick caveat loans claim 48-hour settlement. Real timelines, speed factors & what actually affects approval times for fast commercial finance.",
     "sourcePath": "src/content/guides/quick-caveat-loans-48-hour-settlement-possible.md"
+  },
+  "/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining": {
+    "title": "Refinancing Commercial Property with a Short Lease Remaining | Emet Capital",
+    "description": "A practical guide to refinancing commercial property with a short lease remaining, including how lease expiry affects valuation, lender appetite, DSCR, and what business borrowers can do before refinance deadlines hit.",
+    "keywords": "refinance commercial property short lease, short lease commercial refinance, commercial property refinance lease expiry, refinancing short wale property",
+    "canonical": "https://emetcapital.com.au/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining",
+    "h1": "Refinancing Commercial Property with a Short Lease Remaining",
+    "noscript": "A practical guide to refinancing commercial property with a short lease remaining, including how lease expiry affects valuation, lender appetite, DSCR, and what business borrowers can do before refinance deadlines hit.",
+    "sourcePath": "src/content/guides/refinancing-commercial-property-with-a-short-lease-remaining.md"
   },
   "/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock": {
     "title": "Residual Stock Loans in Australia: How Developers Can Unlock Capital from Unsold Stock | Emet Capital",
