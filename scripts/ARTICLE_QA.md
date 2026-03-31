@@ -23,6 +23,18 @@ This checker proves article integrity and route/build readiness. It does **not**
 
 For any task that affects visible listings, you must separately verify the actual listing surface after deploy.
 
+## Reporting rule
+
+When summarising article status, keep these states separate:
+- Drafted
+- Preview-ready
+- Preview listing verified
+- Merged
+- Live URL verified
+- Live listing verified
+
+Do not compress these into a vague "done" or "live" unless the relevant checks actually happened.
+
 ## Example
 
 ```bash
