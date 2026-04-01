@@ -18,6 +18,15 @@ If you run an importing, wholesale, or distribution business, the choice is usua
 
 This guide explains the difference in plain English, when each option may fit, when it may not, and what lenders usually look for. It is written for business owners, property investors with trading entities, developers with trading arms, wholesalers, and distributors who need commercial funding clarity rather than generic lending jargon.
 
+### Related In-Depth Guides
+
+- **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — A broader guide to supplier payments, imports, and trade-cycle funding.
+- **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** — Useful when the pressure continues after goods arrive and cash gets trapped in stock.
+- **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — Best compared when the funding gap starts after you issue invoices.
+- **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — A broader working-capital option when the issue is not limited to one trade cycle.
+- **[Debtor Finance & Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia)** — Helpful for comparing receivables-led funding against procurement-led funding.
+- **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if bank-style trade facilities are not the only option on the table.
+
 ---
 
 > **At a Glance**
@@ -33,13 +42,13 @@ This guide explains the difference in plain English, when each option may fit, w
 
 This guide is for Australian businesses that buy stock or goods before they can bill their customer. That often includes importers, wholesalers, distributors, light manufacturers, and businesses filling larger-than-normal contracts.
 
-It is also useful if you already have a broad working-capital need but are not sure whether the funding problem starts at the purchase-order stage, the shipping stage, the inventory stage, or the invoice stage. Getting that distinction right usually matters more than the label on the facility.
+It is also useful if you already have a broad working-capital need but are not sure whether the funding problem starts at the purchase-order stage, the shipping stage, the inventory stage, or the invoice stage. Getting that distinction right usually matters more than the label on the facility. If the issue is broader than one transaction, it is often worth comparing this topic with **[working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes)** and **[trade finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** before choosing a structure.
 
 ## What Is Purchase Order Finance?
 
 Purchase order finance is a commercial funding solution that helps a business pay a supplier to fulfil a confirmed customer order. In simple terms, you win the order, but you need capital to produce, purchase, or ship the goods before the customer pays you.
 
-The facility is usually transaction-specific. The lender wants to see a genuine order, an identifiable supplier, a credible end buyer, and enough gross margin in the deal to make the structure work. The repayment path is normally short and linked to the final invoice being paid, sometimes alongside invoice finance or another receivables-based product.
+The facility is usually transaction-specific. The lender wants to see a genuine order, an identifiable supplier, a credible end buyer, and enough gross margin in the deal to make the structure work. The repayment path is normally short and linked to the final invoice being paid, sometimes alongside **[invoice finance](/resources/guides/invoice-finance-australia-complete-guide)** or another receivables-based product.
 
 A clean purchase order finance file often answers one question quickly: if the supplier gets paid now, how does the lender get repaid when the order is delivered and invoiced?
 
@@ -47,7 +56,7 @@ A clean purchase order finance file often answers one question quickly: if the s
 
 Trade finance is the broader category. It covers a range of business-purpose facilities used to fund imports, supplier payments, shipping cycles, letters of credit, documentary trade, stock acquisition, and the gap between paying for goods and converting them into customer receipts.
 
-In practice, trade finance can be ongoing rather than single-transaction. It may support recurring import cycles, multiple suppliers, inventory turns, and seasonal peaks. Some borrowers use it as a structured working-capital tool across the whole procurement cycle rather than as a one-off bridge for a single contract.
+In practice, trade finance can be ongoing rather than single-transaction. It may support recurring import cycles, multiple suppliers, inventory turns, and seasonal peaks. Some borrowers use it as a structured working-capital tool across the whole procurement cycle rather than as a one-off bridge for a single contract. That is also why businesses often compare it with **[inventory finance](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** when stock sits on hand before sales convert into cash.
 
 That is why trade finance usually suits businesses with repeat trading patterns better than businesses with one isolated order and no established process around fulfillment, invoicing, or collections.
 
@@ -107,7 +116,7 @@ That may include:
 
 The logic is simple. If your business is regularly paying for goods well before cash comes back in, you may need a structure that follows the trading cycle rather than one that only solves a single order.
 
-Trade finance can also make more sense where there are multiple suppliers, multiple shipments, or a need for flexibility around stock timing.
+Trade finance can also make more sense where there are multiple suppliers, multiple shipments, or a need for flexibility around stock timing. For import-heavy borrowers, this broader lens usually sits closer to **[trade finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** than to a narrow one-order facility.
 
 ## When Trade Finance May Not Fit
 
@@ -146,7 +155,7 @@ Wholesalers and distributors often sit somewhere in the middle.
 
 If you have a single large order that stretches your normal cash position, purchase order finance may work.
 
-If your real problem is that supplier payments always land before customer receipts, trade finance is usually the better conversation to start with.
+If your real problem is that supplier payments always land before customer receipts, trade finance is usually the better conversation to start with. If the pressure continues after the stock lands, **[inventory finance](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** may also be part of the solution set.
 
 ## When to Use One, and When Not To
 
@@ -211,7 +220,9 @@ If instead the business imports multiple product lines every quarter and sells a
 If you are weighing these facilities, it can also help to compare adjacent solutions:
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** for a broader overview of import and export funding structures
+- **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** if the bottleneck continues while goods are being held and sold
 - **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** if the cash-flow problem starts after the invoice is issued
+- **[Debtor Finance & Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia)** if you want to compare broader receivables and supply-chain funding options
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** if the need is broader than one supply-chain event
 
 ## FAQs
@@ -241,6 +252,14 @@ Purchase order finance and trade finance solve related but different problems. I
 The mistake is treating them as interchangeable. They are not. The better question is where the pressure sits in your business: at the order stage, the supplier-payment stage, the inventory stage, or the receivables stage.
 
 That is usually where the right funding structure starts.
+
+## Related Guides
+
+- **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — Start here if you want the broader import and supplier-payment view.
+- **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** — Best if goods are landing but cash is still trapped in stock.
+- **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — Compare this when the gap starts after invoicing.
+- **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Useful when the funding issue is wider than one procurement cycle.
+- **[Debtor Finance & Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia)** — A good comparison if you want a broader supply-chain funding lens.
 
 ---
 

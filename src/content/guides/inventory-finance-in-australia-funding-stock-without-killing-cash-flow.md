@@ -18,6 +18,15 @@ The core idea is simple. If your business needs to buy stock well before revenue
 
 This guide explains how inventory finance works in Australia, who it tends to suit, when it makes sense, when it does not, and what lenders usually look for. It is written for business owners who need a clean operational explanation, not a pile of finance jargon.
 
+### Related In-Depth Guides
+
+- **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — Compare this when the cash gap starts at supplier payment or import stage.
+- **[Purchase Order Finance vs Trade Finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)** — Useful if you are deciding between one-order funding and broader trade-cycle funding.
+- **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — Best compared when the working-capital issue starts after invoices are raised.
+- **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Helpful when the business needs a broader cash-flow solution.
+- **[Debtor Finance & Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia)** — Useful for comparing stock-led funding with receivables-led structures.
+- **[Equipment Finance and Leasing in Australia](/resources/guides/equipment-finance-and-leasing-australia)** — Relevant if the pressure is tied more to plant, machinery, or assets than to stock.
+
 ---
 
 > **At a Glance**
@@ -41,7 +50,7 @@ That often includes:
 - businesses with supplier-payment pressure caused by long lead times
 - operators whose inventory cycle is healthy, but cash flow lags behind growth
 
-If your business does not carry stock, or if the funding issue starts only after invoices are raised, another facility may be more appropriate.
+If your business does not carry stock, or if the funding issue starts only after invoices are raised, another facility may be more appropriate. In that case, **[invoice finance](/resources/guides/invoice-finance-australia-complete-guide)** or **[working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes)** may be the more relevant comparison points.
 
 ## What Is Inventory Finance?
 
@@ -59,7 +68,7 @@ The lender reviews the stock profile, trading history, margins, customer demand 
 
 If the file makes sense, the lender provides funding that helps the business carry or acquire stock without relying entirely on internal cash.
 
-Repayment usually comes from the normal sale of that stock, often alongside broader working-capital turnover. Some structures sit neatly within a broader trade-finance line. Others are more focused on inventory as the key asset in the funding story.
+Repayment usually comes from the normal sale of that stock, often alongside broader working-capital turnover. Some structures sit neatly within a broader **[trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** line. Others are more focused on inventory as the key asset in the funding story.
 
 Short quotable version: **inventory finance works when stock turns into cash predictably enough for a lender to get comfortable.**
 
@@ -93,7 +102,7 @@ It can be a strong fit where:
 - the business understands reorder cycles and demand patterns
 - sales receipts are the clear repayment source over time
 
-A good example is a distributor importing repeat product lines with a known customer base and predictable reorder rhythm. Another is a seasonal business that needs to build stock before revenue catches up.
+A good example is a distributor importing repeat product lines with a known customer base and predictable reorder rhythm. Another is a seasonal business that needs to build stock before revenue catches up. If the business instead has one confirmed end-customer order and needs supplier funding for that job specifically, **[purchase order finance vs trade finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)** is often the better comparison.
 
 ## When Inventory Finance Does Not Make Sense
 
@@ -143,7 +152,7 @@ Inventory finance helps before the sale is collected.
 
 Invoice finance helps once the invoice already exists.
 
-If your cash gets trapped while stock is sitting in the business, invoice finance alone may be too late.
+If your cash gets trapped while stock is sitting in the business, invoice finance alone may be too late. That is why many businesses end up comparing **[invoice finance](/resources/guides/invoice-finance-australia-complete-guide)** with inventory funding only after mapping where the actual timing gap begins.
 
 If your stock is fine but customers pay on long terms after the sale, invoice finance may be the more relevant conversation.
 
@@ -175,7 +184,7 @@ Short quotable version: **lenders do not just fund stock; they fund stock that b
 Importers often pay suppliers long before they receive cash from local customers. Inventory finance may help stop too much cash being locked into container loads, freight timing, and customs-related delays.
 
 ### Wholesalers and distributors
-These businesses often sit on sellable stock but still feel squeezed because suppliers get paid before customer accounts turn over.
+These businesses often sit on sellable stock but still feel squeezed because suppliers get paid before customer accounts turn over. In those cases, the line between inventory funding and **[trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** can be thin, especially where goods are imported or funded repeatedly.
 
 ### Seasonal businesses
 A business may need to buy heavily before a peak season. Inventory finance can help prepare for the revenue window instead of missing it because the stock budget is too tight.
@@ -244,6 +253,14 @@ The best use case is not simply “we have inventory.” It is “we have saleab
 If that path is visible, inventory finance may help support growth without forcing the business to run permanently tight on working capital.
 
 If that path is not visible, the answer is usually to fix the trading model first.
+
+## Related Guides
+
+- **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — Start here if the pressure begins when suppliers need paying.
+- **[Purchase Order Finance vs Trade Finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)** — Useful when one confirmed order is driving the funding need.
+- **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — Best if the bottleneck starts after invoices are issued.
+- **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — A broader option when the problem is wider than inventory alone.
+- **[Debtor Finance & Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia)** — Helpful for comparing stock funding with broader supply-chain and receivables structures.
 
 ---
 
