@@ -107,6 +107,15 @@
     "noscript": "Comprehensive guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction transitions, and exit strategies.",
     "sourcePath": "src/content/guides/bridging-finance-developers-project-funding-solutions.md"
   },
+  "/resources/guides/bridging-loan-repayment-calculator": {
+    "title": "Bridging Loan Repayment Calculator | Emet Capital",
+    "description": "A practical guide to using a bridging loan repayment calculator, including what inputs matter, how interest and exit timing affect the result, and when a calculator is useful for commercial borrowers. Informational only.",
+    "keywords": "bridging loan repayment calculator, bridging finance calculator, commercial bridging loan repayments, bridging loan costs",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-loan-repayment-calculator",
+    "h1": "Bridging Loan Repayment Calculator",
+    "noscript": "A practical guide to using a bridging loan repayment calculator, including what inputs matter, how interest and exit timing affect the result, and when a calculator is useful for commercial borrowers. Informational only.",
+    "sourcePath": "src/content/guides/bridging-loan-repayment-calculator.md"
+  },
   "/resources/guides/building-development-loans-funding-guide": {
     "title": "Building Development Loans: Complete Funding Guide for Developers | Emet Capital",
     "description": "Complete guide to building development loans for Australian developers. Learn about funding stages, costs, requirements, and how to secure project finance.",
@@ -259,6 +268,15 @@
     "h1": "Commercial Loan Refinance: When Business Borrowers Should Rework Existing Debt",
     "noscript": "A practical guide to commercial loan refinance for Australian business borrowers, including when refinancing can make sense, what lenders assess, common structures, and when it may not be the right move.",
     "sourcePath": "src/content/guides/commercial-loan-refinance.md"
+  },
+  "/resources/guides/commercial-mortgage-rates-australia-complete-guide": {
+    "title": "Commercial Mortgage Rates Australia: Complete Guide | Emet Capital",
+    "description": "A practical guide to commercial mortgage rates in Australia, including what drives pricing, how lenders assess risk, and how business borrowers can compare offers without relying on headline numbers. Informational only.",
+    "keywords": "commercial mortgage rates, commercial property loan pricing, commercial mortgage Australia, commercial property finance rates",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-mortgage-rates-australia-complete-guide",
+    "h1": "Commercial Mortgage Rates Australia: Complete Guide",
+    "noscript": "A practical guide to commercial mortgage rates in Australia, including what drives pricing, how lenders assess risk, and how business borrowers can compare offers without relying on headline numbers. Informational only.",
+    "sourcePath": "src/content/guides/commercial-mortgage-rates-australia-complete-guide.md"
   },
   "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained": {
     "title": "Commercial Mortgages vs Residential: Key Differences Explained | Emet Capital",
