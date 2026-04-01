@@ -71,7 +71,7 @@ Purchase order finance is narrower and more deal-specific.
 
 Trade finance is broader and more operational.
 
-That distinction matters because lenders assess them differently. A lender looking at purchase order finance cares heavily about the specific order and the repayment event attached to it. A lender looking at trade finance often cares more about recurring turnover, supplier terms, customer terms, shipping patterns, stock movement, and how the facility behaves over time.
+That distinction matters because lenders assess them differently. A lender looking at purchase order finance cares heavily about the specific order and the repayment event attached to it. A lender looking at trade finance often cares more about recurring turnover, supplier terms, customer terms, shipping patterns, stock movement, and how the facility behaves over time. For borrowers comparing these structures against broader property-backed commercial options, **[commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** gives the wider lending context.
 
 ## When Purchase Order Finance Usually Makes Sense
 

@@ -87,7 +87,7 @@ Inventory finance may help businesses:
 - support expansion into new customer channels
 - avoid overreliance on unsecured short-term debt
 
-For some businesses, the issue is not profitability. It is timing.
+For some businesses, the issue is not profitability. It is timing. And if you are weighing specialist inventory funding against broader lender appetite, **[private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** is a useful cross-check on where non-bank structures may fit.
 
 ## When Inventory Finance Makes Sense
 
