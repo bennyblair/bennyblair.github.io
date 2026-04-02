@@ -269,6 +269,15 @@
     "noscript": "A practical guide to commercial loan refinance for Australian business borrowers, including when refinancing can make sense, what lenders assess, common structures, and when it may not be the right move.",
     "sourcePath": "src/content/guides/commercial-loan-refinance.md"
   },
+  "/resources/guides/commercial-loan-repayment-calculator": {
+    "title": "Commercial Loan Repayment Calculator | Emet Capital",
+    "description": "A practical guide to using a commercial loan repayment calculator, including what inputs matter, how loan structure changes the result, and when calculator outputs are useful for Australian commercial borrowers. Informational only.",
+    "keywords": "commercial loan repayment calculator, commercial mortgage calculator, commercial loan repayments, business loan calculator commercial property",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-loan-repayment-calculator",
+    "h1": "Commercial Loan Repayment Calculator",
+    "noscript": "A practical guide to using a commercial loan repayment calculator, including what inputs matter, how loan structure changes the result, and when calculator outputs are useful for Australian commercial borrowers. Informational only.",
+    "sourcePath": "src/content/guides/commercial-loan-repayment-calculator.md"
+  },
   "/resources/guides/commercial-mortgage-rates-australia-complete-guide": {
     "title": "Commercial Mortgage Rates Australia: Complete Guide | Emet Capital",
     "description": "A practical guide to commercial mortgage rates in Australia, including what drives pricing, how lenders assess risk, and how business borrowers can compare offers without relying on headline numbers. Informational only.",
@@ -835,6 +844,15 @@
     "h1": "Second Mortgage for Partnership Buyout: Financing Transitions",
     "noscript": "Complete guide to using second mortgages for partnership buyouts in Australia, covering valuation, financing structures, legal considerations, and transition strategies.",
     "sourcePath": "src/content/guides/second-mortgage-partnership-buyout-financing-transitions.md"
+  },
+  "/resources/guides/second-mortgage-repayment-calculator": {
+    "title": "Second Mortgage Repayment Calculator | Emet Capital",
+    "description": "A practical guide to using a second mortgage repayment calculator for commercial borrowers, including what inputs matter, how layered debt affects repayment pressure, and when a calculator is useful. Informational only.",
+    "keywords": "second mortgage repayment calculator, second mortgage calculator, second mortgage repayments, commercial second mortgage",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-repayment-calculator",
+    "h1": "Second Mortgage Repayment Calculator",
+    "noscript": "A practical guide to using a second mortgage repayment calculator for commercial borrowers, including what inputs matter, how layered debt affects repayment pressure, and when a calculator is useful. Informational only.",
+    "sourcePath": "src/content/guides/second-mortgage-repayment-calculator.md"
   },
   "/resources/guides/second-mortgage-vs-line-of-credit-which-to-choose": {
     "title": "Second Mortgage vs Line of Credit: Which to Choose? | Emet Capital",
