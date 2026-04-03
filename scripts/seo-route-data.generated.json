@@ -107,6 +107,15 @@
     "noscript": "Comprehensive guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction transitions, and exit strategies.",
     "sourcePath": "src/content/guides/bridging-finance-developers-project-funding-solutions.md"
   },
+  "/resources/guides/bridging-loan-repayment-calculator": {
+    "title": "Bridging Loan Repayment Calculator | Emet Capital",
+    "description": "A practical guide to using a bridging loan repayment calculator, including what inputs matter, how interest and exit timing affect the result, and when a calculator is useful for commercial borrowers. Informational only.",
+    "keywords": "bridging loan repayment calculator, bridging finance calculator, commercial bridging loan repayments, bridging loan costs",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-loan-repayment-calculator",
+    "h1": "Bridging Loan Repayment Calculator",
+    "noscript": "A practical guide to using a bridging loan repayment calculator, including what inputs matter, how interest and exit timing affect the result, and when a calculator is useful for commercial borrowers. Informational only.",
+    "sourcePath": "src/content/guides/bridging-loan-repayment-calculator.md"
+  },
   "/resources/guides/building-development-loans-funding-guide": {
     "title": "Building Development Loans: Complete Funding Guide for Developers | Emet Capital",
     "description": "Complete guide to building development loans for Australian developers. Learn about funding stages, costs, requirements, and how to secure project finance.",
@@ -260,6 +269,15 @@
     "noscript": "A practical guide to commercial loan refinance for Australian business borrowers, including when refinancing can make sense, what lenders assess, common structures, and when it may not be the right move.",
     "sourcePath": "src/content/guides/commercial-loan-refinance.md"
   },
+  "/resources/guides/commercial-mortgage-rates-australia-complete-guide": {
+    "title": "Commercial Mortgage Rates Australia: Complete Guide | Emet Capital",
+    "description": "A practical guide to commercial mortgage rates in Australia, including what drives pricing, how lenders assess risk, and how business borrowers can compare offers without relying on headline numbers. Informational only.",
+    "keywords": "commercial mortgage rates, commercial property loan pricing, commercial mortgage Australia, commercial property finance rates",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-mortgage-rates-australia-complete-guide",
+    "h1": "Commercial Mortgage Rates Australia: Complete Guide",
+    "noscript": "A practical guide to commercial mortgage rates in Australia, including what drives pricing, how lenders assess risk, and how business borrowers can compare offers without relying on headline numbers. Informational only.",
+    "sourcePath": "src/content/guides/commercial-mortgage-rates-australia-complete-guide.md"
+  },
   "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained": {
     "title": "Commercial Mortgages vs Residential: Key Differences Explained | Emet Capital",
     "description": "Understand the critical differences between commercial and residential mortgages in Australia. Compare interest rates, loan terms, deposit requirements, and approval criteria.",
@@ -385,6 +403,15 @@
     "h1": "Commercial Property Loans for Startups: First-Time Buyers",
     "noscript": "Learn how startups and first-time buyers can secure commercial property loans in Australia. Discover requirements, strategies, and alternative financing options.",
     "sourcePath": "src/content/guides/commercial-property-loans-for-startups-first-time-buyers.md"
+  },
+  "/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing": {
+    "title": "Commercial Property LVR Explained: Maximise Your Borrowing | Emet Capital",
+    "description": "A practical guide to commercial property LVR in Australia, including how lenders calculate it, what affects maximum leverage, and how borrowers can improve structure without treating LVR as the only metric. Informational only.",
+    "keywords": "commercial property LVR, commercial property loan LVR, maximise your borrowing commercial property, commercial property leverage australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing",
+    "h1": "Commercial Property LVR Explained: Maximise Your Borrowing",
+    "noscript": "A practical guide to commercial property LVR in Australia, including how lenders calculate it, what affects maximum leverage, and how borrowers can improve structure without treating LVR as the only metric. Informational only.",
+    "sourcePath": "src/content/guides/commercial-property-lvr-explained-maximise-your-borrowing.md"
   },
   "/resources/guides/commercial-property-refinancing-solutions": {
     "title": "Commercial Property Refinancing Solutions in Australia | Emet Capital",
@@ -934,6 +961,15 @@
     "h1": "Vacant Commercial Property Refinance in Australia: What Lenders Look For",
     "noscript": "A practical guide to refinancing vacant commercial property in Australia, including how lenders assess vacancy risk, valuation pressure, exit strategy, and when short-term or specialist refinance options may fit.",
     "sourcePath": "src/content/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for.md"
+  },
+  "/resources/guides/what-is-a-caveatable-interest": {
+    "title": "What Is a Caveatable Interest? Legal Guide for Business Borrowers | Emet Capital",
+    "description": "A practical guide to caveatable interests in Australia, including what they are, when they arise, why they matter for caveat loans, and when a borrower or lender should get legal advice. Informational only.",
+    "keywords": "caveatable interest, what is a caveatable interest, caveat loan legal interest, caveat property title australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/what-is-a-caveatable-interest",
+    "h1": "What Is a Caveatable Interest? Legal Guide for Business Borrowers",
+    "noscript": "A practical guide to caveatable interests in Australia, including what they are, when they arise, why they matter for caveat loans, and when a borrower or lender should get legal advice. Informational only.",
+    "sourcePath": "src/content/guides/what-is-a-caveatable-interest.md"
   },
   "/resources/guides/what-is-private-lending-australia": {
     "title": "What is Private Lending? A Guide for Australian Businesses | Emet Capital",
