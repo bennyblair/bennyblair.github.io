@@ -369,13 +369,6 @@
   </url>
 
   <url>
-    <loc>https://emetcapital.com.au/resources/guides/commercial-loan-repayment-calculator</loc>
-    <lastmod>2026-04-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://emetcapital.com.au/resources/guides/commercial-mortgage-rates-australia-complete-guide</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -476,6 +469,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/commercial-property-loans-for-startups-first-time-buyers</loc>
     <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -817,13 +817,6 @@
   </url>
 
   <url>
-    <loc>https://emetcapital.com.au/resources/guides/second-mortgage-repayment-calculator</loc>
-    <lastmod>2026-04-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://emetcapital.com.au/resources/guides/second-mortgage-vs-line-of-credit</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -910,6 +903,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for</loc>
     <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/what-is-a-caveatable-interest</loc>
+    <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
