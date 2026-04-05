@@ -177,6 +177,10 @@ const App = () => (
                 <Route path="/about-us" element={<Navigate to="/about" replace />} />
                 <Route path="/commercial-property-development" element={<Navigate to="/services/commercial-property-development" replace />} />
                 <Route path="/business-investment-expansion" element={<Navigate to="/services/business-acquisition" replace />} />
+                <Route path="/first-second-mortgages" element={<Navigate to="/services/first-second-mortgages" replace />} />
+                <Route path="/apply-now" element={<Navigate to="/contact" replace />} />
+                <Route path="/contact-6" element={<Navigate to="/contact" replace />} />
+                <Route path="/construction" element={<Navigate to="/services/commercial-property-development" replace />} />
                 <Route path="/guides" element={<Guides />} />
                 <Route path="/resources" element={<ResourcesHub />} />
                 <Route path="/resources/guides" element={<Guides />} />
