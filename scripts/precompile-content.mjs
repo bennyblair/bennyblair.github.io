@@ -7,11 +7,12 @@ const __dirname = path.dirname(__filename);
 
 // Function to process frontmatter
 function parseFrontmatter(content) {
+  const normalized = content.replace(/\r\n/g, '\n');
   const frontmatterRegex = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/;
-  const match = content.match(frontmatterRegex);
+  const match = normalized.match(frontmatterRegex);
   
   if (!match) {
-    return { data: {}, content };
+    return { data: {}, content: normalized };
   }
   
   const [, frontmatter, body] = match;

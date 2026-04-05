@@ -15,6 +15,7 @@ const Services = lazy(() => import("./pages/Services"));
 const CaseStudies = lazy(() => import("./pages/CaseStudies"));
 const Guides = lazy(() => import("./pages/Guides"));
 const Tools = lazy(() => import("./pages/Tools"));
+const LocationRedirect = lazy(() => import("./pages/LocationRedirect"));
 const Contact = lazy(() => import("./pages/Contact"));
 const ResourcesHub = lazy(() => import("./pages/ResourcesHub"));
 const MarketInsights = lazy(() => import("./pages/MarketInsights"));
@@ -182,6 +183,7 @@ const App = () => (
                 <Route path="/resources/guides/:slug" element={<GuideArticle />} />
                 <Route path="/resources/case-studies" element={<CaseStudies />} />
                 <Route path="/resources/case-studies/:slug" element={<CaseStudyArticle />} />
+                <Route path="/locations/:city" element={<LocationRedirect />} />
                 <Route path="/resources/tools" element={<Tools />} />
                 <Route path="/resources/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
                 <Route path="/resources/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
