@@ -2339,6 +2339,33 @@
     "noscript": "Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance.",
     "sourcePath": "src/pages/tools/BridgingLoanCalculator.tsx"
   },
+  "/resources/guides/case-study-second-mortgage-saved-this-business-50k": {
+    "title": "Case Study: How a Second Mortgage Helped an Australian Business Consolidate Expensive Debt | Emet Capital",
+    "description": "A commercial case study showing how a second mortgage can help an Australian business consolidate expensive short-term debt, protect cash flow, and create time for a cleaner refinance path. Informational only - not advice.",
+    "keywords": "second mortgage for debt consolidation, second mortgage business debt consolidation, commercial second mortgage case study",
+    "canonical": "https://emetcapital.com.au/resources/guides/case-study-second-mortgage-saved-this-business-50k",
+    "h1": "Case Study: How a Second Mortgage Helped an Australian Business Consolidate Expensive Debt",
+    "noscript": "A commercial case study showing how a second mortgage can help an Australian business consolidate expensive short-term debt, protect cash flow, and create time for a cleaner refinance path. Informational only - not advice.",
+    "sourcePath": "src/content/guides/case-study-second-mortgage-saved-this-business-50k.md"
+  },
+  "/resources/guides/case-study-bridging-loan-won-the-property-auction": {
+    "title": "Case Study: How a Bridging Loan Helped Secure a Commercial Property at Auction | Emet Capital",
+    "description": "A commercial case study explaining how a bridging loan can help an Australian borrower meet an auction settlement deadline while arranging a refinance or sale exit. Informational only - not advice.",
+    "keywords": "bridging loan for auction, commercial bridging loan auction, auction settlement bridging finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/case-study-bridging-loan-won-the-property-auction",
+    "h1": "Case Study: How a Bridging Loan Helped Secure a Commercial Property at Auction",
+    "noscript": "A commercial case study explaining how a bridging loan can help an Australian borrower meet an auction settlement deadline while arranging a refinance or sale exit. Informational only - not advice.",
+    "sourcePath": "src/content/guides/case-study-bridging-loan-won-the-property-auction.md"
+  },
+  "/resources/guides/construction-bridge-loans": {
+    "title": "Construction Bridge Loans [Expert Guide] | Emet Capital",
+    "description": "Expert guide to construction bridge loans in Australia, covering staged funding, development timelines, bridging exit strategies, and refinancing to permanent mortgages.",
+    "keywords": "construction bridge loans, construction bridging finance, staged funding construction, development bridge loan australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/construction-bridge-loans",
+    "h1": "Construction Bridge Loans [Expert Guide]",
+    "noscript": "Expert guide to construction bridge loans in Australia, covering staged funding, development timelines, bridging exit strategies, and refinancing to permanent mortgages.",
+    "sourcePath": "src/content/guides/construction-bridge-loans.md"
+  },
   "*": {
     "title": "* | Emet Capital",
     "description": "Explore * with Emet Capital.",
