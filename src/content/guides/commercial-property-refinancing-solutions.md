@@ -127,6 +127,14 @@ Commercial property owners typically consider refinancing when interest rates de
 
 This comprehensive guide examines commercial property refinancing strategies, processes, and considerations for Australian businesses. From understanding when refinancing makes financial sense to navigating lender requirements and optimising loan structures, we'll explore how property owners can leverage refinancing to achieve their business and investment objectives while managing associated costs and risks effectively.
 
+### Related In-Depth Guides
+- **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide for loan structures, lender policy, and security expectations.
+- **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — relevant when refinance timing overlaps with a settlement or sale.
+- **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — a useful fallback when bank refinance policy is too slow or too restrictive.
+- **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — when refinancing is part of a wider liability clean-up.
+- **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** — useful if the refinance is funding construction or repositioning.
+- **[Refinancing Solutions Service](/services/refinancing-solutions)** — speak with Emet Capital about structuring options.
+
 ---
 
 > **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
@@ -230,7 +238,7 @@ Commercial property refinancing enables property owners to access increased equi
 
 ### Standard LVR Parameters for Refinancing
 
-Commercial property refinancing typically allows loan-to-value ratios of 70-80%, depending on property quality, location, and borrower strength. Prime commercial properties in major cities may achieve higher ratios, while regional or specialty properties face more conservative limits.
+Commercial property refinancing typically allows loan-to-value ratios of 70-80%, depending on property quality, location, and borrower strength. Prime commercial properties in major cities may achieve higher ratios, while regional or specialty properties face more conservative limits. If you are refinancing to support an acquisition rather than simply reprice debt, compare the structure with our [commercial property loans Australia complete guide](/resources/guides/commercial-property-loans-australia-complete-guide) and [what is private lending Australia](/resources/guides/what-is-private-lending-australia) breakdown so you can judge whether a refinance, top-up, or fresh facility is the cleaner move.
 
 Lenders consider factors including tenant covenants, lease terms, property age and condition, and location when determining appropriate LVR parameters for refinancing applications.
 
@@ -314,8 +322,6 @@ Stress testing debt servicing capacity against various scenarios helps ensure su
 
 ---
 
-*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
-
 ## Frequently Asked Questions
 
 **When does commercial property refinancing make financial sense?**
@@ -377,3 +383,12 @@ Cost management remains crucial in refinancing decisions, with break-even analys
 Market conditions will continue evolving, creating ongoing refinancing opportunities for astute commercial property owners. Those who maintain awareness of market developments, understand their property positions, and plan strategically can leverage refinancing as a powerful tool for business growth and financial optimisation.
 
 Professional advice from experienced commercial finance brokers, valuers, and legal advisers proves invaluable in navigating refinancing complexities and achieving optimal outcomes. The investment in professional guidance typically generates returns through improved loan terms, reduced costs, and strategic structure optimisation.
+
+## Related Guides
+- **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — compare refinance structures with fresh acquisition debt.
+- **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — useful when refinance timing is linked to a sale, payout, or urgent settlement.
+- **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — refinancing alongside wider business debt simplification.
+- **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** — where the refinance funds a development or major repositioning.
+- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — alternative capital structures if a full refinance is not the best fit.
+
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
