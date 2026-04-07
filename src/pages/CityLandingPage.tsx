@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Phone, FileText, ArrowRight, Building2, TrendingUp, Shield, Briefcase, Landmark, Truck, BarChart2, Home, Wrench, DollarSign, Factory, Users } from "lucide-react";
-import { generateLocalBusinessSchema } from "@/lib/schema-utils";
 
 interface ServiceLink {
   name: string;
