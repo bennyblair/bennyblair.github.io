@@ -15,7 +15,7 @@ const Services = lazy(() => import("./pages/Services"));
 const CaseStudies = lazy(() => import("./pages/CaseStudies"));
 const Guides = lazy(() => import("./pages/Guides"));
 const Tools = lazy(() => import("./pages/Tools"));
-const LocationRedirect = lazy(() => import("./pages/LocationRedirect"));
+const CityLandingPage = lazy(() => import("./pages/CityLandingPage"));
 const Contact = lazy(() => import("./pages/Contact"));
 const ResourcesHub = lazy(() => import("./pages/ResourcesHub"));
 const MarketInsights = lazy(() => import("./pages/MarketInsights"));
@@ -181,13 +181,14 @@ const App = () => (
                 <Route path="/apply-now" element={<Navigate to="/contact" replace />} />
                 <Route path="/contact-6" element={<Navigate to="/contact" replace />} />
                 <Route path="/construction" element={<Navigate to="/services/commercial-property-development" replace />} />
+                <Route path="/resources/guides/construction-bridge-loans" element={<Navigate to="/resources/guides" replace />} />
                 <Route path="/guides" element={<Guides />} />
                 <Route path="/resources" element={<ResourcesHub />} />
                 <Route path="/resources/guides" element={<Guides />} />
                 <Route path="/resources/guides/:slug" element={<GuideArticle />} />
                 <Route path="/resources/case-studies" element={<CaseStudies />} />
                 <Route path="/resources/case-studies/:slug" element={<CaseStudyArticle />} />
-                <Route path="/locations/:city" element={<LocationRedirect />} />
+                <Route path="/locations/:city" element={<CityLandingPage />} />
                 <Route path="/resources/tools" element={<Tools />} />
                 <Route path="/resources/tools/commercial-property-loan-calculator" element={<CommercialPropertyLoanCalculator />} />
                 <Route path="/resources/tools/second-mortgage-calculator" element={<SecondMortgageCalculator />} />
