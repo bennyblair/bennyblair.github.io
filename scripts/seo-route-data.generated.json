@@ -107,6 +107,15 @@
     "noscript": "Comprehensive guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction transitions, and exit strategies.",
     "sourcePath": "src/content/guides/bridging-finance-developers-project-funding-solutions.md"
   },
+  "/resources/guides/bridging-finance-sydney-48-hour-settlement-possible": {
+    "title": "Bridging Finance Sydney: Is 48-Hour Settlement Really Possible for Commercial Borrowers? | Emet Capital",
+    "description": "Guide to bridging finance in Sydney for commercial borrowers. Learn when 48-hour settlement may be possible, what lenders need, and when bridging finance is the wrong tool. Informational only.",
+    "keywords": "bridging finance sydney, sydney bridging finance, commercial bridging loan sydney, bridging loan sydney commercial",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-sydney-48-hour-settlement-possible",
+    "h1": "Bridging Finance Sydney: Is 48-Hour Settlement Really Possible for Commercial Borrowers?",
+    "noscript": "Guide to bridging finance in Sydney for commercial borrowers. Learn when 48-hour settlement may be possible, what lenders need, and when bridging finance is the wrong tool. Informational only.",
+    "sourcePath": "src/content/guides/bridging-finance-sydney-48-hour-settlement-possible.md"
+  },
   "/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path": {
     "title": "Bridging Loan Exit Strategies: Plan Your Repayment Path | Emet Capital",
     "description": "A practical guide to bridging loan exit strategies for Australian commercial borrowers, including refinance exits, sale exits, risk points, and what lenders want to see before approving short-term property-backed finance. Informational only.",
@@ -908,6 +917,15 @@
     "noscript": "Comprehensive decision framework for evaluating second mortgages for business funding, including ROI analysis, cost comparisons, and suitability criteria for Australian companies.",
     "sourcePath": "src/content/guides/second-mortgages-for-business-guide.md"
   },
+  "/resources/guides/second-mortgages-in-sydney-fast-local-approval": {
+    "title": "Second Mortgages in Sydney: Fast Commercial Property Finance for Business Borrowers | Emet Capital",
+    "description": "Guide to second mortgages in Sydney for business borrowers. Learn when a second mortgage can help, what lenders assess, how timing works, and when not to use one. Informational only.",
+    "keywords": "second mortgage sydney, second mortgages sydney, sydney second mortgage, commercial second mortgage sydney",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgages-in-sydney-fast-local-approval",
+    "h1": "Second Mortgages in Sydney: Fast Commercial Property Finance for Business Borrowers",
+    "noscript": "Guide to second mortgages in Sydney for business borrowers. Learn when a second mortgage can help, what lenders assess, how timing works, and when not to use one. Informational only.",
+    "sourcePath": "src/content/guides/second-mortgages-in-sydney-fast-local-approval.md"
+  },
   "/resources/guides/short-term-private-lenders-fast-business-finance-solutions": {
     "title": "Short-Term Private Lenders: Fast Business Finance Solutions | Emet Capital",
     "description": "Need urgent business funding? Discover how short-term private lenders provide fast, flexible finance solutions for Australian businesses.",
@@ -1228,9 +1246,9 @@
     "description": "Explore Locations :city with Emet Capital.",
     "keywords": "",
     "canonical": "https://emetcapital.com.au/locations/:city",
-    "h1": "Locations :city",
+    "h1": "Commercial Finance in {data.name}",
     "noscript": "Explore Locations :city with Emet Capital.",
-    "sourcePath": "src/pages/LocationRedirect.tsx"
+    "sourcePath": "src/pages/CityLandingPage.tsx"
   },
   "/resources/tools": {
     "title": "Commercial Loan Calculators & Tools | Emet Capital",
@@ -2401,60 +2419,6 @@
     "h1": "Bridging Loan Calculator",
     "noscript": "Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance.",
     "sourcePath": "src/pages/tools/BridgingLoanCalculator.tsx"
-  },
-  "/locations/sydney": {
-    "title": "Commercial Finance Sydney | Business Lending NSW | Emet Capital",
-    "description": "Commercial lending solutions in Sydney, NSW — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital's national lender network.",
-    "keywords": "commercial finance sydney, business loans sydney, bridging finance sydney, private lending sydney, commercial lending nsw",
-    "canonical": "https://emetcapital.com.au/locations/sydney",
-    "h1": "Commercial Finance in Sydney",
-    "noscript": "Commercial lending solutions in Sydney, NSW — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital.",
-    "sourcePath": "src/pages/CityLandingPage.tsx"
-  },
-  "/locations/melbourne": {
-    "title": "Commercial Finance Melbourne | Business Lending VIC | Emet Capital",
-    "description": "Commercial lending solutions in Melbourne, VIC — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital's national lender network.",
-    "keywords": "commercial finance melbourne, business loans melbourne, bridging finance melbourne, private lending melbourne, commercial lending vic",
-    "canonical": "https://emetcapital.com.au/locations/melbourne",
-    "h1": "Commercial Finance in Melbourne",
-    "noscript": "Commercial lending solutions in Melbourne, VIC — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital.",
-    "sourcePath": "src/pages/CityLandingPage.tsx"
-  },
-  "/locations/brisbane": {
-    "title": "Commercial Finance Brisbane | Business Lending QLD | Emet Capital",
-    "description": "Commercial lending solutions in Brisbane, QLD — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital's national lender network.",
-    "keywords": "commercial finance brisbane, business loans brisbane, bridging finance brisbane, private lending brisbane, commercial lending qld",
-    "canonical": "https://emetcapital.com.au/locations/brisbane",
-    "h1": "Commercial Finance in Brisbane",
-    "noscript": "Commercial lending solutions in Brisbane, QLD — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital.",
-    "sourcePath": "src/pages/CityLandingPage.tsx"
-  },
-  "/locations/perth": {
-    "title": "Commercial Finance Perth | Business Lending WA | Emet Capital",
-    "description": "Commercial lending solutions in Perth, WA — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital's national lender network.",
-    "keywords": "commercial finance perth, business loans perth, bridging finance perth, private lending perth, commercial lending wa",
-    "canonical": "https://emetcapital.com.au/locations/perth",
-    "h1": "Commercial Finance in Perth",
-    "noscript": "Commercial lending solutions in Perth, WA — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital.",
-    "sourcePath": "src/pages/CityLandingPage.tsx"
-  },
-  "/locations/adelaide": {
-    "title": "Commercial Finance Adelaide | Business Lending SA | Emet Capital",
-    "description": "Commercial lending solutions in Adelaide, SA — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital's national lender network.",
-    "keywords": "commercial finance adelaide, business loans adelaide, bridging finance adelaide, private lending adelaide, commercial lending sa",
-    "canonical": "https://emetcapital.com.au/locations/adelaide",
-    "h1": "Commercial Finance in Adelaide",
-    "noscript": "Commercial lending solutions in Adelaide, SA — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital.",
-    "sourcePath": "src/pages/CityLandingPage.tsx"
-  },
-  "/locations/gold-coast": {
-    "title": "Commercial Finance Gold Coast | Business Lending QLD | Emet Capital",
-    "description": "Commercial lending solutions in Gold Coast, QLD — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital's national lender network.",
-    "keywords": "commercial finance gold coast, business loans gold coast, bridging finance gold coast, private lending gold coast, commercial lending gold coast qld",
-    "canonical": "https://emetcapital.com.au/locations/gold-coast",
-    "h1": "Commercial Finance in Gold Coast",
-    "noscript": "Commercial lending solutions in Gold Coast, QLD — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital.",
-    "sourcePath": "src/pages/CityLandingPage.tsx"
   },
   "*": {
     "title": "* | Emet Capital",
