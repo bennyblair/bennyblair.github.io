@@ -1,0 +1,71 @@
+name: IndexNow — Ping Bing/Yandex on merge
+
+on:
+ push:
+ branches:
+ - main
+
+jobs:
+ indexnow:
+ runs-on: ubuntu-latest
+ steps:
+ - name: Checkout repo
+ uses: actions/checkout@v4
+ with:
+ fetch-depth: 2
+
+ - name: Find new article URLs from this push
+ id: urls
+ run: |
+ NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'src/content/guides/*.md' 'src/content/case-studies/*.md' 'src/content/insights/*.md' 2>/dev/null true)
+
+ URLS=()
+ for FILE in $NEW_FILES; do
+ FILENAME=$(basename "$FILE" .md)
+ if [[ "$FILE" == src/content/guides/* ]]; then
+ URLS+=("https://emetcapital.com.au/resources/guides/$FILENAME")
+ elif [[ "$FILE" == src/content/case-studies/* ]]; then
+ URLS+=("https://emetcapital.com.au/resources/case-studies/$FILENAME")
+ elif [[ "$FILE" == src/content/insights/* ]]; then
+ URLS+=("https://emetcapital.com.au/resources/insights/$FILENAME")
+ fi
+ done
+
+ if [ ${#URLS[@]} -eq 0 ]; then
+ echo "no_new_urls=true" >> $GITHUB_OUTPUT
+ echo "No new article URLs detected in this push."
+ else
+ JSON_ARRAY=$(printf '%s\n' "${URLS[@]}" | jq -R . | jq -s .)
+ echo "url_list=$JSON_ARRAY" >> $GITHUB_OUTPUT
+ echo "no_new_urls=false" >> $GITHUB_OUTPUT
+ printf '%s\n' "${URLS[@]}"
+ fi
+
+ - name: Submit to IndexNow
+ if: steps.urls.outputs.no_new_urls != 'true'
+ run: |
+ KEY="76203180606f4563f8f92955688e3486"
+ URLS='${{ steps.urls.outputs.url_list }}'
+
+ PAYLOAD=$(jq -n \
+ --arg host "emetcapital.com.au" \
+ --arg key "$KEY" \
+ --arg keyLocation "https://emetcapital.com.au/${KEY}.txt" \
+ --argjson urlList "$URLS" \
+ '{host: $host, key: $key, keyLocation: $keyLocation, urlList: $urlList}')
+
+ RESPONSE=$(curl -s -o /tmp/indexnow_response.txt -w "%{http_code}" \
+ -X POST \
+ -H "Content-Type: application/json; charset=utf-8" \
+ -d "$PAYLOAD" \
+ "https://api.indexnow.org/indexnow")
+
+ echo "HTTP status: $RESPONSE"
+ cat /tmp/indexnow_response.txt
+
+ if [[ "$RESPONSE" == "200" "$RESPONSE" == "202" ]]; then
+ echo "IndexNow submission accepted."
+ else
+ echo "IndexNow submission returned unexpected status: $RESPONSE"
+ exit 1
+ fi
