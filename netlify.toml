@@ -374,6 +374,11 @@
   status = 301
 
 [[redirects]]
+  from = "/resources/guides/construction-bridge-loans"
+  to = "/resources/guides"
+  status = 301
+
+[[redirects]]
   from = "/resources/guides/short-term-property-loan"
   to = "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
   status = 301
