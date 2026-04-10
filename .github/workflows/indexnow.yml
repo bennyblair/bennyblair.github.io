@@ -17,7 +17,7 @@ jobs:
  - name: Find new article URLs from this push
  id: urls
  run: |
- NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'src/content/guides/*.md' 'src/content/case-studies/*.md' 'src/content/insights/*.md' 2>/dev/null true)
+ NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'src/content/guides/*.md' 'src/content/case-studies/*.md' 'src/content/insights/*.md' 2>/dev/null || true)
 
  URLS=()
  for FILE in $NEW_FILES; do
@@ -63,7 +63,7 @@ jobs:
  echo "HTTP status: $RESPONSE"
  cat /tmp/indexnow_response.txt
 
- if [[ "$RESPONSE" == "200" "$RESPONSE" == "202" ]]; then
+ if [[ "$RESPONSE" == "200" || "$RESPONSE" == "202" ]]; then
  echo "IndexNow submission accepted."
  else
  echo "IndexNow submission returned unexpected status: $RESPONSE"
