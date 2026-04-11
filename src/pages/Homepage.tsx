@@ -1,11 +1,10 @@
-import { useState, useEffect, FormEvent } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Progress } from "@/components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
@@ -14,13 +13,10 @@ import {
   Building2, 
   TrendingUp, 
   Shield, 
-  Clock,
-  CheckCircle,
   ArrowRight,
   Phone,
   Mail,
   MapPin,
-  Star,
   Zap,
   Target,
   Award,
@@ -51,6 +47,23 @@ const Homepage = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Scroll-triggered reveal animations
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale').forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
+  }, [latestArticles, featuredCaseStudies]);
 
   useEffect(() => {
     const loadLatestArticles = async () => {
@@ -208,34 +221,36 @@ const Homepage = () => {
       />
       
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
+      <section className="relative min-h-[90vh] flex items-end overflow-hidden pt-16 pb-24">
         {/* Sydney Skyline Background */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${sydneySkyline})`,
-            transform: `translateY(${scrollY * 0.5}px)`,
+            transform: `translateY(${scrollY * 0.3}px)`,
           }}
         />
         
-        {/* Glassmorphism overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/60" />
+        {/* Cinematic overlay — dark vignette + gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-transparent to-transparent" />
         
-        {/* Hero content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <div className="fade-in-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
+        {/* Hero content — left aligned */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="max-w-3xl">
+            <div className="w-16 h-1 bg-accent mb-8 rounded-full" />
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-[1.1] tracking-tight">
               Commercial Lending Solutions,
-              <span className="gradient-text block mt-2 leading-normal">
+              <span className="gradient-text block mt-2">
                 Expertly Engineered
               </span>
             </h1>
             
-            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl leading-relaxed">
               Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 items-start">
               <Button asChild size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
                 <Link to="/contact">
                   Get Your Quote
@@ -243,7 +258,7 @@ const Homepage = () => {
                 </Link>
               </Button>
               
-              <Button asChild variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-7 text-lg rounded-2xl">
+              <Button asChild variant="outline" size="lg" className="border-2 border-white/20 text-white/90 hover:bg-white/10 px-10 py-7 text-lg rounded-2xl">
                 <a href="tel:0485952651">
                   <Phone className="mr-2 h-5 w-5" />
                   0485 952 651
@@ -255,65 +270,61 @@ const Homepage = () => {
       </section>
 
       {/* Commercial Finance Expertise Overview */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Australia's Leading Commercial Finance Specialists
-            </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              With over 15 years of expertise in Australian commercial lending, we've facilitated over $2 billion in business finance across all major markets. 
-              Our specialized team delivers fast settlements on complex deals that traditional banks won't touch, offering competitive rates 
-              for property development, business acquisition, working capital, bridging finance, and specialized commercial lending solutions.
-            </p>
-          </div>
-          
-          {/* Market Expertise Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">$2B+</div>
-              <div className="text-sm text-muted-foreground">Commercial Loans Facilitated</div>
+          <div className="grid lg:grid-cols-5 gap-16 items-start">
+            {/* Left column — narrative */}
+            <div className="lg:col-span-3 reveal-left">
+              <div className="w-12 h-1 bg-accent mb-6 rounded-full" />
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                Australia's Leading Commercial Finance Specialists
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+                With over 15 years of expertise in Australian commercial lending, we've facilitated over $2 billion in business finance across all major markets. 
+                Our specialized team delivers fast settlements on complex deals that traditional banks won't touch, offering competitive rates 
+                for property development, business acquisition, working capital, bridging finance, and specialized commercial lending solutions.
+              </p>
+              <p className="text-base text-muted-foreground/80 leading-relaxed">
+                Operating across Sydney, Melbourne, Brisbane, Perth, Adelaide, and regional centers, we understand the unique challenges 
+                of Australian commercial property markets. From CBD high-rise developments to suburban commercial acquisitions, 
+                our local expertise ensures your finance solution is tailored to Australian regulations, market conditions, and business requirements.
+              </p>
             </div>
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">48HR</div>
-              <div className="text-sm text-muted-foreground">Fast Approval Process</div>
+            
+            {/* Right column — stats grid */}
+            <div className="lg:col-span-2 grid grid-cols-2 gap-6">
+              {[
+                { value: "$2B+", label: "Commercial Loans Facilitated" },
+                { value: "48HR", label: "Fast Approval Process" },
+                { value: "15+", label: "Years Industry Experience" },
+                { value: "95%", label: "Client Success Rate" }
+              ].map((stat, index) => (
+                <div key={index} className={`reveal-scale reveal-d${index + 1} p-6 rounded-2xl bg-card/60 border border-glass-border`}>
+                  <div className="text-3xl md:text-4xl font-bold text-accent mb-2">{stat.value}</div>
+                  <div className="text-sm text-muted-foreground leading-snug">{stat.label}</div>
+                </div>
+              ))}
             </div>
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">15+</div>
-              <div className="text-sm text-muted-foreground">Years Industry Experience</div>
-            </div>
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">95%</div>
-              <div className="text-sm text-muted-foreground">Client Success Rate</div>
-            </div>
-          </div>
-
-          {/* Australian Market Focus */}
-          <div className="bg-card/50 backdrop-blur-sm rounded-3xl p-8 mb-16">
-            <h3 className="text-2xl font-bold mb-6 text-center">Nationwide Commercial Finance Coverage</h3>
-            <p className="text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto">
-              Operating across Sydney, Melbourne, Brisbane, Perth, Adelaide, and regional centers, we understand the unique challenges 
-              of Australian commercial property markets. From CBD high-rise developments to suburban commercial acquisitions, 
-              our local expertise ensures your finance solution is tailored to Australian regulations, market conditions, and business requirements.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Core Commercial Finance Services */}
-      <section className="py-20 px-4">
+      <section className="py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Commercial Finance <span className="gradient-text">Solutions</span>
+          <div className="max-w-2xl mb-16 reveal">
+            <div className="w-12 h-1 bg-accent mb-6 rounded-full" />
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+              Commercial Finance Solutions
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed">
               Comprehensive business lending services designed for Australian commercial property investors, 
               developers, and business owners who need fast, flexible financing solutions.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Featured services — two large cards */}
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
             {[
               {
                 icon: Building2,
@@ -326,7 +337,27 @@ const Homepage = () => {
                 title: "Bridging Finance",
                 description: "Short-term funding for property acquisition, settlements, and time-sensitive commercial opportunities.",
                 link: "/services/bridging-finance"
-              },
+              }
+            ].map((service, index) => (
+              <Link key={index} to={service.link} className={`reveal reveal-d${index + 1}`}>
+                <Card className="group h-full border-glass-border bg-card/60 hover:border-accent/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-glow">
+                  <CardContent className="p-8 flex items-start gap-6">
+                    <div className="p-4 bg-accent/10 rounded-2xl shrink-0 group-hover:bg-accent/20 transition-colors">
+                      <service.icon className="h-8 w-8 text-accent" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl md:text-2xl font-semibold mb-3 group-hover:text-accent transition-colors">{service.title}</h3>
+                      <p className="text-muted-foreground text-base leading-relaxed">{service.description}</p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+
+          {/* Remaining services — compact 2x2 grid */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
               {
                 icon: Shield,
                 title: "Asset-Backed Lending",
@@ -352,25 +383,19 @@ const Homepage = () => {
                 link: "/services/business-acquisition"
               }
             ].map((service, index) => (
-              <Link key={index} to={service.link}>
-                <Card className="premium-card group h-full hover:border-accent/50 transition-colors">
-                  <CardHeader className="text-center pb-4">
-                    <div className="mx-auto mb-6 p-6 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
-                      <service.icon className="h-10 w-10 text-accent" />
-                    </div>
-                    <CardTitle className="text-xl md:text-2xl mb-4 group-hover:text-accent transition-colors">{service.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-center text-muted-foreground text-base md:text-lg leading-relaxed">
-                      {service.description}
-                    </CardDescription>
+              <Link key={index} to={service.link} className={`reveal reveal-d${index + 1}`}>
+                <Card className="group h-full border-glass-border bg-card/40 hover:border-accent/40 transition-all duration-500 hover:-translate-y-1">
+                  <CardContent className="p-6">
+                    <service.icon className="h-6 w-6 text-accent mb-4" />
+                    <h3 className="text-lg font-semibold mb-2 group-hover:text-accent transition-colors">{service.title}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{service.description}</p>
                   </CardContent>
                 </Card>
               </Link>
             ))}
           </div>
           
-          <div className="text-center mt-12">
+          <div className="mt-12 reveal">
             <Button asChild variant="outline" size="lg" className="border-accent/30 hover:bg-accent/10">
               <Link to="/services">
                 View All Services
@@ -382,74 +407,75 @@ const Homepage = () => {
       </section>
 
       {/* Why Emet Capital */}
-      <section className="py-20 px-4 bg-gradient-to-b from-transparent to-primary/5">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 border-y border-glass-border">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Why <span className="gradient-text">Emet Capital</span>
+          <div className="max-w-2xl mb-16 reveal">
+            <div className="w-12 h-1 bg-accent mb-6 rounded-full" />
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+              Why Emet Capital
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed">
               Industry-leading metrics that speak to our expertise
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-glass-border">
             {[
-              { label: "Approval Speed", value: 90, suffix: "% within 48hrs" },
-              { label: "Deal Success Rate", value: 87, suffix: "% approved" },
-              { label: "Google Rating", value: 5, suffix: " stars (18 reviews)" }
+              { value: "90%", label: "Approval Speed", detail: "within 48hrs" },
+              { value: "87%", label: "Deal Success Rate", detail: "approved" },
+              { value: "5★", label: "Google Rating", detail: "18 reviews" }
             ].map((metric, index) => (
-              <Card key={index} className="premium-card text-center">
-                <CardHeader>
-                  <CardTitle className="text-lg text-muted-foreground">{metric.label}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-4xl font-bold gradient-text mb-4">
-                    {metric.value}{metric.suffix.includes('stars') ? '' : '%'}
-                  </div>
-                  <div className="progress-bar mb-4">
-                    <div 
-                      className="progress-fill" 
-                      style={{ width: `${metric.value === 5 ? 100 : metric.value}%` }}
-                    />
-                  </div>
-                  <p className="text-sm text-muted-foreground">
-                    {metric.suffix.replace('%', '')}
-                  </p>
-                </CardContent>
-              </Card>
+              <div key={index} className={`reveal reveal-d${index + 1} py-8 md:py-0 md:px-10 ${index === 0 ? 'md:pl-0' : ''} ${index === 2 ? 'md:pr-0' : ''}`}>
+                <div className="text-5xl md:text-6xl font-bold text-accent mb-2 tracking-tight">{metric.value}</div>
+                <div className="text-lg font-medium mb-1">{metric.label}</div>
+                <div className="text-sm text-muted-foreground">{metric.detail}</div>
+              </div>
             ))}
           </div>
-          
         </div>
       </section>
 
       {/* Case Studies */}
-      <section className="py-24 px-4">
+      <section className="py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Success <span className="gradient-text">Stories</span>
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Real deals, real results, real growth
-            </p>
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+            <div className="max-w-xl reveal">
+              <div className="w-12 h-1 bg-accent mb-6 rounded-full" />
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+                Success Stories
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Real deals, real results, real growth
+              </p>
+            </div>
+            <div className="reveal reveal-d2">
+              <Button 
+                asChild 
+                size="lg"
+                className="bg-accent hover:bg-accent-light text-accent-foreground"
+              >
+                <Link to="/resources/case-studies">
+                  View All Case Studies
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+              </Button>
+            </div>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
-            {featuredCaseStudies.map((study) => (
+          <div className="grid md:grid-cols-5 gap-6">
+            {featuredCaseStudies.map((study, i) => (
               <Link 
                 key={study.slug} 
                 to={`/resources/case-studies/${study.slug}`}
-                className="block transition-transform hover:scale-[1.02]"
+                className={`block ${i === 0 ? 'md:col-span-3' : 'md:col-span-2'} reveal reveal-d${i + 1}`}
               >
-                <Card className="premium-card h-full cursor-pointer">
+                <Card className="h-full border-glass-border bg-card/60 hover:border-accent/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-glow cursor-pointer">
                   <CardHeader>
-                    <div className="flex items-center gap-4 mb-4">
-                      <Badge className="bg-accent/20 text-accent">
+                    <div className="flex items-center gap-3 mb-4">
+                      <Badge className="bg-accent/20 text-accent border-0">
                         {study.loanType || "Business Finance"}
                       </Badge>
-                      <Badge variant="outline">
+                      <Badge variant="outline" className="border-glass-border">
                         {study.industry || "Business"}
                       </Badge>
                     </div>
@@ -462,7 +488,7 @@ const Homepage = () => {
                     <h3 className="text-lg font-semibold mb-3">{study.title}</h3>
                     <p className="text-base text-muted-foreground mb-4">{study.outcome}</p>
                     {study.quote && (
-                      <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
+                      <blockquote className="border-l-2 border-accent/40 pl-4 italic text-muted-foreground text-sm">
                         "{study.quote}"
                       </blockquote>
                     )}
@@ -471,49 +497,37 @@ const Homepage = () => {
               </Link>
             ))}
           </div>
-          
-          <div className="text-center mt-12 fade-in-up">
-            <Button 
-              asChild 
-              size="lg"
-              className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
-            >
-              <Link to="/resources/case-studies">
-                View All Case Studies
-              </Link>
-            </Button>
-          </div>
         </div>
       </section>
 
       {/* How It Works */}
-      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/5">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-muted/20">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              How It <span className="gradient-text">Works</span>
+          <div className="text-center mb-20 reveal">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+              How It Works
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-xl mx-auto">
               Four simple steps to funding success
             </p>
           </div>
           
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-4 gap-8 relative">
+            {/* Connecting line (desktop only) */}
+            <div className="hidden md:block absolute top-10 left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-accent/0 via-accent/30 to-accent/0" />
+            
             {[
               { step: "01", title: "Enquiry", description: "Tell us about your funding requirements" },
               { step: "02", title: "Assessment", description: "We evaluate your proposal and present options" },
               { step: "03", title: "Approval", description: "Fast-track approval with our lender network" },
               { step: "04", title: "Settlement", description: "Quick settlement and funding deployment" }
             ].map((step, index) => (
-              <div key={index} className="text-center group">
-                <div className="premium-card p-8 mb-4">
-                  <div className="text-4xl font-bold gradient-text mb-4">{step.step}</div>
-                  <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+              <div key={index} className={`reveal reveal-d${index + 1} text-center relative`}>
+                <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-card border-2 border-accent/30 mb-6 relative z-10">
+                  <span className="text-2xl font-bold text-accent">{step.step}</span>
                 </div>
-                {index < 3 && (
-                  <ArrowRight className="hidden md:block absolute top-1/2 -right-4 h-6 w-6 text-accent opacity-50" />
-                )}
+                <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+                <p className="text-muted-foreground text-sm">{step.description}</p>
               </div>
             ))}
           </div>
@@ -521,27 +535,28 @@ const Homepage = () => {
       </section>
 
       {/* Latest Articles */}
-      <section className="py-24 px-4 bg-slate-900">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-card/50 border-y border-glass-border">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-white bg-clip-text text-transparent">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+            <div className="max-w-xl reveal">
+              <div className="w-12 h-1 bg-accent mb-6 rounded-full" />
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
                 Latest Articles & Insights
               </h2>
-              <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+              <p className="text-lg text-muted-foreground">
                 Stay informed with our latest guides, case studies, and market insights. 
                 Fresh content to help you make smarter financing decisions.
               </p>
             </div>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {latestArticles.map((article, index) => (
-              <div key={article.slug} className={`fade-in-up delay-${index * 100}`}>
-                <Card className="h-full hover:shadow-xl transition-all duration-300 border-slate-700 bg-slate-800/50 backdrop-blur-sm">
+              <div key={article.slug} className={`reveal reveal-d${Math.min(index + 1, 5)}`}>
+                <Card className="h-full border-glass-border bg-card/60 hover:border-accent/30 transition-all duration-300">
                   <CardHeader className="pb-3">
                     <div className="flex items-start justify-between gap-3 mb-2">
-                      <Badge variant="outline" className="text-xs font-medium border-slate-600 text-slate-300">
+                      <Badge variant="outline" className="text-xs font-medium border-glass-border">
                         {article.category}
                       </Badge>
                       {isNewArticle(article.date) && (
@@ -550,7 +565,7 @@ const Homepage = () => {
                         </Badge>
                       )}
                     </div>
-                    <CardTitle className="text-lg line-clamp-2 leading-tight text-white hover:text-blue-400 transition-colors">
+                    <CardTitle className="text-lg line-clamp-2 leading-tight hover:text-accent transition-colors">
                       <Link 
                         to={getArticleUrl(article)}
                         className="block"
@@ -560,10 +575,10 @@ const Homepage = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="pt-0">
-                    <p className="text-sm text-slate-300 line-clamp-3 mb-4">
+                    <p className="text-sm text-muted-foreground line-clamp-3 mb-4">
                       {article.description}
                     </p>
-                    <div className="flex items-center justify-between text-xs text-slate-400">
+                    <div className="flex items-center justify-between text-xs text-muted-foreground/70">
                       <span>{article.author}</span>
                       <span>{new Date(article.date).toLocaleDateString()}</span>
                     </div>
@@ -573,88 +588,88 @@ const Homepage = () => {
             ))}
           </div>
           
-          <div className="text-center mt-12">
-            <div className="fade-in-up delay-600">
-              <p className="text-slate-300 mb-6">
-                Explore more resources tailored to your needs
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button asChild size="lg" className="min-w-[160px] bg-blue-600 hover:bg-blue-700 text-white">
-                  <Link to="/resources/guides">
-                    View All Guides
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-slate-600 text-slate-300 hover:bg-slate-700 hover:text-white">
-                  <Link to="/resources/case-studies">
-                    Browse Case Studies
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-slate-600 text-slate-300 hover:bg-slate-700 hover:text-white">
-                  <Link to="/resources/insights">
-                    Market Insights
-                  </Link>
-                </Button>
-              </div>
-            </div>
+          <div className="mt-12 flex flex-col sm:flex-row gap-4 reveal">
+            <Button asChild size="lg" className="bg-accent hover:bg-accent-light text-accent-foreground">
+              <Link to="/resources/guides">
+                View All Guides
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-glass-border hover:bg-card">
+              <Link to="/resources/case-studies">
+                Browse Case Studies
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-glass-border hover:bg-card">
+              <Link to="/resources/insights">
+                Market Insights
+              </Link>
+            </Button>
           </div>
         </div>
       </section>
 
       {/* About Us */}
-      <section className="py-24 px-4">
+      <section className="py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Left — editorial text */}
+            <div className="reveal-left">
+              <div className="w-12 h-1 bg-accent mb-6 rounded-full" />
+              <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
                 Founded on Expertise,
-                <span className="gradient-text block">
+                <span className="block text-accent mt-1">
                   Driven by Results
                 </span>
               </h2>
-              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Our team combines extensive commercial lending experience with a deep understanding 
                 of Australia's financial landscape. We've structured complex deals across diverse 
                 industries and know what it takes to secure funding when it matters most.
               </p>
               
-              <div className="grid sm:grid-cols-3 gap-8 mb-12">
-                {[
-                  { icon: Award, label: "15+ Years", description: "Industry Experience" },
-                  { icon: Users, label: "300+", description: "Successful Deals" },
-                  { icon: DollarSign, label: "$150M+", description: "Funds Facilitated" }
-                ].map((stat, index) => (
-                  <div key={index} className="text-center">
-                    <stat.icon className="h-10 w-10 text-accent mx-auto mb-4" />
-                    <div className="text-3xl font-bold gradient-text">{stat.label}</div>
-                    <div className="text-base text-muted-foreground">{stat.description}</div>
-                  </div>
-                ))}
-              </div>
-              
-              <Button asChild className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
+              <Button asChild className="bg-accent hover:bg-accent-light text-accent-foreground">
                 <Link to="/about">
                   Learn More About Us
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>
+            
+            {/* Right — stacked stats */}
+            <div className="space-y-6 reveal-right">
+              {[
+                { icon: Award, value: "15+", label: "Years", sublabel: "Industry Experience" },
+                { icon: Users, value: "300+", label: "Deals", sublabel: "Successful Settlements" },
+                { icon: DollarSign, value: "$150M+", label: "Funded", sublabel: "Capital Facilitated" }
+              ].map((stat, index) => (
+                <div key={index} className={`reveal reveal-d${index + 1} flex items-center gap-6 p-6 rounded-2xl bg-card/40 border border-glass-border`}>
+                  <stat.icon className="h-8 w-8 text-accent shrink-0" />
+                  <div>
+                    <span className="text-3xl font-bold text-accent">{stat.value}</span>
+                    <span className="text-lg font-medium ml-2">{stat.label}</span>
+                    <p className="text-sm text-muted-foreground">{stat.sublabel}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* Contact Form */}
-      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/10">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-muted/20">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to <span className="gradient-text">Get Started?</span>
+          <div className="mb-16 reveal">
+            <div className="w-12 h-1 bg-accent mb-6 rounded-full" />
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+              Ready to Get Started?
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               Tell us about your requirements and we'll be in touch within 24 hours
             </p>
           </div>
           
-          <Card className="premium-card">
+          <Card className="border-glass-border bg-card/60 reveal reveal-d1">
             <CardContent className="p-8">
               <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6" data-netlify="true" name="homepage-contact">
                 <input type="hidden" name="form-name" value="homepage-contact" />
@@ -755,16 +770,18 @@ const Homepage = () => {
           </Card>
           
           {/* Contact Info */}
-          <div className="grid md:grid-cols-3 gap-8 mt-16 text-center">
+          <div className="grid md:grid-cols-3 gap-6 mt-16">
             {[
               { icon: Phone, title: "Call Us", content: "0485 952 651" },
               { icon: Mail, title: "Email Us", content: "enquiry@emetcapital.com.au" },
               { icon: MapPin, title: "Australia Wide", content: "Serving all states & territories" }
             ].map((contact, index) => (
-              <div key={index} className="premium-card p-6 hover-lift">
-                <contact.icon className="h-8 w-8 text-accent mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">{contact.title}</h3>
-                <p className="text-muted-foreground">{contact.content}</p>
+              <div key={index} className={`reveal reveal-d${index + 1} flex items-center gap-4 p-5 rounded-2xl bg-card/40 border border-glass-border`}>
+                <contact.icon className="h-6 w-6 text-accent shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-sm">{contact.title}</h3>
+                  <p className="text-muted-foreground text-sm">{contact.content}</p>
+                </div>
               </div>
             ))}
           </div>
