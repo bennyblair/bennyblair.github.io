@@ -52,6 +52,60 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources"
+  to = "https://emetcapital.com.au/resources"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/guides"
+  to = "https://emetcapital.com.au/resources/guides"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/insights"
+  to = "https://emetcapital.com.au/resources/insights"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/tools"
+  to = "https://emetcapital.com.au/resources/tools"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/faqs"
+  to = "https://emetcapital.com.au/resources/faqs"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/glossary"
+  to = "https://emetcapital.com.au/resources/glossary"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide"
+  to = "https://emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/guides/caveat-loans-australia-complete-guide"
+  to = "https://emetcapital.com.au/resources/guides/caveat-loans-australia-complete-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.emetcapital.com.au/resources/case-studies/adelaide-cbd-office-complex"
+  to = "https://emetcapital.com.au/resources/case-studies/adelaide-cbd-office-complex"
+  status = 301
+  force = true
+
 # Canonical path consolidation
 # Case studies canonical live under /resources/case-studies/*
 [[redirects]]
