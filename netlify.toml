@@ -379,6 +379,11 @@
   status = 301
 
 [[redirects]]
+  from = "/resources/guides/commercial-loan-repayment-calculator"
+  to = "/resources/tools/commercial-property-loan-calculator"
+  status = 301
+
+[[redirects]]
   from = "/resources/guides/short-term-property-loan"
   to = "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
   status = 301
