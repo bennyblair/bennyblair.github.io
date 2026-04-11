@@ -506,7 +506,6 @@ const SimpleGuideArticle = () => {
         'short-term-property-loan',
         'commercial-bridging-loan',
         'bridging-loan-for-property-development',
-        'low-doc-business-finance',
         'no-doc-short-term-mortgages',
         '10000-small-business-grant-nsw',
 

@@ -244,7 +244,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide</loc>
-    <lastmod>2026-02-01</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -712,6 +712,13 @@
   </url>
 
   <url>
+    <loc>https://emetcapital.com.au/resources/guides/low-doc-business-finance</loc>
+    <lastmod>2025-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://emetcapital.com.au/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -721,6 +728,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/mezzanine-finance-australia-complete-guide</loc>
     <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/no-doc-abn-loans</loc>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -692,6 +692,15 @@
     "noscript": "A practical guide to line of credit equity for Australian business borrowers, including how property equity-backed facilities work, when they fit, lender considerations, and how they compare with term loans and second mortgages.",
     "sourcePath": "src/content/guides/line-of-credit-equity.md"
   },
+  "/resources/guides/low-doc-business-finance": {
+    "title": "Low Doc Business Finance in Australia | Emet Capital",
+    "description": "A practical guide to low doc business finance for Australian business borrowers, including how lenders assess BAS-based applications, what documents still matter, and when property-backed or non-bank funding may fit.",
+    "keywords": "",
+    "canonical": "https://emetcapital.com.au/resources/guides/low-doc-business-finance",
+    "h1": "Low Doc Business Finance in Australia",
+    "noscript": "A practical guide to low doc business finance for Australian business borrowers, including how lenders assess BAS-based applications, what documents still matter, and when property-backed or non-bank funding may fit.",
+    "sourcePath": "src/content/guides/low-doc-business-finance.md"
+  },
   "/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide": {
     "title": "Low Doc & No Doc Commercial Loans: Complete Alternative Guide | Emet Capital",
     "description": "Learn how low doc and no doc commercial loans work in Australia, when borrowers use them, what lenders usually require, and how property investors, developers, and business owners can compare alternative documentation pathways.",
@@ -709,6 +718,15 @@
     "h1": "Mezzanine Finance in Australia: The Complete Guide for Business Growth",
     "noscript": "Complete guide to mezzanine finance in Australia. Learn about subordinated debt, equity features, acquisition finance, and when to use mezzanine funding. General information only - not advice.",
     "sourcePath": "src/content/guides/mezzanine-finance-australia-complete-guide.md"
+  },
+  "/resources/guides/no-doc-abn-loans": {
+    "title": "No Doc ABN Loans in Australia | Emet Capital",
+    "description": "A practical guide to no doc ABN loans for Australian commercial borrowers, including what lenders really mean by no doc, when security matters most, and when a property-backed or private lending structure may be more realistic.",
+    "keywords": "",
+    "canonical": "https://emetcapital.com.au/resources/guides/no-doc-abn-loans",
+    "h1": "No Doc ABN Loans in Australia",
+    "noscript": "A practical guide to no doc ABN loans for Australian commercial borrowers, including what lenders really mean by no doc, when security matters most, and when a property-backed or private lending structure may be more realistic.",
+    "sourcePath": "src/content/guides/no-doc-abn-loans.md"
   },
   "/resources/guides/office-property-loans-financing-commercial-workspace": {
     "title": "Office Property Loans: Financing Your Commercial Workspace | Emet Capital",
