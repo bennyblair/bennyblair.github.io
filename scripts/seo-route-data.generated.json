@@ -53,6 +53,15 @@
     "noscript": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, eligibility, benefits, and applications for businesses. General information only - not advice.",
     "sourcePath": "src/content/guides/asset-backed-lending-and-asset-finance.md"
   },
+  "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses": {
+    "title": "ATO Garnishee Notice Finance for Australian Businesses | Emet Capital",
+    "description": "A practical guide for Australian business owners dealing with an ATO garnishee notice, including what finance may and may not solve, when property-backed funding can help, what lenders assess, and when to focus on the wider debt problem instead.",
+    "keywords": "ato garnishee notice business finance, ato garnishee notice finance, tax debt finance australia, business finance ato garnishee",
+    "canonical": "https://emetcapital.com.au/resources/guides/ato-garnishee-notice-finance-for-australian-businesses",
+    "h1": "ATO Garnishee Notice Finance for Australian Businesses",
+    "noscript": "A practical guide for Australian business owners dealing with an ATO garnishee notice, including what finance may and may not solve, when property-backed funding can help, what lenders assess, and when to focus on the wider debt problem instead.",
+    "sourcePath": "src/content/guides/ato-garnishee-notice-finance-for-australian-businesses.md"
+  },
   "/resources/guides/ato-tax-debt-finance-for-australian-business-owners": {
     "title": "ATO Tax Debt Finance for Australian Business Owners | Emet Capital",
     "description": "A practical guide to ATO tax debt finance for Australian business owners, including how it works, when commercial borrowers use it, lender considerations, and when short-term or property-backed finance may be relevant.",
@@ -466,6 +475,15 @@
     "h1": "Commercial Property LVR Explained: Maximise Your Borrowing",
     "noscript": "A practical guide to commercial property LVR in Australia, including how lenders calculate it, what affects maximum leverage, and how borrowers can improve structure without treating LVR as the only metric. Informational only.",
     "sourcePath": "src/content/guides/commercial-property-lvr-explained-maximise-your-borrowing.md"
+  },
+  "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia": {
+    "title": "Commercial Property Refinance After a Bank Decline in Australia | Emet Capital",
+    "description": "A practical guide for Australian commercial borrowers on refinancing after a bank decline, including why declines happen, when private or specialist lenders may help, what documents matter, and when not to refinance yet.",
+    "keywords": "commercial property refinance after bank decline, bank declined commercial refinance, commercial refinance private lender, commercial property refinance australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia",
+    "h1": "Commercial Property Refinance After a Bank Decline in Australia",
+    "noscript": "A practical guide for Australian commercial borrowers on refinancing after a bank decline, including why declines happen, when private or specialist lenders may help, what documents matter, and when not to refinance yet.",
+    "sourcePath": "src/content/guides/commercial-property-refinance-after-a-bank-decline-in-australia.md"
   },
   "/resources/guides/commercial-property-refinancing-solutions": {
     "title": "Commercial Property Refinancing Solutions in Australia | Emet Capital",
