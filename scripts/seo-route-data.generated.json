@@ -413,6 +413,15 @@
     "noscript": "An informational guide to commercial property lenders in Australia for business owners, developers, and investors. Learn lender types, how they differ, what they assess, and how to compare options without treating finance as one-size-fits-all.",
     "sourcePath": "src/content/guides/commercial-property-lenders-in-australia-complete-directory.md"
   },
+  "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need": {
+    "title": "Commercial Property Loan Deposits in Australia: How Much Do You Need? | Emet Capital",
+    "description": "Learn how commercial property loan deposits work in Australia, what costs sit above the purchase deposit, when lenders may ask for more equity, and how business borrowers should plan their capital stack.",
+    "keywords": "commercial property loan deposit, commercial property deposit, commercial property finance deposit, commercial property equity contribution",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loan-deposits-how-much-do-you-need",
+    "h1": "Commercial Property Loan Deposits in Australia: How Much Do You Need?",
+    "noscript": "Learn how commercial property loan deposits work in Australia, what costs sit above the purchase deposit, when lenders may ask for more equity, and how business borrowers should plan their capital stack.",
+    "sourcePath": "src/content/guides/commercial-property-loan-deposits-how-much-do-you-need.md"
+  },
   "/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify": {
     "title": "Commercial Property Loan Eligibility: What You Need to Qualify | Emet Capital",
     "description": "Discover the key eligibility criteria for commercial property loans in Australia. Learn about credit requirements, deposit expectations, financial documentation, and strategies to improve your approval chances.",
@@ -610,6 +619,15 @@
     "h1": "GST Loan for Commercial Property Settlement in Australia",
     "noscript": "A practical guide to GST loans for commercial property settlement in Australia, including when a GST funding gap appears, how short-term settlement finance is commonly structured, what lenders assess, and when this type of loan may or may not fit.",
     "sourcePath": "src/content/guides/gst-loan-for-commercial-property-settlement-in-australia.md"
+  },
+  "/resources/guides/guarantor-requirements-for-commercial-property-loans": {
+    "title": "Guarantor Requirements for Commercial Property Loans in Australia | Emet Capital",
+    "description": "Understand when commercial property lenders ask for guarantees, what guarantors are usually supporting, how lenders assess risk, and what business borrowers should clarify before signing.",
+    "keywords": "commercial property loan guarantor, guarantor requirements commercial property loans, commercial loan guarantee, director guarantee commercial property",
+    "canonical": "https://emetcapital.com.au/resources/guides/guarantor-requirements-for-commercial-property-loans",
+    "h1": "Guarantor Requirements for Commercial Property Loans in Australia",
+    "noscript": "Understand when commercial property lenders ask for guarantees, what guarantors are usually supporting, how lenders assess risk, and what business borrowers should clarify before signing.",
+    "sourcePath": "src/content/guides/guarantor-requirements-for-commercial-property-loans.md"
   },
   "/resources/guides/hospitality-property-finance-restaurants-hotels-venues": {
     "title": "Hospitality Property Finance: Restaurants, Hotels & Venues | Emet Capital",
