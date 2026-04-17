@@ -9,6 +9,17 @@ keywords:
   - "second mortgage business debt consolidation"
   - "commercial second mortgage case study"
 readTime: "10 min read"
+author: "Emet Capital"
+readingTime: 10
+loanAmount: "$430K"
+loanType: "Second Mortgage"
+industry: "Trade Business"
+duration: "12 months"
+outcome: "Multiple high-cost debts consolidated, cash flow stabilised, and a refinance path preserved"
+challenge: "Short-term debt pressure, fragmented repayments, and urgent creditor strain"
+location: "Sydney, NSW"
+propertyType: "Warehouse and office asset"
+lvr: "64.9%"
 ---
 
 A second mortgage can help an Australian business consolidate expensive short-term debt when the borrower has usable property equity, a clear business purpose, and a realistic exit plan. In practical terms, it means adding a new loan behind an existing first mortgage instead of refinancing the whole property debt stack. For business owners under time pressure, that can reduce monthly stress, simplify repayments, and preserve a first mortgage that may already be competitively priced.
