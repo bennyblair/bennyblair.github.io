@@ -27,7 +27,7 @@ import {
   Users,
   DollarSign
 } from "lucide-react";
-import sydneySkyline from "@/assets/sydney-skyline-hero.jpg";
+
 import { getContentFiles, isRoutableContentArticle, type Article } from "@/lib/content";
 
 const Homepage = () => {
@@ -209,14 +209,21 @@ const Homepage = () => {
       
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
-        {/* Sydney Skyline Background */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url(${sydneySkyline})`,
-            transform: `translateY(${scrollY * 0.5}px)`,
-          }}
-        />
+        {/* Video Background */}
+        <div className="absolute inset-0">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{
+              transform: `translateY(${scrollY * 0.5}px)`,
+            }}
+          >
+            <source src="/Camera_still_clouds_202604130048.mp4" type="video/mp4" />
+          </video>
+        </div>
         
         {/* Glassmorphism overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/60" />
