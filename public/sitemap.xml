@@ -6,7 +6,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources/case-studies/case-study-second-mortgage-saved-this-business-50k</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -761,6 +761,13 @@
   </url>
 
   <url>
+    <loc>https://emetcapital.com.au/resources/guides/medical-fitout-finance-in-australia-funding-clinics-dental-practices-and-specialist-rooms</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://emetcapital.com.au/resources/guides/mezzanine-finance-australia-complete-guide</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -1008,6 +1015,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/swing-loans-explained-seamless-property-transitions</loc>
     <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/trade-finance-for-businesses-with-bad-credit-in-australia</loc>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
