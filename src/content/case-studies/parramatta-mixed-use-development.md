@@ -23,6 +23,14 @@ lvr: "70%"
 
 When Western Sydney's property boom reached Parramatta, an experienced developer saw the opportunity to create something special. This mixed-use project in the heart of Parramatta's revitalized CBD would combine retail, commercial, and residential elements - but required flexible financing to navigate construction challenges.
 
+### Related In-Depth Guides
+- **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — the main guide to short-term property funding and exit planning.
+- **[Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — broader context on staged funding, contingencies, and build risk.
+- **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — how developers structure debt across land, build, and sales milestones.
+- **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — lending fundamentals for owner-occupiers, investors, and development borrowers.
+- **[Mezzanine Finance Australia Complete Guide](/resources/guides/mezzanine-finance-australia-complete-guide)** — useful when layered capital or stretched senior debt is part of the picture.
+- **[Private Lending](/services/private-lending)** — speak with Emet Capital about flexible non-bank structures for time-sensitive transactions.
+
 ## The Development Opportunity
 
 **Location:** Church Street, Parramatta CBD - Western Sydney's business heart
@@ -60,6 +68,8 @@ The client, a Sydney-based developer with 20+ years experience, identified Parra
 **Construction Delays:** Heritage approvals delayed start by 4 months
 **Market Timing:** Rising construction costs and material shortages
 **Cash Flow:** Multiple revenue streams with different completion timelines
+
+This is exactly the kind of scenario where borrowers often compare [bridging finance Australia complete property guide](/resources/guides/bridging-finance-australia-complete-property-guide), [construction finance Australia complete guide](/resources/guides/construction-finance-australia-complete-guide), and [property development loans complete funding guide](/resources/guides/property-development-loans-complete-funding-guide) before choosing the least restrictive structure.
 
 ### Specific Hurdles Encountered
 
@@ -175,7 +185,7 @@ Parramatta represents Western Sydney's transformation into a true business hub:
 
 ## The Broader Impact
 
-This project demonstrates the vital role of alternative development finance in Western Sydney's growth. While bank development facilities offer competitive rates, they often lack the flexibility needed when projects face unexpected challenges.
+This project demonstrates the vital role of alternative development finance in Western Sydney's growth. While bank development facilities offer competitive rates, they often lack the flexibility needed when projects face unexpected challenges. For developers weighing senior debt against more flexible private structures, the trade-off often sits between speed, leverage, and covenant pressure, which we unpack further in [what is private lending Australia](/resources/guides/what-is-private-lending-australia) and [mezzanine finance Australia complete guide](/resources/guides/mezzanine-finance-australia-complete-guide).
 
 **Community Benefits:**
 - Added quality housing in high-demand area
@@ -195,6 +205,13 @@ This Parramatta case study showcases how experienced development finance can tur
 The key was having a finance partner who understood both the opportunities and risks in Western Sydney's evolving property market. When unexpected challenges arose, Emet Capital's flexibility and expertise helped navigate each obstacle while maintaining the project's commercial viability.
 
 Parramatta's continued growth ensures that quality mixed-use developments like this will remain in high demand, making it an attractive market for experienced developers with the right financing partners.
+
+## Related Guides
+- **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — short-term funding structure, timing, and exit pathways.
+- **[Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — how staged construction debt is usually assessed and monitored.
+- **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — a deeper look at development loan structure, equity, and sales cover.
+- **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — wider commercial property lending context beyond this case study.
+- **[Mezzanine Finance Australia Complete Guide](/resources/guides/mezzanine-finance-australia-complete-guide)** — additional context for layered capital stacks on more complex deals.
 
 ## Related Services
 
