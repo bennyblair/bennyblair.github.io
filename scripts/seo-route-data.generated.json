@@ -53,6 +53,15 @@
     "noscript": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, eligibility, benefits, and applications for businesses. General information only - not advice.",
     "sourcePath": "src/content/guides/asset-backed-lending-and-asset-finance.md"
   },
+  "/resources/guides/asset-backed-lending-vs-unsecured-business-loans": {
+    "title": "Asset-Backed Lending vs Unsecured Business Loans | Emet Capital",
+    "description": "Compare asset-backed lending and unsecured business loans for Australian commercial borrowers, including security, speed, borrowing capacity, lender assessment, and transaction fit.",
+    "keywords": "asset-backed lending vs unsecured business loans, secured vs unsecured business loans, asset-backed lending Australia, commercial finance comparison",
+    "canonical": "https://emetcapital.com.au/resources/guides/asset-backed-lending-vs-unsecured-business-loans",
+    "h1": "Asset-Backed Lending vs Unsecured Business Loans",
+    "noscript": "Compare asset-backed lending and unsecured business loans for Australian commercial borrowers, including security, speed, borrowing capacity, lender assessment, and transaction fit.",
+    "sourcePath": "src/content/guides/asset-backed-lending-vs-unsecured-business-loans.md"
+  },
   "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses": {
     "title": "ATO Garnishee Notice Finance for Australian Businesses | Emet Capital",
     "description": "A practical guide for Australian business owners dealing with an ATO garnishee notice, including what finance may and may not solve, when property-backed funding can help, what lenders assess, and when to focus on the wider debt problem instead.",
@@ -1240,6 +1249,15 @@
     "h1": "What Is a Caveatable Interest? Legal Guide for Business Borrowers",
     "noscript": "A practical guide to caveatable interests in Australia, including what they are, when they arise, why they matter for caveat loans, and when a borrower or lender should get legal advice. Informational only.",
     "sourcePath": "src/content/guides/what-is-a-caveatable-interest.md"
+  },
+  "/resources/guides/what-is-asset-backed-lending-australia": {
+    "title": "What Is Asset-Backed Lending in Australia? | Emet Capital",
+    "description": "A clear definition of asset-backed lending in Australia for commercial borrowers, including eligible assets, lender assessment, use cases, risks, and how it differs from unsecured finance.",
+    "keywords": "what is asset-backed lending, asset-backed lending Australia, secured business loans Australia, asset based lending Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/what-is-asset-backed-lending-australia",
+    "h1": "What Is Asset-Backed Lending in Australia?",
+    "noscript": "A clear definition of asset-backed lending in Australia for commercial borrowers, including eligible assets, lender assessment, use cases, risks, and how it differs from unsecured finance.",
+    "sourcePath": "src/content/guides/what-is-asset-backed-lending-australia.md"
   },
   "/resources/guides/what-is-private-lending-australia": {
     "title": "What is Private Lending? A Guide for Australian Businesses | Emet Capital",
