@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { TrendingUp, Calendar, Clock, Filter, Star, Mail, ChevronRight } from "lucide-react";
+import { TrendingUp, Calendar, Clock, Filter, Star, Mail } from "lucide-react";
 import { getContentFiles, type Article } from "@/lib/content";
 import SEO from "@/components/SEO";
 
@@ -55,7 +55,7 @@ const MarketInsights = () => {
       readTime: "8 min",
       publishDate: "2024-01-15",
       featured: true,
-      slug: "commercial-lending-market-q4-2024"
+      href: "/resources/guides/private-lending-vs-bank-lending-which-is-better"
     },
     {
       title: "RBA Rate Decisions Impact on Commercial Lending",
@@ -64,7 +64,7 @@ const MarketInsights = () => {
       readTime: "6 min",
       publishDate: "2024-01-12",
       featured: false,
-      slug: "rba-impact-commercial-lending"
+      href: "/resources/guides/commercial-loan-interest-rates-australia-2025-comparison"
     },
     {
       title: "New APRA Regulations for Commercial Property Finance",
@@ -73,7 +73,7 @@ const MarketInsights = () => {
       readTime: "10 min",
       publishDate: "2024-01-10",
       featured: false,
-      slug: "apra-commercial-property-regulations"
+      href: "/resources/guides/commercial-property-loans-australia-complete-guide"
     },
     {
       title: "Construction Industry Financing Trends 2024",
@@ -82,7 +82,7 @@ const MarketInsights = () => {
       readTime: "12 min",
       publishDate: "2024-01-08",
       featured: false,
-      slug: "construction-financing-trends-2024"
+      href: "/resources/guides/construction-finance-australia-complete-guide"
     },
     {
       title: "SME Lending Recovery: Post-COVID Market Analysis",
@@ -91,7 +91,7 @@ const MarketInsights = () => {
       readTime: "9 min",
       publishDate: "2024-01-05",
       featured: false,
-      slug: "sme-lending-recovery-analysis"
+      href: "/resources/guides/working-capital-loans-for-smes"
     },
     {
       title: "Alternative Lenders Gaining Market Share",
@@ -99,8 +99,7 @@ const MarketInsights = () => {
       category: "Market Trends",
       readTime: "7 min",
       publishDate: "2024-01-03",
-      featured: false,
-      slug: "alternative-lenders-market-share"
+      featured: false
     },
     {
       title: "Infrastructure Spending and Commercial Opportunities",
@@ -108,8 +107,7 @@ const MarketInsights = () => {
       category: "Economic Updates",
       readTime: "11 min",
       publishDate: "2023-12-28",
-      featured: false,
-      slug: "infrastructure-commercial-opportunities"
+      featured: false
     },
     {
       title: "ESG Factors in Commercial Lending Decisions",
@@ -117,8 +115,7 @@ const MarketInsights = () => {
       category: "Industry Analysis",
       readTime: "8 min",
       publishDate: "2023-12-25",
-      featured: false,
-      slug: "esg-commercial-lending"
+      featured: false
     }
   ];
 
@@ -206,17 +203,6 @@ const MarketInsights = () => {
                     </span>
                   </div>
                 </div>
-                <div className="text-center lg:text-right">
-                  <Button 
-                    asChild 
-                    size="lg"
-                    className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
-                  >
-                    <Link to={`/resources/insights/${latestInsight.slug}`}>
-                      Read Latest Insight
-                    </Link>
-                  </Button>
-                </div>
               </div>
             </CardContent>
           </Card>
@@ -280,17 +266,19 @@ const MarketInsights = () => {
                     </span>
                   </div>
                 </div>
-                <div className="text-center lg:text-right">
-                  <Button 
-                    asChild 
-                    size="lg"
-                    className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
-                  >
-                    <Link to={`/resources/insights/${featuredInsight.slug}`}>
-                      Read Full Analysis
-                    </Link>
-                  </Button>
-                </div>
+                {featuredInsight.href && (
+                  <div className="text-center lg:text-right">
+                    <Button
+                      asChild
+                      size="lg"
+                      className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
+                    >
+                      <Link to={featuredInsight.href}>
+                        Read Related Guide
+                      </Link>
+                    </Button>
+                  </div>
+                )}
               </div>
             </CardContent>
           </Card>
@@ -315,7 +303,10 @@ const MarketInsights = () => {
         {/* Insights Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {filteredInsights.filter(insight => !insight.featured).map((insight) => (
-            <Card key={insight.slug} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
+            <Card
+              key={insight.title}
+              className={insight.href ? "group hover:shadow-lg transition-all duration-300 hover:scale-105" : ""}
+            >
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
@@ -338,12 +329,13 @@ const MarketInsights = () => {
                     {new Date(insight.publishDate).toLocaleDateString()}
                   </div>
                 </div>
-                <Button asChild variant="outline" className="w-full">
-                  <Link to={`/resources/insights/${insight.slug}`}>
-                    Read More
-                    <ChevronRight className="w-4 h-4 ml-2" />
-                  </Link>
-                </Button>
+                {insight.href && (
+                  <Button asChild variant="outline" className="w-full">
+                    <Link to={insight.href}>
+                      Read Related Guide
+                    </Link>
+                  </Button>
+                )}
               </CardContent>
             </Card>
           ))}
