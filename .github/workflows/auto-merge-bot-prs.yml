@@ -1,0 +1,130 @@
+name: Auto-merge bot PRs
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - ready_for_review
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  statuses: read
+
+jobs:
+  auto-merge:
+    name: Auto-merge eligible bot PR
+    runs-on: ubuntu-latest
+    if: >
+      github.event.pull_request.user.login == 'bennyblair' &&
+      !github.event.pull_request.draft &&
+      (
+        startsWith(github.event.pull_request.head.ref, 'ai/llm-upgrade-') ||
+        startsWith(github.event.pull_request.head.ref, 'ai/daily-content-')
+      )
+    steps:
+      - name: Wait for checks and squash merge
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const headSha = pr.head.sha;
+            const headRef = pr.head.ref;
+            const allowedPrefixes = ['ai/llm-upgrade-', 'ai/daily-content-'];
+            const successConclusions = new Set(['success', 'neutral', 'skipped']);
+            const autoMergeNamePattern = /auto-merge/i;
+
+            if (pr.user.login !== 'bennyblair') {
+              core.setFailed(`Refusing to merge PR from unexpected author: ${pr.user.login}`);
+              return;
+            }
+
+            if (!allowedPrefixes.some((prefix) => headRef.startsWith(prefix))) {
+              core.setFailed(`Refusing to merge non-bot branch: ${headRef}`);
+              return;
+            }
+
+            async function getGateState() {
+              const [statuses, checks] = await Promise.all([
+                github.rest.repos.getCombinedStatusForRef({ owner, repo, ref: headSha }),
+                github.rest.checks.listForRef({ owner, repo, ref: headSha, per_page: 100 }),
+              ]);
+
+              const statusItems = statuses.data.statuses || [];
+              const checkItems = (checks.data.check_runs || []).filter((run) => {
+                const name = `${run.name || ''} ${run.check_suite?.app?.name || ''}`;
+                return !autoMergeNamePattern.test(name);
+              });
+
+              const pendingStatuses = statusItems.filter((status) => status.state === 'pending');
+              const failedStatuses = statusItems.filter((status) => !['success', 'pending'].includes(status.state));
+              const pendingChecks = checkItems.filter((run) => !run.completed_at);
+              const failedChecks = checkItems.filter((run) => run.completed_at && !successConclusions.has(run.conclusion));
+
+              return {
+                statusCount: statusItems.length,
+                checkCount: checkItems.length,
+                pendingStatuses,
+                failedStatuses,
+                pendingChecks,
+                failedChecks,
+                statusSummary: statusItems.map((status) => `${status.context}:${status.state}`),
+                checkSummary: checkItems.map((run) => `${run.name}:${run.status}/${run.conclusion || 'pending'}`),
+              };
+            }
+
+            const deadline = Date.now() + 45 * 60 * 1000;
+            let state;
+
+            while (Date.now() < deadline) {
+              state = await getGateState();
+              core.info(`Statuses: ${state.statusSummary.join(', ') || 'none'}`);
+              core.info(`Checks: ${state.checkSummary.join(', ') || 'none'}`);
+
+              if (state.failedStatuses.length || state.failedChecks.length) {
+                core.setFailed(`Required status/check failed for ${headSha}`);
+                return;
+              }
+
+              if (
+                (state.statusCount > 0 || state.checkCount > 0) &&
+                state.pendingStatuses.length === 0 &&
+                state.pendingChecks.length === 0
+              ) {
+                break;
+              }
+
+              await new Promise((resolve) => setTimeout(resolve, 30000));
+            }
+
+            if (!state || state.pendingStatuses.length || state.pendingChecks.length || (state.statusCount === 0 && state.checkCount === 0)) {
+              core.setFailed(`Timed out waiting for checks/statuses on ${headSha}`);
+              return;
+            }
+
+            await github.rest.pulls.merge({
+              owner,
+              repo,
+              pull_number: pr.number,
+              merge_method: 'squash',
+              commit_title: pr.title,
+            });
+
+            if (pr.head.repo.full_name === `${owner}/${repo}`) {
+              try {
+                await github.rest.git.deleteRef({
+                  owner,
+                  repo,
+                  ref: `heads/${headRef}`,
+                });
+                core.info(`Deleted branch ${headRef}`);
+              } catch (error) {
+                core.warning(`Merged PR but could not delete branch ${headRef}: ${error.message}`);
+              }
+            }
