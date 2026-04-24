@@ -85,6 +85,22 @@ Another mistake is chasing leverage too aggressively. Borrowers sometimes ask fo
 
 The third mistake is ignoring the property itself. If the asset is unusual, vacant, or in a weak location, a lender may need stronger borrower evidence or a different structure altogether. That is where a broker can help compare whether the right answer is low doc bank-style funding, [private lending](/resources/guides/what-is-private-lending-australia), or an [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance) solution instead.
 
+## How Emet Capital packages a low-doc commercial file
+
+A low-doc enquiry is stronger when it is presented as a complete commercial story, not just a missing-documents problem. Emet Capital usually starts by separating the facts that are already clear from the gaps that need lender tolerance.
+
+That means summarising the borrower entity, security property, requested facility, intended use of funds, available supporting documents, and planned exit. For property-backed deals, we also look at whether the structure resembles [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a short-term private lending bridge.
+
+| Packaging item | What it helps a lender understand |
+|---|---|
+| Business purpose | Why the money is needed and why timing matters |
+| Security summary | Property type, location, occupancy, and fallback strength |
+| Reduced-doc evidence | BAS, bank conduct, leases, contracts, or accountant context |
+| Exit plan | Refinance, sale, lease-up, project milestone, or debt reduction |
+| Risk mitigants | Lower leverage, extra equity, guarantor support, or staged funding |
+
+This structure does not guarantee approval. It simply gives a lender a clearer basis to decide whether the deal fits policy, pricing, and risk appetite.
+
 ## Worked example: refinancing a business owner with incomplete financials
 
 Assume a Sydney business owner has strong recent trading but delayed tax lodgements after a restructuring year. They own a commercial unit with usable equity and need to refinance an expensive short-term facility that was originally used to complete a purchase quickly.

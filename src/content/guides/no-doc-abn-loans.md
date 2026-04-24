@@ -79,6 +79,21 @@ The second risk is overestimating value or leverage. If the borrower expects the
 
 The third risk is using a specialist facility without a refinance plan. That can leave the borrower exposed to repeated extensions, higher holding costs, or pressure at maturity. For that reason, many business owners use no-doc lending only as a temporary step before moving to a more stable commercial facility.
 
+## No-doc ABN loan vs low-doc business finance
+
+The practical difference is the evidence set. Low-doc business finance usually still relies on some trading evidence, while no-doc-style commercial lending leans more heavily on the asset, equity position, and exit.
+
+For many borrowers, the better first question is not "Can I avoid documents?" It is "What evidence will make this transaction credible enough for a lender to assess?" If BAS and bank statements are available, a [low-doc business finance](/resources/guides/low-doc-business-finance) pathway may be more realistic. If the urgency is driven by a property settlement or debt maturity, a [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or [private lending](/resources/guides/what-is-private-lending-australia) structure may fit better.
+
+| Scenario | More likely pathway |
+|---|---|
+| BAS and recent bank statements available | Low-doc commercial assessment |
+| Strong commercial property equity but incomplete accounts | Property-backed specialist lending |
+| Urgent settlement with a defined refinance or sale exit | Short-term bridging or private lending |
+| No clear exit and weak security | Usually not suitable for no-doc funding |
+
+Emet Capital's role is to help business borrowers frame the file clearly before approaching lenders. That includes identifying whether the transaction is genuinely no-doc, reduced-doc, or simply a standard commercial loan with a timing issue.
+
 ## Worked example: short-term property-backed refinance
 
 Assume a business owner has a commercial unit with usable equity and needs to refinance a maturing private loan. Tax returns are delayed because the entity changed accountants and final financials are not yet ready.
