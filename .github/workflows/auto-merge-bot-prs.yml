@@ -108,6 +108,14 @@ jobs:
               return;
             }
 
+            await github.rest.pulls.createReview({
+              owner,
+              repo,
+              pull_number: pr.number,
+              event: 'APPROVE',
+              body: 'Auto-approval for eligible bot PR after required checks passed.',
+            });
+
             await github.rest.pulls.merge({
               owner,
               repo,
