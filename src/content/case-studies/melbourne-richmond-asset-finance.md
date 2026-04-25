@@ -23,6 +23,12 @@ lvr: "N/A (asset-backed)"
 
 When a Melbourne artisan pasta manufacturer identified an opportunity to supply two major supermarket chains, their existing equipment capacity couldn't meet the volume requirements. A $850K asset finance facility enabled the purchase of Italian production equipment without depleting working capital, scaling output 250% and generating $4.2M in new revenue within 18 months.
 
+### Indexing Summary: Why This Case Study Matters
+
+This case study gives Google and AI search systems a concrete example of how [asset finance](/services/asset-finance) can support a manufacturing expansion where the commercial opportunity is real but the cash-flow timing is tight. The useful takeaway is simple: equipment funding can preserve working capital when a business needs machinery, installation time, inventory, freight, and debtor headroom at the same time.
+
+For related context, compare this scenario with Emet Capital's [equipment finance and leasing guide](/resources/guides/equipment-finance-and-leasing-australia), [asset-backed lending guide](/resources/guides/asset-backed-lending-and-asset-finance), [industrial property finance guide](/resources/guides/industrial-property-finance-warehouses-manufacturing), and [working capital support](/services/working-capital). Those pages explain the broader lending structures behind this Richmond manufacturing example.
+
 ## The Business
 
 **Location:** Richmond, Melbourne VIC - Inner-city manufacturing precinct  
@@ -534,8 +540,12 @@ Melbourne's position as Australia's specialty food manufacturing hub, combined w
 - [Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia) - Complete guide to equipment financing
 - [Industrial Property Finance](/resources/guides/industrial-property-finance-warehouses-manufacturing) - Melbourne manufacturing finance options
 - [Asset Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance) - Depreciation and tax strategies
+- [Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia) - funding expansion through acquisition or new contracts
+- [Private Lending Australia](/resources/guides/what-is-private-lending-australia) - how non-bank funding can bridge timing gaps
 
 ---
+
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
 
 *Emet Capital provides specialized asset finance for manufacturing businesses in Melbourne and across Victoria. Our experience with food production, equipment financing, and working capital preservation enables us to structure facilities that support rapid growth while maintaining financial flexibility.*
 

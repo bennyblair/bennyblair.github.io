@@ -36,6 +36,12 @@ This guide examines how startups and first-time buyers can successfully navigate
 | **When this is appropriate** | When purchasing your first commercial property |
 | **When it's NOT appropriate** | For experienced investors with established portfolios |
 
+### Quick Qualification Snapshot for Startup Commercial Property Buyers
+
+Startup borrowers usually need to prove three things before a lender will seriously assess a commercial property purchase: enough borrower equity, a credible path to loan servicing, and a property that could be sold or leased if the business plan changes. The trading history gap does not automatically stop an approval, but it does shift the assessment toward deposit strength, director background, existing assets, and whether the property is a sensible commercial security.
+
+For a first-time buyer, the cleanest application normally shows a specific property use case, conservative cash-flow assumptions, current tax and BAS records where available, and a fallback plan if revenue takes longer than expected. If the business is also funding equipment, stock, or fit-out, compare the property facility with [equipment finance and leasing options](/resources/guides/equipment-finance-and-leasing-australia) and [working capital funding structures](/services/working-capital) so the property purchase does not consume the operating cash needed to make the site productive.
+
 ---
 
 ## Understanding Lending Criteria for Startup Borrowers

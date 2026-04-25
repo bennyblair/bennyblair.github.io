@@ -1197,12 +1197,12 @@
     "sourcePath": "src/content/guides/unsecured-private-lenders-for-business-growth.md"
   },
   "/resources/guides/urgent-caveat-loans": {
-    "title": "Urgent Caveat Loans: Get Approved in 24-48 Hours | Emet Capital",
-    "description": "Need urgent funding? Urgent caveat loans can be approved in 24-48 hours. Learn how fast caveat finance works, eligibility, costs & when to use it.",
+    "title": "Urgent Caveat Loans: When 24-48 Hour Assessment May Be Possible | Emet Capital",
+    "description": "Need urgent funding? Urgent caveat loans may be assessed quickly where property, documents, and exit are clear. Learn how urgent caveat finance works, eligibility, costs & when to use it.",
     "keywords": "urgent caveat loans, fast caveat finance, emergency business funding, 24 hour property loan, quick commercial finance Australia",
     "canonical": "https://emetcapital.com.au/resources/guides/urgent-caveat-loans",
-    "h1": "Urgent Caveat Loans: Get Approved in 24-48 Hours",
-    "noscript": "Need urgent funding? Urgent caveat loans can be approved in 24-48 hours. Learn how fast caveat finance works, eligibility, costs & when to use it.",
+    "h1": "Urgent Caveat Loans: When 24-48 Hour Assessment May Be Possible",
+    "noscript": "Need urgent funding? Urgent caveat loans may be assessed quickly where property, documents, and exit are clear. Learn how urgent caveat finance works, eligibility, costs & when to use it.",
     "sourcePath": "src/content/guides/urgent-caveat-loans.md"
   },
   "/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for": {
@@ -1648,11 +1648,11 @@
   },
   "/services/first-second-mortgages": {
     "title": "Commercial 1st & 2nd Mortgages Australia | Emet Capital",
-    "description": "Secure commercial first and second mortgages from $100K-$50M+. Fast approval, competitive rates, flexible terms for business property finance.",
+    "description": "Commercial first and second mortgage finance for business-purpose property-backed loans, equity release, refinance transitions, and short-term funding structures.",
     "keywords": "commercial mortgage, first mortgage, second mortgage, commercial property finance, business property loans",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages",
     "h1": "Commercial 1st & 2nd Mortgages",
-    "noscript": "Secure commercial first and second mortgages from $100K-$50M+. Fast approval, competitive rates, flexible terms for business property finance.",
+    "noscript": "Commercial first and second mortgage finance for business-purpose property-backed loans, equity release, refinance transitions, and short-term funding structures.",
     "sourcePath": "src/pages/services/FirstSecondMortgages.tsx"
   },
   "/services/commercial-property-development": {
@@ -1675,20 +1675,29 @@
   },
   "/services/bridging-finance": {
     "title": "Bridging Finance Australia | Short-Term Property Loans | Emet Capital",
-    "description": "Fast bridging loans for property purchases, auctions, and time-sensitive opportunities. Approval in 24-48 hours, settlements within 7-14 days.",
+    "description": "Bridging finance for commercial property purchases, urgent settlement pressure, auctions, and refinance timing gaps. Timing depends on security, documents, and lender assessment.",
     "keywords": "bridging finance, bridging loans, short term property loans, auction finance, settlement bridge loans",
     "canonical": "https://emetcapital.com.au/services/bridging-finance",
     "h1": "Bridging Loans Australia",
-    "noscript": "Fast bridging loans for property purchases, auctions, and time-sensitive opportunities. Approval in 24-48 hours, settlements within 7-14 days.",
+    "noscript": "Bridging finance for commercial property purchases, urgent settlement pressure, auctions, and refinance timing gaps. Timing depends on security, documents, and lender assessment.",
     "sourcePath": "src/pages/services/BridgingFinance.tsx"
   },
+  "/services/commercial-property-finance": {
+    "title": "Urgent Commercial Property Settlement Finance Australia | Emet Capital",
+    "description": "Commercial property finance for urgent settlements, bank delays, business premises purchases, and short-term property-backed funding. General information only.",
+    "keywords": "commercial property finance, urgent commercial property settlement, business premises finance, private lending, bridging finance, caveat loans",
+    "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+    "h1": "Urgent Commercial Property Settlement Finance",
+    "noscript": "Commercial property finance for urgent settlements, bank delays, business premises purchases, and short-term property-backed funding. General information only.",
+    "sourcePath": "src/pages/services/CommercialPropertyFinance.tsx"
+  },
   "/services/refinancing-solutions": {
-    "title": "Commercial Refinancing Solutions Australia | Emet Capital",
-    "description": "Refinance commercial property loans and business finance with better rates, improved terms, and access to equity across Australia.",
-    "keywords": "commercial refinancing, loan refinancing, business finance, property refinancing, debt refinancing",
+    "title": "Commercial Property Refinance Broker Australia | Emet Capital",
+    "description": "Commercial property refinance broker support for business-purpose property debt, bank-decline refinance scenarios, equity release, and bridge-to-refinance pathways.",
+    "keywords": "commercial property refinance broker, commercial refinancing, bank decline refinance, business property refinance, commercial mortgage refinance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions",
-    "h1": "Commercial Refinancing Solutions",
-    "noscript": "Refinance commercial property loans and business finance with better rates, improved terms, and access to equity across Australia.",
+    "h1": "Commercial Property Refinance Broker",
+    "noscript": "Commercial property refinance broker support for business-purpose property debt, bank-decline refinance scenarios, equity release, and bridge-to-refinance pathways.",
     "sourcePath": "src/pages/services/RefinancingSolutions.tsx"
   },
   "/services/equipment-finance": {
@@ -1729,11 +1738,11 @@
   },
   "/services/private-lending": {
     "title": "Private Lending | Non-Bank Commercial Loans Australia | Emet Capital",
-    "description": "Access private lending from $100K-$50M+ with flexible terms and fast approval for commercial property and business finance across Australia.",
+    "description": "Private lending broker support for business-purpose loans, commercial property finance, non-bank lending, and alternative funding after bank rejection.",
     "keywords": "private lending, alternative finance, private credit, non-bank lending, commercial finance",
     "canonical": "https://emetcapital.com.au/services/private-lending",
     "h1": "Private Lending Solutions",
-    "noscript": "Access private lending from $100K-$50M+ with flexible terms and fast approval for commercial property and business finance across Australia.",
+    "noscript": "Private lending broker support for business-purpose loans, commercial property finance, non-bank lending, and alternative funding after bank rejection.",
     "sourcePath": "src/pages/services/PrivateLending.tsx"
   },
   "/services/smsf-lending": {
