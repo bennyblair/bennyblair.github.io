@@ -17,7 +17,7 @@ const BridgingFinance = () => {
     },
     {
       question: "How fast can approval take?",
-      answer: "Initial assessments typically within 24-48 hours for straightforward applications. Settlement can occur within 5-10 business days depending on property valuation and documentation."
+      answer: "An initial assessment may be possible within 24-48 hours where the security, documents, purpose, and exit are clear. Settlement timing depends on valuation, legal requirements, lender appetite, and borrower readiness."
     },
     {
       question: "Are these loans available Australia-wide?",
@@ -33,7 +33,7 @@ const BridgingFinance = () => {
     <>
       <SEO 
         title="Bridging Finance Australia | Short-Term Property Loans | Emet Capital"
-        description="Fast bridging loans for property purchases, auctions, and time-sensitive opportunities. Approval in 24-48 hours, settlements within 7-14 days."
+        description="Bridging finance for commercial property purchases, urgent settlement pressure, auctions, and refinance timing gaps. Timing depends on security, documents, and lender assessment."
         canonical="/services/bridging-finance"
         keywords="bridging finance, bridging loans, short term property loans, auction finance, settlement bridge loans"
         schemas={[generateServiceSchema(
@@ -104,7 +104,7 @@ const BridgingFinance = () => {
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist bridging lenders, and private capital providers. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in short-term property finance. We match clients with lenders offering competitive rates and structures aligned with property transaction timing and exit strategies.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through rapid approval processes essential for time-sensitive property transactions. Our expertise includes security structuring, exit strategy planning, and coordination with property settlements. Approval timeframes are significantly faster than traditional property finance, with streamlined processes enabling quick decision-making. We structure flexible arrangements accommodating diverse property scenarios and business circumstances, ensuring successful property acquisition within tight timeframes.
+                We guide clients through assessment processes for time-sensitive property transactions. Our expertise includes security structuring, exit strategy planning, and coordination with property settlements. Timing depends on the transaction and lender requirements, so we focus on presenting complete files and matching borrowers with lenders that can assess the scenario appropriately.
               </p>
             </section>
 
@@ -163,7 +163,7 @@ const BridgingFinance = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Rapid assessment and approval processes designed for time-sensitive property transactions. Broker expertise ensures efficient documentation and quick settlement coordination.
+                      Assessment pathways designed for time-sensitive property transactions. Broker expertise supports efficient documentation and settlement coordination where the file is suitable.
                     </p>
                   </CardContent>
                 </Card>
@@ -177,7 +177,7 @@ const BridgingFinance = () => {
                 Eligibility requires business purpose (no consumer lending), property security with adequate valuation, clear exit strategy demonstrating repayment capacity, and appropriate business structure where applicable. Documentation includes property details, exit strategy evidence (sale contracts or refinancing capacity), and business information. Both property investors and business owners with commercial property needs are considered.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                To proceed, contact our team for immediate assessment. Time-sensitive property transactions require rapid response, and we prioritize quick turnaround for bridging finance enquiries. We'll evaluate your property transaction, exit strategy, and security to identify optimal lender options and expedite approval processes.
+                To proceed, contact our team for an initial assessment. Time-sensitive property transactions require clear facts early, so we'll review your property transaction, exit strategy, and security to identify suitable lender options and next steps.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -223,8 +223,8 @@ const BridgingFinance = () => {
                 href="/resources/guides/best-bridging-loan-lenders-companies-2025"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
-                <h3 className="font-semibold text-foreground mb-2">Best Bridging Loan Lenders 2025</h3>
-                <p className="text-sm text-muted-foreground mb-2">Compare rates, LVRs, and approval speeds across Australia's top bridging finance providers.</p>
+                <h3 className="font-semibold text-foreground mb-2">Bridging Loan Lenders Guide</h3>
+                <p className="text-sm text-muted-foreground mb-2">Compare lender types, criteria, security, and timing considerations for bridging finance.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -254,7 +254,7 @@ const BridgingFinance = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Short-Term Property Loans</h3>
-                <p className="text-sm text-muted-foreground mb-2">When you need finance in days rather than weeks—fast approval pathways explained.</p>
+                <p className="text-sm text-muted-foreground mb-2">Short-term property funding options when timing and exit planning matter.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -271,7 +271,7 @@ const BridgingFinance = () => {
           <RelatedReading articles={[
             { title: "Bridging Finance Australia: Complete Property Guide", slug: "bridging-finance-australia-complete-property-guide", description: "Comprehensive guide to bridging loans for property investors and developers" },
             { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-finance-auction-purchases", description: "How to secure auction properties with fast bridging finance" },
-            { title: "Short-Term Property Loans: When You Need Fast Finance", slug: "short-term-property-loans-when-you-need-fast-finance", description: "Understanding when short-term property finance is the right solution" }
+            { title: "Bridging Finance Sydney: 48-Hour Settlement Reality Check", slug: "bridging-finance-sydney-48-hour-settlement-possible", description: "When urgent Sydney bridging finance may be realistic and what lenders need" }
           ] as RelatedArticle[]} />
 
           {/* City-Specific Pages */}
@@ -361,11 +361,11 @@ const BridgingFinance = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">1st & 2nd Mortgages</CardTitle>
+                  <CardTitle className="text-lg">Commercial Property Finance</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Long-term commercial property finance solutions</p>
-                  <Link to="/services/first-second-mortgages" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Commercial property settlement, purchase, and refinance structures</p>
+                  <Link to="/services/commercial-property-finance" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

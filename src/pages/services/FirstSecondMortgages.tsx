@@ -18,7 +18,15 @@ const FirstSecondMortgages = () => {
     },
     {
       question: "How fast can approval take?",
-      answer: "Initial assessments typically within 24-48 hours for straightforward applications. Full approval and settlement timeframes depend on property valuation and documentation completeness."
+      answer: "An initial assessment may be possible quickly where the property, borrower, purpose, and documents are clear. Full approval and settlement timeframes depend on valuation, lender appetite, legal work, and documentation completeness."
+    },
+    {
+      question: "When is a second mortgage used instead of a first mortgage?",
+      answer: "A second mortgage may be considered when a borrower wants to access property equity without disturbing an existing first mortgage. It can suit business-purpose funding, but pricing, consent, and combined loan-to-value risk need careful review."
+    },
+    {
+      question: "How is a second mortgage different from a caveat loan?",
+      answer: "A second mortgage is usually a registered mortgage behind an existing lender, while a caveat loan uses a caveat interest and may be used for shorter, more urgent scenarios. The right structure depends on timing, security, existing debt, and exit."
     },
     {
       question: "Are these loans available Australia-wide?",
@@ -36,7 +44,7 @@ const FirstSecondMortgages = () => {
         <title>Commercial 1st & 2nd Mortgages Australia | Emet Capital</title>
         <meta 
           name="description" 
-          content="Secure commercial first and second mortgages from $100K-$50M+. Fast approval, competitive rates, flexible terms for business property finance." 
+          content="Commercial first and second mortgage finance for business-purpose property-backed loans, equity release, refinance transitions, and short-term funding structures." 
         />
         <meta name="keywords" content="commercial mortgage, first mortgage, second mortgage, commercial property finance, business property loans" />
         <link rel="canonical" href="https://emetcapital.com.au/services/first-second-mortgages" />
@@ -73,7 +81,7 @@ const FirstSecondMortgages = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Commercial Mortgage Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Commercial mortgage finance provides property-backed funding for business purposes through first and second mortgage positions. First mortgages represent primary security over commercial property, typically offering the most competitive rates and terms. Second mortgages provide additional funding against existing property equity without refinancing existing facilities, enabling businesses to access capital while preserving favorable first mortgage arrangements.
+                Commercial mortgage finance provides property-backed funding for business purposes through first and second mortgage positions. First mortgages represent primary security over commercial property and are often used for acquisitions, refinances, and longer-term property-backed facilities. Second mortgages provide additional funding against existing property equity without refinancing existing facilities, enabling businesses to access capital while preserving existing first mortgage arrangements where appropriate.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 These facilities support property acquisition, business expansion, asset consolidation, and working capital requirements. Lending is secured against commercial real estate including office buildings, retail premises, industrial facilities, warehouses, and investment properties. Both owner-occupied and investment properties qualify, with loan structures tailored to business cash flow and property characteristics.
@@ -98,8 +106,40 @@ const FirstSecondMortgages = () => {
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, regional lenders, and private capital providers. Our lender relationships encompass traditional institutions and non-bank alternatives, enabling competitive rate comparisons and optimal structure selection. We specialize in property-backed lending options that align with your business objectives and property portfolio strategy.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through the entire finance process, from initial assessment and lender selection through documentation preparation and settlement. Our expertise includes both first and second mortgage positioning, enabling strategic capital structuring. Approval timeframes are significantly faster than direct bank applications, with streamlined processes and experienced guidance throughout. We structure flexible arrangements compared to traditional bank constraints, accommodating diverse business and property scenarios.
+                We guide clients through the finance process, from initial assessment and lender selection through documentation preparation and settlement. Our expertise includes both first and second mortgage positioning, enabling strategic capital structuring. Timeframes depend on the security, valuation, consent requirements, and lender appetite, so we focus on packaging the file clearly and matching it to lenders that fit the transaction.
               </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">First Mortgage vs Second Mortgage vs Caveat Loan</h2>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left py-3 pr-4 font-semibold">Structure</th>
+                      <th className="text-left py-3 pr-4 font-semibold">Typical Use</th>
+                      <th className="text-left py-3 pr-4 font-semibold">Key Consideration</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-muted-foreground">
+                    <tr className="border-b">
+                      <td className="py-3 pr-4 font-medium text-foreground">First mortgage</td>
+                      <td className="py-3 pr-4">Primary property-backed business loan, purchase, refinance, or equity release.</td>
+                      <td className="py-3 pr-4">Usually needs the clearest security position and formal valuation pathway.</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="py-3 pr-4 font-medium text-foreground">Second mortgage</td>
+                      <td className="py-3 pr-4">Access additional equity without replacing the first mortgage.</td>
+                      <td className="py-3 pr-4">Combined leverage, first lender consent, and exit strategy matter.</td>
+                    </tr>
+                    <tr>
+                      <td className="py-3 pr-4 font-medium text-foreground">Caveat loan</td>
+                      <td className="py-3 pr-4">Shorter-term urgent property-backed business funding.</td>
+                      <td className="py-3 pr-4">Often higher cost and more time-sensitive; not a substitute for a weak exit.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </section>
 
             {/* Key features & benefits */}
@@ -157,7 +197,7 @@ const FirstSecondMortgages = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Efficient documentation requirements and faster approval pathways through broker expertise. Professional valuations arranged and alternative documentation options available depending on lender and circumstances.
+                      Efficient documentation pathways through broker-led file packaging. Professional valuations arranged and alternative documentation options may be available depending on lender and circumstances.
                     </p>
                   </CardContent>
                 </Card>
@@ -218,7 +258,7 @@ const FirstSecondMortgages = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Second Mortgage Lenders Directory</h3>
-                <p className="text-sm text-muted-foreground mb-2">Compare Australian second mortgage providers with rates and criteria.</p>
+                <p className="text-sm text-muted-foreground mb-2">Compare Australian second mortgage providers, structures, and assessment criteria.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -239,6 +279,16 @@ const FirstSecondMortgages = () => {
               >
                 <h3 className="font-semibold text-foreground mb-2">Bad Credit Second Mortgages</h3>
                 <p className="text-sm text-muted-foreground mb-2">Qualifying options when credit history may limit your choices.</p>
+                <span className="text-accent text-sm inline-flex items-center">
+                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                </span>
+              </a>
+              <a 
+                href="/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you"
+                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+              >
+                <h3 className="font-semibold text-foreground mb-2">Caveat Loan vs Second Mortgage</h3>
+                <p className="text-sm text-muted-foreground mb-2">Compare urgent caveat funding with second mortgage structures.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -271,14 +321,26 @@ const FirstSecondMortgages = () => {
           {/* Related Services */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Bridging Finance</CardTitle>
+                  <CardTitle className="text-lg">Commercial Property Finance</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Short-term property finance for immediate funding needs</p>
-                  <Link to="/services/bridging-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Short-term property finance for timing gaps and settlement pressure</p>
+                  <Link to="/services/commercial-property-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Commercial Property Finance <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Caveat Loans</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Urgent property-backed business funding where timing is compressed</p>
+                  <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
@@ -286,11 +348,11 @@ const FirstSecondMortgages = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Refinancing Solutions</CardTitle>
+                  <CardTitle className="text-lg">Private Lending</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Optimize existing facilities with better rates and terms</p>
-                  <Link to="/services/refinancing-solutions" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Non-bank and private credit for property-backed business scenarios</p>
+                  <Link to="/services/private-lending" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
@@ -298,11 +360,11 @@ const FirstSecondMortgages = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Property Development</CardTitle>
+                  <CardTitle className="text-lg">Asset-Backed Lending</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Construction and development finance for projects</p>
-                  <Link to="/services/commercial-property-development" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Business loans secured by property, equipment, receivables, or other assets</p>
+                  <Link to="/services/asset-backed-lending" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

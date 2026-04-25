@@ -31,6 +31,7 @@ const Terms = lazy(() => import("./pages/Terms"));
 const PrivateLending = lazy(() => import("./pages/services/PrivateLending"));
 const AssetBackedLending = lazy(() => import("./pages/services/AssetBackedLending"));
 const BridgingFinance = lazy(() => import("./pages/services/BridgingFinance"));
+const CommercialPropertyFinance = lazy(() => import("./pages/services/CommercialPropertyFinance"));
 const AssetFinance = lazy(() => import("./pages/services/AssetFinance"));
 const CommercialPropertyDevelopment = lazy(() => import("./pages/services/CommercialPropertyDevelopment"));
 const WorkingCapital = lazy(() => import("./pages/services/WorkingCapital"));
@@ -215,6 +216,7 @@ const App = () => (
                 <Route path="/services/commercial-property-development" element={<CommercialPropertyDevelopment />} />
                 <Route path="/services/working-capital" element={<WorkingCapital />} />
                 <Route path="/services/bridging-finance" element={<BridgingFinance />} />
+                <Route path="/services/commercial-property-finance" element={<CommercialPropertyFinance />} />
                 <Route path="/services/refinancing-solutions" element={<RefinancingSolutions />} />
                 <Route path="/services/equipment-finance" element={<EquipmentFinance />} />
                 <Route path="/services/business-acquisition" element={<BusinessAcquisition />} />

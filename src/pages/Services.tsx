@@ -47,6 +47,13 @@ const Services = () => {
       description: 'Comprehensive property financing solutions',
       services: [
         {
+          title: 'Commercial Property Finance',
+          description: 'Commercial property loans and urgent settlement finance',
+          link: '/services/commercial-property-finance',
+          loanRange: '$100K - $50M+',
+          terms: 'Short and long-term'
+        },
+        {
           title: '1st & 2nd Mortgages',
           description: 'Primary and secondary mortgage financing',
           link: '/services/first-second-mortgages',
@@ -170,8 +177,8 @@ const Services = () => {
       answer: "A commercial loan is financing designed for business purposes, including property development, equipment purchases, working capital, and business expansion. Unlike personal loans, commercial loans are secured against business assets or property."
     },
     {
-      question: "How fast can I get approved for commercial finance?",
-      answer: "Approval times vary by loan type and complexity. Simple working capital loans can be approved within 24-48 hours, while complex development finance may take 2-4 weeks. Our streamlined process ensures the fastest possible approvals."
+      question: "How quickly can commercial finance be assessed?",
+      answer: "Assessment times vary by loan type, security, documentation, and lender appetite. Some simple files may be assessed quickly where documents are complete, while complex development or property finance can take several weeks."
     },
     {
       question: "Do you work with private lenders?",
@@ -316,7 +323,7 @@ const Services = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                <span>Fast approvals with private lending options</span>
+                  <span>Faster assessment may be possible with private lending options</span>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
@@ -750,7 +757,8 @@ const Services = () => {
                   <div className="space-y-2 text-sm">
                     <Link to="/services/commercial-property-development" className="block text-accent hover:underline">Commercial property development finance</Link>
                     <Link to="/services/bridging-finance" className="block text-accent hover:underline">Bridging finance</Link>
-                    <Link to="/services/refinancing-solutions" className="block text-accent hover:underline">Refinancing solutions</Link>
+                <Link to="/services/commercial-property-finance" className="block text-accent hover:underline">Commercial property finance</Link>
+                <Link to="/services/refinancing-solutions" className="block text-accent hover:underline">Refinancing solutions</Link>
                   </div>
                 </CardContent>
               </Card>

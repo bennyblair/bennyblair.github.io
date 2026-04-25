@@ -18,7 +18,15 @@ const AssetBackedLending = () => {
     },
     {
       question: "How fast can asset-backed lending be approved?",
-      answer: "Timeframes vary based on asset type and valuation requirements. Simple equipment-backed loans may approve within 48-72 hours, while property-backed facilities may require 2-4 weeks."
+      answer: "Timeframes vary based on asset type, valuation requirements, documents, and lender appetite. Some simpler files can be assessed quickly, while property-backed facilities may require more time for valuation and legal checks."
+    },
+    {
+      question: "Can asset-backed lending be used for a short-term property-backed business loan?",
+      answer: "Yes, eligible business-purpose borrowers may use property or other assets as security for short-term business funding, subject to equity, purpose, lender appetite, and a credible repayment path."
+    },
+    {
+      question: "What makes a property-backed business loan risky?",
+      answer: "Risk increases when the exit is unclear, leverage is high, documents are incomplete, or the loan is being used to mask an ongoing cash flow problem rather than solve a defined timing issue."
     },
     {
       question: "Are these solutions available Australia-wide?",
@@ -85,6 +93,21 @@ const AssetBackedLending = () => {
               </p>
             </section>
 
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Short-Term Property-Backed Business Loans</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A short-term property-backed business loan is a form of asset-backed lending where real
+                property supports a defined business-purpose funding need. It may be considered for working
+                capital timing gaps, settlement shortfalls, creditor pressure, refinance transitions, or
+                business opportunities where a clear repayment event is expected.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                These facilities are not a replacement for sustainable cash flow or long-term debt planning.
+                Lenders will usually focus on the security value, existing debt, business purpose, requested
+                term, and exit strategy before deciding whether the scenario fits.
+              </p>
+            </section>
+
             {/* Who this service is for */}
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
@@ -103,7 +126,7 @@ const AssetBackedLending = () => {
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist asset financiers, and alternative funders. Our lender relationships encompass institutions specializing in various asset types from property to equipment, inventory, and receivables. We match clients with lenders offering appropriate asset-backed structures, competitive pricing relative to security strength, and terms aligned with business operations and asset characteristics.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through asset assessment, valuation coordination, and application processes. Our expertise includes optimizing security structures, combining multiple asset types, and structuring arrangements for favorable loan-to-value outcomes. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance. We structure flexible arrangements compared to traditional constraints, accommodating diverse asset types and business models.
+                We guide clients through asset assessment, valuation coordination, and application processes. Our expertise includes optimizing security structures, combining multiple asset types, and structuring arrangements for suitable loan-to-value outcomes. Timeframes depend on asset type, valuation, and lender requirements, so we focus on complete file preparation and lender fit.
               </p>
             </section>
 
@@ -243,7 +266,7 @@ const AssetBackedLending = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Caveat Loans Guide</h3>
-                <p className="text-sm text-muted-foreground mb-2">Fast property-secured finance using caveat arrangements.</p>
+                <p className="text-sm text-muted-foreground mb-2">Property-secured finance using caveat arrangements where timing is compressed.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -259,6 +282,7 @@ const AssetBackedLending = () => {
           {/* Related Reading */}
           <RelatedReading articles={[
             { title: "Asset-Backed Lending and Asset Finance Guide", slug: "asset-backed-lending-and-asset-finance", description: "Comprehensive overview of asset-backed lending options for businesses" },
+            { title: "Short-Term Property Loans: When You Need Fast Finance", slug: "short-term-property-loans-when-you-need-fast-finance", description: "How short-term property-backed structures are assessed" },
             { title: "First Mortgage Loans: Primary Property Finance", slug: "first-mortgage-loans-primary-property-finance", description: "Understanding first mortgage positions and their advantages" }
           ] as RelatedArticle[]} />
 
@@ -268,11 +292,11 @@ const AssetBackedLending = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Asset Finance</CardTitle>
+                  <CardTitle className="text-lg">Private Lending</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Comprehensive business asset and equipment funding</p>
-                  <Link to="/services/asset-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Non-bank business-purpose lending using property or other security</p>
+                  <Link to="/services/private-lending" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
@@ -280,11 +304,11 @@ const AssetBackedLending = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Equipment Finance</CardTitle>
+                  <CardTitle className="text-lg">Caveat Loans</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Machinery and equipment acquisition funding</p>
-                  <Link to="/services/equipment-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Short-term property-backed business funding where the file fits</p>
+                  <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

@@ -176,7 +176,7 @@ const CaveatLoans = () => {
                 Eligibility requires business purpose (no consumer lending), property with sufficient equity for security, clear exit strategy for loan repayment, and capacity to service short-term debt. Documentation is streamlined but includes property evidence, business purpose confirmation, and exit plan. Security requirements focus on property equity and clear title, with rapid valuation processes supporting fast settlement.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                To proceed, contact our team immediately for urgent assessment. We'll evaluate your funding requirements, property security, and exit strategy to identify optimal caveat solutions. Our process includes rapid property assessment, lender selection, and guidance through to settlement within 24-72 hours where urgency demands.
+                To proceed, contact our team for urgent assessment. We'll evaluate your funding requirements, property security, and exit strategy to identify suitable caveat options. Our process includes property assessment, lender selection, and guidance through to settlement where the file, title, documentation, and legal timing support a compressed pathway.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">

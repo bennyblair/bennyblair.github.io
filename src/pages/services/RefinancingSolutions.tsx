@@ -5,7 +5,6 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { BookOpen, Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
-import { Helmet } from "react-helmet-async";
 import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
@@ -21,6 +20,14 @@ const RefinancingSolutions = () => {
       answer: "Timeframes vary based on loan type and security. Simple refinances may settle within 3-6 weeks, while complex commercial property refinances may require 6-12 weeks depending on valuation and documentation."
     },
     {
+      question: "Can I refinance after a bank decline?",
+      answer: "It may be possible if the decline was caused by lender policy, timing, property type, income presentation, or file structure. The transaction still needs adequate security, serviceability or exit, and a clear commercial rationale."
+    },
+    {
+      question: "What does a commercial property refinance broker do?",
+      answer: "A broker helps assess the existing debt, property security, borrower position, exit costs, lender appetite, and whether a direct refinance or short-term bridge-to-refinance is more realistic."
+    },
+    {
       question: "Are refinancing solutions available Australia-wide?",
       answer: "Yes, commercial refinancing is available for businesses and property investors across all Australian states and territories through our national lender network."
     },
@@ -32,15 +39,17 @@ const RefinancingSolutions = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Commercial Refinancing Solutions Australia | Emet Capital</title>
-        <meta 
-          name="description" 
-          content="Refinance commercial property loans and business finance with better rates, improved terms, and access to equity across Australia." 
-        />
-        <meta name="keywords" content="commercial refinancing, loan refinancing, business finance, property refinancing, debt refinancing" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/refinancing-solutions" />
-      </Helmet>
+      <SEO
+        title="Commercial Property Refinance Broker Australia | Emet Capital"
+        description="Commercial property refinance broker support for business-purpose property debt, bank-decline refinance scenarios, equity release, and bridge-to-refinance pathways."
+        canonical="/services/refinancing-solutions"
+        keywords="commercial property refinance broker, commercial refinancing, bank decline refinance, business property refinance, commercial mortgage refinance"
+        schemas={[generateServiceSchema(
+          "Commercial Property Refinance Broker",
+          "Commercial property refinance support for business-purpose property debt, bank-decline scenarios, equity release, and bridge-to-refinance pathways.",
+          "https://emetcapital.com.au/services/refinancing-solutions"
+        )]}
+      />
       
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4">
@@ -52,9 +61,9 @@ const RefinancingSolutions = () => {
 
           {/* Hero Section */}
           <div className="text-center max-w-4xl mx-auto mb-16">
-            <Badge className="mb-4 bg-accent/10 text-accent">Better Rates & Terms</Badge>
+            <Badge className="mb-4 bg-accent/10 text-accent">Commercial Property Refinance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Commercial Refinancing Solutions
+              Commercial Property Refinance Broker
             </h1>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -78,10 +87,24 @@ const RefinancingSolutions = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Commercial Refinancing?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Commercial refinancing replaces existing business or property loans with new facilities offering improved terms, better rates, or enhanced features. Businesses and investors refinance to reduce interest costs, access equity for growth or investment, consolidate multiple debts, or transition from restrictive bank facilities to more flexible alternatives. Refinancing applies to commercial property mortgages, business loans, equipment finance, and investment property debt.
+                Commercial refinancing replaces existing business or property loans with new facilities that may better fit the borrower's security, purpose, cash flow, or exit plan. Businesses and investors refinance to review pricing, access equity for business use, consolidate debt, manage maturity dates, or transition from restrictive bank facilities to more suitable alternatives. Refinancing applies to commercial property mortgages, business loans, equipment finance, and investment property debt.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Refinancing structures include straight rate-and-term refinances maintaining similar loan amounts with improved pricing, cash-out refinances releasing equity for business use, and debt consolidation refinances combining multiple facilities. Security typically involves commercial or investment property, though business assets may support certain refinancing arrangements. Repayment terms range from short-term facilities to long-term mortgages depending on purpose and security type.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Refinancing After a Bank Decline</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A bank rejection can happen because the property, income, lease profile, loan size, timing,
+                or borrower structure does not fit that lender's policy. That does not automatically mean
+                the refinance is impossible, but the file needs a clear diagnosis before it is resubmitted.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Emet Capital helps borrowers compare direct refinance, non-bank refinance, private lending,
+                and bridge-to-refinance pathways. The right option depends on security, valuation, exit,
+                conduct, and whether the issue is temporary or structural.
               </p>
             </section>
 
@@ -103,7 +126,7 @@ const RefinancingSolutions = () => {
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist commercial lenders, and alternative funders. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in commercial property and business lending. We match clients with lenders offering appropriate refinancing structures, competitive pricing, and terms aligned with business objectives and property portfolios.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through refinancing assessment, lender comparison, and application processes. Our expertise includes analyzing exit costs versus refinancing benefits, coordinating valuations, and structuring arrangements for optimal outcomes. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance. We structure flexible arrangements compared to traditional bank constraints, accommodating diverse property types and business models.
+                We guide clients through refinancing assessment, lender comparison, and application processes. Our expertise includes analysing exit costs versus refinancing benefits, coordinating valuations, and structuring arrangements that fit the commercial objective. We focus on lender fit and file quality rather than promising outcomes, especially where the borrower is recovering from a decline or refinancing out of short-term debt.
               </p>
             </section>
 
@@ -134,7 +157,7 @@ const RefinancingSolutions = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Reducing interest costs, accessing equity for growth, consolidating debts, transitioning lenders, or improving loan features and flexibility.
+                      Reviewing existing property debt, accessing equity for business use, consolidating debts, transitioning lenders, bank-decline recovery, or bridging into a longer-term refinance.
                     </p>
                   </CardContent>
                 </Card>
@@ -195,21 +218,21 @@ const RefinancingSolutions = () => {
                 Guides & Resources
               </h2>
               <p className="text-muted-foreground mb-6">
-                Explore our in-depth guides to learn more about this financing option before you apply.
+                Explore our in-depth guides on refinance strategy, bank-decline recovery, and commercial property lending.
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
 
               {/* Pillar Guide - Featured */}
               <div className="md:col-span-2 lg:col-span-3">
                 <a 
-                  href="/resources/guides/working-capital-loans-for-smes"
+                  href="/resources/guides/commercial-property-refinancing-solutions"
                   className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
                 >
                   <div className="flex items-start gap-4">
                     <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="text-xl font-semibold text-foreground mb-2">Working Capital Loans Guide</h3>
-                      <p className="text-muted-foreground mb-3">Comprehensive guide to business funding including refinancing strategies and debt restructuring.</p>
+                      <h3 className="text-xl font-semibold text-foreground mb-2">Commercial Property Refinancing Guide</h3>
+                      <p className="text-muted-foreground mb-3">Guide to refinance structures, lender assessment, equity release, timing, and risk considerations.</p>
                       <span className="text-accent font-medium inline-flex items-center">
                         Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
                       </span>
@@ -219,21 +242,21 @@ const RefinancingSolutions = () => {
               </div>
 
               <a 
-                href="/resources/guides/commercial-property-refinancing-solutions"
+                href="/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
-                <h3 className="font-semibold text-foreground mb-2">Commercial Refinancing Solutions</h3>
-                <p className="text-sm text-muted-foreground mb-2">Restructuring existing commercial property debt for better terms.</p>
+                <h3 className="font-semibold text-foreground mb-2">Refinance After a Bank Decline</h3>
+                <p className="text-sm text-muted-foreground mb-2">How to diagnose a declined refinance and compare alternative lender paths.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
               </a>
               <a 
-                href="/resources/guides/business-debt-consolidation-australia"
+                href="/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
-                <h3 className="font-semibold text-foreground mb-2">Business Debt Consolidation</h3>
-                <p className="text-sm text-muted-foreground mb-2">Consolidating multiple facilities into single manageable loans.</p>
+                <h3 className="font-semibold text-foreground mb-2">Vacant Commercial Property Refinance</h3>
+                <p className="text-sm text-muted-foreground mb-2">What lenders review when leases, vacancy, or income are part of the file.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -259,7 +282,8 @@ const RefinancingSolutions = () => {
           {/* Related Reading */}
           <RelatedReading articles={[
             { title: "Commercial Property Refinancing Solutions", slug: "commercial-property-refinancing-solutions", description: "Guide to refinancing commercial property loans" },
-            { title: "Commercial Property Finance Rates 2025 Comparison", slug: "commercial-property-finance-rates-2025-comparison", description: "Compare current commercial lending rates" }
+            { title: "Commercial Property Refinance After a Bank Decline", slug: "commercial-property-refinance-after-a-bank-decline-in-australia", description: "How to diagnose bank-decline refinance issues and next steps" },
+            { title: "Vacant Commercial Property Refinance", slug: "vacant-commercial-property-refinance-in-australia-what-lenders-look-for", description: "What lenders look for when refinancing vacant commercial property" }
           ] as RelatedArticle[]} />
 
           {/* Related Services */}
@@ -268,11 +292,11 @@ const RefinancingSolutions = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Debt Consolidation</CardTitle>
+                  <CardTitle className="text-lg">Commercial Property Finance</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Combine multiple business debts into one facility</p>
-                  <Link to="/services/debt-consolidation" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Property-backed purchase, settlement, and refinance pathways</p>
+                  <Link to="/services/commercial-property-finance" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
@@ -292,11 +316,11 @@ const RefinancingSolutions = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Commercial Property Development</CardTitle>
+                  <CardTitle className="text-lg">Private Lending</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Development and construction project funding</p>
-                  <Link to="/services/commercial-property-development" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Non-bank and private credit options where bank policy does not fit</p>
+                  <Link to="/services/private-lending" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
