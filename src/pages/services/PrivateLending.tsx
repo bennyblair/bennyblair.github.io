@@ -18,7 +18,15 @@ const PrivateLending = () => {
     },
     {
       question: "How fast can private lending be arranged?",
-      answer: "Private lenders typically offer faster approvals than banks. Simple transactions may approve within 3-7 days, while complex deals may require 2-4 weeks depending on security and circumstances."
+      answer: "Private lenders may be able to assess some transactions faster than banks where security, purpose, and exit are clear. Timing still depends on valuation, legal work, lender appetite, and documentation."
+    },
+    {
+      question: "Can private lending help after a bank rejection?",
+      answer: "It can be relevant where the issue is lender fit, timing, structure, or non-standard security rather than a fundamentally weak transaction. A clear explanation, adequate security, and credible exit remain essential."
+    },
+    {
+      question: "What does a private lending broker do?",
+      answer: "A broker helps package the transaction, compare private and non-bank lender appetite, explain the security and exit, and reduce misdirected applications to lenders that do not fit the scenario."
     },
     {
       question: "Are private lending solutions available Australia-wide?",
@@ -36,7 +44,7 @@ const PrivateLending = () => {
         <title>Private Lending | Non-Bank Commercial Loans Australia | Emet Capital</title>
         <meta 
           name="description" 
-          content="Access private lending from $100K-$50M+ with flexible terms and fast approval for commercial property and business finance across Australia." 
+          content="Private lending broker support for business-purpose loans, commercial property finance, non-bank lending, and alternative funding after bank rejection." 
         />
         <meta name="keywords" content="private lending, alternative finance, private credit, non-bank lending, commercial finance" />
         <link rel="canonical" href="https://emetcapital.com.au/services/private-lending" />
@@ -78,7 +86,7 @@ const PrivateLending = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Private Lending?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Private lending provides commercial finance from non-bank sources including private credit funds, high-net-worth individuals, family offices, and specialist finance companies operating outside traditional banking channels. This alternative funding addresses businesses and investors requiring flexible solutions, faster approvals, or finance for circumstances outside standard bank criteria. Private lenders evaluate opportunities based on security strength and deal merit rather than rigid policy constraints, accommodating diverse situations and property types.
+                Private lending provides commercial finance from non-bank sources including private credit funds, high-net-worth individuals, family offices, and specialist finance companies operating outside traditional banking channels. This alternative funding can be relevant for businesses and investors needing flexible structures, time-sensitive assessment, or finance for circumstances outside standard bank criteria. Private lenders still assess security strength, commercial purpose, exit strategy, and transaction risk.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Lending structures encompass first mortgages, second mortgages, mezzanine finance, and specialized arrangements tailored to transaction requirements. Private lenders accommodate various property types, unique circumstances, and time-sensitive situations that traditional lenders may decline. Security typically involves real property, though business assets may support certain private lending arrangements. Interest rates reflect risk assessment and funding urgency, with terms ranging from short-term bridging to medium-term facilities depending on purpose and exit strategy.
@@ -96,6 +104,20 @@ const PrivateLending = () => {
               </p>
             </section>
 
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Private Lending After a Bank Rejection</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A bank decline does not always mean a transaction is unfundable. Sometimes the file is
+                outside one lender's policy because of timing, income presentation, property type, lease
+                profile, development stage, or the way the exit has been explained.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Private lending may be worth exploring where there is adequate security, a clear business
+                purpose, and a realistic repayment path. It is not a way to bypass risk, and it may carry
+                higher cost or shorter terms than standard bank debt.
+              </p>
+            </section>
+
             {/* How Emet Capital helps */}
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
@@ -103,7 +125,7 @@ const PrivateLending = () => {
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including extensive private lending networks encompassing credit funds, private investors, and specialist non-bank financiers. Our relationships span diverse private capital sources with varying risk appetites, funding scales, and specializations. We match clients with private lenders offering appropriate structures, competitive pricing within the private market, and terms aligned with transaction requirements and exit strategies.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through private lending assessment, deal structuring, and negotiation processes. Our expertise includes presenting transactions to private lenders, structuring security arrangements, and coordinating rapid settlements when required. Approval timeframes are significantly faster than traditional banking, with experienced guidance through alternative lending processes. We structure flexible arrangements accommodating unique circumstances, non-standard properties, and time-sensitive commercial opportunities.
+                We guide clients through private lending assessment, deal structuring, and negotiation processes. Our expertise includes presenting transactions to private lenders, structuring security arrangements, and coordinating time-sensitive settlements where appropriate. We structure applications around the asset, borrower, purpose, and exit so lenders can assess the transaction on its merits.
               </p>
             </section>
 
@@ -162,7 +184,7 @@ const PrivateLending = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Rapid assessment and approval based on security strength and deal merit. Private lenders offer significantly faster decisions than traditional banking channels.
+                      Assessment focused on security strength, commercial purpose, deal merit, and exit strategy. Some private lenders can review suitable files quickly when information is complete.
                     </p>
                   </CardContent>
                 </Card>
@@ -176,7 +198,7 @@ const PrivateLending = () => {
                 Eligibility requires business or investment purpose (no consumer lending), property or business asset security with sufficient equity, and viable exit strategies for loan repayment. Documentation requirements are typically streamlined compared to banks, focusing on security evidence and transaction details. Private lenders assess deals based on security strength and merit rather than rigid policy criteria, accommodating diverse circumstances and property types.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                To proceed, contact our team for a transaction assessment. We'll evaluate your funding requirements, security position, and circumstances to identify optimal private lending solutions. Our process includes deal structuring, private lender matching, and guidance through to rapid approval and settlement.
+                To proceed, contact our team for a transaction assessment. We'll evaluate your funding requirements, security position, and circumstances to identify suitable private lending options. Our process includes deal structuring, private lender matching, and guidance through assessment and settlement.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -222,7 +244,7 @@ const PrivateLending = () => {
                 href="/resources/guides/finding-best-private-lenders-for-your-business"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
-                <h3 className="font-semibold text-foreground mb-2">Finding the Best Private Lenders</h3>
+                <h3 className="font-semibold text-foreground mb-2">Finding Suitable Private Lenders</h3>
                 <p className="text-sm text-muted-foreground mb-2">How to evaluate and select private lenders for your business needs.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
@@ -243,7 +265,7 @@ const PrivateLending = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Private Lenders for Small Business</h3>
-                <p className="text-sm text-muted-foreground mb-2">Fast approval options for SMEs needing quick funding decisions.</p>
+                <p className="text-sm text-muted-foreground mb-2">How SMEs can compare private lender fit, security, and timing.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -269,20 +291,32 @@ const PrivateLending = () => {
           {/* Related Reading */}
           <RelatedReading articles={[
             { title: "What is Private Lending in Australia?", slug: "what-is-private-lending-australia", description: "Understanding private lending and how it differs from traditional bank finance" },
-            { title: "Finding the Best Private Lenders for Your Business", slug: "finding-best-private-lenders-for-your-business", description: "How to identify and work with reputable private lenders" },
-            { title: "Private Lenders for Small Business: Fast Approval Guide", slug: "private-lenders-small-business-fast-approval-guide", description: "Navigating private lending options for SMEs" }
+            { title: "Private Lending vs Bank Lending: Which Is Better?", slug: "private-lending-vs-bank-lending-which-is-better", description: "Compare bank and private lending pathways for commercial borrowers" },
+            { title: "Bank vs Non-Bank Commercial Lending", slug: "bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved", description: "Which borrowers may fit bank, non-bank, or private lender assessment" }
           ] as RelatedArticle[]} />
 
           {/* Related Services */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Commercial Property Finance</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-4">Property-backed purchase, settlement, and refinance structures</p>
+                  <Link to="/services/commercial-property-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                    Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </CardContent>
+              </Card>
+
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">First & Second Mortgages</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Property-secured business finance solutions</p>
+                  <p className="text-sm text-muted-foreground mb-4">Property-backed business lending through registered mortgage structures</p>
                   <Link to="/services/first-second-mortgages" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -291,11 +325,11 @@ const PrivateLending = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Bridging Finance</CardTitle>
+                  <CardTitle className="text-lg">Asset-Backed Lending</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Short-term property acquisition and transition funding</p>
-                  <Link to="/services/bridging-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Asset and property-backed business lending options</p>
+                  <Link to="/services/asset-backed-lending" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
@@ -303,11 +337,11 @@ const PrivateLending = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Caveat Loans</CardTitle>
+                  <CardTitle className="text-lg">Refinancing Solutions</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Fast settlement urgent business funding</p>
-                  <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Commercial refinance and bank-decline pathways for business borrowers</p>
+                  <Link to="/services/refinancing-solutions" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
