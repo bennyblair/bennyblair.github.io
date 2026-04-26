@@ -20,7 +20,10 @@ jobs:
     name: Auto-merge eligible bot PR
     runs-on: ubuntu-latest
     if: >
-      github.event.pull_request.user.login == 'bennyblair' &&
+      (
+        github.event.pull_request.user.login == 'bennyblair' ||
+        github.event.pull_request.user.login == 'github-actions[bot]'
+      ) &&
       !github.event.pull_request.draft &&
       (
         startsWith(github.event.pull_request.head.ref, 'ai/llm-upgrade-') ||
@@ -37,10 +40,11 @@ jobs:
             const headSha = pr.head.sha;
             const headRef = pr.head.ref;
             const allowedPrefixes = ['ai/llm-upgrade-', 'ai/daily-content-'];
+            const allowedAuthors = ['bennyblair', 'github-actions[bot]'];
             const successConclusions = new Set(['success', 'neutral', 'skipped']);
             const autoMergeNamePattern = /auto-merge/i;
 
-            if (pr.user.login !== 'bennyblair') {
+            if (!allowedAuthors.includes(pr.user.login)) {
               core.setFailed(`Refusing to merge PR from unexpected author: ${pr.user.login}`);
               return;
             }
