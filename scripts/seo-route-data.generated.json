@@ -53,6 +53,15 @@
     "noscript": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, eligibility, benefits, and applications for businesses. General information only - not advice.",
     "sourcePath": "src/content/guides/asset-backed-lending-and-asset-finance.md"
   },
+  "/resources/guides/asset-backed-lending-vs-unsecured-business-loans": {
+    "title": "Asset-Backed Lending vs Unsecured Business Loans | Emet Capital",
+    "description": "Compare asset-backed lending and unsecured business loans for Australian commercial borrowers, including security, speed, borrowing capacity, lender assessment, and transaction fit.",
+    "keywords": "asset-backed lending vs unsecured business loans, secured vs unsecured business loans, asset-backed lending Australia, commercial finance comparison",
+    "canonical": "https://emetcapital.com.au/resources/guides/asset-backed-lending-vs-unsecured-business-loans",
+    "h1": "Asset-Backed Lending vs Unsecured Business Loans",
+    "noscript": "Compare asset-backed lending and unsecured business loans for Australian commercial borrowers, including security, speed, borrowing capacity, lender assessment, and transaction fit.",
+    "sourcePath": "src/content/guides/asset-backed-lending-vs-unsecured-business-loans.md"
+  },
   "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses": {
     "title": "ATO Garnishee Notice Finance for Australian Businesses | Emet Capital",
     "description": "A practical guide for Australian business owners dealing with an ATO garnishee notice, including what finance may and may not solve, when property-backed funding can help, what lenders assess, and when to focus on the wider debt problem instead.",
@@ -208,11 +217,11 @@
   },
   "/resources/guides/caveat-loan-emergency-business-funding": {
     "title": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow | Emet Capital",
-    "description": "Caveat loan emergency solutions for tax debt, cashflow crises & urgent business needs. Fast approval, 24-48hr settlement. Australian guide.",
+    "description": "Caveat loan emergency options for tax debt, cashflow crises and urgent business needs where property, documents, and exit are clear. Australian guide.",
     "keywords": "caveat loan emergency, emergency business funding, ATO debt finance, fast business loans, urgent caveat loans",
     "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-emergency-business-funding",
     "h1": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow",
-    "noscript": "Caveat loan emergency solutions for tax debt, cashflow crises & urgent business needs. Fast approval, 24-48hr settlement. Australian guide.",
+    "noscript": "Caveat loan emergency options for tax debt, cashflow crises and urgent business needs where property, documents, and exit are clear. Australian guide.",
     "sourcePath": "src/content/guides/caveat-loan-emergency-business-funding.md"
   },
   "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance": {
@@ -1241,6 +1250,15 @@
     "noscript": "A practical guide to caveatable interests in Australia, including what they are, when they arise, why they matter for caveat loans, and when a borrower or lender should get legal advice. Informational only.",
     "sourcePath": "src/content/guides/what-is-a-caveatable-interest.md"
   },
+  "/resources/guides/what-is-asset-backed-lending-australia": {
+    "title": "What Is Asset-Backed Lending in Australia? | Emet Capital",
+    "description": "A clear definition of asset-backed lending in Australia for commercial borrowers, including eligible assets, lender assessment, use cases, risks, and how it differs from unsecured finance.",
+    "keywords": "what is asset-backed lending, asset-backed lending Australia, secured business loans Australia, asset based lending Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/what-is-asset-backed-lending-australia",
+    "h1": "What Is Asset-Backed Lending in Australia?",
+    "noscript": "A clear definition of asset-backed lending in Australia for commercial borrowers, including eligible assets, lender assessment, use cases, risks, and how it differs from unsecured finance.",
+    "sourcePath": "src/content/guides/what-is-asset-backed-lending-australia.md"
+  },
   "/resources/guides/what-is-private-lending-australia": {
     "title": "What is Private Lending? A Guide for Australian Businesses | Emet Capital",
     "description": "Complete guide to private lending in Australia. Learn about private lenders, benefits, costs, and when to consider private finance for your business. General information only - not advice.",
@@ -1701,12 +1719,12 @@
     "sourcePath": "src/pages/services/BridgingFinance.tsx"
   },
   "/services/commercial-property-finance": {
-    "title": "Urgent Commercial Property Settlement Finance Australia | Emet Capital",
-    "description": "Commercial property finance for urgent settlements, bank delays, business premises purchases, and short-term property-backed funding. General information only.",
-    "keywords": "commercial property finance, urgent commercial property settlement, business premises finance, private lending, bridging finance, caveat loans",
+    "title": "Commercial Property Finance NSW | Urgent Settlement Funding | Emet Capital",
+    "description": "Commercial property finance for NSW business premises purchases, urgent settlements, bank delays, refinance gaps, and short-term property-backed business funding. General information only.",
+    "keywords": "commercial property finance NSW, urgent commercial property settlement, fast commercial property loan Australia, business premises finance, private lending, bridging finance, caveat loans",
     "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
-    "h1": "Urgent Commercial Property Settlement Finance",
-    "noscript": "Commercial property finance for urgent settlements, bank delays, business premises purchases, and short-term property-backed funding. General information only.",
+    "h1": "Commercial Property Finance for Urgent Settlement and Business Premises Purchases",
+    "noscript": "Commercial property finance for NSW business premises purchases, urgent settlements, bank delays, refinance gaps, and short-term property-backed business funding. General information only.",
     "sourcePath": "src/pages/services/CommercialPropertyFinance.tsx"
   },
   "/services/refinancing-solutions": {
