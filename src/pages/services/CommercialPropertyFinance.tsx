@@ -374,6 +374,54 @@ const CommercialPropertyFinance = () => {
             </section>
 
             <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                Commercial Property Finance Pathways to Compare
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                For a NSW business owner buying premises or an urgent commercial settlement, the useful
+                question is usually not just how quickly funding can be assessed. It is which structure fits
+                the asset, deadline, existing debt, and exit. Emet compares adjacent property-backed options
+                before recommending a pathway.
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                {[
+                  {
+                    label: "Commercial property loans guide",
+                    href: "/resources/guides/commercial-property-loans-australia-complete-guide",
+                    text: "Broader lending options, deposits, LVR, assessment, and lender selection.",
+                  },
+                  {
+                    label: "Commercial property settlement timeline",
+                    href: "/resources/guides/commercial-property-settlement-process-finance-timeline",
+                    text: "Finance milestones, document timing, and settlement pressure points.",
+                  },
+                  {
+                    label: "Caveat loans for business emergencies",
+                    href: "/resources/guides/caveat-loan-emergency-business-funding",
+                    text: "When a caveat-style structure may be considered for urgent business funding.",
+                  },
+                  {
+                    label: "Short-term property-backed business loans",
+                    href: "/services/asset-backed-lending",
+                    text: "How property or other assets may support a defined business funding need.",
+                  },
+                ].map((item) => (
+                  <Link
+                    key={item.href}
+                    to={item.href}
+                    className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+                  >
+                    <h3 className="font-semibold text-foreground mb-2">{item.label}</h3>
+                    <p className="text-sm text-muted-foreground mb-2">{item.text}</p>
+                    <span className="text-accent text-sm inline-flex items-center">
+                      View resource <ArrowRight className="ml-1 h-3 w-3" />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+
+            <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Risks and Disclaimers</h2>
               <div className="bg-muted/30 rounded-lg p-6">
                 <p className="text-muted-foreground leading-relaxed mb-4">

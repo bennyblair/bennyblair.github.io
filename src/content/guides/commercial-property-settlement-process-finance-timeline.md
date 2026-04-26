@@ -12,6 +12,8 @@ Commercial property settlement involves coordinated execution between purchasers
 
 This guide outlines the commercial property settlement timeline from contract exchange through to post-settlement completion, highlighting finance coordination milestones, documentation requirements, common challenges, and strategies for managing timing pressures in Australian business property transactions.
 
+For NSW business owners facing a compressed purchase or settlement deadline, Emet Capital's [commercial property finance service](/services/commercial-property-finance) explains how funding may be structured where documents, security, and exit are clear.
+
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Finance options for commercial property acquisition and development
