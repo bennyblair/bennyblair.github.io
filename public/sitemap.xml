@@ -104,7 +104,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources/case-studies/melbourne-richmond-asset-finance</loc>
-    <lastmod>2026-03-15</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -580,7 +580,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources/guides/commercial-property-loans-for-startups-first-time-buyers</loc>
-    <lastmod>2026-04-06</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -623,6 +623,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/commercial-real-estate-lenders-australia-directory</loc>
     <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -714,6 +721,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/guarantor-requirements-for-commercial-property-loans</loc>
     <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
