@@ -56,14 +56,14 @@ const CommercialPropertyFinance = () => {
   return (
     <>
       <SEO
-        title="Urgent Commercial Property Settlement Finance Australia | Emet Capital"
-        description="Commercial property finance for urgent settlements, bank delays, business premises purchases, and short-term property-backed funding. General information only."
+        title="Commercial Property Finance NSW | Urgent Settlement Funding | Emet Capital"
+        description="Commercial property finance for NSW business premises purchases, urgent settlements, bank delays, refinance gaps, and short-term property-backed business funding. General information only."
         canonical="/services/commercial-property-finance"
-        keywords="commercial property finance, urgent commercial property settlement, business premises finance, private lending, bridging finance, caveat loans"
+        keywords="commercial property finance NSW, urgent commercial property settlement, fast commercial property loan Australia, business premises finance, private lending, bridging finance, caveat loans"
         schemas={[
           generateServiceSchema(
             "Commercial Property Finance",
-            "Commercial property finance for urgent settlements, business premises purchases, refinancing transitions, and property-backed business funding.",
+            "Commercial property finance for urgent settlements, NSW business premises purchases, refinancing transitions, and property-backed business funding.",
             "https://emetcapital.com.au/services/commercial-property-finance"
           ),
         ]}
@@ -82,11 +82,12 @@ const CommercialPropertyFinance = () => {
           <div className="text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Commercial Property Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Urgent Commercial Property Settlement Finance
+              Commercial Property Finance for Urgent Settlement and Business Premises Purchases
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Property-backed commercial finance for business owners, investors, and developers facing
-              settlement pressure, bank delays, refinance timing gaps, or short-term funding needs.
+              Property-backed commercial finance for NSW business owners, investors, and developers facing
+              urgent settlement pressure, bank delays, refinance timing gaps, premises purchases, or
+              short-term business funding needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -111,15 +112,34 @@ const CommercialPropertyFinance = () => {
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Commercial property settlement finance is used when a business-purpose property transaction
-                needs funding before a standard bank or refinance process can finish. It may support a
-                purchase, settlement shortfall, outgoing lender deadline, refinance transition, or other
-                property-backed commercial funding requirement.
+                needs funding before a standard bank or refinance process can finish. For an urgent
+                commercial property loan in Australia, assessment may be possible where the security,
+                documents, settlement date, borrower structure, and exit strategy are clear.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                The aim is to create a practical funding bridge around a defined commercial event. It is not
-                a shortcut around credit assessment, legal checks, or exit planning. Lenders still need to
+                The facility may support a purchase, settlement shortfall, outgoing lender deadline,
+                refinance transition, or other property-backed commercial funding requirement. It is not a
+                shortcut around credit assessment, legal checks, or exit planning. Lenders still need to
                 understand the security, borrower, purpose, and repayment pathway before funds can be made
                 available.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                Commercial Property Finance for NSW Business Owners Buying Premises
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A business owner buying premises in NSW may need commercial property finance when the
+                purchase is business-purpose, the settlement date is fixed, and the bank process is moving
+                too slowly for the contract timetable. The right structure depends on whether the goal is to
+                settle the purchase, bridge to a bank refinance, release equity from another property, or
+                cover a short-term settlement gap.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Emet helps frame the file around the practical questions lenders ask first: what property
+                secures the loan, how much equity is available, what entity is buying, how the business will
+                use the premises, and how the short-term debt will be repaid or refinanced.
               </p>
             </section>
 
@@ -131,7 +151,7 @@ const CommercialPropertyFinance = () => {
                   "A valuation, lease review, or legal condition has delayed the permanent lender.",
                   "A vendor, liquidator, or auction contract will not allow more time.",
                   "An outgoing lender needs repayment before a replacement facility settles.",
-                  "A business owner is buying premises and needs a short-term structure first.",
+                  "A NSW business owner is buying premises and needs a short-term structure first.",
                   "A developer or investor needs to hold control of the asset while an exit catches up.",
                 ].map((item) => (
                   <Card key={item}>
@@ -149,8 +169,8 @@ const CommercialPropertyFinance = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What Lenders Need Quickly</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                A fast file is usually a complete file. The fewer unknowns a lender has to resolve, the
-                more realistic an urgent assessment becomes.
+                A fast commercial property finance file is usually a complete file. The fewer unknowns a
+                lender has to resolve, the more realistic an urgent assessment may be.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 {[
@@ -268,6 +288,11 @@ const CommercialPropertyFinance = () => {
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 What Makes Fast Settlement Realistic
               </h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Fast settlement is most realistic where the loan purpose is commercial, the security can be
+                assessed quickly, and the exit is credible. Timing is always subject to lender assessment,
+                legal checks, valuation support, and document readiness.
+              </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
                   <CardHeader>
@@ -338,7 +363,7 @@ const CommercialPropertyFinance = () => {
                 Emet Capital helps borrowers and advisers frame the transaction in lender-ready terms:
                 security, amount, timing, purpose, exit, and the critical path to settlement. The goal is to
                 match the file with an appropriate lender category rather than sending an urgent scenario to
-                a lender that cannot move in time.
+                a lender that is unlikely to fit the timetable or security position.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 That may involve comparing a bridge with a direct refinance, considering whether private
