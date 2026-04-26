@@ -217,11 +217,11 @@
   },
   "/resources/guides/caveat-loan-emergency-business-funding": {
     "title": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow | Emet Capital",
-    "description": "Caveat loan emergency solutions for tax debt, cashflow crises & urgent business needs. Fast approval, 24-48hr settlement. Australian guide.",
+    "description": "Caveat loan emergency options for tax debt, cashflow crises and urgent business needs where property, documents, and exit are clear. Australian guide.",
     "keywords": "caveat loan emergency, emergency business funding, ATO debt finance, fast business loans, urgent caveat loans",
     "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-emergency-business-funding",
     "h1": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow",
-    "noscript": "Caveat loan emergency solutions for tax debt, cashflow crises & urgent business needs. Fast approval, 24-48hr settlement. Australian guide.",
+    "noscript": "Caveat loan emergency options for tax debt, cashflow crises and urgent business needs where property, documents, and exit are clear. Australian guide.",
     "sourcePath": "src/content/guides/caveat-loan-emergency-business-funding.md"
   },
   "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance": {
@@ -1719,12 +1719,12 @@
     "sourcePath": "src/pages/services/BridgingFinance.tsx"
   },
   "/services/commercial-property-finance": {
-    "title": "Urgent Commercial Property Settlement Finance Australia | Emet Capital",
-    "description": "Commercial property finance for urgent settlements, bank delays, business premises purchases, and short-term property-backed funding. General information only.",
-    "keywords": "commercial property finance, urgent commercial property settlement, business premises finance, private lending, bridging finance, caveat loans",
+    "title": "Commercial Property Finance NSW | Urgent Settlement Funding | Emet Capital",
+    "description": "Commercial property finance for NSW business premises purchases, urgent settlements, bank delays, refinance gaps, and short-term property-backed business funding. General information only.",
+    "keywords": "commercial property finance NSW, urgent commercial property settlement, fast commercial property loan Australia, business premises finance, private lending, bridging finance, caveat loans",
     "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
-    "h1": "Urgent Commercial Property Settlement Finance",
-    "noscript": "Commercial property finance for urgent settlements, bank delays, business premises purchases, and short-term property-backed funding. General information only.",
+    "h1": "Commercial Property Finance for Urgent Settlement and Business Premises Purchases",
+    "noscript": "Commercial property finance for NSW business premises purchases, urgent settlements, bank delays, refinance gaps, and short-term property-backed business funding. General information only.",
     "sourcePath": "src/pages/services/CommercialPropertyFinance.tsx"
   },
   "/services/refinancing-solutions": {
