@@ -12,6 +12,8 @@ keywords: ["commercial property loans", "commercial property finance", "business
 
 Commercial property loans enable Australian businesses to purchase, refinance, or develop real estate for operations or investment. Unlike residential mortgages, commercial property finance involves sophisticated assessment of both business capacity and property fundamentals, with loan structures designed around business cash flow, tenant covenants, and property income potential.
 
+If you are buying business premises in NSW or managing an urgent commercial property settlement, Emet Capital's [commercial property finance service](/services/commercial-property-finance) summarises the practical funding pathways that may be available subject to assessment.
+
 The Australian commercial property lending market offers diverse solutions from major banks, regional lenders, and specialist finance providers. Interest rates typically range 5.5-8.5% per annum, with loan-to-value ratios of 60-80% requiring deposits of 20-40% plus acquisition costs. Assessment processes take 4-8 weeks and involve comprehensive property valuation, business financial review, and legal due diligence.
 
 Understanding commercial property loan mechanics, lender requirements, and structure options helps businesses secure appropriate finance while optimising borrowing costs. This guide examines eligibility criteria, interest rates, loan structures, application processes, and strategic considerations for Australian commercial property financing.

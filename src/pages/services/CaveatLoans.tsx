@@ -178,6 +178,14 @@ const CaveatLoans = () => {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 To proceed, contact our team for urgent assessment. We'll evaluate your funding requirements, property security, and exit strategy to identify suitable caveat options. Our process includes property assessment, lender selection, and guidance through to settlement where the file, title, documentation, and legal timing support a compressed pathway.
               </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                If the scenario involves a commercial property purchase, business premises settlement, or a
+                wider property-backed funding requirement, compare this option with{" "}
+                <Link to="/services/commercial-property-finance" className="text-accent hover:underline">
+                  commercial property finance
+                </Link>{" "}
+                before deciding whether a caveat structure is suitable.
+              </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                   <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>

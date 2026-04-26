@@ -106,6 +106,15 @@ const AssetBackedLending = () => {
                 Lenders will usually focus on the security value, existing debt, business purpose, requested
                 term, and exit strategy before deciding whether the scenario fits.
               </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Where the security is a commercial property or the funding need relates to buying business
+                premises, review{" "}
+                <Link to="/services/commercial-property-finance" className="text-accent hover:underline">
+                  commercial property finance
+                </Link>{" "}
+                alongside asset-backed lending so the structure matches the property, purpose, and repayment
+                pathway.
+              </p>
             </section>
 
             {/* Who this service is for */}
