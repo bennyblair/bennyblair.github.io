@@ -13,7 +13,7 @@ readTime: "11 min read"
 
 Commercial property loans in Brisbane are business-purpose loans secured against offices, warehouses, retail assets, mixed-use properties, and owner-occupied commercial premises across South East Queensland. In practice, Brisbane borrowers usually need to prove three things: the property makes sense, the business or investor can support the debt, and the exit plan is realistic if market conditions shift.
 
-That matters because Brisbane is no longer a secondary market in lenders' eyes. Industrial corridors, inner-ring mixed-use precincts, logistics assets, and owner-occupier properties in growth suburbs now attract stronger scrutiny around valuation, tenant quality, lease strength, and settlement timing. If you need [commercial property finance](/services/commercial-property-loans), understanding how Brisbane deals are assessed can save weeks of wasted lender conversations.
+That matters because Brisbane is no longer a secondary market in lenders' eyes. Industrial corridors, inner-ring mixed-use precincts, logistics assets, and owner-occupier properties in growth suburbs now attract stronger scrutiny around valuation, tenant quality, lease strength, and settlement timing. If you need [commercial property finance](/services/commercial-property-finance), understanding how Brisbane deals are assessed can save weeks of wasted lender conversations.
 
 ### Related In-Depth Guides
 

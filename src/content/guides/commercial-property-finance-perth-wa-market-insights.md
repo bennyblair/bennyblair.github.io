@@ -13,7 +13,7 @@ readTime: "11 min read"
 
 Commercial property finance in Perth refers to business-purpose lending secured against offices, warehouses, industrial assets, retail property, mixed-use sites, and owner-occupied commercial real estate across Western Australia. The basic rule is simple: lenders want a workable property, a commercially sensible borrower, and a clear repayment path. The harder part is that Perth deals can look strong on the surface while still triggering caution around tenant depth, market liquidity, or specialised use.
 
-That is why Perth borrowers often need more than a generic national loan explanation. WA transactions can be heavily influenced by local industry exposure, industrial demand, valuation confidence, and how easily a lender believes the asset could be refinanced or sold if conditions tighten. If you are exploring [commercial property finance](/services/commercial-property-loans), it helps to understand how Perth credit conversations are usually framed before you apply.
+That is why Perth borrowers often need more than a generic national loan explanation. WA transactions can be heavily influenced by local industry exposure, industrial demand, valuation confidence, and how easily a lender believes the asset could be refinanced or sold if conditions tighten. If you are exploring [commercial property finance](/services/commercial-property-finance), it helps to understand how Perth credit conversations are usually framed before you apply.
 
 ### Related In-Depth Guides
 
