@@ -49,6 +49,17 @@ const Homepage = () => {
   const [featuredCaseStudies, setFeaturedCaseStudies] = useState<Article[]>([]);
   const { toast } = useToast();
 
+  const [heroStage, setHeroStage] = useState(0);
+
+  useEffect(() => {
+    const timers = [
+      setTimeout(() => setHeroStage(1), 200),
+      setTimeout(() => setHeroStage(2), 700),
+      setTimeout(() => setHeroStage(3), 1200),
+    ];
+    return () => timers.forEach(clearTimeout);
+  }, []);
+
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
@@ -233,18 +244,28 @@ const Homepage = () => {
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <div className="fade-in-up">
+          <div
+            className={`transition-all duration-700 ease-out ${heroStage >= 1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
+          >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
               Commercial Lending Solutions,
               <span className="gradient-text block mt-2 leading-normal">
                 Expertly Engineered
               </span>
             </h1>
-            
+          </div>
+          
+          <div
+            className={`transition-all duration-700 ease-out delay-100 ${heroStage >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
+          >
             <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
               Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition
             </p>
-            
+          </div>
+          
+          <div
+            className={`transition-all duration-700 ease-out ${heroStage >= 3 ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+          >
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button asChild size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
                 <Link to="/contact">

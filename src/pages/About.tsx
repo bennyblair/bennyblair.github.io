@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { AnimatedCounter } from "@/components/ui/animated-counter";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import SEO from "@/components/SEO";
 import { 
@@ -30,10 +32,10 @@ const About = () => {
   ];
 
   const stats = [
-    { icon: Award, label: "Years Experience", value: "15+", description: "Combined team experience" },
-    { icon: Users, label: "Deals Completed", value: "500+", description: "Successful transactions" },
-    { icon: DollarSign, label: "Funds Facilitated", value: "$150M+", description: "Total lending arranged" },
-    { icon: Star, label: "Google Rating", value: "5.0", description: "18 client reviews" }
+    { icon: Award, label: "Years Experience", value: 15, prefix: "", suffix: "+", description: "Combined team experience" },
+    { icon: Users, label: "Deals Completed", value: 500, prefix: "", suffix: "+", description: "Successful transactions" },
+    { icon: DollarSign, label: "Funds Facilitated", value: 150, prefix: "$", suffix: "M+", description: "Total lending arranged" },
+    { icon: Star, label: "Google Rating", value: 5.0, prefix: "", suffix: "", decimals: 1, description: "18 client reviews" }
   ];
 
   const values = [
@@ -96,14 +98,22 @@ const About = () => {
         {/* Stats Section */}
         <div className="grid md:grid-cols-4 gap-6 mb-16">
           {stats.map((stat, index) => (
-            <Card key={index} className="premium-card text-center">
+            <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
+            <Card className="premium-card text-center">
               <CardContent className="p-6">
                 <stat.icon className="h-10 w-10 text-accent mx-auto mb-4" />
-                <div className="text-3xl font-bold gradient-text mb-2">{stat.value}</div>
+                <AnimatedCounter
+                  end={stat.value}
+                  prefix={stat.prefix}
+                  suffix={stat.suffix}
+                  decimals={'decimals' in stat ? stat.decimals : 0}
+                  className="text-3xl font-bold gradient-text mb-2"
+                />
                 <div className="font-semibold text-foreground mb-1">{stat.label}</div>
                 <div className="text-sm text-muted-foreground">{stat.description}</div>
               </CardContent>
             </Card>
+            </ScrollReveal>
           ))}
         </div>
 
