@@ -7,6 +7,9 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
+import { AnimatedCounter } from "@/components/ui/animated-counter";
+import { TiltCard } from "@/components/ui/tilt-card";
 import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
 import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
@@ -264,35 +267,53 @@ const Homepage = () => {
       {/* Commercial Finance Expertise Overview */}
       <section className="py-20 px-4 bg-muted/30">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Australia's Leading Commercial Finance Specialists
-            </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              With over 15 years of expertise in Australian commercial lending, we've facilitated over $2 billion in business finance across all major markets. 
-              Our specialized team delivers fast settlements on complex deals that traditional banks won't touch, offering competitive rates 
-              for property development, business acquisition, working capital, bridging finance, and specialized commercial lending solutions.
-            </p>
-          </div>
+          <ScrollReveal animation="fade-up">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Australia's Leading Commercial Finance Specialists
+              </h2>
+              <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+                With over 15 years of expertise in Australian commercial lending, we've facilitated over $2 billion in business finance across all major markets. 
+                Our specialized team delivers fast settlements on complex deals that traditional banks won't touch, offering competitive rates 
+                for property development, business acquisition, working capital, bridging finance, and specialized commercial lending solutions.
+              </p>
+            </div>
+          </ScrollReveal>
           
           {/* Market Expertise Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">$2B+</div>
-              <div className="text-sm text-muted-foreground">Commercial Loans Facilitated</div>
-            </div>
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">48HR</div>
-              <div className="text-sm text-muted-foreground">Fast Approval Process</div>
-            </div>
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">15+</div>
-              <div className="text-sm text-muted-foreground">Years Industry Experience</div>
-            </div>
-            <div className="text-center fade-in-up">
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">95%</div>
-              <div className="text-sm text-muted-foreground">Client Success Rate</div>
-            </div>
+            <ScrollReveal animation="fade-up" delay={0}>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
+                  <AnimatedCounter prefix="$" end={2} suffix="B+" className="" />
+                </div>
+                <div className="text-sm text-muted-foreground">Commercial Loans Facilitated</div>
+              </div>
+            </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={100}>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
+                  <AnimatedCounter end={48} suffix="HR" className="" />
+                </div>
+                <div className="text-sm text-muted-foreground">Fast Approval Process</div>
+              </div>
+            </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={200}>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
+                  <AnimatedCounter end={15} suffix="+" className="" />
+                </div>
+                <div className="text-sm text-muted-foreground">Years Industry Experience</div>
+              </div>
+            </ScrollReveal>
+            <ScrollReveal animation="fade-up" delay={300}>
+              <div className="text-center">
+                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
+                  <AnimatedCounter end={95} suffix="%" className="" />
+                </div>
+                <div className="text-sm text-muted-foreground">Client Success Rate</div>
+              </div>
+            </ScrollReveal>
           </div>
 
           {/* Australian Market Focus */}
@@ -310,15 +331,17 @@ const Homepage = () => {
       {/* Core Commercial Finance Services */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Commercial Finance <span className="gradient-text">Solutions</span>
-            </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Comprehensive business lending services designed for Australian commercial property investors, 
-              developers, and business owners who need fast, flexible financing solutions.
-            </p>
-          </div>
+          <ScrollReveal animation="fade-up">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Commercial Finance <span className="gradient-text">Solutions</span>
+              </h2>
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+                Comprehensive business lending services designed for Australian commercial property investors, 
+                developers, and business owners who need fast, flexible financing solutions.
+              </p>
+            </div>
+          </ScrollReveal>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -359,21 +382,25 @@ const Homepage = () => {
                 link: "/services/business-acquisition"
               }
             ].map((service, index) => (
-              <Link key={index} to={service.link}>
-                <Card className="premium-card group h-full hover:border-accent/50 transition-colors">
-                  <CardHeader className="text-center pb-4">
-                    <div className="mx-auto mb-6 p-6 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
-                      <service.icon className="h-10 w-10 text-accent" />
-                    </div>
-                    <CardTitle className="text-xl md:text-2xl mb-4 group-hover:text-accent transition-colors">{service.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-center text-muted-foreground text-base md:text-lg leading-relaxed">
-                      {service.description}
-                    </CardDescription>
-                  </CardContent>
-                </Card>
-              </Link>
+              <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
+                <TiltCard className="rounded-2xl h-full">
+                  <Link to={service.link}>
+                    <Card className="premium-card group h-full hover:border-accent/50 transition-colors">
+                      <CardHeader className="text-center pb-4">
+                        <div className="mx-auto mb-6 p-6 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
+                          <service.icon className="h-10 w-10 text-accent" />
+                        </div>
+                        <CardTitle className="text-xl md:text-2xl mb-4 group-hover:text-accent transition-colors">{service.title}</CardTitle>
+                      </CardHeader>
+                      <CardContent>
+                        <CardDescription className="text-center text-muted-foreground text-base md:text-lg leading-relaxed">
+                          {service.description}
+                        </CardDescription>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                </TiltCard>
+              </ScrollReveal>
             ))}
           </div>
           
@@ -391,14 +418,16 @@ const Homepage = () => {
       {/* Why Emet Capital */}
       <section className="py-20 px-4 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Why <span className="gradient-text">Emet Capital</span>
-            </h2>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Industry-leading metrics that speak to our expertise
-            </p>
-          </div>
+          <ScrollReveal animation="fade-up">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+                Why <span className="gradient-text">Emet Capital</span>
+              </h2>
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+                Industry-leading metrics that speak to our expertise
+              </p>
+            </div>
+          </ScrollReveal>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {[
@@ -406,25 +435,29 @@ const Homepage = () => {
               { label: "Deal Success Rate", value: 87, suffix: "% approved" },
               { label: "Google Rating", value: 5, suffix: " stars (18 reviews)" }
             ].map((metric, index) => (
-              <Card key={index} className="premium-card text-center">
-                <CardHeader>
-                  <CardTitle className="text-lg text-muted-foreground">{metric.label}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-4xl font-bold gradient-text mb-4">
-                    {metric.value}{metric.suffix.includes('stars') ? '' : '%'}
-                  </div>
-                  <div className="progress-bar mb-4">
-                    <div 
-                      className="progress-fill" 
-                      style={{ width: `${metric.value === 5 ? 100 : metric.value}%` }}
-                    />
-                  </div>
-                  <p className="text-sm text-muted-foreground">
-                    {metric.suffix.replace('%', '')}
-                  </p>
-                </CardContent>
-              </Card>
+              <ScrollReveal key={index} animation="fade-up" delay={index * 150}>
+                <TiltCard className="rounded-2xl h-full">
+                  <Card className="premium-card text-center h-full">
+                    <CardHeader>
+                      <CardTitle className="text-lg text-muted-foreground">{metric.label}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="text-4xl font-bold gradient-text mb-4">
+                        <AnimatedCounter end={metric.value} suffix={metric.suffix.includes('stars') ? '' : '%'} className="" />
+                      </div>
+                      <div className="progress-bar mb-4">
+                        <div 
+                          className="progress-fill" 
+                          style={{ width: `${metric.value === 5 ? 100 : metric.value}%` }}
+                        />
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        {metric.suffix.replace('%', '')}
+                      </p>
+                    </CardContent>
+                  </Card>
+                </TiltCard>
+              </ScrollReveal>
             ))}
           </div>
           
@@ -434,23 +467,26 @@ const Homepage = () => {
       {/* Case Studies */}
       <section className="py-24 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Success <span className="gradient-text">Stories</span>
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Real deals, real results, real growth
-            </p>
-          </div>
+          <ScrollReveal animation="fade-up">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                Success <span className="gradient-text">Stories</span>
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Real deals, real results, real growth
+              </p>
+            </div>
+          </ScrollReveal>
           
           <div className="grid md:grid-cols-2 gap-8">
-            {featuredCaseStudies.map((study) => (
-              <Link 
-                key={study.slug} 
-                to={`/resources/case-studies/${study.slug}`}
-                className="block transition-transform hover:scale-[1.02]"
-              >
-                <Card className="premium-card h-full cursor-pointer">
+            {featuredCaseStudies.map((study, index) => (
+              <ScrollReveal key={study.slug} animation="fade-up" delay={index * 150}>
+                <TiltCard className="rounded-2xl h-full">
+                  <Link 
+                    to={`/resources/case-studies/${study.slug}`}
+                    className="block h-full"
+                  >
+                    <Card className="premium-card h-full cursor-pointer">
                   <CardHeader>
                     <div className="flex items-center gap-4 mb-4">
                       <Badge className="bg-accent/20 text-accent">
@@ -475,7 +511,9 @@ const Homepage = () => {
                     )}
                   </CardContent>
                 </Card>
-              </Link>
+                  </Link>
+                </TiltCard>
+              </ScrollReveal>
             ))}
           </div>
           
@@ -496,14 +534,16 @@ const Homepage = () => {
       {/* How It Works */}
       <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              How It <span className="gradient-text">Works</span>
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Four simple steps to funding success
-            </p>
-          </div>
+          <ScrollReveal animation="fade-up">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                How It <span className="gradient-text">Works</span>
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Four simple steps to funding success
+              </p>
+            </div>
+          </ScrollReveal>
           
           <div className="grid md:grid-cols-4 gap-8">
             {[
@@ -512,16 +552,17 @@ const Homepage = () => {
               { step: "03", title: "Approval", description: "Fast-track approval with our lender network" },
               { step: "04", title: "Settlement", description: "Quick settlement and funding deployment" }
             ].map((step, index) => (
-              <div key={index} className="text-center group">
-                <div className="premium-card p-8 mb-4">
-                  <div className="text-4xl font-bold gradient-text mb-4">{step.step}</div>
-                  <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+              <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
+                <div className="text-center group">
+                  <TiltCard className="rounded-2xl">
+                    <div className="premium-card p-8 mb-4">
+                      <div className="text-4xl font-bold gradient-text mb-4">{step.step}</div>
+                      <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+                      <p className="text-muted-foreground">{step.description}</p>
+                    </div>
+                  </TiltCard>
                 </div>
-                {index < 3 && (
-                  <ArrowRight className="hidden md:block absolute top-1/2 -right-4 h-6 w-6 text-accent opacity-50" />
-                )}
-              </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -611,7 +652,7 @@ const Homepage = () => {
       <section className="py-24 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="fade-in-up">
+            <ScrollReveal animation="fade-up">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 Founded on Expertise,
                 <span className="gradient-text block">
@@ -623,18 +664,21 @@ const Homepage = () => {
                 of Australia's financial landscape. We've structured complex deals across diverse 
                 industries and know what it takes to secure funding when it matters most.
               </p>
+            </ScrollReveal>
               
               <div className="grid sm:grid-cols-3 gap-8 mb-12">
                 {[
-                  { icon: Award, label: "15+ Years", description: "Industry Experience" },
+                  { icon: Award, label: "15+", description: "Years Experience" },
                   { icon: Users, label: "300+", description: "Successful Deals" },
                   { icon: DollarSign, label: "$150M+", description: "Funds Facilitated" }
                 ].map((stat, index) => (
-                  <div key={index} className="text-center">
-                    <stat.icon className="h-10 w-10 text-accent mx-auto mb-4" />
-                    <div className="text-3xl font-bold gradient-text">{stat.label}</div>
-                    <div className="text-base text-muted-foreground">{stat.description}</div>
-                  </div>
+                  <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
+                    <div className="text-center">
+                      <stat.icon className="h-10 w-10 text-accent mx-auto mb-4" />
+                      <div className="text-3xl font-bold gradient-text">{stat.label}</div>
+                      <div className="text-base text-muted-foreground">{stat.description}</div>
+                    </div>
+                  </ScrollReveal>
                 ))}
               </div>
               
@@ -644,7 +688,6 @@ const Homepage = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-            </div>
           </div>
         </div>
       </section>
@@ -652,14 +695,16 @@ const Homepage = () => {
       {/* Contact Form */}
       <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/10">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16 fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to <span className="gradient-text">Get Started?</span>
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Tell us about your requirements and we'll be in touch within 24 hours
-            </p>
-          </div>
+          <ScrollReveal animation="fade-up">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                Ready to <span className="gradient-text">Get Started?</span>
+              </h2>
+              <p className="text-xl text-muted-foreground">
+                Tell us about your requirements and we'll be in touch within 24 hours
+              </p>
+            </div>
+          </ScrollReveal>
           
           <Card className="premium-card">
             <CardContent className="p-8">
