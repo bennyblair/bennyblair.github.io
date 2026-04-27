@@ -782,6 +782,15 @@
     "noscript": "Understand how caveat removal works in Australia, when a caveat may be withdrawn, discharged, lapsed, or challenged, and what commercial borrowers should expect. Informational only.",
     "sourcePath": "src/content/guides/how-to-remove-a-caveat-from-property-title-step-by-step.md"
   },
+  "/resources/guides/import-gst-and-customs-duty-finance-for-australian-businesses": {
+    "title": "Import GST and Customs Duty Finance for Australian Businesses | Emet Capital",
+    "description": "Learn how import GST and customs duty finance can help Australian wholesalers, importers and trading businesses manage landed-cost cash flow. General information only - not advice.",
+    "keywords": "import gst customs duty finance australia, customs duty finance, import GST finance, trade finance Australia, working capital for importers",
+    "canonical": "https://emetcapital.com.au/resources/guides/import-gst-and-customs-duty-finance-for-australian-businesses",
+    "h1": "Import GST and Customs Duty Finance for Australian Businesses",
+    "noscript": "Learn how import GST and customs duty finance can help Australian wholesalers, importers and trading businesses manage landed-cost cash flow. General information only - not advice.",
+    "sourcePath": "src/content/guides/import-gst-and-customs-duty-finance-for-australian-businesses.md"
+  },
   "/resources/guides/industrial-property-finance-warehouses-manufacturing": {
     "title": "Industrial Property Finance: Warehouses & Manufacturing | Emet Capital",
     "description": "Guide to industrial property finance in Australia. Learn about warehouse and manufacturing loans, building specs, LVRs, rates, and unique industrial requirements.",
@@ -916,6 +925,15 @@
     "h1": "Private Commercial Real Estate Lenders: CRE Directory",
     "noscript": "Explore the landscape of private commercial real estate lenders in Australia. A comprehensive guide to finding and selecting the right private CRE partner.",
     "sourcePath": "src/content/guides/private-commercial-real-estate-lenders-cre-directory.md"
+  },
+  "/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance": {
+    "title": "Private Credit for SME Borrowers in Australia: When It Replaces Bank Finance | Emet Capital",
+    "description": "Plain-English guide to private credit for SME borrowers in Australia, including when it may replace bank finance, what lenders assess, and where it does not fit. General information only - not advice.",
+    "keywords": "private credit for sme borrowers australia, private credit Australia, private lending for SMEs, bank alternative business finance, non-bank commercial lending",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance",
+    "h1": "Private Credit for SME Borrowers in Australia: When It Replaces Bank Finance",
+    "noscript": "Plain-English guide to private credit for SME borrowers in Australia, including when it may replace bank finance, what lenders assess, and where it does not fit. General information only - not advice.",
+    "sourcePath": "src/content/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance.md"
   },
   "/resources/guides/private-lenders-for-land-loans-alternative-financing": {
     "title": "Private Lenders for Land Loans: Alternative Finance Options | Emet Capital",
