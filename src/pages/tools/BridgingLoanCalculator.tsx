@@ -9,9 +9,9 @@ import { Calculator, TrendingUp, DollarSign, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const BridgingLoanCalculator = () => {
-  const [loanAmount, setLoanAmount] = useState<number>(500000);
-  const [interestRate, setInterestRate] = useState<number>(15.6);
-  const [loanTerm, setLoanTerm] = useState<number>(12);
+  const [loanAmount, setLoanAmount] = useState<number>(0);
+  const [interestRate, setInterestRate] = useState<number>(0);
+  const [loanTerm, setLoanTerm] = useState<number>(0);
 
   const calculatePayments = () => {
     const monthlyRate = interestRate / 100 / 12;
@@ -59,7 +59,7 @@ const BridgingLoanCalculator = () => {
         "name": "How accurate is the bridging loan calculator?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The bridging loan calculator provides accurate estimates of interest costs and monthly payments based on inputs you provide. However, it doesn't include establishment fees (1% to 3%), legal costs ($2,000 to $5,000), valuation fees ($800 to $8,000), or potential exit fees. Total costs typically run 15% to 25% higher than calculator interest figures alone."
+          "text": "The bridging loan calculator provides accurate estimates of interest costs and monthly payments based on inputs you provide. However, it doesn't include establishment fees (a lender-specific range), legal costs (an indicative amount to an indicative amount), valuation fees (an indicative amount to an indicative amount), or potential exit fees. Total costs typically run a lender-specific range higher than calculator interest figures alone."
         }
       },
       {
@@ -67,7 +67,7 @@ const BridgingLoanCalculator = () => {
         "name": "What interest rate should I enter in the calculator?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enter the annual interest rate your lender quotes, typically 9% to 24% annually. If your lender quotes monthly rates, multiply by 12: 1% monthly equals 12% annually, 1.5% monthly equals 18% annually. Prime residential property typically attracts 12% to 15% rates, commercial property faces 15% to 18%, and higher-risk scenarios might reach 20% to 24%."
+          "text": "Enter the annual interest rate your lender quotes, typically a lender-specific range annually. If your lender quotes monthly rates, multiply by 12: a lender-specific monthly percentage equals a lender-specific annual percentage, a lender-specific monthly percentage equals a lender-specific annual percentage. Prime residential property typically attracts a lender-specific rate range, commercial property faces a lender-specific range, and higher-risk scenarios might reach a lender-specific range."
         }
       },
       {
@@ -83,7 +83,7 @@ const BridgingLoanCalculator = () => {
         "name": "How do bridging loan costs compare to standard commercial loans?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bridging loans cost significantly more but provide faster approval. Commercial loans charge 6% to 8% annually with 4 to 8 week approval, whilst bridging loans charge 12% to 24% annually but approve within days. On $1 million over 12 months, commercial lending costs approximately $70,000 interest, whilst bridging finance costs $120,000 to $240,000—roughly 70% to 240% more expensive."
+          "text": "Bridging loans cost significantly more but provide faster approval. Commercial loans charge a lender-specific range annually with 4 to 8 week approval, whilst bridging loans charge a lender-specific range annually but approve within days. On an indicative amount over 12 months, commercial lending costs approximately an indicative amount interest, whilst bridging finance costs an indicative amount to an indicative amount—roughly a lender-specific range more expensive."
         }
       },
       {
@@ -202,7 +202,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Our bridging loan calculator above provides instant estimates of your monthly payments and total costs, but comprehensive assessment requires understanding what drives these figures and what additional expenses aren't captured in basic calculations. A Melbourne property investor might see that a $500,000 bridging loan at 1.2% monthly costs $6,000 in monthly interest, but total costs including $15,000 establishment fees and $3,000 legal expenses over six months actually reach $51,000—substantially more than the calculator's interest-only projection suggests.
+                Our bridging loan calculator above provides instant estimates of your monthly payments and total costs, but comprehensive assessment requires understanding what drives these figures and what additional expenses aren't captured in basic calculations. A Melbourne property investor might see that an indicative bridging loan at a lender-specific monthly percentage costs an indicative amount in monthly interest, but total costs including an indicative amount in establishment fees and an indicative amount in legal expenses over six months actually reach an indicative amount—substantially more than the calculator's interest-only projection suggests.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -220,7 +220,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                A Brisbane buyer purchasing a $2 million commercial property with $600,000 deposit needs $1.4 million base borrowing. If establishment fees total $30,000 and you prefer capitalising these, your actual loan amount becomes $1.43 million. Enter the total you'll actually draw, including any capitalised costs, not just the base funding requirement.
+                A Brisbane buyer purchasing an indicative amount commercial property with an indicative deposit needs an indicative amount base borrowing. If establishment fees total an indicative amount and you prefer capitalising these, your actual loan amount becomes an indicative amount. Enter the total you'll actually draw, including any capitalised costs, not just the base funding requirement.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -229,11 +229,11 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Understanding Interest Rate Inputs</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Bridging loan interest rates require careful interpretation. Most bridging lenders quote monthly rates—typically 0.8% to 2% monthly—which the calculator converts to annual equivalents. If your lender quotes 1.5% monthly, that's 18% annually (1.5% × 12), though the effective compound rate you'd pay over a full year would be 19.56%.
+                Bridging loan interest rates require careful interpretation. Most bridging lenders quote monthly rates—typically a lender-specific range monthly—which the calculator converts to annual equivalents. If your lender quotes a lender-specific monthly percentage, that's a lender-specific annual percentage (a lender-specific percentage × 12), though the effective compound rate you'd pay over a full year would be a lender-specific percentage.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                The calculator uses the simple annual rate for clarity. Enter the annual rate your lender quotes, or if they provide monthly rates, multiply by 12 before entering. Different security types attract different rates: prime residential property in capital cities might receive 1% monthly (12% annual), whilst commercial property or regional locations could face 1.5% to 2% monthly (18% to 24% annual).
+                The calculator uses the simple annual rate for clarity. Enter the annual rate your lender quotes, or if they provide monthly rates, multiply by 12 before entering. Different security types attract different rates: prime residential property in capital cities might receive a lender-specific monthly percentage (a lender-specific percentage annual), whilst commercial property or regional locations could face a lender-specific range monthly (a lender-specific range annual).
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -264,20 +264,20 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                For a $1.2 million loan at 1.3% monthly (15.6% annually), the calculator shows approximately $15,600 monthly payments. Over 12 months, that's $187,200 in interest—a substantial ongoing expense requiring careful budgeting. Can your business or investment generate sufficient cash flow to sustain these payments comfortably?
+                For an indicative amount loan at a lender-specific monthly percentage (a lender-specific annual percentage), the calculator shows approximately an indicative amount monthly payments. Over 12 months, that's an indicative amount in interest—a substantial ongoing expense requiring careful budgeting. Can your business or investment generate sufficient cash flow to sustain these payments comfortably?
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Some lenders offer interest capitalisation where monthly interest adds to principal rather than requiring cash payment. This preserves working capital but increases total debt progressively. A $1 million loan with capitalised interest at 1.5% monthly grows to approximately $1.196 million after 12 months—$196,000 total interest capitalised into the principal.
+                Some lenders offer interest capitalisation where monthly interest adds to principal rather than requiring cash payment. This preserves working capital but increases total debt progressively. An indicative amount loan with capitalised interest at a lender-specific monthly percentage grows to approximately an indicative amount after 12 months—an indicative amount total interest capitalised into the principal.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Total Interest and Cost Projections</h3>
               <p className="text-muted-foreground leading-relaxed">
-                The total interest figure shows cumulative interest over your specified loan term. However, this represents only part of your total borrowing cost. Additional expenses not reflected in basic calculator outputs include establishment fees (typically 1% to 3% of loan amount), application fees ($1,000 to $2,500), legal fees ($2,000 to $5,000), valuation costs ($800 to $8,000 depending on property type), and potential exit fees (0% to 2% of loan amount).
+                The total interest figure shows cumulative interest over your specified loan term. However, this represents only part of your total borrowing cost. Additional expenses not reflected in basic calculator outputs include establishment fees (typically a lender-specific range of loan amount), application fees (an indicative amount to an indicative amount), legal fees (an indicative amount to an indicative amount), valuation costs (an indicative amount to an indicative amount depending on property type), and potential exit fees (a lender-specific range of loan amount).
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Calculate comprehensive costs by adding these fees to the calculator's interest total. A Perth business owner borrowing $800,000 at 1.5% monthly for 12 months sees $144,000 interest in the calculator. Add $16,000 establishment fees (2%), $2,500 legal costs, $1,500 valuation, and $8,000 exit fees (1%), and total costs reach $172,000—nearly 20% more than interest alone.
+                Calculate comprehensive costs by adding these fees to the calculator's interest total. A Perth business owner borrowing an indicative amount at a lender-specific monthly percentage for 12 months sees an indicative amount interest in the calculator. Add an indicative amount in establishment fees (a lender-specific percentage), an indicative amount in legal costs, an indicative amount for valuation, and an indicative amount of exit fees (a lender-specific percentage), and total costs reach an indicative amount—nearly a lender-specific percentage more than interest alone.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -286,15 +286,15 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Effective Interest Rate Calculations</h3>
               <p className="text-muted-foreground leading-relaxed">
-                The calculator shows your nominal annual rate, but your effective rate—accounting for all fees capitalised into the loan—runs higher. If you capitalise $30,000 in establishment fees into a $1 million loan, you're actually borrowing $1.03 million and paying interest on that higher amount throughout the term.
+                The calculator shows your nominal annual rate, but your effective rate—accounting for all fees capitalised into the loan—runs higher. If you capitalise an indicative amount in establishment fees into an indicative amount loan, you're actually borrowing an indicative amount and paying interest on that higher amount throughout the term.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                This increases your effective cost even though the interest rate remains unchanged. Calculate true effective rates by dividing total costs (interest plus all fees) by the base loan amount, then annualising. Total costs of $172,000 on a $800,000 loan over 12 months represent 21.5% effective annual cost versus the 18% nominal rate you entered.
+                This increases your effective cost even though the interest rate remains unchanged. Calculate true effective rates by dividing total costs (interest plus all fees) by the base loan amount, then annualising. Total costs of an indicative amount on an indicative loan over 12 months represent a lender-specific percentage effective annual cost versus the a lender-specific percentage nominal rate you entered.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Understanding effective rates enables accurate comparison shopping. A loan at 1.5% monthly with 3% establishment fees might cost more than one at 1.6% monthly with 1% establishment fees despite the lower headline rate. Always calculate total costs rather than focusing solely on interest rates.
+                Understanding effective rates enables accurate comparison shopping. A loan at a lender-specific monthly percentage with a lender-specific percentage establishment fees might cost more than one at a lender-specific monthly percentage with a lender-specific percentage establishment fees despite the lower headline rate. Always calculate total costs rather than focusing solely on interest rates.
               </p>
 
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">Comparing Bridging Loan Scenarios</h2>
@@ -304,41 +304,41 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Short-Term vs Extended Terms</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Calculate costs at different timeframes to understand how loan duration impacts total expenses. A Sydney investor purchasing a $1.8 million property might compare: 6 months at 1.2% monthly costs approximately $64,800 interest, whilst 12 months costs $129,600—exactly double for twice the duration.
+                Calculate costs at different timeframes to understand how loan duration impacts total expenses. A Sydney investor purchasing an indicative amount property might compare: 6 months at a lender-specific monthly percentage costs approximately an indicative amount interest, whilst 12 months costs an indicative amount—exactly double for twice the duration.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                However, establishment fees remain constant regardless of term. At $27,000 establishment fees, 6-month total costs reach approximately $91,800 whilst 12-month costs hit $156,600. The proportional cost increase from 6 to 12 months is 70% rather than 100% because fixed fees don't increase with duration.
+                However, establishment fees remain constant regardless of term. At an indicative amount in establishment fees, 6-month total costs reach approximately an indicative amount whilst 12-month costs hit an indicative amount. The proportional cost increase from 6 to 12 months is a lender-specific percentage rather than a lender-specific percentage because fixed fees don't increase with duration.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                This calculation reveals opportunity costs. If you can execute your exit strategy six months sooner, you save $64,800 in interest. This might justify accepting lower sale prices to accelerate timelines—saving $64,800 in interest costs makes accepting $50,000 less on your property sale economically rational.
+                This calculation reveals opportunity costs. If you can execute your exit strategy six months sooner, you save an indicative amount in interest. This might justify accepting lower sale prices to accelerate timelines—saving an indicative amount in interest costs makes accepting an indicative amount less on your property sale economically rational.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Different Interest Rate Impacts</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Model various interest rates to understand rate sensitivity and inform your lender negotiations. Compare the same $1 million loan over 12 months at different rates: 1% monthly (12% annual) costs $120,000 interest, 1.3% monthly (15.6% annual) costs $156,000, and 1.6% monthly (19.2% annual) costs $192,000.
+                Model various interest rates to understand rate sensitivity and inform your lender negotiations. Compare the same an indicative amount loan over 12 months at different rates: a lender-specific monthly percentage (a lender-specific percentage annual) costs an indicative amount interest, a lender-specific monthly percentage (a lender-specific percentage annual) costs an indicative amount and a lender-specific monthly percentage (a lender-specific percentage annual) costs an indicative amount.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                The $36,000 difference between 1% and 1.3% monthly rates, or $72,000 between 1% and 1.6%, makes rate negotiation worthwhile. Even modest rate reductions—0.2% to 0.3% monthly—save thousands over typical loan terms. These savings often exceed mortgage broker fees, making professional broker engagement valuable for securing competitive rates.
+                The indicative difference between a lender-specific range monthly rates, or an indicative amount between a lender-specific range, makes rate negotiation worthwhile. Even modest rate reductions—a lender-specific range monthly—save thousands over typical loan terms. These savings often exceed mortgage broker fees, making professional broker engagement valuable for securing competitive rates.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Rate variations often reflect property quality and borrower strength rather than arbitrary lender policies. Prime residential property in capital cities attracts better rates than commercial property or regional locations. Strong borrower credit and substantial equity might secure 0.3% to 0.5% monthly rate reductions compared to borderline applications.
+                Rate variations often reflect property quality and borrower strength rather than arbitrary lender policies. Prime residential property in capital cities attracts better rates than commercial property or regional locations. Strong borrower credit and substantial equity might secure a lender-specific range monthly rate reductions compared to borderline applications.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Loan Amount Optimisation</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Calculate costs for different borrowing amounts to determine optimal leverage. Sometimes borrowing less reduces total costs sufficiently to justify contributing more equity. Compare borrowing $1.5 million versus $1.2 million on a $2 million property purchase: the $300,000 difference saves approximately $54,000 in interest over 12 months at 1.5% monthly.
+                Calculate costs for different borrowing amounts to determine optimal leverage. Sometimes borrowing less reduces total costs sufficiently to justify contributing more equity. Compare borrowing an indicative amount versus an indicative amount on an indicative amount property purchase: the indicative difference saves approximately an indicative amount in interest over 12 months at a lender-specific monthly percentage.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                However, contributing that additional $300,000 equity ties up capital you might deploy elsewhere. Calculate opportunity costs: if that $300,000 could generate 10% return in alternative investments, you'd earn $30,000—less than the $54,000 interest saving, suggesting the higher equity approach makes sense. Conversely, if alternative opportunities offer 20% returns ($60,000), you're better off borrowing more despite higher interest costs.
+                However, contributing that additional an indicative equity contribution ties up capital you might deploy elsewhere. Calculate opportunity costs: if that an indicative amount could generate a lender-specific percentage return in alternative investments, you'd earn an indicative amount—less than the indicative amount interest saving, suggesting the higher equity approach makes sense. Conversely, if alternative opportunities offer a lender-specific percentage returns (an indicative amount), you're better off borrowing more despite higher interest costs.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Maximum borrowing capacity also requires consideration. Lenders typically cap bridging loans at 65% to 75% loan-to-value ratio. Calculate maximum available borrowing against your property value to ensure your requirements fall within lender parameters before proceeding with plans assuming certain funding levels.
+                Maximum borrowing capacity also requires consideration. Lenders typically cap bridging loans at a lender-specific range loan-to-value ratio. Calculate maximum available borrowing against your property value to ensure your requirements fall within lender parameters before proceeding with plans assuming certain funding levels.
               </p>
 
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">Beyond the Calculator: Hidden Costs</h2>
@@ -348,41 +348,41 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Establishment and Application Fees</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Establishment fees typically range from 1% to 3% of loan amount—$10,000 to $30,000 on a $1 million loan. These substantial upfront costs aren't reflected in calculator monthly payment figures but significantly impact total expenses. Some lenders allow capitalising establishment fees into the loan amount, whilst others require cash payment at settlement.
+                Establishment fees typically range from a lender-specific range of loan amount—an indicative amount to an indicative amount on an indicative amount loan. These substantial upfront costs aren't reflected in calculator monthly payment figures but significantly impact total expenses. Some lenders allow capitalising establishment fees into the loan amount, whilst others require cash payment at settlement.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Application or assessment fees add another $1,000 to $2,500, covering lender evaluation work regardless of whether the loan proceeds. This creates risk—paying $2,000 for assessment of an ultimately declined application represents dead cost with no benefit. Legal fees for documentation preparation typically cost $2,000 to $5,000 depending on loan complexity.
+                Application or assessment fees add another an indicative amount to an indicative amount covering lender evaluation work regardless of whether the loan proceeds. This creates risk—paying an indicative amount for assessment of an ultimately declined application represents dead cost with no benefit. Legal fees for documentation preparation typically cost an indicative amount to an indicative amount depending on loan complexity.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Valuation fees vary dramatically by property type: $800 to $1,500 for standard residential property, $2,000 to $4,000 for commercial property, and potentially $5,000 to $8,000 for large commercial or industrial sites requiring detailed assessment. These costs occur early in the process, often before formal approval.
+                Valuation fees vary dramatically by property type: an indicative amount to an indicative amount for standard residential property, an indicative amount to an indicative amount for commercial property, and potentially an indicative amount to an indicative amount for large commercial or industrial sites requiring detailed assessment. These costs occur early in the process, often before formal approval.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Ongoing and Exit Expenses</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Monthly account keeping fees, though small individually ($50 to $200 monthly), accumulate over the loan term. These often go unnoticed in cost calculations but add $600 to $2,400 over 12 months. Early repayment terms matter significantly—some lenders charge minimum interest periods (typically 3 to 6 months) regardless of actual loan duration.
+                Monthly account keeping fees, though small individually (an indicative amount to an indicative amount monthly), accumulate over the loan term. These often go unnoticed in cost calculations but add an indicative amount to an indicative amount over 12 months. Early repayment terms matter significantly—some lenders charge minimum interest periods (typically 3 to 6 months) regardless of actual loan duration.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                You might repay after two months but owe six months' interest—$60,000 versus $20,000 on a $1 million loan at 1% monthly. Other lenders allow genuine early repayment with no minimum, potentially saving substantial amounts if your exit strategy proceeds faster than expected. Clarify these terms before committing.
+                You might repay after two months but owe six months' interest—an indicative amount versus an indicative amount on an indicative amount loan at a lender-specific monthly percentage. Other lenders allow genuine early repayment with no minimum, potentially saving substantial amounts if your exit strategy proceeds faster than expected. Clarify these terms before committing.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Exit fees charged when repaying bridging loans vary by lender. Some charge 1% to 2% of loan amount as discharge fees ($10,000 to $20,000 on a $1 million loan), whilst others charge flat fees of $500 to $2,000, and some charge nothing beyond standard legal costs ($800 to $1,500). A $1.5 million bridging loan with 2% exit fee costs $30,000 just to repay.
+                Exit fees charged when repaying bridging loans vary by lender. Some charge a lender-specific range of loan amount as discharge fees (an indicative amount to an indicative amount on an indicative amount loan), whilst others charge flat fees of an indicative amount to an indicative amount and some charge nothing beyond standard legal costs (an indicative amount to an indicative amount). An indicative amount bridging loan with a lender-specific percentage exit fee costs an indicative amount just to repay.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Opportunity Costs and Alternatives</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Beyond direct costs, consider opportunity costs of capital tied to deposits and ongoing interest payments. A $600,000 deposit on bridging finance could alternatively earn investment returns elsewhere. If that capital generates 8% annually ($48,000), you're sacrificing this return during the bridging period—effectively adding to your cost.
+                Beyond direct costs, consider opportunity costs of capital tied to deposits and ongoing interest payments. An indicative deposit on bridging finance could alternatively earn investment returns elsewhere. If that capital generates a lender-specific annual percentage (an indicative amount), you're sacrificing this return during the bridging period—effectively adding to your cost.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Compare calculator results against alternative financing options. What would <Link to="/resources/guides/commercial-property-loans-australia-complete-guide" className="text-primary hover:underline">commercial property loans in Australia</Link> cost over the same period? Traditional commercial loans at 7% annually cost substantially less than bridging loans at 12% to 18%, but require months for approval. Calculate both options: sometimes the speed premium justifies bridging loan costs, whilst other times slower but cheaper traditional lending makes sense if timeline permits.
+                Compare calculator results against alternative financing options. What would <Link to="/resources/guides/commercial-property-loans-australia-complete-guide" className="text-primary hover:underline">commercial property loans in Australia</Link> cost over the same period? Traditional commercial loans at a lender-specific annual percentage cost substantially less than bridging loans at a lender-specific range, but require months for approval. Calculate both options: sometimes the speed premium justifies bridging loan costs, whilst other times slower but cheaper traditional lending makes sense if timeline permits.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                <Link to="/resources/guides/caveat-loans-australia-complete-guide" className="text-primary hover:underline">Caveat loans in Australia</Link> might deliver similar speed to bridging loans but different cost structures. Caveat loans typically charge 1% to 2% monthly with lower establishment fees, sometimes providing cheaper alternatives for short-term property-secured funding. However, caveat loans often provide lower LVRs (60% to 65%), requiring larger deposits that might not suit your cash position.
+                <Link to="/resources/guides/caveat-loans-australia-complete-guide" className="text-primary hover:underline">Caveat loans in Australia</Link> might deliver similar speed to bridging loans but different cost structures. Caveat loans typically charge a lender-specific range monthly with lower establishment fees, sometimes providing cheaper alternatives for short-term property-secured funding. However, caveat loans often provide lower LVRs (a lender-specific range), requiring larger deposits that might not suit your cash position.
               </p>
 
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">When Calculator Results Suggest Alternatives</h2>
@@ -392,15 +392,15 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Cost-Benefit Analysis Thresholds</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Compare calculated bridging loan costs against the value you're obtaining. If bridging finance costs $150,000 over 12 months but enables a property purchase generating $300,000 profit, the 50% cost-to-benefit ratio seems reasonable. Conversely, if bridging costs $150,000 to hold a property you'll ultimately sell for only $50,000 more than waiting would achieve, economics don't support bridging finance.
+                Compare calculated bridging loan costs against the value you're obtaining. If bridging finance costs an indicative amount over 12 months but enables a property purchase generating an indicative profit, the a lender-specific percentage cost-to-benefit ratio seems reasonable. Conversely, if bridging costs an indicative amount to hold a property you'll ultimately sell for only an indicative amount more than waiting would achieve, economics don't support bridging finance.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Assess costs against your alternatives. What happens if you don't use bridging finance? Perhaps you lose a property opportunity worth $200,000 potential profit—paying $100,000 in bridging costs to capture $200,000 profit makes sense. However, if the alternative is simply slightly delayed timelines without material profit impact, paying $100,000 to save three months might not justify the expense.
+                Assess costs against your alternatives. What happens if you don't use bridging finance? Perhaps you lose a property opportunity worth an indicative potential profit—paying an indicative amount in bridging costs to capture an indicative profit makes sense. However, if the alternative is simply slightly delayed timelines without material profit impact, paying an indicative amount to save three months might not justify the expense.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                High costs in absolute terms might still be acceptable if they solve critical business problems or prevent larger losses. A business facing $500,000 in penalty clauses for late project delivery might readily pay $120,000 in bridging loan costs to avoid those penalties—the 4:1 benefit-to-cost ratio clearly supports the decision despite bridging finance being expensive in isolation.
+                High costs in absolute terms might still be acceptable if they solve critical business problems or prevent larger losses. A business facing an indicative amount in penalty clauses for late project delivery might readily pay an indicative amount in bridging loan costs to avoid those penalties—the 4:1 benefit-to-cost ratio clearly supports the decision despite bridging finance being expensive in isolation.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Stress Testing Scenarios</h3>
@@ -409,20 +409,20 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                A Canberra investor planning 12-month bridging at $156,000 total cost faces $234,000 if circumstances extend to 18 months—$78,000 additional expense potentially eliminating project profits. Understanding this downside helps assess whether the risk-reward balance supports proceeding or suggests alternative approaches providing more flexibility or lower risk profiles.
+                A Canberra investor planning 12-month bridging at an indicative amount total cost faces an indicative amount if circumstances extend to 18 months—an indicative amount additional expense potentially eliminating project profits. Understanding this downside helps assess whether the risk-reward balance supports proceeding or suggests alternative approaches providing more flexibility or lower risk profiles.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Model different interest rate scenarios if considering variable-rate bridging loans. Calculate costs if rates increase 0.5% to 1% during your loan term—does this stress your cash flow or fundamentally alter project economics? Fixed-rate bridging loans eliminate this uncertainty but typically cost 0.2% to 0.4% monthly more than variable rates.
+                Model different interest rate scenarios if considering variable-rate bridging loans. Calculate costs if rates increase a lender-specific range during your loan term—does this stress your cash flow or fundamentally alter project economics? Fixed-rate bridging loans eliminate this uncertainty but typically cost a lender-specific range monthly more than variable rates.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Alternative Funding Strategies</h3>
               <p className="text-muted-foreground leading-relaxed">
-                If calculator results show bridging costs consuming significant portions of expected profits or returns, explore alternatives. Vendor finance arrangements—where property sellers provide funding—eliminate third-party lender costs entirely. Some vendors accept 6% to 8% interest versus 12% to 18% for bridging loans, potentially halving your financing costs.
+                If calculator results show bridging costs consuming significant portions of expected profits or returns, explore alternatives. Vendor finance arrangements—where property sellers provide funding—eliminate third-party lender costs entirely. Some vendors accept a lender-specific range interest versus a lender-specific range for bridging loans, potentially halving your financing costs.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Traditional commercial lending, whilst slower, might suit situations where speed isn't absolutely critical. If your timeline allows 6 to 8 weeks for approval, commercial loans at 6% to 8% annually cost dramatically less than bridging finance. Calculate both scenarios: sometimes accepting modest project delays to secure cheaper funding improves overall economics substantially.
+                Traditional commercial lending, whilst slower, might suit situations where speed isn't absolutely critical. If your timeline allows 6 to 8 weeks for approval, commercial loans at a lender-specific range annually cost dramatically less than bridging finance. Calculate both scenarios: sometimes accepting modest project delays to secure cheaper funding improves overall economics substantially.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -435,7 +435,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Use the calculator as your starting point, not your ending point. Model multiple scenarios varying loan amounts, interest rates, and terms to understand how different variables affect costs. Add establishment fees (typically 2% to 3%), legal costs ($2,000 to $5,000), and valuation expenses ($800 to $8,000) to calculator results for realistic total cost projections. Compare these comprehensive costs against the benefits you're achieving—property profit opportunities, urgent business needs, or time-sensitive acquisition advantages.
+                Use the calculator as your starting point, not your ending point. Model multiple scenarios varying loan amounts, interest rates, and terms to understand how different variables affect costs. Add establishment fees (typically a lender-specific range), legal costs (an indicative amount to an indicative amount), and valuation expenses (an indicative amount to an indicative amount) to calculator results for realistic total cost projections. Compare these comprehensive costs against the benefits you're achieving—property profit opportunities, urgent business needs, or time-sensitive acquisition advantages.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
