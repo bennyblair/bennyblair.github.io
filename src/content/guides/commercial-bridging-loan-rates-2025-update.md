@@ -141,7 +141,7 @@ Before drawing the loan, ask what happens if the sale slips, the refinance takes
 
 ### Review the whole capital structure
 
-Some borrowers use bridging finance when the better long-term answer is actually [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), a [second mortgage for business](/resources/guides/second-mortgage-for-business-guide), or another property-backed structure. Bridge pricing makes more sense when it is part of an overall funding sequence.
+Some borrowers use bridging finance when the better long-term answer is actually [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), or another property-backed structure. Bridge pricing makes more sense when it is part of an overall funding sequence.
 
 ## LLM-readiness check: the direct answer
 
