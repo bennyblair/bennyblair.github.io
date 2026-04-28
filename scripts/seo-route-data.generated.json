@@ -467,6 +467,15 @@
     "noscript": "An informational guide to commercial property lenders in Australia for business owners, developers, and investors. Learn lender types, how they differ, what they assess, and how to compare options without treating finance as one-size-fits-all.",
     "sourcePath": "src/content/guides/commercial-property-lenders-in-australia-complete-directory.md"
   },
+  "/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them": {
+    "title": "Commercial Property Loan Covenants: What Happens When a Business Breaches Them? | Emet Capital",
+    "description": "Plain-English guide to commercial property loan covenant breaches in Australia, including what lenders monitor, what happens after a breach, and when refinance or private lending may create time to repair. General information only - not advice.",
+    "keywords": "commercial loan covenant breach finance australia, commercial property loan covenants, loan covenant breach Australia, commercial property refinance, private lending for commercial property",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them",
+    "h1": "Commercial Property Loan Covenants: What Happens When a Business Breaches Them?",
+    "noscript": "Plain-English guide to commercial property loan covenant breaches in Australia, including what lenders monitor, what happens after a breach, and when refinance or private lending may create time to repair. General information only - not advice.",
+    "sourcePath": "src/content/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them.md"
+  },
   "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need": {
     "title": "Commercial Property Loan Deposits in Australia: How Much Do You Need? | Emet Capital",
     "description": "Learn how commercial property loan deposits work in Australia, what costs sit above the purchase deposit, when lenders may ask for more equity, and how business borrowers should plan their capital stack.",
@@ -1258,6 +1267,15 @@
     "h1": "Vacant Commercial Property Refinance in Australia: What Lenders Look For",
     "noscript": "A practical guide to refinancing vacant commercial property in Australia, including how lenders assess vacancy risk, valuation pressure, exit strategy, and when short-term or specialist refinance options may fit.",
     "sourcePath": "src/content/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for.md"
+  },
+  "/resources/guides/vendor-finance-vs-business-acquisition-loan-in-australia": {
+    "title": "Vendor Finance vs Business Acquisition Loan in Australia | Emet Capital",
+    "description": "Compare vendor finance and business acquisition loans in Australia, including control, security, due diligence, repayment risk, seller protections, and when blended structures may fit. General information only - not advice.",
+    "keywords": "vendor finance vs business acquisition loan, vendor finance Australia, business acquisition loan Australia, business purchase finance, acquisition funding Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/vendor-finance-vs-business-acquisition-loan-in-australia",
+    "h1": "Vendor Finance vs Business Acquisition Loan in Australia",
+    "noscript": "Compare vendor finance and business acquisition loans in Australia, including control, security, due diligence, repayment risk, seller protections, and when blended structures may fit. General information only - not advice.",
+    "sourcePath": "src/content/guides/vendor-finance-vs-business-acquisition-loan-in-australia.md"
   },
   "/resources/guides/what-is-a-caveatable-interest": {
     "title": "What Is a Caveatable Interest? Legal Guide for Business Borrowers | Emet Capital",
