@@ -23,6 +23,7 @@ In plain terms, the deposit is only one part of the capital stack. You also need
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broad overview of structures, lender types, and approval criteria.
 - **[Commercial Property LVR Explained: Maximise Your Borrowing](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)** — Useful for understanding how deposit and LVR work together.
 - **[Commercial Property Refinance After a Bank Decline in Australia](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — Relevant if your deposit shortfall appears after a credit decline.
+- **[Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — Explains how lenders assess income, debt cover, and borrowing capacity.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful when equity release or refinance may be part of the funding plan.
 - **[Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Useful where a timing gap exists between purchase and permanent debt.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Explains how lender type affects leverage and flexibility.
@@ -81,7 +82,7 @@ For investment property, the income profile is a major part of the credit story.
 
 ### Borrower strength matters
 
-If the borrower’s business financials, serviceability, and overall balance sheet are strong, lenders may be more comfortable with the structure. If the borrower is stretched, newly established, or has a more complex story, the lender may ask for more equity.
+If the borrower’s business financials, serviceability, and overall balance sheet are strong, lenders may be more comfortable with the structure. If the borrower is stretched, newly established, or has a more complex story, the lender may ask for more equity. For borrowers still modelling capacity, the companion guide on [commercial property loan serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow) explains how lenders turn income, leases, expenses, and existing debt into a practical borrowing range.
 
 ### Valuation risk matters
 
@@ -198,6 +199,7 @@ It can. For investment assets, stronger leases and more stable income often impr
 - [Commercial Property LVR Explained: Maximise Your Borrowing](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
 - [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 

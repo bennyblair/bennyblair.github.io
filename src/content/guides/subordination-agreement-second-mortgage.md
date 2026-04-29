@@ -33,7 +33,7 @@ A subordination agreement is a contract that confirms one creditor ranks behind 
 
 Sometimes this is straightforward because the title position already shows who is first and who is second. But title ranking alone does not always answer every operational question. Lenders may still want a separate document dealing with payment waterfalls, notice obligations, standstill periods, cure rights, enforcement steps, and what happens if the borrower defaults.
 
-In practice, borrowers will also hear terms such as *priority deed*, *deed of priority*, or *intercreditor agreement*. The wording can differ, but the commercial purpose is similar: it tells everyone where they sit and what they can do.
+In practice, borrowers will also hear terms such as *priority deed*, *deed of priority*, or *intercreditor agreement*. The wording can differ, but the commercial purpose is similar: it tells everyone where they sit and what they can do. If the structure involves multiple lenders or negotiated control rights, the detailed guide to [intercreditor agreements in second mortgages](/resources/guides/intercreditor-agreements-second-mortgage-complexity) is the next logical reference.
 
 ## Why second mortgage lenders care about it
 
@@ -42,7 +42,7 @@ A second mortgage lender is advancing capital behind existing debt. That means t
 Without a clear subordination framework, the second lender can face uncertainty around:
 
 - whether the first lender must consent
-n- whether interest or default action by the first lender can wipe out available equity
+- whether interest or default action by the first lender can wipe out available equity
 - whether the second lender can register and enforce without dispute
 - whether there is a practical path to refinance or repay the position later
 
@@ -64,7 +64,7 @@ Where a borrower is refinancing pressure debt, settling arrears, or using a seco
 
 ### Development or investment structures
 
-Developers and commercial investors often use second-position debt when they want to preserve a strong first mortgage and access additional equity. In those situations, the second lender will usually be focused on how the senior lender interacts with the deal and what triggers may affect the exit.
+Developers and commercial investors often use second-position debt when they want to preserve a strong first mortgage and access additional equity. In those situations, the second lender will usually be focused on how the senior lender interacts with the deal and what triggers may affect the exit. Where the parties need more than a simple ranking acknowledgement, an [intercreditor agreement](/resources/guides/intercreditor-agreements-second-mortgage-complexity) can set out standstill rules, cure rights, consent mechanics, and enforcement coordination.
 
 ## What the document may cover
 
@@ -161,6 +161,13 @@ Not necessarily. It often just means the parties are documenting an already laye
 ### “It only matters to the lenders.”
 
 It matters to borrowers because it can directly affect settlement speed, legal cost, and exit flexibility.
+
+## Related Guides
+
+- [Intercreditor Agreements and Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)
+- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)
 
 ## Frequently asked questions
 
