@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "qa:article": "node scripts/article-qa.mjs",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "qa:geo-static": "node scripts/geo-static-html-qa.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

@@ -40,6 +40,9 @@ Explore our specialist caveat loans guides for specific scenarios:
 
 ---
 
+## Citation-Ready Answer: What Is a Caveat Loan?
+
+A caveat loan is short-term, business-purpose finance that is usually supported by real property and protected by lodging a caveat on the property title. In practical terms, the caveat gives the lender notice rights if the owner tries to sell, refinance, or otherwise deal with the property before the debt is repaid. Caveat loans are most often considered when a business needs urgent funding and has a clear repayment pathway, such as a pending sale, refinance, settlement, receivable, or business cash event. They are not a substitute for long-term working capital and they can be expensive compared with standard bank finance. Emet Capital helps borrowers compare whether a caveat loan, second mortgage, bridging loan, refinance, or other property-backed structure is more suitable for the timing, security, purpose, and exit strategy. This is general information only and not financial advice.
 ## Understanding Caveat Loan Fundamentals
 
 Caveat loans operate through unique legal mechanisms that enable rapid funding by leveraging property interests without requiring traditional mortgage registration processes. Understanding these fundamentals helps businesses evaluate whether caveat financing suits their specific circumstances and urgency requirements.

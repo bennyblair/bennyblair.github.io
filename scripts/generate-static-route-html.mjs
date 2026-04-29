@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { marked } from 'marked';
 
 const repoRoot = process.cwd();
 const srcDir = path.join(repoRoot, 'src');
@@ -43,6 +44,59 @@ function decodeJsString(value) {
     .replace(/\\n/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function escapeHtml(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function stripUnsafeHtml(value) {
+  return String(value || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/\son\w+=("[^"]*"|'[^']*'|[^\s>]+)/gi, '')
+    .replace(/href=("|')javascript:[\s\S]*?\1/gi, 'href="#"');
+}
+
+function markdownToStaticHtml(markdown) {
+  const withoutLdJson = String(markdown || '').replace(/<script[\s\S]*?<\/script>/gi, '');
+  return stripUnsafeHtml(marked.parse(withoutLdJson, { async: false, gfm: true }));
+}
+
+function extractReadableTextFromComponent(source) {
+  const textMatches = [];
+  for (const match of source.matchAll(/>([^<>{}][^<>{}]*)</g)) {
+    const value = decodeJsString(match[1]).trim();
+    if (value && !/^[\s|•·,.;:!?-]+$/.test(value)) textMatches.push(value);
+  }
+  for (const match of source.matchAll(/(?:title|description|subtitle|label|children)=['"]([^'"]{20,})['"]/g)) {
+    textMatches.push(decodeJsString(match[1]));
+  }
+  return [...new Set(textMatches)]
+    .filter((value) => !/^(className|href|src|import|const)\b/.test(value))
+    .join('\n\n')
+    .replace(/\s+\n/g, '\n')
+    .trim();
+}
+
+function componentTextToStaticHtml(title, description, source) {
+  const text = extractReadableTextFromComponent(source);
+  const paragraphs = [description, ...text.split(/\n{2,}/)]
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .slice(0, 80);
+  return paragraphs.map((part, index) => {
+    if (index === 0) return `<p>${escapeHtml(part)}</p>`;
+    if (part.length < 90 && /^[A-Z0-9][A-Za-z0-9\s&,'():/-]+$/.test(part)) {
+      return `<h2>${escapeHtml(part)}</h2>`;
+    }
+    return `<p>${escapeHtml(part)}</p>`;
+  }).join('\n');
 }
 
 function extractTagContent(source, tagName) {
@@ -134,6 +188,7 @@ function extractComponentMeta(routePath, componentSource, sourcePath) {
     canonical,
     h1,
     noscript: description,
+    staticHtml: componentTextToStaticHtml(h1, description, componentSource),
     sourcePath,
   };
 }
@@ -144,13 +199,13 @@ function parseMarkdownDirectory(relativeDir) {
     .filter((file) => file.endsWith('.md'))
     .map((file) => {
       const raw = fs.readFileSync(path.join(fullDir, file), 'utf8');
-      const { data } = matter(raw);
+      const { data, content } = matter(raw);
       const slug = file.replace(/\.md$/, '');
-      return { slug, data };
+      return { slug, data, content };
     });
 }
 
-function buildGuideMeta(routePath, frontmatter, sourcePath) {
+function buildGuideMeta(routePath, frontmatter, sourcePath, markdownContent = '') {
   const title = frontmatter.title || slugToPhrase(routePath);
   const description = frontmatter.description || `Read our guide on ${slugToPhrase(routePath)}.`;
   const keywordValue = Array.isArray(frontmatter.keywords) ? frontmatter.keywords.join(', ') : (frontmatter.keyword || frontmatter.keywords || '');
@@ -161,11 +216,12 @@ function buildGuideMeta(routePath, frontmatter, sourcePath) {
     canonical: normalizeCanonical(routePath, routePath),
     h1: title,
     noscript: description,
+    staticHtml: markdownToStaticHtml(markdownContent),
     sourcePath,
   };
 }
 
-function buildCaseStudyMeta(routePath, frontmatter, sourcePath) {
+function buildCaseStudyMeta(routePath, frontmatter, sourcePath, markdownContent = '') {
   const title = frontmatter.title || slugToPhrase(routePath);
   const description = frontmatter.description || `Read this Emet Capital case study on ${slugToPhrase(routePath)}.`;
   const keywordValue = Array.isArray(frontmatter.keywords) ? frontmatter.keywords.join(', ') : (frontmatter.keyword || frontmatter.keywords || '');
@@ -176,6 +232,7 @@ function buildCaseStudyMeta(routePath, frontmatter, sourcePath) {
     canonical: normalizeCanonical(routePath, routePath),
     h1: title,
     noscript: description,
+    staticHtml: markdownToStaticHtml(markdownContent),
     sourcePath,
   };
 }
@@ -239,7 +296,8 @@ function renderHtml(meta) {
   html = replaceOrInsertHreflang(html, 'en', meta.canonical);
   html = replaceOrInsertHreflang(html, 'x-default', meta.canonical);
 
-  const noscriptBlock = `<noscript><main style="padding:24px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:0 auto;color:#111"><h1>${meta.h1}</h1><p>${meta.noscript}</p></main></noscript>`;
+  const staticBody = meta.staticHtml || `<p>${escapeHtml(meta.noscript)}</p>`;
+  const noscriptBlock = `<noscript><main class="static-seo-content" style="padding:24px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:960px;margin:0 auto;color:#111"><h1>${escapeHtml(meta.h1)}</h1>${staticBody}</main></noscript>`;
   html = html.replace(/<body([^>]*)>/i, `<body$1>${noscriptBlock}`);
   return html;
 }
@@ -253,14 +311,14 @@ for (const entry of routerEntries) {
     if (entry.path.includes('/resources/guides/:slug')) {
       for (const article of parseMarkdownDirectory('content/guides')) {
         const routePath = entry.path.replace(':slug', article.slug);
-        generatedRoutes.set(routePath, buildGuideMeta(routePath, article.data, `src/content/guides/${article.slug}.md`));
+        generatedRoutes.set(routePath, buildGuideMeta(routePath, article.data, `src/content/guides/${article.slug}.md`, article.content));
       }
     }
 
     if (entry.path.includes('/resources/case-studies/:slug') || entry.path.includes('/case-studies/:slug')) {
       for (const article of parseMarkdownDirectory('content/case-studies')) {
         const routePath = entry.path.replace(':slug', article.slug);
-        generatedRoutes.set(routePath, buildCaseStudyMeta(routePath, article.data, `src/content/case-studies/${article.slug}.md`));
+        generatedRoutes.set(routePath, buildCaseStudyMeta(routePath, article.data, `src/content/case-studies/${article.slug}.md`, article.content));
       }
     }
     continue;
@@ -281,7 +339,11 @@ for (const entry of routerEntries) {
 }
 
 const jsonOutputPath = path.join(repoRoot, 'scripts', 'seo-route-data.generated.json');
-fs.writeFileSync(jsonOutputPath, JSON.stringify(Object.fromEntries(generatedRoutes), null, 2));
+const routeData = Object.fromEntries([...generatedRoutes.entries()].map(([route, meta]) => {
+  const { staticHtml, ...publicMeta } = meta;
+  return [route, publicMeta];
+}));
+fs.writeFileSync(jsonOutputPath, JSON.stringify(routeData, null, 2));
 
 for (const [route, meta] of generatedRoutes.entries()) {
   const html = renderHtml(meta);

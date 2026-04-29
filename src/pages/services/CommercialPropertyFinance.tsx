@@ -106,6 +106,28 @@ const CommercialPropertyFinance = () => {
           </div>
 
           <div className="max-w-4xl mx-auto space-y-12 mb-16">
+            <section className="bg-muted/30 rounded-2xl p-6 border border-border">
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                What Is Commercial Property Finance?
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Commercial property finance is business-purpose lending used to buy, refinance, settle,
+                improve, or release equity from commercial property. It may apply to offices, warehouses,
+                retail premises, industrial sites, mixed-use assets, development sites, and owner-occupied
+                business premises. The right structure depends on the property, borrower, loan purpose,
+                available equity, lease or business income, lender policy, documents, and exit strategy.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Emet Capital acts as a commercial finance broker, not a bank or direct lender. We help
+                borrowers compare bank, non-bank, and private lender options for commercial property
+                purchases, urgent settlements, refinance gaps, second mortgages, caveat-backed facilities,
+                and short-term property-backed business funding. Commercial property finance can be useful
+                when timing, security, and commercial purpose are clear, but it is not guaranteed and may be
+                unsuitable where equity, documentation, serviceability, legal structure, or repayment pathway
+                is weak. This page provides general information only and is not financial advice.
+              </p>
+            </section>
+
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 Urgent Commercial Property Settlement
