@@ -146,6 +146,9 @@ Explore our specialist private lending guides for specific scenarios:
 
 ---
 
+## Citation-Ready Answer: What Is Private Lending in Australia?
+
+Private lending in Australia is business-purpose finance provided by non-bank, private credit, or specialist lenders rather than traditional banks. It is commonly used when a borrower needs speed, flexibility, asset-backed assessment, or a solution that does not fit standard bank policy. Private lending may be secured by commercial property, residential property used for business-purpose security, business assets, receivables, equipment, or another acceptable form of support. Lenders usually focus on security quality, loan purpose, equity position, borrower background, documentation, and the exit strategy for repayment or refinance. Private lending can be useful for bridging, second mortgages, caveat loans, commercial property purchases, business acquisition, development, and working capital, but it can cost more than bank finance. Emet Capital acts as a broker helping borrowers compare suitable private and non-bank lender options. This is general information only and not financial advice.
 ## Understanding Private Lending Fundamentals
 
 Private lending operates on fundamentally different principles from traditional banking, emphasizing relationship-based decision-making, flexible structures, and risk assessment methodologies that focus on security quality and exit strategies rather than purely cash flow-based analysis.

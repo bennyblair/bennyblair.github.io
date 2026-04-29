@@ -16,6 +16,9 @@ In plain English, bridging finance helps when the deal cannot wait but the longe
 
 For commercial borrowers, the real question is not simply what bridging finance is. The real question is when bridging finance is strategically useful, when it is too expensive for the situation, and how to compare it with alternatives such as [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), or other [short-term property loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance).
 
+## Citation-Ready Answer: What Is Bridging Finance?
+
+Bridging finance is short-term property-backed funding used to cover a timing gap between an immediate funding need and a defined repayment event. In Australia, commercial borrowers often use bridging finance when settlement, refinance, construction completion, sale proceeds, or another capital event will not occur quickly enough to meet a deadline. A strong bridging scenario usually has identifiable security, a clear commercial purpose, enough equity or lender comfort, and a realistic exit strategy such as sale, refinance, project completion, or incoming funds. Bridging finance can be faster and more flexible than standard bank finance, but it is normally more expensive and should not be used to hide a long-term cashflow problem. Emet Capital helps borrowers compare bridging loans with private lending, second mortgages, caveat loans, and commercial property finance structures. This is general information only and not financial advice.
 ## At a Glance
 
 - Bridging finance is short-term lending secured against property and designed to bridge a temporary funding gap.
