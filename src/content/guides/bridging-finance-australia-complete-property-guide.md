@@ -1,5 +1,5 @@
 ---
-title: "Bridging Finance Australia: Commercial Property Guide"
+title: "Bridging Finance Australia Guide"
 description: "Bridging finance in Australia for commercial borrowers. Learn when short-term property-backed funding fits, lender assessment, risks, and exit planning."
 date: "29 September 2025"
 category: "Property Finance"
@@ -8,7 +8,7 @@ keywords: ["bridging finance", "bridging loans", "property bridging", "commercia
 readTime: "14 min read"
 ---
 
-# Bridging Finance in Australia: The Complete Property Guide
+# Bridging Finance Australia Guide
 
 Bridging finance in Australia is short-term, property-backed commercial funding used when a transaction needs to settle before the planned sale, refinance, construction milestone, or other repayment event is ready. It can help property investors, developers, and business owners solve a timing gap, but only where the security and exit strategy are clear.
 
