@@ -137,7 +137,7 @@ export function extractFAQs(markdown: string): FAQItem[] {
 export function stripFirstHeading(markdown: string): string {
   if (!markdown) return '';
   
-  const lines = markdown.split('\n');
+  const lines = markdown.replace(/^\s*\n/, '').split('\n');
   const firstLineIsH1 = /^#\s+/.test(lines[0]);
   
   if (firstLineIsH1) {

@@ -41,7 +41,7 @@ const FirstSecondMortgages = () => {
     <>
       <SEO
         title="Second Mortgage Business Loans Australia | Emet Capital"
-        description="First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, working capital, or short-term funding needs."
+        description="First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, or working capital."
         canonical="/services/first-second-mortgages"
         keywords="second mortgage business loan, first mortgage commercial loan, commercial mortgage, property-backed business loans, commercial property finance"
         schemas={[generateServiceSchema(

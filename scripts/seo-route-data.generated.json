@@ -1774,11 +1774,11 @@
   },
   "/services/first-second-mortgages": {
     "title": "Second Mortgage Business Loans Australia | Emet Capital",
-    "description": "First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, working capital, or short-term funding needs.",
+    "description": "First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, or working capital.",
     "keywords": "second mortgage business loan, first mortgage commercial loan, commercial mortgage, property-backed business loans, commercial property finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages",
     "h1": "Commercial 1st & 2nd Mortgages",
-    "noscript": "First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, working capital, or short-term funding needs.",
+    "noscript": "First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, or working capital.",
     "sourcePath": "src/pages/services/FirstSecondMortgages.tsx"
   },
   "/services/commercial-property-development": {
