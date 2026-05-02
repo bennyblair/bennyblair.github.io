@@ -24,6 +24,8 @@ For business owners, investors, and developers dealing with tax pressure, settle
 - **[Quick Caveat Loans: Is 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Useful for understanding what fast execution really requires.
 - **[Find Caveat Loan Brokers in Australia](/resources/guides/find-caveat-loan-brokers-australia)** — Practical guide to choosing a broker for urgent property-backed funding.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Important if the deal sits in a broader non-bank or specialist-lending category.
+- **[Caveat Loans Melbourne](/resources/guides/caveat-loans-melbourne-quick-business-finance)** — Melbourne-specific caveat loan timing and readiness guide.
+- **[Caveat Loans Perth](/resources/guides/caveat-loans-perth-business-property-finance)** — Perth-specific caveat loan security and exit planning guide.
 
 ## At a Glance
 

@@ -37,6 +37,9 @@ Explore our specialist caveat loans guides for specific scenarios:
 - **[Finding Caveat Brokers](/resources/guides/find-caveat-loan-brokers-australia)** — How to find and evaluate caveat loan specialists
 - **[Quick Caveat Loans](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Is 48-hour settlement really achievable?
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Same-day and next-day assessment considerations
+- **[Caveat Loans Sydney](/resources/guides/caveat-loans-sydney-same-day-approval-available)** — Sydney-specific timing, documents, and lender assessment context
+- **[Caveat Loans Melbourne](/resources/guides/caveat-loans-melbourne-quick-business-finance)** — Melbourne business caveat finance scenarios and readiness checklist
+- **[Caveat Loans Perth](/resources/guides/caveat-loans-perth-business-property-finance)** — Perth property-backed business funding scenarios and risk checks
 
 ### At a Glance
 
