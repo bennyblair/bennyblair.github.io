@@ -134,6 +134,15 @@
     "noscript": "Comprehensive guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction transitions, and exit strategies.",
     "sourcePath": "src/content/guides/bridging-finance-developers-project-funding-solutions.md"
   },
+  "/resources/guides/bridging-finance-melbourne-fast-property-solutions": {
+    "title": "Bridging Finance Melbourne: Fast Property Solutions | Emet Capital",
+    "description": "Guide to bridging finance for Melbourne commercial property buyers, investors and business owners. Learn when bridging can help, when it does not, and what lenders assess. General information only - not advice.",
+    "keywords": "bridging finance melbourne, commercial bridging finance Melbourne, Melbourne property bridging loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-melbourne-fast-property-solutions",
+    "h1": "Bridging Finance Melbourne: Fast Property Solutions",
+    "noscript": "Guide to bridging finance for Melbourne commercial property buyers, investors and business owners. Learn when bridging can help, when it does not, and what lenders assess. General information only - not advice.",
+    "sourcePath": "src/content/guides/bridging-finance-melbourne-fast-property-solutions.md"
+  },
   "/resources/guides/bridging-finance-sydney-48-hour-settlement-possible": {
     "title": "Bridging Finance Sydney: Is 48-Hour Settlement Really Possible for Commercial Borrowers? | Emet Capital",
     "description": "Guide to bridging finance in Sydney for commercial borrowers. Learn when 48-hour settlement may be possible, what lenders need, and when bridging finance is the wrong tool. Informational only.",
@@ -898,6 +907,15 @@
     "h1": "Mezzanine Finance in Australia: The Complete Guide for Business Growth",
     "noscript": "Complete guide to mezzanine finance in Australia. Learn about subordinated debt, equity features, acquisition finance, and when to use mezzanine funding. General information only - not advice.",
     "sourcePath": "src/content/guides/mezzanine-finance-australia-complete-guide.md"
+  },
+  "/resources/guides/negative-gearing-commercial-property-tax-strategies": {
+    "title": "Negative Gearing Commercial Property: Tax Strategies | Emet Capital",
+    "description": "General guide to negative gearing for Australian commercial property investors, including cash-flow risks, lender assessment and finance structure considerations. General information only - not tax or financial advice.",
+    "keywords": "negative gearing commercial property, commercial property tax strategies, commercial property finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/negative-gearing-commercial-property-tax-strategies",
+    "h1": "Negative Gearing Commercial Property: Tax Strategies",
+    "noscript": "General guide to negative gearing for Australian commercial property investors, including cash-flow risks, lender assessment and finance structure considerations. General information only - not tax or financial advice.",
+    "sourcePath": "src/content/guides/negative-gearing-commercial-property-tax-strategies.md"
   },
   "/resources/guides/no-doc-abn-loans": {
     "title": "No Doc ABN Loans in Australia | Emet Capital",
