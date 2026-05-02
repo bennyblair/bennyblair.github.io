@@ -284,7 +284,7 @@ const GuideArticle = () => {
   const seoDescription = article.description;
   const seoKeywords = article.tags?.join(', ') || 'commercial finance, business lending, Australia';
   const canonicalUrl = `/resources/${contentType}/${slug}`;
-  const seoImage = article.featuredImage || `/images/uploads/${slug}.jpg`;
+  const seoImage = article.featuredImage || `/placeholder.svg`;
 
   // Generate JSON-LD structured data
   const articleSchema = {
@@ -292,7 +292,7 @@ const GuideArticle = () => {
     "@type": "Article",
     "headline": article.title,
     "description": article.description,
-    "image": article.featuredImage ? `https://emetcapital.com.au${article.featuredImage}` : `https://emetcapital.com.au${seoImage}`,
+    "image": `https://emetcapital.com.au${seoImage}`,
     "datePublished": article.date,
     "dateModified": article.date,
     "author": {
@@ -306,7 +306,7 @@ const GuideArticle = () => {
       "url": "https://emetcapital.com.au",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://emetcapital.com.au/logo.png"
+        "url": "https://emetcapital.com.au/placeholder.svg"
       }
     },
     "mainEntityOfPage": {

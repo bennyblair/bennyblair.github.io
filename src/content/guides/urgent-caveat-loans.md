@@ -1,6 +1,6 @@
 ---
 title: "Urgent Caveat Loans Australia: Fast Business Funding Guide"
-description: "Urgent caveat loans may help business borrowers use property equity when settlement, tax, or cash-flow deadlines are tight. Learn when they fit, risks, documents, and exits."
+description: "Urgent caveat loans may help business borrowers use property equity when settlement, tax, or cash-flow deadlines are tight. Learn risks, documents, and exits."
 date: "2025-10-10"
 slug: "urgent-caveat-loans"
 category: "Property Finance"
@@ -14,7 +14,7 @@ schema:
     "@type": "Article"
     headline: "Urgent Caveat Loans Australia: Fast Business Funding Guide"
     description: "Urgent caveat loans may help business borrowers use property equity when settlement, tax, or cash-flow deadlines are tight. Learn fit, risks, documents, and exits."
-    image: "https://emetcapital.com.au/images/urgent-caveat-loans.jpg"
+    image: "https://emetcapital.com.au/placeholder.svg"
     author:
       "@type": "Organization"
       name: "Emet Capital"
@@ -24,7 +24,7 @@ schema:
       name: "Emet Capital"
       logo:
         "@type": "ImageObject"
-        url: "https://emetcapital.com.au/logo.png"
+        url: "https://emetcapital.com.au/placeholder.svg"
     datePublished: "2025-10-10"
     dateModified: "2026-05-02"
     mainEntityOfPage:

@@ -5,7 +5,6 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { BookOpen, Phone, FileText, Building2, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
-import { Helmet } from "react-helmet-async";
 import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
@@ -40,15 +39,17 @@ const FirstSecondMortgages = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Commercial 1st & 2nd Mortgages Australia | Emet Capital</title>
-        <meta 
-          name="description" 
-          content="Commercial first and second mortgage finance for business-purpose property-backed loans, equity release, refinance transitions, and short-term funding structures." 
-        />
-        <meta name="keywords" content="commercial mortgage, first mortgage, second mortgage, commercial property finance, business property loans" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/first-second-mortgages" />
-      </Helmet>
+      <SEO
+        title="Second Mortgage Business Loans Australia | Emet Capital"
+        description="First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, working capital, or short-term funding."
+        canonical="/services/first-second-mortgages"
+        keywords="second mortgage business loan, first mortgage commercial loan, commercial mortgage, property-backed business loans, commercial property finance"
+        schemas={[generateServiceSchema(
+          "First and Second Mortgage Business Loans",
+          "Commercial first and second mortgage finance for Australian business borrowers using property equity for acquisitions, refinance gaps, working capital, and short-term funding structures.",
+          "https://emetcapital.com.au/services/first-second-mortgages"
+        )]}
+      />
       
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4">
@@ -64,6 +65,9 @@ const FirstSecondMortgages = () => {
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Commercial 1st & 2nd Mortgages
             </h1>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              First and second mortgages can help business borrowers use commercial or investment property equity for acquisitions, refinance gaps, working capital, partner exits, and short-term business funding. The right structure depends on the first mortgage position, total leverage, lender consent, use of funds, and exit strategy.
+            </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent-light text-accent-foreground">
@@ -77,9 +81,26 @@ const FirstSecondMortgages = () => {
 
           {/* Main Content */}
           <div className="max-w-4xl mx-auto space-y-12 mb-16">
+            <section className="bg-muted/30 rounded-lg p-6 border border-border">
+              <h2 className="text-2xl font-bold text-foreground mb-4">When a First or Second Mortgage Usually Fits</h2>
+              <div className="grid md:grid-cols-2 gap-4 text-sm text-muted-foreground">
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">First mortgage</h3>
+                  <p>Usually fits property purchases, cleaner refinances, commercial premises funding, and lower-risk structures where the new lender takes the primary security position.</p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Second mortgage</h3>
+                  <p>Usually fits business-purpose equity release, urgent working capital, refinance bridges, partner exits, or project gaps where the borrower wants to keep the existing first mortgage in place.</p>
+                </div>
+              </div>
+            </section>
+
             {/* What this service is */}
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Commercial Mortgage Finance?</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Commercial mortgage finance is property-backed lending for business or investment purposes. A first mortgage usually sits as the primary registered security over the property. A second mortgage sits behind an existing first mortgage and may allow a borrower to access additional equity without replacing the whole debt stack.
+              </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Commercial mortgage finance provides property-backed funding for business purposes through first and second mortgage positions. First mortgages represent primary security over commercial property and are often used for acquisitions, refinances, and longer-term property-backed facilities. Second mortgages provide additional funding against existing property equity without refinancing existing facilities, enabling businesses to access capital while preserving existing first mortgage arrangements where appropriate.
               </p>

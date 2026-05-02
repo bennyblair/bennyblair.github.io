@@ -17,7 +17,7 @@ const SEO = ({
   keywords = "commercial lending, business loans, private lending, bridging finance, commercial property loans, Sydney, Australia",
   canonical,
   type = "website",
-  image = "/assets/sydney-skyline-hero.jpg",
+  image = "/placeholder.svg",
   schemas = [],
   noindex = false
 }: SEOProps) => {

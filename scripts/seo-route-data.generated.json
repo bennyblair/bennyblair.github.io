@@ -117,12 +117,12 @@
     "sourcePath": "src/content/guides/best-bridging-loan-lenders-companies-2025.md"
   },
   "/resources/guides/bridging-finance-australia-complete-property-guide": {
-    "title": "Bridging Finance in Australia: The Complete Property Guide | Emet Capital",
-    "description": "Complete guide to bridging finance in Australia. Learn about commercial property bridging, development finance, costs, timing, and applications. General information only - not advice.",
+    "title": "Bridging Finance Australia: Commercial Property Guide | Emet Capital",
+    "description": "Bridging finance in Australia for commercial borrowers. Learn when short-term property-backed funding fits, lender assessment, risks, and exit planning.",
     "keywords": "bridging finance, bridging loans, property bridging, commercial bridging finance, development bridging, short term property loans Australia",
     "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide",
-    "h1": "Bridging Finance in Australia: The Complete Property Guide",
-    "noscript": "Complete guide to bridging finance in Australia. Learn about commercial property bridging, development finance, costs, timing, and applications. General information only - not advice.",
+    "h1": "Bridging Finance Australia: Commercial Property Guide",
+    "noscript": "Bridging finance in Australia for commercial borrowers. Learn when short-term property-backed funding fits, lender assessment, risks, and exit planning.",
     "sourcePath": "src/content/guides/bridging-finance-australia-complete-property-guide.md"
   },
   "/resources/guides/bridging-finance-developers-project-funding-solutions": {
@@ -297,12 +297,12 @@
     "sourcePath": "src/content/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you.md"
   },
   "/resources/guides/caveat-loans-australia-complete-guide": {
-    "title": "Caveat Loans Australia: Complete Guide to Property-Backed Business Finance | Emet Capital",
-    "description": "Caveat loans in Australia explained for business borrowers. Learn how property-backed caveat finance works, when it fits, key risks, documents, costs, and exits.",
+    "title": "Caveat Loans Australia: Business Funding Guide | Emet Capital",
+    "description": "Caveat loans in Australia explained for business borrowers. Learn when property-backed caveat finance fits, key risks, documents, costs, and exits.",
     "keywords": "caveat loans, caveat finance, urgent property finance, fast business loans, property secured loans, caveat lending Australia",
     "canonical": "https://emetcapital.com.au/resources/guides/caveat-loans-australia-complete-guide",
-    "h1": "Caveat Loans Australia: Complete Guide to Property-Backed Business Finance",
-    "noscript": "Caveat loans in Australia explained for business borrowers. Learn how property-backed caveat finance works, when it fits, key risks, documents, costs, and exits.",
+    "h1": "Caveat Loans Australia: Business Funding Guide",
+    "noscript": "Caveat loans in Australia explained for business borrowers. Learn when property-backed caveat finance fits, key risks, documents, costs, and exits.",
     "sourcePath": "src/content/guides/caveat-loans-australia-complete-guide.md"
   },
   "/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase": {
@@ -1306,11 +1306,11 @@
   },
   "/resources/guides/urgent-caveat-loans": {
     "title": "Urgent Caveat Loans Australia: Fast Business Funding Guide | Emet Capital",
-    "description": "Urgent caveat loans may help business borrowers use property equity when settlement, tax, or cash-flow deadlines are tight. Learn when they fit, risks, documents, and exits.",
+    "description": "Urgent caveat loans may help business borrowers use property equity when settlement, tax, or cash-flow deadlines are tight. Learn risks, documents, and exits.",
     "keywords": "urgent caveat loans, fast caveat finance, emergency business funding, 24 hour property loan, quick commercial finance Australia",
     "canonical": "https://emetcapital.com.au/resources/guides/urgent-caveat-loans",
     "h1": "Urgent Caveat Loans Australia: Fast Business Funding Guide",
-    "noscript": "Urgent caveat loans may help business borrowers use property equity when settlement, tax, or cash-flow deadlines are tight. Learn when they fit, risks, documents, and exits.",
+    "noscript": "Urgent caveat loans may help business borrowers use property equity when settlement, tax, or cash-flow deadlines are tight. Learn risks, documents, and exits.",
     "sourcePath": "src/content/guides/urgent-caveat-loans.md"
   },
   "/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for": {
@@ -1773,12 +1773,12 @@
     "sourcePath": "src/pages/Terms.tsx"
   },
   "/services/first-second-mortgages": {
-    "title": "Commercial 1st & 2nd Mortgages Australia | Emet Capital",
-    "description": "Commercial first and second mortgage finance for business-purpose property-backed loans, equity release, refinance transitions, and short-term funding structures.",
-    "keywords": "commercial mortgage, first mortgage, second mortgage, commercial property finance, business property loans",
+    "title": "Second Mortgage Business Loans Australia | Emet Capital",
+    "description": "First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, working capital, or short-term funding.",
+    "keywords": "second mortgage business loan, first mortgage commercial loan, commercial mortgage, property-backed business loans, commercial property finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages",
     "h1": "Commercial 1st & 2nd Mortgages",
-    "noscript": "Commercial first and second mortgage finance for business-purpose property-backed loans, equity release, refinance transitions, and short-term funding structures.",
+    "noscript": "First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, working capital, or short-term funding.",
     "sourcePath": "src/pages/services/FirstSecondMortgages.tsx"
   },
   "/services/commercial-property-development": {
