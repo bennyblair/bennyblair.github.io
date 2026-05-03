@@ -87,6 +87,35 @@ const CaseStudies = () => {
           </p>
         </div>
 
+        {/* Indexing Support Section */}
+        <Card className="mb-12 bg-secondary-blue">
+          <CardContent className="p-8">
+            <h2 className="text-2xl font-bold text-secondary-blue-foreground mb-4">What these case studies show</h2>
+            <p className="text-secondary-blue-foreground/90 mb-4">
+              Each case study explains a commercial lending problem, the funding structure used, the evidence a lender would typically review, and the exit or repayment pathway. They are designed to help business borrowers compare scenarios, not to promise that the same terms or outcome will apply.
+            </p>
+            <div className="grid md:grid-cols-2 gap-4 text-secondary-blue-foreground/90">
+              <div>
+                <h3 className="font-semibold mb-2">Property-backed examples</h3>
+                <ul className="space-y-2">
+                  <li><Link className="underline" to="/resources/case-studies/rose-bay-property-development-bridging-loan">Rose Bay development bridging loan</Link> shows a short settlement-gap structure.</li>
+                  <li><Link className="underline" to="/resources/guides/commercial-property-development-finance">Commercial property development finance</Link> explains the broader funding principles.</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Business cash-flow examples</h3>
+                <ul className="space-y-2">
+                  <li><Link className="underline" to="/resources/guides/asset-backed-lending-and-asset-finance">Asset-backed lending and asset finance</Link> covers equipment and asset security.</li>
+                  <li><Link className="underline" to="/resources/guides/business-acquisition-finance-australia">Business acquisition finance</Link> explains purchase funding and integration planning.</li>
+                </ul>
+              </div>
+            </div>
+            <p className="text-secondary-blue-foreground/90 mt-4">
+              Information is general only and not financial advice. Lending availability depends on borrower circumstances, security, purpose, lender appetite, and supporting documents.
+            </p>
+          </CardContent>
+        </Card>
+
         {/* Latest Case Study Hero Section */}
         {latestCaseStudy && (
           <Card className="mb-8 bg-gradient-to-r from-accent/10 to-accent-light/10 border-accent/20">

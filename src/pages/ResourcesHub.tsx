@@ -92,11 +92,11 @@ const ResourcesHub = () => {
   ];
 
   const keyTakeaways = [
-    "Access comprehensive commercial lending information from industry professionals",
-    "Understand different loan types and their optimal use cases", 
-    "Learn from real client success stories and outcomes",
-    "Use professional-grade calculators and planning tools",
-    "Stay updated with the latest market trends and rates"
+    "Compare lending structures before approaching a lender, including security position, term, exit strategy, and cash-flow fit",
+    "Use practical guides to understand what commercial lenders usually assess, such as security, serviceability, business purpose, and repayment source", 
+    "Review case studies to see how funding structures can work in time-sensitive property, asset, trade, and working-capital scenarios",
+    "Use calculators as planning tools, then confirm assumptions with a broker before relying on them",
+    "Treat all resources as general information only, not personal financial advice or a guarantee of funding"
   ];
 
   return (
@@ -148,6 +148,37 @@ const ResourcesHub = () => {
             </div>
           </CardContent>
         </Card>
+
+
+        {/* Indexing Support Section */}
+        <section className="mb-16 grid lg:grid-cols-2 gap-8">
+          <Card>
+            <CardContent className="p-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">How to use these commercial lending resources</h2>
+              <p className="text-muted-foreground mb-4">
+                Start with the finance type that matches the business problem, then compare the lender's usual assessment criteria before you enquire. A short-term property purchase, an equipment upgrade, a trade import cycle, and a debt consolidation need different evidence and different exit planning.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                For property-backed funding, compare guides such as <Link className="text-primary underline" to="/resources/guides/caveat-loans-australia-complete-guide">caveat loans in Australia</Link>, <Link className="text-primary underline" to="/resources/guides/first-mortgage-loans-primary-property-finance">first mortgage loans</Link>, and <Link className="text-primary underline" to="/resources/guides/second-mortgages-for-business-guide">second mortgages for business</Link>. For operating cash-flow needs, use the <Link className="text-primary underline" to="/resources/guides/working-capital-loans-for-smes">working capital guide</Link> and <Link className="text-primary underline" to="/resources/guides/debtor-finance-supply-chain-finance-australia">debtor and supply chain finance guide</Link>.
+              </p>
+              <p className="text-muted-foreground">
+                These resources are general information only. They help you prepare better questions, but they do not replace professional advice or lender assessment.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardContent className="p-8">
+              <h2 className="text-2xl font-bold text-foreground mb-4">Most useful starting points</h2>
+              <ul className="space-y-3 text-muted-foreground">
+                <li><Link className="text-primary underline" to="/resources/guides/commercial-property-loans-australia-complete-guide">Commercial property loans</Link> for buying, refinancing, or releasing equity from business property.</li>
+                <li><Link className="text-primary underline" to="/resources/guides/bridging-finance-australia-complete-property-guide">Bridging finance</Link> for settlement gaps where timing and a clear exit are central.</li>
+                <li><Link className="text-primary underline" to="/resources/guides/equipment-finance-and-leasing-australia">Equipment finance</Link> for machinery, vehicles, medical equipment, and other productive assets.</li>
+                <li><Link className="text-primary underline" to="/resources/guides/business-debt-consolidation-australia">Business debt consolidation</Link> for simplifying multiple facilities and reviewing cash-flow pressure.</li>
+              </ul>
+            </CardContent>
+          </Card>
+        </section>
 
         {/* Resource Sections Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
