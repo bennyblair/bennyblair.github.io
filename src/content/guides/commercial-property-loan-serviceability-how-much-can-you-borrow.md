@@ -36,6 +36,20 @@ For property investors, developers, and business owners, the real question is no
 - Borrowing capacity can improve with stronger leases, cleaner financials, lower existing debt, and a clearer explanation of the transaction.
 - High asset value does not automatically mean high borrowing power if the income story is weak.
 
+## Quick Serviceability Checklist for Commercial Property Borrowers
+
+The fastest way to estimate commercial borrowing capacity is to separate the income evidence, the debt obligations, and the lender policy questions before approaching the market. A broker can then match the file to lenders that are more likely to understand the transaction instead of forcing every deal through the same calculator.
+
+| Serviceability input | What lenders usually test | Why it affects borrowing capacity |
+|---|---|---|
+| Net rental income | Lease term, tenant quality, vacancy risk, and recoverable outgoings | Stronger rent evidence usually supports higher confidence in the debt position. |
+| Business cash flow | Recent financials, BAS, add-backs, tax position, and existing commitments | Owner-occupied purchases often depend on the business carrying the facility. |
+| Debt service coverage | Income compared with proposed repayments under stressed assumptions | A thin coverage margin can reduce the loan amount even when the security is strong. |
+| Existing liabilities | Current loans, equipment finance, overdrafts, tax arrangements, and guarantees | Debt already in the structure reduces flexibility for the next facility. |
+| Exit or refinance plan | How the borrower expects to repay, refinance, or stabilise the loan | Transitional files need a credible path beyond the initial approval. |
+
+If your deal is being constrained by both leverage and income support, read this guide alongside [commercial property LVR explained](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing). The two tests work together: the property value may set an upper limit, while serviceability often decides whether that limit is actually usable.
+
 ## Who This Is For
 
 This guide is for:
