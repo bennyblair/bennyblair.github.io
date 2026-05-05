@@ -3,6 +3,11 @@ import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
@@ -11,7 +16,6 @@ import {
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isResourcesOpen, setIsResourcesOpen] = useState(false);
   const location = useLocation();
 
   const resourcesLinks = [
@@ -28,6 +32,7 @@ const Navbar = () => {
   return (
     <nav className="bg-card border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4">
+        <Collapsible open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 flex-shrink-0 group">
@@ -65,7 +70,11 @@ const Navbar = () => {
                 <span>Resources</span>
                 <ChevronDown className="w-4 h-4" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="start" className="w-56 bg-card border-border">
+              <DropdownMenuContent
+                forceMount
+                align="start"
+                className="w-56 bg-card border-border"
+              >
                 <DropdownMenuItem asChild>
                   <Link to="/resources" className="w-full">
                     Resources Hub
@@ -103,7 +112,9 @@ const Navbar = () => {
           {/* Right side items */}
           <div className="flex items-center space-x-4">
             <div className="hidden md:block text-sm font-medium text-foreground whitespace-nowrap">
-              📞 0485 952 651
+              <a href="tel:0485952651" className="hover:text-accent transition-colors">
+                📞 0485 952 651
+              </a>
             </div>
             
             {/* CTA Button */}
@@ -117,22 +128,24 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <button
+            <CollapsibleTrigger
               className="md:hidden p-2"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             >
               {isMobileMenuOpen ? (
                 <X className="w-6 h-6 text-muted-foreground" />
               ) : (
                 <Menu className="w-6 h-6 text-muted-foreground" />
               )}
-            </button>
+            </CollapsibleTrigger>
           </div>
         </div>
 
         {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <div className="md:hidden border-t border-border bg-card">
+        <CollapsibleContent
+          forceMount
+          className="md:hidden border-t border-border bg-card data-[state=closed]:hidden"
+        >
             <div className="py-4 space-y-2">
               <Link
                 to="/"
@@ -170,9 +183,12 @@ const Navbar = () => {
                 Contact
               </Link>
               <div className="px-4 pt-4 space-y-3 border-t border-border mt-4">
-                <div className="text-center text-primary font-semibold text-lg py-2">
+                <a
+                  href="tel:0485952651"
+                  className="block text-center text-primary font-semibold text-lg py-2"
+                >
                   📞 0485 952 651
-                </div>
+                </a>
                 <Button 
                   asChild 
                   size="lg"
@@ -184,8 +200,8 @@ const Navbar = () => {
                 </Button>
               </div>
             </div>
-          </div>
-        )}
+        </CollapsibleContent>
+        </Collapsible>
       </div>
     </nav>
   );
