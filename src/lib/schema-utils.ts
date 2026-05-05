@@ -36,9 +36,16 @@ export const generateOrganizationSchema = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Emet Capital",
+    "legalName": "Emet Capital Pty Ltd",
     "url": "https://emetcapital.com.au",
     "logo": "https://emetcapital.com.au/logo.png",
     "description": "Australia's trusted commercial lending specialists. We connect businesses with the right financing solutions through our extensive network of private and institutional lenders.",
+    "taxID": "50 682 228 182",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ABN",
+      "value": "50 682 228 182"
+    },
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "AU",
@@ -79,10 +86,17 @@ export const generateLocalBusinessSchema = () => {
     "@context": "https://schema.org",
     "@type": "FinancialService",
     "name": "Emet Capital",
+    "legalName": "Emet Capital Pty Ltd",
     "image": "https://emetcapital.com.au/logo.png",
     "url": "https://emetcapital.com.au",
     "telephone": "+61-485-952-651",
     "email": "enquiry@emetcapital.com.au",
+    "taxID": "50 682 228 182",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ABN",
+      "value": "50 682 228 182"
+    },
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "AU",

@@ -10,6 +10,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { getArticleBySlug, type Article } from "@/lib/content";
 import { convertMarkdownToHtml, stripFirstHeading } from "@/lib/markdown-converter";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
+import { normalizeSeoDescription, normalizeSeoTitle } from "@/lib/seo-metadata";
 
 const CaseStudyArticle = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -116,22 +117,24 @@ const CaseStudyArticle = () => {
       ...(article.industry && { "applicationCategory": article.industry })
     }})
   };
+  const seoTitle = normalizeSeoTitle(`${article.title} | Emet Capital Case Studies`);
+  const seoDescription = normalizeSeoDescription(article.description);
 
   return (
     <>
       <Helmet>
-        <title>{article.title} | Emet Capital Case Studies</title>
-        <meta name="description" content={article.description} />
+        <title>{seoTitle}</title>
+        <meta name="description" content={seoDescription} />
         <meta name="keywords" content={article.keywords?.join(", ")} />
         <link rel="canonical" href={`https://emetcapital.com.au/resources/case-studies/${article.slug}`} />
-        <meta property="og:title" content={article.title} />
-        <meta property="og:description" content={article.description} />
+        <meta property="og:title" content={seoTitle} />
+        <meta property="og:description" content={seoDescription} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://emetcapital.com.au/resources/case-studies/${article.slug}`} />
         {article.featuredImage && <meta property="og:image" content={article.featuredImage} />}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={article.title} />
-        <meta name="twitter:description" content={article.description} />
+        <meta name="twitter:title" content={seoTitle} />
+        <meta name="twitter:description" content={seoDescription} />
         {article.featuredImage && <meta name="twitter:image" content={article.featuredImage} />}
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
       </Helmet>
