@@ -54,6 +54,36 @@ const Guides = () => {
     "Getting Started"
   ];
 
+  const guideCategoryHighlights = [
+    {
+      title: "Property-backed short-term finance",
+      description: "Guides covering caveat loans, bridging finance, second mortgages and refinance gaps where timing, security position and exit strategy need to be assessed carefully.",
+      links: [
+        { label: "Caveat loans guide", url: "/resources/guides/caveat-loans-australia-complete-guide" },
+        { label: "Urgent caveat loans", url: "/resources/guides/urgent-caveat-loans" },
+        { label: "Bridging finance guide", url: "/resources/guides/bridging-finance-australia-complete-property-guide" }
+      ]
+    },
+    {
+      title: "Commercial property finance",
+      description: "Practical explainers for business owners and investors comparing deposits, lender assessment, serviceability, commercial property LVR and settlement readiness.",
+      links: [
+        { label: "Commercial property finance Sydney", url: "/resources/guides/commercial-property-finance-sydney" },
+        { label: "Commercial property LVR", url: "/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing" },
+        { label: "Commercial refinance after bank decline", url: "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia" }
+      ]
+    },
+    {
+      title: "Business cash flow and asset funding",
+      description: "Resources for businesses weighing working capital, trade finance, inventory, equipment and asset-backed structures where documents and repayment path matter.",
+      links: [
+        { label: "Working capital loans", url: "/resources/guides/working-capital-loans-for-smes" },
+        { label: "Trade finance in Australia", url: "/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports" },
+        { label: "Asset-backed lending guide", url: "/resources/guides/asset-backed-lending-and-asset-finance" }
+      ]
+    }
+  ];
+
   const guides = [
     // Keep any truly hardcoded guides that don't exist as markdown files
     // The markdown files will provide: bridging-loans-australia, caveat-loans-vs-second-mortgages, second-mortgage-for-business-australia
@@ -140,6 +170,37 @@ const Guides = () => {
             Expert-written guides to help you navigate every aspect of commercial lending in Australia. From beginner basics to advanced strategies.
           </p>
         </div>
+
+        <section className="mb-12">
+          <div className="max-w-4xl mx-auto text-center mb-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
+              Find the right guide for the finance decision in front of you
+            </h2>
+            <p className="text-muted-foreground leading-relaxed">
+              These resources are written for business-purpose borrowers, property investors, developers, accountants and advisers who need plain-English context before comparing lender options. They explain what lenders usually assess, which documents matter, where short-term finance can become risky, and when another structure may be more suitable. The guides are general information only and should be read alongside professional advice for your circumstances.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-6">
+            {guideCategoryHighlights.map((group) => (
+              <Card key={group.title} className="border-primary/20">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-3">{group.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-5">{group.description}</p>
+                  <ul className="space-y-2 text-sm">
+                    {group.links.map((link) => (
+                      <li key={link.url}>
+                        <Link to={link.url} className="text-primary hover:underline">
+                          {link.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
 
         {/* Latest Article Hero Section */}
         {latestArticle && (

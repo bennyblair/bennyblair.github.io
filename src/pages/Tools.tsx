@@ -93,6 +93,25 @@ const Tools = () => {
   // Combine all available calculators
   const allAvailableCalculators = [...availableCalculators, ...newCalculators];
 
+  const toolUseCases = [
+    {
+      title: "Estimate a bridging scenario before the deadline is close",
+      description: "Use the bridging calculator to frame loan size, term, interest assumptions and exit timing before discussing whether a short-term property-backed facility may fit."
+    },
+    {
+      title: "Compare commercial property purchase numbers",
+      description: "The commercial property tools help buyers test deposit size, monthly repayments and sensitivity before lender assessment, valuation and legal review."
+    },
+    {
+      title: "Check second mortgage and equity-access trade-offs",
+      description: "Second mortgage and loan comparison tools can help borrowers compare structures without assuming approval, pricing or timing will be available."
+    },
+    {
+      title: "Plan asset and equipment funding around cash flow",
+      description: "Asset finance and ROI calculators help business owners think through equipment cost, expected use, repayment capacity and the documents a lender may request."
+    }
+  ];
+
   return (
     <div className="min-h-screen py-8">
       <SEO 
@@ -118,6 +137,27 @@ const Tools = () => {
             Professional-grade financial calculators to help you plan and estimate your commercial lending needs with confidence.
           </p>
         </div>
+
+        <section className="mb-12">
+          <div className="max-w-4xl mx-auto text-center mb-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
+              Use the tools as planning aids before lender assessment
+            </h2>
+            <p className="text-muted-foreground leading-relaxed">
+              These calculators are designed to help Australian business borrowers model commercial finance scenarios before speaking with a broker, accountant or adviser. The outputs are estimates only. Actual lender appetite, terms, rates, fees, valuation outcomes and settlement timing depend on the borrower, security, documents, loan purpose and exit strategy.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {toolUseCases.map((useCase) => (
+              <Card key={useCase.title} className="border-primary/20">
+                <CardContent className="p-6">
+                  <h3 className="font-semibold text-foreground mb-3">{useCase.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{useCase.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
 
         {/* Featured Calculator */}
         <Card className="mb-12 bg-gradient-to-r from-accent/5 to-accent-light/5 border-accent/20">

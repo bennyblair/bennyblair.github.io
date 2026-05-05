@@ -780,6 +780,59 @@ const Services = () => {
           </div>
         </section>
 
+        {/* City Coverage Section */}
+        <section className="mb-16">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-center">Commercial finance by city</h2>
+            <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-8 leading-relaxed">
+              Local market conditions can affect lender appetite, valuation timing, security review, and settlement pressure. These city pages explain common scenarios across the main service lines.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card className="premium-card">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-3">Commercial bridging finance</h3>
+                  <div className="grid grid-cols-2 gap-2 text-sm">
+                    <Link to="/services/bridging-finance/cities/sydney" className="text-accent hover:underline">Sydney</Link>
+                    <Link to="/services/bridging-finance/cities/melbourne" className="text-accent hover:underline">Melbourne</Link>
+                    <Link to="/services/bridging-finance/cities/brisbane" className="text-accent hover:underline">Brisbane</Link>
+                    <Link to="/services/bridging-finance/cities/perth" className="text-accent hover:underline">Perth</Link>
+                    <Link to="/services/bridging-finance/cities/adelaide" className="text-accent hover:underline">Adelaide</Link>
+                    <Link to="/services/bridging-finance/cities/gold-coast" className="text-accent hover:underline">Gold Coast</Link>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="premium-card">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-3">Private lending</h3>
+                  <div className="grid grid-cols-2 gap-2 text-sm">
+                    <Link to="/services/private-lending/cities/sydney" className="text-accent hover:underline">Sydney</Link>
+                    <Link to="/services/private-lending/cities/melbourne" className="text-accent hover:underline">Melbourne</Link>
+                    <Link to="/services/private-lending/cities/brisbane" className="text-accent hover:underline">Brisbane</Link>
+                    <Link to="/services/private-lending/cities/perth" className="text-accent hover:underline">Perth</Link>
+                    <Link to="/services/private-lending/cities/adelaide" className="text-accent hover:underline">Adelaide</Link>
+                    <Link to="/services/private-lending/cities/gold-coast" className="text-accent hover:underline">Gold Coast</Link>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="premium-card">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-3">Asset-backed lending</h3>
+                  <div className="grid grid-cols-2 gap-2 text-sm">
+                    <Link to="/services/asset-backed-lending/sydney" className="text-accent hover:underline">Sydney</Link>
+                    <Link to="/services/asset-backed-lending/melbourne" className="text-accent hover:underline">Melbourne</Link>
+                    <Link to="/services/asset-backed-lending/brisbane" className="text-accent hover:underline">Brisbane</Link>
+                    <Link to="/services/asset-backed-lending/perth" className="text-accent hover:underline">Perth</Link>
+                    <Link to="/services/asset-backed-lending/adelaide" className="text-accent hover:underline">Adelaide</Link>
+                    <Link to="/services/asset-backed-lending/gold-coast" className="text-accent hover:underline">Gold Coast</Link>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* Process Section */}
         <section className="mb-16">
           <div className="text-center mb-12">
