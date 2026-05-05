@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { normalizeSeoDescription, normalizeSeoTitle } from '@/lib/seo-metadata';
 
 interface SEOProps {
   title: string;
@@ -30,14 +31,16 @@ const SEO = ({
   const canonicalPath = normalizePath(canonical);
   const fullCanonical = canonicalPath.startsWith('http') ? canonicalPath : `${baseUrl}${canonicalPath}`;
   const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
+  const normalizedTitle = normalizeSeoTitle(title);
+  const normalizedDescription = normalizeSeoDescription(description);
   const robots = noindex
     ? "noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1";
 
   return (
     <Helmet prioritizeSeoTags>
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>{normalizedTitle}</title>
+      <meta name="description" content={normalizedDescription} />
       <meta name="keywords" content={keywords} />
       <meta name="robots" content={robots} />
       <link rel="canonical" href={fullCanonical} />
@@ -55,8 +58,8 @@ const SEO = ({
       
       {/* Open Graph */}
       <meta property="og:type" content={type} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:title" content={normalizedTitle} />
+      <meta property="og:description" content={normalizedDescription} />
       <meta property="og:image" content={fullImage} />
       <meta property="og:url" content={fullCanonical} />
       <meta property="og:site_name" content="Emet Capital" />
@@ -64,8 +67,8 @@ const SEO = ({
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:title" content={normalizedTitle} />
+      <meta name="twitter:description" content={normalizedDescription} />
       <meta name="twitter:image" content={fullImage} />
       
       {/* JSON-LD Structured Data */}

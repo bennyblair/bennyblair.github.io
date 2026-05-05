@@ -26,6 +26,8 @@ const CaseStudyArticle = lazy(() => import("./pages/CaseStudyArticle"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const Terms = lazy(() => import("./pages/Terms"));
+const EditorialStandards = lazy(() => import("./pages/EditorialStandards"));
+const ComplaintsProcess = lazy(() => import("./pages/ComplaintsProcess"));
 
 // Service pages
 const PrivateLending = lazy(() => import("./pages/services/PrivateLending"));
@@ -212,6 +214,8 @@ const App = () => (
                 <Route path="/about" element={<About />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/terms" element={<Terms />} />
+                <Route path="/editorial-standards" element={<EditorialStandards />} />
+                <Route path="/complaints-process" element={<ComplaintsProcess />} />
                 <Route path="/services/first-second-mortgages" element={<FirstSecondMortgages />} />
                 <Route path="/services/commercial-property-development" element={<CommercialPropertyDevelopment />} />
                 <Route path="/services/working-capital" element={<WorkingCapital />} />

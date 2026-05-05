@@ -12,7 +12,9 @@
     "qa:article": "node scripts/article-qa.mjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "qa:geo-static": "node scripts/geo-static-html-qa.mjs"
+    "qa:geo-static": "node scripts/geo-static-html-qa.mjs",
+    "qa:seo-static": "node scripts/geo-static-html-qa.mjs",
+    "audit:chrome": "node scripts/audit-chrome-links.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
