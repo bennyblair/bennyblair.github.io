@@ -12,6 +12,12 @@ keywords: ["commercial loan serviceability", "commercial property loan borrowing
 
 # Commercial Property Loan Serviceability: How Much Can You Borrow?
 
+## Direct answer
+
+Commercial property loan serviceability is the income test behind a commercial property loan. Lenders use it to check whether rent, business cash flow, and other verified income can support the proposed debt after allowing for existing liabilities, vacancies, outgoings, and conservative assessment buffers.
+
+Borrowing capacity is therefore not set by property value alone. A lender may like the security but still reduce the loan amount if the income evidence, lease profile, debt service coverage, or repayment pathway is weak.
+
 Commercial property loan serviceability is the process lenders use to decide whether the income behind a deal can comfortably support the debt being requested. In simple terms, it is how they test whether the loan makes sense on paper before they decide how much they may be willing to lend.
 
 That sounds straightforward, but commercial serviceability is rarely based on one salary figure or one generic calculator. Lenders usually look at the property income, the business income, the strength of the tenant, the existing debts, the interest-rate buffers built into the assessment, and what happens if the deal does not perform exactly as planned. That is why a borrower can own a strong asset and still be surprised by how conservative the lending outcome feels.
