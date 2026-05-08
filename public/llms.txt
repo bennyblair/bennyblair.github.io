@@ -31,6 +31,7 @@
 - [First and second mortgages](https://emetcapital.com.au/resources/guides/first-and-second-mortgages-for-business): comparison of first and second mortgage lending structures.
 
 ## High-Intent Comparison And Directory Pages
+- [Caveat loan vs second mortgage](https://emetcapital.com.au/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you): direct comparison of speed, security, borrower fit, exit strategy, and when each property-backed structure may suit Australian business borrowers.
 - [Private lending vs bank lending](https://emetcapital.com.au/resources/guides/private-lending-vs-bank-lending-which-is-better): comparison of private and bank lending for business borrowers.
 - [Bank vs non-bank commercial lending](https://emetcapital.com.au/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved): borrower fit across bank and non-bank channels.
 - [Commercial loan rates: banks vs private lenders](https://emetcapital.com.au/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared): cost and structure comparison.
@@ -40,6 +41,10 @@
 - [Caveat lenders Australia comparison](https://emetcapital.com.au/resources/guides/caveat-lenders-australia-directory-comparison): caveat lender market overview.
 - [Second mortgage lenders Australia](https://emetcapital.com.au/resources/guides/second-mortgage-lenders-australia-directory): second mortgage lender comparison.
 - [Private commercial real estate lenders](https://emetcapital.com.au/resources/guides/private-commercial-real-estate-lenders-cre-directory): private CRE lender landscape.
+
+## Trust And Policy Pages
+- [Editorial standards](https://emetcapital.com.au/editorial-standards): how Emet Capital reviews commercial finance content for accuracy, compliance, and usefulness.
+- [Complaints process](https://emetcapital.com.au/complaints-process): process for raising and handling complaints or concerns.
 
 ## Service Pages
 - [Services overview](https://emetcapital.com.au/services)
