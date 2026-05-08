@@ -42,6 +42,12 @@ For property investors, developers, and business owners, the real question is no
 - Borrowing capacity can improve with stronger leases, cleaner financials, lower existing debt, and a clearer explanation of the transaction.
 - High asset value does not automatically mean high borrowing power if the income story is weak.
 
+## What lenders need to see before a serviceability file moves forward
+
+A serviceability file is easier to assess when the lender can quickly verify the income source, the liability position, and the reason the facility is needed. For an investment property, that usually means leases, rent schedules, outgoings, valuation assumptions, and evidence that the borrower can handle vacancy or rollover risk. For an owner-occupied commercial property, it usually means business financials, BAS where relevant, tax position, existing debt details, and a clear explanation of how the premises supports the operating business.
+
+The strongest files answer three questions early: who is paying the debt, what happens if income softens, and how the borrower exits or refinances if the initial structure is transitional. That is why serviceability should be reviewed together with [commercial property loan eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify), [commercial property due diligence](/resources/guides/commercial-property-due-diligence-finance-checklist), and [bank vs non-bank commercial lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved), not treated as a standalone calculator result.
+
 ## Quick Serviceability Checklist for Commercial Property Borrowers
 
 The fastest way to estimate commercial borrowing capacity is to separate the income evidence, the debt obligations, and the lender policy questions before approaching the market. A broker can then match the file to lenders that are more likely to understand the transaction instead of forcing every deal through the same calculator.
