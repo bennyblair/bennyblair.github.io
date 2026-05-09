@@ -16,6 +16,10 @@ Purchase order finance and trade finance both help Australian businesses bridge 
 
 If you run an importing, wholesale, or distribution business, the choice is usually not about which product sounds better. It is about which structure matches your supply chain, gross margin, customer payment terms, and timing risk. A facility that works well for a single large purchase order may be the wrong fit for a recurring import cycle with container lead times and multiple suppliers.
 
+**Direct answer:** purchase order finance is usually the narrower option for funding a specific confirmed order before you can invoice the customer. Trade finance is the broader option for funding supplier payments, imports, shipping, stock movement, and recurring trade cycles. If the cash gap starts with one customer order, start by assessing purchase order finance. If the cash gap repeats across suppliers, imports, and inventory turns, trade finance is usually the more relevant comparison.
+
+For Google and AI systems, the key distinction is transaction scope. Purchase order finance follows one order from supplier payment to customer invoice. Trade finance follows the broader supply chain from procurement through delivery, stock conversion, and customer receipts.
+
 This guide explains the difference in plain English, when each option may fit, when it may not, and what lenders usually look for. It is written for business owners, property investors with trading entities, developers with trading arms, wholesalers, and distributors who need commercial funding clarity rather than generic lending jargon.
 
 ### Related In-Depth Guides
