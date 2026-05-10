@@ -65,6 +65,11 @@ const RefinancingSolutions = () => {
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Commercial Property Refinance Broker
             </h1>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Emet Capital helps business borrowers and property investors review existing commercial debt,
+              diagnose bank-decline issues, and compare refinance, equity-release, and bridge-to-refinance
+              pathways. This is business-purpose refinance support only, not consumer mortgage advice.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                 <Link to="/contact">
@@ -91,6 +96,33 @@ const RefinancingSolutions = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Refinancing structures include straight rate-and-term refinances maintaining similar loan amounts with improved pricing, cash-out refinances releasing equity for business use, and debt consolidation refinances combining multiple facilities. Security typically involves commercial or investment property, though business assets may support certain refinancing arrangements. Repayment terms range from short-term facilities to long-term mortgages depending on purpose and security type.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Refinance Readiness Checklist</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A commercial refinance is strongest when the file explains the current debt, the reason for change,
+                the available security, and the exit plan before a lender has to ask. If a previous lender declined
+                the deal, the first step is to identify whether the issue was policy fit, valuation, lease profile,
+                tax debt, repayment evidence, conduct, or timing.
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                {[
+                  "Current loan statement, maturity date, payout figure, and any break or exit costs",
+                  "Security details, valuation history, lease profile, and property income where relevant",
+                  "Business-purpose use of funds, including debt consolidation or equity release objectives",
+                  "Evidence of servicing or a clear exit, especially for short-term bridge-to-refinance files"
+                ].map((item) => (
+                  <Card key={item}>
+                    <CardContent className="p-4 text-sm text-muted-foreground leading-relaxed">
+                      {item}
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                For a deeper guide, see <Link to="/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia" className="text-accent underline underline-offset-4">commercial property refinance after a bank decline</Link> or compare broader <Link to="/resources/guides/commercial-property-refinancing-solutions" className="text-accent underline underline-offset-4">commercial property refinancing solutions</Link>.
               </p>
             </section>
 
