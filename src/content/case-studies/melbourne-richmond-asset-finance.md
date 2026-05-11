@@ -168,6 +168,19 @@ For related context, compare this scenario with Emet Capital's [equipment financ
 **Total Equipment Cost:** $850K  
 **Plus:** Installation $45K, training $18K, freight from Italy $32K
 
+## Why this file can still be useful for borrowers
+
+The indexing issue for this case study is likely not a live-status problem: the page is published, internally linked, and written as a real-world funding example. The stronger usefulness signal is to make the borrower lesson clearer. This scenario is not just about buying equipment; it is about matching the asset, the contract opportunity, working-capital needs, and repayment pathway in one commercial lending structure.
+
+For a manufacturer, the funding question is often practical: can the business order equipment, install it, train staff, keep existing customers supplied, and wait for larger customers to pay without draining operating cash? That is where asset-backed funding can sit beside [working capital loans](/resources/guides/working-capital-loans-for-smes), [inventory finance](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow), and [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) rather than being assessed in isolation.
+
+| Borrower issue | Practical lender question | Why it mattered here |
+|---|---|---|
+| Equipment purchase | Is the asset identifiable, insurable, and commercially useful? | The machinery had a clear production purpose and supplier documentation. |
+| Contract growth | Is the new revenue opportunity credible? | Supermarket demand supported the business case, but settlement timing still mattered. |
+| Working capital | Will the facility preserve cash for stock, labour, freight, and debtor terms? | The business needed headroom while production and payment cycles expanded. |
+| Exit and serviceability | Can the borrower support repayments from trading cash flow? | The lender needed to understand both existing revenue and projected contract income. |
+
 ## The Emet Capital Solution
 
 **Facility Amount:** $850K asset finance facility  
@@ -249,6 +262,14 @@ For related context, compare this scenario with Emet Capital's [equipment financ
 - Supermarket trial orders commenced
 - Existing customers maintained during transition
 - Production capacity increased to 7,500kg per week (250% increase)
+
+## Related Finance Guides
+
+- **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** - How equipment facilities are usually structured for Australian businesses.
+- **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** - How lenders assess business assets as part of a secured funding structure.
+- **[Asset-Backed Business Loans](/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia)** - Broader guide to funding supported by equipment, receivables, and other assets.
+- **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** - Useful when growth creates a cash-flow gap before customers pay.
+- **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** - Relevant for manufacturers and wholesalers funding stock cycles.
 
 ## The Outstanding Results
 
