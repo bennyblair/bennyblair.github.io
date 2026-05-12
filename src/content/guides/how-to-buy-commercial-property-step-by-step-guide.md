@@ -37,6 +37,22 @@ Most commercial acquisitions take 60 to 120 days from search to settlement. Time
 
 Emet Capital's role is usually to help borrowers understand which commercial funding path fits the timing and risk profile. That may be a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a short-term [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) structure, or a private credit pathway where the transaction is sound but does not fit a bank process neatly.
 
+## Finance readiness checklist before you make an offer
+
+Before you sign a commercial property contract, check whether the finance story is strong enough for the asset, the borrower, and the timeline. A lender is not only looking at the purchase price. It will usually assess the lease income, tenant quality, business cash flow, valuation support, ownership entity, deposit source, existing liabilities, and whether the proposed settlement date is realistic.
+
+Use this checklist before you commit to price or due diligence spend:
+
+| Readiness question | Why it matters before contract |
+|---|---|
+| Have you confirmed the likely borrowing range? | It prevents you from negotiating on a property that the income or deposit position cannot support. |
+| Is the deposit source documented? | Lenders need to see where equity, retained earnings, or related-party funds are coming from. |
+| Are lease documents and outgoings available? | Investment-property finance depends heavily on the net income and tenancy profile. |
+| Are business financials current? | Owner-occupier purchases usually rely on trading performance, not just property value. |
+| Does the settlement date fit commercial approval timing? | Commercial finance can take longer than residential lending, especially when valuation, legal, or environmental issues arise. |
+
+If any of these answers are unclear, the next step is usually not a higher offer. It is a finance pre-assessment, a cleaner document pack, or a contract condition that gives the lender enough time to assess the deal properly. This is especially important where the buyer needs bridging finance, a private lender, or a refinance exit rather than a standard bank approval.
+
 ## Why commercial property purchases need more preparation
 
 Buying commercial property represents one of the most significant financial decisions business owners and investors make, with purchase processes materially more complex than residential property acquisitions. Commercial property purchases involve specialised financing arrangements, comprehensive due diligence requirements, and longer settlement timelines that distinguish them from familiar residential transactions. Understanding these differences and following systematic purchase processes helps reduce avoidable mistakes.

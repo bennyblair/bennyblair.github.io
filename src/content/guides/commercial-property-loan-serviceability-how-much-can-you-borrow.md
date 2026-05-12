@@ -42,6 +42,19 @@ For property investors, developers, and business owners, the real question is no
 - Borrowing capacity can improve with stronger leases, cleaner financials, lower existing debt, and a clearer explanation of the transaction.
 - High asset value does not automatically mean high borrowing power if the income story is weak.
 
+## Borrowing capacity signals lenders look for first
+
+The strongest serviceability files make the repayment source obvious before the lender has to ask follow-up questions. For an investment property, that usually means a current lease schedule, evidence of rent actually being paid, realistic outgoings, and a sensible vacancy allowance. For an owner-occupied purchase, it means recent business financials, BAS or management accounts where relevant, current debt limits, and a clear explanation of how the premises supports revenue or operating efficiency.
+
+Weak serviceability files tend to rely on future upside without proving the current position. Examples include assuming a vacant tenancy will lease immediately, using gross rent without deducting property costs, ignoring existing equipment finance, or presenting one strong trading month as if it represents the full year. Emet Capital looks for the practical story behind the numbers so eligible commercial borrowers can be matched with lenders that understand the transaction rather than only the headline valuation.
+
+| Early signal | Stronger file | Weaker file |
+|---|---|---|
+| Income evidence | Current leases, rent receipts, financial statements, or BAS support the repayment story | Projected rent or informal income is doing most of the work |
+| Debt position | Existing loans, tax arrangements, and guarantees are disclosed clearly | Liabilities are incomplete or only appear late in assessment |
+| Transaction purpose | Purchase, refinance, equity release, or settlement need is commercially clear | The lender cannot quickly see why the debt is needed |
+| Risk buffer | Vacancy, rate movement, and timing pressure have been allowed for | The deal only works under best-case assumptions |
+
 ## What lenders need to see before a serviceability file moves forward
 
 A serviceability file is easier to assess when the lender can quickly verify the income source, the liability position, and the reason the facility is needed. For an investment property, that usually means leases, rent schedules, outgoings, valuation assumptions, and evidence that the borrower can handle vacancy or rollover risk. For an owner-occupied commercial property, it usually means business financials, BAS where relevant, tax position, existing debt details, and a clear explanation of how the premises supports the operating business.
