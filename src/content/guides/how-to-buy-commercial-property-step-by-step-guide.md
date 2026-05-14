@@ -53,6 +53,20 @@ Use this checklist before you commit to price or due diligence spend:
 
 If any of these answers are unclear, the next step is usually not a higher offer. It is a finance pre-assessment, a cleaner document pack, or a contract condition that gives the lender enough time to assess the deal properly. This is especially important where the buyer needs bridging finance, a private lender, or a refinance exit rather than a standard bank approval.
 
+## Commercial purchase documents lenders usually ask for
+
+Commercial property buyers improve approval quality when the finance file is ready before the contract becomes urgent. Lenders generally want to see the borrower, the property, the lease profile, and the exit pathway clearly enough to understand the full transaction risk.
+
+| Document area | What to prepare | Why it helps |
+|---|---|---|
+| Borrower position | Entity details, trust deeds or company documents, ID, assets and liabilities, and existing debt summaries | Confirms who is borrowing and whether the structure is workable. |
+| Income support | Business financials, BAS, management accounts, lease income, rent schedules, or accountant-prepared summaries | Shows whether the loan can be serviced from business cash flow or property income. |
+| Property evidence | Contract, title details, zoning, outgoings, building details, tenant profile, and valuation access | Helps the lender assess security quality and any property-specific risk. |
+| Settlement plan | Deposit source, timing, finance clause, due diligence deadline, and solicitor details | Reduces the risk of a good purchase failing because the timeline is unrealistic. |
+| Exit or refinance pathway | Planned long-term lender, sale proceeds, refinance documents, or retained cash position | Matters most when bridging finance, private credit, or short-term funding is being used. |
+
+If the file is incomplete, a borrower may still get interest from a lender, but the approval path usually slows down. For buyers using non-bank or private credit, a clear document pack can be the difference between a realistic conditional approval and a conversation that never becomes executable.
+
 ## Why commercial property purchases need more preparation
 
 Buying commercial property represents one of the most significant financial decisions business owners and investors make, with purchase processes materially more complex than residential property acquisitions. Commercial property purchases involve specialised financing arrangements, comprehensive due diligence requirements, and longer settlement timelines that distinguish them from familiar residential transactions. Understanding these differences and following systematic purchase processes helps reduce avoidable mistakes.

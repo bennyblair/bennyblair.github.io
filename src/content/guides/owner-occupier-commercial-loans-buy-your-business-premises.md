@@ -18,6 +18,20 @@ This is different from an investment commercial property loan. In an owner-occup
 
 For business owners, the key question is not simply whether the property is attractive. It is whether the purchase leaves enough liquidity to keep the business stable after settlement. Read this guide alongside the [commercial property loans Australia complete guide](/resources/guides/commercial-property-loans-australia-complete-guide), the [commercial property loan serviceability guide](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow), and [commercial property loan deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need) before relying on maximum leverage assumptions. Emet Capital can help eligible business borrowers compare commercial lending pathways, including [first and second mortgage solutions](/services/first-second-mortgages), where the transaction is business-purpose and security-backed.
 
+## Owner-occupier loan readiness snapshot
+
+The strongest owner-occupier applications connect the business case, the property security, and the cash-flow position in one clear story. A lender should be able to see why the premises suits the business, how the purchase will be funded, and how the business keeps enough working capital after settlement.
+
+| Readiness area | What lenders usually test | Practical preparation step |
+|---|---|---|
+| Business stability | Trading history, current revenue, margins, existing commitments, and seasonal volatility | Prepare current financials, BAS, bank statements, and a short explanation of any unusual movements. |
+| Property fit | Whether the premises genuinely supports business operations and has acceptable security value | Document intended use, zoning, floor area, fitout needs, and any leaseback or mixed-use component. |
+| Deposit and liquidity | Whether the buyer has enough equity without draining working capital | Separate purchase equity, stamp duty, professional costs, fitout budget, and post-settlement cash reserves. |
+| Approval timeline | Whether valuation, legal review, and lender credit approval can fit the contract dates | Negotiate finance and due diligence conditions that reflect commercial approval timing. |
+| Fallback pathway | What happens if the bank declines, valuation comes in low, or settlement needs to move faster | Compare bank, non-bank, and private credit options before the contract deadline becomes urgent. |
+
+For Emet Capital, this readiness work is often where a broker adds the most value. The goal is not to push every borrower into the maximum loan size. It is to identify a funding structure that lets the business complete the purchase without turning the premises into a cash-flow problem.
+
 ---
 
 ### Related In-Depth Guides
