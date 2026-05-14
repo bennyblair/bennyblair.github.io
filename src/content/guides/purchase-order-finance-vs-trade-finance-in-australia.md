@@ -42,6 +42,19 @@ This guide explains the difference in plain English, when each option may fit, w
 > - **When trade finance fits best:** repeat purchasing, international suppliers, inventory lead times, and more complex working-capital cycles.
 > - **When neither is ideal:** unclear margins, weak customers, unstable supply chains, or no realistic repayment pathway.
 
+## Decision Evidence Checklist
+
+The fastest way to choose between purchase order finance and trade finance is to map the evidence behind the transaction. Purchase order finance needs a specific order story. Trade finance needs a repeatable supply-chain story.
+
+| Evidence question | Points toward purchase order finance | Points toward trade finance |
+|---|---|---|
+| What starts the cash gap? | A confirmed customer order that must be fulfilled | Supplier payments, import timing, or repeated stock purchases |
+| What proves repayment? | Delivery, invoicing, and customer payment for that order | Stock conversion, sales cycle, receivables, or recurring turnover |
+| What does the lender need to understand? | The order, supplier, customer, margin, and delivery path | The procurement cycle, supplier terms, shipment timing, inventory movement, and customer terms |
+| What is the main risk? | The order does not complete or the customer does not pay | The trading cycle is longer, messier, or less predictable than expected |
+
+A borrower who can answer these questions clearly is usually easier for a broker or lender to place. If the file cannot show where the cash comes back from, the product label will not solve the approval problem.
+
 ## Who This Is For
 
 This guide is for Australian businesses that buy stock or goods before they can bill their customer. That often includes importers, wholesalers, distributors, light manufacturers, and businesses filling larger-than-normal contracts.
