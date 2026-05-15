@@ -18,7 +18,7 @@ loanAmount: "$2.1M"
 loanType: "Refinancing Solution"
 industry: "Hospitality / Restaurants"
 duration: "7 years"
-outcome: "Interest savings $185K annually, cash flow improved $45K monthly, debt reduced to single facility"
+outcome: "Illustrative scenario based on: Interest savings $185K annually, cash flow could improve $45K monthly, debt reduced to single facility"
 challenge: "Multiple high-cost loans, cash flow constraints, relationship with incumbent lender deteriorated"
 location: "Collingwood, Melbourne VIC"
 propertyType: "Commercial Hospitality"
@@ -27,7 +27,9 @@ lvr: "65%"
 
 # Collingwood Hospitality Group: $2.1M Refinancing Saves $185K Annually
 
-When a successful Melbourne restaurant group found themselves burdened with multiple high-interest loans across three venues, cash flow constraints were limiting growth and creating stress. A comprehensive $2.1M refinancing solution consolidated eight separate facilities into one, reducing interest costs by $185K annually and freeing up $45K per month for expansion and operations.
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
+
+In this scenario, a Melbourne restaurant group with multiple higher-cost facilities across three venues could use a $2.1M refinance to consolidate eight separate debts. The $185K annual interest saving and $45K monthly cash-flow improvement are illustrative assumptions only, not a represented Emet transaction.
 
 ## The Business
 
@@ -79,7 +81,7 @@ When a successful Melbourne restaurant group found themselves burdened with mult
 
 ## The Debt Problem
 
-Over 9 years of operations and growth, the group had accumulated eight separate loans and facilities:
+Over 9 years of operations and growth, the group in this scenario had accumulated eight separate loans and facilities:
 
 ### Existing Debt Structure (Before Refinancing)
 
@@ -138,7 +140,7 @@ Over 9 years of operations and growth, the group had accumulated eight separate 
 - Balance: Revolving, rarely paid down
 
 **Total Debt: $1,929,000**  
-**Average Interest Rate: 10.4% weighted average**  
+**Indicative weighted funding cost:** Scenario assumption only, not a current rate quote  
 **Total Monthly Payments: $23,555**  
 **Annual Interest Cost: $200,600**
 
@@ -192,15 +194,15 @@ Over 9 years of operations and growth, the group had accumulated eight separate 
 5. **Personal Guarantees:** Directors wanting to reduce personal exposure
 6. **Timing:** Needed refinancing quickly to secure fourth venue opportunity
 
-## The Emet Capital Solution
+## Indicative Finance Structure
 
 **Facility Amount:** $2.1M refinancing facility  
 **Purpose:** Consolidate all 8 loans + $100K working capital  
 **Structure:** Single commercial loan secured by business assets + property leases  
 **Term:** 7 years (reducing to 5 if fourth venue proceeds)  
-**Interest Rate:** 7.6% p.a. (2.8% lower than weighted average)  
+**Indicative pricing:** Scenario-specific and subject to lender assessment; not a current rate quote  
 **Monthly Payment:** $18,750 (vs $23,555 previously)  
-**Approval Time:** 8 business days from application to formal approval
+**Indicative assessment window:** 8 business days from application to formal approval
 
 ### Refinancing Structure
 
@@ -263,12 +265,12 @@ Over 9 years of operations and growth, the group had accumulated eight separate 
 - Business plan for fourth venue (optional)
 - Cash flow projections (consolidated)
 
-### Week 2: Credit Approval
+### Week 2: Credit Assessment
 - Hospitality sector specialist review
 - Melbourne inner-north market assessment
 - Venue visitation and operations review
 - Customer reviews and social media analysis
-- Conditional approval received (Day 8)
+- Conditional approval could be received (Day 8)
 
 ### Week 3-4: Documentation and Payout
 - Consolidated loan documentation
@@ -295,7 +297,7 @@ Over 9 years of operations and growth, the group had accumulated eight separate 
 
 **Immediate Payback:** Penalties recovered in 6 weeks through interest savings
 
-## The Outstanding Results
+## Illustrative Results
 
 ### Financial Performance (12 Months Post-Refinance)
 
@@ -317,9 +319,9 @@ Over 9 years of operations and growth, the group had accumulated eight separate 
 - Supplier payment terms: Negotiated 30 days (from immediate)
 
 **Profitability Impact:**
-- EBITDA improved from $1.15M to $1.28M (11% increase)
-- Net profit improved from $485K to $640K (32% increase)
-- Directors' drawings: Increased $95K annually (improved lifestyle)
+- EBITDA could improve from $1.15M to $1.28M (11% increase)
+- Net profit could improve from $485K to $640K (32% increase)
+- Directors' drawings: Increased $95K annually (could improve lifestyle)
 - Reinvestment capacity: $120K available for growth
 
 ### Operational Improvements
@@ -345,7 +347,7 @@ Over 9 years of operations and growth, the group had accumulated eight separate 
 ### Fourth Venue Expansion (Enabled)
 
 **Fitzroy Opportunity:**
-- 95-seat restaurant space secured
+- 95-seat restaurant space identified as an illustrative expansion option
 - Fitout budget: $480K (separate funding arranged)
 - Expected opening: 8 months post-refinancing
 - Projected revenue: $2.2M annually (additional)
@@ -360,7 +362,7 @@ Over 9 years of operations and growth, the group had accumulated eight separate 
 
 **Personal Guarantee Release:**
 - One director released from guarantees (retiring partner)
-- Succession planning improved
+- Succession planning could improve
 - Estate planning simplified
 - Family stress reduced
 
@@ -414,7 +416,7 @@ Collingwood represents Melbourne's thriving inner-north hospitality precinct:
 4. **Personal Guarantees:** Reduce exposure as business matures
 5. **Working Capital:** Build buffer into refinancing (seasonal cash flow)
 
-### Success Factors
+### Scenario Factors
 
 1. **Strong Operations:** Profitable venues essential for refinancing approval
 2. **Multiple Venues:** Diversification reduces risk (single venue riskier)
@@ -449,8 +451,8 @@ Collingwood represents Melbourne's thriving inner-north hospitality precinct:
 
 **1. Interest Rate Reduction:**
 - Existing loans at outdated rates (>9%)
-- Market rates improved since original borrowing
-- Business performance improved (better rates available)
+- Market rates could improve since original borrowing
+- Business performance could improve (better rates available)
 
 **2. Debt Consolidation:**
 - Multiple facilities creating cash flow complexity
@@ -547,11 +549,11 @@ Collingwood represents Melbourne's thriving inner-north hospitality precinct:
 **Plus:**
 - Cash flow improvement ($57,660 annually)
 - Administrative time saved (valued $28,000 annually)
-- Growth capacity enabled (fourth venue $2.2M revenue potential)
+- Growth capacity could enable (fourth venue $2.2M revenue potential)
 
 ## Future Growth Strategy
 
-With successful refinancing and improved cash flow, the group is pursuing:
+With an indicative refinance structure improving cash-flow visibility, the group in this scenario could consider:
 
 **Short-term (Next 12 months):**
 - Open fourth venue in Fitzroy ($520K additional funding)
@@ -574,8 +576,8 @@ With successful refinancing and improved cash flow, the group is pursuing:
 ## Refinancing Facility Evolution
 
 **Current Facility: $2.1M**
-- Repayment: On track, 12 months completed
-- Cash flow: Significantly improved
+- Illustrative repayment assumption: on track after 12 months in this scenario
+- Cash flow: Significantly could improve
 - Relationship: Strong with relationship manager
 
 **Expansion Facility (Year 2): +$520K**
@@ -598,9 +600,9 @@ With successful refinancing and improved cash flow, the group is pursuing:
 
 ## Conclusion
 
-This Collingwood case study demonstrates how comprehensive refinancing can transform hospitality business cash flow and unlock growth potential. By consolidating eight separate high-cost loans into a single $2.1M facility at 7.6%, the group saved $185K annually and freed up $45K per month for operations and expansion.
+This Collingwood scenario illustrates how comprehensive refinancing can transform hospitality business cash flow and unlock growth potential. By consolidating eight separate high-cost loans into a single $2.1M facility at 7.6%, the group in this scenario could save $185K annually and freed up $45K per month for operations and expansion.
 
-For hospitality businesses across Melbourne and Australia, proactive refinancing is essential for managing debt costs, simplifying operations, and enabling growth. The improved cash flow and reduced interest burden allowed this group to open a fourth venue and plan for further expansion, transforming from debt-burdened to growth-focused.
+For hospitality businesses across Melbourne and Australia, proactive refinancing is essential for managing debt costs, simplifying operations, and enabling growth. The could improve cash flow and reduced interest burden allowed this group to open a fourth venue and plan for further expansion, transforming from debt-burdened to growth-focused.
 
 Melbourne's position as Australia's dining capital, combined with strong inner-north demographics and continued population growth, ensures opportunities for well-operated venue groups with the financial flexibility to expand. Refinancing remains a critical tool for hospitality operators seeking to optimize their capital structure and compete effectively.
 
@@ -618,7 +620,7 @@ Melbourne's position as Australia's dining capital, combined with strong inner-n
 
 ---
 
-*Emet Capital provides specialized refinancing solutions for hospitality businesses in Melbourne and across Victoria. Our experience with multi-venue groups, debt consolidation, and growth funding enables us to structure refinancing that reduces costs, improves cash flow, and supports expansion strategies.*
+*Emet Capital provides specialised refinancing solutions for hospitality businesses in Melbourne and across Victoria. This illustrative scenario with multi-venue groups, debt consolidation, and growth funding enables us to structure refinancing that reduces costs, improves cash flow, and supports expansion strategies.*
 
 <script type="application/ld+json">
 {

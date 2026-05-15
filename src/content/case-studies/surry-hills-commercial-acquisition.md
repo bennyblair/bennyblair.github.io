@@ -18,7 +18,7 @@ loanAmount: "$3.2M"
 loanType: "Caveat Loan"
 industry: "Hospitality"
 duration: "12 months"
-outcome: "Successful acquisition, restaurant opened within 3 months"
+outcome: "Illustrative scenario based on: Successful acquisition, restaurant opened within 3 months"
 challenge: "48-hour settlement required for prime location"
 location: "Surry Hills, Sydney"
 propertyType: "Commercial Hospitality"
@@ -26,6 +26,8 @@ lvr: "75%"
 ---
 
 # Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success
+
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
 
 When an experienced restaurateur identified a prime opportunity in Surry Hills' thriving food scene, time was of the essence. The coveted corner location in one of Sydney's most sought-after dining precincts required immediate action to secure the lease and begin fit-out works.
 
@@ -36,7 +38,7 @@ When an experienced restaurateur identified a prime opportunity in Surry Hills' 
 **Size:** 180 sqm with outdoor dining potential
 **Previous Use:** Established restaurant with existing kitchen infrastructure
 
-The client, with over 15 years in Sydney's hospitality industry, had identified this location as perfect for their new concept restaurant. Located in the heart of Surry Hills, just minutes from Sydney CBD, the property offered:
+A borrower in this scenario, with over 15 years in Sydney's hospitality industry, identifies this type of location as suitable for a new concept restaurant. Located in the heart of Surry Hills, just minutes from Sydney CBD, the property could offer:
 
 - High foot traffic from both local residents and tourists
 - Proximity to major hotels and business districts
@@ -50,21 +52,21 @@ The client, with over 15 years in Sydney's hospitality industry, had identified 
 **Funding Gap:** Traditional bank financing would take 4-6 weeks
 **Market Conditions:** Rising commercial rents in inner Sydney
 
-The client needed to act fast. Bank financing, even if pre-approved, wouldn't settle in time. The vendor had received multiple offers and was prioritizing speed of settlement over marginally higher prices.
+A borrower in this scenario needed to act fast. Bank financing, even if pre-assessed, wouldn't settle in time. The vendor had received multiple offers and was prioritizing speed of settlement over marginally higher prices.
 
-## The Emet Capital Solution
+## Indicative Finance Structure
 
 **Loan Amount:** $3.2 million
 **Loan Type:** First registered caveat loan
 **LVR:** 75% against property valuation
-**Settlement:** 48 hours from application
+**Indicative settlement window:** compressed pathway, subject to lender assessment and complete documents
 **Security:** Commercial property at 156 Crown Street, Surry Hills
 
-### Why Caveat Lending Was Perfect
+### Why Caveat Lending May Fit
 
-1. **Speed:** Documentation and settlement within 48 hours
-2. **Certainty:** No lengthy bank approval processes
-3. **Flexibility:** Structured around the client's business plan
+1. **Speed:** Compressed documentation and settlement pathway, subject to lender assessment and complete documents
+2. **Timing:** Avoids relying entirely on a standard bank process when the deadline is compressed
+3. **Flexibility:** Structured around the borrower's business plan and exit strategy
 4. **Local Knowledge:** Understanding of Surry Hills property values
 
 ### The Process
@@ -77,32 +79,32 @@ The client needed to act fast. Bank financing, even if pre-approved, wouldn't se
 **Day 2 (Tuesday):**
 - Valuation confirmed at $4.3M
 - Legal searches completed
-- Funds released for settlement
+- Indicative funding terms could be finalised, subject to lender assessment
 
 **Day 3 (Wednesday):**
-- Settlement completed
-- Keys handed over
-- Fit-out works commenced immediately
+- Settlement could complete
+- Access could be arranged
+- Fit-out works could commence
 
-## The Outcome
+## Illustrative Outcome
 
-### Immediate Results
-- **Settlement:** Completed within 48-hour deadline
-- **Possession:** Immediate access to commence operations
-- **Competition:** Successfully outbid 3 other parties
-- **Cost Savings:** Avoided potential $200K+ price increase from delayed settlement
+### Illustrative Immediate Result
+- **Settlement:** Compressed settlement pathway modelled
+- **Possession:** Access assumed after settlement
+- **Competition:** Scenario assumes multiple interested parties
+- **Cost Savings:** Avoided delay risk modelled at $200K+
 
-### Business Success
-- **Opening:** Restaurant opened 3 months after settlement
-- **Revenue:** Exceeded projections by 35% in first 6 months
-- **Valuation:** Property revalued at $4.8M after fit-out completion
-- **Refinancing:** Successfully refinanced to traditional bank facility at 6 months
+### Illustrative Business Outcome
+- **Opening:** Restaurant opening modelled 3 months after settlement
+- **Revenue:** Scenario assumes first 6 months trade exceeded projections by 35%
+- **Valuation:** Property revaluation modelled at $4.8M after fit-out completion
+- **Refinancing:** Bank refinance path modelled at 6 months
 
 ### Financial Highlights
 - **Total Investment:** $3.2M property + $800K fit-out
-- **ROI:** 45% return in first year of operation
-- **Employment:** Created 25 full-time local jobs
-- **Community Impact:** Contributed to Surry Hills dining renaissance
+- **ROI:** 45% first-year return assumption
+- **Employment:** 25 full-time local jobs modelled
+- **Community Impact:** Surry Hills hospitality activity used as local context
 
 ## Market Context: Surry Hills Commercial Property
 
@@ -129,7 +131,7 @@ Surry Hills has transformed from an industrial area to Sydney's premier dining a
 4. **Business Planning:** Strong business plans support faster lending decisions
 
 ### For the Market
-This case demonstrates the vital role of alternative lending in Sydney's competitive commercial property market. Traditional banks, while cost-effective, often can't match the speed required in prime locations.
+This scenario demonstrates the potential role of alternative lending in Sydney's competitive commercial property market. Traditional banks may be cost-effective, but timing can be difficult when a commercial property deadline is compressed.
 
 ## About the Location
 
@@ -142,16 +144,16 @@ This case demonstrates the vital role of alternative lending in Sydney's competi
 
 ## Conclusion
 
-This Surry Hills case study demonstrates how alternative lending can unlock opportunities in Sydney's competitive commercial property market. When time is critical and the opportunity is right, caveat lending provides the speed and certainty needed to succeed.
+This Surry Hills scenario illustrates how alternative lending may support time-sensitive commercial property acquisitions in Sydney. When timing is critical, caveat lending may provide a shorter assessment pathway, subject to security, documentation, lender appetite, and a clear exit.
 
-The client not only secured their dream location but built a thriving business that contributes to Surry Hills' reputation as Sydney's premier dining destination.
+A borrower in this scenario could proceed with a preferred Surry Hills hospitality location while preserving the local commercial framing. This is an illustrative scenario only, not a claim of a specific business outcome.
 
 ## Related Services
 
 - [Caveat Loans](/services/caveat-loans) - Fast property-secured funding
-- [Business Acquisition Finance](/services/business-acquisition) - Funding for commercial acquisitions
-- [Bridging Finance](/services/bridging-finance) - Short-term property finance
+- [Commercial Property Finance](/services/commercial-property-finance) - Funding for commercial acquisitions
+- [Working Capital](/services/working-capital) - Business cash-flow support
 
 ---
 
-*Emet Capital specializes in fast commercial property finance across Sydney and Australia. With deep local market knowledge and streamlined processes, we help businesses seize opportunities when timing is critical.*
+*Emet Capital provides urgent commercial property acquisition finance broking support across Sydney and Australia. This scenario is illustrative only and is not a claim that Emet Capital arranged or settled this specific facility.*
