@@ -4,8 +4,14 @@ date: "2026-03-30"
 description: "A practical guide to balloon payment refinance for equipment and asset finance, including when business borrowers refinance, pay out, sell, or upgrade vehicles, plant, and machinery at end of term."
 category: "Asset Finance"
 tags: ["Asset Finance", "Equipment Finance", "Balloon Payment", "Business Refinance", "Commercial Lending"]
-author: "Emet Capital"
 readingTime: 11
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/balloon-payment-refinance-for-equipment-and-asset-finance.jpg"
 keywords: ["balloon payment refinance business", "equipment finance balloon refinance", "asset finance balloon payment", "refinance balloon payment business"]
 ---

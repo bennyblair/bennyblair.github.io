@@ -4,8 +4,14 @@ description: "Settlement shortfall finance options for Australian commercial bor
 date: "2026-05-11"
 category: "Property Finance"
 tags: ["Settlement Shortfall", "Commercial Property Loans", "Bridging Finance", "Private Lending", "Commercial Finance"]
-author: "Emet Capital"
 readingTime: 9
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/commercial-property-loans-guide.jpg"
 keywords: ["settlement shortfall finance", "settlement shortfall loan", "commercial property settlement shortfall", "settlement gap finance Australia"]
 slug: "settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement"

@@ -2,9 +2,15 @@
 title: "Private Mortgage Lenders: Complete Australia Directory [2026]"
 description: "A practical guide to private mortgage lenders in Australia for business borrowers, investors, and developers, including lender categories, deal fit, and shortlist criteria."
 slug: "private-mortgage-lenders-australia-directory-2026"
-author: "Emet Capital Editorial Team"
 date: "2026-03-15"
 category: "Business Finance"
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 tags: ["private mortgage lenders", "private lending", "commercial finance", "property-backed lending", "mortgage directory"]
 primaryKeyword: "private mortgage lenders"
 ---

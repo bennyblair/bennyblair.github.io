@@ -10,6 +10,13 @@ keywords:
   - "gsa business loan"
   - "asset security business finance"
 readTime: "9 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 PPSR security for business loans is a way for a lender to record a security interest over business assets on the Australian Personal Property Securities Register. In plain English, it tells other creditors that certain assets, or sometimes a broad pool of business assets, may be claimed by that lender if the borrower defaults.

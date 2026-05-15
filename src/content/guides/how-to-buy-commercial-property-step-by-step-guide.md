@@ -2,8 +2,14 @@
 title: "How to Buy Commercial Property: Step-by-Step Guide [2025]"
 description: "Complete guide to buying commercial property in Australia, covering property selection, finance approval, due diligence, and settlement processes for successful acquisitions."
 slug: "how-to-buy-commercial-property-step-by-step-guide"
-author: "Emet Capital"
 date: "2025-11-13"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 image: "/images/uploads/commercial-property-purchase.jpg"
 categories: ["Commercial Property", "Investment Guide"]
 tags: ["commercial property", "property investment", "business property", "commercial finance"]

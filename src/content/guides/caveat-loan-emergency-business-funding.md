@@ -4,8 +4,14 @@ description: "Caveat loan emergency options for tax debt, cashflow crises and ur
 date: "2025-10-19"
 category: "Guides"
 tags: ["caveat loans", "emergency funding", "business finance", "ATO debt", "cash flow"]
-author: "Emet Capital"
 readingTime: 12
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/caveat-loan-emergency.jpg"
 keywords: ["caveat loan emergency", "emergency business funding", "ATO debt finance", "fast business loans", "urgent caveat loans"]
 articleSchema: |

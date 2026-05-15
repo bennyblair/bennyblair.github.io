@@ -9,6 +9,13 @@ keywords:
   - "commercial bridging loan auction"
   - "auction settlement bridging finance"
 readTime: "10 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 A bridging loan can help an Australian commercial borrower secure an auction purchase when the contract timeline is faster than the long-term funding process. In simple terms, it is short-term finance used to cover a timing gap. The borrower may already have a sale pending, a refinance underway, or a strong asset position, but auction conditions leave too little time for a mainstream lender to complete valuation, legal work, and full credit approval before settlement.

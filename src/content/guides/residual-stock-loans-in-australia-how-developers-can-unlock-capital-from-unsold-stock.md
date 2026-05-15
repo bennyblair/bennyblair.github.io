@@ -4,8 +4,14 @@ date: "2026-03-27"
 description: "A practical guide to residual stock loans in Australia, including how developers use them, what lenders assess, when they make sense, and how they compare with other post-completion funding options."
 category: "Commercial Property Development Finance"
 tags: ["Residual Stock Loans", "Development Finance", "Commercial Property Development", "Private Lending", "Property Developers"]
-author: "Emet Capital"
 readingTime: 12
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock.jpg"
 keywords: ["residual stock loans", "residual stock finance", "developer residual stock loans", "unsold stock loans australia"]
 ---

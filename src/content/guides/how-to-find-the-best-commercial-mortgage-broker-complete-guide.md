@@ -4,8 +4,14 @@ date: "2026-03-17"
 description: "How to find the best commercial mortgage broker in Australia. Learn what to ask, what good brokers actually do, and how investors, developers, and business owners can compare broker fit without wasting time."
 category: "Property Finance"
 tags: ["Commercial Mortgage Brokers", "Commercial Property Loans", "Business Finance", "Property Investors", "Developers"]
-author: "Emet Capital"
 readingTime: 11
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/how-to-find-the-best-commercial-mortgage-broker-complete-guide.jpg"
 keywords: ["commercial mortgage brokers", "best commercial mortgage broker", "commercial finance broker australia", "commercial property loan broker"]
 ---

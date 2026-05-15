@@ -4,8 +4,14 @@ date: "2026-04-12"
 description: "A practical guide for Australian commercial borrowers on refinancing after a bank decline, including why declines happen, when private or specialist lenders may help, what documents matter, and when not to refinance yet."
 category: "Commercial Property Loans"
 tags: ["Commercial Property Refinance", "Bank Decline", "Private Lending", "Commercial Lending", "Refinancing"]
-author: "Emet Capital"
 readingTime: 12
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/commercial-property-refinance-after-a-bank-decline-in-australia.jpg"
 keywords: ["commercial property refinance after bank decline", "bank declined commercial refinance", "commercial refinance private lender", "commercial property refinance australia"]
 ---

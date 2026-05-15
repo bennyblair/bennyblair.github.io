@@ -4,8 +4,14 @@ date: "2026-03-24"
 description: "A practical Melbourne commercial property finance guide covering lender expectations, asset types, local market timing, and how investors, developers, and business owners usually structure funding."
 category: "Commercial Property Loans"
 tags: ["Commercial Property Finance", "Melbourne", "Private Lending", "Commercial Mortgages", "Property Investment"]
-author: "Emet Capital"
 readingTime: 10
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/commercial-property-finance-melbourne-local-expert-hub.jpg"
 keywords: ["commercial property finance melbourne", "melbourne commercial property loans", "commercial finance melbourne", "property investors melbourne"]
 ---

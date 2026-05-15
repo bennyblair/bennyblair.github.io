@@ -12,6 +12,13 @@ keywords:
   - "property secured loans"
   - "caveat lending Australia"
 readTime: "12 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 Caveat loans in Australia are short-term, business-purpose loans commonly secured by lodging a caveat over real property. They may be considered when a borrower needs faster property-backed funding than a standard bank process can provide, but they only make sense when the purpose, security, documents, and exit strategy are clear.

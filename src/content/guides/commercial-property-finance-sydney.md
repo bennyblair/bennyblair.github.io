@@ -4,8 +4,14 @@ date: "2026-03-16"
 description: "A practical guide to commercial property finance in Sydney for investors, developers, and business owners. Learn how lenders assess deals, what documents matter, and how timing affects property-backed funding."
 category: "Property Finance"
 tags: ["Commercial Property Finance", "Sydney", "Business Finance", "Property Investors", "Developers"]
-author: "Emet Capital"
 readingTime: 11
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/commercial-property-finance-sydney.jpg"
 keywords: ["commercial property finance sydney", "commercial mortgage sydney", "sydney commercial lending", "business property finance sydney"]
 ---

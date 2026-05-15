@@ -3,7 +3,13 @@ title: "No Doc ABN Loans in Australia"
 description: "A practical guide to no doc ABN loans for Australian commercial borrowers, including what lenders really mean by no doc, when security matters most, and when a property-backed or private lending structure may be more realistic."
 date: "2026-04-11"
 category: "Guides"
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 slug: "no-doc-abn-loans"
 ---
 

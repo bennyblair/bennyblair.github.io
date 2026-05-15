@@ -4,8 +4,14 @@ date: "2026-03-27"
 description: "A practical guide to when commercial bridging finance makes sense in Australia, when it does not, what lenders assess, and how investors, developers, and business owners should think about timing, exit, and risk."
 category: "Bridging Finance"
 tags: ["Commercial Bridging Finance", "Bridging Loans", "Private Lending", "Commercial Property Loans", "Short-Term Finance"]
-author: "Emet Capital"
 readingTime: 11
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.jpg"
 keywords: ["commercial bridging finance", "bridging finance australia", "commercial bridge loan", "short-term property finance"]
 ---

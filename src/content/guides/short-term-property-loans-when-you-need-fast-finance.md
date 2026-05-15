@@ -2,8 +2,14 @@
 title: "Short-Term Property Loans: When You Need Fast Finance"
 description: "Comprehensive guide to short-term property loans in Australia, covering bridging finance, caveat loans, and fast settlement options for time-critical property transactions."
 slug: "short-term-property-loans-when-you-need-fast-finance"
-author: "Emet Capital"
 date: "2025-11-14"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 image: "/images/uploads/short-term-property-loans.jpg"
 categories: ["Property Finance", "Fast Finance"]
 tags: ["short-term loans", "bridging finance", "caveat loans", "fast property finance"]

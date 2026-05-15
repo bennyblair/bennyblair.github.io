@@ -4,8 +4,14 @@ date: "2026-03-28"
 description: "A practical guide to refinancing vacant commercial property in Australia, including how lenders assess vacancy risk, valuation pressure, exit strategy, and when short-term or specialist refinance options may fit."
 category: "Commercial Property Loans"
 tags: ["Vacant Commercial Property", "Commercial Refinance", "Private Lending", "Commercial Property Loans", "Refinancing"]
-author: "Emet Capital"
 readingTime: 12
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/vacant-commercial-property-refinance-in-australia-what-lenders-look-for.jpg"
 keywords: ["vacant commercial property refinance", "refinance vacant commercial property", "commercial property refinance australia", "vacant commercial loan"]
 ---

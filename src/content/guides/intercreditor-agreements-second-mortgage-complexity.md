@@ -4,8 +4,14 @@ date: "2026-03-23"
 description: "A practical guide to intercreditor agreements in second mortgage transactions, including why they matter, what first and second lenders usually negotiate, and how borrowers should think about timing, control, and exit risk."
 category: "1st & 2nd Mortgages"
 tags: ["Intercreditor Agreement", "Second Mortgage", "Private Lending", "Commercial Property Loans", "Refinancing"]
-author: "Emet Capital"
 readingTime: 11
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/intercreditor-agreements-second-mortgage-complexity.jpg"
 keywords: ["intercreditor agreement", "second mortgage intercreditor", "intercreditor agreement second mortgage", "second mortgage priority"]
 ---
