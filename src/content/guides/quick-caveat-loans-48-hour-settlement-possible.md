@@ -6,13 +6,6 @@ category: "guides"
 slug: "quick-caveat-loans-48-hour-settlement-possible"
 keywords: ["quick caveat loans", "compressed settlement", "fast caveat loans", "urgent business finance", "rapid commercial lending", "caveat loan speed", "emergency property finance", "fast settlement loans"]
 readingTime: "17"
-author: "Ben"
-reviewed_date: "2026-05-15"
-author_links: [{"label":"Ben bio","url":"/about/ben"}]
-author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
-author_title: "Commercial Finance Broker, Emet Capital"
-author_name: "Ben"
 articleSchema: {
   "@context": "https://schema.org",
   "@type": "Article",

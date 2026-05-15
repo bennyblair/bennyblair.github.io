@@ -5,7 +5,15 @@ interface BreadcrumbItem {
   href?: string;
 }
 
-export const BEN_AUTHOR = {
+interface AuthorProfile {
+  name: string;
+  title: string;
+  url: string;
+  shortBio: string;
+  knowsAbout: string[];
+}
+
+export const BEN_AUTHOR: AuthorProfile = {
   name: "Ben",
   title: "Commercial Finance Broker, Emet Capital",
   url: "https://emetcapital.com.au/about/ben",
@@ -21,11 +29,34 @@ export const BEN_AUTHOR = {
   ],
 };
 
+export const DANIEL_AUTHOR: AuthorProfile = {
+  name: "Daniel",
+  title: "Director, Emet Capital",
+  url: "https://emetcapital.com.au/about/daniel",
+  shortBio:
+    "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+  knowsAbout: [
+    "Caveat loans",
+    "Second mortgages",
+    "Bridging finance",
+    "Commercial property finance",
+    "Private lending",
+    "Business finance",
+  ],
+};
+
+const authorEmployeeSchema = (author: AuthorProfile) => ({
+  "@type": "Person",
+  "name": author.name,
+  "jobTitle": author.title,
+  "url": author.url
+});
+
 /**
  * Generates Person JSON-LD schema for Ben.
  *
- * LinkedIn sameAs is intentionally omitted until Daniel confirms Ben's public
- * LinkedIn URL. Do not substitute Daniel's profile or a company profile here.
+ * LinkedIn sameAs is intentionally omitted until the correct public URL is
+ * confirmed. Do not substitute another person or company profile here.
  */
 export const generateBenPersonSchema = () => {
   return {
@@ -41,6 +72,29 @@ export const generateBenPersonSchema = () => {
       "url": "https://emetcapital.com.au"
     },
     "knowsAbout": BEN_AUTHOR.knowsAbout
+  };
+};
+
+/**
+ * Generates Person JSON-LD schema for Daniel.
+ *
+ * Public sameAs links are intentionally omitted until the correct public URL is
+ * confirmed.
+ */
+export const generateDanielPersonSchema = () => {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": DANIEL_AUTHOR.name,
+    "jobTitle": DANIEL_AUTHOR.title,
+    "url": DANIEL_AUTHOR.url,
+    "description": DANIEL_AUTHOR.shortBio,
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Emet Capital",
+      "url": "https://emetcapital.com.au"
+    },
+    "knowsAbout": DANIEL_AUTHOR.knowsAbout
   };
 };
 
@@ -101,12 +155,10 @@ export const generateOrganizationSchema = () => {
     "sameAs": [
       "https://www.linkedin.com/company/emet-capital"
     ],
-    "employee": {
-      "@type": "Person",
-      "name": BEN_AUTHOR.name,
-      "jobTitle": BEN_AUTHOR.title,
-      "url": BEN_AUTHOR.url
-    }
+    "employee": [
+      authorEmployeeSchema(BEN_AUTHOR),
+      authorEmployeeSchema(DANIEL_AUTHOR)
+    ]
   };
 };
 
@@ -166,12 +218,10 @@ export const generateLocalBusinessSchema = () => {
       "opens": "08:00",
       "closes": "18:00"
     },
-    "employee": {
-      "@type": "Person",
-      "name": BEN_AUTHOR.name,
-      "jobTitle": BEN_AUTHOR.title,
-      "url": BEN_AUTHOR.url
-    },
+    "employee": [
+      authorEmployeeSchema(BEN_AUTHOR),
+      authorEmployeeSchema(DANIEL_AUTHOR)
+    ],
     "aggregateRating": generateAggregateRatingSchema()
   };
 };

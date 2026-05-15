@@ -6,13 +6,7 @@ category: "Guides"
 slug: "second-mortgage-lenders-australia-directory"
 keywords: ["second mortgage lenders", "second mortgage lenders australia", "subordinate lending", "non-bank lenders", "private lenders", "credit unions", "second mortgage rates", "second mortgage approval"]
 readingTime: 18
-author: "Ben"
-reviewed_date: "2026-05-15"
-author_links: [{"label":"Ben bio","url":"/about/ben"}]
-author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
-author_title: "Commercial Finance Broker, Emet Capital"
-author_name: "Ben"
+author: "Emet Capital"
 ---
 
 # Second Mortgage Lenders in Australia: Complete Directory

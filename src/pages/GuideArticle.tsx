@@ -9,7 +9,7 @@ import { convertMarkdownToHtml, extractTableOfContents, extractFAQs, stripFirstH
 import FAQSection from "@/components/FAQSection";
 import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
-import { BEN_AUTHOR } from "@/lib/schema-utils";
+import { BEN_AUTHOR, DANIEL_AUTHOR } from "@/lib/schema-utils";
 
 const GuideArticle = () => {
   const { slug } = useParams();
@@ -288,7 +288,13 @@ const GuideArticle = () => {
   const seoImage = article.featuredImage || `/placeholder.svg`;
   const reviewedDate = article.reviewedDate || article.date;
   const authorDisplayName = article.authorName || article.author || "Emet Capital";
-  const authorUrl = article.authorUrl || (article.authorName === BEN_AUTHOR.name ? "/about/ben" : undefined);
+  const authorUrl = article.authorUrl || (
+    article.authorName === BEN_AUTHOR.name
+      ? "/about/ben"
+      : article.authorName === DANIEL_AUTHOR.name
+        ? "/about/daniel"
+        : undefined
+  );
   const fullAuthorUrl = authorUrl
     ? authorUrl.startsWith("http")
       ? authorUrl

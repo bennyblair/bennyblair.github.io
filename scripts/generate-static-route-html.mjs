@@ -27,6 +27,26 @@ const benAuthor = {
     'Business finance',
   ],
 };
+const danielAuthor = {
+  name: 'Daniel',
+  title: 'Director, Emet Capital',
+  url: `${siteUrl}/about/daniel`,
+  shortBio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+  knowsAbout: [
+    'Caveat loans',
+    'Second mortgages',
+    'Bridging finance',
+    'Commercial property finance',
+    'Private lending',
+    'Business finance',
+  ],
+};
+const authorEmployeeSchema = (author) => ({
+  '@type': 'Person',
+  name: author.name,
+  jobTitle: author.title,
+  url: author.url,
+});
 const titleLimit = 56;
 const descriptionLimit = 150;
 
@@ -141,29 +161,27 @@ function organizationSchema() {
       availableLanguage: 'English',
     },
     sameAs: ['https://www.linkedin.com/company/emet-capital'],
-    employee: {
-      '@type': 'Person',
-      name: benAuthor.name,
-      jobTitle: benAuthor.title,
-      url: benAuthor.url,
-    },
+    employee: [
+      authorEmployeeSchema(benAuthor),
+      authorEmployeeSchema(danielAuthor),
+    ],
   };
 }
 
-function benPersonSchema() {
+function personSchema(author) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: benAuthor.name,
-    jobTitle: benAuthor.title,
-    url: benAuthor.url,
-    description: benAuthor.shortBio,
+    name: author.name,
+    jobTitle: author.title,
+    url: author.url,
+    description: author.shortBio,
     worksFor: {
       '@type': 'Organization',
       name: businessName,
       url: siteUrl,
     },
-    knowsAbout: benAuthor.knowsAbout,
+    knowsAbout: author.knowsAbout,
   };
 }
 
@@ -195,12 +213,10 @@ function financialServiceSchema(meta) {
       '@type': 'Country',
       name: 'Australia',
     },
-    employee: {
-      '@type': 'Person',
-      name: benAuthor.name,
-      jobTitle: benAuthor.title,
-      url: benAuthor.url,
-    },
+    employee: [
+      authorEmployeeSchema(benAuthor),
+      authorEmployeeSchema(danielAuthor),
+    ],
   };
 }
 
@@ -273,6 +289,8 @@ function defaultSchemas(meta) {
   const breadcrumb = breadcrumbSchema(meta.routePath, meta.h1 || meta.title);
   if (breadcrumb) schemas.push(breadcrumb);
   if (meta.routePath?.startsWith('/services/')) schemas.push(serviceSchema(meta));
+  if (meta.routePath === '/about/ben') schemas.push(personSchema(benAuthor));
+  if (meta.routePath === '/about/daniel') schemas.push(personSchema(danielAuthor));
   return schemas;
 }
 
@@ -680,13 +698,18 @@ function articleSchema(routePath, frontmatter, markdownContent, contentType) {
     : String(frontmatter.keyword || frontmatter.keywords || '').split(',').map((value) => value.trim()).filter(Boolean);
 
   const authorName = frontmatter.author_name || frontmatter.authorName || frontmatter.author;
-  const authorSchema = authorName === benAuthor.name
+  const matchedAuthor = authorName === benAuthor.name
+    ? benAuthor
+    : authorName === danielAuthor.name
+      ? danielAuthor
+      : null;
+  const authorSchema = matchedAuthor
     ? {
         '@type': 'Person',
-        name: benAuthor.name,
-        jobTitle: benAuthor.title,
-        url: benAuthor.url,
-        description: frontmatter.author_bio || frontmatter.authorBio || benAuthor.shortBio,
+        name: matchedAuthor.name,
+        jobTitle: matchedAuthor.title,
+        url: matchedAuthor.url,
+        description: frontmatter.author_bio || frontmatter.authorBio || matchedAuthor.shortBio,
         worksFor: {
           '@type': 'Organization',
           name: businessName,
