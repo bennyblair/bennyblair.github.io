@@ -12,7 +12,7 @@ loanAmount: "$650K"
 loanType: "Second Mortgage"
 industry: "Property Development"
 duration: "9 months"
-outcome: "Secured $18.5M development site, project now under construction, $4.2M profit projected"
+outcome: "Illustrative scenario based on: Secured $18.5M development site, project now under construction, $4.2M profit projected"
 challenge: "Deposit funds tied up in existing project, couldn't refinance first mortgage"
 location: "Surfers Paradise, QLD"
 propertyType: "Beachfront Residential Site"
@@ -20,6 +20,8 @@ lvr: "72% (combined)"
 ---
 
 # Gold Coast Surfers Paradise: $650K Second Mortgage for Beachfront Development Deposit
+
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
 
 When a seasoned Gold Coast developer found a rare beachfront site in Surfers Paradise, their capital was locked in an existing project with 6 months to completion. A $650K second mortgage against their Broadbeach investment property provided the deposit needed to secure the site—without disturbing their existing bank facility. The project is now under construction with $4.2M profit projected.
 
@@ -78,7 +80,7 @@ When a seasoned Gold Coast developer found a rare beachfront site in Surfers Par
 
 ### Capital Locked in Active Development
 
-The developer had an active project in Broadbeach:
+the developer in this scenario had an active project in Broadbeach:
 
 **Broadbeach Development Status:**
 - 36-unit apartment building
@@ -95,7 +97,7 @@ The developer had an active project in Broadbeach:
 
 ### Why Refinancing Wasn't an Option
 
-The developer owned a Broadbeach investment apartment with significant equity:
+the developer in this scenario owned a Broadbeach investment apartment with significant equity:
 
 **Broadbeach Investment Property:**
 - Current value: $1.85M
@@ -133,16 +135,16 @@ The developer owned a Broadbeach investment apartment with significant equity:
 - Available time: 14 days
 - **Gap: 4-6 weeks**
 
-## The Emet Capital Solution
+## Indicative Finance Structure
 
 **Facility Amount:** $650K second mortgage  
 **Security:** Second-ranking mortgage over Broadbeach investment property  
 **First Mortgage:** NAB (not disturbed)  
 **Purpose:** Development site deposit  
 **Term:** 9 months  
-**Interest Rate:** 14.5% p.a.  
+**Indicative pricing:** Scenario-specific and subject to lender assessment; not a current rate quote  
 **Combined LVR:** 72% ($980K + $650K = $1.63M against $2.26M value)  
-**Repayment:** Interest-only monthly (capitalised for first 3 months)
+**Illustrative repayment assumption:** Interest-only monthly (capitalised for first 3 months)
 
 ### Why Second Mortgage Finance
 
@@ -156,7 +158,7 @@ The developer owned a Broadbeach investment apartment with significant equity:
 - Application submitted: January 7
 - Valuation ordered: January 8
 - NAB consent obtained: January 12
-- Credit approval: January 13
+- Credit assessment: January 13
 - Settlement: January 18
 - **Total timeline: 11 days**
 
@@ -220,7 +222,7 @@ The developer owned a Broadbeach investment apartment with significant equity:
 **Secondary Exit: Site Settlement Finance**
 - Second mortgage repaid from development facility
 - Site settles at Month 3
-- Development finance arranged (pre-approved)
+- Development finance pathway identified (subject to lender assessment)
 - Construction lender covers land cost + construction
 
 **Tertiary Exit: Property Sale**
@@ -243,22 +245,22 @@ The developer owned a Broadbeach investment apartment with significant equity:
 - **NAB consent received: January 12**
 
 ### Day 8-10: Credit and Documentation
-- Full credit approval: January 13
+- Full credit assessment: January 13
 - Loan documents prepared
 - Borrower legal review
 - Documents executed: January 16
 
 ### Day 11: Settlement
-- Second mortgage settled: January 18
+- Second mortgage could settle: January 18
 - Funds transferred to developer's solicitor
 - Deposit paid on development site
 - **Exchange completed: January 19**
 
-## The Outstanding Results
+## Illustrative Results
 
 ### Immediate Position
 
-**Site Secured:**
+**site could be secured:**
 - Beachfront Surfers Paradise development site
 - 42-unit potential
 - $68M GRV
@@ -270,7 +272,7 @@ The developer owned a Broadbeach investment apartment with significant equity:
 - **Total cost: $89,236**
 
 **Value Captured:**
-- Site secured vs missed opportunity
+- site could be secured vs missed opportunity
 - If another developer bought: $0 profit
 - Projected profit: $4.2M
 - **ROI on second mortgage cost: 47x**
@@ -278,7 +280,7 @@ The developer owned a Broadbeach investment apartment with significant equity:
 ### 6-Month Outcome
 
 **Broadbeach Development Completed:**
-- Project settled on schedule (Month 6)
+- Project could settle on schedule (Month 6)
 - Pre-sales: 36/36 (100% sold)
 - Developer profit: $3.6M (above projection)
 - Equity returned: $2.1M
@@ -289,10 +291,10 @@ The developer owned a Broadbeach investment apartment with significant equity:
 - **Total interest paid: $48,000** (early exit)
 
 **Development Site Progress:**
-- DA approved (Month 4)
+- DA could be approved (Month 4)
 - Pre-sales launched (Month 5)
-- Pre-sales achieved: 18/42 (43%) by Month 6
-- Development finance approved (Month 6)
+- Pre-sales could achieve: 18/42 (43%) by Month 6
+- Development finance could be approved (Month 6)
 - Construction commenced (Month 8)
 
 ### Project Status (Current)
@@ -380,7 +382,7 @@ Second mortgage finance is a loan secured by a mortgage that ranks behind an exi
 ### First Mortgagee Consent
 
 **Why Consent is Required:**
-- First mortgagee's rights must be preserved
+- First mortgagee's rights must be could preserve
 - Second mortgage cannot interfere with first's enforcement rights
 - First mortgagee needs visibility of total debt
 
@@ -401,7 +403,7 @@ Second mortgage finance is a loan secured by a mortgage that ranks behind an exi
 
 **Use Second Mortgage When:**
 - Break costs exceed second mortgage costs
-- First mortgage has favorable terms worth preserving
+- First mortgage has favourable terms worth preserving
 - Speed is critical (no time for full refinance)
 - First mortgagee won't increase facility
 - Short-term need with clear exit
@@ -410,13 +412,13 @@ Second mortgage finance is a loan secured by a mortgage that ranks behind an exi
 - Lower blended rate available
 - Break costs minimal or nil
 - Longer-term facility needed
-- First mortgage terms are unfavorable
+- First mortgage terms are unfavourable
 - Relationship with first lender is poor
 
 **Cost Comparison (This Deal):**
 - Refinancing: $28K break costs + 6-8 week delay (missed opportunity)
 - Second mortgage: $89K total cost (facility obtained in 11 days)
-- **Second mortgage cost MORE but enabled $4.2M+ profit**
+- **Second mortgage cost MORE but could enable $4.2M+ profit**
 
 ## Risk Management
 
@@ -489,11 +491,11 @@ Second mortgage finance is a loan secured by a mortgage that ranks behind an exi
 
 ## Conclusion
 
-This Gold Coast case study demonstrates how second mortgage finance can unlock significant development opportunities without disturbing existing banking relationships. By providing $650K in 11 days, the developer secured a beachfront Surfers Paradise site that is now generating $6.7M in projected profit—a 75x return on the cost of the second mortgage facility.
+This Gold Coast scenario illustrates how second mortgage finance may help a developer access equity without disturbing an existing first mortgage. The $650K facility, 11-day timing, beachfront site, and $6.7M projected profit are illustrative assumptions only, not claims of a specific client result.
 
-For developers on the Gold Coast and across Queensland, second mortgage finance provides flexibility when capital is locked in active projects. When combined with clear exit strategies and strong underlying opportunities, the higher short-term interest cost is far outweighed by the value captured.
+For developers on the Gold Coast and across Queensland, second mortgage finance may provide flexibility when capital is locked in active projects and the borrower has a clear repayment or refinance path. When combined with clear exit strategies and strong underlying opportunities, the higher short-term interest cost is far outweighed by the value captured.
 
-The Gold Coast development market continues to attract sophisticated developers seeking beachfront opportunities. Second mortgage finance ensures they can act decisively when rare sites become available.
+The Gold Coast development market continues to attract sophisticated developers seeking beachfront opportunities. Second mortgage finance can be considered when rare sites become available, subject to assessment, valuation, and exit strategy.
 
 ## Related Services
 
@@ -509,7 +511,7 @@ The Gold Coast development market continues to attract sophisticated developers 
 
 ---
 
-*Emet Capital provides specialized second mortgage finance for property developers on the Gold Coast and across Queensland. Our understanding of development timelines and capital requirements enables us to provide fast, flexible finance when opportunities arise and traditional refinancing isn't an option.*
+*Emet Capital provides specialised second mortgage finance for property developers on the Gold Coast and across Queensland. This illustrative scenario of development timelines and capital requirements enables us to provide fast, flexible finance when opportunities arise and traditional refinancing isn't an option.*
 
 <script type="application/ld+json">
 {

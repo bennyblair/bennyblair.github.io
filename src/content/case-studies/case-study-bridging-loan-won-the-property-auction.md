@@ -11,9 +11,11 @@ keywords:
 readTime: "10 min read"
 ---
 
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
+
 A bridging loan can help an Australian commercial borrower secure an auction purchase when the contract timeline is faster than the long-term funding process. In simple terms, it is short-term finance used to cover a timing gap. The borrower may already have a sale pending, a refinance underway, or a strong asset position, but auction conditions leave too little time for a mainstream lender to complete valuation, legal work, and full credit approval before settlement.
 
-This case study explains a realistic business-purpose auction scenario involving a commercial property purchase, a hard settlement deadline, and a defined refinance exit. It is not a promise of approval and it is not financial advice. It is meant to show how [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) is often used when the real problem is not the asset or borrower quality, but the calendar.
+This illustrative scenario explains a realistic business-purpose auction scenario involving a commercial property purchase, a hard settlement deadline, and a defined refinance exit. It is not a promise of approval and it is not financial advice. It is meant to show how [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) is often used when the real problem is not the asset or borrower quality, but the calendar.
 
 ### At a Glance
 
@@ -42,7 +44,7 @@ This example is for borrowers evaluating whether a [commercial bridging finance]
 
 The borrower in this case study was an investor purchasing a mixed-use commercial property in Melbourne’s inner north for $2.74 million. The asset had strong tenant demand, acceptable lease coverage, and repositioning upside. The problem was settlement timing.
 
-The borrower won the property at auction with the usual contractual certainty that auctions create. That meant the deposit was committed and the settlement date was fixed. A bank term sheet had already been discussed, but the lender could not complete valuation, legal review, and final credit approval within the available window.
+the borrower in this scenario wins the property at auction with the usual contractual certainty that auctions create. That meant the deposit was committed and the settlement date was fixed. A bank term sheet had already been discussed, but the lender could not complete valuation, legal review, and final credit approval within the available window.
 
 This is a classic auction problem. The buyer may be fundamentally bankable, but auction contracts do not wait for lender process.
 

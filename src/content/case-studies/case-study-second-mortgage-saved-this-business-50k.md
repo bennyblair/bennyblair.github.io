@@ -26,7 +26,7 @@ lvr: "64.9%"
 
 A second mortgage can help an Australian business consolidate expensive short-term debt when the borrower has usable property equity, a clear business purpose, and a realistic exit plan. In practical terms, it means adding a new loan behind an existing first mortgage instead of refinancing the whole property debt stack. For business owners under time pressure, that can reduce monthly stress, simplify repayments, and preserve a first mortgage that may already be competitively priced.
 
-This case study walks through a realistic commercial scenario where a business could use a second mortgage to replace multiple high-cost debts and avoid a forced asset sale. It is not a promise of savings or an example of guaranteed approval. It is a working illustration of how lenders, brokers, and borrowers may structure a business-purpose debt consolidation deal when speed matters and the security position is strong enough.
+This illustrative scenario walks through a realistic commercial scenario where a business could use a second mortgage to replace multiple high-cost debts and avoid a forced asset sale. It is not a promise of savings or an example of guaranteed approval. It is a working illustration of how lenders, brokers, and borrowers may structure a business-purpose debt consolidation deal when speed matters and the security position is strong enough.
 
 ### At a Glance
 

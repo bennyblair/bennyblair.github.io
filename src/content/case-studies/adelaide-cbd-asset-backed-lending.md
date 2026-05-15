@@ -12,7 +12,7 @@ loanAmount: "$3.8M"
 loanType: "Asset Backed Lending"
 industry: "Commercial Property Investment"
 duration: "5 years"
-outcome: "$1.2M equity released, interest savings $85K annually, 5-property portfolio consolidated"
+outcome: "Illustrative scenario based on: $1.2M equity released, interest savings $85K annually, 5-property portfolio consolidated"
 challenge: "Multiple high-interest loans, equity trapped in properties, complex cross-collateralization"
 location: "Adelaide CBD & Fringe, SA"
 propertyType: "Commercial Office & Retail Portfolio"
@@ -21,7 +21,9 @@ lvr: "65%"
 
 # Adelaide CBD Property Portfolio: $3.8M Asset Backed Lending Facility
 
-When an Adelaide commercial property investor found their 5-property portfolio burdened with multiple high-interest loans and trapped equity, an asset backed lending facility provided the solution. A $3.8M facility consolidated all debt, released $1.2M for expansion, and reduced interest costs by $85K annually while simplifying management to a single lender relationship.
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
+
+When an Adelaide commercial property investor found their 5-property portfolio burdened with multiple high-interest loans and trapped equity, an asset backed lending facility could provide one possible structure. A $3.8M facility consolidated all debt, released $1.2M for expansion, and reduced interest costs by $85K annually while simplifying management to a single lender relationship.
 
 ## The Investor
 
@@ -115,21 +117,21 @@ When an Adelaide commercial property investor found their 5-property portfolio b
 **Loan 1: Bank Commercial Loan (North Adelaide Medical)**
 - Balance: $680K
 - Interest rate: 6.2% p.a.
-- Repayment: $4,850 monthly
+- Illustrative repayment assumption: $4,850 monthly
 - Security: Property 1 only
 - LVR: 50% (conservative, significant equity trapped)
 
 **Loan 2: Second-Tier Lender (Bowden Office)**
 - Balance: $520K
 - Interest rate: 8.8% p.a. (higher risk profile)
-- Repayment: $4,720 monthly
+- Illustrative repayment assumption: $4,720 monthly
 - Security: Property 2 + personal guarantee
 - LVR: 49%
 
 **Loan 3: Private Lender (Adelaide CBD Retail)**
 - Balance: $750K
 - Interest rate: 11.5% p.a. (expensive private loan)
-- Repayment: $8,200 monthly
+- Illustrative repayment assumption: $8,200 monthly
 - Security: Property 3 + 2nd mortgage over Property 1
 - LVR: 54%
 - Term: 2 years remaining (refinancing required soon)
@@ -137,21 +139,21 @@ When an Adelaide commercial property investor found their 5-property portfolio b
 **Loan 4: Equipment Finance Converted (Thebarton)**
 - Balance: $420K
 - Interest rate: 9.2% p.a.
-- Repayment: $3,950 monthly
+- Illustrative repayment assumption: $3,950 monthly
 - Security: Property 4
 - LVR: 37%
 
 **Loan 5: Short-Term Bridging (Prospect)**
 - Balance: $230K
 - Interest rate: 13.5% p.a. (expensive bridging finance)
-- Repayment: $3,180 monthly (interest only)
+- Illustrative repayment assumption: $3,180 monthly (interest only)
 - Security: Property 5
 - LVR: 26%
 - Term: 6 months remaining (urgent refinancing needed)
 
 **Total Existing Debt: $2,600,000**  
 **Total Monthly Repayments: $24,900**  
-**Weighted Average Interest Rate: 9.1%**  
+**Indicative weighted funding cost:** Scenario assumption only, not a current rate quote  
 **Annual Interest Cost: $236,600**
 
 ### Key Challenges
@@ -172,15 +174,15 @@ When an Adelaide commercial property investor found their 5-property portfolio b
 **Rental potential:** $115K p.a. (8.8% yield)  
 **Problem:** No available equity or finance capacity with existing loan structure
 
-## The Emet Capital Solution
+## Indicative Finance Structure
 
 **Facility Amount:** $3.8M asset backed lending facility  
 **Structure:** Single portfolio facility secured by all 5 properties + acquisition  
 **Purpose:** Consolidate 5 existing loans + release equity for new acquisition  
 **Term:** 5 years with refinancing option  
-**Interest Rate:** 7.2% p.a. (2.3% below previous weighted average)  
+**Indicative pricing:** Scenario-specific and subject to lender assessment; not a current rate quote  
 **LVR:** 65% across portfolio (conservative for commercial)  
-**Repayment:** $26,500 monthly (principal + interest)
+**Illustrative repayment assumption:** $26,500 monthly (principal + interest)
 
 ### Asset Backed Lending Structure
 
@@ -190,7 +192,7 @@ When an Adelaide commercial property investor found their 5-property portfolio b
 2. **Higher LVR:** 65% vs 50-55% typical bank LVR for commercial
 3. **Equity Release:** Able to access trapped equity for expansion
 4. **Consolidated Management:** One lender, one loan, simplified administration
-5. **Fast Approval:** 8 days vs 8-12 weeks for bank assessment
+5. **Faster assessment pathway:** compressed assessment timeline may be available where documents and security are ready
 6. **Flexible Security:** Cross-collateralization welcomed (portfolio strength)
 
 **Facility Breakdown:**
@@ -237,13 +239,13 @@ When an Adelaide commercial property investor found their 5-property portfolio b
 - Rental income verification (lease agreements)
 - Existing loan documentation obtained
 - Debt consolidation analysis
-- Preliminary approval provided
+- Indicative terms provided
 
-### Week 2: Credit Approval
+### Week 2: Credit Assessment
 - Independent valuations completed (6 properties)
 - Rental income confirmed ($567K p.a. including new property)
 - Portfolio strength assessment (diversification, location, tenancy)
-- Credit approval received (Day 8)
+- Credit approval could be received (Day 8)
 - Mile End acquisition contract negotiated (subject to finance)
 
 ### Week 3: Documentation
@@ -283,7 +285,7 @@ When an Adelaide commercial property investor found their 5-property portfolio b
 - Break-even: 16.4 months
 - After 5-year term: $425,000 total interest saved (net of costs)
 
-## The Outstanding Results
+## Illustrative Results
 
 ### Financial Performance (12 Months Post-Settlement)
 
@@ -312,7 +314,7 @@ Actually, the debt increased from $2.6M to $3.8M (due to new acquisition), so:
 - Total interest cost: $273,600 p.a.
 - Net rental income: $293,400 p.a. (before operating costs)
 - Net yield: 7.7% (maintained)
-- Cash flow: Significantly improved
+- Cash flow: Significantly could improve
 
 ### Equity Position Improvement
 
@@ -405,7 +407,7 @@ Adelaide's commercial property market provides compelling opportunities for inve
 **Retail Market:**
 - Strip retail performing well (Norwood, Prospect, Unley)
 - CBD retail challenged (competition from Rundle Mall)
-- Suburban centers stable (convenience-driven)
+- Suburban centres stable (convenience-driven)
 - Yields: 6-8% depending on location
 
 **Industrial-Office:**
@@ -542,7 +544,7 @@ Asset backed lending uses a portfolio of assets (in this case, commercial proper
 
 ## Future Growth Strategy
 
-With consolidated debt structure and available equity, the investor is positioned for growth:
+With consolidated debt structure and available equity, the investor in this scenario is positioned for growth:
 
 **Short-Term (Next 12 Months):**
 - Stabilize Mile End property (complete renovations)
@@ -557,7 +559,7 @@ With consolidated debt structure and available equity, the investor is positione
 - Target portfolio: 9 properties, $12M value
 
 **Long-Term (Years 3-5):**
-- Refinance asset backed facility (rates improved)
+- Refinance asset backed facility (rates could improve)
 - Consider syndication or partnership structure
 - Expand outside Adelaide (Melbourne fringe opportunities)
 - Target portfolio: 12-15 properties, $18M value
@@ -591,11 +593,11 @@ With consolidated debt structure and available equity, the investor is positione
 
 ## Conclusion
 
-This Adelaide case study demonstrates how asset backed lending transforms commercial property portfolio management. By consolidating 5 high-interest loans into a single $3.8M facility at 7.2%, the investor saved $49K annually on existing debt, released $1.2M for expansion, and simplified administration dramatically.
+This Adelaide scenario illustrates how asset backed lending transforms commercial property portfolio management. By consolidating 5 high-interest loans into a single $3.8M facility at 7.2%, the investor in this scenario could save $49K annually on existing debt, released $1.2M for expansion, and simplified administration dramatically.
 
 For commercial property investors across Adelaide and Australia, asset backed lending provides the portfolio approach needed to access trapped equity, consolidate debt, and fund growth efficiently. The flexibility, speed, and higher LVR make it essential for investors building multi-property portfolios.
 
-Adelaide's commercial property market, with 7-9% yields and strong value-add opportunities, continues to attract savvy investors. Asset backed lending ensures they have the financing flexibility to capitalize on opportunities and build substantial portfolios over time.
+Adelaide's commercial property market, with 7-9% yields and strong value-add opportunities, continues to attract savvy investors. Asset backed lending ensures they have the financing flexibility to capitalise on opportunities and build substantial portfolios over time.
 
 ## Related Services
 
@@ -611,7 +613,7 @@ Adelaide's commercial property market, with 7-9% yields and strong value-add opp
 
 ---
 
-*Emet Capital provides specialized asset backed lending for commercial property investors in Adelaide and across South Australia. Our portfolio approach and understanding of Adelaide's commercial property market enable us to structure facilities that consolidate debt, release equity, and support portfolio growth.*
+*Emet Capital provides specialised asset backed lending for commercial property investors in Adelaide and across South Australia. This illustrative scenario and understanding of Adelaide's commercial property market enable us to structure facilities that consolidate debt, release equity, and support portfolio growth.*
 
 <script type="application/ld+json">
 {

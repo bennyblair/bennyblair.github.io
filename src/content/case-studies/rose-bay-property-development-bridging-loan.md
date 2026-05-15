@@ -30,7 +30,7 @@ lvr: "70%"
 
 Rose Bay, one of Sydney's most prestigious coastal suburbs, has seen consistent demand for luxury residential projects. Developers working in this market often face tight deadlines and funding gaps that banks can't move quickly enough to fill.
 
-This case study explores how a boutique Rose Bay developer could use a private bridging loan to secure settlement on a prime site, complete a townhouse project, and work toward a planned exit. The scenario is illustrative, not based on a specific client matter. Information is general only and not financial or credit advice.
+This illustrative scenario explores how a boutique Rose Bay developer could use a private bridging loan to secure settlement on a prime site, complete a townhouse project, and work toward a planned exit. The scenario is illustrative, not based on a specific client matter. Information is general only and not financial or credit advice.
 
 ## Project Background
 

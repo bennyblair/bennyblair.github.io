@@ -12,7 +12,7 @@ loanAmount: "$6.2M"
 loanType: "Development Finance"
 industry: "Hospitality Development"
 duration: "24 months"
-outcome: "90% occupancy within 6 months of opening"
+outcome: "Illustrative scenario based on: 90% occupancy within 6 months of opening"
 challenge: "Tourism recovery post-COVID and complex hospitality requirements"
 location: "Fortitude Valley, Brisbane"
 propertyType: "Boutique Hotel Development"
@@ -20,6 +20,8 @@ lvr: "68%"
 ---
 
 # Fortitude Valley Boutique Hotel: $6.2M Development Finance Success
+
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
 
 In Brisbane's cultural heart of Fortitude Valley, a visionary hospitality developer saw opportunity where others saw uncertainty. As tourism began recovering from COVID-19 impacts, this boutique hotel project would need to capture the changing nature of travel and Brisbane's growing appeal as a business and leisure destination.
 
@@ -62,7 +64,7 @@ Fortitude Valley offers unique advantages for boutique hospitality:
 
 **Post-COVID Tourism:** Uncertain recovery timeline and changed travel patterns
 **Hospitality Competition:** Brisbane's growing hotel supply
-**Construction Complexity:** Hospitality fit-outs require specialized expertise
+**Construction Complexity:** Hospitality fit-outs require specialised expertise
 **Operational Planning:** Staffing and management in competitive market
 
 ### COVID-19 Impact Considerations
@@ -79,7 +81,7 @@ Fortitude Valley offers unique advantages for boutique hospitality:
 **Kitchen Design:** Commercial kitchen for restaurant and room service
 **Technology Infrastructure:** High-speed internet, smart room controls
 
-## The Emet Capital Solution
+## Indicative Finance Structure
 
 **Loan Amount:** $6.2 million
 **Loan Type:** Specialized hospitality development finance
@@ -106,28 +108,28 @@ Fortitude Valley offers unique advantages for boutique hospitality:
 ### Council Approvals & Licensing (Months 1-8)
 - **Challenge:** Multiple approvals for mixed-use hospitality development
 - **Solution:** Engaged specialist hospitality planning consultants
-- **Outcome:** All permits approved within timeframe
+- **Illustrative outcome:** All permits could be approved within timeframe
 - **Key Approvals:** Development, liquor licenses, food permits, entertainment licenses
 
 ### Specialized Construction Requirements (Months 9-20)
-- **Challenge:** Hospitality construction requires specialized trades and equipment
+- **Challenge:** Hospitality construction requires specialised trades and equipment
 - **Solution:** Selected contractor with extensive hotel experience
-- **Outcome:** Complex builds completed to hospitality standards
+- **Illustrative outcome:** Complex builds completed to hospitality standards
 - **Innovations:** Smart room technology, commercial kitchen systems, rooftop bar infrastructure
 
 ### COVID-19 Design Adaptations (Months 12-18)
 - **Challenge:** Incorporating health and safety requirements into design
 - **Solution:** Modified ventilation, contactless technology, flexible spaces
-- **Outcome:** Future-ready facility that exceeded health standards
+- **Illustrative outcome:** Future-ready facility that exceeded health standards
 - **Investment:** Additional $380K in health and technology upgrades
 
 ### Pre-Opening Operations (Months 22-24)
 - **Challenge:** Staff recruitment and training during labor shortages
 - **Solution:** Partnership with hospitality recruitment specialists
-- **Outcome:** Full staffing achieved before opening
+- **Illustrative outcome:** Full staffing could achieve before opening
 - **Team:** 45 staff across all departments hired and trained
 
-## Outstanding Operational Results
+## Illustrative Operational Results
 
 ### Opening Performance
 - **Occupancy Rate:** 90% within 6 months of opening
@@ -177,7 +179,7 @@ Brisbane's hospitality market has evolved significantly:
 
 ## Lessons for Hospitality Development
 
-### Success Factors
+### Scenario Factors
 1. **Location Selection:** Choose precincts with multiple demand drivers
 2. **Design Differentiation:** Create unique experiences that command premiums
 3. **Operational Planning:** Begin staffing and marketing well before opening
@@ -197,7 +199,7 @@ Brisbane's hospitality market has evolved significantly:
 
 ## The Broader Impact
 
-This project demonstrates the resilience and opportunity in Australian hospitality:
+This illustrative project scenario shows the resilience and opportunity in Australian hospitality:
 
 **Industry Recovery:**
 - Proved demand for quality boutique accommodation in Brisbane
@@ -217,9 +219,9 @@ This project demonstrates the resilience and opportunity in Australian hospitali
 
 ## Conclusion
 
-This Fortitude Valley case study proves that well-conceived hospitality developments can thrive even in challenging market conditions. The combination of strategic location, thoughtful design, and operational excellence created a hotel that exceeded performance expectations despite COVID-19 uncertainties.
+This Fortitude Valley scenario illustrates how well-conceived hospitality developments can thrive even in challenging market conditions. The combination of strategic location, thoughtful design, and operational excellence created a hotel that exceeded performance expectations despite COVID-19 uncertainties.
 
-The key was partnering with a development financier who understood both the opportunities and risks in hospitality development. Emet Capital's hospitality expertise and flexible approach enabled the developer to navigate construction challenges while maintaining focus on operational readiness.
+The key was partnering with a development financier who understood both the opportunities and risks in hospitality development. Emet Capital's hospitality expertise and flexible approach could enable the developer in this scenario to navigate construction challenges while maintaining focus on operational readiness.
 
 Brisbane's continued growth as a business and tourism destination ensures that quality boutique hotels will remain in high demand, making hospitality development an attractive opportunity for experienced developers with the right financing partners.
 
@@ -231,4 +233,4 @@ Brisbane's continued growth as a business and tourism destination ensures that q
 
 ---
 
-*Emet Capital provides specialized hospitality development finance across Australia. Our industry expertise and understanding of operational requirements help developers create successful hotels, restaurants, and tourism facilities.*
+*Emet Capital provides hospitality development finance broking support across Australia. This scenario is illustrative only and is not a claim that Emet Capital arranged or settled this specific facility.*

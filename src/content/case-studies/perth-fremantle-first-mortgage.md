@@ -12,7 +12,7 @@ loanAmount: "$1.8M"
 loanType: "First Mortgage"
 industry: "Commercial Property Investment"
 duration: "18 months"
-outcome: "Settlement completed in 12 days, $420K equity captured, property secured before auction"
+outcome: "Illustrative scenario based on: Settlement could complete in 12 days, $420K equity captured, property could be secured before auction"
 challenge: "Bank approval delayed, auction deadline approaching, heritage building concerns"
 location: "Fremantle, WA"
 propertyType: "Heritage Commercial Building"
@@ -21,7 +21,9 @@ lvr: "65%"
 
 # Perth Fremantle Investment: $1.8M First Mortgage for Heritage Commercial Acquisition
 
-When a Perth property investor found the perfect heritage commercial building in Fremantle's High Street precinct, their major bank approval stalled at credit committee. With auction just 14 days away and a competing bidder circling, a $1.8M first mortgage facility enabled settlement in 12 days—capturing $420K in immediate equity and securing the property before it went to public auction.
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
+
+When a Perth property investor found the perfect heritage commercial building in Fremantle's High Street precinct, their major bank approval stalled at credit committee. With auction just 14 days away and a competing bidder circling, a $1.8M first mortgage facility could enable settlement in 12 days—capturing $420K in immediate equity and securing the property before it went to public auction.
 
 ## The Investor
 
@@ -81,7 +83,7 @@ When a Perth property investor found the perfect heritage commercial building in
 
 ### Bank Approval Stalled
 
-The investor had pre-approval from their major bank for $2M commercial acquisition finance. However, when they submitted the specific property:
+the investor in this scenario had pre-assessment from their major bank for $2M commercial acquisition finance. However, when they submitted the specific property:
 
 **Bank Concerns:**
 1. **Heritage Status:** Bank's valuation panel flagged heritage listing as "high risk"
@@ -91,7 +93,7 @@ The investor had pre-approval from their major bank for $2M commercial acquisiti
 5. **Credit Committee:** Escalated to senior credit for heritage property review
 
 **Timeline Problem:**
-- Bank pre-approval received: Early January
+- Bank pre-assessment received: Early January
 - Property identified: January 10
 - Contract signed (subject to finance): January 12
 - Bank requested additional reports: January 14
@@ -129,15 +131,15 @@ The investor had pre-approval from their major bank for $2M commercial acquisiti
 - Maintenance costs offset by premium rents and stable tenants
 - Heritage buildings in Fremantle achieve 10-15% rental premium
 
-## The Emet Capital Solution
+## Indicative Finance Structure
 
 **Facility Amount:** $1.8M first mortgage  
 **Security:** First-ranking mortgage over Fremantle property  
 **Purpose:** Commercial property acquisition  
 **Term:** 18 months (with refinancing expected at 12 months)  
-**Interest Rate:** 9.8% p.a.  
+**Indicative pricing:** Scenario-specific and subject to lender assessment; not a current rate quote  
 **LVR:** 65% of purchase price (57% of valuation)  
-**Repayment:** Interest-only monthly
+**Illustrative repayment assumption:** Interest-only monthly
 
 ### Why First Mortgage Finance
 
@@ -145,7 +147,7 @@ The investor had pre-approval from their major bank for $2M commercial acquisiti
 - Application submitted: January 14
 - Valuation ordered: January 15
 - Valuation received: January 18
-- Credit approval: January 20
+- Credit assessment: January 20
 - Documentation: January 21-23
 - Settlement: January 26
 - **Total timeline: 12 days**
@@ -210,7 +212,7 @@ The investor had pre-approval from their major bank for $2M commercial acquisiti
 - Investor approached Emet Capital (January 14)
 - Scenario reviewed: heritage property, bank delays, auction pressure
 - Existing structural report and tenancy schedule provided
-- Preliminary approval provided same day
+- Indicative terms provided same day
 - Valuation ordered (January 15)
 
 ### Day 4-7: Valuation and Credit
@@ -219,7 +221,7 @@ The investor had pre-approval from their major bank for $2M commercial acquisiti
 - Full credit assessment completed
 - Rental income verified (lease agreements)
 - Structural report reviewed (acceptable condition)
-- **Credit approval: January 20 (Day 6)**
+- **Credit assessment: January 20 (Day 6)**
 
 ### Day 8-11: Documentation
 - Loan documents prepared and issued
@@ -229,13 +231,13 @@ The investor had pre-approval from their major bank for $2M commercial acquisiti
 - Finance clause satisfied (January 23)
 
 ### Day 12: Settlement
-- Settlement completed (January 26)
+- Settlement could complete (January 26)
 - First mortgage registered
 - Funds disbursed to vendor
 - Keys handed over
 - **Property secured 2 days before auction fallback**
 
-## The Outstanding Results
+## Illustrative Results
 
 ### Immediate Financial Position
 
@@ -363,7 +365,7 @@ First mortgage finance is a loan secured by a first-ranking mortgage over real p
 **Ideal Scenarios:**
 1. **Speed Required:** Settlement needed in days/weeks, not months
 2. **Bank Delays:** Pre-approval but specific property causing issues
-3. **Unusual Property:** Heritage, rural, specialized use
+3. **Unusual Property:** Heritage, rural, specialised use
 4. **Bridging:** Short-term finance while arranging permanent funding
 5. **Auction Purchase:** Unconditional contract requirements
 6. **Opportunity Cost:** Delay would lose significant value
@@ -457,9 +459,9 @@ First mortgage finance is a loan secured by a first-ranking mortgage over real p
 
 ## Conclusion
 
-This Perth case study demonstrates how first mortgage finance enables property investors to capture opportunities when bank timelines don't align with market realities. By providing $1.8M in 12 days, the investor secured a heritage commercial building worth $420K more than the purchase price—equity that would have been lost if the property proceeded to auction.
+This Perth scenario illustrates how first mortgage finance may help property investors manage timing gaps when bank timelines do not align with settlement pressure. The $1.8M facility, 12-day timing, and $420K equity figure are illustrative assumptions only, not claims of a specific client result.
 
-For property investors in Perth and across Western Australia, first mortgage finance provides the speed and flexibility to compete in competitive markets. When combined with a clear refinancing strategy and strong underlying property fundamentals, the higher short-term interest cost is far outweighed by the value captured.
+For property investors in Perth and across Western Australia, first mortgage finance may provide a short-term pathway where timing, security, and exit are clear. When combined with a clear refinancing strategy and strong underlying property fundamentals, the higher short-term interest cost is far outweighed by the value captured.
 
 Fremantle's heritage commercial market continues to attract investors seeking character properties with stable tenants and strong capital growth. First mortgage finance ensures they can act decisively when opportunities arise.
 
@@ -477,7 +479,7 @@ Fremantle's heritage commercial market continues to attract investors seeking ch
 
 ---
 
-*Emet Capital provides specialized first mortgage finance for commercial property investors in Perth and across Western Australia. Our understanding of heritage properties and WA's unique commercial market enables us to provide fast, flexible finance when traditional lenders can't meet your timeline.*
+*Emet Capital provides specialised first mortgage finance for commercial property investors in Perth and across Western Australia. This illustrative scenario of heritage properties and WA's unique commercial market enables us to provide fast, flexible finance when traditional lenders can't meet your timeline.*
 
 <script type="application/ld+json">
 {
