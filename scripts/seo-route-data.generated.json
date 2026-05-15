@@ -1912,12 +1912,22 @@
   "/about/ben": {
     "routePath": "/about/ben",
     "title": "Ben | Commercial Finance Broker at Emet Capital",
-    "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in caveat loans, second mortgages,...",
-    "keywords": "Ben Emet Capital, commercial finance broker, private lending broker, caveat loans broker, second mortgage broker, bridging finance broker",
+    "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in operational guides, scenario...",
+    "keywords": "Ben, Emet Capital, commercial finance broker, private lending broker, caveat loans broker, second mortgage broker, bridging finance broker",
     "canonical": "https://emetcapital.com.au/about/ben",
     "h1": "Ben",
-    "noscript": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance.",
+    "noscript": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in operational guides, scenario walkthroughs, and case studies across Emet Capital's six finance pillars.",
     "sourcePath": "src/pages/AboutBen.tsx"
+  },
+  "/about/daniel": {
+    "routePath": "/about/daniel",
+    "title": "Daniel | Director at Emet Capital",
+    "description": "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending, focused on market commentary, lender...",
+    "keywords": "Daniel, Emet Capital Director, commercial finance commentary, private lending commentary, broker market notes",
+    "canonical": "https://emetcapital.com.au/about/daniel",
+    "h1": "Daniel",
+    "noscript": "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending, focused on market commentary, lender behaviour, strategic comparisons, and broker takes.",
+    "sourcePath": "src/pages/AboutDaniel.tsx"
   },
   "/privacy-policy": {
     "routePath": "/privacy-policy",

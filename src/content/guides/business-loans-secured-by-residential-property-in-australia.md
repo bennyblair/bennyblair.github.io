@@ -4,8 +4,14 @@ description: "How business loans secured by residential property work in Austral
 date: "2026-05-11"
 category: "Business Finance"
 tags: ["Business Loans", "Second Mortgages", "Private Lending", "Property Security", "Commercial Finance"]
-author: "Emet Capital"
 readingTime: 9
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/second-mortgage-business.jpg"
 keywords: ["business loan secured by residential property", "business loans secured by property", "residential property secured business loan", "property backed business finance Australia"]
 slug: "business-loans-secured-by-residential-property-in-australia"

@@ -10,6 +10,13 @@ keywords:
   - "commercial bridging loan sydney"
   - "bridging loan sydney commercial"
 readTime: "10 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 Bridging finance in Sydney is a short-term commercial funding solution used when a property or business transaction needs to settle before a sale, refinance, or another capital event is ready. A 48-hour settlement is possible in some Sydney scenarios, but only when the security, documents, and exit strategy are unusually clean.

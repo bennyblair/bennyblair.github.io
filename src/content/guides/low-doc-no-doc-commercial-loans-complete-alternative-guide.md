@@ -4,8 +4,14 @@ date: "2026-03-24"
 description: "Learn how low doc and no doc commercial loans work in Australia, when borrowers use them, what lenders usually require, and how property investors, developers, and business owners can compare alternative documentation pathways."
 category: "Commercial Property Loans"
 tags: ["Low Doc Commercial Loans", "No Doc Commercial Loans", "Private Lending", "Commercial Property Finance", "Alternative Documentation"]
-author: "Emet Capital"
 readingTime: 12
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/low-doc-no-doc-commercial-loans-complete-alternative-guide.jpg"
 keywords: ["low doc commercial loans", "no doc commercial loans", "alternative doc commercial finance", "commercial loan low documentation"]
 ---

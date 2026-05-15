@@ -3,7 +3,13 @@ title: "Commercial Property Loans for Startups: First-Time Buyers"
 description: "A practical Australian guide to startup commercial property loans, including deposit expectations, lender evidence, security options, and first-time buyer application strategy."
 date: "2025-11-05"
 category: "Guides"
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 slug: "commercial-property-loans-for-startups-first-time-buyers"
 ---
 

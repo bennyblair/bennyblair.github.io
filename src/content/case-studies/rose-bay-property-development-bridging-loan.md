@@ -4,8 +4,14 @@ description: "How a Rose Bay developer used a private bridging loan to secure se
 date: "2025-09-18"
 category: "Case Studies"
 tags: ["Bridging Loans", "Property Development", "Sydney", "Luxury Property", "Settlement Finance"]
-author: "Emet Capital"
 readingTime: 6
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 loanAmount: "$2.5m"
 loanType: "Bridging Loan"
 location: "Rose Bay, Sydney"

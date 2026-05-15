@@ -35,8 +35,8 @@ const AboutDaniel = () => {
     <div className="min-h-screen py-8">
       <SEO
         title="Daniel | Director at Emet Capital"
-        description="Daniel is the Director at Emet Capital, focused on commercial finance and private lending commentary across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance."
-        keywords="Daniel Emet Capital, Director Emet Capital, commercial finance commentary, private lending commentary, broker market notes"
+        description="Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending, focused on market commentary, lender behaviour, strategic comparisons, and broker takes."
+        keywords="Daniel, Emet Capital Director, commercial finance commentary, private lending commentary, broker market notes"
         canonical="/about/daniel"
         schemas={[profilePageSchema, generateDanielPersonSchema(), generateOrganizationSchema()]}
       />
@@ -53,7 +53,7 @@ const AboutDaniel = () => {
             Daniel
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-            Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.
+            Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.
           </p>
         </header>
 
@@ -64,7 +64,7 @@ const AboutDaniel = () => {
                 <h2 className="text-2xl font-bold text-foreground mb-4">Director Commentary</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Daniel's content is reserved for Director-level perspective: market notes, lender behaviour observations, strategic borrower positioning, and broker takes on how commercial finance files are being assessed.
+                    Daniel's content is reserved for Director-level perspective: market notes, lender behaviour observations, strategic borrower positioning, rate and pricing interpretation, lender directories, broker selection, and X-vs-Y finance comparisons.
                   </p>
                   <p>
                     His writing focuses on what is changing in the market, where borrowers are getting stuck, and what a commercial finance broker is watching when a deal sits outside a simple bank process.

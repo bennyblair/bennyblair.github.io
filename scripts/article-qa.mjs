@@ -4,8 +4,10 @@ import matter from 'gray-matter';
 
 const repoRoot = process.cwd();
 const guidesDir = path.join(repoRoot, 'src/content/guides');
+const caseStudiesDir = path.join(repoRoot, 'src/content/case-studies');
 const seoRouteDataPath = path.join(repoRoot, 'scripts/seo-route-data.generated.json');
 const sitemapPath = path.join(repoRoot, 'public/sitemap.xml');
+const distDir = path.join(repoRoot, 'dist');
 
 const args = process.argv.slice(2);
 const fileArgs = [];
@@ -36,6 +38,16 @@ const allGuideSlugs = new Set(
     .filter((file) => file.endsWith('.md'))
     .map((file) => file.replace(/\.md$/, ''))
 );
+const allowedAuthors = {
+  Ben: {
+    title: 'Commercial Finance Broker, Emet Capital',
+    url: '/about/ben',
+  },
+  Daniel: {
+    title: 'Director, Emet Capital',
+    url: '/about/daniel',
+  },
+};
 const seoRouteData = fs.existsSync(seoRouteDataPath)
   ? JSON.parse(fs.readFileSync(seoRouteDataPath, 'utf8'))
   : {};
@@ -49,6 +61,10 @@ function extractGuideLinks(content) {
 
 function getArticleRoute(filePath) {
   const slug = path.basename(filePath, '.md');
+  const normalized = filePath.replace(/\\/g, '/');
+  if (normalized.includes('/src/content/case-studies/')) {
+    return `/resources/case-studies/${slug}`;
+  }
   return `/resources/guides/${slug}`;
 }
 
@@ -80,6 +96,84 @@ async function checkUrl(url) {
   return { ok: response.ok, status: response.status, finalUrl: response.url };
 }
 
+function loadGeneratedArticleSchema(articleRoute) {
+  const htmlPath = path.join(distDir, articleRoute.replace(/^\/+/, ''), 'index.html');
+  if (!fs.existsSync(htmlPath)) return null;
+
+  const html = fs.readFileSync(htmlPath, 'utf8');
+  for (const match of html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const schema = JSON.parse(match[1].trim());
+      if (schema?.['@type'] === 'Article') return schema;
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
+function validateAuthorFields(data, routeMeta, articleRoute, relPath) {
+  const errors = [];
+  const authorName = data.author_name || data.authorName || '';
+  const publicAuthor = data.author || '';
+  const expected = allowedAuthors[authorName];
+
+  if (!expected) {
+    errors.push('missing or invalid author_name; expected exactly "Ben" or "Daniel"');
+    return errors;
+  }
+
+  if (publicAuthor !== authorName) {
+    errors.push(`author must match author_name exactly; got author="${publicAuthor}" and author_name="${authorName}"`);
+  }
+
+  if (/\s/.test(authorName) || /\b(Shelest|Blair)\b/i.test(authorName)) {
+    errors.push(`author_name must be first-name-only; got "${authorName}"`);
+  }
+
+  const required = {
+    author_title: expected.title,
+    author_url: expected.url,
+    reviewed_date: undefined,
+  };
+  for (const [key, value] of Object.entries(required)) {
+    if (!data[key]) {
+      errors.push(`missing ${key}`);
+    } else if (value && data[key] !== value) {
+      errors.push(`${key} should be "${value}", got "${data[key]}"`);
+    }
+  }
+
+  if (!data.author_bio || !String(data.author_bio).includes("10 years' experience")) {
+    errors.push('author_bio must be present and include the confirmed 10-year experience signal');
+  }
+
+  if (/\b(Shelest|Blair)\b/i.test(String(data.author_bio || ''))) {
+    errors.push('author_bio must not contain a surname');
+  }
+
+  if (!Array.isArray(data.author_links) || !data.author_links.some((link) => link?.url === expected.url)) {
+    errors.push(`author_links must include ${expected.url}`);
+  }
+
+  const articleSchema = (routeMeta?.schemas || []).find((schema) => schema?.['@type'] === 'Article')
+    || loadGeneratedArticleSchema(articleRoute);
+  if (!articleSchema) {
+    errors.push('generated static HTML is missing Article schema');
+  } else if (articleSchema.author?.['@type'] !== 'Person') {
+    errors.push('Article schema author must be a Person');
+  } else if (articleSchema.author?.name !== authorName) {
+    errors.push(`Article schema author name should be "${authorName}", got "${articleSchema.author?.name || ''}"`);
+  } else if (/\s/.test(articleSchema.author.name) || /\b(Shelest|Blair)\b/i.test(articleSchema.author.name)) {
+    errors.push('Article schema author name must be first-name-only');
+  }
+
+  if (errors.length) {
+    errors.unshift(`author strict mode failed for ${relPath}`);
+  }
+  return errors;
+}
+
 let errorCount = 0;
 let warningCount = 0;
 
@@ -95,7 +189,7 @@ for (const fileArg of fileArgs) {
   }
 
   const raw = fs.readFileSync(filePath, 'utf8');
-  matter(raw);
+  const parsed = matter(raw);
 
   const articleRoute = getArticleRoute(filePath);
   const canonicalUrl = `https://emetcapital.com.au${articleRoute}`;
@@ -147,6 +241,14 @@ for (const fileArg of fileArgs) {
     errorCount++;
   } else {
     console.log(`OK: generated SEO route data includes ${articleRoute}`);
+  }
+
+  const authorErrors = validateAuthorFields(parsed.data || {}, routeMeta, articleRoute, relPath);
+  if (authorErrors.length) {
+    for (const error of authorErrors) console.error(`ERROR: ${error}`);
+    errorCount += authorErrors.length;
+  } else {
+    console.log(`OK: strict author fields and Article Person schema`);
   }
 
   if (!sitemapXml.includes(`<loc>${canonicalUrl}</loc>`)) {

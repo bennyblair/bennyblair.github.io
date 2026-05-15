@@ -10,6 +10,13 @@ keywords:
   - "caveat loan legal interest"
   - "caveat property title australia"
 readTime: "11 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 A caveatable interest is a legally recognisable interest in land that may justify lodging a caveat on a property title. In plain English, it is the legal hook that explains **why** someone can warn the market they have a real claim connected to that property.

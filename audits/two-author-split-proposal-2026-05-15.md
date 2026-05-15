@@ -1,6 +1,6 @@
 # Two-Author Split Proposal, 2026-05-15
 
-Status: proposal only. No mass author frontmatter has been applied to existing guides or case studies in this branch.
+Status: approved and applied in PR #84. Mass author frontmatter has been applied to the existing guides and case studies using this split.
 
 ## Decision Summary
 

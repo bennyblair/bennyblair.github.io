@@ -4,8 +4,14 @@ date: "2026-04-11"
 description: "A practical guide to commercial bridging loan rates in Australia, including what drives pricing, what fees matter, when a bridge may make sense, and how business borrowers should compare short-term property finance without relying on headline rates alone."
 category: "Bridging Finance"
 tags: ["Commercial Bridging Finance", "Bridging Loan Rates", "Private Lending", "Commercial Property Loans", "Short-Term Finance"]
-author: "Emet Capital"
 readingTime: 12
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/commercial-bridging-loan-rates-2025-update.jpg"
 keywords: ["commercial bridging loan rates", "bridging finance rates australia", "commercial bridge loan pricing", "short-term commercial property finance"]
 ---

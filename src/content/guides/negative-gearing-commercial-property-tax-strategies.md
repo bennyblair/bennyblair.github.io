@@ -4,8 +4,14 @@ description: "General guide to negative gearing for Australian commercial proper
 date: "2026-05-02"
 category: "Commercial Property Finance"
 tags: ["negative gearing", "commercial property", "commercial property finance", "property investors", "tax considerations"]
-author: "Emet Capital"
 readingTime: 9
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 slug: "negative-gearing-commercial-property-tax-strategies"
 keywords: ["negative gearing commercial property", "commercial property tax strategies", "commercial property finance Australia"]
 ---

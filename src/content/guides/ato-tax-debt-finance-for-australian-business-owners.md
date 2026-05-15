@@ -4,8 +4,14 @@ date: "2026-03-26"
 description: "A practical guide to ATO tax debt finance for Australian business owners, including how it works, when commercial borrowers use it, lender considerations, and when short-term or property-backed finance may be relevant."
 category: "Private Lending"
 tags: ["ATO Tax Debt", "Private Lending", "Business Finance", "Commercial Lending", "Refinancing"]
-author: "Emet Capital"
 readingTime: 11
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/ato-tax-debt-finance-for-australian-business-owners.jpg"
 keywords: ["ato tax debt finance", "tax debt finance australia", "ato debt funding", "business tax debt refinance"]
 ---

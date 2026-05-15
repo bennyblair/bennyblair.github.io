@@ -2,9 +2,15 @@
 title: "Swing Loans Explained: Seamless Property Transitions"
 description: "Learn what a swing loan means in Australia, how it compares with bridging finance, and where it may fit commercial property and business-purpose transactions."
 slug: "swing-loans-explained-seamless-property-transitions"
-author: "Emet Capital Editorial Team"
 date: "2026-03-15"
 category: "Business Finance"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 tags: ["swing loan", "bridging finance", "commercial finance", "property transitions", "private lending"]
 metaTitle: "Swing Loans Explained: Seamless Property Transitions"
 metaDescription: "Learn what a swing loan means in Australia, how it compares with bridging finance, and where it may fit commercial property and business-purpose transactions."

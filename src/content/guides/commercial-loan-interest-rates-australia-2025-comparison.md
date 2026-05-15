@@ -10,6 +10,13 @@ keywords:
   - "business loan rates australia"
   - "commercial finance rates"
 readTime: "10 min read"
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 ---
 
 Commercial loan interest rates in Australia are the pricing terms attached to business-purpose lending. There is no single market rate that applies to every borrower. A lender prices the deal in front of it based on security, cash flow, loan purpose, document quality, leverage, industry risk, and how clearly the exit or repayment path makes sense.

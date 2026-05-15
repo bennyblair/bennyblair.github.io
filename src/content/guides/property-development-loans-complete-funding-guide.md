@@ -3,8 +3,14 @@ title: "Property Development Loans: Complete Funding Guide"
 date: "2026-03-19"
 description: "A comprehensive guide to property development loans in Australia. Learn how development finance works, who qualifies, what lenders assess, and how to structure your next project."
 keywords: ["property development loans", "development finance", "construction loans", "property development funding", "development loan Australia"]
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 slug: "property-development-loans-complete-funding-guide"
-author: "Emet Capital"
 category: "Commercial Property Development Finance"
 ---
 

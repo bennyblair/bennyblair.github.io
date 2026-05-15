@@ -17,7 +17,7 @@ const benAuthor = {
   name: 'Ben',
   title: 'Commercial Finance Broker, Emet Capital',
   url: `${siteUrl}/about/ben`,
-  shortBio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors.",
+  shortBio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
   knowsAbout: [
     'Caveat loans',
     'Second mortgages',
@@ -31,7 +31,7 @@ const danielAuthor = {
   name: 'Daniel',
   title: 'Director, Emet Capital',
   url: `${siteUrl}/about/daniel`,
-  shortBio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+  shortBio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
   knowsAbout: [
     'Caveat loans',
     'Second mortgages',

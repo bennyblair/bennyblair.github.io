@@ -35,8 +35,8 @@ const AboutBen = () => {
     <div className="min-h-screen py-8">
       <SEO
         title="Ben | Commercial Finance Broker at Emet Capital"
-        description="Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance."
-        keywords="Ben Emet Capital, commercial finance broker, private lending broker, caveat loans broker, second mortgage broker, bridging finance broker"
+        description="Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in operational guides, scenario walkthroughs, and case studies across Emet Capital's six finance pillars."
+        keywords="Ben, Emet Capital, commercial finance broker, private lending broker, caveat loans broker, second mortgage broker, bridging finance broker"
         canonical="/about/ben"
         schemas={[profilePageSchema, generateBenPersonSchema(), generateOrganizationSchema()]}
       />
@@ -53,7 +53,7 @@ const AboutBen = () => {
             Ben
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-            Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors.
+            Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.
           </p>
         </header>
 
@@ -64,13 +64,13 @@ const AboutBen = () => {
                 <h2 className="text-2xl font-bold text-foreground mb-4">Broker Background</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Ben works with Australian business owners, property investors, and developers who need practical guidance across private lending, property-backed funding, and non-bank commercial finance options.
+                    Ben works with Australian business owners, property investors, and developers who need practical guidance across private lending, property-backed funding, non-bank commercial finance, and business finance options.
                   </p>
                   <p>
-                    His work is focused on matching the structure of a loan to the commercial problem in front of the borrower: settlement pressure, refinance timing, tax-debt pressure, residual stock, business cash flow, or a transaction that does not fit a standard bank pathway.
+                    His content lane is operational: how-to guides, checklists, settlement explainers, document walkthroughs, case studies, and borrower scenarios where the useful answer is practical rather than market commentary.
                   </p>
                   <p>
-                    The content Ben authors for Emet Capital is written as general information for commercial borrowers. It is designed to explain how lenders may think about security, exit strategy, documents, timing, and risk, not to provide personal financial advice.
+                    The content Ben authors for Emet Capital is written as general information for commercial borrowers. It is designed to explain security, exit strategy, documents, timing, and risk in plain English, not to provide personal financial advice.
                   </p>
                 </div>
               </CardContent>

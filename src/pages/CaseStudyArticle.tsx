@@ -11,6 +11,7 @@ import { getArticleBySlug, type Article } from "@/lib/content";
 import { convertMarkdownToHtml, stripFirstHeading } from "@/lib/markdown-converter";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 import { normalizeSeoDescription, normalizeSeoTitle } from "@/lib/seo-metadata";
+import { BEN_AUTHOR, DANIEL_AUTHOR } from "@/lib/schema-utils";
 
 const CaseStudyArticle = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -71,12 +72,55 @@ const CaseStudyArticle = () => {
   }
 
   const processedContent = stripFirstHeading(article.content);
+  const reviewedDate = article.reviewedDate || article.date;
+  const authorDisplayName = article.authorName || article.author || "Emet Capital";
+  const authorUrl = article.authorUrl || (
+    article.authorName === BEN_AUTHOR.name
+      ? "/about/ben"
+      : article.authorName === DANIEL_AUTHOR.name
+        ? "/about/daniel"
+        : undefined
+  );
+  const fullAuthorUrl = authorUrl
+    ? authorUrl.startsWith("http")
+      ? authorUrl
+      : `https://emetcapital.com.au${authorUrl}`
+    : "https://emetcapital.com.au";
+  const authorLinks = article.authorLinks?.length
+    ? article.authorLinks
+    : authorUrl
+      ? [{ label: `${authorDisplayName} bio`, url: authorUrl }]
+      : [];
+  const formatArticleDate = (value: string) => new Date(value).toLocaleDateString('en-AU', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
   const breadcrumbItems = [
     { label: "Home", href: "/" },
     { label: "Resources", href: "/resources" },
     { label: "Case Studies", href: "/resources/case-studies" },
     { label: article.title }
   ];
+
+  const articleAuthorSchema = article.authorName
+    ? {
+        "@type": "Person",
+        "name": article.authorName,
+        "jobTitle": article.authorTitle,
+        "url": fullAuthorUrl,
+        "description": article.authorBio,
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Emet Capital",
+          "url": "https://emetcapital.com.au"
+        }
+      }
+    : {
+        "@type": "Organization",
+        "name": article.author || "Emet Capital",
+        "url": "https://emetcapital.com.au"
+      };
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -85,12 +129,8 @@ const CaseStudyArticle = () => {
     "description": article.description,
     "image": article.featuredImage ? `https://emetcapital.com.au${article.featuredImage}` : `https://emetcapital.com.au/images/uploads/${article.slug}.jpg`,
     "datePublished": article.date,
-    "dateModified": article.date,
-    "author": {
-      "@type": "Organization",
-      "name": "Emet Capital",
-      "url": "https://emetcapital.com.au"
-    },
+    "dateModified": reviewedDate,
+    "author": articleAuthorSchema,
     "publisher": {
       "@type": "Organization",
       "name": "Emet Capital",
@@ -161,6 +201,27 @@ const CaseStudyArticle = () => {
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               {article.description}
             </p>
+            {article.authorName && (
+              <div className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
+                <span>
+                  Written by{" "}
+                  {authorUrl ? (
+                    <Link to={authorUrl} className="font-semibold text-foreground hover:text-primary underline underline-offset-4">
+                      {article.authorName}
+                    </Link>
+                  ) : (
+                    <span className="font-semibold text-foreground">{article.authorName}</span>
+                  )}
+                </span>
+                <span aria-hidden="true">|</span>
+                <span>Reviewed {formatArticleDate(reviewedDate)}</span>
+                {authorLinks.map((link) => (
+                  <Link key={link.url} to={link.url} className="font-medium text-primary hover:underline underline-offset-4">
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            )}
           </header>
 
           <div className="grid lg:grid-cols-12 gap-8 mb-12">
