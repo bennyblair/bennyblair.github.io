@@ -9,6 +9,7 @@ import { convertMarkdownToHtml, extractTableOfContents, extractFAQs, stripFirstH
 import FAQSection from "@/components/FAQSection";
 import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
+import { BEN_AUTHOR } from "@/lib/schema-utils";
 
 const GuideArticle = () => {
   const { slug } = useParams();
@@ -285,6 +286,42 @@ const GuideArticle = () => {
   const seoKeywords = article.tags?.join(', ') || 'commercial finance, business lending, Australia';
   const canonicalUrl = `/resources/${contentType}/${slug}`;
   const seoImage = article.featuredImage || `/placeholder.svg`;
+  const reviewedDate = article.reviewedDate || article.date;
+  const authorDisplayName = article.authorName || article.author || "Emet Capital";
+  const authorUrl = article.authorUrl || (article.authorName === BEN_AUTHOR.name ? "/about/ben" : undefined);
+  const fullAuthorUrl = authorUrl
+    ? authorUrl.startsWith("http")
+      ? authorUrl
+      : `https://emetcapital.com.au${authorUrl}`
+    : "https://emetcapital.com.au";
+  const authorLinks = article.authorLinks?.length
+    ? article.authorLinks
+    : authorUrl
+      ? [{ label: `${authorDisplayName} bio`, url: authorUrl }]
+      : [];
+  const formatArticleDate = (value: string) => new Date(value).toLocaleDateString('en-AU', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+  const articleAuthorSchema = article.authorName
+    ? {
+        "@type": "Person",
+        "name": article.authorName,
+        "jobTitle": article.authorTitle,
+        "url": fullAuthorUrl,
+        "description": article.authorBio,
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Emet Capital",
+          "url": "https://emetcapital.com.au"
+        }
+      }
+    : {
+        "@type": "Organization",
+        "name": article.author || "Emet Capital",
+        "url": "https://emetcapital.com.au"
+      };
 
   // Generate JSON-LD structured data
   const articleSchema = {
@@ -294,12 +331,8 @@ const GuideArticle = () => {
     "description": article.description,
     "image": `https://emetcapital.com.au${seoImage}`,
     "datePublished": article.date,
-    "dateModified": article.date,
-    "author": {
-      "@type": "Organization",
-      "name": article.author || "Emet Capital",
-      "url": "https://emetcapital.com.au"
-    },
+    "dateModified": reviewedDate,
+    "author": articleAuthorSchema,
     "publisher": {
       "@type": "Organization",
       "name": "Emet Capital",
@@ -371,15 +404,11 @@ const GuideArticle = () => {
               </div>
               <div className="flex items-center">
                 <User className="w-4 h-4 mr-2" />
-                {article.author}
+                {authorDisplayName}
               </div>
               <div className="flex items-center">
                 <Calendar className="w-4 h-4 mr-2" />
-                {new Date(article.date).toLocaleDateString('en-AU', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}
+                {formatArticleDate(article.date)}
               </div>
             </div>
           </div>
@@ -391,6 +420,28 @@ const GuideArticle = () => {
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
             {article.description}
           </p>
+
+          {article.authorName && (
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
+              <span>
+                Written by{" "}
+                {authorUrl ? (
+                  <Link to={authorUrl} className="font-semibold text-foreground hover:text-primary underline underline-offset-4">
+                    {article.authorName}
+                  </Link>
+                ) : (
+                  <span className="font-semibold text-foreground">{article.authorName}</span>
+                )}
+              </span>
+              <span aria-hidden="true">|</span>
+              <span>Reviewed {formatArticleDate(reviewedDate)}</span>
+              {authorLinks.map((link) => (
+                <Link key={link.url} to={link.url} className="font-medium text-primary hover:underline underline-offset-4">
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          )}
         </header>
 
         {/* Key Takeaways - Only show if we found some */}

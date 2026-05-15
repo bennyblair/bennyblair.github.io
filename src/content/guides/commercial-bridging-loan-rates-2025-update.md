@@ -4,7 +4,13 @@ date: "2026-04-11"
 description: "A practical guide to commercial bridging loan rates in Australia, including what drives pricing, what fees matter, when a bridge may make sense, and how business borrowers should compare short-term property finance without relying on headline rates alone."
 category: "Bridging Finance"
 tags: ["Commercial Bridging Finance", "Bridging Loan Rates", "Private Lending", "Commercial Property Loans", "Short-Term Finance"]
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 readingTime: 12
 featuredImage: "/images/commercial-bridging-loan-rates-2025-update.jpg"
 keywords: ["commercial bridging loan rates", "bridging finance rates australia", "commercial bridge loan pricing", "short-term commercial property finance"]

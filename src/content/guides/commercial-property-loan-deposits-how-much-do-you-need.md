@@ -10,6 +10,13 @@ keywords:
   - "commercial property finance deposit"
   - "commercial property equity contribution"
 readTime: "11 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 # Commercial Property Loan Deposits in Australia: How Much Do You Need?

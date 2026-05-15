@@ -5,7 +5,13 @@ description: "Complete guide to equipment finance and leasing in Australia. Lear
 featuredImage: "/images/uploads/equipment-finance-and-leasing-australia.jpg"
 category: "Business Finance"
 tags: ["equipment finance", "equipment leasing", "business equipment loans", "chattel mortgage", "commercial hire purchase", "equipment funding Australia"]
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 readingTime: 10
 slug: "equipment-finance-and-leasing-australia"
 ---

@@ -1909,6 +1909,16 @@
     "noscript": "Learn about Emet Capital, our commercial finance background, lender network, and how we help Australian businesses and property borrowers structure funding.",
     "sourcePath": "src/pages/About.tsx"
   },
+  "/about/ben": {
+    "routePath": "/about/ben",
+    "title": "Ben | Commercial Finance Broker at Emet Capital",
+    "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in caveat loans, second mortgages,...",
+    "keywords": "Ben Emet Capital, commercial finance broker, private lending broker, caveat loans broker, second mortgage broker, bridging finance broker",
+    "canonical": "https://emetcapital.com.au/about/ben",
+    "h1": "Ben",
+    "noscript": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance.",
+    "sourcePath": "src/pages/AboutBen.tsx"
+  },
   "/privacy-policy": {
     "routePath": "/privacy-policy",
     "title": "Privacy Policy | Emet Capital",

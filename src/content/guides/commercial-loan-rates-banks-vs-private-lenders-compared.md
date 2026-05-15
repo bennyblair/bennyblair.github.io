@@ -4,7 +4,13 @@ date: "2026-04-11"
 description: "A practical comparison of commercial loan rates in Australia across banks and private lenders, including what drives pricing, how borrower risk is assessed, and when a higher-cost structure may still be commercially sensible."
 category: "Commercial Property Loans"
 tags: ["Commercial Loan Rates", "Private Lending", "Bank vs Non-Bank Lending", "Commercial Property Loans", "Refinancing"]
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 readingTime: 12
 featuredImage: "/images/commercial-loan-rates-banks-vs-private-lenders-compared.jpg"
 keywords: ["commercial loan rates", "bank vs private lender rates", "commercial property finance rates", "private lender commercial loans"]

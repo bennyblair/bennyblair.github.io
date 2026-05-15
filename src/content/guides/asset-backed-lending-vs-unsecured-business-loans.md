@@ -4,7 +4,13 @@ date: "2026-04-24"
 description: "Compare asset-backed lending and unsecured business loans for Australian commercial borrowers, including security, speed, borrowing capacity, lender assessment, and transaction fit."
 category: "Specialized Finance"
 tags: ["Asset-Backed Lending", "Unsecured Business Loans", "Commercial Finance", "Business Borrowing", "Secured Lending"]
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 readingTime: 9
 featuredImage: "/images/uploads/asset-backed-lending-and-asset-finance.jpg"
 keywords: ["asset-backed lending vs unsecured business loans", "secured vs unsecured business loans", "asset-backed lending Australia", "commercial finance comparison"]

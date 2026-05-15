@@ -5,6 +5,45 @@ interface BreadcrumbItem {
   href?: string;
 }
 
+export const BEN_AUTHOR = {
+  name: "Ben",
+  title: "Commercial Finance Broker, Emet Capital",
+  url: "https://emetcapital.com.au/about/ben",
+  shortBio:
+    "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors.",
+  knowsAbout: [
+    "Caveat loans",
+    "Second mortgages",
+    "Bridging finance",
+    "Commercial property finance",
+    "Private lending",
+    "Business finance",
+  ],
+};
+
+/**
+ * Generates Person JSON-LD schema for Ben.
+ *
+ * LinkedIn sameAs is intentionally omitted until Daniel confirms Ben's public
+ * LinkedIn URL. Do not substitute Daniel's profile or a company profile here.
+ */
+export const generateBenPersonSchema = () => {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": BEN_AUTHOR.name,
+    "jobTitle": BEN_AUTHOR.title,
+    "url": BEN_AUTHOR.url,
+    "description": BEN_AUTHOR.shortBio,
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Emet Capital",
+      "url": "https://emetcapital.com.au"
+    },
+    "knowsAbout": BEN_AUTHOR.knowsAbout
+  };
+};
+
 /**
  * Generates BreadcrumbList JSON-LD schema
  */
@@ -61,7 +100,13 @@ export const generateOrganizationSchema = () => {
     },
     "sameAs": [
       "https://www.linkedin.com/company/emet-capital"
-    ]
+    ],
+    "employee": {
+      "@type": "Person",
+      "name": BEN_AUTHOR.name,
+      "jobTitle": BEN_AUTHOR.title,
+      "url": BEN_AUTHOR.url
+    }
   };
 };
 
@@ -120,6 +165,12 @@ export const generateLocalBusinessSchema = () => {
       ],
       "opens": "08:00",
       "closes": "18:00"
+    },
+    "employee": {
+      "@type": "Person",
+      "name": BEN_AUTHOR.name,
+      "jobTitle": BEN_AUTHOR.title,
+      "url": BEN_AUTHOR.url
     },
     "aggregateRating": generateAggregateRatingSchema()
   };

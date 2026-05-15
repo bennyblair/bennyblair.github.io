@@ -4,7 +4,13 @@ date: "2026-03-29"
 description: "A practical guide to commercial loan refinance for Australian business borrowers, including when refinancing can make sense, what lenders assess, common structures, and when it may not be the right move."
 category: "Business Finance"
 tags: ["Commercial Loan Refinance", "Business Refinance", "Debt Consolidation", "Private Lending", "Commercial Finance"]
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 readingTime: 10
 featuredImage: "/images/commercial-loan-refinance.jpg"
 keywords: ["commercial loan refinance", "refinance commercial loan", "business loan refinance", "refinancing commercial debt"]

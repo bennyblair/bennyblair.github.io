@@ -10,6 +10,12 @@ export interface Article {
   category: string;
   tags: string[];
   author: string;
+  authorName?: string;
+  authorTitle?: string;
+  authorBio?: string;
+  authorUrl?: string;
+  authorLinks?: { label: string; url: string }[];
+  reviewedDate?: string;
   readingTime: number;
   featuredImage?: string;
   content: string;
@@ -94,6 +100,12 @@ function parseArticle(path: string, raw: string): Article | null {
     category: data.category ?? "Guides",
     tags: Array.isArray(data.tags) ? data.tags : [],
     author: data.author ?? "Emet Capital",
+    authorName: data.author_name ?? data.authorName,
+    authorTitle: data.author_title ?? data.authorTitle,
+    authorBio: data.author_bio ?? data.authorBio,
+    authorUrl: data.author_url ?? data.authorUrl,
+    authorLinks: Array.isArray(data.author_links ?? data.authorLinks) ? (data.author_links ?? data.authorLinks) : [],
+    reviewedDate: data.reviewed_date ?? data.reviewedDate,
     readingTime: Number(data.readingTime ?? 8),
     featuredImage: data.featuredImage,
     content,

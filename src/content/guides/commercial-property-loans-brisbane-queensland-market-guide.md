@@ -9,6 +9,13 @@ keywords:
   - "commercial property finance brisbane"
   - "brisbane commercial property loans"
 readTime: "11 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 Commercial property loans in Brisbane are business-purpose loans secured against offices, warehouses, retail assets, mixed-use properties, and owner-occupied commercial premises across South East Queensland. In practice, Brisbane borrowers usually need to prove three things: the property makes sense, the business or investor can support the debt, and the exit plan is realistic if market conditions shift.

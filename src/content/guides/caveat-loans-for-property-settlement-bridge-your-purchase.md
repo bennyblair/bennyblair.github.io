@@ -3,7 +3,13 @@ title: "Caveat Loans for Property Settlement: Bridge Your Purchase"
 description: "Discover how caveat loans enable quick property settlement in Australia. Learn about approval times, costs, eligibility requirements, and when to use settlement bridge finance."
 slug: "caveat-loans-for-property-settlement-bridge-your-purchase"
 date: 2025-11-11
-author: "Emet Capital"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 tags: ["Caveat Loans", "Property Settlement", "Bridging Finance", "Commercial Property", "Settlement Finance"]
 category: "Guides"
 featured: false

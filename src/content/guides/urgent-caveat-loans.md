@@ -6,6 +6,13 @@ slug: "urgent-caveat-loans"
 category: "Property Finance"
 keywords: ["urgent caveat loans", "fast caveat finance", "emergency business funding", "24 hour property loan", "quick commercial finance Australia"]
 readTime: "8 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in caveat loans, second mortgages, and bridging finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 metaTitle: "Urgent Caveat Loans Australia | Fast Business Funding Guide"
 metaDescription: "Urgent caveat loans may help business borrowers use property equity when deadlines are tight. Learn fit, risks, documents and exits."
 schema:
