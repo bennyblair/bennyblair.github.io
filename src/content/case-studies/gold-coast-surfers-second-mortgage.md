@@ -5,8 +5,14 @@ date: "2026-01-28"
 category: "Case Studies"
 slug: "gold-coast-surfers-second-mortgage"
 keywords: ["second mortgage Gold Coast", "Surfers Paradise development", "Gold Coast property finance", "development deposit finance", "2nd mortgage Queensland", "beachfront development"]
-author: "Emet Capital"
 readingTime: 8
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/assets/gold-coast-surfers-beachfront.jpg"
 loanAmount: "$650K"
 loanType: "Second Mortgage"

@@ -6,6 +6,13 @@ category: "Property Finance"
 slug: "construction-finance-australia-complete-guide"
 keywords: ["construction finance", "commercial construction loans", "owner builder finance", "building finance Australia", "commercial construction funding"]
 readTime: "12 min read"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 ---
 
 # Construction Finance in Australia: The Complete Guide for Commercial Builds

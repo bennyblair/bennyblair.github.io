@@ -13,6 +13,9 @@ npm run qa:article -- <article1.md> <article2.md> --preview-base <preview-base-u
 - Every `/resources/guides/...` slug in the article resolves to a real file in `src/content/guides/`
 - The article route exists in `scripts/seo-route-data.generated.json`
 - The article canonical URL appears in `public/sitemap.xml`
+- Author strict mode: `author`, `author_name`, `author_title`, `author_bio`, `author_url`, `author_links`, and `reviewed_date` are present
+- Author names are first-name-only and exactly `Ben` or `Daniel`
+- Generated Article schema uses a `Person` author matching the frontmatter byline
 - `Related In-Depth Guides` and `Related Guides` both exist
 - Top and bottom related-guide lists are not identical
 - Preview URLs for the provided articles return HTTP 200 when `--preview-base` is supplied

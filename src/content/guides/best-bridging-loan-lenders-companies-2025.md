@@ -3,8 +3,14 @@ title: "The Best Bridging Loan Lenders & Finance Companies [2025]"
 description: "Compare Australia's top bridging loan lenders for 2025. Expert ratings on rates, speed, LVR limits and serviceability for commercial and residential bridging finance."
 date: "2025-11-02"
 category: "Guides"
-author: "Emet Capital"
 readingTime: 14
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 keywords:
   - "bridging loan lenders"
   - "best bridging finance companies"

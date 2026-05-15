@@ -4,8 +4,14 @@ date: "2026-03-17"
 description: "A practical commercial property due diligence finance checklist for Australian investors, developers, and business owners. Learn what lenders review before settlement and how to avoid financing surprises."
 category: "Property Finance"
 tags: ["Commercial Property Due Diligence", "Commercial Property Loans", "Business Finance", "Property Investors", "Developers"]
-author: "Emet Capital"
 readingTime: 11
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/commercial-property-due-diligence-finance-checklist.jpg"
 keywords: ["commercial property due diligence", "commercial property finance checklist", "commercial property settlement checklist", "commercial loan due diligence"]
 ---

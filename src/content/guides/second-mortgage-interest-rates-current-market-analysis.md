@@ -4,8 +4,14 @@ date: "2026-03-25"
 description: "A commercial-only guide to how second mortgage interest rates are assessed in Australia, what usually pushes pricing up or down, and how business borrowers should compare second-position debt."
 category: "Second Mortgages"
 tags: ["Second Mortgage Interest Rates", "Second Mortgages", "Commercial Finance", "Private Lending", "Business Loans"]
-author: "Emet Capital"
 readingTime: 10
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/second-mortgage-interest-rates-current-market-analysis.jpg"
 keywords: ["second mortgage interest rates", "second mortgage rates", "commercial second mortgage", "second position lending"]
 ---

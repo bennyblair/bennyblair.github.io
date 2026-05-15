@@ -4,8 +4,14 @@ date: "2026-03-28"
 description: "A practical guide to GST loans for commercial property settlement in Australia, including when a GST funding gap appears, how short-term settlement finance is commonly structured, what lenders assess, and when this type of loan may or may not fit."
 category: "Commercial Property Loans"
 tags: ["GST Loan", "Commercial Property Settlement", "Short-Term Finance", "Private Lending", "Commercial Property Loans"]
-author: "Emet Capital"
 readingTime: 11
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/gst-loan-for-commercial-property-settlement-in-australia.jpg"
 keywords: ["gst loan commercial property settlement", "gst funding commercial settlement", "commercial property settlement finance", "gst settlement loan australia"]
 ---

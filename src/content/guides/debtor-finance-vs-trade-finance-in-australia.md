@@ -4,8 +4,14 @@ date: "2026-04-20"
 description: "A practical guide to debtor finance vs trade finance in Australia, including how each facility works, who it suits, when to use each one, and when neither option is the right fit. Informational only, not financial advice."
 category: "Working Capital"
 tags: ["Debtor Finance", "Trade Finance", "Working Capital", "Business Finance", "Cash Flow"]
-author: "Emet Capital"
 readingTime: 10
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 featuredImage: "/images/debtor-finance-vs-trade-finance-in-australia.jpg"
 keywords: ["debtor finance vs trade finance", "debtor finance australia", "trade finance australia", "working capital finance"]
 ---

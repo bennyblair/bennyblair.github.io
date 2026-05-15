@@ -2,10 +2,16 @@
 title: "Commercial Property Loans for Retail Spaces: 2025 Guide"
 description: "Complete guide to commercial property loans for retail spaces in Australia. Learn about foot traffic assessment, LVRs, rates, and retail-specific lending criteria."
 date: "2025-10-14"
-author: "Emet Capital"
 category: "Property Finance"
 tags: ["commercial property loan retail", "retail property finance", "retail space loans", "foot traffic analysis", "retail tenancy", "commercial real estate", "LVR"]
 readingTime: 22
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 keywords: ["commercial property loan retail", "retail property finance", "retail space loans", "commercial property lending", "foot traffic analysis", "retail tenancy", "commercial real estate"]
 ---
 

@@ -11,6 +11,13 @@ keywords:
   - "commercial second mortgage"
   - "property-backed business finance"
 readTime: "9 min read"
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 ---
 
 A priority agreement in a second mortgage is a legal agreement that clarifies how the first lender and second lender will deal with ranking, enforcement, repayments, and information rights when both hold security over the same property. In simple terms, it helps answer a practical question: if two lenders are sitting on one asset, who gets paid first, who can do what, and what happens if the borrower defaults?

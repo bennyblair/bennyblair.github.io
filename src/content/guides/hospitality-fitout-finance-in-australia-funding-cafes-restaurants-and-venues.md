@@ -4,8 +4,14 @@ date: "2026-04-26"
 description: "Hospitality fitout finance in Australia explained for cafes, restaurants and venues funding fitout works, kitchen equipment, lease incentives, staged costs and opening delays. General information only - not advice."
 category: "Business Finance"
 tags: ["Hospitality Finance", "Fitout Finance", "Asset Finance", "Working Capital", "Equipment Finance"]
-author: "Emet Capital"
 readingTime: 10
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues.jpg"
 keywords: ["hospitality fitout finance australia", "restaurant fitout finance", "cafe fitout finance", "venue fitout funding", "commercial kitchen equipment finance"]
 slug: "hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues"

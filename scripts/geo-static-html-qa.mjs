@@ -145,11 +145,11 @@ for (const file of htmlFiles) {
   if (route.startsWith('/resources/guides/')) {
     if (!schemaTypes.includes('Article')) errors.push('articleSchemaMissing');
     if (/Frequently Asked Questions/i.test(text) && !schemaTypes.includes('FAQPage')) errors.push('faqSchemaMissing');
-    if (!/Written by/i.test(html) || !/Published:/i.test(html) || !/Updated:/i.test(html)) errors.push('articleMetaMissing');
+    if (!/Written by/i.test(html) || !(/Reviewed/i.test(html) || (/Published:/i.test(html) && /Updated:/i.test(html)))) errors.push('articleMetaMissing');
   }
   if (route.startsWith('/resources/case-studies/')) {
     if (!schemaTypes.includes('Article')) errors.push('caseStudyArticleSchemaMissing');
-    if (!/Written by/i.test(html) || !/Published:/i.test(html) || !/Updated:/i.test(html)) errors.push('caseStudyMetaMissing');
+    if (!/Written by/i.test(html) || !(/Reviewed/i.test(html) || (/Published:/i.test(html) && /Updated:/i.test(html)))) errors.push('caseStudyMetaMissing');
   }
 
   if (errors.length) {

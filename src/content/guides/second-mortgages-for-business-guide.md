@@ -3,8 +3,14 @@ title: "Second Mortgages for Business in Australia: Complete Guide"
 description: "A practical guide to second mortgages for Australian business borrowers, including how they work, when they may fit, lender assessment factors, risks, and exit planning."
 date: "2025-10-30"
 category: "Guides"
-author: "Emet Capital"
 readingTime: 10
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 image: "https://www.emetcapital.com.au/images/second-mortgage-business.jpg"
 slug: "second-mortgages-for-business-guide"
 ---

@@ -2,9 +2,15 @@
 title: "Caveat Loan vs Second Mortgage: Which Is Right for You?"
 description: "Compare caveat loans and second mortgages for Australian business borrowers. Understand speed, security, exit strategy, risk, and when each structure may fit."
 date: 2026-03-20
-author: Emet Capital
 pillar: "Caveat Loans in Australia: The Complete Guide"
 keywords: ["caveat loan vs second mortgage", "caveat loan", "second mortgage", "property-backed business finance", "private lending Australia"]
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 ---
 
 # Caveat Loan vs Second Mortgage: Which Is Right for You?

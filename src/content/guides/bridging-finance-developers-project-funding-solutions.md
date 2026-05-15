@@ -2,8 +2,14 @@
 title: "Bridging Finance for Developers: Project Funding Solutions"
 description: "A practical guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction transitions, assessment factors, and exit planning."
 slug: "bridging-finance-developers-project-funding-solutions"
-author: "Emet Capital"
 date: "2025-11-20"
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 image: "/images/uploads/developer-bridging-finance.jpg"
 categories: ["Property Development", "Development Finance"]
 tags: ["bridging finance", "property development", "developer finance", "construction finance"]

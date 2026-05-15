@@ -10,6 +10,13 @@ keywords:
   - "commercial mortgage Australia"
   - "commercial property finance rates"
 readTime: "11 min read"
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 ---
 
 Commercial mortgage rates in Australia are the pricing terms lenders use for business-purpose property loans secured against commercial real estate. In practice, there is no single market rate. Pricing depends on the property, the borrower, the lease profile, the leverage, the loan structure, and how clear the exit or refinance story looks to the lender.

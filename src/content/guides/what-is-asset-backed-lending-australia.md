@@ -4,8 +4,14 @@ date: "2026-04-24"
 description: "A clear definition of asset-backed lending in Australia for commercial borrowers, including eligible assets, lender assessment, use cases, risks, and how it differs from unsecured finance."
 category: "Specialized Finance"
 tags: ["Asset-Backed Lending", "Asset Finance", "Commercial Finance", "Secured Business Loans", "Working Capital"]
-author: "Emet Capital"
 readingTime: 8
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/uploads/asset-backed-lending-and-asset-finance.jpg"
 keywords: ["what is asset-backed lending", "asset-backed lending Australia", "secured business loans Australia", "asset based lending Australia"]
 slug: "what-is-asset-backed-lending-australia"

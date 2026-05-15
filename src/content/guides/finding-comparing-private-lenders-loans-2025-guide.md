@@ -5,8 +5,14 @@ description: "A practical guide to comparing private lenders for Australian busi
 featuredImage: "/images/uploads/finding-comparing-private-lenders-loans-2025-guide.jpg"
 category: "Private Lending"
 tags: ["private lenders", "private lending", "business loans", "compare lenders", "finance guide"]
-author: "Emet Capital"
 readingTime: 18
+author: "Daniel"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
+author_url: "/about/daniel"
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Director, Emet Capital"
+author_name: "Daniel"
 ---
 
 # How to Compare Private Lenders for Business Funding

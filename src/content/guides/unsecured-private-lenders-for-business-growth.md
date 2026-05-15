@@ -4,8 +4,14 @@ date: "2026-03-21"
 description: "A practical guide to unsecured private lenders for Australian business growth. Learn how these facilities work, what lenders assess, and when unsecured private capital may fit a commercial funding plan."
 category: "Specialized Finance"
 tags: ["Unsecured Private Lenders", "Private Lending", "Business Growth", "Commercial Finance", "Alternative Lending"]
-author: "Emet Capital"
 readingTime: 10
+author: "Ben"
+reviewed_date: "2026-05-15"
+author_links: [{"label":"Ben bio","url":"/about/ben"}]
+author_url: "/about/ben"
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_title: "Commercial Finance Broker, Emet Capital"
+author_name: "Ben"
 featuredImage: "/images/unsecured-private-lenders-for-business-growth.jpg"
 keywords: ["unsecured private lenders", "unsecured business lending", "private lenders for business growth", "commercial unsecured finance"]
 ---
