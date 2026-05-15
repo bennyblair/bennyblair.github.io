@@ -23,7 +23,7 @@ At Emet Capital, we usually frame this as a structuring decision. The question i
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how second mortgages work for business borrowers
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Priority, structure, and strategic use of layered property debt
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Priority, structure, and strategic use of layered property debt
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — Useful when the partner exit resembles an acquisition transaction
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When a wider restructure may be better than a top-up loan
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Why partner buyout timing often pushes borrowers outside standard bank credit
@@ -49,7 +49,7 @@ It is not about personal relationship settlements or consumer home-lending advic
 
 A second mortgage is a loan secured behind an existing first mortgage on property you already own. In a partner buyout, the second mortgage proceeds may be used to pay the exiting partner, cover transaction costs, or support a broader restructure tied to the ownership change.
 
-The practical appeal is obvious. If your existing first mortgage still has workable pricing or terms, you may not want to refinance the entire facility just to access additional capital. A second mortgage can sit behind that senior debt and unlock part of the remaining equity instead. That is why many borrowers compare it with both [first and second mortgage structures](/resources/guides/first-and-second-mortgages-for-business) and [private lending solutions](/resources/guides/what-is-private-lending-australia) before deciding.
+The practical appeal is obvious. If your existing first mortgage still has workable pricing or terms, you may not want to refinance the entire facility just to access additional capital. A second mortgage can sit behind that senior debt and unlock part of the remaining equity instead. That is why many borrowers compare it with both [first and second mortgage structures](/resources/guides/second-mortgages-for-business-guide) and [private lending solutions](/resources/guides/what-is-private-lending-australia) before deciding.
 
 ## Direct Answer: When Does This Structure Make Sense?
 
@@ -221,7 +221,7 @@ That usually makes funding harder. A lender is more likely to proceed when the p
 
 ## Related Guides
 
-- **[Second Mortgage for Business](/resources/guides/second-mortgage-for-business)** — Broader guide to business-purpose second mortgage use
+- **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — Broader guide to business-purpose second mortgage use
 - **[How to Find Second Mortgage Brokers in Australia](/resources/guides/how-to-find-second-mortgage-brokers-australia)** — Useful if the structure is non-standard or time-sensitive
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — What lenders tend to look for in property-backed business borrowing
 - **[Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Why lender type can matter in ownership-transition files

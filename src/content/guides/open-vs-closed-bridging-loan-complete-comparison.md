@@ -28,7 +28,7 @@ At Emet Capital, we usually frame the choice this way: **closed bridging loans s
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Useful if your bridge is really a lead-in to longer-term debt.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant where the bridge is buying time for a refinance.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Helps compare mainstream and private-credit execution.
-- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)** — Useful for short settlement and auction scenarios.
+- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful for short settlement and auction scenarios.
 
 ## At a Glance
 
@@ -60,7 +60,7 @@ A closed bridging loan may fit when the repayment event is already visible and d
 
 Closed bridges are often easier for lenders to underwrite because the exit is not hypothetical. It is a real event with dates, documents, and counterparties attached. That does not make the file risk-free, but it usually makes the story cleaner.
 
-This is why closed bridges are common in [commercial bridging finance for auction purchases](/resources/guides/commercial-bridging-finance-auction-purchases), short-contract acquisitions, and purchase-before-sale deals where one leg of the transaction is already committed.
+This is why closed bridges are common in [commercial bridging finance for auction purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide), short-contract acquisitions, and purchase-before-sale deals where one leg of the transaction is already committed.
 
 ## The Real Difference: It Is About the Exit, Not the Label
 
@@ -68,7 +68,7 @@ The most useful way to think about open versus closed is this: **both are short-
 
 A closed bridge usually gives the lender more confidence because the repayment source is more concrete. An open bridge can still work, but the lender will usually test the file harder. They may look more closely at leverage, equity, fallback options, and the realism of the timing assumptions.
 
-That is also why borrowers should not choose the structure based on marketing language alone. If the transaction is really a refinance under time pressure, a bridge should be compared against [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business), and other transitional debt options.
+That is also why borrowers should not choose the structure based on marketing language alone. If the transaction is really a refinance under time pressure, a bridge should be compared against [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and other transitional debt options.
 
 ## What Lenders Usually Assess
 
@@ -114,7 +114,7 @@ That is why many experienced borrowers still model the downside. If the supposed
 
 A Melbourne investor needs to settle on a mixed-use acquisition in 21 days. Their existing commercial property is being marketed for sale, and agent feedback is strong, but contracts are not yet exchanged. The investor has reasonable equity and wants to avoid missing the new asset.
 
-That is typically an open bridge scenario. The exit is believable, but it is not locked in. The lender will likely focus on asset quality, equity, current debt, and what happens if the sale takes longer than expected. In some cases, the borrower may also compare this with a [second mortgage for business](/resources/guides/second-mortgage-for-business) or a transitional refinance.
+That is typically an open bridge scenario. The exit is believable, but it is not locked in. The lender will likely focus on asset quality, equity, current debt, and what happens if the sale takes longer than expected. In some cases, the borrower may also compare this with a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide) or a transitional refinance.
 
 ## Worked Example: Closed Bridge
 
@@ -164,7 +164,7 @@ Yes. In many cases, borrowers should compare bridging finance with [commercial p
 
 - [Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)
-- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)
+- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 

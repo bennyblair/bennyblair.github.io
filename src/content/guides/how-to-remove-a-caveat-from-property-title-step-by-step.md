@@ -80,7 +80,7 @@ The reverse can also happen. A borrower may believe the claim is weak from the b
 
 In commercial lending files, the most practical removal path is often repayment or refinance. If the caveat secures a short-term loan, clearing that debt may trigger the lender's obligation to withdraw or discharge its claim.
 
-This is why borrowers facing a settlement or refinance bottleneck should map the title issue and the finance issue together. Sometimes the title problem is really a funding problem. A borrower may need a structured exit into [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business), or another commercial facility that pays out the caveat-backed lender.
+This is why borrowers facing a settlement or refinance bottleneck should map the title issue and the finance issue together. Sometimes the title problem is really a funding problem. A borrower may need a structured exit into [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or another commercial facility that pays out the caveat-backed lender.
 
 ## Step 4: Request Voluntary Withdrawal if the Claim Has Been Satisfied
 

@@ -168,7 +168,7 @@ Start building your commercial property application well before you're ready to 
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lender use cases for borrowers who fall outside bank policy.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — how to revisit the debt structure after the startup phase.
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — short-term funding options for timing-sensitive settlements.
-- **[Second Mortgages for Business Guide](/resources/guides/first-and-second-mortgages-for-business)** — secondary security strategies when deposit pressure is the main constraint.
+- **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — secondary security strategies when deposit pressure is the main constraint.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
 

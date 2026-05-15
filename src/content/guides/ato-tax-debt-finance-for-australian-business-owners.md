@@ -14,7 +14,7 @@ keywords: ["ato tax debt finance", "tax debt finance australia", "ato debt fundi
 
 ATO tax debt finance is a commercial funding solution used by business owners who need to deal with tax arrears, reduce enforcement pressure, or create breathing room while they restructure cash flow, sell an asset, or refinance existing debt.
 
-The idea is simple: instead of leaving the tax debt untreated and hoping the pressure eases, a borrower uses business-purpose finance to clear or reduce the ATO balance and replace it with a facility that may be easier to manage in the short term. That facility might be a standard commercial refinance, a [private lending](/resources/guides/what-is-private-lending-australia) structure, a [second mortgage](/resources/guides/second-mortgage-for-business), or a short-term [caveat or bridging solution](/resources/guides/caveat-loan-emergency-business-funding), depending on the security, urgency, and exit strategy.
+The idea is simple: instead of leaving the tax debt untreated and hoping the pressure eases, a borrower uses business-purpose finance to clear or reduce the ATO balance and replace it with a facility that may be easier to manage in the short term. That facility might be a standard commercial refinance, a [private lending](/resources/guides/what-is-private-lending-australia) structure, a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a short-term [caveat or bridging solution](/resources/guides/caveat-loan-emergency-business-funding), depending on the security, urgency, and exit strategy.
 
 For investors, developers, and business owners, this is not really a “tax article” in the abstract. It is a financing and risk-management article. The real question is when ATO tax debt finance may be commercially useful, what lenders usually look at, and when it may be smarter to fix the broader capital structure instead of only treating the immediate arrears.
 
@@ -22,7 +22,7 @@ For investors, developers, and business owners, this is not really a “tax arti
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful background if the tax debt solution sits outside standard bank policy.
 - **[Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — Relevant when urgency is the central issue.
-- **[Second Mortgage for Business](/resources/guides/second-mortgage-for-business)** — Helpful if the tax debt plan involves releasing equity from property.
+- **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — Helpful if the tax debt plan involves releasing equity from property.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful when the tax debt issue sits inside a wider refinance problem.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — Relevant if tax arrears are only one part of a broader debt stack.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Helpful if the underlying issue is short-term cash-flow strain.
@@ -49,7 +49,7 @@ This guide is for:
 
 ATO tax debt finance is business-purpose borrowing used to pay out or reduce tax liabilities owed to the Australian Taxation Office. It is generally considered when a borrower cannot comfortably clear the debt from working capital, wants to avoid escalating pressure, or needs time to stabilise the business and restructure the balance sheet.
 
-The funding itself can take different forms. A standard commercial refinance may work where the borrower has strong security and enough time. A specialist or private lender may be more relevant where the issue is urgent, layered, or outside normal bank policy. In some cases, a [second mortgage](/resources/guides/second-mortgage-for-business) or [short-term caveat facility](/resources/guides/caveat-loan-emergency-business-funding) is used as a transition rather than a permanent solution.
+The funding itself can take different forms. A standard commercial refinance may work where the borrower has strong security and enough time. A specialist or private lender may be more relevant where the issue is urgent, layered, or outside normal bank policy. In some cases, a [second mortgage](/resources/guides/second-mortgages-for-business-guide) or [short-term caveat facility](/resources/guides/caveat-loan-emergency-business-funding) is used as a transition rather than a permanent solution.
 
 ## Why business owners look at tax debt finance
 
@@ -141,7 +141,7 @@ A [private lending](/resources/guides/what-is-private-lending-australia) structu
 
 ### Second mortgage
 
-A [second mortgage](/resources/guides/second-mortgage-for-business) can make sense when the borrower wants to raise capital without disturbing an existing first mortgage that still works well.
+A [second mortgage](/resources/guides/second-mortgages-for-business-guide) can make sense when the borrower wants to raise capital without disturbing an existing first mortgage that still works well.
 
 ### Caveat or short-term emergency funding
 
@@ -219,7 +219,7 @@ It tends to work best when the borrower has a viable business, usable security, 
 
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)
-- [Second Mortgage for Business](/resources/guides/second-mortgage-for-business)
+- [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 - [Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)
 

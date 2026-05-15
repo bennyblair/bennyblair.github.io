@@ -19,7 +19,7 @@ This comprehensive directory explains the different types of second mortgage len
 
 ---
 
-> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide).
 
 ### At a Glance
 
@@ -158,7 +158,7 @@ Identifying appropriate second mortgage lenders for your specific circumstances 
 
 ### Working With Specialist Mortgage Brokers
 
-Specialist mortgage brokers focusing on [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) represent the most efficient path to appropriate second mortgage lenders for most borrowers. These brokers maintain established relationships with non-bank lenders, credit unions, and private capital sources, understanding each lender's current appetite, pricing, and approval criteria. Rather than applying directly to multiple lenders sequentially, brokers can pre-qualify your scenario and target 2 to 3 lenders most likely to approve.
+Specialist mortgage brokers focusing on [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) represent the most efficient path to appropriate second mortgage lenders for most borrowers. These brokers maintain established relationships with non-bank lenders, credit unions, and private capital sources, understanding each lender's current appetite, pricing, and approval criteria. Rather than applying directly to multiple lenders sequentially, brokers can pre-qualify your scenario and target 2 to 3 lenders most likely to approve.
 
 Experienced brokers also manage application presentation strategically. They know whether specific lenders prefer concise executive summaries or comprehensive documentation packages, which property types each favours, and how to position credit impairments or unusual circumstances to maximise approval likelihood. This expertise often means the difference between approval and decline for borderline applications.
 

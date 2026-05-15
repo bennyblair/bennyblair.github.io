@@ -29,16 +29,6 @@
     "noscript": "In-depth guides on commercial lending, bridging finance, asset finance, development loans and more. Expert advice for Australian businesses seeking funding.",
     "sourcePath": "src/pages/Guides.tsx"
   },
-  "/resources/guides/2nd-loan-mortgage-business-capital": {
-    "routePath": "/resources/guides/2nd-loan-mortgage-business-capital",
-    "title": "2nd Loan Mortgages: Access Business Capital Through...",
-    "description": "Learn how 2nd loan mortgages unlock property equity for business capital. Discover LVRs, rates, processes, and when second mortgages suit your...",
-    "keywords": "2nd loan mortgage, second mortgage business, property equity business funding, second mortgage Australia, business capital through property",
-    "canonical": "https://emetcapital.com.au/resources/guides/2nd-loan-mortgage-business-capital",
-    "h1": "2nd Loan Mortgages: Access Business Capital Through Property",
-    "noscript": "Learn how 2nd loan mortgages unlock property equity for business capital. Discover LVRs, rates, processes, and when second mortgages suit your business needs.",
-    "sourcePath": "src/content/guides/2nd-loan-mortgage-business-capital.md"
-  },
   "/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia": {
     "routePath": "/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia",
     "title": "Asset-Backed Business Loans Using Equipment and...",
@@ -52,11 +42,11 @@
   "/resources/guides/asset-backed-lending-and-asset-finance": {
     "routePath": "/resources/guides/asset-backed-lending-and-asset-finance",
     "title": "Asset-Backed Lending & Asset Finance: A Guide",
-    "description": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, eligibility, benefits, and applications for...",
+    "description": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, assessment factors, benefits, and applications for...",
     "keywords": "",
     "canonical": "https://emetcapital.com.au/resources/guides/asset-backed-lending-and-asset-finance",
     "h1": "Asset-Backed Lending & Asset Finance: A Guide",
-    "noscript": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, eligibility, benefits, and applications for businesses. General information only - not advice.",
+    "noscript": "Complete guide to asset-backed lending and asset finance in Australia. Learn about structures, assessment factors, benefits, and applications for businesses. General information only - not advice.",
     "sourcePath": "src/content/guides/asset-backed-lending-and-asset-finance.md"
   },
   "/resources/guides/asset-backed-lending-vs-unsecured-business-loans": {
@@ -131,22 +121,22 @@
   },
   "/resources/guides/bridging-finance-australia-complete-property-guide": {
     "routePath": "/resources/guides/bridging-finance-australia-complete-property-guide",
-    "title": "Bridging Finance Australia Guide | Emet Capital",
-    "description": "Bridging finance in Australia for commercial borrowers. Learn when short-term property-backed funding fits, lender assessment, risks, and exit...",
+    "title": "Bridging Loans and Bridging Finance Australia Guide",
+    "description": "Bridging loans and bridging finance in Australia for commercial borrowers. Learn when short-term property-backed funding fits, lender assessment,...",
     "keywords": "bridging finance, bridging loans, property bridging, commercial bridging finance, development bridging, short term property loans Australia",
     "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide",
-    "h1": "Bridging Finance Australia Guide",
-    "noscript": "Bridging finance in Australia for commercial borrowers. Learn when short-term property-backed funding fits, lender assessment, risks, and exit planning.",
+    "h1": "Bridging Loans and Bridging Finance Australia Guide",
+    "noscript": "Bridging loans and bridging finance in Australia for commercial borrowers. Learn when short-term property-backed funding fits, lender assessment, risks, and exit planning.",
     "sourcePath": "src/content/guides/bridging-finance-australia-complete-property-guide.md"
   },
   "/resources/guides/bridging-finance-developers-project-funding-solutions": {
     "routePath": "/resources/guides/bridging-finance-developers-project-funding-solutions",
     "title": "Bridging Finance for Developers: Project Funding...",
-    "description": "Comprehensive guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction...",
+    "description": "A practical guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction...",
     "keywords": "",
     "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-developers-project-funding-solutions",
     "h1": "Bridging Finance for Developers: Project Funding Solutions",
-    "noscript": "Comprehensive guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction transitions, and exit strategies.",
+    "noscript": "A practical guide to bridging finance for property developers in Australia, covering site acquisition, pre-development funding, construction transitions, assessment factors, and exit planning.",
     "sourcePath": "src/content/guides/bridging-finance-developers-project-funding-solutions.md"
   },
   "/resources/guides/bridging-finance-melbourne-fast-property-solutions": {
@@ -359,16 +349,6 @@
     "noscript": "Discover how caveat loans enable quick property settlement in Australia. Learn about approval times, costs, eligibility requirements, and when to use settlement bridge finance.",
     "sourcePath": "src/content/guides/caveat-loans-for-property-settlement-bridge-your-purchase.md"
   },
-  "/resources/guides/caveat-loans-melbourne-quick-business-finance": {
-    "routePath": "/resources/guides/caveat-loans-melbourne-quick-business-finance",
-    "title": "Caveat Loans Melbourne: Quick Business Finance Guide",
-    "description": "Caveat loans in Melbourne explained for commercial borrowers. Learn when fast property-backed business finance may fit, what lenders assess,...",
-    "keywords": "caveat loans Melbourne, caveat loan Melbourne, urgent caveat finance Melbourne, quick business finance Melbourne",
-    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loans-melbourne-quick-business-finance",
-    "h1": "Caveat Loans Melbourne: Quick Business Finance Guide",
-    "noscript": "Caveat loans in Melbourne explained for commercial borrowers. Learn when fast property-backed business finance may fit, what lenders assess, risks, and exits.",
-    "sourcePath": "src/content/guides/caveat-loans-melbourne-quick-business-finance.md"
-  },
   "/resources/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval": {
     "routePath": "/resources/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval",
     "title": "Caveat Loans Online in Australia: Fast Enquiry vs...",
@@ -379,26 +359,6 @@
     "noscript": "Caveat loans online explained for Australian business borrowers, including what online enquiry can speed up, what still needs checks, and how to prepare.",
     "sourcePath": "src/content/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval.md"
   },
-  "/resources/guides/caveat-loans-perth-business-property-finance": {
-    "routePath": "/resources/guides/caveat-loans-perth-business-property-finance",
-    "title": "Caveat Loans Perth: Business Property Finance Guide",
-    "description": "Caveat loans in Perth explained for commercial borrowers. Learn when short-term property-backed funding may fit, what lenders assess, key risks,...",
-    "keywords": "caveat loans Perth, caveat loan Perth, urgent caveat finance Perth, business property finance Perth",
-    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loans-perth-business-property-finance",
-    "h1": "Caveat Loans Perth: Business Property Finance Guide",
-    "noscript": "Caveat loans in Perth explained for commercial borrowers. Learn when short-term property-backed funding may fit, what lenders assess, key risks, and exits.",
-    "sourcePath": "src/content/guides/caveat-loans-perth-business-property-finance.md"
-  },
-  "/resources/guides/caveat-loans-sydney-same-day-approval-available": {
-    "routePath": "/resources/guides/caveat-loans-sydney-same-day-approval-available",
-    "title": "Caveat Loans Sydney: Same-Day Approval Available?",
-    "description": "A practical guide to caveat loans in Sydney, including when same-day approval may be possible, who they suit, when they do not fit, and what...",
-    "keywords": "caveat loan sydney, sydney caveat loans, urgent caveat finance sydney, same day caveat loan",
-    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loans-sydney-same-day-approval-available",
-    "h1": "Caveat Loans Sydney: Same-Day Approval Available?",
-    "noscript": "A practical guide to caveat loans in Sydney, including when same-day approval may be possible, who they suit, when they do not fit, and what commercial borrowers should prepare. Informational only, not financial advice.",
-    "sourcePath": "src/content/guides/caveat-loans-sydney-same-day-approval-available.md"
-  },
   "/resources/guides/caveat-loans-vs-bank-loans-speed-comparison": {
     "routePath": "/resources/guides/caveat-loans-vs-bank-loans-speed-comparison",
     "title": "Caveat Loans vs Bank Loans: Which is Faster for Your...",
@@ -408,16 +368,6 @@
     "h1": "Caveat Loans vs Bank Loans: Which is Faster for Your Business?",
     "noscript": "Compare caveat loans vs bank loans for speed, costs, and approval. Learn which funding option delivers capital fastest for urgent Australian business needs.",
     "sourcePath": "src/content/guides/caveat-loans-vs-bank-loans-speed-comparison.md"
-  },
-  "/resources/guides/commercial-bridging-finance-auction-purchases": {
-    "routePath": "/resources/guides/commercial-bridging-finance-auction-purchases",
-    "title": "Commercial Bridging Finance for Auction Purchases",
-    "description": "Master commercial bridging finance for auction purchases. Learn settlement timelines, costs, LVRs, and strategies to secure properties with...",
-    "keywords": "commercial bridging finance, auction finance, commercial property auctions, bridging loans Australia, auction settlement finance",
-    "canonical": "https://emetcapital.com.au/resources/guides/commercial-bridging-finance-auction-purchases",
-    "h1": "Commercial Bridging Finance for Auction Purchases",
-    "noscript": "Master commercial bridging finance for auction purchases. Learn settlement timelines, costs, LVRs, and strategies to secure properties with unconditional finance.",
-    "sourcePath": "src/content/guides/commercial-bridging-finance-auction-purchases.md"
   },
   "/resources/guides/commercial-bridging-loan-rates-2025-update": {
     "routePath": "/resources/guides/commercial-bridging-loan-rates-2025-update",
@@ -431,23 +381,13 @@
   },
   "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide": {
     "routePath": "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
-    "title": "Commercial Bridging Loans for Property Auctions",
-    "description": "Secure your auction purchase with commercial bridging loans. Fast approval, flexible terms, and strategic funding for Australian property auctions.",
-    "keywords": "commercial bridging loans for property auctions, auction finance Australia, fast commercial loans, bridging finance rates",
+    "title": "Commercial Bridging Loans for Property Auctions in...",
+    "description": "A practical guide to commercial bridging loans for Australian property auctions, including finance readiness, settlement risk, lender assessment,...",
+    "keywords": "commercial bridging loans for property auctions, auction finance Australia, commercial bridging finance, auction settlement finance",
     "canonical": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
-    "h1": "Commercial Bridging Loans for Property Auctions",
-    "noscript": "Secure your auction purchase with commercial bridging loans. Fast approval, flexible terms, and strategic funding for Australian property auctions.",
+    "h1": "Commercial Bridging Loans for Property Auctions in Australia",
+    "noscript": "A practical guide to commercial bridging loans for Australian property auctions, including finance readiness, settlement risk, lender assessment, and exit planning.",
     "sourcePath": "src/content/guides/commercial-bridging-loans-for-property-auctions-expert-guide.md"
-  },
-  "/resources/guides/commercial-bridging-loans-property-auctions-expert-guide": {
-    "routePath": "/resources/guides/commercial-bridging-loans-property-auctions-expert-guide",
-    "title": "Commercial Bridging Loans for Property Auctions...",
-    "description": "Expert guide to commercial bridging loans for auction purchases in Australia, covering pre-auction preparation, rapid approval strategies, timing...",
-    "keywords": "",
-    "canonical": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-property-auctions-expert-guide",
-    "h1": "Commercial Bridging Loans for Property Auctions [Expert Guide]",
-    "noscript": "Expert guide to commercial bridging loans for auction purchases in Australia, covering pre-auction preparation, rapid approval strategies, timing coordination, and refinancing exits.",
-    "sourcePath": "src/content/guides/commercial-bridging-loans-property-auctions-expert-guide.md"
   },
   "/resources/guides/commercial-land-loans-financing-property-development": {
     "routePath": "/resources/guides/commercial-land-loans-financing-property-development",
@@ -819,35 +759,15 @@
     "noscript": "Learn how to find and vet caveat loan brokers in Australia. Expert selection criteria, questions to ask, and red flags to avoid when choosing brokers.",
     "sourcePath": "src/content/guides/find-caveat-loan-brokers-australia.md"
   },
-  "/resources/guides/finding-best-private-lenders-for-your-business": {
-    "routePath": "/resources/guides/finding-best-private-lenders-for-your-business",
-    "title": "Finding the Best Private Lenders for Your Business",
-    "description": "Comprehensive guide to selecting the best private lenders in Australia, covering lender types, evaluation criteria, and vetting processes for...",
-    "keywords": "",
-    "canonical": "https://emetcapital.com.au/resources/guides/finding-best-private-lenders-for-your-business",
-    "h1": "Finding the Best Private Lenders for Your Business",
-    "noscript": "Comprehensive guide to selecting the best private lenders in Australia, covering lender types, evaluation criteria, and vetting processes for optimal business finance outcomes.",
-    "sourcePath": "src/content/guides/finding-best-private-lenders-for-your-business.md"
-  },
   "/resources/guides/finding-comparing-private-lenders-loans-2025-guide": {
     "routePath": "/resources/guides/finding-comparing-private-lenders-loans-2025-guide",
-    "title": "Finding & Comparing Private Lenders Loans [2025 Guide]",
-    "description": "A comprehensive 2025 guide to finding, evaluating, and comparing private lenders loans in Australia, covering methodology, criteria, and...",
+    "title": "How to Compare Private Lenders for Business Funding",
+    "description": "A practical guide to comparing private lenders for Australian business-purpose finance, including lender fit, security, timing, documents, fees,...",
     "keywords": "",
     "canonical": "https://emetcapital.com.au/resources/guides/finding-comparing-private-lenders-loans-2025-guide",
-    "h1": "Finding & Comparing Private Lenders Loans [2025 Guide]",
-    "noscript": "A comprehensive 2025 guide to finding, evaluating, and comparing private lenders loans in Australia, covering methodology, criteria, and negotiation strategies.",
+    "h1": "How to Compare Private Lenders for Business Funding",
+    "noscript": "A practical guide to comparing private lenders for Australian business-purpose finance, including lender fit, security, timing, documents, fees, and exit risk.",
     "sourcePath": "src/content/guides/finding-comparing-private-lenders-loans-2025-guide.md"
-  },
-  "/resources/guides/first-and-second-mortgages-for-business": {
-    "routePath": "/resources/guides/first-and-second-mortgages-for-business",
-    "title": "1st & 2nd Mortgages for Business: The Definitive Guide",
-    "description": "Complete guide to first and second mortgages for Australian businesses. Learn about structures, rates, LVR requirements, and applications. General...",
-    "keywords": "",
-    "canonical": "https://emetcapital.com.au/resources/guides/first-and-second-mortgages-for-business",
-    "h1": "1st & 2nd Mortgages for Business: The Definitive Guide",
-    "noscript": "Complete guide to first and second mortgages for Australian businesses. Learn about structures, rates, LVR requirements, and applications. General information only - not advice.",
-    "sourcePath": "src/content/guides/first-and-second-mortgages-for-business.md"
   },
   "/resources/guides/first-mortgage-loans-primary-property-finance": {
     "routePath": "/resources/guides/first-mortgage-loans-primary-property-finance",
@@ -1199,26 +1119,6 @@
     "noscript": "Private lenders for land loans offer flexible financing for vacant land, rural properties & development sites. Rates, terms & approval criteria.",
     "sourcePath": "src/content/guides/private-lenders-for-land-loans-alternative-financing.md"
   },
-  "/resources/guides/private-lenders-for-mortgages": {
-    "routePath": "/resources/guides/private-lenders-for-mortgages",
-    "title": "Private Mortgage Lenders: When Banks Say No",
-    "description": "Rejected by banks? Private lenders for mortgages offer flexible solutions with 48-hour approvals. Learn costs, requirements & how to qualify in...",
-    "keywords": "private lenders for mortgages, private mortgage lenders Australia, non-bank lenders, alternative finance, property loans, commercial lending, fast property finance",
-    "canonical": "https://emetcapital.com.au/resources/guides/private-lenders-for-mortgages",
-    "h1": "Private Mortgage Lenders: When Banks Say No",
-    "noscript": "Rejected by banks? Private lenders for mortgages offer flexible solutions with 48-hour approvals. Learn costs, requirements & how to qualify in Australia.",
-    "sourcePath": "src/content/guides/private-lenders-for-mortgages.md"
-  },
-  "/resources/guides/private-lenders-small-business-fast-approval-guide": {
-    "routePath": "/resources/guides/private-lenders-small-business-fast-approval-guide",
-    "title": "Private Lenders for Small Business: Fast Approval Guide",
-    "description": "Private lenders for small business offer fast funding when banks decline. Rates, approval criteria & how to access alternative finance in Australia.",
-    "keywords": "",
-    "canonical": "https://emetcapital.com.au/resources/guides/private-lenders-small-business-fast-approval-guide",
-    "h1": "Private Lenders for Small Business: Fast Approval Guide",
-    "noscript": "Private lenders for small business offer fast funding when banks decline. Rates, approval criteria & how to access alternative finance in Australia.",
-    "sourcePath": "src/content/guides/private-lenders-small-business-fast-approval-guide.md"
-  },
   "/resources/guides/private-lending-vs-bank-lending-which-is-better": {
     "routePath": "/resources/guides/private-lending-vs-bank-lending-which-is-better",
     "title": "Private Lending vs Bank Lending: Which Is Better?",
@@ -1238,16 +1138,6 @@
     "h1": "Private Mortgage Lenders: Complete Australia Directory [2026]",
     "noscript": "A practical guide to private mortgage lenders in Australia for business borrowers, investors, and developers, including lender categories, deal fit, and shortlist criteria.",
     "sourcePath": "src/content/guides/private-mortgage-lenders-australia-directory-2026.md"
-  },
-  "/resources/guides/private-mortgage-lenders-australia-directory": {
-    "routePath": "/resources/guides/private-mortgage-lenders-australia-directory",
-    "title": "Private Mortgage Lenders: Complete Australia...",
-    "description": "Compare private mortgage lenders in Australia, including lender types, deal fit, fees, review questions, and how business borrowers may shortlist...",
-    "keywords": "",
-    "canonical": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory",
-    "h1": "Private Mortgage Lenders: Complete Australia Directory [2025]",
-    "noscript": "Compare private mortgage lenders in Australia, including lender types, deal fit, fees, review questions, and how business borrowers may shortlist options.",
-    "sourcePath": "src/content/guides/private-mortgage-lenders-australia-directory.md"
   },
   "/resources/guides/private-real-estate-investment-lenders-guide": {
     "routePath": "/resources/guides/private-real-estate-investment-lenders-guide",
@@ -1291,12 +1181,12 @@
   },
   "/resources/guides/quick-caveat-loans-48-hour-settlement-possible": {
     "routePath": "/resources/guides/quick-caveat-loans-48-hour-settlement-possible",
-    "title": "Quick Caveat Loans: Is 48-Hour Settlement Really...",
-    "description": "Quick caveat loans claim 48-hour settlement. Real timelines, speed factors & what actually affects approval times for fast commercial finance.",
-    "keywords": "quick caveat loans, 48-hour settlement, fast caveat loans, urgent business finance, rapid commercial lending, caveat loan speed, emergency property finance, fast settlement loans",
+    "title": "Quick Caveat Loans: What Affects Fast Settlement?",
+    "description": "Quick caveat loans explained for commercial borrowers. Learn what affects settlement timing, document readiness, title checks, lender assessment,...",
+    "keywords": "quick caveat loans, compressed settlement, fast caveat loans, urgent business finance, rapid commercial lending, caveat loan speed, emergency property finance, fast settlement loans",
     "canonical": "https://emetcapital.com.au/resources/guides/quick-caveat-loans-48-hour-settlement-possible",
-    "h1": "Quick Caveat Loans: Is 48-Hour Settlement Really Possible?",
-    "noscript": "Quick caveat loans claim 48-hour settlement. Real timelines, speed factors & what actually affects approval times for fast commercial finance.",
+    "h1": "Quick Caveat Loans: What Affects Fast Settlement?",
+    "noscript": "Quick caveat loans explained for commercial borrowers. Learn what affects settlement timing, document readiness, title checks, lender assessment, and exit planning.",
     "sourcePath": "src/content/guides/quick-caveat-loans-48-hour-settlement-possible.md"
   },
   "/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining": {
@@ -1369,16 +1259,6 @@
     "noscript": "A practical guide to using a second mortgage for a business partner buyout in Australia, including when equity-backed funding may work, what lenders assess, key legal and valuation issues, and when another structure may be better.",
     "sourcePath": "src/content/guides/second-mortgage-for-a-business-partner-buyout-in-australia.md"
   },
-  "/resources/guides/second-mortgage-for-business": {
-    "routePath": "/resources/guides/second-mortgage-for-business",
-    "title": "How Second Mortgages Work for Business Funding in...",
-    "description": "Learn how second mortgage for business funding works: LVR limits, interest rates, application process & real costs. Expert guide for Australian...",
-    "keywords": "second mortgage for business, business funding, second mortgage Australia, commercial lending, property equity, business loans, combined LVR",
-    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-for-business",
-    "h1": "How Second Mortgages Work for Business Funding in Australia",
-    "noscript": "Learn how second mortgage for business funding works: LVR limits, interest rates, application process & real costs. Expert guide for Australian business owners.",
-    "sourcePath": "src/content/guides/second-mortgage-for-business.md"
-  },
   "/resources/guides/second-mortgage-for-divorce-settlement-property-division": {
     "routePath": "/resources/guides/second-mortgage-for-divorce-settlement-property-division",
     "title": "Second Mortgage for Divorce Settlement: How Business...",
@@ -1429,16 +1309,6 @@
     "noscript": "Complete guide to using second mortgages for partnership buyouts in Australia, covering valuation, financing structures, legal considerations, and transition strategies.",
     "sourcePath": "src/content/guides/second-mortgage-partnership-buyout-financing-transitions.md"
   },
-  "/resources/guides/second-mortgage-vs-line-of-credit-which-to-choose": {
-    "routePath": "/resources/guides/second-mortgage-vs-line-of-credit-which-to-choose",
-    "title": "Second Mortgage vs Line of Credit: Which to Choose?",
-    "description": "A practical guide comparing a second mortgage and a line of credit for Australian business borrowers, including how each structure works, when...",
-    "keywords": "second mortgage vs line of credit, business line of credit vs second mortgage, property equity finance australia, commercial second mortgage vs loc",
-    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-vs-line-of-credit-which-to-choose",
-    "h1": "Second Mortgage vs Line of Credit: Which to Choose?",
-    "noscript": "A practical guide comparing a second mortgage and a line of credit for Australian business borrowers, including how each structure works, when each may fit, and what lenders usually assess.",
-    "sourcePath": "src/content/guides/second-mortgage-vs-line-of-credit-which-to-choose.md"
-  },
   "/resources/guides/second-mortgage-vs-line-of-credit": {
     "routePath": "/resources/guides/second-mortgage-vs-line-of-credit",
     "title": "Second Mortgage vs Line of Credit: Which to Choose?",
@@ -1461,12 +1331,12 @@
   },
   "/resources/guides/second-mortgages-for-business-guide": {
     "routePath": "/resources/guides/second-mortgages-for-business-guide",
-    "title": "Second Mortgages for Business: Is It Right for Your...",
-    "description": "Comprehensive decision framework for evaluating second mortgages for business funding, including ROI analysis, cost comparisons, and suitability...",
+    "title": "Second Mortgages for Business in Australia: Complete...",
+    "description": "A practical guide to second mortgages for Australian business borrowers, including how they work, when they may fit, lender assessment factors,...",
     "keywords": "",
     "canonical": "https://emetcapital.com.au/resources/guides/second-mortgages-for-business-guide",
-    "h1": "Second Mortgages for Business: Is It Right for Your Company?",
-    "noscript": "Comprehensive decision framework for evaluating second mortgages for business funding, including ROI analysis, cost comparisons, and suitability criteria for Australian companies.",
+    "h1": "Second Mortgages for Business in Australia: Complete Guide",
+    "noscript": "A practical guide to second mortgages for Australian business borrowers, including how they work, when they may fit, lender assessment factors, risks, and exit planning.",
     "sourcePath": "src/content/guides/second-mortgages-for-business-guide.md"
   },
   "/resources/guides/second-mortgages-in-sydney-fast-local-approval": {

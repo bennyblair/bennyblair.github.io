@@ -16,7 +16,7 @@ A subordination agreement is one of those documents that can quietly decide whet
 
 If you are using a second mortgage in a commercial scenario, you are already dealing with layered security. That means there is a first lender sitting in front, a second lender looking at remaining equity, and a borrower who needs all parties to be aligned enough for settlement to happen. A subordination agreement is often the legal tool that clarifies that ranking, control, and enforcement position.
 
-For business owners, investors, and developers in Australia, the practical issue is not just the definition. The issue is how a subordination agreement affects approval speed, lender appetite, and your exit plan. In most cases, it makes the most sense as part of the broader [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) conversation, especially where the deal may later move into [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or a short-term [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) structure.
+For business owners, investors, and developers in Australia, the practical issue is not just the definition. The issue is how a subordination agreement affects approval speed, lender appetite, and your exit plan. In most cases, it makes the most sense as part of the broader [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) conversation, especially where the deal may later move into [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or a short-term [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) structure.
 
 ### At a Glance
 
@@ -29,7 +29,7 @@ For business owners, investors, and developers in Australia, the practical issue
 
 ## What a subordination agreement actually is
 
-A subordination agreement is a contract that confirms one creditor ranks behind another in priority for repayment or enforcement. In many commercial scenarios, that sits inside a broader [second mortgage](/resources/guides/first-and-second-mortgages-for-business) or layered private lending structure. In a second mortgage context, it usually makes clear that the first mortgage lender remains senior and that the second lender accepts a subordinated position.
+A subordination agreement is a contract that confirms one creditor ranks behind another in priority for repayment or enforcement. In many commercial scenarios, that sits inside a broader [second mortgage](/resources/guides/second-mortgages-for-business-guide) or layered private lending structure. In a second mortgage context, it usually makes clear that the first mortgage lender remains senior and that the second lender accepts a subordinated position.
 
 Sometimes this is straightforward because the title position already shows who is first and who is second. But title ranking alone does not always answer every operational question. Lenders may still want a separate document dealing with payment waterfalls, notice obligations, standstill periods, cure rights, enforcement steps, and what happens if the borrower defaults.
 
@@ -138,7 +138,7 @@ Some first lenders are pragmatic. Others are not. The answer can materially chan
 
 ### Be realistic about leverage
 
-A second mortgage might be technically possible but commercially unattractive if the combined leverage is too aggressive for available equity and exit certainty. In some cases, a cleaner [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) or [private mortgage lending](/resources/guides/private-mortgage-lenders-australia-directory) path may be stronger.
+A second mortgage might be technically possible but commercially unattractive if the combined leverage is too aggressive for available equity and exit certainty. In some cases, a cleaner [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) or [private mortgage lending](/resources/guides/private-mortgage-lenders-australia-directory-2026) path may be stronger.
 
 ### Keep the exit simple
 
@@ -165,9 +165,9 @@ It matters to borrowers because it can directly affect settlement speed, legal c
 ## Related Guides
 
 - [Intercreditor Agreements and Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
-- [Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)
+- [Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory-2026)
 
 ## Frequently asked questions
 

@@ -14,7 +14,7 @@ keywords: ["ato garnishee notice business finance", "ato garnishee notice financ
 
 ATO garnishee notice finance is the type of commercial funding some Australian businesses explore when the Australian Taxation Office starts intercepting business income, bank funds, or debtor payments and the pressure has become immediate.
 
-The finance itself does not erase the underlying tax problem. What it may do, in the right scenario, is create enough breathing room to clear or reduce the ATO debt, stabilise operations, and move the business from enforcement pressure into a more controlled short-term funding structure. That structure may involve a [private lender](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgage-for-business), or another property-backed commercial facility depending on urgency, security, and the exit plan.
+The finance itself does not erase the underlying tax problem. What it may do, in the right scenario, is create enough breathing room to clear or reduce the ATO debt, stabilise operations, and move the business from enforcement pressure into a more controlled short-term funding structure. That structure may involve a [private lender](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or another property-backed commercial facility depending on urgency, security, and the exit plan.
 
 For business owners, investors, and directors, the real question is not whether “finance can fix a garnishee notice” in the abstract. It is whether the business is still viable, whether there is usable security, and whether borrowing solves the problem or just shifts it sideways.
 
@@ -23,7 +23,7 @@ For business owners, investors, and directors, the real question is not whether 
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — Closest related guide if the garnishee issue sits inside a wider tax debt problem.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if standard bank options are too slow or too rigid for the scenario.
 - **[Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — Relevant when the timing pressure is acute and property-backed urgency is central.
-- **[Second Mortgage for Business](/resources/guides/second-mortgage-for-business)** — Helpful if the likely solution involves releasing equity without disturbing an existing first mortgage.
+- **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — Helpful if the likely solution involves releasing equity without disturbing an existing first mortgage.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — Useful if the ATO issue is only one part of a wider debt stack.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Helpful if the root issue is a working-capital mismatch rather than a one-off tax event.
 
@@ -75,7 +75,7 @@ If the business still has a realistic recovery path, finance may help restore co
 
 ### When there is strong property security
 
-Property-backed lending is often the most practical path where the ATO debt is too large or urgent for unsecured solutions. A [second mortgage](/resources/guides/second-mortgage-for-business) or another secured commercial structure may be more realistic than waiting on mainstream unsecured credit.
+Property-backed lending is often the most practical path where the ATO debt is too large or urgent for unsecured solutions. A [second mortgage](/resources/guides/second-mortgages-for-business-guide) or another secured commercial structure may be more realistic than waiting on mainstream unsecured credit.
 
 ### When there is a defined exit event
 
@@ -129,7 +129,7 @@ A [private lending](/resources/guides/what-is-private-lending-australia) structu
 
 ### Second mortgage
 
-A [second mortgage](/resources/guides/second-mortgage-for-business) can make sense when the borrower has equity in property and wants to raise capital without disturbing a workable first mortgage.
+A [second mortgage](/resources/guides/second-mortgages-for-business-guide) can make sense when the borrower has equity in property and wants to raise capital without disturbing a workable first mortgage.
 
 ### Caveat or urgent short-term property-backed funding
 
@@ -233,7 +233,7 @@ In other words, the question is not just whether finance is available. It is whe
 
 - [ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
-- [Second Mortgage for Business](/resources/guides/second-mortgage-for-business)
+- [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)
 - [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
 

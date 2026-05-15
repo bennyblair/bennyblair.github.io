@@ -525,6 +525,73 @@
   status = 200
   force = true
 
+# 2026-05 SEO consolidation redirects
+[[redirects]]
+  from = "/resources/guides/caveat-loans-sydney-same-day-approval-available"
+  to = "/services/caveat-loans/cities/sydney"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/caveat-loans-melbourne-quick-business-finance"
+  to = "/services/caveat-loans/cities/melbourne"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/caveat-loans-perth-business-property-finance"
+  to = "/services/caveat-loans/cities/perth"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/second-mortgage-for-business"
+  to = "/resources/guides/second-mortgages-for-business-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/first-and-second-mortgages-for-business"
+  to = "/resources/guides/second-mortgages-for-business-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/2nd-loan-mortgage-business-capital"
+  to = "/resources/guides/second-mortgages-for-business-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/second-mortgage-vs-line-of-credit-which-to-choose"
+  to = "/resources/guides/second-mortgage-vs-line-of-credit"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/private-mortgage-lenders-australia-directory"
+  to = "/resources/guides/private-mortgage-lenders-australia-directory-2026"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/private-lenders-for-mortgages"
+  to = "/resources/guides/private-mortgage-lenders-australia-directory-2026"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/commercial-bridging-finance-auction-purchases"
+  to = "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/commercial-bridging-loans-property-auctions-expert-guide"
+  to = "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/finding-best-private-lenders-for-your-business"
+  to = "/resources/guides/finding-comparing-private-lenders-loans-2025-guide"
+  status = 301
+
+[[redirects]]
+  from = "/resources/guides/private-lenders-small-business-fast-approval-guide"
+  to = "/resources/guides/what-is-private-lending-australia"
+  status = 301
+
+
 # =============================================================================
 # SPA FALLBACK - MUST BE LAST
 # =============================================================================
@@ -534,6 +601,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
 
 # =============================================================================
 # HEADERS - Security and Caching

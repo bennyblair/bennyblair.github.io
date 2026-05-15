@@ -239,7 +239,7 @@ const BusinessAcquisition = () => {
                 </span>
               </a>
               <a 
-                href="/resources/guides/first-and-second-mortgages-for-business"
+                href="/resources/guides/second-mortgages-for-business-guide"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">First & Second Mortgages</h3>

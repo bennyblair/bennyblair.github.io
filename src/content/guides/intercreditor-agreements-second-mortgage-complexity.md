@@ -16,11 +16,11 @@ An intercreditor agreement is a legal agreement between two or more lenders that
 
 For borrowers, this is one of the less visible parts of a second mortgage, but it can shape how fast the deal moves and whether the structure is workable at all. A second mortgage is already layered by definition. Once multiple lenders are involved, the question is no longer just whether there is enough equity. The question becomes how those lenders will interact if the borrower wants to refinance, sell, extend, cure a default, or deal with a pressure event.
 
-That is why intercreditor agreements often appear in more complex commercial and business-purpose files rather than simple mainstream lending. They can sit alongside [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business), [subordination agreements](/resources/guides/subordination-agreement-second-mortgage), and other layered debt structures where priority and control need to be documented properly before settlement.
+That is why intercreditor agreements often appear in more complex commercial and business-purpose files rather than simple mainstream lending. They can sit alongside [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [subordination agreements](/resources/guides/subordination-agreement-second-mortgage), and other layered debt structures where priority and control need to be documented properly before settlement.
 
 ### Related In-Depth Guides
 
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Foundation guide to mortgage priority and business use cases.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Foundation guide to mortgage priority and business use cases.
 - **[Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/subordination-agreement-second-mortgage)** — How subordination differs from broader lender arrangements.
 - **[First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — Quick comparison of rights, risk, and control.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Useful when comparing layered debt options.
@@ -191,7 +191,7 @@ Intercreditor negotiations are one of the reasons some second mortgage files tak
 
 The valuation may be fine. The equity may be there. The commercial purpose may make sense. But if the lenders or their lawyers cannot align on rights and process, settlement can drift.
 
-That is why early structuring matters. A borrower comparing a [second mortgage](/resources/guides/second-mortgage-for-business) with a refinance or another property-backed solution should think about legal coordination as part of speed, not as a separate admin issue.
+That is why early structuring matters. A borrower comparing a [second mortgage](/resources/guides/second-mortgages-for-business-guide) with a refinance or another property-backed solution should think about legal coordination as part of speed, not as a separate admin issue.
 
 ## Frequently asked questions
 
@@ -227,10 +227,10 @@ For borrowers, the real lesson is to treat lender-to-lender coordination as part
 
 ## Related Guides
 
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/subordination-agreement-second-mortgage)
 - [First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)
-- [Second Mortgage for Business](/resources/guides/second-mortgage-for-business)
+- [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

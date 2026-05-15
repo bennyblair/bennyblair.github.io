@@ -241,7 +241,7 @@ const PrivateLending = () => {
               </div>
 
               <a 
-                href="/resources/guides/finding-best-private-lenders-for-your-business"
+                href="/resources/guides/finding-comparing-private-lenders-loans-2025-guide"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Finding Suitable Private Lenders</h3>
@@ -261,7 +261,7 @@ const PrivateLending = () => {
                 </span>
               </a>
               <a 
-                href="/resources/guides/private-lenders-small-business-fast-approval-guide"
+                href="/resources/guides/what-is-private-lending-australia"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Private Lenders for Small Business</h3>

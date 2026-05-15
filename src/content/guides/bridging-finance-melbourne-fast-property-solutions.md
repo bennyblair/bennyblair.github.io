@@ -69,7 +69,7 @@ Melbourne commercial borrowers often use bridging finance for settlement timing 
 
 Developers may use a bridge when residual stock is being sold but proceeds are not yet available. Investors may use one when repositioning a property, negotiating a refinance, or waiting for lease documentation to satisfy a longer-term lender.
 
-For buyers comparing funding choices, it helps to understand the difference between a bridge, a caveat loan, a second mortgage, and a full commercial mortgage. [First and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business) explains how registered mortgage security can sit behind or ahead of other debt, while [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) explains a faster but narrower style of property-backed funding.
+For buyers comparing funding choices, it helps to understand the difference between a bridge, a caveat loan, a second mortgage, and a full commercial mortgage. [First and second mortgages for business](/resources/guides/second-mortgages-for-business-guide) explains how registered mortgage security can sit behind or ahead of other debt, while [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) explains a faster but narrower style of property-backed funding.
 
 ## What Lenders Assess First
 

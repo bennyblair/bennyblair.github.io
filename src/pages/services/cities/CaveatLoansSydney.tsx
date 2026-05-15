@@ -52,7 +52,7 @@ export default function CaveatLoansSydney() {
       faqs={[
         { question: 'When might a Sydney borrower use a caveat loan?', answer: 'Usually when the funding need is urgent, the borrower has property equity, and a slower bank process will not solve the problem in time. Common triggers include refinance gaps, tax pressure, urgent settlements, and business cash-flow events.' },
         { question: 'Can caveat loans be used for ATO debt in Sydney?', answer: 'Potentially, yes. Where the purpose is business-related and there is suitable property security plus a realistic exit, caveat finance may help resolve urgent tax pressure.' },
-        { question: 'How fast can a Sydney caveat loan settle?', answer: 'Straightforward files may move quickly, sometimes within 24 to 48 hours, but actual speed still depends on title, legal coordination, and how ready the documents are.' },
+        { question: 'How quickly can a caveat loan be assessed?', answer: 'Timing depends on title, legal coordination, document readiness, lender appetite, and the proposed exit. Prepared files are easier to assess, but no settlement timeframe should be assumed before review.' },
         { question: 'Do caveat lenders care about exit strategy?', answer: 'Yes. Even though the product is short term and speed-focused, lenders still want a believable path to repayment such as refinance, sale, or another defined commercial event.' },
         { question: 'Is a caveat loan the same as a normal mortgage?', answer: 'No. It is usually a shorter-term, urgency-driven facility secured against property and used to solve immediate commercial problems rather than provide long-term funding.' }
       ]}

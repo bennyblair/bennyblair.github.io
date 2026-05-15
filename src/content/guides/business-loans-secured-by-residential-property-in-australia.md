@@ -22,7 +22,7 @@ This guide explains how residential property can support commercial borrowing, w
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How second-ranking property security can support commercial funding.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — The broader mortgage-security framework for business borrowers.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The broader mortgage-security framework for business borrowers.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — How property-backed commercial lending is assessed.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Why lender type affects speed, flexibility and risk.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — When caveat security may be used for urgent business funding.

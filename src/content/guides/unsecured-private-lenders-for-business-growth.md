@@ -14,7 +14,7 @@ keywords: ["unsecured private lenders", "unsecured business lending", "private l
 
 Unsecured private lenders can be relevant when a business needs capital for growth but does not want to, or cannot, offer property or other hard assets as security. In practice, that usually means the lender is backing the strength of the business, the quality of the borrower, the visibility of cash flow, and the credibility of the growth plan.
 
-That makes unsecured private lending very different from standard bank debt and very different from [property-backed private lending](/resources/guides/private-mortgage-lenders-australia-directory). The lender is taking more risk because there is no [first mortgage or second mortgage](/resources/guides/first-and-second-mortgages-for-business), and no [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), sitting underneath the deal. As a result, the lender will usually be more selective about the borrower, the use of funds, and the repayment path.
+That makes unsecured private lending very different from standard bank debt and very different from [property-backed private lending](/resources/guides/private-mortgage-lenders-australia-directory-2026). The lender is taking more risk because there is no [first mortgage or second mortgage](/resources/guides/second-mortgages-for-business-guide), and no [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), sitting underneath the deal. As a result, the lender will usually be more selective about the borrower, the use of funds, and the repayment path.
 
 For Australian business owners, investors, and operators, unsecured private lenders are usually worth considering when timing matters, the growth opportunity is clear, and the business has enough evidence to support a short-to-medium-term commercial facility. The key is understanding what this type of funding actually solves, what it does not solve, and how to approach it without forcing the wrong structure. For borrowers comparing broader [private lending options in Australia](/resources/guides/what-is-private-lending-australia), this unsecured segment usually sits further along the risk curve and therefore needs tighter preparation.
 
@@ -27,11 +27,11 @@ For Australian business owners, investors, and operators, unsecured private lend
 Explore these private lending guides for adjacent scenarios and stronger-fit structures:
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Broader overview of how private credit works and where it fits
-- **[Private Lenders for Small Business](/resources/guides/private-lenders-small-business-fast-approval-guide)** — Approval speed, lender types, and common small-business use cases
-- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — Property-backed private lenders and how their appetite differs from unsecured lenders
+- **[Private Lenders for Small Business](/resources/guides/what-is-private-lending-australia)** — Approval speed, lender types, and common small-business use cases
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — Property-backed private lenders and how their appetite differs from unsecured lenders
 - **[Private Commercial Real Estate Lenders Directory](/resources/guides/private-commercial-real-estate-lenders-cre-directory)** — Useful if the deal is actually better suited to commercial property security
 - **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term funding where timing is the real problem
-- **[1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — When a secured structure may produce a stronger outcome than unsecured debt
+- **[1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — When a secured structure may produce a stronger outcome than unsecured debt
 
 ---
 
@@ -88,7 +88,7 @@ Private lenders usually look at the same business through a different lens. They
 
 That does not automatically make private lending better. It usually makes it faster, more flexible, and more tolerant of non-standard scenarios. The trade-off is that the lender will expect a tighter commercial rationale and a more credible repayment plan. Where the transaction is actually a temporary timing mismatch rather than unsecured expansion capital, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may be a cleaner solution.
 
-For some borrowers, a secured structure such as [private lending](/services/private-lending), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) may still be the stronger fit. Unsecured lending should usually be treated as a deliberate choice, not a default fallback.
+For some borrowers, a secured structure such as [private lending](/services/private-lending), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) may still be the stronger fit. Unsecured lending should usually be treated as a deliberate choice, not a default fallback.
 
 ## What unsecured private lenders usually assess
 
@@ -193,9 +193,9 @@ If the capital is meant to fund expansion, be ready to explain what happens if r
 
 Not every growth scenario should be financed unsecured.
 
-If the business or its principals can provide strong property security, a secured structure may produce a more suitable outcome. That can include [private mortgage lending](/resources/guides/private-mortgage-lenders-australia-directory), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), or [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) depending on the asset and purpose. It may also widen lender appetite. That is especially relevant where the business needs a larger facility, more flexibility around the transition, or a cleaner route into refinance later.
+If the business or its principals can provide strong property security, a secured structure may produce a more suitable outcome. That can include [private mortgage lending](/resources/guides/private-mortgage-lenders-australia-directory-2026), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), or [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) depending on the asset and purpose. It may also widen lender appetite. That is especially relevant where the business needs a larger facility, more flexibility around the transition, or a cleaner route into refinance later.
 
-For some borrowers, [what is private lending in Australia](/resources/guides/what-is-private-lending-australia) gives the wider picture, while [private lenders for small business](/resources/guides/private-lenders-small-business-fast-approval-guide) may be useful if the issue is approval speed rather than security alone.
+For some borrowers, [what is private lending in Australia](/resources/guides/what-is-private-lending-australia) gives the wider picture, while [private lenders for small business](/resources/guides/what-is-private-lending-australia) may be useful if the issue is approval speed rather than security alone.
 
 ## Frequently asked questions
 

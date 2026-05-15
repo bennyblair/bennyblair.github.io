@@ -43,7 +43,7 @@ This example is for business owners and commercial borrowers trying to understan
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how second mortgages work and when they may fit.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Understand ranking, security priority, and lender expectations.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Understand ranking, security priority, and lender expectations.
 - **[Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)** — Broader look at consolidation options for commercial borrowers.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Useful when a bank refinance is too slow or too rigid.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — How non-bank and private lenders assess deals.
@@ -59,7 +59,7 @@ The issue was not whether the business was viable. The issue was timing. The com
 
 ## Why a Second Mortgage Was Considered
 
-A full refinance was possible in theory, but it was unlikely to settle quickly enough. The existing first mortgage was not the problem, and replacing it would have meant higher friction, duplicated legal work, and more delay. A [second mortgage](/resources/guides/first-and-second-mortgages-for-business) became the cleaner option because it allowed the borrower to keep the first mortgage in place while raising new capital against the remaining equity.
+A full refinance was possible in theory, but it was unlikely to settle quickly enough. The existing first mortgage was not the problem, and replacing it would have meant higher friction, duplicated legal work, and more delay. A [second mortgage](/resources/guides/second-mortgages-for-business-guide) became the cleaner option because it allowed the borrower to keep the first mortgage in place while raising new capital against the remaining equity.
 
 This is where second mortgages can be genuinely useful. They are often not about maximizing leverage. They are about solving a defined commercial problem fast enough to preserve options.
 
@@ -195,7 +195,7 @@ The biggest risk is using a second mortgage without a realistic exit. If the und
 ## Related Guides
 
 - [Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)
 - [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)

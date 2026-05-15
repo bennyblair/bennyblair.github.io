@@ -93,7 +93,7 @@ export default function BridgingFinanceBrisbane() {
         },
         {
           title: 'Commercial Bridging Finance for Auction Purchases',
-          href: '/resources/guides/commercial-bridging-finance-auction-purchases',
+          href: '/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide',
           description: 'Relevant for tight auction or settlement windows where the timing issue is more important than the long-term debt path.'
         }
       ]}

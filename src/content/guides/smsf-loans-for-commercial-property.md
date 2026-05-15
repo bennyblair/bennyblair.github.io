@@ -160,7 +160,7 @@ The single asset principle prevents SMSFs from borrowing to acquire property por
 
 ### Compliance and Regulatory Framework
 
-SMSF commercial property investments must satisfy the sole purpose test, ensuring investments are made solely to provide retirement benefits for members. Related party transactions face additional restrictions, with commercial properties leased to related businesses subject to strict arm's length terms and commercial lease documentation. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) helps structure appropriate LRBA security arrangements.
+SMSF commercial property investments must satisfy the sole purpose test, ensuring investments are made solely to provide retirement benefits for members. Related party transactions face additional restrictions, with commercial properties leased to related businesses subject to strict arm's length terms and commercial lease documentation. Understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) helps structure appropriate LRBA security arrangements.
 
 Investment strategies must be documented and reviewed annually, demonstrating that commercial property investments align with fund objectives and member circumstances. Professional advice is essential to ensure ongoing compliance with evolving superannuation and taxation legislation.
 

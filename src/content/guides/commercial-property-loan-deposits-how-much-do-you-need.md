@@ -119,7 +119,7 @@ Potentially, yes. Some business borrowers use equity from another asset to suppo
 
 This can reduce the need for fresh cash, but it also changes the risk profile because more assets may become tied into the transaction. Borrowers using this approach should understand exactly what security is being offered and how the exit works if the transaction changes.
 
-Where the structure becomes more layered, it may also be useful to understand [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business) before moving ahead.
+Where the structure becomes more layered, it may also be useful to understand [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide) before moving ahead.
 
 ## What Happens if the Valuation Comes in Low?
 
@@ -200,7 +200,7 @@ It can. For investment assets, stronger leases and more stable income often impr
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 - [Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

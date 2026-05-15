@@ -258,7 +258,7 @@ const FirstSecondMortgages = () => {
               {/* Pillar Guide - Featured */}
               <div className="md:col-span-2 lg:col-span-3">
                 <a 
-                  href="/resources/guides/first-and-second-mortgages-for-business"
+                  href="/resources/guides/second-mortgages-for-business-guide"
                   className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
                 >
                   <div className="flex items-start gap-4">

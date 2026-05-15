@@ -503,7 +503,7 @@ The Gold Coast development market continues to attract sophisticated developers 
 
 ## Related Resources
 
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business) - Understanding mortgage positions
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide) - Understanding mortgage positions
 - [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance) - Complete development funding
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide) - Queensland market overview
 

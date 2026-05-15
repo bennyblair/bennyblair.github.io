@@ -138,7 +138,7 @@ This structure would be inappropriate if the borrower had no repayment plan, no 
 
 ### Is caveat finance the same as a second mortgage?
 
-No. Caveat finance is secured by lodging a caveat over property, while a second mortgage is a registered mortgage behind a first mortgage. A [second mortgage](/resources/guides/first-and-second-mortgages-for-business) may suit some borrowers better where there is time for registration and a longer facility.
+No. Caveat finance is secured by lodging a caveat over property, while a second mortgage is a registered mortgage behind a first mortgage. A [second mortgage](/resources/guides/second-mortgages-for-business-guide) may suit some borrowers better where there is time for registration and a longer facility.
 
 ### Should I speak to the ATO before seeking finance?
 

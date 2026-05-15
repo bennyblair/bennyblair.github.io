@@ -21,7 +21,7 @@ Emet Capital helps commercial borrowers compare second mortgages, bridging finan
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The core guide to commercial second mortgage lending.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — How priority, security and lender consent work.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How priority, security and lender consent work.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The broader commercial property lending landscape.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender appetite can differ across channels.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — When short-term funding is driven by settlement timing.
@@ -66,7 +66,7 @@ The lender will usually review:
 - Borrower and entity structure.
 - Purpose and exit strategy.
 
-For a more detailed explanation of ranking and priority, read [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business). Priority matters because it determines how much protection the second lender has if the plan fails.
+For a more detailed explanation of ranking and priority, read [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide). Priority matters because it determines how much protection the second lender has if the plan fails.
 
 ## Common Investment Property Use Cases
 
@@ -220,7 +220,7 @@ Emet Capital can help eligible commercial borrowers compare second mortgage, pri
 ## Related Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Core guide to commercial second mortgage funding.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — How ranking and lender priority work.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How ranking and lender priority work.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Long-term commercial property funding basics.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When restructuring the existing loan is cleaner.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Funding options for settlement timing gaps.

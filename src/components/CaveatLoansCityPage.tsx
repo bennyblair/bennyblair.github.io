@@ -48,7 +48,7 @@ type Props = {
 };
 
 const stats = [
-  { label: 'Indicative review', value: '24-48hrs', icon: Clock },
+  { label: 'Assessment basis', value: 'Security + exit', icon: Clock },
   { label: 'Common term', value: '1-12 months', icon: TrendingUp },
   { label: 'Typical use', value: 'Urgent funding', icon: CheckCircle },
   { label: 'Facility size', value: '$50K-$5M+', icon: DollarSign }

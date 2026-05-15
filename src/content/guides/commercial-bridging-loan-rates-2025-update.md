@@ -24,7 +24,7 @@ For investors, developers, and business owners, the real question is not “what
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Useful if the bridge will exit into a standard commercial facility.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful for refinance-driven bridge scenarios.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Relevant when specialist or non-bank capital is part of the comparison.
-- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)** — Useful if timing pressure is tied to auction or short settlement.
+- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful if timing pressure is tied to auction or short settlement.
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — Important if repayment depends on a sale or refinance.
 
 ## At a Glance
