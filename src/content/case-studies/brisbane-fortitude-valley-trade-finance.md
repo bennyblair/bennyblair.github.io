@@ -12,7 +12,7 @@ loanAmount: "$1.2M"
 loanType: "Trade Finance Facility"
 industry: "Import/Wholesale Trade"
 duration: "Rolling 120-day facilities"
-outcome: "Revenue tripled to $9M, supplier relationships strengthened, margin improved 4%"
+outcome: "Illustrative scenario showing how trade finance may support revenue growth, supplier relationships, and margin improvement"
 challenge: "Seasonal import cycles, currency exposure, supplier payment terms, container deposit requirements"
 location: "Fortitude Valley, Brisbane QLD"
 propertyType: "Commercial Warehouse"
@@ -21,7 +21,9 @@ lvr: "N/A (inventory and receivables security)"
 
 # Fortitude Valley Import Co: $1.2M Trade Finance for Asian Homeware
 
-When a Brisbane import and wholesale business specializing in homewares from Vietnam, Thailand, and China identified major retail chain expansion opportunities, traditional working capital couldn't support the 3-4 month payment cycles required for overseas suppliers and shipping. A $1.2M trade finance facility enabled container purchases, strengthened supplier relationships, and scaled revenue from $3M to $9M in 18 months through the Port of Brisbane.
+*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
+
+When a Brisbane import and wholesale business specialising in homewares from Vietnam, Thailand, and China identifies major retail chain expansion opportunities, traditional working capital may not support the 3-4 month payment cycles required for overseas suppliers and shipping. In this illustrative scenario, a $1.2M trade finance facility could enable container purchases, strengthen supplier relationships, and support revenue growth from $3M to $9M over 18 months through the Port of Brisbane.
 
 ## The Business
 
@@ -57,7 +59,7 @@ When a Brisbane import and wholesale business specializing in homewares from Vie
 
 ### Major Retail Chain Opportunity
 
-**New Customer:** National homewares chain (45 stores across Australia)  
+**Illustrative new customer:** National homewares chain (45 stores across Australia)
 **Initial Order:** $850K (8 containers) for Spring 2025 range  
 **Ongoing:** Quarterly orders $600-800K  
 **Payment Terms:** 60 days from delivery (standard retail chain terms)  
@@ -122,14 +124,14 @@ When a Brisbane import and wholesale business specializing in homewares from Vie
 5. **Deposit Requirements:** Container deposits ($8-12K per container) straining cash
 6. **Bank Limitations:** Traditional working capital insufficient for import cycles
 
-## The Emet Capital Solution
+## Indicative Trade Finance Structure
 
 **Facility Amount:** $1.2M trade finance facility  
 **Structure:** Revolving letter of credit and documentary collection facility  
 **Term:** 12 months (renewable annually)  
 **Payment Cycles:** 120-day rolling facilities per container shipment  
 **Security:** Inventory (imported goods) + accounts receivable + directors' guarantees  
-**Approval Time:** 7 business days from application to facility establishment
+**Indicative assessment window:** 7 business days from application to facility establishment, subject to complete documentation, lender assessment, security, and trade evidence
 
 ### Trade Finance Structure
 
@@ -145,7 +147,7 @@ When a Brisbane import and wholesale business specializing in homewares from Vie
 - Cash flow bridging for 60-90 day receivables
 - Flexible drawdown per container
 
-**Facility Features:**
+**Illustrative facility features:**
 - Sub-limits per supplier and country
 - Currency risk management through forward contracts
 - Container-by-container drawdown (flexibility)
@@ -183,29 +185,29 @@ When a Brisbane import and wholesale business specializing in homewares from Vie
 - Inventory valuation and turnover analysis
 - Cash flow projections for 18 months
 
-### Week 2: Facility Approval
-- Credit assessment completed
+### Week 2: Facility Assessment
+- Credit assessment could be completed
 - Inventory and receivables security established
 - Letter of credit arrangements with banking partner
-- Conditional approval received Day 7
+- Conditional approval could be received around Day 7, subject to lender assessment
 - Documentation commenced
 
 ### Week 3: Facility Establishment
 - Security documentation executed
 - Banking relationships established for LCs
 - Supplier notification of LC availability
-- First container drawdown approved
+- First container drawdown could be approved
 - Major chain order confirmed
 
 ### Import Cycle Management
 
-**Container 1 (Major Chain - Vietnam Furniture):**
+**Illustrative container 1 (major chain - Vietnam furniture):**
 - Day 0: $110K deposit drawn, order placed
 - Day 30: $110K balance drawn, shipping commenced
 - Day 65: Container arrives Port of Brisbane, customs cleared
 - Day 72: Delivered to customer warehouse
 - Day 132: Customer payment received ($142K retail value)
-- Net profit: $22K after facility interest ($4.8K)
+- Illustrative net profit: $22K after facility cost ($4.8K)
 
 **Scaling Pattern:**
 - Month 1-3: 6 containers for major chain initial order
@@ -213,18 +215,18 @@ When a Brisbane import and wholesale business specializing in homewares from Vie
 - Month 7-9: 10 containers (peak pre-Christmas)
 - Month 10-12: 12 containers (ongoing operations)
 
-## The Outstanding Results
+## Illustrative Results
 
 ### Financial Performance (18 Months)
 
 **Revenue Growth:**
 - Starting revenue: $3.2M annually
-- 18-month revenue: $9.1M (284% increase)
+- 18-month revenue scenario: $9.1M (284% increase)
 - Major chain contribution: $3.8M (42% of revenue)
 - Existing customers: Growth from $3.2M to $5.3M (65% increase)
 
 **Profitability:**
-- Gross margin: Improved from 28% to 32% (volume discounts and direct sourcing)
+- Gross margin: Could improve from 28% to 32% (volume discounts and direct sourcing)
 - EBITDA: $1.46M (16% margin)
 - Net profit: $820K
 - Return on trade finance: 68% ROI
@@ -233,23 +235,23 @@ When a Brisbane import and wholesale business specializing in homewares from Vie
 - Facility utilization: Average 75% ($900K drawn at any time)
 - Peak utilization: 95% during Spring/Christmas
 - Lowest utilization: 45% post-peak season
-- Interest cost: $98K annually (10.9% effective rate on drawn amounts)
+- Illustrative facility cost: $98K annually (effective cost depends on lender pricing, timing, fees, currency, and utilisation)
 - Net profit after finance costs: $722K
 
 ### Operational Achievements
 
 **Container Volume:**
 - Starting volume: 18 containers per year
-- Current volume: 54 containers per year (300% increase)
+- Scenario volume: 54 containers per year (300% increase)
 - Average container value: $105K (landed cost)
 - Total imported value: $5.67M annually
 
 **Supplier Relationships:**
-- Added 4 new premium suppliers (exclusive designs)
-- Payment reliability strengthened negotiating position
-- 8% volume discounts achieved (vs 3% previously)
-- Priority production scheduling during peak seasons
-- Exclusive design rights for Australian market
+- Could add 4 new premium suppliers (exclusive designs)
+- Payment reliability could strengthen negotiating position
+- 8% volume discounts could be achieved (vs 3% previously)
+- Priority production scheduling may become available during peak seasons
+- Exclusive design rights may be negotiated for the Australian market
 
 **Customer Expansion:**
 - Major retail chain: 45 stores nationally, quarterly orders
@@ -267,11 +269,11 @@ When a Brisbane import and wholesale business specializing in homewares from Vie
 
 ### Currency Management
 
-**Hedging Strategy:**
+**Illustrative hedging strategy:**
 - Forward contracts for 60% of container commitments
-- Locked in favorable USD/AUD rates (0.66-0.68 range)
-- Protected margin during AUD weakness
-- Estimated savings: $47K over 18 months
+- Could lock in USD/AUD ranges for selected commitments
+- Could protect margin during AUD weakness
+- Illustrative savings: $47K over 18 months
 
 **Currency Exposure:**
 - USD exposure: 70% of imports (quoted in USD)
@@ -431,7 +433,7 @@ Fortitude Valley represents Brisbane's central business and distribution hub:
 
 ## Future Growth Strategy
 
-With successful trade finance facility and proven model, the business is pursuing:
+With an illustrative trade finance facility and a proven operating model, a business in this position might pursue:
 
 **Short-term (Next 12 months):**
 - Expand major chain relationship to 65 stores nationally
@@ -475,9 +477,9 @@ With successful trade finance facility and proven model, the business is pursuin
 
 ## Conclusion
 
-This Fortitude Valley case study demonstrates how trade finance enables import businesses to scale rapidly by bridging the cash flow gap inherent in international trade. By structuring finance around container cycles, supplier payment terms, and customer receipts, the business tripled revenue from $3M to $9M in 18 months while strengthening supplier relationships and expanding its customer base.
+This Fortitude Valley scenario demonstrates how trade finance may help import businesses scale by bridging the cash flow gap inherent in international trade. By structuring finance around container cycles, supplier payment terms, and customer receipts, a business in this position could grow revenue from $3M to $9M over 18 months while strengthening supplier relationships and expanding its customer base.
 
-For import and wholesale businesses in Brisbane and Southeast Queensland, trade finance provides the working capital flexibility needed to capitalize on growth opportunities, secure supplier terms, and manage the complexities of international trade including currency risk, shipping cycles, and customer payment terms.
+For import and wholesale businesses in Brisbane and Southeast Queensland, trade finance may provide the working capital flexibility needed to capitalise on growth opportunities, secure supplier terms, and manage the complexities of international trade including currency risk, shipping cycles, and customer payment terms.
 
 Brisbane's position as Australia's third-largest container port, with efficient operations and strong Asian trade routes, combined with Queensland's growing consumer market, ensures continued demand for imported homewares and furniture. Trade finance will remain essential for ambitious importers seeking to scale beyond cash-limited growth.
 
@@ -495,7 +497,7 @@ Brisbane's position as Australia's third-largest container port, with efficient 
 
 ---
 
-*Emet Capital provides specialized trade finance for import and export businesses in Brisbane and Southeast Queensland. Our experience with international trade cycles, Port of Brisbane operations, and Asian supplier relationships enables us to structure flexible facilities that support rapid growth and margin protection.*
+*Emet Capital provides specialised commercial finance broking support for import and export businesses in Brisbane and Southeast Queensland. This scenario is illustrative only and is not a claim that Emet Capital arranged or settled this specific facility.*
 
 <script type="application/ld+json">
 {

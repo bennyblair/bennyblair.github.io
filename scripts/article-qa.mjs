@@ -49,7 +49,17 @@ function extractGuideLinks(content) {
 
 function getArticleRoute(filePath) {
   const slug = path.basename(filePath, '.md');
+  const relPath = path.relative(repoRoot, filePath).replace(/\\/g, '/');
+  if (relPath.startsWith('src/content/case-studies/')) {
+    return `/resources/case-studies/${slug}`;
+  }
   return `/resources/guides/${slug}`;
+}
+
+function getArticleKind(filePath) {
+  const relPath = path.relative(repoRoot, filePath).replace(/\\/g, '/');
+  if (relPath.startsWith('src/content/case-studies/')) return 'case-study';
+  return 'guide';
 }
 
 function extractSection(content, heading) {
@@ -97,6 +107,7 @@ for (const fileArg of fileArgs) {
   const raw = fs.readFileSync(filePath, 'utf8');
   matter(raw);
 
+  const articleKind = getArticleKind(filePath);
   const articleRoute = getArticleRoute(filePath);
   const canonicalUrl = `https://emetcapital.com.au${articleRoute}`;
 
@@ -122,11 +133,11 @@ for (const fileArg of fileArgs) {
   const topSlugs = extractSectionGuideSlugs(topSection);
   const bottomSlugs = extractSectionGuideSlugs(bottomSection);
 
-  if (!topSection) {
+  if (articleKind === 'guide' && !topSection) {
     console.warn('WARN: missing top Related In-Depth Guides section');
     warningCount++;
   }
-  if (!bottomSection) {
+  if (articleKind === 'guide' && !bottomSection) {
     console.warn('WARN: missing bottom Related Guides section');
     warningCount++;
   }
@@ -157,8 +168,7 @@ for (const fileArg of fileArgs) {
   }
 
   if (previewBase) {
-    const slug = path.basename(filePath, '.md');
-    const previewUrl = `${previewBase.replace(/\/$/, '')}/resources/guides/${slug}`;
+    const previewUrl = `${previewBase.replace(/\/$/, '')}${articleRoute}`;
     try {
       const result = await checkUrl(previewUrl);
       if (!result.ok) {
