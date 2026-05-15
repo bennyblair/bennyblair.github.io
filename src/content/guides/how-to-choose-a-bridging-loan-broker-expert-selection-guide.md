@@ -20,7 +20,7 @@ That matters because bridging finance usually shows up when something important 
 
 In those moments, the broker’s role is not simply to forward your enquiry to a lender list. The real job is to help position the deal properly, filter out poor lender fits early, and improve the chances of a clean path to settlement.
 
-This guide explains what a **bridging loan broker** should actually do, how to compare brokers, what questions to ask, and which warning signs usually matter most. It also connects the topic to broader resources on [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial bridging finance for auction purchases](/resources/guides/commercial-bridging-finance-auction-purchases), and [swing loans](/resources/guides/swing-loans-explained-seamless-property-transitions).
+This guide explains what a **bridging loan broker** should actually do, how to compare brokers, what questions to ask, and which warning signs usually matter most. It also connects the topic to broader resources on [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial bridging finance for auction purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide), and [swing loans](/resources/guides/swing-loans-explained-seamless-property-transitions).
 
 ## What a bridging loan broker should actually do
 
@@ -60,7 +60,7 @@ They exclude lenders that are unlikely to suit the asset, leverage, urgency, or 
 
 They help keep valuation, legal, and credit work moving in the right order.
 
-This matters even more if your transaction overlaps with [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/first-and-second-mortgages-for-business), or a [commercial refinancing solution](/resources/guides/commercial-property-refinancing-solutions). The broker should be able to explain why one structure may fit better than another.
+This matters even more if your transaction overlaps with [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a [commercial refinancing solution](/resources/guides/commercial-property-refinancing-solutions). The broker should be able to explain why one structure may fit better than another.
 
 ## Questions to ask a bridging loan broker before you commit
 

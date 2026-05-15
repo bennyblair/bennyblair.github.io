@@ -87,7 +87,7 @@ const ResourcesHub = () => {
       title: "Second Mortgage for Business",
       description: "A practical Australian guide to second mortgages for business use, including when they fit, what lenders assess, and how layered debt should be structured.",
       readTime: "8 min read",
-      href: "/resources/guides/second-mortgage-for-business"
+      href: "/resources/guides/second-mortgages-for-business-guide"
     }
   ];
 

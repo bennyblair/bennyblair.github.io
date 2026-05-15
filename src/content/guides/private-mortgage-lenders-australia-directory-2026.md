@@ -170,7 +170,7 @@ Second, sort lenders into categories before you compare individual names. That s
 
 Third, compare practical fit instead of just early-stage commercial language. Ask who can realistically settle, who has handled similar debt structures before, and who is likely to stay commercially workable if the timeline drifts.
 
-Fourth, keep internal linking and wider research in mind. If you are reading this as part of a wider funding review, it also helps to look at Emet Capital's content on [what private lending is](/resources/guides/what-is-private-lending-australia), [finding the best private lenders for your business](/resources/guides/finding-best-private-lenders-for-your-business), [private lenders for mortgages](/resources/guides/private-lenders-for-mortgages), and [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business).
+Fourth, keep internal linking and wider research in mind. If you are reading this as part of a wider funding review, it also helps to look at Emet Capital's content on [what private lending is](/resources/guides/what-is-private-lending-australia), [finding the best private lenders for your business](/resources/guides/finding-comparing-private-lenders-loans-2025-guide), [private lenders for mortgages](/resources/guides/private-mortgage-lenders-australia-directory-2026), and [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide).
 
 ## Why this article needs a directory angle
 

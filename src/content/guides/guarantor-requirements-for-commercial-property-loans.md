@@ -23,7 +23,7 @@ The key point is that a guarantee is not just a paperwork detail. It changes who
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broad overview of lender assessment and commercial property structures.
 - **[Commercial Property Loan Deposits in Australia: How Much Do You Need?](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)** — Useful if the lender is also asking for stronger equity support.
 - **[Commercial Property Refinance After a Bank Decline in Australia](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — Relevant where guarantee concerns form part of a credit decline.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Helpful if the structure includes layered security or multiple facilities.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Helpful if the structure includes layered security or multiple facilities.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Explains why guarantee settings can differ by lender type.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if the transaction falls outside standard bank policy.
 
@@ -239,6 +239,6 @@ Yes. Guarantee settings are part of the real commercial offer. Two lenders may l
 - [Commercial Property Loan Deposits in Australia: How Much Do You Need?](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

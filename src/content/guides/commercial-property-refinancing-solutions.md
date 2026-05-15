@@ -268,7 +268,7 @@ Property valuation fees range from $2,000-8,000 depending on property size and c
 
 Existing loans may involve break costs for early repayment, particularly fixed-rate loans terminated before maturity. Break costs depend on remaining loan terms, interest rate movements, and lender calculation methodologies.
 
-Some existing loans include exit fees or administrative charges for early termination. These costs should be factored into refinancing calculations to determine net benefits of new financing arrangements. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) provides additional options, as second mortgages can deliver borrowing capacity without refinancing existing first mortgages.
+Some existing loans include exit fees or administrative charges for early termination. These costs should be factored into refinancing calculations to determine net benefits of new financing arrangements. Understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) provides additional options, as second mortgages can deliver borrowing capacity without refinancing existing first mortgages.
 
 ### Cost-Benefit Analysis Framework
 
@@ -389,6 +389,6 @@ Professional advice from experienced commercial finance brokers, valuers, and le
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — useful when refinance timing is linked to a sale, payout, or urgent settlement.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — refinancing alongside wider business debt simplification.
 - **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** — where the refinance funds a development or major repositioning.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — alternative capital structures if a full refinance is not the best fit.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — alternative capital structures if a full refinance is not the best fit.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

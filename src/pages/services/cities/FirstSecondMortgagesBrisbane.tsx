@@ -77,7 +77,7 @@ export default function FirstSecondMortgagesBrisbane() {
         },
         {
           title: 'First and Second Mortgages for Business',
-          href: '/resources/guides/first-and-second-mortgages-for-business',
+          href: '/resources/guides/second-mortgages-for-business-guide',
           description: 'Useful if you are comparing first-position debt with a second mortgage top-up.'
         },
         {

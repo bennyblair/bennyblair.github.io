@@ -134,7 +134,7 @@ Commercial property finance should support the wider business or investment plan
 
 For example, if the deal is really a temporary timing problem, [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) may be the more relevant framework.
 
-If the borrower is weighing priority, security position, or layered debt, [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) can help clarify the difference between first-position and second-position funding.
+If the borrower is weighing priority, security position, or layered debt, [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) can help clarify the difference between first-position and second-position funding.
 
 If the transaction is more about buying a business premises or investment asset, [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) provides a broader national view of the lending process.
 

@@ -21,7 +21,7 @@ A caveat loan is generally used when a business borrower needs fast, short-term 
 
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Full guide to caveat lending mechanics, risk, timing, and exit planning.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — How second mortgages work for commercial borrowers using property equity.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Broader guide to first and second ranking mortgage structures.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Broader guide to first and second ranking mortgage structures.
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — How borrowers repay, refinance, or restructure out of short-term caveat finance.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — What fast caveat lending usually requires in practice.
 - **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — Private lender landscape across caveat, first mortgage, and second mortgage scenarios.

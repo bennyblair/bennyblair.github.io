@@ -93,7 +93,7 @@ export default function BridgingFinancePerth() {
         },
         {
           title: 'Commercial Bridging Finance for Auction Purchases',
-          href: '/resources/guides/commercial-bridging-finance-auction-purchases',
+          href: '/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide',
           description: 'Useful if your Perth transaction is tied to auction timing or short contractual deadlines.'
         }
       ]}

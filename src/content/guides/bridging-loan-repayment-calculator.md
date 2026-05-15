@@ -39,7 +39,7 @@ If you are new to this product category, read our [bridging finance in Australia
 ### Related In-Depth Guides
 
 - **[Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — The main primer on how bridging finance works and where it fits.
-- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)** — Useful if your timing pressure comes from auction or short-contract settlement.
+- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful if your timing pressure comes from auction or short-contract settlement.
 - **[Swing Loans Explained: Seamless Property Transitions](/resources/guides/swing-loans-explained-seamless-property-transitions)** — Helpful for purchase-before-sale scenarios.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant if the bridge is a step toward permanent debt.
 - **[Bridging Loan Exit Strategies: Plan Your Repayment Path](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — Important if the calculator result depends on a tightly timed exit.
@@ -166,7 +166,7 @@ Yes. Depending on the property, timing, and security position, it may make sense
 ## Related Guides
 
 - [Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
-- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)
+- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
 - [Swing Loans Explained: Seamless Property Transitions](/resources/guides/swing-loans-explained-seamless-property-transitions)
 - [Bridging Loan Exit Strategies: Plan Your Repayment Path](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)

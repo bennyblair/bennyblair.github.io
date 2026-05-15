@@ -21,7 +21,7 @@ At Emet Capital, we treat second mortgages as a specialist commercial funding to
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how commercial second mortgages work and where they fit.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Explains mortgage priority, lender risk, and common structures.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Explains mortgage priority, lender risk, and common structures.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Wider context on commercial property funding and lender assessment.
 - **[Private Lending vs Bank Lending Which Is Better](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Useful if you are comparing non-bank flexibility with mainstream credit.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant if a refinance may be cleaner than a second mortgage.
@@ -163,7 +163,7 @@ Potentially, yes. Those are common commercial use cases where borrowers need a f
 
 ## Related Guides
 
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)

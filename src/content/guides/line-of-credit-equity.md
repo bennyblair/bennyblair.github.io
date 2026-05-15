@@ -15,7 +15,7 @@ slug: "line-of-credit-equity"
 
 A line of credit equity facility lets a business borrower access capital against available property equity without locking the entire amount into a single lump-sum term loan on day one. In plain English, it is a revolving facility secured by property where the borrower can draw, repay, and redraw within an approved limit, subject to lender terms.
 
-That matters because many business funding needs are uneven. Working capital gaps, tax obligations, deposits, short-term project costs, and staggered supplier payments do not always arrive in one neat block. A borrower may need flexibility more than a one-time advance. That is where a property-backed line of credit can be more practical than a standard term facility, a full refinance, or even a [second mortgage for business](/resources/guides/second-mortgage-for-business).
+That matters because many business funding needs are uneven. Working capital gaps, tax obligations, deposits, short-term project costs, and staggered supplier payments do not always arrive in one neat block. A borrower may need flexibility more than a one-time advance. That is where a property-backed line of credit can be more practical than a standard term facility, a full refinance, or even a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide).
 
 For Australian business owners, investors, and commercial borrowers, the real question is not just whether equity exists. It is whether a line-of-credit structure suits the purpose, the timing, and the repayment discipline required. In some cases, a revolving facility works well. In others, a cleaner [working capital loan](/resources/guides/working-capital-loans-for-smes), a [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions), or a shorter-term [private lending](/resources/guides/what-is-private-lending-australia) solution may be the better fit.
 
@@ -23,7 +23,7 @@ For Australian business owners, investors, and commercial borrowers, the real qu
 
 - **[Working Capital Loans: A Guide for Australian SMEs](/resources/guides/working-capital-loans-for-smes)** — Broader context on short-term business funding and cash flow support.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Useful when the equity strategy may sit behind an existing first mortgage.
-- **[How Second Mortgages Work for Business Funding in Australia](/resources/guides/second-mortgage-for-business)** — Good reference if you are comparing revolving access with a one-off secured advance.
+- **[How Second Mortgages Work for Business Funding in Australia](/resources/guides/second-mortgages-for-business-guide)** — Good reference if you are comparing revolving access with a one-off secured advance.
 - **[Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)** — Relevant if the goal is simplifying expensive short-term debt.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful when the borrower is deciding between refinance and retained flexibility.
 - **[What is Private Lending? A Guide for Australian Businesses](/resources/guides/what-is-private-lending-australia)** — Useful where speed or policy flexibility matters.
@@ -60,7 +60,7 @@ That is the main distinction from a standard term loan. A term loan is usually a
 
 The starting point is the security property. The lender looks at value, existing debt, property type, location, and usable equity after applying its maximum loan-to-value ratio.
 
-If the property already has a first mortgage, the line may sit inside that lender's structure or, in some cases, be created through a separate second-position arrangement. Borrowers comparing layered structures should also understand [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business).
+If the property already has a first mortgage, the line may sit inside that lender's structure or, in some cases, be created through a separate second-position arrangement. Borrowers comparing layered structures should also understand [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide).
 
 ### The approved limit is not the same as money drawn
 
@@ -204,12 +204,12 @@ Line-of-credit equity can be a practical structure when a business borrower has 
 
 It works best when the purpose is commercial, the leverage is sensible, and the borrower has a clear plan for using and reducing the balance. It is less attractive when the requirement is really just a lump-sum loan wearing a more flexible label.
 
-The strongest outcomes usually come from matching the structure to the pattern of the need. Sometimes that means a line of credit. Sometimes it means a cleaner [term funding](/resources/guides/working-capital-loans-for-smes), a [second mortgage](/resources/guides/second-mortgage-for-business), or a more deliberate [refinance path](/resources/guides/commercial-property-refinancing-solutions).
+The strongest outcomes usually come from matching the structure to the pattern of the need. Sometimes that means a line of credit. Sometimes it means a cleaner [term funding](/resources/guides/working-capital-loans-for-smes), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a more deliberate [refinance path](/resources/guides/commercial-property-refinancing-solutions).
 
 ## Related Guides
 
 - [Working Capital Loans: A Guide for Australian SMEs](/resources/guides/working-capital-loans-for-smes)
-- [1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)
 - [Invoice Finance in Australia: The Complete Guide for Business Cash Flow](/resources/guides/invoice-finance-australia-complete-guide)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)

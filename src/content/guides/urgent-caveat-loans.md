@@ -285,7 +285,7 @@ This article is for informational purposes only and does not constitute financia
 - [Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)
 - [What is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
-- [First & Second Mortgages for Business: The Definitive Guide](/resources/guides/first-and-second-mortgages-for-business)
+- [First & Second Mortgages for Business: The Definitive Guide](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Business Acquisition Finance in Australia: A Complete Guide](/resources/guides/business-acquisition-finance-australia)
 - [SMSF Loans for Commercial Property: The Complete Guide](/resources/guides/smsf-loans-for-commercial-property)

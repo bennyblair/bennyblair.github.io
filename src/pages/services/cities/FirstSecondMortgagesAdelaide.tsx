@@ -77,7 +77,7 @@ export default function FirstSecondMortgagesAdelaide() {
         },
         {
           title: 'Second Mortgage for Business',
-          href: '/resources/guides/second-mortgage-for-business',
+          href: '/resources/guides/second-mortgages-for-business-guide',
           description: 'Useful if your Adelaide scenario is mostly about unlocking equity for business use.'
         },
         {

@@ -230,7 +230,7 @@ const BridgingFinance = () => {
                 </span>
               </a>
               <a 
-                href="/resources/guides/commercial-bridging-finance-auction-purchases"
+                href="/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Commercial Bridging for Auctions</h3>

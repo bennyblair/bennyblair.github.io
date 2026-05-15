@@ -32,7 +32,7 @@ The key point is not that every restaurant expansion should use a second mortgag
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The core guide to using second mortgages for commercial funding.
-- **[First and Second Mortgages](/resources/guides/first-and-second-mortgages-for-business)** — How priority, security, and lender consent work.
+- **[First and Second Mortgages](/resources/guides/second-mortgages-for-business-guide)** — How priority, security, and lender consent work.
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broader context for property-secured business lending.
 - **[Equipment Finance and Leasing](/resources/guides/equipment-finance-and-leasing-australia)** — Funding options for plant, kitchen equipment, and business assets.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — How businesses fund operating cash-flow gaps.
@@ -58,7 +58,7 @@ A second mortgage was considered because the borrower had usable property equity
 
 This can be useful where the first loan is performing, the senior lender is slow, or the borrower needs funding for a specific business purpose. The borrower still needs to understand priority risk, lender consent requirements, and how the second mortgage will be repaid.
 
-For a deeper explanation of the structure, our guide to [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) explains how ranking and security position affect lender appetite.
+For a deeper explanation of the structure, our guide to [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) explains how ranking and security position affect lender appetite.
 
 ## When To Use This Type of Structure
 

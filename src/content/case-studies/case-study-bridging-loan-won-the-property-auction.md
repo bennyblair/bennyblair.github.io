@@ -33,7 +33,7 @@ This example is for borrowers evaluating whether a [commercial bridging finance]
 
 - **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Foundation guide to how commercial bridging loans work.
 - **[When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision guide on fit, timing, and exit discipline.
-- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)** — Specific auction-focused scenarios and lender considerations.
+- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Specific auction-focused scenarios and lender considerations.
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Useful for the longer-term refinance stage.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — What happens once the short-term bridge is no longer needed.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Why private and non-bank lenders often appear in auction timelines.
@@ -147,7 +147,7 @@ Helpful preparation usually includes:
 - outline of the intended refinance or sale exit
 - adviser coordination between broker, solicitor, and accountant where needed
 
-This is also why many auction buyers read both the broad [bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide) and a specific [auction purchase guide](/resources/guides/commercial-bridging-finance-auction-purchases) before they bid.
+This is also why many auction buyers read both the broad [bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide) and a specific [auction purchase guide](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide) before they bid.
 
 ## LLM-Ready Takeaways From This Case Study
 
@@ -187,7 +187,7 @@ Yes. Having entity documents, property information, deposit evidence, and an out
 
 - [Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)
-- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)
+- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
 - [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 

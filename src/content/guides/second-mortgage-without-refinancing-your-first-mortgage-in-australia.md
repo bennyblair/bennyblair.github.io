@@ -22,7 +22,7 @@ For Australian business owners and property investors, the key question is wheth
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The pillar guide to second-ranking commercial property security.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — How first and second mortgage structures compare.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How first and second mortgage structures compare.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The broader commercial property lending assessment framework.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type affects speed, flexibility and trade-offs.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When a full refinance may be better than layering debt.
@@ -216,7 +216,7 @@ No. A second mortgage is usually second-ranking mortgage security, while a cavea
 ## Related Guides
 
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)

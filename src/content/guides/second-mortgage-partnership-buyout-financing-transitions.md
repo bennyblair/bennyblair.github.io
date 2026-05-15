@@ -30,14 +30,14 @@ This comprehensive guide examines partnership buyout fundamentals including valu
 
 ### Related In-Depth Guides
 
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — the foundation guide for ranking, security, and private mortgage structures.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — the foundation guide for ranking, security, and private mortgage structures.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — a focused guide to partner buyout funding mechanics.
 - **[Second Mortgage Loan Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — how equity release can support business transitions without replacing the first mortgage.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — compare structured buyout funding against revolving credit.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — broader context on non-bank and private lender decision-making.
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — planning repayment and refinance pathways before taking short-term secured debt.
 
-> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide).
 
 ### At a Glance
 
@@ -62,7 +62,7 @@ Independent business valuation reports from qualified business valuers costing $
 
 ## Structuring Second Mortgage Buyout Financing
 
-[Second mortgages](/resources/guides/first-and-second-mortgages-for-business) provide subordinated security behind existing first mortgages, enabling property equity access without disturbing primary lending arrangements. Continuing partners who own residential or commercial property with usable equity may be able to leverage that equity for a defined partnership transition. Lenders usually calculate available capacity by looking at the current property value, the first mortgage balance, the requested second mortgage amount, and the remaining equity buffer after both debts are considered.
+[Second mortgages](/resources/guides/second-mortgages-for-business-guide) provide subordinated security behind existing first mortgages, enabling property equity access without disturbing primary lending arrangements. Continuing partners who own residential or commercial property with usable equity may be able to leverage that equity for a defined partnership transition. Lenders usually calculate available capacity by looking at the current property value, the first mortgage balance, the requested second mortgage amount, and the remaining equity buffer after both debts are considered.
 
 Second mortgage pricing is usually higher than first mortgage pricing because the lender sits behind the senior lender if the property is sold. That ranking risk means the lender focuses heavily on equity buffer, property type, exit strategy, and whether the first mortgage is current. For a partnership buyout, the practical question is not whether the facility is cheap in isolation. It is whether the cost is justified by preserving business continuity, avoiding a disruptive refinance, and funding a clearly documented ownership transfer.
 
@@ -152,7 +152,7 @@ Systematic transition processes addressing communication timing, operational han
 
 ## Related Guides
 
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — understand ranking, security, and borrower obligations.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — understand ranking, security, and borrower obligations.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — review the partner buyout use case in more detail.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — compare term debt against flexible credit structures.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — see how private lenders assess secured business funding.

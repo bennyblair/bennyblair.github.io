@@ -221,7 +221,7 @@ The best broker usually understands owner-occupied property, company structure, 
 
 ## Related guides worth reading
 
-If your decision is mostly about mortgage structure, [first and second mortgages for business](/resources/guides/first-and-second-mortgages-for-business) gives a practical view of how priority and leverage affect lender fit.
+If your decision is mostly about mortgage structure, [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide) gives a practical view of how priority and leverage affect lender fit.
 
 If timing is the real issue, [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) is useful for understanding when a short-term property-backed solution may be more relevant.
 

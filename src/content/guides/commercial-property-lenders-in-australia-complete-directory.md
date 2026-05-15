@@ -101,7 +101,7 @@ If timing is critical, it helps to think in terms of lender fit, not just lender
 
 Not every transaction needs the same repayment profile, term, or covenant package. Some lenders are comfortable with interest-only periods, staged exits, layered debt, or more bespoke conditions. Others want a very standard structure from day one.
 
-That is one reason borrowers often compare mainstream commercial mortgages with [first and second mortgage options](/resources/guides/first-and-second-mortgages-for-business) or other specialist structures when a standard refinance is not enough.
+That is one reason borrowers often compare mainstream commercial mortgages with [first and second mortgage options](/resources/guides/second-mortgages-for-business-guide) or other specialist structures when a standard refinance is not enough.
 
 ## What lenders usually assess
 

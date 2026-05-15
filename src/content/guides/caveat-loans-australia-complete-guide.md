@@ -37,9 +37,9 @@ Explore our specialist caveat loans guides for specific scenarios:
 - **[Finding Caveat Brokers](/resources/guides/find-caveat-loan-brokers-australia)** — How to find and evaluate caveat loan specialists
 - **[Quick Caveat Loans](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Is 48-hour settlement really achievable?
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Same-day and next-day assessment considerations
-- **[Caveat Loans Sydney](/resources/guides/caveat-loans-sydney-same-day-approval-available)** — Sydney-specific timing, documents, and lender assessment context
-- **[Caveat Loans Melbourne](/resources/guides/caveat-loans-melbourne-quick-business-finance)** — Melbourne business caveat finance scenarios and readiness checklist
-- **[Caveat Loans Perth](/resources/guides/caveat-loans-perth-business-property-finance)** — Perth property-backed business funding scenarios and risk checks
+- **[Caveat Loans Sydney](/services/caveat-loans/cities/sydney)** — Sydney-specific timing, documents, and lender assessment context
+- **[Caveat Loans Melbourne](/services/caveat-loans/cities/melbourne)** — Melbourne business caveat finance scenarios and readiness checklist
+- **[Caveat Loans Perth](/services/caveat-loans/cities/perth)** — Perth property-backed business funding scenarios and risk checks
 
 ### At a Glance
 
@@ -50,7 +50,7 @@ Explore our specialist caveat loans guides for specific scenarios:
 | **Best fit** | Settlement pressure, tax-debt timing, supplier deadlines, refinance gaps, or short-term commercial opportunities. |
 | **Main lender focus** | Property security, equity, title position, loan purpose, documents, and exit strategy. |
 | **Main risk** | Costs and default pressure if the exit does not happen as planned. |
-| **Better alternatives when time allows** | [Commercial refinance](/resources/guides/commercial-property-refinancing-solutions), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business). |
+| **Better alternatives when time allows** | [Commercial refinance](/resources/guides/commercial-property-refinancing-solutions), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or [first and second mortgages](/resources/guides/second-mortgages-for-business-guide). |
 
 ---
 
@@ -74,7 +74,7 @@ Removal requirements compel property owners to provide notice before caveat remo
 
 Speed of execution represents the primary differentiator, with some caveat loans assessed and settled within compressed timeframes compared to weeks or months for traditional mortgages. This acceleration results from narrower documentation requirements and streamlined security registration processes, but timing depends on title, legal, lender, and borrower readiness.
 
-For businesses exploring different property security options, understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) provides context on traditional alternatives that may suit less urgent requirements.
+For businesses exploring different property security options, understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) provides context on traditional alternatives that may suit less urgent requirements.
 
 Legal priority considerations differ significantly, as caveats don't provide the same priority protection as registered mortgages. Existing mortgages maintain superior claims, making caveats suitable primarily for properties with substantial equity beyond existing debt.
 
@@ -372,7 +372,7 @@ Explore these comprehensive guides to understand related property finance option
 
 - [Private Lending in Australia: Complete Guide](/resources/guides/what-is-private-lending-australia) - Understand flexible private lending alternatives for business funding
 - [Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide) - Learn about short-term property funding solutions
-- [First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business) - Explore traditional property security options
+- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide) - Explore traditional property security options
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions) - Discover long-term refinancing strategies
 
 ---

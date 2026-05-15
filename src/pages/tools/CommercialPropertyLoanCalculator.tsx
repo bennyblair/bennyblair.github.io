@@ -442,7 +442,7 @@ const CommercialPropertyLoanCalculator = () => {
                     Office and industrial properties typically achieve better rates (6.5-7.5%) than retail properties (7-8.5%) reflecting lender risk perceptions. Prime CBD properties achieve rates 0.5-1.5% better than secondary locations regardless of property type.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Tenant quality significantly influences rates. Properties leased to ASX-listed companies achieve premium rates, while properties with small tenants or vacancy attract premiums of 1-2%. Understanding <Link to="/resources/guides/first-and-second-mortgages-for-business" className="text-primary hover:underline">1st and 2nd mortgages for business</Link> reveals how lenders assess combined property and business risk.
+                    Tenant quality significantly influences rates. Properties leased to ASX-listed companies achieve premium rates, while properties with small tenants or vacancy attract premiums of 1-2%. Understanding <Link to="/resources/guides/second-mortgages-for-business-guide" className="text-primary hover:underline">1st and 2nd mortgages for business</Link> reveals how lenders assess combined property and business risk.
                   </p>
                 </CardContent>
               </Card>

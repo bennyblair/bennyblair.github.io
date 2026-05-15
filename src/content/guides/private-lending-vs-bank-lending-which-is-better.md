@@ -31,9 +31,9 @@ Explore these guides if you are comparing lender types across different commerci
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Broader explanation of private credit, lender appetite, and use cases
 - **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Best reference for timing-sensitive transactions
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — Useful where speed matters and property security is available
-- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — Compare property-backed private lender types and positioning
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — Compare property-backed private lender types and positioning
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant when private lending is being used as a transition into longer-term debt
-- **[1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Helpful if the structure may involve layered or second-position security
+- **[1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Helpful if the structure may involve layered or second-position security
 
 ---
 
@@ -90,7 +90,7 @@ If the right long-term solution exists but cannot complete in time, private lend
 
 ### Complex or layered structures
 
-[Second mortgages](/resources/guides/first-and-second-mortgages-for-business), [caveat-backed scenarios](/resources/guides/caveat-loans-australia-complete-guide), short-term property-backed transitions, and mixed commercial situations often sit better with private credit than with standard bank policy.
+[Second mortgages](/resources/guides/second-mortgages-for-business-guide), [caveat-backed scenarios](/resources/guides/caveat-loans-australia-complete-guide), short-term property-backed transitions, and mixed commercial situations often sit better with private credit than with standard bank policy.
 
 ### Borrowers with a good deal that does not fit a standard credit box
 
@@ -129,7 +129,7 @@ That does not mean private lending is automatically flexible in every way. It me
 - layered debt positions
 - unusual asset stories with a rational commercial explanation
 
-This is why private lending often shows up in [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) conversations. The flexibility is not about ignoring risk. It is about underwriting it differently.
+This is why private lending often shows up in [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) conversations. The flexibility is not about ignoring risk. It is about underwriting it differently.
 
 ## Security and repayment expectations
 
@@ -237,7 +237,7 @@ Often that depends on timing, security position, and structure. If the deal is l
 
 Private lending vs bank lending is not really a debate about good versus bad. It is a fit question.
 
-If the transaction is standard, long-term, and has enough time, bank lending often makes sense. If the transaction is urgent, transitional, or structurally awkward, private lending may be the better tool. That is especially true where the underlying scenario already looks like [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [caveat finance](/resources/guides/caveat-loans-australia-complete-guide), or a [property-backed private lending](/resources/guides/private-mortgage-lenders-australia-directory) case rather than a standard bank file.
+If the transaction is standard, long-term, and has enough time, bank lending often makes sense. If the transaction is urgent, transitional, or structurally awkward, private lending may be the better tool. That is especially true where the underlying scenario already looks like [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [caveat finance](/resources/guides/caveat-loans-australia-complete-guide), or a [property-backed private lending](/resources/guides/private-mortgage-lenders-australia-directory-2026) case rather than a standard bank file.
 
 The strongest funding decisions usually come from matching the lender type to the actual commercial problem instead of forcing every deal through the same channel.
 

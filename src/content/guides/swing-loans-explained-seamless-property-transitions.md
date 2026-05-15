@@ -146,7 +146,7 @@ In Australia, these are often functionally very close. Bridging finance is the b
 
 ### Swing loan vs second mortgage
 
-A [first or second mortgage for business](/resources/guides/first-and-second-mortgages-for-business) may work better when you want to keep an existing first mortgage in place and access equity behind it. A swing loan is more likely to be framed around a short-term transition rather than pure layered capital access.
+A [first or second mortgage for business](/resources/guides/second-mortgages-for-business-guide) may work better when you want to keep an existing first mortgage in place and access equity behind it. A swing loan is more likely to be framed around a short-term transition rather than pure layered capital access.
 
 ### Swing loan vs private lending
 
@@ -168,7 +168,7 @@ If you can answer all three clearly, the structure may be sensible.
 
 If those answers are fuzzy, the deal needs more work before short-term debt is added.
 
-It also helps to compare alternatives. In some cases, [commercial bridging finance for auction purchases](/resources/guides/commercial-bridging-finance-auction-purchases), a second mortgage, or a more structured refinance may suit the scenario better. The right path depends on the security, the timing, and the exit.
+It also helps to compare alternatives. In some cases, [commercial bridging finance for auction purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide), a second mortgage, or a more structured refinance may suit the scenario better. The right path depends on the security, the timing, and the exit.
 
 ## Frequently Asked Questions
 

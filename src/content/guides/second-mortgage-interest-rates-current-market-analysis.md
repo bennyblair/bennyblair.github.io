@@ -20,7 +20,7 @@ For business owners, investors, and developers, that means the right question is
 
 - **[Second Mortgage Lenders Australia Directory](/resources/guides/second-mortgage-lenders-australia-directory)** — Useful for understanding the active lender landscape.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Practical overview of how second mortgages work for commercial borrowers.
-- **[First and Second Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Core framework for understanding mortgage positions.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Core framework for understanding mortgage positions.
 - **[Intercreditor Agreements: Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)** — Important where lender rights and priorities matter.
 - **[Second Mortgage Loan Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — Useful if the goal is controlled equity release.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Helpful for comparing lender style and flexibility.
@@ -232,7 +232,7 @@ For borrowers, the smartest move is to compare second mortgage offers as full st
 
 ## Related Guides
 
-- [Second Mortgage for Business](/resources/guides/second-mortgage-for-business)
+- [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Second Mortgage for Divorce Settlement: Property Division](/resources/guides/second-mortgage-for-divorce-settlement-property-division)
 - [Second Mortgage Partnership Buyout Financing Transitions](/resources/guides/second-mortgage-partnership-buyout-financing-transitions)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)

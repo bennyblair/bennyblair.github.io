@@ -17,7 +17,7 @@ A second mortgage for divorce settlement can help a business owner, investor, or
 
 For commercial borrowers, the real issue is usually timing and structure. One party may want to retain the asset, finalise a buyout, or complete a wider ownership restructure without forcing a sale at the wrong time. In that kind of scenario, a second mortgage may act as interim or medium-term funding while the cleaner long-term solution catches up.
 
-This is not a consumer home-loan article. It is a commercial guide for business owners, developers, and investors dealing with investment or business-purpose property. If you need the broader structure first, our guide to [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) explains how second-position lending fits into the wider commercial finance stack.
+This is not a consumer home-loan article. It is a commercial guide for business owners, developers, and investors dealing with investment or business-purpose property. If you need the broader structure first, our guide to [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) explains how second-position lending fits into the wider commercial finance stack.
 
 ---
 
@@ -25,10 +25,10 @@ This is not a consumer home-loan article. It is a commercial guide for business 
 
 ### Related In-Depth Guides
 
-- **[1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — Core guide to how first and second mortgage structures work in commercial lending
+- **[1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how first and second mortgage structures work in commercial lending
 - **[First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — Compare ranking, risk, lender focus, and common use cases
 - **[Caveat Loan vs Second Mortgage: Which Is Right for You?](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — Useful if the settlement timeline is unusually tight
-- **[Second Mortgage for Business](/resources/guides/second-mortgage-for-business)** — Practical guide to using second mortgages for business-purpose funding
+- **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — Practical guide to using second mortgages for business-purpose funding
 - **[Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/subordination-agreement-second-mortgage)** — Legal context if another lender already holds first position
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant when the second mortgage is only an interim step before refinance
 
@@ -225,8 +225,8 @@ That is one of the more common reasons a second mortgage is considered. It can c
 
 ## Related Guides
 
-- [1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)
-- [Second Mortgage for Business](/resources/guides/second-mortgage-for-business)
+- [1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
+- [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)
 - [Caveat Loan vs Second Mortgage: Which Is Right for You?](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)

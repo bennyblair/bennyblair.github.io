@@ -129,7 +129,7 @@ Sometimes the rejection is useful because it stops the borrower from forcing the
 
 If the situation is really a multi-month transition tied to a purchase or refinance, [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) may be a better lens.
 
-If the borrower has enough equity but needs a more structured property-backed facility, [1st & 2nd mortgages for business](/resources/guides/first-and-second-mortgages-for-business) may be more relevant than a pure caveat approach.
+If the borrower has enough equity but needs a more structured property-backed facility, [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) may be more relevant than a pure caveat approach.
 
 If the broader issue is understanding caveat lending mechanics, [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) covers how these facilities are commonly used and where the pressure points usually sit.
 

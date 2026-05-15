@@ -97,7 +97,7 @@ Selecting the wrong broker can cost thousands through higher interest rates, exc
 
 ---
 
-> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide).
 
 ### At a Glance
 

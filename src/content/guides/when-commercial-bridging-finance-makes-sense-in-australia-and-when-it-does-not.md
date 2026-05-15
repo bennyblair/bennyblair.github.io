@@ -21,7 +21,7 @@ For property investors, developers, and business owners, the right question is n
 ### Related In-Depth Guides
 
 - **[Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Core guide to how bridging facilities are commonly structured.
-- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)** — Useful for hard settlement dates and auction risk.
+- **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful for hard settlement dates and auction risk.
 - **[Swing Loans Explained: Seamless Property Transitions](/resources/guides/swing-loans-explained-seamless-property-transitions)** — Helpful if the bridge is tied to one property sale funding another purchase.
 - **[Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Relevant if the deal is being shaped by lender fit and timing.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Important when the bridge is only an interim step before permanent debt.
@@ -249,7 +249,7 @@ It does not make sense when the borrower is using short-term debt to disguise a 
 
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 - [Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
-- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-finance-auction-purchases)
+- [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
 - [Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 

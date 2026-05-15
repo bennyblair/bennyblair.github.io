@@ -14,15 +14,15 @@ The secondary mortgage market is the wholesale funding layer behind many Austral
 
 For commercial borrowers, the practical point is simple: when wholesale funding markets are liquid, more lenders can compete for transactions. When those markets tighten, private lenders and non-bank lenders may become more selective, especially for higher-risk commercial property or equity-release scenarios. This guide explains the market mechanics without turning it into personal finance advice.
 
-The phrase "secondary market" can also cause confusion because it is sometimes used loosely alongside [second mortgage finance](/resources/guides/second-mortgage-for-business). A second mortgage is a separate secured loan that sits behind a first mortgage. The institutional secondary mortgage market is different: it is where loan portfolios or securities backed by loans are sold to investors. Both matter to business borrowers, but they solve different problems.
+The phrase "secondary market" can also cause confusion because it is sometimes used loosely alongside [second mortgage finance](/resources/guides/second-mortgages-for-business-guide). A second mortgage is a separate secured loan that sits behind a first mortgage. The institutional secondary mortgage market is different: it is where loan portfolios or securities backed by loans are sold to investors. Both matter to business borrowers, but they solve different problems.
 
 ---
 
-> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business). If you are comparing loan structures rather than wholesale funding markets, start with [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or [priority agreements in second mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean).
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide). If you are comparing loan structures rather than wholesale funding markets, start with [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or [priority agreements in second mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean).
 
 ### Related In-Depth Guides
 
-- **[1st and 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business)** — The broader business borrower guide to mortgage-backed commercial finance.
+- **[1st and 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The broader business borrower guide to mortgage-backed commercial finance.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How second mortgage structures work for commercial borrowers.
 - **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — Priority, risk, and practical differences explained.
 - **[Priority Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)** — Why lender priority matters when more than one secured party is involved.
@@ -114,7 +114,7 @@ Direct investment in RMBS is usually for institutional investors (minimum $500k+
 
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — How businesses restructure property-backed debt when funding conditions change.
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — The role of private capital in Australian business finance.
-- **[Second Mortgage for Business](/resources/guides/second-mortgage-for-business)** — A direct borrower guide to second mortgage funding.
+- **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — A direct borrower guide to second mortgage funding.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Comparing secured equity release with revolving credit.
 - **[Intercreditor Agreements](/resources/guides/intercreditor-agreements-second-mortgage-complexity)** — The legal coordination layer when multiple lenders are involved.
 

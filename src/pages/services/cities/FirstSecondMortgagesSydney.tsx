@@ -77,7 +77,7 @@ export default function FirstSecondMortgagesSydney() {
         },
         {
           title: 'First and Second Mortgages for Business',
-          href: '/resources/guides/first-and-second-mortgages-for-business',
+          href: '/resources/guides/second-mortgages-for-business-guide',
           description: 'Core guide explaining how mortgage priority works and when each structure may fit.'
         },
         {

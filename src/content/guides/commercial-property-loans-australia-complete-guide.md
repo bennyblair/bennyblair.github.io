@@ -113,7 +113,7 @@ Property valuation represents a critical milestone, with independent valuers det
 
 Commercial property loans involve registered first mortgages over financed properties, giving lenders priority claim over assets in default situations. Most loans require director personal guarantees for company borrowers, extending lender recourse to guarantor personal assets beyond secured property holdings.
 
-Cross-collateralisation using multiple properties as security enables higher borrowing capacity and supports portfolio growth. However, this approach creates interconnected security where default risks extend across portfolios and individual property sales require lender consent. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) helps businesses evaluate security structures appropriately.
+Cross-collateralisation using multiple properties as security enables higher borrowing capacity and supports portfolio growth. However, this approach creates interconnected security where default risks extend across portfolios and individual property sales require lender consent. Understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) helps businesses evaluate security structures appropriately.
 
 ## Lender Selection Strategies
 
@@ -211,5 +211,5 @@ Professional advice from experienced commercial finance brokers, lawyers, and ac
 - [Commercial Property Development Finance: A Complete Guide](/resources/guides/commercial-property-development-finance)
 - [SMSF Loans for Commercial Property: The Complete Guide](/resources/guides/smsf-loans-for-commercial-property)
 - [Caveat Loans in Australia: The Complete Guide for Fast Property Finance](/resources/guides/caveat-loans-australia-complete-guide)
-- [1st & 2nd Mortgages for Business: The Definitive Guide](/resources/guides/first-and-second-mortgages-for-business)
+- [1st & 2nd Mortgages for Business: The Definitive Guide](/resources/guides/second-mortgages-for-business-guide)
 - [Business Acquisition Finance in Australia: A Complete Guide](/resources/guides/business-acquisition-finance-australia)

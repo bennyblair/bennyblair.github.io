@@ -135,10 +135,10 @@ This comprehensive guide examines private lending in the Australian context, cov
 
 Explore our specialist private lending guides for specific scenarios:
 
-- **[Finding the Best Private Lenders](/resources/guides/finding-best-private-lenders-for-your-business)** — How to evaluate and select private lenders
+- **[Finding the Best Private Lenders](/resources/guides/finding-comparing-private-lenders-loans-2025-guide)** — How to evaluate and select private lenders
 - **[Comparing Private Lenders 2025](/resources/guides/finding-comparing-private-lenders-loans-2025-guide)** — Current market comparison and rates
-- **[Private Mortgage Lenders](/resources/guides/private-lenders-for-mortgages)** — When banks say no to mortgage applications
-- **[Private Lenders for Small Business](/resources/guides/private-lenders-small-business-fast-approval-guide)** — Fast approval options for SMEs
+- **[Private Mortgage Lenders](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — When banks say no to mortgage applications
+- **[Private Lenders for Small Business](/resources/guides/what-is-private-lending-australia)** — Fast approval options for SMEs
 - **[Private Land Loans](/resources/guides/private-lenders-for-land-loans-alternative-financing)** — Alternative financing for land purchases
 - **[Private CRE Lenders Directory](/resources/guides/private-commercial-real-estate-lenders-cre-directory)** — Commercial real estate specialist lenders
 - **[Private Investment Lenders](/resources/guides/private-real-estate-investment-lenders-guide)** — Lenders for property investors
@@ -155,7 +155,7 @@ Private lending operates on fundamentally different principles from traditional 
 
 ### Private Lender Types and Characteristics
 
-High-net-worth individuals often provide private lending as investment diversification strategies, seeking higher returns than traditional fixed-income investments while maintaining some capital security through mortgage or asset backing. Understanding [first and second mortgages](/resources/guides/first-and-second-mortgages-for-business) helps structure appropriate security arrangements in private lending transactions.
+High-net-worth individuals often provide private lending as investment diversification strategies, seeking higher returns than traditional fixed-income investments while maintaining some capital security through mortgage or asset backing. Understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) helps structure appropriate security arrangements in private lending transactions.
 
 Private debt funds and institutional private lenders bring professional management expertise and substantial capital capacity to larger transactions. These entities often specialize in specific sectors or transaction types, developing sophisticated assessment capabilities and standardized processes while maintaining flexibility advantages over banks.
 

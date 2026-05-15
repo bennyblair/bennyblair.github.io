@@ -95,7 +95,7 @@ keywords:
 
 # First Mortgage Loans: Understanding Primary Property Finance
 
-When you're securing finance for commercial property, you'll likely encounter the term "[first mortgage](/resources/guides/first-and-second-mortgages-for-business) loan." It's the most common form of property lending in Australia, but understanding how it works—and why it takes priority over other debts—can make a significant difference to your borrowing capacity and interest rate.
+When you're securing finance for commercial property, you'll likely encounter the term "[first mortgage](/resources/guides/second-mortgages-for-business-guide) loan." It's the most common form of property lending in Australia, but understanding how it works—and why it takes priority over other debts—can make a significant difference to your borrowing capacity and interest rate.
 
 A first mortgage loan is a loan secured by a property where the lender holds first priority over the asset. If you default on repayments, that lender gets first claim on sale proceeds before any other creditors. This priority position means lenders typically offer lower interest rates and higher loan amounts compared to [second mortgages](/resources/guides/second-mortgages-for-business-guide) or unsecured finance.
 
@@ -105,7 +105,7 @@ This guide explains how first mortgage loans work in the Australian commercial p
 
 ---
 
-> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/first-and-second-mortgages-for-business).
+> **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide).
 
 ### At a Glance
 
@@ -130,7 +130,7 @@ Most Australian commercial lenders only provide first mortgage finance. They won
 
 ## How First Mortgages Differ from Second Mortgages
 
-The primary difference between first and second mortgages lies in their security position and the risk each lender assumes. A first mortgage holder gets paid first from sale proceeds, while a [second mortgage](/resources/guides/2nd-loan-mortgage-business-capital) lender only receives payment after the first mortgage is fully satisfied. This fundamental distinction creates significant differences in lending terms, interest rates, and loan structures.
+The primary difference between first and second mortgages lies in their security position and the risk each lender assumes. A first mortgage holder gets paid first from sale proceeds, while a [second mortgage](/resources/guides/second-mortgages-for-business-guide) lender only receives payment after the first mortgage is fully satisfied. This fundamental distinction creates significant differences in lending terms, interest rates, and loan structures.
 
 Interest rates reflect this risk differential. First mortgage rates for commercial property currently sit between 6.5-8.5% for most borrowers, depending on property type, location, and borrower strength. Second mortgage rates typically range from 9.5-15% or higher because lenders face greater potential loss if the property value drops or the business defaults.
 
@@ -192,7 +192,7 @@ Professional advice from experienced finance brokers, accountants, and lawyers i
 
 ### Can I get a first mortgage with limited business trading history?
 
-Securing a first mortgage with less than two years trading history is challenging but possible. Lenders typically want 2+ years of financial statements to assess serviceability, but some will consider newer businesses with strong directors' guarantees, larger deposits (40-50% equity), or businesses in established industries with proven demand. A startup tech company might struggle, while a medical practice run by an experienced GP could succeed despite limited trading history. Alternative lenders and [private funders](/resources/guides/private-lenders-for-mortgages) are more flexible than major banks for newer businesses.
+Securing a first mortgage with less than two years trading history is challenging but possible. Lenders typically want 2+ years of financial statements to assess serviceability, but some will consider newer businesses with strong directors' guarantees, larger deposits (40-50% equity), or businesses in established industries with proven demand. A startup tech company might struggle, while a medical practice run by an experienced GP could succeed despite limited trading history. Alternative lenders and [private funders](/resources/guides/private-mortgage-lenders-australia-directory-2026) are more flexible than major banks for newer businesses.
 
 ### What happens to my first mortgage if property values drop?
 

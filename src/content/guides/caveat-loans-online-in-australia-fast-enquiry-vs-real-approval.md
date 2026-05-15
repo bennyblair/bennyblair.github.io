@@ -100,7 +100,7 @@ The [commercial property due diligence checklist](/resources/guides/commercial-p
 
 Emet Capital looks at the commercial purpose, security, timing and exit before suggesting a structure. The goal is not to force every urgent enquiry into a caveat loan. The goal is to find the most workable funding path for the facts.
 
-A borrower with strong equity and a two-week deadline may suit a caveat-led approach. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/first-and-second-mortgages-for-business).
+A borrower with strong equity and a two-week deadline may suit a caveat-led approach. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/second-mortgages-for-business-guide).
 
 ## Practical Example
 
@@ -142,7 +142,7 @@ Neither is automatically better. A caveat loan may suit urgent short-term scenar
 
 - [Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
 - [Quick Caveat Loans: 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)
-- [Caveat Loans Sydney](/resources/guides/caveat-loans-sydney-same-day-approval-available)
+- [Caveat Loans Sydney](/services/caveat-loans/cities/sydney)
 - [Commercial Property Due Diligence Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
 
