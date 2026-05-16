@@ -249,6 +249,16 @@
     "noscript": "A practical Australian case study showing how a first-time developer can prepare a commercial project funding request, manage lender concerns, and structure a realistic exit. General information only - not advice.",
     "sourcePath": "src/content/guides/case-study-developers-first-project-funding-success.md"
   },
+  "/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance": {
+    "routePath": "/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance",
+    "title": "Cashflow Facility Stack in Australia: Line of Credit...",
+    "description": "Compare business lines of credit, working capital loans and invoice finance in Australia, including security, repayment source, lender assessment...",
+    "keywords": "line of credit vs working capital loan vs invoice finance, cashflow facility stack, business line of credit vs invoice finance, working capital loan vs invoice finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance",
+    "h1": "Cashflow Facility Stack in Australia: Line of Credit vs Working Capital Loan vs Invoice Finance",
+    "noscript": "Compare business lines of credit, working capital loans and invoice finance in Australia, including security, repayment source, lender assessment and best-fit scenarios.",
+    "sourcePath": "src/content/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance.md"
+  },
   "/resources/guides/caveat-lenders-australia-directory-comparison": {
     "routePath": "/resources/guides/caveat-lenders-australia-directory-comparison",
     "title": "Caveat Lenders in Australia: 2025 Directory & Comparison",
@@ -1488,6 +1498,16 @@
     "h1": "What Is a Caveatable Interest? Legal Guide for Business Borrowers",
     "noscript": "A practical guide to caveatable interests in Australia, including what they are, when they arise, why they matter for caveat loans, and when a borrower or lender should get legal advice. Informational only.",
     "sourcePath": "src/content/guides/what-is-a-caveatable-interest.md"
+  },
+  "/resources/guides/what-is-a-second-mortgage": {
+    "routePath": "/resources/guides/what-is-a-second-mortgage",
+    "title": "What Is a Second Mortgage? | Emet Capital",
+    "description": "A plain-English guide to second mortgages in Australia for business borrowers, including how second-ranking security works, when it is used and...",
+    "keywords": "what is a second mortgage, second mortgage Australia, second mortgage business loan, second-ranking mortgage",
+    "canonical": "https://emetcapital.com.au/resources/guides/what-is-a-second-mortgage",
+    "h1": "What Is a Second Mortgage?",
+    "noscript": "A plain-English guide to second mortgages in Australia for business borrowers, including how second-ranking security works, when it is used and what lenders assess.",
+    "sourcePath": "src/content/guides/what-is-a-second-mortgage.md"
   },
   "/resources/guides/what-is-asset-backed-lending-australia": {
     "routePath": "/resources/guides/what-is-asset-backed-lending-australia",
