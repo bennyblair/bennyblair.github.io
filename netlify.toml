@@ -527,6 +527,11 @@
 
 # 2026-05 SEO consolidation redirects
 [[redirects]]
+  from = "/resources/guides/second-mortgage-australia"
+  to = "/resources/guides/what-is-a-second-mortgage"
+  status = 301
+
+[[redirects]]
   from = "/resources/guides/caveat-loans-sydney-same-day-approval-available"
   to = "/services/caveat-loans/cities/sydney"
   status = 301
@@ -682,4 +687,3 @@
   [headers.values]
     Cache-Control = "public, max-age=3600"
     Content-Type = "text/plain; charset=utf-8"
-
