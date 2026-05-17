@@ -82,7 +82,7 @@ export default function FirstSecondMortgagesSydney() {
         },
         {
           title: 'Commercial Property Finance Sydney',
-          href: '/resources/guides/commercial-property-finance-sydney',
+          href: '/resources/guides/commercial-property-finance-sydney-local-expert-hub',
           description: 'Useful for Sydney borrowers comparing local market conditions, documents, and lender expectations.'
         }
       ]}
