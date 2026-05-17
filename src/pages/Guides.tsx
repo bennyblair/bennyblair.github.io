@@ -68,7 +68,7 @@ const Guides = () => {
       title: "Commercial property finance",
       description: "Practical explainers for business owners and investors comparing deposits, lender assessment, serviceability, commercial property LVR and settlement readiness.",
       links: [
-        { label: "Commercial property finance Sydney", url: "/resources/guides/commercial-property-finance-sydney" },
+        { label: "Commercial property finance Sydney", url: "/resources/guides/commercial-property-finance-sydney-local-expert-hub" },
         { label: "Commercial property LVR", url: "/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing" },
         { label: "Commercial refinance after bank decline", url: "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia" }
       ]
