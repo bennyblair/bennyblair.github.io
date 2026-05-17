@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, MapPin, Building2, Clock3, FileText, CheckCircle2, ArrowRight } from "lucide-react";
 import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import CityAuthorNote from "@/components/CityAuthorNote";
+import ScenarioNotice from "@/components/ScenarioNotice";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { generateServiceSchema } from "@/lib/schema-utils";
@@ -53,6 +55,7 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
             { label: data.city },
           ]}
         />
+        <CityAuthorNote />
 
         <section className="text-center max-w-5xl mx-auto mb-16 pt-4">
           <Badge className="mb-4 bg-accent/10 text-accent">{data.city} Commercial Finance</Badge>
@@ -141,7 +144,8 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
 
       <section className="py-16 bg-muted/20">
         <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl font-bold mb-8 text-center">Local case studies and scenarios</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Local illustrative refinancing scenarios</h2>
+          <ScenarioNotice />
           <div className="space-y-8">
             {data.caseStudies.map((item) => (
               <div key={item.title} className="bg-background rounded-lg border p-8">
@@ -149,7 +153,7 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
                 <div className="grid md:grid-cols-2 gap-6">
                   <p className="text-muted-foreground">{item.summary}</p>
                   <div className="bg-muted/20 rounded-lg p-6 border">
-                    <h4 className="font-semibold mb-3">Illustrative scenario numbers</h4>
+                    <h4 className="font-semibold mb-3">Illustrative numbers</h4>
                     <div className="space-y-3 text-sm">
                       {item.figures.map((figure) => (
                         <div key={figure.label} className="flex justify-between gap-4 border-b border-border/60 pb-2 last:border-0 last:pb-0">
@@ -234,7 +238,7 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
             <div className="flex items-start gap-3">
               <FileText className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
               <p className="text-sm text-muted-foreground">
-                This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Lending structure, timing, leverage, and approval outcomes depend on lender policy, security, and scenario-specific due diligence.
+                This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial private lending brokerage for eligible business borrowers. Lending structure, timing, leverage, and approval outcomes depend on lender policy, security, and scenario-specific due diligence.
               </p>
             </div>
           </div>

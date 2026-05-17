@@ -124,7 +124,9 @@ export const generateBreadcrumbSchema = (items: BreadcrumbItem[], baseUrl: strin
 /**
  * Generates Organization JSON-LD schema
  */
-export const generateOrganizationSchema = () => {
+export const generateOrganizationSchema = (options: { includeSameAs?: boolean } = {}) => {
+  const { includeSameAs = true } = options;
+
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -152,9 +154,13 @@ export const generateOrganizationSchema = () => {
       "areaServed": "AU",
       "availableLanguage": "English"
     },
-    "sameAs": [
-      "https://www.linkedin.com/company/emet-capital"
-    ],
+    ...(includeSameAs
+      ? {
+          "sameAs": [
+            "https://www.linkedin.com/company/emet-capital"
+          ],
+        }
+      : {}),
     "employee": [
       authorEmployeeSchema(BEN_AUTHOR),
       authorEmployeeSchema(DANIEL_AUTHOR)

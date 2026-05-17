@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Building2, CheckCircle, Phone, Shield, UserRound } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import SEO from "@/components/SEO";
+import AuthorArticleFeed from "@/components/AuthorArticleFeed";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { BEN_AUTHOR, generateBenPersonSchema, generateOrganizationSchema } from "@/lib/schema-utils";
@@ -23,12 +24,30 @@ const AboutBen = () => {
   };
 
   const expertise = [
-    "Caveat loans",
-    "Second mortgages",
-    "Bridging finance",
-    "Commercial property finance",
-    "Private lending",
-    "Business finance",
+    {
+      title: "Caveat loans",
+      text: "Ben covers urgent, property-backed borrower scenarios where timing, title position, and exit evidence matter.",
+    },
+    {
+      title: "Second mortgages",
+      text: "His second-mortgage work explains priority, consent, security, and when a top-up may be cleaner than replacing the first facility.",
+    },
+    {
+      title: "Bridging finance",
+      text: "Ben focuses on settlement timing, exit planning, and what borrowers should prepare before a bridge is needed.",
+    },
+    {
+      title: "Commercial property finance",
+      text: "He writes practical guides on deposits, LVR, leases, valuations, and commercial borrower documentation.",
+    },
+    {
+      title: "Private lending",
+      text: "Ben explains how private lenders read security, conduct, controls, and repayment paths in business-purpose files.",
+    },
+    {
+      title: "Business finance",
+      text: "His business-finance content covers working capital, acquisition, fitout, equipment, and trade-cycle funding needs.",
+    },
   ];
 
   return (
@@ -38,7 +57,7 @@ const AboutBen = () => {
         description="Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in operational guides, scenario walkthroughs, and case studies across Emet Capital's six finance pillars."
         keywords="Ben, Emet Capital, commercial finance broker, private lending broker, caveat loans broker, second mortgage broker, bridging finance broker"
         canonical="/about/ben"
-        schemas={[profilePageSchema, generateBenPersonSchema(), generateOrganizationSchema()]}
+        schemas={[profilePageSchema, generateBenPersonSchema(), generateOrganizationSchema({ includeSameAs: false })]}
       />
 
       <div className="container mx-auto px-4 max-w-5xl">
@@ -64,13 +83,13 @@ const AboutBen = () => {
                 <h2 className="text-2xl font-bold text-foreground mb-4">Broker Background</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Ben works with Australian business owners, property investors, and developers who need practical guidance across private lending, property-backed funding, non-bank commercial finance, and business finance options.
+                    Ben works with Australian business owners, property investors, and developers who need practical guidance across private lending, property-backed funding, non-bank commercial finance, and business finance options. His role at Emet Capital sits close to the file itself: the property security, the documents a lender will ask for, the timing pressure, and the exit path that needs to make commercial sense before a lender can assess the request.
                   </p>
                   <p>
-                    His content lane is operational: how-to guides, checklists, settlement explainers, document walkthroughs, case studies, and borrower scenarios where the useful answer is practical rather than market commentary.
+                    His content lane is operational: how-to guides, checklists, settlement explainers, document walkthroughs, case studies, and borrower scenarios where the useful answer is practical rather than market commentary. Ben is usually the right byline when the reader needs to know what to prepare, what can slow a deal down, how a lender may look at security, or how a borrower can make a messy commercial finance scenario easier to understand.
                   </p>
                   <p>
-                    The content Ben authors for Emet Capital is written as general information for commercial borrowers. It is designed to explain security, exit strategy, documents, timing, and risk in plain English, not to provide personal financial advice.
+                    Ben's approach is plain and file-led. He avoids over-selling speed or approval certainty, and instead explains the borrower-side facts that tend to decide whether a commercial finance path is realistic: title position, conduct, use of funds, valuation support, entity structure, lender fit, and the exit. The content Ben authors for Emet Capital is written as general information for commercial borrowers, not as personal financial advice.
                   </p>
                 </div>
               </CardContent>
@@ -96,6 +115,12 @@ const AboutBen = () => {
                 </div>
               </CardContent>
             </Card>
+
+            <AuthorArticleFeed
+              authorName="Ben"
+              heading="Recent Guides and Scenarios"
+              intro="Ben's recent articles focus on operational borrower questions: what documents to prepare, where timing pressure shows up, and how commercial finance scenarios are commonly structured."
+            />
           </section>
 
           <aside className="space-y-6">
@@ -107,9 +132,11 @@ const AboutBen = () => {
                 </div>
                 <ul className="space-y-3">
                   {expertise.map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
+                    <li key={item.title} className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle className="h-4 w-4 text-accent mt-0.5 flex-shrink-0" />
-                      {item}
+                      <span>
+                        <span className="font-semibold text-foreground">{item.title}:</span> {item.text}
+                      </span>
                     </li>
                   ))}
                 </ul>

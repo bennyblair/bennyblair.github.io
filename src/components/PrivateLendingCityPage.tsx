@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, MapPin, Clock, DollarSign, TrendingUp, CheckCircle, Building2, FileText, ArrowRight } from 'lucide-react';
 import SEO from '@/components/SEO';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import CityAuthorNote from '@/components/CityAuthorNote';
+import ScenarioNotice from '@/components/ScenarioNotice';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { generateServiceSchema } from '@/lib/schema-utils';
@@ -61,7 +63,7 @@ const processSteps = [
   'Settle the facility and manage the next step clearly, whether that is sale, refinance, project completion, or another defined liquidity event.'
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial private lending brokerage for eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate.';
 
 export default function PrivateLendingCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (
@@ -83,6 +85,7 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
             { label: city }
           ]}
         />
+        <CityAuthorNote />
 
         <section className="max-w-5xl mx-auto text-center pt-4 pb-12">
           <Badge className="mb-4 bg-sky-500/15 text-sky-300 border border-sky-500/30">{city} Private Credit Market</Badge>
@@ -160,7 +163,8 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">Local {city} case studies</h2>
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">Local {city} illustrative scenarios</h2>
+                    <ScenarioNotice />
           <div className="grid md:grid-cols-2 gap-6">
             {scenarios.map((item) => (
               <div key={item.title} className="bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-sm">
@@ -171,11 +175,11 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
                     <p className="text-slate-100 leading-relaxed">{item.scenario}</p>
                   </div>
                   <div>
-                    <div className="text-slate-400 text-sm mb-1">Solution</div>
+                    <div className="text-slate-400 text-sm mb-1">Possible structure</div>
                     <p className="text-slate-100 leading-relaxed">{item.solution}</p>
                   </div>
                   <div>
-                    <div className="text-slate-400 text-sm mb-2">Transaction snapshot</div>
+                    <div className="text-slate-400 text-sm mb-2">Illustrative snapshot</div>
                     <div className="bg-slate-900 border border-slate-700 rounded-lg p-4 space-y-2">
                       {item.outcomes.map((o) => (
                         <div key={o.label} className="flex items-center justify-between gap-4">
