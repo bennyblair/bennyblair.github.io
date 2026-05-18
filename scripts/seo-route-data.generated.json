@@ -119,6 +119,16 @@
     "noscript": "Compare Australia's top bridging loan lenders for 2025. Expert ratings on rates, speed, LVR limits and serviceability for commercial and residential bridging finance.",
     "sourcePath": "src/content/guides/best-bridging-loan-lenders-companies-2025.md"
   },
+  "/resources/guides/bridge-lending-australia-commercial-property": {
+    "routePath": "/resources/guides/bridge-lending-australia-commercial-property",
+    "title": "Bridge Lending Australia for Commercial Property",
+    "description": "Bridge lending in Australia explained for commercial property borrowers, including when it fits, lender assessment, documents, risks, and exit...",
+    "keywords": "bridge lending australia for commercial property, commercial bridge lending, bridge loans commercial property, bridging finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridge-lending-australia-commercial-property",
+    "h1": "Bridge Lending Australia for Commercial Property",
+    "noscript": "Bridge lending in Australia explained for commercial property borrowers, including when it fits, lender assessment, documents, risks, and exit planning.",
+    "sourcePath": "src/content/guides/bridge-lending-australia-commercial-property.md"
+  },
   "/resources/guides/bridging-finance-australia-complete-property-guide": {
     "routePath": "/resources/guides/bridging-finance-australia-complete-property-guide",
     "title": "Bridging Loans and Bridging Finance Australia Guide",
@@ -1098,6 +1108,16 @@
     "h1": "Private Credit for SME Borrowers in Australia: When It Replaces Bank Finance",
     "noscript": "Plain-English guide to private credit for SME borrowers in Australia, including when it may replace bank finance, what lenders assess, and where it does not fit. General information only - not advice.",
     "sourcePath": "src/content/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance.md"
+  },
+  "/resources/guides/private-finance-for-business-after-bank-delay": {
+    "routePath": "/resources/guides/private-finance-for-business-after-bank-delay",
+    "title": "Private Finance for Business After a Bank Delay",
+    "description": "A practical guide for Australian business borrowers considering private finance after a bank delay, including when it fits, risks, documents, and...",
+    "keywords": "private finance for business after bank delay, private finance business, business finance after bank delay, private lending Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-finance-for-business-after-bank-delay",
+    "h1": "Private Finance for Business After a Bank Delay",
+    "noscript": "A practical guide for Australian business borrowers considering private finance after a bank delay, including when it fits, risks, documents, and exit planning.",
+    "sourcePath": "src/content/guides/private-finance-for-business-after-bank-delay.md"
   },
   "/resources/guides/private-lenders-for-land-loans-alternative-financing": {
     "routePath": "/resources/guides/private-lenders-for-land-loans-alternative-financing",
