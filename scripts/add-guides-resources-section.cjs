@@ -24,7 +24,7 @@ const serviceGuideMap = {
         description: 'Compare rates, LVRs, and approval speeds across Australia\'s top bridging finance providers.'
       },
       {
-        slug: 'commercial-bridging-finance-auction-purchases',
+        slug: 'commercial-bridging-loans-for-property-auctions-expert-guide',
         title: 'Commercial Bridging for Auctions',
         description: 'Strategies for unconditional bidding at commercial property auctions.'
       },

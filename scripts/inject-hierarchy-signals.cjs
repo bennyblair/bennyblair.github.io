@@ -33,7 +33,7 @@ const clusters = {
         whenNot: "For standard property purchases without development components"
       },
       {
-        slug: "commercial-bridging-finance-auction-purchases",
+        slug: "commercial-bridging-loans-for-property-auctions-expert-guide",
         descriptor: "Unconditional bidding strategies for commercial property auctions",
         who: "Business buyers targeting commercial properties at auction",
         what: "Unconditional bidding, pre-approval strategies, and rapid settlement for commercial auctions",
@@ -552,7 +552,7 @@ function getGuideTitle(slug) {
   const titles = {
     "best-bridging-loan-lenders-companies-2025": "Best Bridging Loan Lenders 2025",
     "bridging-finance-developers-project-funding-solutions": "Bridging Finance for Developers",
-    "commercial-bridging-finance-auction-purchases": "Commercial Bridging for Auctions",
+    "commercial-bridging-loans-for-property-auctions-expert-guide": "Commercial Bridging for Auctions",
     "commercial-bridging-loans-for-property-auctions-expert-guide": "Property Auction Bridging Loans",
     "commercial-bridging-loans-property-auctions-expert-guide": "Auction Finance Expert Guide",
     "short-term-property-loans-when-you-need-fast-finance": "Short-Term Property Loans",

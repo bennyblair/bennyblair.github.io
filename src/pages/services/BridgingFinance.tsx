@@ -270,7 +270,7 @@ const BridgingFinance = () => {
           {/* Related Reading */}
           <RelatedReading articles={[
             { title: "Bridging Finance Australia: Complete Property Guide", slug: "bridging-finance-australia-complete-property-guide", description: "Comprehensive guide to bridging loans for property investors and developers" },
-            { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-finance-auction-purchases", description: "How to secure auction properties with fast bridging finance" },
+            { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-loans-for-property-auctions-expert-guide", description: "How to secure auction properties with fast bridging finance" },
             { title: "Bridging Finance Sydney: 48-Hour Settlement Reality Check", slug: "bridging-finance-sydney-48-hour-settlement-possible", description: "When urgent Sydney bridging finance may be realistic and what lenders need" }
           ] as RelatedArticle[]} />
 
