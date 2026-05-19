@@ -1089,6 +1089,16 @@
     "noscript": "A practical guide to priority agreements in second mortgages, including why they matter, when lenders ask for them, and how they affect commercial borrowers using layered property-backed debt. Informational only.",
     "sourcePath": "src/content/guides/priority-agreements-in-second-mortgages-what-they-mean.md"
   },
+  "/resources/guides/private-commercial-loans-for-smes": {
+    "routePath": "/resources/guides/private-commercial-loans-for-smes",
+    "title": "Private Commercial Loans for SMEs in Australia",
+    "description": "Private commercial loans for SMEs explained for Australian business borrowers, including when they fit, what lenders assess, risks, documents, and...",
+    "keywords": "private commercial loans for SMEs, private commercial loans, SME private lending, commercial finance for SMEs",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-commercial-loans-for-smes",
+    "h1": "Private Commercial Loans for SMEs in Australia",
+    "noscript": "Private commercial loans for SMEs explained for Australian business borrowers, including when they fit, what lenders assess, risks, documents, and exit planning.",
+    "sourcePath": "src/content/guides/private-commercial-loans-for-smes.md"
+  },
   "/resources/guides/private-commercial-real-estate-lenders-cre-directory": {
     "routePath": "/resources/guides/private-commercial-real-estate-lenders-cre-directory",
     "title": "Private Commercial Real Estate Lenders: CRE Directory",
@@ -1108,6 +1118,16 @@
     "h1": "Private Credit for SME Borrowers in Australia: When It Replaces Bank Finance",
     "noscript": "Plain-English guide to private credit for SME borrowers in Australia, including when it may replace bank finance, what lenders assess, and where it does not fit. General information only - not advice.",
     "sourcePath": "src/content/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance.md"
+  },
+  "/resources/guides/private-debt-vs-private-lending-australia": {
+    "routePath": "/resources/guides/private-debt-vs-private-lending-australia",
+    "title": "Private Debt vs Private Lending in Australia",
+    "description": "Private debt vs private lending explained for Australian commercial borrowers, including the practical differences, lender structures, risks, and...",
+    "keywords": "private debt vs private lending australia, private debt Australia, private lending Australia, private credit for business",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-debt-vs-private-lending-australia",
+    "h1": "Private Debt vs Private Lending in Australia",
+    "noscript": "Private debt vs private lending explained for Australian commercial borrowers, including the practical differences, lender structures, risks, and when each term matters.",
+    "sourcePath": "src/content/guides/private-debt-vs-private-lending-australia.md"
   },
   "/resources/guides/private-finance-for-business-after-bank-delay": {
     "routePath": "/resources/guides/private-finance-for-business-after-bank-delay",
