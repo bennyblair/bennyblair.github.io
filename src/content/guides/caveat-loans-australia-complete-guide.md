@@ -21,6 +21,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
 
+**Quick answer:** A caveat loan in Australia is a short-term business-purpose loan secured by lodging a caveat over real property. It can suit urgent commercial funding needs where speed matters, but the borrower still needs enough equity, a legitimate business use, and a documented exit strategy.
+
 Caveat loans in Australia are short-term, business-purpose loans commonly secured by lodging a caveat over real property. They may be considered when a borrower needs faster property-backed funding than a standard bank process can provide, but they only make sense when the purpose, security, documents, and exit strategy are clear.
 
 For businesses seeking [caveat finance solutions](/services/caveat-loans), the practical value is speed and flexibility. The risk is that a short-term facility can become expensive or difficult if the exit is weak, the title is complicated, or the borrower treats the loan as a long-term fix.

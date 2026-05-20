@@ -16,7 +16,7 @@ author_name: "Ben"
 slug: "business-debt-consolidation-australia"
 ---
 
-# A Guide to Business Debt Consolidation in Australia
+**Quick answer:** Business debt consolidation combines multiple business debts into a simpler structure, often to improve visibility, cash-flow management, or repayment discipline. It is most useful when the new facility addresses the cause of pressure, not merely when it delays overdue debt or adds property security without a clear plan.
 
 <script type="application/ld+json">
 {

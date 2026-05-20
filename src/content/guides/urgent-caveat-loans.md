@@ -84,6 +84,8 @@ schema:
           text: "Using your home to secure urgent business funding carries serious risks you must weigh carefully. Your home represents your family's financial security, and putting it at risk for business purposes requires a clear and realistic repayment plan. Consider whether you have other security options—business premises, investment properties, or equipment—that could be used instead. If your home is your only substantial asset, ensure you have a credible exit strategy before proceeding."
 ---
 
+**Quick answer:** Urgent caveat loans are short-term, property-backed business facilities used when a commercial deadline cannot wait for a standard bank process. They may help with settlement pressure, tax arrears, supplier demands, or refinance gaps, but they rely on clear security, business purpose, documents, and a realistic exit.
+
 Urgent caveat loans are short-term, property-backed commercial loans that may be assessed quickly when a business borrower has clear equity, documents, purpose, and exit. They are usually considered when a settlement deadline, tax issue, creditor pressure, or business cash-flow event cannot wait for a standard bank process.
 
 For borrowers comparing [urgent caveat finance](/services/caveat-loans), the key question is not simply “how fast can I get money?” The better question is whether the loan can solve a defined timing problem without creating a larger repayment problem later.

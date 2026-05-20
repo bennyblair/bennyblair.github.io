@@ -15,7 +15,7 @@ author_title: "Director, Emet Capital"
 author_name: "Daniel"
 ---
 
-# Second Mortgage Lenders in Australia: Complete Directory
+**Quick answer:** Second mortgage lenders assess commercial loans that sit behind an existing first mortgage. The right lender depends on available equity, property type, conduct, loan purpose, and exit strategy, so borrower fit matters more than simply finding the fastest or loudest advertised option.
 
 Finding second mortgage lenders in Australia requires understanding a fragmented market where major banks rarely participate, leaving subordinate lending to non-bank institutions, private lenders, credit unions, and specialist finance companies. Unlike first mortgage markets where the Big Four banks dominate, second mortgage lending operates through dozens of smaller lenders, each with distinct risk appetites, pricing structures, and eligibility criteria. This diversity creates opportunities—borrowers declined by one lender often secure approval from another—but also complexity in identifying appropriate lenders for your specific circumstances.
 

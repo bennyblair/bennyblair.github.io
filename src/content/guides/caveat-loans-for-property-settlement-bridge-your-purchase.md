@@ -15,6 +15,8 @@ author_name: "Ben"
 featured: false
 ---
 
+**Quick answer:** Caveat loans for property settlement are short-term facilities used when a business borrower needs to complete a purchase before slower finance, sale proceeds, or refinance funds are available. They can bridge timing pressure, but only where security, settlement documents, and the repayment event are clear.
+
 Property settlements in Australia typically require precise timing, with contracts specifying exact settlement dates when buyers must have funds available to complete purchases. When unexpected delays occur—delayed sale proceeds, approval setbacks on primary financing, or urgent opportunities requiring immediate action—caveat loans provide rapid settlement bridge finance enabling you to complete property purchases whilst resolving underlying funding issues. These short-term facilities leverage existing property equity to deliver settlement funds within days rather than weeks or months traditional refinancing requires.
 
 Caveat loans differ fundamentally from conventional mortgages through speed, security structure, and intended use duration. Rather than full mortgage registration requiring extensive legal processes and settlement periods, caveat loans register caveats over property titles—legal notices preventing property sale or further encumbrance without lender consent. This streamlined security registration enables approval and funding within 24-72 hours when circumstances demand immediate action, though at premium interest rates reflecting both urgency and short-term lending economics.
