@@ -23,7 +23,7 @@ A second mortgage is a loan secured by real property where the new lender takes 
 
 The word “second” refers to priority, not importance. If the property is sold or enforced, the first mortgage lender is generally paid before the second mortgage lender. That lower priority is why second mortgage lenders assess equity, title, conduct, repayment pathway and legal documentation carefully.
 
-This guide explains what a second mortgage is, how it works for Australian business borrowers, when it may be used, when it may be unsuitable and what lenders usually check before offering terms.
+This guide explains what a second mortgage is, how it works for Australian business borrowers, when it may be used, when it may be unsuitable and what lenders usually check before offering terms. If you need to compare structures for a live commercial enquiry, start with Emet Capital's [first and second mortgages service](/services/first-second-mortgages).
 
 If you were looking for a broad "second mortgage Australia" guide, this is now the canonical Emet Capital explainer. For a deeper business decision framework, use the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide).
 

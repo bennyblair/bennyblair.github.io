@@ -99,7 +99,7 @@ Bridging finance overlaps with other short-term lending products, but the purpos
 | **Commercial refinance** | The borrower has time to restructure into a longer-term facility. | Slower process and more documentation. |
 | **Private lending** | A non-bank lender is needed for speed or flexibility. | Terms vary widely by lender and security. |
 
-The right comparison depends on the deadline, property security, existing loan structure, and the repayment plan. For many borrowers, the practical choice is not simply "bridge or no bridge". It is bridge versus [private lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), second mortgage, caveat finance, or commercial refinance.
+The right comparison depends on the deadline, property security, existing loan structure, and the repayment plan. For many borrowers, the practical choice is not simply "bridge or no bridge". It is bridge versus [private lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), second mortgage, caveat finance, or commercial refinance; Emet Capital's [bridging finance service](/services/bridging-finance) explains the enquiry pathway for live commercial files.
 
 ## Documents To Prepare
 

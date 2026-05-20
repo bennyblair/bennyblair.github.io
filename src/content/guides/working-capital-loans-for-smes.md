@@ -131,7 +131,7 @@ Australian SMEs face unique working capital challenges including extended paymen
 
 Interest rates for working capital loans typically range from 6-25% per annum depending on loan type, security offered, and business risk profile. Secured facilities backed by inventory, receivables, or property generally achieve lower rates than unsecured options, while alternative lenders often provide faster approval processes at moderate rate premiums compared to traditional banks.
 
-This comprehensive guide examines working capital loan options available to Australian SMEs, covering application processes, eligibility criteria, cost structures, and strategic considerations for different business scenarios. Whether managing seasonal cash flow cycles, funding growth initiatives, or navigating unexpected financial challenges, understanding working capital financing options helps business owners make informed decisions that support operational stability and strategic objectives.
+This comprehensive guide examines working capital loan options available to Australian SMEs, covering application processes, eligibility criteria, cost structures, and strategic considerations for different business scenarios. If you are comparing active facility options, start with Emet Capital's [working capital finance service](/services/working-capital).
 
 ---
 

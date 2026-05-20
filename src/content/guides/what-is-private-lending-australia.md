@@ -131,7 +131,7 @@ The Australian private lending market has expanded substantially over recent dec
 
 Interest rates in private lending typically range from 8-25% per annum depending on risk assessment, security quality, loan terms, and market positioning. While generally higher than bank rates, private lending offers speed, flexibility, and approval criteria that can justify rate premiums for businesses requiring rapid access to capital or facing traditional lending challenges.
 
-This comprehensive guide examines private lending in the Australian context, covering lender types, application processes, cost structures, and strategic considerations for businesses evaluating private finance options. Whether facing bank lending difficulties, requiring rapid funding access, or seeking specialized financing solutions, understanding private lending principles helps businesses make informed decisions about optimal funding strategies.
+This comprehensive guide examines private lending in the Australian context, covering lender types, application processes, cost structures, and strategic considerations for businesses evaluating private finance options. For a transaction-focused overview, see Emet Capital's [private lending service](/services/private-lending).
 
 ---
 

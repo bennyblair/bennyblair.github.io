@@ -27,7 +27,7 @@ Caveat loans in Australia are short-term, business-purpose loans commonly secure
 
 For businesses seeking [caveat finance solutions](/services/caveat-loans), the practical value is speed and flexibility. The risk is that a short-term facility can become expensive or difficult if the exit is weak, the title is complicated, or the borrower treats the loan as a long-term fix.
 
-The caveat mechanism operates through a legal notice lodged on title. In lending scenarios, that notice can restrict dealings with the property until the lender's interest is resolved. This is why lenders can sometimes assess around property ownership, equity, loan purpose, and exit rather than waiting for a full mainstream credit process.
+The caveat mechanism operates through a [legal notice lodged on title](/resources/guides/what-is-a-caveatable-interest). In lending scenarios, that notice can restrict dealings with the property until the lender's interest is resolved. This is why lenders can sometimes assess around property ownership, equity, loan purpose, and exit rather than waiting for a full mainstream credit process.
 
 This complete guide explains how caveat loans work, when Australian business borrowers use them, what lenders assess, how to prepare a file, what risks to watch, and how caveat loans compare with bridging finance, second mortgages, private lending, and commercial property refinancing.
 
