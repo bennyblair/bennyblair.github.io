@@ -311,33 +311,25 @@ Bridging loans suit scenarios where urgency spans weeks rather than days, provid
 
 ## Frequently Asked Questions
 
-### How quickly can caveat loans be arranged and funded?
+### What is a caveat loan in Australia?
 
-Caveat loans may settle quickly after approval for straightforward scenarios. Initial assessment can occur within hours in suitable cases, with caveat lodgment completing same-day or next-day in some jurisdictions. Funding releases after caveat registration confirmation, making compressed timelines possible for urgent situations with clear property ownership, adequate equity, complete documents, and legal availability.
+A caveat loan is usually a short-term, business-purpose facility secured by lodging a caveat over real property. It is commonly considered when speed matters and the borrower can show property ownership, available equity, a legitimate business purpose, and a clear exit. It is not a substitute for long-term commercial finance.
 
-### What loan-to-value ratios are available for caveat loans?
+### When might a caveat loan be considered?
 
-Caveat loans typically provide 40-65% LVR depending on property type and quality. Residential properties in major cities achieve 50-65% ratios, while commercial properties typically reach 40-60%. These conservative ratios account for caveat security limitations compared to registered mortgages and reflect rapid valuation processes. Existing mortgages reduce available LVR as they maintain priority positions.
+A caveat loan may be considered for time-sensitive commercial situations such as settlement pressure, tax arrears, supplier payments, short-term refinance gaps, or business opportunities with a fixed deadline. The borrower still needs to weigh cost, security risk, documentation, and repayment certainty before proceeding.
 
-### Can I use caveat loans for any business purpose?
+### What does a lender or broker usually assess?
 
-Yes, caveat loan proceeds can be used for any legitimate business purpose once security is established. Common uses include urgent legal settlements, critical supplier payments, time-sensitive business opportunities, tax liabilities, or emergency operational needs. Lenders focus on security adequacy and repayment capacity rather than restricting fund usage to specific purposes.
+Assessment normally focuses on the property, existing debt, business-purpose use of funds, loan amount, title position, and repayment path. A strong file explains why the funding is needed, why the timing is tight, what security is available, and how the facility will be repaid or refinanced.
 
-### What happens if I can't repay the caveat loan at term expiry?
+### How do caveat loans differ from bridging finance?
 
-Most caveat lenders offer extension options at additional cost, though terms become progressively expensive for extended periods. If extensions aren't viable, lenders may enforce security through property sales, though caveat holders face challenges as existing mortgages maintain priority. Early communication with lenders about repayment difficulties often enables alternative solutions.
+Both can address short-term funding gaps, but caveat finance is often structured around rapid caveat security while bridging finance may use a broader mortgage or settlement structure. The right comparison depends on purpose, urgency, property type, documentation, and whether the borrower has a clear event that repays the debt.
 
-### Are caveat loans more expensive than other types of business finance?
+### What should borrowers do before accepting caveat finance?
 
-Yes, caveat loans are usually more expensive than traditional commercial finance because they are short term, fast moving, and security-led. However, for urgent funding requirements spanning weeks or months, total dollar costs may be compared against the commercial consequences of missed settlement, creditor pressure, or business disruption.
-
-### Can I get caveat loans on properties with existing mortgages?
-
-Yes, caveat loans work alongside existing mortgages provided sufficient equity exists after accounting for prior debt. The caveat registers as a subsequent interest behind existing mortgages, requiring adequate equity buffer for lender protection. Most caveat lenders require 15-25% clear equity after all prior obligations.
-
-### Do caveat loans require business financial statements or income verification?
-
-Caveat loans require minimal business financial documentation compared to traditional lending. Focus remains on property security adequacy and exit strategy clarity rather than detailed cash flow analysis. Basic identification and property ownership verification represent primary requirements, enabling rapid assessment without extensive financial document preparation.
+Borrowers should check the total cost, confirm the exit strategy, understand security documents, and seek advice where appropriate. If the facility is tied to a settlement, refinance, or creditor deadline, the practical question is whether the cost of short-term funding is justified by the commercial consequence being avoided.
 
 ## Glossary
 
