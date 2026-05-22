@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, MapPin, Clock, DollarSign, TrendingUp, CheckCircle, Building2, FileText, ArrowRight, Home, Users, Calendar, Shield } from 'lucide-react';
 import SEO from '@/components/SEO';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import CityAuthorNote from '@/components/CityAuthorNote';
+import ScenarioNotice from '@/components/ScenarioNotice';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { generateServiceSchema } from '@/lib/schema-utils';
@@ -62,7 +64,7 @@ const processSteps = [
   'Complete construction, obtain occupancy certificate, and execute exit strategy (sale or refinance).'
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial private lending brokerage for eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate.';
 
 export default function CommercialDevelopmentCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (
@@ -84,6 +86,7 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
             { label: city }
           ]}
         />
+        <CityAuthorNote />
 
         <section className="max-w-5xl mx-auto text-center pt-4 pb-12">
           <Badge className="mb-4 bg-muted/40 text-foreground border">{city} Development Market</Badge>
@@ -145,7 +148,8 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">{city} Development Scenarios</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">{city} illustrative development scenarios</h2>
+          <ScenarioNotice />
           <div className="space-y-8">
             {scenarios.map((scenario, index) => (
               <div key={index} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
@@ -154,11 +158,11 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
                   <div>
                     <h4 className="text-lg font-semibold text-foreground/70 mb-2">Scenario</h4>
                     <p className="text-slate-400 mb-4">{scenario.scenario}</p>
-                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Solution</h4>
+                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Possible structure</h4>
                     <p className="text-slate-400">{scenario.solution}</p>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Outcomes</h4>
+                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Illustrative snapshot</h4>
                     <div className="grid grid-cols-2 gap-4">
                       {scenario.outcomes.map((outcome, idx) => (
                         <div key={idx} className="bg-slate-800 rounded-lg p-4">
