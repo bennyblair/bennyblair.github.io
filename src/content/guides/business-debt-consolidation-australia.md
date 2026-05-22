@@ -308,33 +308,25 @@ Some lenders prefer businesses with existing multiple relationships as evidence 
 
 ## Frequently Asked Questions
 
-**When does business debt consolidation make financial sense?**
+### What is business debt consolidation?
 
-Debt consolidation typically makes sense when weighted average interest rates across existing debts exceed available consolidation rates, when multiple payment schedules create cash flow difficulties, or when administrative complexity outweighs individual debt benefits. Cost-benefit analysis over 2-3 years usually shows net benefits exceeding consolidation costs.
+Business debt consolidation involves replacing several business debts with one new facility or a simpler debt structure. The aim is usually to improve cash-flow visibility, reduce administrative pressure, or create a clearer repayment path. It should not be used to hide a deeper trading or conduct problem.
 
-**What types of business debts can be consolidated?**
+### What debts can be reviewed for consolidation?
 
-Most business debts including bank loans, equipment finance, working capital facilities, unsecured loans, credit cards, and trade creditors can be consolidated. However, some specialty financing or lease arrangements may have restrictions or penalties that affect consolidation viability.
+Common candidates include unsecured business loans, tax payment arrangements, merchant cash advances, equipment finance, overdrafts, and short-term private facilities. Whether they should be consolidated depends on payout terms, security available, repayment capacity, and whether the new structure improves the borrower?s position after costs.
 
-**How much can I borrow for debt consolidation?**
+### Does consolidation always reduce monthly repayments?
 
-Consolidation loan amounts depend on existing debt levels, business cash flow capacity, and security offered. Secured facilities may provide amounts up to 70-80% of security values, while unsecured options typically limit borrowing to 10-30% of annual revenue based on cash flow assessment.
+Not always. Repayments may reduce if the new structure has a longer term or lower cost, but fees, break costs, security requirements, and total interest over time can change the result. Borrowers should compare the whole structure, not only the first repayment figure.
 
-**Will debt consolidation improve my business credit rating?**
+### When is consolidation not suitable?
 
-Consolidation can improve credit ratings by simplifying debt structures, reducing credit utilization ratios, and eliminating multiple payment schedules that risk missed payments. However, initial credit inquiries may temporarily impact scores before longer-term improvements emerge.
+Consolidation may not be suitable where trading losses continue, the business has no realistic repayment capacity, or the new facility relies on property security without a credible exit. In those cases, accounting advice, creditor negotiation, or restructuring advice may be needed before adding new debt.
 
-**What are the main risks of business debt consolidation?**
+### What should a borrower prepare before requesting consolidation?
 
-Primary risks include concentrating debt with single lenders, potentially extending repayment periods, securing valuable assets, and losing flexibility to prioritize payments during difficulties. Break costs on existing facilities and establishment fees may also impact short-term cash flows.
-
-**How long does the debt consolidation process take?**
-
-Consolidation typically takes 4-8 weeks depending on existing debt complexity, security requirements, and lender assessment processes. Simple unsecured consolidation may complete faster, while secured facilities requiring valuations and legal documentation take longer.
-
-**Can I consolidate debts if some existing lenders object?**
-
-Most consolidation involves voluntary early repayment of existing debts, which lenders cannot typically prevent though they may impose break costs or penalties. However, facilities with restrictive prepayment terms or cross-default clauses may require negotiation or penalty payments.
+A borrower should prepare a full debt schedule, payout figures, repayment history, security details, business financials, tax position, and the reason the current structure is not working. A clear file lets a broker identify whether consolidation is practical or whether another strategy is safer.
 
 ## Glossary
 

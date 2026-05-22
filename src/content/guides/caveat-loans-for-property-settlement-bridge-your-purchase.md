@@ -120,29 +120,25 @@ Business cashflow accumulation occasionally funds caveat loan repayment for smal
 
 ## Frequently Asked Questions
 
-### How quickly can I get a caveat loan for property settlement?
+### Can caveat finance help with a property settlement deadline?
 
-Most caveat lenders provide approval within 24-72 hours of receiving complete documentation, with funds available 24-48 hours after approval upon caveat registration completion. Total elapsed time from initial contact to funds availability typically spans 3-7 business days for straightforward scenarios. Properties with clean titles, single ownership, and minimal existing encumbrances process fastest, whilst complex ownership structures or multiple existing securities may extend timelines to 7-10 days. For urgent settlements, contact potential lenders 7-10 days before your settlement deadline to provide comfortable processing margin whilst still capitalising on caveat loans' rapid deployment advantages.
+Caveat finance may help where a business borrower has property equity, a legitimate commercial purpose, and a settlement deadline that cannot wait for a standard lender process. It should be assessed against contract consequences, available alternatives, security risk, and whether there is a realistic exit after settlement.
 
-### What interest rates should I expect for settlement bridge caveat loans?
+### What causes settlement funding gaps?
 
-Caveat loan interest rates typically range from 1.5-3% monthly (equivalent to 18-36% annually), substantially higher than traditional mortgage rates of 6-8% annually. However, caveat loans serve fundamentally different purposes—solving time-critical settlement requirements impossible to address through conventional financing. For a $300,000 caveat loan held 60 days at 2% monthly, total interest costs approximately $12,000. Whilst rates appear high, they reflect premium pricing for rapid deployment and short-term holding periods rather than long-term borrowing costs. Establishment fees of 2-4% plus legal and valuation costs add to total expenses requiring comprehensive cost assessment before proceeding.
+Gaps can arise when sale proceeds are delayed, bank approval takes longer than expected, valuation or legal conditions remain unresolved, or a borrower needs to complete before refinance proceeds arrive. A broker will usually look at the timing problem first, then test whether short-term property-backed finance is proportionate.
 
-### Can I get a caveat loan if I have existing mortgages on my property?
+### What information is important for settlement finance?
 
-Yes, caveat loans can be secured against properties with existing mortgages, provided sufficient equity remains after accounting for existing debt. Lenders typically advance 50-65% of property value minus existing mortgage balances. For example, a property valued at $800,000 with a $300,000 existing mortgage provides $500,000 equity, potentially supporting $200,000-320,000 in caveat lending. First mortgage lenders typically don't require notification of caveat loan registration, though some mortgage contracts include clauses requiring disclosure of additional borrowings. Review your existing mortgage terms or consult your solicitor regarding notification obligations before proceeding.
+Important information includes the contract date, settlement deadline, required amount, property ownership, existing mortgage statements, source of repayment, and any correspondence from the primary lender or solicitor. The clearer the file, the easier it is to assess whether a short-term facility is realistic.
 
-### What happens if my primary finance falls through after taking a caveat loan?
+### What happens if the expected exit is delayed?
 
-If primary finance completing your property purchase fails to settle as planned, you'll need alternative repayment strategies for your caveat loan. Options include extending the caveat loan term (usually available with additional fees and lender consent), refinancing existing properties to release equity for repayment, selling other property holdings to generate repayment funds, or negotiating with property vendors for settlement extensions whilst pursuing alternative financing. Most caveat lenders offer term extensions for borrowers experiencing genuine primary finance delays, though extension fees and continued interest charges increase total costs. Maintaining open communication with your caveat lender when difficulties emerge typically produces more flexible outcomes than avoiding contact until default occurs.
+If the exit is delayed, costs and risk can rise. The borrower may need an extension, alternate refinance, sale proceeds, or another documented repayment source. This is why the exit should be tested before settlement finance is accepted, with legal and accounting input where appropriate.
 
-### Are caveat loans only for commercial property settlements?
+### How is caveat finance different from standard bridging finance?
 
-No, caveat loans facilitate both commercial and residential property settlements, with many lenders serving both markets. The settlement bridge scenario—timing mismatches between sale proceeds and purchase requirements, primary finance delays, or urgent opportunity capitalisation—applies equally across property types. However, commercial property settlements more frequently encounter timing challenges given longer due diligence periods, conditional settlements pending tenant lease execution or development approvals, and complex financing structures requiring extended approval timeframes. Residential property settlements benefit from caveat loans in scenarios involving auction purchases requiring immediate deposits, sale-purchase timing gaps, or primary mortgage approval delays.
-
-### How does a caveat loan differ from bridging finance for settlements?
-
-Caveat loans and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) serve similar purposes—providing short-term funding bridging timing gaps between funding requirements and capital availability. Key differences include security structures (caveat registration versus full mortgage registration), deployment speed (caveat loans typically 3-7 days versus bridging finance 7-14 days), interest rates (caveat loans often 1.5-3% monthly versus bridging finance 0.8-1.5% monthly), and regulatory treatment (bridging loans subject to National Consumer Credit Protection requirements whilst caveat loans often fall outside these regulations). For extremely urgent settlements requiring funds within one week, caveat loans provide faster deployment. For settlements permitting 2-3 weeks preparation, traditional bridging finance often delivers lower total costs through reduced interest rates despite similar fee structures.
+Both can bridge a timing gap, but caveat finance often focuses on speed and caveat security, while standard bridging finance may involve a fuller mortgage process. The better fit depends on available time, property type, documentation, cost, security position, and the certainty of the repayment event.
 
 ## Strategic Deployment of Settlement Caveat Loans
 

@@ -336,33 +336,25 @@ Lease agreements may offer more flexibility through upgrade options, early termi
 
 ## Frequently Asked Questions
 
-**What's the difference between equipment finance and leasing?**
+### What is equipment finance?
 
-Equipment finance involves purchasing equipment with borrowed funds, providing immediate ownership, depreciation benefits, and residual value retention. Leasing provides equipment usage without ownership, offering operational flexibility, potential maintenance inclusion, and easier upgrades, but businesses forego ownership benefits and residual values.
+Equipment finance helps a business acquire or use vehicles, machinery, technology, or other commercial assets through a structured finance facility. The right structure depends on the asset, useful life, cash flow, tax treatment, and whether the business needs ownership, flexibility, or upgrade options.
 
-**How much can my business borrow for equipment purchases?**
+### How is equipment leasing different from equipment finance?
 
-Equipment finance amounts typically range from $5,000 to several million dollars, with most lenders requiring 10-30% deposits. Borrowing capacity depends on business creditworthiness, cash flow, equipment value, and existing debt levels. Established businesses may access up to 100% financing for certain equipment types.
+Leasing usually focuses on access and use of equipment, while finance structures may move the business toward ownership. The commercial difference is practical: who carries the residual value risk, how upgrades are handled, what happens at the end of the term, and how the arrangement fits cash flow.
 
-**What are the tax benefits of equipment finance versus leasing?**
+### What information helps an equipment finance application?
 
-Equipment ownership provides depreciation deductions and potential instant asset write-offs for small businesses, while lease payments are generally fully deductible operational expenses. The optimal tax outcome depends on business circumstances, equipment types, and current tax legislation. Professional tax advice is recommended.
+A borrower should prepare asset details, supplier quotes, business financial information, bank statements where required, ownership details, and the commercial reason for the purchase. For specialised or used equipment, lenders may also look more closely at resale value, condition, and how essential the asset is to revenue.
 
-**How long are typical equipment finance terms?**
+### When might equipment finance not be suitable?
 
-Equipment finance terms typically range from 2-7 years depending on equipment type and useful life. Vehicles commonly have 3-5 year terms, while heavy machinery may extend to 7 years. Shorter terms reduce total interest costs but increase monthly payments, requiring balance between cash flow and cost considerations.
+It may not be suitable if the equipment will not support revenue, the business has unstable cash flow, or the asset may become obsolete before the facility ends. In those cases, leasing, delaying the purchase, or using a different business finance structure may be more appropriate.
 
-**Can I finance used or second-hand equipment?**
+### Should tax treatment decide the structure?
 
-Yes, many lenders finance used equipment, though terms and rates may be less favourable than new equipment financing. Equipment age, condition, brand reputation, and resale values influence lending decisions. Used equipment typically requires higher deposits and may attract higher interest rates.
-
-**What happens if I want to upgrade equipment before the finance term ends?**
-
-Equipment finance typically requires full loan repayment before asset disposal, though some lenders offer upgrade facilities or refinancing options. Leasing arrangements often include upgrade provisions or early termination options, providing more flexibility for equipment changes during terms.
-
-**Do I need to provide personal guarantees for equipment finance?**
-
-Personal guarantees are standard for SME equipment finance, making business owners personally liable for loan obligations. Some lenders may waive guarantees for established businesses with strong credit profiles or when additional security is provided. Guarantee requirements should be considered in financing decisions.
+Tax treatment matters, but it should not be the only factor. Businesses should compare cash flow, ownership, flexibility, security, accounting treatment, and asset lifecycle. A licensed tax adviser or accountant should confirm how any structure applies to the borrower?s circumstances.
 
 ## Glossary
 

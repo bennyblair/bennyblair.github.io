@@ -186,31 +186,27 @@ If the debt is under pressure now, solve that honestly. Do not package a transit
 
 A fully stabilised asset and business may suit one lender. A transitional or time-sensitive refinance may suit another. The point is fit, not prestige.
 
-## Frequently asked questions
+## Frequently Asked Questions
 
-### What is a commercial loan refinance?
+### When should a business review a commercial loan refinance?
 
-It is the replacement of an existing commercial or business-purpose debt facility with a new one. The goal may be lower cost, improved cash flow, debt consolidation, equity release, or a better lender fit.
+A refinance review may make sense when repayment pressure, loan maturity, changing security values, bank policy shifts, or business cash-flow changes make the current facility a poor fit. The review should compare total cost, documentation effort, security impact, and whether a refinance solves the underlying problem.
 
-### Can refinancing reduce monthly business repayments?
+### What information helps a refinance file?
 
-Potentially, yes. A refinance may improve cash flow by extending term, changing repayment structure, reducing rate, or consolidating multiple liabilities into one cleaner facility.
+Useful information includes current facility statements, repayment history, security details, financial accounts, BAS or management figures, ATO status where relevant, and a clear reason for refinancing. Lenders and brokers also look for a realistic exit or ongoing servicing path, not just a cheaper headline facility.
 
-### Is refinancing always about getting a cheaper rate?
+### Can refinancing help after a bank delay or decline?
 
-No. In many commercial scenarios, refinance is more about structure, timing, and control than simply rate shopping. A borrower may be replacing short-term debt, managing lender maturity pressure, or simplifying a difficult debt stack.
+It can, but only if another lender can understand the risk differently. A bank delay or decline often points to documentation gaps, security concerns, conduct issues, or policy fit. A refinance approach should address those issues directly rather than simply resubmitting the same file elsewhere.
 
-### What if my current lender is expiring soon?
+### What are the risks of refinancing commercial debt?
 
-Then timing becomes part of the problem. If a mainstream refinance cannot settle in time, a shorter-term specialist or private solution may be more realistic before a later longer-term refinance.
+Risks include break costs, new establishment costs, valuation changes, additional security requirements, and a longer assessment process than expected. If the refinance is only moving short-term pressure to another lender without improving the repayment path, it may not be the right solution.
 
-### Can I refinance and release extra funds at the same time?
+### How should borrowers compare refinance options?
 
-Sometimes, yes. That depends on current valuation, leverage, lender appetite, and the purpose of the extra funds. Equity release is not automatic just because refinance is possible.
-
-### When is refinance a bad idea?
-
-Usually when it only postpones an unresolved issue. If the business is still unstable, the security is weak, the leverage is too high, or there is no coherent strategy after settlement, refinancing may not solve the real problem.
+Borrowers should compare total cost, term, security requirements, covenants, repayment flexibility, timing, and documentation burden. The best option is not always the cheapest quoted facility; it is the structure that fits the business purpose, security position, and repayment plan with manageable execution risk.
 
 ## Bottom line
 
