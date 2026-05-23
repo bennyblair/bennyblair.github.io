@@ -52,6 +52,15 @@ const authorEmployeeSchema = (author: AuthorProfile) => ({
   "url": author.url
 });
 
+const EMET_ADDRESS_SCHEMA = {
+  "@type": "PostalAddress",
+  "streetAddress": "2C/3-5 Anzac Parade",
+  "addressLocality": "Kensington",
+  "addressRegion": "NSW",
+  "postalCode": "2033",
+  "addressCountry": "AU"
+};
+
 /**
  * Generates Person JSON-LD schema for Ben.
  *
@@ -139,12 +148,7 @@ export const generateOrganizationSchema = () => {
       "propertyID": "ABN",
       "value": "50 682 228 182"
     },
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "AU",
-      "addressRegion": "NSW",
-      "addressLocality": "Sydney"
-    },
+    "address": EMET_ADDRESS_SCHEMA,
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+61-485-952-651",
@@ -194,12 +198,7 @@ export const generateLocalBusinessSchema = () => {
       "propertyID": "ABN",
       "value": "50 682 228 182"
     },
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "AU",
-      "addressRegion": "NSW",
-      "addressLocality": "Sydney"
-    },
+    "address": EMET_ADDRESS_SCHEMA,
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "-33.8688",
@@ -335,9 +334,13 @@ export const generateServiceSchema = (
     "description": description,
     "url": url,
     "provider": {
-      "@type": "Organization",
+      "@type": "FinancialService",
       "name": "Emet Capital",
-      "url": "https://emetcapital.com.au"
+      "url": "https://emetcapital.com.au",
+      "telephone": "+61-485-952-651",
+      "email": "enquiry@emetcapital.com.au",
+      "taxID": "50 682 228 182",
+      "address": EMET_ADDRESS_SCHEMA
     },
     "areaServed": {
       "@type": "Country",

@@ -13,6 +13,14 @@ const siteUrl = 'https://emetcapital.com.au';
 const businessName = 'Emet Capital';
 const legalName = 'Emet Capital Pty Ltd';
 const abn = '50 682 228 182';
+const emetAddressSchema = {
+  '@type': 'PostalAddress',
+  streetAddress: '2C/3-5 Anzac Parade',
+  addressLocality: 'Kensington',
+  addressRegion: 'NSW',
+  postalCode: '2033',
+  addressCountry: 'AU',
+};
 const benAuthor = {
   name: 'Ben',
   title: 'Commercial Finance Broker, Emet Capital',
@@ -147,12 +155,7 @@ function organizationSchema() {
       propertyID: 'ABN',
       value: abn,
     },
-    address: {
-      '@type': 'PostalAddress',
-      addressCountry: 'AU',
-      addressRegion: 'NSW',
-      addressLocality: 'Sydney',
-    },
+    address: emetAddressSchema,
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+61-485-952-651',
@@ -203,12 +206,7 @@ function financialServiceSchema(meta) {
       propertyID: 'ABN',
       value: abn,
     },
-    address: {
-      '@type': 'PostalAddress',
-      addressCountry: 'AU',
-      addressRegion: 'NSW',
-      addressLocality: 'Sydney',
-    },
+    address: emetAddressSchema,
     areaServed: {
       '@type': 'Country',
       name: 'Australia',
@@ -233,11 +231,14 @@ function serviceSchema(meta) {
       legalName,
       url: siteUrl,
       taxID: abn,
+      telephone: '+61-485-952-651',
+      email: 'enquiry@emetcapital.com.au',
       identifier: {
         '@type': 'PropertyValue',
         propertyID: 'ABN',
         value: abn,
       },
+      address: emetAddressSchema,
     },
     areaServed: {
       '@type': 'Country',

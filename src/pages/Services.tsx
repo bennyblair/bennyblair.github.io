@@ -209,6 +209,10 @@ const Services = () => {
         "telephone": "0485952651",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "2C/3-5 Anzac Parade",
+          "addressLocality": "Kensington",
+          "addressRegion": "NSW",
+          "postalCode": "2033",
           "addressCountry": "AU"
         },
         "serviceArea": {

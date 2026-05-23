@@ -193,6 +193,14 @@ const CityLandingPage = () => {
     "name": `Emet Capital — Commercial Finance ${data.name}`,
     "description": data.description,
     "url": `https://emetcapital.com.au/locations/${city}`,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2C/3-5 Anzac Parade",
+      "addressLocality": "Kensington",
+      "addressRegion": "NSW",
+      "postalCode": "2033",
+      "addressCountry": "AU"
+    },
     "areaServed": {
       "@type": "City",
       "name": data.name,
