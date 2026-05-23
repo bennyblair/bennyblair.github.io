@@ -939,6 +939,16 @@
     "noscript": "Guide to industrial property finance in Australia. Learn about warehouse and manufacturing loans, building specs, LVRs, rates, and unique industrial requirements.",
     "sourcePath": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md"
   },
+  "/resources/guides/instant-asset-write-off-finance-before-eofy-2026": {
+    "routePath": "/resources/guides/instant-asset-write-off-finance-before-eofy-2026",
+    "title": "Instant Asset Write-Off Finance Before EOFY 2026",
+    "description": "A practical guide to instant asset write-off finance before EOFY 2026, including what to confirm with your accountant, how asset finance fits, and...",
+    "keywords": "instant asset write off finance 2026, EOFY asset finance, equipment finance before 30 June, business asset finance Australia, instant asset write off 2026",
+    "canonical": "https://emetcapital.com.au/resources/guides/instant-asset-write-off-finance-before-eofy-2026",
+    "h1": "Instant Asset Write-Off Finance Before EOFY 2026",
+    "noscript": "A practical guide to instant asset write-off finance before EOFY 2026, including what to confirm with your accountant, how asset finance fits, and when not to borrow.",
+    "sourcePath": "src/content/guides/instant-asset-write-off-finance-before-eofy-2026.md"
+  },
   "/resources/guides/intercreditor-agreements-second-mortgage-complexity": {
     "routePath": "/resources/guides/intercreditor-agreements-second-mortgage-complexity",
     "title": "Intercreditor Agreements: Second Mortgage Complexity",
@@ -1458,6 +1468,16 @@
     "h1": "SMSF Loans for Commercial Property: The Complete Guide",
     "noscript": "Complete guide to SMSF loans for commercial property in Australia. Learn about LRBA rules, eligibility, benefits, and compliance requirements. General information only - not advice.",
     "sourcePath": "src/content/guides/smsf-loans-for-commercial-property.md"
+  },
+  "/resources/guides/subcontractor-cash-flow-finance-after-builder-insolvency": {
+    "routePath": "/resources/guides/subcontractor-cash-flow-finance-after-builder-insolvency",
+    "title": "Subcontractor Cash Flow Finance After Builder Insolvency",
+    "description": "A practical guide for subcontractors managing cash-flow pressure after builder insolvency, including unpaid claims, retentions, evidence, finance...",
+    "keywords": "subcontractor cash flow finance, builder insolvency cash flow, construction subcontractor finance, unpaid progress claim finance, retention money finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/subcontractor-cash-flow-finance-after-builder-insolvency",
+    "h1": "Subcontractor Cash Flow Finance After Builder Insolvency",
+    "noscript": "A practical guide for subcontractors managing cash-flow pressure after builder insolvency, including unpaid claims, retentions, evidence, finance options, and risk checks.",
+    "sourcePath": "src/content/guides/subcontractor-cash-flow-finance-after-builder-insolvency.md"
   },
   "/resources/guides/subordination-agreement-second-mortgage": {
     "routePath": "/resources/guides/subordination-agreement-second-mortgage",
