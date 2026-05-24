@@ -1829,16 +1829,6 @@
     "noscript": "How Emet Capital secured a $3.2M caveat loan in 48 hours for a prime Surry Hills restaurant acquisition in Sydney's competitive hospitality market.",
     "sourcePath": "src/content/case-studies/surry-hills-commercial-acquisition.md"
   },
-  "/locations/:city": {
-    "routePath": "/locations/:city",
-    "title": "Locations :city | Emet Capital",
-    "description": "Explore Locations :city with Emet Capital.",
-    "keywords": "",
-    "canonical": "https://emetcapital.com.au/locations/:city",
-    "h1": "Commercial Finance in",
-    "noscript": "Explore Locations :city with Emet Capital.",
-    "sourcePath": "src/pages/CityLandingPage.tsx"
-  },
   "/resources/tools": {
     "routePath": "/resources/tools",
     "title": "Commercial Loan Calculators & Tools | Emet Capital",

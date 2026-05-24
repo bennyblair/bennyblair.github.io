@@ -68,9 +68,21 @@ const processSteps = [
   'Settle the caveat loan and actively manage the intended exit, whether that is refinance, sale, settlement completion, or debt realignment.'
 ];
 
+const cityLinks: LinkItem[] = [
+  { title: 'Sydney urgent caveat funding', href: '/services/caveat-loans/cities/sydney', description: 'Compare Sydney caveat-loan timing, security, and short-term exit scenarios.' },
+  { title: 'Melbourne property-backed urgency', href: '/services/caveat-loans/cities/melbourne', description: 'Review Melbourne caveat finance use cases for refinance, tax, and settlement pressure.' },
+  { title: 'Brisbane short-term caveat finance', href: '/services/caveat-loans/cities/brisbane', description: 'See how Brisbane borrowers use caveat structures for urgent commercial funding.' },
+  { title: 'Perth caveat lending scenarios', href: '/services/caveat-loans/cities/perth', description: 'Compare Perth caveat-loan examples across property-backed business funding needs.' },
+  { title: 'Adelaide caveat loan timing', href: '/services/caveat-loans/cities/adelaide', description: 'Review Adelaide caveat-loan scenarios tied to refinance gaps and urgent liquidity.' },
+  { title: 'Gold Coast fast caveat finance', href: '/services/caveat-loans/cities/gold-coast', description: 'Compare Gold Coast caveat finance for short-settlement and property-backed needs.' },
+];
+
 const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
 
-export default function CaveatLoansCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
+export default function CaveatLoansCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks: baseRelatedLinks, faqs }: Props) {
+  const relatedCityLinks = cityLinks.filter((item) => item.href !== canonical).slice(0, 5);
+  const relatedLinks = [...baseRelatedLinks, ...relatedCityLinks];
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <SEO

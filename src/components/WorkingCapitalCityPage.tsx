@@ -50,9 +50,21 @@ const processSteps = [
   'Settle the facility and monitor it against the intended commercial use, repayment path, and next funding milestone.'
 ];
 
+const cityLinks: LinkItem[] = [
+  { title: 'Sydney business cash-flow funding', href: '/services/working-capital/cities/sydney', description: 'Compare Sydney working-capital context for payroll, stock, and debtor timing.' },
+  { title: 'Melbourne working-capital needs', href: '/services/working-capital/cities/melbourne', description: 'Review Melbourne cash-flow funding scenarios across inventory, payroll, and tax timing.' },
+  { title: 'Brisbane operating-capital support', href: '/services/working-capital/cities/brisbane', description: 'See Brisbane working-capital examples for supplier, wage, and growth pressure.' },
+  { title: 'Perth cash-flow finance scenarios', href: '/services/working-capital/cities/perth', description: 'Compare Perth working-capital structures for operating and receivable timing gaps.' },
+  { title: 'Adelaide working-capital context', href: '/services/working-capital/cities/adelaide', description: 'Review Adelaide cash-flow scenarios for stock, debtor, and tax-timing pressure.' },
+  { title: 'Gold Coast business funding timing', href: '/services/working-capital/cities/gold-coast', description: 'Compare Gold Coast working-capital needs across seasonal and growth-led cash flow.' },
+];
+
 const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
 
-export default function WorkingCapitalCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
+export default function WorkingCapitalCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks: baseRelatedLinks, faqs }: Props) {
+  const relatedCityLinks = cityLinks.filter((item) => item.href !== canonical).slice(0, 5);
+  const relatedLinks = [...baseRelatedLinks, ...relatedCityLinks];
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <SEO title={title} description={description} canonical={canonical} keywords={`working capital ${city}, business cash flow finance ${city}, short term business funding ${city}, operating capital ${city}`} schemas={[generateServiceSchema(`Working Capital ${city}`, description, `https://emetcapital.com.au${canonical}`)]} />

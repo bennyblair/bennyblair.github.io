@@ -30,6 +30,25 @@ const CaveatLoans = () => {
     }
   ];
 
+  const cityLinkGroups = [
+    {
+      heading: "Major capital markets",
+      links: [
+        { label: "Sydney caveat finance", href: "/services/caveat-loans/cities/sydney" },
+        { label: "Melbourne caveat finance", href: "/services/caveat-loans/cities/melbourne" },
+        { label: "Brisbane caveat finance", href: "/services/caveat-loans/cities/brisbane" },
+      ],
+    },
+    {
+      heading: "Growth and regional markets",
+      links: [
+        { label: "Perth caveat finance", href: "/services/caveat-loans/cities/perth" },
+        { label: "Adelaide caveat finance", href: "/services/caveat-loans/cities/adelaide" },
+        { label: "Gold Coast caveat finance", href: "/services/caveat-loans/cities/gold-coast" },
+      ],
+    },
+  ];
+
   return (
     <>
       <Helmet>
@@ -320,6 +339,34 @@ const CaveatLoans = () => {
                   </Link>
                 </CardContent>
               </Card>
+            </div>
+          </section>
+
+          <section className="mb-16">
+            <div className="bg-muted/30 rounded-lg p-8">
+              <h2 className="text-2xl font-bold text-foreground mb-3 text-center">Caveat Finance by Location</h2>
+              <p className="text-muted-foreground text-center mb-8 max-w-2xl mx-auto">
+                Compare local caveat-loan timing, security, and exit scenarios across key Australian markets.
+              </p>
+              <div className="space-y-6">
+                {cityLinkGroups.map((group) => (
+                  <div key={group.heading}>
+                    <h3 className="text-sm font-semibold text-muted-foreground mb-3">{group.heading}</h3>
+                    <div className="flex flex-wrap gap-3">
+                      {group.links.map((link) => (
+                        <Link
+                          key={link.href}
+                          to={link.href}
+                          className="inline-flex items-center bg-accent/10 hover:bg-accent/20 text-accent px-4 py-2 rounded-lg transition-colors"
+                        >
+                          {link.label}
+                          <ArrowRight className="ml-2 h-4 w-4" />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </section>
         </div>
