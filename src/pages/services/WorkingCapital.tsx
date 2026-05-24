@@ -30,6 +30,25 @@ const WorkingCapital = () => {
     }
   ];
 
+  const cityLinkGroups = [
+    {
+      heading: "Major capital markets",
+      links: [
+        { label: "Sydney working capital", href: "/services/working-capital/cities/sydney" },
+        { label: "Melbourne working capital", href: "/services/working-capital/cities/melbourne" },
+        { label: "Brisbane working capital", href: "/services/working-capital/cities/brisbane" },
+      ],
+    },
+    {
+      heading: "Growth and regional markets",
+      links: [
+        { label: "Perth working capital", href: "/services/working-capital/cities/perth" },
+        { label: "Adelaide working capital", href: "/services/working-capital/cities/adelaide" },
+        { label: "Gold Coast working capital", href: "/services/working-capital/cities/gold-coast" },
+      ],
+    },
+  ];
+
   return (
     <>
       <Helmet>
@@ -301,6 +320,34 @@ const WorkingCapital = () => {
                   </Link>
                 </CardContent>
               </Card>
+            </div>
+          </section>
+
+          <section className="mb-16">
+            <div className="bg-muted/30 rounded-lg p-8">
+              <h2 className="text-2xl font-bold text-foreground mb-3 text-center">Working Capital by Location</h2>
+              <p className="text-muted-foreground text-center mb-8 max-w-2xl mx-auto">
+                Compare local cash-flow, payroll, stock, tax-timing, and growth funding context across key Australian markets.
+              </p>
+              <div className="space-y-6">
+                {cityLinkGroups.map((group) => (
+                  <div key={group.heading}>
+                    <h3 className="text-sm font-semibold text-muted-foreground mb-3">{group.heading}</h3>
+                    <div className="flex flex-wrap gap-3">
+                      {group.links.map((link) => (
+                        <Link
+                          key={link.href}
+                          to={link.href}
+                          className="inline-flex items-center bg-accent/10 hover:bg-accent/20 text-accent px-4 py-2 rounded-lg transition-colors"
+                        >
+                          {link.label}
+                          <ArrowRight className="ml-2 h-4 w-4" />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </section>
         </div>

@@ -935,6 +935,12 @@ for (const entry of routerEntries) {
     continue;
   }
 
+  // Concrete article slug routes are expanded above; unresolved dynamic templates are SPA-only.
+  if (entry.path.includes(':')) {
+    skippedAliasRoutes.add(entry.path);
+    continue;
+  }
+
   const importPath = importMap.get(entry.componentName);
   if (!importPath) continue;
 

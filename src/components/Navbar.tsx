@@ -27,6 +27,12 @@ const Navbar = () => {
     { href: "/resources/insights", label: "Market Insights" },
   ];
 
+  const aboutLinks = [
+    { href: "/about", label: "About Emet Capital" },
+    { href: "/about/ben", label: "Ben" },
+    { href: "/about/daniel", label: "Daniel" },
+  ];
+
   const isActive = (path: string) => location.pathname === path;
 
   return (
@@ -90,14 +96,27 @@ const Navbar = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <Link
-              to="/about"
-              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
-                isActive("/about") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
-              }`}
-            >
-              About
-            </Link>
+            <DropdownMenu>
+              <DropdownMenuTrigger className={`flex items-center space-x-1 text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
+                location.pathname.startsWith("/about") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
+              }`}>
+                <span>About</span>
+                <ChevronDown className="w-4 h-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent
+                forceMount
+                align="start"
+                className="w-56 bg-card border-border"
+              >
+                {aboutLinks.map((link) => (
+                  <DropdownMenuItem key={link.href} asChild>
+                    <Link to={link.href} className="w-full">
+                      {link.label}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
 
             <Link
               to="/contact"
@@ -174,6 +193,20 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About
+              </Link>
+              <Link
+                to="/about/ben"
+                className="block px-8 py-2 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-muted/50 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Ben
+              </Link>
+              <Link
+                to="/about/daniel"
+                className="block px-8 py-2 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-muted/50 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Daniel
               </Link>
               <Link
                 to="/contact"

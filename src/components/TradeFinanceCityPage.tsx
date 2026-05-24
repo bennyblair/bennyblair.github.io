@@ -50,9 +50,21 @@ const processSteps = [
   'Settle the facility and manage it in line with shipment timing, collections, and the expected trade cycle.'
 ];
 
+const cityLinks: LinkItem[] = [
+  { title: 'Sydney import and export funding', href: '/services/trade-finance/cities/sydney', description: 'Compare Sydney trade-cycle finance for importers, exporters, and distributors.' },
+  { title: 'Melbourne trade-cycle finance', href: '/services/trade-finance/cities/melbourne', description: 'Review Melbourne trade finance scenarios for supplier, stock, and receivable timing.' },
+  { title: 'Brisbane supplier payment support', href: '/services/trade-finance/cities/brisbane', description: 'See Brisbane trade-finance context for importer and supply-chain funding needs.' },
+  { title: 'Perth trade finance scenarios', href: '/services/trade-finance/cities/perth', description: 'Compare Perth trade funding for import, export, and working-capital timing.' },
+  { title: 'Adelaide import funding context', href: '/services/trade-finance/cities/adelaide', description: 'Review Adelaide trade-cycle examples across supplier payments and debtor gaps.' },
+  { title: 'Gold Coast trade-cycle support', href: '/services/trade-finance/cities/gold-coast', description: 'Compare Gold Coast trade finance for stock, supplier, and receivable timing.' },
+];
+
 const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
 
-export default function TradeFinanceCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
+export default function TradeFinanceCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks: baseRelatedLinks, faqs }: Props) {
+  const relatedCityLinks = cityLinks.filter((item) => item.href !== canonical).slice(0, 5);
+  const relatedLinks = [...baseRelatedLinks, ...relatedCityLinks];
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <SEO title={title} description={description} canonical={canonical} keywords={`trade finance ${city}, import finance ${city}, export finance ${city}, business trade funding ${city}`} schemas={[generateServiceSchema(`Trade Finance ${city}`, description, `https://emetcapital.com.au${canonical}`)]} />
