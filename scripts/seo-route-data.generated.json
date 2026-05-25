@@ -79,6 +79,16 @@
     "noscript": "From 1 July 2025, ATO general interest charge deductions changed. Learn when businesses may compare ATO payment plans with secured refinance options. General information only - not advice.",
     "sourcePath": "src/content/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt.md"
   },
+  "/resources/guides/ato-payment-plan-vs-business-finance-australia": {
+    "routePath": "/resources/guides/ato-payment-plan-vs-business-finance-australia",
+    "title": "ATO Payment Plan vs Business Finance in Australia",
+    "description": "Compare ATO payment plans with business finance for Australian commercial borrowers. Learn when each option may fit, risks, documents, and...",
+    "keywords": "ATO payment plan vs business loan, ATO payment plan business finance, tax debt finance Australia, business tax debt loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/ato-payment-plan-vs-business-finance-australia",
+    "h1": "ATO Payment Plan vs Business Finance in Australia",
+    "noscript": "Compare ATO payment plans with business finance for Australian commercial borrowers. Learn when each option may fit, risks, documents, and decision points.",
+    "sourcePath": "src/content/guides/ato-payment-plan-vs-business-finance-australia.md"
+  },
   "/resources/guides/ato-tax-debt-finance-for-australian-business-owners": {
     "routePath": "/resources/guides/ato-tax-debt-finance-for-australian-business-owners",
     "title": "ATO Tax Debt Finance for Australian Business Owners",
@@ -208,6 +218,16 @@
     "h1": "A Guide to Business Acquisition Finance in Australia",
     "noscript": "Complete guide to business acquisition finance in Australia. Learn about funding options, due diligence, structures, and strategic considerations. General information only - not advice.",
     "sourcePath": "src/content/guides/business-acquisition-finance-australia.md"
+  },
+  "/resources/guides/business-acquisition-finance-retiring-owner-succession": {
+    "routePath": "/resources/guides/business-acquisition-finance-retiring-owner-succession",
+    "title": "Business Acquisition Finance for Retiring Owner...",
+    "description": "A practical guide to financing a retiring owner buyout in Australia, including vendor terms, goodwill, working capital, security, and lender...",
+    "keywords": "business acquisition finance retiring owner, retiring owner buyout finance, succession acquisition finance Australia, business purchase finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-acquisition-finance-retiring-owner-succession",
+    "h1": "Business Acquisition Finance for Retiring Owner Succession",
+    "noscript": "A practical guide to financing a retiring owner buyout in Australia, including vendor terms, goodwill, working capital, security, and lender assessment.",
+    "sourcePath": "src/content/guides/business-acquisition-finance-retiring-owner-succession.md"
   },
   "/resources/guides/business-debt-consolidation-australia": {
     "routePath": "/resources/guides/business-debt-consolidation-australia",
