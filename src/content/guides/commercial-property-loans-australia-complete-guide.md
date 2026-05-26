@@ -20,9 +20,19 @@ Commercial property loans enable Australian businesses to purchase, refinance, o
 
 If you are buying business premises in NSW or managing an urgent commercial property settlement, Emet Capital's [commercial property finance service](/services/commercial-property-finance) summarises the practical funding pathways that may be available subject to assessment.
 
-The Australian commercial property lending market offers diverse solutions from major banks, regional lenders, and specialist finance providers. Interest rates typically range 5.5-8.5% per annum, with loan-to-value ratios of 60-80% requiring deposits of 20-40% plus acquisition costs. Assessment processes take 4-8 weeks and involve comprehensive property valuation, business financial review, and legal due diligence.
+The Australian commercial property lending market offers diverse solutions from major banks, regional lenders, and specialist finance providers. Pricing, leverage, contribution requirements, and approval timing vary by lender, property type, borrower strength, lease profile, and security position. Assessment usually involves property valuation, business financial review, and legal due diligence.
 
 Understanding commercial property loan mechanics, lender requirements, and structure options helps businesses secure appropriate finance while optimising borrowing costs. This guide examines eligibility criteria, interest rates, loan structures, application processes, and strategic considerations for Australian commercial property financing.
+
+### Commercial Property Discovery Pathways
+
+If you are earlier in the buying process, these supporting guides help turn a broad commercial property idea into a lender-ready file:
+
+- **[How to Buy Commercial Property Step by Step](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — map the acquisition, finance, due diligence, and settlement sequence.
+- **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — understand how lenders test rent, business cash flow, and repayment capacity.
+- **[First Commercial Property Loan for Startup Business Owners](/resources/guides/commercial-property-loans-for-startups-first-time-buyers)** — prepare a file where trading history is thin or the buyer is new to commercial property.
+- **[Owner-Occupier Commercial Loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)** — compare the issues when the borrower’s business will occupy the premises.
+
 
 ---
 
@@ -53,7 +63,7 @@ Development and construction loans provide progressive funding throughout buildi
 
 ### Commercial Versus Residential Loans
 
-Commercial property loans involve larger amounts, higher interest rates (typically 1-3% above residential), and lower loan-to-value ratios than residential mortgages. Assessment periods extend 4-8 weeks compared to 2-4 weeks for residential loans, reflecting comprehensive property valuation and business financial analysis requirements.
+Commercial property loans involve larger amounts, more detailed pricing assessment, and lower loan-to-value ratios than consumer-style property lending. Assessment periods are usually more involved because lenders review property valuation, lease profile, business financials, and legal due diligence.
 
 Maximum loan-to-value ratios typically reach 60-80% for commercial properties versus 80-95% for residential purchases, requiring larger deposits and stronger equity positions. Repayment terms commonly span 15-25 years compared to 25-30 years for residential mortgages, resulting in higher regular payments but faster equity accumulation.
 
@@ -79,15 +89,15 @@ Commercial property loans typically require loan-to-value ratios of 60-70%, mean
 
 Premium properties in prime locations with strong tenant covenants may achieve 75-80% LVR from select lenders, though these arrangements typically involve interest rate premiums and stricter assessment criteria. Owner-occupier premises often achieve higher ratios than investment properties due to reduced vacancy risk.
 
-Lower loan-to-value ratios typically achieve better interest rates, with rate differentials of 0.25-1% frequently applying between 60% and 70% LVR loans. Conservative borrowing approaches provide protection against property value fluctuations and enhance refinancing flexibility. For property owners seeking to optimise existing loans, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) enables accessing improved terms or additional capital.
+Lower leverage can support stronger lender appetite and may improve pricing or structure depending on the file. Conservative borrowing approaches provide protection against property value fluctuations and enhance refinancing flexibility. For property owners seeking to optimise existing loans, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) enables accessing improved terms or additional capital.
 
 ## Interest Rates and Loan Structures
 
-Commercial property loan rates typically range 5.5-8.5% per annum depending on property quality, borrower strength, loan-to-value ratio, and lender type. Major banks generally offer the most competitive rates for prime properties with strong tenant covenants, while specialist lenders charge premiums reflecting flexible lending criteria.
+Commercial property loan pricing varies by property quality, borrower strength, leverage, repayment structure, lender type, and market conditions. Major banks may be more competitive for clean prime-property files, while specialist lenders may price for flexibility, speed, or complexity.
 
 ### Fixed Versus Variable Rates
 
-Variable rate loans offer flexibility for additional repayments and early discharge without penalties, with rate movements directly impacting borrowing costs. Fixed rate loans provide payment certainty and protection against rising rates, typically carrying premiums of 0.25-0.75% above equivalent variable rates with terms ranging 1-5 years.
+Variable rate loans may offer flexibility for additional repayments and early discharge, with rate movements affecting borrowing costs. Fixed-rate structures may provide payment certainty for a defined period, but terms, break costs, and pricing should be checked against current lender offers.
 
 Split loan structures combining fixed and variable components balance payment certainty with flexibility. Common allocations include 50/50 or 60/40 splits, though businesses can customise structures matching individual risk tolerance and cash flow circumstances.
 
@@ -127,7 +137,7 @@ Major banks including Commonwealth Bank, Westpac, ANZ, and NAB dominate commerci
 
 Regional banks including Bendigo Bank and Bank of Queensland provide alternative options with flexible assessment approaches and personalised service. Decision-making processes often involve localised authority and faster turnaround than major banks navigating complex approval hierarchies.
 
-Specialist non-bank lenders fill market gaps where bank lending criteria prove restrictive, charging interest premiums of 1-3% above bank rates but offering flexible assessment for complex properties or developing businesses. For very urgent property financing needs, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer rapid funding solutions.
+Specialist non-bank lenders fill market gaps where bank lending criteria prove restrictive, often pricing for speed, complexity, or flexible assessment. For very urgent property financing needs, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer rapid funding solutions.
 
 ## Common Challenges and Solutions
 
@@ -173,7 +183,7 @@ Commercial property loan approval typically takes 4-8 weeks from application sub
 
 ### What interest rates apply to commercial property loans?
 
-Commercial property loan interest rates currently range 5.5-8.5% per annum depending on property quality, borrower strength, loan-to-value ratio, and lender type. Major banks typically offer the most competitive rates for prime properties, while specialist lenders charge higher rates reflecting increased risk or flexible lending criteria.
+Commercial property loan pricing changes over time and depends on property quality, borrower strength, leverage, lender type, and credit risk. Borrowers should compare current written offers rather than relying on generic pricing claims.
 
 ### Can start-up businesses get commercial property loans?
 
