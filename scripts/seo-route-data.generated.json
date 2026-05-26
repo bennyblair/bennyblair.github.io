@@ -1109,6 +1109,16 @@
     "noscript": "Complete guide to owner-occupier commercial loans in Australia, covering eligibility, benefits, financing structures, and strategic considerations for purchasing business premises.",
     "sourcePath": "src/content/guides/owner-occupier-commercial-loans-buy-your-business-premises.md"
   },
+  "/resources/guides/personal-guarantee-business-loan-australia": {
+    "routePath": "/resources/guides/personal-guarantee-business-loan-australia",
+    "title": "Personal Guarantees on Business Loans in Australia",
+    "description": "Personal guarantees on Australian business loans explained for commercial borrowers, including director guarantees, security, risks, documents,...",
+    "keywords": "personal guarantee business loan australia, director guarantee business loan, business loan guarantee Australia, guaranteed business finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/personal-guarantee-business-loan-australia",
+    "h1": "Personal Guarantees on Business Loans in Australia",
+    "noscript": "Personal guarantees on Australian business loans explained for commercial borrowers, including director guarantees, security, risks, documents, and questions to ask.",
+    "sourcePath": "src/content/guides/personal-guarantee-business-loan-australia.md"
+  },
   "/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy": {
     "routePath": "/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy",
     "title": "Pharmacy Acquisition Finance in Australia: Buying or...",
@@ -1438,6 +1448,16 @@
     "h1": "Second Mortgages in Sydney: Fast Commercial Property Finance for Business Borrowers",
     "noscript": "Guide to second mortgages in Sydney for business borrowers. Learn when a second mortgage can help, what lenders assess, how timing works, and when not to use one. Informational only.",
     "sourcePath": "src/content/guides/second-mortgages-in-sydney-fast-local-approval.md"
+  },
+  "/resources/guides/secured-vs-unsecured-business-loans-australia": {
+    "routePath": "/resources/guides/secured-vs-unsecured-business-loans-australia",
+    "title": "Secured vs Unsecured Business Loans in Australia",
+    "description": "Compare secured and unsecured business loans in Australia for commercial borrowers, including security, guarantees, speed, documents, risks, and...",
+    "keywords": "secured vs unsecured business loan australia, secured business loans Australia, unsecured business loans Australia, business loan security",
+    "canonical": "https://emetcapital.com.au/resources/guides/secured-vs-unsecured-business-loans-australia",
+    "h1": "Secured vs Unsecured Business Loans in Australia",
+    "noscript": "Compare secured and unsecured business loans in Australia for commercial borrowers, including security, guarantees, speed, documents, risks, and when each may fit.",
+    "sourcePath": "src/content/guides/secured-vs-unsecured-business-loans-australia.md"
   },
   "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement": {
     "routePath": "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
