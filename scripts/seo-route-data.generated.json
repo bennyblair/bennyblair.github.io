@@ -139,6 +139,16 @@
     "noscript": "Bridge lending in Australia explained for commercial property borrowers, including when it fits, lender assessment, documents, risks, and exit planning.",
     "sourcePath": "src/content/guides/bridge-lending-australia-commercial-property.md"
   },
+  "/resources/guides/bridging-finance-auction-settlement-case-study": {
+    "routePath": "/resources/guides/bridging-finance-auction-settlement-case-study",
+    "title": "Bridging Finance Auction Settlement Case Study",
+    "description": "An anonymised bridging finance auction settlement case study for Australian commercial borrowers, showing how timing, security, documents, and...",
+    "keywords": "bridging finance auction settlement case study, bridging finance auction settlement, auction settlement finance, commercial bridging finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-auction-settlement-case-study",
+    "h1": "Bridging Finance Auction Settlement Case Study",
+    "noscript": "An anonymised bridging finance auction settlement case study for Australian commercial borrowers, showing how timing, security, documents, and exit planning affect urgent settlement funding.",
+    "sourcePath": "src/content/guides/bridging-finance-auction-settlement-case-study.md"
+  },
   "/resources/guides/bridging-finance-australia-complete-property-guide": {
     "routePath": "/resources/guides/bridging-finance-australia-complete-property-guide",
     "title": "Bridging Loans and Bridging Finance Australia Guide",
@@ -308,6 +318,16 @@
     "h1": "Caveat Lenders in Australia: 2025 Directory & Comparison",
     "noscript": "Compare caveat lenders in Australia by type, rates, and speed. Learn which lender category suits your urgent property funding needs. General information only.",
     "sourcePath": "src/content/guides/caveat-lenders-australia-directory-comparison.md"
+  },
+  "/resources/guides/caveat-loan-broker-take-on-valuation-delays": {
+    "routePath": "/resources/guides/caveat-loan-broker-take-on-valuation-delays",
+    "title": "Caveat Loan Broker Take on Valuation Delays",
+    "description": "A broker take on caveat loan valuation delays in Australia, why they happen, what borrowers can prepare, and when another private lending...",
+    "keywords": "caveat loan broker take on valuation delays, caveat loan valuation delay, caveat loan broker, urgent caveat finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-broker-take-on-valuation-delays",
+    "h1": "Caveat Loan Broker Take on Valuation Delays",
+    "noscript": "A broker take on caveat loan valuation delays in Australia, why they happen, what borrowers can prepare, and when another private lending structure may be cleaner.",
+    "sourcePath": "src/content/guides/caveat-loan-broker-take-on-valuation-delays.md"
   },
   "/resources/guides/caveat-loan-emergency-business-funding": {
     "routePath": "/resources/guides/caveat-loan-emergency-business-funding",

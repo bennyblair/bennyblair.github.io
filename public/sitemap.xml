@@ -306,6 +306,13 @@
   </url>
 
   <url>
+    <loc>https://emetcapital.com.au/resources/guides/bridging-finance-auction-settlement-case-study</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://emetcapital.com.au/resources/guides/bridging-finance-australia-complete-property-guide</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -420,6 +427,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/caveat-lenders-australia-directory-comparison</loc>
     <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/caveat-loan-broker-take-on-valuation-delays</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
