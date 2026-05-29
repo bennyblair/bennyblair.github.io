@@ -199,6 +199,16 @@
     "noscript": "A practical guide to bridging loan exit strategies for Australian commercial borrowers, including refinance exits, sale exits, risk points, and what lenders want to see before approving short-term property-backed finance. Informational only.",
     "sourcePath": "src/content/guides/bridging-loan-exit-strategies-plan-your-repayment-path.md"
   },
+  "/resources/guides/bridging-loan-exit-strategy-broker-take": {
+    "routePath": "/resources/guides/bridging-loan-exit-strategy-broker-take",
+    "title": "Bridging Loan Exit Strategy Broker Take | Emet Capital",
+    "description": "A broker take on bridging loan exit strategy for Australian commercial borrowers, including lender concerns, practical exit paths, warning signs,...",
+    "keywords": "bridging loan exit strategy broker take, bridging loan exit strategy, bridging finance exit plan",
+    "canonical": "https://emetcapital.com.au/resources/guides/bridging-loan-exit-strategy-broker-take",
+    "h1": "Bridging Loan Exit Strategy Broker Take",
+    "noscript": "A broker take on bridging loan exit strategy for Australian commercial borrowers, including lender concerns, practical exit paths, warning signs, and preparation steps.",
+    "sourcePath": "src/content/guides/bridging-loan-exit-strategy-broker-take.md"
+  },
   "/resources/guides/bridging-loan-repayment-calculator": {
     "routePath": "/resources/guides/bridging-loan-repayment-calculator",
     "title": "Bridging Loan Repayment Calculator | Emet Capital",
@@ -1888,6 +1898,16 @@
     "h1": "Rose Bay Property Development Bridging Loan",
     "noscript": "How a Rose Bay developer used a private bridging loan to secure settlement and complete a luxury townhouse project in Sydney.",
     "sourcePath": "src/content/case-studies/rose-bay-property-development-bridging-loan.md"
+  },
+  "/resources/case-studies/second-mortgage-working-capital-case-study": {
+    "routePath": "/resources/case-studies/second-mortgage-working-capital-case-study",
+    "title": "Second Mortgage Working Capital Case Study",
+    "description": "An illustrative second mortgage working capital case study for Australian business borrowers, showing how property equity can support a temporary...",
+    "keywords": "second mortgage working capital case study, second mortgage working capital, business working capital second mortgage",
+    "canonical": "https://emetcapital.com.au/resources/case-studies/second-mortgage-working-capital-case-study",
+    "h1": "Second Mortgage Working Capital Case Study",
+    "noscript": "An illustrative second mortgage working capital case study for Australian business borrowers, showing how property equity can support a temporary cash-flow gap with a defined exit.",
+    "sourcePath": "src/content/case-studies/second-mortgage-working-capital-case-study.md"
   },
   "/resources/case-studies/south-yarra-apartment-development": {
     "routePath": "/resources/case-studies/south-yarra-apartment-development",
