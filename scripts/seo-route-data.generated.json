@@ -799,6 +799,16 @@
     "noscript": "A practical guide to Director Penalty Notice finance in Australia, including what funding can and cannot solve, what directors should prepare, and how to respond under pressure. General information only - not advice.",
     "sourcePath": "src/content/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline.md"
   },
+  "/resources/guides/eofy-working-capital-loans-before-30-june": {
+    "routePath": "/resources/guides/eofy-working-capital-loans-before-30-june",
+    "title": "EOFY Working Capital Loans Before 30 June | Emet Capital",
+    "description": "EOFY working capital loans explained for Australian SMEs before 30 June, including cash-flow uses, documents, risks, accountant coordination, and...",
+    "keywords": "EOFY working capital loan, EOFY business finance, working capital before 30 June, business cash flow finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/eofy-working-capital-loans-before-30-june",
+    "h1": "EOFY Working Capital Loans Before 30 June",
+    "noscript": "EOFY working capital loans explained for Australian SMEs before 30 June, including cash-flow uses, documents, risks, accountant coordination, and alternatives.",
+    "sourcePath": "src/content/guides/eofy-working-capital-loans-before-30-june.md"
+  },
   "/resources/guides/equipment-finance-and-leasing-australia": {
     "routePath": "/resources/guides/equipment-finance-and-leasing-australia",
     "title": "Equipment Finance and Leasing for Australian Businesses",
@@ -1438,6 +1448,16 @@
     "h1": "Second Mortgage Interest Rates: Current Market Analysis",
     "noscript": "A commercial-only guide to how second mortgage interest rates are assessed in Australia, what usually pushes pricing up or down, and how business borrowers should compare second-position debt.",
     "sourcePath": "src/content/guides/second-mortgage-interest-rates-current-market-analysis.md"
+  },
+  "/resources/guides/second-mortgage-lender-document-checklist-from-broker-files": {
+    "routePath": "/resources/guides/second-mortgage-lender-document-checklist-from-broker-files",
+    "title": "Second Mortgage Lender Document Checklist From...",
+    "description": "A broker-style second mortgage document checklist for Australian business borrowers, covering security, first mortgage evidence, purpose,...",
+    "keywords": "second mortgage lender document checklist from broker files, second mortgage documents, second mortgage checklist Australia, business second mortgage documents",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-lender-document-checklist-from-broker-files",
+    "h1": "Second Mortgage Lender Document Checklist From Broker Files",
+    "noscript": "A broker-style second mortgage document checklist for Australian business borrowers, covering security, first mortgage evidence, purpose, serviceability, and exit documents.",
+    "sourcePath": "src/content/guides/second-mortgage-lender-document-checklist-from-broker-files.md"
   },
   "/resources/guides/second-mortgage-lenders-australia-directory": {
     "routePath": "/resources/guides/second-mortgage-lenders-australia-directory",
