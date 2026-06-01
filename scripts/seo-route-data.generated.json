@@ -729,6 +729,16 @@
     "noscript": "Complete timeline guide to commercial property settlement in Australia. Understand key milestones, finance coordination, documentation requirements, and common timing challenges for business property transactions.",
     "sourcePath": "src/content/guides/commercial-property-settlement-process-finance-timeline.md"
   },
+  "/resources/guides/commercial-property-valuation-delay-case-study": {
+    "routePath": "/resources/guides/commercial-property-valuation-delay-case-study",
+    "title": "Commercial Property Valuation Delay Case Study",
+    "description": "An anonymised commercial property valuation delay case study for Australian business borrowers, showing how valuation timing, documents, and exit...",
+    "keywords": "commercial property valuation delay case study, commercial property valuation delay, commercial property finance case study, valuation delay commercial loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-valuation-delay-case-study",
+    "h1": "Commercial Property Valuation Delay Case Study",
+    "noscript": "An anonymised commercial property valuation delay case study for Australian business borrowers, showing how valuation timing, documents, and exit planning affect finance readiness.",
+    "sourcePath": "src/content/guides/commercial-property-valuation-delay-case-study.md"
+  },
   "/resources/guides/commercial-property-valuation-for-finance-lender-requirements": {
     "routePath": "/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
     "title": "Commercial Property Valuation for Finance: Lender...",
@@ -1278,6 +1288,16 @@
     "h1": "Private Lenders for Land Loans: Alternative Finance Options",
     "noscript": "Private lenders for land loans offer flexible financing for vacant land, rural properties & development sites. Rates, terms & approval criteria.",
     "sourcePath": "src/content/guides/private-lenders-for-land-loans-alternative-financing.md"
+  },
+  "/resources/guides/private-lending-bank-decline-case-study": {
+    "routePath": "/resources/guides/private-lending-bank-decline-case-study",
+    "title": "Private Lending Bank Decline Case Study | Emet Capital",
+    "description": "An anonymised private lending bank decline case study for Australian business borrowers, showing how brokers reframe security, purpose, documents,...",
+    "keywords": "private lending bank decline case study, private lending after bank decline, private commercial loans after bank decline, bank declined business loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-lending-bank-decline-case-study",
+    "h1": "Private Lending Bank Decline Case Study",
+    "noscript": "An anonymised private lending bank decline case study for Australian business borrowers, showing how brokers reframe security, purpose, documents, and exit after a bank says no.",
+    "sourcePath": "src/content/guides/private-lending-bank-decline-case-study.md"
   },
   "/resources/guides/private-lending-vs-bank-lending-which-is-better": {
     "routePath": "/resources/guides/private-lending-vs-bank-lending-which-is-better",
