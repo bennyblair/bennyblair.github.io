@@ -23,7 +23,7 @@ Private commercial loans for SMEs are business-purpose facilities provided by pr
 
 A private commercial loan is not a shortcut around a weak business case. The strongest files have a clear purpose, usable security, realistic timing, and an exit plan. Emet Capital helps business owners compare [private lending](/resources/guides/what-is-private-lending-australia), [working capital loans](/resources/guides/working-capital-loans-for-smes), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) before approaching lenders.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — the main private lending pillar guide for business borrowers.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — business finance options for operating cash-flow needs.

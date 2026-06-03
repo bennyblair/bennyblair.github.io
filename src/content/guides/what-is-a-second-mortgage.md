@@ -27,7 +27,7 @@ This guide explains what a second mortgage is, how it works for Australian busin
 
 If you were looking for a broad "second mortgage Australia" guide, this is now the canonical Emet Capital explainer. For a deeper business decision framework, use the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The main pillar guide to second-ranking mortgage security for business borrowers.
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — When keeping the first mortgage in place may be useful.

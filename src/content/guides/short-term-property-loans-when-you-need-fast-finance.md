@@ -26,7 +26,7 @@ This comprehensive guide examines short-term property loan fundamentals includin
 
 > **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

@@ -24,7 +24,7 @@ The strongest applications explain why the premises suits the business, how the 
 
 Read this guide alongside the [commercial property loans Australia complete guide](/resources/guides/commercial-property-loans-australia-complete-guide), [commercial property loan serviceability guide](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow), [commercial property loan deposits guide](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need), and [how to buy commercial property step-by-step guide](/resources/guides/how-to-buy-commercial-property-step-by-step-guide).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the broader framework for buying and refinancing commercial property.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — explains how lenders test rent, cash flow, and repayment capacity.

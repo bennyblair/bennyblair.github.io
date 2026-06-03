@@ -25,7 +25,7 @@ That matters because bridging finance is usually used to solve a time problem, n
 
 For Emet Capital borrowers, the most useful calculator questions are simple. How long do you actually expect to hold the debt? Is interest being serviced or capitalised? What happens if the exit drifts? And does the proposed structure still make sense if the valuation, sale, or refinance takes longer than planned?
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|
@@ -43,7 +43,7 @@ Unlike a standard amortising home loan, a commercial bridging facility often has
 
 If you are new to this product category, read our [bridging finance in Australia guide](/resources/guides/bridging-finance-australia-complete-property-guide) first. It explains when bridging finance is appropriate and why the exit strategy matters so much.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — The main primer on how bridging finance works and where it fits.
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful if your timing pressure comes from auction or short-contract settlement.

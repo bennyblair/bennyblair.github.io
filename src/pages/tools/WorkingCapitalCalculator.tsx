@@ -91,7 +91,7 @@ const WorkingCapitalCalculator = () => {
   return (
     <>
       <Helmet>
-        <title>Working Capital Calculator | Business Liquidity Analysis Australia</title>
+        <title>Working Capital Calculator Australia</title>
         <meta name="description" content="Calculate your business working capital requirements. Analyze current ratio, quick ratio, and liquidity position with industry benchmarks." />
         <meta name="keywords" content="working capital calculator, current ratio calculator, business liquidity, cash flow analysis, working capital finance Australia" />
         <link rel="canonical" href="/resources/tools/working-capital-calculator" />
@@ -115,6 +115,7 @@ const WorkingCapitalCalculator = () => {
               </p>
             </div>
 
+            <h2 className="sr-only">Working capital calculator inputs and results</h2>
             <Card className="mb-12">
               <CardContent className="p-8">
                 <div className="grid lg:grid-cols-2 gap-8">

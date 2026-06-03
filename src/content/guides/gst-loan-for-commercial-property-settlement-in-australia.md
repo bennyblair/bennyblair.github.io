@@ -24,7 +24,7 @@ That gap usually appears because commercial property transactions can involve GS
 
 For investors, developers, and business owners, this is really a timing and structure issue rather than a tax strategy issue. The main question is when a GST settlement loan makes sense, how it is commonly repaid, and what lenders usually want to see before advancing short-term [commercial property settlement finance](/resources/guides/commercial-property-settlement-process-finance-timeline), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or [private lending](/resources/guides/what-is-private-lending-australia) support.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)** — Helpful if you need to understand where GST funding pressure usually appears.
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to how commercial property borrowing is usually structured.

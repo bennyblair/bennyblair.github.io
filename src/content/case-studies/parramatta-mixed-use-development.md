@@ -31,7 +31,7 @@ lvr: "70%"
 
 When Western Sydney's property boom reached Parramatta, an experienced developer saw the opportunity to create something special. This mixed-use project in the heart of Parramatta's revitalized CBD would combine retail, commercial, and residential elements - but required flexible financing to navigate construction challenges.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — the main guide to short-term property funding and exit planning.
 - **[Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — broader context on staged funding, contingencies, and build risk.
 - **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — how developers structure debt across land, build, and sales milestones.

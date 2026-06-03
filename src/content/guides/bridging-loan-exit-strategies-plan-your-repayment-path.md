@@ -26,7 +26,7 @@ For borrowers, the key point is that bridging finance is usually not approved be
 
 At Emet Capital, we usually see bridging finance used where settlement timing, refinance delays, auction commitments, or linked transactions create a gap that ordinary term debt cannot fill quickly enough. In those cases, the exit strategy is not just a formality. It is the core of the credit story.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Start here if you need the broad view of how bridging finance works.
 - **[Open vs Closed Bridging Loan Comparison](/resources/guides/open-vs-closed-bridging-loan-complete-comparison)** — Useful for understanding certainty of repayment timing.

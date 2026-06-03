@@ -24,7 +24,7 @@ For borrowers, this is one of the less visible parts of a second mortgage, but i
 
 That is why intercreditor agreements often appear in more complex commercial and business-purpose files rather than simple mainstream lending. They can sit alongside [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [subordination agreements](/resources/guides/subordination-agreement-second-mortgage), and other layered debt structures where priority and control need to be documented properly before settlement.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Foundation guide to mortgage priority and business use cases.
 - **[Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/subordination-agreement-second-mortgage)** — How subordination differs from broader lender arrangements.

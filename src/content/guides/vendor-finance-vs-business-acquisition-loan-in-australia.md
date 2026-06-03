@@ -26,7 +26,7 @@ The practical difference is control and risk. Vendor finance puts the seller ins
 
 For the wider acquisition-funding context, start with [business acquisition finance in Australia](/resources/guides/business-acquisition-finance-australia), then compare this guide with [private credit for SME borrowers](/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance) and [bank vs non-bank commercial lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Business Acquisition Finance in Australia](/resources/guides/business-acquisition-finance-australia)** — The main guide to funding established business purchases.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — How private lenders assess secured commercial transactions.

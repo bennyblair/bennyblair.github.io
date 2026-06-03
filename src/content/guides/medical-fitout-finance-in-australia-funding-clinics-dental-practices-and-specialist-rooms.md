@@ -24,7 +24,7 @@ That distinction matters. Medical fitouts rarely behave like a simple equipment 
 
 For business borrowers, that usually means combining [equipment finance](/services/equipment-finance), fitout funding, and sometimes broader [working capital finance](/resources/guides/working-capital-loans-for-smes) if cash needs to stay available for staffing, marketing, and the first months of trading. The right structure depends on what is being funded, when invoices fall due, and what the lender can actually take comfort from.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — Core guide to funding movable medical and practice equipment.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — Useful when multiple assets or broader security improve the structure.

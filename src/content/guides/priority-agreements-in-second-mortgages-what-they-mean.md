@@ -26,7 +26,7 @@ For commercial borrowers, the issue matters because a second mortgage is not jus
 
 At Emet Capital, we usually see priority-agreement questions when a business owner wants to raise capital without disturbing an existing first mortgage, or when a refinance, tax debt resolution, acquisition, or partner buyout needs fast property-backed funding. The agreement does not replace legal advice, but it does shape how a layered finance structure works in the real world.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how commercial second mortgages work and where they fit.
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Explains ranking, security positions, and common use cases.

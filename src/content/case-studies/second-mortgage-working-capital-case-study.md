@@ -24,7 +24,7 @@ A second mortgage working capital case study shows how a property-backed busines
 
 A second mortgage can help a business access equity without replacing the first mortgage, but it also increases secured debt and should be treated carefully. The structure works best when the cash-flow problem is temporary, the purpose is specific, and the borrower can explain how the facility will be repaid or refinanced.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — foundation guide to second mortgage structures for business borrowers.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — broader working capital options for Australian businesses.

@@ -113,7 +113,7 @@ This guide explains how first mortgage loans work in the Australian commercial p
 
 > **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

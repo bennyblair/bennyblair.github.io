@@ -24,7 +24,7 @@ The mistake is assuming the rate tells you everything. It does not. A commercial
 
 For investors, developers, and business owners, the real question is not “what is the lowest bridge rate?” It is whether the bridge solves the timing problem cleanly enough to protect the transaction. That is where understanding [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), and [private lending](/resources/guides/what-is-private-lending-australia) becomes more useful than rate-shopping alone.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Core guide to how bridging finance works and when it is used.
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Useful if the bridge will exit into a standard commercial facility.

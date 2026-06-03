@@ -27,7 +27,7 @@ Emet Capital sees PPSR security most often in asset-backed lending, working capi
 
 This guide explains what PPSR security means, how lenders use it, and what commercial borrowers should check before signing. It is general information only and does not replace legal, accounting, or financial advice.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — the main guide to using business assets as lending support.
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — useful when the PPSR registration relates to funded equipment.

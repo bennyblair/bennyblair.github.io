@@ -101,7 +101,7 @@ Australian businesses commonly use emergency caveat loans for several critical s
 
 The trade-off for this speed comes through higher interest rates—typically a lender-specific range monthly—and establishment fees around a lender-specific range of the loan amount. However, when facing business-threatening situations, the cost of not acting often exceeds the expense of emergency funding. This guide explains when caveat loans make sense for emergencies, how to access them quickly, and strategies to manage these expensive facilities whilst resolving the underlying financial pressures driving your immediate funding needs. Emet Capital provides [caveat loan solutions](/services/caveat-loans) for businesses facing urgent funding requirements. If the emergency relates to a commercial property purchase, settlement shortfall, or premises funding, compare this with [urgent commercial property settlement finance](/services/commercial-property-finance) before deciding whether a caveat structure is appropriate.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — the main pillar guide covering structure, timing, costs, and risk.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — what to expect when timing is the main pressure.
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — funding options when the emergency is tax debt rather than a general cash flow squeeze.

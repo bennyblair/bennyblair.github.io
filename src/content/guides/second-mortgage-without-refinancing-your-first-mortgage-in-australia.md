@@ -25,7 +25,7 @@ This structure can be useful when replacing the first mortgage would be slow, ex
 
 For Australian business owners and property investors, the key question is whether the benefit of keeping the first mortgage outweighs the cost, complexity and risk of adding second-ranking debt.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The pillar guide to second-ranking commercial property security.
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How first and second mortgage structures compare.

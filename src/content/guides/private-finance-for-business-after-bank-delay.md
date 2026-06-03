@@ -25,7 +25,7 @@ A bank delay can create real pressure. Settlement dates, supplier deadlines, tax
 
 Emet Capital helps business owners compare [private lending](/resources/guides/what-is-private-lending-australia), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [business finance](/resources/guides/working-capital-loans-for-smes) options. This guide explains when private finance may fit after a bank delay, when to avoid it, and what documents improve the file.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — the main private lending pillar guide for business borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — how bank and private lender assessment differs.

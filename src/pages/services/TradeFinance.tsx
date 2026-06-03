@@ -52,7 +52,7 @@ const TradeFinance = () => {
   return (
     <>
       <Helmet>
-        <title>Trade Finance Solutions Australia | Import Export Funding | Emet Capital</title>
+        <title>Trade Finance Australia | Emet Capital</title>
         <meta 
           name="description" 
           content="Comprehensive trade finance for Australian importers & exporters. Letters of credit, invoice factoring & working capital from $100K-$25M+." 

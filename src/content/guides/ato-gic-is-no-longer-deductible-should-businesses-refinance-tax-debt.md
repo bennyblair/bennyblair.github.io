@@ -26,7 +26,7 @@ This does not mean every business should refinance ATO debt. Refinancing can hel
 
 The practical question is not, "Is private finance cheaper than the ATO?" The better question is, "Which option gives the business the most controlled, sustainable path to resolve the debt after tax, security, timing and risk are considered?"
 
-### At a Glance
+## At a Glance
 
 | Question | Practical answer |
 |---|---|
@@ -36,7 +36,7 @@ The practical question is not, "Is private finance cheaper than the ATO?" The be
 | **Finance may not help when** | The business cannot meet ongoing tax obligations or has no realistic exit |
 | **Advice needed** | Accountant, tax adviser and finance advice should be coordinated before acting |
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** - funding options for overdue ATO liabilities.
 - **[ATO Garnishee Notice Finance for Australian Businesses](/resources/guides/ato-garnishee-notice-finance-for-australian-businesses)** - responding when collection action has already begun.

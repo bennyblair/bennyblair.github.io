@@ -25,7 +25,7 @@ The core idea is simple: a borrower has a real transaction that needs money now,
 
 This article defines bridging finance, explains when it fits, shows when it does not fit, and sets out what lenders usually need before they will consider a bridging loan. It is written for commercial and investment scenarios only, not personal or retail borrowing.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — The main pillar guide for commercial and investment bridging scenarios.
 - **[Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — What to consider when funds are short before a business or investment settlement.

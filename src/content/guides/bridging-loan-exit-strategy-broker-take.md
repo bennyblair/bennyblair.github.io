@@ -22,7 +22,7 @@ A bridging loan exit strategy is the specific repayment pathway that shows how s
 
 My broker take is simple: the exit strategy is not a paragraph added at the end of a bridging loan application. It is the centre of the file. A borrower can have useful equity, a good asset, and a genuine commercial purpose, but if the exit is vague, the whole bridge becomes harder to place.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — foundation guide to how bridging loans work for commercial borrowers.
 - **[When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — decision guide for timing gaps, exits, and risks.

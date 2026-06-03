@@ -30,7 +30,7 @@ That sounds straightforward, but commercial serviceability is rarely based on on
 
 For property investors, developers, and business owners, the real question is not just how much you want to borrow. It is how lenders usually measure borrowing capacity, what can weaken that capacity, and what can improve it before you apply. If you are still mapping the acquisition process, the [step-by-step commercial property buying guide](/resources/guides/how-to-buy-commercial-property-step-by-step-guide) shows where serviceability checks fit before due diligence and settlement. In some cases, a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide) works well. In others, the answer may involve a tighter [refinance structure](/resources/guides/commercial-property-refinancing-solutions), a lower-leverage solution, or a more flexible [private lending](/resources/guides/what-is-private-lending-australia) path where the story is strong but does not fit a bank calculator neatly.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** - Core guide to commercial property finance structures and lender expectations.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** - Useful if your borrowing capacity is being shaped by valuation, not just income.

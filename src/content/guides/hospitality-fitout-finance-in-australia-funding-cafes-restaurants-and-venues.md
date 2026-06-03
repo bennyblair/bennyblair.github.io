@@ -25,7 +25,7 @@ A hospitality fitout is rarely just decoration. It can include extraction system
 
 For wider context, our [Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia) and [Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance) guides explain how equipment and asset security can support commercial borrowing. This article focuses on hospitality-specific fitout decisions.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — Core guide for funding machinery, equipment, and business assets.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — Explains how asset value can support business funding.

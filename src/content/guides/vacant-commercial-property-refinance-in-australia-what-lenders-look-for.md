@@ -24,7 +24,7 @@ That sounds simple, but vacancy changes the whole lending conversation. A leased
 
 For investors, developers, and business owners, the question is not just whether a vacant commercial asset can be refinanced. It usually can, in the right scenario. The real question is what lenders look for, why some vacant assets are still considered financeable, and when [private lending](/resources/guides/what-is-private-lending-australia), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or a more standard [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) path makes the most sense.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Core guide to how commercial refinance is commonly structured.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Useful because vacant assets often create valuation pressure.

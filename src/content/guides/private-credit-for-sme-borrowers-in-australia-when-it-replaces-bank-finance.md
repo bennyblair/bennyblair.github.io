@@ -26,7 +26,7 @@ Private credit is not a magic approval channel. It is a different lending market
 
 This guide explains when private credit can replace bank finance, how it differs from private lending, bank versus non-bank commercial lending, and broader working capital loans.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Core concepts behind privately funded commercial lending.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How bank and private lender assessment can differ.

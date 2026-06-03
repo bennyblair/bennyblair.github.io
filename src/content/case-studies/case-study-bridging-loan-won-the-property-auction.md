@@ -24,7 +24,7 @@ A bridging loan can help an Australian commercial borrower secure an auction pur
 
 This illustrative scenario explains a realistic business-purpose auction scenario involving a commercial property purchase, a hard settlement deadline, and a defined refinance exit. It is not a promise of approval and it is not financial advice. It is meant to show how [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide) is often used when the real problem is not the asset or borrower quality, but the calendar.
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|
@@ -38,7 +38,7 @@ This illustrative scenario explains a realistic business-purpose auction scenari
 
 This example is for borrowers evaluating whether a [commercial bridging finance](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not) structure can preserve an auction opportunity. It is especially relevant if you have already identified a commercial asset, exchanged or are about to bid, and know the permanent debt solution may miss the deadline.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Foundation guide to how commercial bridging loans work.
 - **[When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision guide on fit, timing, and exit discipline.

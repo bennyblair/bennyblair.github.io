@@ -26,7 +26,7 @@ For Australian business owners, developers, and property investors, the practica
 
 This guide explains when private commercial lending may fit after a bank decline, what private lenders assess, how to prepare the file, when not to use private debt, and how Emet Capital helps borrowers compare options across [private lending](/resources/guides/what-is-private-lending-australia), [business finance](/resources/guides/working-capital-loans-for-smes), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — The core guide to private lending structures, lender focus, and borrower fit.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Compare the practical trade-offs between mainstream and private capital.

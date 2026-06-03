@@ -24,7 +24,7 @@ If you are using a second mortgage in a commercial scenario, you are already dea
 
 For business owners, investors, and developers in Australia, the practical issue is not just the definition. The issue is how a subordination agreement affects approval speed, lender appetite, and your exit plan. In most cases, it makes the most sense as part of the broader [1st & 2nd mortgages for business](/resources/guides/second-mortgages-for-business-guide) conversation, especially where the deal may later move into [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or a short-term [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) structure.
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

@@ -24,7 +24,7 @@ A borrower looking at an industrial asset in Truganina, an office suite in South
 
 For property investors, developers, and business owners, the practical decision is usually whether the transaction belongs in a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinancing path](/resources/guides/commercial-property-refinancing-solutions), a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution, or a more flexible [private lending](/resources/guides/what-is-private-lending-australia) structure.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to commercial property funding structures and lender expectations.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Why valuation quality can shape the whole deal.

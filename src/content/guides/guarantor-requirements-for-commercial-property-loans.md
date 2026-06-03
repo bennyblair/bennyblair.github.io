@@ -25,7 +25,7 @@ A guarantor for a commercial property loan is a person or entity that agrees to 
 
 The key point is that a guarantee is not just a paperwork detail. It changes who carries risk. A commercial loan may be advanced to a company or trust, but the lender can still ask individuals behind that structure to stand behind the debt. That is why guarantor requirements matter just as much as the interest rate, loan term, or headline LVR.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broad overview of lender assessment and commercial property structures.
 - **[Commercial Property Loan Deposits in Australia: How Much Do You Need?](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)** — Useful if the lender is also asking for stronger equity support.

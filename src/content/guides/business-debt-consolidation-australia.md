@@ -24,7 +24,7 @@ The important point is that consolidation is not automatically a cheaper loan. I
 
 For Emet Capital, business debt consolidation sits inside the business finance pillar. It often overlaps with [working capital loans](/resources/guides/working-capital-loans-for-smes), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), and [private lending](/resources/guides/what-is-private-lending-australia).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare consolidation with ordinary cash-flow funding.
 - **[Commercial Property Refinance After A Bank Decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — useful when the existing lender will not extend terms.

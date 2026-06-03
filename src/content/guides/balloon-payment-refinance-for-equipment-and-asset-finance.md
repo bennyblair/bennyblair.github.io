@@ -24,7 +24,7 @@ That decision usually comes up around trucks, plant, machinery, fit-out equipmen
 
 For business owners, the real issue is not whether balloon finance is good or bad. It is whether refinancing the balloon still makes commercial sense given the age of the asset, the business's current cash flow, and how the equipment fits the operation now. In some situations, refinance is sensible. In others, a full payout, [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or a fresh [equipment finance](/resources/guides/equipment-finance-and-leasing-australia) structure may be the cleaner answer.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Equipment Finance and Leasing in Australia](/resources/guides/equipment-finance-and-leasing-australia)** — Core guide to how equipment funding structures are usually set up.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — Useful if you are comparing refinance against broader asset-secured funding.

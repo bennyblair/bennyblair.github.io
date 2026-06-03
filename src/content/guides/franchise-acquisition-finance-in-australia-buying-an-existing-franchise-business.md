@@ -28,7 +28,7 @@ Buying an existing franchise is not the same as starting a new site. The buyer i
 
 This guide explains how lenders look at franchise purchases, when bank or private lending may fit, what documents to prepare, and how to avoid over-borrowing against goodwill that may not transfer cleanly.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Business Acquisition Finance in Australia](/resources/guides/business-acquisition-finance-australia)** — the main guide to funding business purchases and acquisition structures.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — how private lenders assess speed, security, and exit strategy.

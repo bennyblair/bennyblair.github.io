@@ -36,7 +36,7 @@ This example is illustrative, not a recommendation. It shows the kind of commerc
 | **Best fit** | Business owners with property equity, immediate timing pressure, and a credible exit |
 | **Poor fit** | Businesses with no repayment plan, weak trading outlook, or purely recurring losses |
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — The main guide to caveat loan structures, timing, security, and risks.
 - **[ATO Tax Debt Finance for Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — How businesses think about funding pressure created by tax liabilities.

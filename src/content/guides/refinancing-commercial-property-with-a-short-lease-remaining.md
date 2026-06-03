@@ -24,7 +24,7 @@ A short lease can affect valuation, debt service coverage, lender appetite, and 
 
 For investors, developers, and business owners, the real question is not whether a short-lease property is refinanceable. It is what lenders usually look at, which options may still work, and what can be done before the existing facility matures. In some cases, the answer is a cleaner bank refinance. In others, it is a staged move into [private lending](/resources/guides/what-is-private-lending-australia), a shorter-term [bridging solution](/resources/guides/bridging-finance-australia-complete-property-guide), or a refinance structure built around a realistic leasing plan.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Core guide to how refinance structures are usually assessed.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Useful if the refinance risk is really a valuation risk.

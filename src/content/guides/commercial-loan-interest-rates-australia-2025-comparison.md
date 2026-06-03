@@ -25,7 +25,7 @@ That is why two businesses can ask for similar funding and still receive materia
 
 At Emet Capital, we treat pricing as a structure issue before it becomes a number issue. Better security, cleaner documents, a stronger story, and lender fit can matter as much as the headline pricing itself.
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|
@@ -35,7 +35,7 @@ At Emet Capital, we treat pricing as a structure issue before it becomes a numbe
 | **When not to use this guide** | When you need personal, consumer, or residential lending advice. |
 | **What matters most** | Security quality, lender type, leverage, cash flow, and execution risk. |
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Foundation guide to commercial property debt, structures, and lender fit.
 - **[Commercial Mortgage Rates Australia: Complete Guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide)** — Useful if your loan is specifically secured by commercial real estate.

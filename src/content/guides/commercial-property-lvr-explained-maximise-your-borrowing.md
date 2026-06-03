@@ -25,7 +25,7 @@ For borrowers, LVR matters because it affects loan size, pricing, lender choice,
 
 At Emet Capital, we treat LVR as part of a broader commercial property funding structure. The useful question is not just “what is the max LVR?” It is “what leverage level keeps this deal financeable now and sensible later?”
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main foundation guide for lender appetite, loan structures, and commercial property funding.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — Important because borrowing capacity is never just about the security value.

@@ -27,7 +27,7 @@ For Emet Capital, payroll tax debt sits inside the business finance pillar becau
 
 This guide explains when payroll tax debt finance may fit, when it usually should not be used, what lenders assess, how to prepare documents, and how to compare it with [ATO tax debt finance](/resources/guides/ato-tax-debt-finance-for-australian-business-owners), [working capital loans](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), and [private lending](/resources/guides/what-is-private-lending-australia).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare short-term cash flow options before committing to secured debt.
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — understand similar tax-debt funding issues at federal level.

@@ -26,7 +26,7 @@ A covenant breach happens when the borrower no longer meets one of those agreed 
 
 If your covenant issue is tied to a bank decline, read this guide alongside [commercial property refinance after a bank decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia) and the broader [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) guide.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The core guide to secured commercial property finance.
 - **[Commercial Property Refinance After a Bank Decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — What to do when a lender will not renew or refinance a commercial property loan.

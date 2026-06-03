@@ -24,7 +24,7 @@ A bank usually prices a cleaner, lower-risk commercial file. A private lender us
 
 For investors, developers, and business owners, the right question is not “who is cheapest?” in isolation. It is which lender type can fund the deal on workable terms without damaging the transaction. That is why this guide compares commercial loan rates alongside lender fit, using context from [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [bank vs non-bank commercial lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to long-term commercial property funding.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Useful if you are comparing specialist or short-term funding pathways.

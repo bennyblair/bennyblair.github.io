@@ -23,7 +23,7 @@ EOFY working capital loans are business-purpose finance facilities used to manag
 
 The practical question is not simply “can we get funding before EOFY?” It is “what problem are we solving, what evidence supports the amount, and what is the repayment path after 30 June?” That answer determines whether a [working capital loan](/resources/guides/working-capital-loans-for-smes), [invoice finance](/resources/guides/invoice-finance-australia-complete-guide), [trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports), secured business loan, or property-backed option is worth considering.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — the main guide to short-term business cash-flow funding.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — useful when EOFY pressure comes from several repayment obligations.

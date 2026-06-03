@@ -23,7 +23,7 @@ To compare private lenders loans properly, start with lender fit, security requi
 
 A practical comparison should answer five questions before you sign: does the lender understand the asset or business purpose, are all fees disclosed in writing, can the assessment factors meet the funding deadline, what happens if repayment is delayed, and what is the realistic refinance or exit path? Emet Capital usually treats private lending comparison as a structure problem first and a pricing problem second.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** - Plain-English context on how private credit works for business borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** - Useful when comparing lender speed, flexibility, documentation, and trade-offs.

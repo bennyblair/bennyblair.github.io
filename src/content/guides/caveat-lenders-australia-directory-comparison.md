@@ -32,7 +32,7 @@ This comprehensive directory examines Australia's caveat lending landscape by le
 
 > **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

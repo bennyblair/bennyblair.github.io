@@ -25,7 +25,7 @@ The practical difference is simple. A line of credit gives flexible access to an
 
 This guide compares the three options from a commercial borrower perspective, including when to use each facility, when not to use it, what lenders assess and how Emet Capital helps eligible business borrowers compare lender pathways.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — The main guide to short-term business cash-flow funding.
 - **[Invoice Finance Australia](/resources/guides/invoice-finance-australia-complete-guide)** — How receivables-backed funding works for unpaid business invoices.

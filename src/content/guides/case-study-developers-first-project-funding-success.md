@@ -25,7 +25,7 @@ This case study shows how a first-time Australian developer could approach fundi
 
 Emet Capital works with commercial borrowers, developers, and property investors to present project funding requests clearly to suitable lender channels. This article is general information only, not financial advice.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — The main guide to development funding stages, assessment and documentation.
 - **[Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — How construction funding is usually structured around project milestones.

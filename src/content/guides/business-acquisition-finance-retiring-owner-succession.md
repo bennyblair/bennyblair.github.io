@@ -25,7 +25,7 @@ These deals can look attractive because the business already has trading history
 
 This guide explains how acquisition finance may work for retiring owner succession in Australia, what documents matter, where vendor finance can help, and when a deal may need more equity, staged payments, or a different structure.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — the broader guide to funding established business purchases
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — keeping cash flow stable after settlement

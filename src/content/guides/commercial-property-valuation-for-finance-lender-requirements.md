@@ -24,7 +24,7 @@ For property investors, developers, and business owners, the valuation is not ju
 
 A valuation for finance is usually more detailed than an agent estimate. The valuer is looking at the property itself, the income profile, the local market, comparable evidence, lease quality, and how marketable the asset would be if the lender ever had to enforce its security. That is why valuation quality matters in both standard [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) and more time-sensitive structures such as [private lending](/resources/guides/what-is-private-lending-australia) or [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to how commercial property finance is structured.
 - **[Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — What to organise before applying for funding.

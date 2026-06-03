@@ -23,7 +23,7 @@ The key point is simple: commercial eligibility is not one fixed checklist. A ba
 
 This guide explains what lenders commonly assess, when commercial property finance may suit a borrower, when another funding structure may be more appropriate, and how to prepare a stronger application without relying on fixed approval assumptions or generic lender-policy claims.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** - the main pillar guide for commercial property lending.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** - useful when the goal is restructuring or releasing equity from an existing commercial property.

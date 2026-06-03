@@ -41,7 +41,7 @@ const AssetBackedLending = () => {
   return (
     <>
       <Helmet>
-        <title>Asset-Backed Lending Australia | Business Asset Finance | Emet Capital</title>
+        <title>Asset-Backed Lending Australia | Emet Capital</title>
         <meta 
           name="description" 
           content="Asset-backed business lending from $50K-$20M+ secured by property, equipment, inventory, or receivables across Australia." 

@@ -26,7 +26,7 @@ The key point is simple: bridging finance should protect a transaction with a de
 
 > **📖 Series Context**: This guide is part of our **Bridging Finance** series. For a complete overview, see our [Complete Bridging Finance Guide](/resources/guides/bridging-finance-australia-complete-property-guide).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

@@ -25,7 +25,7 @@ In Australia, land tax is administered by state and territory revenue offices, n
 
 For Emet Capital borrowers, the practical question is simple: can the land tax pressure be resolved with a clean payment plan, refinance, sale proceeds, commercial property loan, caveat-style short-term facility or second mortgage before enforcement makes the file harder?
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — How tax-debt funding is assessed when a business needs time or refinance support.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main guide to property-backed commercial lending and lender assessment.

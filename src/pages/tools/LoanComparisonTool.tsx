@@ -114,6 +114,7 @@ const LoanComparisonTool = () => {
               </p>
             </div>
 
+            <h2 className="sr-only">Loan offer comparison inputs</h2>
             <div className="grid lg:grid-cols-3 gap-6 mb-8">
               {[1, 2, 3].map((loanNum) => {
                 const loan = loanNum === 1 ? loan1 : loanNum === 2 ? loan2 : loan3;

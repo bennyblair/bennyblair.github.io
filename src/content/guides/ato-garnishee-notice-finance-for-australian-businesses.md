@@ -24,7 +24,7 @@ The finance itself does not erase the underlying tax problem. What it may do, in
 
 For business owners, investors, and directors, the real question is not whether “finance can fix a garnishee notice” in the abstract. It is whether the business is still viable, whether there is usable security, and whether borrowing solves the problem or just shifts it sideways.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — Closest related guide if the garnishee issue sits inside a wider tax debt problem.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if standard bank options are too slow or too rigid for the scenario.

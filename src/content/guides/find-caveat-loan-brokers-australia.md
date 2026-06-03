@@ -28,7 +28,7 @@ This guide walks you through the complete process of finding, vetting, and selec
 
 > **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

@@ -23,7 +23,7 @@ Private debt and private lending are closely related, but they are not always th
 
 For a business borrower, the difference matters because the label can affect who funds the loan, how the facility is assessed, what security is required, how flexible the structure is, and how the exit is tested. Emet Capital helps business owners compare [private lending](/resources/guides/what-is-private-lending-australia), [private credit for SMEs](/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) based on the actual transaction, not just the wording.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — the main private lending pillar guide for business borrowers.
 - **[Private Credit for SME Borrowers](/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance)** — how private credit can replace bank finance in some files.

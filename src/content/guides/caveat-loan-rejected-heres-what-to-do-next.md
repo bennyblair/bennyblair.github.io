@@ -22,7 +22,7 @@ The first thing to know is that a rejection does not always mean the deal is imp
 
 What matters next is how you respond. A rushed second application with the same weak points can waste time and make the transaction harder to rescue.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to how caveat loans work and where they fit.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Useful if the timing issue is still real after the decline.

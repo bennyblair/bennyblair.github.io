@@ -34,7 +34,7 @@ A second mortgage can help an Australian business consolidate expensive short-te
 
 This illustrative scenario walks through a realistic commercial scenario where a business could use a second mortgage to replace multiple high-cost debts and avoid a forced asset sale. It is not a promise of savings or an example of guaranteed approval. It is a working illustration of how lenders, brokers, and borrowers may structure a business-purpose debt consolidation deal when speed matters and the security position is strong enough.
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|
@@ -48,7 +48,7 @@ This illustrative scenario walks through a realistic commercial scenario where a
 
 This example is for business owners and commercial borrowers trying to understand when a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide) can be used strategically rather than reactively. It is most relevant if you already have equity in property, need to deal with multiple business liabilities quickly, and want to avoid replacing an existing first mortgage that still works.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how second mortgages work and when they may fit.
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Understand ranking, security priority, and lender expectations.

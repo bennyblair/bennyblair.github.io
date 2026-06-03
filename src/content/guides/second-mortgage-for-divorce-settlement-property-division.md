@@ -30,7 +30,7 @@ This is not a consumer home-loan article. It is a commercial guide for business 
 
 > **📚 Complete Guide**: This guide explains how a second mortgage may fit a divorce-related commercial property division, when it can work, where it can go wrong, and what lenders usually need to see before they will take the file seriously.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how first and second mortgage structures work in commercial lending
 - **[First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — Compare ranking, risk, lender focus, and common use cases

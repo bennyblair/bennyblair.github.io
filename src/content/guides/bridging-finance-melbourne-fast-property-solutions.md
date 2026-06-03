@@ -24,7 +24,7 @@ The key point is simple: bridging finance is not long-term debt. It is a tempora
 
 This guide explains how Melbourne bridging finance works, who it suits, when to avoid it, what lenders assess, and how to prepare a file that can be reviewed quickly.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — the main pillar guide for short-term property bridging.
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial property lending requirements and structures.

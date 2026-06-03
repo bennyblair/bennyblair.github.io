@@ -25,7 +25,7 @@ The property security does not remove lender assessment. Australian lenders stil
 
 This guide explains how residential property can support commercial borrowing, when first or second mortgage structures may apply, what risks borrowers should understand, and when unsecured or asset-backed finance may be more suitable.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How second-ranking property security can support commercial funding.
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The broader mortgage-security framework for business borrowers.

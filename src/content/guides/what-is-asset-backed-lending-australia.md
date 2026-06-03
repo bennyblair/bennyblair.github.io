@@ -25,7 +25,7 @@ In simple terms, asset-backed lending asks: what does the business own or contro
 
 For Australian business owners, developers, and investors, asset-backed lending can be useful where the business has valuable assets but needs capital for working capital, refinancing, expansion, acquisition, or a timing-sensitive commercial event.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — The broader pillar guide for structures and lender considerations.
 - **[Asset-Backed Lending vs Unsecured Business Loans](/resources/guides/asset-backed-lending-vs-unsecured-business-loans)** — A direct comparison of secured asset-based finance and unsecured lending.

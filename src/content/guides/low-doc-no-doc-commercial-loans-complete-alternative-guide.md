@@ -24,7 +24,7 @@ That does not mean documentation disappears. It means the lender may rely on alt
 
 For borrowers comparing [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), or a time-sensitive [refinancing solution](/resources/guides/commercial-property-refinancing-solutions), low doc and no doc options can sit in the middle ground between a clean bank deal and a fully bespoke private structure.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — The core guide to commercial loan structures, borrower types, and lender expectations.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful when the deal may need specialist or non-bank capital.

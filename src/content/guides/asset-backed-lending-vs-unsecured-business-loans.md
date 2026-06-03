@@ -25,7 +25,7 @@ For Australian business owners, the practical question is not which option is un
 
 A business with valuable equipment, inventory, receivables, or property may have more options through an asset-backed structure. A business with strong trading history but limited hard assets may prefer an unsecured path if the amount is modest and the lender is comfortable with the revenue profile.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — The main pillar guide for asset-secured commercial funding.
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — How equipment-specific finance differs from broader asset-backed lending.

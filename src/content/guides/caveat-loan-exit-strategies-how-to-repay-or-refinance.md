@@ -24,7 +24,7 @@ That is because caveat loans are usually written to solve urgent timing pressure
 
 For business owners, property investors, and developers, the real question is not just how fast a caveat loan can settle. It is what repayment path is realistic, what can delay that path, and how to avoid drifting from a short-term commercial tool into an expensive rollover problem. In some cases, the clean exit is a sale. In others, it is a [commercial refinance](/resources/guides/commercial-property-refinancing-solutions), a [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) transition, or a move into a more stable [private lending](/resources/guides/what-is-private-lending-australia) structure once the file is ready.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to how caveat loans work and where they fit.
 - **[Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if your exit depends on a linked settlement or purchase transaction.

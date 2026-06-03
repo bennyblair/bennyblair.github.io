@@ -24,7 +24,7 @@ Short-term private lending is a specialised sector of the finance market that pr
 
 > **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

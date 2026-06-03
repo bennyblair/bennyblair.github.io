@@ -25,7 +25,7 @@ Understanding when private lending makes strategic sense—versus when it's simp
 
 > **📖 Series Context**: This guide is part of our **Private Lending** series. For a complete overview, see our [What is Private Lending? Guide](/resources/guides/what-is-private-lending-australia).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

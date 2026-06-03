@@ -26,7 +26,7 @@ The phrase "secondary market" can also cause confusion because it is sometimes u
 
 > **📖 Series Context**: This guide is part of our **First & Second Mortgages** series. For a complete overview, see our [Definitive Guide to 1st & 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide). If you are comparing loan structures rather than wholesale funding markets, start with [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or [priority agreements in second mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[1st and 2nd Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The broader business borrower guide to mortgage-backed commercial finance.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How second mortgage structures work for commercial borrowers.

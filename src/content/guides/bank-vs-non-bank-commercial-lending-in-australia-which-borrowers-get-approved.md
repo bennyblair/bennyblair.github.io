@@ -24,7 +24,7 @@ A bank usually works best when the security is clean, the borrower profile is st
 
 For investors, developers, and business owners, the practical question is not “bank or non-bank?” in the abstract. It is which lender type is more likely to approve your commercial deal on acceptable terms and within the available timeline. That is why this guide compares bank lending, [private lending](/resources/guides/what-is-private-lending-australia), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) through the lens that actually matters: borrower fit.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to how commercial property lending is structured.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if you are comparing bank debt with specialist or private capital.

@@ -24,7 +24,7 @@ When a borrower is trying to secure a warehouse in the Inner West, refinance a m
 
 For investors, developers, and business owners, the practical challenge is not just finding a lender. It is choosing a structure that fits the asset, the business purpose, and the timing pressure of the deal. In Sydney, that often means deciding between a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinance path](/resources/guides/commercial-property-refinancing-solutions), or a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution when settlement speed is the real pressure point.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - [Commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions)

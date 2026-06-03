@@ -25,7 +25,7 @@ For Australian business owners, the decision is rarely just "ATO or lender". A p
 
 This guide compares ATO payment plans with business finance from a commercial-borrower perspective. It is written for company directors, property investors, and SME owners who need a practical framework, not personal tax advice.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — how tax debt finance is assessed and structured for commercial borrowers
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — when combining multiple obligations can reduce pressure or create new risk
