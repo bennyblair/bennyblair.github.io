@@ -28,7 +28,7 @@ For Australian business owners, investors, and operators, unsecured private lend
 
 > **📚 Complete Guide**: This guide explains where unsecured private lenders fit inside the wider private credit market for Australian businesses. If you are still comparing the broader category first, start with our [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia) guide before deciding whether an unsecured structure is the right tool.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 Explore these private lending guides for adjacent scenarios and stronger-fit structures:
 

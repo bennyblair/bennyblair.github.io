@@ -25,7 +25,7 @@ The difference is not simply "safe versus risky". A secured loan may offer more 
 
 This guide compares secured and unsecured business loans for Australian business owners, company directors, property investors, and developers. It focuses on commercial finance, not consumer credit or owner-occupier lending.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — short-term funding options for business cash-flow pressure
 - **[Business Loans Secured by Residential Property](/resources/guides/business-loans-secured-by-residential-property-in-australia)** — what changes when business finance is supported by property equity

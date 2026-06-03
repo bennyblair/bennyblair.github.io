@@ -23,7 +23,7 @@ A commercial property valuation delay is a finance risk where the loan assessmen
 
 This guide explains how a valuation delay can affect a commercial property loan file, what documents helped narrow the delay, and how borrowers can prepare before a lender asks for formal valuation instructions. It is written from Emet Capital's broker-side perspective for business owners, property investors, and developers comparing commercial property finance options.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide for Australian commercial property finance.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — how lenders use valuation evidence during assessment.

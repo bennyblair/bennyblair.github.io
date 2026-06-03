@@ -24,7 +24,7 @@ Private mortgage lending for commercial borrowers is property-backed business fi
 
 In plain terms, private mortgage lending is not a retail home-loan substitute. It is a commercial funding pathway for eligible business borrowers where the lender is focused on security, equity, loan purpose, repayment capacity, documents, and a defined exit strategy. Emet Capital helps borrowers compare private mortgage lending with [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — the broader private lending framework for commercial borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare bank and non-bank lending paths.

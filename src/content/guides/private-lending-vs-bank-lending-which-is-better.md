@@ -30,7 +30,7 @@ If you get that part wrong, you can waste weeks chasing the wrong credit path. I
 
 > **📚 Complete Guide**: This guide compares private lending and bank lending at a decision-making level. It works best alongside our broader [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia) guide and our more tactical structure guides for bridging, caveat, and mortgage-backed scenarios.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 Explore these guides if you are comparing lender types across different commercial scenarios:
 

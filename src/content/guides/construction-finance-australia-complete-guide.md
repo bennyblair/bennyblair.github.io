@@ -29,7 +29,7 @@ This comprehensive guide examines construction finance for commercial owner-occu
 
 > **📚 Complete Guide**: This is Emet Capital's comprehensive guide to construction & development finance in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 Explore our specialist construction & development finance guides for specific scenarios:
 

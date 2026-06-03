@@ -137,7 +137,7 @@ This comprehensive guide examines SMSF loans for commercial property investment,
 
 > **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

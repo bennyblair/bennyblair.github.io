@@ -27,7 +27,7 @@ Emet Capital works with business owners who need funding structures matched to t
 
 This guide explains when seasonal stock finance makes sense, when it does not, what lenders assess, and how to prepare before a peak trading period. It is general information only, not financial advice.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — the main guide to funding cash-flow gaps and trading cycles.
 - **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** — explains broader inventory-backed finance structures.

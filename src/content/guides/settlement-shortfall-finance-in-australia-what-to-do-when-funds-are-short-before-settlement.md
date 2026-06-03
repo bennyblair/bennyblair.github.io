@@ -25,7 +25,7 @@ For Australian business owners, property investors and developers, a settlement 
 
 This guide explains the practical funding options, what to prepare before settlement day, and when a shortfall facility is too risky to use.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main guide to commercial property finance structures and lender assessment.
 - **[Fast Commercial Property Loans for Urgent Settlement](/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia)** — How urgent settlement finance works when timing is compressed.

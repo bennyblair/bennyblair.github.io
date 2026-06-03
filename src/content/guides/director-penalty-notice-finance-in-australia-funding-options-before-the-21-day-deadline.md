@@ -26,7 +26,7 @@ A Director Penalty Notice, often called a DPN, is an ATO enforcement notice that
 
 For Emet Capital, the practical question is simple: can finance create enough breathing room to resolve the commercial problem without making the director's position worse? This guide explains when funding may help, when it usually will not, and what documents directors should prepare immediately.
 
-### At a Glance
+## At a Glance
 
 | Question | Practical answer |
 |---|---|
@@ -36,7 +36,7 @@ For Emet Capital, the practical question is simple: can finance create enough br
 | **Best fit** | Businesses with a credible repayment source, available security and adviser support |
 | **Poor fit** | Insolvent businesses with no exit plan, no security and no realistic trading recovery |
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** - broader funding options for tax arrears and payment pressure.
 - **[ATO Garnishee Notice Finance for Australian Businesses](/resources/guides/ato-garnishee-notice-finance-for-australian-businesses)** - what changes when the ATO moves from arrears to collection action.

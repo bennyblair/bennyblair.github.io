@@ -24,7 +24,7 @@ The simplest way to think about it is this: acquisition finance is not just a lo
 
 For Emet Capital, business acquisition finance sits inside the business finance pillar. It often overlaps with [working capital finance](/resources/guides/working-capital-loans-for-smes), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), [second mortgage funding](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), and vendor finance.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — useful when the acquisition also needs post-settlement cash-flow support.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — explains how equipment, receivables, inventory, and property can support a transaction.

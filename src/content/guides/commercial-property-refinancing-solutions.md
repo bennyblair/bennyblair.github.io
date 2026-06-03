@@ -133,7 +133,7 @@ Commercial property owners typically consider refinancing when interest rates de
 
 This comprehensive guide examines commercial property refinancing strategies, processes, and considerations for Australian businesses. From understanding when refinancing makes financial sense to navigating lender requirements and optimising loan structures, we'll explore how property owners can leverage refinancing to achieve their business and investment objectives while managing associated costs and risks effectively.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide for loan structures, lender policy, and security expectations.
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — relevant when refinance timing overlaps with a settlement or sale.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — a useful fallback when bank refinance policy is too slow or too restrictive.

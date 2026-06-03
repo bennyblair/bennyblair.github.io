@@ -26,7 +26,7 @@ For Australian business owners, developers, and property investors, a second mor
 
 This guide explains how getting a second mortgage works, who it may suit, what lenders assess, which documents matter, when not to use one, and how to compare it with [private lending](/resources/guides/what-is-private-lending-australia), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The main guide to business second mortgage structures and use cases.
 - **[What Is a Second Mortgage?](/resources/guides/what-is-a-second-mortgage)** — A plain-English explanation of second mortgage mechanics.

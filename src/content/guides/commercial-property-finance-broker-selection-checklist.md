@@ -25,7 +25,7 @@ Commercial property finance is rarely about one headline rate or one lender. A b
 
 Emet Capital helps borrowers compare [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [business finance](/resources/guides/working-capital-loans-for-smes). This checklist explains what to look for before appointing a commercial property finance broker.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide for commercial property finance.
 - **[Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — how lenders assess borrowers, property, and purpose.

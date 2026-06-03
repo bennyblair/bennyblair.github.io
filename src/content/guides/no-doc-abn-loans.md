@@ -17,7 +17,7 @@ No doc ABN loans are often misunderstood. In commercial lending, "no doc" usuall
 
 That distinction matters because business borrowers often search for no doc funding when the real issue is not credit quality but policy fit. A borrower might be recently self-employed, between lodged financial statements, or moving quickly on a property-backed transaction. In those cases the question is not whether finance exists at any cost. The question is what structure is realistic, defensible, and capable of being refinanced later.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — the closest adjacent guide when mainstream policy does not fit.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide on security, servicing, and lender expectations.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — useful when available equity is the main driver.

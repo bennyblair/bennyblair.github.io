@@ -30,7 +30,7 @@ Low doc business finance is usually a documentation solution, not a credit short
 
 For borrowers comparing structures, low doc funding often sits between full-doc [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide), short-term [private lending](/resources/guides/what-is-private-lending-australia), and asset-backed facilities. The right path depends on the quality of the evidence, not just the number of documents missing.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide on structure, security, and lender expectations.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — when non-bank funding may suit a reduced-doc file.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — options where plant, equipment, or other assets support the deal.

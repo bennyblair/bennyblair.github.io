@@ -24,7 +24,7 @@ The important distinction is this: negative gearing is a tax concept, not a fund
 
 This guide explains how negative gearing can apply to commercial property, why cash flow still matters, what lenders look for, and when a private or non-bank finance structure may be considered.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide for commercial property finance.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how lenders test cash-flow capacity.

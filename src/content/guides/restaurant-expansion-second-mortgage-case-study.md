@@ -36,7 +36,7 @@ The key point is not that every restaurant expansion should use a second mortgag
 | **Exit strategy** | Trading cash flow plus refinance review once the second venue stabilised |
 | **Best fit** | Business owners with equity, proven operations, and a defined expansion budget |
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The core guide to using second mortgages for commercial funding.
 - **[First and Second Mortgages](/resources/guides/second-mortgages-for-business-guide)** — How priority, security, and lender consent work.

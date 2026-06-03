@@ -25,7 +25,7 @@ For commercial property borrowers, bridge lending is not just a faster loan. It 
 
 Emet Capital helps business owners, investors, and developers compare bridge lending against [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [second mortgages](/resources/guides/second-mortgages-for-business-guide). This guide explains when commercial bridge lending may fit, when it may not, and what lenders usually want to see before issuing terms.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — the main pillar guide for Australian bridging finance.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — how commercial property finance is assessed.

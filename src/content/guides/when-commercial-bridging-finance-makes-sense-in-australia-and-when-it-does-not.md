@@ -24,7 +24,7 @@ That distinction matters. Commercial bridging finance can be very useful when th
 
 For property investors, developers, and business owners, the right question is not whether bridging finance is “good” or “bad”. It is whether the bridge is solving a real gap in a controlled way. If that gap is genuine, a bridge may be cleaner than forcing a rushed [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), stretching a weak [refinance](/resources/guides/commercial-property-refinancing-solutions), or waiting too long and losing the transaction entirely.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Core guide to how bridging facilities are commonly structured.
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful for hard settlement dates and auction risk.

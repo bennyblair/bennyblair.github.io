@@ -23,7 +23,7 @@ A caveat loan valuation delay is a timing problem, not just an admin problem. In
 
 The practical broker take is simple: borrowers lose time when they treat valuation as something that happens after approval. In urgent caveat lending, valuation evidence should be prepared at the same time as the loan purpose, title documents, existing debt position, and exit pathway. Emet Capital helps business borrowers compare [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [private lending](/resources/guides/what-is-private-lending-australia) when timing is tight.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — the core guide to caveat finance for business borrowers.
 - **[Quick Caveat Loans](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — what has to be ready before a fast settlement is realistic.

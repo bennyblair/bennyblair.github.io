@@ -24,7 +24,7 @@ That makes residual stock finance a transition tool, not a starting-point develo
 
 For developers, the key issue is not just whether a lender will fund unsold stock. It is whether the residual position is strong enough to support a new debt structure without turning temporary hold stock into a longer-term problem. In many cases, that means comparing residual stock loans with [commercial property development finance](/resources/guides/commercial-property-development-finance), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and broader [private lending](/resources/guides/what-is-private-lending-australia) options before choosing the cleanest path.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** — Core guide to how development capital stacks are usually structured.
 - **[Property Development Loans: Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — Useful if you are comparing pre-completion and post-completion debt.

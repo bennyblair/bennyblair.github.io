@@ -96,7 +96,7 @@ This guide explains when urgent caveat loans may fit, what documents speed up as
 
 > **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to caveat loan structure, timing, risks, and exits.
 - **[Quick Caveat Loans: 48-Hour Settlement Really Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — More detail on what enables very fast assessment.

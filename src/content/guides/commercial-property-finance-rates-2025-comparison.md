@@ -24,7 +24,7 @@ Understanding these nuances is critical. A difference of just 0.5% in your inter
 
 > **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

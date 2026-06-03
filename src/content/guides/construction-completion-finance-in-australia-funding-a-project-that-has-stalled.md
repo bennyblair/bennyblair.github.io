@@ -25,7 +25,7 @@ A stalled project is not automatically unfinanceable. Lenders will usually focus
 
 For broader context, start with our [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance) and [Construction Finance in Australia](/resources/guides/construction-finance-australia-complete-guide) guides. This article focuses specifically on rescue-style completion funding where timing, evidence, and exit planning matter.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** — The broader development lending framework behind completion funding.
 - **[Construction Finance in Australia](/resources/guides/construction-finance-australia-complete-guide)** — How construction drawdowns, progress claims, and staged funding usually work.

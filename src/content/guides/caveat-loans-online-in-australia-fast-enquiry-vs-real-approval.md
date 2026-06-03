@@ -23,7 +23,7 @@ Caveat loans online are short-term, business-purpose property loans where the fi
 
 For Australian business owners, developers and property investors, the useful distinction is fast enquiry versus real approval. A website form can be completed in minutes. A lender still needs enough evidence to decide whether a caveat loan, urgent caveat facility, [second mortgage](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or commercial refinance is appropriate.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans Australia: Business Funding Guide](/resources/guides/caveat-loans-australia-complete-guide)** — the pillar guide for caveat finance structure and risk.
 - **[Quick Caveat Loans: 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — what must be ready for compressed settlement.

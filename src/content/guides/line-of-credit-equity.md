@@ -25,7 +25,7 @@ That matters because many business funding needs are uneven. Working capital gap
 
 For Australian business owners, investors, and commercial borrowers, the real question is not just whether equity exists. It is whether a line-of-credit structure suits the purpose, the timing, and the repayment discipline required. In some cases, a revolving facility works well. In others, a cleaner [working capital loan](/resources/guides/working-capital-loans-for-smes), a [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions), or a shorter-term [private lending](/resources/guides/what-is-private-lending-australia) solution may be the better fit.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans: A Guide for Australian SMEs](/resources/guides/working-capital-loans-for-smes)** — Broader context on short-term business funding and cash flow support.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Useful when the equity strategy may sit behind an existing first mortgage.

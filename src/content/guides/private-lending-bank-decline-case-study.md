@@ -23,7 +23,7 @@ Private lending after a bank decline is commercial finance considered when a ban
 
 This guide explains how a bank-declined business finance file can be reviewed, what documents matter, and where private lending may or may not fit. It is written for Australian business owners, property investors, and SME directors who need general information before comparing options with a broker or adviser.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — the main pillar guide for private commercial lending.
 - **[Private Commercial Loans After Bank Decline](/resources/guides/private-commercial-loans-after-bank-decline)** — practical next steps when a bank says no.

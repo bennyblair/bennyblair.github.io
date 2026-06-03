@@ -24,7 +24,7 @@ The Australian commercial property lending market offers diverse solutions from 
 
 Understanding commercial property loan mechanics, lender requirements, and structure options helps businesses secure appropriate finance while optimising borrowing costs. This guide examines eligibility criteria, interest rates, loan structures, application processes, and strategic considerations for Australian commercial property financing.
 
-### Commercial Property Discovery Pathways
+## Commercial Property Discovery Pathways
 
 If you are earlier in the buying process, these supporting guides help turn a broad commercial property idea into a lender-ready file:
 

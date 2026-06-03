@@ -22,7 +22,7 @@ Second mortgage interest rates in Australia are usually higher than first-mortga
 
 For business owners, investors, and developers, that means the right question is rarely “What is the rate?” on its own. The more useful question is “Why is this second mortgage priced the way it is, and is this structure the right one for the job?” A second mortgage can be useful for equity access, short-term liquidity, partner buyouts, refinance gaps, or time-sensitive opportunities, but it needs to be assessed against alternatives such as a broader [private lending](/resources/guides/what-is-private-lending-australia) structure, a [refinancing solution](/resources/guides/commercial-property-refinancing-solutions), or in some cases a [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) path.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgage Lenders Australia Directory](/resources/guides/second-mortgage-lenders-australia-directory)** — Useful for understanding the active lender landscape.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Practical overview of how second mortgages work for commercial borrowers.

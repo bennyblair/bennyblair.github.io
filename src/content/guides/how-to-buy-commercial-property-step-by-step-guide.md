@@ -81,7 +81,7 @@ Australian commercial property transactions typically span 60-120 days from init
 
 This comprehensive guide provides systematic step-by-step processes for successfully purchasing commercial property in Australia, covering property identification and selection criteria, [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide) arrangement and approval, due diligence procedures and timeline management, contract negotiation and legal considerations, settlement preparation and completion, plus post-settlement property management establishment. Whether purchasing owner-occupied business premises, investment properties generating rental income, or development sites for future projects, following structured purchase processes significantly improves transaction success rates whilst minimising financial risks and unexpected complications throughout the acquisition journey. Emet Capital offers [bridging finance](/services/bridging-finance) for time-sensitive commercial property acquisitions.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** - How commercial property finance is structured for business borrowers and investors.
 - **[Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** - How lenders assess rent, business cash flow, DSCR, and borrowing capacity.

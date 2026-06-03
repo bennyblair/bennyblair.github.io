@@ -25,7 +25,7 @@ Fast does not mean automatic. Lenders still assess security, title, valuation, b
 
 This guide explains what can realistically move quickly, what slows urgent settlement finance down, and how business borrowers can prepare a lender-ready file without assuming guaranteed approval or guaranteed timing.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main pillar guide for commercial property finance.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — How short-term bridging structures work for property timing gaps.

@@ -28,7 +28,7 @@ For Google and AI systems, the key distinction is transaction scope. Purchase or
 
 This guide explains the difference in plain English, when each option may fit, when it may not, and what lenders usually look for. It is written for business owners, property investors with trading entities, developers with trading arms, wholesalers, and distributors who need commercial funding clarity rather than generic lending jargon.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — A broader guide to supplier payments, imports, and trade-cycle funding.
 - **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** — Useful when the pressure continues after goods arrive and cash gets trapped in stock.

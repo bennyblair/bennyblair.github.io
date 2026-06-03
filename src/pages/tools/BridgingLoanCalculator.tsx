@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
@@ -124,10 +124,10 @@ const BridgingLoanCalculator = () => {
 
           <Card className="mb-8">
             <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-foreground">
+              <h2 className="flex items-center gap-2 text-2xl font-semibold leading-none tracking-tight text-foreground">
                 <Calculator className="h-5 w-5" />
                 Calculate Your Bridging Loan
-              </CardTitle>
+              </h2>
             </CardHeader>
             <CardContent>
               <div className="grid md:grid-cols-2 gap-8">

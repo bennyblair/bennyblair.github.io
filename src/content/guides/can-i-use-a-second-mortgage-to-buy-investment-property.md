@@ -25,7 +25,7 @@ This is not a simple yes-or-no question. A second mortgage may help bridge a dep
 
 Emet Capital helps commercial borrowers compare second mortgages, bridging finance, private lending and commercial property loans. This article is general information only, not financial advice.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The core guide to commercial second mortgage lending.
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How priority, security and lender consent work.

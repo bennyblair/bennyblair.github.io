@@ -21,7 +21,7 @@ author_name: "Ben"
 
 > **📖 Series Context**: This guide is part of our **Working Capital & Refinancing** series. For a complete overview, see our [Working Capital Loans Guide for SMEs](/resources/guides/working-capital-loans-for-smes).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

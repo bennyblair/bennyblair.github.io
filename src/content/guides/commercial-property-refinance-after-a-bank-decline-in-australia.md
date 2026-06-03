@@ -24,7 +24,7 @@ Commercial property refinance after a bank decline usually becomes a lender-fit 
 
 For business owners, investors, and developers, the practical question is not “why did the bank say no?” in isolation. It is what the decline actually means, what can be fixed, what should be restructured, and whether short-term or non-bank debt can create breathing room before a cleaner long-term refinance.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to how commercial property lending works and how refinance fits.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Broader overview of refinance pathways for different borrower profiles.

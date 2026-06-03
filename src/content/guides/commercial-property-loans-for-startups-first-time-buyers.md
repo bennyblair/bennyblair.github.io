@@ -21,7 +21,7 @@ The core issue is evidence. A first-time buyer may have a sensible premises, a s
 
 This guide is for Australian business owners buying their first premises or a first commercial investment connected to business operations. It should be read with the broader [commercial property loans Australia guide](/resources/guides/commercial-property-loans-australia-complete-guide), [commercial property loan serviceability guide](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow), and [commercial property loan deposits guide](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main guide to commercial property finance structures.
 - **[How to Buy Commercial Property Step by Step](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — explains the purchase sequence before settlement.

@@ -24,7 +24,7 @@ Merchant cash advance refinance in Australia means replacing an existing sales-l
 
 For Emet Capital, the key question is not whether a merchant cash advance was good or bad. The useful question is whether the current repayment pattern is still sustainable, whether the business has a realistic exit from short-term debt, and whether another structure such as [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [working capital finance](/resources/guides/working-capital-loans-for-smes), [invoice finance](/resources/guides/invoice-finance-australia-complete-guide), or property-backed private lending would be more suitable.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — how business borrowers consolidate multiple debts into a cleaner structure.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — practical working-capital finance options for Australian businesses.

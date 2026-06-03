@@ -34,7 +34,7 @@ This comprehensive guide examines partnership buyout fundamentals including valu
 
 ---
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — the foundation guide for ranking, security, and private mortgage structures.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — a focused guide to partner buyout funding mechanics.

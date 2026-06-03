@@ -23,7 +23,7 @@ For Australian business owners, property investors, and developers, the comparis
 
 A caveat loan is generally used when a business borrower needs fast, short-term property-backed funding and has a clear repayment event, such as a refinance, sale, settlement, or incoming business funds. A second mortgage is generally used when the borrower wants to access property equity behind an existing first mortgage through a more formal registered security structure. Caveat loans usually prioritise speed and simplicity, while second mortgages usually prioritise structure, lender comfort, and a longer funding pathway. Neither option is automatically better. A caveat loan may fit an urgent commercial deadline, while a second mortgage may fit planned equity release, business expansion, or debt restructuring where the borrower has more time.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Full guide to caveat lending mechanics, risk, timing, and exit planning.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — How second mortgages work for commercial borrowers using property equity.

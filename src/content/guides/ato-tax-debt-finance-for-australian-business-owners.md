@@ -24,7 +24,7 @@ The idea is simple: instead of leaving the tax debt untreated and hoping the pre
 
 For investors, developers, and business owners, this is not really a “tax article” in the abstract. It is a financing and risk-management article. The real question is when ATO tax debt finance may be commercially useful, what lenders usually look at, and when it may be smarter to fix the broader capital structure instead of only treating the immediate arrears.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful background if the tax debt solution sits outside standard bank policy.
 - **[Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — Relevant when urgency is the central issue.

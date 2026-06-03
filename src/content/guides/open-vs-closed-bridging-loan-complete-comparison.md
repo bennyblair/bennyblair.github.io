@@ -28,7 +28,7 @@ For commercial borrowers, the difference matters because lenders are not only fu
 
 At Emet Capital, we usually frame the choice this way: **closed bridging loans solve timing with more certainty, while open bridging loans solve timing with more flexibility**. The right structure depends on the asset, the pressure on settlement, and how believable the exit is.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Core guide to how commercial bridging finance works.
 - **[When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision framework for using bridging finance properly.

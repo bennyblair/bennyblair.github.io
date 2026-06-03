@@ -137,7 +137,7 @@ This comprehensive guide examines equipment financing and leasing options availa
 
 > **📖 Series Context**: This guide is part of our **Asset Finance** series. For a complete overview, see our [Complete Asset Finance Guide](/resources/guides/asset-backed-lending-and-asset-finance).
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|

@@ -26,7 +26,7 @@ The key point is timing. Import costs often arrive before the stock is earning m
 
 This guide explains how import GST and customs duty finance works in Australia, when it may make sense, when it may not, and how it compares with related facilities such as trade finance, inventory finance, and invoice finance.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — How businesses fund supplier payments, import orders, and cross-border trade cycles.
 - **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** — Funding stock purchases without draining operating cash.

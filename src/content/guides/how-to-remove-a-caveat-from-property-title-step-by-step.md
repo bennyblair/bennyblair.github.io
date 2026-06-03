@@ -28,7 +28,7 @@ For commercial borrowers, the important point is that a caveat is not just an ad
 
 At Emet Capital, we see this issue most often in short-term business lending, refinance exits, settlement delays, and property-backed disputes where a borrower needs to understand what must happen before a title can be cleared. In most cases, the practical question is not "Can I remove it?" but **why is it there, and what event actually causes it to come off?**
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core explanation of how caveat-backed lending works.
 - **[What Is a Caveatable Interest?](/resources/guides/what-is-a-caveatable-interest)** — Useful if the dispute is about whether the caveat should exist at all.

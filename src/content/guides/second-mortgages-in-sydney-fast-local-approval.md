@@ -25,7 +25,7 @@ In practice, Sydney second mortgages are most often used for business acquisitio
 
 At Emet Capital, we treat second mortgages as a specialist commercial funding tool rather than a generic top-up loan. In Sydney, that matters because asset values are high, deadlines are short, and lender scrutiny can increase quickly once a file becomes layered or time-sensitive.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how commercial second mortgages work and where they fit.
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Explains mortgage priority, lender risk, and common structures.

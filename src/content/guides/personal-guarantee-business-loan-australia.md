@@ -25,7 +25,7 @@ A guarantee is not the same as security. Security usually refers to an asset the
 
 This guide explains how personal guarantees work in Australian business lending, what directors should check before signing, and how guarantees interact with [business finance](/resources/guides/working-capital-loans-for-smes), [private lending](/resources/guides/what-is-private-lending-australia), second mortgages, caveat loans, and asset-backed facilities.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — how short-term business funding is assessed and structured
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — flexible non-bank funding for commercial borrowers

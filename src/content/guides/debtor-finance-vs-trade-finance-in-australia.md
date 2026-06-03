@@ -22,7 +22,7 @@ Debtor finance and trade finance both help businesses manage cash flow, but they
 
 For Australian importers, wholesalers, distributors, and B2B operators, that distinction matters. A business waiting 30 to 60 days to collect from customers may suit [invoice finance](/resources/guides/invoice-finance-australia-complete-guide). A business needing to fund inventory purchases before goods ship or clear customs may be closer to [trade finance](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports). Many businesses eventually use both, but they should not be treated as interchangeable.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — Core guide to supplier funding, import cycles, and stock-linked working capital.
 - **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — Pillar guide to funding receivables and unlocking cash tied up in unpaid invoices.

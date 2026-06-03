@@ -115,6 +115,7 @@ const WorkingCapitalCalculator = () => {
               </p>
             </div>
 
+            <h2 className="sr-only">Working capital calculator inputs and results</h2>
             <Card className="mb-12">
               <CardContent className="p-8">
                 <div className="grid lg:grid-cols-2 gap-8">

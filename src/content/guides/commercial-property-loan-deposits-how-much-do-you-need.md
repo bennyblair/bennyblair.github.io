@@ -25,7 +25,7 @@ A commercial property loan deposit is the equity contribution a borrower brings 
 
 In plain terms, the deposit is only one part of the capital stack. You also need to think about stamp duty, legal costs, valuation fees, due diligence costs, and a buffer if the valuation comes in below the agreed purchase price. That is why borrowers who ask “how much deposit do I need?” usually need a broader answer than a single percentage.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broad overview of structures, lender types, and approval criteria.
 - **[Commercial Property LVR Explained: Maximise Your Borrowing](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)** — Useful for understanding how deposit and LVR work together.

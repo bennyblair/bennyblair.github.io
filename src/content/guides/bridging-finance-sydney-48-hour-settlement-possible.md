@@ -25,7 +25,7 @@ That point matters. Borrowers often search for “bridging finance Sydney 48-hou
 
 In Sydney, bridging finance is most often used for auction settlements, purchase-before-sale timing gaps, expiring facilities, urgent commercial acquisitions, and short-term restructure events. It is a timing product, not a long-term debt strategy.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Core guide to how commercial bridging finance works.
 - **[Commercial Bridging Finance Makes Sense in Australia And When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision-first framework for good-fit and bad-fit bridge scenarios.

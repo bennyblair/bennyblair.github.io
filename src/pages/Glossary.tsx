@@ -156,7 +156,7 @@ const Glossary = () => {
 
         {/* Categories Legend */}
         <div className="mb-8">
-          <h3 className="text-lg font-semibold text-foreground mb-4">Categories</h3>
+          <h2 className="text-lg font-semibold text-foreground mb-4">Categories</h2>
           <div className="flex flex-wrap gap-2">
             {categories.map((category) => (
               <span 

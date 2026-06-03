@@ -28,7 +28,7 @@ For Emet Capital, the practical question is not simply whether a rent roll has v
 
 This guide explains how rent roll acquisition finance works, what lenders assess, when property-backed or private lending may be relevant, and what buyers should prepare before approaching lenders.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Business Acquisition Finance in Australia](/resources/guides/business-acquisition-finance-australia)** — the broader framework for funding business purchases, goodwill, and settlement structures.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — how private and non-bank lenders assess speed, security, and exit strategy.

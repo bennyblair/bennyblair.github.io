@@ -25,7 +25,7 @@ That is why two borrowers can ask for the same loan amount and get very differen
 
 At Emet Capital, we treat commercial mortgage pricing as a structure problem before it becomes a rate problem. A cleaner security position, stronger documentation, and clearer business-purpose use of funds can materially change which lenders are willing to engage.
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|
@@ -43,7 +43,7 @@ For example, a simple owner-occupied office purchase may be priced very differen
 
 If you need a broader foundation before comparing pricing, start with our [commercial property loans in Australia guide](/resources/guides/commercial-property-loans-australia-complete-guide), which explains how loan structures, lender appetite, and assessment criteria fit together.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main foundation piece on commercial property finance structures and lender assessment.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful if you are comparing pricing as part of a refinance or debt restructure.

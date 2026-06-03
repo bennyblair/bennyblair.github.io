@@ -25,7 +25,7 @@ For business borrowers, this matters because a caveat is not just a note someone
 
 At Emet Capital, we look at caveat-related issues from a commercial lending perspective. The real question is not just “what is a caveatable interest?” It is “does a real property-linked interest exist, and what does that mean for funding, settlement, refinance, or enforcement?”
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — The main guide to how caveat lending works, when it is used, and why title security matters.
 - **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if caveat issues arise during a time-sensitive settlement.

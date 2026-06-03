@@ -27,7 +27,7 @@ The key point is simple. A lender considering rescue finance is not just asking 
 
 At Emet Capital, we see this as a timing and structure question, not just a funding question. A caveat loan may buy time for a refinance, negotiated discharge, or urgent asset sale on better terms. It may also be the wrong tool when the issue is deeper insolvency, unrealistic leverage, or a title problem that makes new lending unworkable.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to caveat loan structures, timing, and risks
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — Relevant if tax pressure is part of the enforcement problem

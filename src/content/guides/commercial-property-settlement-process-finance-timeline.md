@@ -20,7 +20,7 @@ This guide outlines the commercial property settlement timeline from contract ex
 
 For NSW business owners facing a compressed purchase or settlement deadline, Emet Capital's [commercial property finance service](/services/commercial-property-finance) explains how funding may be structured where documents, security, and exit are clear.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Finance options for commercial property acquisition and development
 - **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Step-by-step purchase process including finance coordination
@@ -30,7 +30,7 @@ For NSW business owners facing a compressed purchase or settlement deadline, Eme
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Refinancing options after settlement
 
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Finance options for commercial property acquisition
 - **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Step-by-step purchase guide including finance coordination

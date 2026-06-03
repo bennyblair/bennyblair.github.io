@@ -30,7 +30,7 @@ This guide explains how commercial property lenders differ in Australia, what th
 
 > **📚 Complete Guide**: This guide explains how commercial property lenders differ in Australia, when each lender type may fit, and how to compare the market without assuming every lender is solving the same problem.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Foundation guide to structures, deposits, terms, and lender assessment
 - **[Commercial Real Estate Lenders in Australia](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Useful if you are comparing lender types across CRE transactions

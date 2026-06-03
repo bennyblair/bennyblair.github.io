@@ -23,7 +23,7 @@ Bridging finance for auction settlement is short-term commercial funding used wh
 
 This anonymised case study shows the pattern we often see around auction settlement pressure. The borrower has a commercial purpose, usable property security, and a realistic exit, but the deadline is too tight for a standard bank process. Emet Capital helps borrowers compare [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [second mortgages](/resources/guides/second-mortgages-for-business-guide) where auction timing creates pressure.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — the main guide to commercial bridging structures.
 - **[Commercial Bridging Loans for Property Auctions](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — auction-specific bridging finance considerations.

@@ -28,7 +28,7 @@ This guide provides systematic decision framework evaluating whether [first & se
 
 > **📖 Explainer hub**: This is Emet Capital's main guide to second mortgages for business borrowers. For an enquiry-focused overview, see [First and Second Mortgages](/services/first-second-mortgages).
 
-### Related Second Mortgage And Exit Guides
+## Related Second Mortgage And Exit Guides
 
 - **[Second Mortgage Loan Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — compare equity release use cases before choosing a structure.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — useful where revolving access may be compared with a fixed second mortgage.

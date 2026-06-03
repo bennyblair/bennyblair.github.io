@@ -27,7 +27,7 @@ That does not mean every partner exit should use a second mortgage. This strateg
 
 At Emet Capital, we usually frame this as a structuring decision. The question is not just whether equity exists. The question is whether a second mortgage is the cleanest bridge between the partner exit and the longer-term capital structure. Sometimes it is. Sometimes [business acquisition finance](/resources/guides/business-acquisition-finance-australia) or a broader [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) is the better answer.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how second mortgages work for business borrowers
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Priority, structure, and strategic use of layered property debt

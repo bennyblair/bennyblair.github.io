@@ -25,7 +25,7 @@ That distinction matters because refinancing is not automatically a "save money"
 
 For Australian business owners, property investors, and directors with secured business borrowings, the right refinance can improve control and reduce pressure. The wrong refinance can just shift the same problem into a new facility. That is why borrowers often need to compare a standard refinance with alternatives such as [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), or a shorter-term [private lending](/resources/guides/what-is-private-lending-australia) bridge where timing is the actual issue.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Core reference for property-backed refinance structures.
 - **[Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)** — Useful if multiple facilities are the real problem.

@@ -24,7 +24,7 @@ The core idea is simple. If your business needs to buy stock well before revenue
 
 This guide explains how inventory finance works in Australia, who it tends to suit, when it makes sense, when it does not, and what lenders usually look for. It is written for business owners who need a clean operational explanation, not a pile of finance jargon.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — Compare this when the cash gap starts at supplier payment or import stage.
 - **[Purchase Order Finance vs Trade Finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)** — Useful if you are deciding between one-order funding and broader trade-cycle funding.

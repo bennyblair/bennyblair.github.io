@@ -33,7 +33,7 @@ This complete guide explains how caveat loans work, when Australian business bor
 
 > **📚 Complete Guide**: This is Emet Capital's comprehensive guide to caveat loans in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 Explore our specialist caveat loans guides for specific scenarios:
 

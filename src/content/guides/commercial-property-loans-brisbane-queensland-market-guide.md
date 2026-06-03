@@ -22,7 +22,7 @@ Commercial property loans in Brisbane are business-purpose loans secured against
 
 That matters because Brisbane is no longer a secondary market in lenders' eyes. Industrial corridors, inner-ring mixed-use precincts, logistics assets, and owner-occupier properties in growth suburbs now attract stronger scrutiny around valuation, tenant quality, lease strength, and settlement timing. If you need [commercial property finance](/services/commercial-property-finance), understanding how Brisbane deals are assessed can save weeks of wasted lender conversations.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — The national pillar guide covering structures, LVRs, and lender expectations.
 - **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful if your Brisbane deal is really a refinance or maturity problem.

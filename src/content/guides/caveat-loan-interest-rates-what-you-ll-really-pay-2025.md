@@ -25,7 +25,7 @@ That means the headline rate is only one part of the commercial picture. Caveat 
 
 At Emet Capital, we treat caveat pricing as a timing-and-exit question first. The right caveat loan is usually the one that solves an urgent problem cleanly and then gets repaid or refinanced quickly, not the one with the most attractive-looking headline in isolation.
 
-### At a Glance
+## At a Glance
 
 | | |
 |---|---|
@@ -35,7 +35,7 @@ At Emet Capital, we treat caveat pricing as a timing-and-exit question first. Th
 | **When not to use this guide** | When you are seeking consumer lending or a long-term mainstream mortgage. |
 | **What matters most** | Exit clarity, speed requirements, equity position, and the total cost of solving the urgent problem. |
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — The main pillar guide on caveat finance, timing, legal mechanics, and borrower fit.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Useful if your main issue is speed rather than broad loan comparison.

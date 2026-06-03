@@ -25,7 +25,7 @@ For commercial borrowers, the important point is simple: a pharmacy purchase is 
 
 This guide explains how pharmacy acquisition finance works, what lenders look for, and when property-backed or private lending may help bridge a funding gap.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — The main guide to buying an established business with debt and equity.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — How commercial property security can support business lending.

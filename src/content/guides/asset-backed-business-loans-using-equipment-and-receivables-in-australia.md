@@ -25,7 +25,7 @@ The key point is simple: the asset does not replace lender assessment. It gives 
 
 This guide explains how equipment and receivables can support business finance, when property-backed lending may still be needed, and what business owners should prepare before approaching lenders.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — The main pillar guide for asset-secured commercial funding.
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — How equipment purchase and refinance structures work.

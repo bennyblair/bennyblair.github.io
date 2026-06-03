@@ -23,7 +23,7 @@ A second mortgage lender document checklist is the set of evidence a lender uses
 
 For Australian business borrowers, the checklist matters because a second mortgage is not assessed in isolation. The lender must understand the first mortgage, available equity, title position, consent requirements, loan purpose, repayment capacity, and what will clear the loan later. A tidy file can reduce friction; a vague file can slow or derail the assessment.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — the main pillar guide for Australian business second mortgages.
 - **[Second Mortgage Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — compare common equity-release use cases.

@@ -27,7 +27,7 @@ In practical terms, supplier deposit finance sits between working capital, trade
 
 This guide explains when supplier deposit finance may fit, when it should be avoided, what lenders assess, and how to prepare the file. It should be read alongside [trade finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports), [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes), [invoice finance](/resources/guides/invoice-finance-australia-complete-guide), and [private lending in Australia](/resources/guides/what-is-private-lending-australia).
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — relevant when the supplier deposit relates to imports or inventory purchases.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare broader cash-flow facilities before using short-term funding.

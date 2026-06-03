@@ -24,7 +24,7 @@ For many borrowers, the real question is not “can I get approved with bad cred
 
 At Emet Capital, we usually see bad-credit trade finance work best when the story is commercially sensible. A lender wants to see how goods move, how invoices convert to cash, and what protects the exit if the cycle slips. That makes this funding more transaction-led than score-led.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — Core guide to how import and export funding works.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Broader short-term funding options for business cash flow.

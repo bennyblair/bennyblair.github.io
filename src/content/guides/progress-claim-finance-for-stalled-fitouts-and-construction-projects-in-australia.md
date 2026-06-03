@@ -25,7 +25,7 @@ For Australian commercial borrowers, the key issue is not just whether money is 
 
 This guide explains how progress-claim delays create cash flow pressure, when funding may help, and what evidence lenders need before they will take the scenario seriously.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)** — The main guide to funding construction and development projects.
 - **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)** — Funding pathways when a project has stalled before completion.

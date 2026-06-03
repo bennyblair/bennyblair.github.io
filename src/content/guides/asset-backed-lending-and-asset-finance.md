@@ -137,7 +137,7 @@ This comprehensive guide examines asset-backed lending and asset finance options
 
 > **📚 Complete Guide**: This is Emet Capital's comprehensive guide to asset finance in Australia. Whether you're exploring this financing option for the first time or comparing solutions for a specific transaction, this guide covers everything from fundamentals to advanced strategies.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 Explore our specialist asset finance guides for specific scenarios:
 
