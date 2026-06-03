@@ -75,7 +75,7 @@ const CommercialPropertyLoanCalculator = () => {
   return (
     <>
       <Helmet>
-        <title>Commercial Property Loan Calculator: Estimate Your Repayments | Emet Capital</title>
+        <title>Commercial Property Loan Calculator Australia</title>
         <meta name="description" content="Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors." />
         <meta name="keywords" content="commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool" />
         <link rel="canonical" href="https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator" />

@@ -41,7 +41,7 @@ const PrivateLending = () => {
   return (
     <>
       <Helmet>
-        <title>Private Lending | Non-Bank Commercial Loans Australia | Emet Capital</title>
+        <title>Private Lending Australia | Emet Capital</title>
         <meta 
           name="description" 
           content="Private lending broker support for business-purpose loans, commercial property finance, non-bank lending, and alternative funding after bank rejection." 

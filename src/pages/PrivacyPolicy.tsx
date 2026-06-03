@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Emet Capital</title>
+        <title>Privacy Policy Australia | Emet Capital</title>
         <meta name="description" content="Privacy Policy for Emet Capital Pty Ltd. How we collect, use, and protect your personal information in accordance with Australian privacy laws." />
         <link rel="canonical" href="https://emetcapital.com.au/privacy-policy" />
       </Helmet>
