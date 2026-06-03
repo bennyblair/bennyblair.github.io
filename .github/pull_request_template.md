@@ -31,5 +31,11 @@ Required when touching:
 - 
 - 
 
+## SEO page checklist
+If this PR adds or changes a guide or case study, complete the applicable rules in `docs/seo-standard.md`.
+
+- [ ] `npm run qa:seo-page -- --file <content.md>`
+- [ ] `npm run qa:seo-page -- --route <path>` after `npm run build`
+
 ## Notes
 - 
