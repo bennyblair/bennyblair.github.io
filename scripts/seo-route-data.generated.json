@@ -99,6 +99,16 @@
     "noscript": "A practical guide to ATO tax debt finance for Australian business owners, including how it works, when commercial borrowers use it, lender considerations, and when short-term or property-backed finance may be relevant.",
     "sourcePath": "src/content/guides/ato-tax-debt-finance-for-australian-business-owners.md"
   },
+  "/resources/guides/bad-credit-business-loans-for-commercial-borrowers": {
+    "routePath": "/resources/guides/bad-credit-business-loans-for-commercial-borrowers",
+    "title": "Bad Credit Business Loans for Commercial Borrowers",
+    "description": "Bad credit business loans explained for Australian commercial borrowers, including lender assessment, security, documents, risks, and alternatives.",
+    "keywords": "bad credit business loan, bad credit business loans Australia, business finance with credit issues, commercial borrower bad credit loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/bad-credit-business-loans-for-commercial-borrowers",
+    "h1": "Bad Credit Business Loans for Commercial Borrowers",
+    "noscript": "Bad credit business loans explained for Australian commercial borrowers, including lender assessment, security, documents, risks, and alternatives.",
+    "sourcePath": "src/content/guides/bad-credit-business-loans-for-commercial-borrowers.md"
+  },
   "/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance": {
     "routePath": "/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance",
     "title": "Balloon Payment Refinance for Equipment and Asset...",
@@ -278,6 +288,16 @@
     "h1": "Business Lenders Australia for Urgent Settlement",
     "noscript": "Business lenders in Australia for urgent settlement explained, including when fast commercial finance may fit, what lenders assess, documents to prepare, risks, and alternatives.",
     "sourcePath": "src/content/guides/business-lenders-australia-urgent-settlement.md"
+  },
+  "/resources/guides/business-line-of-credit-australia": {
+    "routePath": "/resources/guides/business-line-of-credit-australia",
+    "title": "Business Line of Credit in Australia | Emet Capital",
+    "description": "Business line of credit explained for Australian commercial borrowers, including how it works, lender assessment, documents, risks, and alternatives.",
+    "keywords": "business line of credit, business line of credit Australia, commercial line of credit, business credit facility",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-line-of-credit-australia",
+    "h1": "Business Line of Credit in Australia",
+    "noscript": "Business line of credit explained for Australian commercial borrowers, including how it works, lender assessment, documents, risks, and alternatives.",
+    "sourcePath": "src/content/guides/business-line-of-credit-australia.md"
   },
   "/resources/guides/business-loans-secured-by-residential-property-in-australia": {
     "routePath": "/resources/guides/business-loans-secured-by-residential-property-in-australia",
