@@ -129,6 +129,16 @@
     "noscript": "A practical guide to bank vs non-bank commercial lending in Australia, including approval differences, borrower fit, speed, flexibility, and when each option may suit a commercial property or business-purpose transaction.",
     "sourcePath": "src/content/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved.md"
   },
+  "/resources/guides/bas-debt-finance-for-australian-businesses": {
+    "routePath": "/resources/guides/bas-debt-finance-for-australian-businesses",
+    "title": "BAS Debt Finance for Australian Businesses",
+    "description": "BAS debt finance in Australia explained for business owners, including ATO timing pressure, lender assessment, documents, risks, and refinance...",
+    "keywords": "BAS debt finance Australia, BAS debt business finance, ATO BAS debt finance, business tax debt finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/bas-debt-finance-for-australian-businesses",
+    "h1": "BAS Debt Finance for Australian Businesses",
+    "noscript": "BAS debt finance in Australia explained for business owners, including ATO timing pressure, lender assessment, documents, risks, and refinance options.",
+    "sourcePath": "src/content/guides/bas-debt-finance-for-australian-businesses.md"
+  },
   "/resources/guides/best-bridging-loan-lenders-companies-2025": {
     "routePath": "/resources/guides/best-bridging-loan-lenders-companies-2025",
     "title": "The Best Bridging Loan Lenders & Finance Companies...",
@@ -838,6 +848,16 @@
     "h1": "Construction Finance in Australia: The Complete Guide for Commercial Builds",
     "noscript": "Complete guide to construction finance in Australia. Learn about owner-occupier commercial builds, costs, stages, and how construction finance differs from development. General information only - not advice.",
     "sourcePath": "src/content/guides/construction-finance-australia-complete-guide.md"
+  },
+  "/resources/guides/construction-retention-finance-for-builders-australia": {
+    "routePath": "/resources/guides/construction-retention-finance-for-builders-australia",
+    "title": "Construction Retention Finance for Builders in Australia",
+    "description": "Construction retention finance in Australia explained for builders, including cash-flow pressure, lender assessment, documents, risks, and...",
+    "keywords": "construction retention finance Australia, builder retention finance, retention money cash flow, construction cash flow finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/construction-retention-finance-for-builders-australia",
+    "h1": "Construction Retention Finance for Builders in Australia",
+    "noscript": "Construction retention finance in Australia explained for builders, including cash-flow pressure, lender assessment, documents, risks, and refinance options.",
+    "sourcePath": "src/content/guides/construction-retention-finance-for-builders-australia.md"
   },
   "/resources/guides/debtor-finance-supply-chain-finance-australia": {
     "routePath": "/resources/guides/debtor-finance-supply-chain-finance-australia",
