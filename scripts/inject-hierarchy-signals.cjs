@@ -143,14 +143,6 @@ const clusters = {
         whenNot: "When there's an existing first mortgage you need to work around"
       },
       {
-        slug: "second-mortgage-for-business",
-        descriptor: "Mechanics of business funding through second mortgages",
-        who: "Business owners with existing mortgages seeking additional funding",
-        what: "How second mortgages work mechanically, including subordination and security",
-        when: "When you need to understand second mortgage fundamentals before applying",
-        whenNot: "If you're ready to compare specific lenders"
-      },
-      {
         slug: "second-mortgages-for-business-guide",
         descriptor: "Is a second mortgage right for your company?",
         who: "Company directors evaluating second mortgages for business funding",
@@ -459,14 +451,6 @@ const clusters = {
         whenNot: "For understanding private lending fundamentals"
       },
       {
-        slug: "private-lenders-for-mortgages",
-        descriptor: "When banks say no to mortgage applications",
-        who: "Borrowers declined by banks seeking mortgage alternatives",
-        what: "Private mortgage options when traditional lenders say no",
-        when: "When bank mortgage applications have been declined or are unsuitable",
-        whenNot: "For borrowers who qualify for mainstream bank mortgages"
-      },
-      {
         slug: "private-lenders-small-business-fast-approval-guide",
         descriptor: "Fast approval options for SMEs",
         who: "Small business owners needing quick funding decisions",
@@ -564,7 +548,6 @@ function getGuideTitle(slug) {
     "quick-caveat-loans-48-hour-settlement-possible": "Quick Caveat Loans",
     "urgent-caveat-loans": "Urgent Caveat Loans",
     "first-mortgage-loans-primary-property-finance": "First Mortgage Fundamentals",
-    "second-mortgage-for-business": "How Second Mortgages Work",
     "second-mortgages-for-business-guide": "Second Mortgages for Business",
     "2nd-loan-mortgage-business-capital": "2nd Mortgages for Capital",
     "second-mortgage-bad-credit-qualify": "Bad Credit Second Mortgages",
@@ -600,7 +583,6 @@ function getGuideTitle(slug) {
     "business-acquisition-finance-australia": "Business Acquisition Finance",
     "finding-best-private-lenders-for-your-business": "Finding the Best Private Lenders",
     "finding-comparing-private-lenders-loans-2025-guide": "Comparing Private Lenders 2025",
-    "private-lenders-for-mortgages": "Private Mortgage Lenders",
     "private-lenders-small-business-fast-approval-guide": "Private Lenders for Small Business",
     "private-lenders-for-land-loans-alternative-financing": "Private Land Loans",
     "private-commercial-real-estate-lenders-cre-directory": "Private CRE Lenders Directory",
