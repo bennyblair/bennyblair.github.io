@@ -391,12 +391,12 @@
   },
   "/resources/guides/caveat-loan-emergency-business-funding": {
     "routePath": "/resources/guides/caveat-loan-emergency-business-funding",
-    "title": "Caveat Loans for Business Emergencies: Tax Debt &...",
-    "description": "Caveat loan emergency options for tax debt, cashflow crises and urgent business needs where property, documents, and exit are clear. Australian guide.",
-    "keywords": "caveat loan emergency, emergency business funding, ATO debt finance, fast business loans, urgent caveat loans",
+    "title": "Urgent Business Funding for ATO Debt and Cash-Flow...",
+    "description": "How Australian businesses can assess urgent property-backed funding for ATO debt, payroll, supplier pressure, and short-term cash-flow emergencies...",
+    "keywords": "urgent business funding, ATO debt emergency finance, caveat loan emergency, cash flow emergency finance, property-backed business funding",
     "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-emergency-business-funding",
-    "h1": "Caveat Loans for Business Emergencies: Tax Debt & Cash Flow",
-    "noscript": "Caveat loan emergency options for tax debt, cashflow crises and urgent business needs where property, documents, and exit are clear. Australian guide.",
+    "h1": "Urgent Business Funding for ATO Debt and Cash-Flow Emergencies",
+    "noscript": "How Australian businesses can assess urgent property-backed funding for ATO debt, payroll, supplier pressure, and short-term cash-flow emergencies without drifting into unsuitable long-term debt.",
     "sourcePath": "src/content/guides/caveat-loan-emergency-business-funding.md"
   },
   "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance": {
@@ -751,12 +751,12 @@
   },
   "/resources/guides/commercial-property-loans-for-startups-first-time-buyers": {
     "routePath": "/resources/guides/commercial-property-loans-for-startups-first-time-buyers",
-    "title": "First Commercial Property Loan for Startup Business...",
-    "description": "How Australian startup and first-time commercial property buyers can package deposit evidence, director experience, property use case,...",
+    "title": "First Commercial Premises Loan for Newer Businesses",
+    "description": "How newer Australian businesses can prepare evidence for a first commercial premises loan, including deposit source, trading proof, property fit,...",
     "keywords": "",
     "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-for-startups-first-time-buyers",
-    "h1": "First Commercial Property Loan for Startup Business Owners",
-    "noscript": "How Australian startup and first-time commercial property buyers can package deposit evidence, director experience, property use case, serviceability, and fallback plans before approaching lenders.",
+    "h1": "First Commercial Premises Loan for Newer Businesses",
+    "noscript": "How newer Australian businesses can prepare evidence for a first commercial premises loan, including deposit source, trading proof, property fit, serviceability, liquidity, and fallback planning.",
     "sourcePath": "src/content/guides/commercial-property-loans-for-startups-first-time-buyers.md"
   },
   "/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing": {
