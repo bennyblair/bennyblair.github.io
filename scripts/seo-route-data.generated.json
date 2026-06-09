@@ -659,6 +659,16 @@
     "noscript": "An informational guide to commercial property lenders in Australia for business owners, developers, and investors. Learn lender types, how they differ, what they assess, and how to compare options without treating finance as one-size-fits-all.",
     "sourcePath": "src/content/guides/commercial-property-lenders-in-australia-complete-directory.md"
   },
+  "/resources/guides/commercial-property-loan-covenant-breach-refinance-options": {
+    "routePath": "/resources/guides/commercial-property-loan-covenant-breach-refinance-options",
+    "title": "Commercial Property Loan Covenant Breach Refinance...",
+    "description": "A practical guide for Australian commercial borrowers facing a commercial property loan covenant breach, including refinance pathways, lender...",
+    "keywords": "commercial property loan covenant breach refinance, commercial loan covenant breach refinance options, commercial property refinance after covenant breach, private lending for commercial property refinance",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loan-covenant-breach-refinance-options",
+    "h1": "Commercial Property Loan Covenant Breach Refinance Options",
+    "noscript": "A practical guide for Australian commercial borrowers facing a commercial property loan covenant breach, including refinance pathways, lender review factors, private lending options, and exit planning. General information only.",
+    "sourcePath": "src/content/guides/commercial-property-loan-covenant-breach-refinance-options.md"
+  },
   "/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them": {
     "routePath": "/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them",
     "title": "Commercial Property Loan Covenants: What Happens...",
@@ -1318,6 +1328,16 @@
     "h1": "PPSR Security for Business Loans: What Borrowers Need to Know",
     "noscript": "Learn how PPSR security works for Australian business loans, including GSAs, specific asset registrations, refinance impacts, and borrower checks before signing. General information only, not advice.",
     "sourcePath": "src/content/guides/ppsr-security-for-business-loans-what-borrowers-need-to-know.md"
+  },
+  "/resources/guides/pre-settlement-finance-commercial-property-purchases-australia": {
+    "routePath": "/resources/guides/pre-settlement-finance-commercial-property-purchases-australia",
+    "title": "Pre-Settlement Finance for Commercial Property...",
+    "description": "Pre-settlement finance for Australian commercial property purchases, including when business borrowers use short-term funding before settlement,...",
+    "keywords": "pre-settlement finance commercial property, pre-settlement finance Australia, commercial property purchase finance, short term settlement finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/pre-settlement-finance-commercial-property-purchases-australia",
+    "h1": "Pre-Settlement Finance for Commercial Property Purchases in Australia",
+    "noscript": "Pre-settlement finance for Australian commercial property purchases, including when business borrowers use short-term funding before settlement, lender requirements, risks and alternatives.",
+    "sourcePath": "src/content/guides/pre-settlement-finance-commercial-property-purchases-australia.md"
   },
   "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean": {
     "routePath": "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
