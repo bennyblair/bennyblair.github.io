@@ -1519,6 +1519,16 @@
     "noscript": "Quick caveat loans explained for commercial borrowers. Learn what affects settlement timing, document readiness, title checks, lender assessment, and exit planning.",
     "sourcePath": "src/content/guides/quick-caveat-loans-48-hour-settlement-possible.md"
   },
+  "/resources/guides/re-tenant-then-refinance-commercial-property-finance": {
+    "routePath": "/resources/guides/re-tenant-then-refinance-commercial-property-finance",
+    "title": "Commercial Property Re-Tenant Then Refinance Strategy",
+    "description": "How commercial property owners can use a re-tenant then refinance strategy, including holding costs, lease evidence, lender assessment, risks and...",
+    "keywords": "re-tenant then refinance, commercial property refinance, vacant commercial property finance, commercial investment property finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/re-tenant-then-refinance-commercial-property-finance",
+    "h1": "Commercial Property Re-Tenant Then Refinance Strategy",
+    "noscript": "How commercial property owners can use a re-tenant then refinance strategy, including holding costs, lease evidence, lender assessment, risks and finance options.",
+    "sourcePath": "src/content/guides/re-tenant-then-refinance-commercial-property-finance.md"
+  },
   "/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining": {
     "routePath": "/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining",
     "title": "Refinancing Commercial Property with a Short Lease...",
@@ -1728,6 +1738,16 @@
     "h1": "Short-Term Property Loans: When You Need Fast Finance",
     "noscript": "Comprehensive guide to short-term property loans in Australia, covering bridging finance, caveat loans, and fast settlement options for time-critical property transactions.",
     "sourcePath": "src/content/guides/short-term-property-loans-when-you-need-fast-finance.md"
+  },
+  "/resources/guides/smsf-commercial-property-loan-refinance-options-australia": {
+    "routePath": "/resources/guides/smsf-commercial-property-loan-refinance-options-australia",
+    "title": "SMSF Commercial Property Loan Refinance Options in...",
+    "description": "SMSF commercial property loan refinance options for Australian business real property, including lender assessment, timing, risks and documents.",
+    "keywords": "SMSF commercial property loan refinance, SMSF commercial property loan, SMSF commercial property refinance, SMSF lending Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/smsf-commercial-property-loan-refinance-options-australia",
+    "h1": "SMSF Commercial Property Loan Refinance Options in Australia",
+    "noscript": "SMSF commercial property loan refinance options for Australian business real property, including lender assessment, timing, risks and documents.",
+    "sourcePath": "src/content/guides/smsf-commercial-property-loan-refinance-options-australia.md"
   },
   "/resources/guides/smsf-loans-for-commercial-property": {
     "routePath": "/resources/guides/smsf-loans-for-commercial-property",
