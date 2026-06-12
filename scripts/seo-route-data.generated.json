@@ -319,6 +319,16 @@
     "noscript": "Business line of credit explained for Australian commercial borrowers, including how it works, lender assessment, documents, risks, and alternatives.",
     "sourcePath": "src/content/guides/business-line-of-credit-australia.md"
   },
+  "/resources/guides/business-loan-requirements-australia-commercial-borrowers": {
+    "routePath": "/resources/guides/business-loan-requirements-australia-commercial-borrowers",
+    "title": "Business Loan Requirements for Australian Commercial...",
+    "description": "Business loan requirements in Australia explained for commercial borrowers, including documents, security, serviceability, lender assessment, and...",
+    "keywords": "business loan requirements, business loan requirements Australia, commercial business loan documents, business finance requirements",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-loan-requirements-australia-commercial-borrowers",
+    "h1": "Business Loan Requirements for Australian Commercial Borrowers",
+    "noscript": "Business loan requirements in Australia explained for commercial borrowers, including documents, security, serviceability, lender assessment, and readiness checks.",
+    "sourcePath": "src/content/guides/business-loan-requirements-australia-commercial-borrowers.md"
+  },
   "/resources/guides/business-loans-secured-by-residential-property-in-australia": {
     "routePath": "/resources/guides/business-loans-secured-by-residential-property-in-australia",
     "title": "Business Loans Secured by Residential Property in...",
@@ -1398,6 +1408,16 @@
     "h1": "Private Credit for SME Borrowers in Australia: When It Replaces Bank Finance",
     "noscript": "Plain-English guide to private credit for SME borrowers in Australia, including when it may replace bank finance, what lenders assess, and where it does not fit. General information only - not advice.",
     "sourcePath": "src/content/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance.md"
+  },
+  "/resources/guides/private-credit-refinance-commercial-property-australia": {
+    "routePath": "/resources/guides/private-credit-refinance-commercial-property-australia",
+    "title": "Private Credit Refinance for Commercial Property in...",
+    "description": "Private credit refinance for commercial property explained for Australian business borrowers, including when it may fit, lender assessment,...",
+    "keywords": "private credit refinance commercial property Australia, commercial property refinance, private credit Australia, non-bank commercial property finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-credit-refinance-commercial-property-australia",
+    "h1": "Private Credit Refinance for Commercial Property in Australia",
+    "noscript": "Private credit refinance for commercial property explained for Australian business borrowers, including when it may fit, lender assessment, documents, risks, and exit planning.",
+    "sourcePath": "src/content/guides/private-credit-refinance-commercial-property-australia.md"
   },
   "/resources/guides/private-debt-vs-private-lending-australia": {
     "routePath": "/resources/guides/private-debt-vs-private-lending-australia",
