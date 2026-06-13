@@ -329,6 +329,16 @@
     "noscript": "Business loan requirements in Australia explained for commercial borrowers, including documents, security, serviceability, lender assessment, and readiness checks.",
     "sourcePath": "src/content/guides/business-loan-requirements-australia-commercial-borrowers.md"
   },
+  "/resources/guides/business-loan-terms-explained-australia": {
+    "routePath": "/resources/guides/business-loan-terms-explained-australia",
+    "title": "Business Loan Terms Explained for Australian...",
+    "description": "Business loan terms explained for Australian business owners, including facility length, repayment structure, security, covenants, fees, and exit...",
+    "keywords": "business loan term, business loan terms Australia, commercial loan terms, business finance terms",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-loan-terms-explained-australia",
+    "h1": "Business Loan Terms Explained for Australian Commercial Borrowers",
+    "noscript": "Business loan terms explained for Australian business owners, including facility length, repayment structure, security, covenants, fees, and exit planning.",
+    "sourcePath": "src/content/guides/business-loan-terms-explained-australia.md"
+  },
   "/resources/guides/business-loans-secured-by-residential-property-in-australia": {
     "routePath": "/resources/guides/business-loans-secured-by-residential-property-in-australia",
     "title": "Business Loans Secured by Residential Property in...",
@@ -1278,6 +1288,16 @@
     "h1": "No Doc ABN Loans in Australia",
     "noscript": "A practical guide to no doc ABN loans for Australian commercial borrowers, including what lenders really mean by no doc, when security matters most, and when a property-backed or private lending structure may be more realistic.",
     "sourcePath": "src/content/guides/no-doc-abn-loans.md"
+  },
+  "/resources/guides/obtaining-a-business-loan-australia": {
+    "routePath": "/resources/guides/obtaining-a-business-loan-australia",
+    "title": "Obtaining a Business Loan in Australia: Commercial...",
+    "description": "A practical guide to obtaining a business loan in Australia, covering preparation, documents, lender assessment, security, approval steps, and...",
+    "keywords": "obtaining a business loan, how to get a business loan Australia, business loan application, commercial finance application",
+    "canonical": "https://emetcapital.com.au/resources/guides/obtaining-a-business-loan-australia",
+    "h1": "Obtaining a Business Loan in Australia: Commercial Borrower Guide",
+    "noscript": "A practical guide to obtaining a business loan in Australia, covering preparation, documents, lender assessment, security, approval steps, and settlement.",
+    "sourcePath": "src/content/guides/obtaining-a-business-loan-australia.md"
   },
   "/resources/guides/office-property-loans-financing-commercial-workspace": {
     "routePath": "/resources/guides/office-property-loans-financing-commercial-workspace",
