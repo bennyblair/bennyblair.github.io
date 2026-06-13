@@ -1,6 +1,6 @@
 ---
-title: "Caveat Loans Australia: Business Funding Guide"
-description: "Caveat loans in Australia explained for business borrowers. Learn when property-backed caveat finance fits, key risks, documents, costs, and exits."
+title: "Caveat Loans Australia: Complete Business Funding Guide"
+description: "Caveat loans in Australia explained for business borrowers needing short-term property-backed funding. Compare fit, risks, documents, costs, alternatives, and exits."
 date: "2025-09-30"
 category: "Property Finance"
 slug: "caveat-loans-australia-complete-guide"
@@ -13,7 +13,7 @@ keywords:
   - "caveat lending Australia"
 readTime: "12 min read"
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-13"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -58,6 +58,7 @@ Explore our specialist caveat loans guides for specific scenarios:
 | **Main lender focus** | Property security, equity, title position, loan purpose, documents, and exit strategy. |
 | **Main risk** | Costs and default pressure if the exit does not happen as planned. |
 | **Better alternatives when time allows** | [Commercial refinance](/resources/guides/commercial-property-refinancing-solutions), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or [first and second mortgages](/resources/guides/second-mortgages-for-business-guide). |
+| **Broker test** | If the borrower cannot name the exit before settlement, the caveat loan is usually not ready. |
 
 ---
 

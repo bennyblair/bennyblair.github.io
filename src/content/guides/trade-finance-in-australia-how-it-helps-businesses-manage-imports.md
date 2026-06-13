@@ -306,6 +306,7 @@ International trade success often depends on access to appropriate financing and
 
 ### Related Guides
 
+- **[Purchase Order Finance vs Trade Finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)** — compare supplier, import, and confirmed-order funding structures.
 - [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
 - [Asset-Backed Lending Solutions](/services/asset-backed-lending)
 - [Invoice Finance in Australia: How Businesses Use It](/resources/guides/invoice-finance-australia-complete-guide)

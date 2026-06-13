@@ -40,13 +40,13 @@ const FirstSecondMortgages = () => {
   return (
     <>
       <SEO
-        title="Second Mortgage Business Loans Australia | Emet Capital"
-        description="First and second mortgage business loans for Australian commercial borrowers using property equity for acquisitions, refinance gaps, or working capital."
+        title="First & Second Mortgage Business Loans Australia | Emet Capital"
+        description="First and second mortgage business loans for commercial borrowers using property equity for acquisitions, partner buyouts, refinance gaps, and working capital."
         canonical="/services/first-second-mortgages"
         keywords="second mortgage business loan, first mortgage commercial loan, commercial mortgage, property-backed business loans, commercial property finance"
         schemas={[generateServiceSchema(
           "First and Second Mortgage Business Loans",
-          "Commercial first and second mortgage finance for Australian business borrowers using property equity for acquisitions, refinance gaps, working capital, and short-term funding structures.",
+          "Commercial first and second mortgage finance for Australian business borrowers using property equity for acquisitions, partner buyouts, refinance gaps, working capital, and short-term funding structures.",
           "https://emetcapital.com.au/services/first-second-mortgages"
         )]}
       />
@@ -128,6 +128,9 @@ const FirstSecondMortgages = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through the finance process, from initial assessment and lender selection through documentation preparation and settlement. Our expertise includes both first and second mortgage positioning, enabling strategic capital structuring. Timeframes depend on the security, valuation, consent requirements, and lender appetite, so we focus on packaging the file clearly and matching it to lenders that fit the transaction.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                For deeper education before enquiring, read our <Link to="/resources/guides/second-mortgages-for-business-guide" className="text-accent underline">second mortgages for business guide</Link>, <Link to="/resources/guides/second-mortgage-partnership-buyout-financing-transitions" className="text-accent underline">partnership buyout finance guide</Link>, and <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">business partner buyout guide</Link>.
               </p>
             </section>
 

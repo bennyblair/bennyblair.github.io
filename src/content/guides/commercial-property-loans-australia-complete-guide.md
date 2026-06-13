@@ -221,6 +221,9 @@ Professional advice from experienced commercial finance brokers, lawyers, and ac
 
 ## Related Guides
 
+- **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how lenders assess borrowing capacity and repayment strength.
+- **[How To Buy Commercial Property Step By Step](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — purchase sequence, due diligence, finance timing, and settlement planning.
+- **[Owner-Occupier Commercial Loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)** — buying premises your business will occupy.
 - [Commercial Property Refinancing Solutions in Australia](/resources/guides/commercial-property-refinancing-solutions)
 - [Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Construction Finance in Australia: The Complete Guide for Commercial Builds](/resources/guides/construction-finance-australia-complete-guide)

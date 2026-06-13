@@ -4,7 +4,7 @@ description: "How newer Australian businesses can prepare evidence for a first c
 date: "2025-11-05"
 category: "Guides"
 author: "Ben"
-reviewed_date: "2026-06-08"
+reviewed_date: "2026-06-13"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -81,6 +81,8 @@ A lender-ready file explains why buying now is commercially sensible rather than
 ## Evidence Checklist For A First Premises Loan
 
 Prepare the file before approaching lenders:
+
+> **Broker note:** for a newer-business premises purchase, the strongest file usually separates evidence into three folders: the property case, the business case, and the fallback case. That lets the lender see that the borrower has not confused a good property with an automatically serviceable loan.
 
 - current management accounts
 - BAS and business bank statements

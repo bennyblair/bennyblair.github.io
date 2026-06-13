@@ -10,7 +10,7 @@ keywords:
   - "auction settlement bridging finance"
 readTime: "10 min read"
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-13"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -51,7 +51,7 @@ This example is for borrowers evaluating whether a [commercial bridging finance]
 
 The borrower in this case study was an investor purchasing a mixed-use commercial property in Melbourne’s inner north for $2.74 million. The asset had strong tenant demand, acceptable lease coverage, and repositioning upside. The problem was settlement timing.
 
-the borrower in this scenario wins the property at auction with the usual contractual certainty that auctions create. That meant the deposit was committed and the settlement date was fixed. A bank term sheet had already been discussed, but the lender could not complete valuation, legal review, and final credit approval within the available window.
+The borrower in this scenario wins the property at auction with the usual contractual certainty that auctions create. That meant the deposit was committed and the settlement date was fixed. A bank term sheet had already been discussed, but the lender could not complete valuation, legal review, and final credit approval within the available window.
 
 This is a classic auction problem. The buyer may be fundamentally bankable, but auction contracts do not wait for lender process.
 
@@ -147,6 +147,8 @@ For some buyers, the better answer may be not bidding until funding is properly 
 ## What Borrowers Should Have Ready Before Auction Day
 
 Borrowers considering an auction strategy should prepare before the bidding starts. Short-term lenders move faster when the file is already coherent.
+
+A broker-side auction file usually needs two parallel packs. The first pack proves the bridge can settle: title details, contract, deposit evidence, valuation support, entity documents, and solicitor readiness. The second proves the bridge can end: refinance correspondence, sale evidence, lease income, or another documented repayment source.
 
 Helpful preparation usually includes:
 
