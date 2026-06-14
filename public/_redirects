@@ -18,6 +18,11 @@ https://www.emetcapital.com.au/resources/case-studies/adelaide-cbd-office-comple
 http://emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
 https://www.emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
 
+
+# Technical SEO service aliases
+/services/second-mortgage /services/first-second-mortgages 301!
+/services/business-finance /services/working-capital 301!
+
 # Legacy path fixes
 /contact-6 /contact 301
 /about-us /about 301
@@ -70,3 +75,6 @@ https://www.emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
 /resources/guides/commercial-bridging-loans-property-auctions-expert-guide /resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide 301
 /resources/guides/finding-best-private-lenders-for-your-business /resources/guides/finding-comparing-private-lenders-loans-2025-guide 301
 /resources/guides/private-lenders-small-business-fast-approval-guide /resources/guides/what-is-private-lending-australia 301
+
+# Unknown URLs should return a real 404, not homepage content.
+/* /index.html 404

@@ -298,6 +298,20 @@
   to = "/resources/guides/subordination-agreement-second-mortgage"
   status = 301
 
+
+# Technical SEO service aliases
+[[redirects]]
+  from = "/services/second-mortgage"
+  to = "/services/first-second-mortgages"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/business-finance"
+  to = "/services/working-capital"
+  status = 301
+  force = true
+
 # Legacy page redirects
 [[redirects]]
   from = "/about-us"
@@ -601,11 +615,12 @@
 # SPA FALLBACK - MUST BE LAST
 # =============================================================================
 
-# All unmatched routes go to index.html for React Router client-side routing
+# All unmatched routes serve the React 404 shell with a real HTTP 404.
+# Valid routes are pre-rendered into dist before this rule, so they are served directly.
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
+  status = 404
 
 
 # =============================================================================
