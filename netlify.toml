@@ -619,7 +619,7 @@
 # Valid routes are pre-rendered into dist before this rule, so they are served directly.
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/404.html"
   status = 404
 
 

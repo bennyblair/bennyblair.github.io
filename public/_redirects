@@ -76,5 +76,5 @@ https://www.emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
 /resources/guides/finding-best-private-lenders-for-your-business /resources/guides/finding-comparing-private-lenders-loans-2025-guide 301
 /resources/guides/private-lenders-small-business-fast-approval-guide /resources/guides/what-is-private-lending-australia 301
 
-# Unknown URLs should return a real 404, not homepage content.
-/* /index.html 404
+# Unknown URLs should return a real 404 document, not homepage content.
+/* /404.html 404
