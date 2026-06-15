@@ -4,7 +4,7 @@ description: "How newer Australian businesses can prepare evidence for a first c
 date: "2025-11-05"
 category: "Guides"
 author: "Ben"
-reviewed_date: "2026-06-13"
+reviewed_date: "2026-06-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -35,6 +35,8 @@ For the broad product overview, use the [commercial property loans Australia com
 The broader commercial property and owner-occupier guides already explain standard lending structure. They do not fully replace this intent because newer businesses have a separate evidence problem.
 
 A mature borrower can often lead with several years of financials, stable profit, and a clean property use case. A newer borrower may need to support the same purchase with director experience, current trading, contracts, bank conduct, deposit source, cash reserves, and a sharper fallback plan. That difference is enough to keep this as a separate support guide rather than redirecting it.
+
+The cannibalisation risk is low if this page keeps that narrow job. It should not try to rank as the main commercial property loan guide, the owner-occupier guide, or the deposit guide. Its purpose is to answer one question those broader pages do not answer in enough depth: what evidence can make a first commercial premises purchase credible when the business is young or the buyer is new to commercial property.
 
 ## The Lender Question: What Replaces Missing History?
 
@@ -138,6 +140,8 @@ Private credit may be relevant only where the transaction has strong security, a
 
 ## Borrower-Evidence Checklist By Lender Concern
 
+A lender-ready file should map each weak point to specific evidence. That makes the application easier to review and gives the broker a clearer basis for matching the borrower to bank, non-bank, or private credit options.
+
 | Lender concern | Evidence to prepare | Why it matters |
 |---|---|---|
 | Deposit source | Savings history, sale proceeds, retained earnings, director contribution evidence | Shows the contribution is real and not borrowed informally |
@@ -147,6 +151,19 @@ Private credit may be relevant only where the transaction has strong security, a
 | Liquidity | Post-settlement cash reserve, fitout reserve, working-capital forecast | Reduces the risk of a cash squeeze immediately after purchase |
 | Settlement timing | Finance clause, due diligence dates, valuation timing, solicitor readiness | Prevents a good file from becoming an urgent file |
 | Fallback | Lease extension, alternate lender, bridging option, delayed settlement negotiation | Shows the borrower can manage surprises |
+
+## Decision Evidence: Keep, Wait, Or Restructure The Purchase
+
+The practical decision is not simply whether the property is attractive. The borrower needs to decide whether the finance file is strong enough now, whether more trading evidence should be collected, or whether the purchase should be restructured.
+
+| Decision path | Use when | Evidence that supports it |
+|---|---|---|
+| Proceed with finance | The business reason is clear and documents are already credible | Deposit source, current trading, property fit, retained cash, and fallback plan are all documented |
+| Wait for more evidence | The property is optional and the file is still thin | Another BAS period, management accounts, bank conduct, or customer contracts would materially improve the file |
+| Restructure the deal | The property is strategically important but the contract or capital stack is tight | Longer settlement, revised contribution, staged fitout, non-bank option, or bridging pathway can reduce execution risk |
+| Walk away | The purchase would drain cash or rely on optimistic forecasts | No retained working capital, weak serviceability, unclear property use, or no credible fallback |
+
+This framing helps the page stand apart from general commercial property content. It is not trying to sell every first-premises purchase as fundable. It helps a newer borrower recognise what must be proved before a lender can take the file seriously.
 
 ## Common Mistakes Newer Buyers Make
 

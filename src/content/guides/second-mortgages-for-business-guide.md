@@ -28,7 +28,7 @@ This guide provides systematic decision framework evaluating whether [first & se
 
 > **📖 Explainer hub**: This is Emet Capital's main guide to second mortgages for business borrowers. For an enquiry-focused overview, see [First and Second Mortgages](/services/first-second-mortgages).
 
-### Related Second Mortgage And Exit Guides
+### Related In-Depth Guides
 
 - **[Second Mortgage Partnership Buyout Financing](/resources/guides/second-mortgage-partnership-buyout-financing-transitions)** — funding partner exits and ownership transitions.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — focused buyout structure, valuation, and exit planning.
@@ -233,7 +233,15 @@ Strategic structuring maximises second mortgage benefits: borrowing minimum amou
 
 Ready to evaluate whether second mortgages suit your business? Conduct thorough ROI analysis projecting returns from funded activities, compare against alternatives including full refinancing or unsecured lending, and assess your specific risk factors. Engage experienced finance brokers who can provide personalised analysis, access to appropriate lenders, and expert guidance structuring second mortgages that genuinely solve business problems rather than creating new ones.
 
-*Disclaimer: This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+## Related Guides
+
+- **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — compare security position, lender control, and borrower implications.
+- **[Second Mortgage Application Checklist](/resources/guides/second-mortgage-application-checklist-australia)** — documents and evidence to prepare before applying.
+- **[Second Mortgage Consent Refused](/resources/guides/second-mortgage-consent-refused-australia)** — what to review if the first lender will not consent.
+- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — compare full refinance against keeping the first mortgage in place.
+- **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — understand the broader lender-choice trade-off.
+
+*Disclaimer: This article provides general information only and should not be considered financial advice. Consult with a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.*
 
 *Author: Written by the expert team at Emet Capital, experienced finance brokers specialising in commercial property and business lending across Australia.*
 

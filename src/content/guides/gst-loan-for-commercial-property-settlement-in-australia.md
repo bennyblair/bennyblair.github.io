@@ -6,7 +6,7 @@ category: "Commercial Property Loans"
 tags: ["GST Loan", "Commercial Property Settlement", "Short-Term Finance", "Private Lending", "Commercial Property Loans"]
 readingTime: 11
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -40,6 +40,7 @@ For investors, developers, and business owners, this is really a timing and stru
 - Lenders usually want a clear exit, such as BAS refund timing, refinance, incoming capital, or another defined capital event.
 - This type of funding is often considered alongside bridging finance, private lending, or a temporary second facility.
 - It works best when the borrower is solving a specific timing problem, not papering over an underfunded transaction.
+- This guide is about funding structure, not GST advice. Borrowers should confirm tax treatment with their accountant or tax adviser before relying on any expected recovery, offset, or BAS timing.
 
 ## Who This Is For
 
@@ -50,6 +51,12 @@ This guide is for:
 - business owners purchasing commercial premises and trying to avoid a last-minute settlement shortfall
 - borrowers comparing a GST settlement loan with broader [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or refinance options
 - advisers and brokers who need a practical explanation of how this funding gap is commonly handled
+
+## Why This Page Was Reworked Instead Of Consolidated
+
+This page should remain separate only if it keeps a narrow settlement-funding purpose. The broader [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide) explains the overall product, and the [commercial property settlement process guide](/resources/guides/commercial-property-settlement-process-finance-timeline) explains the timeline. This page adds value when it answers the GST-specific cash gap: how the shortfall appears, how a temporary facility may be structured, what evidence lenders need, and when the borrower should avoid adding another debt layer.
+
+The cannibalisation risk is moderate if the page drifts into generic commercial property finance. To avoid that, the recovery angle is GST settlement funding only: a precise gap, a defined repayment event, accountant-confirmed tax treatment, and a lender-ready settlement pack.
 
 ## What is a GST loan for commercial property settlement?
 
@@ -123,6 +130,19 @@ A GST loan still needs to be repaid. If there is no credible exit, the borrower 
 
 Sometimes the right answer is not another loan. It may be renegotiating timing, adjusting the structure earlier, or ensuring the main facility better matches the actual settlement requirement.
 
+## GST Settlement Funding Evidence Pack
+
+A GST settlement loan is easier to assess when the file proves the gap is real, specific, and temporary. A thin file that simply says “GST is payable” will usually raise more questions than it answers.
+
+| Evidence item | What it should show | Why lenders care |
+|---|---|---|
+| Contract and GST clause | Whether GST applies, how it is treated, and when it is payable | Confirms the shortfall is tied to the actual transaction, not a rough assumption |
+| Settlement statement or solicitor estimate | Purchase price, adjustments, duty, GST, legal costs, lender fees, and required contribution | Defines the exact funding gap |
+| Senior lender approval or term sheet | What the main facility does and does not fund | Shows whether the core acquisition is viable |
+| Accountant or tax adviser note | Expected GST treatment, BAS timing, margin-scheme issues, or other relevant tax assumptions | Keeps the finance decision separate from tax advice |
+| Exit evidence | Refinance path, incoming funds, BAS-related timing, or asset sale timeline | Shows how the short-term loan is meant to be cleared |
+| Liquidity schedule | Cash retained after settlement and post-settlement working capital | Reduces the risk that the borrower settles but immediately becomes cash-stressed |
+
 ## What lenders usually look at
 
 ### The property and overall transaction quality
@@ -142,6 +162,17 @@ Lenders will usually ask how much equity or cash the borrower is already putting
 This is the centre of the credit decision. A strong file might say: “The GST gap is $220,000, settlement is in ten days, and the exit is expected from refinance proceeds within eight weeks.”
 
 That is a different conversation from: “We just need extra money and will work it out later.”
+
+## GST Loan vs Pre-Settlement Finance vs Broader Bridging Finance
+
+A GST settlement facility can overlap with other short-term property funding, but the intent should be clear. If the page is treated as a generic bridging article, it becomes duplicative. If it stays focused on the GST cash gap, it earns its place in the commercial property cluster.
+
+| Structure | Main problem it solves | Better guide if that is the real issue |
+|---|---|---|
+| GST settlement loan | A defined GST-related cash shortfall at commercial property settlement | This page |
+| Pre-settlement finance | Funding required before settlement to preserve a transaction or complete conditions | [Pre-settlement finance](/resources/guides/pre-settlement-finance-commercial-property-purchases-australia) |
+| Broader bridging finance | Multiple timing gaps, sale/refinance delays, linked settlements, or project transition | [Bridging finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide) |
+| Commercial property loan | Core purchase or refinance debt for the property itself | [Commercial property loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide) |
 
 ## GST loan vs broader bridging finance
 
@@ -233,4 +264,4 @@ It tends to work best when the shortfall is clearly defined, the asset and senio
 - [Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
