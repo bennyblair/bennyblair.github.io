@@ -1449,6 +1449,16 @@
     "noscript": "Private credit refinance for commercial property explained for Australian business borrowers, including when it may fit, lender assessment, documents, risks, and exit planning.",
     "sourcePath": "src/content/guides/private-credit-refinance-commercial-property-australia.md"
   },
+  "/resources/guides/private-debt-australia": {
+    "routePath": "/resources/guides/private-debt-australia",
+    "title": "Private Debt Australia: Guide for Commercial Borrowers",
+    "description": "Private debt in Australia explained for business owners, property investors, and developers comparing bank finance, private lending,...",
+    "keywords": "private debt Australia, private debt for business, private credit Australia, private lending Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-debt-australia",
+    "h1": "Private Debt Australia: Guide for Commercial Borrowers",
+    "noscript": "Private debt in Australia explained for business owners, property investors, and developers comparing bank finance, private lending, mortgage-backed loans, and short-term commercial funding.",
+    "sourcePath": "src/content/guides/private-debt-australia.md"
+  },
   "/resources/guides/private-debt-vs-private-lending-australia": {
     "routePath": "/resources/guides/private-debt-vs-private-lending-australia",
     "title": "Private Debt vs Private Lending in Australia",
@@ -1638,6 +1648,16 @@
     "h1": "Seasonal Stock Finance in Australia: Funding Inventory Before Peak Trading Periods",
     "noscript": "Guide to seasonal stock finance for Australian businesses, including inventory timing, repayment planning, lender assessment, and when stock funding makes sense. General information only, not advice.",
     "sourcePath": "src/content/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods.md"
+  },
+  "/resources/guides/second-mortgage-application-checklist-australia": {
+    "routePath": "/resources/guides/second-mortgage-application-checklist-australia",
+    "title": "Second Mortgage Application Checklist Australia",
+    "description": "A practical second mortgage application checklist for Australian business borrowers, covering equity, consent, documents, exit strategy, risks,...",
+    "keywords": "second mortgage application checklist Australia, second mortgage documents, second mortgage for business, commercial second mortgage checklist",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-application-checklist-australia",
+    "h1": "Second Mortgage Application Checklist Australia",
+    "noscript": "A practical second mortgage application checklist for Australian business borrowers, covering equity, consent, documents, exit strategy, risks, and broker preparation.",
+    "sourcePath": "src/content/guides/second-mortgage-application-checklist-australia.md"
   },
   "/resources/guides/second-mortgage-bad-credit-qualify": {
     "routePath": "/resources/guides/second-mortgage-bad-credit-qualify",
