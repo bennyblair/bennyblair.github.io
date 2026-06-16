@@ -814,9 +814,17 @@ function inferServiceCityMeta(routePath, componentMeta) {
   const citySlug = parts.at(-1) || '';
   const serviceSlug = parts.includes('cities') ? parts[parts.indexOf('cities') - 1] : parts.at(-2) || '';
   const city = titleCase(citySlug);
-  const service = titleCase(serviceSlug);
+  const serviceDisplayNames = {
+    'first-second-mortgages': '1st & 2nd Mortgages',
+  };
+  const service = serviceDisplayNames[serviceSlug] || titleCase(serviceSlug);
   const inferredH1 = `${service} ${city}`;
-  const baseTitle = componentMeta.title || `${service} ${city} | Emet Capital`;
+  const defaultTitle = serviceSlug === 'first-second-mortgages'
+    ? `${service} ${city} | Commercial Property Finance | Emet Capital`
+    : `${service} ${city} | Emet Capital`;
+  const baseTitle = !componentMeta.title || /^Services\b/i.test(componentMeta.title)
+    ? defaultTitle
+    : componentMeta.title;
   const cityDescription = buildCityMetaDescription(serviceSlug, service, city);
   const description = !componentMeta.description || /^Explore Services\b/i.test(componentMeta.description) || /solutions in .+ from Emet Capital/i.test(componentMeta.description)
     ? cityDescription
@@ -839,7 +847,7 @@ function buildCityMetaDescription(serviceSlug, service, city) {
     'asset-backed-lending': `Asset-backed lending in ${city} for business borrowers using property, equipment or receivables as security. Discuss structure with Emet Capital.`,
     'bridging-finance': `Bridging finance in ${city} for commercial acquisitions, refinance gaps and settlement deadlines where security and exit are clear.`,
     'private-lending': `Private lending in ${city} for business borrowers who need non-bank options assessed against security, purpose, documents and exit.`,
-    'first-second-mortgages': `First and second mortgage options in ${city} for business borrowers using property equity where security and exit are clear.`,
+    'first-second-mortgages': `${city} second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure, equity release, and time-sensitive transactions.`,
     'commercial-property-development': `Commercial property development finance in ${city} for site acquisition, construction and residual stock scenarios subject to assessment.`,
     'refinancing-solutions': `Commercial refinancing in ${city} for business borrowers seeking to restructure debt, release equity or solve timing pressure.`,
     'business-acquisition': `Business acquisition finance in ${city} for buyers assessing security, cash flow, vendor timing and repayment strategy.`,

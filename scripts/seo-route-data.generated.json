@@ -191,22 +191,22 @@
   },
   "/resources/guides/bridging-finance-melbourne-fast-property-solutions": {
     "routePath": "/resources/guides/bridging-finance-melbourne-fast-property-solutions",
-    "title": "Bridging Finance Melbourne: Fast Property Solutions",
-    "description": "Guide to bridging finance for Melbourne commercial property buyers, investors and business owners. Learn when bridging can help, when it does not,...",
-    "keywords": "bridging finance melbourne, commercial bridging finance Melbourne, Melbourne property bridging loan",
+    "title": "Fast Melbourne Commercial Property Settlement:...",
+    "description": "Educational guide to fast Melbourne commercial property settlement and bridging finance timing. Learn when a bridge may support settlement,...",
+    "keywords": "fast commercial property settlement Melbourne, Melbourne refinance timing gap, bridging finance settlement documents",
     "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-melbourne-fast-property-solutions",
-    "h1": "Bridging Finance Melbourne: Fast Property Solutions",
-    "noscript": "Guide to bridging finance for Melbourne commercial property buyers, investors and business owners. Learn when bridging can help, when it does not, and what lenders assess. General information only - not advice.",
+    "h1": "Fast Melbourne Commercial Property Settlement: Bridging Finance Timing Guide",
+    "noscript": "Educational guide to fast Melbourne commercial property settlement and bridging finance timing. Learn when a bridge may support settlement, refinance delays, documents, and risk. General information only - not advice.",
     "sourcePath": "src/content/guides/bridging-finance-melbourne-fast-property-solutions.md"
   },
   "/resources/guides/bridging-finance-sydney-48-hour-settlement-possible": {
     "routePath": "/resources/guides/bridging-finance-sydney-48-hour-settlement-possible",
-    "title": "Bridging Finance Sydney: Is 48-Hour Settlement...",
-    "description": "Guide to bridging finance in Sydney for commercial borrowers. Learn when 48-hour settlement may be possible, what lenders need, and when bridging...",
-    "keywords": "bridging finance sydney, sydney bridging finance, commercial bridging loan sydney, bridging loan sydney commercial",
+    "title": "48-Hour Bridging Settlement in Sydney: Readiness...",
+    "description": "Educational guide for Sydney commercial borrowers assessing whether a 48-hour bridging settlement is realistic, what documents lenders need, and...",
+    "keywords": "48 hour bridging settlement Sydney, urgent bridging settlement checklist, Sydney commercial settlement readiness, bridging finance documents Sydney",
     "canonical": "https://emetcapital.com.au/resources/guides/bridging-finance-sydney-48-hour-settlement-possible",
-    "h1": "Bridging Finance Sydney: Is 48-Hour Settlement Really Possible for Commercial Borrowers?",
-    "noscript": "Guide to bridging finance in Sydney for commercial borrowers. Learn when 48-hour settlement may be possible, what lenders need, and when bridging finance is the wrong tool. Informational only.",
+    "h1": "48-Hour Bridging Settlement in Sydney: Readiness Reality Check",
+    "noscript": "Educational guide for Sydney commercial borrowers assessing whether a 48-hour bridging settlement is realistic, what documents lenders need, and when to use the Sydney service page for terms. Informational only.",
     "sourcePath": "src/content/guides/bridging-finance-sydney-48-hour-settlement-possible.md"
   },
   "/resources/guides/bridging-loan-bank-delay-australia": {
@@ -1791,12 +1791,12 @@
   },
   "/resources/guides/second-mortgages-in-sydney-fast-local-approval": {
     "routePath": "/resources/guides/second-mortgages-in-sydney-fast-local-approval",
-    "title": "Second Mortgages in Sydney: Fast Commercial Property...",
-    "description": "Guide to second mortgages in Sydney for business borrowers. Learn when a second mortgage can help, what lenders assess, how timing works, and when...",
-    "keywords": "second mortgage sydney, second mortgages sydney, sydney second mortgage, commercial second mortgage sydney",
+    "title": "Sydney Second Mortgage Approval Readiness: Timing...",
+    "description": "Educational guide for Sydney business borrowers assessing second mortgage approval readiness, timing, lender documents, consent issues, and when...",
+    "keywords": "second mortgage approval readiness Sydney, Sydney second mortgage documents, second mortgage timing Sydney, commercial second mortgage readiness",
     "canonical": "https://emetcapital.com.au/resources/guides/second-mortgages-in-sydney-fast-local-approval",
-    "h1": "Second Mortgages in Sydney: Fast Commercial Property Finance for Business Borrowers",
-    "noscript": "Guide to second mortgages in Sydney for business borrowers. Learn when a second mortgage can help, what lenders assess, how timing works, and when not to use one. Informational only.",
+    "h1": "Sydney Second Mortgage Approval Readiness: Timing Guide for Business Borrowers",
+    "noscript": "Educational guide for Sydney business borrowers assessing second mortgage approval readiness, timing, lender documents, consent issues, and when to use the local service page. Informational only.",
     "sourcePath": "src/content/guides/second-mortgages-in-sydney-fast-local-approval.md"
   },
   "/resources/guides/secured-business-loans-australia": {
@@ -2611,7 +2611,7 @@
   },
   "/services/smsf-lending/cities/sydney": {
     "routePath": "/services/smsf-lending/cities/sydney",
-    "title": "Services Smsf Lending Cities Sydney | Emet Capital",
+    "title": "Smsf Lending Sydney | Emet Capital",
     "description": "SMSF commercial property lending in Sydney for trustees assessing LRBA structure, documents and compliance requirements.",
     "keywords": "smsf lending Sydney, smsf lending Sydney finance",
     "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/sydney",
@@ -2621,7 +2621,7 @@
   },
   "/services/smsf-lending/cities/melbourne": {
     "routePath": "/services/smsf-lending/cities/melbourne",
-    "title": "Services Smsf Lending Cities Melbourne | Emet Capital",
+    "title": "Smsf Lending Melbourne | Emet Capital",
     "description": "SMSF commercial property lending in Melbourne for trustees assessing LRBA structure, documents and compliance requirements.",
     "keywords": "smsf lending Melbourne, smsf lending Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/melbourne",
@@ -2631,7 +2631,7 @@
   },
   "/services/smsf-lending/cities/brisbane": {
     "routePath": "/services/smsf-lending/cities/brisbane",
-    "title": "Services Smsf Lending Cities Brisbane | Emet Capital",
+    "title": "Smsf Lending Brisbane | Emet Capital",
     "description": "SMSF commercial property lending in Brisbane for trustees assessing LRBA structure, documents and compliance requirements.",
     "keywords": "smsf lending Brisbane, smsf lending Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/brisbane",
@@ -2641,7 +2641,7 @@
   },
   "/services/smsf-lending/cities/perth": {
     "routePath": "/services/smsf-lending/cities/perth",
-    "title": "Services Smsf Lending Cities Perth | Emet Capital",
+    "title": "Smsf Lending Perth | Emet Capital",
     "description": "SMSF commercial property lending in Perth for trustees assessing LRBA structure, documents and compliance requirements.",
     "keywords": "smsf lending Perth, smsf lending Perth finance",
     "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/perth",
@@ -2651,7 +2651,7 @@
   },
   "/services/smsf-lending/cities/adelaide": {
     "routePath": "/services/smsf-lending/cities/adelaide",
-    "title": "Services Smsf Lending Cities Adelaide | Emet Capital",
+    "title": "Smsf Lending Adelaide | Emet Capital",
     "description": "SMSF commercial property lending in Adelaide for trustees assessing LRBA structure, documents and compliance requirements.",
     "keywords": "smsf lending Adelaide, smsf lending Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/adelaide",
@@ -2661,7 +2661,7 @@
   },
   "/services/smsf-lending/cities/gold-coast": {
     "routePath": "/services/smsf-lending/cities/gold-coast",
-    "title": "Services Smsf Lending Cities Gold Coast | Emet Capital",
+    "title": "Smsf Lending Gold Coast | Emet Capital",
     "description": "SMSF commercial property lending in Gold Coast for trustees assessing LRBA structure, documents and compliance requirements.",
     "keywords": "smsf lending Gold Coast, smsf lending Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/smsf-lending/cities/gold-coast",
@@ -2701,7 +2701,7 @@
   },
   "/services/private-lending/cities/sydney": {
     "routePath": "/services/private-lending/cities/sydney",
-    "title": "Services Private Lending Cities Sydney | Emet Capital",
+    "title": "Private Lending Sydney | Emet Capital",
     "description": "Private lending in Sydney for business borrowers who need non-bank options assessed against security, purpose, documents and exit.",
     "keywords": "private lending Sydney, private lending Sydney finance",
     "canonical": "https://emetcapital.com.au/services/private-lending/cities/sydney",
@@ -2711,7 +2711,7 @@
   },
   "/services/private-lending/cities/melbourne": {
     "routePath": "/services/private-lending/cities/melbourne",
-    "title": "Services Private Lending Cities Melbourne | Emet Capital",
+    "title": "Private Lending Melbourne | Emet Capital",
     "description": "Private lending in Melbourne for business borrowers who need non-bank options assessed against security, purpose, documents and exit.",
     "keywords": "private lending Melbourne, private lending Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/private-lending/cities/melbourne",
@@ -2721,7 +2721,7 @@
   },
   "/services/private-lending/cities/brisbane": {
     "routePath": "/services/private-lending/cities/brisbane",
-    "title": "Services Private Lending Cities Brisbane | Emet Capital",
+    "title": "Private Lending Brisbane | Emet Capital",
     "description": "Private lending in Brisbane for business borrowers who need non-bank options assessed against security, purpose, documents and exit.",
     "keywords": "private lending Brisbane, private lending Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/private-lending/cities/brisbane",
@@ -2731,7 +2731,7 @@
   },
   "/services/private-lending/cities/perth": {
     "routePath": "/services/private-lending/cities/perth",
-    "title": "Services Private Lending Cities Perth | Emet Capital",
+    "title": "Private Lending Perth | Emet Capital",
     "description": "Private lending in Perth for business borrowers who need non-bank options assessed against security, purpose, documents and exit.",
     "keywords": "private lending Perth, private lending Perth finance",
     "canonical": "https://emetcapital.com.au/services/private-lending/cities/perth",
@@ -2741,7 +2741,7 @@
   },
   "/services/private-lending/cities/adelaide": {
     "routePath": "/services/private-lending/cities/adelaide",
-    "title": "Services Private Lending Cities Adelaide | Emet Capital",
+    "title": "Private Lending Adelaide | Emet Capital",
     "description": "Private lending in Adelaide for business borrowers who need non-bank options assessed against security, purpose, documents and exit.",
     "keywords": "private lending Adelaide, private lending Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/private-lending/cities/adelaide",
@@ -2751,7 +2751,7 @@
   },
   "/services/private-lending/cities/gold-coast": {
     "routePath": "/services/private-lending/cities/gold-coast",
-    "title": "Services Private Lending Cities Gold Coast",
+    "title": "Private Lending Gold Coast | Emet Capital",
     "description": "Private lending in Gold Coast for business borrowers who need non-bank options assessed against security, purpose, documents and exit.",
     "keywords": "private lending Gold Coast, private lending Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/private-lending/cities/gold-coast",
@@ -2761,67 +2761,67 @@
   },
   "/services/first-second-mortgages/cities/sydney": {
     "routePath": "/services/first-second-mortgages/cities/sydney",
-    "title": "Services First Second Mortgages Cities Sydney",
-    "description": "First and second mortgage options in Sydney for business borrowers using property equity where security and exit are clear.",
-    "keywords": "first second mortgages Sydney, first second mortgages Sydney finance",
+    "title": "1st & 2nd Mortgages Sydney | Commercial Property Finance",
+    "description": "Sydney second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure,...",
+    "keywords": "1st & 2nd mortgages Sydney, 1st & 2nd mortgages Sydney finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/sydney",
-    "h1": "First Second Mortgages Sydney",
-    "noscript": "First and second mortgage options in Sydney for business borrowers using property equity where security and exit are clear.",
+    "h1": "1st & 2nd Mortgages Sydney",
+    "noscript": "Sydney second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure, equity release, and time-sensitive transactions.",
     "sourcePath": "src/pages/services/cities/FirstSecondMortgagesSydney.tsx"
   },
   "/services/first-second-mortgages/cities/melbourne": {
     "routePath": "/services/first-second-mortgages/cities/melbourne",
-    "title": "Services First Second Mortgages Cities Melbourne",
-    "description": "First and second mortgage options in Melbourne for business borrowers using property equity where security and exit are clear.",
-    "keywords": "first second mortgages Melbourne, first second mortgages Melbourne finance",
+    "title": "1st & 2nd Mortgages Melbourne | Commercial Property...",
+    "description": "Melbourne second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance...",
+    "keywords": "1st & 2nd mortgages Melbourne, 1st & 2nd mortgages Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/melbourne",
-    "h1": "First Second Mortgages Melbourne",
-    "noscript": "First and second mortgage options in Melbourne for business borrowers using property equity where security and exit are clear.",
+    "h1": "1st & 2nd Mortgages Melbourne",
+    "noscript": "Melbourne second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure, equity release, and time-sensitive transactions.",
     "sourcePath": "src/pages/services/cities/FirstSecondMortgagesMelbourne.tsx"
   },
   "/services/first-second-mortgages/cities/brisbane": {
     "routePath": "/services/first-second-mortgages/cities/brisbane",
-    "title": "Services First Second Mortgages Cities Brisbane",
-    "description": "First and second mortgage options in Brisbane for business borrowers using property equity where security and exit are clear.",
-    "keywords": "first second mortgages Brisbane, first second mortgages Brisbane finance",
+    "title": "1st & 2nd Mortgages Brisbane | Commercial Property...",
+    "description": "Brisbane second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance...",
+    "keywords": "1st & 2nd mortgages Brisbane, 1st & 2nd mortgages Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/brisbane",
-    "h1": "First Second Mortgages Brisbane",
-    "noscript": "First and second mortgage options in Brisbane for business borrowers using property equity where security and exit are clear.",
+    "h1": "1st & 2nd Mortgages Brisbane",
+    "noscript": "Brisbane second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure, equity release, and time-sensitive transactions.",
     "sourcePath": "src/pages/services/cities/FirstSecondMortgagesBrisbane.tsx"
   },
   "/services/first-second-mortgages/cities/perth": {
     "routePath": "/services/first-second-mortgages/cities/perth",
-    "title": "Services First Second Mortgages Cities Perth",
-    "description": "First and second mortgage options in Perth for business borrowers using property equity where security and exit are clear.",
-    "keywords": "first second mortgages Perth, first second mortgages Perth finance",
+    "title": "1st & 2nd Mortgages Perth | Commercial Property Finance",
+    "description": "Perth second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure,...",
+    "keywords": "1st & 2nd mortgages Perth, 1st & 2nd mortgages Perth finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/perth",
-    "h1": "First Second Mortgages Perth",
-    "noscript": "First and second mortgage options in Perth for business borrowers using property equity where security and exit are clear.",
+    "h1": "1st & 2nd Mortgages Perth",
+    "noscript": "Perth second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure, equity release, and time-sensitive transactions.",
     "sourcePath": "src/pages/services/cities/FirstSecondMortgagesPerth.tsx"
   },
   "/services/first-second-mortgages/cities/adelaide": {
     "routePath": "/services/first-second-mortgages/cities/adelaide",
-    "title": "Services First Second Mortgages Cities Adelaide",
-    "description": "First and second mortgage options in Adelaide for business borrowers using property equity where security and exit are clear.",
-    "keywords": "first second mortgages Adelaide, first second mortgages Adelaide finance",
+    "title": "1st & 2nd Mortgages Adelaide | Commercial Property...",
+    "description": "Adelaide second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance...",
+    "keywords": "1st & 2nd mortgages Adelaide, 1st & 2nd mortgages Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/adelaide",
-    "h1": "First Second Mortgages Adelaide",
-    "noscript": "First and second mortgage options in Adelaide for business borrowers using property equity where security and exit are clear.",
+    "h1": "1st & 2nd Mortgages Adelaide",
+    "noscript": "Adelaide second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure, equity release, and time-sensitive transactions.",
     "sourcePath": "src/pages/services/cities/FirstSecondMortgagesAdelaide.tsx"
   },
   "/services/first-second-mortgages/cities/gold-coast": {
     "routePath": "/services/first-second-mortgages/cities/gold-coast",
-    "title": "Services First Second Mortgages Cities Gold Coast",
-    "description": "First and second mortgage options in Gold Coast for business borrowers using property equity where security and exit are clear.",
-    "keywords": "first second mortgages Gold Coast, first second mortgages Gold Coast finance",
+    "title": "1st & 2nd Mortgages Gold Coast | Commercial Property...",
+    "description": "Gold Coast second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance...",
+    "keywords": "1st & 2nd mortgages Gold Coast, 1st & 2nd mortgages Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/first-second-mortgages/cities/gold-coast",
-    "h1": "First Second Mortgages Gold Coast",
-    "noscript": "First and second mortgage options in Gold Coast for business borrowers using property equity where security and exit are clear.",
+    "h1": "1st & 2nd Mortgages Gold Coast",
+    "noscript": "Gold Coast second mortgage and commercial first mortgage solutions for business borrowers using property equity for acquisitions, refinance pressure, equity release, and time-sensitive transactions.",
     "sourcePath": "src/pages/services/cities/FirstSecondMortgagesGoldCoast.tsx"
   },
   "/services/commercial-property-development/cities/sydney": {
     "routePath": "/services/commercial-property-development/cities/sydney",
-    "title": "Services Commercial Property Development Cities Sydney",
+    "title": "Commercial Property Development Sydney | Emet Capital",
     "description": "Commercial property development finance in Sydney for site acquisition, construction and residual stock scenarios subject to assessment.",
     "keywords": "commercial property development Sydney, commercial property development Sydney finance",
     "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/sydney",
@@ -2831,7 +2831,7 @@
   },
   "/services/commercial-property-development/cities/melbourne": {
     "routePath": "/services/commercial-property-development/cities/melbourne",
-    "title": "Services Commercial Property Development Cities...",
+    "title": "Commercial Property Development Melbourne | Emet Capital",
     "description": "Commercial property development finance in Melbourne for site acquisition, construction and residual stock scenarios subject to assessment.",
     "keywords": "commercial property development Melbourne, commercial property development Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/melbourne",
@@ -2841,7 +2841,7 @@
   },
   "/services/commercial-property-development/cities/brisbane": {
     "routePath": "/services/commercial-property-development/cities/brisbane",
-    "title": "Services Commercial Property Development Cities Brisbane",
+    "title": "Commercial Property Development Brisbane | Emet Capital",
     "description": "Commercial property development finance in Brisbane for site acquisition, construction and residual stock scenarios subject to assessment.",
     "keywords": "commercial property development Brisbane, commercial property development Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/brisbane",
@@ -2851,7 +2851,7 @@
   },
   "/services/commercial-property-development/cities/perth": {
     "routePath": "/services/commercial-property-development/cities/perth",
-    "title": "Services Commercial Property Development Cities Perth",
+    "title": "Commercial Property Development Perth | Emet Capital",
     "description": "Commercial property development finance in Perth for site acquisition, construction and residual stock scenarios subject to assessment.",
     "keywords": "commercial property development Perth, commercial property development Perth finance",
     "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/perth",
@@ -2861,7 +2861,7 @@
   },
   "/services/commercial-property-development/cities/adelaide": {
     "routePath": "/services/commercial-property-development/cities/adelaide",
-    "title": "Services Commercial Property Development Cities Adelaide",
+    "title": "Commercial Property Development Adelaide | Emet Capital",
     "description": "Commercial property development finance in Adelaide for site acquisition, construction and residual stock scenarios subject to assessment.",
     "keywords": "commercial property development Adelaide, commercial property development Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/adelaide",
@@ -2871,7 +2871,7 @@
   },
   "/services/commercial-property-development/cities/gold-coast": {
     "routePath": "/services/commercial-property-development/cities/gold-coast",
-    "title": "Services Commercial Property Development Cities Gold...",
+    "title": "Commercial Property Development Gold Coast",
     "description": "Commercial property development finance in Gold Coast for site acquisition, construction and residual stock scenarios subject to assessment.",
     "keywords": "commercial property development Gold Coast, commercial property development Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/commercial-property-development/cities/gold-coast",
@@ -2941,7 +2941,7 @@
   },
   "/services/asset-finance/cities/sydney": {
     "routePath": "/services/asset-finance/cities/sydney",
-    "title": "Services Asset Finance Cities Sydney | Emet Capital",
+    "title": "Asset Finance Sydney | Emet Capital",
     "description": "Asset Finance options in Sydney for Australian business borrowers, subject to lender assessment and clear documents.",
     "keywords": "asset finance Sydney, asset finance Sydney finance",
     "canonical": "https://emetcapital.com.au/services/asset-finance/cities/sydney",
@@ -2951,7 +2951,7 @@
   },
   "/services/asset-finance/cities/melbourne": {
     "routePath": "/services/asset-finance/cities/melbourne",
-    "title": "Services Asset Finance Cities Melbourne | Emet Capital",
+    "title": "Asset Finance Melbourne | Emet Capital",
     "description": "Asset Finance options in Melbourne for Australian business borrowers, subject to lender assessment and clear documents.",
     "keywords": "asset finance Melbourne, asset finance Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/asset-finance/cities/melbourne",
@@ -2961,7 +2961,7 @@
   },
   "/services/asset-finance/cities/brisbane": {
     "routePath": "/services/asset-finance/cities/brisbane",
-    "title": "Services Asset Finance Cities Brisbane | Emet Capital",
+    "title": "Asset Finance Brisbane | Emet Capital",
     "description": "Asset Finance options in Brisbane for Australian business borrowers, subject to lender assessment and clear documents.",
     "keywords": "asset finance Brisbane, asset finance Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/asset-finance/cities/brisbane",
@@ -2971,7 +2971,7 @@
   },
   "/services/asset-finance/cities/perth": {
     "routePath": "/services/asset-finance/cities/perth",
-    "title": "Services Asset Finance Cities Perth | Emet Capital",
+    "title": "Asset Finance Perth | Emet Capital",
     "description": "Asset Finance options in Perth for Australian business borrowers, subject to lender assessment and clear documents.",
     "keywords": "asset finance Perth, asset finance Perth finance",
     "canonical": "https://emetcapital.com.au/services/asset-finance/cities/perth",
@@ -2981,7 +2981,7 @@
   },
   "/services/asset-finance/cities/adelaide": {
     "routePath": "/services/asset-finance/cities/adelaide",
-    "title": "Services Asset Finance Cities Adelaide | Emet Capital",
+    "title": "Asset Finance Adelaide | Emet Capital",
     "description": "Asset Finance options in Adelaide for Australian business borrowers, subject to lender assessment and clear documents.",
     "keywords": "asset finance Adelaide, asset finance Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/asset-finance/cities/adelaide",
@@ -2991,7 +2991,7 @@
   },
   "/services/asset-finance/cities/gold-coast": {
     "routePath": "/services/asset-finance/cities/gold-coast",
-    "title": "Services Asset Finance Cities Gold Coast | Emet Capital",
+    "title": "Asset Finance Gold Coast | Emet Capital",
     "description": "Asset Finance options in Gold Coast for Australian business borrowers, subject to lender assessment and clear documents.",
     "keywords": "asset finance Gold Coast, asset finance Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/asset-finance/cities/gold-coast",
@@ -3001,7 +3001,7 @@
   },
   "/services/asset-backed-lending/sydney": {
     "routePath": "/services/asset-backed-lending/sydney",
-    "title": "Services Asset Backed Lending Sydney | Emet Capital",
+    "title": "Asset Backed Lending Sydney | Emet Capital",
     "description": "Asset-backed lending in Sydney for business borrowers using property, equipment or receivables as security. Discuss structure with Emet Capital.",
     "keywords": "asset backed lending Sydney, asset backed lending Sydney finance",
     "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
@@ -3011,7 +3011,7 @@
   },
   "/services/asset-backed-lending/melbourne": {
     "routePath": "/services/asset-backed-lending/melbourne",
-    "title": "Services Asset Backed Lending Melbourne | Emet Capital",
+    "title": "Asset Backed Lending Melbourne | Emet Capital",
     "description": "Asset-backed lending in Melbourne for business borrowers using property, equipment or receivables as security. Discuss structure with Emet Capital.",
     "keywords": "asset backed lending Melbourne, asset backed lending Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/asset-backed-lending/melbourne",
@@ -3021,7 +3021,7 @@
   },
   "/services/asset-backed-lending/brisbane": {
     "routePath": "/services/asset-backed-lending/brisbane",
-    "title": "Services Asset Backed Lending Brisbane | Emet Capital",
+    "title": "Asset Backed Lending Brisbane | Emet Capital",
     "description": "Asset-backed lending in Brisbane for business borrowers using property, equipment or receivables as security. Discuss structure with Emet Capital.",
     "keywords": "asset backed lending Brisbane, asset backed lending Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/asset-backed-lending/brisbane",
@@ -3031,7 +3031,7 @@
   },
   "/services/asset-backed-lending/perth": {
     "routePath": "/services/asset-backed-lending/perth",
-    "title": "Services Asset Backed Lending Perth | Emet Capital",
+    "title": "Asset Backed Lending Perth | Emet Capital",
     "description": "Asset-backed lending in Perth for business borrowers using property, equipment or receivables as security. Discuss structure with Emet Capital.",
     "keywords": "asset backed lending Perth, asset backed lending Perth finance",
     "canonical": "https://emetcapital.com.au/services/asset-backed-lending/perth",
@@ -3041,7 +3041,7 @@
   },
   "/services/asset-backed-lending/adelaide": {
     "routePath": "/services/asset-backed-lending/adelaide",
-    "title": "Services Asset Backed Lending Adelaide | Emet Capital",
+    "title": "Asset Backed Lending Adelaide | Emet Capital",
     "description": "Asset-backed lending in Adelaide for business borrowers using property, equipment or receivables as security. Discuss structure with Emet Capital.",
     "keywords": "asset backed lending Adelaide, asset backed lending Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/asset-backed-lending/adelaide",
@@ -3051,7 +3051,7 @@
   },
   "/services/asset-backed-lending/gold-coast": {
     "routePath": "/services/asset-backed-lending/gold-coast",
-    "title": "Services Asset Backed Lending Gold Coast | Emet Capital",
+    "title": "Asset Backed Lending Gold Coast | Emet Capital",
     "description": "Asset-backed lending in Gold Coast for business borrowers using property, equipment or receivables as security. Discuss structure with Emet Capital.",
     "keywords": "asset backed lending Gold Coast, asset backed lending Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/asset-backed-lending/gold-coast",
@@ -3061,7 +3061,7 @@
   },
   "/services/refinancing-solutions/sydney": {
     "routePath": "/services/refinancing-solutions/sydney",
-    "title": "Services Refinancing Solutions Sydney | Emet Capital",
+    "title": "Refinancing Solutions Sydney | Emet Capital",
     "description": "Commercial refinancing in Sydney for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Sydney, refinancing solutions Sydney finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/sydney",
@@ -3071,7 +3071,7 @@
   },
   "/services/refinancing-solutions/melbourne": {
     "routePath": "/services/refinancing-solutions/melbourne",
-    "title": "Services Refinancing Solutions Melbourne | Emet Capital",
+    "title": "Refinancing Solutions Melbourne | Emet Capital",
     "description": "Commercial refinancing in Melbourne for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Melbourne, refinancing solutions Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/melbourne",
@@ -3081,7 +3081,7 @@
   },
   "/services/refinancing-solutions/brisbane": {
     "routePath": "/services/refinancing-solutions/brisbane",
-    "title": "Services Refinancing Solutions Brisbane | Emet Capital",
+    "title": "Refinancing Solutions Brisbane | Emet Capital",
     "description": "Commercial refinancing in Brisbane for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Brisbane, refinancing solutions Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/brisbane",
@@ -3091,7 +3091,7 @@
   },
   "/services/refinancing-solutions/cities/sydney": {
     "routePath": "/services/refinancing-solutions/cities/sydney",
-    "title": "Services Refinancing Solutions Cities Sydney",
+    "title": "Refinancing Solutions Sydney | Emet Capital",
     "description": "Commercial refinancing in Sydney for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Sydney, refinancing solutions Sydney finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/sydney",
@@ -3101,7 +3101,7 @@
   },
   "/services/refinancing-solutions/cities/melbourne": {
     "routePath": "/services/refinancing-solutions/cities/melbourne",
-    "title": "Services Refinancing Solutions Cities Melbourne",
+    "title": "Refinancing Solutions Melbourne | Emet Capital",
     "description": "Commercial refinancing in Melbourne for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Melbourne, refinancing solutions Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/melbourne",
@@ -3111,7 +3111,7 @@
   },
   "/services/refinancing-solutions/cities/brisbane": {
     "routePath": "/services/refinancing-solutions/cities/brisbane",
-    "title": "Services Refinancing Solutions Cities Brisbane",
+    "title": "Refinancing Solutions Brisbane | Emet Capital",
     "description": "Commercial refinancing in Brisbane for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Brisbane, refinancing solutions Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/brisbane",
@@ -3121,7 +3121,7 @@
   },
   "/services/refinancing-solutions/cities/perth": {
     "routePath": "/services/refinancing-solutions/cities/perth",
-    "title": "Services Refinancing Solutions Cities Perth",
+    "title": "Refinancing Solutions Perth | Emet Capital",
     "description": "Commercial refinancing in Perth for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Perth, refinancing solutions Perth finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/perth",
@@ -3131,7 +3131,7 @@
   },
   "/services/refinancing-solutions/cities/adelaide": {
     "routePath": "/services/refinancing-solutions/cities/adelaide",
-    "title": "Services Refinancing Solutions Cities Adelaide",
+    "title": "Refinancing Solutions Adelaide | Emet Capital",
     "description": "Commercial refinancing in Adelaide for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Adelaide, refinancing solutions Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/adelaide",
@@ -3141,7 +3141,7 @@
   },
   "/services/refinancing-solutions/cities/gold-coast": {
     "routePath": "/services/refinancing-solutions/cities/gold-coast",
-    "title": "Services Refinancing Solutions Cities Gold Coast",
+    "title": "Refinancing Solutions Gold Coast | Emet Capital",
     "description": "Commercial refinancing in Gold Coast for business borrowers seeking to restructure debt, release equity or solve timing pressure.",
     "keywords": "refinancing solutions Gold Coast, refinancing solutions Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/refinancing-solutions/cities/gold-coast",
@@ -3151,7 +3151,7 @@
   },
   "/services/business-acquisition/cities/sydney": {
     "routePath": "/services/business-acquisition/cities/sydney",
-    "title": "Services Business Acquisition Cities Sydney",
+    "title": "Business Acquisition Sydney | Emet Capital",
     "description": "Business acquisition finance in Sydney for buyers assessing security, cash flow, vendor timing and repayment strategy.",
     "keywords": "business acquisition Sydney, business acquisition Sydney finance",
     "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/sydney",
@@ -3161,7 +3161,7 @@
   },
   "/services/business-acquisition/cities/melbourne": {
     "routePath": "/services/business-acquisition/cities/melbourne",
-    "title": "Services Business Acquisition Cities Melbourne",
+    "title": "Business Acquisition Melbourne | Emet Capital",
     "description": "Business acquisition finance in Melbourne for buyers assessing security, cash flow, vendor timing and repayment strategy.",
     "keywords": "business acquisition Melbourne, business acquisition Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/melbourne",
@@ -3171,7 +3171,7 @@
   },
   "/services/business-acquisition/cities/brisbane": {
     "routePath": "/services/business-acquisition/cities/brisbane",
-    "title": "Services Business Acquisition Cities Brisbane",
+    "title": "Business Acquisition Brisbane | Emet Capital",
     "description": "Business acquisition finance in Brisbane for buyers assessing security, cash flow, vendor timing and repayment strategy.",
     "keywords": "business acquisition Brisbane, business acquisition Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/brisbane",
@@ -3181,7 +3181,7 @@
   },
   "/services/business-acquisition/cities/perth": {
     "routePath": "/services/business-acquisition/cities/perth",
-    "title": "Services Business Acquisition Cities Perth",
+    "title": "Business Acquisition Perth | Emet Capital",
     "description": "Business acquisition finance in Perth for buyers assessing security, cash flow, vendor timing and repayment strategy.",
     "keywords": "business acquisition Perth, business acquisition Perth finance",
     "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/perth",
@@ -3191,7 +3191,7 @@
   },
   "/services/business-acquisition/cities/adelaide": {
     "routePath": "/services/business-acquisition/cities/adelaide",
-    "title": "Services Business Acquisition Cities Adelaide",
+    "title": "Business Acquisition Adelaide | Emet Capital",
     "description": "Business acquisition finance in Adelaide for buyers assessing security, cash flow, vendor timing and repayment strategy.",
     "keywords": "business acquisition Adelaide, business acquisition Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/adelaide",
@@ -3201,7 +3201,7 @@
   },
   "/services/business-acquisition/cities/gold-coast": {
     "routePath": "/services/business-acquisition/cities/gold-coast",
-    "title": "Services Business Acquisition Cities Gold Coast",
+    "title": "Business Acquisition Gold Coast | Emet Capital",
     "description": "Business acquisition finance in Gold Coast for buyers assessing security, cash flow, vendor timing and repayment strategy.",
     "keywords": "business acquisition Gold Coast, business acquisition Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/business-acquisition/cities/gold-coast",
@@ -3211,7 +3211,7 @@
   },
   "/services/debt-consolidation/cities/sydney": {
     "routePath": "/services/debt-consolidation/cities/sydney",
-    "title": "Services Debt Consolidation Cities Sydney | Emet Capital",
+    "title": "Debt Consolidation Sydney | Emet Capital",
     "description": "Business debt consolidation in Sydney for commercial borrowers wanting clearer repayments and a more workable debt structure.",
     "keywords": "debt consolidation Sydney, debt consolidation Sydney finance",
     "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/sydney",
@@ -3221,7 +3221,7 @@
   },
   "/services/debt-consolidation/cities/melbourne": {
     "routePath": "/services/debt-consolidation/cities/melbourne",
-    "title": "Services Debt Consolidation Cities Melbourne",
+    "title": "Debt Consolidation Melbourne | Emet Capital",
     "description": "Business debt consolidation in Melbourne for commercial borrowers wanting clearer repayments and a more workable debt structure.",
     "keywords": "debt consolidation Melbourne, debt consolidation Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/melbourne",
@@ -3231,7 +3231,7 @@
   },
   "/services/debt-consolidation/cities/brisbane": {
     "routePath": "/services/debt-consolidation/cities/brisbane",
-    "title": "Services Debt Consolidation Cities Brisbane",
+    "title": "Debt Consolidation Brisbane | Emet Capital",
     "description": "Business debt consolidation in Brisbane for commercial borrowers wanting clearer repayments and a more workable debt structure.",
     "keywords": "debt consolidation Brisbane, debt consolidation Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/brisbane",
@@ -3241,7 +3241,7 @@
   },
   "/services/debt-consolidation/cities/perth": {
     "routePath": "/services/debt-consolidation/cities/perth",
-    "title": "Services Debt Consolidation Cities Perth | Emet Capital",
+    "title": "Debt Consolidation Perth | Emet Capital",
     "description": "Business debt consolidation in Perth for commercial borrowers wanting clearer repayments and a more workable debt structure.",
     "keywords": "debt consolidation Perth, debt consolidation Perth finance",
     "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/perth",
@@ -3251,7 +3251,7 @@
   },
   "/services/debt-consolidation/cities/adelaide": {
     "routePath": "/services/debt-consolidation/cities/adelaide",
-    "title": "Services Debt Consolidation Cities Adelaide",
+    "title": "Debt Consolidation Adelaide | Emet Capital",
     "description": "Business debt consolidation in Adelaide for commercial borrowers wanting clearer repayments and a more workable debt structure.",
     "keywords": "debt consolidation Adelaide, debt consolidation Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/adelaide",
@@ -3261,7 +3261,7 @@
   },
   "/services/debt-consolidation/cities/gold-coast": {
     "routePath": "/services/debt-consolidation/cities/gold-coast",
-    "title": "Services Debt Consolidation Cities Gold Coast",
+    "title": "Debt Consolidation Gold Coast | Emet Capital",
     "description": "Business debt consolidation in Gold Coast for commercial borrowers wanting clearer repayments and a more workable debt structure.",
     "keywords": "debt consolidation Gold Coast, debt consolidation Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/debt-consolidation/cities/gold-coast",
@@ -3271,7 +3271,7 @@
   },
   "/services/equipment-finance/cities/sydney": {
     "routePath": "/services/equipment-finance/cities/sydney",
-    "title": "Services Equipment Finance Cities Sydney | Emet Capital",
+    "title": "Equipment Finance Sydney | Emet Capital",
     "description": "Equipment finance in Sydney for vehicles, machinery, medical assets and business equipment. Discuss lender fit, structure and documents with Emet...",
     "keywords": "equipment finance Sydney, equipment finance Sydney finance",
     "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/sydney",
@@ -3281,7 +3281,7 @@
   },
   "/services/equipment-finance/cities/melbourne": {
     "routePath": "/services/equipment-finance/cities/melbourne",
-    "title": "Services Equipment Finance Cities Melbourne",
+    "title": "Equipment Finance Melbourne | Emet Capital",
     "description": "Equipment finance in Melbourne for vehicles, machinery, medical assets and business equipment. Discuss lender fit, structure and documents with...",
     "keywords": "equipment finance Melbourne, equipment finance Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/melbourne",
@@ -3291,7 +3291,7 @@
   },
   "/services/equipment-finance/cities/brisbane": {
     "routePath": "/services/equipment-finance/cities/brisbane",
-    "title": "Services Equipment Finance Cities Brisbane",
+    "title": "Equipment Finance Brisbane | Emet Capital",
     "description": "Equipment finance in Brisbane for vehicles, machinery, medical assets and business equipment. Discuss lender fit, structure and documents with...",
     "keywords": "equipment finance Brisbane, equipment finance Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/brisbane",
@@ -3301,7 +3301,7 @@
   },
   "/services/equipment-finance/cities/perth": {
     "routePath": "/services/equipment-finance/cities/perth",
-    "title": "Services Equipment Finance Cities Perth | Emet Capital",
+    "title": "Equipment Finance Perth | Emet Capital",
     "description": "Equipment finance in Perth for vehicles, machinery, medical assets and business equipment. Discuss lender fit, structure and documents with Emet...",
     "keywords": "equipment finance Perth, equipment finance Perth finance",
     "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/perth",
@@ -3311,7 +3311,7 @@
   },
   "/services/equipment-finance/cities/adelaide": {
     "routePath": "/services/equipment-finance/cities/adelaide",
-    "title": "Services Equipment Finance Cities Adelaide",
+    "title": "Equipment Finance Adelaide | Emet Capital",
     "description": "Equipment finance in Adelaide for vehicles, machinery, medical assets and business equipment. Discuss lender fit, structure and documents with...",
     "keywords": "equipment finance Adelaide, equipment finance Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/adelaide",
@@ -3321,7 +3321,7 @@
   },
   "/services/equipment-finance/cities/gold-coast": {
     "routePath": "/services/equipment-finance/cities/gold-coast",
-    "title": "Services Equipment Finance Cities Gold Coast",
+    "title": "Equipment Finance Gold Coast | Emet Capital",
     "description": "Equipment finance in Gold Coast for vehicles, machinery, medical assets and business equipment. Discuss lender fit, structure and documents with...",
     "keywords": "equipment finance Gold Coast, equipment finance Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/equipment-finance/cities/gold-coast",
@@ -3331,7 +3331,7 @@
   },
   "/services/working-capital/cities/sydney": {
     "routePath": "/services/working-capital/cities/sydney",
-    "title": "Services Working Capital Cities Sydney | Emet Capital",
+    "title": "Working Capital Sydney | Emet Capital",
     "description": "Working capital finance in Sydney for business cash-flow timing, tax, inventory and supplier pressure subject to lender assessment.",
     "keywords": "working capital Sydney, working capital Sydney finance",
     "canonical": "https://emetcapital.com.au/services/working-capital/cities/sydney",
@@ -3341,7 +3341,7 @@
   },
   "/services/working-capital/cities/melbourne": {
     "routePath": "/services/working-capital/cities/melbourne",
-    "title": "Services Working Capital Cities Melbourne | Emet Capital",
+    "title": "Working Capital Melbourne | Emet Capital",
     "description": "Working capital finance in Melbourne for business cash-flow timing, tax, inventory and supplier pressure subject to lender assessment.",
     "keywords": "working capital Melbourne, working capital Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/working-capital/cities/melbourne",
@@ -3351,7 +3351,7 @@
   },
   "/services/working-capital/cities/brisbane": {
     "routePath": "/services/working-capital/cities/brisbane",
-    "title": "Services Working Capital Cities Brisbane | Emet Capital",
+    "title": "Working Capital Brisbane | Emet Capital",
     "description": "Working capital finance in Brisbane for business cash-flow timing, tax, inventory and supplier pressure subject to lender assessment.",
     "keywords": "working capital Brisbane, working capital Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/working-capital/cities/brisbane",
@@ -3361,7 +3361,7 @@
   },
   "/services/working-capital/cities/perth": {
     "routePath": "/services/working-capital/cities/perth",
-    "title": "Services Working Capital Cities Perth | Emet Capital",
+    "title": "Working Capital Perth | Emet Capital",
     "description": "Working capital finance in Perth for business cash-flow timing, tax, inventory and supplier pressure subject to lender assessment.",
     "keywords": "working capital Perth, working capital Perth finance",
     "canonical": "https://emetcapital.com.au/services/working-capital/cities/perth",
@@ -3371,7 +3371,7 @@
   },
   "/services/working-capital/cities/adelaide": {
     "routePath": "/services/working-capital/cities/adelaide",
-    "title": "Services Working Capital Cities Adelaide | Emet Capital",
+    "title": "Working Capital Adelaide | Emet Capital",
     "description": "Working capital finance in Adelaide for business cash-flow timing, tax, inventory and supplier pressure subject to lender assessment.",
     "keywords": "working capital Adelaide, working capital Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/working-capital/cities/adelaide",
@@ -3381,7 +3381,7 @@
   },
   "/services/working-capital/cities/gold-coast": {
     "routePath": "/services/working-capital/cities/gold-coast",
-    "title": "Services Working Capital Cities Gold Coast",
+    "title": "Working Capital Gold Coast | Emet Capital",
     "description": "Working capital finance in Gold Coast for business cash-flow timing, tax, inventory and supplier pressure subject to lender assessment.",
     "keywords": "working capital Gold Coast, working capital Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/working-capital/cities/gold-coast",
@@ -3391,7 +3391,7 @@
   },
   "/services/trade-finance/cities/sydney": {
     "routePath": "/services/trade-finance/cities/sydney",
-    "title": "Services Trade Finance Cities Sydney | Emet Capital",
+    "title": "Trade Finance Sydney | Emet Capital",
     "description": "Trade finance in Sydney for importers, exporters and businesses managing supplier, inventory and payment timing.",
     "keywords": "trade finance Sydney, trade finance Sydney finance",
     "canonical": "https://emetcapital.com.au/services/trade-finance/cities/sydney",
@@ -3401,7 +3401,7 @@
   },
   "/services/trade-finance/cities/melbourne": {
     "routePath": "/services/trade-finance/cities/melbourne",
-    "title": "Services Trade Finance Cities Melbourne | Emet Capital",
+    "title": "Trade Finance Melbourne | Emet Capital",
     "description": "Trade finance in Melbourne for importers, exporters and businesses managing supplier, inventory and payment timing.",
     "keywords": "trade finance Melbourne, trade finance Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/trade-finance/cities/melbourne",
@@ -3411,7 +3411,7 @@
   },
   "/services/trade-finance/cities/brisbane": {
     "routePath": "/services/trade-finance/cities/brisbane",
-    "title": "Services Trade Finance Cities Brisbane | Emet Capital",
+    "title": "Trade Finance Brisbane | Emet Capital",
     "description": "Trade finance in Brisbane for importers, exporters and businesses managing supplier, inventory and payment timing.",
     "keywords": "trade finance Brisbane, trade finance Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/trade-finance/cities/brisbane",
@@ -3421,7 +3421,7 @@
   },
   "/services/trade-finance/cities/perth": {
     "routePath": "/services/trade-finance/cities/perth",
-    "title": "Services Trade Finance Cities Perth | Emet Capital",
+    "title": "Trade Finance Perth | Emet Capital",
     "description": "Trade finance in Perth for importers, exporters and businesses managing supplier, inventory and payment timing.",
     "keywords": "trade finance Perth, trade finance Perth finance",
     "canonical": "https://emetcapital.com.au/services/trade-finance/cities/perth",
@@ -3431,7 +3431,7 @@
   },
   "/services/trade-finance/cities/adelaide": {
     "routePath": "/services/trade-finance/cities/adelaide",
-    "title": "Services Trade Finance Cities Adelaide | Emet Capital",
+    "title": "Trade Finance Adelaide | Emet Capital",
     "description": "Trade finance in Adelaide for importers, exporters and businesses managing supplier, inventory and payment timing.",
     "keywords": "trade finance Adelaide, trade finance Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/trade-finance/cities/adelaide",
@@ -3441,7 +3441,7 @@
   },
   "/services/trade-finance/cities/gold-coast": {
     "routePath": "/services/trade-finance/cities/gold-coast",
-    "title": "Services Trade Finance Cities Gold Coast | Emet Capital",
+    "title": "Trade Finance Gold Coast | Emet Capital",
     "description": "Trade finance in Gold Coast for importers, exporters and businesses managing supplier, inventory and payment timing.",
     "keywords": "trade finance Gold Coast, trade finance Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/trade-finance/cities/gold-coast",
@@ -3451,7 +3451,7 @@
   },
   "/services/caveat-loans/cities/sydney": {
     "routePath": "/services/caveat-loans/cities/sydney",
-    "title": "Services Caveat Loans Cities Sydney | Emet Capital",
+    "title": "Caveat Loans Sydney | Emet Capital",
     "description": "Caveat loan options in Sydney for business-purpose funding where property security, documents and exit are clear. Discuss fit with Emet Capital.",
     "keywords": "caveat loans Sydney, caveat loans Sydney finance",
     "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/sydney",
@@ -3461,7 +3461,7 @@
   },
   "/services/caveat-loans/cities/melbourne": {
     "routePath": "/services/caveat-loans/cities/melbourne",
-    "title": "Services Caveat Loans Cities Melbourne | Emet Capital",
+    "title": "Caveat Loans Melbourne | Emet Capital",
     "description": "Caveat loan options in Melbourne for business-purpose funding where property security, documents and exit are clear. Discuss fit with Emet Capital.",
     "keywords": "caveat loans Melbourne, caveat loans Melbourne finance",
     "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/melbourne",
@@ -3471,7 +3471,7 @@
   },
   "/services/caveat-loans/cities/brisbane": {
     "routePath": "/services/caveat-loans/cities/brisbane",
-    "title": "Services Caveat Loans Cities Brisbane | Emet Capital",
+    "title": "Caveat Loans Brisbane | Emet Capital",
     "description": "Caveat loan options in Brisbane for business-purpose funding where property security, documents and exit are clear. Discuss fit with Emet Capital.",
     "keywords": "caveat loans Brisbane, caveat loans Brisbane finance",
     "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/brisbane",
@@ -3481,7 +3481,7 @@
   },
   "/services/caveat-loans/cities/perth": {
     "routePath": "/services/caveat-loans/cities/perth",
-    "title": "Services Caveat Loans Cities Perth | Emet Capital",
+    "title": "Caveat Loans Perth | Emet Capital",
     "description": "Caveat loan options in Perth for business-purpose funding where property security, documents and exit are clear. Discuss fit with Emet Capital.",
     "keywords": "caveat loans Perth, caveat loans Perth finance",
     "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/perth",
@@ -3491,7 +3491,7 @@
   },
   "/services/caveat-loans/cities/adelaide": {
     "routePath": "/services/caveat-loans/cities/adelaide",
-    "title": "Services Caveat Loans Cities Adelaide | Emet Capital",
+    "title": "Caveat Loans Adelaide | Emet Capital",
     "description": "Caveat loan options in Adelaide for business-purpose funding where property security, documents and exit are clear. Discuss fit with Emet Capital.",
     "keywords": "caveat loans Adelaide, caveat loans Adelaide finance",
     "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/adelaide",
@@ -3501,7 +3501,7 @@
   },
   "/services/caveat-loans/cities/gold-coast": {
     "routePath": "/services/caveat-loans/cities/gold-coast",
-    "title": "Services Caveat Loans Cities Gold Coast | Emet Capital",
+    "title": "Caveat Loans Gold Coast | Emet Capital",
     "description": "Caveat loan options in Gold Coast for business-purpose funding where property security, documents and exit are clear. Discuss fit with Emet Capital.",
     "keywords": "caveat loans Gold Coast, caveat loans Gold Coast finance",
     "canonical": "https://emetcapital.com.au/services/caveat-loans/cities/gold-coast",
