@@ -339,6 +339,16 @@
     "noscript": "Business loan terms explained for Australian business owners, including facility length, repayment structure, security, covenants, fees, and exit planning.",
     "sourcePath": "src/content/guides/business-loan-terms-explained-australia.md"
   },
+  "/resources/guides/business-loans-for-startups-australia": {
+    "routePath": "/resources/guides/business-loans-for-startups-australia",
+    "title": "Business Loans for Startups in Australia: Commercial...",
+    "description": "Business loans for startups in Australia explained for founders and business owners. Learn what lenders assess, what documents help, when security...",
+    "keywords": "business loan for startup business, startup business loans Australia, business loans for startups, startup business finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-loans-for-startups-australia",
+    "h1": "Business Loans for Startups in Australia: Commercial Borrower Guide",
+    "noscript": "Business loans for startups in Australia explained for founders and business owners. Learn what lenders assess, what documents help, when security matters, and when debt is not suitable.",
+    "sourcePath": "src/content/guides/business-loans-for-startups-australia.md"
+  },
   "/resources/guides/business-loans-secured-by-residential-property-in-australia": {
     "routePath": "/resources/guides/business-loans-secured-by-residential-property-in-australia",
     "title": "Business Loans Secured by Residential Property in...",
@@ -1788,6 +1798,16 @@
     "h1": "Second Mortgages in Sydney: Fast Commercial Property Finance for Business Borrowers",
     "noscript": "Guide to second mortgages in Sydney for business borrowers. Learn when a second mortgage can help, what lenders assess, how timing works, and when not to use one. Informational only.",
     "sourcePath": "src/content/guides/second-mortgages-in-sydney-fast-local-approval.md"
+  },
+  "/resources/guides/secured-business-loans-australia": {
+    "routePath": "/resources/guides/secured-business-loans-australia",
+    "title": "Secured Business Loans in Australia: Guide for...",
+    "description": "Secured business loans in Australia explained for business owners, property investors, and developers. Learn how security, documents, lender...",
+    "keywords": "secured business loan, secured business loans Australia, business loan secured by property, asset backed business loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/secured-business-loans-australia",
+    "h1": "Secured Business Loans in Australia: Guide for Commercial Borrowers",
+    "noscript": "Secured business loans in Australia explained for business owners, property investors, and developers. Learn how security, documents, lender assessment, risks, and exits work.",
+    "sourcePath": "src/content/guides/secured-business-loans-australia.md"
   },
   "/resources/guides/secured-vs-unsecured-business-loans-australia": {
     "routePath": "/resources/guides/secured-vs-unsecured-business-loans-australia",
