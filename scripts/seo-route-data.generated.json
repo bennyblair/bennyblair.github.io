@@ -1469,6 +1469,16 @@
     "noscript": "Private debt in Australia explained for business owners, property investors, and developers comparing bank finance, private lending, mortgage-backed loans, and short-term commercial funding.",
     "sourcePath": "src/content/guides/private-debt-australia.md"
   },
+  "/resources/guides/private-debt-for-sme-borrowers": {
+    "routePath": "/resources/guides/private-debt-for-sme-borrowers",
+    "title": "Private Debt for SME Borrowers in Australia",
+    "description": "Private debt explained for Australian SME borrowers. Learn when it fits, how lenders assess files, documents needed, risks, exits, and alternatives.",
+    "keywords": "private debt for SME borrowers, private debt Australia, SME private lending, commercial private debt",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-debt-for-sme-borrowers",
+    "h1": "Private Debt for SME Borrowers in Australia",
+    "noscript": "Private debt explained for Australian SME borrowers. Learn when it fits, how lenders assess files, documents needed, risks, exits, and alternatives.",
+    "sourcePath": "src/content/guides/private-debt-for-sme-borrowers.md"
+  },
   "/resources/guides/private-debt-vs-private-lending-australia": {
     "routePath": "/resources/guides/private-debt-vs-private-lending-australia",
     "title": "Private Debt vs Private Lending in Australia",
@@ -1548,6 +1558,16 @@
     "h1": "Private Mortgage Lending for Commercial Borrowers",
     "noscript": "Private mortgage lending for commercial borrowers in Australia explained. Learn when property-backed private lending may fit, what lenders assess, and how to compare it with bank finance.",
     "sourcePath": "src/content/guides/private-mortgage-lending-commercial-borrowers.md"
+  },
+  "/resources/guides/private-mortgage-lending": {
+    "routePath": "/resources/guides/private-mortgage-lending",
+    "title": "Private Mortgage Lending in Australia: Commercial...",
+    "description": "Private mortgage lending explained for Australian business borrowers using property security. Learn when it fits, what lenders assess, risks,...",
+    "keywords": "private mortgage lending, private mortgage loans, commercial private lending, property secured business finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-mortgage-lending",
+    "h1": "Private Mortgage Lending in Australia: Commercial Borrower Guide",
+    "noscript": "Private mortgage lending explained for Australian business borrowers using property security. Learn when it fits, what lenders assess, risks, documents, and exit planning.",
+    "sourcePath": "src/content/guides/private-mortgage-lending.md"
   },
   "/resources/guides/private-real-estate-investment-lenders-guide": {
     "routePath": "/resources/guides/private-real-estate-investment-lenders-guide",
