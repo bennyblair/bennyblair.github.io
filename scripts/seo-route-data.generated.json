@@ -1599,6 +1599,16 @@
     "noscript": "A comprehensive guide to property development loans in Australia. Learn how development finance works, who qualifies, what lenders assess, and how to structure your next project.",
     "sourcePath": "src/content/guides/property-development-loans-complete-funding-guide.md"
   },
+  "/resources/guides/property-development-mortgage-australia": {
+    "routePath": "/resources/guides/property-development-mortgage-australia",
+    "title": "Property Development Mortgage in Australia:...",
+    "description": "Property development mortgages explained for Australian commercial borrowers. Learn how lenders assess sites, security, feasibility, documents,...",
+    "keywords": "property development mortgage, property development mortgage Australia, development mortgage finance, commercial development finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/property-development-mortgage-australia",
+    "h1": "Property Development Mortgage in Australia: Developer Finance Guide",
+    "noscript": "Property development mortgages explained for Australian commercial borrowers. Learn how lenders assess sites, security, feasibility, documents, risks, and exits.",
+    "sourcePath": "src/content/guides/property-development-mortgage-australia.md"
+  },
   "/resources/guides/purchase-order-finance-vs-trade-finance-in-australia": {
     "routePath": "/resources/guides/purchase-order-finance-vs-trade-finance-in-australia",
     "title": "Purchase Order Finance vs Trade Finance in Australia",
@@ -1858,6 +1868,16 @@
     "h1": "Short-Term Business Finance in Australia: When It Fits and When It Does Not",
     "noscript": "Short-term business finance in Australia explained for commercial borrowers, including common uses, lender assessment, security, risks, exit planning, and alternatives.",
     "sourcePath": "src/content/guides/short-term-business-finance-australia.md"
+  },
+  "/resources/guides/short-term-caveat-loans-australia": {
+    "routePath": "/resources/guides/short-term-caveat-loans-australia",
+    "title": "Short-Term Caveat Loans in Australia: Commercial...",
+    "description": "Short-term caveat loans explained for Australian business borrowers. Learn when they fit, what lenders assess, risks, documents, and exit planning.",
+    "keywords": "short term caveat loans, short-term caveat loans Australia, short term caveat finance, commercial caveat loans",
+    "canonical": "https://emetcapital.com.au/resources/guides/short-term-caveat-loans-australia",
+    "h1": "Short-Term Caveat Loans in Australia: Commercial Borrower Guide",
+    "noscript": "Short-term caveat loans explained for Australian business borrowers. Learn when they fit, what lenders assess, risks, documents, and exit planning.",
+    "sourcePath": "src/content/guides/short-term-caveat-loans-australia.md"
   },
   "/resources/guides/short-term-private-lenders-fast-business-finance-solutions": {
     "routePath": "/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
