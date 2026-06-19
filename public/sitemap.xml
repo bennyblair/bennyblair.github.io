@@ -509,6 +509,13 @@
   </url>
 
   <url>
+    <loc>https://emetcapital.com.au/resources/guides/caveat-lending-australia</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://emetcapital.com.au/resources/guides/caveat-loan-broker-take-on-valuation-delays</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -594,7 +601,7 @@
 
   <url>
     <loc>https://emetcapital.com.au/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1421,6 +1428,13 @@
   <url>
     <loc>https://emetcapital.com.au/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia</loc>
     <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://emetcapital.com.au/resources/guides/second-mortgage-for-construction-finance-australia</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

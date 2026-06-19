@@ -419,6 +419,16 @@
     "noscript": "Compare caveat lenders in Australia by lender type, deal fit, documentation, security and exit strategy. General information only.",
     "sourcePath": "src/content/guides/caveat-lenders-australia-directory-comparison.md"
   },
+  "/resources/guides/caveat-lending-australia": {
+    "routePath": "/resources/guides/caveat-lending-australia",
+    "title": "Caveat Lending in Australia: Business Borrower Guide",
+    "description": "Caveat lending in Australia explained for business borrowers, including how it works, when it may fit, lender checks, risks, documents, and exit...",
+    "keywords": "caveat lending, caveat lending Australia, caveat finance, business caveat loan, property backed business finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-lending-australia",
+    "h1": "Caveat Lending in Australia: Business Borrower Guide",
+    "noscript": "Caveat lending in Australia explained for business borrowers, including how it works, when it may fit, lender checks, risks, documents, and exit planning.",
+    "sourcePath": "src/content/guides/caveat-lending-australia.md"
+  },
   "/resources/guides/caveat-loan-broker-take-on-valuation-delays": {
     "routePath": "/resources/guides/caveat-loan-broker-take-on-valuation-delays",
     "title": "Caveat Loan Broker Take on Valuation Delays",
@@ -1728,6 +1738,16 @@
     "h1": "Second Mortgage for a Business Partner Buyout in Australia",
     "noscript": "A practical guide to using a second mortgage for a business partner buyout in Australia, including when equity-backed funding may work, what lenders assess, key legal and valuation issues, and when another structure may be better.",
     "sourcePath": "src/content/guides/second-mortgage-for-a-business-partner-buyout-in-australia.md"
+  },
+  "/resources/guides/second-mortgage-for-construction-finance-australia": {
+    "routePath": "/resources/guides/second-mortgage-for-construction-finance-australia",
+    "title": "Second Mortgage for Construction Finance in Australia",
+    "description": "Second mortgages for construction finance explained for Australian business borrowers, builders, developers, and property investors needing...",
+    "keywords": "second mortgage for construction, construction finance second mortgage, second mortgage construction finance Australia, property backed construction funding, business second mortgage construction",
+    "canonical": "https://emetcapital.com.au/resources/guides/second-mortgage-for-construction-finance-australia",
+    "h1": "Second Mortgage for Construction Finance in Australia",
+    "noscript": "Second mortgages for construction finance explained for Australian business borrowers, builders, developers, and property investors needing structured project funding.",
+    "sourcePath": "src/content/guides/second-mortgage-for-construction-finance-australia.md"
   },
   "/resources/guides/second-mortgage-for-divorce-settlement-property-division": {
     "routePath": "/resources/guides/second-mortgage-for-divorce-settlement-property-division",
