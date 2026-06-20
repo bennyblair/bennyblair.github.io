@@ -4,7 +4,7 @@ description: "Complete guide to owner-occupier commercial loans in Australia, co
 slug: "owner-occupier-commercial-loans-buy-your-business-premises"
 date: "2025-11-18"
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -32,6 +32,19 @@ Read this guide alongside the [commercial property loans Australia complete guid
 - **[How to Buy Commercial Property Step by Step](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — maps the acquisition and settlement sequence.
 - **[First Commercial Property Loan for Startup Business Owners](/resources/guides/commercial-property-loans-for-startups-first-time-buyers)** — relevant where the business is newer or buying premises for the first time.
 - **[Bank vs Non-Bank Commercial Lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — compare lender appetite and flexibility.
+
+## First Checks Before Buying Your Business Premises
+
+An owner-occupier file should connect the property decision to the operating business. Lenders usually want to see that the premises suits the business, that ownership will not drain working capital, and that the borrower has allowed for purchase costs, fitout, tax timing, and settlement delays.
+
+| Question | Evidence that helps |
+|---|---|
+| Why this premises? | Location rationale, zoning fit, occupancy plan, lease comparison, expansion need. |
+| Can the business service the debt? | Financials, BAS, management accounts, bank statements, rent history, debt schedule. |
+| Is the contribution enough? | Deposit source, duty and costs schedule, fitout budget, retained cash buffer. |
+| What if timing changes? | Finance-condition dates, valuation access, settlement checklist, fallback funding path. |
+
+If the business is newer or buying a first premises, use the [first commercial premises loan guide](/resources/guides/commercial-property-loans-for-startups-first-time-buyers) as the evidence checklist before relying on this broader owner-occupier guide.
 
 ## At a Glance
 

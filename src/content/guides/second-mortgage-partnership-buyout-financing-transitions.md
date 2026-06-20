@@ -4,7 +4,7 @@ description: "Complete guide to using second mortgages for partnership buyouts i
 slug: "second-mortgage-partnership-buyout-financing-transitions"
 date: "2025-11-19"
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -17,6 +17,8 @@ excerpt: "Master partnership buyout financing through second mortgages, covering
 ---
 
 # Second Mortgage for Partnership Buyout: Financing Transitions
+
+This page owns the transition-process intent: valuation sequence, partner documentation, ownership handover, and business continuity during the exit. For the narrower funding mechanics of using property equity to pay an exiting partner, use the companion [second mortgage for a business partner buyout guide](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia).
 
 A second mortgage can be used as business-purpose funding for a partnership buyout when there is enough property equity, a documented buyout price, and a clear repayment pathway. It lets the continuing partner access capital without necessarily replacing the existing first mortgage or draining operating cash from the business.
 
@@ -33,6 +35,20 @@ This comprehensive guide examines partnership buyout fundamentals including valu
 **Important:** this article is general information only. Partnership buyouts can have legal, tax, asset-protection, and lending consequences, so business owners should get independent professional advice before signing binding documents or taking on secured debt.
 
 ---
+
+## Transition Checklist Before Funding Is Sought
+
+A partnership buyout usually needs more than a loan term sheet. The transaction should show how the exiting partner will be valued, how control changes, how guarantees or director obligations are handled, and how the remaining business will keep trading after settlement.
+
+| Transition item | Why lenders ask about it |
+|---|---|
+| Valuation basis | Confirms the buyout amount is documented rather than negotiated after funding. |
+| Legal pathway | Shows whether the exit is a share sale, unit transfer, asset sale, or deed of release. |
+| Security and guarantees | Identifies who remains liable and whether property equity is available. |
+| Business continuity | Shows customers, staff, suppliers, and cash flow can continue after the exit. |
+| Exit from short-term debt | Explains how the second mortgage will be refinanced, reduced, or repaid. |
+
+This transition view differs from a general [business acquisition finance](/resources/guides/business-acquisition-finance-australia) file because the buyer and business are often already connected. It also differs from the practical [second mortgage business partner buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia) page, which focuses on the funding structure itself.
 
 ### Related In-Depth Guides
 

@@ -7,7 +7,7 @@ category: "Business Finance"
 tags: ["business acquisition finance", "business purchase loans", "acquisition funding", "business buyout finance", "management buyout", "leveraged buyout Australia"]
 readingTime: 10
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -32,6 +32,7 @@ For Emet Capital, business acquisition finance sits inside the business finance 
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — helps explain why lender type matters in complex or urgent files.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — relevant when property security forms part of the acquisition structure.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — useful when the acquisition is really an ownership transition or partner exit.
+- **[Second Mortgage Partnership Buyout Financing](/resources/guides/second-mortgage-partnership-buyout-financing-transitions)** — transition-process guide for valuation, documentation, and handover planning.
 
 ## At a Glance
 

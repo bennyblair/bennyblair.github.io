@@ -6,7 +6,7 @@ category: "Bridging Finance"
 tags: ["Commercial Bridging Loan", "Property Auction", "Auction Finance", "Short Term Loan"]
 readingTime: 10
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -43,6 +43,20 @@ This guide explains when auction bridging finance may fit, when it may not, what
 | Main lender focus | Security value, title position, borrower contribution, exit strategy, legal readiness, and whether the auction contract can settle on time. |
 | Main risk | The borrower commits unconditionally before finance, valuation, or legal conditions are fully resolved. |
 | Better alternative when time allows | A standard commercial property loan or refinance may be cleaner if approval can be completed before auction. |
+
+## Auction Bridging Readiness Checklist
+
+Before bidding, a commercial borrower should be able to explain five things clearly: what is being bought, what security supports the facility, how settlement will be funded, what could delay the exit, and what fallback exists if the preferred lender is slower than expected.
+
+| Readiness item | Why it matters for auction finance |
+|---|---|
+| Contract and settlement date | Auction contracts often leave little room to renegotiate timing after the bid is accepted. |
+| Deposit and costs evidence | The lender needs to see contribution, duty, legal costs, valuation costs, and retained liquidity. |
+| Security position | Existing debt, valuation assumptions, title issues, and lender priority affect available leverage. |
+| Exit pathway | Refinance, sale, lease-up, or cash-flow exit should be documented before settlement pressure builds. |
+| Due diligence status | Zoning, environmental, lease, and building issues can weaken an otherwise attractive property. |
+
+A practical auction file is not just a request for speed. It is a short evidence pack that lets the lender assess timing risk without guessing. If the exit depends on a later refinance, the borrower should also review [commercial property loan serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow) and [commercial property valuation for finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements) before bidding.
 
 ## Who Is This Guide For?
 

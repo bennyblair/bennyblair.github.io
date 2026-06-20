@@ -6,7 +6,7 @@ category: "Commercial Property Loans"
 tags: ["Commercial Property Loans", "Serviceability", "Commercial Lending", "Property Finance", "Private Lending"]
 readingTime: 11
 author: "Daniel"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -29,6 +29,19 @@ Commercial property loan serviceability is the process lenders use to decide whe
 That sounds straightforward, but commercial serviceability is rarely based on one salary figure or one generic calculator. Lenders usually look at the property income, the business income, the strength of the tenant, the existing debts, the interest-rate buffers built into the assessment, and what happens if the deal does not perform exactly as planned. That is why a borrower can own a strong asset and still be surprised by how conservative the lending outcome feels.
 
 For property investors, developers, and business owners, the real question is not just how much you want to borrow. It is how lenders usually measure borrowing capacity, what can weaken that capacity, and what can improve it before you apply. If you are still mapping the acquisition process, the [step-by-step commercial property buying guide](/resources/guides/how-to-buy-commercial-property-step-by-step-guide) shows where serviceability checks fit before due diligence and settlement. In some cases, a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide) works well. In others, the answer may involve a tighter [refinance structure](/resources/guides/commercial-property-refinancing-solutions), a lower-leverage solution, or a more flexible [private lending](/resources/guides/what-is-private-lending-australia) path where the story is strong but does not fit a bank calculator neatly.
+
+## Borrowing Capacity Signals Lenders Read First
+
+The fastest way to make a serviceability file easier to assess is to separate income evidence from assumptions. Lenders usually give more weight to signed leases, verified rent, trading statements, BAS, tax returns, bank conduct, and existing debt schedules than to optimistic forecasts.
+
+| Signal | Stronger evidence | Weak point to fix before applying |
+|---|---|---|
+| Property income | Signed lease, rental statement, tenant history | Vacancy, short WALE, unpaid outgoings, or incentives not explained |
+| Business income | Recent financials, BAS, management accounts, bank statements | Forecast-only repayment story or one-off revenue spike |
+| Debt commitments | Clear facility schedule and repayment profile | Undisclosed tax debt, equipment finance, overdrafts, or director loans |
+| Buffer | Conservative assumptions and retained liquidity | No allowance for vacancy, rate movement, fitout, or settlement costs |
+
+For owner-occupiers, the companion [owner-occupier commercial loans guide](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises) explains why the business must support the property strategy. For newer businesses, the [first commercial premises loan guide](/resources/guides/commercial-property-loans-for-startups-first-time-buyers) shows what can replace a longer trading history.
 
 ### Related In-Depth Guides
 

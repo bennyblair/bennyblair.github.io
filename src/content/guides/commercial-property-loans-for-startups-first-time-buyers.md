@@ -4,7 +4,7 @@ description: "How newer Australian businesses can prepare evidence for a first c
 date: "2025-11-05"
 category: "Guides"
 author: "Ben"
-reviewed_date: "2026-06-13"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -35,6 +35,12 @@ For the broad product overview, use the [commercial property loans Australia com
 The broader commercial property and owner-occupier guides already explain standard lending structure. They do not fully replace this intent because newer businesses have a separate evidence problem.
 
 A mature borrower can often lead with several years of financials, stable profit, and a clean property use case. A newer borrower may need to support the same purchase with director experience, current trading, contracts, bank conduct, deposit source, cash reserves, and a sharper fallback plan. That difference is enough to keep this as a separate support guide rather than redirecting it.
+
+## Practical Scenario: First Premises With Thin Accounts
+
+A typical file might involve a trade business that has operated for 18 months, has a deposit from retained profits and director savings, and wants to buy a small industrial unit currently leased month-to-month. The property looks suitable, but the lender still needs to understand whether the business can handle ownership costs, fitout, GST timing, vacancy risk, and working capital after settlement.
+
+That file is different from a standard owner-occupier purchase by an established borrower. The stronger approach is to give the lender current management accounts, BAS, bank statements, contracts, director experience, a property-use note, a cost schedule, and a fallback plan. Where the purchase timeline is tight, the borrower may also need to compare [commercial bridging finance for auctions](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide) or [pre-settlement finance](/resources/guides/pre-settlement-finance-commercial-property-purchases-australia) with a standard commercial property loan.
 
 ## The Lender Question: What Replaces Missing History?
 

@@ -71,8 +71,8 @@ const serviceGuideMap = {
   },
   'FirstSecondMortgages.tsx': {
     pillar: {
-      slug: 'first-and-second-mortgages-for-business',
-      title: 'Definitive Guide to 1st & 2nd Mortgages',
+      slug: 'second-mortgages-for-business-guide',
+      title: 'Second Mortgages for Business',
       description: 'Complete guide to first and second mortgage financing for business purposes—structures, costs, and strategic uses.'
     },
     supporting: [
@@ -140,7 +140,7 @@ const serviceGuideMap = {
         description: 'Financing business equipment, vehicles, and machinery purchases.'
       },
       {
-        slug: 'first-and-second-mortgages-for-business',
+        slug: 'second-mortgages-for-business-guide',
         title: 'First & Second Mortgages',
         description: 'Property-secured business funding through first and second mortgages.'
       },
@@ -294,7 +294,7 @@ const serviceGuideMap = {
         description: 'Restructuring property debt as part of overall consolidation.'
       },
       {
-        slug: 'first-and-second-mortgages-for-business',
+        slug: 'second-mortgages-for-business-guide',
         title: 'First & Second Mortgages',
         description: 'Using property equity to consolidate business debts.'
       }
@@ -342,7 +342,7 @@ const serviceGuideMap = {
         description: 'Using property equity to fund partner buyouts and ownership transitions.'
       },
       {
-        slug: 'first-and-second-mortgages-for-business',
+        slug: 'second-mortgages-for-business-guide',
         title: 'First & Second Mortgages',
         description: 'Property-secured funding for business acquisition.'
       },

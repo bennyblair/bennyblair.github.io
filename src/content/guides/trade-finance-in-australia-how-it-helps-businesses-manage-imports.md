@@ -8,7 +8,7 @@ tags: ["Trade Finance", "Import Finance", "Export Finance", "Letters of Credit",
 keywords: ["trade finance", "import finance", "export finance", "letters of credit", "documentary collections", "international trade financing Australia"]
 readingTime: "10 min read"
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -18,7 +18,16 @@ author_name: "Ben"
 
 # Trade Finance in Australia: The Complete Guide for Business Imports and Exports
 
-If your funding need starts with a confirmed customer order rather than a full import cycle, compare this guide with [purchase order finance vs trade finance in Australia](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia). That comparison explains when a single-order facility may be more relevant than a broader trade finance line.
+If your funding need starts with a confirmed customer order rather than a full import cycle, compare this guide with [purchase order finance vs trade finance in Australia](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia). That comparison explains when a single-order facility may be more relevant than a broader trade finance line, and it should be read before choosing between purchase order finance, import finance, inventory finance, and invoice finance.
+
+### Related In-Depth Guides
+
+- **[Purchase Order Finance vs Trade Finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)** — compare confirmed-order funding with broader trade-cycle finance.
+- **[Inventory Finance in Australia](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)** — useful when cash is tied up after goods arrive.
+- **[Invoice Finance Australia](/resources/guides/invoice-finance-australia-complete-guide)** — compare funding after invoices have been issued.
+- **[Import GST and Customs Duty Finance](/resources/guides/import-gst-and-customs-duty-finance-for-australian-businesses)** — relevant where customs charges create the timing gap.
+- **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — broader business cash-flow funding context.
+
 
 
 Trade finance provides essential funding solutions enabling Australian businesses to participate effectively in international commerce by bridging the timing gap between supplier payments and customer receipts. These specialized financing arrangements support import and export activities through various instruments including letters of credit, documentary collections, and direct funding facilities. For businesses seeking [trade finance solutions](/services/trade-finance), understanding these instruments is essential for managing international commerce effectively.

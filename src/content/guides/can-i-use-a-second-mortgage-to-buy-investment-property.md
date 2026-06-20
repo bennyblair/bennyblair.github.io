@@ -11,7 +11,7 @@ keywords:
   - "commercial second mortgage Australia"
 readTime: "10 min read"
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -19,11 +19,27 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
 
+# Can I Use a Second Mortgage to Buy Investment Property?
+
 A second mortgage can sometimes be used to help buy an investment property when a commercial borrower has usable equity in an existing property and needs additional secured funding for a business or investment-purpose transaction. The second mortgage sits behind the first mortgage lender, so the lender will focus heavily on available equity, consent, risk, repayment strategy and the commercial purpose of the loan.
 
 This is not a simple yes-or-no question. A second mortgage may help bridge a deposit gap, support a time-sensitive purchase, or release equity without disturbing an existing first mortgage. It may also be the wrong structure if the borrower lacks equity, has no clear exit, or is using short-term debt for a long-term holding problem.
 
 Emet Capital helps commercial borrowers compare second mortgages, bridging finance, private lending and commercial property loans. This article is general information only, not financial advice.
+
+## Quick Suitability Screen
+
+A second mortgage is more likely to be considered for an investment property purchase when the borrower has a commercial or investment-purpose transaction, usable equity in an existing property, and a credible repayment strategy. It is weaker when the purchase relies only on future capital growth, has no clear exit, or leaves the borrower without cash-flow buffer.
+
+| Question | Why it matters |
+|---|---|
+| Is the purpose commercial or investment-related? | Emet Capital focuses on eligible business borrowers, investors, and commercial scenarios. |
+| Is there enough equity after the first mortgage? | The second mortgage lender ranks behind the first lender and needs a risk buffer. |
+| What will repay or refinance the debt? | A second mortgage should not become an accidental long-term holding facility. |
+| Would bridging finance fit better? | If the issue is settlement timing, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may be the cleaner comparison. |
+| Would a full refinance fit better? | If the first mortgage is inefficient, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may solve the problem more cleanly. |
+
+For broader context, compare this page with the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide), [commercial property loans Australia guide](/resources/guides/commercial-property-loans-australia-complete-guide), and [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better).
 
 ### Related In-Depth Guides
 

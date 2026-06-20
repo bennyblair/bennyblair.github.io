@@ -267,7 +267,7 @@ const FirstSecondMortgages = () => {
                   <div className="flex items-start gap-4">
                     <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="text-xl font-semibold text-foreground mb-2">Definitive Guide to 1st & 2nd Mortgages</h3>
+                      <h3 className="text-xl font-semibold text-foreground mb-2">Second Mortgages for Business</h3>
                       <p className="text-muted-foreground mb-3">Complete guide to first and second mortgage financing for business purposes—structures, costs, and strategic uses.</p>
                       <span className="text-accent font-medium inline-flex items-center">
                         Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
@@ -337,7 +337,7 @@ const FirstSecondMortgages = () => {
 
           {/* Related Reading */}
           <RelatedReading articles={[
-            { title: "First and Second Mortgages for Business", slug: "first-and-second-mortgages-for-business", description: "Understanding mortgage positions and their strategic uses" },
+            { title: "First and Second Mortgages for Business", slug: "second-mortgages-for-business-guide", description: "Understanding mortgage positions and their strategic uses" },
             { title: "Second Mortgage Lenders Australia Directory", slug: "second-mortgage-lenders-australia-directory", description: "Guide to second mortgage lender options across Australia" },
             { title: "How to Find Second Mortgage Brokers in Australia", slug: "how-to-find-second-mortgage-brokers-australia", description: "Finding the right broker for your second mortgage needs" }
           ] as RelatedArticle[]} />

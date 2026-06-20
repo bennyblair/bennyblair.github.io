@@ -42,14 +42,6 @@ const clusters = {
       },
       {
         slug: "commercial-bridging-loans-for-property-auctions-expert-guide",
-        descriptor: "Expert tactics for auction day financing",
-        who: "Experienced investors seeking expert-level auction finance strategies",
-        what: "Advanced due diligence, deposit structuring, and competitive bidding tactics",
-        when: "When bidding on high-value commercial properties in competitive auctions",
-        whenNot: "For first-time auction buyers or residential property auctions"
-      },
-      {
-        slug: "commercial-bridging-loans-property-auctions-expert-guide",
         descriptor: "Due diligence and settlement timelines for auction purchases",
         who: "Property investors preparing for auction day financing",
         what: "Settlement timelines, title searches, and lender requirements for auction purchases",
@@ -131,8 +123,8 @@ const clusters = {
   },
   mortgages: {
     title: "First & Second Mortgages",
-    pillar: "first-and-second-mortgages-for-business",
-    pillarTitle: "Definitive Guide to 1st & 2nd Mortgages for Business",
+    pillar: "second-mortgages-for-business-guide",
+    pillarTitle: "Second Mortgages for Business Guide",
     supporting: [
       {
         slug: "first-mortgage-loans-primary-property-finance",
@@ -537,8 +529,6 @@ function getGuideTitle(slug) {
     "best-bridging-loan-lenders-companies-2025": "Best Bridging Loan Lenders 2025",
     "bridging-finance-developers-project-funding-solutions": "Bridging Finance for Developers",
     "commercial-bridging-loans-for-property-auctions-expert-guide": "Commercial Bridging for Auctions",
-    "commercial-bridging-loans-for-property-auctions-expert-guide": "Property Auction Bridging Loans",
-    "commercial-bridging-loans-property-auctions-expert-guide": "Auction Finance Expert Guide",
     "short-term-property-loans-when-you-need-fast-finance": "Short-Term Property Loans",
     "caveat-lenders-australia-directory-comparison": "Caveat Lenders Directory 2025",
     "caveat-loan-emergency-business-funding": "Emergency Business Funding",
