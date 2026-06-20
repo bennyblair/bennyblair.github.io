@@ -449,6 +449,16 @@
     "noscript": "How Australian businesses can assess urgent property-backed funding for ATO debt, payroll, supplier pressure, and short-term cash-flow emergencies without drifting into unsuitable long-term debt.",
     "sourcePath": "src/content/guides/caveat-loan-emergency-business-funding.md"
   },
+  "/resources/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia": {
+    "routePath": "/resources/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia",
+    "title": "Caveat Loan for EOFY Tax Bills on Unsold Development...",
+    "description": "How property developers may use finished but unsold stock as security for short-term caveat finance when an EOFY tax bill creates timing pressure.",
+    "keywords": "caveat loan EOFY tax bill unsold development stock, EOFY tax bill finance, developer caveat loan, unsold development stock finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia",
+    "h1": "Caveat Loan for EOFY Tax Bills on Unsold Development Stock",
+    "noscript": "How property developers may use finished but unsold stock as security for short-term caveat finance when an EOFY tax bill creates timing pressure.",
+    "sourcePath": "src/content/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia.md"
+  },
   "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance": {
     "routePath": "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance",
     "title": "Caveat Loan Exit Strategies: How to Repay or Refinance",
@@ -1028,6 +1038,16 @@
     "h1": "First Mortgage vs Second Mortgage: Key Differences",
     "noscript": "Understand the critical differences between first and second mortgages in commercial property finance. Learn about priority positions, risk profiles, lender requirements, and when each structure makes sense for business borrowers.",
     "sourcePath": "src/content/guides/first-mortgage-vs-second-mortgage-key-differences.md"
+  },
+  "/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage": {
+    "routePath": "/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage",
+    "title": "First Mortgagee Consent Delay: Caveat Loan vs Second...",
+    "description": "A practical decision framework for business borrowers comparing a delayed second mortgage consent process with a short-term caveat finance fallback.",
+    "keywords": "first mortgagee consent delay caveat loan vs second mortgage, second mortgage consent delay, caveat loan vs second mortgage, first mortgagee consent",
+    "canonical": "https://emetcapital.com.au/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage",
+    "h1": "First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage Fallback",
+    "noscript": "A practical decision framework for business borrowers comparing a delayed second mortgage consent process with a short-term caveat finance fallback.",
+    "sourcePath": "src/content/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage.md"
   },
   "/resources/guides/foreign-exchange-timing-trade-finance-importers-australia": {
     "routePath": "/resources/guides/foreign-exchange-timing-trade-finance-importers-australia",
