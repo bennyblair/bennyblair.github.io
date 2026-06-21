@@ -79,6 +79,16 @@
     "noscript": "From 1 July 2025, ATO general interest charge deductions changed. Learn when businesses may compare ATO payment plans with secured refinance options. General information only - not advice.",
     "sourcePath": "src/content/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt.md"
   },
+  "/resources/guides/ato-payment-plan-refused-business-finance-options-australia": {
+    "routePath": "/resources/guides/ato-payment-plan-refused-business-finance-options-australia",
+    "title": "ATO Payment Plan Refused: Business Finance Options...",
+    "description": "What Australian business owners can consider when an ATO payment plan is refused, including business finance options, caveat loans, working...",
+    "keywords": "ATO payment plan refused business finance Australia, ATO payment plan refused, business finance tax debt, caveat loan tax debt",
+    "canonical": "https://emetcapital.com.au/resources/guides/ato-payment-plan-refused-business-finance-options-australia",
+    "h1": "ATO Payment Plan Refused: Business Finance Options in Australia",
+    "noscript": "What Australian business owners can consider when an ATO payment plan is refused, including business finance options, caveat loans, working capital, risks, and document preparation.",
+    "sourcePath": "src/content/guides/ato-payment-plan-refused-business-finance-options-australia.md"
+  },
   "/resources/guides/ato-payment-plan-vs-business-finance-australia": {
     "routePath": "/resources/guides/ato-payment-plan-vs-business-finance-australia",
     "title": "ATO Payment Plan vs Business Finance in Australia",
@@ -648,6 +658,16 @@
     "h1": "Commercial Property Due Diligence: Finance Checklist",
     "noscript": "A practical commercial property due diligence finance checklist for Australian investors, developers, and business owners. Learn what lenders review before settlement and how to avoid financing surprises.",
     "sourcePath": "src/content/guides/commercial-property-due-diligence-finance-checklist.md"
+  },
+  "/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia": {
+    "routePath": "/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia",
+    "title": "Commercial Property Equity Release When Leases Have...",
+    "description": "How Australian business owners and investors can think about commercial property equity release when leases have expired, including lender...",
+    "keywords": "commercial property equity release lease expired Australia, commercial property equity release, vacant commercial property refinance, commercial property finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia",
+    "h1": "Commercial Property Equity Release When Leases Have Expired",
+    "noscript": "How Australian business owners and investors can think about commercial property equity release when leases have expired, including lender concerns, refinance options, risks, and documents.",
+    "sourcePath": "src/content/guides/commercial-property-equity-release-when-leases-have-expired-australia.md"
   },
   "/resources/guides/commercial-property-finance-broker-selection-checklist": {
     "routePath": "/resources/guides/commercial-property-finance-broker-selection-checklist",
