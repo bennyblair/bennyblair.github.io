@@ -33,6 +33,12 @@ This guide explains when auction bridging finance may fit, when it may not, what
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Bank and non-bank lending context for commercial property purchases.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type affects timing, flexibility, and documentation.
 
+## DAY45 Recovery Review: Keep One Auction Bridging Canonical
+
+Two older auction-bridging URLs now point here because they covered the same intent: commercial bridging finance for auction settlement. Keeping one canonical guide is the cleaner structure. Splitting this topic across multiple near-identical pages would make the cluster weaker and give borrowers repeated versions of the same answer.
+
+The useful distinction is not a separate slug for each wording of "auction bridging finance". It is the borrower task: understand the auction timetable, prepare finance evidence before bidding, compare bridge and standard commercial property loan pathways, and document the exit. That is why this guide should remain the single review target for auction purchase bridging, supported by related guides on [commercial property due diligence](/resources/guides/commercial-property-due-diligence-finance-checklist), [bridge lending](/resources/guides/bridge-lending-australia-commercial-property), and [bridging loan exits](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path).
+
 ## At a Glance
 
 | Question | Practical answer |

@@ -6,7 +6,7 @@ category: "Commercial Property Loans"
 tags: ["Commercial Property Finance", "Sydney", "Private Lending", "Commercial Mortgages", "Property Investment"]
 readingTime: 10
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-22"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -26,10 +26,17 @@ For investors, developers, and business owners, the practical challenge is not j
 
 ### Related In-Depth Guides
 
-- [Commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions)
-- [Bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)
-- [Commercial property loan eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
+- **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** - the national lending framework this Sydney hub sits under.
+- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** - useful when the Sydney problem is expiring debt, equity release, or lender replacement.
+- **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** - relevant when the issue is settlement timing rather than long-term debt structure.
+- **[Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** - what lenders usually assess before approving a commercial property facility.
+- **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** - valuation evidence that often decides leverage and lender appetite.
+
+## DAY45 Recovery Review: Consolidate The Short Sydney Slug Here
+
+The shorter `commercial-property-finance-sydney` intent should consolidate into this Sydney local expert hub rather than sit as a separate article. A second page targeting the same Sydney commercial property finance phrase would duplicate the same borrower task and compete with this stronger hub.
+
+The useful role for this page is clear: explain Sydney-specific lender appetite, asset types, timing pressure, and borrower preparation while linking back to the national commercial property finance cluster. If Daniel approves a production policy change, the old short URL should remain redirected to this page rather than being rebuilt as another thin Sydney guide.
 
 ### At a Glance
 

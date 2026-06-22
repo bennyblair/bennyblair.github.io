@@ -30,6 +30,12 @@ For the broad product overview, use the [commercial property loans Australia com
 - **[Commercial Property Settlement Process](/resources/guides/commercial-property-settlement-process-finance-timeline)** - timing risks before settlement.
 
 
+## 2026 Recovery Review: Keep As A Support Guide
+
+This page should stay as a support guide, not merge into the broader commercial property loan guide, because the borrower problem is narrower: a newer business or first-time commercial buyer needs to prove the file without years of stable accounts. That is a distinct usefulness angle from general commercial property finance, owner-occupier lending, or startup business loans.
+
+The recovery decision is to keep sharpening the page around evidence, lender concerns, and fallback planning. It should not try to rank as the main commercial property loan pillar, and it should continue to point borrowers to stronger cluster pages when their need is broader than first-premises evidence.
+
 ## Why This Page Was Rewritten Instead Of Consolidated
 
 The broader commercial property and owner-occupier guides already explain standard lending structure. They do not fully replace this intent because newer businesses have a separate evidence problem.
