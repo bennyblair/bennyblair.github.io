@@ -899,6 +899,16 @@
     "noscript": "An anonymised commercial property valuation delay case study for Australian business borrowers, showing how valuation timing, documents, and exit planning affect finance readiness.",
     "sourcePath": "src/content/guides/commercial-property-valuation-delay-case-study.md"
   },
+  "/resources/guides/commercial-property-valuation-dispute-finance-options-australia": {
+    "routePath": "/resources/guides/commercial-property-valuation-dispute-finance-options-australia",
+    "title": "Commercial Property Valuation Dispute: Finance...",
+    "description": "What Australian commercial property borrowers can do after a conservative valuation, including evidence review, second opinions, refinance...",
+    "keywords": "commercial property valuation dispute finance options Australia, commercial property valuation dispute, conservative valuation finance, commercial property refinance, private credit commercial property",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-valuation-dispute-finance-options-australia",
+    "h1": "Commercial Property Valuation Dispute: Finance Options After a Conservative Valuation",
+    "noscript": "What Australian commercial property borrowers can do after a conservative valuation, including evidence review, second opinions, refinance options, private credit, and settlement planning.",
+    "sourcePath": "src/content/guides/commercial-property-valuation-dispute-finance-options-australia.md"
+  },
   "/resources/guides/commercial-property-valuation-for-finance-lender-requirements": {
     "routePath": "/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
     "title": "Commercial Property Valuation for Finance: Lender...",
@@ -1488,6 +1498,16 @@
     "h1": "Private Commercial Real Estate Lenders: CRE Directory",
     "noscript": "Explore the landscape of private commercial real estate lenders in Australia. A comprehensive guide to finding and selecting the right private CRE partner.",
     "sourcePath": "src/content/guides/private-commercial-real-estate-lenders-cre-directory.md"
+  },
+  "/resources/guides/private-credit-broker-vs-direct-private-credit-fund-australia": {
+    "routePath": "/resources/guides/private-credit-broker-vs-direct-private-credit-fund-australia",
+    "title": "Private Credit Broker vs Direct Private Credit Fund...",
+    "description": "Compare using a private credit broker with going direct to a private credit fund in Australia. Learn the trade-offs for SME borrowers,...",
+    "keywords": "private credit broker vs private credit fund Australia, private credit broker, private credit fund, private lending Australia, SME private credit",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-credit-broker-vs-direct-private-credit-fund-australia",
+    "h1": "Private Credit Broker vs Direct Private Credit Fund for SME Borrowers",
+    "noscript": "Compare using a private credit broker with going direct to a private credit fund in Australia. Learn the trade-offs for SME borrowers, documentation, negotiation, lender fit, and risk.",
+    "sourcePath": "src/content/guides/private-credit-broker-vs-direct-private-credit-fund-australia.md"
   },
   "/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance": {
     "routePath": "/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance",
