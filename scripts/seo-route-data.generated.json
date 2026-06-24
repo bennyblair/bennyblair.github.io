@@ -1669,6 +1669,16 @@
     "noscript": "Progress claim finance explained for Australian builders, trades and commercial fitout businesses dealing with delayed claims, stalled works and cash flow pressure.",
     "sourcePath": "src/content/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia.md"
   },
+  "/resources/guides/progress-claim-finance-unapproved-variations-australia": {
+    "routePath": "/resources/guides/progress-claim-finance-unapproved-variations-australia",
+    "title": "Progress Claim Finance When Variations Are Unapproved",
+    "description": "Progress claim finance for Australian builders and subcontractors when variations are unapproved, disputed, or delayed. Learn what lenders assess,...",
+    "keywords": "progress claim finance unapproved variations Australia, progress claim finance, construction cash flow finance, variation claim finance, builder cash flow finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/progress-claim-finance-unapproved-variations-australia",
+    "h1": "Progress Claim Finance When Variations Are Unapproved",
+    "noscript": "Progress claim finance for Australian builders and subcontractors when variations are unapproved, disputed, or delayed. Learn what lenders assess, documents needed, risks, and alternatives.",
+    "sourcePath": "src/content/guides/progress-claim-finance-unapproved-variations-australia.md"
+  },
   "/resources/guides/property-development-loans-complete-funding-guide": {
     "routePath": "/resources/guides/property-development-loans-complete-funding-guide",
     "title": "Property Development Loans: Complete Funding Guide",
@@ -2028,6 +2038,16 @@
     "h1": "Supplier Deposit Finance for Large Orders in Australia",
     "noscript": "Supplier deposit finance for large orders explained for Australian business borrowers, including use cases, lender assessment, documents, risks, and exit planning.",
     "sourcePath": "src/content/guides/supplier-deposit-finance-for-large-orders-australia.md"
+  },
+  "/resources/guides/supplier-deposit-finance-high-value-import-orders-australia": {
+    "routePath": "/resources/guides/supplier-deposit-finance-high-value-import-orders-australia",
+    "title": "Supplier Deposit Finance for High-Value Import Orders",
+    "description": "Supplier deposit finance for Australian importers placing high-value overseas orders. Learn how deposits, production milestones, FX timing, import...",
+    "keywords": "supplier deposit finance high value import orders Australia, supplier deposit finance, import order finance, trade finance for importers, import working capital finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/supplier-deposit-finance-high-value-import-orders-australia",
+    "h1": "Supplier Deposit Finance for High-Value Import Orders",
+    "noscript": "Supplier deposit finance for Australian importers placing high-value overseas orders. Learn how deposits, production milestones, FX timing, import GST, and working capital fit together.",
+    "sourcePath": "src/content/guides/supplier-deposit-finance-high-value-import-orders-australia.md"
   },
   "/resources/guides/swing-loans-explained-seamless-property-transitions": {
     "routePath": "/resources/guides/swing-loans-explained-seamless-property-transitions",
