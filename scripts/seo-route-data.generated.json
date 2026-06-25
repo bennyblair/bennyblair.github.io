@@ -1609,6 +1609,16 @@
     "noscript": "An anonymised private lending bank decline case study for Australian business borrowers, showing how brokers reframe security, purpose, documents, and exit after a bank says no.",
     "sourcePath": "src/content/guides/private-lending-bank-decline-case-study.md"
   },
+  "/resources/guides/private-lending-mortgage": {
+    "routePath": "/resources/guides/private-lending-mortgage",
+    "title": "Private Lending Mortgage: Guide for Commercial Borrowers",
+    "description": "Private lending mortgage explained for Australian business borrowers, including when it may fit, how lenders assess security, documents, exits,...",
+    "keywords": "private lending mortgage, private mortgage lending, private mortgage loan, commercial private lending",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-lending-mortgage",
+    "h1": "Private Lending Mortgage: Guide for Commercial Borrowers",
+    "noscript": "Private lending mortgage explained for Australian business borrowers, including when it may fit, how lenders assess security, documents, exits, and risks.",
+    "sourcePath": "src/content/guides/private-lending-mortgage.md"
+  },
   "/resources/guides/private-lending-vs-bank-lending-which-is-better": {
     "routePath": "/resources/guides/private-lending-vs-bank-lending-which-is-better",
     "title": "Private Lending vs Bank Lending: Which Is Better?",
@@ -2108,6 +2118,16 @@
     "h1": "Unsecured Private Lenders for Business Growth",
     "noscript": "A practical guide to unsecured private lenders for Australian business growth. Learn how these facilities work, what lenders assess, and when unsecured private capital may fit a commercial funding plan.",
     "sourcePath": "src/content/guides/unsecured-private-lenders-for-business-growth.md"
+  },
+  "/resources/guides/urgent-caveat-loan-settlement-shortfall-case-study": {
+    "routePath": "/resources/guides/urgent-caveat-loan-settlement-shortfall-case-study",
+    "title": "Urgent Caveat Loan Settlement Shortfall Case Study",
+    "description": "An anonymised settlement shortfall case study showing how an urgent caveat loan can be assessed for a commercial borrower when funds are short...",
+    "keywords": "urgent caveat loan settlement shortfall case study, settlement shortfall finance, urgent caveat loan, caveat loan case study",
+    "canonical": "https://emetcapital.com.au/resources/guides/urgent-caveat-loan-settlement-shortfall-case-study",
+    "h1": "Urgent Caveat Loan Settlement Shortfall Case Study",
+    "noscript": "An anonymised settlement shortfall case study showing how an urgent caveat loan can be assessed for a commercial borrower when funds are short before settlement.",
+    "sourcePath": "src/content/guides/urgent-caveat-loan-settlement-shortfall-case-study.md"
   },
   "/resources/guides/urgent-caveat-loans": {
     "routePath": "/resources/guides/urgent-caveat-loans",
