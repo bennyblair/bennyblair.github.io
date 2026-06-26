@@ -469,6 +469,16 @@
     "noscript": "How property developers may use finished but unsold stock as security for short-term caveat finance when an EOFY tax bill creates timing pressure.",
     "sourcePath": "src/content/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia.md"
   },
+  "/resources/guides/caveat-loan-exit-plan-after-bank-delay-case-study": {
+    "routePath": "/resources/guides/caveat-loan-exit-plan-after-bank-delay-case-study",
+    "title": "Caveat Loan Exit Plan After Bank Delay: Case Study",
+    "description": "An anonymised case study showing how a commercial borrower can use a caveat loan exit plan when a bank delay threatens settlement or refinance timing.",
+    "keywords": "caveat loan exit plan, bank delay caveat loan, commercial refinance delay, short term property finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/caveat-loan-exit-plan-after-bank-delay-case-study",
+    "h1": "Caveat Loan Exit Plan After Bank Delay: Case Study",
+    "noscript": "An anonymised case study showing how a commercial borrower can use a caveat loan exit plan when a bank delay threatens settlement or refinance timing.",
+    "sourcePath": "src/content/guides/caveat-loan-exit-plan-after-bank-delay-case-study.md"
+  },
   "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance": {
     "routePath": "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance",
     "title": "Caveat Loan Exit Strategies: How to Repay or Refinance",
@@ -618,6 +628,16 @@
     "h1": "Commercial Loan Refinance: When Business Borrowers Should Rework Existing Debt",
     "noscript": "A practical guide to commercial loan refinance for Australian business borrowers, including when refinancing can make sense, what lenders assess, common structures, and when it may not be the right move.",
     "sourcePath": "src/content/guides/commercial-loan-refinance.md"
+  },
+  "/resources/guides/commercial-mortgage-broker-regional-property-finance": {
+    "routePath": "/resources/guides/commercial-mortgage-broker-regional-property-finance",
+    "title": "Commercial Mortgage Broker for Regional Property Finance",
+    "description": "How Australian business borrowers can use a commercial mortgage broker for regional property finance, including lender fit, documents, risks, and...",
+    "keywords": "commercial mortgage broker regional property finance, regional commercial property finance, commercial property broker Australia, business property finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-mortgage-broker-regional-property-finance",
+    "h1": "Commercial Mortgage Broker for Regional Property Finance",
+    "noscript": "How Australian business borrowers can use a commercial mortgage broker for regional property finance, including lender fit, documents, risks, and when regional security needs specialist packaging.",
+    "sourcePath": "src/content/guides/commercial-mortgage-broker-regional-property-finance.md"
   },
   "/resources/guides/commercial-mortgage-rates-australia-complete-guide": {
     "routePath": "/resources/guides/commercial-mortgage-rates-australia-complete-guide",
