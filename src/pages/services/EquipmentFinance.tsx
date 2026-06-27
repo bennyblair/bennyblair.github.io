@@ -94,6 +94,9 @@ const EquipmentFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), demonstrated trading history or business plans, and capacity to service equipment repayments. Both new and established businesses benefit from equipment finance tailored to commercial lending requirements and operational asset needs.
               </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                If the asset purchase also creates a cash-flow, supplier, tax, or acquisition requirement, review the <Link to="/services/business-finance" className="text-accent hover:underline">business finance hub</Link> to compare equipment finance with working capital, trade finance, consolidation, and asset-backed lending.
+              </p>
             </section>
 
             {/* How Emet Capital helps */}

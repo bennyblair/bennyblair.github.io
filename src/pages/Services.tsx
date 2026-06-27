@@ -90,6 +90,13 @@ const Services = () => {
       description: 'Business growth and operational financing',
       services: [
         {
+          title: 'Business Finance Hub',
+          description: 'Compare working capital, trade, equipment, acquisition, consolidation, and asset-backed business finance',
+          link: '/services/business-finance',
+          loanRange: '$50K - $50M+',
+          terms: 'Short and long-term'
+        },
+        {
           title: 'Working Capital',
           description: 'Short-term business operational funding',
           link: '/services/working-capital',

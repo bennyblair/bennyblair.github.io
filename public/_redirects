@@ -21,7 +21,6 @@ https://www.emetcapital.com.au/* https://emetcapital.com.au/:splat 301!
 
 # Technical SEO service aliases
 /services/second-mortgage /services/first-second-mortgages 301!
-/services/business-finance /services/working-capital 301!
 
 # Legacy path fixes
 /contact-6 /contact 301

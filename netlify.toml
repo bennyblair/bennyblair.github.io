@@ -306,12 +306,6 @@
   status = 301
   force = true
 
-[[redirects]]
-  from = "/services/business-finance"
-  to = "/services/working-capital"
-  status = 301
-  force = true
-
 # Legacy page redirects
 [[redirects]]
   from = "/about-us"

@@ -113,6 +113,9 @@ const TradeFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), demonstrated trading history with international suppliers or customers, and capacity to service facilities from trading operations. Both established trading businesses and those expanding international operations benefit from trade finance solutions tailored to cross-border commerce requirements.
               </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                For broader non-trade funding needs, compare the <Link to="/services/business-finance" className="text-accent hover:underline">business finance hub</Link> before choosing between trade finance, working capital, equipment finance, and asset-backed lending.
+              </p>
             </section>
 
             {/* How Emet Capital helps */}

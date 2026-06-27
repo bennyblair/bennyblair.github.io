@@ -2729,6 +2729,16 @@
     "noscript": "Development finance from $500K-$100M+ for commercial, residential, and mixed-use construction projects across Australia.",
     "sourcePath": "src/pages/services/CommercialPropertyDevelopment.tsx"
   },
+  "/services/business-finance": {
+    "routePath": "/services/business-finance",
+    "title": "Business Finance Australia | Working Capital, Trade...",
+    "description": "Business finance hub for Australian SMEs comparing working capital, trade finance, equipment finance, acquisition funding, debt consolidation, and...",
+    "keywords": "business finance Australia, working capital finance, trade finance, equipment finance, business acquisition finance, business debt consolidation, asset-backed lending",
+    "canonical": "https://emetcapital.com.au/services/business-finance",
+    "h1": "Business Finance for Australian SMEs",
+    "noscript": "Business finance hub for Australian SMEs comparing working capital, trade finance, equipment finance, acquisition funding, debt consolidation, and asset-backed lending.",
+    "sourcePath": "src/pages/services/BusinessFinance.tsx"
+  },
   "/services/working-capital": {
     "routePath": "/services/working-capital",
     "title": "Working Capital Finance Solutions Australia",

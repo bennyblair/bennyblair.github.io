@@ -197,6 +197,9 @@ const WorkingCapital = () => {
               <p className="text-muted-foreground leading-relaxed mb-6">
                 To proceed, contact our team for an initial assessment. We'll evaluate your business operations, cash flow requirements, and circumstances to identify optimal working capital solutions. Our process includes facility recommendation, lender selection, and guidance through to facility establishment.
               </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                If the funding need extends beyond operating cash flow, compare the broader <Link to="/services/business-finance" className="text-accent hover:underline">business finance hub</Link> for trade finance, equipment finance, business acquisition, debt consolidation, asset-backed lending, and private lending pathways.
+              </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                   <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
@@ -311,11 +314,11 @@ const WorkingCapital = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Asset Finance</CardTitle>
+                  <CardTitle className="text-lg">Business Finance Hub</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Equipment and machinery acquisition funding</p>
-                  <Link to="/services/asset-finance" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Compare working capital with trade, equipment, acquisition, consolidation, and asset-backed options</p>
+                  <Link to="/services/business-finance" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

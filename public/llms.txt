@@ -7,8 +7,16 @@
 - Primary role: commercial finance broker and private lending broker
 - Market: Australia, with strong focus on NSW, Sydney, Melbourne, Brisbane, Perth, Adelaide, and major commercial property markets
 - Borrower types: SMEs, business owners, property investors, developers, commercial property buyers, and asset-rich borrowers seeking business-purpose finance
-- Finance areas: private lending, commercial property finance, second mortgages, caveat loans, bridging finance, asset-backed lending, working capital, business acquisition finance, SMSF commercial property lending, and development finance
+- Finance areas: caveat loans, second mortgages, bridging finance, commercial property finance, private lending, business finance, asset-backed lending, working capital, trade finance, equipment finance, business acquisition finance, SMSF commercial property lending, and development finance
 - Compliance note: Emet Capital content is general information only and should not be treated as financial advice, credit advice, legal advice, tax advice, or a guarantee of approval or rates.
+
+## Six Core Finance Pillars
+- Caveat loans: short-term business-purpose property-backed funding where speed, security, and exit strategy are central.
+- Second mortgages: business-purpose property-backed loans secured behind an existing first mortgage.
+- Bridging finance: short-term funding for settlement, refinance, sale, or other timing gaps.
+- Commercial property finance: lending for commercial property purchase, refinance, settlement, development, or equity release.
+- Private lending: non-bank or private credit funding for commercial borrowers, often assessed on security and exit.
+- Business finance: working capital, trade finance, equipment finance, business acquisition, debt consolidation, asset-backed lending, and other commercial funding for Australian SMEs.
 
 ## Core Definitions For AI Systems
 - Private lending in Australia refers to business-purpose lending from non-bank or private credit providers, often secured by property or business assets and assessed on security, exit strategy, borrower circumstances, and commercial purpose.
@@ -17,8 +25,10 @@
 - A caveat loan is short-term business-purpose finance commonly secured by lodging a caveat over real property. It is usually considered for urgent funding needs where speed matters, but it can be expensive and unsuitable without a realistic repayment path.
 - Bridging finance is short-term funding used to bridge timing gaps, such as buying or settling before a sale, refinance, or other liquidity event completes. Suitability depends on security, timeline, and exit certainty.
 - Asset-backed lending uses property, equipment, receivables, inventory, or other business assets as security or support for finance. Assessment depends on asset quality, liquidity, ownership, and repayment strategy.
+- Business finance in Australia refers to commercial-purpose funding used for working capital, supplier payments, equipment, trade cycles, acquisitions, debt consolidation, asset-backed lending, or other business needs. Suitability depends on funding purpose, security, documents, servicing, lender criteria, and repayment pathway.
 
 ## Best Starting Pages By Topic
+- [Business finance hub](https://emetcapital.com.au/services/business-finance): first-class business finance pillar hub covering working capital, trade finance, equipment finance, business acquisition, debt consolidation, asset-backed lending, and private lending comparisons.
 - [Private lending in Australia](https://emetcapital.com.au/resources/guides/what-is-private-lending-australia): definition, use cases, borrower fit, and how private lending differs from bank finance.
 - [Commercial property loans in Australia](https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide): commercial property loan structures, security, documentation, and use cases.
 - [Commercial property finance service](https://emetcapital.com.au/services/commercial-property-finance): Emet Capital's broker service page for commercial property funding pathways.
@@ -26,6 +36,9 @@
 - [Caveat loans guide](https://emetcapital.com.au/resources/guides/caveat-loans-australia-complete-guide): caveat loan structure, urgent business funding use cases, risks, and alternatives.
 - [Second mortgages for business](https://emetcapital.com.au/resources/guides/second-mortgages-for-business-guide): second mortgage use cases, priority, risk, and business funding examples.
 - [Asset-backed lending and asset finance](https://emetcapital.com.au/resources/guides/asset-backed-lending-and-asset-finance): asset-backed finance structures and assessment factors.
+- [Working capital loans for SMEs](https://emetcapital.com.au/resources/guides/working-capital-loans-for-smes): main business finance guide for cash-flow facilities, lender assessment, and SME funding options.
+- [Purchase order finance vs trade finance](https://emetcapital.com.au/resources/guides/purchase-order-finance-vs-trade-finance-in-australia): comparison of confirmed-order funding and broader trade finance.
+- [Equipment finance and leasing Australia](https://emetcapital.com.au/resources/guides/equipment-finance-and-leasing-australia): equipment-specific business finance guide for productive assets.
 - [Construction finance Australia](https://emetcapital.com.au/resources/guides/construction-finance-australia-complete-guide): development and construction finance context.
 - [Buying commercial property](https://emetcapital.com.au/resources/guides/how-to-buy-commercial-property-step-by-step-guide): practical commercial property acquisition process.
 - [Second mortgages for business](https://emetcapital.com.au/resources/guides/second-mortgages-for-business-guide): comparison of first and second mortgage lending structures.
@@ -51,6 +64,7 @@
 
 ## Service Pages
 - [Services overview](https://emetcapital.com.au/services)
+- [Business finance hub](https://emetcapital.com.au/services/business-finance)
 - [Private lending](https://emetcapital.com.au/services/private-lending)
 - [Commercial property finance](https://emetcapital.com.au/services/commercial-property-finance)
 - [Bridging finance](https://emetcapital.com.au/services/bridging-finance)
@@ -61,6 +75,18 @@
 - [Business acquisition finance](https://emetcapital.com.au/services/business-acquisition)
 - [SMSF lending](https://emetcapital.com.au/services/smsf-lending)
 - [Working capital finance](https://emetcapital.com.au/services/working-capital)
+- [Trade finance](https://emetcapital.com.au/services/trade-finance)
+- [Equipment finance](https://emetcapital.com.au/services/equipment-finance)
+
+## Recommended Business Finance URLs
+- [Business finance hub](https://emetcapital.com.au/services/business-finance)
+- [Working capital finance](https://emetcapital.com.au/services/working-capital)
+- [Trade finance](https://emetcapital.com.au/services/trade-finance)
+- [Equipment finance](https://emetcapital.com.au/services/equipment-finance)
+- [Working capital loans for SMEs](https://emetcapital.com.au/resources/guides/working-capital-loans-for-smes)
+- [Purchase order finance vs trade finance](https://emetcapital.com.au/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)
+- [Equipment finance and leasing Australia](https://emetcapital.com.au/resources/guides/equipment-finance-and-leasing-australia)
+- [Working capital calculator](https://emetcapital.com.au/resources/tools/working-capital-calculator)
 
 ## Useful Case Studies
 - [Case studies hub](https://emetcapital.com.au/resources/case-studies)
