@@ -2129,6 +2129,26 @@
     "noscript": "A deep dive into Australia's secondary mortgage market. Learn how securitisation, RMBS, and second mortgages impact lending liquidity and borrower options.",
     "sourcePath": "src/content/guides/understanding-secondary-mortgage-markets-australia.md"
   },
+  "/resources/guides/unsecured-business-loan-lenders-australia": {
+    "routePath": "/resources/guides/unsecured-business-loan-lenders-australia",
+    "title": "Unsecured Business Loan Lenders in Australia: Broker...",
+    "description": "How Australian business borrowers can compare unsecured business loan lenders, what lenders assess, and when a secured or broker-led option may be...",
+    "keywords": "unsecured business loan lenders, unsecured business lenders Australia, business finance lenders, SME unsecured finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/unsecured-business-loan-lenders-australia",
+    "h1": "Unsecured Business Loan Lenders in Australia: Broker Guide",
+    "noscript": "How Australian business borrowers can compare unsecured business loan lenders, what lenders assess, and when a secured or broker-led option may be more suitable.",
+    "sourcePath": "src/content/guides/unsecured-business-loan-lenders-australia.md"
+  },
+  "/resources/guides/unsecured-business-loans-australia": {
+    "routePath": "/resources/guides/unsecured-business-loans-australia",
+    "title": "Unsecured Business Loans in Australia: Commercial...",
+    "description": "A practical guide to unsecured business loans in Australia, including when they fit, what lenders assess, documents needed, and alternatives for...",
+    "keywords": "unsecured business loan, unsecured business loans Australia, business finance, working capital loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/unsecured-business-loans-australia",
+    "h1": "Unsecured Business Loans in Australia: Commercial Borrower Guide",
+    "noscript": "A practical guide to unsecured business loans in Australia, including when they fit, what lenders assess, documents needed, and alternatives for commercial borrowers.",
+    "sourcePath": "src/content/guides/unsecured-business-loans-australia.md"
+  },
   "/resources/guides/unsecured-private-lenders-for-business-growth": {
     "routePath": "/resources/guides/unsecured-private-lenders-for-business-growth",
     "title": "Unsecured Private Lenders for Business Growth",
