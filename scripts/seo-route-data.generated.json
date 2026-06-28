@@ -329,6 +329,16 @@
     "noscript": "Business line of credit explained for Australian commercial borrowers, including how it works, lender assessment, documents, risks, and alternatives.",
     "sourcePath": "src/content/guides/business-line-of-credit-australia.md"
   },
+  "/resources/guides/business-loan-line-of-credit-australia": {
+    "routePath": "/resources/guides/business-loan-line-of-credit-australia",
+    "title": "Business Loan Line of Credit in Australia | Emet Capital",
+    "description": "A practical guide to business loan lines of credit for Australian SMEs, including how revolving credit works, when it fits, risks, documents, and...",
+    "keywords": "business loan line of credit, business line of credit Australia, revolving business credit, SME line of credit",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-loan-line-of-credit-australia",
+    "h1": "Business Loan Line of Credit in Australia",
+    "noscript": "A practical guide to business loan lines of credit for Australian SMEs, including how revolving credit works, when it fits, risks, documents, and alternatives.",
+    "sourcePath": "src/content/guides/business-loan-line-of-credit-australia.md"
+  },
   "/resources/guides/business-loan-requirements-australia-commercial-borrowers": {
     "routePath": "/resources/guides/business-loan-requirements-australia-commercial-borrowers",
     "title": "Business Loan Requirements for Australian Commercial...",
@@ -1678,6 +1688,16 @@
     "h1": "Private Mortgage Lending in Australia: Commercial Borrower Guide",
     "noscript": "Private mortgage lending explained for Australian business borrowers using property security. Learn when it fits, what lenders assess, risks, documents, and exit planning.",
     "sourcePath": "src/content/guides/private-mortgage-lending.md"
+  },
+  "/resources/guides/private-mortgage-loans-for-commercial-borrowers": {
+    "routePath": "/resources/guides/private-mortgage-loans-for-commercial-borrowers",
+    "title": "Private Mortgage Loans for Commercial Borrowers",
+    "description": "Private mortgage loans explained for Australian business borrowers using property security for commercial funding, including when they fit, risks,...",
+    "keywords": "private mortgage loan, private mortgage loans, commercial private mortgage, property secured business loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/private-mortgage-loans-for-commercial-borrowers",
+    "h1": "Private Mortgage Loans for Commercial Borrowers",
+    "noscript": "Private mortgage loans explained for Australian business borrowers using property security for commercial funding, including when they fit, risks, documents, and exit planning.",
+    "sourcePath": "src/content/guides/private-mortgage-loans-for-commercial-borrowers.md"
   },
   "/resources/guides/private-real-estate-investment-lenders-guide": {
     "routePath": "/resources/guides/private-real-estate-investment-lenders-guide",
