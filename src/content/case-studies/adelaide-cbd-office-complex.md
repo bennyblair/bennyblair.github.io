@@ -7,7 +7,7 @@ slug: "adelaide-cbd-office-complex"
 keywords: ["commercial property loan Adelaide", "Adelaide CBD office", "office refurbishment finance", "commercial property Adelaide", "South Australia commercial lending"]
 readingTime: 7
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-06-29"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -29,7 +29,24 @@ lvr: "70%"
 
 *Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
 
-In Adelaide's evolving CBD, where heritage meets modernity, a commercial property investor identified an opportunity to transform an underperforming office building into a premium workspace. This refurbishment project would need to retain existing tenants while attracting new ones in a competitive market.
+This case study has been sharpened because the original page competed too closely with broader commercial property loan content and did not make the usefulness of this Adelaide refurbishment scenario clear enough. The recovery decision is heavy rewrite and differentiation, not redirect or noindex, because the page targets a distinct office-refurbishment finance use case with local market evidence.
+
+In Adelaide's evolving CBD, where heritage meets modernity, a commercial property investor identified an opportunity to transform an underperforming office building into a premium workspace. This refurbishment project would need to retain existing tenants while attracting new ones in a competitive market. The finance question was not simply whether a [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide) was available. It was whether the facility could handle construction drawdowns, tenant disruption, valuation uplift, and a clear exit after stabilisation.
+
+### Related In-Depth Guides
+
+- **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide for property-backed business borrowing.
+- **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** — Useful where refurbishment works overlap with development funding.
+- **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Explains how lenders assess improved value and security.
+- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant if the exit depends on refinancing after lease-up.
+- **[Commercial Property Loan Deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)** — Helps compare leverage and equity contribution.
+- **[Commercial Property Loan Covenants](/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them)** — Important for projects with lease and occupancy milestones.
+
+## Why This Page Still Deserves a Standalone Role
+
+This scenario should remain separate from generic commercial property finance guides because it answers a narrower question: how an Adelaide CBD office refurbishment facility could be structured when the building remains partly occupied. The page is not intended to rank for every commercial property loan query. Its useful role is to show the funding logic behind staged works, tenant retention, NABERS upgrades, and post-refurbishment lease-up.
+
+A redirect to a broad guide would lose the case-specific evidence. A noindex decision would also be premature because the page now adds concrete drawdown stages, risk controls, and local market context that support a distinct search intent.
 
 ## The Strategic Opportunity
 
@@ -94,6 +111,7 @@ Adelaide CBD offers compelling advantages for commercial property investment:
 **LVR:** 70% against could improve property valuation ($3.0M)
 **Term:** 15 months with progress payment facility
 **Security:** First mortgage over property plus corporate guarantee
+**Structure note:** this scenario is differentiated through Adelaide refurbishment specifics, staged drawdowns, tenant-retention risk, and post-works refinance logic
 
 ### Commercial Property Expertise
 
@@ -229,6 +247,14 @@ This illustrative project scenario shows the potential for value creation in Ade
 - Showcased integration of heritage and modern design
 - Demonstrated successful occupied building renovation techniques
 - Proved market demand for premium office space in Adelaide
+
+## Related Guides
+
+- [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
+- [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
+- [Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
+- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Loan Covenants](/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them)
 
 ## Conclusion
 
