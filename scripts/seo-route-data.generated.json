@@ -959,6 +959,16 @@
     "noscript": "Complete directory of Australian commercial real estate lenders including major banks, regional lenders, and private capital providers with specialization details and contact information.",
     "sourcePath": "src/content/guides/commercial-real-estate-lenders-australia-directory.md"
   },
+  "/resources/guides/commercial-rent-arrears-finance-australia": {
+    "routePath": "/resources/guides/commercial-rent-arrears-finance-australia",
+    "title": "Commercial Rent Arrears Finance for Australian...",
+    "description": "Commercial rent arrears finance options for Australian businesses facing landlord pressure. Compare secured business finance, debtor finance,...",
+    "keywords": "commercial rent arrears finance Australia, business rent arrears finance, commercial lease arrears, working capital finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-rent-arrears-finance-australia",
+    "h1": "Commercial Rent Arrears Finance for Australian Businesses",
+    "noscript": "Commercial rent arrears finance options for Australian businesses facing landlord pressure. Compare secured business finance, debtor finance, negotiation, risks, and evidence packs.",
+    "sourcePath": "src/content/guides/commercial-rent-arrears-finance-australia.md"
+  },
   "/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled": {
     "routePath": "/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled",
     "title": "Construction Completion Finance in Australia:...",
@@ -988,6 +998,16 @@
     "h1": "Construction Retention Finance for Builders in Australia",
     "noscript": "Construction retention finance in Australia explained for builders, including cash-flow pressure, lender assessment, documents, risks, and refinance options.",
     "sourcePath": "src/content/guides/construction-retention-finance-for-builders-australia.md"
+  },
+  "/resources/guides/debtor-concentration-working-capital-finance-australia": {
+    "routePath": "/resources/guides/debtor-concentration-working-capital-finance-australia",
+    "title": "Debtor Concentration Working Capital Finance for SMEs",
+    "description": "Debtor concentration finance options for Australian SMEs. Learn how lenders view customer concentration, late payments, debtor finance limits,...",
+    "keywords": "debtor concentration working capital finance Australia, debtor concentration finance, working capital finance for SMEs, customer concentration risk",
+    "canonical": "https://emetcapital.com.au/resources/guides/debtor-concentration-working-capital-finance-australia",
+    "h1": "Debtor Concentration Working Capital Finance for SMEs",
+    "noscript": "Debtor concentration finance options for Australian SMEs. Learn how lenders view customer concentration, late payments, debtor finance limits, property-backed working capital, and evidence packs.",
+    "sourcePath": "src/content/guides/debtor-concentration-working-capital-finance-australia.md"
   },
   "/resources/guides/debtor-finance-supply-chain-finance-australia": {
     "routePath": "/resources/guides/debtor-finance-supply-chain-finance-australia",
