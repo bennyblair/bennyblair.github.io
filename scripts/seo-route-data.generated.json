@@ -999,6 +999,26 @@
     "noscript": "Construction retention finance in Australia explained for builders, including cash-flow pressure, lender assessment, documents, risks, and refinance options.",
     "sourcePath": "src/content/guides/construction-retention-finance-for-builders-australia.md"
   },
+  "/resources/guides/contract-mobilisation-finance-australia": {
+    "routePath": "/resources/guides/contract-mobilisation-finance-australia",
+    "title": "Contract Mobilisation Finance for New Business Contracts",
+    "description": "Contract mobilisation finance in Australia explained for SMEs that need working capital before a new contract starts generating cash flow.",
+    "keywords": "contract mobilisation finance Australia, contract mobilisation finance, mobilisation funding, business contract finance, working capital for new contracts",
+    "canonical": "https://emetcapital.com.au/resources/guides/contract-mobilisation-finance-australia",
+    "h1": "Contract Mobilisation Finance for New Business Contracts",
+    "noscript": "Contract mobilisation finance in Australia explained for SMEs that need working capital before a new contract starts generating cash flow.",
+    "sourcePath": "src/content/guides/contract-mobilisation-finance-australia.md"
+  },
+  "/resources/guides/cross-collateralised-commercial-property-refinance-australia": {
+    "routePath": "/resources/guides/cross-collateralised-commercial-property-refinance-australia",
+    "title": "Cross-Collateralised Commercial Property Refinance",
+    "description": "Cross-collateralised commercial property refinance explained for Australian borrowers using multiple properties to restructure debt or release equity.",
+    "keywords": "cross collateralised commercial property refinance Australia, cross collateralised refinance, commercial property refinance multiple properties, commercial property equity release, property portfolio refinance",
+    "canonical": "https://emetcapital.com.au/resources/guides/cross-collateralised-commercial-property-refinance-australia",
+    "h1": "Cross-Collateralised Commercial Property Refinance",
+    "noscript": "Cross-collateralised commercial property refinance explained for Australian borrowers using multiple properties to restructure debt or release equity.",
+    "sourcePath": "src/content/guides/cross-collateralised-commercial-property-refinance-australia.md"
+  },
   "/resources/guides/debtor-concentration-working-capital-finance-australia": {
     "routePath": "/resources/guides/debtor-concentration-working-capital-finance-australia",
     "title": "Debtor Concentration Working Capital Finance for SMEs",
