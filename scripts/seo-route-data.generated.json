@@ -989,6 +989,16 @@
     "noscript": "Complete guide to construction finance in Australia. Learn about owner-occupier commercial builds, costs, stages, and how construction finance differs from development. General information only - not advice.",
     "sourcePath": "src/content/guides/construction-finance-australia-complete-guide.md"
   },
+  "/resources/guides/construction-funding-gap-private-credit-bank-shortfall-australia": {
+    "routePath": "/resources/guides/construction-funding-gap-private-credit-bank-shortfall-australia",
+    "title": "Construction Funding Gap: When Private Credit Fills...",
+    "description": "Construction funding gaps explained for Australian developers and business borrowers, including bank shortfalls, private credit options, risks,...",
+    "keywords": "construction funding gap private credit Australia, construction finance bank shortfall, private credit construction funding, developer funding gap finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/construction-funding-gap-private-credit-bank-shortfall-australia",
+    "h1": "Construction Funding Gap: When Private Credit Fills the Bank Shortfall",
+    "noscript": "Construction funding gaps explained for Australian developers and business borrowers, including bank shortfalls, private credit options, risks, documents, and exit planning.",
+    "sourcePath": "src/content/guides/construction-funding-gap-private-credit-bank-shortfall-australia.md"
+  },
   "/resources/guides/construction-retention-finance-for-builders-australia": {
     "routePath": "/resources/guides/construction-retention-finance-for-builders-australia",
     "title": "Construction Retention Finance for Builders in Australia",
@@ -2118,6 +2128,16 @@
     "h1": "Subordination Agreements in Second Mortgages: What They Mean",
     "noscript": "Understand subordination agreements in second mortgages, when they matter, and how they affect commercial borrowers, senior lenders, and exit planning in Australia.",
     "sourcePath": "src/content/guides/subordination-agreement-second-mortgage.md"
+  },
+  "/resources/guides/superannuation-guarantee-charge-business-finance-options-australia": {
+    "routePath": "/resources/guides/superannuation-guarantee-charge-business-finance-options-australia",
+    "title": "Superannuation Guarantee Charge Debt and Business...",
+    "description": "Superannuation Guarantee Charge debt explained for Australian business owners, including why unpaid super is different, what finance can and...",
+    "keywords": "superannuation guarantee charge business finance Australia, SGC debt business finance, unpaid super business finance, ATO super debt finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/superannuation-guarantee-charge-business-finance-options-australia",
+    "h1": "Superannuation Guarantee Charge Debt and Business Finance Options",
+    "noscript": "Superannuation Guarantee Charge debt explained for Australian business owners, including why unpaid super is different, what finance can and cannot solve, and when to seek advice.",
+    "sourcePath": "src/content/guides/superannuation-guarantee-charge-business-finance-options-australia.md"
   },
   "/resources/guides/supplier-deposit-finance-for-large-orders-australia": {
     "routePath": "/resources/guides/supplier-deposit-finance-for-large-orders-australia",
