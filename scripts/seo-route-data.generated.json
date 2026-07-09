@@ -59,6 +59,16 @@
     "noscript": "Compare asset-backed lending and unsecured business loans for Australian commercial borrowers, including security, speed, borrowing capacity, lender assessment, and transaction fit.",
     "sourcePath": "src/content/guides/asset-backed-lending-vs-unsecured-business-loans.md"
   },
+  "/resources/guides/ato-debt-eofy-cash-flow-finance-gic-deductibility-change-australia": {
+    "routePath": "/resources/guides/ato-debt-eofy-cash-flow-finance-gic-deductibility-change-australia",
+    "title": "ATO Debt and EOFY Cash-Flow Finance After the GIC...",
+    "description": "ATO debt and EOFY cash-flow finance explained for Australian businesses after the GIC deductibility change, including evidence, lender options,...",
+    "keywords": "ATO debt business finance GIC deductibility change Australia, ATO debt finance, EOFY cash flow finance, business tax debt finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/ato-debt-eofy-cash-flow-finance-gic-deductibility-change-australia",
+    "h1": "ATO Debt and EOFY Cash-Flow Finance After the GIC Deductibility Change",
+    "noscript": "ATO debt and EOFY cash-flow finance explained for Australian businesses after the GIC deductibility change, including evidence, lender options, and repayment planning.",
+    "sourcePath": "src/content/guides/ato-debt-eofy-cash-flow-finance-gic-deductibility-change-australia.md"
+  },
   "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses": {
     "routePath": "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses",
     "title": "ATO Garnishee Notice Finance for Australian Businesses",
@@ -1538,6 +1548,16 @@
     "h1": "Owner-Occupier Commercial Loans: Buy Your Business Premises",
     "noscript": "Complete guide to owner-occupier commercial loans in Australia, covering eligibility, benefits, financing structures, and strategic considerations for purchasing business premises.",
     "sourcePath": "src/content/guides/owner-occupier-commercial-loans-buy-your-business-premises.md"
+  },
+  "/resources/guides/partial-discharge-bridging-finance-australia": {
+    "routePath": "/resources/guides/partial-discharge-bridging-finance-australia",
+    "title": "Partial Discharge Bridging Finance for Developers...",
+    "description": "Partial discharge bridging finance explained for Australian developers and investors, including staged releases, lender consent, settlement...",
+    "keywords": "partial discharge bridging finance Australia, partial discharge finance, bridging finance developers, property settlement bridging finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/partial-discharge-bridging-finance-australia",
+    "h1": "Partial Discharge Bridging Finance for Developers and Investors",
+    "noscript": "Partial discharge bridging finance explained for Australian developers and investors, including staged releases, lender consent, settlement timing, and exit planning.",
+    "sourcePath": "src/content/guides/partial-discharge-bridging-finance-australia.md"
   },
   "/resources/guides/payroll-tax-debt-finance-australia": {
     "routePath": "/resources/guides/payroll-tax-debt-finance-australia",
