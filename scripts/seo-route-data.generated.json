@@ -109,6 +109,16 @@
     "noscript": "Compare ATO payment plans with business finance for Australian commercial borrowers. Learn when each option may fit, risks, documents, and decision points.",
     "sourcePath": "src/content/guides/ato-payment-plan-vs-business-finance-australia.md"
   },
+  "/resources/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia": {
+    "routePath": "/resources/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia",
+    "title": "ATO Tax Debt Disclosure to Credit Reporting Bureaus:...",
+    "description": "ATO tax debt disclosure and credit reporting explained for Australian businesses. Learn what disclosure means, what lenders assess, and finance...",
+    "keywords": "ATO tax debt disclosure credit reporting finance, ATO tax debt disclosure business finance, business finance ATO disclosure, tax debt credit reporting business loan",
+    "canonical": "https://emetcapital.com.au/resources/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia",
+    "h1": "ATO Tax Debt Disclosure to Credit Reporting Bureaus: Finance Options for Businesses",
+    "noscript": "ATO tax debt disclosure and credit reporting explained for Australian businesses. Learn what disclosure means, what lenders assess, and finance options to compare.",
+    "sourcePath": "src/content/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia.md"
+  },
   "/resources/guides/ato-tax-debt-finance-for-australian-business-owners": {
     "routePath": "/resources/guides/ato-tax-debt-finance-for-australian-business-owners",
     "title": "ATO Tax Debt Finance for Australian Business Owners",
@@ -2178,6 +2188,16 @@
     "h1": "SMSF Loans for Commercial Property: The Complete Guide",
     "noscript": "Complete guide to SMSF loans for commercial property in Australia. Learn about LRBA rules, eligibility, benefits, and compliance requirements. General information only - not advice.",
     "sourcePath": "src/content/guides/smsf-loans-for-commercial-property.md"
+  },
+  "/resources/guides/statutory-demand-business-finance-options-australia": {
+    "routePath": "/resources/guides/statutory-demand-business-finance-options-australia",
+    "title": "Statutory Demand Business Finance Options in Australia",
+    "description": "Statutory demand business finance options for Australian companies. Learn what lenders assess, when short-term funding may fit, and when legal or...",
+    "keywords": "statutory demand business finance, statutory demand finance Australia, business finance after statutory demand, urgent business debt finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/statutory-demand-business-finance-options-australia",
+    "h1": "Statutory Demand Business Finance Options in Australia",
+    "noscript": "Statutory demand business finance options for Australian companies. Learn what lenders assess, when short-term funding may fit, and when legal or insolvency advice should come first.",
+    "sourcePath": "src/content/guides/statutory-demand-business-finance-options-australia.md"
   },
   "/resources/guides/subordination-agreement-second-mortgage": {
     "routePath": "/resources/guides/subordination-agreement-second-mortgage",
