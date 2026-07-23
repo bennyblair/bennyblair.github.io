@@ -639,6 +639,16 @@
     "noscript": "A practical guide to commercial loan interest rates in Australia, including what actually drives pricing, how lenders compare business borrowers, and how to assess offers without relying on stale headline ranges. Informational only.",
     "sourcePath": "src/content/guides/commercial-loan-interest-rates-australia-2025-comparison.md"
   },
+  "/resources/guides/commercial-loan-maturity-refinance-australia": {
+    "routePath": "/resources/guides/commercial-loan-maturity-refinance-australia",
+    "title": "Commercial Loan Maturity Refinance: What to Do...",
+    "description": "Commercial loan maturity refinance explained for Australian business and property borrowers, including timing, documents, valuation risk, bank...",
+    "keywords": "commercial loan maturity refinance, commercial property refinance, commercial loan expiry, bank exit finance, private credit refinance",
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-loan-maturity-refinance-australia",
+    "h1": "Commercial Loan Maturity Refinance: What to Do Before the Facility Expires",
+    "noscript": "Commercial loan maturity refinance explained for Australian business and property borrowers, including timing, documents, valuation risk, bank exit pressure, and private credit bridge options.",
+    "sourcePath": "src/content/guides/commercial-loan-maturity-refinance-australia.md"
+  },
   "/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared": {
     "routePath": "/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared",
     "title": "Commercial Loan Rates in Australia: Banks vs Private...",
@@ -1138,6 +1148,16 @@
     "h1": "Equipment Finance Balloon Payment Refinance Options",
     "noscript": "Equipment finance balloon payment refinance options for Australian business borrowers. Learn what to check before a residual is due, lender assessment, exit paths, and risk controls.",
     "sourcePath": "src/content/guides/equipment-finance-balloon-payment-refinance-australia.md"
+  },
+  "/resources/guides/equipment-sale-and-leaseback-finance-australia": {
+    "routePath": "/resources/guides/equipment-sale-and-leaseback-finance-australia",
+    "title": "Equipment Sale and Leaseback Finance for Australian SMEs",
+    "description": "Equipment sale and leaseback finance explained for Australian SMEs, including how it works, eligible assets, valuation, cash-flow trade-offs, PPSR...",
+    "keywords": "equipment sale and leaseback finance Australia, equipment sale leaseback, asset finance for SMEs, business cash flow finance, equipment finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/equipment-sale-and-leaseback-finance-australia",
+    "h1": "Equipment Sale and Leaseback Finance for Australian SMEs",
+    "noscript": "Equipment sale and leaseback finance explained for Australian SMEs, including how it works, eligible assets, valuation, cash-flow trade-offs, PPSR issues, and alternatives.",
+    "sourcePath": "src/content/guides/equipment-sale-and-leaseback-finance-australia.md"
   },
   "/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia": {
     "routePath": "/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia",
