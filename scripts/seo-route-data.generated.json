@@ -399,6 +399,16 @@
     "noscript": "How business loans secured by residential property work in Australia, including first mortgage, second mortgage, caveat, private lending and lender assessment considerations.",
     "sourcePath": "src/content/guides/business-loans-secured-by-residential-property-in-australia.md"
   },
+  "/resources/guides/business-overdraft-alternatives-australia": {
+    "routePath": "/resources/guides/business-overdraft-alternatives-australia",
+    "title": "Business Overdraft Alternatives in Australia: Line...",
+    "description": "Business overdraft alternatives in Australia explained for SMEs comparing lines of credit, invoice finance, trade finance, and property-backed...",
+    "keywords": "business overdraft alternatives Australia, business line of credit, invoice finance Australia, secured working capital, SME cash flow finance",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-overdraft-alternatives-australia",
+    "h1": "Business Overdraft Alternatives in Australia: Line of Credit, Invoice Finance or Secured Working Capital?",
+    "noscript": "Business overdraft alternatives in Australia explained for SMEs comparing lines of credit, invoice finance, trade finance, and property-backed working capital.",
+    "sourcePath": "src/content/guides/business-overdraft-alternatives-australia.md"
+  },
   "/resources/guides/can-a-caveat-loan-stop-a-mortgagee-sale-in-australia": {
     "routePath": "/resources/guides/can-a-caveat-loan-stop-a-mortgagee-sale-in-australia",
     "title": "Can a Caveat Loan Stop a Mortgagee Sale in Australia?",
@@ -1018,6 +1028,16 @@
     "h1": "Construction Completion Finance in Australia: Funding a Project That Has Stalled",
     "noscript": "Construction completion finance in Australia explained for developers with stalled projects, cost overruns, builder failure, valuation gaps and urgent remaining works funding needs. General information only - not advice.",
     "sourcePath": "src/content/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.md"
+  },
+  "/resources/guides/construction-cost-overrun-finance-property-developers-australia": {
+    "routePath": "/resources/guides/construction-cost-overrun-finance-property-developers-australia",
+    "title": "Construction Cost Overrun Finance for Property...",
+    "description": "Construction cost overrun finance explained for Australian property developers facing budget shortfalls, QS revisions, senior lender limits, and...",
+    "keywords": "construction cost overrun finance Australia, property development cost overrun finance, construction finance top up, developer funding shortfall, mezzanine finance Australia",
+    "canonical": "https://emetcapital.com.au/resources/guides/construction-cost-overrun-finance-property-developers-australia",
+    "h1": "Construction Cost Overrun Finance for Property Developers in Australia",
+    "noscript": "Construction cost overrun finance explained for Australian property developers facing budget shortfalls, QS revisions, senior lender limits, and project completion pressure.",
+    "sourcePath": "src/content/guides/construction-cost-overrun-finance-property-developers-australia.md"
   },
   "/resources/guides/construction-finance-australia-complete-guide": {
     "routePath": "/resources/guides/construction-finance-australia-complete-guide",
