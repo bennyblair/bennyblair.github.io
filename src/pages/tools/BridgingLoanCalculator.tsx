@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
-import Layout from "@/components/Layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -98,7 +97,7 @@ const BridgingLoanCalculator = () => {
   };
 
   return (
-    <Layout>
+    <>
       <Helmet>
         <title>Bridging Loan Calculator Australia: Calculate Costs Instantly</title>
         <meta name="description" content="Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance." />
@@ -106,9 +105,6 @@ const BridgingLoanCalculator = () => {
         <link rel="canonical" href="https://emetcapital.com.au/resources/tools/bridging-loan-calculator" />
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(faqSchema)}
         </script>
       </Helmet>
 
@@ -463,7 +459,7 @@ const BridgingLoanCalculator = () => {
           </Card>
         </article>
       </div>
-    </Layout>
+    </>
   );
 };
 

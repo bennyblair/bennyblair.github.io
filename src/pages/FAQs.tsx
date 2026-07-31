@@ -142,8 +142,8 @@ const FAQs = () => {
     setOpenFAQ(openFAQ === faqId ? null : faqId);
   };
 
-  // Flatten all FAQs for schema
-  const allFaqs = Object.values(faqs).flat().map(f => ({ question: f.question, answer: f.answer }));
+  // Schema must describe only the FAQ category currently visible on the page.
+  const visibleFaqs = faqs[selectedCategory].map(f => ({ question: f.question, answer: f.answer }));
 
   return (
     <>
@@ -152,7 +152,7 @@ const FAQs = () => {
         description="Get answers to frequently asked questions about commercial lending, asset finance, bridging loans, development finance and more. Expert guidance from Emet Capital."
         canonical="/resources/faqs"
         keywords="commercial lending FAQ, business loan questions, asset finance questions, bridging loan FAQ, commercial finance help"
-        schemas={[generateFAQPageSchema(allFaqs)]}
+        schemas={[generateFAQPageSchema(visibleFaqs)]}
       />
     <div className="min-h-screen py-8">
       <div className="container mx-auto px-4">

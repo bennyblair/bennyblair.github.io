@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-react";
-import { getArticleBySlug, getContentFiles, isArticleComingSoon, debugModules, type Article } from "@/lib/content";
+import { getArticleBySlug, getContentFiles, isArticleComingSoon, type Article, type ArticleSummary } from "@/lib/content";
 import { convertMarkdownToHtml, extractTableOfContents, extractFAQs, stripFirstHeading, type TableOfContentsItem, type FAQItem } from "@/lib/markdown-converter";
 import FAQSection from "@/components/FAQSection";
 import SEO from "@/components/SEO";
@@ -15,7 +15,7 @@ const GuideArticle = () => {
   const { slug } = useParams();
   const location = useLocation();
   const [article, setArticle] = useState<Article | null>(null);
-  const [relatedArticles, setRelatedArticles] = useState<Article[]>([]);
+  const [relatedArticles, setRelatedArticles] = useState<ArticleSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isComingSoon, setIsComingSoon] = useState(false);
@@ -45,14 +45,8 @@ const GuideArticle = () => {
         setLoading(true);
         setError(null);
 
-        // Debug: Check what modules are loaded
-        const debugInfo = debugModules();
-        console.log('Debug info:', debugInfo);
-        console.log('Looking for slug:', slug, 'in contentType:', contentType);
-
         // Load the specific article
         const foundArticle = await getArticleBySlug(contentType, slug);
-        console.log('Found article:', foundArticle);
         
         if (!foundArticle) {
           // Check if it's a coming soon article
@@ -110,7 +104,7 @@ const GuideArticle = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen py-8">
+      <div className="min-h-screen py-8" data-route-loading="true" role="status" aria-live="polite">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="animate-pulse">
             <div className="h-8 bg-muted rounded w-3/4 mb-4"></div>
@@ -278,7 +272,10 @@ const GuideArticle = () => {
   const keyTakeaways = extractKeyTakeaways(article.content);
   
   // Process the content - strip first heading if it matches the title
-  const processedContent = stripFirstHeading(article.content);
+  // The page template owns the sole H1. Legacy articles sometimes place JSON-LD
+  // blocks before their Markdown title, which prevents a "first line" stripper
+  // from seeing it, so any remaining body H1 is safely demoted.
+  const processedContent = stripFirstHeading(article.content).replace(/^#\s+/gm, "## ");
 
   // Generate SEO-optimized title and description
   const seoTitle = `${article.title} | Emet Capital`;

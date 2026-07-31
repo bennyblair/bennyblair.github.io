@@ -1,3 +1,5 @@
+import { claimCanBeAddedToSchema, getClaim } from "@/lib/claims";
+
 // Utility functions for generating JSON-LD structured data schemas
 
 interface BreadcrumbItem {
@@ -115,7 +117,12 @@ export const generateBreadcrumbSchema = (items: BreadcrumbItem[], baseUrl: strin
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": items.map((item, index) => {
-      const listItem: any = {
+      const listItem: {
+        "@type": "ListItem";
+        position: number;
+        name: string;
+        item?: string;
+      } = {
         "@type": "ListItem",
         "position": index + 1,
         "name": item.label
@@ -170,10 +177,12 @@ export const generateOrganizationSchema = () => {
  * Generates AggregateRating JSON-LD schema
  */
 export const generateAggregateRatingSchema = () => {
+  const ratingClaim = getClaim("google-rating-5-18");
+  if (!claimCanBeAddedToSchema("google-rating-5-18")) return undefined;
   return {
     "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "18",
+    "ratingValue": ratingClaim.statement.match(/(\d+(?:\.\d+)?)/)?.[1] || "5.0",
+    "reviewCount": ratingClaim.statement.match(/from\s+(\d+)\s+reviews/i)?.[1] || "18",
     "bestRating": "5",
     "worstRating": "1"
   };
@@ -221,7 +230,9 @@ export const generateLocalBusinessSchema = () => {
       authorEmployeeSchema(BEN_AUTHOR),
       authorEmployeeSchema(DANIEL_AUTHOR)
     ],
-    "aggregateRating": generateAggregateRatingSchema()
+    ...(generateAggregateRatingSchema()
+      ? { "aggregateRating": generateAggregateRatingSchema() }
+      : {})
   };
 };
 

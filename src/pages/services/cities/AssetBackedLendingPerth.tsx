@@ -93,7 +93,7 @@ export default function AssetBackedLendingPerth() {
         },
         {
           title: 'Asset Finance Perth',
-          href: '/services/asset-finance/perth',
+          href: '/services/asset-finance/cities/perth',
           description: 'Useful if the Perth requirement is more equipment-specific than broader asset-backed funding.'
         }
       ]}

@@ -93,7 +93,7 @@ export default function AssetBackedLendingSydney() {
         },
         {
           title: 'Asset Finance Sydney',
-          href: '/services/asset-finance/sydney',
+          href: '/services/asset-finance/cities/sydney',
           description: 'Useful if the Sydney requirement is more equipment-specific than broad asset-backed funding.'
         }
       ]}

@@ -30,8 +30,11 @@ export interface FAQItem {
 export function convertMarkdownToHtml(markdown: string): string {
   if (!markdown) return '';
   
-  // Remove any JSON-LD blocks from the markdown
-  let cleanedMarkdown = markdown.replace(/```json[\s\S]*?```/g, '');
+  // Remove embedded schema blocks. Page templates generate validated JSON-LD;
+  // legacy articles sometimes contain malformed or duplicate raw scripts.
+  let cleanedMarkdown = markdown
+    .replace(/```json[\s\S]*?```/gi, '')
+    .replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '');
   
   // Replace FAQ section with placeholder
   // Matches: ## FAQs, ## Frequently Asked Questions, ## 6. Frequently Asked Questions (FAQ), ## FAQ Section
@@ -40,8 +43,13 @@ export function convertMarkdownToHtml(markdown: string): string {
   // Convert markdown to HTML
   const rawHtml = marked(cleanedMarkdown) as string;
   
-  // Sanitize the HTML
-  return DOMPurify.sanitize(rawHtml);
+  // Sanitize the HTML and canonicalise a known legacy link that still exists
+  // in old articles. This keeps rendered internal links direct while the
+  // original editorial record remains unchanged.
+  return DOMPurify.sanitize(rawHtml).replace(
+    /href="(?:https:\/\/(?:www\.)?emetcapital\.com\.au)?\/commercial-property-loans\/?"/g,
+    'href="/services/commercial-property-finance"',
+  );
 }
 
 export function extractTableOfContents(markdown: string): TableOfContentsItem[] {
@@ -69,9 +77,13 @@ export function extractTableOfContents(markdown: string): TableOfContentsItem[] 
 
 export function extractFAQs(markdown: string): FAQItem[] {
   if (!markdown) return [];
+
+  const cleanedMarkdown = markdown
+    .replace(/```json[\s\S]*?```/gi, '')
+    .replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, '');
   
   // Matches: ## FAQs, ## Frequently Asked Questions, ## 6. Frequently Asked Questions (FAQ), ## FAQ Section
-  const faqMatch = markdown.match(/##\s*(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)(?:.*)?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i);
+  const faqMatch = cleanedMarkdown.match(/##\s*(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)(?:.*)?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i);
   if (!faqMatch) return [];
   
   const faqSection = faqMatch[1];

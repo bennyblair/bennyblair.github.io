@@ -147,7 +147,7 @@ const BusinessFinance = () => {
             </div>
           </section>
 
-          <main className="max-w-5xl mx-auto space-y-14 mb-16">
+          <div className="max-w-5xl mx-auto space-y-14 mb-16">
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is business finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -236,7 +236,7 @@ const BusinessFinance = () => {
             </section>
 
             <FAQSection faqs={faqs} />
-          </main>
+          </div>
         </div>
       </div>
     </>

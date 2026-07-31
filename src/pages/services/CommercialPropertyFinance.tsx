@@ -1,5 +1,5 @@
 import SEO from "@/components/SEO";
-import { generateServiceSchema } from "@/lib/schema-utils";
+import { generateFAQPageSchema, generateServiceSchema } from "@/lib/schema-utils";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -56,16 +56,17 @@ const CommercialPropertyFinance = () => {
   return (
     <>
       <SEO
-        title="Commercial Property Finance NSW | Urgent Settlement Funding | Emet Capital"
-        description="Commercial property finance for NSW business premises purchases, urgent settlements, bank delays, refinance gaps, and short-term property-backed business funding. General information only."
+        title="Commercial Property Finance Australia | Emet Capital"
+        description="Commercial property finance for Australian purchases, developments, urgent settlements, refinancing, bridging, and business-purpose equity release."
         canonical="/services/commercial-property-finance"
-        keywords="commercial property finance NSW, urgent commercial property settlement, fast commercial property loan Australia, business premises finance, private lending, bridging finance, caveat loans"
+        keywords="commercial property finance Australia, commercial property loan, property development finance, commercial refinance, bridging finance, equity release"
         schemas={[
           generateServiceSchema(
             "Commercial Property Finance",
-            "Commercial property finance for urgent settlements, NSW business premises purchases, refinancing transitions, and property-backed business funding.",
+            "Commercial property finance for Australian purchases, developments, urgent settlements, refinancing transitions, and business-purpose equity release.",
             "https://emetcapital.com.au/services/commercial-property-finance"
           ),
+          generateFAQPageSchema(faqs),
         ]}
       />
 
@@ -82,22 +83,21 @@ const CommercialPropertyFinance = () => {
           <div className="text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Commercial Property Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Commercial Property Finance for Urgent Settlement and Business Premises Purchases
+              Commercial Property Finance for Australian Borrowers
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Property-backed commercial finance for NSW business owners, investors, and developers facing
-              urgent settlement pressure, bank delays, refinance timing gaps, premises purchases, or
-              short-term business funding needs.
+              Compare property-backed pathways for commercial purchases, development, urgent settlement,
+              bridging, refinancing, and business-purpose equity release across Australia.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                <Link to="/contact">
+                <Link to="/contact" data-analytics-event="property_pillar_enquiry">
                   <FileText className="mr-2 h-5 w-5" />
                   Discuss Scenario
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:0485952651">
+                <a href="tel:+61485952651">
                   <Phone className="mr-2 h-5 w-5" />
                   Call Specialist
                 </a>
@@ -149,10 +149,10 @@ const CommercialPropertyFinance = () => {
 
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">
-                Commercial Property Finance for NSW Business Owners Buying Premises
+                Commercial Property Finance for Australian Business Owners Buying Premises
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                A business owner buying premises in NSW may need commercial property finance when the
+                An Australian business owner buying premises may need commercial property finance when the
                 purchase is business-purpose, the settlement date is fixed, and the bank process is moving
                 too slowly for the contract timetable. The right structure depends on whether the goal is to
                 settle the purchase, bridge to a bank refinance, release equity from another property, or
@@ -173,7 +173,7 @@ const CommercialPropertyFinance = () => {
                   "A valuation, lease review, or legal condition has delayed the permanent lender.",
                   "A vendor, liquidator, or auction contract will not allow more time.",
                   "An outgoing lender needs repayment before a replacement facility settles.",
-                  "A NSW business owner is buying premises and needs a short-term structure first.",
+                  "An Australian business owner is buying premises and needs a short-term structure first.",
                   "A developer or investor needs to hold control of the asset while an exit catches up.",
                 ].map((item) => (
                   <Card key={item}>
@@ -400,7 +400,7 @@ const CommercialPropertyFinance = () => {
                 Commercial Property Finance Pathways to Compare
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                For a NSW business owner buying premises or an urgent commercial settlement, the useful
+                For an Australian business owner buying premises or an urgent commercial settlement, the useful
                 question is usually not just how quickly funding can be assessed. It is which structure fits
                 the asset, deadline, existing debt, and exit. Emet compares adjacent property-backed options
                 before recommending a pathway.
@@ -495,13 +495,13 @@ const CommercialPropertyFinance = () => {
             <section>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact">
+                  <Link to="/contact" data-analytics-event="property_pillar_enquiry">
                     <FileText className="mr-2 h-5 w-5" />
                     Start Assessment
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:0485952651">
+                  <a href="tel:+61485952651">
                     <Phone className="mr-2 h-5 w-5" />
                     Speak with Emet
                   </a>
@@ -510,6 +510,20 @@ const CommercialPropertyFinance = () => {
             </section>
 
             <FAQSection faqs={faqs} />
+
+            <section className="rounded-xl border border-border bg-card p-6 text-sm text-muted-foreground">
+              <p className="font-semibold text-foreground">Reviewed by Ben, Commercial Finance Broker</p>
+              <p className="mt-2">
+                Reviewed 30 July 2026. General commercial-finance information only—not personal financial,
+                legal, tax, or credit advice. Criteria and availability vary by lender and transaction.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-4">
+                <Link to="/about/ben" className="text-accent hover:underline">Reviewer credentials</Link>
+                <Link to="/editorial-standards" className="text-accent hover:underline">Editorial standards</Link>
+                <Link to="/resources/tools" className="text-accent hover:underline">Property calculators</Link>
+                <Link to="/resources/case-studies" className="text-accent hover:underline">Property scenarios</Link>
+              </div>
+            </section>
           </div>
 
           <RelatedReading

@@ -59,12 +59,17 @@ This directory contains the CSV files needed for automated daily content publish
 
 ## Automation Schedule
 
-Once set up, the system automatically publishes:
-- **06:00 AEST**: Morning article
-- **14:00 AEST**: Afternoon article
+The proposal workflow runs once daily at **06:00 AEST**. It does not push
+content directly to `main`:
+
+- low-risk informational content opens a review-ready PR and can auto-merge
+  only after the shared quality gate passes;
+- financial, statistical, legal, tax, SMSF, comparison, rate, or case-study
+  content opens a draft PR requiring human evidence and approval;
+- no scheduled or defensible article means no PR and no filler publication.
 
 ## Security Notes
 
 - CSV files may contain sensitive business content
-- Consider adding data/*.csv to .gitignore if content is confidential
+- Keep source feeds private if they contain confidential material
 - GitHub Actions will need access to these files for automation

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 interface AnimatedCounterProps {
   end: number;
@@ -20,55 +20,56 @@ export function AnimatedCounter({
   decimals = 0,
 }: AnimatedCounterProps) {
   const ref = useRef<HTMLSpanElement>(null);
-  const [count, setCount] = useState(0);
-  const [hasStarted, setHasStarted] = useState(false);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
+    const format = (value: number) => {
+      const display = decimals > 0
+        ? value.toFixed(decimals)
+        : Math.round(value).toLocaleString();
+      return `${prefix}${display}${suffix}`;
+    };
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      el.textContent = format(end);
+      return;
+    }
+
+    let animationFrame = 0;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && !hasStarted) {
-          setHasStarted(true);
-          observer.unobserve(el);
-        }
+        if (!entry.isIntersecting) return;
+
+        observer.unobserve(el);
+        const startTime = performance.now();
+        el.textContent = format(0);
+
+        const animate = (now: number) => {
+          const progress = Math.min((now - startTime) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 4);
+          el.textContent = format(eased * end);
+
+          if (progress < 1) {
+            animationFrame = requestAnimationFrame(animate);
+          }
+        };
+
+        animationFrame = requestAnimationFrame(animate);
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     observer.observe(el);
-    return () => observer.disconnect();
-  }, [hasStarted]);
+    return () => {
+      observer.disconnect();
+      if (animationFrame) cancelAnimationFrame(animationFrame);
+    };
+  }, [decimals, duration, end, prefix, suffix]);
 
-  useEffect(() => {
-    if (!hasStarted) return;
-
-    const startTime = performance.now();
-
-    function easeOutQuart(t: number) {
-      return 1 - Math.pow(1 - t, 4);
-    }
-
-    function animate(now: number) {
-      const elapsed = now - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = easeOutQuart(progress);
-      setCount(eased * end);
-
-      if (progress < 1) {
-        requestAnimationFrame(animate);
-      } else {
-        setCount(end);
-      }
-    }
-
-    requestAnimationFrame(animate);
-  }, [hasStarted, end, duration]);
-
-  const display = decimals > 0
-    ? count.toFixed(decimals)
-    : Math.round(count).toLocaleString();
+  const display = decimals > 0 ? end.toFixed(decimals) : end.toLocaleString();
 
   return (
     <span ref={ref} className={className}>

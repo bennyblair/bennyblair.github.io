@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, Calendar, ArrowRight } from "lucide-react";
-import { getContentFiles, isRoutableContentArticle, type Article } from "@/lib/content";
+import { getContentSummaries } from "@/lib/content";
 
 interface RecentArticlesProps {
   count?: number;
@@ -16,67 +15,23 @@ const RecentArticles = ({
   title = "Latest Articles",
   filterByTags = []
 }: RecentArticlesProps) => {
-  const [articles, setArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' })[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadArticles = async () => {
-      try {
-        const [guides, caseStudies] = await Promise.all([
-          getContentFiles('guides'),
-          getContentFiles('case-studies')
-        ]);
-        
-        // Only surface content that exists in the generated SEO route manifest
-        const guidesWithType = guides
-          .filter(article => isRoutableContentArticle('guides', article.slug))
-          .map(article => ({ ...article, contentType: 'guides' as const }));
-        const caseStudiesWithType = caseStudies
-          .filter(article => isRoutableContentArticle('case-studies', article.slug))
-          .map(article => ({ ...article, contentType: 'case-studies' as const }));
-        
-        // Combine only routable article types
-        let allArticles = [...guidesWithType, ...caseStudiesWithType];
-        
-        // Filter by tags if specified
-        if (filterByTags.length > 0) {
-          allArticles = allArticles.filter(article => 
-            article.tags?.some(tag => 
-              filterByTags.some(filterTag => 
-                tag.toLowerCase().includes(filterTag.toLowerCase())
-              )
-            )
-          );
-        }
-        
-        // Sort by date (newest first) and take the requested count
-        const sortedArticles = allArticles
-          .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-          .slice(0, count);
-        
-        setArticles(sortedArticles);
-        setLoading(false);
-      } catch (error) {
-        console.error('Error loading articles:', error);
-        setLoading(false);
-      }
-    };
-
-    loadArticles();
-  }, [count, filterByTags]);
-
-  if (loading) {
-    return (
-      <div className="space-y-4">
-        <h3 className="text-2xl font-bold mb-6">{title}</h3>
-        {[...Array(count)].map((_, i) => (
-          <div key={i} className="animate-pulse">
-            <div className="h-32 bg-muted rounded-lg"></div>
-          </div>
-        ))}
-      </div>
-    );
-  }
+  const allArticles = [
+    ...getContentSummaries("guides").map((article) => ({ ...article, contentType: "guides" as const })),
+    ...getContentSummaries("case-studies").map((article) => ({
+      ...article,
+      contentType: "case-studies" as const,
+    })),
+  ];
+  const articles = allArticles
+    .filter(
+      (article) =>
+        filterByTags.length === 0 ||
+        article.tags?.some((tag) =>
+          filterByTags.some((filterTag) => tag.toLowerCase().includes(filterTag.toLowerCase())),
+        ),
+    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, count);
 
   if (articles.length === 0) {
     return null;

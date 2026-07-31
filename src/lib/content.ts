@@ -1,9 +1,17 @@
-import matter from "gray-matter";
-import seoRouteData from "../../scripts/seo-route-data.generated.json";
-import { getPrecompiledArticleBySlug, getPrecompiledContentFiles } from "./precompiled-content";
+import contentIndex from "virtual:content-index";
 
-export interface Article {
+export type ContentType = "guides" | "case-studies" | "insights";
+export type ContentRisk = "low" | "high";
+
+export interface ArticleSource {
+  label: string;
+  url: string;
+}
+
+export interface ArticleSummary {
   slug: string;
+  contentType: ContentType;
+  route: string;
   title: string;
   date: string;
   description: string;
@@ -15,10 +23,13 @@ export interface Article {
   authorBio?: string;
   authorUrl?: string;
   authorLinks?: { label: string; url: string }[];
+  reviewedBy?: string;
+  reviewedAt?: string;
   reviewedDate?: string;
+  lastVerified?: string;
   readingTime: number;
   featuredImage?: string;
-  content: string;
+  featured?: boolean;
   loanAmount?: string;
   loanType?: string;
   industry?: string;
@@ -30,177 +41,110 @@ export interface Article {
   propertyType?: string;
   lvr?: string;
   quote?: string;
+  primaryQuery?: string;
+  searchIntent?: string;
+  contentRisk: ContentRisk;
+  sources?: ArticleSource[];
+  canonical?: string;
+  claimIds?: string[];
+  expiresAt?: string;
+  sourcePath?: string;
 }
 
-type RawModuleLoader = () => Promise<string>;
+export interface Article extends ArticleSummary {
+  content: string;
+}
 
-const guideModules = import.meta.glob("../content/guides/*.md", { query: "?raw", import: "default" }) as Record<string, RawModuleLoader>;
-const caseStudyModules = import.meta.glob("../content/case-studies/*.md", { query: "?raw", import: "default" }) as Record<string, RawModuleLoader>;
+type ArticleModuleLoader = () => Promise<Article>;
 
-const contentLoaders: Record<string, Record<string, RawModuleLoader>> = {
+const guideModules = import.meta.glob("../content/guides/*.md", {
+  query: "?emet-article",
+  import: "default",
+}) as Record<string, ArticleModuleLoader>;
+const caseStudyModules = import.meta.glob("../content/case-studies/*.md", {
+  query: "?emet-article",
+  import: "default",
+}) as Record<string, ArticleModuleLoader>;
+const insightModules = import.meta.glob("../content/insights/*.md", {
+  query: "?emet-article",
+  import: "default",
+}) as Record<string, ArticleModuleLoader>;
+
+const contentLoaders: Record<ContentType, Record<string, ArticleModuleLoader>> = {
   guides: guideModules,
   "case-studies": caseStudyModules,
-  insights: {},
+  insights: insightModules,
 };
 
-const articleListCache = new Map<string, Promise<Article[]>>();
 const articleBySlugCache = new Map<string, Promise<Article | null>>();
-const seoRoutes = seoRouteData as Record<string, { canonical?: string; sourcePath?: string }>;
 
-function simpleFrontmatterParser(raw: string) {
-  const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-  if (!match) return { data: {}, content: raw };
-
-  const frontmatter = match[1];
-  const content = match[2];
-  const data: Record<string, any> = {};
-
-  frontmatter.split("\n").forEach((line) => {
-    const parts = line.split(":");
-    if (parts.length >= 2) {
-      const key = parts[0].trim();
-      let value = parts.slice(1).join(":").trim();
-      if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-        value = value.slice(1, -1);
-      }
-      if (value.startsWith("[") && value.endsWith("]")) {
-        data[key] = value.slice(1, -1).split(",").map((s) => s.trim().replace(/^["']|["']$/g, ""));
-      } else {
-        data[key] = value;
-      }
-    }
-  });
-
-  return { data, content };
+function asContentType(value: string): ContentType {
+  if (value === "case-studies" || value === "insights") return value;
+  return "guides";
 }
 
-function parseArticle(path: string, raw: string): Article | null {
-  let parsed;
-  try {
-    parsed = matter(raw);
-  } catch (e) {
-    console.warn(`Gray-matter failed for ${path}, using fallback parser.`, e);
-    parsed = simpleFrontmatterParser(raw);
-  }
-
-  if (!parsed?.data) return null;
-
-  const match = path.match(/([^/]+)\.md$/);
-  const slug = match ? match[1] : path;
-  const data = parsed.data as any;
-  const content = parsed.content || "";
-
-  if (!data.title) return null;
-
-  return {
-    slug,
-    title: data.title ?? slug,
-    date: data.date ?? new Date().toISOString(),
-    description: data.description ?? "",
-    category: data.category ?? "Guides",
-    tags: Array.isArray(data.tags) ? data.tags : [],
-    author: data.author ?? "Emet Capital",
-    authorName: data.author_name ?? data.authorName,
-    authorTitle: data.author_title ?? data.authorTitle,
-    authorBio: data.author_bio ?? data.authorBio,
-    authorUrl: data.author_url ?? data.authorUrl,
-    authorLinks: Array.isArray(data.author_links ?? data.authorLinks) ? (data.author_links ?? data.authorLinks) : [],
-    reviewedDate: data.reviewed_date ?? data.reviewedDate,
-    readingTime: Number(data.readingTime ?? 8),
-    featuredImage: data.featuredImage,
-    content,
-    loanAmount: data.loanAmount,
-    loanType: data.loanType,
-    industry: data.industry,
-    duration: data.duration,
-    outcome: data.outcome,
-    challenge: data.challenge,
-    keywords: Array.isArray(data.keywords) ? data.keywords : [],
-    location: data.location,
-    propertyType: data.propertyType,
-    lvr: data.lvr,
-    quote: data.quote,
-  };
-}
-
-function getArticleRoute(contentType: string, slug: string): string {
-  return contentType === "case-studies"
-    ? `/resources/case-studies/${slug}`
-    : `/resources/guides/${slug}`;
+function findLoader(contentType: ContentType, slug: string): ArticleModuleLoader | undefined {
+  const suffix = `/${slug}.md`;
+  return Object.entries(contentLoaders[contentType]).find(([path]) =>
+    path.replaceAll("\\", "/").endsWith(suffix),
+  )?.[1];
 }
 
 export function isRoutableContentArticle(contentType: string, slug: string): boolean {
-  const routePath = getArticleRoute(contentType, slug);
-  return Boolean(seoRoutes[routePath]?.canonical);
+  return getContentSummaries(contentType).some((article) => article.slug === slug);
 }
 
-async function loadArticlesFromModules(modules: Record<string, RawModuleLoader>): Promise<Article[]> {
-  const entries = await Promise.all(
-    Object.entries(modules).map(async ([path, loader]) => {
-      const raw = await loader();
-      return parseArticle(path, raw);
-    })
+export function getContentSummaries(contentType: string = "guides"): ArticleSummary[] {
+  const normalizedType = asContentType(contentType);
+  return [...(contentIndex[normalizedType] ?? [])].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
-
-  return entries
-    .filter((article): article is Article => Boolean(article))
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export const getContentFiles = async (contentType: string = "guides"): Promise<Article[]> => {
-  const precompiled = getPrecompiledContentFiles(contentType as "guides" | "case-studies" | "insights") as Article[];
-  if (precompiled.length > 0) {
-    return precompiled
-      .filter((article) => isRoutableContentArticle(contentType, article.slug))
-      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  }
+// Retain the asynchronous API while returning metadata-only records.
+export async function getContentFiles(contentType: string = "guides"): Promise<ArticleSummary[]> {
+  return getContentSummaries(contentType);
+}
 
-  const loaders = contentLoaders[contentType] ?? {};
-  if (!articleListCache.has(contentType)) {
-    articleListCache.set(contentType, loadArticlesFromModules(loaders));
-  }
-  return articleListCache.get(contentType)!;
-};
+export function getArticleSummary(contentType: string, slug?: string): ArticleSummary | null {
+  if (!slug) return null;
+  return getContentSummaries(contentType).find((article) => article.slug === slug) ?? null;
+}
 
-export const getArticleBySlug = async (contentType: string = "guides", slug?: string): Promise<Article | null> => {
+export async function getArticleBySlug(
+  contentType: string = "guides",
+  slug?: string,
+): Promise<Article | null> {
   if (!slug) return null;
 
-  const precompiled = getPrecompiledArticleBySlug(contentType as "guides" | "case-studies" | "insights", slug) as Article | null;
-  if (precompiled && isRoutableContentArticle(contentType, slug)) {
-    return precompiled;
-  }
-
-  const cacheKey = `${contentType}:${slug}`;
+  const normalizedType = asContentType(contentType);
+  const cacheKey = `${normalizedType}:${slug}`;
   if (!articleBySlugCache.has(cacheKey)) {
     articleBySlugCache.set(
       cacheKey,
       (async () => {
-        const list = await getContentFiles(contentType);
-        return list.find((a) => a.slug === slug) ?? null;
-      })()
+        const loader = findLoader(normalizedType, slug);
+        if (!loader) return null;
+        const article = await loader();
+        return article?.title ? article : null;
+      })(),
     );
   }
   return articleBySlugCache.get(cacheKey)!;
-};
+}
 
-export const debugPrecompiledContent = () => {
-  const guides = getPrecompiledContentFiles("guides" as "guides") as Article[];
-  const caseStudies = getPrecompiledContentFiles("case-studies" as "case-studies") as Article[];
-  return {
-    message: "Content loaded via generated precompiled manifest",
-    guides: guides.length,
-    caseStudies: caseStudies.length,
-  };
-};
+export const debugContent = () => ({
+  message: "Content uses a metadata-only index and per-article lazy modules",
+  guides: contentIndex.guides?.length ?? 0,
+  caseStudies: contentIndex["case-studies"]?.length ?? 0,
+  insights: contentIndex.insights?.length ?? 0,
+});
 
-export const isArticleComingSoon = async (_slug: string): Promise<boolean> => {
-  return false;
-};
+export const isArticleComingSoon = async (_slug: string): Promise<boolean> => false;
 
-export const debugModules = () => {
-  return {
-    guidesCount: Object.keys(guideModules).length,
-    caseStudiesCount: Object.keys(caseStudyModules).length,
-    lazy: true,
-  };
-};
+export const debugModules = () => ({
+  guidesCount: Object.keys(guideModules).length,
+  caseStudiesCount: Object.keys(caseStudyModules).length,
+  insightsCount: Object.keys(insightModules).length,
+  lazy: true,
+});

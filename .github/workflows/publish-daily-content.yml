@@ -1,0 +1,199 @@
+name: Propose daily content
+
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Generate and assess content without opening a PR
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-content-publisher
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      CONTENT_QA_BASE: origin/main
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          npm ci --ignore-scripts
+          python -m pip install --disable-pip-version-check pandas pytz
+
+      - name: Generate today's proposed content
+        shell: bash
+        run: |
+          test -f data/emet_ai_feed_daily.csv
+          args=()
+          if [[ "${{ inputs.dry_run || false }}" == "true" ]]; then
+            args+=(--dry-run)
+          fi
+          python scripts/publish_from_sot.py \
+            --csv data/emet_ai_feed_daily.csv \
+            "${args[@]}"
+
+      - name: Detect generated changes
+        id: changes
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain -- src/content)" ]]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No defensible scheduled article was produced; no PR will be opened."
+          fi
+
+      - name: Classify content risk
+        if: steps.changes.outputs.has_changes == 'true'
+        id: risk
+        run: node scripts/content-risk-report.mjs
+
+      - name: Enforce low-risk publication gates
+        if: >
+          steps.changes.outputs.has_changes == 'true' &&
+          steps.risk.outputs.risk == 'low'
+        run: npm run qa:content
+
+      - name: Record high-risk review requirements
+        if: >
+          steps.changes.outputs.has_changes == 'true' &&
+          steps.risk.outputs.risk == 'high'
+        shell: bash
+        run: |
+          set +e
+          npm run qa:content 2>&1 | tee high-risk-review.txt
+          echo "High-risk content will remain a draft until a human supplies evidence, review metadata and any required expiry."
+          exit 0
+
+      - name: Open publication PR
+        if: >
+          steps.changes.outputs.has_changes == 'true' &&
+          inputs.dry_run != true
+        shell: bash
+        env:
+          CONTENT_RISK: ${{ steps.risk.outputs.risk }}
+        run: |
+          publish_date="$(TZ=Australia/Sydney date +%Y-%m-%d)"
+          branch="ai/daily-content-${publish_date}-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add src/content
+          git commit -m "content: propose ${publish_date} article"
+          git push --set-upstream origin "$branch"
+
+          gh label create "content-risk:low" \
+            --color "0E8A16" \
+            --description "Eligible for automated publication after all checks pass" \
+            --force
+          gh label create "content-risk:high" \
+            --color "B60205" \
+            --description "Financial or statistical content requiring human review" \
+            --force
+          gh label create "human-review-required" \
+            --color "D93F0B" \
+            --description "Must not be auto-merged" \
+            --force
+
+          body_file="$(mktemp)"
+          {
+            echo "Daily content proposal for ${publish_date}."
+            echo
+            echo "Detected risk: **${CONTENT_RISK}**."
+            echo
+            if [[ "$CONTENT_RISK" == "high" ]]; then
+              echo "Human review is required. Add authoritative sources, reviewer identity and date, and an expiry for time-sensitive claims before merging."
+              if [[ -f high-risk-review.txt ]]; then
+                echo
+                echo "<details><summary>Initial content-gate findings</summary>"
+                echo
+                echo '```text'
+                tail -n 80 high-risk-review.txt
+                echo '```'
+                echo "</details>"
+              fi
+            else
+              echo "This proposal may auto-merge only after the shared website quality gate passes."
+            fi
+          } > "$body_file"
+
+          args=(
+            --base main
+            --head "$branch"
+            --title "Daily content proposal: ${publish_date}"
+            --body-file "$body_file"
+            --label "content-risk:${CONTENT_RISK}"
+          )
+          if [[ "$CONTENT_RISK" == "high" ]]; then
+            args+=(--draft --label "human-review-required")
+          fi
+          pr_url="$(gh pr create "${args[@]}")"
+          echo "Opened ${pr_url}"
+
+          # Workflows created with GITHUB_TOKEN do not reliably emit a second
+          # pull_request workflow event. Dispatch the exact same shared gate on
+          # the new head commit so automated and human content use one contract.
+          gh workflow run bot-pr-build.yml --ref "$branch"
+
+          if [[ "$CONTENT_RISK" == "high" ]]; then
+            echo "High-risk draft opened; a human must review and merge it."
+            exit 0
+          fi
+
+          while IFS= read -r file; do
+            if [[ ! "$file" =~ ^src/content/(guides|insights)/[^/]+\.md$ ]]; then
+              echo "Low-risk auto-merge refused unexpected file: $file"
+              exit 1
+            fi
+          done < <(git diff --name-only origin/main...HEAD)
+
+          head_sha="$(git rev-parse HEAD)"
+          run_id=""
+          for _ in {1..30}; do
+            run_id="$(gh run list \
+              --workflow bot-pr-build.yml \
+              --branch "$branch" \
+              --event workflow_dispatch \
+              --limit 20 \
+              --json databaseId,headSha \
+              --jq ".[] | select(.headSha == \"${head_sha}\") | .databaseId" | head -n 1)"
+            [[ -n "$run_id" ]] && break
+            sleep 5
+          done
+          if [[ -z "$run_id" ]]; then
+            echo "Could not locate the dispatched website quality run."
+            exit 1
+          fi
+
+          gh run watch "$run_id" --exit-status
+          gh pr merge "$pr_url" --squash --delete-branch \
+            --subject "Daily content proposal: ${publish_date}"

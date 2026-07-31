@@ -93,7 +93,7 @@ export default function AssetBackedLendingMelbourne() {
         },
         {
           title: 'Asset Finance Melbourne',
-          href: '/services/asset-finance/melbourne',
+          href: '/services/asset-finance/cities/melbourne',
           description: 'Useful if the Melbourne requirement is mainly equipment or vehicle specific.'
         }
       ]}

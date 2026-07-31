@@ -46,6 +46,27 @@ def write_header_and_body(header: dict, body: str) -> str:
     
     # Extract key fields from the nested JSON structure
     meta = header.get('meta', {})
+    canonical_path = meta.get("url", "")
+    canonical_url = (
+        canonical_path
+        if canonical_path.startswith("http")
+        else f"https://emetcapital.com.au{canonical_path}"
+    )
+    risk_text = " ".join([
+        meta.get("title", ""),
+        meta.get("description", ""),
+        meta.get("target_keyword", ""),
+        meta.get("section", ""),
+        body,
+    ])
+    high_risk_pattern = re.compile(
+        r"\b(rate|interest|approval|approved|turnaround|settlement|lvr|"
+        r"lender ranking|best lender|comparison|legal|tax|smsf|asic|apra|"
+        r"regulation|case stud(?:y|ies)|statistic|guarantee|valuation)\b|"
+        r"(?:\$[\d,.]+|\d+(?:\.\d+)?%)",
+        re.IGNORECASE,
+    )
+    content_risk = "high" if high_risk_pattern.search(risk_text) else "low"
     
     # Create YAML frontmatter
     yaml_content = []
@@ -79,6 +100,11 @@ def write_header_and_body(header: dict, body: str) -> str:
         yaml_content.append(f'tags: {tags_str}')
     
     yaml_content.append(f'author: "{meta.get("author", "Emet Capital Editorial Team")}"')
+    yaml_content.append(f'primaryQuery: "{target_keyword}"')
+    yaml_content.append('searchIntent: "informational"')
+    yaml_content.append(f'contentRisk: "{content_risk}"')
+    yaml_content.append(f'canonical: "{canonical_url}"')
+    yaml_content.append('claimIds: []')
     yaml_content.append(f'readingTime: {meta.get("word_count_target", 1800) // 200}')  # Rough estimate
     yaml_content.append("---")
     yaml_content.append("")
@@ -278,32 +304,11 @@ def main():
         for path in published_files:
             print(f"   📄 {path}")
         
-        # Generate updated sitemap
-        if not args.dry_run:
-            try:
-                print(f"\n🗺️  Generating updated sitemap...")
-                import subprocess
-                result = subprocess.run(
-                    ['python3', 'scripts/generate_sitemap.py'], 
-                    capture_output=True, 
-                    text=True, 
-                    cwd=os.getcwd()
-                )
-                
-                if result.returncode == 0:
-                    print(f"✅ Sitemap updated successfully")
-                    print(f"   {result.stdout.strip()}")
-                else:
-                    print(f"⚠️  Warning: Sitemap generation failed")
-                    print(f"   {result.stderr.strip()}")
-            except Exception as e:
-                print(f"⚠️  Warning: Could not generate sitemap: {e}")
-        
         print(f"\n💡 Next steps:")
-        print(f"   1. Run build process to generate static files")
-        print(f"   2. Commit and push changes (including updated sitemap.xml)")
-        print(f"   3. Verify articles are live on website")
-        print(f"   4. Sitemap will be automatically discovered by search engines")
+        print(f"   1. Run the content quality gate")
+        print(f"   2. Open a pull request with the detected content-risk label")
+        print(f"   3. Complete human review for high-risk financial content")
+        print(f"   4. Let the production build generate the sitemap from the route manifest")
     
     return 0
 
