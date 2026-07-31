@@ -1,13 +1,13 @@
 ---
-title: "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success"
-description: "How Emet Capital secured a $3.2M caveat loan in 48 hours for a prime Surry Hills restaurant acquisition in Sydney's competitive hospitality market."
+title: "Surry Hills Restaurant Acquisition Caveat Loan Scenario"
+description: "Illustrative Surry Hills hospitality acquisition scenario showing when a caveat loan may help a commercial borrower meet a compressed settlement deadline."
 date: "2024-01-15"
 category: "Case Studies" 
 slug: "surry-hills-commercial-acquisition"
 keywords: ["caveat loan Sydney", "Surry Hills commercial property", "restaurant finance", "commercial property acquisition", "Sydney hospitality loans"]
 readingTime: 6
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-07-31"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -25,11 +25,21 @@ propertyType: "Commercial Hospitality"
 lvr: "75%"
 ---
 
-# Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success
+# Surry Hills Restaurant Acquisition Caveat Loan Scenario
 
 *Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
 
 When an experienced restaurateur identified a prime opportunity in Surry Hills' thriving food scene, time was of the essence. The coveted corner location in one of Sydney's most sought-after dining precincts required immediate action to secure the lease and begin fit-out works.
+
+## When This Scenario Is Useful
+
+This scenario is useful for hospitality operators comparing speed-based commercial property funding options, not for borrowers looking for a standard equipment or fit-out loan. The core issue is the settlement deadline: a strong borrower may still miss an acquisition if bank credit, valuation, and legal processes cannot move inside the vendor's required timetable.
+
+A caveat loan may suit this type of situation when the borrower has clear property security, a defined commercial use, and a realistic refinance or sale exit. It is not a substitute for affordability assessment, legal review, or independent tax and financial advice.
+
+### Why This Page Is Distinct
+
+This page is distinct because it serves a different intent from the broader [caveat loans guide](/resources/guides/caveat-loans-australia-complete-guide) and the [hospitality property finance guide](/resources/guides/hospitality-property-finance-restaurants-hotels-venues). Those guides explain the product category; this page shows a location-specific acquisition use case with timing, security, and exit-plan detail.
 
 ## The Opportunity
 
@@ -144,7 +154,9 @@ This scenario demonstrates the potential role of alternative lending in Sydney's
 
 ## Conclusion
 
-This Surry Hills scenario illustrates how alternative lending may support time-sensitive commercial property acquisitions in Sydney. When timing is critical, caveat lending may provide a shorter assessment pathway, subject to security, documentation, lender appetite, and a clear exit.
+This Surry Hills scenario illustrates how alternative lending may support time-sensitive commercial property acquisitions in Sydney. When timing is critical, caveat lending may provide a shorter assessment pathway, subject to security, documentation, lender appetite, borrower suitability, and a clear exit.
+
+For broader context, compare this scenario with [commercial property finance in Sydney](/resources/guides/commercial-property-finance-sydney-local-expert-hub), [business acquisition finance](/resources/guides/business-acquisition-finance-australia), and [hospitality fitout finance](/resources/guides/hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues).
 
 A borrower in this scenario could proceed with a preferred Surry Hills hospitality location while preserving the local commercial framing. This is an illustrative scenario only, not a claim of a specific business outcome.
 

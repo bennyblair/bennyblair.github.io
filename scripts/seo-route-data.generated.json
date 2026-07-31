@@ -2641,12 +2641,12 @@
   },
   "/resources/case-studies/newcastle-merewether-equipment-finance": {
     "routePath": "/resources/case-studies/newcastle-merewether-equipment-finance",
-    "title": "Merewether Medical Clinic: $850K Equipment Finance...",
-    "description": "How a Merewether medical practice secured equipment finance to upgrade diagnostic equipment and expand services without disrupting cash flow.",
+    "title": "Merewether Medical Clinic Equipment Finance Scenario",
+    "description": "Illustrative Merewether medical equipment finance scenario showing how a clinic may fund diagnostic equipment while preserving working capital.",
     "keywords": "equipment finance Newcastle, medical equipment finance, Merewether, healthcare finance, Newcastle medical practice",
     "canonical": "https://emetcapital.com.au/resources/case-studies/newcastle-merewether-equipment-finance",
-    "h1": "Merewether Medical Clinic: $850K Equipment Finance Success",
-    "noscript": "How a Merewether medical practice secured equipment finance to upgrade diagnostic equipment and expand services without disrupting cash flow.",
+    "h1": "Merewether Medical Clinic Equipment Finance Scenario",
+    "noscript": "Illustrative Merewether medical equipment finance scenario showing how a clinic may fund diagnostic equipment while preserving working capital.",
     "sourcePath": "src/content/case-studies/newcastle-merewether-equipment-finance.md"
   },
   "/resources/case-studies/newcastle-wickham-business-acquisition": {
@@ -2691,12 +2691,12 @@
   },
   "/resources/case-studies/rose-bay-property-development-bridging-loan": {
     "routePath": "/resources/case-studies/rose-bay-property-development-bridging-loan",
-    "title": "Rose Bay Property Development Bridging Loan",
-    "description": "How a Rose Bay developer used a private bridging loan to secure settlement and complete a luxury townhouse project in Sydney.",
+    "title": "Rose Bay Property Development Bridging Loan Scenario",
+    "description": "Illustrative Rose Bay property development bridging loan scenario showing settlement timing, second mortgage security, and townhouse-sale exit risk.",
     "keywords": "Rose Bay, bridging loan, property development, luxury townhouses, settlement finance, Sydney property",
     "canonical": "https://emetcapital.com.au/resources/case-studies/rose-bay-property-development-bridging-loan",
-    "h1": "Rose Bay Property Development Bridging Loan",
-    "noscript": "How a Rose Bay developer used a private bridging loan to secure settlement and complete a luxury townhouse project in Sydney.",
+    "h1": "Rose Bay Property Development Bridging Loan Scenario",
+    "noscript": "Illustrative Rose Bay property development bridging loan scenario showing settlement timing, second mortgage security, and townhouse-sale exit risk.",
     "sourcePath": "src/content/case-studies/rose-bay-property-development-bridging-loan.md"
   },
   "/resources/case-studies/second-mortgage-working-capital-case-study": {
@@ -2711,22 +2711,22 @@
   },
   "/resources/case-studies/south-yarra-apartment-development": {
     "routePath": "/resources/case-studies/south-yarra-apartment-development",
-    "title": "South Yarra Luxury Apartments: $4.1M Development...",
-    "description": "How Emet Capital's $4.1M development finance helped overcome heritage constraints to deliver premium South Yarra apartments at 25% above market rates.",
+    "title": "South Yarra Apartment Development Finance Scenario",
+    "description": "Illustrative South Yarra apartment development finance scenario covering heritage constraints, staged funding, presales, and exit risk.",
     "keywords": "development finance Melbourne, South Yarra apartments, luxury apartment development, heritage property development, Melbourne property finance",
     "canonical": "https://emetcapital.com.au/resources/case-studies/south-yarra-apartment-development",
-    "h1": "South Yarra Luxury Apartments: $4.1M Development Finance Success",
-    "noscript": "How Emet Capital's $4.1M development finance helped overcome heritage constraints to deliver premium South Yarra apartments at 25% above market rates.",
+    "h1": "South Yarra Apartment Development Finance Scenario",
+    "noscript": "Illustrative South Yarra apartment development finance scenario covering heritage constraints, staged funding, presales, and exit risk.",
     "sourcePath": "src/content/case-studies/south-yarra-apartment-development.md"
   },
   "/resources/case-studies/surry-hills-commercial-acquisition": {
     "routePath": "/resources/case-studies/surry-hills-commercial-acquisition",
-    "title": "Surry Hills Restaurant Acquisition: $3.2M Caveat...",
-    "description": "How Emet Capital secured a $3.2M caveat loan in 48 hours for a prime Surry Hills restaurant acquisition in Sydney's competitive hospitality market.",
+    "title": "Surry Hills Restaurant Acquisition Caveat Loan Scenario",
+    "description": "Illustrative Surry Hills hospitality acquisition scenario showing when a caveat loan may help a commercial borrower meet a compressed settlement...",
     "keywords": "caveat loan Sydney, Surry Hills commercial property, restaurant finance, commercial property acquisition, Sydney hospitality loans",
     "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
-    "h1": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
-    "noscript": "How Emet Capital secured a $3.2M caveat loan in 48 hours for a prime Surry Hills restaurant acquisition in Sydney's competitive hospitality market.",
+    "h1": "Surry Hills Restaurant Acquisition Caveat Loan Scenario",
+    "noscript": "Illustrative Surry Hills hospitality acquisition scenario showing when a caveat loan may help a commercial borrower meet a compressed settlement deadline.",
     "sourcePath": "src/content/case-studies/surry-hills-commercial-acquisition.md"
   },
   "/resources/tools": {

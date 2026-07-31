@@ -1,13 +1,13 @@
 ---
-title: "South Yarra Luxury Apartments: $4.1M Development Finance Success"
-description: "How Emet Capital's $4.1M development finance helped overcome heritage constraints to deliver premium South Yarra apartments at 25% above market rates."
+title: "South Yarra Apartment Development Finance Scenario"
+description: "Illustrative South Yarra apartment development finance scenario covering heritage constraints, staged funding, presales, and exit risk."
 date: "2024-03-10"
 category: "Case Studies"
 slug: "south-yarra-apartment-development"
 keywords: ["development finance Melbourne", "South Yarra apartments", "luxury apartment development", "heritage property development", "Melbourne property finance"]
 readingTime: 8
 author: "Ben"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-07-31"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -25,11 +25,21 @@ propertyType: "Luxury Residential Development"
 lvr: "65%"
 ---
 
-# South Yarra Luxury Apartments: $4.1M Development Finance Success
+# South Yarra Apartment Development Finance Scenario
 
 *Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
 
 In Melbourne's prestigious South Yarra, where heritage meets luxury, an ambitious developer set out to create something extraordinary. This boutique apartment development would need to respect the area's historic character while delivering the modern luxury that discerning buyers demand.
+
+## When This Scenario Is Useful
+
+This scenario is useful for developers assessing whether a complex planning or heritage project needs a staged non-bank development finance structure. The important feature is not the suburb alone; it is the combination of approval risk, facade retention, construction sequencing, presales, and a longer exit timetable.
+
+A development finance structure may be considered when the borrower can evidence planning progress, costings, borrower equity, experienced consultants, and a credible sale or refinance exit. Heritage constraints can support premium positioning, but they can also increase holding costs and construction risk.
+
+### Why This Page Is Distinct
+
+This page is distinct from the broader [commercial property finance Melbourne hub](/resources/guides/commercial-property-finance-melbourne-local-expert-hub). The Melbourne hub answers local commercial finance intent; this case study adds a specific development-finance example involving heritage approvals, staged drawdowns, and apartment-sales exit assumptions.
 
 ## The Premium Location
 
@@ -216,7 +226,9 @@ This illustrative project scenario shows the commercial viability of sensitive h
 
 ## Conclusion
 
-This South Yarra scenario illustrates how heritage constraints can become competitive advantages with the right approach and expertise. While heritage development presents unique challenges, the market premiums could achieve demonstrate strong buyer appreciation for quality design that respects historical character.
+This South Yarra scenario illustrates how heritage constraints can become competitive advantages with the right approach and expertise. While heritage development presents unique challenges, premium pricing assumptions must be tested against presales, valuation evidence, build-cost contingencies, and a realistic repayment path.
+
+Developers comparing options should also review [commercial property development finance](/resources/guides/commercial-property-development-finance), [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide), and [private lending in Australia](/resources/guides/what-is-private-lending-australia).
 
 The key was partnering with a development financier who understood both the complexities and opportunities of heritage development. Emet Capital's patient capital and heritage expertise could enable the developer in this scenario to navigate regulatory hurdles while maintaining the vision for a truly exceptional project.
 
