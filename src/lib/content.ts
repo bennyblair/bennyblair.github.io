@@ -43,6 +43,8 @@ export interface ArticleSummary {
   quote?: string;
   primaryQuery?: string;
   searchIntent?: string;
+  intentCluster?: string;
+  designatedServicePage?: string;
   contentRisk: ContentRisk;
   sources?: ArticleSource[];
   canonical?: string;

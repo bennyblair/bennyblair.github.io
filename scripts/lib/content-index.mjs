@@ -83,6 +83,8 @@ export function normalizeArticleData(contentType, slug, data, body = "") {
     quote: asString(data.quote),
     primaryQuery: asString(data.primaryQuery || data.primary_query),
     searchIntent: asString(data.searchIntent || data.search_intent),
+    intentCluster: asString(data.intentCluster || data.intent_cluster),
+    designatedServicePage: asString(data.designatedServicePage || data.designated_service_page),
     contentRisk: data.contentRisk === "high" || data.content_risk === "high" ? "high" : "low",
     sources: asSourceArray(data.sources),
     canonical: asString(data.canonical),

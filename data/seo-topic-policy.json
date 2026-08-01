@@ -1,0 +1,137 @@
+{
+  "version": "2026-08-01",
+  "locationTerms": [
+    "sydney",
+    "melbourne",
+    "brisbane",
+    "perth",
+    "adelaide",
+    "gold coast",
+    "newcastle",
+    "canberra",
+    "darwin",
+    "hobart",
+    "new south wales",
+    "victoria",
+    "queensland",
+    "western australia",
+    "south australia",
+    "tasmania",
+    "northern territory",
+    "australian capital territory"
+  ],
+  "serviceClusters": [
+    {
+      "id": "caveat-loans",
+      "path": "/services/caveat-loans",
+      "label": "Caveat Loans",
+      "description": "Compare short-term business-purpose funding supported by property equity, including timing, costs and exit requirements.",
+      "terms": ["caveat loan", "caveat finance", "caveatable interest"]
+    },
+    {
+      "id": "second-mortgages",
+      "path": "/services/first-second-mortgages",
+      "label": "First and Second Mortgages",
+      "description": "Explore business-purpose first and second mortgage structures using available property equity.",
+      "terms": ["second mortgage", "2nd mortgage", "first mortgage", "mortgage priority", "subordination agreement"]
+    },
+    {
+      "id": "bridging-finance",
+      "path": "/services/bridging-finance",
+      "label": "Bridging Finance",
+      "description": "Review short-term bridging options for settlements, acquisitions and time-sensitive commercial property transactions.",
+      "terms": ["bridging finance", "bridging loan", "bridge loan", "settlement gap", "settlement shortfall", "pre settlement finance", "auction finance"]
+    },
+    {
+      "id": "property-development",
+      "path": "/services/commercial-property-development",
+      "label": "Commercial Property Development Finance",
+      "description": "Assess funding structures for commercial development, construction and staged project delivery.",
+      "terms": ["property development", "development finance", "construction finance", "construction loan", "land development", "residual stock"]
+    },
+    {
+      "id": "commercial-property",
+      "path": "/services/commercial-property-finance",
+      "label": "Commercial Property Finance",
+      "description": "Compare funding for commercial property purchases, refinancing and investment transactions.",
+      "terms": ["commercial property", "commercial real estate", "commercial mortgage", "commercial property loan", "commercial property lvr", "owner occupied property"]
+    },
+    {
+      "id": "smsf-lending",
+      "path": "/services/smsf-lending",
+      "label": "SMSF Lending",
+      "description": "Understand business real property lending through an SMSF and limited recourse borrowing arrangement.",
+      "terms": ["smsf", "self managed super", "limited recourse borrowing", "lrba"]
+    },
+    {
+      "id": "refinancing",
+      "path": "/services/refinancing-solutions",
+      "label": "Commercial Refinancing",
+      "description": "Review commercial refinance pathways for maturities, bank exits, restructures and lender changes.",
+      "terms": ["commercial property refinancing", "commercial refinance", "refinance", "refinancing", "bank exit", "loan maturity", "non renewal", "bank decline", "takeout finance"]
+    },
+    {
+      "id": "debt-consolidation",
+      "path": "/services/debt-consolidation",
+      "label": "Business Debt Consolidation",
+      "description": "Assess whether multiple business debts can be restructured into a clearer commercial facility.",
+      "terms": ["debt consolidation", "consolidate debt", "debt restructure", "multiple business debts"]
+    },
+    {
+      "id": "trade-finance",
+      "path": "/services/trade-finance",
+      "label": "Trade Finance",
+      "description": "Explore funding for imports, supplier payments, inventory and trade-cycle timing.",
+      "terms": ["trade finance", "import finance", "export finance", "supply chain finance", "invoice finance", "debtor finance", "purchase order finance"]
+    },
+    {
+      "id": "equipment-finance",
+      "path": "/services/equipment-finance",
+      "label": "Equipment Finance",
+      "description": "Compare commercial funding for machinery, vehicles and other revenue-producing equipment.",
+      "terms": ["equipment finance", "equipment loan", "machinery finance", "vehicle finance", "fleet finance", "chattel mortgage"]
+    },
+    {
+      "id": "asset-backed-lending",
+      "path": "/services/asset-backed-lending",
+      "label": "Asset-Backed Lending",
+      "description": "Review commercial lending supported by business or property assets and a defined repayment strategy.",
+      "terms": ["asset backed", "asset-based lending", "secured against assets", "property backed business"]
+    },
+    {
+      "id": "asset-finance",
+      "path": "/services/asset-finance",
+      "label": "Asset Finance",
+      "description": "Explore commercial finance for business assets while preserving operating liquidity.",
+      "terms": ["asset finance", "business asset finance"]
+    },
+    {
+      "id": "business-acquisition",
+      "path": "/services/business-acquisition",
+      "label": "Business Acquisition Finance",
+      "description": "Review funding structures for established business, franchise and management buyout acquisitions.",
+      "terms": ["business acquisition", "buy a business", "franchise finance", "management buyout", "mbo finance"]
+    },
+    {
+      "id": "working-capital",
+      "path": "/services/working-capital",
+      "label": "Working Capital",
+      "description": "Assess commercial funding for cash-flow timing, payroll, stock, tax obligations and business recovery plans.",
+      "terms": ["working capital", "cash flow finance", "payroll finance", "inventory funding", "ato debt", "tax debt finance", "business turnaround", "business recovery"]
+    },
+    {
+      "id": "private-lending",
+      "path": "/services/private-lending",
+      "label": "Private Lending",
+      "description": "Compare non-bank and private credit options for business-purpose property-backed funding.",
+      "terms": ["private lending", "private lender", "private credit", "non bank lender", "non-bank lender", "alternative lender"]
+    },
+    {
+      "id": "business-finance",
+      "path": "/services/business-finance",
+      "label": "Business Finance",
+      "description": "Explore commercial finance options matched to business purpose, security, documents and repayment strategy.",
+      "terms": ["business finance", "business loan", "commercial finance", "commercial loan", "sme finance", "abn loan"]
+    }
+  ]
+}

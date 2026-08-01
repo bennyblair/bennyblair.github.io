@@ -10,6 +10,7 @@ import FAQSection from "@/components/FAQSection";
 import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 import { BEN_AUTHOR, DANIEL_AUTHOR } from "@/lib/schema-utils";
+import { getDesignatedService, rankRelatedArticles } from "@/lib/seo-links";
 
 const GuideArticle = () => {
   const { slug } = useParams();
@@ -72,11 +73,10 @@ const GuideArticle = () => {
         const faqItems = extractFAQs(foundArticle.content);
         setFaqs(faqItems);
 
-        // Load related articles (same content type, excluding current article)
+        // Prefer articles with the same commercial intent so the prerendered
+        // related-reading graph routes authority within a useful topic cluster.
         const allArticles = await getContentFiles(contentType);
-        const related = allArticles
-          .filter(a => a.slug !== slug)
-          .slice(0, 3);
+        const related = rankRelatedArticles(foundArticle, allArticles).slice(0, 3);
         
         setRelatedArticles(related);
         setLoading(false);
@@ -282,6 +282,7 @@ const GuideArticle = () => {
   const seoDescription = article.description;
   const seoKeywords = article.tags?.join(', ') || 'commercial finance, business lending, Australia';
   const canonicalUrl = `/resources/${contentType}/${slug}`;
+  const designatedService = article ? getDesignatedService(article) : null;
   const seoImage = article.featuredImage || `/placeholder.svg`;
   const reviewedDate = article.reviewedDate || article.date;
   const authorDisplayName = article.authorName || article.author || "Emet Capital";
@@ -591,108 +592,24 @@ const GuideArticle = () => {
         </Card>
 
         {/* Related Services Section */}
-        {contentType === 'guides' && (
+        {contentType === 'guides' && designatedService && (
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
-              Related Finance Solutions
+              Related Finance Solution
             </h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              {article.tags?.includes('caveat') && (
-                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
-                  <CardContent className="p-6">
-                    <h3 className="font-bold text-foreground mb-3 text-lg">Caveat Loans</h3>
-                    <p className="text-muted-foreground mb-4 text-sm">
-                      Fast access to capital using property as security with 24-48 hour approval.
-                    </p>
-                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
-                      <Link to="/services/caveat-loans">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              )}
-              {(article.tags?.includes('mortgage') || article.tags?.includes('second mortgage')) && (
-                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
-                  <CardContent className="p-6">
-                    <h3 className="font-bold text-foreground mb-3 text-lg">First & Second Mortgages</h3>
-                    <p className="text-muted-foreground mb-4 text-sm">
-                      Access equity in your property for business growth and expansion.
-                    </p>
-                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
-                      <Link to="/services/first-second-mortgages">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              )}
-              {(article.tags?.includes('bridging') || article.tags?.includes('development')) && (
-                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
-                  <CardContent className="p-6">
-                    <h3 className="font-bold text-foreground mb-3 text-lg">Bridging & Development Finance</h3>
-                    <p className="text-muted-foreground mb-4 text-sm">
-                      Short-term funding for property development and time-sensitive opportunities.
-                    </p>
-                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
-                      <Link to="/services/bridging-finance">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              )}
-              {article.tags?.includes('private lending') && (
-                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
-                  <CardContent className="p-6">
-                    <h3 className="font-bold text-foreground mb-3 text-lg">Private Lending</h3>
-                    <p className="text-muted-foreground mb-4 text-sm">
-                      Flexible finance solutions when traditional banks can't help.
-                    </p>
-                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
-                      <Link to="/services/private-lending">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              )}
-              {(article.tags?.includes('commercial property') || article.tags?.includes('property development')) && (
-                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
-                  <CardContent className="p-6">
-                    <h3 className="font-bold text-foreground mb-3 text-lg">Commercial Property Development</h3>
-                    <p className="text-muted-foreground mb-4 text-sm">
-                      Specialized finance for commercial property development projects.
-                    </p>
-                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
-                      <Link to="/services/commercial-property-development">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              )}
-              {article.tags?.includes('working capital') && (
-                <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
-                  <CardContent className="p-6">
-                    <h3 className="font-bold text-foreground mb-3 text-lg">Working Capital</h3>
-                    <p className="text-muted-foreground mb-4 text-sm">
-                      Fund day-to-day operations and grow your business with flexible capital.
-                    </p>
-                    <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
-                      <Link to="/services/working-capital">
-                        Learn More
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              )}
+            <div className="max-w-2xl mx-auto">
+              <Card className="group hover:shadow-xl transition-all duration-300 hover:border-accent/50">
+                <CardContent className="p-6">
+                  <h3 className="font-bold text-foreground mb-3 text-lg">{designatedService.label}</h3>
+                  <p className="text-muted-foreground mb-4 text-sm">{designatedService.description}</p>
+                  <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-accent group-hover:text-accent-foreground">
+                    <Link to={designatedService.path}>
+                      Explore {designatedService.label}
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Link>
+                  </Button>
+                </CardContent>
+              </Card>
             </div>
           </section>
         )}

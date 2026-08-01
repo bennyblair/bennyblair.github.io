@@ -1,6 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { DOMAIN, isRedirectSource } from "../src/config/site-route-manifest";
+import { buildContentIndex } from "./lib/content-index.mjs";
+import { resolveDesignatedService, seoTopicPolicy } from "./lib/seo-policy.mjs";
 
 const repoRoot = process.cwd();
 const distDir = path.join(repoRoot, "dist");
@@ -26,6 +29,10 @@ function hrefs(html: string) {
   return [...html.matchAll(/<a\b[^>]*\bhref=["']([^"'#]+)(?:#[^"']*)?["'][^>]*>/gi)].map((match) => match[1]);
 }
 
+function mainFragment(html: string) {
+  return html.match(/<main\b[^>]*>[\s\S]*?<\/main>/i)?.[0] ?? "";
+}
+
 function resolveInternalHref(href: string, fromPath: string) {
   if (/^(?:mailto:|tel:|javascript:|data:)/i.test(href)) return null;
   const resolved = new URL(href, `${DOMAIN}${fromPath}`);
@@ -39,8 +46,11 @@ if (!fs.existsSync(inventoryPath)) {
 
 const inventory = JSON.parse(fs.readFileSync(inventoryPath, "utf8")) as RouteInventoryEntry[];
 const canonicalPaths = new Set(inventory.map((route) => route.path));
+const routeByPath = new Map(inventory.map((route) => [route.path, route]));
 const canonicalOwners = new Map<string, string>();
 const inbound = new Map(inventory.map((route) => [route.path, 0]));
+const inboundSources = new Map(inventory.map((route) => [route.path, new Set<string>()]));
+const outgoing = new Map(inventory.map((route) => [route.path, new Set<string>()]));
 const errors: string[] = [];
 
 for (const route of inventory) {
@@ -107,7 +117,76 @@ for (const route of inventory) {
     const assetPath = path.join(distDir, target.replace(/^\//, ""));
     if (!fs.existsSync(assetPath)) errors.push(`${route.path}: broken internal link ${target}`);
   }
+
+
+  for (const href of hrefs(mainFragment(html))) {
+    const target = resolveInternalHref(href, route.path);
+    if (!target || !canonicalPaths.has(target)) continue;
+    inboundSources.get(target)?.add(route.path);
+    outgoing.get(route.path)?.add(target);
+  }
 }
+
+const contentIndex = buildContentIndex(repoRoot);
+const guideArticles = contentIndex.guides ?? [];
+for (const article of guideArticles) {
+  const service = resolveDesignatedService(article);
+  if (!service) {
+    errors.push(`${article.route}: no designated commercial service page could be resolved`);
+    continue;
+  }
+  if (!outgoing.get(article.route)?.has(service.path)) {
+    errors.push(`${article.route}: raw HTML does not link to designated service ${service.path}`);
+  }
+}
+
+function newlyAddedGuideRoutes() {
+  try {
+    const output = execFileSync(
+      "git",
+      ["diff", "--name-only", "--diff-filter=A", "origin/main...HEAD", "--", "src/content/guides"],
+      { cwd: repoRoot, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
+    );
+    return new Set(
+      output
+        .split(/\r?\n/)
+        .filter((file) => file.endsWith(".md"))
+        .map((file) => `/resources/guides/${path.basename(file, ".md")}`),
+    );
+  } catch {
+    return new Set<string>();
+  }
+}
+
+for (const route of newlyAddedGuideRoutes()) {
+  const sources = [...(inboundSources.get(route) ?? [])].filter((source) => {
+    const pageType = routeByPath.get(source)?.pageType;
+    return source !== route && (pageType === "guide" || pageType === "service");
+  });
+  if (sources.length < 2) {
+    errors.push(`${route}: expected raw-HTML inbound links from two guide/service pages; found ${sources.length}`);
+  }
+}
+
+const serviceLinkReport = seoTopicPolicy.serviceClusters.map((service) => {
+  const sources = [...(inboundSources.get(service.path) ?? [])];
+  const articleSources = sources.filter((source) => {
+    const pageType = routeByPath.get(source)?.pageType;
+    return pageType === "guide" || pageType === "case-study";
+  });
+  return {
+    service: service.path,
+    cluster: service.id,
+    inboundSourcePages: sources.length,
+    inboundArticlePages: articleSources.length,
+    underlinked: articleSources.length < 3,
+    sampleArticleSources: articleSources.slice(0, 10),
+  };
+});
+fs.writeFileSync(
+  path.join(distDir, "seo-internal-link-report.json"),
+  `${JSON.stringify({ generatedAt: new Date().toISOString(), services: serviceLinkReport }, null, 2)}\n`,
+);
 
 for (const route of inventory) {
   if (route.path !== "/" && (inbound.get(route.path) ?? 0) === 0) {

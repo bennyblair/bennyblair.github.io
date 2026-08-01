@@ -1,8 +1,6 @@
-name: Propose daily content
+name: Validate manual content feed
 
 on:
-  schedule:
-    - cron: "0 20 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -17,7 +15,9 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: daily-content-publisher
+  # OpenClaw remains the production scheduler. This workflow is deliberately
+  # manual so the same two daily slots cannot be published twice.
+  group: manual-content-feed-validator
   cancel-in-progress: false
 
 jobs:
@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci --ignore-scripts
-          python -m pip install --disable-pip-version-check pandas pytz
+          python -m pip install --disable-pip-version-check pandas
 
       - name: Generate today's proposed content
         shell: bash

@@ -10,6 +10,12 @@ import {
   siteRoutes,
 } from "../../src/config/site-route-manifest";
 import claims from "../../src/content/claims.json";
+import {
+  findIntentOverlaps,
+  isLocationVariant,
+  resolveDesignatedService,
+  tokenSimilarity,
+} from "../lib/seo-policy.mjs";
 
 const repoRoot = process.cwd();
 
@@ -70,4 +76,54 @@ test("claim register records verification or explicit legacy risk acceptance", (
       assert.ok(claim.expiresAt, `${id} expiry is missing`);
     }
   }
+});
+
+test("new location-led finance variants are blocked while national topics remain eligible", () => {
+  assert.equal(
+    isLocationVariant({ title: "Construction Loans Perth", primaryQuery: "construction loans perth" }),
+    true,
+  );
+  assert.equal(
+    isLocationVariant({ title: "Business Finance Melbourne", primaryQuery: "business finance melbourne" }),
+    true,
+  );
+  assert.equal(
+    isLocationVariant({ title: "Business Turnaround Finance in Australia", primaryQuery: "business turnaround finance" }),
+    false,
+  );
+});
+
+test("commercial topics resolve to one valid designated service page", () => {
+  const cases = [
+    ["urgent caveat loans", "/services/caveat-loans"],
+    ["commercial property refinancing", "/services/refinancing-solutions"],
+    ["equipment loans for small business", "/services/equipment-finance"],
+    ["business turnaround finance", "/services/working-capital"],
+  ];
+  const validServiceRoutes = new Set(
+    siteRoutes.filter((route) => route.pageType === "service" && route.indexable).map((route) => route.path),
+  );
+
+  for (const [primaryQuery, expected] of cases) {
+    const service = resolveDesignatedService({ primaryQuery, title: primaryQuery });
+    assert.equal(service?.path, expected);
+    assert.equal(validServiceRoutes.has(service?.path), true, `${service?.path} must be an indexable service route`);
+  }
+});
+
+test("intent overlap catches near-duplicate ideas within the same service cluster", () => {
+  assert.ok(tokenSimilarity("urgent caveat loans Australia", "fast urgent caveat loan guide") >= 0.72);
+  const candidate = {
+    file: "new.md",
+    primaryQuery: "urgent caveat loans Australia",
+    title: "Urgent Caveat Loans Australia",
+  };
+  const existing = {
+    file: "existing.md",
+    primaryQuery: "fast urgent caveat loan guide",
+    title: "Fast Urgent Caveat Loan Guide",
+  };
+  const overlaps = findIntentOverlaps(candidate, [existing]);
+  assert.equal(overlaps.length, 1);
+  assert.equal(overlaps[0].candidate.file, "existing.md");
 });

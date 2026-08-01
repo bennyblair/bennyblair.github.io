@@ -2,13 +2,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import matter from "gray-matter";
+import {
+  findIntentOverlaps,
+  isLocationVariant,
+  normalizePhrase,
+  resolveDesignatedService,
+} from "./lib/seo-policy.mjs";
 
 const repoRoot = process.cwd();
 const contentRoot = path.join(repoRoot, "src", "content");
 const claimsPath = path.join(contentRoot, "claims.json");
 const contentDirectories = ["guides", "case-studies", "insights"];
 const highRiskPattern =
-  /\b(?:rate|interest|approval|approved|settlement|lvr|tax|legal|asic|apra|smsf|best lender|top lender|guarantee|return|valuation)\b|(?:\$[\d,.]+|\d+(?:\.\d+)?%)/i;
+  /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b/i;
 const timeSensitivePattern = /\b(?:current|today|this month|202[4-9]|rate|interest|regulation|tax)\b/i;
 
 function allMarkdownFiles() {
@@ -103,7 +109,13 @@ const changed = changedContentFiles();
 const parsed = files.map((file) => {
   const raw = fs.readFileSync(file, "utf8");
   const result = matter(raw);
-  return { file, data: result.data, body: result.content, shingles: shingles(result.content) };
+  return {
+    file,
+    data: result.data,
+    body: result.content,
+    shingles: shingles(result.content),
+    ...result.data,
+  };
 });
 const errors = [];
 const warnings = [];
@@ -124,22 +136,33 @@ for (const article of parsed) {
 
   if (!changed.has(article.file)) continue;
 
-  const requiredContractFields = ["primaryQuery", "searchIntent", "contentRisk", "author", "canonical"];
-  for (const field of requiredContractFields) {
-    if (!article.data[field]) errors.push(`${relative}: changed content must declare ${field}`);
+  const primaryQuery = article.data.primaryQuery || article.data.primary_query || asArray(article.data.keywords)[0] || article.data.title;
+  const searchIntent = article.data.searchIntent || article.data.search_intent || "informational";
+  const designatedService = resolveDesignatedService({ ...article.data, primaryQuery });
+
+  if (!primaryQuery) errors.push(`${relative}: no primary query could be resolved`);
+  if (!searchIntent) errors.push(`${relative}: no search intent could be resolved`);
+  if (!designatedService) errors.push(`${relative}: no commercial service page could be resolved`);
+
+  if (!article.data.primaryQuery && !article.data.primary_query) {
+    warnings.push(`${relative}: primaryQuery inferred as "${primaryQuery}"; add it explicitly in the publisher`);
   }
-  if (!["low", "high"].includes(article.data.contentRisk)) {
-    errors.push(`${relative}: contentRisk must be low or high`);
+  if (!article.data.searchIntent && !article.data.search_intent) {
+    warnings.push(`${relative}: searchIntent inferred as informational; add it explicitly in the publisher`);
+  }
+  if (!article.data.designatedServicePage && !article.data.designated_service_page) {
+    warnings.push(`${relative}: designated service inferred as ${designatedService?.path}; add it explicitly in the publisher`);
   }
 
   const detectedHighRisk =
     relative.includes("/case-studies/") ||
     highRiskPattern.test(`${article.data.title || ""}\n${article.data.description || ""}\n${article.body}`);
-  if (detectedHighRisk && article.data.contentRisk !== "high") {
+  const resolvedRisk = article.data.contentRisk || article.data.content_risk || (detectedHighRisk ? "high" : "low");
+  if (detectedHighRisk && resolvedRisk !== "high") {
     errors.push(`${relative}: financial/statistical claims require contentRisk: high`);
   }
 
-  if (article.data.contentRisk === "high") {
+  if (resolvedRisk === "high") {
     if (asArray(article.data.sources).length === 0) errors.push(`${relative}: high-risk content requires sources`);
     if (!article.data.reviewedBy || !article.data.reviewedAt) {
       errors.push(`${relative}: high-risk content requires reviewedBy and reviewedAt`);
@@ -185,6 +208,30 @@ for (const article of parsed.filter((candidate) => newlyAdded.has(candidate.file
     errors.push(
       `${relative}: ${(strongest.score * 100).toFixed(1)}% similar to ${strongestRelative}; update the stronger URL instead`,
     );
+  }
+
+  const route = article.canonical || `/resources/${article.file.includes(`${path.sep}case-studies${path.sep}`) ? "case-studies" : "guides"}/${path.basename(article.file, ".md")}`;
+  if (isLocationVariant({ ...article, route })) {
+    errors.push(`${relative}: new city/suburb/service-location variants are blocked by SEO policy`);
+  }
+
+  const normalizedQuery = normalizePhrase(article.primaryQuery || article.primary_query || asArray(article.keywords)[0] || article.title);
+  const exactMatch = parsed.find((candidate) => {
+    if (candidate.file === article.file || newlyAdded.has(candidate.file)) return false;
+    const candidateQuery = normalizePhrase(candidate.primaryQuery || candidate.primary_query || asArray(candidate.keywords)[0] || candidate.title);
+    return normalizedQuery && candidateQuery === normalizedQuery;
+  });
+  if (exactMatch) {
+    errors.push(`${relative}: primary intent already belongs to ${path.relative(repoRoot, exactMatch.file).replaceAll("\\", "/")}`);
+  }
+
+  const overlap = findIntentOverlaps(
+    { ...article, primaryQuery: normalizedQuery },
+    parsed.filter((candidate) => !newlyAdded.has(candidate.file)),
+  )[0];
+  if (overlap) {
+    const overlapPath = path.relative(repoRoot, overlap.candidate.file).replaceAll("\\", "/");
+    errors.push(`${relative}: ${(overlap.score * 100).toFixed(1)}% intent overlap with ${overlapPath}; strengthen the existing URL instead`);
   }
 }
 

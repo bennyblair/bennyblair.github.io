@@ -5,6 +5,8 @@ import matter from "gray-matter";
 
 const repoRoot = process.cwd();
 const outputPath = process.env.GITHUB_OUTPUT;
+const highRiskPattern =
+  /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b/i;
 
 function changedMarkdownFiles() {
   const modified = execFileSync(
@@ -43,7 +45,11 @@ function changedMarkdownFiles() {
 const files = changedMarkdownFiles();
 const results = files.map((file) => {
   const parsed = matter(fs.readFileSync(path.join(repoRoot, file), "utf8"));
-  return { file, risk: parsed.data.contentRisk };
+  const explicit = parsed.data.contentRisk || parsed.data.content_risk;
+  const inferred = highRiskPattern.test(`${parsed.data.title || ""}\n${parsed.data.description || ""}\n${parsed.content}`)
+    ? "high"
+    : "low";
+  return { file, risk: explicit || inferred, inferred: !explicit };
 });
 const invalid = results.filter(({ risk }) => !["low", "high"].includes(risk));
 const risk = results.some((item) => item.risk === "high") ? "high" : "low";
@@ -57,7 +63,7 @@ if (invalid.length) {
 
 console.log(
   results.length
-    ? results.map((item) => `${item.risk.toUpperCase()} ${item.file}`).join("\n")
+    ? results.map((item) => `${item.risk.toUpperCase()}${item.inferred ? " (inferred)" : ""} ${item.file}`).join("\n")
     : "No new or modified Markdown content.",
 );
 
