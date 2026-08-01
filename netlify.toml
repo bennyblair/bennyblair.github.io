@@ -3,7 +3,7 @@
 
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "npx playwright install chromium && npm run build"
 
 [build.environment]
   NODE_VERSION = "22"
