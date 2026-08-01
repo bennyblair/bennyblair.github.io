@@ -149,6 +149,16 @@
     "noscript": "A practical guide to balloon payment refinance for equipment and asset finance, including when business borrowers refinance, pay out, sell, or upgrade vehicles, plant, and machinery at end of term.",
     "sourcePath": "src/content/guides/balloon-payment-refinance-for-equipment-and-asset-finance.md"
   },
+  "/resources/guides/bank-exit-finance-commercial-borrowers-australia": {
+    "routePath": "/resources/guides/bank-exit-finance-commercial-borrowers-australia",
+    "title": "Bank Exit Finance for Commercial Borrowers in Australia",
+    "description": "Bank exit finance explained for Australian commercial borrowers facing non-renewal, maturity pressure, covenant issues, valuation problems, or a...",
+    "keywords": "bank exit finance Australia, commercial borrower bank exit, commercial loan non renewal, bank exit refinance, private credit refinance",
+    "canonical": "https://emetcapital.com.au/resources/guides/bank-exit-finance-commercial-borrowers-australia",
+    "h1": "Bank Exit Finance for Commercial Borrowers in Australia",
+    "noscript": "Bank exit finance explained for Australian commercial borrowers facing non-renewal, maturity pressure, covenant issues, valuation problems, or a bank-led refinance deadline.",
+    "sourcePath": "src/content/guides/bank-exit-finance-commercial-borrowers-australia.md"
+  },
   "/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved": {
     "routePath": "/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved",
     "title": "Bank vs Non-Bank Commercial Lending in Australia:...",
@@ -408,6 +418,16 @@
     "h1": "Business Overdraft Alternatives in Australia: Line of Credit, Invoice Finance or Secured Working Capital?",
     "noscript": "Business overdraft alternatives in Australia explained for SMEs comparing lines of credit, invoice finance, trade finance, and property-backed working capital.",
     "sourcePath": "src/content/guides/business-overdraft-alternatives-australia.md"
+  },
+  "/resources/guides/business-turnaround-finance-australia": {
+    "routePath": "/resources/guides/business-turnaround-finance-australia",
+    "title": "Business Turnaround Finance in Australia: Funding a...",
+    "description": "Business turnaround finance explained for Australian SMEs, including when funding can support a recovery plan, when it can make risk worse, and...",
+    "keywords": "business turnaround finance Australia, turnaround funding, business recovery finance, working capital recovery, private credit for SMEs",
+    "canonical": "https://emetcapital.com.au/resources/guides/business-turnaround-finance-australia",
+    "h1": "Business Turnaround Finance in Australia: Funding a Recovery Plan Without Overpromising",
+    "noscript": "Business turnaround finance explained for Australian SMEs, including when funding can support a recovery plan, when it can make risk worse, and what lenders need to see.",
+    "sourcePath": "src/content/guides/business-turnaround-finance-australia.md"
   },
   "/resources/guides/can-a-caveat-loan-stop-a-mortgagee-sale-in-australia": {
     "routePath": "/resources/guides/can-a-caveat-loan-stop-a-mortgagee-sale-in-australia",
