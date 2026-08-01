@@ -10,7 +10,53 @@ import json
 import pandas as pd
 from datetime import date, datetime
 from pathlib import Path
-import pytz
+from zoneinfo import ZoneInfo
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+SEO_POLICY = json.loads((REPO_ROOT / "data" / "seo-topic-policy.json").read_text(encoding="utf-8"))
+
+
+def normalize_phrase(value: str) -> str:
+    normalized = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", str(value or "").lower())).strip()
+    tokens = []
+    for token in normalized.split():
+        if token.endswith("ies") and len(token) > 4:
+            token = f"{token[:-3]}y"
+        elif token.endswith("s") and not token.endswith("ss") and len(token) > 4:
+            token = token[:-1]
+        tokens.append(token)
+    return " ".join(tokens)
+
+
+def resolve_designated_service(meta: dict):
+    explicit = meta.get("designatedServicePage") or meta.get("designated_service_page")
+    if explicit:
+        for cluster in SEO_POLICY["serviceClusters"]:
+            if cluster["path"] == explicit:
+                return cluster
+
+    focus = f" {normalize_phrase(' '.join(str(meta.get(key, '')) for key in ('title', 'target_keyword')))} "
+    haystack = f" {normalize_phrase(' '.join(str(meta.get(key, '')) for key in ('title', 'target_keyword', 'pillar', 'content_type')))} "
+    best = None
+    for cluster in SEO_POLICY["serviceClusters"]:
+        score = 0
+        for term in cluster["terms"]:
+            normalized = normalize_phrase(term)
+            if f" {normalized} " in focus:
+                score += 100
+            if f" {normalized} " in haystack:
+                score += len(normalized.split()) * 10 + len(normalized)
+        if best is None or score > best[0]:
+            best = (score, cluster)
+
+    if best and best[0] > 0:
+        return best[1]
+    return next(cluster for cluster in SEO_POLICY["serviceClusters"] if cluster["id"] == "business-finance")
+
+
+def is_location_variant(meta: dict) -> bool:
+    text = f" {normalize_phrase(' '.join(str(meta.get(key, '')) for key in ('title', 'target_keyword', 'url')))} "
+    return any(f" {normalize_phrase(term)} " in text for term in SEO_POLICY["locationTerms"])
 
 def parse_header_and_body(text: str):
     """Parse header and body from markdown content (supports both JSON and YAML frontmatter)"""
@@ -46,6 +92,28 @@ def write_header_and_body(header: dict, body: str) -> str:
     
     # Extract key fields from the nested JSON structure
     meta = header.get('meta', {})
+    canonical_path = meta.get("url", "")
+    canonical_url = (
+        canonical_path
+        if canonical_path.startswith("http")
+        else f"https://emetcapital.com.au{canonical_path}"
+    )
+    risk_text = " ".join([
+        meta.get("title", ""),
+        meta.get("description", ""),
+        meta.get("target_keyword", ""),
+        meta.get("section", ""),
+        body,
+    ])
+    high_risk_pattern = re.compile(
+        r"\b(rate|interest|approval|approved|turnaround|settlement|lvr|"
+        r"lender ranking|best lender|comparison|legal|tax|smsf|asic|apra|"
+        r"regulation|case stud(?:y|ies)|statistic|guarantee|valuation)\b|"
+        r"(?:\$[\d,.]+|\d+(?:\.\d+)?%)",
+        re.IGNORECASE,
+    )
+    content_risk = "high" if high_risk_pattern.search(risk_text) else "low"
+    designated_service = resolve_designated_service(meta)
     
     # Create YAML frontmatter
     yaml_content = []
@@ -79,10 +147,24 @@ def write_header_and_body(header: dict, body: str) -> str:
         yaml_content.append(f'tags: {tags_str}')
     
     yaml_content.append(f'author: "{meta.get("author", "Emet Capital Editorial Team")}"')
+    yaml_content.append(f'primaryQuery: "{target_keyword}"')
+    yaml_content.append('searchIntent: "informational"')
+    yaml_content.append(f'intentCluster: "{designated_service["id"]}"')
+    yaml_content.append(f'designatedServicePage: "{designated_service["path"]}"')
+    yaml_content.append(f'contentRisk: "{content_risk}"')
+    yaml_content.append(f'canonical: "{canonical_url}"')
+    yaml_content.append('claimIds: []')
     yaml_content.append(f'readingTime: {meta.get("word_count_target", 1800) // 200}')  # Rough estimate
     yaml_content.append("---")
     yaml_content.append("")
     
+    if designated_service["path"] not in body:
+        body += (
+            f'\n\n<h2>Related finance option</h2>\n'
+            f'<p>For commercial funding options related to this topic, review '
+            f'<a href="{designated_service["path"]}">{designated_service["label"]}</a>.</p>\n'
+        )
+
     return '\n'.join(yaml_content) + body
 
 def validate_article(content: str, post_url: str, title: str, section_key: str) -> bool:
@@ -168,7 +250,7 @@ def main():
     args = ap.parse_args()
 
     # Use Australia/Sydney timezone
-    sydney_tz = pytz.timezone('Australia/Sydney')
+    sydney_tz = ZoneInfo('Australia/Sydney')
     today = datetime.now(sydney_tz).date()
     today_str = today.isoformat()
     
@@ -208,6 +290,17 @@ def main():
         
         # Extract slug from URL and determine subdirectory
         slug = post_url.split('/')[-1]
+
+        candidate_meta = {
+            "title": title,
+            "target_keyword": row.get("target_keyword", ""),
+            "pillar": row.get("pillar", ""),
+            "content_type": row.get("content_type", ""),
+            "url": post_url,
+        }
+        if is_location_variant(candidate_meta):
+            print(f"   SKIP: location-led content is blocked by SEO topic policy: {post_url}")
+            continue
         
         # Determine content subdirectory based on URL structure
         if '/guides/' in post_url:
@@ -217,7 +310,8 @@ def main():
         elif '/insights/' in post_url:
             content_subdir = 'insights'
         elif '/tools/' in post_url:
-            content_subdir = 'tools'
+            print(f"   SKIP: CSV-generated tool routes are unsupported; use a reviewed interactive tool component: {post_url}")
+            continue
         else:
             content_subdir = 'guides'  # Default fallback
         
@@ -278,32 +372,11 @@ def main():
         for path in published_files:
             print(f"   📄 {path}")
         
-        # Generate updated sitemap
-        if not args.dry_run:
-            try:
-                print(f"\n🗺️  Generating updated sitemap...")
-                import subprocess
-                result = subprocess.run(
-                    ['python3', 'scripts/generate_sitemap.py'], 
-                    capture_output=True, 
-                    text=True, 
-                    cwd=os.getcwd()
-                )
-                
-                if result.returncode == 0:
-                    print(f"✅ Sitemap updated successfully")
-                    print(f"   {result.stdout.strip()}")
-                else:
-                    print(f"⚠️  Warning: Sitemap generation failed")
-                    print(f"   {result.stderr.strip()}")
-            except Exception as e:
-                print(f"⚠️  Warning: Could not generate sitemap: {e}")
-        
         print(f"\n💡 Next steps:")
-        print(f"   1. Run build process to generate static files")
-        print(f"   2. Commit and push changes (including updated sitemap.xml)")
-        print(f"   3. Verify articles are live on website")
-        print(f"   4. Sitemap will be automatically discovered by search engines")
+        print(f"   1. Run the content quality gate")
+        print(f"   2. Open a pull request with the detected content-risk label")
+        print(f"   3. Complete human review for high-risk financial content")
+        print(f"   4. Let the production build generate the sitemap from the route manifest")
     
     return 0
 

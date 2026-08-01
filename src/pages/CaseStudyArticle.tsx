@@ -40,7 +40,7 @@ const CaseStudyArticle = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background" data-route-loading="true" role="status" aria-live="polite">
         <div className="container mx-auto px-4 py-16">
           <div className="animate-pulse space-y-4 max-w-4xl mx-auto">
             <div className="h-10 bg-muted rounded w-2/3 mx-auto"></div>

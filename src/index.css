@@ -11,10 +11,10 @@
     --foreground: 0 0% 95%;
 
     /* Deep navy primary */
-    --primary: 210 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-light: 210 100% 60%;
-    --primary-dark: 210 100% 40%;
+    --primary: 210 100% 65%;
+    --primary-foreground: 220 15% 8%;
+    --primary-light: 210 100% 72%;
+    --primary-dark: 210 100% 52%;
 
     /* Dark charcoal secondary */
     --secondary: 220 10% 12%;
@@ -23,10 +23,10 @@
     --secondary-dark: 220 12% 8%;
 
     /* Premium blue accents */
-    --accent: 210 100% 56%;
-    --accent-foreground: 0 0% 100%;
-    --accent-light: 210 100% 65%;
-    --accent-dark: 210 100% 45%;
+    --accent: 210 100% 65%;
+    --accent-foreground: 220 15% 8%;
+    --accent-light: 210 100% 72%;
+    --accent-dark: 210 100% 52%;
     --accent-metallic: 210 80% 50%;
 
     /* Glassmorphism surfaces */
@@ -45,7 +45,7 @@
     --popover-foreground: 0 0% 95%;
     --border: 220 20% 25%;
     --input: 220 15% 15%;
-    --ring: 210 100% 56%;
+    --ring: 210 100% 65%;
 
     /* Destructive colors */
     --destructive: 0 84% 60%;
@@ -97,19 +97,19 @@
     --card-foreground: 224 15% 25%;
     --popover: 0 0% 100%;
     --popover-foreground: 224 15% 25%;
-    --primary: 210 100% 45%;
+    --primary: 210 100% 40%;
     --primary-foreground: 0 0% 100%;
     --secondary: 210 20% 96%;
     --secondary-foreground: 224 15% 25%;
     --muted: 210 20% 94%;
     --muted-foreground: 215 16% 47%;
-    --accent: 210 100% 56%;
+    --accent: 210 100% 40%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 210 100% 56%;
+    --ring: 210 100% 40%;
   }
 }
 
@@ -120,6 +120,11 @@
 
   body {
     @apply bg-background text-foreground overflow-x-hidden;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 3px;
   }
 }
 
@@ -204,6 +209,60 @@
 
 .float {
   animation: float 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .fade-in-up,
+  .scale-in {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@keyframes scrollRevealFadeUp {
+  from { opacity: 0; transform: translateY(2rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scrollRevealFadeDown {
+  from { opacity: 0; transform: translateY(-2rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scrollRevealFadeLeft {
+  from { opacity: 0; transform: translateX(-2rem); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scrollRevealFadeRight {
+  from { opacity: 0; transform: translateX(2rem); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scrollRevealZoomIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes scrollRevealFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@supports (content-visibility: auto) {
+  .homepage-page > section:not(:first-of-type) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 900px;
+  }
 }
 
 /* Enhanced article content styling for better readability */

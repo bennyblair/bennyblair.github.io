@@ -4,12 +4,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { generateContactPageSchema } from "@/lib/schema-utils";
 import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { trackLead } from "@/lib/analytics";
 
 const Contact = () => {
   const breadcrumbItems = [
@@ -24,7 +24,8 @@ const Contact = () => {
     business: "",
     loanType: "",
     loanAmount: "",
-    message: ""
+    message: "",
+    botField: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
@@ -39,12 +40,11 @@ const Contact = () => {
         throw new Error('Name and email are required fields');
       }
 
-      // Check if we're in development mode
+      if (formData.botField) return;
+
       const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
       
       if (isDevelopment) {
-        // In development, just simulate success
-        console.log('Development mode - form data:', formData);
         toast({
           title: "Development Mode",
           description: "Form submission simulated. Deploy to Netlify to test actual submission.",
@@ -53,11 +53,13 @@ const Contact = () => {
         // In production, submit to Netlify
         const form = e.target as HTMLFormElement;
         const netlifyFormData = new FormData(form);
+        const body = new URLSearchParams();
+        netlifyFormData.forEach((value, key) => body.append(key, String(value)));
 
         const response = await fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams(netlifyFormData as any).toString()
+          body: body.toString()
         });
 
         if (!response.ok) {
@@ -70,6 +72,8 @@ const Contact = () => {
         });
       }
 
+      trackLead("contact", formData.loanType);
+
       // Reset form
       setFormData({
         name: "",
@@ -78,15 +82,16 @@ const Contact = () => {
         business: "",
         loanType: "",
         loanAmount: "",
-        message: ""
+        message: "",
+        botField: "",
       });
 
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Form submission error:', error);
       
       toast({
         title: "Error submitting form",
-        description: error?.message || "Please try again or contact us directly.",
+        description: error instanceof Error ? error.message : "Please try again or contact us directly.",
         variant: "destructive",
       });
     } finally {
@@ -151,8 +156,25 @@ const Contact = () => {
                 <h2 className="text-2xl font-bold text-foreground mb-6">
                   Request Your Free Consultation
                 </h2>
-                <form onSubmit={handleSubmit} className="space-y-6" data-netlify="true" name="contact">
+                <form
+                  onSubmit={handleSubmit}
+                  className="space-y-6"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                  name="contact"
+                >
                   <input type="hidden" name="form-name" value="contact" />
+                  <div className="hidden" aria-hidden="true">
+                    <Label htmlFor="contact-bot-field">Do not fill this out</Label>
+                    <Input
+                      id="contact-bot-field"
+                      name="bot-field"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={formData.botField}
+                      onChange={(event) => handleInputChange("botField", event.target.value)}
+                    />
+                  </div>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <Label htmlFor="name">Full Name *</Label>
@@ -205,19 +227,19 @@ const Contact = () => {
 
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <Label>Loan Type</Label>
-                      <Select onValueChange={(value) => handleInputChange("loanType", value)} name="loanType">
-                        <SelectTrigger className="mt-1">
-                          <SelectValue placeholder="Select loan type" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {loanTypes.map((type) => (
-                            <SelectItem key={type} value={type}>
-                              {type}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
+                      <Label htmlFor="contact-loan-type">Loan Type</Label>
+                      <select
+                        id="contact-loan-type"
+                        name="loanType"
+                        value={formData.loanType}
+                        onChange={(event) => handleInputChange("loanType", event.target.value)}
+                        className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                      >
+                        <option value="">Select loan type</option>
+                        {loanTypes.map((type) => (
+                          <option key={type} value={type}>{type}</option>
+                        ))}
+                      </select>
                     </div>
                     <div>
                       <Label htmlFor="loanAmount">Approximate Loan Amount</Label>
@@ -268,14 +290,21 @@ const Contact = () => {
                   <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-primary" />
                     <div>
-                      <div className="font-medium text-foreground">0485 952 651</div>
+                      <a className="font-medium text-foreground hover:text-accent" href="tel:+61485952651">
+                        0485 952 651
+                      </a>
                       <div className="text-sm text-muted-foreground">Monday to Friday, 8:00 AM - 6:00 PM</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-primary" />
                     <div>
-                      <div className="font-medium text-foreground">enquiry@emetcapital.com.au</div>
+                      <a
+                        className="font-medium text-foreground hover:text-accent"
+                        href="mailto:enquiry@emetcapital.com.au"
+                      >
+                        enquiry@emetcapital.com.au
+                      </a>
                       <div className="text-sm text-muted-foreground">We respond within 2 hours</div>
                     </div>
                   </div>

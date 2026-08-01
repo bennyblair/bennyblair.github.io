@@ -18,6 +18,9 @@ const EditorialStandards = () => {
 
         <h1 className="text-4xl font-bold mb-6 text-foreground">Editorial Standards</h1>
         <div className="prose prose-lg max-w-none text-foreground">
+          <p className="text-sm text-muted-foreground">
+            Last reviewed: 30 July 2026
+          </p>
           <p>
             Emet Capital publishes guides, case studies, and tools to help Australian business borrowers,
             property investors, developers, accountants, and advisers understand commercial finance options.
@@ -86,6 +89,30 @@ const EditorialStandards = () => {
                 Lender suitability depends entirely on the individual transaction.
               </li>
             </ul>
+          </section>
+
+          <section id="marketing-claims" className="mt-8 scroll-mt-24">
+            <h2 className="text-2xl font-semibold mb-3">Marketing claims and qualifications</h2>
+            <p>
+              The homepage currently retains established marketing statements including
+              “Australia&apos;s Leading”, finance-facilitated totals, approval and success
+              percentages, turnaround timing, experience, lender-network size, and a Google
+              review summary. These claims are tracked in an internal claim register with an
+              owner, definition, source status, verification date, expiry date, display
+              qualification, and schema permission.
+            </p>
+            <p>
+              Some retained claims pre-date the current evidence register. They are classified
+              internally as <strong>legacy retained</strong>, not as independently verified.
+              They must not be interpreted as guarantees of approval, settlement time, outcome,
+              savings, lender availability, or suitability. No new or materially changed claim
+              may be published without documented evidence and approval.
+            </p>
+            <p>
+              If you need the basis or measurement period for a displayed claim, contact
+              Emet Capital before relying on it. Claims that cannot be substantiated through the
+              remediation review should be qualified, corrected, or removed.
+            </p>
           </section>
 
           <section className="mt-8">

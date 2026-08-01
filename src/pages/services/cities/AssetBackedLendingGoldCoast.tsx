@@ -93,7 +93,7 @@ export default function AssetBackedLendingGoldCoast() {
         },
         {
           title: 'Asset Finance Gold Coast',
-          href: '/services/asset-finance/gold-coast',
+          href: '/services/asset-finance/cities/gold-coast',
           description: 'Useful if the Gold Coast requirement is more equipment-specific than broad asset-backed funding.'
         }
       ]}

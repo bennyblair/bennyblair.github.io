@@ -93,7 +93,7 @@ const LoanComparisonTool = () => {
         <title>Loan Comparison Tool | Compare Business Loans Australia</title>
         <meta name="description" content="Compare multiple business loan offers side by side. Analyze rates, fees, monthly payments and total costs to find the best financing option." />
         <meta name="keywords" content="loan comparison tool, business loan comparison, loan calculator Australia, compare loan offers, loan rates comparison" />
-        <link rel="canonical" href="/resources/tools/loan-comparison-tool" />
+        <link rel="canonical" href="https://emetcapital.com.au/resources/tools/loan-comparison-tool" />
       </Helmet>
 
       <div className="min-h-screen py-8">

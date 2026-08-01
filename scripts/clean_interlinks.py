@@ -16,7 +16,6 @@ def clean_interlinks_csv():
     
     # File paths
     csv_path = Path('data/interlinks.csv')
-    public_csv_path = Path('public/data/interlinks.csv')
     backup_path = Path('data/interlinks_backup.csv')
     
     if not csv_path.exists():
@@ -58,11 +57,6 @@ def clean_interlinks_csv():
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(cleaned_rows)
-    
-    # Also update the public copy
-    if public_csv_path.exists():
-        shutil.copy2(csv_path, public_csv_path)
-        print(f"✅ Updated public copy at {public_csv_path}")
     
     print(f"\n🎉 Cleanup complete!")
     print(f"   Total rows processed: {total_rows}")

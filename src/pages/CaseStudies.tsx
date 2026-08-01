@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { DollarSign, Building2, Clock, Filter, Star, TrendingUp } from "lucide-react";
-import { getContentFiles, type Article } from "@/lib/content";
+import { getContentSummaries } from "@/lib/content";
 import { generateCollectionPageSchema } from "@/lib/schema-utils";
 import SEO from "@/components/SEO";
 
@@ -16,22 +16,8 @@ const CaseStudies = () => {
   ];
 
   const [selectedIndustry, setSelectedIndustry] = useState("All");
-  const [latestCaseStudy, setLatestCaseStudy] = useState<Article | null>(null);
-  const [publishedCaseStudies, setPublishedCaseStudies] = useState<Article[]>([]);
-
-  useEffect(() => {
-    const loadCaseStudies = async () => {
-      const caseStudies = await getContentFiles('case-studies');
-      setPublishedCaseStudies(caseStudies);
-
-      if (caseStudies.length > 0) {
-        const latest = [...caseStudies].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
-        setLatestCaseStudy(latest);
-      }
-    };
-
-    loadCaseStudies();
-  }, []);
+  const publishedCaseStudies = getContentSummaries("case-studies");
+  const latestCaseStudy = publishedCaseStudies[0] ?? null;
 
   // Helper function to check if case study is "new" (within 7 days)
   const isNewCaseStudy = (date: string) => {

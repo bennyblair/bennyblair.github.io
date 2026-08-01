@@ -93,7 +93,7 @@ export default function AssetBackedLendingAdelaide() {
         },
         {
           title: 'Asset Finance Adelaide',
-          href: '/services/asset-finance/adelaide',
+          href: '/services/asset-finance/cities/adelaide',
           description: 'Useful if the Adelaide requirement is mainly equipment or vehicle specific.'
         }
       ]}

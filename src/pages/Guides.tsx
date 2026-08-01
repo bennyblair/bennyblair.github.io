@@ -1,15 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { BookOpen, Clock, User, Filter, Star, CheckCircle } from "lucide-react";
-import { getContentFiles, type Article } from "@/lib/content";
+import { getContentSummaries } from "@/lib/content";
 import { generateBreadcrumbSchema, generateCollectionPageSchema } from "@/lib/schema-utils";
 import SEO from "@/components/SEO";
 
 const Guides = () => {
-  console.log("Guides component rendering");
   const breadcrumbItems = [
     { label: "Home", href: "/" },
     { label: "Resources", href: "/resources" },
@@ -17,22 +16,8 @@ const Guides = () => {
   ];
 
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [latestArticle, setLatestArticle] = useState<Article | null>(null);
-  const [publishedArticles, setPublishedArticles] = useState<Article[]>([]);
-
-  useEffect(() => {
-    const loadGuides = async () => {
-      const articles = await getContentFiles('guides');
-      setPublishedArticles(articles);
-
-      if (articles.length > 0) {
-        const latest = [...articles].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
-        setLatestArticle(latest);
-      }
-    };
-
-    loadGuides();
-  }, []);
+  const publishedArticles = getContentSummaries("guides");
+  const latestArticle = publishedArticles[0] ?? null;
 
   // Helper function to check if article is "new" (within 7 days)
   const isNewArticle = (date: string) => {
@@ -122,22 +107,6 @@ const Guides = () => {
   const filteredAllGuides = selectedCategory === "All" 
     ? allGuides 
     : allGuides.filter(guide => guide.category === selectedCategory);
-
-  if (publishedArticles.length === 0) {
-    return (
-      <div className="min-h-screen py-8 flex flex-col items-center justify-center">
-      <SEO 
-        title="Commercial Lending Guides | Expert Business Finance Articles | Emet Capital"
-        description="In-depth guides on commercial lending, bridging finance, asset finance, development loans and more. Expert advice for Australian businesses seeking funding."
-        canonical="/resources/guides"
-        keywords="commercial lending guides, business finance articles, bridging finance guide, asset finance guide, development finance guide"
-      />
-      
-        <h1 className="text-2xl font-bold mb-4">Loading Guides...</h1>
-        <p className="text-muted-foreground">If this persists, please check the console for errors.</p>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen py-8">

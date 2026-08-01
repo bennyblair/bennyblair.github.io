@@ -1,240 +1,117 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "@/components/ui/collapsible";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+
+const primaryLinks = [
+  { href: "/services/commercial-property-finance", label: "Property Finance" },
+  { href: "/services", label: "All Services" },
+  { href: "/resources/guides", label: "Guides" },
+  { href: "/resources/tools", label: "Calculators" },
+  { href: "/about", label: "About" },
+] as const;
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
 
-  const resourcesLinks = [
-    { href: "/resources/guides", label: "Guides" },
-    { href: "/resources/case-studies", label: "Case Studies" },
-    { href: "/resources/tools", label: "Tools & Calculators" },
-    { href: "/resources/glossary", label: "Glossary" },
-    { href: "/resources/faqs", label: "FAQs" },
-    { href: "/resources/insights", label: "Market Insights" },
-  ];
+  useEffect(() => setIsMobileMenuOpen(false), [location.pathname]);
 
-  const aboutLinks = [
-    { href: "/about", label: "About Emet Capital" },
-    { href: "/about/ben", label: "Ben" },
-    { href: "/about/daniel", label: "Daniel" },
-  ];
+  const isActive = (path: string) =>
+    location.pathname === path || (path !== "/" && location.pathname.startsWith(`${path}/`));
 
-  const isActive = (path: string) => location.pathname === path;
+  const linkClass = (path: string) =>
+    `rounded-sm text-sm font-medium text-foreground transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
+      isActive(path) ? "text-accent" : ""
+    }`;
 
   return (
-    <nav className="bg-card border-b border-border sticky top-0 z-50">
+    <nav aria-label="Primary navigation" className="sticky top-0 z-50 border-b border-border bg-card/95 backdrop-blur-xl">
       <div className="container mx-auto px-4">
-        <Collapsible open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 flex-shrink-0 group">
-            <div className="flex flex-col justify-center min-h-[3rem]">
-              <span className="text-2xl font-bold text-accent leading-tight">
-                Emet Capital
-              </span>
-            </div>
-          </Link>
-
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
+        <div className="flex h-16 items-center justify-between">
             <Link
               to="/"
-              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
-                isActive("/") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
-              }`}
+              aria-label="Emet Capital home"
+              className="rounded-sm text-2xl font-bold text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
-              Home
+              Emet Capital
             </Link>
 
-            <Link
-              to="/services"
-              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
-                isActive("/services") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
-              }`}
-            >
-              Services
-            </Link>
+            <div className="hidden items-center gap-5 lg:flex">
+              {primaryLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  aria-current={isActive(link.href) ? "page" : undefined}
+                  className={linkClass(link.href)}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
 
-            <DropdownMenu>
-              <DropdownMenuTrigger className={`flex items-center space-x-1 text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
-                location.pathname.startsWith("/resources") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
-              }`}>
-                <span>Resources</span>
-                <ChevronDown className="w-4 h-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent
-                forceMount
-                align="start"
-                className="w-56 bg-card border-border"
+            <div className="flex items-center gap-3">
+              <a
+                href="tel:+61485952651"
+                className="hidden items-center gap-2 rounded-sm text-sm font-semibold text-foreground hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring md:flex"
               >
-                <DropdownMenuItem asChild>
-                  <Link to="/resources" className="w-full">
-                    Resources Hub
-                  </Link>
-                </DropdownMenuItem>
-                {resourcesLinks.map((link) => (
-                  <DropdownMenuItem key={link.href} asChild>
-                    <Link to={link.href} className="w-full">
-                      {link.label}
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
-
-            <DropdownMenu>
-              <DropdownMenuTrigger className={`flex items-center space-x-1 text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
-                location.pathname.startsWith("/about") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
-              }`}>
-                <span>About</span>
-                <ChevronDown className="w-4 h-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent
-                forceMount
-                align="start"
-                className="w-56 bg-card border-border"
-              >
-                {aboutLinks.map((link) => (
-                  <DropdownMenuItem key={link.href} asChild>
-                    <Link to={link.href} className="w-full">
-                      {link.label}
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
-
-            <Link
-              to="/contact"
-              className={`text-sm font-medium transition-all hover:text-accent whitespace-nowrap text-foreground relative ${
-                isActive("/contact") ? "after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-0.5 after:bg-accent after:rounded-full" : ""
-              }`}
-            >
-              Contact
-            </Link>
-          </div>
-
-          {/* Right side items */}
-          <div className="flex items-center space-x-4">
-            <div className="hidden md:block text-sm font-medium text-foreground whitespace-nowrap">
-              <a href="tel:0485952651" className="hover:text-accent transition-colors">
-                📞 0485 952 651
+                <Phone className="h-4 w-4" aria-hidden="true" />
+                0485 952 651
               </a>
-            </div>
-            
-            {/* CTA Button */}
-            <div className="hidden md:block">
-              <Button 
-                asChild
-                className="bg-primary hover:bg-primary-dark text-primary-foreground font-medium whitespace-nowrap"
-              >
-                <Link to="/contact">Get Quote</Link>
+              <Button asChild className="hidden md:inline-flex">
+                <Link to="/contact" data-analytics-event="header_enquiry_cta">
+                  Discuss a deal
+                </Link>
               </Button>
+              <button
+                type="button"
+                className="rounded-md p-2 text-foreground hover:bg-muted lg:hidden"
+                aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+                aria-controls="mobile-navigation"
+                aria-expanded={isMobileMenuOpen}
+                onClick={() => setIsMobileMenuOpen((open) => !open)}
+              >
+                {isMobileMenuOpen ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
+              </button>
             </div>
-
-            {/* Mobile Menu Button */}
-            <CollapsibleTrigger
-              className="md:hidden p-2"
-              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
-            >
-              {isMobileMenuOpen ? (
-                <X className="w-6 h-6 text-muted-foreground" />
-              ) : (
-                <Menu className="w-6 h-6 text-muted-foreground" />
-              )}
-            </CollapsibleTrigger>
           </div>
-        </div>
 
-        {/* Mobile Menu */}
-        <CollapsibleContent
-          forceMount
-          className="md:hidden border-t border-border bg-card data-[state=closed]:hidden"
-        >
-            <div className="py-4 space-y-2">
+          {isMobileMenuOpen && (
+          <div id="mobile-navigation" className="border-t border-border pb-5 lg:hidden">
+            <div className="grid gap-1 pt-4">
+              {primaryLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  aria-current={isActive(link.href) ? "page" : undefined}
+                  className="rounded-md px-4 py-3 text-base font-medium text-foreground hover:bg-muted hover:text-accent"
+                >
+                  {link.label}
+                </Link>
+              ))}
               <Link
-                to="/"
-                className="block px-4 py-3 text-base font-medium text-foreground hover:text-primary hover:bg-muted/50 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
+                to="/resources/case-studies"
+                className="rounded-md px-4 py-3 text-base font-medium text-foreground hover:bg-muted hover:text-accent"
               >
-                Home
-              </Link>
-              <Link
-                to="/services"
-                className="block px-4 py-3 text-base font-medium text-foreground hover:text-primary hover:bg-muted/50 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Services
-              </Link>
-              <Link
-                to="/resources"
-                className="block px-4 py-3 text-base font-medium text-foreground hover:text-primary hover:bg-muted/50 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Resources
-              </Link>
-              <Link
-                to="/about"
-                className="block px-4 py-3 text-base font-medium text-foreground hover:text-primary hover:bg-muted/50 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                About
-              </Link>
-              <Link
-                to="/about/ben"
-                className="block px-8 py-2 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-muted/50 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Ben
-              </Link>
-              <Link
-                to="/about/daniel"
-                className="block px-8 py-2 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-muted/50 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Daniel
+                Case Studies
               </Link>
               <Link
                 to="/contact"
-                className="block px-4 py-3 text-base font-medium text-foreground hover:text-primary hover:bg-muted/50 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
+                data-analytics-event="header_enquiry_cta"
+                className="rounded-md px-4 py-3 text-base font-medium text-foreground hover:bg-muted hover:text-accent"
               >
                 Contact
               </Link>
-              <div className="px-4 pt-4 space-y-3 border-t border-border mt-4">
-                <a
-                  href="tel:0485952651"
-                  className="block text-center text-primary font-semibold text-lg py-2"
-                >
-                  📞 0485 952 651
-                </a>
-                <Button 
-                  asChild 
-                  size="lg"
-                  className="w-full bg-primary hover:bg-primary-dark text-primary-foreground font-semibold"
-                >
-                  <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-                    Get Quote Now
-                  </Link>
-                </Button>
-              </div>
+              <a
+                href="tel:+61485952651"
+                className="mx-4 mt-3 flex min-h-12 items-center justify-center gap-2 rounded-md border border-accent/50 font-semibold text-accent"
+              >
+                <Phone className="h-4 w-4" aria-hidden="true" />
+                Call 0485 952 651
+              </a>
             </div>
-        </CollapsibleContent>
-        </Collapsible>
+          </div>
+          )}
       </div>
     </nav>
   );

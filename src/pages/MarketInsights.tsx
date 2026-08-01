@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,28 +6,14 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { TrendingUp, Calendar, Clock, Filter, Star, Mail } from "lucide-react";
-import { getContentFiles, type Article } from "@/lib/content";
+import { getContentSummaries } from "@/lib/content";
 import SEO from "@/components/SEO";
 
 const MarketInsights = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [email, setEmail] = useState("");
-  const [latestInsight, setLatestInsight] = useState<Article | null>(null);
-  const [publishedInsights, setPublishedInsights] = useState<Article[]>([]);
-
-  useEffect(() => {
-    const loadInsights = async () => {
-      const insights = await getContentFiles('insights');
-      setPublishedInsights(insights);
-
-      if (insights.length > 0) {
-        const latest = [...insights].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0];
-        setLatestInsight(latest);
-      }
-    };
-
-    loadInsights();
-  }, []);
+  const publishedInsights = getContentSummaries("insights");
+  const latestInsight = publishedInsights[0] ?? null;
 
   // Helper function to check if insight is "new" (within 7 days)
   const isNewInsight = (date: string) => {

@@ -1,4 +1,4 @@
-import { useState, useEffect, FormEvent } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,13 +6,13 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
 import { TiltCard } from "@/components/ui/tilt-card";
 import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
 import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
+import { trackLead } from "@/lib/analytics";
 import { 
   Building2, 
   TrendingUp, 
@@ -31,10 +31,12 @@ import {
   DollarSign
 } from "lucide-react";
 
-import { getContentFiles, isRoutableContentArticle, type Article } from "@/lib/content";
+import { getContentSummaries, isRoutableContentArticle, type ArticleSummary } from "@/lib/content";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const videoSourceRef = useRef<HTMLSourceElement>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -45,63 +47,93 @@ const Homepage = () => {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [latestArticles, setLatestArticles] = useState<(Article & { contentType: 'guides' | 'case-studies' })[]>([]);
-  const [featuredCaseStudies, setFeaturedCaseStudies] = useState<Article[]>([]);
   const { toast } = useToast();
 
-  const [heroStage, setHeroStage] = useState(0);
+  const { latestArticles, featuredCaseStudies } = useMemo(() => {
+    const guides = getContentSummaries('guides');
+    const caseStudies = getContentSummaries('case-studies');
+    const latest = [
+      ...guides
+        .filter(article => isRoutableContentArticle('guides', article.slug))
+        .map(article => ({ ...article, contentType: 'guides' as const })),
+      ...caseStudies
+        .filter(article => isRoutableContentArticle('case-studies', article.slug))
+        .map(article => ({ ...article, contentType: 'case-studies' as const })),
+    ]
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+      .slice(0, 6);
 
-  useEffect(() => {
-    const timers = [
-      setTimeout(() => setHeroStage(1), 200),
-      setTimeout(() => setHeroStage(2), 700),
-      setTimeout(() => setHeroStage(3), 1200),
-    ];
-    return () => timers.forEach(clearTimeout);
+    return {
+      latestArticles: latest,
+      featuredCaseStudies: caseStudies.slice(0, 2),
+    };
   }, []);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   useEffect(() => {
-    const loadLatestArticles = async () => {
-      try {
-        const [guides, caseStudies] = await Promise.all([
-          getContentFiles('guides'),
-          getContentFiles('case-studies')
-        ]);
-        
-        // Set featured case studies for success stories (latest 2)
-        const sortedCaseStudies = caseStudies.sort((a, b) => 
-          new Date(b.date).getTime() - new Date(a.date).getTime()
-        );
-        setFeaturedCaseStudies(sortedCaseStudies.slice(0, 2));
-        
-        // Only surface articles that exist in the generated SEO route manifest
-        const guidesWithType = guides
-          .filter(article => isRoutableContentArticle('guides', article.slug))
-          .map(article => ({ ...article, contentType: 'guides' as const }));
-        const caseStudiesWithType = caseStudies
-          .filter(article => isRoutableContentArticle('case-studies', article.slug))
-          .map(article => ({ ...article, contentType: 'case-studies' as const }));
-        
-        // Combine only routable article types and sort by date (newest first)
-        const allArticles = [...guidesWithType, ...caseStudiesWithType];
-        const sortedArticles = allArticles.sort((a, b) => 
-          new Date(b.date).getTime() - new Date(a.date).getTime()
-        );
-        
-        // Take the latest 6 articles
-        setLatestArticles(sortedArticles.slice(0, 6));
-      } catch (error) {
-        console.error('Error loading latest articles:', error);
-      }
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const video = videoRef.current;
+    const source = videoSourceRef.current;
+    if (!video || !source) return;
+
+    let loaded = document.readyState === 'complete';
+    let interacted = false;
+    const interactionEvents: Array<keyof WindowEventMap> = ['pointerdown', 'keydown', 'scroll', 'touchstart'];
+
+    const removeInteractionListeners = () => {
+      interactionEvents.forEach((eventName) => window.removeEventListener(eventName, onInteraction));
     };
 
-    loadLatestArticles();
+    const enableVideo = () => {
+      if (!loaded || !interacted || source.src) return;
+      source.src = source.dataset.src || '';
+      video.load();
+      void video.play().catch(() => undefined);
+      removeInteractionListeners();
+    };
+
+    function onInteraction() {
+      interacted = true;
+      enableVideo();
+    }
+
+    const onLoad = () => {
+      loaded = true;
+      enableVideo();
+    };
+
+    interactionEvents.forEach((eventName) =>
+      window.addEventListener(eventName, onInteraction, { passive: true, once: true }),
+    );
+    if (!loaded) window.addEventListener('load', onLoad, { once: true });
+
+    return () => {
+      window.removeEventListener('load', onLoad);
+      removeInteractionListeners();
+    };
+  }, []);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    const source = videoSourceRef.current;
+    if (!video || !source) return;
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && source.src) {
+        void video.play().catch(() => undefined);
+      } else {
+        video.pause();
+      }
+    }, { threshold: 0.1 });
+
+    observer.observe(video);
+    return () => observer.disconnect();
   }, []);
 
   // Helper function to check if article is new (within 7 days)
@@ -113,12 +145,14 @@ const Homepage = () => {
   };
 
   // Helper function to generate correct article URL based on content type
-  const getArticleUrl = (article: Article & { contentType: 'guides' | 'case-studies' }) => {
+  const getArticleUrl = (article: ArticleSummary & { contentType: 'guides' | 'case-studies' }) => {
     return `/resources/${article.contentType}/${article.slug}`;
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    const form = e.currentTarget as HTMLFormElement;
+    if (new FormData(form).get('bot-field')) return;
     setIsSubmitting(true);
 
     // Basic validation
@@ -145,7 +179,6 @@ const Homepage = () => {
         });
       } else {
         // In production, submit to Netlify
-        const form = e.target as HTMLFormElement;
         const netlifyFormData = new FormData(form);
         
         // Convert FormData to URLSearchParams compatible format
@@ -169,6 +202,8 @@ const Homepage = () => {
           description: "We'll get back to you within 24-48 hours.",
         });
       }
+
+      trackLead("homepage-contact", formData.loanType);
 
       // Reset form
       setFormData({
@@ -212,7 +247,7 @@ const Homepage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="homepage-page min-h-screen bg-background text-foreground">
       <SEO 
         title="Commercial Lending Solutions Australia | Emet Capital"
         description="Commercial lending solutions for Australian businesses, investors, and developers, including private lending, bridging finance, and property-backed funding."
@@ -225,17 +260,33 @@ const Homepage = () => {
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
         {/* Video Background */}
         <div className="absolute inset-0">
+          <picture aria-hidden="true">
+            <source media="(max-width: 640px)" srcSet="/hero-property-finance-poster-mobile.webp" />
+            <img
+              src="/hero-property-finance-poster.webp"
+              alt=""
+              width="1600"
+              height="900"
+              fetchPriority="high"
+              decoding="sync"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          </picture>
           <video
-            autoPlay
+            ref={videoRef}
+            data-hero-video="true"
             muted
             loop
             playsInline
+            preload="none"
+            poster="/hero-property-finance-poster.webp"
+            aria-hidden="true"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
               transform: `translateY(${scrollY * 0.5}px)`,
             }}
           >
-            <source src="/Camera_still_clouds_202604130048.mp4" type="video/mp4" />
+            <source ref={videoSourceRef} data-src="/Camera_still_clouds_202604130048.mp4" type="video/mp4" />
           </video>
         </div>
         
@@ -244,9 +295,7 @@ const Homepage = () => {
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <div
-            className={`transition-all duration-700 ease-out ${heroStage >= 1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
-          >
+          <div className="fade-in-up" style={{ animationDelay: '200ms' }}>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
               Commercial Lending Solutions,
               <span className="gradient-text block mt-2 leading-normal">
@@ -255,17 +304,13 @@ const Homepage = () => {
             </h1>
           </div>
           
-          <div
-            className={`transition-all duration-700 ease-out delay-100 ${heroStage >= 2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
-          >
+          <div className="fade-in-up" style={{ animationDelay: '700ms' }}>
             <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
               Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition
             </p>
           </div>
           
-          <div
-            className={`transition-all duration-700 ease-out ${heroStage >= 3 ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
-          >
+          <div className="scale-in" style={{ animationDelay: '1200ms' }}>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button asChild size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
                 <Link to="/contact">
@@ -729,12 +774,18 @@ const Homepage = () => {
           
           <Card className="premium-card">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6" data-netlify="true" name="homepage-contact">
+              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
                 <input type="hidden" name="form-name" value="homepage-contact" />
+                <p hidden>
+                  <label htmlFor="homepage-bot-field">Do not fill this out</label>
+                  <input id="homepage-bot-field" name="bot-field" tabIndex={-1} autoComplete="off" />
+                </p>
                 <div>
-                  <label className="block text-sm font-medium mb-2">Name *</label>
+                  <label htmlFor="homepage-name" className="block text-sm font-medium mb-2">Name *</label>
                   <Input 
+                    id="homepage-name"
                     name="name"
+                    autoComplete="name"
                     value={formData.name}
                     onChange={(e) => handleInputChange("name", e.target.value)}
                     required
@@ -743,10 +794,12 @@ const Homepage = () => {
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium mb-2">Email *</label>
+                  <label htmlFor="homepage-email" className="block text-sm font-medium mb-2">Email *</label>
                   <Input 
+                    id="homepage-email"
                     name="email"
                     type="email" 
+                    autoComplete="email"
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
                     required
@@ -755,10 +808,12 @@ const Homepage = () => {
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium mb-2">Phone</label>
+                  <label htmlFor="homepage-phone" className="block text-sm font-medium mb-2">Phone</label>
                   <Input 
+                    id="homepage-phone"
                     name="phone"
                     type="tel" 
+                    autoComplete="tel"
                     value={formData.phone}
                     onChange={(e) => handleInputChange("phone", e.target.value)}
                     className="bg-background/50 border-glass-border focus:border-accent" 
@@ -766,9 +821,11 @@ const Homepage = () => {
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium mb-2">Business Name</label>
+                  <label htmlFor="homepage-business" className="block text-sm font-medium mb-2">Business Name</label>
                   <Input 
+                    id="homepage-business"
                     name="business"
+                    autoComplete="organization"
                     value={formData.business}
                     onChange={(e) => handleInputChange("business", e.target.value)}
                     className="bg-background/50 border-glass-border focus:border-accent" 
@@ -776,25 +833,27 @@ const Homepage = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium mb-2">Loan Type</label>
-                  <Select onValueChange={(value) => handleInputChange("loanType", value)} name="loanType">
-                    <SelectTrigger className="bg-background/50 border-glass-border focus:border-accent">
-                      <SelectValue placeholder="Select loan type" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {loanTypes.map((type) => (
-                        <SelectItem key={type} value={type}>
-                          {type}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
+                  <label htmlFor="homepage-loan-type" className="block text-sm font-medium mb-2">Loan Type</label>
+                  <select
+                    id="homepage-loan-type"
+                    name="loanType"
+                    value={formData.loanType}
+                    onChange={(event) => handleInputChange("loanType", event.target.value)}
+                    className="flex h-10 w-full rounded-md border border-glass-border bg-background/50 px-3 py-2 text-sm text-foreground ring-offset-background focus:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  >
+                    <option value="">Select loan type</option>
+                    {loanTypes.map((type) => (
+                      <option key={type} value={type}>{type}</option>
+                    ))}
+                  </select>
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium mb-2">Funding Amount</label>
+                  <label htmlFor="homepage-loan-amount" className="block text-sm font-medium mb-2">Funding Amount</label>
                   <Input 
+                    id="homepage-loan-amount"
                     name="loanAmount"
+                    inputMode="decimal"
                     placeholder="e.g. $500,000" 
                     value={formData.loanAmount}
                     onChange={(e) => handleInputChange("loanAmount", e.target.value)}
@@ -803,8 +862,9 @@ const Homepage = () => {
                 </div>
                 
                 <div className="md:col-span-2">
-                  <label className="block text-sm font-medium mb-2">Tell us about your requirements</label>
+                  <label htmlFor="homepage-message" className="block text-sm font-medium mb-2">Tell us about your requirements</label>
                   <Textarea 
+                    id="homepage-message"
                     name="message"
                     value={formData.message}
                     onChange={(e) => handleInputChange("message", e.target.value)}

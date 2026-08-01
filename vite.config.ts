@@ -1,11 +1,33 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { componentTagger } from "lovable-tagger";
-import { nodePolyfills } from 'vite-plugin-node-polyfills';
+// @ts-expect-error JavaScript build helper has no generated declaration.
+import { buildContentIndex, parseArticleModule } from "./scripts/lib/content-index.mjs";
+
+const VIRTUAL_CONTENT_INDEX = "virtual:content-index";
+const RESOLVED_CONTENT_INDEX = `\0${VIRTUAL_CONTENT_INDEX}`;
+
+function emetContentPlugin() {
+  return {
+    name: "emet-content",
+    resolveId(id: string) {
+      if (id === VIRTUAL_CONTENT_INDEX) return RESOLVED_CONTENT_INDEX;
+      return null;
+    },
+    load(id: string) {
+      if (id === RESOLVED_CONTENT_INDEX) {
+        return `export default ${JSON.stringify(buildContentIndex(process.cwd()))};`;
+      }
+      if (id.includes(".md?emet-article")) {
+        return `export default ${JSON.stringify(parseArticleModule(id))};`;
+      }
+      return null;
+    },
+  };
+}
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(() => ({
   server: {
     host: "::",
     port: 8080,
@@ -14,31 +36,29 @@ export default defineConfig(({ mode }) => ({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (id.includes('node_modules')) {
-            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) return 'framework';
-            if (id.includes('@tanstack/react-query') || id.includes('react-helmet-async')) return 'app-vendors';
-            if (id.includes('gray-matter') || id.includes('remark') || id.includes('rehype') || id.includes('marked')) return 'markdown';
+          const normalized = id.replaceAll("\\", "/");
+          if (normalized.includes("/node_modules/")) {
+            if (
+              normalized.includes("/node_modules/react/") ||
+              normalized.includes("/node_modules/react-dom/") ||
+              normalized.includes("/node_modules/scheduler/")
+            ) {
+              return "framework";
+            }
+            if (normalized.includes("/node_modules/marked/")) return "markdown";
           }
         },
       },
     },
   },
   plugins: [
+    emetContentPlugin(),
     react(),
-    nodePolyfills({
-      // Enable Buffer global for browser compatibility
-      globals: {
-        Buffer: true,
-        global: true,
-        process: true,
-      },
-    }),
-    mode === 'development' &&
-    componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "react-router-dom": path.resolve(__dirname, "./src/lib/router.tsx"),
     },
   },
   base: '/' 

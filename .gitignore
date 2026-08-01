@@ -12,6 +12,25 @@ dist
 dist-ssr
 *.local
 
+# Environment files are local-only. Keep the documented template.
+.env
+.env.*
+!.env.example
+
+# Generated site and content-automation outputs
+public/sitemap.xml
+public/_redirects
+public/llms.txt
+scripts/seo-route-data*.json
+data/*.backup
+data/analytics/raw/*
+data/analytics/derived/*
+!data/analytics/raw/.gitkeep
+!data/analytics/derived/.gitkeep
+reports/
+__pycache__/
+*.py[cod]
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

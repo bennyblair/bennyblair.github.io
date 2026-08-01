@@ -93,7 +93,7 @@ export default function AssetBackedLendingBrisbane() {
         },
         {
           title: 'Asset Finance Brisbane',
-          href: '/services/asset-finance/brisbane',
+          href: '/services/asset-finance/cities/brisbane',
           description: 'Useful if the Brisbane requirement is mainly equipment or vehicle focused.'
         }
       ]}
