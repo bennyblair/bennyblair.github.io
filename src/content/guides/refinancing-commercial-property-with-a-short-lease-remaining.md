@@ -6,7 +6,7 @@ category: "Commercial Property Loans"
 tags: ["Commercial Property Refinance", "Short Lease", "Commercial Lending", "Private Lending", "Lease Expiry"]
 readingTime: 11
 author: "Daniel"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-08-05"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -14,9 +14,26 @@ author_title: "Director, Emet Capital"
 author_name: "Daniel"
 featuredImage: "/images/refinancing-commercial-property-with-a-short-lease-remaining.jpg"
 keywords: ["refinance commercial property short lease", "short lease commercial refinance", "commercial property refinance lease expiry", "refinancing short wale property"]
+primaryQuery: "refinance commercial property short lease Australia"
+searchIntent: "commercial investigation"
+intentCluster: "commercial-property-short-lease-refinance"
+designatedServicePage: "/services/refinancing-solutions"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "APRA — APG 113 Credit Risk"
+    url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
+  - label: "NSW Small Business Commissioner — Retail and commercial leases"
+    url: "https://www.smallbusiness.nsw.gov.au/help/common-questions/retail-and-commercial-leases"
 ---
 
 # Refinancing Commercial Property with a Short Lease Remaining
+
+> **Direct answer:** A commercial property with a short lease may still be refinanced, but the lender is likely to test expiry risk, tenant quality, reletting assumptions, incentives, valuation, debt service without the tenant and the owner’s plan before the current facility matures. A lease proposal is useful evidence only when its commercial and legal conditions are clear.
 
 Refinancing commercial property with a short lease remaining can be difficult because lenders are not only funding the building. They are funding the income story attached to it. When lease expiry is close, that income story can look fragile, even if the property itself is strong.
 

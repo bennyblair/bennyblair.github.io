@@ -11,13 +11,32 @@ keywords:
   - "commercial property finance case example"
 readTime: "9 min read"
 author: "Ben"
-reviewed_date: "2026-06-04"
+reviewed_date: "2026-08-05"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+primaryQuery: "capital stack commercial property finance example"
+searchIntent: "informational"
+intentCluster: "commercial-property-capital-stack"
+designatedServicePage: "/services/commercial-property-development"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "APRA — APG 113 Credit Risk"
+    url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
+  - label: "PPSR — Which security interest has priority?"
+    url: "https://www.ppsr.gov.au/managing-and-maintaining/enforce-your-registration/which-security-interest-has-priority"
 ---
+
+# Capital Stack in Commercial Property Finance: Illustrative Example
+
+> **Direct answer:** A commercial-property capital stack is the ordered set of equity, senior debt and any junior, vendor or mezzanine funding used in a transaction. The stack should reconcile every dollar of sources and uses, identify security and priority, show cash cost and maturity, and explain how each layer is repaid under both the expected and downside exits.
 
 A capital stack in commercial property finance is the order of funding sources used to support a purchase, refinance, development, or equity release. In plain terms, it shows who is providing the money, what security or risk position each party holds, and how each layer is expected to be repaid.
 
@@ -65,9 +84,9 @@ A borrower should not use a capital stack to hide a weak deal. The stack should 
 
 Where the issue is simply a temporary settlement bridge, compare [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide). Where the issue is long-term cash flow, a [working capital loan](/resources/guides/working-capital-loans-for-smes) may be more relevant than adding property debt.
 
-## Case Example: Purchase With A Funding Gap
+## Illustrative Example: Purchase With A Funding Gap
 
-Consider an anonymised commercial property purchase where the borrower had a senior facility partly approved but still faced a funding gap before settlement. The property had a commercial tenant, the borrower had contributed equity, and the bank process was moving, but not fast enough to cover all timing and document requirements.
+Consider a hypothetical commercial property purchase where the borrower has a senior facility partly approved but still faces a funding gap before settlement. The property has a commercial tenant, the borrower has contributed equity, and the bank process is moving, but not fast enough to cover all timing and document requirements. This is an educational illustration, not a client transaction or funding result.
 
 The first version of the file focused on the purchase price and the senior loan amount. That was not enough. The lender needed to see the full capital stack: borrower contribution, existing debt, senior loan, proposed short-term layer, costs, and exit.
 
@@ -107,7 +126,7 @@ In practice, that means answering these questions:
 
 If the answers are vague, the deal slows down. If the answers are documented, the lender can decide faster whether the structure fits its appetite.
 
-## LLM-Ready Answer: What Is A Capital Stack In Commercial Property Finance?
+## What is a capital stack in commercial property finance?
 
 A capital stack in commercial property finance is the ordered set of funding layers used in a transaction, including borrower equity, senior debt, second mortgage debt, mezzanine finance, vendor terms, and short-term private funding. The stack shows who contributes money, who ranks first, what security each party has, and how each layer will be repaid. Lenders use the capital stack to understand priority, equity buffer, transaction risk, and exit strategy. This is general information only and not financial advice.
 
