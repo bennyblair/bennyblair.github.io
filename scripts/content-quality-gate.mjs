@@ -8,6 +8,7 @@ import {
   normalizePhrase,
   resolveDesignatedService,
 } from "./lib/seo-policy.mjs";
+import { isInternalLinkOnlyChange } from "./lib/content-change-policy.mjs";
 
 const repoRoot = process.cwd();
 const contentRoot = path.join(repoRoot, "src", "content");
@@ -58,18 +59,34 @@ function changedContentFiles() {
         cwd: repoRoot,
         encoding: "utf8",
       });
-      return new Set([
-        ...output
-          .split(/\r?\n/)
-          .filter((file) => file.endsWith(".md"))
-          .map((file) => path.resolve(repoRoot, file)),
-        ...untrackedContentFiles(),
-      ]);
+      const materialChanges = new Set(untrackedContentFiles());
+      let linkOnlyChanges = 0;
+
+      for (const relative of output.split(/\r?\n/).filter((file) => file.endsWith(".md"))) {
+        const absolute = path.resolve(repoRoot, relative);
+        let previous;
+        try {
+          previous = execFileSync("git", ["show", `${mergeBase}:${relative}`], {
+            cwd: repoRoot,
+            encoding: "utf8",
+            stdio: ["ignore", "pipe", "ignore"],
+          });
+        } catch {
+          materialChanges.add(absolute);
+          continue;
+        }
+
+        const current = fs.readFileSync(absolute, "utf8");
+        if (isInternalLinkOnlyChange(previous, current)) linkOnlyChanges += 1;
+        else materialChanges.add(absolute);
+      }
+
+      return { files: materialChanges, linkOnlyChanges, mergeBase };
     } catch {
       // Try the next base.
     }
   }
-  return new Set();
+  return { files: new Set(), linkOnlyChanges: 0, mergeBase: null };
 }
 
 function words(value) {
@@ -105,7 +122,8 @@ function asArray(value) {
 }
 
 const files = allMarkdownFiles();
-const changed = changedContentFiles();
+const changeSet = changedContentFiles();
+const changed = changeSet.files;
 const parsed = files.map((file) => {
   const raw = fs.readFileSync(file, "utf8");
   const result = matter(raw);
@@ -179,9 +197,10 @@ for (const article of parsed) {
 
 const newlyAdded = new Set();
 try {
+  const comparisonBase = changeSet.mergeBase || "origin/main";
   const output = execFileSync(
     "git",
-    ["diff", "--name-only", "--diff-filter=A", "origin/main...HEAD", "--", "src/content"],
+    ["diff", "--name-only", "--diff-filter=A", comparisonBase, "--", "src/content"],
     { cwd: repoRoot, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
   );
   for (const file of output.split(/\r?\n/).filter((file) => file.endsWith(".md"))) {
@@ -259,4 +278,6 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Content quality gate passed for ${parsed.length} articles (${changed.size} changed).`);
+console.log(
+  `Content quality gate passed for ${parsed.length} articles (${changed.size} material changes; ${changeSet.linkOnlyChanges} internal-link-only migrations exempted).`,
+);

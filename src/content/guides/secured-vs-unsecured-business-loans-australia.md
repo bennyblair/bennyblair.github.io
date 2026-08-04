@@ -17,6 +17,21 @@ author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
+primaryQuery: "secured vs unsecured business loans Australia"
+searchIntent: "commercial investigation"
+intentCluster: "business-loan-security"
+designatedServicePage: "/services/business-finance"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "PPSR — Why register on the PPSR?"
+    url: "https://www.ppsr.gov.au/registering/decide-if-you-should-register-ppsr/why-register-ppsr"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 Secured business loans are commercial loans supported by an asset, such as property, equipment, receivables, stock, or another form of lender security. Unsecured business loans do not rely on a specific asset as security, although lenders may still require personal guarantees, bank statement evidence, trading history, and stronger repayment capacity.

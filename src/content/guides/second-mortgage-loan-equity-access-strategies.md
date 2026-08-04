@@ -14,6 +14,21 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+primaryQuery: "second mortgage equity access Australia"
+searchIntent: "commercial investigation"
+intentCluster: "second-mortgage-equity"
+designatedServicePage: "/services/first-second-mortgages"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "Titles Queensland — Land Title Practice Manual: Mortgage Priority"
+    url: "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 keywords: ["second mortgage loan", "property equity access", "second mortgage Australia", "equity release", "business funding", "combined LVR"]
 ---
 

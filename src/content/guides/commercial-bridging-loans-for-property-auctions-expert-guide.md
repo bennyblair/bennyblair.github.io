@@ -12,6 +12,21 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+primaryQuery: "commercial bridging loans for property auctions Australia"
+searchIntent: "commercial investigation"
+intentCluster: "bridging-finance-auctions"
+designatedServicePage: "/services/bridging-finance"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "NSW Government — Buying property at an auction"
+    url: "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/buying-property-at-an-auction"
+  - label: "Moneysmart — Bridging finance definition"
+    url: "https://moneysmart.gov.au/glossary/bridging-finance"
 featuredImage: "/images/uploads/commercial-bridging-auction-guide.jpg"
 keywords: ["commercial bridging loans for property auctions", "auction finance Australia", "commercial bridging finance", "auction settlement finance"]
 ---

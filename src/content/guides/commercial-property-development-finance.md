@@ -13,6 +13,21 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+primaryQuery: "commercial property development finance Australia"
+searchIntent: "commercial investigation"
+intentCluster: "commercial-property-development"
+designatedServicePage: "/services/commercial-property-development"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "APRA — APG 113 capital adequacy and specialised lending guidance"
+    url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 slug: "commercial-property-development-finance"
 ---
 

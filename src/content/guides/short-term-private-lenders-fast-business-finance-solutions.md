@@ -19,6 +19,18 @@ searchIntent: "commercial investigation"
 intentCluster: "private-lending"
 designatedServicePage: "/services/private-lending"
 contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "ASIC — Professional registers search"
+    url: "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+  - label: "AFCA — Risks of unregulated small-business lending"
+    url: "https://www.afca.org.au/news/media-releases/afca-cautions-against-unregulated-lending-small-business-complaints-reach-record-high"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 # Short-Term Private Lenders: Fast Business Finance Without the Hype

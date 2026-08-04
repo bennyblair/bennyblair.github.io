@@ -9,6 +9,21 @@ author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
+primaryQuery: "second mortgage vs line of credit Australia"
+searchIntent: "commercial investigation"
+intentCluster: "second-mortgage-comparisons"
+designatedServicePage: "/services/first-second-mortgages"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+  - label: "AFCA — How AFCA can help small businesses and sole traders"
+    url: "https://www.afca.org.au/smallbusiness"
 pillar: 1st & 2nd Mortgages for Business
 ---
 
