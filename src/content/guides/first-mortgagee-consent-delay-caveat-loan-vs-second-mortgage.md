@@ -233,7 +233,7 @@ The biggest risk is using short-term finance without a reliable repayment source
 - **[Priority Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)** — understand the paperwork that often causes delays.
 - **[Intercreditor Agreements Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)** — deeper context on multi-lender security positions.
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — plan repayment before choosing a caveat fallback.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — longer-term refinance pathways after the urgent issue is solved.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — longer-term refinance pathways after the urgent issue is solved.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lending basics for commercial borrowers.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

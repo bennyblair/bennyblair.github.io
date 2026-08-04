@@ -30,7 +30,7 @@ For investors, developers, and business owners, the practical question is not �
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if you are comparing bank debt with specialist or private capital.
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Breaks down what lenders usually assess.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Helpful if valuation strength may shape lender appetite.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant if you are switching lender types.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant if you are switching lender types.
 - **[How to Find the Best Commercial Mortgage Broker](/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide)** — Useful when lender fit matters more than rate-shopping alone.
 
 ## At a Glance
@@ -71,7 +71,7 @@ If income is central to the approval, banks often want consistent financial stat
 
 ### Banks can be slower when the file is layered
 
-A commercial file can be attractive in theory but still slow down once valuation review, legal due diligence, lease analysis, entity mapping, or credit escalations begin. That is why some time-sensitive transactions move toward a [non-bank or refinance transition structure](/resources/guides/commercial-property-refinancing-solutions) instead.
+A commercial file can be attractive in theory but still slow down once valuation review, legal due diligence, lease analysis, entity mapping, or credit escalations begin. That is why some time-sensitive transactions move toward a [non-bank or refinance transition structure](/services/refinancing-solutions) instead.
 
 ## How non-bank commercial lenders usually assess borrowers
 
@@ -232,7 +232,7 @@ Banks often win on cleaner long-term transactions with time to spare. Non-bank l
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

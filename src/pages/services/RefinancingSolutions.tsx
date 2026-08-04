@@ -122,8 +122,31 @@ const RefinancingSolutions = () => {
                 ))}
               </div>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                For a deeper guide, see <Link to="/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia" className="text-accent underline underline-offset-4">commercial property refinance after a bank decline</Link> or compare broader <Link to="/resources/guides/commercial-property-refinancing-solutions" className="text-accent underline underline-offset-4">commercial property refinancing solutions</Link>.
+                For a deeper worked guide, see <Link to="/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia" className="text-accent underline underline-offset-4">commercial property refinance after a bank decline</Link>.
               </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Refinance, Second Mortgage, or Bridge?</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                These structures can all release or protect capital, but they solve different problems. The decision should be based on the current first mortgage, the deadline, total cost, desired hold period, and the evidence supporting repayment.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse text-left text-sm">
+                  <thead>
+                    <tr className="border-b border-border">
+                      <th className="p-3 font-semibold">Structure</th>
+                      <th className="p-3 font-semibold">Usually worth comparing when</th>
+                      <th className="p-3 font-semibold">Main limitation</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-muted-foreground">
+                    <tr className="border-b border-border"><td className="p-3 font-medium text-foreground">Direct refinance</td><td className="p-3">The current facility is unsuitable and there is enough time for full credit, valuation and legal review.</td><td className="p-3">Exit and establishment costs can outweigh the benefit, especially for a short hold.</td></tr>
+                    <tr className="border-b border-border"><td className="p-3 font-medium text-foreground">Second mortgage</td><td className="p-3">The first mortgage is worth preserving and there is usable equity for a defined business purpose.</td><td className="p-3">Priority consent, combined leverage and two concurrent repayments must be assessed.</td></tr>
+                    <tr><td className="p-3 font-medium text-foreground">Bridge to refinance</td><td className="p-3">A real maturity or settlement deadline arrives before permanent finance can complete.</td><td className="p-3">Short-term cost and extension risk rise if the takeout refinance is not genuinely ready.</td></tr>
+                  </tbody>
+                </table>
+              </div>
             </section>
 
             <section>
@@ -257,14 +280,14 @@ const RefinancingSolutions = () => {
               {/* Pillar Guide - Featured */}
               <div className="md:col-span-2 lg:col-span-3">
                 <a 
-                  href="/resources/guides/commercial-property-refinancing-solutions"
+                  href="/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia"
                   className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
                 >
                   <div className="flex items-start gap-4">
                     <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="text-xl font-semibold text-foreground mb-2">Commercial Property Refinancing Guide</h3>
-                      <p className="text-muted-foreground mb-3">Guide to refinance structures, lender assessment, equity release, timing, and risk considerations.</p>
+                      <h3 className="text-xl font-semibold text-foreground mb-2">Commercial Property Refinance After a Bank Decline</h3>
+                      <p className="text-muted-foreground mb-3">A worked guide to diagnosing the decline, rebuilding the file, and comparing direct refinance with transitional options.</p>
                       <span className="text-accent font-medium inline-flex items-center">
                         Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
                       </span>
@@ -313,7 +336,6 @@ const RefinancingSolutions = () => {
 
           {/* Related Reading */}
           <RelatedReading articles={[
-            { title: "Commercial Property Refinancing Solutions", slug: "commercial-property-refinancing-solutions", description: "Guide to refinancing commercial property loans" },
             { title: "Commercial Property Refinance After a Bank Decline", slug: "commercial-property-refinance-after-a-bank-decline-in-australia", description: "How to diagnose bank-decline refinance issues and next steps" },
             { title: "Vacant Commercial Property Refinance", slug: "vacant-commercial-property-refinance-in-australia-what-lenders-look-for", description: "What lenders look for when refinancing vacant commercial property" }
           ] as RelatedArticle[]} />

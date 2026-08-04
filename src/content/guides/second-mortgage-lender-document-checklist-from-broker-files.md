@@ -48,7 +48,7 @@ For Australian business borrowers, the checklist matters because a second mortga
 
 This guide is for business owners, property investors, and SME directors preparing a second mortgage application for business-purpose funding. It is especially useful if you already have a first mortgage and want to access equity without refinancing the entire facility.
 
-It is also for borrowers comparing a second mortgage with [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [business acquisition finance](/resources/guides/business-acquisition-finance-australia), or a short-term secured option such as a caveat loan. The documents overlap, but the lender questions are different.
+It is also for borrowers comparing a second mortgage with [commercial property refinancing](/services/refinancing-solutions), [business acquisition finance](/resources/guides/business-acquisition-finance-australia), or a short-term secured option such as a caveat loan. The documents overlap, but the lender questions are different.
 
 ## When To Use This Checklist
 
@@ -174,7 +174,7 @@ Before seeking lender terms, confirm you can answer these questions:
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — main second-mortgage pillar guide.
 - **[Second Mortgage Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — use cases for releasing property equity.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — compare refinance exits and alternatives.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare refinance exits and alternatives.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — for files involving multiple payout letters.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — for cash-flow-driven requests.
 

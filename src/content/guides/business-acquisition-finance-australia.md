@@ -32,7 +32,7 @@ For Emet Capital, business acquisition finance sits inside the business finance 
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — helps explain why lender type matters in complex or urgent files.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — relevant when property security forms part of the acquisition structure.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — useful when the acquisition is really an ownership transition or partner exit.
-- **[Second Mortgage Partnership Buyout Financing](/resources/guides/second-mortgage-partnership-buyout-financing-transitions)** — transition-process guide for valuation, documentation, and handover planning.
+- **[Second Mortgage Partnership Buyout Financing](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — transition-process guide for valuation, documentation, and handover planning.
 
 ## At a Glance
 

@@ -90,7 +90,7 @@ This path depends on negotiation leverage. Some sellers will not move. Some sett
 
 A refinance may solve the gap if there is enough time to complete valuation, lender approval and legal settlement. It is often the preferred path when the borrower needs a more stable facility, not just a few weeks of breathing room.
 
-The limitation is timing. Traditional refinance processes can be slow, especially where the title is complex, the borrower has multiple entities, or the file has already been declined. A [commercial property refinancing solution](/resources/guides/commercial-property-refinancing-solutions) may still be viable if the settlement date can move or if the lender is already well advanced.
+The limitation is timing. Traditional refinance processes can be slow, especially where the title is complex, the borrower has multiple entities, or the file has already been declined. A [commercial property refinancing solution](/services/refinancing-solutions) may still be viable if the settlement date can move or if the lender is already well advanced.
 
 ## Option 3: Bridging Finance
 

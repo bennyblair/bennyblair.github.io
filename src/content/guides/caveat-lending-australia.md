@@ -81,7 +81,7 @@ Common scenarios include:
 - urgent repairs, insurance timing, or operational disruption affecting business continuity;
 - a short-term opportunity where missing the deadline has a clear commercial cost.
 
-For settlement pressure, read [caveat loans for property settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase) alongside [pre-settlement finance for commercial property purchases](/resources/guides/pre-settlement-finance-commercial-property-purchases-australia). For refinance timing, compare [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) before relying on a caveat facility.
+For settlement pressure, read [caveat loans for property settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase) alongside [pre-settlement finance for commercial property purchases](/resources/guides/pre-settlement-finance-commercial-property-purchases-australia). For refinance timing, compare [commercial property refinancing solutions](/services/refinancing-solutions) before relying on a caveat facility.
 
 ## When Caveat Lending Is Usually Not The Right Fit
 
@@ -189,7 +189,7 @@ Once the facility is repaid and discharge requirements are met, the caveat is re
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — plan repayment before relying on short-term secured funding.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare two common property-backed structures.
 - **[Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — understand non-bank commercial lending options.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — compare longer-term refinance pathways after urgent funding.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare longer-term refinance pathways after urgent funding.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — review business cash-flow alternatives.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

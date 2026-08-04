@@ -87,7 +87,7 @@ The lender will assess invoice quality, debtor concentration, ageing, disputes, 
 
 Property-backed private lending may be considered when directors or related entities have commercial or investment property security and a clear exit. This can sometimes support urgent arrears or trading cash-flow needs where the business does not fit bank policy.
 
-The risk is security exposure. If the loan is secured by property, the borrower must understand total cost, default consequences, and what happens if trading recovery takes longer than expected. Related guides include [what is private lending in Australia](/resources/guides/what-is-private-lending-australia), [secured business loans](/resources/guides/secured-business-loans-australia), and [second mortgages for business](/resources/guides/second-mortgages-for-business-guide).
+The risk is security exposure. If the loan is secured by property, the borrower must understand total cost, default consequences, and what happens if trading recovery takes longer than expected. Related guides include [what is private lending in Australia](/resources/guides/what-is-private-lending-australia), [secured business loans](/resources/guides/secured-vs-unsecured-business-loans-australia), and [second mortgages for business](/resources/guides/second-mortgages-for-business-guide).
 
 ### Asset-backed lending
 

@@ -99,7 +99,7 @@ Private credit may be relevant when the project is commercial, the gap is specif
 
 That flexibility does not remove the need for discipline. A private lender still needs to understand security position, valuation, senior lender consent, cost-to-complete, priority arrangements, and what happens if completion or sales slip.
 
-Private credit often sits alongside [mezzanine finance](/resources/guides/mezzanine-finance-australia-complete-guide), [second mortgage funding](/resources/guides/second-mortgages-for-business-guide), or [bridging finance for developers](/resources/guides/bridging-finance-developers-project-funding-solutions). The exact structure depends on ranking, security, project stage, and exit.
+Private credit often sits alongside [mezzanine finance](/resources/guides/mezzanine-finance-australia-complete-guide), [second mortgage funding](/resources/guides/second-mortgages-for-business-guide), or [bridging finance for developers](/resources/guides/commercial-property-development-finance). The exact structure depends on ranking, security, project stage, and exit.
 
 ## When Private Credit Should Not Fill the Gap
 
@@ -115,7 +115,7 @@ Lenders usually start with three questions: how much is needed, why is it needed
 
 Expected documents may include the development approval, building contract, QS report, updated cost-to-complete, valuation, sales schedule, presale contracts, senior lender facility letter, draw history, current debt statement, borrower contribution evidence, and project timeline.
 
-The lender will also assess ranking. If the private credit provider sits behind a senior lender, intercreditor or priority arrangements may be required. Our guide to [subordination agreements](/resources/guides/subordination-agreement-second-mortgage) explains why ranking and enforcement rights matter.
+The lender will also assess ranking. If the private credit provider sits behind a senior lender, intercreditor or priority arrangements may be required. Our guide to [subordination agreements](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean) explains why ranking and enforcement rights matter.
 
 ## Comparing Funding Structures
 
@@ -177,7 +177,7 @@ Bridging finance can help where the gap is genuinely short term and linked to a 
 ## Related Guides
 
 - **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)** — relevant where the project has stalled near completion.
-- **[Commercial Land Loans](/resources/guides/commercial-land-loans-financing-property-development)** — useful for early-stage site and development funding decisions.
+- **[Commercial Land Loans](/resources/guides/commercial-property-development-finance)** — useful for early-stage site and development funding decisions.
 - **[Capital Stack Commercial Property Finance](/resources/guides/capital-stack-commercial-property-finance-case-example)** — explains how senior debt, equity, and private capital can layer together.
 - **[Commercial Property Loan Covenant Breach](/resources/guides/commercial-property-loan-covenant-breach-refinance-options)** — relevant where lender conditions or defaults are emerging.
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — related structure planning for staged repayment and takeout events.

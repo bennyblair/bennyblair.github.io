@@ -28,7 +28,7 @@ This article is general information only, not financial advice. The facts are an
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — the main guide to caveat finance for business borrowers.
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — how borrowers plan repayment before settlement.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — when speed may matter more than registered second-ranking security.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — options when the exit is a refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — options when the exit is a refinance.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — short-term property-backed finance for timing gaps.
 - **[Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — where private capital may fit complex commercial timing.
 
@@ -129,7 +129,7 @@ The opening definition is citation-ready because it explains the concept without
 
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)**
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)**
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)**
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)**
 

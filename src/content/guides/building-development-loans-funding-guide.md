@@ -365,7 +365,7 @@ This can still be fundable if the project is simple, leverage is conservative, a
 
 A business owner wants to develop premises that support a wider operating plan. The project is not just about resale. It may lead to long-term occupation, leasing income, or a post-completion hold strategy.
 
-In this case, the "when to use X vs Y" question matters. If the project is being delivered and then held, the development loan may be the short-term build facility, with the real exit being [refinanced to permanent commercial finance](/resources/guides/commercial-property-refinancing-solutions) after completion and stabilisation.
+In this case, the "when to use X vs Y" question matters. If the project is being delivered and then held, the development loan may be the short-term build facility, with the real exit being [refinanced to permanent commercial finance](/services/refinancing-solutions) after completion and stabilisation.
 
 ## Scenario 4: Developer with a good site but weak preparation
 
@@ -429,6 +429,6 @@ If that foundation is in place, development finance can be a powerful tool for m
 - [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
 - [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide)
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

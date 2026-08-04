@@ -33,7 +33,7 @@ This guide explains how commercial property lenders differ in Australia, what th
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Foundation guide to structures, deposits, terms, and lender assessment
-- **[Commercial Real Estate Lenders in Australia](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Useful if you are comparing lender types across CRE transactions
+- **[Commercial Real Estate Lenders in Australia](/resources/guides/commercial-property-lenders-in-australia-complete-directory)** — Useful if you are comparing lender types across CRE transactions
 - **[How to Find the Best Commercial Mortgage Broker](/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide)** — Broker-selection guide for lender-market navigation
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Helpful for understanding how lenders assess borrower and property fit
 - **[Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — Checklist for getting lender-ready before submission
@@ -188,6 +188,21 @@ A capable commercial broker does more than collect quotes. They help frame the f
 
 That matters because misplacing the deal costs time. In commercial property finance, time can be as important as margin.
 
+## Private CRE Lender Due-Diligence Checklist
+
+A directory should narrow the market by fit, not imply that every named lender is available for every borrower. For private commercial real estate debt, compare:
+
+- security type, location and property use accepted by the lender;
+- minimum and maximum transaction size;
+- first-ranking, second-ranking or mezzanine appetite;
+- valuation method and maximum leverage policy;
+- evidence required for serviceability or exit;
+- legal, valuation, monitoring and extension costs;
+- expected decision and settlement steps; and
+- what happens if the planned exit is delayed.
+
+Ask for the full indicative term sheet and identify conditions that remain outside the lender's control. “Fast approval” may only mean an initial credit view; valuation, title, priority, legal documentation and source-of-funds checks can still determine whether settlement occurs.
+
 ## Frequently Asked Questions
 
 ### What is a commercial property lender?
@@ -217,7 +232,7 @@ Potentially, yes. In some scenarios, private debt is used as an interim tool whi
 ## Related Guides
 
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Real Estate Lenders in Australia](/resources/guides/commercial-real-estate-lenders-australia-directory)
+- [Commercial Real Estate Lenders in Australia](/resources/guides/commercial-property-lenders-in-australia-complete-directory)
 - [Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)

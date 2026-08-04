@@ -22,7 +22,7 @@ Low doc and no doc commercial loans are business-purpose property finance option
 
 That does not mean documentation disappears. It means the lender may rely on alternative forms of verification instead of the full set of tax returns, financial statements, and servicing analysis a traditional lender might demand. Depending on the transaction, the file may lean more heavily on asset quality, leverage, business purpose, account conduct, BAS evidence, rental income, or the wider strength of the exit strategy.
 
-For borrowers comparing [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), or a time-sensitive [refinancing solution](/resources/guides/commercial-property-refinancing-solutions), low doc and no doc options can sit in the middle ground between a clean bank deal and a fully bespoke private structure.
+For borrowers comparing [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), or a time-sensitive [refinancing solution](/services/refinancing-solutions), low doc and no doc options can sit in the middle ground between a clean bank deal and a fully bespoke private structure.
 
 ### Related In-Depth Guides
 

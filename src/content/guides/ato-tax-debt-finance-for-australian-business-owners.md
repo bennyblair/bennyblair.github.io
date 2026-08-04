@@ -29,7 +29,7 @@ For investors, developers, and business owners, this is not really a “tax arti
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful background if the tax debt solution sits outside standard bank policy.
 - **[Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — Relevant when urgency is the central issue.
 - **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — Helpful if the tax debt plan involves releasing equity from property.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful when the tax debt issue sits inside a wider refinance problem.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Useful when the tax debt issue sits inside a wider refinance problem.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — Relevant if tax arrears are only one part of a broader debt stack.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Helpful if the underlying issue is short-term cash-flow strain.
 
@@ -119,7 +119,7 @@ Borrowers with commercial or investment property may be able to use that equity 
 
 ### When tax debt is part of a broader refinance
 
-Sometimes ATO arrears are one line item inside a more general debt cleanup. In those cases, [commercial refinancing](/resources/guides/commercial-property-refinancing-solutions) or [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be more relevant than a narrow stand-alone facility.
+Sometimes ATO arrears are one line item inside a more general debt cleanup. In those cases, [commercial refinancing](/services/refinancing-solutions) or [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be more relevant than a narrow stand-alone facility.
 
 ## When it may not be the right move
 
@@ -226,7 +226,7 @@ It tends to work best when the borrower has a viable business, usable security, 
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)
 - [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

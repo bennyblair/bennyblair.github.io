@@ -57,7 +57,7 @@ Bridge lending for commercial property is temporary finance that fills a gap bet
 
 A bridge lender usually asks a simple sequence of questions. What is the security? What is the purpose? What is the gap? What will repay the loan? What can go wrong before that repayment happens?
 
-This differs from a standard commercial mortgage, where the lender is normally assessing long-term serviceability and a multi-year facility. Bridge lending is more focused on the transaction path. If you need permanent commercial property debt, start with [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) or [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) instead.
+This differs from a standard commercial mortgage, where the lender is normally assessing long-term serviceability and a multi-year facility. Bridge lending is more focused on the transaction path. If you need permanent commercial property debt, start with [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) or [commercial property refinancing](/services/refinancing-solutions) instead.
 
 ## When To Use Bridge Lending
 

@@ -501,7 +501,7 @@ const CommercialPropertyLoanCalculator = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-4">Cashflow and Investment Return Analysis</h3>
                 <p className="text-muted-foreground">
-                  Rental yields compared against loan repayment requirements determine whether properties positively or negatively gear. A $2.8 million property generating $240,000 annual rent with $2 million loan at 7.5% ($14,777 monthly) produces $5,223 monthly positive cashflow before expenses. Understanding <Link to="/resources/guides/commercial-property-refinancing-solutions" className="text-primary hover:underline">commercial property refinancing solutions</Link> helps you evaluate when refinancing makes financial sense.
+                  Rental yields compared against loan repayment requirements determine whether properties positively or negatively gear. A $2.8 million property generating $240,000 annual rent with $2 million loan at 7.5% ($14,777 monthly) produces $5,223 monthly positive cashflow before expenses. Understanding <Link to="/services/refinancing-solutions" className="text-primary hover:underline">commercial property refinancing solutions</Link> helps you evaluate when refinancing makes financial sense.
                 </p>
               </CardContent>
             </Card>

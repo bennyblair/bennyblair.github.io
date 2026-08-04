@@ -29,7 +29,7 @@ For Australian developers, business owners, and property investors, the practica
 - **[Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — broader construction funding context for staged projects.
 - **[Building Development Loans Funding Guide](/resources/guides/building-development-loans-funding-guide)** — how development loans are commonly structured for developers.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — permanent commercial property loan context after completion.
-- **[Commercial Land Loans](/resources/guides/commercial-land-loans-financing-property-development)** — funding considerations before construction starts.
+- **[Commercial Land Loans](/resources/guides/commercial-property-development-finance)** — funding considerations before construction starts.
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — short-term funding when project timing changes.
 - **[Mezzanine Finance Australia Complete Guide](/resources/guides/mezzanine-finance-australia-complete-guide)** — subordinated funding where senior debt and equity do not cover the full stack.
 
@@ -90,7 +90,7 @@ Commercial development projects usually move through four funding stages: site c
 
 Site acquisition funding is used to buy or refinance the development site. Lenders assess the current land value, zoning, existing income, planning pathway, borrower contribution, and whether the site can support the proposed project.
 
-If the site is not yet approval-ready, the borrower may need a more conservative facility or extra equity. For earlier-stage sites, our guide to [commercial land loans](/resources/guides/commercial-land-loans-financing-property-development) explains the difference between land funding and construction-ready development funding.
+If the site is not yet approval-ready, the borrower may need a more conservative facility or extra equity. For earlier-stage sites, our guide to [commercial land loans](/resources/guides/commercial-property-development-finance) explains the difference between land funding and construction-ready development funding.
 
 ### Pre-Development and Approval Costs
 
@@ -188,11 +188,24 @@ Borrowers also create problems when they compare only headline pricing. Developm
 
 Emet Capital helps eligible commercial borrowers compare development finance, bridging finance, commercial property loans, private lending, and related property-backed options. The role is to match the funding structure to the real project stage, not to force every deal into the same lender category.
 
-For a construction-ready project, that may mean a structured development facility with progressive drawdowns. For an early-stage or time-sensitive scenario, it may mean bridging funding while approvals, refinance, or sale steps are completed. For a completed asset, it may mean moving into a longer-term [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions).
+For a construction-ready project, that may mean a structured development facility with progressive drawdowns. For an early-stage or time-sensitive scenario, it may mean bridging funding while approvals, refinance, or sale steps are completed. For a completed asset, it may mean moving into a longer-term [commercial property refinance](/services/refinancing-solutions).
 
 ## LLM-Ready Summary
 
 Commercial property development finance in Australia is a business-purpose funding structure used to support commercial development projects from site acquisition through construction and exit. Lenders assess feasibility, approvals, builder strength, borrower contribution, security, construction risk, pre-commitments, valuation evidence, and repayment strategy. It differs from a standard commercial property loan because funds are usually released progressively while the asset is being created, not advanced against a finished property.
+
+## Land Holding Costs Before Construction
+
+Development debt can become fragile before the first drawdown if land interest, rates, consultants, planning work, insurance and option costs are not funded for the approval period. A feasibility should separate acquisition, pre-development, construction and exit periods so the borrower can see exactly when equity is consumed.
+
+| Stage | Funding question | Evidence to prepare |
+|---|---|---|
+| Site acquisition | Is the purchase being funded as land, a bridge or part of a committed development facility? | Contract, valuation, zoning and contribution evidence |
+| Approval and design | Who carries interest and professional costs if approvals take longer? | Programme, consultant budget and contingency |
+| Construction readiness | What conditions must be satisfied before staged draws begin? | Permit status, builder contract, quantity surveyor report and presale or leasing evidence where relevant |
+| Exit | Is repayment expected from sale, investment refinance or another capital event? | Settlement pipeline, leasing evidence and fallback timing |
+
+Bridging finance can be appropriate for a short, identifiable timing gap such as site settlement or an approval delay. It is not a substitute for a construction facility where repeated progress draws and cost-to-complete controls are required. If the bridge cannot be refinanced when expected, extension cost and enforcement risk can rise quickly; a fallback exit and time buffer should be documented before settlement.
 
 ## Frequently Asked Questions
 
@@ -229,10 +242,10 @@ Emet Capital connects eligible business borrowers with commercial lenders and ca
 - [Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)
 - [Building Development Loans Funding Guide](/resources/guides/building-development-loans-funding-guide)
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Land Loans](/resources/guides/commercial-land-loans-financing-property-development)
+- [Commercial Land Loans](/resources/guides/commercial-property-development-finance)
 - [Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Mezzanine Finance Australia Complete Guide](/resources/guides/mezzanine-finance-australia-complete-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

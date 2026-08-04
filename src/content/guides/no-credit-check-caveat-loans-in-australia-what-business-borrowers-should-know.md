@@ -21,7 +21,7 @@ author_name: "Daniel"
 
 No credit check caveat loans are usually marketed as fast, property-backed business finance where the lender focuses more on security, loan purpose and exit strategy than on a full bank-style credit assessment. In Australia, that does not mean there is no assessment. A commercial lender still needs to understand who is borrowing, what property interest supports the loan, whether there is enough equity, why the funds are needed, and how the loan will be repaid.
 
-For business owners, developers and property investors, the phrase "no credit check" can be misleading. A caveat loan may be more flexible than a bank facility, but responsible lenders do not ignore risk. They assess the transaction differently. Emet Capital helps borrowers compare whether caveat loans, [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or [commercial refinancing](/resources/guides/commercial-property-refinancing-solutions) is the cleaner pathway.
+For business owners, developers and property investors, the phrase "no credit check" can be misleading. A caveat loan may be more flexible than a bank facility, but responsible lenders do not ignore risk. They assess the transaction differently. Emet Capital helps borrowers compare whether caveat loans, [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or [commercial refinancing](/services/refinancing-solutions) is the cleaner pathway.
 
 ### Related In-Depth Guides
 
@@ -137,6 +137,6 @@ The biggest risk is using short-term property-backed finance without a realistic
 - [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Quick Caveat Loans: 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

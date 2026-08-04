@@ -97,7 +97,7 @@ Documents can change the lender set quickly. A clean financial pack may open ban
 
 The opposite is also true. Missing financials, unclear security, tax pressure, weak bank conduct, or no exit can narrow the lender set. That does not always mean no option exists, but it means the borrower should stop treating all lenders as interchangeable.
 
-Where documents are incomplete, read [low doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide). Alternative documentation may help, but it still has to answer the lender's risk questions.
+Where documents are incomplete, read [low doc commercial loans](/resources/guides/no-doc-abn-loans). Alternative documentation may help, but it still has to answer the lender's risk questions.
 
 ## Property-Backed Business Lending
 
@@ -127,7 +127,7 @@ Before comparing lenders, prepare:
 - **[Business Lenders Australia for Urgent Settlement](/resources/guides/business-lenders-australia-urgent-settlement)** — deadline-driven lender selection.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — cash-flow funding options.
 - **[Private Commercial Loans for SMEs](/resources/guides/private-commercial-loans-for-smes)** — private commercial lending for SMEs.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance-led structures.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance-led structures.
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — funding for business assets.
 
 ## Frequently Asked Questions

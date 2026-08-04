@@ -164,7 +164,7 @@ Presales can strengthen a completion finance application because they show a def
 
 They may consider whether buyers remain committed, whether sunset dates create risk, whether valuations support settlement, and whether the finished product will meet contract requirements. A presale that cannot settle is not a reliable exit.
 
-If the exit is refinance, the borrower should identify the likely refinance lender early. Completion finance may create breathing room, but the next lender still needs a finished asset, acceptable lease position, serviceability, and compliant documentation. Our guide to [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) explains this transition in more detail.
+If the exit is refinance, the borrower should identify the likely refinance lender early. Completion finance may create breathing room, but the next lender still needs a finished asset, acceptable lease position, serviceability, and compliant documentation. Our guide to [commercial property refinancing solutions](/services/refinancing-solutions) explains this transition in more detail.
 
 ## Private Lending Versus Bank Funding for Stalled Projects
 

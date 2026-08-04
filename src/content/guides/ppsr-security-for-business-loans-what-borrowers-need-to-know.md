@@ -125,7 +125,7 @@ PPSR registrations often become visible when a business tries to refinance. The 
 
 A clean refinance usually requires a payout letter, discharge undertaking, and confirmed release process from the outgoing secured party. If multiple lenders are registered, the order and priority of those registrations can affect timing.
 
-Where the refinance involves commercial property as well, PPSR issues can sit beside mortgage discharge and settlement mechanics. The [commercial property refinancing guide](/resources/guides/commercial-property-refinancing-solutions) explains the property side of that process.
+Where the refinance involves commercial property as well, PPSR issues can sit beside mortgage discharge and settlement mechanics. The [commercial property refinancing guide](/services/refinancing-solutions) explains the property side of that process.
 
 The practical lesson is simple: do not leave PPSR releases until the day of settlement. They are small details until they are the detail holding up funding.
 

@@ -37,7 +37,7 @@ This guide explains how childcare centre acquisition finance works in Australia,
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare bank and non-bank assessment differences.
 - **[Commercial Property Loan After Bank Decline](/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia)** — options after a mainstream decline.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — funding the post-settlement operating buffer.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance planning after settlement or stabilisation.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance planning after settlement or stabilisation.
 
 ### At a Glance
 
@@ -101,7 +101,7 @@ Many childcare centres operate from leased premises. The lease term, options, re
 
 A short lease can weaken the finance case because the buyer may not control the premises long enough to justify the acquisition price. A strong lease with adequate options can support lender confidence, especially if the centre has stable occupancy.
 
-Where the freehold is being purchased with the business, the lender may assess both business earnings and commercial property security. In that case, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may also matter later if the buyer plans to refinance after stabilisation.
+Where the freehold is being purchased with the business, the lender may assess both business earnings and commercial property security. In that case, [commercial property refinancing](/services/refinancing-solutions) may also matter later if the buyer plans to refinance after stabilisation.
 
 ## Licence, Compliance and Transfer Issues
 
@@ -179,7 +179,7 @@ Where a short-term facility is used to complete the acquisition, the exit should
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — assess property-backed commercial lending.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare speed, flexibility, documentation, and cost.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — plan the operating buffer after settlement.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — plan a refinance after acquisition or stabilisation.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — plan a refinance after acquisition or stabilisation.
 
 ## FAQ
 

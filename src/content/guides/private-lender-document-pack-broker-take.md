@@ -27,7 +27,7 @@ The document pack matters because private lending is not a shortcut around risk 
 
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — the main private lending pillar guide.
 - **[Private Commercial Loans After Bank Decline](/resources/guides/private-commercial-loans-after-bank-decline)** — how to repackage a declined file.
-- **[Low Doc and No Doc Commercial Loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide)** — what alternative documentation really means.
+- **[Low Doc and No Doc Commercial Loans](/resources/guides/no-doc-abn-loans)** — what alternative documentation really means.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — property-backed commercial loan evidence.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — documents for second-ranking security.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — short-term caveat finance context.
@@ -63,7 +63,7 @@ A document pack cannot make an unsuitable loan suitable. If there is no commerci
 
 It also cannot replace required legal documents or valuation evidence. A borrower-supplied summary can help early assessment, but lenders decide what formal documents, searches, valuations, consents, and legal steps are required.
 
-Where the borrower mainly needs flexible evidence rather than a full bank pack, compare [low doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide). Low-doc does not mean no documents. It means the file may use different evidence.
+Where the borrower mainly needs flexible evidence rather than a full bank pack, compare [low doc commercial loans](/resources/guides/no-doc-abn-loans). Low-doc does not mean no documents. It means the file may use different evidence.
 
 ## The Core Private Lender Document Pack
 
@@ -127,7 +127,7 @@ Before approaching a private lender, prepare:
 
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lending fundamentals.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — how assessment styles differ.
-- **[Low Doc and No Doc Commercial Loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide)** — alternative evidence explained.
+- **[Low Doc and No Doc Commercial Loans](/resources/guides/no-doc-abn-loans)** — alternative evidence explained.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — second-ranking security requirements.
 - **[Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — urgent caveat loan context.
 

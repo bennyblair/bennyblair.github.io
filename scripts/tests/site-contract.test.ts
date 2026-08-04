@@ -68,6 +68,48 @@ test("legacy GSC 404 URLs permanently redirect to current guide equivalents", ()
   });
 });
 
+test("approved consolidation sources use one-hop permanent redirects to canonical keepers", () => {
+  const expected = new Map<string, string>([
+    ["caveat-loans-melbourne-quick-business-finance", "/services/caveat-loans/cities/melbourne"],
+    ["line-of-credit-equity", "/resources/guides/second-mortgage-vs-line-of-credit"],
+    ["private-mortgage-lenders-australia-directory-2026", "/resources/guides/private-mortgage-lenders-australia-directory"],
+    ["negative-gearing-commercial-property-tax-strategies", "/resources/guides/commercial-property-loans-australia-complete-guide"],
+    ["commercial-land-loans-financing-property-development", "/resources/guides/commercial-property-development-finance"],
+    ["commercial-property-finance-rates-2025-comparison", "/resources/guides/commercial-mortgage-rates-australia-complete-guide"],
+    ["bridging-finance-sydney-48-hour-settlement-possible", "/services/bridging-finance/cities/sydney"],
+    ["private-commercial-real-estate-lenders-cre-directory", "/resources/guides/commercial-property-lenders-in-australia-complete-directory"],
+    ["finding-best-private-lenders-for-your-business", "/resources/guides/private-mortgage-lenders-australia-directory"],
+    ["bridging-finance-developers-project-funding-solutions", "/resources/guides/commercial-property-development-finance"],
+    ["commercial-property-refinancing-solutions", "/services/refinancing-solutions"],
+    ["when-second-mortgages-make-financial-sense-smes", "/resources/guides/second-mortgage-loan-equity-access-strategies"],
+    ["2nd-loan-mortgage-business-capital", "/resources/guides/second-mortgages-for-business-guide"],
+    ["commercial-property-loan-retail-spaces-guide", "/resources/guides/commercial-property-loans-australia-complete-guide"],
+    ["private-lenders-small-business-fast-approval-guide", "/resources/guides/short-term-private-lenders-fast-business-finance-solutions"],
+    ["low-doc-no-doc-commercial-loans-complete-alternative-guide", "/resources/guides/no-doc-abn-loans"],
+    ["subordination-agreement-second-mortgage", "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean"],
+    ["commercial-bridging-finance-auction-purchases", "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide"],
+    ["second-mortgage-australia", "/resources/guides/second-mortgages-for-business-guide"],
+    ["commercial-real-estate-lenders-australia-directory", "/resources/guides/commercial-property-lenders-in-australia-complete-directory"],
+    ["first-and-second-mortgages-for-business", "/resources/guides/second-mortgages-for-business-guide"],
+    ["secured-business-loans-australia", "/resources/guides/secured-vs-unsecured-business-loans-australia"],
+    ["caveat-loan-application-rejected-what-to-do-next", "/resources/guides/caveat-loan-rejected-heres-what-to-do-next"],
+    ["second-mortgage-partnership-buyout-financing-transitions", "/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia"],
+  ]);
+  const redirects = new Map(redirectRules.map((rule) => [rule.from, rule]));
+  const canonicalRoutes = new Set([
+    ...siteRoutes.map((route) => route.path),
+    ...Object.values(buildContentIndex(repoRoot)).flat().map((article) => article.route),
+  ]);
+
+  assert.equal(expected.size, 24);
+  for (const [slug, target] of expected) {
+    const source = `/resources/guides/${slug}`;
+    assert.deepEqual(redirects.get(source), { from: source, to: target, status: 301 });
+    assert.equal(isRedirectSource(target), false, `${source} must not redirect through ${target}`);
+    assert.equal(canonicalRoutes.has(target), true, `${target} must exist before redirecting ${source}`);
+  }
+});
+
 test("content index contains metadata only and unique canonical routes", () => {
   const index = buildContentIndex(repoRoot);
   const routes: string[] = [];

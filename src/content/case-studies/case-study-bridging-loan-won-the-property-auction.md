@@ -44,7 +44,7 @@ This example is for borrowers evaluating whether a [commercial bridging finance]
 - **[When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision guide on fit, timing, and exit discipline.
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Specific auction-focused scenarios and lender considerations.
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Useful for the longer-term refinance stage.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — What happens once the short-term bridge is no longer needed.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — What happens once the short-term bridge is no longer needed.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Why private and non-bank lenders often appear in auction timelines.
 
 ## The Scenario: Auction Success, Funding Pressure Immediately After
@@ -123,7 +123,7 @@ Key risks included:
 - the refinance lender adding extra conditions after settlement
 - cost accumulation if the bridge had to run longer than planned
 
-This is why some borrowers also review broader [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) before committing. The clearer the takeout path, the easier it is to structure the bridge properly.
+This is why some borrowers also review broader [commercial property refinancing solutions](/services/refinancing-solutions) before committing. The clearer the takeout path, the easier it is to structure the bridge properly.
 
 ## When an Auction Bridging Loan Makes Sense
 
@@ -200,6 +200,6 @@ Yes. Having entity documents, property information, deposit evidence, and an out
 - [When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)
 - [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
 - [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

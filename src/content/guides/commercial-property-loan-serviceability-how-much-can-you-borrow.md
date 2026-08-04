@@ -28,7 +28,7 @@ Commercial property loan serviceability is the process lenders use to decide whe
 
 That sounds straightforward, but commercial serviceability is rarely based on one salary figure or one generic calculator. Lenders usually look at the property income, the business income, the strength of the tenant, the existing debts, the interest-rate buffers built into the assessment, and what happens if the deal does not perform exactly as planned. That is why a borrower can own a strong asset and still be surprised by how conservative the lending outcome feels.
 
-For property investors, developers, and business owners, the real question is not just how much you want to borrow. It is how lenders usually measure borrowing capacity, what can weaken that capacity, and what can improve it before you apply. If you are still mapping the acquisition process, the [step-by-step commercial property buying guide](/resources/guides/how-to-buy-commercial-property-step-by-step-guide) shows where serviceability checks fit before due diligence and settlement. In some cases, a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide) works well. In others, the answer may involve a tighter [refinance structure](/resources/guides/commercial-property-refinancing-solutions), a lower-leverage solution, or a more flexible [private lending](/resources/guides/what-is-private-lending-australia) path where the story is strong but does not fit a bank calculator neatly.
+For property investors, developers, and business owners, the real question is not just how much you want to borrow. It is how lenders usually measure borrowing capacity, what can weaken that capacity, and what can improve it before you apply. If you are still mapping the acquisition process, the [step-by-step commercial property buying guide](/resources/guides/how-to-buy-commercial-property-step-by-step-guide) shows where serviceability checks fit before due diligence and settlement. In some cases, a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide) works well. In others, the answer may involve a tighter [refinance structure](/services/refinancing-solutions), a lower-leverage solution, or a more flexible [private lending](/resources/guides/what-is-private-lending-australia) path where the story is strong but does not fit a bank calculator neatly.
 
 ## Borrowing Capacity Signals Lenders Read First
 
@@ -314,7 +314,7 @@ The strongest outcomes usually come from realistic assumptions, clean documentat
 - [Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

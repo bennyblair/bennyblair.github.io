@@ -22,11 +22,11 @@ Vacant commercial property refinance is the process of replacing or restructurin
 
 That sounds simple, but vacancy changes the whole lending conversation. A leased warehouse, office, or retail property gives lenders an income stream to assess. A vacant commercial property removes that income support and shifts more attention onto asset quality, location, marketability, borrower strength, leverage, and the credibility of the plan to lease, sell, improve, or refinance the property later.
 
-For investors, developers, and business owners, the question is not just whether a vacant commercial asset can be refinanced. It usually can, in the right scenario. The real question is what lenders look for, why some vacant assets are still considered financeable, and when [private lending](/resources/guides/what-is-private-lending-australia), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or a more standard [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) path makes the most sense.
+For investors, developers, and business owners, the question is not just whether a vacant commercial asset can be refinanced. It usually can, in the right scenario. The real question is what lenders look for, why some vacant assets are still considered financeable, and when [private lending](/resources/guides/what-is-private-lending-australia), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or a more standard [commercial property refinance](/services/refinancing-solutions) path makes the most sense.
 
 ### Related In-Depth Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Core guide to how commercial refinance is commonly structured.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Core guide to how commercial refinance is commonly structured.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Useful because vacant assets often create valuation pressure.
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Helpful if borrower strength is likely to carry the deal.
 - **[Bank vs Non-Bank Commercial Lending in Australia: Which Borrowers Get Approved?](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Useful when deciding which lender type is realistic.
@@ -251,7 +251,7 @@ The absence of rent does make the lender’s job harder, but it does not automat
 
 ## Related Guides
 
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
 - [Bank vs Non-Bank Commercial Lending in Australia: Which Borrowers Get Approved?](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)

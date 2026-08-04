@@ -33,7 +33,7 @@ Use this as general information only. Emet Capital helps commercial borrowers co
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main commercial property finance hub.
 - **[Vacant Commercial Property Refinance](/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for)** — how lenders assess vacant commercial security.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance options when the current lender no longer fits.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance options when the current lender no longer fits.
 - **[Commercial Property Finance Short WALE Assets](/resources/guides/commercial-property-finance-short-wale-assets-australia)** — related issues where leases are close to expiry.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — what valuation evidence lenders rely on.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — when non-bank lenders may consider scenarios banks avoid.
@@ -135,7 +135,7 @@ Borrowers comparing bank and private lender options should also read [private le
 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — start with the main commercial lending framework.
 - **[Vacant Commercial Property Refinance](/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for)** — focused guide for fully vacant properties.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — when replacing the current lender is the goal.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — when replacing the current lender is the goal.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — when equity sits behind an existing first mortgage.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — for dated sale, refinance, or settlement timing gaps.
 

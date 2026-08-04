@@ -159,7 +159,7 @@ The biggest risk is that landlords leave after settlement and the income used to
 ## Related Guides
 
 - **[Business Acquisition Finance in Australia](/resources/guides/business-acquisition-finance-australia)** — structure funding for business purchases and goodwill-heavy acquisitions.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — options when refinance is part of the exit strategy.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — options when refinance is part of the exit strategy.
 - **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — cash-flow funding context for businesses with receivables.
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — useful when the acquisition includes vehicles, fitout, or operational equipment.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — short-term property-backed funding context for urgent commercial transactions.

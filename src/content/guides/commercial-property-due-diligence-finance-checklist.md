@@ -30,7 +30,7 @@ If you are buying, refinancing, or securing funding against commercial property 
 - **[Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — What borrowers usually need to qualify for commercial property lending.
 - **[Commercial Property Settlement Process](/resources/guides/commercial-property-settlement-process-finance-timeline)** — How finance timing fits into settlement deadlines.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — What valuation risk means for loan structure and leverage.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When an existing facility needs to be restructured.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — When an existing facility needs to be restructured.
 - **[Bridging Finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term property-backed funding where timing is the main issue.
 
 ## At a Glance
@@ -48,7 +48,7 @@ If you are buying, refinancing, or securing funding against commercial property 
 
 This guide is for Australian commercial property investors, developers, and business owners who need finance to buy, refinance, or release capital from commercial property. It is also useful for advisers preparing a borrower file before lender assessment.
 
-It may be relevant if you are comparing a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), short-term [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), or [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions).
+It may be relevant if you are comparing a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), short-term [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), or [commercial property refinancing](/services/refinancing-solutions).
 
 This is general information only. It is not legal, tax, property, or financial advice. Commercial property transactions should be reviewed with appropriate legal, accounting, valuation, and finance professionals.
 
@@ -134,7 +134,7 @@ Ask whether this is a straightforward acquisition, whether timing is the main is
 
 Use the structure that matches the pressure point, not the one that sounds fastest.
 
-[Bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may fit when the borrower needs temporary funding around a sale, purchase, refinance, or timing gap. [Commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may fit when the existing facility no longer suits the asset, lender appetite, or cash-flow position.
+[Bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may fit when the borrower needs temporary funding around a sale, purchase, refinance, or timing gap. [Commercial property refinancing](/services/refinancing-solutions) may fit when the existing facility no longer suits the asset, lender appetite, or cash-flow position.
 
 A [second mortgage](/resources/guides/second-mortgages-for-business-guide) may be considered where equity exists and the first mortgage remains in place, but the lender will still assess priority, exit, and risk carefully. For urgent short-term cases, a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide) may be relevant, but it should only be assessed against a clear commercial purpose and repayment pathway.
 
@@ -247,7 +247,7 @@ No. Due diligence does not guarantee approval, lender appetite, or settlement. I
 - **[Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)**
 - **[Commercial Property Settlement Process](/resources/guides/commercial-property-settlement-process-finance-timeline)**
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)**
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 
 ## Bottom Line
 

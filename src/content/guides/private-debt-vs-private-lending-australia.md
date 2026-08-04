@@ -75,7 +75,7 @@ The third difference is documentation. Some private debt facilities can be insti
 
 ## Where the Terms Overlap
 
-Private debt and private lending overlap heavily in commercial property finance. A private debt fund may provide a [commercial bridge loan](/resources/guides/bridge-lending-australia-commercial-property), a [second mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia), or a [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions). The borrower experiences that as private lending, while the fund reports it as private debt.
+Private debt and private lending overlap heavily in commercial property finance. A private debt fund may provide a [commercial bridge loan](/resources/guides/bridge-lending-australia-commercial-property), a [second mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia), or a [commercial property refinance](/services/refinancing-solutions). The borrower experiences that as private lending, while the fund reports it as private debt.
 
 They also overlap in SME finance. A business may use private credit to cover a supplier deadline, fund stock, complete a fitout, refinance a bank delay, or bridge a receivable. Depending on the lender, the facility may be described as private debt, SME private credit, asset-backed lending, or private commercial finance.
 
@@ -139,7 +139,7 @@ A borrower should compare lender type, capital source, security requirements, to
 
 ## Related Guides
 
-- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — private mortgage lender context for property-backed business borrowing.
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — private mortgage lender context for property-backed business borrowing.
 - **[Short-Term Private Lenders](/resources/guides/short-term-private-lenders-fast-business-finance-solutions)** — how short-term private lender files are assessed.
 - **[Commercial Loan Refinance](/resources/guides/commercial-loan-refinance)** — refinance pathways for commercial borrowers.
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — urgent property-backed business funding context.

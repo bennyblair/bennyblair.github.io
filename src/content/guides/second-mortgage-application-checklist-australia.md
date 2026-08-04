@@ -99,7 +99,7 @@ A second mortgage lender will usually want to know how the facility will be repa
 
 The stronger the exit, the easier the file is to understand. “We will refinance later” is not enough unless there is a credible refinance pathway, likely timing, and evidence that the borrower can meet the target lender's requirements.
 
-Where the borrower is recovering from a bank delay, the second mortgage should be compared with [private commercial loans after bank decline](/resources/guides/private-commercial-loans-after-bank-decline) and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions). The structure should match the exit, not just the immediate pressure.
+Where the borrower is recovering from a bank delay, the second mortgage should be compared with [private commercial loans after bank decline](/resources/guides/private-commercial-loans-after-bank-decline) and [commercial property refinancing](/services/refinancing-solutions). The structure should match the exit, not just the immediate pressure.
 
 ## Step 6: Include Financials, But Keep Them Relevant
 
@@ -144,7 +144,7 @@ Use this practical list before sending a second mortgage enquiry:
 - **[Second Mortgage Lender Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — document detail from broker files.
 - **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — process steps and timing considerations.
 - **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — understand lender priority before applying.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — compare whether replacing debt is cleaner than adding debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare whether replacing debt is cleaner than adding debt.
 
 ## FAQ: Second Mortgage Application Checklist Australia
 

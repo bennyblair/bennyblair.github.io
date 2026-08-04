@@ -32,7 +32,7 @@ This article defines bridging finance, explains when it fits, shows when it does
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — How commercial property lending is assessed more broadly.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — When a second mortgage may sit beside or replace a bridging structure.
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — How private lenders assess fast, asset-backed commercial funding.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Exit planning options when the bridge is repaid by refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Exit planning options when the bridge is repaid by refinance.
 
 ### At a Glance
 
@@ -53,7 +53,7 @@ Bridging finance is short-term commercial funding used to bridge a timing gap be
 
 Bridging finance is for commercial borrowers who have a timing problem, not a permanent funding problem. It may suit a business owner buying a commercial property before another asset settles, a developer waiting for incoming proceeds, or an investor who needs to complete a transaction while a refinance is still being processed.
 
-It can also suit borrowers who are comparing bank and non-bank options. When the deadline is tight, a specialist broker can help compare a bridge against [private lending](/resources/guides/what-is-private-lending-australia), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), or [commercial refinance](/resources/guides/commercial-property-refinancing-solutions) before the borrower commits to one pathway.
+It can also suit borrowers who are comparing bank and non-bank options. When the deadline is tight, a specialist broker can help compare a bridge against [private lending](/resources/guides/what-is-private-lending-australia), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), or [commercial refinance](/services/refinancing-solutions) before the borrower commits to one pathway.
 
 ## How Bridging Finance Works
 
@@ -153,6 +153,6 @@ Yes. Bridging finance is often used for commercial property purchases, refinance
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broader commercial property finance context.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Alternative structure when preserving an existing first mortgage matters.
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Urgent property-backed funding where caveat security may be relevant.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Long-term exit options after the bridge.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Long-term exit options after the bridge.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

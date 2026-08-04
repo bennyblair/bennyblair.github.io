@@ -124,7 +124,7 @@ Before asking a lender to move quickly, check whether the file is actually ready
 - **Timing:** The deadline is real and documented, such as a settlement date, ATO or creditor deadline, supplier cut-off, or refinance gap. For very tight files, compare the practical limits in quick caveat loans.
 - **Risks:** You understand the total written cost, default consequences, minimum interest period, legal costs, and what happens if the exit is delayed.
 
-If one of those points is missing, a slower but cleaner structure such as [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or a [second mortgage](/resources/guides/second-mortgages-for-business-guide) may be safer. For tax-pressure scenarios, compare finance with the issues covered in [ATO tax debt finance for Australian business owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners).
+If one of those points is missing, a slower but cleaner structure such as [commercial property refinancing](/services/refinancing-solutions), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or a [second mortgage](/resources/guides/second-mortgages-for-business-guide) may be safer. For tax-pressure scenarios, compare finance with the issues covered in [ATO tax debt finance for Australian business owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners).
 
 ### Urgent Caveat Loan vs Second Mortgage vs Bridging Finance
 
@@ -286,7 +286,7 @@ This article is for informational purposes only and does not constitute financia
 
 ## Related Guides
 
-- [Commercial Property Refinancing Solutions in Australia](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions in Australia](/services/refinancing-solutions)
 - [What is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [ATO Payment Plan vs Business Finance Australia](/resources/guides/ato-payment-plan-vs-business-finance-australia)

@@ -26,7 +26,7 @@ That timing gap can show up when you need to settle before another asset sells, 
 
 For Australian property investors, developers, and business owners, the term often overlaps with **bridging finance**. In practice, many borrowers will hear “swing loan” and translate it straight to a bridging structure. That is usually the right starting point. The real issue is not the label. It is whether the funding solves a short-term sequencing problem cleanly.
 
-This guide explains what a swing loan is, how it works in Australia, where it may fit, what lenders usually focus on, and how it compares with related structures such as [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions).
+This guide explains what a swing loan is, how it works in Australia, where it may fit, what lenders usually focus on, and how it compares with related structures such as [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [commercial property refinancing solutions](/services/refinancing-solutions).
 
 ## What is a swing loan?
 

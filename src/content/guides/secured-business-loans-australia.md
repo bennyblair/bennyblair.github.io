@@ -69,7 +69,7 @@ The practical assessment is not just “what is the asset worth?” A lender als
 
 Property is the most common form of security for larger commercial loans. This may include commercial premises, investment property, development sites, or other real estate owned by the borrower, related entities, or guarantors.
 
-Property-backed lending can overlap with [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and caveat-style short-term structures. The right structure depends on urgency, existing debt, title position, lender consent, and the planned exit.
+Property-backed lending can overlap with [commercial property refinancing](/services/refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and caveat-style short-term structures. The right structure depends on urgency, existing debt, title position, lender consent, and the planned exit.
 
 ### Equipment and vehicles
 

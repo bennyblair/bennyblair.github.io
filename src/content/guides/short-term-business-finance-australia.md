@@ -138,7 +138,7 @@ Common exits include refinance, property sale, business sale, debtor collection,
 
 A credible exit is specific. "We will refinance later" is weaker than "the business is preparing updated financials for a commercial refinance once the lease renewal is signed". The second version gives a lender something to assess.
 
-Borrowers dealing with a bank delay can compare short-term pathways with [commercial property refinance after a bank decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia) and [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions).
+Borrowers dealing with a bank delay can compare short-term pathways with [commercial property refinance after a bank decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia) and [commercial property refinancing solutions](/services/refinancing-solutions).
 
 ## When To Use Short-Term Business Finance
 

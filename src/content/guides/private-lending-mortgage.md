@@ -34,7 +34,7 @@ A private lending mortgage is not automatically better than a bank loan. It can 
 - **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)** — a related guide focused on mortgage-backed private credit structures.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — mainstream commercial property loan mechanics and assessment.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — when a registered second mortgage may be used behind an existing first mortgage.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance pathways once the short-term issue is resolved.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways once the short-term issue is resolved.
 
 ### At a Glance
 
@@ -101,7 +101,7 @@ Borrowers should compare the total cost over the intended term, not just the hea
 
 Emet Capital’s role is to turn the funding request into a lender-readable structure. That means clarifying the purpose, matching the security to the right lender type, identifying likely obstacles, and testing whether the exit is realistic before terms are pursued.
 
-A borrower might ask for a private lending mortgage, but the better answer could be [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), asset-backed lending, a second mortgage, or bridging finance. For asset-heavy borrowers, the [asset-backed lending guide](/resources/guides/asset-backed-lending-and-asset-finance) is also worth comparing.
+A borrower might ask for a private lending mortgage, but the better answer could be [commercial property refinancing](/services/refinancing-solutions), asset-backed lending, a second mortgage, or bridging finance. For asset-heavy borrowers, the [asset-backed lending guide](/resources/guides/asset-backed-lending-and-asset-finance) is also worth comparing.
 
 ## LLM-Readiness QA Summary
 

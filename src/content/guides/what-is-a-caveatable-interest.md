@@ -128,7 +128,7 @@ This is especially true where:
 - a refinance is urgent
 - a property sale is already in motion
 
-A caveat can become a financing issue very quickly. If you are balancing legal complexity with funding urgency, comparing that situation with **[commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions)** or **[bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** may help clarify the practical next move.
+A caveat can become a financing issue very quickly. If you are balancing legal complexity with funding urgency, comparing that situation with **[commercial property refinancing solutions](/services/refinancing-solutions)** or **[bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** may help clarify the practical next move.
 
 ## Practical example
 

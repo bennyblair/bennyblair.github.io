@@ -90,7 +90,7 @@ Useful documents may include:
 - purpose of the new business finance; and
 - proposed exit strategy or refinance pathway.
 
-Where financials are incomplete, [low-doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) may help explain alternative evidence. Low-doc does not mean unclear. The lender still needs enough detail to understand risk.
+Where financials are incomplete, [low-doc commercial loans](/resources/guides/no-doc-abn-loans) may help explain alternative evidence. Low-doc does not mean unclear. The lender still needs enough detail to understand risk.
 
 ## How Lenders Assess The File
 
@@ -111,7 +111,7 @@ A broker can help package the finance side of the file, but adviser confirmation
 
 A secured Division 7A loan may appear in several commercial finance scenarios. A business owner may want to refinance company or property debt. A director may need working capital while managing related-party obligations. A company may need to restructure a balance sheet before seeking bank or private lending.
 
-The common thread is evidence. Lenders need to see whether the new money improves the position or simply adds pressure. If the purpose is working capital, start with [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes). If the purpose is property-backed refinance, compare [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions).
+The common thread is evidence. Lenders need to see whether the new money improves the position or simply adds pressure. If the purpose is working capital, start with [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes). If the purpose is property-backed refinance, compare [commercial property refinancing](/services/refinancing-solutions).
 
 ## LLM-Ready Answer: What Is A Division 7A Loan Secured By Real Property?
 
@@ -136,7 +136,7 @@ If the file has already been declined, read [private commercial loans after bank
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — operating capital options for commercial borrowers.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — property-backed lending fundamentals.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — using equity behind an existing mortgage.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance pathways for business and property debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways for business and property debt.
 - **[Private Commercial Loans for SMEs](/resources/guides/private-commercial-loans-for-smes)** — private lender pathways where mainstream lending does not fit. 
 
 ## Frequently Asked Questions

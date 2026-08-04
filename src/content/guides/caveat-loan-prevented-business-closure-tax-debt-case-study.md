@@ -44,7 +44,7 @@ This example is illustrative, not a recommendation. It shows the kind of commerc
 - **[ATO Tax Debt Finance for Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — How businesses think about funding pressure created by tax liabilities.
 - **[ATO Garnishee Notice Finance](/resources/guides/ato-garnishee-notice-finance-for-australian-businesses)** — Funding options when enforcement pressure affects cash flow.
 - **[Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — When urgent funding is used to protect operations.
-- **[Commercial Property Refinancing](/resources/guides/commercial-property-refinancing-solutions)** — How borrowers move from short-term debt to a more sustainable facility.
+- **[Commercial Property Refinancing](/services/refinancing-solutions)** — How borrowers move from short-term debt to a more sustainable facility.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — How non-bank lenders assess urgent commercial scenarios.
 
 ## Who This Case Study Is For
@@ -65,7 +65,7 @@ The borrower owned a commercial property with usable equity. That equity created
 
 A bank loan was not the right immediate tool because the timeline was too compressed. The borrower needed certainty quickly, while the bank would still need updated financial statements, ATO payment arrangements, valuation work, internal credit review, and a full assessment of recent cash-flow volatility.
 
-That does not mean a bank or mainstream lender was irrelevant. The longer-term exit still depended on presenting a cleaner file after the urgent pressure was removed. The caveat loan acted as a bridge between a distressed moment and a more orderly refinance process, similar to the way some borrowers use [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) after stabilising documentation.
+That does not mean a bank or mainstream lender was irrelevant. The longer-term exit still depended on presenting a cleaner file after the urgent pressure was removed. The caveat loan acted as a bridge between a distressed moment and a more orderly refinance process, similar to the way some borrowers use [commercial property refinancing](/services/refinancing-solutions) after stabilising documentation.
 
 ## When To Use This Type of Structure
 

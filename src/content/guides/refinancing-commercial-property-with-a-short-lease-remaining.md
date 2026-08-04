@@ -20,13 +20,13 @@ keywords: ["refinance commercial property short lease", "short lease commercial 
 
 Refinancing commercial property with a short lease remaining can be difficult because lenders are not only funding the building. They are funding the income story attached to it. When lease expiry is close, that income story can look fragile, even if the property itself is strong.
 
-A short lease can affect valuation, debt service coverage, lender appetite, and the size of the refinance available. A bank may worry about vacancy risk, rent rollover, incentives needed to keep the tenant, or how quickly the property could be re-leased if the tenant leaves. That is why borrowers often run into trouble when they assume a standard [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) will behave the same way it did a few years earlier.
+A short lease can affect valuation, debt service coverage, lender appetite, and the size of the refinance available. A bank may worry about vacancy risk, rent rollover, incentives needed to keep the tenant, or how quickly the property could be re-leased if the tenant leaves. That is why borrowers often run into trouble when they assume a standard [commercial property refinance](/services/refinancing-solutions) will behave the same way it did a few years earlier.
 
 For investors, developers, and business owners, the real question is not whether a short-lease property is refinanceable. It is what lenders usually look at, which options may still work, and what can be done before the existing facility matures. In some cases, the answer is a cleaner bank refinance. In others, it is a staged move into [private lending](/resources/guides/what-is-private-lending-australia), a shorter-term [bridging solution](/resources/guides/bridging-finance-australia-complete-property-guide), or a refinance structure built around a realistic leasing plan.
 
 ### Related In-Depth Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Core guide to how refinance structures are usually assessed.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Core guide to how refinance structures are usually assessed.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Useful if the refinance risk is really a valuation risk.
 - **[Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Helpful when you need to compare lender fit, not just pricing.
 - **[When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Relevant for short-term timing gaps before a stronger refinance exit.
@@ -235,7 +235,7 @@ The best outcomes happen when the borrower is realistic about valuation risk, pr
 
 ## Related Guides
 
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
 - [When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)

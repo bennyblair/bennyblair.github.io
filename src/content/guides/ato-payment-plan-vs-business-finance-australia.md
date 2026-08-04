@@ -129,13 +129,13 @@ Clear documents help the lender understand whether the debt is a one-off timing 
 
 Emet Capital starts with the commercial purpose and repayment pathway. We are not trying to turn every tax debt into a loan. In many cases, the better outcome may be accountant-led negotiation, operational repair, or a direct payment plan.
 
-Where finance is appropriate, the focus is structure. That may mean comparing [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), private lending, a second mortgage, invoice finance, or a staged facility that avoids overborrowing.
+Where finance is appropriate, the focus is structure. That may mean comparing [commercial property refinancing](/services/refinancing-solutions), private lending, a second mortgage, invoice finance, or a staged facility that avoids overborrowing.
 
 The aim is not just to clear the ATO balance. The aim is to avoid the same problem reappearing in a more expensive form.
 
 ## Related Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinancing property-backed debt when the current structure no longer fits
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinancing property-backed debt when the current structure no longer fits
 - **[Invoice Finance Australia](/resources/guides/invoice-finance-australia-complete-guide)** — using receivables to support cash flow instead of property security
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — managing supplier and import timing pressure
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — funding supported by business assets and equipment

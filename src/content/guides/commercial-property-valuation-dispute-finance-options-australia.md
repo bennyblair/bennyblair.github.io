@@ -26,7 +26,7 @@ This guide explains what Australian commercial property borrowers can do when a 
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)**, the main pillar guide for commercial property finance.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**, for borrowers replacing an existing facility.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, for borrowers replacing an existing facility.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)**, for borrowing-capacity and income assessment issues.
 - **[Commercial Property Due Diligence Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)**, for document preparation before lender assessment.
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)**, for non-bank funding where bank appetite is limited.
@@ -82,7 +82,7 @@ Strong evidence can change the conversation. Weak opinion usually cannot.
 
 Helpful evidence may include recent comparable sales, executed leases, rent reviews, tenant payment history, independent quantity surveyor or building information, zoning confirmations, DA or planning documents, and current market feedback from credible agents.
 
-For refinance files, a clear debt position also matters. The lender needs to know the existing loan balance, arrears position if any, payout figure, and whether the borrower is seeking cash-out, debt consolidation, or a straight refinance. The [commercial property refinancing guide](/resources/guides/commercial-property-refinancing-solutions) explains how those moving parts affect lender appetite.
+For refinance files, a clear debt position also matters. The lender needs to know the existing loan balance, arrears position if any, payout figure, and whether the borrower is seeking cash-out, debt consolidation, or a straight refinance. The [commercial property refinancing guide](/services/refinancing-solutions) explains how those moving parts affect lender appetite.
 
 ## Finance Options After a Lower Valuation
 

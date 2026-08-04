@@ -25,7 +25,7 @@ A statutory demand is a formal creditor demand served on a company for an unpaid
 
 In practical terms, finance after a statutory demand is usually about buying time, settling a verified commercial debt, refinancing short-term pressure, or preventing a wider creditor problem from escalating. It is not a substitute for legal advice, insolvency advice, or a viable repayment plan.
 
-Emet Capital helps eligible business borrowers compare commercial finance structures such as [working capital loans](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions). This guide explains the funding lens only. It is general information, not financial, legal, or insolvency advice.
+Emet Capital helps eligible business borrowers compare commercial finance structures such as [working capital loans](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinancing](/services/refinancing-solutions). This guide explains the funding lens only. It is general information, not financial, legal, or insolvency advice.
 
 ### Related In-Depth Guides
 
@@ -79,7 +79,7 @@ Lenders usually start with urgency. They need to know the statutory demand date,
 
 Next comes debt quality. The lender will ask whether the debt is tax, supplier, landlord, judgment-related, loan-related, or another commercial obligation. A clear creditor statement is stronger than a vague verbal summary.
 
-Security matters because urgent funding often needs a strong fallback. This may include commercial property, investment property, business assets, invoices, equipment, or a defined receivable. Property-backed options may overlap with [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), or [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), depending on title position and timing.
+Security matters because urgent funding often needs a strong fallback. This may include commercial property, investment property, business assets, invoices, equipment, or a defined receivable. Property-backed options may overlap with [commercial property refinancing](/services/refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), or [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), depending on title position and timing.
 
 Serviceability still matters. Even where security is strong, the lender needs to understand whether the business can carry the facility or repay it through a defined event. Security alone does not make a poor exit safe.
 
@@ -167,6 +167,6 @@ Yes. Tax debt, ATO payment-plan issues, and creditor enforcement can create urge
 - **[ATO Payment Plan Refused](/resources/guides/ato-payment-plan-refused-business-finance-options-australia)** — useful when the creditor pressure is tax-related.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — understand fast, flexible property-backed lender assessment.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — compare using equity without refinancing the first mortgage.
-- **[Commercial Property Refinancing](/resources/guides/commercial-property-refinancing-solutions)** — relevant where property security supports a longer-term restructure.
+- **[Commercial Property Refinancing](/services/refinancing-solutions)** — relevant where property security supports a longer-term restructure.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

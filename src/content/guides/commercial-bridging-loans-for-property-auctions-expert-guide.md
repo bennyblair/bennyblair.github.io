@@ -165,7 +165,19 @@ A bridge may provide time to settle and then refinance, provided the borrower ca
 
 Emet Capital helps eligible commercial borrowers compare auction bridging, private lending, second mortgage, and standard commercial property loan pathways. The work is usually practical: understand the contract timetable, test the security, identify lender appetite, and pressure-test the exit before the borrower commits too far.
 
-For some borrowers, the answer may be a focused bridging structure. For others, it may be a [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a private lending pathway. The goal is to match the structure to the settlement deadline and exit, not to force every auction purchase into the same product label.
+For some borrowers, the answer may be a focused bridging structure. For others, it may be a [commercial property refinance](/services/refinancing-solutions), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a private lending pathway. The goal is to match the structure to the settlement deadline and exit, not to force every auction purchase into the same product label.
+
+## Pre-Bid Finance Gate
+
+Before an unconditional auction bid, the borrower should be able to answer all five questions below with documents rather than assumptions:
+
+1. What is the maximum purchase price after deposit, duty, fees, interest and contingency?
+2. Which property or asset secures the bridge, and what valuation basis will the lender use?
+3. Which credit, valuation, legal and title conditions remain outstanding?
+4. What dated event repays the bridge, and what evidence supports it?
+5. What is the fallback if refinance, sale or settlement takes longer than planned?
+
+An indicative conversation is not the same as an unconditional finance commitment. Contract review, legal advice and lender confirmation should occur before bidding wherever possible. The borrower should also confirm whether deposit finance, settlement finance and post-settlement working capital are separate needs; solving only the purchase balance can still leave the transaction underfunded.
 
 ## FAQ
 

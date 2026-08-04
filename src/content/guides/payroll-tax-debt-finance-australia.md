@@ -59,7 +59,7 @@ Payroll tax debt finance may fit when the business is fundamentally viable but c
 
 A common scenario is a business that has a large receivable due after the tax deadline. Another is a business waiting on a bank refinance, asset sale, insurer payment, contract milestone, or customer payment run. In those cases, short-term funding may help the business avoid disruption while a known cash event completes.
 
-It can also be relevant where payroll tax is one part of a structured creditor clean-up. For example, a business may combine state tax, supplier arrears, and expensive short-term debt into a more controlled facility. That should be compared against [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes) and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) before using higher-cost funding.
+It can also be relevant where payroll tax is one part of a structured creditor clean-up. For example, a business may combine state tax, supplier arrears, and expensive short-term debt into a more controlled facility. That should be compared against [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes) and [commercial property refinancing](/services/refinancing-solutions) before using higher-cost funding.
 
 ## When It Usually Should Not Be Used
 

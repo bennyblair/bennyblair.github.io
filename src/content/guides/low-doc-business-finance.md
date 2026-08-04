@@ -34,7 +34,7 @@ For borrowers comparing structures, low doc funding often sits between full-doc 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide on structure, security, and lender expectations.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — when non-bank funding may suit a reduced-doc file.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — options where plant, equipment, or other assets support the deal.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — how borrowers restructure once documentation improves.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — how borrowers restructure once documentation improves.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — another route when equity is available but cash flow needs flexibility.
 - **[Contact Emet Capital](/contact)** — speak with a broker about a reduced-doc commercial scenario.
 
@@ -92,7 +92,7 @@ Third, how strong is the fallback security? Lenders are more comfortable when th
 
 Low doc can be the better tool when the borrower is fundamentally financeable but the timing or paperwork does not suit a bank. That is different from saying it is always cheaper or easier.
 
-A reduced-doc structure often makes sense when you need to secure the property or solve the immediate capital issue now, then improve the file later. For example, a borrower may use a shorter-term low doc facility to acquire a site, complete leasing works, and then refinance into a lower-cost product once lease income is stabilised. That same logic appears in [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) and some [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) scenarios.
+A reduced-doc structure often makes sense when you need to secure the property or solve the immediate capital issue now, then improve the file later. For example, a borrower may use a shorter-term low doc facility to acquire a site, complete leasing works, and then refinance into a lower-cost product once lease income is stabilised. That same logic appears in [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) and some [commercial property refinancing](/services/refinancing-solutions) scenarios.
 
 It may be a poor fit if your file is already strong enough for mainstream lending and the only objective is speed without a real deadline. In that case, the flexibility premium may not be justified.
 
@@ -151,7 +151,7 @@ A credible story. They want to understand why the facility is needed, how it wil
 ## Related Guides
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 

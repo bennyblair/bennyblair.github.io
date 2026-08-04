@@ -19,7 +19,7 @@ Bridging loans, also called bridging finance, are short-term, property-backed co
 
 In plain English, bridging finance helps when the deal cannot wait but the longer-term funding or asset sale is not ready yet. It is most often used for commercial property purchases, auction settlements, refinance deadlines, development transitions, and business-property transactions where timing matters more than a fully standard bank process.
 
-For commercial borrowers, the real question is not simply what bridging finance is. The real question is whether the bridge protects a valuable transaction, whether the exit is realistic, and whether another structure such as [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or other [short-term property loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance) would be cleaner.
+For commercial borrowers, the real question is not simply what bridging finance is. The real question is whether the bridge protects a valuable transaction, whether the exit is realistic, and whether another structure such as [commercial property refinancing](/services/refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or other [short-term property loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance) would be cleaner.
 
 ## Citation-Ready Answer: What Is Bridging Finance?
 
@@ -41,7 +41,7 @@ Bridging finance is short-term property-backed funding used to cover a timing ga
 Explore our specialist bridging finance guides for specific scenarios:
 
 - **[Best Bridging Loan Lenders](/resources/guides/best-bridging-loan-lenders-companies-2025)** — Compare lender categories, deal fit, security appetite, and assessment considerations
-- **[Bridging Finance for Developers](/resources/guides/bridging-finance-developers-project-funding-solutions)** — Project funding between development phases and construction draws
+- **[Bridging Finance for Developers](/resources/guides/commercial-property-development-finance)** — Project funding between development phases and construction draws
 - **[Commercial Bridging Loans for Property Auctions](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — One consolidated guide to auction settlement finance, due diligence, and exit planning
 - **[Short-Term Property Loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance)** — When you need finance in days, not weeks
 
@@ -61,7 +61,7 @@ Bridging finance is a short-term loan secured against property that gives you im
 
 Unlike a standard commercial property loan, bridging finance is not designed to be the permanent answer. It is transitional debt. The lender is usually looking less at whether the facility will run for years and more at whether the transaction makes sense now and how the loan will be repaid in the near term.
 
-That is why bridging finance often overlaps with [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [commercial property development finance](/resources/guides/commercial-property-development-finance), and specialist [commercial bridging finance](/services/bridging-finance) solutions. The structure changes depending on the property, timing, leverage, and exit.
+That is why bridging finance often overlaps with [commercial property refinancing](/services/refinancing-solutions), [commercial property development finance](/resources/guides/commercial-property-development-finance), and specialist [commercial bridging finance](/services/bridging-finance) solutions. The structure changes depending on the property, timing, leverage, and exit.
 
 ## How Does Bridging Finance Work?
 
@@ -145,7 +145,7 @@ If an existing loan is maturing before replacement funding is ready, bridging ca
 
 ### Development transitions
 
-Developers often use bridging before full construction finance, between project phases, or while waiting for approvals, sales, or refinance milestones. Borrowers exploring longer project structures should also review [commercial property development finance](/resources/guides/commercial-property-development-finance) and [bridging finance for developers](/resources/guides/bridging-finance-developers-project-funding-solutions).
+Developers often use bridging before full construction finance, between project phases, or while waiting for approvals, sales, or refinance milestones. Borrowers exploring longer project structures should also review [commercial property development finance](/resources/guides/commercial-property-development-finance) and [bridging finance for developers](/resources/guides/commercial-property-development-finance).
 
 ### Business premises purchases
 
@@ -338,7 +338,7 @@ When the transaction itself is solid, bridging can work very well. When the tran
 
 ### Commercial refinance
 
-If there is enough time and the file suits a longer-term structure, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may be the cleaner answer.
+If there is enough time and the file suits a longer-term structure, [commercial property refinancing](/services/refinancing-solutions) may be the cleaner answer.
 
 ### Private lending
 
@@ -525,7 +525,7 @@ The right question is not whether bridging finance exists. It is whether the spe
 ## Related Guides
 
 - [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [SMSF Loans for Commercial Property](/services/smsf-lending)
 - [What is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)

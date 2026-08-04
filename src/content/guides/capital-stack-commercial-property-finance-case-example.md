@@ -29,7 +29,7 @@ For Australian business owners, developers, and property investors, the capital 
 - **[Mezzanine Finance Australia](/resources/guides/mezzanine-finance-australia-complete-guide)** — how layered capital can sit behind senior debt.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — when an additional registered mortgage may be used.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lender assessment for non-standard files.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance pathways when the exit is debt replacement.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways when the exit is debt replacement.
 - **[Property Development Loans](/resources/guides/property-development-loans-complete-funding-guide)** — development funding context for more complex stacks.
 
 ## At a Glance

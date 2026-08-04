@@ -98,7 +98,7 @@ Lines of credit excel when capital needs fluctuate or when you want standby fund
 Businesses with seasonal revenue or project-based cash flow may draw on a line of credit during lean periods and repay when cash flow improves. This provides financial cushion without paying interest on unused capacity.
 
 **Ongoing investment opportunities:**
-Property investors who regularly purchase assets benefit from having credit available to seize opportunities without reapplying for finance each time. Draw down for deposits, repay from rental income or sales, and maintain ongoing access. [Explore commercial real estate lender options](/resources/guides/commercial-real-estate-lenders-australia-directory) for investment property financing.
+Property investors who regularly purchase assets benefit from having credit available to seize opportunities without reapplying for finance each time. Draw down for deposits, repay from rental income or sales, and maintain ongoing access. [Explore commercial real estate lender options](/resources/guides/commercial-property-lenders-in-australia-complete-directory) for investment property financing.
 
 **Business cash flow buffer:**
 Companies wanting backup funding for unexpected expenses, delayed receivables, or short-term cash flow gaps can maintain a line of credit as insurance. You only pay interest when you actually draw funds. For businesses with invoice-based cash flow gaps, [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) provides alternative working capital solutions.
@@ -315,11 +315,24 @@ Generally no interest on undrawn amounts, though some lenders charge line fees (
 
 Lines of credit provide more flexibility—you can make additional repayments anytime to reduce drawn balance and interest costs without penalties. Second mortgages often have fixed repayment schedules and may charge early repayment fees or break costs if you repay ahead of schedule.
 
+## How a Property-Backed Line of Credit Behaves in Practice
+
+A property-backed line of credit separates the **approved limit** from the **amount actually drawn**. The lender first assesses usable equity, existing mortgage debt, purpose, serviceability and exit. The borrower then draws only what the business needs, subject to the facility terms. Interest is generally calculated on the drawn balance, while line, review or unused-limit fees may still apply.
+
+| Funding pattern | Structure usually worth comparing | Why |
+|---|---|---|
+| One defined purchase, payout or settlement shortfall | Second mortgage or term facility | A single advance creates a clearer repayment schedule and limits repeated redraws. |
+| Staged stock, supplier or project payments | Line of credit | Funds can be drawn and repaid as the working-capital need changes. |
+| Recurring cash-flow deficit with no recovery date | Neither until the operating issue is addressed | Revolving secured debt can hide rather than solve a structural shortfall. |
+| Deadline is too close for a bank line to be established | Short-term specialist facility | Speed may matter more than redraw flexibility, but the exit must be credible. |
+
+A line of credit should also be compared with an overdraft. Both can support variable working-capital needs, but security, review terms, fees and lender control can differ materially. Borrowers should model the drawn balance under a stressed cash-flow case, not assume the full approved limit is harmless because it is initially unused.
+
 ## Related Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Comprehensive guide to second mortgage structures, applications, and scenarios
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — How to leverage business assets for funding
-- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Complete directory of commercial lenders
+- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-property-lenders-in-australia-complete-directory)** — Complete directory of commercial lenders
 - **[What is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Understanding private lending structures and use cases
 - **[Case Studies: Business Finance](/resources/case-studies)** — Real examples of business lending scenarios we've supported
 

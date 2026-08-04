@@ -28,7 +28,7 @@ A short WALE does not automatically make a property unfinanceable. It changes th
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main commercial property finance pillar.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how lenders assess income and debt capacity.
 - **[Commercial Property Due Diligence Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — finance checks before buying.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance pathways when the current structure does not fit.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways when the current structure does not fit.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — how lender appetite differs.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — short-term property funding context.
 
@@ -71,7 +71,7 @@ A short-WALE asset is harder to fund when the lender cannot see the exit if inco
 
 It can also be difficult when the borrower wants bank-style pricing for private-credit risk. If the lease profile is transitional, the structure may need to reflect that through lower leverage, stronger security, interest reserves, staged funding, or a shorter-term bridge to a cleaner refinance.
 
-If the file has a broader refinance issue, compare [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) and [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better).
+If the file has a broader refinance issue, compare [commercial property refinancing](/services/refinancing-solutions) and [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better).
 
 ## How Lenders Assess Short WALE
 
@@ -121,7 +121,7 @@ Useful documents include:
 - current loan statements; and
 - written exit strategy.
 
-If the borrower has limited financial documents, [low-doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) may explain alternative evidence. Short WALE plus unclear documents is a harder combination, so packaging matters.
+If the borrower has limited financial documents, [low-doc commercial loans](/resources/guides/no-doc-abn-loans) may explain alternative evidence. Short WALE plus unclear documents is a harder combination, so packaging matters.
 
 ## Practical Example
 

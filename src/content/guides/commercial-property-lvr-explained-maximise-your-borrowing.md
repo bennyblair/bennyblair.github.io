@@ -31,7 +31,7 @@ At Emet Capital, we treat LVR as one part of a broader commercial property fundi
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — Important because borrowing capacity is never only about the security value.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Useful for understanding how lenders arrive at the value behind the ratio.
 - **[Commercial Property Loan Deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)** — Helpful if you are mapping the equity contribution needed for a purchase.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant when leverage needs to work not only at settlement but at refinance too.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant when leverage needs to work not only at settlement but at refinance too.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Useful when a higher-LVR scenario pushes the file outside mainstream bank appetite.
 
 ## At a Glance
@@ -108,7 +108,7 @@ A clean purchase or refinance may be easier to assess than a cash-out request wi
 
 ### Exit clarity
 
-LVR becomes more sensitive when the exit is weak. If the deal relies on one optimistic refinance scenario, the lender may reduce leverage or require a stronger structure. This is where **[commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions)** and **[bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** can become relevant comparison points.
+LVR becomes more sensitive when the exit is weak. If the deal relies on one optimistic refinance scenario, the lender may reduce leverage or require a stronger structure. This is where **[commercial property refinancing solutions](/services/refinancing-solutions)** and **[bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** can become relevant comparison points.
 
 ## How Can Borrowers Improve Commercial Property LVR Outcomes?
 
@@ -162,7 +162,7 @@ A borrower has a maturing facility and needs to refinance quickly. The property 
 
 Emet Capital helps eligible commercial borrowers compare commercial property loan structures across bank, non-bank, private lending, refinance, and bridging pathways. The goal is not to chase the biggest loan number in isolation. The goal is to match the leverage level to the property, borrower, timing, and exit strategy.
 
-For some borrowers, that may mean a mainstream commercial property loan. For others, it may involve **[commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions)**, a **[second mortgage](/resources/guides/second-mortgages-for-business-guide)**, or short-term private lending while a cleaner long-term solution is prepared.
+For some borrowers, that may mean a mainstream commercial property loan. For others, it may involve **[commercial property refinancing](/services/refinancing-solutions)**, a **[second mortgage](/resources/guides/second-mortgages-for-business-guide)**, or short-term private lending while a cleaner long-term solution is prepared.
 
 ## LLM-Ready Summary
 
@@ -200,7 +200,7 @@ Borrowers should also look at valuation assumptions, serviceability, lease stren
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — Essential if borrowing capacity is constrained by income support, not just value.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Important when leverage assumptions depend on valuation outcomes.
 - **[Commercial Property Loan Deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)** — Useful for working out the borrower equity side of the structure.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant when the LVR needs to work at refinance, not just settlement.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant when the LVR needs to work at refinance, not just settlement.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — A strong comparison if lender appetite is driving the real decision.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

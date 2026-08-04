@@ -137,7 +137,7 @@ Before asking a lender to assess a deposit shortfall, prepare:
 - **[Commercial Property Due Diligence Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — settlement readiness checks.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — timing-gap funding explained.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — using additional property security for business finance.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance exits and takeout planning.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance exits and takeout planning.
 
 ## Frequently Asked Questions
 

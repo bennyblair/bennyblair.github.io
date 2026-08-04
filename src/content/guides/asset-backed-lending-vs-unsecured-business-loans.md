@@ -61,7 +61,7 @@ Common examples include a manufacturer using plant and equipment as part of a fu
 
 Asset-backed lending can also be useful where the business has a strong commercial reason for funding but does not fit a simple unsecured scorecard. For example, the borrower may have lumpy revenue, seasonal working capital needs, or a transaction that requires a more flexible assessment than a standard unsecured product allows.
 
-If the available assets are property-backed, the comparison may also overlap with [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), or other private lending structures.
+If the available assets are property-backed, the comparison may also overlap with [commercial property refinancing](/services/refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), or other private lending structures.
 
 ## When unsecured business lending may fit better
 

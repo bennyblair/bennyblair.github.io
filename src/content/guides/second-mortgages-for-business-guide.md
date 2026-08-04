@@ -21,7 +21,7 @@ A second mortgage for business funding can release property equity without repla
 
 The decision framework extends beyond simple cost comparison. A good second mortgage file explains why the first mortgage should stay in place, what the new money will do, how both debts will be serviced, and how the second mortgage will be repaid or refinanced.
 
-For ownership changes, read this guide alongside [second mortgage partnership buyout financing](/resources/guides/second-mortgage-partnership-buyout-financing-transitions) and [second mortgage for a business partner buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia). Those pages focus on partner exits, valuation evidence, and transition planning rather than general working-capital use.
+For ownership changes, read this guide alongside [second mortgage partnership buyout financing](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia) and [second mortgage for a business partner buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia). Those pages focus on partner exits, valuation evidence, and transition planning rather than general working-capital use.
  Second mortgages preserve favourable first mortgage arrangements—if your existing loan sits at a lender-specific percentage fixed for another four years, avoiding refinancing to a new a lender-specific percentage rate saves substantial interest that partially offsets second mortgage premiums. They can sometimes be assessed on a more focused basis than a full refinance, enable accessing equity when banks won't increase first mortgages, and maintain flexibility through typically shorter terms allowing refinancing once circumstances improve. However, the subordinate security position means second mortgage lenders price and structure the facility to reflect the subordinate risk, combined debt obligations can create cash-flow pressure, and defaulting on either mortgage can put business property at risk.
 
 This guide provides a systematic decision framework for evaluating whether first or second mortgage funding makes sense for a business-purpose scenario. It explains when a second mortgage may deliver value, when a refinance or other business finance structure may be cleaner, what factors strengthen or weaken the business case, and how borrowers can plan repayment without treating secured debt as open-ended cash flow. For the service overview, use [first and second mortgages](/services/first-second-mortgages); for the deeper explainer, this canonical guide replaces the retired first-and-second-mortgages article.
@@ -32,7 +32,7 @@ This guide provides a systematic decision framework for evaluating whether first
 
 ### Related In-Depth Guides
 
-- **[Second Mortgage Partnership Buyout Financing](/resources/guides/second-mortgage-partnership-buyout-financing-transitions)** — funding partner exits and ownership transitions.
+- **[Second Mortgage Partnership Buyout Financing](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — funding partner exits and ownership transitions.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — focused buyout structure, valuation, and exit planning.
 - **[Second Mortgage Loan Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — compare equity release use cases before choosing a structure.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — useful where revolving access may be compared with a fixed second mortgage.
@@ -242,7 +242,7 @@ Ready to evaluate whether second mortgages suit your business? Conduct thorough 
 ## Related Guides
 
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare urgent caveat funding with structured second mortgage finance.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — consider when a full refinance may be cleaner than layered debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — consider when a full refinance may be cleaner than layered debt.
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — useful where equity release supports an ownership or acquisition event.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare unsecured or cash-flow-led options before using property equity.
 

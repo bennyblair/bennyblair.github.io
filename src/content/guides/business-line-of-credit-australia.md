@@ -120,7 +120,7 @@ Useful documents include:
 - property or asset security details; and
 - a short use-of-funds and repayment summary.
 
-Where standard financials are incomplete, [low-doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) may help explain alternative evidence. The lender still needs enough information to understand the risk.
+Where standard financials are incomplete, [low-doc commercial loans](/resources/guides/no-doc-abn-loans) may help explain alternative evidence. The lender still needs enough information to understand the risk.
 
 ## Secured Versus Unsecured Lines Of Credit
 

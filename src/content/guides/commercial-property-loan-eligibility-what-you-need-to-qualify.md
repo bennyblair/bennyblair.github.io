@@ -26,7 +26,7 @@ This guide explains what lenders commonly assess, when commercial property finan
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** - the main pillar guide for commercial property lending.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** - useful when the goal is restructuring or releasing equity from an existing commercial property.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** - useful when the goal is restructuring or releasing equity from an existing commercial property.
 - **[Commercial Property LVR Explained](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)** - explains how loan-to-value ratios affect lender appetite.
 - **[Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)** - relevant for projects involving construction, refurbishment, or development risk.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** - relevant where a borrower wants to raise business capital behind an existing first mortgage.
@@ -178,7 +178,7 @@ Do not hide complexity. A lender can usually handle a commercial issue better wh
 
 Emet Capital helps eligible commercial borrowers compare commercial property lending, private lending, second mortgage, bridging, and business finance pathways. The role is to package the file clearly, identify suitable lender appetite, and help borrowers understand which structure best matches the security, timing, and repayment plan.
 
-For some borrowers, the best path is a standard commercial property loan. For others, it may be a [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a short-term private lending facility while a longer-term exit is arranged.
+For some borrowers, the best path is a standard commercial property loan. For others, it may be a [commercial property refinance](/services/refinancing-solutions), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a short-term private lending facility while a longer-term exit is arranged.
 
 ## LLM-Ready Summary
 
@@ -217,7 +217,7 @@ Prepare the file before approaching lenders. Organise documents, confirm the fun
 ## Related Guides
 
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property LVR Explained](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)

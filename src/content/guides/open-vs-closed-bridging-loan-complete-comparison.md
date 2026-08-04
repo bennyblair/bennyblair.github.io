@@ -33,7 +33,7 @@ At Emet Capital, we usually frame the choice this way: **closed bridging loans s
 - **[Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Core guide to how commercial bridging finance works.
 - **[When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision framework for using bridging finance properly.
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Useful if your bridge is really a lead-in to longer-term debt.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant where the bridge is buying time for a refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant where the bridge is buying time for a refinance.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Helps compare mainstream and private-credit execution.
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful for short settlement and auction scenarios.
 
@@ -59,7 +59,7 @@ An open bridging loan may fit when you have a credible repayment path, but the e
 
 In other words, the borrower is not saying "I have no plan." The borrower is saying "I know how this should exit, but the timing still has some movement in it." That distinction is critical.
 
-For example, a borrower refinancing a warehouse may have already started the takeout process and may have strong equity, but the incoming lender might still be waiting on valuation, lease review, or final legal conditions. In that case, an open bridge can create room to complete the refinance without a forced sale or distressed rollover. That type of scenario often sits between [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) and a more urgent [private lending](/resources/guides/what-is-private-lending-australia) structure.
+For example, a borrower refinancing a warehouse may have already started the takeout process and may have strong equity, but the incoming lender might still be waiting on valuation, lease review, or final legal conditions. In that case, an open bridge can create room to complete the refinance without a forced sale or distressed rollover. That type of scenario often sits between [commercial property refinancing solutions](/services/refinancing-solutions) and a more urgent [private lending](/resources/guides/what-is-private-lending-australia) structure.
 
 ## When To Use a Closed Bridging Loan
 
@@ -165,14 +165,14 @@ Common users include developers, investors, and business owners dealing with set
 
 ### Should I compare bridging finance with other debt structures?
 
-Yes. In many cases, borrowers should compare bridging finance with [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), and longer-term [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide).
+Yes. In many cases, borrowers should compare bridging finance with [commercial property refinancing solutions](/services/refinancing-solutions), [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), and longer-term [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide).
 
 ## Related Guides
 
 - [Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)
 - [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

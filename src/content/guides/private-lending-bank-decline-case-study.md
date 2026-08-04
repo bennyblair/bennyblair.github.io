@@ -28,7 +28,7 @@ This guide explains how a bank-declined business finance file can be reviewed, w
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — the main pillar guide for private commercial lending.
 - **[Private Commercial Loans After Bank Decline](/resources/guides/private-commercial-loans-after-bank-decline)** — practical next steps when a bank says no.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare assessment style, timing, and risk.
-- **[Low Doc and No Doc Commercial Loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide)** — when documentation gaps are part of the issue.
+- **[Low Doc and No Doc Commercial Loans](/resources/guides/no-doc-abn-loans)** — when documentation gaps are part of the issue.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — how property security supports commercial borrowing.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — context for short-term business funding pressure.
 
@@ -116,7 +116,7 @@ The file became stronger once the borrower supplied documents that matched the l
 | Creditor or payout schedule | Showed what obligations would be cleared or managed. |
 | Exit memo | Explained refinance, sale, receivables, or business cash event. |
 
-Where documentation gaps are the main issue, borrowers should also compare [low doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide). Low-doc does not mean no evidence. It means the lender may use different evidence to assess a commercial borrower.
+Where documentation gaps are the main issue, borrowers should also compare [low doc commercial loans](/resources/guides/no-doc-abn-loans). Low-doc does not mean no evidence. It means the lender may use different evidence to assess a commercial borrower.
 
 ## How The Broker Reframed The Scenario
 

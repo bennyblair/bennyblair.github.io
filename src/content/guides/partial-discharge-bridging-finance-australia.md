@@ -31,7 +31,7 @@ The key issue is control. A partial discharge only works when the existing lende
 - **[What Is Bridging Finance](/resources/guides/what-is-bridging-finance)** — start with the basic mechanics of bridging loans.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — compare commercial property loan assessment and security issues.
 - **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — review development funding and release scenarios.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — compare refinance exits after a short-term bridge.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare refinance exits after a short-term bridge.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — understand second-ranking security where a full refinance is not possible.
 
 ## At a Glance
@@ -81,7 +81,7 @@ Developers often sell lots or units in stages. The lender may hold a mortgage ov
 
 This becomes difficult when early sales proceeds are needed for project costs, but the lender wants most proceeds applied to debt reduction. A bridging facility may help where a temporary shortfall exists and the next lot sale, refinance, or residual stock sale creates a clear repayment source.
 
-For broader project funding context, compare [property development loans](/resources/guides/property-development-loans-complete-funding-guide), [bridging finance for developers](/resources/guides/bridging-finance-developers-project-funding-solutions), and [construction finance](/resources/guides/construction-finance-australia-complete-guide). The key is to show the lender how each release affects the whole project, not just one settlement.
+For broader project funding context, compare [property development loans](/resources/guides/property-development-loans-complete-funding-guide), [bridging finance for developers](/resources/guides/commercial-property-development-finance), and [construction finance](/resources/guides/construction-finance-australia-complete-guide). The key is to show the lender how each release affects the whole project, not just one settlement.
 
 ## Scenario 2: Portfolio Property Investors
 
@@ -89,7 +89,7 @@ A commercial property investor may have several properties cross-collateralised 
 
 The existing lender may ask whether the remaining portfolio still supports the residual loan. If a valuation has softened, a lease has expired, or income has changed, the release amount may be higher than expected. The borrower may then need a bridging facility to cover a shortfall or to refinance part of the debt.
 
-Relevant background includes [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [cross-collateralised commercial property refinance](/resources/guides/cross-collateralised-commercial-property-refinance-australia), and [commercial property loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide).
+Relevant background includes [commercial property refinancing](/services/refinancing-solutions), [cross-collateralised commercial property refinance](/resources/guides/cross-collateralised-commercial-property-refinance-australia), and [commercial property loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide).
 
 ## Scenario 3: Settlement Timing Between Sale and Refinance
 
@@ -182,7 +182,7 @@ The main risk is relying on a title release before the existing lender, valuatio
 
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — overview of bridging structures and risks.
 - **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — development funding and staged-release context.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance exits for commercial property borrowers.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance exits for commercial property borrowers.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — second-ranking options where full refinance is not available.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lender role in complex timing scenarios.
 

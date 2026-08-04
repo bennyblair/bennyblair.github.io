@@ -31,7 +31,7 @@ In plain terms, private mortgage lending is not a retail home-loan substitute. I
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — understand property-backed lending behind an existing first mortgage.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — compare urgent caveat finance with mortgage-backed private lending.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main commercial property finance hub.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — where private mortgage lending may be used as a refinance bridge.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — where private mortgage lending may be used as a refinance bridge.
 
 ## At a Glance
 
@@ -56,7 +56,7 @@ Private mortgage lending is commercial finance secured by a mortgage or mortgage
 
 The word "mortgage" refers to the security structure, not the borrower type. For Emet Capital content, the focus is commercial and business-purpose lending for eligible borrowers, not consumer or owner-occupier lending. A borrower may use commercial property, investment property, development property, or other acceptable security depending on the lender and scenario.
 
-Private mortgage lending sits inside the broader [private lending in Australia](/resources/guides/what-is-private-lending-australia) category. It can overlap with [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), and short-term property-backed business loans.
+Private mortgage lending sits inside the broader [private lending in Australia](/resources/guides/what-is-private-lending-australia) category. It can overlap with [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [commercial property refinancing](/services/refinancing-solutions), and short-term property-backed business loans.
 
 ## When To Use Private Mortgage Lending
 
@@ -161,7 +161,7 @@ Prepare property details, existing debt statements, business bank statements, en
 - **[Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — understand the wider category before choosing a property-backed structure.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — relevant where another lender already holds first mortgage security.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — useful when the issue is a short-term timing gap.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — compare private mortgage lending with refinance pathways.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare private mortgage lending with refinance pathways.
 - **[Commercial Property Finance Broker Selection Checklist](/resources/guides/commercial-property-finance-broker-selection-checklist)** — prepare questions before selecting a broker or lender path.
 
 ## Disclaimer

@@ -22,7 +22,7 @@ Commercial bridging finance is short-term property-backed funding used to solve 
 
 That distinction matters. Commercial bridging finance can be very useful when the asset is sound, the timeframe is genuinely short, and the exit is credible. It becomes much less useful when the deal has no clear repayment path, the leverage is too aggressive, or the borrower is using short-term debt to hide a problem that is actually long-term.
 
-For property investors, developers, and business owners, the right question is not whether bridging finance is “good” or “bad”. It is whether the bridge is solving a real gap in a controlled way. If that gap is genuine, a bridge may be cleaner than forcing a rushed [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), stretching a weak [refinance](/resources/guides/commercial-property-refinancing-solutions), or waiting too long and losing the transaction entirely.
+For property investors, developers, and business owners, the right question is not whether bridging finance is “good” or “bad”. It is whether the bridge is solving a real gap in a controlled way. If that gap is genuine, a bridge may be cleaner than forcing a rushed [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), stretching a weak [refinance](/services/refinancing-solutions), or waiting too long and losing the transaction entirely.
 
 ### Related In-Depth Guides
 
@@ -30,7 +30,7 @@ For property investors, developers, and business owners, the right question is n
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful for hard settlement dates and auction risk.
 - **[Swing Loans Explained: Seamless Property Transitions](/resources/guides/swing-loans-explained-seamless-property-transitions)** — Helpful if the bridge is tied to one property sale funding another purchase.
 - **[Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Relevant if the deal is being shaped by lender fit and timing.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Important when the bridge is only an interim step before permanent debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Important when the bridge is only an interim step before permanent debt.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if the bridge is likely to be sourced from specialist or private lenders.
 
 ## At a Glance
@@ -215,7 +215,7 @@ Fast is useful, but only when speed is the actual issue. If the issue is weak st
 
 ### Would a different structure be cleaner?
 
-In some cases, a [commercial refinance](/resources/guides/commercial-property-refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), or standard mortgage path may be more honest and more stable.
+In some cases, a [commercial refinance](/services/refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), or standard mortgage path may be more honest and more stable.
 
 That comparison matters because the cheapest-looking option is not always the cleanest option, and the fastest option is not always the safest one.
 
@@ -253,7 +253,7 @@ It does not make sense when the borrower is using short-term debt to disguise a 
 
 ## Related Guides
 
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
 - [Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)

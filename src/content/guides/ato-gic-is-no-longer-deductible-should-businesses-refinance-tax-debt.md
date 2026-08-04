@@ -41,7 +41,7 @@ The practical question is not, "Is private finance cheaper than the ATO?" The be
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** - funding options for overdue ATO liabilities.
 - **[ATO Garnishee Notice Finance for Australian Businesses](/resources/guides/ato-garnishee-notice-finance-for-australian-businesses)** - responding when collection action has already begun.
 - **[Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)** - restructuring multiple business debts into a cleaner facility.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** - using commercial property refinance to release capital or restructure debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** - using commercial property refinance to release capital or restructure debt.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** - how private lending works for time-sensitive business funding.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** - cash-flow funding options for trading businesses.
 
@@ -94,7 +94,7 @@ For businesses with several pressure points, our guide to [business debt consoli
 
 Refinancing may make sense when the tax debt arose from a temporary event rather than a broken business model. Examples include a delayed debtor receipt, project timing mismatch, seasonal revenue dip, one-off expansion cost or a short-term disruption that has now been corrected.
 
-It may also fit when commercial property equity can support a refinance. In that situation, a borrower might use [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) to release capital, pay the ATO and move the debt into a structured business-purpose facility.
+It may also fit when commercial property equity can support a refinance. In that situation, a borrower might use [commercial property refinancing](/services/refinancing-solutions) to release capital, pay the ATO and move the debt into a structured business-purpose facility.
 
 Another suitable case is where ATO pressure is blocking a broader finance outcome. Some lenders will not proceed while tax arrears remain unresolved. Clearing the arrears may allow the business to refinance through a more stable longer-term structure later.
 
@@ -171,7 +171,7 @@ The biggest risk is replacing ATO debt with lender debt without fixing the cash-
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)**
 - **[ATO Garnishee Notice Finance for Australian Businesses](/resources/guides/ato-garnishee-notice-finance-for-australian-businesses)**
 - **[Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)**
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)**
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

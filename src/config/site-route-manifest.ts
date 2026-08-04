@@ -324,8 +324,9 @@ const simpleAliases: Record<string, string> = {
   "/market-insights": "/resources/insights",
   "/tools": "/resources/tools",
   "/private-mortgage-lenders-australia-directory-2026":
-    "/resources/guides/private-mortgage-lenders-australia-directory-2026",
-  "/subordination-agreement-second-mortgage": "/resources/guides/subordination-agreement-second-mortgage",
+    "/resources/guides/private-mortgage-lenders-australia-directory",
+  "/subordination-agreement-second-mortgage":
+    "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
   "/copy-of-commercial-property-development": "/services/commercial-property-development",
   "/copy-of-working-capital": "/services/working-capital",
 };
@@ -348,7 +349,7 @@ const guideAliases: Record<string, string> = {
   "short-term-property-funding": "short-term-property-loans-when-you-need-fast-finance",
   "caveat-loans-vs-second-mortgages": "caveat-loans-vs-bank-loans-speed-comparison",
   "private-lending-sydney-business-guide": "../../services/private-lending/cities/sydney",
-  "second-mortgage-australia": "what-is-a-second-mortgage",
+  "second-mortgage-australia": "second-mortgages-for-business-guide",
   "caveat-loans-sydney-same-day-approval-available": "../../services/caveat-loans/cities/sydney",
   "caveat-loans-melbourne-quick-business-finance": "../../services/caveat-loans/cities/melbourne",
   "caveat-loans-perth-business-property-finance": "../../services/caveat-loans/cities/perth",
@@ -358,16 +359,44 @@ const guideAliases: Record<string, string> = {
   "second-mortgage-vs-line-of-credit-which-to-choose": "second-mortgage-vs-line-of-credit",
   "understanding-lvr-priority-deeds-commercial-lending":
     "priority-agreements-in-second-mortgages-what-they-mean",
-  "private-mortgage-lenders-australia-directory": "private-mortgage-lenders-australia-directory-2026",
-  "private-lenders-for-mortgages": "private-mortgage-lenders-australia-directory-2026",
+  "private-mortgage-lenders-australia-directory-2026": "private-mortgage-lenders-australia-directory",
+  "private-lenders-for-mortgages": "private-mortgage-lenders-australia-directory",
   "commercial-bridging-finance-auction-purchases":
     "commercial-bridging-loans-for-property-auctions-expert-guide",
   "commercial-bridging-loans-property-auctions-expert-guide":
     "commercial-bridging-loans-for-property-auctions-expert-guide",
   "commercial-property-finance-sydney":
     "commercial-property-finance-sydney-local-expert-hub",
-  "finding-best-private-lenders-for-your-business": "finding-comparing-private-lenders-loans-2025-guide",
-  "private-lenders-small-business-fast-approval-guide": "what-is-private-lending-australia",
+  "finding-best-private-lenders-for-your-business": "private-mortgage-lenders-australia-directory",
+  "private-lenders-small-business-fast-approval-guide":
+    "short-term-private-lenders-fast-business-finance-solutions",
+  "line-of-credit-equity": "second-mortgage-vs-line-of-credit",
+  "negative-gearing-commercial-property-tax-strategies":
+    "commercial-property-loans-australia-complete-guide",
+  "commercial-land-loans-financing-property-development": "commercial-property-development-finance",
+  "commercial-property-finance-rates-2025-comparison":
+    "commercial-mortgage-rates-australia-complete-guide",
+  "bridging-finance-sydney-48-hour-settlement-possible":
+    "../../services/bridging-finance/cities/sydney",
+  "private-commercial-real-estate-lenders-cre-directory":
+    "commercial-property-lenders-in-australia-complete-directory",
+  "bridging-finance-developers-project-funding-solutions":
+    "commercial-property-development-finance",
+  "commercial-property-refinancing-solutions": "../../services/refinancing-solutions",
+  "when-second-mortgages-make-financial-sense-smes":
+    "second-mortgage-loan-equity-access-strategies",
+  "commercial-property-loan-retail-spaces-guide":
+    "commercial-property-loans-australia-complete-guide",
+  "low-doc-no-doc-commercial-loans-complete-alternative-guide": "no-doc-abn-loans",
+  "subordination-agreement-second-mortgage":
+    "priority-agreements-in-second-mortgages-what-they-mean",
+  "commercial-real-estate-lenders-australia-directory":
+    "commercial-property-lenders-in-australia-complete-directory",
+  "secured-business-loans-australia": "secured-vs-unsecured-business-loans-australia",
+  "caveat-loan-application-rejected-what-to-do-next":
+    "caveat-loan-rejected-heres-what-to-do-next",
+  "second-mortgage-partnership-buyout-financing-transitions":
+    "second-mortgage-for-a-business-partner-buyout-in-australia",
 };
 
 function guideTarget(target: string) {

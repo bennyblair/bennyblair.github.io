@@ -23,7 +23,7 @@ metaDescription: "Business loans for startups in Australia explained, including 
 
 A business loan for a startup business is commercial finance used by a new or early-stage business before it has a long operating history. In Australia, startup business loans are assessed differently from established SME loans because the lender has less trading evidence and must rely more heavily on security, founder experience, contracts, cash-flow forecasts, contribution, and the reason the funds are needed.
 
-For a startup, the key question is not “can I get a loan?” The better question is whether debt is the right tool at this stage. Startup debt can help fund equipment, fitout, stock, deposits, premises, working capital, or acquisition costs, but it can also add pressure before revenue is stable. Emet Capital helps commercial borrowers compare startup finance with [business acquisition finance](/resources/guides/business-acquisition-finance-australia), [working capital loans](/resources/guides/working-capital-loans-for-smes), [equipment finance](/resources/guides/equipment-finance-and-leasing-australia), [secured business loans](/resources/guides/secured-business-loans-australia), and [private lending](/resources/guides/what-is-private-lending-australia). This is general information only and not financial advice.
+For a startup, the key question is not “can I get a loan?” The better question is whether debt is the right tool at this stage. Startup debt can help fund equipment, fitout, stock, deposits, premises, working capital, or acquisition costs, but it can also add pressure before revenue is stable. Emet Capital helps commercial borrowers compare startup finance with [business acquisition finance](/resources/guides/business-acquisition-finance-australia), [working capital loans](/resources/guides/working-capital-loans-for-smes), [equipment finance](/resources/guides/equipment-finance-and-leasing-australia), [secured business loans](/resources/guides/secured-vs-unsecured-business-loans-australia), and [private lending](/resources/guides/what-is-private-lending-australia). This is general information only and not financial advice.
 
 ### Related In-Depth Guides
 
@@ -79,7 +79,7 @@ Some “startup” borrowers are not starting from zero. They are buying an exis
 
 ### Premises and commercial property
 
-A founder buying or fitting out business premises may need property-backed funding. That can overlap with [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [secured business loans](/resources/guides/secured-business-loans-australia), or [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better).
+A founder buying or fitting out business premises may need property-backed funding. That can overlap with [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [secured business loans](/resources/guides/secured-vs-unsecured-business-loans-australia), or [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better).
 
 ## When To Use Startup Business Finance
 
@@ -121,7 +121,7 @@ The goal is not to create a glossy pitch deck. The goal is to let the lender see
 
 Unsecured startup loans are difficult because the lender has no asset support and limited trading history. They may be available in smaller amounts or where the founders have strong profiles, but appetite can be limited.
 
-Secured startup loans may be more realistic where the borrower can offer property, equipment, or other assets. Security does not remove the need for a credible repayment plan, but it can give the lender more comfort. Read [secured business loans in Australia](/resources/guides/secured-business-loans-australia) for the deeper framework.
+Secured startup loans may be more realistic where the borrower can offer property, equipment, or other assets. Security does not remove the need for a credible repayment plan, but it can give the lender more comfort. Read [secured business loans in Australia](/resources/guides/secured-vs-unsecured-business-loans-australia) for the deeper framework.
 
 The trade-off is risk. If the loan is secured against important property or business assets, default can have serious consequences.
 

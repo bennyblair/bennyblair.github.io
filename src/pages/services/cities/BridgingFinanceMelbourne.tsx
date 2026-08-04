@@ -93,7 +93,7 @@ export default function BridgingFinanceMelbourne() {
         },
         {
           title: 'Commercial Property Refinancing Solutions',
-          href: '/resources/guides/commercial-property-refinancing-solutions',
+          href: '/services/refinancing-solutions',
           description: 'Helpful for refinance-bridge scenarios where the next funding stage is already being arranged.'
         }
       ]}

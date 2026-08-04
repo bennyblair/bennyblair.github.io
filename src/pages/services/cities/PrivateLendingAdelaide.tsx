@@ -93,7 +93,7 @@ export default function PrivateLendingAdelaide() {
         },
         {
           title: 'Commercial Property Refinancing Solutions',
-          href: '/resources/guides/commercial-property-refinancing-solutions',
+          href: '/services/refinancing-solutions',
           description: 'Useful if the Adelaide scenario centres on refinance timing.'
         }
       ]}

@@ -80,7 +80,7 @@ Asset-backed lending is not suitable when the asset is unclear, overvalued, alre
 
 It may also be a poor fit where the real issue is structural cash-flow weakness. If the business cannot explain how the facility will be repaid, using more assets as security may only delay the problem. Lenders will still ask how the loan exits, whether through receivable collection, refinance, asset sale, trading cash flow, or another commercial event.
 
-If timing is urgent and business assets are not enough, a borrower may need to compare [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgage finance](/resources/guides/second-mortgages-for-business-guide), or short-term private lending instead.
+If timing is urgent and business assets are not enough, a borrower may need to compare [commercial property refinancing](/services/refinancing-solutions), [second mortgage finance](/resources/guides/second-mortgages-for-business-guide), or short-term private lending instead.
 
 ## How Equipment Can Support a Business Loan
 
@@ -189,6 +189,6 @@ Yes. Emet Capital connects eligible business borrowers with commercial lenders a
 - [Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)
 - [Invoice Finance Australia Complete Guide](/resources/guides/invoice-finance-australia-complete-guide)
 - [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

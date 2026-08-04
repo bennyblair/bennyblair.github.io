@@ -32,7 +32,7 @@ At Emet Capital, we usually see bridging finance used where settlement timing, r
 - **[Open vs Closed Bridging Loan Comparison](/resources/guides/open-vs-closed-bridging-loan-complete-comparison)** — Useful for understanding certainty of repayment timing.
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Relevant where the bridge is being used to meet a hard settlement deadline.
 - **[When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision-focused guide on fit and misuse.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Important if your main exit is a refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Important if your main exit is a refinance.
 - **[Commercial Property Settlement Process](/resources/guides/commercial-property-settlement-process-finance-timeline)** — Helpful if your exit depends on settlement timing and legal coordination.
 
 ## At a Glance
@@ -197,7 +197,7 @@ Before the bridge is approved, not after settlement. The cleaner the exit logic 
 - [Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Open vs Closed Bridging Loan Comparison](/resources/guides/open-vs-closed-bridging-loan-complete-comparison)
 - [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Loan Refinance](/resources/guides/commercial-loan-refinance)
 
 **Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

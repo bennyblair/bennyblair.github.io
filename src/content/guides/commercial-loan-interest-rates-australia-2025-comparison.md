@@ -40,7 +40,7 @@ At Emet Capital, we treat pricing as a structure issue before it becomes a numbe
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Foundation guide to commercial property debt, structures, and lender fit.
 - **[Commercial Mortgage Rates Australia: Complete Guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide)** — Useful if your loan is specifically secured by commercial real estate.
 - **[Commercial Loan Refinance](/resources/guides/commercial-loan-refinance)** — Relevant when pricing is part of a refinance or debt restructure decision.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Broader guide to refinancing pathways, trade-offs, and timing.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Broader guide to refinancing pathways, trade-offs, and timing.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Helpful if you are weighing lower-cost mainstream credit against flexible private capital.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Useful when the loan is primarily for operating liquidity rather than property acquisition.
 
@@ -155,7 +155,7 @@ A cheaper headline can still be the weaker commercial outcome if the structure i
 
 A commercial borrower should always ask: can this lender actually execute this deal inside the required timeframe and policy envelope? If the answer is uncertain, the rate alone is not the decision.
 
-That issue becomes even more important in refinance scenarios, where a borrower may need certainty first and optimisation second. Our [commercial property refinancing solutions guide](/resources/guides/commercial-property-refinancing-solutions) explains that trade-off in more detail.
+That issue becomes even more important in refinance scenarios, where a borrower may need certainty first and optimisation second. Our [commercial property refinancing solutions guide](/services/refinancing-solutions) explains that trade-off in more detail.
 
 ## When pricing is not the real problem
 
@@ -200,7 +200,7 @@ A business borrower should usually prioritise certainty over rate when there is 
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Mortgage Rates Australia: Complete Guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide)
 - [Commercial Loan Refinance](/resources/guides/commercial-loan-refinance)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

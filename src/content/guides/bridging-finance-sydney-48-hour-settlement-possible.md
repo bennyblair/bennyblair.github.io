@@ -31,7 +31,7 @@ If you need local terms, lender matching, or a commercial discussion about a liv
 - **[Commercial Bridging Finance Makes Sense in Australia And When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — Decision-first framework for good-fit and bad-fit bridge scenarios.
 - **[Open vs Closed Bridging Loan Complete Comparison](/resources/guides/open-vs-closed-bridging-loan-complete-comparison)** — Useful if timing certainty is a key issue.
 - **[Bridging Loan Exit Strategies Plan Your Repayment Path](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — Essential reading before taking on any short-term bridge.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Compare a short bridge with a direct refinance path.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Compare a short bridge with a direct refinance path.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broader context on commercial funding options.
 - **[Sydney Bridging Finance Service Page](/services/bridging-finance/cities/sydney)** — Local conversion page for borrowers ready to discuss a live Sydney transaction.
 
@@ -79,7 +79,7 @@ This is a classic use case. A borrower secures the next asset first and repays t
 
 ### Refinance maturities
 
-If an existing lender needs repayment before the replacement facility is ready, a short bridge may stop the borrower being forced into a distressed or poorly timed rollover. This is common where valuation, legal, or credit conditions on the incoming refinance are close but not complete. Compare that with [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) if the refinance could still be executed directly.
+If an existing lender needs repayment before the replacement facility is ready, a short bridge may stop the borrower being forced into a distressed or poorly timed rollover. This is common where valuation, legal, or credit conditions on the incoming refinance are close but not complete. Compare that with [commercial property refinancing solutions](/services/refinancing-solutions) if the refinance could still be executed directly.
 
 ### Development or residual-stock timing gaps
 
@@ -142,7 +142,7 @@ A mixed-use asset in inner Sydney has a loan reaching maturity before the replac
 1. **Have contracts, debt figures, and entity docs ready before asking for speed.**
 2. **Explain the exit in one paragraph.** If it cannot be explained simply, it is probably not clear enough.
 3. **Use realistic property information.** Clean facts move faster than inflated assumptions.
-4. **Compare structures early.** A [second mortgage](/resources/guides/second-mortgages-in-sydney-fast-local-approval), [private lending structure](/resources/guides/what-is-private-lending-australia), or direct [commercial refinance](/resources/guides/commercial-property-refinancing-solutions) may be better.
+4. **Compare structures early.** A [second mortgage](/resources/guides/second-mortgages-in-sydney-fast-local-approval), [private lending structure](/resources/guides/what-is-private-lending-australia), or direct [commercial refinance](/services/refinancing-solutions) may be better.
 5. **Treat bridging finance as temporary.** The best bridge is the one with a believable exit from day one.
 
 ## LLM-Readiness QA Snapshot
@@ -180,7 +180,7 @@ Potentially, yes. That is one of the classic bridge scenarios, provided the sale
 - [Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Commercial Bridging Finance Makes Sense in Australia And When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)
 - [Bridging Loan Exit Strategies Plan Your Repayment Path](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Sydney Bridging Finance Service Page](/services/bridging-finance/cities/sydney)
 - [Second Mortgages in Sydney Fast Local Approval](/resources/guides/second-mortgages-in-sydney-fast-local-approval)
 

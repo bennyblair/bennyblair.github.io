@@ -25,7 +25,7 @@ That matters because Brisbane is no longer a secondary market in lenders' eyes. 
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — The national pillar guide covering structures, LVRs, and lender expectations.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful if your Brisbane deal is really a refinance or maturity problem.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Useful if your Brisbane deal is really a refinance or maturity problem.
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Relevant when settlement timing is tighter than a standard bank process.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — Helps when a bank is too slow or too conservative for the scenario.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Explains how valuation risk affects Brisbane borrowing capacity.
@@ -83,7 +83,7 @@ A business buying its own premises in Brisbane often wants certainty, manageable
 
 ### Investment property refinance
 
-A borrower may need to refinance because a lender is rolling off, the current terms are poor, or equity needs to be restructured for the next acquisition. In that situation, [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) often become the core pathway rather than a fresh purchase loan.
+A borrower may need to refinance because a lender is rolling off, the current terms are poor, or equity needs to be restructured for the next acquisition. In that situation, [commercial property refinancing solutions](/services/refinancing-solutions) often become the core pathway rather than a fresh purchase loan.
 
 ### Short settlement or auction timing
 
@@ -134,7 +134,7 @@ Yes, refinancing is one of the most common uses. Borrowers refinance to replace 
 ## Related Guides
 
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
 - [Bank vs Non-Bank Commercial Lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)

@@ -66,7 +66,7 @@ They exclude lenders that are unlikely to suit the asset, leverage, urgency, or 
 
 They help keep valuation, legal, and credit work moving in the right order.
 
-This matters even more if your transaction overlaps with [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a [commercial refinancing solution](/resources/guides/commercial-property-refinancing-solutions). The broker should be able to explain why one structure may fit better than another.
+This matters even more if your transaction overlaps with [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a [commercial refinancing solution](/services/refinancing-solutions). The broker should be able to explain why one structure may fit better than another.
 
 ## Questions to ask a bridging loan broker before you commit
 

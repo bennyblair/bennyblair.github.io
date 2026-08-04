@@ -21,13 +21,13 @@ author_name: "Daniel"
 
 # Second Mortgage for a Business Partner Buyout in Australia
 
-This page owns the practical funding-structure intent: when property equity can fund an agreed partner exit, what lenders assess, and when a second mortgage may be compared with refinance, acquisition finance, vendor finance, or staged settlement. For the broader ownership transition process, read [second mortgage partnership buyout financing transitions](/resources/guides/second-mortgage-partnership-buyout-financing-transitions).
+This page owns the practical funding-structure intent: when property equity can fund an agreed partner exit, what lenders assess, and when a second mortgage may be compared with refinance, acquisition finance, vendor finance, or staged settlement. For the broader ownership transition process, read [second mortgage partnership buyout financing transitions](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia).
 
 A second mortgage can sometimes fund a business partner buyout in Australia when the borrower has usable property equity, a clearly documented exit deal, and a reason not to refinance the whole debt stack. In simple terms, it lets a business owner raise capital against property already carrying a first mortgage, then use that capital to buy out a partner without selling the business or a strategic asset too quickly.
 
 That does not mean every partner exit should use a second mortgage. This strategy tends to work when the buyout is time-sensitive, the business remains viable after the split, and the property security is strong enough to support layered debt. It works poorly when the buyout price is unclear, the legal structure is unresolved, or the new debt would leave the remaining owner overcommitted.
 
-At Emet Capital, we usually frame this as a structuring decision. The question is not just whether equity exists. The question is whether a second mortgage is the cleanest bridge between the partner exit and the longer-term capital structure. Sometimes it is. Sometimes [business acquisition finance](/resources/guides/business-acquisition-finance-australia) or a broader [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) is the better answer.
+At Emet Capital, we usually frame this as a structuring decision. The question is not just whether equity exists. The question is whether a second mortgage is the cleanest bridge between the partner exit and the longer-term capital structure. Sometimes it is. Sometimes [business acquisition finance](/resources/guides/business-acquisition-finance-australia) or a broader [commercial property refinance](/services/refinancing-solutions) is the better answer.
 
 ## Practical Funding Checklist
 
@@ -41,14 +41,14 @@ A second mortgage partner buyout file is strongest when the loan request is tied
 | Why not refinance everything? | Break-cost issue, timing pressure, first lender appetite, or staged refinance plan. |
 | How does the second mortgage exit? | Refinance target, sale event, retained earnings plan, or agreed repayment source. |
 
-This funding checklist should sit beside the transition checklist in the [partnership buyout financing transitions guide](/resources/guides/second-mortgage-partnership-buyout-financing-transitions), because legal completion and lending completion need to line up.
+This funding checklist should sit beside the transition checklist in the [partnership buyout financing transitions guide](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia), because legal completion and lending completion need to line up.
 
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how second mortgages work for business borrowers
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Priority, structure, and strategic use of layered property debt
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — Useful when the partner exit resembles an acquisition transaction
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When a wider restructure may be better than a top-up loan
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — When a wider restructure may be better than a top-up loan
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Why partner buyout timing often pushes borrowers outside standard bank credit
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Contrast with unsecured or cash-flow-led funding solutions
 
@@ -200,7 +200,7 @@ If the transaction is really the purchase of shares or control of a business, de
 
 ### Full commercial refinance
 
-If the first mortgage is no longer competitive or the borrower wants to simplify the debt stack, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may be cleaner than keeping two layers of debt.
+If the first mortgage is no longer competitive or the borrower wants to simplify the debt stack, [commercial property refinancing](/services/refinancing-solutions) may be cleaner than keeping two layers of debt.
 
 ### Asset sale or staged settlement
 
@@ -215,6 +215,21 @@ If the business is strong and the amount required is moderate, some borrowers co
 If someone asks, "Can I use a second mortgage to buy out a business partner?" the clean answer is: **Yes, sometimes, if you have enough property equity, clear legal documentation, and a viable post-buyout business.** It is strongest when the loan funds a defined ownership transition and weakest when the business, valuation, or exit plan is uncertain.
 
 That answer should still hold up even if copied out of the article by itself.
+
+## Buyout Funding Pack: What Must Be Settled Before Credit Review
+
+A lender cannot resolve a disputed partnership exit. The commercial and legal terms need to be sufficiently settled for the funding request to be assessed. A practical pack normally includes:
+
+| Item | Why the lender needs it |
+|---|---|
+| Executed or near-final buyout terms | Confirms the amount, payment date and what is being acquired. |
+| Valuation methodology | Shows whether the price is based on an agreed enterprise, asset or equity value. |
+| Ownership and entity map after settlement | Identifies the continuing borrower, guarantors and property owners. |
+| First-mortgage statement and consent position | Establishes available equity and whether another lender must approve the structure. |
+| Post-buyout cash-flow forecast | Tests whether the continuing business can carry debt after the outgoing partner leaves. |
+| Exit plan | Explains whether repayment comes from refinance, retained earnings, asset sale or another defined event. |
+
+Tax treatment, restraints, releases, warranties and shareholder rights require independent legal and tax advice. They should be resolved alongside the finance process, because a loan approval does not make an incomplete ownership transition safe.
 
 ## FAQs
 

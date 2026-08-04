@@ -31,7 +31,7 @@ If you were looking for a broad "second mortgage Australia" guide, this is now t
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — The main pillar guide to second-ranking mortgage security for business borrowers.
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — When keeping the first mortgage in place may be useful.
-- **[Subordination Agreements in Second Mortgages](/resources/guides/subordination-agreement-second-mortgage)** — How lender priority can affect second mortgage structures.
+- **[Subordination Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)** — How lender priority can affect second mortgage structures.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — How short-term caveat security differs from mortgage security.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broader commercial property finance context.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type changes speed, flexibility and assessment.
@@ -120,7 +120,7 @@ A refinance replaces or restructures an existing facility. A second mortgage sit
 
 Refinancing may be better where the borrower wants a longer-term solution, lower complexity or one lender controlling the full debt stack. A second mortgage may be better where the first loan should stay in place, timing is compressed, or the borrower only needs a defined top-up.
 
-The trade-off is complexity. Second mortgages involve priority issues, intercreditor considerations and higher lender risk than a single first mortgage facility. The [commercial property refinancing guide](/resources/guides/commercial-property-refinancing-solutions) is useful where the borrower is comparing a full refinance against second-ranking security.
+The trade-off is complexity. Second mortgages involve priority issues, intercreditor considerations and higher lender risk than a single first mortgage facility. The [commercial property refinancing guide](/services/refinancing-solutions) is useful where the borrower is comparing a full refinance against second-ranking security.
 
 ## Second Mortgage vs Caveat Loan
 
@@ -142,7 +142,7 @@ Second mortgages sit inside a wider funding stack. The right option depends on u
 | Bridging finance | The need is a timing gap between settlement, sale or refinance. | It should not become indefinite debt. |
 | Unsecured business finance | Smaller amounts are needed without property security. | Cost, amount and eligibility can vary widely. |
 
-The best structure is the one that matches the commercial problem. If the issue is purely timing, a bridge may be cleaner. If the issue is preserving the first mortgage, a second mortgage may be worth exploring. If the issue is a long-term capital structure problem, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may be more relevant.
+The best structure is the one that matches the commercial problem. If the issue is purely timing, a bridge may be cleaner. If the issue is preserving the first mortgage, a second mortgage may be worth exploring. If the issue is a long-term capital structure problem, [commercial property refinancing](/services/refinancing-solutions) may be more relevant.
 
 ## Documents To Prepare
 
@@ -204,7 +204,7 @@ A stronger second mortgage file explains the security, first mortgage balance, l
 - [Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Second Mortgage Without Refinancing Your First Mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)
 - [Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

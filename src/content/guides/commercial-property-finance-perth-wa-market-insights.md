@@ -26,7 +26,7 @@ That is why Perth borrowers often need more than a generic national loan explana
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — The core national guide to structures, deposits, and lender expectations.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — Relevant if a mainstream lender is too slow or too conservative.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful for Perth borrowers replacing maturing or unsuitable debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Useful for Perth borrowers replacing maturing or unsuitable debt.
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Important when a WA settlement cannot wait for standard approval timing.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Helps explain why some Perth assets attract stronger terms than others.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — A practical comparison when certainty matters more than a headline rate.
@@ -81,7 +81,7 @@ Many Perth borrowers use commercial property finance to buy premises for their o
 
 ### Investment property refinance
 
-A Perth investor may refinance to replace a maturing lender, improve terms, release equity, or reset a structure that no longer fits. If the current debt is restrictive or close to maturity, [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) often become the more relevant playbook.
+A Perth investor may refinance to replace a maturing lender, improve terms, release equity, or reset a structure that no longer fits. If the current debt is restrictive or close to maturity, [commercial property refinancing solutions](/services/refinancing-solutions) often become the more relevant playbook.
 
 ### Time-sensitive acquisitions
 
@@ -132,7 +132,7 @@ Many focus only on headline pricing instead of lender fit. A slightly cheaper le
 ## Related Guides
 
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)

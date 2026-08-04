@@ -85,7 +85,7 @@ Where tax debt sits alongside super debt, compare this page with [ATO tax debt f
 
 Some businesses use property-backed lending, receivables, equipment, or a refinance event to clear urgent obligations. The relevant question is not only whether security exists. It is whether the structure makes the business safer after settlement.
 
-If property is involved, lenders may compare the file against [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or short-term [private lending](/resources/guides/what-is-private-lending-australia). Each option has different cost, security, consent, and exit implications.
+If property is involved, lenders may compare the file against [commercial property refinancing](/services/refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or short-term [private lending](/resources/guides/what-is-private-lending-australia). Each option has different cost, security, consent, and exit implications.
 
 ## When Finance Is the Wrong Tool
 

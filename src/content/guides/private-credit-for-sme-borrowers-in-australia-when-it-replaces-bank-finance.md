@@ -194,7 +194,7 @@ Private credit for SME borrowers is commercial debt from non-bank or private cap
 
 ## Related Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — How refinancing can restructure secured commercial debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — How refinancing can restructure secured commercial debt.
 - **[Commercial Loan Refinance](/resources/guides/commercial-loan-refinance)** — When businesses refinance existing facilities.
 - **[Short-Term Property Loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance)** — Property-backed funding for urgent commercial situations.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — How debt consolidation may simplify commercial obligations.

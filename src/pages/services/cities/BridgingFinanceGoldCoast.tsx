@@ -93,7 +93,7 @@ export default function BridgingFinanceGoldCoast() {
         },
         {
           title: 'Bridging Finance for Developers',
-          href: '/resources/guides/bridging-finance-developers-project-funding-solutions',
+          href: '/resources/guides/commercial-property-development-finance',
           description: 'Useful for Gold Coast development and construction-transition scenarios.'
         }
       ]}

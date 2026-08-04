@@ -166,7 +166,7 @@ If the issue is urgent and property security is available, borrowers sometimes c
 
 - **[Unsecured Business Loan Lenders in Australia](/resources/guides/unsecured-business-loan-lenders-australia)** — compare lender channels before applying.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — broader cash-flow finance options for SMEs.
-- **[Secured Business Loans in Australia](/resources/guides/secured-business-loans-australia)** — understand asset and property-backed alternatives.
+- **[Secured Business Loans in Australia](/resources/guides/secured-vs-unsecured-business-loans-australia)** — understand asset and property-backed alternatives.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare mainstream and non-bank funding paths.
 - **[Equipment Finance and Leasing](/resources/guides/equipment-finance-and-leasing-australia)** — consider asset finance where the funding need is equipment-related.
 

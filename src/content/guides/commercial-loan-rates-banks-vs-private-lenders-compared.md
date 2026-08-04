@@ -29,7 +29,7 @@ For investors, developers, and business owners, the right question is not “who
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to long-term commercial property funding.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Useful if you are comparing specialist or short-term funding pathways.
 - **[Bank vs Non-Bank Commercial Lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Borrower-fit comparison across lender types.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful if you expect to refinance later.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Helpful if you expect to refinance later.
 - **[Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Useful for understanding what lenders usually assess.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Relevant if the capital solution may sit behind an existing first mortgage.
 
@@ -71,7 +71,7 @@ A straightforward borrower with solid financials, clear entity structure, and st
 
 ### Banks can become less useful when timing is the risk
 
-A bank quote may look attractive, but if the lender cannot settle inside the required window, the value of that pricing falls quickly. That is where many borrowers start considering [commercial refinancing](/resources/guides/commercial-property-refinancing-solutions) alternatives, bridging structures, or private capital.
+A bank quote may look attractive, but if the lender cannot settle inside the required window, the value of that pricing falls quickly. That is where many borrowers start considering [commercial refinancing](/services/refinancing-solutions) alternatives, bridging structures, or private capital.
 
 ## How private lenders usually price commercial loan risk
 
@@ -206,7 +206,7 @@ Banks usually price cleaner long-term commercial debt. Private lenders usually p
 - [Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Private Lending in Australia](/resources/guides/what-is-private-lending-australia)
 - [Bank vs Non-Bank Commercial Lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

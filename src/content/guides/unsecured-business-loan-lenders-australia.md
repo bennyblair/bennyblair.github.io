@@ -53,7 +53,7 @@ It is not written for consumer borrowers. Emet Capital focuses on commercial len
 
 An unsecured business loan lender is a lender that offers commercial funding without taking a registered mortgage over property or a specific asset charge as the primary security. The lender may still require director guarantees, business guarantees, direct debit authority, or other contractual protections.
 
-That distinction matters. “Unsecured” does not mean “no obligations”. It means the facility is not primarily supported by a registered security interest over a nominated property or asset in the same way a [secured business loan](/resources/guides/secured-business-loans-australia) or mortgage-backed facility would be.
+That distinction matters. “Unsecured” does not mean “no obligations”. It means the facility is not primarily supported by a registered security interest over a nominated property or asset in the same way a [secured business loan](/resources/guides/secured-vs-unsecured-business-loans-australia) or mortgage-backed facility would be.
 
 Unsecured business lenders may include banks, non-bank lenders, fintech lenders, private credit providers, and specialist SME funders. Each group has different appetite, documentation standards, assessment speed, pricing logic, and tolerance for imperfect files.
 

@@ -129,7 +129,7 @@ A direct fund may be better where you already have a relationship, the facility 
 
 Do not go direct if the transaction is too important to rely on one lender's appetite. This includes settlement deadlines, conservative valuations, consent issues, partial-doc files, unusual property types, or business cash-flow events where a decline would consume valuable time.
 
-If the borrower is comparing [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and second mortgages at the same time, a broker can help avoid choosing the first available option just because it is visible.
+If the borrower is comparing [commercial property refinancing](/services/refinancing-solutions), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and second mortgages at the same time, a broker can help avoid choosing the first available option just because it is visible.
 
 ## Practical Borrower Checklist
 
@@ -148,7 +148,7 @@ A broker can use this memo to test lender fit. A direct fund can use it to give 
 ## Related Guides
 
 - **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)**, for property-secured private credit structures.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**, for borrowers replacing or restructuring existing property debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, for borrowers replacing or restructuring existing property debt.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)**, for borrowers comparing consolidation with short-term private credit.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)**, for settlement timing and transition funding.
 

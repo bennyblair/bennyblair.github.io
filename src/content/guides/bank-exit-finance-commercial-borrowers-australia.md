@@ -26,7 +26,7 @@ This guide explains when bank exit finance may help Australian commercial borrow
 ### Related In-Depth Guides
 
 - **[Commercial Loan Maturity Refinance](/resources/guides/commercial-loan-maturity-refinance-australia)**, for facilities approaching expiry or review.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**, the main guide to replacing commercial property debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, the main guide to replacing commercial property debt.
 - **[Commercial Property Loan After Bank Decline](/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia)**, for borrowers declined by a bank.
 - **[Private Commercial Loans After Bank Decline](/resources/guides/private-commercial-loans-after-bank-decline)**, for non-bank options after a mainstream lender says no.
 - **[Private Credit Refinance for Commercial Property](/resources/guides/private-credit-refinance-commercial-property-australia)**, for property-backed refinance alternatives.
@@ -175,7 +175,7 @@ The biggest mistake is ignoring the bank's deadline until options narrow. A bank
 
 ## Related Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**, for replacing an existing commercial facility.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, for replacing an existing commercial facility.
 - **[Private Credit Refinance Commercial Property](/resources/guides/private-credit-refinance-commercial-property-australia)**, for non-bank refinance options.
 - **[Commercial Loan Maturity Refinance](/resources/guides/commercial-loan-maturity-refinance-australia)**, for expiry and rollover pressure.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)**, for choosing lender type.
