@@ -166,6 +166,10 @@ const CaseStudyArticle = () => {
         <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
         <meta name="keywords" content={article.keywords?.join(", ")} />
+        <meta
+          name="robots"
+          content={article.noindex ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}
+        />
         <link rel="canonical" href={`https://emetcapital.com.au/resources/case-studies/${article.slug}`} />
         <meta property="og:title" content={seoTitle} />
         <meta property="og:description" content={seoDescription} />

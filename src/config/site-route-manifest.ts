@@ -364,6 +364,8 @@ const guideAliases: Record<string, string> = {
     "commercial-bridging-loans-for-property-auctions-expert-guide",
   "commercial-bridging-loans-property-auctions-expert-guide":
     "commercial-bridging-loans-for-property-auctions-expert-guide",
+  "commercial-property-finance-sydney":
+    "commercial-property-finance-sydney-local-expert-hub",
   "finding-best-private-lenders-for-your-business": "finding-comparing-private-lenders-loans-2025-guide",
   "private-lenders-small-business-fast-approval-guide": "what-is-private-lending-australia",
 };

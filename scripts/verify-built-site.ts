@@ -128,7 +128,7 @@ for (const route of inventory) {
 }
 
 const contentIndex = buildContentIndex(repoRoot);
-const guideArticles = contentIndex.guides ?? [];
+const guideArticles = (contentIndex.guides ?? []).filter((article) => !article.noindex);
 for (const article of guideArticles) {
   const service = resolveDesignatedService(article);
   if (!service) {
