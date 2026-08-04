@@ -35,6 +35,10 @@ sources:
     url: "https://www.ppsr.gov.au/managing-and-maintaining/enforce-your-registration/which-security-interest-has-priority"
 ---
 
+# Priority Agreements in Second Mortgages
+
+> **Direct answer:** A priority agreement sets rules between lenders with security over the same property. It can confirm ranking, payment restrictions, notices, cure rights, standstill periods and enforcement steps. It does not create equity, guarantee first-lender consent or replace review by each party’s lawyer; the signed deed and registered interests control the actual position.
+
 A priority agreement in a second mortgage is a legal agreement that clarifies how the first lender and second lender will deal with ranking, enforcement, repayments, and information rights when both hold security over the same property. In simple terms, it helps answer a practical question: if two lenders are sitting on one asset, who gets paid first, who can do what, and what happens if the borrower defaults?
 
 For commercial borrowers, the issue matters because a second mortgage is not just "extra debt". It is layered debt sitting behind an existing lender. That means the second lender usually needs comfort that the first lender's rights are understood, while the borrower needs to know how the extra facility could affect refinance timing, property sale proceeds, and overall control of the transaction.
