@@ -6,7 +6,7 @@ category: "Commercial Property Loans"
 tags: ["Commercial Property Valuation", "Commercial Property Loans", "Private Lending", "Refinancing", "Due Diligence"]
 readingTime: 11
 author: "Daniel"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-08-05"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -14,9 +14,26 @@ author_title: "Director, Emet Capital"
 author_name: "Daniel"
 featuredImage: "/images/commercial-property-valuation-for-finance-lender-requirements.jpg"
 keywords: ["commercial property valuation", "commercial valuation for finance", "commercial property lender requirements", "valuation for commercial loan"]
+primaryQuery: "commercial property valuation finance lender requirements"
+searchIntent: "commercial investigation"
+intentCluster: "commercial-property-valuation"
+designatedServicePage: "/services/commercial-property-finance"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "APRA — APG 113 Credit Risk"
+    url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
+  - label: "NSW Government — Contracts and deposits"
+    url: "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/contracts-and-deposits"
 ---
 
 # Commercial Property Valuation for Finance: Lender Requirements
+
+> **Direct answer:** A lender valuation is an independent security-risk input, not a promise of loan size or the same figure as an agent appraisal. The valuer considers the interest being valued, tenure, use, leases, income, condition, planning, comparable evidence and marketability. The lender then applies its own credit policy to the report.
 
 A commercial property valuation for finance is an independent assessment of a property's market value prepared for a lender or credit provider. In practice, it helps the lender decide how much risk sits behind the loan, whether the security is acceptable, and how much leverage may be reasonable for that specific asset.
 
