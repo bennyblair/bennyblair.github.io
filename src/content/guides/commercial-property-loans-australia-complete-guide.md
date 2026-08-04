@@ -33,240 +33,121 @@ featuredImage: "/images/commercial-property-loans-guide.jpg"
 keywords: ["commercial property loans", "commercial property finance", "business property loans", "commercial mortgage", "property finance Australia", "LVR commercial property", "commercial loan rates"]
 ---
 
-# Commercial Property Loans in Australia: The Complete Guide
+# Commercial Property Loans in Australia
 
-Commercial property loans enable Australian businesses to purchase, refinance, or develop real estate for operations or investment. Unlike residential mortgages, commercial property finance involves sophisticated assessment of both business capacity and property fundamentals, with loan structures designed around business cash flow, tenant covenants, and property income potential.
+> **Direct answer:** A commercial property loan is business-purpose finance used to buy, refinance or improve property such as offices, warehouses, shops, medical premises or mixed-use assets. Approval and structure depend on property risk, borrower contribution, lease or trading cash flow, valuation, legal due diligence and a repayment plan—not on property value alone.
 
-If you are buying business premises in NSW or managing an urgent commercial property settlement, Emet Capital's [commercial property finance service](/services/commercial-property-finance) summarises the practical funding pathways that may be available subject to assessment.
+This is the main eligibility and structure guide for commercial property loans. It is distinct from the [commercial mortgage rates guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide), which explains pricing, and the [development finance guide](/resources/guides/commercial-property-development-finance), which covers construction and project risk.
 
-The Australian commercial property lending market offers diverse solutions from major banks, regional lenders, and specialist finance providers. Pricing, leverage, contribution requirements, and approval timing vary by lender, property type, borrower strength, lease profile, and security position. Assessment usually involves property valuation, business financial review, and legal due diligence.
+## Common loan purposes
 
-Understanding commercial property loan mechanics, lender requirements, and structure options helps businesses secure appropriate finance while optimising borrowing costs. This guide examines eligibility criteria, interest rates, loan structures, application processes, and strategic considerations for Australian commercial property financing.
-
-### Related In-Depth Guides
-
-If you are earlier in the buying process, these supporting guides help turn a broad commercial property idea into a lender-ready file:
-
-- **[How to Buy Commercial Property Step by Step](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — map the acquisition, finance, due diligence, and settlement sequence.
-- **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — understand how lenders test rent, business cash flow, and repayment capacity.
-- **[First Commercial Property Loan for Startup Business Owners](/resources/guides/commercial-property-loans-for-startups-first-time-buyers)** — prepare a file where trading history is thin or the buyer is new to commercial property.
-- **[Owner-Occupier Commercial Loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)** — compare the issues when the borrower’s business will occupy the premises.
-
-
----
-
-> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
-
-### At a Glance
-
-| | |
-|---|---|
-| **Who this guide is for** | Business owners buying commercial property |
-| **What it addresses** | Comprehensive overview of commercial property lending options |
-| **When this is appropriate** | When you need full understanding of the commercial property finance landscape |
-| **When it's NOT appropriate** | If you've already decided on a specific loan type |
-
----
-
-## Understanding Commercial Property Loans
-
-Commercial property loans provide financing secured against business real estate including offices, retail premises, industrial facilities, warehouses, and mixed-use developments. These specialised products assess both property merit and borrower capacity, with lending decisions reflecting property income potential, location quality, tenant strength, and business financial performance.
-
-### Types of Commercial Property Finance
-
-Owner-occupier loans finance premises for business operations, with serviceability assessed primarily on business cash flow rather than rental income. These loans typically achieve competitive rates due to reduced vacancy risk and strong borrower motivation to maintain payments protecting operational facilities.
-
-Investment property loans finance properties purchased for rental income, with lenders heavily weighting rental cash flows and tenant covenant strength when determining serviceability. Most lenders apply 20-30% rental income discounts accounting for vacancy periods, management costs, and income volatility.
-
-Development and construction loans provide progressive funding throughout building or renovation projects, with funds advanced against completion milestones. For businesses undertaking significant builds, [construction finance](/services/commercial-property-development) offers structured funding aligned with project stages, while development finance suits property developers pursuing commercial projects.
-
-### Commercial Versus Residential Loans
-
-Commercial property loans involve larger amounts, more detailed pricing assessment, and lower loan-to-value ratios than consumer-style property lending. Assessment periods are usually more involved because lenders review property valuation, lease profile, business financials, and legal due diligence.
-
-Maximum loan-to-value ratios typically reach 60-80% for commercial properties versus 80-95% for residential purchases, requiring larger deposits and stronger equity positions. Repayment terms commonly span 15-25 years compared to 25-30 years for residential mortgages, resulting in higher regular payments but faster equity accumulation.
-
-## Eligibility and Assessment Criteria
-
-Commercial property loan eligibility depends on business financial strength, property characteristics, and overall transaction structure. Lenders evaluate multiple factors when determining approval and loan terms.
-
-### Business Financial Requirements
-
-Most lenders require 2-3 years of financial statements demonstrating profitable operations and positive cash flow trends. Start-up businesses face significantly higher barriers, often requiring deposits exceeding 50%, director guarantees, or additional security to mitigate perceived lending risks.
-
-Cash flow analysis examines business capacity to service debt obligations while maintaining operations. Lenders calculate debt service coverage ratios by dividing net operating income by total debt service, typically requiring minimum ratios of 1.25-1.50 times to ensure adequate payment buffers.
-
-### Property Assessment Factors
-
-Property type significantly influences lending decisions, with lenders preferring mainstream commercial properties including offices, retail, industrial, and warehouses over specialised assets requiring niche expertise. Location quality affects both valuation and risk assessment, with prime locations in major cities achieving better terms than regional properties.
-
-Tenant and lease considerations critically impact investment property lending. Longer remaining lease terms provide greater income security supporting higher loan-to-value ratios, while properties leased to government entities, ASX-listed companies, or established franchises achieve superior lending terms compared to single small business tenant arrangements.
-
-### Loan-to-Value Ratios and Deposits
-
-Commercial property loans typically require loan-to-value ratios of 60-70%, meaning deposits of 30-40% plus additional funds for stamp duty, legal fees, and due diligence costs. Total cash requirements generally reach 35-45% of purchase prices.
-
-Premium properties in prime locations with strong tenant covenants may achieve 75-80% LVR from select lenders, though these arrangements typically involve interest rate premiums and stricter assessment criteria. Owner-occupier premises often achieve higher ratios than investment properties due to reduced vacancy risk.
-
-Lower leverage can support stronger lender appetite and may improve pricing or structure depending on the file. Conservative borrowing approaches provide protection against property value fluctuations and enhance refinancing flexibility. For property owners seeking to optimise existing loans, [commercial property refinancing](/services/refinancing-solutions) enables accessing improved terms or additional capital.
-
-## Interest Rates and Loan Structures
-
-Commercial property loan pricing varies by property quality, borrower strength, leverage, repayment structure, lender type, and market conditions. Major banks may be more competitive for clean prime-property files, while specialist lenders may price for flexibility, speed, or complexity.
-
-### Fixed Versus Variable Rates
-
-Variable rate loans may offer flexibility for additional repayments and early discharge, with rate movements affecting borrowing costs. Fixed-rate structures may provide payment certainty for a defined period, but terms, break costs, and pricing should be checked against current lender offers.
-
-Split loan structures combining fixed and variable components balance payment certainty with flexibility. Common allocations include 50/50 or 60/40 splits, though businesses can customise structures matching individual risk tolerance and cash flow circumstances.
-
-### Repayment Structure Options
-
-Interest-only repayments minimise regular payment obligations by deferring principal reduction, typically for initial periods of 1-5 years. This approach suits businesses prioritising cash flow preservation or investors expecting property appreciation to build equity, though it increases total interest costs.
-
-Principal and interest repayments provide systematic loan balance reduction and equity accumulation. Higher regular payments strain cash flow but reduce total borrowing costs and accelerate ownership, particularly beneficial for owner-occupier premises supporting long-term operations.
-
-## Application Process and Documentation
-
-Commercial property loan applications require comprehensive documentation demonstrating business capacity and property merit. Thorough preparation streamlines assessment and substantially improves approval prospects.
-
-### Required Documentation
-
-Business documents include 2-3 years of financial statements, tax returns, BAS statements, and recent management accounts demonstrating current trading performance. Professional accountant preparation enhances credibility and ensures compliance with lending requirements.
-
-Property documents include contracts of sale, valuations, building reports, title searches, and lease agreements. Investment properties require comprehensive tenant documentation including lease agreements, rental histories, and covenant assessments.
-
-Personal documents include director tax returns, asset and liability statements, and identification. Lenders assess director financial positions to evaluate overall transaction risk and guarantee capacity.
-
-### Assessment Timeline
-
-Initial assessment typically occurs within 5-7 business days, with preliminary approval subject to satisfactory property valuation and detailed documentation review. Formal approval follows comprehensive due diligence requiring 4-6 weeks depending on transaction complexity.
-
-Property valuation represents a critical milestone, with independent valuers determining market value and lending security. Valuation outcomes significantly influence loan amounts, with properties valuing below purchase prices requiring additional deposit or transaction renegotiation. For transactions requiring faster completion, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may provide interim funding solutions.
-
-## Security Requirements and Guarantees
-
-Commercial property loans involve registered first mortgages over financed properties, giving lenders priority claim over assets in default situations. Most loans require director personal guarantees for company borrowers, extending lender recourse to guarantor personal assets beyond secured property holdings.
-
-Cross-collateralisation using multiple properties as security enables higher borrowing capacity and supports portfolio growth. However, this approach creates interconnected security where default risks extend across portfolios and individual property sales require lender consent. Understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) helps businesses evaluate security structures appropriately.
-
-## Lender Selection Strategies
-
-Major banks including Commonwealth Bank, Westpac, ANZ, and NAB dominate commercial property lending, offering competitive rates for prime properties and established borrowers. Relationship banking benefits include comprehensive service integration and potential rate discounts for consolidated arrangements.
-
-Regional banks including Bendigo Bank and Bank of Queensland provide alternative options with flexible assessment approaches and personalised service. Decision-making processes often involve localised authority and faster turnaround than major banks navigating complex approval hierarchies.
-
-Specialist non-bank lenders fill market gaps where bank lending criteria prove restrictive, often pricing for speed, complexity, or flexible assessment. For very urgent property financing needs, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer rapid funding solutions.
-
-## Common Challenges and Solutions
-
-Serviceability shortfalls represent the most common decline reason, addressable through larger deposits reducing loan amounts, interest-only structures minimising payments, or joint borrower arrangements bringing additional income sources. Alternative lender assessment methodologies may provide approval where mainstream calculations prove restrictive.
-
-Property valuations below purchase prices create funding gaps requiring additional deposit contributions or price renegotiations. Obtaining independent pre-purchase valuations helps identify potential issues before contract commitment, while alternative lenders may apply different valuation methodologies.
-
-Complex ownership structures including trusts and partnerships require careful consideration of lending entities and security arrangements. Some lenders restrict trust lending or apply additional requirements including corporate trustees, with professional legal advice ensuring appropriate structure selection. Complex acquisitions may benefit from [business acquisition finance](/resources/guides/business-acquisition-finance-australia) products designed for corporate transactions.
-
-## Tax Considerations
-
-Commercial property loan interest is typically tax deductible for investment properties and business premises, reducing effective borrowing costs by the business tax rate. A business paying 30% tax on a 6% loan effectively pays 4.2% after-tax interest cost.
-
-Loan establishment fees and borrowing costs may be immediately deductible or require capitalisation depending on amounts and regulations. Legal fees and valuation costs associated with property acquisition typically form part of property cost base rather than immediate deductions.
-
-Building depreciation provides annual tax deductions at 2.5% annually for qualifying buildings, with quantity surveyor reports identifying maximum claims. Plant and equipment depreciation covers items including air conditioning and security systems, typically at higher rates than building depreciation.
-
-**While this guide provides general information, businesses should obtain professional tax advice for their specific circumstances.**
-
-## Strategic Considerations
-
-Financial preparation should begin 6-12 months before property purchase, including deposit accumulation, business profit optimisation, and financial documentation preparation. Demonstrating consistent financial performance substantially improves lending prospects and negotiating power.
-
-Market research should consider not only operational suitability but also lender appetite and financing feasibility. Properties with strong tenant covenants, mainstream uses, and prime locations consistently achieve better financing terms than specialty properties.
-
-Professional advisor engagement including commercial finance brokers, lawyers, and accountants provides expertise navigating complex lending markets. Quality professional advice typically generates returns through better loan terms, faster approvals, and strategic structure optimisation.
-
-Regular loan reviews every 2-3 years ensure continued market competitiveness, particularly in changing rate environments. Established owners should proactively assess refinancing opportunities rather than accepting existing arrangements, with professional guidance identifying optimal timing based on market conditions and business circumstances.
-
----
-
-*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
-
-## Retail Property Lending: What Changes
-
-Retail property is assessed through the durability of its income, not the shopfront alone. Lenders commonly review the weighted average lease expiry, tenant concentration, incentives, arrears, outgoings, vacancy history, permitted use, parking, access and the depth of the local leasing market.
-
-| Retail factor | Stronger presentation | Higher-risk presentation |
+| Purpose | Typical assessment focus | Evidence to prepare |
 |---|---|---|
-| Tenant mix | Diversified income with credible operators | One weak tenant provides most of the rent |
-| Lease profile | Enough term remains beyond the loan review horizon | Major expiries or breaks are close |
-| Location evidence | Catchment, access and comparable leasing evidence | Reliance on generic “high foot traffic” claims |
-| Re-leasing risk | Standard configuration with alternative uses | Highly specialised fit-out or narrow buyer pool |
+| Owner-occupied purchase | Business serviceability and property utility | Contract, financials, bank statements and contribution evidence |
+| Investment purchase | Lease quality, rent, vacancy and tenant concentration | Lease, rent schedule, outgoings and property due diligence |
+| Refinance | Current conduct, maturity, payout and reason for change | Loan statements, payout, valuation and refinance objective |
+| Equity release | Use of funds, resulting leverage and repayment | Purpose schedule, debt position and cash-flow support |
+| Renovation or repositioning | Budget, approvals, disruption and completion | Scope, quotes, contingency and post-work income assumptions |
+| Development | Feasibility, approvals, builder and exit | Use the separate [development finance guide](/resources/guides/commercial-property-development-finance) |
 
-Foot-traffic data can support the story, but it should be tied to actual tenant sales, lease performance or independent location evidence. An anchor tenant may help a centre, yet concentration and co-tenancy clauses can also introduce risk.
+## How lenders assess a commercial property loan
 
-## Negative Gearing Is a Cash-Flow Condition, Not a Loan Strategy
+### 1. Borrower and purpose
 
-A commercial property is negatively geared when deductible property expenses and finance costs exceed assessable rental income for a period. Tax outcomes depend on the taxpayer and current law, so borrowers should obtain tax advice rather than treat a deduction as a substitute for cash flow.
+The lender identifies the legal borrower, beneficial owners, guarantors and commercial purpose. The structure may be a company, trust, partnership, individual business owner or, where appropriate, an SMSF with specialist advice.
 
-For credit assessment, the important questions are who funds the shortfall, how long it lasts, whether lease or rate assumptions are realistic, and what happens if rent falls or costs rise. A temporary, budgeted shortfall supported by other verified income is different from a property that remains unserviceable under realistic assumptions. Refinancing may improve structure, but it does not repair weak property economics on its own.
+### 2. Property and valuation
 
-## Frequently Asked Questions
+Property type, zoning, condition, location, environmental issues, leases and alternative use can affect appetite. A valuation supports the credit decision but does not replace legal, building, planning or tax due diligence.
 
-### What deposit do I need for a commercial property loan?
+### 3. Repayment capacity
 
-Commercial property loans typically require deposits of 30-40% of purchase price plus additional funds for stamp duty, legal fees, and due diligence costs. Total cash requirements generally reach 35-45% of property purchase price. Premium properties may achieve 75-80% LVR with select lenders, reducing deposit requirements but typically involving higher interest rates.
+For an owner-occupier, lenders usually examine business earnings and debt commitments. For an investment asset, they examine lease income, outgoings, vacancy and the borrower’s wider capacity. Many scenarios use both property and business cash flow.
 
-### How long does commercial property loan approval take?
+### 4. Contribution and leverage
 
-Commercial property loan approval typically takes 4-8 weeks from application submission to formal approval. Initial assessment occurs within 5-7 business days, with property valuation and comprehensive due diligence requiring additional time. Complex transactions or specialty properties may extend timeframes to 8-12 weeks depending on circumstances.
+There is no universal deposit or loan-to-value ratio for every commercial asset. Acceptable leverage varies by lender, property, borrower, income, lease profile and purpose. The borrower should also budget for duty, tax, legal work, valuation, reports and working capital after settlement.
 
-### What interest rates apply to commercial property loans?
+### 5. Exit and term
 
-Commercial property loan pricing changes over time and depends on property quality, borrower strength, leverage, lender type, and credit risk. Borrowers should compare current written offers rather than relying on generic pricing claims.
+Longer-term facilities rely on sustainable serviceability. Transitional or short-term facilities need a dated, evidenced exit such as refinance, sale, lease stabilisation or another defined capital event.
 
-### Can start-up businesses get commercial property loans?
+## Borrower-readiness matrix
 
-Start-up businesses face significant challenges securing commercial property finance due to limited trading history. Most lenders require 2-3 years of financial statements demonstrating profitable operations. Start-ups typically need substantially larger deposits (50%+), strong director financial positions, additional security, or family guarantees to achieve lending approval.
+| Area | Lender-ready | Needs work before submission |
+|---|---|---|
+| Purpose | Exact amount and documented use | General request for “maximum cash” |
+| Financials | Current statements, tax position and explanations | Old accounts or unexplained arrears |
+| Property | Contract/title details, leases and due diligence underway | Unresolved use, zoning or lease assumptions |
+| Contribution | Funds and transaction costs evidenced | Deposit depends on another unapproved loan |
+| Exit | Primary and fallback path with dates | Exit described only as “refinance later” |
 
-### Do I need a personal guarantee for commercial property loans?
+## Commercial property types are not interchangeable
 
-Most commercial property loans require director personal guarantees, particularly for small-to-medium enterprise borrowers. Personal guarantees extend lender recourse to guarantor personal assets beyond secured property holdings. Some lenders accept limited guarantees capping liability at specific amounts for established businesses with strong financial positions.
+- **Industrial and warehouse:** access, configuration, tenant use and reletting depth matter.
+- **Retail:** lease term, incentives, foot traffic, tenant covenant and vacancy risk matter.
+- **Office:** location, fit-out, floorplate, energy and leasing conditions can affect valuation.
+- **Medical or childcare:** approvals, operator strength and specialised improvements matter.
+- **Mixed-use:** income and valuation may need to be separated by use.
+- **Specialised assets:** alternate use and a thinner buyer pool can limit lender appetite.
 
-### What's the difference between owner-occupier and investment property loans?
+The consolidated retail-property material now sits on this page because retail is a property-type assessment within commercial lending, not a separate loan product.
 
-Owner-occupier loans finance premises for business operations with serviceability assessed on business cash flow. Investment property loans finance properties for rental income with serviceability heavily weighted toward rental cash flows. Owner-occupier loans typically achieve better rates due to reduced vacancy risk and stronger borrower motivation.
+## Pricing and offer comparison
 
-### Can I use residential property equity for commercial property deposits?
+Compare the total structure: interest basis, fees, valuation and legal costs, repayment type, covenants, review events, early repayment, extension and default terms. A lower rate is not automatically a better transaction if the facility cannot settle, restricts the intended use or creates an unworkable refinance date.
 
-Yes, residential property equity can support commercial property deposits through various structures including cross-collateralisation or equity release through residential refinancing. However, this approach connects business and personal assets, requiring careful consideration of risk tolerance. Some lenders offer separate second mortgage arrangements preserving independent security positions.
+See [commercial mortgage rates in Australia](/resources/guides/commercial-mortgage-rates-australia-complete-guide) for the calculation method.
 
-### How is serviceability calculated for commercial property loans?
+## A practical application sequence
 
-Lenders calculate debt service coverage ratios by dividing net operating income by total debt service (principal and interest payments), typically requiring minimum ratios of 1.25-1.50 times. For investment properties, lenders discount rental income by 20-30% when calculating serviceability, accounting for vacancy periods and management costs.
+1. Define the property, purpose, amount and required date.
+2. Confirm the purchasing or borrowing entity with legal and tax advisers.
+3. Build a funds-to-complete statement including transaction costs and post-settlement liquidity.
+4. Assemble financials, bank statements, tax records, leases and the existing debt schedule.
+5. Identify valuation, title, planning, building or environmental issues early.
+6. Compare written terms on consistent assumptions.
+7. Complete lender, legal and settlement conditions without changing the transaction silently.
 
-## Conclusion
+The Australian Government’s [business-loan guide](https://business.gov.au/finance/funding/apply-for-a-business-loan) provides a useful baseline for documentation and offer comparison. APRA’s [specialised-lending guidance](https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf) also illustrates why property cash flows and development exposures are treated differently within bank risk frameworks.
 
-Commercial property loans provide essential financing for Australian businesses acquiring or refinancing business real estate. Success requires comprehensive preparation, realistic expectations about deposit requirements and interest rates, and thorough understanding of lender assessment criteria and documentation requirements.
+## Tax and negative-gearing caution
 
-The diversity of lending options across major banks, regional institutions, and specialist lenders creates opportunities for businesses across different circumstances and property types. While major banks dominate prime property lending with competitive rates, alternative lenders fill critical gaps enabling transactions outside conventional banking criteria.
+Interest and property expenses may receive different tax treatment depending on ownership, use, income and the connection between borrowing and assessable income. Negative cash flow should not be treated as a finance strategy by itself. The ATO’s [property-used-in-business guidance](https://www.ato.gov.au/api/public/content/0-184b2878-2f88-4d62-b42c-c1bb1b5f08a0) notes that property can involve income tax, GST and capital-gains consequences. Obtain tax advice for the actual structure.
 
-Interest rate environments, property market conditions, and business circumstances all influence optimal timing and structure selection. Businesses approaching lending strategically—with thorough documentation and professional guidance—substantially improve approval prospects while optimising loan terms and minimising borrowing costs.
+## Illustrative scenario — not a client outcome
 
-Loan structure decisions significantly impact both immediate cash flow requirements and long-term outcomes. Choices between principal and interest versus interest-only repayments, fixed versus variable rates, and various loan terms require careful evaluation of business objectives, risk tolerance, and market outlook.
+A trading business considers buying the warehouse it occupies. The credit question is not only whether the property value supports the request. The lender also needs to understand the business’s capacity after the deposit and acquisition costs, the lease or occupancy arrangement, existing debts, property condition and contingency liquidity. A stronger submission shows both property and operating-business evidence.
 
-Understanding security requirements, guarantee implications, and lender assessment methodologies enables informed decision-making about personal risk exposure and transaction structuring. While commercial property investment offers substantial wealth creation potential, appropriate risk management and conservative leverage enhance long-term sustainability.
+This example is hypothetical and does not state an approval, rate, leverage or settlement time.
 
-Professional advice from experienced commercial finance brokers, lawyers, and accountants proves invaluable navigating the complexities of commercial property finance. The investment in quality professional guidance typically generates returns through improved loan terms, faster approvals, and strategic structure optimisation tailored to individual business circumstances.
+## Main risks
 
-## Related Guides
+- valuation may be below the purchase price;
+- lease expiry or vacancy can reduce serviceability and value;
+- environmental, planning, title or building issues can delay or stop funding;
+- cross-collateralisation can make future sales and refinancing harder;
+- guarantees can expose parties beyond the borrowing entity; and
+- a short maturity without a credible exit can create forced-refinance risk.
 
-- **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how lenders assess borrowing capacity and repayment strength.
-- **[How To Buy Commercial Property Step By Step](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — purchase sequence, due diligence, finance timing, and settlement planning.
-- **[Owner-Occupier Commercial Loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)** — buying premises your business will occupy.
-- [Commercial Property Refinancing Solutions in Australia](/services/refinancing-solutions)
-- [Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
-- [Construction Finance in Australia: The Complete Guide for Commercial Builds](/resources/guides/construction-finance-australia-complete-guide)
-- [Commercial Property Development Finance: A Complete Guide](/resources/guides/commercial-property-development-finance)
-- [SMSF Loans for Commercial Property: The Complete Guide](/resources/guides/smsf-loans-for-commercial-property)
-- [Caveat Loans in Australia: The Complete Guide for Fast Property Finance](/resources/guides/caveat-loans-australia-complete-guide)
-- [1st & 2nd Mortgages for Business: The Definitive Guide](/resources/guides/second-mortgages-for-business-guide)
-- [Business Acquisition Finance in Australia: A Complete Guide](/resources/guides/business-acquisition-finance-australia)
+## Frequently asked questions
+
+### How much deposit is needed?
+
+There is no single percentage that applies to every property. The amount depends on lender policy, valuation, property type, borrower strength and transaction costs.
+
+### Can rental income service the loan?
+
+It may contribute, but lenders can adjust rent for vacancy, outgoings, incentives, lease expiry and tenant concentration. Wider borrower income may also be assessed.
+
+### Is a commercial valuation the same as due diligence?
+
+No. Valuation serves the lender’s credit process. Buyers still need their own legal, building, planning, environmental and tax review.
+
+### Can a declined bank application go to a non-bank lender?
+
+Sometimes, but the reason for decline must be understood. A different lender does not cure an unaffordable request, defective security or missing exit.
+
+## Next step
+
+For a live purchase or refinance, use the [commercial property finance service](/services/commercial-property-finance) and provide the contract or current loan statement, property details, leases, financials, contribution and timing. General information only; not financial, legal or tax advice.
