@@ -332,6 +332,7 @@ const simpleAliases: Record<string, string> = {
 
 const guideAliases: Record<string, string> = {
   "2nd-mortgages-with-bad-credit": "second-mortgage-bad-credit-qualify",
+  "second-mortgage-for-poor-credit": "second-mortgage-bad-credit-qualify",
   "caveat-loans-australia": "caveat-loans-australia-complete-guide",
   "caveat-loans-australia-guide": "caveat-loans-australia-complete-guide",
   "caveat-loans-australia-complete-property-guide": "caveat-loans-australia-complete-guide",
@@ -355,6 +356,8 @@ const guideAliases: Record<string, string> = {
   "first-and-second-mortgages-for-business": "second-mortgages-for-business-guide",
   "2nd-loan-mortgage-business-capital": "second-mortgages-for-business-guide",
   "second-mortgage-vs-line-of-credit-which-to-choose": "second-mortgage-vs-line-of-credit",
+  "understanding-lvr-priority-deeds-commercial-lending":
+    "priority-agreements-in-second-mortgages-what-they-mean",
   "private-mortgage-lenders-australia-directory": "private-mortgage-lenders-australia-directory-2026",
   "private-lenders-for-mortgages": "private-mortgage-lenders-australia-directory-2026",
   "commercial-bridging-finance-auction-purchases":

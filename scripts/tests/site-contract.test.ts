@@ -49,6 +49,20 @@ test("redirect contract contains no self redirects or conflicting duplicate sour
   assert.equal(redirectRules.at(-1)?.from, "/*");
 });
 
+test("legacy GSC 404 URLs permanently redirect to current guide equivalents", () => {
+  const redirects = new Map(redirectRules.map((rule) => [rule.from, rule]));
+  assert.deepEqual(redirects.get("/resources/guides/second-mortgage-for-poor-credit"), {
+    from: "/resources/guides/second-mortgage-for-poor-credit",
+    to: "/resources/guides/second-mortgage-bad-credit-qualify",
+    status: 301,
+  });
+  assert.deepEqual(redirects.get("/resources/guides/understanding-lvr-priority-deeds-commercial-lending"), {
+    from: "/resources/guides/understanding-lvr-priority-deeds-commercial-lending",
+    to: "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
+    status: 301,
+  });
+});
+
 test("content index contains metadata only and unique canonical routes", () => {
   const index = buildContentIndex(repoRoot);
   const routes: string[] = [];
