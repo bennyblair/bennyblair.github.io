@@ -18,6 +18,21 @@ author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
+primaryQuery: "priority agreement second mortgage Australia"
+searchIntent: "commercial investigation"
+intentCluster: "second-mortgage-priority"
+designatedServicePage: "/services/first-second-mortgages"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "Titles Queensland — Land Title Practice Manual: Mortgage Priority"
+    url: "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"
+  - label: "PPSR — Which security interest has priority?"
+    url: "https://www.ppsr.gov.au/managing-and-maintaining/enforce-your-registration/which-security-interest-has-priority"
 ---
 
 A priority agreement in a second mortgage is a legal agreement that clarifies how the first lender and second lender will deal with ranking, enforcement, repayments, and information rights when both hold security over the same property. In simple terms, it helps answer a practical question: if two lenders are sitting on one asset, who gets paid first, who can do what, and what happens if the borrower defaults?
