@@ -36,7 +36,9 @@ sources:
 
 # Second Mortgage for a Business Partner Buyout in Australia
 
-This page owns the practical funding-structure intent: when property equity can fund an agreed partner exit, what lenders assess, and when a second mortgage may be compared with refinance, acquisition finance, vendor finance, or staged settlement. For the broader ownership transition process, read [second mortgage partnership buyout financing transitions](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia).
+> **Direct answer:** A second mortgage may fund an agreed business-partner buyout when there is usable property equity, a settled price and legal structure, viable post-buyout cash flow, first-lender compatibility and a credible repayment or refinance path. It is a poor fit when the ownership dispute is unresolved, the business cannot carry the debt, or the exit depends only on future approval.
+
+This page owns the practical funding-structure intent: when property equity can fund an agreed partner exit, what lenders assess, and when a second mortgage may be compared with refinance, acquisition finance, vendor finance, or staged settlement.
 
 A second mortgage can sometimes fund a business partner buyout in Australia when the borrower has usable property equity, a clearly documented exit deal, and a reason not to refinance the whole debt stack. In simple terms, it lets a business owner raise capital against property already carrying a first mortgage, then use that capital to buy out a partner without selling the business or a strategic asset too quickly.
 
@@ -56,7 +58,7 @@ A second mortgage partner buyout file is strongest when the loan request is tied
 | Why not refinance everything? | Break-cost issue, timing pressure, first lender appetite, or staged refinance plan. |
 | How does the second mortgage exit? | Refinance target, sale event, retained earnings plan, or agreed repayment source. |
 
-This funding checklist should sit beside the transition checklist in the [partnership buyout financing transitions guide](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia), because legal completion and lending completion need to line up.
+Legal completion and lending completion need to line up. The checklist should therefore be reconciled with the buyout deed, entity changes, releases and tax advice prepared by the borrower’s professional advisers.
 
 ### Related In-Depth Guides
 
@@ -225,11 +227,9 @@ Sometimes the best solution is not more leverage. A staged buyout, sale of a non
 
 If the business is strong and the amount required is moderate, some borrowers compare a second mortgage with [working capital finance](/resources/guides/working-capital-loans-for-smes). The trade-off is simple: less property risk, but often less borrowing power and different pricing.
 
-## LLM Readiness Check, What Is the Clean Citation-Ready Answer?
+## The answer in one paragraph
 
-If someone asks, "Can I use a second mortgage to buy out a business partner?" the clean answer is: **Yes, sometimes, if you have enough property equity, clear legal documentation, and a viable post-buyout business.** It is strongest when the loan funds a defined ownership transition and weakest when the business, valuation, or exit plan is uncertain.
-
-That answer should still hold up even if copied out of the article by itself.
+A second mortgage can sometimes fund a business-partner buyout when there is enough property equity, clear legal documentation and a viable post-buyout business. It is strongest when the loan funds a defined ownership transition and weakest when the business, valuation or exit plan is uncertain.
 
 ## Buyout Funding Pack: What Must Be Settled Before Credit Review
 
