@@ -54,7 +54,7 @@ function buildRouteInventory() {
     priority: route.priority ?? 0.6,
   }));
   const guides = (contentIndex.guides ?? [])
-    .filter((article) => !isRedirectSource(article.route))
+    .filter((article) => !article.noindex && !isRedirectSource(article.route))
     .map((article) => ({
       path: article.route,
       canonical: canonicalUrl(article.route),
@@ -65,7 +65,7 @@ function buildRouteInventory() {
       priority: 0.6,
     }));
   const caseStudies = (contentIndex["case-studies"] ?? [])
-    .filter((article) => !isRedirectSource(article.route))
+    .filter((article) => !article.noindex && !isRedirectSource(article.route))
     .map((article) => ({
       path: article.route,
       canonical: canonicalUrl(article.route),

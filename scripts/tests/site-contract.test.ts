@@ -61,6 +61,11 @@ test("legacy GSC 404 URLs permanently redirect to current guide equivalents", ()
     to: "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
     status: 301,
   });
+  assert.deepEqual(redirects.get("/resources/guides/commercial-property-finance-sydney"), {
+    from: "/resources/guides/commercial-property-finance-sydney",
+    to: "/resources/guides/commercial-property-finance-sydney-local-expert-hub",
+    status: 301,
+  });
 });
 
 test("content index contains metadata only and unique canonical routes", () => {
@@ -75,6 +80,34 @@ test("content index contains metadata only and unique canonical routes", () => {
     }
   }
   assert.equal(new Set(routes).size, routes.length, "content routes must be unique");
+});
+
+test("illustrative scenarios pending transaction evidence are explicitly noindex", () => {
+  const expectedNoindex = new Set([
+    "/resources/case-studies/adelaide-cbd-asset-backed-lending",
+    "/resources/case-studies/adelaide-cbd-office-complex",
+    "/resources/case-studies/melbourne-richmond-asset-finance",
+    "/resources/case-studies/newcastle-merewether-equipment-finance",
+    "/resources/case-studies/newcastle-wickham-business-acquisition",
+    "/resources/case-studies/perth-business-group-debt-consolidation",
+    "/resources/case-studies/perth-fremantle-first-mortgage",
+    "/resources/case-studies/rose-bay-property-development-bridging-loan",
+    "/resources/case-studies/south-yarra-apartment-development",
+    "/resources/guides/case-study-developers-first-project-funding-success",
+    "/resources/guides/caveat-loan-prevented-business-closure-tax-debt-case-study",
+  ]);
+  const index = buildContentIndex(repoRoot);
+  const actualNoindex = new Set(
+    Object.values(index)
+      .flat()
+      .filter((article) => article.noindex)
+      .map((article) => article.route),
+  );
+
+  assert.deepEqual(actualNoindex, expectedNoindex);
+  for (const article of Object.values(index).flat().filter((item) => item.noindex)) {
+    assert.equal(article.indexingReason, "pending-transaction-evidence");
+  }
 });
 
 test("claim register records verification or explicit legacy risk acceptance", () => {

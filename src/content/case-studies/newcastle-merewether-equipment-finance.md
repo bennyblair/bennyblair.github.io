@@ -13,6 +13,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pending-transaction-evidence"
 featuredImage: "/assets/newcastle-coastal.jpg"
 loanAmount: "$850K"
 loanType: "Equipment Finance"

@@ -381,6 +381,7 @@ const GuideArticle = () => {
         canonical={canonicalUrl}
         type="article"
         image={seoImage}
+        noindex={article.noindex}
       />
       
       {/* JSON-LD Structured Data */}

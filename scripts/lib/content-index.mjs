@@ -88,6 +88,8 @@ export function normalizeArticleData(contentType, slug, data, body = "") {
     contentRisk: data.contentRisk === "high" || data.content_risk === "high" ? "high" : "low",
     sources: asSourceArray(data.sources),
     canonical: asString(data.canonical),
+    noindex: Boolean(data.noindex),
+    indexingReason: asString(data.indexingReason || data.indexing_reason),
     claimIds: asStringArray(data.claimIds || data.claim_ids),
     expiresAt: asString(data.expiresAt || data.expires_at),
   };

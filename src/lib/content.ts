@@ -48,6 +48,8 @@ export interface ArticleSummary {
   contentRisk: ContentRisk;
   sources?: ArticleSource[];
   canonical?: string;
+  noindex?: boolean;
+  indexingReason?: string;
   claimIds?: string[];
   expiresAt?: string;
   sourcePath?: string;
@@ -98,7 +100,7 @@ export function isRoutableContentArticle(contentType: string, slug: string): boo
 
 export function getContentSummaries(contentType: string = "guides"): ArticleSummary[] {
   const normalizedType = asContentType(contentType);
-  return [...(contentIndex[normalizedType] ?? [])].sort(
+  return [...(contentIndex[normalizedType] ?? [])].filter((article) => !article.noindex).sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
 }

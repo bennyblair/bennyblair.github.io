@@ -34,7 +34,7 @@ const SEO = ({
   const normalizedTitle = normalizeSeoTitle(title);
   const normalizedDescription = normalizeSeoDescription(description);
   const robots = noindex
-    ? "noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    ? "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1";
 
   return (
