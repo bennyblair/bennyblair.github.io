@@ -36,8 +36,8 @@ This is not a consumer home-loan article. It is a commercial guide for business 
 - **[First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — Compare ranking, risk, lender focus, and common use cases
 - **[Caveat Loan vs Second Mortgage: Which Is Right for You?](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — Useful if the settlement timeline is unusually tight
 - **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — Practical guide to using second mortgages for business-purpose funding
-- **[Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/subordination-agreement-second-mortgage)** — Legal context if another lender already holds first position
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant when the second mortgage is only an interim step before refinance
+- **[Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)** — Legal context if another lender already holds first position
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant when the second mortgage is only an interim step before refinance
 
 ## At a Glance
 
@@ -79,7 +79,7 @@ A second mortgage may be worth considering when:
 - there is a clear next step such as sale, refinance, business recapitalisation, or asset transfer
 - mainstream refinance is possible later, but not fast enough today
 
-These scenarios often overlap with broader commercial restructuring. If the property is part of a larger portfolio, a later [commercial property refinancing strategy](/resources/guides/commercial-property-refinancing-solutions) may be the cleaner long-term outcome.
+These scenarios often overlap with broader commercial restructuring. If the property is part of a larger portfolio, a later [commercial property refinancing strategy](/services/refinancing-solutions) may be the cleaner long-term outcome.
 
 ### When a second mortgage may not fit
 
@@ -103,7 +103,7 @@ The first question is how much room actually exists behind the first mortgage. I
 
 ### 2. Security quality
 
-Commercial lenders care about the type of property, title simplicity, location, lease profile, and marketability. A clean metropolitan industrial or office asset is usually easier to place than a highly specialised property with a limited buyer pool. If the file also includes layered debt or a lender ranking issue, it helps to understand [subordination agreements in second mortgages](/resources/guides/subordination-agreement-second-mortgage) before approaching credit.
+Commercial lenders care about the type of property, title simplicity, location, lease profile, and marketability. A clean metropolitan industrial or office asset is usually easier to place than a highly specialised property with a limited buyer pool. If the file also includes layered debt or a lender ranking issue, it helps to understand [subordination agreements in second mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean) before approaching credit.
 
 ### 3. Legal authority and ownership
 
@@ -125,7 +125,7 @@ One of the clearest use cases is where one party wants to retain a commercial pr
 
 ### Holding an asset while a refinance is prepared
 
-Sometimes the parties agree on the outcome, but the permanent lender is not ready. A second mortgage can act as transitional funding so the settlement can move while the more complete refinance catches up. In practice, that often sits alongside a later [commercial property refinancing solution](/resources/guides/commercial-property-refinancing-solutions) once documents, valuations, and entity changes are complete.
+Sometimes the parties agree on the outcome, but the permanent lender is not ready. A second mortgage can act as transitional funding so the settlement can move while the more complete refinance catches up. In practice, that often sits alongside a later [commercial property refinancing solution](/services/refinancing-solutions) once documents, valuations, and entity changes are complete.
 
 ### Preventing a forced sale at the wrong time
 
@@ -170,11 +170,11 @@ The exact checklist depends on the lender and the property, but most second-mort
 - settlement deed, heads of agreement, or solicitor-confirmed context for the payout
 - explanation of use of funds and expected exit
 
-If the asset already has layered debt or unusual legal conditions, the lender may also want to understand intercreditor issues early. That is where a guide like [Subordination Agreements in Second Mortgages](/resources/guides/subordination-agreement-second-mortgage) becomes relevant.
+If the asset already has layered debt or unusual legal conditions, the lender may also want to understand intercreditor issues early. That is where a guide like [Subordination Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean) becomes relevant.
 
 ## Risks to understand
 
-A second mortgage can solve a timing problem, but it is not a casual option. It works best when the facility is part of a broader plan that may later move into [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or another defined exit.
+A second mortgage can solve a timing problem, but it is not a casual option. It works best when the facility is part of a broader plan that may later move into [commercial property refinancing](/services/refinancing-solutions) or another defined exit.
 
 ### Higher structural risk
 
@@ -236,7 +236,7 @@ That is one of the more common reasons a second mortgage is considered. It can c
 - [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)
 - [Caveat Loan vs Second Mortgage: Which Is Right for You?](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 ---
 

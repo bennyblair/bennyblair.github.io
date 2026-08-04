@@ -29,7 +29,7 @@ The important distinction is that a property development mortgage is not just a 
 
 - **[Property Development Loans Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)** — the core funding framework for Australian developers.
 - **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)** — how construction facilities are assessed and controlled.
-- **[Commercial Land Loans](/resources/guides/commercial-land-loans-financing-property-development)** — finance options for development sites and land holdings.
+- **[Commercial Land Loans](/resources/guides/commercial-property-development-finance)** — finance options for development sites and land holdings.
 - **[Mezzanine Finance Australia](/resources/guides/mezzanine-finance-australia-complete-guide)** — layered funding for more complex capital stacks.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial property lending context.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — how private and non-bank lenders assess commercial property security.
@@ -161,8 +161,8 @@ The main risk is project delay. If approval, valuation, construction, sale, or r
 
 - **[Property Development Loans Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)**
 - **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)**
-- **[Commercial Land Loans](/resources/guides/commercial-land-loans-financing-property-development)**
+- **[Commercial Land Loans](/resources/guides/commercial-property-development-finance)**
 - **[Residual Stock Loans](/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock)**
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -32,7 +32,7 @@ This guide explains how pre-settlement finance works for commercial property pur
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — How short-term bridging structures work for property timing gaps.
 - **[Commercial Bridging Loans for Property Auctions](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Funding considerations when settlement deadlines are fixed after auction.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main guide to commercial property lending structures.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Refinancing pathways when the exit strategy is a longer-term facility.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Refinancing pathways when the exit strategy is a longer-term facility.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — How private lending works for eligible business borrowers.
 - **[Fast Commercial Property Loans for Urgent Settlement](/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia)** — What changes when timing is compressed before settlement.
 
@@ -103,7 +103,7 @@ It may be unsuitable when:
 - legal, tax or title issues remain unresolved
 - the short-term facility would create pressure the business cannot absorb
 
-If the issue is a permanent debt structure rather than a temporary settlement gap, a longer-term [commercial property refinancing solution](/resources/guides/commercial-property-refinancing-solutions) may be more relevant than urgent pre-settlement funding.
+If the issue is a permanent debt structure rather than a temporary settlement gap, a longer-term [commercial property refinancing solution](/services/refinancing-solutions) may be more relevant than urgent pre-settlement funding.
 
 ## How Pre-Settlement Finance Is Structured
 

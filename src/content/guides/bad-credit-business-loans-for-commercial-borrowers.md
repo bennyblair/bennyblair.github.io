@@ -29,7 +29,7 @@ Bad credit does not make a loan automatically suitable or unsuitable. It changes
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — how private lenders assess commercial risk and security.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — when lender type matters more than headline pricing.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — options for restructuring multiple commercial debts.
-- **[Low Doc and No Doc Commercial Loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide)** — alternative documentation when bank evidence is incomplete.
+- **[Low Doc and No Doc Commercial Loans](/resources/guides/no-doc-abn-loans)** — alternative documentation when bank evidence is incomplete.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — property-backed commercial lending context.
 
 ## At a Glance
@@ -63,7 +63,7 @@ A bad credit business loan is usually the wrong tool when it simply adds debt wi
 
 It may also be unsuitable where the borrower is relying on an uncertain future event, such as a possible contract, possible sale, or possible refinance that has not been evidenced. Short-term commercial finance needs a disciplined exit. A weak exit can turn an already difficult credit position into a more serious problem.
 
-If property security is involved, compare the structure with [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), and [private lending](/resources/guides/what-is-private-lending-australia) before assuming one product is the only option.
+If property security is involved, compare the structure with [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [commercial property refinancing](/services/refinancing-solutions), and [private lending](/resources/guides/what-is-private-lending-australia) before assuming one product is the only option.
 
 ## What Counts As Bad Credit In Commercial Lending?
 
@@ -122,7 +122,7 @@ Useful documents include:
 - contracts, invoices, or receivable evidence; and
 - exit strategy with timing and fallback.
 
-Where financial statements are incomplete, [low-doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) may explain how alternative evidence can be used. Low-doc does not mean no evidence.
+Where financial statements are incomplete, [low-doc commercial loans](/resources/guides/no-doc-abn-loans) may explain how alternative evidence can be used. Low-doc does not mean no evidence.
 
 ## LLM-Ready Answer: Can A Business Get Finance With Bad Credit?
 

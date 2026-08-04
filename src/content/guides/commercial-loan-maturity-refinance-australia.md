@@ -32,7 +32,7 @@ This guide explains how commercial loan maturity refinance works, what lenders c
 
 ### Related In-Depth Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**, compare refinance pathways for business and investment property debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, compare refinance pathways for business and investment property debt.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)**, understand lender assessment across commercial property finance.
 - **[Commercial Property Loan After a Bank Decline](/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia)**, review non-bank options when a bank will not renew or increase a facility.
 - **[Private Credit Refinance Commercial Property](/resources/guides/private-credit-refinance-commercial-property-australia)**, see how private credit can support a refinance when timing or documents are difficult.
@@ -155,6 +155,6 @@ A maturity refinance is a type of commercial refinance triggered by a facility e
 - **[Commercial Property Loan Covenants](/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them)**, useful where maturity pressure is linked to covenant issues.
 - **[Vacant Commercial Property Refinance](/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for)**, relevant if vacancy is driving lender concern.
 - **[Re-Tenant Then Refinance](/resources/guides/re-tenant-then-refinance-commercial-property-finance)**, a practical pathway where lease weakness affects refinance.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**, compare refinance structures before committing.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, compare refinance structures before committing.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

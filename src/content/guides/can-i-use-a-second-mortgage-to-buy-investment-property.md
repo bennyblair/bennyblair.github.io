@@ -37,7 +37,7 @@ A second mortgage is more likely to be considered for an investment property pur
 | Is there enough equity after the first mortgage? | The second mortgage lender ranks behind the first lender and needs a risk buffer. |
 | What will repay or refinance the debt? | A second mortgage should not become an accidental long-term holding facility. |
 | Would bridging finance fit better? | If the issue is settlement timing, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may be the cleaner comparison. |
-| Would a full refinance fit better? | If the first mortgage is inefficient, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may solve the problem more cleanly. |
+| Would a full refinance fit better? | If the first mortgage is inefficient, [commercial property refinancing](/services/refinancing-solutions) may solve the problem more cleanly. |
 
 For broader context, compare this page with the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide), [commercial property loans Australia guide](/resources/guides/commercial-property-loans-australia-complete-guide), and [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better).
 
@@ -48,7 +48,7 @@ For broader context, compare this page with the [second mortgages for business g
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The broader commercial property lending landscape.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender appetite can differ across channels.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — When short-term funding is driven by settlement timing.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — How refinance may replace short-term second mortgage funding.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — How refinance may replace short-term second mortgage funding.
 
 ## At a Glance
 
@@ -135,7 +135,7 @@ It may be a poor fit where:
 - The facility term is too short for the actual plan.
 - The borrower is trying to avoid a broader refinance that is clearly needed.
 
-Where the existing facility is the real problem, [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) may be more suitable than layering a second mortgage behind it.
+Where the existing facility is the real problem, [commercial property refinancing solutions](/services/refinancing-solutions) may be more suitable than layering a second mortgage behind it.
 
 ## What Lenders Assess Before Approval
 
@@ -245,7 +245,7 @@ Emet Capital can help eligible commercial borrowers compare second mortgage, pri
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Core guide to commercial second mortgage funding.
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How ranking and lender priority work.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Long-term commercial property funding basics.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When restructuring the existing loan is cleaner.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — When restructuring the existing loan is cleaner.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Funding options for settlement timing gaps.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

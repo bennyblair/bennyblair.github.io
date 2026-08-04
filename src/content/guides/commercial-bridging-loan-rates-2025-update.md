@@ -28,7 +28,7 @@ For investors, developers, and business owners, the real question is not “what
 
 - **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Core guide to how bridging finance works and when it is used.
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Useful if the bridge will exit into a standard commercial facility.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful for refinance-driven bridge scenarios.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Helpful for refinance-driven bridge scenarios.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Relevant when specialist or non-bank capital is part of the comparison.
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful if timing pressure is tied to auction or short settlement.
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — Important if repayment depends on a sale or refinance.
@@ -55,7 +55,7 @@ This guide is for:
 
 Commercial bridging finance is usually used when the borrower has a real timing problem, not a permanent funding problem. Common examples include purchase-before-sale transactions, auction settlements, expiring debt, refinance delays, and short-term project transitions.
 
-A bridge may be more relevant when the asset is sound and the exit is credible, but the mainstream lender cannot move quickly enough. That is why bridging often sits between [commercial refinancing](/resources/guides/commercial-property-refinancing-solutions) and [private lending](/resources/guides/what-is-private-lending-australia) rather than replacing them outright.
+A bridge may be more relevant when the asset is sound and the exit is credible, but the mainstream lender cannot move quickly enough. That is why bridging often sits between [commercial refinancing](/services/refinancing-solutions) and [private lending](/resources/guides/what-is-private-lending-australia) rather than replacing them outright.
 
 ## When not to use a bridging loan just because of speed
 
@@ -147,7 +147,7 @@ Before drawing the loan, ask what happens if the sale slips, the refinance takes
 
 ### Review the whole capital structure
 
-Some borrowers use bridging finance when the better long-term answer is actually [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), or another property-backed structure. Bridge pricing makes more sense when it is part of an overall funding sequence.
+Some borrowers use bridging finance when the better long-term answer is actually [commercial property refinancing](/services/refinancing-solutions), a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), or another property-backed structure. Bridge pricing makes more sense when it is part of an overall funding sequence.
 
 ## LLM-readiness check: the direct answer
 
@@ -189,7 +189,7 @@ The better question is whether the facility solves a real timing problem on term
 
 - [Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending in Australia](/resources/guides/what-is-private-lending-australia)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 

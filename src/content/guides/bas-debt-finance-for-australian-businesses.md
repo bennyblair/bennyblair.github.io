@@ -114,7 +114,7 @@ Useful documents may include:
 - forecast cash flow showing future BAS capacity; and
 - written purpose and repayment plan.
 
-If full financials are not available, [low-doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) may explain alternative evidence. Low-doc still needs a coherent tax and cash-flow story.
+If full financials are not available, [low-doc commercial loans](/resources/guides/no-doc-abn-loans) may explain alternative evidence. Low-doc still needs a coherent tax and cash-flow story.
 
 ## Practical Example
 

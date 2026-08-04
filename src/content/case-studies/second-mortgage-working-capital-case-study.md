@@ -56,7 +56,7 @@ A second mortgage may be considered for working capital when the funding need is
 
 The structure is usually less suitable when the business has a persistent cash-flow deficit. If the business cannot explain why the shortage happened, how it will be corrected, and what prevents it recurring, secured debt may only delay a deeper problem.
 
-Borrowers should compare the structure with [line of credit equity options](/resources/guides/line-of-credit-equity), [invoice finance](/resources/guides/invoice-finance-australia-complete-guide), and other business finance options before assuming a second mortgage is the right fit.
+Borrowers should compare the structure with [line of credit equity options](/resources/guides/second-mortgage-vs-line-of-credit), [invoice finance](/resources/guides/invoice-finance-australia-complete-guide), and other business finance options before assuming a second mortgage is the right fit.
 
 ## The Scenario: A Good Business With A Timing Problem
 
@@ -164,10 +164,10 @@ A business should avoid this structure where the cash-flow problem is ongoing, t
 ## Related Guides
 
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — preserving the first mortgage while accessing equity.
-- **[When Second Mortgages Make Sense for SMEs](/resources/guides/when-second-mortgages-make-financial-sense-smes)** — suitability checks for business borrowers.
+- **[When Second Mortgages Make Sense for SMEs](/resources/guides/second-mortgage-loan-equity-access-strategies)** — suitability checks for business borrowers.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — comparing fixed secured debt and flexible access.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — broader business cash-flow funding options.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — potential long-term takeout structure.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — potential long-term takeout structure.
 
 ## Disclaimer
 

@@ -99,7 +99,7 @@ Commercial property valuations can make or break a transaction. A broker should 
 
 They should also explain how security position affects lender choice. A first mortgage, second mortgage, caveat, cross-collateralised facility, or short-term bridge each creates different risk and process requirements.
 
-If the transaction involves a deposit, equity release, or refinance, compare the expected security position with [commercial property loan deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide).
+If the transaction involves a deposit, equity release, or refinance, compare the expected security position with [commercial property loan deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need), [commercial property refinancing](/services/refinancing-solutions), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide).
 
 ## Checklist Item 6: Realistic Communication
 

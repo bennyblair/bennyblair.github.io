@@ -33,7 +33,7 @@ This guide explains how to triage a declined commercial property loan, when non-
 - **[Commercial Property Finance Broker Selection Checklist](/resources/guides/commercial-property-finance-broker-selection-checklist)** — How to choose a broker for complex commercial property scenarios.
 - **[Bank vs Non-Bank Commercial Lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — How lender types differ in policy, speed, and appetite.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Strategic comparison of mainstream and private credit pathways.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant where the declined bank application was part of a refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant where the declined bank application was part of a refinance.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — Broader context for private credit and scenario-led lending.
 
 ## At a Glance
@@ -93,7 +93,7 @@ Non-bank lenders may still consider the asset, especially where there is equity 
 
 Some banks are cautious with specialised commercial assets, development sites, mixed-use properties, hospitality venues, childcare, boarding houses, vacant land, or properties with environmental or planning complexity. That does not mean the property has no lending market.
 
-It means lender selection matters. A specialist non-bank or private lender may focus more on equity, saleability, lease strategy, and exit. If the property is a development or construction-related asset, the borrower may also need to compare [property development loans](/resources/guides/property-development-loans-complete-funding-guide) and [commercial land loans](/resources/guides/commercial-land-loans-financing-property-development).
+It means lender selection matters. A specialist non-bank or private lender may focus more on equity, saleability, lease strategy, and exit. If the property is a development or construction-related asset, the borrower may also need to compare [property development loans](/resources/guides/property-development-loans-complete-funding-guide) and [commercial land loans](/resources/guides/commercial-property-development-finance).
 
 ### Tax arrears or debt conduct raised concerns
 

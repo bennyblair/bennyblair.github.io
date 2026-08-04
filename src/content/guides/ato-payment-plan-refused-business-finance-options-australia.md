@@ -71,7 +71,7 @@ Business finance may be considered when the tax debt is specific, the business r
 
 For example, a company may have a refused payment plan because the proposed term is too long, but it also has signed receivables due within weeks. In that case, [working capital finance](/resources/guides/working-capital-loans-for-smes), debtor finance, or a short-term secured facility may be compared.
 
-Another business may own property with usable equity but be unable to wait for a bank refinance. In that scenario, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), or [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may be considered, depending on security and timing.
+Another business may own property with usable equity but be unable to wait for a bank refinance. In that scenario, [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), or [commercial property refinancing](/services/refinancing-solutions) may be considered, depending on security and timing.
 
 ## When Finance May Be the Wrong Tool
 
@@ -111,7 +111,7 @@ A second mortgage may allow a business owner to access property equity without r
 
 A commercial refinance may be cleaner where the existing lender relationship has become unsuitable or the borrower wants one consolidated facility. The trade-off is timing. Bank-style refinancing can take longer and may be harder if the ATO debt has already escalated.
 
-Read [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) before choosing between these structures. The ranking of security, consent, fees, and exit plan matter.
+Read [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing solutions](/services/refinancing-solutions) before choosing between these structures. The ranking of security, consent, fees, and exit plan matter.
 
 ## Option 4: Debtor, Asset-Backed, or Trade Finance
 

@@ -71,7 +71,7 @@ Explore our specialist caveat loans guides for specific scenarios:
 | **Best fit** | Settlement pressure, tax-debt timing, supplier deadlines, refinance gaps, or short-term commercial opportunities. |
 | **Main lender focus** | Property security, equity, title position, loan purpose, documents, and exit strategy. |
 | **Main risk** | Costs and default pressure if the exit does not happen as planned. |
-| **Better alternatives when time allows** | [Commercial refinance](/resources/guides/commercial-property-refinancing-solutions), bridging finance, or first and second mortgages. |
+| **Better alternatives when time allows** | [Commercial refinance](/services/refinancing-solutions), bridging finance, or first and second mortgages. |
 | **Broker test** | If the borrower cannot name the exit before settlement, the caveat loan is usually not ready. |
 
 ### Caveat Loan Readiness Summary
@@ -140,7 +140,7 @@ Commercial investment property owners may require urgent funding for various pur
 
 Property portfolio management sometimes requires rapid funding for deposit payments, settlement obligations, or urgent property acquisitions where timing considerations exceed traditional lending capabilities.
 
-When considering permanent financing solutions after urgent needs are addressed, exploring [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) options helps businesses transition from short-term to sustainable funding structures.
+When considering permanent financing solutions after urgent needs are addressed, exploring [commercial property refinancing](/services/refinancing-solutions) options helps businesses transition from short-term to sustainable funding structures.
 
 ### Development and Construction Caveat Funding
 

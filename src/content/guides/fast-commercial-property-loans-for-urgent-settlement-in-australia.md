@@ -30,7 +30,7 @@ This guide explains what can realistically move quickly, what slows urgent settl
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main pillar guide for commercial property finance.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — How short-term bridging structures work for property timing gaps.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — Fast property-backed finance for commercial scenarios.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Refinance pathways where an existing facility needs to be replaced.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Refinance pathways where an existing facility needs to be replaced.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — When second-ranking property security may support business funding.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type affects speed, flexibility, and assessment.
 
@@ -74,7 +74,7 @@ Fast finance is not suitable when the borrower cannot explain repayment, the sec
 
 It may also be unsuitable where the issue is not timing but affordability. A short-term lender may solve a settlement deadline, but it will not make an unsustainable transaction sustainable. Borrowers should understand costs, legal obligations, default consequences, and exit timing before signing any facility.
 
-If there is enough time for a mainstream refinance, compare that path first. If the file is complex but not urgent, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may provide a more appropriate framework than emergency funding.
+If there is enough time for a mainstream refinance, compare that path first. If the file is complex but not urgent, [commercial property refinancing](/services/refinancing-solutions) may provide a more appropriate framework than emergency funding.
 
 ## Option 1: Commercial Property Refinance
 
@@ -216,7 +216,7 @@ Yes. Emet Capital can help eligible commercial borrowers compare private, non-ba
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

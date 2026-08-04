@@ -29,7 +29,7 @@ For Australian business owners, property investors, and developers, the key ques
 - **[Bridging Loan Exit Strategy Broker Take](/resources/guides/bridging-loan-exit-strategy-broker-take)** — practical exit planning before using a short-term facility.
 - **[Bridging Finance Auction Settlement Case Study](/resources/guides/bridging-finance-auction-settlement-case-study)** — timing pressure in a settlement-led scenario.
 - **[Commercial Property Loans Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — mainstream commercial property finance context.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance pathways once the urgent window has passed.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways once the urgent window has passed.
 - **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — a related urgent-settlement funding structure.
 
 ### At a Glance
@@ -63,7 +63,7 @@ Do not use bridging finance if there is no realistic exit. A short-term facility
 
 It may not fit if the property has limited equity, the title is disputed, the borrower cannot document the loan purpose, or the bank delay is really a decline in progress. It can also be unsuitable where a sale contract is uncertain, a refinance valuation is likely to fall short, or the borrower needs long-term working capital rather than a short bridge.
 
-Before using short-term property finance, compare whether a revised [commercial refinance](/resources/guides/commercial-property-refinancing-solutions), staged settlement, vendor extension, or contribution from business cash flow would create less risk.
+Before using short-term property finance, compare whether a revised [commercial refinance](/services/refinancing-solutions), staged settlement, vendor extension, or contribution from business cash flow would create less risk.
 
 ## What Lenders Assess
 
@@ -138,7 +138,7 @@ Borrowers should speak with their accountant, solicitor, and commercial finance 
 ## Related Guides
 
 - **[Bridging Finance Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)**
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)**
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)**
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)**

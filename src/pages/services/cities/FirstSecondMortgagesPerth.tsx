@@ -82,7 +82,7 @@ export default function FirstSecondMortgagesPerth() {
         },
         {
           title: 'Commercial Property Refinancing Solutions',
-          href: '/resources/guides/commercial-property-refinancing-solutions',
+          href: '/services/refinancing-solutions',
           description: 'Helpful for borrowers dealing with maturing facilities or lender transition pressure.'
         }
       ]}

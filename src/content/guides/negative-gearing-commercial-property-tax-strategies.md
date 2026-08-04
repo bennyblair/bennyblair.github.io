@@ -28,7 +28,7 @@ This guide explains how negative gearing can apply to commercial property, why c
 
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide for commercial property finance.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how lenders test cash-flow capacity.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — options when the current debt structure no longer fits.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — options when the current debt structure no longer fits.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — comparison of bank and private lender assessment.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — how valuation affects borrowing capacity.
 - **[Business Debt Consolidation](/resources/guides/business-debt-consolidation-australia)** — restructuring debts where cash flow is under pressure.
@@ -155,7 +155,7 @@ Yes. Tax treatment depends on your entity, income, deductions and current law. Y
 
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 

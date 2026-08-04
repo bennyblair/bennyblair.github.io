@@ -28,7 +28,7 @@ This guide explains how a re-tenant then refinance strategy works, when it may f
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main guide to commercial property lending structures and assessment.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — How refinance options work when an existing facility needs to be replaced.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — How refinance options work when an existing facility needs to be replaced.
 - **[Commercial Property Loan Covenant Breach Refinance Options](/resources/guides/commercial-property-loan-covenant-breach-refinance-options)** — What to consider when a lender covenant issue is driving refinance pressure.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — How short-term property-backed funding can cover a timing gap.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — How private lenders assess commercial borrowers outside standard bank settings.
@@ -51,7 +51,7 @@ This guide is for commercial property investors, business owners and developers 
 
 It may apply to warehouses, offices, retail shops, medical suites, mixed-use assets, industrial units and specialised commercial premises. It is not written for consumer home loans or personal borrowing.
 
-If you are comparing broader property-backed funding options, start with the [commercial property finance guide](/resources/guides/commercial-property-loans-australia-complete-guide) and the [commercial property refinancing guide](/resources/guides/commercial-property-refinancing-solutions) before deciding whether a short-term re-tenant strategy is the right lens.
+If you are comparing broader property-backed funding options, start with the [commercial property finance guide](/resources/guides/commercial-property-loans-australia-complete-guide) and the [commercial property refinancing guide](/services/refinancing-solutions) before deciding whether a short-term re-tenant strategy is the right lens.
 
 ## What Is a Re-Tenant Then Refinance Strategy?
 
@@ -192,7 +192,7 @@ Prepare the current loan statement, title details, rent roll, lease documents, o
 ## Related Guides
 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Main commercial property finance guide.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Refinance pathways for existing borrowers.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Refinance pathways for existing borrowers.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — How lenders assess rental income and borrower capacity.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type changes assessment and timing.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How equity can sometimes be accessed without replacing the first mortgage.

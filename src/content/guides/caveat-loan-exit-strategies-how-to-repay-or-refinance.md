@@ -22,13 +22,13 @@ A caveat loan exit strategy is the plan for how a short-term caveat facility wil
 
 That is because caveat loans are usually written to solve urgent timing pressure, not to act as long-term debt. A borrower may use one to cover a settlement gap, release fast equity, pay urgent business liabilities, or hold a property-backed position together while another transaction catches up. The loan itself can be useful. The danger is assuming the urgency ends once the funds arrive. It usually does not. The exit still needs to happen.
 
-For business owners, property investors, and developers, the real question is not just how fast a caveat loan can settle. It is what repayment path is realistic, what can delay that path, and how to avoid drifting from a short-term commercial tool into an expensive rollover problem. In some cases, the clean exit is a sale. In others, it is a [commercial refinance](/resources/guides/commercial-property-refinancing-solutions), a [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) transition, or a move into a more stable [private lending](/resources/guides/what-is-private-lending-australia) structure once the file is ready.
+For business owners, property investors, and developers, the real question is not just how fast a caveat loan can settle. It is what repayment path is realistic, what can delay that path, and how to avoid drifting from a short-term commercial tool into an expensive rollover problem. In some cases, the clean exit is a sale. In others, it is a [commercial refinance](/services/refinancing-solutions), a [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) transition, or a move into a more stable [private lending](/resources/guides/what-is-private-lending-australia) structure once the file is ready.
 
 ### Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to how caveat loans work and where they fit.
 - **[Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if your exit depends on a linked settlement or purchase transaction.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Important if the intended exit is a refinance into longer-term debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Important if the intended exit is a refinance into longer-term debt.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Helpful when the file may need another specialist lender rather than a bank.
 - **[Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)** — Relevant where the caveat exit depends on another property event.
 - **[Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Useful if you are comparing where the refinance exit may realistically land.
@@ -265,7 +265,7 @@ The strongest caveat files are usually the ones where the borrower already knows
 
 - [Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)
 - [Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)
 

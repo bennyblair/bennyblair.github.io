@@ -31,7 +31,7 @@ For Australian business owners and property investors, the key question is wheth
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How first and second mortgage structures compare.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The broader commercial property lending assessment framework.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type affects speed, flexibility and trade-offs.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When a full refinance may be better than layering debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — When a full refinance may be better than layering debt.
 - **[Business Loans Secured by Residential Property](/resources/guides/business-loans-secured-by-residential-property-in-australia)** — How residential property can support business-purpose borrowing.
 
 ## At a Glance
@@ -57,7 +57,7 @@ A second mortgage may make sense when the borrower has enough equity, a clear bu
 
 Common examples include a business needing short-term working capital before a receivable arrives, a property investor covering a settlement gap, a company clearing time-sensitive tax or supplier pressure, or a borrower funding a business acquisition while a longer refinance is prepared.
 
-The structure is often compared with [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia), [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) and [private lending](/resources/guides/what-is-private-lending-australia). The right answer depends on timing, total debt, lender appetite and exit certainty.
+The structure is often compared with [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia), [commercial property refinance](/services/refinancing-solutions) and [private lending](/resources/guides/what-is-private-lending-australia). The right answer depends on timing, total debt, lender appetite and exit certainty.
 
 ## When Not To Use It
 
@@ -223,7 +223,7 @@ No. A second mortgage is usually second-ranking mortgage security, while a cavea
 
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)
 

@@ -158,7 +158,7 @@ None of that should be assumed. Release rights and limitation settings should be
 
 Guarantees can be one of the hidden reasons a refinance becomes more attractive. A borrower may not only be chasing rate or term improvement. They may also want to reduce or reshape personal exposure.
 
-For example, one lender may insist on broad, ongoing guarantees while another may take a cleaner view of the security and borrower profile. That is why guarantee settings should be part of any serious review of [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), not an afterthought once the term sheet arrives.
+For example, one lender may insist on broad, ongoing guarantees while another may take a cleaner view of the security and borrower profile. That is why guarantee settings should be part of any serious review of [commercial property refinancing solutions](/services/refinancing-solutions), not an afterthought once the term sheet arrives.
 
 If a refinance has already been declined, it is also worth reviewing [commercial property refinance after a bank decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia), because guarantee concerns often sit beside serviceability, valuation, or entity-structure issues.
 
@@ -244,7 +244,7 @@ Yes. Guarantee settings are part of the real commercial offer. Two lenders may l
 
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Loan Deposits in Australia: How Much Do You Need?](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 

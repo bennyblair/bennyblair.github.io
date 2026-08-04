@@ -47,7 +47,7 @@ A private commercial loan is not a shortcut around a weak business case. The str
 
 This guide is for Australian SME owners considering private commercial finance for a business-purpose need. It is relevant if a bank is moving too slowly, your business has a time-sensitive deadline, or your file does not fit standard bank policy but still has a sensible commercial explanation.
 
-It is not written for consumer borrowing. Emet Capital works with eligible business borrowers, property investors, and developers. If your need is specifically property-backed, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions).
+It is not written for consumer borrowing. Emet Capital works with eligible business borrowers, property investors, and developers. If your need is specifically property-backed, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions).
 
 ## What Private Commercial Loans Mean for SMEs
 
@@ -71,7 +71,7 @@ Private commercial finance is usually not suitable where there is no exit plan. 
 
 It may also be unsuitable where the business needs deeper operational repair. Ongoing losses, unresolved tax arrears, poor records, or supplier pressure across the whole business may require advice from an accountant, restructuring specialist, or insolvency practitioner before new debt is considered.
 
-For permanent cash-flow needs, compare [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [line of credit equity](/resources/guides/line-of-credit-equity), and [cashflow facility stacks](/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance). A private commercial loan should solve a defined funding problem, not hide a structural one.
+For permanent cash-flow needs, compare [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [line of credit equity](/resources/guides/second-mortgage-vs-line-of-credit), and [cashflow facility stacks](/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance). A private commercial loan should solve a defined funding problem, not hide a structural one.
 
 ## What Private Lenders Assess
 

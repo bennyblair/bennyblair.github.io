@@ -34,7 +34,7 @@ This guide explains what to check before a balloon payment is due, when refinanc
 - **[Business Loan Requirements Australia](/resources/guides/business-loan-requirements-australia-commercial-borrowers)** — Documents and assessment factors that matter across commercial lending applications.
 - **[Business Loan Terms Explained](/resources/guides/business-loan-terms-explained-australia)** — Plain-English guide to repayment terms, security, covenants, and facility conditions.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Useful if the residual is one part of a broader cash-flow pressure.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant where property-backed refinance is being considered as the exit.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant where property-backed refinance is being considered as the exit.
 
 ## At a Glance
 
@@ -89,7 +89,7 @@ A line of credit is usually less suitable if the balloon is large, the business 
 
 Some business owners use commercial or investment property equity to solve a residual payment where the equipment is critical and the timing is tight. That might involve a second mortgage, private lending facility, caveat-style structure, or commercial refinance depending on the facts.
 
-This path needs discipline. Property-backed finance can create speed and flexibility, but it should not be used casually for a depreciating asset unless the commercial reason and exit are clear. If property security is involved, review [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and [private lending in Australia](/resources/guides/what-is-private-lending-australia) before assuming one structure fits.
+This path needs discipline. Property-backed finance can create speed and flexibility, but it should not be used casually for a depreciating asset unless the commercial reason and exit are clear. If property security is involved, review [commercial property refinancing](/services/refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and [private lending in Australia](/resources/guides/what-is-private-lending-australia) before assuming one structure fits.
 
 ## What Lenders Usually Check
 

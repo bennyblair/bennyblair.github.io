@@ -614,7 +614,7 @@ Melbourne's position as Australia's dining capital, combined with strong inner-n
 
 ## Related Resources
 
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions) - Complete guide to refinancing
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions) - Complete guide to refinancing
 - [Hospitality Property Finance](/resources/guides/hospitality-property-finance-restaurants-hotels-venues) - Melbourne restaurant funding options
 - [Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia) - Benefits of consolidating multiple loans
 

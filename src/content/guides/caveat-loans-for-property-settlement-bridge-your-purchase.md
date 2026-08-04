@@ -141,7 +141,7 @@ A developer may need to complete quickly on a commercial site because delay coul
 
 ### Scenario 4: Standard bridging is available, but not fast enough
 
-A borrower may qualify for bridging finance, but the required settlement date arrives before the facility can be documented. In that case, a caveat loan may act as a temporary bridge into a cleaner [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or bridging structure.
+A borrower may qualify for bridging finance, but the required settlement date arrives before the facility can be documented. In that case, a caveat loan may act as a temporary bridge into a cleaner [commercial property refinancing](/services/refinancing-solutions) or bridging structure.
 
 ## How to Reduce Risk Before Accepting Settlement Finance
 

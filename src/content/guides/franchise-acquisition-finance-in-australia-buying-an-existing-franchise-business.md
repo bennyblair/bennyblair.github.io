@@ -167,7 +167,7 @@ The required working capital depends on the business model, wages, rent, supplie
 ## Related Guides
 
 - **[Business Acquisition Finance in Australia](/resources/guides/business-acquisition-finance-australia)** — broader acquisition finance structures for business buyers.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — options where refinance is part of the acquisition exit.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — options where refinance is part of the acquisition exit.
 - **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — funding context for businesses with receivables or timing gaps.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — short-term property-backed funding context for urgent commercial transactions.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — property-backed business funding where existing security remains in place.

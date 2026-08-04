@@ -30,7 +30,7 @@ This guide is for commercial borrowers, business owners, investors, and develope
 - **[How to Find the Best Commercial Mortgage Broker](/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide)** — broker selection questions and red flags.
 - **[Bank vs Non-Bank Commercial Lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — why lender type matters.
 - **[Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — when private capital may support complex files.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance pathways for existing assets.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways for existing assets.
 
 ## At a Glance
 
@@ -139,7 +139,7 @@ The opening section contains a clean citation-ready definition. The FAQ answers 
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)**
 - **[Commercial Property Finance Broker Selection Checklist](/resources/guides/commercial-property-finance-broker-selection-checklist)**
 - **[How to Find the Best Commercial Mortgage Broker](/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide)**
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)**
 
 ## Frequently Asked Questions

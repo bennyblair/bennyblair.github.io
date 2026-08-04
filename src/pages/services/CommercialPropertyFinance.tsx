@@ -539,9 +539,9 @@ const CommercialPropertyFinance = () => {
                 description: "How bridging finance works for commercial and investment property timing gaps.",
               },
               {
-                title: "Commercial Property Refinancing Solutions",
-                slug: "commercial-property-refinancing-solutions",
-                description: "When refinancing may be a direct alternative to short-term settlement finance.",
+                title: "Commercial Property Refinance After a Bank Decline",
+                slug: "commercial-property-refinance-after-a-bank-decline-in-australia",
+                description: "When a direct refinance or a transitional structure may fit after a bank decline.",
               },
             ] as RelatedArticle[]}
           />

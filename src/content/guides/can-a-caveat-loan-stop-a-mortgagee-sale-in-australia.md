@@ -32,7 +32,7 @@ At Emet Capital, we see this as a timing and structure question, not just a fund
 - **[Caveat Loans Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to caveat loan structures, timing, and risks
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — Relevant if tax pressure is part of the enforcement problem
 - **[ATO Garnishee Notice Finance for Australian Businesses](/resources/guides/ato-garnishee-notice-finance-for-australian-businesses)** — What urgent secured finance can and cannot solve under ATO pressure
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When a refinance is the real exit path
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — When a refinance is the real exit path
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — How non-bank and private capital usually assess urgent files
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Why urgent rescue scenarios rarely fit standard bank timing
 
@@ -77,7 +77,7 @@ The strongest rescue files are usually the ones where pressure is real but the s
 
 ### 2. There is real equity in the property
 
-Caveat lenders usually want a meaningful equity buffer. If the senior lender debt, default interest, legal costs, and sale costs already absorb most of the property value, there may be nothing left to support a rescue facility. That is one reason many borrowers end up needing a wider review of [commercial property refinancing options](/resources/guides/commercial-property-refinancing-solutions) rather than a last-minute patch.
+Caveat lenders usually want a meaningful equity buffer. If the senior lender debt, default interest, legal costs, and sale costs already absorb most of the property value, there may be nothing left to support a rescue facility. That is one reason many borrowers end up needing a wider review of [commercial property refinancing options](/services/refinancing-solutions) rather than a last-minute patch.
 
 ### 3. The exit is already visible
 

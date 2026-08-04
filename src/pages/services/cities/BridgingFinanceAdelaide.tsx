@@ -93,7 +93,7 @@ export default function BridgingFinanceAdelaide() {
         },
         {
           title: 'Bridging Finance for Developers',
-          href: '/resources/guides/bridging-finance-developers-project-funding-solutions',
+          href: '/resources/guides/commercial-property-development-finance',
           description: 'Useful for Adelaide site acquisition and construction-transition scenarios.'
         }
       ]}

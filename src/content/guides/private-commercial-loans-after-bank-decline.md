@@ -24,7 +24,7 @@ Private commercial loans after a bank decline are business-purpose facilities co
 
 For Australian business owners, developers, and property investors, the practical question is not simply "which lender will say yes?" The better question is whether a private commercial loan can solve the immediate funding problem without creating a worse one later.
 
-This guide explains when private commercial lending may fit after a bank decline, what private lenders assess, how to prepare the file, when not to use private debt, and how Emet Capital helps borrowers compare options across [private lending](/resources/guides/what-is-private-lending-australia), [business finance](/resources/guides/working-capital-loans-for-smes), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions).
+This guide explains when private commercial lending may fit after a bank decline, what private lenders assess, how to prepare the file, when not to use private debt, and how Emet Capital helps borrowers compare options across [private lending](/resources/guides/what-is-private-lending-australia), [business finance](/resources/guides/working-capital-loans-for-smes), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinance](/services/refinancing-solutions).
 
 ### Related In-Depth Guides
 
@@ -147,6 +147,6 @@ The best exit strategy is specific and evidence-based. Common exits include refi
 - [Private Commercial Loans for SMEs](/resources/guides/private-commercial-loans-for-smes)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

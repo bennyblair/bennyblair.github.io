@@ -46,7 +46,7 @@ If you need a broader foundation before comparing pricing, start with our [comme
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main foundation piece on commercial property finance structures and lender assessment.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful if you are comparing pricing as part of a refinance or debt restructure.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Useful if you are comparing pricing as part of a refinance or debt restructure.
 - **[Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — Explains how lenders assess income coverage and debt capacity.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Helpful for understanding how valuation outcomes affect pricing.
 - **[Commercial Property Lenders in Australia: Complete Directory](/resources/guides/commercial-property-lenders-in-australia-complete-directory)** — A lender-landscape guide for borrowers comparing lender types.
@@ -98,7 +98,7 @@ Borrowers often focus on the highest possible advance. In practice, a slightly l
 
 Strong financials, clean entity structure, clear use of funds, and timely document delivery can materially improve lender confidence. The pricing impact is not always visible as a lower headline rate. Sometimes it appears as a better fee position, cleaner terms, or access to a stronger lender in the first place.
 
-For borrowers with weaker financial presentation, alternative pathways like [low doc and no doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) may be relevant, but they often change both lender type and pricing expectations.
+For borrowers with weaker financial presentation, alternative pathways like [low doc and no doc commercial loans](/resources/guides/no-doc-abn-loans) may be relevant, but they often change both lender type and pricing expectations.
 
 ### Loan purpose and exit clarity
 
@@ -165,6 +165,20 @@ A borrower comparing commercial mortgage rates in Australia should remember one 
 
 That means the best pricing outcome usually comes from improving the structure, clarifying the property story, and matching the file to the right lender category. A strong comparison process looks at execution certainty, fees, conditions, and exit strategy alongside the headline rate.
 
+## Fixed, Variable and Reviewable Pricing
+
+Commercial pricing is not always a simple fixed-versus-variable choice. A facility can have a variable reference rate, a lender margin that is reviewable, or covenants that allow repricing when leverage, lease coverage or risk changes. Borrowers should ask which component can move, how often it is reviewed, and whether early repayment or break costs apply.
+
+| Pricing question | Why it matters |
+|---|---|
+| What is the reference rate or base cost? | It shows which market movement can change repayments. |
+| Is the lender margin fixed for the term? | A reviewable margin can change even if the reference rate does not. |
+| Which fees are recurring? | Line, review, valuation and monitoring costs affect the effective price. |
+| Are there minimum-interest or break provisions? | A lower headline rate may be expensive when the borrower exits early. |
+| What assumptions could trigger repricing? | LVR, vacancy, covenant or arrears changes may alter the risk grade. |
+
+Rate forecasts should be treated as scenarios, not promises. Compare offers at the same assumed balance and hold period, then repeat the comparison with a higher base rate and delayed exit. That exposes whether a small headline saving is worth less flexibility or completion certainty.
+
 ## Frequently Asked Questions
 
 ### What affects commercial mortgage rates in Australia the most?
@@ -194,7 +208,7 @@ Yes, refinancing can improve pricing if the property is stronger, the lease prof
 ## Related Guides
 
 - [Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Bank vs Non-Bank Commercial Lending in Australia: Which Borrowers Get Approved?](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)

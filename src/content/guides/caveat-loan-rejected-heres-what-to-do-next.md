@@ -260,7 +260,7 @@ The goal is not to force a yes from the wrong lender. The goal is to build a cle
 - [Caveat Loan Exit Strategies: How to Repay or Refinance](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Caveat Loan vs Second Mortgage: Which Is Right for You?](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

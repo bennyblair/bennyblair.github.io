@@ -25,7 +25,7 @@ Debtor concentration working capital finance is business funding considered when
 
 For Emet Capital, debtor concentration is not automatically a lending problem. It is a risk signal that needs context. A lender will want to know who owes the money, how long the relationship has existed, whether invoices are disputed, what security is available, and how the business will cope if the major debtor pays late again.
 
-This guide explains when finance may help, when it may make the problem worse, and how debtor concentration compares with [working capital loans](/resources/guides/working-capital-loans-for-smes), [debtor finance and supply chain finance](/resources/guides/debtor-finance-supply-chain-finance-australia), [secured business loans](/resources/guides/secured-business-loans-australia), and [private debt for SME borrowers](/resources/guides/private-debt-for-sme-borrowers). It is general information only and not financial advice.
+This guide explains when finance may help, when it may make the problem worse, and how debtor concentration compares with [working capital loans](/resources/guides/working-capital-loans-for-smes), [debtor finance and supply chain finance](/resources/guides/debtor-finance-supply-chain-finance-australia), [secured business loans](/resources/guides/secured-vs-unsecured-business-loans-australia), and [private debt for SME borrowers](/resources/guides/private-debt-for-sme-borrowers). It is general information only and not financial advice.
 
 ### Related In-Depth Guides
 
@@ -179,7 +179,7 @@ A business should seek professional advice if the debtor is disputed, there are 
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)**
 - **[Debtor Finance and Supply Chain Finance](/resources/guides/debtor-finance-supply-chain-finance-australia)**
-- **[Secured Business Loans Australia](/resources/guides/secured-business-loans-australia)**
+- **[Secured Business Loans Australia](/resources/guides/secured-vs-unsecured-business-loans-australia)**
 - **[Private Debt for SME Borrowers](/resources/guides/private-debt-for-sme-borrowers)**
 - **[Business Loan Requirements Australia](/resources/guides/business-loan-requirements-australia-commercial-borrowers)**
 

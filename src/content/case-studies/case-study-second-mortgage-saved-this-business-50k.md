@@ -55,7 +55,7 @@ This example is for business owners and commercial borrowers trying to understan
 - **[Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)** — Broader look at consolidation options for commercial borrowers.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Useful when a bank refinance is too slow or too rigid.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — How non-bank and private lenders assess deals.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Next-step options once the urgent restructure is complete.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Next-step options once the urgent restructure is complete.
 
 ## The Scenario: A Growing Business With the Wrong Debt Mix
 
@@ -136,7 +136,7 @@ A [private lending](/resources/guides/what-is-private-lending-australia) or seco
 - debt is spread across too many short-term facilities
 - the restructure is designed to create time for a stronger refinance later
 
-For comparison, some borrowers may be better suited to a broader [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) if timing is not as compressed.
+For comparison, some borrowers may be better suited to a broader [commercial property refinance](/services/refinancing-solutions) if timing is not as compressed.
 
 ## When This Structure Would Not Have Made Sense
 

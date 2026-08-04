@@ -34,7 +34,7 @@ At Emet Capital, we see this issue most often in short-term business lending, re
 - **[What Is a Caveatable Interest?](/resources/guides/what-is-a-caveatable-interest)** — Useful if the dispute is about whether the caveat should exist at all.
 - **[Caveat Loan Exit Strategies: How to Repay or Refinance](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — Relevant when the caveat sits behind a short-term facility.
 - **[Caveat Loan vs Second Mortgage: Which Is Right for You?](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — Helpful if you are considering a refinance out of caveat debt.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful where the removal depends on takeout finance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Useful where the removal depends on takeout finance.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Broader context for private and specialist commercial debt.
 
 ## At a Glance
@@ -87,7 +87,7 @@ The reverse can also happen. A borrower may believe the claim is weak from the b
 
 In commercial lending files, the most practical removal path is often repayment or refinance. If the caveat secures a short-term loan, clearing that debt may trigger the lender's obligation to withdraw or discharge its claim.
 
-This is why borrowers facing a settlement or refinance bottleneck should map the title issue and the finance issue together. Sometimes the title problem is really a funding problem. A borrower may need a structured exit into [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or another commercial facility that pays out the caveat-backed lender.
+This is why borrowers facing a settlement or refinance bottleneck should map the title issue and the finance issue together. Sometimes the title problem is really a funding problem. A borrower may need a structured exit into [commercial property refinancing solutions](/services/refinancing-solutions), [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), or another commercial facility that pays out the caveat-backed lender.
 
 ## Step 4: Request Voluntary Withdrawal if the Claim Has Been Satisfied
 
@@ -167,6 +167,6 @@ If the caveat secures debt that is genuinely owed, the fastest path is often rep
 - [What Is a Caveatable Interest?](/resources/guides/what-is-a-caveatable-interest)
 - [Caveat Loan Exit Strategies: How to Repay or Refinance](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Caveat Loan vs Second Mortgage: Which Is Right for You?](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

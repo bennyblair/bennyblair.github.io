@@ -30,7 +30,7 @@ This guide explains when turnaround finance may help, when it may make the situa
 - **[Low Doc Business Finance](/resources/guides/low-doc-business-finance)**, for borrowers with limited current financial statements.
 - **[Private Credit for SME Borrowers](/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance)**, for situations where a bank process is not practical.
 - **[ATO Tax Debt Finance](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)**, for tax arrears and payment pressure.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**, for property-backed restructure and refinance options.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, for property-backed restructure and refinance options.
 
 ### At a Glance
 
@@ -103,7 +103,7 @@ Turnaround finance is not one product. The right structure depends on the busine
 
 **Private credit** may be relevant when bank timing, credit appetite, or documentation requirements do not fit the situation. It can be more flexible, but the borrower still needs a repayment plan and should compare total cost carefully.
 
-**Property-backed finance** may be considered where the business or directors hold suitable commercial property, investment property, or other acceptable security for a business-purpose loan. For short-term secured options, borrowers may compare [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions).
+**Property-backed finance** may be considered where the business or directors hold suitable commercial property, investment property, or other acceptable security for a business-purpose loan. For short-term secured options, borrowers may compare [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinance](/services/refinancing-solutions).
 
 **Asset and equipment refinance** may help where usable equipment or vehicles can support liquidity. If an existing facility has a balloon or maturity pressure, see [equipment finance balloon payment refinance](/resources/guides/equipment-finance-balloon-payment-refinance-australia).
 

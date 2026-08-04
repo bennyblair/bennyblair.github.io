@@ -22,7 +22,7 @@ That distinction matters because business borrowers often search for no doc fund
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main pillar guide on security, servicing, and lender expectations.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — useful when available equity is the main driver.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — alternatives where vehicles, plant, or other assets support the facility.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — what to review after a short-term no-doc solution.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — what to review after a short-term no-doc solution.
 - **[Contact Emet Capital](/contact)** — discuss a commercial borrower scenario with a broker.
 
 ## What lenders usually mean by no doc
@@ -41,7 +41,7 @@ The first is speed. A borrower may need to settle on a property, clear an urgent
 
 The second is incomplete paperwork. A business owner may have perfectly real trading activity but recent changes in structure, delayed lodgements, or a file that does not present well to a bank. The deal may still be workable if the property and exit are strong.
 
-The third is strategic transition. Some borrowers knowingly use a shorter-term specialist facility as a stepping stone. They solve the immediate transaction first, then refinance into a more conventional loan once the business file is cleaner. That often overlaps with [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide).
+The third is strategic transition. Some borrowers knowingly use a shorter-term specialist facility as a stepping stone. They solve the immediate transaction first, then refinance into a more conventional loan once the business file is cleaner. That often overlaps with [commercial property refinancing solutions](/services/refinancing-solutions) and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide).
 
 ## What usually makes a no-doc deal possible
 
@@ -108,6 +108,19 @@ A mainstream lender may not move in time. A specialist lender may instead focus 
 
 Again, that is general information only. It is not a recommendation. It is simply one example of how commercial borrowers sometimes use specialist lending when policy timing is the main problem.
 
+## Low Doc Versus No Doc: What Changes and What Does Not
+
+“Low doc” usually means the lender accepts alternative evidence instead of a complete conventional financial pack. “No doc” is a market label, not an absence of verification. Identity, ABN and entity details, security, purpose, liabilities and an exit explanation are still normally required.
+
+| Evidence area | Conventional commercial application | Alternative-document application |
+|---|---|---|
+| Income and trading | Final accounts and tax returns | BAS, bank statements, accountant confirmation, contracts or management accounts, subject to policy |
+| Security | Formal valuation and title review | Still required where property supports the loan |
+| Purpose | Documented use of funds | Still required and often scrutinised closely |
+| Exit | Serviceability over the proposed term | May rely more heavily on refinance, sale or another defined event |
+
+The strongest applications explain why standard documents are unavailable, provide the best alternative evidence that does exist, and keep leverage conservative. If the real problem is weak security, unclear purpose or no credible exit, changing the documentation label will not repair the file.
+
 ## Frequently Asked Questions
 
 ### Are no doc ABN loans really "no documents"?
@@ -133,6 +146,6 @@ Clear purpose, credible exit, sensible leverage, and good security. A tidy expla
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

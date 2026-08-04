@@ -20,7 +20,7 @@ keywords: ["second mortgage interest rates", "second mortgage rates", "commercia
 
 Second mortgage interest rates in Australia are usually higher than first-mortgage pricing because the lender is taking a junior security position and accepting more risk. In commercial lending, that pricing difference is not just about the headline loan amount. It is shaped by leverage, title position, asset quality, urgency, exit strategy, and how easy the underlying security would be to refinance or sell if things go wrong.
 
-For business owners, investors, and developers, that means the right question is rarely “What is the rate?” on its own. The more useful question is “Why is this second mortgage priced the way it is, and is this structure the right one for the job?” A second mortgage can be useful for equity access, short-term liquidity, partner buyouts, refinance gaps, or time-sensitive opportunities, but it needs to be assessed against alternatives such as a broader [private lending](/resources/guides/what-is-private-lending-australia) structure, a [refinancing solution](/resources/guides/commercial-property-refinancing-solutions), or in some cases a [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) path.
+For business owners, investors, and developers, that means the right question is rarely “What is the rate?” on its own. The more useful question is “Why is this second mortgage priced the way it is, and is this structure the right one for the job?” A second mortgage can be useful for equity access, short-term liquidity, partner buyouts, refinance gaps, or time-sensitive opportunities, but it needs to be assessed against alternatives such as a broader [private lending](/resources/guides/what-is-private-lending-australia) structure, a [refinancing solution](/services/refinancing-solutions), or in some cases a [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) path.
 
 ### Related In-Depth Guides
 
@@ -240,7 +240,7 @@ For borrowers, the smartest move is to compare second mortgage offers as full st
 
 - [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Second Mortgage for Divorce Settlement: Property Division](/resources/guides/second-mortgage-for-divorce-settlement-property-division)
-- [Second Mortgage Partnership Buyout Financing Transitions](/resources/guides/second-mortgage-partnership-buyout-financing-transitions)
+- [Second Mortgage Partnership Buyout Financing Transitions](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Lenders in Australia: Complete Directory](/resources/guides/commercial-property-lenders-in-australia-complete-directory)
 

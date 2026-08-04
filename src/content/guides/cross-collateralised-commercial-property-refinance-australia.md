@@ -28,7 +28,7 @@ The structure can be useful, but it also connects assets that might otherwise st
 
 ### Related In-Depth Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Main guide to refinancing commercial property debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Main guide to refinancing commercial property debt.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broader guide to commercial property lending.
 - **[Commercial Property Equity Release](/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia)** — Using equity when property income or leases are imperfect.
 - **[Private Credit Refinance Commercial Property](/resources/guides/private-credit-refinance-commercial-property-australia)** — Non-bank refinance pathways for commercial property.
@@ -72,7 +72,7 @@ It can also help where one property has a temporary issue that is expected to im
 
 Cross-collateralisation is not automatically better just because it unlocks more borrowing capacity. It can make the debt stack harder to unwind and can expose multiple assets if repayment does not go to plan.
 
-It may be unsuitable where the borrower only needs a small amount of funding, where one clean property can support the refinance alone, or where the borrower wants to preserve flexibility to sell or refinance assets separately. A [single-property commercial refinance](/resources/guides/commercial-property-refinancing-solutions) may be cleaner if it achieves the same outcome.
+It may be unsuitable where the borrower only needs a small amount of funding, where one clean property can support the refinance alone, or where the borrower wants to preserve flexibility to sell or refinance assets separately. A [single-property commercial refinance](/services/refinancing-solutions) may be cleaner if it achieves the same outcome.
 
 It can also be risky when one asset is weak, specialised, under dispute, or hard to sell. Adding more security does not fix a poor exit strategy. It only changes the lender's collateral position.
 

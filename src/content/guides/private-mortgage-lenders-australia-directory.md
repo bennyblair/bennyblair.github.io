@@ -1,7 +1,7 @@
 ---
-title: "Private Mortgage Lenders: Complete Australia Directory [2026]"
+title: "Private Mortgage Lenders Australia: Directory and Selection Framework"
 description: "A practical guide to private mortgage lenders in Australia for business borrowers, investors, and developers, including lender categories, deal fit, and shortlist criteria."
-slug: "private-mortgage-lenders-australia-directory-2026"
+slug: "private-mortgage-lenders-australia-directory"
 date: "2026-03-15"
 category: "Business Finance"
 author: "Daniel"
@@ -15,13 +15,13 @@ tags: ["private mortgage lenders", "private lending", "commercial finance", "pro
 primaryKeyword: "private mortgage lenders"
 ---
 
-# Private Mortgage Lenders: Complete Australia Directory [2026]
+# Private Mortgage Lenders Australia: Directory and Selection Framework
 
 If you are searching for **private mortgage lenders** in Australia, the first thing to know is that you probably do not need a giant list of names. You need a way to sort the market quickly and work out which lender type is more likely to fit your deal.
 
 That is especially true for business borrowers, investors, and developers. Private mortgage lending is not one neat category. It is a mix of private credit funds, specialist non-bank lenders, relationship-driven lenders, short-term bridge lenders, and more selective second-position lenders. Some like clean first mortgages. Some prefer short-term transitional deals. Some are comfortable with unusual scenarios. Others are not.
 
-So this guide is built as a practical Australian directory framework rather than a vanity list. The aim is to help you understand the lender buckets, the deal types they tend to suit, what to compare beyond marketing language, how the topic connects to broader [private lending solutions](/services/private-lending), how it overlaps with [private commercial real estate lenders in Australia](/resources/guides/private-commercial-real-estate-lenders-cre-directory), and how to build a shortlist that makes sense for a commercial borrowing scenario.
+So this guide is built as a practical Australian directory framework rather than a vanity list. The aim is to help you understand the lender buckets, the deal types they tend to suit, what to compare beyond marketing language, how the topic connects to broader [private lending solutions](/services/private-lending), how it overlaps with [private commercial real estate lenders in Australia](/resources/guides/commercial-property-lenders-in-australia-complete-directory), and how to build a shortlist that makes sense for a commercial borrowing scenario.
 
 ## What private mortgage lenders actually are
 
@@ -176,7 +176,7 @@ Second, sort lenders into categories before you compare individual names. That s
 
 Third, compare practical fit instead of just early-stage commercial language. Ask who can realistically settle, who has handled similar debt structures before, and who is likely to stay commercially workable if the timeline drifts.
 
-Fourth, keep internal linking and wider research in mind. If you are reading this as part of a wider funding review, it also helps to look at Emet Capital's content on [what private lending is](/resources/guides/what-is-private-lending-australia), [finding the best private lenders for your business](/resources/guides/finding-comparing-private-lenders-loans-2025-guide), [private lenders for mortgages](/resources/guides/private-mortgage-lenders-australia-directory-2026), and [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide).
+Fourth, keep wider research in mind. If you are reading this as part of a funding review, compare [what private lending is](/resources/guides/what-is-private-lending-australia), [how to compare private lenders](/resources/guides/finding-comparing-private-lenders-loans-2025-guide), and [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide).
 
 ## Why this article needs a directory angle
 

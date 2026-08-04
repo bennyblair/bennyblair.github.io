@@ -111,7 +111,7 @@ The exit plan was built around trading performance and a refinance review after 
 
 That matters because expansion facilities can fail when the borrower assumes a new site will perform at maturity from day one. A more conservative plan allows for hiring delays, fitout variations, supplier changes, and slower-than-expected customer growth.
 
-If the business later wanted to consolidate the debt, it could compare options under [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or longer-term commercial lending.
+If the business later wanted to consolidate the debt, it could compare options under [commercial property refinancing](/services/refinancing-solutions) or longer-term commercial lending.
 
 ## What Could Have Gone Wrong
 
@@ -131,7 +131,7 @@ Fourth, think about the exit before settlement. The best second mortgage structu
 
 ## Related Guides
 
-- **[Commercial Property Refinancing](/resources/guides/commercial-property-refinancing-solutions)** — Options after the expanded business has more trading history.
+- **[Commercial Property Refinancing](/services/refinancing-solutions)** — Options after the expanded business has more trading history.
 - **[Business Acquisition Finance](/resources/guides/business-acquisition-finance-australia)** — Useful if the growth plan involves buying another operating business.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Compare speed, flexibility, and credit assessment.
 - **[Commercial Property Loans](/resources/guides/commercial-property-loans-australia-complete-guide)** — Long-term property-secured lending context.

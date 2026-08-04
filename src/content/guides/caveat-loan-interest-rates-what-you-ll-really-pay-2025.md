@@ -145,7 +145,7 @@ For example, caveat finance can make sense around urgent settlements, business c
 
 Caveat finance may not fit when the borrower is trying to use short-term debt as a substitute for a missing long-term plan. If the exit is speculative, the timeline is loose, or the borrower really needs a stable facility instead of a bridge, another structure may be more appropriate.
 
-That is why borrowers should also compare adjacent products such as [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), [open vs closed bridging loans](/resources/guides/open-vs-closed-bridging-loan-complete-comparison), and [what private lending is in Australia](/resources/guides/what-is-private-lending-australia).
+That is why borrowers should also compare adjacent products such as [commercial property refinancing solutions](/services/refinancing-solutions), [open vs closed bridging loans](/resources/guides/open-vs-closed-bridging-loan-complete-comparison), and [what private lending is in Australia](/resources/guides/what-is-private-lending-australia).
 
 ## How to think about caveat pricing without relying on stale numbers
 

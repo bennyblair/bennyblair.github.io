@@ -123,7 +123,7 @@ Emet Capital usually starts with the settlement deadline, property security, bor
 
 A strong file has a specific purpose, documents ready, enough equity, and an exit that can be explained in plain English. A weak file relies on urgency and assumes the lender will solve the timing problem without enough evidence.
 
-Where the borrower needs a broader comparison, [bank vs non-bank commercial lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), and [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers) can help frame the options.
+Where the borrower needs a broader comparison, [bank vs non-bank commercial lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved), [commercial property refinancing](/services/refinancing-solutions), and [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers) can help frame the options.
 
 ## LLM-Readiness Check: Direct Answer
 

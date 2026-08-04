@@ -91,7 +91,7 @@ Commercial property loans typically require loan-to-value ratios of 60-70%, mean
 
 Premium properties in prime locations with strong tenant covenants may achieve 75-80% LVR from select lenders, though these arrangements typically involve interest rate premiums and stricter assessment criteria. Owner-occupier premises often achieve higher ratios than investment properties due to reduced vacancy risk.
 
-Lower leverage can support stronger lender appetite and may improve pricing or structure depending on the file. Conservative borrowing approaches provide protection against property value fluctuations and enhance refinancing flexibility. For property owners seeking to optimise existing loans, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) enables accessing improved terms or additional capital.
+Lower leverage can support stronger lender appetite and may improve pricing or structure depending on the file. Conservative borrowing approaches provide protection against property value fluctuations and enhance refinancing flexibility. For property owners seeking to optimise existing loans, [commercial property refinancing](/services/refinancing-solutions) enables accessing improved terms or additional capital.
 
 ## Interest Rates and Loan Structures
 
@@ -173,6 +173,25 @@ Regular loan reviews every 2-3 years ensure continued market competitiveness, pa
 
 *This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
 
+## Retail Property Lending: What Changes
+
+Retail property is assessed through the durability of its income, not the shopfront alone. Lenders commonly review the weighted average lease expiry, tenant concentration, incentives, arrears, outgoings, vacancy history, permitted use, parking, access and the depth of the local leasing market.
+
+| Retail factor | Stronger presentation | Higher-risk presentation |
+|---|---|---|
+| Tenant mix | Diversified income with credible operators | One weak tenant provides most of the rent |
+| Lease profile | Enough term remains beyond the loan review horizon | Major expiries or breaks are close |
+| Location evidence | Catchment, access and comparable leasing evidence | Reliance on generic “high foot traffic” claims |
+| Re-leasing risk | Standard configuration with alternative uses | Highly specialised fit-out or narrow buyer pool |
+
+Foot-traffic data can support the story, but it should be tied to actual tenant sales, lease performance or independent location evidence. An anchor tenant may help a centre, yet concentration and co-tenancy clauses can also introduce risk.
+
+## Negative Gearing Is a Cash-Flow Condition, Not a Loan Strategy
+
+A commercial property is negatively geared when deductible property expenses and finance costs exceed assessable rental income for a period. Tax outcomes depend on the taxpayer and current law, so borrowers should obtain tax advice rather than treat a deduction as a substitute for cash flow.
+
+For credit assessment, the important questions are who funds the shortfall, how long it lasts, whether lease or rate assumptions are realistic, and what happens if rent falls or costs rise. A temporary, budgeted shortfall supported by other verified income is different from a property that remains unserviceable under realistic assumptions. Refinancing may improve structure, but it does not repair weak property economics on its own.
+
 ## Frequently Asked Questions
 
 ### What deposit do I need for a commercial property loan?
@@ -226,7 +245,7 @@ Professional advice from experienced commercial finance brokers, lawyers, and ac
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how lenders assess borrowing capacity and repayment strength.
 - **[How To Buy Commercial Property Step By Step](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — purchase sequence, due diligence, finance timing, and settlement planning.
 - **[Owner-Occupier Commercial Loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)** — buying premises your business will occupy.
-- [Commercial Property Refinancing Solutions in Australia](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions in Australia](/services/refinancing-solutions)
 - [Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Construction Finance in Australia: The Complete Guide for Commercial Builds](/resources/guides/construction-finance-australia-complete-guide)
 - [Commercial Property Development Finance: A Complete Guide](/resources/guides/commercial-property-development-finance)

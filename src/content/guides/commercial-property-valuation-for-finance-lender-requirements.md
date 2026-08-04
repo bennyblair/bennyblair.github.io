@@ -22,14 +22,14 @@ A commercial property valuation for finance is an independent assessment of a pr
 
 For property investors, developers, and business owners, the valuation is not just a formality. It can influence lender appetite, loan structure, timing, and whether a deal moves smoothly or gets pushed back into more questions, lower leverage, or a slower approval path. If you are buying, refinancing, or using equity in a commercial asset, understanding how the valuation process works can save time and avoid preventable friction.
 
-A valuation for finance is usually more detailed than an agent estimate. The valuer is looking at the property itself, the income profile, the local market, comparable evidence, lease quality, and how marketable the asset would be if the lender ever had to enforce its security. That is why valuation quality matters in both standard [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) and more time-sensitive structures such as [private lending](/resources/guides/what-is-private-lending-australia) or [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions).
+A valuation for finance is usually more detailed than an agent estimate. The valuer is looking at the property itself, the income profile, the local market, comparable evidence, lease quality, and how marketable the asset would be if the lender ever had to enforce its security. That is why valuation quality matters in both standard [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) and more time-sensitive structures such as [private lending](/resources/guides/what-is-private-lending-australia) or [commercial property refinancing](/services/refinancing-solutions).
 
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to how commercial property finance is structured.
 - **[Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — What to organise before applying for funding.
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Lender view on borrower, security, and serviceability.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — When the valuation matters most in a refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — When the valuation matters most in a refinance.
 - **[Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)** — How valuation timing affects settlement.
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Why lender policy, value, and leverage need to line up.
 
@@ -221,7 +221,7 @@ Borrowers who treat valuation as an early decision tool rather than a last-minut
 - [Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
 - [Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

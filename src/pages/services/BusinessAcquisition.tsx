@@ -229,7 +229,7 @@ const BusinessAcquisition = () => {
                 </span>
               </a>
               <a 
-                href="/resources/guides/second-mortgage-partnership-buyout-financing-transitions"
+                href="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Partnership Buyout Financing</h3>

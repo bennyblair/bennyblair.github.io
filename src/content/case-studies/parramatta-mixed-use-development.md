@@ -216,7 +216,7 @@ Parramatta's continued growth ensures that quality mixed-use developments like t
 
 ## Related Guides
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — planning the sale, refinance, or staged repayment pathway before taking short-term funding.
-- **[Commercial Land Loans for Property Development](/resources/guides/commercial-land-loans-financing-property-development)** — how site acquisition, zoning, and land value shape development funding.
+- **[Commercial Land Loans for Property Development](/resources/guides/commercial-property-development-finance)** — how site acquisition, zoning, and land value shape development funding.
 - **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)** — options when a project has stalled and needs capital to reach practical completion.
 - **[Open vs Closed Bridging Loans](/resources/guides/open-vs-closed-bridging-loan-complete-comparison)** — how exit certainty changes the lending structure.
 - **[When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — borrower scenarios where bridging finance may or may not fit.

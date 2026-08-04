@@ -22,13 +22,13 @@ Business debt consolidation is the process of replacing several business debts w
 
 The important point is that consolidation is not automatically a cheaper loan. It is a restructuring decision. A lender will still assess why the debts built up, whether the business can service the new facility, what security is available, and whether the new structure actually improves the position instead of delaying the same problem.
 
-For Emet Capital, business debt consolidation sits inside the business finance pillar. It often overlaps with [working capital loans](/resources/guides/working-capital-loans-for-smes), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), and [private lending](/resources/guides/what-is-private-lending-australia).
+For Emet Capital, business debt consolidation sits inside the business finance pillar. It often overlaps with [working capital loans](/resources/guides/working-capital-loans-for-smes), [commercial property refinancing](/services/refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), and [private lending](/resources/guides/what-is-private-lending-australia).
 
 ### Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare consolidation with ordinary cash-flow funding.
 - **[Commercial Property Refinance After A Bank Decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — useful when the existing lender will not extend terms.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — relevant if property security is part of the restructure.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — relevant if property security is part of the restructure.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — explains how equity can support business-purpose funding without replacing a first mortgage.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — useful where equipment, invoices, stock, or property support the facility.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare lender fit where bank policy is too rigid.
@@ -156,7 +156,7 @@ A strong file shows why the debt built up, how the business trades now, what the
 
 - **[Commercial Property Refinance After A Bank Decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — compare options after a lender says no.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — understand cash-flow funding before consolidating.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — relevant for property-backed restructures.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — relevant for property-backed restructures.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — assess whether equity can support a business-purpose refinance.
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)** — compare security-backed business funding.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — choose lender type based on file complexity.

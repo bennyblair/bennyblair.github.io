@@ -22,7 +22,7 @@ Commercial property finance in Melbourne is not just about borrowing against rea
 
 A borrower looking at an industrial asset in Truganina, an office suite in Southbank, a mixed-use property in Collingwood, or a healthcare asset in Hawthorn is not really solving the same finance problem. Each deal carries its own questions around lease quality, valuation support, timing, borrower strength, and lender fit. That is why Melbourne commercial property finance tends to work best when the structure is built around the actual transaction rather than forced into a generic template.
 
-For property investors, developers, and business owners, the practical decision is usually whether the transaction belongs in a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinancing path](/resources/guides/commercial-property-refinancing-solutions), a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution, or a more flexible [private lending](/resources/guides/what-is-private-lending-australia) structure.
+For property investors, developers, and business owners, the practical decision is usually whether the transaction belongs in a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinancing path](/services/refinancing-solutions), a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution, or a more flexible [private lending](/resources/guides/what-is-private-lending-australia) structure.
 
 ### Related In-Depth Guides
 
@@ -139,7 +139,7 @@ This usually suits longer-term holds where the asset, borrower, and timeline fit
 
 ### Refinance
 
-A refinance may be the right answer where the borrower is replacing an expiring lender, simplifying facilities, releasing equity, or resetting the debt structure against an already-held asset. Our guide to [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) covers where this typically fits.
+A refinance may be the right answer where the borrower is replacing an expiring lender, simplifying facilities, releasing equity, or resetting the debt structure against an already-held asset. Our guide to [commercial property refinancing solutions](/services/refinancing-solutions) covers where this typically fits.
 
 ### Bridging finance
 
@@ -246,7 +246,7 @@ If the property is strong, the purpose is commercial, and the documentation is o
 - [Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

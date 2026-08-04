@@ -35,14 +35,14 @@ Explore our specialist construction & development finance guides for specific sc
 
 - **[Building Development Loans](/resources/guides/building-development-loans-funding-guide)** — Complete funding guide for developers
 - **[Commercial Development Finance](/resources/guides/commercial-property-development-finance)** — Comprehensive commercial development funding
-- **[Commercial Land Loans](/resources/guides/commercial-land-loans-financing-property-development)** — Financing land acquisition for development
+- **[Commercial Land Loans](/resources/guides/commercial-property-development-finance)** — Financing land acquisition for development
 - **[Commercial Property Loans](/resources/guides/commercial-property-loans-australia-complete-guide)** — Complete guide to commercial property lending
 - **[Loans for Startups](/resources/guides/commercial-property-loans-for-startups-first-time-buyers)** — First-time commercial buyers guide
 - **[Loans for Immigrants/Expats](/resources/guides/commercial-property-loans-for-immigrants-expats-australia)** — Options for non-residents
 - **[Loan Eligibility Guide](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Qualification requirements explained
-- **[Retail Property Loans](/resources/guides/commercial-property-loan-retail-spaces-guide)** — Financing retail and shop fronts
-- **[Finance Rates 2025](/resources/guides/commercial-property-finance-rates-2025-comparison)** — Current rate comparison
-- **[Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Restructuring existing development debt
+- **[Retail Property Loans](/resources/guides/commercial-property-loans-australia-complete-guide)** — Financing retail and shop fronts
+- **[Finance Rates 2025](/resources/guides/commercial-mortgage-rates-australia-complete-guide)** — Current rate comparison
+- **[Refinancing Solutions](/services/refinancing-solutions)** — Restructuring existing development debt
 - **[Commercial vs Residential](/resources/guides/commercial-mortgages-vs-residential-key-differences-explained)** — Key differences explained
 - **[How to Buy Commercial Property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)** — Step-by-step acquisition guide
 - **[Owner-Occupier Loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)** — Buying your business premises
@@ -292,7 +292,7 @@ Most construction finance agreements include provisions for conversion to standa
 
 Alternative lender refinancing enables businesses to secure competitive permanent financing terms through comprehensive market assessment, though requiring new application processes and settlement coordination.
 
-Businesses exploring refinancing options after construction completion can benefit from understanding [commercial property refinancing strategies](/resources/guides/commercial-property-refinancing-solutions) that optimize long-term financing structures.
+Businesses exploring refinancing options after construction completion can benefit from understanding [commercial property refinancing strategies](/services/refinancing-solutions) that optimize long-term financing structures.
 
 ### Loan Structure Optimization
 
@@ -393,7 +393,7 @@ The Australian construction finance market provides essential infrastructure ena
 ## Related Guides
 
 - [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [What is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 

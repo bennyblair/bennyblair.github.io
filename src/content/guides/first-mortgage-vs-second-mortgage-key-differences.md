@@ -462,7 +462,7 @@ Choosing between first and second mortgage structures depends on your specific c
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Comprehensive guide to second mortgage structures, applications, and scenarios
 - **[First & Second Mortgages for Business](/services/first-second-mortgages)** — Overview of mortgage structures for commercial property financing
 - **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Detailed overview of commercial lending options and requirements
-- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Directory of lenders specialising in commercial property finance
+- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-property-lenders-in-australia-complete-directory)** — Directory of lenders specialising in commercial property finance
 - **[Case Studies: Business Finance](/resources/case-studies)** — Real examples of commercial lending scenarios we've supported
 
 ## Next Steps

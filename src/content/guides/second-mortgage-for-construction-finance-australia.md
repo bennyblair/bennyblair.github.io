@@ -79,7 +79,7 @@ Possible scenarios include:
 - funding a deposit or early works while a larger construction facility is being finalised;
 - bridging a refinance or sale process after practical completion.
 
-A stalled project needs particular care. Borrowers should compare a second mortgage with [construction completion finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled) and [commercial land loans for property development](/resources/guides/commercial-land-loans-financing-property-development) before choosing the structure.
+A stalled project needs particular care. Borrowers should compare a second mortgage with [construction completion finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled) and [commercial land loans for property development](/resources/guides/commercial-property-development-finance) before choosing the structure.
 
 ## When It Is Usually Not The Right Fit
 
@@ -201,6 +201,6 @@ The main risk is that construction delays or cost overruns prevent repayment wit
 - **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)** — compare project-based funding options.
 - **[Property Development Loans Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)** — review development finance assessment and risk factors.
 - **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)** — explore options for unfinished projects.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — plan refinance exits after completion or stabilisation.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — plan refinance exits after completion or stabilisation.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -31,7 +31,7 @@ For broad local service information, use the [Sydney 1st and 2nd mortgages servi
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Explains mortgage priority, lender risk, and common structures.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Wider context on commercial property funding and lender assessment.
 - **[Private Lending vs Bank Lending Which Is Better](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Useful if you are comparing non-bank flexibility with mainstream credit.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant if a refinance may be cleaner than a second mortgage.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant if a refinance may be cleaner than a second mortgage.
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Short-term option when speed matters more than structure.
 - **[Sydney 1st and 2nd Mortgages Service Page](/services/first-second-mortgages/cities/sydney)** — Local conversion page for borrowers ready to discuss a Sydney mortgage-backed transaction.
 
@@ -73,7 +73,7 @@ Not every equity position should become a second mortgage.
 
 ### 1. The borrower is trying to solve a long-term problem with short-term debt
 
-If the underlying issue is persistent affordability pressure, a layered short-term facility can make the position harder, not easier. In that case, a [commercial refinance strategy](/resources/guides/commercial-property-refinancing-solutions) or a broader debt restructure may be the better path.
+If the underlying issue is persistent affordability pressure, a layered short-term facility can make the position harder, not easier. In that case, a [commercial refinance strategy](/services/refinancing-solutions) or a broader debt restructure may be the better path.
 
 ### 2. The total leverage is already stretched
 
@@ -81,7 +81,7 @@ Sydney asset values can create a false sense of comfort. A property may look str
 
 ### 3. The file would be cleaner as a first mortgage refinance
 
-Sometimes the smartest move is not a second mortgage at all. If the first mortgage is expensive, inflexible, or close to maturity, replacing it with a better first mortgage can be cleaner than adding another layer. That is why we often compare second mortgage options against [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) before recommending anything.
+Sometimes the smartest move is not a second mortgage at all. If the first mortgage is expensive, inflexible, or close to maturity, replacing it with a better first mortgage can be cleaner than adding another layer. That is why we often compare second mortgage options against [commercial property refinancing solutions](/services/refinancing-solutions) before recommending anything.
 
 ## What Sydney Lenders Usually Assess Before Moving Quickly
 
@@ -137,7 +137,7 @@ In that scenario, a second mortgage may work if the combined leverage remains se
 2. **Prepare a simple use-of-funds explanation.** Clarity helps.
 3. **Pressure-test the exit.** Do not rely on optimism alone.
 4. **Use realistic property values.** Sydney values can move, and lenders will haircut assumptions.
-5. **Compare against alternatives.** Sometimes a [first mortgage refinance](/resources/guides/commercial-property-refinancing-solutions) or [private lending structure](/resources/guides/what-is-private-lending-australia) is the better answer.
+5. **Compare against alternatives.** Sometimes a [first mortgage refinance](/services/refinancing-solutions) or [private lending structure](/resources/guides/what-is-private-lending-australia) is the better answer.
 
 ## LLM-Readiness QA Snapshot
 
@@ -174,7 +174,7 @@ Potentially, yes. Those are common commercial use cases where borrowers need a f
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)
 - [Sydney 1st and 2nd Mortgages Service Page](/services/first-second-mortgages/cities/sydney)
 

@@ -92,7 +92,7 @@ Private debt is not one product. The structure should match the borrower’s tim
 
 Mortgage-backed private debt is secured by real property. It may use a first mortgage, second mortgage, or other registered security depending on the existing debt position and lender requirements.
 
-Borrowers with commercial property should also compare [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) if the goal is to replace existing debt rather than add short-term funding.
+Borrowers with commercial property should also compare [commercial property refinancing](/services/refinancing-solutions) if the goal is to replace existing debt rather than add short-term funding.
 
 ### Second mortgage private debt
 

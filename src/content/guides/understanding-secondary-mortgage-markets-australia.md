@@ -118,7 +118,7 @@ Direct investment in RMBS is usually for institutional investors (minimum $500k+
 
 ## Related Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — How businesses restructure property-backed debt when funding conditions change.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — How businesses restructure property-backed debt when funding conditions change.
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — The role of private capital in Australian business finance.
 - **[Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)** — A direct borrower guide to second mortgage funding.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Comparing secured equity release with revolving credit.

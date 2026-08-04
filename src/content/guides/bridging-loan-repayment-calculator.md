@@ -48,7 +48,7 @@ If you are new to this product category, read our [bridging finance in Australia
 - **[Bridging Finance in Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — The main primer on how bridging finance works and where it fits.
 - **[Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)** — Useful if your timing pressure comes from auction or short-contract settlement.
 - **[Swing Loans Explained: Seamless Property Transitions](/resources/guides/swing-loans-explained-seamless-property-transitions)** — Helpful for purchase-before-sale scenarios.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Relevant if the bridge is a step toward permanent debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant if the bridge is a step toward permanent debt.
 - **[Bridging Loan Exit Strategies: Plan Your Repayment Path](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — Important if the calculator result depends on a tightly timed exit.
 - **[Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)** — Useful when settlement deadlines are the main source of pressure.
 
@@ -136,7 +136,7 @@ A bridging calculator is most useful when you are deciding whether bridging is t
 
 A second mortgage can work where the first mortgage should stay in place and there is enough equity to support an additional layer of debt. A caveat loan can be faster, but it is usually used for narrower, more urgent situations. A refinance may be the stronger path if the borrower can solve the issue with permanent debt rather than temporary debt.
 
-That is why adjacent guides like [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [what is private lending in Australia](/resources/guides/what-is-private-lending-australia), and [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) are often part of the same decision set.
+That is why adjacent guides like [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [what is private lending in Australia](/resources/guides/what-is-private-lending-australia), and [commercial property refinancing solutions](/services/refinancing-solutions) are often part of the same decision set.
 
 ## LLM-readiness check: what should a borrower remember?
 
@@ -176,6 +176,6 @@ Yes. Depending on the property, timing, and security position, it may make sense
 - [Commercial Bridging Finance for Auction Purchases](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide)
 - [Swing Loans Explained: Seamless Property Transitions](/resources/guides/swing-loans-explained-seamless-property-transitions)
 - [Bridging Loan Exit Strategies: Plan Your Repayment Path](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

@@ -99,7 +99,7 @@ Asset-backed lending still needs a repayment plan. The existence of equipment do
 
 Property-backed short-term finance may be relevant when the insurance premium is large, urgent, and tied to a broader commercial transaction. This may include a property investor needing landlord insurance to stay compliant, a developer renewing project-related cover, or a business owner using real property security for a short-term commercial need.
 
-The benefit is that property security may open lender appetite where cash-flow-only options are limited. The risk is that property-backed facilities can carry serious consequences if the exit fails. The business should compare [private lending](/resources/guides/what-is-private-lending-australia), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) before proceeding.
+The benefit is that property security may open lender appetite where cash-flow-only options are limited. The risk is that property-backed facilities can carry serious consequences if the exit fails. The business should compare [private lending](/resources/guides/what-is-private-lending-australia), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [commercial property refinancing](/services/refinancing-solutions) before proceeding.
 
 Property-backed finance should not be used casually for routine annual expenses. It may fit where the premium protects a larger asset or transaction and the borrower has a clear exit.
 

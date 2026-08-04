@@ -22,15 +22,15 @@ An intercreditor agreement is a legal agreement between two or more lenders that
 
 For borrowers, this is one of the less visible parts of a second mortgage, but it can shape how fast the deal moves and whether the structure is workable at all. A second mortgage is already layered by definition. Once multiple lenders are involved, the question is no longer just whether there is enough equity. The question becomes how those lenders will interact if the borrower wants to refinance, sell, extend, cure a default, or deal with a pressure event.
 
-That is why intercreditor agreements often appear in more complex commercial and business-purpose files rather than simple mainstream lending. They can sit alongside [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [subordination agreements](/resources/guides/subordination-agreement-second-mortgage), and other layered debt structures where priority and control need to be documented properly before settlement.
+That is why intercreditor agreements often appear in more complex commercial and business-purpose files rather than simple mainstream lending. They can sit alongside [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [subordination agreements](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean), and other layered debt structures where priority and control need to be documented properly before settlement.
 
 ### Related In-Depth Guides
 
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Foundation guide to mortgage priority and business use cases.
-- **[Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/subordination-agreement-second-mortgage)** — How subordination differs from broader lender arrangements.
+- **[Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)** — How subordination differs from broader lender arrangements.
 - **[First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — Quick comparison of rights, risk, and control.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Useful when comparing layered debt options.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — What happens when a second mortgage is meant to be temporary.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — What happens when a second mortgage is meant to be temporary.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Why intercreditor issues show up more often in specialist structures.
 
 ## At a Glance
@@ -107,7 +107,7 @@ The two ideas are related, but they are not identical.
 
 A subordination agreement is usually narrower. It mainly confirms that one lender's rights rank behind another lender's rights. An intercreditor agreement is often broader and more operational.
 
-It may still include subordination, but it usually goes further into notice rights, standstill periods, enforcement rules, cure rights, and repayment mechanics. If you are already looking at a [subordination agreement in a second mortgage](/resources/guides/subordination-agreement-second-mortgage), think of the intercreditor agreement as the more complete version of the lender relationship map.
+It may still include subordination, but it usually goes further into notice rights, standstill periods, enforcement rules, cure rights, and repayment mechanics. If you are already looking at a [subordination agreement in a second mortgage](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean), think of the intercreditor agreement as the more complete version of the lender relationship map.
 
 ## When does a borrower usually run into this issue?
 
@@ -234,9 +234,9 @@ For borrowers, the real lesson is to treat lender-to-lender coordination as part
 ## Related Guides
 
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
-- [Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/subordination-agreement-second-mortgage)
+- [Subordination Agreements in Second Mortgages: What They Mean](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)
 - [First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)
 - [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

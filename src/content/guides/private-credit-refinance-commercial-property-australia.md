@@ -23,11 +23,11 @@ Private credit refinance for commercial property is a non-bank refinancing pathw
 
 In plain English, private credit refinance uses specialist private or non-bank capital to refinance an existing commercial property loan. It can help with maturity pressure, tenant disruption, valuation problems, covenant issues, settlement timing, or a bank decline, but it is still debt secured against property and should not be treated as a permanent fix for weak cash flow.
 
-For borrowers comparing options, this guide should be read beside [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide), and [private lending in Australia](/resources/guides/what-is-private-lending-australia).
+For borrowers comparing options, this guide should be read beside [commercial property refinancing solutions](/services/refinancing-solutions), [commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide), and [private lending in Australia](/resources/guides/what-is-private-lending-australia).
 
 ### Related In-Depth Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — the main refinance hub for business and investor scenarios.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — the main refinance hub for business and investor scenarios.
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — explains private lender assessment and commercial use cases.
 - **[Commercial Property Loan Covenant Breach Refinance Options](/resources/guides/commercial-property-loan-covenant-breach-refinance-options)** — useful when refinance pressure comes from a covenant issue.
 - **[Commercial Property Finance for Short-WALE Assets](/resources/guides/commercial-property-finance-short-wale-assets-australia)** — relevant where lease profile is affecting lender appetite.
@@ -149,7 +149,7 @@ No. Emet Capital provides commercial lending solutions and information for eligi
 ## Related Guides
 
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main commercial property finance hub.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — practical refinance pathways and lender assessment.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — practical refinance pathways and lender assessment.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — how private lending works for commercial borrowers.
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — what valuation evidence lenders review.
 - **[Private Commercial Loans for SMEs](/resources/guides/private-commercial-loans-for-smes)** — broader private commercial lending scenarios.

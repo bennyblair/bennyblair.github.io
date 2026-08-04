@@ -29,7 +29,7 @@ This guide explains refinance options after a commercial property loan covenant 
 
 ### Related In-Depth Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — The main guide to refinancing secured commercial property debt.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — The main guide to refinancing secured commercial property debt.
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — A broad guide to how commercial property lending is assessed.
 - **[Commercial Property Loan Covenants](/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them)** — What covenants are and what can happen after a breach.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How bank and private lender assessment can differ.
@@ -64,7 +64,7 @@ The breach may relate to loan-to-value ratio, interest cover, debt service cover
 
 The goal of a refinance is usually to repay the existing lender and move the facility to a lender whose risk appetite better matches the current position. That may be a bank, non-bank lender, private lender, or another commercial finance provider.
 
-The broader mechanics are covered in [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), but covenant breach files need extra care because the new lender will want to understand why the breach happened and whether the exit is realistic.
+The broader mechanics are covered in [commercial property refinancing solutions](/services/refinancing-solutions), but covenant breach files need extra care because the new lender will want to understand why the breach happened and whether the exit is realistic.
 
 ## Why Covenant Breaches Create Refinance Pressure
 
@@ -205,7 +205,7 @@ A useful sequence is:
 7. Write a short exit plan explaining refinance, sale, lease-up, or debt reduction.
 8. Speak with appropriate professional advisers where needed.
 
-Borrowers with limited financial documentation may also need to understand how alternative lenders assess files. The [low doc and no doc commercial loans guide](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) explains that documentation-light does not mean evidence-free.
+Borrowers with limited financial documentation may also need to understand how alternative lenders assess files. The [low doc and no doc commercial loans guide](/resources/guides/no-doc-abn-loans) explains that documentation-light does not mean evidence-free.
 
 ## Related Guides
 

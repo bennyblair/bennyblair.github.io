@@ -23,7 +23,7 @@ Private finance for business after a bank delay is short-term or alternative com
 
 A bank delay can create real pressure. Settlement dates, supplier deadlines, tax arrangements, acquisition contracts, fitout works, and refinance expiries often keep moving even when credit assessment slows down. The question is not simply whether private finance is available. The question is whether it solves the timing problem without creating a larger one.
 
-Emet Capital helps business owners compare [private lending](/resources/guides/what-is-private-lending-australia), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [business finance](/resources/guides/working-capital-loans-for-smes) options. This guide explains when private finance may fit after a bank delay, when to avoid it, and what documents improve the file.
+Emet Capital helps business owners compare [private lending](/resources/guides/what-is-private-lending-australia), [commercial property refinancing](/services/refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [business finance](/resources/guides/working-capital-loans-for-smes) options. This guide explains when private finance may fit after a bank delay, when to avoid it, and what documents improve the file.
 
 ### Related In-Depth Guides
 
@@ -145,6 +145,6 @@ Private finance may help after a bank decline if the issue is policy fit, timing
 - **[Short-Term Private Lenders](/resources/guides/short-term-private-lenders-fast-business-finance-solutions)** — how short-term private lender files are assessed.
 - **[Commercial Property Loan Eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — what commercial lenders commonly assess.
 - **[Low Doc Business Finance](/resources/guides/low-doc-business-finance)** — when documentation-light commercial finance may be considered.
-- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — private mortgage lender context for property-backed business borrowing.
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — private mortgage lender context for property-backed business borrowing.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

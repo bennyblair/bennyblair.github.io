@@ -23,11 +23,11 @@ Commercial loan refinance means replacing an existing business or commercial-pur
 
 That distinction matters because refinancing is not automatically a "save money" exercise. In many commercial scenarios, it is really a restructuring exercise. A borrower may be solving lender maturity pressure, replacing short-term debt, simplifying multiple facilities, or buying time for a stronger long-term outcome. That is why a commercial loan refinance should be judged against the borrower's real objective, not just the advertised interest rate.
 
-For Australian business owners, property investors, and directors with secured business borrowings, the right refinance can improve control and reduce pressure. The wrong refinance can just shift the same problem into a new facility. That is why borrowers often need to compare a standard refinance with alternatives such as [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), or a shorter-term [private lending](/resources/guides/what-is-private-lending-australia) bridge where timing is the actual issue.
+For Australian business owners, property investors, and directors with secured business borrowings, the right refinance can improve control and reduce pressure. The wrong refinance can just shift the same problem into a new facility. That is why borrowers often need to compare a standard refinance with alternatives such as [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [commercial property refinancing](/services/refinancing-solutions), or a shorter-term [private lending](/resources/guides/what-is-private-lending-australia) bridge where timing is the actual issue.
 
 ### Related In-Depth Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Core reference for property-backed refinance structures.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Core reference for property-backed refinance structures.
 - **[Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)** — Useful if multiple facilities are the real problem.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Helpful when lender fit matters more than headline rate.
 - **[Refinancing Commercial Property with a Short Lease Remaining](/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining)** — Relevant where lease expiry is affecting refinance appetite.
@@ -214,11 +214,11 @@ Commercial loan refinance can be a smart move when the new structure genuinely i
 
 The best refinance outcomes usually come from solving a specific commercial problem: reducing pressure, simplifying debt, replacing short-term funding, improving cash flow, or moving to a lender that better fits the current asset or business stage.
 
-But refinancing is not automatically a win. If it does not improve control, clarity, or sustainability, it may just move the same problem into a new document set. That is why borrowers should compare refinance against alternatives like [debt consolidation](/resources/guides/business-debt-consolidation-australia), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), or transitional [private lending](/resources/guides/what-is-private-lending-australia) when timing and structure matter more than a headline rate.
+But refinancing is not automatically a win. If it does not improve control, clarity, or sustainability, it may just move the same problem into a new document set. That is why borrowers should compare refinance against alternatives like [debt consolidation](/resources/guides/business-debt-consolidation-australia), [commercial property refinancing](/services/refinancing-solutions), or transitional [private lending](/resources/guides/what-is-private-lending-australia) when timing and structure matter more than a headline rate.
 
 ## Related Guides
 
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Refinancing Commercial Property with a Short Lease Remaining](/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining)

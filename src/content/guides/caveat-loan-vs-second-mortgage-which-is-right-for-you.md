@@ -30,8 +30,8 @@ A caveat loan is generally used when a business borrower needs fast, short-term 
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Broader guide to first and second ranking mortgage structures.
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — How borrowers repay, refinance, or restructure out of short-term caveat finance.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — What fast caveat lending usually requires in practice.
-- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — Private lender landscape across caveat, first mortgage, and second mortgage scenarios.
-- **[Commercial Property Refinance](/resources/guides/commercial-property-refinancing-solutions)** — When refinance may be a cleaner exit than a new short-term facility.
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — Private lender landscape across caveat, first mortgage, and second mortgage scenarios.
+- **[Commercial Property Refinance](/services/refinancing-solutions)** — When refinance may be a cleaner exit than a new short-term facility.
 
 ## At a Glance
 
@@ -99,7 +99,7 @@ The second mortgage may take longer to arrange, but that can be a strength when 
 
 ### 1. How urgent is the funding need?
 
-If the borrower needs funding in days, a caveat loan may be the only realistic option if the file is simple enough. If the borrower has weeks, a second mortgage or broader [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) may be cleaner.
+If the borrower needs funding in days, a caveat loan may be the only realistic option if the file is simple enough. If the borrower has weeks, a second mortgage or broader [commercial property refinance](/services/refinancing-solutions) may be cleaner.
 
 ### 2. What is the exit strategy?
 

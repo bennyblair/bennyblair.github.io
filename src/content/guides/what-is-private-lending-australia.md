@@ -143,10 +143,10 @@ Explore our specialist private lending guides for specific scenarios:
 
 - **[Finding the Best Private Lenders](/resources/guides/finding-comparing-private-lenders-loans-2025-guide)** — How to evaluate and select private lenders
 - **[Comparing Private Lenders 2025](/resources/guides/finding-comparing-private-lenders-loans-2025-guide)** — Current market comparison and rates
-- **[Private Mortgage Lenders](/resources/guides/private-mortgage-lenders-australia-directory-2026)** — When banks say no to mortgage applications
+- **[Private Mortgage Lenders](/resources/guides/private-mortgage-lenders-australia-directory)** — When banks say no to mortgage applications
 - **[Private Lenders for Small Business](/resources/guides/what-is-private-lending-australia)** — Fast approval options for SMEs
 - **[Private Land Loans](/resources/guides/private-lenders-for-land-loans-alternative-financing)** — Alternative financing for land purchases
-- **[Private CRE Lenders Directory](/resources/guides/private-commercial-real-estate-lenders-cre-directory)** — Commercial real estate specialist lenders
+- **[Private CRE Lenders Directory](/resources/guides/commercial-property-lenders-in-australia-complete-directory)** — Commercial real estate specialist lenders
 - **[Private Investment Lenders](/resources/guides/private-real-estate-investment-lenders-guide)** — Lenders for property investors
 - **[Short-Term Private Finance](/resources/guides/short-term-private-lenders-fast-business-finance-solutions)** — Fast business finance when time is critical
 

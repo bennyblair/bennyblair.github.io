@@ -12,7 +12,7 @@ export default function BridgingFinanceSydney() {
       localIntro="Bridging finance for Sydney borrowers dealing with premium pricing, short settlement conditions, and refinance deadlines across a market where missing the date can mean losing the asset, the tenant, or the negotiating leverage."
       localFocus="Sydney bridging scenarios are rarely generic. We commonly see urgent funding tied to CBD office and mixed-use deals, industrial acquisitions in South Sydney and Western Sydney, purchase-before-sale transactions in the East and Lower North Shore, and development or residual stock timing gaps where the next refinance or sale is credible but not yet ready to settle."
       marketOverview="Sydney remains Australia's most expensive and legally intensive property market, so small delays can become expensive very quickly. Auction commitments, premium asset competition, lender concentration limits, tenancy reviews, strata issues, and complex payout figures often compress the available window. In that environment, bridging finance is usually about protecting transaction control until the sale, refinance, or project milestone catches up."
-      timingPressures="In Sydney, timing pressure often comes from exchange conditions that leave little room for bank delays, outgoing lenders forcing repayment on maturity, and high-value assets that require more legal and valuation scrutiny than the borrower has time for. It is common to bridge while waiting for a Lower North Shore sale, a Parramatta refinance, a CBD tenancy review, or a construction or residual-stock milestone to complete."
+      timingPressures="In Sydney, timing pressure often comes from exchange conditions that leave little room for bank delays, outgoing lenders forcing repayment on maturity, and high-value assets that require more legal and valuation scrutiny than the borrower has time for. A 48-hour settlement is an exception, not a standard product promise: title, valuation basis, payout, entities, purpose, legal review and exit evidence must already be unusually clear. It is more common to bridge while waiting for a Lower North Shore sale, a Parramatta refinance, a CBD tenancy review, or a construction or residual-stock milestone to complete."
       suburbCoverage={[
         {
           title: 'CBD, South Sydney, and city-fringe commercial',
@@ -47,8 +47,8 @@ export default function BridgingFinanceSydney() {
       ]}
       scenarios={[
         {
-          title: 'North Sydney Office Refinance Deadline',
-          scenario: 'A professional services group owned a North Sydney office suite valued at $3.2 million. Its existing lender issued a hard maturity date before the incoming refinance could complete lease review, valuation sign-off, and final legal conditions.',
+          title: 'Illustrative: North Sydney Office Refinance Deadline',
+          scenario: 'Illustrative scenario only: a professional services group owns a North Sydney office suite and faces a hard maturity date before the incoming refinance can complete lease review, valuation sign-off, and final legal conditions.',
           solution: 'A short-term first-ranking bridge of $1.95 million created enough time to finish the replacement refinance properly without copping default pricing or losing control of the transaction to the outgoing lender.',
           outcomes: [
             { label: 'Security value', value: '$3.2M office suite asset' },
@@ -58,8 +58,8 @@ export default function BridgingFinanceSydney() {
           ]
         },
         {
-          title: 'Marrickville Mixed-Use Purchase Before Sale',
-          scenario: 'An investor secured a $2.48 million Marrickville mixed-use property with strong tenant appeal, but the sale of another asset in Dulwich Hill was still eight weeks from settlement. The vendor would not grant more time.',
+          title: 'Illustrative: Marrickville Mixed-Use Purchase Before Sale',
+          scenario: 'Illustrative scenario only: an investor secures a Marrickville mixed-use property, but the sale of another asset is still several weeks from settlement and the vendor will not grant more time.',
           solution: 'A $1.55 million bridge allowed the borrower to settle the new purchase first, preserve the opportunity, and repay the short-term debt from the Dulwich Hill sale once settlement completed.',
           outcomes: [
             { label: 'Purchase price', value: '$2.48M' },
@@ -69,8 +69,8 @@ export default function BridgingFinanceSydney() {
           ]
         },
         {
-          title: 'Silverwater Industrial Auction Settlement',
-          scenario: 'A transport operator won a warehouse asset in Silverwater at auction for $4.4 million, but its preferred long-term lender could not meet the contractual settlement date because valuation access and final credit sign-off were still pending.',
+          title: 'Illustrative: Silverwater Industrial Auction Settlement',
+          scenario: 'Illustrative scenario only: a transport operator wins a warehouse asset in Silverwater at auction, but its preferred long-term lender cannot meet the contractual settlement date because valuation access and final credit sign-off are still pending.',
           solution: 'A short-term acquisition bridge of $2.7 million let the borrower complete on time, keep the asset, and refinance out once the permanent industrial facility was ready to settle.',
           outcomes: [
             { label: 'Purchase price', value: '$4.4M industrial warehouse' },
@@ -105,6 +105,10 @@ export default function BridgingFinanceSydney() {
         {
           question: 'Can bridging finance help with a Sydney commercial property auction?',
           answer: 'Potentially, yes. If the asset, leverage, and exit are acceptable, a bridge may help meet a hard auction settlement date while permanent finance is still working through valuation and legal requirements.'
+        },
+        {
+          question: 'Is a 48-hour Sydney bridging settlement realistic?',
+          answer: 'Only in an unusually prepared and straightforward file. The lender still needs a clear security position, borrower and entity documents, purpose, payout, legal review and a credible exit. Borrowers should plan for a longer process and should not make an unconditional commitment based only on an indicative speed claim.'
         },
         {
           question: 'Which Sydney assets most commonly suit bridging finance?',

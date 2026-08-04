@@ -28,7 +28,7 @@ My broker take is simple: the exit strategy is not a paragraph added at the end 
 - **[When Commercial Bridging Finance Makes Sense](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)** — decision guide for timing gaps, exits, and risks.
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — practical repayment pathways for short-term bridge facilities.
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — context for the longer-term facility that may replace the bridge.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — useful when the bridge is designed to be taken out by refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — useful when the bridge is designed to be taken out by refinance.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — explains why private lenders often assess short-term bridging scenarios.
 
 ## At a Glance
@@ -165,7 +165,7 @@ You should at least start arranging and documenting the exit before applying. A 
 
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — detailed exit planning framework.
 - **[Open vs Closed Bridging Loan](/resources/guides/open-vs-closed-bridging-loan-complete-comparison)** — how exit certainty changes the structure.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance as a bridge takeout.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance as a bridge takeout.
 - **[Short-Term Property Loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance)** — alternative short-term property-backed structures.
 - **[What Is Bridging Finance?](/resources/guides/what-is-bridging-finance)** — plain-English overview for borrowers comparing options.
 

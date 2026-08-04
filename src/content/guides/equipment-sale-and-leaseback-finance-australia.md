@@ -60,7 +60,7 @@ It also helps if you are comparing sale and leaseback with [short-term business 
 
 Sale and leaseback may be considered when the business owns equipment with usable market value and needs to release capital for a defined commercial purpose. Common purposes include working capital, supplier payments, seasonal cash-flow gaps, contract mobilisation, tax timing, replacement stock, or restructuring expensive short-term debt.
 
-It can also be useful when a business wants to preserve property equity for another facility. For example, a contractor may prefer to raise capital against trucks and machinery before considering a [second mortgage](/resources/guides/second-mortgages-for-business-guide) or [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions).
+It can also be useful when a business wants to preserve property equity for another facility. For example, a contractor may prefer to raise capital against trucks and machinery before considering a [second mortgage](/resources/guides/second-mortgages-for-business-guide) or [commercial property refinance](/services/refinancing-solutions).
 
 ## When Not To Use It
 

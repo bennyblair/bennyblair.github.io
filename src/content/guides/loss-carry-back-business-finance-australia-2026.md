@@ -99,7 +99,7 @@ The best finance structure depends on what asset, cash flow, or event supports r
 | **Caveat or second mortgage** | Urgent business-purpose funding with property security | Equity, title, consent issues, exit strategy |
 | **Commercial refinance** | Existing debt needs a cleaner longer-term structure | Valuation, lease income, serviceability, conduct |
 
-For property-backed scenarios, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions). The right structure should match the deadline and repayment event, not just the fastest available option.
+For property-backed scenarios, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions). The right structure should match the deadline and repayment event, not just the fastest available option.
 
 ## Documents That Make the File Easier to Assess
 

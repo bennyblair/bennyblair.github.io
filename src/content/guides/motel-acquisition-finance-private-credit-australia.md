@@ -62,7 +62,7 @@ Private credit may be useful when the motel purchase has a strong commercial rea
 
 It can also fit when the asset is solid but the story is not bank-simple. A motel may have seasonal revenue, recent renovations, mixed freehold and business value, management add-backs, or a prior owner who kept imperfect accounts. Those factors do not make the deal impossible, but they do require a lender that can assess the transaction commercially.
 
-Private credit can sit beside [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) as a staged pathway. The buyer may use private funding to complete, stabilise the business, improve reporting, then refinance once trading evidence and management systems are cleaner.
+Private credit can sit beside [commercial property refinancing](/services/refinancing-solutions) as a staged pathway. The buyer may use private funding to complete, stabilise the business, improve reporting, then refinance once trading evidence and management systems are cleaner.
 
 ## When Not To Use Private Credit
 

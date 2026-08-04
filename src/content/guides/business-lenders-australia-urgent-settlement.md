@@ -49,7 +49,7 @@ Emet Capital helps Australian business owners compare urgent business lender opt
 
 This guide is for Australian business borrowers who have a genuine settlement deadline and need to understand what fast commercial lenders are likely to assess. It is relevant if you are trying to settle a business or commercial property transaction, protect a supplier arrangement, bridge a refinance delay, or fund a short-term commercial gap.
 
-It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions).
+It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions).
 
 ## What Urgent Settlement Means in Business Lending
 
@@ -73,7 +73,7 @@ Urgent settlement finance is usually a poor fit where there is no credible exit.
 
 It may also be unsuitable if the borrower has unresolved legal disputes, unclear title, incomplete authority to borrow, weak security, or no evidence behind the stated deadline. Fast lenders still need enough information to make a responsible commercial decision.
 
-If the issue is ongoing cash-flow weakness rather than a settlement deadline, compare [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), or [line of credit equity](/resources/guides/line-of-credit-equity) instead. A short-term urgent loan should not be used to hide a structural business problem.
+If the issue is ongoing cash-flow weakness rather than a settlement deadline, compare [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), or [line of credit equity](/resources/guides/second-mortgage-vs-line-of-credit) instead. A short-term urgent loan should not be used to hide a structural business problem.
 
 ## What Business Lenders Assess First
 

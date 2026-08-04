@@ -130,7 +130,7 @@ const FirstSecondMortgages = () => {
                 We guide clients through the finance process, from initial assessment and lender selection through documentation preparation and settlement. Our expertise includes both first and second mortgage positioning, enabling strategic capital structuring. Timeframes depend on the security, valuation, consent requirements, and lender appetite, so we focus on packaging the file clearly and matching it to lenders that fit the transaction.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                For deeper education before enquiring, read our <Link to="/resources/guides/second-mortgages-for-business-guide" className="text-accent underline">second mortgages for business guide</Link>, <Link to="/resources/guides/second-mortgage-partnership-buyout-financing-transitions" className="text-accent underline">partnership buyout finance guide</Link>, and <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">business partner buyout guide</Link>.
+                For deeper education before enquiring, read our <Link to="/resources/guides/second-mortgages-for-business-guide" className="text-accent underline">second mortgages for business guide</Link>, <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">partnership buyout finance guide</Link>, and <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">business partner buyout guide</Link>.
               </p>
             </section>
 

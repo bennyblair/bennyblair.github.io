@@ -166,7 +166,7 @@ Your property type significantly influences which lenders suit your situation. R
 
 Your timeline determines whether you can use traditional specialists (7-14 days) or need private lenders who settle within 3-7 days. If you're bidding at [auction with 30 days to settle](/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide), you have time for proper specialist lender assessment. If you need 14-day settlement without arranged finance, you're in private lender territory despite the higher rates.
 
-Credit history influences which lenders will consider your application. Clean credit with no defaults opens all options. Minor defaults push you toward flexible specialists like Bluestone or Pepper Money. Serious credit impairments—recent bankruptcies or multiple defaults—mean [private lenders](/resources/guides/private-mortgage-lenders-australia-directory-2026) become your primary option.
+Credit history influences which lenders will consider your application. Clean credit with no defaults opens all options. Minor defaults push you toward flexible specialists like Bluestone or Pepper Money. Serious credit impairments—recent bankruptcies or multiple defaults—mean [private lenders](/resources/guides/private-mortgage-lenders-australia-directory) become your primary option.
 
 Exit strategy clarity affects lender interest and rates. Having a signed sale contract on your existing property or confirmed refinance pre-approval positions you strongly with all lenders. Vague plans like "we'll sell eventually" make lenders nervous, potentially increasing rates or reducing LVRs.
 

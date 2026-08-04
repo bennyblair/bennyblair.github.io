@@ -31,7 +31,7 @@ This guide explains the scenario from Emet Capital's position as a broker connec
 - **[ATO Tax Debt Finance for Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — options when tax debt creates commercial funding pressure.
 - **[Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)** — urgent caveat funding scenarios and document preparation.
 - **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — the broader funding context for developers.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — longer-term exits once the short-term pressure is resolved.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — longer-term exits once the short-term pressure is resolved.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — how private lending differs from bank-style assessment.
 
 ### At a Glance
@@ -197,7 +197,7 @@ That depends on the borrower's tax position, cash flow, property equity, timing,
 
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — plan repayment before taking short-term caveat debt.
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — compare tax debt funding pathways.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinance pathways after the timing gap is resolved.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways after the timing gap is resolved.
 - **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — broader developer funding context.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lending basics for business borrowers.
 

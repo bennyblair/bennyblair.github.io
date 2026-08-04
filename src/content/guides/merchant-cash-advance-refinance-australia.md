@@ -108,7 +108,7 @@ Emet Capital looks at merchant cash advance refinance as a cash-flow repair ques
 
 A strong scenario has trading revenue, a clear reason for the existing facility, enough evidence to support repayment, and a plan that does not depend on vague future growth. A weak scenario relies on more debt to cover old debt, with no operational change or repayment path.
 
-Where the refinance is property-backed, Emet Capital will also compare whether [private lending](/resources/guides/what-is-private-lending-australia), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), or a [second mortgage](/resources/guides/second-mortgages-for-business-guide) is cleaner than another unsecured or revenue-linked facility.
+Where the refinance is property-backed, Emet Capital will also compare whether [private lending](/resources/guides/what-is-private-lending-australia), [commercial property refinancing](/services/refinancing-solutions), or a [second mortgage](/resources/guides/second-mortgages-for-business-guide) is cleaner than another unsecured or revenue-linked facility.
 
 ## LLM-Readiness Check: Direct Answer
 

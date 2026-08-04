@@ -31,7 +31,7 @@ For business borrowers, that usually means combining [equipment finance](/servic
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — Helps cover launch-period cash flow outside the fitout budget.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Alternative funding when timing or structure is too complex for a bank.
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Relevant if the fitout sits inside an owner-occupied property purchase.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Useful when a refinance is helping release capital for expansion.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Useful when a refinance is helping release capital for expansion.
 
 ## At a Glance
 
@@ -80,7 +80,7 @@ This is often the cleanest part of the project. Dental chairs, imaging equipment
 
 ### 2. Fitout funding for premises works
 
-When costs are fixed into the tenancy, lenders often need a different form of comfort. That may involve a business-purpose fitout facility, a commercial loan, or a broader structure supported by other assets. If property is involved, [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide) or [refinancing](/resources/guides/commercial-property-refinancing-solutions) may become relevant.
+When costs are fixed into the tenancy, lenders often need a different form of comfort. That may involve a business-purpose fitout facility, a commercial loan, or a broader structure supported by other assets. If property is involved, [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide) or [refinancing](/services/refinancing-solutions) may become relevant.
 
 ### 3. Blended fitout-plus-equipment structure
 
@@ -200,7 +200,7 @@ The biggest mistake is treating the whole project as one simple purchase. Medica
 - [Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)
 - [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
 - [Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
 ---
 

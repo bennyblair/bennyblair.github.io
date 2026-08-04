@@ -22,12 +22,12 @@ Sydney is not a market where slow finance usually feels harmless.
 
 When a borrower is trying to secure a warehouse in the Inner West, refinance a mixed-use asset in Parramatta, or move quickly on an industrial opportunity in Western Sydney, the funding structure matters almost as much as the asset itself. Commercial property finance in Sydney is shaped by high values, tight timeframes, diverse asset classes, and lender scrutiny around serviceability, leverage, and exit.
 
-For investors, developers, and business owners, the practical challenge is not just finding a lender. It is choosing a structure that fits the asset, the business purpose, and the timing pressure of the deal. In Sydney, that often means deciding between a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinance path](/resources/guides/commercial-property-refinancing-solutions), or a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution when settlement speed is the real pressure point.
+For investors, developers, and business owners, the practical challenge is not just finding a lender. It is choosing a structure that fits the asset, the business purpose, and the timing pressure of the deal. In Sydney, that often means deciding between a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinance path](/services/refinancing-solutions), or a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution when settlement speed is the real pressure point.
 
 ### Related In-Depth Guides
 
 - [Commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial property refinancing solutions](/services/refinancing-solutions)
 - [Bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Commercial property loan eligibility](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
 
@@ -102,7 +102,7 @@ This is often suitable for stable, longer-term property holds where the asset, b
 
 ### Refinancing
 
-Borrowers may refinance to improve terms, release equity, consolidate facilities, or move away from restrictive debt. For a deeper look, see our guide to [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions). Our broader [commercial refinancing solutions](/services/refinancing-solutions) page explains where this path often fits.
+Borrowers may refinance to improve terms, release equity, consolidate facilities, or move away from restrictive debt. For a deeper look, see our guide to [commercial property refinancing solutions](/services/refinancing-solutions). Our broader [commercial refinancing solutions](/services/refinancing-solutions) page explains where this path often fits.
 
 ### Bridging or short-term funding
 
@@ -212,13 +212,13 @@ Property details, lease information, current debt position, entity structure, bu
 
 - [Commercial property finance](/services/commercial-property-finance)
 - [Commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial property refinancing solutions](/services/refinancing-solutions)
 - [Private lending in Australia](/resources/guides/what-is-private-lending-australia)
 
 ## Bottom line
 
 Commercial property finance in Sydney is less about chasing a generic loan product and more about fitting the right structure to the right asset at the right time.
 
-If the property is strong, the purpose is commercial, and the funding story is clear, there are usually multiple ways to approach the market. The real advantage comes from choosing the lender path that matches Sydney timing pressure, asset quality, and the end goal of the transaction. In practice, that may mean choosing between a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a [refinance solution](/resources/guides/commercial-property-refinancing-solutions), or a more flexible [private lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) path.
+If the property is strong, the purpose is commercial, and the funding story is clear, there are usually multiple ways to approach the market. The real advantage comes from choosing the lender path that matches Sydney timing pressure, asset quality, and the end goal of the transaction. In practice, that may mean choosing between a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a [refinance solution](/services/refinancing-solutions), or a more flexible [private lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) path.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

@@ -130,7 +130,7 @@ The strongest files show both the immediate problem and the operating fix.
 
 Emet Capital would usually start with five questions: what is owed, what is lodged, what deadline matters, what cash is coming in, and what security is available. From there, the comparison may include an ATO arrangement, working capital loan, invoice finance, asset-backed lending, property-backed finance, or a broader debt restructure.
 
-If the borrower has clean receivables, debtor-backed funding may be a better match than property security. If the amount is large and urgent, secured short-term finance may be considered, but only with a defined repayment source. If the tax debt is one part of a wider liability stack, the conversation may shift to [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) or debt consolidation.
+If the borrower has clean receivables, debtor-backed funding may be a better match than property security. If the amount is large and urgent, secured short-term finance may be considered, but only with a defined repayment source. If the tax debt is one part of a wider liability stack, the conversation may shift to [commercial property refinancing](/services/refinancing-solutions) or debt consolidation.
 
 The broker's role is not to pretend tax debt is harmless. It is to make the timing, risk, and exit clear enough for the borrower and lender to make an informed commercial decision.
 

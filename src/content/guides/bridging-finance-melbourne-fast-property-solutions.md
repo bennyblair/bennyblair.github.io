@@ -66,7 +66,7 @@ Bridging can also help when a buyer needs certainty before negotiating. A vendor
 
 Bridging finance does not make sense when the exit strategy is vague. If the repayment plan depends on a hoped-for sale, unapproved refinance, or uncertain business event, the facility can become expensive and risky.
 
-It is also a poor fit where the borrower is using short-term funding to cover a long-term affordability issue. If the property or business cannot support a sustainable refinance, a bridge may only delay the problem. In that situation, a broader [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) review is usually more useful than rushing into short-term debt.
+It is also a poor fit where the borrower is using short-term funding to cover a long-term affordability issue. If the property or business cannot support a sustainable refinance, a bridge may only delay the problem. In that situation, a broader [commercial property refinancing](/services/refinancing-solutions) review is usually more useful than rushing into short-term debt.
 
 Borrowers should also avoid bridging where the transaction cost outweighs the benefit of completing the deal. The question is not simply “can funding be arranged?” It is whether the transaction still makes commercial sense after fees, legal costs, valuation costs, and the short-term nature of the debt are considered.
 
@@ -150,7 +150,7 @@ Avoid bridging finance when there is no realistic exit strategy, the term is lik
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 - [Commercial Property Finance Melbourne: Local Expert Hub](/resources/guides/commercial-property-finance-melbourne-local-expert-hub)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Melbourne Bridging Finance Service Page](/services/bridging-finance/cities/melbourne)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

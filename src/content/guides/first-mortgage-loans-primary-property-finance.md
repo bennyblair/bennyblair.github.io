@@ -142,7 +142,7 @@ Interest rates reflect this risk differential. First mortgage rates for commerci
 
 Loan-to-value ratios also differ substantially. First mortgage lenders might advance 65-70% of a commercial property's value, sometimes reaching 80% for premium assets or strong borrowers. Second mortgage lenders typically cap their combined loan-to-value ratio (first mortgage plus second mortgage) at 75-85%, meaning they're lending into whatever equity remains after the first mortgage.
 
-A Brisbane business might secure a $1.8 million first mortgage on a $3 million property at 7.5% interest. If they need additional capital, they could add a $450,000 [second mortgage](/resources/guides/when-second-mortgages-make-financial-sense-smes) at 12% interest, bringing the total lending to $2.25 million (75% LVR). The second mortgage lender accepts higher risk because they're only protected by the remaining $750,000 equity buffer.
+A Brisbane business might secure a $1.8 million first mortgage on a $3 million property at 7.5% interest. If they need additional capital, they could add a $450,000 [second mortgage](/resources/guides/second-mortgage-loan-equity-access-strategies) at 12% interest, bringing the total lending to $2.25 million (75% LVR). The second mortgage lender accepts higher risk because they're only protected by the remaining $750,000 equity buffer.
 
 Documentation and approval processes also differ. First mortgage applications typically involve comprehensive financial analysis, formal property valuations, and detailed serviceability assessments. Second mortgages often move faster with less documentation, but they compensate for streamlined processes with higher rates and fees. Both loan types serve different purposes in a business's capital structure.
 
@@ -198,7 +198,7 @@ Professional advice from experienced finance brokers, accountants, and lawyers i
 
 ### Can I get a first mortgage with limited business trading history?
 
-Securing a first mortgage with less than two years trading history is challenging but possible. Lenders typically want 2+ years of financial statements to assess serviceability, but some will consider newer businesses with strong directors' guarantees, larger deposits (40-50% equity), or businesses in established industries with proven demand. A startup tech company might struggle, while a medical practice run by an experienced GP could succeed despite limited trading history. Alternative lenders and [private funders](/resources/guides/private-mortgage-lenders-australia-directory-2026) are more flexible than major banks for newer businesses.
+Securing a first mortgage with less than two years trading history is challenging but possible. Lenders typically want 2+ years of financial statements to assess serviceability, but some will consider newer businesses with strong directors' guarantees, larger deposits (40-50% equity), or businesses in established industries with proven demand. A startup tech company might struggle, while a medical practice run by an experienced GP could succeed despite limited trading history. Alternative lenders and [private funders](/resources/guides/private-mortgage-lenders-australia-directory) are more flexible than major banks for newer businesses.
 
 ### What happens to my first mortgage if property values drop?
 

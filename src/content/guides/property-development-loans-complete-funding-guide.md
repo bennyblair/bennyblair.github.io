@@ -338,7 +338,7 @@ Lenders assess exit strategies based on credibility and market conditions. For r
 - **[Construction Finance Australia: Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — Detailed overview of development finance structures, requirements, and lender assessment
 - **[Bridging Finance Australia: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term financing solutions for timing gaps in property transactions
 - **[Commercial Property Loans in Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Comprehensive guide to commercial property financing options
-- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-real-estate-lenders-australia-directory)** — Directory of lenders specialising in commercial and development finance
+- **[Commercial Real Estate Lenders Australia Directory](/resources/guides/commercial-property-lenders-in-australia-complete-directory)** — Directory of lenders specialising in commercial and development finance
 - **[Case Studies: Development Projects](/resources/case-studies)** — Real examples of development finance scenarios we've supported
 
 ## Next Steps for Your Development Project

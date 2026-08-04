@@ -161,7 +161,7 @@ A clean summary can save days of back-and-forth. It also helps a broker identify
 
 Emet Capital helps eligible commercial borrowers package business finance scenarios for lender assessment. The work starts with understanding purpose, timing, security, documents, and exit strategy.
 
-For some borrowers, that means comparing bank and non-bank options. For others, it means reviewing whether short-term private lending, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), working capital finance, or asset-backed lending is a better fit.
+For some borrowers, that means comparing bank and non-bank options. For others, it means reviewing whether short-term private lending, [commercial property refinancing](/services/refinancing-solutions), working capital finance, or asset-backed lending is a better fit.
 
 The practical goal is to avoid wasted applications and match the file to a lender whose assessment style fits the scenario.
 
@@ -197,6 +197,6 @@ The biggest mistake is applying before the borrower can explain the purpose, rep
 - **[Business Loan Terms Explained](/resources/guides/business-loan-terms-explained-australia)** — understand the conditions inside a lender proposal.
 - **[Working Capital Loans](/resources/guides/working-capital-loans-for-smes)** — options for trading cash-flow gaps.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare lender assessment styles.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinancing pathways for commercial borrowers.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinancing pathways for commercial borrowers.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -25,7 +25,7 @@ ATO tax debt disclosure occurs when the Australian Taxation Office is able to re
 
 Business finance may help before or after disclosure risk becomes urgent, but it should be handled carefully. The strongest files show the amount owed, the ATO position, trading viability, available security, and a realistic repayment or refinance path.
 
-Emet Capital helps eligible business borrowers compare structures such as [ATO tax debt finance](/resources/guides/ato-tax-debt-finance-for-australian-business-owners), [working capital loans](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [private lending](/resources/guides/what-is-private-lending-australia). This is general information only, not financial, tax, or legal advice.
+Emet Capital helps eligible business borrowers compare structures such as [ATO tax debt finance](/resources/guides/ato-tax-debt-finance-for-australian-business-owners), [working capital loans](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), [commercial property refinancing](/services/refinancing-solutions), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [private lending](/resources/guides/what-is-private-lending-australia). This is general information only, not financial, tax, or legal advice.
 
 ### Related In-Depth Guides
 
@@ -99,7 +99,7 @@ If the tax debt sits alongside supplier arrears, short-term loans, equipment bal
 
 ### Commercial property refinance
 
-Commercial property owners may be able to refinance or release equity to address tax debt. This can be cleaner than short-term funding if the business has enough time and the property is suitable. Read [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) for the longer-term path.
+Commercial property owners may be able to refinance or release equity to address tax debt. This can be cleaner than short-term funding if the business has enough time and the property is suitable. Read [commercial property refinancing solutions](/services/refinancing-solutions) for the longer-term path.
 
 ### Second mortgage or private lending
 
@@ -175,7 +175,7 @@ Yes. Tax debt can involve accounting, cash-flow, compliance, and director-risk i
 - **[ATO Payment Plan Refused](/resources/guides/ato-payment-plan-refused-business-finance-options-australia)** — compare next steps after a payment-plan issue.
 - **[Business Debt Consolidation](/resources/guides/business-debt-consolidation-australia)** — useful when tax debt is one of several commercial obligations.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare tax pressure with ordinary cash-flow finance.
-- **[Commercial Property Refinancing](/resources/guides/commercial-property-refinancing-solutions)** — relevant where property equity can support a longer-term structure.
+- **[Commercial Property Refinancing](/services/refinancing-solutions)** — relevant where property equity can support a longer-term structure.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — compare flexible business-purpose property-backed lending.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

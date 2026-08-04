@@ -21,7 +21,7 @@ author_name: "Ben"
 
 Second mortgage consent is refused when the existing first mortgagee will not agree to another lender registering behind them on the same property title. For Australian commercial borrowers, this does not always end the funding conversation, but it does change the pathway. The borrower may need to restructure, refinance, offer different security, use a different facility type, or accept that the original second mortgage plan is not workable.
 
-A second mortgage can support business-purpose funding where there is usable property equity, but the first lender’s consent and priority requirements matter. Emet Capital helps borrowers compare [second mortgages](/resources/guides/second-mortgages-for-business-guide), [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) when consent becomes a roadblock.
+A second mortgage can support business-purpose funding where there is usable property equity, but the first lender’s consent and priority requirements matter. Emet Capital helps borrowers compare [second mortgages](/resources/guides/second-mortgages-for-business-guide), [commercial property refinancing](/services/refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) when consent becomes a roadblock.
 
 ### Related In-Depth Guides
 
@@ -29,7 +29,7 @@ A second mortgage can support business-purpose funding where there is usable pro
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — options when the first loan is staying in place.
 - **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — borrower preparation and approval considerations.
 - **[Second Mortgage Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — documents that make a file easier to assess.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — when refinance is cleaner than adding a second mortgage.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — when refinance is cleaner than adding a second mortgage.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — how lender appetite differs across the market.
 
 ### At a Glance
@@ -141,7 +141,7 @@ No. Consent can be refused because of lender policy or security structure, even 
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)**
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)**
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)**
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)**
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)**
 

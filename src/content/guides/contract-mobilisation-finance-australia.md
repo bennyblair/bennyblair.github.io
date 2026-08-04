@@ -84,7 +84,7 @@ The contract matters because it shows who is paying, what is being delivered, wh
 
 The borrower matters because delivery risk sits with the business. Lenders may look at trading history, past contract delivery, management experience, supplier relationships, debtor quality, and current obligations. If the new contract is much larger than normal turnover, the lender may ask how the business will manage scale-up risk.
 
-Security can vary. Some facilities may be supported by receivables, plant and equipment, property equity, directors' guarantees, or other commercial security. Where property equity is involved, alternatives such as [secured business loans](/resources/guides/secured-business-loans-australia) or [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) may also need to be compared.
+Security can vary. Some facilities may be supported by receivables, plant and equipment, property equity, directors' guarantees, or other commercial security. Where property equity is involved, alternatives such as [secured business loans](/resources/guides/secured-vs-unsecured-business-loans-australia) or [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) may also need to be compared.
 
 ## Finance Options For Mobilisation Costs
 

@@ -27,7 +27,7 @@ For NSW business owners facing a compressed purchase or settlement deadline, Eme
 - **[Bridging Finance: Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term finance for time-sensitive settlements
 - **[Property Development Loans: Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)** — Funding guide for construction and development projects
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — Non-bank lending options for property buyers
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Refinancing options after settlement
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Refinancing options after settlement
 
 
 ### Related In-Depth Guides

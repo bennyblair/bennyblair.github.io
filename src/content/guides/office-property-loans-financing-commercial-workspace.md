@@ -212,7 +212,7 @@ Once you've successfully acquired and operated an office property, refinancing a
 
 ### Optimal Refinancing Triggers
 
-Several circumstances justify [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) for office investments. Firstly, significant improvements in property performance—increased occupancy, rental growth, or extended lease terms—might support higher valuations enabling equity release. An office building purchased at $3 million that you've since improved through renovations and tenant upgrades might revalue at $3.6 million, creating $600,000 additional equity at 70% LVR.
+Several circumstances justify [commercial property refinancing solutions](/services/refinancing-solutions) for office investments. Firstly, significant improvements in property performance—increased occupancy, rental growth, or extended lease terms—might support higher valuations enabling equity release. An office building purchased at $3 million that you've since improved through renovations and tenant upgrades might revalue at $3.6 million, creating $600,000 additional equity at 70% LVR.
 
 Market interest rate changes also trigger refinancing opportunities. If you've held an office property for three years at 8% interest and current competitive rates sit around 6.5%, refinancing could save $45,000 annually on a $3 million loan. However, break costs on fixed-rate loans can be substantial—sometimes exceeding the first year's interest savings—so calculate total costs carefully before proceeding.
 

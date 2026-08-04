@@ -23,7 +23,7 @@ metaDescription: "Short-term caveat loans in Australia explained for commercial 
 
 Short-term caveat loans are business-purpose loans that use property-backed security and are usually designed for urgent, temporary funding needs. In Australia, they are most often considered by business owners, property investors, and developers who need a defined amount of capital for a short period and have a clear exit such as refinance, sale proceeds, settlement funds, debtor recovery, or another commercial cash event.
 
-The key word is short-term. A caveat loan can be useful when timing is the main problem, but it is not a substitute for stable working capital or long-term refinance. Emet Capital helps borrowers compare short-term caveat loans with [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions). This is general information only and not financial advice.
+The key word is short-term. A caveat loan can be useful when timing is the main problem, but it is not a substitute for stable working capital or long-term refinance. Emet Capital helps borrowers compare short-term caveat loans with [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [commercial property refinancing](/services/refinancing-solutions). This is general information only and not financial advice.
 
 ### Related In-Depth Guides
 
@@ -32,7 +32,7 @@ The key word is short-term. A caveat loan can be useful when timing is the main 
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare two common property-backed structures.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — how urgent files are prepared and assessed.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — when a registered second mortgage may be cleaner than a caveat loan.
-- **[Commercial Property Refinancing](/resources/guides/commercial-property-refinancing-solutions)** — longer-term refinance options when time allows.
+- **[Commercial Property Refinancing](/services/refinancing-solutions)** — longer-term refinance options when time allows.
 
 ## At a Glance
 
@@ -101,7 +101,7 @@ The [business loan requirements guide](/resources/guides/business-loan-requireme
 | Commercial refinance | Longer-term restructure or replacement debt | Better when time and documents support a broader refinance. |
 | Asset-backed lending | Funding against equipment, receivables, or other business assets | May reduce reliance on real property. |
 
-If the borrower has time, a [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) may be more sustainable. If the issue is transaction timing, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may be the closer comparison.
+If the borrower has time, a [commercial property refinance](/services/refinancing-solutions) may be more sustainable. If the issue is transaction timing, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may be the closer comparison.
 
 ## How Emet Capital Frames the Decision
 

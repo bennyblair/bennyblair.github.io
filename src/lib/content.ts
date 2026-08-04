@@ -1,4 +1,5 @@
 import contentIndex from "virtual:content-index";
+import { isRedirectSource } from "@/config/site-route-manifest";
 
 export type ContentType = "guides" | "case-studies" | "insights";
 export type ContentRisk = "low" | "high";
@@ -100,9 +101,9 @@ export function isRoutableContentArticle(contentType: string, slug: string): boo
 
 export function getContentSummaries(contentType: string = "guides"): ArticleSummary[] {
   const normalizedType = asContentType(contentType);
-  return [...(contentIndex[normalizedType] ?? [])].filter((article) => !article.noindex).sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-  );
+  return [...(contentIndex[normalizedType] ?? [])]
+    .filter((article) => !article.noindex && !isRedirectSource(article.route))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 // Retain the asynchronous API while returning metadata-only records.

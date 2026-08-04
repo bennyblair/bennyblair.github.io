@@ -115,7 +115,7 @@ Useful documents may include:
 - equipment or property security details, if offered; and
 - written repayment and fallback plan.
 
-If documents are incomplete, [low-doc commercial loans](/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide) may explain alternative evidence. Low-doc does not mean no story. Lenders still need enough detail to price and structure risk.
+If documents are incomplete, [low-doc commercial loans](/resources/guides/no-doc-abn-loans) may explain alternative evidence. Low-doc does not mean no story. Lenders still need enough detail to price and structure risk.
 
 ## Practical Example
 

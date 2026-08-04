@@ -32,7 +32,7 @@ For Emet Capital, private debt is not a shortcut around weak fundamentals. It is
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — practical differences between private and bank assessment.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — mainstream and alternative working-capital options.
 - **[Business Debt Consolidation](/resources/guides/business-debt-consolidation-australia)** — when refinancing multiple obligations may help.
-- **[Commercial Property Refinancing](/resources/guides/commercial-property-refinancing-solutions)** — longer-term refinance pathways for property-backed SMEs.
+- **[Commercial Property Refinancing](/services/refinancing-solutions)** — longer-term refinance pathways for property-backed SMEs.
 
 ## At a Glance
 
@@ -49,7 +49,7 @@ For Emet Capital, private debt is not a shortcut around weak fundamentals. It is
 
 This guide is for Australian SME owners and company directors exploring private debt for business purposes. It is not about consumer lending, personal credit, or owner-occupier home loans.
 
-It may be relevant if your bank has declined a file, asked for more time than the transaction allows, reduced appetite for your industry, or required documentation that does not reflect how your business currently trades. It may also help if you are comparing private debt with [secured business loans](/resources/guides/secured-business-loans-australia), [short-term business finance](/resources/guides/short-term-business-finance-australia), or property-backed private lending.
+It may be relevant if your bank has declined a file, asked for more time than the transaction allows, reduced appetite for your industry, or required documentation that does not reflect how your business currently trades. It may also help if you are comparing private debt with [secured business loans](/resources/guides/secured-vs-unsecured-business-loans-australia), [short-term business finance](/resources/guides/short-term-business-finance-australia), or property-backed private lending.
 
 ## What Private Debt Means for SMEs
 

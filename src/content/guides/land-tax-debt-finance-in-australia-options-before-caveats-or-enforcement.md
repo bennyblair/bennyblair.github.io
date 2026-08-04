@@ -29,7 +29,7 @@ For Emet Capital borrowers, the practical question is simple: can the land tax p
 
 - **[ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)** — How tax-debt funding is assessed when a business needs time or refinance support.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — The main guide to property-backed commercial lending and lender assessment.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Refinance pathways where existing facilities, arrears or pressure need to be restructured.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Refinance pathways where existing facilities, arrears or pressure need to be restructured.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — How caveat-backed commercial finance works and when it may be considered.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Using available equity without replacing the first mortgage.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Why non-bank lenders may assess urgent property-backed files differently.
@@ -55,7 +55,7 @@ It is not for consumer borrowing or personal financial advice. Land tax obligati
 
 Land tax debt finance may make sense when the arrears are specific, the borrower has usable security, and there is a clear reason why short-term funding solves the problem. The strongest files usually have a verified balance, current property information, a known deadline and a credible exit such as refinance, sale proceeds, lease income, project settlement or business cash flow.
 
-For example, a commercial property owner may have a refinance approved in principle but need to clear a state revenue debt before settlement can proceed. A developer may be waiting for sale proceeds but needs to stop enforcement pressure from disrupting title or settlement. In those situations, the land tax debt is often part of a broader [commercial property refinance](/resources/guides/commercial-property-refinancing-solutions) or [settlement shortfall finance](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement) problem.
+For example, a commercial property owner may have a refinance approved in principle but need to clear a state revenue debt before settlement can proceed. A developer may be waiting for sale proceeds but needs to stop enforcement pressure from disrupting title or settlement. In those situations, the land tax debt is often part of a broader [commercial property refinance](/services/refinancing-solutions) or [settlement shortfall finance](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement) problem.
 
 The funding should buy time for a defined event, not hide an ongoing inability to meet property costs.
 
@@ -190,7 +190,7 @@ If a payment plan is affordable and does not create other finance problems, it m
 ## Related Guides
 
 - [ATO Tax Debt Finance for Australian Business Owners](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [Caveat Loan Emergency Business Funding](/resources/guides/caveat-loan-emergency-business-funding)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)

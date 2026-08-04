@@ -29,7 +29,7 @@ This guide explains SMSF commercial property loan refinance options in Australia
 
 - **[SMSF Loans for Commercial Property](/resources/guides/smsf-loans-for-commercial-property)** — The main guide to SMSF commercial property lending.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broader commercial property lending structures and assessment.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — How commercial property refinance works for business borrowers and investors.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — How commercial property refinance works for business borrowers and investors.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — How private lenders assess commercial property-backed scenarios.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — How income, rent and borrower capacity affect loan size.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type changes timing, documentation and flexibility.
@@ -78,7 +78,7 @@ Common triggers include:
 - a tenant change has affected serviceability or lender comfort
 - the fund needs to move from private lending to a bank or non-bank lender
 
-If the issue is a general commercial property refinance rather than SMSF-specific structuring, the guide to [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) explains the broader options.
+If the issue is a general commercial property refinance rather than SMSF-specific structuring, the guide to [commercial property refinancing solutions](/services/refinancing-solutions) explains the broader options.
 
 ## When Not To Refinance
 
@@ -209,7 +209,7 @@ The biggest risk is assuming the refinance is only a property valuation exercise
 ## Related Guides
 
 - **[SMSF Loans for Commercial Property](/resources/guides/smsf-loans-for-commercial-property)** — Core guide to SMSF commercial property borrowing.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — General commercial refinance pathways.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — General commercial refinance pathways.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — Main commercial property finance hub.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — Private credit assessment for commercial borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Comparing lender flexibility, timing and documentation.

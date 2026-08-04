@@ -31,7 +31,7 @@ In plain terms, the deposit is only one part of the capital stack. You also need
 - **[Commercial Property LVR Explained: Maximise Your Borrowing](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)** — Useful for understanding how deposit and LVR work together.
 - **[Commercial Property Refinance After a Bank Decline in Australia](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — Relevant if your deposit shortfall appears after a credit decline.
 - **[Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — Explains how lenders assess income, debt cover, and borrowing capacity.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful when equity release or refinance may be part of the funding plan.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Helpful when equity release or refinance may be part of the funding plan.
 - **[Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Useful where a timing gap exists between purchase and permanent debt.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Explains how lender type affects leverage and flexibility.
 
@@ -118,7 +118,7 @@ This matters because a borrower can look comfortable on deposit and still run in
 
 A larger deposit may be needed when the property is vacant, the lease is short, the business financials are thin, or the asset sits outside standard credit appetite. It can also happen when a lender’s valuation does not support the agreed price.
 
-Another common issue is timeline pressure. If a borrower needs to settle quickly and the file is not bank-ready, they may end up considering a different lender set or a staged solution. That can change the leverage profile. In those cases, it is often useful to compare a permanent structure against [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions) or, if timing is the real issue, [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide).
+Another common issue is timeline pressure. If a borrower needs to settle quickly and the file is not bank-ready, they may end up considering a different lender set or a staged solution. That can change the leverage profile. In those cases, it is often useful to compare a permanent structure against [commercial property refinancing solutions](/services/refinancing-solutions) or, if timing is the real issue, [bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide).
 
 ## Can Equity From Another Property Help?
 
@@ -205,7 +205,7 @@ It can. For investment assets, stronger leases and more stable income often impr
 
 - [Commercial Property LVR Explained: Maximise Your Borrowing](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)

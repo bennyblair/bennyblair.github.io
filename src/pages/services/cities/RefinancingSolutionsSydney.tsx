@@ -205,7 +205,7 @@ const data = {
     },
     {
       "label": "Commercial Property Refinancing Solutions guide",
-      "to": "/resources/guides/commercial-property-refinancing-solutions"
+      "to": "/services/refinancing-solutions"
     },
     {
       "label": "Business Debt Consolidation Australia",

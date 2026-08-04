@@ -69,7 +69,7 @@ Secured finance may fit when the borrower needs a larger facility, a longer stru
 
 This can be relevant for tax debt restructure, supplier arrears, acquisition finance, commercial property settlement, equipment purchase, or a refinance after bank pressure. The asset gives the lender a clearer secondary repayment source, but the business still needs a primary repayment plan.
 
-For example, a borrower might compare [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), a second mortgage, or [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia) where property equity is available and the business has a defined exit.
+For example, a borrower might compare [commercial property refinancing](/services/refinancing-solutions), a second mortgage, or [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia) where property equity is available and the business has a defined exit.
 
 ## When Unsecured Business Finance May Fit
 
@@ -145,6 +145,19 @@ The goal is not to make every loan secured or every loan unsecured. The goal is 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — accessing property equity without replacing the first mortgage
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — comparing bank and non-bank lender appetite
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — funding established business purchases with debt, equity, vendor terms, and working capital
+
+## What Can Secure a Business Loan?
+
+Security is broader than commercial property. Depending on lender policy and the transaction, a secured facility may rely on real property, vehicles and equipment, receivables, inventory, cash deposits, or a general security interest over company assets. Each has a different valuation, control and enforcement profile.
+
+| Security type | Evidence commonly reviewed | Practical limitation |
+|---|---|---|
+| Real property | Title, mortgage statement, valuation and lease information | Settlement and consent can take time; the property is exposed on default. |
+| Equipment or vehicles | Asset register, invoices, age, condition and resale market | Specialist assets may have weak secondary-market value. |
+| Receivables | Aged-debtor ledger, concentration and dispute history | Eligibility can shrink when invoices age or customers are concentrated. |
+| Inventory | Stock reports, turnover and realisable value | Perishable, obsolete or highly specialised stock may receive little value. |
+
+A broker's role is to match the security and purpose to lenders that actually understand it, compare the full cost and covenants, and identify when an unsecured structure is cleaner despite a lower available limit.
 
 ## Frequently Asked Questions
 

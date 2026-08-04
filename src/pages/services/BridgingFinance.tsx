@@ -240,7 +240,7 @@ const BridgingFinance = () => {
                 </span>
               </a>
               <a 
-                href="/resources/guides/bridging-finance-developers-project-funding-solutions"
+                href="/resources/guides/commercial-property-development-finance"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Bridging Finance for Developers</h3>
@@ -271,7 +271,7 @@ const BridgingFinance = () => {
           <RelatedReading articles={[
             { title: "Bridging Finance Australia: Complete Property Guide", slug: "bridging-finance-australia-complete-property-guide", description: "Comprehensive guide to bridging loans for property investors and developers" },
             { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-loans-for-property-auctions-expert-guide", description: "How to secure auction properties with fast bridging finance" },
-            { title: "Bridging Finance Sydney: 48-Hour Settlement Reality Check", slug: "bridging-finance-sydney-48-hour-settlement-possible", description: "When urgent Sydney bridging finance may be realistic and what lenders need" }
+            { title: "Bridge Lending for Commercial Property", slug: "bridge-lending-australia-commercial-property", description: "How commercial property bridge lending is structured and assessed" }
           ] as RelatedArticle[]} />
 
           {/* City-Specific Pages */}

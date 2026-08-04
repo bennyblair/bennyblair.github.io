@@ -98,7 +98,7 @@ A valuation delay can mean the borrower should compare another structure. If the
 
 If the need is tied to a property purchase or settlement sequence, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may be a better frame. If the issue is business cash flow rather than property timing, [working capital loans](/resources/guides/working-capital-loans-for-smes), invoice finance, or asset-backed lending may need to be compared.
 
-If the file is fundamentally a bank refinance that needs more time, [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions) may be the end goal, with any short-term funding treated as a bridge rather than the permanent answer.
+If the file is fundamentally a bank refinance that needs more time, [commercial property refinancing](/services/refinancing-solutions) may be the end goal, with any short-term funding treated as a bridge rather than the permanent answer.
 
 ## When Not To Push A Caveat Loan Through
 

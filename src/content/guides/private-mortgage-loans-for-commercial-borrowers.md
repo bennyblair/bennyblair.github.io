@@ -59,7 +59,7 @@ It is not written for consumer home loans or owner-occupier mortgage advice. Eme
 
 A private mortgage loan may be considered when the funding need is commercial, the property position is clear, and a mainstream bank process is too slow or too rigid for the transaction. Common examples include a pending settlement, a delayed refinance, a short-term working-capital requirement, or a business opportunity where timing matters.
 
-Borrowers often compare this option with [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide). The right structure depends on urgency, existing debt, title complexity, and the repayment plan.
+Borrowers often compare this option with [commercial property refinancing](/services/refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide). The right structure depends on urgency, existing debt, title complexity, and the repayment plan.
 
 A private mortgage loan works best when it solves a defined timing problem. It should not be treated as open-ended cash flow or a way to avoid fixing an underlying business issue.
 
@@ -160,7 +160,7 @@ Emet Capital is a commercial finance brokerage. We help eligible business borrow
 - **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)** — deeper detail on lender assessment and structure.
 - **[Private Lending Mortgage](/resources/guides/private-lending-mortgage)** — related property-backed private lending guide.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial mortgage context.
-- **[Commercial Property Refinancing](/resources/guides/commercial-property-refinancing-solutions)** — options when a longer-term refinance is possible.
+- **[Commercial Property Refinancing](/services/refinancing-solutions)** — options when a longer-term refinance is possible.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — compare faster caveat-backed funding where urgency is high.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

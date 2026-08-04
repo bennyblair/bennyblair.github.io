@@ -133,7 +133,7 @@ The borrower should confirm the exact shortfall, collect the settlement statemen
 
 ## Related Guides
 
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — refinancing options after the urgent pressure has passed.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinancing options after the urgent pressure has passed.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare speed, flexibility, documentation, and cost trade-offs.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — understand the broader private credit market for commercial borrowers.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — compare a registered second mortgage where there is time and consent.

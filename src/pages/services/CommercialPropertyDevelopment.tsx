@@ -239,7 +239,7 @@ const CommercialPropertyDevelopment = () => {
                 </span>
               </a>
               <a 
-                href="/resources/guides/commercial-land-loans-financing-property-development"
+                href="/resources/guides/commercial-property-development-finance"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Commercial Land Loans</h3>
@@ -270,7 +270,7 @@ const CommercialPropertyDevelopment = () => {
           <RelatedReading articles={[
             { title: "Commercial Property Development Finance Guide", slug: "commercial-property-development-finance", description: "Comprehensive guide to development finance structures and requirements" },
             { title: "Building & Development Loans: Funding Guide", slug: "building-development-loans-funding-guide", description: "Understanding construction loan processes and requirements" },
-            { title: "Bridging Finance for Developers", slug: "bridging-finance-developers-project-funding-solutions", description: "Short-term funding solutions for property development projects" }
+            { title: "Construction Finance Australia", slug: "construction-finance-australia-complete-guide", description: "How staged construction funding and cost-to-complete controls work" }
           ] as RelatedArticle[]} />
 
           {/* City-Specific Pages */}

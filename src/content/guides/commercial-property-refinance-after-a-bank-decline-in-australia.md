@@ -27,7 +27,7 @@ For business owners, investors, and developers, the practical question is not �
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Core guide to how commercial property lending works and how refinance fits.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Broader overview of refinance pathways for different borrower profiles.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Broader overview of refinance pathways for different borrower profiles.
 - **[Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Useful when the real issue is lender fit, not just the decline itself.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Helpful if the next refinance step may sit outside mainstream bank policy.
 - **[Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — Important if the decline was driven by valuation, lease strength, or property quality.
@@ -135,7 +135,7 @@ If the outgoing lender needs repayment before a mainstream refinance can settle,
 
 Some borrowers use a specialist refinance to buy time, then move back to a bank once the asset, income, or debt structure looks cleaner.
 
-That path often connects with broader [commercial property refinancing solutions](/resources/guides/commercial-property-refinancing-solutions), especially when the first step is about stabilisation rather than chasing the final structure immediately.
+That path often connects with broader [commercial property refinancing solutions](/services/refinancing-solutions), especially when the first step is about stabilisation rather than chasing the final structure immediately.
 
 ## When not to refinance after a decline
 
@@ -241,7 +241,7 @@ If the decline exposed a deeper structural problem, the right move may be to sta
 
 ## Related Guides
 
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)

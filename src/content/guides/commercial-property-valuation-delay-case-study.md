@@ -29,7 +29,7 @@ This guide explains how a valuation delay can affect a commercial property loan 
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — how lenders use valuation evidence during assessment.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how repayment capacity and security work together.
 - **[Commercial Property Due Diligence Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — practical checks before settlement or refinance.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — options when the exit is a refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — options when the exit is a refinance.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — why assessment style changes under time pressure.
 
 ## At a Glance
@@ -61,7 +61,7 @@ If the finance is time-sensitive, valuation readiness should start before the le
 
 A valuation delay does not automatically mean the transaction needs private lending or short-term finance. Sometimes the right answer is to wait, supply better evidence, or change the settlement timetable.
 
-A different structure may be considered where the deadline cannot move, the valuation is delayed for reasons outside the borrower's control, or a bank process will not complete in time. In those cases, borrowers often compare [commercial property refinancing](/resources/guides/commercial-property-refinancing-solutions), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), or private lending.
+A different structure may be considered where the deadline cannot move, the valuation is delayed for reasons outside the borrower's control, or a bank process will not complete in time. In those cases, borrowers often compare [commercial property refinancing](/services/refinancing-solutions), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), or private lending.
 
 The structure should match the purpose and exit. Short-term funding can solve timing pressure, but it can also create new pressure if the takeout is weak.
 
@@ -163,7 +163,7 @@ If the file involves acquisition or settlement risk, use the [commercial propert
 
 - **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — what lenders and valuers typically need.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — foundation guide for commercial property borrowers.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — when valuation supports a refinance exit.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — when valuation supports a refinance exit.
 - **[Commercial Property Finance Broker Selection Checklist](/resources/guides/commercial-property-finance-broker-selection-checklist)** — choosing help for complex files.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare lender assessment styles.
 

@@ -32,7 +32,7 @@ At Emet Capital, we usually see priority-agreement questions when a business own
 - **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Explains ranking, security positions, and common use cases.
 - **[Intercreditor Agreements: Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)** — Broader look at lender-to-lender agreements in layered debt structures.
 - **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Useful when comparing capital access options against property equity.
-- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)** — Helpful if the second mortgage is a bridge before a cleaner refinance.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Helpful if the second mortgage is a bridge before a cleaner refinance.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Good context when one lender is a bank and the other is a private or non-bank lender.
 
 ## At a Glance
@@ -48,7 +48,7 @@ At Emet Capital, we usually see priority-agreement questions when a business own
 
 This guide is for business owners, property investors, developers, and commercial borrowers who already have a first mortgage and are considering a second mortgage for business purposes. It is also relevant if a proposed lender mentions a priority deed, deed of priority, or intercreditor arrangement and you want to understand the commercial implications before signing.
 
-If you are still deciding whether a second mortgage is the right product, read **[when second mortgages make financial sense for SMEs](/resources/guides/when-second-mortgages-make-financial-sense-smes)** and **[2nd loan mortgage business capital](/resources/guides/second-mortgages-for-business-guide)** first. Those guides cover product fit. This page focuses on what happens once two lenders are involved.
+If you are still deciding whether a second mortgage is the right product, read **[when second mortgages make financial sense for SMEs](/resources/guides/second-mortgage-loan-equity-access-strategies)** and **[2nd loan mortgage business capital](/resources/guides/second-mortgages-for-business-guide)** first. Those guides cover product fit. This page focuses on what happens once two lenders are involved.
 
 ## What a priority agreement actually does
 
@@ -137,6 +137,19 @@ The second lender agrees on the basis that a priority deed confirms the first le
 
 For the borrower, the commercial benefit is not just access to the extra capital. It is the fact that both lenders know the rules before stress appears. If the borrower later refinances the whole debt stack, the existence of a documented structure can make that process cleaner.
 
+## Subordination Agreement Preparation Checklist
+
+“Priority agreement”, “subordination agreement” and “intercreditor agreement” are sometimes used loosely, but the executed document controls. Before a second mortgage application is treated as ready, the borrower and advisers should confirm:
+
+- whether the first mortgage terms require consent before further security is granted;
+- which lender controls notices, enforcement and sale decisions;
+- whether a standstill period limits the second lender's ability to act;
+- how recoveries, fees and enforcement costs are allocated;
+- whether business assets or guarantees sit outside the real-property ranking; and
+- what must happen when either facility is refinanced or discharged.
+
+This review should start before a deadline-driven settlement. Title priority alone does not answer how two lenders may interact, and an otherwise workable loan can stall when consent or deed negotiation begins late.
+
 ## Frequently asked questions
 
 ### What is a priority agreement in a second mortgage?
@@ -168,7 +181,7 @@ Before signing any second mortgage or priority document affecting real property 
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Intercreditor Agreements: Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinancing-solutions)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 
 **Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

@@ -160,6 +160,20 @@ Before taking second mortgage loans, plan definitive exit strategies demonstrati
 
 A Melbourne business owner took a $250,000 second mortgage with a clear exit plan: complete equipment purchase within month one, achieve production capacity increase by month three, demonstrate six months of enhanced revenue by month nine, apply for traditional bank refinancing month ten, complete refinancing by month fifteen.
 
+## SME Suitability and Cost Stress Test
+
+The commercial question is not simply whether equity is available. It is whether preserving the first mortgage creates enough value to justify the added cost and risk of a second-ranking facility.
+
+| Decision factor | More supportive of a second mortgage | Warning sign |
+|---|---|---|
+| Use of funds | Defined acquisition, equipment, payout or short transition | Recurring operating losses or an open-ended cash deficit |
+| First mortgage | Attractive terms or break costs worth preserving | First facility is already unsuitable or close to maturity |
+| Hold period | Short, measurable period before sale, refinance or cash event | Long-term capital is required with no refinance pathway |
+| Cash flow | Repayments remain serviceable under a downside case | The proposal relies on immediate revenue growth |
+| Exit | Evidence-backed and controlled by the borrower | Dependent on an uncertain valuation, approval or sale price |
+
+Before proceeding, compare the total dollar cost of the second mortgage with a full refinance, including establishment, valuation, legal, consent, early-repayment and extension costs. Then stress test the exit for delay. If the business cannot carry the facility for longer than expected, the structure is too fragile even when the initial loan is technically available.
+
 ## Frequently Asked Questions
 
 **Q: How much equity can I access through a second mortgage loan?**

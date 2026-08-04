@@ -88,7 +88,7 @@ export default function PrivateLendingMelbourne() {
         },
         {
           title: 'Commercial Property Refinancing Solutions',
-          href: '/resources/guides/commercial-property-refinancing-solutions',
+          href: '/services/refinancing-solutions',
           description: 'Helpful if your Melbourne file is really a refinance transition problem.'
         },
         {
