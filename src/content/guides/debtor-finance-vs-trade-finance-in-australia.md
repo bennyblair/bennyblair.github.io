@@ -6,7 +6,7 @@ category: "Working Capital"
 tags: ["Debtor Finance", "Trade Finance", "Working Capital", "Business Finance", "Cash Flow"]
 readingTime: 10
 author: "Daniel"
-reviewed_date: "2026-05-15"
+reviewed_date: "2026-08-05"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -14,9 +14,26 @@ author_title: "Director, Emet Capital"
 author_name: "Daniel"
 featuredImage: "/images/debtor-finance-vs-trade-finance-in-australia.jpg"
 keywords: ["debtor finance vs trade finance", "debtor finance australia", "trade finance australia", "working capital finance"]
+primaryQuery: "debtor finance vs trade finance Australia"
+searchIntent: "commercial investigation"
+intentCluster: "debtor-vs-trade-finance"
+designatedServicePage: "/services/trade-finance"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "business.gov.au — Invoice Finance"
+    url: "https://business.gov.au/grants-and-programs/Invoice-Finance"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 # Debtor Finance vs Trade Finance in Australia
+
+> **Direct answer:** Debtor finance funds eligible invoices after delivery; trade finance funds eligible supplier, shipment or inventory costs before the customer receipt. Choose by mapping the cash-conversion cycle from supplier payment to delivery, invoice and collection. A business may use both only if security, controls and repayment flows do not conflict.
 
 Debtor finance and trade finance both help businesses manage cash flow, but they solve different points in the working capital cycle. Debtor finance helps you unlock cash from invoices you have already issued. Trade finance helps you pay suppliers before you have converted stock into sales. If you are choosing between them, the real question is whether your pressure sits at the receivables stage or the supplier-payment stage.
 
