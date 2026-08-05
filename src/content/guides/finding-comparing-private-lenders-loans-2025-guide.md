@@ -27,7 +27,7 @@ A practical comparison should answer five questions before you sign: does the le
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** - Plain-English context on how private credit works for business borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** - Useful when comparing lender speed, flexibility, documentation, and trade-offs.
-- **[Finding the Best Private Lenders for Your Business](/resources/guides/finding-comparing-private-lenders-loans-2025-guide)** - Companion guide focused on lender selection and fit.
+- **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** - Compare lender categories, use cases and due-diligence questions.
 - **[Private Lenders Small Business Guide](/resources/guides/what-is-private-lending-australia)** - Practical criteria for SMEs needing faster funding.
 - **[Bank vs Non-Bank Commercial Lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** - Broader comparison of lender appetite and approval logic.
 - **[Asset-Backed Business Loans](/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia)** - Relevant where equipment, receivables, or property support the loan.
@@ -230,7 +230,7 @@ Yes, private lenders loans are negotiable, particularly when you have competing 
 
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
-- [Finding the Best Private Lenders for Your Business](/resources/guides/finding-comparing-private-lenders-loans-2025-guide)
+- [Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)
 - [Private Lenders Small Business Fast Approval Guide](/resources/guides/what-is-private-lending-australia)
 - [Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
 

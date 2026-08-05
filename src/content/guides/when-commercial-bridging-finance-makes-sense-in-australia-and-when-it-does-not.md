@@ -276,4 +276,8 @@ It does not make sense when the borrower is using short-term debt to disguise a 
 - [Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
+## Related decision guides
+
+- [Bridging loan exit strategy: broker take](/resources/guides/bridging-loan-exit-strategy-broker-take)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

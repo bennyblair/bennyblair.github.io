@@ -207,4 +207,9 @@ A stronger second mortgage file explains the security, first mortgage balance, l
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 
+## Related decision guides
+
+- [Second mortgage for a business partner buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)
+- [Using a second mortgage to buy investment property](/resources/guides/can-i-use-a-second-mortgage-to-buy-investment-property)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

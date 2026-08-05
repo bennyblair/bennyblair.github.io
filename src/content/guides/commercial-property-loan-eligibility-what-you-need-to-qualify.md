@@ -222,4 +222,8 @@ Prepare the file before approaching lenders. Organise documents, confirm the fun
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
+## Related decision guides
+
+- [Owner-occupier commercial loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

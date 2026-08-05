@@ -44,7 +44,7 @@ For Australian developers, business owners, and property investors, the practica
 - **[Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)** — broader construction funding context for staged projects.
 - **[Building Development Loans Funding Guide](/resources/guides/building-development-loans-funding-guide)** — how development loans are commonly structured for developers.
 - **[Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — permanent commercial property loan context after completion.
-- **[Commercial Land Loans](/resources/guides/commercial-property-development-finance)** — funding considerations before construction starts.
+- **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)** — funding considerations from site preparation through completion.
 - **[Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — short-term funding when project timing changes.
 - **[Mezzanine Finance Australia Complete Guide](/resources/guides/mezzanine-finance-australia-complete-guide)** — subordinated funding where senior debt and equity do not cover the full stack.
 
@@ -105,7 +105,7 @@ Commercial development projects usually move through four funding stages: site c
 
 Site acquisition funding is used to buy or refinance the development site. Lenders assess the current land value, zoning, existing income, planning pathway, borrower contribution, and whether the site can support the proposed project.
 
-If the site is not yet approval-ready, the borrower may need a more conservative facility or extra equity. For earlier-stage sites, our guide to [commercial land loans](/resources/guides/commercial-property-development-finance) explains the difference between land funding and construction-ready development funding.
+If the site is not yet approval-ready, the borrower may need a more conservative facility or extra equity. For the wider funding sequence, the [construction finance guide](/resources/guides/construction-finance-australia-complete-guide) explains how land, approvals, works and completion evidence affect the structure.
 
 ### Pre-Development and Approval Costs
 
@@ -257,7 +257,7 @@ Emet Capital connects eligible business borrowers with commercial lenders and ca
 - [Construction Finance Australia Complete Guide](/resources/guides/construction-finance-australia-complete-guide)
 - [Building Development Loans Funding Guide](/resources/guides/building-development-loans-funding-guide)
 - [Commercial Property Loans Australia Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Land Loans](/resources/guides/commercial-property-development-finance)
+- [Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)
 - [Bridging Finance Australia Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)
 - [Mezzanine Finance Australia Complete Guide](/resources/guides/mezzanine-finance-australia-complete-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)

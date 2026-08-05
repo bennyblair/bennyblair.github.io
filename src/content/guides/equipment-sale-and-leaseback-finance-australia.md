@@ -167,4 +167,8 @@ The main risks are unaffordable lease payments, loss of unencumbered asset flexi
 - **[Cashflow Facility Stack in Australia](/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance)**, compare working-capital structures side by side.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)**, relevant when equipment funding is part of a broader debt restructure.
 
+## Related decision guides
+
+- [Used equipment finance](/resources/guides/used-equipment-finance-second-hand-machinery-private-sales-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -141,4 +141,8 @@ Property may be considered as security for business-purpose funding, depending o
 
 Payroll tax debt finance can help a viable business manage a defined timing pressure, but it is only suitable when the liability, structure, cost, and exit are clear. The practical question is not “can we get funded?” It is whether the funding improves the position after fees, risk, and repayment pressure are included.
 
+## Related decision guides
+
+- [ATO tax-debt disclosure and credit reporting](/resources/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia)
+
 Emet Capital helps business borrowers compare working capital, refinance, private lending, second mortgage, and property-backed structures where there is a genuine commercial purpose and a credible exit. This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

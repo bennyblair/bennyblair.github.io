@@ -194,4 +194,8 @@ A buyer should be cautious where terms are unclear, the seller wants excessive c
 
 ## General Information Only
 
+## Related decision guides
+
+- [Pharmacy acquisition finance](/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

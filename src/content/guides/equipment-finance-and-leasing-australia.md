@@ -386,4 +386,8 @@ Application processes vary between lenders and financing types, with documentati
 
 Risk management considerations including equipment obsolescence, maintenance requirements, and contract flexibility should influence structure selection. Businesses must balance cost optimisation with operational requirements and future flexibility needs.
 
+## Related decision guides
+
+- [EOFY working capital loans before 30 June](/resources/guides/eofy-working-capital-loans-before-30-june)
+
 The Australian equipment finance market continues evolving with new technologies, changing tax legislation, and innovative financing products. Businesses that understand these developments and maintain awareness of available alternatives can leverage equipment financing strategically to support growth, efficiency, and competitive advantage in their respective markets.

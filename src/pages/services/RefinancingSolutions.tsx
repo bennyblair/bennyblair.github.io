@@ -8,6 +8,7 @@ import SEO from "@/components/SEO";
 import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
+import DiscoveryGuides from "@/components/DiscoveryGuides";
 
 const RefinancingSolutions = () => {
   const faqs: FAQItem[] = [
@@ -333,6 +334,8 @@ const RefinancingSolutions = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          <DiscoveryGuides service="refinancing-solutions" />
 
           {/* Related Reading */}
           <RelatedReading articles={[

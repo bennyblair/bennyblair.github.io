@@ -206,4 +206,8 @@ A business should avoid this finance where the goods are speculative, margins ar
 
 Assessment timing depends on document quality, security, urgency, lender appetite, and transaction complexity. A complete file with clear import documents, customer demand, and a practical repayment path is generally easier to assess than an incomplete or disputed shipment.
 
+## Related decision guides
+
+- [Supplier deposit finance for large orders](/resources/guides/supplier-deposit-finance-for-large-orders-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

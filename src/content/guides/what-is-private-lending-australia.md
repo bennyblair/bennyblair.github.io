@@ -152,4 +152,8 @@ There is no universally safest exit. The strongest exit is specific, dated, evid
 
 ## Next step
 
+## Related decision guides
+
+- [Private debt in Australia](/resources/guides/private-debt-australia)
+
 Use the [private lending service](/services/private-lending) for a business-purpose scenario and provide the amount, purpose, security, required date, current debts and exit evidence. General information only; not financial, legal or tax advice.

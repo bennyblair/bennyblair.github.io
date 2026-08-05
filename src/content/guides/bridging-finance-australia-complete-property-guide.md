@@ -530,4 +530,8 @@ The right question is not whether bridging finance exists. It is whether the spe
 - [What is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 
+## Related decision guides
+
+- [Bridging loan exit strategy: broker take](/resources/guides/bridging-loan-exit-strategy-broker-take)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

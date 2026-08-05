@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { BookOpen, Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
+import DiscoveryGuides from "@/components/DiscoveryGuides";
 
 const BridgingFinance = () => {
   const faqs: FAQItem[] = [
@@ -266,6 +267,8 @@ const BridgingFinance = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          <DiscoveryGuides service="bridging-finance" />
 
           {/* Related Reading */}
           <RelatedReading articles={[

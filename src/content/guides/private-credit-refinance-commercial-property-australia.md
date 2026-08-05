@@ -158,4 +158,8 @@ No. Emet Capital provides commercial lending solutions and information for eligi
 
 Private credit refinance for commercial property can be useful when a borrower needs time, flexibility, or a non-bank assessment pathway, but it works best as transitional finance with a clear exit. The refinance should protect a commercial asset, not disguise an unsolved cash-flow problem.
 
+## Related decision guides
+
+- [Commercial loan maturity refinance](/resources/guides/commercial-loan-maturity-refinance-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

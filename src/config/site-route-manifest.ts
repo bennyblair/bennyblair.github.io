@@ -365,6 +365,14 @@ const guideAliases: Record<string, string> = {
     "commercial-bridging-loans-for-property-auctions-expert-guide",
   "commercial-bridging-loans-property-auctions-expert-guide":
     "commercial-bridging-loans-for-property-auctions-expert-guide",
+  "bridging-finance-borrower-mistakes-broker-take":
+    "bridging-loan-exit-strategy-broker-take",
+  "instant-asset-write-off-finance-before-eofy-2026":
+    "eofy-working-capital-loans-before-30-june",
+  "private-debt-australia-explainer-with-broker-commentary":
+    "private-debt-australia",
+  "subcontractor-cash-flow-finance-after-builder-insolvency":
+    "debtor-concentration-working-capital-finance-australia",
   "commercial-property-finance-sydney":
     "commercial-property-finance-sydney-local-expert-hub",
   "finding-best-private-lenders-for-your-business": "private-mortgage-lenders-australia-directory",

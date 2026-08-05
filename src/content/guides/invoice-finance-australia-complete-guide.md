@@ -159,4 +159,8 @@ Not automatically. Recourse and any credit-protection exclusions determine who b
 
 ## Next step
 
+## Related decision guides
+
+- [Debtor concentration working capital finance](/resources/guides/debtor-concentration-working-capital-finance-australia)
+
 Use the [working capital service](/services/working-capital) with the aged ledger, customer concentration, payment terms, current security and cash-flow gap. General information only; not legal or financial advice.

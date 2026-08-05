@@ -182,4 +182,8 @@ Bridging finance can help where the gap is genuinely short term and linked to a 
 - **[Commercial Property Loan Covenant Breach](/resources/guides/commercial-property-loan-covenant-breach-refinance-options)** — relevant where lender conditions or defaults are emerging.
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — related structure planning for staged repayment and takeout events.
 
+## Related decision guides
+
+- [Construction cost-overrun finance](/resources/guides/construction-cost-overrun-finance-property-developers-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

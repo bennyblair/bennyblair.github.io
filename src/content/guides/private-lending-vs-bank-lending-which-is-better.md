@@ -264,4 +264,8 @@ If the transaction is standard, long-term, and has enough time, bank lending oft
 
 The strongest funding decisions usually come from matching the lender type to the actual commercial problem instead of forcing every deal through the same channel.
 
+## Related decision guides
+
+- [Private debt in Australia](/resources/guides/private-debt-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

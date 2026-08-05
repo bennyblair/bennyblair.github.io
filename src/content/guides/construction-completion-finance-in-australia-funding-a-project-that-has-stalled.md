@@ -235,4 +235,8 @@ A credible exit is supported by evidence such as presales, refinance appetite, l
 - [Mezzanine Finance in Australia: The Complete Guide](/resources/guides/mezzanine-finance-australia-complete-guide)
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 
+## Related decision guides
+
+- [Construction cost-overrun finance](/resources/guides/construction-cost-overrun-finance-property-developers-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

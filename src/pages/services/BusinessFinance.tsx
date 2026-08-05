@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { ArrowRight, Briefcase, Calculator, FileText, Phone, Shield, TrendingUp } from "lucide-react";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
+import DiscoveryGuides from "@/components/DiscoveryGuides";
 
 const businessFinanceOptions = [
   {
@@ -234,6 +235,8 @@ const BusinessFinance = () => {
                 ))}
               </div>
             </section>
+
+            <DiscoveryGuides service="business-finance" />
 
             <FAQSection faqs={faqs} />
           </div>

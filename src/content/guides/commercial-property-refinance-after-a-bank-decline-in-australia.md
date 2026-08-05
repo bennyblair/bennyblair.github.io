@@ -247,4 +247,8 @@ If the decline exposed a deeper structural problem, the right move may be to sta
 - [Commercial Property Valuation for Finance: Lender Requirements](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Commercial Property Loans Australia: Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
 
+## Related decision guides
+
+- [Commercial property finance after a bank decline](/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
