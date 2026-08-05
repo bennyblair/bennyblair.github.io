@@ -1,0 +1,89 @@
+{
+  "workOrderId": "authority-first-wave-2026-08-05",
+  "createdAt": "2026-08-05T15:30:00+10:00",
+  "mode": "draft_only",
+  "sendAuthorized": false,
+  "humanApprovalRequired": true,
+  "dedupeRule": "Before preparing or sending anything, search OpenClaw targets, drafts, send_log, suppression, and the recipient domain. Never create a second active draft for the same prospect and angle.",
+  "measurementRule": "Record earned editorial links, unlinked mentions, directory listings, podcast appearances, partnerships, sponsorships, replies and referral leads as separate outcomes.",
+  "prospects": [
+    {
+      "priority": 1,
+      "domain": "thinkpropertyclub.com.au",
+      "sourceUrl": "https://www.thinkpropertyclub.com.au/tpc-podcast-be-a-guest",
+      "targetType": "podcast_guest",
+      "status": "researched_draft_only",
+      "verifiedAt": "2026-08-05",
+      "fitEvidence": "The public guest page invites financiers and topics involving debt, private capital and lender nuance, and says guest participation has no cost.",
+      "contribution": "Why urgent property finance fails before the lender sees it: title position, peak debt and exit-evidence checks for developers.",
+      "emetAssetPaths": [
+        "/resources/guides/bridging-finance-australia-complete-property-guide",
+        "/resources/guides/urgent-caveat-loans"
+      ],
+      "draftSubject": "Guest idea: decision-ready urgent property finance",
+      "draftBody": "Your guest page specifically welcomes financiers and discussions of debt and private capital. An Emet Capital principal could contribute a practical, non-promotional episode on why urgent property-finance requests stall before lender assessment: unclear title position, understated peak debt and an exit that is plausible but not evidenced. The discussion could give developers a reusable readiness checklist and clearly distinguish a fast initial assessment from a guaranteed settlement. If this fits your editorial calendar, we can send a short outline and speaker background for review."
+    },
+    {
+      "priority": 2,
+      "domain": "andrewwrightproperty.com.au",
+      "sourceUrl": "https://andrewwrightproperty.com.au/contact/",
+      "targetType": "podcast_guest",
+      "status": "researched_draft_only",
+      "verifiedAt": "2026-08-05",
+      "fitEvidence": "The public contact page invites property professionals and explicitly lists finance and mortgage brokers as potential guests.",
+      "contribution": "Open versus closed bridging exits and why a lower periodic repayment is not necessarily a lower total bridge cost.",
+      "emetAssetPaths": [
+        "/resources/guides/bridging-finance-australia-complete-property-guide",
+        "/resources/tools/loan-comparison-tool"
+      ],
+      "draftSubject": "Podcast idea: comparing the real cost of a property bridge",
+      "draftBody": "Your contact page invites finance and mortgage professionals to contribute to the property conversation. An Emet Capital principal could offer a practical segment on open versus closed bridging exits, peak-debt modelling and why a lower repayment can still produce a higher total cost once retained interest, fees and timing are included. The aim would be an educational framework listeners can use, not a product pitch. If useful, we can provide a concise episode outline and supporting decision checklist."
+    },
+    {
+      "priority": 3,
+      "domain": "flyingsolo.com.au",
+      "sourceUrl": "https://www.flyingsolo.com.au/contributors/contributor-guidelines/article-guidelines/",
+      "targetType": "expert_contribution",
+      "status": "researched_draft_only",
+      "verifiedAt": "2026-08-05",
+      "fitEvidence": "The contributor guidelines accept eligible Australian small-business owners and reject PR or SEO-agency submissions; an eligible Emet principal must author and submit any contribution in their own voice.",
+      "contribution": "The equipment repayment trap: matching useful life, residual, downtime and total contractual payments before an SME signs.",
+      "emetAssetPaths": [
+        "/resources/guides/equipment-finance-and-leasing-australia",
+        "/resources/tools/loan-comparison-tool"
+      ],
+      "draftSubject": "Contributor idea: four equipment-finance numbers SMEs miss",
+      "draftBody": "Proposed article: four equipment-finance numbers an SME should model before signing—economic useful life, downtime exposure, residual or balloon amount, and total contractual payments including known fees. It would explain why a monthly-payment comparison can be misleading, separate finance analysis from tax advice, and use a worked decision framework without quoting promotional market rates. This must be reviewed, rewritten where needed and submitted directly by an eligible Emet Capital principal under Flying Solo's contributor rules."
+    },
+    {
+      "priority": 4,
+      "domain": "bothsides.au",
+      "sourceUrl": "https://www.bothsides.au/podcast",
+      "targetType": "podcast_guest",
+      "status": "research_hold",
+      "verifiedAt": "2026-08-05",
+      "fitEvidence": "The podcast page includes a guest application and covers property, business and entrepreneurship for an Australian audience.",
+      "contribution": "When short-term property finance solves a timing gap and when it merely delays a structural cash-flow problem.",
+      "emetAssetPaths": [
+        "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
+      ],
+      "draftSubject": "Guest idea: timing gap or structural funding problem?",
+      "draftBody": "A practical conversation on diagnosing whether short-term property finance resolves a defined timing mismatch or simply moves an unresolved cash-flow problem into a more expensive period. The framework would cover purpose, peak debt, downside cases and evidenced exits, with clear boundaries around individual advice and lender outcomes. Hold until the first-wave podcast drafts have been reviewed to avoid overlapping outreach."
+    },
+    {
+      "priority": 5,
+      "domain": "yourmortgage.com.au",
+      "sourceUrl": "https://www.yourmortgage.com.au/contact-us",
+      "targetType": "expert_quote",
+      "status": "research_hold",
+      "verifiedAt": "2026-08-05",
+      "fitEvidence": "The site provides a public editorial contact and broker-listing route, but its predominantly residential audience requires a tightly bounded commercial-purpose angle.",
+      "contribution": "How business-purpose property finance differs from consumer home lending and why the purpose boundary matters.",
+      "emetAssetPaths": [
+        "/resources/guides/caveat-loans-australia-complete-guide"
+      ],
+      "draftSubject": "Expert source: the business-purpose boundary in property finance",
+      "draftBody": "Offer an attributable, carefully bounded explanation of how business-purpose property finance differs from a consumer home loan, including why borrower purpose, security and legal context should be established before comparing products. Do not pitch a generic link insertion. Hold unless an editor is working on a directly relevant story or resource."
+    }
+  ]
+}

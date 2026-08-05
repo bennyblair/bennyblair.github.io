@@ -10,6 +10,7 @@ import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
+import FinanceDecisionSupport from "@/components/FinanceDecisionSupport";
 
 const EquipmentFinance = () => {
   const faqs: FAQItem[] = [
@@ -19,11 +20,11 @@ const EquipmentFinance = () => {
     },
     {
       question: "How fast can equipment finance be approved?",
-      answer: "Approval timeframes vary based on equipment value and complexity. Simple equipment finance may approve within 24-48 hours, while larger or specialized equipment may require 3-7 days."
+      answer: "Timing depends on the lender, borrower, asset, vendor, documents and any valuation or inspection. A complete application for a readily identifiable asset may be simpler to assess, but approval and settlement dates are never guaranteed."
     },
     {
       question: "Are these solutions available Australia-wide?",
-      answer: "Yes, equipment finance is available for businesses across all Australian states and territories through our national lender network."
+      answer: "Emet Capital can assess business equipment-finance enquiries from across Australia. Actual lender coverage depends on the asset, vendor, borrower, location, structure and complete application."
     },
     {
       question: "Is this for business purposes only?",
@@ -34,10 +35,10 @@ const EquipmentFinance = () => {
   return (
     <>
       <Helmet>
-        <title>Commercial Equipment Finance for Businesses | Emet Capital</title>
+        <title>Equipment Finance Australia for Business | Emet Capital</title>
         <meta 
           name="description" 
-          content="Finance business equipment from $10K-$5M+ with flexible lease and loan structures for all commercial assets across Australia." 
+          content="Compare equipment finance for Australian businesses. Understand loans and leases, ownership, cash flow, residuals, fees, asset fit and lender evidence."
         />
         <meta name="keywords" content="equipment finance, asset finance, equipment leasing, business equipment loans, machinery finance" />
         <link rel="canonical" href="https://emetcapital.com.au/services/equipment-finance" />
@@ -79,10 +80,10 @@ const EquipmentFinance = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Equipment Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Equipment finance enables businesses to acquire essential assets through loans or leases without large upfront capital outlays. This solution addresses businesses requiring machinery, vehicles, technology, or specialized equipment by spreading costs over time while preserving working capital. Equipment finance structures include finance leases, chattel mortgages, hire purchase agreements, and operating leases, each offering different ownership, tax, and cash flow implications tailored to business requirements.
+                Equipment finance can fund an identifiable business asset through a loan, lease or other asset-finance contract rather than paying the full purchase price upfront. Structures can include equipment loans, chattel mortgages, hire purchase and leases. Ownership, security, repayment profile, residual obligations and end-of-term options differ, so product labels should not be treated as interchangeable.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Financing structures vary from full-payout leases where businesses eventually own equipment, to operating leases maintaining vendor ownership with usage rights. Security is typically the financed equipment itself, minimizing additional collateral requirements. Repayment terms align with equipment lifespan and business cash flow, from short-term technology refreshes to long-term heavy machinery financing. Tax treatment varies by structure, offering potential deductions and depreciation benefits depending on ownership arrangements.
+                Financing structures range from ownership-oriented loans to arrangements where the financier retains ownership and the business pays for use. Security, guarantees, deposits and residual payments vary. Tax and accounting outcomes depend on the contract and the business's circumstances, so they should be confirmed with a registered tax professional rather than inferred from the product label.
               </p>
             </section>
 
@@ -90,10 +91,10 @@ const EquipmentFinance = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Equipment finance serves business owners, manufacturers, contractors, service providers, and companies across all industries requiring business assets. Construction businesses financing heavy machinery, hospitality operators acquiring kitchen equipment, medical practices purchasing diagnostic technology, and transport companies funding vehicle fleets all utilize equipment finance. SMEs preserving working capital, growth-stage businesses scaling operations, and established companies maintaining asset bases benefit from equipment financing solutions.
+                Equipment finance may suit businesses acquiring productive machinery, vehicles, technology, medical, hospitality or construction assets with a defined operational use. The proposed term and repayment structure should reflect expected useful life, utilisation, maintenance, replacement plans and the business's capacity under a conservative scenario.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), demonstrated trading history or business plans, and capacity to service equipment repayments. Both new and established businesses benefit from equipment finance tailored to commercial lending requirements and operational asset needs.
+                This is commercial and business-purpose lending only—no consumer finance is provided. Requirements vary: established businesses may evidence performance through financial statements and bank activity, while newer businesses may need stronger forecasts, deposits, guarantees or supporting experience. The asset itself does not replace the need to demonstrate a viable business purpose and repayment capacity.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 If the asset purchase also creates a cash-flow, supplier, tax, or acquisition requirement, review the <Link to="/services/business-finance" className="text-accent hover:underline">business finance hub</Link> to compare equipment finance with working capital, trade finance, consolidation, and asset-backed lending.
@@ -104,16 +105,16 @@ const EquipmentFinance = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist equipment financiers, and alternative funders. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in various equipment types and industry sectors. We match clients with lenders offering appropriate financing structures, competitive pricing, and terms aligned with equipment types, business cash flow, and tax planning objectives.
+                As commercial finance brokers, we compare lenders and structures that fit the asset, vendor, borrower profile, cash-flow pattern and intended ownership outcome. The comparison should use the same purchase price, deposit, term and residual assumptions so a lower repayment is not mistaken for a lower total cost.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through equipment financing options, structure selection, and application processes. Our expertise includes comparing lease versus loan benefits, optimizing tax outcomes, and coordinating vendor relationships. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance. We structure flexible arrangements accommodating diverse equipment types, from standard commercial vehicles to specialized industry machinery.
+                We help assemble asset and business evidence, identify contract differences and coordinate with the vendor and lender. We do not provide tax advice or promise faster approval; an accountant or tax adviser should confirm tax treatment, and the lender controls its assessment and conditions.
               </p>
             </section>
 
-            {/* Key features & benefits */}
+            {/* Key decision factors */}
             <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Key Decision Factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
                   <CardHeader>
@@ -124,7 +125,7 @@ const EquipmentFinance = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Finance available from $10K to $5M+ with flexible terms from 1-7 years depending on equipment type and lifespan. Balloon payments available.
+                      Facility size, term, deposit and any balloon or residual depend on the asset, useful life, resale market, borrower strength and lender policy.
                     </p>
                   </CardContent>
                 </Card>
@@ -161,26 +162,62 @@ const EquipmentFinance = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center text-lg">
                       <FileText className="mr-2 h-5 w-5 text-accent" />
-                      Streamlined Process
+                      Decision-ready process
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Efficient assessment and approval processes designed for equipment acquisition timelines. Broker expertise ensures appropriate structure selection and quick decision-making.
+                       A complete asset quote, vendor details and financial pack can reduce avoidable questions. The lender still controls assessment, conditions and settlement timing.
                     </p>
                   </CardContent>
                 </Card>
               </div>
             </section>
 
+            <FinanceDecisionSupport
+              heading="Choose Equipment Finance by Asset Use, Not Repayment Alone"
+              summary="The right comparison starts with how long the business will use the asset, whether ownership matters and what the contract leaves payable at the end."
+              suitable={[
+                "The equipment has a defined business use and a supportable productivity or revenue case.",
+                "The proposed term is no longer than a realistic useful-life and replacement horizon.",
+                "Cash flow can absorb repayments under a conservative utilisation scenario.",
+                "The business has compared ownership, maintenance, end-of-term and early-exit obligations.",
+              ]}
+              unsuitable={[
+                "The asset is speculative, unproven or likely to become obsolete well before the finance term ends.",
+                "The business needs unrestricted working capital rather than funding for an identifiable asset.",
+                "A low periodic repayment depends on a residual the business has not planned to pay or refinance.",
+                "Tax deductions are the sole reason for the purchase without independent tax advice and a commercial need.",
+              ]}
+              evidence={[
+                { label: "Asset and vendor", detail: "Formal quote or invoice, serial or identifying details, age and condition, vendor details and delivery timetable." },
+                { label: "Business performance", detail: "Recent financial statements, bank statements or management accounts showing repayment capacity and seasonality." },
+                { label: "Use and useful life", detail: "Operational purpose, expected utilisation, maintenance plan, replacement cycle and likely resale market." },
+                { label: "Entity and tax review", detail: "ABN/ACN and entity documents, with the proposed structure reviewed by the business's accountant where tax treatment matters." },
+              ]}
+              process={[
+                "Define the required asset, operational benefit, delivery date and ownership preference.",
+                "Set one comparison scenario: price, deposit, term, repayment timing and residual.",
+                "Compare total contractual payments, fees, security, guarantees and early-exit terms.",
+                "Stress-test repayments against downtime, lower utilisation and maintenance costs.",
+                "Confirm legal, accounting and tax treatment before signing the final contract.",
+              ]}
+              decisionRows={[
+                { question: "Who owns the asset during and after the term?", whyItMatters: "Ownership affects control, end-of-term choices, accounting and potential tax treatment." },
+                { question: "Is there a balloon, residual or purchase option?", whyItMatters: "A lower periodic repayment can leave a material amount payable or exposed to asset-value risk." },
+                { question: "Which costs sit outside the repayment?", whyItMatters: "Maintenance, insurance, registration, documentation and early-exit costs can change the economic comparison." },
+                { question: "Can the contract adapt if the asset is sold or replaced early?", whyItMatters: "Payout calculations and transfer restrictions matter when equipment needs change before maturity." },
+              ]}
+            />
+
             {/* Eligibility & next steps */}
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), demonstrated or projected capacity to service equipment repayments, and business financials or plans. Documentation includes equipment quotes, business financial statements, and tax returns. Security is primarily the equipment being financed, with additional security requirements varying by lender and equipment value.
+                A lender may require an ABN or ACN and entity documents, an asset quote, vendor details, financial statements, bank activity, tax information or forecasts, depending on the applicant and facility. Security may include the financed asset and, in some cases, deposits, guarantees or additional support. Requirements and approval remain lender-specific.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                To proceed, contact our team for an equipment finance assessment. We'll evaluate your equipment requirements, business cash flow, and tax objectives to identify optimal financing solutions. Our process includes structure recommendation, lender selection, and guidance through to equipment delivery and finance settlement.
+                To proceed, contact our team for an equipment finance assessment. We'll review the equipment requirement, business cash flow and stated objectives, then explain structures that may fit and the trade-offs involved. Tax outcomes should be confirmed with a registered tax professional. Any recommendation, lender decision, equipment delivery and settlement remain subject to the complete application and relevant third parties.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -213,7 +250,7 @@ const EquipmentFinance = () => {
                     <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="text-xl font-semibold text-foreground mb-2">Complete Asset Finance Guide</h3>
-                      <p className="text-muted-foreground mb-3">Comprehensive guide covering all forms of asset-backed business lending including equipment finance.</p>
+                      <p className="text-muted-foreground mb-3">Compare asset-backed structures, evidence, security, total cost and end-of-term obligations.</p>
                       <span className="text-accent font-medium inline-flex items-center">
                         Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
                       </span>
@@ -277,7 +314,7 @@ const EquipmentFinance = () => {
                   <CardTitle className="text-lg">Asset Finance</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Comprehensive business asset and equipment funding</p>
+                  <p className="text-sm text-muted-foreground mb-4">Business funding supported by identifiable equipment or other eligible assets</p>
                   <Link to="/services/asset-finance" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>

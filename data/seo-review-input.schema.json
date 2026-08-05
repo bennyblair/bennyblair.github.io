@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEO 28/56 day review input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["label", "generatedAt", "window", "comparisonWindow", "pages", "primaryKpis", "drivers", "guardrails", "caveats"],
+  "properties": {
+    "label": {"enum": ["day_28", "day_56"]},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "window": {"$ref": "#/$defs/windowWithCompleteness"},
+    "comparisonWindow": {"$ref": "#/$defs/window"},
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "current", "previous"],
+        "properties": {
+          "additionalProperties": false,
+          "path": {"type": "string", "pattern": "^/"},
+          "current": {"$ref": "#/$defs/searchMetrics"},
+          "previous": {"$ref": "#/$defs/searchMetrics"}
+        }
+      }
+    },
+    "primaryKpis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["qualifiedOrganicLeads", "nonbrandOrganicClicks", "targetQueriesTop20"],
+      "properties": {
+        "qualifiedOrganicLeads": {"$ref": "#/$defs/nullableCountComparison"},
+        "nonbrandOrganicClicks": {"$ref": "#/$defs/countComparison"},
+        "targetQueriesTop20": {"$ref": "#/$defs/countComparison"}
+      }
+    },
+    "drivers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["aiReferralLandings", "linkedAiCitations", "earnedReferringDomains"],
+      "properties": {
+        "aiReferralLandings": {"$ref": "#/$defs/nullableCount"},
+        "linkedAiCitations": {"$ref": "#/$defs/nullableCount"},
+        "earnedReferringDomains": {"$ref": "#/$defs/nullableCount"}
+      }
+    },
+    "guardrails": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["protectedCohortMaterialEdits", "expiredHighRiskClaims", "newTechnicalIndexingErrors", "organicQualifiedLeadRateDeclineTwoWindows"],
+      "properties": {
+        "protectedCohortMaterialEdits": {"$ref": "#/$defs/count"},
+        "expiredHighRiskClaims": {"$ref": "#/$defs/count"},
+        "newTechnicalIndexingErrors": {"$ref": "#/$defs/nullableCount"},
+        "organicQualifiedLeadRateDeclineTwoWindows": {"type": ["boolean", "null"]}
+      }
+    },
+    "caveats": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+  },
+  "$defs": {
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {"start": {"type": "string", "format": "date"}, "end": {"type": "string", "format": "date"}}
+    },
+    "windowWithCompleteness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "completeThrough"],
+      "properties": {
+        "start": {"type": "string", "format": "date"},
+        "end": {"type": "string", "format": "date"},
+        "completeThrough": {"type": "string", "format": "date"}
+      }
+    },
+    "searchMetrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["clicks", "impressions", "ctr", "averagePosition"],
+      "properties": {
+        "clicks": {"type": "integer", "minimum": 0},
+        "impressions": {"type": "integer", "minimum": 0},
+        "ctr": {"type": "number", "minimum": 0, "maximum": 1},
+        "averagePosition": {"type": ["number", "null"], "exclusiveMinimum": 0}
+      }
+    },
+    "count": {"type": "integer", "minimum": 0},
+    "nullableCount": {"type": ["integer", "null"], "minimum": 0},
+    "countComparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["current", "previous"],
+      "properties": {"current": {"$ref": "#/$defs/count"}, "previous": {"$ref": "#/$defs/count"}}
+    },
+    "nullableCountComparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["current", "previous"],
+      "properties": {"current": {"$ref": "#/$defs/nullableCount"}, "previous": {"$ref": "#/$defs/nullableCount"}}
+    }
+  }
+}
