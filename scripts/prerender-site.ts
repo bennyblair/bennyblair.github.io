@@ -24,7 +24,11 @@ function getRoutes(): RenderRoute[] {
     ...(content["case-studies"] ?? [])
       .filter((article) => !isRedirectSource(article.route))
       .map((article) => ({ path: article.route, pageType: "case-study" })),
-  ].sort((a, b) => a.path.localeCompare(b.path));
+  ].sort((a, b) => {
+    if (a.path === "/") return 1;
+    if (b.path === "/") return -1;
+    return a.path.localeCompare(b.path);
+  });
   const limit = Number(process.env.PRERENDER_LIMIT || 0);
   return limit > 0 ? routes.slice(0, limit) : routes;
 }
@@ -55,6 +59,15 @@ function deferHydrationUntilAfterCriticalPaint(html: string) {
       `const idle=()=>("requestIdleCallback"in window?requestIdleCallback(start,{timeout:1200}):setTimeout(start,0));` +
       `if(document.readyState==="complete")idle();else addEventListener("load",idle,{once:true});})();</script>`,
   );
+}
+
+function finalizePrerenderedHtml(html: string) {
+  const productionHtml = deferHydrationUntilAfterCriticalPaint(html)
+    .replaceAll(`${baseUrl}/assets/`, "/assets/");
+  if (productionHtml.includes(baseUrl)) {
+    throw new Error(`prerendered HTML contains preview origin ${baseUrl}`);
+  }
+  return productionHtml;
 }
 
 async function validateRenderedPage(page: Page, route: RenderRoute) {
@@ -123,7 +136,7 @@ async function renderRoute(page: Page, route: RenderRoute) {
       throw new Error(`${result.errors.join("; ")} [title="${result.title}", h1="${result.h1}"]`);
     }
 
-    const html = deferHydrationUntilAfterCriticalPaint(await page.evaluate(() => {
+    const html = finalizePrerenderedHtml(await page.evaluate(() => {
       document.documentElement.dataset.prerenderReady = "false";
       document.documentElement.dataset.prerendered = "true";
       return `<!DOCTYPE html>\n${document.documentElement.outerHTML}`;
@@ -141,7 +154,7 @@ async function renderRoute(page: Page, route: RenderRoute) {
 async function renderNotFound(page: Page) {
   await page.goto(`${baseUrl}/__emet-not-found__`, { waitUntil: "domcontentloaded", timeout: 30_000 });
   await page.waitForSelector("main h1", { timeout: 30_000 });
-  const html = deferHydrationUntilAfterCriticalPaint(await page.evaluate(() => {
+  const html = finalizePrerenderedHtml(await page.evaluate(() => {
     document.documentElement.dataset.prerenderReady = "false";
     document.documentElement.dataset.prerendered = "true";
     document.title = "Page Not Found | Emet Capital";

@@ -82,6 +82,9 @@ for (const route of inventory) {
   if (/(^|\s)(?:00K|00M|\.2m)(?:\s|$)/i.test(text)) {
     errors.push(`${route.path}: possible damaged currency text`);
   }
+  if (/https?:\/\/(?:127\.0\.0\.1|localhost)(?::\d+)?/i.test(html)) {
+    errors.push(`${route.path}: preview-server URL leaked into rendered HTML`);
+  }
 
   const owner = canonicalOwners.get(route.canonical);
   if (owner) errors.push(`${route.path}: duplicate canonical also owned by ${owner}`);
