@@ -10,20 +10,21 @@ import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
+import FinanceDecisionSupport from "@/components/FinanceDecisionSupport";
 
 const CaveatLoans = () => {
   const faqs: FAQItem[] = [
     {
       question: "What is a caveat loan?",
-      answer: "A caveat loan is short-term finance secured by registering a caveat (legal notice) on property title. It provides fast access to capital without full mortgage documentation, typically for urgent business needs."
+      answer: "A caveat loan is short-term business-purpose finance commonly supported by lodging a caveat over real property. A caveat records a claimed interest and can restrict later dealings with the title; the legal basis and effect depend on the documents and jurisdiction, so borrowers should obtain legal advice."
     },
     {
       question: "How fast can caveat loans settle?",
-      answer: "Caveat loans can settle within 24-72 hours for straightforward applications with clear property title and urgent business requirements. Complex cases may take 3-7 days."
+      answer: "Some lenders can assess a complete, straightforward file quickly, but no timeframe is guaranteed. Title position, property evidence, the lender's due diligence, legal documents, first-mortgagee requirements and the borrower's responsiveness all affect approval and settlement."
     },
     {
       question: "Are caveat loans available Australia-wide?",
-      answer: "Yes, caveat lending is available for businesses across all Australian states and territories through our specialist lender network."
+      answer: "Emet Capital can assess business-purpose enquiries from across Australia. Actual availability depends on the property jurisdiction, title position, lender coverage and the complete transaction."
     },
     {
       question: "Is this for business purposes only?",
@@ -53,10 +54,10 @@ const CaveatLoans = () => {
   return (
     <>
       <Helmet>
-        <title>Caveat Finance for Property Developers & Business Loans | Emet Capital</title>
+        <title>Caveat Loans Australia for Business | Emet Capital</title>
         <meta 
           name="description" 
-          content="Fast caveat loans from $50K-$5M+ with 24-72 hour settlement for urgent business funding needs secured against Australian property." 
+          content="Compare caveat loans for Australian business purposes. Understand property equity, title, total cost, documents, risks and the exit evidence lenders assess."
         />
         <meta name="keywords" content="caveat loans, fast business finance, urgent funding, short-term loans, property-secured finance" />
         <link rel="canonical" href="https://emetcapital.com.au/services/caveat-loans" />
@@ -72,7 +73,7 @@ const CaveatLoans = () => {
 
           {/* Hero Section */}
           <div className="text-center max-w-4xl mx-auto mb-16">
-            <Badge className="mb-4 bg-accent/10 text-accent">Fast Settlement</Badge>
+            <Badge className="mb-4 bg-accent/10 text-accent">Short-Term Business Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Caveat Loans
             </h1>
@@ -98,10 +99,10 @@ const CaveatLoans = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is a Caveat Loan?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Caveat loans provide short-term business finance secured by registering a caveat over property title, enabling rapid funding without full mortgage documentation. This solution addresses urgent business funding needs, time-sensitive opportunities, or bridging requirements where traditional loan processes are too slow. Caveat loans settle within days rather than weeks, offering immediate capital access while businesses arrange permanent financing or await anticipated cash receipts.
+                Caveat loans are short-term, business-purpose facilities commonly supported by lodging a caveat over real property. They may be considered where a commercial deadline is shorter than a mainstream lending process, but a caveat is not simply a faster substitute for every mortgage. The borrower still needs a valid business purpose, sufficient property support, a workable title position and a credible repayment plan.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Loan structures are typically short-term (1-12 months) with interest-only repayments, designed for temporary funding needs rather than long-term finance. Security requires property with sufficient equity, though documentation requirements are streamlined compared to standard mortgages. Interest rates reflect the speed and convenience of settlement, with costs varying based on loan-to-value ratios, property type, and urgency. Exit strategies are essential, requiring clear plans for loan repayment through refinancing, asset sales, or business receipts.
+                Structures, terms and repayment methods vary by lender and scenario. Compare the interest calculation, establishment and legal costs, default terms, extension rights and total repayment—not only an advertised rate. The exit should be evidenced before drawdown, whether it is a refinance, a property sale or a documented business receipt.
               </p>
             </section>
 
@@ -109,10 +110,10 @@ const CaveatLoans = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Caveat loans serve business owners, property investors, and companies requiring urgent funding for time-sensitive opportunities or critical business needs. Businesses bridging delays in traditional finance approvals, property investors securing auction purchases, and companies addressing immediate cash flow requirements benefit from caveat lending. SMEs awaiting contract payments, businesses restructuring debt, and investors acquiring distressed assets utilize caveat loans for rapid capital access.
+                A caveat facility may be relevant to a business owner, company, developer or property investor facing a defined commercial payment or settlement deadline. Examples can include an auction purchase, a delayed refinance, a documented receivable timing gap or a restructuring step where property support and a near-term repayment source are available.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require property equity as security, clear exit strategies, and capacity to service short-term debt. Both established businesses and opportunistic investors benefit from caveat solutions tailored to urgent commercial funding requirements and time-sensitive business opportunities.
+                This is commercial and business-purpose lending only—no consumer finance is provided. A scenario should have a valid business purpose, sufficient usable property equity, a legally workable security position, capacity to meet the proposed obligations and an exit that can be evidenced. If any of those foundations is missing, another structure or a later application may be more appropriate.
               </p>
             </section>
 
@@ -120,16 +121,16 @@ const CaveatLoans = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                As commercial finance brokers, we provide access to over 50 lenders nationwide, including specialist caveat lenders and private funders. Our lender relationships encompass institutions specializing in urgent commercial finance with streamlined approval processes and rapid settlement capabilities. We match clients with lenders offering appropriate caveat structures, competitive pricing given urgency, and terms aligned with business requirements and exit strategies.
+                As commercial finance brokers, we assess the purpose, title position, property support, required date and exit before approaching relevant specialist lenders. The objective is to compare structures that can actually assess the file, not to send an urgent application indiscriminately across the market.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through rapid assessment, documentation, and settlement processes. Our expertise includes property equity assessment, exit strategy planning, and coordinating fast-track settlements. Approval timeframes are measured in hours or days rather than weeks, with experienced guidance through urgent funding scenarios. We structure appropriate short-term arrangements and assist with transition to permanent finance post-settlement.
+                We help identify missing documents, surface legal or consent dependencies and compare indicative terms on total cost and exit risk. Lender assessment, valuation, legal work and settlement remain subject to the facts of the transaction; neither approval nor a particular settlement date can be promised.
               </p>
             </section>
 
-            {/* Key features & benefits */}
+            {/* Key decision factors */}
             <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Key Decision Factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
                   <CardHeader>
@@ -140,7 +141,7 @@ const CaveatLoans = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Loans from $50K to $5M+ with terms from 1-12 months. Interest-only repayments with settlement achievable within 24-72 hours for urgent needs.
+                      Facility size, term and repayment structure depend on property support, existing debt, business purpose, lender appetite and the proposed exit.
                     </p>
                   </CardContent>
                 </Card>
@@ -154,7 +155,7 @@ const CaveatLoans = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Urgent business funding, auction property purchases, bridging finance delays, time-sensitive opportunities, debt restructuring, and immediate cash flow needs.
+                      Defined business-purpose payments, auction settlements, refinance timing gaps, documented receivables and restructuring steps with a credible exit.
                     </p>
                   </CardContent>
                 </Card>
@@ -168,7 +169,7 @@ const CaveatLoans = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Security via caveat over commercial or residential property with sufficient equity. Streamlined documentation compared to standard mortgage processes.
+                      Security via caveat over commercial or residential property with sufficient equity. Documentation and legal requirements depend on the transaction, title position and lender.
                     </p>
                   </CardContent>
                 </Card>
@@ -177,26 +178,62 @@ const CaveatLoans = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center text-lg">
                       <FileText className="mr-2 h-5 w-5 text-accent" />
-                      Rapid Process
+                      File Readiness
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Expedited assessment and approval designed for urgency. Minimal documentation and fast-track settlement within days, not weeks.
+                      A complete document pack can reduce avoidable delay. The lender and its lawyers still determine due diligence, approval and settlement timing.
                     </p>
                   </CardContent>
                 </Card>
               </div>
             </section>
 
+            <FinanceDecisionSupport
+              heading="Is a Caveat Loan Suitable for This Business Scenario?"
+              summary="Start with the deadline and exit, then test title position, usable equity and total cost. Urgency alone does not make a caveat facility suitable."
+              suitable={[
+                "A genuine business-purpose payment or settlement has a fixed, evidenced deadline.",
+                "The property owner can demonstrate a valid title interest and enough equity after existing debt and costs.",
+                "The exit is specific, timed and supported by refinance, sale or receivable evidence.",
+                "The commercial consequence of missing the deadline has been compared with the facility's full cost.",
+              ]}
+              unsuitable={[
+                "The purpose is personal, domestic or household rather than commercial.",
+                "The exit depends only on hoped-for growth, an unlisted property sale or an unstarted refinance.",
+                "Ownership, existing mortgages, caveats or first-mortgagee requirements have not been checked.",
+                "A less expensive facility can meet the deadline without exposing the property to short-term default risk.",
+              ]}
+              evidence={[
+                { label: "Property and title", detail: "Current title search or ownership evidence, rates notice, valuation evidence and statements for existing secured debt." },
+                { label: "Business purpose", detail: "Invoice, settlement statement, creditor notice or contract showing the amount, use of funds and required date." },
+                { label: "Entity and authority", detail: "Identification, ABN/ACN, trust or company documents and confirmation of who can approve and sign." },
+                { label: "Exit evidence", detail: "Refinance progress, sale agency agreement and timetable, contract proceeds or another verifiable repayment source." },
+              ]}
+              process={[
+                "Define the exact amount, commercial purpose, deadline and consequence of delay.",
+                "Check ownership, existing secured debt, title interests and available property support.",
+                "Test the exit under delay and lower-value scenarios before seeking indicative terms.",
+                "Compare lender terms on net proceeds, total cost, control events, defaults and extensions.",
+                "Obtain independent legal, accounting or tax advice where the documents or consequences require it.",
+              ]}
+              decisionRows={[
+                { question: "How much cash is actually available at settlement?", whyItMatters: "Establishment, valuation and legal costs can reduce net proceeds, so the headline facility amount may not cover the requirement." },
+                { question: "What happens if the exit is delayed?", whyItMatters: "Extension pricing, default provisions and enforcement rights can materially change the downside." },
+                { question: "Does the caveator have a valid interest?", whyItMatters: "The legal basis for a caveat is jurisdiction- and document-specific and should be confirmed by a lawyer." },
+                { question: "Is another structure more appropriate?", whyItMatters: "A second mortgage, bridging facility, refinance or working-capital product may better match the purpose and term." },
+              ]}
+            />
+
             {/* Eligibility & next steps */}
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Eligibility requires business purpose (no consumer lending), property with sufficient equity for security, clear exit strategy for loan repayment, and capacity to service short-term debt. Documentation is streamlined but includes property evidence, business purpose confirmation, and exit plan. Security requirements focus on property equity and clear title, with rapid valuation processes supporting fast settlement.
+                Eligibility requires business purpose (no consumer lending), property with sufficient equity for security, a credible exit strategy for repayment and capacity to meet the proposed obligations. A lender may require property and title evidence, business-purpose confirmation, existing-debt details, valuation material and exit evidence. The assessment and settlement timetable remains subject to the lender, legal work and third parties.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                To proceed, contact our team for urgent assessment. We'll evaluate your funding requirements, property security, and exit strategy to identify suitable caveat options. Our process includes property assessment, lender selection, and guidance through to settlement where the file, title, documentation, and legal timing support a compressed pathway.
+                To proceed, provide the required net amount, commercial purpose, deadline, property and existing-debt details, and proposed exit. We can identify evidence gaps, explain which structures may fit and seek indicative terms where the file is ready. The lender, valuer, lawyers and other parties retain control of approval, conditions and settlement timing.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 If the scenario involves a commercial property purchase, business premises settlement, or a
@@ -237,7 +274,7 @@ const CaveatLoans = () => {
                     <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="text-xl font-semibold text-foreground mb-2">Complete Caveat Loans Guide</h3>
-                      <p className="text-muted-foreground mb-3">Everything you need to know about caveat finance—mechanics, costs, risks, and when it's the right choice.</p>
+                      <p className="text-muted-foreground mb-3">A decision guide to caveat mechanics, title position, costs, risks, evidence and alternatives.</p>
                       <span className="text-accent font-medium inline-flex items-center">
                         Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
                       </span>
@@ -250,8 +287,8 @@ const CaveatLoans = () => {
                 href="/resources/guides/caveat-lenders-australia-directory-comparison"
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
-                <h3 className="font-semibold text-foreground mb-2">Caveat Lenders Directory 2025</h3>
-                <p className="text-sm text-muted-foreground mb-2">Compare Australia's caveat finance providers by rates, speed, and LVR.</p>
+                <h3 className="font-semibold text-foreground mb-2">Caveat Lender Types & Comparison</h3>
+                <p className="text-sm text-muted-foreground mb-2">Compare lender fit, title requirements, evidence, total cost and exit expectations.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -261,7 +298,7 @@ const CaveatLoans = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Emergency Business Funding</h3>
-                <p className="text-sm text-muted-foreground mb-2">Caveat loans for tax debt, cash flow crises, and urgent business needs.</p>
+                <p className="text-sm text-muted-foreground mb-2">How to assess property support, purpose, cost and exit when a business payment is time-sensitive.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -271,7 +308,7 @@ const CaveatLoans = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Urgent Caveat Loans</h3>
-                <p className="text-sm text-muted-foreground mb-2">Same-day and next-day approval options for time-critical funding.</p>
+                <p className="text-sm text-muted-foreground mb-2">Prepare a time-critical file and understand the dependencies that can delay assessment or settlement.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -281,7 +318,7 @@ const CaveatLoans = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Caveat vs Bank Loans</h3>
-                <p className="text-sm text-muted-foreground mb-2">Speed and cost comparison to help you choose the right option.</p>
+                <p className="text-sm text-muted-foreground mb-2">Compare process dependencies, total cost, security and product fit.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -298,9 +335,9 @@ const CaveatLoans = () => {
 
           {/* Related Reading */}
           <RelatedReading articles={[
-            { title: "Caveat Loans Australia: The Complete Guide", slug: "caveat-loans-australia-complete-guide", description: "Everything you need to know about caveat loans and urgent property finance" },
-            { title: "Urgent Caveat Loans: When Speed Matters", slug: "urgent-caveat-loans", description: "How to access fast caveat funding for time-critical business needs" },
-            { title: "Quick Caveat Loans: 48 Hour Settlement Possible", slug: "quick-caveat-loans-48-hour-settlement-possible", description: "Understanding rapid settlement options for caveat finance" }
+            { title: "Caveat Loans Australia: The Complete Guide", slug: "caveat-loans-australia-complete-guide", description: "Mechanics, evidence, title position, total cost, exit risk and alternatives" },
+            { title: "Urgent Caveat Loans: When Timing Matters", slug: "urgent-caveat-loans", description: "How to prepare a decision-ready file for a time-critical business requirement" },
+            { title: "Quick Caveat Loans: What Controls Settlement Timing", slug: "quick-caveat-loans-48-hour-settlement-possible", description: "The evidence and dependencies that influence caveat-finance timing" }
           ] as RelatedArticle[]} />
 
           {/* Related Services */}

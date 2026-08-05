@@ -6,6 +6,7 @@ export const ANALYTICS_IDS = {
 type AnalyticsParameters = Record<string, string | number | boolean | undefined>;
 
 let lastPageView = "";
+let aiLandingTracked = false;
 let contactTrackingConsumers = 0;
 let removeContactTracking: (() => void) | undefined;
 
@@ -18,6 +19,69 @@ declare global {
 
 function clean(parameters: AnalyticsParameters) {
   return Object.fromEntries(Object.entries(parameters).filter(([, value]) => value !== undefined));
+}
+
+export type AiReferralSource = "chatgpt" | "perplexity" | "copilot" | "gemini" | "claude" | "unknown";
+
+export type AiReferralClassification = {
+  aiSource: AiReferralSource;
+  detectionMethod: "campaign" | "referrer";
+};
+
+const AI_CAMPAIGN_SOURCES: Array<[RegExp, AiReferralSource]> = [
+  [/(?:^|[-_.])(?:chatgpt|openai)(?:$|[-_.])/, "chatgpt"],
+  [/(?:^|[-_.])perplexity(?:$|[-_.])/, "perplexity"],
+  [/(?:^|[-_.])(?:copilot|bingchat)(?:$|[-_.])/, "copilot"],
+  [/(?:^|[-_.])(?:gemini|bard)(?:$|[-_.])/, "gemini"],
+  [/(?:^|[-_.])claude(?:$|[-_.])/, "claude"],
+];
+
+export function classifyAiReferral(referrer = "", search = ""): AiReferralClassification | null {
+  const params = new URLSearchParams(search.startsWith("?") ? search.slice(1) : search);
+  const campaignSource = [params.get("utm_source"), params.get("source"), params.get("ref")]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  for (const [pattern, aiSource] of AI_CAMPAIGN_SOURCES) {
+    if (pattern.test(campaignSource)) return { aiSource, detectionMethod: "campaign" };
+  }
+
+  const medium = (params.get("utm_medium") || "").toLowerCase();
+  if (["ai", "generative-ai", "generative_ai", "llm"].includes(medium)) {
+    return { aiSource: "unknown", detectionMethod: "campaign" };
+  }
+
+  if (!referrer) return null;
+  try {
+    const url = new URL(referrer);
+    const host = url.hostname.toLowerCase().replace(/^www\./, "");
+    if (host === "chatgpt.com" || host === "chat.openai.com") {
+      return { aiSource: "chatgpt", detectionMethod: "referrer" };
+    }
+    if (host === "perplexity.ai" || host.endsWith(".perplexity.ai")) {
+      return { aiSource: "perplexity", detectionMethod: "referrer" };
+    }
+    if (host === "copilot.microsoft.com" || (host.endsWith("bing.com") && url.pathname.startsWith("/chat"))) {
+      return { aiSource: "copilot", detectionMethod: "referrer" };
+    }
+    if (host === "gemini.google.com") return { aiSource: "gemini", detectionMethod: "referrer" };
+    if (host === "claude.ai") return { aiSource: "claude", detectionMethod: "referrer" };
+  } catch {
+    return null;
+  }
+  return null;
+}
+
+function trackAiReferralLanding(path: string) {
+  if (aiLandingTracked || typeof window === "undefined") return;
+  aiLandingTracked = true;
+  const classification = classifyAiReferral(document.referrer, window.location.search);
+  if (!classification) return;
+  trackEvent("ai_referral_landing", {
+    ai_source: classification.aiSource,
+    landing_path: path.split(/[?#]/, 1)[0],
+    detection_method: classification.detectionMethod,
+  });
 }
 
 export function trackEvent(name: string, parameters: AnalyticsParameters = {}) {
@@ -34,6 +98,7 @@ export function trackPageView(path: string, title: string) {
     page_path: path,
     page_title: title,
   });
+  trackAiReferralLanding(path);
 }
 
 export function trackLead(formName: string, loanType?: string) {

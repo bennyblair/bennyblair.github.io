@@ -1,0 +1,1346 @@
+{
+  "snapshotVersion": 1,
+  "source": "OpenClaw SEO observation registry",
+  "sourceGeneratedAt": "2026-08-05T10:09:08+10:00",
+  "importedAt": "2026-08-05T12:00:00+10:00",
+  "site": "https://emetcapital.com.au",
+  "policy": "Wait 28 days after remediation before opening another indexing-content change. Redirect sources and intentionally noindexed pages are reconciled separately.",
+  "remediations": [
+    {
+      "url": "https://emetcapital.com.au/resources/guides/caveat-loans-perth-business-property-finance",
+      "canonicalUrl": "https://emetcapital.com.au/services/caveat-loans/cities/perth",
+      "action": "Technical repair first",
+      "priority": "P0",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-finance-sydney",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-finance-sydney-local-expert-hub",
+      "action": "Technical repair first",
+      "priority": "P0",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-property-auctions-expert-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
+      "action": "Technical repair first",
+      "priority": "P0",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/secured-vs-unsecured-business-loans-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/secured-vs-unsecured-business-loans-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-mortgage-rates-australia-complete-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-mortgage-rates-australia-complete-guide",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/what-is-private-lending-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/what-is-private-lending-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/second-mortgage-loan-equity-access-strategies",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-loan-equity-access-strategies",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/find-caveat-loan-brokers-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/find-caveat-loan-brokers-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/caveat-loan-emergency-business-funding",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/caveat-loan-emergency-business-funding",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/ato-tax-debt-finance-for-australian-business-owners",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/ato-tax-debt-finance-for-australian-business-owners",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/first-mortgage-vs-second-mortgage-key-differences",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/first-mortgage-vs-second-mortgage-key-differences",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/no-doc-abn-loans",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/no-doc-abn-loans",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-settlement-process-finance-timeline",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-settlement-process-finance-timeline",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/property-development-loans-complete-funding-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/property-development-loans-complete-funding-guide",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/working-capital-loans-for-smes",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/working-capital-loans-for-smes",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/second-mortgage-lenders-australia-directory",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-lenders-australia-directory",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/caveat-loans-melbourne-quick-business-finance",
+      "canonicalUrl": "https://emetcapital.com.au/services/caveat-loans/cities/melbourne",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/line-of-credit-equity",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-vs-line-of-credit",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P1",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory-2026",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/negative-gearing-commercial-property-tax-strategies",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-land-loans-financing-property-development",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-development-finance",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-finance-rates-2025-comparison",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-mortgage-rates-australia-complete-guide",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/bridging-finance-sydney-48-hour-settlement-possible",
+      "canonicalUrl": "https://emetcapital.com.au/services/bridging-finance/cities/sydney",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/private-commercial-real-estate-lenders-cre-directory",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-lenders-in-australia-complete-directory",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/finding-best-private-lenders-for-your-business",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/private-mortgage-lenders-australia-directory",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/bridging-finance-developers-project-funding-solutions",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-development-finance",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-refinancing-solutions",
+      "canonicalUrl": "https://emetcapital.com.au/services/refinancing-solutions",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/when-second-mortgages-make-financial-sense-smes",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-loan-equity-access-strategies",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/2nd-loan-mortgage-business-capital",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgages-for-business-guide",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-loan-retail-spaces-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/private-lenders-small-business-fast-approval-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/no-doc-abn-loans",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/subordination-agreement-second-mortgage",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-bridging-finance-auction-purchases",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/second-mortgage-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgages-for-business-guide",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-real-estate-lenders-australia-directory",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-lenders-in-australia-complete-directory",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/first-and-second-mortgages-for-business",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgages-for-business-guide",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/secured-business-loans-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/secured-vs-unsecured-business-loans-australia",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/caveat-loan-application-rejected-what-to-do-next",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/caveat-loan-rejected-heres-what-to-do-next",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/second-mortgage-partnership-buyout-financing-transitions",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia",
+      "action": "Consolidate + 301 proposal",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        155
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/newcastle-wickham-business-acquisition",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/newcastle-wickham-business-acquisition",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/south-yarra-apartment-development",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/south-yarra-apartment-development",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/perth-business-group-debt-consolidation",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/perth-business-group-debt-consolidation",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/adelaide-cbd-office-complex",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/adelaide-cbd-office-complex",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/melbourne-richmond-asset-finance",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/melbourne-richmond-asset-finance",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/perth-fremantle-first-mortgage",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/perth-fremantle-first-mortgage",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/adelaide-cbd-asset-backed-lending",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/adelaide-cbd-asset-backed-lending",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/case-study-developers-first-project-funding-success",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/case-study-developers-first-project-funding-success",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/caveat-loan-prevented-business-closure-tax-debt-case-study",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/caveat-loan-prevented-business-closure-tax-debt-case-study",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/rose-bay-property-development-bridging-loan",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/rose-bay-property-development-bridging-loan",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/case-studies/newcastle-merewether-equipment-finance",
+      "canonicalUrl": "https://emetcapital.com.au/resources/case-studies/newcastle-merewether-equipment-finance",
+      "action": "Noindex pending evidence",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        154
+      ]
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/ato-garnishee-notice-finance-for-australian-businesses",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/ato-garnishee-notice-finance-for-australian-businesses",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/second-mortgage-bad-credit-qualify",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-bad-credit-qualify",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/invoice-finance-australia-complete-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/invoice-finance-australia-complete-guide",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/pre-settlement-finance-commercial-property-purchases-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/pre-settlement-finance-commercial-property-purchases-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/caveat-loan-interest-rates-what-you-ll-really-pay-2025",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/caveat-loan-interest-rates-what-you-ll-really-pay-2025",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/medical-fitout-finance-in-australia-funding-clinics-dental-practices-and-specialist-rooms",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/medical-fitout-finance-in-australia-funding-clinics-dental-practices-and-specialist-rooms",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/second-mortgage-interest-rates-current-market-analysis",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/second-mortgage-interest-rates-current-market-analysis",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/ato-payment-plan-vs-business-finance-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/ato-payment-plan-vs-business-finance-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/mezzanine-finance-australia-complete-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/mezzanine-finance-australia-complete-guide",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/can-a-caveat-loan-stop-a-mortgagee-sale-in-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/can-a-caveat-loan-stop-a-mortgagee-sale-in-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/capital-stack-commercial-property-finance-case-example",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/capital-stack-commercial-property-finance-case-example",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/debtor-finance-vs-trade-finance-in-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/debtor-finance-vs-trade-finance-in-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/debtor-finance-supply-chain-finance-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/debtor-finance-supply-chain-finance-australia",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/private-lending-vs-bank-lending-which-is-better",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/private-lending-vs-bank-lending-which-is-better",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-loans-for-startups-first-time-buyers",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-loans-for-startups-first-time-buyers",
+      "action": "Heavy rewrite + differentiation",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/bridging-finance-borrower-mistakes-broker-take",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/bridging-loan-exit-strategy-broker-take",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/instant-asset-write-off-finance-before-eofy-2026",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/eofy-working-capital-loans-before-30-june",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/how-to-buy-commercial-property-step-by-step-guide",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/how-to-buy-commercial-property-step-by-step-guide",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/can-i-use-a-second-mortgage-to-buy-investment-property",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/can-i-use-a-second-mortgage-to-buy-investment-property",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/private-debt-australia-explainer-with-broker-commentary",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/private-debt-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/purchase-order-finance-vs-trade-finance-in-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/purchase-order-finance-vs-trade-finance-in-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/supplier-deposit-finance-for-large-orders-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/supplier-deposit-finance-for-large-orders-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/subcontractor-cash-flow-finance-after-builder-insolvency",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/debtor-concentration-working-capital-finance-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P2",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/construction-cost-overrun-finance-property-developers-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/construction-cost-overrun-finance-property-developers-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P3",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-loan-maturity-refinance-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-loan-maturity-refinance-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P3",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P3",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/used-equipment-finance-second-hand-machinery-private-sales-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/used-equipment-finance-second-hand-machinery-private-sales-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P3",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    },
+    {
+      "url": "https://emetcapital.com.au/resources/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia",
+      "canonicalUrl": "https://emetcapital.com.au/resources/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia",
+      "action": "Discovery + internal-link uplift",
+      "priority": "P3",
+      "mergedAt": "2026-08-05T00:09:08Z",
+      "sourcePrs": [
+        165
+      ],
+      "reviewAfter": "2026-09-02T00:00:00+10:00"
+    }
+  ]
+}

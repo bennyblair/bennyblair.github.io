@@ -9,20 +9,21 @@ import { BookOpen, Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } 
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
+import FinanceDecisionSupport from "@/components/FinanceDecisionSupport";
 
 const BridgingFinance = () => {
   const faqs: FAQItem[] = [
     {
       question: "What types of security are accepted?",
-      answer: "Commercial and residential property across Australia. Security may include the property being purchased, existing property holdings, or a combination of both depending on loan-to-value ratios."
+      answer: "Commercial or residential property may be considered, depending on lender policy and the transaction. Security can include the property being purchased, existing holdings or a combination, subject to valuation, existing debt and title requirements."
     },
     {
       question: "How fast can approval take?",
-      answer: "An initial assessment may be possible within 24-48 hours where the security, documents, purpose, and exit are clear. Settlement timing depends on valuation, legal requirements, lender appetite, and borrower readiness."
+      answer: "A complete file may be assessed more efficiently, but no responsible party can promise a fixed decision or settlement time. Timing depends on valuation, legal requirements, lender appetite, third parties and borrower readiness."
     },
     {
       question: "Are these loans available Australia-wide?",
-      answer: "Yes, bridging finance is available for properties across all Australian states and territories through our national lender network."
+      answer: "Emet Capital can assess commercial bridging enquiries from across Australia. Lender availability depends on property location and type, borrower circumstances, purpose, security and exit evidence."
     },
     {
       question: "Is this for business purposes only?",
@@ -33,8 +34,8 @@ const BridgingFinance = () => {
   return (
     <>
       <SEO 
-        title="Bridging Finance Australia | Short-Term Property Loans | Emet Capital"
-        description="Bridging finance for commercial property purchases, urgent settlement pressure, auctions, and refinance timing gaps. Timing depends on security, documents, and lender assessment."
+        title="Commercial Bridging Finance Australia | Emet Capital"
+        description="Compare commercial bridging finance for property settlement and refinance gaps. Understand security, total cost, exit evidence, risks and lender assessment."
         canonical="/services/bridging-finance"
         keywords="bridging finance, bridging loans, short term property loans, auction finance, settlement bridge loans"
         schemas={[generateServiceSchema(
@@ -56,7 +57,7 @@ const BridgingFinance = () => {
           <div className="text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Short-Term Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Bridging Loans Australia
+              Commercial Bridging Finance Australia
             </h1>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -80,10 +81,10 @@ const BridgingFinance = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Bridging Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Bridging finance provides short-term property funding that enables businesses and investors to proceed with property acquisition before completing existing property sales or refinancing arrangements. These facilities bridge temporary funding gaps, allowing strategic property moves without timing constraints. Bridging loans are property-secured with terms typically ranging from 3 to 12 months, providing flexibility for commercial property transactions and business property needs.
+                Bridging finance is short-term property-backed funding used to cover a defined timing gap before an expected exit, such as a property sale or refinance. It can support commercial acquisitions, settlements and refinance transitions, but it does not remove timing risk: the proposed exit and a contingency plan should be tested before the facility is accepted.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                The funding structure accommodates various scenarios including property purchase pending sale, auction purchases requiring quick settlement, property settlement timing mismatches, and temporary funding during refinancing processes. Security arrangements are flexible, utilizing either the property being purchased, existing holdings, or combined security positions. Interest structures often feature capitalization options, minimizing cash flow impact during the bridging period.
+                The security may include the property being acquired, an existing property or both, depending on the lender and transaction. Interest may be paid or capitalised, but capitalisation increases the balance and can reduce the equity buffer. Compare net proceeds, total repayment, default and extension terms—not only the stated interest rate.
               </p>
             </section>
 
@@ -91,10 +92,10 @@ const BridgingFinance = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Bridging finance serves property investors, business owners, developers, and companies requiring immediate property funding. Investors utilize bridging loans to secure opportunities before completing sales of existing properties. Business owners access short-term funding for premises acquisition while arranging permanent financing. Developers use bridging finance for land acquisition and pre-development funding before construction finance activation.
+                Bridging finance may suit property investors, business owners and developers with a specific commercial transaction and a time-bounded exit. Common scenarios include purchasing before another property settles, a refinance that cannot complete by the current maturity date, or a temporary gap before a longer-term commercial facility is ready.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                This is commercial and business-purpose lending only—no consumer bridging loans are provided. Borrowers require property security and clear exit strategies demonstrating repayment capacity through property sale, refinancing, or business cash flow. Both established property holders and those building portfolios benefit from short-term bridging solutions tailored to commercial lending requirements.
+                This is commercial and business-purpose lending only—no consumer bridging loans are provided. The borrower should be able to evidence the property position, peak debt, transaction purpose and a repayment exit such as sale, refinance or a documented business receipt. A bridge is a poor fit where the exit is only an aspiration or the downside cannot be absorbed.
               </p>
             </section>
 
@@ -102,16 +103,16 @@ const BridgingFinance = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist bridging lenders, and private capital providers. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in short-term property finance. We match clients with lenders offering competitive rates and structures aligned with property transaction timing and exit strategies.
+                As commercial finance brokers, we assess the transaction, security position, required date and exit evidence before approaching lenders able to consider that scenario. We compare indicative terms on the same assumptions so differences in net proceeds, interest treatment, fees and extension provisions are visible.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We guide clients through assessment processes for time-sensitive property transactions. Our expertise includes security structuring, exit strategy planning, and coordination with property settlements. Timing depends on the transaction and lender requirements, so we focus on presenting complete files and matching borrowers with lenders that can assess the scenario appropriately.
+                We help assemble the transaction and security pack, test exit assumptions and coordinate information requested by lenders, valuers and lawyers. Timing depends on the complete transaction and third parties, so the focus is a decision-ready file and a realistic timetable rather than a promised date.
               </p>
             </section>
 
-            {/* Key features & benefits */}
+            {/* Key decision factors */}
             <section>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Key Decision Factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
                   <CardHeader>
@@ -122,7 +123,7 @@ const BridgingFinance = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Finance available from $100,000 to $50M+ with terms from 3 to 12 months. Flexible structures accommodate property transaction timing and exit strategies.
+                      Facility size and term depend on security value, existing debt, property type, serviceability where required, purpose and the evidence supporting the exit.
                     </p>
                   </CardContent>
                 </Card>
@@ -136,7 +137,7 @@ const BridgingFinance = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Supports property purchase pending sale, auction settlements, timing mismatches, refinancing transitions, and opportunity acquisition where immediate funding is required.
+                      Purchase-before-sale transactions, auction settlements, refinance transitions and other defined property timing gaps with an evidenced exit.
                     </p>
                   </CardContent>
                 </Card>
@@ -159,26 +160,62 @@ const BridgingFinance = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center text-lg">
                       <FileText className="mr-2 h-5 w-5 text-accent" />
-                      Streamlined Process
+                      Decision-ready process
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Assessment pathways designed for time-sensitive property transactions. Broker expertise supports efficient documentation and settlement coordination where the file is suitable.
+                      A complete transaction, debt, security and exit pack can reduce avoidable questions. The lender and its advisers still control assessment, conditions and settlement.
                     </p>
                   </CardContent>
                 </Card>
               </div>
             </section>
 
+            <FinanceDecisionSupport
+              heading="Bridging Finance Fit, Evidence and Exit Checks"
+              summary="A bridge should connect a current obligation to a plausible, documented exit. The strongest files show both the primary exit and what happens if it is delayed."
+              suitable={[
+                "A commercial purchase or refinance has a fixed settlement or maturity date.",
+                "The primary exit is a documented sale, refinance or other identifiable liquidity event.",
+                "The property security and existing debt leave room for interest, fees and a delay buffer.",
+                "The borrower has compared the cost of bridging with the commercial cost of missing the transaction.",
+              ]}
+              unsuitable={[
+                "There is no defined repayment event within the proposed term.",
+                "The sale exit assumes an unsupported price or an unrealistically short marketing period.",
+                "The refinance exit has not been checked against serviceability, valuation and lender policy.",
+                "The transaction is consumer-purpose or a conventional facility can meet the deadline at lower risk.",
+              ]}
+              evidence={[
+                { label: "Transaction", detail: "Executed contract, settlement statement, current loan statement or maturity notice showing amount and deadline." },
+                { label: "Security", detail: "Ownership and title information, existing debt, valuation evidence, leases and relevant property documents." },
+                { label: "Sale exit", detail: "Agency agreement, campaign status, comparable evidence, sale contract if available and a realistic settlement allowance." },
+                { label: "Refinance exit", detail: "Lender or broker progress, financial information, valuation assumptions and outstanding approval conditions." },
+              ]}
+              process={[
+                "Map the current obligation, settlement date and exact funding shortfall.",
+                "Calculate the peak balance including capitalised interest and known fees.",
+                "Validate the primary exit and model a delayed-exit contingency.",
+                "Compare eligible lenders using one written assumptions sheet.",
+                "Review legal documents, control events, extensions and discharge mechanics before settlement.",
+              ]}
+              decisionRows={[
+                { question: "Is the bridge open or closed?", whyItMatters: "A contracted exit differs materially from a property that still needs to be marketed or a refinance that is not approved." },
+                { question: "What is the peak debt at the delayed-exit date?", whyItMatters: "Capitalised interest and fees can erode the equity buffer during a delay." },
+                { question: "Which approval conditions are outside the borrower's control?", whyItMatters: "Valuation, consent, legal and incoming-lender conditions can prevent the planned timetable." },
+                { question: "What are the extension and default mechanics?", whyItMatters: "A low initial rate can be outweighed by extension fees, default pricing or restrictive control rights." },
+              ]}
+            />
+
             {/* Eligibility & next steps */}
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Eligibility requires business purpose (no consumer lending), property security with adequate valuation, clear exit strategy demonstrating repayment capacity, and appropriate business structure where applicable. Documentation includes property details, exit strategy evidence (sale contracts or refinancing capacity), and business information. Both property investors and business owners with commercial property needs are considered.
+                A lender may require entity and authority documents, a contract or current facility statement, property and title information, valuation evidence, existing-debt details, financial information and support for the proposed sale or refinance exit. Requirements vary by transaction and lender; business purpose, security and an evidenced repayment path are core assessment inputs.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                To proceed, contact our team for an initial assessment. Time-sensitive property transactions require clear facts early, so we'll review your property transaction, exit strategy, and security to identify suitable lender options and next steps.
+                To request an initial assessment, provide the exact funding shortfall, required date, transaction documents, security position and exit evidence. We can identify gaps and explain which lender pathways may fit, but indicative terms, approval and settlement remain subject to the complete file and third parties.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -211,7 +248,7 @@ const BridgingFinance = () => {
                     <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="text-xl font-semibold text-foreground mb-2">Complete Bridging Finance Guide</h3>
-                      <p className="text-muted-foreground mb-3">Our comprehensive guide covers everything from fundamentals to advanced bridging strategies, exit planning, and cost management.</p>
+                      <p className="text-muted-foreground mb-3">Model peak debt, compare exit evidence, understand total cost and test delayed-settlement risk.</p>
                       <span className="text-accent font-medium inline-flex items-center">
                         Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
                       </span>
@@ -272,8 +309,8 @@ const BridgingFinance = () => {
 
           {/* Related Reading */}
           <RelatedReading articles={[
-            { title: "Bridging Finance Australia: Complete Property Guide", slug: "bridging-finance-australia-complete-property-guide", description: "Comprehensive guide to bridging loans for property investors and developers" },
-            { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-loans-for-property-auctions-expert-guide", description: "How to secure auction properties with fast bridging finance" },
+            { title: "Bridging Finance Australia: Complete Property Guide", slug: "bridging-finance-australia-complete-property-guide", description: "Peak debt, exit evidence, total cost, timing risk and alternatives" },
+            { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-loans-for-property-auctions-expert-guide", description: "How to assess an auction bridge before making an unconditional commitment" },
             { title: "Bridge Lending for Commercial Property", slug: "bridge-lending-australia-commercial-property", description: "How commercial property bridge lending is structured and assessed" }
           ] as RelatedArticle[]} />
 
@@ -281,7 +318,7 @@ const BridgingFinance = () => {
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Bridging Finance by City</h2>
             <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Get localized bridging finance information for Australia's major capital cities. Each city page provides market-specific insights, use cases, and examples tailored to your location.
+              Review property-location considerations for major Australian markets. Finance remains subject to the transaction, security, borrower and lender rather than the city label alone.
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="hover:shadow-lg transition-shadow">
@@ -289,7 +326,7 @@ const BridgingFinance = () => {
                   <CardTitle className="text-lg">Sydney</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Fast bridging loans for Sydney's dynamic property market - auction purchases, upgraders, and development sites.</p>
+                  <p className="text-sm text-muted-foreground mb-4">Commercial auction, purchase-before-sale and development timing scenarios involving Sydney property.</p>
                   <Link to="/services/bridging-finance/cities/sydney" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
                     Sydney Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -301,7 +338,7 @@ const BridgingFinance = () => {
                   <CardTitle className="text-lg">Melbourne</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Bridging finance for Melbourne's auction market - unconditional purchases, Bayside properties, and townhouse developments.</p>
+                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Melbourne property.</p>
                   <Link to="/services/bridging-finance/cities/melbourne" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
                     Melbourne Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -313,7 +350,7 @@ const BridgingFinance = () => {
                   <CardTitle className="text-lg">Brisbane</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Brisbane bridging loans for Olympic-precinct developments, interstate relocations, and riverside property purchases.</p>
+                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Brisbane property.</p>
                   <Link to="/services/bridging-finance/cities/brisbane" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
                     Brisbane Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -325,7 +362,7 @@ const BridgingFinance = () => {
                   <CardTitle className="text-lg">Perth</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Perth bridging finance for mining sector opportunities, resource-backed deals, and Western Australia property market.</p>
+                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Perth property.</p>
                   <Link to="/services/bridging-finance/cities/perth" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
                     Perth Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -337,7 +374,7 @@ const BridgingFinance = () => {
                   <CardTitle className="text-lg">Adelaide</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Adelaide bridging loans for defense sector properties, urban renewal projects, and South Australian market opportunities.</p>
+                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Adelaide property.</p>
                   <Link to="/services/bridging-finance/cities/adelaide" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
                     Adelaide Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -349,7 +386,7 @@ const BridgingFinance = () => {
                   <CardTitle className="text-lg">Gold Coast</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Gold Coast bridging finance for tourism properties, waterfront developments, and Queensland coastal opportunities.</p>
+                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Gold Coast property.</p>
                   <Link to="/services/bridging-finance/cities/gold-coast" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
                     Gold Coast Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -379,7 +416,7 @@ const BridgingFinance = () => {
                   <CardTitle className="text-lg">Caveat Loans</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Ultra-fast property-secured business finance</p>
+                  <p className="text-sm text-muted-foreground mb-4">Short-term business-purpose finance supported by a workable property and title position</p>
                   <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>

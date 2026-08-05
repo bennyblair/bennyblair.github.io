@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://emetcapital.com.au/schemas/ai-citation-result.schema.json",
+  "title": "Emet AI citation observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["runAt", "engine", "promptSetVersion", "promptId", "brandMention", "linkedCitation", "citedUrls", "accuracy"],
+  "properties": {
+    "runAt": {"type":"string","format":"date-time"},
+    "engine": {"type":"string","enum":["chatgpt","perplexity","copilot","gemini","claude","google_ai_overview","other"]},
+    "engineSurface": {"type":"string","maxLength":100},
+    "promptSetVersion": {"type":"string"},
+    "promptId": {"type":"string","pattern":"^[A-Z]{3}-[0-9]{2}$"},
+    "brandMention": {"type":"boolean"},
+    "linkedCitation": {"type":"boolean","description":"True only when an Emet Capital URL is clickable in the answer."},
+    "citedUrls": {"type":"array","description":"Clickable Emet-owned URLs only; third-party citations are outside this metric.","items":{"type":"string","format":"uri","pattern":"^https://([a-z0-9-]+\\.)*emetcapital\\.com\\.au(?:/|$)"},"uniqueItems":true},
+    "citedUrlAccuracy": {"type":"string","enum":["correct","redirected","broken","not_applicable","not_checked"]},
+    "accuracy": {"type":"string","enum":["accurate","partly_accurate","inaccurate","not_assessable"]},
+    "notes": {"type":"string","maxLength":1000},
+    "evidencePath": {"type":"string","description":"Local screenshot or export path; never store credentials or personal data."}
+  },
+  "allOf": [
+    {"if":{"properties":{"linkedCitation":{"const":true}}},"then":{"properties":{"citedUrls":{"minItems":1}}}},
+    {"if":{"properties":{"linkedCitation":{"const":false}}},"then":{"properties":{"citedUrls":{"maxItems":0}}}}
+  ]
+}

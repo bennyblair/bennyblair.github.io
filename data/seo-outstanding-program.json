@@ -1,0 +1,97 @@
+{
+  "programId": "seo-ai-growth-outstanding-2026-08-05",
+  "site": "https://emetcapital.com.au",
+  "baseline": {
+    "source": "Google Search Console Performance, Web search",
+    "windowStart": "2026-05-03",
+    "windowEnd": "2026-08-02",
+    "capturedAt": "2026-08-05T12:00:00+10:00",
+    "siteTotals": {
+      "clicks": 84,
+      "impressions": 48423,
+      "ctr": 0.0017,
+      "averagePosition": 47.0
+    },
+    "indexingSnapshot": {
+      "reportedAt": "2026-07-24",
+      "indexed": 207,
+      "notIndexed": 237,
+      "crawledNotIndexed": 98,
+      "discoveredNotIndexed": 108,
+      "redirectErrors": 17,
+      "notFound": 2,
+      "googleSelectedDifferentCanonical": 1
+    }
+  },
+  "objectives": {
+    "primaryKpis": [
+      {
+        "id": "qualified_organic_leads",
+        "definition": "GA4 generate_lead events whose session default channel group is Organic Search and whose form_name is a genuine finance enquiry form.",
+        "direction": "increase",
+        "source": "GA4"
+      },
+      {
+        "id": "nonbrand_organic_clicks",
+        "definition": "GSC Web clicks where the query does not contain emet, emet capital, a misspelling of the brand, or a known staff name.",
+        "direction": "increase",
+        "source": "Google Search Console"
+      },
+      {
+        "id": "target_queries_top_20",
+        "definition": "Count of registered target queries with GSC average position at or above 20 in the comparable review window.",
+        "direction": "increase",
+        "source": "Google Search Console"
+      }
+    ],
+    "drivers": [
+      "target-page impressions",
+      "target-page CTR",
+      "target-query average position",
+      "AI referral landings",
+      "linked AI citations",
+      "earned referring domains"
+    ],
+    "guardrails": [
+      "zero material edits to the active indexing-recovery cohort",
+      "zero expired high-risk content claims",
+      "no increase in redirect, 404, or canonical indexing errors attributable to this release",
+      "no decline in organic qualified-lead rate across two comparable review windows"
+    ]
+  },
+  "reviewSchedule": [
+    {
+      "label": "day_28",
+      "reviewAt": "2026-09-02",
+      "collectionRunAt": "2026-09-04T09:00:00+10:00",
+      "comparison": "28 days after release versus the immediately preceding 28 days, with year-over-year shown where available"
+    },
+    {
+      "label": "day_56",
+      "reviewAt": "2026-09-30",
+      "collectionRunAt": "2026-10-02T09:00:00+10:00",
+      "comparison": "days 29-56 after release versus days 1-28 and the pre-release 28-day baseline"
+    }
+  ],
+  "segments": ["page", "query", "cluster", "device", "country", "brandVsNonBrand"],
+  "protectedCohort": {
+    "registry": "data/indexing-recovery-protected-pages.json",
+    "remediationCount": 97,
+    "uniqueRouteCount": 111,
+    "gate": "npm run qa:protected-cohort",
+    "allTargetsVerifiedEligibleAt": "2026-08-05T12:00:00+10:00"
+  },
+  "targets": [
+    {"cluster":"caveat","path":"/services/caveat-loans","sourcePath":"src/pages/services/CaveatLoans.tsx","primaryQuery":"caveat loans","clicks":0,"impressions":2476,"ctr":0,"averagePosition":80.7},
+    {"cluster":"caveat","path":"/resources/guides/caveat-loans-australia-complete-guide","sourcePath":"src/content/guides/caveat-loans-australia-complete-guide.md","primaryQuery":"caveat loans Australia","clicks":2,"impressions":2145,"ctr":0.001,"averagePosition":38.7},
+    {"cluster":"caveat","path":"/resources/guides/urgent-caveat-loans","sourcePath":"src/content/guides/urgent-caveat-loans.md","primaryQuery":"urgent caveat loan","clicks":0,"impressions":2915,"ctr":0,"averagePosition":52.3},
+    {"cluster":"caveat","path":"/resources/guides/caveat-lenders-australia-directory-comparison","sourcePath":"src/content/guides/caveat-lenders-australia-directory-comparison.md","primaryQuery":"caveat loan broker Australia","clicks":2,"impressions":1393,"ctr":0.001,"averagePosition":21.6},
+    {"cluster":"bridging","path":"/services/bridging-finance","sourcePath":"src/pages/services/BridgingFinance.tsx","primaryQuery":"bridging finance","clicks":0,"impressions":0,"ctr":0,"averagePosition":null},
+    {"cluster":"bridging","path":"/resources/guides/bridging-finance-australia-complete-property-guide","sourcePath":"src/content/guides/bridging-finance-australia-complete-property-guide.md","primaryQuery":"bridging finance Australia","clicks":0,"impressions":3816,"ctr":0,"averagePosition":65.3},
+    {"cluster":"bridging","path":"/resources/guides/best-bridging-loan-lenders-companies-2025","sourcePath":"src/content/guides/best-bridging-loan-lenders-companies-2025.md","primaryQuery":"commercial bridging finance lenders","clicks":0,"impressions":1201,"ctr":0,"averagePosition":22.7},
+    {"cluster":"bridging","path":"/resources/guides/short-term-property-loans-when-you-need-fast-finance","sourcePath":"src/content/guides/short-term-property-loans-when-you-need-fast-finance.md","primaryQuery":"short term property loans","clicks":0,"impressions":977,"ctr":0,"averagePosition":45.9},
+    {"cluster":"equipment","path":"/services/equipment-finance","sourcePath":"src/pages/services/EquipmentFinance.tsx","primaryQuery":"equipment finance","clicks":0,"impressions":2510,"ctr":0,"averagePosition":72.3},
+    {"cluster":"equipment","path":"/resources/guides/equipment-finance-and-leasing-australia","sourcePath":"src/content/guides/equipment-finance-and-leasing-australia.md","primaryQuery":"equipment finance Australia","clicks":1,"impressions":1207,"ctr":0.001,"averagePosition":44.0},
+    {"cluster":"equipment","path":"/resources/tools/loan-comparison-tool","sourcePath":"src/pages/tools/LoanComparisonTool.tsx","primaryQuery":"business loan comparison tool","clicks":0,"impressions":1323,"ctr":0,"averagePosition":75.2}
+  ]
+}
