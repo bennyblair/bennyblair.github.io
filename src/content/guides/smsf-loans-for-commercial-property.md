@@ -14,6 +14,21 @@ author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' e
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 slug: "smsf-loans-for-commercial-property"
+primaryQuery: "SMSF loans for commercial property Australia"
+searchIntent: "commercial investigation"
+intentCluster: "smsf-commercial-property-finance"
+designatedServicePage: "/services/smsf-lending"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "ATO - SMSF limited recourse borrowing arrangements"
+    url: "https://www.ato.gov.au/forms-and-instructions/self-managed-superannuation-fund-annual-return-2020-instructions/instructions-to-complete-your-annual-return/section-h-assets-and-liabilities/15b-australian-direct-investments/j1-to-j7-and-j-limited-recourse-borrowing-arrangements"
+  - label: "ATO - SMSF investment restrictions"
+    url: "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/investing/restrictions-on-investments/acquiring-assets-from-related-parties"
 ---
 
 # SMSF Loans for Commercial Property: The Complete Guide

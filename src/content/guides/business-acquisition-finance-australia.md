@@ -14,6 +14,21 @@ author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' e
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 slug: "business-acquisition-finance-australia"
+primaryQuery: "business acquisition finance Australia"
+searchIntent: "commercial investigation"
+intentCluster: "business-acquisition-finance"
+designatedServicePage: "/services/business-acquisition"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "business.gov.au - Buy an existing business"
+    url: "https://business.gov.au/planning/new-businesses/buy-an-existing-business"
+  - label: "business.gov.au - Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 # A Guide to Business Acquisition Finance in Australia

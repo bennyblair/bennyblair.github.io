@@ -19,6 +19,7 @@
     "qa:lighthouse": "node scripts/lighthouse-budget.mjs",
     "analytics:classify": "tsx scripts/classify-search-pages.ts",
     "audit:prod": "npm audit --omit=dev --audit-level=high",
+    "audit:live:seo": "tsx scripts/audit-live-seo.ts",
     "setup:browsers": "playwright install chromium",
     "generate:hero-poster": "tsx scripts/generate-hero-poster.ts"
   },

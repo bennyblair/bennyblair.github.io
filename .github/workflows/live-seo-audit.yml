@@ -1,0 +1,34 @@
+name: Live SEO contract audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 20 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: live-seo-contract-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    name: Crawl production SEO contracts
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Audit production redirects, canonicals, indexability and discovery paths
+        run: npm run audit:live:seo

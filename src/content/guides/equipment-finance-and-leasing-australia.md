@@ -14,6 +14,21 @@ author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' e
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 slug: "equipment-finance-and-leasing-australia"
+primaryQuery: "equipment finance and leasing Australia"
+searchIntent: "commercial investigation"
+intentCluster: "equipment-finance"
+designatedServicePage: "/services/equipment-finance"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "ATO - Instant asset write-off for eligible businesses"
+    url: "https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/depreciation-and-capital-expenses-and-allowances/simpler-depreciation-for-small-business/instant-asset-write-off"
+  - label: "ATO - Guide to depreciating assets"
+    url: "https://www.ato.gov.au/law/view/document?LocID=%22SAV%2FDEPRECIATING%2FATH10%22&PiT=99991231235958"
 ---
 
 # Equipment Finance and Leasing for Australian Businesses
