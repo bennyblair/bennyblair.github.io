@@ -1,0 +1,85 @@
+{
+  "programId": "seo-growth-2026-h2",
+  "updatedAt": "2026-08-05",
+  "baselineSource": "Google Search Console page performance export reviewed 2026-08-05",
+  "protectedCohort": {
+    "source": "OpenClaw SEO observation registry",
+    "pageCount": 97,
+    "mutationPolicy": "Do not make material on-page changes while the observation window is active."
+  },
+  "measurementPolicy": {
+    "firstReviewAt": "2026-09-02",
+    "decisionWindowDays": [28, 56],
+    "compare": [
+      "clicks",
+      "impressions",
+      "ctr",
+      "averagePosition",
+      "qualifiedLeads"
+    ],
+    "segmentBy": [
+      "page",
+      "query",
+      "device",
+      "country",
+      "brandVsNonBrand"
+    ],
+    "rollbackRule": "Investigate and revert the page-specific change if qualified organic traffic or rankings deteriorate materially across two consecutive comparable reviews."
+  },
+  "targets": [
+    {
+      "path": "/resources/guides/second-mortgage-consent-refused-australia",
+      "sourcePath": "src/content/guides/second-mortgage-consent-refused-australia.md",
+      "primaryQuery": "second mortgage consent refused Australia",
+      "searchIntent": "informational",
+      "designatedServicePage": "/services/first-second-mortgages",
+      "cohortStatus": "eligible",
+      "baseline": { "impressions": 139, "clicks": 2, "averagePosition": 7.95 }
+    },
+    {
+      "path": "/resources/guides/rent-roll-finance-in-australia-funding-real-estate-agency-acquisitions",
+      "sourcePath": "src/content/guides/rent-roll-finance-in-australia-funding-real-estate-agency-acquisitions.md",
+      "primaryQuery": "rent roll finance Australia",
+      "searchIntent": "commercial investigation",
+      "designatedServicePage": "/services/business-acquisition",
+      "cohortStatus": "eligible",
+      "baseline": { "impressions": 268, "clicks": 2, "averagePosition": 12.55 }
+    },
+    {
+      "path": "/resources/guides/private-mortgage-lending-commercial-borrowers",
+      "sourcePath": "src/content/guides/private-mortgage-lending-commercial-borrowers.md",
+      "primaryQuery": "private mortgage lending for commercial borrowers",
+      "searchIntent": "commercial investigation",
+      "designatedServicePage": "/services/private-lending",
+      "cohortStatus": "eligible",
+      "baseline": { "impressions": 144, "clicks": 0, "averagePosition": 14.27 }
+    },
+    {
+      "path": "/resources/guides/franchise-fit-out-finance-australia",
+      "sourcePath": "src/content/guides/franchise-fit-out-finance-australia.md",
+      "primaryQuery": "franchise fit out finance Australia",
+      "searchIntent": "commercial investigation",
+      "designatedServicePage": "/services/business-finance",
+      "cohortStatus": "eligible",
+      "baseline": { "impressions": 135, "clicks": 1, "averagePosition": 16.56 }
+    },
+    {
+      "path": "/resources/guides/letters-of-credit-vs-trade-finance-australian-importers",
+      "sourcePath": "src/content/guides/letters-of-credit-vs-trade-finance-australian-importers.md",
+      "primaryQuery": "letters of credit vs trade finance Australia",
+      "searchIntent": "commercial investigation",
+      "designatedServicePage": "/services/trade-finance",
+      "cohortStatus": "eligible",
+      "baseline": { "impressions": 189, "clicks": 0, "averagePosition": 19.06 }
+    },
+    {
+      "path": "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia",
+      "sourcePath": "src/content/guides/gst-loan-for-commercial-property-settlement-in-australia.md",
+      "primaryQuery": "GST loan commercial property settlement",
+      "searchIntent": "commercial investigation",
+      "designatedServicePage": "/services/bridging-finance",
+      "cohortStatus": "eligible",
+      "baseline": { "impressions": 479, "clicks": 4, "averagePosition": 19.21 }
+    }
+  ]
+}

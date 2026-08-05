@@ -1,7 +1,7 @@
 ---
 title: "GST Loan for Commercial Property Settlement in Australia"
 date: "2026-03-28"
-description: "A practical guide to GST loans for commercial property settlement in Australia, including when a GST funding gap appears, how short-term settlement finance is commonly structured, what lenders assess, and when this type of loan may or may not fit."
+description: "Understand GST loans for commercial property settlement: funding gaps, short-term structures, lender checks, exit plans and key tax caveats."
 category: "Commercial Property Loans"
 tags: ["GST Loan", "Commercial Property Settlement", "Short-Term Finance", "Private Lending", "Commercial Property Loans"]
 readingTime: 11
@@ -14,15 +14,28 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/gst-loan-for-commercial-property-settlement-in-australia.jpg"
 keywords: ["gst loan commercial property settlement", "gst funding commercial settlement", "commercial property settlement finance", "gst settlement loan australia"]
+primaryQuery: "GST loan commercial property settlement"
+searchIntent: "commercial investigation"
+intentCluster: "bridging-finance"
+designatedServicePage: "/services/bridging-finance"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+expiresAt: "2027-02-05"
+sources:
+  - label: "Australian Taxation Office — GST at settlement"
+    url: "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/in-detail/your-industry/property/gst-at-settlement?page=10"
+  - label: "Australian Taxation Office — GST attribution for land sales"
+    url: "https://www.ato.gov.au/law/view/document?LocID=%22GST%2FGSTR200028%2FNAT%2Fft8B%22&PiT=20170220000001"
 ---
-
-# GST Loan for Commercial Property Settlement in Australia
 
 A GST loan for commercial property settlement is a short-term commercial funding solution used when GST creates a cash gap at settlement and the borrower needs extra capital to complete the purchase on time.
 
 That gap usually appears because commercial property transactions can involve GST on the purchase price, while the borrower’s main senior facility may only cover part of the total amount needed on settlement day. In practice, the borrower may have the deposit, the core loan, and an otherwise workable deal, but still be short once GST, stamp duty, fees, and adjustments are added together.
 
-For investors, developers, and business owners, this is really a timing and structure issue rather than a tax strategy issue. The main question is when a GST settlement loan makes sense, how it is commonly repaid, and what lenders usually want to see before advancing short-term [commercial property settlement finance](/resources/guides/commercial-property-settlement-process-finance-timeline), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or [private lending](/resources/guides/what-is-private-lending-australia) support.
+For investors, developers, and business owners, this is really a timing and structure issue rather than a tax strategy issue. The main question is when a GST settlement loan makes sense, how it is commonly repaid, and what lenders usually want to see before advancing short-term [commercial property settlement finance](/resources/guides/commercial-property-settlement-process-finance-timeline), [bridging finance](/services/bridging-finance), or [private lending](/resources/guides/what-is-private-lending-australia) support.
+
+GST treatment is transaction-specific. The ATO's purchaser-withholding guidance focuses on certain new residential premises and potential residential land; it should not be read as a rule that applies in the same way to every commercial property purchase. Confirm the contract's GST treatment, settlement amount, credit or refund assumptions, and timing with the transaction's accountant and solicitor before arranging finance.
 
 ### Related In-Depth Guides
 
