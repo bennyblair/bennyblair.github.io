@@ -282,4 +282,8 @@ Strategic property investors increasingly maintain diversified portfolios across
 
 ---
 
+## Related decision guides
+
+- [How to buy commercial property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)
+
 **Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

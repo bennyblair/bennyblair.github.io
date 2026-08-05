@@ -210,4 +210,8 @@ It can. For investment assets, stronger leases and more stable income often impr
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
+## Related decision guides
+
+- [Owner-occupier commercial loans](/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

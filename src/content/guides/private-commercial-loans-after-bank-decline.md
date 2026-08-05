@@ -149,4 +149,8 @@ The best exit strategy is specific and evidence-based. Common exits include refi
 - [Business Debt Consolidation in Australia](/resources/guides/business-debt-consolidation-australia)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
+## Related decision guides
+
+- [Commercial property finance after a bank decline](/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

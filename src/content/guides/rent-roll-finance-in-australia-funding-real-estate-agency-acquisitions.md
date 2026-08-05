@@ -164,4 +164,8 @@ The biggest risk is that landlords leave after settlement and the income used to
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — useful when the acquisition includes vehicles, fitout, or operational equipment.
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — short-term property-backed funding context for urgent commercial transactions.
 
+## Related decision guides
+
+- [Franchise acquisition finance](/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.

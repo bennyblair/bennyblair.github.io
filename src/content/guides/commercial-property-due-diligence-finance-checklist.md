@@ -255,4 +255,8 @@ Commercial property due diligence works best when finance is part of the review,
 
 The borrowers who usually move cleanly are the ones who test title, valuation, leases, structure, timing, documents, and exit logic before the lender is forced to point out the gaps. That does not guarantee approval, but it puts the borrower in a stronger position to make a commercial decision with fewer surprises.
 
+## Related decision guides
+
+- [Commercial property loan serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

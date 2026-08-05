@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
+import DiscoveryGuides from "@/components/DiscoveryGuides";
 
 const CommercialPropertyFinance = () => {
   const faqs: FAQItem[] = [
@@ -525,6 +526,8 @@ const CommercialPropertyFinance = () => {
               </div>
             </section>
           </div>
+
+          <DiscoveryGuides service="commercial-property-finance" />
 
           <RelatedReading
             articles={[

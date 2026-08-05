@@ -130,4 +130,9 @@ For self-liquidating working capital, customer receipts or operating cash should
 
 ## Next step
 
+## Related decision guides
+
+- [EOFY working capital loans before 30 June](/resources/guides/eofy-working-capital-loans-before-30-june)
+- [Debtor concentration working capital finance](/resources/guides/debtor-concentration-working-capital-finance-australia)
+
 Use the [working capital service](/services/working-capital) with the cash-flow forecast, amount, purpose, bank statements, ledgers, tax position and repayment source. General information only; not accounting, legal, tax or credit advice.

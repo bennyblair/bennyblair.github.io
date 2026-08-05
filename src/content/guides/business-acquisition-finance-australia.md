@@ -287,4 +287,9 @@ The biggest risk is overpaying for earnings that do not continue after settlemen
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare lender types for non-standard transactions.
 - **[Second Mortgage for a Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — relevant when the acquisition is an ownership transition.
 
+## Related decision guides
+
+- [Franchise acquisition finance](/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business)
+- [Pharmacy acquisition finance](/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

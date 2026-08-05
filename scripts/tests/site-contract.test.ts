@@ -11,6 +11,10 @@ import {
 } from "../../src/config/site-route-manifest";
 import claims from "../../src/content/claims.json";
 import {
+  discoveryGuidesByService,
+  discoveryGuideUrls,
+} from "../../src/config/discovery-guides";
+import {
   findIntentOverlaps,
   isLocationVariant,
   resolveDesignatedService,
@@ -64,6 +68,26 @@ test("legacy GSC 404 URLs permanently redirect to current guide equivalents", ()
   assert.deepEqual(redirects.get("/resources/guides/commercial-property-finance-sydney"), {
     from: "/resources/guides/commercial-property-finance-sydney",
     to: "/resources/guides/commercial-property-finance-sydney-local-expert-hub",
+    status: 301,
+  });
+  assert.deepEqual(redirects.get("/resources/guides/bridging-finance-borrower-mistakes-broker-take"), {
+    from: "/resources/guides/bridging-finance-borrower-mistakes-broker-take",
+    to: "/resources/guides/bridging-loan-exit-strategy-broker-take",
+    status: 301,
+  });
+  assert.deepEqual(redirects.get("/resources/guides/instant-asset-write-off-finance-before-eofy-2026"), {
+    from: "/resources/guides/instant-asset-write-off-finance-before-eofy-2026",
+    to: "/resources/guides/eofy-working-capital-loans-before-30-june",
+    status: 301,
+  });
+  assert.deepEqual(redirects.get("/resources/guides/private-debt-australia-explainer-with-broker-commentary"), {
+    from: "/resources/guides/private-debt-australia-explainer-with-broker-commentary",
+    to: "/resources/guides/private-debt-australia",
+    status: 301,
+  });
+  assert.deepEqual(redirects.get("/resources/guides/subcontractor-cash-flow-finance-after-builder-insolvency"), {
+    from: "/resources/guides/subcontractor-cash-flow-finance-after-builder-insolvency",
+    to: "/resources/guides/debtor-concentration-working-capital-finance-australia",
     status: 301,
   });
 });
@@ -122,6 +146,74 @@ test("content index contains metadata only and unique canonical routes", () => {
     }
   }
   assert.equal(new Set(routes).size, routes.length, "content routes must be unique");
+});
+
+test("discovery guides are indexable, linked from their service hub and have two supporting content paths", () => {
+  const expectedServiceComponents = new Map([
+    ["first-second-mortgages", "FirstSecondMortgages.tsx"],
+    ["bridging-finance", "BridgingFinance.tsx"],
+    ["business-acquisition", "BusinessAcquisition.tsx"],
+    ["business-finance", "BusinessFinance.tsx"],
+    ["caveat-loans", "CaveatLoans.tsx"],
+    ["commercial-property-finance", "CommercialPropertyFinance.tsx"],
+    ["private-lending", "PrivateLending.tsx"],
+    ["trade-finance", "TradeFinance.tsx"],
+    ["working-capital", "WorkingCapital.tsx"],
+    ["commercial-property-development", "CommercialPropertyDevelopment.tsx"],
+    ["refinancing-solutions", "RefinancingSolutions.tsx"],
+    ["equipment-finance", "EquipmentFinance.tsx"],
+  ]);
+  const index = Object.values(buildContentIndex(repoRoot)).flat();
+  const articlesByRoute = new Map(index.map((article) => [article.route, article]));
+  const guideFiles = fs.readdirSync(path.join(repoRoot, "src/content/guides"))
+    .filter((file) => file.endsWith(".md"));
+
+  assert.equal(discoveryGuideUrls.length, 19);
+  assert.equal(new Set(discoveryGuideUrls).size, 19, "discovery targets must be unique");
+  assert.deepEqual(new Set(Object.keys(discoveryGuidesByService)), new Set(expectedServiceComponents.keys()));
+
+  for (const [service, componentFile] of expectedServiceComponents) {
+    const source = fs.readFileSync(path.join(repoRoot, "src/pages/services", componentFile), "utf8");
+    assert.match(source, new RegExp(`<DiscoveryGuides service=["']${service}["']`));
+  }
+
+  for (const route of discoveryGuideUrls) {
+    const article = articlesByRoute.get(route);
+    assert.ok(article, `${route} must resolve to a content article`);
+    assert.notEqual(article.noindex, true, `${route} must remain indexable`);
+
+    const supportingFiles = guideFiles.filter((file) => {
+      const slug = path.basename(file, ".md");
+      if (route.endsWith(`/${slug}`)) return false;
+      return fs.readFileSync(path.join(repoRoot, "src/content/guides", file), "utf8").includes(route);
+    });
+    assert.ok(
+      supportingFiles.length >= 2,
+      `${route} needs at least two contextual links from supporting guides; found ${supportingFiles.length}`,
+    );
+  }
+});
+
+test("content articles do not link to their own canonical route", () => {
+  for (const section of ["guides", "case-studies"]) {
+    const directory = path.join(repoRoot, "src/content", section);
+    for (const file of fs.readdirSync(directory).filter((item) => item.endsWith(".md"))) {
+      const content = fs.readFileSync(path.join(directory, file), "utf8");
+      const declaredSlug = content.match(/^slug:\s*["']?([^"'\r\n]+)["']?\s*$/m)?.[1]?.trim();
+      const slug = declaredSlug || path.basename(file, ".md");
+      const route = `/resources/${section}/${slug}`;
+      const inlineRoutes = [...content.matchAll(/(?:\]\(\s*|href=["'])(\/resources\/(?:guides|case-studies)\/[a-z0-9-]+)/g)]
+        .map((match) => match[1]);
+      const referenceRoutes = [...content.matchAll(/^\[[^\]]+\]:\s*(\/resources\/(?:guides|case-studies)\/[a-z0-9-]+)/gm)]
+        .map((match) => match[1]);
+      const internalRoutes = [...inlineRoutes, ...referenceRoutes].map((internalRoute) => internalRoute.replace(/\/$/, ""));
+      assert.equal(
+        internalRoutes.includes(route),
+        false,
+        `${section}/${file} links to its own canonical route ${route}`,
+      );
+    }
+  }
 });
 
 test("illustrative scenarios pending transaction evidence are explicitly noindex", () => {

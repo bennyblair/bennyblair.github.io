@@ -9,6 +9,7 @@ import { Helmet } from "react-helmet-async";
 import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
+import DiscoveryGuides from "@/components/DiscoveryGuides";
 
 const EquipmentFinance = () => {
   const faqs: FAQItem[] = [
@@ -258,6 +259,8 @@ const EquipmentFinance = () => {
             {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
+
+          <DiscoveryGuides service="equipment-finance" />
 
           {/* Related Reading */}
           <RelatedReading articles={[

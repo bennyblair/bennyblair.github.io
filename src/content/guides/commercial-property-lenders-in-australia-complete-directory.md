@@ -33,7 +33,7 @@ This guide explains how commercial property lenders differ in Australia, what th
 ### Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Foundation guide to structures, deposits, terms, and lender assessment
-- **[Commercial Real Estate Lenders in Australia](/resources/guides/commercial-property-lenders-in-australia-complete-directory)** — Useful if you are comparing lender types across CRE transactions
+- **[Private Commercial Loans for SMEs](/resources/guides/private-commercial-loans-for-smes)** — Useful when a transaction does not fit a mainstream commercial property lender
 - **[How to Find the Best Commercial Mortgage Broker](/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide)** — Broker-selection guide for lender-market navigation
 - **[Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)** — Helpful for understanding how lenders assess borrower and property fit
 - **[Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — Checklist for getting lender-ready before submission
@@ -232,7 +232,7 @@ Potentially, yes. In some scenarios, private debt is used as an interim tool whi
 ## Related Guides
 
 - [Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Real Estate Lenders in Australia](/resources/guides/commercial-property-lenders-in-australia-complete-directory)
+- [Private Commercial Loans for SMEs](/resources/guides/private-commercial-loans-for-smes)
 - [Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)

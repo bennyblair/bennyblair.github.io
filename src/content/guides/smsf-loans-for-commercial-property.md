@@ -368,4 +368,8 @@ Tax benefits including concessional income taxation and potential capital gains 
 
 Risk management through diversification, professional property management, and adequate liquidity planning helps protect fund assets while ensuring sustainable investment outcomes. Regular compliance reviews and professional advice help navigate the evolving regulatory environment and maintain appropriate investment structures.
 
+## Related decision guides
+
+- [How to buy commercial property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)
+
 The Australian SMSF commercial property lending market continues developing with specialist lenders providing tailored products and competitive terms for compliant arrangements. Trustees who understand these opportunities and engage appropriate professional support can successfully implement commercial property investments that enhance retirement savings outcomes while maintaining regulatory compliance throughout their superannuation journey.

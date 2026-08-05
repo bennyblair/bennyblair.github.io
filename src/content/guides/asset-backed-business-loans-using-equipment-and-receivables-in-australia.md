@@ -191,4 +191,8 @@ Yes. Emet Capital connects eligible business borrowers with commercial lenders a
 - [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
+## Related decision guides
+
+- [Used equipment finance](/resources/guides/used-equipment-finance-second-hand-machinery-private-sales-australia)
+
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
