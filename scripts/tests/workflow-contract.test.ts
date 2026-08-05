@@ -1,0 +1,50 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import test from "node:test";
+
+const repoRoot = process.cwd();
+
+function read(relativePath: string) {
+  return fs.readFileSync(path.join(repoRoot, relativePath), "utf8");
+}
+
+test("the merge-capable website quality workflow runs every required repository gate", () => {
+  const packageJson = JSON.parse(read("package.json"));
+  const workflow = read(".github/workflows/bot-pr-build.yml");
+  const requiredScripts = [
+    "typecheck",
+    "lint",
+    "test",
+    "qa:seo-control-plane",
+    "qa:seo-new-pages",
+    "qa:seo-risk",
+    "qa:protected-cohort",
+    "qa:content",
+    "audit:prod",
+    "build",
+    "qa:smoke",
+    "qa:lighthouse",
+  ];
+
+  for (const script of requiredScripts) {
+    assert.equal(typeof packageJson.scripts[script], "string", `package.json must define ${script}`);
+    const escaped = script.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    assert.match(
+      workflow,
+      new RegExp(`(?:npm\\s+(?:run\\s+)?${escaped})(?:\\s|$)`),
+      `.github/workflows/bot-pr-build.yml must execute ${script}`,
+    );
+  }
+});
+
+test("auto-merge waits for the complete website quality gate", () => {
+  const workflow = read(".github/workflows/auto-merge-bot-prs.yml");
+  assert.match(workflow, /requiredCheck\s*=\s*['"]Type, content, security, build and route checks['"]/);
+  assert.match(workflow, /gate\.conclusion\s*!==\s*['"]success['"]/);
+  assert.match(workflow, /finalGate\?\.conclusion\s*!==\s*['"]success['"]/);
+  assert.match(workflow, /content-change:internal-links/);
+  assert.match(workflow, /file\.status\s*!==\s*['"]modified['"]/);
+  assert.match(workflow, /normalizeInternalLinks\(source\)\s*!==\s*normalizeInternalLinks\(previous\)/);
+  assert.doesNotMatch(workflow, /ai\/daily-content-/);
+});

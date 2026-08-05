@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://emetcapital.com.au/schemas/seo-observation-v1.json",
+  "title": "Emet SEO measurement observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "pageId",
+    "source",
+    "observedAt",
+    "windowStart",
+    "windowEnd",
+    "dimensions",
+    "metrics",
+    "sourceExtractedAt",
+    "sourceStatus"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "pageId": { "type": ["string", "null"], "pattern": "^pg_[a-f0-9]{32}$" },
+    "source": { "enum": ["gsc", "ga4", "crm", "ai_visibility"] },
+    "observedAt": { "type": "string", "format": "date-time" },
+    "windowStart": { "type": ["string", "null"], "format": "date" },
+    "windowEnd": { "type": ["string", "null"], "format": "date" },
+    "dimensions": { "type": "object" },
+    "metrics": { "type": "object" },
+    "sourceExtractedAt": { "type": "string", "format": "date-time" },
+    "sourceStatus": { "enum": ["complete", "partial", "unavailable", "invalid"] },
+    "missingDimensions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "evidencePath": { "type": ["string", "null"] }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "sourceStatus": { "const": "unavailable" } } },
+      "then": {
+        "properties": {
+          "metrics": { "maxProperties": 0 },
+          "pageId": { "const": null }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "source": { "enum": ["gsc", "ga4", "crm"] } } },
+      "then": { "properties": { "pageId": { "type": ["string", "null"] } } }
+    }
+  ]
+}

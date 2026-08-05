@@ -1,4 +1,4 @@
-name: Auto-merge eligible low-risk content
+name: Auto-merge authorized R1 internal-link changes
 
 on:
   pull_request_target:
@@ -22,13 +22,13 @@ jobs:
     if: >
       !github.event.pull_request.draft &&
       contains(github.event.pull_request.labels.*.name, 'content-risk:low') &&
+      contains(github.event.pull_request.labels.*.name, 'content-change:internal-links') &&
       (
         github.event.pull_request.user.login == 'bennyblair' ||
         github.event.pull_request.user.login == 'github-actions[bot]'
       ) &&
       (
-        startsWith(github.event.pull_request.head.ref, 'ai/llm-upgrade-') ||
-        startsWith(github.event.pull_request.head.ref, 'ai/daily-content-')
+        startsWith(github.event.pull_request.head.ref, 'ai/llm-upgrade-')
       )
     steps:
       - name: Verify low-risk content-only scope and merge after checks
@@ -38,7 +38,7 @@ jobs:
             const pr = context.payload.pull_request;
             const { owner, repo } = context.repo;
             const allowedAuthors = new Set(['bennyblair', 'github-actions[bot]']);
-            const allowedPrefixes = ['ai/llm-upgrade-', 'ai/daily-content-'];
+            const allowedPrefixes = ['ai/llm-upgrade-'];
             const allowedPath = /^src\/content\/(?:guides|insights)\/[^/]+\.md$/;
             const requiredCheck = 'Type, content, security, build and route checks';
 
@@ -54,6 +54,28 @@ jobs:
               core.setFailed('The content-risk:low label is required.');
               return;
             }
+            if (!pr.labels.some((label) => label.name === 'content-change:internal-links')) {
+              core.setFailed('The content-change:internal-links label is required.');
+              return;
+            }
+
+            const internalRoute = String.raw`(?:https?:\/\/(?:www\.)?emetcapital\.com\.au)?\/(?:resources\/(?:guides|case-studies|insights)|services)\/[a-z0-9][a-z0-9\-/]*(?:[?#][^\s<>'"\)\]]*)?`;
+            const markdownDestination = new RegExp(String.raw`(\]\(\s*)${internalRoute}(\s*(?:["'][^"']*["'])?\))`, 'gi');
+            const htmlDestination = new RegExp(String.raw`(\bhref\s*=\s*["'])${internalRoute}(["'])`, 'gi');
+            const referenceDestination = new RegExp(String.raw`^(\s*\[[^\]]+\]:\s*)${internalRoute}(\s*(?:["'][^"']*["'])?\s*)$`, 'gim');
+            const normalizeInternalLinks = (source) => source
+              .replace(/\r\n?/g, '\n')
+              .replace(markdownDestination, '$1<internal-route>$2')
+              .replace(htmlDestination, '$1<internal-route>$2')
+              .replace(referenceDestination, '$1<internal-route>$2');
+
+            async function readFile(path, ref) {
+              const response = await github.rest.repos.getContent({ owner, repo, path, ref });
+              if (Array.isArray(response.data) || response.data.type !== 'file') {
+                throw new Error(`Could not read ${path} at ${ref}.`);
+              }
+              return Buffer.from(response.data.content, 'base64').toString('utf8');
+            }
 
             const files = await github.paginate(github.rest.pulls.listFiles, {
               owner,
@@ -67,21 +89,16 @@ jobs:
             }
 
             for (const file of files) {
-              if (file.status === 'removed' || !allowedPath.test(file.filename)) {
+              if (file.status !== 'modified' || !allowedPath.test(file.filename)) {
                 core.setFailed(`Auto-merge cannot modify ${file.filename}.`);
                 return;
               }
-              const response = await github.rest.repos.getContent({
-                owner,
-                repo,
-                path: file.filename,
-                ref: pr.head.sha,
-              });
-              if (Array.isArray(response.data) || response.data.type !== 'file') {
-                core.setFailed(`Could not read ${file.filename}.`);
+              const source = await readFile(file.filename, pr.head.sha);
+              const previous = await readFile(file.filename, pr.base.sha);
+              if (source === previous || normalizeInternalLinks(source) !== normalizeInternalLinks(previous)) {
+                core.setFailed(`${file.filename} is not an internal-link-destination-only change.`);
                 return;
               }
-              const source = Buffer.from(response.data.content, 'base64').toString('utf8');
               const frontmatter = source.match(/^---\r?\n([\s\S]*?)\r?\n---/);
               if (!frontmatter || !/^contentRisk:\s*["']?low["']?\s*$/m.test(frontmatter[1])) {
                 core.setFailed(`${file.filename} is not explicitly contentRisk: low.`);

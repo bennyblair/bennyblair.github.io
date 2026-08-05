@@ -51,6 +51,18 @@ jobs:
       - name: Unit and contract tests
         run: npm test
 
+      - name: SEO control-plane registry and lifecycle gate
+        run: npm run qa:seo-control-plane
+
+      - name: New-page business-case gate
+        run: npm run qa:seo-new-pages
+
+      - name: Compute SEO change risk
+        run: npm run qa:seo-risk
+
+      - name: Protected indexing-recovery cohort gate
+        run: npm run qa:protected-cohort
+
       - name: Content quality gate
         run: npm run qa:content
 

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://emetcapital.com.au/schemas/seo-control-plane-v1.json",
+  "title": "Emet Capital SEO page control plane",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "site", "generatedAt", "checksum", "bootstrap", "measurementRules", "routePatterns", "pages"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "site": { "const": "https://emetcapital.com.au" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "bootstrap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["capturedAt", "baselineCommit", "reason"],
+      "properties": {
+        "capturedAt": { "type": "string", "format": "date-time" },
+        "baselineCommit": { "type": "string", "pattern": "^[a-f0-9]{40}$" },
+        "reason": { "type": "string", "minLength": 10 }
+      }
+    },
+    "measurementRules": { "type": "object" },
+    "routePatterns": { "type": "array", "items": { "$ref": "#/$defs/routePattern" } },
+    "pages": { "type": "array", "items": { "$ref": "#/$defs/page" } }
+  },
+  "$defs": {
+    "routePattern": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pattern", "type", "sourcePath"],
+      "properties": {
+        "pattern": { "type": "string" },
+        "type": { "enum": ["dynamic", "redirect", "not_found"] },
+        "destination": { "type": ["string", "null"] },
+        "status": { "type": ["integer", "null"] },
+        "sourcePath": { "type": "string" }
+      }
+    },
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pageId", "path", "sourcePath", "pageType", "indexability", "metadataStatus", "targeting", "governance", "lifecycle", "measurement", "programIds"],
+      "properties": {
+        "pageId": { "type": "string", "pattern": "^pg_[a-f0-9]{32}$" },
+        "path": { "type": "string", "pattern": "^/" },
+        "sourcePath": { "type": "string" },
+        "pageType": { "enum": ["home", "company", "service", "location", "resource", "guide", "case-study", "tool", "legal", "system", "redirect"] },
+        "indexability": { "enum": ["indexable", "noindex", "redirected"] },
+        "metadataStatus": { "enum": ["verified", "needs_review", "exception"] },
+        "metadataConfidence": { "enum": ["high", "medium", "low"] },
+        "redirectToPageId": { "type": ["string", "null"] },
+        "redirectToPath": { "type": ["string", "null"] },
+        "targeting": { "type": "object" },
+        "governance": { "type": "object" },
+        "lifecycle": { "type": "object" },
+        "measurement": { "type": "object" },
+        "programIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+      }
+    }
+  }
+}

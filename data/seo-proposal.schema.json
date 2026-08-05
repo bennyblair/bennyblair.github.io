@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://emetcapital.com.au/schemas/seo-proposal-v1.json",
+  "title": "Emet Capital SEO page proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "proposalId", "pageId", "path", "sourcePath", "status", "risk", "problem", "targeting", "uniqueValue", "evidence", "internalLinks", "measurement", "score", "approval"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "proposalId": { "type": "string", "pattern": "^prop_[a-f0-9]{32}$" },
+    "pageId": { "type": "string", "pattern": "^pg_[a-f0-9]{32}$" },
+    "path": { "type": "string", "pattern": "^/" },
+    "sourcePath": { "type": "string" },
+    "status": { "enum": ["draft", "approved", "rejected", "built", "closed"] },
+    "risk": { "enum": ["R1", "R2", "R3", "R4"] },
+    "problem": { "type": "string", "minLength": 20 },
+    "targeting": { "type": "object" },
+    "uniqueValue": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "evidence": { "type": "array", "minItems": 1, "items": { "type": "object" } },
+    "internalLinks": { "type": "object" },
+    "measurement": { "type": "object" },
+    "score": { "type": "object" },
+    "approval": { "type": ["object", "null"] }
+  }
+}

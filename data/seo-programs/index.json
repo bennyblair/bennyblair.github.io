@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-05T21:45:43.968Z",
+  "programs": [
+    {
+      "programId": "seo-ai-growth-outstanding-2026-08-05",
+      "kind": "measurement-and-remediation",
+      "definitionPath": "data/seo-outstanding-program.json",
+      "status": "active",
+      "contentChecksum": "1e129d755071d757dc259fd617f2aeb7e477dc174231c22cd3e3531dfc36ad50"
+    },
+    {
+      "programId": "seo-growth-2026-h2",
+      "kind": "existing-demand-growth",
+      "definitionPath": "data/seo-growth-program.json",
+      "status": "active",
+      "contentChecksum": "eccc5090773cd75cc7925d556e223adc895e77a804dd633df9da1dc1d073a189"
+    },
+    {
+      "programId": "indexing-recovery-protected-2026-08-05",
+      "kind": "protected-cohort",
+      "definitionPath": "data/indexing-recovery-protected-pages.json",
+      "status": "observing",
+      "contentChecksum": "019dc7961f6ace42174de74e7031a18e2c3adb0d2f56538e75e6406846f98e1f"
+    }
+  ]
+}
