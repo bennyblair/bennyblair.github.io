@@ -14,9 +14,18 @@ const repoRoot = process.cwd();
 const contentRoot = path.join(repoRoot, "src", "content");
 const claimsPath = path.join(contentRoot, "claims.json");
 const contentDirectories = ["guides", "case-studies", "insights"];
+const safeRepoRoot = repoRoot.replaceAll("\\", "/");
 const highRiskPattern =
   /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b/i;
 const timeSensitivePattern = /\b(?:current|today|this month|202[4-9]|rate|interest|regulation|tax)\b/i;
+
+function execGit(args, options = {}) {
+  return execFileSync("git", ["-c", `safe.directory=${safeRepoRoot}`, ...args], {
+    cwd: repoRoot,
+    encoding: "utf8",
+    ...options,
+  });
+}
 
 function allMarkdownFiles() {
   return contentDirectories.flatMap((directory) => {
@@ -31,11 +40,9 @@ function allMarkdownFiles() {
 
 function untrackedContentFiles() {
   try {
-    const output = execFileSync(
-      "git",
-      ["ls-files", "--others", "--exclude-standard", "--", "src/content"],
-      { cwd: repoRoot, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
-    );
+    const output = execGit(["ls-files", "--others", "--exclude-standard", "--", "src/content"], {
+      stdio: ["ignore", "pipe", "ignore"],
+    });
     return output
       .split(/\r?\n/)
       .filter((file) => file.endsWith(".md"))
@@ -47,18 +54,14 @@ function untrackedContentFiles() {
 
 function changedContentFiles() {
   const explicitBase = process.env.CONTENT_QA_BASE;
-  const candidates = [explicitBase, "origin/main"].filter(Boolean);
+  const candidates = [...new Set([explicitBase, "origin/main", "HEAD^"].filter(Boolean))];
+  const failures = [];
   for (const base of candidates) {
     try {
-      const mergeBase = execFileSync("git", ["merge-base", String(base), "HEAD"], {
-        cwd: repoRoot,
-        encoding: "utf8",
+      const mergeBase = execGit(["merge-base", String(base), "HEAD"], {
         stdio: ["ignore", "pipe", "ignore"],
       }).trim();
-      const output = execFileSync("git", ["diff", "--name-only", "--diff-filter=AM", mergeBase, "--", "src/content"], {
-        cwd: repoRoot,
-        encoding: "utf8",
-      });
+      const output = execGit(["diff", "--name-only", "--diff-filter=AM", mergeBase, "--", "src/content"]);
       const materialChanges = new Set(untrackedContentFiles());
       let linkOnlyChanges = 0;
 
@@ -66,9 +69,7 @@ function changedContentFiles() {
         const absolute = path.resolve(repoRoot, relative);
         let previous;
         try {
-          previous = execFileSync("git", ["show", `${mergeBase}:${relative}`], {
-            cwd: repoRoot,
-            encoding: "utf8",
+          previous = execGit(["show", `${mergeBase}:${relative}`], {
             stdio: ["ignore", "pipe", "ignore"],
           });
         } catch {
@@ -82,11 +83,11 @@ function changedContentFiles() {
       }
 
       return { files: materialChanges, linkOnlyChanges, mergeBase };
-    } catch {
-      // Try the next base.
+    } catch (error) {
+      failures.push(`${base}: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
-  return { files: new Set(), linkOnlyChanges: 0, mergeBase: null };
+  throw new Error(`Content QA could not establish a Git comparison base. ${failures.join(" | ")}`);
 }
 
 function words(value) {
@@ -198,11 +199,9 @@ for (const article of parsed) {
 const newlyAdded = new Set();
 try {
   const comparisonBase = changeSet.mergeBase || "origin/main";
-  const output = execFileSync(
-    "git",
-    ["diff", "--name-only", "--diff-filter=A", comparisonBase, "--", "src/content"],
-    { cwd: repoRoot, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
-  );
+  const output = execGit(["diff", "--name-only", "--diff-filter=A", comparisonBase, "--", "src/content"], {
+    stdio: ["ignore", "pipe", "ignore"],
+  });
   for (const file of output.split(/\r?\n/).filter((file) => file.endsWith(".md"))) {
     newlyAdded.add(path.resolve(repoRoot, file));
   }
