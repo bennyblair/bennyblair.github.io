@@ -15,6 +15,21 @@ author_name: "Ben"
 featuredImage: "/images/second-mortgage-business.jpg"
 keywords: ["second mortgage without refinancing", "second mortgage keep first mortgage", "second mortgage business loan Australia", "access equity without refinancing"]
 slug: "second-mortgage-without-refinancing-your-first-mortgage-in-australia"
+primaryQuery: "second mortgage without refinancing Australia"
+searchIntent: "commercial investigation"
+intentCluster: "second-mortgage-equity-release"
+designatedServicePage: "/services/first-second-mortgages"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "business.gov.au - Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+  - label: "ASIC - Professional registers search"
+    url: "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
 ---
 
 # Second Mortgage Without Refinancing Your First Mortgage in Australia

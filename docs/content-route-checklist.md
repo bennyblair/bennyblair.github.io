@@ -62,6 +62,13 @@ If any content loader changed from sync to async:
 - confirm newly published guides/case studies are included when expected
 - confirm redirect aliases are not emitted as canonical sitemap URLs
 
+### 7) Verify production after deployment
+- run `npm run audit:live:seo` after the deploy is live
+- confirm every exact redirect is a one-hop 301 to a 200 target
+- confirm every sitemap URL is 200 and self-canonical
+- confirm intentional noindex URLs stay out of the sitemap and `llms.txt`
+- confirm discovery targets are linked from their designated service hubs
+
 ## Required evidence in the PR description
 For PRs touching content loading or routing, include:
 - the exact URLs manually tested

@@ -13,6 +13,21 @@ author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
+primaryQuery: "compare private lenders Australia"
+searchIntent: "commercial investigation"
+intentCluster: "private-lender-comparison"
+designatedServicePage: "/services/private-lending"
+contentRisk: "high"
+reviewedBy: "OpenClaw SEO source audit"
+reviewedAt: "2026-08-05"
+reviewStatus: "automated-editorial-review"
+humanReviewRequired: true
+expiresAt: "2026-11-05"
+sources:
+  - label: "ASIC - Professional registers search"
+    url: "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+  - label: "ASIC - Credit representatives"
+    url: "https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/"
 ---
 
 # How to Compare Private Lenders for Business Funding
