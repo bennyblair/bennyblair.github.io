@@ -56,3 +56,17 @@ test("AI citation prompt set is immutable, balanced and observation-ready", () =
   }
   assert.match(promptSet.citationRule, /mention is not a citation/i);
 });
+
+test("llms.txt curates every priority program route", () => {
+  const generator = fs.readFileSync(
+    path.join(process.cwd(), "scripts", "generate-site-files.ts"),
+    "utf8",
+  );
+
+  for (const target of program.targets) {
+    assert.ok(
+      generator.includes(`"${target.path}"`),
+      `${target.path} must remain in the curated llms.txt source`,
+    );
+  }
+});

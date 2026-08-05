@@ -22,17 +22,47 @@ function xmlEscape(value: string) {
     .replaceAll("'", "&apos;");
 }
 
-function gitLastModified(sourcePath: string) {
+let lastModifiedBySource: Map<string, string> | null = null;
+
+function loadLastModifiedBySource() {
+  const dates = new Map<string, string>();
+
   try {
-    const value = execFileSync("git", ["log", "-1", "--format=%cs", "--", sourcePath], {
-      cwd: repoRoot,
-      encoding: "utf8",
-      stdio: ["ignore", "pipe", "ignore"],
-    }).trim();
-    if (value) return value;
+    const output = execFileSync(
+      "git",
+      ["log", "--format=@@DATE@@%cs", "--name-only", "--no-renames", "--", "src"],
+      {
+        cwd: repoRoot,
+        encoding: "utf8",
+        maxBuffer: 20 * 1024 * 1024,
+        stdio: ["ignore", "pipe", "ignore"],
+      },
+    );
+    let currentDate = "";
+
+    for (const rawLine of output.split(/\r?\n/)) {
+      const line = rawLine.trim();
+      if (line.startsWith("@@DATE@@")) {
+        currentDate = line.slice("@@DATE@@".length);
+        continue;
+      }
+      if (!line || !currentDate) continue;
+
+      const sourcePath = line.replaceAll("\\", "/");
+      if (!dates.has(sourcePath)) dates.set(sourcePath, currentDate);
+    }
   } catch {
-    // Fall back to a deterministic repository timestamp below.
+    // Individual filesystem timestamps remain available as a fallback.
   }
+
+  return dates;
+}
+
+function gitLastModified(sourcePath: string) {
+  lastModifiedBySource ??= loadLastModifiedBySource();
+  const normalizedSource = sourcePath.replaceAll("\\", "/");
+  const committedDate = lastModifiedBySource.get(normalizedSource);
+  if (committedDate) return committedDate;
 
   try {
     const modified = fs.statSync(path.join(repoRoot, sourcePath)).mtime;
@@ -119,15 +149,42 @@ function renderLlmsTxt() {
   const primaryPages = [
     ["/services/commercial-property-finance", "Commercial property finance"],
     ["/services/commercial-property-development", "Property development finance"],
+    ["/services/caveat-loans", "Caveat loans"],
     ["/services/bridging-finance", "Bridging finance"],
+    ["/services/equipment-finance", "Equipment finance"],
     ["/services/first-second-mortgages", "First and second mortgages"],
     ["/services/private-lending", "Private lending"],
     ["/services/refinancing-solutions", "Commercial refinancing"],
     ["/services/smsf-lending", "SMSF commercial property lending"],
     ["/resources/case-studies", "Property finance case studies"],
     ["/resources/tools/commercial-property-loan-calculator", "Commercial property loan calculator"],
+    ["/resources/tools/loan-comparison-tool", "Business loan comparison tool"],
     ["/editorial-standards", "Editorial standards"],
     ["/about", "About Emet Capital"],
+  ];
+  const decisionGuides = [
+    ["/resources/guides/caveat-loans-australia-complete-guide", "Caveat loans Australia guide"],
+    ["/resources/guides/urgent-caveat-loans", "Urgent caveat loan readiness guide"],
+    [
+      "/resources/guides/caveat-lenders-australia-directory-comparison",
+      "Caveat lender types and comparison",
+    ],
+    [
+      "/resources/guides/bridging-finance-australia-complete-property-guide",
+      "Commercial bridging finance Australia guide",
+    ],
+    [
+      "/resources/guides/best-bridging-loan-lenders-companies-2025",
+      "Commercial bridging lender comparison guide",
+    ],
+    [
+      "/resources/guides/short-term-property-loans-when-you-need-fast-finance",
+      "Short-term property loan decision guide",
+    ],
+    [
+      "/resources/guides/equipment-finance-and-leasing-australia",
+      "Equipment finance and leasing Australia guide",
+    ],
   ];
 
   return `# Emet Capital
@@ -140,6 +197,9 @@ function renderLlmsTxt() {
 
 ## Core property-finance journeys
 ${primaryPages.map(([route, label]) => `- [${label}](${canonicalUrl(route)})`).join("\n")}
+
+## Priority decision guides
+${decisionGuides.map(([route, label]) => `- [${label}](${canonicalUrl(route)})`).join("\n")}
 
 ## Entity and trust
 - Legal name: Emet Capital Pty Ltd
