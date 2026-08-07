@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_65eca45382f87ad6166be65998a3c9e7",
+  "pageId": "pg_3e969733cff248db8a5ac53bb1baa3e9",
+  "path": "/resources/guides/bridging-finance-subdivision-registration-delay-australia",
+  "sourcePath": "src/content/guides/bridging-finance-subdivision-registration-delay-australia.md",
+  "status": "approved",
+  "risk": "R1",
+  "problem": "Subdivision registration delays can hold up contracted lot settlements after construction debt reaches maturity, leaving developers without a clear comparison of extension, bridge and residual-stock pathways.",
+  "targeting": {
+    "primaryQuery": "bridging finance subdivision registration delay Australia",
+    "intent": "transactional / urgent development exit",
+    "audience": "Australian property developers and commercial borrowers facing delayed subdivision registration",
+    "country": "AU",
+    "pillar": "bridging"
+  },
+  "uniqueValue": [
+    "Maps the operational sequence from practical completion through title registration and lot settlement.",
+    "Compares an incumbent extension, bridging facility and residual-stock refinance with evidence and contingency requirements."
+  ],
+  "evidence": [
+    {
+      "type": "fortnightly_research",
+      "path": "plans/fortnightly-unique-content-ideas-2026-08-07.md",
+      "date": "2026-08-07",
+      "summary": "Australian search results discuss certification delays and holding costs but rarely explain the finance decision."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.planningportal.nsw.gov.au/subdivision-certificates",
+      "summary": "Jurisdictional example for the subdivision certificate stage."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/bridging-finance",
+      "/resources/guides/bridging-finance-australia-complete-property-guide"
+    ],
+    "to": [
+      "/resources/guides/property-development-loans-complete-funding-guide",
+      "/resources/guides/partial-discharge-bridging-finance-australia",
+      "/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-04T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 23,
+      "demonstratedDemand": 13,
+      "top20Probability": 10,
+      "conversionPotential": 13,
+      "evidenceAuthority": 7,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 80
+  },
+  "approval": {
+    "approvedBy": "Daniel Shelest",
+    "approvedAt": "2026-08-07T00:00:00Z",
+    "automated": false,
+    "basis": "Approved daily content cron policy and auto_queued brave_fortnightly queue item."
+  }
+}

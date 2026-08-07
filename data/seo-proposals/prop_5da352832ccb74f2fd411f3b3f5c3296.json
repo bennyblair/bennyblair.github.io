@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_5da352832ccb74f2fd411f3b3f5c3296",
+  "pageId": "pg_6e081501d8da4bcf8702c33eb7cef6d7",
+  "path": "/resources/guides/commercial-strata-special-levy-finance-australia",
+  "sourcePath": "src/content/guides/commercial-strata-special-levy-finance-australia.md",
+  "status": "approved",
+  "risk": "R1",
+  "problem": "Commercial lot owners need to distinguish their own levy obligation from an owners-corporation borrowing decision before comparing cash, a strata loan and short-term property-secured finance.",
+  "targeting": {
+    "primaryQuery": "commercial strata special levy finance Australia",
+    "intent": "transactional / comparison",
+    "audience": "Australian commercial strata lot owners, investors and business borrowers facing a special levy",
+    "country": "AU",
+    "pillar": "commercial property"
+  },
+  "uniqueValue": [
+    "Separates individual lot-owner authority from owners-corporation governance and borrowing authority.",
+    "Compares cash, scheme-level strata borrowing and individual property-secured finance without treating them as interchangeable."
+  ],
+  "evidence": [
+    {
+      "type": "fortnightly_research",
+      "path": "plans/fortnightly-unique-content-ideas-2026-08-07.md",
+      "date": "2026-08-07",
+      "summary": "Australian results are dominated by legal and strata-management explanations, leaving a commercial lot-owner finance comparison gap."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.nsw.gov.au/housing-and-construction/strata/serving-on-a-committee/levies",
+      "summary": "NSW Government guidance on levies, unit entitlements and owners-corporation decisions."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/commercial-property-finance",
+      "/resources/guides/commercial-property-loans-australia-complete-guide"
+    ],
+    "to": [
+      "/resources/guides/caveat-loans-australia-complete-guide",
+      "/resources/guides/private-mortgage-lending-commercial-borrowers",
+      "/resources/guides/working-capital-loans-for-smes"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-04T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 23,
+      "demonstratedDemand": 14,
+      "top20Probability": 10,
+      "conversionPotential": 13,
+      "evidenceAuthority": 9,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 83
+  },
+  "approval": {
+    "approvedBy": "Daniel Shelest",
+    "approvedAt": "2026-08-07T00:00:00Z",
+    "automated": false,
+    "basis": "Approved daily content cron policy and auto_queued brave_fortnightly queue item."
+  }
+}
