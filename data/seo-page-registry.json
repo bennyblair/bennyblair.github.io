@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-08-05T21:45:43.968Z",
+  "generatedAt": "2026-08-07T00:17:50.830Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -3365,6 +3365,49 @@
         "state": "observing",
         "decision": "none",
         "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_3e969733cff248db8a5ac53bb1baa3e9",
+      "path": "/resources/guides/bridging-finance-subdivision-registration-delay-australia",
+      "sourcePath": "src/content/guides/bridging-finance-subdivision-registration-delay-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "bridging finance subdivision registration delay Australia",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/bridging-finance",
+        "designatedServicePageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 2,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-07",
+        "expiresAt": "2026-11-07"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -7565,6 +7608,49 @@
         "state": "observing",
         "decision": "none",
         "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_6e081501d8da4bcf8702c33eb7cef6d7",
+      "path": "/resources/guides/commercial-strata-special-levy-finance-australia",
+      "sourcePath": "src/content/guides/commercial-strata-special-levy-finance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "commercial strata special levy finance Australia",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/commercial-property-finance",
+        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 2,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-07",
+        "expiresAt": "2026-11-07"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21134,5 +21220,5 @@
       "programIds": []
     }
   ],
-  "checksum": "01e08252a120ce333b763727597f5dcee6198f893df31f64f881d708087f9cbb"
+  "checksum": "13d89f13ce0513f5810a70395c78e33f18182648eab054ee2f7daadaa818d26d"
 }
