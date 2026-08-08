@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_3ab5207295a94967971278d94ba5512d",
+  "pageId": "pg_7c4add5d31b7487383415eba9cdfc694",
+  "path": "/resources/guides/anti-dumping-duty-trade-finance-australia",
+  "sourcePath": "src/content/guides/anti-dumping-duty-trade-finance-australia.md",
+  "status": "approved",
+  "risk": "R1",
+  "problem": "Australian importers need to convert a possible anti-dumping or countervailing measure into a verified landed-cost and cash-flow timeline before assessing trade finance.",
+  "targeting": {
+    "primaryQuery": "anti dumping duty trade finance Australia",
+    "intent": "commercial informational / importer finance",
+    "audience": "Australian companies and commercial importers exposed to anti-dumping or countervailing measures",
+    "country": "AU",
+    "pillar": "business finance"
+  },
+  "uniqueValue": [
+    "Connects the official current-measure verification process with an importer landed-cost funding worksheet.",
+    "Maps supplier, freight, customs, duty, inventory, customer invoicing and collection timing without presenting finance as customs advice."
+  ],
+  "evidence": [
+    {
+      "type": "fortnightly_research",
+      "path": "plans/fortnightly-unique-content-ideas-2026-08-07.md",
+      "date": "2026-08-07",
+      "summary": "Government sources explain current anti-dumping measures, while the working-capital consequence for commercial importers remains thin."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.industry.gov.au/anti-dumping-commission/current-measures-dumping-commodity-register-dcr",
+      "summary": "The Anti-Dumping Commission's official register is the starting point for checking current measures."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/business-finance",
+      "/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports"
+    ],
+    "to": [
+      "/resources/guides/purchase-order-finance-vs-trade-finance-in-australia",
+      "/resources/guides/tradex-scheme-import-gst-trade-finance-australian-importers",
+      "/resources/guides/foreign-exchange-timing-trade-finance-importers-australia"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-05T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 13,
+      "top20Probability": 10,
+      "conversionPotential": 13,
+      "evidenceAuthority": 10,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 84
+  },
+  "approval": {
+    "approvedBy": "Daniel Shelest",
+    "approvedAt": "2026-08-08T00:00:00Z",
+    "automated": false,
+    "basis": "Approved daily content cron policy and auto_queued brave_fortnightly queue item."
+  }
+}
