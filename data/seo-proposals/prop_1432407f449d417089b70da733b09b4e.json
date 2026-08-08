@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_1432407f449d417089b70da733b09b4e",
+  "pageId": "pg_f6c66b5a1adc48cb8bfc7317dce0521b",
+  "path": "/resources/guides/working-capital-finance-insurance-claim-delay-australia",
+  "sourcePath": "src/content/guides/working-capital-finance-insurance-claim-delay-australia.md",
+  "status": "approved",
+  "risk": "R1",
+  "problem": "Viable Australian businesses can face payroll, repair, replacement-stock and reopening costs while an insurance claim remains under assessment, without a borrower-focused framework for separating liquidity finance from claim escalation.",
+  "targeting": {
+    "primaryQuery": "working capital finance insurance claim delay Australia",
+    "intent": "transactional / urgent cash flow",
+    "audience": "Australian companies and business operators managing a commercial insurance claim delay",
+    "country": "AU",
+    "pillar": "business finance"
+  },
+  "uniqueValue": [
+    "Maps claim-delay spending into an evidence-led weekly funding schedule rather than treating an expected payout as guaranteed cash.",
+    "Keeps lender assessment, insurer complaints, AFCA escalation and legal advice as distinct pathways."
+  ],
+  "evidence": [
+    {
+      "type": "fortnightly_research",
+      "path": "plans/fortnightly-unique-content-ideas-2026-08-07.md",
+      "date": "2026-08-07",
+      "summary": "Australian results explain claim-delay processes but provide little business-borrower guidance on funding payroll, repairs, stock and reopening costs."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.afca.org.au/make-a-complaint/insurance",
+      "summary": "AFCA's official insurance complaint pathway keeps external dispute resolution separate from commercial finance."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/business-finance",
+      "/resources/guides/working-capital-loans-for-smes"
+    ],
+    "to": [
+      "/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance",
+      "/resources/guides/invoice-finance-australia-complete-guide",
+      "/resources/guides/caveat-loans-australia-complete-guide"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-05T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 13,
+      "top20Probability": 10,
+      "conversionPotential": 13,
+      "evidenceAuthority": 8,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 82
+  },
+  "approval": {
+    "approvedBy": "Daniel Shelest",
+    "approvedAt": "2026-08-08T00:00:00Z",
+    "automated": false,
+    "basis": "Approved daily content cron policy and auto_queued brave_fortnightly queue item."
+  }
+}
