@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "policyId": "daily-content-automerge",
+  "version": "2026-08-12.1",
+  "status": "active",
+  "approvedBy": "Daniel Shelest",
+  "approvedAt": "2026-08-12T09:00:00+10:00",
+  "timezone": "Australia/Sydney",
+  "cadence": {
+    "days": ["Tuesday", "Thursday"],
+    "articlesPerRun": 2,
+    "articlesPerWeek": 4
+  },
+  "authority": {
+    "allowedRisk": "R2",
+    "branchPrefix": "ai/daily-content-",
+    "exactArticlesPerChange": 2,
+    "proposalApprover": "seo-policy-bot",
+    "requiredCheck": "Type, content, security, build and route checks",
+    "postDeployAuditRequired": true,
+    "deterministicRollbackAllowed": true
+  },
+  "requiredGates": [
+    "two approved R2 proposals with complete evidence and measurement",
+    "no existing registry page mutation",
+    "content quality and financial-claim checks",
+    "typecheck, lint, unit tests, dependency audit, build and prerender",
+    "route, canonical, sitemap, noindex, schema, accessibility and Lighthouse checks"
+  ],
+  "forbidden": [
+    "publishing more or fewer than two articles in one automated change",
+    "R3 or R4 changes",
+    "external outreach or email sending",
+    "merging after any failed or missing gate",
+    "recording a human as the automated proposal approver"
+  ],
+  "checksum": "1b89ae731f9a79ac197d5ac839281dd40461f93057b5aaa837772e7ddcef2494"
+}

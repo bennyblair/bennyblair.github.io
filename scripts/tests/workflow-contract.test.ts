@@ -20,6 +20,7 @@ test("the merge-capable website quality workflow runs every required repository 
     "qa:seo-new-pages",
     "qa:seo-risk",
     "qa:protected-cohort",
+    "qa:claims",
     "qa:content",
     "audit:prod",
     "build",
@@ -46,5 +47,9 @@ test("auto-merge waits for the complete website quality gate", () => {
   assert.match(workflow, /content-change:internal-links/);
   assert.match(workflow, /file\.status\s*!==\s*['"]modified['"]/);
   assert.match(workflow, /normalizeInternalLinks\(source\)\s*!==\s*normalizeInternalLinks\(previous\)/);
-  assert.doesNotMatch(workflow, /ai\/daily-content-/);
+  assert.match(workflow, /ai\/daily-content-/);
+  assert.match(workflow, /seo-risk:R2/);
+  assert.match(workflow, /automation-policy:daily-content-v1/);
+  assert.match(workflow, /articles\.length\s*!==\s*2/);
+  assert.match(workflow, /proposals\.length\s*!==\s*2/);
 });

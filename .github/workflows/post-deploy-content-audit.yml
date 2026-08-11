@@ -1,0 +1,56 @@
+name: Post-deploy content contract and rollback
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: post-deploy-content-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CONTENT_RELEASE_BASE: ${{ github.event.before }}
+      CONTENT_RELEASE_AUDIT_ATTEMPTS: "8"
+      CONTENT_RELEASE_AUDIT_DELAY_MS: "45000"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Audit the exact new production pages
+        id: release_audit
+        shell: bash
+        run: |
+          set +e
+          npm run audit:live:content-release
+          code=$?
+          set -e
+          if [[ "$code" == "0" ]]; then
+            echo "classification=passed" >> "$GITHUB_OUTPUT"
+          elif [[ "$code" == "10" ]]; then
+            echo "classification=deterministic_content_defect" >> "$GITHUB_OUTPUT"
+          else
+            echo "classification=infrastructure_or_deploy_unknown" >> "$GITHUB_OUTPUT"
+            exit "$code"
+          fi
+      - name: Revert only the exact defective release
+        if: steps.release_audit.outputs.classification == 'deterministic_content_defect'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git revert --no-edit "$GITHUB_SHA"
+          git push origin HEAD:main
+          echo "Reverted exact release $GITHUB_SHA after repeated deterministic production-contract failures."
+          exit 1

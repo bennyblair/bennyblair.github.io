@@ -35,7 +35,7 @@ const cityData: Record<string, CityData> = {
     description: "Commercial lending solutions in Sydney, NSW — bridging finance, private lending, SMSF loans, caveat loans, and business finance through Emet Capital's national lender network.",
     keywords: "commercial finance sydney, business loans sydney, bridging finance sydney, private lending sydney, commercial lending nsw",
     intro: "Sydney is Australia's most active commercial lending market. Whether you're dealing with auction pressure in the inner city, a development milestone on the fringe, or an urgent refinance deadline on a premium asset, the right lender connection often determines the outcome.",
-    marketContext: "Australia's largest property market moves fast, and lender concentration limits, complex tenancy structures, and premium valuations can compress settlement windows in ways that standard bank processes can't accommodate. Emet Capital connects borrowers with lenders across 50+ institutions to match the right product to the urgency.",
+    marketContext: "Australia's largest property market moves fast, and lender concentration limits, complex tenancy structures, and premium valuations can compress settlement windows in ways that standard bank processes can't accommodate. Emet Capital compares suitable bank, non-bank and specialist lenders against the transaction's urgency and structure.",
   },
   melbourne: {
     name: "Melbourne",
@@ -292,22 +292,22 @@ const CityLandingPage = () => {
             <div className="bg-muted/50 rounded-2xl p-8 lg:p-12">
               <h2 className="text-2xl font-bold mb-4">Why Use Emet Capital in {data.name}?</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                As a commercial finance brokerage, Emet Capital provides access to over 50 lenders — from major banks and specialist non-bank lenders to private capital providers — across every category of commercial lending. We work with {data.name} borrowers on both straightforward and complex transactions, matching the right product and lender to the actual timing, security, and purpose of each deal.
+                As a commercial finance brokerage, Emet Capital compares major banks, specialist non-bank lenders and private capital providers across commercial lending categories. We work with {data.name} borrowers on both straightforward and complex transactions, matching the product and lender to the actual timing, security and purpose of each deal.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 This is commercial and business-purpose lending only. We do not provide consumer or retail home loan products.
               </p>
               <div className="grid sm:grid-cols-3 gap-6 mt-8">
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-accent mb-1">50+</p>
-                  <p className="text-sm text-muted-foreground">Lender relationships</p>
+                  <p className="text-3xl font-bold text-accent mb-1">Broad</p>
+                  <p className="text-sm text-muted-foreground">Lender panel</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-accent mb-1">24–48hr</p>
+                  <p className="text-3xl font-bold text-accent mb-1">Prompt</p>
                   <p className="text-sm text-muted-foreground">Initial assessment</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-accent mb-1">13</p>
+                  <p className="text-3xl font-bold text-accent mb-1">Diverse</p>
                   <p className="text-sm text-muted-foreground">Finance categories</p>
                 </div>
               </div>

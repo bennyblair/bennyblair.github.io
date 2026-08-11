@@ -285,24 +285,24 @@ const CaseStudies = () => {
         <section className="mt-16 py-12 bg-muted rounded-2xl">
           <div className="text-center max-w-4xl mx-auto px-8">
             <h2 className="text-3xl font-bold text-foreground mb-8">
-              Success by the Numbers
+              Commercial Finance Experience
             </h2>
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">$25M+</div>
-                <div className="text-muted-foreground">Total Loans Facilitated</div>
+                <div className="text-3xl font-bold text-primary mb-2">$150M+</div>
+                <div className="text-muted-foreground">Funds Facilitated</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">95%</div>
-                <div className="text-muted-foreground">Client Success Rate</div>
+                <div className="text-3xl font-bold text-primary mb-2">Tailored</div>
+                <div className="text-muted-foreground">Lender Matching</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">14 Days</div>
-                <div className="text-muted-foreground">Average Approval Time</div>
+                <div className="text-3xl font-bold text-primary mb-2">Variable</div>
+                <div className="text-muted-foreground">Transaction Timeframes</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-muted-foreground">Industries Served</div>
+                <div className="text-3xl font-bold text-primary mb-2">Broad</div>
+                <div className="text-muted-foreground">Commercial Experience</div>
               </div>
             </div>
           </div>

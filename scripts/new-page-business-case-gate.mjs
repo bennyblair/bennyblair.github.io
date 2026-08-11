@@ -1,16 +1,19 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { loadProposals, validateProposal } from "./lib/seo-proposal.mjs";
+import { loadAutomationPolicy, loadProposals, validateAutomationPolicy, validateProposal } from "./lib/seo-proposal.mjs";
 
 const repoRoot = process.cwd();
 const registryPath = "data/seo-page-registry.json";
 const current = JSON.parse(fs.readFileSync(path.join(repoRoot, registryPath), "utf8"));
 const proposals = loadProposals(repoRoot);
+const automationPolicy = loadAutomationPolicy(repoRoot);
 const errors = [];
 
+for (const error of validateAutomationPolicy(automationPolicy).errors) errors.push(`data/seo-content-automation-policy.json: ${error}`);
+
 for (const { file, proposal } of proposals) {
-  const validation = validateProposal(proposal);
+  const validation = validateProposal(proposal, { automationPolicy });
   for (const error of validation.errors) errors.push(`${file}: ${error}`);
 }
 
@@ -44,6 +47,7 @@ if (!baseRegistry) {
     }
     const proposal = matching[0].proposal;
     if (proposal.status !== "approved" && proposal.status !== "built") errors.push(`${page.path}: proposal is not approved`);
+    if (proposal.risk !== "R2") errors.push(`${page.path}: new indexable pages must be classified R2`);
     if (proposal.sourcePath !== page.sourcePath) errors.push(`${page.path}: proposal sourcePath does not match registry`);
   }
 }

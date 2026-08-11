@@ -189,7 +189,7 @@ const Services = () => {
     },
     {
       question: "Do you work with private lenders?",
-      answer: "Yes, we have access to 50+ lenders including major banks, non-bank lenders, private lenders, and specialist finance companies. This extensive network helps us secure competitive rates and flexible terms."
+      answer: "We compare relevant major-bank, non-bank, private and specialist lenders. The available panel and suitable terms depend on the transaction, security, purpose and current lender appetite."
     },
     {
       question: "What security is required for commercial loans?",
@@ -313,7 +313,7 @@ const Services = () => {
             Commercial Lending Services in Australia | Business & Property Finance
           </h1>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            Professional commercial finance brokers with access to 50+ lenders across Australia. 
+            Professional commercial finance brokers comparing bank, non-bank, private and specialist lenders across Australia.
             Fast approvals, competitive rates, and flexible terms for all your business financing needs.
           </p>
           
@@ -346,7 +346,7 @@ const Services = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                <span>Expert brokers with 15+ years experience</span>
+                <span>Specialist commercial finance experience</span>
               </div>
             </div>
           </div>
@@ -911,11 +911,11 @@ const Services = () => {
               <div className="grid md:grid-cols-3 gap-4 text-accent-foreground">
                 <div className="flex items-center justify-center space-x-2">
                   <CheckCircle className="w-5 h-5" />
-                  <span className="font-semibold">Access to 50+ Lenders</span>
+                  <span className="font-semibold">Broad Lender Comparison</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <CheckCircle className="w-5 h-5" />
-                  <span className="font-semibold">15+ Years Experience</span>
+                  <span className="font-semibold">Commercial Finance Experience</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <CheckCircle className="w-5 h-5" />

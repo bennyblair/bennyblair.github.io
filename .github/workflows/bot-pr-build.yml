@@ -24,6 +24,7 @@ jobs:
     env:
       PRERENDER_CONCURRENCY: "10"
       CONTENT_QA_BASE: origin/main
+      SEO_MAX_ALLOWED_RISK: "R3"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -57,11 +58,18 @@ jobs:
       - name: New-page business-case gate
         run: npm run qa:seo-new-pages
 
+      - name: Exact automated-content scope and provenance gate
+        if: startsWith(github.head_ref, 'ai/daily-content-')
+        run: npm run qa:content-automation-scope
+
       - name: Compute SEO change risk
         run: npm run qa:seo-risk
 
       - name: Protected indexing-recovery cohort gate
         run: npm run qa:protected-cohort
+
+      - name: Authority claim integrity gate
+        run: npm run qa:claims
 
       - name: Content quality gate
         run: npm run qa:content

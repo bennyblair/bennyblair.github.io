@@ -1,6 +1,27 @@
 import fs from "node:fs";
 import path from "node:path";
-import { normaliseRoute } from "./seo-control-plane.mjs";
+import { checksum, normaliseRoute } from "./seo-control-plane.mjs";
+
+const AUTOMATION_POLICY_PATH = "data/seo-content-automation-policy.json";
+
+export function loadAutomationPolicy(repoRoot = process.cwd()) {
+  const file = path.join(repoRoot, AUTOMATION_POLICY_PATH);
+  return JSON.parse(fs.readFileSync(file, "utf8"));
+}
+
+export function validateAutomationPolicy(policy) {
+  const errors = [];
+  if (policy?.schemaVersion !== 1) errors.push("automation policy schemaVersion must be 1");
+  if (policy?.policyId !== "daily-content-automerge") errors.push("automation policyId is invalid");
+  if (policy?.status !== "active") errors.push("automation policy is not active");
+  if (policy?.authority?.allowedRisk !== "R2") errors.push("automation policy may authorize only R2");
+  if (policy?.cadence?.articlesPerRun !== 2 || policy?.cadence?.articlesPerWeek !== 4) {
+    errors.push("automation policy must authorize exactly two articles per run and four per week");
+  }
+  const actual = checksum({ ...policy, checksum: undefined });
+  if (policy?.checksum !== actual) errors.push(`automation policy checksum mismatch; expected ${actual}`);
+  return { errors, checksum: actual };
+}
 
 export const SCORE_WEIGHTS = Object.freeze({
   commercialFit: 25,
@@ -37,7 +58,7 @@ export function calculateOpportunityScore(score) {
   return Math.max(0, positive - penalty);
 }
 
-export function validateProposal(proposal) {
+export function validateProposal(proposal, { automationPolicy } = {}) {
   const errors = [];
   const requiredStrings = ["proposalId", "pageId", "path", "sourcePath", "status", "risk", "problem"];
   for (const key of requiredStrings) if (!proposal?.[key] || typeof proposal[key] !== "string") errors.push(`${key} is required`);
@@ -70,7 +91,19 @@ export function validateProposal(proposal) {
   if (proposal?.status === "approved") {
     if (computedScore < 55) errors.push("scores below 55 cannot be approved");
     if (!proposal.approval?.approvedBy || !proposal.approval?.approvedAt) errors.push("approved proposal requires approver and timestamp");
-    if (["R2", "R3", "R4"].includes(proposal.risk) && proposal.approval?.automated === true) {
+    if (proposal.approval?.automated === true) {
+      const policyValidation = automationPolicy
+        ? validateAutomationPolicy(automationPolicy)
+        : { errors: ["active automation policy is required"] };
+      errors.push(...policyValidation.errors);
+      if (proposal.risk !== "R2") errors.push("automated page proposals must be R2");
+      if (proposal.approval?.approvedBy !== automationPolicy?.authority?.proposalApprover) {
+        errors.push("automated proposal approver does not match policy");
+      }
+      if (proposal.approval?.policyId !== automationPolicy?.policyId) errors.push("automated proposal policyId is invalid");
+      if (proposal.approval?.policyVersion !== automationPolicy?.version) errors.push("automated proposal policyVersion is invalid");
+      if (proposal.approval?.policyChecksum !== automationPolicy?.checksum) errors.push("automated proposal policyChecksum is invalid");
+    } else if (["R2", "R3", "R4"].includes(proposal.risk) && !proposal.approval?.approvedBy) {
       errors.push(`${proposal.risk} proposal requires human approval`);
     }
     if (computedScore < 70 && !proposal.approval?.exceptionReason) {

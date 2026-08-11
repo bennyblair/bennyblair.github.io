@@ -1,6 +1,19 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { checksum } from "../lib/seo-control-plane.mjs";
 import { calculateOpportunityScore, validateProposal } from "../lib/seo-proposal.mjs";
+
+function automationPolicy() {
+  const policy = {
+    schemaVersion: 1,
+    policyId: "daily-content-automerge",
+    version: "2026-08-12.1",
+    status: "active",
+    cadence: { articlesPerRun: 2, articlesPerWeek: 4 },
+    authority: { allowedRisk: "R2", proposalApprover: "seo-policy-bot" },
+  };
+  return { ...policy, checksum: checksum({ ...policy, checksum: undefined }) };
+}
 
 function proposal(overrides: Record<string, unknown> = {}) {
   return {
@@ -40,12 +53,31 @@ test("opportunity score applies bounded components and penalties", () => {
   );
 });
 
-test("approved higher-risk proposals require a human approval", () => {
+test("approved R3 proposals cannot claim automated approval", () => {
   assert.deepEqual(validateProposal(proposal()).errors, []);
   assert.match(
-    validateProposal(proposal({ approval: { approvedBy: "bot", approvedAt: "2026-08-06T00:00:00Z", automated: true } })).errors.join(" "),
-    /human approval/,
+    validateProposal(proposal({
+      risk: "R3",
+      approval: { approvedBy: "seo-policy-bot", approvedAt: "2026-08-06T00:00:00Z", automated: true },
+    }), { automationPolicy: automationPolicy() }).errors.join(" "),
+    /must be R2/,
   );
+});
+
+test("R2 automation requires truthful policy provenance", () => {
+  const policy = automationPolicy();
+  const approved = proposal({
+    approval: {
+      approvedBy: "seo-policy-bot",
+      approvedAt: "2026-08-12T00:00:00Z",
+      automated: true,
+      policyId: policy.policyId,
+      policyVersion: policy.version,
+      policyChecksum: policy.checksum,
+    },
+  });
+  assert.deepEqual(validateProposal(approved, { automationPolicy: policy }).errors, []);
+  assert.match(validateProposal(approved).errors.join(" "), /active automation policy/);
 });
 
 test("borderline proposals require an exception and low scores are rejected", () => {

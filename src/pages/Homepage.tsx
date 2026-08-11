@@ -336,12 +336,11 @@ const Homepage = () => {
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                Australia's Leading Commercial Finance Specialists
+                Commercial Finance Specialists for Complex Australian Transactions
               </h2>
               <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-                With over 15 years of expertise in Australian commercial lending, we've facilitated over $2 billion in business finance across all major markets. 
-                Our specialized team delivers fast settlements on complex deals that traditional banks won't touch, offering competitive rates 
-                for property development, business acquisition, working capital, bridging finance, and specialized commercial lending solutions.
+                Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending.
+                We compare suitable bank, non-bank and private-credit options against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.
               </p>
             </div>
           </ScrollReveal>
@@ -351,7 +350,7 @@ const Homepage = () => {
             <ScrollReveal animation="fade-up" delay={0}>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  <AnimatedCounter prefix="$" end={2} suffix="B+" className="" />
+                  $150M+
                 </div>
                 <div className="text-sm text-muted-foreground">Commercial Loans Facilitated</div>
               </div>
@@ -359,25 +358,25 @@ const Homepage = () => {
             <ScrollReveal animation="fade-up" delay={100}>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  <AnimatedCounter end={48} suffix="HR" className="" />
+                  Broker-led
                 </div>
-                <div className="text-sm text-muted-foreground">Fast Approval Process</div>
+                <div className="text-sm text-muted-foreground">Structured Lender Comparison</div>
               </div>
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={200}>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  <AnimatedCounter end={15} suffix="+" className="" />
+                  Australia-wide
                 </div>
-                <div className="text-sm text-muted-foreground">Years Industry Experience</div>
+                <div className="text-sm text-muted-foreground">Commercial Finance Coverage</div>
               </div>
             </ScrollReveal>
             <ScrollReveal animation="fade-up" delay={300}>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  <AnimatedCounter end={95} suffix="%" className="" />
+                  Case-by-case
                 </div>
-                <div className="text-sm text-muted-foreground">Client Success Rate</div>
+                <div className="text-sm text-muted-foreground">Lender and Structure Assessment</div>
               </div>
             </ScrollReveal>
           </div>
@@ -490,16 +489,16 @@ const Homepage = () => {
                 Why <span className="gradient-text">Emet Capital</span>
               </h2>
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Industry-leading metrics that speak to our expertise
+                A transaction process built around evidence, lender fit and clear trade-offs
               </p>
             </div>
           </ScrollReveal>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {[
-              { label: "Approval Speed", value: 90, suffix: "% within 48hrs" },
-              { label: "Deal Success Rate", value: 87, suffix: "% approved" },
-              { label: "Google Rating", value: 5, suffix: " stars (18 reviews)" }
+              { label: "Lender Matching", value: "Structured", detail: "Compared against purpose, security and timing" },
+              { label: "Transaction Review", value: "Case-by-case", detail: "No guaranteed approval or settlement claim" },
+              { label: "Broker Support", value: "Direct", detail: "Commercial-finance guidance from enquiry to settlement" }
             ].map((metric, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 150}>
                 <TiltCard className="rounded-2xl h-full">
@@ -509,16 +508,10 @@ const Homepage = () => {
                     </CardHeader>
                     <CardContent>
                       <div className="text-4xl font-bold gradient-text mb-4">
-                        <AnimatedCounter end={metric.value} suffix={metric.suffix.includes('stars') ? '' : '%'} className="" />
-                      </div>
-                      <div className="progress-bar mb-4">
-                        <div 
-                          className="progress-fill" 
-                          style={{ width: `${metric.value === 5 ? 100 : metric.value}%` }}
-                        />
+                        {metric.value}
                       </div>
                       <p className="text-sm text-muted-foreground">
-                        {metric.suffix.replace('%', '')}
+                        {metric.detail}
                       </p>
                     </CardContent>
                   </Card>
@@ -734,8 +727,8 @@ const Homepage = () => {
               
               <div className="grid sm:grid-cols-3 gap-8 mb-12">
                 {[
-                  { icon: Award, label: "15+", description: "Years Experience" },
-                  { icon: Users, label: "300+", description: "Successful Deals" },
+                  { icon: Award, label: "Specialist", description: "Commercial Finance Focus" },
+                  { icon: Users, label: "Complex", description: "Transaction Experience" },
                   { icon: DollarSign, label: "$150M+", description: "Funds Facilitated" }
                 ].map((stat, index) => (
                   <ScrollReveal key={index} animation="fade-up" delay={index * 100}>

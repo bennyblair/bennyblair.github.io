@@ -9,21 +9,21 @@
     "expiresAt": "",
     "displayQualification": "",
     "schemaAllowed": false,
-    "status": "legacy-retained",
+    "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   },
-  "loans-facilitated-2b": {
-    "statement": "$2B+ commercial loans facilitated",
-    "definition": "Aggregate value of commercial loan transactions attributed to the stated experience of the Emet Capital team.",
-    "measurementPeriod": "",
-    "source": "",
+  "funds-facilitated-150m": {
+    "statement": "$150M+ funds facilitated",
+    "definition": "Aggregate value of commercial finance facilities confirmed by the product owner for public use.",
+    "measurementPeriod": "Through 2026-08-12",
+    "source": "Product owner confirmation recorded 2026-08-12",
     "owner": "Emet Capital",
-    "verifiedAt": "",
-    "expiresAt": "",
-    "displayQualification": "Across the team's stated industry experience.",
+    "verifiedAt": "2026-08-12",
+    "expiresAt": "2027-02-12",
+    "displayQualification": "Across commercial finance transactions facilitated by Emet Capital.",
     "schemaAllowed": false,
-    "status": "legacy-retained",
-    "riskAcceptedAt": "2026-07-30"
+    "status": "verified",
+    "riskAcceptedAt": "2026-08-12"
   },
   "client-success-95": {
     "statement": "95% client success rate",
@@ -35,7 +35,7 @@
     "expiresAt": "",
     "displayQualification": "",
     "schemaAllowed": false,
-    "status": "legacy-retained",
+    "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   },
   "deals-approved-87": {
@@ -48,7 +48,7 @@
     "expiresAt": "",
     "displayQualification": "",
     "schemaAllowed": false,
-    "status": "legacy-retained",
+    "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   },
   "approval-within-48-hours-90": {
@@ -61,7 +61,7 @@
     "expiresAt": "",
     "displayQualification": "Timing depends on security, documents, lender assessment and borrower readiness.",
     "schemaAllowed": false,
-    "status": "legacy-retained",
+    "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   },
   "google-rating-5-18": {
@@ -74,7 +74,7 @@
     "expiresAt": "",
     "displayQualification": "Review count and rating should be checked against the live profile before renewal.",
     "schemaAllowed": true,
-    "status": "legacy-retained",
+    "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   },
   "industry-experience-15-years": {
@@ -87,7 +87,7 @@
     "expiresAt": "",
     "displayQualification": "",
     "schemaAllowed": false,
-    "status": "legacy-retained",
+    "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   },
   "lender-network-50": {
@@ -100,7 +100,7 @@
     "expiresAt": "",
     "displayQualification": "Availability and lender appetite vary by transaction.",
     "schemaAllowed": false,
-    "status": "legacy-retained",
+    "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   }
 }

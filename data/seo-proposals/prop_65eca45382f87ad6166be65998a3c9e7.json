@@ -5,7 +5,7 @@
   "path": "/resources/guides/bridging-finance-subdivision-registration-delay-australia",
   "sourcePath": "src/content/guides/bridging-finance-subdivision-registration-delay-australia.md",
   "status": "approved",
-  "risk": "R1",
+  "risk": "R2",
   "problem": "Subdivision registration delays can hold up contracted lot settlements after construction debt reaches maturity, leaving developers without a clear comparison of extension, bridge and residual-stock pathways.",
   "targeting": {
     "primaryQuery": "bridging finance subdivision registration delay Australia",
