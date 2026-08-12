@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-08-12T00:04:28.419Z",
+  "generatedAt": "2026-08-12T00:17:54.411Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -7966,6 +7966,49 @@
       "programIds": []
     },
     {
+      "pageId": "pg_81167ea1638c4aa2968488849e738b90",
+      "path": "/resources/guides/container-demurrage-finance-australian-importers",
+      "sourcePath": "src/content/guides/container-demurrage-finance-australian-importers.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "container demurrage finance Australia",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/business-finance",
+        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 2,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-09",
+        "expiresAt": "2026-11-09"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_53e1c26b08ad4a37a5a65a45765df434",
       "path": "/resources/guides/contract-mobilisation-finance-australia",
       "sourcePath": "src/content/guides/contract-mobilisation-finance-australia.md",
@@ -8832,6 +8875,49 @@
         "state": "observing",
         "decision": "none",
         "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_1bc6c7789b8641bba90b6518f82efe16",
+      "path": "/resources/guides/fitout-finance-landlord-contribution-delay-australia",
+      "sourcePath": "src/content/guides/fitout-finance-landlord-contribution-delay-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "fitout finance landlord contribution delay Australia",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/business-finance",
+        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 2,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-09",
+        "expiresAt": "2026-11-09"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21306,5 +21392,5 @@
       "programIds": []
     }
   ],
-  "checksum": "9b089baeb6ea51a8b42c9d94ddd30aa3e620c563464e20d3e0adfe106d5276ff"
+  "checksum": "2df52819a4d595e580e5ef398bbc775b558a5758e2636cbe955d23950e3277e1"
 }
