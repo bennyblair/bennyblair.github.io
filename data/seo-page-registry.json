@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-08-07T00:17:50.830Z",
+  "generatedAt": "2026-08-12T00:04:28.419Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -2368,6 +2368,49 @@
         "primaryOutcome": "eligible_discovery",
         "successRuleId": "sr_eligible_discovery_v1",
         "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_8b51613413dd46b2a7bed2f4f65718f1",
+      "path": "/resources/guides/anti-dumping-duty-trade-finance-australia",
+      "sourcePath": "src/content/guides/anti-dumping-duty-trade-finance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "anti dumping duty trade finance Australia",
+        "intent": "commercial informational / importer finance",
+        "designatedServicePagePath": "/services/business-finance",
+        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 4,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-08",
+        "expiresAt": "2026-11-08"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
       },
       "programIds": []
     },
@@ -14974,6 +15017,49 @@
       ]
     },
     {
+      "pageId": "pg_1e28143228b644cc8e3a15efd8bad3c0",
+      "path": "/resources/guides/working-capital-finance-insurance-claim-delay-australia",
+      "sourcePath": "src/content/guides/working-capital-finance-insurance-claim-delay-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "working capital finance insurance claim delay Australia",
+        "intent": "transactional / urgent cash flow",
+        "designatedServicePagePath": "/services/business-finance",
+        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 3,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-08",
+        "expiresAt": "2026-11-08"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_99cd80de7b17476fa294e43a4e5fdf91",
       "path": "/resources/guides/working-capital-loans-for-smes",
       "sourcePath": "src/content/guides/working-capital-loans-for-smes.md",
@@ -21220,5 +21306,5 @@
       "programIds": []
     }
   ],
-  "checksum": "13d89f13ce0513f5810a70395c78e33f18182648eab054ee2f7daadaa818d26d"
+  "checksum": "9b089baeb6ea51a8b42c9d94ddd30aa3e620c563464e20d3e0adfe106d5276ff"
 }
