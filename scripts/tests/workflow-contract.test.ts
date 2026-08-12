@@ -53,4 +53,9 @@ test("auto-merge waits for the complete website quality gate", () => {
   assert.match(workflow, /automation-policy:daily-content-v1/);
   assert.match(workflow, /articles\.length\s*!==\s*2/);
   assert.match(workflow, /proposals\.length\s*!==\s*2/);
+  assert.match(workflow, /group:\s*auto-merge-\$\{\{ github\.event\.pull_request\.number \}\}/);
+  assert.match(workflow, /latest\.data\.merged_at/);
+  assert.match(workflow, /id:\s*merge_release/);
+  assert.match(workflow, /audit:live:content-release/);
+  assert.match(workflow, /git revert --no-edit/);
 });

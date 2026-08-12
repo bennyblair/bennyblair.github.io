@@ -9,6 +9,10 @@ permissions:
   pull-requests: write
   checks: read
 
+concurrency:
+  group: auto-merge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
   auto-merge:
     name: Verify scope and merge
@@ -34,8 +38,10 @@ jobs:
       )
     steps:
       - name: Verify authorized scope and merge after the shared gate
+        id: merge_release
         uses: actions/github-script@v7
         with:
+          result-encoding: string
           script: |
             const pr = context.payload.pull_request;
             const { owner, repo } = context.repo;
@@ -168,6 +174,15 @@ jobs:
               core.setFailed(`Timed out waiting for ${requiredCheck}.`);
               return;
             }
+            const latest = await github.rest.pulls.get({ owner, repo, pull_number: pr.number });
+            if (latest.data.merged_at) {
+              core.info(`PR #${pr.number} was already merged by another authorized run.`);
+              return latest.data.merge_commit_sha;
+            }
+            if (latest.data.state !== 'open') {
+              core.setFailed(`PR #${pr.number} closed without merging.`);
+              return;
+            }
             const result = await github.rest.pulls.merge({
               owner,
               repo,
@@ -176,4 +191,52 @@ jobs:
               merge_method: 'squash',
               commit_title: pr.title,
             });
-            if (!result.data.merged) core.setFailed(result.data.message || 'GitHub refused the merge.');
+            if (!result.data.merged) {
+              core.setFailed(result.data.message || 'GitHub refused the merge.');
+              return '';
+            }
+            return result.data.sha;
+
+      - name: Checkout the exact merged release
+        if: steps.merge_release.outputs.result != ''
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.merge_release.outputs.result }}
+          fetch-depth: 0
+
+      - name: Set up Node for the production contract
+        if: steps.merge_release.outputs.result != ''
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install release-audit dependencies
+        if: steps.merge_release.outputs.result != ''
+        run: npm ci --ignore-scripts
+
+      - name: Audit live pages and revert only deterministic defects
+        if: steps.merge_release.outputs.result != ''
+        id: live_contract
+        env:
+          CONTENT_RELEASE_AUDIT_ATTEMPTS: "8"
+          CONTENT_RELEASE_AUDIT_DELAY_MS: "45000"
+        shell: bash
+        run: |
+          set +e
+          npm run audit:live:content-release
+          code=$?
+          set -e
+          if [[ "$code" == "0" ]]; then
+            exit 0
+          fi
+          if [[ "$code" != "10" ]]; then
+            echo "Production infrastructure/deployment remained indeterminate; automatic revert is not authorized."
+            exit "$code"
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git revert --no-edit "${{ steps.merge_release.outputs.result }}"
+          git push origin HEAD:main
+          echo "Reverted exact release ${{ steps.merge_release.outputs.result }} after repeated deterministic production-contract failures."
+          exit 1
