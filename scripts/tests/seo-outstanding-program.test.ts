@@ -69,4 +69,15 @@ test("llms.txt curates every priority program route", () => {
       `${target.path} must remain in the curated llms.txt source`,
     );
   }
+
+  const llmAuditRequiredRoutes = [
+    "/services/business-finance",
+    "/resources/guides/commercial-property-loans-australia-complete-guide",
+    "/resources/guides/what-is-a-second-mortgage",
+    "/resources/guides/what-is-private-lending-australia",
+    "/resources/guides/business-lenders-australia-comparison-broker-commentary",
+  ];
+  for (const route of llmAuditRequiredRoutes) {
+    assert.ok(generator.includes(`"${route}"`), `${route} must remain curated in llms.txt`);
+  }
 });

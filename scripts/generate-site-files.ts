@@ -147,6 +147,7 @@ function renderRedirects() {
 
 function renderLlmsTxt() {
   const primaryPages = [
+    ["/services/business-finance", "Business finance"],
     ["/services/commercial-property-finance", "Commercial property finance"],
     ["/services/commercial-property-development", "Property development finance"],
     ["/services/caveat-loans", "Caveat loans"],
@@ -163,6 +164,19 @@ function renderLlmsTxt() {
     ["/about", "About Emet Capital"],
   ];
   const decisionGuides = [
+    [
+      "/resources/guides/commercial-property-loans-australia-complete-guide",
+      "Commercial property loans Australia guide",
+    ],
+    ["/resources/guides/what-is-a-second-mortgage", "Second mortgage explainer"],
+    [
+      "/resources/guides/what-is-private-lending-australia",
+      "Private lending Australia explainer",
+    ],
+    [
+      "/resources/guides/business-lenders-australia-comparison-broker-commentary",
+      "Business lenders Australia comparison",
+    ],
     ["/resources/guides/caveat-loans-australia-complete-guide", "Caveat loans Australia guide"],
     ["/resources/guides/urgent-caveat-loans", "Urgent caveat loan readiness guide"],
     [
