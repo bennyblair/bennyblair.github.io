@@ -1,7 +1,8 @@
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { spawn } from "node:child_process";
-import { launch } from "chrome-launcher";
+import { Launcher } from "chrome-launcher";
 import lighthouse from "lighthouse";
 import { chromium } from "playwright";
 
@@ -37,12 +38,37 @@ async function waitForPreview() {
 }
 
 let chrome;
+const lighthouseTempRoot = process.platform === "linux" ? "/tmp" : os.tmpdir();
+const lighthouseTempDir = fs.mkdtempSync(path.join(lighthouseTempRoot, "emet-lighthouse-"));
+const chromeProfileDir = path.join(lighthouseTempDir, "profile");
+const chromeLauncherStateDir = path.join(lighthouseTempDir, "launcher");
+fs.mkdirSync(chromeProfileDir, { recursive: true });
+fs.mkdirSync(chromeLauncherStateDir, { recursive: true });
+// chrome-launcher's WSL temp-directory fallback depends on Windows environment
+// variables that may be absent in unattended shells. Keep all launcher state in
+// an explicit Linux temp root so no `undefined:/` path can leak into the repo.
+process.env.TEMP = lighthouseTempDir;
+process.env.TMP = lighthouseTempDir;
 try {
   await waitForPreview();
-  chrome = await launch({
+  chrome = new Launcher({
     chromePath: chromium.executablePath(),
-    chromeFlags: ["--headless", "--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage"],
+    // chrome-launcher rewrites its managed profile path to Windows syntax when it
+    // detects WSL, even when chromePath points to Playwright's Linux Chromium.
+    // Manage the temporary profile explicitly so local and CI runs behave alike.
+    userDataDir: false,
+    chromeFlags: [
+      "--headless",
+      "--no-sandbox",
+      "--disable-gpu",
+      "--disable-dev-shm-usage",
+      `--user-data-dir=${chromeProfileDir}`,
+    ],
   });
+  // Avoid chrome-launcher's WSL-specific makeWin32TmpDir fallback, which can
+  // resolve missing Windows variables into a literal `undefined:/` directory.
+  chrome.makeTmpDir = () => chromeLauncherStateDir;
+  await chrome.launch();
   const result = await lighthouse(baseUrl, {
     port: chrome.port,
     output: "json",
@@ -123,4 +149,5 @@ try {
     }
   }
   preview.kill();
+  fs.rmSync(lighthouseTempDir, { recursive: true, force: true });
 }
