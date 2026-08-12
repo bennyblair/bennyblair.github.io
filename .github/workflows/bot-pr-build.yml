@@ -24,7 +24,7 @@ jobs:
     env:
       PRERENDER_CONCURRENCY: "10"
       CONTENT_QA_BASE: origin/main
-      SEO_MAX_ALLOWED_RISK: "R3"
+      SEO_MAX_ALLOWED_RISK: ${{ startsWith(github.head_ref, 'ai/daily-content-') && 'R2' || 'R3' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

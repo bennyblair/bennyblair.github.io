@@ -29,6 +29,16 @@ const changed = git(["diff", "--name-status", mergeBase, "HEAD"]).trim().split(/
 const untracked = git(["ls-files", "--others", "--exclude-standard"]).trim().split(/\r?\n/).filter(Boolean);
 for (const file of untracked) changed.push(`A\t${file}`);
 
+let branchName = process.env.GITHUB_HEAD_REF || "";
+if (!branchName) {
+  try { branchName = git(["branch", "--show-current"]).trim(); } catch {}
+}
+const governedDailyContent = branchName.startsWith("ai/daily-content-");
+const governedGeneratedFiles = new Set([
+  "data/seo-page-registry.json",
+  "data/seo-programs/index.json",
+]);
+
 const results = changed.map((line) => {
   const [rawStatus, ...parts] = line.split("\t");
   const relativePath = parts.at(-1);
@@ -41,7 +51,16 @@ const results = changed.map((line) => {
   if (status !== "D" && fs.existsSync(path.join(repoRoot, relativePath))) {
     current = fs.readFileSync(path.join(repoRoot, relativePath), "utf8");
   }
-  return { relativePath, status, ...classifyFileChange({ relativePath, status, previous, current }) };
+  const classification = classifyFileChange({ relativePath, status, previous, current });
+  if (governedDailyContent && governedGeneratedFiles.has(relativePath)) {
+    return {
+      relativePath,
+      status,
+      risk: "R2",
+      reason: "generated metadata in a governed daily-content branch; exact scope gate is required",
+    };
+  }
+  return { relativePath, status, ...classification };
 });
 
 const risk = highestRisk(results);

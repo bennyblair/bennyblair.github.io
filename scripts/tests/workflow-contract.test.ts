@@ -37,6 +37,7 @@ test("the merge-capable website quality workflow runs every required repository 
       `.github/workflows/bot-pr-build.yml must execute ${script}`,
     );
   }
+  assert.match(workflow, /startsWith\(github\.head_ref, 'ai\/daily-content-'\).*'R2'.*'R3'/);
 });
 
 test("auto-merge waits for the complete website quality gate", () => {
