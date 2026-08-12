@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_a097e643d2e8d6e63fc998bb447e6fee",
+  "pageId": "pg_81167ea1638c4aa2968488849e738b90",
+  "path": "/resources/guides/container-demurrage-finance-australian-importers",
+  "sourcePath": "src/content/guides/container-demurrage-finance-australian-importers.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Australian importers can face demurrage, detention and storage payments before delayed inventory converts to sales or receivables, while most logistics explanations do not address the financing decision or its operational limits.",
+  "targeting": {
+    "primaryQuery": "container demurrage finance Australia",
+    "intent": "transactional / importer cash flow",
+    "audience": "Australian business importers facing documented container-related charges and a temporary cash-flow gap",
+    "country": "AU",
+    "pillar": "business finance"
+  },
+  "uniqueValue": [
+    "Defines demurrage, detention and storage separately before connecting them to an importer's cash conversion cycle.",
+    "Prioritises stopping further accrual and preserving dispute rights before comparing trade, receivables and working-capital structures."
+  ],
+  "evidence": [
+    {
+      "type": "fortnightly_research",
+      "path": "plans/fortnightly-unique-content-ideas-2026-08-07.md",
+      "date": "2026-08-07",
+      "summary": "Australian freight results describe demurrage and detention pressure, but importer-focused finance guidance remains thin."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.accc.gov.au/about-us/publications/serial-publications/container-stevedoring-monitoring-reports",
+      "summary": "ACCC monitoring reports provide authoritative context on Australian container stevedoring and sector operations."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/business-finance",
+      "/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports"
+    ],
+    "to": [
+      "/resources/guides/working-capital-loans-for-smes",
+      "/resources/guides/supplier-deposit-finance-high-value-import-orders-australia",
+      "/resources/guides/invoice-finance-australia-complete-guide"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted business-finance engagement at review.",
+    "exitRule": "Consolidate only after complete review evidence shows persistent low value or material overlap with a stronger trade-finance page.",
+    "firstReviewAt": "2026-11-06T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 23,
+      "demonstratedDemand": 12,
+      "top20Probability": 10,
+      "conversionPotential": 12,
+      "evidenceAuthority": 9,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 80
+  },
+  "approval": {
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-08-12T10:25:00+10:00",
+    "automated": true,
+    "basis": "Approved under the explicit two-article daily-content automation policy after migration onto the current main branch.",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-08-12.1",
+    "policyChecksum": "1b89ae731f9a79ac197d5ac839281dd40461f93057b5aaa837772e7ddcef2494"
+  }
+}

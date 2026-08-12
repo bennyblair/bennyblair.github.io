@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_d2ea167e5cce6a4ab6fb63cf0a6be9e7",
+  "pageId": "pg_1bc6c7789b8641bba90b6518f82efe16",
+  "path": "/resources/guides/fitout-finance-landlord-contribution-delay-australia",
+  "sourcePath": "src/content/guides/fitout-finance-landlord-contribution-delay-australia.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Business tenants can face contractor payment deadlines before a reimbursement-style landlord fit-out contribution becomes payable, but existing fit-out guides do not separate the lease entitlement from the temporary finance decision.",
+  "targeting": {
+    "primaryQuery": "fitout finance landlord contribution delay Australia",
+    "intent": "transactional / cash-flow gap",
+    "audience": "Australian business tenants funding approved fit-out costs under an executed commercial lease",
+    "country": "AU",
+    "pillar": "business finance"
+  },
+  "uniqueValue": [
+    "Separates lease entitlement, evidence and dispute questions from the lender's assessment of a temporary cash-flow gap.",
+    "Maps the reimbursement sequence from executed documents and approved works through claim review, payment and fallback exit planning."
+  ],
+  "evidence": [
+    {
+      "type": "fortnightly_research",
+      "path": "plans/fortnightly-unique-content-ideas-2026-08-07.md",
+      "date": "2026-08-07",
+      "summary": "Australian results explain landlord fit-out contributions but rarely address how tenants fund the reimbursement timing gap."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.smallbusiness.nsw.gov.au/about-retail-leases/retail-lease-basics",
+      "summary": "NSW Small Business Commissioner guidance on the commercial lease framework and documented tenant obligations."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/business-finance",
+      "/resources/guides/working-capital-loans-for-smes"
+    ],
+    "to": [
+      "/resources/guides/equipment-finance-and-leasing-australia",
+      "/resources/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia",
+      "/resources/guides/invoice-finance-australia-complete-guide"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted business-finance engagement at review.",
+    "exitRule": "Consolidate only after complete review evidence shows persistent low value or material overlap with a stronger fit-out page.",
+    "firstReviewAt": "2026-11-06T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 23,
+      "demonstratedDemand": 13,
+      "top20Probability": 10,
+      "conversionPotential": 13,
+      "evidenceAuthority": 8,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 81
+  },
+  "approval": {
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-08-12T10:25:00+10:00",
+    "automated": true,
+    "basis": "Approved under the explicit two-article daily-content automation policy after migration onto the current main branch.",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-08-12.1",
+    "policyChecksum": "1b89ae731f9a79ac197d5ac839281dd40461f93057b5aaa837772e7ddcef2494"
+  }
+}
