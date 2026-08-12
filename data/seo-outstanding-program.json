@@ -1,6 +1,10 @@
 {
   "programId": "seo-ai-growth-outstanding-2026-08-05",
   "site": "https://emetcapital.com.au",
+  "release": {
+    "commit": "c18cbee",
+    "mergedAt": "2026-08-05T15:57:57+10:00"
+  },
   "baseline": {
     "source": "Google Search Console Performance, Web search",
     "windowStart": "2026-05-03",

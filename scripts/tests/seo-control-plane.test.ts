@@ -71,7 +71,7 @@ test("all unreviewed legacy metadata fails closed for automated mutation", () =>
   for (const page of unreviewed) assert.equal(page.governance.maxAutomatedChangeRisk, "R0", page.path);
 });
 
-test("all protected remediation routes are represented, including noindex-pending-evidence records", () => {
+test("all protected remediation and active growth-observation routes are represented", () => {
   const protectedSnapshot = JSON.parse(
     fs.readFileSync(path.join(repoRoot, "data", "indexing-recovery-protected-pages.json"), "utf8"),
   );
@@ -82,7 +82,29 @@ test("all protected remediation routes are represented, including noindex-pendin
       .map((page: any) => page.path),
   );
   assert.equal(expected.size, 111);
-  assert.deepEqual(actual, expected);
+  for (const route of expected) assert.ok(actual.has(route), route);
+
+  const outstanding = JSON.parse(
+    fs.readFileSync(path.join(repoRoot, "data", "seo-outstanding-program.json"), "utf8"),
+  );
+  const day28 = outstanding.reviewSchedule.find((item: any) => item.label === "day_28");
+  assert.ok(day28?.reviewAt);
+  for (const target of outstanding.targets) {
+    const registered = registry.pages.find((page: any) => page.path === target.path);
+    assert.equal(registered.lifecycle.protectedUntil, `${day28.reviewAt}T00:00:00+10:00`, target.path);
+    assert.equal(registered.lifecycle.reviewAt, registered.lifecycle.protectedUntil, target.path);
+  }
+});
+
+test("the reviewed startup guide has verified evidence metadata and a fresh observation window", () => {
+  const startup = registry.pages.find(
+    (page: any) => page.path === "/resources/guides/business-loans-for-startups-australia",
+  );
+  assert.equal(startup.metadataStatus, "verified");
+  assert.equal(startup.governance.sourceCount, 2);
+  assert.equal(startup.targeting.designatedServicePagePath, "/services/business-finance");
+  assert.equal(startup.lifecycle.protectedUntil, "2026-09-10T00:00:00+10:00");
+  assert.ok(startup.programIds.includes("seo-visibility-recovery-2026-08-13"));
 });
 
 test("protected pages require a valid emergency override for a material decision", () => {

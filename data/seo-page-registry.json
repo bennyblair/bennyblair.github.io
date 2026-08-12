@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-08-12T00:17:54.411Z",
+  "generatedAt": "2026-08-12T23:23:12.328Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -3098,10 +3098,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -3229,10 +3229,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4160,8 +4160,8 @@
       "sourcePath": "src/content/guides/business-loans-for-startups-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "business loan for startup business",
         "intent": "informational",
@@ -4176,26 +4176,29 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-16",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw SEO evidence review",
+        "reviewedAt": "2026-08-13",
+        "expiresAt": "2027-02-09"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-10T00:00:00+10:00",
+        "protectedUntil": "2026-09-10T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_content_review_2026_08_13",
+        "lastMaterialChangeAt": "2026-08-13"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
         "successRuleId": "sr_supporting_demand_v1",
         "exitRuleId": "er_low_value_overlap_v1"
       },
-      "programIds": []
+      "programIds": [
+        "seo-ai-growth-outstanding-2026-08-05",
+        "seo-visibility-recovery-2026-08-13"
+      ]
     },
     {
       "pageId": "pg_7b706af267cc4adf9d4b43dd832d177f",
@@ -4580,10 +4583,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -5151,10 +5154,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -8391,10 +8394,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -13823,10 +13826,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -14648,10 +14651,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -15680,10 +15683,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -16850,10 +16853,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -17184,7 +17187,7 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_155",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
@@ -17727,10 +17730,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -17893,7 +17896,7 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_155",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
@@ -17936,7 +17939,7 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_154",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
@@ -18635,10 +18638,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -19756,7 +19759,7 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_155",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
@@ -21392,5 +21395,5 @@
       "programIds": []
     }
   ],
-  "checksum": "2df52819a4d595e580e5ef398bbc775b558a5758e2636cbe955d23950e3277e1"
+  "checksum": "a193a23655a0f772ebc7968bd0ce8873bae9252becb07879db5b4fa0036705bc"
 }

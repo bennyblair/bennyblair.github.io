@@ -1,0 +1,42 @@
+{
+  "programId": "seo-visibility-recovery-2026-08-13",
+  "site": "https://emetcapital.com.au",
+  "createdAt": "2026-08-13T09:30:00+10:00",
+  "evidence": {
+    "source": "Google Search Console Search Analytics and URL Inspection API",
+    "currentWindow": "2026-07-13 to 2026-08-09",
+    "previousWindow": "2026-06-15 to 2026-07-12",
+    "technicalVerdict": "submitted_and_indexed_canonical_aligned",
+    "missingBusinessOutcome": "qualified organic leads unavailable"
+  },
+  "release": {
+    "changeId": "chg_startup_evidence_20260813",
+    "materialChangeAt": "2026-08-13T09:30:00+10:00"
+  },
+  "reviewSchedule": [
+    {
+      "label": "day_28",
+      "reviewAt": "2026-09-10",
+      "comparison": "First complete 28-day post-release window versus the immediately preceding comparable window"
+    }
+  ],
+  "guardrails": [
+    "No further material edit before the day-28 review without an emergency factual or compliance override",
+    "Impression loss alone does not authorise consolidation, noindex, redirect or deletion",
+    "Evaluate non-brand clicks and qualified service assists before a second content change"
+  ],
+  "targets": [
+    {
+      "path": "/resources/guides/business-loans-for-startups-australia",
+      "sourcePath": "src/content/guides/business-loans-for-startups-australia.md",
+      "primaryQuery": "business loan for startup business",
+      "designatedServicePage": "/services/business-finance",
+      "changeScope": "source, metadata and query-ownership review",
+      "baseline": {
+        "clicks": 1,
+        "impressions": 1233,
+        "averagePosition": 39.23
+      }
+    }
+  ]
+}

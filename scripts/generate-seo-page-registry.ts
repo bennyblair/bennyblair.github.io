@@ -65,6 +65,7 @@ function initialId(existing: JsonRecord | undefined, pathValue: string, sourcePa
 
 const outstanding = readJson("data/seo-outstanding-program.json");
 const growth = readJson("data/seo-growth-program.json");
+const visibilityRecovery = readJson("data/seo-visibility-recovery-program.json");
 const protectedRegistry = readJson("data/indexing-recovery-protected-pages.json");
 const existing = readExistingRegistry();
 const baselineCommit = existing?.bootstrap?.baselineCommit || execFileSync("git", ["rev-parse", "HEAD"], {
@@ -73,13 +74,61 @@ const baselineCommit = existing?.bootstrap?.baselineCommit || execFileSync("git"
 }).trim();
 
 const protectedByPath = new Map<string, JsonRecord>();
+function setProtection(route: string, item: JsonRecord) {
+  const prior = protectedByPath.get(route);
+  if (!prior || Date.parse(item.reviewAfter) > Date.parse(prior.reviewAfter)) protectedByPath.set(route, item);
+}
 for (const item of protectedRegistry.remediations || []) {
   for (const candidate of [item.url, item.canonicalUrl]) {
     const route = normaliseRoute(candidate);
     if (!route) continue;
-    const prior = protectedByPath.get(route);
-    if (!prior || Date.parse(item.reviewAfter) > Date.parse(prior.reviewAfter)) protectedByPath.set(route, item);
+    setProtection(route, item);
   }
+}
+
+const outstandingDay28 = (outstanding.reviewSchedule || []).find((item: JsonRecord) => item.label === "day_28");
+if (outstandingDay28?.reviewAt && outstanding.release?.mergedAt) {
+  const reviewAfter = `${outstandingDay28.reviewAt}T00:00:00+10:00`;
+  for (const target of outstanding.targets || []) {
+    const route = normaliseRoute(target.path);
+    if (!route) continue;
+    setProtection(route, {
+      reviewAfter,
+      mergedAt: outstanding.release.mergedAt,
+      changeId: `chg_commit_${outstanding.release.commit}`,
+      reason: "day-28 observation window for the SEO/AI growth release",
+    });
+  }
+}
+
+const visibilityDay28 = (visibilityRecovery.reviewSchedule || []).find((item: JsonRecord) => item.label === "day_28");
+if (visibilityDay28?.reviewAt && visibilityRecovery.release?.materialChangeAt) {
+  const reviewAfter = `${visibilityDay28.reviewAt}T00:00:00+10:00`;
+  for (const target of visibilityRecovery.targets || []) {
+    const route = normaliseRoute(target.path);
+    if (!route) continue;
+    setProtection(route, {
+      reviewAfter,
+      mergedAt: visibilityRecovery.release.materialChangeAt,
+      changeId: visibilityRecovery.release.changeId,
+      reason: "day-28 observation window for the visibility-recovery release",
+    });
+  }
+}
+
+// Preserve an active protection written by a reviewed material change. Without
+// this, regenerating the registry could silently reopen a page before its
+// observation window ends.
+for (const page of existing?.pages || []) {
+  const route = normaliseRoute(page.path);
+  const reviewAfter = page.lifecycle?.protectedUntil;
+  if (!route || !reviewAfter || Date.parse(reviewAfter) <= Date.now()) continue;
+  setProtection(route, {
+    reviewAfter,
+    mergedAt: page.lifecycle?.lastMaterialChangeAt,
+    changeId: page.lifecycle?.lastMaterialChangeId,
+    reason: "preserved active registry protection",
+  });
 }
 
 const programsByPath = new Map<string, Set<string>>();
@@ -92,6 +141,7 @@ function addProgram(pathValue: string, programId: string) {
 }
 for (const target of outstanding.targets || []) addProgram(target.path, outstanding.programId);
 for (const target of growth.targets || []) addProgram(target.path, growth.programId);
+for (const target of visibilityRecovery.targets || []) addProgram(target.path, visibilityRecovery.programId);
 for (const route of protectedByPath.keys()) addProgram(route, outstanding.programId);
 
 const bootstrapChangedAt = "2026-08-06T00:00:00.000Z";
@@ -130,9 +180,9 @@ function lifecycleFor(pathValue: string, indexability: string, decision = "none"
     decision,
     reviewAt: protectedUntil || contentRiskReview,
     protectedUntil,
-    lastMaterialChangeId: protection?.sourcePrs?.length
+    lastMaterialChangeId: protection?.changeId || (protection?.sourcePrs?.length
       ? `chg_pr_${protection.sourcePrs.join("_")}`
-      : "chg_registry_bootstrap_20260806",
+      : "chg_registry_bootstrap_20260806"),
     lastMaterialChangeAt: protection?.mergedAt || bootstrapChangedAt,
   };
 }
@@ -173,6 +223,7 @@ const records: JsonRecord[] = [];
 for (const route of getIndexableStaticRoutes()) {
   const pathValue = normaliseRoute(route.path)!;
   const financial = ["home", "service", "location", "tool"].includes(route.pageType);
+  const lifecycle = lifecycleFor(pathValue, "indexable");
   records.push({
     pageId: initialId(existing, pathValue, route.source, route.pageType),
     path: pathValue,
@@ -192,7 +243,7 @@ for (const route of getIndexableStaticRoutes()) {
       reviewEveryDays: financial ? 90 : 365,
       expiresAt: null,
     },
-    lifecycle: { ...lifecycleFor(pathValue, "indexable"), reviewAt: financial ? defaultHighReview : defaultStandardReview },
+    lifecycle: { ...lifecycle, reviewAt: lifecycle.protectedUntil || (financial ? defaultHighReview : defaultStandardReview) },
     measurement: measurementFor(route.pageType),
     programIds: [...(programsByPath.get(pathValue) || [])].sort(),
   });
@@ -233,9 +284,15 @@ for (const article of Object.values(contentIndex).flat() as JsonRecord[]) {
   const programIds = [...(programsByPath.get(pathValue) || [])].sort();
   const protectedItem = protectedByPath.get(pathValue);
   const lifecycle = lifecycleFor(pathValue, indexability, article.noindex ? "noindex" : "none");
+  const explicitProtectedUntil = explicitValue(source.data, "protectedUntil", "protected_until");
+  if (explicitProtectedUntil && Date.parse(String(explicitProtectedUntil)) > Date.now()) {
+    lifecycle.protectedUntil = String(explicitProtectedUntil);
+    lifecycle.lastMaterialChangeId = `chg_content_review_${String(article.reviewedAt || source.data.reviewedAt || "manual").replaceAll(/[^0-9a-z]+/gi, "_")}`;
+    lifecycle.lastMaterialChangeAt = article.reviewedAt || source.data.reviewedAt || new Date().toISOString();
+  }
   const reviewAt = article.noindex
     ? null
-    : protectedItem?.reviewAfter || (contentRisk === "high" ? defaultHighReview : defaultStandardReview);
+    : lifecycle.protectedUntil || protectedItem?.reviewAfter || (contentRisk === "high" ? defaultHighReview : defaultStandardReview);
 
   records.push({
     pageId: initialId(existing, pathValue, article.sourcePath, article.contentType === "case-studies" ? "case-study" : "guide"),
@@ -380,6 +437,7 @@ fs.writeFileSync(registryPath, `${JSON.stringify(registry, null, 2)}\n`);
 const programSources = [
   { programId: outstanding.programId, kind: "measurement-and-remediation", definitionPath: "data/seo-outstanding-program.json", status: "active" },
   { programId: growth.programId, kind: "existing-demand-growth", definitionPath: "data/seo-growth-program.json", status: "active" },
+  { programId: visibilityRecovery.programId, kind: "visibility-recovery", definitionPath: "data/seo-visibility-recovery-program.json", status: "observing" },
   { programId: "indexing-recovery-protected-2026-08-05", kind: "protected-cohort", definitionPath: "data/indexing-recovery-protected-pages.json", status: "observing" },
 ].map((program) => ({
   ...program,
