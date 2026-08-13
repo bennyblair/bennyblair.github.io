@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-08-12T23:23:12.328Z",
+  "generatedAt": "2026-08-13T00:09:14.913Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -5693,6 +5693,49 @@
       ]
     },
     {
+      "pageId": "pg_8f35f39be1634282b7f262edc548bd73",
+      "path": "/resources/guides/commercial-bridging-finance-compressed-settlement-case-study",
+      "sourcePath": "src/content/guides/commercial-bridging-finance-compressed-settlement-case-study.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "commercial bridging finance compressed settlement case study",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/bridging-finance",
+        "designatedServicePageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 2,
+        "reviewEveryDays": 90,
+        "reviewedBy": "Ben",
+        "reviewedAt": "2026-08-13",
+        "expiresAt": "2027-08-13"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_bd9befb2404847edbe3db875f4cbd16f",
       "path": "/resources/guides/commercial-bridging-loan",
       "sourcePath": "src/config/site-route-manifest.ts",
@@ -6698,6 +6741,49 @@
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
       ]
+    },
+    {
+      "pageId": "pg_fb8c6f25243342a9b2ef48249daa3a95",
+      "path": "/resources/guides/commercial-property-investor-loan-checklist",
+      "sourcePath": "src/content/guides/commercial-property-investor-loan-checklist.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "commercial property investor loan checklist",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/commercial-property-finance",
+        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 1,
+        "reviewEveryDays": 90,
+        "reviewedBy": "Ben",
+        "reviewedAt": "2026-08-13",
+        "expiresAt": "2027-08-13"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     },
     {
       "pageId": "pg_eccb4eabdcf84f219afa2360b0900441",
@@ -21395,5 +21481,5 @@
       "programIds": []
     }
   ],
-  "checksum": "a193a23655a0f772ebc7968bd0ce8873bae9252becb07879db5b4fa0036705bc"
+  "checksum": "6de30937ce027e3e9dd9704403d32fa0b69e3ee5d7e37e6a521b8f8bd459b06c"
 }
