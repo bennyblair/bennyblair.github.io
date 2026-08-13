@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_36d0c528eb5d45408e126535fbebfa98",
+  "pageId": "pg_8f35f39be1634282b7f262edc548bd73",
+  "path": "/resources/guides/commercial-bridging-finance-compressed-settlement-case-study",
+  "sourcePath": "src/content/guides/commercial-bridging-finance-compressed-settlement-case-study.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Commercial property buyers facing a compressed settlement need a finance decision framework that distinguishes a timing gap from unresolved valuation, legal, equity or exit risk.",
+  "targeting": {
+    "primaryQuery": "commercial bridging finance compressed settlement case study",
+    "intent": "commercial investigation",
+    "audience": "Australian commercial property investors, developers and eligible business borrowers facing a fixed settlement deadline",
+    "country": "AU",
+    "pillar": "bridging"
+  },
+  "uniqueValue": [
+    "Uses a clearly disclosed pattern-based scenario rather than presenting invented figures or a fabricated Emet settlement.",
+    "Maps the settlement critical path, peak-debt calculation, refinance evidence, contingency exits and stop conditions."
+  ],
+  "evidence": [
+    {
+      "type": "queue",
+      "path": "seo-automation/plans/live-publishing-queue.json",
+      "date": "2026-08-13",
+      "summary": "Approved rolling queue item with distinct compressed-settlement case-study intent and bridging ownership."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://moneysmart.gov.au/property-investment/commercial-property-investment",
+      "summary": "ASIC Moneysmart identifies finance, lease, vacancy and cost risks relevant to commercial property investment."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/contracts-and-deposits",
+      "summary": "NSW Government explains the importance of understanding contract and deposit obligations before a binding property deadline."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/bridging-finance",
+      "/resources/guides/bridging-finance-australia-complete-property-guide"
+    ],
+    "to": [
+      "/resources/guides/commercial-property-settlement-process-finance-timeline",
+      "/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path",
+      "/resources/guides/open-vs-closed-bridging-loan-complete-comparison"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-05T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 12,
+      "top20Probability": 11,
+      "conversionPotential": 13,
+      "evidenceAuthority": 10,
+      "differentiation": 10,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 85
+  },
+  "approval": {
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-08-13T10:05:00+10:00",
+    "automated": true,
+    "basis": "Approved under the explicit two-article daily-content automation policy after queue and intent-ownership review.",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-08-12.1",
+    "policyChecksum": "1b89ae731f9a79ac197d5ac839281dd40461f93057b5aaa837772e7ddcef2494"
+  }
+}

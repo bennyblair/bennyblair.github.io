@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_7dd2af30c87841158324ac43e2554d77",
+  "pageId": "pg_fb8c6f25243342a9b2ef48249daa3a95",
+  "path": "/resources/guides/commercial-property-investor-loan-checklist",
+  "sourcePath": "src/content/guides/commercial-property-investor-loan-checklist.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Commercial property investors need a lender-ready checklist that separates property, lease, borrower, debt, equity and settlement evidence before approaching a commercial lender.",
+  "targeting": {
+    "primaryQuery": "commercial property investor loan checklist",
+    "intent": "commercial investigation",
+    "audience": "Australian commercial property investors and eligible business borrowers",
+    "country": "AU",
+    "pillar": "commercial property"
+  },
+  "uniqueValue": [
+    "Organises lender evidence into property, lease, borrower, debt, equity and settlement workstreams.",
+    "Adds decision guidance for short leases, valuation gaps, related-party tenancies and compressed settlement timelines."
+  ],
+  "evidence": [
+    {
+      "type": "queue",
+      "path": "seo-automation/plans/live-publishing-queue.json",
+      "date": "2026-08-13",
+      "summary": "Approved rolling queue item with distinct checklist intent and commercial property ownership."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://moneysmart.gov.au/property-investment/commercial-property-investment",
+      "summary": "ASIC Moneysmart outlines key commercial property investment risks including finance, leases, vacancies and costs."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/commercial-property-finance",
+      "/resources/guides/commercial-property-loans-australia-complete-guide"
+    ],
+    "to": [
+      "/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow",
+      "/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
+      "/resources/guides/commercial-property-due-diligence-finance-checklist"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-05T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 12,
+      "top20Probability": 10,
+      "conversionPotential": 13,
+      "evidenceAuthority": 10,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 83
+  },
+  "approval": {
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-08-13T10:05:00+10:00",
+    "automated": true,
+    "basis": "Approved under the explicit two-article daily-content automation policy after queue and intent-ownership review.",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-08-12.1",
+    "policyChecksum": "1b89ae731f9a79ac197d5ac839281dd40461f93057b5aaa837772e7ddcef2494"
+  }
+}
