@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_0d53b6ec6927507e2b5f9d5284cbdfa5",
+  "pageId": "pg_9f060dd25cd048cbb539dd1f2dd50339",
+  "path": "/resources/guides/working-capital-finance-government-contracts-australia",
+  "sourcePath": "src/content/guides/working-capital-finance-government-contracts-australia.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Australian government contractors can win commercially sound work but still face a mobilisation and milestone-payment cash gap before compliant invoices are accepted and paid.",
+  "targeting": {
+    "primaryQuery": "working capital finance government contract Australia",
+    "intent": "transactional / contract mobilisation",
+    "audience": "Australian business owners and established SMEs delivering awarded government contracts",
+    "country": "AU",
+    "pillar": "business finance"
+  },
+  "uniqueValue": [
+    "Translates an awarded government contract into a cost-to-deliver, milestone and repayment timeline rather than treating headline contract value as cash.",
+    "Compares pre-delivery working capital, line-of-credit, trade and post-invoice structures with clear stop conditions."
+  ],
+  "evidence": [
+    {
+      "type": "governed_backlog",
+      "path": "seo-automation/plans/governed-content-backlog-2026-08-12.json",
+      "date": "2026-08-18",
+      "summary": "Queued governed release with an exact slug, recovered from the recorded source branch."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules",
+      "summary": "The Australian Government Department of Finance publishes the Commonwealth Procurement Rules governing Commonwealth procurement."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://business.gov.au/people/contractors/prepare-a-contract",
+      "summary": "business.gov.au provides official guidance on preparing and understanding contracts."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/working-capital",
+      "/resources/guides/working-capital-loans-for-smes"
+    ],
+    "to": [
+      "/resources/guides/contract-mobilisation-finance-australia",
+      "/resources/guides/invoice-finance-australia-complete-guide",
+      "/resources/guides/what-is-private-lending-australia"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-04T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 12,
+      "top20Probability": 10,
+      "conversionPotential": 13,
+      "evidenceAuthority": 10,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 83
+  },
+  "approval": {
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-08-18T10:00:00+10:00",
+    "automated": true,
+    "basis": "Approved under the explicit two-article daily-content automation policy after governed backlog, source, scope and intent-ownership review.",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-08-12.1",
+    "policyChecksum": "1b89ae731f9a79ac197d5ac839281dd40461f93057b5aaa837772e7ddcef2494"
+  }
+}

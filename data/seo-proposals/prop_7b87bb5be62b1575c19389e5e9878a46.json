@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_7b87bb5be62b1575c19389e5e9878a46",
+  "pageId": "pg_f97c0e9fbefb4758a5b90bd8cce1c12c",
+  "path": "/resources/guides/second-mortgage-business-loan-bank-consent-delay-australia",
+  "sourcePath": "src/content/guides/second-mortgage-business-loan-bank-consent-delay-australia.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Australian business borrowers facing a fixed commercial deadline need a document-led response when first-mortgagee consent or priority review delays a proposed second mortgage.",
+  "targeting": {
+    "primaryQuery": "second mortgage business loan when bank consent is slow Australia",
+    "intent": "commercial investigation / consent delay",
+    "audience": "Australian business owners, commercial property investors and developers considering a business-purpose second mortgage",
+    "country": "AU",
+    "pillar": "second mortgage"
+  },
+  "uniqueValue": [
+    "Separates a processing delay, information request and refusal before comparing contingency structures.",
+    "Explains why caveat finance is not an automatic workaround and gives borrowers a practical consent-document and deadline checklist."
+  ],
+  "evidence": [
+    {
+      "type": "governed_backlog",
+      "path": "seo-automation/plans/governed-content-backlog-2026-08-12.json",
+      "date": "2026-08-18",
+      "summary": "Queued governed release with an exact slug, recovered from the recorded source branch."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://rg-guidelines.nswlrs.com.au/land_dealings/dealing_requirements/mortgages/priority_between_mortgages",
+      "summary": "NSW Registrar General guidance provides jurisdictional context on priority between registered mortgages."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/first-second-mortgages",
+      "/resources/guides/second-mortgages-for-business-guide"
+    ],
+    "to": [
+      "/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage",
+      "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
+      "/resources/guides/private-lending-vs-bank-lending-which-is-better"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions/clicks or assisted service-page engagement at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-11-04T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 12,
+      "top20Probability": 11,
+      "conversionPotential": 13,
+      "evidenceAuthority": 9,
+      "differentiation": 10,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 84
+  },
+  "approval": {
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-08-18T10:00:00+10:00",
+    "automated": true,
+    "basis": "Approved under the explicit two-article daily-content automation policy after governed backlog, source, scope and intent-ownership review.",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-08-12.1",
+    "policyChecksum": "1b89ae731f9a79ac197d5ac839281dd40461f93057b5aaa837772e7ddcef2494"
+  }
+}
