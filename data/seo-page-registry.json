@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-08-13T00:09:14.913Z",
+  "generatedAt": "2026-08-18T00:04:30.752Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -12785,6 +12785,49 @@
       ]
     },
     {
+      "pageId": "pg_f97c0e9fbefb4758a5b90bd8cce1c12c",
+      "path": "/resources/guides/second-mortgage-business-loan-bank-consent-delay-australia",
+      "sourcePath": "src/content/guides/second-mortgage-business-loan-bank-consent-delay-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "second mortgage business loan when bank consent is slow Australia",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 1,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-18",
+        "expiresAt": "2026-11-18"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_210adedf0b954ad8a93f02576db39842",
       "path": "/resources/guides/second-mortgage-consent-refused-australia",
       "sourcePath": "src/content/guides/second-mortgage-consent-refused-australia.md",
@@ -15190,6 +15233,49 @@
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
       ]
+    },
+    {
+      "pageId": "pg_9f060dd25cd048cbb539dd1f2dd50339",
+      "path": "/resources/guides/working-capital-finance-government-contracts-australia",
+      "sourcePath": "src/content/guides/working-capital-finance-government-contracts-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "working capital finance government contract Australia",
+        "intent": "transactional",
+        "designatedServicePagePath": "/services/working-capital",
+        "designatedServicePageId": "pg_cdc22adf500d4db8aa6380ff6b39c265",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "seo-content",
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
+        "sourceCount": 2,
+        "reviewEveryDays": 90,
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-18",
+        "expiresAt": "2026-11-18"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     },
     {
       "pageId": "pg_1e28143228b644cc8e3a15efd8bad3c0",
@@ -21481,5 +21567,5 @@
       "programIds": []
     }
   ],
-  "checksum": "6de30937ce027e3e9dd9704403d32fa0b69e3ee5d7e37e6a521b8f8bd459b06c"
+  "checksum": "01d36af68dac2f4e9ef2054aeb70f0f59326c7893590d9679ccd0714ed0d21a7"
 }
