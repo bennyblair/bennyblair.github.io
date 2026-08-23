@@ -7,10 +7,10 @@ function automationPolicy() {
   const policy = {
     schemaVersion: 1,
     policyId: "daily-content-automerge",
-    version: "2026-08-12.1",
+    version: "2026-08-23.1",
     status: "active",
-    cadence: { articlesPerRun: 2, articlesPerWeek: 4 },
-    authority: { allowedRisk: "R2", proposalApprover: "seo-policy-bot" },
+    cadence: { days: ["Tuesday", "Thursday"], articlesPerRun: 1, articlesPerWeek: 2 },
+    authority: { allowedRisk: "R2", exactArticlesPerChange: 1, proposalApprover: "seo-policy-bot" },
   };
   return { ...policy, checksum: checksum({ ...policy, checksum: undefined }) };
 }
@@ -78,6 +78,31 @@ test("R2 automation requires truthful policy provenance", () => {
   });
   assert.deepEqual(validateProposal(approved, { automationPolicy: policy }).errors, []);
   assert.match(validateProposal(approved).errors.join(" "), /active automation policy/);
+});
+
+test("historical automated approvals validate against immutable policy history", () => {
+  const current = automationPolicy();
+  const historicalBase = {
+    ...current,
+    version: "2026-08-12.1",
+    cadence: { days: ["Tuesday", "Thursday"], articlesPerRun: 2, articlesPerWeek: 4 },
+    authority: { ...current.authority, exactArticlesPerChange: 2 },
+    checksum: undefined,
+  };
+  const historical = { ...historicalBase, checksum: checksum(historicalBase) };
+  const approved = proposal({
+    approval: {
+      approvedBy: "seo-policy-bot",
+      approvedAt: "2026-08-12T00:00:00Z",
+      automated: true,
+      policyId: historical.policyId,
+      policyVersion: historical.version,
+      policyChecksum: historical.checksum,
+    },
+  });
+
+  assert.deepEqual(validateProposal(approved, { automationPolicy: current, automationPolicyHistory: [historical] }).errors, []);
+  assert.match(validateProposal(approved, { automationPolicy: current }).errors.join(" "), /immutable history/);
 });
 
 test("borderline proposals require an exception and low scores are rejected", () => {

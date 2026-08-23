@@ -1,19 +1,25 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { loadAutomationPolicy, loadProposals, validateAutomationPolicy, validateProposal } from "./lib/seo-proposal.mjs";
+import { loadAutomationPolicy, loadAutomationPolicyHistory, loadProposals, validateAutomationPolicy, validateProposal } from "./lib/seo-proposal.mjs";
 
 const repoRoot = process.cwd();
 const registryPath = "data/seo-page-registry.json";
 const current = JSON.parse(fs.readFileSync(path.join(repoRoot, registryPath), "utf8"));
 const proposals = loadProposals(repoRoot);
 const automationPolicy = loadAutomationPolicy(repoRoot);
+const automationPolicyHistory = loadAutomationPolicyHistory(repoRoot);
 const errors = [];
 
 for (const error of validateAutomationPolicy(automationPolicy).errors) errors.push(`data/seo-content-automation-policy.json: ${error}`);
+for (const historicalPolicy of automationPolicyHistory) {
+  for (const error of validateAutomationPolicy(historicalPolicy, { requireCurrentCadence: false }).errors) {
+    errors.push(`data/seo-content-automation-policy-history.json (${historicalPolicy.version || "unknown"}): ${error}`);
+  }
+}
 
 for (const { file, proposal } of proposals) {
-  const validation = validateProposal(proposal, { automationPolicy });
+  const validation = validateProposal(proposal, { automationPolicy, automationPolicyHistory });
   for (const error of validation.errors) errors.push(`${file}: ${error}`);
 }
 
