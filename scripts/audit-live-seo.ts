@@ -65,15 +65,23 @@ function internalPathsFromText(text: string) {
 }
 
 async function fetchWithRetry(pathname: string, redirect: RequestRedirect) {
+  let lastError: unknown;
   for (let attempt = 0; ; attempt += 1) {
-    const response = await fetch(`${base}${pathname}`, {
-      headers,
-      redirect,
-      signal: AbortSignal.timeout(20_000),
-    });
-    const retryable = [403, 429, 502, 503, 504].includes(response.status);
-    if (!retryable || attempt >= 2) return response;
-    await response.arrayBuffer();
+    try {
+      const response = await fetch(`${base}${pathname}`, {
+        headers,
+        redirect,
+        signal: AbortSignal.timeout(30_000),
+      });
+      const retryable = [403, 429, 502, 503, 504].includes(response.status);
+      if (!retryable || attempt >= 2) return response;
+      await response.arrayBuffer();
+    } catch (error) {
+      lastError = error;
+      if (attempt >= 2) {
+        throw new Error(`Live SEO audit request failed after 3 attempts: ${pathname}`, { cause: lastError });
+      }
+    }
     await new Promise((resolve) => setTimeout(resolve, 1_000 * (attempt + 1)));
   }
 }
