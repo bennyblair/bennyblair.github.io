@@ -52,7 +52,7 @@ This guide is for business borrowers, property investors, and developers conside
 
 It is not written for consumer borrowing or owner-occupier residential home loan advice. Emet Capital focuses on commercial lending solutions for eligible business borrowers.
 
-## Citation-Ready Answer: How Do You Get a Second Mortgage?
+## How Do You Get a Second Mortgage?
 
 To get a second mortgage for business purposes, a borrower usually needs usable equity in real property, an existing first mortgage that can remain in place, a legitimate commercial funding purpose, and a credible repayment or refinance strategy. The second mortgage lender assesses the property value, current first mortgage balance, combined loan-to-value ratio, title position, lender consent requirements, borrower conduct, documents, and exit plan. A second mortgage can help access equity without replacing the first loan, but it is usually more expensive than a first mortgage because the second lender ranks behind the first lender. This is general information only and not financial advice.
 

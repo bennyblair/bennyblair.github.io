@@ -8,6 +8,7 @@ interface SEOProps {
   canonical?: string;
   type?: string;
   image?: string;
+  imageAlt?: string;
   schemas?: object[];
   noindex?: boolean;
 }
@@ -19,6 +20,7 @@ const SEO = ({
   canonical,
   type = "website",
   image = "/hero-property-finance-poster.webp",
+  imageAlt,
   schemas = [],
   noindex = false
 }: SEOProps) => {
@@ -61,6 +63,7 @@ const SEO = ({
       <meta property="og:title" content={normalizedTitle} />
       <meta property="og:description" content={normalizedDescription} />
       <meta property="og:image" content={fullImage} />
+      {imageAlt && <meta property="og:image:alt" content={imageAlt} />}
       <meta property="og:url" content={fullCanonical} />
       <meta property="og:site_name" content="Emet Capital" />
       <meta property="og:locale" content="en_AU" />
@@ -70,6 +73,7 @@ const SEO = ({
       <meta name="twitter:title" content={normalizedTitle} />
       <meta name="twitter:description" content={normalizedDescription} />
       <meta name="twitter:image" content={fullImage} />
+      {imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
       
       {/* JSON-LD Structured Data */}
       {schemas.map((schema, index) => (

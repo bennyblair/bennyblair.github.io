@@ -15,6 +15,7 @@
     "preview": "vite preview",
     "qa:content": "node scripts/content-quality-gate.mjs",
     "qa:article": "node scripts/article-qa.mjs",
+    "qa:article-inventory": "node scripts/article-quality-inventory.mjs",
     "qa:seo-control-plane": "node scripts/validate-seo-control-plane.mjs",
     "qa:seo-new-pages": "node scripts/new-page-business-case-gate.mjs",
     "qa:content-automation-scope": "node scripts/verify-content-automation-scope.mjs",

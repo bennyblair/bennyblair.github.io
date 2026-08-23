@@ -230,7 +230,7 @@ Vendor finance provides valuable tool for hospitality acquisitions, particularly
     "name": "Emet Capital",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.emetcapital.com.au/logo.png"
+      "url": "https://emetcapital.com.au/images/emet-capital-logo.png"
     }
   },
   "datePublished": "2025-10-29",

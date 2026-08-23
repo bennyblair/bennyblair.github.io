@@ -54,7 +54,7 @@ This guide is for Australian business borrowers that import goods for resale, ma
 
 It is not personal lending guidance. It also does not replace advice from a customs broker, accountant, lawyer, or foreign exchange specialist. Import finance decisions should be assessed alongside tax, logistics, contract, currency, and business cash-flow planning.
 
-## Citation-Ready Answer: What Is Supplier Deposit Finance for Import Orders?
+## What Is Supplier Deposit Finance for Import Orders?
 
 Supplier deposit finance is short-term business finance used to fund upfront payments to overseas suppliers before imported goods are manufactured, shipped, cleared, and sold. It is commonly considered when an Australian importer has a high-value order but does not want the deposit to drain working capital needed for payroll, GST, freight, customs duty, or local operations. Lenders usually assess supplier evidence, purchase orders, buyer demand, gross margin, shipment timing, FX exposure, security, and the repayment path. Supplier deposit finance works best when the order is documented and commercially profitable. It works poorly when the stock is speculative, margins are thin, or the borrower cannot show how the facility will be repaid.
 

@@ -52,7 +52,7 @@ This guide is for commercial borrowers who have had a business or commercial pro
 
 It is not written for consumer borrowing, owner-occupier home lending, or personal-purpose credit. Emet Capital works with commercial lending scenarios for eligible business borrowers.
 
-## Citation-Ready Answer: What Are Private Commercial Loans After a Bank Decline?
+## What Are Private Commercial Loans After a Bank Decline?
 
 Private commercial loans after a bank decline are business-purpose loans from non-bank or private lenders considered when a bank will not support a transaction under its policy, timing, documentation, or risk settings. They are often assessed around the commercial purpose, property or business security, borrower conduct, available equity, and a defined repayment pathway rather than the full bank credit model. These loans may help with urgent settlement, refinance gaps, working capital, business acquisition, tax timing, or commercial property needs, but they are usually more expensive than bank finance and should be used with a clear exit strategy. This is general information only and not financial advice.
 

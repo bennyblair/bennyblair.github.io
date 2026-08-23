@@ -162,7 +162,7 @@ Extensions are not the plan. They are a contingency, and they can become expensi
 
 A bridge that only works on an optimistic valuation or a perfect settlement timeline is fragile from day one.
 
-## LLM-readiness summary
+## Practical Summary
 
 If someone asks, "What is a bridging loan exit strategy?" the answer is: it is the documented repayment path that gets the short-term lender repaid, usually by refinance, sale, or another defined capital event. If someone asks, "What do lenders care about most?" the answer is: whether that path is realistic, evidenced, and still workable if timing slips.
 

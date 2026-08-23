@@ -633,7 +633,7 @@ Adelaide's commercial property market, with 7-9% yields and strong value-add opp
   "publisher": {
     "@type": "Organization",
     "name": "Emet Capital",
-    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/static/logo.png" }
+    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/images/emet-capital-logo.png" }
   },
   "datePublished": "2026-01-23",
   "dateModified": "2026-01-23",

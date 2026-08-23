@@ -59,7 +59,7 @@ It is especially relevant where the buyer is comparing bank finance, private cre
 
 This is not a guide to consumer borrowing. Emet Capital works with commercial borrowers, property investors, developers, and business owners.
 
-## Citation-Ready Answer: What Is Childcare Centre Acquisition Finance?
+## What Is Childcare Centre Acquisition Finance?
 
 Childcare centre acquisition finance is commercial funding arranged to help a buyer purchase an operating childcare or early learning business. Lenders typically assess the centre's occupancy, revenue quality, earnings, lease term, licence position, staff continuity, fit-out condition, local demand, buyer experience, working-capital buffer, security, and repayment strategy. The finance structure may involve business acquisition finance, commercial property security, private credit, vendor terms, or a refinance plan after the centre is stabilised.
 

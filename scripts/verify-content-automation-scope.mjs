@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import matter from "gray-matter";
 import { canonicalJson } from "./lib/seo-control-plane.mjs";
 import { loadAutomationPolicy, validateAutomationPolicy, validateProposal } from "./lib/seo-proposal.mjs";
 
@@ -32,17 +33,20 @@ const articles = changed.filter(({ status, file }) =>
   status === "A" && /^src\/content\/(?:guides|case-studies|insights)\/[^/]+\.md$/.test(file));
 const proposals = changed.filter(({ status, file }) =>
   status === "A" && /^data\/seo-proposals\/prop_[a-f0-9]{32}\.json$/.test(file));
+const articleImages = changed.filter(({ status, file }) =>
+  status === "A" && /^public\/images\/articles\/[a-z0-9-]+\.webp$/.test(file));
 const expectedFixed = new Map([
   ["data/seo-page-registry.json", "M"],
   ["data/seo-programs/index.json", "M"],
 ]);
-const allowed = new Set([...articles.map((item) => item.file), ...proposals.map((item) => item.file), ...expectedFixed.keys()]);
+const allowed = new Set([...articles.map((item) => item.file), ...articleImages.map((item) => item.file), ...proposals.map((item) => item.file), ...expectedFixed.keys()]);
 const errors = [];
 const policy = loadAutomationPolicy(repoRoot);
 errors.push(...validateAutomationPolicy(policy).errors);
 const expectedArticles = Number(policy?.authority?.exactArticlesPerChange);
 
 if (articles.length !== expectedArticles) errors.push(`expected exactly ${expectedArticles} added article(s); found ${articles.length}`);
+if (articleImages.length !== expectedArticles) errors.push(`expected exactly ${expectedArticles} added article image(s); found ${articleImages.length}`);
 if (proposals.length !== expectedArticles) errors.push(`expected exactly ${expectedArticles} added proposal(s); found ${proposals.length}`);
 for (const item of changed) {
   if (!allowed.has(item.file)) errors.push(`unexpected automated content path: ${item.status} ${item.file}`);
@@ -59,6 +63,24 @@ for (const { file, proposal } of proposalRows) {
   for (const error of validateProposal(proposal, { automationPolicy: policy }).errors) errors.push(`${file}: ${error}`);
   if (proposal.risk !== "R2") errors.push(`${file}: automated new content must be R2`);
   if (proposal.status !== "approved") errors.push(`${file}: automated new content must be approved`);
+}
+
+const deprecatedAuthorFields = ["author_name", "authorName", "author_title", "authorTitle", "author_url", "authorUrl", "author_bio", "authorBio", "author_links", "authorLinks"];
+for (const { file } of articles) {
+  const parsed = matter(fs.readFileSync(path.join(repoRoot, file), "utf8"));
+  const slug = path.basename(file, ".md");
+  const expectedImage = `/images/articles/${slug}.webp`;
+  if (!new Set(["Ben", "Daniel"]).has(parsed.data.author)) errors.push(`${file}: author must use a canonical Ben or Daniel profile`);
+  const deprecated = deprecatedAuthorFields.filter((field) => parsed.data[field] !== undefined);
+  if (deprecated.length) errors.push(`${file}: deprecated author fields are forbidden: ${deprecated.join(", ")}`);
+  if (parsed.data.contentRisk !== "low") errors.push(`${file}: automated articles must use contentRisk: low`);
+  if (Number(parsed.data.qualityContractVersion) !== Number(policy?.authority?.qualityContractVersion)) {
+    errors.push(`${file}: qualityContractVersion must match the active automation policy`);
+  }
+  if (parsed.data.featuredImage !== expectedImage) errors.push(`${file}: featuredImage must be ${expectedImage}`);
+  if (!parsed.data.featuredImageAlt || String(parsed.data.featuredImageAlt).length < 10) errors.push(`${file}: featuredImageAlt is required`);
+  if (!Array.isArray(parsed.data.sources) || parsed.data.sources.length < 1) errors.push(`${file}: at least one authoritative source is required`);
+  if (!articleImages.some((image) => image.file === `public${expectedImage}`)) errors.push(`${file}: matching WebP article image is missing`);
 }
 
 const oldRegistry = readAt(mergeBase, "data/seo-page-registry.json");

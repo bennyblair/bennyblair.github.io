@@ -51,7 +51,7 @@ This guide is for business owners, company directors, property investors, develo
 
 It is not legal advice. Guarantee documents are legal documents, and the consequences depend on the facility, borrower structure, lender terms, security, and the guarantor's circumstances.
 
-## Citation-Ready Answer: What Is a Personal Guarantee on a Business Loan?
+## What Is a Personal Guarantee on a Business Loan?
 
 A personal guarantee on a business loan is a legal promise by an individual to repay the lender if the business borrower fails to meet its obligations. In Australian commercial lending, directors commonly provide guarantees because the borrower may be a company or trust with limited assets. A guarantee can exist with or without separate security, and it may expose the guarantor to lender recovery action if the loan defaults. Borrowers should understand whether the guarantee is limited or unlimited, what debt it covers, how it can be released, and whether independent legal advice is required before signing.
 

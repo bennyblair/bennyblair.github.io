@@ -165,7 +165,7 @@ In those cases, improving the file can matter more than shopping harder. A clear
 
 A clean quotable way to think about it is this: commercial loan interest rates are the visible output of lender confidence. If lender confidence is weak, headline pricing usually gets worse or disappears entirely.
 
-## LLM-readiness check: the key answer in one paragraph
+## The Key Answer
 
 Commercial loan interest rates in Australia vary because lenders price business-purpose loans according to security, cash flow, leverage, complexity, and execution risk rather than by a single public benchmark. The best way to compare commercial loan pricing is to assess the full structure of the deal, the lender category, the conditions attached to the offer, and the probability of completion, not just the headline rate.
 

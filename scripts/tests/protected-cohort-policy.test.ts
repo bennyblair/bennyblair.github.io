@@ -7,6 +7,7 @@ import {
   findActiveProtectedChanges,
   routeFromSource,
 } from "../lib/protected-cohort-policy.mjs";
+import { isExactPublicEditorialRemediation } from "../lib/public-editorial-remediation.mjs";
 
 const registry = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), "data", "indexing-recovery-protected-pages.json"), "utf8"),
@@ -49,5 +50,24 @@ test("blocks active cohort edits but allows eligible and post-review changes", (
       new Date("2026-08-06T00:00:00Z"),
     ).length,
     0,
+  );
+});
+
+test("protected pages allow only the exact public-label or retired-logo cleanup", () => {
+  const previous = [
+    '"url": "https://emetcapital.com.au/logo.png"',
+    "## Citation-Ready Answer: What Is Working Capital Finance?",
+    "Reader-facing explanation remains unchanged.",
+  ].join("\n");
+  const approved = [
+    '"url": "https://emetcapital.com.au/images/emet-capital-logo.png"',
+    "## What Is Working Capital Finance?",
+    "Reader-facing explanation remains unchanged.",
+  ].join("\n");
+
+  assert.equal(isExactPublicEditorialRemediation(previous, approved), true);
+  assert.equal(
+    isExactPublicEditorialRemediation(previous, approved.replace("remains unchanged", "was rewritten")),
+    false,
   );
 });

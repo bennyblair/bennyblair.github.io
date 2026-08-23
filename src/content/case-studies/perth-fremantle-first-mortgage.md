@@ -499,7 +499,7 @@ Fremantle's heritage commercial market continues to attract investors seeking ch
   "publisher": {
     "@type": "Organization",
     "name": "Emet Capital",
-    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/static/logo.png" }
+    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/images/emet-capital-logo.png" }
   },
   "datePublished": "2026-01-27",
   "dateModified": "2026-01-27",

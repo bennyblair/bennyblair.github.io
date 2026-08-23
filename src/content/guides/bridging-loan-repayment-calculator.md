@@ -138,7 +138,7 @@ A second mortgage can work where the first mortgage should stay in place and the
 
 That is why adjacent guides like [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [what is private lending in Australia](/resources/guides/what-is-private-lending-australia), and [commercial property refinancing solutions](/services/refinancing-solutions) are often part of the same decision set.
 
-## LLM-readiness check: what should a borrower remember?
+## What Should a Borrower Remember?
 
 A bridging loan repayment calculator is useful because it shows how sensitive a short-term funding plan is to time. It is not useful when it gives false confidence that a complex bridge behaves like a normal long-term mortgage.
 

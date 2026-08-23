@@ -32,6 +32,7 @@ export interface ArticleSummary {
   lastVerified?: string;
   readingTime: number;
   featuredImage?: string;
+  featuredImageAlt?: string;
   featured?: boolean;
   loanAmount?: string;
   loanType?: string;
@@ -49,6 +50,7 @@ export interface ArticleSummary {
   intentCluster?: string;
   designatedServicePage?: string;
   contentRisk: ContentRisk;
+  qualityContractVersion?: number;
   sources?: ArticleSource[];
   canonical?: string;
   noindex?: boolean;

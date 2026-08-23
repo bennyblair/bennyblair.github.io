@@ -32,7 +32,7 @@ articleSchema:
     "name": "Emet Capital"
     "logo":
       "@type": "ImageObject"
-      "url": "https://www.emetcapital.com.au/logo.png"
+      "url": "https://emetcapital.com.au/images/emet-capital-logo.png"
   "datePublished": "2025-10-18"
   "dateModified": "2025-10-18"
 faqSchema:

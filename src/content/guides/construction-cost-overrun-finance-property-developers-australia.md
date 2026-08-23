@@ -59,7 +59,7 @@ It is relevant when the project is already underway and the borrower needs a pra
 
 It is not a substitute for legal, tax, quantity surveying, building, valuation, or insolvency advice. Cost overruns can create contract, director-duty, and project-control issues that sit outside the finance decision.
 
-## Citation-Ready Answer: What Is Construction Cost Overrun Finance?
+## What Is Construction Cost Overrun Finance?
 
 Construction cost overrun finance is commercial funding arranged when a property development project needs extra capital because actual or forecast construction costs exceed the original approved budget. It may be structured as a senior lender increase, additional borrower equity, mezzanine finance, second mortgage funding, private credit, or another secured facility. Lenders assess the revised cost to complete, current site progress, updated valuation, senior debt, presales or leasing position, borrower contribution, builder status, and the exit strategy before deciding whether extra funding is commercially viable.
 

@@ -43,6 +43,12 @@ export function validateAutomationPolicy(policy, { requireCurrentCadence = true 
   if (policy?.authority?.exactArticlesPerChange !== articlesPerRun) {
     errors.push("automation policy exactArticlesPerChange must match articlesPerRun");
   }
+  if (requireCurrentCadence) {
+    if (policy?.authority?.qualityReviewRequired !== true) errors.push("automation policy must require an article quality review");
+    if (Number(policy?.authority?.minimumQualityScore) !== 85) errors.push("automation policy minimum quality score must be 85");
+    if (Number(policy?.authority?.qualityContractVersion) !== 1) errors.push("automation policy quality contract version must be 1");
+    if (policy?.authority?.automatedContentRisk !== "low") errors.push("automation policy must restrict automated articles to low content risk");
+  }
   const actual = checksum({ ...policy, checksum: undefined });
   if (policy?.checksum !== actual) errors.push(`automation policy checksum mismatch; expected ${actual}`);
   return { errors, checksum: actual };
@@ -64,6 +70,59 @@ export const PENALTY_LIMITS = Object.freeze({
   unsupportedClaim: 30,
   noBusinessPath: 20,
 });
+
+export const ARTICLE_QUALITY_DIMENSIONS = Object.freeze([
+  "intentCoverage",
+  "informationGain",
+  "specificity",
+  "evidence",
+  "readability",
+  "repetition",
+  "compliance",
+  "aiAnswerUsefulness",
+]);
+
+export function calculateArticleQualityScore(review) {
+  const values = ARTICLE_QUALITY_DIMENSIONS.map((dimension) => {
+    const value = Number(review?.dimensions?.[dimension]);
+    if (!Number.isFinite(value) || value < 0 || value > 100) {
+      throw new Error(`qualityReview ${dimension} must be between 0 and 100`);
+    }
+    return value;
+  });
+  return Number((values.reduce((total, value) => total + value, 0) / values.length).toFixed(1));
+}
+
+export function validateArticleQualityReview(review, { minimumScore = 85 } = {}) {
+  const errors = [];
+  if (!review || typeof review !== "object") return { errors: ["qualityReview is required"] };
+  if (!review.promptVersion || !review.evaluatorModel || !review.reviewedAt) {
+    errors.push("qualityReview requires promptVersion, evaluatorModel, and reviewedAt");
+  }
+  if (Number.isNaN(new Date(review.reviewedAt).getTime())) errors.push("qualityReview reviewedAt must be a valid timestamp");
+  let computedScore;
+  try {
+    computedScore = calculateArticleQualityScore(review);
+    if (Number(review.overallScore) !== computedScore) {
+      errors.push(`qualityReview overallScore must equal computed score ${computedScore}`);
+    }
+    if (computedScore < minimumScore) errors.push(`qualityReview score must be at least ${minimumScore}`);
+  } catch (error) {
+    errors.push(error instanceof Error ? error.message : String(error));
+  }
+  if (!Array.isArray(review.blockingFindings)) errors.push("qualityReview blockingFindings must be an array");
+  else if (review.blockingFindings.length) errors.push("qualityReview has unresolved blocking findings");
+  if (!Array.isArray(review.sourceClaimMap) || review.sourceClaimMap.length === 0) {
+    errors.push("qualityReview sourceClaimMap requires at least one claim-to-source row");
+  } else {
+    for (const row of review.sourceClaimMap) {
+      if (!row?.claim || !/^https:\/\//i.test(String(row?.sourceUrl || ""))) {
+        errors.push("qualityReview sourceClaimMap rows require claim and HTTPS sourceUrl");
+      }
+    }
+  }
+  return { errors, computedScore };
+}
 
 export function calculateOpportunityScore(score) {
   const positive = Object.entries(SCORE_WEIGHTS).reduce((total, [key, maximum]) => {
@@ -129,6 +188,12 @@ export function validateProposal(proposal, { automationPolicy, automationPolicyH
       if (proposal.risk !== "R2") errors.push("automated page proposals must be R2");
       if (referencedPolicy && proposal.approval?.approvedBy !== referencedPolicy.authority?.proposalApprover) {
         errors.push("automated proposal approver does not match policy");
+      }
+      if (referencedPolicy?.authority?.qualityReviewRequired === true) {
+        const quality = validateArticleQualityReview(proposal.qualityReview, {
+          minimumScore: Number(referencedPolicy.authority.minimumQualityScore || 85),
+        });
+        errors.push(...quality.errors);
       }
     } else if (["R2", "R3", "R4"].includes(proposal.risk) && !proposal.approval?.approvedBy) {
       errors.push(`${proposal.risk} proposal requires human approval`);

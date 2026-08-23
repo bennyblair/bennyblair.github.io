@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQSection from "@/components/FAQSection";
 import { Calculator, CheckCircle, ArrowRight, TrendingUp } from "lucide-react";
+import { EMET_LOGO_URL } from "@/lib/schema-utils";
 
 const CommercialPropertyLoanCalculator = () => {
   const [loanAmount, setLoanAmount] = useState("");
@@ -98,7 +99,9 @@ const CommercialPropertyLoanCalculator = () => {
               "name": "Emet Capital",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://emetcapital.com.au/logo.png"
+                "url": EMET_LOGO_URL,
+                "width": 512,
+                "height": 512
               }
             },
             "datePublished": "2025-01-16",

@@ -691,7 +691,7 @@ Perth's resource-driven economy, with cyclical opportunities in construction, eq
   "publisher": {
     "@type": "Organization",
     "name": "Emet Capital",
-    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/static/logo.png" }
+    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/images/emet-capital-logo.png" }
   },
   "datePublished": "2026-01-23",
   "dateModified": "2026-01-23",

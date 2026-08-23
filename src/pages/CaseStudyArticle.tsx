@@ -11,7 +11,7 @@ import { getArticleBySlug, type Article } from "@/lib/content";
 import { convertMarkdownToHtml, stripFirstHeading } from "@/lib/markdown-converter";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 import { normalizeSeoDescription, normalizeSeoTitle } from "@/lib/seo-metadata";
-import { BEN_AUTHOR, DANIEL_AUTHOR } from "@/lib/schema-utils";
+import { EMET_LOGO_URL, resolveArticleAuthor } from "@/lib/schema-utils";
 
 const CaseStudyArticle = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -73,14 +73,9 @@ const CaseStudyArticle = () => {
 
   const processedContent = stripFirstHeading(article.content);
   const reviewedDate = article.reviewedDate || article.date;
-  const authorDisplayName = article.authorName || article.author || "Emet Capital";
-  const authorUrl = article.authorUrl || (
-    article.authorName === BEN_AUTHOR.name
-      ? "/about/ben"
-      : article.authorName === DANIEL_AUTHOR.name
-        ? "/about/daniel"
-        : undefined
-  );
+  const canonicalAuthor = resolveArticleAuthor(article.authorName || article.author);
+  const authorDisplayName = canonicalAuthor?.name || article.authorName || article.author || "Emet Capital";
+  const authorUrl = article.authorUrl || canonicalAuthor?.url.replace("https://emetcapital.com.au", "");
   const fullAuthorUrl = authorUrl
     ? authorUrl.startsWith("http")
       ? authorUrl
@@ -103,13 +98,13 @@ const CaseStudyArticle = () => {
     { label: article.title }
   ];
 
-  const articleAuthorSchema = article.authorName
+  const articleAuthorSchema = canonicalAuthor || article.authorName
     ? {
         "@type": "Person",
-        "name": article.authorName,
-        "jobTitle": article.authorTitle,
+        "name": canonicalAuthor?.name || article.authorName,
+        "jobTitle": canonicalAuthor?.title || article.authorTitle,
         "url": fullAuthorUrl,
-        "description": article.authorBio,
+        "description": canonicalAuthor?.shortBio || article.authorBio,
         "worksFor": {
           "@type": "Organization",
           "name": "Emet Capital",
@@ -137,7 +132,9 @@ const CaseStudyArticle = () => {
       "url": "https://emetcapital.com.au",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://emetcapital.com.au/logo.png"
+        "url": EMET_LOGO_URL,
+        "width": 512,
+        "height": 512
       }
     },
     "mainEntityOfPage": {
@@ -205,16 +202,16 @@ const CaseStudyArticle = () => {
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               {article.description}
             </p>
-            {article.authorName && (
+            {(canonicalAuthor || article.authorName) && (
               <div className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
                 <span>
                   Written by{" "}
                   {authorUrl ? (
                     <Link to={authorUrl} className="font-semibold text-foreground hover:text-primary underline underline-offset-4">
-                      {article.authorName}
+                      {authorDisplayName}
                     </Link>
                   ) : (
-                    <span className="font-semibold text-foreground">{article.authorName}</span>
+                    <span className="font-semibold text-foreground">{authorDisplayName}</span>
                   )}
                 </span>
                 <span aria-hidden="true">|</span>

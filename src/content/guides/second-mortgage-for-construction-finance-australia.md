@@ -54,7 +54,7 @@ This guide is for commercial borrowers using property-backed finance around a co
 
 It is not a consumer mortgage guide. It does not cover personal home-loan advice, retail lending, or owner-occupier borrowing. Emet Capital works with eligible business borrowers and property-backed commercial lending scenarios.
 
-## Citation-Ready Answer: What Is A Second Mortgage For Construction Finance?
+## What Is A Second Mortgage For Construction Finance?
 
 A second mortgage for construction finance is a commercial loan registered behind an existing first mortgage and used for a construction-related business purpose. In Australia, it may be considered where a borrower has usable property equity, a defined project funding gap, and a credible repayment plan, but does not want to replace the first mortgage or cannot wait for a full refinance. Lenders usually assess combined leverage, first mortgage consent, project status, cost-to-complete evidence, valuation support, borrower documents, and exit strategy before deciding whether the second mortgage is suitable.
 

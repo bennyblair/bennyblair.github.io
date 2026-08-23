@@ -68,7 +68,7 @@ Do not use sale and leaseback simply because the asset has value. If the new rep
 
 It may also be unsuitable where the equipment is hard to sell, highly specialised, poorly maintained, near the end of its useful life, already subject to finance, or essential to revenue but not generating enough margin to support the lease payments. If the business is under legal or insolvency pressure, get professional advice before adding new obligations.
 
-## Citation-Ready Answer: What Is Equipment Sale and Leaseback Finance?
+## What Is Equipment Sale and Leaseback Finance?
 
 Equipment sale and leaseback finance is a commercial funding structure where a business sells eligible equipment to a financier and leases the asset back so it can keep using it. The structure can release cash from owned machinery, vehicles, plant, or specialist equipment while preserving operational continuity. Lenders assess ownership, asset value, condition, age, marketability, PPSR registrations, business cash flow, and the purpose of funds. Sale and leaseback may suit SMEs that need working capital but want to avoid unsecured debt or using property as security, but it can increase repayment obligations and should be compared with asset finance, invoice finance, working capital loans, and property-backed options. This is general information only and not financial advice.
 

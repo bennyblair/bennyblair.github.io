@@ -143,7 +143,7 @@ No. This case reflects a business-purpose loan only.
   "publisher": {
     "@type": "Organization",
     "name": "Emet Capital",
-    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/static/logo.png" }
+    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/images/emet-capital-logo.png" }
   },
   "datePublished": "2025-09-18",
   "dateModified": "2025-09-18",

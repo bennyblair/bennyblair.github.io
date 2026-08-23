@@ -1,18 +1,48 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { checksum } from "../lib/seo-control-plane.mjs";
-import { calculateOpportunityScore, validateProposal } from "../lib/seo-proposal.mjs";
+import { calculateArticleQualityScore, calculateOpportunityScore, validateArticleQualityReview, validateProposal } from "../lib/seo-proposal.mjs";
 
 function automationPolicy() {
   const policy = {
     schemaVersion: 1,
     policyId: "daily-content-automerge",
-    version: "2026-08-23.1",
+    version: "2026-08-24.1",
     status: "active",
     cadence: { days: ["Tuesday", "Thursday"], articlesPerRun: 1, articlesPerWeek: 2 },
-    authority: { allowedRisk: "R2", exactArticlesPerChange: 1, proposalApprover: "seo-policy-bot" },
+    authority: {
+      allowedRisk: "R2",
+      exactArticlesPerChange: 1,
+      proposalApprover: "seo-policy-bot",
+      qualityReviewRequired: true,
+      minimumQualityScore: 85,
+      qualityContractVersion: 1,
+      automatedContentRisk: "low",
+    },
   };
   return { ...policy, checksum: checksum({ ...policy, checksum: undefined }) };
+}
+
+function qualityReview(overrides: Record<string, unknown> = {}) {
+  return {
+    promptVersion: "article-quality-v1",
+    evaluatorModel: "independent-editor",
+    reviewedAt: "2026-08-24T00:00:00Z",
+    dimensions: {
+      intentCoverage: 90,
+      informationGain: 86,
+      specificity: 88,
+      evidence: 90,
+      readability: 92,
+      repetition: 87,
+      compliance: 95,
+      aiAnswerUsefulness: 88,
+    },
+    overallScore: 89.5,
+    blockingFindings: [],
+    sourceClaimMap: [{ claim: "The article explains the documented finance comparison.", sourceUrl: "https://business.gov.au/finance/funding/choose-your-funding" }],
+    ...overrides,
+  };
 }
 
 function proposal(overrides: Record<string, unknown> = {}) {
@@ -67,6 +97,7 @@ test("approved R3 proposals cannot claim automated approval", () => {
 test("R2 automation requires truthful policy provenance", () => {
   const policy = automationPolicy();
   const approved = proposal({
+    qualityReview: qualityReview(),
     approval: {
       approvedBy: "seo-policy-bot",
       approvedAt: "2026-08-12T00:00:00Z",
@@ -80,6 +111,20 @@ test("R2 automation requires truthful policy provenance", () => {
   assert.match(validateProposal(approved).errors.join(" "), /active automation policy/);
 });
 
+test("article quality review is reproducible and fails closed", () => {
+  const review = qualityReview();
+  assert.equal(calculateArticleQualityScore(review), 89.5);
+  assert.deepEqual(validateArticleQualityReview(review).errors, []);
+  assert.match(
+    validateArticleQualityReview(qualityReview({ blockingFindings: ["Repeated conclusion"] })).errors.join(" "),
+    /blocking findings/,
+  );
+  assert.match(
+    validateArticleQualityReview(qualityReview({ overallScore: 70 })).errors.join(" "),
+    /computed score/,
+  );
+});
+
 test("historical automated approvals validate against immutable policy history", () => {
   const current = automationPolicy();
   const historicalBase = {
@@ -91,6 +136,7 @@ test("historical automated approvals validate against immutable policy history",
   };
   const historical = { ...historicalBase, checksum: checksum(historicalBase) };
   const approved = proposal({
+    qualityReview: qualityReview(),
     approval: {
       approvedBy: "seo-policy-bot",
       approvedAt: "2026-08-12T00:00:00Z",

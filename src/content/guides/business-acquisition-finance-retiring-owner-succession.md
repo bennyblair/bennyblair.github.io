@@ -51,7 +51,7 @@ This guide is for buyers considering an established SME acquisition where the ve
 
 It is also relevant for advisers helping a client compare [business acquisition finance](/resources/guides/business-acquisition-finance-australia), vendor finance, [working capital loans](/resources/guides/working-capital-loans-for-smes), and property-backed structures such as [second mortgages](/resources/guides/second-mortgages-for-business-guide).
 
-## Citation-Ready Answer: How Is Retiring Owner Succession Financed?
+## How Is Retiring Owner Succession Financed?
 
 Retiring owner succession is usually financed through a combination of buyer equity, lender debt, vendor terms, and working capital support. Lenders assess the historical earnings of the business, the buyer's experience, customer concentration, handover risk, available security, and whether the purchase price is supported by maintainable profits. Vendor finance or staged payments can help align the seller with the handover, but the buyer still needs enough cash flow and capital to operate the business after settlement.
 

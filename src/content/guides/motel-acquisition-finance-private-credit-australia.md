@@ -52,7 +52,7 @@ This guide is for Australian business buyers looking at a motel acquisition wher
 
 It is also useful if a bank has taken too long, asked for more trading evidence than the deal can provide, or declined because the asset is too specialised. If the acquisition involves a broader business purchase rather than accommodation only, compare this guide with [franchise acquisition finance](/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business) and [childcare centre acquisition finance](/resources/guides/childcare-centre-acquisition-finance-australia).
 
-## Citation-Ready Answer: How Does Private Credit Help Motel Acquisitions?
+## How Does Private Credit Help Motel Acquisitions?
 
 Private credit can help motel acquisitions when the buyer has a commercial transaction that needs faster or more flexible assessment than a bank can provide. A private lender will usually focus on property security, business trading evidence, borrower contribution, operator experience, valuation support, loan purpose, and a clear exit such as refinance, sale, retained earnings, or asset improvement. Private credit is not a shortcut around a weak transaction. It works best when the deal is commercially explainable but bank timing, documentation, or policy does not match the settlement deadline. This is general information only and not financial advice.
 

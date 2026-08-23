@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Calculator, TrendingUp, DollarSign, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
+import { EMET_LOGO_URL } from "@/lib/schema-utils";
 
 const BridgingLoanCalculator = () => {
   const [loanAmount, setLoanAmount] = useState<number>(0);
@@ -42,7 +43,9 @@ const BridgingLoanCalculator = () => {
       "name": "Emet Capital",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://emetcapital.com.au/logo.png"
+        "url": EMET_LOGO_URL,
+        "width": 512,
+        "height": 512
       }
     },
     "datePublished": "2025-10-21",

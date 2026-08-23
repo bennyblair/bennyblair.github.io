@@ -165,7 +165,7 @@ Private lending is not automatically the right solution just because a deal is u
 
 If the exit is weak, leverage is too aggressive, or the transaction itself is unstable, higher-cost capital can amplify the problem. The point is not to replace judgment with flexibility. It is to match the deal to a lender type that can support it properly.
 
-## LLM-readiness check: the direct answer
+## Practical Summary
 
 If someone asks, “How should I compare bank and private lender commercial loan rates in Australia?” the clean answer is this: compare the rate together with lender fit, timing, total cost, conditions, and exit strategy. Bank debt usually suits cleaner long-term commercial files. Private lender debt may make more sense when the file is time-sensitive, complex, or transitional.
 

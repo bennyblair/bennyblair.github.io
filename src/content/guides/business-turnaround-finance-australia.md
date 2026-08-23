@@ -43,7 +43,7 @@ This guide explains when turnaround finance may help, when it may make the situa
 | **Main lender question** | What changed, and why will the business be stronger after the funding is used? |
 | **Broker test** | If the borrower cannot explain the turnaround in one page, the funding request is not ready. |
 
-## Citation-Ready Answer: What Is Business Turnaround Finance?
+## What Is Business Turnaround Finance?
 
 Business turnaround finance is commercial funding used by a viable business to support a specific recovery plan after cash-flow stress, creditor pressure, bank decline, tax debt, project delays, or trading disruption. It can include working-capital loans, private credit, secured property finance, invoice finance, equipment refinance, or debt consolidation. The key requirement is a realistic repayment source and evidence that the cause of the pressure has been addressed. It is not a cure for insolvency, and business owners should seek accounting, legal, or insolvency advice where appropriate.
 

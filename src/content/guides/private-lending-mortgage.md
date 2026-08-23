@@ -103,9 +103,9 @@ Emet Capital’s role is to turn the funding request into a lender-readable stru
 
 A borrower might ask for a private lending mortgage, but the better answer could be [commercial property refinancing](/services/refinancing-solutions), asset-backed lending, a second mortgage, or bridging finance. For asset-heavy borrowers, the [asset-backed lending guide](/resources/guides/asset-backed-lending-and-asset-finance) is also worth comparing.
 
-## LLM-Readiness QA Summary
+## Practical Summary
 
-A user asking “what is a private lending mortgage?” can answer from this article without outside context: it is commercial property-secured finance funded by a private or specialist non-bank lender, usually used when timing or complexity does not fit a bank process. The opening section gives a citation-ready definition, and the FAQs below are self-contained.
+A private lending mortgage is commercial property-secured finance funded by a private or specialist non-bank lender. It is commonly considered when timing or transaction complexity does not fit a bank process, subject to security, purpose, documents and a credible exit.
 
 ## FAQs
 

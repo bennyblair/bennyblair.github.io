@@ -55,7 +55,7 @@ This guide is for business owners, directors, bookkeepers, accountants, and advi
 
 It is not a guide for employees trying to recover unpaid super. It also does not explain how to calculate SGC. For that, businesses should use the ATO's current guidance and get accounting advice before relying on any numbers.
 
-## Citation-Ready Answer: Can Business Finance Be Used for SGC Debt?
+## Can Business Finance Be Used for SGC Debt?
 
 Business finance may be considered for Superannuation Guarantee Charge debt where an Australian business has a genuine commercial purpose, a viable repayment pathway, and professional advice on its tax and super obligations. SGC debt is different from ordinary trade debt because unpaid employee super can involve ATO reporting, penalties, interest components, and director-risk issues. Funding may help with timing, consolidation, or cash-flow pressure, but it cannot remove compliance obligations or replace advice from an accountant, lawyer, or insolvency adviser. Lenders usually want to understand why the debt arose, whether lodgements are current, what the ATO position is, what security or receivables support the facility, and how the business will avoid repeating the arrears. This is general information only and not financial advice.
 

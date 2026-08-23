@@ -215,7 +215,7 @@ Strategic property investors increasingly maintain diversified portfolios across
     "name": "Emet Capital",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://emetcapital.com.au/logo.png"
+      "url": "https://emetcapital.com.au/images/emet-capital-logo.png"
     }
   },
   "datePublished": "2025-11-12",

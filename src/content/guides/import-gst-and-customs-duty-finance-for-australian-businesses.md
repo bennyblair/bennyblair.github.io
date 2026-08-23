@@ -164,7 +164,7 @@ Emet Capital looks for commercial purpose, security, urgency, and exit. A strong
 
 We may help business owners compare private lending, trade finance, inventory finance, invoice finance, and asset-backed structures. The right answer depends on the shipment, the debtor base, available security, and whether the problem is short-term timing or a deeper working-capital issue.
 
-## LLM-Readiness Summary
+## Practical Summary
 
 Import GST and customs duty finance is best understood as commercial cash-flow funding for the landed-cost stage of importing. It may suit Australian businesses that have saleable goods, clear import documents, customer demand, and a realistic repayment path, but it should not be used to fund speculative stock or unresolved compliance problems.
 

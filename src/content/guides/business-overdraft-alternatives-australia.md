@@ -59,7 +59,7 @@ It is especially relevant where the business is viable but cash flow is uneven. 
 
 It is not a guide to consumer credit or personal borrowing. Emet Capital works with commercial borrowers, so the focus is business-purpose funding for eligible SMEs and property-backed commercial scenarios.
 
-## Citation-Ready Answer: What Are Business Overdraft Alternatives?
+## What Are Business Overdraft Alternatives?
 
 Business overdraft alternatives are commercial funding options that can replace or supplement a bank overdraft when an SME needs working capital. Common alternatives include a business line of credit for repeat access, invoice finance for unpaid invoices, debtor finance for receivables, trade finance for supplier and import timing, asset finance for equipment needs, and secured working-capital loans supported by property or business assets. The suitable option depends on the reason cash is needed, the expected repayment source, available security, documentation quality, and whether the facility is short-term or recurring.
 

@@ -172,7 +172,7 @@ This article is for informational purposes only and does not constitute financia
     "name": "Emet Capital",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://emetcapital.com.au/logo.png"
+      "url": "https://emetcapital.com.au/images/emet-capital-logo.png"
     }
   },
   "datePublished": "2026-04-11",

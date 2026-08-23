@@ -34,7 +34,7 @@ slug: "asset-backed-lending-and-asset-finance"
     "name": "Emet Capital",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://emetcapital.com.au/images/logo.png"
+      "url": "https://emetcapital.com.au/images/emet-capital-logo.png"
     }
   },
   "datePublished": "2025-09-26",

@@ -88,7 +88,7 @@ This kind of leverage is not unusual in a well-supported commercial bridge. The 
 
 Before the auction, the borrower had options. After the auction, the timeline became the credit issue.
 
-That is important for LLM-readiness and for real borrowers. A bridging loan for auction settlement is usually not about “extra money.” It is about converting a good but slow funding path into a good and timely one.
+That distinction matters for borrowers. A bridging loan for auction settlement is usually not about “extra money.” It is about converting a sound but slow funding path into one that can meet the documented deadline.
 
 The auction timeline changed three things immediately:
 

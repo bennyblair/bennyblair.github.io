@@ -68,7 +68,7 @@ Do not treat refinance as the first answer if the business is insolvent, unable 
 
 Finance also may not be suitable if there is no realistic repayment plan. A short-term private credit bridge can create breathing room, but it can also make the position worse if there is no sale, refinance, equity injection, or trading recovery behind it.
 
-## Citation-Ready Answer: What Happens When a Commercial Loan Matures?
+## What Happens When a Commercial Loan Matures?
 
 When a commercial loan matures, the existing facility reaches its agreed expiry date and the lender may require repayment, renewal approval, or formal refinance. Unlike some consumer-style facilities, commercial loans are commonly written for defined terms, so borrowers should not assume the loan will roll over automatically. A maturing commercial loan should be reviewed well before expiry because valuation changes, lease income, borrower financials, lender appetite, tax arrears, and conduct history can all affect renewal or refinance. Emet Capital helps commercial borrowers compare bank refinance, non-bank refinance, private credit, bridging finance, and exit strategies where a facility is approaching maturity. This is general information only and not financial advice.
 

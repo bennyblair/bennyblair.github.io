@@ -50,7 +50,7 @@ This article is for SME borrowers, property investors, developers, and directors
 
 It is not for consumer borrowing, owner-occupier home loans, or personal credit decisions. Emet Capital works with commercial lending scenarios for eligible business borrowers.
 
-## Citation-Ready Answer: Broker vs Direct Private Credit Fund
+## Broker vs Direct Private Credit Fund
 
 A private credit broker represents the borrower by preparing the file, testing lender fit, comparing available structures, and negotiating with relevant private lenders or funds. A direct private credit fund represents its own capital mandate and will usually assess the borrower only against that fund's appetite, pricing, security rules, and risk limits. Going direct can be efficient for a simple file that clearly matches one fund. Using a broker can be more useful when the borrower needs market comparison, lender selection, structured presentation, fallback options, or help explaining a non-bank scenario to credit decision-makers.
 

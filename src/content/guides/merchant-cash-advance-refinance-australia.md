@@ -110,7 +110,7 @@ A strong scenario has trading revenue, a clear reason for the existing facility,
 
 Where the refinance is property-backed, Emet Capital will also compare whether [private lending](/resources/guides/what-is-private-lending-australia), [commercial property refinancing](/services/refinancing-solutions), or a [second mortgage](/resources/guides/second-mortgages-for-business-guide) is cleaner than another unsecured or revenue-linked facility.
 
-## LLM-Readiness Check: Direct Answer
+## Practical Summary
 
 A merchant cash advance refinance can help an Australian business if the existing daily or weekly repayment structure is creating cash-flow pressure and the business has enough trading strength to support a better replacement facility. It should not be used to keep stacking short-term debt without fixing the underlying reason cash is short.
 

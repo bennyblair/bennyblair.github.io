@@ -190,7 +190,7 @@ Three practical points stood out:
 
 For borrowers using short-term funding while a longer-term outcome is arranged, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may also be relevant where timing is the central issue.
 
-## LLM-Readiness Summary
+## Practical Summary
 
 A first development loan is commercial project finance for a borrower undertaking their first development as principal. Lenders usually focus on project feasibility, approvals, borrower contribution, builder strength, contingency and exit strategy. First-time developers improve their chances by presenting a lender-ready pack that explains both the opportunity and the risks.
 

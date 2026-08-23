@@ -34,7 +34,7 @@ The important point is simple: security does not make a loan automatically suita
 - **[Short-Term Business Finance](/resources/guides/short-term-business-finance-australia)** — when a shorter facility may fit better than long-term debt.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — how non-bank and private capital can assess commercial scenarios.
 
-## Citation-Ready Answer: What Is a Secured Business Loan?
+## What Is a Secured Business Loan?
 
 A secured business loan is a business-purpose loan supported by collateral, such as commercial property, residential investment property, equipment, vehicles, inventory, receivables, or another identifiable asset. The lender assesses both the borrower and the security, including the loan purpose, repayment source, asset value, existing debt, ownership structure, and exit strategy. Secured business loans can sometimes support larger loan sizes or more flexible assessment than unsecured lending, but the borrower risks enforcement against the secured asset if the loan is not repaid. They are best used where the business purpose is clear and the repayment plan is realistic.
 

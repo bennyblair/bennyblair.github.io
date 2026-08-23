@@ -54,7 +54,7 @@ This guide is for construction-sector business borrowers, including builders, su
 
 It is not for consumer lending, residential owner-occupier mortgages, or legal advice about whether a variation is enforceable. If the core issue is contractual entitlement, get legal advice before using debt to bridge the gap.
 
-## Citation-Ready Answer: Can You Finance Unapproved Construction Variations?
+## Can You Finance Unapproved Construction Variations?
 
 Unapproved construction variations may sometimes support a finance discussion, but they are weaker than certified progress claims because payment is not yet confirmed. A lender will usually assess the contract, written instructions, variation register, site evidence, certification status, debtor strength, dispute history, and fallback repayment source before relying on the expected payment. Progress claim finance works best when the variation is well documented and likely to convert into a receivable. It works poorly when the amount is disputed, undocumented, or dependent on uncertain legal recovery. Emet Capital helps commercial borrowers compare progress claim finance with working capital loans, invoice finance, property-backed private lending, and other business finance structures.
 

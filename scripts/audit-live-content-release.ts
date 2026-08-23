@@ -32,6 +32,39 @@ function robotsFrom(html: string) {
   return "";
 }
 
+function metaContent(html: string, selector: { name?: string; property?: string }) {
+  for (const tag of html.match(/<meta\b[^>]*>/gi) || []) {
+    const attribute = selector.name ? "name" : "property";
+    const value = selector.name || selector.property;
+    if (new RegExp(`\\b${attribute}=["']${value}["']`, "i").test(tag)) return tag.match(/\bcontent=["']([^"']+)/i)?.[1] || "";
+  }
+  return "";
+}
+
+function plainText(html: string) {
+  return html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
+}
+
+function faqAnswersVisible(html: string) {
+  const main = plainText(html.match(/<main\b[^>]*>[\s\S]*?<\/main>/i)?.[0] || "");
+  for (const match of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const value = JSON.parse(match[1]);
+      const schemas = Array.isArray(value) ? value : [value];
+      for (const schema of schemas) {
+        if (schema?.["@type"] !== "FAQPage") continue;
+        for (const question of schema.mainEntity || []) {
+          const answer = plainText(String(question?.acceptedAnswer?.text || ""));
+          if (answer && !main.includes(answer)) return false;
+        }
+      }
+    } catch {
+      return false;
+    }
+  }
+  return true;
+}
+
 function routeFor(file: string) {
   const match = file.match(/^src\/content\/(guides|case-studies|insights)\/([^/]+)\.md$/);
   if (!match) throw new Error(`Unsupported content path: ${file}`);
@@ -55,8 +88,8 @@ if (!files.length) {
   console.log(JSON.stringify({ classification: "not_applicable", reason: "no new content files in release" }, null, 2));
   process.exit(0);
 }
-if (files.length !== 2) {
-  console.log(JSON.stringify({ classification: "deterministic_content_defect", reason: `expected two new articles, found ${files.length}`, files }, null, 2));
+if (files.length !== 1) {
+  console.log(JSON.stringify({ classification: "deterministic_content_defect", reason: `expected one new article, found ${files.length}`, files }, null, 2));
   process.exit(10);
 }
 
@@ -67,7 +100,11 @@ const expected = files.map((file) => {
     file,
     route: routeFor(file),
     title: String(parsed.data.title || "").trim(),
-    internalLinks: new Set([...source.matchAll(/\]\((\/[^)\s#?]+)/g)].map((match) => match[1])).size,
+    metaTitle: String(parsed.data.metaTitle || parsed.data.meta_title || "").trim(),
+    metaDescription: String(parsed.data.metaDescription || parsed.data.meta_description || "").trim(),
+    featuredImage: String(parsed.data.featuredImage || parsed.data.featured_image || "").trim(),
+    designatedServicePage: String(parsed.data.designatedServicePage || parsed.data.designated_service_page || "").trim(),
+    guideLinks: new Set([...source.matchAll(/\]\((\/resources\/guides\/[^)\s#?]+)/g)].map((match) => match[1])).size,
   };
 });
 
@@ -80,16 +117,29 @@ for (let attempt = 1; attempt <= attempts; attempt += 1) {
   if (infrastructureHealthy) healthyInfrastructureChecks += 1;
   const pages = await Promise.all(expected.map(async (item) => {
     const response = await fetchText(`${base}${item.route}`);
+    const imageUrl = item.featuredImage.startsWith("http") ? item.featuredImage : `${base}${item.featuredImage}`;
+    const image = await fetchText(imageUrl);
     const canonical = canonicalFrom(response.text);
     const robots = robotsFrom(response.text).toLowerCase();
+    const renderedTitle = response.text.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.trim() || "";
+    const renderedDescription = metaContent(response.text, { name: "description" });
+    const h1Count = (response.text.match(/<h1\b[^>]*>[\s\S]*?<\/h1>/gi) || []).length;
     const checks = {
       status200: response.status === 200,
       renderedTitle: Boolean(item.title) && response.text.includes(item.title),
+      authoredMetaTitle: renderedTitle === item.metaTitle,
+      authoredMetaDescription: renderedDescription === item.metaDescription,
       selfCanonical: canonical ? new URL(canonical, base).pathname.replace(/\/$/, "") === item.route : false,
       indexAllowed: !robots.includes("noindex"),
       inSitemap: sitemap.text.includes(`<loc>${base}${item.route}</loc>`),
       structuredData: /<script[^>]+application\/ld\+json/i.test(response.text),
-      internalLinkMinimum: item.internalLinks >= 10,
+      oneH1: h1Count === 1,
+      articleImage: image.status === 200 && metaContent(response.text, { property: "og:image" }) === imageUrl,
+      publisherLogo: response.text.includes("https://emetcapital.com.au/images/emet-capital-logo.png"),
+      faqAnswersVisible: faqAnswersVisible(response.text),
+      noInternalProductionLabels: !/\b(?:LLM[\s-]*Readiness|AI[\s-]*Readiness|Citation[\s-]*Ready|QA (?:Summary|Snapshot|Check)|SEO QA|Editorial Checklist|Prompt (?:Notes?|Output))\b/i.test(plainText(response.text)),
+      designatedServiceLink: response.text.includes(`href="${item.designatedServicePage}`) || response.text.includes(`href='${item.designatedServicePage}`),
+      supportingGuides: item.guideLinks >= 2,
     };
     return { ...item, status: response.status, canonical, robots, checks, passed: Object.values(checks).every(Boolean), error: response.error };
   }));

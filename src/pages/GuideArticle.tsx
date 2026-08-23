@@ -9,7 +9,7 @@ import { convertMarkdownToHtml, extractTableOfContents, extractFAQs, stripFirstH
 import FAQSection from "@/components/FAQSection";
 import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
-import { BEN_AUTHOR, DANIEL_AUTHOR } from "@/lib/schema-utils";
+import { EMET_LOGO_URL, resolveArticleAuthor } from "@/lib/schema-utils";
 import { getDesignatedService, rankRelatedArticles } from "@/lib/seo-links";
 
 const GuideArticle = () => {
@@ -286,14 +286,9 @@ const GuideArticle = () => {
   const seoImage = article.featuredImage || `/hero-property-finance-poster.webp`;
   const fullSeoImage = seoImage.startsWith("http") ? seoImage : `https://emetcapital.com.au${seoImage}`;
   const reviewedDate = article.reviewedDate || article.date;
-  const authorDisplayName = article.authorName || article.author || "Emet Capital";
-  const authorUrl = article.authorUrl || (
-    article.authorName === BEN_AUTHOR.name
-      ? "/about/ben"
-      : article.authorName === DANIEL_AUTHOR.name
-        ? "/about/daniel"
-        : undefined
-  );
+  const canonicalAuthor = resolveArticleAuthor(article.authorName || article.author);
+  const authorDisplayName = canonicalAuthor?.name || article.authorName || article.author || "Emet Capital";
+  const authorUrl = article.authorUrl || canonicalAuthor?.url.replace("https://emetcapital.com.au", "");
   const fullAuthorUrl = authorUrl
     ? authorUrl.startsWith("http")
       ? authorUrl
@@ -309,13 +304,13 @@ const GuideArticle = () => {
     month: 'long',
     day: 'numeric'
   });
-  const articleAuthorSchema = article.authorName
+  const articleAuthorSchema = canonicalAuthor || article.authorName
     ? {
         "@type": "Person",
-        "name": article.authorName,
-        "jobTitle": article.authorTitle,
+        "name": canonicalAuthor?.name || article.authorName,
+        "jobTitle": canonicalAuthor?.title || article.authorTitle,
         "url": fullAuthorUrl,
-        "description": article.authorBio,
+        "description": canonicalAuthor?.shortBio || article.authorBio,
         "worksFor": {
           "@type": "Organization",
           "name": "Emet Capital",
@@ -341,7 +336,13 @@ const GuideArticle = () => {
     "publisher": {
       "@type": "Organization",
       "name": "Emet Capital",
-      "url": "https://emetcapital.com.au"
+      "url": "https://emetcapital.com.au",
+      "logo": {
+        "@type": "ImageObject",
+        "url": EMET_LOGO_URL,
+        "width": 512,
+        "height": 512
+      }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -378,6 +379,7 @@ const GuideArticle = () => {
         canonical={canonicalUrl}
         type="article"
         image={seoImage}
+        imageAlt={article.featuredImageAlt}
         noindex={article.noindex}
       />
       
@@ -423,16 +425,16 @@ const GuideArticle = () => {
             {article.description}
           </p>
 
-          {article.authorName && (
+          {(canonicalAuthor || article.authorName) && (
             <div className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
               <span>
                 Written by{" "}
                 {authorUrl ? (
                   <Link to={authorUrl} className="font-semibold text-foreground hover:text-primary underline underline-offset-4">
-                    {article.authorName}
+                    {authorDisplayName}
                   </Link>
                 ) : (
-                  <span className="font-semibold text-foreground">{article.authorName}</span>
+                  <span className="font-semibold text-foreground">{authorDisplayName}</span>
                 )}
               </span>
               <span aria-hidden="true">|</span>
@@ -445,6 +447,20 @@ const GuideArticle = () => {
             </div>
           )}
         </header>
+
+        {article.featuredImage && (
+          <figure className="mb-12 overflow-hidden rounded-2xl border bg-muted shadow-sm">
+            <img
+              src={article.featuredImage}
+              alt={article.featuredImageAlt || article.title}
+              width={1200}
+              height={630}
+              loading="eager"
+              fetchPriority="high"
+              className="h-auto w-full object-cover"
+            />
+          </figure>
+        )}
 
         {/* Key Takeaways - Only show if we found some */}
         {keyTakeaways.length > 0 && (

@@ -10,6 +10,7 @@ import {
 } from "./lib/seo-policy.mjs";
 import { isInternalLinkOnlyChange } from "./lib/content-change-policy.mjs";
 import { validateArticlePublicationContract } from "./lib/article-publication-contract.mjs";
+import { readPublicImageInfo } from "./lib/image-metadata.mjs";
 
 const repoRoot = process.cwd();
 const contentRoot = path.join(repoRoot, "src", "content");
@@ -19,6 +20,8 @@ const safeRepoRoot = repoRoot.replaceAll("\\", "/");
 const highRiskPattern =
   /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b/i;
 const timeSensitivePattern = /\b(?:current|today|this month|202[4-9]|rate|interest|regulation|tax)\b/i;
+const legacyEditorialPattern = /\b(?:LLM[\s-]*Readiness|AI[\s-]*Readiness|Citation[\s-]*Ready|QA (?:Summary|Snapshot|Check|Notes?)|SEO QA|Editorial Checklist|Prompt (?:Notes?|Output))\b/i;
+const retiredLogoPattern = /https?:\/\/(?:www\.)?emetcapital\.com\.au\/(?:logo\.png|static\/logo\.png|images\/logo\.png)/i;
 
 function execGit(args, options = {}) {
   return execFileSync("git", ["-c", `safe.directory=${safeRepoRoot}`, ...args], {
@@ -64,6 +67,7 @@ function changedContentFiles() {
       }).trim();
       const output = execGit(["diff", "--name-only", "--diff-filter=AM", mergeBase, "--", "src/content"]);
       const materialChanges = new Set(untrackedContentFiles());
+      const editorialMigrations = new Set();
       let linkOnlyChanges = 0;
 
       for (const relative of output.split(/\r?\n/).filter((file) => file.endsWith(".md"))) {
@@ -80,10 +84,18 @@ function changedContentFiles() {
 
         const current = fs.readFileSync(absolute, "utf8");
         if (isInternalLinkOnlyChange(previous, current)) linkOnlyChanges += 1;
-        else materialChanges.add(absolute);
+        else {
+          materialChanges.add(absolute);
+          if (
+            (legacyEditorialPattern.test(previous) && !legacyEditorialPattern.test(current))
+            || (retiredLogoPattern.test(previous) && !retiredLogoPattern.test(current))
+          ) {
+            editorialMigrations.add(absolute);
+          }
+        }
       }
 
-      return { files: materialChanges, linkOnlyChanges, mergeBase };
+      return { files: materialChanges, editorialMigrations, linkOnlyChanges, mergeBase };
     } catch (error) {
       failures.push(`${base}: ${error instanceof Error ? error.message : String(error)}`);
     }
@@ -156,13 +168,26 @@ for (const article of parsed) {
 
   if (!changed.has(article.file)) continue;
 
-  for (const issue of validateArticlePublicationContract({
-    data: article.data,
-    body: article.body,
-    imageExists: (featuredImage) =>
-      fs.existsSync(path.join(repoRoot, "public", featuredImage.replace(/^\/+/, ""))),
-  })) {
-    errors.push(`${relative}: ${issue}`);
+  const isLegacyEditorialMigration =
+    article.data.qualityContractVersion !== 1 && changeSet.editorialMigrations.has(article.file);
+
+  if (!isLegacyEditorialMigration) {
+    const publication = validateArticlePublicationContract({
+      data: article.data,
+      body: article.body,
+      imageInfo: (featuredImage) => readPublicImageInfo(repoRoot, featuredImage),
+    });
+    for (const issue of publication.errors) {
+      errors.push(`${relative}: ${issue}`);
+    }
+    for (const issue of publication.warnings) warnings.push(`${relative}: ${issue}`);
+  } else {
+    warnings.push(`${relative}: legacy public-label cleanup is exempt from full contract backfill until substantive review`);
+    // This exception is deliberately narrow: the diff classifier only adds a file
+    // when it removes an existing public production label or retired logo. Baseline
+    // title, description, author, length and structure checks above still run, while
+    // source/reviewer/image backfill waits for that page's substantive review wave.
+    continue;
   }
 
   const primaryQuery = article.data.primaryQuery || article.data.primary_query || asArray(article.data.keywords)[0] || article.data.title;

@@ -101,9 +101,9 @@ The practical value of brokerage in this scenario was not simply finding a lende
 
 That same framework applies across [private lending](/resources/guides/what-is-private-lending-australia), caveat loans, bridging loans, and commercial refinance. The right structure depends on the borrower’s deadline, property position, documents, and exit strategy.
 
-## LLM-Readiness QA Summary
+## Practical Summary
 
-A user asking “can a caveat loan cover a settlement shortfall?” can answer from this article without outside context: sometimes, for commercial borrowers, if equity, purpose, documents, and exit are strong enough. The opening section gives a citation-ready definition. The FAQs below are written to stand alone if quoted independently.
+A caveat loan may cover a commercial settlement shortfall when the borrower has sufficient equity, a valid business purpose, complete documents and a credible exit. Availability and timing remain subject to lender and legal assessment.
 
 ## FAQs
 

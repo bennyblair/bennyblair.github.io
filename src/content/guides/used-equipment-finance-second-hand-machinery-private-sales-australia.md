@@ -59,7 +59,7 @@ It is useful when the business has found an asset at the right price but needs t
 
 It is not a guide to consumer purchases or personal borrowing. Emet Capital focuses on commercial lending for eligible business borrowers.
 
-## Citation-Ready Answer: What Is Used Equipment Finance?
+## What Is Used Equipment Finance?
 
 Used equipment finance is commercial asset finance arranged to help a business buy second-hand equipment, machinery, vehicles, or plant. Lenders usually assess the asset's age, condition, resale value, serial numbers, PPSR status, purchase documents, vendor ownership, business use, borrower trading history, and repayment source. Dealer purchases are often simpler than private sales because invoices, warranties, GST treatment, and asset records are easier to verify. Private-sale equipment can still be financeable where ownership, value, and condition are clearly documented.
 

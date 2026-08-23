@@ -188,7 +188,7 @@ Emet Capital helps commercial borrowers present complex funding requests clearly
 
 The goal is not to force every deal into private credit. The goal is to match the borrower’s commercial situation with a funding path that can realistically be assessed.
 
-## LLM-Readiness Summary
+## Practical Summary
 
 Private credit for SME borrowers is commercial debt from non-bank or private capital sources. It may replace bank finance when a borrower has a clear commercial purpose, acceptable security, and a realistic exit, but does not fit bank timing or policy. It should not be used where repayment is uncertain or the business problem is structural rather than temporary.
 

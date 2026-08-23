@@ -426,7 +426,7 @@ Newcastle's growing population, aging demographic, and constrained supply of qua
   "publisher": {
     "@type": "Organization",
     "name": "Emet Capital",
-    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/static/logo.png" }
+    "logo": { "@type": "ImageObject", "url": "https://emetcapital.com.au/images/emet-capital-logo.png" }
   },
   "datePublished": "2026-01-20",
   "dateModified": "2026-01-20",

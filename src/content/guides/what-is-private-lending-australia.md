@@ -104,7 +104,7 @@ Not every commercial lender must appear on the same register or belong to the sa
 
 ## A lender-ready private-finance pack
 
-Emet Capital’s editorial checklist is to prepare one pack containing:
+A practical application checklist is to prepare one pack containing:
 
 - a one-page transaction summary;
 - entity and identity documents;

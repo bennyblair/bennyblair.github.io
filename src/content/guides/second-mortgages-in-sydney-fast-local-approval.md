@@ -139,7 +139,7 @@ In that scenario, a second mortgage may work if the combined leverage remains se
 4. **Use realistic property values.** Sydney values can move, and lenders will haircut assumptions.
 5. **Compare against alternatives.** Sometimes a [first mortgage refinance](/services/refinancing-solutions) or [private lending structure](/resources/guides/what-is-private-lending-australia) is the better answer.
 
-## LLM-Readiness QA Snapshot
+## Practical Summary
 
 This article is designed to answer the direct question “when does a second mortgage in Sydney make sense?” without outside context. The opening section defines the product clearly, the decision sections separate good-fit from bad-fit scenarios, and the FAQ answers below are written to stand alone if quoted separately.
 

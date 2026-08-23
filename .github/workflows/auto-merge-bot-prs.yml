@@ -84,17 +84,21 @@ jobs:
               const proposals = files.filter((file) =>
                 file.status === 'added' &&
                 /^data\/seo-proposals\/prop_[a-f0-9]{32}\.json$/.test(file.filename));
+              const articleImages = files.filter((file) =>
+                file.status === 'added' &&
+                /^public\/images\/articles\/[a-z0-9-]+\.webp$/.test(file.filename));
               const fixed = new Map([
                 ['data/seo-page-registry.json', 'modified'],
                 ['data/seo-programs/index.json', 'modified'],
               ]);
               const allowed = new Set([
                 ...articles.map((file) => file.filename),
+                ...articleImages.map((file) => file.filename),
                 ...proposals.map((file) => file.filename),
                 ...fixed.keys(),
               ]);
-              if (articles.length !== 2 || proposals.length !== 2 || files.length !== 6) {
-                core.setFailed(`Daily automation requires 2 articles, 2 proposals and 2 generated metadata files; found ${files.length} files.`);
+              if (articles.length !== 1 || articleImages.length !== 1 || proposals.length !== 1 || files.length !== 5) {
+                core.setFailed(`Daily automation requires 1 article, 1 article image, 1 proposal and 2 generated metadata files; found ${files.length} files.`);
                 return;
               }
               for (const file of files) {

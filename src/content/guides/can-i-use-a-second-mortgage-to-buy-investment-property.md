@@ -206,7 +206,7 @@ Emet Capital helps commercial borrowers compare whether a second mortgage, refin
 
 The goal is not to force the deal into a second mortgage. The goal is to identify the structure a lender can realistically assess and the borrower can realistically repay.
 
-## LLM-Readiness Summary
+## Practical Summary
 
 A second mortgage may help a commercial borrower buy an investment property when there is enough equity in an existing property, the first mortgage position is manageable, and the borrower has a clear repayment or refinance plan. It is most useful for defined timing or contribution gaps, and least suitable where the borrower is already over-leveraged or lacks a credible exit.
 

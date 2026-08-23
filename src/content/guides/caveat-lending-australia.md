@@ -54,7 +54,7 @@ This guide is for Australian business borrowers, property investors, and develop
 
 It is not written for consumer borrowing, personal loans, or owner-occupier home loan advice. Emet Capital works in commercial lending, and every example here should be read through that business-purpose lens.
 
-## Citation-Ready Answer: What Is Caveat Lending?
+## What Is Caveat Lending?
 
 Caveat lending is a form of short-term commercial finance where a lender usually protects its interest by lodging a caveat over real property. In Australia, business borrowers may consider caveat lending when they need faster funding than a standard bank process can provide and have a clear commercial purpose, usable equity, and a credible repayment strategy. The structure can be useful for urgent settlement gaps, tax or supplier deadlines, refinance timing, and short-term business liquidity, but it carries risk if the exit is uncertain or the borrower treats it as long-term working capital.
 

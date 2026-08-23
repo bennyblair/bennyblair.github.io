@@ -1,4 +1,5 @@
 import { claimCanBeAddedToSchema, getClaim } from "@/lib/claims";
+import articleAuthors from "@/data/article-authors.json";
 
 // Utility functions for generating JSON-LD structured data schemas
 
@@ -15,37 +16,17 @@ interface AuthorProfile {
   knowsAbout: string[];
 }
 
-export const BEN_AUTHOR: AuthorProfile = {
-  name: "Ben",
-  title: "Commercial Finance Broker, Emet Capital",
-  url: "https://emetcapital.com.au/about/ben",
-  shortBio:
-    "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
-  knowsAbout: [
-    "Caveat loans",
-    "Second mortgages",
-    "Bridging finance",
-    "Commercial property finance",
-    "Private lending",
-    "Business finance",
-  ],
-};
+export const BEN_AUTHOR: AuthorProfile = articleAuthors.authors.Ben;
 
-export const DANIEL_AUTHOR: AuthorProfile = {
-  name: "Daniel",
-  title: "Director, Emet Capital",
-  url: "https://emetcapital.com.au/about/daniel",
-  shortBio:
-    "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
-  knowsAbout: [
-    "Caveat loans",
-    "Second mortgages",
-    "Bridging finance",
-    "Commercial property finance",
-    "Private lending",
-    "Business finance",
-  ],
-};
+export const DANIEL_AUTHOR: AuthorProfile = articleAuthors.authors.Daniel;
+
+export const ARTICLE_AUTHORS: Record<string, AuthorProfile> = articleAuthors.authors;
+
+export const EMET_LOGO_URL = "https://emetcapital.com.au/images/emet-capital-logo.png";
+
+export function resolveArticleAuthor(name?: string): AuthorProfile | undefined {
+  return name ? ARTICLE_AUTHORS[name] : undefined;
+}
 
 const authorEmployeeSchema = (author: AuthorProfile) => ({
   "@type": "Person",
@@ -147,7 +128,7 @@ export const generateOrganizationSchema = () => {
     "name": "Emet Capital",
     "legalName": "Emet Capital Pty Ltd",
     "url": "https://emetcapital.com.au",
-    "logo": "https://emetcapital.com.au/logo.png",
+    "logo": EMET_LOGO_URL,
     "description": "Australia's trusted commercial lending specialists. We connect businesses with the right financing solutions through our extensive network of private and institutional lenders.",
     "taxID": "50 682 228 182",
     "identifier": {
@@ -197,7 +178,7 @@ export const generateLocalBusinessSchema = () => {
     "@type": "FinancialService",
     "name": "Emet Capital",
     "legalName": "Emet Capital Pty Ltd",
-    "image": "https://emetcapital.com.au/logo.png",
+    "image": EMET_LOGO_URL,
     "url": "https://emetcapital.com.au",
     "telephone": "+61-485-952-651",
     "email": "enquiry@emetcapital.com.au",

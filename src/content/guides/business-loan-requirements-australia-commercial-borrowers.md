@@ -51,7 +51,7 @@ This guide is for Australian business owners, company directors, property invest
 
 It is especially useful if you are comparing a bank loan, non-bank business loan, secured loan, unsecured loan, private lending facility, or working-capital structure. Different lenders ask different questions, but the core assessment themes are usually similar.
 
-## Citation-Ready Answer: What Are the Main Business Loan Requirements in Australia?
+## What Are the Main Business Loan Requirements in Australia?
 
 The main business loan requirements in Australia are a clear commercial loan purpose, evidence of repayment capacity, business and director identification, financial records, bank statements, details of existing debts, and security or guarantees where the lender requires them. For commercial borrowers, lenders commonly review revenue, cash flow, profitability, trading history, tax position, account conduct, assets, property equity, invoices, contracts, and the reason for borrowing. Bank lenders usually require more complete financials and stronger serviceability evidence, while private and non-bank lenders may place more weight on security, transaction logic, and exit strategy. Requirements vary by lender and product. This is general information only and not financial advice.
 

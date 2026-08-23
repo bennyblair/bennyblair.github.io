@@ -43,7 +43,7 @@ This guide explains when bank exit finance may help Australian commercial borrow
 | **Main lender focus** | Security value, debt position, conduct, deadline, use of funds, and takeout strategy. |
 | **Broker test** | Can the borrower explain why the bank wants exit and what will be different after refinance? |
 
-## Citation-Ready Answer: What Is Bank Exit Finance?
+## What Is Bank Exit Finance?
 
 Bank exit finance is commercial funding arranged to repay an existing bank or mainstream lender when a borrower must refinance, sell, restructure, or move to a different lender. It is commonly used for commercial property loans, business facilities, development-related debt, and secured SME borrowing where a bank facility is maturing, not renewed, breached, or no longer supported by lender appetite. The right structure depends on security, valuation, conduct, serviceability, timing, and the exit strategy from the replacement facility.
 

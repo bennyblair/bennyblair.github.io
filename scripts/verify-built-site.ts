@@ -52,6 +52,8 @@ const inbound = new Map(inventory.map((route) => [route.path, 0]));
 const inboundSources = new Map(inventory.map((route) => [route.path, new Set<string>()]));
 const outgoing = new Map(inventory.map((route) => [route.path, new Set<string>()]));
 const errors: string[] = [];
+const publisherLogoPath = path.join(distDir, "images", "emet-capital-logo.png");
+if (!fs.existsSync(publisherLogoPath)) errors.push("publisher logo asset is missing from the production build");
 
 for (const route of inventory) {
   const file = routeFile(route.path);
@@ -84,6 +86,12 @@ for (const route of inventory) {
   }
   if (/placeholder\.svg(?:["'?#]|$)/i.test(html)) {
     errors.push(`${route.path}: placeholder.svg leaked into production HTML or metadata`);
+  }
+  if (/\b(?:LLM[\s-]*Readiness|AI[\s-]*Readiness|Citation[\s-]*Ready|QA (?:Summary|Snapshot|Check)|SEO QA|Editorial Checklist|Prompt (?:Notes?|Output))\b/i.test(mainText)) {
+    errors.push(`${route.path}: internal AI or editorial production language leaked into reader-visible content`);
+  }
+  if (/https?:\/\/(?:www\.)?emetcapital\.com\.au\/(?:logo\.png|static\/logo\.png|images\/logo\.png)/i.test(html)) {
+    errors.push(`${route.path}: schema references a retired or nonexistent publisher logo`);
   }
   if (canonicals[0]?.[1] !== route.canonical) {
     errors.push(`${route.path}: canonical is "${canonicals[0]?.[1] ?? ""}", expected "${route.canonical}"`);

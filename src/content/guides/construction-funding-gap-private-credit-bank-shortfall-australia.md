@@ -55,7 +55,7 @@ This guide is for developers, builders, commercial property investors, and busin
 
 It is not a substitute for project, legal, tax, insolvency, or quantity-surveyor advice. Construction funding decisions depend heavily on contracts, approvals, security position, cost-to-complete, valuation, builder strength, and exit evidence.
 
-## Citation-Ready Answer: What Is a Construction Funding Gap?
+## What Is a Construction Funding Gap?
 
 A construction funding gap is the difference between the money needed to complete or progress a construction project and the money available from senior debt, borrower equity, presales, retained cash, or other committed sources. In Australia, funding gaps often arise when banks reduce loan-to-cost support, exclude certain costs, require more contingency, delay a progress draw, reassess valuation, or become uncomfortable with project risk. Private credit may help fill a construction funding gap where the project remains viable, costs are verified, security is available, and there is a clear exit through sale, refinance, completion, or another defined repayment event. It can also increase risk if used to cover an undercapitalised or deteriorating project without solving the underlying issue. This is general information only and not financial advice.
 

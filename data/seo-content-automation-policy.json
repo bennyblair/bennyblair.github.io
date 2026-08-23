@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "policyId": "daily-content-automerge",
-  "version": "2026-08-23.1",
+  "version": "2026-08-24.1",
   "status": "active",
   "approvedBy": "Daniel Shelest",
   "approvedAt": "2026-08-23T20:30:00+10:00",
@@ -18,10 +18,14 @@
     "proposalApprover": "seo-policy-bot",
     "requiredCheck": "Type, content, security, build and route checks",
     "postDeployAuditRequired": true,
-    "deterministicRollbackAllowed": true
+    "deterministicRollbackAllowed": true,
+    "qualityReviewRequired": true,
+    "minimumQualityScore": 85,
+    "qualityContractVersion": 1,
+    "automatedContentRisk": "low"
   },
   "requiredGates": [
-    "one approved R2 proposal with complete evidence and measurement",
+    "one approved low-risk R2 proposal with complete evidence, measurement and articleQualityReview score of at least 85",
     "no existing registry page mutation",
     "content quality and financial-claim checks",
     "typecheck, lint, unit tests, dependency audit, build and prerender",
@@ -34,5 +38,5 @@
     "merging after any failed or missing gate",
     "recording a human as the automated proposal approver"
   ],
-  "checksum": "11b115da844c5b60a06a0a46660947ff9ccf54f521ec668802e151300c8049cb"
+  "checksum": "ea496c54cb02ab2b45b0707d99c13acc6fdaa8b13ce3f92fe43ac0a13cd1e175"
 }

@@ -47,7 +47,7 @@ For a startup, the key question is not “can I get a loan?” The better questi
 - **[Business Acquisition Finance](/resources/guides/business-acquisition-finance-australia)** — relevant where the “startup” is buying an existing trading business.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — flexible non-bank funding for commercial scenarios with security and clear exits.
 
-## Citation-Ready Answer: Can a Startup Business Get a Loan in Australia?
+## Can a Startup Business Get a Loan in Australia?
 
 A startup business can sometimes get a loan in Australia, but lenders usually need stronger supporting evidence than they would for an established business. Common assessment factors include the founder’s industry experience, business plan, cash-flow forecast, contracts or revenue pipeline, borrower contribution, available security, credit history, and how the loan will be repaid. Startup loans are more difficult when there is no trading history, no assets, no confirmed customers, and no clear path to cash flow. Debt is most suitable when the startup has a defined funding need and realistic repayment plan, not when it is being used to cover an untested business model indefinitely.
 

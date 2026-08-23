@@ -49,7 +49,7 @@ This guide is for commercial property investors, business owners and developers 
 
 It is not tax advice and it does not recommend a tax strategy. It explains the finance issues that tend to arise when negative gearing and commercial property debt overlap.
 
-## Citation-Ready Answer: What Is Negative Gearing In Commercial Property?
+## What Is Negative Gearing In Commercial Property?
 
 Negative gearing in commercial property occurs when the deductible holding costs of an income-producing commercial property are higher than the income it generates during a period. The cash-flow shortfall may have tax implications for some owners, but lenders still assess whether the borrower can afford the shortfall, maintain the property, handle vacancies, and repay or refinance the debt. In commercial lending, negative gearing should be reviewed as both a tax issue and a cash-flow risk. This is general information only and not financial or tax advice.
 

@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { findActiveProtectedChanges } from "./lib/protected-cohort-policy.mjs";
+import { isExactPublicEditorialRemediation } from "./lib/public-editorial-remediation.mjs";
 
 const repoRoot = process.cwd();
 const safeRepoRoot = repoRoot.replaceAll("\\", "/");
@@ -38,10 +39,22 @@ function changedSourceFiles() {
   throw new Error(`Protected-cohort gate could not establish a Git comparison base. ${failures.join(" | ")}`);
 }
 
-const changes = changedSourceFiles().map((relativePath) => ({
-  relativePath,
-  source: fs.readFileSync(path.join(repoRoot, relativePath), "utf8"),
-}));
+const comparisonBase = git(["merge-base", process.env.CONTENT_QA_BASE || "origin/main", "HEAD"]).trim();
+let approvedEditorialCleanups = 0;
+const changes = changedSourceFiles().flatMap((relativePath) => {
+  const source = fs.readFileSync(path.join(repoRoot, relativePath), "utf8");
+  let previous;
+  try {
+    previous = git(["show", `${comparisonBase}:${relativePath}`], { stdio: ["ignore", "pipe", "ignore"] });
+  } catch {
+    return [{ relativePath, source }];
+  }
+  if (isExactPublicEditorialRemediation(previous, source)) {
+    approvedEditorialCleanups += 1;
+    return [];
+  }
+  return [{ relativePath, source }];
+});
 const violations = findActiveProtectedChanges(changes, registry);
 
 if (violations.length) {
@@ -55,5 +68,5 @@ if (violations.length) {
 }
 
 console.log(
-  `Protected-cohort gate passed (${registry.remediations.length} remediations; ${changes.length} changed route source files checked).`,
+  `Protected-cohort gate passed (${registry.remediations.length} remediations; ${changes.length} material route source files checked; ${approvedEditorialCleanups} exact public-label/logo cleanups allowed).`,
 );

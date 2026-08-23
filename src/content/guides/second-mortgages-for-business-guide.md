@@ -53,7 +53,7 @@ This guide provides a systematic decision framework for evaluating whether first
 
 ---
 
-## Citation-Ready Answer: What Is a Second Mortgage for Business?
+## What Is a Second Mortgage for Business?
 
 A second mortgage for business is a property-backed loan registered behind an existing first mortgage, allowing a borrower to access equity without replacing the current first loan. It may be used for business-purpose funding such as working capital, debt consolidation, equipment, settlement shortfalls, business expansion, or bridging to a refinance or sale. Because the second mortgage lender ranks behind the first lender, the structure usually carries higher risk, tighter equity requirements, and a higher cost than a standard first mortgage. The key assessment points are property value, first mortgage balance, combined loan-to-value ratio, business purpose, documents, lender consent where required, and a credible exit strategy. Emet Capital helps borrowers compare second mortgage options against refinancing, caveat loans, bridging finance, private lending, and unsecured business finance. This is general information only and not financial advice.
 ## Understanding Second Mortgage Business Applications
@@ -263,7 +263,7 @@ Ready to evaluate whether second mortgages suit your business? Conduct thorough 
     "name": "Emet Capital",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.emetcapital.com.au/logo.png"
+      "url": "https://emetcapital.com.au/images/emet-capital-logo.png"
     }
   },
   "datePublished": "2025-10-30",

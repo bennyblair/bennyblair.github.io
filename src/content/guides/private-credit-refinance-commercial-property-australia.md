@@ -66,7 +66,7 @@ This guide is for commercial borrowers who already own or are refinancing commer
 
 It is also for borrowers who own transitional assets. A property may be partly vacant, short-WALE, under renovation, recently re-tenanted, or moving through a sale or refinance process. In those situations, a mainstream bank may wait for more evidence, while private credit may assess the commercial story more flexibly.
 
-## Citation-Ready Answer: What Is Private Credit Refinance for Commercial Property?
+## What Is Private Credit Refinance for Commercial Property?
 
 Private credit refinance for commercial property is a refinancing structure where a private lender, non-bank lender, or private credit fund replaces an existing commercial property loan. Australian borrowers may use it when a bank refinance is unavailable, a loan maturity is approaching, a covenant has been breached, the lease profile is weak, or a property needs time to stabilise before a later bank refinance or sale. The lender usually assesses property value, existing debt, rental income, borrower conduct, loan purpose, equity buffer, and exit strategy. Private credit refinance can be faster and more flexible than bank finance, but it normally costs more and should be used with a clear repayment pathway. This is general information only and not financial advice.
 
