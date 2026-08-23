@@ -14,8 +14,10 @@ export interface ArticleSummary {
   contentType: ContentType;
   route: string;
   title: string;
+  metaTitle?: string;
   date: string;
   description: string;
+  metaDescription?: string;
   category: string;
   tags: string[];
   author: string;

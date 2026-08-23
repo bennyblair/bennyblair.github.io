@@ -62,17 +62,29 @@ for (const route of inventory) {
 
   const html = fs.readFileSync(file, "utf8");
   const text = normalizeWhitespace(html);
+  const mainText = normalizeWhitespace(mainFragment(html));
   const titles = [...html.matchAll(/<title[^>]*>([\s\S]*?)<\/title>/gi)];
   const descriptions = [...html.matchAll(/<meta\b[^>]*name=["']description["'][^>]*content=["']([^"']+)["'][^>]*>/gi)];
   const canonicals = [...html.matchAll(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/gi)];
   const h1s = [...html.matchAll(/<h1\b[^>]*>[\s\S]*?<\/h1>/gi)];
   const mains = [...html.matchAll(/<main\b/gi)];
+  const renderedTitle = normalizeWhitespace(titles[0]?.[1] ?? "");
+  const renderedDescription = normalizeWhitespace(descriptions[0]?.[1] ?? "");
 
   if (titles.length !== 1) errors.push(`${route.path}: expected one title, found ${titles.length}`);
   if (descriptions.length !== 1) errors.push(`${route.path}: expected one meta description, found ${descriptions.length}`);
   if (canonicals.length !== 1) errors.push(`${route.path}: expected one canonical, found ${canonicals.length}`);
   if (h1s.length !== 1) errors.push(`${route.path}: expected one H1, found ${h1s.length}`);
   if (mains.length !== 1) errors.push(`${route.path}: expected one main landmark, found ${mains.length}`);
+  if (/(?:\.{3}|…)\s*$/.test(renderedTitle)) {
+    errors.push(`${route.path}: title contains a persisted truncation ellipsis`);
+  }
+  if (/(?:\.{3}|…)\s*$/.test(renderedDescription)) {
+    errors.push(`${route.path}: meta description contains a persisted truncation ellipsis`);
+  }
+  if (/placeholder\.svg(?:["'?#]|$)/i.test(html)) {
+    errors.push(`${route.path}: placeholder.svg leaked into production HTML or metadata`);
+  }
   if (canonicals[0]?.[1] !== route.canonical) {
     errors.push(`${route.path}: canonical is "${canonicals[0]?.[1] ?? ""}", expected "${route.canonical}"`);
   }
@@ -98,7 +110,15 @@ for (const route of inventory) {
         if (item?.["@type"] !== "FAQPage") continue;
         for (const question of item.mainEntity ?? []) {
           const name = normalizeWhitespace(String(question?.name ?? ""));
-          if (name && !text.includes(name)) errors.push(`${route.path}: FAQ schema question is not visible: "${name}"`);
+          const answer = normalizeWhitespace(String(question?.acceptedAnswer?.text ?? ""));
+          if (name && !mainText.includes(name)) errors.push(`${route.path}: FAQ schema question is not visible: "${name}"`);
+          if (
+            answer &&
+            (route.pageType === "guide" || route.pageType === "case-study") &&
+            !mainText.includes(answer)
+          ) {
+            errors.push(`${route.path}: FAQ schema answer is absent from raw page content: "${answer}"`);
+          }
         }
       }
     } catch {

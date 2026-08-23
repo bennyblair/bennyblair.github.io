@@ -48,8 +48,10 @@ export function normalizeArticleData(contentType, slug, data, body = "") {
           ? `/resources/insights/${slug}`
           : `/resources/guides/${slug}`,
     title: asString(data.title, slug),
+    metaTitle: asString(data.metaTitle || data.meta_title),
     date: dateValue || "1970-01-01",
     description: asString(data.description),
+    metaDescription: asString(data.metaDescription || data.meta_description),
     category: asString(data.category, contentType === "case-studies" ? "Case Studies" : "Guides"),
     tags: asStringArray(data.tags),
     author: asString(data.author, "Emet Capital"),

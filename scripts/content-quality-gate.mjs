@@ -9,6 +9,7 @@ import {
   resolveDesignatedService,
 } from "./lib/seo-policy.mjs";
 import { isInternalLinkOnlyChange } from "./lib/content-change-policy.mjs";
+import { validateArticlePublicationContract } from "./lib/article-publication-contract.mjs";
 
 const repoRoot = process.cwd();
 const contentRoot = path.join(repoRoot, "src", "content");
@@ -154,6 +155,15 @@ for (const article of parsed) {
   if (h2Count < 3) errors.push(`${relative}: ${h2Count} H2 sections; minimum is 3`);
 
   if (!changed.has(article.file)) continue;
+
+  for (const issue of validateArticlePublicationContract({
+    data: article.data,
+    body: article.body,
+    imageExists: (featuredImage) =>
+      fs.existsSync(path.join(repoRoot, "public", featuredImage.replace(/^\/+/, ""))),
+  })) {
+    errors.push(`${relative}: ${issue}`);
+  }
 
   const primaryQuery = article.data.primaryQuery || article.data.primary_query || asArray(article.data.keywords)[0] || article.data.title;
   const searchIntent = article.data.searchIntent || article.data.search_intent || "informational";

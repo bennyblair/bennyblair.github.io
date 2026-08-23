@@ -34,7 +34,7 @@ const FAQSection = ({ faqs }: FAQSectionProps) => {
             <AccordionTrigger className="text-left hover:no-underline py-1.5 font-medium text-foreground text-sm">
               {faq.question}
             </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground leading-relaxed pb-1.5 text-sm">
+            <AccordionContent forceMount className="text-muted-foreground leading-relaxed pb-1.5 text-sm">
               {faq.answer}
             </AccordionContent>
           </AccordionItem>

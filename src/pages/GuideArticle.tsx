@@ -278,12 +278,13 @@ const GuideArticle = () => {
   const processedContent = stripFirstHeading(article.content).replace(/^#\s+/gm, "## ");
 
   // Generate SEO-optimized title and description
-  const seoTitle = `${article.title} | Emet Capital`;
-  const seoDescription = article.description;
-  const seoKeywords = article.tags?.join(', ') || 'commercial finance, business lending, Australia';
+  const seoTitle = article.metaTitle || `${article.title} | Emet Capital`;
+  const seoDescription = article.metaDescription || article.description;
+  const seoKeywords = article.keywords?.join(', ') || article.tags?.join(', ') || 'commercial finance, business lending, Australia';
   const canonicalUrl = `/resources/${contentType}/${slug}`;
   const designatedService = article ? getDesignatedService(article) : null;
-  const seoImage = article.featuredImage || `/placeholder.svg`;
+  const seoImage = article.featuredImage || `/hero-property-finance-poster.webp`;
+  const fullSeoImage = seoImage.startsWith("http") ? seoImage : `https://emetcapital.com.au${seoImage}`;
   const reviewedDate = article.reviewedDate || article.date;
   const authorDisplayName = article.authorName || article.author || "Emet Capital";
   const authorUrl = article.authorUrl || (
@@ -333,25 +334,21 @@ const GuideArticle = () => {
     "@type": "Article",
     "headline": article.title,
     "description": article.description,
-    "image": `https://emetcapital.com.au${seoImage}`,
+    "image": fullSeoImage,
     "datePublished": article.date,
     "dateModified": reviewedDate,
     "author": articleAuthorSchema,
     "publisher": {
       "@type": "Organization",
       "name": "Emet Capital",
-      "url": "https://emetcapital.com.au",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://emetcapital.com.au/placeholder.svg"
-      }
+      "url": "https://emetcapital.com.au"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://emetcapital.com.au${canonicalUrl}`
     },
     "articleSection": article.category,
-    "keywords": article.tags?.join(', '),
+    "keywords": article.keywords?.join(', ') || article.tags?.join(', '),
     "wordCount": article.content.split(/\s+/).length,
     "timeRequired": `PT${article.readingTime}M`,
     "inLanguage": "en-AU",

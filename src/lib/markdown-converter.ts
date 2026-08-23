@@ -57,6 +57,7 @@ export function extractTableOfContents(markdown: string): TableOfContentsItem[] 
   
   const tocItems: TableOfContentsItem[] = [];
   const lines = markdown.split('\n');
+  let inFaqSection = false;
   
   lines.forEach(line => {
     const match = line.match(/^(#{1,6})\s+(.+)$/);
@@ -64,9 +65,14 @@ export function extractTableOfContents(markdown: string): TableOfContentsItem[] 
       const level = match[1].length;
       const text = match[2].trim();
       const id = text.toLowerCase().replace(/[^\w]+/g, '-');
+
+      if (level === 2) {
+        inFaqSection = /^(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)\b/i.test(text);
+      }
       
-      // Only include h2 and h3 for cleaner TOC
-      if (level >= 2 && level <= 3) {
+      // Keep the FAQ section itself, but omit each FAQ question from the
+      // sidebar so long articles do not produce a duplicated, noisy TOC.
+      if (level >= 2 && level <= 3 && !(inFaqSection && level === 3)) {
         tocItems.push({ id, text, level });
       }
     }

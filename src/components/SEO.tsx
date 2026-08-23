@@ -18,7 +18,7 @@ const SEO = ({
   keywords = "commercial lending, business loans, private lending, bridging finance, commercial property loans, Sydney, Australia",
   canonical,
   type = "website",
-  image = "/placeholder.svg",
+  image = "/hero-property-finance-poster.webp",
   schemas = [],
   noindex = false
 }: SEOProps) => {
