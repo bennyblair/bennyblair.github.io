@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_7206374052b545779123d09f6580e4d4",
+  "pageId": "pg_9e062b21a624492fae72a1872999ef0a",
+  "path": "/resources/guides/ev-charging-equipment-finance-australia",
+  "sourcePath": "src/content/guides/ev-charging-equipment-finance-australia.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Australian businesses planning EV charging projects need to separate equipment, installation, site and operating costs before seeking finance or signing project contracts.",
+  "targeting": {
+    "primaryQuery": "EV charging equipment finance Australia",
+    "intent": "commercial investigation",
+    "audience": "Australian business owners, fleet operators, commercial property investors and developers planning commercial EV charging infrastructure",
+    "country": "AU",
+    "pillar": "business finance"
+  },
+  "uniqueValue": [
+    "Separates charger hardware, electrical works, software, professional fees and recurring costs into an itemised finance-preparation framework.",
+    "Connects equipment funding with site rights, technical scope, ownership documents and conservative repayment assumptions without asserting standard lender outcomes."
+  ],
+  "evidence": [
+    {
+      "type": "governed_backlog",
+      "path": "seo-automation/plans/governed-content-backlog-2026-08-12.json",
+      "date": "2026-09-01",
+      "summary": "Selected as the eligible low-risk slug from the oldest due governed release; the environmental due-diligence alternative was excluded as higher risk."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.energy.gov.au/electric-vehicles/owning-electric-vehicle/electric-vehicle-charging-equipment",
+      "summary": "Australian Government guidance explains EV charger levels, power and charging-speed factors."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://www.energy.gov.au/electric-vehicles/owning-electric-vehicle/charging-options-houses-and-strata-buildings",
+      "summary": "Australian Government guidance covers licensed installation, possible switchboard and supply upgrades, and strata permission."
+    },
+    {
+      "type": "authoritative_source",
+      "url": "https://business.gov.au/finance/leasing-or-buying-vehicles-and-equipment",
+      "summary": "business.gov.au explains loan, buying and leasing considerations for business equipment."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/services/asset-finance",
+      "/resources/guides/equipment-finance-and-leasing-australia"
+    ],
+    "to": [
+      "/resources/guides/asset-backed-lending-and-asset-finance",
+      "/resources/guides/working-capital-loans-for-smes",
+      "/resources/guides/commercial-property-loans-australia-complete-guide"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "nonbrand_click_and_service_assist",
+    "successRule": "Evidence of non-brand impressions or clicks for the owned EV charging equipment finance intent, or assisted engagement with the asset finance service page, at review.",
+    "exitRule": "Consolidate or noindex only after complete review evidence shows persistent low value or material intent overlap.",
+    "firstReviewAt": "2026-12-01T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 15,
+      "top20Probability": 11,
+      "conversionPotential": 13,
+      "evidenceAuthority": 9,
+      "differentiation": 8,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 85
+  },
+  "qualityReview": {
+    "promptVersion": "article-quality-v1",
+    "evaluatorModel": "openai-codex/gpt-5.6-sol-independent-subagent",
+    "reviewedAt": "2026-09-01T00:16:40Z",
+    "dimensions": {
+      "intentCoverage": 95,
+      "informationGain": 89,
+      "specificity": 92,
+      "evidence": 88,
+      "readability": 94,
+      "repetition": 91,
+      "compliance": 98,
+      "aiAnswerUsefulness": 94
+    },
+    "overallScore": 92.6,
+    "blockingFindings": [],
+    "sourceClaimMap": [
+      {
+        "claim": "EV charging levels have different power and speed characteristics, and charging speed depends on charger and vehicle factors.",
+        "sourceUrl": "https://www.energy.gov.au/electric-vehicles/owning-electric-vehicle/electric-vehicle-charging-equipment"
+      },
+      {
+        "claim": "A dedicated EV charger requires a licensed electrician and may require switchboard or supply-connection upgrades.",
+        "sourceUrl": "https://www.energy.gov.au/electric-vehicles/owning-electric-vehicle/charging-options-houses-and-strata-buildings"
+      },
+      {
+        "claim": "Strata occupants may need managing-body permission, and applicable strata and electrical-infrastructure laws vary by state or territory.",
+        "sourceUrl": "https://www.energy.gov.au/electric-vehicles/owning-electric-vehicle/charging-options-houses-and-strata-buildings"
+      },
+      {
+        "claim": "A leasing company owns leased equipment, while buying means the business owns the equipment.",
+        "sourceUrl": "https://business.gov.au/finance/leasing-or-buying-vehicles-and-equipment"
+      },
+      {
+        "claim": "A business may consider a loan when it cannot pay upfront for expensive equipment.",
+        "sourceUrl": "https://business.gov.au/finance/leasing-or-buying-vehicles-and-equipment"
+      }
+    ]
+  },
+  "approval": {
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-09-01T10:16:40+10:00",
+    "automated": true,
+    "basis": "Approved under the active one-article Tuesday and Thursday governed content policy after backlog, intent, source, scope and independent quality review.",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-08-24.1",
+    "policyChecksum": "ea496c54cb02ab2b45b0707d99c13acc6fdaa8b13ce3f92fe43ac0a13cd1e175"
+  }
+}
