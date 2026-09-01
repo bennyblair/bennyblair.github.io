@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-08-18T00:04:30.752Z",
+  "generatedAt": "2026-09-01T00:19:01.669Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -21565,7 +21565,50 @@
         "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
+    },
+    {
+      "pageId": "pg_9e062b21a624492fae72a1872999ef0a",
+      "path": "/resources/guides/ev-charging-equipment-finance-australia",
+      "sourcePath": "src/content/guides/ev-charging-equipment-finance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "EV charging equipment finance Australia",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/asset-finance",
+        "designatedServicePageId": "pg_49c9349f78d04e0aa55ce40723df11db",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 3,
+        "reviewEveryDays": 365,
+        "reviewedBy": null,
+        "reviewedAt": "2026-09-01",
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     }
   ],
-  "checksum": "01d36af68dac2f4e9ef2054aeb70f0f59326c7893590d9679ccd0714ed0d21a7"
+  "checksum": "4572ce1946106e8a0b7f8a43b18435d9e10239b10eff0f0a93e6b2610ece1cb1"
 }
