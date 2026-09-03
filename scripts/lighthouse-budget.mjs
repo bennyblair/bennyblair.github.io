@@ -133,9 +133,30 @@ try {
     `${JSON.stringify({ observed, thresholds, lighthouse: lhr }, null, 2)}\n`,
     "utf8",
   );
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    fs.appendFileSync(
+      process.env.GITHUB_STEP_SUMMARY,
+      [
+        "## Mobile Lighthouse budgets",
+        "",
+        "| Metric | Observed | Budget |",
+        "| --- | ---: | ---: |",
+        `| LCP | ${observed.lcpMs.toFixed(0)}ms | ${thresholds.lcpMs}ms |`,
+        `| CLS | ${observed.cls.toFixed(3)} | ${thresholds.cls} |`,
+        `| TBT | ${observed.tbtMs.toFixed(0)}ms | ${thresholds.tbtMs}ms |`,
+        `| Accessibility | ${(observed.accessibility * 100).toFixed(0)} | 95 |`,
+        `| SEO | ${(observed.seo * 100).toFixed(0)} | 95 |`,
+        `| Initial JavaScript | ${(observed.initialJavaScriptTransferBytes / 1024).toFixed(1)}KB | 300KB |`,
+        "",
+      ].join("\n"),
+    );
+  }
   console.log(JSON.stringify({ observed, thresholds }, null, 2));
   if (failures.length) {
-    failures.forEach((failure) => console.error(`ERROR ${failure}`));
+    failures.forEach((failure) => {
+      console.error(`ERROR ${failure}`);
+      console.error(`::error title=Mobile Lighthouse budget failed::${failure}`);
+    });
     process.exitCode = 1;
   } else {
     console.log("Mobile Lighthouse budgets passed.");

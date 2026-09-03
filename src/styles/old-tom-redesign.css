@@ -334,6 +334,7 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   color: #f4f2ec;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: clamp(70px, 6.3vw, 100px) !important;
   font-weight: 500 !important;
   letter-spacing: -.064em !important;

@@ -483,13 +483,19 @@ const Homepage = () => {
             </div>
           </ScrollReveal>
           
-          <div ref={storiesRef} className="grid success-stories-rail" aria-label="Success stories">
+          <div
+            ref={storiesRef}
+            className="grid success-stories-rail"
+            role="region"
+            aria-label="Success stories"
+          >
             {featuredCaseStudies.map((study, index) => (
               <ScrollReveal key={study.slug} animation="fade-up" delay={index * 150}>
                 <TiltCard className="rounded-2xl h-full">
                   <Link 
                     to={`/resources/case-studies/${study.slug}`}
                     className="block h-full"
+                    aria-label={`${study.title} — ${study.loanAmount || "Custom solution"}`}
                   >
                     <Card className="premium-card h-full cursor-pointer">
                   <CardHeader>

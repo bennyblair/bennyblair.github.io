@@ -38,7 +38,6 @@ if (isPrerendered && window.location.pathname === "/") {
     "keydown",
     "pointerdown",
     "touchstart",
-    "wheel",
   ];
   let activated = false;
   const activate = () => {
