@@ -1,8 +1,9 @@
-import { createRoot, hydrateRoot } from "react-dom/client";
+import { createRoot } from "react-dom/client";
 import { Toaster } from "@/components/ui/toaster";
 import { installContactTracking, trackPageView } from "@/lib/analytics";
 import App, { preloadCurrentRoute } from "./App.tsx";
 import "./index.css";
+import "./styles/old-tom-redesign.css";
 
 const root = document.getElementById("root")!;
 const isPrerendered = document.documentElement.dataset.prerendered === "true" && root.hasChildNodes();
@@ -62,7 +63,12 @@ async function mountApp(preload = preloadCurrentRoute(window.location.pathname))
   await preload;
   const app = <App />;
   if (isPrerendered && window.location.pathname === "/") {
-    hydrateRoot(root, app);
+    // The static homepage is intentionally interaction-activated. Its
+    // prerendered markup contains production-only optimisations that are not a
+    // byte-for-byte React tree, so replace it cleanly instead of attempting a
+    // noisy hydration that can fail for keyboard and assistive-tech users.
+    root.replaceChildren();
+    createRoot(root).render(app);
   } else {
     createRoot(root).render(app);
   }
@@ -78,7 +84,6 @@ async function mountApp(preload = preloadCurrentRoute(window.location.pathname))
 }
 
 if (isPrerendered && window.location.pathname === "/") {
-  const routePreload = preloadCurrentRoute(window.location.pathname);
   const removeHeroVideo = initialisePrerenderedHeroVideo();
   const removeInitialContactTracking = installContactTracking();
   window.setTimeout(() => trackPageView(window.location.pathname, document.title), 0);
@@ -96,7 +101,7 @@ if (isPrerendered && window.location.pathname === "/") {
     activated = true;
     activationEvents.forEach((eventName) => window.removeEventListener(eventName, activate));
     removeHeroVideo();
-    void mountApp(routePreload).then(() => {
+    void mountApp().then(() => {
       window.setTimeout(removeInitialContactTracking, 1000);
     });
   };

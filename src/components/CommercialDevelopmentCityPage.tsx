@@ -206,7 +206,7 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Frequently asked questions</h2>
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
             <div className="space-y-6">
               {faqs.map((faq, index) => (

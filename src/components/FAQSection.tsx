@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -19,19 +18,19 @@ const FAQSection = ({ faqs }: FAQSectionProps) => {
   if (!faqs || faqs.length === 0) return null;
 
   return (
-    <div className="space-y-6">
+    <div className="faq-section">
       <h2 id="faqs" className="text-2xl font-bold text-foreground mb-6">
-        Frequently Asked Questions
+        Frequently asked questions
       </h2>
       
-      <Accordion type="single" collapsible className="w-full space-y-1">
+      <Accordion type="single" collapsible className="faq-list w-full">
         {faqs.map((faq, index) => (
           <AccordionItem 
             key={index} 
             value={`item-${index}`} 
-            className="border border-border rounded-lg px-3 py-0.5 bg-card hover:bg-muted/50 transition-colors"
+            className="faq-item"
           >
-            <AccordionTrigger className="text-left hover:no-underline py-1.5 font-medium text-foreground text-sm">
+            <AccordionTrigger className="text-left hover:no-underline font-medium text-foreground">
               {faq.question}
             </AccordionTrigger>
             <AccordionContent forceMount className="text-muted-foreground leading-relaxed pb-1.5 text-sm">

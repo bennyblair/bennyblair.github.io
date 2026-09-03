@@ -7,7 +7,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
-import { AnimatedCounter } from "@/components/ui/animated-counter";
 import { TiltCard } from "@/components/ui/tilt-card";
 import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
@@ -19,11 +18,11 @@ import {
   Shield, 
   Clock,
   CheckCircle,
+  ArrowLeft,
   ArrowRight,
   Phone,
   Mail,
   MapPin,
-  Star,
   Zap,
   Target,
   Award,
@@ -37,6 +36,9 @@ const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
   const videoSourceRef = useRef<HTMLSourceElement>(null);
+  const storiesRef = useRef<HTMLDivElement>(null);
+  const processRef = useRef<HTMLElement>(null);
+  const [processActive, setProcessActive] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -65,9 +67,39 @@ const Homepage = () => {
 
     return {
       latestArticles: latest,
-      featuredCaseStudies: caseStudies.slice(0, 2),
+      featuredCaseStudies: caseStudies
+        .filter(article => isRoutableContentArticle('case-studies', article.slug))
+        .slice(0, 8),
     };
   }, []);
+
+  useEffect(() => {
+    const section = processRef.current;
+    if (!section) return;
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setProcessActive(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      setProcessActive(true);
+      observer.unobserve(section);
+    }, { threshold: 0.28 });
+
+    observer.observe(section);
+    return () => observer.disconnect();
+  }, []);
+
+  const scrollStories = (direction: -1 | 1) => {
+    const rail = storiesRef.current;
+    if (!rail) return;
+    rail.scrollBy({
+      left: direction * Math.max(320, rail.clientWidth * 0.82),
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -267,7 +299,6 @@ const Homepage = () => {
               alt=""
               width="1600"
               height="900"
-              fetchPriority="high"
               decoding="sync"
               className="absolute inset-0 h-full w-full object-cover"
             />
@@ -331,7 +362,7 @@ const Homepage = () => {
       </section>
 
       {/* Commercial Finance Expertise Overview */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="home-expertise py-20 px-4 bg-muted/30">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
@@ -394,7 +425,7 @@ const Homepage = () => {
       </section>
 
       {/* Core Commercial Finance Services */}
-      <section className="py-20 px-4">
+      <section className="home-services py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
@@ -481,7 +512,7 @@ const Homepage = () => {
       </section>
 
       {/* Why Emet Capital */}
-      <section className="py-20 px-4 bg-gradient-to-b from-transparent to-primary/5">
+      <section className="home-performance py-20 px-4 bg-gradient-to-b from-transparent to-primary/5">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
@@ -524,7 +555,7 @@ const Homepage = () => {
       </section>
 
       {/* Case Studies */}
-      <section className="py-24 px-4">
+      <section className="home-stories py-24 px-4">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
@@ -537,7 +568,7 @@ const Homepage = () => {
             </div>
           </ScrollReveal>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div ref={storiesRef} className="grid success-stories-rail" aria-label="Success stories">
             {featuredCaseStudies.map((study, index) => (
               <ScrollReveal key={study.slug} animation="fade-up" delay={index * 150}>
                 <TiltCard className="rounded-2xl h-full">
@@ -575,6 +606,16 @@ const Homepage = () => {
               </ScrollReveal>
             ))}
           </div>
+
+          <div className="success-stories-controls" aria-label="Success story controls">
+            <button type="button" onClick={() => scrollStories(-1)} aria-label="View previous success stories">
+              <ArrowLeft aria-hidden="true" />
+            </button>
+            <span>Scroll to explore more</span>
+            <button type="button" onClick={() => scrollStories(1)} aria-label="View more success stories">
+              <ArrowRight aria-hidden="true" />
+            </button>
+          </div>
           
           <div className="text-center mt-12 fade-in-up">
             <Button 
@@ -591,7 +632,10 @@ const Homepage = () => {
       </section>
 
       {/* How It Works */}
-      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/5">
+      <section
+        ref={processRef}
+        className={`home-process emet-funnel-section py-24 px-4 bg-gradient-to-b from-transparent to-primary/5 ${processActive ? "is-funnel-active" : ""}`}
+      >
         <div className="max-w-7xl mx-auto">
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
@@ -615,7 +659,7 @@ const Homepage = () => {
                 <div className="text-center group">
                   <TiltCard className="rounded-2xl">
                     <div className="premium-card p-8 mb-4">
-                      <div className="text-4xl font-bold gradient-text mb-4">{step.step}</div>
+                      <div className="text-4xl font-bold mb-4">{step.step}</div>
                       <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
                       <p className="text-muted-foreground">{step.description}</p>
                     </div>
@@ -628,11 +672,11 @@ const Homepage = () => {
       </section>
 
       {/* Latest Articles */}
-      <section className="py-24 px-4 bg-slate-900">
+      <section className="home-articles py-24 px-4 bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-white bg-clip-text text-transparent">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
                 Latest Articles & Insights
               </h2>
               <p className="text-xl text-slate-300 max-w-3xl mx-auto">
@@ -652,12 +696,12 @@ const Homepage = () => {
                         {article.category}
                       </Badge>
                       {isNewArticle(article.date) && (
-                        <Badge className="bg-green-900/50 text-green-300 border-green-700 hover:bg-green-900/70 text-xs font-medium">
+                        <Badge className="home-new-badge bg-green-900/50 text-green-300 border-green-700 hover:bg-green-900/70 text-xs font-medium">
                           NEW
                         </Badge>
                       )}
                     </div>
-                    <CardTitle className="text-lg line-clamp-2 leading-tight text-white hover:text-blue-400 transition-colors">
+                    <CardTitle className="text-lg line-clamp-2 leading-tight text-white hover:text-accent-light transition-colors">
                       <Link 
                         to={getArticleUrl(article)}
                         className="block"
@@ -680,13 +724,13 @@ const Homepage = () => {
             ))}
           </div>
           
-          <div className="text-center mt-12">
+          <div className="home-article-cta text-center mt-12">
             <div className="fade-in-up delay-600">
               <p className="text-slate-300 mb-6">
                 Explore more resources tailored to your needs
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button asChild size="lg" className="min-w-[160px] bg-blue-600 hover:bg-blue-700 text-white">
+              <div className="home-article-actions flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button asChild size="lg" className="min-w-[160px] bg-accent hover:bg-accent-dark text-accent-foreground">
                   <Link to="/resources/guides">
                     View All Guides
                   </Link>
@@ -708,7 +752,7 @@ const Homepage = () => {
       </section>
 
       {/* About Us */}
-      <section className="py-24 px-4">
+      <section className="home-about py-24 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <ScrollReveal animation="fade-up">
@@ -752,7 +796,7 @@ const Homepage = () => {
       </section>
 
       {/* Contact Form */}
-      <section className="py-24 px-4 bg-gradient-to-b from-transparent to-primary/10">
+      <section className="home-contact py-24 px-4 bg-gradient-to-b from-transparent to-primary/10">
         <div className="max-w-4xl mx-auto">
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
@@ -765,9 +809,9 @@ const Homepage = () => {
             </div>
           </ScrollReveal>
           
-          <Card className="premium-card">
+          <Card className="home-contact-card premium-card">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
+              <form onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
                 <input type="hidden" name="form-name" value="homepage-contact" />
                 <p hidden>
                   <label htmlFor="homepage-bot-field">Do not fill this out</label>
@@ -881,7 +925,7 @@ const Homepage = () => {
           </Card>
           
           {/* Contact Info */}
-          <div className="grid md:grid-cols-3 gap-8 mt-16 text-center">
+          <div className="home-contact-details grid md:grid-cols-3 gap-8 mt-16 text-center">
             {[
               { icon: Phone, title: "Call Us", content: "0485 952 651" },
               { icon: Mail, title: "Email Us", content: "enquiry@emetcapital.com.au" },

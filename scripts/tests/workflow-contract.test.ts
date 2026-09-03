@@ -60,3 +60,13 @@ test("auto-merge waits for the complete website quality gate", () => {
   assert.match(workflow, /audit:live:content-release/);
   assert.match(workflow, /git revert --no-edit/);
 });
+
+test("post-deploy audit checks every new article in a release", () => {
+  const audit = read("scripts/audit-live-content-release.ts");
+  const workflow = read(".github/workflows/post-deploy-content-audit.yml");
+
+  assert.match(audit, /const expected = files\.map/);
+  assert.doesNotMatch(audit, /files\.length\s*!==\s*1|expected one new article/);
+  assert.match(workflow, /CONTENT_RELEASE_BASE:\s*\$\{\{ github\.event\.before \}\}/);
+  assert.match(workflow, /audit:live:content-release/);
+});

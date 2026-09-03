@@ -396,8 +396,8 @@ const GuideArticle = () => {
         <Breadcrumbs items={getBreadcrumbs()} />
 
         {/* Article Header */}
-        <header className="mb-12 text-center">
-          <div className="inline-flex items-center space-x-4 mb-6">
+        <header className="article-hero mb-12 text-center">
+          <div className="article-hero-meta inline-flex items-center space-x-4 mb-6">
             <span className="bg-gradient-to-r from-primary to-primary-light text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-sm">
               {article.category}
             </span>
@@ -456,7 +456,6 @@ const GuideArticle = () => {
               width={1200}
               height={630}
               loading="eager"
-              fetchPriority="high"
               className="h-auto w-full object-cover"
             />
           </figure>
@@ -483,9 +482,11 @@ const GuideArticle = () => {
         )}
 
         {/* Article Content */}
-        <div className="grid lg:grid-cols-12 gap-8 mb-12">
+        <div className={`article-layout grid lg:grid-cols-12 gap-8 mb-12 ${
+          slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'article-layout--wide' : ''
+        }`}>
           {/* Main Content */}
-          <article className={slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-9' : 'lg:col-span-8'}>
+          <article className={`article-main ${slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-9' : 'lg:col-span-8'}`}>
             <Card className="p-8 shadow-lg">
               <div 
                 ref={articleRef}
@@ -498,68 +499,30 @@ const GuideArticle = () => {
           </article>
 
           {/* Sidebar */}
-          <aside className={`space-y-6 sticky top-8 ${slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-3' : 'lg:col-span-4'}`}>
+          <aside className={`article-side-rail space-y-6 sticky top-8 ${slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-3' : 'lg:col-span-4'}`}>
             {/* Table of Contents */}
-            <Card className="p-6">
-              <h3 className="text-lg font-bold text-foreground mb-4 flex items-center">
-                <Star className="w-5 h-5 mr-2 text-accent" />
-                Quick Navigation
-              </h3>
-              <div className="space-y-2 text-sm">
-                {tableOfContents.length > 0 ? (
-                  tableOfContents.map((item) => (
-                    <button
-                      key={item.id}
-                      onClick={() => {
-                        const element = document.getElementById(item.id);
-                        if (element) {
-                          element.scrollIntoView({ behavior: 'smooth' });
-                        }
-                      }}
-                      className={`block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full ${
-                        item.level === 3 ? 'ml-4' : ''
-                      }`}
-                    >
-                      {item.text}
-                    </button>
-                  ))
-                ) : (
-                  <>
-                    <button 
-                      onClick={() => {
-                        const element = document.getElementById('introduction');
-                        if (element) element.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                      className="block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full"
-                    >
-                      Introduction
-                    </button>
-                    <button 
-                      onClick={() => {
-                        const element = document.getElementById('key-points');
-                        if (element) element.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                      className="block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full"
-                    >
-                      Key Points
-                    </button>
-                    <button 
-                      onClick={() => {
-                        const element = document.getElementById('conclusion');
-                        if (element) element.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                      className="block text-muted-foreground hover:text-primary transition-colors py-1 text-left w-full"
-                    >
-                      Conclusion
-                    </button>
-                  </>
-                )}
-                {/* Related Articles navigation handled by extracted TOC */}
-              </div>
-            </Card>
+            {tableOfContents.length > 0 && (
+              <Card className="article-toc p-6">
+                <nav aria-label="Quick navigation">
+                  <h3 className="text-lg font-bold text-foreground mb-4 flex items-center">
+                    <Star className="w-5 h-5 mr-2 text-accent" />
+                    Quick navigation
+                  </h3>
+                  <ol className="article-toc-list text-sm">
+                    {tableOfContents.map((item) => (
+                      <li key={item.id} className={item.level === 3 ? 'is-subsection' : undefined}>
+                        <a className="article-toc-link" href={`#${item.id}`}>
+                          {item.text}
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              </Card>
+            )}
 
             {/* CTA Card */}
-            <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
+            <Card className="article-side-cta p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
               <h3 className="text-lg font-bold text-foreground mb-3">
                 Want to Understand Your Options?
               </h3>

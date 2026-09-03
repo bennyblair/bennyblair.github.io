@@ -73,8 +73,14 @@ try {
     });
 
     const response = await page.goto(`${baseUrl}${route}`, { waitUntil: "domcontentloaded" });
-    await page.waitForSelector("main h1", { timeout: 15_000 });
     await page.waitForLoadState("networkidle", { timeout: 15_000 });
+    await page.evaluate(() => window.dispatchEvent(new Event("pointerover")));
+    await page.waitForFunction(
+      () => document.documentElement.dataset.prerenderReady === "true",
+      undefined,
+      { timeout: 15_000 },
+    );
+    await page.waitForSelector("main h1", { timeout: 15_000 });
     if (response?.status() !== 200) errors.push(`${route}: HTTP ${response?.status() ?? "no response"}`);
 
     const results = await new AxeBuilder({ page })

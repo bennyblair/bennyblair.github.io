@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -7,8 +8,11 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className={`site-shell min-h-screen bg-background flex flex-col ${isHome ? "is-home" : "is-interior"}`}>
       <a
         href="#main-content"
         className="sr-only z-[100] rounded-md bg-background px-4 py-3 text-foreground focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:ring-2 focus:ring-ring"

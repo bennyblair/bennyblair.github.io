@@ -61,8 +61,11 @@ function deferHydrationUntilAfterCriticalPaint(html: string) {
   );
 }
 
-function finalizePrerenderedHtml(html: string) {
-  const productionHtml = deferHydrationUntilAfterCriticalPaint(html)
+function finalizePrerenderedHtml(html: string, deferRoutePreloads = false) {
+  const withoutDeferredRoutePreloads = deferRoutePreloads
+    ? html.replace(/<link\s+rel="modulepreload"\s+as="script"[^>]*>/gi, "")
+    : html;
+  const productionHtml = deferHydrationUntilAfterCriticalPaint(withoutDeferredRoutePreloads)
     .replaceAll(`${baseUrl}/assets/`, "/assets/");
   if (productionHtml.includes(baseUrl)) {
     throw new Error(`prerendered HTML contains preview origin ${baseUrl}`);
@@ -140,7 +143,7 @@ async function renderRoute(page: Page, route: RenderRoute) {
       document.documentElement.dataset.prerenderReady = "false";
       document.documentElement.dataset.prerendered = "true";
       return `<!DOCTYPE html>\n${document.documentElement.outerHTML}`;
-    }));
+    }), route.path === "/");
     const filePath = outputPath(route.path);
     fs.mkdirSync(path.dirname(filePath), { recursive: true });
     fs.writeFileSync(filePath, html);

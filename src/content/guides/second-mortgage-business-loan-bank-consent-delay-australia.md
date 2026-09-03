@@ -31,17 +31,19 @@ expiresAt: "2026-11-18"
 sources:
   - label: "NSW Registrar General's Guidelines — priority between mortgages"
     url: "https://rg-guidelines.nswlrs.com.au/land_dealings/dealing_requirements/mortgages/priority_between_mortgages"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+featuredImage: "/images/articles/second-mortgage-business-loan-bank-consent-delay-australia.jpg"
+featuredImageAlt: "Monochrome overlapping architectural planes illustrating first and second mortgage priority"
 ---
-
-# Second Mortgage Business Loan When Bank Consent Is Slow
 
 A second mortgage business loan can release property equity without replacing the existing first mortgage, but the transaction may stall while the bank considers consent. That delay matters when funding is linked to a commercial settlement, equipment purchase, tax obligation, stock order or another genuine business deadline.
 
 **A second mortgage business loan when bank consent is slow in Australia is a commercial facility secured by a registered second-ranking mortgage, where settlement is delayed because the existing first mortgagee has not completed its consent, priority or document process.** The delay does not necessarily mean the bank has refused. It may reflect missing information, internal credit review, legal negotiation or the terms of the existing loan documents.
 
-Consent requirements are lender-specific, document-specific and can also be affected by the property, transaction and relevant state or territory law. Emet Capital acts as a broker connecting business borrowers with lenders. We can help organise a file and compare possible structures, but the borrower and security providers should obtain independent legal advice on their obligations.
+Consent requirements are lender-specific, document-specific and can also be affected by the property, transaction and relevant state or territory law. Emet Capital acts as a broker connecting business borrowers with lenders and comparing [first and second mortgage](/services/first-second-mortgages) structures. We can help organise a file and compare possible structures, but the borrower and security providers should obtain independent legal advice on their obligations.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — the main second mortgage pillar guide for Australian business borrowers.
 - **[How To Get a Business Loan in Australia](/resources/guides/how-to-get-a-business-loan-australia)** — an overview of commercial funding preparation and assessment.
@@ -50,7 +52,7 @@ Consent requirements are lender-specific, document-specific and can also be affe
 - **[Second Mortgage Without Refinancing the First Mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — why borrowers may want to preserve an existing senior facility.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — differences in commercial assessment and process.
 
-### At a Glance
+## At a Glance
 
 | Question | Practical answer |
 |---|---|
@@ -61,7 +63,7 @@ Consent requirements are lender-specific, document-specific and can also be affe
 | Is caveat finance an automatic workaround? | No. It requires separate legal and lender assessment and cannot lawfully bypass a consent obligation that still applies. |
 | Who should advise on documents? | An independent lawyer should interpret the first mortgage and proposed security documents. |
 
-### Who This Is For
+## Who This Is For
 
 This guide is for Australian business owners, company directors, commercial property investors and developers using property equity for a business purpose. It is especially relevant where a proposed second mortgage has progressed, but the existing bank or non-bank first lender has not completed its response.
 
@@ -186,10 +188,6 @@ A consistent pack commonly includes loan statements, title and ownership informa
 ### Should I refinance the first mortgage instead?
 
 A full refinance may be one option, but it changes the entire senior facility and can introduce new assessment, valuation, legal and discharge steps. Compare it with continuing the second mortgage and any short-term alternative based on timing, total obligations and exit, with appropriate professional input.
-
-### What can a commercial finance broker do when consent is slow?
-
-A broker can identify missing information, coordinate lenders and solicitors, present a consistent transaction summary and test alternative commercial structures. A broker cannot compel the first lender to consent, guarantee timing or replace independent legal advice.
 
 ## Related Guides
 

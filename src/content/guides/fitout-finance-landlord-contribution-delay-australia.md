@@ -36,17 +36,17 @@ sources:
     url: "https://www.vsbc.vic.gov.au/your-rights-and-responsibilities/entering-into-a-retail-lease/retail-leases-act-2003/"
 metaTitle: "Fit-Out Finance for a Delayed Landlord Contribution"
 metaDescription: "Assess a temporary fit-out funding gap when reimbursement under an executed Australian commercial lease is delayed. General information only."
+featuredImage: "/images/articles/fitout-finance-landlord-contribution-delay-australia.jpg"
+featuredImageAlt: "Monochrome minimalist interior forms illustrating a delayed fit-out contribution"
 ---
-
-# Fit-Out Finance When a Landlord Contribution Is Delayed
 
 **Fitout finance for a landlord contribution delay in Australia is temporary business-purpose funding used when a tenant must pay approved fit-out costs before the landlord reimburses its agreed contribution under an executed commercial lease.** It addresses timing between contractor invoices and reimbursement. It does not create, enlarge, or enforce the tenant's lease entitlement.
 
 The executed lease, incentive deed, disclosure material, approved budget, evidence of completed work, and reimbursement conditions determine whether money is legally due. A lender assesses a separate question: whether the business can carry the gap and repay the facility if reimbursement arrives later than expected. Lease interpretation, withholding, set-off, defects, and disputes require the tenant's commercial leasing lawyer, not a finance broker.
 
-This guide focuses narrowly on reimbursement timing after lease execution. Broader venue, clinic, franchise, and contractor fit-out funding questions are covered elsewhere.
+This guide focuses narrowly on reimbursement timing after lease execution. Emet Capital can compare [business finance](/services/business-finance) structures for an eligible commercial fit-out gap; broader venue, clinic, franchise, and contractor fit-out funding questions are covered elsewhere.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — the business-finance pillar for short-term operating cash-flow gaps.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the commercial property pillar covering broader lease and property funding considerations.
@@ -191,10 +191,6 @@ Equipment finance may be considered for separately identifiable business equipme
 ### What is the biggest risk in financing a delayed landlord contribution?
 
 The biggest risk is treating the reimbursement as certain. If a condition remains unmet, a cost is excluded, or a dispute develops, the tenant may carry the finance longer and must still meet the facility obligations.
-
-### Who should review the landlord contribution clause?
-
-A commercial leasing lawyer familiar with the relevant Australian state or territory should review the clause, incentive deed, disclosure material, conditions, notice process, and dispute position. A broker can assist with commercial funding presentation but cannot interpret lease rights or provide legal advice.
 
 ## Related Guides
 

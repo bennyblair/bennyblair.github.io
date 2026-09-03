@@ -20,7 +20,7 @@ const Breadcrumbs = ({ items, includeSchema = true }: BreadcrumbsProps) => {
           {JSON.stringify(generateBreadcrumbSchema(items))}
         </script>
       )}
-      <nav className="flex items-center space-x-2 text-sm text-muted-foreground mb-6">
+      <nav aria-label="Breadcrumb" className="site-breadcrumbs flex items-center space-x-2 text-sm text-muted-foreground mb-6">
         {items.map((item, index) => (
           <div key={index} className="flex items-center">
             {index > 0 && <ChevronRight className="w-4 h-4 mx-2" />}
@@ -32,7 +32,10 @@ const Breadcrumbs = ({ items, includeSchema = true }: BreadcrumbsProps) => {
                 {item.label}
               </Link>
             ) : (
-              <span className={index === items.length - 1 ? "text-foreground font-medium" : ""}>
+              <span
+                aria-current={index === items.length - 1 ? "page" : undefined}
+                className={index === items.length - 1 ? "text-foreground font-medium" : ""}
+              >
                 {item.label}
               </span>
             )}

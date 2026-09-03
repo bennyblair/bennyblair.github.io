@@ -36,17 +36,17 @@ sources:
     url: "https://financialrights.org.au/factsheet/insurance-claim-delay/"
 metaTitle: "Working Capital Finance During an Insurance Claim Delay"
 metaDescription: "Map payroll, repairs, stock and reopening costs while a business insurance claim is delayed. Learn evidence, finance options and exit risks."
+featuredImage: "/images/articles/working-capital-finance-insurance-claim-delay-australia.jpg"
+featuredImageAlt: "Monochrome shadow and light study illustrating uncertainty during an insurance claim delay"
 ---
-
-# Working Capital Finance While a Business Insurance Claim Is Delayed
 
 Working capital finance during an insurance claim delay is business-purpose funding used to cover essential operating costs before an insurer decides or pays a claim. It may help an eligible Australian business fund payroll, urgent repairs, replacement stock, rent, supplier invoices or reopening costs, but it does not accelerate the insurance process or guarantee that the claim will be accepted.
 
 The critical distinction is between a **possible insurance recovery** and **available cash**. Until the claim is determined and payment conditions are satisfied, a lender should not be asked to treat the expected payout as certain. The finance request needs a cost map, evidence for each expense and a repayment plan that remains credible if the insurer pays later than expected, pays less than expected or declines part of the claim.
 
-This case-study-style guide explains the funding gap from Emet Capital's position as a broker connecting eligible commercial borrowers with lenders. Insurance complaints, policy interpretation and legal rights remain separate matters for the insurer, AFCA and appropriately qualified advisers.
+This case-study-style guide explains the funding gap from Emet Capital's position as a broker comparing [business finance](/services/business-finance) options for eligible commercial borrowers. Insurance complaints, policy interpretation and legal rights remain separate matters for the insurer, AFCA and appropriately qualified advisers.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — the core guide to short-term operating liquidity.
 - **[Cash-Flow Facility Stack](/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance)** — compares a line of credit, working capital loan and invoice finance.
@@ -205,10 +205,6 @@ These are separate decisions and can proceed in parallel. Finance addresses liqu
 ### What documents help support the application?
 
 Useful documents include policy and claim correspondence, repair reports, quotes, invoices, payroll records, bank statements, BAS, management accounts, a weekly cash-flow forecast and written exit scenarios.
-
-### Is property-secured finance suitable for a delayed insurance claim?
-
-It may be considered for an eligible business where the purpose, amount, security, term and exit fit lender requirements. The borrower must understand that default can place the secured property at risk.
 
 ## Related Guides
 

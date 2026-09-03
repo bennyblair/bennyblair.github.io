@@ -28,12 +28,14 @@ expiresAt: "2027-08-13"
 sources:
   - label: "ASIC Moneysmart — Commercial property investment"
     url: "https://moneysmart.gov.au/property-investment/commercial-property-investment"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 canonical: "https://emetcapital.com.au/resources/guides/commercial-property-investor-loan-checklist"
 metaTitle: "Commercial Property Investor Loan Checklist | Emet Capital"
 metaDescription: "Use this commercial property investor loan checklist to prepare lease, valuation, entity, serviceability and settlement documents before approaching lenders."
+featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
+featuredImageAlt: "Monochrome geometric architecture illustrating a commercial property investor loan checklist"
 ---
-
-# Commercial Property Investor Loan Checklist
 
 A commercial property investor loan checklist is a practical file-preparation tool for investors buying, refinancing, or releasing equity against income-producing commercial property. It helps you gather the lease, valuation, borrower, security, cash-flow, and settlement evidence lenders commonly need before they can assess a commercial investment property loan.
 
@@ -41,7 +43,7 @@ For Australian commercial property investors, the strongest finance applications
 
 Emet Capital uses this style of checklist when helping business borrowers, property investors, and developers compare [commercial property finance](/services/commercial-property-finance), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), private credit, refinance, bridging finance, and other property-backed options. It is general information only, not financial advice.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main guide to commercial property loan structures and assessment.
 - **[Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — how rent, business income, and borrower capacity are tested.

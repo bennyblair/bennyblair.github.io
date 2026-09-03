@@ -146,7 +146,7 @@ Fast business funding can be a valuable tool for Australian businesses needing i
 
 The key is understanding your options, choosing reputable lenders, and ensuring any funding solution aligns with your business's capacity to repay. When used strategically, fast funding can help businesses grow and thrive in competitive markets.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### How fast can I get business funding approved?
 
@@ -309,7 +309,7 @@ Fast business funding can be a valuable tool for Australian businesses needing i
 
 The key is understanding your options, choosing reputable lenders, and ensuring any funding solution aligns with your business's capacity to repay. When used strategically, fast funding can help businesses grow and thrive in competitive markets.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### How fast can I get business funding approved?
 

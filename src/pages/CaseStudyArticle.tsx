@@ -190,8 +190,8 @@ const CaseStudyArticle = () => {
             </Link>
           </div>
 
-          <header className="mb-12 text-center">
-            <div className="inline-flex items-center space-x-4 mb-6">
+          <header className="article-hero mb-12 text-center">
+            <div className="article-hero-meta inline-flex items-center space-x-4 mb-6">
               <span className="bg-gradient-to-r from-primary to-primary-light text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-sm">
                 {article.category || 'Case Study'}
               </span>
@@ -233,7 +233,7 @@ const CaseStudyArticle = () => {
             </article>
 
             <aside className="lg:col-span-4 space-y-6 sticky top-8">
-              <Card>
+              <Card className="case-study-details-card">
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Building2 className="w-5 h-5 mr-2" />

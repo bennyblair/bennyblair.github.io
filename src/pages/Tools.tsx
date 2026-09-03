@@ -339,7 +339,7 @@ const Tools = () => {
 
 
         {/* Call to Action */}
-        <section className="text-center mt-16 py-12 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
+        <section className="tools-closing-cta text-center mt-16 py-12 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
           <div className="max-w-2xl mx-auto px-8">
             <h2 className="text-2xl font-bold text-primary-foreground mb-4">
               Need More Than Just Calculations?

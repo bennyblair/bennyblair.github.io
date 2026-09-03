@@ -158,7 +158,7 @@ const WorkingCapitalCalculator = () => {
                     <div>
                       <Label htmlFor="industry">Industry</Label>
                       <Select value={industry} onValueChange={setIndustry}>
-                        <SelectTrigger>
+                        <SelectTrigger id="industry" aria-label="Industry">
                           <SelectValue placeholder="Select your industry" />
                         </SelectTrigger>
                         <SelectContent>

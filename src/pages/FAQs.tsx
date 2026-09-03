@@ -165,7 +165,7 @@ const FAQs = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Frequently Asked Questions
+            Frequently asked questions
           </h1>
           <p className="text-xl text-muted-foreground">
             Get instant answers to the most common commercial lending questions. Expert insights to help you make informed financing decisions.
@@ -177,7 +177,7 @@ const FAQs = () => {
           <CardContent className="p-8">
             <h2 className="text-2xl font-bold text-secondary-blue-foreground mb-6 flex items-center">
               <Star className="w-6 h-6 mr-3 text-accent" />
-              Most Popular Questions
+              Most popular questions
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {popularQuestions.map((question, index) => (
@@ -205,9 +205,9 @@ const FAQs = () => {
         </div>
 
         {/* FAQ List */}
-        <div className="space-y-4">
+        <div className="faq-index">
           {faqs[selectedCategory as keyof typeof faqs].map((faq) => (
-            <Card key={faq.id} className="hover:shadow-md transition-shadow">
+            <Card key={faq.id} className="faq-index-item">
               <CardContent className="p-0">
                 <button
                   onClick={() => toggleFAQ(faq.id)}

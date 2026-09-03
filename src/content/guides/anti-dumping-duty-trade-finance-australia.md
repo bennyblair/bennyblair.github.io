@@ -38,17 +38,17 @@ sources:
     url: "https://business.gov.au/products-and-services/exporting/dumping-subsidisation-and-anti-dumping-and-countervailing"
 metaTitle: "Anti-Dumping Duty and Trade Finance for Importers"
 metaDescription: "Map anti-dumping duty into landed cost and trade-finance timing. A practical Australian importer guide to verification, evidence and funding risk."
+featuredImage: "/images/articles/anti-dumping-duty-trade-finance-australia.jpg"
+featuredImageAlt: "Monochrome abstract curved forms illustrating trade finance and landed-cost planning"
 ---
-
-# Anti-Dumping Duty and Trade Finance for Australian Importers
 
 Anti-dumping duty trade finance in Australia is business funding structured around an importer's supplier, freight, customs, duty and customer-payment timeline when goods may attract an anti-dumping or countervailing measure. The finance does not determine whether a measure applies or calculate the legal duty liability. It addresses the commercial cash gap created when the landed cost must be paid before inventory is sold and customer receipts arrive.
 
 Anti-dumping measures are additional duties imposed on particular goods from particular exporters or countries after Australia's trade-remedies process finds the relevant conditions are met. Countervailing measures respond to subsidised imports. For an importer, the practical issue is specific classification and current-measure verification: product description, tariff classification, country of origin or export, exporter, shipment date and applicable notice can all matter.
 
-This guide explains the funding workflow from Emet Capital's position as a broker connecting eligible commercial borrowers with lenders. Importers should obtain customs-broker, tax and legal advice for classification, valuation, origin and duty liability rather than relying on finance content.
+This guide explains the funding workflow from Emet Capital's position as a broker comparing [business finance](/services/business-finance) options for eligible commercial borrowers. Importers should obtain customs-broker, tax and legal advice for classification, valuation, origin and duty liability rather than relying on finance content.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — the core importer funding guide.
 - **[Purchase Order Finance vs Trade Finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)** — compares supplier-stage and broader trade facilities.
@@ -232,10 +232,6 @@ The duty can increase cash required at import clearance before the goods are sol
 ### What documents support a finance request?
 
 Useful documents include purchase orders, supplier invoices, shipping records, customs-broker estimates, current measure evidence, customer orders, financial statements, bank statements, inventory records and a complete cash-flow timeline.
-
-### Does finance remove customs or pricing risk?
-
-No. Finance supplies capital under agreed terms; it does not determine legal liability, prevent measure changes, guarantee clearance or make an unprofitable shipment viable.
 
 ## Related Guides
 

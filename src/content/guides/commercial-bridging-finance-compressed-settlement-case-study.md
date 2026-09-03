@@ -36,9 +36,9 @@ sources:
     url: "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/contracts-and-deposits"
 metaTitle: "Commercial Bridging Finance Compressed Settlement Case Study"
 metaDescription: "See how a commercial bridging finance structure may address a compressed property settlement, including evidence, exit planning, risks, and alternatives."
+featuredImage: "/images/articles/commercial-bridging-finance-compressed-settlement-case-study.jpg"
+featuredImageAlt: "Monochrome architectural facade illustrating a compressed commercial property settlement timeline"
 ---
-
-# Commercial Bridging Finance Case Study: A Compressed Settlement Timeline
 
 Commercial bridging finance for a compressed settlement is short-term, business-purpose funding used when a commercial property obligation falls due before a suitable longer-term loan, property sale, or other documented repayment event can complete.
 
@@ -48,7 +48,7 @@ This is a genuinely anonymised, pattern-based case study. It combines recurring 
 
 Borrowers wanting the broader product framework should read the pillar guide to [commercial bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide). This page has a narrower purpose: showing how decisions change when the settlement timetable compresses after the original finance plan falls behind.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Settlement Process](/resources/guides/commercial-property-settlement-process-finance-timeline)** — map the finance, legal and settlement dependencies before setting a deadline.
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — test refinance, sale and contingency exits before taking short-term debt.

@@ -31,17 +31,19 @@ sources:
     url: "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules"
   - label: "business.gov.au — Prepare a contract"
     url: "https://business.gov.au/people/contractors/prepare-a-contract"
+metaTitle: "Working Capital Finance for Government Contracts in Australia"
+metaDescription: "Learn how Australian businesses can fund government contract mobilisation, labour, materials and milestone payment gaps, and what lenders assess."
+featuredImage: "/images/articles/working-capital-finance-government-contracts-australia.jpg"
+featuredImageAlt: "Monochrome repeating architectural pattern illustrating staged government contract cash flow"
 ---
-
-# Working Capital Finance for Government Contracts in Australia
 
 Working capital finance for a government contract in Australia is business-purpose funding used to cover the cash gap between winning or starting a public-sector contract and receiving payment. It can fund mobilisation costs such as labour, materials, equipment hire, insurance, subcontractors and supplier deposits, depending on the facility and lender assessment.
 
 The contract itself does not automatically create available cash. Your business may need to perform work, pass acceptance checks and submit a compliant invoice before payment becomes due. A facility can help bridge that timing mismatch, but it must fit the contract's payment mechanism and your wider business cash flow.
 
-The central question is whether the business can fund delivery without weakening ordinary operations. A useful assessment maps contract costs, evidenced receipts and realistic repayment timing.
+The central question is whether the business can fund delivery without weakening ordinary operations. A useful assessment maps contract costs, evidenced receipts and realistic repayment timing before comparing [working capital finance](/services/working-capital) structures.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Contract Mobilisation Finance Australia](/resources/guides/contract-mobilisation-finance-australia)** — how to fund upfront delivery costs after a contract award.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — the broader framework for managing operational cash gaps.

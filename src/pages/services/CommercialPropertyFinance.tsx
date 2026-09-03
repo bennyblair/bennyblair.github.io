@@ -460,7 +460,7 @@ const CommercialPropertyFinance = () => {
               </div>
             </section>
 
-            <section>
+            <section className="property-useful-guides">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Useful Guides

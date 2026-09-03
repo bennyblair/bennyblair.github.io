@@ -435,7 +435,7 @@ const Services = () => {
                 onOpenChange={() => toggleSection(category.id)}
               >
                 <Card className="premium-card">
-                  <CollapsibleTrigger asChild>
+                  <CollapsibleTrigger className="service-directory-trigger">
                     <CardHeader className="cursor-pointer hover:bg-accent/5 transition-colors">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-4">
@@ -872,21 +872,21 @@ const Services = () => {
         </section>
 
         {/* FAQ Section */}
-        <section className="mb-16">
+        <section className="faq-section mb-16">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
-              Frequently Asked <span className="gradient-text">Questions</span>
+              Frequently asked <span className="gradient-text">questions</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Common questions about commercial lending and our brokerage services in Australia
             </p>
           </div>
           
-          <Card className="premium-card max-w-4xl mx-auto">
+          <Card className="faq-frame premium-card max-w-4xl mx-auto">
             <CardContent className="pt-6">
-              <Accordion type="single" collapsible className="w-full">
+              <Accordion type="single" collapsible className="faq-list w-full">
                 {faqs.map((faq, index) => (
-                  <AccordionItem key={index} value={`item-${index}`}>
+                  <AccordionItem className="faq-item" key={index} value={`item-${index}`}>
                     <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
                     <AccordionContent className="text-muted-foreground">
                       {faq.answer}

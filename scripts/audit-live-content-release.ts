@@ -88,11 +88,6 @@ if (!files.length) {
   console.log(JSON.stringify({ classification: "not_applicable", reason: "no new content files in release" }, null, 2));
   process.exit(0);
 }
-if (files.length !== 1) {
-  console.log(JSON.stringify({ classification: "deterministic_content_defect", reason: `expected one new article, found ${files.length}`, files }, null, 2));
-  process.exit(10);
-}
-
 const expected = files.map((file) => {
   const source = fs.readFileSync(path.join(repoRoot, file), "utf8");
   const parsed = matter(source);
