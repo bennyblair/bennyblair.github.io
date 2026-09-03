@@ -74,7 +74,7 @@ try {
 
     const response = await page.goto(`${baseUrl}${route}`, { waitUntil: "domcontentloaded" });
     await page.waitForLoadState("networkidle", { timeout: 15_000 });
-    await page.evaluate(() => window.dispatchEvent(new Event("pointerover")));
+    await page.evaluate(() => window.dispatchEvent(new Event("pointerdown")));
     await page.waitForFunction(
       () => document.documentElement.dataset.prerenderReady === "true",
       undefined,

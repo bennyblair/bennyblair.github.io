@@ -33,9 +33,6 @@ import {
 import { getContentSummaries, isRoutableContentArticle, type ArticleSummary } from "@/lib/content";
 
 const Homepage = () => {
-  const [scrollY, setScrollY] = useState(0);
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const videoSourceRef = useRef<HTMLSourceElement>(null);
   const storiesRef = useRef<HTMLDivElement>(null);
   const processRef = useRef<HTMLElement>(null);
   const [processActive, setProcessActive] = useState(false);
@@ -78,7 +75,6 @@ const Homepage = () => {
     if (!section) return;
 
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      setProcessActive(true);
       return;
     }
 
@@ -100,73 +96,6 @@ const Homepage = () => {
       behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
     });
   };
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-    const video = videoRef.current;
-    const source = videoSourceRef.current;
-    if (!video || !source) return;
-
-    let loaded = document.readyState === 'complete';
-    let interacted = false;
-    const interactionEvents: Array<keyof WindowEventMap> = ['pointerdown', 'keydown', 'scroll', 'touchstart'];
-
-    const removeInteractionListeners = () => {
-      interactionEvents.forEach((eventName) => window.removeEventListener(eventName, onInteraction));
-    };
-
-    const enableVideo = () => {
-      if (!loaded || !interacted || source.src) return;
-      source.src = source.dataset.src || '';
-      video.load();
-      void video.play().catch(() => undefined);
-      removeInteractionListeners();
-    };
-
-    function onInteraction() {
-      interacted = true;
-      enableVideo();
-    }
-
-    const onLoad = () => {
-      loaded = true;
-      enableVideo();
-    };
-
-    interactionEvents.forEach((eventName) =>
-      window.addEventListener(eventName, onInteraction, { passive: true, once: true }),
-    );
-    if (!loaded) window.addEventListener('load', onLoad, { once: true });
-
-    return () => {
-      window.removeEventListener('load', onLoad);
-      removeInteractionListeners();
-    };
-  }, []);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    const source = videoSourceRef.current;
-    if (!video || !source) return;
-
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting && source.src) {
-        void video.play().catch(() => undefined);
-      } else {
-        video.pause();
-      }
-    }, { threshold: 0.1 });
-
-    observer.observe(video);
-    return () => observer.disconnect();
-  }, []);
 
   // Helper function to check if article is new (within 7 days)
   const isNewArticle = (date: string) => {
@@ -290,35 +219,21 @@ const Homepage = () => {
       
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
-        {/* Video Background */}
+        {/* The visible hero artwork is the LCP asset. Render it directly so the
+            browser does not download a competing poster and video first. */}
         <div className="absolute inset-0">
           <picture aria-hidden="true">
-            <source media="(max-width: 640px)" srcSet="/hero-property-finance-poster-mobile.webp" />
+            <source media="(max-width: 560px)" srcSet="/images/emet-abstract-hero-mobile.jpg" />
             <img
-              src="/hero-property-finance-poster.webp"
+              src="/images/emet-abstract-hero.jpg"
               alt=""
               width="1600"
               height="900"
+              loading="eager"
               decoding="sync"
               className="absolute inset-0 h-full w-full object-cover"
             />
           </picture>
-          <video
-            ref={videoRef}
-            data-hero-video="true"
-            muted
-            loop
-            playsInline
-            preload="none"
-            poster="/hero-property-finance-poster.webp"
-            aria-hidden="true"
-            className="absolute inset-0 w-full h-full object-cover"
-            style={{
-              transform: `translateY(${scrollY * 0.5}px)`,
-            }}
-          >
-            <source ref={videoSourceRef} data-src="/Camera_still_clouds_202604130048.mp4" type="video/mp4" />
-          </video>
         </div>
         
         {/* Glassmorphism overlay */}
@@ -326,7 +241,7 @@ const Homepage = () => {
         
         {/* Hero content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <div className="fade-in-up" style={{ animationDelay: '200ms' }}>
+          <div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
               Commercial Lending Solutions,
               <span className="gradient-text block mt-2 leading-normal">
@@ -501,7 +416,7 @@ const Homepage = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Button asChild variant="outline" size="lg" className="border-accent/30 hover:bg-accent/10">
+            <Button asChild variant="outline" size="lg" className="border-border text-foreground hover:bg-muted hover:text-foreground">
               <Link to="/services">
                 View All Services
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -672,14 +587,14 @@ const Homepage = () => {
       </section>
 
       {/* Latest Articles */}
-      <section className="home-articles py-24 px-4 bg-slate-900">
+      <section className="home-articles py-24 px-4 bg-background text-foreground">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 Latest Articles & Insights
               </h2>
-              <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                 Stay informed with our latest guides, case studies, and market insights. 
                 Fresh content to help you make smarter financing decisions.
               </p>
@@ -689,19 +604,19 @@ const Homepage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {latestArticles.map((article, index) => (
               <div key={article.slug} className={`fade-in-up delay-${index * 100}`}>
-                <Card className="h-full hover:shadow-xl transition-all duration-300 border-slate-700 bg-slate-800/50 backdrop-blur-sm">
+                <Card className="h-full hover:shadow-xl transition-all duration-300 border-border bg-transparent text-card-foreground">
                   <CardHeader className="pb-3">
                     <div className="flex items-start justify-between gap-3 mb-2">
-                      <Badge variant="outline" className="text-xs font-medium border-slate-600 text-slate-300">
+                      <Badge variant="outline" className="text-xs font-medium border-border text-muted-foreground">
                         {article.category}
                       </Badge>
                       {isNewArticle(article.date) && (
-                        <Badge className="home-new-badge bg-green-900/50 text-green-300 border-green-700 hover:bg-green-900/70 text-xs font-medium">
+                        <Badge variant="outline" className="home-new-badge border-border text-foreground text-xs font-medium">
                           NEW
                         </Badge>
                       )}
                     </div>
-                    <CardTitle className="text-lg line-clamp-2 leading-tight text-white hover:text-accent-light transition-colors">
+                    <CardTitle className="text-lg line-clamp-2 leading-tight text-foreground transition-colors">
                       <Link 
                         to={getArticleUrl(article)}
                         className="block"
@@ -711,12 +626,12 @@ const Homepage = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="pt-0">
-                    <p className="text-sm text-slate-300 line-clamp-3 mb-4">
+                    <p className="text-sm text-muted-foreground line-clamp-3 mb-4">
                       {article.description}
                     </p>
-                    <div className="flex items-center justify-between text-xs text-slate-400">
+                    <div className="flex items-center justify-between text-xs text-muted-foreground">
                       <span>{article.author}</span>
-                      <span>{new Date(article.date).toLocaleDateString()}</span>
+                      <span>{new Date(article.date).toLocaleDateString('en-AU')}</span>
                     </div>
                   </CardContent>
                 </Card>
@@ -726,7 +641,7 @@ const Homepage = () => {
           
           <div className="home-article-cta text-center mt-12">
             <div className="fade-in-up delay-600">
-              <p className="text-slate-300 mb-6">
+              <p className="text-muted-foreground mb-6">
                 Explore more resources tailored to your needs
               </p>
               <div className="home-article-actions flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -735,12 +650,12 @@ const Homepage = () => {
                     View All Guides
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-slate-600 text-slate-300 hover:bg-slate-700 hover:text-white">
+                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-border text-foreground hover:bg-muted hover:text-foreground">
                   <Link to="/resources/case-studies">
                     Browse Case Studies
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-slate-600 text-slate-300 hover:bg-slate-700 hover:text-white">
+                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-border text-foreground hover:bg-muted hover:text-foreground">
                   <Link to="/resources/insights">
                     Market Insights
                   </Link>

@@ -116,8 +116,7 @@ const AppRoutes = () => (
     <RouteReadySignal />
     <AnalyticsSignals />
     <Layout>
-      <Suspense fallback={<LoadingSpinner />}>
-        <Routes>
+      <Routes>
           {clientRedirects.map((redirect) => (
             <Route
               key={`redirect:${redirect.from}`}
@@ -126,11 +125,14 @@ const AppRoutes = () => (
             />
           ))}
           {siteRoutes.map((route) => {
-            const Component = preloadedRouteComponents.get(route.path) ?? routeComponents.get(route.path)!;
-            return <Route key={route.path} path={route.path} element={<Component />} />;
+            const PreloadedComponent = preloadedRouteComponents.get(route.path);
+            const Component = PreloadedComponent ?? routeComponents.get(route.path)!;
+            const element = PreloadedComponent
+              ? <Component />
+              : <Suspense fallback={<LoadingSpinner />}><Component /></Suspense>;
+            return <Route key={route.path} path={route.path} element={element} />;
           })}
-        </Routes>
-      </Suspense>
+      </Routes>
     </Layout>
   </>
 );

@@ -87,7 +87,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground max-w-2xl">
-            &copy; {currentYear} Emet Capital. General information only. This website does not provide financial, legal, or tax advice.
+            {`© ${currentYear} Emet Capital. General information only. This website does not provide financial, legal, or tax advice.`}
           </p>
           <div className="flex flex-wrap gap-6 text-sm justify-center md:justify-end">
             <Link to="/privacy-policy" className="text-muted-foreground hover:text-accent">Privacy Policy</Link>

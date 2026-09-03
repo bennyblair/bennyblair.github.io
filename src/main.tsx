@@ -1,4 +1,4 @@
-import { createRoot } from "react-dom/client";
+import { createRoot, hydrateRoot } from "react-dom/client";
 import { Toaster } from "@/components/ui/toaster";
 import { installContactTracking, trackPageView } from "@/lib/analytics";
 import App, { preloadCurrentRoute } from "./App.tsx";
@@ -8,67 +8,14 @@ import "./styles/old-tom-redesign.css";
 const root = document.getElementById("root")!;
 const isPrerendered = document.documentElement.dataset.prerendered === "true" && root.hasChildNodes();
 
-function initialisePrerenderedHeroVideo() {
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return () => undefined;
-
-  const video = document.querySelector<HTMLVideoElement>('video[data-hero-video="true"]');
-  const source = video?.querySelector<HTMLSourceElement>("source[data-src]");
-  if (!video || !source) return () => undefined;
-
-  let loaded = document.readyState === "complete";
-  let interacted = false;
-  const interactionEvents: Array<keyof WindowEventMap> = ["pointerdown", "keydown", "scroll", "touchstart"];
-
-  const removeInteractionListeners = () => {
-    interactionEvents.forEach((eventName) => window.removeEventListener(eventName, onInteraction));
-  };
-  const enableVideo = () => {
-    if (!loaded || !interacted || source.src) return;
-    source.src = source.dataset.src || "";
-    video.load();
-    void video.play().catch(() => undefined);
-    removeInteractionListeners();
-  };
-  function onInteraction() {
-    interacted = true;
-    enableVideo();
-  }
-  const onLoad = () => {
-    loaded = true;
-    enableVideo();
-  };
-
-  interactionEvents.forEach((eventName) =>
-    window.addEventListener(eventName, onInteraction, { passive: true, once: true }),
-  );
-  if (!loaded) window.addEventListener("load", onLoad, { once: true });
-
-  const observer = new IntersectionObserver(([entry]) => {
-    if (entry.isIntersecting && source.src) {
-      void video.play().catch(() => undefined);
-    } else {
-      video.pause();
-    }
-  }, { threshold: 0.1 });
-  observer.observe(video);
-
-  return () => {
-    window.removeEventListener("load", onLoad);
-    removeInteractionListeners();
-    observer.disconnect();
-  };
-}
-
 async function mountApp(preload = preloadCurrentRoute(window.location.pathname)) {
   await preload;
   const app = <App />;
   if (isPrerendered && window.location.pathname === "/") {
-    // The static homepage is intentionally interaction-activated. Its
-    // prerendered markup contains production-only optimisations that are not a
-    // byte-for-byte React tree, so replace it cleanly instead of attempting a
-    // noisy hydration that can fail for keyboard and assistive-tech users.
-    root.replaceChildren();
-    createRoot(root).render(app);
+    // Keep the fast, accessible server-rendered first paint in place and attach
+    // interactions to it. Replacing this tree caused a second full-page paint
+    // and incorrectly pushed LCP out to the JavaScript activation time.
+    hydrateRoot(root, app);
   } else {
     createRoot(root).render(app);
   }
@@ -84,14 +31,12 @@ async function mountApp(preload = preloadCurrentRoute(window.location.pathname))
 }
 
 if (isPrerendered && window.location.pathname === "/") {
-  const removeHeroVideo = initialisePrerenderedHeroVideo();
   const removeInitialContactTracking = installContactTracking();
   window.setTimeout(() => trackPageView(window.location.pathname, document.title), 0);
 
   const activationEvents: Array<keyof WindowEventMap> = [
-    "focusin",
     "keydown",
-    "pointerover",
+    "pointerdown",
     "touchstart",
     "wheel",
   ];
@@ -100,7 +45,6 @@ if (isPrerendered && window.location.pathname === "/") {
     if (activated) return;
     activated = true;
     activationEvents.forEach((eventName) => window.removeEventListener(eventName, activate));
-    removeHeroVideo();
     void mountApp().then(() => {
       window.setTimeout(removeInitialContactTracking, 1000);
     });

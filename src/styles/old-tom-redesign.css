@@ -277,16 +277,7 @@ body {
 }
 
 .homepage-page > section:nth-of-type(1)::before {
-  position: absolute;
-  z-index: -3;
-  inset: 0;
-  background-image: url("/images/emet-abstract-hero.jpg");
-  background-position: 50% 52%;
-  background-size: cover;
-  content: "";
-  filter: grayscale(1) contrast(1.08);
-  transform: scale(1.035);
-  animation: ot-hero-image-in 1500ms cubic-bezier(.2, .7, .2, 1) both;
+  display: none;
 }
 
 .homepage-page > section:nth-of-type(1)::after {
@@ -305,9 +296,14 @@ body {
 }
 
 .homepage-page > section:nth-of-type(1) > .absolute.inset-0:first-child {
-  z-index: -4;
-  opacity: .12;
-  filter: grayscale(1);
+  z-index: -3;
+  opacity: 1;
+  filter: grayscale(1) contrast(1.08);
+  transform: scale(1.035);
+}
+
+.homepage-page > section:nth-of-type(1) > .absolute.inset-0:first-child img {
+  object-position: 50% 52%;
 }
 
 .homepage-page > section:nth-of-type(1) > .absolute.inset-0:nth-child(2) {
@@ -342,7 +338,7 @@ body {
   font-weight: 500 !important;
   letter-spacing: -.064em !important;
   line-height: .85 !important;
-  animation: ot-title-in 900ms 150ms cubic-bezier(.16, 1, .3, 1) both;
+  animation: none;
 }
 
 .homepage-page > section:nth-of-type(1) h1 span {
@@ -2094,9 +2090,9 @@ body {
   .site-shell > nav[aria-label="Primary navigation"] a[aria-label="Emet Capital home"] { font-size: 23px; }
   .homepage-page > section:nth-of-type(1) { height: 100svh; min-height: 760px !important; }
   .homepage-page > section:nth-of-type(1)::before {
-    background-image: url("/images/emet-abstract-hero-mobile.jpg");
-    background-position: 50% center;
+    display: none;
   }
+  .homepage-page > section:nth-of-type(1) > .absolute.inset-0:first-child img { object-position: 50% center; }
   .homepage-page > section:nth-of-type(1)::after { inset: 0 -70% 22% -10%; }
   .homepage-page > section:nth-of-type(1) > .relative.z-10 > div:nth-child(1) { bottom: 280px; left: 18px; }
   .homepage-page > section:nth-of-type(1) h1 { max-width: 9ch; font-size: clamp(50px, 15vw, 65px) !important; }

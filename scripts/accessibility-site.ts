@@ -60,16 +60,22 @@ async function scanRoute(context: BrowserContext, route: string) {
     // The production shell is prerendered. Wait for React to replace the shell
     // with the requested route before auditing, otherwise every deep URL can be
     // incorrectly scanned as the prerendered homepage. The homepage itself is
-    // intentionally hydrated on first interaction, so a pointer-over event
-    // activates it without consuming the first keyboard focus target.
+    // intentionally hydrated on first meaningful interaction, so a synthetic
+    // pointer-down activates it without consuming the first keyboard focus target.
     await page.waitForLoadState("networkidle");
-    await page.evaluate(() => window.dispatchEvent(new Event("pointerover")));
+    await page.evaluate(() => window.dispatchEvent(new Event("pointerdown")));
     await page.waitForFunction(
       () => document.documentElement.dataset.prerenderReady === "true",
       undefined,
       { timeout: 15_000 },
     );
     await page.waitForSelector("main h1", { timeout: 15_000 });
+    await page.evaluate(async () => {
+      await document.fonts.ready;
+      await new Promise<void>((resolve) => {
+        requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+      });
+    });
     if (response?.status() !== 200) errors.push(`HTTP ${response?.status() ?? "no response"}`);
     const results = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
