@@ -2,17 +2,23 @@
 
 This is a separate review copy. The production domain, hosting, main branch, content automation and lead delivery are unchanged.
 
-The design follows the owner's Old Tom Capital inspiration: immersive property photography, confident scale, generous spacing, mineral-white reading areas and restrained eucalyptus-green sections. It keeps the Emet identity and uses licensed photographs of real Australian buildings. Stock photography is identified as representative, not as client property.
+The updated homepage follows the owner's request for a closer Old Tom Capital feel: immersive property photography, confident scale, generous spacing, mineral-white reading areas and restrained eucalyptus-green sections. It keeps the Emet identity and uses licensed photographs of real Australian buildings. Stock photography is identified as representative, not as client property.
 
 ## Design changes
 
-- A dramatic architectural homepage opening with a raised enquiry panel and readable text. The main scroll prioritises three property services, two scenarios, a compact process and three insights. Native disclosures retain the remaining services, stories, summaries, broker expertise and nationwide coverage in HTML.
+- A cinematic architectural homepage opening with a docked enquiry panel and readable text. The main scroll prioritises three property services, two scenarios, a compact process and three insights. Native disclosures retain the remaining services, stories, summaries, broker expertise and nationwide coverage in HTML.
 - Distinct service, location, article, guide-directory, case-study and utility layouts. Articles gain a readable column and contents rail; contact and calculator controls appear early.
 - Named layouts replace the old 2,665-line positional theme. React, Vite, prerendering and production dependencies remain.
 - Missing images are restored at existing URLs. Explicit image assignments are shared by article rendering and metadata; eight unrelated crops are replaced with licensed property photographs. Case-study and calculator schema image defects are repaired.
 - Contents anchors work across Windows and Unix line endings. FAQ headings use the same anchor as their contents entry. Case-study FAQ text previously stripped by the shared renderer is shown.
 - Native navigation retains open state and keyboard focus when JavaScript arrives. React text-node boundaries are preserved during prerendering, avoiding a homepage hydration repaint.
 - The homepage receives only the article metadata it displays. Compressed responsive photographs and thumbnails reduce transfer size.
+
+## Cinematic homepage revision
+
+The opening now uses a slow camera move, scroll-linked architectural linework, three deliberate headline lines and a docked enquiry panel. Property services sit beside a tall building photograph; scenario images are larger and staggered; the process uses large numerals with a scroll-linked line. Native scrolling is preserved. The pause control cancels all automatic and scroll-linked effects, and reduced-motion preferences disable them initially and when changed. Text is immediately visible in the saved HTML; animation does not gate content or navigation.
+
+All 11 motion acceptance checks passed, including ordinary/reduced motion, pause/resume, delayed JavaScript, clean hydration and 200% enlarged control layout. See `motion-acceptance.json`. The revision retains the same metadata, substantive copy and destinations, and adds no dependencies.
 
 ## SEO comparison and intentional exceptions
 
@@ -39,7 +45,7 @@ Both forms retain their production fields and validation. Submitting them displa
 
 Type checking, unit tests, lint, SEO control-plane checks, protected cohort, content quality, production dependency audit, prerender verification and browser smoke tests were run. Lint has nine existing Fast Refresh warnings. The full automated accessibility scan passed all 380 canonical routes. All 89 targeted acceptance checks passed at 320, 390, 768, 1024, 1280 and 1440px, including synthetic 200% text enlargement, delayed/disabled JavaScript and simulated forms. This tests doubled computed text sizes, not browser UI zoom. See `browser-acceptance.json` and `SEO-COMPARISON.md`. The 74 unit tests passed.
 
-The recorded production-mode mobile Lighthouse run passed the existing budgets: **LCP 2,494 ms; CLS 0; TBT 58 ms; accessibility 100; SEO 100; initial JavaScript 104,380 bytes**. LCP is close to its 2,500-ms threshold, so rerun the production gate before release. These are laboratory measurements, not real-visitor Core Web Vitals.
+The recorded production-mode mobile Lighthouse run passed the existing budgets: **LCP 2,491 ms; CLS 0; TBT 58 ms; accessibility 100; SEO 100; initial JavaScript 105,973 bytes**. LCP is close to its 2,500-ms threshold, so rerun the production gate before release. These are laboratory measurements, not real-visitor Core Web Vitals.
 
 **Full CI is not claimed green.** The claim gate rejects the unchanged phrase “access to over 50 lenders” in nine existing service pages when their presentation is edited. Every exact phrase exists in both the source baseline and live website. Neither the wording nor the gate was weakened to obtain a pass. The owner/colleague must verify the evidence and resolve this before production promotion. See `claim-gate-baseline.json` and `release-review.md`.
 
@@ -48,6 +54,7 @@ Production promotion is a separate decision. Before release, capture Search Cons
 ## Colleague handoff
 
 - Review build: `npm run build:review`. Production build remains `npm run build`.
+- Motion acceptance: `npm run qa:motion -- http://127.0.0.1:4173`.
 - Browser acceptance: `npm run qa:design -- http://127.0.0.1:4173 --screenshots`, after `npm run preview`.
 - Apply the separate binary implementation patch to the matching baseline in an isolated branch for review. Do not publish the review build to the production domain.
 - `.openai/hosting.json` belongs to the separate Sites review. Production `netlify.toml` and the route manifest are preserved.

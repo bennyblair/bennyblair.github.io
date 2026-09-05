@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-05T23:19:01.747Z",
-  "finishedAt": "2026-09-05T23:20:28.499Z",
+  "startedAt": "2026-09-05T23:43:30.671Z",
+  "finishedAt": "2026-09-05T23:44:57.362Z",
   "baseUrl": "http://127.0.0.1:4173/",
   "site": "C:\\Users\\user\\Documents\\EMET design preview",
   "assumptions": [
@@ -20,7 +20,7 @@
     {
       "name": "layout 320px /resources/guides",
       "status": "pass",
-      "durationMs": 1007,
+      "durationMs": 978,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -46,7 +46,7 @@
     {
       "name": "layout 390px /resources/guides",
       "status": "pass",
-      "durationMs": 7109,
+      "durationMs": 6806,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -72,7 +72,7 @@
     {
       "name": "layout 768px /resources/guides",
       "status": "pass",
-      "durationMs": 894,
+      "durationMs": 881,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -98,7 +98,7 @@
     {
       "name": "layout 1024px /resources/guides",
       "status": "pass",
-      "durationMs": 878,
+      "durationMs": 890,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -124,7 +124,7 @@
     {
       "name": "layout 1280px /resources/guides",
       "status": "pass",
-      "durationMs": 871,
+      "durationMs": 869,
       "details": {
         "errors": [],
         "viewport": 1280,
@@ -150,7 +150,7 @@
     {
       "name": "layout 1440px /resources/guides",
       "status": "pass",
-      "durationMs": 888,
+      "durationMs": 895,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -176,7 +176,7 @@
     {
       "name": "layout 320px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 754,
+      "durationMs": 745,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -202,7 +202,7 @@
     {
       "name": "layout 390px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 1652,
+      "durationMs": 1660,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -228,7 +228,7 @@
     {
       "name": "layout 768px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 777,
+      "durationMs": 756,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -254,7 +254,7 @@
     {
       "name": "layout 1024px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 755,
+      "durationMs": 779,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -280,7 +280,7 @@
     {
       "name": "layout 1280px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 788,
+      "durationMs": 782,
       "details": {
         "errors": [],
         "viewport": 1280,
@@ -306,7 +306,7 @@
     {
       "name": "layout 1440px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 852,
+      "durationMs": 791,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -332,19 +332,19 @@
     {
       "name": "layout 320px /",
       "status": "pass",
-      "durationMs": 813,
+      "durationMs": 821,
       "details": {
         "errors": [],
         "viewport": 320,
         "documentWidth": 320,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 20,
           "right": 300,
-          "top": 274.5,
-          "bottom": 489.703125,
+          "top": 437.84375,
+          "bottom": 537.640625,
           "width": 280,
-          "height": 215.203125
+          "height": 99.796875
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -358,19 +358,19 @@
     {
       "name": "layout 390px /",
       "status": "pass",
-      "durationMs": 1746,
+      "durationMs": 1775,
       "details": {
         "errors": [],
         "viewport": 390,
         "documentWidth": 390,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 20,
           "right": 370,
-          "top": 274.5,
-          "bottom": 455.921875,
+          "top": 439.671875,
+          "bottom": 561.3125,
           "width": 350,
-          "height": 181.421875
+          "height": 121.640625
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -384,19 +384,19 @@
     {
       "name": "layout 768px /",
       "status": "pass",
-      "durationMs": 903,
+      "durationMs": 928,
       "details": {
         "errors": [],
         "viewport": 768,
         "documentWidth": 768,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 32.25,
-          "right": 400.703125,
-          "top": 548.65625,
-          "bottom": 743.5,
-          "width": 368.453125,
-          "height": 194.84375
+          "right": 428.625,
+          "top": 579.78125,
+          "bottom": 723.5,
+          "width": 396.375,
+          "height": 143.71875
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -410,19 +410,19 @@
     {
       "name": "layout 1024px /",
       "status": "pass",
-      "durationMs": 969,
+      "durationMs": 1026,
       "details": {
         "errors": [],
         "viewport": 1024,
         "documentWidth": 1024,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 43,
-          "right": 552.8125,
-          "top": 638.328125,
-          "bottom": 835.5,
-          "width": 509.8125,
-          "height": 197.171875
+          "right": 601.765625,
+          "top": 691.453125,
+          "bottom": 889.5,
+          "width": 558.765625,
+          "height": 198.046875
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -436,19 +436,19 @@
     {
       "name": "layout 1280px /",
       "status": "pass",
-      "durationMs": 1017,
+      "durationMs": 1092,
       "details": {
         "errors": [],
         "viewport": 1280,
         "documentWidth": 1280,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 53.75,
-          "right": 718.078125,
-          "top": 589,
-          "bottom": 835.5,
-          "width": 664.328125,
-          "height": 246.5
+          "right": 769.90625,
+          "top": 637.921875,
+          "bottom": 889.5,
+          "width": 716.15625,
+          "height": 251.578125
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -462,19 +462,19 @@
     {
       "name": "layout 1440px /",
       "status": "pass",
-      "durationMs": 1075,
+      "durationMs": 1114,
       "details": {
         "errors": [],
         "viewport": 1440,
         "documentWidth": 1440,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 60.46875,
-          "right": 811.53125,
-          "top": 558.171875,
-          "bottom": 835.5,
-          "width": 751.0625,
-          "height": 277.328125
+          "right": 869.640625,
+          "top": 606.46875,
+          "bottom": 889.5,
+          "width": 809.171875,
+          "height": 283.03125
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -488,7 +488,7 @@
     {
       "name": "layout 320px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 734,
+      "durationMs": 782,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -514,7 +514,7 @@
     {
       "name": "layout 390px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 1797,
+      "durationMs": 1815,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -540,7 +540,7 @@
     {
       "name": "layout 768px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 751,
+      "durationMs": 774,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -566,7 +566,7 @@
     {
       "name": "layout 1024px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 793,
+      "durationMs": 781,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -592,7 +592,7 @@
     {
       "name": "layout 1280px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 817,
+      "durationMs": 764,
       "details": {
         "errors": [],
         "viewport": 1280,
@@ -618,7 +618,7 @@
     {
       "name": "layout 1440px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 786,
+      "durationMs": 797,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -644,7 +644,7 @@
     {
       "name": "layout 320px /services/private-lending",
       "status": "pass",
-      "durationMs": 742,
+      "durationMs": 727,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -670,7 +670,7 @@
     {
       "name": "layout 390px /services/private-lending",
       "status": "pass",
-      "durationMs": 1682,
+      "durationMs": 1641,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -696,7 +696,7 @@
     {
       "name": "layout 768px /services/private-lending",
       "status": "pass",
-      "durationMs": 757,
+      "durationMs": 755,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -722,7 +722,7 @@
     {
       "name": "layout 1024px /services/private-lending",
       "status": "pass",
-      "durationMs": 763,
+      "durationMs": 779,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -748,7 +748,7 @@
     {
       "name": "layout 1280px /services/private-lending",
       "status": "pass",
-      "durationMs": 809,
+      "durationMs": 802,
       "details": {
         "errors": [],
         "viewport": 1280,
@@ -774,7 +774,7 @@
     {
       "name": "layout 1440px /services/private-lending",
       "status": "pass",
-      "durationMs": 778,
+      "durationMs": 790,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -800,7 +800,7 @@
     {
       "name": "layout 320px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 834,
+      "durationMs": 826,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -826,7 +826,7 @@
     {
       "name": "layout 390px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 1821,
+      "durationMs": 1852,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -852,7 +852,7 @@
     {
       "name": "layout 768px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 897,
+      "durationMs": 906,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -878,7 +878,7 @@
     {
       "name": "layout 1024px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 916,
+      "durationMs": 938,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -904,7 +904,7 @@
     {
       "name": "layout 1280px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 940,
+      "durationMs": 947,
       "details": {
         "errors": [],
         "viewport": 1280,
@@ -930,7 +930,7 @@
     {
       "name": "layout 1440px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 937,
+      "durationMs": 912,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -956,7 +956,7 @@
     {
       "name": "layout 320px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 824,
+      "durationMs": 828,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -982,7 +982,7 @@
     {
       "name": "layout 390px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 1766,
+      "durationMs": 1735,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -1008,7 +1008,7 @@
     {
       "name": "layout 768px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 912,
+      "durationMs": 891,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1034,7 +1034,7 @@
     {
       "name": "layout 1024px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 869,
+      "durationMs": 893,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -1060,7 +1060,7 @@
     {
       "name": "layout 1280px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 924,
+      "durationMs": 945,
       "details": {
         "errors": [],
         "viewport": 1280,
@@ -1086,7 +1086,7 @@
     {
       "name": "layout 1440px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 903,
+      "durationMs": 915,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1112,7 +1112,7 @@
     {
       "name": "layout 320px /contact",
       "status": "pass",
-      "durationMs": 726,
+      "durationMs": 724,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1138,7 +1138,7 @@
     {
       "name": "layout 390px /contact",
       "status": "pass",
-      "durationMs": 1410,
+      "durationMs": 1439,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -1164,7 +1164,7 @@
     {
       "name": "layout 768px /contact",
       "status": "pass",
-      "durationMs": 742,
+      "durationMs": 751,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1190,7 +1190,7 @@
     {
       "name": "layout 1024px /contact",
       "status": "pass",
-      "durationMs": 759,
+      "durationMs": 752,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -1242,7 +1242,7 @@
     {
       "name": "layout 1440px /contact",
       "status": "pass",
-      "durationMs": 767,
+      "durationMs": 768,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1268,7 +1268,7 @@
     {
       "name": "layout 320px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 754,
+      "durationMs": 758,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1294,7 +1294,7 @@
     {
       "name": "layout 390px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 1637,
+      "durationMs": 1669,
       "details": {
         "errors": [],
         "viewport": 390,
@@ -1320,7 +1320,7 @@
     {
       "name": "layout 768px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 781,
+      "durationMs": 782,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1346,7 +1346,7 @@
     {
       "name": "layout 1024px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 776,
+      "durationMs": 788,
       "details": {
         "errors": [],
         "viewport": 1024,
@@ -1372,7 +1372,7 @@
     {
       "name": "layout 1280px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 768,
+      "durationMs": 790,
       "details": {
         "errors": [],
         "viewport": 1280,
@@ -1398,7 +1398,7 @@
     {
       "name": "layout 1440px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 802,
+      "durationMs": 782,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1424,7 +1424,7 @@
     {
       "name": "text enlargement 200% 320px /resources/guides",
       "status": "pass",
-      "durationMs": 971,
+      "durationMs": 974,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1450,7 +1450,7 @@
     {
       "name": "text enlargement 200% 768px /resources/guides",
       "status": "pass",
-      "durationMs": 974,
+      "durationMs": 967,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1476,7 +1476,7 @@
     {
       "name": "text enlargement 200% 1440px /resources/guides",
       "status": "pass",
-      "durationMs": 942,
+      "durationMs": 973,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1502,7 +1502,7 @@
     {
       "name": "text enlargement 200% 320px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 792,
+      "durationMs": 784,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1554,7 +1554,7 @@
     {
       "name": "text enlargement 200% 1440px /services/asset-backed-lending/sydney",
       "status": "pass",
-      "durationMs": 774,
+      "durationMs": 794,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1580,19 +1580,19 @@
     {
       "name": "text enlargement 200% 320px /",
       "status": "pass",
-      "durationMs": 825,
+      "durationMs": 796,
       "details": {
         "errors": [],
         "viewport": 320,
         "documentWidth": 320,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 20,
           "right": 300,
-          "top": 460,
-          "bottom": 1141.421875,
+          "top": 585,
+          "bottom": 1050.9375,
           "width": 280,
-          "height": 681.421875
+          "height": 465.9375
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -1606,19 +1606,19 @@
     {
       "name": "text enlargement 200% 768px /",
       "status": "pass",
-      "durationMs": 913,
+      "durationMs": 800,
       "details": {
         "errors": [],
         "viewport": 768,
         "documentWidth": 768,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 32.25,
-          "right": 400.703125,
-          "top": 418.40625,
-          "bottom": 1184.21875,
-          "width": 368.453125,
-          "height": 765.8125
+          "right": 428.625,
+          "top": 493.40625,
+          "bottom": 1164.3125,
+          "width": 396.375,
+          "height": 670.90625
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -1632,19 +1632,19 @@
     {
       "name": "text enlargement 200% 1440px /",
       "status": "pass",
-      "durationMs": 807,
+      "durationMs": 812,
       "details": {
         "errors": [],
         "viewport": 1440,
         "documentWidth": 1440,
-        "headline": "Commercial Lending Solutions,Expertly Engineered",
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
         "headingBounds": {
           "left": 60.46875,
-          "right": 811.53125,
-          "top": 464,
-          "bottom": 1547.40625,
-          "width": 751.0625,
-          "height": 1083.40625
+          "right": 869.640625,
+          "top": 514,
+          "bottom": 1834.921875,
+          "width": 809.171875,
+          "height": 1320.921875
         },
         "robots": [
           "noindex, nofollow, noarchive",
@@ -1658,7 +1658,7 @@
     {
       "name": "text enlargement 200% 320px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 766,
+      "durationMs": 785,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1684,7 +1684,7 @@
     {
       "name": "text enlargement 200% 768px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 808,
+      "durationMs": 762,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1710,7 +1710,7 @@
     {
       "name": "text enlargement 200% 1440px /services/commercial-property-finance",
       "status": "pass",
-      "durationMs": 761,
+      "durationMs": 792,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1736,7 +1736,7 @@
     {
       "name": "text enlargement 200% 320px /services/private-lending",
       "status": "pass",
-      "durationMs": 760,
+      "durationMs": 773,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1762,7 +1762,7 @@
     {
       "name": "text enlargement 200% 768px /services/private-lending",
       "status": "pass",
-      "durationMs": 768,
+      "durationMs": 767,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1788,7 +1788,7 @@
     {
       "name": "text enlargement 200% 1440px /services/private-lending",
       "status": "pass",
-      "durationMs": 758,
+      "durationMs": 766,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1814,7 +1814,7 @@
     {
       "name": "text enlargement 200% 320px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 872,
+      "durationMs": 867,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1840,7 +1840,7 @@
     {
       "name": "text enlargement 200% 768px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 852,
+      "durationMs": 847,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1866,7 +1866,7 @@
     {
       "name": "text enlargement 200% 1440px /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 874,
+      "durationMs": 850,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1892,7 +1892,7 @@
     {
       "name": "text enlargement 200% 320px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 839,
+      "durationMs": 830,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1918,7 +1918,7 @@
     {
       "name": "text enlargement 200% 768px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 831,
+      "durationMs": 866,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -1944,7 +1944,7 @@
     {
       "name": "text enlargement 200% 1440px /resources/case-studies/surry-hills-commercial-acquisition",
       "status": "pass",
-      "durationMs": 857,
+      "durationMs": 834,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -1970,7 +1970,7 @@
     {
       "name": "text enlargement 200% 320px /contact",
       "status": "pass",
-      "durationMs": 719,
+      "durationMs": 726,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -1996,7 +1996,7 @@
     {
       "name": "text enlargement 200% 768px /contact",
       "status": "pass",
-      "durationMs": 742,
+      "durationMs": 739,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -2022,7 +2022,7 @@
     {
       "name": "text enlargement 200% 1440px /contact",
       "status": "pass",
-      "durationMs": 744,
+      "durationMs": 746,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -2048,7 +2048,7 @@
     {
       "name": "text enlargement 200% 320px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 783,
+      "durationMs": 763,
       "details": {
         "errors": [],
         "viewport": 320,
@@ -2074,7 +2074,7 @@
     {
       "name": "text enlargement 200% 768px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 749,
+      "durationMs": 773,
       "details": {
         "errors": [],
         "viewport": 768,
@@ -2100,7 +2100,7 @@
     {
       "name": "text enlargement 200% 1440px /resources/tools/commercial-property-loan-calculator",
       "status": "pass",
-      "durationMs": 793,
+      "durationMs": 771,
       "details": {
         "errors": [],
         "viewport": 1440,
@@ -2126,7 +2126,7 @@
     {
       "name": "no-JS mobile first click",
       "status": "pass",
-      "durationMs": 376,
+      "durationMs": 378,
       "details": {
         "mode": "click",
         "delayedJavaScript": false,
@@ -2137,7 +2137,7 @@
     {
       "name": "no-JS mobile first keyboard",
       "status": "pass",
-      "durationMs": 364,
+      "durationMs": 305,
       "details": {
         "mode": "keyboard",
         "delayedJavaScript": false,
@@ -2148,7 +2148,7 @@
     {
       "name": "delayed-JS mobile first click /",
       "status": "pass",
-      "durationMs": 956,
+      "durationMs": 967,
       "details": {
         "mode": "click",
         "delayedJavaScript": true,
@@ -2159,7 +2159,7 @@
     {
       "name": "delayed-JS mobile first keyboard /",
       "status": "pass",
-      "durationMs": 945,
+      "durationMs": 963,
       "details": {
         "mode": "keyboard",
         "delayedJavaScript": true,
@@ -2170,7 +2170,7 @@
     {
       "name": "delayed-JS mobile first click /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 1068,
+      "durationMs": 1083,
       "details": {
         "mode": "click",
         "delayedJavaScript": true,
@@ -2181,7 +2181,7 @@
     {
       "name": "delayed-JS mobile first keyboard /resources/guides/commercial-property-loans-australia-complete-guide",
       "status": "pass",
-      "durationMs": 1045,
+      "durationMs": 1053,
       "details": {
         "mode": "keyboard",
         "delayedJavaScript": true,
@@ -2192,7 +2192,7 @@
     {
       "name": "preview homepage enquiry isolation",
       "status": "pass",
-      "durationMs": 812,
+      "durationMs": 887,
       "details": {
         "form": "homepage-contact",
         "writeRequests": 0,
@@ -2204,7 +2204,7 @@
     {
       "name": "preview contact enquiry isolation",
       "status": "pass",
-      "durationMs": 790,
+      "durationMs": 795,
       "details": {
         "form": "contact",
         "writeRequests": 0,

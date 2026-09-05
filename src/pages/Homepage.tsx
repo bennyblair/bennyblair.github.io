@@ -1,5 +1,6 @@
 import { isDesignPreview } from "@/lib/design-preview";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { useHomepageMotion } from "@/hooks/use-homepage-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -8,7 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
 import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
 import { trackLead } from "@/lib/analytics";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowDown, ArrowRight, Pause, Play, Phone } from "lucide-react";
 import type { ArticleSummary } from "@/lib/content";
 import homepageContent from "virtual:homepage-content";
 
@@ -23,6 +24,9 @@ const services = [
 ];
 
 const Homepage = () => {
+  const page = useRef<HTMLDivElement>(null);
+  const [motionPaused, setMotionPaused] = useState(false);
+  useHomepageMotion(page, motionPaused);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -148,16 +152,24 @@ const Homepage = () => {
   ];
 
   return (
-    <div className="homepage-page">
+    <div className="homepage-page" ref={page}>
       <SEO title="Commercial Lending Solutions Australia | Emet Capital"
         description="Commercial lending solutions for Australian businesses, investors, and developers, including private lending, bridging finance, and property-backed funding."
         canonical="/" keywords="commercial lending australia, business finance, private lending, bridging finance, commercial property loans, commercial finance brokers"
         schemas={[generateOrganizationSchema(), generateLocalBusinessSchema()]} />
 
       <section className="home-hero">
+        <svg className="hero-survey" viewBox="0 0 1200 900" fill="none" aria-hidden="true" focusable="false">
+          <g className="hero-survey-lines">{Array.from({length: 40}, (_, index) => {
+            const angle = index * Math.PI / 20;
+            return <line key={index} x1={600 + Math.cos(angle) * 180} y1={380 + Math.sin(angle) * 145} x2={600 + Math.cos(angle) * 1100} y2={380 + Math.sin(angle) * 880} />;
+          })}</g>
+          <path className="hero-survey-register" d="M580 380h40M600 360v40M80 80h30M80 80v30M1120 80h-30M1120 80v30" />
+        </svg>
+        <div className="hero-controls"><span>Commercial finance. Australia-wide.</span><button type="button" className="motion-toggle" aria-pressed={motionPaused} onClick={() => setMotionPaused(value => !value)}>{motionPaused ? <Play aria-hidden="true" /> : <Pause aria-hidden="true" />}{motionPaused ? "Play motion" : "Pause motion"}</button></div>
         <div className="hero-copy">
           <p className="eyebrow">Emet Capital / Commercial finance</p>
-          <h1>Commercial Lending Solutions,<span>Expertly Engineered</span></h1>
+          <h1><span className="hero-title-line">Commercial </span><span className="hero-title-line">Lending Solutions, </span><span className="hero-title-line">Expertly Engineered</span></h1>
         </div>
         <div className="hero-aside">
           <p className="hero-description">Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition</p>
@@ -172,24 +184,26 @@ const Homepage = () => {
           </picture>
           <figcaption>Dandenong, Australia · Representative property imagery</figcaption>
         </figure>
+        <a className="hero-scroll" href="#finance-overview" aria-label="Explore Emet Capital"><ArrowDown aria-hidden="true" /><span>Scroll to explore</span></a>
       </section>
 
-      <section className="home-positioning section-pad">
-        <div className="section-heading"><p className="eyebrow">The right structure</p><h2>Commercial Finance Specialists for Complex Australian Transactions</h2></div>
-        <div className="positioning-copy"><p>Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending. We compare suitable bank, non-bank and private-credit options against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.</p>
+      <section id="finance-overview" className="home-positioning section-pad">
+        <div className="section-heading" data-motion-enter><p className="eyebrow">The right structure</p><h2>Commercial Finance Specialists for Complex Australian Transactions</h2></div>
+        <div className="positioning-copy" data-motion-enter><p>Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending. We compare suitable bank, non-bank and private-credit options against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.</p>
           <div className="proof-line"><div><strong>$150M+</strong><span>Commercial Loans Facilitated</span></div><div><strong>Broker-led</strong><span>Structured Lender Comparison</span></div><div><strong>Australia-wide</strong><span>Commercial Finance Coverage</span></div><div><strong>Case-by-case</strong><span>Lender and Structure Assessment</span></div></div>
         </div>
       </section>
 
       <section className="home-services section-pad">
-        <div className="section-heading"><p className="eyebrow">Finance solutions</p><h2>Commercial Finance Solutions</h2><p>Comprehensive business lending services designed for Australian commercial property investors, developers, and business owners who need fast, flexible financing solutions.</p><Link className="text-link" to="/services">View All Services <ArrowRight aria-hidden="true" /></Link></div>
-        <div className="service-directory">{services.slice(0,3).map((service,index)=><Link to={service.link} className="service-row" key={service.link}><span className="row-number">{String(index+1).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}<details className="content-disclosure"><summary>More commercial finance solutions <span aria-hidden="true">+</span></summary><div>{services.slice(3).map((service,index)=><Link to={service.link} className="service-row" key={service.link}><span className="row-number">{String(index+4).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}</div></details></div>
+        <div className="section-heading" data-motion-enter><p className="eyebrow">Finance solutions</p><h2>Commercial Finance Solutions</h2><p>Comprehensive business lending services designed for Australian commercial property investors, developers, and business owners who need fast, flexible financing solutions.</p><Link className="text-link" to="/services">View All Services <ArrowRight aria-hidden="true" /></Link></div>
+        <figure className="service-portrait" data-motion-enter><img src="/images/design/sydney-commercial-facade.webp" alt="Looking up the geometric facade of a Sydney commercial building" width="1400" height="934" loading="lazy" /><figcaption>Sydney, Australia · Representative property imagery</figcaption></figure>
+        <div className="service-directory">{services.slice(0,3).map((service,index)=><Link to={service.link} className="service-row" data-motion-enter key={service.link}><span className="row-number">{String(index+1).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}<details className="content-disclosure"><summary>More commercial finance solutions <span aria-hidden="true">+</span></summary><div>{services.slice(3).map((service,index)=><Link to={service.link} className="service-row" data-motion-enter key={service.link}><span className="row-number">{String(index+4).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}</div></details></div>
       </section>
 
       <section className="home-stories section-pad">
-        <div className="section-header"><div><p className="eyebrow">Finance in context</p><h2>Illustrative finance scenarios</h2></div><p>Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions.</p></div>
+        <div className="section-header" data-motion-enter><div><p className="eyebrow">Finance in context</p><h2>Illustrative finance scenarios</h2></div><p>Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions.</p></div>
         <div className="scenario-grid">{featuredCaseStudies.slice(0,2).map((study,index)=><article className={index === 0 ? "scenario-feature" : "scenario-feature scenario-feature-light"} key={study.slug}>
-          {study.featuredImage && <figure className="scenario-media"><img src={study.featuredImageThumbnail || study.featuredImage} alt={study.featuredImageAlt || "Representative commercial property"} width={1200} height={630} loading="lazy" /><figcaption>Representative property photography</figcaption></figure>}
+          {study.featuredImage && <figure className="scenario-media" data-motion-enter><img src={study.featuredImageThumbnail || study.featuredImage} alt={study.featuredImageAlt || "Representative commercial property"} width={1200} height={630} loading="lazy" /><figcaption>Representative property photography</figcaption></figure>}
           <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span><span>Illustrative scenario</span></div>
           <Link to={`/resources/case-studies/${study.slug}`} className="scenario-title"><h3>{study.title}</h3><ArrowRight aria-hidden="true" /></Link>
           <div className="scenario-facts"><strong>{study.loanAmount || "Custom Solution"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
@@ -204,13 +218,14 @@ const Homepage = () => {
       </section>
 
       <section className="home-process section-pad">
-        <div className="section-header"><div><p className="eyebrow">A clear process</p><h2>How It Works</h2></div><p>Four simple steps to funding success</p></div>
+        <div className="section-header" data-motion-enter><div><p className="eyebrow">A clear process</p><h2>How It Works</h2></div><p>Four simple steps to funding success</p></div>
+        <div className="process-track" aria-hidden="true"><span className="process-track-fill" /></div>
         <div className="process-steps">{[
           {step:"01",title:"Enquiry",description:"Tell us about your funding requirements"},
           {step:"02",title:"Assessment",description:"We evaluate your proposal and present options"},
           {step:"03",title:"Approval",description:"Fast-track approval with our lender network"},
           {step:"04",title:"Settlement",description:"Quick settlement and funding deployment"}
-        ].map(step=><div className="process-step" key={step.step}><span>{step.step}</span><h3>{step.title}</h3><p>{step.description}</p></div>)}</div>
+        ].map(step=><div className="process-step" data-motion-enter key={step.step}><span>{step.step}</span><h3>{step.title}</h3><p>{step.description}</p></div>)}</div>
         <details className="content-disclosure expertise-disclosure"><summary>Why Emet Capital <span aria-hidden="true">+</span></summary>        <div className="broker-rationale"><div><h2>Why Emet Capital</h2><p>A transaction process built around evidence, lender fit and clear trade-offs</p></div><div className="rationale-list">{[
           {label:"Lender Matching",value:"Structured",detail:"Compared against purpose, security and timing"},
           {label:"Transaction Review",value:"Case-by-case",detail:"No guaranteed approval or settlement claim"},
@@ -227,13 +242,13 @@ const Homepage = () => {
       </section>
 
       <section className="home-articles section-pad">
-        <div className="section-header"><div><p className="eyebrow">Knowledge & perspective</p><h2>Latest Articles & Insights</h2></div><p>Stay informed with our latest guides, case studies, and market insights. Fresh content to help you make smarter financing decisions.</p></div>
-        <div className="insight-grid">{latestArticles.slice(0,3).map(article=><article className="insight-entry" key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div><details className="content-disclosure"><summary>More articles & insights <span aria-hidden="true">+</span></summary><div className="insight-grid">{latestArticles.slice(3).map(article=><article className="insight-entry" key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div></details>
+        <div className="section-header" data-motion-enter><div><p className="eyebrow">Knowledge & perspective</p><h2>Latest Articles & Insights</h2></div><p>Stay informed with our latest guides, case studies, and market insights. Fresh content to help you make smarter financing decisions.</p></div>
+        <div className="insight-grid">{latestArticles.slice(0,3).map(article=><article className="insight-entry" data-motion-enter key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div><details className="content-disclosure"><summary>More articles & insights <span aria-hidden="true">+</span></summary><div className="insight-grid">{latestArticles.slice(3).map(article=><article className="insight-entry" data-motion-enter key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div></details>
         <div className="resource-links"><p>Explore more resources tailored to your needs</p><Link to="/resources/guides" className="text-link">View All Guides <ArrowRight aria-hidden="true" /></Link><Link to="/resources/case-studies" className="text-link">Browse Case Studies <ArrowRight aria-hidden="true" /></Link><Link to="/resources/insights" className="text-link">Market Insights <ArrowRight aria-hidden="true" /></Link></div>
       </section>
 
       <section className="home-contact section-pad">
-        <div className="contact-intro"><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>Tell us about your requirements and we'll be in touch within 24 hours</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:0485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
+        <div className="contact-intro" data-motion-enter><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>Tell us about your requirements and we'll be in touch within 24 hours</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:0485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
         <div className="home-contact-card"><form onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
                 <input type="hidden" name="form-name" value="homepage-contact" />
                 <p hidden>

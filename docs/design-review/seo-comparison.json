@@ -1,5 +1,5 @@
 {
-  "compared_at": "2026-09-05T23:19:25.253000+00:00",
+  "compared_at": "2026-09-05T23:43:53.866550+00:00",
   "baseline_routes": 380,
   "preview_routes_found": 380,
   "route_family_counts": {
@@ -420,7 +420,7 @@
   "routes_not_reachable_from_homepage": [],
   "absolute_production_navigation_links": [],
   "nonself_canonicals": [],
-  "local_image_count": 74,
+  "local_image_count": 75,
   "missing_local_images": [],
   "invalid_local_images": [],
   "pages_with_broken_fragments": [],

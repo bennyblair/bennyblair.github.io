@@ -36,7 +36,8 @@
     "setup:browsers": "playwright install chromium",
     "generate:hero-poster": "tsx scripts/generate-hero-poster.ts",
     "build:review": "node scripts/build-review.mjs",
-    "qa:design": "node scripts/design-qa.mjs"
+    "qa:design": "node scripts/design-qa.mjs",
+    "qa:motion": "node scripts/motion-qa.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
