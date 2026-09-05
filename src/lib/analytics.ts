@@ -1,3 +1,5 @@
+import { isDesignPreview } from "./design-preview";
+
 export const ANALYTICS_IDS = {
   ga4: "G-EWJCDYNTCG",
   googleAds: "AW-16887067533",
@@ -85,7 +87,7 @@ function trackAiReferralLanding(path: string) {
 }
 
 export function trackEvent(name: string, parameters: AnalyticsParameters = {}) {
-  if (typeof window === "undefined" || typeof window.gtag !== "function") return;
+  if (isDesignPreview || typeof window === "undefined" || typeof window.gtag !== "function") return;
   window.gtag("event", name, clean(parameters));
 }
 

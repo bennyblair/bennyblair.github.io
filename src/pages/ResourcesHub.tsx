@@ -115,7 +115,7 @@ const ResourcesHub = () => {
         ]} />
 
         {/* Hero Section */}
-        <div className="text-center max-w-4xl mx-auto mb-16">
+        <div className="page-header text-center max-w-4xl mx-auto mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Commercial Lending Resources
           </h1>

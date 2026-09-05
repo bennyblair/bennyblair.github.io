@@ -1,0 +1,270 @@
+{
+  "/assets/adelaide-cbd-property.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/assets/brisbane-trade.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/assets/gold-coast-surfers-beachfront.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/assets/melbourne-hospitality.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/assets/melbourne-manufacturing.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/assets/newcastle-coastal.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/assets/newcastle-hospitality.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/assets/newcastle-industrial.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/assets/newcastle-medical.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/assets/perth-business-group.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/assets/perth-fremantle-heritage.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/assets/sydney-skyline-hero.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/ato-garnishee-notice-finance-for-australian-businesses.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/ato-tax-debt-finance-for-australian-business-owners.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/balloon-payment-refinance-for-equipment-and-asset-finance.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/business-acquisition-finance.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/caveat-loan-emergency.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/caveat-loan-exit-strategies-how-to-repay-or-refinance.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/caveat-loan-rejected.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/commercial-bridging-loan-rates-2025-update.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/commercial-loan-rates-banks-vs-private-lenders-compared.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/commercial-loan-refinance.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/commercial-property-due-diligence-finance-checklist.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/commercial-property-finance-melbourne-local-expert-hub.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/commercial-property-finance-sydney-local-expert-hub.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/commercial-property-loan-serviceability-how-much-can-you-borrow.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/commercial-property-loans-guide.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/commercial-property-refinance-after-a-bank-decline-in-australia.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/commercial-property-valuation-for-finance-lender-requirements.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/construction-finance-guide.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/debtor-finance-vs-trade-finance-in-australia.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/gst-loan-for-commercial-property-settlement-in-australia.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/how-to-find-the-best-commercial-mortgage-broker-complete-guide.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/intercreditor-agreements-second-mortgage-complexity.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/line-of-credit-equity.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/low-doc-no-doc-commercial-loans-complete-alternative-guide.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/private-lending-vs-bank-lending-which-is-better.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/refinancing-commercial-property-with-a-short-lease-remaining.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/second-mortgage-business.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/second-mortgage-interest-rates-current-market-analysis.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/second-mortgage-loan-equity-access.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/subordination-agreement-second-mortgage.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/unsecured-private-lenders-for-business-growth.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/uploads/asset-backed-lending-and-asset-finance.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/uploads/business-acquisition-finance-australia.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/uploads/business-debt-consolidation-australia.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/uploads/business-line-of-credit.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/uploads/commercial-bridging-auction-guide.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/uploads/commercial-finance-rates-2025.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/uploads/commercial-loans-immigrants-expats.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/uploads/commercial-property-development-finance.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/uploads/commercial-property-refinancing-solutions.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/uploads/finding-comparing-private-lenders-loans-2025-guide.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/uploads/hospitality-property-finance-restaurants-hotels-venues.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/uploads/private-cre-lenders-directory.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/uploads/second-mortgage-bad-credit-qualify.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  },
+  "/images/uploads/secondary-mortgage-market-australia.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/uploads/short-term-business-finance.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/uploads/smsf-loans-for-commercial-property.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/uploads/what-is-private-lending-australia.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/uploads/working-capital-loans-for-smes.jpg": {
+    "assetId": "warehouse",
+    "reason": "Commercial premises and adaptive-reuse context for business/asset/hospitality funding; does not claim to depict current industrial activity."
+  },
+  "/images/vacant-commercial-property-refinance-in-australia-what-lenders-look-for.jpg": {
+    "assetId": "office",
+    "reason": "Commercial facade context for valuation, refinance, leasing, and office property funding."
+  },
+  "/images/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.jpg": {
+    "assetId": "commercial",
+    "reason": "Broad commercial property context for acquisition, development and property-secured funding."
+  }
+}

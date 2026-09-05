@@ -33,7 +33,7 @@ type CityPageData = {
 
 const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ data }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted/20">
+    <div className="location-page min-h-screen bg-gradient-to-b from-background via-background to-muted/20">
       <SEO
         title={data.title}
         description={data.description}
@@ -54,9 +54,9 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
           ]}
         />
 
-        <section className="text-center max-w-5xl mx-auto mb-16 pt-4">
+        <section className="page-header location-header text-center max-w-5xl mx-auto mb-16 pt-4">
           <Badge className="mb-4 bg-accent/10 text-accent">{data.city} Commercial Finance</Badge>
-          <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="page-header flex items-center justify-center gap-3 mb-4">
             <MapPin className="h-8 w-8 text-accent" />
             <h1 className="text-4xl lg:text-5xl font-bold">{data.title}</h1>
           </div>

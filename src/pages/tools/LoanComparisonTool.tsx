@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -60,6 +61,7 @@ const LoanComparisonTool = () => {
         />
         <meta name="keywords" content="loan comparison tool, business loan comparison, loan calculator Australia, compare loan offers" />
         <link rel="canonical" href="https://emetcapital.com.au/resources/tools/loan-comparison-tool" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
@@ -71,7 +73,7 @@ const LoanComparisonTool = () => {
           ]} />
 
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
+            <div className="page-header text-center mb-12">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
                 Business Loan Comparison Tool
               </h1>

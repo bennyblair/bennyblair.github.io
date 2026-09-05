@@ -33,6 +33,8 @@ export interface ArticleSummary {
   readingTime: number;
   featuredImage?: string;
   featuredImageAlt?: string;
+  featuredImageCaption?: string;
+  featuredImageThumbnail?: string;
   featured?: boolean;
   loanAmount?: string;
   loanType?: string;

@@ -41,3 +41,6 @@ __pycache__/
 *.njsproj
 *.sln
 *.sw?
+
+# Local visual acceptance captures
+output/playwright/

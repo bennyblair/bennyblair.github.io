@@ -572,7 +572,7 @@ const SimpleGuideArticle = () => {
   if (isComingSoon && !STATIC_CONTENT[slug]) {
     return (
       <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="page-header max-w-4xl mx-auto">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
             { label: "Resources", href: "/resources" },
@@ -608,7 +608,7 @@ const SimpleGuideArticle = () => {
     // This ensures scheduled articles show the right message
     return (
       <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="page-header max-w-4xl mx-auto">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
             { label: "Resources", href: "/resources" },
@@ -647,7 +647,7 @@ const SimpleGuideArticle = () => {
         ]} />
 
         {/* Article Header */}
-        <header className="mb-8">
+        <header className="page-header mb-8">
           <div className="mb-4">
             <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
               {article.category}

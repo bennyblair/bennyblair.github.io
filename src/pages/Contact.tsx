@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -44,10 +45,10 @@ const Contact = () => {
 
       const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
       
-      if (isDevelopment) {
+      if (isDevelopment || isDesignPreview) {
         toast({
-          title: "Development Mode",
-          description: "Form submission simulated. Deploy to Netlify to test actual submission.",
+          title: isDesignPreview ? "Preview only" : "Development Mode",
+          description: isDesignPreview ? "No enquiry was sent. This is a private design preview." : "Form submission simulated. Deploy to Netlify to test actual submission.",
         });
       } else {
         // In production, submit to Netlify
@@ -139,7 +140,7 @@ const Contact = () => {
         <Breadcrumbs items={breadcrumbItems} />
         
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="page-header text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Get Your Commercial Lending Quote
           </h1>

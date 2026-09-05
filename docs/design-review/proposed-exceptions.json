@@ -1,0 +1,81 @@
+{
+  "status": "Verified against final built comparison; proposed copy and image corrections remain subject to owner design review before production.",
+  "content_policy": "No substantive content removals are accepted. Every unmatched paragraph, service description, article summary, story title/outcome/amount, disclosure, FAQ question/answer or contact detail must be restored or explicitly reviewed.",
+  "text_exceptions": [
+    {
+      "path": "/",
+      "kind": "section heading and illustration disclosure",
+      "before": [
+        "Success Stories",
+        "Real deals, real results, real growth"
+      ],
+      "after": [
+        "Illustrative finance scenarios",
+        "Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions."
+      ],
+      "reason": "Aligns the section introduction with the existing illustrative status of the underlying stories. Original story titles, amounts, locations, outcomes and routes remain.",
+      "substantive_loss": false
+    },
+    {
+      "path": "/",
+      "kind": "badge capitalization",
+      "before": [
+        "NEW"
+      ],
+      "after": [
+        "New"
+      ],
+      "reason": "Visual style only; preserves the same existing seven-day freshness rule.",
+      "substantive_loss": false
+    }
+  ],
+  "presentation_changes_requiring_no_text_exception": [
+    "Reorder existing sections and move nationwide coverage next to broker expertise.",
+    "Combine proof labels and descriptions into text rows while keeping all values and wording.",
+    "Place four secondary services, six secondary scenario records, three secondary latest articles, and broker expertise inside native details disclosures. Their text and links must remain present in raw HTML and work without JavaScript.",
+    "Add Commercial Property Finance to the homepage with its existing service destination.",
+    "Add non-substantive eyebrow labels, representative-photo caption and repeated illustration labels.",
+    "Change scenario loan amounts from heading elements to strong text while retaining the amounts.",
+    "Make the existing phone number and email address actionable links while retaining the displayed details."
+  ],
+  "technical_exceptions": [
+    {
+      "field": "robots",
+      "scope": "private preview build only",
+      "allowed": "Existing indexable pages receive noindex. Canonicals continue to point to their exact production routes.",
+      "required_verification": "A normal production build must retain existing indexability. Test owner-only access separately from robots tags."
+    },
+    {
+      "field": "image URLs in visible markup, Open Graph, Twitter and JSON-LD",
+      "scope": "explicit image mapping repairs and the approved design photograph",
+      "allowed": "Change only image fields to existing, decoded, suitable image assets. Prefer restoring each original broken asset path.",
+      "required_verification": "Use production-baseline/broken-images.json for the exact original defect set; reject unrelated schema changes or missing assets."
+    },
+    {
+      "field": "FAQ heading IDs and TOC href fragments",
+      "scope": "223 guides with broken FAQ links",
+      "allowed": "Align each FAQ heading with the original markdown heading slug; retain the working legacy faqs alias.",
+      "required_verification": "All FAQ questions and answers are retained; no dangling fragment remains; no duplicate ID is introduced."
+    },
+    {
+      "field": "Timeline heading ID and TOC href",
+      "scope": "/resources/guides/private-mortgage-lenders-australia-directory",
+      "allowed": "Map the reserved DOM name timeline to section-timeline consistently in the heading renderer and TOC.",
+      "required_verification": "Original Timeline heading and paragraph remain; the TOC resolves to the heading."
+    },
+    {
+      "field": "article body additions",
+      "scope": "case-study FAQs present in markdown but previously discarded by the shared converter",
+      "allowed": "Restore the existing source FAQ content to the case-study body.",
+      "required_verification": "No other paragraph changes, invented answers or duplicate FAQ sections."
+    }
+  ],
+  "not_exempt": [
+    "Any change to canonical, title, meta description or H1.",
+    "Any lost sitemap route, new orphan route or route no longer reachable from the homepage.",
+    "Any removed substantive paragraph, FAQ, service description, story data, article summary, number or disclosure.",
+    "Any new absolute production navigation link escaping the private preview.",
+    "Any production-build noindex introduced by preview protection.",
+    "Any JSON-LD change outside explicit image repairs."
+  ]
+}

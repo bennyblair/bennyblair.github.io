@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div style={{padding: '40px', maxWidth: '600px', margin: '0 auto'}}>
+    <div className="page-header" style={{padding: '40px', maxWidth: '600px', margin: '0 auto'}}>
       <h1>Contact Us</h1>
       <p>Get in touch for your commercial lending needs.</p>
       <div style={{margin: '20px 0'}}>

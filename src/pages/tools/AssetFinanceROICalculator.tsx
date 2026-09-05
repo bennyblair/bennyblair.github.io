@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -65,6 +66,7 @@ const AssetFinanceROICalculator = () => {
         <meta name="description" content="Calculate return on investment for equipment purchases. Factor in depreciation, tax benefits, and operational savings to make informed asset finance decisions." />
         <meta name="keywords" content="asset finance ROI calculator, equipment finance returns, asset finance Australia, equipment ROI, depreciation calculator" />
         <link rel="canonical" href="https://emetcapital.com.au/resources/tools/asset-finance-roi-calculator" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
@@ -76,7 +78,7 @@ const AssetFinanceROICalculator = () => {
           ]} />
 
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
+            <div className="page-header text-center mb-12">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
                 Asset Finance ROI Calculator
               </h1>

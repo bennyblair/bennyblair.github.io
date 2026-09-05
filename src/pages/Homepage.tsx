@@ -1,41 +1,28 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { isDesignPreview } from "@/lib/design-preview";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Progress } from "@/components/ui/progress";
-import { ScrollReveal } from "@/components/ui/scroll-reveal";
-import { TiltCard } from "@/components/ui/tilt-card";
 import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
 import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
 import { trackLead } from "@/lib/analytics";
-import { 
-  Building2, 
-  TrendingUp, 
-  Shield, 
-  Clock,
-  CheckCircle,
-  ArrowLeft,
-  ArrowRight,
-  Phone,
-  Mail,
-  MapPin,
-  Zap,
-  Target,
-  Award,
-  Users,
-  DollarSign
-} from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
+import type { ArticleSummary } from "@/lib/content";
+import homepageContent from "virtual:homepage-content";
 
-import { getContentSummaries, isRoutableContentArticle, type ArticleSummary } from "@/lib/content";
+const services = [
+  { title: "Commercial Property Finance", description: "Property-backed pathways for commercial purchases, refinancing and business-purpose equity release.", link: "/services/commercial-property-finance" },
+  { title: "Property Development Finance", description: "Construction and development funding for residential, commercial, and mixed-use projects across Australia.", link: "/services/commercial-property-development" },
+  { title: "Bridging Finance", description: "Short-term funding for property acquisition, settlements, and time-sensitive commercial opportunities.", link: "/services/bridging-finance" },
+  { title: "Private Lending", description: "Fast, flexible commercial lending solutions when traditional banks can't meet your timeline or requirements.", link: "/services/private-lending" },
+  { title: "Asset-Backed Lending", description: "Leverage your commercial property, equipment, or business assets to secure competitive funding solutions.", link: "/services/asset-backed-lending" },
+  { title: "Caveat Loans", description: "Ultra-fast property-secured funding with settlements possible within 24-72 hours for urgent business needs.", link: "/services/caveat-loans" },
+  { title: "Business Acquisition", description: "Funding solutions for purchasing existing businesses, management buyouts, and strategic acquisitions.", link: "/services/business-acquisition" },
+];
 
 const Homepage = () => {
-  const storiesRef = useRef<HTMLDivElement>(null);
-  const processRef = useRef<HTMLElement>(null);
-  const [processActive, setProcessActive] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -48,54 +35,7 @@ const Homepage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const { latestArticles, featuredCaseStudies } = useMemo(() => {
-    const guides = getContentSummaries('guides');
-    const caseStudies = getContentSummaries('case-studies');
-    const latest = [
-      ...guides
-        .filter(article => isRoutableContentArticle('guides', article.slug))
-        .map(article => ({ ...article, contentType: 'guides' as const })),
-      ...caseStudies
-        .filter(article => isRoutableContentArticle('case-studies', article.slug))
-        .map(article => ({ ...article, contentType: 'case-studies' as const })),
-    ]
-      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-      .slice(0, 6);
-
-    return {
-      latestArticles: latest,
-      featuredCaseStudies: caseStudies
-        .filter(article => isRoutableContentArticle('case-studies', article.slug))
-        .slice(0, 8),
-    };
-  }, []);
-
-  useEffect(() => {
-    const section = processRef.current;
-    if (!section) return;
-
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      return;
-    }
-
-    const observer = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) return;
-      setProcessActive(true);
-      observer.unobserve(section);
-    }, { threshold: 0.28 });
-
-    observer.observe(section);
-    return () => observer.disconnect();
-  }, []);
-
-  const scrollStories = (direction: -1 | 1) => {
-    const rail = storiesRef.current;
-    if (!rail) return;
-    rail.scrollBy({
-      left: direction * Math.max(320, rail.clientWidth * 0.82),
-      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
-    });
-  };
+  const { latestArticles, featuredCaseStudies } = homepageContent;
 
   // Helper function to check if article is new (within 7 days)
   const isNewArticle = (date: string) => {
@@ -131,12 +71,12 @@ const Homepage = () => {
       // Check if we're in development mode
       const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
       
-      if (isDevelopment) {
+      if (isDevelopment || isDesignPreview) {
         // In development, just simulate success
-        console.log('Development mode - form data:', formData);
+        // Do not log personal enquiry details.
         toast({
-          title: "Development Mode",
-          description: "Form submission simulated. Deploy to Netlify to test actual submission.",
+          title: isDesignPreview ? "Preview only" : "Development Mode",
+          description: isDesignPreview ? "No enquiry was sent. This is a private design preview." : "Form submission simulated. Deploy to Netlify to test actual submission.",
         });
       } else {
         // In production, submit to Netlify
@@ -208,531 +148,93 @@ const Homepage = () => {
   ];
 
   return (
-    <div className="homepage-page min-h-screen bg-background text-foreground">
-      <SEO 
-        title="Commercial Lending Solutions Australia | Emet Capital"
+    <div className="homepage-page">
+      <SEO title="Commercial Lending Solutions Australia | Emet Capital"
         description="Commercial lending solutions for Australian businesses, investors, and developers, including private lending, bridging finance, and property-backed funding."
-        canonical="/"
-        keywords="commercial lending australia, business finance, private lending, bridging finance, commercial property loans, commercial finance brokers"
-        schemas={[generateOrganizationSchema(), generateLocalBusinessSchema()]}
-      />
-      
-      {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
-        {/* The visible hero artwork is the LCP asset. Render it directly so the
-            browser does not download a competing poster and video first. */}
-        <div className="absolute inset-0">
-          <picture aria-hidden="true">
-            <source media="(max-width: 560px)" srcSet="/images/emet-abstract-hero-mobile.jpg" />
-            <img
-              src="/images/emet-abstract-hero.jpg"
-              alt=""
-              width="1600"
-              height="900"
-              loading="eager"
-              decoding="sync"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
+        canonical="/" keywords="commercial lending australia, business finance, private lending, bridging finance, commercial property loans, commercial finance brokers"
+        schemas={[generateOrganizationSchema(), generateLocalBusinessSchema()]} />
+
+      <section className="home-hero">
+        <div className="hero-copy">
+          <p className="eyebrow">Emet Capital / Commercial finance</p>
+          <h1>Commercial Lending Solutions,<span>Expertly Engineered</span></h1>
+        </div>
+        <div className="hero-aside">
+          <p className="hero-description">Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition</p>
+          <div className="hero-actions">
+            <Link className="action-link action-light" to="/contact">Get Your Quote <ArrowRight aria-hidden="true" /></Link>
+            <a className="phone-link" href="tel:0485952651"><Phone aria-hidden="true" />0485 952 651</a>
+          </div>
+        </div>
+        <figure className="hero-image">
+          <picture><source media="(max-width: 640px)" srcSet="/images/design/commercial-building-mobile.webp" />
+            <img src="/images/design/commercial-building.webp" alt="Glass and steel commercial building in Dandenong, Australia" width="1400" height="1050" fetchPriority="high" loading="eager" />
           </picture>
-        </div>
-        
-        {/* Glassmorphism overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/60" />
-        
-        {/* Hero content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
-              Commercial Lending Solutions,
-              <span className="gradient-text block mt-2 leading-normal">
-                Expertly Engineered
-              </span>
-            </h1>
-          </div>
-          
-          <div className="fade-in-up" style={{ animationDelay: '700ms' }}>
-            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
-              Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition
-            </p>
-          </div>
-          
-          <div className="scale-in" style={{ animationDelay: '1200ms' }}>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button asChild size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
-                <Link to="/contact">
-                  Get Your Quote
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              </Button>
-              
-              <Button asChild variant="outline" size="lg" className="border-2 border-accent/30 text-accent hover:bg-accent/10 px-10 py-7 text-lg rounded-2xl">
-                <a href="tel:0485952651">
-                  <Phone className="mr-2 h-5 w-5" />
-                  0485 952 651
-                </a>
-              </Button>
-            </div>
-          </div>
+          <figcaption>Dandenong, Australia · Representative property imagery</figcaption>
+        </figure>
+      </section>
+
+      <section className="home-positioning section-pad">
+        <div className="section-heading"><p className="eyebrow">The right structure</p><h2>Commercial Finance Specialists for Complex Australian Transactions</h2></div>
+        <div className="positioning-copy"><p>Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending. We compare suitable bank, non-bank and private-credit options against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.</p>
+          <div className="proof-line"><div><strong>$150M+</strong><span>Commercial Loans Facilitated</span></div><div><strong>Broker-led</strong><span>Structured Lender Comparison</span></div><div><strong>Australia-wide</strong><span>Commercial Finance Coverage</span></div><div><strong>Case-by-case</strong><span>Lender and Structure Assessment</span></div></div>
         </div>
       </section>
 
-      {/* Commercial Finance Expertise Overview */}
-      <section className="home-expertise py-20 px-4 bg-muted/30">
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal animation="fade-up">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                Commercial Finance Specialists for Complex Australian Transactions
-              </h2>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-                Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending.
-                We compare suitable bank, non-bank and private-credit options against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.
-              </p>
-            </div>
-          </ScrollReveal>
-          
-          {/* Market Expertise Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
-            <ScrollReveal animation="fade-up" delay={0}>
-              <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  $150M+
-                </div>
-                <div className="text-sm text-muted-foreground">Commercial Loans Facilitated</div>
-              </div>
-            </ScrollReveal>
-            <ScrollReveal animation="fade-up" delay={100}>
-              <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  Broker-led
-                </div>
-                <div className="text-sm text-muted-foreground">Structured Lender Comparison</div>
-              </div>
-            </ScrollReveal>
-            <ScrollReveal animation="fade-up" delay={200}>
-              <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  Australia-wide
-                </div>
-                <div className="text-sm text-muted-foreground">Commercial Finance Coverage</div>
-              </div>
-            </ScrollReveal>
-            <ScrollReveal animation="fade-up" delay={300}>
-              <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-accent mb-2">
-                  Case-by-case
-                </div>
-                <div className="text-sm text-muted-foreground">Lender and Structure Assessment</div>
-              </div>
-            </ScrollReveal>
-          </div>
-
-          {/* Australian Market Focus */}
-          <div className="bg-card/50 backdrop-blur-sm rounded-3xl p-8 mb-16">
-            <h3 className="text-2xl font-bold mb-6 text-center">Nationwide Commercial Finance Coverage</h3>
-            <p className="text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto">
-              Operating across Sydney, Melbourne, Brisbane, Perth, Adelaide, and regional centers, we understand the unique challenges 
-              of Australian commercial property markets. From CBD high-rise developments to suburban commercial acquisitions, 
-              our local expertise ensures your finance solution is tailored to Australian regulations, market conditions, and business requirements.
-            </p>
-          </div>
-        </div>
+      <section className="home-services section-pad">
+        <div className="section-heading"><p className="eyebrow">Finance solutions</p><h2>Commercial Finance Solutions</h2><p>Comprehensive business lending services designed for Australian commercial property investors, developers, and business owners who need fast, flexible financing solutions.</p><Link className="text-link" to="/services">View All Services <ArrowRight aria-hidden="true" /></Link></div>
+        <div className="service-directory">{services.slice(0,3).map((service,index)=><Link to={service.link} className="service-row" key={service.link}><span className="row-number">{String(index+1).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}<details className="content-disclosure"><summary>More commercial finance solutions <span aria-hidden="true">+</span></summary><div>{services.slice(3).map((service,index)=><Link to={service.link} className="service-row" key={service.link}><span className="row-number">{String(index+4).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}</div></details></div>
       </section>
 
-      {/* Core Commercial Finance Services */}
-      <section className="home-services py-20 px-4">
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal animation="fade-up">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                Commercial Finance <span className="gradient-text">Solutions</span>
-              </h2>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Comprehensive business lending services designed for Australian commercial property investors, 
-                developers, and business owners who need fast, flexible financing solutions.
-              </p>
-            </div>
-          </ScrollReveal>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: Building2,
-                title: "Private Lending",
-                description: "Fast, flexible commercial lending solutions when traditional banks can't meet your timeline or requirements.",
-                link: "/services/private-lending"
-              },
-              {
-                icon: TrendingUp,
-                title: "Bridging Finance",
-                description: "Short-term funding for property acquisition, settlements, and time-sensitive commercial opportunities.",
-                link: "/services/bridging-finance"
-              },
-              {
-                icon: Shield,
-                title: "Asset-Backed Lending",
-                description: "Leverage your commercial property, equipment, or business assets to secure competitive funding solutions.",
-                link: "/services/asset-backed-lending"
-              },
-              {
-                icon: Building2,
-                title: "Property Development Finance",
-                description: "Construction and development funding for residential, commercial, and mixed-use projects across Australia.",
-                link: "/services/commercial-property-development"
-              },
-              {
-                icon: Zap,
-                title: "Caveat Loans",
-                description: "Ultra-fast property-secured funding with settlements possible within 24-72 hours for urgent business needs.",
-                link: "/services/caveat-loans"
-              },
-              {
-                icon: Target,
-                title: "Business Acquisition",
-                description: "Funding solutions for purchasing existing businesses, management buyouts, and strategic acquisitions.",
-                link: "/services/business-acquisition"
-              }
-            ].map((service, index) => (
-              <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
-                <TiltCard className="rounded-2xl h-full">
-                  <Link to={service.link}>
-                    <Card className="premium-card group h-full hover:border-accent/50 transition-colors">
-                      <CardHeader className="text-center pb-4">
-                        <div className="mx-auto mb-6 p-6 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent/20 transition-colors">
-                          <service.icon className="h-10 w-10 text-accent" />
-                        </div>
-                        <CardTitle className="text-xl md:text-2xl mb-4 group-hover:text-accent transition-colors">{service.title}</CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <CardDescription className="text-center text-muted-foreground text-base md:text-lg leading-relaxed">
-                          {service.description}
-                        </CardDescription>
-                      </CardContent>
-                    </Card>
-                  </Link>
-                </TiltCard>
-              </ScrollReveal>
-            ))}
-          </div>
-          
-          <div className="text-center mt-12">
-            <Button asChild variant="outline" size="lg" className="border-border text-foreground hover:bg-muted hover:text-foreground">
-              <Link to="/services">
-                View All Services
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
-        </div>
+      <section className="home-stories section-pad">
+        <div className="section-header"><div><p className="eyebrow">Finance in context</p><h2>Illustrative finance scenarios</h2></div><p>Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions.</p></div>
+        <div className="scenario-grid">{featuredCaseStudies.slice(0,2).map((study,index)=><article className={index === 0 ? "scenario-feature" : "scenario-feature scenario-feature-light"} key={study.slug}>
+          {study.featuredImage && <figure className="scenario-media"><img src={study.featuredImageThumbnail || study.featuredImage} alt={study.featuredImageAlt || "Representative commercial property"} width={1200} height={630} loading="lazy" /><figcaption>Representative property photography</figcaption></figure>}
+          <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span><span>Illustrative scenario</span></div>
+          <Link to={`/resources/case-studies/${study.slug}`} className="scenario-title"><h3>{study.title}</h3><ArrowRight aria-hidden="true" /></Link>
+          <div className="scenario-facts"><strong>{study.loanAmount || "Custom Solution"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
+          {study.outcome && <p>{study.outcome}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
+        </article>)}</div><details className="content-disclosure"><summary>Explore more finance scenarios <span aria-hidden="true">+</span></summary><div className="scenario-grid">{featuredCaseStudies.slice(2).map((study)=><article className={"scenario-entry"} key={study.slug}>
+          <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span><span>Illustrative scenario</span></div>
+          <Link to={`/resources/case-studies/${study.slug}`} className="scenario-title"><h3>{study.title}</h3><ArrowRight aria-hidden="true" /></Link>
+          <div className="scenario-facts"><strong>{study.loanAmount || "Custom Solution"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
+          {study.outcome && <p>{study.outcome}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
+        </article>)}</div></details>
+        <Link className="text-link" to="/resources/case-studies">View All Case Studies <ArrowRight aria-hidden="true" /></Link>
       </section>
 
-      {/* Why Emet Capital */}
-      <section className="home-performance py-20 px-4 bg-gradient-to-b from-transparent to-primary/5">
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal animation="fade-up">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-                Why <span className="gradient-text">Emet Capital</span>
-              </h2>
-              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                A transaction process built around evidence, lender fit and clear trade-offs
-              </p>
-            </div>
-          </ScrollReveal>
-          
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {[
-              { label: "Lender Matching", value: "Structured", detail: "Compared against purpose, security and timing" },
-              { label: "Transaction Review", value: "Case-by-case", detail: "No guaranteed approval or settlement claim" },
-              { label: "Broker Support", value: "Direct", detail: "Commercial-finance guidance from enquiry to settlement" }
-            ].map((metric, index) => (
-              <ScrollReveal key={index} animation="fade-up" delay={index * 150}>
-                <TiltCard className="rounded-2xl h-full">
-                  <Card className="premium-card text-center h-full">
-                    <CardHeader>
-                      <CardTitle className="text-lg text-muted-foreground">{metric.label}</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="text-4xl font-bold gradient-text mb-4">
-                        {metric.value}
-                      </div>
-                      <p className="text-sm text-muted-foreground">
-                        {metric.detail}
-                      </p>
-                    </CardContent>
-                  </Card>
-                </TiltCard>
-              </ScrollReveal>
-            ))}
-          </div>
-          
+      <section className="home-process section-pad">
+        <div className="section-header"><div><p className="eyebrow">A clear process</p><h2>How It Works</h2></div><p>Four simple steps to funding success</p></div>
+        <div className="process-steps">{[
+          {step:"01",title:"Enquiry",description:"Tell us about your funding requirements"},
+          {step:"02",title:"Assessment",description:"We evaluate your proposal and present options"},
+          {step:"03",title:"Approval",description:"Fast-track approval with our lender network"},
+          {step:"04",title:"Settlement",description:"Quick settlement and funding deployment"}
+        ].map(step=><div className="process-step" key={step.step}><span>{step.step}</span><h3>{step.title}</h3><p>{step.description}</p></div>)}</div>
+        <details className="content-disclosure expertise-disclosure"><summary>Why Emet Capital <span aria-hidden="true">+</span></summary>        <div className="broker-rationale"><div><h2>Why Emet Capital</h2><p>A transaction process built around evidence, lender fit and clear trade-offs</p></div><div className="rationale-list">{[
+          {label:"Lender Matching",value:"Structured",detail:"Compared against purpose, security and timing"},
+          {label:"Transaction Review",value:"Case-by-case",detail:"No guaranteed approval or settlement claim"},
+          {label:"Broker Support",value:"Direct",detail:"Commercial-finance guidance from enquiry to settlement"}
+        ].map(item=><div key={item.label}><h3>{item.label}</h3><p><strong>{item.value}.</strong> {item.detail}</p></div>)}</div></div>
+      <div className="home-about">
+        <div className="section-heading"><p className="eyebrow">Commercial expertise</p><h2>Founded on Expertise,<br />Driven by Results</h2><Link className="text-link" to="/about">Learn More About Us <ArrowRight aria-hidden="true" /></Link></div>
+        <div className="about-copy"><p>Our team combines extensive commercial lending experience with a deep understanding of Australia's financial landscape. We've structured complex deals across diverse industries and know what it takes to secure funding when it matters most.</p><div className="about-specialisms"><span><strong>Specialist</strong> Commercial Finance Focus</span><span><strong>Complex</strong> Transaction Experience</span><span><strong>$150M+</strong> Funds Facilitated</span></div>
+          <h3>Nationwide Commercial Finance Coverage</h3><p>Operating across Sydney, Melbourne, Brisbane, Perth, Adelaide, and regional centers, we understand the unique challenges of Australian commercial property markets. From CBD high-rise developments to suburban commercial acquisitions, our local expertise ensures your finance solution is tailored to Australian regulations, market conditions, and business requirements.</p>
         </div>
+      </div>
+
+</details>
       </section>
 
-      {/* Case Studies */}
-      <section className="home-stories py-24 px-4">
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal animation="fade-up">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Success <span className="gradient-text">Stories</span>
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Real deals, real results, real growth
-              </p>
-            </div>
-          </ScrollReveal>
-          
-          <div
-            ref={storiesRef}
-            className="grid success-stories-rail"
-            role="region"
-            aria-label="Success stories"
-          >
-            {featuredCaseStudies.map((study, index) => (
-              <ScrollReveal key={study.slug} animation="fade-up" delay={index * 150}>
-                <TiltCard className="rounded-2xl h-full">
-                  <Link 
-                    to={`/resources/case-studies/${study.slug}`}
-                    className="block h-full"
-                    aria-label={`${study.title} — ${study.loanAmount || "Custom solution"}`}
-                  >
-                    <Card className="premium-card h-full cursor-pointer">
-                  <CardHeader>
-                    <div className="flex items-center gap-4 mb-4">
-                      <Badge className="bg-accent/20 text-accent">
-                        {study.loanType || "Business Finance"}
-                      </Badge>
-                      <Badge variant="outline">
-                        {study.industry || "Business"}
-                      </Badge>
-                    </div>
-                    <CardTitle className="text-3xl gradient-text mb-2">
-                      {study.loanAmount || "Custom Solution"}
-                    </CardTitle>
-                    <p className="text-sm text-muted-foreground">{study.location || ""}</p>
-                  </CardHeader>
-                  <CardContent>
-                    <h3 className="text-lg font-semibold mb-3">{study.title}</h3>
-                    <p className="text-base text-muted-foreground mb-4">{study.outcome}</p>
-                    {study.quote && (
-                      <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
-                        "{study.quote}"
-                      </blockquote>
-                    )}
-                  </CardContent>
-                </Card>
-                  </Link>
-                </TiltCard>
-              </ScrollReveal>
-            ))}
-          </div>
-
-          <div className="success-stories-controls" aria-label="Success story controls">
-            <button type="button" onClick={() => scrollStories(-1)} aria-label="View previous success stories">
-              <ArrowLeft aria-hidden="true" />
-            </button>
-            <span>Scroll to explore more</span>
-            <button type="button" onClick={() => scrollStories(1)} aria-label="View more success stories">
-              <ArrowRight aria-hidden="true" />
-            </button>
-          </div>
-          
-          <div className="text-center mt-12 fade-in-up">
-            <Button 
-              asChild 
-              size="lg"
-              className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
-            >
-              <Link to="/resources/case-studies">
-                View All Case Studies
-              </Link>
-            </Button>
-          </div>
-        </div>
+      <section className="home-articles section-pad">
+        <div className="section-header"><div><p className="eyebrow">Knowledge & perspective</p><h2>Latest Articles & Insights</h2></div><p>Stay informed with our latest guides, case studies, and market insights. Fresh content to help you make smarter financing decisions.</p></div>
+        <div className="insight-grid">{latestArticles.slice(0,3).map(article=><article className="insight-entry" key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div><details className="content-disclosure"><summary>More articles & insights <span aria-hidden="true">+</span></summary><div className="insight-grid">{latestArticles.slice(3).map(article=><article className="insight-entry" key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div></details>
+        <div className="resource-links"><p>Explore more resources tailored to your needs</p><Link to="/resources/guides" className="text-link">View All Guides <ArrowRight aria-hidden="true" /></Link><Link to="/resources/case-studies" className="text-link">Browse Case Studies <ArrowRight aria-hidden="true" /></Link><Link to="/resources/insights" className="text-link">Market Insights <ArrowRight aria-hidden="true" /></Link></div>
       </section>
 
-      {/* How It Works */}
-      <section
-        ref={processRef}
-        className={`home-process emet-funnel-section py-24 px-4 bg-gradient-to-b from-transparent to-primary/5 ${processActive ? "is-funnel-active" : ""}`}
-      >
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal animation="fade-up">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                How It <span className="gradient-text">Works</span>
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Four simple steps to funding success
-              </p>
-            </div>
-          </ScrollReveal>
-          
-          <div className="grid md:grid-cols-4 gap-8">
-            {[
-              { step: "01", title: "Enquiry", description: "Tell us about your funding requirements" },
-              { step: "02", title: "Assessment", description: "We evaluate your proposal and present options" },
-              { step: "03", title: "Approval", description: "Fast-track approval with our lender network" },
-              { step: "04", title: "Settlement", description: "Quick settlement and funding deployment" }
-            ].map((step, index) => (
-              <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
-                <div className="text-center group">
-                  <TiltCard className="rounded-2xl">
-                    <div className="premium-card p-8 mb-4">
-                      <div className="text-4xl font-bold mb-4">{step.step}</div>
-                      <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                      <p className="text-muted-foreground">{step.description}</p>
-                    </div>
-                  </TiltCard>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Latest Articles */}
-      <section className="home-articles py-24 px-4 bg-background text-foreground">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="fade-in-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Latest Articles & Insights
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Stay informed with our latest guides, case studies, and market insights. 
-                Fresh content to help you make smarter financing decisions.
-              </p>
-            </div>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {latestArticles.map((article, index) => (
-              <div key={article.slug} className={`fade-in-up delay-${index * 100}`}>
-                <Card className="h-full hover:shadow-xl transition-all duration-300 border-border bg-transparent text-card-foreground">
-                  <CardHeader className="pb-3">
-                    <div className="flex items-start justify-between gap-3 mb-2">
-                      <Badge variant="outline" className="text-xs font-medium border-border text-muted-foreground">
-                        {article.category}
-                      </Badge>
-                      {isNewArticle(article.date) && (
-                        <Badge variant="outline" className="home-new-badge border-border text-foreground text-xs font-medium">
-                          NEW
-                        </Badge>
-                      )}
-                    </div>
-                    <CardTitle className="text-lg line-clamp-2 leading-tight text-foreground transition-colors">
-                      <Link 
-                        to={getArticleUrl(article)}
-                        className="block"
-                      >
-                        {article.title}
-                      </Link>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="pt-0">
-                    <p className="text-sm text-muted-foreground line-clamp-3 mb-4">
-                      {article.description}
-                    </p>
-                    <div className="flex items-center justify-between text-xs text-muted-foreground">
-                      <span>{article.author}</span>
-                      <span>{new Date(article.date).toLocaleDateString('en-AU')}</span>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
-          </div>
-          
-          <div className="home-article-cta text-center mt-12">
-            <div className="fade-in-up delay-600">
-              <p className="text-muted-foreground mb-6">
-                Explore more resources tailored to your needs
-              </p>
-              <div className="home-article-actions flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button asChild size="lg" className="min-w-[160px] bg-accent hover:bg-accent-dark text-accent-foreground">
-                  <Link to="/resources/guides">
-                    View All Guides
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-border text-foreground hover:bg-muted hover:text-foreground">
-                  <Link to="/resources/case-studies">
-                    Browse Case Studies
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[160px] border-border text-foreground hover:bg-muted hover:text-foreground">
-                  <Link to="/resources/insights">
-                    Market Insights
-                  </Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* About Us */}
-      <section className="home-about py-24 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="max-w-4xl mx-auto text-center">
-            <ScrollReveal animation="fade-up">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Founded on Expertise,
-                <span className="gradient-text block">
-                  Driven by Results
-                </span>
-              </h2>
-              <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
-                Our team combines extensive commercial lending experience with a deep understanding 
-                of Australia's financial landscape. We've structured complex deals across diverse 
-                industries and know what it takes to secure funding when it matters most.
-              </p>
-            </ScrollReveal>
-              
-              <div className="grid sm:grid-cols-3 gap-8 mb-12">
-                {[
-                  { icon: Award, label: "Specialist", description: "Commercial Finance Focus" },
-                  { icon: Users, label: "Complex", description: "Transaction Experience" },
-                  { icon: DollarSign, label: "$150M+", description: "Funds Facilitated" }
-                ].map((stat, index) => (
-                  <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
-                    <div className="text-center">
-                      <stat.icon className="h-10 w-10 text-accent mx-auto mb-4" />
-                      <div className="text-3xl font-bold gradient-text">{stat.label}</div>
-                      <div className="text-base text-muted-foreground">{stat.description}</div>
-                    </div>
-                  </ScrollReveal>
-                ))}
-              </div>
-              
-              <Button asChild className="bg-accent hover:bg-accent-light text-accent-foreground hover-lift">
-                <Link to="/about">
-                  Learn More About Us
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Form */}
-      <section className="home-contact py-24 px-4 bg-gradient-to-b from-transparent to-primary/10">
-        <div className="max-w-4xl mx-auto">
-          <ScrollReveal animation="fade-up">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Ready to <span className="gradient-text">Get Started?</span>
-              </h2>
-              <p className="text-xl text-muted-foreground">
-                Tell us about your requirements and we'll be in touch within 24 hours
-              </p>
-            </div>
-          </ScrollReveal>
-          
-          <Card className="home-contact-card premium-card">
-            <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
+      <section className="home-contact section-pad">
+        <div className="contact-intro"><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>Tell us about your requirements and we'll be in touch within 24 hours</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:0485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
+        <div className="home-contact-card"><form onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
                 <input type="hidden" name="form-name" value="homepage-contact" />
                 <p hidden>
                   <label htmlFor="homepage-bot-field">Do not fill this out</label>
@@ -841,28 +343,9 @@ const Homepage = () => {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </div>
-              </form>
-            </CardContent>
-          </Card>
-          
-          {/* Contact Info */}
-          <div className="home-contact-details grid md:grid-cols-3 gap-8 mt-16 text-center">
-            {[
-              { icon: Phone, title: "Call Us", content: "0485 952 651" },
-              { icon: Mail, title: "Email Us", content: "enquiry@emetcapital.com.au" },
-              { icon: MapPin, title: "Australia Wide", content: "Serving all states & territories" }
-            ].map((contact, index) => (
-              <div key={index} className="premium-card p-6 hover-lift">
-                <contact.icon className="h-8 w-8 text-accent mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">{contact.title}</h3>
-                <p className="text-muted-foreground">{contact.content}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+              </form></div>
       </section>
     </div>
   );
 };
-
 export default Homepage;

@@ -5,13 +5,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-card border-t border-border mt-auto">
+    <footer className="site-footer border-t border-border mt-auto">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="footer-grid">
           {/* Brand Column */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-accent">Emet Capital</span>
+            <Link to="/" className="brand"><span className="brand-mark" aria-hidden="true" />
+              <span>Emet Capital</span>
             </Link>
             <p className="text-muted-foreground text-sm">
               Specialised commercial lending solutions for Australian businesses and property investors.

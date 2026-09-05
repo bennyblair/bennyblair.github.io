@@ -18,6 +18,7 @@ export interface LinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>,
 }
 
 export const Link = forwardRef<HTMLAnchorElement, LinkProps>(({ to, children, ...props }, ref) => {
+  to = to.replace(/^https?:\/\/(?:www\.)?emetcapital\.com\.au(?=\/|$)/, "") || "/";
   if (/^(?:https?:|mailto:|tel:)/.test(to)) {
     return (
       <a ref={ref} href={to} {...props}>

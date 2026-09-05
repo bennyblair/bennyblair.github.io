@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Clock, User, CheckCircle, ArrowRight, Star, Calendar } from "lucide-react";
 import { getArticleBySlug, getContentFiles, isArticleComingSoon, type Article, type ArticleSummary } from "@/lib/content";
-import { convertMarkdownToHtml, extractTableOfContents, extractFAQs, stripFirstHeading, type TableOfContentsItem, type FAQItem } from "@/lib/markdown-converter";
+import { convertMarkdownToHtml, getFaqHeadingId, extractTableOfContents, extractFAQs, stripFirstHeading, type TableOfContentsItem, type FAQItem } from "@/lib/markdown-converter";
 import FAQSection from "@/components/FAQSection";
 import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
@@ -124,7 +124,7 @@ const GuideArticle = () => {
     return (
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="text-center">
+          <div className="page-header text-center">
             <h1 className="text-2xl font-bold text-foreground mb-4">Article Not Found</h1>
             <p className="text-muted-foreground mb-8">
               {error || 'The article you\'re looking for doesn\'t exist.'}
@@ -154,7 +154,7 @@ const GuideArticle = () => {
           ]} />
           
           <div className="text-center max-w-2xl mx-auto">
-            <div className="mb-8">
+            <div className="page-header mb-8">
               <Calendar className="w-16 h-16 text-accent mx-auto mb-4" />
               <h1 className="text-4xl font-bold text-foreground mb-4">Coming Soon</h1>
               <p className="text-xl text-muted-foreground mb-6">
@@ -392,16 +392,16 @@ const GuideArticle = () => {
           {JSON.stringify(faqSchema)}
         </script>
       )}
-      <div className="container mx-auto px-4 py-8 max-w-5xl">
+      <div className="article-container container mx-auto px-4 py-8 max-w-5xl">
         <Breadcrumbs items={getBreadcrumbs()} />
 
         {/* Article Header */}
-        <header className="article-hero mb-12 text-center">
+        <header className="page-header article-hero mb-12 text-center">
           <div className="article-hero-meta inline-flex items-center space-x-4 mb-6">
             <span className="bg-gradient-to-r from-primary to-primary-light text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-sm">
               {article.category}
             </span>
-            <div className="flex items-center text-sm text-muted-foreground space-x-6">
+            <div className="article-publication flex items-center text-sm text-muted-foreground">
               <div className="flex items-center">
                 <Clock className="w-4 h-4 mr-2" />
                 {article.readingTime} min read
@@ -426,7 +426,7 @@ const GuideArticle = () => {
           </p>
 
           {(canonicalAuthor || article.authorName) && (
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
+            <div className="article-authorship mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
               <span>
                 Written by{" "}
                 {authorUrl ? (
@@ -449,15 +449,16 @@ const GuideArticle = () => {
         </header>
 
         {article.featuredImage && (
-          <figure className="mb-12 overflow-hidden rounded-2xl border bg-muted shadow-sm">
+          <figure className="article-image">
             <img
               src={article.featuredImage}
               alt={article.featuredImageAlt || article.title}
               width={1200}
               height={630}
-              loading="eager"
+              loading="lazy"
               className="h-auto w-full object-cover"
             />
+            {article.featuredImageCaption && <figcaption>{article.featuredImageCaption}</figcaption>}
           </figure>
         )}
 
@@ -487,13 +488,13 @@ const GuideArticle = () => {
         }`}>
           {/* Main Content */}
           <article className={`article-main ${slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-9' : 'lg:col-span-8'}`}>
-            <Card className="p-8 shadow-lg">
+            <Card className="article-body-panel p-8">
               <div 
                 ref={articleRef}
                 className="article-content space-y-8"
               >
                 <div dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent) }} />
-                {faqs.length > 0 && <FAQSection faqs={faqs} />}
+                {faqs.length > 0 && <FAQSection faqs={faqs} id={getFaqHeadingId(article.content)} />}
               </div>
             </Card>
           </article>

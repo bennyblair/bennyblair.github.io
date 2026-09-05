@@ -1,7 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
 import { spawn } from "node:child_process";
-import postcss, { type ChildNode } from "postcss";
 import { chromium, type Browser, type Page } from "playwright";
 import { buildContentIndex } from "./lib/content-index.mjs";
 import { getIndexableStaticRoutes, isRedirectSource } from "../src/config/site-route-manifest";
@@ -14,11 +13,6 @@ const concurrency = Math.max(1, Number(process.env.PRERENDER_CONCURRENCY || 6));
 
 type RenderRoute = { path: string; pageType: string };
 type RenderFailure = { path: string; message: string };
-type CssCoverageEntry = {
-  url: string;
-  text: string;
-  ranges: Array<{ start: number; end: number }>;
-};
 
 function getRoutes(): RenderRoute[] {
   const content = buildContentIndex(repoRoot);
@@ -63,118 +57,13 @@ function outputPath(routePath: string) {
   return path.join(distDir, routePath.replace(/^\//, ""), "index.html");
 }
 
-function deferHydrationUntilAfterCriticalPaint(html: string) {
-  return html.replace(
-    /<script\s+type="module"[^>]*\ssrc="([^"]*\/assets\/index-[^"]+\.js)"[^>]*><\/script>/,
-    (_script, source: string) =>
-      `<script>(()=>{const start=()=>import(${JSON.stringify(source)}).catch(console.error);` +
-      `const idle=()=>("requestIdleCallback"in window?requestIdleCallback(start,{timeout:1200}):setTimeout(start,0));` +
-      `if(document.readyState==="complete")idle();else addEventListener("load",idle,{once:true});})();</script>`,
-  );
-}
-
-function cssFromCoverage(entries: CssCoverageEntry[]) {
-  return entries
-    .filter((entry) => entry.url.startsWith(`${baseUrl}/assets/`))
-    .map((entry) => {
-      const ranges = [...entry.ranges].sort((a, b) => a.start - b.start);
-      const isCovered = (node: ChildNode) => {
-        const start = node.source?.start?.offset;
-        const end = node.source?.end?.offset;
-        if (start === undefined || end === undefined) return false;
-        return ranges.some((range) => range.start <= end && range.end > start);
-      };
-      const cloneCoveredNode = (node: ChildNode): ChildNode | undefined => {
-        if (node.type === "rule") return isCovered(node) ? node.clone() : undefined;
-        if (node.type === "atrule" && node.name === "font-face") return undefined;
-        if (node.type === "atrule" && node.nodes) {
-          const clone = node.clone({ nodes: [] });
-          for (const child of node.nodes) {
-            const coveredChild = cloneCoveredNode(child);
-            if (coveredChild) clone.append(coveredChild);
-          }
-          return clone.nodes?.length ? clone : undefined;
-        }
-        if (node.type === "atrule") return isCovered(node) ? node.clone() : undefined;
-        return undefined;
-      };
-
-      const sourceRoot = postcss.parse(entry.text);
-      const criticalRoot = postcss.root();
-      for (const node of sourceRoot.nodes) {
-        const coveredNode = cloneCoveredNode(node);
-        if (coveredNode) criticalRoot.append(coveredNode);
-      }
-      return criticalRoot.toString();
-    })
-    .join("");
-}
-
-function mergeCriticalCss(...stylesheets: string[]) {
-  const mergedRoot = postcss.root();
-  const seen = new Set<string>();
-  for (const stylesheet of stylesheets) {
-    const root = postcss.parse(stylesheet);
-    for (const node of root.nodes) {
-      const serialized = node.toString();
-      if (seen.has(serialized)) continue;
-      seen.add(serialized);
-      mergedRoot.append(node.clone());
-    }
-  }
-  return mergedRoot.toString();
-}
-
-function inlineHomepageStylesheet(html: string, criticalCss: string) {
-  const stylesheet = html.match(
-    /<link\b(?=[^>]*\brel="stylesheet")(?=[^>]*\bhref="([^"]+)")[^>]*>/i,
-  );
-  const stylesheetHref = stylesheet?.[1];
-  if (!stylesheet || !stylesheetHref?.startsWith("/assets/")) {
-    throw new Error("Unable to locate the built homepage stylesheet for critical inlining.");
-  }
-  if (!criticalCss) throw new Error("Homepage critical CSS coverage was empty.");
-
-  const safeCriticalCss = (
-    `${criticalCss}` +
-    `.homepage-styles-pending .homepage-page>section:not(:first-child),` +
-    `.homepage-styles-pending .site-shell>footer{visibility:hidden}` +
-    `.homepage-styles-pending .site-shell *{animation:none!important;transition:none!important}`
-  ).replaceAll("</style", "<\\/style");
-  const deferredStylesheet =
-    `<script>(()=>{const mobile=matchMedia("(max-width: 560px)").matches;` +
-    `const root=document.documentElement;const reveal=()=>root.classList.remove("homepage-styles-pending");` +
-    `const start=()=>{const link=document.createElement("link");` +
-    `link.rel="stylesheet";link.href=${JSON.stringify(stylesheetHref)};` +
-    `link.crossOrigin="anonymous";link.onload=reveal;link.onerror=reveal;document.head.append(link)};` +
-    `root.classList.add("homepage-styles-pending");if(!mobile){start();return}` +
-    `const afterLoad=()=>requestAnimationFrame(start);` +
-    `if(document.readyState==="complete")afterLoad();` +
-    `else addEventListener("load",afterLoad,{once:true});setTimeout(reveal,4000)})();</script>`;
-  return html.replace(
-    stylesheet[0],
-    `<style data-homepage-styles>${safeCriticalCss}</style>${deferredStylesheet}` +
-      `<noscript>${stylesheet[0]}</noscript>`,
-  );
-}
-
-function finalizePrerenderedHtml(
-  html: string,
-  deferRoutePreloads = false,
-  homepageCriticalCss = "",
-) {
-  const withHomepageStyles = deferRoutePreloads
-    ? inlineHomepageStylesheet(html, homepageCriticalCss)
-    : html;
-  const withoutDeferredRoutePreloads = deferRoutePreloads
-    ? withHomepageStyles.replace(/<link\s+rel="modulepreload"\s+as="script"[^>]*>/gi, "")
-    : withHomepageStyles;
-  const productionHtml = deferHydrationUntilAfterCriticalPaint(withoutDeferredRoutePreloads)
-    .replaceAll(`${baseUrl}/assets/`, "/assets/");
-  if (productionHtml.includes(baseUrl)) {
-    throw new Error(`prerendered HTML contains preview origin ${baseUrl}`);
-  }
-  return productionHtml;
+function finalizePrerenderedHtml(html: string, isHomepage = false) {
+  // Ship the full stylesheet and normal module script: content and navigation
+  // must work immediately, without a gesture-triggered activation phase.
+  let result = html.replaceAll(`${baseUrl}/assets/`, "/assets/");
+  if (!isHomepage) result = result.replace(/<link\b(?=[^>]*rel="preload")(?=[^>]*as="image")[^>]*>/gi, "");
+  if (result.includes(baseUrl)) throw new Error(`prerendered HTML contains preview origin ${baseUrl}`);
+  return result;
 }
 
 async function validateRenderedPage(page: Page, route: RenderRoute) {
@@ -230,7 +119,6 @@ async function configurePage(page: Page) {
 
 async function renderRoute(page: Page, route: RenderRoute) {
   const isHomepage = route.path === "/";
-  let homepageCoverageActive = false;
   try {
     const response = await page.goto(`${baseUrl}${route.path}`, {
       waitUntil: "domcontentloaded",
@@ -246,47 +134,25 @@ async function renderRoute(page: Page, route: RenderRoute) {
     }
 
     const renderedHtml = await page.evaluate(() => {
+      // outerHTML merges adjacent React text nodes. Preserve their boundaries
+      // with the same separator used by React SSR so hydration can attach
+      // without discarding the prerendered homepage.
+      for (const element of document.querySelectorAll("#root *")) {
+        for (const node of [...element.childNodes]) {
+          if (node.nodeType === Node.TEXT_NODE && node.previousSibling?.nodeType === Node.TEXT_NODE) {
+            element.insertBefore(document.createComment(" "), node);
+          }
+        }
+      }
       document.documentElement.dataset.prerenderReady = "false";
       document.documentElement.dataset.prerendered = "true";
       return `<!DOCTYPE html>\n${document.documentElement.outerHTML}`;
     });
-    let homepageCriticalCss = "";
-    if (isHomepage) {
-      await page.evaluate(() => {
-        const homepage = document.querySelector(".homepage-page");
-        if (homepage) [...homepage.children].slice(1).forEach((element) => element.remove());
-        document.querySelector("footer")?.remove();
-      });
-      await page.coverage.startCSSCoverage({ resetOnNavigation: false });
-      homepageCoverageActive = true;
-      await page.evaluate(() => {
-        void document.body.offsetHeight;
-        void getComputedStyle(document.querySelector("main h1")!).color;
-      });
-      await page.waitForTimeout(50);
-      const desktopCss = cssFromCoverage(await page.coverage.stopCSSCoverage());
-      homepageCoverageActive = false;
-      await page.setViewportSize({ width: 390, height: 844 });
-      await page.coverage.startCSSCoverage({ resetOnNavigation: false });
-      homepageCoverageActive = true;
-      await page.evaluate(() => {
-        void document.body.offsetHeight;
-        void getComputedStyle(document.querySelector("main h1")!).color;
-      });
-      await page.waitForTimeout(50);
-      const mobileCss = cssFromCoverage(await page.coverage.stopCSSCoverage());
-      homepageCoverageActive = false;
-      homepageCriticalCss = mergeCriticalCss(desktopCss, mobileCss);
-    }
-
-    const html = finalizePrerenderedHtml(renderedHtml, isHomepage, homepageCriticalCss);
+    const html = finalizePrerenderedHtml(renderedHtml, isHomepage);
     const filePath = outputPath(route.path);
     fs.mkdirSync(path.dirname(filePath), { recursive: true });
     fs.writeFileSync(filePath, html);
   } catch (error) {
-    if (homepageCoverageActive) {
-      await page.coverage.stopCSSCoverage().catch(() => undefined);
-    }
     // Stop a failed navigation/loading operation before the worker reuses this page.
     await page.evaluate(() => window.stop()).catch(() => undefined);
     throw error;
@@ -295,6 +161,7 @@ async function renderRoute(page: Page, route: RenderRoute) {
 
 async function renderNotFound(page: Page) {
   await page.goto(`${baseUrl}/__emet-not-found__`, { waitUntil: "domcontentloaded", timeout: 30_000 });
+  await page.waitForSelector('html[data-prerender-ready="true"]', { timeout: 30_000 });
   await page.waitForSelector("main h1", { timeout: 30_000 });
   const html = finalizePrerenderedHtml(await page.evaluate(() => {
     document.documentElement.dataset.prerenderReady = "false";

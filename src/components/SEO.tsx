@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { normalizeSeoDescription, normalizeSeoTitle } from '@/lib/seo-metadata';
+import { isDesignPreview } from '@/lib/design-preview';
 
 interface SEOProps {
   title: string;
@@ -35,7 +36,7 @@ const SEO = ({
   const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
   const normalizedTitle = normalizeSeoTitle(title);
   const normalizedDescription = normalizeSeoDescription(description);
-  const robots = noindex
+  const robots = noindex || isDesignPreview
     ? "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1";
 

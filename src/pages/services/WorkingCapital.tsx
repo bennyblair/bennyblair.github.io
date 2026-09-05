@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -60,6 +61,7 @@ const WorkingCapital = () => {
         />
         <meta name="keywords" content="working capital, business cash flow, revolving credit, business finance, operational funding" />
         <link rel="canonical" href="https://emetcapital.com.au/services/working-capital" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -71,7 +73,7 @@ const WorkingCapital = () => {
           ]} />
 
           {/* Hero Section */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Cash Flow Solutions</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Working Capital Finance

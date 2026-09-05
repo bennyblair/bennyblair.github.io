@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -41,6 +42,7 @@ const BusinessAcquisition = () => {
         />
         <meta name="keywords" content="business acquisition, business purchase loans, acquisition finance, business loans, commercial finance" />
         <link rel="canonical" href="https://emetcapital.com.au/services/business-acquisition" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -52,7 +54,7 @@ const BusinessAcquisition = () => {
           ]} />
 
           {/* Hero Section */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Business Purchase</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Business Acquisition Finance

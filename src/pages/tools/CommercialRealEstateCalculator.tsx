@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
@@ -83,6 +84,7 @@ const CommercialRealEstateCalculator = () => {
         <meta name="description" content="Calculate commercial real estate loan payments, ROI, and cash flow for Australian investment properties. Professional calculator for commercial property finance." />
         <meta name="keywords" content="commercial real estate loans calculator, commercial lending, investment property finance, Australia" />
         <link rel="canonical" href="https://emetcapital.com.au/resources/tools/commercial-real-estate-calculator" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
@@ -94,7 +96,7 @@ const CommercialRealEstateCalculator = () => {
           ]} />
 
           {/* Header */}
-          <div className="text-center max-w-4xl mx-auto mb-12">
+          <div className="page-header text-center max-w-4xl mx-auto mb-12">
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Commercial Real Estate Loans Calculator
             </h1>

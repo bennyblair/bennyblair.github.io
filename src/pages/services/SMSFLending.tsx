@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -40,6 +41,7 @@ const SMSFLending = () => {
         />
         <meta name="keywords" content="SMSF lending, super fund loans, LRBA, self managed super fund property, SMSF investment" />
         <link rel="canonical" href="https://emetcapital.com.au/services/smsf-lending" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -51,7 +53,7 @@ const SMSFLending = () => {
           ]} />
 
           {/* Hero Section */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Super Fund Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               SMSF Property Lending

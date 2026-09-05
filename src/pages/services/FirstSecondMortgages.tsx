@@ -61,7 +61,7 @@ const FirstSecondMortgages = () => {
           ]} />
 
           {/* Header */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Commercial Property Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Commercial 1st & 2nd Mortgages

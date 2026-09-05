@@ -131,7 +131,7 @@ const Guides = () => {
         <Breadcrumbs items={breadcrumbItems} />
 
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="page-header text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Commercial Lending Guides
           </h1>
@@ -192,7 +192,7 @@ const Guides = () => {
                   <p className="text-lg text-muted-foreground mb-6">
                     {latestArticle.description}
                   </p>
-                  <div className="flex items-center space-x-6 text-sm text-muted-foreground mb-6">
+                  <div className="guide-summary-meta flex items-center text-sm text-muted-foreground mb-6">
                     <div className="flex items-center">
                       <Clock className="w-4 h-4 mr-1" />
                       {latestArticle.readingTime} min read
@@ -241,7 +241,7 @@ const Guides = () => {
                   <p className="text-lg text-muted-foreground mb-6">
                     {featuredGuide.excerpt}
                   </p>
-                  <div className="flex items-center space-x-6 text-sm text-muted-foreground mb-6">
+                  <div className="guide-summary-meta flex items-center text-sm text-muted-foreground mb-6">
                     <div className="flex items-center">
                       <Clock className="w-4 h-4 mr-1" />
                       {featuredGuide.readTime} read
@@ -284,9 +284,9 @@ const Guides = () => {
         </div>
 
         {/* Guides Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="guide-directory">
           {filteredAllGuides.filter(guide => !guide.featured).map((guide) => (
-            <Card key={guide.slug} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
+            <Card key={guide.slug} className="guide-directory-entry group">
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-2">
@@ -302,7 +302,7 @@ const Guides = () => {
                   <BookOpen className="w-5 h-5 text-muted-foreground" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
-                  {guide.title}
+                  <Link to={`/resources/guides/${guide.slug}`}>{guide.title}</Link>
                 </h3>
                 <p className="text-muted-foreground mb-4 text-sm">
                   {guide.excerpt}

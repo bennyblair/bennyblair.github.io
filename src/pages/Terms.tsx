@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { Helmet } from "react-helmet-async";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -8,10 +9,11 @@ const Terms = () => {
         <title>Terms of Service | Emet Capital</title>
         <meta name="description" content="Terms of Service for Emet Capital Pty Ltd. Conditions of use for our website and commercial brokerage services." />
         <link rel="canonical" href="https://emetcapital.com.au/terms" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
-        <div className="container mx-auto px-4 max-w-4xl">
+        <div className="page-header container mx-auto px-4 max-w-4xl">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
             { label: "Terms of Service" }

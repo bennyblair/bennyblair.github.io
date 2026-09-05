@@ -7,10 +7,17 @@ marked.setOptions({
   gfm: true,
 });
 
+// DOMPurify protects the reserved document.timeline property. Use one safe
+// slug for both the heading and its contents link.
+function headingId(text: string): string {
+  const id = text.toLowerCase().replace(/[^\w]+/g, "-");
+  return id === "timeline" ? "section-timeline" : id;
+}
+
 // Custom renderer to add IDs to headings
 const renderer = new marked.Renderer();
 renderer.heading = function({ text, depth }) {
-  const escapedText = text.toLowerCase().replace(/[^\w]+/g, '-');
+  const escapedText = headingId(text);
   return `<h${depth} id="${escapedText}">${text}</h${depth}>`;
 };
 
@@ -27,7 +34,14 @@ export interface FAQItem {
   answer: string;
 }
 
-export function convertMarkdownToHtml(markdown: string): string {
+export function getFaqHeadingId(markdown: string): string {
+  markdown = markdown.replace(/\r\n?/g, "\n");
+  const heading = markdown.match(/^##\s+((?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)\b[^\n]*)/im)?.[1];
+  return heading?.trim().toLowerCase().replace(/[^\w]+/g, '-') || 'faqs';
+}
+
+export function convertMarkdownToHtml(markdown: string, preserveFaq = false): string {
+  markdown = markdown.replace(/\r\n?/g, "\n");
   if (!markdown) return '';
   
   // Remove embedded schema blocks. Page templates generate validated JSON-LD;
@@ -38,7 +52,9 @@ export function convertMarkdownToHtml(markdown: string): string {
   
   // Replace FAQ section with placeholder
   // Matches: ## FAQs, ## Frequently Asked Questions, ## 6. Frequently Asked Questions (FAQ), ## FAQ Section
-  cleanedMarkdown = cleanedMarkdown.replace(/##\s*(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)(?:.*)?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i, '\n<div id="faq-placeholder"></div>\n');
+  if (!preserveFaq && extractFAQs(markdown).length > 0) {
+    cleanedMarkdown = cleanedMarkdown.replace(/##\s*(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)(?:.*)?\s*\n([\s\S]*?)(?=\n## |\n# |$)/i, '\n<div id="faq-placeholder"></div>\n');
+  }
   
   // Convert markdown to HTML
   const rawHtml = marked(cleanedMarkdown) as string;
@@ -46,17 +62,18 @@ export function convertMarkdownToHtml(markdown: string): string {
   // Sanitize the HTML and canonicalise a known legacy link that still exists
   // in old articles. This keeps rendered internal links direct while the
   // original editorial record remains unchanged.
-  return DOMPurify.sanitize(rawHtml).replace(
+  return DOMPurify.sanitize(rawHtml).replace(/href="https?:\/\/(?:www\.)?emetcapital\.com\.au(?=\/|")/g, 'href="').replace(
     /href="(?:https:\/\/(?:www\.)?emetcapital\.com\.au)?\/commercial-property-loans\/?"/g,
     'href="/services/commercial-property-finance"',
   );
 }
 
 export function extractTableOfContents(markdown: string): TableOfContentsItem[] {
+  markdown = markdown.replace(/\r\n?/g, "\n");
   if (!markdown) return [];
   
   const tocItems: TableOfContentsItem[] = [];
-  const lines = markdown.split('\n');
+  const lines = markdown.split(/\r?\n/);
   let inFaqSection = false;
   
   lines.forEach(line => {
@@ -64,7 +81,7 @@ export function extractTableOfContents(markdown: string): TableOfContentsItem[] 
     if (match) {
       const level = match[1].length;
       const text = match[2].trim();
-      const id = text.toLowerCase().replace(/[^\w]+/g, '-');
+      const id = headingId(text);
 
       if (level === 2) {
         inFaqSection = /^(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)\b/i.test(text);
@@ -82,6 +99,7 @@ export function extractTableOfContents(markdown: string): TableOfContentsItem[] 
 }
 
 export function extractFAQs(markdown: string): FAQItem[] {
+  markdown = markdown.replace(/\r\n?/g, "\n");
   if (!markdown) return [];
 
   const cleanedMarkdown = markdown
@@ -114,7 +132,7 @@ export function extractFAQs(markdown: string): FAQItem[] {
   }
   
   // Fallback to bold format (**Question?**)
-  const lines = faqSection.split('\n');
+  const lines = faqSection.split(/\r?\n/);
   let currentFAQ: Partial<FAQItem> = {};
   
   for (const line of lines) {
@@ -153,9 +171,10 @@ export function extractFAQs(markdown: string): FAQItem[] {
 }
 
 export function stripFirstHeading(markdown: string): string {
+  markdown = markdown.replace(/\r\n?/g, "\n");
   if (!markdown) return '';
   
-  const lines = markdown.replace(/^\s*\n/, '').split('\n');
+  const lines = markdown.replace(/^\s*\n/, '').split(/\r?\n/);
   const firstLineIsH1 = /^#\s+/.test(lines[0]);
   
   if (firstLineIsH1) {

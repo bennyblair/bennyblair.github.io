@@ -12,14 +12,16 @@ export interface FAQItem {
 
 interface FAQSectionProps {
   faqs: FAQItem[];
+  id?: string;
 }
 
-const FAQSection = ({ faqs }: FAQSectionProps) => {
+const FAQSection = ({ faqs, id = "faqs" }: FAQSectionProps) => {
   if (!faqs || faqs.length === 0) return null;
 
   return (
     <div className="faq-section">
-      <h2 id="faqs" className="text-2xl font-bold text-foreground mb-6">
+      {id !== "faqs" && <span id="faqs" className="anchor-alias" />}
+      <h2 id={id} className="text-2xl font-bold text-foreground mb-6">
         Frequently asked questions
       </h2>
       

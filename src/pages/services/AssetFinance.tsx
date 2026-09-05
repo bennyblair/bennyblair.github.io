@@ -52,7 +52,7 @@ const AssetFinance = () => {
         
         {/* Hero Section */}
         <section className="mb-12">
-          <div className="text-center max-w-4xl mx-auto">
+          <div className="page-header text-center max-w-4xl mx-auto">
             <Badge variant="secondary" className="mb-4">
               <Building2 className="w-4 h-4 mr-2" />
               Business Growth Finance

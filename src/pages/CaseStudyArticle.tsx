@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useParams } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
@@ -56,7 +57,7 @@ const CaseStudyArticle = () => {
     return (
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-16">
-          <div className="text-center">
+          <div className="page-header text-center">
             <h1 className="text-2xl font-bold text-foreground mb-4">Case Study Not Found</h1>
             <p className="text-muted-foreground mb-8">The case study you're looking for doesn't exist.</p>
             <Link to="/resources/case-studies">
@@ -122,7 +123,7 @@ const CaseStudyArticle = () => {
     "@type": "Article",
     "headline": article.title,
     "description": article.description,
-    "image": article.featuredImage ? `https://emetcapital.com.au${article.featuredImage}` : `https://emetcapital.com.au/images/uploads/${article.slug}.jpg`,
+    "image": new URL(article.featuredImage || "/hero-property-finance-poster.webp", "https://emetcapital.com.au").href,
     "datePublished": article.date,
     "dateModified": reviewedDate,
     "author": articleAuthorSchema,
@@ -165,23 +166,23 @@ const CaseStudyArticle = () => {
         <meta name="keywords" content={article.keywords?.join(", ")} />
         <meta
           name="robots"
-          content={article.noindex ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}
+          content={(article.noindex || isDesignPreview) ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}
         />
         <link rel="canonical" href={`https://emetcapital.com.au/resources/case-studies/${article.slug}`} />
         <meta property="og:title" content={seoTitle} />
         <meta property="og:description" content={seoDescription} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://emetcapital.com.au/resources/case-studies/${article.slug}`} />
-        {article.featuredImage && <meta property="og:image" content={article.featuredImage} />}
+        {article.featuredImage && <meta property="og:image" content={new URL(article.featuredImage, "https://emetcapital.com.au").href} />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={seoTitle} />
         <meta name="twitter:description" content={seoDescription} />
-        {article.featuredImage && <meta name="twitter:image" content={article.featuredImage} />}
+        {article.featuredImage && <meta name="twitter:image" content={new URL(article.featuredImage, "https://emetcapital.com.au").href} />}
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
-        <div className="container mx-auto px-4 py-8 max-w-5xl">
+        <div className="article-container container mx-auto px-4 py-8 max-w-5xl">
           <Breadcrumbs items={breadcrumbItems} />
           <div className="mb-8">
             <Link to="/resources/case-studies" className="inline-flex items-center text-primary hover:underline mb-6">
@@ -190,7 +191,7 @@ const CaseStudyArticle = () => {
             </Link>
           </div>
 
-          <header className="article-hero mb-12 text-center">
+          <header className="page-header article-hero mb-12 text-center">
             <div className="article-hero-meta inline-flex items-center space-x-4 mb-6">
               <span className="bg-gradient-to-r from-primary to-primary-light text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-sm">
                 {article.category || 'Case Study'}
@@ -203,7 +204,7 @@ const CaseStudyArticle = () => {
               {article.description}
             </p>
             {(canonicalAuthor || article.authorName) && (
-              <div className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
+              <div className="article-authorship mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted-foreground">
                 <span>
                   Written by{" "}
                   {authorUrl ? (
@@ -225,14 +226,15 @@ const CaseStudyArticle = () => {
             )}
           </header>
 
-          <div className="grid lg:grid-cols-12 gap-8 mb-12">
-            <article className="lg:col-span-8">
-              <Card className="p-8 shadow-lg">
-                <div ref={articleRef} className="article-content space-y-8" dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent) }} />
+          {article.featuredImage && <figure className="article-image"><img src={article.featuredImage} alt={article.featuredImageAlt || article.title} width={1200} height={630} loading="lazy" />{article.featuredImageCaption && <figcaption>{article.featuredImageCaption}</figcaption>}</figure>}
+          <div className="article-layout grid lg:grid-cols-12 gap-8 mb-12">
+            <article className="article-main lg:col-span-8">
+              <Card className="article-body-panel p-8">
+                <div ref={articleRef} className="article-content space-y-8" dangerouslySetInnerHTML={{ __html: convertMarkdownToHtml(processedContent, true) }} />
               </Card>
             </article>
 
-            <aside className="lg:col-span-4 space-y-6 sticky top-8">
+            <aside className="article-side-rail lg:col-span-4 space-y-6 sticky top-8">
               <Card className="case-study-details-card">
                 <CardHeader>
                   <CardTitle className="flex items-center">

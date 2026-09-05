@@ -44,7 +44,7 @@ const AboutDaniel = () => {
       <div className="container mx-auto px-4 max-w-5xl">
         <Breadcrumbs items={breadcrumbItems} />
 
-        <header className="mb-12">
+        <header className="page-header mb-12">
           <div className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-2 text-sm font-medium text-accent mb-6">
             <UserRound className="h-4 w-4" />
             Director
