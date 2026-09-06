@@ -1,5 +1,4 @@
 import { isDesignPreview } from "./design-preview";
-import { normaliseTransactionPurpose } from "./transactions";
 
 export const ANALYTICS_IDS = {
   ga4: "G-EWJCDYNTCG",
@@ -89,88 +88,26 @@ function trackAiReferralLanding(path: string) {
 
 export function trackEvent(name: string, parameters: AnalyticsParameters = {}) {
   if (isDesignPreview || typeof window === "undefined" || typeof window.gtag !== "function") return;
-  let referrerOrigin = "";
-  try { if (document.referrer) referrerOrigin = new URL(document.referrer).origin; } catch { /* Ignore malformed referrers. */ }
-  try {
-    window.gtag("event", name, clean({
-      page_location: window.location.origin + safeAnalyticsPath(window.location.pathname),
-      page_referrer: referrerOrigin,
-      ...parameters,
-    }));
-  } catch { /* Analytics must never turn an accepted enquiry into a submission error. */ }
-}
-
-const publicAnalyticsPaths = new Set(["/", "/contact"]);
-const landingKey = "emet_landing_v1";
-let landingAttribution: { landing_path: string; landing_category: string } | undefined;
-
-export function registerAnalyticsPaths(paths: string[]) {
-  paths.filter((path) => path.startsWith("/") && !/[?#:*]/.test(path)).forEach((path) => publicAnalyticsPaths.add(path));
-}
-
-/** Retain published route paths only; never query strings, fragments or arbitrary user input. */
-export function safeAnalyticsPath(value: string) {
-  const path = value.split(/[?#]/, 1)[0].replace(/\/$/, "") || "/";
-  return publicAnalyticsPaths.has(path) ? path : "/unknown";
-}
-
-export function landingCategory(path: string) {
-  if (path === "/") return "home";
-  if (path === "/contact") return "contact";
-  if (/caveat/.test(path)) return "caveat";
-  if (/second-mortgage|first-second-mortgage/.test(path)) return "mortgages";
-  if (/bridg/.test(path)) return "bridging";
-  if (/refinanc/.test(path)) return "refinancing";
-  if (/commercial-property|property-development/.test(path)) return "property";
-  if (/private-lend|private-mortgage/.test(path)) return "private_lending";
-  if (path.startsWith("/services/") || path.startsWith("/resources/")) return "other_business_finance";
-  return "other";
-}
-
-export function getLandingAttribution() {
-  if (landingAttribution) return landingAttribution;
-  if (typeof window === "undefined") return { landing_path: "/unknown", landing_category: "other" };
-  let path = safeAnalyticsPath(window.location.pathname);
-  try {
-    const saved = window.sessionStorage.getItem(landingKey);
-    if (saved && safeAnalyticsPath(saved) !== "/unknown") path = safeAnalyticsPath(saved);
-    window.sessionStorage.setItem(landingKey, path);
-  } catch { /* Storage may be unavailable; keep attribution for this page session. */ }
-  landingAttribution = { landing_path: path, landing_category: landingCategory(path) };
-  return landingAttribution;
-}
-
-function enquiryParameters(formName: string, purpose?: string) {
-  return {
-    ...getLandingAttribution(),
-    form_name: formName === "homepage-contact" ? "homepage-contact" : "contact",
-    transaction_purpose: normaliseTransactionPurpose(purpose),
-    enquiry_path: typeof window === "undefined" ? "/unknown" : safeAnalyticsPath(window.location.pathname),
-  };
+  window.gtag("event", name, clean(parameters));
 }
 
 export function trackPageView(path: string, title: string) {
-  if (typeof window === "undefined") return;
-  const safePath = safeAnalyticsPath(path);
-  const pageView = safePath + ":" + title;
+  const pageView = `${path}:${title}`;
   if (pageView === lastPageView) return;
   lastPageView = pageView;
-  getLandingAttribution();
   trackEvent("page_view", {
-    page_location: window.location.origin + safePath,
-    page_path: safePath,
+    page_location: `${window.location.origin}${path}`,
+    page_path: path,
     page_title: title,
   });
-  trackAiReferralLanding(safePath);
+  trackAiReferralLanding(path);
 }
 
-export function trackEnquiryStep(formName: string, purpose?: string) {
-  trackEvent("enquiry_contact_step", enquiryParameters(formName, purpose));
-}
-
-/** Call only after the form endpoint accepts the submission. Clicks and preview runs are not leads. */
-export function trackLead(formName: string, purpose?: string) {
-  trackEvent("generate_lead", enquiryParameters(formName, purpose));
+export function trackLead(formName: string, loanType?: string) {
+  trackEvent("generate_lead", {
+    form_name: formName,
+    finance_type: loanType || "not_provided",
+  });
 }
 
 export function installContactTracking() {
@@ -205,19 +142,17 @@ export function installContactTracking() {
 
     const explicitEvent = link.dataset.analyticsEvent;
     if (explicitEvent) {
-      const url = new URL(link.href);
       trackEvent(explicitEvent, {
-        ...getLandingAttribution(),
-        link_path: url.origin === window.location.origin ? safeAnalyticsPath(url.pathname) : undefined,
-        transaction_purpose: normaliseTransactionPurpose(link.dataset.transactionPurpose),
+        link_text: link.textContent?.trim().slice(0, 120),
+        link_url: link.href,
       });
       return;
     }
 
     if (link.href.startsWith("tel:")) {
-      trackEvent("phone_click", { ...getLandingAttribution(), contact_method: "phone" });
+      trackEvent("phone_click", { contact_method: "phone" });
     } else if (link.href.startsWith("mailto:")) {
-      trackEvent("email_click", { ...getLandingAttribution(), contact_method: "email" });
+      trackEvent("email_click", { contact_method: "email" });
     }
   };
 

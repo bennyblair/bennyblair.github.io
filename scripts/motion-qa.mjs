@@ -66,8 +66,6 @@ async function snapshot(page, selector = '.home-hero') {
     const targets = root ? [...root.querySelectorAll('h1,h2,h3,p,a,button,label,summary')].filter(node => {
       const closedDisclosure = node.closest('details:not([open])');
       if (closedDisclosure && !node.closest('summary')) return false;
-      const enquiryPanel = node.closest('[data-enquiry-panel]');
-      if (enquiryPanel && document.documentElement.dataset.prerenderReady === 'true' && enquiryPanel.dataset.enquiryPanel !== enquiryPanel.closest('form').dataset.enquiryStep) return false;
       // These are exact, intentional alternatives; never blanket-exclude hidden text.
       if (node.closest('.hero-scroll') && matchMedia('(max-width: 700px)').matches) return false;
       if (node.closest('.motion-toggle') && matchMedia('(prefers-reduced-motion: reduce)').matches) return false;

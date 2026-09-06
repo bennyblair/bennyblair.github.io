@@ -4,10 +4,10 @@ import ProcessCylinder from "./ProcessCylinder";
 import { useProcessSequence } from "@/hooks/use-process-sequence";
 
 const steps = [
-  { title: "Enquiry", description: "Outline the purpose, property security and funding date" },
-  { title: "Assessment", description: "We review the file, lender fit and trade-offs" },
-  { title: "Approval", description: "The lender assesses the file and sets any approval conditions" },
-  { title: "Settlement", description: "Legal documents and conditions must be satisfied before funds are released" },
+  { title: "Enquiry", description: "Tell us about your funding requirements" },
+  { title: "Assessment", description: "We evaluate your proposal and present options" },
+  { title: "Approval", description: "Fast-track approval with our lender network" },
+  { title: "Settlement", description: "Quick settlement and funding deployment" },
 ];
 
 export default function ProcessJourney({ paused }: { paused: boolean }) {
@@ -15,7 +15,7 @@ export default function ProcessJourney({ paused }: { paused: boolean }) {
   const sequence = useProcessSequence(root, paused);
   return (
     <div ref={root} className="process-journey" data-stage={sequence.activeStage}>
-      <div className="section-header"><div><p className="eyebrow">A clear process</p><h2>How It Works</h2></div><p>From the first conversation to lender assessment and settlement</p></div>
+      <div className="section-header"><div><p className="eyebrow">A clear process</p><h2>How It Works</h2></div><p>Four simple steps to funding success</p></div>
       <ProcessCylinder />
       <div className="process-steps">{steps.map((step, index) => <div className="process-step" key={step.title} data-active={sequence.activeStage === index} style={{ "--process-stage": index + 1 } as CSSProperties}>
         <button className="process-stage-button" type="button" aria-label={`Show ${step.title} stage`} aria-pressed={sequence.activeStage === index} onClick={() => sequence.select(index)}>{String(index + 1).padStart(2, "0")}</button>
