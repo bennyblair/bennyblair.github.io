@@ -21,9 +21,10 @@ export function useHomepageMotion(root: RefObject<HTMLDivElement>, paused: boole
       };
       const hero = page.querySelector<HTMLElement>(".home-hero");
       const image = page.querySelector(".hero-image img");
-      // One finite camera move. The pause control also stops scroll-linked effects.
+      // Start at the CSS first-paint scale and only zoom out. Enlarging the hero
+      // after hydration creates a later LCP candidate on slow connections.
       animate(image, [{ transform: "scale(1.1)" }, { transform: "scale(1.025)" }], {
-        duration: 4200, easing: "cubic-bezier(.2,.65,.3,1)",
+        duration: 4200, easing: "cubic-bezier(.2,.65,.3,1)", fill: "forwards",
       });
       page.querySelectorAll(".hero-title-line").forEach((line, index) => {
         animate(line, [{ transform: "translateY(18px)" }, { transform: "translateY(0)" }], {
@@ -31,7 +32,7 @@ export function useHomepageMotion(root: RefObject<HTMLDivElement>, paused: boole
         });
       });
       const camera = animate(page.querySelector(".hero-image picture"), [
-        { transform: "translateY(0) scale(1.025)" },
+        { transform: "translateY(0) scale(1)" },
         { transform: "translateY(70px) scale(1.065)" },
       ], { duration: 1000, fill: "both" });
       const survey = animate(page.querySelector(".hero-survey-lines"), [
