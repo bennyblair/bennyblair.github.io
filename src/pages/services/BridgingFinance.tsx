@@ -59,11 +59,15 @@ const BridgingFinance = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Commercial Bridging Finance Australia
             </h1>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Cover a business-purpose purchase, refinance or funding gap against residential or commercial property.
+              Start with the amount, required date and evidence of the sale, refinance or other event that will repay the bridge.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                <Link to="/contact">
+                <Link to="/contact?purpose=bridge" data-analytics-event="service_enquiry" data-transaction-purpose="bridge">
                   <FileText className="mr-2 h-5 w-5" />
-                  Get Quote
+                  Discuss Your Transaction
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -219,7 +223,7 @@ const BridgingFinance = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                  <Link to="/contact?purpose=bridge" data-analytics-event="service_enquiry" data-transaction-purpose="bridge"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
