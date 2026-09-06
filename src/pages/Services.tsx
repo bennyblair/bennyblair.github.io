@@ -354,6 +354,7 @@ const Services = () => {
           </div>
 
 
+        <details className="service-depth service-depth--guidance"><summary className="service-depth-heading"><h2>How to compare lending options</h2><span aria-hidden="true">+</span></summary>
         {/* SEO Overview */}
         <div className="services-overview">
           <h2 className="text-2xl font-semibold mb-4">Commercial Finance Broking Services</h2>
@@ -405,16 +406,16 @@ const Services = () => {
             </div>
           </div>
         </section>
-
+        </details>
         </section>
 
         {/* Industry Use Cases */}
-        <section className="services-industries services-editorial-section">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+        <details className="service-depth"><summary className="service-depth-heading"><h2 className="text-3xl font-bold mb-4">
               <Building2 className="inline-block w-8 h-8 mr-3 text-accent" />
               Industries We <span className="gradient-text">Serve</span>
-            </h2>
+            </h2><span aria-hidden="true">+</span></summary><section className="services-industries services-editorial-section">
+          <div className="text-center mb-12">
+
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Our commercial finance brokers understand the unique requirements of different industries across Australia
             </p>
@@ -462,15 +463,15 @@ const Services = () => {
               </Card>
             ))}
           </div>
-        </section>
+        </section></details>
 
         {/* Success Stories */}
-        <section className="services-stories services-editorial-section">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+        <details className="service-depth"><summary className="service-depth-heading"><h2 className="text-3xl font-bold mb-4">
               <Users className="inline-block w-8 h-8 mr-3 text-accent" />
               Commercial Lending <span className="gradient-text">Success Stories</span>
-            </h2>
+            </h2><span aria-hidden="true">+</span></summary><section className="services-stories services-editorial-section">
+          <div className="text-center mb-12">
+
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Real Australian businesses we've helped secure the right commercial finance solutions
             </p>
@@ -531,14 +532,14 @@ const Services = () => {
               </Link>
             ))}
           </div>
-        </section>
+        </section></details>
 
         {/* Comparison Table */}
-        <section className="services-lenders services-editorial-section">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+        <details className="service-depth"><summary className="service-depth-heading"><h2 className="text-3xl font-bold mb-4">
               Bank vs Private Lender <span className="gradient-text">Comparison</span>
-            </h2>
+            </h2><span aria-hidden="true">+</span></summary><section className="services-lenders services-editorial-section">
+          <div className="text-center mb-12">
+
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Understanding your commercial lending options in the Australian market
             </p>
@@ -640,11 +641,11 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section></details>
         {/* Commercial Lending Fit Section */}
-        <section className="services-fit services-editorial-section">
+        <details className="service-depth"><summary className="service-depth-heading"><h2 className="text-3xl font-bold mb-6 text-center">Which commercial lending service may fit your scenario?</h2><span aria-hidden="true">+</span></summary><section className="services-fit services-editorial-section">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">Which commercial lending service may fit your scenario?</h2>
+
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="premium-card">
                 <CardContent className="p-6">
@@ -676,12 +677,12 @@ const Services = () => {
               </Card>
             </div>
           </div>
-        </section>
+        </section></details>
 
         {/* City Coverage Section */}
-        <section className="services-cities services-editorial-section">
+        <details className="service-depth"><summary className="service-depth-heading"><h2 className="text-3xl font-bold mb-6 text-center">Commercial finance by city</h2><span aria-hidden="true">+</span></summary><section className="services-cities services-editorial-section">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-center">Commercial finance by city</h2>
+
             <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-8 leading-relaxed">
               Local market conditions can affect lender appetite, valuation timing, security review, and settlement pressure. These city pages explain common scenarios across the main service lines.
             </p>
@@ -729,7 +730,7 @@ const Services = () => {
               </Card>
             </div>
           </div>
-        </section>
+        </section></details>
 
         {/* Process Section */}
         <section className="services-process services-editorial-section">

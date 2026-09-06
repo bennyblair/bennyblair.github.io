@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Search, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -8,18 +8,22 @@ import DirectoryFilters from "@/components/DirectoryFilters";
 import { getContentSummaries } from "@/lib/content";
 import { generateCollectionPageSchema } from "@/lib/schema-utils";
 import SEO from "@/components/SEO";
+import { normalizeGuideQuery, searchGuides } from "@/lib/guide-search";
 
 const Guides = () => {
   const breadcrumbItems = [{label: "Home", href: "/"}, {label: "Resources", href: "/resources"}, {label: "Guides"}];
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState(() => typeof document === "undefined" ? "All" : (document.getElementById("guide-category") as HTMLSelectElement | null)?.value || "All");
+  const [searchQuery, setSearchQuery] = useState(() => typeof document === "undefined" ? "" : (document.getElementById("guide-search") as HTMLInputElement | null)?.value || "");
+  const hasSearch = normalizeGuideQuery(searchQuery).length > 0;
   const publishedArticles = getContentSummaries("guides");
   const latestArticle = publishedArticles[0] ?? null;
   const featuredGuide = publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia");
   const isNewArticle = (date: string) => Math.ceil(Math.abs(Date.now() - new Date(date).getTime()) / 86400000) <= 7;
   const categories = ["All", ...Array.from(new Set(publishedArticles.map(article => article.category))).sort()];
-  const matchingArticles = selectedCategory === "All" ? publishedArticles : publishedArticles.filter(article => article.category === selectedCategory);
+  const matchingArticles = searchGuides(publishedArticles, searchQuery, selectedCategory);
   const picks = [{article: latestArticle, label: "Latest Guide", action: "Read Latest Guide"}, {article: featuredGuide, label: "Featured Guide", action: "Read Complete Guide"}].filter(pick => pick.article);
-  const directoryArticles = matchingArticles.filter(article => selectedCategory !== "All" || !picks.some(pick => pick.article?.slug === article.slug));
+  const showPicks = selectedCategory === "All" && !hasSearch;
+  const directoryArticles = matchingArticles.filter(article => !showPicks || !picks.some(pick => pick.article?.slug === article.slug));
   const guideCategoryHighlights = [
     {
       title: "Property-backed short-term finance",
@@ -74,6 +78,18 @@ const Guides = () => {
         <h1>Commercial Lending Guides</h1>
         <p>Expert-written guides to help you navigate every aspect of commercial lending in Australia. From beginner basics to advanced strategies.</p>
       </header>
+      <section className="guide-finder" aria-label="Find a guide">
+        <div className="guide-search" role="search" aria-label="Search finance guides">
+          <label htmlFor="guide-search">Search guides</label>
+          <div className="guide-search-field">
+            <Search aria-hidden="true" />
+            <input id="guide-search" type="search" placeholder="Try bridging finance, equipment or SMSF" value={searchQuery} onChange={event => setSearchQuery(event.target.value)} aria-controls="guide-results" />
+            {searchQuery && <button type="button" aria-label="Clear search" onClick={() => { setSearchQuery(""); document.getElementById("guide-search")?.focus(); }}><X aria-hidden="true" /></button>}
+          </div>
+        </div>
+        <DirectoryFilters id="guide-category" label="Browse by topic" value={selectedCategory} options={categories.map(label => ({label, count: label === "All" ? publishedArticles.length : publishedArticles.filter(article => article.category === label).length}))} count={matchingArticles.length} noun="guides" onChange={setSelectedCategory} />
+        <noscript><p className="guide-search-help">Search and topic filtering require JavaScript. Every guide is listed below.</p></noscript>
+      </section>
       <details className="directory-guidance">
         <summary>Choosing a finance guide <span aria-hidden="true">+</span></summary>
         <section className="mb-12">
@@ -108,8 +124,7 @@ const Guides = () => {
         </section>
 
       </details>
-      <DirectoryFilters id="guide-category" label="Browse by topic" value={selectedCategory} options={categories.map(label => ({label, count: label === "All" ? publishedArticles.length : publishedArticles.filter(article => article.category === label).length}))} count={matchingArticles.length} noun="guides" onChange={setSelectedCategory} />
-      {selectedCategory === "All" && <div className="editorial-picks">
+      {showPicks && <div className="editorial-picks">
         {picks.map(({article, label, action}) => article && <article className="editorial-pick" key={label}>
           <div className="editorial-pick-label"><span>{label}</span>{isNewArticle(article.date) && <span className="new-label">NEW</span>}</div>
           <h2><Link to={`/resources/guides/${article.slug}`}>{article.title}</Link></h2>
@@ -118,7 +133,12 @@ const Guides = () => {
           <Link className="text-link" to={`/resources/guides/${article.slug}`}>{action}<ArrowUpRight aria-hidden="true" /></Link>
         </article>)}
       </div>}
-      <div className="guide-directory">
+      <div className="guide-directory" id="guide-results">
+        {matchingArticles.length === 0 && <div className="guide-search-empty">
+          <h2>No guides found</h2>
+          <p>Try a broader term such as “property” or “business”, or clear your search and topic filter.</p>
+          <button type="button" className="text-link" onClick={() => { setSearchQuery(""); setSelectedCategory("All"); document.getElementById("guide-search")?.focus(); }}>Reset search and topic <ArrowUpRight aria-hidden="true" /></button>
+        </div>}
         {directoryArticles.map(article => <article className="guide-directory-entry" key={article.slug}>
           <div className="guide-entry-meta"><span>{article.category}</span>{isNewArticle(article.date) && <span className="new-label">NEW</span>}<span>{article.readingTime} min read</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU', {month:'short',day:'numeric'})}</time></div>
           <div className="guide-entry-copy"><h3><Link to={`/resources/guides/${article.slug}`}>{article.title}</Link></h3><p>{article.description}</p></div>

@@ -11,7 +11,7 @@ interface ServiceCategory {
 export default function ServiceDirectory({ categories }: { categories: ServiceCategory[] }) {
   return <section className="services-index" id="service-directory">
     <div className="directory-section-heading"><h2>Our <span className="gradient-text">Service Directory</span></h2><p>Browse our comprehensive range of commercial finance solutions. Click on any service to learn more about specific lending options.</p></div>
-    {categories.map((category, index) => <details className="service-category" key={category.id} id={category.id} open>
+    {categories.map((category, index) => <details className="service-category" key={category.id} id={category.id} open={index === 0}>
       <summary className="service-category-heading"><span className="service-category-number" aria-hidden="true">0{index + 1}</span><h3>{category.title}</h3><span className="service-category-count">{category.services.length} Services</span><Plus aria-hidden="true" /></summary>
       <div className="service-category-content"><p className="service-category-description">{category.description}</p><div className="service-options">
         {category.services.map(service => <article className="service-option" key={service.link}>
