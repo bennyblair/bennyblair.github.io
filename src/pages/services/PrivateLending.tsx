@@ -10,6 +10,7 @@ import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
+import PropertyFinanceDisclosure from "@/components/PropertyFinanceDisclosure";
 
 const PrivateLending = () => {
   const faqs: FAQItem[] = [
@@ -35,7 +36,7 @@ const PrivateLending = () => {
     },
     {
       question: "Is this for business purposes only?",
-      answer: "Yes, this is commercial lending for business and investment purposes only. Consumer finance is not offered."
+      answer: "Yes. The property-backed funding described here is for business purposes only, secured by residential or commercial property. Consumer-purpose finance is not offered. The borrower, actual use of funds and security are assessed for each transaction."
     }
   ];
 
@@ -81,6 +82,8 @@ const PrivateLending = () => {
             </div>
           </div>
 
+          <PropertyFinanceDisclosure />
+
           {/* Main Content */}
           <div className="max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
@@ -101,7 +104,7 @@ const PrivateLending = () => {
                 Private lending serves property investors, developers, business owners, and companies requiring flexible funding outside traditional banking constraints. Borrowers with complex income structures, non-standard properties, urgent funding requirements, or circumstances outside bank policy benefit from private lending solutions. Property investors managing portfolio transitions, developers funding time-sensitive acquisitions, and businesses restructuring debt or pursuing growth opportunities utilize private finance for alternative capital access.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN) or investment purposes, property or business asset security, and viable exit strategies for loan repayment. Both established investors and emerging businesses benefit from private lending tailored to commercial requirements and individual transaction circumstances.
+                Our property-backed business finance is for business purposes only, secured by residential or commercial property. Consumer-purpose finance is not offered. Having an ABN alone does not establish eligibility: the borrower, actual use of funds, security and repayment or exit strategy must be assessed for the transaction.
               </p>
             </section>
 
@@ -196,7 +199,7 @@ const PrivateLending = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Eligibility requires business or investment purpose (no consumer lending), property or business asset security with sufficient equity, and viable exit strategies for loan repayment. Documentation requirements are typically streamlined compared to banks, focusing on security evidence and transaction details. Private lenders assess deals based on security strength and merit rather than rigid policy criteria, accommodating diverse circumstances and property types.
+                For property-backed business funding, lenders assess the business purpose, available residential or commercial property equity, existing debts and a viable repayment or exit strategy. Documentation requirements vary by lender and transaction. Low-doc or no-doc terminology does not remove the need for identity checks, security evidence, purpose assessment or lender approval.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 To proceed, contact our team for a transaction assessment. We'll evaluate your funding requirements, security position, and circumstances to identify suitable private lending options. Our process includes deal structuring, private lender matching, and guidance through assessment and settlement.
