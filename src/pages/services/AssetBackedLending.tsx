@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -85,7 +86,7 @@ const AssetBackedLending = () => {
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Asset-Backed Lending?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Asset-backed lending provides business finance secured by business assets including property, equipment, machinery, inventory, receivables, or vehicles. This security-focused approach enables businesses to leverage existing assets for working capital, growth funding, or debt restructuring without diluting ownership through equity arrangements. Asset-backed structures accommodate businesses with strong asset bases but limited traditional lending criteria, focusing on security value rather than extensive financial history or cash flow patterns.
@@ -93,9 +94,9 @@ const AssetBackedLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Lending structures vary by asset type, from property-secured facilities resembling mortgages to equipment finance, inventory funding, and debtor finance converting receivables to immediate capital. Security valuations determine lending capacity, typically ranging from 50-80% of asset value depending on asset type, liquidity, and lender risk appetite. Repayment terms align with asset life and business cash flow, from short-term inventory cycles to long-term property-backed arrangements. Interest rates reflect security strength and asset liquidity.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Short-Term Property-Backed Business Loans</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 A short-term property-backed business loan is a form of asset-backed lending where real
@@ -117,10 +118,10 @@ const AssetBackedLending = () => {
                 alongside asset-backed lending so the structure matches the property, purpose, and repayment
                 pathway.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Asset-backed lending serves business owners, manufacturers, retailers, wholesalers, contractors, and companies with substantial asset bases requiring funding. Businesses owning commercial property, equipment, or inventory utilize asset-backed lending for working capital, expansion, or refinancing. Manufacturing businesses funding production cycles, property-owning businesses accessing equity, and asset-rich companies managing cash flow benefit from leveraging assets for capital access without traditional lending constraints.
@@ -128,10 +129,10 @@ const AssetBackedLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), business assets suitable for security, and capacity to service debt from business operations or asset realizations. Both established asset-rich businesses and growth-stage companies building asset bases benefit from asset-backed solutions tailored to commercial lending requirements.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist asset financiers, and alternative funders. Our lender relationships encompass institutions specializing in various asset types from property to equipment, inventory, and receivables. We match clients with lenders offering appropriate asset-backed structures, competitive pricing relative to security strength, and terms aligned with business operations and asset characteristics.
@@ -139,10 +140,10 @@ const AssetBackedLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through asset assessment, valuation coordination, and application processes. Our expertise includes optimizing security structures, combining multiple asset types, and structuring arrangements for suitable loan-to-value outcomes. Timeframes depend on asset type, valuation, and lender requirements, so we focus on complete file preparation and lender fit.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -201,10 +202,10 @@ const AssetBackedLending = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), business assets suitable for security, and capacity to service debt from operations or asset realizations. Documentation includes business financial statements, asset valuations or evidence, and security details. Security requirements focus on asset type, condition, and marketability, with lending capacity typically 50-80% of assessed value.
@@ -220,10 +221,10 @@ const AssetBackedLending = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -283,7 +284,7 @@ const AssetBackedLending = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

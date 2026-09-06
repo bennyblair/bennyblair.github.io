@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -97,7 +98,7 @@ const WorkingCapital = () => {
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Working Capital Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Working capital finance provides short-term funding for day-to-day business operations, enabling companies to manage cash flow fluctuations, fund inventory purchases, cover operational expenses, and bridge timing gaps between receivables and payables. These facilities offer flexible access to capital without long-term commitments, supporting ongoing business operations through revolving credit lines, overdrafts, and short-term loans.
@@ -105,10 +106,10 @@ const WorkingCapital = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Funding structures include revolving credit facilities allowing repeated drawdowns and repayments, term loans for specific working capital needs, and invoice finance converting receivables to immediate cash. Security requirements vary from unsecured facilities for strong businesses to asset-backed arrangements utilizing property, equipment, inventory, or receivables. Repayment terms align with business cash flow cycles, providing operational flexibility.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Working capital finance serves business owners, companies, contractors, and operators across all industries requiring operational funding. Retailers and wholesalers utilize working capital for inventory management, while service businesses access funding for operational expenses and growth initiatives. Manufacturing businesses fund production cycles, and seasonal businesses manage cash flow fluctuations through working capital facilities.
@@ -116,10 +117,10 @@ const WorkingCapital = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), demonstrated trading history, and capacity to service debt from business operations. Both established businesses and growing companies benefit from flexible working capital solutions tailored to commercial lending requirements and operational cash flow patterns.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist working capital providers, and alternative funders. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in business cash flow solutions. We match clients with lenders offering appropriate facility structures, competitive pricing, and terms aligned with operational requirements.
@@ -127,10 +128,10 @@ const WorkingCapital = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through facility structuring, lender selection, and application processes. Our expertise includes secured and unsecured options, revolving facilities, and specialized structures like invoice finance or inventory funding. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance. We structure flexible arrangements compared to traditional bank constraints, accommodating diverse business models and cash flow patterns.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -189,10 +190,10 @@ const WorkingCapital = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), demonstrated trading history, and capacity to service debt from business operations. Documentation typically includes business financial statements, tax returns, and cash flow projections. Security requirements vary by lender and facility size, from unsecured for strong businesses to asset-backed arrangements.
@@ -211,10 +212,10 @@ const WorkingCapital = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -274,7 +275,7 @@ const WorkingCapital = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

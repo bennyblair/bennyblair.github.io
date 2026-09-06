@@ -143,7 +143,7 @@ const About = () => {
             </Button>
           </div>
           
-          <div className="relative">
+          <div className="company-mission">
             <Card className="premium-card">
               <CardContent className="p-8">
                 <h3 className="text-xl font-semibold mb-6">Our Mission</h3>
@@ -170,7 +170,7 @@ const About = () => {
         </div>
 
         {/* What Is a Commercial Finance Broker Section */}
-        <section className="mb-16">
+        <section className="company-broker-explainer">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
               What Is a <span className="gradient-text">Commercial Finance Broker?</span>
@@ -180,7 +180,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
+          <div className="company-broker-comparison grid lg:grid-cols-2 gap-12 items-start mb-12">
             <div>
               <h3 className="text-2xl font-semibold mb-4">The Role of a Commercial Finance Broker</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
@@ -228,7 +228,7 @@ const About = () => {
             </Card>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="company-broker-advantages grid md:grid-cols-3 gap-6 mb-12">
             <Card className="premium-card">
               <CardContent className="p-6">
                 <div className="mx-auto mb-4 p-4 bg-accent/10 rounded-2xl w-fit">
@@ -266,7 +266,7 @@ const About = () => {
             </Card>
           </div>
 
-          <div className="bg-muted/30 rounded-2xl p-8">
+          <div className="company-broker-benefits">
             <h3 className="text-2xl font-semibold mb-4">Why Businesses, Investors & Developers Use a Broker</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-3">

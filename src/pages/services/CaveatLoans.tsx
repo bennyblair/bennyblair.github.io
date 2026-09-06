@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -98,7 +99,7 @@ const CaveatLoans = () => {
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is a Caveat Loan?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Caveat loans are short-term, business-purpose facilities commonly supported by lodging a caveat over real property. They may be considered where a commercial deadline is shorter than a mainstream lending process, but a caveat is not simply a faster substitute for every mortgage. The borrower still needs a valid business purpose, sufficient property support, a workable title position and a credible repayment plan.
@@ -106,10 +107,10 @@ const CaveatLoans = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Structures, terms and repayment methods vary by lender and scenario. Compare the interest calculation, establishment and legal costs, default terms, extension rights and total repayment—not only an advertised rate. The exit should be evidenced before drawdown, whether it is a refinance, a property sale or a documented business receipt.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 A caveat facility may be relevant to a business owner, company, developer or property investor facing a defined commercial payment or settlement deadline. Examples can include an auction purchase, a delayed refinance, a documented receivable timing gap or a restructuring step where property support and a near-term repayment source are available.
@@ -117,10 +118,10 @@ const CaveatLoans = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. A scenario should have a valid business purpose, sufficient usable property equity, a legally workable security position, capacity to meet the proposed obligations and an exit that can be evidenced. If any of those foundations is missing, another structure or a later application may be more appropriate.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we assess the purpose, title position, property support, required date and exit before approaching relevant specialist lenders. The objective is to compare structures that can actually assess the file, not to send an urgent application indiscriminately across the market.
@@ -128,10 +129,10 @@ const CaveatLoans = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We help identify missing documents, surface legal or consent dependencies and compare indicative terms on total cost and exit risk. Lender assessment, valuation, legal work and settlement remain subject to the facts of the transaction; neither approval nor a particular settlement date can be promised.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key decision factors */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Decision Factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -190,7 +191,7 @@ const CaveatLoans = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             <FinanceDecisionSupport
               heading="Is a Caveat Loan Suitable for This Business Scenario?"
@@ -229,7 +230,7 @@ const CaveatLoans = () => {
             />
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), property with sufficient equity for security, a credible exit strategy for repayment and capacity to meet the proposed obligations. A lender may require property and title evidence, business-purpose confirmation, existing-debt details, valuation material and exit evidence. The assessment and settlement timetable remains subject to the lender, legal work and third parties.
@@ -253,10 +254,10 @@ const CaveatLoans = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -326,7 +327,7 @@ const CaveatLoans = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

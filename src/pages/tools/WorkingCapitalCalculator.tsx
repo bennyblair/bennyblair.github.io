@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQSection from "@/components/FAQSection";
 import { Calculator, AlertTriangle, CheckCircle, ArrowRight } from "lucide-react";
@@ -159,19 +158,15 @@ const WorkingCapitalCalculator = () => {
 
                     <div>
                       <Label htmlFor="industry">Industry</Label>
-                      <Select value={industry} onValueChange={setIndustry}>
-                        <SelectTrigger id="industry" aria-label="Industry">
-                          <SelectValue placeholder="Select your industry" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="retail">Retail</SelectItem>
-                          <SelectItem value="manufacturing">Manufacturing</SelectItem>
-                          <SelectItem value="construction">Construction</SelectItem>
-                          <SelectItem value="services">Professional Services</SelectItem>
-                          <SelectItem value="hospitality">Hospitality</SelectItem>
-                          <SelectItem value="technology">Technology</SelectItem>
-                        </SelectContent>
-                      </Select>
+                      <select id="industry" className="calculator-industry-select" value={industry} onChange={event => setIndustry(event.target.value)}>
+                        <option value="">Select your industry</option>
+                        <option value="retail">Retail</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="construction">Construction</option>
+                        <option value="services">Professional Services</option>
+                        <option value="hospitality">Hospitality</option>
+                        <option value="technology">Technology</option>
+                      </select>
                       <p className="text-xs text-muted-foreground mt-1">For industry-specific benchmark comparison</p>
                     </div>
                   </div>

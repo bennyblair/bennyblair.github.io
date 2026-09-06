@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -78,7 +79,7 @@ const BusinessAcquisition = () => {
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Business Acquisition Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Business acquisition finance enables buyers to purchase established trading businesses, franchises, professional practices, or commercial operations without requiring full purchase price capital upfront. This funding addresses entrepreneurs, business operators, and investors acquiring existing businesses by financing purchase costs while preserving working capital for operational requirements and growth initiatives. Acquisition finance applies to diverse business types from retail and hospitality to manufacturing, services, and professional practices.
@@ -86,10 +87,10 @@ const BusinessAcquisition = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Financing structures typically combine business value assessment with buyer equity contributions, usually requiring 20-40% deposit depending on business type, trading history, and profitability. Security may include business assets, property, or personal guarantees depending on lender requirements and transaction structure. Repayment terms range from 3-10 years based on business cash flow capacity and asset lives. Lenders assess business performance, industry sector, buyer experience, and transition plans when evaluating acquisition finance applications.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Business acquisition finance serves business buyers, entrepreneurs, existing business owners seeking expansion, and investors pursuing commercial acquisitions. First-time business buyers entering ownership through established operations, experienced operators expanding through acquisition, and franchise buyers purchasing proven systems all utilize acquisition finance. Management buyout participants, family succession buyers, and industry consolidators benefit from structured acquisition funding tailored to business purchase requirements.
@@ -97,10 +98,10 @@ const BusinessAcquisition = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), relevant industry experience or management capabilities, equity contributions, and capacity to service debt from acquired business operations. Both experienced operators and appropriately skilled first-time business buyers benefit from acquisition finance solutions tailored to commercial purchase requirements.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist business lenders, and alternative funders. Our lender relationships encompass institutions specializing in business acquisition across various industry sectors and business scales. We match clients with lenders offering appropriate acquisition structures, competitive pricing, and terms aligned with business cash flow, buyer experience, and industry sector.
@@ -108,10 +109,10 @@ const BusinessAcquisition = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through acquisition finance structuring, due diligence requirements, and application processes. Our expertise includes coordinating business valuations, structuring optimal debt-to-equity ratios, and presenting transactions to lenders with industry specialization. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance. We structure arrangements accommodating diverse business types, from straightforward established operations to complex multi-entity acquisitions.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -170,10 +171,10 @@ const BusinessAcquisition = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), relevant industry experience or management capabilities, equity contribution typically 20-40%, and capacity to service debt from business operations. Documentation includes business financials, purchase agreements, buyer experience evidence, and business plans. Security requirements vary by business type and lender, from business assets alone to comprehensive security arrangements.
@@ -189,10 +190,10 @@ const BusinessAcquisition = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -262,7 +263,7 @@ const BusinessAcquisition = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

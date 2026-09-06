@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -77,7 +78,7 @@ const DebtConsolidation = () => {
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Business Debt Consolidation?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Business debt consolidation combines multiple commercial debts into a single facility, simplifying debt management and potentially improving cash flow through better terms, lower interest rates, and streamlined repayments. This solution addresses businesses managing multiple lenders, facilities, or repayment schedules by refinancing existing debts into one comprehensive arrangement. Consolidation reduces administrative burden, improves financial clarity, and may lower overall servicing costs.
@@ -85,10 +86,10 @@ const DebtConsolidation = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Consolidation structures include property-secured facilities refinancing multiple debts against commercial or residential property, asset-backed solutions utilizing business equipment or inventory, and general security arrangements over business assets. Repayment terms are tailored to cash flow capacity, with options for interest-only periods during business transitions or principal-and-interest structures for debt reduction. Security requirements vary by debt size and business profile.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Debt consolidation serves business owners, companies, property investors, and commercial operators managing multiple debt facilities. Businesses experiencing cash flow pressure from multiple repayments, seeking better interest rates, or simplifying financial structures benefit from consolidation solutions. SMEs transitioning between growth phases, property investors managing portfolio debt, and companies restructuring operations utilize debt consolidation to improve financial efficiency.
@@ -96,10 +97,10 @@ const DebtConsolidation = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), demonstrated servicing capacity, and typically property or business assets as security. Both established businesses and growth-stage companies benefit from consolidation solutions tailored to commercial lending requirements and operational cash flow management.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist consolidation providers, and alternative funders. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in complex debt structures. We match clients with lenders offering appropriate consolidation structures, competitive pricing, and terms aligned with business cash flow and growth objectives.
@@ -107,10 +108,10 @@ const DebtConsolidation = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through debt assessment, facility structuring, and refinancing processes. Our expertise includes navigating payout penalties, coordinating multi-lender settlements, and structuring arrangements for optimal tax and cash flow outcomes. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance. We structure flexible arrangements compared to traditional bank constraints, accommodating diverse business models and debt profiles.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -169,10 +170,10 @@ const DebtConsolidation = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), demonstrated capacity to service consolidated debt, and typically property or business assets as security. Documentation includes business financial statements, existing debt schedules, and asset valuations. Security requirements vary by lender and total debt quantum, from straightforward property security to comprehensive business asset arrangements.
@@ -188,10 +189,10 @@ const DebtConsolidation = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -251,7 +252,7 @@ const DebtConsolidation = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

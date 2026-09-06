@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -78,7 +79,7 @@ const CommercialPropertyDevelopment = () => {
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Property Development Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Property development finance provides funding for construction and development projects, covering land acquisition, construction costs, and related expenses until project completion and sale or refinancing. This specialized lending addresses developers, builders, and investors undertaking property projects by providing capital through progressive drawdowns aligned with construction milestones. Development finance encompasses residential subdivisions, commercial buildings, industrial projects, mixed-use developments, and major construction initiatives.
@@ -86,10 +87,10 @@ const CommercialPropertyDevelopment = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Funding structures typically include land acquisition components and construction facilities releasing capital progressively as building stages complete. Security comprises the development site and work-in-progress, with lenders requiring feasibility studies, council approvals, professional cost estimates, and presales or end-value assessments. Interest is often capitalized during construction, with principal repayment upon project completion through sales or refinancing. Terms range from 12-36 months depending on project scale and complexity.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Development finance serves property developers, construction companies, builders, investors, and companies undertaking property projects. Experienced developers funding multiple projects, first-time developers entering the market, and builders constructing spec projects all utilize development finance. Property investors creating subdivision developments, commercial entities building owner-occupied premises, and joint venture partners financing collaborative projects benefit from tailored development funding solutions.
@@ -97,10 +98,10 @@ const CommercialPropertyDevelopment = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require demonstrated development experience or experienced professional teams, detailed project feasibility, appropriate approvals or approval pathways, and equity contributions typically ranging from 20-40% of total project costs. Both seasoned developers and appropriately supported new entrants benefit from development finance tailored to project scale and complexity.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist development financiers, and private construction funders. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in various development types, project scales, and developer experience levels. We match clients with lenders offering appropriate development structures, competitive pricing, and terms aligned with project feasibility, timelines, and exit strategies.
@@ -108,10 +109,10 @@ const CommercialPropertyDevelopment = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through project assessment, feasibility structuring, and finance applications. Our expertise includes coordinating quantity surveyors, structuring equity contributions, and navigating presale requirements or end-value assessments. Approval timeframes are significantly faster than direct applications, with experienced guidance through complex development finance processes. We structure arrangements accommodating diverse project types, from simple residential subdivisions to complex commercial developments.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -170,10 +171,10 @@ const CommercialPropertyDevelopment = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), demonstrated development experience or experienced professional teams, detailed project feasibility and costings, appropriate council approvals or clear approval pathways, and equity contributions typically 20-40% of total costs. Documentation includes feasibility studies, quantity surveyor reports, council approvals, presales contracts (if required), and developer financial position. Security requirements focus on development sites and construction work-in-progress.
@@ -189,10 +190,10 @@ const CommercialPropertyDevelopment = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -262,7 +263,7 @@ const CommercialPropertyDevelopment = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

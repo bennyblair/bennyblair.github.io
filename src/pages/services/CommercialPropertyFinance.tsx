@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import SEO from "@/components/SEO";
 import { generateFAQPageSchema, generateServiceSchema } from "@/lib/schema-utils";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -107,7 +108,7 @@ const CommercialPropertyFinance = () => {
           </div>
 
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
-            <section className="bg-muted/30 rounded-2xl p-6 border border-border">
+            <ServiceChapter className="bg-muted/30 rounded-2xl p-6 border border-border">
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 What Is Commercial Property Finance?
               </h2>
@@ -127,9 +128,9 @@ const CommercialPropertyFinance = () => {
                 unsuitable where equity, documentation, serviceability, legal structure, or repayment pathway
                 is weak. This page provides general information only and is not financial advice.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 Urgent Commercial Property Settlement
               </h2>
@@ -146,9 +147,9 @@ const CommercialPropertyFinance = () => {
                 understand the security, borrower, purpose, and repayment pathway before funds can be made
                 available.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 Commercial Property Finance for Australian Business Owners Buying Premises
               </h2>
@@ -164,9 +165,9 @@ const CommercialPropertyFinance = () => {
                 secures the loan, how much equity is available, what entity is buying, how the business will
                 use the premises, and how the short-term debt will be repaid or refinanced.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">When Settlement Becomes Urgent</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {[
@@ -187,9 +188,9 @@ const CommercialPropertyFinance = () => {
                   </Card>
                 ))}
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What Lenders Need Quickly</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 A fast commercial property finance file is usually a complete file. The fewer unknowns a
@@ -210,9 +211,9 @@ const CommercialPropertyFinance = () => {
                   </div>
                 ))}
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Common Structures</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -305,9 +306,9 @@ const CommercialPropertyFinance = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 What Makes Fast Settlement Realistic
               </h2>
@@ -362,9 +363,9 @@ const CommercialPropertyFinance = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What Can Stop Urgent Finance</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Urgency does not remove the need for a sound transaction. A lender may pause or decline a
@@ -378,9 +379,9 @@ const CommercialPropertyFinance = () => {
                 <li>Incomplete documents close to settlement.</li>
                 <li>Consumer-purpose use, personal advice needs, or legal issues outside lender appetite.</li>
               </ul>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Emet Capital helps borrowers and advisers frame the transaction in lender-ready terms:
@@ -394,9 +395,9 @@ const CommercialPropertyFinance = () => {
                 structure is even appropriate. Emet does not provide personal financial advice and does not
                 guarantee funding outcomes.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 Commercial Property Finance Pathways to Compare
               </h2>
@@ -442,9 +443,9 @@ const CommercialPropertyFinance = () => {
                   </Link>
                 ))}
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Risks and Disclaimers</h2>
               <div className="bg-muted/30 rounded-lg p-6">
                 <p className="text-muted-foreground leading-relaxed mb-4">
@@ -458,9 +459,9 @@ const CommercialPropertyFinance = () => {
                   advice before entering any commercial finance arrangement.
                 </p>
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section className="property-useful-guides">
+            <ServiceChapter className="property-useful-guides">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Useful Guides
@@ -491,9 +492,9 @@ const CommercialPropertyFinance = () => {
                   </span>
                 </Link>
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                   <Link to="/contact" data-analytics-event="property_pillar_enquiry">
@@ -508,11 +509,11 @@ const CommercialPropertyFinance = () => {
                   </a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             <FAQSection faqs={faqs} />
 
-            <section className="rounded-xl border border-border bg-card p-6 text-sm text-muted-foreground">
+            <ServiceChapter className="rounded-xl border border-border bg-card p-6 text-sm text-muted-foreground">
               <p className="font-semibold text-foreground">Reviewed by Ben, Commercial Finance Broker</p>
               <p className="mt-2">
                 Reviewed 30 July 2026. General commercial-finance information only—not personal financial,
@@ -524,7 +525,7 @@ const CommercialPropertyFinance = () => {
                 <Link to="/resources/tools" className="text-accent hover:underline">Property calculators</Link>
                 <Link to="/resources/case-studies" className="text-accent hover:underline">Property scenarios</Link>
               </div>
-            </section>
+            </ServiceChapter>
           </div>
 
           <DiscoveryGuides service="commercial-property-finance" />

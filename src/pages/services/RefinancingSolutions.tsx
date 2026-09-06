@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -90,7 +91,7 @@ const RefinancingSolutions = () => {
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Commercial Refinancing?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Commercial refinancing replaces existing business or property loans with new facilities that may better fit the borrower's security, purpose, cash flow, or exit plan. Businesses and investors refinance to review pricing, access equity for business use, consolidate debt, manage maturity dates, or transition from restrictive bank facilities to more suitable alternatives. Refinancing applies to commercial property mortgages, business loans, equipment finance, and investment property debt.
@@ -98,9 +99,9 @@ const RefinancingSolutions = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Refinancing structures include straight rate-and-term refinances maintaining similar loan amounts with improved pricing, cash-out refinances releasing equity for business use, and debt consolidation refinances combining multiple facilities. Security typically involves commercial or investment property, though business assets may support certain refinancing arrangements. Repayment terms range from short-term facilities to long-term mortgages depending on purpose and security type.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Refinance Readiness Checklist</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 A commercial refinance is strongest when the file explains the current debt, the reason for change,
@@ -125,9 +126,9 @@ const RefinancingSolutions = () => {
               <p className="text-muted-foreground leading-relaxed mt-4">
                 For a deeper worked guide, see <Link to="/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia" className="text-accent underline underline-offset-4">commercial property refinance after a bank decline</Link>.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Refinance, Second Mortgage, or Bridge?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 These structures can all release or protect capital, but they solve different problems. The decision should be based on the current first mortgage, the deadline, total cost, desired hold period, and the evidence supporting repayment.
@@ -148,9 +149,9 @@ const RefinancingSolutions = () => {
                   </tbody>
                 </table>
               </div>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Refinancing After a Bank Decline</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 A bank rejection can happen because the property, income, lease profile, loan size, timing,
@@ -162,10 +163,10 @@ const RefinancingSolutions = () => {
                 and bridge-to-refinance pathways. The right option depends on security, valuation, exit,
                 conduct, and whether the issue is temporary or structural.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Refinancing serves business owners, property investors, commercial property owners, and companies seeking better loan terms or accessing equity. Borrowers approaching loan maturity, experiencing improved financial positions, or requiring capital for expansion benefit from refinancing solutions. Investment property owners managing portfolio debt, SMEs requiring working capital, and businesses transitioning from bank to non-bank facilities utilize refinancing to optimize financial structures.
@@ -173,10 +174,10 @@ const RefinancingSolutions = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN), demonstrated servicing capacity, and typically commercial or investment property as security. Both established businesses and growth-stage companies benefit from refinancing solutions tailored to commercial lending requirements and strategic financial objectives.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist commercial lenders, and alternative funders. Our lender relationships encompass traditional institutions and non-bank alternatives specializing in commercial property and business lending. We match clients with lenders offering appropriate refinancing structures, competitive pricing, and terms aligned with business objectives and property portfolios.
@@ -184,10 +185,10 @@ const RefinancingSolutions = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through refinancing assessment, lender comparison, and application processes. Our expertise includes analysing exit costs versus refinancing benefits, coordinating valuations, and structuring arrangements that fit the commercial objective. We focus on lender fit and file quality rather than promising outcomes, especially where the borrower is recovering from a decline or refinancing out of short-term debt.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -246,10 +247,10 @@ const RefinancingSolutions = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), demonstrated capacity to service refinanced debt, and typically commercial or investment property as security. Documentation includes business financial statements, existing loan details, and property valuations. Security requirements vary by lender and refinancing purpose, from straightforward property security to comprehensive business asset arrangements.
@@ -265,10 +266,10 @@ const RefinancingSolutions = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -328,7 +329,7 @@ const RefinancingSolutions = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

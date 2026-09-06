@@ -22,7 +22,6 @@ import {
   ChevronDown,
   ChevronRight,
   Users,
-  Target,
   Award
 } from "lucide-react";
 
@@ -322,33 +321,32 @@ const Services = () => {
 
         <section className="services-advice interior-section">
           {/* Key Takeaways */}
-          <div className="services-benefits bg-accent/5 rounded-2xl p-8 mb-8 text-left max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold mb-6 text-center">
-              <Target className="inline-block w-6 h-6 mr-2 text-accent" />
+          <div className="services-benefits">
+            <h2>
               Key Benefits of Our Commercial Lending Services
             </h2>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="flex items-start space-x-3">
+            <div className="services-benefit-list">
+              <div className="service-benefit">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <span>Access $50K–$200M+ funding across all loan types</span>
               </div>
-              <div className="flex items-start space-x-3">
+              <div className="service-benefit">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <span>Loans for property, business, equipment, trade, and SMSF</span>
               </div>
-              <div className="flex items-start space-x-3">
+              <div className="service-benefit">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                   <span>Faster assessment may be possible with private lending options</span>
               </div>
-              <div className="flex items-start space-x-3">
+              <div className="service-benefit">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <span>Flexible terms from 30 days to 30 years</span>
               </div>
-              <div className="flex items-start space-x-3">
+              <div className="service-benefit">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <span>Trusted by Australian businesses nationwide</span>
               </div>
-              <div className="flex items-start space-x-3">
+              <div className="service-benefit">
                 <CheckCircle className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <span>Specialist commercial finance experience</span>
               </div>
@@ -357,18 +355,18 @@ const Services = () => {
 
 
         {/* SEO Overview */}
-        <div className="services-overview bg-muted/30 rounded-lg p-8 mb-10 text-center">
+        <div className="services-overview">
           <h2 className="text-2xl font-semibold mb-4">Commercial Finance Broking Services</h2>
-          <p className="text-muted-foreground leading-relaxed max-w-4xl mx-auto">
+          <p>
             Emet Capital helps Australian businesses, investors, and developers compare commercial lending services across property finance, business funding, and specialist loan scenarios. This page is your starting point if you want to understand which loan type may fit your objective, how lenders typically assess a deal, and where a bank, non-bank, or private lender structure may be more suitable.
           </p>
         </div>
 
         {/* Hub Intro */}
-        <section className="mb-16">
-          <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-8 items-start">
-            <Card className="premium-card">
-              <CardContent className="p-8">
+        <section className="services-decisions">
+          <div className="services-decision-layout">
+            <div className="services-hub-guidance">
+              <div>
                 <h2 className="text-2xl font-bold mb-4">How to use this services hub</h2>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   Not every commercial lending solution is built for the same borrower or transaction. Some facilities are designed for speed. Others are built around longer terms, lower rates, or more complex security structures. This hub brings those options together in one place so you can compare loan types before you enquire.
@@ -379,11 +377,11 @@ const Services = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   We’ve organised the services below by use case, funding style, and borrower need so the page works as a genuine commercial lending reference point rather than just a directory.
                 </p>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
 
-            <Card className="premium-card">
-              <CardContent className="p-8">
+            <div className="services-comparison-ledger">
+              <div>
                 <h2 className="text-2xl font-bold mb-4">What borrowers usually want to compare</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <div>
@@ -403,15 +401,15 @@ const Services = () => {
                     <p>Shorter-term facilities typically work best where there is a clear refinance, sale, or business cash event supporting repayment.</p>
                   </div>
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           </div>
         </section>
 
         </section>
 
         {/* Industry Use Cases */}
-        <section className="mb-16">
+        <section className="services-industries services-editorial-section">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
               <Building2 className="inline-block w-8 h-8 mr-3 text-accent" />
@@ -467,7 +465,7 @@ const Services = () => {
         </section>
 
         {/* Success Stories */}
-        <section className="mb-16 bg-gradient-to-r from-accent/5 to-primary/5 rounded-2xl p-8">
+        <section className="services-stories services-editorial-section">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
               <Users className="inline-block w-8 h-8 mr-3 text-accent" />
@@ -536,7 +534,7 @@ const Services = () => {
         </section>
 
         {/* Comparison Table */}
-        <section className="mb-16">
+        <section className="services-lenders services-editorial-section">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
               Bank vs Private Lender <span className="gradient-text">Comparison</span>
@@ -644,7 +642,7 @@ const Services = () => {
           </div>
         </section>
         {/* Commercial Lending Fit Section */}
-        <section className="mb-16">
+        <section className="services-fit services-editorial-section">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">Which commercial lending service may fit your scenario?</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -681,7 +679,7 @@ const Services = () => {
         </section>
 
         {/* City Coverage Section */}
-        <section className="mb-16">
+        <section className="services-cities services-editorial-section">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">Commercial finance by city</h2>
             <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-8 leading-relaxed">
@@ -734,7 +732,7 @@ const Services = () => {
         </section>
 
         {/* Process Section */}
-        <section className="mb-16">
+        <section className="services-process services-editorial-section">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
               How Does Our Commercial Lending <span className="gradient-text">Process Work?</span>
