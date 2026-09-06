@@ -2,9 +2,15 @@ import { Suspense, lazy, useEffect } from "react";
 import { BrowserRouter as Router, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { clientRedirects, siteRoutes } from "@/config/site-route-manifest";
-import { installContactTracking, trackPageView } from "@/lib/analytics";
+import { installContactTracking, registerAnalyticsPaths, trackPageView } from "@/lib/analytics";
 import Layout from "./components/Layout";
 import ScrollToTop from "./components/ScrollToTop";
+
+const publicContentPaths = Object.keys(import.meta.glob("./content/{guides,case-studies,insights}/*.md", {
+  query: "?emet-article",
+  import: "default",
+})).map((path) => path.replace("./content/", "/resources/").replace(/\.md$/, ""));
+registerAnalyticsPaths([...siteRoutes.map((route) => route.path), ...publicContentPaths]);
 
 type PageModule = { default: React.ComponentType };
 const pageModules = import.meta.glob("./pages/**/*.tsx") as Record<string, () => Promise<PageModule>>;

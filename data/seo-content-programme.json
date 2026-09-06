@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "programmeId": "property-content-recovery",
+  "version": "2026-09-06.1",
+  "timezone": "Australia/Sydney",
+  "authorization": {
+    "source": "user instruction in Codex: PLEASE IMPLEMENT THIS PLAN",
+    "recordedAt": "2026-09-06",
+    "scope": "Routine editorial repairs across the registered estate, transaction-focused enquiry improvements, and three governed new articles per week. Preserve genuine financial-review and protection requirements.",
+    "automatedFinancialApproval": false
+  },
+  "audience": "Australian business-purpose borrowers using residential or commercial property as security; exclude personal/home-loan purposes",
+  "targets": {
+    "newArticlesPerWeek": 3,
+    "substantialRepairsPerWeek": 15,
+    "reviewWeeks": 8,
+    "newArticlesPerFourWeeks": {
+      "purchase_refinance": 6,
+      "bridge_equity": 6
+    },
+    "pagesReviewedPerWeek": 50,
+    "additionalBoundedRouteReviewsPerWeek": 13
+  },
+  "schedule": {
+    "publicationDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "publicationTime": "10:00",
+    "editorDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "editorTime": "07:00",
+    "repairReleaseTime": "11:00"
+  },
+  "newArticlePolicy": "data/seo-content-automation-policy.json",
+  "repairPolicy": "data/seo-content-repair-policy.json",
+  "priorityPaths": [
+    "/resources/guides/urgent-caveat-loans",
+    "/resources/guides/find-caveat-loan-brokers-australia",
+    "/resources/guides/private-credit-refinance-commercial-property-australia",
+    "/resources/guides/commercial-property-finance-sydney-local-expert-hub",
+    "/services/commercial-property-finance",
+    "/services/refinancing-solutions",
+    "/services/bridging-finance",
+    "/services/first-second-mortgages",
+    "/services/caveat-loans",
+    "/",
+    "/contact"
+  ],
+  "candidateBriefs": [
+    {
+      "title": "Buying a mixed-use commercial property: preparing the finance application",
+      "service": "/services/commercial-property-finance",
+      "group": "purchase_refinance",
+      "status": "reviewed_draft",
+      "exactSearchDemand": "unverified",
+      "slug": "mixed-use-commercial-property-purchase-finance-australia",
+      "releaseDateSydney": "2026-09-07",
+      "draftPackage": "seo/content-programme-drafts/mixed-use-commercial-property-purchase-finance-australia/package.json"
+    },
+    {
+      "title": "Commercial interest-only period ending: renewal or refinance before repayments change",
+      "service": "/services/refinancing-solutions",
+      "group": "purchase_refinance",
+      "status": "reviewed_draft",
+      "exactSearchDemand": "unverified",
+      "slug": "commercial-interest-only-period-ending-refinance-australia",
+      "releaseDateSydney": "2026-09-09",
+      "draftPackage": "seo/content-programme-drafts/commercial-interest-only-period-ending-refinance-australia/package.json"
+    },
+    {
+      "title": "Using an outright-owned property to secure a business loan",
+      "service": "/services/first-second-mortgages",
+      "group": "bridge_equity",
+      "status": "reviewed_draft",
+      "exactSearchDemand": "unverified",
+      "slug": "business-loan-against-outright-owned-property-australia",
+      "releaseDateSydney": "2026-09-11",
+      "draftPackage": "seo/content-programme-drafts/business-loan-against-outright-owned-property-australia/package.json"
+    }
+  ],
+  "rules": {
+    "preserveUrlsByDefault": true,
+    "lowTrafficAuthorizesRemoval": false,
+    "retainExistingAggregateCompanyClaims": true,
+    "noFabricatedFirstPartyCases": true,
+    "newCityBatches": false,
+    "outreachSending": false,
+    "missingMetricsAreNull": true,
+    "reviewDaysAfterMaterialChange": [
+      28,
+      56,
+      90
+    ],
+    "repairSlotsIndependentOfNewArticleSlots": true,
+    "publicationsRequireIndependentReview": true
+  }
+}

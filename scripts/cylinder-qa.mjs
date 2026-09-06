@@ -17,7 +17,7 @@ const { chromium } = createRequire(path.join(site, 'package.json'))('playwright'
 const browser = await chromium.launch({ headless: true });
 const results = [], startedAt = new Date().toISOString();
 const selectors = { stage: 'button.process-stage-button,.process-stage-button button', replay: 'button.process-replay,.process-replay button', pause: 'button.process-motion-toggle,.process-motion-toggle button', global: 'button.motion-toggle,.motion-toggle button' };
-const expected = [['Enquiry','Tell us about your funding requirements'],['Assessment','We evaluate your proposal and present options'],['Approval','Fast-track approval with our lender network'],['Settlement','Quick settlement and funding deployment']];
+const expected = [['Enquiry','Outline the purpose, property security and funding date'],['Assessment','We review the file, lender fit and trade-offs'],['Approval','The lender assesses the file and sets any approval conditions'],['Settlement','Legal documents and conditions must be satisfied before funds are released']];
 async function test(name, fn) {
   if (args.includes('--only') && !new RegExp(option('--only', '')).test(name)) return;
   try { const details = await fn(); results.push({ name, status: 'pass', details }); console.log(`PASS ${name}`); }

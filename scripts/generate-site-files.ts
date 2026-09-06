@@ -9,6 +9,7 @@ import {
   redirectRules,
 } from "../src/config/site-route-manifest";
 import { buildContentIndex } from "./lib/content-index.mjs";
+import { siteRevisionManifest } from "./lib/site-revision.mjs";
 
 const repoRoot = process.cwd();
 const distDir = path.join(repoRoot, "dist");
@@ -231,6 +232,11 @@ ${decisionGuides.map(([route, label]) => `- [${label}](${canonicalUrl(route)})`)
 if (!fs.existsSync(distDir)) {
   throw new Error("dist/ is missing. Run the Vite build before generating site files.");
 }
+
+const revision = process.env.COMMIT_REF || execFileSync("git", ["rev-parse", "HEAD"], { cwd: repoRoot, encoding: "utf8" }).trim();
+const marker = siteRevisionManifest(revision);
+fs.mkdirSync(path.join(distDir, ".well-known"), { recursive: true });
+fs.writeFileSync(path.join(distDir, ".well-known", "site-revision.json"), `${JSON.stringify(marker)}\n`);
 
 const inventory = buildRouteInventory();
 fs.writeFileSync(path.join(distDir, "sitemap.xml"), renderSitemap(inventory));

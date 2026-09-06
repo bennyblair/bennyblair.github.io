@@ -266,11 +266,17 @@ async function formCase(route, name) {
     await page.evaluate(() => { window.gtag = (...args) => window.__designQaAnalytics.push(args); });
     const form = page.locator(`form[name="${name}"]`).filter({ has: page.locator('button[type="submit"]') });
     assert.equal(await form.count(), 1, "Expected one visible interactive form");
+    const purpose = form.locator('select[name="transactionPurpose"]');
+    if (await purpose.count()) {
+      await purpose.selectOption("purchase");
+      await form.locator('input[name="loanAmount"]').fill("500000");
+      await form.getByRole("button", { name: "Continue to contact details" }).click();
+    }
     await form.locator('input[name="name"]').fill("Preview QA");
     await form.locator('input[name="email"]').fill("preview-qa@example.invalid");
     for (const [field, value] of [["phone", "0400000000"], ["business", "Preview QA"], ["loanAmount", "500000"]]) {
       const input = form.locator(`input[name="${field}"]`);
-      if (await input.count()) await input.fill(value);
+      if (await input.count() && await input.isVisible()) await input.fill(value);
     }
     await form.locator('button[type="submit"]').click();
     await page.waitForFunction(() => [...document.querySelectorAll('[role="status"], [role="alert"], [data-state="open"]')].some(node => /preview/i.test(node.textContent || "") && /simulat|not sent|no .*sent|nothing.*sent/i.test(node.textContent || "")), undefined, { timeout: 5_000 });

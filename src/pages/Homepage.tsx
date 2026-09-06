@@ -1,15 +1,12 @@
-import { isDesignPreview } from "@/lib/design-preview";
+import TransactionEnquiryForm from "@/components/TransactionEnquiryForm";
+import TransactionJourneys from "@/components/TransactionJourneys";
+import { ENQUIRY_RESPONSE_MESSAGE } from "@/lib/transactions";
 import { useRef, useState } from "react";
 import { useHomepageMotion } from "@/hooks/use-homepage-motion";
 import ProcessJourney from "@/components/ProcessJourney";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
 import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
-import { trackLead } from "@/lib/analytics";
 import { ArrowDown, ArrowRight, Pause, Play, Phone } from "lucide-react";
 import type { ArticleSummary } from "@/lib/content";
 import homepageContent from "virtual:homepage-content";
@@ -20,7 +17,7 @@ const services = [
   { title: "Bridging Finance", description: "Short-term funding for property acquisition, settlements, and time-sensitive commercial opportunities.", link: "/services/bridging-finance" },
   { title: "Private Lending", description: "Fast, flexible commercial lending solutions when traditional banks can't meet your timeline or requirements.", link: "/services/private-lending" },
   { title: "Asset-Backed Lending", description: "Leverage your commercial property, equipment, or business assets to secure competitive funding solutions.", link: "/services/asset-backed-lending" },
-  { title: "Caveat Loans", description: "Ultra-fast property-secured funding with settlements possible within 24-72 hours for urgent business needs.", link: "/services/caveat-loans" },
+  { title: "Caveat Loans", description: "Short-term property-backed business funding assessed against title, equity, timing and a clear repayment plan.", link: "/services/caveat-loans" },
   { title: "Business Acquisition", description: "Funding solutions for purchasing existing businesses, management buyouts, and strategic acquisitions.", link: "/services/business-acquisition" },
 ];
 
@@ -37,27 +34,10 @@ const homepageCaseImages: Record<string, { src: string; srcSet: string; alt: str
   },
 };
 
-// Keep the example's facts and conditional wording; remove repeated editorial prefixes.
-const scenarioOutcome = (text: string) => text
-  .replace(/^Illustrative scenario based on:\s*/i, "Potential outcome: ")
-  .replace(/^Illustrative scenario showing how\s*/i, "How ");
-
 const Homepage = () => {
   const page = useRef<HTMLDivElement>(null);
   const [motionPaused, setMotionPaused] = useState(false);
   useHomepageMotion(page, motionPaused);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    business: "",
-    loanType: "",
-    loanAmount: "",
-    message: ""
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const { toast } = useToast();
-
   const { latestArticles, featuredCaseStudies } = homepageContent;
 
   // Helper function to check if article is new (within 7 days)
@@ -72,103 +52,6 @@ const Homepage = () => {
   const getArticleUrl = (article: ArticleSummary & { contentType: 'guides' | 'case-studies' }) => {
     return `/resources/${article.contentType}/${article.slug}`;
   };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const form = e.currentTarget as HTMLFormElement;
-    if (new FormData(form).get('bot-field')) return;
-    setIsSubmitting(true);
-
-    // Basic validation
-    if (!formData.name || !formData.email) {
-      toast({
-        title: "Validation Error",
-        description: "Please fill in all required fields (Name and Email)",
-        variant: "destructive",
-      });
-      setIsSubmitting(false);
-      return;
-    }
-
-    try {
-      // Check if we're in development mode
-      const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-      
-      if (isDevelopment || isDesignPreview) {
-        // In development, just simulate success
-        // Do not log personal enquiry details.
-        toast({
-          title: isDesignPreview ? "Preview only" : "Development Mode",
-          description: isDesignPreview ? "No enquiry was sent. This is a private design preview." : "Form submission simulated. Deploy to Netlify to test actual submission.",
-        });
-      } else {
-        // In production, submit to Netlify
-        const netlifyFormData = new FormData(form);
-        
-        // Convert FormData to URLSearchParams compatible format
-        const formParams = new URLSearchParams();
-        for (const [key, value] of netlifyFormData.entries()) {
-          formParams.append(key, value.toString());
-        }
-
-        const response = await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: formParams.toString()
-        });
-
-        if (!response.ok) {
-          throw new Error(`Form submission failed: ${response.status}`);
-        }
-
-        toast({
-          title: "Form submitted successfully!",
-          description: "We'll get back to you within 24-48 hours.",
-        });
-      }
-
-      trackLead("homepage-contact", formData.loanType);
-
-      // Reset form
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        business: "",
-        loanType: "",
-        loanAmount: "",
-        message: ""
-      });
-
-    } catch (error: unknown) {
-      console.error('Form submission error:', error);
-      
-      toast({
-        title: "Error submitting form",
-        description: error instanceof Error ? error.message : "Please try again or contact us directly.",
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
-  const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
-  };
-
-  const loanTypes = [
-    "Asset Finance",
-    "Development Finance",
-    "Bridging Finance", 
-    "Working Capital",
-    "Invoice Finance",
-    "Trade Finance",
-    "Other"
-  ];
 
   return (
     <div className="homepage-page" ref={page}>
@@ -188,12 +71,12 @@ const Homepage = () => {
         <div className="hero-controls"><span>Commercial finance. Australia-wide.</span><button type="button" className="motion-toggle" aria-pressed={motionPaused} onClick={() => setMotionPaused(value => !value)}>{motionPaused ? <Play aria-hidden="true" /> : <Pause aria-hidden="true" />}{motionPaused ? "Play motion" : "Pause motion"}</button></div>
         <div className="hero-copy">
           <p className="eyebrow">Emet Capital / Commercial finance</p>
-          <h1><span className="hero-title-line">Commercial </span><span className="hero-title-line">Lending Solutions, </span><span className="hero-title-line">Expertly Engineered</span></h1>
+          <h1><span className="hero-title-line">Property-Backed </span><span className="hero-title-line">Business Finance</span></h1>
         </div>
         <div className="hero-aside">
-          <p className="hero-description">Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition</p>
+          <p className="hero-description">Purchases, refinances, bridging and equity release for business purposes. Residential or commercial property security, Australia-wide, from $100K to $50M+.</p>
           <div className="hero-actions">
-            <Link className="action-link action-light" to="/contact">Get Your Quote <ArrowRight aria-hidden="true" /></Link>
+            <Link className="action-link action-light" to="/contact">Discuss Your Transaction <ArrowRight aria-hidden="true" /></Link>
             <a className="phone-link" href="tel:0485952651"><Phone aria-hidden="true" />0485 952 651</a>
           </div>
         </div>
@@ -207,6 +90,8 @@ const Homepage = () => {
         </figure>
         <a className="hero-scroll" href="#finance-overview" aria-label="Explore Emet Capital"><ArrowDown aria-hidden="true" /><span>Scroll to explore</span></a>
       </section>
+
+      <TransactionJourneys />
 
       <section id="finance-overview" className="home-positioning section-pad">
         <div className="section-heading" data-motion-enter><p className="eyebrow">The right structure</p><h2>Commercial Finance Specialists for Complex Australian Transactions</h2></div>
@@ -227,13 +112,13 @@ const Homepage = () => {
           {study.featuredImage && <figure className="scenario-media" data-motion-enter><Link to={`/resources/case-studies/${study.slug}`} aria-label={`Read ${study.title}`}><picture>{homepageCaseImages[study.slug] && <source type="image/avif" srcSet={homepageCaseImages[study.slug].srcSet.replaceAll(".webp", ".avif")} sizes="(max-width: 700px) 100vw, 50vw" />}<img fetchPriority="low" src={homepageCaseImages[study.slug]?.src || study.featuredImage} srcSet={homepageCaseImages[study.slug]?.srcSet} sizes="(max-width: 700px) 100vw, 50vw" alt={homepageCaseImages[study.slug]?.alt || study.featuredImageAlt || "Commercial property"} width={1600} height={1185} loading="lazy" /></picture></Link></figure>}
           <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span></div>
           <Link to={`/resources/case-studies/${study.slug}`} className="scenario-title"><h3>{study.title}</h3><ArrowRight aria-hidden="true" /></Link>
-          <div className="scenario-facts"><strong>{study.loanAmount || "Custom Solution"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
-          {study.outcome && <p>{scenarioOutcome(study.outcome)}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
+          <div className="scenario-facts"><strong>{study.loanAmount && study.loanAmount !== "N/A" ? study.loanAmount : "Funding scenario"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
+          <p>{study.description}</p>
         </article>)}</div><details className="content-disclosure"><summary>Explore more finance scenarios <span aria-hidden="true">+</span></summary><div className="scenario-grid">{featuredCaseStudies.slice(2).map((study)=><article className={"scenario-entry"} key={study.slug}>
           <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span></div>
           <Link to={`/resources/case-studies/${study.slug}`} className="scenario-title"><h3>{study.title}</h3><ArrowRight aria-hidden="true" /></Link>
-          <div className="scenario-facts"><strong>{study.loanAmount || "Custom Solution"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
-          {study.outcome && <p>{scenarioOutcome(study.outcome)}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
+          <div className="scenario-facts"><strong>{study.loanAmount && study.loanAmount !== "N/A" ? study.loanAmount : "Funding scenario"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
+          <p>{study.description}</p>
         </article>)}</div></details>
         <Link className="text-link" to="/resources/case-studies">View All Case Studies <ArrowRight aria-hidden="true" /></Link>
       </section>
@@ -263,117 +148,8 @@ const Homepage = () => {
 
       <section className="home-contact">
         <div className="home-contact-inner section-pad">
-        <div className="contact-intro" data-motion-enter><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>Tell us about your requirements and we'll be in touch within 24 hours</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:0485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
-        <div className="home-contact-card"><form method="post" action="/" onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
-                <input type="hidden" name="form-name" value="homepage-contact" />
-                <p hidden>
-                  <label htmlFor="homepage-bot-field">Do not fill this out</label>
-                  <input id="homepage-bot-field" name="bot-field" tabIndex={-1} autoComplete="off" />
-                </p>
-                <div>
-                  <label htmlFor="homepage-name" className="block text-sm font-medium mb-2">Name *</label>
-                  <Input 
-                    id="homepage-name"
-                    name="name"
-                    autoComplete="name"
-                    value={formData.name}
-                    onChange={(e) => handleInputChange("name", e.target.value)}
-                    required
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-email" className="block text-sm font-medium mb-2">Email *</label>
-                  <Input 
-                    id="homepage-email"
-                    name="email"
-                    type="email" 
-                    autoComplete="email"
-                    value={formData.email}
-                    onChange={(e) => handleInputChange("email", e.target.value)}
-                    required
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-phone" className="block text-sm font-medium mb-2">Phone</label>
-                  <Input 
-                    id="homepage-phone"
-                    name="phone"
-                    type="tel" 
-                    autoComplete="tel"
-                    value={formData.phone}
-                    onChange={(e) => handleInputChange("phone", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-business" className="block text-sm font-medium mb-2">Business Name</label>
-                  <Input 
-                    id="homepage-business"
-                    name="business"
-                    autoComplete="organization"
-                    value={formData.business}
-                    onChange={(e) => handleInputChange("business", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="homepage-loan-type" className="block text-sm font-medium mb-2">Loan Type</label>
-                  <select
-                    id="homepage-loan-type"
-                    name="loanType"
-                    value={formData.loanType}
-                    onChange={(event) => handleInputChange("loanType", event.target.value)}
-                    className="flex h-10 w-full rounded-md border border-glass-border bg-background/50 px-3 py-2 text-sm text-foreground ring-offset-background focus:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                  >
-                    <option value="">Select loan type</option>
-                    {loanTypes.map((type) => (
-                      <option key={type} value={type}>{type}</option>
-                    ))}
-                  </select>
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-loan-amount" className="block text-sm font-medium mb-2">Funding Amount</label>
-                  <Input 
-                    id="homepage-loan-amount"
-                    name="loanAmount"
-                    inputMode="decimal"
-                    placeholder="e.g. $500,000" 
-                    value={formData.loanAmount}
-                    onChange={(e) => handleInputChange("loanAmount", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div className="md:col-span-2">
-                  <label htmlFor="homepage-message" className="block text-sm font-medium mb-2">Tell us about your requirements</label>
-                  <Textarea 
-                    id="homepage-message"
-                    name="message"
-                    value={formData.message}
-                    onChange={(e) => handleInputChange("message", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent min-h-[120px]" 
-                    placeholder="Describe your funding needs, timeline, and any specific requirements..."
-                  />
-                </div>
-                
-                <div className="md:col-span-2">
-                  <Button 
-                    type="submit" 
-                    disabled={isSubmitting}
-                    className="w-full bg-accent hover:bg-accent-light text-accent-foreground py-6 text-lg hover-lift"
-                  >
-                    {isSubmitting ? "Submitting..." : "Submit Your Enquiry"}
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </div>
-              </form></div>
+        <div className="contact-intro" data-motion-enter><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>{ENQUIRY_RESPONSE_MESSAGE}</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:0485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
+        <div className="home-contact-card"><TransactionEnquiryForm formName="homepage-contact" className="home-contact-form" /></div>
         </div>
       </section>
     </div>

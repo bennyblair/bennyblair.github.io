@@ -29,7 +29,7 @@ export function validateAutomationPolicy(policy, { requireCurrentCadence = true 
   const days = policy?.cadence?.days;
   const articlesPerRun = policy?.cadence?.articlesPerRun;
   const articlesPerWeek = policy?.cadence?.articlesPerWeek;
-  if (!Array.isArray(days) || days.length === 0 || new Set(days).size !== days.length) {
+  if (!Array.isArray(days) || days.length === 0 || days.some((day) => !["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].includes(day)) || new Set(days).size !== days.length) {
     errors.push("automation policy cadence days must be a non-empty unique list");
   }
   if (!Number.isInteger(articlesPerRun) || articlesPerRun < 1 || !Number.isInteger(articlesPerWeek) || articlesPerWeek < 1) {
@@ -37,8 +37,11 @@ export function validateAutomationPolicy(policy, { requireCurrentCadence = true 
   } else if (Array.isArray(days) && articlesPerWeek !== days.length * articlesPerRun) {
     errors.push("automation policy articlesPerWeek must equal scheduled days times articlesPerRun");
   }
-  if (requireCurrentCadence && (days?.length !== 2 || days?.[0] !== "Tuesday" || days?.[1] !== "Thursday" || articlesPerRun !== 1 || articlesPerWeek !== 2)) {
-    errors.push("automation policy must authorize exactly one article per run and two per week");
+  if (requireCurrentCadence && articlesPerRun !== 1) {
+    errors.push("automation policy must authorize exactly one article per release");
+  }
+  if (requireCurrentCadence && (policy?.timezone !== "Australia/Sydney" || !/^([01]\d|2[0-3]):[0-5]\d$/.test(policy?.cadence?.localTime || ""))) {
+    errors.push("automation policy requires an Australia/Sydney local publication time");
   }
   if (policy?.authority?.exactArticlesPerChange !== articlesPerRun) {
     errors.push("automation policy exactArticlesPerChange must match articlesPerRun");

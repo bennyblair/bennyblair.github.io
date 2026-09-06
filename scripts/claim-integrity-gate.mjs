@@ -1,13 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import { LENDER_COUNT_PATTERN, isUnchangedPreservedClaim } from "./lib/claim-preservation.mjs";
 
 const repoRoot = process.cwd();
 const roots = ["src/pages", "src/components"];
 const forbidden = [
   { label: "$2B+ / $2 billion facilitated", pattern: /\$2B\+|\$2\s+billion/gi },
   { label: "unsupported leading claim", pattern: /Australia['’]s Leading Commercial Finance/gi },
-  { label: "unsupported lender-count claim", pattern: /(?:access to\s+)?(?:over\s+)?50\+?\s+lenders|over\s+50\s+lenders/gi },
+  { label: "unsupported lender-count claim", pattern: LENDER_COUNT_PATTERN },
   { label: "unsupported experience-duration claim", pattern: /(?:over\s+)?15\+?\s+years(?:\s+of)?\s+(?:industry\s+)?experience/gi },
   { label: "unsupported success-rate claim", pattern: /95%\s+client success rate/gi },
   { label: "unsupported deal-approval claim", pattern: /87%\s+(?:of\s+)?deals?\s+approved|Deal Success Rate[\s\S]{0,80}87/gi },
@@ -36,10 +37,12 @@ function git(args) {
     stdio: ["ignore", "pipe", "ignore"],
   }).trim();
 }
+let comparisonBase;
 function changedPublicFiles() {
   for (const candidate of [process.env.CONTENT_QA_BASE, "origin/main", "HEAD^"].filter(Boolean)) {
     try {
       const base = git(["merge-base", candidate, "HEAD"]);
+      comparisonBase = base;
       const tracked = git(["diff", "--name-only", "--diff-filter=AM", base, "--", ...roots]).split(/\r?\n/);
       const untracked = git(["ls-files", "--others", "--exclude-standard", "--", ...roots]).split(/\r?\n/);
       return [...new Set([...tracked, ...untracked].filter(Boolean))].map((file) => path.join(repoRoot, file));
@@ -51,15 +54,24 @@ function changedPublicFiles() {
 }
 
 const changedFiles = changedPublicFiles();
+const claims = JSON.parse(fs.readFileSync(path.join(repoRoot, "src/content/claims.json"), "utf8"));
+const preservationPolicy = JSON.parse(fs.readFileSync(path.join(repoRoot, "data/company-claim-preservation.json"), "utf8"));
+const retained = [];
 for (const file of changedFiles) {
   const source = fs.readFileSync(file, "utf8");
+  const relativePath = path.relative(repoRoot, file).replaceAll("\\", "/");
+  let previous = "";
+  try { previous = git(["show", `${comparisonBase}:${relativePath}`]); } catch { /* Added files have no preserved claims. */ }
   for (const rule of forbidden) {
     rule.pattern.lastIndex = 0;
-    if (rule.pattern.test(source)) errors.push(`${path.relative(repoRoot, file)}: ${rule.label}`);
+    if (rule.pattern.test(source)) {
+      if (isUnchangedPreservedClaim({ relativePath, label: rule.label, pattern: rule.pattern, previous, current: source, policy: preservationPolicy, claims })) {
+        retained.push(`${relativePath}: existing unverified lender statement retained exactly under the owner's instruction`);
+      } else errors.push(`${relativePath}: ${rule.label}`);
+    }
   }
 }
 
-const claims = JSON.parse(fs.readFileSync(path.join(repoRoot, "src/content/claims.json"), "utf8"));
 const canonical = claims["funds-facilitated-150m"];
 if (!canonical || canonical.statement !== "$150M+ funds facilitated" || canonical.status !== "verified") {
   errors.push("src/content/claims.json: canonical $150M+ verified claim is missing");
@@ -74,4 +86,5 @@ if (errors.length) {
   for (const error of errors) console.error(`ERROR ${error}`);
   process.exit(1);
 }
+for (const note of retained) console.log(`RETAINED (not verified) ${note}`);
 console.log(`Authority claim integrity passed: $150M+ is canonical and ${changedFiles.length} changed public page files introduce no unsupported company statistics.`);

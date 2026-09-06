@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "status": "active",
+  "authorization": {
+    "reference": "codex-property-content-programme-2026-09-06-existing-aggregate-claims",
+    "instruction": "Preserve existing aggregate company claims while implementing the property-content programme. This does not verify the claims or authorize new occurrences."
+  },
+  "entries": [
+    {
+      "sourcePath": "src/pages/services/FirstSecondMortgages.tsx",
+      "claimId": "lender-network-50",
+      "ruleLabel": "unsupported lender-count claim",
+      "baselineRevision": "37f446f156a572f1cec300aa031f16db8aa15293",
+      "contextSha256": "4044c24cf3f64e9bc106fce3e72a88fd7b0bcdf9d45cd55fca658d0044d35ac6",
+      "maximumOccurrences": 1,
+      "verificationStatus": "unverified-existing",
+      "registryStatus": "expired"
+    },
+    {
+      "sourcePath": "src/pages/services/RefinancingSolutions.tsx",
+      "claimId": "lender-network-50",
+      "ruleLabel": "unsupported lender-count claim",
+      "baselineRevision": "37f446f156a572f1cec300aa031f16db8aa15293",
+      "contextSha256": "61beb2c92547a29a41c2fdeb51607d9e51b7abfb0ccb02dbee303c73c2e8a5ad",
+      "maximumOccurrences": 1,
+      "verificationStatus": "unverified-existing",
+      "registryStatus": "expired"
+    }
+  ]
+}

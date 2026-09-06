@@ -42,5 +42,5 @@ __pycache__/
 *.sln
 *.sw?
 
-# Local visual acceptance captures
-output/playwright/
+# Local browser validation evidence
+output/

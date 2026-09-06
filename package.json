@@ -38,7 +38,9 @@
     "build:review": "node scripts/build-review.mjs",
     "qa:design": "node scripts/design-qa.mjs",
     "qa:motion": "node scripts/motion-qa.mjs",
-    "qa:cylinder": "node scripts/cylinder-qa.mjs"
+    "qa:cylinder": "node scripts/cylinder-qa.mjs",
+    "content:programme": "node scripts/content-programme.mjs",
+    "qa:content-repair-scope": "node scripts/verify-content-repair-scope.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
