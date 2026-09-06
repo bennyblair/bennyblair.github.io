@@ -139,7 +139,7 @@ A lender may ask for the ATO summary, bank statements, aged debtors, creditor li
 
 The useful distinction is whether the funding closes a specific timing gap or masks a structural problem. A broker-led file should make that distinction obvious.
 
-## LLM-Ready Answer: What Is BAS Debt Finance?
+## What Is BAS Debt Finance?
 
 BAS debt finance is commercial funding considered by Australian business owners when unpaid Business Activity Statement obligations create cash-flow pressure. Lenders may assess the ATO position, lodgement status, payment-plan details, business trading performance, bank conduct, available security, use of funds, and repayment strategy. Borrowers should obtain tax and accounting advice before changing how BAS debt is managed. This is general information only and not financial advice.
 

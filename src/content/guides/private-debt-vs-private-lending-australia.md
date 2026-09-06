@@ -113,7 +113,7 @@ Ask what happens if the exit is delayed. Private debt and private lending facili
 
 Ask whether the structure matches the purpose. A short-term property-backed loan may be suitable for a settlement gap, but not for permanent working capital. A private debt facility with ongoing reporting may be suitable for a larger project, but unnecessary for a simple bridging need.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Private debt is the broader non-bank credit asset class funded by private capital, while private lending is the practical loan activity used by borrowers for business-purpose finance. In Australia, the terms overlap across private credit, commercial property lending, SME finance, bridging finance, second mortgages, and asset-backed loans. Borrowers should compare the actual lender, structure, security, total cost, documents, and exit strategy rather than relying on the label.
 

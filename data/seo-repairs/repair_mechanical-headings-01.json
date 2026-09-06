@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_mechanical-headings-01",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-09-06.1",
+  "policyChecksum": "bb391cb2061435cdcf5936a01acb11b42d5da688887de49aec4c0f559e930ddd",
+  "authorizationRef": "codex-property-content-programme-2026-09-06",
+  "baseSha": "0c6ca29c844708f431ef87c84679a24878b51924",
+  "kind": "mechanical",
+  "transform": "public-headings-v1",
+  "editor": "codex-content-process",
+  "review": {
+    "reviewer": "codex-automation-process-independent",
+    "reviewedAt": "2026-09-06T12:47:21.606Z",
+    "score": 98,
+    "blockingFindings": []
+  },
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia.md",
+      "pageId": "pg_73d08736c1174325af645ae8330a09ea",
+      "path": "/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia",
+      "beforeSha256": "1dff1e83c62857b63eb557b1ea3296af6b60df6e8132177de73698a36cb7e771",
+      "afterSha256": "83e4fd42a1cc08f9cab5d5ba55adb8a361bc2fc4e626a1b8e23ee889746d97af",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia.md:156",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__asset-backed-business-loans-using-equipment-and-receivables-in-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt.md",
+      "pageId": "pg_b5ccc0249ee44c3cb35d7ecfdacb00c5",
+      "path": "/resources/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt",
+      "beforeSha256": "7a5d0054b225881e022a9ad30e353096c9e97d56eabcdd2a3d4a46a3a2f32da1",
+      "afterSha256": "06fd8ea1a55d88a4f9ecb038278371e116f974c54d30c9dd1d83fce60539becb",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt.md:137",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary: Should a Business Refinance ATO Debt After the GIC Deductibility Change?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/bad-credit-business-loans-for-commercial-borrowers.md",
+      "pageId": "pg_2630e1f5e5d048509b80fec30f9d2fcb",
+      "path": "/resources/guides/bad-credit-business-loans-for-commercial-borrowers",
+      "beforeSha256": "d6fde46a9e8004e810f6850300d885f0966df774821505e8c1d59e29a65d1cc7",
+      "afterSha256": "feee830bcf1b08177b1530163443686cdead59111674a4e8f937a58da3491377",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/bad-credit-business-loans-for-commercial-borrowers.md:127",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__bad-credit-business-loans-for-commercial-borrowers.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: Can A Business Get Finance With Bad Credit?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/bas-debt-finance-for-australian-businesses.md",
+      "pageId": "pg_877eced5e90a43af88e227b46a86742f",
+      "path": "/resources/guides/bas-debt-finance-for-australian-businesses",
+      "beforeSha256": "5df91437b8cc75c705d2ee5493f1d48fa0078a9600b35668c0b71426e1c92ba2",
+      "afterSha256": "e212fa8667021f2197bca754b0aa9d799168d2eabe4d299f24c15cc8f2a9c114",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/bas-debt-finance-for-australian-businesses.md:142",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__bas-debt-finance-for-australian-businesses.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Is BAS Debt Finance?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/bridge-lending-australia-commercial-property.md",
+      "pageId": "pg_7b5692548a4c47e0b65af3f805ea77db",
+      "path": "/resources/guides/bridge-lending-australia-commercial-property",
+      "beforeSha256": "568a95c38ef15c36510190b0c4cfc8b27087ec2bc27016f5c9dcf578de661293",
+      "afterSha256": "0b6d4282ebf71d99719359a9b55857d701823f8c5350027c6132eee49491bb04",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/bridge-lending-australia-commercial-property.md:110",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__bridge-lending-australia-commercial-property.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/bridging-loan-bank-delay-australia.md",
+      "pageId": "pg_9fc40c20b8284a8d9dd1ee3e39151d32",
+      "path": "/resources/guides/bridging-loan-bank-delay-australia",
+      "beforeSha256": "4585dc06204a5a5cb9e2c6546e78fdfb743d2cab3aaa7edc2d1389cd500f75bf",
+      "afterSha256": "9b82709ce826046360c06fccae7b814fb1b821a9b2c3f992748a48abc18ecffd",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/bridging-loan-bank-delay-australia.md:108",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__bridging-loan-bank-delay-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/business-acquisition-finance-australia.md",
+      "pageId": "pg_d170bb54b3a64f7cb332e3ee53840984",
+      "path": "/resources/guides/business-acquisition-finance-australia",
+      "beforeSha256": "d81596ba72ed9cdf745f3a89320918de6f5e1d80396737e2809be1c12b4cbc8d",
+      "afterSha256": "a78da40e693509b3a90e917033e509b04761d8d802e755161f31a6b8c668e4cb",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/business-acquisition-finance-australia.md:262",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__business-acquisition-finance-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/business-lenders-australia-comparison-broker-commentary.md",
+      "pageId": "pg_b149d0191b524d6e85faf1360a567693",
+      "path": "/resources/guides/business-lenders-australia-comparison-broker-commentary",
+      "beforeSha256": "683c661e71e084ea08f8cefa9d46d4514b19f7b5e92f6e31a71309c404194b29",
+      "afterSha256": "12a35cd049224f910a4d301d365c939dab1cba8738a445571a03f4e2561a89a4",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/business-lenders-australia-comparison-broker-commentary.md:108",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__business-lenders-australia-comparison-broker-commentary.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: How Do You Compare Business Lenders In Australia?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/business-lenders-australia-urgent-settlement.md",
+      "pageId": "pg_421b0170f5be472283d0be3e2fc98455",
+      "path": "/resources/guides/business-lenders-australia-urgent-settlement",
+      "beforeSha256": "3b2d19135155476d0983216f24bd83643ee7bce0cfb4caf51dfbbaaf0742425d",
+      "afterSha256": "1c592ec1b0f6c92d1ce6066d396a6e2aa1478fc2025dc0aba966e53e5dd1e5ef",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/business-lenders-australia-urgent-settlement.md:112",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__business-lenders-australia-urgent-settlement.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/business-line-of-credit-australia.md",
+      "pageId": "pg_f5126ff603c84a99a70a2a68d02102ac",
+      "path": "/resources/guides/business-line-of-credit-australia",
+      "beforeSha256": "7729ebda207bea20e86672b003d026c2af8049f7a7c4dda35bf3620ecf2633dc",
+      "afterSha256": "f876c4409e9893d282620a43593539174b922fa81011b8cbe8901d87f8642299",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/business-line-of-credit-australia.md:146",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__business-line-of-credit-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Is A Business Line Of Credit?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/business-loans-secured-by-residential-property-in-australia.md",
+      "pageId": "pg_7b706af267cc4adf9d4b43dd832d177f",
+      "path": "/resources/guides/business-loans-secured-by-residential-property-in-australia",
+      "beforeSha256": "85bc6ba4e9fca9080bce7210c06e8df4cf3585ca26ba6c54c372fb547e58ce8a",
+      "afterSha256": "dd9eb0a87660ebe9f2a660bd48900038ca05cbc7efd36441c66419bb5351d2ce",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/business-loans-secured-by-residential-property-in-australia.md:154",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__business-loans-secured-by-residential-property-in-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance.md",
+      "pageId": "pg_053509a725094e4194d43d5add9a16d5",
+      "path": "/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance",
+      "beforeSha256": "da15e9ae0a88967199649547cd2887f3667e8b53167f5c522c49a6163f6c35fb",
+      "afterSha256": "510cdd8466ee5338d0f502b4ce1cd8256a991089d0d06db887bf90a850f68ee0",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance.md:129",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia.md",
+      "pageId": "pg_138c92bd675d473baa76f858a9345701",
+      "path": "/resources/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia",
+      "beforeSha256": "5ff96d3e6e0fedfe8b308b6b5e0d418b2236e9bdfee54ec70b55c302d76a19e9",
+      "afterSha256": "7c26a5152d123a7aa622ad977521f42121ea938ecdc4d215c36779b4035bb3b6",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia.md:166",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__caveat-loan-eofy-tax-bill-unsold-development-stock-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/caveat-loans-for-property-settlement-bridge-your-purchase.md",
+      "pageId": "pg_6662cca4c4ac4b5582e4c4618dd172f6",
+      "path": "/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase",
+      "beforeSha256": "82446dc2826cd2347df62846f36400776314cb8d0bb12c2efafeb5d11a245186",
+      "afterSha256": "e8d0e3cd81a73df04f4c017ee630f430fe3fc7aee0bf925ac4fad65767d784ed",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/caveat-loans-for-property-settlement-bridge-your-purchase.md:164",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__caveat-loans-for-property-settlement-bridge-your-purchase.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval.md",
+      "pageId": "pg_b3909a1f4e6d4aeba0b05162084949fd",
+      "path": "/resources/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval",
+      "beforeSha256": "8bab9a180851e48d9c29291c7683a0ac4979cd230337a30dd75ed1c20ff07a5b",
+      "afterSha256": "7d42a84dab588a94d723cd68bd6fd9541e4ad44e4f6cecf37b445a6a1dad57d6",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval.md:118",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__caveat-loans-online-in-australia-fast-enquiry-vs-real-approval.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-property-development-finance.md",
+      "pageId": "pg_edb52afcaf164f6f912a89d0bf413819",
+      "path": "/resources/guides/commercial-property-development-finance",
+      "beforeSha256": "0b844b64e8995d259d80f1d20942d1b627fd614ee716afcb9950bf711da84e90",
+      "afterSha256": "9ec6628c63130ff485cff010160c436aafdd8a9d4f6b750708ebe7aecebebc30",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-development-finance.md:208",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-development-finance.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-property-due-diligence-finance-checklist.md",
+      "pageId": "pg_10b2584369fc41339d11c08606e9f7d0",
+      "path": "/resources/guides/commercial-property-due-diligence-finance-checklist",
+      "beforeSha256": "67320442e17a0caa4e3fc594d73a76ee3cb209d1ae5c812c83815c96083478b4",
+      "afterSha256": "90c585cbdf2d4d42a2aeb24d917c1982cd6141f0512720213b084a5e142d46c4",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-due-diligence-finance-checklist.md:210",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-due-diligence-finance-checklist.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-property-finance-broker-selection-checklist.md",
+      "pageId": "pg_4be6de517af6431ca705aee43fec70a6",
+      "path": "/resources/guides/commercial-property-finance-broker-selection-checklist",
+      "beforeSha256": "ebd3f68b7428a17278eb7825cf48f3864eb48fd4ebb2863c7d5d946f94f9d8f0",
+      "afterSha256": "6076af81a6dd2f8284298f4506f497e44b1d84f3f4fd6b56abf55ec399fa0c7d",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-finance-broker-selection-checklist.md:128",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-finance-broker-selection-checklist.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-property-finance-short-wale-assets-australia.md",
+      "pageId": "pg_2e2d42c67be8448e83ea5a19264ac82b",
+      "path": "/resources/guides/commercial-property-finance-short-wale-assets-australia",
+      "beforeSha256": "2113fc8707850e7afe7acf0d2cb2b190523d495deae17014963819223efcd4bb",
+      "afterSha256": "258eb164ac2937f5ec340f4bd14ae77458eab6ac3f25cbc7bb776b8bba79935b",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-finance-short-wale-assets-australia.md:134",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-finance-short-wale-assets-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: How Does Short WALE Affect Commercial Property Finance?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-property-loan-deposit-shortfall-case-study.md",
+      "pageId": "pg_ef1de17c03af4c76854ea2a313a61876",
+      "path": "/resources/guides/commercial-property-loan-deposit-shortfall-case-study",
+      "beforeSha256": "81eb1f561981bee328738b63530b12d807525057919e5e853581836e2e9d7401",
+      "afterSha256": "ffd0e56a6e74f74e0e4888aba3b035c6edc26e9748dea49b4e2d46d25dfface8",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-loan-deposit-shortfall-case-study.md:116",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-loan-deposit-shortfall-case-study.browser.json",
+          "type": "production-visible-heading-before-repair"
+        },
+        {
+          "type": "independent-mechanical-review",
+          "reference": "seo/content-programme-repairs/mechanical-headings-01/independent-review.json"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Is A Commercial Property Deposit Shortfall?"
+        }
+      ]
+    }
+  ]
+}

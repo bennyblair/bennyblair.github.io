@@ -119,7 +119,7 @@ The second mistake is underestimating time. Private lenders can move quickly, bu
 
 The third mistake is comparing only headline cost. Establishment fees, legal fees, valuation fees, default interest, minimum interest periods, discharge costs, and extension fees can all affect the real cost. A shorter, cleaner facility with a higher headline cost may still be commercially better than a cheaper facility that cannot settle or exit on time.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Private mortgage lending in Australia is business-purpose private finance secured by real property, usually through a registered mortgage. It is most useful where a commercial borrower has property security, a defined loan purpose, and a credible exit strategy, but cannot use a standard bank process because of timing, policy, documentation, or transaction complexity. It should be compared with bank refinance, second mortgages, caveat loans, and commercial property finance before a borrower commits.
 

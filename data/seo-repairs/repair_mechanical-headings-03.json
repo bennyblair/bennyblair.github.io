@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_mechanical-headings-03",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-09-06.1",
+  "policyChecksum": "bb391cb2061435cdcf5936a01acb11b42d5da688887de49aec4c0f559e930ddd",
+  "authorizationRef": "codex-property-content-programme-2026-09-06",
+  "baseSha": "a4f82a82e4fa737891883c1f454518c3385aa119",
+  "kind": "mechanical",
+  "transform": "public-headings-v1",
+  "editor": "codex-content-process",
+  "review": {
+    "reviewer": "codex-automation-process-independent",
+    "reviewedAt": "2026-09-06T12:47:21.606Z",
+    "score": 98,
+    "blockingFindings": []
+  },
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-debt-vs-private-lending-australia.md",
+      "pageId": "pg_95eb419357b741709ea8104313c23ad9",
+      "path": "/resources/guides/private-debt-vs-private-lending-australia",
+      "beforeSha256": "76ab33ee5d0cdaa7fa0e208cfb70d37156980ac1d8cb995b55fb0f2de42a04af",
+      "afterSha256": "838f092a7bc2cf4c13edf294c9ff42dd388e6e620ff9df4dd6aa28b414c7d6c6",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/private-debt-vs-private-lending-australia.md:116",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__private-debt-vs-private-lending-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/private-finance-for-business-after-bank-delay.md",
+      "pageId": "pg_606ca6c48f954a5cb6b373963ce8bc55",
+      "path": "/resources/guides/private-finance-for-business-after-bank-delay",
+      "beforeSha256": "8df8284b8086dbedc0e2befd012a9581bee7b93b37e74ebd9049718b6c34d829",
+      "afterSha256": "33f8bb7d0e247041013e78acf3a4399bae4351690c8bc47e842b69318655bcb5",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/private-finance-for-business-after-bank-delay.md:118",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__private-finance-for-business-after-bank-delay.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/private-lender-document-pack-broker-take.md",
+      "pageId": "pg_09436158a0eb4cdb8b29bee849628c5c",
+      "path": "/resources/guides/private-lender-document-pack-broker-take",
+      "beforeSha256": "60c48bac7a12d6c5966f175b32f0cadcbe4229f2e95a69c382f471d8d81c9762",
+      "afterSha256": "becb70e43ed7707ad4bd7b404392570ea6e83e050790aa222e24dc49529d9cfb",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/private-lender-document-pack-broker-take.md:108",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__private-lender-document-pack-broker-take.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Documents Do Private Lenders Need?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/private-lending-bank-decline-case-study.md",
+      "pageId": "pg_732ea6d8a2a64492a5d5792b35496854",
+      "path": "/resources/guides/private-lending-bank-decline-case-study",
+      "beforeSha256": "23012fc21124776bfa9eee02a9e1eb8602cbefa49efad1a9c31ae2335a8c6688",
+      "afterSha256": "fbddddbdccc4107682e9d68d8c526302acd0b74a647c086986d4b3cf5e8f3f3b",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/private-lending-bank-decline-case-study.md:144",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__private-lending-bank-decline-case-study.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: Can Private Lending Help After A Bank Decline?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/private-mortgage-lending.md",
+      "pageId": "pg_b47b76647dde4bd8b7646728c174d2ac",
+      "path": "/resources/guides/private-mortgage-lending",
+      "beforeSha256": "8ad837a465e60002228238671f41ea5fbe875e74bfcedf84e0b277576dcef02f",
+      "afterSha256": "92a97e4bb57088aff6a98db7ee63a0171efe4ec8f60a6be9da40ad5e52dcdfa0",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/private-mortgage-lending.md:122",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__private-mortgage-lending.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia.md",
+      "pageId": "pg_82709e8237aa4ff08fc726c234f6f671",
+      "path": "/resources/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia",
+      "beforeSha256": "25cee18b7d30566fc760ccedfa0d24df80e1b9b6981054ef06a704ca7fe63f25",
+      "afterSha256": "39cf6fb8b0001bf5252763a14c0fd70caa28b6a1976c34c60d0c89cf8a42e1af",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia.md:162",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/property-development-mortgage-australia.md",
+      "pageId": "pg_36937015168c40b1a3c91fe7976c0b5a",
+      "path": "/resources/guides/property-development-mortgage-australia",
+      "beforeSha256": "bc798db13ef9976d3311838f55f8837f4f7a8779919956839a0fd2195efb10ac",
+      "afterSha256": "c9eb12961b5abe01c64750000ea5ff2129d57ec0433591292cc7820beee5f0a4",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/property-development-mortgage-australia.md:130",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__property-development-mortgage-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/second-mortgage-lender-document-checklist-from-broker-files.md",
+      "pageId": "pg_b2a6803f58b14d2d97ec6d166b43249c",
+      "path": "/resources/guides/second-mortgage-lender-document-checklist-from-broker-files",
+      "beforeSha256": "95c2f828a0ea80a19301f3a97cfcf91bdc0f400810850702867b9e93d897fc3a",
+      "afterSha256": "b4a29a76166ccbbe17351733674b258b0bc5eebc4fafcde23d85309668a5ee4c",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/second-mortgage-lender-document-checklist-from-broker-files.md:154",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__second-mortgage-lender-document-checklist-from-broker-files.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Documents Are Needed For A Second Mortgage?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia.md",
+      "pageId": "pg_321321cf56a044919749bf26821c0c83",
+      "path": "/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia",
+      "beforeSha256": "8d6b172f256b40a029a015a9d8befb267e8e0e5e25e9c45eda050a7bdcb36475",
+      "afterSha256": "868809bf46964ac57983dc9d23eea9d2d7c5c062b96f12e5ef99c1881126a819",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia.md:207",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__second-mortgage-without-refinancing-your-first-mortgage-in-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md",
+      "pageId": "pg_1f58e540204c4107bcb2d73bb0f01ae5",
+      "path": "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
+      "beforeSha256": "9372e0ea7a91629b7af304da0093bd94ca68d67a4b5706b37bf9a4032c254e15",
+      "afterSha256": "3cfc52f1d7ed932ce383510104479da4cf65b86aa5d3205ae6f581ec1366205f",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md:156",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/short-term-caveat-loans-australia.md",
+      "pageId": "pg_30749291c25f428a869eb17d867624ba",
+      "path": "/resources/guides/short-term-caveat-loans-australia",
+      "beforeSha256": "f60329d460a95ce9d336bc5d52f1843629025b1d3ac9fa62aafb79cf89c66c6c",
+      "afterSha256": "d71a42875eb760f14026265f6faae5dcc3f4a85cf091bdd4f340f2529049ea47",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/short-term-caveat-loans-australia.md:122",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__short-term-caveat-loans-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/what-is-a-second-mortgage.md",
+      "pageId": "pg_b5bcd34797d340b7a8b273048c2721fa",
+      "path": "/resources/guides/what-is-a-second-mortgage",
+      "beforeSha256": "806807218cd0f7a828a19d84394b0525c393bd0a3ceddfd01f147fa9d3f0ef52",
+      "afterSha256": "3c2cefec44b9029226b2ea5d90cc9ae6f480e015988cbd43d6641bd4a36cadd6",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/what-is-a-second-mortgage.md:168",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__what-is-a-second-mortgage.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    }
+  ]
+}

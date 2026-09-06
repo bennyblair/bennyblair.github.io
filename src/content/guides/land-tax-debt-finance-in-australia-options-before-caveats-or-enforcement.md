@@ -157,7 +157,7 @@ Emet Capital helps eligible commercial borrowers work out whether land tax arrea
 
 The starting point is practical: how much is owed, what property is available, what title issues exist, what the deadline is, and what event will repay the facility. From there, the file can be matched to lenders that understand property-backed commercial scenarios.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Land tax debt finance in Australia is commercial funding used to address state revenue land tax arrears before they create enforcement, caveat, refinance or settlement problems. Common options include a payment arrangement, commercial property refinance, second mortgage, caveat loan, private lending, property sale or capital injection. Lenders assess the exact debt, property value, existing mortgage position, title, urgency, documents and exit strategy. The safest use is a short-term facility with a clear repayment event, not open-ended debt for a recurring tax problem.
 

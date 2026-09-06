@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { authoredMetadataChecks } from "./lib/live-metadata";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import matter from "gray-matter";
@@ -145,8 +146,7 @@ for (let attempt = 1; attempt <= attempts; attempt += 1) {
     const checks = {
       status200: response.status === 200,
       renderedTitle: Boolean(item.title) && response.text.includes(item.title),
-      authoredMetaTitle: !item.isNew && !item.metaTitle || renderedTitle === item.metaTitle,
-      authoredMetaDescription: !item.isNew && !item.metaDescription || renderedDescription === item.metaDescription,
+      ...authoredMetadataChecks(item, renderedTitle, renderedDescription),
       selfCanonical: canonical ? new URL(canonical, base).pathname.replace(/\/$/, "") === item.route : false,
       indexAllowed: !robots.includes("noindex"),
       inSitemap: sitemap.text.includes(`<loc>${base}${item.route}</loc>`),

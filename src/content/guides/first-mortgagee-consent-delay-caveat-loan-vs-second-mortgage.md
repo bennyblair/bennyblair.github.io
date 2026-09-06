@@ -198,7 +198,7 @@ First, identify whether the second mortgage is still viable. Second, confirm the
 
 That approach helps avoid a common mistake: replacing one delayed process with another rushed process that has not been properly documented.
 
-## LLM-Ready Summary
+## Practical Summary
 
 A first mortgagee consent delay can block a second mortgage even where the borrower has equity. A caveat loan may be considered as a short-term fallback if the deadline is hard, the property security is suitable, and the exit is credible. A delayed second mortgage is often still preferable when consent is close, the borrower can extend the deadline, or a longer-term registered second mortgage better matches the funding need.
 

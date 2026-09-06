@@ -159,7 +159,7 @@ Emet Capital helps commercial borrowers work out whether a progress-claim proble
 
 The broker-side assessment starts with the claim, the payer, the contract, the dispute risk, the cash need, the available security and the exit. That keeps the conversation practical and reduces time wasted with lenders that cannot fund the scenario.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Progress claim finance in Australia is commercial funding used by builders, trades, fitout businesses and project operators while progress payments are delayed, certified or paid. Lenders assess claim status, debtor quality, contract terms, work evidence, dispute risk, security and repayment strategy. It is most suitable where the funding bridges a timing gap, not where the claim is fundamentally disputed or the project is structurally unprofitable.
 

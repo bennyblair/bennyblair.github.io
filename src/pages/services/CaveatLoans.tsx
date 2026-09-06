@@ -80,11 +80,15 @@ const CaveatLoans = () => {
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Caveat Loans
             </h1>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Explore short-term business funding supported by residential or commercial property.
+              We review the title position, available equity, payment deadline and repayment plan before comparing a potential facility.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                <Link to="/contact">
+                <Link to="/contact" data-analytics-event="service_enquiry">
                   <FileText className="mr-2 h-5 w-5" />
-                  Get Quote
+                  Discuss Your Transaction
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -248,7 +252,7 @@ const CaveatLoans = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                  <Link to="/contact" data-analytics-event="service_enquiry"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>

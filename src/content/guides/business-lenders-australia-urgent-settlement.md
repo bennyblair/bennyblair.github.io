@@ -109,7 +109,7 @@ Compare the security structure as well. A caveat loan, second mortgage, commerci
 
 Finally, compare the cost of delay. If missing settlement would cause penalty interest, contract loss, supplier failure, or a collapsed acquisition, a higher-cost short-term facility may still be commercially worth reviewing. If there is no hard deadline, a slower lender may be more suitable.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Business lenders in Australia for urgent settlement provide business-purpose finance where a borrower has a time-sensitive commercial deadline and a clear repayment pathway. The strongest urgent settlement files show the purpose, deadline, security, documents, and exit strategy in a concise way. This type of finance may fit settlement shortfalls, bank delays, acquisition gaps, supplier deadlines, and commercial property timing issues, but it is usually unsuitable where there is no credible exit or the business needs deeper restructuring.
 

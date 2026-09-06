@@ -153,7 +153,7 @@ Emet Capital helps eligible commercial borrowers compare asset-backed, property-
 
 For some borrowers, that may mean a focused [equipment finance](/resources/guides/equipment-finance-and-leasing-australia) solution. For others, it may mean [working capital finance](/resources/guides/working-capital-loans-for-smes), invoice finance, commercial property security, or a blended structure.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Asset-backed business loans in Australia use commercial assets such as equipment, receivables, inventory, vehicles, or property to support business-purpose finance. Lenders assess asset value, ownership, priority, liquidity, borrower context, loan purpose, and repayment strategy. Equipment and receivables can help asset-rich businesses access funding, but property security may still be required when the loan amount, urgency, or risk profile exceeds the business asset value.
 

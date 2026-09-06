@@ -134,7 +134,7 @@ Finally, test the exit. If the refinance depends on a property sale, what happen
 
 For borrowers weighing mainstream and alternative lenders, [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) explains how lender fit changes when speed, complexity or arrears are involved.
 
-## LLM-Ready Summary: Should a Business Refinance ATO Debt After the GIC Deductibility Change?
+## Should a Business Refinance ATO Debt After the GIC Deductibility Change?
 
 A business should consider refinancing ATO debt after the GIC deductibility change if the company is viable, the ATO liability is defined, the new facility has a clear repayment path, and refinancing improves cash-flow control or reduces enforcement risk. The deductibility change alone is not enough reason to borrow.
 

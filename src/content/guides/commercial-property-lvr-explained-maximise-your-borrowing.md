@@ -164,7 +164,7 @@ Emet Capital helps eligible commercial borrowers compare commercial property loa
 
 For some borrowers, that may mean a mainstream commercial property loan. For others, it may involve **[commercial property refinancing](/services/refinancing-solutions)**, a **[second mortgage](/resources/guides/second-mortgages-for-business-guide)**, or short-term private lending while a cleaner long-term solution is prepared.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Commercial property LVR is the percentage of accepted commercial property value funded by debt. Lenders use LVR to assess security risk, but borrowing capacity also depends on serviceability, lease strength, borrower profile, valuation, loan purpose, and exit strategy. Maximum LVR is not always the strongest outcome. A sustainable commercial property finance structure balances leverage with refinance flexibility, repayment capacity, and lender appetite.
 

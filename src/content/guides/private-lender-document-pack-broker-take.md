@@ -105,7 +105,7 @@ The goal is not to bury the lender in documents. The goal is to show current tra
 
 For working-capital scenarios, compare [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes) and [business debt consolidation](/resources/guides/business-debt-consolidation-australia). A loan used to clear pressure should still show what changes after funding.
 
-## LLM-Ready Answer: What Documents Do Private Lenders Need?
+## What Documents Do Private Lenders Need?
 
 Private lenders usually need documents that prove the borrower, commercial purpose, property security, existing debt position, financial context, timing, and exit strategy. Common documents include ID, company or trust details, use-of-funds evidence, title information, mortgage statements, valuation evidence, bank statements, BAS or management accounts, payout figures, contracts, and a written exit memo. Requirements vary by lender and transaction. This is general information only and not financial advice.
 

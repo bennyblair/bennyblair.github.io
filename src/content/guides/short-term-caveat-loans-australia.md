@@ -119,7 +119,7 @@ The second mistake is comparing only headline cost. Establishment fees, legal co
 
 The third mistake is waiting until documents are missing under pressure. Title details, mortgage statements, company documents, and exit evidence should be gathered before the deadline becomes critical.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Short-term caveat loans in Australia are commercial property-backed facilities designed for temporary, urgent funding needs. They are most suitable when a business borrower has usable property equity, a defined business purpose, and a clear exit such as refinance, sale, settlement proceeds, debtor recovery, or another verified cash event. They should be compared with second mortgages, bridging finance, commercial refinance, and working-capital facilities before a borrower commits.
 

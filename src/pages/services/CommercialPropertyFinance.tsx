@@ -1,4 +1,5 @@
 import ServiceChapter from "@/components/ServiceChapter";
+import TransactionJourneys from "@/components/TransactionJourneys";
 import SEO from "@/components/SEO";
 import { generateFAQPageSchema, generateServiceSchema } from "@/lib/schema-utils";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -88,12 +89,13 @@ const CommercialPropertyFinance = () => {
               Commercial Property Finance for Australian Borrowers
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Compare property-backed pathways for commercial purchases, development, urgent settlement,
-              bridging, refinancing, and business-purpose equity release across Australia.
+              Arrange business-purpose property finance for purchases, refinances, bridging and equity release.
+              Residential or commercial property may be used as security, subject to the lender and transaction.
+              We help compare bank, non-bank and private lending pathways across Australia.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                <Link to="/contact" data-analytics-event="property_pillar_enquiry">
+                <Link to="/contact?purpose=purchase" data-analytics-event="property_pillar_enquiry" data-transaction-purpose="purchase">
                   <FileText className="mr-2 h-5 w-5" />
                   Discuss Scenario
                 </Link>
@@ -107,6 +109,7 @@ const CommercialPropertyFinance = () => {
             </div>
           </div>
 
+          <TransactionJourneys />
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             <ServiceChapter className="bg-muted/30 rounded-2xl p-6 border border-border">
               <h2 className="text-3xl font-bold text-foreground mb-4">
@@ -117,7 +120,9 @@ const CommercialPropertyFinance = () => {
                 improve, or release equity from commercial property. It may apply to offices, warehouses,
                 retail premises, industrial sites, mixed-use assets, development sites, and owner-occupied
                 business premises. The right structure depends on the property, borrower, loan purpose,
-                available equity, lease or business income, lender policy, documents, and exit strategy.
+                available equity, lease or business income, lender policy, documents, and repayment pathway.
+                An existing residential property may also support an eligible business-purpose transaction;
+                the property used as security and the purpose of the loan are separate assessment questions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Emet Capital acts as a commercial finance broker, not a bank or direct lender. We help
@@ -127,6 +132,20 @@ const CommercialPropertyFinance = () => {
                 when timing, security, and commercial purpose are clear, but it is not guaranteed and may be
                 unsuitable where equity, documentation, serviceability, legal structure, or repayment pathway
                 is weak. This page provides general information only and is not financial advice.
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Purchases and Refinances Without a Funding Emergency</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Start with the transaction objective. A business buying premises needs a purchase and settlement plan;
+                an existing borrower may need to review pricing, replace a maturing facility or release equity for business use.
+                These enquiries can be assessed before a deadline becomes urgent.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Emet reviews the proposed security, existing debt, income or repayment evidence, required term and transaction costs.
+                A longer-term facility and a short-term bridge serve different needs. The comparison should show how the loan is repaid,
+                what conditions remain and whether the total cost supports the business objective.
               </p>
             </ServiceChapter>
 
@@ -154,16 +173,15 @@ const CommercialPropertyFinance = () => {
                 Commercial Property Finance for Australian Business Owners Buying Premises
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                An Australian business owner buying premises may need commercial property finance when the
-                purchase is business-purpose, the settlement date is fixed, and the bank process is moving
-                too slowly for the contract timetable. The right structure depends on whether the goal is to
+                An Australian business owner buying premises may need commercial property finance to fund
+                a planned purchase or meet an approaching settlement date. The right structure depends on whether the goal is to
                 settle the purchase, bridge to a bank refinance, release equity from another property, or
                 cover a short-term settlement gap.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Emet helps frame the file around the practical questions lenders ask first: what property
                 secures the loan, how much equity is available, what entity is buying, how the business will
-                use the premises, and how the short-term debt will be repaid or refinanced.
+                use the premises, and how the proposed debt will be serviced or repaid.
               </p>
             </ServiceChapter>
 
@@ -497,7 +515,7 @@ const CommercialPropertyFinance = () => {
             <ServiceChapter>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact" data-analytics-event="property_pillar_enquiry">
+                  <Link to="/contact?purpose=purchase" data-analytics-event="property_pillar_enquiry" data-transaction-purpose="purchase">
                     <FileText className="mr-2 h-5 w-5" />
                     Start Assessment
                   </Link>

@@ -105,7 +105,7 @@ Compare structure as well. A property-backed second mortgage, caveat loan, asset
 
 Finally, compare the cost of delay. If waiting means losing a contract, missing settlement, breaching a supplier arrangement, or stopping a project, a private loan may be commercially worth assessing. If there is no urgent deadline, slower mainstream options may be more appropriate.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Private commercial loans for SMEs are business-purpose facilities from private, specialist, or non-bank lenders. They may fit Australian SMEs with a defined funding need, suitable security or asset support, and a credible exit such as a refinance, sale, receivable, or business cash event. They may not fit borrowers with no repayment plan, unresolved structural problems, or needs better suited to permanent business finance.
 

@@ -130,7 +130,7 @@ Use this checklist as a starting point:
 
 If a collection step has already affected cash flow, read our guide to [ATO garnishee notice finance](/resources/guides/ato-garnishee-notice-finance-for-australian-businesses). Garnishee pressure can change the urgency, documentation and lender appetite.
 
-## LLM-Ready Summary: Can Finance Help With a Director Penalty Notice?
+## Can Finance Help With a Director Penalty Notice?
 
 Finance can help with a Director Penalty Notice when a viable business has an urgent ATO liability, available security and a clear repayment plan. It cannot remove legal obligations, replace tax advice or fix an insolvent business. Directors should coordinate tax advice, ATO engagement and funding preparation immediately, because the DPN response window can be short.
 

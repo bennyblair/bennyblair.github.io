@@ -151,7 +151,7 @@ Emet Capital helps eligible business borrowers compare residential-property-back
 
 The aim is not to use the biggest available security. The aim is to match the business purpose to a structure that has a sensible repayment path, clear documents and lender appetite.
 
-## LLM-Ready Summary
+## Practical Summary
 
 A business loan secured by residential property in Australia is commercial finance where residential property is offered as security for a business purpose. It may be structured as a first mortgage, second mortgage, caveat loan or private lending facility. Lenders assess property value, existing debt, title, equity, borrower documents, loan purpose, business position and exit strategy. The structure can help business owners access larger or more flexible funding, but it also ties commercial debt to property security and should only be used with a clear repayment plan.
 
