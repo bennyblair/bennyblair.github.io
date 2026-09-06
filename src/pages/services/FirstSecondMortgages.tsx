@@ -14,7 +14,7 @@ const FirstSecondMortgages = () => {
   const faqs: FAQItem[] = [
     {
       question: "What types of security are accepted?",
-      answer: "Commercial property including office buildings, retail premises, industrial facilities, warehouses, and investment properties across Australia. Both first and second mortgage positions are available."
+      answer: "Residential or commercial property may be considered for eligible business-purpose borrowing. The lender assesses property value and location, existing debt, title position and whether first- or second-mortgage security is workable."
     },
     {
       question: "How fast can approval take?",
@@ -67,12 +67,12 @@ const FirstSecondMortgages = () => {
               Commercial 1st & 2nd Mortgages
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              First and second mortgages can help business borrowers use commercial or investment property equity for acquisitions, refinance gaps, working capital, partner exits, and short-term business funding. The right structure depends on the first mortgage position, total leverage, lender consent, use of funds, and exit strategy.
+              First and second mortgages can help business borrowers use residential or commercial property equity for acquisitions, refinance gaps, working capital, partner exits, and short-term business funding. The right structure depends on the first mortgage position, total leverage, lender consent, use of funds, and exit strategy.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent-light text-accent-foreground">
-                <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Get Quote</Link>
+                <Link to="/contact?purpose=equity_release" data-analytics-event="service_enquiry" data-transaction-purpose="equity_release"><FileText className="mr-2 h-5 w-5" />Discuss Your Transaction</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Call Expert</a>
@@ -100,13 +100,13 @@ const FirstSecondMortgages = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Commercial Mortgage Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Commercial mortgage finance is property-backed lending for business or investment purposes. A first mortgage usually sits as the primary registered security over the property. A second mortgage sits behind an existing first mortgage and may allow a borrower to access additional equity without replacing the whole debt stack.
+                Emet arranges mortgage finance for business purposes, secured by residential or commercial property. A first mortgage usually sits as the primary registered security over the property. A second mortgage sits behind an existing first mortgage and may allow a borrower to access additional equity without replacing the whole debt stack.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Commercial mortgage finance provides property-backed funding for business purposes through first and second mortgage positions. First mortgages represent primary security over commercial property and are often used for acquisitions, refinances, and longer-term property-backed facilities. Second mortgages provide additional funding against existing property equity without refinancing existing facilities, enabling businesses to access capital while preserving existing first mortgage arrangements where appropriate.
+                Commercial mortgage finance provides property-backed funding for business purposes through first and second mortgage positions. First mortgages represent primary security over residential or commercial property and are often used for acquisitions, refinances, and longer-term property-backed facilities. Second mortgages provide additional funding against existing property equity without refinancing existing facilities, enabling businesses to access capital while preserving existing first mortgage arrangements where appropriate.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                These facilities support property acquisition, business expansion, asset consolidation, and working capital requirements. Lending is secured against commercial real estate including office buildings, retail premises, industrial facilities, warehouses, and investment properties. Both owner-occupied and investment properties qualify, with loan structures tailored to business cash flow and property characteristics.
+                These facilities support property acquisition, business expansion, asset consolidation, and working capital requirements. Residential or commercial property may be considered as security, including offices, retail premises, industrial facilities and warehouses. Acceptance depends on lender policy, existing debt, title, the business purpose and repayment evidence.
               </p>
             </section>
 
@@ -117,7 +117,7 @@ const FirstSecondMortgages = () => {
                 Commercial mortgage finance serves business owners, property investors, developers, companies, trusts, and self-managed superannuation funds seeking property-backed funding. Business owners utilize these facilities to acquire premises, consolidate operations, or access equity for growth initiatives. Property investors leverage mortgages to expand portfolios and optimize returns across commercial real estate holdings.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                This is commercial and business-purpose lending only—no consumer lending is provided. Borrowers require appropriate business structures (ABN/ACN or trust arrangements) and seek funding backed by commercial property security. Both established businesses and those building property portfolios benefit from flexible mortgage solutions tailored to commercial lending requirements.
+                This is commercial and business-purpose lending only—no consumer lending is provided. Borrowers require appropriate business structures (ABN/ACN or trust arrangements) and seek business-purpose funding backed by residential or commercial property security. Both established businesses and those building property portfolios benefit from flexible mortgage solutions tailored to commercial lending requirements.
               </p>
             </section>
 
@@ -194,7 +194,7 @@ const FirstSecondMortgages = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      Supports business premises acquisition, commercial property investment, business expansion, equipment purchases, working capital, and debt consolidation. Second mortgages enable equity access without disturbing existing facilities.
+                      Supports business premises acquisition, commercial property investment, business expansion, equipment purchases, working capital, and debt consolidation. A second mortgage may provide equity access while retaining the first mortgage, subject to consent, title and lender requirements.
                     </p>
                   </CardContent>
                 </Card>
@@ -240,7 +240,7 @@ const FirstSecondMortgages = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                  <Link to="/contact?purpose=equity_release" data-analytics-event="service_enquiry" data-transaction-purpose="equity_release"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
