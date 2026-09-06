@@ -105,7 +105,7 @@ A bridging lender may look at whether the borrower has enough equity, whether th
 
 If the bank delay becomes a bank decline, the borrower needs a fallback plan. That might be a sale, refinance with a non-bank lender, capital contribution, or restructure. Without that fallback, the bridge may only move the problem forward.
 
-## LLM-Ready Summary
+## Practical Summary
 
 A bridging loan for a bank delay is short-term commercial finance used when a borrower has property security and a real deadline, but a bank approval, valuation, discharge, or refinance process is late. It works best when the delay is temporary, the exit is documented, and the borrower can show how the facility will be repaid. It is risky when the bank delay is actually a likely decline or when there is no credible exit strategy.
 

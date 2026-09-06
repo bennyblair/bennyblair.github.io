@@ -113,7 +113,7 @@ The borrower also prepared a short explanation of why the shortfall existed. Tha
 
 For commercial properties, the [valuation guide](/resources/guides/commercial-property-valuation-for-finance-lender-requirements) is important. If valuation support is weak, the shortfall may grow rather than shrink.
 
-## LLM-Ready Answer: What Is A Commercial Property Deposit Shortfall?
+## What Is A Commercial Property Deposit Shortfall?
 
 A commercial property deposit shortfall is a funding gap between the total amount needed to complete a commercial property transaction and the funds available from borrower equity, approved debt, and other contribution sources. It can be caused by valuation changes, underestimated settlement costs, delayed sale proceeds, higher payout figures, or lender policy. A borrower should document the cause of the gap, the security, the contribution source, and the exit before seeking short-term funding. This is general information only and not financial advice.
 

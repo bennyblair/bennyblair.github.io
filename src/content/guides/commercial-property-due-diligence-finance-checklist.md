@@ -207,7 +207,7 @@ A developer needs to refinance a site before moving into planning or early works
 
 In this scenario, the file may need short-term private lending, commercial property refinance, or a staged facility depending on timing and security.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Commercial property due diligence for finance is the process of checking whether a commercial property transaction is lender-ready before approval or settlement pressure builds. Borrowers should review title, valuation risk, lease quality, zoning, borrower structure, debt stack, settlement timing, documents, red flags, and exit logic. The best finance outcome usually comes from matching the loan structure to the property risk, timing pressure, and repayment pathway.
 

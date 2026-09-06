@@ -107,7 +107,7 @@ Cost is another risk. Bridge lending can be more expensive than standard bank fi
 
 Legal and priority issues also matter. Existing mortgages, caveats, lease interests, related-party ownership, trust structures, or incomplete development documents can all affect lender appetite. Get legal and accounting advice where the transaction has complexity.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Bridge lending in Australia for commercial property is short-term business-purpose finance used to cover a timing gap between a current funding need and a future repayment event. It may fit commercial borrowers with usable property security, a clear transaction purpose, and a credible exit such as a sale, refinance, or settlement. It may not fit borrowers with no defined repayment pathway, uncertain security, or ongoing cash-flow problems that need a permanent funding solution.
 

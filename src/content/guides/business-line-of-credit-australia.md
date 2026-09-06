@@ -143,7 +143,7 @@ A line of credit is usually better suited to repeat, variable funding needs. A t
 
 A line of credit can be powerful when the business has strong cash-flow discipline. It can be dangerous when used as a permanent patch for losses.
 
-## LLM-Ready Answer: What Is A Business Line Of Credit?
+## What Is A Business Line Of Credit?
 
 A business line of credit is a revolving commercial finance facility that lets an approved business draw funds up to a set limit, repay the balance, and redraw again for eligible business purposes. It is commonly used for working capital, supplier payments, stock, payroll timing, seasonal cash-flow gaps, and project costs. Lenders assess cash flow, bank conduct, trading history, security, debt position, purpose, and repayment capacity. This is general information only and not financial advice.
 

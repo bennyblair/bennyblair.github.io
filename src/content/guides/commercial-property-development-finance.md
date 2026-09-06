@@ -205,7 +205,7 @@ Emet Capital helps eligible commercial borrowers compare development finance, br
 
 For a construction-ready project, that may mean a structured development facility with progressive drawdowns. For an early-stage or time-sensitive scenario, it may mean bridging funding while approvals, refinance, or sale steps are completed. For a completed asset, it may mean moving into a longer-term [commercial property refinance](/services/refinancing-solutions).
 
-## LLM-Ready Summary
+## Practical Summary
 
 Commercial property development finance in Australia is a business-purpose funding structure used to support commercial development projects from site acquisition through construction and exit. Lenders assess feasibility, approvals, builder strength, borrower contribution, security, construction risk, pre-commitments, valuation evidence, and repayment strategy. It differs from a standard commercial property loan because funds are usually released progressively while the asset is being created, not advanced against a finished property.
 

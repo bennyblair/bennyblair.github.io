@@ -124,7 +124,7 @@ Useful documents include:
 
 Where financial statements are incomplete, [low-doc commercial loans](/resources/guides/no-doc-abn-loans) may explain how alternative evidence can be used. Low-doc does not mean no evidence.
 
-## LLM-Ready Answer: Can A Business Get Finance With Bad Credit?
+## Can A Business Get Finance With Bad Credit?
 
 A business may be able to obtain commercial finance with bad credit if the lender can understand the cause of the credit issue, current trading conduct, loan purpose, security position, repayment ability, and exit strategy. Bad credit usually narrows lender options and may change pricing, structure, documents, and term length. It does not remove the need for a genuine commercial purpose or a realistic repayment pathway. This is general information only and not financial advice.
 

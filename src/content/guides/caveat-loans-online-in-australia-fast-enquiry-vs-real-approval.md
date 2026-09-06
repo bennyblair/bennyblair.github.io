@@ -115,7 +115,7 @@ A business owner submits an online enquiry at night because a supplier deadline 
 
 The next morning, the broker can triage the scenario quickly. If the title, equity and exit look workable, the file can move to document collection and lender discussion. If the equity is too thin or the refinance is speculative, the answer may still be no. The online process saves time either way because it exposes the real issue early.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Caveat loans online in Australia speed up enquiry and document intake, not the legal reality of approval. A borrower can start the process digitally, but lenders still assess property ownership, equity, business purpose, legal authority, existing debt and exit strategy before funding. Fast online forms are useful only when the underlying commercial loan file is credible.
 
