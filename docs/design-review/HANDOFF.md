@@ -2,7 +2,7 @@
 
 This is a separate review copy. The production domain, hosting, main branch, content automation and lead delivery are unchanged.
 
-The updated homepage follows the owner's request for a closer Old Tom Capital feel: immersive property photography, confident scale, generous spacing, mineral-white reading areas and restrained eucalyptus-green sections. It keeps the Emet identity and uses licensed photographs of real Australian buildings. Stock photography is identified as representative, not as client property.
+The updated homepage follows the owner's request for a closer Old Tom Capital feel: immersive property photography, confident scale, generous spacing, mineral-white reading areas and restrained eucalyptus-green sections. It keeps the Emet identity and uses licensed photographs of real Australian buildings. Photo provenance records the stock-property context, without repeated homepage captions or any claim that Emet financed the depicted buildings.
 
 ## Design changes
 
@@ -71,3 +71,15 @@ Production promotion is a separate decision. Before release, capture Search Cons
 - Browser acceptance: `npm run qa:design -- http://127.0.0.1:4173 --screenshots`, after `npm run preview`.
 - Apply the separate binary implementation patch to the matching baseline in an isolated branch for review. Do not publish the review build to the production domain.
 - `.openai/hosting.json` belongs to the separate Sites review. Production `netlify.toml` and the route manifest are preserved.
+
+
+## Homepage photography and label refinement
+
+The services photo is replaced with a sharp, portrait Melbourne facade; the second example receives a distinct Melbourne photograph. Hero and heritage images are served from sharper responsive crops. Desktop images are monochrome until hover or keyboard focus; touch devices receive colour directly. Hero preload candidates match the actual image selection.
+
+Homepage photo captions and repeated illustrative-scenario badges are removed at the owner's request. The section is now “Finance in practice”, with one clear explanation that examples are not completed client transactions. Existing outcome prefixes become “Potential outcome:” or “How”, retaining the numbers, facts and conditional wording. Article bodies, case-study URLs and page SEO metadata are untouched. Changes and provenance are recorded in proposed-exceptions.json and homepage-photo-sources.json.
+
+
+Photography validation: six responsive cases passed at 320/390/768/1024/1280/1440px with two-device-pixel-ratio source checks, hover and keyboard colour access, touch colour delivery, homepage accessibility scans, no preview analytics/lead writes and no horizontal overflow. The final private-review Lighthouse measured LCP 2,418 ms, CLS 0, TBT 66 ms, accessibility 100 and 108,068 initial JavaScript bytes. Those performance budgets pass; the full Lighthouse gate intentionally does not pass because this private copy's noindex/robots protection yields SEO 69. This is a preview laboratory measurement, not a new production/field measurement. See photography-performance.json.
+
+All 380 routes retain their canonicals, page titles, descriptions, H1s, structured data and internal-link destinations. Text comparison differences are limited to the specifically requested homepage captions, heading/disclosure and six scenario prefixes; underlying amounts, numbers and conditional wording remain. See photo-seo-summary.json and photo-seo-differences.json. Existing production-release claim-gate requirements still apply.

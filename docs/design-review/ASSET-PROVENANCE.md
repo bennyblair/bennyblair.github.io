@@ -78,3 +78,18 @@ Example CSS:
 ## Integrated variants
 
 Following the owner's Old Tom Capital direction, the final homepage uses an immersive background photograph. Hero variants are 1400 × 1050 and 720 × 540 WebP; scenario thumbnails are 800 × 420 WebP. Restored legacy JPEG paths use real JPEG bytes at 1200 × 630. Compression and crops derive from the credited source files. No paid assets or AI-generated client properties are used.
+
+
+## Homepage photography refinement
+
+The owner requested sharper images, monochrome-to-colour interaction and removal of repeated stock-photo/scenario labels.
+
+- Services now uses Mitchell Luo's curved Melbourne facade: https://unsplash.com/photos/blue-glass-building-under-blue-sky-during-daytime-Q2rXT72yMg0
+- The acquisition example now uses Mitchell Luo's angular Melbourne facade: https://unsplash.com/photos/blue-glass-walled-high-rise-building-cOKBQ-TZdI4
+- Both are original colour photographs, 3000 x 4500 sources, licensed for free commercial use under https://unsplash.com/license. Full download provenance and hashes are in homepage-photo-sources.json.
+- The Dandenong hero and Broughton House source photographs above are retained with new responsive derivatives. No new attribution obligation applies; the removed captions were editorial labels, not required photographer credits.
+- Hero delivery uses AVIF at 1600/2400 desktop widths and dedicated 600/900 portrait crops on mobile, with WebP fallbacks. Preload candidates match the picture's media, source set and sizes.
+- Services uses 800/1200/1800 portrait WebP. The two large example cards use 800/1600 AVIF and WebP source sets, replacing fixed 800 x 420 thumbnails.
+- Only crop, resize and format/compression operations were used. Architecture, colours and building details are real, without generative edits.
+- Grayscale is CSS presentation. Fine-pointer hover and keyboard focus reveal original colour. Touch devices show colour without hover. Reduced-motion removes the transition.
+- These are stock photographs illustrating property context, not representations that Emet financed these buildings. Their identity is retained in truthful alt text and this internal provenance; the homepage examples remain explicitly hypothetical.

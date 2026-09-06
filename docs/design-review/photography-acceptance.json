@@ -1,0 +1,240 @@
+{
+  "date": "2026-09-06T10:04:35.732Z",
+  "base": "http://127.0.0.1:4173",
+  "results": [
+    {
+      "width": 320,
+      "touch": true,
+      "imagery": [
+        {
+          "source": "/images/design/home-commercial-mobile-900.avif",
+          "width": 900,
+          "height": 1350,
+          "density": 1.7763157894736843,
+          "filter": "grayscale(0) brightness(0.88)",
+          "alt": "Glass and steel commercial building in Dandenong, Australia"
+        },
+        {
+          "source": "/images/design/home-services-800.webp",
+          "width": 800,
+          "height": 1200,
+          "density": 2.857142857142857,
+          "filter": "grayscale(0)",
+          "alt": "Curved glass facade framing the sky in Melbourne"
+        },
+        {
+          "source": "/images/design/home-heritage-800.avif",
+          "width": 800,
+          "height": 592,
+          "density": 2.854301642308272,
+          "filter": "grayscale(0)",
+          "alt": "Brick and stone facade of Broughton House in Sydney"
+        },
+        {
+          "source": "/images/design/home-acquisition-800.avif",
+          "width": 800,
+          "height": 592,
+          "density": 2.854301642308272,
+          "filter": "grayscale(0)",
+          "alt": "Angular glass commercial building in Melbourne"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "touch": true,
+      "imagery": [
+        {
+          "source": "/images/design/home-commercial-mobile-900.avif",
+          "width": 900,
+          "height": 1350,
+          "density": 1.7763157894736843,
+          "filter": "grayscale(0) brightness(0.88)",
+          "alt": "Glass and steel commercial building in Dandenong, Australia"
+        },
+        {
+          "source": "/images/design/home-services-800.webp",
+          "width": 800,
+          "height": 1200,
+          "density": 2.2857142857142856,
+          "filter": "grayscale(0)",
+          "alt": "Curved glass facade framing the sky in Melbourne"
+        },
+        {
+          "source": "/images/design/home-heritage-800.avif",
+          "width": 800,
+          "height": 592,
+          "density": 2.28351012536162,
+          "filter": "grayscale(0)",
+          "alt": "Brick and stone facade of Broughton House in Sydney"
+        },
+        {
+          "source": "/images/design/home-acquisition-800.avif",
+          "width": 800,
+          "height": 592,
+          "density": 2.28351012536162,
+          "filter": "grayscale(0)",
+          "alt": "Angular glass commercial building in Melbourne"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 768,
+      "touch": false,
+      "imagery": [
+        {
+          "source": "/images/design/home-commercial-1600.avif",
+          "width": 1600,
+          "height": 1200,
+          "density": 1.643835616438356,
+          "filter": "grayscale(1) brightness(0.88)",
+          "alt": "Glass and steel commercial building in Dandenong, Australia"
+        },
+        {
+          "source": "/images/design/home-services-800.webp",
+          "width": 800,
+          "height": 1200,
+          "density": 1.8461538461538463,
+          "filter": "grayscale(1)",
+          "alt": "Curved glass facade framing the sky in Melbourne"
+        },
+        {
+          "source": "/images/design/home-heritage-800.avif",
+          "width": 800,
+          "height": 592,
+          "density": 2.3946403741625586,
+          "filter": "grayscale(1)",
+          "alt": "Brick and stone facade of Broughton House in Sydney"
+        },
+        {
+          "source": "/images/design/home-acquisition-800.avif",
+          "width": 800,
+          "height": 592,
+          "density": 2.3946403741625586,
+          "filter": "grayscale(1)",
+          "alt": "Angular glass commercial building in Melbourne"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "touch": false,
+      "imagery": [
+        {
+          "source": "/images/design/home-commercial-2400.avif",
+          "width": 2400,
+          "height": 1800,
+          "density": 2.295918367346939,
+          "filter": "grayscale(1) brightness(0.88)",
+          "alt": "Glass and steel commercial building in Dandenong, Australia"
+        },
+        {
+          "source": "/images/design/home-services-1200.webp",
+          "width": 1200,
+          "height": 1800,
+          "density": 2.4324324324324325,
+          "filter": "grayscale(1)",
+          "alt": "Curved glass facade framing the sky in Melbourne"
+        },
+        {
+          "source": "/images/design/home-heritage-1600.avif",
+          "width": 1600,
+          "height": 1185,
+          "density": 3.547240411599626,
+          "filter": "grayscale(1)",
+          "alt": "Brick and stone facade of Broughton House in Sydney"
+        },
+        {
+          "source": "/images/design/home-acquisition-1600.avif",
+          "width": 1600,
+          "height": 1185,
+          "density": 3.547240411599626,
+          "filter": "grayscale(1)",
+          "alt": "Angular glass commercial building in Melbourne"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "touch": false,
+      "imagery": [
+        {
+          "source": "/images/design/home-commercial-2400.avif",
+          "width": 2400,
+          "height": 1800,
+          "density": 1.875,
+          "filter": "grayscale(1) brightness(0.88)",
+          "alt": "Glass and steel commercial building in Dandenong, Australia"
+        },
+        {
+          "source": "/images/design/home-services-1800.webp",
+          "width": 1800,
+          "height": 2700,
+          "density": 3.4993924665856624,
+          "filter": "grayscale(1)",
+          "alt": "Curved glass facade framing the sky in Melbourne"
+        },
+        {
+          "source": "/images/design/home-heritage-1600.avif",
+          "width": 1600,
+          "height": 1185,
+          "density": 2.8152492668621703,
+          "filter": "grayscale(1)",
+          "alt": "Brick and stone facade of Broughton House in Sydney"
+        },
+        {
+          "source": "/images/design/home-acquisition-1600.avif",
+          "width": 1600,
+          "height": 1185,
+          "density": 2.8152492668621703,
+          "filter": "grayscale(1)",
+          "alt": "Angular glass commercial building in Melbourne"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "touch": false,
+      "imagery": [
+        {
+          "source": "/images/design/home-commercial-2400.avif",
+          "width": 2400,
+          "height": 1800,
+          "density": 1.6666666666666667,
+          "filter": "grayscale(1) brightness(0.88)",
+          "alt": "Glass and steel commercial building in Dandenong, Australia"
+        },
+        {
+          "source": "/images/design/home-services-1800.webp",
+          "width": 1800,
+          "height": 2700,
+          "density": 3.1105710814094776,
+          "filter": "grayscale(1)",
+          "alt": "Curved glass facade framing the sky in Melbourne"
+        },
+        {
+          "source": "/images/design/home-heritage-1600.avif",
+          "width": 1600,
+          "height": 1185,
+          "density": 2.4936704698648606,
+          "filter": "grayscale(1)",
+          "alt": "Brick and stone facade of Broughton House in Sydney"
+        },
+        {
+          "source": "/images/design/home-acquisition-1600.avif",
+          "width": 1600,
+          "height": 1185,
+          "density": 2.4936704698648606,
+          "filter": "grayscale(1)",
+          "alt": "Angular glass commercial building in Melbourne"
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

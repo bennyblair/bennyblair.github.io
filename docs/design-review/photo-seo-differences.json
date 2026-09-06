@@ -1,0 +1,71 @@
+[
+  {
+    "path": "/",
+    "changes": {
+      "baseline_blocks_not_found": [
+        {
+          "tag": "figcaption",
+          "text": "Dandenong, Australia · Representative property imagery",
+          "text_content": "Dandenong, Australia · Representative property imagery"
+        },
+        {
+          "tag": "figcaption",
+          "text": "Sydney, Australia · Representative property imagery",
+          "text_content": "Sydney, Australia · Representative property imagery"
+        },
+        {
+          "tag": "p",
+          "text": "Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions.",
+          "text_content": "Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions."
+        },
+        {
+          "tag": "p",
+          "text": "Illustrative scenario showing how multiple high-cost debts may be consolidated, cash flow stabilised, and a refinance path preserved",
+          "text_content": "Illustrative scenario showing how multiple high-cost debts may be consolidated, cash flow stabilised, and a refinance path preserved"
+        },
+        {
+          "tag": "p",
+          "text": "Illustrative scenario based on: Secured $18.5M development site, project now under construction, $4.2M profit projected",
+          "text_content": "Illustrative scenario based on: Secured $18.5M development site, project now under construction, $4.2M profit projected"
+        },
+        {
+          "tag": "p",
+          "text": "Illustrative scenario based on: Interest savings $185K annually, cash flow could improve $45K monthly, debt reduced to single facility",
+          "text_content": "Illustrative scenario based on: Interest savings $185K annually, cash flow could improve $45K monthly, debt reduced to single facility"
+        },
+        {
+          "tag": "p",
+          "text": "Illustrative scenario showing how trade finance may support revenue growth, supplier relationships, and margin improvement",
+          "text_content": "Illustrative scenario showing how trade finance may support revenue growth, supplier relationships, and margin improvement"
+        },
+        {
+          "tag": "p",
+          "text": "Illustrative scenario based on: Expanded from 2 to 5 venues, revenue increased 180%",
+          "text_content": "Illustrative scenario based on: Expanded from 2 to 5 venues, revenue increased 180%"
+        },
+        {
+          "tag": "p",
+          "text": "Illustrative scenario based on: Practice owns premises, $180K annual rent saved, $1.2M equity built",
+          "text_content": "Illustrative scenario based on: Practice owns premises, $180K annual rent saved, $1.2M equity built"
+        }
+      ],
+      "short_baseline_blocks_not_found": [
+        {
+          "tag": "h2",
+          "text": "Illustrative finance scenarios",
+          "text_content": "Illustrative finance scenarios"
+        },
+        {
+          "tag": "figcaption",
+          "text": "Representative property photography",
+          "text_content": "Representative property photography"
+        },
+        {
+          "tag": "figcaption",
+          "text": "Representative property photography",
+          "text_content": "Representative property photography"
+        }
+      ]
+    }
+  }
+]

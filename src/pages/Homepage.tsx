@@ -24,6 +24,24 @@ const services = [
   { title: "Business Acquisition", description: "Funding solutions for purchasing existing businesses, management buyouts, and strategic acquisitions.", link: "/services/business-acquisition" },
 ];
 
+const homepageCaseImages: Record<string, { src: string; srcSet: string; alt: string }> = {
+  "second-mortgage-working-capital-case-study": {
+    src: "/images/design/home-heritage-1600.webp",
+    srcSet: "/images/design/home-heritage-800.webp 800w, /images/design/home-heritage-1600.webp 1600w",
+    alt: "Brick and stone facade of Broughton House in Sydney",
+  },
+  "case-study-bridging-loan-won-the-property-auction": {
+    src: "/images/design/home-acquisition-1600.webp",
+    srcSet: "/images/design/home-acquisition-800.webp 800w, /images/design/home-acquisition-1600.webp 1600w",
+    alt: "Angular glass commercial building in Melbourne",
+  },
+};
+
+// Keep the example's facts and conditional wording; remove repeated editorial prefixes.
+const scenarioOutcome = (text: string) => text
+  .replace(/^Illustrative scenario based on:\s*/i, "Potential outcome: ")
+  .replace(/^Illustrative scenario showing how\s*/i, "How ");
+
 const Homepage = () => {
   const page = useRef<HTMLDivElement>(null);
   const [motionPaused, setMotionPaused] = useState(false);
@@ -180,10 +198,12 @@ const Homepage = () => {
           </div>
         </div>
         <figure className="hero-image">
-          <picture><source media="(max-width: 640px)" srcSet="/images/design/commercial-building-mobile.webp" />
-            <img src="/images/design/commercial-building.webp" alt="Glass and steel commercial building in Dandenong, Australia" width="1400" height="1050" fetchPriority="high" loading="eager" />
+          <picture>
+            <source media="(max-width: 640px)" type="image/avif" srcSet="/images/design/home-commercial-mobile-600.avif 600w, /images/design/home-commercial-mobile-900.avif 900w" sizes="max(100vw, 65vh)" width="900" height="1350" />
+            <source media="(max-width: 640px)" srcSet="/images/design/home-commercial-mobile-600.webp 600w, /images/design/home-commercial-mobile-900.webp 900w" sizes="max(100vw, 65vh)" width="900" height="1350" />
+            <source type="image/avif" srcSet="/images/design/home-commercial-1600.avif 1600w, /images/design/home-commercial-2400.avif 2400w" sizes="100vw" />
+            <img src="/images/design/home-commercial-1600.webp" srcSet="/images/design/home-commercial-1600.webp 1600w, /images/design/home-commercial-2400.webp 2400w" sizes="100vw" alt="Glass and steel commercial building in Dandenong, Australia" width="2400" height="1800" fetchPriority="high" loading="eager" />
           </picture>
-          <figcaption>Dandenong, Australia · Representative property imagery</figcaption>
         </figure>
         <a className="hero-scroll" href="#finance-overview" aria-label="Explore Emet Capital"><ArrowDown aria-hidden="true" /><span>Scroll to explore</span></a>
       </section>
@@ -197,23 +217,23 @@ const Homepage = () => {
 
       <section className="home-services section-pad">
         <div className="section-heading" data-motion-enter><p className="eyebrow">Finance solutions</p><h2>Commercial Finance Solutions</h2><p>Comprehensive business lending services designed for Australian commercial property investors, developers, and business owners who need fast, flexible financing solutions.</p><Link className="text-link" to="/services">View All Services <ArrowRight aria-hidden="true" /></Link></div>
-        <figure className="service-portrait" data-motion-enter><img src="/images/design/sydney-commercial-facade.webp" alt="Looking up the geometric facade of a Sydney commercial building" width="1400" height="934" loading="lazy" /><figcaption>Sydney, Australia · Representative property imagery</figcaption></figure>
+        <figure className="service-portrait" data-motion-enter><Link to="/services" aria-label="Explore commercial finance solutions"><img fetchPriority="low" src="/images/design/home-services-1200.webp" srcSet="/images/design/home-services-800.webp 800w, /images/design/home-services-1200.webp 1200w, /images/design/home-services-1800.webp 1800w" sizes="(max-width: 700px) 100vw, 50vw" alt="Curved glass facade framing the sky in Melbourne" width="1800" height="2700" loading="lazy" /></Link></figure>
         <div className="service-directory">{services.slice(0,3).map((service,index)=><Link to={service.link} className="service-row" data-motion-enter key={service.link}><span className="row-number">{String(index+1).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}<details className="content-disclosure"><summary>More commercial finance solutions <span aria-hidden="true">+</span></summary><div>{services.slice(3).map((service,index)=><Link to={service.link} className="service-row" data-motion-enter key={service.link}><span className="row-number">{String(index+4).padStart(2,'0')}</span><div><h3>{service.title}</h3><p>{service.description}</p></div><ArrowRight aria-hidden="true" /></Link>)}</div></details></div>
       </section>
 
       <section className="home-stories section-pad">
-        <div className="section-header" data-motion-enter><div><p className="eyebrow">Finance in context</p><h2>Illustrative finance scenarios</h2></div><p>Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions.</p></div>
+        <div className="section-header" data-motion-enter><div><p className="eyebrow">Finance in context</p><h2>Finance in practice</h2></div><p>Explore the structures, trade-offs and potential outcomes behind commercial finance. These examples explain funding approaches; they are not completed client transactions.</p></div>
         <div className="scenario-grid">{featuredCaseStudies.slice(0,2).map((study,index)=><article className={index === 0 ? "scenario-feature" : "scenario-feature scenario-feature-light"} key={study.slug}>
-          {study.featuredImage && <figure className="scenario-media" data-motion-enter><img src={study.featuredImageThumbnail || study.featuredImage} alt={study.featuredImageAlt || "Representative commercial property"} width={1200} height={630} loading="lazy" /><figcaption>Representative property photography</figcaption></figure>}
-          <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span><span>Illustrative scenario</span></div>
+          {study.featuredImage && <figure className="scenario-media" data-motion-enter><Link to={`/resources/case-studies/${study.slug}`} aria-label={`Read ${study.title}`}><picture>{homepageCaseImages[study.slug] && <source type="image/avif" srcSet={homepageCaseImages[study.slug].srcSet.replaceAll(".webp", ".avif")} sizes="(max-width: 700px) 100vw, 50vw" />}<img fetchPriority="low" src={homepageCaseImages[study.slug]?.src || study.featuredImage} srcSet={homepageCaseImages[study.slug]?.srcSet} sizes="(max-width: 700px) 100vw, 50vw" alt={homepageCaseImages[study.slug]?.alt || study.featuredImageAlt || "Commercial property"} width={1600} height={1185} loading="lazy" /></picture></Link></figure>}
+          <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span></div>
           <Link to={`/resources/case-studies/${study.slug}`} className="scenario-title"><h3>{study.title}</h3><ArrowRight aria-hidden="true" /></Link>
           <div className="scenario-facts"><strong>{study.loanAmount || "Custom Solution"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
-          {study.outcome && <p>{study.outcome}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
+          {study.outcome && <p>{scenarioOutcome(study.outcome)}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
         </article>)}</div><details className="content-disclosure"><summary>Explore more finance scenarios <span aria-hidden="true">+</span></summary><div className="scenario-grid">{featuredCaseStudies.slice(2).map((study)=><article className={"scenario-entry"} key={study.slug}>
-          <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span><span>Illustrative scenario</span></div>
+          <div className="scenario-meta"><span>{study.loanType || "Business Finance"}</span></div>
           <Link to={`/resources/case-studies/${study.slug}`} className="scenario-title"><h3>{study.title}</h3><ArrowRight aria-hidden="true" /></Link>
           <div className="scenario-facts"><strong>{study.loanAmount || "Custom Solution"}</strong><span>{study.industry || "Business"}{study.location ? ` / ${study.location}` : ""}</span></div>
-          {study.outcome && <p>{study.outcome}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
+          {study.outcome && <p>{scenarioOutcome(study.outcome)}</p>}{study.quote && <blockquote>"{study.quote}"</blockquote>}
         </article>)}</div></details>
         <Link className="text-link" to="/resources/case-studies">View All Case Studies <ArrowRight aria-hidden="true" /></Link>
       </section>

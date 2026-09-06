@@ -10,8 +10,8 @@
         "Real deals, real results, real growth"
       ],
       "after": [
-        "Illustrative finance scenarios",
-        "Explore the structures, trade-offs and potential outcomes behind commercial finance. These are illustrative scenarios, not specific client transactions."
+        "Finance in practice",
+        "Explore the structures, trade-offs and potential outcomes behind commercial finance. These examples explain funding approaches; they are not completed client transactions."
       ],
       "reason": "Aligns the section introduction with the existing illustrative status of the underlying stories. Original story titles, amounts, locations, outcomes and routes remain.",
       "substantive_loss": false
@@ -26,6 +26,20 @@
         "New"
       ],
       "reason": "Visual style only; preserves the same existing seven-day freshness rule.",
+      "substantive_loss": false
+    },
+    {
+      "path": "/",
+      "kind": "Owner-requested photo-caption and scenario-label cleanup",
+      "before": [
+        "Representative property imagery / Representative property photography captions",
+        "Illustrative scenario badges and outcome prefixes"
+      ],
+      "after": [
+        "No homepage photo captions or repeated scenario badges",
+        "Outcome prefixes use Potential outcome: or How; original numbers, facts and conditional verbs remain."
+      ],
+      "reason": "Explicit user request to remove these labels. One section-level explanation retains the examples' hypothetical status; no completed-client claim is introduced.",
       "substantive_loss": false
     }
   ],
