@@ -1,11 +1,11 @@
 {
   "observed": {
-    "lcpMs": 2493.86,
+    "lcpMs": 2494.378,
     "cls": 0,
-    "tbtMs": 64,
+    "tbtMs": 66,
     "accessibility": 1,
     "seo": 1,
-    "initialJavaScriptTransferBytes": 106860
+    "initialJavaScriptTransferBytes": 108031
   },
   "thresholds": {
     "lcpMs": 2500,

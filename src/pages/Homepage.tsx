@@ -1,7 +1,7 @@
 import { isDesignPreview } from "@/lib/design-preview";
 import { useRef, useState } from "react";
 import { useHomepageMotion } from "@/hooks/use-homepage-motion";
-import ProcessCylinder from "@/components/ProcessCylinder";
+import ProcessJourney from "@/components/ProcessJourney";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -219,16 +219,7 @@ const Homepage = () => {
       </section>
 
       <section id="how-it-works" className="home-process section-pad">
-        <div className="process-journey">
-        <div className="section-header"><div><p className="eyebrow">A clear process</p><h2>How It Works</h2></div><p>Four simple steps to funding success</p></div>
-        <ProcessCylinder />
-        <div className="process-steps">{[
-          {step:"01",title:"Enquiry",description:"Tell us about your funding requirements"},
-          {step:"02",title:"Assessment",description:"We evaluate your proposal and present options"},
-          {step:"03",title:"Approval",description:"Fast-track approval with our lender network"},
-          {step:"04",title:"Settlement",description:"Quick settlement and funding deployment"}
-        ].map(step=><div className="process-step" key={step.step}><span>{step.step}</span><div><h3>{step.title}</h3><p>{step.description}</p></div></div>)}</div>
-        </div>
+        <ProcessJourney paused={motionPaused} />
         <details className="content-disclosure expertise-disclosure"><summary>Why Emet Capital <span aria-hidden="true">+</span></summary>        <div className="broker-rationale"><div><h2>Why Emet Capital</h2><p>A transaction process built around evidence, lender fit and clear trade-offs</p></div><div className="rationale-list">{[
           {label:"Lender Matching",value:"Structured",detail:"Compared against purpose, security and timing"},
           {label:"Transaction Review",value:"Case-by-case",detail:"No guaranteed approval or settlement claim"},

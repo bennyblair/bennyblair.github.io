@@ -16,17 +16,19 @@ The updated homepage follows the owner's request for a closer Old Tom Capital fe
 
 ## Cinematic homepage revision
 
-The opening now uses a slow camera move, scroll-linked architectural linework, three deliberate headline lines and a docked enquiry panel. Property services sit beside a tall building photograph; scenario images are larger and staggered; the process now pairs a dimensional wireframe cylinder with four clear HTML steps. Native scrolling is preserved. The pause control cancels all automatic and scroll-linked effects, and reduced-motion preferences disable them initially and when changed. Text is immediately visible in the saved HTML; animation does not gate content or navigation.
+The opening now uses a slow camera move, scroll-linked architectural linework, three deliberate headline lines and a docked enquiry panel. Property services sit beside a tall building photograph; scenario images are larger and staggered; the process now pairs a dimensional wireframe cylinder with four clear HTML steps. Native scrolling is preserved. The global pause control cancels hero and entrance effects and freezes the cylinder at its current position. Reduced-motion preferences suppress automatic motion initially and when changed. Text is immediately visible in the saved HTML; animation does not gate content or navigation.
 
 All 11 motion acceptance checks passed, including ordinary/reduced motion, pause/resume, delayed JavaScript, clean hydration and 200% enlarged control layout. See `motion-acceptance.json`. The revision retains the same metadata, substantive copy and destinations, and adds no dependencies.
 
-## Cylinder and descending-ball revision
+## Staged cylinder refinement
 
-The requested Old Tom-inspired cylinder is installed in How It Works. A shaded sphere descends through four elliptical rings as the visitor scrolls; light follows it from ring to ring. Fine rear dashed lines, translucent side shading and a soft ground shadow provide depth. The diagram is original SVG, with no third-party animation asset, new photographs or dependencies.
+How It Works now plays one finite, 7.8-second journey when the cylinder enters view: four 1.2-second rests connected by three one-second eased descents. Each arrival lights the corresponding ring and HTML step. Desktop ring heights align with the four stage markers. The original sphere, translucent cylinder, fine rear lines and soft ground lighting remain; a restrained ring halo and moving sphere shadow add depth.
 
-On desktop the cylinder sits beside the four funding stages; on mobile it fits between the heading and steps. Its scroll range is measured from the graphic itself, so the full descent is visible on a phone and expanding the expertise disclosure does not change progress. All four stage headings and descriptions are unchanged. The static diagram and complete HTML work without JavaScript. Pause and reduced-motion preferences cancel both the sphere and ring timelines.
+Scroll speed does not control the ball. The clock freezes while the graphic is largely offscreen or the document is hidden, and resumes when visible. Both the local and global pause controls preserve the exact current position. Replay starts at Enquiry; keyboard-accessible stage markers let a reader inspect a particular stop. Explicit selection outside the graphic's viewport, or with reduced motion enabled, is immediate. Normal visible selection follows the same staged timeline and holds at the requested stage. Play always resumes forward. On mobile, player controls sit directly below the cylinder.
 
-All 11 cylinder checks pass, including reverse scrolling, full descent while visible, resize, keyboard pause/resume, dynamic motion preference, no-JS rendering, preserved hydration nodes and 320px text enlargement. See `cylinder-acceptance.json`. The existing 11 motion checks and 89 design checks were also rerun and passed. The 380-route SEO comparison adds no new metadata, copy, link or image exceptions.
+All four original stage headings and descriptions remain visible HTML. The diagram has a static initial pose without JavaScript, and its controls do not introduce a hydration attribute mismatch. Reduced motion suppresses autoplay while retaining explicit stage selection. The sequence does not loop or intercept scrolling. No new dependencies, image downloads, page URLs or editorial changes were introduced.
+
+The cylinder acceptance now checks real timed rests, corresponding ring and text emphasis, local/global pause, replay, manual selection in both directions, fast-scroll behaviour, offscreen resume, reduced motion, responsive layout and original prerendered nodes. Document-hidden handling is source-reviewed; the browser suite explicitly tests the offscreen lifecycle. All 14 checks pass on the final prerendered preview, alongside the 11 motion checks and 89 design checks. See `cylinder-acceptance.json`.
 
 ## SEO comparison and intentional exceptions
 
@@ -43,6 +45,8 @@ Intentional review exceptions:
 
 The JSON comparison records raw differences. Script ordering is not a semantic schema change. The comparison recognises exact rendered text across React text-node separators; it does not ignore changed numbers or punctuation.
 
+The prerender command now requires its own server to start at the requested port and rejects an occupied port. This prevents a running review copy from being captured into a normal build. The occupied-port check confirmed rejection without modifying the homepage; a clean-port render passed. The final normal build preserves all 380 routes' production metadata and indexing settings.
+
 ## Private review behaviour
 
 Sites access is restricted to the account owner, with no additional viewers or groups. Robots meta directives, robots.txt restrictions and an X-Robots-Tag header provide additional indexing protection.
@@ -53,7 +57,7 @@ Both forms retain their production fields and validation. Submitting them displa
 
 Type checking, unit tests, lint, SEO control-plane checks, protected cohort, content quality, production dependency audit, prerender verification and browser smoke tests were run. Lint has nine existing Fast Refresh warnings. The full automated accessibility scan passed all 380 canonical routes. All 89 targeted acceptance checks passed at 320, 390, 768, 1024, 1280 and 1440px, including synthetic 200% text enlargement, delayed/disabled JavaScript and simulated forms. This tests doubled computed text sizes, not browser UI zoom. See `browser-acceptance.json` and `SEO-COMPARISON.md`. The 74 unit tests passed.
 
-The recorded production-mode mobile Lighthouse run passed the existing budgets: **LCP 2,494 ms; CLS 0; TBT 64 ms; accessibility 100; SEO 100; initial JavaScript 106,860 bytes**. LCP is close to its 2,500-ms threshold, so rerun the production gate before release. These are laboratory measurements, not real-visitor Core Web Vitals.
+The recorded production-mode mobile Lighthouse run passed the existing budgets: **LCP 2,494 ms; CLS 0; TBT 66 ms; accessibility 100; SEO 100; initial JavaScript 108,031 bytes**. LCP is close to its 2,500-ms threshold, so rerun the production gate before release. These are laboratory measurements, not real-visitor Core Web Vitals.
 
 **Full CI is not claimed green.** The claim gate rejects the unchanged phrase “access to over 50 lenders” in nine existing service pages when their presentation is edited. Every exact phrase exists in both the source baseline and live website. Neither the wording nor the gate was weakened to obtain a pass. The owner/colleague must verify the evidence and resolve this before production promotion. See `claim-gate-baseline.json` and `release-review.md`.
 

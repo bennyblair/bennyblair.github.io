@@ -95,7 +95,7 @@ async function snapshot(page, selector = '.home-hero') {
       iterations: animation.effect.getTiming().iterations,
       properties: [...new Set(animation.effect.getKeyframes().flatMap(frame => Object.keys(frame)))].filter(key => !['offset', 'computedOffset', 'easing', 'composite'].includes(key)),
     }));
-    return { problems: [...new Set(problems)], heading: heading?.textContent.trim(), bounds: heading ? bounds(heading) : null, animations, mainText: document.querySelector('main')?.textContent.replace(/\s+/g, ' ').trim() };
+    return { problems: [...new Set(problems)], heading: heading?.textContent.trim(), bounds: heading ? bounds(heading) : null, animations, mainText: (() => { const content = document.querySelector('main')?.cloneNode(true); content?.querySelectorAll('.motion-toggle,.process-player').forEach(node => node.remove()); return content?.textContent.replace(/\s+/g, ' ').trim(); })() };
   }, selector);
 }
 
@@ -178,7 +178,7 @@ async function pauseCase() {
     await settle(page);
     const effectState = () => page.evaluate(() => {
       const picture = document.querySelector('.hero-image picture');
-      const animations = document.getAnimations().filter(animation => animation.effect?.target?.closest?.('main') && !(animation instanceof CSSAnimation) && !(animation instanceof CSSTransition));
+      const animations = document.getAnimations().filter(animation => animation.effect?.target?.closest?.('main') && !animation.effect.target.closest('.process-journey') && !(animation instanceof CSSAnimation) && !(animation instanceof CSSTransition));
       return { transform: getComputedStyle(picture).transform, effects: animations.length, camera: animations.filter(animation => animation.effect.target === picture).map(animation => ({ currentTime: animation.currentTime, state: animation.playState })) };
     });
     const initial = await effectState();
@@ -194,7 +194,7 @@ async function pauseCase() {
     await page.waitForFunction(() => document.querySelector('.motion-toggle')?.getAttribute('aria-pressed') === 'true');
     await page.waitForTimeout(80);
     const paused = await effectState();
-    assert.equal(paused.effects, 0, 'Pause cancels all homepage WAAPI effects, including paused scroll timelines');
+    assert.equal(paused.effects, 0, 'Pause cancels hero and entrance effects; the cylinder has separate exact-pose pause acceptance');
     assert.match(await button.textContent(), /Play motion/i);
     await page.evaluate(() => window.scrollTo({ top: 300, behavior: 'instant' }));
     await page.waitForTimeout(100);

@@ -23,12 +23,12 @@ export default function ProcessCylinder() {
         <g className="cylinder-wire cylinder-rear">
           {levels.map(y => <path key={y} d={`M140 ${y}a110 36 0 0 1 220 0`} />)}
         </g>
-        <g className="process-ball"><circle cx="250" cy="110" r="48" fill="url(#cylinder-sphere)" /><ellipse cx="234" cy="90" rx="19" ry="10" fill="#fff" opacity=".18" transform="rotate(-32 234 90)" /></g>
+        <g className="process-ball"><ellipse cx="250" cy="165" rx="48" ry="12" fill="url(#cylinder-ground)" /><circle cx="250" cy="110" r="48" fill="url(#cylinder-sphere)" /><ellipse cx="234" cy="90" rx="19" ry="10" fill="#fff" opacity=".18" transform="rotate(-32 234 90)" /></g>
         <g className="cylinder-wire cylinder-front">
           <path d="M140 110v420M360 110v420" />
           {levels.map(y => <path key={y} d={`M140 ${y}a110 36 0 0 0 220 0`} />)}
         </g>
-        {levels.map(y => <g className="process-ring-glow" key={y}><ellipse cx="250" cy={y} rx="110" ry="36" /><circle cx="360" cy={y} r="3" fill="currentColor" stroke="none" /></g>)}
+        {levels.map(y => <g className="process-ring-glow" key={y}><ellipse cx="250" cy={y} rx="110" ry="36" strokeWidth="12" opacity=".055" /><ellipse cx="250" cy={y} rx="110" ry="36" /><path d={`M360 ${y}H464`} strokeWidth=".8" /><circle cx="360" cy={y} r="3" fill="currentColor" stroke="none" /></g>)}
       </svg>
     </div>
   );

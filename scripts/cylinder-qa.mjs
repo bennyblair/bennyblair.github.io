@@ -1,6 +1,6 @@
-/** Targeted cylinder acceptance. Loopback, blocked writes/external traffic, no screenshots.
- * node cylinder-qa.mjs http://127.0.0.1:4173 [--dev] [--site <checkout>] [--output <json>]
- * --dev explicitly skips the two prerender/hydration checks.
+/** Finite staged-cylinder acceptance. Only loopback reads; all writes/external traffic blocked.
+ * node staged-cylinder-qa.mjs http://127.0.0.1:4173 [--dev] [--output <json>]
+ * --dev skips static/hydration checks. Includes two responsive screenshots; no field-performance claims.
  */
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -9,219 +9,201 @@ import { createRequire } from 'node:module';
 const args = process.argv.slice(2);
 const option = (key, fallback) => args.includes(key) ? args[args.indexOf(key) + 1] : fallback;
 const base = new URL(args.find(value => /^https?:\/\//.test(value)) || 'http://127.0.0.1:4173');
-assert.ok(['localhost', '127.0.0.1', '[::1]'].includes(base.hostname), 'Loopback preview only');
-assert.equal(base.pathname, '/', 'Supply origin without a route');
-const site = path.resolve(option('--site', process.cwd()));
-const output = path.resolve(option('--output', path.join(site, 'reports', 'cylinder-qa-results.json')));
+assert.ok(['localhost', '127.0.0.1', '[::1]'].includes(base.hostname), 'Loopback only');
+assert.equal(base.pathname, '/');
+const site = option('--site', process.cwd());
+const output = option('--output', path.join(site, 'reports', 'cylinder-qa-results.json'));
 const { chromium } = createRequire(path.join(site, 'package.json'))('playwright');
-const expectedSteps = [
-  ['Enquiry', 'Tell us about your funding requirements'],
-  ['Assessment', 'We evaluate your proposal and present options'],
-  ['Approval', 'Fast-track approval with our lender network'],
-  ['Settlement', 'Quick settlement and funding deployment'],
-];
-const results = [], startedAt = new Date().toISOString();
 const browser = await chromium.launch({ headless: true });
+const results = [], startedAt = new Date().toISOString();
+const selectors = { stage: 'button.process-stage-button,.process-stage-button button', replay: 'button.process-replay,.process-replay button', pause: 'button.process-motion-toggle,.process-motion-toggle button', global: 'button.motion-toggle,.motion-toggle button' };
+const expected = [['Enquiry','Tell us about your funding requirements'],['Assessment','We evaluate your proposal and present options'],['Approval','Fast-track approval with our lender network'],['Settlement','Quick settlement and funding deployment']];
 async function test(name, fn) {
+  if (args.includes('--only') && !new RegExp(option('--only', '')).test(name)) return;
   try { const details = await fn(); results.push({ name, status: 'pass', details }); console.log(`PASS ${name}`); }
   catch (error) { results.push({ name, status: 'fail', error: error.message }); console.log(`FAIL ${name}: ${error.message}`); }
 }
-async function setup(width = 1440, { reducedMotion = 'no-preference', noJS = false, delayed = false } = {}) {
-  const context = await browser.newContext({ viewport: { width, height: 1000 }, reducedMotion, javaScriptEnabled: !noJS, serviceWorkers: 'block' });
-  const network = { writes: [], analytics: [], delayed: 0 };
-  let release;
+async function setup(width = 1440, { reduce = false, noJS = false, delayed = false } = {}) {
+  const context = await browser.newContext({ viewport: { width, height: 1000 }, javaScriptEnabled: !noJS, reducedMotion: reduce ? 'reduce' : 'no-preference', serviceWorkers: 'block' });
+  const network = { writes: [], analytics: [], delayed: 0 }; let release;
   const gate = delayed ? new Promise(resolve => { release = resolve; }) : null;
   await context.route('**/*', async route => {
     const request = route.request(), url = new URL(request.url());
     if (/googletagmanager|google-analytics|doubleclick|\/g\/collect/.test(url.href)) network.analytics.push(url.href);
-    if (!['GET', 'HEAD'].includes(request.method())) network.writes.push(request.method() + ' ' + url.href);
-    if (url.origin !== base.origin || !['GET', 'HEAD'].includes(request.method())) return route.abort();
+    if (!['GET','HEAD'].includes(request.method())) network.writes.push(request.method() + ' ' + url.href);
+    if (url.origin !== base.origin || !['GET','HEAD'].includes(request.method())) return route.abort();
     if (gate && request.resourceType() === 'script') { network.delayed++; await gate; }
     return route.continue();
   });
   const page = await context.newPage(), errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  page.on('console', message => {
-    if (['warning', 'error'].includes(message.type()) && /hydrat|did not match|server.*html|replaced with client|Minified React error #(418|423|425)/i.test(message.text())) errors.push(message.text());
-  });
+  page.on('console', message => { if (['warning','error'].includes(message.type()) && /hydrat|did not match|server.*html|Minified React error #(418|423|425)/i.test(message.text())) errors.push(message.text()); });
   return { context, page, network, errors, release: () => release?.() };
 }
-async function ready(page) {
-  assert.equal((await page.goto(base.href, { waitUntil: 'domcontentloaded' }))?.status(), 200);
-  await page.locator('.process-journey svg.process-cylinder .process-ball').waitFor({ state: 'attached' });
-  await page.waitForFunction(() => document.documentElement.dataset.prerenderReady === 'true', undefined, { timeout: 20000 });
-  await page.evaluate(() => document.fonts.ready);
-}
-async function stateOf(page) {
-  return page.evaluate(() => {
+async function snapshot(page) {
+  return page.evaluate(selectors => {
     const journey = document.querySelector('.process-journey'), visual = journey?.querySelector('.process-visual'), svg = visual?.querySelector('svg.process-cylinder'), ball = svg?.querySelector('.process-ball');
-    if (!journey || !visual || !svg || !ball) throw new Error('Missing cylinder selectors');
-    const bounds = node => { const b = node.getBoundingClientRect(); return { left: b.left, right: b.right, top: b.top, bottom: b.bottom, width: b.width, height: b.height }; };
-    const box = bounds(journey), visualBox = bounds(visual), transform = getComputedStyle(ball).transform;
-    const animations = document.getAnimations().filter(animation => animation.effect?.target?.closest?.('svg.process-cylinder')).map(animation => ({
-      target: animation.effect.target.getAttribute('class'), state: animation.playState, currentTime: animation.currentTime,
-      properties: [...new Set(animation.effect.getKeyframes().flatMap(frame => Object.keys(frame)))].filter(key => !['offset', 'computedOffset', 'easing', 'composite'].includes(key)),
-    }));
-    const steps = [...document.querySelectorAll('.home-process .process-step')].map(node => [node.querySelector('h3')?.textContent.trim(), node.querySelector('p')?.textContent.trim()]);
-    const invisible = [...document.querySelectorAll('.home-process .process-step h3,.home-process .process-step p')].filter(node => {
-      for (let ancestor = node; ancestor; ancestor = ancestor.parentElement) { const style = getComputedStyle(ancestor); if (style.display === 'none' || style.visibility === 'hidden' || Number(style.opacity) < .85) return true; }
-      const b = node.getBoundingClientRect(); return !b.width || !b.height;
-    }).map(node => node.textContent.trim());
-    const screenMatrix = svg.getScreenCTM();
-    return { journey: box, visual: visualBox, progressTop: visualBox.top + scrollY, absoluteTop: box.top + scrollY, scrollY, viewportHeight: innerHeight, viewportWidth: innerWidth, documentWidth: Math.max(document.documentElement.scrollWidth, document.body.scrollWidth), svg: bounds(svg), viewBox: svg.getAttribute('viewBox'), screenScale: { x: screenMatrix.a, y: screenMatrix.d }, ball: bounds(ball), transform, y: transform === 'none' ? 0 : new DOMMatrixReadOnly(transform).m42, animations, steps, invisible, decorative: svg.getAttribute('aria-hidden'), keyboardTargets: svg.querySelectorAll('a,button,input,[tabindex]:not([tabindex="-1"])').length, ringCount: svg.querySelectorAll('.process-ring-glow').length };
-  });
+    if (!journey || !visual || !svg || !ball) throw new Error('Cylinder selectors missing');
+    const rect = node => { const b = node.getBoundingClientRect(); return { left:b.left, right:b.right, top:b.top, bottom:b.bottom, width:b.width, height:b.height }; };
+    const invisible = node => { for(let a=node;a;a=a.parentElement) { const s=getComputedStyle(a); if(s.display==='none'||s.visibility==='hidden'||Number(s.opacity)<.85||a.hidden) return true; } const b=node.getBoundingClientRect(); return !b.width||!b.height; };
+    const transform = getComputedStyle(ball).transform, shape = svg.getScreenCTM();
+    const controls = [...journey.querySelectorAll('button')];
+    const textNodes = [...journey.querySelectorAll('.process-step h3,.process-step p')];
+    const times = ball.getAnimations().map(a=>({time:a.currentTime,state:a.playState}));
+    return { now:performance.now(), y:transform==='none'?0:new DOMMatrixReadOnly(transform).m42, times, stage:journey.dataset.stage, active:[...journey.querySelectorAll('.process-step')].map(node=>node.dataset.active==='true'), rings:[...svg.querySelectorAll('.process-ring-glow')].map(node=>Number(getComputedStyle(node).opacity)), steps:[...journey.querySelectorAll('.process-step')].map(node=>[node.querySelector('h3')?.textContent.trim(),node.querySelector('p')?.textContent.trim()]), invisible:textNodes.filter(invisible).map(node=>node.textContent.trim()), controlCount:controls.length, hiddenControls:controls.filter(node=>node.closest('[aria-hidden="true"]')).map(node=>node.textContent.trim()), pressed:[...journey.querySelectorAll(selectors.stage)].map(node=>node.getAttribute('aria-pressed')), svg:rect(svg), visual:rect(visual), absoluteTop:rect(visual).top+scrollY, ball:rect(ball), viewBox:svg.getAttribute('viewBox'), scale:{x:shape.a,y:shape.d}, decorative:svg.getAttribute('aria-hidden'), width:innerWidth,height:innerHeight,scrollY,documentWidth:Math.max(document.body.scrollWidth,document.documentElement.scrollWidth) };
+  },selectors);
 }
-async function readAssert(page) {
-  const state = await stateOf(page);
-  assert.deepEqual(state.steps, expectedSteps, 'Four original process headings/descriptions retained');
-  assert.deepEqual(state.invisible, [], 'All process text remains visible');
-  assert.equal(state.decorative, 'true', 'SVG is decorative alongside HTML process text');
-  assert.equal(state.keyboardTargets, 0, 'Decorative SVG adds no keyboard stops');
-  assert.ok(state.svg.width > 0 && state.svg.height > 0 && state.ball.width > 0 && state.ball.height > 0, 'Static cylinder and ball have visible geometry');
-  assert.equal(state.viewBox, '0 0 500 660', 'Cylinder retains intended viewBox');
-  assert.ok(Math.abs(state.screenScale.x - state.screenScale.y) < .001, 'Responsive SVG preserves shape proportions');
-  assert.ok(state.svg.width <= 500.5 && state.svg.left >= -1 && state.svg.right <= state.viewportWidth + 1, 'Cylinder fits the viewport and its 500px desktop cap');
-  if (state.viewportWidth <= 700) assert.ok(Math.abs(state.svg.height - 430) < 1, 'Mobile cylinder keeps its 430px visual height');
-  assert.ok(state.documentWidth <= state.viewportWidth + 2, `Horizontal overflow ${state.documentWidth}/${state.viewportWidth}`);
-  return state;
+async function readable(page) {
+  const s=await snapshot(page);
+  assert.deepEqual(s.steps,expected,'Original four descriptions retained');
+  assert.deepEqual(s.invisible,[],'All stage text remains visible');
+  assert.deepEqual(s.hiddenControls,[],'Controls must be outside aria-hidden SVG wrapper');
+  assert.equal(s.decorative,'true'); assert.ok(s.controlCount>=6,'Four stage controls plus replay and pause');
+  assert.equal(s.viewBox,'0 0 500 660');
+  assert.ok(Math.abs(s.scale.x-s.scale.y)<.001,'SVG scales proportionally');
+  assert.ok(s.svg.width>0&&s.svg.width<=500.5&&s.svg.left>=-1&&s.svg.right<=s.width+1,'Cylinder fits viewport');
+  assert.ok(s.documentWidth<=s.width+2,`Horizontal overflow ${s.documentWidth}/${s.width}`);
+  return s;
 }
-async function scroll(page, y) {
-  await page.evaluate(y => window.scrollTo({ top: y, behavior: 'instant' }), y);
-  await page.waitForTimeout(100);
-  return stateOf(page);
+async function ready(page) {
+  assert.equal((await page.goto(base.href,{waitUntil:'domcontentloaded'}))?.status(),200);
+  await page.locator('.process-cylinder .process-ball').waitFor({state:'attached'});
+  await page.waitForFunction(()=>document.documentElement.dataset.prerenderReady==='true',undefined,{timeout:20000});
+  await page.evaluate(()=>document.fonts.ready);
+  await readable(page);
 }
-async function sweep(page) {
-  const initial = await stateOf(page);
-  const start = Math.max(0, initial.progressTop - initial.viewportHeight);
-  const end = initial.progressTop + initial.visual.height;
-  const samples = [];
-  for (let i = 0; i <= 6; i++) samples.push(await scroll(page, start + (end - start) * i / 6));
-  return samples;
+async function show(page) {
+  const s=await snapshot(page);
+  await page.evaluate(top=>window.scrollTo({top,behavior:'instant'}),s.absoluteTop-Math.max(100,(s.height-s.visual.height)/2));
+  await page.waitForTimeout(60);
+  return snapshot(page);
 }
-function networkAssert(state) { assert.deepEqual(state.errors, []); assert.deepEqual(state.network.writes, []); assert.deepEqual(state.network.analytics, []); }
-async function withPage(width, fn, options) {
-  const state = await setup(width, options);
-  try { await ready(state.page); const details = await fn(state.page); networkAssert(state); return details; }
-  finally { state.release(); await state.context.close(); }
+async function withPage(width,fn,options) {
+  const state=await setup(width,options);
+  try { await ready(state.page);const details=await fn(state.page);assert.deepEqual(state.errors,[]);assert.deepEqual(state.network.writes,[]);assert.deepEqual(state.network.analytics,[]);return details; }
+  finally { state.release();await state.context.close(); }
 }
-async function progressCase(page) {
-  const initial = await readAssert(page);
-  const down = await sweep(page);
-  const values = down.map(state => state.y);
-  assert.ok(Math.max(...values) - Math.min(...values) > 300, `Ball must visibly traverse cylinder: ${values}`);
-  const completed = down.find(state => state.y >= 419);
-  assert.ok(completed, 'Ball completes its full 420px descent');
-  assert.ok(completed.svg.bottom > 0 && completed.svg.top < completed.viewportHeight, 'Full descent occurs while the cylinder is still partly in view');
-  assert.ok(completed.ball.bottom > 0 && completed.ball.top < completed.viewportHeight, 'The ball remains visible when its descent completes');
-  for (let i = 1; i < values.length; i++) assert.ok(values[i] >= values[i - 1] - .2, `Downward progress regressed: ${values}`);
-  const middle = down.find(state => state.y > 30 && state.y < 390);
-  assert.ok(middle, 'A partial scroll position produces an intermediate ball position');
-  const back = await scroll(page, middle.scrollY);
-  assert.ok(Math.abs(back.y - middle.y) < 1, 'Reverse scroll returns to the same ball position');
-  const top = await scroll(page, down[0].scrollY);
-  assert.ok(Math.abs(top.y - down[0].y) < 1, 'Reverse scroll returns to the start');
-  assert.ok(initial.ringCount > 0, 'Stage ring accents present');
-  assert.ok(down.some(state => state.animations.some(animation => /process-ring-glow/.test(animation.target) && animation.properties.includes('opacity'))), 'Ring accents use opacity effects');
-  await readAssert(page);
-  return { width: initial.viewportWidth, values, reverseY: back.y, ringCount: initial.ringCount, completed: { svg: completed.svg, ball: completed.ball, viewportHeight: completed.viewportHeight }, fit: { svg: initial.svg, scale: initial.screenScale } };
+async function press(page,selector,index=0,key='Enter') { const b=page.locator(selector).nth(index);assert.equal(await b.isDisabled(),false,'Keyboard control must be enabled');await b.focus();assert.ok(await b.evaluate(node=>document.activeElement===node),'Keyboard focus reaches control');await b.press(key); }
+async function assertStage(page,index,tolerance=1) {
+  const s=await snapshot(page);
+  assert.ok(Math.abs(s.y-index*140)<=tolerance,`Stage${index} sphere Y is${s.y}`);
+  assert.equal(s.stage,String(index),'Current stage matches sphere');
+  assert.deepEqual(s.active,[0,1,2,3].map(value=>value===index),'One active HTML stage');
+  assert.equal(s.pressed[index],'true','Selected button exposes aria-pressed');
+  assert.ok(s.rings[index]>=.75&&s.rings.every((value,i)=>i===index||value<=.25),`Ring/text alignment: ${s.rings}`);
+  return s;
 }
-async function pauseCase(page) {
-  const button = page.locator('.motion-toggle').first();
-  await button.focus(); await button.press('Space');
-  await page.waitForFunction(() => document.querySelector('.motion-toggle')?.getAttribute('aria-pressed') === 'true');
-  const paused = await sweep(page);
-  assert.ok(paused.every(state => state.animations.length === 0), 'Pause removes ball/ring timelines, including paused WAAPI timelines');
-  assert.ok(paused.every(state => state.transform === paused[0].transform), 'Ball ignores scroll while paused');
-  await button.focus(); await button.press('Enter');
-  await page.waitForFunction(() => document.querySelector('.motion-toggle')?.getAttribute('aria-pressed') === 'false');
-  const resumed = await progressCase(page);
-  return { pausedY: paused.map(state => state.y), resumed };
+async function waitStage(page,index,timeout=8000) {
+  await page.waitForFunction(({index})=>{const b=document.querySelector('.process-ball');const t=getComputedStyle(b).transform;const y=t==='none'?0:new DOMMatrixReadOnly(t).m42;return Math.abs(y-index*140)<1&&document.querySelector('.process-journey').dataset.stage===String(index);},{index},{timeout});
+  return assertStage(page,index);
 }
-async function reducedCase(page, dynamic = false) {
-  if (dynamic) { await sweep(page); await page.emulateMedia({ reducedMotion: 'reduce' }); await page.waitForTimeout(100); }
-  const samples = await sweep(page);
-  assert.ok(samples.every(state => state.animations.length === 0), 'Reduced motion has no active or paused cylinder timelines');
-  assert.ok(samples.every(state => state.transform === samples[0].transform), 'Reduced-motion ball does not respond to scrolling');
-  await readAssert(page);
-  if (dynamic) { await page.emulateMedia({ reducedMotion: 'no-preference' }); await page.waitForTimeout(100); await progressCase(page); }
-  return { dynamic, y: samples.map(state => state.y), effects: samples.map(state => state.animations.length) };
+async function frozen(page,delay=450) {
+  const before=await snapshot(page);await page.waitForTimeout(delay);const after=await snapshot(page);
+  assert.ok(Math.abs(before.y-after.y)<.1,'Paused sphere moved');
+  for(let i=0;i<Math.min(before.times.length,after.times.length);i++) assert.ok(Math.abs((before.times[i].time??0)-(after.times[i].time??0))<2,'Paused animation clock advanced');
+  return {beforeY:before.y,afterY:after.y,beforeTimes:before.times,afterTimes:after.times};
 }
-async function resizeCase(page) {
-  const samples = await sweep(page);
-  await scroll(page, samples[3].scrollY);
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.waitForTimeout(120);
-  await readAssert(page);
-  return progressCase(page);
+async function timedStops(page) {
+  await show(page);
+  const samples=[];
+  for(let i=0;i<85;i++){samples.push(await snapshot(page));await page.waitForTimeout(100);}
+  const rests=[];
+  for(let stage=0;stage<4;stage++) {
+    const at=samples.filter(s=>Math.abs(s.y-stage*140)<1&&s.stage===String(stage));
+    assert.ok(at.length>=8,`Stage${stage} has a discernible rest (${at.length} samples)`);
+    const duration=at.at(-1).now-at[0].now;assert.ok(duration>=750,`Stage${stage} rest too short: ${duration}ms`);
+    assert.ok(at.every(s=>s.active[stage]&&s.rings[stage]>=.75),`Stage${stage} ring/text misalignment during rest`);
+    rests.push({stage,durationMs:Math.round(duration),firstAt:at[0].now-samples[0].now});
+  }
+  for(let i=1;i<samples.length;i++) assert.ok(samples[i].y>=samples[i-1].y-.2,'Sequence reverses unexpectedly');
+  assert.ok(samples.some(s=>s.y>10&&s.y<130)&&samples.some(s=>s.y>150&&s.y<270)&&samples.some(s=>s.y>290&&s.y<410),'Three visible journeys between stops');
+  await assertStage(page,3);await frozen(page,350);await readable(page);
+  return {rests,firstY:samples[0].y,lastY:samples.at(-1).y};
 }
-async function disclosureCase(page) {
-  const samples = await sweep(page);
-  const middle = samples.find(state => state.y > 30 && state.y < 390);
-  assert.ok(middle, 'Need intermediate progress for disclosure comparison');
-  const before = await scroll(page, middle.scrollY);
-  await page.locator('.expertise-disclosure > summary').click();
-  assert.equal(await page.locator('.expertise-disclosure').getAttribute('open'), '');
-  const after = await scroll(page, middle.scrollY);
-  assert.ok(Math.abs(before.journey.height - after.journey.height) < 1, 'Disclosure changes cylinder wrapper height');
-  assert.ok(Math.abs(before.absoluteTop - after.absoluteTop) < 1, 'Disclosure moves cylinder wrapper');
-  assert.ok(Math.abs(before.progressTop - after.progressTop) < 1 && Math.abs(before.visual.height - after.visual.height) < 1, 'Disclosure changes the visual scroll bounds');
-  assert.ok(Math.abs(before.y - after.y) < 1, 'Disclosure alters ball progress at identical scroll position');
-  return { before: { top: before.progressTop, height: before.visual.height, y: before.y }, after: { top: after.progressTop, height: after.visual.height, y: after.y } };
+async function noScrollSkip(page) {
+  await show(page);const before=await snapshot(page);
+  await page.evaluate(()=>window.scrollTo({top:document.body.scrollHeight,behavior:'instant'}));
+  await page.waitForTimeout(200);const jumped=await snapshot(page);
+  assert.ok(jumped.y<5&&jumped.stage==='0','Fast scroll skips the initial stop');
+  await frozen(page);await show(page);const returned=await snapshot(page);
+  assert.ok(returned.y<5,'Re-entry resumes instead of scrubbing to a later stage');
+  return {beforeY:before.y,afterJumpY:jumped.y,returnedY:returned.y};
 }
-async function enlargeCase(page) {
-  await page.evaluate(() => {
-    const sizes = [...document.querySelectorAll('body,body *')].map(node => { const s = getComputedStyle(node); return [node, parseFloat(s.fontSize), s.lineHeight === 'normal' ? null : parseFloat(s.lineHeight)]; });
-    for (const [node, font, line] of sizes) { node.style.setProperty('font-size', `${font * 2}px`, 'important'); if (line !== null) node.style.setProperty('line-height', `${line * 2}px`, 'important'); }
-  });
-  await page.locator('.process-journey').scrollIntoViewIfNeeded();
-  await page.waitForTimeout(100);
-  const state = await readAssert(page);
-  const clippedText = await page.evaluate(() => {
-    const errors = [];
-    for (const element of document.querySelectorAll('.process-step h3,.process-step p')) {
-      const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT); let node;
-      while ((node = walker.nextNode())) { const range = document.createRange(); range.selectNodeContents(node);
-        for (const r of range.getClientRects()) if (r.width > 0 && (r.left < -1 || r.right > innerWidth + 1)) errors.push(node.textContent.trim());
-      }
-    }
-    return errors;
-  });
-  assert.deepEqual(clippedText, [], 'Enlarged process text exceeds viewport');
-  return { viewport: state.viewportWidth, documentWidth: state.documentWidth, cylinder: state.svg };
+async function localPause(page) {
+  await show(page);await page.waitForFunction(()=>{const t=getComputedStyle(document.querySelector('.process-ball')).transform;const y=t==='none'?0:new DOMMatrixReadOnly(t).m42;return y>15&&y<125;});
+  await press(page,selectors.pause,0,'Space');await show(page);
+  assert.equal(await page.locator(selectors.pause).first().getAttribute('aria-pressed'),'true');
+  const stopped=await frozen(page);
+  assert.ok(stopped.beforeY>0&&stopped.beforeY<140,'Pause preserves intermediate position');
+  await press(page,selectors.pause);await show(page);await waitStage(page,1);
+  return {stopped,resumedStage:1};
+}
+async function globalPause(page) {
+  await show(page);await waitStage(page,1);await press(page,selectors.global,0,'Space');await show(page);
+  assert.equal(await page.locator(selectors.global).first().getAttribute('aria-pressed'),'true');const stopped=await frozen(page);
+  assert.ok(Math.abs(stopped.beforeY-140)<1,'Global pause retains current stage');
+  await press(page,selectors.global);await show(page);await waitStage(page,2);
+  return {stopped,resumedStage:2};
+}
+async function stageSelection(page,reduce=false) {
+  await show(page);
+  for(const index of [2,0,3,1]) {await press(page,selectors.stage,index,index%2?'Space':'Enter');await show(page);await waitStage(page,index,reduce?500:8000);await page.waitForFunction(selector=>document.querySelector(selector)?.getAttribute('aria-pressed')==='true',selectors.pause,{timeout:8000});await assertStage(page,index);await frozen(page,300);}
+  if(!reduce) {await press(page,selectors.pause);await show(page);await waitStage(page,2,4000);}
+  await readable(page);return {order:[2,0,3,1],reduce,playAfterReverseAdvancesForward:!reduce};
+}
+async function replay(page) {
+  await show(page);await press(page,selectors.stage,3);await show(page);await waitStage(page,3);
+  await press(page,selectors.replay);await show(page);const reset=await snapshot(page);
+  assert.ok(reset.y<1&&reset.stage==='0','Replay resets the clock and first stage');await waitStage(page,1,4000);
+  return {resetY:reset.y,replayedStage:1};
+}
+async function offscreen(page) {
+  await show(page);await waitStage(page,1);await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(100);const stopped=await frozen(page,700);
+  await show(page);await waitStage(page,2);return {stopped,resumedStage:2};
+}
+async function reduced(page,dynamic=false) {
+  if(dynamic) {await show(page);await waitStage(page,1);await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(100);}
+  await show(page);const stopped=await frozen(page,1400);await stageSelection(page,true);
+  return {dynamic,stopped};
+}
+async function resizeAndEnlarge(page) {
+  await show(page);await press(page,selectors.stage,2);await show(page);await waitStage(page,2);
+  await page.setViewportSize({width:320,height:844});await show(page);await assertStage(page,2);
+  await page.evaluate(()=>{const sizes=[...document.querySelectorAll('body,body *')].map(n=>{const s=getComputedStyle(n);return[n,parseFloat(s.fontSize),s.lineHeight==='normal'?null:parseFloat(s.lineHeight)];});for(const[n,f,l]of sizes){n.style.setProperty('font-size',`${f*2}px`,'important');if(l!==null)n.style.setProperty('line-height',`${l*2}px`,'important');}});
+  await show(page);const s=await readable(page);
+  const clipped=await page.evaluate(()=>{const out=[];for(const e of document.querySelectorAll('.process-step h3,.process-step p,.process-journey button')){const walker=document.createTreeWalker(e,NodeFilter.SHOW_TEXT);let n;while((n=walker.nextNode())){const r=document.createRange();r.selectNodeContents(n);for(const b of r.getClientRects())if(b.width&&(b.left< -1||b.right>innerWidth+1))out.push(n.textContent.trim());}}return out;});
+  assert.deepEqual(clipped,[],'Enlarged labels/text exceed viewport');return {width:s.width,documentWidth:s.documentWidth,svg:s.svg};
 }
 async function staticCase(delayed) {
-  const state = await setup(390, { noJS: !delayed, delayed });
-  try {
-    await state.page.goto(base.href, { waitUntil: delayed ? 'commit' : 'domcontentloaded' });
-    await state.page.locator('.process-cylinder .process-ball').waitFor({ state: 'attached' });
-    const before = await readAssert(state.page);
-    if (delayed) {
-      await state.page.evaluate(() => { window.__cylinderOriginals = [...document.querySelectorAll('.process-cylinder,.process-ball,.process-step')]; });
-      state.release();
-      await state.page.waitForFunction(() => document.documentElement.dataset.prerenderReady === 'true');
-      assert.ok(await state.page.evaluate(() => window.__cylinderOriginals.every((node, index) => node === document.querySelectorAll('.process-cylinder,.process-ball,.process-step')[index])), 'Hydration replaces original process/cylinder nodes');
-      await readAssert(state.page);
-    }
-    networkAssert(state);
-    return { delayed, originalBall: before.transform, delayedScripts: state.network.delayed, steps: before.steps };
-  } finally { state.release(); await state.context.close(); }
+  const s=await setup(390,{noJS:!delayed,delayed});
+  try {await s.page.goto(base.href,{waitUntil:delayed?'commit':'domcontentloaded'});await s.page.locator('.process-cylinder .process-ball').waitFor({state:'attached'});const before=await readable(s.page);assert.equal(await s.page.locator(selectors.pause).first().isDisabled(),false,'Saved pause control must not inherit prerender reduced-motion disabled state');assert.ok(before.y<1,'Static pose begins at Enquiry');
+    if(delayed){await s.page.evaluate(()=>{window.__processNodes=[...document.querySelectorAll('.process-cylinder,.process-ball,.process-step')];});s.release();await s.page.waitForFunction(()=>document.documentElement.dataset.prerenderReady==='true');assert.ok(await s.page.evaluate(()=>window.__processNodes.every((n,i)=>n===document.querySelectorAll('.process-cylinder,.process-ball,.process-step')[i])),'Hydration replaces original process nodes');await readable(s.page);}
+    assert.deepEqual(s.errors,[]);assert.deepEqual(s.network.writes,[]);assert.deepEqual(s.network.analytics,[]);return {delayed,stage:before.stage,y:before.y};
+  }finally{s.release();await s.context.close();}
+}
+async function responsiveCapture(page,width) {
+  await show(page);await press(page,selectors.stage,1);await show(page);await waitStage(page,1);
+  await page.waitForFunction(selector=>document.querySelector(selector)?.getAttribute('aria-pressed')==='true',selectors.pause);
+  await assertStage(page,1);await readable(page);await page.waitForTimeout(750);
+  const folder=path.join(path.dirname(output),'output','playwright');await fs.mkdir(folder,{recursive:true});
+  const screenshot=path.join(folder,`staged-cylinder-${width}.png`);
+  await page.locator('.home-process').screenshot({path:screenshot,animations:'allow'});
+  return {width,stage:1,screenshot,scope:'Complete process section with all four HTML descriptions and controls'};
 }
 try {
-  if (!args.includes('--dev')) {
-    await test('No-JS cylinder and four process steps', () => staticCase(false));
-    await test('Delayed-JS preserves original cylinder/process nodes', () => staticCase(true));
-  }
-  for (const width of [390, 768, 1440]) await test(`Downward/reverse scroll ${width}px`, () => withPage(width, progressCase));
-  await test('Keyboard pause/resume stops/restores cylinder', () => withPage(1440, pauseCase));
-  await test('Reduced motion ignores scroll', () => withPage(390, page => reducedCase(page), { reducedMotion: 'reduce' }));
-  await test('Dynamic reduced preference cancels/restores effects', () => withPage(1440, page => reducedCase(page, true)));
-  await test('Resize updates cylinder scroll range', () => withPage(1440, resizeCase));
-  await test('Expertise disclosure leaves cylinder progress unchanged', () => withPage(1440, disclosureCase));
-  await test('200% text at 320px retains readable process', () => withPage(320, enlargeCase));
-} finally {
-  await browser.close();
-  const summary = { total: results.length, passed: results.filter(item => item.status === 'pass').length, failed: results.filter(item => item.status === 'fail').length, skipped: args.includes('--dev') ? 2 : 0 };
-  await fs.mkdir(path.dirname(output), { recursive: true });
-  await fs.writeFile(output, JSON.stringify({ startedAt, finishedAt: new Date().toISOString(), base: base.href, summary, limitations: ['DOM/animation acceptance; no screenshot or visual design review', 'Not a field or Lighthouse performance measurement', '200% text synthetically doubles computed font/line-height', 'No private hosting access-control assessment'], results }, null, 2));
-  console.log(JSON.stringify(summary)); if (summary.failed) process.exitCode = 1;
+  if(!args.includes('--dev')){await test('No-JS static pose and readable stages',()=>staticCase(false));await test('Delayed-JS preserves cylinder/process nodes',()=>staticCase(true));}
+  await test('All four actual timed rests and aligned rings/text',()=>withPage(1440,timedStops));
+  await test('Fast mobile scroll cannot skip every stop',()=>withPage(390,noScrollSkip));
+  await test('Local keyboard pause freezes exact progress',()=>withPage(1440,localPause));
+  await test('Global keyboard pause retains cylinder progress',()=>withPage(1440,globalPause));
+  await test('Keyboard stage selection holds requested stage',()=>withPage(390,stageSelection));
+  await test('Replay restarts the staged journey',()=>withPage(1440,replay));
+  await test('Offscreen freezes and re-entry resumes',()=>withPage(1440,offscreen));
+  await test('Reduced motion is static with instant manual selection',()=>withPage(390,p=>reduced(p),{reduce:true}));
+  await test('Dynamic reduced motion stops autoplay',()=>withPage(1440,p=>reduced(p,true)));
+  await test('Resize and320px200% text preserve controls and stages',()=>withPage(1440,resizeAndEnlarge));
+  for(const width of [1440,390]) await test(`Responsive process capture ${width}px`,()=>withPage(width,p=>responsiveCapture(p,width)));
+}finally{
+  await browser.close();const summary={total:results.length,passed:results.filter(r=>r.status==='pass').length,failed:results.filter(r=>r.status==='fail').length,skipped:args.includes('--dev')?2:0};
+  await fs.mkdir(path.dirname(output),{recursive:true});await fs.writeFile(output,JSON.stringify({startedAt,finishedAt:new Date().toISOString(),base:base.href,summary,limitations:['Responsive screenshots require human visual review','No real-user/performance-budget assessment','200% text is synthetic font and line-height enlargement','Document-hidden behavior needs a separate trusted browser lifecycle test; this suite covers offscreen lifecycle'],results},null,2));console.log(JSON.stringify(summary));if(summary.failed)process.exitCode=1;
 }

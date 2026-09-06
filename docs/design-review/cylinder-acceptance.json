@@ -1,420 +1,248 @@
 {
-  "startedAt": "2026-09-06T04:00:44.740Z",
-  "finishedAt": "2026-09-06T04:01:03.487Z",
+  "startedAt": "2026-09-06T04:52:17.711Z",
+  "finishedAt": "2026-09-06T04:53:46.318Z",
   "base": "http://127.0.0.1:4173/",
   "summary": {
-    "total": 11,
-    "passed": 11,
+    "total": 14,
+    "passed": 14,
     "failed": 0,
     "skipped": 0
   },
   "limitations": [
-    "DOM/animation acceptance; no screenshot or visual design review",
-    "Not a field or Lighthouse performance measurement",
-    "200% text synthetically doubles computed font/line-height",
-    "No private hosting access-control assessment"
+    "Responsive screenshots require human visual review",
+    "No real-user/performance-budget assessment",
+    "200% text is synthetic font and line-height enlargement",
+    "Document-hidden behavior needs a separate trusted browser lifecycle test; this suite covers offscreen lifecycle"
   ],
   "results": [
     {
-      "name": "No-JS cylinder and four process steps",
+      "name": "No-JS static pose and readable stages",
       "status": "pass",
       "details": {
         "delayed": false,
-        "originalBall": "none",
-        "delayedScripts": 0,
-        "steps": [
-          [
-            "Enquiry",
-            "Tell us about your funding requirements"
-          ],
-          [
-            "Assessment",
-            "We evaluate your proposal and present options"
-          ],
-          [
-            "Approval",
-            "Fast-track approval with our lender network"
-          ],
-          [
-            "Settlement",
-            "Quick settlement and funding deployment"
-          ]
-        ]
+        "stage": "0",
+        "y": 0
       }
     },
     {
-      "name": "Delayed-JS preserves original cylinder/process nodes",
+      "name": "Delayed-JS preserves cylinder/process nodes",
       "status": "pass",
       "details": {
         "delayed": true,
-        "originalBall": "none",
-        "delayedScripts": 13,
-        "steps": [
-          [
-            "Enquiry",
-            "Tell us about your funding requirements"
-          ],
-          [
-            "Assessment",
-            "We evaluate your proposal and present options"
-          ],
-          [
-            "Approval",
-            "Fast-track approval with our lender network"
-          ],
-          [
-            "Settlement",
-            "Quick settlement and funding deployment"
-          ]
-        ]
+        "stage": "0",
+        "y": 0
       }
     },
     {
-      "name": "Downward/reverse scroll 390px",
+      "name": "All four actual timed rests and aligned rings/text",
       "status": "pass",
       "details": {
-        "width": 390,
-        "values": [
-          0,
-          0,
-          114.4,
-          268.184,
-          420,
-          420,
-          420
-        ],
-        "reverseY": 114.4,
-        "ringCount": 4,
-        "completed": {
-          "svg": {
-            "left": 32.125,
-            "right": 357.875,
-            "top": 46.953125,
-            "bottom": 476.953125,
-            "width": 325.75,
-            "height": 430
+        "rests": [
+          {
+            "stage": 0,
+            "durationMs": 1243,
+            "firstAt": 0
           },
-          "ball": {
-            "left": 163.72799682617188,
-            "right": 226.27200317382812,
-            "top": 360.98114013671875,
-            "bottom": 423.5251159667969,
-            "width": 62.54400634765625,
-            "height": 62.543975830078125
+          {
+            "stage": 1,
+            "durationMs": 1208,
+            "firstAt": 2229.5999999046326
           },
-          "viewportHeight": 1000
-        },
-        "fit": {
-          "svg": {
-            "left": 32.125,
-            "right": 357.875,
-            "top": 4928.953125,
-            "bottom": 5358.953125,
-            "width": 325.75,
-            "height": 430
+          {
+            "stage": 2,
+            "durationMs": 1106,
+            "firstAt": 4481.299999952316
           },
-          "scale": {
-            "x": 0.6515,
-            "y": 0.6515
+          {
+            "stage": 3,
+            "durationMs": 3106,
+            "firstAt": 6643.599999904633
           }
-        }
+        ],
+        "firstY": 0,
+        "lastY": 420
       }
     },
     {
-      "name": "Downward/reverse scroll 768px",
+      "name": "Fast mobile scroll cannot skip every stop",
       "status": "pass",
       "details": {
-        "width": 768,
-        "values": [
-          0,
-          0,
-          180.984,
-          368.368,
-          420,
-          420,
-          420
-        ],
-        "reverseY": 180.984,
-        "ringCount": 4,
-        "completed": {
-          "svg": {
-            "left": 32.25,
-            "right": 360.953125,
-            "top": -6.359375,
-            "bottom": 427.515625,
-            "width": 328.703125,
-            "height": 433.875
-          },
-          "ball": {
-            "left": 165.04701232910156,
-            "right": 228.15611267089844,
-            "top": 310.5008544921875,
-            "bottom": 373.6099548339844,
-            "width": 63.109100341796875,
-            "height": 63.109100341796875
-          },
-          "viewportHeight": 1000
-        },
-        "fit": {
-          "svg": {
-            "left": 32.25,
-            "right": 360.953125,
-            "top": 4025.640625,
-            "bottom": 4459.515625,
-            "width": 328.703125,
-            "height": 433.875
-          },
-          "scale": {
-            "x": 0.6573863636363636,
-            "y": 0.6573863636363636
-          }
-        }
+        "beforeY": 0,
+        "afterJumpY": 0,
+        "returnedY": 0
       }
     },
     {
-      "name": "Downward/reverse scroll 1440px",
+      "name": "Local keyboard pause freezes exact progress",
       "status": "pass",
       "details": {
-        "width": 1440,
-        "values": [
-          0,
-          0,
-          167.465,
-          348.388,
-          420,
-          420,
-          420
-        ],
-        "reverseY": 167.465,
-        "ringCount": 4,
-        "completed": {
-          "svg": {
-            "left": 118.625,
-            "right": 618.625,
-            "top": -109.3125,
-            "bottom": 550.6875,
-            "width": 500,
-            "height": 660
-          },
-          "ball": {
-            "left": 320.625,
-            "right": 416.625,
-            "top": 372.6875,
-            "bottom": 468.6875,
-            "width": 96,
-            "height": 96
-          },
-          "viewportHeight": 1000
-        },
-        "fit": {
-          "svg": {
-            "left": 118.625,
-            "right": 618.625,
-            "top": 4221.6875,
-            "bottom": 4881.6875,
-            "width": 500,
-            "height": 660
-          },
-          "scale": {
-            "x": 1,
-            "y": 1
-          }
-        }
-      }
-    },
-    {
-      "name": "Keyboard pause/resume stops/restores cylinder",
-      "status": "pass",
-      "details": {
-        "pausedY": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "resumed": {
-          "width": 1440,
-          "values": [
-            0,
-            0,
-            167.465,
-            348.388,
-            420,
-            420,
-            420
-          ],
-          "reverseY": 167.465,
-          "ringCount": 4,
-          "completed": {
-            "svg": {
-              "left": 118.625,
-              "right": 618.625,
-              "top": -109.3125,
-              "bottom": 550.6875,
-              "width": 500,
-              "height": 660
-            },
-            "ball": {
-              "left": 320.625,
-              "right": 416.625,
-              "top": 372.6875,
-              "bottom": 468.6875,
-              "width": 96,
-              "height": 96
-            },
-            "viewportHeight": 1000
-          },
-          "fit": {
-            "svg": {
-              "left": 118.625,
-              "right": 618.625,
-              "top": -669.3125,
-              "bottom": -9.3125,
-              "width": 500,
-              "height": 660
-            },
-            "scale": {
-              "x": 1,
-              "y": 1
+        "stopped": {
+          "beforeY": 36.8926,
+          "afterY": 36.8926,
+          "beforeTimes": [
+            {
+              "time": 1583.331000135094,
+              "state": "paused"
             }
-          }
-        }
+          ],
+          "afterTimes": [
+            {
+              "time": 1583.331000135094,
+              "state": "paused"
+            }
+          ]
+        },
+        "resumedStage": 1
       }
     },
     {
-      "name": "Reduced motion ignores scroll",
+      "name": "Global keyboard pause retains cylinder progress",
+      "status": "pass",
+      "details": {
+        "stopped": {
+          "beforeY": 140,
+          "afterY": 140,
+          "beforeTimes": [
+            {
+              "time": 2249.884999999404,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 2249.884999999404,
+              "state": "paused"
+            }
+          ]
+        },
+        "resumedStage": 2
+      }
+    },
+    {
+      "name": "Keyboard stage selection holds requested stage",
+      "status": "pass",
+      "details": {
+        "order": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "reduce": false,
+        "playAfterReverseAdvancesForward": true
+      }
+    },
+    {
+      "name": "Replay restarts the staged journey",
+      "status": "pass",
+      "details": {
+        "resetY": 0,
+        "replayedStage": 1
+      }
+    },
+    {
+      "name": "Offscreen freezes and re-entry resumes",
+      "status": "pass",
+      "details": {
+        "stopped": {
+          "beforeY": 140,
+          "afterY": 140,
+          "beforeTimes": [
+            {
+              "time": 2266.5309999678284,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 2266.5309999678284,
+              "state": "paused"
+            }
+          ]
+        },
+        "resumedStage": 2
+      }
+    },
+    {
+      "name": "Reduced motion is static with instant manual selection",
       "status": "pass",
       "details": {
         "dynamic": false,
-        "y": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "effects": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
+        "stopped": {
+          "beforeY": 0,
+          "afterY": 0,
+          "beforeTimes": [
+            {
+              "time": 0,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 0,
+              "state": "paused"
+            }
+          ]
+        }
       }
     },
     {
-      "name": "Dynamic reduced preference cancels/restores effects",
+      "name": "Dynamic reduced motion stops autoplay",
       "status": "pass",
       "details": {
         "dynamic": true,
-        "y": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "effects": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "name": "Resize updates cylinder scroll range",
-      "status": "pass",
-      "details": {
-        "width": 390,
-        "values": [
-          0,
-          0,
-          131.563,
-          293.867,
-          420,
-          420,
-          420
-        ],
-        "reverseY": 131.563,
-        "ringCount": 4,
-        "completed": {
-          "svg": {
-            "left": 32.125,
-            "right": 357.875,
-            "top": -5.046875,
-            "bottom": 424.953125,
-            "width": 325.75,
-            "height": 430
-          },
-          "ball": {
-            "left": 163.72799682617188,
-            "right": 226.27200317382812,
-            "top": 308.98114013671875,
-            "bottom": 371.5251159667969,
-            "width": 62.54400634765625,
-            "height": 62.543975830078125
-          },
-          "viewportHeight": 844
-        },
-        "fit": {
-          "svg": {
-            "left": 32.125,
-            "right": 357.875,
-            "top": 876.953125,
-            "bottom": 1306.953125,
-            "width": 325.75,
-            "height": 430
-          },
-          "scale": {
-            "x": 0.6515,
-            "y": 0.6515
-          }
+        "stopped": {
+          "beforeY": 140,
+          "afterY": 140,
+          "beforeTimes": [
+            {
+              "time": 2249.9260001059624,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 2249.9260001059624,
+              "state": "paused"
+            }
+          ]
         }
       }
     },
     {
-      "name": "Expertise disclosure leaves cylinder progress unchanged",
+      "name": "Resize and320px200% text preserve controls and stages",
       "status": "pass",
       "details": {
-        "before": {
-          "top": 4212.828125,
-          "height": 677.71875,
-          "y": 167.465
-        },
-        "after": {
-          "top": 4212.828125,
-          "height": 677.71875,
-          "y": 167.465
-        }
-      }
-    },
-    {
-      "name": "200% text at 320px retains readable process",
-      "status": "pass",
-      "details": {
-        "viewport": 320,
+        "width": 320,
         "documentWidth": 320,
-        "cylinder": {
+        "svg": {
           "left": 5,
           "right": 315,
-          "top": -170.15625,
-          "bottom": 259.84375,
+          "top": 206.84375,
+          "bottom": 636.84375,
           "width": 310,
           "height": 430
         }
+      }
+    },
+    {
+      "name": "Responsive process capture 1440px",
+      "status": "pass",
+      "details": {
+        "width": 1440,
+        "stage": 1,
+        "screenshot": "C:\\Users\\user\\Documents\\EMET design preview\\reports\\output\\playwright\\staged-cylinder-1440.png",
+        "scope": "Complete process section with all four HTML descriptions and controls"
+      }
+    },
+    {
+      "name": "Responsive process capture 390px",
+      "status": "pass",
+      "details": {
+        "width": 390,
+        "stage": 1,
+        "screenshot": "C:\\Users\\user\\Documents\\EMET design preview\\reports\\output\\playwright\\staged-cylinder-390.png",
+        "scope": "Complete process section with all four HTML descriptions and controls"
       }
     }
   ]

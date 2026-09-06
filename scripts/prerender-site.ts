@@ -39,13 +39,17 @@ function getRoutes(): RenderRoute[] {
   return limit > 0 ? routes.slice(0, limit) : routes;
 }
 
-async function waitForServer() {
+async function waitForServer(isReady: () => boolean, hasExited: () => boolean) {
   for (let attempt = 0; attempt < 120; attempt += 1) {
-    try {
-      const response = await fetch(baseUrl, { redirect: "manual" });
-      if (response.ok) return;
-    } catch {
-      // Server is still starting.
+    if (hasExited()) throw new Error(`Prerender preview exited before starting at ${baseUrl}. Stop the existing preview or choose a free PRERENDER_PORT.`);
+    // An unrelated server may already answer here. Wait for our child to own the URL.
+    if (isReady()) {
+      try {
+        const response = await fetch(baseUrl, { redirect: "manual" });
+        if (response.ok) return;
+      } catch {
+        // Server is still starting.
+      }
     }
     await new Promise((resolve) => setTimeout(resolve, 250));
   }
@@ -186,19 +190,23 @@ async function main() {
   }
 
   const viteBin = path.join(repoRoot, "node_modules", "vite", "bin", "vite.js");
-  const preview = spawn(process.execPath, [viteBin, "preview", "--host", "127.0.0.1", "--port", String(port)], {
+  const preview = spawn(process.execPath, [viteBin, "preview", "--host", "127.0.0.1", "--port", String(port), "--strictPort"], {
     cwd: repoRoot,
     env: { ...process.env },
     stdio: ["ignore", "pipe", "pipe"],
   });
   let previewErrors = "";
+  let previewReady = false;
+  preview.stdout.on("data", (chunk) => {
+    if (String(chunk).includes(baseUrl)) previewReady = true;
+  });
   preview.stderr.on("data", (chunk) => {
     previewErrors += String(chunk);
   });
 
   let browser: Browser | undefined;
   try {
-    await waitForServer();
+    await waitForServer(() => previewReady, () => preview.exitCode !== null);
     browser = await chromium.launch({ headless: true });
     const routes = getRoutes();
     const failures: RenderFailure[] = [];

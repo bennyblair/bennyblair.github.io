@@ -20,7 +20,6 @@ export function useHomepageMotion(root: RefObject<HTMLDivElement>, paused: boole
         return animation;
       };
       const hero = page.querySelector<HTMLElement>(".home-hero");
-      const process = page.querySelector<HTMLElement>(".process-visual");
       const image = page.querySelector(".hero-image img");
       // One finite camera move. The pause control also stops scroll-linked effects.
       animate(image, [{ transform: "scale(1.1)" }, { transform: "scale(1.025)" }], {
@@ -39,16 +38,7 @@ export function useHomepageMotion(root: RefObject<HTMLDivElement>, paused: boole
         { transform: "rotate(-7deg) scale(1.12)" },
         { transform: "rotate(8deg) scale(1)" },
       ], { duration: 1000, fill: "both" });
-      const ball = animate(page.querySelector(".process-ball"), [
-        { transform: "translateY(0px)" }, { transform: "translateY(420px)" },
-      ], { duration: 1000, fill: "both" });
-      const rings = [...page.querySelectorAll(".process-ring-glow")].map((ring, index) => {
-        const center = index / 3;
-        // Soft light follows the sphere as it passes each funding stage.
-        const offsets = [...new Set([0, Math.max(0, center - .2), center, Math.min(1, center + .2), 1])].sort((a, b) => a - b);
-        return animate(ring, offsets.map(offset => ({ offset, opacity: String(Math.max(0, 1 - Math.abs(offset - center) / .2)) })), { duration: 1000, fill: "both" });
-      });
-      [camera, survey, ball, ...rings].forEach(animation => animation?.pause());
+      [camera, survey].forEach(animation => animation?.pause());
 
       const update = () => {
         frame = 0;
@@ -57,13 +47,6 @@ export function useHomepageMotion(root: RefObject<HTMLDivElement>, paused: boole
           const progress = Math.max(0, Math.min(1, -box.top / box.height));
           if (camera) camera.currentTime = progress * 1000;
           if (survey) survey.currentTime = progress * 1000;
-        }
-        if (process && ball) {
-          const box = process.getBoundingClientRect();
-          // The disclosure below is outside this wrapper, so expanding it never shifts the timeline.
-          const progress = Math.max(0, Math.min(1, (innerHeight * .7 - box.top) / Math.max(box.height * .75, innerHeight * .65)));
-          ball.currentTime = progress * 1000;
-          rings.forEach(ring => { if (ring) ring.currentTime = progress * 1000; });
         }
       };
       const schedule = () => { if (!frame) frame = requestAnimationFrame(update); };
