@@ -126,7 +126,7 @@ const PrivateLending = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                As commercial finance brokers, we provide access to over 50 lenders nationwide, including extensive private lending networks encompassing credit funds, private investors, and specialist non-bank financiers. Our relationships span diverse private capital sources with varying risk appetites, funding scales, and specializations. We match clients with private lenders offering appropriate structures, competitive pricing within the private market, and terms aligned with transaction requirements and exit strategies.
+                As commercial finance brokers, we work with a network of lenders, including credit funds, private investors, and specialist non-bank financiers. Lender appetite, funding capacity and terms vary by transaction. We help borrowers compare available options based on their business purpose, security and repayment or exit strategy.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through private lending assessment, deal structuring, and negotiation processes. Our expertise includes presenting transactions to private lenders, structuring security arrangements, and coordinating time-sensitive settlements where appropriate. We structure applications around the asset, borrower, purpose, and exit so lenders can assess the transaction on its merits.
