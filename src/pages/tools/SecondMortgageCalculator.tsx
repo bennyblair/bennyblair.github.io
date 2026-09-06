@@ -110,7 +110,7 @@ const SecondMortgageCalculator = () => {
           ]} />
 
           {/* Header */}
-          <div className="text-center max-w-4xl mx-auto mb-12">
+          <div className="page-header text-center max-w-4xl mx-auto mb-12">
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Second Mortgage Calculator for Business Use
             </h1>
@@ -123,7 +123,7 @@ const SecondMortgageCalculator = () => {
           </div>
 
           {/* Calculator */}
-          <Card className="mb-12 bg-gradient-to-r from-accent/5 to-accent-light/5 border-accent/20">
+          <Card className="calculator-workspace mb-12 bg-gradient-to-r from-accent/5 to-accent-light/5 border-accent/20">
             <CardContent className="p-8">
               <div className="flex items-center mb-6">
                 <Calculator className="w-6 h-6 text-accent mr-3" />
@@ -208,7 +208,7 @@ const SecondMortgageCalculator = () => {
                 </div>
 
                 {/* Results */}
-                <div className="bg-card border border-border rounded-lg p-6">
+                <div className="calculator-results bg-card border border-border rounded-lg p-6">
                   <h3 className="text-lg font-semibold text-foreground mb-4">Calculation Results</h3>
                   {results ? (
                     <div className="space-y-4">

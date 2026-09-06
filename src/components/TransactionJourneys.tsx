@@ -4,7 +4,7 @@ import { TRANSACTION_JOURNEYS } from "@/lib/transactions";
 
 export default function TransactionJourneys() {
   return (
-    <section aria-labelledby="transaction-journeys-heading" className="py-12">
+    <section aria-labelledby="transaction-journeys-heading" className="transaction-journeys section-pad">
       <h2 id="transaction-journeys-heading" className="text-3xl font-bold text-center mb-4">What do you need the funding to do?</h2>
       <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-8">
         Business-purpose finance secured by residential or commercial property. Start with the transaction; we help compare the lending structures.

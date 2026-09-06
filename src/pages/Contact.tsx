@@ -36,7 +36,7 @@ const Contact = () => {
         <Breadcrumbs items={breadcrumbItems} />
         
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="page-header text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Discuss Your Business Finance Transaction
           </h1>
@@ -45,9 +45,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-12">
+        <div className="contact-page-layout">
           {/* Contact Form */}
-          <div className="lg:col-span-2">
+          <div className="contact-page-form">
             <Card>
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold text-foreground mb-6">
@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Information & Benefits */}
-          <div className="space-y-8">
+          <div className="contact-page-aside">
             {/* Contact Details */}
             <Card>
               <CardContent className="p-6">

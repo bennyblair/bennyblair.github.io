@@ -3,22 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="dark" />
-    <meta name="theme-color" content="#101319" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#151b1d" />
+    <script>
+      // Reserve the compact cylinder layout before first paint; keep the full
+      // readable sequence when JavaScript is disabled or HTML is prerendered.
+      if (!window.__EMET_PRERENDER__) document.documentElement.dataset.processLayout = "compact";
+    </script>
     <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="/fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
     <link
       rel="preload"
       as="image"
-      href="/images/emet-abstract-hero-mobile.jpg"
-      media="(max-width: 560px)"
+      href="/images/design/home-commercial-mobile-900.avif"
+      imagesrcset="/images/design/home-commercial-mobile-600.avif 600w, /images/design/home-commercial-mobile-900.avif 900w"
+      imagesizes="max(100vw, 65vh)"
+      type="image/avif"
+      media="(max-width: 640px)"
       fetchpriority="high"
     />
     <link
       rel="preload"
       as="image"
-      href="/images/emet-abstract-hero.jpg"
-      media="(min-width: 561px)"
+      href="/images/design/home-commercial-1600.avif"
+      imagesrcset="/images/design/home-commercial-1600.avif 1600w, /images/design/home-commercial-2400.avif 2400w"
+      imagesizes="100vw"
+      type="image/avif"
+      media="(min-width: 641px)"
       fetchpriority="high"
     />
     <meta
@@ -27,13 +38,21 @@
     />
 
     <!-- Public analytics identifiers. The failed Zyro tracker has been removed. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWJCDYNTCG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag("js", new Date());
       gtag("config", "G-EWJCDYNTCG", { send_page_view: false });
       gtag("config", "AW-16887067533");
+      // Queue events immediately, then download analytics after the initial
+      // document and hero have loaded so tracking does not compete with LCP.
+      window.addEventListener("load", function () {
+        if (window.__EMET_PRERENDER__) return;
+        var analyticsScript = document.createElement("script");
+        analyticsScript.async = true;
+        analyticsScript.src = "https://www.googletagmanager.com/gtag/js?id=G-EWJCDYNTCG";
+        document.head.appendChild(analyticsScript);
+      }, { once: true });
     </script>
 
   </head>

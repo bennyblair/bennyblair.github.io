@@ -51,6 +51,13 @@ process.env.TEMP = lighthouseTempDir;
 process.env.TMP = lighthouseTempDir;
 try {
   await waitForPreview();
+  if (process.platform === "win32") {
+    // Use the same tested headless executable as our prerender/acceptance checks.
+    // chrome-launcher's full Chrome executable can fail to spawn on Windows.
+    const debugPort = Number(process.env.LIGHTHOUSE_DEBUG_PORT || 43179);
+    const browser = await chromium.launch({ headless: true, args: [`--remote-debugging-port=${debugPort}`] });
+    chrome = { port: debugPort, kill: () => browser.close() };
+  } else {
   chrome = new Launcher({
     chromePath: chromium.executablePath(),
     // chrome-launcher rewrites its managed profile path to Windows syntax when it
@@ -69,6 +76,7 @@ try {
   // resolve missing Windows variables into a literal `undefined:/` directory.
   chrome.makeTmpDir = () => chromeLauncherStateDir;
   await chrome.launch();
+  }
   const result = await lighthouse(baseUrl, {
     port: chrome.port,
     output: "json",

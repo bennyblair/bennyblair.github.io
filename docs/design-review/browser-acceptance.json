@@ -1,0 +1,2216 @@
+{
+  "startedAt": "2026-09-06T04:44:36.386Z",
+  "finishedAt": "2026-09-06T04:45:59.828Z",
+  "baseUrl": "http://127.0.0.1:4173/",
+  "site": "C:\\Users\\user\\Documents\\EMET design preview",
+  "assumptions": [
+    "Preview build with noindex and form simulation enabled",
+    "Network writes and external requests are blocked and recorded",
+    "No-JS and delayed-JS checks require prerendered pages",
+    "200% check synthetically doubles computed fonts and line heights; it is not a browser UI zoom test",
+    "This script does not assess private hosting access control or real-user performance"
+  ],
+  "summary": {
+    "total": 89,
+    "passed": 89,
+    "failed": 0,
+    "skipped": 0
+  },
+  "results": [
+    {
+      "name": "layout 320px /resources/guides",
+      "status": "pass",
+      "durationMs": 1043,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 236.796875,
+          "bottom": 315.265625,
+          "width": 280,
+          "height": 78.46875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /resources/guides",
+      "status": "pass",
+      "durationMs": 7146,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 20,
+          "right": 370,
+          "top": 236.796875,
+          "bottom": 315.265625,
+          "width": 350,
+          "height": 78.46875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /resources/guides",
+      "status": "pass",
+      "durationMs": 831,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 550.5625,
+          "top": 223.296875,
+          "bottom": 262.53125,
+          "width": 518.3125,
+          "height": 39.234375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /resources/guides",
+      "status": "pass",
+      "durationMs": 840,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 43,
+          "right": 632.734375,
+          "top": 235.296875,
+          "bottom": 279.921875,
+          "width": 589.734375,
+          "height": 44.625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /resources/guides",
+      "status": "pass",
+      "durationMs": 840,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 53.75,
+          "right": 790.921875,
+          "top": 235.296875,
+          "bottom": 291.09375,
+          "width": 737.171875,
+          "height": 55.796875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /resources/guides",
+      "status": "pass",
+      "durationMs": 828,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 946.75,
+          "top": 235.296875,
+          "bottom": 296.328125,
+          "width": 806.28125,
+          "height": 61.03125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 727,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 87,
+          "right": 300,
+          "top": 295.59375,
+          "bottom": 400.21875,
+          "width": 213,
+          "height": 104.625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 1851,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 87,
+          "right": 370,
+          "top": 295.59375,
+          "bottom": 365.34375,
+          "width": 283,
+          "height": 69.75
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 782,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 111.25,
+          "right": 569.578125,
+          "top": 252.296875,
+          "bottom": 291.53125,
+          "width": 458.328125,
+          "height": 39.234375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 732,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 122,
+          "right": 695.546875,
+          "top": 284.296875,
+          "bottom": 333.40625,
+          "width": 573.546875,
+          "height": 49.109375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 715,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 132.75,
+          "right": 849.765625,
+          "top": 284.296875,
+          "bottom": 345.671875,
+          "width": 717.015625,
+          "height": 61.375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 716,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 219.46875,
+          "right": 1026.125,
+          "top": 284.296875,
+          "bottom": 353.34375,
+          "width": 806.65625,
+          "height": 69.046875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /",
+      "status": "pass",
+      "durationMs": 731,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 437.84375,
+          "bottom": 537.640625,
+          "width": 280,
+          "height": 99.796875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /",
+      "status": "pass",
+      "durationMs": 1782,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 20,
+          "right": 370,
+          "top": 439.671875,
+          "bottom": 561.3125,
+          "width": 350,
+          "height": 121.640625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /",
+      "status": "pass",
+      "durationMs": 802,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 428.625,
+          "top": 579.78125,
+          "bottom": 723.5,
+          "width": 396.375,
+          "height": 143.71875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /",
+      "status": "pass",
+      "durationMs": 799,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 43,
+          "right": 601.765625,
+          "top": 691.453125,
+          "bottom": 889.5,
+          "width": 558.765625,
+          "height": 198.046875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /",
+      "status": "pass",
+      "durationMs": 750,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 53.75,
+          "right": 769.90625,
+          "top": 637.921875,
+          "bottom": 889.5,
+          "width": 716.15625,
+          "height": 251.578125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /",
+      "status": "pass",
+      "durationMs": 750,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 60.46875,
+          "right": 869.640625,
+          "top": 606.46875,
+          "bottom": 889.5,
+          "width": 809.171875,
+          "height": 283.03125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 721,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 43,
+          "right": 300,
+          "top": 295.59375,
+          "bottom": 435.09375,
+          "width": 257,
+          "height": 139.5
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 1811,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 43,
+          "right": 370,
+          "top": 295.59375,
+          "bottom": 400.21875,
+          "width": 327,
+          "height": 104.625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 723,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 67.25,
+          "right": 585.5625,
+          "top": 252.296875,
+          "bottom": 330.765625,
+          "width": 518.3125,
+          "height": 78.46875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 731,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 78,
+          "right": 726.625,
+          "top": 284.296875,
+          "bottom": 382.515625,
+          "width": 648.625,
+          "height": 98.21875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 702,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 88.75,
+          "right": 899.640625,
+          "top": 284.296875,
+          "bottom": 407.046875,
+          "width": 810.890625,
+          "height": 122.75
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 731,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 175.46875,
+          "right": 1087.71875,
+          "top": 284.296875,
+          "bottom": 422.390625,
+          "width": 912.25,
+          "height": 138.09375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /services/private-lending",
+      "status": "pass",
+      "durationMs": 703,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 43,
+          "right": 300,
+          "top": 265.796875,
+          "bottom": 335.546875,
+          "width": 257,
+          "height": 69.75
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /services/private-lending",
+      "status": "pass",
+      "durationMs": 1622,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 43,
+          "right": 370,
+          "top": 265.796875,
+          "bottom": 335.546875,
+          "width": 327,
+          "height": 69.75
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /services/private-lending",
+      "status": "pass",
+      "durationMs": 726,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 67.25,
+          "right": 585.5625,
+          "top": 252.296875,
+          "bottom": 291.53125,
+          "width": 518.3125,
+          "height": 39.234375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /services/private-lending",
+      "status": "pass",
+      "durationMs": 699,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 78,
+          "right": 726.625,
+          "top": 284.296875,
+          "bottom": 333.40625,
+          "width": 648.625,
+          "height": 49.109375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /services/private-lending",
+      "status": "pass",
+      "durationMs": 735,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 88.75,
+          "right": 899.640625,
+          "top": 284.296875,
+          "bottom": 345.671875,
+          "width": 810.890625,
+          "height": 61.375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /services/private-lending",
+      "status": "pass",
+      "durationMs": 718,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 175.46875,
+          "right": 1087.71875,
+          "top": 284.296875,
+          "bottom": 353.34375,
+          "width": 912.25,
+          "height": 69.046875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 801,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 401.390625,
+          "bottom": 540.890625,
+          "width": 280,
+          "height": 139.5
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 1823,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 20,
+          "right": 370,
+          "top": 369.390625,
+          "bottom": 474.015625,
+          "width": 350,
+          "height": 104.625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 792,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 564.34375,
+          "top": 267.296875,
+          "bottom": 341.390625,
+          "width": 532.09375,
+          "height": 74.09375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 782,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 43,
+          "right": 651.9375,
+          "top": 287.296875,
+          "bottom": 372.109375,
+          "width": 608.9375,
+          "height": 84.8125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 782,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 53.75,
+          "right": 814.953125,
+          "top": 287.296875,
+          "bottom": 393.328125,
+          "width": 761.203125,
+          "height": 106.03125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 787,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 996.828125,
+          "top": 287.296875,
+          "bottom": 406.578125,
+          "width": 856.359375,
+          "height": 119.28125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 765,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 414.390625,
+          "bottom": 588.765625,
+          "width": 280,
+          "height": 174.375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 1620,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 20,
+          "right": 370,
+          "top": 414.390625,
+          "bottom": 519.015625,
+          "width": 350,
+          "height": 104.625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 778,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 564.34375,
+          "top": 377.09375,
+          "bottom": 451.1875,
+          "width": 532.09375,
+          "height": 74.09375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 766,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 43,
+          "right": 651.9375,
+          "top": 367.296875,
+          "bottom": 452.109375,
+          "width": 608.9375,
+          "height": 84.8125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 767,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 53.75,
+          "right": 814.953125,
+          "top": 367.296875,
+          "bottom": 473.328125,
+          "width": 761.203125,
+          "height": 106.03125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 865,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 996.828125,
+          "top": 367.296875,
+          "bottom": 486.578125,
+          "width": 856.359375,
+          "height": 119.28125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /contact",
+      "status": "pass",
+      "durationMs": 702,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 221.796875,
+          "bottom": 329.703125,
+          "width": 280,
+          "height": 107.90625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /contact",
+      "status": "pass",
+      "durationMs": 1453,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 20,
+          "right": 370,
+          "top": 221.796875,
+          "bottom": 293.734375,
+          "width": 350,
+          "height": 71.9375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /contact",
+      "status": "pass",
+      "durationMs": 697,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 631.328125,
+          "top": 208.296875,
+          "bottom": 244.265625,
+          "width": 599.078125,
+          "height": 35.96875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /contact",
+      "status": "pass",
+      "durationMs": 699,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 43,
+          "right": 674.9375,
+          "top": 220.296875,
+          "bottom": 258.234375,
+          "width": 631.9375,
+          "height": 37.9375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /contact",
+      "status": "pass",
+      "durationMs": 705,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 53.75,
+          "right": 843.796875,
+          "top": 220.296875,
+          "bottom": 267.71875,
+          "width": 790.046875,
+          "height": 47.421875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /contact",
+      "status": "pass",
+      "durationMs": 695,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 975.546875,
+          "top": 220.296875,
+          "bottom": 270.421875,
+          "width": 835.078125,
+          "height": 50.125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 320px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 735,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 275.390625,
+          "bottom": 383.296875,
+          "width": 280,
+          "height": 107.90625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 390px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 1613,
+      "details": {
+        "errors": [],
+        "viewport": 390,
+        "documentWidth": 390,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 20,
+          "right": 370,
+          "top": 251.59375,
+          "bottom": 323.53125,
+          "width": 350,
+          "height": 71.9375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 768px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 735,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 631.328125,
+          "top": 208.296875,
+          "bottom": 244.265625,
+          "width": 599.078125,
+          "height": 35.96875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1024px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 718,
+      "details": {
+        "errors": [],
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 43,
+          "right": 674.9375,
+          "top": 220.296875,
+          "bottom": 258.234375,
+          "width": 631.9375,
+          "height": 37.9375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1280px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 751,
+      "details": {
+        "errors": [],
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 53.75,
+          "right": 843.796875,
+          "top": 220.296875,
+          "bottom": 267.71875,
+          "width": 790.046875,
+          "height": 47.421875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "layout 1440px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 697,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 975.546875,
+          "top": 220.296875,
+          "bottom": 270.421875,
+          "width": 835.078125,
+          "height": 50.125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "100%",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /resources/guides",
+      "status": "pass",
+      "durationMs": 986,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 450.1875,
+          "bottom": 764.125,
+          "width": 280,
+          "height": 313.9375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /resources/guides",
+      "status": "pass",
+      "durationMs": 965,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 735.75,
+          "top": 315,
+          "bottom": 471.96875,
+          "width": 703.5,
+          "height": 156.96875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /resources/guides",
+      "status": "pass",
+      "durationMs": 966,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Lending Guides",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 1260.46875,
+          "top": 351.59375,
+          "bottom": 595.75,
+          "width": 1120,
+          "height": 244.15625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 766,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 87,
+          "right": 300,
+          "top": 633.375,
+          "bottom": 982.203125,
+          "width": 213,
+          "height": 348.828125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 797,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 111.25,
+          "right": 735.75,
+          "top": 365,
+          "bottom": 521.96875,
+          "width": 624.5,
+          "height": 156.96875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /services/asset-backed-lending/sydney",
+      "status": "pass",
+      "durationMs": 777,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Asset Backed Lending Sydney",
+        "headingBounds": {
+          "left": 219.46875,
+          "right": 1260.46875,
+          "top": 421.59375,
+          "bottom": 697.84375,
+          "width": 1041,
+          "height": 276.25
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/asset-backed-lending/sydney",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /",
+      "status": "pass",
+      "durationMs": 783,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 585,
+          "bottom": 1050.9375,
+          "width": 280,
+          "height": 465.9375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /",
+      "status": "pass",
+      "durationMs": 810,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 428.625,
+          "top": 493.40625,
+          "bottom": 1164.3125,
+          "width": 396.375,
+          "height": 670.90625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /",
+      "status": "pass",
+      "durationMs": 824,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Lending Solutions, Expertly Engineered",
+        "headingBounds": {
+          "left": 60.46875,
+          "right": 869.640625,
+          "top": 514,
+          "bottom": 1834.921875,
+          "width": 809.171875,
+          "height": 1320.921875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 784,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 43,
+          "right": 300,
+          "top": 579.78125,
+          "bottom": 1207.671875,
+          "width": 257,
+          "height": 627.890625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 746,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 67.25,
+          "right": 735.75,
+          "top": 365,
+          "bottom": 600.453125,
+          "width": 668.5,
+          "height": 235.453125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /services/commercial-property-finance",
+      "status": "pass",
+      "durationMs": 792,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Property Finance for Australian Borrowers",
+        "headingBounds": {
+          "left": 175.46875,
+          "right": 1260.46875,
+          "top": 421.59375,
+          "bottom": 974.09375,
+          "width": 1085,
+          "height": 552.5
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/services/commercial-property-finance",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /services/private-lending",
+      "status": "pass",
+      "durationMs": 774,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 43,
+          "right": 300,
+          "top": 500.1875,
+          "bottom": 779.25,
+          "width": 257,
+          "height": 279.0625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /services/private-lending",
+      "status": "pass",
+      "durationMs": 783,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 67.25,
+          "right": 735.75,
+          "top": 365,
+          "bottom": 521.96875,
+          "width": 668.5,
+          "height": 156.96875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /services/private-lending",
+      "status": "pass",
+      "durationMs": 800,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Private Lending Solutions",
+        "headingBounds": {
+          "left": 175.46875,
+          "right": 1260.46875,
+          "top": 421.59375,
+          "bottom": 697.84375,
+          "width": 1085,
+          "height": 276.25
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/services/private-lending",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 826,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 817.5625,
+          "bottom": 1375.6875,
+          "width": 280,
+          "height": 558.125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 850,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 735.75,
+          "top": 535.1875,
+          "bottom": 757.5625,
+          "width": 703.5,
+          "height": 222.375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 871,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Property Loans in Australia: The Complete Guide",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 1260.46875,
+          "top": 477.1875,
+          "bottom": 835.078125,
+          "width": 1120,
+          "height": 357.890625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 833,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 910.15625,
+          "bottom": 1468.28125,
+          "width": 280,
+          "height": 558.125
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 845,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 735.75,
+          "top": 588.1875,
+          "bottom": 810.5625,
+          "width": 703.5,
+          "height": 222.375
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /resources/case-studies/surry-hills-commercial-acquisition",
+      "status": "pass",
+      "durationMs": 903,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 1260.46875,
+          "top": 585.1875,
+          "bottom": 943.078125,
+          "width": 1120,
+          "height": 357.890625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/case-studies/surry-hills-commercial-acquisition",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /contact",
+      "status": "pass",
+      "durationMs": 741,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 381.59375,
+          "bottom": 741.28125,
+          "width": 280,
+          "height": 359.6875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /contact",
+      "status": "pass",
+      "durationMs": 756,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 735.75,
+          "top": 300,
+          "bottom": 443.875,
+          "width": 703.5,
+          "height": 143.875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /contact",
+      "status": "pass",
+      "durationMs": 731,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Get Your Commercial Lending Quote",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 1240.46875,
+          "top": 336.59375,
+          "bottom": 537.15625,
+          "width": 1100,
+          "height": 200.5625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "canonical": "https://emetcapital.com.au/contact",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 320px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 779,
+      "details": {
+        "errors": [],
+        "viewport": 320,
+        "documentWidth": 320,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 20,
+          "right": 300,
+          "top": 530.375,
+          "bottom": 962,
+          "width": 280,
+          "height": 431.625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 768px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 766,
+      "details": {
+        "errors": [],
+        "viewport": 768,
+        "documentWidth": 768,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 32.25,
+          "right": 735.75,
+          "top": 353.59375,
+          "bottom": 497.46875,
+          "width": 703.5,
+          "height": 143.875
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "text enlargement 200% 1440px /resources/tools/commercial-property-loan-calculator",
+      "status": "pass",
+      "durationMs": 772,
+      "details": {
+        "errors": [],
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "headline": "Commercial Property Loan Calculator",
+        "headingBounds": {
+          "left": 140.46875,
+          "right": 1240.46875,
+          "top": 336.59375,
+          "bottom": 537.15625,
+          "width": 1100,
+          "height": 200.5625
+        },
+        "robots": [
+          "noindex, nofollow, noarchive",
+          "noindex, nofollow, noarchive"
+        ],
+        "canonical": "https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator",
+        "textZoom": "synthetic 200% text-only enlargement",
+        "blockedExternalRequests": []
+      }
+    },
+    {
+      "name": "no-JS mobile first click",
+      "status": "pass",
+      "durationMs": 369,
+      "details": {
+        "mode": "click",
+        "delayedJavaScript": false,
+        "scriptsDelayed": 0,
+        "destination": "http://127.0.0.1:4173/services/commercial-property-finance"
+      }
+    },
+    {
+      "name": "no-JS mobile first keyboard",
+      "status": "pass",
+      "durationMs": 331,
+      "details": {
+        "mode": "keyboard",
+        "delayedJavaScript": false,
+        "scriptsDelayed": 0,
+        "destination": "http://127.0.0.1:4173/services/commercial-property-finance"
+      }
+    },
+    {
+      "name": "delayed-JS mobile first click /",
+      "status": "pass",
+      "durationMs": 958,
+      "details": {
+        "mode": "click",
+        "delayedJavaScript": true,
+        "scriptsDelayed": 28,
+        "destination": "http://127.0.0.1:4173/services/commercial-property-finance"
+      }
+    },
+    {
+      "name": "delayed-JS mobile first keyboard /",
+      "status": "pass",
+      "durationMs": 956,
+      "details": {
+        "mode": "keyboard",
+        "delayedJavaScript": true,
+        "scriptsDelayed": 28,
+        "destination": "http://127.0.0.1:4173/services/commercial-property-finance"
+      }
+    },
+    {
+      "name": "delayed-JS mobile first click /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 1101,
+      "details": {
+        "mode": "click",
+        "delayedJavaScript": true,
+        "scriptsDelayed": 34,
+        "destination": "http://127.0.0.1:4173/services/commercial-property-finance"
+      }
+    },
+    {
+      "name": "delayed-JS mobile first keyboard /resources/guides/commercial-property-loans-australia-complete-guide",
+      "status": "pass",
+      "durationMs": 1033,
+      "details": {
+        "mode": "keyboard",
+        "delayedJavaScript": true,
+        "scriptsDelayed": 34,
+        "destination": "http://127.0.0.1:4173/services/commercial-property-finance"
+      }
+    },
+    {
+      "name": "preview homepage enquiry isolation",
+      "status": "pass",
+      "durationMs": 829,
+      "details": {
+        "form": "homepage-contact",
+        "writeRequests": 0,
+        "analyticsRequests": 0,
+        "analyticsCalls": 0,
+        "explicitPreviewConfirmation": true
+      }
+    },
+    {
+      "name": "preview contact enquiry isolation",
+      "status": "pass",
+      "durationMs": 794,
+      "details": {
+        "form": "contact",
+        "writeRequests": 0,
+        "analyticsRequests": 0,
+        "analyticsCalls": 0,
+        "explicitPreviewConfirmation": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "scope": "Broader-site private review, compared to the preceding closing-section preview",
+  "date": "2026-09-06",
+  "layout_checks": {
+    "total": 233,
+    "passed": 233,
+    "failed": 0,
+    "skipped": 0
+  },
+  "layout_routes": [
+    "/",
+    "/about",
+    "/about/ben",
+    "/contact",
+    "/resources",
+    "/resources/case-studies",
+    "/resources/case-studies/surry-hills-commercial-acquisition",
+    "/resources/faqs",
+    "/resources/glossary",
+    "/resources/guides",
+    "/resources/guides/commercial-property-loans-australia-complete-guide",
+    "/resources/insights",
+    "/resources/tools",
+    "/resources/tools/asset-finance-roi-calculator",
+    "/resources/tools/bridging-loan-calculator",
+    "/resources/tools/commercial-property-loan-calculator",
+    "/resources/tools/commercial-real-estate-calculator",
+    "/resources/tools/loan-comparison-tool",
+    "/resources/tools/second-mortgage-calculator",
+    "/resources/tools/working-capital-calculator",
+    "/services",
+    "/services/asset-backed-lending/sydney",
+    "/services/commercial-property-finance",
+    "/services/private-lending",
+    "/terms"
+  ],
+  "viewport_widths": [
+    320,
+    390,
+    768,
+    1024,
+    1280,
+    1440
+  ],
+  "text_enlargement": "200% computed font/line-height scaling at 320,768,1440; not browser UI zoom",
+  "content_and_seo": {
+    "baseline_routes": 380,
+    "preview_routes_found": 380,
+    "missing_routes": [],
+    "sitemap_removed_routes": [],
+    "sitemap_added_routes": [],
+    "routes_without_inbound_html_links": [],
+    "routes_not_reachable_from_homepage": [],
+    "absolute_production_navigation_links": [],
+    "nonself_canonicals": [],
+    "invalid_local_images": [],
+    "pages_with_broken_fragments": []
+  },
+  "preservation_differences": {
+    "canonical": 0,
+    "title": 0,
+    "description": 0,
+    "h1": 0,
+    "robots": 0,
+    "jsonld": 0,
+    "internal_link_paths": 0,
+    "baseline_blocks_not_found": 0,
+    "short_baseline_blocks_not_found": 0,
+    "broken_fragments": 0,
+    "jsonld_errors": 0
+  },
+  "interactive_regressions": [
+    {
+      "route": "/resources/guides",
+      "passed": true,
+      "categoryChecks": 24
+    },
+    {
+      "route": "/resources/case-studies",
+      "passed": true,
+      "categoryChecks": 9
+    },
+    {
+      "route": "/services",
+      "passed": true,
+      "serviceLinks": 16,
+      "noJavaScriptDisclosure": true
+    },
+    {
+      "route": "/resources/tools/commercial-property-loan-calculator",
+      "passed": true,
+      "populatedResultAccessibility": true
+    },
+    {
+      "route": "/resources/tools/second-mortgage-calculator",
+      "passed": true,
+      "populatedResultAccessibility": true
+    },
+    {
+      "route": "/resources/tools/commercial-real-estate-calculator",
+      "passed": true,
+      "populatedResultAccessibility": true
+    },
+    {
+      "route": "/resources/tools/asset-finance-roi-calculator",
+      "passed": true,
+      "populatedResultAccessibility": true
+    },
+    {
+      "route": "/resources/tools/working-capital-calculator",
+      "passed": true,
+      "populatedResultAccessibility": true
+    },
+    {
+      "route": "/resources/tools/loan-comparison-tool",
+      "passed": true,
+      "populatedResultAccessibility": true
+    },
+    {
+      "route": "/resources/tools/bridging-loan-calculator",
+      "passed": true,
+      "populatedResultAccessibility": true
+    }
+  ],
+  "unit_tests": {
+    "passed": 74,
+    "failed": 0
+  },
+  "typecheck": "pass",
+  "lint": "0 errors; 9 existing Fast Refresh warnings",
+  "seo_control_plane": "pass",
+  "new_page_business_case_gate": "pass",
+  "seo_risk_gate": "pass",
+  "protected_cohort_gate": "pass",
+  "content_quality_gate": "pass",
+  "production_dependency_audit": "0 vulnerabilities",
+  "claim_integrity_gate": "Fails on the same nine inherited lender-count claims; see release-review.md",
+  "production_smoke_on_private_build": "One expected mismatch: production test requires generate_lead; preview correctly emits zero. Other smoke checks pass. Both preview form isolation checks pass with no writes or analytics calls.",
+  "accessibility": {
+    "canonical_routes": 380,
+    "errors": 0,
+    "tags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21a",
+      "wcag21aa",
+      "wcag22aa"
+    ]
+  },
+  "performance": {
+    "scope": "Final private review; simulated mobile laboratory measurement, not field data",
+    "observed": {
+      "lcpMs": 2493.178,
+      "cls": 0,
+      "tbtMs": 38,
+      "accessibility": 1,
+      "seo": 0.69,
+      "initialJavaScriptTransferBytes": 108085
+    },
+    "thresholds": {
+      "lcpMs": 2500,
+      "cls": 0.1,
+      "tbtMs": 200,
+      "accessibility": 0.95,
+      "seo": 0.95,
+      "initialJavaScriptTransferBytes": 307200
+    },
+    "performance_budgets_pass": true,
+    "full_gate_pass": false,
+    "expected_private_seo_failure": "69/100 because review noindex/robots protections remain enabled",
+    "note": "LCP is close to the 2.5s budget; preserve asset delivery and remeasure before production promotion."
+  }
+}

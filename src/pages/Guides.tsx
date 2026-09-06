@@ -1,44 +1,29 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { ArrowUpRight, Search, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { BookOpen, Clock, User, Filter, Star, CheckCircle } from "lucide-react";
+import DirectoryFilters from "@/components/DirectoryFilters";
 import { getContentSummaries } from "@/lib/content";
-import { generateBreadcrumbSchema, generateCollectionPageSchema } from "@/lib/schema-utils";
+import { generateCollectionPageSchema } from "@/lib/schema-utils";
 import SEO from "@/components/SEO";
+import { normalizeGuideQuery, searchGuides } from "@/lib/guide-search";
 
 const Guides = () => {
-  const breadcrumbItems = [
-    { label: "Home", href: "/" },
-    { label: "Resources", href: "/resources" },
-    { label: "Guides" }
-  ];
-
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const breadcrumbItems = [{label: "Home", href: "/"}, {label: "Resources", href: "/resources"}, {label: "Guides"}];
+  const [selectedCategory, setSelectedCategory] = useState(() => typeof document === "undefined" ? "All" : (document.getElementById("guide-category") as HTMLSelectElement | null)?.value || "All");
+  const [searchQuery, setSearchQuery] = useState(() => typeof document === "undefined" ? "" : (document.getElementById("guide-search") as HTMLInputElement | null)?.value || "");
+  const hasSearch = normalizeGuideQuery(searchQuery).length > 0;
   const publishedArticles = getContentSummaries("guides");
   const latestArticle = publishedArticles[0] ?? null;
-
-  // Helper function to check if article is "new" (within 7 days)
-  const isNewArticle = (date: string) => {
-    const articleDate = new Date(date);
-    const now = new Date();
-    const diffTime = Math.abs(now.getTime() - articleDate.getTime());
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    return diffDays <= 7;
-  };
-
-  const categories = [
-    "All",
-    "Asset Finance",
-    "Development Finance", 
-    "Property Finance",
-    "Working Capital",
-    "Trade Finance",
-    "Location Guides",
-    "Getting Started"
-  ];
-
+  const featuredGuide = publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia");
+  const isNewArticle = (date: string) => Math.ceil(Math.abs(Date.now() - new Date(date).getTime()) / 86400000) <= 7;
+  const categories = ["All", ...Array.from(new Set(publishedArticles.map(article => article.category))).sort()];
+  const matchingArticles = searchGuides(publishedArticles, searchQuery, selectedCategory);
+  const picks = [{article: latestArticle, label: "Latest Guide", action: "Read Latest Guide"}, {article: featuredGuide, label: "Featured Guide", action: "Read Complete Guide"}].filter(pick => pick.article);
+  const showPicks = selectedCategory === "All" && !hasSearch;
+  const directoryArticles = matchingArticles.filter(article => !showPicks || !picks.some(pick => pick.article?.slug === article.slug));
   const guideCategoryHighlights = [
     {
       title: "Property-backed short-term finance",
@@ -69,47 +54,7 @@ const Guides = () => {
     }
   ];
 
-  const guides = [
-    // Keep any truly hardcoded guides that don't exist as markdown files
-    // The markdown files will provide: bridging-loans-australia, caveat-loans-vs-second-mortgages, second-mortgage-for-business-australia
-  ];
-
-  const filteredGuides = selectedCategory === "All" 
-    ? guides 
-    : guides.filter(guide => guide.category === selectedCategory);
-
-  const featuredGuide = publishedArticles.find(article => 
-    article.slug === "second-mortgage-for-business-australia"
-  ) ? {
-    title: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.title || "",
-    excerpt: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.description || "",
-    category: publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.category || "",
-    readTime: `${publishedArticles.find(article => article.slug === "second-mortgage-for-business-australia")?.readingTime || 0} min`,
-    featured: true,
-    slug: "second-mortgage-for-business-australia"
-  } : null;
-
-  // Use only published articles from markdown files
-  const allGuides = publishedArticles.map(article => ({
-    title: article.title,
-    excerpt: article.description,
-    category: article.category,
-    readTime: `${article.readingTime} min`,
-    featured: article.slug === "second-mortgage-for-business-australia",
-    slug: article.slug,
-    isNew: isNewArticle(article.date),
-    date: article.date
-  })).sort((a, b) => {
-    // Sort by date, newest first
-    return new Date(b.date).getTime() - new Date(a.date).getTime();
-  });
-
-  const filteredAllGuides = selectedCategory === "All" 
-    ? allGuides 
-    : allGuides.filter(guide => guide.category === selectedCategory);
-
-  return (
-    <div className="min-h-screen py-8">
+  return <div className="guides-page min-h-screen py-8">
       <SEO 
         title="Commercial Lending Guides | Expert Business Finance Articles | Emet Capital"
         description="In-depth guides on commercial lending, bridging finance, asset finance, development loans and more. Expert advice for Australian businesses seeking funding."
@@ -127,19 +72,26 @@ const Guides = () => {
         ))}
       </script>
       
-      <div className="container mx-auto px-4">
-        <Breadcrumbs items={breadcrumbItems} />
-
-        {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Commercial Lending Guides
-          </h1>
-          <p className="text-xl text-muted-foreground">
-            Expert-written guides to help you navigate every aspect of commercial lending in Australia. From beginner basics to advanced strategies.
-          </p>
+    <div className="container mx-auto px-4">
+      <Breadcrumbs items={breadcrumbItems} />
+      <header className="page-header directory-header">
+        <h1>Commercial Lending Guides</h1>
+        <p>Expert-written guides to help you navigate every aspect of commercial lending in Australia. From beginner basics to advanced strategies.</p>
+      </header>
+      <section className="guide-finder" aria-label="Find a guide">
+        <div className="guide-search" role="search" aria-label="Search finance guides">
+          <label htmlFor="guide-search">Search guides</label>
+          <div className="guide-search-field">
+            <Search aria-hidden="true" />
+            <input id="guide-search" type="search" placeholder="Try bridging finance, equipment or SMSF" value={searchQuery} onChange={event => setSearchQuery(event.target.value)} aria-controls="guide-results" />
+            {searchQuery && <button type="button" aria-label="Clear search" onClick={() => { setSearchQuery(""); document.getElementById("guide-search")?.focus(); }}><X aria-hidden="true" /></button>}
+          </div>
         </div>
-
+        <DirectoryFilters id="guide-category" label="Browse by topic" value={selectedCategory} options={categories.map(label => ({label, count: label === "All" ? publishedArticles.length : publishedArticles.filter(article => article.category === label).length}))} count={matchingArticles.length} noun="guides" onChange={setSelectedCategory} />
+        <noscript><p className="guide-search-help">Search and topic filtering require JavaScript. Every guide is listed below.</p></noscript>
+      </section>
+      <details className="directory-guidance">
+        <summary>Choosing a finance guide <span aria-hidden="true">+</span></summary>
         <section className="mb-12">
           <div className="max-w-4xl mx-auto text-center mb-8">
             <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
@@ -171,168 +123,30 @@ const Guides = () => {
           </div>
         </section>
 
-        {/* Latest Article Hero Section */}
-        {latestArticle && (
-          <Card className="mb-8 bg-gradient-to-r from-accent/10 to-accent-light/10 border-accent/20">
-            <CardContent className="p-8">
-              <div className="flex items-center mb-4">
-                {isNewArticle(latestArticle.date) && (
-                  <span className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-sm font-medium mr-3">
-                    NEW
-                  </span>
-                )}
-                <Star className="w-5 h-5 text-accent mr-2" />
-                <span className="text-sm font-medium text-accent">Latest Guide</span>
-              </div>
-              <div className="grid lg:grid-cols-3 gap-8 items-center">
-                <div className="lg:col-span-2">
-                  <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
-                    {latestArticle.title}
-                  </h2>
-                  <p className="text-lg text-muted-foreground mb-6">
-                    {latestArticle.description}
-                  </p>
-                  <div className="flex items-center space-x-6 text-sm text-muted-foreground mb-6">
-                    <div className="flex items-center">
-                      <Clock className="w-4 h-4 mr-1" />
-                      {latestArticle.readingTime} min read
-                    </div>
-                    <span className="bg-accent/20 text-accent px-3 py-1 rounded-full">
-                      {latestArticle.category}
-                    </span>
-                    <span className="text-muted-foreground">
-                      {new Date(latestArticle.date).toLocaleDateString('en-AU', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric'
-                      })}
-                    </span>
-                  </div>
-                </div>
-                <div className="text-center lg:text-right">
-                  <Button 
-                    asChild 
-                    size="lg"
-                    className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
-                  >
-                    <Link to={`/resources/guides/${latestArticle.slug}`}>
-                      Read Latest Guide
-                    </Link>
-                  </Button>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        )}
-
-        {/* Featured Guide */}
-        {featuredGuide && (
-          <Card className="mb-12 bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20">
-            <CardContent className="p-8">
-              <div className="flex items-center mb-4">
-                <Star className="w-5 h-5 text-accent mr-2" />
-                <span className="text-sm font-medium text-accent">Featured Guide</span>
-              </div>
-              <div className="grid lg:grid-cols-3 gap-8 items-center">
-                <div className="lg:col-span-2">
-                  <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
-                    {featuredGuide.title}
-                  </h2>
-                  <p className="text-lg text-muted-foreground mb-6">
-                    {featuredGuide.excerpt}
-                  </p>
-                  <div className="flex items-center space-x-6 text-sm text-muted-foreground mb-6">
-                    <div className="flex items-center">
-                      <Clock className="w-4 h-4 mr-1" />
-                      {featuredGuide.readTime} read
-                    </div>
-                    <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">
-                      {featuredGuide.category}
-                    </span>
-                  </div>
-                </div>
-                <div className="text-center lg:text-right">
-                  <Button 
-                    asChild 
-                    size="lg"
-                    className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
-                  >
-                    <Link to={`/resources/guides/${featuredGuide.slug}`}>
-                      Read Complete Guide
-                    </Link>
-                  </Button>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        )}
-
-        {/* Category Filter */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          <Filter className="w-5 h-5 text-muted-foreground mt-2 mr-2" />
-          {categories.map((category) => (
-            <Button
-              key={category}
-              variant={selectedCategory === category ? "default" : "outline"}
-              size="sm"
-              onClick={() => setSelectedCategory(category)}
-              className={selectedCategory === category ? "bg-primary" : ""}
-            >
-              {category}
-            </Button>
-          ))}
-        </div>
-
-        {/* Guides Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredAllGuides.filter(guide => !guide.featured).map((guide) => (
-            <Card key={guide.slug} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
-              <CardContent className="p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
-                      {guide.category}
-                    </span>
-                    {guide.isNew && (
-                      <span className="bg-accent text-accent-foreground px-2 py-1 rounded-full text-xs font-medium">
-                        NEW
-                      </span>
-                    )}
-                  </div>
-                  <BookOpen className="w-5 h-5 text-muted-foreground" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
-                  {guide.title}
-                </h3>
-                <p className="text-muted-foreground mb-4 text-sm">
-                  {guide.excerpt}
-                </p>
-                <div className="flex items-center justify-between text-sm text-muted-foreground mb-4">
-                  <div className="flex items-center">
-                    <Clock className="w-4 h-4 mr-1" />
-                    {guide.readTime} read
-                  </div>
-                  {guide.date && (
-                    <span className="text-xs">
-                      {new Date(guide.date).toLocaleDateString('en-AU', {
-                        month: 'short',
-                        day: 'numeric'
-                      })}
-                    </span>
-                  )}
-                </div>
-                <Button asChild variant="outline" className="w-full">
-                  <Link to={`/resources/guides/${guide.slug}`}>
-                    Read Guide
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
+      </details>
+      {showPicks && <div className="editorial-picks">
+        {picks.map(({article, label, action}) => article && <article className="editorial-pick" key={label}>
+          <div className="editorial-pick-label"><span>{label}</span>{isNewArticle(article.date) && <span className="new-label">NEW</span>}</div>
+          <h2><Link to={`/resources/guides/${article.slug}`}>{article.title}</Link></h2>
+          <p>{article.description}</p>
+          <div className="directory-meta"><span>{article.category}</span><span>{article.readingTime} min read</span>{label === "Latest Guide" && <time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU', {year:'numeric',month:'long',day:'numeric'})}</time>}</div>
+          <Link className="text-link" to={`/resources/guides/${article.slug}`}>{action}<ArrowUpRight aria-hidden="true" /></Link>
+        </article>)}
+      </div>}
+      <div className="guide-directory" id="guide-results">
+        {matchingArticles.length === 0 && <div className="guide-search-empty">
+          <h2>No guides found</h2>
+          <p>Try a broader term such as “property” or “business”, or clear your search and topic filter.</p>
+          <button type="button" className="text-link" onClick={() => { setSearchQuery(""); setSelectedCategory("All"); document.getElementById("guide-search")?.focus(); }}>Reset search and topic <ArrowUpRight aria-hidden="true" /></button>
+        </div>}
+        {directoryArticles.map(article => <article className="guide-directory-entry" key={article.slug}>
+          <div className="guide-entry-meta"><span>{article.category}</span>{isNewArticle(article.date) && <span className="new-label">NEW</span>}<span>{article.readingTime} min read</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU', {month:'short',day:'numeric'})}</time></div>
+          <div className="guide-entry-copy"><h3><Link to={`/resources/guides/${article.slug}`}>{article.title}</Link></h3><p>{article.description}</p></div>
+          <Link className="guide-entry-action text-link" to={`/resources/guides/${article.slug}`}>Read Guide <ArrowUpRight aria-hidden="true" /></Link>
+        </article>)}
+      </div>
         {/* Call to Action */}
-        <section className="text-center mt-16 py-12 bg-muted rounded-2xl">
+        <section className="interior-enquiry text-center mt-16 py-12 bg-muted rounded-2xl">
           <div className="max-w-2xl mx-auto px-8">
             <h2 className="text-2xl font-bold text-foreground mb-4">
               Can't Find What You're Looking For?
@@ -353,9 +167,7 @@ const Guides = () => {
             </div>
           </div>
         </section>
-      </div>
     </div>
-  );
+  </div>;
 };
-
 export default Guides;

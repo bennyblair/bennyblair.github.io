@@ -40,7 +40,7 @@ const FinanceDecisionSupport = ({
   process,
   decisionRows,
 }: FinanceDecisionSupportProps) => (
-  <section aria-labelledby="finance-decision-heading" className="space-y-6">
+  <section aria-labelledby="finance-decision-heading" className="finance-decision-support space-y-6">
     <div>
       <h2 id="finance-decision-heading" className="text-3xl font-bold text-foreground mb-4">
         {heading}
@@ -48,7 +48,7 @@ const FinanceDecisionSupport = ({
       <p className="text-muted-foreground leading-relaxed">{summary}</p>
     </div>
 
-    <div className="grid md:grid-cols-2 gap-6">
+    <div className="finance-fit-grid grid md:grid-cols-2 gap-6">
       <Card>
         <CardHeader><CardTitle className="text-lg">Situations that may fit</CardTitle></CardHeader>
         <CardContent><TickList items={suitable} /></CardContent>
@@ -61,7 +61,7 @@ const FinanceDecisionSupport = ({
 
     <div>
       <h3 className="text-xl font-semibold text-foreground mb-3">Evidence that helps an assessment</h3>
-      <dl className="grid md:grid-cols-2 gap-4">
+      <dl className="finance-evidence-list grid md:grid-cols-2 gap-4">
         {evidence.map((item) => (
           <div key={item.label} className="rounded-lg border border-border p-4">
             <dt className="font-semibold text-foreground">{item.label}</dt>

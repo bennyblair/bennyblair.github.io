@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -61,7 +62,7 @@ const FirstSecondMortgages = () => {
           ]} />
 
           {/* Header */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Commercial Property Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Commercial 1st & 2nd Mortgages
@@ -81,8 +82,8 @@ const FirstSecondMortgages = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
-            <section className="bg-muted/30 rounded-lg p-6 border border-border">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
+            <ServiceChapter className="bg-muted/30 rounded-lg p-6 border border-border">
               <h2 className="text-2xl font-bold text-foreground mb-4">When a First or Second Mortgage Usually Fits</h2>
               <div className="grid md:grid-cols-2 gap-4 text-sm text-muted-foreground">
                 <div>
@@ -94,10 +95,10 @@ const FirstSecondMortgages = () => {
                   <p>Usually fits business-purpose equity release, urgent working capital, refinance bridges, partner exits, or project gaps where the borrower wants to keep the existing first mortgage in place.</p>
                 </div>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Commercial Mortgage Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Emet arranges mortgage finance for business purposes, secured by residential or commercial property. A first mortgage usually sits as the primary registered security over the property. A second mortgage sits behind an existing first mortgage and may allow a borrower to access additional equity without replacing the whole debt stack.
@@ -108,10 +109,10 @@ const FirstSecondMortgages = () => {
               <p className="text-muted-foreground leading-relaxed">
                 These facilities support property acquisition, business expansion, asset consolidation, and working capital requirements. Residential or commercial property may be considered as security, including offices, retail premises, industrial facilities and warehouses. Acceptance depends on lender policy, existing debt, title, the business purpose and repayment evidence.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Commercial mortgage finance serves business owners, property investors, developers, companies, trusts, and self-managed superannuation funds seeking property-backed funding. Business owners utilize these facilities to acquire premises, consolidate operations, or access equity for growth initiatives. Property investors leverage mortgages to expand portfolios and optimize returns across commercial real estate holdings.
@@ -119,10 +120,10 @@ const FirstSecondMortgages = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer lending is provided. Borrowers require appropriate business structures (ABN/ACN or trust arrangements) and seek business-purpose funding backed by residential or commercial property security. Both established businesses and those building property portfolios benefit from flexible mortgage solutions tailored to commercial lending requirements.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, regional lenders, and private capital providers. Our lender relationships encompass traditional institutions and non-bank alternatives, enabling competitive rate comparisons and optimal structure selection. We specialize in property-backed lending options that align with your business objectives and property portfolio strategy.
@@ -133,9 +134,9 @@ const FirstSecondMortgages = () => {
               <p className="text-muted-foreground leading-relaxed mt-4">
                 For deeper education before enquiring, read our <Link to="/resources/guides/second-mortgages-for-business-guide" className="text-accent underline">second mortgages for business guide</Link>, <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">partnership buyout finance guide</Link>, and <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">business partner buyout guide</Link>.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">First Mortgage vs Second Mortgage vs Caveat Loan</h2>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm">
@@ -165,10 +166,10 @@ const FirstSecondMortgages = () => {
                   </tbody>
                 </table>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -227,10 +228,10 @@ const FirstSecondMortgages = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), commercial property security with adequate valuation, appropriate business structure (ABN/ACN or trust), and demonstrated capacity to service debt. Financial documentation requirements vary by lender but typically include business financial statements, tax returns, and property information. Both established businesses and those building property portfolios are considered.
@@ -246,10 +247,10 @@ const FirstSecondMortgages = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -329,7 +330,7 @@ const FirstSecondMortgages = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

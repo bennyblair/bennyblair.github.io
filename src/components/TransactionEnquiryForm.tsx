@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -60,7 +61,7 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
     setNotice(null);
     try {
       const formData = new FormData(event.currentTarget);
-      const preview = import.meta.env.DEV || ["localhost", "127.0.0.1", "[::1]"].includes(window.location.hostname);
+      const preview = isDesignPreview || import.meta.env.DEV || ["localhost", "127.0.0.1", "[::1]"].includes(window.location.hostname);
       const result = await submitEnquiry(formData, preview);
       if (result === "ignored") return;
       if (result === "preview") {
@@ -81,7 +82,7 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
   };
 
   return (
-    <form name={formName} method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-enquiry-ready={ready ? "true" : "false"} aria-busy={!ready} onSubmit={handleSubmit} className={"space-y-6 " + className}>
+    <form name={formName} method="POST" action="/" data-netlify="true" data-netlify-honeypot="bot-field" data-enquiry-ready={ready ? "true" : "false"} aria-busy={!ready} onSubmit={handleSubmit} className={"transaction-enquiry space-y-6 " + className}>
       <input type="hidden" name="form-name" value={formName} />
       <input type="hidden" name="loanType" value={TRANSACTION_JOURNEYS.find((journey) => journey.value === purpose)?.label || (purpose === "other" ? "Other business finance" : "")} />
       <input type="hidden" name="landingPath" value={attribution.landing_path} />

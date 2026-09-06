@@ -163,7 +163,7 @@ const FAQs = () => {
         ]} />
 
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="page-header text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Frequently asked questions
           </h1>
@@ -171,24 +171,6 @@ const FAQs = () => {
             Get instant answers to the most common commercial lending questions. Expert insights to help you make informed financing decisions.
           </p>
         </div>
-
-        {/* Popular Questions */}
-        <Card className="mb-12 bg-secondary-blue">
-          <CardContent className="p-8">
-            <h2 className="text-2xl font-bold text-secondary-blue-foreground mb-6 flex items-center">
-              <Star className="w-6 h-6 mr-3 text-accent" />
-              Most popular questions
-            </h2>
-            <div className="grid md:grid-cols-2 gap-4">
-              {popularQuestions.map((question, index) => (
-                <div key={index} className="flex items-center text-secondary-blue-foreground">
-                  <HelpCircle className="w-5 h-5 text-accent mr-3 flex-shrink-0" />
-                  <span className="text-sm">{question}</span>
-                </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
 
         {/* Category Selection */}
         <div className="flex flex-wrap gap-2 mb-8">
@@ -233,6 +215,25 @@ const FAQs = () => {
             </Card>
           ))}
         </div>
+
+        {/* Popular Questions */}
+        <Card className="mb-12 bg-secondary-blue">
+          <CardContent className="p-8">
+            <h2 className="text-2xl font-bold text-secondary-blue-foreground mb-6 flex items-center">
+              <Star className="w-6 h-6 mr-3 text-accent" />
+              Most popular questions
+            </h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              {popularQuestions.map((question, index) => (
+                <div key={index} className="flex items-center text-secondary-blue-foreground">
+                  <HelpCircle className="w-5 h-5 text-accent mr-3 flex-shrink-0" />
+                  <span className="text-sm">{question}</span>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
 
         {/* Call to Action */}
         <section className="text-center mt-16 py-12 bg-gradient-to-r from-primary to-primary-light rounded-2xl">

@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -5,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FAQSection from "@/components/FAQSection";
 import { Calculator, AlertTriangle, CheckCircle, ArrowRight } from "lucide-react";
@@ -95,6 +95,7 @@ const WorkingCapitalCalculator = () => {
         <meta name="description" content="Calculate your business working capital requirements. Analyze current ratio, quick ratio, and liquidity position with industry benchmarks." />
         <meta name="keywords" content="working capital calculator, current ratio calculator, business liquidity, cash flow analysis, working capital finance Australia" />
         <link rel="canonical" href="https://emetcapital.com.au/resources/tools/working-capital-calculator" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
@@ -106,7 +107,7 @@ const WorkingCapitalCalculator = () => {
           ]} />
 
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
+            <div className="page-header text-center mb-12">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
                 Working Capital Calculator
               </h1>
@@ -115,7 +116,7 @@ const WorkingCapitalCalculator = () => {
               </p>
             </div>
 
-            <Card className="mb-12">
+            <Card className="calculator-workspace calculator-workspace--light mb-12">
               <CardContent className="p-8">
                 <div className="grid lg:grid-cols-2 gap-8">
                   <div className="space-y-6">
@@ -157,19 +158,15 @@ const WorkingCapitalCalculator = () => {
 
                     <div>
                       <Label htmlFor="industry">Industry</Label>
-                      <Select value={industry} onValueChange={setIndustry}>
-                        <SelectTrigger id="industry" aria-label="Industry">
-                          <SelectValue placeholder="Select your industry" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="retail">Retail</SelectItem>
-                          <SelectItem value="manufacturing">Manufacturing</SelectItem>
-                          <SelectItem value="construction">Construction</SelectItem>
-                          <SelectItem value="services">Professional Services</SelectItem>
-                          <SelectItem value="hospitality">Hospitality</SelectItem>
-                          <SelectItem value="technology">Technology</SelectItem>
-                        </SelectContent>
-                      </Select>
+                      <select id="industry" className="calculator-industry-select" value={industry} onChange={event => setIndustry(event.target.value)}>
+                        <option value="">Select your industry</option>
+                        <option value="retail">Retail</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="construction">Construction</option>
+                        <option value="services">Professional Services</option>
+                        <option value="hospitality">Hospitality</option>
+                        <option value="technology">Technology</option>
+                      </select>
                       <p className="text-xs text-muted-foreground mt-1">For industry-specific benchmark comparison</p>
                     </div>
                   </div>

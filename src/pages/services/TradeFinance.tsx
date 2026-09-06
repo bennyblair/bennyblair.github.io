@@ -1,3 +1,5 @@
+import ServiceChapter from "@/components/ServiceChapter";
+import { isDesignPreview } from "@/lib/design-preview";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -60,6 +62,7 @@ const TradeFinance = () => {
         />
         <meta name="keywords" content="trade finance, import finance, export finance, letters of credit, invoice factoring, international trade" />
         <link rel="canonical" href="https://emetcapital.com.au/services/trade-finance" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -71,7 +74,7 @@ const TradeFinance = () => {
         ]} />
 
         {/* Header */}
-        <div className="text-center max-w-4xl mx-auto mb-16">
+        <div className="page-header text-center max-w-4xl mx-auto mb-16">
           <Badge className="mb-4 bg-accent/10 text-accent">Import/Export Finance</Badge>
           <h1 className="text-4xl lg:text-5xl font-bold mb-6">
             Trade Finance Solutions
@@ -93,9 +96,9 @@ const TradeFinance = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Trade Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Trade finance provides specialized funding for businesses engaged in international import and export operations. These facilities bridge timing gaps between goods payment and receipt, enabling businesses to manage cash flow while conducting cross-border trade. Trade finance encompasses various instruments including letters of credit, documentary collections, invoice factoring, inventory funding, and working capital facilities specifically structured for import/export operations.
@@ -103,10 +106,10 @@ const TradeFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Facilities support the entire trade cycle from order placement through goods delivery and payment receipt. Letters of credit provide payment security for international suppliers, while invoice factoring converts export receivables to immediate cash. Inventory and pre-shipment finance fund goods purchase and production before sales completion. Currency management and foreign exchange hedging protect against exchange rate fluctuations in international transactions.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Trade finance serves importers, exporters, distributors, manufacturers, and wholesalers engaged in international commerce. Importers utilize letters of credit and inventory funding to manage supplier payments and goods acquisition. Exporters access invoice factoring and pre-shipment finance to fund production and bridge payment timing gaps. Both trading businesses and manufacturers with international supply chains benefit from specialized trade finance solutions.
@@ -117,10 +120,10 @@ const TradeFinance = () => {
               <p className="text-muted-foreground leading-relaxed mt-4">
                 For broader non-trade funding needs, compare the <Link to="/services/business-finance" className="text-accent hover:underline">business finance hub</Link> before choosing between trade finance, working capital, equipment finance, and asset-backed lending.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers with trade finance expertise, we provide access to specialist lenders and banks offering international trade facilities nationwide. Our lender relationships include major banks with trade finance divisions, specialist trade financiers, and alternative providers understanding import/export operational requirements. We match businesses with appropriate facilities including letters of credit, invoice factoring, and inventory funding structures.
@@ -128,10 +131,10 @@ const TradeFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through facility selection, documentation preparation, and establishment processes. Our expertise includes both traditional banking instruments and alternative trade finance solutions. Approval processes consider trade-specific criteria including supplier/customer relationships, trade documentation, and transaction security. We structure facilities accommodating international trade timing characteristics while managing currency and payment risks inherent in cross-border commerce.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -190,10 +193,10 @@ const TradeFinance = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), demonstrated international trading activity with suppliers or customers, and capacity to service facilities from trading operations. Documentation includes business financials, trade documentation, supplier/customer details, and transaction specifics. Both established traders and businesses expanding internationally are considered.
@@ -209,10 +212,10 @@ const TradeFinance = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -272,7 +275,7 @@ const TradeFinance = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

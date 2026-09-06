@@ -1,3 +1,4 @@
+import { isDesignPreview } from "./design-preview";
 import { normaliseTransactionPurpose } from "./transactions";
 
 export const ANALYTICS_IDS = {
@@ -87,7 +88,7 @@ function trackAiReferralLanding(path: string) {
 }
 
 export function trackEvent(name: string, parameters: AnalyticsParameters = {}) {
-  if (typeof window === "undefined" || typeof window.gtag !== "function") return;
+  if (isDesignPreview || typeof window === "undefined" || typeof window.gtag !== "function") return;
   let referrerOrigin = "";
   try { if (document.referrer) referrerOrigin = new URL(document.referrer).origin; } catch { /* Ignore malformed referrers. */ }
   try {

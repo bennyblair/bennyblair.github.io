@@ -1,0 +1,6681 @@
+{
+  "startedAt": "2026-09-06T04:52:17.697Z",
+  "finishedAt": "2026-09-06T04:52:34.969Z",
+  "base": "http://127.0.0.1:4173/",
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0
+  },
+  "limitations": [
+    "No screenshot or visual design judgment",
+    "Unthrottled laboratory observations; run the existing production Lighthouse budgets separately",
+    "Readability checks target open section headings, paragraphs and controls; native closed disclosures are excluded",
+    "Does not assess private hosting access control"
+  ],
+  "results": [
+    {
+      "name": "No-JS immediate homepage content",
+      "status": "pass",
+      "details": {
+        "delayed": false,
+        "blockedScripts": 0,
+        "heading": "Commercial Lending Solutions, Expertly Engineered",
+        "bounds": {
+          "left": 20,
+          "right": 370,
+          "top": 439.671875,
+          "bottom": 561.3125,
+          "width": 350,
+          "height": 121.640625
+        }
+      }
+    },
+    {
+      "name": "Delayed-JS content and preserved hydration node",
+      "status": "pass",
+      "details": {
+        "delayed": true,
+        "blockedScripts": 13,
+        "heading": "Commercial Lending Solutions, Expertly Engineered",
+        "bounds": {
+          "left": 20,
+          "right": 370,
+          "top": 439.671875,
+          "bottom": 561.3125,
+          "width": 350,
+          "height": 121.640625
+        }
+      }
+    },
+    {
+      "name": "Ordinary motion 320px",
+      "status": "pass",
+      "details": {
+        "width": 320,
+        "reducedMotion": "no-preference",
+        "dynamicPreference": false,
+        "earlyAnimations": [
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "SPAN.",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "IMG.",
+            "state": "running",
+            "duration": 4200,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "PICTURE.",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "DIV.section-heading",
+            "state": "running",
+            "duration": 900,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          }
+        ],
+        "sectionObservations": [
+          {
+            "selector": "main .homepage-page > section:nth-of-type(2)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(3)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(4)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(5)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "running",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(6)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(7)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.contact-intro",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          }
+        ],
+        "observedCLS": 0,
+        "observations": {
+          "shifts": [],
+          "lcp": [
+            {
+              "startTime": 132,
+              "duration": 0
+            }
+          ],
+          "longTasks": []
+        }
+      }
+    },
+    {
+      "name": "Ordinary motion 390px",
+      "status": "pass",
+      "details": {
+        "width": 390,
+        "reducedMotion": "no-preference",
+        "dynamicPreference": false,
+        "earlyAnimations": [
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "SPAN.",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "IMG.",
+            "state": "running",
+            "duration": 4200,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "PICTURE.",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "DIV.section-heading",
+            "state": "running",
+            "duration": 900,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          }
+        ],
+        "sectionObservations": [
+          {
+            "selector": "main .homepage-page > section:nth-of-type(2)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(3)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(4)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(5)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "running",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(6)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(7)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.contact-intro",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          }
+        ],
+        "observedCLS": 0,
+        "observations": {
+          "shifts": [],
+          "lcp": [
+            {
+              "startTime": 120,
+              "duration": 0
+            }
+          ],
+          "longTasks": []
+        }
+      }
+    },
+    {
+      "name": "Ordinary motion 768px",
+      "status": "pass",
+      "details": {
+        "width": 768,
+        "reducedMotion": "no-preference",
+        "dynamicPreference": false,
+        "earlyAnimations": [
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "SPAN.",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "IMG.",
+            "state": "running",
+            "duration": 4200,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "PICTURE.",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "DIV.section-heading",
+            "state": "running",
+            "duration": 900,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "DIV.positioning-copy",
+            "state": "running",
+            "duration": 900,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          }
+        ],
+        "sectionObservations": [
+          {
+            "selector": "main .homepage-page > section:nth-of-type(2)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(3)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(4)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(5)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "running",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(6)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(7)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.contact-intro",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          }
+        ],
+        "observedCLS": 0,
+        "observations": {
+          "shifts": [],
+          "lcp": [
+            {
+              "startTime": 176,
+              "duration": 0
+            }
+          ],
+          "longTasks": [
+            {
+              "startTime": 112.70000004768372,
+              "duration": 52
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ordinary motion 1440px",
+      "status": "pass",
+      "details": {
+        "width": 1440,
+        "reducedMotion": "no-preference",
+        "dynamicPreference": false,
+        "earlyAnimations": [
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "SPAN.",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "IMG.",
+            "state": "running",
+            "duration": 4200,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "PICTURE.",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          }
+        ],
+        "sectionObservations": [
+          {
+            "selector": "main .homepage-page > section:nth-of-type(2)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(3)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "SPAN.hero-title-line",
+                "state": "running",
+                "duration": 850,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(4)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(5)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "running",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(6)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.positioning-copy",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(7)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 4200,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "PICTURE.",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 1000,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-heading",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.service-portrait",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "A.service-row",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "FIGURE.scenario-media",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "IMG.",
+                "state": "running",
+                "duration": 1400,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.section-header",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "ARTICLE.insight-entry",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "DIV.contact-intro",
+                "state": "running",
+                "duration": 900,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          }
+        ],
+        "observedCLS": 0,
+        "observations": {
+          "shifts": [],
+          "lcp": [
+            {
+              "startTime": 644,
+              "duration": 0
+            }
+          ],
+          "longTasks": []
+        }
+      }
+    },
+    {
+      "name": "Reduced motion 390px",
+      "status": "pass",
+      "details": {
+        "width": 390,
+        "reducedMotion": "reduce",
+        "dynamicPreference": false,
+        "earlyAnimations": [
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "SPAN.",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          }
+        ],
+        "sectionObservations": [
+          {
+            "selector": "main .homepage-page > section:nth-of-type(2)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(3)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(4)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(5)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(6)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(7)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          }
+        ],
+        "observedCLS": 0,
+        "observations": {
+          "shifts": [],
+          "lcp": [
+            {
+              "startTime": 264,
+              "duration": 0
+            }
+          ],
+          "longTasks": [
+            {
+              "startTime": 258.69999980926514,
+              "duration": 59
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Reduced motion 1440px",
+      "status": "pass",
+      "details": {
+        "width": 1440,
+        "reducedMotion": "reduce",
+        "dynamicPreference": false,
+        "earlyAnimations": [
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "SPAN.",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          }
+        ],
+        "sectionObservations": [
+          {
+            "selector": "main .homepage-page > section:nth-of-type(2)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(3)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(4)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(5)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(6)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(7)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          }
+        ],
+        "observedCLS": 0,
+        "observations": {
+          "shifts": [],
+          "lcp": [
+            {
+              "startTime": 216,
+              "duration": 0
+            }
+          ],
+          "longTasks": []
+        }
+      }
+    },
+    {
+      "name": "Preference switches to reduced motion",
+      "status": "pass",
+      "details": {
+        "width": 390,
+        "reducedMotion": "no-preference",
+        "dynamicPreference": true,
+        "earlyAnimations": [
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "opacity"
+            ]
+          },
+          {
+            "target": "SPAN.",
+            "state": "paused",
+            "duration": 7800,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "IMG.",
+            "state": "running",
+            "duration": 4200,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "SPAN.hero-title-line",
+            "state": "running",
+            "duration": 850,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "PICTURE.",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "g.[object SVGAnimatedString]",
+            "state": "paused",
+            "duration": 1000,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          },
+          {
+            "target": "DIV.section-heading",
+            "state": "running",
+            "duration": 900,
+            "iterations": 1,
+            "properties": [
+              "transform"
+            ]
+          }
+        ],
+        "sectionObservations": [
+          {
+            "selector": "main .homepage-page > section:nth-of-type(2)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(3)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(4)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(5)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(6)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          },
+          {
+            "selector": "main .homepage-page > section:nth-of-type(7)",
+            "animations": [
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "g.[object SVGAnimatedString]",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "opacity"
+                ]
+              },
+              {
+                "target": "SPAN.",
+                "state": "paused",
+                "duration": 7800,
+                "iterations": 1,
+                "properties": [
+                  "transform"
+                ]
+              }
+            ]
+          }
+        ],
+        "observedCLS": 0,
+        "observations": {
+          "shifts": [],
+          "lcp": [
+            {
+              "startTime": 140,
+              "duration": 0
+            }
+          ],
+          "longTasks": []
+        }
+      }
+    },
+    {
+      "name": "Pause/resume cancels and restores scroll effects",
+      "status": "pass",
+      "details": {
+        "initial": {
+          "transform": "matrix(1.025, 0, 0, 1.025, 0, 0)",
+          "effects": 6,
+          "camera": [
+            {
+              "currentTime": 0,
+              "state": "paused"
+            }
+          ]
+        },
+        "scrolled": {
+          "transform": "matrix(1.03335, 0, 0, 1.03335, 0, 14.6097)",
+          "effects": 8,
+          "camera": [
+            {
+              "currentTime": 208.710407239819,
+              "state": "paused"
+            }
+          ]
+        },
+        "paused": {
+          "transform": "none",
+          "effects": 0,
+          "camera": []
+        },
+        "resumed": {
+          "transform": "matrix(1.025, 0, 0, 1.025, 0, 0)",
+          "effects": 6,
+          "camera": [
+            {
+              "currentTime": 0,
+              "state": "paused"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "200% text at 320px keeps caption/control separate",
+      "status": "pass",
+      "details": {
+        "caption": {
+          "left": 20,
+          "right": 160,
+          "top": 279,
+          "bottom": 459,
+          "width": 140,
+          "height": 180
+        },
+        "control": {
+          "left": 165.609375,
+          "right": 300,
+          "top": 270,
+          "bottom": 357.1875,
+          "width": 134.390625,
+          "height": 87.1875
+        },
+        "overlap": false,
+        "textOutsideViewport": [],
+        "viewport": 320,
+        "documentWidth": 320
+      }
+    }
+  ]
+}

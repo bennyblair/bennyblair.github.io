@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -111,6 +112,7 @@ const BusinessFinance = () => {
           content="business finance Australia, working capital finance, trade finance, equipment finance, business acquisition finance, business debt consolidation, asset-backed lending"
         />
         <link rel="canonical" href="https://emetcapital.com.au/services/business-finance" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
@@ -121,7 +123,7 @@ const BusinessFinance = () => {
             { label: "Business Finance" },
           ]} />
 
-          <section className="text-center max-w-4xl mx-auto mb-16">
+          <section className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Business Finance Hub</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Business Finance for Australian SMEs

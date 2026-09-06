@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -109,19 +110,20 @@ const BridgingLoanCalculator = () => {
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="container mx-auto px-4 py-12">
         {/* Calculator Section */}
         <div className="max-w-4xl mx-auto mb-16">
-          <div className="text-center mb-8">
+          <div className="page-header text-center mb-8">
             <h1 className="text-4xl font-bold mb-4 text-foreground">Bridging Loan Calculator</h1>
             <p className="text-lg text-muted-foreground">
               Calculate your bridging loan costs, monthly payments, and total interest instantly
             </p>
           </div>
 
-          <Card className="mb-8">
+          <Card className="calculator-workspace calculator-workspace--light mb-8">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-foreground">
                 <Calculator className="h-5 w-5" />

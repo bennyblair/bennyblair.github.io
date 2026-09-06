@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -60,6 +61,7 @@ const LoanComparisonTool = () => {
         />
         <meta name="keywords" content="loan comparison tool, business loan comparison, loan calculator Australia, compare loan offers" />
         <link rel="canonical" href="https://emetcapital.com.au/resources/tools/loan-comparison-tool" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
@@ -71,7 +73,7 @@ const LoanComparisonTool = () => {
           ]} />
 
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
+            <div className="page-header text-center mb-12">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
                 Business Loan Comparison Tool
               </h1>
@@ -80,7 +82,7 @@ const LoanComparisonTool = () => {
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-3 gap-6 mb-8">
+            <div className="calculator-comparison grid lg:grid-cols-3 gap-6 mb-8">
               {loans.map((loan, index) => {
                 const loanNumber = index + 1;
                 const result = results[index];
@@ -211,7 +213,7 @@ const LoanComparisonTool = () => {
               <p className="text-muted-foreground leading-relaxed mb-5">
                 The tool uses a standard monthly principal-and-interest amortisation formula. It divides the entered annual rate by 12, assumes the rate and monthly payment stay constant for the full term, and adds the known fees entered to scheduled repayments.
               </p>
-              <div className="overflow-x-auto mb-5">
+              <div className="overflow-x-auto mb-5" tabIndex={0} role="region" aria-label="Loan comparison assumptions">
                 <table className="w-full min-w-[640px] border-collapse text-left text-sm">
                   <thead>
                     <tr className="border-b border-border">

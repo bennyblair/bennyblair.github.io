@@ -86,7 +86,7 @@ const About = () => {
         <Breadcrumbs items={breadcrumbItems} />
 
         {/* Header */}
-        <div className="text-center max-w-4xl mx-auto mb-16">
+        <div className="page-header text-center max-w-4xl mx-auto mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             About Emet Capital
           </h1>
@@ -96,7 +96,7 @@ const About = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="grid md:grid-cols-4 gap-6 mb-16">
+        <div className="company-proof grid md:grid-cols-4 gap-6 mb-16">
           {stats.map((stat, index) => (
             <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
             <Card className="premium-card text-center">
@@ -118,7 +118,7 @@ const About = () => {
         </div>
 
         {/* Our Story */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="company-story grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-3xl font-bold mb-6">
               Built by Industry Insiders, 
@@ -143,7 +143,7 @@ const About = () => {
             </Button>
           </div>
           
-          <div className="relative">
+          <div className="company-mission">
             <Card className="premium-card">
               <CardContent className="p-8">
                 <h3 className="text-xl font-semibold mb-6">Our Mission</h3>
@@ -170,7 +170,7 @@ const About = () => {
         </div>
 
         {/* What Is a Commercial Finance Broker Section */}
-        <section className="mb-16">
+        <section className="company-broker-explainer">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
               What Is a <span className="gradient-text">Commercial Finance Broker?</span>
@@ -180,7 +180,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
+          <div className="company-broker-comparison grid lg:grid-cols-2 gap-12 items-start mb-12">
             <div>
               <h3 className="text-2xl font-semibold mb-4">The Role of a Commercial Finance Broker</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
@@ -228,7 +228,7 @@ const About = () => {
             </Card>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="company-broker-advantages grid md:grid-cols-3 gap-6 mb-12">
             <Card className="premium-card">
               <CardContent className="p-6">
                 <div className="mx-auto mb-4 p-4 bg-accent/10 rounded-2xl w-fit">
@@ -266,7 +266,7 @@ const About = () => {
             </Card>
           </div>
 
-          <div className="bg-muted/30 rounded-2xl p-8">
+          <div className="company-broker-benefits">
             <h3 className="text-2xl font-semibold mb-4">Why Businesses, Investors & Developers Use a Broker</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-3">
@@ -315,7 +315,7 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="company-values grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((value, index) => (
               <Card key={index} className="premium-card text-center">
                 <CardContent className="p-6">
@@ -395,7 +395,7 @@ const About = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
+        <section className="interior-enquiry text-center py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
           <div className="max-w-3xl mx-auto px-8">
             <h2 className="text-3xl font-bold text-primary-foreground mb-6">
               Ready to Experience the Difference?

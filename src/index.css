@@ -5,111 +5,20 @@
 /* Emet Capital Design System - Ultra-Modern Premium Lending */
 
 @layer base {
-  :root {
-    /* Dark premium palette */
-    --background: 220 15% 8%;
-    --foreground: 0 0% 95%;
-
-    /* Deep navy primary */
-    --primary: 210 100% 65%;
-    --primary-foreground: 220 15% 8%;
-    --primary-light: 210 100% 72%;
-    --primary-dark: 210 100% 52%;
-
-    /* Dark charcoal secondary */
-    --secondary: 220 10% 12%;
-    --secondary-foreground: 0 0% 90%;
-    --secondary-light: 220 8% 15%;
-    --secondary-dark: 220 12% 8%;
-
-    /* Premium blue accents */
-    --accent: 210 100% 65%;
-    --accent-foreground: 220 15% 8%;
-    --accent-light: 210 100% 72%;
-    --accent-dark: 210 100% 52%;
-    --accent-metallic: 210 80% 50%;
-
-    /* Glassmorphism surfaces */
-    --card: 220 15% 12%;
-    --card-foreground: 0 0% 95%;
-    --card-hover: 220 15% 15%;
-    --glass: 220 15% 10%;
-    --glass-border: 220 20% 25%;
-
-    /* Subtle muted colors */
-    --muted: 220 10% 20%;
-    --muted-foreground: 0 0% 65%;
-
-    /* Interactive elements */
-    --popover: 220 15% 12%;
-    --popover-foreground: 0 0% 95%;
-    --border: 220 20% 25%;
-    --input: 220 15% 15%;
-    --ring: 210 100% 65%;
-
-    /* Destructive colors */
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-
-    /* Premium design tokens */
-    --radius: 1rem;
-    --radius-lg: 1.5rem;
-    --radius-xl: 2rem;
-    
-    /* Premium shadows with blue glow */
-    --shadow-elegant: 0 8px 32px hsl(220 15% 5% / 0.3);
-    --shadow-lg: 0 16px 48px hsl(220 15% 5% / 0.4);
-    --shadow-glow: 0 0 40px hsl(210 100% 56% / 0.15);
-    --shadow-glass: 0 8px 32px hsl(220 15% 5% / 0.2), inset 0 1px 0 hsl(0 0% 100% / 0.1);
-    
-    /* Premium gradients with blue accents */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-light)));
-    --gradient-blue: linear-gradient(135deg, hsl(210 100% 56%), hsl(210 100% 65%));
-    --gradient-glass: linear-gradient(135deg, hsl(220 15% 12% / 0.8), hsl(220 20% 15% / 0.6));
-    
-    /* Smooth premium transitions */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-spring: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .light {
-    /* Light mode - keep existing values */
-    --background: 0 0% 100%;
-    --foreground: 224 15% 25%;
-    --card: 0 0% 100%;
-    --card-foreground: 224 15% 25%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 15% 25%;
-    --primary: 210 100% 40%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 210 20% 96%;
-    --secondary-foreground: 224 15% 25%;
-    --muted: 210 20% 94%;
-    --muted-foreground: 215 16% 47%;
-    --accent: 210 100% 40%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 210 100% 40%;
+  :root, .light {
+    --background: 72 18% 95%; --foreground: 195 16% 10%;
+    --primary: 163 31% 18%; --primary-foreground: 72 18% 97%; --primary-light: 163 24% 25%; --primary-dark: 163 31% 12%;
+    --secondary: 105 11% 87%; --secondary-foreground: 195 16% 10%; --secondary-light: 105 11% 92%; --secondary-dark: 105 11% 80%;
+    --accent: 163 31% 23%; --accent-foreground: 72 18% 97%; --accent-light: 163 28% 30%; --accent-dark: 163 31% 16%; --accent-metallic: 163 31% 23%;
+    --card: 72 18% 97%; --card-foreground: 195 16% 10%; --card-hover: 105 11% 93%;
+    --glass: 72 18% 97%; --glass-border: 140 6% 79%;
+    --muted: 110 10% 88%; --muted-foreground: 165 8% 31%;
+    --popover: 72 18% 97%; --popover-foreground: 195 16% 10%; --border: 140 6% 79%; --input: 140 6% 65%; --ring: 163 31% 23%;
+    --destructive: 0 70% 39%; --destructive-foreground: 0 0% 100%;
+    --radius: .125rem; --radius-lg: .125rem; --radius-xl: .125rem;
+    --shadow-elegant: none; --shadow-lg: none; --shadow-glow: none; --shadow-glass: none;
+    --gradient-primary: linear-gradient(hsl(var(--primary)),hsl(var(--primary))); --gradient-accent: linear-gradient(hsl(var(--accent)),hsl(var(--accent))); --gradient-blue: var(--gradient-primary); --gradient-glass: none;
+    --sidebar-background: 72 18% 95%; --sidebar-foreground: 195 16% 10%; --sidebar-primary: 163 31% 18%; --sidebar-primary-foreground: 72 18% 97%; --sidebar-accent: 110 10% 88%; --sidebar-accent-foreground: 195 16% 10%; --sidebar-border: 140 6% 79%; --sidebar-ring: 163 31% 23%;
   }
 }
 
@@ -119,7 +28,7 @@
   }
 
   body {
-    @apply bg-background text-foreground overflow-x-hidden;
+    @apply bg-background text-foreground;
   }
 
   :focus-visible {
@@ -143,22 +52,12 @@
     @apply bg-card/90 backdrop-blur-xl border-b border-glass-border;
   }
   
-  .premium-card {
-    @apply bg-gradient-to-br from-card/90 to-card/60 backdrop-blur-xl border border-glass-border rounded-2xl shadow-elegant hover:shadow-glow transition-all duration-500 hover:-translate-y-1;
-  }
+  .premium-card { @apply bg-card border border-border rounded-sm; }
   
   /* Premium animations */
-  .fade-in-up {
-    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-    opacity: 0;
-    transform: translateY(30px);
-  }
+  .fade-in-up { opacity: 1; }
   
-  .scale-in {
-    animation: scaleIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-    opacity: 0;
-    transform: scale(0.95);
-  }
+  .scale-in { opacity: 1; }
   
   .blue-glow {
     box-shadow: var(--shadow-glow);
@@ -222,10 +121,7 @@
   }
 
   .fade-in-up,
-  .scale-in {
-    opacity: 1 !important;
-    transform: none !important;
-  }
+  .scale-in { opacity: 1; }
 }
 
 @keyframes scrollRevealFadeUp {
@@ -258,12 +154,7 @@
   to { opacity: 1; }
 }
 
-@supports (content-visibility: auto) {
-  .homepage-page > section:not(:first-of-type) {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 900px;
-  }
-}
+
 
 /* Enhanced article content styling for better readability */
 /* Article content styling matching services pages */

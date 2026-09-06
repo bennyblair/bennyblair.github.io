@@ -1,0 +1,22 @@
+{
+  "scope": "Final private review build; simulated mobile laboratory measurement, not field data",
+  "observed": {
+    "lcpMs": 2418.288,
+    "cls": 0,
+    "tbtMs": 66,
+    "accessibility": 1,
+    "seo": 0.69,
+    "initialJavaScriptTransferBytes": 108068
+  },
+  "thresholds": {
+    "lcpMs": 2500,
+    "cls": 0.1,
+    "tbtMs": 200,
+    "accessibility": 0.95,
+    "seo": 0.95,
+    "initialJavaScriptTransferBytes": 307200
+  },
+  "performance_budgets_pass": true,
+  "full_gate_pass": false,
+  "expected_failure": "SEO audit is 69 because the review copy intentionally has noindex and robots restrictions; its protections were preserved. This is not a production SEO measurement."
+}

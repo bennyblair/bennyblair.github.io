@@ -193,7 +193,7 @@ try {
         await coldPage.waitForFunction(() => document.documentElement.dataset.prerenderReady === "true");
         const scrollAfterMount = await coldPage.evaluate(() => scrollY);
         assert.ok(Math.abs(scrollAfterMount - scrollBeforeMount) <= 2,
-          route + ": initial mount must preserve scroll before any automatic locator scrolling");
+          route + ": initial mount must preserve scroll before any automatic locator scrolling (" + scrollBeforeMount + " -> " + scrollAfterMount + ")");
         // One native selector click and keyboard choice, then one Continue.
         await purpose.click();
         await coldPage.keyboard.press("Home");

@@ -1,0 +1,155 @@
+[
+  {
+    "file": "src/pages/services/AssetBackedLending.tsx",
+    "route": "/services/asset-backed-lending",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist asset financiers, and alternative"
+    ],
+    "production_text_contexts": [
+      "al lending requirements. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist asset financiers, and alternative funders. "
+    ]
+  },
+  {
+    "file": "src/pages/services/AssetFinance.tsx",
+    "route": "/services/asset-finance",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      " leading-relaxed mb-4\">\n              As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist equipment financiers, and alterna"
+    ],
+    "production_text_contexts": [
+      "al lending requirements. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist equipment financiers, and alternative capit"
+    ]
+  },
+  {
+    "file": "src/pages/services/BusinessAcquisition.tsx",
+    "route": "/services/business-acquisition",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist business lenders, and alternative"
+    ],
+    "production_text_contexts": [
+      "l purchase requirements. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist business lenders, and alternative funders. "
+    ]
+  },
+  {
+    "file": "src/pages/services/CommercialPropertyDevelopment.tsx",
+    "route": "/services/commercial-property-development",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist development financiers, and priva"
+    ],
+    "production_text_contexts": [
+      "ct scale and complexity. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist development financiers, and private constru"
+    ]
+  },
+  {
+    "file": "src/pages/services/DebtConsolidation.tsx",
+    "route": "/services/debt-consolidation",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist consolidation providers, and alte"
+    ],
+    "production_text_contexts": [
+      "al cash flow management. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist consolidation providers, and alternative fu"
+    ]
+  },
+  {
+    "file": "src/pages/services/FirstSecondMortgages.tsx",
+    "route": "/services/first-second-mortgages",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, regional lenders, and private capital provid"
+    ],
+    "production_text_contexts": [
+      "al lending requirements. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, regional lenders, and private capital providers. Our l"
+    ]
+  },
+  {
+    "file": "src/pages/services/PrivateLending.tsx",
+    "route": "/services/private-lending",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including extensive private lending networks encompassing credit fu"
+    ],
+    "production_text_contexts": [
+      "than standard bank debt. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including extensive private lending networks encompassing credit funds, priva"
+    ]
+  },
+  {
+    "file": "src/pages/services/RefinancingSolutions.tsx",
+    "route": "/services/refinancing-solutions",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist commercial lenders, and alternati"
+    ],
+    "production_text_contexts": [
+      "ic financial objectives. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist commercial lenders, and alternative funders"
+    ]
+  },
+  {
+    "file": "src/pages/services/WorkingCapital.tsx",
+    "route": "/services/working-capital",
+    "source_claims": [
+      "access to over 50 lenders"
+    ],
+    "baseline_source_claims": [
+      "access to over 50 lenders"
+    ],
+    "unchanged_source_claims": true,
+    "current_source_contexts": [
+      "eading-relaxed mb-4\">\n                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist working capital providers, and al"
+    ],
+    "production_text_contexts": [
+      "onal cash flow patterns. How Emet Capital Helps As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist working capital providers, and alternative "
+    ]
+  }
+]

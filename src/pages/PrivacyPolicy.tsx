@@ -1,3 +1,4 @@
+import { isDesignPreview } from "@/lib/design-preview";
 import { Helmet } from "react-helmet-async";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -8,16 +9,17 @@ const PrivacyPolicy = () => {
         <title>Privacy Policy | Emet Capital</title>
         <meta name="description" content="Privacy Policy for Emet Capital Pty Ltd. How we collect, use, and protect your personal information in accordance with Australian privacy laws." />
         <link rel="canonical" href="https://emetcapital.com.au/privacy-policy" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
       <div className="min-h-screen py-8">
-        <div className="container mx-auto px-4 max-w-4xl">
+        <div className="legal-document container mx-auto px-4 max-w-4xl">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
             { label: "Privacy Policy" }
           ]} />
 
-          <h1 className="text-4xl font-bold mb-8 text-foreground">Privacy Policy</h1>
+          <header className="page-header legal-header"><h1 className="text-4xl font-bold mb-8 text-foreground">Privacy Policy</h1></header>
           
           <div className="prose prose-lg max-w-none text-foreground">
             <p className="mb-6 text-foreground">Last updated: {new Date().toLocaleDateString('en-AU', { month: 'long', year: 'numeric' })}</p>

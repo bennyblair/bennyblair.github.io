@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import SEO from "@/components/SEO";
 import { generateServiceSchema } from "@/lib/schema-utils";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -54,7 +55,7 @@ const BridgingFinance = () => {
           ]} />
 
           {/* Hero Section */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Short-Term Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Commercial Bridging Finance Australia
@@ -80,9 +81,9 @@ const BridgingFinance = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Bridging Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Bridging finance is short-term property-backed funding used to cover a defined timing gap before an expected exit, such as a property sale or refinance. It can support commercial acquisitions, settlements and refinance transitions, but it does not remove timing risk: the proposed exit and a contingency plan should be tested before the facility is accepted.
@@ -90,10 +91,10 @@ const BridgingFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 The security may include the property being acquired, an existing property or both, depending on the lender and transaction. Interest may be paid or capitalised, but capitalisation increases the balance and can reduce the equity buffer. Compare net proceeds, total repayment, default and extension terms—not only the stated interest rate.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Bridging finance may suit property investors, business owners and developers with a specific commercial transaction and a time-bounded exit. Common scenarios include purchasing before another property settles, a refinance that cannot complete by the current maturity date, or a temporary gap before a longer-term commercial facility is ready.
@@ -101,10 +102,10 @@ const BridgingFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer bridging loans are provided. The borrower should be able to evidence the property position, peak debt, transaction purpose and a repayment exit such as sale, refinance or a documented business receipt. A bridge is a poor fit where the exit is only an aspiration or the downside cannot be absorbed.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we assess the transaction, security position, required date and exit evidence before approaching lenders able to consider that scenario. We compare indicative terms on the same assumptions so differences in net proceeds, interest treatment, fees and extension provisions are visible.
@@ -112,10 +113,10 @@ const BridgingFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We help assemble the transaction and security pack, test exit assumptions and coordinate information requested by lenders, valuers and lawyers. Timing depends on the complete transaction and third parties, so the focus is a decision-ready file and a realistic timetable rather than a promised date.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key decision factors */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Decision Factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -174,7 +175,7 @@ const BridgingFinance = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             <FinanceDecisionSupport
               heading="Bridging Finance Fit, Evidence and Exit Checks"
@@ -213,7 +214,7 @@ const BridgingFinance = () => {
             />
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 A lender may require entity and authority documents, a contract or current facility statement, property and title information, valuation evidence, existing-debt details, financial information and support for the proposed sale or refinance exit. Requirements vary by transaction and lender; business purpose, security and an evidenced repayment path are core assessment inputs.
@@ -229,10 +230,10 @@ const BridgingFinance = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -302,7 +303,7 @@ const BridgingFinance = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

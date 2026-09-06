@@ -142,7 +142,7 @@ const MarketInsights = () => {
         ]} />
 
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="page-header directory-header">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Commercial Lending Market Insights
           </h1>
@@ -287,11 +287,11 @@ const MarketInsights = () => {
         </div>
 
         {/* Insights Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="insights-directory grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {filteredInsights.filter(insight => !insight.featured).map((insight) => (
             <Card
               key={insight.title}
-              className={insight.href ? "group hover:shadow-lg transition-all duration-300 hover:scale-105" : ""}
+              className="insight-directory-entry"
             >
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">

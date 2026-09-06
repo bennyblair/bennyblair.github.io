@@ -1,3 +1,5 @@
+import ServiceChapter from "@/components/ServiceChapter";
+import { isDesignPreview } from "@/lib/design-preview";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -40,6 +42,7 @@ const SMSFLending = () => {
         />
         <meta name="keywords" content="SMSF lending, super fund loans, LRBA, self managed super fund property, SMSF investment" />
         <link rel="canonical" href="https://emetcapital.com.au/services/smsf-lending" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -51,7 +54,7 @@ const SMSFLending = () => {
           ]} />
 
           {/* Hero Section */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Super Fund Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               SMSF Property Lending
@@ -73,9 +76,9 @@ const SMSFLending = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is SMSF Property Lending?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 SMSF property lending enables self-managed superannuation funds to borrow for property investment through Limited Recourse Borrowing Arrangements (LRBAs). These specialized structures allow SMSFs to leverage borrowings for property acquisition while maintaining regulatory compliance with superannuation legislation. Property is held in compliant custody trust arrangements, protecting the broader SMSF from lender recourse beyond the secured property asset.
@@ -83,10 +86,10 @@ const SMSFLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Lending applies to both commercial and residential investment properties, including office buildings, retail premises, industrial facilities, and residential real estate held for investment purposes. Loan structures accommodate SMSF cash flow characteristics with interest-only options and terms aligned with retirement planning horizons. All arrangements must comply with SIS Act requirements, including sole purpose test, in-house asset rules, and related party transaction restrictions.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 SMSF property lending serves self-managed superannuation fund trustees seeking property investment within their retirement savings strategy. Fund members utilize SMSF lending to build property portfolios within tax-effective superannuation structures, benefiting from concessional tax treatment during accumulation phase and potential tax-free income during pension phase. Property investors diversify retirement savings beyond traditional super investments through direct property holdings.
@@ -94,10 +97,10 @@ const SMSFLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is specialized investment lending through self-managed superannuation structures only—not consumer or business operational lending. Funds require appropriate SMSF establishment with compliant trust deeds, sufficient fund balance for deposits and costs, and ongoing capacity to service debt from fund income or contributions. Both established SMSFs and those establishing funds for property investment benefit from specialized SMSF lending solutions.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers with SMSF lending expertise, we provide access to specialist lenders nationwide offering Limited Recourse Borrowing Arrangement facilities. Our lender relationships include major banks with SMSF divisions, specialist SMSF lenders, and private capital providers understanding superannuation property investment requirements. We match trustees with lenders offering competitive rates and compliant structures for property acquisition.
@@ -105,10 +108,10 @@ const SMSFLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide trustees through LRBA structuring, custody trust establishment, and documentation preparation ensuring regulatory compliance. Our expertise includes coordination with SMSF administrators, accountants, and legal advisors to establish compliant borrowing arrangements. Approval processes consider SMSF-specific criteria including fund balance, investment strategy alignment, and ongoing serviceability. We structure arrangements accommodating SMSF cash flow characteristics while maintaining full compliance with superannuation legislation.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -167,10 +170,10 @@ const SMSFLending = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires compliant SMSF establishment with appropriate trust deed, sufficient fund balance for deposit and costs (typically minimum $200,000+ fund balance), acceptable investment property for security, and ongoing capacity to service debt from fund income or contributions. Property must align with SMSF investment strategy and comply with sole purpose test and related party restrictions.
@@ -186,10 +189,10 @@ const SMSFLending = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -249,7 +252,7 @@ const SMSFLending = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

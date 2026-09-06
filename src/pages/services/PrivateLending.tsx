@@ -1,3 +1,5 @@
+import ServiceChapter from "@/components/ServiceChapter";
+import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -49,6 +51,7 @@ const PrivateLending = () => {
         />
         <meta name="keywords" content="private lending, alternative finance, private credit, non-bank lending, commercial finance" />
         <link rel="canonical" href="https://emetcapital.com.au/services/private-lending" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -60,7 +63,7 @@ const PrivateLending = () => {
           ]} />
 
           {/* Hero Section */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Alternative Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Private Lending Solutions
@@ -82,9 +85,9 @@ const PrivateLending = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Private Lending?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Private lending provides commercial finance from non-bank sources including private credit funds, high-net-worth individuals, family offices, and specialist finance companies operating outside traditional banking channels. This alternative funding can be relevant for businesses and investors needing flexible structures, time-sensitive assessment, or finance for circumstances outside standard bank criteria. Private lenders still assess security strength, commercial purpose, exit strategy, and transaction risk.
@@ -92,10 +95,10 @@ const PrivateLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Lending structures encompass first mortgages, second mortgages, mezzanine finance, and specialized arrangements tailored to transaction requirements. Private lenders accommodate various property types, unique circumstances, and time-sensitive situations that traditional lenders may decline. Security typically involves real property, though business assets may support certain private lending arrangements. Interest rates reflect risk assessment and funding urgency, with terms ranging from short-term bridging to medium-term facilities depending on purpose and exit strategy.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Private lending serves property investors, developers, business owners, and companies requiring flexible funding outside traditional banking constraints. Borrowers with complex income structures, non-standard properties, urgent funding requirements, or circumstances outside bank policy benefit from private lending solutions. Property investors managing portfolio transitions, developers funding time-sensitive acquisitions, and businesses restructuring debt or pursuing growth opportunities utilize private finance for alternative capital access.
@@ -103,9 +106,9 @@ const PrivateLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 This is commercial and business-purpose lending only—no consumer finance is provided. Borrowers require appropriate business structures (ABN/ACN) or investment purposes, property or business asset security, and viable exit strategies for loan repayment. Both established investors and emerging businesses benefit from private lending tailored to commercial requirements and individual transaction circumstances.
               </p>
-            </section>
+            </ServiceChapter>
 
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Private Lending After a Bank Rejection</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 A bank decline does not always mean a transaction is unfundable. Sometimes the file is
@@ -117,10 +120,10 @@ const PrivateLending = () => {
                 purpose, and a realistic repayment path. It is not a way to bypass risk, and it may carry
                 higher cost or shorter terms than standard bank debt.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we provide access to over 50 lenders nationwide, including extensive private lending networks encompassing credit funds, private investors, and specialist non-bank financiers. Our relationships span diverse private capital sources with varying risk appetites, funding scales, and specializations. We match clients with private lenders offering appropriate structures, competitive pricing within the private market, and terms aligned with transaction requirements and exit strategies.
@@ -128,10 +131,10 @@ const PrivateLending = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We guide clients through private lending assessment, deal structuring, and negotiation processes. Our expertise includes presenting transactions to private lenders, structuring security arrangements, and coordinating time-sensitive settlements where appropriate. We structure applications around the asset, borrower, purpose, and exit so lenders can assess the transaction on its merits.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key features & benefits */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -190,10 +193,10 @@ const PrivateLending = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Eligibility requires business or investment purpose (no consumer lending), property or business asset security with sufficient equity, and viable exit strategies for loan repayment. Documentation requirements are typically streamlined compared to banks, focusing on security evidence and transaction details. Private lenders assess deals based on security strength and merit rather than rigid policy criteria, accommodating diverse circumstances and property types.
@@ -209,10 +212,10 @@ const PrivateLending = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -282,7 +285,7 @@ const PrivateLending = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

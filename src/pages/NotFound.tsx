@@ -10,7 +10,7 @@ const NotFound = () => (
       canonical="/404"
       noindex
     />
-    <div className="max-w-xl text-center">
+    <div className="page-header max-w-xl text-center">
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Error 404</p>
       <h1 className="mt-4 text-4xl font-bold md:text-6xl">Page not found</h1>
       <p className="mt-6 leading-relaxed text-muted-foreground">

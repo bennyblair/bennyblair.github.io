@@ -1,0 +1,3884 @@
+[
+  {
+    "path": "/",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      },
+      "short_baseline_blocks_not_found": [
+        {
+          "tag": "h2",
+          "text": "Success Stories"
+        },
+        {
+          "tag": "p",
+          "text": "Real deals, real results, real growth"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/about",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/about/ben",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/about/daniel",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/complaints-process",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/contact",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/editorial-standards",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/privacy-policy",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/brisbane-fortitude-valley-trade-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/case-study-bridging-loan-won-the-property-auction",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      },
+      "jsonld": {
+        "before": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Case Study: How a Bridging Loan Helped Secure a Commercial Property at Auction",
+            "description": "A commercial case study explaining how a bridging loan can help an Australian borrower meet an auction settlement deadline while arranging a refinance or sale exit. Informational only - not advice.",
+            "image": "https://emetcapital.com.au/images/uploads/case-study-bridging-loan-won-the-property-auction.jpg",
+            "datePublished": "2026-04-05",
+            "dateModified": "2026-06-13",
+            "author": {
+              "@type": "Person",
+              "name": "Ben",
+              "jobTitle": "Commercial Finance Broker, Emet Capital",
+              "url": "https://emetcapital.com.au/about/ben",
+              "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Emet Capital",
+                "url": "https://emetcapital.com.au"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Emet Capital",
+              "url": "https://emetcapital.com.au",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://emetcapital.com.au/images/emet-capital-logo.png",
+                "width": 512,
+                "height": 512
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://emetcapital.com.au/resources/case-studies/case-study-bridging-loan-won-the-property-auction"
+            },
+            "articleSection": "Case Studies",
+            "keywords": "bridging loan for auction, commercial bridging loan auction, auction settlement bridging finance",
+            "wordCount": 1954,
+            "inLanguage": "en-AU",
+            "isAccessibleForFree": true
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://emetcapital.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources",
+                "item": "https://emetcapital.com.au/resources"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Case Studies",
+                "item": "https://emetcapital.com.au/resources/case-studies"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Case Study: How a Bridging Loan Helped Secure a Commercial Property at Auction"
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Case Study: How a Bridging Loan Helped Secure a Commercial Property at Auction",
+            "description": "A commercial case study explaining how a bridging loan can help an Australian borrower meet an auction settlement deadline while arranging a refinance or sale exit. Informational only - not advice.",
+            "image": "https://emetcapital.com.au/images/design/commercial-building.webp",
+            "datePublished": "2026-04-05",
+            "dateModified": "2026-06-13",
+            "author": {
+              "@type": "Person",
+              "name": "Ben",
+              "jobTitle": "Commercial Finance Broker, Emet Capital",
+              "url": "https://emetcapital.com.au/about/ben",
+              "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Emet Capital",
+                "url": "https://emetcapital.com.au"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Emet Capital",
+              "url": "https://emetcapital.com.au",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://emetcapital.com.au/images/emet-capital-logo.png",
+                "width": 512,
+                "height": 512
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://emetcapital.com.au/resources/case-studies/case-study-bridging-loan-won-the-property-auction"
+            },
+            "articleSection": "Case Studies",
+            "keywords": "bridging loan for auction, commercial bridging loan auction, auction settlement bridging finance",
+            "wordCount": 1954,
+            "inLanguage": "en-AU",
+            "isAccessibleForFree": true
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://emetcapital.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources",
+                "item": "https://emetcapital.com.au/resources"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Case Studies",
+                "item": "https://emetcapital.com.au/resources/case-studies"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Case Study: How a Bridging Loan Helped Secure a Commercial Property at Auction"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/case-study-second-mortgage-saved-this-business-50k",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      },
+      "jsonld": {
+        "before": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Case Study: How a Second Mortgage Helped an Australian Business Consolidate Expensive Debt",
+            "description": "A commercial case study showing how a second mortgage can help an Australian business consolidate expensive short-term debt, protect cash flow, and create time for a cleaner refinance path. Informational only - not advice.",
+            "image": "https://emetcapital.com.au/images/uploads/case-study-second-mortgage-saved-this-business-50k.jpg",
+            "datePublished": "2026-04-05",
+            "dateModified": "2026-05-15",
+            "author": {
+              "@type": "Person",
+              "name": "Ben",
+              "jobTitle": "Commercial Finance Broker, Emet Capital",
+              "url": "https://emetcapital.com.au/about/ben",
+              "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Emet Capital",
+                "url": "https://emetcapital.com.au"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Emet Capital",
+              "url": "https://emetcapital.com.au",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://emetcapital.com.au/images/emet-capital-logo.png",
+                "width": 512,
+                "height": 512
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://emetcapital.com.au/resources/case-studies/case-study-second-mortgage-saved-this-business-50k"
+            },
+            "articleSection": "Case Studies",
+            "keywords": "second mortgage for debt consolidation, second mortgage business debt consolidation, commercial second mortgage case study",
+            "wordCount": 2170,
+            "inLanguage": "en-AU",
+            "isAccessibleForFree": true,
+            "about": {
+              "@type": "FinancialProduct",
+              "name": "Second Mortgage",
+              "amount": "$430K",
+              "areaServed": "Sydney, NSW",
+              "applicationCategory": "Trade Business"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://emetcapital.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources",
+                "item": "https://emetcapital.com.au/resources"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Case Studies",
+                "item": "https://emetcapital.com.au/resources/case-studies"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Case Study: How a Second Mortgage Helped an Australian Business Consolidate Expensive Debt"
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Case Study: How a Second Mortgage Helped an Australian Business Consolidate Expensive Debt",
+            "description": "A commercial case study showing how a second mortgage can help an Australian business consolidate expensive short-term debt, protect cash flow, and create time for a cleaner refinance path. Informational only - not advice.",
+            "image": "https://emetcapital.com.au/images/design/heritage-commercial-building.webp",
+            "datePublished": "2026-04-05",
+            "dateModified": "2026-05-15",
+            "author": {
+              "@type": "Person",
+              "name": "Ben",
+              "jobTitle": "Commercial Finance Broker, Emet Capital",
+              "url": "https://emetcapital.com.au/about/ben",
+              "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Emet Capital",
+                "url": "https://emetcapital.com.au"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Emet Capital",
+              "url": "https://emetcapital.com.au",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://emetcapital.com.au/images/emet-capital-logo.png",
+                "width": 512,
+                "height": 512
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://emetcapital.com.au/resources/case-studies/case-study-second-mortgage-saved-this-business-50k"
+            },
+            "articleSection": "Case Studies",
+            "keywords": "second mortgage for debt consolidation, second mortgage business debt consolidation, commercial second mortgage case study",
+            "wordCount": 2170,
+            "inLanguage": "en-AU",
+            "isAccessibleForFree": true,
+            "about": {
+              "@type": "FinancialProduct",
+              "name": "Second Mortgage",
+              "amount": "$430K",
+              "areaServed": "Sydney, NSW",
+              "applicationCategory": "Trade Business"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://emetcapital.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources",
+                "item": "https://emetcapital.com.au/resources"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Case Studies",
+                "item": "https://emetcapital.com.au/resources/case-studies"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Case Study: How a Second Mortgage Helped an Australian Business Consolidate Expensive Debt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/fortitude-valley-hotel-project",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/gold-coast-surfers-second-mortgage",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/melbourne-collingwood-refinancing",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/newcastle-hamilton-working-capital",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/newcastle-junction-smsf-lending",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/parramatta-mixed-use-development",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/second-mortgage-working-capital-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      },
+      "jsonld": {
+        "before": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Second Mortgage Working Capital Case Study",
+            "description": "An illustrative second mortgage working capital case study for Australian business borrowers, showing how property equity can support a temporary cash-flow gap with a defined exit.",
+            "image": "https://emetcapital.com.au/images/uploads/second-mortgage-working-capital-case-study.jpg",
+            "datePublished": "2026-05-29",
+            "dateModified": "2026-05-29",
+            "author": {
+              "@type": "Person",
+              "name": "Ben",
+              "jobTitle": "Commercial Finance Broker, Emet Capital",
+              "url": "https://emetcapital.com.au/about/ben",
+              "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Emet Capital",
+                "url": "https://emetcapital.com.au"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Emet Capital",
+              "url": "https://emetcapital.com.au",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://emetcapital.com.au/images/emet-capital-logo.png",
+                "width": 512,
+                "height": 512
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://emetcapital.com.au/resources/case-studies/second-mortgage-working-capital-case-study"
+            },
+            "articleSection": "Case Studies",
+            "keywords": "second mortgage working capital case study, second mortgage working capital, business working capital second mortgage",
+            "wordCount": 1915,
+            "inLanguage": "en-AU",
+            "isAccessibleForFree": true
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://emetcapital.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources",
+                "item": "https://emetcapital.com.au/resources"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Case Studies",
+                "item": "https://emetcapital.com.au/resources/case-studies"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Second Mortgage Working Capital Case Study"
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Second Mortgage Working Capital Case Study",
+            "description": "An illustrative second mortgage working capital case study for Australian business borrowers, showing how property equity can support a temporary cash-flow gap with a defined exit.",
+            "image": "https://emetcapital.com.au/images/design/heritage-commercial-building.webp",
+            "datePublished": "2026-05-29",
+            "dateModified": "2026-05-29",
+            "author": {
+              "@type": "Person",
+              "name": "Ben",
+              "jobTitle": "Commercial Finance Broker, Emet Capital",
+              "url": "https://emetcapital.com.au/about/ben",
+              "description": "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Emet Capital",
+                "url": "https://emetcapital.com.au"
+              }
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Emet Capital",
+              "url": "https://emetcapital.com.au",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://emetcapital.com.au/images/emet-capital-logo.png",
+                "width": 512,
+                "height": 512
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://emetcapital.com.au/resources/case-studies/second-mortgage-working-capital-case-study"
+            },
+            "articleSection": "Case Studies",
+            "keywords": "second mortgage working capital case study, second mortgage working capital, business working capital second mortgage",
+            "wordCount": 1915,
+            "inLanguage": "en-AU",
+            "isAccessibleForFree": true
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://emetcapital.com.au/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Resources",
+                "item": "https://emetcapital.com.au/resources"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Case Studies",
+                "item": "https://emetcapital.com.au/resources/case-studies"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Second Mortgage Working Capital Case Study"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "path": "/resources/case-studies/surry-hills-commercial-acquisition",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/faqs",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/glossary",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/anti-dumping-duty-trade-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/asset-backed-lending-and-asset-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/asset-backed-lending-vs-unsecured-business-loans",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ato-debt-eofy-cash-flow-finance-gic-deductibility-change-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ato-payment-plan-refused-business-finance-options-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ato-payment-plan-vs-business-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ato-tax-debt-disclosure-credit-reporting-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ato-tax-debt-finance-for-australian-business-owners",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bad-credit-business-loans-for-commercial-borrowers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bank-exit-finance-commercial-borrowers-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bas-debt-finance-for-australian-businesses",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/best-bridging-loan-lenders-companies-2025",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridge-lending-australia-commercial-property",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-finance-auction-settlement-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-finance-australia-complete-property-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-finance-melbourne-fast-property-solutions",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-finance-subdivision-registration-delay-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-loan-bank-delay-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-loan-exit-strategy-broker-take",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/bridging-loan-repayment-calculator",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/building-development-loans-funding-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-acquisition-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-acquisition-finance-retiring-owner-succession",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-debt-consolidation-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-lenders-australia-comparison-broker-commentary",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-lenders-australia-urgent-settlement",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-line-of-credit-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-loan-line-of-credit-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-loan-requirements-australia-commercial-borrowers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-loan-terms-explained-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-loans-for-startups-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-loans-secured-by-residential-property-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-overdraft-alternatives-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/business-turnaround-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/can-a-caveat-loan-stop-a-mortgagee-sale-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/can-i-use-a-second-mortgage-to-buy-investment-property",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/capital-stack-commercial-property-finance-case-example",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-lenders-australia-directory-comparison",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-lending-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-broker-take-on-valuation-delays",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-emergency-business-funding",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-eofy-tax-bill-unsold-development-stock-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-exit-plan-after-bank-delay-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-interest-rates-what-you-ll-really-pay-2025",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-rejected-heres-what-to-do-next",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loans-australia-complete-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/caveat-loans-vs-bank-loans-speed-comparison",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/childcare-centre-acquisition-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-bridging-finance-compressed-settlement-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-bridging-loan-rates-2025-update",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-loan-interest-rates-australia-2025-comparison",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-loan-maturity-refinance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-loan-refinance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-mortgage-broker-regional-property-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-mortgage-rates-australia-complete-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-development-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-due-diligence-finance-checklist",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-finance-broker-selection-checklist",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-finance-melbourne-local-expert-hub",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-finance-perth-wa-market-insights",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-finance-short-wale-assets-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-finance-sydney-local-expert-hub",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-investor-loan-checklist",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-lenders-in-australia-complete-directory",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loan-covenant-breach-refinance-options",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loan-deposit-shortfall-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loans-australia-complete-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loans-brisbane-queensland-market-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loans-for-immigrants-expats-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-loans-for-startups-first-time-buyers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-settlement-process-finance-timeline",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-valuation-delay-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-valuation-dispute-finance-options-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-rent-arrears-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/commercial-strata-special-levy-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/construction-cost-overrun-finance-property-developers-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/construction-finance-australia-complete-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/construction-funding-gap-private-credit-bank-shortfall-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/construction-retention-finance-for-builders-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/container-demurrage-finance-australian-importers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/contract-mobilisation-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/cross-collateralised-commercial-property-refinance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/debtor-concentration-working-capital-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/debtor-finance-supply-chain-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/debtor-finance-vs-trade-finance-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/division-7a-loan-secured-by-real-property-business-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/eofy-working-capital-loans-before-30-june",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/equipment-finance-and-leasing-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/equipment-finance-balloon-payment-refinance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/equipment-sale-and-leaseback-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ev-charging-equipment-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/find-caveat-loan-brokers-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/finding-comparing-private-lenders-loans-2025-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/first-mortgage-loans-primary-property-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/first-mortgage-vs-second-mortgage-key-differences",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/fitout-finance-landlord-contribution-delay-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/foreign-exchange-timing-trade-finance-importers-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/franchise-fit-out-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/getting-a-second-mortgage",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/guarantor-requirements-for-commercial-property-loans",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/hospitality-property-finance-restaurants-hotels-venues",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/how-to-buy-commercial-property-step-by-step-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/how-to-find-second-mortgage-brokers-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/how-to-get-a-business-loan-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/how-to-remove-a-caveat-from-property-title-step-by-step",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/import-gst-and-customs-duty-finance-for-australian-businesses",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/industrial-property-finance-warehouses-manufacturing",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/insurance-premium-funding-alternatives-australian-businesses",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/intercreditor-agreements-second-mortgage-complexity",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/invoice-finance-australia-complete-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/land-tax-debt-finance-in-australia-options-before-caveats-or-enforcement",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/letters-of-credit-vs-trade-finance-australian-importers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/loss-carry-back-business-finance-australia-2026",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/low-doc-business-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/medical-fitout-finance-in-australia-funding-clinics-dental-practices-and-specialist-rooms",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/merchant-cash-advance-alternatives-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/merchant-cash-advance-refinance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/mezzanine-finance-australia-complete-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/motel-acquisition-finance-private-credit-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/no-doc-abn-loans",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/obtaining-a-business-loan-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/office-property-loans-financing-commercial-workspace",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/open-vs-closed-bridging-loan-complete-comparison",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/partial-discharge-bridging-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/payroll-tax-debt-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/personal-guarantee-business-loan-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/ppsr-security-for-business-loans-what-borrowers-need-to-know",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/pre-settlement-finance-commercial-property-purchases-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-commercial-loans-after-bank-decline",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-commercial-loans-for-smes",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-credit-broker-vs-direct-private-credit-fund-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-credit-refinance-commercial-property-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-debt-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-debt-for-sme-borrowers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-debt-vs-private-lending-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-finance-for-business-after-bank-delay",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-lender-document-pack-broker-take",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-lenders-for-land-loans-alternative-financing",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-lending-bank-decline-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-lending-mortgage",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-lending-vs-bank-lending-which-is-better",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-mortgage-lenders-australia-directory",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-mortgage-lending",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-mortgage-lending-commercial-borrowers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-mortgage-loans-for-commercial-borrowers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/private-real-estate-investment-lenders-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/progress-claim-finance-unapproved-variations-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/property-development-loans-complete-funding-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/property-development-mortgage-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/purchase-order-finance-vs-trade-finance-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/quick-caveat-loans-48-hour-settlement-possible",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/re-tenant-then-refinance-commercial-property-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/rent-roll-finance-in-australia-funding-real-estate-agency-acquisitions",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/restaurant-expansion-second-mortgage-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-application-checklist-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-bad-credit-qualify",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-business-loan-bank-consent-delay-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-consent-refused-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-for-construction-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-for-divorce-settlement-property-division",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-interest-rates-current-market-analysis",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-lender-document-checklist-from-broker-files",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-lenders-australia-directory",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-loan-equity-access-strategies",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-vs-line-of-credit",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgages-for-business-guide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/second-mortgages-in-sydney-fast-local-approval",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/secured-vs-unsecured-business-loans-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/short-term-business-finance-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/short-term-caveat-loans-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/short-term-property-loans-when-you-need-fast-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/smsf-commercial-property-loan-refinance-options-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/smsf-loans-for-commercial-property",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/statutory-demand-business-finance-options-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/superannuation-guarantee-charge-business-finance-options-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/supplier-deposit-finance-for-large-orders-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/supplier-deposit-finance-high-value-import-orders-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/swing-loans-explained-seamless-property-transitions",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/trade-finance-for-businesses-with-bad-credit-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/tradex-scheme-import-gst-trade-finance-australian-importers",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/understanding-secondary-mortgage-markets-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/unsecured-business-loan-lenders-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/unsecured-business-loans-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/unsecured-private-lenders-for-business-growth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/urgent-caveat-loan-settlement-shortfall-case-study",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/urgent-caveat-loans",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/used-equipment-finance-second-hand-machinery-private-sales-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/vendor-finance-vs-business-acquisition-loan-in-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/what-is-a-caveatable-interest",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/what-is-a-second-mortgage",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/what-is-asset-backed-lending-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/what-is-bridging-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/what-is-private-lending-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/working-capital-finance-government-contracts-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/working-capital-finance-insurance-claim-delay-australia",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/guides/working-capital-loans-for-smes",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/insights",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools/asset-finance-roi-calculator",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools/bridging-loan-calculator",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools/commercial-property-loan-calculator",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools/commercial-real-estate-calculator",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools/loan-comparison-tool",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools/second-mortgage-calculator",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/resources/tools/working-capital-calculator",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-backed-lending",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-backed-lending/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-backed-lending/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-backed-lending/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-backed-lending/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-backed-lending/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-backed-lending/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-finance/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-finance/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-finance/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-finance/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-finance/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/asset-finance/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/bridging-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/bridging-finance/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/bridging-finance/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/bridging-finance/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/bridging-finance/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/bridging-finance/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/bridging-finance/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-acquisition",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-acquisition/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-acquisition/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-acquisition/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-acquisition/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-acquisition/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-acquisition/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/business-finance",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/caveat-loans",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/caveat-loans/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/caveat-loans/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/caveat-loans/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/caveat-loans/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/caveat-loans/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/caveat-loans/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-development",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-development/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-development/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-development/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-development/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-development/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-development/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/commercial-property-finance",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/debt-consolidation",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/debt-consolidation/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/debt-consolidation/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/debt-consolidation/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/debt-consolidation/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/debt-consolidation/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/debt-consolidation/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/equipment-finance",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/equipment-finance/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/equipment-finance/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/equipment-finance/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/equipment-finance/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/equipment-finance/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/equipment-finance/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/first-second-mortgages",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/first-second-mortgages/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/first-second-mortgages/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/first-second-mortgages/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/first-second-mortgages/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/first-second-mortgages/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/first-second-mortgages/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/private-lending",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/private-lending/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/private-lending/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/private-lending/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/private-lending/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/private-lending/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/private-lending/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/refinancing-solutions",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/refinancing-solutions/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/refinancing-solutions/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/refinancing-solutions/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/refinancing-solutions/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/refinancing-solutions/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/refinancing-solutions/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/smsf-lending",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/smsf-lending/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/smsf-lending/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/smsf-lending/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/smsf-lending/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/smsf-lending/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/smsf-lending/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/trade-finance",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/trade-finance/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/trade-finance/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/trade-finance/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/trade-finance/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/trade-finance/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/trade-finance/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/working-capital",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/working-capital/cities/adelaide",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/working-capital/cities/brisbane",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/working-capital/cities/gold-coast",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/working-capital/cities/melbourne",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/working-capital/cities/perth",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/services/working-capital/cities/sydney",
+    "changes": {
+      "robots": {
+        "before": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  },
+  {
+    "path": "/terms",
+    "changes": {
+      "robots": {
+        "before": null,
+        "after": "noindex, nofollow, noarchive"
+      }
+    }
+  }
+]

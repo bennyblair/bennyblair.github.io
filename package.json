@@ -35,6 +35,10 @@
     "audit:live:content-release": "tsx scripts/audit-live-content-release.ts",
     "setup:browsers": "playwright install chromium",
     "generate:hero-poster": "tsx scripts/generate-hero-poster.ts",
+    "build:review": "node scripts/build-review.mjs",
+    "qa:design": "node scripts/design-qa.mjs",
+    "qa:motion": "node scripts/motion-qa.mjs",
+    "qa:cylinder": "node scripts/cylinder-qa.mjs",
     "content:programme": "node scripts/content-programme.mjs",
     "qa:content-repair-scope": "node scripts/verify-content-repair-scope.mjs"
   },

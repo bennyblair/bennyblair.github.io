@@ -9,7 +9,7 @@ const ComplaintsProcess = () => {
         description="How to raise a complaint with Emet Capital and what happens after we receive it."
         canonical="/complaints-process"
       />
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="legal-document container mx-auto px-4 max-w-4xl">
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },
@@ -17,7 +17,7 @@ const ComplaintsProcess = () => {
           ]}
         />
         <article className="prose prose-slate max-w-none">
-          <h1>Complaints Process</h1>
+          <header className="page-header legal-header"><h1>Complaints Process</h1></header>
 
           <p>
             Emet Capital is committed to handling complaints fairly, transparently,

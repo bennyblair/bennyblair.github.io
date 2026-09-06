@@ -66,7 +66,7 @@ const disclaimer = 'This page is for informational purposes only and does not co
 
 export default function CommercialDevelopmentCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div className="location-page min-h-screen bg-background text-foreground">
       <SEO
         title={title}
         description={description}
@@ -85,20 +85,20 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
           ]}
         />
 
-        <section className="max-w-5xl mx-auto text-center pt-4 pb-12">
+        <section className="page-header location-header max-w-5xl mx-auto text-center pt-4 pb-12">
           <Badge className="mb-4 bg-muted/40 text-foreground border">{city} Development Market</Badge>
-          <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="location-title-row flex items-center justify-center gap-3 mb-4">
             <Building2 className="h-8 w-8 text-foreground/70" />
-            <h1 className="text-4xl lg:text-5xl font-bold text-white">Commercial Development Finance {city}</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold text-foreground">Commercial Development Finance {city}</h1>
           </div>
-          <p className="text-xl text-slate-300 max-w-4xl mx-auto mb-6">{localIntro}</p>
-          <p className="text-slate-400 max-w-4xl mx-auto mb-8 leading-relaxed">{marketOverview}</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-6">{localIntro}</p>
+          <p className="text-muted-foreground max-w-4xl mx-auto mb-8 leading-relaxed">{marketOverview}</p>
+          <div className="location-facts grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
-              <div key={label} className="bg-slate-900 border border-slate-800 rounded-xl p-4">
+              <div key={label} className="bg-card border border-border rounded-xl p-4">
                 <Icon className="h-5 w-5 text-foreground/70 mb-3" />
-                <div className="text-2xl font-bold text-white mb-1">{value}</div>
-                <div className="text-sm text-slate-400">{label}</div>
+                <div className="text-2xl font-bold text-foreground mb-1">{value}</div>
+                <div className="text-sm text-muted-foreground">{label}</div>
               </div>
             ))}
           </div>
@@ -106,64 +106,64 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
             <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Get Development Quote</Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-slate-700 text-slate-300 hover:bg-slate-800">
+            <Button size="lg" variant="outline" asChild className="border-border text-muted-foreground hover:bg-muted">
               <a href="tel:0485952651"><ArrowRight className="mr-2 h-5 w-5" />Call Development Expert</a>
             </Button>
           </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">Why Development Finance Matters in {city}</h2>
-          <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6 mb-6">
-            <p className="text-slate-300 leading-relaxed mb-4">{localFocus}</p>
-            <p className="text-slate-300 leading-relaxed">{timingPressures}</p>
+          <h2 className="text-3xl font-bold text-foreground mb-6">Why Development Finance Matters in {city}</h2>
+          <div className="bg-card/50 border border-border rounded-xl p-6 mb-6">
+            <p className="text-muted-foreground leading-relaxed mb-4">{localFocus}</p>
+            <p className="text-muted-foreground leading-relaxed">{timingPressures}</p>
           </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">{city} Suburb & Precinct Coverage</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-6">{city} Suburb & Precinct Coverage</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {suburbCoverage.map((point, index) => (
-              <div key={index} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-3">{point.title}</h3>
-                <p className="text-slate-400 leading-relaxed">{point.text}</p>
+              <div key={index} className="bg-card border border-border rounded-xl p-6">
+                <h3 className="text-xl font-semibold text-foreground mb-3">{point.title}</h3>
+                <p className="text-muted-foreground leading-relaxed">{point.text}</p>
               </div>
             ))}
           </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">Local Development Use Cases</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-6">Local Development Use Cases</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {localUseCases.map((useCase, index) => (
-              <div key={index} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                <h3 className="text-xl font-semibold text-white mb-3">{useCase.title}</h3>
-                <p className="text-slate-400 leading-relaxed">{useCase.text}</p>
+              <div key={index} className="bg-card border border-border rounded-xl p-6">
+                <h3 className="text-xl font-semibold text-foreground mb-3">{useCase.title}</h3>
+                <p className="text-muted-foreground leading-relaxed">{useCase.text}</p>
               </div>
             ))}
           </div>
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">{city} Development Scenarios</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-6">{city} Development Scenarios</h2>
           <div className="space-y-8">
             {scenarios.map((scenario, index) => (
-              <div key={index} className="bg-slate-900 border border-slate-800 rounded-xl p-6">
-                <h3 className="text-2xl font-bold text-white mb-4">{scenario.title}</h3>
+              <div key={index} className="bg-card border border-border rounded-xl p-6">
+                <h3 className="text-2xl font-bold text-foreground mb-4">{scenario.title}</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="text-lg font-semibold text-foreground/70 mb-2">Scenario</h4>
-                    <p className="text-slate-400 mb-4">{scenario.scenario}</p>
+                    <p className="text-muted-foreground mb-4">{scenario.scenario}</p>
                     <h4 className="text-lg font-semibold text-foreground/70 mb-2">Solution</h4>
-                    <p className="text-slate-400">{scenario.solution}</p>
+                    <p className="text-muted-foreground">{scenario.solution}</p>
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-foreground/70 mb-2">Outcomes</h4>
                     <div className="grid grid-cols-2 gap-4">
                       {scenario.outcomes.map((outcome, idx) => (
-                        <div key={idx} className="bg-slate-800 rounded-lg p-4">
-                          <div className="text-sm text-slate-400 mb-1">{outcome.label}</div>
-                          <div className="text-lg font-bold text-white">{outcome.value}</div>
+                        <div key={idx} className="bg-muted rounded-lg p-4">
+                          <div className="text-sm text-muted-foreground mb-1">{outcome.label}</div>
+                          <div className="text-lg font-bold text-foreground">{outcome.value}</div>
                         </div>
                       ))}
                     </div>
@@ -175,15 +175,15 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">Development Finance Process</h2>
-          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">Development Finance Process</h2>
+          <div className="bg-card border border-border rounded-xl p-6">
             <ol className="space-y-4">
               {processSteps.map((step, index) => (
                 <li key={index} className="flex items-start">
                   <div className="flex-shrink-0 w-8 h-8 bg-muted text-foreground/70 rounded-full flex items-center justify-center mr-4 mt-1">
                     {index + 1}
                   </div>
-                  <p className="text-slate-300 pt-1">{step}</p>
+                  <p className="text-muted-foreground pt-1">{step}</p>
                 </li>
               ))}
             </ol>
@@ -191,12 +191,12 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">Related Reading</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-6">Related Reading</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {relatedLinks.map((link, index) => (
-              <div key={index} className="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-primary/50 transition-colors">
-                <h3 className="text-lg font-semibold text-white mb-2">{link.title}</h3>
-                <p className="text-slate-400 text-sm mb-4">{link.description}</p>
+              <div key={index} className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-colors">
+                <h3 className="text-lg font-semibold text-foreground mb-2">{link.title}</h3>
+                <p className="text-muted-foreground text-sm mb-4">{link.description}</p>
                 <Link to={link.href} className="inline-flex items-center text-foreground/70 hover:text-foreground/70">
                   Read more <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -206,13 +206,13 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-white mb-6">Frequently asked questions</h2>
-          <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6">Frequently asked questions</h2>
+          <div className="bg-card border border-border rounded-xl p-6">
             <div className="space-y-6">
               {faqs.map((faq, index) => (
-                <div key={index} className="pb-6 border-b border-slate-800 last:border-0 last:pb-0">
-                  <h3 className="text-lg font-semibold text-white mb-3">{faq.question}</h3>
-                  <p className="text-slate-400">{faq.answer}</p>
+                <div key={index} className="pb-6 border-b border-border last:border-0 last:pb-0">
+                  <h3 className="text-lg font-semibold text-foreground mb-3">{faq.question}</h3>
+                  <p className="text-muted-foreground">{faq.answer}</p>
                 </div>
               ))}
             </div>
@@ -220,12 +220,12 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <div className="bg-slate-900/30 border border-slate-800 rounded-xl p-8">
+          <div className="bg-card/30 border border-border rounded-xl p-8">
             <div className="flex items-start gap-4">
               <Shield className="h-6 w-6 text-foreground/70 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="text-lg font-semibold text-white mb-2">Important Disclaimer</h3>
-                <p className="text-slate-400">{disclaimer}</p>
+                <h3 className="text-lg font-semibold text-foreground mb-2">Important Disclaimer</h3>
+                <p className="text-muted-foreground">{disclaimer}</p>
               </div>
             </div>
           </div>
@@ -238,7 +238,7 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
               Discuss Your {city} Development Project
             </Link>
           </Button>
-          <p className="text-slate-400 mt-4">
+          <p className="text-muted-foreground mt-4">
             Return to <Link to="/services/commercial-property-development" className="text-foreground/70 hover:text-foreground/70">Property Development service page</Link>
           </p>
         </section>

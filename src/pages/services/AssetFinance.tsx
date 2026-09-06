@@ -1,3 +1,4 @@
+import ServiceChapter from "@/components/ServiceChapter";
 import SEO from "@/components/SEO";
 import { generateServiceSchema } from "@/lib/schema-utils";
 import { Button } from "@/components/ui/button";
@@ -52,7 +53,7 @@ const AssetFinance = () => {
         
         {/* Hero Section */}
         <section className="mb-12">
-          <div className="text-center max-w-4xl mx-auto">
+          <div className="page-header text-center max-w-4xl mx-auto">
             <Badge variant="secondary" className="mb-4">
               <Building2 className="w-4 h-4 mr-2" />
               Business Growth Finance
@@ -78,9 +79,9 @@ const AssetFinance = () => {
         </section>
 
         {/* Main Content */}
-        <div className="max-w-4xl mx-auto space-y-12 mb-16">
+        <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
           {/* What this service is */}
-          <section>
+          <ServiceChapter>
             <h2 className="text-3xl font-bold text-foreground mb-4">What is Asset Finance?</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Asset finance enables businesses to acquire essential equipment, vehicles, and machinery without significant upfront capital outlay. This financing method provides funding specifically secured against the asset being purchased, allowing businesses to preserve working capital while accessing necessary operational tools. Asset finance encompasses both purchase financing and leasing arrangements, with structures tailored to business cash flow and asset depreciation characteristics.
@@ -88,10 +89,10 @@ const AssetFinance = () => {
             <p className="text-muted-foreground leading-relaxed">
               Funding applies to diverse asset types including vehicles, construction equipment, manufacturing machinery, medical equipment, technology systems, agricultural equipment, and specialized industry tools. Both new and used assets may qualify depending on age, condition, and lender criteria. Repayment structures align with asset useful life and business revenue patterns, providing flexibility in managing equipment acquisition costs.
             </p>
-          </section>
+          </ServiceChapter>
 
           {/* Who this service is for */}
-          <section>
+          <ServiceChapter>
             <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Asset finance serves business owners, companies, contractors, and operators across all industries requiring equipment and machinery for commercial operations. Manufacturing businesses utilize equipment finance for production machinery, while transport operators access vehicle finance for fleet expansion. Construction companies, medical practices, agricultural businesses, and technology firms all benefit from asset-backed funding solutions.
@@ -99,10 +100,10 @@ const AssetFinance = () => {
             <p className="text-muted-foreground leading-relaxed">
               This is commercial and business-purpose lending only—no consumer equipment finance is provided. Borrowers require appropriate business structures (ABN/ACN) and seek funding for assets used in commercial operations. Both established businesses and those upgrading or expanding equipment holdings benefit from flexible asset finance solutions tailored to commercial lending requirements.
             </p>
-          </section>
+          </ServiceChapter>
 
           {/* How Emet Capital helps */}
-          <section>
+          <ServiceChapter>
             <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, specialist equipment financiers, and alternative capital providers. Our lender relationships encompass traditional institutions and specialist asset finance providers, enabling competitive rate comparisons and optimal structure selection. We specialize in asset-backed lending options that align with your business operational requirements and equipment strategies.
@@ -110,10 +111,10 @@ const AssetFinance = () => {
             <p className="text-muted-foreground leading-relaxed">
               We guide clients through the entire finance process, from initial assessment and supplier coordination through documentation preparation and settlement. Our expertise includes both chattel mortgage and lease structures, enabling tax-effective equipment acquisition. Approval timeframes are significantly faster than direct applications, with streamlined processes and experienced guidance throughout. We structure flexible arrangements compared to traditional bank constraints, accommodating diverse business and equipment scenarios.
             </p>
-          </section>
+          </ServiceChapter>
 
           {/* Key features & benefits */}
-          <section>
+          <ServiceChapter>
             <h2 className="text-3xl font-bold text-foreground mb-4">Key Features & Benefits</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <Card>
@@ -172,10 +173,10 @@ const AssetFinance = () => {
                 </CardContent>
               </Card>
             </div>
-          </section>
+          </ServiceChapter>
 
           {/* Eligibility & next steps */}
-          <section>
+          <ServiceChapter>
             <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Eligibility requires business purpose (no consumer lending), appropriate business structure (ABN/ACN), demonstrated capacity to service repayments, and acceptable asset for security. Documentation typically includes business financial statements, tax returns, and asset details. Both new and used assets are considered subject to age and condition requirements.
@@ -191,10 +192,10 @@ const AssetFinance = () => {
                 <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
               </Button>
             </div>
-          </section>
+          </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -254,7 +255,7 @@ const AssetFinance = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

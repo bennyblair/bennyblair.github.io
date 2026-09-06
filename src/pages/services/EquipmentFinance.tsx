@@ -1,3 +1,5 @@
+import ServiceChapter from "@/components/ServiceChapter";
+import { isDesignPreview } from "@/lib/design-preview";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -42,6 +44,7 @@ const EquipmentFinance = () => {
         />
         <meta name="keywords" content="equipment finance, asset finance, equipment leasing, business equipment loans, machinery finance" />
         <link rel="canonical" href="https://emetcapital.com.au/services/equipment-finance" />
+      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
       <div className="min-h-screen py-8">
@@ -53,7 +56,7 @@ const EquipmentFinance = () => {
           ]} />
 
           {/* Hero Section */}
-          <div className="text-center max-w-4xl mx-auto mb-16">
+          <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Asset Acquisition</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Equipment Finance
@@ -75,9 +78,9 @@ const EquipmentFinance = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Equipment Finance?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Equipment finance can fund an identifiable business asset through a loan, lease or other asset-finance contract rather than paying the full purchase price upfront. Structures can include equipment loans, chattel mortgages, hire purchase and leases. Ownership, security, repayment profile, residual obligations and end-of-term options differ, so product labels should not be treated as interchangeable.
@@ -85,10 +88,10 @@ const EquipmentFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Financing structures range from ownership-oriented loans to arrangements where the financier retains ownership and the business pays for use. Security, guarantees, deposits and residual payments vary. Tax and accounting outcomes depend on the contract and the business's circumstances, so they should be confirmed with a registered tax professional rather than inferred from the product label.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Who this service is for */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Equipment finance may suit businesses acquiring productive machinery, vehicles, technology, medical, hospitality or construction assets with a defined operational use. The proposed term and repayment structure should reflect expected useful life, utilisation, maintenance, replacement plans and the business's capacity under a conservative scenario.
@@ -99,10 +102,10 @@ const EquipmentFinance = () => {
               <p className="text-muted-foreground leading-relaxed mt-4">
                 If the asset purchase also creates a cash-flow, supplier, tax, or acquisition requirement, review the <Link to="/services/business-finance" className="text-accent hover:underline">business finance hub</Link> to compare equipment finance with working capital, trade finance, consolidation, and asset-backed lending.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* How Emet Capital helps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 As commercial finance brokers, we compare lenders and structures that fit the asset, vendor, borrower profile, cash-flow pattern and intended ownership outcome. The comparison should use the same purchase price, deposit, term and residual assumptions so a lower repayment is not mistaken for a lower total cost.
@@ -110,10 +113,10 @@ const EquipmentFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 We help assemble asset and business evidence, identify contract differences and coordinate with the vendor and lender. We do not provide tax advice or promise faster approval; an accountant or tax adviser should confirm tax treatment, and the lender controls its assessment and conditions.
               </p>
-            </section>
+            </ServiceChapter>
 
             {/* Key decision factors */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Key Decision Factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -172,7 +175,7 @@ const EquipmentFinance = () => {
                   </CardContent>
                 </Card>
               </div>
-            </section>
+            </ServiceChapter>
 
             <FinanceDecisionSupport
               heading="Choose Equipment Finance by Asset Use, Not Repayment Alone"
@@ -211,7 +214,7 @@ const EquipmentFinance = () => {
             />
 
             {/* Eligibility & next steps */}
-            <section>
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 A lender may require an ABN or ACN and entity documents, an asset quote, vendor details, financial statements, bank activity, tax information or forecasts, depending on the applicant and facility. Security may include the financed asset and, in some cases, deposits, guarantees or additional support. Requirements and approval remain lender-specific.
@@ -227,10 +230,10 @@ const EquipmentFinance = () => {
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
                 </Button>
               </div>
-            </section>
+            </ServiceChapter>
 
             {/* Guides & Resources Section */}
-            <section className="mb-12">
+            <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
                 Guides & Resources
@@ -290,7 +293,7 @@ const EquipmentFinance = () => {
                 </span>
               </a>
               </div>
-            </section>
+            </ServiceChapter>
 
 
             {/* FAQs */}

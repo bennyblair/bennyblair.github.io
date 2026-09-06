@@ -1,0 +1,285 @@
+{
+  "startedAt": "2026-09-06T05:24:07.123Z",
+  "finishedAt": "2026-09-06T05:25:34.521Z",
+  "base": "http://127.0.0.1:4173/",
+  "summary": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0
+  },
+  "limitations": [
+    "Responsive screenshots require human visual review",
+    "No real-user/performance-budget assessment",
+    "200% text is synthetic font and line-height enlargement",
+    "Document-hidden behavior needs a separate trusted browser lifecycle test; this suite covers offscreen lifecycle"
+  ],
+  "results": [
+    {
+      "name": "Compact paired mobile stages 320px",
+      "status": "pass",
+      "details": {
+        "heights": [
+          632.9375,
+          632.9375,
+          632.9375,
+          632.9375
+        ]
+      }
+    },
+    {
+      "name": "Compact paired mobile stages 390px",
+      "status": "pass",
+      "details": {
+        "heights": [
+          604.046875,
+          604.046875,
+          604.046875,
+          604.046875
+        ]
+      }
+    },
+    {
+      "name": "Compact paired mobile stages 600px",
+      "status": "pass",
+      "details": {
+        "heights": [
+          604.046875,
+          604.046875,
+          604.046875,
+          604.046875
+        ]
+      }
+    },
+    {
+      "name": "No-JS static pose and readable stages",
+      "status": "pass",
+      "details": {
+        "delayed": false,
+        "stage": "0",
+        "y": 0
+      }
+    },
+    {
+      "name": "Delayed-JS preserves cylinder/process nodes",
+      "status": "pass",
+      "details": {
+        "delayed": true,
+        "stage": "0",
+        "y": 0
+      }
+    },
+    {
+      "name": "All four actual timed rests and aligned rings/text",
+      "status": "pass",
+      "details": {
+        "rests": [
+          {
+            "stage": 0,
+            "durationMs": 1209,
+            "firstAt": 0
+          },
+          {
+            "stage": 1,
+            "durationMs": 1101,
+            "firstAt": 2295.899999856949
+          },
+          {
+            "stage": 2,
+            "durationMs": 1207,
+            "firstAt": 4484.099999904633
+          },
+          {
+            "stage": 3,
+            "durationMs": 2543,
+            "firstAt": 6671.899999856949
+          }
+        ],
+        "firstY": 0,
+        "lastY": 420
+      }
+    },
+    {
+      "name": "Fast mobile scroll cannot skip every stop",
+      "status": "pass",
+      "details": {
+        "beforeY": 0,
+        "afterJumpY": 0,
+        "returnedY": 0
+      }
+    },
+    {
+      "name": "Local keyboard pause freezes exact progress",
+      "status": "pass",
+      "details": {
+        "stopped": {
+          "beforeY": 23.5863,
+          "afterY": 23.5863,
+          "beforeTimes": [
+            {
+              "time": 1533.2679999522866,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 1533.2679999522866,
+              "state": "paused"
+            }
+          ]
+        },
+        "resumedStage": 1
+      }
+    },
+    {
+      "name": "Global keyboard pause retains cylinder progress",
+      "status": "pass",
+      "details": {
+        "stopped": {
+          "beforeY": 140,
+          "afterY": 140,
+          "beforeTimes": [
+            {
+              "time": 2249.8470001008363,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 2249.8470001008363,
+              "state": "paused"
+            }
+          ]
+        },
+        "resumedStage": 2
+      }
+    },
+    {
+      "name": "Keyboard stage selection holds requested stage",
+      "status": "pass",
+      "details": {
+        "order": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "reduce": false,
+        "playAfterReverseAdvancesForward": true
+      }
+    },
+    {
+      "name": "Replay restarts the staged journey",
+      "status": "pass",
+      "details": {
+        "resetY": 0,
+        "replayedStage": 1
+      }
+    },
+    {
+      "name": "Offscreen freezes and re-entry resumes",
+      "status": "pass",
+      "details": {
+        "stopped": {
+          "beforeY": 140,
+          "afterY": 140,
+          "beforeTimes": [
+            {
+              "time": 2249.8910000637175,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 2249.8910000637175,
+              "state": "paused"
+            }
+          ]
+        },
+        "resumedStage": 2
+      }
+    },
+    {
+      "name": "Reduced motion is static with instant manual selection",
+      "status": "pass",
+      "details": {
+        "dynamic": false,
+        "stopped": {
+          "beforeY": 0,
+          "afterY": 0,
+          "beforeTimes": [
+            {
+              "time": 0,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 0,
+              "state": "paused"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dynamic reduced motion stops autoplay",
+      "status": "pass",
+      "details": {
+        "dynamic": true,
+        "stopped": {
+          "beforeY": 140,
+          "afterY": 140,
+          "beforeTimes": [
+            {
+              "time": 2249.9090000439437,
+              "state": "paused"
+            }
+          ],
+          "afterTimes": [
+            {
+              "time": 2249.9090000439437,
+              "state": "paused"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Resize and320px200% text preserve controls and stages",
+      "status": "pass",
+      "details": {
+        "width": 320,
+        "documentWidth": 320,
+        "svg": {
+          "left": 20,
+          "right": 148,
+          "top": 262.03125,
+          "bottom": 582.03125,
+          "width": 128,
+          "height": 320
+        }
+      }
+    },
+    {
+      "name": "Responsive process capture 1440px",
+      "status": "pass",
+      "details": {
+        "width": 1440,
+        "stage": 1,
+        "screenshot": "reports\\output\\playwright\\staged-cylinder-1440.png",
+        "scope": "Responsive process section with synchronized copy and persistent controls"
+      }
+    },
+    {
+      "name": "Responsive process capture 390px",
+      "status": "pass",
+      "details": {
+        "width": 390,
+        "stage": 1,
+        "screenshot": "reports\\output\\playwright\\staged-cylinder-390.png",
+        "scope": "Responsive process section with synchronized copy and persistent controls"
+      }
+    }
+  ]
+}

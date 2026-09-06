@@ -1,0 +1,566 @@
+{
+  "/resources/case-studies/adelaide-cbd-asset-backed-lending": {
+    "src": "/assets/adelaide-cbd-property.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/case-studies/brisbane-fortitude-valley-trade-finance": {
+    "src": "/assets/brisbane-trade.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/gold-coast-surfers-second-mortgage": {
+    "src": "/assets/gold-coast-surfers-beachfront.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/melbourne-collingwood-refinancing": {
+    "src": "/assets/melbourne-hospitality.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/melbourne-richmond-asset-finance": {
+    "src": "/assets/melbourne-manufacturing.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/newcastle-merewether-equipment-finance": {
+    "src": "/assets/newcastle-coastal.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/newcastle-hamilton-working-capital": {
+    "src": "/assets/newcastle-hospitality.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/newcastle-wickham-business-acquisition": {
+    "src": "/assets/newcastle-industrial.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/newcastle-junction-smsf-lending": {
+    "src": "/assets/newcastle-medical.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/case-studies/perth-business-group-debt-consolidation": {
+    "src": "/assets/perth-business-group.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/perth-fremantle-first-mortgage": {
+    "src": "/assets/perth-fremantle-heritage.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/adelaide-cbd-office-complex": {
+    "src": "/assets/sydney-skyline-hero.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/fortitude-valley-hotel-project": {
+    "src": "/assets/sydney-skyline-hero.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/south-yarra-apartment-development": {
+    "src": "/assets/sydney-skyline-hero.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/parramatta-mixed-use-development": {
+    "src": "/assets/sydney-skyline-hero.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/surry-hills-commercial-acquisition": {
+    "src": "/assets/sydney-skyline-hero.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses": {
+    "src": "/images/ato-garnishee-notice-finance-for-australian-businesses.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/ato-tax-debt-finance-for-australian-business-owners": {
+    "src": "/images/ato-tax-debt-finance-for-australian-business-owners.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance": {
+    "src": "/images/balloon-payment-refinance-for-equipment-and-asset-finance.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved": {
+    "src": "/images/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy": {
+    "src": "/images/business-acquisition-finance.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/caveat-loan-emergency-business-funding": {
+    "src": "/images/caveat-loan-emergency.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance": {
+    "src": "/images/caveat-loan-exit-strategies-how-to-repay-or-refinance.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/caveat-loan-rejected-heres-what-to-do-next": {
+    "src": "/images/caveat-loan-rejected.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-bridging-loan-rates-2025-update": {
+    "src": "/images/commercial-bridging-loan-rates-2025-update.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared": {
+    "src": "/images/commercial-loan-rates-banks-vs-private-lenders-compared.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/commercial-loan-refinance": {
+    "src": "/images/commercial-loan-refinance.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/commercial-property-due-diligence-finance-checklist": {
+    "src": "/images/commercial-property-due-diligence-finance-checklist.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/commercial-property-finance-melbourne-local-expert-hub": {
+    "src": "/images/commercial-property-finance-melbourne-local-expert-hub.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-property-finance-sydney-local-expert-hub": {
+    "src": "/images/commercial-property-finance-sydney-local-expert-hub.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow": {
+    "src": "/images/commercial-property-loan-serviceability-how-much-can-you-borrow.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/re-tenant-then-refinance-commercial-property-finance": {
+    "src": "/images/commercial-property-loans-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/smsf-commercial-property-loan-refinance-options-australia": {
+    "src": "/images/commercial-property-loans-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/pre-settlement-finance-commercial-property-purchases-australia": {
+    "src": "/images/commercial-property-loans-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/land-tax-debt-finance-in-australia-options-before-caveats-or-enforcement": {
+    "src": "/images/commercial-property-loans-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement": {
+    "src": "/images/commercial-property-loans-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia": {
+    "src": "/images/commercial-property-loans-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-property-loans-australia-complete-guide": {
+    "src": "/images/commercial-property-loans-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia": {
+    "src": "/images/commercial-property-refinance-after-a-bank-decline-in-australia.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/commercial-property-valuation-for-finance-lender-requirements": {
+    "src": "/images/commercial-property-valuation-for-finance-lender-requirements.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled": {
+    "src": "/images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia": {
+    "src": "/images/construction-finance-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/debtor-finance-vs-trade-finance-in-australia": {
+    "src": "/images/debtor-finance-vs-trade-finance-in-australia.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia": {
+    "src": "/images/gst-loan-for-commercial-property-settlement-in-australia.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues": {
+    "src": "/images/hospitality-fitout-finance-in-australia-funding-cafes-restaurants-and-venues.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide": {
+    "src": "/images/how-to-find-the-best-commercial-mortgage-broker-complete-guide.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/intercreditor-agreements-second-mortgage-complexity": {
+    "src": "/images/intercreditor-agreements-second-mortgage-complexity.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/line-of-credit-equity": {
+    "src": "/images/line-of-credit-equity.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/low-doc-no-doc-commercial-loans-complete-alternative-guide": {
+    "src": "/images/low-doc-no-doc-commercial-loans-complete-alternative-guide.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/private-lending-vs-bank-lending-which-is-better": {
+    "src": "/images/private-lending-vs-bank-lending-which-is-better.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining": {
+    "src": "/images/refinancing-commercial-property-with-a-short-lease-remaining.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock": {
+    "src": "/images/residual-stock-loans-in-australia-how-developers-can-unlock-capital-from-unsold-stock.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/what-is-a-second-mortgage": {
+    "src": "/images/second-mortgage-business.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia": {
+    "src": "/images/second-mortgage-business.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/business-loans-secured-by-residential-property-in-australia": {
+    "src": "/images/second-mortgage-business.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/second-mortgage-interest-rates-current-market-analysis": {
+    "src": "/images/second-mortgage-interest-rates-current-market-analysis.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/second-mortgage-loan-equity-access-strategies": {
+    "src": "/images/second-mortgage-loan-equity-access.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/subordination-agreement-second-mortgage": {
+    "src": "/images/subordination-agreement-second-mortgage.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/unsecured-private-lenders-for-business-growth": {
+    "src": "/images/unsecured-private-lenders-for-business-growth.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia": {
+    "src": "/images/uploads/asset-backed-lending-and-asset-finance.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/asset-backed-lending-vs-unsecured-business-loans": {
+    "src": "/images/uploads/asset-backed-lending-and-asset-finance.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/what-is-asset-backed-lending-australia": {
+    "src": "/images/uploads/asset-backed-lending-and-asset-finance.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/asset-backed-lending-and-asset-finance": {
+    "src": "/images/uploads/asset-backed-lending-and-asset-finance.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/business-acquisition-finance-australia": {
+    "src": "/images/uploads/business-acquisition-finance-australia.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/business-debt-consolidation-australia": {
+    "src": "/images/uploads/business-debt-consolidation-australia.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance": {
+    "src": "/images/uploads/business-line-of-credit.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide": {
+    "src": "/images/uploads/commercial-bridging-auction-guide.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-property-finance-rates-2025-comparison": {
+    "src": "/images/uploads/commercial-finance-rates-2025.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/commercial-property-loans-for-immigrants-expats-australia": {
+    "src": "/images/uploads/commercial-loans-immigrants-expats.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-property-development-finance": {
+    "src": "/images/uploads/commercial-property-development-finance.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-property-refinancing-solutions": {
+    "src": "/images/uploads/commercial-property-refinancing-solutions.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/finding-comparing-private-lenders-loans-2025-guide": {
+    "src": "/images/uploads/finding-comparing-private-lenders-loans-2025-guide.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/hospitality-property-finance-restaurants-hotels-venues": {
+    "src": "/images/uploads/hospitality-property-finance-restaurants-hotels-venues.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/private-commercial-real-estate-lenders-cre-directory": {
+    "src": "/images/uploads/private-cre-lenders-directory.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/second-mortgage-bad-credit-qualify": {
+    "src": "/images/uploads/second-mortgage-bad-credit-qualify.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/understanding-secondary-mortgage-markets-australia": {
+    "src": "/images/uploads/secondary-mortgage-market-australia.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/short-term-private-lenders-fast-business-finance-solutions": {
+    "src": "/images/uploads/short-term-business-finance.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/smsf-loans-for-commercial-property": {
+    "src": "/images/uploads/smsf-loans-for-commercial-property.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/what-is-private-lending-australia": {
+    "src": "/images/uploads/what-is-private-lending-australia.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/working-capital-loans-for-smes": {
+    "src": "/images/uploads/working-capital-loans-for-smes.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for": {
+    "src": "/images/vacant-commercial-property-refinance-in-australia-what-lenders-look-for.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not": {
+    "src": "/images/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/second-mortgage-working-capital-case-study": {
+    "src": "/images/design/heritage-commercial-building.webp",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/case-study-bridging-loan-won-the-property-auction": {
+    "src": "/images/design/commercial-building.webp",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/case-studies/case-study-second-mortgage-saved-this-business-50k": {
+    "src": "/images/design/heritage-commercial-building.webp",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/case-studies/rose-bay-property-development-bridging-loan": {
+    "src": "/images/design/commercial-building.webp",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/anti-dumping-duty-trade-finance-australia": {
+    "src": "/images/articles/anti-dumping-duty-trade-finance-australia.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/container-demurrage-finance-australian-importers": {
+    "src": "/images/articles/container-demurrage-finance-australian-importers.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  },
+  "/resources/guides/commercial-bridging-finance-compressed-settlement-case-study": {
+    "src": "/images/articles/commercial-bridging-finance-compressed-settlement-case-study.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/commercial-property-investor-loan-checklist": {
+    "src": "/images/articles/commercial-property-investor-loan-checklist.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/fitout-finance-landlord-contribution-delay-australia": {
+    "src": "/images/articles/fitout-finance-landlord-contribution-delay-australia.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/second-mortgage-business-loan-bank-consent-delay-australia": {
+    "src": "/images/articles/second-mortgage-business-loan-bank-consent-delay-australia.jpg",
+    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "commercial"
+  },
+  "/resources/guides/working-capital-finance-government-contracts-australia": {
+    "src": "/images/articles/working-capital-finance-government-contracts-australia.jpg",
+    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "office"
+  },
+  "/resources/guides/working-capital-finance-insurance-claim-delay-australia": {
+    "src": "/images/articles/working-capital-finance-insurance-claim-delay-australia.jpg",
+    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
+    "caption": "Representative property photograph; not a client property or the project described.",
+    "assetId": "warehouse"
+  }
+}

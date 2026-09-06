@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import imageRepairs from "../../src/config/article-images.json" with { type: "json" };
 
 const CONTENT_TYPES = {
   guides: "guides",
@@ -38,6 +39,8 @@ export function normalizeArticleData(contentType, slug, data, body = "") {
   const reviewedValue = data.reviewedAt || data.reviewed_at || data.reviewedDate || data.reviewed_date;
   const lastVerifiedValue = data.lastVerified || data.last_verified;
 
+  const route = `/resources/${contentType}/${slug}`;
+  const image = imageRepairs[route];
   return {
     slug,
     contentType,
@@ -70,8 +73,10 @@ export function normalizeArticleData(contentType, slug, data, body = "") {
     lastVerified:
       lastVerifiedValue instanceof Date ? lastVerifiedValue.toISOString() : asString(lastVerifiedValue),
     readingTime: Number(data.readingTime || data.reading_time || Math.max(1, Math.ceil(body.split(/\s+/).length / 220))),
-    featuredImage: asString(data.featuredImage || data.featured_image),
-    featuredImageAlt: asString(data.featuredImageAlt || data.featured_image_alt),
+    featuredImage: image?.src || asString(data.featuredImage || data.featured_image),
+    featuredImageAlt: image?.alt || asString(data.featuredImageAlt || data.featured_image_alt),
+    featuredImageCaption: image?.caption || "",
+    featuredImageThumbnail: image ? `/images/design/${image.assetId === "warehouse" ? "heritage" : image.assetId === "office" ? "office" : "commercial"}-scenario.webp` : "",
     featured: Boolean(data.featured),
     loanAmount: asString(data.loanAmount || data.loan_amount),
     loanType: asString(data.loanType || data.loan_type),
