@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, type CSSProperties } from "react";
 import { Pause, Play, RotateCcw } from "lucide-react";
 import ProcessCylinder from "./ProcessCylinder";
 import { useProcessSequence } from "@/hooks/use-process-sequence";
@@ -17,9 +17,9 @@ export default function ProcessJourney({ paused }: { paused: boolean }) {
     <div ref={root} className="process-journey" data-stage={sequence.activeStage}>
       <div className="section-header"><div><p className="eyebrow">A clear process</p><h2>How It Works</h2></div><p>Four simple steps to funding success</p></div>
       <ProcessCylinder />
-      <div className="process-steps">{steps.map((step, index) => <div className="process-step" key={step.title} data-active={sequence.activeStage === index}>
+      <div className="process-steps">{steps.map((step, index) => <div className="process-step" key={step.title} data-active={sequence.activeStage === index} style={{ "--process-stage": index + 1 } as CSSProperties}>
         <button className="process-stage-button" type="button" aria-label={`Show ${step.title} stage`} aria-pressed={sequence.activeStage === index} onClick={() => sequence.select(index)}>{String(index + 1).padStart(2, "0")}</button>
-        <div><h3>{step.title}</h3><p>{step.description}</p></div>
+        <div className="process-step-copy"><h3>{step.title}</h3><p>{step.description}</p></div>
       </div>)}</div>
       <div className="process-player">
         <div className="process-sequence-progress" aria-hidden="true"><span /></div>

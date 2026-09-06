@@ -50,18 +50,22 @@ async function snapshot(page) {
     const controls = [...journey.querySelectorAll('button')];
     const textNodes = [...journey.querySelectorAll('.process-step h3,.process-step p')];
     const times = ball.getAnimations().map(a=>({time:a.currentTime,state:a.playState}));
-    return { now:performance.now(), y:transform==='none'?0:new DOMMatrixReadOnly(transform).m42, times, stage:journey.dataset.stage, active:[...journey.querySelectorAll('.process-step')].map(node=>node.dataset.active==='true'), rings:[...svg.querySelectorAll('.process-ring-glow')].map(node=>Number(getComputedStyle(node).opacity)), steps:[...journey.querySelectorAll('.process-step')].map(node=>[node.querySelector('h3')?.textContent.trim(),node.querySelector('p')?.textContent.trim()]), invisible:textNodes.filter(invisible).map(node=>node.textContent.trim()), controlCount:controls.length, hiddenControls:controls.filter(node=>node.closest('[aria-hidden="true"]')).map(node=>node.textContent.trim()), pressed:[...journey.querySelectorAll(selectors.stage)].map(node=>node.getAttribute('aria-pressed')), svg:rect(svg), visual:rect(visual), absoluteTop:rect(visual).top+scrollY, ball:rect(ball), viewBox:svg.getAttribute('viewBox'), scale:{x:shape.a,y:shape.d}, decorative:svg.getAttribute('aria-hidden'), width:innerWidth,height:innerHeight,scrollY,documentWidth:Math.max(document.body.scrollWidth,document.documentElement.scrollWidth) };
+    return { compact:innerWidth<=700&&document.documentElement.dataset.prerenderReady==='true', now:performance.now(), y:transform==='none'?0:new DOMMatrixReadOnly(transform).m42, times, stage:journey.dataset.stage, active:[...journey.querySelectorAll('.process-step')].map(node=>node.dataset.active==='true'), rings:[...svg.querySelectorAll('.process-ring-glow')].map(node=>Number(getComputedStyle(node).opacity)), steps:[...journey.querySelectorAll('.process-step')].map(node=>[node.querySelector('h3')?.textContent.trim(),node.querySelector('p')?.textContent.trim()]), invisible:textNodes.filter(invisible).map(node=>node.textContent.trim()), controlCount:controls.length, hiddenControls:controls.filter(node=>node.closest('[aria-hidden="true"]')).map(node=>node.textContent.trim()), pressed:[...journey.querySelectorAll(selectors.stage)].map(node=>node.getAttribute('aria-pressed')), svg:rect(svg), visual:rect(visual), absoluteTop:rect(visual).top+scrollY, ball:rect(ball), viewBox:svg.getAttribute('viewBox'), scale:{x:shape.a,y:shape.d}, decorative:svg.getAttribute('aria-hidden'), width:innerWidth,height:innerHeight,scrollY,documentWidth:Math.max(document.body.scrollWidth,document.documentElement.scrollWidth) };
   },selectors);
 }
 async function readable(page) {
   const s=await snapshot(page);
   assert.deepEqual(s.steps,expected,'Original four descriptions retained');
-  assert.deepEqual(s.invisible,[],'All stage text remains visible');
+  assert.deepEqual(s.invisible,s.compact?expected.filter((_,index)=>String(index)!==s.stage).flat():[],'Active mobile copy is visible; every desktop/static stage remains visible');
   assert.deepEqual(s.hiddenControls,[],'Controls must be outside aria-hidden SVG wrapper');
   assert.equal(s.decorative,'true'); assert.ok(s.controlCount>=6,'Four stage controls plus replay and pause');
   assert.equal(s.viewBox,'0 0 500 660');
   assert.ok(Math.abs(s.scale.x-s.scale.y)<.001,'SVG scales proportionally');
   assert.ok(s.svg.width>0&&s.svg.width<=500.5&&s.svg.left>=-1&&s.svg.right<=s.width+1,'Cylinder fits viewport');
+  if(s.compact) {
+    const pair=await page.evaluate(()=>{const v=document.querySelector('.process-visual').getBoundingClientRect(),c=document.querySelector('.process-step[data-active="true"] .process-step-copy').getBoundingClientRect();return {overlap:Math.min(v.bottom,c.bottom)-Math.max(v.top,c.top),gap:c.left-v.right};});
+    assert.ok(pair.overlap>0&&pair.gap>=0,'Active title and cylinder remain beside each other');
+  }
   assert.ok(s.documentWidth<=s.width+2,`Horizontal overflow ${s.documentWidth}/${s.width}`);
   return s;
 }
@@ -70,6 +74,7 @@ async function ready(page) {
   await page.locator('.process-cylinder .process-ball').waitFor({state:'attached'});
   await page.waitForFunction(()=>document.documentElement.dataset.prerenderReady==='true',undefined,{timeout:20000});
   await page.evaluate(()=>document.fonts.ready);
+  await page.waitForFunction(()=>document.documentElement.dataset.prerenderReady==='true');
   await readable(page);
 }
 async function show(page) {
@@ -188,9 +193,30 @@ async function responsiveCapture(page,width) {
   const folder=path.join(path.dirname(output),'output','playwright');await fs.mkdir(folder,{recursive:true});
   const screenshot=path.join(folder,`staged-cylinder-${width}.png`);
   await page.locator('.home-process').screenshot({path:screenshot,animations:'allow'});
-  return {width,stage:1,screenshot,scope:'Complete process section with all four HTML descriptions and controls'};
+  return {width,stage:1,screenshot,scope:'Responsive process section with synchronized copy and persistent controls'};
 }
+
+async function compactMobile(page) {
+  await show(page);
+  const heights=[];
+  for(const index of [0,1,2,3]) {
+    await press(page,selectors.stage,index);
+    await assertStage(page,index);await readable(page);
+    const frame=await page.evaluate(()=>{
+      const r=s=>document.querySelector(s).getBoundingClientRect();
+      const v=r('.process-visual'),copy=r('.process-step[data-active="true"] .process-step-copy'),player=r('.process-player'),journey=r('.process-journey');
+      return {height:journey.height,coreHeight:player.bottom-Math.min(v.top,copy.top),width:innerWidth,copyBottom:copy.bottom,controlsTop:r('.process-stage-button').top};
+    });
+    assert.ok(frame.coreHeight<480,'Mobile cylinder, copy and playback fit one compact frame');
+    assert.ok(frame.copyBottom<=frame.controlsTop,'Copy does not overlap selectors');
+    heights.push(frame.height);
+  }
+  assert.ok(Math.max(...heights)-Math.min(...heights)<1,'Selecting stages does not move the page');
+  return {heights};
+}
+
 try {
+  for(const width of [320,390,600]) await test('Compact paired mobile stages '+width+'px',()=>withPage(width,compactMobile,{reduce:true}));
   if(!args.includes('--dev')){await test('No-JS static pose and readable stages',()=>staticCase(false));await test('Delayed-JS preserves cylinder/process nodes',()=>staticCase(true));}
   await test('All four actual timed rests and aligned rings/text',()=>withPage(1440,timedStops));
   await test('Fast mobile scroll cannot skip every stop',()=>withPage(390,noScrollSkip));

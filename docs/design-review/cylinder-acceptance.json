@@ -1,10 +1,10 @@
 {
-  "startedAt": "2026-09-06T04:52:17.711Z",
-  "finishedAt": "2026-09-06T04:53:46.318Z",
+  "startedAt": "2026-09-06T05:24:07.123Z",
+  "finishedAt": "2026-09-06T05:25:34.521Z",
   "base": "http://127.0.0.1:4173/",
   "summary": {
-    "total": 14,
-    "passed": 14,
+    "total": 17,
+    "passed": 17,
     "failed": 0,
     "skipped": 0
   },
@@ -15,6 +15,42 @@
     "Document-hidden behavior needs a separate trusted browser lifecycle test; this suite covers offscreen lifecycle"
   ],
   "results": [
+    {
+      "name": "Compact paired mobile stages 320px",
+      "status": "pass",
+      "details": {
+        "heights": [
+          632.9375,
+          632.9375,
+          632.9375,
+          632.9375
+        ]
+      }
+    },
+    {
+      "name": "Compact paired mobile stages 390px",
+      "status": "pass",
+      "details": {
+        "heights": [
+          604.046875,
+          604.046875,
+          604.046875,
+          604.046875
+        ]
+      }
+    },
+    {
+      "name": "Compact paired mobile stages 600px",
+      "status": "pass",
+      "details": {
+        "heights": [
+          604.046875,
+          604.046875,
+          604.046875,
+          604.046875
+        ]
+      }
+    },
     {
       "name": "No-JS static pose and readable stages",
       "status": "pass",
@@ -40,23 +76,23 @@
         "rests": [
           {
             "stage": 0,
-            "durationMs": 1243,
+            "durationMs": 1209,
             "firstAt": 0
           },
           {
             "stage": 1,
-            "durationMs": 1208,
-            "firstAt": 2229.5999999046326
+            "durationMs": 1101,
+            "firstAt": 2295.899999856949
           },
           {
             "stage": 2,
-            "durationMs": 1106,
-            "firstAt": 4481.299999952316
+            "durationMs": 1207,
+            "firstAt": 4484.099999904633
           },
           {
             "stage": 3,
-            "durationMs": 3106,
-            "firstAt": 6643.599999904633
+            "durationMs": 2543,
+            "firstAt": 6671.899999856949
           }
         ],
         "firstY": 0,
@@ -77,17 +113,17 @@
       "status": "pass",
       "details": {
         "stopped": {
-          "beforeY": 36.8926,
-          "afterY": 36.8926,
+          "beforeY": 23.5863,
+          "afterY": 23.5863,
           "beforeTimes": [
             {
-              "time": 1583.331000135094,
+              "time": 1533.2679999522866,
               "state": "paused"
             }
           ],
           "afterTimes": [
             {
-              "time": 1583.331000135094,
+              "time": 1533.2679999522866,
               "state": "paused"
             }
           ]
@@ -104,13 +140,13 @@
           "afterY": 140,
           "beforeTimes": [
             {
-              "time": 2249.884999999404,
+              "time": 2249.8470001008363,
               "state": "paused"
             }
           ],
           "afterTimes": [
             {
-              "time": 2249.884999999404,
+              "time": 2249.8470001008363,
               "state": "paused"
             }
           ]
@@ -149,13 +185,13 @@
           "afterY": 140,
           "beforeTimes": [
             {
-              "time": 2266.5309999678284,
+              "time": 2249.8910000637175,
               "state": "paused"
             }
           ],
           "afterTimes": [
             {
-              "time": 2266.5309999678284,
+              "time": 2249.8910000637175,
               "state": "paused"
             }
           ]
@@ -196,13 +232,13 @@
           "afterY": 140,
           "beforeTimes": [
             {
-              "time": 2249.9260001059624,
+              "time": 2249.9090000439437,
               "state": "paused"
             }
           ],
           "afterTimes": [
             {
-              "time": 2249.9260001059624,
+              "time": 2249.9090000439437,
               "state": "paused"
             }
           ]
@@ -216,12 +252,12 @@
         "width": 320,
         "documentWidth": 320,
         "svg": {
-          "left": 5,
-          "right": 315,
-          "top": 206.84375,
-          "bottom": 636.84375,
-          "width": 310,
-          "height": 430
+          "left": 20,
+          "right": 148,
+          "top": 262.03125,
+          "bottom": 582.03125,
+          "width": 128,
+          "height": 320
         }
       }
     },
@@ -231,8 +267,8 @@
       "details": {
         "width": 1440,
         "stage": 1,
-        "screenshot": "C:\\Users\\user\\Documents\\EMET design preview\\reports\\output\\playwright\\staged-cylinder-1440.png",
-        "scope": "Complete process section with all four HTML descriptions and controls"
+        "screenshot": "reports\\output\\playwright\\staged-cylinder-1440.png",
+        "scope": "Responsive process section with synchronized copy and persistent controls"
       }
     },
     {
@@ -241,8 +277,8 @@
       "details": {
         "width": 390,
         "stage": 1,
-        "screenshot": "C:\\Users\\user\\Documents\\EMET design preview\\reports\\output\\playwright\\staged-cylinder-390.png",
-        "scope": "Complete process section with all four HTML descriptions and controls"
+        "screenshot": "reports\\output\\playwright\\staged-cylinder-390.png",
+        "scope": "Responsive process section with synchronized copy and persistent controls"
       }
     }
   ]

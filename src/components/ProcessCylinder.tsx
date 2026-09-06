@@ -3,7 +3,7 @@ export default function ProcessCylinder() {
   const levels = [110, 250, 390, 530];
   return (
     <div className="process-visual" aria-hidden="true">
-      <svg className="process-cylinder" viewBox="0 0 500 660" fill="none" focusable="false" aria-hidden="true">
+      <svg className="process-cylinder" viewBox="0 0 500 660" preserveAspectRatio="xMidYMid slice" fill="none" focusable="false" aria-hidden="true">
         <defs>
           <linearGradient id="cylinder-glass" x1="140" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
             <stop stopColor="#d8e8d8" stopOpacity=".1" /><stop offset=".3" stopColor="#d8e8d8" stopOpacity=".015" /><stop offset=".8" stopColor="#d8e8d8" stopOpacity=".04" /><stop offset="1" stopColor="#d8e8d8" stopOpacity=".13" />
