@@ -145,7 +145,7 @@ Then we compare structures. Debtor finance may be the cleanest option where invo
 
 The aim is not to find the fastest lender at any cost. It is to place the file with a lender that understands the transaction and can assess the real risk.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Debtor concentration working capital finance in Australia is commercial funding considered when an SME relies heavily on one or two customers and a delayed payment creates a cash-flow gap. Lenders assess debtor quality, invoice evidence, payment history, disputes, borrower conduct, security, and exit strategy. Finance may help where the receivable is verified and the repayment pathway is realistic, but it can add risk if the invoice is disputed or the business has no credible cash-flow recovery plan.
 

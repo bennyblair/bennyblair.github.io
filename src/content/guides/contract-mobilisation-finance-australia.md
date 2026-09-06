@@ -112,7 +112,7 @@ In that scenario, the lender may assess the contract, margin, counterparty, bank
 
 The key is to avoid treating the contract value as cash already received. A large contract can still strain the business if costs arrive first and payment terms are slow.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Contract mobilisation finance in Australia is short-term business funding used to cover the upfront costs of delivering a new contract before customer payments arrive. It is most suitable where an SME has a signed contract or purchase order, clear delivery costs, identifiable payment milestones, and a realistic repayment pathway. It is higher risk when the contract is speculative, low-margin, delayed, disputed, or dependent on unfunded growth.
 

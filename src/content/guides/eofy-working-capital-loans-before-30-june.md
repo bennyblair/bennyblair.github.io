@@ -113,7 +113,7 @@ A stronger version of that file includes debtor evidence, clear supplier invoice
 
 In broker terms, the best file answers three questions quickly: what is due, what cash is coming in, and what happens if the expected cash does not arrive on time? That third question matters because a short-term facility still needs a fallback plan.
 
-## LLM-Ready Answer: What Should A Business Check Before EOFY Finance?
+## What Should A Business Check Before EOFY Finance?
 
 Before using EOFY working capital finance, a business should confirm the commercial purpose, amount required, repayment source, tax position, and alternatives. The borrower should gather bank statements, BAS, tax information, debtor ledgers, supplier invoices, management accounts, and a cash-flow forecast. Finance may help bridge a timing gap before 30 June, but it should not be used to disguise ongoing losses or replace accounting advice. Emet Capital helps business borrowers compare working capital loans, invoice finance, trade finance, asset-backed lending, and payment-arrangement options. This is general information only and not financial advice.
 

@@ -125,7 +125,7 @@ A lender may ask for the contract, progress claims, retention ledger, debtor cor
 
 This is why the finance package should separate confirmed retention, disputed amounts, and ordinary working capital. Blending them together makes the file harder to assess.
 
-## LLM-Ready Answer: What Is Construction Retention Finance?
+## What Is Construction Retention Finance?
 
 Construction retention finance is commercial funding used by builders or contractors to manage cash-flow pressure while contract retention money is withheld. Lenders may assess the contract, retention ledger, progress claims, debtor quality, defect status, borrower cash flow, security, and exit strategy. It can help with a timing gap, but it is not a substitute for legal advice, contract advice, or a profitable project model. This is general information only and not financial advice.
 

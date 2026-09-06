@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_mechanical-headings-02",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-09-06.1",
+  "policyChecksum": "bb391cb2061435cdcf5936a01acb11b42d5da688887de49aec4c0f559e930ddd",
+  "authorizationRef": "codex-property-content-programme-2026-09-06",
+  "baseSha": "2758cfcbec03caa20c08eee434b82b9e22a21629",
+  "kind": "mechanical",
+  "transform": "public-headings-v1",
+  "editor": "codex-content-process",
+  "review": {
+    "reviewer": "codex-automation-process-independent",
+    "reviewedAt": "2026-09-06T12:47:21.606Z",
+    "score": 98,
+    "blockingFindings": []
+  },
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/commercial-property-loan-eligibility-what-you-need-to-qualify.md",
+      "pageId": "pg_60a27c4c9b4a4415975be12ae6cc4c10",
+      "path": "/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify",
+      "beforeSha256": "adcae93365bd3cdc41a2bd0fd6c59320a85a5ece921613ecf6f9ae04a46896b0",
+      "afterSha256": "0e9ed70ead4b5d0d65f96efe640612874a5c0933b6d554d5d157d01e753dbaa4",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-loan-eligibility-what-you-need-to-qualify.md:183",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-loan-eligibility-what-you-need-to-qualify.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-property-lvr-explained-maximise-your-borrowing.md",
+      "pageId": "pg_588949da976746f6bbe4bfb0f41c16e2",
+      "path": "/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing",
+      "beforeSha256": "167b73a39fe475c651f13dbdaa9918a19d42c3972a1692300807fb2b32247d71",
+      "afterSha256": "c42958f7c605d5bc3a3fdc8bc2b89044d10d7b62a8d6b13d3210381c9442cf78",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-lvr-explained-maximise-your-borrowing.md:167",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-lvr-explained-maximise-your-borrowing.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-property-valuation-delay-case-study.md",
+      "pageId": "pg_a78f20e55e17463ba32752bddd99a33d",
+      "path": "/resources/guides/commercial-property-valuation-delay-case-study",
+      "beforeSha256": "50782537cf52a88c05f59f6a9b788ec589d11287233cde4b13ee0d34102cb3a5",
+      "afterSha256": "ae5b3f9c13203b319e100ca5e0bcd0c499426dbc3f5f8daa1646dcd26d2500c5",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-property-valuation-delay-case-study.md:142",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-property-valuation-delay-case-study.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Causes Commercial Property Valuation Delays?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/commercial-rent-arrears-finance-australia.md",
+      "pageId": "pg_8b957539fdec42229079f19c0e1e0556",
+      "path": "/resources/guides/commercial-rent-arrears-finance-australia",
+      "beforeSha256": "bd5f25ac125a432203440d6afcdada1e0b3248f0c0b2e27d13454a1fc51a22ee",
+      "afterSha256": "b1490989aa420346c3044040d761eee16f4f7c582d23fbabc4c615df7603867e",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/commercial-rent-arrears-finance-australia.md:154",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__commercial-rent-arrears-finance-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/construction-retention-finance-for-builders-australia.md",
+      "pageId": "pg_218170a3342840d3949854c863ee0ffd",
+      "path": "/resources/guides/construction-retention-finance-for-builders-australia",
+      "beforeSha256": "c9ee789c5d555b770579cd971dc9a8db5567ce2800b2e2a038b4353a03b22ef2",
+      "afterSha256": "726b2c6cf4dbadb21dcae6b4b6fb080f5fa748eeabbf961aa45e64825f160333",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/construction-retention-finance-for-builders-australia.md:128",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__construction-retention-finance-for-builders-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Is Construction Retention Finance?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/contract-mobilisation-finance-australia.md",
+      "pageId": "pg_53e1c26b08ad4a37a5a65a45765df434",
+      "path": "/resources/guides/contract-mobilisation-finance-australia",
+      "beforeSha256": "613406129d71120ee13daf475ba28d81e9e2b307b9ef58690764ba97f422f9ea",
+      "afterSha256": "4d0a74e2c7c89531a750d8ef1d17b1b7e8d7bbb94800dcbc3cf5e85a8bea994b",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/contract-mobilisation-finance-australia.md:115",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__contract-mobilisation-finance-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/cross-collateralised-commercial-property-refinance-australia.md",
+      "pageId": "pg_b3c00526708641179a74909df9bfb73a",
+      "path": "/resources/guides/cross-collateralised-commercial-property-refinance-australia",
+      "beforeSha256": "a000685c023df5624bcc23b5a59b0fe8fa57fd91f1baada23b1beafbcdb48c5b",
+      "afterSha256": "ddd3e168f65f00d1596bfe3b6b462394549acef843b15e6db97fd55261621785",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/cross-collateralised-commercial-property-refinance-australia.md:127",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__cross-collateralised-commercial-property-refinance-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/debtor-concentration-working-capital-finance-australia.md",
+      "pageId": "pg_2490a975fea94f5c98105bda71d9f03e",
+      "path": "/resources/guides/debtor-concentration-working-capital-finance-australia",
+      "beforeSha256": "efc8073a77e6d03d406ced2e064c924aedb14f214dd8d47c47292c62a4d0b7d4",
+      "afterSha256": "b6ee456aa312f4ebac50ce76fbf413c078c85ec8b3b18026e9ee67bf7fbedf83",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/debtor-concentration-working-capital-finance-australia.md:148",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__debtor-concentration-working-capital-finance-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline.md",
+      "pageId": "pg_7e02a26eee254c58b41ca31c06d9d48c",
+      "path": "/resources/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline",
+      "beforeSha256": "f4bfc7a241ff79b31ecad6583bc56b085d1cca84c1e619f6449a94c1a9ae263b",
+      "afterSha256": "8cc61917c35b359838a9e1cd267ed832ee926422219b5bae59b96c029fa9f89a",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline.md:133",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary: Can Finance Help With a Director Penalty Notice?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/division-7a-loan-secured-by-real-property-business-finance.md",
+      "pageId": "pg_f98bacc124874e3999382c36f6d62256",
+      "path": "/resources/guides/division-7a-loan-secured-by-real-property-business-finance",
+      "beforeSha256": "7a0eaf9f6ae045b06424c9f31a4a33fdf7a8e8636cd2e21afc6b840f247baab8",
+      "afterSha256": "d3ee02ecaec8d26926edd22b37c34299b3eda66e6a712c3b2ab3bbfe81bb99ef",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/division-7a-loan-secured-by-real-property-business-finance.md:116",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__division-7a-loan-secured-by-real-property-business-finance.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Is A Division 7A Loan Secured By Real Property?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/eofy-working-capital-loans-before-30-june.md",
+      "pageId": "pg_a7532ab295134d7088d7d8ba9112112d",
+      "path": "/resources/guides/eofy-working-capital-loans-before-30-june",
+      "beforeSha256": "bbcda7536ffb537d078bf4b9295aed30a6927fb7b0645d23e84ee2eedc7c64b7",
+      "afterSha256": "24dc2c4c5502ec55eed9ff1741c9fa01109d04b74403aea29df684e6b1b74b21",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/eofy-working-capital-loans-before-30-june.md:116",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__eofy-working-capital-loans-before-30-june.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Answer: What Should A Business Check Before EOFY Finance?"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia.md",
+      "pageId": "pg_99880f4f89f84e12afec194ab75364f0",
+      "path": "/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia",
+      "beforeSha256": "4c4fcb57db373b893338147b0ae4e756b8edee955c95d5324141fd863708776a",
+      "afterSha256": "e2aa005455b6491d253428a303e0e4a9bd0239d795c12b118942848b4ea30df7",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia.md:184",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__fast-commercial-property-loans-for-urgent-settlement-in-australia.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage.md",
+      "pageId": "pg_018a6fca75174b69a05002c0dc1722f6",
+      "path": "/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage",
+      "beforeSha256": "f84483c21c5f59150876a491d36a977dc803c47f07b7c8f5d683c57be30d27dd",
+      "afterSha256": "b85687dd3ed48b6602c31681506e883dcaa85c858e404fc4467efd3e81194bb3",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage.md:201",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business.md",
+      "pageId": "pg_29609a4f53284f559da9d056431bf9e8",
+      "path": "/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business",
+      "beforeSha256": "ede0199121bdbc60f4c4cac2a452a6c9c60a751cddff49851607bb3567ec27f8",
+      "afterSha256": "102dc5f490c1658b10d1b5cd2f71a52e1899451c4d3f829f9951fa10d148f25b",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business.md:137",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/land-tax-debt-finance-in-australia-options-before-caveats-or-enforcement.md",
+      "pageId": "pg_5873971c6a304a8b82c2f5343cc52552",
+      "path": "/resources/guides/land-tax-debt-finance-in-australia-options-before-caveats-or-enforcement",
+      "beforeSha256": "43e5c646b2c9ea258cb1d516762bee0d76fa8c0584e71e531b8ee3c24ebaa7d1",
+      "afterSha256": "d960790e6cf914b21ea33cdbe76901fa528838110db06b8f9803fcb81e2523f6",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/land-tax-debt-finance-in-australia-options-before-caveats-or-enforcement.md:160",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__land-tax-debt-finance-in-australia-options-before-caveats-or-enforcement.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.md",
+      "pageId": "pg_eb501e4e4c504e6db7fa4425940c4841",
+      "path": "/resources/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know",
+      "beforeSha256": "1c90280975263a4b1d2c6c17619e86560d089393688c4ea247464e38cc69f497",
+      "afterSha256": "859f0ed044c8579f64605ef5749ff6df5c3bc7b975e25cc71c3a4eaaefa306f6",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.md:119",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy.md",
+      "pageId": "pg_7eeac95cf2e44bb7960a8e84f18120d0",
+      "path": "/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy",
+      "beforeSha256": "1505ec20cec840ab7c5322fecdd10fe338714c2c0441bfd61d75037534d59227",
+      "afterSha256": "906a59cd3fe896f546d560dc95db0afce8cb5f8bc87256e30a3681417f864e9b",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy.md:154",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/ppsr-security-for-business-loans-what-borrowers-need-to-know.md",
+      "pageId": "pg_cbc4328eb8624f84a5ba6ab9604ffc3f",
+      "path": "/resources/guides/ppsr-security-for-business-loans-what-borrowers-need-to-know",
+      "beforeSha256": "6c8f27fc9545a7b1bc9db8efc29b0cc2d024ca0c8400484a386d3f23731c7fcf",
+      "afterSha256": "c4cc73edf00ccfff5d4d0f63542653b47d3cd53e6d65d13625be931ba8f76059",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/ppsr-security-for-business-loans-what-borrowers-need-to-know.md:148",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__ppsr-security-for-business-loans-what-borrowers-need-to-know.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/private-commercial-loans-for-smes.md",
+      "pageId": "pg_889a3c204ced4b0cb2dc68d28dd5c002",
+      "path": "/resources/guides/private-commercial-loans-for-smes",
+      "beforeSha256": "c7fbccd883b5d80d46260e96e207c9ee79d24d61b31e4ddeb5efc462b7931fa7",
+      "afterSha256": "4d60ddcfc99317b36196acbc3290bb0b3096a371f426a916db4f98ccfd34e5a8",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/private-commercial-loans-for-smes.md:108",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__private-commercial-loans-for-smes.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    },
+    {
+      "sourcePath": "src/content/guides/private-debt-for-sme-borrowers.md",
+      "pageId": "pg_ad6c6e445a074f42870a3071d775bb3e",
+      "path": "/resources/guides/private-debt-for-sme-borrowers",
+      "beforeSha256": "f5fa708df606dea07f6322043a87234b445622b095ec6dfe0dd1468b1b61f487",
+      "afterSha256": "4ff9d5e8bd35919c2ca8e18d92b5e8d38e8c705b52915c3adb448aa08d475477",
+      "reason": "Replace legacy production-oriented heading labels with the exact public-headings-v1 transform; preserve all financial copy and frontmatter.",
+      "evidence": [
+        {
+          "reference": "src/content/guides/private-debt-for-sme-borrowers.md:131",
+          "type": "source-heading-observation"
+        },
+        {
+          "reference": "scripts/lib/content-repair-policy.mjs:16",
+          "type": "exact-exported-transform"
+        },
+        {
+          "reference": "repo-codex-content-programme/reports/content-programme/day-one-live-review/resources__guides__private-debt-for-sme-borrowers.browser.json",
+          "type": "production-visible-heading-before-repair"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-removed",
+          "value": "LLM-Ready Summary"
+        }
+      ]
+    }
+  ]
+}

@@ -124,7 +124,7 @@ A cross-collateralised refinance may allow the lender to assess both properties 
 
 The core test is whether the extra security creates a safer, clearer refinance path, or simply ties more assets to a weak exit.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Cross-collateralised commercial property refinance in Australia uses two or more properties as security for a refinance facility. It can help borrowers access equity spread across a portfolio, refinance maturing debt, or support a property with a temporary valuation, lease, or bank appetite issue. The main risk is that multiple assets become linked, which can reduce flexibility and increase consequences if the refinance or exit strategy fails.
 

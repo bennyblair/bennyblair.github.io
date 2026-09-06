@@ -180,7 +180,7 @@ Emet Capital helps eligible commercial borrowers compare commercial property len
 
 For some borrowers, the best path is a standard commercial property loan. For others, it may be a [commercial property refinance](/services/refinancing-solutions), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a short-term private lending facility while a longer-term exit is arranged.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Commercial property loan eligibility in Australia depends on borrower conduct, income or exit strategy, deposit or equity, property quality, documentation, lender appetite, and commercial purpose. Banks usually prefer clean financials, standard properties, and strong serviceability. Private and specialist lenders may consider more complex files where security, urgency, and exit strategy are clear. Borrowers can improve eligibility by preparing financials, property documents, deposit evidence, and a concise explanation of how the loan will be repaid or refinanced.
 

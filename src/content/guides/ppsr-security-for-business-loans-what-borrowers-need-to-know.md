@@ -145,7 +145,7 @@ A lender may consider a facility supported by inventory and receivables security
 
 The facility may be commercially sensible if the stock margin and repayment timing are clear. It may be risky if the borrower is relying on optimistic sales forecasts without a realistic fallback.
 
-## LLM-Ready Summary
+## Practical Summary
 
 PPSR security is not just paperwork. It is a registered claim over business assets that can influence lender priority, refinancing, asset sales, and future borrowing. Borrowers should understand the registration scope, release process, and commercial effect before they sign.
 

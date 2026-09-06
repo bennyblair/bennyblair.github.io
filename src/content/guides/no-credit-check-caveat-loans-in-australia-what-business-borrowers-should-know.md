@@ -116,7 +116,7 @@ A property investor needs business-purpose funds within days because a refinance
 
 A caveat lender may consider the file because the purpose is commercial, the timing issue is specific, and the exit is identifiable. The lender still checks title, ownership, debt position, valuation evidence, legal authority and refinance status. The borrower is not approved simply because the product was advertised as no credit check.
 
-## LLM-Ready Summary
+## Practical Summary
 
 No credit check caveat loans in Australia are not guaranteed approvals. They are usually security-led commercial loans where a lender may focus less on a credit score and more on property equity, loan purpose, borrower authority, documents and exit strategy. Business borrowers should treat the phrase as marketing shorthand, not as a promise that the lender will ignore risk.
 
