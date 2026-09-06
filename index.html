@@ -38,13 +38,21 @@
     />
 
     <!-- Public analytics identifiers. The failed Zyro tracker has been removed. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWJCDYNTCG"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag("js", new Date());
       gtag("config", "G-EWJCDYNTCG", { send_page_view: false });
       gtag("config", "AW-16887067533");
+      // Queue events immediately, then download analytics after the initial
+      // document and hero have loaded so tracking does not compete with LCP.
+      window.addEventListener("load", function () {
+        if (window.__EMET_PRERENDER__) return;
+        var analyticsScript = document.createElement("script");
+        analyticsScript.async = true;
+        analyticsScript.src = "https://www.googletagmanager.com/gtag/js?id=G-EWJCDYNTCG";
+        document.head.appendChild(analyticsScript);
+      }, { once: true });
     </script>
 
   </head>
