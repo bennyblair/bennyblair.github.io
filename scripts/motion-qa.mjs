@@ -71,7 +71,10 @@ async function snapshot(page, selector = '.home-hero') {
       if (node.closest('.motion-toggle') && matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
       // The compact mobile player pairs one stage's copy with the cylinder.
       // All four stage selectors remain visible; cylinder-qa exercises each one.
-      if (document.documentElement.dataset.prerenderReady === 'true' && matchMedia('(max-width: 700px)').matches && node.closest('.process-step[data-active="false"] .process-step-copy')) return false;
+      if (document.documentElement.dataset.processLayout === 'compact' && matchMedia('(max-width: 700px)').matches && node.closest('.process-step[data-active="false"] .process-step-copy')) return false;
+      // The current production enquiry shows one step at a time; the form
+      // contract and cold-load suites exercise both panels independently.
+      if (node.closest('.transaction-enquiry fieldset[hidden]')) return false;
       const hiddenAncestor = node.closest('[hidden]');
       if (hiddenAncestor?.querySelector('input[name="bot-field"]')) return false;
       return true;
@@ -98,7 +101,7 @@ async function snapshot(page, selector = '.home-hero') {
       iterations: animation.effect.getTiming().iterations,
       properties: [...new Set(animation.effect.getKeyframes().flatMap(frame => Object.keys(frame)))].filter(key => !['offset', 'computedOffset', 'easing', 'composite'].includes(key)),
     }));
-    return { problems: [...new Set(problems)], heading: heading?.textContent.trim(), bounds: heading ? bounds(heading) : null, animations, mainText: (() => { const content = document.querySelector('main')?.cloneNode(true); content?.querySelectorAll('.motion-toggle,.process-player').forEach(node => node.remove()); return content?.textContent.replace(/\s+/g, ' ').trim(); })() };
+    return { problems: [...new Set(problems)], heading: heading?.textContent.trim(), bounds: heading ? bounds(heading) : null, animations, mainText: (() => { const content = document.querySelector('main')?.cloneNode(true); content?.querySelectorAll('.motion-toggle,.process-player,.transaction-enquiry > p[aria-live]').forEach(node => node.remove()); return content?.textContent.replace(/\s+/g, ' ').trim(); })() };
   }, selector);
 }
 

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { spawn } from "node:child_process";
+import { stripVTControlCharacters } from "node:util";
 import { chromium, type Browser, type Page } from "playwright";
 import { buildContentIndex } from "./lib/content-index.mjs";
 import { getIndexableStaticRoutes, isRedirectSource } from "../src/config/site-route-manifest";
@@ -70,7 +71,17 @@ function finalizePrerenderedHtml(html: string, isHomepage = false) {
     // image bandwidth before enhancement modules without delaying activation.
     result = result
       .replace(/<script(?=[^>]*type="module")/g, '<script fetchpriority="low"')
-      .replace(/<link(?=[^>]*rel="modulepreload")/g, '<link fetchpriority="low"');
+      .replace(/<link\b(?=[^>]*rel="modulepreload")[^>]*>/g, "");
+    // Avoid a separate blocking CSS round trip on the main landing page.
+    // Use the exact built stylesheet, retaining every responsive/focus rule;
+    // inner pages keep the cacheable external stylesheet.
+    result = result.replace(/<link\b(?=[^>]*rel="stylesheet")[^>]*>/g, (tag) => {
+      const href = tag.match(/href="(\/assets\/[^"?#]+\.css)"/)?.[1];
+      if (!href) return tag;
+      const css = fs.readFileSync(path.join(distDir, href.slice(1)), "utf8");
+      if (/<\/style/i.test(css)) throw new Error("Built stylesheet cannot be inlined safely");
+      return `<style data-emet-home-styles="${href}">${css}</style>`;
+    });
   }
   if (!isHomepage) result = result.replace(/<link\b(?=[^>]*rel="preload")(?=[^>]*as="image")[^>]*>/gi, "");
   if (result.includes(baseUrl)) throw new Error(`prerendered HTML contains preview origin ${baseUrl}`);
@@ -206,9 +217,12 @@ async function main() {
     stdio: ["ignore", "pipe", "pipe"],
   });
   let previewErrors = "";
+  let previewOutput = "";
   let previewReady = false;
   preview.stdout.on("data", (chunk) => {
-    if (String(chunk).includes(baseUrl)) previewReady = true;
+    // CI colour codes can split the URL, and stream chunks can split a line.
+    previewOutput += String(chunk);
+    if (stripVTControlCharacters(previewOutput).includes(baseUrl)) previewReady = true;
   });
   preview.stderr.on("data", (chunk) => {
     previewErrors += String(chunk);
