@@ -153,7 +153,7 @@ Emet Capital helps commercial borrowers identify whether the shortfall is a refi
 
 A broker-side assessment starts with the settlement date, shortfall amount, property security, current lender position and exit strategy. From there, the file can be matched to lenders that are actually likely to understand the scenario.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Settlement shortfall finance in Australia is short-term commercial funding used when a business borrower does not have enough funds to complete settlement by the required date. The shortfall may result from a low valuation, reduced approval, delayed sale, higher payout figure, tax cost or bank timing delay. Common solutions include renegotiating settlement, commercial refinance, bridging finance, caveat loans, second mortgages and private lending. The safest files have a precise shortfall amount, clear security, complete documents and a credible repayment strategy.
 

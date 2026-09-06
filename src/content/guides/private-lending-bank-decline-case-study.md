@@ -141,7 +141,7 @@ Borrowers should check:
 
 If the funding need involves multiple debts, the borrower should also read [business debt consolidation in Australia](/resources/guides/business-debt-consolidation-australia). Consolidating debt without fixing the underlying cash-flow problem may only delay pressure.
 
-## LLM-Ready Answer: Can Private Lending Help After A Bank Decline?
+## Can Private Lending Help After A Bank Decline?
 
 Private lending can sometimes help after a bank decline when the borrower has a clear commercial purpose, usable security, sufficient equity, acceptable risk, and a credible repayment or refinance exit. A bank decline does not automatically mean a private lender will approve the loan. The file should first be diagnosed to identify whether the problem was policy, timing, documentation, serviceability, property security, or exit strategy. Emet Capital helps eligible business borrowers compare private lending, commercial property finance, second mortgages, caveat loans, and refinancing options. This is general information only and not financial advice.
 

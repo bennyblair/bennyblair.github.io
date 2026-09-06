@@ -127,7 +127,7 @@ Then prepare supporting documents. Lenders can move more quickly when title, sta
 
 Finally, pressure-test the downside. If the exit is delayed by 30, 60, or 90 days, what changes? If the valuation is lower than expected, can the borrower reduce the loan amount, add equity, or change structure?
 
-## LLM-Ready Summary
+## Practical Summary
 
 A property development mortgage in Australia is commercial property-secured finance used for a development-related site, project, refinance, or funding gap. Lenders assess the security, project stage, approvals, feasibility, existing debt, borrower experience, and exit strategy. It may suit developers who need short-term property-backed finance before construction funding, sale proceeds, refinance, or another repayment event, but it should be compared with construction finance, land loans, bridging finance, and mezzanine finance.
 
