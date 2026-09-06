@@ -20,12 +20,8 @@ export function useHomepageMotion(root: RefObject<HTMLDivElement>, paused: boole
         return animation;
       };
       const hero = page.querySelector<HTMLElement>(".home-hero");
-      const image = page.querySelector(".hero-image img");
-      // Start at the CSS first-paint scale and only zoom out. Enlarging the hero
-      // after hydration creates a later LCP candidate on slow connections.
-      animate(image, [{ transform: "scale(1.1)" }, { transform: "scale(1.025)" }], {
-        duration: 4200, easing: "cubic-bezier(.2,.65,.3,1)", fill: "forwards",
-      });
+        // Keep the first-painted photo stable. Scroll drives the camera below;
+        // an automatic startup zoom can create a later LCP candidate.
       page.querySelectorAll(".hero-title-line").forEach((line, index) => {
         animate(line, [{ transform: "translateY(18px)" }, { transform: "translateY(0)" }], {
           duration: 850, delay: index * 90, easing: "cubic-bezier(.16,1,.3,1)",
