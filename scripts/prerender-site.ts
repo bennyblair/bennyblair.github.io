@@ -65,6 +65,13 @@ function finalizePrerenderedHtml(html: string, isHomepage = false) {
   // Ship the full stylesheet and normal module script: content and navigation
   // must work immediately, without a gesture-triggered activation phase.
   let result = html.replaceAll(`${baseUrl}/assets/`, "/assets/");
+  if (isHomepage) {
+    // The complete home page is already rendered. Give its high-priority hero
+    // image bandwidth before enhancement modules without delaying activation.
+    result = result
+      .replace(/<script(?=[^>]*type="module")/g, '<script fetchpriority="low"')
+      .replace(/<link(?=[^>]*rel="modulepreload")/g, '<link fetchpriority="low"');
+  }
   if (!isHomepage) result = result.replace(/<link\b(?=[^>]*rel="preload")(?=[^>]*as="image")[^>]*>/gi, "");
   if (result.includes(baseUrl)) throw new Error(`prerendered HTML contains preview origin ${baseUrl}`);
   return result;
