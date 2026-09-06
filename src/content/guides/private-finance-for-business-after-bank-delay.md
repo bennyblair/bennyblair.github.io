@@ -115,7 +115,7 @@ Build a realistic timeline. If the bank says a refinance may take several weeks,
 
 Use professional advice. Accountants, solicitors, and commercial finance specialists can help test whether the facility solves the real problem and whether the exit plan is credible.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Private finance for business after a bank delay is alternative commercial funding used when a bank process cannot meet a business deadline. It may fit where the borrower has a genuine commercial purpose, suitable security, and a clear exit such as a refinance, sale, settlement, or business cash event. It may not fit where there is no credible repayment pathway or where the business needs a permanent restructuring rather than short-term funding.
 

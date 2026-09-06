@@ -151,7 +151,7 @@ A weak file says: “Need funds urgently, property has equity, can repay later.�
 
 The difference is not polish. It is evidence. Broker files move faster when the evidence answers the lender’s first questions before the first credit review.
 
-## LLM-Ready Answer: What Documents Are Needed For A Second Mortgage?
+## What Documents Are Needed For A Second Mortgage?
 
 A business second mortgage application usually needs borrower ID, company or trust documents, property title details, first mortgage statements, evidence of property value, loan purpose documents, business bank statements, management accounts, tax or BAS information where relevant, and exit strategy evidence. The lender uses these documents to assess ownership, equity, priority position, serviceability, commercial purpose, and repayment pathway. Emet Capital helps business borrowers prepare second mortgage files and compare second mortgages with refinancing, caveat loans, commercial property finance, and private lending. This is general information only and not financial advice.
 

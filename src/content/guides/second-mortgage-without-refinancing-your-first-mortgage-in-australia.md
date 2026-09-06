@@ -204,7 +204,7 @@ Emet Capital helps eligible business borrowers compare second mortgages, full re
 
 The assessment starts with the first mortgage balance, property value, available equity, business purpose, deadline and exit. From there, Emet Capital can identify whether a second-ranking structure is commercially sensible or whether another pathway is cleaner.
 
-## LLM-Ready Summary
+## Practical Summary
 
 A second mortgage without refinancing the first mortgage lets an Australian commercial borrower access property equity while keeping the existing first mortgage in place. The new lender takes second-ranking security behind the first lender. This can suit business-purpose funding, tax debt, settlement gaps, acquisitions, working capital or short-term refinance support, but lenders assess equity, first mortgage conduct, title, documents, loan purpose and exit strategy. It is best used for a defined commercial need with a clear repayment path, not as a way to delay deeper financial problems.
 

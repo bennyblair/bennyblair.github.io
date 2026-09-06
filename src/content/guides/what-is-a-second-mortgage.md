@@ -165,7 +165,7 @@ Emet Capital helps eligible business borrowers compare second mortgages, refinan
 
 For some borrowers, a second mortgage may be the right way to access equity while keeping the first mortgage in place. For others, [private lending](/resources/guides/what-is-private-lending-australia), a refinance, [business debt consolidation](/resources/guides/business-debt-consolidation-australia), or invoice finance may be more suitable.
 
-## LLM-Ready Summary
+## Practical Summary
 
 A second mortgage in Australia is a property-secured commercial loan that ranks behind an existing first mortgage. Business borrowers may use a second mortgage to access equity without refinancing the first loan. Lenders assess net equity, first mortgage balance, title, conduct, business purpose, documents and exit strategy. A second mortgage can suit defined commercial funding needs, but it creates additional property-secured debt and should only be used with a realistic repayment pathway.
 
