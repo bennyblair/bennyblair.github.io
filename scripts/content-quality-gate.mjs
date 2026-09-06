@@ -9,6 +9,7 @@ import {
   resolveDesignatedService,
 } from "./lib/seo-policy.mjs";
 import { isInternalLinkOnlyChange } from "./lib/content-change-policy.mjs";
+import { isExactEditorialMigration } from "./lib/content-repair-policy.mjs";
 import { validateArticlePublicationContract } from "./lib/article-publication-contract.mjs";
 import { readPublicImageInfo } from "./lib/image-metadata.mjs";
 
@@ -20,8 +21,6 @@ const safeRepoRoot = repoRoot.replaceAll("\\", "/");
 const highRiskPattern =
   /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b/i;
 const timeSensitivePattern = /\b(?:current|today|this month|202[4-9]|rate|interest|regulation|tax)\b/i;
-const legacyEditorialPattern = /\b(?:LLM[\s-]*Readiness|AI[\s-]*Readiness|Citation[\s-]*Ready|QA (?:Summary|Snapshot|Check|Notes?)|SEO QA|Editorial Checklist|Prompt (?:Notes?|Output))\b/i;
-const retiredLogoPattern = /https?:\/\/(?:www\.)?emetcapital\.com\.au\/(?:logo\.png|static\/logo\.png|images\/logo\.png)/i;
 
 function execGit(args, options = {}) {
   return execFileSync("git", ["-c", `safe.directory=${safeRepoRoot}`, ...args], {
@@ -86,10 +85,7 @@ function changedContentFiles() {
         if (isInternalLinkOnlyChange(previous, current)) linkOnlyChanges += 1;
         else {
           materialChanges.add(absolute);
-          if (
-            (legacyEditorialPattern.test(previous) && !legacyEditorialPattern.test(current))
-            || (retiredLogoPattern.test(previous) && !retiredLogoPattern.test(current))
-          ) {
+          if (isExactEditorialMigration(previous, current)) {
             editorialMigrations.add(absolute);
           }
         }
@@ -183,10 +179,9 @@ for (const article of parsed) {
     for (const issue of publication.warnings) warnings.push(`${relative}: ${issue}`);
   } else {
     warnings.push(`${relative}: legacy public-label cleanup is exempt from full contract backfill until substantive review`);
-    // This exception is deliberately narrow: the diff classifier only adds a file
-    // when it removes an existing public production label or retired logo. Baseline
-    // title, description, author, length and structure checks above still run, while
-    // source/reviewer/image backfill waits for that page's substantive review wave.
+    // Only an exact, trusted editorial transformation qualifies. Removing a label
+    // alongside an arbitrary prose/financial rewrite still receives the full gate.
+    // Baseline checks above remain active; this does not attest to financial review.
     continue;
   }
 

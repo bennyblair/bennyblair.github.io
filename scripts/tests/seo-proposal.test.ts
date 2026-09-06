@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import test from "node:test";
 import { checksum } from "../lib/seo-control-plane.mjs";
-import { calculateArticleQualityScore, calculateOpportunityScore, validateArticleQualityReview, validateProposal } from "../lib/seo-proposal.mjs";
+import { calculateArticleQualityScore, calculateOpportunityScore, validateArticleQualityReview, validateAutomationPolicy, validateProposal } from "../lib/seo-proposal.mjs";
 
 function automationPolicy() {
   const policy = {
@@ -9,7 +10,8 @@ function automationPolicy() {
     policyId: "daily-content-automerge",
     version: "2026-08-24.1",
     status: "active",
-    cadence: { days: ["Tuesday", "Thursday"], articlesPerRun: 1, articlesPerWeek: 2 },
+    timezone: "Australia/Sydney",
+    cadence: { days: ["Monday", "Wednesday", "Friday"], localTime: "10:00", articlesPerRun: 1, articlesPerWeek: 3 },
     authority: {
       allowedRisk: "R2",
       exactArticlesPerChange: 1,
@@ -161,4 +163,29 @@ test("borderline proposals require an exception and low scores are rejected", ()
   assert.match(validateProposal(proposal({ score: borderlineScore })).errors.join(" "), /exception reason/);
   const lowScore = { ...borderlineScore, components: { ...borderlineScore.components, commercialFit: 0, demonstratedDemand: 0 }, total: 45 };
   assert.match(validateProposal(proposal({ score: lowScore })).errors.join(" "), /below 55/);
+});
+
+
+test("versioned cadence comes from policy while retaining one article per release", () => {
+  const current = JSON.parse(fs.readFileSync("data/seo-content-automation-policy.json", "utf8"));
+  assert.deepEqual(validateAutomationPolicy(current).errors, []);
+  assert.deepEqual(current.cadence, { days: ["Monday", "Wednesday", "Friday"], localTime: "10:00", articlesPerRun: 1, articlesPerWeek: 3 });
+  for (const cadence of [
+    { ...current.cadence, days: ["Monday", "Monday"] },
+    { ...current.cadence, days: ["Someday"] },
+    { ...current.cadence, articlesPerWeek: 4 },
+    { ...current.cadence, articlesPerRun: 2, articlesPerWeek: 6 },
+    { ...current.cadence, localTime: "25:00" },
+  ]) {
+    const invalid = { ...current, cadence, checksum: undefined };
+    invalid.checksum = checksum(invalid);
+    assert.ok(validateAutomationPolicy(invalid).errors.length);
+  }
+  const revised = { ...current, cadence: { ...current.cadence, days: ["Tuesday", "Thursday"], articlesPerWeek: 2 }, checksum: undefined };
+  revised.checksum = checksum(revised);
+  assert.deepEqual(validateAutomationPolicy(revised).errors, []);
+  const history = JSON.parse(fs.readFileSync("data/seo-content-automation-policy-history.json", "utf8"));
+  const previous = history.policies.find((item: { version: string }) => item.version === "2026-08-24.1");
+  assert.equal(previous.checksum, "ea496c54cb02ab2b45b0707d99c13acc6fdaa8b13ce3f92fe43ac0a13cd1e175");
+  for (const historical of history.policies) assert.deepEqual(validateAutomationPolicy(historical, { requireCurrentCadence: false }).errors, []);
 });

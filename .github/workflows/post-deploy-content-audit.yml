@@ -1,11 +1,11 @@
-name: Post-deploy content contract and rollback
+name: Post-deploy content contract report
 
 on:
   push:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: post-deploy-content-audit
@@ -28,29 +28,30 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci --ignore-scripts
-      - name: Audit the exact new production pages
+      - name: Audit every added or repaired production page
         id: release_audit
         shell: bash
         run: |
           set +e
-          npm run audit:live:content-release
+          set -o pipefail
+          npm run audit:live:content-release 2>&1 | tee content-release-audit.log
           code=$?
           set -e
           if [[ "$code" == "0" ]]; then
             echo "classification=passed" >> "$GITHUB_OUTPUT"
           elif [[ "$code" == "10" ]]; then
             echo "classification=deterministic_content_defect" >> "$GITHUB_OUTPUT"
+            exit "$code"
           else
             echo "classification=infrastructure_or_deploy_unknown" >> "$GITHUB_OUTPUT"
             exit "$code"
           fi
-      - name: Revert only the exact defective release
-        if: steps.release_audit.outputs.classification == 'deterministic_content_defect'
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git revert --no-edit "$GITHUB_SHA"
-          git push origin HEAD:main
-          echo "Reverted exact release $GITHUB_SHA after repeated deterministic production-contract failures."
-          exit 1
+      # The authorized publisher owns rollback under its shared release lock.
+      # Generic pushes can contain several commits and are observation-only here.
+      - name: Preserve production audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-deploy-content-${{ github.sha }}
+          path: content-release-audit.log
+          if-no-files-found: warn

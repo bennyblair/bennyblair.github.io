@@ -10,7 +10,10 @@
       "approvedAt": "2026-08-12T09:00:00+10:00",
       "timezone": "Australia/Sydney",
       "cadence": {
-        "days": ["Tuesday", "Thursday"],
+        "days": [
+          "Tuesday",
+          "Thursday"
+        ],
         "articlesPerRun": 2,
         "articlesPerWeek": 4
       },
@@ -48,7 +51,10 @@
       "approvedAt": "2026-08-23T20:30:00+10:00",
       "timezone": "Australia/Sydney",
       "cadence": {
-        "days": ["Tuesday", "Thursday"],
+        "days": [
+          "Tuesday",
+          "Thursday"
+        ],
         "articlesPerRun": 1,
         "articlesPerWeek": 2
       },
@@ -76,6 +82,51 @@
         "recording a human as the automated proposal approver"
       ],
       "checksum": "11b115da844c5b60a06a0a46660947ff9ccf54f521ec668802e151300c8049cb"
+    },
+    {
+      "schemaVersion": 1,
+      "policyId": "daily-content-automerge",
+      "version": "2026-08-24.1",
+      "status": "active",
+      "approvedBy": "Daniel Shelest",
+      "approvedAt": "2026-08-23T20:30:00+10:00",
+      "timezone": "Australia/Sydney",
+      "cadence": {
+        "days": [
+          "Tuesday",
+          "Thursday"
+        ],
+        "articlesPerRun": 1,
+        "articlesPerWeek": 2
+      },
+      "authority": {
+        "allowedRisk": "R2",
+        "branchPrefix": "ai/daily-content-",
+        "exactArticlesPerChange": 1,
+        "proposalApprover": "seo-policy-bot",
+        "requiredCheck": "Type, content, security, build and route checks",
+        "postDeployAuditRequired": true,
+        "deterministicRollbackAllowed": true,
+        "qualityReviewRequired": true,
+        "minimumQualityScore": 85,
+        "qualityContractVersion": 1,
+        "automatedContentRisk": "low"
+      },
+      "requiredGates": [
+        "one approved low-risk R2 proposal with complete evidence, measurement and articleQualityReview score of at least 85",
+        "no existing registry page mutation",
+        "content quality and financial-claim checks",
+        "typecheck, lint, unit tests, dependency audit, build and prerender",
+        "route, canonical, sitemap, noindex, schema, accessibility and Lighthouse checks"
+      ],
+      "forbidden": [
+        "publishing more or fewer than one article in one automated change",
+        "R3 or R4 changes",
+        "external outreach or email sending",
+        "merging after any failed or missing gate",
+        "recording a human as the automated proposal approver"
+      ],
+      "checksum": "ea496c54cb02ab2b45b0707d99c13acc6fdaa8b13ce3f92fe43ac0a13cd1e175"
     }
   ]
 }

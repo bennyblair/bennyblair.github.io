@@ -10,14 +10,15 @@ permissions:
   checks: read
 
 concurrency:
-  group: auto-merge-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
+  # One publisher holds this lock through merge, live verification and any rollback.
+  group: seo-production-publication
+  cancel-in-progress: false
 
 jobs:
   auto-merge:
     name: Verify scope and merge
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     if: >
       !github.event.pull_request.draft &&
       (
@@ -34,9 +35,29 @@ jobs:
           startsWith(github.event.pull_request.head.ref, 'ai/daily-content-') &&
           contains(github.event.pull_request.labels.*.name, 'seo-risk:R2') &&
           contains(github.event.pull_request.labels.*.name, 'automation-policy:daily-content-v1')
+        ) ||
+        (
+          startsWith(github.event.pull_request.head.ref, 'ai/content-repair-') &&
+          contains(github.event.pull_request.labels.*.name, 'seo-risk:R2') &&
+          contains(github.event.pull_request.labels.*.name, 'automation-policy:content-repair-v1')
         )
       )
     steps:
+      - name: Checkout trusted base policy and verifier
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+
+      - name: Set up trusted verifier runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install trusted verifier dependencies
+        run: npm ci --ignore-scripts
+
       - name: Verify authorized scope and merge after the shared gate
         id: merge_release
         uses: actions/github-script@v7
@@ -49,12 +70,25 @@ jobs:
             const requiredCheck = 'Type, content, security, build and route checks';
             const isDaily = pr.head.ref.startsWith('ai/daily-content-');
             const isInternalLinks = pr.head.ref.startsWith('ai/llm-upgrade-');
+            const isRepair = pr.head.ref.startsWith('ai/content-repair-');
+            const fs = require('node:fs');
+            const { pathToFileURL } = require('node:url');
+            const { validateRepairManifest, validateReleaseGate, REPAIR_MANIFEST } = await import(pathToFileURL(process.cwd() + '/scripts/lib/content-repair-policy.mjs').href);
+            if (pr.base.ref !== 'main' || pr.head.repo?.full_name !== pr.base.repo?.full_name) {
+              core.setFailed('Production automation requires a same-repository PR into main.');
+              return;
+            }
+            async function readAt(file, ref) {
+              const response = await github.rest.repos.getContent({ owner, repo, path: file, ref });
+              if (Array.isArray(response.data) || response.data.type !== 'file') throw new Error('Cannot read ' + file);
+              return Buffer.from(response.data.content, 'base64').toString('utf8');
+            }
 
             if (!allowedAuthors.has(pr.user.login)) {
               core.setFailed(`Unexpected PR author: ${pr.user.login}`);
               return;
             }
-            if (!isDaily && !isInternalLinks) {
+            if (!isDaily && !isInternalLinks && !isRepair) {
               core.setFailed(`Unexpected branch: ${pr.head.ref}`);
               return;
             }
@@ -107,6 +141,30 @@ jobs:
                   return;
                 }
               }
+            } else if (isRepair) {
+              for (const label of ['seo-risk:R2', 'automation-policy:content-repair-v1']) {
+                if (!labels.has(label)) { core.setFailed('Missing required label: ' + label); return; }
+              }
+              const manifests = files.filter(file => file.status === 'added' && REPAIR_MANIFEST.test(file.filename));
+              if (manifests.length !== 1) { core.setFailed('Exactly one added repair manifest is required.'); return; }
+              const manifest = JSON.parse(await readAt(manifests[0].filename, pr.head.sha));
+              if (manifests[0].filename !== 'data/seo-repairs/' + manifest.repairId + '.json') { core.setFailed('Manifest filename does not match identity.'); return; }
+              const changes = [];
+              for (const file of files.filter(file => file.filename !== manifests[0].filename)) {
+                if (file.status !== 'modified') { core.setFailed('Repair must modify existing content only.'); return; }
+                changes.push({ file: file.filename, status: file.status, previous: await readAt(file.filename, pr.base.sha), current: await readAt(file.filename, pr.head.sha) });
+              }
+              const validation = validateRepairManifest({
+                manifest,
+                policy: JSON.parse(fs.readFileSync('data/seo-content-repair-policy.json', 'utf8')),
+                registry: JSON.parse(fs.readFileSync('data/seo-page-registry.json', 'utf8')),
+                protectedCohort: JSON.parse(fs.readFileSync('data/indexing-recovery-protected-pages.json', 'utf8')),
+                changes,
+                baseSha: pr.base.sha,
+              });
+              if (validation.errors.length) { core.setFailed(validation.errors.join('\n')); return; }
+              core.summary.addHeading('Authorized repair release').addRaw(JSON.stringify({ repairId: manifest.repairId, baseSha: pr.base.sha, headSha: pr.head.sha, pages: validation.pages }, null, 2));
+              await core.summary.write();
             } else {
               for (const label of ['content-risk:low', 'content-change:internal-links']) {
                 if (!labels.has(label)) {
@@ -156,7 +214,7 @@ jobs:
                 ref: pr.head.sha,
                 per_page: 100,
               });
-              const gate = checks.find((check) => check.name === requiredCheck);
+              const gate = checks.filter((check) => check.name === requiredCheck && check.app?.slug === 'github-actions').sort((a, b) => b.id - a.id)[0];
               if (gate?.status === 'completed') {
                 if (gate.conclusion !== 'success') {
                   core.setFailed(`${requiredCheck} concluded ${gate.conclusion}.`);
@@ -173,20 +231,27 @@ jobs:
               ref: pr.head.sha,
               per_page: 100,
             });
-            const finalGate = finalChecks.find((check) => check.name === requiredCheck);
+            const finalGate = finalChecks.filter((check) => check.name === requiredCheck && check.app?.slug === 'github-actions').sort((a, b) => b.id - a.id)[0];
             if (finalGate?.conclusion !== 'success') {
               core.setFailed(`Timed out waiting for ${requiredCheck}.`);
               return;
             }
             const latest = await github.rest.pulls.get({ owner, repo, pull_number: pr.number });
             if (latest.data.merged_at) {
-              core.info(`PR #${pr.number} was already merged by another authorized run.`);
-              return latest.data.merge_commit_sha;
+              core.info(`PR #${pr.number} is already merged; its original publisher owns the release audit. This stale event will not execute another revision.`);
+              return "";
             }
             if (latest.data.state !== 'open') {
               core.setFailed(`PR #${pr.number} closed without merging.`);
               return;
             }
+            const gateErrors = validateReleaseGate({ expectedSha: pr.head.sha, actualSha: latest.data.head.sha, gate: finalGate });
+            if (gateErrors.length || latest.data.draft) { core.setFailed(gateErrors.join('; ') || 'PR is now a draft.'); return; }
+            const latestLabels = new Set(latest.data.labels.map(label => label.name));
+            const requiredLabels = isRepair ? ['seo-risk:R2', 'automation-policy:content-repair-v1'] : isDaily ? ['seo-risk:R2', 'automation-policy:daily-content-v1'] : ['content-risk:low', 'content-change:internal-links'];
+            if (requiredLabels.some(label => !latestLabels.has(label))) { core.setFailed('Authorization labels changed while waiting.'); return; }
+            const main = await github.rest.repos.getBranch({ owner, repo, branch: 'main' });
+            if (main.data.commit.sha !== pr.base.sha) { core.setFailed('Main advanced; rebase, refresh manifest evidence and rerun the shared gate.'); return; }
             const result = await github.rest.pulls.merge({
               owner,
               repo,
@@ -228,7 +293,8 @@ jobs:
         shell: bash
         run: |
           set +e
-          npm run audit:live:content-release
+          set -o pipefail
+          npm run audit:live:content-release 2>&1 | tee content-release-audit.log
           code=$?
           set -e
           if [[ "$code" == "0" ]]; then
@@ -244,3 +310,11 @@ jobs:
           git push origin HEAD:main
           echo "Reverted exact release ${{ steps.merge_release.outputs.result }} after repeated deterministic production-contract failures."
           exit 1
+
+      - name: Preserve production audit evidence
+        if: always() && steps.merge_release.outputs.result != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-release-${{ steps.merge_release.outputs.result }}
+          path: content-release-audit.log
+          if-no-files-found: warn

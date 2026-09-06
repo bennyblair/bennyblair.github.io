@@ -179,7 +179,7 @@ function markdown(audit: any): string {
     "",
     "## Estate",
     "",
-    `- 489 canonical records: ${audit.estate.indexability.indexable} indexable, ${audit.estate.indexability.redirected} redirects, ${audit.estate.indexability.noindex} noindex.`,
+    `- ${audit.estate.total} canonical records: ${audit.estate.indexability.indexable} indexable, ${audit.estate.indexability.redirected} redirects, ${audit.estate.indexability.noindex} noindex.`,
     `- Page types include ${audit.estate.pageTypes.guide} guides and ${audit.estate.pageTypes.location} locations.`,
     `- ${audit.estate.metadataStatus.needs_review} legacy records need metadata/query-ownership review; all fail closed at R0 automation.`,
     `- ${audit.estate.protected} routes are protected from material action without an emergency override.`,

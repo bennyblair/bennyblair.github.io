@@ -34,7 +34,9 @@
     "audit:live:seo": "tsx scripts/audit-live-seo.ts",
     "audit:live:content-release": "tsx scripts/audit-live-content-release.ts",
     "setup:browsers": "playwright install chromium",
-    "generate:hero-poster": "tsx scripts/generate-hero-poster.ts"
+    "generate:hero-poster": "tsx scripts/generate-hero-poster.ts",
+    "content:programme": "node scripts/content-programme.mjs",
+    "qa:content-repair-scope": "node scripts/verify-content-repair-scope.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

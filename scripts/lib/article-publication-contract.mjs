@@ -1,5 +1,5 @@
 const INTERNAL_EDITORIAL_PATTERN =
-  /\b(?:LLM[\s-]*Readiness|AI[\s-]*Readiness|Citation[\s-]*Ready|QA (?:Summary|Snapshot|Check|Notes?)|SEO QA|Internal (?:Editorial )?Notes?|Editorial Checklist|Prompt (?:Notes?|Output)|AI Production Notes?)\b/i;
+  /\b(?:LLM[\s-]*(?:Ready|Readiness)|AI[\s-]*Readiness|Citation[\s-]*Ready|QA (?:Summary|Snapshot|Check|Notes?)|SEO QA|Internal (?:Editorial )?Notes?|Editorial Checklist|Prompt (?:Notes?|Output)|AI Production Notes?)\b/i;
 const TRAILING_ELLIPSIS_PATTERN = /(?:\.{3}|…|â€¦)\s*$/;
 const FAQ_HEADING_PATTERN =
   /^##\s*(?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)(?:.*)?$/im;
