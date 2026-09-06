@@ -4,22 +4,205 @@
   "title": "Emet Capital SEO page proposal",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "proposalId", "pageId", "path", "sourcePath", "status", "risk", "problem", "targeting", "uniqueValue", "evidence", "internalLinks", "measurement", "score", "approval"],
+  "required": [
+    "schemaVersion",
+    "proposalId",
+    "pageId",
+    "path",
+    "sourcePath",
+    "status",
+    "risk",
+    "problem",
+    "targeting",
+    "uniqueValue",
+    "evidence",
+    "internalLinks",
+    "measurement",
+    "score",
+    "approval"
+  ],
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "proposalId": { "type": "string", "pattern": "^prop_[a-f0-9]{32}$" },
-    "pageId": { "type": "string", "pattern": "^pg_[a-f0-9]{32}$" },
-    "path": { "type": "string", "pattern": "^/" },
-    "sourcePath": { "type": "string" },
-    "status": { "enum": ["draft", "approved", "rejected", "built", "closed"] },
-    "risk": { "enum": ["R1", "R2", "R3", "R4"] },
-    "problem": { "type": "string", "minLength": 20 },
-    "targeting": { "type": "object" },
-    "uniqueValue": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-    "evidence": { "type": "array", "minItems": 1, "items": { "type": "object" } },
-    "internalLinks": { "type": "object" },
-    "measurement": { "type": "object" },
-    "score": { "type": "object" },
-    "approval": { "type": ["object", "null"] }
+    "schemaVersion": {
+      "const": 1
+    },
+    "proposalId": {
+      "type": "string",
+      "pattern": "^prop_[a-f0-9]{32}$"
+    },
+    "pageId": {
+      "type": "string",
+      "pattern": "^pg_[a-f0-9]{32}$"
+    },
+    "path": {
+      "type": "string",
+      "pattern": "^/"
+    },
+    "sourcePath": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved",
+        "rejected",
+        "built",
+        "closed"
+      ]
+    },
+    "risk": {
+      "enum": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ]
+    },
+    "problem": {
+      "type": "string",
+      "minLength": 20
+    },
+    "targeting": {
+      "type": "object"
+    },
+    "uniqueValue": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object"
+      }
+    },
+    "internalLinks": {
+      "type": "object"
+    },
+    "measurement": {
+      "type": "object"
+    },
+    "score": {
+      "type": "object"
+    },
+    "approval": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "qualityReview": {
+      "type": "object",
+      "description": "Genuine automated or human editorial evidence. Current-policy approval requirements, computed mean and blocking findings are enforced by validateProposal/validateArticleQualityReview; historical proposals retain their referenced policy.",
+      "required": [
+        "promptVersion",
+        "evaluatorModel",
+        "reviewedAt",
+        "dimensions",
+        "overallScore",
+        "blockingFindings",
+        "sourceClaimMap"
+      ],
+      "properties": {
+        "promptVersion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evaluatorModel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "dimensions": {
+          "type": "object",
+          "required": [
+            "intentCoverage",
+            "informationGain",
+            "specificity",
+            "evidence",
+            "readability",
+            "repetition",
+            "compliance",
+            "aiAnswerUsefulness"
+          ],
+          "properties": {
+            "intentCoverage": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "informationGain": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "specificity": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "evidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "readability": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "repetition": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "compliance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "aiAnswerUsefulness": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            }
+          }
+        },
+        "overallScore": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "blockingFindings": {
+          "type": "array"
+        },
+        "sourceClaimMap": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "claim",
+              "sourceUrl"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sourceUrl": {
+                "type": "string",
+                "pattern": "^https://"
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

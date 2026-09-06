@@ -40,9 +40,11 @@ if (isPrerendered && window.location.pathname === "/") {
     "touchstart",
   ];
   let activated = false;
+  let formObserver: IntersectionObserver | undefined;
   const activate = () => {
     if (activated) return;
     activated = true;
+    formObserver?.disconnect();
     activationEvents.forEach((eventName) => window.removeEventListener(eventName, activate));
     void mountApp().then(() => {
       window.setTimeout(removeInitialContactTracking, 1000);
@@ -51,6 +53,18 @@ if (isPrerendered && window.location.pathname === "/") {
   activationEvents.forEach((eventName) =>
     window.addEventListener(eventName, activate, { passive: true, once: true }),
   );
+  // Prepare the form before it reaches the viewport, without fetching the
+  // homepage route during its critical first paint. The serialized form stays
+  // disabled until its own mounted effect confirms that handlers are attached.
+  const enquirySection = document.querySelector('form[data-enquiry-ready]')?.closest("section");
+  if (enquirySection && "IntersectionObserver" in window) {
+    formObserver = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) activate();
+    }, { rootMargin: "1200px 0px" });
+    formObserver.observe(enquirySection);
+  } else {
+    activate();
+  }
 } else {
   void mountApp();
 }

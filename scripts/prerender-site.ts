@@ -217,6 +217,9 @@ async function validateRenderedPage(page: Page, route: RenderRoute) {
 }
 
 async function configurePage(page: Page) {
+  await page.addInitScript(() => {
+    (window as Window & { __EMET_PRERENDER__?: boolean }).__EMET_PRERENDER__ = true;
+  });
   await page.route("**/*", async (requestRoute) => {
     const request = requestRoute.request();
     const url = new URL(request.url());

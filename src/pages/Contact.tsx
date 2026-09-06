@@ -1,15 +1,11 @@
-import { useState } from "react";
+import TransactionEnquiryForm from "@/components/TransactionEnquiryForm";
+import { ENQUIRY_RESPONSE_MESSAGE } from "@/lib/transactions";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
 import { generateContactPageSchema } from "@/lib/schema-utils";
 import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { trackLead } from "@/lib/analytics";
 
 const Contact = () => {
   const breadcrumbItems = [
@@ -17,111 +13,12 @@ const Contact = () => {
     { label: "Contact" }
   ];
 
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    business: "",
-    loanType: "",
-    loanAmount: "",
-    message: "",
-    botField: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const { toast } = useToast();
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    try {
-      // Basic validation
-      if (!formData.name || !formData.email) {
-        throw new Error('Name and email are required fields');
-      }
-
-      if (formData.botField) return;
-
-      const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-      
-      if (isDevelopment) {
-        toast({
-          title: "Development Mode",
-          description: "Form submission simulated. Deploy to Netlify to test actual submission.",
-        });
-      } else {
-        // In production, submit to Netlify
-        const form = e.target as HTMLFormElement;
-        const netlifyFormData = new FormData(form);
-        const body = new URLSearchParams();
-        netlifyFormData.forEach((value, key) => body.append(key, String(value)));
-
-        const response = await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: body.toString()
-        });
-
-        if (!response.ok) {
-          throw new Error(`Form submission failed: ${response.status}`);
-        }
-
-        toast({
-          title: "Form submitted successfully!",
-          description: "We'll get back to you within 24-48 hours.",
-        });
-      }
-
-      trackLead("contact", formData.loanType);
-
-      // Reset form
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        business: "",
-        loanType: "",
-        loanAmount: "",
-        message: "",
-        botField: "",
-      });
-
-    } catch (error: unknown) {
-      console.error('Form submission error:', error);
-      
-      toast({
-        title: "Error submitting form",
-        description: error instanceof Error ? error.message : "Please try again or contact us directly.",
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
-  const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
-  };
-
-  const loanTypes = [
-    "Asset Finance",
-    "Development Finance",
-    "Bridging Finance", 
-    "Working Capital",
-    "Invoice Finance",
-    "Trade Finance",
-    "Other"
-  ];
-
   const benefits = [
     "Success-based fee structure - We'll discuss our complete fee approach upfront",
     "Access to 100+ commercial lenders",
     "Expert guidance through the entire process",
     "Competitive rates and terms",
-    "Fast approval and settlement times",
+    "Coordination through lender assessment and settlement",
     "Ongoing support and relationship management"
   ];
 
@@ -141,10 +38,10 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Get Your Commercial Lending Quote
+            Discuss Your Business Finance Transaction
           </h1>
           <p className="text-xl text-muted-foreground">
-            Ready to explore your commercial lending options? Our expert team is here to help you secure the right financing solution for your business needs.
+            Tell us about a purchase, refinance, bridging gap or equity release for business. Residential or commercial property may support the borrowing, subject to lender assessment.
           </p>
         </div>
 
@@ -154,128 +51,9 @@ const Contact = () => {
             <Card>
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold text-foreground mb-6">
-                  Request Your Free Consultation
+                  Start with Your Transaction
                 </h2>
-                <form
-                  onSubmit={handleSubmit}
-                  className="space-y-6"
-                  data-netlify="true"
-                  data-netlify-honeypot="bot-field"
-                  name="contact"
-                >
-                  <input type="hidden" name="form-name" value="contact" />
-                  <div className="hidden" aria-hidden="true">
-                    <Label htmlFor="contact-bot-field">Do not fill this out</Label>
-                    <Input
-                      id="contact-bot-field"
-                      name="bot-field"
-                      tabIndex={-1}
-                      autoComplete="off"
-                      value={formData.botField}
-                      onChange={(event) => handleInputChange("botField", event.target.value)}
-                    />
-                  </div>
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <Label htmlFor="name">Full Name *</Label>
-                      <Input
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={(e) => handleInputChange("name", e.target.value)}
-                        required
-                        className="mt-1"
-                      />
-                    </div>
-                    <div>
-                      <Label htmlFor="email">Email Address *</Label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        value={formData.email}
-                        onChange={(e) => handleInputChange("email", e.target.value)}
-                        required
-                        className="mt-1"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <Label htmlFor="phone">Phone Number</Label>
-                      <Input
-                        id="phone"
-                        name="phone"
-                        type="tel"
-                        value={formData.phone}
-                        onChange={(e) => handleInputChange("phone", e.target.value)}
-                        className="mt-1"
-                      />
-                    </div>
-                    <div>
-                      <Label htmlFor="business">Business Name</Label>
-                      <Input
-                        id="business"
-                        name="business"
-                        value={formData.business}
-                        onChange={(e) => handleInputChange("business", e.target.value)}
-                        className="mt-1"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <Label htmlFor="contact-loan-type">Loan Type</Label>
-                      <select
-                        id="contact-loan-type"
-                        name="loanType"
-                        value={formData.loanType}
-                        onChange={(event) => handleInputChange("loanType", event.target.value)}
-                        className="mt-1 flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                      >
-                        <option value="">Select loan type</option>
-                        {loanTypes.map((type) => (
-                          <option key={type} value={type}>{type}</option>
-                        ))}
-                      </select>
-                    </div>
-                    <div>
-                      <Label htmlFor="loanAmount">Approximate Loan Amount</Label>
-                      <Input
-                        id="loanAmount"
-                        name="loanAmount"
-                        placeholder="e.g., $500,000"
-                        value={formData.loanAmount}
-                        onChange={(e) => handleInputChange("loanAmount", e.target.value)}
-                        className="mt-1"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <Label htmlFor="message">Tell us about your financing needs</Label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      placeholder="Describe your business, financing requirements, timeline, and any specific questions..."
-                      value={formData.message}
-                      onChange={(e) => handleInputChange("message", e.target.value)}
-                      className="mt-1"
-                    />
-                  </div>
-
-                  <Button 
-                    type="submit" 
-                    size="lg" 
-                    disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
-                  >
-                    {isSubmitting ? "Submitting..." : "Get Your Free Quote"}
-                  </Button>
-                </form>
+                <TransactionEnquiryForm formName="contact" />
               </CardContent>
             </Card>
           </div>
@@ -305,7 +83,7 @@ const Contact = () => {
                       >
                         enquiry@emetcapital.com.au
                       </a>
-                      <div className="text-sm text-muted-foreground">We respond within 2 hours</div>
+                      <div className="text-sm text-muted-foreground">{ENQUIRY_RESPONSE_MESSAGE}</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
@@ -318,8 +96,8 @@ const Contact = () => {
                   <div className="flex items-center space-x-3">
                     <Clock className="w-5 h-5 text-primary" />
                     <div>
-                      <div className="font-medium text-foreground">24-48 Hour Response</div>
-                      <div className="text-sm text-muted-foreground">Initial assessment and feedback</div>
+                      <div className="font-medium text-foreground">What happens next</div>
+                      <div className="text-sm text-muted-foreground">A broker reviews the purpose, security and timing, then explains the information needed to assess options.</div>
                     </div>
                   </div>
                 </div>
@@ -346,7 +124,7 @@ const Contact = () => {
               <CardContent className="p-6 text-center">
                 <h3 className="text-lg font-bold text-foreground mb-4">Need Urgent Financing?</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  For time-sensitive opportunities, call us directly for immediate assistance.
+                  For a time-sensitive transaction, call us to discuss the deadline and the documents available.
                 </p>
                 <Button 
                   className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"

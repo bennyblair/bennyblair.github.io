@@ -41,6 +41,7 @@ async function waitForServer(process: ChildProcess) {
 }
 
 async function scanRoute(context: BrowserContext, route: string) {
+  const renderedDocument = readFileSync(path.join(repoRoot, "dist", route === "/" ? "index.html" : route.slice(1) + "/index.html"));
   const page = await context.newPage();
   const errors: string[] = [];
   const pageErrors: string[] = [];
@@ -50,6 +51,8 @@ async function scanRoute(context: BrowserContext, route: string) {
     const requestUrl = new URL(request.url());
     if (requestUrl.origin !== baseUrl || request.resourceType() === "media") {
       await requestRoute.abort();
+    } else if (request.resourceType() === "document" && requestUrl.pathname === route) {
+      await requestRoute.fulfill({ status: 200, contentType: "text/html", body: renderedDocument });
     } else {
       await requestRoute.continue();
     }
@@ -57,13 +60,10 @@ async function scanRoute(context: BrowserContext, route: string) {
 
   try {
     const response = await page.goto(`${baseUrl}${route}`, { waitUntil: "domcontentloaded" });
-    // The production shell is prerendered. Wait for React to replace the shell
-    // with the requested route before auditing, otherwise every deep URL can be
-    // incorrectly scanned as the prerendered homepage. The homepage itself is
-    // intentionally hydrated on first meaningful interaction, so a synthetic
-    // pointer-down activates it without consuming the first keyboard focus target.
+    // Serve the exact built page above: Vite's slashless deep routes otherwise
+    // return its SPA homepage fallback. Use actual keyboard activation at home.
     await page.waitForLoadState("networkidle");
-    await page.evaluate(() => window.dispatchEvent(new Event("pointerdown")));
+    if (route === "/") await page.keyboard.press("Tab");
     await page.waitForFunction(
       () => document.documentElement.dataset.prerenderReady === "true",
       undefined,
@@ -77,6 +77,17 @@ async function scanRoute(context: BrowserContext, route: string) {
       });
     });
     if (response?.status() !== 200) errors.push(`HTTP ${response?.status() ?? "no response"}`);
+    if (route === "/") {
+      // Render content-visibility sections before reading their colors; skipped
+      // trees can retain the serialized disabled-control computed styles.
+      for (let scroll = 0; scroll < 100; scroll += 1) {
+        await page.mouse.wheel(0, 700);
+        await page.waitForTimeout(80);
+        if (await page.evaluate(() => scrollY + innerHeight >= document.documentElement.scrollHeight - 2)) break;
+      }
+      await page.evaluate(() => window.scrollTo(0, 0));
+      await page.waitForTimeout(200);
+    }
     const results = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
       .analyze();

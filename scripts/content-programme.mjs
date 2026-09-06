@@ -50,6 +50,8 @@ export function buildProgramme(registry, config, previous, root, gsc = null, now
     const audit = auditPage(page, root);
     const prior = old.get(page.path);
     const sameSource = prior?.sourceHash === audit.sourceHash;
+    // A source edit does not resolve a financial or other outstanding review hold.
+    const keepReview = sameSource || prior?.stage === 'held';
     const metric = observations.get(page.path);
     const protectedUntil = page.lifecycle?.protectedUntil || null;
     const protectedNow = protectedUntil && Number.isFinite(Date.parse(protectedUntil)) && Date.parse(protectedUntil) > Date.parse(now);
@@ -65,13 +67,14 @@ export function buildProgramme(registry, config, previous, root, gsc = null, now
       risk: page.governance?.contentRisk, protectedUntil, protectedNow: Boolean(protectedNow),
       sourceHash: audit.sourceHash, flags: audit.flags, priorityScore: score,
       proposedDecision: audit.flags.length ? 'repair' : 'retain',
-      decision: sameSource ? prior.decision : null,
-      stage: sameSource ? prior.stage : 'queued',
-      reviewedAt: sameSource ? prior.reviewedAt : null,
+      decision: keepReview ? prior.decision : null,
+      stage: keepReview ? prior.stage : 'queued',
+      reviewedAt: keepReview ? prior.reviewedAt : null,
+      reviewedSourceHash: keepReview && prior.reviewedAt ? prior.reviewedSourceHash || prior.sourceHash : null,
       verifiedAt: sameSource ? prior.verifiedAt : null,
-      evidencePath: sameSource ? prior.evidencePath : null,
-      reviewer: sameSource ? prior.reviewer : null,
-      note: sameSource ? prior.note : null,
+      evidencePath: keepReview ? prior.evidencePath : null,
+      reviewer: keepReview ? prior.reviewer : null,
+      note: keepReview ? prior.note : null,
       gsc: metric ? { clicks: metricNumber(metric.clicks), impressions: metricNumber(metric.impressions), position: metricNumber(metric.position) } : null,
       history: prior?.history || [],
     };
@@ -85,6 +88,16 @@ export function buildProgramme(registry, config, previous, root, gsc = null, now
     pages,
     releases: previous?.releases || [],
   };
+}
+
+export function nextPages(state, { purpose = 'review', limit = 10 } = {}) {
+  if (!['review', 'repair', 'verify'].includes(purpose)) throw new Error('purpose must be review, repair or verify');
+  if (!Number.isInteger(limit) || limit < 1 || limit > 50) throw new Error('limit must be 1–50');
+  return state.pages.filter(page => {
+    if (purpose === 'review') return page.stage === 'queued';
+    if (page.stage !== 'reviewed') return false;
+    return purpose === 'repair' ? ['repair', 'rewrite'].includes(page.decision) : page.decision === 'retain';
+  }).slice(0, limit);
 }
 
 export function recordReview(state, { url, decision, stage, reviewer, note, evidencePath, receipt, root, now = new Date().toISOString() }) {
@@ -102,7 +115,7 @@ export function recordReview(state, { url, decision, stage, reviewer, note, evid
     if (!root || auditPage(page, root).sourceHash !== page.sourceHash) throw new Error('Source changed after inventory scan; rescan and verify the current source before completion');
     if (Date.parse(receipt.checkedAt) > Date.parse(now) || !Number.isFinite(Date.parse(receipt.checkedAt))) throw new Error('Invalid verification timestamp');
   }
-  Object.assign(page, { decision, stage, reviewer, note, evidencePath, reviewedAt: now, verifiedAt: stage === 'verified' ? now : null });
+  Object.assign(page, { decision, stage, reviewer, note, evidencePath, reviewedAt: now, reviewedSourceHash: page.sourceHash, verifiedAt: stage === 'verified' ? now : null });
   page.history.push({ at: now, decision, stage, reviewer, note, evidencePath, sourceHash: page.sourceHash, verificationReceipt: stage === 'verified' ? receipt : null });
   state.counts.stages = countBy(state.pages, 'stage');
   state.updatedAt = now;
@@ -206,8 +219,8 @@ async function main() {
       if (!state) throw new Error('Run scan first');
       if (command === 'next') {
         const limit = Number(arg('--limit') || 10);
-        if (!Number.isInteger(limit) || limit < 1 || limit > 50) throw new Error('limit must be 1–50');
-        console.log(JSON.stringify(state.pages.filter(page => page.stage === 'queued' || page.stage === 'reviewed').slice(0, limit), null, 2));
+        const purpose = arg('--purpose') || 'review';
+        console.log(JSON.stringify(nextPages(state, { purpose, limit }), null, 2));
       }
       if (command === 'record-review') {
         const evidencePath = arg('--evidence');
