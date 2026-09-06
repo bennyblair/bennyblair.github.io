@@ -57,7 +57,7 @@ const AboutBen = () => {
           </p>
         </header>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-12">
+        <div className="broker-profile-layout grid lg:grid-cols-3 gap-8 mb-12">
           <section className="lg:col-span-2 space-y-6">
             <Card>
               <CardContent className="p-8">

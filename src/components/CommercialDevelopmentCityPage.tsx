@@ -87,13 +87,13 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
 
         <section className="page-header location-header max-w-5xl mx-auto text-center pt-4 pb-12">
           <Badge className="mb-4 bg-muted/40 text-foreground border">{city} Development Market</Badge>
-          <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="location-title-row flex items-center justify-center gap-3 mb-4">
             <Building2 className="h-8 w-8 text-foreground/70" />
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground">Commercial Development Finance {city}</h1>
           </div>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-6">{localIntro}</p>
           <p className="text-muted-foreground max-w-4xl mx-auto mb-8 leading-relaxed">{marketOverview}</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
+          <div className="location-facts grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
               <div key={label} className="bg-card border border-border rounded-xl p-4">
                 <Icon className="h-5 w-5 text-foreground/70 mb-3" />

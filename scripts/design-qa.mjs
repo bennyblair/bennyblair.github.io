@@ -39,6 +39,14 @@ const routes = [
   "/contact",
   "/resources/tools/commercial-property-loan-calculator",
 ];
+if (args.includes("--interiors")) routes.push(
+  "/services", "/resources", "/resources/case-studies", "/resources/insights", "/resources/tools",
+  "/about", "/about/ben", "/resources/faqs", "/resources/glossary", "/terms",
+  "/resources/tools/second-mortgage-calculator", "/resources/tools/commercial-real-estate-calculator",
+  "/resources/tools/working-capital-calculator", "/resources/tools/asset-finance-roi-calculator",
+  "/resources/tools/loan-comparison-tool", "/resources/tools/bridging-loan-calculator"
+);
+if (args.includes("--routes")) routes.splice(0, routes.length, ...option("--routes", "").split(","));
 const results = [];
 const startedAt = new Date().toISOString();
 const browser = await chromium.launch({ headless: true });
@@ -233,16 +241,16 @@ async function menuCase(mode, delayed = false, routePath = "/") {
       await page.waitForFunction(() => document.documentElement.dataset.prerenderReady === "true", undefined, { timeout: 20_000 });
       assert.equal(await summary.evaluate(node => node.parentElement.open), true, "Hydration closed the menu the user had already opened");
     }
-    const link = page.locator('#mobile-navigation a[href="/services/commercial-property-finance"]');
+    const link = page.locator('#mobile-navigation a[href="/services"]');
     await link.waitFor({ state: "visible" });
     if (mode === "keyboard") {
       await page.keyboard.press("Tab");
       assert.equal(await link.evaluate(node => node === document.activeElement), true, "The opened menu must expose its first link to keyboard navigation");
       await page.keyboard.press("Enter");
     } else await link.click();
-    await page.waitForURL(url => url.origin === base.origin && url.pathname === "/services/commercial-property-finance");
+    await page.waitForURL(url => url.origin === base.origin && url.pathname === "/services");
     await page.locator("main h1").waitFor({ state: "visible" });
-    assert.match(await page.locator("main h1").innerText(), /commercial property/i, "Native menu must navigate to actual prerendered content");
+    assert.match(await page.locator("main h1").innerText(), /commercial lending services/i, "Native menu must navigate to actual prerendered content");
     return { mode, delayedJavaScript: delayed, scriptsDelayed: network.delayedScripts.length, destination: page.url() };
   } finally {
     release?.();

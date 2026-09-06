@@ -87,7 +87,7 @@ const AssetFinanceROICalculator = () => {
               </p>
             </div>
 
-            <Card className="mb-12">
+            <Card className="calculator-workspace calculator-workspace--light mb-12">
               <CardContent className="p-8">
                 <div className="grid lg:grid-cols-2 gap-8">
                   <div className="space-y-6">

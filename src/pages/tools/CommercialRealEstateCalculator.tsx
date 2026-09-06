@@ -109,7 +109,7 @@ const CommercialRealEstateCalculator = () => {
           </div>
 
           {/* Calculator */}
-          <Card className="mb-12 bg-gradient-to-r from-secondary/5 to-secondary-light/5 border-secondary/20">
+          <Card className="calculator-workspace mb-12 bg-gradient-to-r from-secondary/5 to-secondary-light/5 border-secondary/20">
             <CardContent className="p-8">
               <div className="flex items-center mb-6">
                 <TrendingUp className="w-6 h-6 text-secondary mr-3" />
@@ -207,7 +207,7 @@ const CommercialRealEstateCalculator = () => {
                 </div>
 
                 {/* Results */}
-                <div className="bg-card border border-border rounded-lg p-6">
+                <div className="calculator-results bg-card border border-border rounded-lg p-6">
                   <h3 className="text-lg font-semibold text-foreground mb-4">Investment Analysis</h3>
                   {results ? (
                     <div className="space-y-4">

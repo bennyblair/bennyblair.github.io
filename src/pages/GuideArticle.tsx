@@ -464,7 +464,7 @@ const GuideArticle = () => {
 
         {/* Key Takeaways - Only show if we found some */}
         {keyTakeaways.length > 0 && (
-          <Card className="mb-12 bg-gradient-to-r from-accent/5 to-accent-light/5 border-l-4 border-l-accent shadow-lg">
+          <Card className="article-key-takeaways">
             <CardContent className="p-8">
               <h2 className="text-2xl font-bold text-foreground mb-6 flex items-center">
                 <Star className="w-6 h-6 mr-3 text-accent" />
@@ -503,12 +503,9 @@ const GuideArticle = () => {
           <aside className={`article-side-rail space-y-6 sticky top-8 ${slug === 'commercial-mortgages-vs-residential-key-differences-explained' ? 'lg:col-span-3' : 'lg:col-span-4'}`}>
             {/* Table of Contents */}
             {tableOfContents.length > 0 && (
-              <Card className="article-toc p-6">
+              <details className="article-toc" open>
+                <summary><h3>Quick navigation</h3><span aria-hidden="true">+</span></summary>
                 <nav aria-label="Quick navigation">
-                  <h3 className="text-lg font-bold text-foreground mb-4 flex items-center">
-                    <Star className="w-5 h-5 mr-2 text-accent" />
-                    Quick navigation
-                  </h3>
                   <ol className="article-toc-list text-sm">
                     {tableOfContents.map((item) => (
                       <li key={item.id} className={item.level === 3 ? 'is-subsection' : undefined}>
@@ -519,7 +516,7 @@ const GuideArticle = () => {
                     ))}
                   </ol>
                 </nav>
-              </Card>
+              </details>
             )}
 
             {/* CTA Card */}
@@ -541,7 +538,7 @@ const GuideArticle = () => {
         </div>
 
         {/* Bottom CTA Section */}
-        <Card className="mb-12 bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20 shadow-lg">
+        <Card className="article-closing-cta">
           <CardContent className="p-10 text-center">
             <h2 className="text-3xl font-bold text-foreground mb-4">
               Ready to Discuss Your Financing Needs?
@@ -571,7 +568,7 @@ const GuideArticle = () => {
 
         {/* Related Services Section */}
         {contentType === 'guides' && designatedService && (
-          <section className="mb-12">
+          <section className="article-related-finance mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
               Related Finance Solution
             </h2>
@@ -594,7 +591,7 @@ const GuideArticle = () => {
 
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
-          <section id="related-articles">
+          <section id="related-articles" className="article-related">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
               Related {contentType === 'guides' ? 'Guides' : contentType === 'case-studies' ? 'Case Studies' : 'Insights'}
             </h2>

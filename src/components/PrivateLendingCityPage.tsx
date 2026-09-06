@@ -86,13 +86,13 @@ export default function PrivateLendingCityPage({ city, canonical, title, descrip
 
         <section className="page-header location-header max-w-5xl mx-auto text-center pt-4 pb-12">
           <Badge className="mb-4 bg-primary/10 text-primary border border-border">{city} Private Credit Market</Badge>
-          <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="location-title-row flex items-center justify-center gap-3 mb-4">
             <MapPin className="h-8 w-8 text-primary" />
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground">Private Lending {city}</h1>
           </div>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-6">{localIntro}</p>
           <p className="text-muted-foreground max-w-4xl mx-auto mb-8 leading-relaxed">{marketOverview}</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
+          <div className="location-facts grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {stats.map(({ label, value, icon: Icon }) => (
               <div key={label} className="bg-card border border-border rounded-xl p-4">
                 <Icon className="h-5 w-5 text-primary mb-3" />

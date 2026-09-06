@@ -3,8 +3,7 @@ import { takeNavigationState } from "@/lib/navigation-state";
 import { Link, useLocation } from "react-router-dom";
 import { ArrowUpRight, Menu, Phone, X } from "lucide-react";
 const primaryLinks = [
-  { href: "/services/commercial-property-finance", label: "Property Finance" },
-  { href: "/services", label: "All Services" },
+  { href: "/services", label: "Services" },
   { href: "/resources/guides", label: "Guides" },
   { href: "/resources/tools", label: "Calculators" },
   { href: "/about", label: "About" },
@@ -23,7 +22,7 @@ const Navbar = () => {
     if (previousPath.current !== location.pathname && disclosure.current) disclosure.current.open = false;
     previousPath.current = location.pathname;
   }, [location.pathname]);
-  const isActive = (path: string) => location.pathname === path || (path !== "/services" && location.pathname.startsWith(`${path}/`));
+  const isActive = (path: string) => location.pathname === path || location.pathname.startsWith(`${path}/`);
   const links = primaryLinks.map(link => <Link key={link.href} to={link.href} aria-current={isActive(link.href) ? "page" : undefined}>{link.label}</Link>);
   return <nav aria-label="Primary navigation" className="site-nav">
     <div className="nav-inner">

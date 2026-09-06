@@ -302,7 +302,7 @@ const CaseStudyArticle = () => {
                 </Card>
               )}
 
-              <Card className="p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
+              <Card className="article-side-cta p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
                 <h3 className="text-lg font-bold text-foreground mb-3">Want to Understand Your Options?</h3>
                 <p className="text-sm text-muted-foreground mb-4">We share general information on financing solutions and guide you through the next steps.</p>
                 <Button asChild className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent">
@@ -312,7 +312,7 @@ const CaseStudyArticle = () => {
             </aside>
           </div>
 
-          <Card className="mb-12 bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20 shadow-lg">
+          <Card className="article-closing-cta">
             <CardContent className="p-10 text-center">
               <h2 className="text-3xl font-bold text-foreground mb-4">Ready to Discuss Your Financing Needs?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">We can provide information and guidance on potential financing solutions for your next property venture.</p>

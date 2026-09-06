@@ -96,7 +96,7 @@ const About = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="grid md:grid-cols-4 gap-6 mb-16">
+        <div className="company-proof grid md:grid-cols-4 gap-6 mb-16">
           {stats.map((stat, index) => (
             <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
             <Card className="premium-card text-center">
@@ -118,7 +118,7 @@ const About = () => {
         </div>
 
         {/* Our Story */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="company-story grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-3xl font-bold mb-6">
               Built by Industry Insiders, 
@@ -315,7 +315,7 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="company-values grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((value, index) => (
               <Card key={index} className="premium-card text-center">
                 <CardContent className="p-6">
@@ -395,7 +395,7 @@ const About = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
+        <section className="interior-enquiry text-center py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
           <div className="max-w-3xl mx-auto px-8">
             <h2 className="text-3xl font-bold text-primary-foreground mb-6">
               Ready to Experience the Difference?

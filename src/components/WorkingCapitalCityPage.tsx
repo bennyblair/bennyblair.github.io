@@ -72,10 +72,10 @@ export default function WorkingCapitalCityPage({ city, canonical, title, descrip
         <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/services' }, { label: 'Working Capital', href: '/services/working-capital' }, { label: city }]} />
         <section className="page-header location-header max-w-5xl mx-auto text-center pt-4 pb-12">
           <Badge className="mb-4 bg-primary/10 text-primary border border-border">{city} Working Capital</Badge>
-          <div className="flex items-center justify-center gap-3 mb-4"><MapPin className="h-8 w-8 text-primary" /><h1 className="text-4xl lg:text-5xl font-bold text-foreground">Working Capital {city}</h1></div>
+          <div className="location-title-row flex items-center justify-center gap-3 mb-4"><MapPin className="h-8 w-8 text-primary" /><h1 className="text-4xl lg:text-5xl font-bold text-foreground">Working Capital {city}</h1></div>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-6">{localIntro}</p>
           <p className="text-muted-foreground max-w-4xl mx-auto mb-8 leading-relaxed">{marketOverview}</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">{stats.map(({ label, value, icon: Icon }) => <div key={label} className="bg-card border border-border rounded-xl p-4"><Icon className="h-5 w-5 text-primary mb-3" /><div className="text-2xl font-bold text-foreground mb-1">{value}</div><div className="text-sm text-muted-foreground">{label}</div></div>)}</div>
+          <div className="location-facts grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">{stats.map(({ label, value, icon: Icon }) => <div key={label} className="bg-card border border-border rounded-xl p-4"><Icon className="h-5 w-5 text-primary mb-3" /><div className="text-2xl font-bold text-foreground mb-1">{value}</div><div className="text-sm text-muted-foreground">{label}</div></div>)}</div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center"><Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground"><Link to="/contact">Discuss your cash-flow needs</Link></Button><Button size="lg" variant="outline" asChild className="border-border text-foreground hover:bg-card"><Link to="/services/working-capital"><ArrowLeft className="mr-2 h-5 w-5" />Back to Working Capital</Link></Button></div>
         </section>
         <section className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-6 mb-12">

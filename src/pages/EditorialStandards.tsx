@@ -10,13 +10,13 @@ const EditorialStandards = () => {
         canonical="/editorial-standards"
       />
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="legal-document container mx-auto px-4 max-w-4xl">
         <Breadcrumbs items={[
           { label: "Home", href: "/" },
           { label: "Editorial Standards" }
         ]} />
 
-        <h1 className="text-4xl font-bold mb-6 text-foreground">Editorial Standards</h1>
+        <header className="page-header legal-header"><h1 className="text-4xl font-bold mb-6 text-foreground">Editorial Standards</h1></header>
         <div className="prose prose-lg max-w-none text-foreground">
           <p className="text-sm text-muted-foreground">
             Last reviewed: 30 July 2026

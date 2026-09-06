@@ -106,7 +106,7 @@ const CommercialPropertyFinance = () => {
             </div>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             <section className="bg-muted/30 rounded-2xl p-6 border border-border">
               <h2 className="text-3xl font-bold text-foreground mb-4">
                 What Is Commercial Property Finance?

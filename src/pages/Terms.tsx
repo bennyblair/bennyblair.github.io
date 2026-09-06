@@ -13,13 +13,13 @@ const Terms = () => {
       </Helmet>
 
       <div className="min-h-screen py-8">
-        <div className="page-header container mx-auto px-4 max-w-4xl">
+        <div className="legal-document container mx-auto px-4 max-w-4xl">
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
             { label: "Terms of Service" }
           ]} />
 
-          <h1 className="text-4xl font-bold mb-8 text-foreground">Terms of Service</h1>
+          <header className="page-header legal-header"><h1 className="text-4xl font-bold mb-8 text-foreground">Terms of Service</h1></header>
           
           <div className="prose prose-lg max-w-none text-foreground">
             <p className="mb-6 text-foreground">Last updated: {new Date().toLocaleDateString('en-AU', { month: 'long', year: 'numeric' })}</p>

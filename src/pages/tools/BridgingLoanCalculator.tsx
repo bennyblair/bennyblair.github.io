@@ -123,7 +123,7 @@ const BridgingLoanCalculator = () => {
             </p>
           </div>
 
-          <Card className="mb-8">
+          <Card className="calculator-workspace calculator-workspace--light mb-8">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-foreground">
                 <Calculator className="h-5 w-5" />

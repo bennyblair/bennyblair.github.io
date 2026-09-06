@@ -126,11 +126,12 @@ const Glossary = () => {
         </div>
 
         {/* Search */}
-        <div className="max-w-lg mx-auto mb-8">
+        <div className="reference-toolbar max-w-lg mb-8">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
             <Input
               type="text"
+              aria-label="Search terms and definitions"
               placeholder="Search terms and definitions..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -140,12 +141,13 @@ const Glossary = () => {
         </div>
 
         {/* Alphabetical Navigation */}
-        <div className="flex flex-wrap justify-center gap-2 mb-8">
+        <div className="glossary-index flex flex-wrap gap-2 mb-8">
           {alphabet.map((letter) => (
             <Button
               key={letter}
               variant={selectedLetter === letter ? "default" : "outline"}
               size="sm"
+              aria-pressed={selectedLetter === letter}
               onClick={() => setSelectedLetter(letter)}
               className={`w-10 h-10 p-0 ${selectedLetter === letter ? "bg-primary" : ""}`}
             >
@@ -173,7 +175,7 @@ const Glossary = () => {
         <div className="space-y-4">
           {filteredTerms.length > 0 ? (
             filteredTerms.map((item, index) => (
-              <Card key={index} className="hover:shadow-md transition-shadow">
+              <Card key={index} className="glossary-term">
                 <CardContent className="p-6">
                   <div className="flex items-start justify-between mb-3">
                     <h3 className="text-xl font-semibold text-primary">{item.term}</h3>

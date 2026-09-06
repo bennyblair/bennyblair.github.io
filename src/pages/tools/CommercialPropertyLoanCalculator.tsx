@@ -208,7 +208,7 @@ const CommercialPropertyLoanCalculator = () => {
           </div>
 
           {/* Calculator */}
-          <Card className="mb-12 bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20">
+          <Card className="calculator-workspace mb-12 bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20">
             <CardContent className="p-8">
               <div className="flex items-center mb-6">
                 <Calculator className="w-6 h-6 text-primary mr-3" />
@@ -278,7 +278,7 @@ const CommercialPropertyLoanCalculator = () => {
                 </div>
 
                 {/* Results */}
-                <div className="bg-card border border-border rounded-lg p-6">
+                <div className="calculator-results bg-card border border-border rounded-lg p-6">
                   <h3 className="text-lg font-semibold text-foreground mb-4">Calculation Results</h3>
                   {results ? (
                     <div className="space-y-4">

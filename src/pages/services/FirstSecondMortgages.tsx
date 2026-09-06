@@ -81,7 +81,7 @@ const FirstSecondMortgages = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             <section className="bg-muted/30 rounded-lg p-6 border border-border">
               <h2 className="text-2xl font-bold text-foreground mb-4">When a First or Second Mortgage Usually Fits</h2>
               <div className="grid md:grid-cols-2 gap-4 text-sm text-muted-foreground">

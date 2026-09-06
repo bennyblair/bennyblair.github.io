@@ -56,12 +56,12 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
 
         <section className="page-header location-header text-center max-w-5xl mx-auto mb-16 pt-4">
           <Badge className="mb-4 bg-accent/10 text-accent">{data.city} Commercial Finance</Badge>
-          <div className="page-header flex items-center justify-center gap-3 mb-4">
+          <div className="location-title-row flex items-center justify-center gap-3 mb-4">
             <MapPin className="h-8 w-8 text-accent" />
             <h1 className="text-4xl lg:text-5xl font-bold">{data.title}</h1>
           </div>
           <p className="text-xl text-muted-foreground mb-8 max-w-4xl mx-auto">{data.description}</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
+          <div className="location-facts grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-8">
             {data.heroStats.map((stat) => (
               <div key={stat.label} className="bg-muted/40 p-4 rounded-lg border">
                 <div className="text-2xl font-bold mb-1">{stat.value}</div>

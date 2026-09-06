@@ -7,6 +7,7 @@ import { DollarSign, Building2, Clock, Filter, Star, TrendingUp } from "lucide-r
 import { getContentSummaries } from "@/lib/content";
 import { generateCollectionPageSchema } from "@/lib/schema-utils";
 import SEO from "@/components/SEO";
+import DirectoryFilters from "@/components/DirectoryFilters";
 
 const CaseStudies = () => {
   const breadcrumbItems = [
@@ -28,25 +29,18 @@ const CaseStudies = () => {
     return diffDays <= 7;
   };
 
-  const industries = [
-    "All",
-    "Property Development", 
-    "Residential Development",
-    "Hospitality Development",
-    "Commercial Property",
-    "Property Finance"
-  ];
+  const industries = ["All", ...Array.from(new Set(publishedCaseStudies.map(study => study.industry || study.category))).sort()];
 
   // Filter case studies by industry
   const filteredCaseStudies = selectedIndustry === "All" 
     ? publishedCaseStudies 
-    : publishedCaseStudies.filter(study => study.industry === selectedIndustry);
+    : publishedCaseStudies.filter(study => (study.industry || study.category) === selectedIndustry);
 
   // Featured case study (second one to avoid duplication with latest)
   const featuredCase = publishedCaseStudies[1];
 
   return (
-    <div className="min-h-screen py-8">
+    <div className="case-directory-page min-h-screen py-8">
       <SEO 
         title="Commercial Lending Case Studies | Success Stories | Emet Capital"
         description="Read real success stories from Australian businesses. See how Emet Capital helped companies secure bridging loans, asset finance, development funding and more."
@@ -64,7 +58,7 @@ const CaseStudies = () => {
         <Breadcrumbs items={breadcrumbItems} />
 
         {/* Header */}
-        <div className="page-header text-center max-w-3xl mx-auto mb-12">
+        <div className="page-header directory-header">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Commercial Lending Case Studies
           </h1>
@@ -73,8 +67,9 @@ const CaseStudies = () => {
           </p>
         </div>
 
+<details className="directory-guidance"><summary>Understanding these finance examples <span aria-hidden="true">+</span></summary>
         {/* Indexing Support Section */}
-        <Card className="mb-12 bg-secondary-blue">
+        <Card className="case-context-panel mb-12 bg-secondary-blue">
           <CardContent className="p-8">
             <h2 className="text-2xl font-bold text-secondary-blue-foreground mb-4">What these case studies show</h2>
             <p className="text-secondary-blue-foreground/90 mb-4">
@@ -102,6 +97,8 @@ const CaseStudies = () => {
           </CardContent>
         </Card>
 
+</details>
+        <div className="case-editorial-picks" hidden={selectedIndustry !== "All"}>
         {/* Latest Case Study Hero Section */}
         {latestCaseStudy && (
           <Card className="mb-8 bg-gradient-to-r from-accent/10 to-accent-light/10 border-accent/20">
@@ -115,7 +112,7 @@ const CaseStudies = () => {
                 <Star className="w-5 h-5 text-accent mr-2" />
                 <span className="text-sm font-medium text-accent">Latest Case Study</span>
               </div>
-              <div className="grid lg:grid-cols-3 gap-8 items-center">
+              <div className="case-pick-layout">
                 <div className="lg:col-span-2">
                   <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
                     {latestCaseStudy.title}
@@ -164,7 +161,7 @@ const CaseStudies = () => {
                 <Star className="w-5 h-5 text-accent mr-2" />
                 <span className="text-sm font-medium text-accent">Featured Case Study</span>
               </div>
-              <div className="grid lg:grid-cols-2 gap-8">
+              <div className="case-pick-layout">
                 <div>
                   <h2 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
                     {featuredCase.title}
@@ -181,7 +178,7 @@ const CaseStudies = () => {
                   )}
                 </div>
                 <div className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="case-entry-facts">
                     <div className="bg-primary/10 p-4 rounded-lg text-center">
                       <DollarSign className="w-8 h-8 text-primary mx-auto mb-2" />
                       <div className="text-2xl font-bold text-primary">{featuredCase.loanAmount || "N/A"}</div>
@@ -208,28 +205,15 @@ const CaseStudies = () => {
           </Card>
         )}
 
-        {/* Industry Filter */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          <Filter className="w-5 h-5 text-muted-foreground mt-2 mr-2" />
-          {industries.map((industry) => (
-            <Button
-              key={industry}
-              variant={selectedIndustry === industry ? "default" : "outline"}
-              size="sm"
-              onClick={() => setSelectedIndustry(industry)}
-              className={selectedIndustry === industry ? "bg-primary" : ""}
-            >
-              {industry}
-            </Button>
-          ))}
         </div>
+        <DirectoryFilters id="case-industry" label="Browse by industry" value={selectedIndustry} options={industries.map(label => ({label, count: label === "All" ? publishedCaseStudies.length : publishedCaseStudies.filter(study => (study.industry || study.category) === label).length}))} count={filteredCaseStudies.length} noun="case studies" onChange={setSelectedIndustry} />
 
         {/* Case Studies Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredCaseStudies.slice(1).map((study) => (
-            <Card key={study.slug} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
+        <div className="case-directory-grid">
+          {filteredCaseStudies.filter(study => selectedIndustry !== "All" || study.slug !== latestCaseStudy?.slug).map((study) => (
+            <Card key={study.slug} className="case-directory-entry">
               <CardContent className="p-6">
-                <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="case-entry-facts">
                   <div className="bg-primary/10 p-3 rounded-lg text-center">
                     <DollarSign className="w-6 h-6 text-primary mx-auto mb-1" />
                     <div className="text-lg font-bold text-primary">{study.loanAmount || "N/A"}</div>
@@ -309,7 +293,7 @@ const CaseStudies = () => {
         </section>
 
         {/* Call to Action */}
-        <section className="case-studies-closing-cta text-center mt-16 py-12 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
+        <section className="interior-enquiry case-studies-closing-cta text-center mt-16 py-12 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
           <div className="max-w-2xl mx-auto px-8">
             <h2 className="text-2xl font-bold text-primary-foreground mb-4">
               Ready to Write Your Success Story?

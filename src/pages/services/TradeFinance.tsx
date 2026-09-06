@@ -95,7 +95,7 @@ const TradeFinance = () => {
           </div>
 
           {/* Main Content */}
-          <div className="max-w-4xl mx-auto space-y-12 mb-16">
+          <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             {/* What this service is */}
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Trade Finance?</h2>

@@ -115,7 +115,7 @@ const ResourcesHub = () => {
         ]} />
 
         {/* Hero Section */}
-        <div className="page-header text-center max-w-4xl mx-auto mb-16">
+        <div className="page-header directory-header">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Commercial Lending Resources
           </h1>
@@ -129,6 +129,42 @@ const ResourcesHub = () => {
           >
             <Link to="/contact">Discuss Your Requirements</Link>
           </Button>
+        </div>
+
+        {/* Resource Sections Grid */}
+        <div className="resource-directory-grid grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          {resourceSections.map((section) => (
+            <Card key={section.title} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
+              <CardContent className="p-8">
+                <div className="flex items-center justify-between mb-4">
+                  <section.icon className="w-12 h-12 text-primary" />
+                  <span className="text-sm font-medium text-accent bg-accent/10 px-3 py-1 rounded-full">
+                    {section.count}
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-4">
+                  {section.title}
+                </h3>
+                <p className="text-muted-foreground mb-6">
+                  {section.description}
+                </p>
+                <ul className="space-y-2 mb-6">
+                  {section.features.map((feature, index) => (
+                    <li key={index} className="flex items-center text-sm text-muted-foreground">
+                      <CheckCircle className="w-4 h-4 text-primary mr-2" />
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+                <Button asChild className="w-full group-hover:bg-primary-light transition-colors">
+                  <Link to={section.href}>
+                    Explore {section.title}
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Link>
+                </Button>
+              </CardContent>
+            </Card>
+          ))}
         </div>
 
         {/* Key Takeaways */}
@@ -180,41 +216,6 @@ const ResourcesHub = () => {
           </Card>
         </section>
 
-        {/* Resource Sections Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {resourceSections.map((section) => (
-            <Card key={section.title} className="group hover:shadow-lg transition-all duration-300 hover:scale-105">
-              <CardContent className="p-8">
-                <div className="flex items-center justify-between mb-4">
-                  <section.icon className="w-12 h-12 text-primary" />
-                  <span className="text-sm font-medium text-accent bg-accent/10 px-3 py-1 rounded-full">
-                    {section.count}
-                  </span>
-                </div>
-                <h3 className="text-xl font-semibold text-foreground mb-4">
-                  {section.title}
-                </h3>
-                <p className="text-muted-foreground mb-6">
-                  {section.description}
-                </p>
-                <ul className="space-y-2 mb-6">
-                  {section.features.map((feature, index) => (
-                    <li key={index} className="flex items-center text-sm text-muted-foreground">
-                      <CheckCircle className="w-4 h-4 text-primary mr-2" />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <Button asChild className="w-full group-hover:bg-primary-light transition-colors">
-                  <Link to={section.href}>
-                    Explore {section.title}
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
 
         {/* Featured Content */}
         <section>
