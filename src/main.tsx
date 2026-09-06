@@ -1,5 +1,4 @@
 import { createRoot, hydrateRoot } from "react-dom/client";
-import { Toaster } from "@/components/ui/toaster";
 import App, { preloadCurrentRoute } from "./App.tsx";
 import { captureNavigationState } from "./lib/navigation-state";
 import "./index.css";
@@ -10,6 +9,11 @@ const isPrerendered = document.documentElement.dataset.prerendered === "true" &&
 
 async function mountApp(preload = preloadCurrentRoute(window.location.pathname)) {
   await preload;
+  if (isPrerendered && window.location.pathname === "/") {
+    // Give the browser one paint of the existing HTML before hydration work.
+    // Native navigation is already usable; no gesture or timer activates it.
+    await new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve())));
+  }
   captureNavigationState();
   const app = <App />;
   if (isPrerendered && window.location.pathname === "/") {
@@ -21,6 +25,7 @@ async function mountApp(preload = preloadCurrentRoute(window.location.pathname))
     createRoot(root).render(app);
   }
 
+  const { Toaster } = await import("@/components/ui/toaster");
   let toasterContainer = document.getElementById("toaster-root");
   if (!toasterContainer) {
     toasterContainer = document.createElement("div");

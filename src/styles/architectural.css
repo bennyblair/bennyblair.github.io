@@ -179,7 +179,8 @@ img{max-width:100%}button,input,textarea,select{font:inherit}button,a{touch-acti
   .service-portrait:hover img,.scenario-feature:hover .scenario-media img{filter:grayscale(0)}
 }
 @media(hover:none){
-  .home-hero .hero-image img{filter:grayscale(0) brightness(.88)}
+  .home-hero .hero-image img{filter:none;transform:none}
+  .home-hero .hero-image:after{background:linear-gradient(90deg,#0811129e,transparent 80%),linear-gradient(0deg,#061014b8,transparent 90%),linear-gradient(#0000001f,#0000001f)}
   .service-portrait img,.scenario-media img{filter:grayscale(0)}
 }
 
