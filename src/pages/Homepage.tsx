@@ -264,7 +264,7 @@ const Homepage = () => {
       <section className="home-contact">
         <div className="home-contact-inner section-pad">
         <div className="contact-intro" data-motion-enter><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>Tell us about your requirements and we'll be in touch within 24 hours</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:0485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
-        <div className="home-contact-card"><form onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
+        <div className="home-contact-card"><form method="post" action="/" onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
                 <input type="hidden" name="form-name" value="homepage-contact" />
                 <p hidden>
                   <label htmlFor="homepage-bot-field">Do not fill this out</label>

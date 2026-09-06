@@ -158,6 +158,8 @@ const Contact = () => {
                   Request Your Free Consultation
                 </h2>
                 <form
+                  method="post"
+                  action="/"
                   onSubmit={handleSubmit}
                   className="space-y-6"
                   data-netlify="true"

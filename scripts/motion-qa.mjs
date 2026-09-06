@@ -69,6 +69,9 @@ async function snapshot(page, selector = '.home-hero') {
       // These are exact, intentional alternatives; never blanket-exclude hidden text.
       if (node.closest('.hero-scroll') && matchMedia('(max-width: 700px)').matches) return false;
       if (node.closest('.motion-toggle') && matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
+      // The compact mobile player pairs one stage's copy with the cylinder.
+      // All four stage selectors remain visible; cylinder-qa exercises each one.
+      if (document.documentElement.dataset.prerenderReady === 'true' && matchMedia('(max-width: 700px)').matches && node.closest('.process-step[data-active="false"] .process-step-copy')) return false;
       const hiddenAncestor = node.closest('[hidden]');
       if (hiddenAncestor?.querySelector('input[name="bot-field"]')) return false;
       return true;
@@ -216,7 +219,7 @@ async function pauseCase() {
   } finally { await state.context.close(); }
 }
 
-async function enlargedCaptionCase() {
+async function enlargedHeroControlsCase() {
   const state = await setup(320);
   try {
     const { page } = state;
@@ -236,12 +239,12 @@ async function enlargedCaptionCase() {
     await page.waitForTimeout(100);
     const geometry = await page.evaluate(() => {
       const rect = node => { const r = node.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, width: r.width, height: r.height }; };
-      const captionNode = document.querySelector('.hero-image figcaption');
+      const headingNode = document.querySelector('.home-hero h1');
       const controlNode = document.querySelector('.motion-toggle');
-      const caption = rect(captionNode), control = rect(controlNode);
-      const overlap = caption.left < control.right && caption.right > control.left && caption.top < control.bottom && caption.bottom > control.top;
+      const heading = rect(headingNode), control = rect(controlNode);
+      const overlap = heading.left < control.right && heading.right > control.left && heading.top < control.bottom && heading.bottom > control.top;
       const textOutsideViewport = [];
-      for (const node of [captionNode, controlNode]) {
+      for (const node of [headingNode, controlNode]) {
         const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT);
         let text;
         while ((text = walker.nextNode())) {
@@ -249,10 +252,10 @@ async function enlargedCaptionCase() {
           for (const r of range.getClientRects()) if (r.width > 0 && (r.left < -1 || r.right > innerWidth + 1)) textOutsideViewport.push(text.textContent.trim());
         }
       }
-      return { caption, control, overlap, textOutsideViewport, viewport: innerWidth, documentWidth: Math.max(document.documentElement.scrollWidth, document.body.scrollWidth) };
+      return { heading, control, overlap, textOutsideViewport, viewport: innerWidth, documentWidth: Math.max(document.documentElement.scrollWidth, document.body.scrollWidth) };
     });
-    assert.equal(geometry.overlap, false, '200% caption and motion control overlap');
-    assert.deepEqual(geometry.textOutsideViewport, [], '200% caption/control text exceeds viewport');
+    assert.equal(geometry.overlap, false, '200% heading and motion control overlap');
+    assert.deepEqual(geometry.textOutsideViewport, [], '200% heading/control text exceeds viewport');
     assert.ok(geometry.documentWidth <= geometry.viewport + 2, '200% document overflows');
     assert.deepEqual((await snapshot(page)).problems, []);
     return geometry;
@@ -266,7 +269,7 @@ try {
   for (const width of [390, 1440]) await check(`Reduced motion ${width}px`, () => motionCase(width, 'reduce'));
   await check('Preference switches to reduced motion', () => motionCase(390, 'no-preference', true));
   await check('Pause/resume cancels and restores scroll effects', () => pauseCase());
-  await check('200% text at 320px keeps caption/control separate', () => enlargedCaptionCase());
+  await check('200% text at 320px keeps heading/control separate', () => enlargedHeroControlsCase());
 } finally {
   await browser.close();
   const summary = { total: results.length, passed: results.filter(item => item.status === 'pass').length, failed: results.filter(item => item.status === 'fail').length };
