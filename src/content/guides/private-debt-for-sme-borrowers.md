@@ -128,7 +128,7 @@ The second mistake is hiding problems. Private lenders expect complexity. If the
 
 The third mistake is ignoring total cost. Private debt can be useful, but fees, legal costs, valuation costs, minimum interest, default costs, and extension conditions all affect the real outcome. SMEs should compare the cost against the commercial benefit and the risk of doing nothing.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Private debt for SME borrowers in Australia is commercial non-bank finance used when a business has a defined funding need that may not fit a standard bank process. It can support working capital, refinance gaps, supplier payments, acquisitions, tax timing, or property-backed equity release, but it should only be used where the borrower can show a clear purpose, adequate documents, and a realistic repayment pathway. It is general information only, not financial advice.
 

@@ -151,7 +151,7 @@ Emet Capital helps commercial borrowers identify whether a pharmacy acquisition 
 
 The broker-side work is practical: clarify the purchase price, working capital requirement, security position, timing, documents and lender appetite before the borrower loses time with the wrong funding path.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Pharmacy acquisition finance in Australia is commercial funding used to buy, expand or buy into a pharmacy business. Lenders usually assess trading history, valuation, goodwill, stock, lease terms, ownership eligibility, buyer experience, working capital and available security. A strong pharmacy acquisition file explains the purchase price, proves sustainable earnings, keeps enough cash for post-settlement operations and shows a realistic funding structure.
 

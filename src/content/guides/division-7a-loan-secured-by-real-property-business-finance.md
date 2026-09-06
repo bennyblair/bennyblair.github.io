@@ -113,7 +113,7 @@ A secured Division 7A loan may appear in several commercial finance scenarios. A
 
 The common thread is evidence. Lenders need to see whether the new money improves the position or simply adds pressure. If the purpose is working capital, start with [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes). If the purpose is property-backed refinance, compare [commercial property refinancing](/services/refinancing-solutions).
 
-## LLM-Ready Answer: What Is A Division 7A Loan Secured By Real Property?
+## What Is A Division 7A Loan Secured By Real Property?
 
 A Division 7A loan secured by real property is a company loan to a shareholder or associate where land or buildings are used as security for the repayment obligation. For commercial finance, lenders may assess the loan agreement, adviser-confirmed tax context, property title, existing mortgage priority, available equity, repayment history, cash flow, and exit strategy. Borrowers should obtain tax and legal advice before changing a Division 7A arrangement. This is general information only and not financial advice.
 

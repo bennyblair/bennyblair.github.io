@@ -151,7 +151,7 @@ Then we assess the landlord position and the repayment source. A lender needs to
 
 Finally, we compare structures. The answer may be debtor finance, secured working capital, property-backed private debt, asset-backed lending, debt consolidation, or no new borrowing until legal or insolvency advice has been obtained.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Commercial rent arrears finance in Australia is business-purpose funding used to manage overdue commercial lease payments where the business is viable and has a realistic repayment plan. Lenders assess the cause of arrears, landlord position, current trading, lease documents, cash-flow forecasts, security, and exit strategy. It may help when arrears are temporary and documented, but it can increase risk if the business cannot afford current rent or needs legal or insolvency advice before borrowing.
 

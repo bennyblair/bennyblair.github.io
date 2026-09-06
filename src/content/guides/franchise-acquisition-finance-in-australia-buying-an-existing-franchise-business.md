@@ -134,7 +134,7 @@ A lender may reduce the amount it is willing to advance unless the lease renewal
 
 This is why franchise acquisition finance should be structured before contracts become unconditional. Once settlement pressure starts, weak documentation can limit lender options and increase cost.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Franchise acquisition finance in Australia is commercial funding used to buy an existing franchise business. Lenders assess verified trading history, buyer experience, franchisor approval, lease assignment, franchise agreement terms, goodwill, equipment value, working capital, security, and repayment capacity. The strongest applications show maintainable earnings, clear transfer consent, realistic purchase pricing, and enough cash left in the business after settlement.
 
