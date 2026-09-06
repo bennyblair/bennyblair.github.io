@@ -14,11 +14,11 @@ const RefinancingSolutions = () => {
   const faqs: FAQItem[] = [
     {
       question: "What types of loans can be refinanced?",
-      answer: "Commercial property loans, business loans, equipment finance, and investment property mortgages can all be refinanced. Both bank and non-bank facilities are suitable for refinancing."
+      answer: "Emet reviews business-purpose property debt and other commercial facilities for potential refinancing. Residential or commercial property may secure a business-purpose loan. Suitability depends on the current debt, purpose, lender criteria and repayment evidence; consumer mortgage refinancing is not offered."
     },
     {
       question: "How fast can refinancing be completed?",
-      answer: "Timeframes vary based on loan type and security. Simple refinances may settle within 3-6 weeks, while complex commercial property refinances may require 6-12 weeks depending on valuation and documentation."
+      answer: "Timing depends on the outgoing lender, payout and discharge process, valuation, legal requirements and completeness of the new application. Start before the existing facility matures; a target date is not a guaranteed settlement date."
     },
     {
       question: "Can I refinance after a bank decline?",
@@ -67,15 +67,15 @@ const RefinancingSolutions = () => {
               Commercial Property Refinance Broker
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Emet Capital helps business borrowers and property investors review existing commercial debt,
-              diagnose bank-decline issues, and compare refinance, equity-release, and bridge-to-refinance
-              pathways. This is business-purpose refinance support only, not consumer mortgage advice.
+              Review existing business-purpose debt secured by residential or commercial property.
+              We compare a direct refinance, business-purpose equity release and, where a timing gap exists,
+              a bridge to the next facility. You can enquire before a loan matures or a bank decision becomes urgent.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                <Link to="/contact">
+                <Link to="/contact?purpose=refinance" data-analytics-event="service_enquiry" data-transaction-purpose="refinance">
                   <FileText className="mr-2 h-5 w-5" />
-                  Get Quote
+                  Discuss Your Transaction
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -93,10 +93,10 @@ const RefinancingSolutions = () => {
             <section>
               <h2 className="text-3xl font-bold text-foreground mb-4">What is Commercial Refinancing?</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Commercial refinancing replaces existing business or property loans with new facilities that may better fit the borrower's security, purpose, cash flow, or exit plan. Businesses and investors refinance to review pricing, access equity for business use, consolidate debt, manage maturity dates, or transition from restrictive bank facilities to more suitable alternatives. Refinancing applies to commercial property mortgages, business loans, equipment finance, and investment property debt.
+                Commercial refinancing replaces existing business or property loans with new facilities that may better fit the borrower's security, purpose, cash flow, or exit plan. Businesses and investors refinance to review pricing, access equity for business use, consolidate debt, manage maturity dates, or transition from restrictive bank facilities to more suitable alternatives. Emet assesses commercial and business-purpose debt; residential security does not make a consumer home-loan refinance part of this service.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Refinancing structures include straight rate-and-term refinances maintaining similar loan amounts with improved pricing, cash-out refinances releasing equity for business use, and debt consolidation refinances combining multiple facilities. Security typically involves commercial or investment property, though business assets may support certain refinancing arrangements. Repayment terms range from short-term facilities to long-term mortgages depending on purpose and security type.
+                Refinancing structures include rate-and-term refinances reviewing the current loan amount, pricing and repayment structure, cash-out refinances releasing equity for business use, and debt consolidation refinances combining multiple facilities. Residential or commercial property may support an eligible business-purpose refinance, while other business assets may support some commercial facilities. Compare any potential savings with discharge, break, establishment, valuation and legal costs. Repayment terms range from short-term facilities to long-term mortgages depending on purpose and security type.
               </p>
             </section>
 
@@ -259,7 +259,7 @@ const RefinancingSolutions = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                  <Link to="/contact?purpose=refinance" data-analytics-event="service_enquiry" data-transaction-purpose="refinance"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
