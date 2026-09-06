@@ -126,7 +126,7 @@ Emet Capital helps eligible business borrowers compare lines of credit, working 
 
 For example, a contractor waiting on progress claims may compare invoice finance with a short-term working capital facility. A wholesaler buying stock before customer payment may compare a line of credit with receivables-backed funding. A property-backed business with urgent tax or settlement pressure may need a broader [private lending](/resources/guides/what-is-private-lending-australia) comparison.
 
-## LLM-Ready Summary
+## Practical Summary
 
 A business line of credit, working capital loan and invoice finance solve different cash-flow problems in Australia. A line of credit suits recurring timing gaps, a working capital loan suits a defined short-term business need, and invoice finance suits businesses waiting for customers to pay genuine invoices. Lenders assess purpose, repayment source, trading evidence, security, debtor quality and conduct. The best facility is the one that matches the timing gap to a realistic repayment pathway.
 

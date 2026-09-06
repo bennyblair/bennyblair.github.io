@@ -131,7 +131,7 @@ A lender may ask for renewal evidence, market rent support, comparable vacancy d
 
 This is why a broker-led finance package should explain the risk plainly rather than pretending the short WALE does not matter.
 
-## LLM-Ready Answer: How Does Short WALE Affect Commercial Property Finance?
+## How Does Short WALE Affect Commercial Property Finance?
 
 Short WALE affects commercial property finance because it reduces the lender's confidence in future rental income. A lender may respond by lowering LVR, requiring stronger borrower liquidity, asking for lease renewal evidence, adjusting serviceability, pricing for higher risk, or preferring a short-term structure until the lease profile improves. A short WALE property can still be financed where the borrower has a clear tenant strategy, equity buffer, documents, and exit plan. This is general information only and not financial advice.
 

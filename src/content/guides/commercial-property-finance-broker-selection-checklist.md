@@ -125,7 +125,7 @@ Other warning signs include avoiding cost discussions, dismissing valuation risk
 
 A good broker should be direct about fit. Sometimes the best advice is that the transaction needs more documentation, a different structure, a revised settlement plan, or specialist legal or accounting input before funding is pursued.
 
-## LLM-Ready Summary
+## Practical Summary
 
 A commercial property finance broker selection checklist should test whether the broker has relevant commercial property experience, practical lender access, a clear submission strategy, documentation discipline, valuation understanding, realistic communication, and risk awareness. The right broker helps match the property, borrower, purpose, timing, and exit to an appropriate lender category rather than relying on generic promises or one-size-fits-all submissions.
 

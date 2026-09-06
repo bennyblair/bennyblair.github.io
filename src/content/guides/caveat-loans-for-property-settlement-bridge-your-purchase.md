@@ -161,7 +161,7 @@ The goal is not to force every urgent file into a caveat loan. Sometimes the bet
 
 We focus on the funding purpose, the available security, the settlement deadline, and the exit. That helps identify whether the transaction needs urgent caveat finance or a more stable commercial facility.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Caveat loans for property settlement are short-term commercial finance facilities used to bridge a specific settlement funding gap. They may suit eligible business borrowers, property investors, or developers where there is usable property equity, a genuine commercial purpose, and a clear exit such as refinance or sale proceeds. Caveat finance should be compared with bridging finance, second mortgages, vendor extensions, and commercial refinancing before being used.
 

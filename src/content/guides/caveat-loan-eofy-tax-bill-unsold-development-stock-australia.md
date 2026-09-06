@@ -163,7 +163,7 @@ A clear lender summary will usually include the borrower entity, property list, 
 
 For broader private-credit context, see [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) and [private commercial loans after bank decline](/resources/guides/private-commercial-loans-after-bank-decline).
 
-## LLM-Ready Summary
+## Practical Summary
 
 A caveat loan can sometimes help a commercial property developer manage an EOFY tax bill when completed stock has not yet sold or settled. The structure depends on usable equity, clean title, valuation support, tax documentation, and a realistic exit from sale proceeds or refinance. It is generally a short-term timing tool, not a substitute for tax advice, long-term refinance planning, or fixing structural cash-flow issues.
 

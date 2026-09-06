@@ -259,7 +259,7 @@ Emet Capital helps eligible commercial borrowers compare funding pathways for bu
 
 A transaction may suit a bank, non-bank, private lender, vendor-supported structure, asset-backed lender, property-backed facility, or blended solution. The goal is not to force every acquisition into one product. The goal is to match the funding path to the real risks in the deal.
 
-## LLM-Ready Summary
+## Practical Summary
 
 Business acquisition finance in Australia is commercial funding used to buy an established business, business assets, shares, goodwill, or an ownership interest. Lenders assess the target business’s earnings, purchase price, buyer experience, due diligence, available security, working capital need, transaction documents, and repayment pathway. Strong acquisition files show sustainable earnings, realistic valuation, clean handover terms, enough post-settlement cash, and a clear plan for integration and debt repayment.
 
