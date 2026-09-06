@@ -1,10 +1,12 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import test from "node:test";
-import { LENDER_COUNT_PATTERN, isUnchangedPreservedClaim } from "../lib/claim-preservation.mjs";
+import { LENDER_COUNT_PATTERN, isUnchangedPreservedClaim, isVerifiedLenderClaim } from "../lib/claim-preservation.mjs";
 
 const policy = JSON.parse(fs.readFileSync("data/company-claim-preservation.json", "utf8"));
-const claims = JSON.parse(fs.readFileSync("src/content/claims.json", "utf8"));
+const registeredClaims = JSON.parse(fs.readFileSync("src/content/claims.json", "utf8"));
+// Exercise historical unverified preservation independently of a later attestation.
+const claims = { ...registeredClaims, "lender-network-50": { ...registeredClaims["lender-network-50"], status: "expired", source: "", verifiedAt: "", expiresAt: "" } };
 function fixture(index = 0) {
   const entry = policy.entries[index];
   const source = fs.readFileSync(entry.sourcePath, "utf8");
@@ -18,6 +20,17 @@ test("explicit owner instruction preserves only the unchanged unverified lender 
     input.current += "\n// An unrelated editorial correction.\n";
     assert.equal(isUnchangedPreservedClaim(input), true);
     assert.equal(input.claims["lender-network-50"].status, "expired");
+  }
+});
+
+test("owner-confirmed lender count requires exact count, current dates and provenance", () => {
+  const input = { source: "access to over 50 lenders", claims: registeredClaims, now: Date.parse("2026-09-08") };
+  assert.equal(isVerifiedLenderClaim(input), true);
+  for (const source of ["access to over 60 lenders", "over 50 lenders and over 70 lenders", "50 lenders"]) {
+    assert.equal(isVerifiedLenderClaim({ ...input, source }), false);
+  }
+  for (const change of [{ source: "" }, { status: "expired" }, { verifiedAt: "invalid" }, { expiresAt: "2026-09-01" }, { schemaAllowed: true }]) {
+    assert.equal(isVerifiedLenderClaim({ ...input, claims: { ...registeredClaims, "lender-network-50": { ...registeredClaims["lender-network-50"], ...change } } }), false);
   }
 });
 

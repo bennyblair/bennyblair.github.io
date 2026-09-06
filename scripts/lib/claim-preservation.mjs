@@ -8,6 +8,17 @@ export function claimContextHash(value) {
   return crypto.createHash("sha256").update(value.replace(/\s+/g, " ").trim()).digest("hex");
 }
 
+export function isVerifiedLenderClaim({ source, claims, now = Date.now() }) {
+  const claim = claims?.["lender-network-50"];
+  if (claim?.status !== "verified" || claim.statement !== "Access to over 50 lenders"
+    || !claim.source?.trim() || !claim.owner?.trim() || claim.schemaAllowed !== false) return false;
+  const verified = Date.parse(claim.verifiedAt);
+  const expiry = Date.parse(claim.expiresAt);
+  if (!Number.isFinite(verified) || !Number.isFinite(expiry) || verified > now || expiry < now || expiry <= verified) return false;
+  const matches = [...source.matchAll(new RegExp(LENDER_COUNT_PATTERN.source, LENDER_COUNT_PATTERN.flags))];
+  return matches.length > 0 && matches.every(([text]) => /^(?:access to\s+)?(?:over\s+50|50\+)\s+lenders$/i.test(text));
+}
+
 function contexts(source, pattern) {
   return [...source.matchAll(new RegExp(pattern.source, pattern.flags))].map(match => {
     const start = source.lastIndexOf("\n", match.index) + 1;

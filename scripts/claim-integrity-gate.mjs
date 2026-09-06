@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { LENDER_COUNT_PATTERN, isUnchangedPreservedClaim } from "./lib/claim-preservation.mjs";
+import { LENDER_COUNT_PATTERN, isUnchangedPreservedClaim, isVerifiedLenderClaim } from "./lib/claim-preservation.mjs";
 
 const repoRoot = process.cwd();
 const roots = ["src/pages", "src/components"];
@@ -65,6 +65,7 @@ for (const file of changedFiles) {
   for (const rule of forbidden) {
     rule.pattern.lastIndex = 0;
     if (rule.pattern.test(source)) {
+      if (rule.label === "unsupported lender-count claim" && isVerifiedLenderClaim({ source, claims })) continue;
       if (isUnchangedPreservedClaim({ relativePath, label: rule.label, pattern: rule.pattern, previous, current: source, policy: preservationPolicy, claims })) {
         retained.push(`${relativePath}: existing unverified lender statement retained exactly under the owner's instruction`);
       } else errors.push(`${relativePath}: ${rule.label}`);

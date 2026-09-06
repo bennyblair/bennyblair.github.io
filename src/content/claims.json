@@ -91,16 +91,16 @@
     "riskAcceptedAt": "2026-07-30"
   },
   "lender-network-50": {
-    "statement": "Access to 50+ lenders",
+    "statement": "Access to over 50 lenders",
     "definition": "Count of lender relationships available to Emet Capital borrowers.",
-    "measurementPeriod": "",
-    "source": "",
+    "measurementPeriod": "As confirmed 2026-09-07",
+    "source": "Product owner confirmation recorded 2026-09-07: We do have over 50. See docs/design-review/lender-network-confirmation.md",
     "owner": "Emet Capital",
-    "verifiedAt": "",
-    "expiresAt": "",
+    "verifiedAt": "2026-09-07T07:35:00+10:00",
+    "expiresAt": "2027-03-07",
     "displayQualification": "Availability and lender appetite vary by transaction.",
     "schemaAllowed": false,
-    "status": "expired",
+    "status": "verified",
     "riskAcceptedAt": "2026-07-30"
   }
 }
