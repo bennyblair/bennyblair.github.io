@@ -2415,6 +2415,18 @@ body {
   color-scheme: light;
 }
 
+/* Keep staged enquiry fields visible within the existing paper form panel. */
+.homepage-page > section.home-contact .home-contact-form fieldset input,
+.homepage-page > section.home-contact .home-contact-form fieldset select,
+.homepage-page > section.home-contact .home-contact-form fieldset textarea {
+  border-bottom: 1px solid var(--ot-rule) !important;
+}
+
+.homepage-page > section.home-contact .home-contact-form fieldset:last-of-type button[type="button"] {
+  background: transparent !important;
+  color: var(--ot-olive) !important;
+}
+
 .homepage-page > section.home-contact .home-contact-form input::placeholder,
 .homepage-page > section.home-contact .home-contact-form textarea::placeholder {
   color: rgba(114, 106, 79, .58) !important;

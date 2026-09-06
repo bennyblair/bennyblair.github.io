@@ -1,17 +1,16 @@
+import TransactionEnquiryForm from "@/components/TransactionEnquiryForm";
+import TransactionJourneys from "@/components/TransactionJourneys";
+import { ENQUIRY_RESPONSE_MESSAGE } from "@/lib/transactions";
 import { useState, useEffect, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { TiltCard } from "@/components/ui/tilt-card";
-import { useToast } from "@/hooks/use-toast";
 import SEO from "@/components/SEO";
 import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
-import { trackLead } from "@/lib/analytics";
 import { 
   Building2, 
   TrendingUp, 
@@ -36,18 +35,6 @@ const Homepage = () => {
   const storiesRef = useRef<HTMLDivElement>(null);
   const processRef = useRef<HTMLElement>(null);
   const [processActive, setProcessActive] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    business: "",
-    loanType: "",
-    loanAmount: "",
-    message: ""
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const { toast } = useToast();
-
   const { latestArticles, featuredCaseStudies } = useMemo(() => {
     const guides = getContentSummaries('guides');
     const caseStudies = getContentSummaries('case-studies');
@@ -110,103 +97,6 @@ const Homepage = () => {
     return `/resources/${article.contentType}/${article.slug}`;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const form = e.currentTarget as HTMLFormElement;
-    if (new FormData(form).get('bot-field')) return;
-    setIsSubmitting(true);
-
-    // Basic validation
-    if (!formData.name || !formData.email) {
-      toast({
-        title: "Validation Error",
-        description: "Please fill in all required fields (Name and Email)",
-        variant: "destructive",
-      });
-      setIsSubmitting(false);
-      return;
-    }
-
-    try {
-      // Check if we're in development mode
-      const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-      
-      if (isDevelopment) {
-        // In development, just simulate success
-        console.log('Development mode - form data:', formData);
-        toast({
-          title: "Development Mode",
-          description: "Form submission simulated. Deploy to Netlify to test actual submission.",
-        });
-      } else {
-        // In production, submit to Netlify
-        const netlifyFormData = new FormData(form);
-        
-        // Convert FormData to URLSearchParams compatible format
-        const formParams = new URLSearchParams();
-        for (const [key, value] of netlifyFormData.entries()) {
-          formParams.append(key, value.toString());
-        }
-
-        const response = await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: formParams.toString()
-        });
-
-        if (!response.ok) {
-          throw new Error(`Form submission failed: ${response.status}`);
-        }
-
-        toast({
-          title: "Form submitted successfully!",
-          description: "We'll get back to you within 24-48 hours.",
-        });
-      }
-
-      trackLead("homepage-contact", formData.loanType);
-
-      // Reset form
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        business: "",
-        loanType: "",
-        loanAmount: "",
-        message: ""
-      });
-
-    } catch (error: unknown) {
-      console.error('Form submission error:', error);
-      
-      toast({
-        title: "Error submitting form",
-        description: error instanceof Error ? error.message : "Please try again or contact us directly.",
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
-  const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
-  };
-
-  const loanTypes = [
-    "Asset Finance",
-    "Development Finance",
-    "Bridging Finance", 
-    "Working Capital",
-    "Invoice Finance",
-    "Trade Finance",
-    "Other"
-  ];
-
   return (
     <div className="homepage-page min-h-screen bg-background text-foreground">
       <SEO 
@@ -243,16 +133,16 @@ const Homepage = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
           <div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-relaxed pb-4">
-              Commercial Lending Solutions,
+              Property-Backed
               <span className="gradient-text block mt-2 leading-normal">
-                Expertly Engineered
+                Business Finance
               </span>
             </h1>
           </div>
           
           <div className="fade-in-up" style={{ animationDelay: '700ms' }}>
             <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
-              Australia-wide, asset-backed business finance solutions from $100K to $50M+ that scale with your ambition
+              Purchases, refinances, bridging and equity release for business purposes. Residential or commercial property security, Australia-wide, from $100K to $50M+.
             </p>
           </div>
           
@@ -260,7 +150,7 @@ const Homepage = () => {
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button asChild size="lg" className="group bg-accent hover:bg-accent-light text-accent-foreground px-10 py-7 text-lg rounded-2xl hover-lift">
                 <Link to="/contact">
-                  Get Your Quote
+                  Discuss Your Transaction
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
@@ -275,6 +165,8 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+
+      <div className="max-w-7xl mx-auto px-4"><TransactionJourneys /></div>
 
       {/* Commercial Finance Expertise Overview */}
       <section className="home-expertise py-20 px-4 bg-muted/30">
@@ -383,7 +275,7 @@ const Homepage = () => {
               {
                 icon: Zap,
                 title: "Caveat Loans",
-                description: "Ultra-fast property-secured funding with settlements possible within 24-72 hours for urgent business needs.",
+                description: "Short-term property-backed business funding assessed against title, equity, timing and a clear repayment plan.",
                 link: "/services/caveat-loans"
               },
               {
@@ -475,10 +367,10 @@ const Homepage = () => {
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Success <span className="gradient-text">Stories</span>
+                Finance <span className="gradient-text">Scenarios</span>
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Real deals, real results, real growth
+                Explore how funding structures may work. Illustrative scenarios explain a possible approach and are not evidence of a completed client transaction.
               </p>
             </div>
           </ScrollReveal>
@@ -508,18 +400,14 @@ const Homepage = () => {
                       </Badge>
                     </div>
                     <CardTitle className="text-3xl gradient-text mb-2">
-                      {study.loanAmount || "Custom Solution"}
+                      {study.loanAmount && study.loanAmount !== "N/A" ? study.loanAmount : "Funding scenario"}
                     </CardTitle>
                     <p className="text-sm text-muted-foreground">{study.location || ""}</p>
                   </CardHeader>
                   <CardContent>
                     <h3 className="text-lg font-semibold mb-3">{study.title}</h3>
-                    <p className="text-base text-muted-foreground mb-4">{study.outcome}</p>
-                    {study.quote && (
-                      <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
-                        "{study.quote}"
-                      </blockquote>
-                    )}
+                    <p className="text-base text-muted-foreground mb-4">{study.description}</p>
+
                   </CardContent>
                 </Card>
                   </Link>
@@ -564,17 +452,17 @@ const Homepage = () => {
                 How It <span className="gradient-text">Works</span>
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Four simple steps to funding success
+                From the first conversation to lender assessment and settlement
               </p>
             </div>
           </ScrollReveal>
           
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { step: "01", title: "Enquiry", description: "Tell us about your funding requirements" },
-              { step: "02", title: "Assessment", description: "We evaluate your proposal and present options" },
-              { step: "03", title: "Approval", description: "Fast-track approval with our lender network" },
-              { step: "04", title: "Settlement", description: "Quick settlement and funding deployment" }
+              { step: "01", title: "Enquiry", description: "Outline the purpose, property security and funding date" },
+              { step: "02", title: "Assessment", description: "We review the file, lender fit and trade-offs" },
+              { step: "03", title: "Approval", description: "The lender assesses the file and sets any approval conditions" },
+              { step: "04", title: "Settlement", description: "Legal documents and conditions must be satisfied before funds are released" }
             ].map((step, index) => (
               <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
                 <div className="text-center group">
@@ -725,123 +613,14 @@ const Homepage = () => {
                 Ready to <span className="gradient-text">Get Started?</span>
               </h2>
               <p className="text-xl text-muted-foreground">
-                Tell us about your requirements and we'll be in touch within 24 hours
+                {ENQUIRY_RESPONSE_MESSAGE}
               </p>
             </div>
           </ScrollReveal>
           
           <Card className="home-contact-card premium-card">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="home-contact-form grid md:grid-cols-2 gap-6" data-netlify="true" data-netlify-honeypot="bot-field" name="homepage-contact">
-                <input type="hidden" name="form-name" value="homepage-contact" />
-                <p hidden>
-                  <label htmlFor="homepage-bot-field">Do not fill this out</label>
-                  <input id="homepage-bot-field" name="bot-field" tabIndex={-1} autoComplete="off" />
-                </p>
-                <div>
-                  <label htmlFor="homepage-name" className="block text-sm font-medium mb-2">Name *</label>
-                  <Input 
-                    id="homepage-name"
-                    name="name"
-                    autoComplete="name"
-                    value={formData.name}
-                    onChange={(e) => handleInputChange("name", e.target.value)}
-                    required
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-email" className="block text-sm font-medium mb-2">Email *</label>
-                  <Input 
-                    id="homepage-email"
-                    name="email"
-                    type="email" 
-                    autoComplete="email"
-                    value={formData.email}
-                    onChange={(e) => handleInputChange("email", e.target.value)}
-                    required
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-phone" className="block text-sm font-medium mb-2">Phone</label>
-                  <Input 
-                    id="homepage-phone"
-                    name="phone"
-                    type="tel" 
-                    autoComplete="tel"
-                    value={formData.phone}
-                    onChange={(e) => handleInputChange("phone", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-business" className="block text-sm font-medium mb-2">Business Name</label>
-                  <Input 
-                    id="homepage-business"
-                    name="business"
-                    autoComplete="organization"
-                    value={formData.business}
-                    onChange={(e) => handleInputChange("business", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="homepage-loan-type" className="block text-sm font-medium mb-2">Loan Type</label>
-                  <select
-                    id="homepage-loan-type"
-                    name="loanType"
-                    value={formData.loanType}
-                    onChange={(event) => handleInputChange("loanType", event.target.value)}
-                    className="flex h-10 w-full rounded-md border border-glass-border bg-background/50 px-3 py-2 text-sm text-foreground ring-offset-background focus:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                  >
-                    <option value="">Select loan type</option>
-                    {loanTypes.map((type) => (
-                      <option key={type} value={type}>{type}</option>
-                    ))}
-                  </select>
-                </div>
-                
-                <div>
-                  <label htmlFor="homepage-loan-amount" className="block text-sm font-medium mb-2">Funding Amount</label>
-                  <Input 
-                    id="homepage-loan-amount"
-                    name="loanAmount"
-                    inputMode="decimal"
-                    placeholder="e.g. $500,000" 
-                    value={formData.loanAmount}
-                    onChange={(e) => handleInputChange("loanAmount", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent" 
-                  />
-                </div>
-                
-                <div className="md:col-span-2">
-                  <label htmlFor="homepage-message" className="block text-sm font-medium mb-2">Tell us about your requirements</label>
-                  <Textarea 
-                    id="homepage-message"
-                    name="message"
-                    value={formData.message}
-                    onChange={(e) => handleInputChange("message", e.target.value)}
-                    className="bg-background/50 border-glass-border focus:border-accent min-h-[120px]" 
-                    placeholder="Describe your funding needs, timeline, and any specific requirements..."
-                  />
-                </div>
-                
-                <div className="md:col-span-2">
-                  <Button 
-                    type="submit" 
-                    disabled={isSubmitting}
-                    className="w-full bg-accent hover:bg-accent-light text-accent-foreground py-6 text-lg hover-lift"
-                  >
-                    {isSubmitting ? "Submitting..." : "Submit Your Enquiry"}
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </div>
-              </form>
+              <TransactionEnquiryForm formName="homepage-contact" className="home-contact-form" />
             </CardContent>
           </Card>
           
