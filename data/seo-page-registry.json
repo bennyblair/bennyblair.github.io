@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-09-01T00:19:01.669Z",
+  "generatedAt": "2026-09-07T00:05:48.735Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -21608,7 +21608,50 @@
         "exitRuleId": "er_low_value_overlap_v1"
       },
       "programIds": []
+    },
+    {
+      "pageId": "pg_f3bfb939917040f785505109f7a50814",
+      "path": "/resources/guides/mixed-use-commercial-property-purchase-finance-australia",
+      "sourcePath": "src/content/guides/mixed-use-commercial-property-purchase-finance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "mixed use commercial property purchase finance",
+        "intent": "informational",
+        "designatedServicePagePath": "/services/commercial-property-finance",
+        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 2,
+        "reviewEveryDays": 365,
+        "reviewedBy": "Codex automated content review",
+        "reviewedAt": "2026-09-06",
+        "expiresAt": "2026-12-06"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-10-05T00:05:48.735Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_prop_17cbce0ae2fa4b9bafbe106ecd791b1a",
+        "lastMaterialChangeAt": "2026-09-07T00:05:48.735Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     }
   ],
-  "checksum": "4572ce1946106e8a0b7f8a43b18435d9e10239b10eff0f0a93e6b2610ece1cb1"
+  "checksum": "d4f70240927cedacafcff1dfcabbeb42bff3ae91f700ccd7e57f717e4f24c24b"
 }

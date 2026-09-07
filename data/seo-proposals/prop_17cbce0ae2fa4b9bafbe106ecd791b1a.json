@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_17cbce0ae2fa4b9bafbe106ecd791b1a",
+  "pageId": "pg_f3bfb939917040f785505109f7a50814",
+  "path": "/resources/guides/mixed-use-commercial-property-purchase-finance-australia",
+  "sourcePath": "src/content/guides/mixed-use-commercial-property-purchase-finance-australia.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Prepare the component-by-component evidence for a business-purpose mixed-use purchase before requesting lender assessment. Document preparation only. No property recommendation, legal classification, tax treatment, lender eligibility rule, LVR, rate or approval-time promise.",
+  "targeting": {
+    "primaryQuery": "mixed use commercial property purchase finance",
+    "intent": "informational",
+    "audience": "Australian business-purpose borrowers using residential or commercial property security",
+    "country": "AU"
+  },
+  "uniqueValue": [
+    "Separate property-component income schedule; questions about titles, approved uses and shared costs; no-double-counting check for related-business rent; hypothetical workshop/upper-floor file with an unresolved-use flag."
+  ],
+  "evidence": [
+    {
+      "type": "historical-semrush-parent-cluster",
+      "summary": "Historical AU May 2026 parent-cluster estimate, not exact-topic demand. No new-title volume asserted.",
+      "checkedAt": "2026-09-06T13:47:06.092214+00:00",
+      "reference": "Archived Australian Semrush May2026 research; commercial property loan"
+    },
+    {
+      "type": "current-search-results",
+      "summary": "Current lender material includes mixed-use property and tenancy documents, while a competing mixed-use guide confirms a served intent. This is SERP relevance evidence, not measured demand or a forecast.",
+      "checkedAt": "2026-09-06T13:45:58Z",
+      "url": "https://online.macquarie.com.au/wrap/resources/assets/bfs/documents/broker/commercial-broker/commercial-lending-guide.pdf"
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://business.vic.gov.au/business-information/start-a-business/choose-a-location-and-set-up-premises/buy-a-business-premises",
+      "summary": "Premises buyers should check zoning, permits and property certificates."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.planningportal.nsw.gov.au/planning-certificates-list",
+      "summary": "A NSW planning certificate provides specified planning controls and hazard information."
+    }
+  ],
+  "internalLinks": {
+    "from": [],
+    "to": [
+      "/services/commercial-property-finance",
+      "/resources/guides/how-to-buy-commercial-property-step-by-step-guide",
+      "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need",
+      "/resources/guides/commercial-property-loans-australia-complete-guide",
+      "/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
+      "/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "Relevant Australian organic visits to this guide that continue to its service owner and a business-purpose enquiry where attribution is available.",
+    "successRule": "Review at28,56and90days: inspect relevant AU queries/clicks, service transitions and available qualified opportunities; retain useful intent coverage while evidence develops. Missing lead data stays unavailable.",
+    "exitRule": "Investigate consolidation only if actual query/intent overlap with an existing owner is demonstrated; low traffic alone is not a removal rule. Repair weak sections or targeting based on evidence.",
+    "reviewDays": [
+      28,
+      56,
+      90
+    ],
+    "firstReviewAt": "2026-10-05T00:05:48.735Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 6,
+      "top20Probability": 5,
+      "conversionPotential": 12,
+      "evidenceAuthority": 9,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 70,
+    "reviewer": "Codex root independent of drafting agent",
+    "reviewedAt": "2026-09-06T13:47:06.092214+00:00",
+    "rationale": {
+      "commercialFit": "Direct business-purpose property transaction and an existing service owner.",
+      "demonstratedDemand": "Low score: only May2026 AU parent-cluster Semrush evidence; exact-topic current volume unavailable.",
+      "top20Probability": "Low confidence editorial judgement, not a numerical ranking probability; no current rank-tracking evidence for this new URL.",
+      "conversionPotential": "A specific application-preparation task can connect to the service enquiry; no conversion forecast.",
+      "evidenceAuthority": "Primary public sources support the procedural content; original suggestions are labelled editorial, not universal requirements.",
+      "differentiation": "Separate property-component income schedule; questions about titles, approved uses and shared costs; no-double-counting check for related-business rent; hypothetical workshop/upper-floor file with an unresolved-use flag.",
+      "internalLinkFit": "Existing service and broader guides can receive contextual links without changing their ownership."
+    },
+    "sourceSha256": "41516ec0791dc0b54636b84a569dd6d1c9d52741a5dabf806cbb854c6f507024"
+  },
+  "approval": {
+    "automated": true,
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-09-07T00:05:48.735Z",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-09-06.1",
+    "policyChecksum": "810d6818a0526932ed8fac8a62aeaa6c32a11db611200d27501490a0f0bcb133",
+    "basis": "Due reviewed low-risk package, actual opportunity assessment and exact date-only source revalidation under the current single-publisher policy."
+  },
+  "qualityReview": {
+    "promptVersion": "article-quality-v1",
+    "evaluatorModel": "gpt-6-astra",
+    "reviewedAt": "2026-09-06T12:21:38.968568+00:00",
+    "dimensions": {
+      "intentCoverage": 91,
+      "informationGain": 89,
+      "specificity": 93,
+      "evidence": 92,
+      "readability": 90,
+      "repetition": 86,
+      "compliance": 95,
+      "aiAnswerUsefulness": 91
+    },
+    "overallScore": 90.9,
+    "blockingFindings": [],
+    "sourceClaimMap": [
+      {
+        "claim": "Premises buyers should check zoning, permits and property certificates.",
+        "sourceUrl": "https://business.vic.gov.au/business-information/start-a-business/choose-a-location-and-set-up-premises/buy-a-business-premises",
+        "assessment": "Direct support for the document categories.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      },
+      {
+        "claim": "A NSW planning certificate provides specified planning controls and hazard information.",
+        "sourceUrl": "https://www.planningportal.nsw.gov.au/planning-certificates-list",
+        "assessment": "Direct support; national eligibility or planning conclusions are not inferred.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      }
+    ],
+    "reviewer": "Codex independent automation_process subagent",
+    "automated": true,
+    "isHumanFinancialReview": false,
+    "sourceSha256": "41516ec0791dc0b54636b84a569dd6d1c9d52741a5dabf806cbb854c6f507024",
+    "publicationSourceSha256": "083c5486101a4cea0c106128c540cec35b3b228dcc9e39f33c1deb887208e19b",
+    "publicationMetadataRevalidation": {
+      "method": "exact-frontmatter-date-only",
+      "operator": "cron-6b8c32b9-20260907T1000",
+      "checkedAt": "2026-09-07T00:05:48.735Z",
+      "simulationOnly": false,
+      "beforeSha256": "41516ec0791dc0b54636b84a569dd6d1c9d52741a5dabf806cbb854c6f507024",
+      "afterSha256": "083c5486101a4cea0c106128c540cec35b3b228dcc9e39f33c1deb887208e19b",
+      "bodySha256": "beb3ecb4d571189a87514f431e9c51a10a60b0f14309f05bcc76a9f86ce21c4a",
+      "originalReviewUnchanged": true
+    }
+  }
+}
