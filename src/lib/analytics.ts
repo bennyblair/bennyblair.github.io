@@ -4,6 +4,7 @@ import { normaliseTransactionPurpose } from "./transactions";
 export const ANALYTICS_IDS = {
   ga4: "G-EWJCDYNTCG",
   googleAds: "AW-16887067533",
+  googleAdsLead: "AW-16887067533/w2SACJ7PzssaEI3nsPQ-",
 } as const;
 
 type AnalyticsParameters = Record<string, string | number | boolean | undefined>;
@@ -171,6 +172,14 @@ export function trackEnquiryStep(formName: string, purpose?: string) {
 /** Call only after the form endpoint accepts the submission. Clicks and preview runs are not leads. */
 export function trackLead(formName: string, purpose?: string) {
   trackEvent("generate_lead", enquiryParameters(formName, purpose));
+  if (typeof window === "undefined" || typeof window.gtag !== "function") return;
+  try {
+    window.gtag("event", "conversion", {
+      send_to: ANALYTICS_IDS.googleAdsLead,
+      value: 1,
+      currency: "AUD",
+    });
+  } catch { /* Ads measurement must never turn an accepted enquiry into a submission error. */ }
 }
 
 export function installContactTracking() {

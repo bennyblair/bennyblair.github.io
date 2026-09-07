@@ -80,6 +80,12 @@ test("lead analytics contains only route/category and allowlisted purpose, never
     assert.equal(payload.landing_path, "/services/refinancing-solutions");
     assert.equal(payload.landing_category, "refinancing");
     assert.equal(payload.page_referrer, "https://chatgpt.com");
+    assert.deepEqual(calls[1], ["event", "conversion", {
+      send_to: "AW-16887067533/w2SACJ7PzssaEI3nsPQ-",
+      value: 1,
+      currency: "AUD",
+    }]);
+    assert.equal(calls.length, 4);
     assert.doesNotMatch(JSON.stringify(calls), /private@|private-conversation|secret=|500,000/);
   } finally {
     if (previousWindow) Object.defineProperty(globalThis, "window", previousWindow);
