@@ -96,16 +96,16 @@
     "assetId": "commercial"
   },
   "/resources/guides/ato-garnishee-notice-finance-for-australian-businesses": {
-    "src": "/images/ato-garnishee-notice-finance-for-australian-businesses.jpg",
-    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
-    "assetId": "warehouse"
+    "src": "/images/articles/ato-garnishee-notice-finance-for-australian-businesses.webp",
+    "alt": "ATO garnishee notice finance guide for Australian business owners",
+    "caption": "Emet Capital guide to commercial finance considerations after an ATO garnishee notice.",
+    "assetId": "commercial"
   },
   "/resources/guides/ato-tax-debt-finance-for-australian-business-owners": {
-    "src": "/images/ato-tax-debt-finance-for-australian-business-owners.jpg",
-    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
-    "assetId": "warehouse"
+    "src": "/images/articles/ato-tax-debt-finance-for-australian-business-owners.webp",
+    "alt": "ATO tax debt finance options guide for Australian businesses",
+    "caption": "Emet Capital guide to commercial finance options for Australian business tax debt.",
+    "assetId": "commercial"
   },
   "/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance": {
     "src": "/images/balloon-payment-refinance-for-equipment-and-asset-finance.jpg",
@@ -126,10 +126,10 @@
     "assetId": "warehouse"
   },
   "/resources/guides/caveat-loan-emergency-business-funding": {
-    "src": "/images/caveat-loan-emergency.jpg",
-    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
-    "assetId": "warehouse"
+    "src": "/images/articles/caveat-loan-emergency-business-funding.webp",
+    "alt": "Urgent business funding options for ATO debt and cash-flow pressure",
+    "caption": "Emet Capital guide to urgent commercial funding for ATO debt and cash-flow pressure.",
+    "assetId": "commercial"
   },
   "/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance": {
     "src": "/images/caveat-loan-exit-strategies-how-to-repay-or-refinance.jpg",
