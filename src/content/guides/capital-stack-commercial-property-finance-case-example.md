@@ -12,11 +12,6 @@ keywords:
 readTime: "9 min read"
 author: "Ben"
 reviewed_date: "2026-08-05"
-author_links: [{"label":"Ben bio","url":"/about/ben"}]
-author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
-author_title: "Commercial Finance Broker, Emet Capital"
-author_name: "Ben"
 primaryQuery: "capital stack commercial property finance example"
 searchIntent: "informational"
 intentCluster: "commercial-property-capital-stack"
@@ -26,30 +21,24 @@ reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
+protectedUntil: "2026-10-05T00:00:00+10:00"
 expiresAt: "2026-11-05"
 sources:
-  - label: "APRA — APG 113 Credit Risk"
-    url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
-  - label: "PPSR — Which security interest has priority?"
-    url: "https://www.ppsr.gov.au/managing-and-maintaining/enforce-your-registration/which-security-interest-has-priority"
+  - label: "NSW Land Registry Services — Mortgages"
+    url: "https://rg-guidelines.nswlrs.com.au/land_dealings/dealing_requirements/mortgages"
+  - label: "ASIC — Disputes about commercial loans"
+    url: "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
+metaTitle: "Commercial Property Capital Stack | Worked Example"
+metaDescription: "See how a commercial property capital stack can combine senior debt, subordinated funding and borrower equity in a worked educational example."
+featuredImage: "/images/articles/capital-stack-commercial-property-finance-case-example.webp"
+featuredImageAlt: "Commercial property finance capital stack worked example"
 ---
-
-# Capital Stack in Commercial Property Finance: Illustrative Example
 
 > **Direct answer:** A commercial-property capital stack is the ordered set of equity, senior debt and any junior, vendor or mezzanine funding used in a transaction. The stack should reconcile every dollar of sources and uses, identify security and priority, show cash cost and maturity, and explain how each layer is repaid under both the expected and downside exits.
 
 A capital stack in commercial property finance is the order of funding sources used to support a purchase, refinance, development, or equity release. In plain terms, it shows who is providing the money, what security or risk position each party holds, and how each layer is expected to be repaid.
 
 For Australian business owners, developers, and property investors, the capital stack matters because a lender does not assess a loan in isolation. It reviews the senior debt, borrower equity, any second mortgage, mezzanine funding, vendor contribution, working capital requirement, and exit plan together. Emet Capital uses this framework to help eligible commercial borrowers understand whether a file is clean enough for a bank, better suited to private lending, or too complex without stronger evidence.
-
-### Related In-Depth Guides
-
-- **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main commercial property finance guide.
-- **[Mezzanine Finance Australia](/resources/guides/mezzanine-finance-australia-complete-guide)** — how layered capital can sit behind senior debt.
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — when an additional registered mortgage may be used.
-- **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lender assessment for non-standard files.
-- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways when the exit is debt replacement.
-- **[Property Development Loans](/resources/guides/property-development-loans-complete-funding-guide)** — development funding context for more complex stacks.
 
 ## At a Glance
 
@@ -144,14 +133,6 @@ Before presenting a layered commercial property file, prepare:
 - documents for any vendor, related-party, or mezzanine layer; and
 - written exit memo with fallback options.
 
-## Related Guides
-
-- **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — foundation guide for commercial property borrowers.
-- **[Mezzanine Finance Australia](/resources/guides/mezzanine-finance-australia-complete-guide)** — layered finance explained.
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — second-ranking property-backed finance.
-- **[Commercial Property Valuation for Finance](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)** — valuation evidence lenders request.
-- **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — strategic comparison for complex files.
-
 ## Frequently Asked Questions
 
 ### What does capital stack mean in property finance?
@@ -171,6 +152,12 @@ The biggest risk is using extra debt to cover a weak transaction without a reali
 
 ### How does Emet Capital help with capital stack finance?
 Emet Capital helps eligible commercial borrowers package the funding layers, clarify security priority, compare lender pathways, and document the exit. This is general information only, not financial advice.
-## Disclaimer
+
+## Related Guides
+
+- [Commercial Property Finance Guide](/resources/guides/commercial-property-loans-australia-complete-guide)
+- [Mezzanine Finance Australia](/resources/guides/mezzanine-finance-australia-complete-guide)
+- [Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
+- [Property Development Finance](/services/commercial-property-development)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

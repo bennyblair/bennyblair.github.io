@@ -17,6 +17,7 @@ reviewedBy: "OpenClaw SEO content audit"
 reviewedAt: "2026-08-05"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
+protectedUntil: "2026-10-05T00:00:00+10:00"
 expiresAt: "2026-11-05"
 sources:
   - label: "NSW Land Registry Services - What is a caveat?"
@@ -24,7 +25,9 @@ sources:
   - label: "ASIC - Disputes about commercial loans"
     url: "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
 metaTitle: "Caveat Lenders Australia | Types and Comparison"
-metaDescription: "Compare Australian caveat lender types by scenario fit, evidence, title requirements, net proceeds, cost, exit expectations and contract risk."
+metaDescription: "Compare Australian caveat lender types by mandate, property fit, title position, exit evidence, net proceeds, fees, conditions and downside risk."
+featuredImage: "/images/articles/caveat-lenders-australia-directory-comparison.webp"
+featuredImageAlt: "Australian caveat lender types and comparison framework"
 ---
 
 Australian caveat lenders differ in capital source, mandate, decision process, property appetite and legal requirements. A useful comparison does not rank a changing list of companies as universally “best”. It identifies which lender type can assess the specific borrower, property, deadline and exit, then compares written terms on the same assumptions.
@@ -114,3 +117,12 @@ They may apply different criteria and exercise more case-specific judgement, but
 ### What should I give a broker first?
 
 Provide a concise purpose and deadline, entity details, property ownership and debt information, the required net proceeds, supporting documents and a specific exit. The [complete caveat loan guide](/resources/guides/caveat-loans-australia-complete-guide) contains the full preparation sequence.
+
+## Related Guides
+
+- [Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)
+- [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
+- [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
+- [Caveat Loan Service](/services/caveat-loans)
+
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
