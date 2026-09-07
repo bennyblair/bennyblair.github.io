@@ -10,6 +10,7 @@ import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
+import PropertyFinanceDisclosure from "@/components/PropertyFinanceDisclosure";
 
 const FirstSecondMortgages = () => {
   const faqs: FAQItem[] = [
@@ -80,6 +81,8 @@ const FirstSecondMortgages = () => {
               </Button>
             </div>
           </div>
+
+          <PropertyFinanceDisclosure />
 
           {/* Main Content */}
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
