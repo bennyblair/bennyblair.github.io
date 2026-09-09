@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_f6e9588af4f74c98a39b33f1d8707263",
+  "pageId": "pg_4c453e453ef040339b8f54a5d080b054",
+  "path": "/resources/guides/commercial-interest-only-period-ending-refinance-australia",
+  "sourcePath": "src/content/guides/commercial-interest-only-period-ending-refinance-australia.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Assemble existing loan dates, notices, repayment schedules and financial documents before a discussion about an approaching interest-only expiry. Organise the review file. Does not recommend refinance, extension, repayment amount or lender. No rates, repayment figures, lender-approval predictions or universal product conditions.",
+  "targeting": {
+    "primaryQuery": "commercial interest only expiry loan review documents",
+    "intent": "informational",
+    "audience": "Australian business-purpose borrowers using residential or commercial property security",
+    "country": "AU"
+  },
+  "uniqueValue": [
+    "Timeline separating interest-only expiry, fixed-rate expiry, review date and final maturity; existing/extension/refinance evidence matrix; lender-dependency tracker and hypothetical review scenario."
+  ],
+  "evidence": [
+    {
+      "type": "historical-semrush-parent-cluster",
+      "summary": "Historical AU May 2026 parent-cluster estimate; exact expiry/document query not measured. Do not combine synonym volumes.",
+      "checkedAt": "2026-09-06T13:47:06.096217+00:00",
+      "reference": "Archived Australian Semrush May2026 research; commercial loan refinance"
+    },
+    {
+      "type": "current-search-results",
+      "summary": "Primary lender explanation and a competing expiry guide confirm this trigger has a distinct information need. The proposed document pack complements the existing facility-maturity owner.",
+      "checkedAt": "2026-09-06T13:45:58Z",
+      "url": "https://www.commbank.com.au/business/articles/what-is-an-interest-only-business-loan.html"
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.commbank.com.au/business/loans-and-finance/betterbusiness-loan.html",
+      "summary": "A business facility may combine an initial interest-only period with later principal-and-interest repayments."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.commbank.com.au/business/articles/what-is-an-interest-only-business-loan.html",
+      "summary": "An interest-only extension may require lender reassessment."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.nab.com.au/help-support/personal-banking/manage-home-loan/mortgage-discharge/business-checklist",
+      "summary": "A business-security discharge has its own owner, representative and borrower documents."
+    }
+  ],
+  "internalLinks": {
+    "from": [],
+    "to": [
+      "/services/refinancing-solutions",
+      "/resources/guides/commercial-loan-maturity-refinance-australia",
+      "/resources/guides/private-lending-vs-bank-lending-which-is-better",
+      "/resources/guides/commercial-property-loans-australia-complete-guide",
+      "/resources/guides/private-credit-refinance-commercial-property-australia"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "Relevant Australian organic visits to this guide that continue to its service owner and a business-purpose enquiry where attribution is available.",
+    "successRule": "Review at28,56and90days: inspect relevant AU queries/clicks, service transitions and available qualified opportunities; retain useful intent coverage while evidence develops. Missing lead data stays unavailable.",
+    "exitRule": "Investigate consolidation only if actual query/intent overlap with an existing owner is demonstrated; low traffic alone is not a removal rule. Repair weak sections or targeting based on evidence.",
+    "reviewDays": [
+      28,
+      56,
+      90
+    ],
+    "firstReviewAt": "2026-10-07T00:06:45.034Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 6,
+      "top20Probability": 5,
+      "conversionPotential": 12,
+      "evidenceAuthority": 9,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 70,
+    "reviewer": "Codex root independent of drafting agent",
+    "reviewedAt": "2026-09-06T13:47:06.096217+00:00",
+    "rationale": {
+      "commercialFit": "Direct business-purpose property transaction and an existing service owner.",
+      "demonstratedDemand": "Low score: only May2026 AU parent-cluster Semrush evidence; exact-topic current volume unavailable.",
+      "top20Probability": "Low confidence editorial judgement, not a numerical ranking probability; no current rank-tracking evidence for this new URL.",
+      "conversionPotential": "A specific application-preparation task can connect to the service enquiry; no conversion forecast.",
+      "evidenceAuthority": "Primary public sources support the procedural content; original suggestions are labelled editorial, not universal requirements.",
+      "differentiation": "Timeline separating interest-only expiry, fixed-rate expiry, review date and final maturity; existing/extension/refinance evidence matrix; lender-dependency tracker and hypothetical review scenario.",
+      "internalLinkFit": "Existing service and broader guides can receive contextual links without changing their ownership."
+    },
+    "sourceSha256": "45f45be69c7a3554250c92a1105ad3cf7afa84dd7a6dd85a877969a41a7f757e"
+  },
+  "approval": {
+    "automated": true,
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-09-09T00:06:45.034Z",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-09-06.1",
+    "policyChecksum": "810d6818a0526932ed8fac8a62aeaa6c32a11db611200d27501490a0f0bcb133",
+    "basis": "Due reviewed low-risk package, actual opportunity assessment and exact date-only source revalidation under the current single-publisher policy."
+  },
+  "qualityReview": {
+    "promptVersion": "article-quality-v1",
+    "evaluatorModel": "gpt-6-astra",
+    "reviewedAt": "2026-09-06T12:21:38.968568+00:00",
+    "dimensions": {
+      "intentCoverage": 92,
+      "informationGain": 89,
+      "specificity": 92,
+      "evidence": 93,
+      "readability": 90,
+      "repetition": 84,
+      "compliance": 95,
+      "aiAnswerUsefulness": 92
+    },
+    "overallScore": 90.9,
+    "blockingFindings": [],
+    "sourceClaimMap": [
+      {
+        "claim": "A business facility may combine an initial interest-only period with later principal-and-interest repayments.",
+        "sourceUrl": "https://www.commbank.com.au/business/loans-and-finance/betterbusiness-loan.html",
+        "assessment": "Direct current primary-product support; article explicitly avoids generalising CBA terms.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      },
+      {
+        "claim": "An interest-only extension may require lender reassessment.",
+        "sourceUrl": "https://www.commbank.com.au/business/articles/what-is-an-interest-only-business-loan.html",
+        "assessment": "Source example is dated 2022 and scoped to that lender; no example rates or numerical criteria copied.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      },
+      {
+        "claim": "A business-security discharge has its own owner, representative and borrower documents.",
+        "sourceUrl": "https://www.nab.com.au/help-support/personal-banking/manage-home-loan/mortgage-discharge/business-checklist",
+        "assessment": "Direct checklist support; no universal processing time asserted.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      }
+    ],
+    "reviewer": "Codex independent automation_process subagent",
+    "automated": true,
+    "isHumanFinancialReview": false,
+    "sourceSha256": "45f45be69c7a3554250c92a1105ad3cf7afa84dd7a6dd85a877969a41a7f757e",
+    "publicationSourceSha256": "e9e786aaedf14a41a96f171fb0b039f313493eab161e88733bf55dac940bc22e",
+    "publicationMetadataRevalidation": {
+      "method": "exact-frontmatter-date-only",
+      "operator": "openclaw-new-20260909-6b8c32b9",
+      "checkedAt": "2026-09-09T00:06:45.034Z",
+      "simulationOnly": false,
+      "beforeSha256": "45f45be69c7a3554250c92a1105ad3cf7afa84dd7a6dd85a877969a41a7f757e",
+      "afterSha256": "e9e786aaedf14a41a96f171fb0b039f313493eab161e88733bf55dac940bc22e",
+      "bodySha256": "bcde039388e5b8179a2099f5544d177336ef2a8a4a466c38b465b76ddd1f7c33",
+      "originalReviewUnchanged": true
+    }
+  }
+}

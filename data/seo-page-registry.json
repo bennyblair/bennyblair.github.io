@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-09-07T00:05:48.735Z",
+  "generatedAt": "2026-09-09T00:06:45.034Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -21651,7 +21651,50 @@
         "exitRuleId": "er_low_value_overlap_v1"
       },
       "programIds": []
+    },
+    {
+      "pageId": "pg_4c453e453ef040339b8f54a5d080b054",
+      "path": "/resources/guides/commercial-interest-only-period-ending-refinance-australia",
+      "sourcePath": "src/content/guides/commercial-interest-only-period-ending-refinance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "commercial interest only expiry loan review documents",
+        "intent": "informational",
+        "designatedServicePagePath": "/services/refinancing-solutions",
+        "designatedServicePageId": "pg_cc5df2d2386b456e959bd2841f0247f5",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 4,
+        "reviewEveryDays": 365,
+        "reviewedBy": "Codex automated content review",
+        "reviewedAt": "2026-09-06",
+        "expiresAt": "2026-12-06"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-10-07T00:06:45.034Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_prop_f6e9588af4f74c98a39b33f1d8707263",
+        "lastMaterialChangeAt": "2026-09-09T00:06:45.034Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     }
   ],
-  "checksum": "d4f70240927cedacafcff1dfcabbeb42bff3ae91f700ccd7e57f717e4f24c24b"
+  "checksum": "ebfa3b83554b8f29a2da978bb625ed7fcf7d0ff0264029bbe80d34e17e44df8b"
 }
