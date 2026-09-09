@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Emet Capital">
+  <rect width="64" height="64" rx="12" fill="#1c1c17"/>
+  <g fill="#efede7" transform="translate(12 12)">
+    <path d="M0 0h6v38L0 42z"/>
+    <path d="M11 0h6v31l-6 4z"/>
+    <path d="M22 0h6v24l-6 4z"/>
+    <path d="M33 0h6v17l-6 4z"/>
+  </g>
+</svg>

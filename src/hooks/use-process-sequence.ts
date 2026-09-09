@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState, type RefObject } from "react";
 
-const DURATION = 7800;
-const ARRIVALS = [0, 2200, 4400, 6600];
-const HOLD = 1200;
+const DURATION = 5200;
+const ARRIVALS = [0, 1450, 2900, 4350];
+const HOLD = 850;
 
 /** A finite, visibility-aware sequence. Native scrolling never advances its clock. */
 export function useProcessSequence(root: RefObject<HTMLDivElement>, globallyPaused: boolean) {
@@ -45,7 +45,7 @@ export function useProcessSequence(root: RefObject<HTMLDivElement>, globallyPaus
     const sync = () => {
       const time = Math.max(0, Math.min(DURATION, Number(master.currentTime) || 0));
       effects.forEach(effect => { effect.currentTime = time; });
-      setActiveStage(Math.min(3, Math.floor((time + .5) / 2200)));
+      setActiveStage(Math.min(3, Math.floor((time + .5) / 1450)));
     };
     const tick = () => {
       frame = 0;
