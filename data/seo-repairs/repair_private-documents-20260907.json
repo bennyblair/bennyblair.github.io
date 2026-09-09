@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-documents-20260907",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-09-06.1",
+  "policyChecksum": "bb391cb2061435cdcf5936a01acb11b42d5da688887de49aec4c0f559e930ddd",
+  "authorizationRef": "codex-property-content-programme-2026-09-06",
+  "baseSha": "3f74ec23a00a1580f545185aedfbd58aeadd5b91",
+  "editor": "Codex root editorial preparation",
+  "review": {
+    "reviewer": "Codex independent content_process subagent",
+    "reviewedAt": "2026-09-06T21:29:29.281Z",
+    "score": 90.9,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-mortgage-lending-commercial-borrowers.md",
+      "pageId": "pg_eb8b58ed9ca842139fccea02f455ba47",
+      "path": "/resources/guides/private-mortgage-lending-commercial-borrowers",
+      "beforeSha256": "083d0298b9617080df958e2f63bbeff08b0d74bf35f235937e4f4dfec0a9dbb4",
+      "afterSha256": "a48003880791b2353202c280eb7f77983ac6bc3403f30a13b4087864ef0cfdd7",
+      "reason": "Turn a generic document list into a practical four-transaction preparation checklist, reduce duplicate navigation, connect the enquiry to its existing service and complete permitted image/title metadata. Preserve all protected risk/reviewer/date fields and unchanged financial comparisons.",
+      "evidence": [
+        {
+          "reference": "seo/content-programme-repairs/editorial-20260907-private-mortgage-lending-commercial-borrowers/independent-review.json"
+        },
+        {
+          "reference": "reports/content-programme/editorial-20260907/repair-source-brief.json"
+        },
+        {
+          "reference": "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+        }
+      ],
+      "metadataReview": {
+        "reviewer": "Codex independent content_process subagent",
+        "reviewedAt": "2026-09-06T21:29:29.281Z",
+        "contentRisk": "low",
+        "protectedMetadataUnchanged": true,
+        "changedKeys": [
+          "sources",
+          "metaTitle",
+          "metaDescription",
+          "featuredImageAlt",
+          "featuredImage"
+        ],
+        "riskFieldBefore": "low",
+        "riskFieldAfter": "low",
+        "scope": "Allowed authored title/description, image/alt, source list and designated service fields only; original author, publication/review dates, risk, review identity, canonical/URL and expiry fields preserved.",
+        "financialReviewCompleted": false,
+        "routineSubstantiveEligibility": "eligible-for-one-url-handoff-subject-to-exact-base-manifest-and-all-release-gates"
+      },
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Documents To Prepare for Your Property Transaction"
+        },
+        {
+          "kind": "text-added",
+          "value": "Start with a short transaction summary, then group the supporting documents by what you need the funding to do."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Related In-Depth Guides"
+        }
+      ]
+    }
+  ]
+}

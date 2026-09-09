@@ -1,4 +1,8 @@
 ---
+metaTitle: "Private Mortgage Lending for Commercial Borrowers"
+metaDescription: "Compare private mortgage lending for Australian commercial borrowers: when property-backed funding fits, lender checks and key bank alternatives."
+featuredImageAlt: "Sunlight across the patterned glass wall and structural frame of a commercial building"
+featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
 title: "Private Mortgage Lending for Commercial Borrowers"
 description: "Compare private mortgage lending for Australian commercial borrowers: when property-backed funding fits, lender checks and key bank alternatives."
 date: "2026-05-27"
@@ -26,22 +30,16 @@ contentRisk: "low"
 reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
 sources:
+  - label: "business.gov.au - Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "business.gov.au — Choose your funding"
     url: "https://business.gov.au/finance/funding/choose-your-funding"
 ---
 
 Private mortgage lending for commercial borrowers is property-backed business finance funded outside a standard bank process. In Australia, business owners, property investors, and developers usually consider it when they have a commercial purpose, usable property security, and a timing or policy issue that makes mainstream lending difficult.
 
-In plain terms, private mortgage lending is not a retail home-loan substitute. It is a commercial funding pathway for eligible business borrowers where the lender is focused on security, equity, loan purpose, repayment capacity, documents, and a defined exit strategy. Emet Capital helps borrowers compare [private lending options](/services/private-lending) with [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide).
+In plain terms, private mortgage lending is not a retail home-loan substitute. It is a commercial funding pathway for eligible business borrowers where the lender is focused on security, equity, loan purpose, repayment capacity, documents, and a defined exit strategy. Emet Capital helps borrowers compare [private lending options](/services/private-lending) with second mortgages, bridging finance, and [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide).
 
-### Related In-Depth Guides
-
-- **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — the broader private lending framework for commercial borrowers.
-- **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare bank and non-bank lending paths.
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — understand property-backed lending behind an existing first mortgage.
-- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — compare urgent caveat finance with mortgage-backed private lending.
-- **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — the main commercial property finance hub.
-- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — where private mortgage lending may be used as a refinance bridge.
 
 ## At a Glance
 
@@ -58,7 +56,7 @@ In plain terms, private mortgage lending is not a retail home-loan substitute. I
 
 This guide is for commercial borrowers who are comparing private mortgage lending with bank finance or other non-bank options. It is relevant if you own or control property that may support a business-purpose facility and you need capital for a commercial transaction, refinance, acquisition, tax timing issue, working-capital gap, or settlement deadline.
 
-It is also useful for brokers and advisers who need a plain-English framework for explaining the difference between private mortgage lending, [commercial private loans](/resources/guides/private-commercial-loans-for-smes), [private commercial loans after bank decline](/resources/guides/private-commercial-loans-after-bank-decline), and more urgent structures such as caveat loans.
+It is also useful for brokers and advisers who need a plain-English framework for explaining the difference between private mortgage lending, commercial private loans, private commercial loans after bank decline, and more urgent structures such as caveat loans.
 
 ## What Is Private Mortgage Lending?
 
@@ -82,7 +80,7 @@ Private mortgage lending is usually not suitable when there is no credible exit 
 
 It is also not ideal when the borrower has enough time and documentation for cheaper mainstream finance. If a standard bank refinance can settle comfortably within the required timeframe, a private mortgage structure may be unnecessary.
 
-The structure can also be risky when property security is being used to cover recurring operating losses. Short-term secured debt should not be used to hide a long-term cash-flow problem. In those scenarios, [working capital loans](/resources/guides/working-capital-loans-for-smes), [business debt consolidation](/resources/guides/business-debt-consolidation-australia), accounting advice, or restructuring advice may need to be considered first.
+The structure can also be risky when property security is being used to cover recurring operating losses. Short-term secured debt should not be used to hide a long-term cash-flow problem. In those scenarios, working capital loans, business debt consolidation, accounting advice, or restructuring advice may need to be considered first.
 
 ## How Private Mortgage Lenders Assess A File
 
@@ -90,7 +88,7 @@ Private mortgage lenders usually start with the property. They assess security t
 
 The second focus is purpose. A lender wants to know why the money is needed and whether the purpose makes commercial sense. Examples include refinance, settlement, business debt restructure, equipment purchase, acquisition support, tax timing, or project completion.
 
-The third focus is exit. The exit may be a property sale, refinance, incoming business funds, project completion, debtor collection, or another defined capital event. For borrowers comparing exits, [caveat loan exit strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance) is useful even where the final structure is a mortgage rather than a caveat.
+The third focus is exit. The exit may be a property sale, refinance, incoming business funds, project completion, debtor collection, or another defined capital event. For borrowers comparing exits, reviewing repayment strategies is useful even where the final structure is a mortgage rather than a caveat.
 
 ## Private Mortgage Lending vs Bank Lending
 
@@ -102,7 +100,7 @@ The third focus is exit. The exit may be a property sale, refinance, incoming bu
 | Documentation | Still needed, but often more focused | Usually broader and more standardised |
 | Best role | Transitional, urgent, or non-standard commercial funding | Long-term, stable commercial funding |
 
-Private mortgage lending is not automatically better than bank lending. It is a different tool. If the file is bankable and timing is comfortable, bank finance may be cleaner. If timing, policy, or complexity is the blocker, [bank vs non-bank commercial lending](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved) becomes the more useful comparison.
+Private mortgage lending is not automatically better than bank lending. It is a different tool. If the file is bankable and timing is comfortable, bank finance may be cleaner. If timing, policy, or complexity is the blocker, bank vs non-bank commercial lending becomes the more useful comparison.
 
 ## Private Mortgage Lending vs Caveat Loans
 
@@ -120,13 +118,33 @@ A second mortgage may be useful when the borrower wants to preserve an existing 
 
 The decision depends on existing lender consent, total leverage, title position, cost, urgency, and whether the current first mortgage should stay in place. For more detail, see [second mortgage without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia) and [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences).
 
-## Documents To Prepare
+## Documents To Prepare for Your Property Transaction
 
-A strong private mortgage lending file usually includes identification, entity structure, property details, title information, existing debt statements, rates notices, leases if relevant, business bank statements, tax or BAS position, and a clear written summary of the funding purpose and exit.
+Start with a short transaction summary, then group the supporting documents by what you need the funding to do. This is a preparation guide, not a lender's complete application checklist.
 
-For commercial property, lenders may also request lease schedules, valuation evidence, contracts of sale, refinance statements, development documents, insurance evidence, or council and planning information. For business-purpose funding, they may ask for financial statements, management accounts, debtor listings, creditor summaries, or evidence of incoming funds.
+### Purchase
 
-Good preparation improves speed. It also helps a broker match the file to lenders with appetite for the exact property, borrower, and exit. A rushed file with missing title, unclear ownership, or vague exit will usually be slower and harder to place.
+Gather the contract of sale, buyer/entity details and settlement timetable. List documents still being prepared by the conveyancer or seller.
+
+### Refinance
+
+Gather existing facility documents, recent statements and the maturity date. Identify any payout information not yet received from the current lender.
+
+### Bridge
+
+Group the documents for the payment due separately from evidence of the expected incoming funds. Flag dates or conditions that have not been confirmed.
+
+### Release equity for business use
+
+Gather property details, existing debt statements and the business use-of-funds summary. Identify supporting quotes, invoices or contracts still outstanding.
+
+Keep the property owner, proposed borrower and relevant company or trust names clear. Label each statement or valuation with its date, and identify estimates as estimates. Ask your broker which identity, business financial, lease, title and security documents are needed for the particular application; these preparation notes do not replace lender instructions.
+
+The Australian Government's [business-loan application guide](https://business.gov.au/finance/funding/apply-for-a-business-loan) also covers understanding your finances and preparing financial reports and other paperwork.
+
+A useful enquiry summary is: "We need funding for [business transaction], by [date], with [property] proposed as security. The intended repayment event is [event], and these documents are still outstanding: [list]." Do not describe an expected approval, refinance or sale as confirmed unless you have the relevant evidence.
+
+You can take that summary to Emet Capital's [private lending service](/services/private-lending). The next step is a discussion of the transaction and the documents required for assessment; an enquiry is not approval.
 
 ## How Emet Capital Frames The Decision
 
@@ -134,7 +152,7 @@ Emet Capital usually starts with four questions: what is the commercial purpose,
 
 A strong file has a specific business reason, enough equity, clean or explainable documents, and a believable repayment path. A weak file relies on urgency alone. Speed helps, but speed does not fix a poor exit or an unrealistic valuation.
 
-Where private mortgage lending is not the cleanest fit, alternatives may include [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), [invoice finance](/resources/guides/invoice-finance-australia-complete-guide), [business acquisition finance](/resources/guides/business-acquisition-finance-australia), or waiting for a mainstream commercial property refinance.
+Where private mortgage lending is not the cleanest fit, alternatives may include asset-backed lending, invoice finance, business acquisition finance, or waiting for a mainstream commercial property refinance.
 
 ## Private Mortgage Lending: The Short Answer
 
