@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-09-09T00:06:45.034Z",
+  "generatedAt": "2026-09-14T00:06:58.057Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -21694,7 +21694,50 @@
         "exitRuleId": "er_low_value_overlap_v1"
       },
       "programIds": []
+    },
+    {
+      "pageId": "pg_e2ba0d6c40564387ab7806279c3302a5",
+      "path": "/resources/guides/business-loan-against-outright-owned-property-australia",
+      "sourcePath": "src/content/guides/business-loan-against-outright-owned-property-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "business loan outright owned property documents",
+        "intent": "informational",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 3,
+        "reviewEveryDays": 365,
+        "reviewedBy": "Codex automated content review",
+        "reviewedAt": "2026-09-06",
+        "expiresAt": "2026-12-06"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2026-10-12T00:06:58.057Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_prop_894293debd574ddfb9ebd206a3f12074",
+        "lastMaterialChangeAt": "2026-09-14T00:06:58.057Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     }
   ],
-  "checksum": "ebfa3b83554b8f29a2da978bb625ed7fcf7d0ff0264029bbe80d34e17e44df8b"
+  "checksum": "f1ca20c3fcd332ef5137368dcb9568e702e3ebb36fae539e3ce6da79dde70aa6"
 }

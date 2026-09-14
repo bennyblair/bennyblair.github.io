@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_894293debd574ddfb9ebd206a3f12074",
+  "pageId": "pg_e2ba0d6c40564387ab7806279c3302a5",
+  "path": "/resources/guides/business-loan-against-outright-owned-property-australia",
+  "sourcePath": "src/content/guides/business-loan-against-outright-owned-property-australia.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "Prepare ownership, earlier security, business-purpose and repayment documents when offering a property believed to have no current mortgage debt. Document preparation; no recommendation to mortgage property, maximum borrowing/LVR estimate, classification of mortgage priority, credit-law interpretation or predicted approval.",
+  "targeting": {
+    "primaryQuery": "business loan outright owned property documents",
+    "intent": "informational",
+    "audience": "Australian business-purpose borrowers using residential or commercial property security",
+    "country": "AU"
+  },
+  "uniqueValue": [
+    "Ownership/borrower document distinction, previous-discharge evidence checklist, gross-to-net funding schedule, business-purpose table and hypothetical discovery of an outstanding release dependency."
+  ],
+  "evidence": [
+    {
+      "type": "historical-semrush-parent-cluster",
+      "summary": "Historical AU May 2026 parent-cluster estimate only; exact outright-owned query not measured.",
+      "checkedAt": "2026-09-06T13:47:06.098622+00:00",
+      "reference": "Archived Australian Semrush May2026 research; business loans against property"
+    },
+    {
+      "type": "current-search-results",
+      "summary": "Results include business property security lenders and substantial consumer/other-asset intent. The document guide must stay explicitly business-purpose and should be treated as a bounded content experiment.",
+      "checkedAt": "2026-09-06T13:45:58Z",
+      "url": "https://mangocredit.com.au/business-loans/"
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.commbank.com.au/business/loans-and-finance/betterbusiness-loan.html",
+      "summary": "A lender can accept residential or commercial property as proposed business-loan security."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.nab.com.au/help-support/personal-banking/manage-home-loan/mortgage-discharge/business-checklist",
+      "summary": "Releasing business mortgage security requires separate owner/property/representative details."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+      "summary": "Property securing a business loan can be exposed if it is not repaid."
+    }
+  ],
+  "internalLinks": {
+    "from": [],
+    "to": [
+      "/services/first-second-mortgages",
+      "/resources/guides/business-loans-secured-by-residential-property-in-australia",
+      "/resources/guides/first-mortgage-loans-primary-property-finance",
+      "/resources/guides/second-mortgages-for-business-guide",
+      "/resources/guides/commercial-property-loans-australia-complete-guide",
+      "/resources/guides/business-acquisition-finance-australia"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "Relevant Australian organic visits to this guide that continue to its service owner and a business-purpose enquiry where attribution is available.",
+    "successRule": "Review at28,56and90days: inspect relevant AU queries/clicks, service transitions and available qualified opportunities; retain useful intent coverage while evidence develops. Missing lead data stays unavailable.",
+    "exitRule": "Investigate consolidation only if actual query/intent overlap with an existing owner is demonstrated; low traffic alone is not a removal rule. Repair weak sections or targeting based on evidence.",
+    "reviewDays": [
+      28,
+      56,
+      90
+    ],
+    "firstReviewAt": "2026-10-12T00:06:58.057Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 23,
+      "demonstratedDemand": 5,
+      "top20Probability": 5,
+      "conversionPotential": 12,
+      "evidenceAuthority": 9,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 68,
+    "reviewer": "Codex root independent of drafting agent",
+    "reviewedAt": "2026-09-06T13:47:06.098622+00:00",
+    "rationale": {
+      "commercialFit": "Direct business-purpose property transaction and an existing service owner.",
+      "demonstratedDemand": "Low score: only May2026 AU parent-cluster Semrush evidence; exact-topic current volume unavailable.",
+      "top20Probability": "Low confidence editorial judgement, not a numerical ranking probability; no current rank-tracking evidence for this new URL.",
+      "conversionPotential": "A specific application-preparation task can connect to the service enquiry; no conversion forecast.",
+      "evidenceAuthority": "Primary public sources support the procedural content; original suggestions are labelled editorial, not universal requirements.",
+      "differentiation": "Ownership/borrower document distinction, previous-discharge evidence checklist, gross-to-net funding schedule, business-purpose table and hypothetical discovery of an outstanding release dependency.",
+      "internalLinkFit": "Existing service and broader guides can receive contextual links without changing their ownership."
+    },
+    "sourceSha256": "9cb0cdfac329bbf696ccb6b548988fcbbea2d19ca1870e0984633bee278a3db5"
+  },
+  "approval": {
+    "automated": true,
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-09-14T00:06:58.057Z",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-09-06.1",
+    "policyChecksum": "810d6818a0526932ed8fac8a62aeaa6c32a11db611200d27501490a0f0bcb133",
+    "basis": "Due reviewed low-risk package, actual opportunity assessment and exact date-only source revalidation under the current single-publisher policy.",
+    "exceptionReason": "Bounded business-purpose long-tail experiment authorized within the three-per-week programme. The68/100 score reflects unknown exact demand and mixed consumer search intent, not a quality failure. Distinct debt-free document preparation, a direct mortgage-service connection and28/56/90day review justify a single article; no volume/ranking/lead forecast is made."
+  },
+  "qualityReview": {
+    "promptVersion": "article-quality-v1",
+    "evaluatorModel": "gpt-6-astra",
+    "reviewedAt": "2026-09-06T12:21:38.968568+00:00",
+    "dimensions": {
+      "intentCoverage": 92,
+      "informationGain": 91,
+      "specificity": 93,
+      "evidence": 92,
+      "readability": 89,
+      "repetition": 85,
+      "compliance": 94,
+      "aiAnswerUsefulness": 92
+    },
+    "overallScore": 91,
+    "blockingFindings": [],
+    "sourceClaimMap": [
+      {
+        "claim": "A lender can accept residential or commercial property as proposed business-loan security.",
+        "sourceUrl": "https://www.commbank.com.au/business/loans-and-finance/betterbusiness-loan.html",
+        "assessment": "Direct current lender example; article does not claim universal acceptance.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      },
+      {
+        "claim": "Releasing business mortgage security requires separate owner/property/representative details.",
+        "sourceUrl": "https://www.nab.com.au/help-support/personal-banking/manage-home-loan/mortgage-discharge/business-checklist",
+        "assessment": "Direct support for checking discharge records rather than treating a balance as the whole title file.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      },
+      {
+        "claim": "Property securing a business loan can be exposed if it is not repaid.",
+        "sourceUrl": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+        "assessment": "Direct support for the general security-risk statement.",
+        "sourceType": "primary",
+        "checkedAt": "2026-09-06T12:21:38.968568+00:00",
+        "verificationMethod": "Live web read of primary source"
+      }
+    ],
+    "reviewer": "Codex independent automation_process subagent",
+    "automated": true,
+    "isHumanFinancialReview": false,
+    "sourceSha256": "9cb0cdfac329bbf696ccb6b548988fcbbea2d19ca1870e0984633bee278a3db5",
+    "publicationSourceSha256": "b3752da37fd34861eec38271fa5b18e661672cbb927877a9aea999e2e463d865",
+    "publicationMetadataRevalidation": {
+      "method": "exact-frontmatter-date-only",
+      "operator": "cron-6b8c32b9-20260914",
+      "checkedAt": "2026-09-14T00:06:58.057Z",
+      "simulationOnly": false,
+      "beforeSha256": "9cb0cdfac329bbf696ccb6b548988fcbbea2d19ca1870e0984633bee278a3db5",
+      "afterSha256": "b3752da37fd34861eec38271fa5b18e661672cbb927877a9aea999e2e463d865",
+      "bodySha256": "70140617a0235547b14814fcb397b3ad89615bf125d8847d84a5646117ba372d",
+      "originalReviewUnchanged": true
+    }
+  }
+}
