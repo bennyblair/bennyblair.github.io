@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
+import matter from "gray-matter";
 import { buildContentIndex } from "../lib/content-index.mjs";
 import { buildProtectedRouteMap } from "../lib/protected-cohort-policy.mjs";
 import {
@@ -89,10 +90,26 @@ test("all protected remediation and active growth-observation routes are represe
   );
   const day28 = outstanding.reviewSchedule.find((item: any) => item.label === "day_28");
   assert.ok(day28?.reviewAt);
+  const programmeMinimum = Date.parse(`${day28.reviewAt}T00:00:00+10:00`);
   for (const target of outstanding.targets) {
     const registered = registry.pages.find((page: any) => page.path === target.path);
-    assert.equal(registered.lifecycle.protectedUntil, `${day28.reviewAt}T00:00:00+10:00`, target.path);
+    assert.ok(
+      Date.parse(registered.lifecycle.protectedUntil) >= programmeMinimum,
+      `${target.path}: page-level review extension must not shorten the programme minimum`,
+    );
     assert.equal(registered.lifecycle.reviewAt, registered.lifecycle.protectedUntil, target.path);
+  }
+});
+
+test("explicit content observation dates remain authoritative before and after expiry", () => {
+  for (const page of registry.pages.filter((item: any) => String(item.sourcePath || "").startsWith("src/content/"))) {
+    const sourcePath = path.join(repoRoot, page.sourcePath);
+    const source = matter(fs.readFileSync(sourcePath, "utf8")).data;
+    const protectedUntil = source.protectedUntil || source.protected_until;
+    if (!protectedUntil) continue;
+    assert.ok(Number.isFinite(Date.parse(String(protectedUntil))), `${page.path}: invalid source protectedUntil`);
+    assert.equal(page.lifecycle.protectedUntil, String(protectedUntil), page.path);
+    assert.equal(page.lifecycle.reviewAt, String(protectedUntil), page.path);
   }
 });
 

@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import matter from "gray-matter";
 import { checksum, validateRegistry } from "./lib/seo-control-plane.mjs";
 
 const registryPath = path.join(process.cwd(), "data", "seo-page-registry.json");
@@ -35,6 +36,32 @@ if (!errors.length) {
   for (const page of registry.pages || []) {
     for (const programId of page.programIds || []) {
       if (!programIds.has(programId)) errors.push(`${page.path}: unknown programId ${programId}`);
+    }
+
+    // A later branch can regenerate or merge the registry from an older base and
+    // silently restore an already-reviewed page's prior review date. Keep future
+    // source-level observation holds authoritative and fail CI on registry drift.
+    if (String(page.sourcePath || "").startsWith("src/content/")) {
+      const sourcePath = path.join(process.cwd(), page.sourcePath);
+      if (!fs.existsSync(sourcePath)) {
+        errors.push(`${page.path}: content source is missing: ${page.sourcePath}`);
+        continue;
+      }
+      const source = matter(fs.readFileSync(sourcePath, "utf8")).data;
+      const sourceProtectedUntil = source.protectedUntil || source.protected_until;
+      if (sourceProtectedUntil) {
+        const parsedProtectedUntil = Date.parse(String(sourceProtectedUntil));
+        if (!Number.isFinite(parsedProtectedUntil)) {
+          errors.push(`${page.path}: content source protectedUntil is invalid`);
+        } else {
+          if (page.lifecycle?.protectedUntil !== String(sourceProtectedUntil)) {
+            errors.push(`${page.path}: registry protectedUntil differs from content source; run npm run seo:registry:generate`);
+          }
+          if (page.lifecycle?.reviewAt !== String(sourceProtectedUntil)) {
+            errors.push(`${page.path}: registry reviewAt differs from content source protection; run npm run seo:registry:generate`);
+          }
+        }
+      }
     }
   }
 }

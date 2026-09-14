@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-09-14T00:06:58.057Z",
+  "generatedAt": "2026-09-14T02:35:00.000Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -2617,8 +2617,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
@@ -2748,8 +2748,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
@@ -2838,8 +2838,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
@@ -3089,7 +3089,7 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
         "reviewedBy": "OpenClaw SEO content audit",
         "reviewedAt": "2026-08-05",
@@ -3098,8 +3098,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_commit_c18cbee",
         "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
@@ -3220,7 +3220,7 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
         "reviewedBy": "OpenClaw SEO content audit",
         "reviewedAt": "2026-08-05",
@@ -3229,8 +3229,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_commit_c18cbee",
         "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
@@ -4360,8 +4360,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
@@ -4450,8 +4450,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
@@ -4583,8 +4583,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_commit_c18cbee",
         "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
@@ -4759,8 +4759,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
@@ -4933,8 +4933,8 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
-        "protectedUntil": "2026-09-02T00:00:00+10:00",
+        "reviewAt": "2026-10-05T00:00:00+10:00",
+        "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
@@ -21739,5 +21739,5 @@
       "programIds": []
     }
   ],
-  "checksum": "f1ca20c3fcd332ef5137368dcb9568e702e3ebb36fae539e3ce6da79dde70aa6"
+  "checksum": "6daea9432e6bdbee96ffd25f56a24ba3aa1235a75e3b80bf88e751e927c6c563"
 }

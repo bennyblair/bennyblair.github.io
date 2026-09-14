@@ -285,7 +285,14 @@ for (const article of Object.values(contentIndex).flat() as JsonRecord[]) {
   const protectedItem = protectedByPath.get(pathValue);
   const lifecycle = lifecycleFor(pathValue, indexability, article.noindex ? "noindex" : "none");
   const explicitProtectedUntil = explicitValue(source.data, "protectedUntil", "protected_until");
-  if (explicitProtectedUntil && Date.parse(String(explicitProtectedUntil)) > Date.now()) {
+  if (explicitProtectedUntil) {
+    const parsedProtectedUntil = Date.parse(String(explicitProtectedUntil));
+    if (!Number.isFinite(parsedProtectedUntil)) {
+      throw new Error(`${pathValue}: invalid protectedUntil in content source`);
+    }
+    // Preserve the declared observation boundary even after it expires. An
+    // expired date should make the page review-due, not allow a regeneration
+    // from another branch to replace it with an older programme date.
     lifecycle.protectedUntil = String(explicitProtectedUntil);
     lifecycle.lastMaterialChangeId = `chg_content_review_${String(article.reviewedAt || source.data.reviewedAt || "manual").replaceAll(/[^0-9a-z]+/gi, "_")}`;
     lifecycle.lastMaterialChangeAt = article.reviewedAt || source.data.reviewedAt || new Date().toISOString();
