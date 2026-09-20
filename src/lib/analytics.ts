@@ -2,7 +2,7 @@ import { isDesignPreview } from "./design-preview";
 import { normaliseTransactionPurpose } from "./transactions";
 
 export const ANALYTICS_IDS = {
-  ga4: "G-EWJCDYNTCG",
+  ga4: "G-2FJ6VHKZ2Z",
   googleAds: "AW-16887067533",
   googleAdsLead: "AW-16887067533/w2SACJ7PzssaEI3nsPQ-",
   googleAdsPhoneClick: "AW-16887067533/SjEyCMyOn_4cEI3nsPQ-",
