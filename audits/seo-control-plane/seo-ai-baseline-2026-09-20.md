@@ -88,6 +88,7 @@ New pages should be proposed only after the inventory and current query evidence
 | Indexation register and consolidations | #205 | `40f51ff924cbb7e05470fac8786bbea3cc1f135b` | Revert this merge commit and use `consolidation-map-2026-09-20.csv` |
 | Analytics event routing | #206 | `03fdb0d34cc6ec92b529acd5df92bf7796b7baca` | Revert this merge commit |
 | Google tag destination isolation | #207 | `e63ae4b7d7803f643f36f4bacdcdc184bd96c8dd` | Revert this merge commit |
+| Priority content batch 1 | #209 | `5817e2ea1ab5b3e215b6f098e7d543851463e9ed` | Revert this merge commit; independent automated editorial score 91.3/100 |
 
 The consolidation map is the authoritative source-to-destination record. Released mappings are direct 301s, and internal route/redirect checks prevent chains and conflicts.
 
