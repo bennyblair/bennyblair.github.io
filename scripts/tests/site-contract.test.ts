@@ -58,6 +58,25 @@ test("the legacy terms-and-conditions route redirects directly to the canonical 
   assert.deepEqual(redirect, { from: "/terms-and-conditions", to: "/terms", status: 301 });
 });
 
+test("excluded legacy guide URLs redirect directly to their current intent owners", () => {
+  const redirects = new Map(redirectRules.map((rule) => [rule.from, rule]));
+  assert.deepEqual(redirects.get("/resources/guides/director-guarantees-in-business-loans"), {
+    from: "/resources/guides/director-guarantees-in-business-loans",
+    to: "/resources/guides/personal-guarantee-business-loan-australia",
+    status: 301,
+  });
+  assert.deepEqual(redirects.get("/resources/guides/invoice-finance-vs-property-loans"), {
+    from: "/resources/guides/invoice-finance-vs-property-loans",
+    to: "/resources/guides/invoice-finance-australia-complete-guide",
+    status: 301,
+  });
+  assert.deepEqual(redirects.get("/resources/guides/second-mortgage-for-business-australia"), {
+    from: "/resources/guides/second-mortgage-for-business-australia",
+    to: "/resources/guides/second-mortgages-for-business-guide",
+    status: 301,
+  });
+});
+
 test("legacy GSC 404 URLs permanently redirect to current guide equivalents", () => {
   const redirects = new Map(redirectRules.map((rule) => [rule.from, rule]));
   assert.deepEqual(redirects.get("/resources/guides/second-mortgage-for-poor-credit"), {

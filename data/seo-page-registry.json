@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-09-20T04:42:45.219Z",
+  "generatedAt": "2026-09-20T05:30:56.917Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -8405,6 +8405,49 @@
       ]
     },
     {
+      "pageId": "pg_05ec53e5523143ba8b718ae90167a10f",
+      "path": "/resources/guides/director-guarantees-in-business-loans",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_209b97f8dd864756a3c50a696edb78ba",
+      "redirectToPath": "/resources/guides/personal-guarantee-business-loan-australia",
+      "targeting": {
+        "primaryQuery": "director guarantees in business loans legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_7e02a26eee254c58b41ca31c06d9d48c",
       "path": "/resources/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline",
       "sourcePath": "src/content/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline.md",
@@ -10063,6 +10106,49 @@
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
       ]
+    },
+    {
+      "pageId": "pg_14fb1b2cb59a4d3687ab564a1fa35a21",
+      "path": "/resources/guides/invoice-finance-vs-property-loans",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_687d7d8c73ed47d88dce76b5693dc3c7",
+      "redirectToPath": "/resources/guides/invoice-finance-australia-complete-guide",
+      "targeting": {
+        "primaryQuery": "invoice finance vs property loans legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
     },
     {
       "pageId": "pg_5873971c6a304a8b82c2f5343cc52552",
@@ -13101,6 +13187,49 @@
       "redirectToPath": "/resources/guides/second-mortgages-for-business-guide",
       "targeting": {
         "primaryQuery": "second mortgage for business legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_4f940086842944278707fbac6db8ba55",
+      "path": "/resources/guides/second-mortgage-for-business-australia",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_a1d238d40ad74f2b98c18b8da628a0a2",
+      "redirectToPath": "/resources/guides/second-mortgages-for-business-guide",
+      "targeting": {
+        "primaryQuery": "second mortgage for business australia legacy route",
         "intent": "redirect",
         "designatedServicePagePath": null,
         "designatedServicePageId": null,
@@ -21782,5 +21911,5 @@
       "programIds": []
     }
   ],
-  "checksum": "2418d5a374a201478fc9a83d794f80ea999be46d6308d91a65427b19bcc7b8d0"
+  "checksum": "136c2a92375bf30c00b8d5151664004766a2c55be6a611f2eebb199c04c3ca57"
 }
