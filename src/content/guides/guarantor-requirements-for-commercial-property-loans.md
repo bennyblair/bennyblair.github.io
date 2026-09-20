@@ -1,8 +1,8 @@
 ---
-title: "Commercial Property Loan Guarantor Requirements Australia"
+title: "Guarantor Requirements for Commercial Property Loans in Australia"
 description: "Understand who may guarantee an Australian commercial property loan, what the guarantee can support, key questions to ask and how lender requirements differ."
 metaTitle: "Commercial Property Loan Guarantor Requirements"
-metaDescription: "Learn who may guarantee an Australian commercial property loan, what lenders ask for, how support structures differ and which questions to clarify before signing."
+metaDescription: "Learn who may guarantee an Australian commercial property loan, what support lenders ask for and which questions to clarify before signing."
 featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
 featuredImageAlt: "Commercial property building facade illustrating property-backed business finance"
 date: "2026-04-13"
@@ -24,8 +24,8 @@ author_name: "Ben"
 designatedServicePage: "/services/commercial-property-finance"
 contentRisk: "medium"
 sources:
-  - label: "ASIC — Company director liabilities when things go wrong"
-    url: "https://asic.gov.au/for-business/small-business/starting-a-small-business-company/small-business-company-directors/company-director-liabilities-when-things-go-wrong/"
+  - label: "ASIC — Becoming a company director"
+    url: "https://www.asic.gov.au/for-business-and-companies/small-business-director-essentials/becoming-a-company-director"
   - label: "ASIC — Enhanced Banking Code of Practice"
     url: "https://asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-136mr-asic-approves-enhanced-banking-code-of-practice/"
 ---
@@ -33,14 +33,6 @@ sources:
 A guarantor for a commercial property loan is a person or entity that agrees to support the borrower’s obligations if the borrowing entity does not meet them. Australian lenders may ask company directors, trust-related parties, key principals or related entities to guarantee a business-purpose facility even when the property is already mortgaged. The exact exposure depends on the signed guarantee, so the proposed guarantor should obtain advice from a qualified Australian lawyer on its scope, limits and release conditions before signing.
 
 The key point is that a guarantee is not just a paperwork detail. It changes who carries risk. A commercial loan may be advanced to a company or trust, but the lender can still ask individuals behind that structure to stand behind the debt. That is why guarantor requirements matter just as much as the interest rate, loan term, or headline LVR when comparing [commercial property finance](/services/commercial-property-finance).
-
-## Related In-Depth Guides
-
-- **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broad overview of lender assessment and commercial property structures.
-- **[Commercial Property Loan Deposits in Australia: How Much Do You Need?](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)** — Useful if the lender is also asking for stronger equity support.
-- **[Commercial Property Refinance After a Bank Decline in Australia](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — Relevant where guarantee concerns form part of a credit decline.
-- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Helpful if the structure includes layered security or multiple facilities.
-- **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Useful if the transaction falls outside standard bank policy.
 
 ## At a Glance
 
@@ -269,4 +261,4 @@ Yes. Guarantee settings are part of the real commercial offer. Two lenders may l
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
