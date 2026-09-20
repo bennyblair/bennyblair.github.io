@@ -1,10 +1,10 @@
 ---
-metaTitle: "Private Mortgage Lending for Commercial Borrowers"
-metaDescription: "Compare private mortgage lending for Australian commercial borrowers: when property-backed funding fits, lender checks and key bank alternatives."
+metaTitle: "Private Mortgage Lending Australia | Commercial Guide"
+metaDescription: "Compare private mortgage lending for Australian commercial borrowers: suitable uses, documents, total-cost checks, lender assessment and alternatives."
 featuredImageAlt: "Sunlight across the patterned glass wall and structural frame of a commercial building"
 featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
-title: "Private Mortgage Lending for Commercial Borrowers"
-description: "Compare private mortgage lending for Australian commercial borrowers: when property-backed funding fits, lender checks and key bank alternatives."
+title: "Private Mortgage Lending Australia: Commercial Guide"
+description: "Compare private mortgage lending for Australian commercial borrowers: suitable uses, documents, total-cost checks, lender assessment and alternatives."
 date: "2026-05-27"
 category: "Private Lending"
 slug: "private-mortgage-lending-commercial-borrowers"
@@ -27,16 +27,18 @@ searchIntent: "commercial investigation"
 intentCluster: "private-lending"
 designatedServicePage: "/services/private-lending"
 contentRisk: "low"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw automated independent editorial reviewer"
+reviewedAt: "2026-09-20"
 sources:
   - label: "business.gov.au - Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "business.gov.au — Choose your funding"
     url: "https://business.gov.au/finance/funding/choose-your-funding"
+  - label: "Reserve Bank of Australia — Recent Changes in Credit Markets and Their Implications for Monetary Policy"
+    url: "https://www.rba.gov.au/publications/bulletin/2026/feb/recent-changes-in-credit-markets-and-their-implications-for-monetary-policy.html"
 ---
 
-Private mortgage lending for commercial borrowers is property-backed business finance funded outside a standard bank process. In Australia, business owners, property investors, and developers usually consider it when they have a commercial purpose, usable property security, and a timing or policy issue that makes mainstream lending difficult.
+Private mortgage lending for commercial borrowers is business-purpose finance secured by property and funded by a specialist private or non-bank lender. Australian business owners, property investors and developers may consider it for an urgent settlement, refinance, acquisition or working-capital timing gap when a bank process does not fit—provided the commercial purpose, security, supporting evidence and repayment exit are clear.
 
 In plain terms, private mortgage lending is not a retail home-loan substitute. It is a commercial funding pathway for eligible business borrowers where the lender is focused on security, equity, loan purpose, repayment capacity, documents, and a defined exit strategy. Emet Capital helps borrowers compare [private lending options](/services/private-lending) with second mortgages, bridging finance, and [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide).
 
@@ -51,6 +53,8 @@ In plain terms, private mortgage lending is not a retail home-loan substitute. I
 | Main lender focus | Property value, equity, title position, purpose, documents, borrower conduct, and exit strategy. |
 | Key risk | Short-term secured debt can become expensive or risky if the exit is weak. |
 | Common alternatives | Bank refinance, second mortgage, caveat loan, bridging finance, asset-backed lending, or unsecured business finance. |
+
+The Reserve Bank of Australia reported in February 2026 that specialist non-bank and private-credit lenders have increased the supply of business credit in segments where banks may be less active. That market context does not make a private mortgage suitable by itself; the decision still turns on the specific transaction, total cost and exit.
 
 ## Who This Is For
 
@@ -117,6 +121,20 @@ A second mortgage is a specific structure where the new lender registers behind 
 A second mortgage may be useful when the borrower wants to preserve an existing first mortgage and access additional equity. A first-ranking private mortgage may be cleaner when the existing debt is being refinanced entirely or when the new lender needs first priority to support the facility.
 
 The decision depends on existing lender consent, total leverage, title position, cost, urgency, and whether the current first mortgage should stay in place. For more detail, see [second mortgage without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia) and [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences).
+
+## Compare the Total Borrowing Cost
+
+A headline interest rate is not enough to compare short-term commercial facilities. Ask each lender or broker for the same cost fields so the alternatives can be assessed on an equivalent timeframe.
+
+| Cost field | What to record |
+|---|---|
+| Interest | Rate basis, payment frequency, and whether interest is paid monthly or capitalised. |
+| Establishment and assessment | Dollar amount or percentage, when payable, and whether it is refundable if the loan does not proceed. |
+| Valuation and legal work | Who appoints the providers, who pays, and whether another lender can rely on the reports. |
+| Extension and default | The cost and conditions if the planned exit is delayed. |
+| Exit and discharge | Any early-repayment, discharge, settlement or other closing costs. |
+
+Model an expected exit date and a delayed case. The useful comparison is the total cash cost of reaching the exit—not just the advertised annual or monthly rate. For a broader decision framework, compare [private lending with bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) and review the [commercial property settlement timeline](/resources/guides/commercial-property-settlement-process-finance-timeline).
 
 ## Documents To Prepare for Your Property Transaction
 
