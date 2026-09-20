@@ -77,36 +77,59 @@ try {
   chrome.makeTmpDir = () => chromeLauncherStateDir;
   await chrome.launch();
   }
-  const result = await lighthouse(baseUrl, {
-    port: chrome.port,
-    output: "json",
-    logLevel: "error",
-    onlyCategories: ["performance", "accessibility", "seo"],
-    formFactor: "mobile",
-    screenEmulation: {
-      mobile: true,
-      width: 390,
-      height: 844,
-      deviceScaleFactor: 2.75,
-      disabled: false,
-    },
-    throttlingMethod: "simulate",
-  });
-  if (!result) throw new Error("Lighthouse returned no result.");
+  const runCount = 3;
+  const runs = [];
+  for (let runNumber = 1; runNumber <= runCount; runNumber += 1) {
+    const result = await lighthouse(baseUrl, {
+      port: chrome.port,
+      output: "json",
+      logLevel: "error",
+      onlyCategories: ["performance", "accessibility", "seo"],
+      formFactor: "mobile",
+      screenEmulation: {
+        mobile: true,
+        width: 390,
+        height: 844,
+        deviceScaleFactor: 2.75,
+        disabled: false,
+      },
+      throttlingMethod: "simulate",
+    });
+    if (!result) throw new Error(`Lighthouse run ${runNumber} returned no result.`);
 
-  const { lhr } = result;
-  const resourceItems = lhr.audits["resource-summary"]?.details?.items ?? [];
-  const scriptTransferBytes = resourceItems
-    .filter((item) => String(item.resourceType).toLowerCase() === "script")
-    .reduce((sum, item) => sum + Number(item.transferSize || 0), 0);
+    const { lhr } = result;
+    const resourceItems = lhr.audits["resource-summary"]?.details?.items ?? [];
+    const scriptTransferBytes = resourceItems
+      .filter((item) => String(item.resourceType).toLowerCase() === "script")
+      .reduce((sum, item) => sum + Number(item.transferSize || 0), 0);
+    const runObserved = {
+      lcpMs: Number(lhr.audits["largest-contentful-paint"]?.numericValue ?? Infinity),
+      cls: Number(lhr.audits["cumulative-layout-shift"]?.numericValue ?? Infinity),
+      tbtMs: Number(lhr.audits["total-blocking-time"]?.numericValue ?? Infinity),
+      accessibility: Number(lhr.categories.accessibility?.score ?? 0),
+      seo: Number(lhr.categories.seo?.score ?? 0),
+      initialJavaScriptTransferBytes: scriptTransferBytes,
+    };
+    runs.push({ observed: runObserved, lighthouse: lhr });
+    console.log(`Lighthouse run ${runNumber}/${runCount}: ${JSON.stringify(runObserved)}`);
+  }
+
+  const median = (values) => [...values].sort((a, b) => a - b)[Math.floor(values.length / 2)];
   const observed = {
-    lcpMs: Number(lhr.audits["largest-contentful-paint"]?.numericValue ?? Infinity),
-    cls: Number(lhr.audits["cumulative-layout-shift"]?.numericValue ?? Infinity),
-    tbtMs: Number(lhr.audits["total-blocking-time"]?.numericValue ?? Infinity),
-    accessibility: Number(lhr.categories.accessibility?.score ?? 0),
-    seo: Number(lhr.categories.seo?.score ?? 0),
-    initialJavaScriptTransferBytes: scriptTransferBytes,
+    lcpMs: median(runs.map((run) => run.observed.lcpMs)),
+    cls: Math.max(...runs.map((run) => run.observed.cls)),
+    tbtMs: median(runs.map((run) => run.observed.tbtMs)),
+    accessibility: Math.min(...runs.map((run) => run.observed.accessibility)),
+    seo: Math.min(...runs.map((run) => run.observed.seo)),
+    initialJavaScriptTransferBytes: Math.max(
+      ...runs.map((run) => run.observed.initialJavaScriptTransferBytes),
+    ),
   };
+  const representativeRun = runs.reduce((closest, run) =>
+    Math.abs(run.observed.lcpMs - observed.lcpMs) < Math.abs(closest.observed.lcpMs - observed.lcpMs)
+      ? run
+      : closest,
+  );
   const thresholds = {
     lcpMs: 2500,
     cls: 0.1,
@@ -138,7 +161,7 @@ try {
   fs.mkdirSync(reportsDir, { recursive: true });
   fs.writeFileSync(
     path.join(reportsDir, "homepage.json"),
-    `${JSON.stringify({ observed, thresholds, lighthouse: lhr }, null, 2)}\n`,
+    `${JSON.stringify({ observed, thresholds, runs: runs.map((run) => run.observed), lighthouse: representativeRun.lighthouse }, null, 2)}\n`,
     "utf8",
   );
   if (process.env.GITHUB_STEP_SUMMARY) {
@@ -146,6 +169,8 @@ try {
       process.env.GITHUB_STEP_SUMMARY,
       [
         "## Mobile Lighthouse budgets",
+        "",
+        "Three comparable runs. LCP and TBT use the median; CLS, accessibility, SEO and transfer size use the conservative worst run.",
         "",
         "| Metric | Observed | Budget |",
         "| --- | ---: | ---: |",

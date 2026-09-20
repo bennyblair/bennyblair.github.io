@@ -83,7 +83,11 @@ const CommercialRealEstateCalculator = () => {
         <title>Commercial Real Estate Loans Calculator — Investment Property Finance Australia | Emet Capital</title>
         <meta name="description" content="Calculate commercial real estate loan payments, ROI, and cash flow for Australian investment properties. Professional calculator for commercial property finance." />
         <meta name="keywords" content="commercial real estate loans calculator, commercial lending, investment property finance, Australia" />
-        <link rel="canonical" href="https://emetcapital.com.au/resources/tools/commercial-real-estate-calculator" />
+      <link rel="canonical" href="https://emetcapital.com.au/resources/tools/commercial-real-estate-calculator" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital commercial real estate calculator" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 

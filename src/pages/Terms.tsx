@@ -8,7 +8,11 @@ const Terms = () => {
       <Helmet>
         <title>Terms of Service | Emet Capital</title>
         <meta name="description" content="Terms of Service for Emet Capital Pty Ltd. Conditions of use for our website and commercial brokerage services." />
-        <link rel="canonical" href="https://emetcapital.com.au/terms" />
+      <link rel="canonical" href="https://emetcapital.com.au/terms" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital commercial finance" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 

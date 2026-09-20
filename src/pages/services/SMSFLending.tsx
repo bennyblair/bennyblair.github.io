@@ -41,7 +41,11 @@ const SMSFLending = () => {
           content="Specialized SMSF property lending with Limited Recourse Borrowing Arrangements. Super fund loans from $150K-$25M+ with compliant structures." 
         />
         <meta name="keywords" content="SMSF lending, super fund loans, LRBA, self managed super fund property, SMSF investment" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/smsf-lending" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/smsf-lending" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital SMSF lending" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

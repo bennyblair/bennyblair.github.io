@@ -8,7 +8,11 @@ const PrivacyPolicy = () => {
       <Helmet>
         <title>Privacy Policy | Emet Capital</title>
         <meta name="description" content="Privacy Policy for Emet Capital Pty Ltd. How we collect, use, and protect your personal information in accordance with Australian privacy laws." />
-        <link rel="canonical" href="https://emetcapital.com.au/privacy-policy" />
+      <link rel="canonical" href="https://emetcapital.com.au/privacy-policy" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital commercial finance" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 

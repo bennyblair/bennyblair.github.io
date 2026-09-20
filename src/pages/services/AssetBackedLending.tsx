@@ -49,7 +49,11 @@ const AssetBackedLending = () => {
           content="Asset-backed business lending from $50K-$20M+ secured by property, equipment, inventory, or receivables across Australia." 
         />
         <meta name="keywords" content="asset-backed lending, business finance, secured lending, asset finance, commercial lending" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/asset-backed-lending" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/asset-backed-lending" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital asset-backed lending" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

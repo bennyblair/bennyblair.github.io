@@ -42,7 +42,11 @@ const CommercialPropertyDevelopment = () => {
           content="Development finance from $500K-$100M+ for commercial, residential, and mixed-use construction projects across Australia." 
         />
         <meta name="keywords" content="development finance, construction loans, property development, project funding, development funding" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/commercial-property-development" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/commercial-property-development" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital commercial property development finance" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

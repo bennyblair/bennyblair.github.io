@@ -65,7 +65,11 @@ const AssetFinanceROICalculator = () => {
         <title>Asset Finance ROI Calculator | Equipment Finance Returns Australia</title>
         <meta name="description" content="Calculate return on investment for equipment purchases. Factor in depreciation, tax benefits, and operational savings to make informed asset finance decisions." />
         <meta name="keywords" content="asset finance ROI calculator, equipment finance returns, asset finance Australia, equipment ROI, depreciation calculator" />
-        <link rel="canonical" href="https://emetcapital.com.au/resources/tools/asset-finance-roi-calculator" />
+      <link rel="canonical" href="https://emetcapital.com.au/resources/tools/asset-finance-roi-calculator" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital finance calculator" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 

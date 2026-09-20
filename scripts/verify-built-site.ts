@@ -68,6 +68,8 @@ for (const route of inventory) {
   const titles = [...html.matchAll(/<title[^>]*>([\s\S]*?)<\/title>/gi)];
   const descriptions = [...html.matchAll(/<meta\b[^>]*name=["']description["'][^>]*content=["']([^"']+)["'][^>]*>/gi)];
   const canonicals = [...html.matchAll(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/gi)];
+  const openGraphImages = [...html.matchAll(/<meta\b[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["'][^>]*>/gi)];
+  const twitterImages = [...html.matchAll(/<meta\b[^>]*name=["']twitter:image["'][^>]*content=["']([^"']+)["'][^>]*>/gi)];
   const h1s = [...html.matchAll(/<h1\b[^>]*>[\s\S]*?<\/h1>/gi)];
   const mains = [...html.matchAll(/<main\b/gi)];
   const renderedTitle = normalizeWhitespace(titles[0]?.[1] ?? "");
@@ -76,6 +78,8 @@ for (const route of inventory) {
   if (titles.length !== 1) errors.push(`${route.path}: expected one title, found ${titles.length}`);
   if (descriptions.length !== 1) errors.push(`${route.path}: expected one meta description, found ${descriptions.length}`);
   if (canonicals.length !== 1) errors.push(`${route.path}: expected one canonical, found ${canonicals.length}`);
+  if (openGraphImages.length !== 1) errors.push(`${route.path}: expected one og:image, found ${openGraphImages.length}`);
+  if (twitterImages.length !== 1) errors.push(`${route.path}: expected one twitter:image, found ${twitterImages.length}`);
   if (h1s.length !== 1) errors.push(`${route.path}: expected one H1, found ${h1s.length}`);
   if (mains.length !== 1) errors.push(`${route.path}: expected one main landmark, found ${mains.length}`);
   if (/(?:\.{3}|…)\s*$/.test(renderedTitle)) {

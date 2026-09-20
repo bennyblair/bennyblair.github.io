@@ -11,7 +11,6 @@
       if (!window.__EMET_PRERENDER__) document.documentElement.dataset.processLayout = "compact";
     </script>
     <link rel="icon" href="/favicon-emet-aligned.svg" type="image/svg+xml" sizes="any" />
-    <link rel="preload" href="/fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
     <link
       rel="preload"
       as="image"
@@ -44,15 +43,28 @@
       gtag("js", new Date());
       gtag("config", "G-EWJCDYNTCG", { send_page_view: false });
       gtag("config", "AW-16887067533");
-      // Queue events immediately, then download analytics after the initial
-      // document and hero have loaded so tracking does not compete with LCP.
-      window.addEventListener("load", function () {
-        if (window.__EMET_PRERENDER__) return;
-        var analyticsScript = document.createElement("script");
-        analyticsScript.async = true;
-        analyticsScript.src = "https://www.googletagmanager.com/gtag/js?id=G-EWJCDYNTCG";
-        document.head.appendChild(analyticsScript);
-      }, { once: true });
+      // Queue events immediately. Download analytics after the first real
+      // interaction, with a bounded fallback, so third-party execution never
+      // competes with the initial hero paint on slower mobile devices.
+      (function () {
+        var loaded = false;
+        function loadAnalytics() {
+          if (loaded || window.__EMET_PRERENDER__) return;
+          loaded = true;
+          ["pointerdown", "keydown", "touchstart"].forEach(function (eventName) {
+            window.removeEventListener(eventName, loadAnalytics);
+          });
+          window.clearTimeout(fallbackTimer);
+          var analyticsScript = document.createElement("script");
+          analyticsScript.async = true;
+          analyticsScript.src = "https://www.googletagmanager.com/gtag/js?id=G-EWJCDYNTCG";
+          document.head.appendChild(analyticsScript);
+        }
+        ["pointerdown", "keydown", "touchstart"].forEach(function (eventName) {
+          window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+        });
+        var fallbackTimer = window.setTimeout(loadAnalytics, 5000);
+      })();
     </script>
 
   </head>

@@ -60,7 +60,11 @@ const LoanComparisonTool = () => {
           content="Compare up to three business loan offers using one transparent repayment model. Review monthly payments, interest, known fees, assumptions and limitations."
         />
         <meta name="keywords" content="loan comparison tool, business loan comparison, loan calculator Australia, compare loan offers" />
-        <link rel="canonical" href="https://emetcapital.com.au/resources/tools/loan-comparison-tool" />
+      <link rel="canonical" href="https://emetcapital.com.au/resources/tools/loan-comparison-tool" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital loan comparison tool" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-09-14T02:35:00.000Z",
+  "generatedAt": "2026-09-20T04:42:45.219Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -2619,8 +2619,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -2750,8 +2750,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -2840,8 +2840,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -3100,8 +3100,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_commit_c18cbee",
-        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -3231,8 +3231,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_commit_c18cbee",
-        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4026,6 +4026,49 @@
       "programIds": []
     },
     {
+      "pageId": "pg_e2ba0d6c40564387ab7806279c3302a5",
+      "path": "/resources/guides/business-loan-against-outright-owned-property-australia",
+      "sourcePath": "src/content/guides/business-loan-against-outright-owned-property-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "business loan outright owned property documents",
+        "intent": "informational",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 3,
+        "reviewEveryDays": 365,
+        "reviewedBy": "Codex automated content review",
+        "reviewedAt": "2026-09-06",
+        "expiresAt": "2026-12-06"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_d9077d31c0564b5a8792703286847546",
       "path": "/resources/guides/business-loan-line-of-credit-australia",
       "sourcePath": "src/content/guides/business-loan-line-of-credit-australia.md",
@@ -4362,8 +4405,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4452,8 +4495,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4585,8 +4628,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_commit_c18cbee",
-        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4761,8 +4804,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4935,8 +4978,8 @@
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -5912,6 +5955,49 @@
       ]
     },
     {
+      "pageId": "pg_4c453e453ef040339b8f54a5d080b054",
+      "path": "/resources/guides/commercial-interest-only-period-ending-refinance-australia",
+      "sourcePath": "src/content/guides/commercial-interest-only-period-ending-refinance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "commercial interest only expiry loan review documents",
+        "intent": "informational",
+        "designatedServicePagePath": "/services/refinancing-solutions",
+        "designatedServicePageId": "pg_cc5df2d2386b456e959bd2841f0247f5",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 4,
+        "reviewEveryDays": 365,
+        "reviewedBy": "Codex automated content review",
+        "reviewedAt": "2026-09-06",
+        "expiresAt": "2026-12-06"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_63acd2b828e646aba2fea4eb94ff4fad",
       "path": "/resources/guides/commercial-land-loans-financing-property-development",
       "sourcePath": "src/config/site-route-manifest.ts",
@@ -6764,7 +6850,7 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
         "reviewedBy": "Ben",
         "reviewedAt": "2026-08-13",
@@ -8581,6 +8667,49 @@
       "programIds": []
     },
     {
+      "pageId": "pg_9e062b21a624492fae72a1872999ef0a",
+      "path": "/resources/guides/ev-charging-equipment-finance-australia",
+      "sourcePath": "src/content/guides/ev-charging-equipment-finance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "EV charging equipment finance Australia",
+        "intent": "commercial investigation",
+        "designatedServicePagePath": "/services/asset-finance",
+        "designatedServicePageId": "pg_49c9349f78d04e0aa55ce40723df11db",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 3,
+        "reviewEveryDays": 365,
+        "reviewedBy": null,
+        "reviewedAt": "2026-09-01",
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_392689afb3884c289338e5187df8652a",
       "path": "/resources/guides/fast-bridging-finance",
       "sourcePath": "src/config/site-route-manifest.ts",
@@ -10250,26 +10379,26 @@
       "sourcePath": "src/content/guides/merchant-cash-advance-alternatives-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "merchant cash advance alternatives Australia",
-        "intent": "informational",
+        "intent": "commercial investigation",
         "designatedServicePagePath": "/services/working-capital",
         "designatedServicePageId": "pg_cdc22adf500d4db8aa6380ff6b39c265",
         "serviceOwnershipException": null,
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "medium",
-        "maxAutomatedChangeRisk": "R0",
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
-        "sourceRequired": true,
-        "sourceCount": 0,
-        "reviewEveryDays": 180,
+        "sourceRequired": false,
+        "sourceCount": 2,
+        "reviewEveryDays": 365,
         "reviewedBy": null,
-        "reviewedAt": "2026-07-31",
+        "reviewedAt": "2026-08-23",
         "expiresAt": null
       },
       "lifecycle": {
@@ -10374,6 +10503,49 @@
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
       ]
+    },
+    {
+      "pageId": "pg_f3bfb939917040f785505109f7a50814",
+      "path": "/resources/guides/mixed-use-commercial-property-purchase-finance-australia",
+      "sourcePath": "src/content/guides/mixed-use-commercial-property-purchase-finance-australia.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "mixed use commercial property purchase finance",
+        "intent": "informational",
+        "designatedServicePagePath": "/services/commercial-property-finance",
+        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 2,
+        "reviewEveryDays": 365,
+        "reviewedBy": "Codex automated content review",
+        "reviewedAt": "2026-09-06",
+        "expiresAt": "2026-12-06"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     },
     {
       "pageId": "pg_bc289d9cccaf4a4c804e862654a4743e",
@@ -12014,7 +12186,7 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": false,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "reviewEveryDays": 365,
         "reviewedBy": "OpenClaw SEO source audit",
         "reviewedAt": "2026-08-05",
@@ -12806,7 +12978,7 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
         "reviewedBy": "OpenClaw SEO source audit",
         "reviewedAt": "2026-08-18",
@@ -21481,6 +21653,49 @@
       "programIds": []
     },
     {
+      "pageId": "pg_f81d8f1385734ef393689173f31a524e",
+      "path": "/terms-and-conditions",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_afdbf560868e4a2cab685e4dc599a9f3",
+      "redirectToPath": "/terms",
+      "targeting": {
+        "primaryQuery": "terms and conditions legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_ab8327c371564d77a0512371c317da4b",
       "path": "/tools",
       "sourcePath": "src/config/site-route-manifest.ts",
@@ -21565,179 +21780,7 @@
         "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
-    },
-    {
-      "pageId": "pg_9e062b21a624492fae72a1872999ef0a",
-      "path": "/resources/guides/ev-charging-equipment-finance-australia",
-      "sourcePath": "src/content/guides/ev-charging-equipment-finance-australia.md",
-      "pageType": "guide",
-      "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
-      "targeting": {
-        "primaryQuery": "EV charging equipment finance Australia",
-        "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/asset-finance",
-        "designatedServicePageId": "pg_49c9349f78d04e0aa55ce40723df11db",
-        "serviceOwnershipException": null,
-        "country": "AU"
-      },
-      "governance": {
-        "contentRisk": "low",
-        "maxAutomatedChangeRisk": "R1",
-        "contentOwner": "seo-content",
-        "reviewOwner": "seo-content-review",
-        "sourceRequired": false,
-        "sourceCount": 3,
-        "reviewEveryDays": 365,
-        "reviewedBy": null,
-        "reviewedAt": "2026-09-01",
-        "expiresAt": null
-      },
-      "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
-      },
-      "measurement": {
-        "primaryOutcome": "nonbrand_click_and_service_assist",
-        "successRuleId": "sr_supporting_demand_v1",
-        "exitRuleId": "er_low_value_overlap_v1"
-      },
-      "programIds": []
-    },
-    {
-      "pageId": "pg_f3bfb939917040f785505109f7a50814",
-      "path": "/resources/guides/mixed-use-commercial-property-purchase-finance-australia",
-      "sourcePath": "src/content/guides/mixed-use-commercial-property-purchase-finance-australia.md",
-      "pageType": "guide",
-      "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
-      "targeting": {
-        "primaryQuery": "mixed use commercial property purchase finance",
-        "intent": "informational",
-        "designatedServicePagePath": "/services/commercial-property-finance",
-        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
-        "serviceOwnershipException": null,
-        "country": "AU"
-      },
-      "governance": {
-        "contentRisk": "low",
-        "maxAutomatedChangeRisk": "R1",
-        "contentOwner": "seo-content",
-        "reviewOwner": "seo-content-review",
-        "sourceRequired": false,
-        "sourceCount": 2,
-        "reviewEveryDays": 365,
-        "reviewedBy": "Codex automated content review",
-        "reviewedAt": "2026-09-06",
-        "expiresAt": "2026-12-06"
-      },
-      "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-10-05T00:05:48.735Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_prop_17cbce0ae2fa4b9bafbe106ecd791b1a",
-        "lastMaterialChangeAt": "2026-09-07T00:05:48.735Z"
-      },
-      "measurement": {
-        "primaryOutcome": "nonbrand_click_and_service_assist",
-        "successRuleId": "sr_supporting_demand_v1",
-        "exitRuleId": "er_low_value_overlap_v1"
-      },
-      "programIds": []
-    },
-    {
-      "pageId": "pg_4c453e453ef040339b8f54a5d080b054",
-      "path": "/resources/guides/commercial-interest-only-period-ending-refinance-australia",
-      "sourcePath": "src/content/guides/commercial-interest-only-period-ending-refinance-australia.md",
-      "pageType": "guide",
-      "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
-      "targeting": {
-        "primaryQuery": "commercial interest only expiry loan review documents",
-        "intent": "informational",
-        "designatedServicePagePath": "/services/refinancing-solutions",
-        "designatedServicePageId": "pg_cc5df2d2386b456e959bd2841f0247f5",
-        "serviceOwnershipException": null,
-        "country": "AU"
-      },
-      "governance": {
-        "contentRisk": "low",
-        "maxAutomatedChangeRisk": "R1",
-        "contentOwner": "seo-content",
-        "reviewOwner": "seo-content-review",
-        "sourceRequired": false,
-        "sourceCount": 4,
-        "reviewEveryDays": 365,
-        "reviewedBy": "Codex automated content review",
-        "reviewedAt": "2026-09-06",
-        "expiresAt": "2026-12-06"
-      },
-      "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-10-07T00:06:45.034Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_prop_f6e9588af4f74c98a39b33f1d8707263",
-        "lastMaterialChangeAt": "2026-09-09T00:06:45.034Z"
-      },
-      "measurement": {
-        "primaryOutcome": "nonbrand_click_and_service_assist",
-        "successRuleId": "sr_supporting_demand_v1",
-        "exitRuleId": "er_low_value_overlap_v1"
-      },
-      "programIds": []
-    },
-    {
-      "pageId": "pg_e2ba0d6c40564387ab7806279c3302a5",
-      "path": "/resources/guides/business-loan-against-outright-owned-property-australia",
-      "sourcePath": "src/content/guides/business-loan-against-outright-owned-property-australia.md",
-      "pageType": "guide",
-      "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
-      "targeting": {
-        "primaryQuery": "business loan outright owned property documents",
-        "intent": "informational",
-        "designatedServicePagePath": "/services/first-second-mortgages",
-        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
-        "serviceOwnershipException": null,
-        "country": "AU"
-      },
-      "governance": {
-        "contentRisk": "low",
-        "maxAutomatedChangeRisk": "R1",
-        "contentOwner": "seo-content",
-        "reviewOwner": "seo-content-review",
-        "sourceRequired": false,
-        "sourceCount": 3,
-        "reviewEveryDays": 365,
-        "reviewedBy": "Codex automated content review",
-        "reviewedAt": "2026-09-06",
-        "expiresAt": "2026-12-06"
-      },
-      "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-10-12T00:06:58.057Z",
-        "protectedUntil": null,
-        "lastMaterialChangeId": "chg_prop_894293debd574ddfb9ebd206a3f12074",
-        "lastMaterialChangeAt": "2026-09-14T00:06:58.057Z"
-      },
-      "measurement": {
-        "primaryOutcome": "nonbrand_click_and_service_assist",
-        "successRuleId": "sr_supporting_demand_v1",
-        "exitRuleId": "er_low_value_overlap_v1"
-      },
-      "programIds": []
     }
   ],
-  "checksum": "6daea9432e6bdbee96ffd25f56a24ba3aa1235a75e3b80bf88e751e927c6c563"
+  "checksum": "2418d5a374a201478fc9a83d794f80ea999be46d6308d91a65427b19bcc7b8d0"
 }
