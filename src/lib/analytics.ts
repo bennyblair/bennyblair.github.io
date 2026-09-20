@@ -95,6 +95,10 @@ export function trackEvent(name: string, parameters: AnalyticsParameters = {}) {
   try { if (document.referrer) referrerOrigin = new URL(document.referrer).origin; } catch { /* Ignore malformed referrers. */ }
   try {
     window.gtag("event", name, clean({
+      // The site also configures a Google Ads destination. Route ordinary
+      // analytics events only to GA4; labelled Ads conversions are sent by
+      // trackLead and the phone-click handler below.
+      send_to: ANALYTICS_IDS.ga4,
       page_location: window.location.origin + safeAnalyticsPath(window.location.pathname),
       page_referrer: referrerOrigin,
       ...parameters,

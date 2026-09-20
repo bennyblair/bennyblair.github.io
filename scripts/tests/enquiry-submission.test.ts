@@ -80,6 +80,7 @@ test("lead analytics contains only route/category and allowlisted purpose, never
     assert.equal(payload.landing_path, "/services/refinancing-solutions");
     assert.equal(payload.landing_category, "refinancing");
     assert.equal(payload.page_referrer, "https://chatgpt.com");
+    assert.equal(payload.send_to, "G-2FJ6VHKZ2Z");
     assert.deepEqual(calls[1], ["event", "conversion", {
       send_to: "AW-16887067533/w2SACJ7PzssaEI3nsPQ-",
       value: 1,
