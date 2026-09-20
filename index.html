@@ -42,7 +42,8 @@
       function gtag(){dataLayer.push(arguments);}
       gtag("js", new Date());
       gtag("config", "G-2FJ6VHKZ2Z", { send_page_view: false });
-      gtag("config", "AW-16887067533");
+      // The production Google tag owns both the GA4 and Ads destinations.
+      // Explicit Ads conversion labels remain in src/lib/analytics.ts.
       // Queue events immediately. Download analytics after the first real
       // interaction, with a bounded fallback, so third-party execution never
       // competes with the initial hero paint on slower mobile devices.
