@@ -132,6 +132,7 @@ img{max-width:100%}button,input,textarea,select{font:inherit}button,a{touch-acti
 .site-shell .grid>*,.site-shell .flex>*{min-width:0}.site-shell a[href^="mailto:"]{overflow-wrap:anywhere}.guide-summary-meta{flex-wrap:wrap;gap:12px}
 
 /* Homepage cinematic elements: transforms enhance an already visible document. */
+.homepage-page>section:not(.home-hero):not(.home-contact){content-visibility:auto;contain-intrinsic-size:auto 900px}
 .hero-survey{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;opacity:.46;overflow:hidden}.hero-survey-lines{stroke:#f4f5ee;stroke-width:.65;transform-origin:600px 380px}.hero-survey-register{stroke:#f4f5ee;stroke-width:.7;opacity:.7}
 .hero-controls{position:absolute;top:17px;right:var(--gutter);z-index:3}.hero-controls>span{display:none}.motion-toggle{display:flex;align-items:center;gap:8px;border:1px solid #f4f5ef80;border-radius:100px;padding:9px 14px;font-size:12px;line-height:1.4;max-width:100%;background:#14221e80;color:var(--paper)}.motion-toggle svg{width:13px;height:13px}.motion-toggle:hover{background:#f3f4ef;color:var(--ink)}.motion-toggle:focus-visible{outline:2px solid white;outline-offset:4px}
 .hero-scroll{position:absolute;bottom:25px;left:var(--gutter);display:flex;align-items:center;gap:14px;font-size:12px;z-index:3}.hero-scroll>svg{width:42px;height:42px;padding:12px;border:1px solid #ffffff70;border-radius:50%;transition:transform .3s}.hero-scroll:hover>svg{transform:translateY(4px)}

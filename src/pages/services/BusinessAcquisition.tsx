@@ -42,7 +42,11 @@ const BusinessAcquisition = () => {
           content="Finance business purchases from $100K-$20M+ with flexible structures for acquiring established businesses, franchises, and professional practices across Australia." 
         />
         <meta name="keywords" content="business acquisition, business purchase loans, acquisition finance, business loans, commercial finance" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/business-acquisition" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/business-acquisition" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital business acquisition finance" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

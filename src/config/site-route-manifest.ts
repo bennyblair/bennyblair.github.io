@@ -307,6 +307,7 @@ const simpleAliases: Record<string, string> = {
   "/about-us": "/about",
   "/apply-now": "/contact",
   "/contact-6": "/contact",
+  "/terms-and-conditions": "/terms",
   "/commercial-property-development": "/services/commercial-property-development",
   "/business-investment-expansion": "/services/business-acquisition",
   "/first-second-mortgages": "/services/first-second-mortgages",

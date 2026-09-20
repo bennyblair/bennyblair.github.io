@@ -53,6 +53,11 @@ test("redirect contract contains no self redirects or conflicting duplicate sour
   assert.equal(redirectRules.at(-1)?.from, "/*");
 });
 
+test("the legacy terms-and-conditions route redirects directly to the canonical terms page", () => {
+  const redirect = redirectRules.find((rule) => rule.from === "/terms-and-conditions");
+  assert.deepEqual(redirect, { from: "/terms-and-conditions", to: "/terms", status: 301 });
+});
+
 test("legacy GSC 404 URLs permanently redirect to current guide equivalents", () => {
   const redirects = new Map(redirectRules.map((rule) => [rule.from, rule]));
   assert.deepEqual(redirects.get("/resources/guides/second-mortgage-for-poor-credit"), {

@@ -80,7 +80,11 @@ const CommercialPropertyLoanCalculator = () => {
         <title>Commercial Property Loan Calculator: Estimate Your Repayments | Emet Capital</title>
         <meta name="description" content="Use our commercial property loan calculator to estimate repayments, compare rates, and plan your investment. Free tool for Australian property investors." />
         <meta name="keywords" content="commercial property loan calculator, loan repayment calculator, commercial property finance, investment property calculator, loan comparison tool" />
-        <link rel="canonical" href="https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator" />
+      <link rel="canonical" href="https://emetcapital.com.au/resources/tools/commercial-property-loan-calculator" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital commercial property loan calculator" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
         
         {/* JSON-LD Article Schema */}
         <script type="application/ld+json">

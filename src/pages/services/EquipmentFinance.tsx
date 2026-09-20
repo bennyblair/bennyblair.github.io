@@ -43,7 +43,11 @@ const EquipmentFinance = () => {
           content="Compare equipment finance for Australian businesses. Understand loans and leases, ownership, cash flow, residuals, fees, asset fit and lender evidence."
         />
         <meta name="keywords" content="equipment finance, asset finance, equipment leasing, business equipment loans, machinery finance" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/equipment-finance" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/equipment-finance" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital equipment finance" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

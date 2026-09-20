@@ -62,7 +62,11 @@ const CaveatLoans = () => {
           content="Compare caveat loans for Australian business purposes. Understand property equity, title, total cost, documents, risks and the exit evidence lenders assess."
         />
         <meta name="keywords" content="caveat loans, fast business finance, urgent funding, short-term loans, property-secured finance" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/caveat-loans" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/caveat-loans" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital caveat loans" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

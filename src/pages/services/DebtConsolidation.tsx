@@ -41,7 +41,11 @@ const DebtConsolidation = () => {
           content="Consolidate multiple business debts into one facility with simplified management, improved cash flow, and competitive rates across Australia." 
         />
         <meta name="keywords" content="debt consolidation, business debt, refinancing, commercial finance, loan consolidation" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/debt-consolidation" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/debt-consolidation" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital debt consolidation finance" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

@@ -51,7 +51,11 @@ const PrivateLending = () => {
           content="Private lending broker support for business-purpose loans, commercial property finance, non-bank lending, and alternative funding after bank rejection." 
         />
         <meta name="keywords" content="private lending, alternative finance, private credit, non-bank lending, commercial finance" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/private-lending" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/private-lending" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital private lending" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       

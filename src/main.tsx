@@ -9,11 +9,6 @@ const isPrerendered = document.documentElement.dataset.prerendered === "true" &&
 
 async function mountApp(preload = preloadCurrentRoute(window.location.pathname)) {
   await preload;
-  if (isPrerendered && window.location.pathname === "/") {
-    // Give the browser one paint of the existing HTML before hydration work.
-    // Native navigation is already usable; no gesture or timer activates it.
-    await new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve())));
-  }
   captureNavigationState();
   const app = <App />;
   if (isPrerendered && window.location.pathname === "/") {

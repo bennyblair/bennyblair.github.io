@@ -61,7 +61,11 @@ const TradeFinance = () => {
           content="Comprehensive trade finance for Australian importers & exporters. Letters of credit, invoice factoring & working capital from $100K-$25M+." 
         />
         <meta name="keywords" content="trade finance, import finance, export finance, letters of credit, invoice factoring, international trade" />
-        <link rel="canonical" href="https://emetcapital.com.au/services/trade-finance" />
+      <link rel="canonical" href="https://emetcapital.com.au/services/trade-finance" />
+      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
+      <meta property="og:image:alt" content="Emet Capital trade finance" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
       
