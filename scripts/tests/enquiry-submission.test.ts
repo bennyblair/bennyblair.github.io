@@ -105,3 +105,12 @@ test("both static Netlify declarations cover every named input in the shared Rea
     for (const field of fields) assert.ok(declaration.includes('name="' + field + '"'), formName + " is missing " + field);
   }
 });
+
+test("the deployed tag loader and analytics module use the same GA4 stream", () => {
+  const html = fs.readFileSync("index.html", "utf8");
+  const analyticsSource = fs.readFileSync("src/lib/analytics.ts", "utf8");
+  const ids = [...html.matchAll(/G-[A-Z0-9]+/g)].map((match) => match[0]);
+  assert.ok(ids.length >= 2, "GA4 stream must configure and load the Google tag");
+  assert.equal(new Set(ids).size, 1, "GA4 config and script loader IDs must match");
+  assert.match(analyticsSource, new RegExp(`ga4: ["']${ids[0]}["']`));
+});
