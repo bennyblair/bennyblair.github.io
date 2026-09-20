@@ -23,6 +23,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 designatedServicePage: "/services/commercial-property-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw automated independent editorial reviewer"
+reviewedAt: "2026-09-20"
 sources:
   - label: "ASIC — Becoming a company director"
     url: "https://www.asic.gov.au/for-business-and-companies/small-business-director-essentials/becoming-a-company-director"
