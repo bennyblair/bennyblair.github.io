@@ -5,9 +5,10 @@ export const ANALYTICS_IDS = {
   ga4: "G-EWJCDYNTCG",
   googleAds: "AW-16887067533",
   googleAdsLead: "AW-16887067533/w2SACJ7PzssaEI3nsPQ-",
+  googleAdsPhoneClick: "AW-16887067533/SjEyCMyOn_4cEI3nsPQ-",
 } as const;
 
-type AnalyticsParameters = Record<string, string | number | boolean | undefined>;
+type AnalyticsParameters = Record<string, string | number | boolean | (() => void) | undefined>;
 
 let lastPageView = "";
 let aiLandingTracked = false;
@@ -225,6 +226,26 @@ export function installContactTracking() {
 
     if (link.href.startsWith("tel:")) {
       trackEvent("phone_click", { ...getLandingAttribution(), contact_method: "phone" });
+      if (!isDesignPreview && typeof window.gtag === "function") {
+        event.preventDefault();
+        let continued = false;
+        const continueToPhone = () => {
+          if (continued) return;
+          continued = true;
+          window.location.href = link.href;
+        };
+        try {
+          window.gtag("event", "conversion", {
+            send_to: ANALYTICS_IDS.googleAdsPhoneClick,
+            value: 1,
+            currency: "AUD",
+            event_callback: continueToPhone,
+          });
+          window.setTimeout(continueToPhone, 700);
+        } catch {
+          continueToPhone();
+        }
+      }
     } else if (link.href.startsWith("mailto:")) {
       trackEvent("email_click", { ...getLandingAttribution(), contact_method: "email" });
     }
