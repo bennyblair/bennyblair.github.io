@@ -14,7 +14,7 @@ Baseline captured in Australia/Sydney time on 20 September 2026.
 - `phone_click` measures an outbound click, not a completed call. Completed-call reporting is limited to existing call-provider or Google Ads call records; no paid call-tracking service is assumed.
 - Historical GA traffic missing before this repair is unavailable, not zero.
 
-The Google tag destinations were unified so the production tag owns both the new GA4 stream and the existing Ads destination. The old Analytics destination remains isolated while tag configuration propagates. Confirm in the 48-hour checkpoint that production traffic no longer reaches the retired stream and that the test events are visible in GA4 reporting.
+The Google tag destinations were unified so the production tag owns both the new GA4 stream and the existing Ads destination. Final production network verification at `e63ae4b7d7803f643f36f4bacdcdc184bd96c8dd` observed only the replacement stream; the retired stream received no request. Confirm at the 48-hour checkpoint that the events and custom dimensions have completed processing in GA4 reporting.
 
 ## Search baseline
 
@@ -87,6 +87,7 @@ New pages should be proposed only after the inventory and current query evidence
 | Measurement | #204 | `4ccf98369c21749b100355e3ebcfc8108c28cbb3` | Revert this merge commit; retain GA property history |
 | Indexation register and consolidations | #205 | `40f51ff924cbb7e05470fac8786bbea3cc1f135b` | Revert this merge commit and use `consolidation-map-2026-09-20.csv` |
 | Analytics event routing | #206 | `03fdb0d34cc6ec92b529acd5df92bf7796b7baca` | Revert this merge commit |
+| Google tag destination isolation | #207 | `e63ae4b7d7803f643f36f4bacdcdc184bd96c8dd` | Revert this merge commit |
 
 The consolidation map is the authoritative source-to-destination record. Released mappings are direct 301s, and internal route/redirect checks prevent chains and conflicts.
 
