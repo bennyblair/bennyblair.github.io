@@ -114,4 +114,9 @@ test("the deployed tag loader and analytics module use the same GA4 stream", () 
   assert.ok(ids.length >= 2, "GA4 stream must configure and load the Google tag");
   assert.equal(new Set(ids).size, 1, "GA4 config and script loader IDs must match");
   assert.match(analyticsSource, new RegExp(`ga4: ["']${ids[0]}["']`));
+  assert.doesNotMatch(
+    html,
+    /gtag\(["']config["'],\s*["']AW-/,
+    "the shared production Google tag must not load the retired Analytics destination through a standalone Ads config",
+  );
 });
