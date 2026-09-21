@@ -7,11 +7,6 @@ tags: ["Commercial Property", "Property Loans", "Business Finance", "LVR", "Inte
 readingTime: 10
 author: "Ben"
 reviewed_date: "2026-06-20"
-author_links: [{"label":"Ben bio","url":"/about/ben"}]
-author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
-author_title: "Commercial Finance Broker, Emet Capital"
-author_name: "Ben"
 primaryQuery: "commercial property loans Australia"
 searchIntent: "commercial investigation"
 intentCluster: "commercial-property-loans"
@@ -29,11 +24,13 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "APRA — APG 113 capital adequacy and specialised lending guidance"
     url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
-featuredImage: "/images/commercial-property-loans-guide.jpg"
+featuredImage: "/images/articles/commercial-property-loans-australia-complete-guide.webp"
 keywords: ["commercial property loans", "commercial property finance", "business property loans", "commercial mortgage", "property finance Australia", "LVR commercial property", "commercial loan rates"]
+metaTitle: "Commercial Property Loans Australia | Complete Guide"
+metaDescription: "Commercial property loans in Australia explained, including lender assessment, deposits, valuation, serviceability, documents, costs and repayment risks."
+featuredImageAlt: "Commercial property loans Australia complete business borrower guide"
+protectedUntil: "2026-10-19T00:00:00+11:00"
 ---
-
-# Commercial Property Loans in Australia
 
 > **Direct answer:** A commercial property loan is business-purpose finance used to buy, refinance or improve property such as offices, warehouses, shops, medical premises or mixed-use assets. Approval and structure depend on property risk, borrower contribution, lease or trading cash flow, valuation, legal due diligence and a repayment plan—not on property value alone.
 
@@ -48,7 +45,7 @@ This is the main eligibility and structure guide for commercial property loans. 
 | Refinance | Current conduct, maturity, payout and reason for change | Loan statements, payout, valuation and refinance objective |
 | Equity release | Use of funds, resulting leverage and repayment | Purpose schedule, debt position and cash-flow support |
 | Renovation or repositioning | Budget, approvals, disruption and completion | Scope, quotes, contingency and post-work income assumptions |
-| Development | Feasibility, approvals, builder and exit | Use the separate [development finance guide](/resources/guides/commercial-property-development-finance) |
+| Development | Feasibility, approvals, builder and exit | Use the separate development finance guide |
 
 ## How lenders assess a commercial property loan
 
@@ -97,7 +94,7 @@ The consolidated retail-property material now sits on this page because retail i
 
 Compare the total structure: interest basis, fees, valuation and legal costs, repayment type, covenants, review events, early repayment, extension and default terms. A lower rate is not automatically a better transaction if the facility cannot settle, restricts the intended use or creates an unworkable refinance date.
 
-See [commercial mortgage rates in Australia](/resources/guides/commercial-mortgage-rates-australia-complete-guide) for the calculation method.
+See commercial mortgage rates in Australia for the calculation method.
 
 ## A practical application sequence
 
@@ -151,3 +148,12 @@ Sometimes, but the reason for decline must be understood. A different lender doe
 ## Next step
 
 For a live purchase or refinance, use the [commercial property finance service](/services/commercial-property-finance) and provide the contract or current loan statement, property details, leases, financials, contribution and timing. General information only; not financial, legal or tax advice.
+
+## Related Guides
+
+- [Commercial Property Loan Deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)
+- [Commercial Property Valuation](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
+- [Commercial Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
+- [Commercial Property Finance](/services/commercial-property-finance)
+
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

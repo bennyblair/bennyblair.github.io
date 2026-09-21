@@ -222,9 +222,9 @@
     "assetId": "commercial"
   },
   "/resources/guides/commercial-property-loans-australia-complete-guide": {
-    "src": "/images/commercial-property-loans-guide.jpg",
-    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
+    "src": "/images/articles/commercial-property-loans-australia-complete-guide.webp",
+    "alt": "Commercial property loans Australia complete business borrower guide",
+    "caption": "Emet Capital guide to commercial property loans for Australian business borrowers.",
     "assetId": "commercial"
   },
   "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia": {
@@ -234,10 +234,10 @@
     "assetId": "office"
   },
   "/resources/guides/commercial-property-valuation-for-finance-lender-requirements": {
-    "src": "/images/commercial-property-valuation-for-finance-lender-requirements.jpg",
-    "alt": "Glass commercial facade with structural columns in Sydney; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
-    "assetId": "office"
+    "src": "/images/articles/commercial-property-valuation-for-finance-lender-requirements.webp",
+    "alt": "Commercial property valuation requirements for Australian finance applications",
+    "caption": "Emet Capital guide to commercial property valuation requirements for finance.",
+    "assetId": "commercial"
   },
   "/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled": {
     "src": "/images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg",
@@ -252,10 +252,10 @@
     "assetId": "commercial"
   },
   "/resources/guides/debtor-finance-vs-trade-finance-in-australia": {
-    "src": "/images/debtor-finance-vs-trade-finance-in-australia.jpg",
-    "alt": "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
-    "assetId": "warehouse"
+    "src": "/images/articles/debtor-finance-vs-trade-finance-in-australia.webp",
+    "alt": "Debtor finance versus trade finance comparison for Australian businesses",
+    "caption": "Emet Capital comparison of debtor finance and trade finance for Australian businesses.",
+    "assetId": "commercial"
   },
   "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia": {
     "src": "/images/gst-loan-for-commercial-property-settlement-in-australia.jpg",
@@ -396,9 +396,9 @@
     "assetId": "warehouse"
   },
   "/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide": {
-    "src": "/images/uploads/commercial-bridging-auction-guide.jpg",
-    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
+    "src": "/images/articles/commercial-bridging-loans-for-property-auctions-expert-guide.webp",
+    "alt": "Commercial property auction bridging finance readiness guide",
+    "caption": "Emet Capital guide to commercial property auction bridging finance readiness.",
     "assetId": "commercial"
   },
   "/resources/guides/commercial-property-finance-rates-2025-comparison": {
@@ -414,9 +414,9 @@
     "assetId": "commercial"
   },
   "/resources/guides/commercial-property-development-finance": {
-    "src": "/images/uploads/commercial-property-development-finance.jpg",
-    "alt": "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.",
-    "caption": "Representative property photograph; not a client property or the project described.",
+    "src": "/images/articles/commercial-property-development-finance.webp",
+    "alt": "Commercial property development finance stages and lender requirements",
+    "caption": "Emet Capital guide to commercial property development finance stages and lender evidence.",
     "assetId": "commercial"
   },
   "/resources/guides/commercial-property-refinancing-solutions": {

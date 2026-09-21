@@ -19,12 +19,15 @@ reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
 expiresAt: "2026-11-05"
 sources:
-  - label: "NSW Land Registry Services - What is a caveat?"
-    url: "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+  - label: "Titles Queensland — Lodging caveats"
+    url: "https://www.titlesqld.com.au/manual-guides/guides-to-common-registry-transactions/lodging-caveats/"
   - label: "ASIC - Disputes about commercial loans"
     url: "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
 metaTitle: "Caveat Loans Australia | Business Borrower Guide"
-metaDescription: "Caveat loans in Australia explained for business borrowers: structure, suitable uses, lender evidence, total cost, legal risks and exit strategies."
+metaDescription: "Caveat loans in Australia explained for business borrowers, including suitable uses, lender evidence, total cost, legal risks and exit strategies."
+featuredImage: "/images/articles/caveat-loans-australia-complete-guide.webp"
+featuredImageAlt: "Caveat loans Australia guide for commercial business borrowers"
+protectedUntil: "2026-10-19T00:00:00+11:00"
 ---
 
 Caveat loans in Australia are short-term, business-purpose facilities commonly supported by lodging a caveat over real property. They may help when a defined commercial deadline cannot wait for a mainstream lending process, but they are not automatically suitable because a borrower has equity or needs money urgently.
@@ -33,7 +36,7 @@ The first decision is whether the loan solves a temporary timing problem with an
 
 ## Quick answer: how does a caveat loan work?
 
-A caveat is a legal notice connected to a claimed estate or interest in land. Its legal effect and the right to lodge it depend on the documents and the relevant state or territory law. NSW Land Registry Services, for example, describes a caveat as recording a claim to an estate or interest and preventing certain dealings from being registered. A borrower should not assume that any loan agreement automatically creates a valid caveatable interest; independent legal advice is important.
+A caveat is a legal notice connected to a claimed estate or interest in land. Its legal effect and the right to lodge it depend on the documents and the relevant state or territory law. Titles Queensland explains that caveats are often lodged during property disputes to preserve the title position while the claimed interest is resolved. A borrower should not assume that any loan agreement automatically creates a valid caveatable interest; independent legal advice is important.
 
 In a commercial lending scenario, the lender assesses the borrower, purpose, property, existing secured debt, title position and exit. If it approves the facility, legal documents set out the lender's rights and the basis for any caveat. The amount available to the borrower may be less than the facility limit after interest, establishment, valuation and legal costs are deducted or reserved.
 
@@ -111,3 +114,12 @@ Yes. Short-term finance should have a specific and evidenced repayment event plu
 ### What should be compared between lenders?
 
 Compare eligibility, security position, net proceeds, interest method, all fees, required payments, conditions, guarantees, extension and default terms, and the lender's ability to assess the specific property and exit. The [caveat lender comparison guide](/resources/guides/caveat-lenders-australia-directory-comparison) provides a lender-type framework.
+
+## Related Guides
+
+- [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
+- [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
+- [Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
+- [Caveat Loan Service](/services/caveat-loans)
+
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
