@@ -35,7 +35,8 @@
       "Thursday",
       "Friday"
     ],
-    "editorTime": "07:00",
+    "editorTime": "05:30",
+    "independentReviewTime": "07:30",
     "repairReleaseTime": "11:00"
   },
   "newArticlePolicy": "data/seo-content-automation-policy.json",
@@ -100,6 +101,20 @@
       "unknown"
     ]
   },
+  "handsOffAutomation": {
+    "routineUserActionsRequired": false,
+    "editorialPreparationJob": "Autonomous SEO editorial preparation",
+    "independentReviewJob": "Autonomous SEO independent editorial review",
+    "newArticlePublisherJob": "Governed property content - 1x Mon/Wed/Fri",
+    "repairPublisherJob": "Property content repairs - weekday release",
+    "lifecycleMeasurementJob": "SEO lifecycle measurement and routing",
+    "blockedItemPolicy": "defer_and_advance",
+    "externalFailurePolicy": "record_retry_next_scheduled_run",
+    "notificationPolicy": "completed_release_or_actionable_system_failure_only",
+    "manualFallbackOwner": null,
+    "automaticSpending": false,
+    "externalOutreachSending": false
+  },
   "candidateBriefs": [
     {
       "title": "Buying a mixed-use commercial property: preparing the finance application",
@@ -150,6 +165,9 @@
     "draftEligibilityMustPass": true,
     "unchangedBlockedPackagesAreNotRetried": true,
     "ageAloneDoesNotSetPriority": true,
-    "cosmeticChangesDoNotCountAsSubstantiveRepairs": true
+    "cosmeticChangesDoNotCountAsSubstantiveRepairs": true,
+    "routineUserOperationRequired": false,
+    "specialistRiskIsDeferredAutomatically": true,
+    "publicationCadenceNeverOverridesQualityGate": true
   }
 }

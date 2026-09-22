@@ -16,11 +16,11 @@ Targets: three new articles a week; fifteen substantive existing-page improvemen
 
 ## Owners and schedules
 
-Codex is the primary editor and reviewer coordinator. A weekday 07:00 Sydney heartbeat in the current task prepares work: review ten queued routes; prepare three meaningful repairs where evidence permits; research/draft a new article only when the approved reserve has fewer than six items. Do not force a rewrite or invent an article to satisfy a target.
+OpenClaw owns the routine operation end to end. A weekday 05:30 Sydney preparation job reviews up to ten queued routes, prepares up to three meaningful repair packages where evidence permits and prepares a new article draft only when the eligible reserve has fewer than six items. A separate isolated weekday 07:30 job performs the independent editorial/compliance review and may promote only passing packages. Daniel and an interactive Codex task are not routine queue operators or fallback approvers. Do not force a rewrite or invent an article to satisfy a target.
 
-OpenClaw remains the single publication coordinator. New articles release individually Monday/Wednesday/Friday at 10:00 Sydney. A weekday 11:00 repair release job drains at most three verified repair proposals, one at a time. New articles and repairs have independent allowances, but share one merge/deployment lock. Wait for exact deployed-revision and URL verification before releasing another batch. Stop both queues on failed or indeterminate production audit.
+OpenClaw remains the single publication coordinator. New articles release individually Monday/Wednesday/Friday at 10:00 Sydney. A weekday 11:00 repair release job drains at most three verified repair proposals, one at a time. New articles and repairs have independent allowances, but share one merge/deployment lock. Wait for exact deployed-revision and URL verification before releasing another batch. Stop both queues on failed or indeterminate production audit. A rate limit, unavailable source or transient external failure is recorded and retried on the next scheduled run; it is not handed to Daniel as routine work.
 
-The GitHub manual daily-publication workflow is validation-only, not another scheduler. Legacy page-upgrade and research jobs are draft-only and cannot push main, publish content, or inject unreviewed production items.
+The GitHub manual daily-publication workflow is validation-only, not another scheduler. Preparation and independent-review jobs cannot push main, publish content or inject unreviewed production items. Publication remains fail-closed in the two governed publisher jobs.
 
 ## Canonical inputs and state
 
