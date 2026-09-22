@@ -123,7 +123,13 @@ test("the deployed tag loader and analytics module use the same GA4 stream", () 
 
 test("production CSP permits every Google measurement endpoint used by the tag", () => {
   const netlify = fs.readFileSync("netlify.toml", "utf8");
+  const scriptSrc = netlify.match(/script-src ([^;]+);/)?.[1] ?? "";
   const connectSrc = netlify.match(/connect-src ([^;]+);/)?.[1] ?? "";
+  assert.match(
+    scriptSrc,
+    /https:\/\/googleads\.g\.doubleclick\.net/,
+    "Google form-start measurement script is blocked by script-src",
+  );
   for (const endpoint of [
     "https://www.google-analytics.com",
     "https://region1.google-analytics.com",
