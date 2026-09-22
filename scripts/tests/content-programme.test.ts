@@ -4,6 +4,42 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { buildProgramme, nextPages, recordReview, programmeReport, recordRelease, recordPerformanceReview } from '../content-programme.mjs';
+import { assessContentEligibility, demandScore } from '../lib/content-eligibility.mjs';
+
+test('pre-draft eligibility fails closed and uses the approved commercial weighting', () => {
+  assert.deepEqual(demandScore(null), { score: 0, available: false });
+  const config = {
+    priorityPaths: ['/guide'],
+    commercialStrategy: { serviceOwners: ['/services/private-lending'] },
+  };
+  const eligible = assessContentEligibility({
+    page: {
+      path: '/guide',
+      indexability: 'indexable',
+      targeting: { primaryQuery: 'private mortgage lending', designatedServicePagePath: '/services/private-lending' },
+      governance: { contentRisk: 'low', maxAutomatedChangeRisk: 'R2' },
+    },
+    audit: { contentRisk: 'low', hasSources: true, flags: [] },
+    metric: { impressions: 100, clicks: 1, position: 18 },
+    config,
+  });
+  assert.equal(eligible.status, 'eligible');
+  assert.equal(eligible.priorityScore, 92);
+
+  const blocked = assessContentEligibility({
+    page: {
+      path: '/guide',
+      indexability: 'indexable',
+      targeting: { primaryQuery: 'current private loan rates', designatedServicePagePath: '/services/private-lending' },
+      governance: { contentRisk: 'high', maxAutomatedChangeRisk: 'R0' },
+    },
+    audit: { contentRisk: 'high', hasSources: false, flags: [] },
+    config,
+  });
+  assert.equal(blocked.status, 'blocked');
+  assert.ok(blocked.blockers.includes('genuine_specialist_review_required'));
+  assert.ok(blocked.blockers.includes('authoritative_sources_missing'));
+});
 
 test('portfolio reconciles every route and never treats a missing GSC row as zero', () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'emet-programme-'));

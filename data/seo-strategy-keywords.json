@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "market": "Australia",
+  "capturedAt": "2026-09-22",
+  "source": "Emet-Capital-SEO-Strategy-2026-09-22.docx (Ahrefs research supplied by the SEO team)",
+  "purpose": "Bounded weekly research set; Ahrefs estimates are opportunity signals, not traffic or lead outcomes.",
+  "keywords": [
+    { "query": "commercial property loan", "serviceOwner": "/services/commercial-property-finance", "volume": 1000, "difficulty": 42, "intent": "commercial investigation" },
+    { "query": "commercial property finance", "serviceOwner": "/services/commercial-property-finance", "volume": 700, "difficulty": 15, "intent": "commercial investigation" },
+    { "query": "low doc commercial loans", "serviceOwner": "/services/commercial-property-finance", "volume": 350, "difficulty": 0, "intent": "commercial investigation", "note": "SERP may favour institutional lenders; verify before commissioning content." },
+    { "query": "private lenders", "serviceOwner": "/services/private-lending", "volume": 700, "difficulty": 22, "intent": "commercial investigation", "note": "Broad query; qualify business-purpose property intent before acting." },
+    { "query": "private mortgages australia", "serviceOwner": "/services/private-lending", "volume": 250, "difficulty": 3, "intent": "commercial investigation" },
+    { "query": "first mortgage private loans", "serviceOwner": "/services/first-second-mortgages", "volume": 200, "difficulty": null, "intent": "commercial investigation" },
+    { "query": "second mortgage loans", "serviceOwner": "/services/first-second-mortgages", "volume": 350, "difficulty": 0, "intent": "commercial investigation" },
+    { "query": "second mortgage business loans", "serviceOwner": "/services/first-second-mortgages", "volume": 200, "difficulty": null, "intent": "transactional" },
+    { "query": "commercial second mortgage", "serviceOwner": "/services/first-second-mortgages", "volume": 90, "difficulty": null, "intent": "transactional" },
+    { "query": "commercial bridging loan", "serviceOwner": "/services/bridging-finance", "volume": 150, "difficulty": null, "intent": "transactional" },
+    { "query": "short term property loans", "serviceOwner": "/services/bridging-finance", "volume": 300, "difficulty": 47, "intent": "commercial investigation" },
+    { "query": "commercial loan refinance", "serviceOwner": "/services/refinancing-solutions", "volume": 100, "difficulty": 0, "intent": "transactional" }
+  ],
+  "rules": {
+    "verifyLiveSerpBeforeNewPage": true,
+    "doNotSumKeywordVolumes": true,
+    "missingMetricsAreNull": true,
+    "cityPageBatchesAllowed": false,
+    "weeklyTrackingPreferred": true
+  }
+}

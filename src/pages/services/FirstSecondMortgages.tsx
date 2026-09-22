@@ -135,7 +135,35 @@ const FirstSecondMortgages = () => {
                 We guide clients through the finance process, from initial assessment and lender selection through documentation preparation and settlement. Our expertise includes both first and second mortgage positioning, enabling strategic capital structuring. Timeframes depend on the security, valuation, consent requirements, and lender appetite, so we focus on packaging the file clearly and matching it to lenders that fit the transaction.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                For deeper education before enquiring, read our <Link to="/resources/guides/second-mortgages-for-business-guide" className="text-accent underline">second mortgages for business guide</Link>, <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">partnership buyout finance guide</Link>, and <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">business partner buyout guide</Link>.
+                For deeper education before enquiring, read our <Link to="/resources/guides/second-mortgages-for-business-guide" className="text-accent underline">second mortgages for business guide</Link>, <Link to="/resources/guides/first-mortgage-loans-primary-property-finance" className="text-accent underline">first mortgage finance guide</Link>, and <Link to="/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia" className="text-accent underline">business partner buyout guide</Link>.
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Documents, Consent and Net Proceeds</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A mortgage position is only one part of the decision. Before comparing lenders, establish the
+                current title and payout position, the business purpose, the amount the borrower must receive
+                after costs, and whether the first mortgagee's consent or priority arrangements are required.
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                {[
+                  "Current first-mortgage statement, payout figure and facility terms",
+                  "Property and title details, valuation support and existing encumbrances",
+                  "Borrowing entity, trust and guarantor documents",
+                  "Itemised use of funds and the required net amount after all known costs",
+                  "Servicing evidence or a specific sale or refinance exit",
+                  "Settlement deadline, solicitor details and any first-lender consent requirements"
+                ].map((item) => (
+                  <Card key={item}>
+                    <CardContent className="p-4 text-sm text-muted-foreground leading-relaxed">{item}</CardContent>
+                  </Card>
+                ))}
+              </div>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Emet can compare a replacement first mortgage, a second mortgage that preserves the existing
+                facility, and short-term alternatives. The comparison should use total cost and net proceeds,
+                not the headline facility amount alone.
               </p>
             </ServiceChapter>
 

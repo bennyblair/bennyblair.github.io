@@ -93,6 +93,29 @@
         "null"
       ]
     },
+    "eligibilityReview": {
+      "type": "object",
+      "description": "Pre-draft commercial, intent, permission, evidence and professional-review eligibility check required by the current automation policy.",
+      "required": [
+        "commercialFit",
+        "intentOwnerChecked",
+        "permissionChecked",
+        "evidenceReady",
+        "professionalReviewRequired",
+        "checkedAt",
+        "blockingFindings"
+      ],
+      "properties": {
+        "commercialFit": { "const": true },
+        "intentOwnerChecked": { "const": true },
+        "permissionChecked": { "const": true },
+        "evidenceReady": { "const": true },
+        "professionalReviewRequired": { "const": false },
+        "checkedAt": { "type": "string", "format": "date-time" },
+        "blockingFindings": { "type": "array", "maxItems": 0 }
+      },
+      "additionalProperties": false
+    },
     "qualityReview": {
       "type": "object",
       "description": "Genuine automated or human editorial evidence. Current-policy approval requirements, computed mean and blocking findings are enforced by validateProposal/validateArticleQualityReview; historical proposals retain their referenced policy.",

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { checksum, normaliseRoute } from "./seo-control-plane.mjs";
+import { assessProposalEligibility } from "./content-eligibility.mjs";
 
 const AUTOMATION_POLICY_PATH = "data/seo-content-automation-policy.json";
 const AUTOMATION_POLICY_HISTORY_PATH = "data/seo-content-automation-policy-history.json";
@@ -197,6 +198,9 @@ export function validateProposal(proposal, { automationPolicy, automationPolicyH
           minimumScore: Number(referencedPolicy.authority.minimumQualityScore || 85),
         });
         errors.push(...quality.errors);
+      }
+      if (referencedPolicy?.authority?.eligibilityReviewRequired === true) {
+        errors.push(...assessProposalEligibility(proposal.eligibilityReview));
       }
     } else if (["R2", "R3", "R4"].includes(proposal.risk) && !proposal.approval?.approvedBy) {
       errors.push(`${proposal.risk} proposal requires human approval`);

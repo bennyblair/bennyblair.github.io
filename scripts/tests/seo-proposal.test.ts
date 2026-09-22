@@ -3,6 +3,7 @@ import fs from "node:fs";
 import test from "node:test";
 import { checksum } from "../lib/seo-control-plane.mjs";
 import { calculateArticleQualityScore, calculateOpportunityScore, validateArticleQualityReview, validateAutomationPolicy, validateProposal } from "../lib/seo-proposal.mjs";
+import { assessProposalEligibility } from "../lib/content-eligibility.mjs";
 
 function automationPolicy() {
   const policy = {
@@ -125,6 +126,39 @@ test("article quality review is reproducible and fails closed", () => {
     validateArticleQualityReview(qualityReview({ overallScore: 70 })).errors.join(" "),
     /computed score/,
   );
+});
+
+test("current automation can require eligibility before drafting without invalidating historical proposals", () => {
+  const review = {
+    commercialFit: true,
+    intentOwnerChecked: true,
+    permissionChecked: true,
+    evidenceReady: true,
+    professionalReviewRequired: false,
+    checkedAt: "2026-09-22T00:00:00Z",
+    blockingFindings: [],
+  };
+  assert.deepEqual(assessProposalEligibility(review), []);
+  assert.match(assessProposalEligibility({ ...review, professionalReviewRequired: true }).join(" "), /must be false/);
+  assert.match(assessProposalEligibility({ ...review, blockingFindings: ["Tax review required"] }).join(" "), /blocking findings/);
+
+  const policy = automationPolicy();
+  (policy.authority as typeof policy.authority & { eligibilityReviewRequired: boolean }).eligibilityReviewRequired = true;
+  policy.checksum = checksum({ ...policy, checksum: undefined });
+  const approved = proposal({
+    qualityReview: qualityReview(),
+    eligibilityReview: review,
+    approval: {
+      approvedBy: "seo-policy-bot",
+      approvedAt: "2026-09-22T00:00:00Z",
+      automated: true,
+      policyId: policy.policyId,
+      policyVersion: policy.version,
+      policyChecksum: policy.checksum,
+    },
+  });
+  assert.deepEqual(validateProposal(approved, { automationPolicy: policy }).errors, []);
+  assert.match(validateProposal({ ...approved, eligibilityReview: undefined }, { automationPolicy: policy }).errors.join(" "), /before drafting/);
 });
 
 test("historical automated approvals validate against immutable policy history", () => {

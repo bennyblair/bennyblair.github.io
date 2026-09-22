@@ -1,5 +1,11 @@
 # Property content programme — operating runbook
 
+## Accelerated operating priority (22 September 2026)
+
+`data/seo-content-programme.json` and `data/seo-accelerated-sprint.json` are the authoritative strategy and sprint records. Before drafting, confirm commercial fit, intent ownership, change permission, evidence readiness and whether genuine professional review is required. A blocked candidate is skipped before drafting and is not retried until its blocker changes.
+
+The current commercial owners are commercial property finance, private lending, first and second mortgages, bridging finance and refinancing solutions. Age alone does not set priority. Use the weighted business-fit and demand queue, preserve missing metrics as unknown, and report `published`, `blocked`, `healthy_noop`, `failed` and `unknown` distinctly.
+
 Authorized by Daniel's explicit “PLEASE IMPLEMENT THIS PLAN” instruction in Codex on 6 September 2026. This programme updates the earlier two-per-week cadence and authorizes routine editorial repairs. It does not claim that an automated editor is a human financial reviewer.
 
 ## Scope and targets

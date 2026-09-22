@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import matter from 'gray-matter';
 import { containsInternalEditorialLanguage } from './lib/article-publication-contract.mjs';
+import { assessContentEligibility } from './lib/content-eligibility.mjs';
 
 const hash = value => crypto.createHash('sha256').update(value).digest('hex');
 const read = filename => JSON.parse(fs.readFileSync(filename, 'utf8'));
@@ -39,7 +40,16 @@ export function auditPage(page, root) {
   }
   if (!exists && page.indexability === 'indexable') flags.push('verify_generated_source_mapping');
   if (page.metadataStatus === 'needs_review') flags.push('registry_metadata_review');
-  return { sourceHash: hash(raw || JSON.stringify({ path: page.path, sourcePath: page.sourcePath })), flags };
+  const expiresAt = data.expiresAt || data.expires_at || null;
+  return {
+    sourceHash: hash(raw || JSON.stringify({ path: page.path, sourcePath: page.sourcePath })),
+    flags,
+    hasSources: Array.isArray(data.sources) && data.sources.length > 0,
+    reviewedBy: data.reviewedBy || data.reviewed_by || null,
+    reviewedAt: data.reviewedAt || data.reviewed_at || null,
+    contentRisk: data.contentRisk || data.content_risk || page.governance?.contentRisk || null,
+    expiredEvidence: Boolean(expiresAt && Number.isFinite(Date.parse(expiresAt)) && Date.parse(expiresAt) < Date.now()),
+  };
 }
 
 export function buildProgramme(registry, config, previous, root, gsc = null, now = new Date().toISOString()) {
@@ -55,17 +65,16 @@ export function buildProgramme(registry, config, previous, root, gsc = null, now
     const metric = observations.get(page.path);
     const protectedUntil = page.lifecycle?.protectedUntil || null;
     const protectedNow = protectedUntil && Number.isFinite(Date.parse(protectedUntil)) && Date.parse(protectedUntil) > Date.parse(now);
-    const commercial = /commercial-property|refinanc|bridg|caveat|mortgage|property-equity|against-property/.test(page.path);
-    const score = priorities.has(page.path) ? 100000 - priorities.get(page.path) :
-      (commercial ? 5000 : 0) + (page.pageType === 'service' ? 1000 : 0) +
-      (Number(metric?.impressions) || 0) * (metric?.position > 0 && metric.position <= 20 ? 1.5 : 1) +
-      (audit.flags.includes('public_production_language') ? 100 : 0);
+    const eligibility = assessContentEligibility({ page, audit, metric, config, protectedNow: Boolean(protectedNow) });
     return {
       pageId: page.pageId, path: page.path, sourcePath: page.sourcePath, pageType: page.pageType,
       indexability: page.indexability, primaryQuery: page.targeting?.primaryQuery || null,
       serviceOwner: page.targeting?.designatedServicePagePath || null,
       risk: page.governance?.contentRisk, protectedUntil, protectedNow: Boolean(protectedNow),
-      sourceHash: audit.sourceHash, flags: audit.flags, priorityScore: score,
+      sourceHash: audit.sourceHash, flags: audit.flags,
+      strategyPriority: priorities.has(page.path) ? priorities.get(page.path) + 1 : null,
+      priorityScore: eligibility.priorityScore,
+      eligibility,
       proposedDecision: audit.flags.length ? 'repair' : 'retain',
       decision: keepReview ? prior.decision : null,
       stage: keepReview ? prior.stage : 'queued',
@@ -78,25 +87,45 @@ export function buildProgramme(registry, config, previous, root, gsc = null, now
       gsc: metric ? { clicks: metricNumber(metric.clicks), impressions: metricNumber(metric.impressions), position: metricNumber(metric.position) } : null,
       history: prior?.history || [],
     };
-  }).sort((a, b) => b.priorityScore - a.priorityScore || a.path.localeCompare(b.path));
+  }).sort((a, b) => {
+    if (a.strategyPriority !== null || b.strategyPriority !== null) {
+      if (a.strategyPriority === null) return 1;
+      if (b.strategyPriority === null) return -1;
+      return a.strategyPriority - b.strategyPriority;
+    }
+    return b.priorityScore - a.priorityScore || a.path.localeCompare(b.path);
+  });
   return {
     schemaVersion: 1, programmeId: config.programmeId, generatedAt: now,
     registryChecksum: registry.checksum, configVersion: config.version,
     evidence: { gscWindow: gsc?.performanceWindow || null, gscAvailable: Boolean(gsc?.performanceWindow?.currentStart && gsc?.performanceWindow?.currentEnd && Array.isArray(gsc?.topPages) && gsc.topPages.some(row => typeof row.path === 'string' && metricNumber(row.impressions) !== null)), qualifiedLeads: null,
       note: 'Static triage is not a completed editorial review. Missing page rows are unavailable, not zero. Redirect and noindex states remain unchanged.' },
-    counts: { total: pages.length, indexability: countBy(pages, 'indexability'), pageTypes: countBy(pages, 'pageType'), stages: countBy(pages, 'stage') },
+    counts: {
+      total: pages.length,
+      indexability: countBy(pages, 'indexability'),
+      pageTypes: countBy(pages, 'pageType'),
+      stages: countBy(pages, 'stage'),
+      eligibility: pages.reduce((counts, page) => {
+        counts[page.eligibility.status] = (counts[page.eligibility.status] || 0) + 1;
+        return counts;
+      }, {}),
+    },
     pages,
     releases: previous?.releases || [],
   };
 }
 
 export function nextPages(state, { purpose = 'review', limit = 10 } = {}) {
-  if (!['review', 'repair', 'verify'].includes(purpose)) throw new Error('purpose must be review, repair or verify');
+  if (!['review', 'repair', 'draft', 'verify'].includes(purpose)) throw new Error('purpose must be review, repair, draft or verify');
   if (!Number.isInteger(limit) || limit < 1 || limit > 50) throw new Error('limit must be 1–50');
   return state.pages.filter(page => {
     if (purpose === 'review') return page.stage === 'queued';
+    if (purpose === 'draft') return page.stage === 'queued' && page.eligibility?.status === 'eligible';
     if (page.stage !== 'reviewed') return false;
-    return purpose === 'repair' ? ['repair', 'rewrite'].includes(page.decision) : page.decision === 'retain';
+    const repairEligible = !page.eligibility || page.eligibility.status === 'eligible';
+    return purpose === 'repair'
+      ? ['repair', 'rewrite'].includes(page.decision) && repairEligible
+      : page.decision === 'retain';
   }).slice(0, limit);
 }
 
@@ -183,7 +212,18 @@ export function programmeReport(state, now = new Date().toISOString()) {
     performanceReviewsDue: (state.releases || []).flatMap(row => (row.performanceReviews || []).filter(review => review.status === 'pending' && Date.parse(review.dueAt) <= Date.parse(now)).map(review => ({ sha: row.deployedSha, paths: row.paths, ...review }))),
     generatedAt: now, inventory: state.counts, lastSevenDays: { pagesReviewed: reviewed.size, pagesVerified: verified.size },
     unfinished: state.pages.filter(page => page.stage !== 'verified').length,
-    held: state.pages.filter(page => page.stage === 'held').map(({ path: url, note }) => ({ path: url, reason: note })),
+    held: state.pages.filter(page => page.stage === 'held' || page.eligibility?.status === 'blocked').map(({ path: url, note, eligibility }) => ({
+      path: url,
+      reason: note || eligibility?.blockers?.join(', ') || 'blocked',
+    })),
+    operationalOutcomes: {
+      published: releases.length,
+      blocked: state.pages.filter(page => page.stage === 'held' || page.eligibility?.status === 'blocked').length,
+      healthy_noop: 0,
+      failed: 0,
+      unknown: state.pages.filter(page => page.eligibility?.status === 'unknown').length,
+    },
+    eligibleForDraftOrRepair: state.pages.filter(page => page.eligibility?.status === 'eligible' && ['queued', 'reviewed'].includes(page.stage)).length,
     qualifiedEnquiries: null, settlements: null, revenue: null,
     measurementNote: 'Join private enquiry outcomes when available. Phone/email clicks are not qualified leads. Do not sum page-level GSC rows into site totals.',
   };
