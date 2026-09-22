@@ -273,7 +273,7 @@ const CaseStudies = () => {
             </h2>
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">$150M+</div>
+                <div className="text-3xl font-bold text-primary mb-2">$1B+</div>
                 <div className="text-muted-foreground">Funds Facilitated</div>
               </div>
               <div className="text-center">

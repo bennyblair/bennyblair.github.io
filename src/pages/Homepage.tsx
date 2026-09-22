@@ -96,7 +96,7 @@ const Homepage = () => {
       <section id="finance-overview" className="home-positioning section-pad">
         <div className="section-heading" data-motion-enter><p className="eyebrow">The right structure</p><h2>Commercial Finance Specialists for Complex Australian Transactions</h2></div>
         <div className="positioning-copy" data-motion-enter><p>Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending. We compare suitable bank, non-bank and private-credit options against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.</p>
-          <div className="proof-line"><div><strong>$150M+</strong><span>Commercial Loans Facilitated</span></div><div><strong>Broker-led</strong><span>Structured Lender Comparison</span></div><div><strong>Australia-wide</strong><span>Commercial Finance Coverage</span></div><div><strong>Case-by-case</strong><span>Lender and Structure Assessment</span></div></div>
+          <div className="proof-line"><div><strong>$1B+</strong><span>Commercial Loans Facilitated</span></div><div><strong>Broker-led</strong><span>Structured Lender Comparison</span></div><div><strong>Australia-wide</strong><span>Commercial Finance Coverage</span></div><div><strong>Case-by-case</strong><span>Lender and Structure Assessment</span></div></div>
         </div>
       </section>
 
@@ -132,7 +132,7 @@ const Homepage = () => {
         ].map(item=><div key={item.label}><h3>{item.label}</h3><p><strong>{item.value}.</strong> {item.detail}</p></div>)}</div></div>
       <div className="home-about">
         <div className="section-heading"><p className="eyebrow">Commercial expertise</p><h2>Founded on Expertise,<br />Driven by Results</h2><Link className="text-link" to="/about">Learn More About Us <ArrowRight aria-hidden="true" /></Link></div>
-        <div className="about-copy"><p>Our team combines extensive commercial lending experience with a deep understanding of Australia's financial landscape. We've structured complex deals across diverse industries and know what it takes to secure funding when it matters most.</p><div className="about-specialisms"><span><strong>Specialist</strong> Commercial Finance Focus</span><span><strong>Complex</strong> Transaction Experience</span><span><strong>$150M+</strong> Funds Facilitated</span></div>
+        <div className="about-copy"><p>Our team combines extensive commercial lending experience with a deep understanding of Australia's financial landscape. We've structured complex deals across diverse industries and know what it takes to secure funding when it matters most.</p><div className="about-specialisms"><span><strong>Specialist</strong> Commercial Finance Focus</span><span><strong>Complex</strong> Transaction Experience</span><span><strong>$1B+</strong> Funds Facilitated</span></div>
           <h3>Nationwide Commercial Finance Coverage</h3><p>Operating across Sydney, Melbourne, Brisbane, Perth, Adelaide, and regional centers, we understand the unique challenges of Australian commercial property markets. From CBD high-rise developments to suburban commercial acquisitions, our local expertise ensures your finance solution is tailored to Australian regulations, market conditions, and business requirements.</p>
         </div>
       </div>
