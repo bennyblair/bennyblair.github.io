@@ -120,3 +120,18 @@ test("the deployed tag loader and analytics module use the same GA4 stream", () 
     "the shared production Google tag must not load the retired Analytics destination through a standalone Ads config",
   );
 });
+
+test("production CSP permits every Google measurement endpoint used by the tag", () => {
+  const netlify = fs.readFileSync("netlify.toml", "utf8");
+  const connectSrc = netlify.match(/connect-src ([^;]+);/)?.[1] ?? "";
+  for (const endpoint of [
+    "https://www.google-analytics.com",
+    "https://region1.google-analytics.com",
+    "https://analytics.google.com",
+    "https://googleads.g.doubleclick.net",
+    "https://stats.g.doubleclick.net",
+    "https://ad.doubleclick.net",
+  ]) {
+    assert.match(connectSrc, new RegExp(endpoint.replaceAll(".", "\\.")), `${endpoint} is blocked by connect-src`);
+  }
+});
