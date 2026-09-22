@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "policyId": "daily-content-automerge",
-  "version": "2026-09-06.1",
+  "version": "2026-09-22.1",
   "status": "active",
   "approvedBy": "Daniel Shelest",
-  "approvedAt": "2026-09-06",
+  "approvedAt": "2026-09-22",
   "timezone": "Australia/Sydney",
   "cadence": {
     "days": [
@@ -25,11 +25,13 @@
     "postDeployAuditRequired": true,
     "deterministicRollbackAllowed": true,
     "qualityReviewRequired": true,
+    "eligibilityReviewRequired": true,
     "minimumQualityScore": 85,
     "qualityContractVersion": 1,
     "automatedContentRisk": "low"
   },
   "requiredGates": [
+    "pre-draft eligibility review confirms commercial fit, distinct intent ownership, change permission, sufficient evidence and no unavailable professional review dependency",
     "one approved low-risk R2 proposal with complete evidence, measurement and articleQualityReview score of at least 85",
     "no existing registry page mutation",
     "content quality and financial-claim checks",
@@ -43,8 +45,8 @@
     "merging after any failed or missing gate",
     "recording a human as the automated proposal approver"
   ],
-  "checksum": "810d6818a0526932ed8fac8a62aeaa6c32a11db611200d27501490a0f0bcb133",
-  "approvalReference": "codex-property-content-programme-2026-09-06",
+  "checksum": "f01ce0e3760151824b6052894ea5b7776fe53e4b0016a446f0eede8c60a10d05",
+  "approvalReference": "codex-accelerated-seo-sprint-2026-09-22",
   "operatingModel": {
     "primaryEditor": "Codex",
     "publisher": "OpenClaw",

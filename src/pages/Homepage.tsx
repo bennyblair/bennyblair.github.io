@@ -13,12 +13,11 @@ import homepageContent from "virtual:homepage-content";
 
 const services = [
   { title: "Commercial Property Finance", description: "Property-backed pathways for commercial purchases, refinancing and business-purpose equity release.", link: "/services/commercial-property-finance" },
+  { title: "Private Lending", description: "Private and non-bank property-backed finance assessed against purpose, security, total cost and exit evidence.", link: "/services/private-lending" },
+  { title: "First & Second Mortgages", description: "Business-purpose mortgage structures for purchases, refinance gaps and property-equity release.", link: "/services/first-second-mortgages" },
+  { title: "Bridging Finance", description: "Short-term property finance for settlement and refinance gaps with a documented exit plan.", link: "/services/bridging-finance" },
+  { title: "Refinancing Solutions", description: "Review maturing or unsuitable property-backed business debt, including bank-decline and bridge-to-refinance pathways.", link: "/services/refinancing-solutions" },
   { title: "Property Development Finance", description: "Construction and development funding for residential, commercial, and mixed-use projects across Australia.", link: "/services/commercial-property-development" },
-  { title: "Bridging Finance", description: "Short-term funding for property acquisition, settlements, and time-sensitive commercial opportunities.", link: "/services/bridging-finance" },
-  { title: "Private Lending", description: "Fast, flexible commercial lending solutions when traditional banks can't meet your timeline or requirements.", link: "/services/private-lending" },
-  { title: "Asset-Backed Lending", description: "Leverage your commercial property, equipment, or business assets to secure competitive funding solutions.", link: "/services/asset-backed-lending" },
-  { title: "Caveat Loans", description: "Short-term property-backed business funding assessed against title, equity, timing and a clear repayment plan.", link: "/services/caveat-loans" },
-  { title: "Business Acquisition", description: "Funding solutions for purchasing existing businesses, management buyouts, and strategic acquisitions.", link: "/services/business-acquisition" },
 ];
 
 const homepageCaseImages: Record<string, { src: string; srcSet: string; alt: string }> = {

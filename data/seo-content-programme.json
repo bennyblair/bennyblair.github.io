@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "programmeId": "property-content-recovery",
-  "version": "2026-09-06.1",
+  "version": "2026-09-22.1",
   "timezone": "Australia/Sydney",
   "authorization": {
     "source": "user instruction in Codex: PLEASE IMPLEMENT THIS PLAN",
-    "recordedAt": "2026-09-06",
-    "scope": "Routine editorial repairs across the registered estate, transaction-focused enquiry improvements, and three governed new articles per week. Preserve genuine financial-review and protection requirements.",
+    "recordedAt": "2026-09-22",
+    "scope": "Accelerated 14-day SEO sprint: catch eligibility blockers before drafting, prioritise the five property-backed commercial service owners and ten demand-backed guides, and continue three governed new articles per week. Preserve genuine financial-review and protection requirements.",
     "automatedFinancialApproval": false
   },
   "audience": "Australian business-purpose borrowers using residential or commercial property as security; exclude personal/home-loan purposes",
@@ -41,18 +41,65 @@
   "newArticlePolicy": "data/seo-content-automation-policy.json",
   "repairPolicy": "data/seo-content-repair-policy.json",
   "priorityPaths": [
-    "/resources/guides/urgent-caveat-loans",
-    "/resources/guides/find-caveat-loan-brokers-australia",
-    "/resources/guides/private-credit-refinance-commercial-property-australia",
-    "/resources/guides/commercial-property-finance-sydney-local-expert-hub",
     "/services/commercial-property-finance",
-    "/services/refinancing-solutions",
-    "/services/bridging-finance",
+    "/services/private-lending",
     "/services/first-second-mortgages",
-    "/services/caveat-loans",
+    "/services/bridging-finance",
+    "/services/refinancing-solutions",
+    "/resources/guides/short-term-property-loans-when-you-need-fast-finance",
+    "/resources/guides/first-mortgage-loans-primary-property-finance",
+    "/resources/guides/private-mortgage-lending",
+    "/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia",
+    "/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
+    "/resources/guides/what-is-a-second-mortgage",
+    "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia",
+    "/resources/guides/second-mortgage-interest-rates-current-market-analysis",
+    "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia",
+    "/resources/guides/bridge-lending-australia-commercial-property",
     "/",
     "/contact"
   ],
+  "commercialStrategy": {
+    "focus": "Property-secured business and commercial borrowing in Australia",
+    "serviceOwners": [
+      "/services/commercial-property-finance",
+      "/services/private-lending",
+      "/services/first-second-mortgages",
+      "/services/bridging-finance",
+      "/services/refinancing-solutions"
+    ],
+    "excludedPurposes": [
+      "consumer home lending",
+      "personal divorce or family-law funding",
+      "personal debt consolidation",
+      "investor fundraising"
+    ],
+    "priorityWeights": {
+      "businessFit": 35,
+      "demonstratedDemand": 25,
+      "distinctIntent": 20,
+      "approvedEvidence": 15,
+      "serpAttainability": 5
+    }
+  },
+  "acceleratedSprint": {
+    "startDateSydney": "2026-09-22",
+    "endDateSydney": "2026-10-05",
+    "strategySource": "Emet-Capital-SEO-Strategy-2026-09-22.docx",
+    "operatingMode": "automation-first",
+    "newArticleCadenceUnchanged": true,
+    "specialistReviewDependency": false,
+    "servicePageTarget": 5,
+    "guideReviewTarget": 10,
+    "deploymentBatchMaxSubstantiveUrls": 2,
+    "outcomeTaxonomy": [
+      "published",
+      "blocked",
+      "healthy_noop",
+      "failed",
+      "unknown"
+    ]
+  },
   "candidateBriefs": [
     {
       "title": "Buying a mixed-use commercial property: preparing the finance application",
@@ -99,6 +146,10 @@
       90
     ],
     "repairSlotsIndependentOfNewArticleSlots": true,
-    "publicationsRequireIndependentReview": true
+    "publicationsRequireIndependentReview": true,
+    "draftEligibilityMustPass": true,
+    "unchangedBlockedPackagesAreNotRetried": true,
+    "ageAloneDoesNotSetPriority": true,
+    "cosmeticChangesDoNotCountAsSubstantiveRepairs": true
   }
 }

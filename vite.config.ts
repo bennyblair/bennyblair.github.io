@@ -8,6 +8,13 @@ import { buildContentIndex, parseArticleModule } from "./scripts/lib/content-ind
 
 const VIRTUAL_CONTENT_INDEX = "virtual:content-index";
 const RESOLVED_CONTENT_INDEX = `\0${VIRTUAL_CONTENT_INDEX}`;
+const HOMEPAGE_SERVICE_OWNERS = new Set([
+  "/services/commercial-property-finance",
+  "/services/private-lending",
+  "/services/first-second-mortgages",
+  "/services/bridging-finance",
+  "/services/refinancing-solutions",
+]);
 
 function emetContentPlugin() {
   return {
@@ -20,8 +27,10 @@ function emetContentPlugin() {
     load(id: string) {
       if (id === "\0virtual:homepage-content") {
         const index = buildContentIndex(process.cwd());
-        const guides = index.guides.filter(article => !article.noindex && !isRedirectSource(article.route));
-        const cases = index["case-studies"].filter(article => !article.noindex && !isRedirectSource(article.route));
+        const inCommercialFocus = (article: { designatedServicePage?: string }) =>
+          Boolean(article.designatedServicePage && HOMEPAGE_SERVICE_OWNERS.has(article.designatedServicePage));
+        const guides = index.guides.filter(article => !article.noindex && !isRedirectSource(article.route) && inCommercialFocus(article));
+        const cases = index["case-studies"].filter(article => !article.noindex && !isRedirectSource(article.route) && inCommercialFocus(article));
         const latestArticles = [...guides, ...cases].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 6);
         return `export default ${JSON.stringify({ latestArticles, featuredCaseStudies: cases.slice(0, 8) })};`;
       }

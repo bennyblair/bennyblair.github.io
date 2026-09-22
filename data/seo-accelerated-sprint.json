@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sprintId": "accelerated-seo-2026-09-22",
+  "timezone": "Australia/Sydney",
+  "startsOn": "2026-09-22",
+  "endsOn": "2026-10-05",
+  "mode": "automation-first",
+  "baseline": {
+    "capturedAt": "2026-09-22T21:55:02+10:00",
+    "productionRevision": "d3019913b3df760fc28d68a18f6fc5578a282694",
+    "registryGeneratedAt": "2026-09-21T02:45:00.000Z",
+    "inventory": { "total": 507, "indexable": 383, "redirected": 113, "noindex": 11 },
+    "gscComparison": {
+      "sourceStatus": "supplied_research_not_fresh_api",
+      "currentWindow": { "start": "2026-08-23", "end": "2026-09-19", "clicks": 42, "impressions": 29673, "ctr": 0.001415 },
+      "previousWindow": { "start": "2026-07-26", "end": "2026-08-22", "clicks": 27, "impressions": 12127, "ctr": 0.002226 },
+      "querySample": { "rows": 250, "attributedClicks": 16, "brandClicks": 13 },
+      "note": "The query sample is incomplete and must not be used to infer all remaining clicks are non-brand. Ahrefs estimates are not visits or leads."
+    },
+    "qualifiedOrganicLeads": null
+  },
+  "servicePages": [
+    { "path": "/services/commercial-property-finance", "serviceOwner": "commercial_property", "outcome": "audit_passed_no_change", "reason": "Current page already covers purchase, refinance, urgent settlement, documents, suitability and lender role; preserve it pending live cohort measurement." },
+    { "path": "/services/private-lending", "serviceOwner": "private_lending", "outcome": "implemented_pending_release", "reason": "Added clearer borrower fit, document checklist, total-cost framing, next-step expectations and transaction-specific enquiry tracking." },
+    { "path": "/services/first-second-mortgages", "serviceOwner": "first_second_mortgages", "outcome": "implemented_pending_release", "reason": "Added consent, net-proceeds and document guidance and removed a duplicate related-guide destination." },
+    { "path": "/services/bridging-finance", "serviceOwner": "bridging_finance", "outcome": "audit_passed_no_change", "reason": "Current page already distinguishes exit evidence, peak debt, approval dependencies and settlement; preserve it pending measurement." },
+    { "path": "/services/refinancing-solutions", "serviceOwner": "refinancing", "outcome": "audit_passed_no_change", "reason": "Current page already covers maturity, bank decline, total costs and bridge-to-refinance comparison; preserve it pending measurement." }
+  ],
+  "guideWave": [
+    { "path": "/resources/guides/short-term-property-loans-when-you-need-fast-finance", "serviceOwner": "/services/bridging-finance", "outcome": "blocked", "reason": "High-risk financial content has only an automated source audit; genuine specialist review is unavailable." },
+    { "path": "/resources/guides/first-mortgage-loans-primary-property-finance", "serviceOwner": "/services/first-second-mortgages", "outcome": "blocked", "reason": "Inherited article-contract fields, source ledger and automated change permission are incomplete." },
+    { "path": "/resources/guides/private-mortgage-lending", "serviceOwner": "/services/private-lending", "outcome": "blocked", "reason": "Intent ownership, sources and inherited article-contract fields must be completed before substantive drafting." },
+    { "path": "/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia", "serviceOwner": "/services/commercial-property-finance", "outcome": "blocked", "reason": "Publication-day risk classification and evidence requirements are unresolved; do not draft around the gate." },
+    { "path": "/resources/guides/short-term-private-lenders-fast-business-finance-solutions", "serviceOwner": "/services/private-lending", "outcome": "blocked", "reason": "High-risk financial content has only an automated source audit; genuine specialist review is unavailable." },
+    { "path": "/resources/guides/what-is-a-second-mortgage", "serviceOwner": "/services/first-second-mortgages", "outcome": "blocked", "reason": "Current repair package has a publication-contract conflict; reconcile metadata, evidence and risk before redrafting." },
+    { "path": "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia", "serviceOwner": "/services/refinancing-solutions", "outcome": "blocked", "reason": "Existing package remains on workflow and genuine financial-review hold." },
+    { "path": "/resources/guides/second-mortgage-interest-rates-current-market-analysis", "serviceOwner": "/services/first-second-mortgages", "outcome": "blocked", "reason": "Current-rate content is time-sensitive and high risk; autonomous publication is not permitted without genuine review." },
+    { "path": "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia", "serviceOwner": "/services/bridging-finance", "outcome": "blocked", "reason": "Tax and financial claims remain high risk; preserve the existing financial hold." },
+    { "path": "/resources/guides/bridge-lending-australia-commercial-property", "serviceOwner": "/services/bridging-finance", "outcome": "blocked", "reason": "Existing repair remains on workflow and genuine financial-review hold." }
+  ],
+  "implementation": {
+    "homepageCoreServiceDiscovery": "implemented_pending_release",
+    "homepageContentFeedScope": "implemented_pending_release",
+    "preDraftEligibilityGate": "implemented_pending_release",
+    "weightedCommercialQueue": "implemented_pending_release",
+    "keywordResearchSet": "implemented_pending_release",
+    "externalAhrefsRankTracker": "unknown",
+    "acceptedEnquiryTracking": "existing_tests_present",
+    "crmQualifiedLeadJoin": "unknown"
+  },
+  "rules": {
+    "maxSubstantiveUrlsPerRelease": 2,
+    "newArticlesPerWeek": 3,
+    "specialistReviewDependency": false,
+    "noRepeatedRetryWithoutBlockerChange": true,
+    "missingMetricsAreNull": true,
+    "noAutomaticOutreach": true
+  }
+}

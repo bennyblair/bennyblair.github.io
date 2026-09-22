@@ -7,7 +7,6 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { BookOpen, Phone, FileText, Briefcase, TrendingUp, Shield, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
-import { Helmet } from "react-helmet-async";
 import { generateServiceSchema } from "@/lib/schema-utils";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
@@ -44,20 +43,18 @@ const PrivateLending = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Private Lending | Non-Bank Commercial Loans Australia | Emet Capital</title>
-        <meta 
-          name="description" 
-          content="Private lending broker support for business-purpose loans, commercial property finance, non-bank lending, and alternative funding after bank rejection." 
-        />
-        <meta name="keywords" content="private lending, alternative finance, private credit, non-bank lending, commercial finance" />
-      <link rel="canonical" href="https://emetcapital.com.au/services/private-lending" />
-      <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
-      <meta property="og:image:alt" content="Emet Capital private lending" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
-      {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
-      </Helmet>
+      <SEO
+        title="Private Lending Broker Australia | Property-Backed Business Loans"
+        description="Compare private and non-bank property-backed business finance, including first and second mortgages, bank-decline options, required documents, costs and exit planning."
+        canonical="/services/private-lending"
+        keywords="private lending broker Australia, private mortgage business loan, non-bank commercial lending, property-backed business finance"
+        noindex={isDesignPreview}
+        schemas={[generateServiceSchema(
+          "Private Lending Broker",
+          "Private and non-bank property-backed finance for eligible Australian business purposes, assessed against security, costs, timing and exit evidence.",
+          "https://emetcapital.com.au/services/private-lending"
+        )]}
+      />
       
       <div className="min-h-screen py-8">
         <div className="container mx-auto px-4">
@@ -71,13 +68,18 @@ const PrivateLending = () => {
           <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Alternative Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Private Lending Solutions
+              Private Lending for Property-Backed Business Finance
             </h1>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Compare private and non-bank lenders when a business-purpose transaction does not fit a bank's
+              timing, policy or structure. Residential or commercial property may be used as security, subject
+              to lender assessment, legal checks and a credible repayment or refinance exit.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                <Link to="/contact">
+                <Link to="/contact?purpose=private_lending" data-analytics-event="service_enquiry" data-transaction-purpose="private_lending">
                   <FileText className="mr-2 h-5 w-5" />
-                  Get Quote
+                  Discuss Your Transaction
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -101,6 +103,34 @@ const PrivateLending = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Lending structures encompass first mortgages, second mortgages, mezzanine finance, and specialized arrangements tailored to transaction requirements. Private lenders accommodate various property types, unique circumstances, and time-sensitive situations that traditional lenders may decline. Security typically involves real property, though business assets may support certain private lending arrangements. Interest rates reflect risk assessment and funding urgency, with terms ranging from short-term bridging to medium-term facilities depending on purpose and exit strategy.
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">What to Prepare for a Private Lender</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A private-lending enquiry is easier to assess when it arrives as a complete transaction file.
+                The lender still needs to understand the borrower, business purpose, property security, existing
+                debt, total funding requirement and how the facility will be repaid.
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                {[
+                  "Entity, trust and identity documents for the borrower and guarantors",
+                  "Property address, title position, valuation evidence and current secured debt",
+                  "A clear business-purpose use of funds and itemised amount required",
+                  "Exit evidence, including sale, refinance or another supportable repayment event",
+                  "The required settlement date and any contract, payout or legal deadline",
+                  "Known establishment, valuation, legal, interest and exit costs for comparison"
+                ].map((item) => (
+                  <Card key={item}>
+                    <CardContent className="p-4 text-sm text-muted-foreground leading-relaxed">{item}</CardContent>
+                  </Card>
+                ))}
+              </div>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Emet first checks whether private finance fits the transaction, then compares relevant lender
+                appetite and identifies missing information. Indicative terms are not an approval; valuation,
+                legal review and final credit conditions can still affect timing and settlement.
               </p>
             </ServiceChapter>
 
@@ -213,7 +243,7 @@ const PrivateLending = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                  <Link to="/contact?purpose=private_lending" data-analytics-event="service_enquiry" data-transaction-purpose="private_lending"><FileText className="mr-2 h-5 w-5" />Discuss Your Transaction</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
