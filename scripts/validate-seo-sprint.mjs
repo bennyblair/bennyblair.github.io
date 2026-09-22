@@ -24,6 +24,19 @@ if (keywords.market !== "Australia" || !Array.isArray(keywords.keywords) || keyw
 for (const keyword of keywords.keywords || []) {
   if (!keyword.query || !keyword.serviceOwner || keyword.volume === undefined || keyword.difficulty === undefined) errors.push(`keyword row is incomplete: ${keyword.query || "missing query"}`);
 }
+const handsOff = programme.handsOffAutomation;
+if (!handsOff || handsOff.routineUserActionsRequired !== false || handsOff.manualFallbackOwner !== null) {
+  errors.push("programme must remain hands-off without a routine manual fallback owner");
+}
+if (handsOff?.blockedItemPolicy !== "defer_and_advance" || handsOff?.externalFailurePolicy !== "record_retry_next_scheduled_run") {
+  errors.push("hands-off failure and blocker policies are invalid");
+}
+for (const job of ["editorialPreparationJob", "independentReviewJob", "newArticlePublisherJob", "repairPublisherJob", "lifecycleMeasurementJob"]) {
+  if (!handsOff?.[job]) errors.push(`hands-off job is missing: ${job}`);
+}
+if (programme.rules?.routineUserOperationRequired !== false || programme.rules?.specialistRiskIsDeferredAutomatically !== true || programme.rules?.publicationCadenceNeverOverridesQualityGate !== true) {
+  errors.push("hands-off programme guardrails are incomplete");
+}
 if (errors.length) {
   for (const error of errors) console.error(`ERROR ${error}`);
   process.exit(1);
