@@ -45,5 +45,32 @@ class BudgetTests(unittest.TestCase):
             budget.capacity(self.db, "rank", 1, 10001)
 
 
+    def test_positive_estimate_and_shared_database_safety(self):
+        with self.assertRaisesRegex(ValueError, "positive"):
+            budget.capacity(self.db, "rank", 0, 10000)
+        self.assertEqual(self.db.execute("PRAGMA foreign_keys").fetchone()[0], 1)
+        self.assertEqual(self.db.execute("PRAGMA journal_mode").fetchone()[0].lower(), "wal")
+        with self.assertRaises(sqlite3.IntegrityError):
+            self.db.execute("INSERT INTO openseo_credit_events VALUES (?,?,?,?,?,?,?,?,?)",
+                            ("invalid-fk", "missing-cycle", "rank", 1, None, None,
+                             "reserved", budget.now(), budget.now()))
+        self.db.rollback()
+
+    def test_provider_overcharge_is_recorded_and_halts_paid_work(self):
+        self.db.execute("INSERT INTO openseo_credit_events VALUES (?,?,?,?,?,?,?,?,?)",
+                        ("bad-charge", "opening-20260927", "rank", 100, None, None,
+                         "reserved", budget.now(), budget.now()))
+        self.db.commit()
+        result = budget.settle_event(self.db, "bad-charge", 9000, 1000)
+        self.db.commit()
+        self.assertTrue(result["budgetHalt"])
+        self.assertEqual(self.db.execute("SELECT state,actual_credits FROM openseo_credit_events WHERE request_key='bad-charge'").fetchone(),
+                         ("overrun", 9000))
+        spent, pending, categories = budget.usage(self.db, "opening-20260927")
+        self.assertEqual((spent, pending, categories["rank"]), (9000, 0, 9000))
+        with self.assertRaisesRegex(ValueError, "reconcile"):
+            budget.capacity(self.db, "keyword_serp", 1, 1000)
+
+
 if __name__ == "__main__":
     unittest.main()

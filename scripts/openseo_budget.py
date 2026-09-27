@@ -22,6 +22,8 @@ def now():
 def connect(path):
     db = sqlite3.connect(path)
     db.execute("PRAGMA busy_timeout=5000")
+    db.execute("PRAGMA foreign_keys=ON")
+    db.execute("PRAGMA journal_mode=WAL")
     db.execute("""CREATE TABLE IF NOT EXISTS openseo_budget_cycle (
         cycle_id TEXT PRIMARY KEY, opening_balance INTEGER NOT NULL,
         routine_cap INTEGER NOT NULL, reserve_credits INTEGER NOT NULL,
@@ -51,12 +53,12 @@ def usage(db, cycle_id):
         "SELECT category,state,estimated_credits,actual_credits FROM openseo_credit_events WHERE cycle_id=?",
         (cycle_id,),
     ).fetchall()
-    spent = sum(actual or 0 for _, state, _, actual in rows if state == "settled")
+    spent = sum(actual or 0 for _, state, _, actual in rows if state in ("settled", "overrun"))
     pending = sum(estimate for _, state, estimate, _ in rows if state == "reserved")
     categories = {name: sum(
-        (actual or 0) if state == "settled" else estimate
+        (actual or 0) if state in ("settled", "overrun") else estimate
         for category, state, estimate, actual in rows
-        if category == name and state in ("settled", "reserved")
+        if category == name and state in ("settled", "overrun", "reserved")
     ) for name in CATEGORY_CAPS}
     return spent, pending, categories
 
@@ -64,11 +66,13 @@ def usage(db, cycle_id):
 def capacity(db, category, estimate, balance):
     if category not in CATEGORY_CAPS:
         raise ValueError("Unknown budget category")
-    if not isinstance(estimate, int) or estimate < 0 or not isinstance(balance, int):
-        raise ValueError("A bounded nonnegative credit estimate and current balance are required")
+    if not isinstance(estimate, int) or estimate <= 0 or not isinstance(balance, int):
+        raise ValueError("A positive bounded credit estimate and current balance are required")
     cycle_id, opening, cap, reserve = cycle(db)
     if balance > opening:
         raise ValueError("Balance rose; confirm the new billing cycle before spending")
+    if db.execute("SELECT 1 FROM openseo_credit_events WHERE cycle_id=? AND state='overrun' LIMIT 1", (cycle_id,)).fetchone():
+        raise ValueError("A paid request exceeded its reservation or allowance; reconcile before further paid work")
     spent, pending, categories = usage(db, cycle_id)
     observed_spend = max(spent, opening - balance)
     effective_total = observed_spend + pending
@@ -86,6 +90,33 @@ def capacity(db, category, estimate, balance):
         "pending": pending, "routineRemaining": cap - effective_total,
         "categoryRemaining": CATEGORY_CAPS[category] - categories[category],
     }
+
+
+def settle_event(db, request_key, actual, balance):
+    row = db.execute(
+        "SELECT e.state,e.estimated_credits,e.category,c.opening_balance,c.routine_cap,c.reserve_credits "
+        "FROM openseo_credit_events e JOIN openseo_budget_cycle c ON c.cycle_id=e.cycle_id "
+        "WHERE e.request_key=?", (request_key,)
+    ).fetchone()
+    if row is None or row[0] != "reserved" or not isinstance(actual, int) or actual < 0 or not isinstance(balance, int) or balance < 0:
+        raise ValueError("Settlement requires an existing reservation and valid account balance")
+    state, estimate, category, opening, cap, reserve = row
+    cycle_id = cycle(db)[0]
+    spent, pending, categories = usage(db, cycle_id)
+    # Record any provider overcharge and halt future paid calls.
+    other_pending = pending - estimate
+    total_after = max(spent + actual, opening - balance) + other_pending
+    category_after = categories[category] - estimate + actual
+    overrun = (actual > estimate or total_after > cap
+               or category_after > CATEGORY_CAPS[category]
+               or balance - other_pending < reserve or balance > opening)
+    new_state = "overrun" if overrun else "settled"
+    db.execute("UPDATE openseo_credit_events SET state=?,actual_credits=?,balance_after=?,updated_at=? WHERE request_key=?",
+               (new_state, actual, balance, now(), request_key))
+    return {"requestKey": request_key, "estimated": estimate, "actual": actual,
+            "balanceAfter": balance, "overEstimate": actual > estimate,
+            "budgetHalt": overrun,
+            "action": "Stop paid work and reconcile this billing cycle" if overrun else None}
 
 
 def main():
@@ -130,14 +161,7 @@ def main():
                         "reserved", stamp, stamp))
             result["requestKey"] = args.key
         elif args.command == "settle":
-            row = db.execute("SELECT state,estimated_credits FROM openseo_credit_events WHERE request_key=?",
-                             (args.key,)).fetchone()
-            if row is None or row[0] != "reserved" or args.actual < 0 or args.balance < 0:
-                raise ValueError("Settlement requires an existing reservation and valid account balance")
-            db.execute("UPDATE openseo_credit_events SET state='settled',actual_credits=?,balance_after=?,updated_at=? WHERE request_key=?",
-                       (args.actual, args.balance, now(), args.key))
-            result = {"requestKey": args.key, "estimated": row[1], "actual": args.actual,
-                      "balanceAfter": args.balance, "overEstimate": args.actual > row[1]}
+            result = settle_event(db, args.key, args.actual, args.balance)
         elif args.command == "release":
             cur = db.execute("UPDATE openseo_credit_events SET state='released',updated_at=? WHERE request_key=? AND state='reserved'",
                              (now(), args.key))
@@ -147,9 +171,10 @@ def main():
         else:
             cycle_id, opening, cap, reserve = cycle(db)
             spent, pending, categories = usage(db, cycle_id)
+            halted = bool(db.execute("SELECT 1 FROM openseo_credit_events WHERE cycle_id=? AND state='overrun' LIMIT 1", (cycle_id,)).fetchone())
             result = {"cycleId": cycle_id, "openingBalance": opening, "recordedSpent": spent,
                       "pending": pending, "routineCap": cap, "reserve": reserve,
-                      "categories": categories}
+                      "categories": categories, "budgetHalt": halted}
         db.commit()
         print(json.dumps(result, sort_keys=True))
     except Exception:
