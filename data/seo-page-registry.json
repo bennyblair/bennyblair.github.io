@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-09-21T02:45:00.000Z",
+  "generatedAt": "2026-09-27T11:09:27.875Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -2458,6 +2458,49 @@
       "programIds": []
     },
     {
+      "pageId": "pg_b8ca3aa65535404eabd4c7d0c6296c86",
+      "path": "/resources/guides/asset-backed-business-loans-vs-unsecured-business-loans",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_a429e2aa0dfd4aed87ecacb68b687479",
+      "redirectToPath": "/resources/guides/asset-backed-lending-vs-unsecured-business-loans",
+      "targeting": {
+        "primaryQuery": "asset backed business loans vs unsecured business loans legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
       "pageId": "pg_85b6a2ea388b40ee93baf05f824ff84e",
       "path": "/resources/guides/asset-backed-lending-and-asset-finance",
       "sourcePath": "src/content/guides/asset-backed-lending-and-asset-finance.md",
@@ -2935,6 +2978,49 @@
         "primaryOutcome": "nonbrand_click_and_service_assist",
         "successRuleId": "sr_supporting_demand_v1",
         "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_a264e5d86e274bf4a5147c79957173f2",
+      "path": "/resources/guides/bank-exit-finance-commercial-awareness-australia",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_d8a5d337fbe24b78942d00a534d874f3",
+      "redirectToPath": "/resources/guides/bank-exit-finance-commercial-borrowers-australia",
+      "targeting": {
+        "primaryQuery": "bank exit finance commercial awareness australia legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
     },
@@ -5199,8 +5285,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_commit_c18cbee",
-        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -5897,8 +5983,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_154",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -6335,8 +6421,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -6423,8 +6509,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_155",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7299,8 +7385,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7430,8 +7516,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7606,8 +7692,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7737,8 +7823,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -8347,8 +8433,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -8392,8 +8478,8 @@
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
-        "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -8706,6 +8792,49 @@
         "primaryOutcome": "nonbrand_click_and_service_assist",
         "successRuleId": "sr_supporting_demand_v1",
         "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_8d7592c25d494b2baf2804ad6fac0ccc",
+      "path": "/resources/guides/equipment-sale-leaseback-finance-australia",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_42201bb8370343dc91f459b380ccbc30",
+      "redirectToPath": "/resources/guides/equipment-sale-and-leaseback-finance-australia",
+      "targeting": {
+        "primaryQuery": "equipment sale leaseback finance australia legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
     },
@@ -9418,7 +9547,7 @@
       "pageType": "guide",
       "indexability": "indexable",
       "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataConfidence": "medium",
       "targeting": {
         "primaryQuery": "commercial property loan guarantor",
         "intent": "informational",
@@ -9433,10 +9562,10 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
+        "reviewedBy": "OpenClaw automated independent editorial reviewer",
+        "reviewedAt": "2026-09-20",
         "expiresAt": null
       },
       "lifecycle": {
@@ -12272,10 +12401,10 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": false,
-        "sourceCount": 2,
+        "sourceCount": 3,
         "reviewEveryDays": 365,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
+        "reviewedBy": "OpenClaw automated independent editorial reviewer",
+        "reviewedAt": "2026-09-20",
         "expiresAt": null
       },
       "lifecycle": {
@@ -13921,6 +14050,49 @@
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
       ]
+    },
+    {
+      "pageId": "pg_df22099a9a9f425ea1309c78c82c21a4",
+      "path": "/resources/guides/settlement-shortfall-finance-in-australia",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1f58e540204c4107bcb2d73bb0f01ae5",
+      "redirectToPath": "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
+      "targeting": {
+        "primaryQuery": "settlement shortfall finance in australia legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
     },
     {
       "pageId": "pg_1f58e540204c4107bcb2d73bb0f01ae5",
@@ -21911,5 +22083,5 @@
       "programIds": []
     }
   ],
-  "checksum": "23ea9af1633d866f2af3bdb8f3b6033cf557f23d810f85612312e0364dfc5e33"
+  "checksum": "5c8e6a6b8747f4e3a9826b966edfeec21e82a41035a65292ff6da5590754e844"
 }

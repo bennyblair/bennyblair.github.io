@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
   "programmeId": "property-content-recovery",
-  "version": "2026-09-22.1",
+  "version": "2026-09-27.1",
   "timezone": "Australia/Sydney",
   "authorization": {
-    "source": "user instruction in Codex: PLEASE IMPLEMENT THIS PLAN",
-    "recordedAt": "2026-09-22",
-    "scope": "Accelerated 14-day SEO sprint: catch eligibility blockers before drafting, prioritise the five property-backed commercial service owners and ten demand-backed guides, and continue three governed new articles per week. Preserve genuine financial-review and protection requirements.",
+    "source": "Daniel instruction in Codex: PLEASE IMPLEMENT THIS PLAN (focused SEO growth programme)",
+    "recordedAt": "2026-09-27",
+    "scope": "Prioritise qualified Australian property-secured business finance enquiries; 80 percent existing-page and technical improvements; up to two distinct new articles per week; single SEO brief and bounded included OpenSEO credits. Preserve independent review and sole OpenClaw publisher.",
     "automatedFinancialApproval": false
   },
   "audience": "Australian business-purpose borrowers using residential or commercial property as security; exclude personal/home-loan purposes",
   "targets": {
-    "newArticlesPerWeek": 3,
-    "substantialRepairsPerWeek": 15,
-    "reviewWeeks": 8,
-    "newArticlesPerFourWeeks": {
-      "purchase_refinance": 6,
-      "bridge_equity": 6
-    },
-    "pagesReviewedPerWeek": 50,
-    "additionalBoundedRouteReviewsPerWeek": 13
+    "substantiveExistingPageImprovementsFirst14Days": 6,
+    "newArticlesPerWeekMaximum": 2,
+    "readyDraftReserveTarget": 3,
+    "existingWorkShareTarget": 0.8,
+    "newContentWorkShareTarget": 0.2,
+    "reviewDaysAfterMaterialChange": [
+      7,
+      28,
+      56
+    ]
   },
   "schedule": {
     "publicationDays": [
       "Monday",
-      "Wednesday",
       "Friday"
     ],
     "publicationTime": "10:00",
@@ -35,8 +35,8 @@
       "Thursday",
       "Friday"
     ],
-    "editorTime": "05:30",
-    "independentReviewTime": "07:30",
+    "editorTime": "07:00",
+    "independentReviewTime": "09:00",
     "repairReleaseTime": "11:00"
   },
   "newArticlePolicy": "data/seo-content-automation-policy.json",
@@ -48,6 +48,10 @@
     "/services/bridging-finance",
     "/services/refinancing-solutions",
     "/resources/guides/short-term-property-loans-when-you-need-fast-finance",
+    "/resources/guides/secured-vs-unsecured-business-loans-australia",
+    "/resources/guides/best-bridging-loan-lenders-companies-2025",
+    "/",
+    "/contact",
     "/resources/guides/first-mortgage-loans-primary-property-finance",
     "/resources/guides/private-mortgage-lending",
     "/resources/guides/commercial-property-equity-release-when-leases-have-expired-australia",
@@ -56,9 +60,7 @@
     "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia",
     "/resources/guides/second-mortgage-interest-rates-current-market-analysis",
     "/resources/guides/gst-loan-for-commercial-property-settlement-in-australia",
-    "/resources/guides/bridge-lending-australia-commercial-property",
-    "/",
-    "/contact"
+    "/resources/guides/bridge-lending-australia-commercial-property"
   ],
   "commercialStrategy": {
     "focus": "Property-secured business and commercial borrowing in Australia",
@@ -103,48 +105,55 @@
   },
   "handsOffAutomation": {
     "routineUserActionsRequired": false,
-    "editorialPreparationJob": "Autonomous SEO editorial preparation",
+    "editorialPreparationJob": "Emet property content editor (Codex)",
     "independentReviewJob": "Autonomous SEO independent editorial review",
-    "newArticlePublisherJob": "Governed property content - 1x Mon/Wed/Fri",
+    "newArticlePublisherJob": "Governed property content - 1x Mon/Fri",
     "repairPublisherJob": "Property content repairs - weekday release",
     "lifecycleMeasurementJob": "SEO lifecycle measurement and routing",
     "blockedItemPolicy": "defer_and_advance",
     "externalFailurePolicy": "record_retry_next_scheduled_run",
     "notificationPolicy": "completed_release_or_actionable_system_failure_only",
     "manualFallbackOwner": null,
-    "automaticSpending": false,
-    "externalOutreachSending": false
+    "automaticSpending": "included_credits_only_bounded",
+    "externalOutreachSending": false,
+    "openSeoProjectId": "f8f8b5cd-f435-4bd0-9bd4-5b9b08a8bc34",
+    "openSeoBillingCycleRoutineCeilingCredits": 8000,
+    "openSeoReserveCredits": 2000,
+    "dailySeoBriefTime": "18:00"
   },
   "candidateBriefs": [
     {
       "title": "Buying a mixed-use commercial property: preparing the finance application",
       "service": "/services/commercial-property-finance",
       "group": "purchase_refinance",
-      "status": "reviewed_draft",
+      "status": "published",
       "exactSearchDemand": "unverified",
       "slug": "mixed-use-commercial-property-purchase-finance-australia",
       "releaseDateSydney": "2026-09-07",
-      "draftPackage": "seo/content-programme-drafts/mixed-use-commercial-property-purchase-finance-australia/package.json"
+      "draftPackage": "seo/content-programme-drafts/mixed-use-commercial-property-purchase-finance-australia/package.json",
+      "statusEvidence": "verified external release receipt; see reports/content-programme/new-2026-09-07, new-2026-09-09, new-2026-09-14"
     },
     {
       "title": "Commercial interest-only period ending: renewal or refinance before repayments change",
       "service": "/services/refinancing-solutions",
       "group": "purchase_refinance",
-      "status": "reviewed_draft",
+      "status": "published",
       "exactSearchDemand": "unverified",
       "slug": "commercial-interest-only-period-ending-refinance-australia",
       "releaseDateSydney": "2026-09-09",
-      "draftPackage": "seo/content-programme-drafts/commercial-interest-only-period-ending-refinance-australia/package.json"
+      "draftPackage": "seo/content-programme-drafts/commercial-interest-only-period-ending-refinance-australia/package.json",
+      "statusEvidence": "verified external release receipt; see reports/content-programme/new-2026-09-07, new-2026-09-09, new-2026-09-14"
     },
     {
       "title": "Using an outright-owned property to secure a business loan",
       "service": "/services/first-second-mortgages",
       "group": "bridge_equity",
-      "status": "reviewed_draft",
+      "status": "published",
       "exactSearchDemand": "unverified",
       "slug": "business-loan-against-outright-owned-property-australia",
       "releaseDateSydney": "2026-09-11",
-      "draftPackage": "seo/content-programme-drafts/business-loan-against-outright-owned-property-australia/package.json"
+      "draftPackage": "seo/content-programme-drafts/business-loan-against-outright-owned-property-australia/package.json",
+      "statusEvidence": "verified external release receipt; see reports/content-programme/new-2026-09-07, new-2026-09-09, new-2026-09-14"
     }
   ],
   "rules": {
@@ -168,6 +177,10 @@
     "cosmeticChangesDoNotCountAsSubstantiveRepairs": true,
     "routineUserOperationRequired": false,
     "specialistRiskIsDeferredAutomatically": true,
-    "publicationCadenceNeverOverridesQualityGate": true
+    "publicationCadenceNeverOverridesQualityGate": true,
+    "financialClaimChangeRequiresProfessionalReview": true,
+    "pageLevelRiskDoesNotBlockExactClaimSafeMechanicalTransform": true,
+    "noMandatoryPublishingQuota": true,
+    "singleScheduledSeoBrief": true
   }
 }

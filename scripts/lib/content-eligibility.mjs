@@ -1,3 +1,19 @@
+export function assessScopedRepairCandidate({ page, protectedNow = false }) {
+  const blocked = page?.indexability !== "indexable" || protectedNow;
+  const permission = page?.governance?.maxAutomatedChangeRisk;
+  const contentRisk = page?.governance?.contentRisk;
+  // Exact transforms are independently validated against before/after bytes by
+  // validateRepairManifest. This list is discovery permission, not release approval.
+  const exactMechanical = !blocked && ["R0", "R1", "R2"].includes(permission)
+    ? ["internal-link-destinations-v1", "public-headings-v1", "nonfinancial-editorial-v1",
+       ...(contentRisk === "high" ? [] : ["public-editorial-v1"])]
+    : [];
+  const substantive = !blocked
+    && ALLOWED_AUTOMATED_RISKS.has(permission)
+    && (contentRisk === "low" || contentRisk === "medium");
+  return { exactMechanical, substantive };
+}
+
 const ALLOWED_AUTOMATED_RISKS = new Set(["R1", "R2"]);
 
 const numberOrNull = (value) => {
@@ -50,9 +66,13 @@ export function assessContentEligibility({ page, audit, metric, config, protecte
     serpAttainability: numberOrNull(metric?.position) !== null ? 5 : 0,
   };
   const priorityScore = Object.values(components).reduce((total, value) => total + value, 0);
+  // Triage is page-wide; release permission is evaluated against the exact edit.
+  // A held financial rewrite must not hide a safe, exact mechanical repair.
+  const scopedActions = assessScopedRepairCandidate({ page, protectedNow });
   const status = blockers.length ? "blocked" : unknowns.length ? "unknown" : "eligible";
   return {
     status,
+    scopedActions,
     blockers,
     unknowns,
     checkedBeforeDrafting: true,
