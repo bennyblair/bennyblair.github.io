@@ -12,7 +12,7 @@ function automationPolicy() {
     version: "2026-08-24.1",
     status: "active",
     timezone: "Australia/Sydney",
-    cadence: { days: ["Monday", "Wednesday", "Friday"], localTime: "10:00", articlesPerRun: 1, articlesPerWeek: 3 },
+    cadence: { days: ["Monday", "Friday"], localTime: "10:00", articlesPerRun: 1, articlesPerWeek: 2 },
     authority: {
       allowedRisk: "R2",
       exactArticlesPerChange: 1,
@@ -203,7 +203,7 @@ test("borderline proposals require an exception and low scores are rejected", ()
 test("versioned cadence comes from policy while retaining one article per release", () => {
   const current = JSON.parse(fs.readFileSync("data/seo-content-automation-policy.json", "utf8"));
   assert.deepEqual(validateAutomationPolicy(current).errors, []);
-  assert.deepEqual(current.cadence, { days: ["Monday", "Wednesday", "Friday"], localTime: "10:00", articlesPerRun: 1, articlesPerWeek: 3 });
+  assert.deepEqual(current.cadence, { days: ["Monday", "Friday"], localTime: "10:00", articlesPerRun: 1, articlesPerWeek: 2 });
   for (const cadence of [
     { ...current.cadence, days: ["Monday", "Monday"] },
     { ...current.cadence, days: ["Someday"] },

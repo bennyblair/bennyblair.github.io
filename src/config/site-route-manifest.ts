@@ -336,6 +336,11 @@ const simpleAliases: Record<string, string> = {
 };
 
 const guideAliases: Record<string, string> = {
+  // Verified GSC legacy 404s: each destination is a live equivalent guide.
+  "asset-backed-business-loans-vs-unsecured-business-loans": "asset-backed-lending-vs-unsecured-business-loans",
+  "bank-exit-finance-commercial-awareness-australia": "bank-exit-finance-commercial-borrowers-australia",
+  "equipment-sale-leaseback-finance-australia": "equipment-sale-and-leaseback-finance-australia",
+  "settlement-shortfall-finance-in-australia": "settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
   "2nd-mortgages-with-bad-credit": "second-mortgage-bad-credit-qualify",
   "second-mortgage-for-poor-credit": "second-mortgage-bad-credit-qualify",
   "caveat-loans-australia": "caveat-loans-australia-complete-guide",

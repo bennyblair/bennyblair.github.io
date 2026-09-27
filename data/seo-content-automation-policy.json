@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
   "policyId": "daily-content-automerge",
-  "version": "2026-09-22.1",
+  "version": "2026-09-27.1",
   "status": "active",
   "approvedBy": "Daniel Shelest",
-  "approvedAt": "2026-09-22",
+  "approvedAt": "2026-09-27",
   "timezone": "Australia/Sydney",
   "cadence": {
     "days": [
       "Monday",
-      "Wednesday",
       "Friday"
     ],
     "localTime": "10:00",
     "articlesPerRun": 1,
-    "articlesPerWeek": 3
+    "articlesPerWeek": 2
   },
   "authority": {
     "allowedRisk": "R2",
@@ -45,8 +44,8 @@
     "merging after any failed or missing gate",
     "recording a human as the automated proposal approver"
   ],
-  "checksum": "f01ce0e3760151824b6052894ea5b7776fe53e4b0016a446f0eede8c60a10d05",
-  "approvalReference": "codex-accelerated-seo-sprint-2026-09-22",
+  "checksum": "bba5ac5994c7a69c6ee7d1e058ade10f0857f3f08b6ed034abbb454f0c77c644",
+  "approvalReference": "codex-focused-seo-growth-2026-09-27",
   "operatingModel": {
     "primaryEditor": "Codex",
     "publisher": "OpenClaw",

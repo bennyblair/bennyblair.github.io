@@ -2,24 +2,22 @@
 
 ## Operating promise
 
-The routine EMET SEO programme is hands-off for Daniel. Automation selects work, prepares drafts and repairs, independently reviews them, publishes eligible releases, verifies production and measures changed cohorts. A scheduled slot can legitimately produce `healthy_noop`; the system does not guarantee an article or repair when evidence or quality is inadequate.
+The focused Emet SEO programme pursues qualified Australian property-secured business finance enquiries. Codex selects and prepares improvements using current OpenSEO and local evidence. OpenClaw independently reviews and remains the sole publisher. All workers use URL ownership leases, exact source hashes and the shared deployment lock.
 
 ## Daily flow
 
-1. **05:30 preparation:** reconcile receipts and stale state, review the demand-weighted queue, prepare up to three low-risk repair packages, and replenish the new-article reserve when it falls below six eligible packages.
-2. **07:30 independent review:** re-check intent, evidence, claims, information gain, readability, repetition, compliance, AI-answer usefulness and technical metadata in a separate isolated run. Only packages scoring at least 85 with no blocker can become publishable.
-3. **10:00 Monday/Wednesday/Friday:** publish at most one eligible new article through the governed release lock and exact live-revision verification.
-4. **11:00 weekdays:** publish eligible substantive repairs serially through the same release lock.
-5. **Monday lifecycle review:** collect due evidence, record complete 28/56/90-day observations and feed eligible low-risk recommendations back to preparation.
+1. **05:00–06:00 collection:** refresh Search Console and local observations, reconcile deployed receipts and report source availability.
+2. **07:00 Codex preparation:** spend about 80% of effort on existing pages, technical defects and enquiry paths. Investigate three current guide candidates, prepare at most two existing-page repair URLs per package, and add a new article only for a distinct proven gap. Use the OpenSEO project and included-credit ledger before any paid call.
+3. **09:00 independent review:** check exact changes, intent, evidence, financial claims and validators. Promote only passing packages with the recorded automated reviewer identity and score at least 85.
+4. **10:00 Monday/Friday new article and 11:00 weekday repair release:** publish serially, verify the exact live revision and stop both lanes on a failed or indeterminate deployment.
+5. **17:15 collection and 18:00 brief:** report qualified leads where known, organic enquiries, relevant non-brand search change, up to three shipped improvements, the next action, one blocker and credit balance. Friday includes the weekly assessment; link one saved OpenSEO report.
 
-## Automatic decisions
+## Decisions and safeguards
 
-- Prefer an existing intent owner when the proposed topic overlaps it.
-- Use the supplied Australian keyword research as a dated priority input and combine it with the latest complete GSC evidence. Missing metrics remain unknown.
-- Defer high-risk rates, tax, legal, current-term, personal-advice or unsupported-claim work and advance to the next eligible candidate.
-- Retry transient source, credential, deployment and model-capacity failures on the next scheduled run after recording the exact failure.
-- Keep unchanged holds and healthy no-op runs quiet. Notify only for completed releases or actionable system failures after the normal retry path.
-
-## Actions that remain disabled
-
-Hands-off does not mean unbounded authority. Automation must not buy links or tools, send outreach, fabricate evidence or case studies, bypass financial safeguards, publish an ineligible package, redirect/noindex/remove a URL without the existing evidence path, or treat an automated review as professional financial advice.
+- Use final Australian Search Console data; site totals control KPIs, query and page totals diagnose pages. Missing GA4, CRM, ranking or indexing evidence is unknown, not zero.
+- Distinguish form starts, successful enquiries, qualified leads, lender submissions and settlements. Do not infer qualification from clicks.
+- Preserve page intent owners, URLs and winning content. Current financial rates, eligibility, legal and tax changes require genuine professional review. An exact validated mechanical improvement can proceed while an unrelated rewrite remains held.
+- New content is limited to two articles weekly and requires distinct intent; no quota forces publication. Three publishable drafts is the reserve target.
+- Review a deployed change at seven days for defects and at 28 and 56 days for search and enquiry outcomes. Avoid repeated cosmetic changes to obtain freshness.
+- Reuse research within 30 days; cap routine OpenSEO spending at 8,000 included credits per cycle with 2,000 reserved. No top-ups, paid outreach, purchased links or automatic expensive AI prompt sweeps.
+- Keep unchanged holds quiet. Diagnose two working days without eligible work. Alert immediately only for a site outage, broken enquiry flow or failed release.

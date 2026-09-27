@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { buildProgramme, nextPages, recordReview, programmeReport, recordRelease, recordPerformanceReview } from '../content-programme.mjs';
-import { assessContentEligibility, demandScore } from '../lib/content-eligibility.mjs';
+import { assessContentEligibility, assessScopedRepairCandidate, demandScore } from '../lib/content-eligibility.mjs';
 
 test('pre-draft eligibility fails closed and uses the approved commercial weighting', () => {
   assert.deepEqual(demandScore(null), { score: 0, available: false });
@@ -39,6 +39,12 @@ test('pre-draft eligibility fails closed and uses the approved commercial weight
   assert.equal(blocked.status, 'blocked');
   assert.ok(blocked.blockers.includes('genuine_specialist_review_required'));
   assert.ok(blocked.blockers.includes('authoritative_sources_missing'));
+  assert.equal(blocked.scopedActions.substantive, false);
+  assert.ok(blocked.scopedActions.exactMechanical.includes('internal-link-destinations-v1'));
+  assert.ok(!blocked.scopedActions.exactMechanical.includes('public-editorial-v1'));
+  assert.deepEqual(assessScopedRepairCandidate({ page: {
+    indexability: 'indexable', governance: { contentRisk: 'high', maxAutomatedChangeRisk: 'R0' },
+  }, protectedNow: true }).exactMechanical, []);
 });
 
 test('portfolio reconciles every route and never treats a missing GSC row as zero', () => {

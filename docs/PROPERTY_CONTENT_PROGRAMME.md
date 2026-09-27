@@ -1,26 +1,27 @@
 # Property content programme — operating runbook
 
-## Accelerated operating priority (22 September 2026)
+## Focused growth programme (27 September 2026)
 
-`data/seo-content-programme.json` and `data/seo-accelerated-sprint.json` are the authoritative strategy and sprint records. Before drafting, confirm commercial fit, intent ownership, change permission, evidence readiness and whether genuine professional review is required. A blocked candidate is skipped before drafting and is not retried until its blocker changes.
+Daniel authorised the Emet Capital focused SEO growth programme. The primary outcome is qualified Australian enquiries for business-purpose finance secured by property. Work is balanced across bridging, equity release, purchases and refinancing. Existing pages, site defects and the enquiry path receive about 80% of attention; new content receives about 20%.
 
-The current commercial owners are commercial property finance, private lending, first and second mortgages, bridging finance and refinancing solutions. Age alone does not set priority. Use the weighted business-fit and demand queue, preserve missing metrics as unknown, and report `published`, `blocked`, `healthy_noop`, `failed` and `unknown` distinctly.
+OpenSEO project f8f8b5cd-f435-4bd0-9bd4-5b9b08a8bc34 is the current research context. Use Australia (2036), English, final Search Console windows and verified GA4 outcomes. A GSC average position is not a live ranking. Historical Semrush or Ahrefs exports are dated inputs, not current evidence. If OpenSEO is unavailable, continue from validated local sources and report the material gap.
 
-Authorized by Daniel's explicit “PLEASE IMPLEMENT THIS PLAN” instruction in Codex on 6 September 2026. This programme updates the earlier two-per-week cadence and authorizes routine editorial repairs. It does not claim that an automated editor is a human financial reviewer.
+Prioritise a small queue by business fit, observed Australian demand, distinct intent, available evidence, attainable search results and conversion benefit. Current investigation candidates are the short-term property loans guide, the secured versus unsecured business loans guide and the bridging lender comparison guide. Investigate before editing; preserve successful pages. Verify reported legacy 404s and redirect only where a true equivalent destination exists.
 
-## Scope and targets
+The first fortnight aims for six meaningful existing-page improvements when evidence and review allow. Up to two new articles may be released weekly, only for distinct gaps. Keep three genuinely eligible reviewed drafts in reserve. These are bounds and aims, not forced production quotas. A day with no safe, useful candidate is healthy_noop; two consecutive working days without an eligible package require a diagnosis and a new selection strategy.
 
-Business-purpose finance secured by residential or commercial property in Australia. Cover purchases, refinancing, bridging and business equity release. No personal/home-loan purpose, new city-page batches, fabricated transactions, invented credentials, guaranteed terms or outreach sending. Retain existing aggregate company claims as instructed.
+## Owners and daily sequence
 
-Targets: three new articles a week; fifteen substantive existing-page improvements a week; fifty existing-page reviews a week. Fifty is the starting weekly review target. Five hundred routes over eight weeks requires an average of63reviews/week; add13redirect/excluded or other bounded reviews each week (or equivalent front-loaded review work) and show any pace deficit rather than promising500from400reviews. Review the full registered portfolio over eight weeks and continue unresolved repairs thereafter. A retained page requires a real reader/render review. Automated inventory is triage, not completed review.
+- 05:00–06:00 Sydney: OpenClaw source collection and receipt reconciliation.
+- 07:00 weekdays: Codex is the sole research and editorial preparation owner. It writes exact-source packages and OpenSEO observation snapshots to the shared workspace. Claim the URL before editing. The overlapping OpenClaw preparation job is disabled only after a successful handover.
+- 09:00 weekdays: independent OpenClaw reviewer checks the actual package and source hash. An automated review is never professional financial sign-off.
+- 10:00 Monday/Friday: OpenClaw sole publisher may release one eligible new article. The 11:00 weekday repair lane releases reviewed packages serially. Both share the existing deployment lock and stop after failed or uncertain live verification.
+- 17:15 daily: reporting collector composes a report from verified receipts and fresh data.
+- 18:00 daily: one Telegram SEO message, approximately 150–200 words, linking the private OpenSEO report. Friday's weekly analysis is in that message. Other routine SEO notices are suppressed; only a site outage, broken enquiry path or failed release can alert immediately.
 
-## Owners and schedules
+Codex prepares in a clean worktree and hands off to the existing review/publishing contract. A claim-safe exact mechanical change can be investigated on a page held for a separate financial rewrite. The exact before/after transformation must pass the trusted repair manifest validator; an R0 label is never treated as broad permission. Active protection and indexability holds remain binding. Substantive changes to rates, eligibility, tax, legal rights or current lender terms wait for genuine professional review and must not be relabelled as mechanical.
 
-OpenClaw owns the routine operation end to end. A weekday 05:30 Sydney preparation job reviews up to ten queued routes, prepares up to three meaningful repair packages where evidence permits and prepares a new article draft only when the eligible reserve has fewer than six items. A separate isolated weekday 07:30 job performs the independent editorial/compliance review and may promote only passing packages. Daniel and an interactive Codex task are not routine queue operators or fallback approvers. Do not force a rewrite or invent an article to satisfy a target.
-
-OpenClaw remains the single publication coordinator. New articles release individually Monday/Wednesday/Friday at 10:00 Sydney. A weekday 11:00 repair release job drains at most three verified repair proposals, one at a time. New articles and repairs have independent allowances, but share one merge/deployment lock. Wait for exact deployed-revision and URL verification before releasing another batch. Stop both queues on failed or indeterminate production audit. A rate limit, unavailable source or transient external failure is recorded and retried on the next scheduled run; it is not handed to Daniel as routine work.
-
-The GitHub manual daily-publication workflow is validation-only, not another scheduler. Preparation and independent-review jobs cannot push main, publish content or inject unreviewed production items. Publication remains fail-closed in the two governed publisher jobs.
+OpenSEO paid research uses the existing included balance only: 8,000 routine credits per billing cycle, 2,000 reserved. Category ceilings are 3,000 keyword/SERP, 1,500 rank, 2,000 competitor/backlink, 500 local and 1,000 investigation. Use scripts/openseo_budget.py against the shared seo/control-plane.sqlite before each paid request, reserve by idempotency key, then settle the actual balance. A rising balance halts paid research until the new billing cycle is verified. The rank tracker is manual, 30 Australian mobile terms at depth 40, with a 300-credit per-run ceiling. Reuse research within 30 days unless the current decision requires fresh data. Never buy credits, links or send outreach.
 
 ## Canonical inputs and state
 
@@ -72,7 +73,7 @@ Claim before editing. Release URL ownership when the reviewed draft is handed of
 4. Repair useful existing text. Keep dates and URLs unless a real content/review event supports a change. Consolidation, noindex and removal require complete intent and performance evidence plus their existing review path; low traffic alone is insufficient.
 5. For each new article, prove a distinct reader decision, compare the full existing corpus and current search results, collect primary sources with claim mapping, and draft the shortest complete answer. Link to its service and genuinely relevant guides. Use canonical Ben/Daniel author data and an article-specific 1200x630 WebP under 250 KB.
 6. Obtain an independent eight-dimension editorial review, revise blockers, and require the existing quality threshold. Classify risk from actual content. Broad financial subject matter does not by itself authorize a high-to-low reclassification; document the absence/presence of legal interpretation, personal advice, current terms, numeric eligibility claims and unsupported promises. Hold genuinely high-risk new content for the required review.
-7. Prepare a draft release package with source hash, claim brief, independent review, owned query/service, intended release date and actual risk. Keep a six-brief reserve. Across four weeks target six purchase/refinance and six bridging/equity releases. Existing-page improvements do not count as new articles.
+7. Prepare a draft release package with source hash, claim brief, independent review, owned query/service, intended release date and actual risk. Keep three eligible reviewed packages in reserve when distinct demand supports them; balance opportunities across purchases/refinancing and bridging/equity release. Existing-page improvements do not count as new articles.
 
 ## Publication
 
