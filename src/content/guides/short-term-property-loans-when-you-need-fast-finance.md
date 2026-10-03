@@ -19,104 +19,95 @@ reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
 expiresAt: "2026-11-05"
 sources:
-  - label: "NSW Land Registry Services - What is a caveat?"
-    url: "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+  - label: "Australian Government - Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "ASIC - Disputes about commercial loans"
-    url: "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
-metaTitle: "Short-Term Property Loans Australia | Guide"
-metaDescription: "Compare short-term property loans for business purposes: bridging, caveat and second-mortgage structures, evidence, costs, exits and risks."
+    url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+  - label: "ASIC Regulatory Guide 234 - Advertising financial products and services (including credit)"
+    url: "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf"
+metaTitle: "Short-Term Property Loans Australia | Costs & Exit Plan"
+metaDescription: "Compare short-term property finance for Australian businesses. Prepare your documents, check total costs and test the repayment plan before applying."
+featuredImage: "/images/articles/bridging-finance-australia-complete-property-guide.webp"
+featuredImageAlt: "Emet Capital commercial bridging finance guide title card"
 ---
 
-Short-term property loans are temporary facilities supported by real property and used for a defined commercial purpose. The category can include bridging finance, caveat-supported facilities, first or second mortgages and other private property lending. These labels overlap, so the right decision starts with purpose, security and exit—not the product name.
+Short-term property finance can help an Australian business investigate funding for a temporary gap, such as a purchase before another property sells or an existing facility reaches maturity. Property security does not remove the need to assess affordability, total costs and how the debt will be repaid. Start with the business purpose and repayment evidence, then compare structures with a lender or broker.
 
-For a purchase, settlement or refinance gap, Emet Capital's [commercial bridging finance service](/services/bridging-finance) is the designated transaction page. This guide helps borrowers decide which short-term structure to investigate and which evidence to prepare. It is general information, not legal, tax or financial advice.
+A secured business loan uses an asset, such as property, as collateral. If repayments are not made, that asset can be at risk. The Australian Government's [business loan preparation guide](https://business.gov.au/finance/funding/apply-for-a-business-loan) says loans vary in costs and conditions, including the term, interest rate, setup costs and ongoing fees. This page focuses on business-purpose borrowing, rather than personal or owner-occupied home lending.
 
-## Choose the structure by problem
+For an initial discussion about a property-related timing gap, see Emet Capital's [commercial bridging finance service](/services/bridging-finance). An enquiry is a request to discuss the circumstances; it is not an approval or a commitment to fund.
 
-| Commercial problem | Structure to investigate | Main decision risk |
+## Start with three questions
+
+1. **What will the funds pay for?** Describe the business transaction, the amount needed and any relevant deadline. Separate that requirement from unrelated personal spending.
+2. **What property and existing debts are involved?** Prepare the address, ownership details and current loan statements. Ask what further valuation or security information is needed.
+3. **What will repay the facility?** Identify the expected source of money, supporting evidence and a contingency if the original plan changes.
+
+Write the answers on one page before contacting lenders. A clear summary makes it easier to identify missing information and compare responses without repeatedly starting the conversation again.
+
+## Compare the structure, not just the product name
+
+Terms such as bridging finance, short-term private lending, first mortgage, second mortgage and caveat-supported finance describe different aspects of a proposal. Ask for the actual facility and security documents rather than assuming that a familiar label tells the whole story.
+
+| Situation to discuss | Useful starting question | Evidence to bring |
 |---|---|---|
-| Purchase before a sale or refinance completes | Bridging finance | Exit delay and peak debt |
-| Urgent business payment supported by property | Caveat or other short-term property finance | Legal structure, total cost and weak exit |
-| Additional debt behind an existing mortgage | Second mortgage | Consent, priority and combined debt |
-| Existing facility maturity | Bridging or refinance | Treating a long-term affordability issue as temporary |
-| Longer-term property funding | Conventional commercial mortgage | Using expensive short-term debt when time allows another process |
+| A business property purchase before another property sells | How would the proposed borrowing work alongside the existing debt? | Purchase documents, current statements and sale evidence |
+| An existing facility approaching maturity | What needs to happen before a replacement facility can be considered? | Maturity notice, payout information and financial records |
+| A business seeking additional property-secured funds | What existing lender or security arrangements need investigation? | Ownership details and the current facilities |
+| A proposal described as caveat-supported finance | What documents explain the security and what legal advice is needed? | The proposed terms and property information |
 
-This is a triage table, not a product recommendation. The documents and jurisdiction determine the security structure, and lenders can describe similar facilities differently.
+These are preparation questions, not recommendations or eligibility criteria. The [bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide) provides a broader explanation of timing gaps. For borrowing alongside existing property debt, the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide) covers the questions to investigate. A solicitor should explain the proposed security documents and their effect in the relevant jurisdiction.
 
-## Bridging finance
+## Build a useful document pack
 
-Bridging finance connects a current property-related obligation to a later sale, refinance or liquidity event. The critical calculation is peak debt: the balance after interest and fees at the expected and delayed exit dates.
+Documentation varies by lender and transaction. Business.gov.au identifies financial records, forecasts, business plans, identification and relevant agreements as possible application inputs. For a property-backed discussion, organise the material into four folders:
 
-A closed bridge has a more identifiable exit, often a contracted sale. An open bridge relies on an event that is not yet contracted or approved. Both require a contingency because settlements and refinances can be delayed.
+- **Business and borrower:** entity names, contact details, ownership structure, the business purpose and identification requested through the lender's secure process.
+- **Property and current debt:** property addresses, available ownership information, current loan statements and any existing payout correspondence.
+- **Transaction:** the purchase or business obligation, relevant agreements, the amount requested and the deadline to be investigated.
+- **Repayment:** current financial records, a cash-flow forecast, expected sale or refinance evidence, and a written contingency.
 
-Read the [complete bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide) for exit and peak-debt modelling.
+Label documents clearly and note anything still outstanding. If two documents contain different balances or dates, flag the discrepancy rather than guessing which figure the lender will accept. Do not send identity documents through an unsecured public enquiry form unless the receiving process specifically provides an appropriate secure channel.
 
-## Caveat-supported finance
+## Compare total costs on the same basis
 
-A caveat is a legal notice connected to a claimed interest in land. Whether a lender has a valid caveatable interest depends on documents and the law of the relevant jurisdiction. Borrowers should obtain legal advice and should not treat caveat lodgement as a simple replacement for mortgage due diligence.
+A quoted interest rate alone does not describe the overall borrowing cost. Ask each lender for a written breakdown relevant to the same amount, proposed term and repayment scenario. Compare questions such as:
 
-A caveat facility may be considered for a defined business deadline where property support and exit evidence are ready. It may be unsuitable for consumer purpose, unresolved title issues or a speculative repayment plan. The [complete caveat loan guide](/resources/guides/caveat-loans-australia-complete-guide) explains the preparation and legal-risk questions.
+- What establishment, assessment, valuation or ongoing charges apply?
+- Which costs are payable before funding, and which would be deducted from the advance?
+- What legal or security-related costs need to be investigated?
+- How are interest and required payments calculated under the proposed documents?
+- What happens to the amount owing if the expected repayment date changes?
+- Are there early repayment, extension, default or discharge charges?
 
-## First and second mortgages
+These questions do not imply that every proposal has each charge. Ask for confirmation of which items apply. Request the net funds available for the business purpose as well as the amount borrowed; a proposal that does not cover the intended obligation leaves a funding gap to resolve.
 
-A registered mortgage gives the lender security rights over the property. A second mortgage ranks behind an existing first mortgage and can involve consent or priority arrangements. The combined debt, property value, first-lender terms and exit all matter.
+ASIC's current [advertising guidance](https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf) says credit advertising should give a balanced message about benefits, risks and limitations, and that a qualification cannot correct a misleading headline claim. Treat headlines about speed, ease or cost as prompts for questions, not substitutes for written terms.
 
-A registered structure may take more legal coordination than some caveat-supported facilities but may better match a longer or more formal property-backed requirement. Compare the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide) and obtain legal advice on priority and enforcement.
+## Test the repayment plan before relying on it
 
-## Evidence every short-term lender needs
+The Australian Government's business loan preparation guide says documentation requirements vary, but possible inputs include identification, a business plan, financial reports, cash-flow statements, forecasts and lease agreements. For a temporary property-finance proposal, a practical planning worksheet can separate the intended repayment event from the evidence supporting it.
 
-Different lenders use different criteria, but a decision-ready commercial file usually includes:
+| Repayment assumption | Evidence to check | Contingency question |
+|---|---|---|
+| A property sale will provide funds | Sale status, expected net proceeds and relevant dates | What if the sale takes longer or produces less? |
+| Another lender will refinance the debt | The actual assessment stage and outstanding conditions | What if the application does not proceed? |
+| Business receipts will cover payments | Forecast assumptions and supporting records | Which expenses still need funding if receipts arrive later? |
 
-- borrower, guarantor and entity identification;
-- property ownership, title and current debt information;
-- evidence of value appropriate to the property and transaction;
-- a document showing the business purpose, amount and deadline;
-- a primary exit with dates, responsible parties and supporting evidence;
-- a delayed-exit contingency;
-- financial information or cash-flow evidence where payments are required;
-- explanations for arrears, defaults, disputes or unusual title issues.
+**Hypothetical example:** a business considers funding a property purchase while waiting for a separate property sale. Its planning file records the purchase obligation, existing debts, anticipated sale proceeds and a delayed-sale scenario. Those documents are questions for assessment, not evidence that a lender will approve the transaction. The example describes no Emet Capital customer or completed loan.
 
-Disclose complications early. A fast initial indication based on incomplete facts is not useful if valuation, legal or credit review later changes the answer.
+Avoid treating an unassessed refinance idea or a hoped-for sale price as a settled outcome. Ask what amount would be owing at the expected repayment date and at a later date using the lender's actual written terms. [ASIC's commercial-loan information](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) explains that borrower protections differ according to the loan purpose and encourages commercial borrowers with concerns to seek independent legal advice. An accountant or business adviser can help examine the cash-flow assumptions; a solicitor can explain the legal documents. This guide makes no tax or legal conclusion about a particular arrangement.
 
-## Compare total cost and cash flow
+## Make the first enquiry useful
 
-Calculate the cash received after deducted fees and retained interest. Then model scheduled payments, balance at the expected exit and balance at a delayed exit. Include interest method, establishment, valuation and legal fees, minimum-interest provisions, extension, default and discharge costs.
+Send a short outline of the business purpose, requested amount, property security, existing debts, deadline and repayment plan. Explain complications early, including missing documents or uncertain dates. Ask which next step is appropriate and which evidence is still required.
 
-A capitalised-interest facility can reduce periodic cash payments but increase the balance. A paid-interest facility may preserve more equity but require stronger cash flow. Compare offers on identical amount, term and exit assumptions.
+Keep initial discussions separate from a formal assessment, a written offer and completed funding. A quick response does not establish that finance is available. If the proposal depends on an assumption that cannot be supported, revisit the transaction plan rather than treating more urgent borrowing as the answer.
 
-ASIC's commercial-loan information notes that misleading conduct, unconscionable conduct and unfair contract terms can be relevant, but commercial borrowers do not necessarily receive consumer-credit protections. Independent legal review of the actual contract is essential.
+## Related Guides
 
-## When short-term property finance may be unsuitable
+- [Bridging finance preparation and repayment planning](/resources/guides/bridging-finance-australia-complete-property-guide)
+- [Second mortgages for business: questions to investigate](/resources/guides/second-mortgages-for-business-guide)
+- [Caveat finance: preparation and legal questions](/resources/guides/caveat-loans-australia-complete-guide)
 
-Pause when there is no temporary exit, the purpose is consumer rather than business, property exposure is disproportionate to the commercial benefit, the borrower cannot explain total cost, or the facility merely delays insolvency or a structural cash-flow problem.
-
-Also compare non-loan solutions: negotiate the settlement or payment date, restructure the transaction, sell another asset, arrange vendor terms, or use a purpose-specific working-capital, receivables or equipment facility. Each option has consequences that should be assessed with the relevant adviser.
-
-## Decision sequence
-
-1. Define the purpose, required net proceeds, deadline and consequence of delay.
-2. Decide whether the problem is a bridge, caveat scenario, second-position need or long-term refinance.
-3. Map property ownership, title, current debt and available support.
-4. Evidence the primary exit and delayed-exit plan.
-5. Compare written offers on the same assumptions.
-6. Review legal rights, extension and default provisions.
-7. Obtain accounting, tax or legal advice where relevant.
-8. Proceed only if the temporary facility has a credible end.
-
-## Frequently asked questions
-
-### Are all short-term property loans private loans?
-
-No. Banks, non-banks, specialist property lenders and private credit providers may offer different short-term structures. Availability depends on the scenario and lender mandate.
-
-### Do short-term lenders ignore income and credit?
-
-No. Some place more weight on property and exit than a mainstream lender, but conduct, serviceability, fraud, insolvency, legal and repayment risk can still matter.
-
-### How fast can a short-term property loan settle?
-
-There is no universal timeframe. Borrower readiness, valuation, title, lender due diligence, legal documents, consents and settlement coordination all affect timing.
-
-### Which product is cheapest?
-
-That cannot be determined from the label. Compare net proceeds and total repayment at the same exit date, then examine delayed-exit, security and contract risk.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
