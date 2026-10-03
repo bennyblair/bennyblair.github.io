@@ -24,6 +24,8 @@ export function validateGeneralInformationReview({ source, sourceSha256, review,
     errors.push("automated review must not claim human or professional financial approval");
   if (!Array.isArray(review.blockingFindings) || review.blockingFindings.length)
     errors.push("general-information review has unresolved findings");
+  if (review.claimCoverage !== "complete" || !Array.isArray(review.unmappedFactualClaims) || review.unmappedFactualClaims.length)
+    errors.push("general-information review must record complete factual claim coverage with no unmapped claims");
   const sources = Array.isArray(review.sources) ? review.sources : [];
   const parsed = matter(source);
   const declared = new Set((parsed.data.sources || []).map(item => item.url));
@@ -32,19 +34,22 @@ export function validateGeneralInformationReview({ source, sourceSha256, review,
     let url;
     try { url = new URL(item.url); } catch { errors.push("invalid factual source URL"); continue; }
     const age = now.getTime() - Date.parse(item.checkedAt);
-    if (url.protocol !== "https:" || /^(?:localhost|127\.|10\.|192\.168\.)/.test(url.hostname) || !declared.has(item.url) || !Number.isFinite(age) || age < 0 || age > 30 * 86400000)
-      errors.push("factual sources must be declared HTTPS sources checked within 30 days");
+    if (url.protocol !== "https:" || /^(?:localhost|127\.|10\.|192\.168\.)/.test(url.hostname) || !declared.has(item.url) ||
+        item.status !== 200 || !Number.isFinite(age) || age < 0 || age > 30 * 86400000)
+      errors.push("factual sources must be declared HTTPS sources successfully checked within 30 days");
     checked.add(item.url);
   }
+  if (checked.size !== declared.size || [...declared].some(url => !checked.has(url)))
+    errors.push("every declared factual source must be checked in the exact-page review");
   const claims = Array.isArray(review.sourceClaimMap) ? review.sourceClaimMap : [];
   if (!sources.length || !claims.length) errors.push("general-information review requires checked sources and a factual claim map");
   const text = plainReleaseText(marked.parse(parsed.content, { async: false }));
-  for (const claim of claims) {
-    if (typeof claim.claim !== "string" || claim.claim.length < 12 || !text.includes(claim.claim) ||
-        !Array.isArray(claim.sources) || !claim.sources.length || claim.sources.some(url => !checked.has(url)))
-      errors.push("each mapped factual claim must appear on the resulting page and cite a checked source");
-  }
   const publicCopy = [parsed.data.title, parsed.data.description, parsed.data.metaTitle, parsed.data.metaDescription, parsed.data.featuredImageAlt, text].filter(Boolean).join(" ");
+  for (const claim of claims) {
+    if (typeof claim.claim !== "string" || claim.claim.length < 12 || !publicCopy.includes(claim.claim) ||
+        !Array.isArray(claim.sources) || !claim.sources.length || claim.sources.some(url => !checked.has(url)))
+      errors.push("each mapped factual claim must appear in the resulting public page or metadata and cite a checked source");
+  }
   for (const [pattern, finding] of forbiddenClaims) if (pattern.test(publicCopy)) errors.push(`general-information page contains ${finding}; rewrite and review again`);
   if (!text.includes("This article is for informational purposes only and does not constitute financial advice.")) errors.push("general-information disclaimer missing");
   return errors;

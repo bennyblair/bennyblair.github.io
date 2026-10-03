@@ -1,6 +1,6 @@
 # Existing-content repair releases
 
-OpenClaw is the only publisher. Codex prepares repairs and an independent editor reviews each exact batch. Repairs run independently of the Monday/Wednesday/Friday new-article slots.
+OpenClaw is the only publisher. Codex prepares repairs and an independent editor reviews each exact batch. Repairs run independently of the Monday/Friday new-article slots.
 
 Use branch `ai/content-repair-<batch>` with labels `seo-risk:R2` and `automation-policy:content-repair-v1`. A PR may contain one added `data/seo-repairs/repair_<batch>.json` manifest and only the existing Markdown files named in it. No registry, policy, new URL, routing, service component or financial-review metadata changes belong in this path.
 
@@ -60,6 +60,6 @@ The publisher must stop queue consumption whenever the production audit is faile
 
 ## Automatic general-information body improvements (3 October 2026)
 
-Use `kind: substantive`, `reviewMode: general-information-v1` and each row's `generalInformationReview`. This path permits body rewrites, metadata, images and links on historical high-risk/R0 pages without routine human approval. It supersedes the legacy low/medium-only metadata-review requirement for this declared mode. Preserve risk, author, review-history, URL ownership and live checks. The independent automated reviewer checks the complete resulting page, verifies source claims, corrects unsupported promises and reviews again. Record `automated: true`, `human: false`, `professionalFinancialReview: false`, exact source hash, reviewer/time, checked sources and factual claim map. Never invent a professional approval. Protected pages remain held.
+Use `kind: substantive`, `reviewMode: general-information-v1` and each row's `generalInformationReview`. This path permits body rewrites, metadata, images and links on historical high-risk/R0 pages without routine human approval. It supersedes the legacy low/medium-only metadata-review requirement for this declared mode. Preserve risk, author, review-history, URL ownership and live checks. The independent automated reviewer checks the complete resulting page, verifies source claims, corrects unsupported promises and reviews again. Record `automated: true`, `human: false`, `professionalFinancialReview: false`, exact source hash, reviewer/time, `claimCoverage: complete`, an empty `unmappedFactualClaims` list, every declared source with its successful HTTP status and check time, and a factual claim map covering body and public metadata. Never invent a professional approval. Protected pages remain held.
 
 The shared coordinator reserves affected URLs atomically against the Sydney daily limit before publication. Existing-page releases use `--lane repair`; new articles use `--lane new`; infrastructure uses `--lane infrastructure`. The cap is one for the verified rollout, then two per weekday across 09:00 and 14:00 release opportunities. Already verified revisions cannot publish again. An indeterminate deployment retains the reservation and blocks both lanes until exact-revision recovery succeeds.
