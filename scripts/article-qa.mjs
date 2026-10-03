@@ -3,6 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { validateArticlePublicationContract } from "./lib/article-publication-contract.mjs";
 import { readPublicImageInfo } from "./lib/image-metadata.mjs";
+import { loadReviewedRepairContext, dataWithReviewedRepairRisk } from "./lib/reviewed-repair-context.mjs";
 
 const repoRoot = process.cwd();
 const contentRoot = path.join(repoRoot, "src", "content");
@@ -85,6 +86,8 @@ function plainText(html) {
     .trim();
 }
 
+const reviewedRepairRisks = newArticle ? new Map() : loadReviewedRepairContext(repoRoot);
+
 let errorCount = 0;
 let warningCount = 0;
 
@@ -103,7 +106,7 @@ for (const fileArgument of fileArgs) {
   const parsed = matter(raw);
   const route = articleRoute(filePath);
   const contractErrors = validateArticlePublicationContract({
-    data: parsed.data,
+    data: dataWithReviewedRepairRisk(parsed.data, relative, reviewedRepairRisks),
     body: parsed.content,
     imageInfo: (featuredImage) => readPublicImageInfo(repoRoot, featuredImage),
   });
