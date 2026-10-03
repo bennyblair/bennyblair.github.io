@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "policyId": "property-content-repair",
-  "version": "2026-09-06.1",
+  "version": "2026-10-03.1",
   "status": "active",
   "authorization": {
     "authorizedBy": "Daniel Shelest",
-    "authorizedAt": "2026-09-06",
-    "reference": "codex-property-content-programme-2026-09-06",
-    "scope": "User-authorized complete existing-content repair programme. Routine editorial changes need no new human sign-off; this is not financial-review attestation."
+    "authorizedAt": "2026-10-03",
+    "reference": "automatic-general-information-programme-2026-10-03",
+    "scope": "Explicit user authorization: useful general-information body rewrites, metadata, images and links may publish after independent automated whole-page review without routine human approval. Historical page risk labels do not block this path. No professional-review attestation is granted."
   },
   "authority": {
     "branchPrefix": "ai/content-repair-",
@@ -17,7 +17,9 @@
     "postDeployAuditRequired": true,
     "publisher": "OpenClaw",
     "minimumReviewScore": 85,
-    "scopedMetadataReviewRequired": true
+    "scopedMetadataReviewRequired": true,
+    "generalInformationMode": "general-information-v1",
+    "maxExistingPagesPerSydneyWeekday": 2
   },
   "mechanicalTransforms": [
     "internal-link-destinations-v1",
@@ -27,11 +29,11 @@
   ],
   "forbidden": [
     "active protected pages",
-    "substantive high-risk financial edits without genuine review",
+    "Unsupported financial, eligibility, legal or tax claims; personal advice; fabricated results or professional approval",
     "altering risk or reviewer metadata",
     "changes to routing, redirects, code, policy or registry",
     "undeclared changes or stale content hashes",
     "merge after failed, missing or stale gates"
   ],
-  "checksum": "bb391cb2061435cdcf5936a01acb11b42d5da688887de49aec4c0f559e930ddd"
+  "checksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86"
 }

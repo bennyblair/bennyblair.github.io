@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "programmeId": "property-content-recovery",
-  "version": "2026-09-27.1",
+  "version": "2026-10-03.1",
   "timezone": "Australia/Sydney",
   "authorization": {
-    "source": "Daniel instruction in Codex: PLEASE IMPLEMENT THIS PLAN (focused SEO growth programme)",
-    "recordedAt": "2026-09-27",
+    "source": "Daniel instruction in Codex: PLEASE IMPLEMENT THIS PLAN (publish useful content automatically, without routine approvals)",
+    "recordedAt": "2026-10-03",
     "scope": "Prioritise qualified Australian property-secured business finance enquiries; 80 percent existing-page and technical improvements; up to two distinct new articles per week; single SEO brief and bounded included OpenSEO credits. Preserve independent review and sole OpenClaw publisher.",
-    "automatedFinancialApproval": false
+    "automatedFinancialApproval": false,
+    "generalInformationPublicationAuthorized": true
   },
   "audience": "Australian business-purpose borrowers using residential or commercial property as security; exclude personal/home-loan purposes",
   "targets": {
@@ -20,7 +21,8 @@
       7,
       28,
       56
-    ]
+    ],
+    "maxExistingPageImprovementsPerWeekday": 2
   },
   "schedule": {
     "publicationDays": [
@@ -36,8 +38,10 @@
       "Friday"
     ],
     "editorTime": "07:00",
-    "independentReviewTime": "09:00",
-    "repairReleaseTime": "11:00"
+    "independentReviewTime": "08:00,13:00",
+    "repairReleaseTime": "09:00,14:00",
+    "independentReviewSydney": "08:00 and 13:00 weekdays",
+    "repairPublicationSydney": "09:00 and 14:00 weekdays"
   },
   "newArticlePolicy": "data/seo-content-automation-policy.json",
   "repairPolicy": "data/seo-content-repair-policy.json",
@@ -178,9 +182,12 @@
     "routineUserOperationRequired": false,
     "specialistRiskIsDeferredAutomatically": true,
     "publicationCadenceNeverOverridesQualityGate": true,
-    "financialClaimChangeRequiresProfessionalReview": true,
+    "financialClaimChangeRequiresProfessionalReview": false,
     "pageLevelRiskDoesNotBlockExactClaimSafeMechanicalTransform": true,
     "noMandatoryPublishingQuota": true,
-    "singleScheduledSeoBrief": true
+    "singleScheduledSeoBrief": true,
+    "unsupportedClaimsMustBeRewrittenOrRemoved": true,
+    "completePageAutomatedGeneralInformationReviewRequired": true,
+    "routineHumanApprovalRequired": false
   }
 }

@@ -6,6 +6,7 @@ import { checksum } from "./seo-control-plane.mjs";
 import { isInternalLinkOnlyChange } from "./content-change-policy.mjs";
 import { isExactPublicEditorialRemediation } from "./public-editorial-remediation.mjs";
 import { findActiveProtectedChanges, routeFromSource } from "./protected-cohort-policy.mjs";
+import { GENERAL_INFORMATION_MODE, validateGeneralInformationReview } from "./general-information-review.mjs";
 
 export const REPAIR_POLICY_PATH = "data/seo-content-repair-policy.json";
 export const REPAIR_MANIFEST = /^data\/seo-repairs\/repair_[a-z0-9-]+\.json$/;
@@ -103,6 +104,9 @@ export function validateRepairManifest({ manifest, policy, registry, protectedCo
         : false;
       if (!valid) errors.push("change is not the declared exact mechanical transformation: " + file);
       if (JSON.stringify(before) !== JSON.stringify(after)) errors.push("mechanical repair may not change frontmatter: " + file);
+    } else if (manifest.reviewMode === GENERAL_INFORMATION_MODE) {
+      if (policy.authority?.generalInformationMode !== GENERAL_INFORMATION_MODE) errors.push("trusted policy does not authorize general-information review");
+      errors.push(...validateGeneralInformationReview({ source: current, sourceSha256: row.afterSha256, review: row.generalInformationReview, manifestReview: manifest.review, now }).map(error => error + ": " + file));
     } else {
       if (highRisk) errors.push("substantive high-risk content requires genuine financial review outside routine automation: " + file);
       // This reviewed, page-specific programme authority does not alter the global registry ceiling.
