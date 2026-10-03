@@ -11,7 +11,8 @@ export function assessScopedRepairCandidate({ page, protectedNow = false }) {
   const substantive = !blocked
     && ALLOWED_AUTOMATED_RISKS.has(permission)
     && (contentRisk === "low" || contentRisk === "medium");
-  return { exactMechanical, substantive };
+  const generalInformation = !blocked && ["R0", "R1", "R2"].includes(permission);
+  return { exactMechanical, substantive, generalInformation };
 }
 
 const ALLOWED_AUTOMATED_RISKS = new Set(["R1", "R2"]);
@@ -69,6 +70,7 @@ export function assessContentEligibility({ page, audit, metric, config, protecte
   // Triage is page-wide; release permission is evaluated against the exact edit.
   // A held financial rewrite must not hide a safe, exact mechanical repair.
   const scopedActions = assessScopedRepairCandidate({ page, protectedNow });
+  scopedActions.generalInformation = scopedActions.generalInformation && businessFit;
   const status = blockers.length ? "blocked" : unknowns.length ? "unknown" : "eligible";
   return {
     status,
