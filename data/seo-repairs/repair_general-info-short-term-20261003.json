@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_general-info-short-term-20261003",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "00f2e62548945e1be62f0cffd982e4b43e108822",
+  "editor": "Codex editorial preparation",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-03T07:35:00Z",
+    "score": 93.6,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/short-term-property-loans-when-you-need-fast-finance.md",
+      "pageId": "pg_12ad7ce758b04ffd961a2a7b8eccfc67",
+      "path": "/resources/guides/short-term-property-loans-when-you-need-fast-finance",
+      "beforeSha256": "b261b7268d274a3cc957f87ddfddb2e812a764f11b3ee2c61191c552837f8517",
+      "afterSha256": "19cf8932a95e6585b98f8366d6edf1bc31fbc42edf53406fc735b3db294c88e6",
+      "reason": "Replace unsupported speed and eligibility framing with source-backed general guidance for Australian business borrowers: document preparation, total costs, repayment exits, questions, hypothetical comparison and relevant service links. Includes body, metadata, source, image and link changes; preserves URL and historical protected metadata.",
+      "evidence": [
+        {
+          "reference": "seo/content-programme-repairs/general-info-20261003-short-term-property/independent-review.json"
+        },
+        {
+          "reference": "reports/seo-control-plane/gsc-segmented-2026-09-30.json"
+        },
+        {
+          "reference": "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+        },
+        {
+          "reference": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+        },
+        {
+          "reference": "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "A secured business loan uses an asset, such as property, as collateral. If repayments are not made, that asset can be at risk."
+        },
+        {
+          "kind": "text-added",
+          "value": "The Australian Government's business loan preparation guide says loans vary in costs and conditions, including the term, interest rate, setup costs and ongoing fees."
+        },
+        {
+          "kind": "text-added",
+          "value": "Business.gov.au identifies financial records, forecasts, business plans, identification and relevant agreements as possible application inputs."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "reviewed_draft",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-03T07:35:00Z",
+        "reviewedSourceSha256": "19cf8932a95e6585b98f8366d6edf1bc31fbc42edf53406fc735b3db294c88e6",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 93.6,
+        "dimensions": {
+          "intentCoverage": 95,
+          "informationGain": 91,
+          "specificity": 93,
+          "evidence": 95,
+          "readability": 94,
+          "repetition": 96,
+          "compliance": 94,
+          "aiAnswerUsefulness": 91
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-03T07:34:30Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-10-03T07:34:30Z",
+            "status": 200
+          },
+          {
+            "url": "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf",
+            "checkedAt": "2026-10-03T07:34:30Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "A secured business loan uses an asset, such as property, as collateral. If repayments are not made, that asset can be at risk.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "The Australian Government's business loan preparation guide says loans vary in costs and conditions, including the term, interest rate, setup costs and ongoing fees.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Business.gov.au identifies financial records, forecasts, business plans, identification and relevant agreements as possible application inputs.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "ASIC's current advertising guidance says credit advertising should give a balanced message about benefits, risks and limitations, and that a qualification cannot correct a misleading headline claim.",
+            "sources": [
+              "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf"
+            ]
+          },
+          {
+            "claim": "The Australian Government's business loan preparation guide says documentation requirements vary, but possible inputs include identification, a business plan, financial reports, cash-flow statements, forecasts and lease agreements.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "ASIC's commercial-loan information explains that borrower protections differ according to the loan purpose and encourages commercial borrowers with concerns to seek independent legal advice.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "The Australian Government's business loan preparation guide explains the importance of understanding business finances and comparing loan conditions.",
+            "after": "The Australian Government's business loan preparation guide says loans vary in costs and conditions, including the term, interest rate, setup costs and ongoing fees.",
+            "reason": "Replaced a broad paraphrase with claim text directly supported by the checked primary source."
+          },
+          {
+            "before": "The government cash-flow guide encourages businesses to compare repayment costs and risks and prepare financial information.",
+            "after": "The Australian Government's business loan preparation guide says documentation requirements vary, but possible inputs include identification, a business plan, financial reports, cash-flow statements, forecasts and lease agreements.",
+            "reason": "The declared cash-flow URL did not expose the asserted passage during review, so the claim and source were replaced with directly verified primary-source wording."
+          },
+          {
+            "before": null,
+            "after": "ASIC's current advertising guidance says credit advertising should give a balanced message about benefits, risks and limitations, and that a qualification cannot correct a misleading headline claim.",
+            "reason": "Added a source-backed reader safeguard after checking the current 9 June 2026 RG 234."
+          },
+          {
+            "before": null,
+            "after": "ASIC's commercial-loan information explains that borrower protections differ according to the loan purpose and encourages commercial borrowers with concerns to seek independent legal advice.",
+            "reason": "Made the declared ASIC source's role explicit without stating a legal conclusion about any transaction."
+          }
+        ],
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs /home/node/.openclaw/workspace/seo/content-programme-repairs/general-info-20261003-short-term-property/article.md --fail-on-warnings",
+          "result": "PASS",
+          "errors": 0,
+          "warnings": 0,
+          "metrics": {
+            "wordCount": 1168,
+            "faqPresent": false,
+            "faqQuestions": 0,
+            "internalLinks": 6,
+            "uniqueGuideLinks": 3,
+            "highestParagraphSimilarity": 0.052
+          },
+          "internalContentLinksResolved": 5,
+          "canonicalAuthorAndReviewFieldsComplete": true
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "humanReviewRequiredUnchanged": true,
+          "historicalReviewMetadataUnchanged": true,
+          "featuredImageCheckedByArticleQa": true,
+          "featuredImageAltChecked": true,
+          "headingHierarchyChecked": true,
+          "tablesChecked": true,
+          "metadataChecked": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "It reviews the external candidate bytes only and does not determine publication eligibility against the historical policy on main."
+        ]
+      }
+    }
+  ]
+}
