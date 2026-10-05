@@ -18,7 +18,7 @@
 .architecture-coordinate{position:absolute;left:16px;bottom:0;font-size:12px;letter-spacing:.14em;color:#7e8586}
 .architecture-stage-copy{max-width:380px;padding-right:20px}
 .architecture-counter{font-size:clamp(52px,7vw,100px);font-weight:300;letter-spacing:-.06em;line-height:1;color:#eaece8;display:block;margin-bottom:30px}
-.architecture-counter>span{font-size:18px;letter-spacing:0;color:#737a7c;margin-left:10px}
+.architecture-counter>span{font-size:18px;letter-spacing:0;color:#929a9b;margin-left:10px}
 .architecture-caption h3{font-size:clamp(30px,3.3vw,46px);letter-spacing:-.04em;margin:0 0 14px;line-height:1.15}
 .architecture-caption p{color:#bec2c1;font-size:18px;line-height:1.7;margin:0;max-width:30ch;min-height:90px}
 .architecture-caption{animation:architecture-reveal .22s both}
@@ -38,4 +38,6 @@
 @media(max-width:420px){.architecture-navigation{gap:8px}.architecture-navigation button>.architecture-nav-label{font-size:11px}.architecture-navigation button{letter-spacing:-.02em}.architecture-controls{font-size:12px}.architecture-controls>div{gap:8px}.architecture-model{height:265px}}
 
 
-.architecture-caption[data-active="false"]{display:none}
+html[data-process-layout="compact"] .architecture-caption[data-active="false"]{display:none}
+html:not([data-process-layout="compact"]) .architecture-caption+.architecture-caption{margin-top:24px}
+html:not([data-process-layout="compact"]) .architecture-controls,html:not([data-process-layout="compact"]) .architecture-navigation{display:none}

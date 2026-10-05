@@ -33,7 +33,6 @@ export default function ProcessJourney({ paused }: { paused: boolean }) {
   }, [paused, localPause, reduced, visible, foreground, active]);
   const isPaused = paused || localPause || reduced || active === 3;
   return <div className="architecture-journey" ref={root} data-stage={active} data-paused={isPaused}>
-    <noscript><style>{`.architecture-caption[data-active="false"]{display:block!important;margin-top:24px}.architecture-controls,.architecture-navigation{display:none!important}`}</style></noscript>
     <div className="architecture-heading"><p className="eyebrow">A clear process</p><h2>How It Works</h2><p>From the first conversation to lender assessment and settlement</p></div>
     <div className="architecture-stage">
       <div className="architecture-model" aria-hidden="true">
