@@ -59,7 +59,7 @@ const contactDetails = async (formName: string) => {
 const submit = () => page.getByRole("button", { name: "Submit business finance enquiry" }).click();
 
 try {
-  await page.goto("https://enquiry-check.invalid/services/refinancing-solutions?email=private@example.invalid");
+  await page.goto("https://enquiry-check.invalid/services/refinancing-solutions?utm_source=chatgpt.com&email=private@example.invalid");
   await page.getByRole("heading", { level: 1 }).waitFor();
   await page.locator('a[href="/contact?purpose=refinance"]').first().click();
   await page.getByRole("heading", { level: 1, name: "Discuss Your Business Finance Transaction" }).waitFor();
@@ -93,6 +93,12 @@ try {
   assert.equal(posts[1].get("securityType"), "residential");
   assert.equal(posts[1].get("landingPath"), "/services/refinancing-solutions");
   assert.equal(posts[1].get("landingCategory"), "refinancing");
+  assert.equal(posts[1].get("aiSource"), "chatgpt");
+  assert.equal(posts[1].get("aiLandingPath"), "/services/refinancing-solutions");
+  assert.equal(posts[1].get("aiDetectionMethod"), "campaign");
+  assert.equal(posts[1].get("aiAttributionScope"), "session");
+  const acceptedAiLead = await page.evaluate(() => (window.dataLayer || []).map((item) => Array.from(item as ArrayLike<unknown>)).find((item) => item[1] === "generate_lead")?.[2]);
+  assert.equal((acceptedAiLead as { ai_source: string }).ai_source, "chatgpt");
   const analytics = await page.evaluate(() => JSON.stringify(window.dataLayer));
   assert.doesNotMatch(analytics, /private@example|test@example|Isolated Test|500,000|Private suburb|1,200,000|300,000|Private repayment|Private message/);
   await snapshot("contact-mobile-success");
@@ -112,6 +118,14 @@ try {
   assert.equal(posts.at(-1)?.get("form-name"), "homepage-contact");
   assert.equal(posts.at(-1)?.get("transactionPurpose"), "equity_release");
   assert.equal(await leadCount(page), 1);
+
+  // A subsequent visit can be AI-assisted without being labelled a new AI referral.
+  await page.evaluate(() => sessionStorage.clear());
+  await page.goto("https://enquiry-check.invalid/contact");
+  await page.locator("#contact-purpose").selectOption("refinance");
+  assert.equal(await page.locator('main input[name="aiAttributionScope"]').inputValue(), "return_visit");
+  assert.equal(await page.locator('main input[name="aiSource"]').inputValue(), "chatgpt");
+  assert.equal(await page.evaluate(() => (window.dataLayer || []).filter((item) => Array.from(item as ArrayLike<unknown>)[1] === "ai_referral_landing").length), 0);
 
   // Analytics failures must not encourage duplicate submissions after server acceptance.
   await page.goto("https://enquiry-check.invalid/contact");
@@ -148,7 +162,7 @@ try {
   await page.locator(".homepage-page > section:first-child").screenshot({ path: path.join(output, "homepage-desktop-hero.png") });
   assert.equal(await page.locator(".homepage-page > section:first-child video").count(), 0);
   assert.equal(await page.locator(".home-contact-form").count(), 1);
-  assert.equal(await page.locator(".home-process.emet-funnel-section").count(), 1);
+  assert.equal(await page.locator("#how-it-works.home-process").count(), 1);
   await page.locator(".home-contact-card").screenshot({ path: path.join(output, "homepage-desktop-contact-transaction.png") });
   assert.deepEqual(errors, []);
   console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "private fields excluded from analytics", "landing category retained", "localhost preview does not send or count", "five service pages"] }, null, 2));

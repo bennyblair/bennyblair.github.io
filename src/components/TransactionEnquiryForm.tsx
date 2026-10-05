@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { getLandingAttribution, trackEnquiryStep, trackLead } from "@/lib/analytics";
+import { getLandingAttribution, trackEnquiryStep, trackLead, type LandingAttribution } from "@/lib/analytics";
 import { submitEnquiry } from "@/lib/enquiry-submission";
 import { ENQUIRY_RESPONSE_MESSAGE, normaliseTransactionPurpose, TRANSACTION_JOURNEYS } from "@/lib/transactions";
 
@@ -26,7 +26,7 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
   const [fields, setFields] = useState(emptyFields);
   const [submitting, setSubmitting] = useState(false);
   const [notice, setNotice] = useState<{ kind: "success" | "error" | "preview"; text: string } | null>(null);
-  const [attribution, setAttribution] = useState({ landing_path: "", landing_category: "" });
+  const [attribution, setAttribution] = useState<LandingAttribution>({ landing_path: "", landing_category: "", ai_source: "not_detected", ai_landing_path: "/unknown", ai_detection_method: "not_detected", ai_attribution_scope: "not_detected" });
   const purposeRef = useRef<HTMLSelectElement>(null);
   const contactRef = useRef<HTMLInputElement>(null);
   const busy = useRef(false);
@@ -87,6 +87,10 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
       <input type="hidden" name="loanType" value={TRANSACTION_JOURNEYS.find((journey) => journey.value === purpose)?.label || (purpose === "other" ? "Other business finance" : "")} />
       <input type="hidden" name="landingPath" value={attribution.landing_path} />
       <input type="hidden" name="landingCategory" value={attribution.landing_category} />
+      <input type="hidden" name="aiSource" value={attribution.ai_source} />
+      <input type="hidden" name="aiLandingPath" value={attribution.ai_landing_path} />
+      <input type="hidden" name="aiDetectionMethod" value={attribution.ai_detection_method} />
+      <input type="hidden" name="aiAttributionScope" value={attribution.ai_attribution_scope} />
       <p hidden><label htmlFor={id("bot-field")}>Do not fill this out</label><input id={id("bot-field")} name="bot-field" tabIndex={-1} autoComplete="off" /></p>
       <p className="text-sm text-muted-foreground" aria-live="polite">{ready ? "Step " + step + " of 2 · " + (step === 1 ? "Your transaction" : "Your contact details") : "Preparing the enquiry form…"}</p>
 

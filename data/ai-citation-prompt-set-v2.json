@@ -1,0 +1,26 @@
+{
+  "promptSetId": "emet-property-secured-buyers-au-v2",
+  "version": "2.0.0",
+  "createdAt": "2026-10-05",
+  "locale": "en-AU",
+  "expectedEngines": ["chatgpt", "perplexity"],
+  "mutationPolicy": "Immutable within a version; preserve v1 historical comparisons separately.",
+  "citationRule": "Count only directly observed clickable answer citations, not search sources or unlinked mentions.",
+  "prompts": [
+    {"id":"MTG-01","cluster":"second_mortgages","intent":"suitability","ownerPath":"/services/first-second-mortgages","prompt":"In Australia, can my business use a second mortgage for funding while keeping its existing first mortgage, and what should I check?"},
+    {"id":"MTG-02","cluster":"second_mortgages","intent":"comparison","ownerPath":"/services/first-second-mortgages","prompt":"For an Australian business using property as security, how do a second mortgage and a caveat loan differ?"},
+    {"id":"MTG-03","cluster":"second_mortgages","intent":"application","ownerPath":"/services/first-second-mortgages","prompt":"What documents and first-lender consent questions should an Australian business prepare before seeking a second mortgage?"},
+    {"id":"BRG-01","cluster":"bridging","intent":"exit_planning","ownerPath":"/services/bridging-finance","prompt":"My Australian business needs short-term property-secured bridging finance. How should I assess its repayment exit and alternatives?"},
+    {"id":"BRG-02","cluster":"bridging","intent":"contingency","ownerPath":"/services/bridging-finance","prompt":"What should an Australian business consider if the property sale intended to repay a bridging loan is delayed?"},
+    {"id":"BRG-03","cluster":"bridging","intent":"cost_comparison","ownerPath":"/services/bridging-finance","prompt":"Which costs and conditions should an Australian business compare in property-secured bridging finance offers?"},
+    {"id":"REF-01","cluster":"refinancing","intent":"bank_decline","ownerPath":"/services/refinancing-solutions","prompt":"My Australian business's property-secured loan is maturing and the bank declined refinancing. What options and risks should I investigate?"},
+    {"id":"REF-02","cluster":"refinancing","intent":"application","ownerPath":"/services/refinancing-solutions","prompt":"What information should I prepare for an Australian commercial property refinance when my existing lender will not renew?"},
+    {"id":"REF-03","cluster":"refinancing","intent":"decision","ownerPath":"/services/refinancing-solutions","prompt":"How should an Australian business compare refinancing its property-secured loan against extending it or selling the property?"},
+    {"id":"PVT-01","cluster":"private_lending","intent":"suitability","ownerPath":"/services/private-lending","prompt":"When might private property-secured lending suit an Australian business, and when might it be unsuitable?"},
+    {"id":"PVT-02","cluster":"private_lending","intent":"broker_selection","ownerPath":"/services/private-lending","prompt":"How should I choose a commercial finance broker for private property-secured business lending in Australia?"},
+    {"id":"PVT-03","cluster":"private_lending","intent":"comparison","ownerPath":"/services/private-lending","prompt":"What should an Australian business compare between bank lending and private property-secured lending beyond the headline rate?"},
+    {"id":"COM-01","cluster":"commercial_property","intent":"purchase","ownerPath":"/services/commercial-property-finance","prompt":"What should an Australian business prepare when seeking finance to purchase commercial premises?"},
+    {"id":"COM-02","cluster":"commercial_property","intent":"lease_expiry","ownerPath":"/services/commercial-property-finance","prompt":"What questions should an Australian commercial property borrower ask about refinancing when a tenant's lease is expiring?"},
+    {"id":"COM-03","cluster":"commercial_property","intent":"broker_selection","ownerPath":"/services/commercial-property-finance","prompt":"How should I compare Australian commercial property finance brokers for a business-purpose purchase or refinance?"}
+  ]
+}
