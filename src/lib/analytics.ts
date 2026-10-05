@@ -66,7 +66,7 @@ export function classifyAiReferral(referrer = "", search = ""): AiReferralClassi
     if (host === "perplexity.ai" || host.endsWith(".perplexity.ai")) {
       return { aiSource: "perplexity", detectionMethod: "referrer" };
     }
-    if (host === "copilot.microsoft.com" || (host.endsWith("bing.com") && url.pathname.startsWith("/chat"))) {
+    if (host === "copilot.microsoft.com" || ((host === "bing.com" || host.endsWith(".bing.com")) && url.pathname.startsWith("/chat"))) {
       return { aiSource: "copilot", detectionMethod: "referrer" };
     }
     if (host === "gemini.google.com") return { aiSource: "gemini", detectionMethod: "referrer" };
@@ -84,7 +84,7 @@ function trackAiReferralLanding(path: string) {
   if (!classification) return;
   trackEvent("ai_referral_landing", {
     ai_source: classification.aiSource,
-    landing_path: path.split(/[?#]/, 1)[0],
+    landing_path: safeAnalyticsPath(path),
     detection_method: classification.detectionMethod,
   });
 }
@@ -108,7 +108,33 @@ export function trackEvent(name: string, parameters: AnalyticsParameters = {}) {
 
 const publicAnalyticsPaths = new Set(["/", "/contact"]);
 const landingKey = "emet_landing_v1";
-let landingAttribution: { landing_path: string; landing_category: string } | undefined;
+const aiSessionKey = "emet_ai_session_v1";
+const aiAssistKey = "emet_ai_assist_v1";
+export const AI_ASSIST_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
+export type AiTouch = AiReferralClassification & { landingPath: string; observedAt: number };
+export type LandingAttribution = {
+  landing_path: string;
+  landing_category: string;
+  ai_source: AiReferralSource | "not_detected";
+  ai_landing_path: string;
+  ai_detection_method: "campaign" | "referrer" | "not_detected";
+  ai_attribution_scope: "session" | "return_visit" | "not_detected";
+};
+let landingAttribution: LandingAttribution | undefined;
+
+/** Strictly validate stored public attribution; do not retain full URLs or visitor identity. */
+export function parseAiTouch(raw: string | null, now = Date.now()): AiTouch | null {
+  if (!raw) return null;
+  try {
+    const value = JSON.parse(raw);
+    if (!value || typeof value !== "object" ||
+      !["chatgpt", "perplexity", "copilot", "gemini", "claude", "unknown"].includes(value.aiSource) ||
+      !["campaign", "referrer"].includes(value.detectionMethod) ||
+      typeof value.landingPath !== "string" || value.landingPath !== safeAnalyticsPath(value.landingPath) ||
+      !Number.isFinite(value.observedAt) || value.observedAt > now || now - value.observedAt > AI_ASSIST_RETENTION_MS) return null;
+    return { aiSource: value.aiSource, detectionMethod: value.detectionMethod, landingPath: value.landingPath, observedAt: value.observedAt };
+  } catch { return null; }
+}
 
 export function registerAnalyticsPaths(paths: string[]) {
   paths.filter((path) => path.startsWith("/") && !/[?#:*]/.test(path)).forEach((path) => publicAnalyticsPaths.add(path));
@@ -135,14 +161,35 @@ export function landingCategory(path: string) {
 
 export function getLandingAttribution() {
   if (landingAttribution) return landingAttribution;
-  if (typeof window === "undefined") return { landing_path: "/unknown", landing_category: "other" };
+  const empty: LandingAttribution = { landing_path: "/unknown", landing_category: "other", ai_source: "not_detected", ai_landing_path: "/unknown", ai_detection_method: "not_detected", ai_attribution_scope: "not_detected" };
+  if (typeof window === "undefined") return empty;
   let path = safeAnalyticsPath(window.location.pathname);
   try {
     const saved = window.sessionStorage.getItem(landingKey);
     if (saved && safeAnalyticsPath(saved) !== "/unknown") path = safeAnalyticsPath(saved);
     window.sessionStorage.setItem(landingKey, path);
   } catch { /* Storage may be unavailable; keep attribution for this page session. */ }
-  landingAttribution = { landing_path: path, landing_category: landingCategory(path) };
+  let touch: AiTouch | null = null;
+  let scope: LandingAttribution["ai_attribution_scope"] = "not_detected";
+  const classification = classifyAiReferral(document.referrer, window.location.search);
+  try { touch = parseAiTouch(window.sessionStorage.getItem(aiSessionKey)); } catch { /* Storage is optional. */ }
+  if (classification && !touch) {
+    touch = { ...classification, landingPath: safeAnalyticsPath(window.location.pathname), observedAt: Date.now() };
+    try { window.sessionStorage.setItem(aiSessionKey, JSON.stringify(touch)); } catch { /* Retain in memory. */ }
+    try { window.localStorage.setItem(aiAssistKey, JSON.stringify(touch)); } catch { /* Retain in this session only. */ }
+  }
+  if (touch) scope = "session";
+  else {
+    try {
+      touch = parseAiTouch(window.localStorage.getItem(aiAssistKey));
+      if (touch) scope = "return_visit";
+      else window.localStorage.removeItem(aiAssistKey);
+    } catch { /* Attribution cannot block navigation or enquiries. */ }
+  }
+  landingAttribution = {
+    ...empty, landing_path: path, landing_category: landingCategory(path),
+    ...(touch ? { ai_source: touch.aiSource, ai_landing_path: touch.landingPath, ai_detection_method: touch.detectionMethod, ai_attribution_scope: scope } : {}),
+  };
   return landingAttribution;
 }
 

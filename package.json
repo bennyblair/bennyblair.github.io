@@ -24,7 +24,7 @@
     "qa:protected-cohort": "node scripts/protected-cohort-gate.mjs",
     "qa:claims": "node scripts/claim-integrity-gate.mjs",
     "qa:site": "tsx scripts/verify-built-site.ts",
-    "qa:smoke": "tsx scripts/smoke-site.ts",
+    "qa:smoke": "tsx scripts/smoke-site.ts && tsx scripts/smoke-enquiry.ts",
     "qa:accessibility": "tsx scripts/accessibility-site.ts",
     "qa:lighthouse": "node scripts/lighthouse-budget.mjs",
     "analytics:classify": "tsx scripts/classify-search-pages.ts",
