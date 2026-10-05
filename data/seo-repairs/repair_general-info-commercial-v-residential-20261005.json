@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_general-info-commercial-v-residential-20261005",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "2a5889f7d962d70b07ef7387fe272dca5a54b0e9",
+  "editor": "Codex editorial preparation",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-05T02:13:00Z",
+    "score": 93.0,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/commercial-mortgages-vs-residential-key-differences-explained.md",
+      "pageId": "pg_78a23bf2990c4585804587417932a279",
+      "path": "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained",
+      "beforeSha256": "9cc293547cc884f8b5abf01cbb843b08f29767ad1aed245b764ba00b0723673a",
+      "afterSha256": "b109a17667865e84db3e003d8f935fce33d0dccb79273d11409168d7c91474f5",
+      "reason": "Substantive whole-page general-information rewrite for Australian business borrowers. Removes unsupported rates, deposits, timing, eligibility assurances, and legal and tax conclusions; adds source-backed purpose, security, cost, document and repayment-plan guidance; corrects metadata, image and internal links while preserving historical risk, review, author, publication date and URL ownership fields.",
+      "evidence": [
+        {
+          "reference": "/home/node/.openclaw/workspace/seo/content-programme-repairs/general-info-20261005-commercial-v-residential/independent-review.json"
+        },
+        {
+          "reference": "/home/node/.openclaw/workspace/seo/content-programme-repairs/general-info-20261005-commercial-v-residential/source-evidence.json"
+        },
+        {
+          "reference": "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+        },
+        {
+          "reference": "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+        },
+        {
+          "reference": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+        },
+        {
+          "reference": "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "The security property alone does not establish whether a loan is for personal, household, residential-investment or business purposes."
+        },
+        {
+          "kind": "text-added",
+          "value": "A lower headline rate does not necessarily mean a lower total cost."
+        },
+        {
+          "kind": "text-added",
+          "value": "This is a hypothetical planning example. It is not an Emet Capital customer, a completed transaction or an indication that finance will be approved."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "reviewed_draft",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-05T02:13:00Z",
+        "reviewedSourceSha256": "b109a17667865e84db3e003d8f935fce33d0dccb79273d11409168d7c91474f5",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 93.0,
+        "dimensions": {
+          "intentCoverage": 94,
+          "informationGain": 92,
+          "specificity": 93,
+          "evidence": 94,
+          "readability": 92,
+          "repetition": 96,
+          "compliance": 94,
+          "aiAnswerUsefulness": 89
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-05T02:11:28Z",
+            "status": 200
+          },
+          {
+            "url": "https://moneysmart.gov.au/home-loans/choosing-a-home-loan",
+            "checkedAt": "2026-10-05T02:11:28Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-10-05T02:11:28Z",
+            "status": 200
+          },
+          {
+            "url": "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf",
+            "checkedAt": "2026-10-05T02:11:28Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "The security property alone does not establish whether a loan is for personal, household, residential-investment or business purposes.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "ASIC explains that the laws and borrower protections differ depending on the purpose of the loan.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The Australian Government's business-loan guide recommends comparing the loan term, interest rate, setup costs, ongoing fees and security, and preparing financial records and forecasts.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Business cash flow, lease income, financial statements, forecasts and the transaction plan may all need to be documented",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A Key Facts Sheet sets out standard cost and feature information for comparison",
+            "sources": [
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "Interest rate, comparison rate, fees, repayment type, features and loan term can be compared in a standard format",
+            "sources": [
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "Consumer-credit protections may apply to regulated residential lending",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "Property can be at risk if the agreed repayments are not made.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Commercial property finance often requires the lender to understand both the borrower and the asset.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "For residential home-loan comparison, Moneysmart points readers to the repayment method and frequency, interest-rate type, rate, fees, features, total amount to be repaid and monthly repayment shown in a Key Facts Sheet.",
+            "sources": [
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "Business.gov.au lists financial reports, cash-flow statements, forecasts, identification, business plans and relevant agreements among the documents a lender may request.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A lower headline rate does not necessarily mean a lower total cost.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "ASIC's current credit advertising guidance calls for a balanced account of benefits, risks and limitations.",
+            "sources": [
+              "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "The official PPSR guidance notes that land, buildings and fixtures are outside the PPSR.",
+            "after": null,
+            "reason": "Removed a tangential claim because the declared PPSR page did not expose the asserted passage during exact-source review."
+          },
+          {
+            "before": "Residential lending generally places more emphasis on the applicant\u2019s personal income, living expenses, liabilities and residential property information.",
+            "after": "For residential home-loan comparison, Moneysmart points readers to the repayment method and frequency, interest-rate type, rate, fees, features, total amount to be repaid and monthly repayment shown in a Key Facts Sheet.",
+            "reason": "Replaced an uncited generalisation with a current, directly supported official comparison statement."
+          },
+          {
+            "before": "contentRisk: high and an added canonical field",
+            "after": null,
+            "reason": "Removed newly added protected metadata and restored the original date representation; historical risk, review, author, date and URL ownership fields remain unchanged."
+          },
+          {
+            "before": "/services/refinancing",
+            "after": "/services/refinancing-solutions",
+            "reason": "Corrected the internal service link to the registered route."
+          }
+        ],
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs <exact package> --fail-on-warnings",
+          "result": "NOT_APPLICABLE_TO_PROTECTED_EXISTING_METADATA",
+          "note": "The standalone new-article-oriented checker requires a contentRisk frontmatter field and warns on preserved legacy author fields. Adding or removing those fields is forbidden for this existing-page repair. Repair-policy scope validation and full repository gates remain authoritative.",
+          "metrics": {
+            "wordCount": 1434,
+            "faqPresent": false,
+            "faqQuestions": 0,
+            "internalLinks": 5,
+            "uniqueGuideLinks": 2,
+            "highestParagraphSimilarity": 0.028
+          },
+          "internalContentLinksResolved": 5,
+          "canonicalAuthorAndReviewFieldsComplete": true
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "historicalReviewMetadataUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "featuredImageDimensions": "1200x630",
+          "featuredImageBytes": 18122,
+          "featuredImageAltChecked": true,
+          "headingHierarchyChecked": true,
+          "tablesChecked": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Publication remains the sole publisher\u2019s responsibility under exact-SHA CI, lease and production-verification controls."
+        ]
+      }
+    }
+  ]
+}
