@@ -122,7 +122,7 @@ const Homepage = () => {
         <Link className="text-link" to="/resources/case-studies">View All Case Studies <ArrowRight aria-hidden="true" /></Link>
       </section>
 
-      <section id="how-it-works" className="home-process section-pad">
+      <section id="how-it-works" className="home-process home-process--architecture section-pad">
         <ProcessJourney paused={motionPaused} />
         <details className="content-disclosure expertise-disclosure"><summary>Why Emet Capital <span aria-hidden="true">+</span></summary>        <div className="broker-rationale"><div><h2>Why Emet Capital</h2><p>A transaction process built around evidence, lender fit and clear trade-offs</p></div><div className="rationale-list">{[
           {label:"Lender Matching",value:"Structured",detail:"Compared against purpose, security and timing"},
