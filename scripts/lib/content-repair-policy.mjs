@@ -6,7 +6,7 @@ import { checksum } from "./seo-control-plane.mjs";
 import { isInternalLinkOnlyChange } from "./content-change-policy.mjs";
 import { isExactPublicEditorialRemediation } from "./public-editorial-remediation.mjs";
 import { findActiveProtectedChanges, routeFromSource } from "./protected-cohort-policy.mjs";
-import { GENERAL_INFORMATION_MODE, validateGeneralInformationReview } from "./general-information-review.mjs";
+import { GENERAL_INFORMATION_AUTOMATED_REVIEWER, GENERAL_INFORMATION_MODE, validateGeneralInformationReview } from "./general-information-review.mjs";
 
 export const REPAIR_POLICY_PATH = "data/seo-content-repair-policy.json";
 export const REPAIR_MANIFEST = /^data\/seo-repairs\/repair_[a-z0-9-]+\.json$/;
@@ -92,8 +92,49 @@ export function validateRepairManifest({ manifest, policy, registry, protectedCo
     if (findActiveProtectedChanges([{ relativePath: file, source: previous }], protectedCohort || {}, now).length) errors.push("active indexing cohort blocks repair: " + file);
     const before = matter(previous).data;
     const after = matter(current).data;
-    for (const key of ["contentRisk", "content_risk", "reviewedBy", "reviewed_by", "reviewedAt", "reviewed_at", "reviewedDate", "reviewed_date", "reviewStatus", "review_status", "humanReviewRequired", "human_review_required", "reviewer", "reviewerName", "authorId", "date", "dateModified", "date_modified", "updatedAt", "updated_at", "author", "author_name", "authorName", "author_title", "authorTitle", "author_url", "authorUrl", "author_bio", "authorBio", "author_links", "authorLinks", "expiresAt", "expires_at", "canonical", "canonicalUrl", "canonical_url", "noindex", "robots", "slug"]) {
-      if (JSON.stringify(before[key]) !== JSON.stringify(after[key])) errors.push("repair may not alter protected metadata " + key + ": " + file);
+    const generalInformationBackfill = !mechanical && manifest.reviewMode === GENERAL_INFORMATION_MODE;
+    const exactReviewInstant = validDate(String(after.reviewedAt))
+      && Date.parse(String(after.reviewedAt)) === Date.parse(manifest.review?.reviewedAt);
+    const trustedAutomatedReviewer = manifest.review?.reviewer === GENERAL_INFORMATION_AUTOMATED_REVIEWER
+      && after.reviewedBy === GENERAL_INFORMATION_AUTOMATED_REVIEWER;
+    const reviewDays = Number(registered.governance?.reviewEveryDays);
+    const expectedReviewDays = registered.governance?.contentRisk === "high" ? 90 : reviewDays;
+    const validReviewCadence = Number.isFinite(reviewDays) && reviewDays > 0
+      && (registered.governance?.contentRisk !== "high" || reviewDays === 90);
+    const expectedExpiry = Date.parse(manifest.review?.reviewedAt) + expectedReviewDays * 24 * 60 * 60 * 1000;
+    const exactReviewExpiry = validReviewCadence && validDate(String(after.expiresAt))
+      && Date.parse(String(after.expiresAt)) === expectedExpiry && expectedExpiry > now.getTime();
+    const noMetadataAliases = after.content_risk === undefined && after.reviewed_by === undefined
+      && after.reviewed_at === undefined && after.reviewedDate === undefined && after.reviewed_date === undefined
+      && after.expires_at === undefined;
+    const exactGeneralInformationMetadata = generalInformationBackfill
+      && after.contentRisk === registered.governance?.contentRisk
+      && trustedAutomatedReviewer && exactReviewInstant && exactReviewExpiry && noMetadataAliases;
+    if (generalInformationBackfill && !exactGeneralInformationMetadata)
+      errors.push("general-information repair requires one exact canonical risk, reviewer, review instant and review expiry metadata set: " + file);
+    const allowsGeneralInformationReviewBackfill = (key) => {
+      if (!exactGeneralInformationMetadata) return false;
+      if (key === "contentRisk") return before.contentRisk === undefined && before.content_risk === undefined;
+      if (key === "reviewedBy") return before.reviewedBy === undefined && before.reviewed_by === undefined
+        && trustedAutomatedReviewer;
+      if (key === "reviewedAt") return before.reviewedAt === undefined && before.reviewed_at === undefined
+        && exactReviewInstant;
+      if (["reviewedDate", "reviewed_date"].includes(key)) return before[key] !== undefined && after[key] === undefined;
+      if (key === "expiresAt") return before.expiresAt === undefined && before.expires_at === undefined;
+      return false;
+    };
+    const protectedMetadataKeys = ["contentRisk", "content_risk", "reviewedBy", "reviewed_by", "reviewedAt", "reviewed_at", "reviewedDate", "reviewed_date", "reviewStatus", "review_status", "humanReviewRequired", "human_review_required", "professionalFinancialReview", "professional_financial_review", "approvedBy", "approved_by", "reviewer", "reviewerName", "authorId", "date", "dateModified", "date_modified", "updatedAt", "updated_at", "author", "author_name", "authorName", "author_title", "authorTitle", "author_url", "authorUrl", "author_bio", "authorBio", "author_links", "authorLinks", "expiresAt", "expires_at", "canonical", "canonicalUrl", "canonical_url", "noindex", "robots", "slug"];
+    for (const key of protectedMetadataKeys) {
+      if (JSON.stringify(before[key]) !== JSON.stringify(after[key]) && !allowsGeneralInformationReviewBackfill(key)) {
+        errors.push("repair may not alter protected metadata " + key + ": " + file);
+      }
+    }
+    for (const key of new Set([...Object.keys(before), ...Object.keys(after)])) {
+      const normalizedKey = key.toLowerCase().replaceAll("_", "");
+      if (!protectedMetadataKeys.includes(key) && /review|approv|verif|check|sign.*off/.test(normalizedKey)
+          && JSON.stringify(before[key]) !== JSON.stringify(after[key])) {
+        errors.push("repair may not introduce approval or review metadata alias " + key + ": " + file);
+      }
     }
     const highRisk = registered.governance?.contentRisk === "high" || (before.contentRisk || before.content_risk) === "high" || /\/case-studies\//.test(file);
     if (mechanical) {

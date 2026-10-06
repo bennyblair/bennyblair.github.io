@@ -3,6 +3,7 @@ import { plainReleaseText } from "./content-release-proof.mjs";
 import { marked } from "marked";
 
 export const GENERAL_INFORMATION_MODE = "general-information-v1";
+export const GENERAL_INFORMATION_AUTOMATED_REVIEWER = "OpenClaw independent reviewer";
 const forbiddenClaims = [
   [/\b(?:guaranteed|guarantee[sd]?)\s+(?:approval|finance|funding|settlement|returns?)\b/i, "approval or outcome guarantee"],
   [/\b(?:approval|funding|settlement|settle|approved)\b.{0,35}\b(?:within|in|as little as)\s+\d+\s*(?:hours?|days?)\b/i, "time promise"],
@@ -10,12 +11,21 @@ const forbiddenClaims = [
   [/\b(?:is|are|will be|fully)\s+tax[- ]deductible\b/i, "tax conclusion"],
   [/\b(?:you|all borrowers|every business)\s+(?:will|always|automatically)\s+(?:qualify|be eligible|be approved)\b/i, "eligibility assurance"],
   [/\b(?:we recommend you|you should borrow|best loan for you)\b/i, "personal recommendation"],
+  [/\b(?:reviewed|approved)\s+by\s+[^.\n]{0,80}\b(?:financial adviser|financial advisor|mortgage broker|lawyer|solicitor|accountant)\b/i, "human or professional approval claim"],
+  [/\b(?:reviewed\s+and\s+approved|professionally\s+(?:reviewed|approved)|professional\s+(?:review|approval))\b/i, "human or professional approval claim"],
+  [/\b(?:financial adviser|financial advisor|mortgage broker|lawyer|solicitor|accountant)\b[^.\n]{0,80}\b(?:reviewed|approved)\b/i, "human or professional approval claim"],
+  [/\b(?:[Rr]eviewed|[Aa]pproved|[Vv]erified|[Cc]hecked)(?:\s+and\s+signed\s+off)?(?:\s+for\s+(?:accuracy|publication))?\s+by\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+\b/, "human or professional approval claim"],
+  [/\b(?:reviewed|approved)\s+by\s+[^.\n]{0,80}\b(?:CFP|CPA)\b/i, "human or professional approval claim"],
+  [/\b(?:verified|checked|signed\s+off)(?:\s+for\s+(?:accuracy|publication))?\s+by\s+(?:an?\s+)?[^.\n]{0,60}\b(?:CFP|CPA|financial adviser|financial advisor|mortgage broker|lawyer|solicitor|accountant)\b/i, "human or professional approval claim"],
+  [/\b(?:this\s+(?:article|guide|page)\s+(?:was|is|has been)\s+[^.\n]{0,40}\b(?:reviewed|approved|verified|checked|signed\s+off)\b|(?:this\s+(?:article|guide|page)\s+)?carries\s+approval|approval\s+(?:was|is)\s+provided)\b/i, "human or professional approval claim"],
 ];
 
 /** Review evidence supplements deterministic checks; neither alone proves legal compliance. */
 export function validateGeneralInformationReview({ source, sourceSha256, review, manifestReview, now }) {
   const errors = [];
   if (!review || review.mode !== GENERAL_INFORMATION_MODE) return ["complete general-information review required"];
+  if (review.reviewer !== GENERAL_INFORMATION_AUTOMATED_REVIEWER || manifestReview.reviewer !== GENERAL_INFORMATION_AUTOMATED_REVIEWER)
+    errors.push("general-information review requires the trusted automated reviewer identity");
   if (review.reviewer !== manifestReview.reviewer || review.reviewedAt !== manifestReview.reviewedAt ||
       review.reviewedSourceSha256 !== sourceSha256) errors.push("general-information review must match the independent reviewer and exact resulting page");
   for (const key of ["automated", "businessPurposeOnly", "noPersonalAdvice", "completePageChecked", "unsupportedClaimsRemoved"])
