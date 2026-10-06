@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "repairId": "repair_general-info-commercial-v-residential-20261005",
+  "repairId": "repair_general-info-commercial-v-residential-20261006",
   "policyId": "property-content-repair",
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "2a5889f7d962d70b07ef7387fe272dca5a54b0e9",
+  "baseSha": "8ba8126cca43e2e57a1bf506521f9ff0b42ce58b",
   "editor": "Codex editorial preparation",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
-    "reviewedAt": "2026-10-05T02:13:00Z",
+    "reviewedAt": "2026-10-06T12:06:33Z",
     "score": 93.0,
     "blockingFindings": []
   },
@@ -21,9 +21,12 @@
       "pageId": "pg_78a23bf2990c4585804587417932a279",
       "path": "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained",
       "beforeSha256": "9cc293547cc884f8b5abf01cbb843b08f29767ad1aed245b764ba00b0723673a",
-      "afterSha256": "b109a17667865e84db3e003d8f935fce33d0dccb79273d11409168d7c91474f5",
-      "reason": "Substantive whole-page general-information rewrite for Australian business borrowers. Removes unsupported rates, deposits, timing, eligibility assurances, and legal and tax conclusions; adds source-backed purpose, security, cost, document and repayment-plan guidance; corrects metadata, image and internal links while preserving historical risk, review, author, publication date and URL ownership fields.",
+      "afterSha256": "9f629fa3029737d914ad96e0072b91cd0029fda0cb27a315c1624811c58f4a99",
+      "reason": "Substantive whole-page general-information rewrite for Australian business borrowers. Removes unsupported rates, deposits, timing, eligibility assurances, and legal and tax conclusions; adds source-backed purpose, security, cost, document and repayment-plan guidance; corrects metadata, image and internal links; preserves the registered medium-risk classification, canonical author, publication date and URL ownership; and records the exact automated review required by the publication gate.",
       "evidence": [
+        {
+          "reference": "/home/node/.openclaw/workspace/seo/content-programme-repairs/general-info-20261006-commercial-v-residential/independent-review.json"
+        },
         {
           "reference": "/home/node/.openclaw/workspace/seo/content-programme-repairs/general-info-20261005-commercial-v-residential/independent-review.json"
         },
@@ -64,8 +67,8 @@
         "status": "reviewed_draft",
         "outcome": "reviewed_draft",
         "reviewer": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-05T02:13:00Z",
-        "reviewedSourceSha256": "b109a17667865e84db3e003d8f935fce33d0dccb79273d11409168d7c91474f5",
+        "reviewedAt": "2026-10-06T12:06:33Z",
+        "reviewedSourceSha256": "9f629fa3029737d914ad96e0072b91cd0029fda0cb27a315c1624811c58f4a99",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
@@ -205,27 +208,27 @@
             "reason": "Replaced an uncited generalisation with a current, directly supported official comparison statement."
           },
           {
-            "before": "contentRisk: high and an added canonical field",
-            "after": null,
-            "reason": "Removed newly added protected metadata and restored the original date representation; historical risk, review, author, date and URL ownership fields remain unchanged."
-          },
-          {
             "before": "/services/refinancing",
             "after": "/services/refinancing-solutions",
             "reason": "Corrected the internal service link to the registered route."
+          },
+          {
+            "before": "legacy reviewed_date without canonical automated-review gate metadata",
+            "after": "contentRisk: medium, reviewedBy: OpenClaw independent reviewer, reviewedAt: 2026-10-06T12:06:33Z, expiresAt: 2027-04-04T12:06:33Z",
+            "reason": "Migrated to one canonical exact-review metadata set without claiming human or professional financial approval."
           }
         ],
         "articleQa": {
-          "command": "node scripts/article-qa.mjs <exact package> --fail-on-warnings",
-          "result": "NOT_APPLICABLE_TO_PROTECTED_EXISTING_METADATA",
-          "note": "The standalone new-article-oriented checker requires a contentRisk frontmatter field and warns on preserved legacy author fields. Adding or removing those fields is forbidden for this existing-page repair. Repair-policy scope validation and full repository gates remain authoritative.",
+          "command": "node scripts/article-qa.mjs <exact package>",
+          "result": "PASSED_WITH_ONE_LEGACY_COMPATIBILITY_WARNING",
+          "note": "Zero errors. One non-blocking warning records preserved legacy author aliases; canonical author and review fields are complete. Repository content-quality and repair-scope gates are authoritative for this existing-page repair.",
           "metrics": {
-            "wordCount": 1434,
+            "wordCount": 1448,
             "faqPresent": false,
             "faqQuestions": 0,
             "internalLinks": 5,
             "uniqueGuideLinks": 2,
-            "highestParagraphSimilarity": 0.028
+            "highestParagraphSimilarity": 0.139
           },
           "internalContentLinksResolved": 5,
           "canonicalAuthorAndReviewFieldsComplete": true
@@ -247,7 +250,16 @@
         "limitations": [
           "This is an automated independent editorial and source review, not human or professional financial approval.",
           "Publication remains the sole publisher\u2019s responsibility under exact-SHA CI, lease and production-verification controls."
-        ]
+        ],
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-backfill-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 180,
+          "reviewExpiresAt": "2027-04-04T12:06:33Z",
+          "infrastructureMergeSha": "8ba8126cca43e2e57a1bf506521f9ff0b42ce58b"
+        }
       }
     }
   ]
