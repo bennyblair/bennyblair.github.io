@@ -174,3 +174,57 @@ test("public docs, homepage discovery and edge declaration are wired into the ex
   assert.ok(generator.includes("## When to use this"));
   assert.match(fs.readFileSync("netlify.toml", "utf8"), /function = "agent-readiness"/);
 });
+
+
+test("v1 and legacy aliases preserve bodies, methods, errors and lifecycle headers", async () => {
+  for (const suffix of ["", "/", `/${service.slug}`, `/${service.slug}/`, "/unknown"]) {
+    for (const [method, accept] of [["GET", "application/json"], ["HEAD", "application/json"], ["POST", "application/json"], ["GET", "text/html"]]) {
+      const legacy = (await handler(request(`/api/services${suffix}`, accept, method), downstream()))!;
+      const versioned = (await handler(request(`/api/v1/services${suffix}`, accept, method), downstream()))!;
+      assert.equal(versioned.status, legacy.status);
+      assert.deepEqual([...versioned.headers], [...legacy.headers]);
+      assert.equal(await versioned.text(), await legacy.text());
+      assert.equal(versioned.headers.get("Link"), '<https://emetcapital.com.au/docs#api-versioning>; rel="deprecation"; type="text/html"');
+      assert.equal(versioned.headers.get("Deprecation"), null);
+      assert.equal(versioned.headers.get("Sunset"), null);
+    }
+  }
+  for (const route of ["/api/v2/services", "/api/v10/services", "/api/v1services", "/api/v1", "/api/v1/unknown"]) {
+    const response = (await handler(request(route, "application/json"), downstream()))!;
+    assert.equal(response.status, 404);
+    assert.equal((await response.json()).error.code, "NOT_FOUND");
+    assert.ok(response.headers.get("Link")?.includes('rel="deprecation"'));
+  }
+  const broken = createAgentHandler({ ...content, get services(): never { throw Error("private diagnostic"); } });
+  const failure = (await broken(request("/api/v1/services", "application/json"), downstream()))!;
+  assert.equal(failure.status, 500);
+  assert.ok(failure.headers.get("Link")?.includes("#api-versioning"));
+});
+
+test("versioned OpenAPI describes valid zero-argument and required-slug function inputs", async () => {
+  const spec = createOpenApi(origin);
+  const resolved = await SwaggerParser.dereference(structuredClone(spec));
+  assert.deepEqual(Object.keys(spec.paths).sort(), ["/api/v1/services", "/api/v1/services/{slug}"]);
+  const ajv = new Ajv2020({ strict: false, validateFormats: false });
+  for (const [route, item] of Object.entries(spec.paths)) {
+    const operation = item.get;
+    const parameters = operation.parameters ?? [];
+    const input = { type: "object", additionalProperties: false, properties: Object.fromEntries(parameters.map((parameter) => [parameter.name, parameter.schema])), required: parameters.filter((parameter) => parameter.required).map((parameter) => parameter.name) };
+    const validate = ajv.compile(input);
+    const args = operation.operationId === "listServices" ? {} : { slug: service.slug };
+    assert.ok(validate(args), JSON.stringify(validate.errors));
+    assert.equal(validate({ unexpected: "input" }), false);
+    if (operation.operationId === "getService") {
+      assert.equal(validate({}), false);
+      assert.equal(validate({ slug: 42 }), false);
+      assert.equal(validate({ slug: "../private" }), false);
+    } else assert.deepEqual(parameters, []);
+    const response = (await handler(request(route.replace("{slug}", service.slug), "application/json"), downstream()))!;
+    const schema = resolved.paths[route].get.responses["200"].content["application/json"].schema;
+    assert.equal(schema.type, "object");
+    assert.ok(ajv.validate(schema, await response.json()), JSON.stringify(ajv.errors));
+    for (const entry of Object.values(operation.responses)) assert.ok(entry.headers.Link.schema.type === "string");
+  }
+  const docs = fs.readFileSync("src/pages/AgentDocs.tsx", "utf8");
+  for (const text of ['id="api-versioning"', "90 days", "Deprecation", "Sunset", "empty object", "/api/services"]) assert.ok(docs.includes(text));
+});

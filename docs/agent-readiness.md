@@ -47,3 +47,28 @@ References: [Netlify Edge Functions API](https://docs.netlify.com/build/edge-fun
 [OpenAPI 3.1](https://spec.openapis.org/oas/v3.1.0.html),
 [llms.txt format](https://llmstxt.org/),
 [Markdown negotiation](https://acceptmarkdown.com/start).
+
+## API lifecycle and function inputs
+
+The canonical operations are GET/HEAD `/api/v1/services` and
+`/api/v1/services/{slug}`. The original unversioned paths remain supported aliases
+with identical bodies, statuses and content negotiation. Unknown major versions
+return the existing structured 404; they must never silently map to v1.
+
+All API responses link to `/docs#api-versioning` with the RFC 9745 `deprecation`
+link relation. No endpoint is currently deprecated, so no Deprecation or Sunset
+header is emitted. Before retiring a supported version or alias, publish the
+migration guide and announce retirement at least 90 days ahead; implement actual
+Deprecation structured-date and Sunset HTTP-date headers at that time. Breaking
+changes get a new major URL. Preserve supported aliases when adding versions.
+
+Both operations already had valid typed responses. `listServices` deliberately
+has no inputs; `parameters: []` makes that explicit. Function adapters should
+produce an object input schema with zero properties for listServices, and a
+required string slug for getService. The tests validate these derived inputs and
+actual response bodies against OpenAPI schemas. A scanner counting only input
+parameters may still report partial compatibility for the zero-argument call;
+do not add artificial parameters merely to improve that score.
+
+References: [RFC 9745](https://www.rfc-editor.org/rfc/rfc9745.html),
+[RFC 8594](https://www.rfc-editor.org/rfc/rfc8594.html).

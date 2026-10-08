@@ -209,13 +209,14 @@ function renderLlmsTxt() {
 Primary audience: Australian commercial property borrowers, property developers and investors, and SME owners and directors using commercial property as security. Legal name: Emet Capital Pty Ltd. Market: Australia.
 
 ## When to use this
-- [Service directory](${DOMAIN}/api/services): Use Emet Capital to research Australian business-purpose funding for commercial property purchases, property development, bridging needs, property-backed borrowing, equipment and working capital. Call GET /api/services, then GET /api/services/{slug}; read the canonical service page and linked guides. No authentication is required. This read-only API cannot submit enquiries, quote terms, determine eligibility, approve loans or access customer records. Never send borrower documents or personal information to this API. Consumer home loans are outside this directory's scope.
+- [Service directory](${DOMAIN}/api/v1/services): Use Emet Capital to research Australian business-purpose funding for commercial property purchases, property development, bridging needs, property-backed borrowing, equipment and working capital. Call GET /api/v1/services, then GET /api/v1/services/{slug}; read the canonical service page and linked guides. No authentication is required. This read-only API cannot submit enquiries, quote terms, determine eligibility, approve loans or access customer records. Never send borrower documents or personal information to this API. Consumer home loans are outside this directory's scope.
 - [Contact Emet Capital](${DOMAIN}/contact): Direct suitable commercial finance enquiries to the existing contact page for human review.
 
 ## Agent access
 - [API and agent documentation](${DOMAIN}/docs): Authentication, endpoints, errors and example requests.
+- [API versioning policy](${DOMAIN}/docs#api-versioning): Major URL versions, supported legacy aliases, and at least 90 days notice with Deprecation and Sunset headers before retirement. No retirement is currently scheduled.
 - [OpenAPI specification](${DOMAIN}/openapi.json): Typed service schemas and unique operation IDs for function calling.
-- [Public service directory](${DOMAIN}/api/services): GET with Accept: application/json.
+- [Public service directory](${DOMAIN}/api/v1/services): GET with Accept: application/json.
 - [Homepage](${DOMAIN}/): GET with Accept: text/markdown for the Markdown representation.
 - [Contact Emet Capital](${DOMAIN}/contact): Human enquiry handoff.
 

@@ -61,6 +61,7 @@ function transformedHeaders(original?: Headers) {
 function jsonResponse(request: Request, body: unknown, status = 200, extra?: Record<string, string>) {
   const headers = transformedHeaders();
   headers.set("Content-Type", "application/json; charset=utf-8");
+  headers.set("Link", '<https://emetcapital.com.au/docs#api-versioning>; rel="deprecation"; type="text/html"');
   headers.set("X-Frame-Options", "DENY");
   headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
   for (const [key, value] of Object.entries(extra ?? {})) headers.set(key, value);
@@ -79,14 +80,15 @@ export function createAgentHandler(content: AgentContent) {
         if (!["GET", "HEAD"].includes(request.method)) return apiError(request, 405, "METHOD_NOT_ALLOWED", "This public API is read-only.", "Use GET or HEAD. Enquiries must use the contact form at /contact. See /docs.", { Allow: "GET, HEAD" });
         const accept = request.headers.get("Accept");
         if (accept && quality(accept, "application/json").quality === 0) return apiError(request, 406, "NOT_ACCEPTABLE", "This API provides JSON responses.", "Send Accept: application/json. See /docs.");
-        if (pathname === "/api/services" || pathname === "/api/services/") return jsonResponse(request, { services: content.services });
-        const match = pathname.match(/^\/api\/services\/([a-z0-9]+(?:-[a-z0-9]+)*)\/?$/);
+        const apiPath = pathname.replace(/^\/api\/v1(?=\/|$)/, "/api");
+        if (apiPath === "/api/services" || apiPath === "/api/services/") return jsonResponse(request, { services: content.services });
+        const match = apiPath.match(/^\/api\/services\/([a-z0-9]+(?:-[a-z0-9]+)*)\/?$/);
         if (match) {
           const service = content.services.find((item) => item.slug === match[1]);
           if (service) return jsonResponse(request, service);
-          return apiError(request, 404, "SERVICE_NOT_FOUND", "The requested service was not found.", "Use GET /api/services to find a valid slug. See /docs.");
+          return apiError(request, 404, "SERVICE_NOT_FOUND", "The requested service was not found.", "Use GET /api/v1/services to find a valid slug. See /docs.");
         }
-        return apiError(request, 404, "NOT_FOUND", "The requested API endpoint was not found.", "Use GET /api/services or consult /docs and /openapi.json.");
+        return apiError(request, 404, "NOT_FOUND", "The requested API endpoint was not found.", "Use GET /api/v1/services or consult /docs and /openapi.json.");
       } catch {
         return apiError(request, 500, "INTERNAL_ERROR", "The service directory is temporarily unavailable.", "Retry later or use /services and /contact.");
       }
