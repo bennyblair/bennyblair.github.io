@@ -132,6 +132,7 @@ export const siteRoutes: SiteRouteDefinition[] = [
     priority: 1,
   },
   { path: "/about", component: "About", pageType: "company", indexable: true, source: "src/pages/About.tsx" },
+  { path: "/docs", component: "AgentDocs", pageType: "resource", indexable: true, source: "src/pages/AgentDocs.tsx", priority: 0.3 },
   {
     path: "/about/ben",
     component: "AboutBen",

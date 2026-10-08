@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsx scripts/prerender-site.ts && tsx scripts/generate-site-files.ts && tsx scripts/verify-built-site.ts",
+    "build": "vite build && tsx scripts/prerender-site.ts && tsx scripts/generate-site-files.ts && tsx scripts/generate-agent-files.ts && tsx scripts/verify-built-site.ts && tsx scripts/verify-agent-build.ts",
     "build:fast": "vite build && tsx scripts/generate-site-files.ts",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
@@ -24,6 +24,7 @@
     "qa:protected-cohort": "node scripts/protected-cohort-gate.mjs",
     "qa:claims": "node scripts/claim-integrity-gate.mjs",
     "qa:site": "tsx scripts/verify-built-site.ts",
+    "qa:agents": "tsx scripts/audit-agent-readiness.ts",
     "qa:smoke": "tsx scripts/smoke-site.ts && tsx scripts/smoke-enquiry.ts",
     "qa:accessibility": "tsx scripts/accessibility-site.ts",
     "qa:lighthouse": "node scripts/lighthouse-budget.mjs",
@@ -93,14 +94,18 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@eslint/js": "^9.32.0",
+    "@apidevtools/swagger-parser": "^13.1.0",
     "@axe-core/playwright": "^4.12.1",
+    "@eslint/js": "^9.32.0",
     "@jridgewell/sourcemap-codec": "^1.4.15",
+    "@mixmark-io/domino": "^2.2.0",
+    "@netlify/edge-functions": "^4.0.2",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^22.16.5",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react-swc": "^4.3.3",
+    "ajv": "^8.20.0",
     "autoprefixer": "^10.4.21",
     "chrome-launcher": "^1.2.1",
     "eslint": "^9.32.0",
@@ -113,9 +118,10 @@
     "postcss": "^8.5.25",
     "tailwindcss": "^3.4.17",
     "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.23.1",
+    "turndown": "^7.2.4",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
-    "tsx": "^4.23.1",
     "vite": "^8.1.5"
   }
 }

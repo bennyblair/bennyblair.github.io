@@ -9,6 +9,11 @@
   NODE_VERSION = "22"
   NPM_FLAGS = "--no-audit"
 
+[[edge_functions]]
+  function = "agent-readiness"
+  path = "/*"
+  excludedPath = ["/assets/*", "/.netlify/*", "/.well-known/*"]
+
 [[headers]]
   for = "/*"
   [headers.values]
