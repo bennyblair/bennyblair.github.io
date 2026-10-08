@@ -12,6 +12,7 @@ dist
 dist-ssr
 netlify/generated/
 .netlify/
+deno.lock
 *.local
 
 # Environment files are local-only. Keep the documented template.
