@@ -15,15 +15,20 @@ const AgentDocs = () => (
         <h2>Authentication and access</h2>
         <p>No API key or authentication is required. The API exposes only published service descriptions and supports GET and HEAD. It cannot submit enquiries, assess eligibility, provide quotes, approve loans or retrieve customer information. No fixed request quota is promised; use modest request volumes and retry transient failures with backoff.</p>
         <p>Base URL: <code>https://emetcapital.com.au</code>. See the <a href="/openapi.json">OpenAPI specification</a> for typed schemas and unique operation IDs suitable for function calling.</p>
+        <h2 id="api-versioning">API versioning and deprecation policy</h2>
+        <p>The current major version uses <code>/api/v1</code>. Breaking changes require a new major URL, such as <code>/api/v2</code>. Compatible additions may be made within v1; clients should tolerate additional response fields.</p>
+        <p>The original <code>/api/services</code> and <code>/api/services/{'{slug}'}</code> addresses remain supported aliases with the same responses. No version or alias is currently deprecated, and no retirement is scheduled.</p>
+        <p>Before retiring a supported major version or alias, we will publish a migration guide here and provide at least 90 days notice. Affected API responses will include a <code>Deprecation</code> header using a structured date (<code>@</code> followed by Unix seconds) and a <code>Sunset</code> header using an HTTP date for the retirement time. All API responses link to this policy through <code>Link; rel="deprecation"</code>. Deprecation and Sunset headers are absent while no retirement is scheduled.</p>
         <h2>List services</h2>
-        <p><code>GET /api/services</code> returns an object with a <code>services</code> array. Each service has a <code>slug</code>, <code>title</code>, <code>description</code> and canonical <code>url</code>.</p>
-        <pre tabIndex={0} aria-label="List services request"><code>{'curl -sS -H "Accept: application/json" https://emetcapital.com.au/api/services'}</code></pre>
+        <p><code>GET /api/v1/services</code> returns an object with a <code>services</code> array. Each service has a <code>slug</code>, <code>title</code>, <code>description</code> and canonical <code>url</code>.</p>
+        <pre tabIndex={0} aria-label="List services request"><code>{'curl -sS -H "Accept: application/json" https://emetcapital.com.au/api/v1/services'}</code></pre>
+        <p>The <code>listServices</code> operation takes no input parameters. When adapting the OpenAPI specification to function calling, its input is an empty object. The <code>getService</code> operation requires one string argument, <code>slug</code>. Both operations define typed JSON response schemas.</p>
         <h2>Read one service</h2>
-        <p><code>GET /api/services/{'{slug}'}</code> returns one service object. Use a slug from the directory, for example <code>commercial-property-finance</code>.</p>
-        <pre tabIndex={0} aria-label="Service detail request"><code>{'curl -sS -H "Accept: application/json" https://emetcapital.com.au/api/services/commercial-property-finance'}</code></pre>
+        <p><code>GET /api/v1/services/{'{slug}'}</code> returns one service object. Use a slug from the directory, for example <code>commercial-property-finance</code>.</p>
+        <pre tabIndex={0} aria-label="Service detail request"><code>{'curl -sS -H "Accept: application/json" https://emetcapital.com.au/api/v1/services/commercial-property-finance'}</code></pre>
         <h2>Errors and recovery</h2>
         <p>API errors use JSON with an <code>error</code> object containing <code>code</code>, <code>message</code> and <code>hint</code>. An unknown route or service returns 404; unsupported methods return 405 with an Allow header; an unsupported Accept type returns 406; an unexpected API failure returns 500.</p>
-        <pre tabIndex={0} aria-label="Example API error"><code>{'{"error":{"code":"SERVICE_NOT_FOUND","message":"The requested service was not found.","hint":"Use GET /api/services to find a valid slug. See /docs."}}'}</code></pre>
+        <pre tabIndex={0} aria-label="Example API error"><code>{'{"error":{"code":"SERVICE_NOT_FOUND","message":"The requested service was not found.","hint":"Use GET /api/v1/services to find a valid slug. See /docs."}}'}</code></pre>
         <p>For 404, check the directory and documentation. For 405, use GET or HEAD. For 406, send <code>Accept: application/json</code>. For 500, retry later or visit the services page.</p>
         <h2>Markdown and agent instructions</h2>
         <p>The homepage and this documentation support <code>Accept: text/markdown</code> at their normal URLs, with <code>Vary: Accept</code>. Browsers continue receiving HTML. Missing pages return a Markdown error with HTTP 404 when Markdown is requested.</p>

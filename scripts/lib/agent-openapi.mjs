@@ -1,26 +1,28 @@
 export function createOpenApi(domain) {
   const schemaRef = (name) => ({ $ref: `#/components/schemas/${name}` });
-  const response = (description, schema) => ({ description, content: { "application/json": { schema } } });
+  const lifecycleHeaders = { Link: { description: "API versioning and deprecation policy. No retirement is currently scheduled.", schema: { type: "string" }, example: `<${domain}/docs#api-versioning>; rel="deprecation"; type="text/html"` } };
+  const response = (description, schema) => ({ description, headers: lifecycleHeaders, content: { "application/json": { schema } } });
   const errors = {
     "404": response("Unknown API route or service. Consult /docs or list services for a valid slug.", schemaRef("ApiError")),
-    "405": { ...response("Unsupported method. This API is read-only.", schemaRef("ApiError")), headers: { Allow: { description: "Supported methods", schema: { type: "string", enum: ["GET, HEAD"] } } } },
+    "405": { ...response("Unsupported method. This API is read-only.", schemaRef("ApiError")), headers: { ...lifecycleHeaders, Allow: { description: "Supported methods", schema: { type: "string", enum: ["GET, HEAD"] } } } },
     "406": response("Unsupported response format. Send Accept: application/json.", schemaRef("ApiError")),
     "500": response("Temporary internal failure. Retry later or use the website.", schemaRef("ApiError")),
   };
   return {
     openapi: "3.1.0",
-    info: { title: "Emet Capital Public Service Directory", version: "1.0.0", description: "Read-only access to published Australian commercial finance service information. No authentication required. No enquiries, quotes, eligibility assessments, approvals or customer data. General information only." },
+    info: { title: "Emet Capital Public Service Directory", version: "1.0.0", description: "Read-only access to published Australian commercial finance service information. No authentication required. No enquiries, quotes, eligibility assessments, approvals or customer data. General information only. Major URL versioning: /api/v1. Breaking changes require a new major URL. Compatible additions may be made within v1. At least 90 days notice before retiring a supported major version or legacy alias, with Deprecation and Sunset headers and a migration guide at /docs#api-versioning. No retirement is currently scheduled. /api/services and /api/services/{slug} remain supported aliases." },
     servers: [{ url: domain }],
     security: [],
     externalDocs: { description: "API and agent documentation", url: `${domain}/docs` },
     paths: {
-      "/api/services": { get: {
-        operationId: "listServices", summary: "List published commercial finance services", description: "Find public service titles, descriptions and canonical website URLs. Use the returned slug to retrieve one service. No authentication is required.",
+      "/api/v1/services": { get: {
+        operationId: "listServices", summary: "List published commercial finance services", description: "Find public service titles, descriptions and canonical website URLs. Use the returned slug to retrieve one service. No authentication is required. This operation takes no input arguments: use an empty object when adapting it to a function call.",
+        parameters: [],
         responses: { "200": response("Published canonical service directory.", schemaRef("ServiceDirectory")), ...errors },
       } },
-      "/api/services/{slug}": { get: {
+      "/api/v1/services/{slug}": { get: {
         operationId: "getService", summary: "Read a published commercial finance service", description: "Retrieve public information for a service slug returned by listServices. Read the canonical website page for context; this endpoint cannot assess or approve finance.",
-        parameters: [{ name: "slug", in: "path", required: true, description: "Canonical service slug from GET /api/services.", schema: { type: "string", pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$" }, example: "commercial-property-finance" }],
+        parameters: [{ name: "slug", in: "path", required: true, description: "Canonical service slug from GET /api/v1/services.", schema: { type: "string", pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$" }, example: "commercial-property-finance" }],
         responses: { "200": response("Published service information.", schemaRef("Service")), ...errors },
       } },
     },
@@ -36,7 +38,7 @@ export function createOpenApi(domain) {
         code: { type: "string", enum: ["NOT_FOUND", "SERVICE_NOT_FOUND", "METHOD_NOT_ALLOWED", "NOT_ACCEPTABLE", "INTERNAL_ERROR"], description: "Machine-readable error code." },
         message: { type: "string", minLength: 1, description: "Human-readable explanation." },
         hint: { type: "string", minLength: 1, description: "Suggested resolution or documentation link." },
-      } } }, example: { error: { code: "SERVICE_NOT_FOUND", message: "The requested service was not found.", hint: "Use GET /api/services to find a valid slug. See /docs." } } },
+      } } }, example: { error: { code: "SERVICE_NOT_FOUND", message: "The requested service was not found.", hint: "Use GET /api/v1/services to find a valid slug. See /docs." } } },
     } },
   };
 }
