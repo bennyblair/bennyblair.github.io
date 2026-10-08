@@ -55,6 +55,7 @@ const routes = [
   representativeGuide,
   "/resources/tools/bridging-loan-calculator",
   "/contact",
+  "/docs",
 ];
 const preview = launchPreview();
 const browser = await chromium.launch({ headless: true });
@@ -126,6 +127,15 @@ try {
       errors.push(`${route}: axe ${violation.id} (${violation.impact ?? "unknown"}) at ${targets}`);
     }
     for (const pageError of pageErrors) errors.push(`${route}: browser error ${pageError}`);
+
+    if (route === "/docs") {
+      for (const width of [390, 1440]) {
+        await page.setViewportSize({ width, height: 900 });
+        await page.screenshot({ path: path.join(screenshotDir, `agent-docs-${width}.png`), fullPage: true });
+        const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
+        if (overflow) errors.push(`/docs: page overflows at ${width}px`);
+      }
+    }
 
     await page.close();
   }

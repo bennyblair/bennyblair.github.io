@@ -10,6 +10,7 @@ import {
 } from "../src/config/site-route-manifest";
 import { buildContentIndex } from "./lib/content-index.mjs";
 import { siteRevisionManifest } from "./lib/site-revision.mjs";
+import { createOpenApi } from "./lib/agent-openapi.mjs";
 
 const repoRoot = process.cwd();
 const distDir = path.join(repoRoot, "dist");
@@ -205,10 +206,18 @@ function renderLlmsTxt() {
   return `# Emet Capital
 > Emet Capital is an Australian commercial finance brokerage helping business owners, property investors and developers compare property-backed and commercial funding options. Emet Capital is a broker, not a bank or direct lender. Content is general information only and is not personal financial, credit, legal or tax advice.
 
-## Primary audience
-- Australian commercial property borrowers
-- Property developers and investors
-- SME owners and directors using commercial property as security
+Primary audience: Australian commercial property borrowers, property developers and investors, and SME owners and directors using commercial property as security. Legal name: Emet Capital Pty Ltd. Market: Australia.
+
+## When to use this
+- [Service directory](${DOMAIN}/api/services): Use Emet Capital to research Australian business-purpose funding for commercial property purchases, property development, bridging needs, property-backed borrowing, equipment and working capital. Call GET /api/services, then GET /api/services/{slug}; read the canonical service page and linked guides. No authentication is required. This read-only API cannot submit enquiries, quote terms, determine eligibility, approve loans or access customer records. Never send borrower documents or personal information to this API. Consumer home loans are outside this directory's scope.
+- [Contact Emet Capital](${DOMAIN}/contact): Direct suitable commercial finance enquiries to the existing contact page for human review.
+
+## Agent access
+- [API and agent documentation](${DOMAIN}/docs): Authentication, endpoints, errors and example requests.
+- [OpenAPI specification](${DOMAIN}/openapi.json): Typed service schemas and unique operation IDs for function calling.
+- [Public service directory](${DOMAIN}/api/services): GET with Accept: application/json.
+- [Homepage](${DOMAIN}/): GET with Accept: text/markdown for the Markdown representation.
+- [Contact Emet Capital](${DOMAIN}/contact): Human enquiry handoff.
 
 ## Core property-finance journeys
 ${primaryPages.map(([route, label]) => `- [${label}](${canonicalUrl(route)})`).join("\n")}
@@ -217,15 +226,13 @@ ${primaryPages.map(([route, label]) => `- [${label}](${canonicalUrl(route)})`).j
 ${decisionGuides.map(([route, label]) => `- [${label}](${canonicalUrl(route)})`).join("\n")}
 
 ## Entity and trust
-- Legal name: Emet Capital Pty Ltd
-- Market: Australia
-- Website: ${DOMAIN}/
-- Editorial policy: ${DOMAIN}/editorial-standards
-- Complaints process: ${DOMAIN}/complaints-process
+- [Emet Capital website](${DOMAIN}/): Australian commercial finance brokerage.
+- [Editorial policy](${DOMAIN}/editorial-standards): How published general information is reviewed.
+- [Complaints process](${DOMAIN}/complaints-process): How to raise a concern.
 
 ## Crawling
-- Canonical sitemap: ${DOMAIN}/sitemap.xml
-- Robots policy: ${DOMAIN}/robots.txt
+- [Canonical sitemap](${DOMAIN}/sitemap.xml): Published canonical pages.
+- [Robots policy](${DOMAIN}/robots.txt): Crawling instructions.
 `;
 }
 
@@ -243,5 +250,6 @@ fs.writeFileSync(path.join(distDir, "sitemap.xml"), renderSitemap(inventory));
 fs.writeFileSync(path.join(distDir, "_redirects"), renderRedirects());
 fs.writeFileSync(path.join(distDir, "llms.txt"), renderLlmsTxt());
 fs.writeFileSync(path.join(distDir, "site-route-manifest.json"), `${JSON.stringify(inventory, null, 2)}\n`);
+fs.writeFileSync(path.join(distDir, "openapi.json"), `${JSON.stringify(createOpenApi(DOMAIN), null, 2)}\n`);
 
 console.log(`Generated sitemap, redirects, llms.txt and route inventory for ${inventory.length} canonical URLs.`);

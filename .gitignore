@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+netlify/generated/
+.netlify/
 *.local
 
 # Environment files are local-only. Keep the documented template.

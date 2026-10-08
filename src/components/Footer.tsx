@@ -55,6 +55,7 @@ const Footer = () => {
               <li><Link to="/resources/case-studies" className="text-muted-foreground hover:text-accent">Case Studies</Link></li>
               <li><Link to="/resources/tools" className="text-muted-foreground hover:text-accent">Tools & Calculators</Link></li>
               <li><Link to="/resources/faqs" className="text-muted-foreground hover:text-accent">FAQs</Link></li>
+              <li><Link to="/docs" className="text-muted-foreground hover:text-accent">API &amp; Agent Docs</Link></li>
             </ul>
           </div>
 

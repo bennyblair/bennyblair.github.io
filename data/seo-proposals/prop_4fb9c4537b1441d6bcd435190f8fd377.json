@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_4fb9c4537b1441d6bcd435190f8fd377",
+  "pageId": "pg_107f437ce7024b84b3ecb6c793c0741a",
+  "path": "/docs",
+  "sourcePath": "src/pages/AgentDocs.tsx",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "The supplied Ora audit found no discoverable API documentation, typed API or actionable agent guidance.",
+  "targeting": {
+    "primaryQuery": "Emet Capital API and agent documentation",
+    "intent": "developer documentation",
+    "audience": "AI agents and developers reading public commercial finance information",
+    "country": "AU"
+  },
+  "uniqueValue": [
+    "Documents the actual read-only service API, errors, Markdown negotiation and human enquiry handoff."
+  ],
+  "evidence": [
+    {
+      "type": "owner_supplied_audit",
+      "date": "2026-10-08",
+      "summary": "User supplied eight agent-readiness findings and authorised implementation; read-only API scope selected in this task."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/"
+    ],
+    "to": [
+      "/services",
+      "/contact"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "agent_readiness_contract_pass",
+    "successRule": "All published agent endpoints pass status, content-type, body and schema checks.",
+    "exitRule": "Repair any contract failure; do not infer search demand from the readiness audit.",
+    "firstReviewAt": "2026-11-08T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 20,
+      "demonstratedDemand": 10,
+      "top20Probability": 0,
+      "conversionPotential": 10,
+      "evidenceAuthority": 10,
+      "differentiation": 10,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 65
+  },
+  "approval": {
+    "approvedBy": "site owner via current task",
+    "approvedAt": "2026-10-08T07:43:47.860Z",
+    "automated": false,
+    "basis": "Explicit owner instruction to implement audit fixes and selection of read-only API scope.",
+    "exceptionReason": "Technical documentation requested to resolve a supplied audit; score is a planning heuristic, with no keyword ranking or search-volume evidence claimed."
+  }
+}
