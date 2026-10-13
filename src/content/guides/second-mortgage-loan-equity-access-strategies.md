@@ -5,7 +5,7 @@ description: "How a business can access property equity with a second mortgage w
 metaTitle: "Second Mortgage Loans for Business Equity Access"
 metaDescription: "Using property equity for business funding? Compare a second mortgage with refinance or caveat options, and check usable equity, consent, cost and exit."
 featuredImage: "/images/second-mortgage-loan-equity-access.jpg"
-featuredImageAlt: "Glass-fronted multi-storey commercial building with street trees and parked cars"
+featuredImageAlt: "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph."
 category: "Business Finance"
 tags: ["second mortgage loan", "property equity access", "second mortgage Australia", "equity release", "business funding", "combined LVR"]
 slug: "second-mortgage-loan-equity-access-strategies"
