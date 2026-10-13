@@ -11,7 +11,6 @@ keywords:
   - "commercial property equity contribution"
 readTime: "9 min read"
 author: "Ben"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,11 +21,11 @@ searchIntent: "commercial investigation"
 intentCluster: "commercial-property-loan-deposits"
 designatedServicePage: "/services/commercial-property-finance"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-13T21:58:10Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-01-11T21:58:10Z"
 sources:
   - label: "business.gov.au - Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
