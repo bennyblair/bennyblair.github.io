@@ -14,6 +14,83 @@ export const REPAIR_CONTENT = /^src\/content\/(?:guides|case-studies|insights)\/
 export const sourceHash = (source) => crypto.createHash("sha256").update(source).digest("hex");
 const validDate = (date) => typeof date === "string" && Number.isFinite(Date.parse(date));
 
+// Older automated audit labels found in the trusted registry/content that this
+// path is allowed to retire. Human names (for example "Ben") and the current
+// canonical independent reviewer are not on this list.
+export const RETIREABLE_AUTOMATED_REVIEWERS = Object.freeze([
+  "OpenClaw SEO source audit",
+  "OpenClaw SEO content audit",
+  "OpenClaw SEO evidence review",
+  "Codex automated content review",
+  "OpenClaw automated independent editorial reviewer",
+]);
+
+// Team queues from generate-seo-page-registry.ts. Every high-risk page is
+// assigned reviewOwner "financial-review"; that slug is a queue, not a recorded
+// human or financial reviewer identity, so it must not block retiring the
+// automated labels above. Unknown or person-named owners do block.
+const TRUSTED_REVIEW_OWNER_QUEUES = new Set(["financial-review", "seo-content-review", "seo-engineering"]);
+
+export function isCursorAgentRunUrl(reference) {
+  if (typeof reference !== "string") return false;
+  try {
+    const url = new URL(reference);
+    if (url.protocol !== "https:" || url.username || url.password) return false;
+    if (url.hostname !== "cursor.com") return false;
+    if (url.port && url.port !== "443") return false;
+    return /^\/agents\/[A-Za-z0-9][A-Za-z0-9_-]*\/?$/.test(url.pathname);
+  } catch {
+    return false;
+  }
+}
+
+export function declaredSourceUrls(source) {
+  const sources = matter(source).data?.sources;
+  if (!Array.isArray(sources)) return [];
+  return sources.map((item) => item?.url).filter((url) => typeof url === "string" && url.length);
+}
+
+function blockedLiveSourceUrl(url) {
+  try {
+    const parsed = new URL(url);
+    return parsed.protocol !== "https:" || Boolean(parsed.username || parsed.password)
+      || /^(?:localhost|127\.|10\.|192\.168\.)/.test(parsed.hostname);
+  } catch {
+    return true;
+  }
+}
+
+export async function fetchLiveSourceStatuses(urls, fetchImpl = globalThis.fetch) {
+  const statuses = {};
+  for (const url of [...new Set(urls)]) {
+    if (blockedLiveSourceUrl(url)) {
+      statuses[url] = 0;
+      continue;
+    }
+    try {
+      const response = await fetchImpl(url, { method: "GET", redirect: "follow", signal: AbortSignal.timeout(20_000) });
+      statuses[url] = Number(response?.status) || 0;
+    } catch {
+      statuses[url] = 0;
+    }
+  }
+  return statuses;
+}
+
+function presentReviewers(before, registered) {
+  return [before.reviewedBy, registered?.governance?.reviewedBy].filter((value) => value != null && value !== "");
+}
+
+function registryOrBaseBlocksReviewSupersession(before, registered) {
+  const governance = registered?.governance || {};
+  if (governance.humanReviewRequired === true || governance.humanReviewRequired === "true") return true;
+  if (governance.reviewStatus === "editorial-review" || before.reviewStatus === "editorial-review") return true;
+  const owner = governance.reviewOwner;
+  if (owner && !TRUSTED_REVIEW_OWNER_QUEUES.has(owner)) return true;
+  if (/human/i.test(String(owner || ""))) return true;
+  return presentReviewers(before, registered).some((reviewer) => !RETIREABLE_AUTOMATED_REVIEWERS.includes(reviewer));
+}
+
 export function publicHeadingCleanup(source) {
   return source
     .replace(/^(#{1,6})[ \t]+(?:LLM|AI)[ -]*(?:Ready|Readiness)(?:[ \t]+QA)?[ \t]+(Summary|Answer|Snapshot|Check)(?::[ \t]*(.*))?[ \t]*$/gim,
@@ -66,8 +143,9 @@ function proofIsValid(proof, previous, current) {
 }
 
 /** Called with trusted base policy/registry and exact before/after blobs; never executes PR code. */
-export function validateRepairManifest({ manifest, policy, registry, protectedCohort, changes, baseSha, now = new Date() }) {
+export function validateRepairManifest({ manifest, policy, registry, protectedCohort, changes, baseSha, now = new Date(), liveSourceStatuses }) {
   const errors = [...validateRepairPolicy(policy).errors];
+  const recordedEvidence = [];
   if (manifest?.schemaVersion !== 1 || !/^repair_[a-z0-9-]+$/.test(manifest?.repairId || "")) errors.push("invalid repair manifest identity");
   if (manifest?.policyId !== policy?.policyId || manifest?.policyVersion !== policy?.version || manifest?.policyChecksum !== policy?.checksum || manifest?.authorizationRef !== policy?.authorization?.reference) errors.push("repair authorization does not match trusted policy");
   if (!/^[a-f0-9]{40}$/.test(manifest?.baseSha || "") || manifest.baseSha !== baseSha) errors.push("repair manifest must name the exact current base revision");
@@ -86,7 +164,13 @@ export function validateRepairManifest({ manifest, policy, registry, protectedCo
     const registered = registry?.pages?.find((page) => page.sourcePath === file);
     if (!row || !registered || row.pageId !== registered.pageId || row.path !== registered.path || row.path !== routeFromSource(file)) { errors.push("repair page does not match trusted registry: " + file); continue; }
     if (previous === current || row.beforeSha256 !== sourceHash(previous) || row.afterSha256 !== sourceHash(current)) errors.push("repair evidence is stale or content is unchanged: " + file);
-    if (!row.reason || !Array.isArray(row.evidence) || !row.evidence.length || row.evidence.some((item) => !item?.reference)) errors.push("repair requires a reason and source evidence: " + file);
+    if (!row.reason || !Array.isArray(row.evidence) || !row.evidence.length) errors.push("repair requires a reason and source evidence: " + file);
+    else {
+      for (const item of row.evidence) {
+        if (!isCursorAgentRunUrl(item?.reference)) errors.push("repair evidence reference must be an https cursor.com/agents/ run URL: " + file);
+        else recordedEvidence.push(item.reference);
+      }
+    }
     if (!Array.isArray(row.verification) || !row.verification.length || row.verification.some((proof) => !proofIsValid(proof, previous, current))) errors.push("repair needs changed-content deployment proof: " + file);
     if (registered.lifecycle?.protectedUntil && Date.parse(registered.lifecycle.protectedUntil) > now.getTime()) errors.push("active registry protection blocks repair: " + file);
     if (findActiveProtectedChanges([{ relativePath: file, source: previous }], protectedCohort || {}, now).length) errors.push("active indexing cohort blocks repair: " + file);
@@ -112,8 +196,12 @@ export function validateRepairManifest({ manifest, policy, registry, protectedCo
       && trustedAutomatedReviewer && exactReviewInstant && exactReviewExpiry && noMetadataAliases;
     if (generalInformationBackfill && !exactGeneralInformationMetadata)
       errors.push("general-information repair requires one exact canonical risk, reviewer, review instant and review expiry metadata set: " + file);
-    // Existing review metadata may be superseded only on the fixed 90-day high-risk cadence; other cadences stay backfill-only.
-    const supersedesReviewMetadata = exactGeneralInformationMetadata && registered.governance?.contentRisk === "high";
+    // Existing review metadata may be superseded only on the fixed 90-day high-risk cadence
+    // when the trusted base page/registry reviewer is a retireable automated audit label
+    // and the trusted base registry does not record a human/financial review identity.
+    const supersedesReviewMetadata = exactGeneralInformationMetadata
+      && registered.governance?.contentRisk === "high"
+      && !registryOrBaseBlocksReviewSupersession(before, registered);
     const allowsGeneralInformationReviewBackfill = (key) => {
       if (!exactGeneralInformationMetadata) return false;
       if (key === "contentRisk") return before.contentRisk === undefined && before.content_risk === undefined;
@@ -150,14 +238,20 @@ export function validateRepairManifest({ manifest, policy, registry, protectedCo
       if (JSON.stringify(before) !== JSON.stringify(after)) errors.push("mechanical repair may not change frontmatter: " + file);
     } else if (manifest.reviewMode === GENERAL_INFORMATION_MODE) {
       if (policy.authority?.generalInformationMode !== GENERAL_INFORMATION_MODE) errors.push("trusted policy does not authorize general-information review");
-      errors.push(...validateGeneralInformationReview({ source: current, sourceSha256: row.afterSha256, review: row.generalInformationReview, manifestReview: manifest.review, now }).map(error => error + ": " + file));
+      errors.push(...validateGeneralInformationReview({ source: current, sourceSha256: row.afterSha256, review: row.generalInformationReview, manifestReview: manifest.review, now, liveSourceStatuses }).map(error => error + ": " + file));
     } else {
       if (highRisk) errors.push("substantive high-risk content requires genuine financial review outside routine automation: " + file);
       // This reviewed, page-specific programme authority does not alter the global registry ceiling.
       if (row.metadataReview?.reviewer !== manifest.review?.reviewer || row.metadataReview?.reviewedAt !== manifest.review?.reviewedAt || row.metadataReview?.contentRisk !== registered.governance?.contentRisk || !["low", "medium"].includes(row.metadataReview?.contentRisk)) errors.push("substantive repair requires a scoped metadata and financial-risk review: " + file);
     }
   }
-  return { errors, pages: pages.map(({ path }) => path) };
+  return { errors, pages: pages.map(({ path }) => path), evidence: recordedEvidence };
+}
+
+export async function validateRepairManifestWithLiveSources({ fetch, ...opts }) {
+  const urls = (opts.changes || []).flatMap((change) => declaredSourceUrls(change.current || ""));
+  const liveSourceStatuses = await fetchLiveSourceStatuses(urls, fetch);
+  return validateRepairManifest({ ...opts, liveSourceStatuses });
 }
 
 export function validateReleaseGate({ expectedSha, actualSha, gate }) {

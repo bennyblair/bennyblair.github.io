@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { REPAIR_MANIFEST, REPAIR_POLICY_PATH, validateRepairManifest } from "./lib/content-repair-policy.mjs";
+import { REPAIR_MANIFEST, REPAIR_POLICY_PATH, validateRepairManifestWithLiveSources } from "./lib/content-repair-policy.mjs";
 
 const git = (args) => execFileSync("git", args, { encoding: "utf8" });
 const base = git(["rev-parse", process.env.CONTENT_QA_BASE || "origin/main"]).trim();
@@ -18,7 +18,7 @@ const content = changes.filter((change) => change.file !== manifests[0].file).ma
   previous: change.status === "A" ? "" : readAt(base, change.file),
   current: change.status === "D" ? "" : readAt(head, change.file),
 }));
-const result = validateRepairManifest({
+const result = await validateRepairManifestWithLiveSources({
   manifest,
   policy: JSON.parse(readAt(base, REPAIR_POLICY_PATH)),
   registry: JSON.parse(readAt(base, "data/seo-page-registry.json")),
@@ -30,4 +30,4 @@ if (result.errors.length) {
   for (const error of result.errors) console.error("ERROR " + error);
   process.exit(1);
 }
-console.log(JSON.stringify({ status: "passed", baseSha: base, headSha: git(["rev-parse", head]).trim(), repairId: manifest.repairId, pages: result.pages }, null, 2));
+console.log(JSON.stringify({ status: "passed", baseSha: base, headSha: git(["rev-parse", head]).trim(), repairId: manifest.repairId, pages: result.pages, evidence: result.evidence }, null, 2));

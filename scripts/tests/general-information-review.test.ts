@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import test from "node:test";
-import { sourceHash, validateRepairManifest } from "../lib/content-repair-policy.mjs";
+import { RETIREABLE_AUTOMATED_REVIEWERS, sourceHash, validateRepairManifest, validateRepairManifestWithLiveSources } from "../lib/content-repair-policy.mjs";
 import { assessScopedRepairCandidate } from "../lib/content-eligibility.mjs";
 
 const policy = JSON.parse(fs.readFileSync("data/seo-content-repair-policy.json", "utf8"));
@@ -18,7 +18,7 @@ function fixture(extra = "") {
     registry: { pages: [{ sourcePath: file, pageId: "pg_example", path, governance: { contentRisk: "high", maxAutomatedChangeRisk: "R0", reviewEveryDays: 90 }, lifecycle: { protectedUntil: null as string | null } }] },
     changes: [{ file, status: "M", previous, current }],
     manifest: { schemaVersion: 1, repairId: "repair_example", policyId: policy.policyId, policyVersion: policy.version, policyChecksum: policy.checksum, authorizationRef: policy.authorization.reference, baseSha: "a".repeat(40), editor: "Codex", review, kind: "substantive", reviewMode: "general-information-v1", pages: [{
-      sourcePath: file, path, pageId: "pg_example", beforeSha256: sourceHash(previous), afterSha256: sourceHash(current), reason: "Help borrowers prepare for a lender discussion", evidence: [{ reference: source }], verification: [{ kind: "text-added", value: "Prepare a cash-flow forecast to discuss repayment planning." }],
+      sourcePath: file, path, pageId: "pg_example", beforeSha256: sourceHash(previous), afterSha256: sourceHash(current), reason: "Help borrowers prepare for a lender discussion", evidence: [{ reference: "https://cursor.com/agents/bc-test-general-information-review" }], verification: [{ kind: "text-added", value: "Prepare a cash-flow forecast to discuss repayment planning." }],
       generalInformationReview: { mode: "general-information-v1", reviewer: review.reviewer, reviewedAt: review.reviewedAt, reviewedSourceSha256: sourceHash(current), automated: true, human: false, professionalFinancialReview: false, businessPurposeOnly: true, noPersonalAdvice: true, completePageChecked: true, unsupportedClaimsRemoved: true, claimCoverage: "complete", unmappedFactualClaims: [], blockingFindings: [], sources: [{ url: source, checkedAt: "2026-10-03T06:00:00Z", status: 200 }], sourceClaimMap: [{ claim: "Prepare a cash-flow forecast to discuss repayment planning.", sources: [source] }] },
     }] },
   };
@@ -192,7 +192,7 @@ test("an exact canonical independent review may supersede older automated review
 
 test("superseding review metadata rejects a wrong reviewer, review instant or expiry", () => {
   const cases: [string, (input: Fixture) => void, RegExp[]][] = [
-    ["previous reviewer retained", editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: OpenClaw SEO source audit"), [/exact canonical/]],
+    ["previous reviewer retained", editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: OpenClaw SEO source audit"), [/exact canonical/, /protected metadata reviewedAt/, /protected metadata expiresAt/, /protected metadata reviewed_date/]],
     ["forged human reviewer", editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: Jane Doe CFP, human financial adviser"), [/exact canonical/, /protected metadata reviewedBy/]],
     ["untrusted manifest reviewer", (input) => {
       input.manifest.review.reviewer = "OpenClaw SEO source audit v2";
@@ -283,4 +283,139 @@ test("absent review metadata is still backfilled only as the exact canonical set
   const wrongBackfillReviewer = fixture();
   editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: OpenClaw SEO source audit")(wrongBackfillReviewer);
   assert.match(errorsOf(rehash(wrongBackfillReviewer)), /protected metadata reviewedBy/);
+});
+
+test("every retireable automated audit label may be superseded on a high-risk page", () => {
+  assert.deepEqual([...RETIREABLE_AUTOMATED_REVIEWERS], [
+    "OpenClaw SEO source audit",
+    "OpenClaw SEO content audit",
+    "OpenClaw SEO evidence review",
+    "Codex automated content review",
+    "OpenClaw automated independent editorial reviewer",
+  ]);
+  for (const label of RETIREABLE_AUTOMATED_REVIEWERS) {
+    const input = superseding((next) => {
+      next.changes[0].previous = legacyReviewedPage.replace("OpenClaw SEO source audit", label);
+      next.registry.pages[0].governance = {
+        ...next.registry.pages[0].governance,
+        reviewOwner: "financial-review",
+        reviewedBy: label,
+      };
+    });
+    assert.deepEqual(validateRepairManifest(input).errors, [], label);
+  }
+});
+
+test("trusted registry human or financial review flags block supersession even when the page label looks automated", () => {
+  const cases: [string, (input: Fixture) => void][] = [
+    ["registry reviewedBy Ben", (input) => { input.registry.pages[0].governance.reviewedBy = "Ben"; }],
+    ["registry humanReviewRequired", (input) => { input.registry.pages[0].governance.humanReviewRequired = true; }],
+    ["registry reviewStatus editorial-review", (input) => { input.registry.pages[0].governance.reviewStatus = "editorial-review"; }],
+    ["registry human reviewOwner", (input) => { input.registry.pages[0].governance.reviewOwner = "Ben"; }],
+    ["registry human-financial reviewOwner", (input) => { input.registry.pages[0].governance.reviewOwner = "human-financial-review"; }],
+    ["base page editorial-review status", (input) => {
+      input.changes[0].previous = legacyReviewedPage.replace("reviewStatus: automated-editorial-review", "reviewStatus: editorial-review");
+      input.changes[0].current = input.changes[0].current.replace("reviewStatus: automated-editorial-review", "reviewStatus: editorial-review");
+    }],
+  ];
+  for (const [name, edit] of cases) {
+    const errors = errorsOf(superseding(edit));
+    assert.match(errors, /protected metadata reviewedBy/, name);
+    assert.match(errors, /protected metadata reviewedAt/, name);
+    assert.match(errors, /protected metadata expiresAt/, name);
+  }
+});
+
+const trustedRegistry = JSON.parse(fs.readFileSync("data/seo-page-registry.json", "utf8"));
+const evidenceRun = "https://cursor.com/agents/bc-test-ben-review-protection";
+function realBenPage(sourcePath: string, editCurrentSource: (current: string) => string, edit: (input: Fixture) => void = () => {}) {
+  const registered = trustedRegistry.pages.find((page: { sourcePath: string }) => page.sourcePath === sourcePath);
+  assert.equal(registered?.governance?.reviewedBy, "Ben");
+  const previous = fs.readFileSync(sourcePath, "utf8");
+  const input = fixture();
+  input.changes[0].file = sourcePath;
+  input.changes[0].previous = previous;
+  input.changes[0].current = editCurrentSource(previous);
+  input.registry = { pages: [structuredClone(registered)] };
+  Object.assign(input.manifest.pages[0], {
+    sourcePath,
+    path: registered.path,
+    pageId: registered.pageId,
+    evidence: [{ reference: evidenceRun }],
+    generalInformationReview: {
+      ...input.manifest.pages[0].generalInformationReview,
+      sources: (input.manifest.pages[0].generalInformationReview.sources || []).map((item: { url: string }) => item),
+    },
+  });
+  const sourceUrls = [...previous.matchAll(/url: "?(https:\/\/[^"\n]+)"?/g)].map((match) => match[1]);
+  input.manifest.pages[0].generalInformationReview.sources = sourceUrls.map((url) => ({ url, checkedAt: "2026-10-03T06:00:00Z", status: 200 }));
+  input.manifest.pages[0].generalInformationReview.sourceClaimMap = [{ claim: "This article is for informational purposes only and does not constitute financial advice.", sources: sourceUrls.slice(0, 1) }];
+  edit(input);
+  return rehash(input);
+}
+function canonicalBenReplacement(source: string) {
+  return source
+    .replace('reviewedBy: "Ben"', 'reviewedBy: "OpenClaw independent reviewer"')
+    .replace('reviewedAt: "2026-08-13"', 'reviewedAt: "2026-10-03T07:00:00Z"')
+    .replace('expiresAt: "2027-08-13"', 'expiresAt: "2027-01-01T07:00:00Z"')
+    .replace('reviewed_date: "2026-08-13"\n', "");
+}
+function keepBenInstantShortenExpiry(source: string) {
+  return source
+    .replace('reviewedBy: "Ben"', 'reviewedBy: "OpenClaw independent reviewer"')
+    .replace('expiresAt: "2027-08-13"', 'expiresAt: "2026-11-11T00:00:00.000Z"')
+    .replace('reviewed_date: "2026-08-13"\n', "");
+}
+
+test("human Ben reviews on both real pages cannot be superseded, including keeping Ben's instant and shortening expiresAt", () => {
+  const pages = [
+    "src/content/guides/commercial-property-investor-loan-checklist.md",
+    "src/content/guides/commercial-bridging-finance-compressed-settlement-case-study.md",
+  ];
+  for (const sourcePath of pages) {
+    const replaced = realBenPage(sourcePath, canonicalBenReplacement);
+    assert.match(errorsOf(replaced), /protected metadata reviewedBy/, sourcePath);
+    assert.match(errorsOf(replaced), /protected metadata reviewedAt/, sourcePath);
+    assert.match(errorsOf(replaced), /protected metadata expiresAt/, sourcePath);
+
+    const keepInstant = realBenPage(sourcePath, keepBenInstantShortenExpiry, (input) => {
+      input.manifest.review.reviewedAt = "2026-08-13";
+      input.manifest.pages[0].generalInformationReview.reviewedAt = "2026-08-13";
+    });
+    assert.match(errorsOf(keepInstant), /protected metadata reviewedBy/, sourcePath + " keep instant");
+    assert.match(errorsOf(keepInstant), /protected metadata expiresAt/, sourcePath + " keep instant");
+    assert.doesNotMatch(errorsOf(keepInstant), /protected metadata reviewedAt:/, sourcePath + " keep instant does not rewrite reviewedAt");
+  }
+});
+
+test("general-information evidence cannot be a local path or arbitrary https URL", () => {
+  const local = fixture();
+  local.manifest.pages[0].evidence = [{ reference: "/home/node/.openclaw/workspace/independent-review.json" }];
+  assert.match(errorsOf(local), /https cursor.com\/agents\/ run URL/);
+  const factual = fixture();
+  factual.manifest.pages[0].evidence = [{ reference: "https://business.gov.au/finance/funding/get-a-business-loan" }];
+  assert.match(errorsOf(factual), /https cursor.com\/agents\/ run URL/);
+  assert.ok(validateRepairManifest(fixture()).evidence.includes("https://cursor.com/agents/bc-test-general-information-review"));
+});
+
+test("CI live source fetch fails closed on non-2xx and does not trust the manifest status", async () => {
+  const source = "https://business.gov.au/finance/funding/get-a-business-loan";
+  assert.match(
+    validateRepairManifest({ ...fixture(), liveSourceStatuses: { [source]: 404 } }).errors.join(" "),
+    /CI-observed factual source response must be 2xx/,
+  );
+  assert.deepEqual(validateRepairManifest({ ...fixture(), liveSourceStatuses: { [source]: 200 } }).errors, []);
+
+  const fetched = await validateRepairManifestWithLiveSources({
+    ...fixture(),
+    fetch: async (url: string) => ({ status: 503, url }),
+  });
+  assert.match(fetched.errors.join(" "), /CI-observed factual source response must be 2xx/);
+
+  const liveOk = await validateRepairManifestWithLiveSources({
+    ...fixture(),
+    fetch: async (url: string) => ({ status: 200, url }),
+  });
+  assert.deepEqual(liveOk.errors, []);
+  assert.deepEqual(liveOk.evidence, ["https://cursor.com/agents/bc-test-general-information-review"]);
 });
