@@ -1,6 +1,6 @@
 ---
 title: "Commercial Property Loan Deposits in Australia: How Much Do You Need?"
-description: "Learn how commercial property loan deposits work in Australia, what costs sit above the purchase deposit, when lenders may ask for more equity, and how business borrowers should plan their capital stack."
+description: "There is no single deposit figure. It is the part of the price the lender will not fund, which depends on the lender, the property, any lease and your finances. Plan for any stamp duty, fees and a buffer on top."
 date: "2026-04-13"
 category: "Property Finance"
 slug: "commercial-property-loan-deposits-how-much-do-you-need"
@@ -30,24 +30,30 @@ expiresAt: "2026-11-05"
 sources:
   - label: "business.gov.au - Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
-  - label: "APRA - Prudential Practice Guide APG 113"
-    url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
+  - label: "Revenue NSW - Transfer duty"
+    url: "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty"
+  - label: "Queensland Revenue Office - Transfer duty"
+    url: "https://qro.qld.gov.au/duties/transfer-duty/"
+  - label: "State Revenue Office Victoria - Land transfer (stamp) duty"
+    url: "https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty"
+  - label: "State Revenue Office Victoria - Commercial and industrial property tax"
+    url: "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax"
+metaTitle: "Commercial Property Loan Deposit: How Much Do Businesses Need?"
+metaDescription: "How much deposit does a business need for a commercial property loan? Plan for the gap the lender won’t fund, plus any stamp duty, fees and a valuation buffer."
+featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
+featuredImageAlt: "Glass-fronted multi-storey commercial building with street trees and parked cars"
 ---
 
-# Commercial Property Loan Deposits in Australia: How Much Do You Need?
+There is no single deposit figure for a commercial property loan in Australia. Your deposit is the part of the purchase price the lender will not fund. Lenders differ on how much you can borrow and what security they require, and they look at the property, any lease and your business finances, so the same purchase can need a different deposit with a different lender.
 
-A commercial property loan deposit is the equity contribution a borrower brings to a purchase or refinance structure before the lender advances funds. In Australia, that usually means business owners, investors, and developers contributing part of the property cost themselves because commercial lenders rarely fund 100% of the deal. The exact deposit requirement depends on the asset, loan purpose, borrower strength, lease profile, and how conservative the lender is.
+The deposit is also not the whole cash requirement. Budget for loan set-up and other upfront fees, legal, valuation and due diligence costs, and stamp duty where it applies. In [NSW](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty) and [Queensland](https://qro.qld.gov.au/duties/transfer-duty/), the buyer generally pays transfer (stamp) duty on a purchase. [Victoria](https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty) also charges land transfer duty, but is [progressively replacing it on commercial and industrial property](https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax) with an annual tax, and some purchases of property already in that reform can be exempt. Keep a buffer as well in case the valuation comes in below the agreed price.
 
-In plain terms, the deposit is only one part of the capital stack. You also need to think about stamp duty, legal costs, valuation fees, due diligence costs, and a buffer if the valuation comes in below the agreed purchase price. That is why borrowers who ask “how much deposit do I need?” usually need a broader answer than a single percentage.
+Emet Capital is a commercial finance broker, not a lender. If you want help working out the deposit and total funds to complete for a specific purchase, see our [commercial property finance](/services/commercial-property-finance) service. An enquiry starts a discussion; it is not an approval or a commitment to lend.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Commercial Property Loans in Australia: The Complete Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — Broad overview of structures, lender types, and approval criteria.
-- **[Commercial Property LVR Explained: Maximise Your Borrowing](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)** — Useful for understanding how deposit and LVR work together.
 - **[Commercial Property Refinance After a Bank Decline in Australia](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — Relevant if your deposit shortfall appears after a credit decline.
-- **[Commercial Property Loan Serviceability: How Much Can You Borrow?](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)** — Explains how lenders assess income, debt cover, and borrowing capacity.
-- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Helpful when equity release or refinance may be part of the funding plan.
-- **[Bridging Finance in Australia: The Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)** — Useful where a timing gap exists between purchase and permanent debt.
 - **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Explains how lender type affects leverage and flexibility.
 
 ## At a Glance
