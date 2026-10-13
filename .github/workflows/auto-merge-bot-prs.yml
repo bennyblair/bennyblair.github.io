@@ -73,7 +73,7 @@ jobs:
             const isRepair = pr.head.ref.startsWith('ai/content-repair-');
             const fs = require('node:fs');
             const { pathToFileURL } = require('node:url');
-            const { validateRepairManifest, validateReleaseGate, REPAIR_MANIFEST } = await import(pathToFileURL(process.cwd() + '/scripts/lib/content-repair-policy.mjs').href);
+            const { validateRepairManifestWithLiveSources, validateReleaseGate, REPAIR_MANIFEST } = await import(pathToFileURL(process.cwd() + '/scripts/lib/content-repair-policy.mjs').href);
             if (pr.base.ref !== 'main' || pr.head.repo?.full_name !== pr.base.repo?.full_name) {
               core.setFailed('Production automation requires a same-repository PR into main.');
               return;
@@ -154,7 +154,7 @@ jobs:
                 if (file.status !== 'modified') { core.setFailed('Repair must modify existing content only.'); return; }
                 changes.push({ file: file.filename, status: file.status, previous: await readAt(file.filename, pr.base.sha), current: await readAt(file.filename, pr.head.sha) });
               }
-              const validation = validateRepairManifest({
+              const validation = await validateRepairManifestWithLiveSources({
                 manifest,
                 policy: JSON.parse(fs.readFileSync('data/seo-content-repair-policy.json', 'utf8')),
                 registry: JSON.parse(fs.readFileSync('data/seo-page-registry.json', 'utf8')),
@@ -163,7 +163,7 @@ jobs:
                 baseSha: pr.base.sha,
               });
               if (validation.errors.length) { core.setFailed(validation.errors.join('\n')); return; }
-              core.summary.addHeading('Authorized repair release').addRaw(JSON.stringify({ repairId: manifest.repairId, baseSha: pr.base.sha, headSha: pr.head.sha, pages: validation.pages }, null, 2));
+              core.summary.addHeading('Authorized repair release').addRaw(JSON.stringify({ repairId: manifest.repairId, baseSha: pr.base.sha, headSha: pr.head.sha, pages: validation.pages, evidence: validation.evidence }, null, 2));
               await core.summary.write();
             } else {
               for (const label of ['content-risk:low', 'content-change:internal-links']) {

@@ -38,6 +38,7 @@ test("the merge-capable website quality workflow runs every required repository 
     );
   }
   assert.match(workflow, /startsWith\(github\.head_ref, 'ai\/daily-content-'\).*'R2'.*'R3'/);
+  assert.match(read("scripts/verify-content-repair-scope.mjs"), /validateRepairManifestWithLiveSources/);
 });
 
 test("auto-merge waits for the complete website quality gate", () => {
@@ -56,7 +57,7 @@ test("auto-merge waits for the complete website quality gate", () => {
   assert.match(workflow, /proposals\.length\s*!==\s*1/);
   assert.match(workflow, /group:\s*seo-production-publication/);
   assert.match(workflow, /cancel-in-progress:\s*false/);
-  assert.match(workflow, /validateRepairManifest/);
+  assert.match(workflow, /validateRepairManifestWithLiveSources/);
   assert.match(workflow, /validateReleaseGate/);
   assert.match(workflow, /main.data.commit.sha !== pr.base.sha/);
   assert.match(workflow, /Checkout trusted base policy and verifier/);
