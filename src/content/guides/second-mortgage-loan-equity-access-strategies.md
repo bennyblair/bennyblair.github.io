@@ -77,7 +77,7 @@ The second lender’s assessment decides how much of the total equity becomes a 
 
 - the valuation the lender accepts and how saleable the property is;
 - the first-mortgage balance and any other secured debt ranking ahead;
-- interest and fees that will be capitalised into the combined debt;
+- interest and fees that may be capitalised into the combined debt;
 - whether ranking, consent and priority documents can be put in place;
 - whether current business cash flow supports the repayments; and
 - how strong the primary and fallback exits are.
@@ -88,7 +88,7 @@ Registration priority and lender-to-lender rights are legal questions. In Queens
 
 First-mortgagee consent can arise in two separate ways: a land-title registration requirement, and a contractual requirement in the first loan. Those are not the same check.
 
-In NSW electronic dealings, the Registrar General’s [guide to written consent for electronic dealings](https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings) separates consents required for registration at NSW Land Registry Services under the Real Property Act 1900 from consents that are not required for registration but may be required to bind parties to the terms of the relevant legal document, giving the example that a mortgagee may require consent under the terms of a mortgage. It also notes that a caveator’s consent is assumed to apply to all dealings. That list is limited to NSW electronic lodgment. It is not the registration rule for another state or territory. Contractual consent under the first loan is a separate question: the first loan’s own documents may restrict further security or require the first lender’s consent even where a registry does not. If the first lender says no, read [what to do when second mortgage consent is refused](/resources/guides/second-mortgage-consent-refused-australia).
+In NSW electronic dealings, the Registrar General’s [guide to written consent for electronic dealings](https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings) separates consents required for registration at NSW Land Registry Services under the Real Property Act 1900 from consents that are not required for registration but may be required to bind parties to the terms of the relevant legal document, giving the example that a mortgagee may require consent under the terms of a mortgage. It also notes that a caveator’s consent is assumed to apply to all dealings. That list is limited to NSW electronic lodgment, excluding lodgment via a Dealing with Exception. It is not the registration rule for another state or territory. Contractual consent under the first loan is a separate question: the first loan’s own documents may restrict further security or require the first lender’s consent even where a registry does not. If the first lender says no, read [what to do when second mortgage consent is refused](/resources/guides/second-mortgage-consent-refused-australia).
 
 ## Second mortgage, refinance, caveat loan or line of credit?
 
@@ -102,7 +102,7 @@ In NSW electronic dealings, the Registrar General’s [guide to written consent 
 
 Compare each option on the business’s whole position after the transaction, not on one feature such as keeping the existing first loan or settling faster.
 
-Titles Queensland’s [caveat practice manual](https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf) describes a caveat as a notice that generally prohibits registration of dealings affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says a caveat should not be seen as a viable alternative to registering the interest. For a fuller comparison, read [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
+Titles Queensland’s [caveat practice manual](https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf) describes a caveat as a notice that, subject to some exceptions, prohibits registration of an instrument or document affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says a caveat should not be seen as a viable alternative to registering the interest. For a fuller comparison, read [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
 
 ## Comparing the full cost
 
@@ -155,7 +155,7 @@ Independent legal advice is essential before signing mortgage, guarantee, priori
 
 ### Should I use a second mortgage or a full refinance to access equity?
 
-Compare them on the usable amount each can actually deliver, then on full cost, consent or priority work, term and exit. A second mortgage adds a second-ranking facility to existing debt. A full refinance replaces the whole debt stack and can involve break, discharge and new-loan costs. For how a second mortgage sits behind a first mortgage that stays in place, read [second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia).
+Compare them on the usable amount each can actually deliver, then on full cost, consent or priority work, term and exit. A second mortgage adds a second-ranking facility to existing debt. A full refinance replaces the whole debt stack and can involve break, discharge and new-loan costs. How a second mortgage sits behind a first mortgage that stays in place is covered in the without-refinancing guide.
 
 ### How much equity can I access?
 

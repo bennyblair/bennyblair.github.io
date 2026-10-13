@@ -25,7 +25,7 @@
       "pageId": "pg_99670474b5ed458d829ce08b40dde1d5",
       "path": "/resources/guides/second-mortgage-loan-equity-access-strategies",
       "beforeSha256": "3a14287b3a9522442f9306cf2ca3151d5ba11028d12186af395c85dff09101df",
-      "afterSha256": "706b6471d78d9868a2e585f26a92766433b18da2bf68f19b52ddf5b7ad084f28",
+      "afterSha256": "9fe86185ba0ea187e3c2d945714c3af345b3304409bfc8b7b1bad076a6ad7974",
       "reason": "Targeted improvement after the 2026-11-05 expiry review, then a writer revision after independent review at 2fd1457 (verdict REVISE). AU Search Console (12 Sep-10 Oct 2026) shows 'business equity access loan' at average position 9.5 with 115 impressions and 0 clicks, while the rendered title, H1 and meta description did not use business equity access wording and the description promised rates and LVRs the page deliberately does not state. Retitles the page and adds metaTitle, metaDescription and a featuredImageAlt matching the documented src/config/article-images.json alt for this route; removes the body H1 that the template stripped so the template owns the only H1 and the body starts at H2; removes internal SEO wording from reader copy; sets a scope boundary with the sibling guide second-mortgage-without-refinancing-your-first-mortgage-in-australia, so this page owns usable equity and structure strategy for business equity access and links to the sibling for keeping the first mortgage in place (description, direct answer, scope paragraph, refinance FAQ and structure-comparison note rewritten accordingly); attributes registry-consent detail to NSW electronic dealings and distinguishes that from contractual consent under the first loan, without generalising the NSW source to other states; adds Queensland mortgage-priority, caveat-loan and commercial-loan protection points from declared sources; strengthens two FAQ answers; adds a broker-not-lender statement, one related-guides section and the standard disclaimer. Slug, canonical, author, author_bio (including the untouched 10 years experience claim), publication date, risk and historical review metadata are unchanged. The registry sourceCount of 2 is left as-is.",
       "evidence": [
         {
@@ -64,7 +64,19 @@
         },
         {
           "kind": "text-added",
-          "value": "That list is limited to NSW electronic lodgment."
+          "value": "That list is limited to NSW electronic lodgment, excluding lodgment via a Dealing with Exception."
+        },
+        {
+          "kind": "text-added",
+          "value": "subject to some exceptions, prohibits registration of an instrument or document"
+        },
+        {
+          "kind": "text-added",
+          "value": "may be capitalised into the combined debt"
+        },
+        {
+          "kind": "text-added",
+          "value": "covered in the without-refinancing guide."
         },
         {
           "kind": "text-added",
@@ -151,7 +163,7 @@
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
-            "claim": "That list is limited to NSW electronic lodgment. It is not the registration rule for another state or territory.",
+            "claim": "That list is limited to NSW electronic lodgment, excluding lodgment via a Dealing with Exception. It is not the registration rule for another state or territory.",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
@@ -171,7 +183,7 @@
             "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf"]
           },
           {
-            "claim": "describes a caveat as a notice that generally prohibits registration of dealings affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says a caveat should not be seen as a viable alternative to registering the interest",
+            "claim": "describes a caveat as a notice that, subject to some exceptions, prohibits registration of an instrument or document affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says a caveat should not be seen as a viable alternative to registering the interest",
             "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf"]
           },
           {
