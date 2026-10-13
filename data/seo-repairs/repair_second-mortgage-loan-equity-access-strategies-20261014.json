@@ -25,14 +25,17 @@
       "pageId": "pg_99670474b5ed458d829ce08b40dde1d5",
       "path": "/resources/guides/second-mortgage-loan-equity-access-strategies",
       "beforeSha256": "3a14287b3a9522442f9306cf2ca3151d5ba11028d12186af395c85dff09101df",
-      "afterSha256": "0d6c2a7eb5ac4f6e6b23c539a561323d1d85518a950f0b88cf9eac84dd83f4ec",
-      "reason": "Targeted improvement after the 2026-11-05 expiry review. AU Search Console (12 Sep-10 Oct 2026) shows 'business equity access loan' at average position 9.5 with 115 impressions and 0 clicks, while the rendered title, H1 and meta description did not use business equity access wording and the description promised rates and LVRs the page deliberately does not state. Retitles the page and adds metaTitle, metaDescription and a featuredImageAlt matching the documented src/config/article-images.json alt for this route; removes the body H1 that the template stripped so the template owns the only H1 and the body starts at H2; removes internal SEO wording from reader copy; adds sourced first-mortgagee consent, caveat-loan and commercial-loan protection points; strengthens two FAQ answers; adds a broker-not-lender statement, one related-guides section and the standard disclaimer. Slug, canonical, author, publication date, risk and historical review metadata are unchanged.",
+      "afterSha256": "606b3b3f3fcb1af8817dae51f23f6fa5f06938663a0e7befac28969fe236979a",
+      "reason": "Targeted improvement after the 2026-11-05 expiry review. AU Search Console (12 Sep-10 Oct 2026) shows 'business equity access loan' at average position 9.5 with 115 impressions and 0 clicks, while the rendered title, H1 and meta description did not use business equity access wording and the description promised rates and LVRs the page deliberately does not state. Retitles the page and adds metaTitle, metaDescription and a featuredImageAlt matching the documented src/config/article-images.json alt for this route; removes the body H1 that the template stripped so the template owns the only H1 and the body starts at H2; removes internal SEO wording from reader copy; sets a scope boundary with the sibling guide second-mortgage-without-refinancing-your-first-mortgage-in-australia, so this page covers usable equity and structure choice for business equity access and links to the sibling for the mechanics of keeping the first mortgage in place (description, direct answer, lender-assessment section, structure-comparison note and one FAQ rewritten accordingly); adds Queensland mortgage-priority, NSW-specific electronic-dealing consent (distinguished from contractual consent under the first loan), caveat-loan and commercial-loan protection points from declared sources; strengthens two FAQ answers; adds a broker-not-lender statement, one related-guides section and the standard disclaimer. Slug, canonical, author, author_bio, publication date, risk and historical review metadata are unchanged.",
       "evidence": [
         {
           "reference": "receipts/2026-10-13-live-run (AU GSC 12 Sep-10 Oct 2026: 'business equity access loan' position 9.5, 115 impressions, 0 clicks)"
         },
         {
           "reference": "https://emetcapital.com.au/resources/guides/second-mortgage-loan-equity-access-strategies (live 2026-10-13: title and H1 'Second Mortgage Loans: Unlock Your Property's Hidden Equity'; description promises rates and LVRs)"
+        },
+        {
+          "reference": "src/content/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia.md (sibling at base 69ce3d1: description and opening section cover keeping the first mortgage in place; independent review at 2fd1457 found the description and opening of this page duplicated it)"
         },
         {
           "reference": "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"
@@ -57,6 +60,14 @@
         },
         {
           "kind": "text-added",
+          "value": "In NSW electronic dealings"
+        },
+        {
+          "kind": "text-added",
+          "value": "This guide covers two decisions in a business equity request"
+        },
+        {
+          "kind": "text-added",
           "value": "Emet Capital is a finance broker, not a lender."
         },
         {
@@ -68,36 +79,49 @@
           "value": "Cost comparison without unsupported rate claims"
         },
         {
+          "kind": "text-removed",
+          "value": "without replacing the existing first mortgage"
+        },
+        {
+          "kind": "text-removed",
+          "value": "That is the purpose of a second mortgage"
+        },
+        {
           "kind": "link-added",
           "value": "/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia"
         }
       ],
       "writerEvidence": {
         "note": "Writer-prepared source checks and claim map for the independent reviewer. This is not a review and makes no reviewer attestation.",
+        "scopeBoundary": "This page owns usable equity and structure strategy for business equity access. The sibling /resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia owns the mechanics of keeping the first mortgage in place; this page links to it for that topic.",
         "sources": [
           {
             "url": "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf",
-            "checkedAt": "2026-10-13T20:27:16Z",
+            "checkedAt": "2026-10-13T20:55:21Z",
             "status": 200
           },
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-10-13T20:27:18Z",
+            "checkedAt": "2026-10-13T20:55:23Z",
             "status": 200
           },
           {
             "url": "https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings",
-            "checkedAt": "2026-10-13T20:27:19Z",
+            "checkedAt": "2026-10-13T20:55:23Z",
             "status": 200
           },
           {
             "url": "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf",
-            "checkedAt": "2026-10-13T20:27:19Z",
+            "checkedAt": "2026-10-13T20:55:24Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
-            "checkedAt": "2026-10-13T20:27:19Z",
+            "checkedAt": "2026-10-13T20:55:24Z",
             "status": 200
           }
         ],
@@ -111,15 +135,31 @@
             "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"]
           },
           {
-            "claim": "A land registry may require certain consents before it registers a dealing",
+            "claim": "the land registry for the property’s state or territory may require certain consents before it registers a dealing",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
-            "claim": "noting that a mortgagee may require consent under the terms of a mortgage even where consent is not required for registration, and that a caveator’s consent is assumed to apply to all dealings",
+            "claim": "the first loan’s own documents may restrict further security or require the first lender’s consent, whether or not the registry needs it",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
-            "claim": "the first mortgage may separately require the first lender to consent before further security is granted",
+            "claim": "separates consents required for registration under the Real Property Act 1900 from consents that are not required for registration but may be needed to bind parties to a document’s terms, giving the example that a mortgagee may require consent under the terms of a mortgage",
+            "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
+          },
+          {
+            "claim": "It also notes that a caveator’s consent is assumed to apply to all dealings.",
+            "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
+          },
+          {
+            "claim": "That guidance covers NSW electronic lodgment only",
+            "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
+          },
+          {
+            "claim": "In NSW electronic dealings, for example, the Registrar General separates consents required for registration from consents that may be needed to bind parties to a document’s terms, such as a mortgagee’s consent under a mortgage.",
+            "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
+          },
+          {
+            "claim": "the first loan’s own documents may require the first lender’s consent before further security is granted, even where registration does not require it",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
@@ -146,6 +186,10 @@
         "companyClaimsUsed": [],
         "entityStatements": [
           "Emet Capital is a finance broker, not a lender."
+        ],
+        "openItems": [
+          "author_bio states \"10 years' experience in private lending\". This is protected author metadata and an unverified, known open uncertainty; it is left untouched in this repair and needs confirmation through the protected author-metadata process.",
+          "data/seo-page-registry.json records governance.sourceCount 2 for this page while the frontmatter now declares 5 sources. The registry is not edited in this content lane; scripts/generate-seo-page-registry.ts derives sourceCount from frontmatter sources, so the count should be reconciled through the permitted registry process."
         ]
       }
     }
