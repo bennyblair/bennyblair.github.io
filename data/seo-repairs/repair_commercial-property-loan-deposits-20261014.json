@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_commercial-property-loan-deposits-20261014",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "69ce3d1d01cf665b3f324d365f3dad08754013dc",
+  "editor": "Cursor cloud agent writer (Claude Opus 5.5)",
+  "review": {
+    "status": "pending-independent-review",
+    "reviewer": null,
+    "reviewedAt": null,
+    "score": null,
+    "blockingFindings": [
+      "Independent OpenClaw review has not been performed. The editor has not self-reviewed and no review identity, time or score is claimed.",
+      "The page already carries reviewedBy, reviewedAt, expiresAt and reviewed_date values, which the general-information path can only backfill when absent; they are left unchanged."
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/commercial-property-loan-deposits-how-much-do-you-need.md",
+      "pageId": "pg_32a7ae79875b4bfa8c0cea1693c6ce54",
+      "path": "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need",
+      "beforeSha256": "bf67ee654d1f0db3a2df7d48cdd51ca5c230b65f18510a241787bbf4606af357",
+      "afterSha256": "86e6631dd9cb465e25e5c359134740d41e123e1b1c65add4d5e97620803a3c99",
+      "reason": "Click-through repair for a page ranking near page one with no clicks. Adds an authored metaTitle and metaDescription that match the deposit query, rewrites the hero description and opening paragraphs so the deposit answer appears on the first screen, states that Emet Capital is a broker and links the designated commercial property finance service, qualifies the stamp duty statement against NSW, Queensland and Victorian revenue office guidance, removes an unsupported lender-funding generalisation, removes the body H1 the template already owns, promotes Related In-Depth Guides to H2 and trims it so no internal link repeats more than twice, and adds an existing 1200x630 featured image required by the publication contract. Slug, canonical, risk, author, publication date and review metadata are unchanged.",
+      "evidence": [
+        {
+          "reference": "Coordinator brief commercial-deposit-snippet-review-20261013: AU Search Console 12 Sep-10 Oct 2026 (receipts/2026-10-13-live-run), query 'business loan deposit', average position 5.1, 55 impressions, 0 clicks"
+        },
+        {
+          "reference": "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+        },
+        {
+          "reference": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty"
+        },
+        {
+          "reference": "https://qro.qld.gov.au/duties/transfer-duty/"
+        },
+        {
+          "reference": "https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty"
+        },
+        {
+          "reference": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax"
+        },
+        {
+          "reference": "src/pages/services/CommercialPropertyFinance.tsx: Emet Capital acts as a commercial finance broker, not a bank or direct lender"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "There is no single deposit figure for a commercial property loan in Australia."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/commercial-property-finance"
+        },
+        {
+          "kind": "text-removed",
+          "value": "commercial lenders rarely fund 100% of the deal"
+        }
+      ],
+      "editorSourceChecks": {
+        "note": "Editor-side evidence for the independent reviewer. This is not a review attestation.",
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-13T20:29:22Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty",
+            "checkedAt": "2026-10-13T20:29:22Z",
+            "status": 200
+          },
+          {
+            "url": "https://qro.qld.gov.au/duties/transfer-duty/",
+            "checkedAt": "2026-10-13T20:29:22Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty",
+            "checkedAt": "2026-10-13T20:29:22Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax",
+            "checkedAt": "2026-10-13T20:29:22Z",
+            "status": 200
+          }
+        ],
+        "unavailableSources": [
+          {
+            "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/in-detail/your-industry/property/gst-and-commercial-property",
+            "checkedAt": "2026-10-13T20:29:22Z",
+            "status": 403,
+            "consequence": "No GST statement was added."
+          },
+          {
+            "url": "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf",
+            "checkedAt": "2026-10-13T20:29:22Z",
+            "status": 301,
+            "consequence": "Removed from declared sources; the URL redirects and no statement on the page relied on APG 113."
+          }
+        ],
+        "claimMap": [
+          {
+            "claim": "Lenders differ on how much you can borrow and what security they require",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
+            "sourceText": "Loans vary a lot in their costs and conditions, including: the amount you can borrow ... Read each loan's terms and conditions carefully to compare: ... minimum and maximum loan amounts ... whether you need to provide security"
+          },
+          {
+            "claim": "they look at the property, any lease and your business finances",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
+            "sourceText": "A secured loan is backed up by collateral or security ... such as property ... you may need to provide: ... financial reports, including cash flow statements ... financial forecasts ... lease agreements"
+          },
+          {
+            "claim": "Budget for loan set-up and other upfront fees",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
+            "sourceText": "set-up costs and ongoing fees ... upfront and ongoing charges"
+          },
+          {
+            "claim": "In NSW and Queensland, the buyer generally pays transfer (stamp) duty on a purchase.",
+            "sources": ["https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty", "https://qro.qld.gov.au/duties/transfer-duty/"],
+            "sourceText": "NSW: When you buy a property or someone transfers ownership of a property to you in NSW, you generally must pay transfer duty (stamp duty). QLD: The buyer - whether an individual, first home buyer, investor, business or foreign purchaser - is usually responsible for paying transfer (stamp) duty ... rates apply to ... commercial properties."
+          },
+          {
+            "claim": "Victoria also charges land transfer duty, but is progressively replacing it on commercial and industrial property with an annual tax, and some purchases of property already in that reform can be exempt.",
+            "sources": ["https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty", "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax"],
+            "sourceText": "You pay land transfer duty when buying property in Victoria ... A tax progressively replacing land transfer and landholder duty ... CIPT is an annual tax on the land value of commercial and industrial properties in Victoria ... Properties can be exempt from land transfer (stamp) duty and landholder duty ... Duty exemptions or exclusions that apply to certain transactions."
+          },
+          {
+            "claim": "Emet Capital is a commercial finance broker, not a lender.",
+            "sources": ["src/pages/services/CommercialPropertyFinance.tsx"],
+            "sourceText": "Emet Capital acts as a commercial finance broker, not a bank or direct lender."
+          }
+        ],
+        "companyClaimsUsed": [],
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/commercial-property-loan-deposits-how-much-do-you-need.md",
+          "before": "FAIL 12 errors, 2 warnings",
+          "after": "PASS 0 errors, 2 warnings (internal-link count 20 above the 15 warning threshold; protected legacy author aliases retained)"
+        }
+      }
+    }
+  ]
+}
