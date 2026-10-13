@@ -226,6 +226,9 @@ const FirstSecondMortgages = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Emet Capital can help a business borrower organise the transaction, identify missing information, compare suitable lender responses and coordinate the application process. We focus on business-purpose finance secured by residential or commercial property.
               </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                As commercial finance brokers, we provide access to over 50 lenders nationwide, including major banks, regional lenders, and private capital providers. Availability and lender appetite vary by transaction.
+              </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Begin with the amount required, business purpose, property security, current debt, deadline and repayment plan. We will explain the next information needed for an initial discussion. Lender assessment, valuation, legal work and complete documentation determine whether and when a proposal can proceed.
               </p>
