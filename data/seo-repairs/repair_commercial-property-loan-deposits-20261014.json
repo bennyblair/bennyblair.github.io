@@ -219,7 +219,7 @@
         "articleQa": {
           "command": "node scripts/article-qa.mjs src/content/guides/commercial-property-loan-deposits-how-much-do-you-need.md",
           "before": "FAIL 12 errors, 2 warnings",
-          "after": "pending local run after npm ci"
+          "after": "PASS 0 errors, 1 warning (protected legacy author aliases retained; internal-link count 11, below the 15 warning threshold)"
         }
       }
     }
