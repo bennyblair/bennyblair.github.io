@@ -6,7 +6,7 @@
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
   "baseSha": "69ce3d1d01cf665b3f324d365f3dad08754013dc",
-  "editor": "Cursor cloud agent writer (Claude Opus 5.5)",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
     "status": "pending-independent-review",
     "reviewer": null,
@@ -25,11 +25,14 @@
       "pageId": "pg_32a7ae79875b4bfa8c0cea1693c6ce54",
       "path": "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need",
       "beforeSha256": "bf67ee654d1f0db3a2df7d48cdd51ca5c230b65f18510a241787bbf4606af357",
-      "afterSha256": "86e6631dd9cb465e25e5c359134740d41e123e1b1c65add4d5e97620803a3c99",
-      "reason": "Click-through repair for a page ranking near page one with no clicks. Adds an authored metaTitle and metaDescription that match the deposit query, rewrites the hero description and opening paragraphs so the deposit answer appears on the first screen, states that Emet Capital is a broker and links the designated commercial property finance service, qualifies the stamp duty statement against NSW, Queensland and Victorian revenue office guidance, removes an unsupported lender-funding generalisation, removes the body H1 the template already owns, promotes Related In-Depth Guides to H2 and trims it so no internal link repeats more than twice, and adds an existing 1200x630 featured image required by the publication contract. Slug, canonical, risk, author, publication date and review metadata are unchanged.",
+      "afterSha256": "91d01f470141b0a7570978cc0c77c1af687777e1c7c19d59ca91e839057ed635",
+      "reason": "Click-through repair plus independent-review revision for a page ranking near page one with no clicks. Adds an authored metaTitle and metaDescription that match the deposit query, rewrites the hero description and opening paragraphs so the funds-to-complete method appears on the first screen, states that Emet Capital is a broker and links the designated commercial property finance service, qualifies stamp duty against NSW, Queensland and Victorian revenue office guidance including CIPT's 10-year delay and transaction-dependent exemptions, replaces unsupported deposit-causation, asset-class, vacancy, tenant and bank-pricing claims with qualified assessment-input wording, states the purchase-deposit formula as X% of the lower of accepted valuation or price with labelled assumptions, uses deposit only for purchases, retitles around working out total funds because no authoritative indicative deposit range was available, replaces the in-file lending-solutions disclaimer with broker wording, drops valuation buffer from the meta description, and trims internal links below the QA warning. Slug, canonical, risk, author (including the 10 years' experience sentence), publication date and review metadata are unchanged.",
       "evidence": [
         {
           "reference": "Coordinator brief commercial-deposit-snippet-review-20261013: AU Search Console 12 Sep-10 Oct 2026 (receipts/2026-10-13-live-run), query 'business loan deposit', average position 5.1, 55 impressions, 0 clicks"
+        },
+        {
+          "reference": "Independent review of PR 230 at 366bae07eb4692d84d77792c233b78b389fd2188: verdict REVISE"
         },
         {
           "reference": "https://business.gov.au/finance/funding/apply-for-a-business-loan"
@@ -47,6 +50,12 @@
           "reference": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax"
         },
         {
+          "reference": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/assessments-and-objections-cipt"
+        },
+        {
+          "reference": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/dealings-properties-have-entered-reform"
+        },
+        {
           "reference": "src/pages/services/CommercialPropertyFinance.tsx: Emet Capital acts as a commercial finance broker, not a bank or direct lender"
         }
       ],
@@ -60,12 +69,24 @@
           "value": "Emet Capital is a commercial finance broker, not a lender."
         },
         {
+          "kind": "text-added",
+          "value": "CIPT is payable 10 years after the property enters the reform."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that helps eligible business borrowers compare lender options."
+        },
+        {
           "kind": "link-added",
           "value": "/services/commercial-property-finance"
         },
         {
           "kind": "text-removed",
           "value": "commercial lenders rarely fund 100% of the deal"
+        },
+        {
+          "kind": "text-removed",
+          "value": "provides commercial lending solutions"
         }
       ],
       "editorSourceChecks": {
@@ -73,36 +94,52 @@
         "sources": [
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-10-13T20:29:22Z",
+            "checkedAt": "2026-10-13T21:28:33Z",
             "status": 200
           },
           {
             "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty",
-            "checkedAt": "2026-10-13T20:29:22Z",
+            "checkedAt": "2026-10-13T21:28:33Z",
             "status": 200
           },
           {
             "url": "https://qro.qld.gov.au/duties/transfer-duty/",
-            "checkedAt": "2026-10-13T20:29:22Z",
+            "checkedAt": "2026-10-13T21:28:33Z",
             "status": 200
           },
           {
             "url": "https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty",
-            "checkedAt": "2026-10-13T20:29:22Z",
+            "checkedAt": "2026-10-13T21:28:33Z",
             "status": 200
           },
           {
             "url": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax",
-            "checkedAt": "2026-10-13T20:29:22Z",
+            "checkedAt": "2026-10-13T21:28:33Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/assessments-and-objections-cipt",
+            "checkedAt": "2026-10-13T21:28:33Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/dealings-properties-have-entered-reform",
+            "checkedAt": "2026-10-13T21:28:33Z",
             "status": 200
           }
         ],
         "unavailableSources": [
           {
             "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/in-detail/your-industry/property/gst-and-commercial-property",
-            "checkedAt": "2026-10-13T20:29:22Z",
+            "checkedAt": "2026-10-13T21:28:33Z",
             "status": 403,
             "consequence": "No GST statement was added."
+          },
+          {
+            "url": "https://moneysmart.gov.au/glossary/lvr",
+            "checkedAt": "2026-10-13T21:28:33Z",
+            "status": 403,
+            "consequence": "No Moneysmart LVR definition was cited. The planning formula is labelled as an assumed worksheet, not a typical deposit range."
           },
           {
             "url": "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf",
@@ -113,41 +150,76 @@
         ],
         "claimMap": [
           {
-            "claim": "Lenders differ on how much you can borrow and what security they require",
+            "claim": "loans vary a lot in the amount you can borrow, whether you need to provide security, and their costs and conditions",
             "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
-            "sourceText": "Loans vary a lot in their costs and conditions, including: the amount you can borrow ... Read each loan's terms and conditions carefully to compare: ... minimum and maximum loan amounts ... whether you need to provide security"
+            "sourceText": "Loans vary a lot in their costs and conditions, including: the amount you can borrow ... Read each loan's terms and conditions carefully to compare: ... minimum and maximum loan amounts ... whether you need to provide security ... upfront and ongoing charges"
           },
           {
-            "claim": "they look at the property, any lease and your business finances",
+            "claim": "Lenders may ask for details of the property, any lease and your business finances",
             "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
-            "sourceText": "A secured loan is backed up by collateral or security ... such as property ... you may need to provide: ... financial reports, including cash flow statements ... financial forecasts ... lease agreements"
+            "sourceText": "A secured loan is backed up by collateral or security ... such as property ... you may need to provide: ... financial reports, including cash flow statements ... financial forecasts ... lease agreements ... your personal financial information"
           },
           {
-            "claim": "Budget for loan set-up and other upfront fees",
+            "claim": "Budget for set-up costs and other upfront fees that the lender discloses",
             "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
             "sourceText": "set-up costs and ongoing fees ... upfront and ongoing charges"
           },
           {
-            "claim": "the buyer generally pays transfer (stamp) duty on a purchase.",
+            "claim": "the buyer generally pays transfer (stamp) duty on a purchase",
             "sources": ["https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty", "https://qro.qld.gov.au/duties/transfer-duty/"],
             "sourceText": "NSW: When you buy a property or someone transfers ownership of a property to you in NSW, you generally must pay transfer duty (stamp duty). QLD: The buyer - whether an individual, first home buyer, investor, business or foreign purchaser - is usually responsible for paying transfer (stamp) duty ... rates apply to ... commercial properties."
           },
           {
-            "claim": "Victoria also charges land transfer duty, but is progressively replacing it on commercial and industrial property with an annual tax, and some purchases of property already in that reform can be exempt.",
-            "sources": ["https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty", "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax"],
-            "sourceText": "You pay land transfer duty when buying property in Victoria ... A tax progressively replacing land transfer and landholder duty ... CIPT is an annual tax on the land value of commercial and industrial properties in Victoria ... Properties can be exempt from land transfer (stamp) duty and landholder duty ... Duty exemptions or exclusions that apply to certain transactions."
+            "claim": "Victoria also charges land transfer duty",
+            "sources": ["https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty"],
+            "sourceText": "You pay land transfer duty when buying property in Victoria ... Land transfer duty is paid when property is bought or acquired in Victoria. It applies to all property types, including those that have not yet transitioned to the commercial and industrial property tax reform."
+          },
+          {
+            "claim": "Victoria is progressively replacing land transfer and landholder duty on commercial and industrial property with an annual commercial and industrial property tax (CIPT)",
+            "sources": ["https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax"],
+            "sourceText": "A tax progressively replacing land transfer and landholder duty ... Commercial and industrial property tax (CIPT) is an annual tax on the land value of commercial and industrial properties in Victoria."
+          },
+          {
+            "claim": "CIPT is payable 10 years after the property enters the reform",
+            "sources": ["https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax", "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/assessments-and-objections-cipt"],
+            "sourceText": "Overview: It is payable 10 years after the property enters the CIPT reform. Assessments: You may need to pay ... if you own a commercial or industrial property that has entered the CIPT reform and completed its 10-year transition period. The earliest CIPT assessment year is 2035."
+          },
+          {
+            "claim": "Whether a later dealing is exempt from duty depends on that transaction, including whether it is a tax reform scheme transaction and whether the property has a qualifying use",
+            "sources": ["https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/dealings-properties-have-entered-reform"],
+            "sourceText": "A dutiable transaction involving a property that has entered the commercial and industrial property tax (CIPT) reform may be exempt from land transfer duty (also known as stamp duty) if it is a 'tax reform scheme transaction' that meets certain criteria including that the property has a qualifying use. Different exemption criteria apply to standard and non-standard transactions."
+          },
+          {
+            "claim": "financial reports, forecasts and lease agreements among documents you may need to provide",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
+            "sourceText": "Documentation requirements vary between loans, but you may need to provide: ... financial reports, including cash flow statements (if available) ... financial forecasts ... lease agreements"
+          },
+          {
+            "claim": "comparing products from multiple lenders, including non-bank lenders, because costs and conditions vary",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"],
+            "sourceText": "It's a good idea to compare loan products from multiple lenders before applying. ... Check for loans from non-bank lenders as well as traditional banks. Read each loan's terms and conditions carefully to compare: upfront and ongoing charges ... whether you need to provide security"
+          },
+          {
+            "claim": "The lender's written offer funds X% of the lower of (1) the valuation it accepts and (2) the purchase price",
+            "sources": [],
+            "sourceText": "Labelled planning assumption on the page, not a sourced typical LVR or deposit range. No authoritative indicative commercial-property deposit range was available (Moneysmart LVR glossary returned 403)."
           },
           {
             "claim": "Emet Capital is a commercial finance broker, not a lender.",
             "sources": ["src/pages/services/CommercialPropertyFinance.tsx"],
             "sourceText": "Emet Capital acts as a commercial finance broker, not a bank or direct lender."
+          },
+          {
+            "claim": "Emet Capital is a commercial finance broker that helps eligible business borrowers compare lender options.",
+            "sources": ["src/pages/services/CommercialPropertyFinance.tsx"],
+            "sourceText": "Emet Capital acts as a commercial finance broker, not a bank or direct lender. We help borrowers compare bank, non-bank, and private lender options"
           }
         ],
         "companyClaimsUsed": [],
         "articleQa": {
           "command": "node scripts/article-qa.mjs src/content/guides/commercial-property-loan-deposits-how-much-do-you-need.md",
           "before": "FAIL 12 errors, 2 warnings",
-          "after": "PASS 0 errors, 2 warnings (internal-link count 20 above the 15 warning threshold; protected legacy author aliases retained)"
+          "after": "pending local run after npm ci"
         }
       }
     }
