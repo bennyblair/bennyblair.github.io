@@ -32,7 +32,7 @@ function fixture({ count = 1, kind = "substantive", contentRisk = "medium", tran
     beforeSha256: sourceHash(change.previous),
     afterSha256: sourceHash(change.current),
     reason: "Improve the reader's document preparation step without changing financial claims.",
-    evidence: [{ reference: "existing-source-and-editorial-review" }],
+    evidence: [{ reference: "https://cursor.com/agents/bc-test-repair-evidence-01" }],
     verification: [{ kind: transform === "internal-link-destinations-v1" ? "link-added" : "text-added", value: transform === "internal-link-destinations-v1" ? "/services/new-service" : kind === "mechanical" ? "Prepare the documents." : "Prepare the property ownership documents for discussion." }],
     metadataReview: { reviewer: "independent-editor", reviewedAt: "2026-09-06T10:00:00Z", contentRisk },
   }));
@@ -84,6 +84,16 @@ test("active protection blocks even mechanical changes; expired holds do not blo
   assert.deepEqual(validateRepairManifest(input).errors, []);
   const protectedCohort = { remediations: [{ url: input.registry.pages[0].path, reviewAfter: "2026-09-10T00:00:00Z" }] };
   assert.match(validateRepairManifest({ ...input, protectedCohort }).errors.join(" "), /active indexing cohort/);
+});
+
+test("repair evidence references must be https cursor.com/agents/ run URLs", () => {
+  for (const reference of ["existing-source-and-editorial-review", "https://business.gov.au/finance/funding/get-a-business-loan", "https://www.cursor.com/agents/bc-test", "http://cursor.com/agents/bc-test", "/home/node/.openclaw/workspace/independent-review.json"]) {
+    const input = fixture();
+    input.manifest.pages[0].evidence = [{ reference }];
+    assert.match(validateRepairManifest(input).errors.join(" "), /https cursor.com\/agents\/ run URL/);
+  }
+  const valid = fixture();
+  assert.equal(validateRepairManifest(valid).errors.some((error) => /https cursor.com\/agents\/ run URL/.test(error)), false);
 });
 
 test("exact revision, content hashes, independent review and changed-content proofs fail closed", () => {
