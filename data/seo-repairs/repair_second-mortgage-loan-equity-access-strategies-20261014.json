@@ -25,8 +25,8 @@
       "pageId": "pg_99670474b5ed458d829ce08b40dde1d5",
       "path": "/resources/guides/second-mortgage-loan-equity-access-strategies",
       "beforeSha256": "3a14287b3a9522442f9306cf2ca3151d5ba11028d12186af395c85dff09101df",
-      "afterSha256": "07cc27bc6bf2f162746da88bbff1b07efa551a8d58bb8af58c33bd17f3bd2c77",
-      "reason": "Targeted improvement after the 2026-11-05 expiry review. AU Search Console (12 Sep-10 Oct 2026) shows 'business equity access loan' at average position 9.5 with 115 impressions and 0 clicks, while the rendered title, H1 and meta description did not use business equity access wording and the description promised rates and LVRs the page deliberately does not state. Retitles the page and adds metaTitle, metaDescription and a featuredImageAlt matching the documented src/config/article-images.json alt for this route; removes the body H1 that the template stripped so the template owns the only H1 and the body starts at H2; removes internal SEO wording from reader copy; sets a scope boundary with the sibling guide second-mortgage-without-refinancing-your-first-mortgage-in-australia, so this page covers usable equity and structure choice for business equity access and links to the sibling for the mechanics of keeping the first mortgage in place (description, direct answer, lender-assessment section, structure-comparison note and one FAQ rewritten accordingly); adds Queensland mortgage-priority, NSW-specific electronic-dealing consent (distinguished from contractual consent under the first loan), caveat-loan and commercial-loan protection points from declared sources; strengthens two FAQ answers; adds a broker-not-lender statement, one related-guides section and the standard disclaimer. Slug, canonical, author, author_bio, publication date, risk and historical review metadata are unchanged.",
+      "afterSha256": "706b6471d78d9868a2e585f26a92766433b18da2bf68f19b52ddf5b7ad084f28",
+      "reason": "Targeted improvement after the 2026-11-05 expiry review, then a writer revision after independent review at 2fd1457 (verdict REVISE). AU Search Console (12 Sep-10 Oct 2026) shows 'business equity access loan' at average position 9.5 with 115 impressions and 0 clicks, while the rendered title, H1 and meta description did not use business equity access wording and the description promised rates and LVRs the page deliberately does not state. Retitles the page and adds metaTitle, metaDescription and a featuredImageAlt matching the documented src/config/article-images.json alt for this route; removes the body H1 that the template stripped so the template owns the only H1 and the body starts at H2; removes internal SEO wording from reader copy; sets a scope boundary with the sibling guide second-mortgage-without-refinancing-your-first-mortgage-in-australia, so this page owns usable equity and structure strategy for business equity access and links to the sibling for keeping the first mortgage in place (description, direct answer, scope paragraph, refinance FAQ and structure-comparison note rewritten accordingly); attributes registry-consent detail to NSW electronic dealings and distinguishes that from contractual consent under the first loan, without generalising the NSW source to other states; adds Queensland mortgage-priority, caveat-loan and commercial-loan protection points from declared sources; strengthens two FAQ answers; adds a broker-not-lender statement, one related-guides section and the standard disclaimer. Slug, canonical, author, author_bio (including the untouched 10 years experience claim), publication date, risk and historical review metadata are unchanged. The registry sourceCount of 2 is left as-is.",
       "evidence": [
         {
           "reference": "receipts/2026-10-13-live-run (AU GSC 12 Sep-10 Oct 2026: 'business equity access loan' position 9.5, 115 impressions, 0 clicks)"
@@ -56,11 +56,19 @@
       "verification": [
         {
           "kind": "text-added",
-          "value": "First-mortgagee consent can arise in two separate ways."
+          "value": "First-mortgagee consent can arise in two separate ways"
         },
         {
           "kind": "text-added",
           "value": "In NSW electronic dealings"
+        },
+        {
+          "kind": "text-added",
+          "value": "That list is limited to NSW electronic lodgment."
+        },
+        {
+          "kind": "text-added",
+          "value": "It does not walk through how to keep the existing first mortgage in place"
         },
         {
           "kind": "text-added",
@@ -101,27 +109,27 @@
         "sources": [
           {
             "url": "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf",
-            "checkedAt": "2026-10-13T20:55:21Z",
+            "checkedAt": "2026-10-13T21:24:50Z",
             "status": 200
           },
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-10-13T20:55:23Z",
+            "checkedAt": "2026-10-13T21:24:50Z",
             "status": 200
           },
           {
             "url": "https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings",
-            "checkedAt": "2026-10-13T20:55:23Z",
+            "checkedAt": "2026-10-13T21:24:51Z",
             "status": 200
           },
           {
             "url": "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf",
-            "checkedAt": "2026-10-13T20:55:24Z",
+            "checkedAt": "2026-10-13T21:24:51Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
-            "checkedAt": "2026-10-13T20:55:24Z",
+            "checkedAt": "2026-10-13T21:24:52Z",
             "status": 200
           }
         ],
@@ -135,15 +143,7 @@
             "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"]
           },
           {
-            "claim": "the land registry for the property’s state or territory may require certain consents before it registers a dealing",
-            "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
-          },
-          {
-            "claim": "the first loan’s own documents may restrict further security or require the first lender’s consent, whether or not the registry needs it",
-            "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
-          },
-          {
-            "claim": "separates consents required for registration under the Real Property Act 1900 from consents that are not required for registration but may be needed to bind parties to a document’s terms, giving the example that a mortgagee may require consent under the terms of a mortgage",
+            "claim": "separates consents required for registration at NSW Land Registry Services under the Real Property Act 1900 from consents that are not required for registration but may be required to bind parties to the terms of the relevant legal document, giving the example that a mortgagee may require consent under the terms of a mortgage",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
@@ -151,15 +151,19 @@
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
-            "claim": "That guidance covers NSW electronic lodgment only",
+            "claim": "That list is limited to NSW electronic lodgment. It is not the registration rule for another state or territory.",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
-            "claim": "In NSW electronic dealings, for example, the Registrar General separates consents required for registration from consents that may be needed to bind parties to a document’s terms, such as a mortgagee’s consent under a mortgage.",
+            "claim": "In NSW electronic dealings, the Registrar General separates consents required for registration under the Real Property Act 1900 from consents that may be required to bind parties to a document’s terms, such as a mortgagee’s consent under a mortgage.",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {
-            "claim": "the first loan’s own documents may require the first lender’s consent before further security is granted, even where registration does not require it",
+            "claim": "That NSW electronic-lodgment guide is not the registration rule for other states or territories.",
+            "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
+          },
+          {
+            "claim": "a mortgagee may require consent under the terms of a mortgage",
             "sources": ["https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"]
           },
           {

@@ -1,7 +1,7 @@
 ---
 title: "Second Mortgage Loans for Business Equity Access"
 date: "2025-10-17"
-description: "How a business can work out usable property equity and compare structures to access it: second mortgage, refinance, caveat loan or line of credit."
+description: "Work out usable property equity for a business, then compare second-mortgage, refinance, caveat-loan and line-of-credit structures."
 metaTitle: "Second Mortgage Loans for Business Equity Access"
 metaDescription: "Using property equity for business funding? Compare a second mortgage with refinance or caveat options, and check usable equity, consent, cost and exit."
 featuredImage: "/images/second-mortgage-loan-equity-access.jpg"
@@ -43,7 +43,7 @@ keywords: ["second mortgage loan", "property equity access", "second mortgage Au
 
 > **Direct answer:** Equity on paper is not automatically an available loan amount. Usable equity is narrower than total equity: it depends on the valuation a lender accepts, existing secured debt, leverage limits, interest and fees that may be capitalised, and a credible exit. Once the usable amount is known, compare the structures for accessing it (a second mortgage, a full refinance, a caveat loan or a line of credit) on full cost, consent or priority requirements, term and exit.
 
-This guide covers two decisions in a business equity request: how much equity is realistically usable, and which structure suits the need. If you have already decided to keep your existing first mortgage and want to know how a second mortgage sits behind it, read [second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia). For a basic product definition, read [what a second mortgage is](/resources/guides/what-is-a-second-mortgage). For a side-by-side comparison of two facilities, see [second mortgage vs line of credit](/resources/guides/second-mortgage-vs-line-of-credit).
+This guide covers two decisions in a business equity request: how much equity is realistically usable, and which structure suits the need. It does not walk through how to keep the existing first mortgage in place; that belongs to [second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia). For a basic product definition, read [what a second mortgage is](/resources/guides/what-is-a-second-mortgage). For a side-by-side comparison of two facilities, see [second mortgage vs line of credit](/resources/guides/second-mortgage-vs-line-of-credit).
 
 ## Total equity versus usable equity
 
@@ -86,9 +86,9 @@ The lender will also check borrower and guarantor identity, the commercial purpo
 
 Registration priority and lender-to-lender rights are legal questions. In Queensland, for example, Titles Queensland’s [mortgage-priority practice manual](https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf) explains that registered mortgages rank according to when they were lodged, and that the order can be changed by registering a mortgage priority form executed by every affected mortgagee. Changing priority is a formal land-title process, not an informal agreement between a borrower and broker.
 
-First-mortgagee consent can arise in two separate ways. One is a state registration rule: the land registry for the property’s state or territory may require certain consents before it registers a dealing. The other is contractual: the first loan’s own documents may restrict further security or require the first lender’s consent, whether or not the registry needs it. Each needs its own check.
+First-mortgagee consent can arise in two separate ways: a land-title registration requirement, and a contractual requirement in the first loan. Those are not the same check.
 
-In NSW electronic dealings, the Registrar General’s [guide to written consent for electronic dealings](https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings) separates consents required for registration under the Real Property Act 1900 from consents that are not required for registration but may be needed to bind parties to a document’s terms, giving the example that a mortgagee may require consent under the terms of a mortgage. It also notes that a caveator’s consent is assumed to apply to all dealings. That guidance covers NSW electronic lodgment only, so do not treat it as the registration rule in another state or territory; the first loan’s terms need checking wherever the property is. If the first lender says no, read [what to do when second mortgage consent is refused](/resources/guides/second-mortgage-consent-refused-australia).
+In NSW electronic dealings, the Registrar General’s [guide to written consent for electronic dealings](https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings) separates consents required for registration at NSW Land Registry Services under the Real Property Act 1900 from consents that are not required for registration but may be required to bind parties to the terms of the relevant legal document, giving the example that a mortgagee may require consent under the terms of a mortgage. It also notes that a caveator’s consent is assumed to apply to all dealings. That list is limited to NSW electronic lodgment. It is not the registration rule for another state or territory. Contractual consent under the first loan is a separate question: the first loan’s own documents may restrict further security or require the first lender’s consent even where a registry does not. If the first lender says no, read [what to do when second mortgage consent is refused](/resources/guides/second-mortgage-consent-refused-australia).
 
 ## Second mortgage, refinance, caveat loan or line of credit?
 
@@ -155,7 +155,7 @@ Independent legal advice is essential before signing mortgage, guarantee, priori
 
 ### Should I use a second mortgage or a full refinance to access equity?
 
-It depends on which structure leaves the business in a better overall position once full cost, consent, term and exit are compared. A second mortgage leaves the existing first loan in place but adds a second lender, its costs and ranking documents. A full refinance replaces the whole debt stack but can involve break, discharge and new-loan costs, and time to execute. For how a second mortgage works when the first mortgage is kept, read [second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia).
+Compare them on the usable amount each can actually deliver, then on full cost, consent or priority work, term and exit. A second mortgage adds a second-ranking facility to existing debt. A full refinance replaces the whole debt stack and can involve break, discharge and new-loan costs. For how a second mortgage sits behind a first mortgage that stays in place, read [second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia).
 
 ### How much equity can I access?
 
@@ -163,7 +163,7 @@ There is no universal percentage. The amount depends on the valuation the lender
 
 ### Does a second mortgage require consent?
 
-It can, for two separate reasons. State registration rules may require certain consents before a dealing is registered. In NSW electronic dealings, for example, the Registrar General separates consents required for registration from consents that may be needed to bind parties to a document’s terms, such as a mortgagee’s consent under a mortgage. Separately, the first loan’s own documents may require the first lender’s consent before further security is granted, even where registration does not require it. A lawyer should confirm both positions for the specific title, state and loan.
+It can, for two separate reasons. In NSW electronic dealings, the Registrar General separates consents required for registration under the Real Property Act 1900 from consents that may be required to bind parties to a document’s terms, such as a mortgagee’s consent under a mortgage. That NSW electronic-lodgment guide is not the registration rule for other states or territories. Separately, the first loan’s own documents may require the first lender’s consent before further security is granted, even where registration does not require it. A lawyer should confirm both the registry position for the title’s state and the contractual position under the first loan.
 
 ### Is a second mortgage suitable for ongoing losses?
 
