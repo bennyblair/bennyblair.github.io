@@ -150,3 +150,137 @@ test("general-information metadata is validated as one atomic final state", () =
   wrongHighRiskCadence.manifest.pages[0].generalInformationReview.reviewedSourceSha256 = sourceHash(wrongHighRiskCadence.changes[0].current);
   assert.match(validateRepairManifest(wrongHighRiskCadence).errors.join(" "), /exact canonical risk, reviewer, review instant and review expiry/);
 });
+
+const legacyReviewedPage = "---\ntitle: Example\ndate: \"2025-10-17\"\nreviewed_date: \"2026-05-15\"\ncontentRisk: high\nreviewedBy: OpenClaw SEO source audit\nreviewedAt: \"2026-08-05\"\nreviewStatus: automated-editorial-review\nhumanReviewRequired: true\nexpiresAt: \"2026-11-05\"\n---\nPrepare the documents.\n";
+type Fixture = ReturnType<typeof fixture>;
+function rehash(input: Fixture) {
+  const page = input.manifest.pages[0];
+  page.beforeSha256 = sourceHash(input.changes[0].previous);
+  page.afterSha256 = sourceHash(input.changes[0].current);
+  page.generalInformationReview.reviewedSourceSha256 = page.afterSha256;
+  return input;
+}
+function superseding(edit: (input: Fixture) => void = () => {}) {
+  const input = fixture();
+  input.changes[0].previous = legacyReviewedPage;
+  input.changes[0].current = input.changes[0].current.replace("title: Example\n", "title: Example\ndate: \"2025-10-17\"\nreviewStatus: automated-editorial-review\n");
+  edit(input);
+  return rehash(input);
+}
+const editCurrent = (from: string, to: string) => (input: Fixture) => { input.changes[0].current = input.changes[0].current.replace(from, to); };
+const errorsOf = (input: Fixture) => validateRepairManifest(input).errors.join(" ");
+
+test("an exact canonical independent review may supersede older automated review metadata on high-risk pages", () => {
+  assert.deepEqual(validateRepairManifest(superseding()).errors, []);
+  const contentAudit = superseding((input) => {
+    input.changes[0].previous = legacyReviewedPage.replace("reviewed_date: \"2026-05-15\"\n", "").replace("SEO source audit", "SEO content audit");
+  });
+  assert.deepEqual(validateRepairManifest(contentAudit).errors, []);
+  const partialLegacy = superseding((input) => {
+    input.changes[0].previous = legacyReviewedPage.replace("reviewedAt: \"2026-08-05\"\n", "").replace("expiresAt: \"2026-11-05\"\n", "");
+  });
+  assert.deepEqual(validateRepairManifest(partialLegacy).errors, []);
+
+  const unchanged = superseding((input) => {
+    input.changes[0].current = input.changes[0].current
+      .replace("reviewedBy: OpenClaw independent reviewer", "reviewedBy: OpenClaw SEO source audit")
+      .replace("reviewedAt: 2026-10-03T07:00:00Z", "reviewedAt: \"2026-08-05\"\nreviewed_date: \"2026-05-15\"")
+      .replace("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: \"2026-11-05\"");
+  });
+  assert.match(errorsOf(unchanged), /exact canonical risk, reviewer, review instant and review expiry/);
+});
+
+test("superseding review metadata rejects a wrong reviewer, review instant or expiry", () => {
+  const cases: [string, (input: Fixture) => void, RegExp[]][] = [
+    ["previous reviewer retained", editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: OpenClaw SEO source audit"), [/exact canonical/]],
+    ["forged human reviewer", editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: Jane Doe CFP, human financial adviser"), [/exact canonical/, /protected metadata reviewedBy/]],
+    ["untrusted manifest reviewer", (input) => {
+      input.manifest.review.reviewer = "OpenClaw SEO source audit v2";
+      input.manifest.pages[0].generalInformationReview.reviewer = input.manifest.review.reviewer;
+      editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: OpenClaw SEO source audit v2")(input);
+    }, [/trusted automated reviewer identity/, /protected metadata reviewedBy/]],
+    ["previous instant retained", editCurrent("reviewedAt: 2026-10-03T07:00:00Z", "reviewedAt: \"2026-08-05\""), [/exact canonical/, /protected metadata reviewedBy/, /protected metadata expiresAt/]],
+    ["instant differs from manifest review", (input) => {
+      editCurrent("reviewedAt: 2026-10-03T07:00:00Z", "reviewedAt: 2026-10-03T06:00:00Z")(input);
+      editCurrent("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: 2027-01-01T06:00:00Z")(input);
+    }, [/exact canonical/, /protected metadata reviewedAt/, /protected metadata expiresAt/]],
+    ["previous expiry retained", editCurrent("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: \"2026-11-05\""), [/exact canonical/, /protected metadata reviewedAt/]],
+    ["expiry one day late", editCurrent("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: 2027-01-02T07:00:00Z"), [/exact canonical/, /protected metadata expiresAt/]],
+    ["expiry on a 180-day cadence", (input) => {
+      input.registry.pages[0].governance.reviewEveryDays = 180;
+      editCurrent("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: 2027-04-01T07:00:00Z")(input);
+    }, [/exact canonical/, /protected metadata expiresAt/]],
+    ["expiry removed", editCurrent("expiresAt: 2027-01-01T07:00:00Z\n", ""), [/exact canonical/, /protected metadata expiresAt/]],
+  ];
+  for (const [name, edit, patterns] of cases) {
+    const errors = errorsOf(superseding(edit));
+    for (const pattern of patterns) assert.match(errors, pattern, name);
+  }
+});
+
+test("superseding review metadata cannot carry any other protected, alias or approval metadata change", () => {
+  for (const [edit, pattern] of [
+    [editCurrent("reviewStatus: automated-editorial-review", "reviewStatus: human-approved"), /protected metadata reviewStatus/],
+    [editCurrent("humanReviewRequired: true", "humanReviewRequired: false"), /protected metadata humanReviewRequired/],
+    [editCurrent("contentRisk: high", "contentRisk: medium"), /protected metadata contentRisk/],
+    [editCurrent("date: \"2025-10-17\"", "date: \"2026-10-03\""), /protected metadata date:/],
+    [editCurrent("title: Example\n", "title: Example\nreviewed_date: \"2026-10-03\"\n"), /protected metadata reviewed_date/],
+    [editCurrent("title: Example\n", "title: Example\nreviewedDate: \"2026-10-03\"\n"), /protected metadata reviewedDate/],
+    [editCurrent("title: Example\n", "title: Example\nreviewed_by: OpenClaw independent reviewer\n"), /protected metadata reviewed_by/],
+    [editCurrent("title: Example\n", "title: Example\nexpires_at: 2027-01-01T07:00:00Z\n"), /protected metadata expires_at/],
+    [editCurrent("title: Example\n", "title: Example\ndateModified: \"2026-10-03\"\n"), /protected metadata dateModified/],
+    [editCurrent("title: Example\n", "title: Example\nauthor: Daniel\n"), /protected metadata author:/],
+    [editCurrent("title: Example\n", "title: Example\napprovedBy: Jane Doe CFP\n"), /protected metadata approvedBy/],
+    [editCurrent("title: Example\n", "title: Example\nprofessionalFinancialReview: true\n"), /protected metadata professionalFinancialReview/],
+    [editCurrent("title: Example\n", "title: Example\ncanonical: /elsewhere\n"), /protected metadata canonical/],
+    [editCurrent("title: Example\n", "title: Example\nslug: elsewhere\n"), /protected metadata slug/],
+    [editCurrent("title: Example\n", "title: Example\nnoindex: true\n"), /protected metadata noindex/],
+    [editCurrent("title: Example\n", "title: Example\nfinancialReviewStatus: approved\n"), /approval or review metadata alias financialReviewStatus/],
+  ] as [(input: Fixture) => void, RegExp][]) {
+    assert.match(errorsOf(superseding(edit)), pattern);
+  }
+});
+
+test("superseding is limited to the general-information path on registered 90-day high-risk pages", () => {
+  const snakeCaseAlias = superseding((input) => {
+    input.changes[0].previous = legacyReviewedPage.replace("reviewedBy:", "reviewed_by:");
+  });
+  assert.match(errorsOf(snakeCaseAlias), /protected metadata reviewed_by/);
+
+  const mediumRisk = superseding((input) => {
+    input.registry.pages[0].governance = { ...input.registry.pages[0].governance, contentRisk: "medium", reviewEveryDays: 180 };
+    input.changes[0].previous = legacyReviewedPage.replace("contentRisk: high", "contentRisk: medium");
+    input.changes[0].current = input.changes[0].current.replace("contentRisk: high", "contentRisk: medium").replace("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: 2027-04-01T07:00:00Z");
+  });
+  const mediumErrors = errorsOf(mediumRisk);
+  assert.doesNotMatch(mediumErrors, /exact canonical/);
+  for (const key of ["reviewedBy", "reviewedAt", "expiresAt"]) assert.match(mediumErrors, new RegExp("protected metadata " + key + ":"));
+
+  const outsideGeneralInformation = superseding((input) => { input.manifest.reviewMode = ""; });
+  assert.match(errorsOf(outsideGeneralInformation), /protected metadata reviewedBy/);
+  assert.match(errorsOf(outsideGeneralInformation), /genuine financial review/);
+
+  const mechanical = superseding((input) => { Object.assign(input.manifest, { kind: "mechanical", transform: "nonfinancial-editorial-v1" }); });
+  assert.match(errorsOf(mechanical), /protected metadata reviewedBy/);
+  assert.match(errorsOf(mechanical), /mechanical repair may not change frontmatter/);
+});
+
+test("absent review metadata is still backfilled only as the exact canonical set", () => {
+  assert.deepEqual(validateRepairManifest(fixture()).errors, []);
+  const reviewedDateOnly = fixture();
+  reviewedDateOnly.changes[0].previous = reviewedDateOnly.changes[0].previous.replace("title: Example\n", "title: Example\nreviewed_date: \"2026-06-11\"\n");
+  assert.deepEqual(validateRepairManifest(rehash(reviewedDateOnly)).errors, []);
+
+  const mediumBackfill = fixture();
+  mediumBackfill.registry.pages[0].governance = { ...mediumBackfill.registry.pages[0].governance, contentRisk: "medium", reviewEveryDays: 180 };
+  mediumBackfill.changes[0].previous = "---\ntitle: Example\ncontentRisk: medium\nhumanReviewRequired: true\nreviewed_date: \"2026-06-11\"\n---\nPrepare the documents.\n";
+  mediumBackfill.changes[0].current = mediumBackfill.changes[0].current.replace("contentRisk: high", "contentRisk: medium").replace("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: 2027-04-01T07:00:00Z");
+  assert.deepEqual(validateRepairManifest(rehash(mediumBackfill)).errors, []);
+
+  const wrongBackfillExpiry = fixture();
+  editCurrent("expiresAt: 2027-01-01T07:00:00Z", "expiresAt: 2027-01-02T07:00:00Z")(wrongBackfillExpiry);
+  assert.match(errorsOf(rehash(wrongBackfillExpiry)), /exact canonical/);
+  const wrongBackfillReviewer = fixture();
+  editCurrent("reviewedBy: OpenClaw independent reviewer", "reviewedBy: OpenClaw SEO source audit")(wrongBackfillReviewer);
+  assert.match(errorsOf(rehash(wrongBackfillReviewer)), /protected metadata reviewedBy/);
+});
