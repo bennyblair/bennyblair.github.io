@@ -175,7 +175,6 @@ For a business-purpose equity request, use the [first and second mortgages servi
 
 ## Related Guides
 
-- [Second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)
 - [First-mortgagee consent delays: caveat loan or second mortgage](/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage)
 - [Second mortgages for business](/resources/guides/second-mortgages-for-business-guide)
 - [First and second mortgages for business](/services/first-second-mortgages)
