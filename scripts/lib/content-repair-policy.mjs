@@ -112,15 +112,18 @@ export function validateRepairManifest({ manifest, policy, registry, protectedCo
       && trustedAutomatedReviewer && exactReviewInstant && exactReviewExpiry && noMetadataAliases;
     if (generalInformationBackfill && !exactGeneralInformationMetadata)
       errors.push("general-information repair requires one exact canonical risk, reviewer, review instant and review expiry metadata set: " + file);
+    // Existing review metadata may be superseded only on the fixed 90-day high-risk cadence; other cadences stay backfill-only.
+    const supersedesReviewMetadata = exactGeneralInformationMetadata && registered.governance?.contentRisk === "high";
     const allowsGeneralInformationReviewBackfill = (key) => {
       if (!exactGeneralInformationMetadata) return false;
       if (key === "contentRisk") return before.contentRisk === undefined && before.content_risk === undefined;
-      if (key === "reviewedBy") return before.reviewedBy === undefined && before.reviewed_by === undefined
-        && trustedAutomatedReviewer;
-      if (key === "reviewedAt") return before.reviewedAt === undefined && before.reviewed_at === undefined
-        && exactReviewInstant;
+      if (key === "reviewedBy") return (before.reviewedBy === undefined || supersedesReviewMetadata)
+        && before.reviewed_by === undefined && trustedAutomatedReviewer;
+      if (key === "reviewedAt") return (before.reviewedAt === undefined || supersedesReviewMetadata)
+        && before.reviewed_at === undefined && exactReviewInstant;
       if (["reviewedDate", "reviewed_date"].includes(key)) return before[key] !== undefined && after[key] === undefined;
-      if (key === "expiresAt") return before.expiresAt === undefined && before.expires_at === undefined;
+      if (key === "expiresAt") return (before.expiresAt === undefined || supersedesReviewMetadata)
+        && before.expires_at === undefined && exactReviewExpiry;
       return false;
     };
     const protectedMetadataKeys = ["contentRisk", "content_risk", "reviewedBy", "reviewed_by", "reviewedAt", "reviewed_at", "reviewedDate", "reviewed_date", "reviewStatus", "review_status", "humanReviewRequired", "human_review_required", "professionalFinancialReview", "professional_financial_review", "approvedBy", "approved_by", "reviewer", "reviewerName", "authorId", "date", "dateModified", "date_modified", "updatedAt", "updated_at", "author", "author_name", "authorName", "author_title", "authorTitle", "author_url", "authorUrl", "author_bio", "authorBio", "author_links", "authorLinks", "expiresAt", "expires_at", "canonical", "canonicalUrl", "canonical_url", "noindex", "robots", "slug"];
