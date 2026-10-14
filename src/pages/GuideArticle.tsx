@@ -13,7 +13,7 @@ import { EMET_LOGO_URL, resolveArticleAuthor } from "@/lib/schema-utils";
 import { getDesignatedService, rankRelatedArticles } from "@/lib/seo-links";
 import {
   formatArticleDate,
-  getVisibleArticleUpdateDate,
+  getArticlePublicationLabels,
   resolveArticleDateModified,
 } from "@/lib/article-dates";
 
@@ -291,7 +291,7 @@ const GuideArticle = () => {
   const seoImage = article.featuredImage || `/hero-property-finance-poster.webp`;
   const fullSeoImage = seoImage.startsWith("http") ? seoImage : `https://emetcapital.com.au${seoImage}`;
   const reviewedDate = resolveArticleDateModified(article);
-  const visibleUpdatedDate = getVisibleArticleUpdateDate(article);
+  const publication = getArticlePublicationLabels(article);
   const canonicalAuthor = resolveArticleAuthor(article.authorName || article.author);
   const authorDisplayName = canonicalAuthor?.name || article.authorName || article.author || "Emet Capital";
   const authorUrl = article.authorUrl || canonicalAuthor?.url.replace("https://emetcapital.com.au", "");
@@ -413,11 +413,11 @@ const GuideArticle = () => {
               </div>
               <div className="flex items-center">
                 <Calendar className="w-4 h-4 mr-2" />
-                <time dateTime={article.date}>{`Published ${formatArticleDate(article.date)}`}</time>
+                <time dateTime={publication.publishedDateTime}>{publication.publishedText}</time>
               </div>
-              {visibleUpdatedDate && (
+              {publication.updatedText && (
                 <div className="flex items-center">
-                  <time dateTime={visibleUpdatedDate}>{`Updated ${formatArticleDate(visibleUpdatedDate)}`}</time>
+                  <time dateTime={publication.updatedDateTime}>{publication.updatedText}</time>
                 </div>
               )}
             </div>

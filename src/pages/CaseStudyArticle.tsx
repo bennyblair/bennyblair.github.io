@@ -15,7 +15,7 @@ import { normalizeSeoDescription, normalizeSeoTitle } from "@/lib/seo-metadata";
 import { EMET_LOGO_URL, resolveArticleAuthor } from "@/lib/schema-utils";
 import {
   formatArticleDate,
-  getVisibleArticleUpdateDate,
+  getArticlePublicationLabels,
   resolveArticleDateModified,
 } from "@/lib/article-dates";
 
@@ -79,7 +79,7 @@ const CaseStudyArticle = () => {
 
   const processedContent = stripFirstHeading(article.content);
   const reviewedDate = resolveArticleDateModified(article);
-  const visibleUpdatedDate = getVisibleArticleUpdateDate(article);
+  const publication = getArticlePublicationLabels(article);
   const canonicalAuthor = resolveArticleAuthor(article.authorName || article.author);
   const authorDisplayName = canonicalAuthor?.name || article.authorName || article.author || "Emet Capital";
   const authorUrl = article.authorUrl || canonicalAuthor?.url.replace("https://emetcapital.com.au", "");
@@ -200,11 +200,11 @@ const CaseStudyArticle = () => {
               <div className="article-publication flex items-center text-sm text-muted-foreground">
                 <div className="flex items-center">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <time dateTime={article.date}>{`Published ${formatArticleDate(article.date)}`}</time>
+                  <time dateTime={publication.publishedDateTime}>{publication.publishedText}</time>
                 </div>
-                {visibleUpdatedDate && (
+                {publication.updatedText && (
                   <div className="flex items-center">
-                    <time dateTime={visibleUpdatedDate}>{`Updated ${formatArticleDate(visibleUpdatedDate)}`}</time>
+                    <time dateTime={publication.updatedDateTime}>{publication.updatedText}</time>
                   </div>
                 )}
               </div>
