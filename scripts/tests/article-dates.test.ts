@@ -182,9 +182,8 @@ test("second-mortgage equity guide shows Updated from canonical reviewedAt", () 
   assert.equal(labels.updatedDateTime, "2026-10-13T22:06:06Z");
 });
 
-test("only the repaired guides show a visible Updated line", () => {
+test("only the three repaired guides show a visible Updated line", () => {
   assert.deepEqual(visibleUpdateSlugs(), [
-    "best-bridging-loan-lenders-companies-2025",
     "commercial-mortgages-vs-residential-key-differences-explained",
     "commercial-property-loan-deposits-how-much-do-you-need",
     "second-mortgage-loan-equity-access-strategies",
