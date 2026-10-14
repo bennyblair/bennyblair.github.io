@@ -1,47 +1,63 @@
 ---
-title: "Short-Term Private Lenders: Fast Business Finance Without the Hype"
+title: "Short-Term Private Lenders: Cost, Exit and Risk Checklist"
 date: "2025-11-28"
-description: "How short-term private business lending works in Australia, what lenders assess, when speed is realistic, total-cost questions, and how to plan a credible exit."
+description: "Assess short-term private lenders in Australia on total cost, terms, exit evidence and risk before using fast, property-secured business finance."
 category: "Business Finance"
 tags: ["Short Term Loans", "Private Lending", "Business Finance", "Urgent Funding"]
-readingTime: 10
+readingTime: 11
 author: "Ben"
-reviewed_date: "2026-08-05"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/uploads/short-term-business-finance.jpg"
+featuredImageAlt: "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph."
 keywords: ["short term private lenders", "fast business finance", "urgent business finance", "private business lending"]
 primaryQuery: "short term private lenders Australia"
 searchIntent: "commercial investigation"
 intentCluster: "private-lending"
 designatedServicePage: "/services/private-lending"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-14T20:30:16.428Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-01-12T20:30:16.428Z"
+metaTitle: "Short-Term Private Lenders: Cost, Exit and Risk Checklist"
+metaDescription: "Need fast, property-secured business funding? Compare short-term private lenders on total cost, terms, exit evidence and risk before you sign."
 sources:
   - label: "ASIC — Professional registers search"
-    url: "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
-  - label: "AFCA — Risks of unregulated small-business lending"
-    url: "https://www.afca.org.au/news/media-releases/afca-cautions-against-unregulated-lending-small-business-complaints-reach-record-high"
+    url: "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search"
+  - label: "ASIC — Disputes about commercial loans (INFO 207)"
+    url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+  - label: "ASIC — Credit (consumer credit licensing)"
+    url: "https://www.asic.gov.au/regulatory-resources/credit"
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-# Short-Term Private Lenders: Fast Business Finance Without the Hype
+> **Direct answer:** Short-term private lenders provide non-bank commercial finance for a defined, time-sensitive business or property transaction, often with property as security. Speed is realistic only when purpose, security, a complete borrower pack and a dated exit are already in place. Compare lenders on total cost for the expected hold and a delayed exit, the actual terms and enforcement rights, and whether the repayment event still works if refinance or sale slips. It is a poor fit for recurring losses, an unresolved dispute, or an exit that depends only on a future approval.
 
-Short-term private lenders provide non-bank commercial finance for a defined, time-sensitive business or property transaction. They can sometimes assess a well-prepared file faster than a mainstream lender because the credit process is narrower and often places greater weight on security, purpose and exit. “Fast” is not guaranteed: valuation, title, existing debt, identity, legal documentation and source-of-funds checks still have to be completed.
+This page is a lender-assessment checklist and exit-planning guide for Australian business-purpose funding. It does not name, rank or rate lenders. For a definition of the market, read [what private lending is in Australia](/resources/guides/what-is-private-lending-australia). For property timing-gap structures, use the [short-term property loans decision guide](/resources/guides/short-term-property-loans-when-you-need-fast-finance).
 
-The most important question is not whether money can arrive quickly. It is whether a short-term facility solves a temporary problem and can be repaid without creating a worse one.
+Emet Capital is a finance broker, not a lender. If you want help packaging a complete file so private and non-bank options can be compared, see the [private lending service](/services/private-lending). An enquiry starts a discussion; it is not an approval or a commitment to lend.
 
-> **Direct answer:** Short-term private finance is most defensible when the borrower has a clear commercial purpose, suitable security or another lender-accepted risk basis, a complete borrower pack, and a dated exit supported by evidence. It is a poor fit for recurring losses, an unresolved dispute, or an exit that depends only on future approval.
+## Lender-Assessment Checklist
 
-For the broader market context, start with [what private lending is in Australia](/resources/guides/what-is-private-lending-australia) and the [private lending service overview](/services/private-lending).
+Work through these points in writing before you accept a term sheet. The same list is the basis for comparing two or more short-term private lenders.
+
+| Check | What “ready” looks like | Risk if it is missing |
+|---|---|---|
+| Purpose | Exact amount, payee and commercial reason, with a deadline that belongs to the transaction | Funds drift into working-capital losses or an unexplained use |
+| Security | Title, existing mortgages, payout figures and the asset the lender will actually take | Hidden priority, caveats or a security the borrower did not intend to expose |
+| Borrower pack | Identity, entity and trust documents, ownership, guarantors and current liabilities | Assessment stalls, or conditions appear only at the deadline |
+| Cost | One dollar-cost schedule for the expected term and a delayed-exit case | A cheap headline rate hides retained interest, fees or extension cost |
+| Terms | Term, payments, covenants, default, variation and enforcement rights in the documents | The product label does not match the contract |
+| Exit | A dated refinance, sale, receivable or other event, with evidence and a fallback | Default, forced sale or more expensive extension |
+| Who you are dealing with | Company or ABN search, plus any ASIC licence or register result that applies | You cannot tell whether the firm is licensed, an AFCA member, or commercial-only |
+
+Do not treat an indicative term sheet as settlement. Valuation, credit, legal and verification conditions can still change timing and the net amount advanced.
 
 ## When Short-Term Private Finance May Fit
 
@@ -79,11 +95,11 @@ In those circumstances, additional secured debt may transfer a business problem 
 | Bridging facility | Purchase-before-sale, auction, maturity or project timing gap | The bridge must connect two identifiable events, not fund an indefinite need |
 | Asset- or receivables-backed finance | Equipment, invoices, stock or business assets support the facility | Asset eligibility, concentration, control and realisable value |
 
-Product labels are not consistent across lenders. Compare the actual security documents, repayment terms, covenants and enforcement rights rather than relying on the label alone.
+Product labels are not consistent across lenders. Compare the actual security documents, repayment terms, covenants and enforcement rights rather than relying on the label alone. For layered property debt, see [second mortgages for business](/resources/guides/second-mortgages-for-business-guide). For a purchase-before-sale or maturity gap, see the [bridging finance guide](/resources/guides/bridging-finance-australia-complete-property-guide).
 
 ## What Makes a Fast Assessment Realistic?
 
-Speed depends as much on borrower readiness as lender appetite.
+Speed depends as much on borrower readiness as lender appetite. There is no responsible universal timeframe.
 
 | Assessment step | Information that should be ready | Common cause of delay |
 |---|---|---|
@@ -92,13 +108,15 @@ Speed depends as much on borrower readiness as lender appetite.
 | Security | Title, mortgage statement, payout, lease or asset evidence | Unknown priority, caveats, cross-collateralisation or access issues |
 | Credit basis | Current trading evidence, liabilities and conduct appropriate to the product | “Low doc” is treated as “no explanation” |
 | Exit | Dated refinance, sale, receivable or other event with supporting evidence | Exit relies on an untested assumption |
-| Legal completion | Solicitor availability and clear settlement instructions | Documents are reviewed only at the deadline |
+| Legal completion | Counsel availability and clear settlement instructions | Documents arrive only at the deadline |
 
-An indicative term sheet is not settlement. It may still be subject to valuation, credit, legal and verification conditions.
+The [business.gov.au](https://business.gov.au/finance/funding/apply-for-a-business-loan) loan guide says documentation requirements vary between loans, but you may need to provide proof of identification, a business plan, financial reports, including cash flow statements, financial forecasts, lease agreements and your personal financial information.
 
 ## How to Compare Total Cost
 
 Do not compare only the annual rate. Ask each lender or broker to show the same dollar-cost schedule for the expected hold period and for a delayed exit.
+
+The Australian Government’s [business loan preparation guide](https://business.gov.au/finance/funding/apply-for-a-business-loan) says loans vary a lot in their costs and conditions, including the amount you can borrow, loan term, interest rate, set-up costs and ongoing fees. It's a good idea to compare loan products from multiple lenders before applying. Check for loans from non-bank lenders as well as traditional banks. Read each loan’s terms and conditions carefully to compare upfront and ongoing charges, interest rates, term lengths available and whether you need to provide security.
 
 Include:
 
@@ -111,9 +129,9 @@ Include:
 - discharge, settlement and ongoing review fees; and
 - the net amount actually available after retained costs and payouts.
 
-Then compare the facility with the realistic cost of waiting, selling an asset, negotiating with the creditor, using receivables finance, or taking a longer conventional process. A transaction can be urgent and still fail the cost-benefit test.
+A secured loan is backed up by collateral or security – something of value you have, such as property or your business inventory. If you don’t repay the loan, the lender can take the security to cover their losses. Then compare the facility with the realistic cost of waiting, selling an asset, negotiating with the creditor, using receivables finance, or taking a longer conventional process. A transaction can be urgent and still fail the cost-benefit test.
 
-## Exit Planning: The Non-Negotiable Part
+## Exit Planning
 
 | Proposed exit | Evidence lenders may expect | Sensible fallback question |
 |---|---|---|
@@ -122,7 +140,19 @@ Then compare the facility with the realistic cost of waiting, selling an asset, 
 | Receivable or project payment | Executed contract, completion status and counterparty evidence | What happens if payment is disputed or delayed? |
 | Business cash flow | Forecast linked to current trading and verified assumptions | Can the business accumulate the repayment amount after all other obligations? |
 
-The facility term should include time for a normal delay. If the exit has to occur on the earliest possible date to avoid default, the structure has no practical buffer.
+The facility term should include time for a normal delay. If the exit has to occur on the earliest possible date to avoid default, the structure has no practical buffer. Write the fallback before you sign, and make sure it does not rely on the same untested assumption as the primary exit.
+
+## Check Who You Are Dealing With
+
+business.gov.au tells borrowers to check who they’re dealing with: to make sure it’s a real company, search for the name or ABN on the Australian Securities and Investments Commission (ASIC) register.
+
+Separately, [ASIC’s professional registers search](https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search) allows you to search several registers at once. You can search the professional registers to find out about a person or an organisation registered or licensed with ASIC to provide a service. ASIC’s professional registers include information on Australian financial services (AFS) licensees, AFS authorised representatives, credit licensees and credit representatives. You can search the professional registers by individual or company name, registration or licence number, ACN or ABN.
+
+[ASIC is the national regulator for consumer credit and consumer leases under the national credit legislation](https://www.asic.gov.au/regulatory-resources/credit). People that engage in credit activities generally need a credit licence or an authorisation from a licensee. That consumer-credit licensing rule is not automatically the rule for a commercial-only private lender.
+
+[ASIC’s commercial-loan information sheet](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) says the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses. Lenders that only provide commercial loans are not required to have a credit licence and are not legally required to be a member of AFCA. AFCA can resolve complaints from small businesses about commercial lending, including loans to primary producers, but AFCA can only resolve complaints about financial firms that are members of AFCA. If a lender is not a member, ASIC encourages anyone who has concerns about commercial lending to seek independent legal advice as soon as possible.
+
+Absence of a credit licence does not, by itself, mean a commercial lender is illegitimate. It does mean consumer-credit dispute pathways and AFCA access may not apply. Confirm membership and licence status rather than assuming they exist.
 
 ## Illustrative Decision Examples
 
@@ -149,6 +179,7 @@ Property equity may make a facility technically possible, but finance should not
 5. Is early repayment allowed, and does minimum interest still apply?
 6. Which part of the exit is within the borrower's control?
 7. What is the documented Plan B?
+8. Has the firm’s ASIC company or professional-register result been checked, and is it an AFCA member?
 
 ## Frequently Asked Questions
 
@@ -158,7 +189,7 @@ No. Lender appetite varies, and security may carry more weight in some private t
 
 ### Does fast private finance require property?
 
-Many short-term facilities are property-secured, but receivables, equipment, inventory or other business assets may support different products. The suitable structure depends on the asset, purpose and lender policy.
+Many short-term facilities are property-secured, but receivables, equipment, inventory or other business assets may support different products. The suitable structure depends on the asset, purpose and lender policy. Compare that choice with [private lending versus bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) if a longer bank process is still open.
 
 ### Is low-doc the same as no checks?
 
@@ -168,14 +199,18 @@ No. Alternative evidence may replace a conventional financial pack, but lenders 
 
 There is no responsible universal timeframe. A simple, complete file can move faster than a complex one, but valuation, title, payout, legal documentation and verification can change the schedule. Do not make an unconditional commitment based only on an advertised turnaround.
 
-### Can the loan be repaid early?
+### Are short-term private lenders members of AFCA?
 
-That depends on the contract. Ask about minimum interest, early-repayment fees, notice periods and discharge costs before accepting the facility.
+Not necessarily. Lenders that only provide commercial loans are not legally required to be a member of AFCA. AFCA can only resolve complaints about financial firms that are members of AFCA. Check membership for that firm rather than assuming a small-business complaint pathway exists.
 
-## Bottom Line
+## Next Step
 
-Short-term private lending is a transaction tool, not an automatic rescue product. It can create useful time where the underlying business or property position is viable and the exit is already visible. It can also expose property and guarantees when urgency replaces proper assessment.
+For a business-purpose short-term facility, take the completed checklist, cost comparison and exit evidence to the [private lending service](/services/private-lending). Emet Capital is a finance broker, not a lender. An enquiry starts a discussion about options; it is not an approval or a commitment to lend.
 
-Use a written total-cost comparison, verify every settlement condition, and stress test the exit before signing.
+## Related Guides
 
-This article provides general information only and does not constitute financial, legal, tax or insolvency advice. Lender policy and transaction outcomes vary. Obtain advice appropriate to your circumstances before entering a secured finance arrangement.
+- [Caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
+- [Second mortgages for business](/resources/guides/second-mortgages-for-business-guide)
+- [Bridging finance in Australia](/resources/guides/bridging-finance-australia-complete-property-guide)
+
+This article is for informational purposes only and does not constitute financial advice. It is not legal or tax advice.

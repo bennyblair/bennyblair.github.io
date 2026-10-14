@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_short-term-private-lenders-fast-business-finance-solutions-20261015",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "673c764c6b18a4e5fb9d3ca69ac7b1d519f18238",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-14T20:30:16.428Z",
+    "score": 91.5,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/short-term-private-lenders-fast-business-finance-solutions.md",
+      "pageId": "pg_14b5560990464a7a9611f3623909605f",
+      "path": "/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
+      "beforeSha256": "6366e063acf06bf6b609e1a1c1b69f319df4854066332187c52b14a2798e8694",
+      "afterSha256": "e9df781f1a7c8e1585e0a747c30c33638c27543486b61a256d816cb0f70c1524",
+      "reason": "Targeted improve after the 2026-11-05 expiry review trigger, not a rewrite. Decision: improve. Keep the existing skeleton (fit/unfit, structures, readiness, total cost, exit, hypothetical examples, questions) because it already matches the reader job: a business that needs fast, short-term, property-secured funding must judge private lenders on total cost, terms, exit and risk. Improve because AU Search Console (12 Sep-10 Oct 2026) shows 246 impressions at average position 21.9 with 1 click, while the query 'short term private lenders' sits at position 10.4 (40 impressions); paid AU data (13 Oct) has that query at about 90/mo and 'private lenders australia' at about 880/mo. The rendered title/H1 ('Without the Hype') and the delayed direct-answer did not put the assessment-checklist intent first. Adds metaTitle, metaDescription and featuredImageAlt matching the documented src/config/article-images.json alt; removes the body H1 so the template owns the only H1; starts with an answer-first blockquote; adds a lender-assessment checklist and a sourced 'check who you are dealing with' section; sets a scope boundary with what-is-private-lending-australia (definition) and short-term-property-loans-when-you-need-fast-finance (property timing-gap structures); adds a genuine contextual path to /services/private-lending (crawled-not-indexed) plus a broker-not-lender statement; adds one Related Guides section and the standard general-information disclaimer. Drops the AFCA media-release source after datacenter/GitHub-runner GET returned 403; AFCA small-business commercial-lending facts are taken from ASIC INFO 207 HTML (200). Retains ASIC professional registers search and business.gov.au (both 200) and adds ASIC's consumer-credit HTML page (200) to distinguish consumer-credit licensing from commercial-only lenders. Does not name, rank or rate lenders. Does not add aggregate deals/funding-volume claims. Slug, canonical, author, author_bio (including the untouched 10 years experience claim), publication date and contentRisk remain unchanged. Independent review set reviewedBy to OpenClaw independent reviewer, set reviewedAt and expiresAt to the exact 90-day pair, and removed the reviewed_date alias. The registry sourceCount of 3 is left as-is.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-446bcf7e-7e02-5de4-8a7a-c74eb4d6816a"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-2dc81589-2024-5415-9d4f-f9245077207f"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Lender-Assessment Checklist"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "Lenders that only provide commercial loans are not required to have a credit licence and are not legally required to be a member of AFCA."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Without the Hype"
+        },
+        {
+          "kind": "text-removed",
+          "value": "For the broader market context, start with"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/short-term-property-loans-when-you-need-fast-finance"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/private-lending-vs-bank-lending-which-is-better"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-14T20:30:16.428Z",
+        "reviewedSourceSha256": "e9df781f1a7c8e1585e0a747c30c33638c27543486b61a256d816cb0f70c1524",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 91.5,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search",
+            "checkedAt": "2026-10-14T20:30:16.428Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-10-14T20:30:16.428Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/regulatory-resources/credit",
+            "checkedAt": "2026-10-14T20:30:16.428Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-14T20:30:16.428Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "You can search the professional registers to find out about a person or an organisation registered or licensed with ASIC to provide a service",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search"
+            ]
+          },
+          {
+            "claim": "allows you to search several registers at once",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search"
+            ]
+          },
+          {
+            "claim": "ASIC’s professional registers include information on Australian financial services (AFS) licensees, AFS authorised representatives, credit licensees and credit representatives",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search"
+            ]
+          },
+          {
+            "claim": "You can search the professional registers by individual or company name, registration or licence number, ACN or ABN",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search"
+            ]
+          },
+          {
+            "claim": "ASIC is the national regulator for consumer credit and consumer leases under the national credit legislation",
+            "sources": [
+              "https://www.asic.gov.au/regulatory-resources/credit"
+            ]
+          },
+          {
+            "claim": "People that engage in credit activities generally need a credit licence or an authorisation from a licensee",
+            "sources": [
+              "https://www.asic.gov.au/regulatory-resources/credit"
+            ]
+          },
+          {
+            "claim": "the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "Lenders that only provide commercial loans are not required to have a credit licence and are not legally required to be a member of AFCA",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "AFCA can resolve complaints from small businesses about commercial lending, including loans to primary producers",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "AFCA can only resolve complaints about financial firms that are members of AFCA",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "ASIC encourages anyone who has concerns about commercial lending to seek independent legal advice as soon as possible",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "loans vary a lot in their costs and conditions, including the amount you can borrow, loan term, interest rate, set-up costs and ongoing fees",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Check for loans from non-bank lenders as well as traditional banks",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A secured loan is backed up by collateral or security – something of value you have, such as property or your business inventory",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "If you don’t repay the loan, the lender can take the security to cover their losses",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "documentation requirements vary between loans, but you may need to provide proof of identification, a business plan, financial reports, including cash flow statements, financial forecasts, lease agreements and your personal financial information",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "to make sure it’s a real company, search for the name or ABN on the Australian Securities and Investments Commission (ASIC) register",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "AFCA media-release URL https://www.afca.org.au/news/media-releases/afca-cautions-against-unregulated-lending-small-business-complaints-reach-record-high",
+            "after": "ASIC INFO 207 HTML https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "reason": "AFCA.org.au returned HTTP 403 to datacenter/GitHub-runner GET fetches. ASIC INFO 207 returns 200 and is the source for commercial-loan protection level, credit-licence exemption for commercial-only lenders, and AFCA membership limits."
+          },
+          {
+            "before": "title/H1: Short-Term Private Lenders: Fast Business Finance Without the Hype; no metaTitle/metaDescription/featuredImageAlt; body H1; delayed direct answer",
+            "after": "title/H1/metaTitle: Short-Term Private Lenders: Cost, Exit and Risk Checklist; answer-first checklist; publication-contract metadata completed",
+            "reason": "Align title, H1 and meta with the 'short term private lenders' query and the reader job (total cost, terms, exit, risk) without ranking lenders."
+          },
+          {
+            "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-08-05",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-10-14T20:30:16.428Z; expiresAt: 2027-01-12T20:30:16.428Z; reviewed_date removed",
+            "reason": "Superseded the retireable automated audit label and removed the reviewed_date alias so the page carries one exact canonical independent-review metadata set on the registered 90-day high-risk cadence."
+          }
+        ],
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/short-term-private-lenders-fast-business-finance-solutions.md",
+          "result": "PASS 0 errors, 1 warning (protected legacy author aliases retained)"
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Non-blocking: business.gov.au lists cash flow statements as paperwork \"if available\"; the page keeps that item inside \"you may need\" and drops the qualifier.",
+          "Non-blocking: INFO 207 defines an AFCA small business as a primary producer or another business with fewer than 100 employees, and AFCA also applies claim and compensation limits. The page quotes the jurisdiction and membership sentences and does not restate the employee threshold.",
+          "Non-blocking: the clause \"If a lender is not a member, ASIC encourages anyone who has concerns about commercial lending to seek independent legal advice as soon as possible\" narrows INFO 207's general encouragement. The non-member consequence is separately supported by INFO 207: if a commercial-only lender is not an AFCA member, seek private legal advice.",
+          "author_bio still states \"10 years' experience in private lending\". That protected author field was not edited.",
+          "data/seo-page-registry.json still records governance.sourceCount 3; the registry is not edited in this content lane.",
+          "Search Console counts and paid query volumes in the repair reason are editorial context, not public page claims, and were not re-fetched.",
+          "AFCA facts on the page are those stated on ASIC INFO 207. The AFCA website was not used as a source."
+        ],
+        "dimensions": {
+          "intentCoverage": 92,
+          "informationGain": 91,
+          "specificity": 89,
+          "evidence": 91,
+          "readability": 93,
+          "repetition": 88,
+          "compliance": 96,
+          "aiAnswerUsefulness": 92
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-12T20:30:16.428Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-2dc81589-2024-5415-9d4f-f9245077207f",
+          "reviewedRevision": "2f94c47a7e0a70db43dec082edd2d13fe1e17f80"
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
 import test from "node:test";
-import { RETIREABLE_AUTOMATED_REVIEWERS } from "../lib/content-repair-policy.mjs";
+import matter from "gray-matter";
+import { REPAIR_MANIFEST, RETIREABLE_AUTOMATED_REVIEWERS } from "../lib/content-repair-policy.mjs";
 import { buildContentIndex } from "../lib/content-index.mjs";
 import {
   articleDateTimeAttribute,
@@ -13,10 +16,66 @@ import {
 
 const CANONICAL = CANONICAL_CONTENT_REPAIR_REVIEWER;
 const INDEXED_ARTICLES = Object.values(buildContentIndex()).flat();
+const REPAIR_DIR = path.join(process.cwd(), "data", "seo-repairs");
 
 function visibleUpdateSlugs() {
   return INDEXED_ARTICLES
     .filter((article) => getVisibleArticleUpdateDate(article))
+    .map((article) => article.slug)
+    .sort();
+}
+
+function asFrontmatterString(value: unknown): string {
+  if (value instanceof Date) return value.toISOString();
+  return typeof value === "string" ? value : "";
+}
+
+function isPassingIndependentReview(review: unknown): boolean {
+  if (!review || typeof review !== "object") return false;
+  const record = review as { score?: unknown; blockingFindings?: unknown };
+  if (!Array.isArray(record.blockingFindings) || record.blockingFindings.length > 0) return false;
+  const score = Number(record.score);
+  return Number.isFinite(score) && score >= 85;
+}
+
+/** Guide slugs named in a repair manifest that recorded a passing independent review. */
+function passingIndependentReviewGuideSlugs(): Set<string> {
+  const slugs = new Set<string>();
+  if (!fs.existsSync(REPAIR_DIR)) return slugs;
+
+  for (const name of fs.readdirSync(REPAIR_DIR)) {
+    const relativePath = path.posix.join("data/seo-repairs", name);
+    if (!REPAIR_MANIFEST.test(relativePath)) continue;
+    const manifest = JSON.parse(fs.readFileSync(path.join(REPAIR_DIR, name), "utf8"));
+    if (!isPassingIndependentReview(manifest.review)) continue;
+    for (const page of Array.isArray(manifest.pages) ? manifest.pages : []) {
+      const sourcePath = typeof page?.sourcePath === "string" ? page.sourcePath : "";
+      const match = /^src\/content\/guides\/([^/]+)\.md$/.exec(sourcePath);
+      if (match) slugs.add(match[1]);
+    }
+  }
+  return slugs;
+}
+
+/**
+ * Guides whose frontmatter has the canonical independent reviewer and a reviewedAt
+ * on a later Australia/Sydney day than the publish date, and that appear in a
+ * passing seo-repairs independent-review manifest (score >= 85, no blockers).
+ */
+function expectedVisibleUpdateSlugs(): string[] {
+  const passingRepairSlugs = passingIndependentReviewGuideSlugs();
+  return INDEXED_ARTICLES
+    .filter((article) => {
+      if (article.contentType !== "guides" || !passingRepairSlugs.has(article.slug)) return false;
+      const { data } = matter(fs.readFileSync(article.sourcePath, "utf8"));
+      return Boolean(
+        getVisibleArticleUpdateDate({
+          date: asFrontmatterString(data.date) || article.date,
+          reviewedBy: asFrontmatterString(data.reviewedBy),
+          reviewedAt: asFrontmatterString(data.reviewedAt) || undefined,
+        }),
+      );
+    })
     .map((article) => article.slug)
     .sort();
 }
@@ -182,10 +241,30 @@ test("second-mortgage equity guide shows Updated from canonical reviewedAt", () 
   assert.equal(labels.updatedDateTime, "2026-10-13T22:06:06Z");
 });
 
-test("only the three repaired guides show a visible Updated line", () => {
-  assert.deepEqual(visibleUpdateSlugs(), [
-    "commercial-mortgages-vs-residential-key-differences-explained",
-    "commercial-property-loan-deposits-how-much-do-you-need",
-    "second-mortgage-loan-equity-access-strategies",
-  ]);
+test("visible Updated lines match independently reviewed repairs, never audit or backfill stamps", () => {
+  const expected = expectedVisibleUpdateSlugs();
+  const visible = visibleUpdateSlugs();
+
+  assert.deepEqual(visible, expected);
+  assert.equal(visible.length, expected.length);
+
+  for (const article of INDEXED_ARTICLES) {
+    const { data } = matter(fs.readFileSync(article.sourcePath, "utf8"));
+    const reviewedBy = asFrontmatterString(data.reviewedBy).trim();
+    const hasReviewedAt = Boolean(asFrontmatterString(data.reviewedAt).trim());
+    const hasBackfillDate = Boolean(
+      asFrontmatterString(data.reviewedDate || data.reviewed_date).trim(),
+    );
+    const auditStamp = RETIREABLE_AUTOMATED_REVIEWERS.includes(reviewedBy);
+    const backfillOnly = !hasReviewedAt && hasBackfillDate;
+
+    if (auditStamp || backfillOnly) {
+      assert.equal(
+        getVisibleArticleUpdateDate(article),
+        null,
+        `${article.slug} must not show Updated from an audit stamp or backfill date`,
+      );
+      assert.ok(!visible.includes(article.slug), article.slug);
+    }
+  }
 });
