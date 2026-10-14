@@ -116,22 +116,22 @@
         "sources": [
           {
             "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011",
-            "checkedAt": "2026-10-14T01:05:00Z",
+            "checkedAt": "2026-10-14T00:58:00Z",
             "status": 200
           },
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-10-14T01:05:00Z",
+            "checkedAt": "2026-10-14T00:58:00Z",
             "status": 200
           },
           {
             "url": "https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings",
-            "checkedAt": "2026-10-14T01:05:00Z",
+            "checkedAt": "2026-10-14T00:58:00Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
-            "checkedAt": "2026-10-14T01:05:00Z",
+            "checkedAt": "2026-10-14T00:58:00Z",
             "status": 200
           }
         ],
