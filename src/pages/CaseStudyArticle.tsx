@@ -200,11 +200,11 @@ const CaseStudyArticle = () => {
               <div className="article-publication flex items-center text-sm text-muted-foreground">
                 <div className="flex items-center">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <time dateTime={article.date}>Published {formatArticleDate(article.date)}</time>
+                  <time dateTime={article.date}>{`Published ${formatArticleDate(article.date)}`}</time>
                 </div>
                 {visibleUpdatedDate && (
                   <div className="flex items-center">
-                    <time dateTime={visibleUpdatedDate}>Updated {formatArticleDate(visibleUpdatedDate)}</time>
+                    <time dateTime={visibleUpdatedDate}>{`Updated ${formatArticleDate(visibleUpdatedDate)}`}</time>
                   </div>
                 )}
               </div>
