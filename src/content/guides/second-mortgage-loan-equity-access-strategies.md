@@ -27,14 +27,14 @@ reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
 expiresAt: "2027-01-11T22:06:06Z"
 sources:
-  - label: "Titles Queensland — Land Title Practice Manual: Mortgage Priority"
-    url: "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"
+  - label: "Land Title Act 1994 (Qld) — priority of registered instruments and amending mortgage priority"
+    url: "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "NSW Registrar General — Written consent for electronic dealings"
     url: "https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings"
-  - label: "Titles Queensland — Land Title Practice Manual: Caveat"
-    url: "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf"
+  - label: "Land Title Act 1994 (Qld) — effect of lodging a caveat"
+    url: "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
   - label: "ASIC — Disputes about commercial loans (INFO 207)"
     url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
 keywords: ["second mortgage loan", "property equity access", "second mortgage Australia", "equity release", "business funding", "combined LVR"]
@@ -83,7 +83,7 @@ The second lender’s assessment decides how much of the total equity becomes a 
 
 The lender will also check borrower and guarantor identity, the commercial purpose and use of funds, title, and the conduct and terms of the first loan.
 
-Registration priority and lender-to-lender rights are legal questions. In Queensland, for example, Titles Queensland’s [mortgage-priority practice manual](https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf) explains that registered mortgages rank according to when they were lodged, and that the order can be changed by registering a mortgage priority form executed by every affected mortgagee. Changing priority is a formal land-title process, not an informal agreement between a borrower and broker.
+Registration priority and lender-to-lender rights are legal questions. In Queensland, for example, the [Land Title Act 1994 (Qld)](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011) explains that registered mortgages rank according to when they were lodged, and that the order can be changed by registering a mortgage priority form executed by every affected mortgagee. Changing priority is a formal land-title process, not an informal agreement between a borrower and broker.
 
 First-mortgagee consent can arise in two separate ways: a land-title registration requirement, and a contractual requirement in the first loan. Those are not the same check.
 
@@ -101,7 +101,7 @@ In NSW electronic dealings, the Registrar General’s [guide to written consent 
 
 Compare each option on the business’s whole position after the transaction, not on one feature such as keeping the existing first loan or settling faster.
 
-Titles Queensland’s [caveat practice manual](https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf) describes a caveat as a notice that, subject to some exceptions, prohibits registration of an instrument or document affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says a caveat should not be seen as a viable alternative to registering the interest. For a fuller comparison, read [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
+The [Land Title Act 1994 (Qld)](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011) describes a caveat as a notice that, subject to some exceptions, prohibits registration of an instrument or document affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says lodgement of a caveat does not create a registrable interest. For a fuller comparison, read [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
 
 ## Comparing the full cost
 

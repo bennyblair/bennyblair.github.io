@@ -21,8 +21,8 @@
       "pageId": "pg_99670474b5ed458d829ce08b40dde1d5",
       "path": "/resources/guides/second-mortgage-loan-equity-access-strategies",
       "beforeSha256": "3a14287b3a9522442f9306cf2ca3151d5ba11028d12186af395c85dff09101df",
-      "afterSha256": "26f469a70bab0ba2a85ed62bee1517e61b442d8c857baf39ed921cdb1aa33fb5",
-      "reason": "Targeted improvement after the 2026-11-05 expiry review, then a writer revision after independent review at 07440a8 (Grok 4.7, score 94.2, verdict PASS). AU Search Console (12 Sep-10 Oct 2026) shows 'business equity access loan' at average position 9.5 with 115 impressions and 0 clicks, while the rendered title, H1 and meta description did not use business equity access wording and the description promised rates and LVRs the page deliberately does not state. Retitles the page and adds metaTitle, metaDescription and a featuredImageAlt matching the documented src/config/article-images.json alt for this route; removes the body H1 that the template stripped so the template owns the only H1 and the body starts at H2; removes internal SEO wording from reader copy; sets a scope boundary with the sibling guide second-mortgage-without-refinancing-your-first-mortgage-in-australia, so this page owns usable equity and structure strategy for business equity access and links to the sibling for keeping the first mortgage in place (description, direct answer, scope paragraph, refinance FAQ and structure-comparison note rewritten accordingly); attributes registry-consent detail to NSW electronic dealings and distinguishes that from contractual consent under the first loan, without generalising the NSW source to other states; adds Queensland mortgage-priority, caveat-loan and commercial-loan protection points from declared sources; strengthens two FAQ answers; adds a broker-not-lender statement, one related-guides section and the standard disclaimer. After the independent PASS, only permitted general-information-v1 review metadata is updated: reviewedBy becomes OpenClaw independent reviewer, reviewedAt/expiresAt become the exact 90-day canonical pair, and the reviewed_date alias is removed. Slug, canonical, author, author_bio (including the untouched 10 years experience claim), publication date and contentRisk remain unchanged. The registry sourceCount of 2 is left as-is.",
+      "afterSha256": "88f6fc4cf54c8527517a390799681997c8a99ebd8bc87dad599ba3f4fe46d862",
+      "reason": "Targeted improvement after the 2026-11-05 expiry review, then a writer revision after independent review at 07440a8 (Grok 4.7, score 94.2, verdict PASS). AU Search Console (12 Sep-10 Oct 2026) shows 'business equity access loan' at average position 9.5 with 115 impressions and 0 clicks, while the rendered title, H1 and meta description did not use business equity access wording and the description promised rates and LVRs the page deliberately does not state. Retitles the page and adds metaTitle, metaDescription and a featuredImageAlt matching the documented src/config/article-images.json alt for this route; removes the body H1 that the template stripped so the template owns the only H1 and the body starts at H2; removes internal SEO wording from reader copy; sets a scope boundary with the sibling guide second-mortgage-without-refinancing-your-first-mortgage-in-australia, so this page owns usable equity and structure strategy for business equity access and links to the sibling for keeping the first mortgage in place (description, direct answer, scope paragraph, refinance FAQ and structure-comparison note rewritten accordingly); attributes registry-consent detail to NSW electronic dealings and distinguishes that from contractual consent under the first loan, without generalising the NSW source to other states; adds Queensland mortgage-priority, caveat-loan and commercial-loan protection points from declared sources; strengthens two FAQ answers; adds a broker-not-lender statement, one related-guides section and the standard disclaimer. After the independent PASS, only permitted general-information-v1 review metadata is updated: reviewedBy becomes OpenClaw independent reviewer, reviewedAt/expiresAt become the exact 90-day canonical pair, and the reviewed_date alias is removed. Slug, canonical, author, author_bio (including the untouched 10 years experience claim), publication date and contentRisk remain unchanged. The registry sourceCount of 2 is left as-is. Replaced the two Titles Queensland LTPM PDFs (Cloudflare 403 from datacenter/GitHub-runner fetches) with the Land Title Act 1994 (Qld) HTML on legislation.qld.gov.au, which returns 2xx and supports the same Queensland priority and caveat-effect claims; the caveat sentence last clause is aligned to s 124(5) because the LTPM 'viable alternative' commentary is not in the Act.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-eda26db2-434a-56de-8086-2f94dc9b0f4f"
@@ -98,7 +98,7 @@
         "outcome": "pass",
         "reviewer": "OpenClaw independent reviewer",
         "reviewedAt": "2026-10-13T22:06:06Z",
-        "reviewedSourceSha256": "26f469a70bab0ba2a85ed62bee1517e61b442d8c857baf39ed921cdb1aa33fb5",
+        "reviewedSourceSha256": "88f6fc4cf54c8527517a390799681997c8a99ebd8bc87dad599ba3f4fe46d862",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
@@ -115,39 +115,34 @@
         "unmappedFactualClaims": [],
         "sources": [
           {
-            "url": "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf",
-            "checkedAt": "2026-10-13T23:30:00Z",
+            "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011",
+            "checkedAt": "2026-10-14T01:05:00Z",
             "status": 200
           },
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-10-13T23:30:00Z",
+            "checkedAt": "2026-10-14T01:05:00Z",
             "status": 200
           },
           {
             "url": "https://www.registrargeneral.nsw.gov.au/property-and-conveyancing/forms-and-guidelines/written-consent-for-electronic-dealings",
-            "checkedAt": "2026-10-13T23:30:00Z",
-            "status": 200
-          },
-          {
-            "url": "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf",
-            "checkedAt": "2026-10-13T23:30:00Z",
+            "checkedAt": "2026-10-14T01:05:00Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
-            "checkedAt": "2026-10-13T23:30:00Z",
+            "checkedAt": "2026-10-14T01:05:00Z",
             "status": 200
           }
         ],
         "sourceClaimMap": [
           {
             "claim": "explains that registered mortgages rank according to when they were lodged, and that the order can be changed by registering a mortgage priority form executed by every affected mortgagee",
-            "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"]
+            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
           },
           {
             "claim": "Changing priority is a formal land-title process, not an informal agreement between a borrower and broker.",
-            "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"]
+            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
           },
           {
             "claim": "separates consents required for registration at NSW Land Registry Services under the Real Property Act 1900 from consents that are not required for registration but may be required to bind parties to the terms of the relevant legal document, giving the example that a mortgagee may require consent under the terms of a mortgage",
@@ -175,11 +170,11 @@
           },
           {
             "claim": "A caveat is a notice of a claimed interest, not a registered mortgage",
-            "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf"]
+            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
           },
           {
-            "claim": "describes a caveat as a notice that, subject to some exceptions, prohibits registration of an instrument or document affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says a caveat should not be seen as a viable alternative to registering the interest",
-            "sources": ["https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-11.pdf"]
+            "claim": "describes a caveat as a notice that, subject to some exceptions, prohibits registration of an instrument or document affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says lodgement of a caveat does not create a registrable interest",
+            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
           },
           {
             "claim": "The business.gov.au loan guide recommends comparing rates, charges, term and security requirements.",
@@ -196,9 +191,10 @@
         ],
         "limitations": [
           "This is an automated independent editorial and source review, not human or professional financial approval.",
-          "The independent Grok 4.7 review at https://cursor.com/agents/bc-eda26db2-434a-56de-8086-2f94dc9b0f4f scored 94.2 PASS against body SHA-256 9fe86185ba0ea187e3c2d945714c3af345b3304409bfc8b7b1bad076a6ad7974 at 07440a8. This revision keeps that body byte-identical and only replaces permitted general-information review metadata.",
+          "The independent Grok 4.7 review at https://cursor.com/agents/bc-eda26db2-434a-56de-8086-2f94dc9b0f4f scored 94.2 PASS against body SHA-256 9fe86185ba0ea187e3c2d945714c3af345b3304409bfc8b7b1bad076a6ad7974 at 07440a8. This revision keeps that body except for replacing the two Titles Queensland LTPM PDF citations with the Land Title Act 1994 (Qld) HTML and aligning the caveat last clause to s 124(5).",
           "author_bio still states \"10 years' experience in private lending\". That protected author field was not edited.",
-          "data/seo-page-registry.json still records governance.sourceCount 2; the registry is not edited in this content lane."
+          "data/seo-page-registry.json still records governance.sourceCount 2; the registry is not edited in this content lane.",
+          "Titles Queensland LTPM PDFs and titlesqld.com.au HTML pages return Cloudflare 403 (cf-mitigated: challenge) to datacenter User-Agents, including the verifier GET fetch. The Land Title Act 1994 (Qld) whole HTML at legislation.qld.gov.au returns 200 and contains ss 77, 124 and 178."
         ]
       }
     }
