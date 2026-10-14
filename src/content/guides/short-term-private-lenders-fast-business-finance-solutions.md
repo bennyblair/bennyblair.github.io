@@ -109,7 +109,7 @@ Speed depends as much on borrower readiness as lender appetite. There is no resp
 | Security | Title, mortgage statement, payout, lease or asset evidence | Unknown priority, caveats, cross-collateralisation or access issues |
 | Credit basis | Current trading evidence, liabilities and conduct appropriate to the product | “Low doc” is treated as “no explanation” |
 | Exit | Dated refinance, sale, receivable or other event with supporting evidence | Exit relies on an untested assumption |
-| Legal completion | Solicitor availability and clear settlement instructions | Documents are reviewed only at the deadline |
+| Legal completion | Counsel availability and clear settlement instructions | Documents arrive only at the deadline |
 
 The [business.gov.au](https://business.gov.au/finance/funding/apply-for-a-business-loan) loan guide says documentation requirements vary between loans, but you may need to provide proof of identification, a business plan, financial reports, including cash flow statements, financial forecasts, lease agreements and your personal financial information.
 

@@ -23,7 +23,7 @@
       "pageId": "pg_14b5560990464a7a9611f3623909605f",
       "path": "/resources/guides/short-term-private-lenders-fast-business-finance-solutions",
       "beforeSha256": "6366e063acf06bf6b609e1a1c1b69f319df4854066332187c52b14a2798e8694",
-      "afterSha256": "f92260d473b05542910b650cd60e7908002ea4f314ad70ce7632dfa9d0a91771",
+      "afterSha256": "6f46cbe830ef0e746908bd9231861c4264e3da03642bc8975a0d153c177a7b4c",
       "reason": "Targeted improve after the 2026-11-05 expiry review trigger, not a rewrite. Decision: improve. Keep the existing skeleton (fit/unfit, structures, readiness, total cost, exit, hypothetical examples, questions) because it already matches the reader job: a business that needs fast, short-term, property-secured funding must judge private lenders on total cost, terms, exit and risk. Improve because AU Search Console (12 Sep-10 Oct 2026) shows 246 impressions at average position 21.9 with 1 click, while the query 'short term private lenders' sits at position 10.4 (40 impressions); paid AU data (13 Oct) has that query at about 90/mo and 'private lenders australia' at about 880/mo. The rendered title/H1 ('Without the Hype') and the delayed direct-answer did not put the assessment-checklist intent first. Adds metaTitle, metaDescription and featuredImageAlt matching the documented src/config/article-images.json alt; removes the body H1 so the template owns the only H1; starts with an answer-first blockquote; adds a lender-assessment checklist and a sourced 'check who you are dealing with' section; sets a scope boundary with what-is-private-lending-australia (definition) and short-term-property-loans-when-you-need-fast-finance (property timing-gap structures); adds a genuine contextual path to /services/private-lending (crawled-not-indexed) plus a broker-not-lender statement; adds one Related Guides section and the standard general-information disclaimer. Drops the AFCA media-release source after datacenter/GitHub-runner GET returned 403; AFCA small-business commercial-lending facts are taken from ASIC INFO 207 HTML (200). Retains ASIC professional registers search and business.gov.au (both 200) and adds ASIC's consumer-credit HTML page (200) to distinguish consumer-credit licensing from commercial-only lenders. Does not name, rank or rate lenders. Does not add aggregate deals/funding-volume claims. Slug, canonical, author, author_bio (including the untouched 10 years experience claim), publication date, contentRisk, reviewedBy, reviewedAt, reviewed_date and expiresAt remain unchanged until an independent review of this exact head SHA has passed. The registry sourceCount of 3 is left as-is.",
       "evidence": [
         {
@@ -80,7 +80,7 @@
         "outcome": "pending",
         "reviewer": "OpenClaw independent reviewer",
         "reviewedAt": "1970-01-01T00:00:00.000Z",
-        "reviewedSourceSha256": "f92260d473b05542910b650cd60e7908002ea4f314ad70ce7632dfa9d0a91771",
+        "reviewedSourceSha256": "6f46cbe830ef0e746908bd9231861c4264e3da03642bc8975a0d153c177a7b4c",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
