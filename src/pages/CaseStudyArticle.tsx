@@ -13,6 +13,11 @@ import { convertMarkdownToHtml, stripFirstHeading } from "@/lib/markdown-convert
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 import { normalizeSeoDescription, normalizeSeoTitle } from "@/lib/seo-metadata";
 import { EMET_LOGO_URL, resolveArticleAuthor } from "@/lib/schema-utils";
+import {
+  formatArticleDate,
+  getVisibleArticleUpdateDate,
+  resolveArticleDateModified,
+} from "@/lib/article-dates";
 
 const CaseStudyArticle = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -73,7 +78,8 @@ const CaseStudyArticle = () => {
   }
 
   const processedContent = stripFirstHeading(article.content);
-  const reviewedDate = article.reviewedDate || article.date;
+  const reviewedDate = resolveArticleDateModified(article);
+  const visibleUpdatedDate = getVisibleArticleUpdateDate(article);
   const canonicalAuthor = resolveArticleAuthor(article.authorName || article.author);
   const authorDisplayName = canonicalAuthor?.name || article.authorName || article.author || "Emet Capital";
   const authorUrl = article.authorUrl || canonicalAuthor?.url.replace("https://emetcapital.com.au", "");
@@ -87,11 +93,6 @@ const CaseStudyArticle = () => {
     : authorUrl
       ? [{ label: `${authorDisplayName} bio`, url: authorUrl }]
       : [];
-  const formatArticleDate = (value: string) => new Date(value).toLocaleDateString('en-AU', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
   const breadcrumbItems = [
     { label: "Home", href: "/" },
     { label: "Resources", href: "/resources" },
@@ -196,6 +197,17 @@ const CaseStudyArticle = () => {
               <span className="bg-gradient-to-r from-primary to-primary-light text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-sm">
                 {article.category || 'Case Study'}
               </span>
+              <div className="article-publication flex items-center text-sm text-muted-foreground">
+                <div className="flex items-center">
+                  <Calendar className="w-4 h-4 mr-2" />
+                  <time dateTime={article.date}>Published {formatArticleDate(article.date)}</time>
+                </div>
+                {visibleUpdatedDate && (
+                  <div className="flex items-center">
+                    <time dateTime={visibleUpdatedDate}>Updated {formatArticleDate(visibleUpdatedDate)}</time>
+                  </div>
+                )}
+              </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight max-w-4xl mx-auto">
               {article.title}

@@ -11,6 +11,11 @@ import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 import { EMET_LOGO_URL, resolveArticleAuthor } from "@/lib/schema-utils";
 import { getDesignatedService, rankRelatedArticles } from "@/lib/seo-links";
+import {
+  formatArticleDate,
+  getVisibleArticleUpdateDate,
+  resolveArticleDateModified,
+} from "@/lib/article-dates";
 
 const GuideArticle = () => {
   const { slug } = useParams();
@@ -285,7 +290,8 @@ const GuideArticle = () => {
   const designatedService = article ? getDesignatedService(article) : null;
   const seoImage = article.featuredImage || `/hero-property-finance-poster.webp`;
   const fullSeoImage = seoImage.startsWith("http") ? seoImage : `https://emetcapital.com.au${seoImage}`;
-  const reviewedDate = article.reviewedDate || article.date;
+  const reviewedDate = resolveArticleDateModified(article);
+  const visibleUpdatedDate = getVisibleArticleUpdateDate(article);
   const canonicalAuthor = resolveArticleAuthor(article.authorName || article.author);
   const authorDisplayName = canonicalAuthor?.name || article.authorName || article.author || "Emet Capital";
   const authorUrl = article.authorUrl || canonicalAuthor?.url.replace("https://emetcapital.com.au", "");
@@ -299,11 +305,6 @@ const GuideArticle = () => {
     : authorUrl
       ? [{ label: `${authorDisplayName} bio`, url: authorUrl }]
       : [];
-  const formatArticleDate = (value: string) => new Date(value).toLocaleDateString('en-AU', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
   const articleAuthorSchema = canonicalAuthor || article.authorName
     ? {
         "@type": "Person",
@@ -412,8 +413,13 @@ const GuideArticle = () => {
               </div>
               <div className="flex items-center">
                 <Calendar className="w-4 h-4 mr-2" />
-                {formatArticleDate(article.date)}
+                <time dateTime={article.date}>Published {formatArticleDate(article.date)}</time>
               </div>
+              {visibleUpdatedDate && (
+                <div className="flex items-center">
+                  <time dateTime={visibleUpdatedDate}>Updated {formatArticleDate(visibleUpdatedDate)}</time>
+                </div>
+              )}
             </div>
           </div>
           
