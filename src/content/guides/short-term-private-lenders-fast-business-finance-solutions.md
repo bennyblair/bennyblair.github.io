@@ -6,7 +6,6 @@ category: "Business Finance"
 tags: ["Short Term Loans", "Private Lending", "Business Finance", "Urgent Funding"]
 readingTime: 11
 author: "Ben"
-reviewed_date: "2026-08-05"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -20,11 +19,11 @@ searchIntent: "commercial investigation"
 intentCluster: "private-lending"
 designatedServicePage: "/services/private-lending"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-14T20:30:16.428Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-01-12T20:30:16.428Z"
 metaTitle: "Short-Term Private Lenders: Cost, Exit and Risk Checklist"
 metaDescription: "Need fast, property-secured business funding? Compare short-term private lenders on total cost, terms, exit evidence and risk before you sign."
 sources:
