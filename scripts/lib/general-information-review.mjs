@@ -21,7 +21,7 @@ const forbiddenClaims = [
 ];
 
 /** Review evidence supplements deterministic checks; neither alone proves legal compliance. */
-export function validateGeneralInformationReview({ source, sourceSha256, review, manifestReview, now }) {
+export function validateGeneralInformationReview({ source, sourceSha256, review, manifestReview, now, liveSourceStatuses }) {
   const errors = [];
   if (!review || review.mode !== GENERAL_INFORMATION_MODE) return ["complete general-information review required"];
   if (review.reviewer !== GENERAL_INFORMATION_AUTOMATED_REVIEWER || manifestReview.reviewer !== GENERAL_INFORMATION_AUTOMATED_REVIEWER)
@@ -51,6 +51,13 @@ export function validateGeneralInformationReview({ source, sourceSha256, review,
   }
   if (checked.size !== declared.size || [...declared].some(url => !checked.has(url)))
     errors.push("every declared factual source must be checked in the exact-page review");
+  if (liveSourceStatuses) {
+    for (const url of declared) {
+      const observed = liveSourceStatuses[url];
+      if (!Number.isInteger(observed) || observed < 200 || observed > 299)
+        errors.push("CI-observed factual source response must be 2xx");
+    }
+  }
   const claims = Array.isArray(review.sourceClaimMap) ? review.sourceClaimMap : [];
   if (!sources.length || !claims.length) errors.push("general-information review requires checked sources and a factual claim map");
   const text = plainReleaseText(marked.parse(parsed.content, { async: false }));

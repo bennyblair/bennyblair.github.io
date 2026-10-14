@@ -271,11 +271,7 @@ const CaseStudies = () => {
             <h2 className="text-3xl font-bold text-foreground mb-8">
               Commercial Finance Experience
             </h2>
-            <div className="grid md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">$1B+</div>
-                <div className="text-muted-foreground">Funds Facilitated</div>
-              </div>
+            <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">Tailored</div>
                 <div className="text-muted-foreground">Lender Matching</div>

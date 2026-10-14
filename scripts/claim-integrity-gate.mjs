@@ -5,8 +5,10 @@ import { LENDER_COUNT_PATTERN, isUnchangedPreservedClaim, isVerifiedLenderClaim 
 
 const repoRoot = process.cwd();
 const roots = ["src/pages", "src/components"];
+const volumeClaimPattern =
+  /\$2B\+|\$2\s*bn\+?|\b2bn\+?\b|\$2\s+billion|\b2\s+billion\b|\$1B\+|\$1\s*bn\+?|\$1\s+billion|\$150M\+\s+funds facilitated|\$500m\+\s+settled|suffix:\s*["']B\+["']/gi;
 const forbidden = [
-  { label: "$2B+ / $2 billion facilitated", pattern: /\$2B\+|\$2\s+billion/gi },
+  { label: "unsupported aggregate dollar-volume claim", pattern: volumeClaimPattern },
   { label: "unsupported leading claim", pattern: /Australia['’]s Leading Commercial Finance/gi },
   { label: "unsupported lender-count claim", pattern: LENDER_COUNT_PATTERN },
   { label: "unsupported experience-duration claim", pattern: /(?:over\s+)?15\+?\s+years(?:\s+of)?\s+(?:industry\s+)?experience/gi },
@@ -73,19 +75,19 @@ for (const file of changedFiles) {
   }
 }
 
-const canonical = claims["funds-facilitated-1b"];
-if (!canonical || canonical.statement !== "$1B+ funds facilitated" || canonical.status !== "verified") {
-  errors.push("src/content/claims.json: canonical $1B+ verified claim is missing");
-}
-if (!canonical?.source || !canonical?.verifiedAt || !canonical?.expiresAt) {
-  errors.push("src/content/claims.json: canonical claim requires source and review-expiry metadata");
+const withdrawn = claims["funds-facilitated-1b"];
+if (!withdrawn || withdrawn.status !== "expired" || withdrawn.schemaAllowed !== false) {
+  errors.push("src/content/claims.json: funds-facilitated volume claim must remain expired and excluded from schema");
 }
 const visible = roots.flatMap(filesBelow).map((file) => fs.readFileSync(file, "utf8")).join("\n");
-if (!visible.includes("$1B+")) errors.push("canonical $1B+ claim is not present on a public page");
+volumeClaimPattern.lastIndex = 0;
+if (volumeClaimPattern.test(visible)) {
+  errors.push("unsupported aggregate dollar-volume claim is present on a public page");
+}
 
 if (errors.length) {
   for (const error of errors) console.error(`ERROR ${error}`);
   process.exit(1);
 }
 for (const note of retained) console.log(`RETAINED (not verified) ${note}`);
-console.log(`Authority claim integrity passed: $1B+ is canonical and ${changedFiles.length} changed public page files introduce no unsupported company statistics.`);
+console.log(`Authority claim integrity passed: aggregate dollar-volume claims are withdrawn and ${changedFiles.length} changed public page files introduce no unsupported company statistics.`);
