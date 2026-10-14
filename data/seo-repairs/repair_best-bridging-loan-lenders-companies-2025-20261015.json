@@ -20,8 +20,8 @@
       "pageId": "pg_65b90754e8264dce8b5e501a95bd6b43",
       "path": "/resources/guides/best-bridging-loan-lenders-companies-2025",
       "beforeSha256": "e4175dbc754aae5f1671d69a87ac8f357c16d2f0ba64323ced4a64c7dd08cf34",
-      "afterSha256": "043acfe611210f187984733c858b4bfa6addc6861af41a4eb6498dc04097f759",
-      "reason": "Substantive general-information repair for the commercial bridging lender comparison guide. Rewrites the page around a six-test lender-fit framework (mandate fit, property and security, exit evidence, net proceeds, fees and conditions, default risk) instead of a ranked best-lenders list, adds sourced borrower-protection, AFCA-membership and identity-check guidance, and states that Emet Capital is a commercial finance broker, not a lender. Body copy is unchanged from independent review at 7d2cde5 (https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5), which found no blocking content findings; verdict was REVISE only because existing reviewedBy/reviewedAt/expiresAt could not be superseded. After main 6d65867 (including #231 canonical review-metadata replacement, #232 visible Updated date, and #233 removal of false aggregate funding-volume claims), this revision only records the permitted general-information-v1 review metadata: reviewedBy becomes OpenClaw independent reviewer and reviewedAt/expiresAt become the exact 90-day canonical pair. Slug, canonical, author (Daniel), publication date, contentRisk, reviewStatus, humanReviewRequired and protectedUntil remain unchanged. No aggregate deals or funding-volume claim is introduced. Company claim lender-network-50 is used only with its display qualification. A scored independent PASS of these exact bytes has not been recorded; this editor has not self-approved.",
+      "afterSha256": "7f412460635984a3c276fbbc66eda3f41f540243a4967ea49912719a9da80bbf",
+      "reason": "Substantive general-information repair for the commercial bridging lender comparison guide. Rewrites the page around a six-test lender-fit framework (mandate fit, property and security, exit evidence, net proceeds, fees and conditions, default risk) instead of a ranked best-lenders list, adds sourced borrower-protection, AFCA-membership and identity-check guidance, and states that Emet Capital is a commercial finance broker, not a lender. Guide bytes are unchanged from independent review at 7d2cde5 (https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5), which found no blocking content findings; verdict was REVISE only because existing reviewedBy/reviewedAt/expiresAt could not be superseded. After merging main 6d65867 (including #231, #232 and #233), this revision adds the repair manifest, live-checked sources and factual claim map. Page review metadata is left unchanged pending a scored independent PASS of the exact resulting SHA: policy can supersede the retireable OpenClaw SEO content audit label only as the exact canonical OpenClaw independent reviewer / reviewedAt / 90-day expiresAt set matching that PASS, and this editor has not self-approved. Slug, canonical, author (Daniel), publication date, contentRisk, reviewStatus, humanReviewRequired and protectedUntil remain unchanged. No aggregate deals or funding-volume claim is introduced. Company claim lender-network-50 is used only with its display qualification.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5"
@@ -84,7 +84,7 @@
         "outcome": "revise",
         "reviewer": "OpenClaw independent reviewer",
         "reviewedAt": "2026-10-13T12:00:11Z",
-        "reviewedSourceSha256": "043acfe611210f187984733c858b4bfa6addc6861af41a4eb6498dc04097f759",
+        "reviewedSourceSha256": "7f412460635984a3c276fbbc66eda3f41f540243a4967ea49912719a9da80bbf",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
@@ -180,39 +180,40 @@
         "claimCorrections": [
           {
             "before": "reviewedBy: OpenClaw SEO content audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05",
-            "after": "contentRisk: high, reviewedBy: OpenClaw independent reviewer, reviewedAt: 2026-10-13T12:00:11Z, expiresAt: 2027-01-11T12:00:11Z",
-            "reason": "Superseded the retireable automated audit label so the page carries one exact canonical independent-review metadata set on the registered 90-day high-risk cadence. Guide body unchanged from 7d2cde5."
+            "after": "reviewedBy: OpenClaw SEO content audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05",
+            "reason": "Page review metadata is left unchanged pending a scored independent PASS of the exact resulting SHA. Policy can replace the retireable automated audit label only with the exact canonical OpenClaw independent reviewer / reviewedAt / 90-day expiresAt set matching that PASS. This editor has not self-approved."
           }
         ],
         "articleQa": {
           "command": "node scripts/article-qa.mjs src/content/guides/best-bridging-loan-lenders-companies-2025.md --fail-on-warnings",
           "result": "PASS 0 errors, 0 warning(s)",
-          "note": "Independent review of 7d2cde5 found no blocking content findings. This revision records canonical general-information-v1 review metadata after policy #231 and adds the repair manifest. A scored independent PASS of these exact bytes follows. Repository content-quality and repair-scope gates are authoritative."
+          "note": "Independent review of 7d2cde5 found no blocking content findings. This revision adds the repair manifest after merging current main. Page review metadata is unchanged pending a scored independent PASS of these exact bytes. Repository content-quality and repair-scope gates are authoritative."
         },
         "scopeVerification": {
           "canonicalWebsiteTouched": true,
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "guideBodyUnchangedFrom7d2cde5": true,
+          "guideUnchangedFrom7d2cde5": true,
+          "reviewMetadataUnchangedPendingExactShaPass": true,
           "metadataChecked": true,
           "allInternalLinksResolved": true
         },
         "limitations": [
           "This is an automated independent editorial and source review, not human or professional financial approval.",
           "The independent review at https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5 of SHA 7d2cde5 found no blocking content findings. Verdict was REVISE because review metadata could not then be superseded; that policy change is now on main as 57614b8 / #231.",
-          "A scored independent PASS of these exact resulting bytes has not been recorded. This editor has not self-approved.",
+          "A scored independent PASS of these exact resulting bytes has not been recorded. This editor has not self-approved and has not written the canonical review metadata set.",
           "data/seo-page-registry.json still records governance.sourceCount 2; the registry is not edited in this content lane.",
           "No aggregate deals or funding-volume claim is used. Company claim lender-network-50 is used only with its display qualification.",
           "Author is Daniel via the canonical profile. The protected author bio 10 years experience claim was not edited."
         ],
         "gateReconciliation": {
-          "kind": "general-information-review-metadata-supersession-v1",
+          "kind": "general-information-review-pending-exact-sha-pass-v1",
           "contentRiskLowered": false,
           "humanReviewClaimed": false,
           "professionalFinancialReviewClaimed": false,
           "reviewEveryDays": 90,
-          "reviewExpiresAt": "2027-01-11T12:00:11Z",
+          "pageReviewMetadataSuperseded": false,
           "independentReviewRun": "https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5",
           "reviewedRevision": "7d2cde5b827f5d8c2195f13293b0958f8120d571",
           "infrastructureMergeSha": "6d6586769080a65c59e8118d41ab523402e7e66a"
