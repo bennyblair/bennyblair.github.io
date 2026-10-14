@@ -5,7 +5,7 @@
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "57614b8e682bc352e2d1a861cd99810232030161",
+  "baseSha": "e81f84205886750b5d6e7b5ebe85e42d80db2914",
   "editor": "Cursor cloud agent writer",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
