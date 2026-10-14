@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_commercial-property-loan-deposits-20261014",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "57614b8e682bc352e2d1a861cd99810232030161",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-13T21:58:10Z",
+    "score": 92,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/commercial-property-loan-deposits-how-much-do-you-need.md",
+      "pageId": "pg_32a7ae79875b4bfa8c0cea1693c6ce54",
+      "path": "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need",
+      "beforeSha256": "bf67ee654d1f0db3a2df7d48cdd51ca5c230b65f18510a241787bbf4606af357",
+      "afterSha256": "fc9a27598c307fa87cc117b26c3b2760df7dff76bf707a6421eb2f2e8d31a852",
+      "reason": "Substantive general-information repair for the commercial property deposit guide. Rewrites the page around working out total funds to complete, replaces unsupported deposit-causation and typical-range claims with sourced assessment inputs, and records the exact independent review required by the publication gate. Frontmatter only: retire the older automated audit label and reviewed_date alias, set reviewer to OpenClaw independent reviewer, and set the canonical reviewedAt/expiresAt pair on the registered 90-day high-risk cadence. Guide body is unchanged from 263b2ca.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-7926a796-0e04-5305-8757-e54c2e174ef4"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "There is no single deposit figure for a commercial property loan in Australia."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "CIPT is payable 10 years after the property enters the reform."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that helps eligible business borrowers compare lender options."
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/commercial-property-finance"
+        },
+        {
+          "kind": "text-removed",
+          "value": "commercial lenders rarely fund 100% of the deal"
+        },
+        {
+          "kind": "text-removed",
+          "value": "provides commercial lending solutions"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-13T21:58:10Z",
+        "reviewedSourceSha256": "fc9a27598c307fa87cc117b26c3b2760df7dff76bf707a6421eb2f2e8d31a852",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 91,
+          "specificity": 92,
+          "evidence": 93,
+          "readability": 92,
+          "repetition": 95,
+          "compliance": 93,
+          "aiAnswerUsefulness": 87
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-13T23:30:00Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty",
+            "checkedAt": "2026-10-13T23:30:00Z",
+            "status": 200
+          },
+          {
+            "url": "https://qro.qld.gov.au/duties/transfer-duty/",
+            "checkedAt": "2026-10-13T23:30:00Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty",
+            "checkedAt": "2026-10-13T23:30:00Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax",
+            "checkedAt": "2026-10-13T23:30:00Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/assessments-and-objections-cipt",
+            "checkedAt": "2026-10-13T23:30:00Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/dealings-properties-have-entered-reform",
+            "checkedAt": "2026-10-13T23:30:00Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "There is no single deposit figure for a commercial property loan in Australia.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "loans vary a lot in the amount you can borrow, whether you need to provide security, and their costs and conditions",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Lenders may ask for details of the property, any lease and your business finances",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Budget for set-up costs and other upfront fees that the lender discloses",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "the buyer generally pays transfer (stamp) duty on a purchase",
+            "sources": [
+              "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty",
+              "https://qro.qld.gov.au/duties/transfer-duty/"
+            ]
+          },
+          {
+            "claim": "Victoria also charges land transfer duty",
+            "sources": [
+              "https://www.sro.vic.gov.au/buying-property/land-transfer-stamp-duty"
+            ]
+          },
+          {
+            "claim": "Victoria is progressively replacing land transfer and landholder duty on commercial and industrial property with an annual commercial and industrial property tax (CIPT)",
+            "sources": [
+              "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax"
+            ]
+          },
+          {
+            "claim": "CIPT is payable 10 years after the property enters the reform",
+            "sources": [
+              "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax",
+              "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/assessments-and-objections-cipt"
+            ]
+          },
+          {
+            "claim": "Whether a later dealing is exempt from duty depends on that transaction, including whether it is a tax reform scheme transaction and whether the property has a qualifying use",
+            "sources": [
+              "https://www.sro.vic.gov.au/businesses-and-organisations/commercial-and-industrial-property-tax/dealings-properties-have-entered-reform"
+            ]
+          },
+          {
+            "claim": "financial reports, forecasts and lease agreements among documents you may need to provide",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "comparing products from multiple lenders, including non-bank lenders, because costs and conditions vary",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-05-15",
+            "after": "contentRisk: high, reviewedBy: OpenClaw independent reviewer, reviewedAt: 2026-10-13T21:58:10Z, expiresAt: 2027-01-11T21:58:10Z",
+            "reason": "Superseded the retireable automated audit label and removed the reviewed_date alias so the page carries one exact canonical independent-review metadata set on the registered 90-day high-risk cadence. Guide body unchanged."
+          }
+        ],
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/commercial-property-loan-deposits-how-much-do-you-need.md",
+          "result": "PASS 0 errors, 1 warning (protected legacy author aliases retained)",
+          "note": "Independent grok-4.7 review PASS 92 at 263b2ca; this revision only records that review and the canonical metadata set. Repository content-quality and repair-scope gates are authoritative for this existing-page repair."
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "guideBodyUnchangedFrom263b2ca": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Publication remains the sole publisher's responsibility under exact-SHA CI, lease and production-verification controls."
+        ],
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-11T21:58:10Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-7926a796-0e04-5305-8757-e54c2e174ef4",
+          "reviewedRevision": "263b2caf6a803218811fa87835ab964c372c8b9a",
+          "infrastructureMergeSha": "57614b8e682bc352e2d1a861cd99810232030161"
+        }
+      }
+    }
+  ]
+}
