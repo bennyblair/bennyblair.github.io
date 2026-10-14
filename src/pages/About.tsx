@@ -9,7 +9,6 @@ import SEO from "@/components/SEO";
 import { 
   Award,
   Users,
-  DollarSign,
   Target,
   Shield,
   Clock,
@@ -34,7 +33,6 @@ const About = () => {
   const stats = [
     { icon: Award, label: "Years Experience", value: 15, prefix: "", suffix: "+", description: "Combined team experience" },
     { icon: Users, label: "Deals Completed", value: 500, prefix: "", suffix: "+", description: "Successful transactions" },
-    { icon: DollarSign, label: "Funds Facilitated", value: 1, prefix: "$", suffix: "B+", description: "Total lending arranged" },
     { icon: Star, label: "Google Rating", value: 5.0, prefix: "", suffix: "", decimals: 1, description: "18 client reviews" }
   ];
 
@@ -96,7 +94,7 @@ const About = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="company-proof grid md:grid-cols-4 gap-6 mb-16">
+        <div className="company-proof grid md:grid-cols-3 gap-6 mb-16">
           {stats.map((stat, index) => (
             <ScrollReveal key={index} animation="fade-up" delay={index * 100}>
             <Card className="premium-card text-center">

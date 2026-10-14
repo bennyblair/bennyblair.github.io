@@ -95,7 +95,7 @@ const EditorialStandards = () => {
             <h2 className="text-2xl font-semibold mb-3">Marketing claims and qualifications</h2>
             <p>
               The homepage currently retains established marketing statements including
-              “Australia&apos;s Leading”, finance-facilitated totals, approval and success
+              “Australia&apos;s Leading”, approval and success
               percentages, turnaround timing, experience, lender-network size, and a Google
               review summary. These claims are tracked in an internal claim register with an
               owner, definition, source status, verification date, expiry date, display

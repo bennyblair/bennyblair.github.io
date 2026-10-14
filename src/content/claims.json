@@ -14,16 +14,16 @@
   },
   "funds-facilitated-1b": {
     "statement": "$1B+ funds facilitated",
-    "definition": "Aggregate value of commercial finance facilities confirmed by the product owner for public use.",
-    "measurementPeriod": "Through 2026-09-22",
-    "source": "Product owner confirmation recorded 2026-09-22",
+    "definition": "Withdrawn. Owner confirmed 2026-10-14 that aggregate funds-facilitated and similar total-dollar-volume claims are not true and must not be published.",
+    "measurementPeriod": "",
+    "source": "Product owner confirmation recorded 2026-10-14",
     "owner": "Emet Capital",
-    "verifiedAt": "2026-09-22",
-    "expiresAt": "2027-03-22",
-    "displayQualification": "Across commercial finance transactions facilitated by Emet Capital.",
+    "verifiedAt": "",
+    "expiresAt": "",
+    "displayQualification": "",
     "schemaAllowed": false,
-    "status": "verified",
-    "riskAcceptedAt": "2026-09-22"
+    "status": "expired",
+    "riskAcceptedAt": "2026-10-14"
   },
   "client-success-95": {
     "statement": "95% client success rate",
