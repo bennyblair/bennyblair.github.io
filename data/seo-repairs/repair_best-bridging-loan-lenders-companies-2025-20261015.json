@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_best-bridging-loan-lenders-companies-2025-20261015",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "6d6586769080a65c59e8118d41ab523402e7e66a",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-13T12:00:11Z",
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/best-bridging-loan-lenders-companies-2025.md",
+      "pageId": "pg_65b90754e8264dce8b5e501a95bd6b43",
+      "path": "/resources/guides/best-bridging-loan-lenders-companies-2025",
+      "beforeSha256": "e4175dbc754aae5f1671d69a87ac8f357c16d2f0ba64323ced4a64c7dd08cf34",
+      "afterSha256": "043acfe611210f187984733c858b4bfa6addc6861af41a4eb6498dc04097f759",
+      "reason": "Substantive general-information repair for the commercial bridging lender comparison guide. Rewrites the page around a six-test lender-fit framework (mandate fit, property and security, exit evidence, net proceeds, fees and conditions, default risk) instead of a ranked best-lenders list, adds sourced borrower-protection, AFCA-membership and identity-check guidance, and states that Emet Capital is a commercial finance broker, not a lender. Body copy is unchanged from independent review at 7d2cde5 (https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5), which found no blocking content findings; verdict was REVISE only because existing reviewedBy/reviewedAt/expiresAt could not be superseded. After main 6d65867 (including #231 canonical review-metadata replacement, #232 visible Updated date, and #233 removal of false aggregate funding-volume claims), this revision only records the permitted general-information-v1 review metadata: reviewedBy becomes OpenClaw independent reviewer and reviewedAt/expiresAt become the exact 90-day canonical pair. Slug, canonical, author (Daniel), publication date, contentRisk, reviewStatus, humanReviewRequired and protectedUntil remain unchanged. No aggregate deals or funding-volume claim is introduced. Company claim lender-network-50 is used only with its display qualification. A scored independent PASS of these exact bytes has not been recorded; this editor has not self-approved.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-768d6d6d-f09c-5f8c-886a-d90dba305b5e"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "This guide sets out six practical tests for comparing lenders"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a bank or direct lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "A lender's mandate is the set of loans it is able and willing to make"
+        },
+        {
+          "kind": "text-added",
+          "value": "Is every commercial lender an AFCA member?"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital has access to over 50 lenders"
+        },
+        {
+          "kind": "text-added",
+          "value": "Availability and lender appetite vary by transaction"
+        },
+        {
+          "kind": "text-removed",
+          "value": "This evergreen guide replaces the stale year-based framing retained in the URL"
+        },
+        {
+          "kind": "text-removed",
+          "value": "A broker cannot guarantee approval, valuation, legal completion or settlement timing"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/commercial-property-valuation-for-finance-lender-requirements"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "revise",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-13T12:00:11Z",
+        "reviewedSourceSha256": "043acfe611210f187984733c858b4bfa6addc6861af41a4eb6498dc04097f759",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-10-14T20:23:59Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-14T20:23:59Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/what-we-do/our-role/laws-we-administer/unfair-contract-term-protections-for-small-businesses",
+            "checkedAt": "2026-10-14T20:23:59Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "loans vary a lot in their costs and conditions, including the amount you can borrow, the loan term, the interest rate, whether the rate is fixed or variable, and set-up costs and ongoing fees",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "a secured loan is backed by collateral, such as property, and that if you don't repay the loan, the lender can take the security to cover its losses",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "search the name or ABN on the ASIC register, then check the list of companies you shouldn't deal with",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "scammers sometimes target businesses by claiming they are eligible for, or have already been approved for, a loan they haven't applied for. Real lenders don't do this",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "some brokers charge for their services, while others are free and get a commission from the lender",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "disputes can arise if a lender appoints a receiver to deal with an asset that a borrower has used as security for a loan",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "the law provides the lowest level of protection to commercial loans, including loans to small businesses",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "the ASIC Act still prohibits unconscionable conduct, misleading or deceptive conduct, and unfair contract terms in standard form small business contracts",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "the Australian Financial Complaints Authority (AFCA) can resolve complaints from small businesses about commercial lending, but only about financial firms that are AFCA members and within AFCA's limits on claims and compensation",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "Lenders that only provide commercial loans are not required to hold a credit licence and are not legally required to be AFCA members, although some join voluntarily",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "ASIC encourages borrowers to get independent legal advice if access to AFCA is not available",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "lenders that only provide commercial loans are not legally required to be AFCA members, although some join voluntarily",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "tests for both the business, based on employee numbers or turnover, and the contract, including a $5,000,000 cap on the upfront price payable for financial products or services",
+            "sources": ["https://www.asic.gov.au/about-asic/what-we-do/our-role/laws-we-administer/unfair-contract-term-protections-for-small-businesses"]
+          },
+          {
+            "claim": "The law does not cover individually negotiated contracts",
+            "sources": ["https://www.asic.gov.au/about-asic/what-we-do/our-role/laws-we-administer/unfair-contract-term-protections-for-small-businesses"]
+          },
+          {
+            "claim": "Terms that set the upfront price, such as the amount borrowed, the interest rate and disclosed establishment fees, cannot themselves be considered unfair, while late fees and other contingent fees are subject to the law",
+            "sources": ["https://www.asic.gov.au/about-asic/what-we-do/our-role/laws-we-administer/unfair-contract-term-protections-for-small-businesses"]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "reviewedBy: OpenClaw SEO content audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05",
+            "after": "contentRisk: high, reviewedBy: OpenClaw independent reviewer, reviewedAt: 2026-10-13T12:00:11Z, expiresAt: 2027-01-11T12:00:11Z",
+            "reason": "Superseded the retireable automated audit label so the page carries one exact canonical independent-review metadata set on the registered 90-day high-risk cadence. Guide body unchanged from 7d2cde5."
+          }
+        ],
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/best-bridging-loan-lenders-companies-2025.md --fail-on-warnings",
+          "result": "PASS 0 errors, 0 warning(s)",
+          "note": "Independent review of 7d2cde5 found no blocking content findings. This revision records canonical general-information-v1 review metadata after policy #231 and adds the repair manifest. A scored independent PASS of these exact bytes follows. Repository content-quality and repair-scope gates are authoritative."
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "guideBodyUnchangedFrom7d2cde5": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "The independent review at https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5 of SHA 7d2cde5 found no blocking content findings. Verdict was REVISE because review metadata could not then be superseded; that policy change is now on main as 57614b8 / #231.",
+          "A scored independent PASS of these exact resulting bytes has not been recorded. This editor has not self-approved.",
+          "data/seo-page-registry.json still records governance.sourceCount 2; the registry is not edited in this content lane.",
+          "No aggregate deals or funding-volume claim is used. Company claim lender-network-50 is used only with its display qualification.",
+          "Author is Daniel via the canonical profile. The protected author bio 10 years experience claim was not edited."
+        ],
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-11T12:00:11Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-24ffcb53-8049-5207-8974-862939fdc7c5",
+          "reviewedRevision": "7d2cde5b827f5d8c2195f13293b0958f8120d571",
+          "infrastructureMergeSha": "6d6586769080a65c59e8118d41ab523402e7e66a"
+        }
+      }
+    }
+  ]
+}
