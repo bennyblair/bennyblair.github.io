@@ -101,7 +101,7 @@ In NSW electronic dealings, the Registrar General’s [guide to written consent 
 
 Compare each option on the business’s whole position after the transaction, not on one feature such as keeping the existing first loan or settling faster.
 
-The [Land Title Act 1994 (Qld)](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011) describes a caveat as a notice that, subject to some exceptions, prohibits registration of an instrument or document affecting the claimed interest until it is withdrawn, removed, lapses or is cancelled, and says lodgement of a caveat does not create a registrable interest. For a fuller comparison, read [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
+The [Land Title Act 1994 (Qld)](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011) says a caveat prevents registration of an instrument affecting the lot from the endorsed lodgement time until the caveat lapses or is cancelled, rejected, removed or withdrawn, subject to exceptions, and that lodgement of a caveat does not create a registrable interest. For a fuller comparison, read [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
 
 ## Comparing the full cost
 
