@@ -1,18 +1,22 @@
 ---
-title: "Priority Agreements in Second Mortgages: What They Mean for Commercial Borrowers"
-description: "A practical guide to priority agreements in second mortgages, including why they matter, when lenders ask for them, and how they affect commercial borrowers using layered property-backed debt. Informational only."
+title: "Priority Agreements in 2nd Mortgages: What They Mean"
+description: "A priority agreement in a 2nd mortgage is a lender-to-lender deed covering ranking, notices, standstill and enforcement. It does not create equity, replace first-lender consent, or substitute legal review."
+metaTitle: "2nd Mortgage Priority Agreements in Australia"
+metaDescription: "A priority agreement in a 2nd mortgage sets ranking, notices, standstill and enforcement between lenders. It does not create equity or replace legal review."
+featuredImage: "/images/subordination-agreement-second-mortgage.jpg"
+featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
 date: "2026-04-07"
 category: "Property Finance"
 slug: "priority-agreements-in-second-mortgages-what-they-mean"
 keywords:
   - "priority agreement second mortgage"
   - "second mortgage priority agreement"
+  - "2nd mortgages"
   - "intercreditor agreement second mortgage"
   - "commercial second mortgage"
   - "property-backed business finance"
 readTime: "9 min read"
 author: "Daniel"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -23,36 +27,27 @@ searchIntent: "commercial investigation"
 intentCluster: "second-mortgage-priority"
 designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-15T20:26:47Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-01-13T20:26:47Z"
 sources:
-  - label: "Titles Queensland — Land Title Practice Manual: Mortgage Priority"
-    url: "https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf"
-  - label: "PPSR — Which security interest has priority?"
-    url: "https://www.ppsr.gov.au/managing-and-maintaining/enforce-your-registration/which-security-interest-has-priority"
+  - label: "Land Title Act 1994 (Qld) — priority of registered instruments and amending mortgage priority"
+    url: "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+  - label: "Personal Property Securities Act 2009 (Cth) — default priority rules and voluntary subordination"
+    url: "https://www.legislation.gov.au/C2009A00130/latest/text"
 ---
 
-# Priority Agreements in Second Mortgages
+> **Direct answer:** In a 2nd mortgage, a priority agreement is a lender-to-lender deed. It can confirm ranking, payment restrictions, notices, cure rights, standstill periods and enforcement steps when two lenders hold security over the same property. It does not create equity, guarantee first-lender consent or replace review by each party’s lawyer; the signed deed and registered interests control the actual position.
 
-> **Direct answer:** A priority agreement sets rules between lenders with security over the same property. It can confirm ranking, payment restrictions, notices, cure rights, standstill periods and enforcement steps. It does not create equity, guarantee first-lender consent or replace review by each party’s lawyer; the signed deed and registered interests control the actual position.
+A priority agreement in a second mortgage clarifies how the first lender and second lender will deal with ranking, enforcement, repayments, and information rights. In simple terms, it helps answer a practical question: if two lenders are sitting on one asset, who gets paid first, who can do what, and what happens if the borrower defaults?
 
-A priority agreement in a second mortgage is a legal agreement that clarifies how the first lender and second lender will deal with ranking, enforcement, repayments, and information rights when both hold security over the same property. In simple terms, it helps answer a practical question: if two lenders are sitting on one asset, who gets paid first, who can do what, and what happens if the borrower defaults?
+This page is about that lender-to-lender document. It is not a first-versus-second product comparison; that belongs on [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences). For whether a second mortgage is the right way to use equity, read [when second mortgages make financial sense for SMEs](/resources/guides/second-mortgage-loan-equity-access-strategies) and [second mortgages for business](/resources/guides/second-mortgages-for-business-guide). Emet Capital is a commercial finance broker, not a lender. For a live business-purpose file, start with [1st and 2nd mortgages](/services/first-second-mortgages).
 
 For commercial borrowers, the issue matters because a second mortgage is not just "extra debt". It is layered debt sitting behind an existing lender. That means the second lender usually needs comfort that the first lender's rights are understood, while the borrower needs to know how the extra facility could affect refinance timing, property sale proceeds, and overall control of the transaction.
 
 At Emet Capital, we usually see priority-agreement questions when a business owner wants to raise capital without disturbing an existing first mortgage, or when a refinance, tax debt resolution, acquisition, or partner buyout needs fast property-backed funding. The agreement does not replace legal advice, but it does shape how a layered finance structure works in the real world.
-
-### Related In-Depth Guides
-
-- **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — Core guide to how commercial second mortgages work and where they fit.
-- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Explains ranking, security positions, and common use cases.
-- **[Intercreditor Agreements: Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)** — Broader look at lender-to-lender agreements in layered debt structures.
-- **[Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)** — Useful when comparing capital access options against property equity.
-- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Helpful if the second mortgage is a bridge before a cleaner refinance.
-- **[Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — Good context when one lender is a bank and the other is a private or non-bank lender.
 
 ## At a Glance
 
@@ -67,7 +62,7 @@ At Emet Capital, we usually see priority-agreement questions when a business own
 
 This guide is for business owners, property investors, developers, and commercial borrowers who already have a first mortgage and are considering a second mortgage for business purposes. It is also relevant if a proposed lender mentions a priority deed, deed of priority, or intercreditor arrangement and you want to understand the commercial implications before signing.
 
-If you are still deciding whether a second mortgage is the right product, read **[when second mortgages make financial sense for SMEs](/resources/guides/second-mortgage-loan-equity-access-strategies)** and **[2nd loan mortgage business capital](/resources/guides/second-mortgages-for-business-guide)** first. Those guides cover product fit. This page focuses on what happens once two lenders are involved.
+Those product-fit guides cover whether a second mortgage is the right structure. This page focuses on what happens once two lenders are involved.
 
 ## What a priority agreement actually does
 
@@ -76,6 +71,10 @@ A priority agreement usually confirms that the first mortgage ranks ahead of the
 In a straightforward structure, the first lender is repaid first from sale or enforcement proceeds. The second lender is repaid only after the first lender's debt and permitted costs are cleared. A priority agreement can also deal with notice periods, standstill obligations, cure rights, and whether the second lender can take action if the first lender is already enforcing.
 
 This matters because the second lender may be prepared to lend only if the first lender's position is clear and the borrower understands the practical consequences. In that sense, a priority agreement is less about changing who is first and more about reducing uncertainty.
+
+A private deed is not the same as changing registered title ranking. Under the Land Title Act 1994 (Qld), registered instruments have priority according to when they were lodged, not according to when they were executed. The priority of registered mortgages may be amended by registering an instrument amending priority, which must specify the order of all affected registered mortgages and be executed by all mortgagees affected. On registration of that instrument, the mortgages have priority in the order specified. Other states and territories have their own land-title rules; obtain legal advice for the title in question.
+
+Personal property is a separate regime. The Personal Property Securities Act 2009 includes default priority rules for security interests in personal property, and it also provides for voluntary subordination of security interests. Those PPSA rules do not decide real-property mortgage ranking.
 
 ## Why second mortgage lenders ask for one
 
@@ -150,7 +149,7 @@ A property-backed business may need quick capital to complete an exit or restruc
 
 ## Worked example
 
-A borrower owns a commercial property worth $3.6 million with a first mortgage balance of $1.95 million. They need additional capital for a time-sensitive business acquisition and obtain a second mortgage for $550,000.
+Illustrative only. A borrower owns a commercial property worth $3.6 million with a first mortgage balance of $1.95 million. They need additional capital for a time-sensitive business acquisition and obtain a second mortgage for $550,000.
 
 The second lender agrees on the basis that a priority deed confirms the first lender ranks ahead, the second lender must observe a standstill period before enforcing, and the second lender can cure specific payment defaults with the first lender if needed.
 
@@ -177,7 +176,7 @@ It is a legal agreement between lenders that sets the practical rules around ran
 
 ### Does a priority agreement change who ranks first?
 
-Usually no. In most commercial structures, the first mortgage still ranks ahead of the second mortgage. The agreement mainly clarifies how that ranking works in practice.
+Usually no. In most commercial structures, the first mortgage still ranks ahead of the second mortgage. The agreement mainly clarifies how that ranking works in practice. Changing registered land-title order is a separate, formal process.
 
 ### Why would a second lender care about a standstill period?
 
@@ -195,12 +194,16 @@ Not always, but they overlap. An intercreditor agreement is usually the broader 
 
 Before signing any second mortgage or priority document affecting real property security, guarantees, or business assets. The commercial summary may be simple, but the legal consequences can be significant.
 
+## Next step
+
+If a second mortgage file needs a priority deed or related lender-to-lender terms, use the [first and second mortgages service](/services/first-second-mortgages) with the property, existing first-mortgage details, use of funds and exit plan. Emet Capital is a commercial finance broker, not a lender. An enquiry starts a discussion about options; it is not an approval or a commitment to lend.
+
 ## Related Guides
 
 - [Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)
-- [First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
+- [First Mortgage vs Second Mortgage: Key Differences](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)
 - [Intercreditor Agreements: Second Mortgage Complexity](/resources/guides/intercreditor-agreements-second-mortgage-complexity)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Private Lending vs Bank Lending: Which Is Better?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 
-**Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+**Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. Please consult a licensed financial adviser before making any financial decisions.
