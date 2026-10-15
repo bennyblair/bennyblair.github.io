@@ -28,10 +28,10 @@ intentCluster: "second-mortgage-priority"
 designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 reviewedBy: "OpenClaw independent reviewer"
-reviewedAt: "2026-10-15T20:26:47Z"
+reviewedAt: "2026-10-15T20:41:43Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2027-01-13T20:26:47Z"
+expiresAt: "2027-01-13T20:41:43Z"
 sources:
   - label: "Land Title Act 1994 (Qld) — priority of registered instruments and amending mortgage priority"
     url: "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
