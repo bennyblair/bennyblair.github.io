@@ -58,18 +58,27 @@ const FirstSecondMortgages = () => {
     "What evidence supports the proposed repayment plan, and what is the fallback?"
   ];
 
+  const serviceSchema = generateServiceSchema(
+    "First and Second Mortgage Business Loans",
+    "General information and broker support for Australian business-purpose first and second mortgage finance secured by residential or commercial property.",
+    "https://emetcapital.com.au/services/first-second-mortgages"
+  );
+
   return (
     <>
       <SEO
-        title="First & Second Mortgage Business Loans Australia | Emet Capital"
+        title="First & Second Mortgage Business Loans | Emet Capital"
         description="Compare first and second mortgage options for Australian business-purpose borrowing. Prepare security, consent, cost, document and repayment questions."
         canonical="/services/first-second-mortgages"
         keywords="second mortgage business loan, first mortgage commercial loan, commercial second mortgage, property-backed business loans"
-        schemas={[generateServiceSchema(
-          "First and Second Mortgage Business Loans",
-          "General information and broker support for Australian business-purpose first and second mortgage finance secured by residential or commercial property.",
-          "https://emetcapital.com.au/services/first-second-mortgages"
-        )]}
+        geo={false}
+        schemas={[{
+          ...serviceSchema,
+          provider: {
+            ...serviceSchema.provider,
+            description: "Commercial finance broker",
+          },
+        }]}
       />
 
       <div className="min-h-screen py-8">
@@ -86,13 +95,13 @@ const FirstSecondMortgages = () => {
               First & Second Mortgage Business Loans
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              A first mortgage gives the new lender the primary mortgage position. A second mortgage may let a business investigate additional property-secured funding while retaining an existing first mortgage. The decision depends on the business purpose, existing facility, title and priority requirements, total debt, costs and repayment plan.
+              A first mortgage gives the new lender the primary mortgage position. A second mortgage may let a business investigate additional property-secured funding while retaining an existing first mortgage. Common uses include acquisitions, refinance gaps, working capital, partner exits and premises purchase. The decision depends on the business purpose, existing facility, title and priority requirements, total debt, costs and repayment plan.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent-light text-accent-foreground">
                 <Link to="/contact?purpose=equity_release" data-analytics-event="service_enquiry" data-transaction-purpose="equity_release">
-                  <FileText className="mr-2 h-5 w-5" />Discuss Your Transaction
+                  <FileText className="mr-2 h-5 w-5" />Discuss Equity Release
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -176,7 +185,7 @@ const FirstSecondMortgages = () => {
             <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Prepare the Application Pack</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                The Australian Government's <a href="https://business.gov.au/finance/funding/apply-for-a-business-loan" className="text-accent underline" target="_blank" rel="noopener noreferrer">business-loan preparation guide</a> identifies financial reports, cash-flow statements, forecasts, identification and relevant agreements as possible application inputs. Requirements vary, but a property-backed proposal is easier to assess when these six areas are organised.
+                The Australian Government's <a href="https://business.gov.au/finance/funding/apply-for-a-business-loan" className="text-accent underline" target="_blank" rel="noopener noreferrer">business-loan preparation guide</a> identifies financial reports, cash-flow statements, forecasts, identification and lease agreements as possible application inputs. Requirements vary, but a property-backed proposal is easier to assess when these six areas are organised.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 {documents.map((item) => (
@@ -251,7 +260,7 @@ const FirstSecondMortgages = () => {
               </h2>
               <div className="grid md:grid-cols-2 gap-4">
                 <Link to="/resources/guides/second-mortgages-for-business-guide" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
-                  <h3 className="font-semibold text-foreground mb-2">Second Mortgages for Business</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Second Mortgages for Business in Australia: Complete Guide</h3>
                   <p className="text-sm text-muted-foreground mb-2">Prepare the business purpose, security, consent questions, costs and repayment plan.</p>
                   <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
                 </Link>
@@ -266,7 +275,7 @@ const FirstSecondMortgages = () => {
                   <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
                 </Link>
                 <Link to="/resources/guides/business-loan-against-outright-owned-property-australia" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
-                  <h3 className="font-semibold text-foreground mb-2">Outright-Owned Property as Security</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Business Loan on an Outright-Owned Property: Document Guide</h3>
                   <p className="text-sm text-muted-foreground mb-2">Prepare a business-purpose application where the property has no existing mortgage.</p>
                   <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
                 </Link>
@@ -279,8 +288,6 @@ const FirstSecondMortgages = () => {
           <DiscoveryGuides service="first-second-mortgages" />
 
           <RelatedReading articles={[
-            { title: "First and Second Mortgages for Business", slug: "second-mortgages-for-business-guide", description: "Questions about mortgage positions, consent, costs and repayment planning" },
-            { title: "Business Loan Against Outright-Owned Property", slug: "business-loan-against-outright-owned-property-australia", description: "Application preparation where there is no existing mortgage" },
             { title: "How to Find Second Mortgage Brokers in Australia", slug: "how-to-find-second-mortgage-brokers-australia", description: "Questions for comparing broker process and service" }
           ] as RelatedArticle[]} />
 
@@ -314,7 +321,7 @@ const FirstSecondMortgages = () => {
             <div className="bg-muted/30 rounded-lg p-8">
               <h2 className="text-2xl font-bold text-foreground mb-4">First & Second Mortgage Information by Location</h2>
               <p className="text-muted-foreground mb-6">
-                These location pages explain the same business-purpose preparation questions with local property context. Lender assessment and legal requirements still depend on the individual transaction.
+                Local pages for Sydney, Melbourne, Brisbane, Perth, Adelaide and the Gold Coast. Lender assessment and legal requirements still depend on the individual transaction.
               </p>
               <div className="flex flex-wrap gap-3">
                 {[

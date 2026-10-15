@@ -12,6 +12,8 @@ interface SEOProps {
   imageAlt?: string;
   schemas?: object[];
   noindex?: boolean;
+  /** When false, omit Sydney geo meta tags. Defaults to the existing site-wide tags. */
+  geo?: boolean;
 }
 
 const SEO = ({ 
@@ -23,7 +25,8 @@ const SEO = ({
   image = "/hero-property-finance-poster.webp",
   imageAlt,
   schemas = [],
-  noindex = false
+  noindex = false,
+  geo = true
 }: SEOProps) => {
   const baseUrl = "https://emetcapital.com.au";
   const normalizePath = (value?: string) => {
@@ -53,11 +56,11 @@ const SEO = ({
       <link rel="alternate" hrefLang="en" href={fullCanonical} />
       <link rel="alternate" hrefLang="x-default" href={fullCanonical} />
       
-      {/* Geo targeting */}
-      <meta name="geo.region" content="AU-NSW" />
-      <meta name="geo.placename" content="Sydney" />
-      <meta name="geo.position" content="-33.8688;151.2093" />
-      <meta name="ICBM" content="-33.8688, 151.2093" />
+      {/* Geo targeting. National pages can opt out; other pages keep the Sydney tags. */}
+      {geo && <meta name="geo.region" content="AU-NSW" />}
+      {geo && <meta name="geo.placename" content="Sydney" />}
+      {geo && <meta name="geo.position" content="-33.8688;151.2093" />}
+      {geo && <meta name="ICBM" content="-33.8688, 151.2093" />}
       
       {/* Open Graph */}
       <meta property="og:type" content={type} />
