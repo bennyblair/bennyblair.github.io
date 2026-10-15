@@ -6,7 +6,6 @@ metaTitle: "First Mortgage vs 2nd Mortgage: Key Differences"
 metaDescription: "Compare a first mortgage with a 2nd mortgage (second mortgage): ranking, risk, when each may fit, and what to check before adding subordinate debt."
 keywords: ["first mortgage vs second mortgage", "first mortgage", "second mortgage", "2nd mortgage", "mortgage priority", "commercial mortgage", "property finance"]
 author: "Daniel"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -17,11 +16,11 @@ searchIntent: "commercial investigation"
 intentCluster: "mortgage-priority-comparison"
 designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-15T20:26:38Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-01-13T20:26:38Z"
 featuredImage: "/images/intercreditor-agreements-second-mortgage-complexity.jpg"
 featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
 sources:
