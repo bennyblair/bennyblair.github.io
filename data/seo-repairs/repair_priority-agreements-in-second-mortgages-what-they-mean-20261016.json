@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_priority-agreements-in-second-mortgages-what-they-mean-20261016",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "a9091ca1fc735e62e4222499982e6590b9c7e231",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-15T20:41:43Z",
+    "score": 89,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/priority-agreements-in-second-mortgages-what-they-mean.md:7",
+        "finding": "featuredImageAlt places the glass facade in Sydney. It matches the documented representative-photo alt for /images/subordination-agreement-second-mortgage.jpg and already says representative property photograph. Neither declared statute identifies the building or the city. This is not a finance, rate, transaction, or legal claim."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/priority-agreements-in-second-mortgages-what-they-mean.md",
+      "pageId": "pg_f457627ab77548e28f722e412ab559f1",
+      "path": "/resources/guides/priority-agreements-in-second-mortgages-what-they-mean",
+      "beforeSha256": "ca559951ed43ba32bff292ee5677f798233bd9eb40fd52c604c759baea01196e",
+      "afterSha256": "8bb1389003b66c2a6803972566c1ea67e2dbf97e123cca8b8e6af828a14e9988",
+      "reason": "Decision: improve (not keep, not a full rewrite). Expiry review for expiresAt 2026-11-05 plus a snippet/CTR pass. AU GSC (12 Sep–10 Oct 2026) shows query '2nd mortgages' at average position 2.7 with 32 impressions and 0 clicks; rank is already page-1 and the commercial gap is the snippet. Tightens title, metaTitle, metaDescription and the opening direct-answer to use 2nd-mortgage query language once each without stuffing; removes the early Related In-Depth Guides list and the duplicate Related-guide rows that both pointed at /resources/guides/second-mortgages-for-business-guide; keeps lender-to-lender focus and defers first-versus-second comparison and equity-access product-fit to sibling guides; links the designated service /services/first-second-mortgages; states that Emet Capital is a commercial finance broker, not a lender; labels the existing dollar example illustrative only. Source verification: Titles Queensland LTPM Part 30 PDF returns Cloudflare 403 to datacenter GETs (content was read via WebFetch); PPSR.gov.au priority guidance timed out / HTTP2 INTERNAL_ERROR from this environment. Declared sources replaced with the Land Title Act 1994 (Qld) HTML and the Personal Property Securities Act 2009 HTML, both HTTP 200, supporting the same ranking-versus-deed distinction. The writer-authored Grok 4.7 91 PASS record in this manifest is not an independent review and is replaced by the OpenClaw independent reviewer record. Permitted general-information-v1 metadata only: reviewedBy is OpenClaw independent reviewer, reviewedAt/expiresAt are the exact 90-day pair 2026-10-15T20:41:43Z / 2027-01-13T20:41:43Z, and the reviewed_date alias is removed. Slug, canonical, author, author_bio (10 years experience untouched), publication date, contentRisk high, reviewStatus and humanReviewRequired remain unchanged. No rates, LVRs, lender names, timelines or aggregate funds-facilitated claims added.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-5eea34c2-7b4a-558e-83d0-e21db6aa9663"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-c397435f-ad1e-5514-b29e-845701e4ee46"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "In a 2nd mortgage, a priority agreement is a lender-to-lender deed"
+        },
+        {
+          "kind": "text-added",
+          "value": "registered instruments have priority according to when they were lodged"
+        },
+        {
+          "kind": "text-added",
+          "value": "The Personal Property Securities Act 2009 includes default priority rules"
+        },
+        {
+          "kind": "text-added",
+          "value": "Illustrative only."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Related In-Depth Guides"
+        },
+        {
+          "kind": "text-removed",
+          "value": "First and Second Mortgages for Business"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/first-second-mortgages"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/first-mortgage-vs-second-mortgage-key-differences"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-15T20:41:43Z",
+        "reviewedSourceSha256": "8bb1389003b66c2a6803972566c1ea67e2dbf97e123cca8b8e6af828a14e9988",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 89,
+        "dimensions": {
+          "intentCoverage": 91,
+          "informationGain": 88,
+          "specificity": 87,
+          "evidence": 90,
+          "readability": 88,
+          "repetition": 84,
+          "compliance": 93,
+          "aiAnswerUsefulness": 90
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011",
+            "checkedAt": "2026-10-15T20:41:43Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.legislation.gov.au/C2009A00130/latest/text",
+            "checkedAt": "2026-10-15T20:41:43Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "A private deed is not the same as changing registered title ranking.",
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "Under the Land Title Act 1994 (Qld), registered instruments have priority according to when they were lodged, not according to when they were executed.",
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "The priority of registered mortgages may be amended by registering an instrument amending priority, which must specify the order of all affected registered mortgages and be executed by all mortgagees affected.",
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "On registration of that instrument, the mortgages have priority in the order specified.",
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "Changing registered land-title order is a separate, formal process.",
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "The Personal Property Securities Act 2009 includes default priority rules for security interests in personal property, and it also provides for voluntary subordination of security interests.",
+            "sources": [
+              "https://www.legislation.gov.au/C2009A00130/latest/text"
+            ]
+          },
+          {
+            "claim": "Those PPSA rules do not decide real-property mortgage ranking.",
+            "sources": [
+              "https://www.legislation.gov.au/C2009A00130/latest/text"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "FLAG: the manifest previously contained a writer-authored review record. The editor is Cursor cloud agent writer (Grok 4.6), and that record claimed an independent Grok 4.7 91 PASS at https://cursor.com/agents/bc-c397435f-ad1e-5514-b29e-845701e4ee46. That score was disregarded. This record replaces it. This review is https://cursor.com/agents/bc-94196b70-b134-5da2-9216-8a30c67fd16f.",
+          "Land Title Act 1994 (Qld) ss 77 and 178 were re-read from the in-force whole HTML (HTTP 200). Section 178(1) gives registered instruments priority by lodgement time, not execution time. Section 77 allows that mortgage priority to be amended only by registering an instrument that states the order of all affected registered mortgages and is executed by all mortgagees affected by the amendment; on registration, priority follows that order.",
+          "The declared PPSA URL is the Federal Register contents page for the 14 October 2024 compilation (HTTP 200) and lists s 55 Default priority rules and s 61 Voluntary subordination of security interests. The operative text was re-read from that same compilation: s 10 defines personal property as property other than land; s 8(1)(f)(i) excludes an interest provided for by the creation or transfer of an interest in land, except that ss 117 and 118 can apply to enforcement where the same obligation is also secured by personal property. Section 118(12) says those provisions do not modify land law. Default priority and voluntary subordination therefore do not decide registered real-property mortgage ranking.",
+          "author_bio still states 10 years' experience. That protected author field was not edited and is not a new claim.",
+          "The worked example dollar figures are labelled illustrative only and are not an Emet transaction or an aggregate funds-facilitated claim. No rate, LVR, approval, or settlement-time promise was added.",
+          "Internal guide and service links resolve in the page registry, including /services/first-second-mortgages. The page states Emet Capital is a commercial finance broker, not a lender, and directs readers to obtain legal advice for the title in question."
+        ]
+      }
+    }
+  ]
+}
