@@ -9,11 +9,9 @@
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
-    "reviewedAt": "2026-10-15T20:10:00Z",
-    "score": 0,
-    "blockingFindings": [
-      "Independent Grok 4.7 review is pending after this writer draft. Do not treat this manifest as a completed independent review."
-    ]
+    "reviewedAt": "2026-10-15T20:26:38Z",
+    "score": 90.5,
+    "blockingFindings": []
   },
   "kind": "substantive",
   "reviewMode": "general-information-v1",
@@ -23,11 +21,14 @@
       "pageId": "pg_1121f28cecf04c09bbf1bd6458f8f190",
       "path": "/resources/guides/first-mortgage-vs-second-mortgage-key-differences",
       "beforeSha256": "2100d14a68054045a31bf2ecd9524e94ec4d47347ab41bd0923fc871a9d59d63",
-      "afterSha256": "894b77d983b4b16e754975cc6ed95650378894cf37e1db592106fd0bdc76b7e5",
-      "reason": "Expiry review (expiresAt 2026-11-05), not a rewrite. Decision: improve. Keep the ranking/structure comparison skeleton, sibling boundaries, slug/canonical, author, publication date, contentRisk high, and risk disclosures. Refresh facts because Titles Queensland LTPM Part 30 PDF returns HTTP 403 to datacenter GET and PPSR priority guidance times out / 500, so they cannot pass the live-source repair gate; replace with Land Title Act 1994 (Qld) HTML (HTTP 200) covering ss 77, 177 and 178, plus business.gov.au apply-for-a-business-loan (HTTP 200) for commercial-borrower comparison and secured-loan framing. Improve for CTR because AU GSC (14 Sep-12 Oct 2026) shows query '2nd mortgage' hitting this URL at 0 clicks / 41 impressions / average position 9.3; surface accurate 2nd-mortgage wording in title, description, H1 (template title), intro, decision matrix and FAQ; tighten the direct-answer box and decision matrix; add publication-contract fields required by qa:content on a substantive change (metaTitle, metaDescription, featuredImage from an existing 1200x630 asset, no body H1, Related Guides, standard disclaimer); add a broker-not-lender statement. Do not invent rates, LVRs, lender names, approval times or aggregate deal volume. Independent Grok 4.7 review is pending after this writer draft; review metadata is unchanged until that review.",
+      "afterSha256": "7d520053f75915c87700024bf70d0f9e503e2263d1176dd3d4bffcf843b213b6",
+      "reason": "Expiry review (expiresAt was 2026-11-05), not a rewrite. Decision: improve. Keep the ranking/structure comparison skeleton, sibling boundaries, slug/canonical, author, publication date, contentRisk high, and risk disclosures. Refresh facts because Titles Queensland LTPM Part 30 PDF returns HTTP 403 to datacenter GET and PPSR priority guidance times out / 500, so they cannot pass the live-source repair gate; replace with Land Title Act 1994 (Qld) HTML (HTTP 200) covering s 178(1) lodgement-time priority and s 77(1)–(3) amendment of mortgage priority, plus business.gov.au apply-for-a-business-loan (HTTP 200) for commercial-borrower comparison and secured-loan framing. Improve for CTR because AU GSC (14 Sep-12 Oct 2026) shows query '2nd mortgage' hitting this URL at 0 clicks / 41 impressions / average position 9.3; surface accurate 2nd-mortgage wording in title, description, H1 (template title), intro, decision matrix and FAQ; tighten the direct-answer box and decision matrix; add publication-contract fields required by qa:content on a substantive change (metaTitle, metaDescription, featuredImage from an existing 1200x630 asset, no body H1, Related Guides, standard disclaimer); add a broker-not-lender statement. Do not invent rates, LVRs, lender names, approval times or aggregate deal volume. Independent Grok 4.7 review PASS 90.5 at https://cursor.com/agents/bc-6c432531-5e33-5ec2-b99d-9734939bcf5d of writer-body sha256 894b77d983b4b16e754975cc6ed95650378894cf37e1db592106fd0bdc76b7e5; this revision only sets the canonical general-information-v1 review metadata pair and removes the reviewed_date alias.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-2ce7d73a-3dbd-5b58-9409-2ea134ebf9dd"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-6c432531-5e33-5ec2-b99d-9734939bcf5d"
         }
       ],
       "verification": [
@@ -77,17 +78,15 @@
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
         "status": "reviewed_draft",
-        "outcome": "pending",
+        "outcome": "PASS",
         "reviewer": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-15T20:10:00Z",
-        "reviewedSourceSha256": "894b77d983b4b16e754975cc6ed95650378894cf37e1db592106fd0bdc76b7e5",
+        "reviewedAt": "2026-10-15T20:26:38Z",
+        "reviewedSourceSha256": "7d520053f75915c87700024bf70d0f9e503e2263d1176dd3d4bffcf843b213b6",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "score": 0,
-        "blockingFindings": [
-          "Independent Grok 4.7 review is pending after this writer draft. Do not treat this manifest as a completed independent review."
-        ],
+        "score": 90.5,
+        "blockingFindings": [],
         "completePageChecked": true,
         "businessPurposeOnly": true,
         "noPersonalAdvice": true,
@@ -100,54 +99,139 @@
         "sources": [
           {
             "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011",
-            "checkedAt": "2026-10-15T20:10:00Z",
+            "checkedAt": "2026-10-15T20:22:02Z",
             "status": 200
           },
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-10-15T20:10:00Z",
+            "checkedAt": "2026-10-15T20:22:05Z",
             "status": 200
           }
         ],
         "sourceClaimMap": [
           {
             "claim": "Registered instruments have priority according to when each of them was lodged and not according to when each of them was executed.",
-            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
           },
           {
             "claim": "The priority of registered mortgages may be amended by registering an instrument amending priority.",
-            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
           },
           {
             "claim": "The instrument amending priority must specify the order of priority of all affected registered mortgages and be executed by all mortgagees affected by the amendment.",
-            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
           },
           {
             "claim": "On registration of the instrument amending priority, the mortgages have priority in the order specified in the instrument.",
-            "sources": ["https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"]
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "Changing priority is a formal land-title process, not an informal agreement between a borrower and a broker.",
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "A caveat records a claimed interest and does not itself create the same registered mortgage position.",
+            "sources": [
+              "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1994-011"
+            ]
+          },
+          {
+            "claim": "The business.gov.au loan guide explains how to prepare a business loan application.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
           },
           {
             "claim": "It’s a good idea to compare loan products from multiple lenders before applying.",
-            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
           },
           {
             "claim": "A secured loan is backed up by collateral or security – something of value you have, such as property or your business inventory.",
-            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
           },
           {
             "claim": "If you don’t repay the loan, the lender can take the security to cover their losses.",
-            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
           }
         ],
         "limitations": [
-          "This is a writer draft. Independent Grok 4.7 review has not yet scored this exact page.",
-          "This is not human or professional financial approval.",
-          "Titles Queensland LTPM Part 30 PDF https://www.titlesqld.com.au/wp-content/uploads/2025/07/ltpm-part-30.pdf returned HTTP 403 to datacenter GET. Content was readable via a separate fetch converter and matches Land Title Act 1994 (Qld) ss 77, 177 and 178; the Act HTML is the declared source because it returns HTTP 200.",
-          "PPSR priority guidance https://www.ppsr.gov.au/managing-and-maintaining/enforce-your-registration/which-security-interest-has-priority timed out / 500 on datacenter GET. Personal-property ranking claims were dropped rather than cited from an unreachable source.",
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Section attribution: lodgement-time priority is Land Title Act 1994 (Qld) s 178(1). Amending registered mortgage priority is s 77(1)–(3). s 177 is the order-of-registration rule and is not recited on the page.",
+          "Non-blocking: s 178(2) and s 178(3) are not restated.",
+          "Non-blocking: the direct-answer repayment-after-first-claim sentence is a commercial description of ranking, not a quotation of s 178 or s 77.",
+          "Non-blocking: the caveat FAQ is a product distinction supported in substance by ss 122(1)(a) and 124(5), not a quotation of s 124(5), and is not expressly limited to Queensland.",
           "author_bio still states \"10 years' experience\". That protected author field was not edited.",
           "data/seo-page-registry.json still records governance.sourceCount 2; the registry is not edited in this content lane.",
-          "Search Console counts in the repair reason are editorial context, not public page claims."
-        ]
+          "Search Console counts in the repair reason are editorial context, not public page claims, and were not re-fetched.",
+          "Titles Queensland LTPM Part 30 PDF returned HTTP 403 to datacenter GET. PPSR priority guidance timed out / 500. Those URLs are not declared sources on the resulting page."
+        ],
+        "claimCorrections": [
+          {
+            "before": "Titles Queensland LTPM Part 30 PDF and PPSR priority guidance HTML",
+            "after": "Land Title Act 1994 (Qld) HTML and business.gov.au apply-for-a-business-loan HTML",
+            "reason": "LTPM PDF returned HTTP 403 and PPSR timed out / 500 on datacenter GET. The Act returns 200 and supports s 178(1) and s 77(1)–(3). business.gov.au returns 200 for commercial-borrower comparison and secured-loan framing."
+          },
+          {
+            "before": "title/H1: First Mortgage vs Second Mortgage: Key Differences; no 2nd-mortgage wording; delayed fit criteria",
+            "after": "title/H1/metaTitle: First Mortgage vs 2nd Mortgage: Key Differences; answer-first fit criteria; 2nd-mortgage FAQ",
+            "reason": "Align title, H1 and meta with the near-ranking query 2nd mortgage without inventing product differences."
+          },
+          {
+            "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-05-15",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-10-15T20:26:38Z; expiresAt: 2027-01-13T20:26:38Z; reviewed_date removed",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence after Grok 4.7 PASS 90.5."
+          }
+        ],
+        "dimensions": {
+          "intentCoverage": 92,
+          "informationGain": 90,
+          "specificity": 88,
+          "evidence": 89,
+          "readability": 93,
+          "repetition": 88,
+          "compliance": 94,
+          "aiAnswerUsefulness": 90
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-13T20:26:38Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-6c432531-5e33-5ec2-b99d-9734939bcf5d",
+          "reviewedRevision": "033e950df83c64aa89a286809ffbf4447eb73f26"
+        },
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/first-mortgage-vs-second-mortgage-key-differences.md",
+          "result": "PASS 0 errors, 1 warning (protected legacy author aliases retained)"
+        }
       }
     }
   ]
