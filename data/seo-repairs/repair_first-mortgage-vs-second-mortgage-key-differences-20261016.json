@@ -21,7 +21,7 @@
       "pageId": "pg_1121f28cecf04c09bbf1bd6458f8f190",
       "path": "/resources/guides/first-mortgage-vs-second-mortgage-key-differences",
       "beforeSha256": "2100d14a68054045a31bf2ecd9524e94ec4d47347ab41bd0923fc871a9d59d63",
-      "afterSha256": "7d520053f75915c87700024bf70d0f9e503e2263d1176dd3d4bffcf843b213b6",
+      "afterSha256": "b6917604ed2dd91f559ad351ef3b15542bf392bdf802978b6e74c3bf04c92003",
       "reason": "Expiry review (expiresAt was 2026-11-05), not a rewrite. Decision: improve. Keep the ranking/structure comparison skeleton, sibling boundaries, slug/canonical, author, publication date, contentRisk high, and risk disclosures. Refresh facts because Titles Queensland LTPM Part 30 PDF returns HTTP 403 to datacenter GET and PPSR priority guidance times out / 500, so they cannot pass the live-source repair gate; replace with Land Title Act 1994 (Qld) HTML (HTTP 200) covering s 178(1) lodgement-time priority and s 77(1)–(3) amendment of mortgage priority, plus business.gov.au apply-for-a-business-loan (HTTP 200) for commercial-borrower comparison and secured-loan framing. Improve for CTR because AU GSC (14 Sep-12 Oct 2026) shows query '2nd mortgage' hitting this URL at 0 clicks / 41 impressions / average position 9.3; surface accurate 2nd-mortgage wording in title, description, H1 (template title), intro, decision matrix and FAQ; tighten the direct-answer box and decision matrix; add publication-contract fields required by qa:content on a substantive change (metaTitle, metaDescription, featuredImage from an existing 1200x630 asset, no body H1, Related Guides, standard disclaimer); add a broker-not-lender statement. Do not invent rates, LVRs, lender names, approval times or aggregate deal volume. Independent Grok 4.7 review PASS 90.5 at https://cursor.com/agents/bc-6c432531-5e33-5ec2-b99d-9734939bcf5d of writer-body sha256 894b77d983b4b16e754975cc6ed95650378894cf37e1db592106fd0bdc76b7e5; this revision only sets the canonical general-information-v1 review metadata pair and removes the reviewed_date alias.",
       "evidence": [
         {
@@ -81,7 +81,7 @@
         "outcome": "PASS",
         "reviewer": "OpenClaw independent reviewer",
         "reviewedAt": "2026-10-15T20:26:38Z",
-        "reviewedSourceSha256": "7d520053f75915c87700024bf70d0f9e503e2263d1176dd3d4bffcf843b213b6",
+        "reviewedSourceSha256": "b6917604ed2dd91f559ad351ef3b15542bf392bdf802978b6e74c3bf04c92003",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,

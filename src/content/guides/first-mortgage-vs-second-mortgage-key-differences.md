@@ -32,7 +32,7 @@ slug: "first-mortgage-vs-second-mortgage-key-differences"
 category: "1st & 2nd Mortgages for Business"
 ---
 
-> **Direct answer:** A first mortgage has the senior registered claim over the property. A second mortgage — also called a 2nd mortgage — is registered behind it and is repaid from enforcement or sale proceeds only after the first lender’s secured claim and relevant costs. Refinance or take a new first when the senior facility itself should change. Add a 2nd mortgage when the existing first should stay, the need is defined, usable equity and cash flow support the extra debt, and there is a dated exit.
+> **Direct answer:** A first mortgage has the senior registered claim over the property. A second mortgage — also called a 2nd mortgage — usually ranks behind it and is generally repaid from enforcement or sale proceeds only after the first lender’s secured claim and relevant costs. That ranking can be varied by a registered priority agreement or amendment. Refinance or take a new first when the senior facility itself should change. Add a 2nd mortgage when the existing first should stay, the need is defined, usable equity and cash flow support the extra debt, and there is a dated exit.
 
 This page owns the ranking and structure comparison. For equity-release strategy, read [second mortgage loans for business equity access](/resources/guides/second-mortgage-loan-equity-access-strategies). For lender-to-lender documents, read [priority agreements](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean).
 
@@ -139,7 +139,7 @@ It may. The answer depends on the existing facility documents, title, security a
 
 ### Is a caveat the same as a second mortgage?
 
-No. A caveat records a claimed interest and does not itself create the same registered mortgage position. For that product comparison, read [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you). Legal advice is essential.
+No. A caveat records a claimed interest and does not itself create the same registered mortgage position. That product distinction is described here for Queensland land title, not as a nationwide rule. Legal advice is essential.
 
 ### Which mortgage is safer for the borrower?
 
@@ -154,5 +154,6 @@ Use the [first and second mortgages service](/services/first-second-mortgages) w
 - [What is a second mortgage?](/resources/guides/what-is-a-second-mortgage)
 - [Second mortgages for business](/resources/guides/second-mortgages-for-business-guide)
 - [Second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)
+- [Caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
 
 This article is for informational purposes only and does not constitute financial advice. It is not legal or tax advice.
