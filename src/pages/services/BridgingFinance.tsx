@@ -55,7 +55,7 @@ const BridgingFinance = () => {
     "Commercial Bridging Finance Broker",
     "Emet Capital is a commercial finance broker that structures and arranges Australian commercial bridging finance. It is not a lender and does not fund loans.",
     "https://emetcapital.com.au/services/bridging-finance",
-    "AU",
+    "Australia",
   );
 
   const documents = [
@@ -111,9 +111,10 @@ const BridgingFinance = () => {
     <>
       <SEO
         title="Commercial Bridging Finance Broker Australia | Emet Capital"
-        description="Emet Capital is a commercial finance broker, not a lender. We structure commercial bridging finance around the exit test, delayed-exit plan, net proceeds and documents."
+        description="Emet Capital is a commercial finance broker, not a lender. We structure commercial bridging finance around the exit test, delayed-exit plan and documents."
         canonical="/services/bridging-finance"
         keywords="commercial bridging finance broker Australia, arrange bridging finance, open vs closed bridging loan, bridging loan exit plan, commercial bridging finance"
+        geo={false}
         schemas={[
           {
             ...serviceSchema,
@@ -621,7 +622,7 @@ const BridgingFinance = () => {
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                ["Sydney", "/services/bridging-finance/cities/sydney", "Commercial auction, purchase-before-sale and development timing scenarios involving Sydney property."],
+                ["Sydney", "/services/bridging-finance/cities/sydney", "Commercial auction, commercial or business purchase-before-sale and development timing scenarios involving Sydney property."],
                 ["Melbourne", "/services/bridging-finance/cities/melbourne", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Melbourne property."],
                 ["Brisbane", "/services/bridging-finance/cities/brisbane", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Brisbane property."],
                 ["Perth", "/services/bridging-finance/cities/perth", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Perth property."],
