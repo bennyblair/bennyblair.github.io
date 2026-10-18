@@ -17,10 +17,10 @@ intentCluster: "mortgage-priority-comparison"
 designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 reviewedBy: "OpenClaw independent reviewer"
-reviewedAt: "2026-10-15T20:26:38Z"
+reviewedAt: "2026-10-18T20:45:10Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2027-01-13T20:26:38Z"
+expiresAt: "2027-01-16T20:45:10Z"
 featuredImage: "/images/intercreditor-agreements-second-mortgage-complexity.jpg"
 featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
 sources:
