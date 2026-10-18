@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import fs from "node:fs";
 import { submitEnquiry } from "../../src/lib/enquiry-submission";
-import { normaliseTransactionPurpose, TRANSACTION_JOURNEYS } from "../../src/lib/transactions";
+import { enquiryPurposeLabel, normaliseTransactionPurpose, TRANSACTION_JOURNEYS } from "../../src/lib/transactions";
 import { registerAnalyticsPaths, safeAnalyticsPath, landingCategory, trackLead } from "../../src/lib/analytics";
 
 function form() {
@@ -47,6 +47,8 @@ test("preview, honeypot, failed HTTP and network responses cannot be accepted en
 test("transaction values are a fixed allowlist with four equal core journeys", () => {
   assert.deepEqual(TRANSACTION_JOURNEYS.map((journey) => journey.value), ["purchase", "refinance", "bridge", "equity_release"]);
   assert.equal(normaliseTransactionPurpose("purchase"), "purchase");
+  assert.equal(normaliseTransactionPurpose("private_lending"), "private_lending");
+  assert.equal(enquiryPurposeLabel("private_lending"), "Private lending");
   assert.equal(normaliseTransactionPurpose("test@example.invalid $500,000"), "not_provided");
   assert.equal(normaliseTransactionPurpose(null), "not_provided");
 });

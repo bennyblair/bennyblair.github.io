@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { getLandingAttribution, trackEnquiryStep, trackLead, type LandingAttribution } from "@/lib/analytics";
 import { submitEnquiry } from "@/lib/enquiry-submission";
-import { ENQUIRY_RESPONSE_MESSAGE, normaliseTransactionPurpose, TRANSACTION_JOURNEYS } from "@/lib/transactions";
+import { ENQUIRY_RESPONSE_MESSAGE, enquiryPurposeLabel, normaliseTransactionPurpose, TRANSACTION_JOURNEYS } from "@/lib/transactions";
 
 const selectClass = "mt-1 flex min-h-11 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
 const emptyFields = { name: "", email: "", phone: "", business: "", loanAmount: "", timing: "", message: "", securityType: "", securityLocation: "", securityValue: "", existingDebt: "", repaymentPlan: "" };
@@ -84,7 +84,7 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
   return (
     <form name={formName} method="POST" action="/" data-netlify="true" data-netlify-honeypot="bot-field" data-enquiry-ready={ready ? "true" : "false"} aria-busy={!ready} onSubmit={handleSubmit} className={"transaction-enquiry space-y-6 " + className}>
       <input type="hidden" name="form-name" value={formName} />
-      <input type="hidden" name="loanType" value={TRANSACTION_JOURNEYS.find((journey) => journey.value === purpose)?.label || (purpose === "other" ? "Other business finance" : "")} />
+      <input type="hidden" name="loanType" value={enquiryPurposeLabel(purpose)} />
       <input type="hidden" name="landingPath" value={attribution.landing_path} />
       <input type="hidden" name="landingCategory" value={attribution.landing_category} />
       <input type="hidden" name="aiSource" value={attribution.ai_source} />
@@ -101,6 +101,7 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
           <select ref={purposeRef} id={id("purpose")} name="transactionPurpose" required value={purpose} onChange={(event) => setPurpose(event.target.value)} className={selectClass}>
             <option value="">Select a business purpose</option>
             {TRANSACTION_JOURNEYS.map((journey) => <option key={journey.value} value={journey.value}>{journey.label}</option>)}
+            <option value="private_lending">Private lending</option>
             <option value="other">Other business finance / unsure</option>
           </select>
         </div>
