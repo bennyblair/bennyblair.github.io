@@ -293,19 +293,10 @@ const BridgingFinance = () => {
             <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Who this service suits, and who it does not</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                ASIC&apos;s{" "}
-                <a
-                  href="https://moneysmart.gov.au/glossary/bridging-finance"
-                  className="text-accent underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  MoneySmart glossary
-                </a>{" "}
-                describes bridging finance as short-term finance covering the period between buying a new
-                property and selling an existing property. That consumer-style definition is not the
-                product Emet arranges. Emet discusses commercial and business-purpose bridging only,
-                secured by residential or commercial property, subject to lender assessment.
+                Emet discusses commercial and business-purpose bridging only, secured by residential or
+                commercial property, subject to lender assessment. Consumer bridging and home loans are
+                not offered. A consumer-style purchase-before-sale of a home is a different product and
+                is outside this service.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
