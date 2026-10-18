@@ -5,12 +5,18 @@ export const TRANSACTION_JOURNEYS = [
   { value: "equity_release", label: "Release equity for business", description: "Explore business funding against available property equity, including first or second mortgages.", path: "/services/first-second-mortgages" },
 ] as const;
 
-export type TransactionPurpose = typeof TRANSACTION_JOURNEYS[number]["value"] | "other" | "not_provided";
+export type TransactionPurpose = typeof TRANSACTION_JOURNEYS[number]["value"] | "private_lending" | "other" | "not_provided";
 
 export function normaliseTransactionPurpose(value: string | null | undefined): TransactionPurpose {
-  return TRANSACTION_JOURNEYS.some((journey) => journey.value === value) || value === "other"
+  return TRANSACTION_JOURNEYS.some((journey) => journey.value === value) || value === "other" || value === "private_lending"
     ? value as TransactionPurpose
     : "not_provided";
+}
+
+export function enquiryPurposeLabel(purpose: string) {
+  if (purpose === "private_lending") return "Private lending";
+  if (purpose === "other") return "Other business finance";
+  return TRANSACTION_JOURNEYS.find((journey) => journey.value === purpose)?.label || "";
 }
 
 export const ENQUIRY_RESPONSE_MESSAGE = "We aim to respond within 1-2 business days. Call us if a funding deadline is close.";
