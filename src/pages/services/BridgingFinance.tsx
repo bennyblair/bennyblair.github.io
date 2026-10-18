@@ -1,49 +1,131 @@
 import ServiceChapter from "@/components/ServiceChapter";
 import SEO from "@/components/SEO";
-import { generateServiceSchema } from "@/lib/schema-utils";
+import { generateFAQPageSchema, generateServiceSchema } from "@/lib/schema-utils";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
-import { BookOpen, Building2, Phone, FileText, TrendingUp, Shield, ArrowRight } from "lucide-react";
+import {
+  AlertTriangle,
+  ArrowRight,
+  BookOpen,
+  Building2,
+  ClipboardList,
+  FileText,
+  Phone,
+  Scale,
+  Shield,
+} from "lucide-react";
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
-import FinanceDecisionSupport from "@/components/FinanceDecisionSupport";
+import PropertyFinanceDisclosure from "@/components/PropertyFinanceDisclosure";
 
 const BridgingFinance = () => {
   const faqs: FAQItem[] = [
     {
-      question: "What types of security are accepted?",
-      answer: "Commercial or residential property may be considered, depending on lender policy and the transaction. Security can include the property being purchased, existing holdings or a combination, subject to valuation, existing debt and title requirements."
+      question: "Does Emet Capital fund bridging loans?",
+      answer:
+        "No. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans. It structures the transaction, compares third-party lender responses on the same assumptions, and coordinates the application. Approval, terms and settlement remain with the lender and its advisers.",
     },
     {
-      question: "How fast can approval take?",
-      answer: "A complete file may be assessed more efficiently, but no responsible party can promise a fixed decision or settlement time. Timing depends on valuation, legal requirements, lender appetite, third parties and borrower readiness."
+      question: "Why use a bridging finance broker instead of approaching a lender directly?",
+      answer:
+        "A broker can test whether the exit is open or closed, write a delayed-exit plan and compare net proceeds before a file is circulated. That reduces applications to lenders that cannot assess the security, timing or repayment event. A direct approach can still work when the borrower already knows a suitable lender and the file is complete.",
     },
     {
-      question: "Are these loans available Australia-wide?",
-      answer: "Emet Capital can assess commercial bridging enquiries from across Australia. Lender availability depends on property location and type, borrower circumstances, purpose, security and exit evidence."
+      question: "How should I compare bridging finance brokers?",
+      answer:
+        "Compare how each broker will test the exit, delayed-exit plan and net proceeds; what they charge and when it becomes payable; which documents they need first; and whether they will explain remaining lender conditions. business.gov.au notes that a business loan broker can help compare options and that you should confirm who you are dealing with. Speed claims are not a substitute for a complete file.",
     },
     {
-      question: "Is this for business purposes only?",
-      answer: "Yes, these are commercial lending products for business purposes only. Consumer bridging loans are not offered."
-    }
+      question: "What should a broker test before sending a bridging file to lenders?",
+      answer:
+        "Before approaching lenders, a broker should map the amount, date and business purpose; classify the exit as open or closed on today's evidence; calculate peak debt if that exit is delayed; and list missing documents. If the delayed-exit plan cannot cover interest, known fees and a later repayment, the file should pause rather than be circulated.",
+    },
+    {
+      question: "What happens if the planned bridging exit is delayed?",
+      answer:
+        "A delayed sale, refinance or registration can increase the amount owing if interest is capitalised, and it can trigger extension or default provisions in the facility documents. The delayed-exit plan should say how peak debt will still be repaid and which fallback is realistic. Timing still depends on valuation, legal work, lender assessment and third parties; no broker can promise a settlement date.",
+    },
+  ];
+
+  const serviceSchema = generateServiceSchema(
+    "Commercial Bridging Finance Broker",
+    "Emet Capital is a commercial finance broker that structures and arranges Australian commercial bridging finance. It is not a lender and does not fund loans.",
+    "https://emetcapital.com.au/services/bridging-finance",
+    "AU",
+  );
+
+  const documents = [
+    "Identification and entity documents for the borrower, trustees and guarantors",
+    "The contract, maturity notice or other document that shows the amount and the required date",
+    "Title, ownership, valuation evidence and statements for existing secured debt",
+    "A one-page summary of the business purpose, net funds required and proposed security",
+    "Sale-exit evidence such as an agency agreement, campaign status or an exchanged contract",
+    "Refinance-exit evidence such as the actual assessment stage and outstanding conditions",
+    "A delayed-exit plan that tests peak debt if the primary event slips",
+    "Solicitor details and, where relevant, financial reports, cash-flow information and lease material",
+  ];
+
+  const processSteps = [
+    {
+      title: "Map the transaction",
+      detail:
+        "Record the amount, required date, business purpose, security, existing debt and the exact shortfall to be funded. Flag unknowns instead of estimating them.",
+    },
+    {
+      title: "Run the open versus closed exit test",
+      detail:
+        "Classify the repayment event on today's evidence, not on the hoped-for date. Note every condition that still sits with a valuer, incoming lender, purchaser or authority.",
+    },
+    {
+      title: "Write the delayed-exit plan",
+      detail:
+        "State the fallback if the sale, refinance or registration is late, and calculate peak debt including capitalised interest and known fees.",
+    },
+    {
+      title: "Compare net proceeds on the same assumptions",
+      detail:
+        "Put eligible lender responses on one sheet covering net cash at settlement, amount owing at the planned exit, and amount owing at the delayed-exit date.",
+    },
+    {
+      title: "Assemble the document pack",
+      detail:
+        "Collect identity, entity, title, debt, transaction and exit evidence. Identify gaps before a lender, valuer or lawyer has to ask for them.",
+    },
+    {
+      title: "Approach lenders that can assess this file",
+      detail:
+        "Circulate a decision-ready summary to lenders whose appetite matches the security, purpose and exit type. Indicative terms are not an approval.",
+    },
+    {
+      title: "Coordinate conditions, legal work and settlement",
+      detail:
+        "Track valuation, legal documents, consents and discharge mechanics. The lender and its advisers still control assessment and settlement.",
+    },
   ];
 
   return (
     <>
-      <SEO 
-        title="Commercial Bridging Finance Australia | Emet Capital"
-        description="Compare commercial bridging finance for property settlement and refinance gaps. Understand security, total cost, exit evidence, risks and lender assessment."
+      <SEO
+        title="Commercial Bridging Finance Broker Australia | Emet Capital"
+        description="Emet Capital is a commercial finance broker, not a lender. We structure commercial bridging finance around the exit test, delayed-exit plan, net proceeds and documents."
         canonical="/services/bridging-finance"
-        keywords="bridging finance, bridging loans, short term property loans, auction finance, settlement bridge loans"
-        schemas={[generateServiceSchema(
-          "Bridging Finance",
-          "Short-term finance for property purchases and time-sensitive opportunities",
-          "https://emetcapital.com.au/services/bridging-finance"
-        )]}
+        keywords="commercial bridging finance broker Australia, arrange bridging finance, open vs closed bridging loan, bridging loan exit plan, commercial bridging finance"
+        schemas={[
+          {
+            ...serviceSchema,
+            provider: {
+              ...serviceSchema.provider,
+              "@type": "Organization",
+              description: "Commercial finance broker. Emet Capital does not fund loans.",
+            },
+            serviceType: "Commercial bridging finance brokerage",
+          },
+          generateFAQPageSchema(faqs),
+        ]}
       />
 
       <div className="min-h-screen py-8">
@@ -51,24 +133,27 @@ const BridgingFinance = () => {
           <Breadcrumbs items={[
             { label: "Home", href: "/" },
             { label: "Services", href: "/services" },
-            { label: "Bridging Finance" }
+            { label: "Bridging Finance" },
           ]} />
 
-          {/* Hero Section */}
           <div className="page-header text-center max-w-4xl mx-auto mb-16">
-            <Badge className="mb-4 bg-accent/10 text-accent">Short-Term Finance</Badge>
+            <Badge className="mb-4 bg-accent/10 text-accent">Commercial finance broker</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Commercial Bridging Finance Australia
+              Commercial bridging finance, arranged by a broker
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Cover a business-purpose purchase, refinance or funding gap against residential or commercial property.
-              Start with the amount, required date and evidence of the sale, refinance or other event that will repay the bridge.
+              Emet Capital is a commercial finance broker, not a lender, and it does not fund loans.
+              We structure and arrange business-purpose bridging finance when a commercial purchase,
+              refinance or other property-backed obligation has a date, and repayment depends on a
+              documented sale, refinance or similar event. It may suit a business owner, investor or
+              developer with usable property security and an evidenced repayment path. Consumer bridging
+              and home loans are not offered.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
                 <Link to="/contact?purpose=bridge" data-analytics-event="service_enquiry" data-transaction-purpose="bridge">
                   <FileText className="mr-2 h-5 w-5" />
-                  Discuss Your Transaction
+                  Discuss your bridging transaction
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -80,333 +165,502 @@ const BridgingFinance = () => {
             </div>
           </div>
 
-          {/* Main Content */}
+          <PropertyFinanceDisclosure />
+
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
-            {/* What this service is */}
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">What is Bridging Finance?</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">What this service page answers</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Bridging finance is short-term property-backed funding used to cover a defined timing gap before an expected exit, such as a property sale or refinance. It can support commercial acquisitions, settlements and refinance transitions, but it does not remove timing risk: the proposed exit and a contingency plan should be tested before the facility is accepted.
+                The reader question here is not “what is bridging finance?” It is “who arranges a
+                commercial bridging loan, and how would they structure mine?” Emet Capital packages the
+                transaction, tests the exit, and approaches third-party lenders. It does not advance the
+                money.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                The security may include the property being acquired, an existing property or both, depending on the lender and transaction. Interest may be paid or capitalised, but capitalisation increases the balance and can reduce the equity buffer. Compare net proceeds, total repayment, default and extension terms—not only the stated interest rate.
+                Definitions sit on{" "}
+                <Link to="/resources/guides/what-is-bridging-finance" className="text-accent underline">
+                  what bridging finance is
+                </Link>
+                . Lender-type comparison sits on the{" "}
+                <Link to="/resources/guides/best-bridging-loan-lenders-companies-2025" className="text-accent underline">
+                  bridging loan lenders guide
+                </Link>
+                . Education on peak debt, cost components and alternatives sits on the{" "}
+                <Link to="/resources/guides/bridging-finance-australia-complete-property-guide" className="text-accent underline">
+                  complete bridging finance guide
+                </Link>
+                . This page explains the broker method: the open versus closed exit test, the delayed-exit
+                plan, net proceeds, documents and the process steps we actually run.
               </p>
             </ServiceChapter>
 
-            {/* Who this service is for */}
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Who This Service Is For</h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Bridging finance may suit property investors, business owners and developers with a specific commercial transaction and a time-bounded exit. Common scenarios include purchasing before another property settles, a refinance that cannot complete by the current maturity date, or a temporary gap before a longer-term commercial facility is ready.
+              <h2 className="text-3xl font-bold text-foreground mb-4">How Emet structures a commercial bridge</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                A bridging file is a timing problem attached to a repayment event. The structure follows
+                the quality of that event, not a product name.{" "}
+                <Link to="/about/ben" className="text-accent underline">
+                  Ben
+                </Link>
+                , a commercial finance broker at Emet Capital with 10 years&apos; experience in private
+                lending, works bridging files around three tests before any lender is approached.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                This is commercial and business-purpose lending only—no consumer bridging loans are provided. The borrower should be able to evidence the property position, peak debt, transaction purpose and a repayment exit such as sale, refinance or a documented business receipt. A bridge is a poor fit where the exit is only an aspiration or the downside cannot be absorbed.
-              </p>
+
+              <div className="space-y-6">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <Scale className="mr-2 h-5 w-5 text-accent" />
+                      1. Open versus closed exit test
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      Classify the exit on evidence available today. A closed exit has a contracted sale
+                      with a settlement date, or a refinance that has a documented completion path.
+                      An open exit is expected but not locked: the property is still being marketed, the
+                      incoming lender has not finished credit, or a subdivision plan is not registered.
+                    </p>
+                    <p>
+                      The test is practical. What remaining conditions sit outside the borrower&apos;s
+                      control? Valuation, purchaser finance, incoming-lender policy, council or titles
+                      office timing can all move a supposedly closed file back to open. Labels do not
+                      change the risk. The{" "}
+                      <Link to="/resources/guides/open-vs-closed-bridging-loan-complete-comparison" className="text-accent underline">
+                        open versus closed comparison guide
+                      </Link>{" "}
+                      explains the education; this page uses the test to decide how the file is packaged.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <AlertTriangle className="mr-2 h-5 w-5 text-accent" />
+                      2. Delayed-exit plan
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      Write what happens if the primary event is late. A delayed-exit plan is a working
+                      note, not a hope that “it should be fine”. It should name the primary exit, the
+                      evidence, the conditions still outstanding, the fallback, and how peak debt is paid
+                      if interest is capitalised during the delay.
+                    </p>
+                    <p>
+                      Fallback examples include a later refinance of the same asset, sale of another
+                      holding, a partial discharge, or injecting equity. If none of those can be evidenced,
+                      the file should pause. See the{" "}
+                      <Link to="/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path" className="text-accent underline">
+                        bridging loan exit-strategy guide
+                      </Link>{" "}
+                      for the education layer, and the{" "}
+                      <Link to="/resources/guides/bridging-loan-exit-strategy-broker-take" className="text-accent underline">
+                        broker-take exit checklist
+                      </Link>{" "}
+                      for the questions we still ask when a plan looks tidy on paper.
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center text-lg">
+                      <ClipboardList className="mr-2 h-5 w-5 text-accent" />
+                      3. Net proceeds on the same assumptions
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      Compare facilities as cash, not as a headline rate. Net proceeds is the amount
+                      available at settlement after prepaid or capitalised interest, establishment,
+                      valuation, legal, brokerage and any amount used to discharge existing debt.
+                      Peak debt is the amount owing at the planned exit and at the delayed-exit date.
+                    </p>
+                    <p>
+                      Put every indicative response on one assumptions sheet: same amount, same security,
+                      same exit date, same delay scenario. A cheaper-looking rate can leave less cash at
+                      settlement or a higher balance if the exit slips. Extension, default and control
+                      rights belong on that sheet as well. Emet does not quote a standard price; costs
+                      depend on the lender and the transaction.
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
             </ServiceChapter>
 
-            {/* How Emet Capital helps */}
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital Helps</h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                As commercial finance brokers, we assess the transaction, security position, required date and exit evidence before approaching lenders able to consider that scenario. We compare indicative terms on the same assumptions so differences in net proceeds, interest treatment, fees and extension provisions are visible.
+              <h2 className="text-3xl font-bold text-foreground mb-4">Who this service suits, and who it does not</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                ASIC&apos;s{" "}
+                <a
+                  href="https://moneysmart.gov.au/glossary/bridging-finance"
+                  className="text-accent underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  MoneySmart glossary
+                </a>{" "}
+                describes bridging finance as short-term finance covering the period between buying a new
+                property and selling an existing property. That consumer-style definition is not the
+                product Emet arranges. Emet discusses commercial and business-purpose bridging only,
+                secured by residential or commercial property, subject to lender assessment.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                We help assemble the transaction and security pack, test exit assumptions and coordinate information requested by lenders, valuers and lawyers. Timing depends on the complete transaction and third parties, so the focus is a decision-ready file and a realistic timetable rather than a promised date.
-              </p>
-            </ServiceChapter>
-
-            {/* Key decision factors */}
-            <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Key Decision Factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
                   <CardHeader>
-                    <CardTitle className="flex items-center text-lg">
-                      <Building2 className="mr-2 h-5 w-5 text-accent" />
-                      Loan Ranges & Terms
-                    </CardTitle>
+                    <CardTitle className="text-lg">It may suit</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      Facility size and term depend on security value, existing debt, property type, serviceability where required, purpose and the evidence supporting the exit.
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      {[
+                        "A commercial purchase or auction settlement with a fixed date and a documented repayment event.",
+                        "A refinance that cannot complete by an existing maturity, with evidence of the incoming path.",
+                        "A subdivision or residual-stock timing gap where registration or lot settlement is delayed.",
+                        "A borrower who can evidence title, existing debt, business purpose and a delayed-exit fallback.",
+                        "A comparison of the cost of bridging with the commercial cost of missing the transaction.",
+                      ].map((item) => (
+                        <li key={item} className="flex gap-2">
+                          <span aria-hidden="true" className="mt-0.5 text-accent">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="text-lg">It is a poor fit when</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      {[
+                        "The purpose is personal, domestic or a consumer home-loan bridge.",
+                        "There is no defined repayment event, only an aspiration that something will sell or refinance.",
+                        "Peak debt after a delay cannot be absorbed from equity, cash or another evidenced source.",
+                        "Title, existing mortgages or authority to borrow have not been checked.",
+                        "A conventional facility can meet the date at lower risk, or the transaction should not proceed.",
+                      ].map((item) => (
+                        <li key={item} className="flex gap-2">
+                          <span aria-hidden="true" className="mt-0.5 text-accent">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Process steps, without a promised timetable</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Timing depends on valuation, legal work, lender appetite, third parties and how complete
+                the file is. A broker can sequence the work. No responsible party can promise a decision
+                or settlement date. The steps below are the order we use, not a turnaround claim.
+              </p>
+              <ol className="grid gap-4">
+                {processSteps.map((step, index) => (
+                  <li key={step.title} className="flex gap-4">
+                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent/10 font-semibold text-accent">
+                      {index + 1}
+                    </span>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-1">{step.title}</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">{step.detail}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Documents for a bridging assessment</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                The Australian Government&apos;s{" "}
+                <a
+                  href="https://business.gov.au/finance/funding/apply-for-a-business-loan"
+                  className="text-accent underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  business-loan preparation guide
+                </a>{" "}
+                lists identification, a business plan, financial reports, cash-flow information, forecasts
+                and lease agreements as possible application inputs. A property-backed bridge also needs
+                the transaction, title, existing debt and exit evidence. Requirements vary by lender;
+                missing items delay assessment more often than extra items do.
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                {documents.map((item) => (
+                  <Card key={item}>
+                    <CardContent className="p-4 text-sm text-muted-foreground leading-relaxed flex gap-3">
+                      <Shield className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span>{item}</span>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed mt-4">
+                Send identification and sensitive financial records only through an appropriate secure
+                process. Flag conflicting balances rather than smoothing them.
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">HYPOTHETICAL scenarios</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                The three illustrations below are labelled HYPOTHETICAL. They are not Emet Capital
+                clients, completed transactions, case studies or indications of approval. They show how
+                the exit test, delayed-exit plan and net-proceeds comparison change the file.
+              </p>
+
+              <div className="space-y-6">
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="outline">HYPOTHETICAL</Badge>
+                    </div>
+                    <CardTitle className="text-lg">HYPOTHETICAL: auction settlement before sale</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      A company buys a commercial property at auction while another holding is still
+                      being marketed. The purchase date is fixed. The sale is not contracted, so the
+                      exit test returns open. The delayed-exit plan asks what peak debt looks like if
+                      the sale campaign runs longer, and whether another property or a later refinance
+                      can repay the bridge. Net proceeds must still leave enough cash to settle after
+                      known costs.
+                    </p>
+                    <p>
+                      This HYPOTHETICAL is an illustration of the method, not a result. For the education
+                      layer, see the{" "}
+                      <Link to="/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide" className="text-accent underline">
+                        commercial bridging for auctions guide
+                      </Link>{" "}
+                      and the{" "}
+                      <Link to="/resources/guides/bridging-finance-auction-settlement-case-study" className="text-accent underline">
+                        auction-settlement case-study pattern
+                      </Link>
+                      .
                     </p>
                   </CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <CardTitle className="flex items-center text-lg">
-                      <TrendingUp className="mr-2 h-5 w-5 text-accent" />
-                      Suitable Use Cases
-                    </CardTitle>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="outline">HYPOTHETICAL</Badge>
+                    </div>
+                    <CardTitle className="text-lg">HYPOTHETICAL: commercial purchase before refinance</CardTitle>
                   </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      Purchase-before-sale transactions, auction settlements, refinance transitions and other defined property timing gaps with an evidenced exit.
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      A business exchanges on a premises purchase while a longer-term commercial
+                      refinance of the same or another property is still in credit. If the incoming
+                      lender has outstanding valuation or legal conditions, the exit is open even when
+                      everyone expects it to complete. The delayed-exit plan records those conditions
+                      and tests peak debt if the refinance slips past the purchase date. Net proceeds
+                      compare a short-term bridge against the cost of missing settlement.
+                    </p>
+                    <p>
+                      This HYPOTHETICAL is not a completed Emet file. Compare the refinance pathway on{" "}
+                      <Link to="/services/refinancing-solutions" className="text-accent underline">
+                        commercial property refinancing
+                      </Link>{" "}
+                      and the{" "}
+                      <Link to="/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path" className="text-accent underline">
+                        exit-strategy guide
+                      </Link>
+                      . A dedicated case-study guide for this exact purchase-before-refinance pattern is
+                      not published; those two pages are the live resources.
                     </p>
                   </CardContent>
                 </Card>
 
                 <Card>
                   <CardHeader>
-                    <CardTitle className="flex items-center text-lg">
-                      <Shield className="mr-2 h-5 w-5 text-accent" />
-                      Property-Based Security
-                    </CardTitle>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="outline">HYPOTHETICAL</Badge>
+                    </div>
+                    <CardTitle className="text-lg">HYPOTHETICAL: subdivision registration delay</CardTitle>
                   </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      Secured by commercial or residential property. Security arrangements include property being purchased, existing holdings, or combined positions depending on loan-to-value requirements.
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      A developer needs to hold or complete a facility while plan registration is late
+                      and lot settlements cannot occur. The primary exit is registration plus lot
+                      settlements, which is open until the plan is actually registered. The delayed-exit
+                      plan tests residual-stock timing, whether an incumbent extension is available, and
+                      how peak debt behaves if further lots are delayed. Net proceeds must still cover
+                      holding costs without treating unsold lots as cash.
                     </p>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="flex items-center text-lg">
-                      <FileText className="mr-2 h-5 w-5 text-accent" />
-                      Decision-ready process
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      A complete transaction, debt, security and exit pack can reduce avoidable questions. The lender and its advisers still control assessment, conditions and settlement.
+                    <p>
+                      This HYPOTHETICAL is an illustration only. The existing{" "}
+                      <Link to="/resources/guides/bridging-finance-subdivision-registration-delay-australia" className="text-accent underline">
+                        subdivision registration delay guide
+                      </Link>{" "}
+                      covers the education, evidence and option comparison for that pattern.
                     </p>
                   </CardContent>
                 </Card>
               </div>
             </ServiceChapter>
 
-            <FinanceDecisionSupport
-              heading="Bridging Finance Fit, Evidence and Exit Checks"
-              summary="A bridge should connect a current obligation to a plausible, documented exit. The strongest files show both the primary exit and what happens if it is delayed."
-              suitable={[
-                "A commercial purchase or refinance has a fixed settlement or maturity date.",
-                "The primary exit is a documented sale, refinance or other identifiable liquidity event.",
-                "The property security and existing debt leave room for interest, fees and a delay buffer.",
-                "The borrower has compared the cost of bridging with the commercial cost of missing the transaction.",
-              ]}
-              unsuitable={[
-                "There is no defined repayment event within the proposed term.",
-                "The sale exit assumes an unsupported price or an unrealistically short marketing period.",
-                "The refinance exit has not been checked against serviceability, valuation and lender policy.",
-                "The transaction is consumer-purpose or a conventional facility can meet the deadline at lower risk.",
-              ]}
-              evidence={[
-                { label: "Transaction", detail: "Executed contract, settlement statement, current loan statement or maturity notice showing amount and deadline." },
-                { label: "Security", detail: "Ownership and title information, existing debt, valuation evidence, leases and relevant property documents." },
-                { label: "Sale exit", detail: "Agency agreement, campaign status, comparable evidence, sale contract if available and a realistic settlement allowance." },
-                { label: "Refinance exit", detail: "Lender or broker progress, financial information, valuation assumptions and outstanding approval conditions." },
-              ]}
-              process={[
-                "Map the current obligation, settlement date and exact funding shortfall.",
-                "Calculate the peak balance including capitalised interest and known fees.",
-                "Validate the primary exit and model a delayed-exit contingency.",
-                "Compare eligible lenders using one written assumptions sheet.",
-                "Review legal documents, control events, extensions and discharge mechanics before settlement.",
-              ]}
-              decisionRows={[
-                { question: "Is the bridge open or closed?", whyItMatters: "A contracted exit differs materially from a property that still needs to be marketed or a refinance that is not approved." },
-                { question: "What is the peak debt at the delayed-exit date?", whyItMatters: "Capitalised interest and fees can erode the equity buffer during a delay." },
-                { question: "Which approval conditions are outside the borrower's control?", whyItMatters: "Valuation, consent, legal and incoming-lender conditions can prevent the planned timetable." },
-                { question: "What are the extension and default mechanics?", whyItMatters: "A low initial rate can be outweighed by extension fees, default pricing or restrictive control rights." },
-              ]}
-            />
-
-            {/* Eligibility & next steps */}
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Eligibility & Next Steps</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Capital helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                A lender may require entity and authority documents, a contract or current facility statement, property and title information, valuation evidence, existing-debt details, financial information and support for the proposed sale or refinance exit. Requirements vary by transaction and lender; business purpose, security and an evidenced repayment path are core assessment inputs.
+                As commercial finance brokers, we provide access to over 50 lenders nationwide, including
+                major banks, regional lenders, and private capital providers. Availability and lender
+                appetite vary by transaction. We do not fund the loan and we do not choose a lender
+                until the exit test, delayed-exit plan and document gaps are visible.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                To request an initial assessment, provide the exact funding shortfall, required date, transaction documents, security position and exit evidence. We can identify gaps and explain which lender pathways may fit, but indicative terms, approval and settlement remain subject to the complete file and third parties.
+                Begin with the amount, required date, security, existing debt and the evidence for the
+                repayment event. We will say what is missing for an initial discussion. Lender
+                assessment, valuation, legal work and complete documentation determine whether and when
+                a proposal can proceed.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact?purpose=bridge" data-analytics-event="service_enquiry" data-transaction-purpose="bridge"><FileText className="mr-2 h-5 w-5" />Start Application</Link>
+                  <Link to="/contact?purpose=bridge" data-analytics-event="service_enquiry" data-transaction-purpose="bridge">
+                    <FileText className="mr-2 h-5 w-5" />
+                    Discuss your bridging transaction
+                  </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:0485952651"><Phone className="mr-2 h-5 w-5" />Speak with Specialist</a>
+                  <a href="tel:0485952651">
+                    <Phone className="mr-2 h-5 w-5" />
+                    Speak with Specialist
+                  </a>
                 </Button>
               </div>
             </ServiceChapter>
 
-            {/* Guides & Resources Section */}
             <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
-                Guides & Resources
+                Guides that answer neighbouring questions
               </h2>
               <p className="text-muted-foreground mb-6">
-                Explore our in-depth guides to learn more about this financing option before you apply.
+                Use these pages for definition, lender comparison, education and broker-selection
+                detail. This service page stays on how Emet structures and arranges the file.
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-
-              {/* Pillar Guide - Featured */}
-              <div className="md:col-span-2 lg:col-span-3">
-                <a 
-                  href="/resources/guides/bridging-finance-australia-complete-property-guide"
-                  className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
-                >
-                  <div className="flex items-start gap-4">
-                    <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="text-xl font-semibold text-foreground mb-2">Complete Bridging Finance Guide</h3>
-                      <p className="text-muted-foreground mb-3">Model peak debt, compare exit evidence, understand total cost and test delayed-settlement risk.</p>
-                      <span className="text-accent font-medium inline-flex items-center">
-                        Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
-                      </span>
+                <div className="md:col-span-2 lg:col-span-3">
+                  <Link
+                    to="/resources/guides/bridging-finance-australia-complete-property-guide"
+                    className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
+                  >
+                    <div className="flex items-start gap-4">
+                      <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
+                      <div>
+                        <h3 className="text-xl font-semibold text-foreground mb-2">Complete Bridging Finance Guide</h3>
+                        <p className="text-muted-foreground mb-3">
+                          Education on peak debt, total cost, delayed-settlement risk and alternatives.
+                        </p>
+                        <span className="text-accent font-medium inline-flex items-center">
+                          Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                </a>
-              </div>
-
-              <a 
-                href="/resources/guides/best-bridging-loan-lenders-companies-2025"
-                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
-              >
-                <h3 className="font-semibold text-foreground mb-2">Bridging Loan Lenders Guide</h3>
-                <p className="text-sm text-muted-foreground mb-2">Compare lender types, criteria, security, and timing considerations for bridging finance.</p>
-                <span className="text-accent text-sm inline-flex items-center">
-                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
-                </span>
-              </a>
-              <a 
-                href="/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide"
-                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
-              >
-                <h3 className="font-semibold text-foreground mb-2">Commercial Bridging for Auctions</h3>
-                <p className="text-sm text-muted-foreground mb-2">Strategies for unconditional bidding at commercial property auctions.</p>
-                <span className="text-accent text-sm inline-flex items-center">
-                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
-                </span>
-              </a>
-              <a 
-                href="/resources/guides/commercial-property-development-finance"
-                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
-              >
-                <h3 className="font-semibold text-foreground mb-2">Bridging Finance for Developers</h3>
-                <p className="text-sm text-muted-foreground mb-2">Project funding solutions between development phases and construction draws.</p>
-                <span className="text-accent text-sm inline-flex items-center">
-                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
-                </span>
-              </a>
-              <a 
-                href="/resources/guides/short-term-property-loans-when-you-need-fast-finance"
-                className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
-              >
-                <h3 className="font-semibold text-foreground mb-2">Short-Term Property Loans</h3>
-                <p className="text-sm text-muted-foreground mb-2">Short-term property funding options when timing and exit planning matter.</p>
-                <span className="text-accent text-sm inline-flex items-center">
-                  Read Guide <ArrowRight className="ml-1 h-3 w-3" />
-                </span>
-              </a>
+                  </Link>
+                </div>
+                <Link
+                  to="/resources/guides/what-is-bridging-finance"
+                  className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+                >
+                  <h3 className="font-semibold text-foreground mb-2">What is Bridging Finance?</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Definition, common uses, risks and alternatives.</p>
+                  <span className="text-accent text-sm inline-flex items-center">
+                    Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                  </span>
+                </Link>
+                <Link
+                  to="/resources/guides/best-bridging-loan-lenders-companies-2025"
+                  className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+                >
+                  <h3 className="font-semibold text-foreground mb-2">Bridging Loan Lenders Guide</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Compare lender types, criteria, security and timing considerations.</p>
+                  <span className="text-accent text-sm inline-flex items-center">
+                    Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                  </span>
+                </Link>
+                <Link
+                  to="/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide"
+                  className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
+                >
+                  <h3 className="font-semibold text-foreground mb-2">How to Choose a Bridging Loan Broker</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Questions, warning signs and how to assess broker fit.</p>
+                  <span className="text-accent text-sm inline-flex items-center">
+                    Read Guide <ArrowRight className="ml-1 h-3 w-3" />
+                  </span>
+                </Link>
               </div>
             </ServiceChapter>
 
-
-            {/* FAQs */}
             <FAQSection faqs={faqs} />
           </div>
 
           <DiscoveryGuides service="bridging-finance" />
 
-          {/* Related Reading */}
           <RelatedReading articles={[
-            { title: "Bridging Finance Australia: Complete Property Guide", slug: "bridging-finance-australia-complete-property-guide", description: "Peak debt, exit evidence, total cost, timing risk and alternatives" },
-            { title: "Commercial Bridging Finance for Auction Purchases", slug: "commercial-bridging-loans-for-property-auctions-expert-guide", description: "How to assess an auction bridge before making an unconditional commitment" },
-            { title: "Bridge Lending for Commercial Property", slug: "bridge-lending-australia-commercial-property", description: "How commercial property bridge lending is structured and assessed" }
+            {
+              title: "Bridging Finance Australia: Complete Property Guide",
+              slug: "bridging-finance-australia-complete-property-guide",
+              description: "Peak debt, exit evidence, total cost, timing risk and alternatives",
+            },
+            {
+              title: "Commercial Bridging Finance for Auction Purchases",
+              slug: "commercial-bridging-loans-for-property-auctions-expert-guide",
+              description: "How to assess an auction bridge before making an unconditional commitment",
+            },
+            {
+              title: "How to Choose a Bridging Loan Broker in Australia",
+              slug: "how-to-choose-a-bridging-loan-broker-expert-selection-guide",
+              description: "Questions to ask when comparing brokers who arrange commercial bridges",
+            },
           ] as RelatedArticle[]} />
 
-          {/* City-Specific Pages */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Bridging Finance by City</h2>
             <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Review property-location considerations for major Australian markets. Finance remains subject to the transaction, security, borrower and lender rather than the city label alone.
+              Review property-location considerations for major Australian markets. Finance remains subject
+              to the transaction, security, borrower and lender rather than the city label alone.
             </p>
             <div className="grid md:grid-cols-3 gap-6">
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-lg">Sydney</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Commercial auction, purchase-before-sale and development timing scenarios involving Sydney property.</p>
-                  <Link to="/services/bridging-finance/cities/sydney" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
-                    Sydney Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-lg">Melbourne</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Melbourne property.</p>
-                  <Link to="/services/bridging-finance/cities/melbourne" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
-                    Melbourne Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-lg">Brisbane</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Brisbane property.</p>
-                  <Link to="/services/bridging-finance/cities/brisbane" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
-                    Brisbane Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-lg">Perth</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Perth property.</p>
-                  <Link to="/services/bridging-finance/cities/perth" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
-                    Perth Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-lg">Adelaide</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Adelaide property.</p>
-                  <Link to="/services/bridging-finance/cities/adelaide" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
-                    Adelaide Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </CardContent>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-lg">Gold Coast</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Gold Coast property.</p>
-                  <Link to="/services/bridging-finance/cities/gold-coast" className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
-                    Gold Coast Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </CardContent>
-              </Card>
+              {[
+                ["Sydney", "/services/bridging-finance/cities/sydney", "Commercial auction, purchase-before-sale and development timing scenarios involving Sydney property."],
+                ["Melbourne", "/services/bridging-finance/cities/melbourne", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Melbourne property."],
+                ["Brisbane", "/services/bridging-finance/cities/brisbane", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Brisbane property."],
+                ["Perth", "/services/bridging-finance/cities/perth", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Perth property."],
+                ["Adelaide", "/services/bridging-finance/cities/adelaide", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Adelaide property."],
+                ["Gold Coast", "/services/bridging-finance/cities/gold-coast", "Valuation, title, legal and lender-coverage considerations for bridging scenarios involving Gold Coast property."],
+              ].map(([city, href, copy]) => (
+                <Card key={href} className="hover:shadow-lg transition-shadow">
+                  <CardHeader>
+                    <CardTitle className="text-lg">{city}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground mb-4">{copy}</p>
+                    <Link to={href} className="text-accent hover:underline inline-flex items-center text-sm font-semibold">
+                      {city} Bridging Finance <ArrowRight className="ml-1 h-4 w-4" />
+                    </Link>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </section>
 
-          {/* Related Services */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Related Services</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Commercial Property Finance</CardTitle>
+                  <CardTitle className="text-lg flex items-center gap-2">
+                    <Building2 className="h-5 w-5 text-accent" />
+                    Commercial Property Finance
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">Commercial property settlement, purchase, and refinance structures</p>
@@ -415,7 +669,6 @@ const BridgingFinance = () => {
                   </Link>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">Caveat Loans</CardTitle>
@@ -427,14 +680,13 @@ const BridgingFinance = () => {
                   </Link>
                 </CardContent>
               </Card>
-
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Property Development</CardTitle>
+                  <CardTitle className="text-lg">Refinancing Solutions</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Construction and development project finance</p>
-                  <Link to="/services/commercial-property-development" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Compare a longer-term refinance when that is the planned bridging exit</p>
+                  <Link to="/services/refinancing-solutions" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
