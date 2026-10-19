@@ -54,8 +54,8 @@ For a caveat or other short-term property-backed commercial file, broking also m
 A useful broker process is the same whether the firm is Emet Capital or another broker. The order below is a working sequence, not a promise of speed or approval.
 
 1. **Facts.** Confirm the legal borrowers, directors, trustees and guarantors; the exact amount needed; the required date; and who will sign.
-2. **Title and security.** Establish ownership, existing mortgages and caveats, ranking, consent issues and whether a caveat structure is even a lawful and practical security method for this property.
-3. **Purpose.** Document a genuine business purpose. Consumer or household use is outside this market.
+2. **Title and security.** Establish ownership, existing mortgages and caveats, ranking and consent issues. Check that the proposed caveatable interest is documented and flag it for the borrower’s lawyer.
+3. **Purpose.** Document a genuine business purpose. Emet Capital arranges commercial and business-purpose caveat loans and does not arrange consumer finance.
 4. **Exit.** Identify the primary repayment event, the evidence already in hand, remaining steps and a fallback if that event is late.
 5. **Lender fit.** Explain which lender types may be able to assess this combination of property, title, purpose and exit—and which facts would exclude others.
 6. **Submission.** Send one consistent pack. Incomplete or contradictory versions sent to several lenders make the file harder to assess.
@@ -77,11 +77,11 @@ The broker’s job is to prepare that comparison. The lender’s job is to decid
 
 ## Check identity, ABN and authorisation
 
-business.gov.au tells borrowers to check who they’re dealing with. To make sure it’s a real company, search for the name or ABN on the Australian Securities and Investments Commission (ASIC) register.
+business.gov.au tells borrowers to check who they’re dealing with: confirm the business you deal with is a real registered company by searching for the name or ABN on the Australian Securities and Investments Commission (ASIC) register.
 
 ASIC’s [professional registers search](https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/) lets users search several registers at once to find out about a person or an organisation registered or licensed with ASIC to provide a service. Those registers include credit licensees and credit representatives. You can search by individual or company name, registration or licence number, ACN or ABN. Before you choose a professional, ASIC says you may want to check the professional is registered or licensed and the services they are licensed to provide.
 
-ASIC also explains [credit-representative arrangements](https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/), including that an authorisation is of no effect if the credit activity is not covered by the licensee’s licence.
+ASIC also explains [credit-representative arrangements](https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/), including that an authorisation is of no effect if the credit activities are not covered by the licensee’s licence, among other grounds.
 
 Commercial and business-purpose lending can involve different legal requirements from consumer credit. Do not infer from a register search alone that every activity is authorised—or that an absent result proves wrongdoing. Ask the broker to state the legal entity, role, and the credit licence, credit representative status or exemption relied on for this file, and obtain independent legal advice where the position is unclear.
 
@@ -177,7 +177,7 @@ They can identify a possible process and the remaining dependencies. Valuation, 
 
 ### How do I start with a broker?
 
-Review the [caveat loans service](/services/caveat-loans) and provide the purpose, security, current debt, deadline and exit evidence. General information only; not legal, tax or credit advice.
+Provide the purpose, security, current debt, deadline and exit evidence. General information only; not legal, tax or credit advice.
 
 ## Related Guides
 
