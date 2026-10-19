@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_caveat-directory-scope-20261020",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-19T20:56:21.829Z",
+    "score": 94,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "non-blocking",
+        "location": "src/content/guides/caveat-lenders-australia-directory-comparison.md:55",
+        "finding": "NSW LRS says a caveat prevents registration of dealings and/or plans. The page says dealings and plans. The exception wording matches the source."
+      },
+      {
+        "severity": "non-blocking",
+        "location": "src/content/guides/caveat-lenders-australia-directory-comparison.md:103",
+        "finding": "INFO 207 says the ASIC Act prohibits unconscionable conduct, misleading or deceptive conduct, and unfair contract terms in standard form small business contracts. The page adds the word still. The prohibited conduct matches the source."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/caveat-lenders-australia-directory-comparison.md",
+      "pageId": "pg_e1056093dce04b44a6c55690692a93df",
+      "path": "/resources/guides/caveat-lenders-australia-directory-comparison",
+      "beforeSha256": "461929e47f7213fea1b1c5d043b39218a4302123988ef2265a51c7f90148f23c",
+      "afterSha256": "a1b839a42ced05102d3691908272c8ba01322a703a49834a01e343935802c0cd",
+      "reason": "Scope/retitle, not a whole-body rewrite. Keep caveat lenders Australia ownership and the existing lender-type table plus comparison scorecard. Sharpen title/metaTitle/description/intro so the page owns caveat LENDER types and comparison and stops competing for 'caveat loan broker'. Remove that phrase from keywords; replace the exact-match service-page anchor 'caveat loan broker' with a descriptive [caveat loans](/services/caveat-loans) link; add one descriptive link to /resources/guides/find-caveat-loan-brokers-australia ('how to find and vet a caveat loan broker'); retitle the broker-selection heading and FAQ so this URL no longer answers broker-finding. State that Emet Capital is a commercial finance broker, not a lender, and does not fund loans. Light fact refresh of the two existing sources after live GET 200: NSW LRS caveat definition, ASIC INFO 207 commercial-loan protection wording. No rates, fees, LVRs, timelines, named or ranked lenders, deal volumes, results or credentials. No claims.json promotional statements used. Slug, canonical, featured image, author, publication date, contentRisk, reviewStatus, humanReviewRequired and protectedUntil are unchanged. The FAQ answer under 'What information do lenders usually need first?' is plain text with no markdown link, and the closing sentence states that Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders. Independent review of the prose at 88e4e98510ea2e15d81a6c8817cf59a28cbd31c7 scored 94 with no blockers. reviewedBy is OpenClaw independent reviewer, reviewedAt is 2026-10-19T20:56:21.829Z, and expiresAt is 2027-01-17T20:56:21.829Z (that instant plus the registered 90-day high-risk cadence). No review-metadata alias was present. The editor did not self-approve. Coupled package 5a (find-brokers) is not edited in this PR.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-7785f1c9-39ea-5e51-ac92-f4a86256afda"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-013a3a52-d845-51f3-8f35-004ac6d39ec7"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-5f09c377-bb98-592e-ba31-60a973c93f67"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "This page compares caveat lender types and their terms."
+        },
+        {
+          "kind": "text-added",
+          "value": "how to find and vet a caveat loan broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and does not fund loans."
+        },
+        {
+          "kind": "text-added",
+          "value": "the law provides the lowest level of protection to commercial loans, including loans to small businesses"
+        },
+        {
+          "kind": "text-removed",
+          "value": "A caveat loan broker can help package and compare a commercial scenario"
+        },
+        {
+          "kind": "text-removed",
+          "value": "What a caveat loan broker should do"
+        },
+        {
+          "kind": "text-removed",
+          "value": "What should I give a broker first?"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/find-caveat-loan-brokers-australia"
+        },
+        {
+          "kind": "text-added",
+          "value": "The complete caveat loan guide, linked under Related Guides, sets out the full preparation sequence."
+        },
+        {
+          "kind": "text-removed",
+          "value": "The [complete caveat loan guide](/resources/guides/caveat-loans-australia-complete-guide) contains the full preparation sequence."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-19T20:56:21.829Z",
+        "reviewedSourceSha256": "a1b839a42ced05102d3691908272c8ba01322a703a49834a01e343935802c0cd",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 94,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat",
+            "checkedAt": "2026-10-19T20:56:21.829Z",
+            "status": 200
+          },
+          {
+            "url": "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/",
+            "checkedAt": "2026-10-19T20:56:21.829Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "a caveat records a claim to an estate or interest in land and prevents the registration of dealings and plans, except for certain statutory exceptions and any specifically permitted dealings",
+            "sources": [
+              "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+            ]
+          },
+          {
+            "claim": "the law provides the lowest level of protection to commercial loans, including loans to small businesses",
+            "sources": [
+              "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
+            ]
+          },
+          {
+            "claim": "The ASIC Act still prohibits unconscionable conduct, misleading or deceptive conduct, and unfair contract terms in standard form small business contracts",
+            "sources": [
+              "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "FAQ answer contained a raw markdown link to the complete caveat loan guide",
+            "after": "The complete caveat loan guide, linked under Related Guides, sets out the full preparation sequence.",
+            "reason": "Prior review blocker: the FAQ answer and FAQPage JSON-LD exposed an unrendered markdown link."
+          },
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders.",
+            "reason": "Prior review blocker: the closing sentence read as lender positioning."
+          },
+          {
+            "before": "reviewedBy: OpenClaw SEO content audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-10-19T20:56:21.829Z; expiresAt: 2027-01-17T20:56:21.829Z",
+            "reason": "Superseded the retireable automated audit label with one exact canonical independent-review metadata set on the registered 90-day high-risk cadence."
+          }
+        ],
+        "articleQa": {
+          "command": "npm run qa:article -- src/content/guides/caveat-lenders-australia-directory-comparison.md --fail-on-warnings",
+          "result": "PASS 0 errors, 0 warning(s)"
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Non-blocking: NSW LRS says dealings and/or plans; the page says dealings and plans. The estate-or-interest wording and the statutory-exception wording match the source.",
+          "Non-blocking: the page adds still before the ASIC Act prohibitions. INFO 207 states those same prohibitions.",
+          "The site footer, which this repair does not edit, still says Specialised commercial lending solutions and also says Commercial-purpose finance brokerage.",
+          "No rates, fees, LVRs, timelines, named lenders, rankings, deal volumes, results or claims.json promotional statements were added."
+        ],
+        "dimensions": {
+          "intentCoverage": 95,
+          "informationGain": 90,
+          "specificity": 88,
+          "evidence": 94,
+          "readability": 93,
+          "repetition": 92,
+          "compliance": 96,
+          "aiAnswerUsefulness": 92
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-17T20:56:21.829Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-5f09c377-bb98-592e-ba31-60a973c93f67",
+          "reviewedRevision": "88e4e98510ea2e15d81a6c8817cf59a28cbd31c7"
+        }
+      }
+    }
+  ]
+}
