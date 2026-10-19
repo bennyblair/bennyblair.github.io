@@ -5,7 +5,7 @@
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "06892bc5f31630f0bae69e8d2a5d0a5ae43ddeb3",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
     "reviewer": "PENDING independent Grok 4.7 review at exact head SHA",
@@ -23,11 +23,14 @@
       "pageId": "pg_e1056093dce04b44a6c55690692a93df",
       "path": "/resources/guides/caveat-lenders-australia-directory-comparison",
       "beforeSha256": "461929e47f7213fea1b1c5d043b39218a4302123988ef2265a51c7f90148f23c",
-      "afterSha256": "526774074568953339e54eccae0cc6da2ce5f39ab4ce346328746bd68faf383c",
-      "reason": "Scope/retitle, not a whole-body rewrite. Keep caveat lenders Australia ownership and the existing lender-type table plus comparison scorecard. Sharpen title/metaTitle/description/intro so the page owns caveat LENDER types and comparison and stops competing for 'caveat loan broker'. Remove that phrase from keywords; replace the exact-match service-page anchor 'caveat loan broker' with a descriptive [caveat loans](/services/caveat-loans) link; add one descriptive link to /resources/guides/find-caveat-loan-brokers-australia ('how to find and vet a caveat loan broker'); retitle the broker-selection heading and FAQ so this URL no longer answers broker-finding. State that Emet Capital is a commercial finance broker, not a lender, and does not fund loans. Light fact refresh of the two existing sources after live GET 200: NSW LRS caveat definition, ASIC INFO 207 commercial-loan protection wording. No rates, fees, LVRs, timelines, named or ranked lenders, deal volumes, results or credentials. No claims.json promotional statements used. Slug, canonical, featured image, author, publication date, contentRisk, reviewedBy, reviewedAt, reviewStatus, humanReviewRequired, protectedUntil and expiresAt are unchanged pending independent review of these exact bytes. Coupled package 5a (find-brokers) is not edited in this PR.",
+      "afterSha256": "8ddb0730859709db8bbb4bd2e9b2e44e3bc8212d9925be9289780d203dda6270",
+      "reason": "Scope/retitle, not a whole-body rewrite. Keep caveat lenders Australia ownership and the existing lender-type table plus comparison scorecard. Sharpen title/metaTitle/description/intro so the page owns caveat LENDER types and comparison and stops competing for 'caveat loan broker'. Remove that phrase from keywords; replace the exact-match service-page anchor 'caveat loan broker' with a descriptive [caveat loans](/services/caveat-loans) link; add one descriptive link to /resources/guides/find-caveat-loan-brokers-australia ('how to find and vet a caveat loan broker'); retitle the broker-selection heading and FAQ so this URL no longer answers broker-finding. State that Emet Capital is a commercial finance broker, not a lender, and does not fund loans. Light fact refresh of the two existing sources after live GET 200: NSW LRS caveat definition, ASIC INFO 207 commercial-loan protection wording. No rates, fees, LVRs, timelines, named or ranked lenders, deal volumes, results or credentials. No claims.json promotional statements used. Slug, canonical, featured image, author, publication date, contentRisk, reviewedBy, reviewedAt, reviewStatus, humanReviewRequired, protectedUntil and expiresAt are unchanged pending independent review of these exact bytes. Coupled package 5a (find-brokers) is not edited in this PR. Follow-up: rewrite the FAQ answer under 'What information do lenders usually need first?' as plain text with no markdown link, and replace the closing 'provides commercial lending solutions' sentence with broker-accurate wording. Do not add review metadata or change reviewedBy fields.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-7785f1c9-39ea-5e51-ac92-f4a86256afda"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-013a3a52-d845-51f3-8f35-004ac6d39ec7"
         }
       ],
       "verification": [
@@ -62,6 +65,22 @@
         {
           "kind": "link-added",
           "value": "/resources/guides/find-caveat-loan-brokers-australia"
+        },
+        {
+          "kind": "text-added",
+          "value": "The complete caveat loan guide, linked under Related Guides, sets out the full preparation sequence."
+        },
+        {
+          "kind": "text-removed",
+          "value": "The [complete caveat loan guide](/resources/guides/caveat-loans-australia-complete-guide) contains the full preparation sequence."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
         }
       ]
     }

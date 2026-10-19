@@ -118,7 +118,7 @@ They may apply different criteria and exercise more case-specific judgement, but
 
 ### What information do lenders usually need first?
 
-Provide a concise purpose and deadline, entity details, property ownership and debt information, the required net proceeds, supporting documents and a specific exit. The [complete caveat loan guide](/resources/guides/caveat-loans-australia-complete-guide) contains the full preparation sequence.
+Provide a concise purpose and deadline, entity details, property ownership and debt information, the required net proceeds, supporting documents and a specific exit. The complete caveat loan guide, linked under Related Guides, sets out the full preparation sequence.
 
 ## Related Guides
 
@@ -127,4 +127,4 @@ Provide a concise purpose and deadline, entity details, property ownership and d
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Caveat Loan Service](/services/caveat-loans)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
