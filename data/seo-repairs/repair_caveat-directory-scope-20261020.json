@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_caveat-directory-scope-20261020",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "06892bc5f31630f0bae69e8d2a5d0a5ae43ddeb3",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent Grok 4.7 review at exact head SHA",
+    "reviewedAt": "1970-01-01T00:00:00.000Z",
+    "score": 0,
+    "blockingFindings": [
+      "Independent review has not been completed on this exact revision. The writer must not self-approve or write a reviewer label for a review that has not happened."
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/caveat-lenders-australia-directory-comparison.md",
+      "pageId": "pg_e1056093dce04b44a6c55690692a93df",
+      "path": "/resources/guides/caveat-lenders-australia-directory-comparison",
+      "beforeSha256": "461929e47f7213fea1b1c5d043b39218a4302123988ef2265a51c7f90148f23c",
+      "afterSha256": "526774074568953339e54eccae0cc6da2ce5f39ab4ce346328746bd68faf383c",
+      "reason": "Scope/retitle, not a whole-body rewrite. Keep caveat lenders Australia ownership and the existing lender-type table plus comparison scorecard. Sharpen title/metaTitle/description/intro so the page owns caveat LENDER types and comparison and stops competing for 'caveat loan broker'. Remove that phrase from keywords; replace the exact-match service-page anchor 'caveat loan broker' with a descriptive [caveat loans](/services/caveat-loans) link; add one descriptive link to /resources/guides/find-caveat-loan-brokers-australia ('how to find and vet a caveat loan broker'); retitle the broker-selection heading and FAQ so this URL no longer answers broker-finding. State that Emet Capital is a commercial finance broker, not a lender, and does not fund loans. Light fact refresh of the two existing sources after live GET 200: NSW LRS caveat definition, ASIC INFO 207 commercial-loan protection wording. No rates, fees, LVRs, timelines, named or ranked lenders, deal volumes, results or credentials. No claims.json promotional statements used. Slug, canonical, featured image, author, publication date, contentRisk, reviewedBy, reviewedAt, reviewStatus, humanReviewRequired, protectedUntil and expiresAt are unchanged pending independent review of these exact bytes. Coupled package 5a (find-brokers) is not edited in this PR.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-7785f1c9-39ea-5e51-ac92-f4a86256afda"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "This page compares caveat lender types and their terms."
+        },
+        {
+          "kind": "text-added",
+          "value": "how to find and vet a caveat loan broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and does not fund loans."
+        },
+        {
+          "kind": "text-added",
+          "value": "the law provides the lowest level of protection to commercial loans, including loans to small businesses"
+        },
+        {
+          "kind": "text-removed",
+          "value": "A caveat loan broker can help package and compare a commercial scenario"
+        },
+        {
+          "kind": "text-removed",
+          "value": "What a caveat loan broker should do"
+        },
+        {
+          "kind": "text-removed",
+          "value": "What should I give a broker first?"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/find-caveat-loan-brokers-australia"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 ---
-title: "Caveat Lenders Australia: Types and Comparison"
-description: "Compare caveat lenders in Australia by lender type, scenario fit, title requirements, evidence, net proceeds, total cost, exit expectations and contract risk."
+title: "Caveat Lenders Australia: Lender Types and Comparison"
+description: "Compare caveat lender types in Australia by mandate, property fit, title position, evidence, net proceeds, total cost, exit and contract risk."
 date: "2025-10-13"
 slug: "caveat-lenders-australia-directory-comparison"
 category: "Property Finance"
-keywords: ["caveat lenders Australia", "caveat loan broker", "private caveat lenders", "compare caveat loans"]
+keywords: ["caveat lenders Australia", "private caveat lenders", "compare caveat loans", "caveat lender types"]
 readingTime: 10
 author: "Daniel"
 primaryQuery: "caveat lenders Australia"
@@ -24,15 +24,15 @@ sources:
     url: "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
   - label: "ASIC - Disputes about commercial loans"
     url: "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
-metaTitle: "Caveat Lenders Australia | Types and Comparison"
-metaDescription: "Compare Australian caveat lender types by mandate, property fit, title position, exit evidence, net proceeds, fees, conditions and downside risk."
+metaTitle: "Caveat Lenders Australia | Lender Types and Comparison"
+metaDescription: "Compare Australian caveat lender types by mandate, property and title fit, exit evidence, net proceeds, fees, conditions and contract risk."
 featuredImage: "/images/articles/caveat-lenders-australia-directory-comparison.webp"
 featuredImageAlt: "Australian caveat lender types and comparison framework"
 ---
 
 Australian caveat lenders differ in capital source, mandate, decision process, property appetite and legal requirements. A useful comparison does not rank a changing list of companies as universally “best”. It identifies which lender type can assess the specific borrower, property, deadline and exit, then compares written terms on the same assumptions.
 
-A [caveat loan broker](/services/caveat-loans) can help package and compare a commercial scenario, but the borrower should still understand how the shortlist was formed, whether lender options are genuinely comparable and which costs or conditions remain indicative. This guide is general information, not legal, tax or financial advice.
+This page compares caveat lender types and their terms. It is not a guide to choosing a broker. A commercial finance broker can help package a scenario and compare written offers; [how to find and vet a caveat loan broker](/resources/guides/find-caveat-loan-brokers-australia) is covered separately. For the product pathway, see [caveat loans](/services/caveat-loans). Emet Capital is a commercial finance broker, not a lender, and does not fund loans. This guide is general information, not legal, tax or financial advice.
 
 ## Caveat lender types in Australia
 
@@ -52,11 +52,11 @@ Most lender comparisons begin with property support but should not end there. Th
 
 A short summary should therefore disclose the facts that can change the answer. Sending incomplete or inconsistent versions to multiple lenders can produce prices that appear comparable but rest on different assumptions.
 
-The legal basis for a caveat also matters. NSW Land Registry Services explains that a caveat records a claim to an estate or interest in land and can prevent certain dealings. Whether a proposed lender has a valid caveatable interest is a legal question based on documents and jurisdiction; it should not be inferred from marketing.
+The legal basis for a caveat also matters. NSW Land Registry Services explains that a caveat records a claim to an estate or interest in land and prevents the registration of dealings and plans, except for certain statutory exceptions and any specifically permitted dealings. Whether a proposed lender has a valid caveatable interest is a legal question based on documents and jurisdiction; it should not be inferred from marketing.
 
 ## Caveat lender comparison scorecard
 
-Ask each lender or broker to put the following in writing:
+Ask each lender, or the person comparing them, to put the following in writing:
 
 - borrower, guarantor and security entities;
 - property and valuation assumption;
@@ -73,15 +73,17 @@ Ask each lender or broker to put the following in writing:
 
 Compare the expected exit date and a delayed date. This exposes whether an apparently lower initial cost depends on an unrealistic timetable or expensive extension.
 
-## What a caveat loan broker should do
+## Comparing written terms, not a broker pitch
 
-A broker should identify the commercial objective, test whether a caveat structure is appropriate, assemble a consistent file and explain why the selected lenders fit. The broker should distinguish an informal indication from conditional or formal approval and disclose known fees and conflicts in accordance with applicable obligations.
+A broker can help identify which lender types may fit and put comparable terms in writing. Keep the comparison on mandate, security, net proceeds, conditions and residual risk rather than on who introduced the file.
+
+Whoever is comparing the file should identify the commercial objective, test whether a caveat structure is appropriate, assemble a consistent file and explain why the selected lender types fit. Distinguish an informal indication from conditional or formal approval and disclose known fees and conflicts in accordance with applicable obligations.
 
 A broker cannot guarantee lender approval, valuation, legal acceptance or settlement. Speed claims made before title, authority, property and exit evidence are reviewed are not decision-useful.
 
-Ask the broker:
+When comparing lender types, ask:
 
-1. Which facts excluded other lenders?
+1. Which facts excluded other lender types?
 2. Are all quotes based on the same facility amount and exit date?
 3. Which fees are estimates and which are confirmed?
 4. What cash will the borrower receive after deductions?
@@ -98,7 +100,7 @@ If the need relates to receivables, inventory or equipment, using property-backe
 
 Pause where an intermediary will not identify the proposed lender, terms are only verbal, fees are not itemised, the borrower is discouraged from obtaining legal advice, or the lender promises approval without reviewing material facts. Confirm bank details and legal representatives through trusted channels to reduce payment and impersonation risk.
 
-Read default and extension clauses before settlement. A facility that is affordable at the expected exit can become materially different if the exit is late. ASIC's commercial-loan information notes that misleading conduct, unconscionable conduct and unfair contract terms can be relevant, but commercial borrowers do not necessarily receive consumer-credit protections.
+Read default and extension clauses before settlement. A facility that is affordable at the expected exit can become materially different if the exit is late. ASIC's commercial-loan information says the law provides the lowest level of protection to commercial loans, including loans to small businesses. The ASIC Act still prohibits unconscionable conduct, misleading or deceptive conduct, and unfair contract terms in standard form small business contracts.
 
 ## Frequently asked questions
 
@@ -114,7 +116,7 @@ Not necessarily. Repeated or inconsistent submissions can create confusion and d
 
 They may apply different criteria and exercise more case-specific judgement, but they still perform due diligence and can impose stricter security, cost or exit conditions. “Private” does not mean unregulated, informal or guaranteed.
 
-### What should I give a broker first?
+### What information do lenders usually need first?
 
 Provide a concise purpose and deadline, entity details, property ownership and debt information, the required net proceeds, supporting documents and a specific exit. The [complete caveat loan guide](/resources/guides/caveat-loans-australia-complete-guide) contains the full preparation sequence.
 
