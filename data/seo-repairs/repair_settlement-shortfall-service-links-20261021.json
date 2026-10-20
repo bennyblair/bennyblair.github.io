@@ -135,8 +135,8 @@
         ],
         "articleQa": {
           "command": "node scripts/article-qa.mjs src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md",
-          "result": "recorded after local article-qa on this revision",
-          "note": "Independent grok-4.7 review PASS 88 at writer-body SHA 462673a55be1c2568204e5288d150141119a2485; this revision records that review and the canonical metadata set. Repository content-quality and repair-scope gates are authoritative for this existing-page repair."
+          "result": "PASS 0 errors, 2 warnings (20 internal links; protected legacy author aliases retained)",
+          "note": "Independent grok-4.7 review PASS 88 at writer-body SHA 462673a55be1c2568204e5288d150141119a2485; this revision records that review and the canonical metadata set. Repair-scope passed on the committed candidate. Repository content-quality and repair-scope gates are authoritative for this existing-page repair."
         },
         "scopeVerification": {
           "canonicalWebsiteTouched": true,
