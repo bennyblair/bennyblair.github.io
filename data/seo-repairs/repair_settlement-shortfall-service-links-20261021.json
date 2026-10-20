@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_settlement-shortfall-service-links-20261021",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-20T21:20:04Z",
+    "score": 89,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "built HTML hero, og:image and Article JSON-LD image",
+        "finding": "The published image is the article-images.json override /images/commercial-property-loans-guide.jpg, an abstract architectural screen, with the catalog alt 'Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.' Frontmatter pairs the documented 1200x630 Dandenong glass-building JPEG with that same representative alt. The catalog override predates this repair and is outside the repair file set. It is not a finance, rate, transaction, licence, or association claim."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md",
+        "finding": "The guide has 20 internal links, which article-qa and the content-quality gate warn may be link-heavy. No destination appears more than twice. The links are on-topic guide and service paths, including the designated service /services/bridging-finance."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md",
+      "pageId": "pg_1f58e540204c4107bcb2d73bb0f01ae5",
+      "path": "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
+      "beforeSha256": "3cfc52f1d7ed932ce383510104479da4cf65b86aa5d3205ae6f581ec1366205f",
+      "afterSha256": "342d1d71869c884f55cbb07ceace7ed1b0d86822e181405142e3ef639eb76967",
+      "reason": "Existing-page improvement of the settlement-shortfall guide. Sharpen title and meta without promises, add contextual links to /services/bridging-finance and /services/private-lending, state that Emet Capital is a commercial finance broker and does not lend or fund loans, and keep the approved Ben byline. Independent re-review of the whole page at prose head 47055aff6f5873e4cff4889c02316bca249ad89d after the closing sentence was rewritten from lender wording. Canonical review metadata only: remove the reviewed_date alias and set reviewedBy, reviewedAt and expiresAt on the registry 180-day medium-risk cadence. No further prose change.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-95602cec-6bd7-53bd-b729-cfe10971096f"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-3a75d515-3c56-54c9-9d4c-df177abc0a5e"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders"
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying."
+        },
+        {
+          "kind": "text-added",
+          "value": "Documentation requirements vary between loans."
+        },
+        {
+          "kind": "text-added",
+          "value": "You can use a business loan broker to help you find the right loan"
+        },
+        {
+          "kind": "text-removed",
+          "value": "provides commercial lending solutions"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-20T21:20:04Z",
+        "reviewedSourceSha256": "342d1d71869c884f55cbb07ceace7ed1b0d86822e181405142e3ef639eb76967",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 89,
+        "dimensions": {
+          "intentCoverage": 91,
+          "informationGain": 87,
+          "specificity": 86,
+          "evidence": 88,
+          "readability": 90,
+          "repetition": 83,
+          "compliance": 94,
+          "aiAnswerUsefulness": 89
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-20T21:20:04Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Documentation requirements vary between loans.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "You can use a business loan broker to help you find the right loan",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Reviewed prose head is 47055aff6f5873e4cff4889c02316bca249ad89d. This record is https://cursor.com/agents/bc-95602cec-6bd7-53bd-b729-cfe10971096f by a different model from the writer (Grok 4.6). The earlier 88 PASS on 9851f44 is not this review.",
+          "The Ben byline and author frontmatter stay as approved, including the existing 10 years' experience sentence. Those author fields were not edited.",
+          "business.gov.au Apply for a business loan was re-read at review time (HTTP 200). The three mapped sentences appear on that page. The page uses a straight apostrophe in It's; the source uses a typographic apostrophe. The words otherwise match.",
+          "The caveat sentence is a plain-language description, not a statute citation and not a conclusion about a reader's title. No rate, term, transaction, volume, licence, or association claim was added.",
+          "Rendered og:image, twitter image, JSON-LD image and hero use the article-images.json override /images/commercial-property-loans-guide.jpg, not the frontmatter Dandenong JPEG. That catalog pairing is outside the repair file set."
+        ]
+      }
+    }
+  ]
+}
