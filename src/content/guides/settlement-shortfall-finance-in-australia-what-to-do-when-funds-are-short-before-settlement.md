@@ -8,7 +8,6 @@ category: "Property Finance"
 tags: ["Settlement Shortfall", "Commercial Property Loans", "Bridging Finance", "Private Lending", "Commercial Finance"]
 readingTime: 9
 author: "Ben"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,6 +21,9 @@ primaryQuery: "settlement shortfall finance"
 searchIntent: "informational"
 designatedServicePage: "/services/bridging-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-20T20:27:13Z"
+expiresAt: "2027-04-18T20:27:13Z"
 sources:
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
