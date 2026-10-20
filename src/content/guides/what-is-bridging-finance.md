@@ -11,7 +11,6 @@ keywords:
   - "property bridging loan"
 readTime: "9 min read"
 author: "Ben"
-reviewed_date: "2026-05-17"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -23,6 +22,9 @@ primaryQuery: "what is bridging finance"
 searchIntent: "informational"
 designatedServicePage: "/services/bridging-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-20T20:36:33Z"
+expiresAt: "2027-04-18T20:36:33Z"
 featuredImage: "/images/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.jpg"
 featuredImageAlt: "Glass commercial office building on a tree-lined street; representative property photograph."
 sources:
