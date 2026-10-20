@@ -8,6 +8,7 @@ category: "Property Finance"
 tags: ["Settlement Shortfall", "Commercial Property Loans", "Bridging Finance", "Private Lending", "Commercial Finance"]
 readingTime: 9
 author: "Ben"
+reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -21,9 +22,6 @@ primaryQuery: "settlement shortfall finance"
 searchIntent: "informational"
 designatedServicePage: "/services/bridging-finance"
 contentRisk: "medium"
-reviewedBy: "OpenClaw independent reviewer"
-reviewedAt: "2026-10-20T20:51:28Z"
-expiresAt: "2027-04-18T20:51:28Z"
 sources:
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
@@ -201,4 +199,4 @@ No. Settlement shortfall finance is never guaranteed. Approval depends on the bo
 - [Commercial Property Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.
