@@ -114,7 +114,23 @@
         ],
         "articleQa": {
           "command": "npm run qa:article -- src/content/guides/private-debt-australia.md",
-          "result": "pending local gate on this metadata revision"
+          "result": "PASS",
+          "errors": 0,
+          "warnings": 2,
+          "metrics": {
+            "wordCount": 2017,
+            "faqPresent": true,
+            "faqQuestions": 6,
+            "internalLinks": 19,
+            "uniqueGuideLinks": 11,
+            "highestParagraphSimilarity": 0.092
+          },
+          "internalContentLinksResolved": 17,
+          "canonicalAuthorAndReviewFieldsComplete": true,
+          "acceptedWarnings": [
+            "possible internal-link stuffing; found 19 links",
+            "legacy author overrides remain compatible but should be removed: author_name, author_title, author_url, author_bio, author_links"
+          ]
         },
         "scopeVerification": {
           "canonicalWebsiteTouched": false,
@@ -124,7 +140,11 @@
           "bodyProseUnchangedByReviewMetadata": true,
           "featuredImageCheckedByArticleQa": true,
           "featuredImageAltChecked": true,
-          "headingHierarchyChecked": true
+          "headingHierarchyChecked": true,
+          "oneH1InBuiltHtml": true,
+          "selfCanonical": true,
+          "indexFollow": true,
+          "noBrokenMarkdownInBuiltHtml": true
         },
         "limitations": [
           "This is an automated independent editorial and source review by Grok 4.7, not human or professional financial approval. The writer was Grok 4.6.",
