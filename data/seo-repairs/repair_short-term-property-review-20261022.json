@@ -8,7 +8,27 @@
   "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
-    "reviewer": "OpenClaw independent reviewer"
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-21T21:14:31Z",
+    "score": 89,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/short-term-property-loans-when-you-need-fast-finance.md:81-107",
+        "finding": "The business.gov.au paperwork list is accurate, then repeated almost verbatim at the start of the repayment section. Bridging, caveat and second-mortgage distinctions are also restated in the opening, the bullet list, the table and FAQ 3. Article QA paragraph similarity is 0.381. This is repetition, not a new factual claim."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/short-term-property-loans-when-you-need-fast-finance.md:103",
+        "finding": "RG 234.40 (June 2026 PDF) says some headline claims are so strong that any separate qualification will not correct any misleading impression. The page keeps the 'some' limiter and the RG 234.34 sentence that the headline claim must not itself be misleading, and it omits the word 'separate'. The link-or-document clause is supported by RG 234.36, which says a link or a document such as a PDS, prospectus or contract will not be sufficient to correct a misleading or deceptive headline claim. The old absolute, that a qualification cannot correct a misleading headline, is gone."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/short-term-property-loans-when-you-need-fast-finance.md:117",
+        "finding": "INFO 207 says ASIC encourages anyone who has concerns about commercial lending to seek independent legal advice as soon as possible. The page attributes a narrower form, 'commercial borrowers with concerns', to Information Sheet 207 and does not repeat 'as soon as possible'. The lowest-protection sentence is inside that attribution and matches INFO 207."
+      }
+    ]
   },
   "kind": "substantive",
   "reviewMode": "general-information-v1",
@@ -18,7 +38,7 @@
       "pageId": "pg_12ad7ce758b04ffd961a2a7b8eccfc67",
       "path": "/resources/guides/short-term-property-loans-when-you-need-fast-finance",
       "beforeSha256": "19cf8932a95e6585b98f8366d6edf1bc31fbc42edf53406fc735b3db294c88e6",
-      "reason": "Expiry review (expiresAt was 2026-11-05), not a rewrite. Decision: improve. Keep the existing skeleton (three questions, structure table, document pack, total-cost questions, repayment worksheet, labelled hypothetical example, related guides), slug, canonical, designated service /services/bridging-finance, author/byline frontmatter, publication date and contentRisk high. Lead title and meta with short-term property finance while keeping short-term property loans (AU GSC 19 Sep–17 Oct: page 632 impressions, position 18.3, 0 clicks; query short term property finance 118/16.7; short term mortgage(s/loans) combined ~90). Add an answer-first definition (property-secured, defined term, exit-dependent) and how bridging, caveat and second-mortgage labels differ using on-page facts plus fetched official sources. Add four plain-text FAQs covering short-term mortgage and short-term property finance. Refresh sourced facts: business.gov.au apply-for-a-business-loan, ASIC INFO 207 and RG 234 PDF all HTTP 200; add the shop-around sentence and ASIC's lowest-protection wording for commercial loans. Moneysmart bridging URLs returned HTTP 403 and were omitted. Add one contextual link to /services/private-lending (anchor: private lending arranged through a broker). Do not add bridging service links. Replace 'provides commercial lending solutions' with broker-not-lender wording. No invented rates, fees, LVRs, times, lender names, volumes, memberships, licences or case studies. Writer revision after independent REVISE 76: align the business.gov.au paperwork list with 'vary between loans' and the official inputs; rewrite the RG 234 sentence so it does not say a qualification can never balance a headline; put the lowest-protection sentence inside the ASIC Information Sheet 207 attribution. Restore pre-edit reviewedBy/reviewedAt/expiresAt from origin/main. Independent re-review of these exact bytes is still required.",
+      "reason": "Expiry review (expiresAt was 2026-11-05), not a rewrite. Decision: improve. Keep the existing skeleton (three questions, structure table, document pack, total-cost questions, repayment worksheet, labelled hypothetical example, related guides), slug, canonical, designated service /services/bridging-finance, author/byline frontmatter, publication date and contentRisk high. Lead title and meta with short-term property finance while keeping short-term property loans (AU GSC 19 Sep–17 Oct: page 632 impressions, position 18.3, 0 clicks; query short term property finance 118/16.7; short term mortgage(s/loans) combined ~90). Add an answer-first definition (property-secured, defined term, exit-dependent) and how bridging, caveat and second-mortgage labels differ using on-page facts plus fetched official sources. Add four plain-text FAQs covering short-term mortgage and short-term property finance. Refresh sourced facts: business.gov.au apply-for-a-business-loan, ASIC INFO 207 and RG 234 PDF all HTTP 200; add the shop-around sentence and ASIC's lowest-protection wording for commercial loans. Moneysmart bridging URLs returned HTTP 403 and were omitted. Add one contextual link to /services/private-lending (anchor: private lending arranged through a broker). Do not add bridging service links. Replace 'provides commercial lending solutions' with broker-not-lender wording. No invented rates, fees, LVRs, times, lender names, volumes, memberships, licences or case studies. Writer revision after independent REVISE 76: align the business.gov.au paperwork list with 'vary between loans' and the official inputs; rewrite the RG 234 sentence so it does not say a qualification can never balance a headline; put the lowest-protection sentence inside the ASIC Information Sheet 207 attribution. Independent re-review PASS 89 with no blockers at https://cursor.com/agents/bc-2cb9835f-0b1b-5996-89d0-487d3437c55a of writer revision 287738224ff6d7a007f49a2332931fb2aa3b7bc1. Canonical review metadata set: reviewedBy OpenClaw independent reviewer, reviewedAt 2026-10-21T21:14:31Z, expiresAt 2027-01-19T21:14:31Z (registry high-risk cadence of 90 days). Guide body unchanged by the metadata commit. baseSha remains origin/main e037237bb385e204ecfe953a8ad4dfcbcc45b986.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-c4a63123-db67-51fe-9239-33f769b1dade"
@@ -28,6 +48,9 @@
         },
         {
           "reference": "https://cursor.com/agents/bc-8fc8b07e-7607-5054-a57e-0bacaab9a88d"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-2cb9835f-0b1b-5996-89d0-487d3437c55a"
         }
       ],
       "verification": [
@@ -41,7 +64,7 @@
         },
         {
           "kind": "text-added",
-          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+          "value": "the law provides the lowest level of protection to commercial loans, including loans to small businesses"
         },
         {
           "kind": "text-added",
@@ -60,7 +83,7 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "pending_independent_review",
+        "status": "reviewed_draft",
         "reviewer": "OpenClaw independent reviewer",
         "automated": true,
         "human": false,
@@ -77,17 +100,17 @@
         "sources": [
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-10-21T21:01:18Z",
+            "checkedAt": "2026-10-21T21:14:31Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
-            "checkedAt": "2026-10-21T21:01:18Z",
+            "checkedAt": "2026-10-21T21:14:31Z",
             "status": 200
           },
           {
             "url": "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf",
-            "checkedAt": "2026-10-21T21:01:18Z",
+            "checkedAt": "2026-10-21T21:14:31Z",
             "status": 200
           }
         ],
@@ -153,7 +176,7 @@
             ]
           },
           {
-            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "claim": "the law provides the lowest level of protection to commercial loans, including loans to small businesses",
             "sources": [
               "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
             ]
@@ -161,11 +184,12 @@
         ],
         "limitations": [
           "This is an automated independent editorial and source review, not human or professional financial approval.",
-          "Writer revision after independent REVISE 76. Independent re-review of these exact bytes is still required. Pre-edit reviewedBy/reviewedAt/expiresAt from origin/main are restored.",
-          "The three declared sources were re-fetched with GET on 2026-10-21 and returned HTTP 200. Moneysmart bridging URLs returned HTTP 403 and are not declared sources.",
+          "Independent re-review PASS 89 of writer revision 287738224ff6d7a007f49a2332931fb2aa3b7bc1. No blockers. The guide body was not changed by the review-metadata commit.",
+          "The three declared sources were fetched with GET on 2026-10-21 and returned HTTP 200. Moneysmart bridging URLs were not declared sources.",
           "The page's description of short-term property finance as property-secured, defined-term and exit-dependent is commercial framing, not a quotation from legislation.",
           "Search Console counts in the repair reason are editorial context, not public page claims, and were not re-fetched.",
-          "author frontmatter remains Ben. No personal name was added in body, quotes or FAQ."
+          "author frontmatter remains Ben. No personal name was added in body, quotes or FAQ.",
+          "Non-blocking: the paperwork list and the bridging/caveat/second-mortgage distinction are restated. RG 234.40's word 'separate' is not repeated. INFO 207's 'anyone who has concerns about commercial lending' is narrowed to 'commercial borrowers with concerns'."
         ],
         "claimCorrections": [
           {
@@ -192,6 +216,11 @@
             "before": "ASIC's commercial-loan information explains that borrower protections differ according to the loan purpose and encourages commercial borrowers with concerns to seek independent legal advice. The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
             "after": "ASIC's commercial-loan information (Information Sheet 207) explains that borrower protections differ according to the loan purpose, that the law provides the lowest level of protection to commercial loans, including loans to small businesses, and encourages commercial borrowers with concerns to seek independent legal advice.",
             "reason": "Put the lowest-protection sentence inside the explicit ASIC Information Sheet 207 attribution."
+          },
+          {
+            "before": "reviewedBy: OpenClaw SEO content audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-10-21T21:14:31Z; expiresAt: 2027-01-19T21:14:31Z; score 89; blockingFindings empty",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence after PASS 89. Guide body unchanged."
           }
         ],
         "scopeVerification": {
@@ -199,24 +228,42 @@
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false
+          "canonicalReviewMetadataSet": true
         },
         "gateReconciliation": {
-          "kind": "general-information-writer-revision-pending-review-v1",
+          "kind": "general-information-review-metadata-supersession-v1",
           "contentRiskLowered": false,
           "humanReviewClaimed": false,
           "professionalFinancialReviewClaimed": false,
           "reviewEveryDays": 90,
-          "independentReviewRun": "https://cursor.com/agents/bc-2c635fb8-50d4-5010-8a16-b249f7a99322"
+          "reviewExpiresAt": "2027-01-19T21:14:31Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-2cb9835f-0b1b-5996-89d0-487d3437c55a",
+          "reviewedRevision": "287738224ff6d7a007f49a2332931fb2aa3b7bc1"
         },
         "articleQa": {
           "command": "node scripts/article-qa.mjs src/content/guides/short-term-property-loans-when-you-need-fast-finance.md",
           "result": "PASS 0 errors, 0 warnings"
+        },
+        "outcome": "PASS",
+        "reviewedAt": "2026-10-21T21:14:31Z",
+        "reviewedSourceSha256": "305b8dd9eb9b78a371e1d5833817560087edc52558e5b08d9dc0ff1a047efec1",
+        "score": 89,
+        "blockingFindings": [],
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 88,
+          "specificity": 86,
+          "evidence": 91,
+          "readability": 88,
+          "repetition": 80,
+          "compliance": 95,
+          "aiAnswerUsefulness": 92
         }
-      }
+      },
+      "afterSha256": "305b8dd9eb9b78a371e1d5833817560087edc52558e5b08d9dc0ff1a047efec1"
     }
   ]
 }
