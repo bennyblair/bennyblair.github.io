@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_short-term-property-review-20261022",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-21T20:29:46Z",
+    "score": 90,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/short-term-property-loans-when-you-need-fast-finance.md",
+      "pageId": "pg_12ad7ce758b04ffd961a2a7b8eccfc67",
+      "path": "/resources/guides/short-term-property-loans-when-you-need-fast-finance",
+      "beforeSha256": "19cf8932a95e6585b98f8366d6edf1bc31fbc42edf53406fc735b3db294c88e6",
+      "afterSha256": "ddacd588dcef2d0dedb51c6224640ec78b2585f12ece8f6d22217910fb71f950",
+      "reason": "Expiry review (expiresAt was 2026-11-05), not a rewrite. Decision: improve. Keep the existing skeleton (three questions, structure table, document pack, total-cost questions, repayment worksheet, labelled hypothetical example, related guides), slug, canonical, designated service /services/bridging-finance, author/byline frontmatter, publication date and contentRisk high. Lead title and meta with short-term property finance while keeping short-term property loans (AU GSC 19 Sep–17 Oct: page 632 impressions, position 18.3, 0 clicks; query short term property finance 118/16.7; short term mortgage(s/loans) combined ~90). Add an answer-first definition (property-secured, defined term, exit-dependent) and how bridging, caveat and second-mortgage labels differ using on-page facts plus fetched official sources. Add four plain-text FAQs covering short-term mortgage and short-term property finance. Refresh sourced facts: business.gov.au apply-for-a-business-loan, ASIC INFO 207 and RG 234 PDF all HTTP 200; add the shop-around sentence and ASIC's lowest-protection wording for commercial loans. Moneysmart bridging URLs returned HTTP 403 and were omitted. Add one contextual link to /services/private-lending (anchor: private lending arranged through a broker). Do not add bridging service links. Replace 'provides commercial lending solutions' with broker-not-lender wording. No invented rates, fees, LVRs, times, lender names, volumes, memberships, licences or case studies. Independent Grok 4.7 review PASS 90 with no blockers at https://cursor.com/agents/bc-2c635fb8-50d4-5010-8a16-b249f7a99322 of writer-body sha256 61dd49d58c6d33e77a686817259a592f69caccd6df9d91b7aa01bfa16ff14828 (git 24e4c4ca5df07e13e2e3815c91e28145d1be66b9). This metadata commit sets reviewedBy to OpenClaw independent reviewer, reviewedAt 2026-10-21T20:29:46Z and expiresAt 2027-01-19T20:29:46Z on the registered 90-day high-risk cadence and does not change the guide body.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-c4a63123-db67-51fe-9239-33f769b1dade"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-2c635fb8-50d4-5010-8a16-b249f7a99322"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying."
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "Is a short-term mortgage the same as a short-term property loan?"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-21T20:29:46Z",
+        "reviewedSourceSha256": "ddacd588dcef2d0dedb51c6224640ec78b2585f12ece8f6d22217910fb71f950",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 90,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-21T20:21:06Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-10-21T20:21:07Z",
+            "status": 200
+          },
+          {
+            "url": "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf",
+            "checkedAt": "2026-10-21T20:21:07Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "A secured business loan uses an asset, such as property, as collateral. If repayments are not made, that asset can be at risk.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "The Australian Government's business loan preparation guide says loans vary in costs and conditions, including the term, interest rate, setup costs and ongoing fees.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Documentation varies by lender and transaction.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Business.gov.au identifies financial records, forecasts, business plans, identification and relevant agreements as possible application inputs.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "The Australian Government's business loan preparation guide says documentation requirements vary, but possible inputs include identification, a business plan, financial reports, cash-flow statements, forecasts and lease agreements.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "ASIC's current advertising guidance says credit advertising should give a balanced message about benefits, risks and limitations, and that a qualification cannot correct a misleading headline claim.",
+            "sources": [
+              "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf"
+            ]
+          },
+          {
+            "claim": "ASIC's commercial-loan information explains that borrower protections differ according to the loan purpose and encourages commercial borrowers with concerns to seek independent legal advice.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Grok 4.7 reviewed writer git SHA 24e4c4ca5df07e13e2e3815c91e28145d1be66b9 (body sha256 61dd49d58c6d33e77a686817259a592f69caccd6df9d91b7aa01bfa16ff14828). This commit only sets the canonical general-information-v1 review metadata pair; the guide body is unchanged.",
+          "The three declared sources were checked with GET on 2026-10-21 and returned HTTP 200. Moneysmart bridging URLs returned HTTP 403 and are not declared sources.",
+          "The page's description of short-term property finance as property-secured, defined-term and exit-dependent is commercial framing, not a quotation from legislation.",
+          "Search Console counts in the repair reason are editorial context, not public page claims, and were not re-fetched.",
+          "author frontmatter remains Ben. No personal name was added in body, quotes or FAQ."
+        ],
+        "claimCorrections": [
+          {
+            "before": "title/H1: Short-Term Property Loans Australia: Decision Guide; delayed definition; no FAQ",
+            "after": "title/H1: Short-Term Property Finance & Loans in Australia: Decision Guide; answer-first definition; four plain-text FAQs covering short-term mortgage and short-term property finance",
+            "reason": "Align title, meta and opening answer with near-page-1 queries without inventing product differences."
+          },
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker, not a lender.",
+            "reason": "Emet is a broker, never a lender. The previous closing sentence could be read as implying Emet funds loans."
+          },
+          {
+            "before": "reviewedBy: OpenClaw SEO content audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-10-21T20:29:46Z; expiresAt: 2027-01-19T20:29:46Z",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence after Grok 4.7 PASS 90 of the writer body."
+          }
+        ],
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 88,
+          "specificity": 90,
+          "evidence": 88,
+          "readability": 91,
+          "repetition": 84,
+          "compliance": 95,
+          "aiAnswerUsefulness": 92
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-19T20:29:46Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-2c635fb8-50d4-5010-8a16-b249f7a99322",
+          "reviewedRevision": "24e4c4ca5df07e13e2e3815c91e28145d1be66b9"
+        },
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/short-term-property-loans-when-you-need-fast-finance.md",
+          "result": "PASS 0 errors, 0 warnings"
+        }
+      }
+    }
+  ]
+}
