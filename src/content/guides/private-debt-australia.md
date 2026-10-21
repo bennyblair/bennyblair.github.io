@@ -11,6 +11,7 @@ keywords:
   - "private lending Australia"
 readTime: "9 min read"
 author: "Ben"
+reviewed_date: "2026-06-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,9 +23,6 @@ primaryQuery: "private debt Australia"
 searchIntent: "informational"
 designatedServicePage: "/services/private-lending"
 contentRisk: "medium"
-reviewedBy: "OpenClaw independent reviewer"
-reviewedAt: "2026-10-21T20:24:51Z"
-expiresAt: "2027-04-19T20:24:51Z"
 featuredImage: "/images/uploads/what-is-private-lending-australia.jpg"
 featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
 sources:
@@ -60,7 +58,7 @@ This guide explains how private debt works for Australian business owners, prope
 
 This guide is for commercial borrowers considering private debt in Australia. That includes business owners seeking working capital, property investors refinancing commercial assets, developers bridging a project timing gap, and SMEs comparing non-bank funding after a bank delay or decline.
 
-It is not a personal finance guide. Emet Capital connects eligible business borrowers with commercial lending solutions and helps compare structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance.
+It is not a personal finance guide. Emet Capital helps eligible business borrowers compare options from lenders across structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance.
 
 ## What Is Private Debt in Australia?
 
