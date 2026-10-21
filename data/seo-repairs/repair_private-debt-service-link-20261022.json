@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-debt-service-link-20261022",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-21T20:24:51Z",
+    "score": 89.6,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/private-debt-australia.md — Who This Is For",
+        "finding": "The unchanged sentence still says Emet Capital connects eligible business borrowers with commercial lending solutions. The new broker paragraph and the closer use broker wording. This residual sentence was outside the requested edit."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-debt-australia.md",
+      "pageId": "pg_f1b8d3840a6f4d45b8c872771d09db52",
+      "path": "/resources/guides/private-debt-australia",
+      "beforeSha256": "81a63ea8dc475a934e1afac6e34682538f41f009bf9b229a8756f4b8ac5e0f92",
+      "afterSha256": "94c7bc1cc2e18be20247b1857fdc6ae1e2a073415948d912cb5ad1d282e21e72",
+      "reason": "Add one contextual link from the private-debt-australia guide to the designated service /services/private-lending, and add a short working-with-a-broker paragraph. The closer now says Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders. Publication-contract frontmatter was required for this material change: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, an existing 1200x630 featured image, and one business.gov.au source. Duplicate related-list links were reduced so no internal target appears more than twice. Independent Grok 4.7 review of writer head 61c79b8b9f658eb37e5cc34113dcc7aad502bfbc scored 89.6 with no blockers. This metadata commit does not change body prose. It sets reviewedBy to OpenClaw independent reviewer, reviewedAt to 2026-10-21T20:24:51Z and expiresAt to 2027-04-19T20:24:51Z, the registry 180-day cadence for this medium-risk page, and removes the reviewed_date alias. No rates, volumes, licence, membership, or invented transaction results were added.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-03bdacc3-c503-5dc7-a293-a20668278dc9"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-d19fe680-61a3-520c-a382-8c495e5a6161"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "Working with a broker on a private-debt file means Emet Capital gathers the transaction facts, the security and the exit plan"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-21T20:24:51Z",
+        "reviewedSourceSha256": "94c7bc1cc2e18be20247b1857fdc6ae1e2a073415948d912cb5ad1d282e21e72",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 89.6,
+        "dimensions": {
+          "intentCoverage": 94,
+          "informationGain": 90,
+          "specificity": 89,
+          "evidence": 87,
+          "readability": 90,
+          "repetition": 88,
+          "compliance": 88,
+          "aiAnswerUsefulness": 91
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-21T20:24:51Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "articleQa": {
+          "command": "npm run qa:article -- src/content/guides/private-debt-australia.md",
+          "result": "pending local gate on this metadata revision"
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorBylineUnchanged": true,
+          "bodyProseUnchangedByReviewMetadata": true,
+          "featuredImageCheckedByArticleQa": true,
+          "featuredImageAltChecked": true,
+          "headingHierarchyChecked": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review by Grok 4.7, not human or professional financial approval. The writer was Grok 4.6.",
+          "Reviewed writer revision 61c79b8b9f658eb37e5cc34113dcc7aad502bfbc (guide sha256 390ef05ba949996ee8a048de02c8e923391e5f4f3cf0e774bf83a6198ca7dc38). The manifest afterSha256 includes only the canonical review metadata added after that PASS. Body prose is unchanged by this metadata commit.",
+          "Registry contentRisk is medium and reviewEveryDays is 180, so expiresAt is reviewedAt plus 180 days.",
+          "business.gov.au Apply for a business loan returned HTTP 200 on 21 October 2026. Its Shop around section says it is a good idea to compare loan products from multiple lenders before applying. The page does not use that source to define private debt.",
+          "author_bio still states 10 years' experience. That protected author field was not edited. The Ben byline is approved to stay.",
+          "The unchanged Who This Is For sentence still says Emet Capital connects eligible business borrowers with commercial lending solutions. The new broker paragraph and closer use broker wording.",
+          "data/seo-page-registry.json still records governance.sourceCount 0 and reviewedBy null. The registry is not edited in this content lane.",
+          "No src/content/claims.json statements were added."
+        ],
+        "claimCorrections": [
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders.",
+            "reason": "The closing sentence positioned Emet Capital as providing lending. The replacement states the broker role, that it does not lend or fund loans, and that it helps eligible business borrowers compare lender options."
+          }
+        ],
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 180,
+          "reviewExpiresAt": "2027-04-19T20:24:51Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-d19fe680-61a3-520c-a382-8c495e5a6161",
+          "reviewedRevision": "61c79b8b9f658eb37e5cc34113dcc7aad502bfbc"
+        }
+      }
+    }
+  ]
+}
