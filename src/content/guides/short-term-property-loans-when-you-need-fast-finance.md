@@ -13,11 +13,11 @@ intentCluster: "bridging-finance"
 designatedServicePage: "/services/bridging-finance"
 contentRisk: "high"
 canonical: "https://emetcapital.com.au/resources/guides/short-term-property-loans-when-you-need-fast-finance"
-reviewedBy: "OpenClaw independent reviewer"
-reviewedAt: "2026-10-21T20:29:46Z"
+reviewedBy: "OpenClaw SEO content audit"
+reviewedAt: "2026-08-05"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2027-01-19T20:29:46Z"
+expiresAt: "2026-11-05"
 sources:
   - label: "Australian Government - Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
@@ -78,7 +78,7 @@ These are preparation questions, not recommendations or eligibility criteria. Th
 
 ## Build a useful document pack
 
-Documentation varies by lender and transaction. Business.gov.au identifies financial records, forecasts, business plans, identification and relevant agreements as possible application inputs. For a property-backed discussion, organise the material into four folders:
+Documentation requirements vary between loans. Business.gov.au identifies proof of identification, a business plan, financial reports (including cash-flow statements if available), financial forecasts, lease agreements, and personal financial information as possible application inputs. For a property-backed discussion, organise the material into four folders:
 
 - **Business and borrower:** entity names, contact details, ownership structure, the business purpose and identification requested through the lender's secure process.
 - **Property and current debt:** property addresses, available ownership information, current loan statements and any existing payout correspondence.
@@ -100,11 +100,11 @@ A quoted interest rate alone does not describe the overall borrowing cost. It's 
 
 These questions do not imply that every proposal has each charge. Ask for confirmation of which items apply. Request the net funds available for the business purpose as well as the amount borrowed; a proposal that does not cover the intended obligation leaves a funding gap to resolve.
 
-ASIC's current [advertising guidance](https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf) says credit advertising should give a balanced message about benefits, risks and limitations, and that a qualification cannot correct a misleading headline claim. Treat headlines about speed, ease or cost as prompts for questions, not substitutes for written terms.
+ASIC's current [advertising guidance](https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf) says credit-product advertising should give a balanced message about returns, features, benefits and risks. The headline claim must not itself be misleading. Some headline claims are so strong that a qualification will not correct the impression they create, and a link or separate document will not correct a misleading headline. Treat headlines about speed, ease or cost as prompts for questions, not substitutes for written terms.
 
 ## Test the repayment plan before relying on it
 
-The Australian Government's business loan preparation guide says documentation requirements vary, but possible inputs include identification, a business plan, financial reports, cash-flow statements, forecasts and lease agreements. For a temporary property-finance proposal, a practical planning worksheet can separate the intended repayment event from the evidence supporting it.
+The Australian Government's business loan preparation guide says documentation requirements vary between loans, but possible inputs include proof of identification, a business plan, financial reports (including cash-flow statements if available), financial forecasts, lease agreements, and personal financial information. For a temporary property-finance proposal, a practical planning worksheet can separate the intended repayment event from the evidence supporting it.
 
 | Repayment assumption | Evidence to check | Contingency question |
 |---|---|---|
@@ -114,7 +114,7 @@ The Australian Government's business loan preparation guide says documentation r
 
 **Hypothetical example:** a business considers funding a property purchase while waiting for a separate property sale. Its planning file records the purchase obligation, existing debts, anticipated sale proceeds and a delayed-sale scenario. Those documents are questions for assessment, not evidence that a lender will approve the transaction. The example describes no Emet Capital customer or completed loan.
 
-Avoid treating an unassessed refinance idea or a hoped-for sale price as a settled outcome. Ask what amount would be owing at the expected repayment date and at a later date using the lender's actual written terms. [ASIC's commercial-loan information](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) explains that borrower protections differ according to the loan purpose and encourages commercial borrowers with concerns to seek independent legal advice. The law provides the lowest level of protection to commercial loans, including loans to small businesses. An accountant or business adviser can help examine the cash-flow assumptions; a solicitor can explain the legal documents. This guide makes no tax or legal conclusion about a particular arrangement.
+Avoid treating an unassessed refinance idea or a hoped-for sale price as a settled outcome. Ask what amount would be owing at the expected repayment date and at a later date using the lender's actual written terms. [ASIC's commercial-loan information](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) (Information Sheet 207) explains that borrower protections differ according to the loan purpose, that the law provides the lowest level of protection to commercial loans, including loans to small businesses, and encourages commercial borrowers with concerns to seek independent legal advice. An accountant or business adviser can help examine the cash-flow assumptions; a solicitor can explain the legal documents. This guide makes no tax or legal conclusion about a particular arrangement.
 
 ## Make the first enquiry useful
 
