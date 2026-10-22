@@ -4,7 +4,7 @@ date: "2025-09-28T06:00:00Z"
 description: "Comprehensive guide to commercial property development finance in Australia, covering funding stages, costs, lenders, and requirements for business developers."
 featuredImage: "/images/articles/commercial-property-development-finance.webp"
 category: "Property Finance"
-tags: ["commercial property development finance", "development funding", "construction loans", "property development", "commercial finance", "development lending"]
+tags: ["commercial development finance", "commercial property development finance", "development funding", "construction loans", "property development", "commercial finance", "development lending"]
 readingTime: 10
 author: "Ben"
 reviewed_date: "2026-05-15"
@@ -19,18 +19,18 @@ reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
 expiresAt: "2026-11-05"
 sources:
-  - label: "APRA — APG 113 capital adequacy and specialised lending guidance"
-    url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+  - label: "ASIC — Information Sheet 207 (INFO 207) disputes about commercial loans"
+    url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
 slug: "commercial-property-development-finance"
-metaTitle: "Commercial Property Development Finance Australia"
-metaDescription: "Commercial property development finance explained, including acquisition, approvals, construction drawdowns, lender evidence, costs and exit planning."
+metaTitle: "Commercial Development Finance: How It Works (Guide)"
+metaDescription: "Commercial development finance explained: funding stages, lender assessment, documents and exit planning for Australian business-purpose projects."
 featuredImageAlt: "Commercial property development finance stages and lender requirements"
 protectedUntil: "2026-10-19T00:00:00+11:00"
 ---
 
-Commercial property development finance is business-purpose funding used to acquire, construct, reposition, or complete income-producing commercial property projects. It is usually assessed around the project feasibility, development team, security position, approvals, construction pathway, pre-commitments, and exit strategy.
+Commercial development finance is business-purpose funding used to acquire, construct, reposition, or complete income-producing commercial property. Lenders usually assess the project around feasibility, the development team, security, approvals, construction pathway, pre-commitments, and a defined exit.
 
 The key difference from a standard commercial property loan is timing. A standard facility is usually secured against an existing asset. Development finance funds a project while the asset is being created, so lenders pay close attention to construction risk, cost control, and how the loan will be repaid or refinanced after completion.
 
@@ -49,11 +49,11 @@ For Australian developers, business owners, and property investors, the practica
 
 ## Who This Guide Is For
 
-This guide is for commercial property developers, business owners, and property investors comparing funding options for a commercial development project in Australia. It is most relevant where the project involves business-purpose property rather than consumer or owner-occupier borrowing.
+This guide is for commercial property developers, business owners, and property investors comparing funding options for a commercial development project in Australia. It is most relevant where the project involves business-purpose property rather than consumer or owner-occupier borrowing. [ASIC's commercial-loan information](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) explains that the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses.
 
 It may help if you are planning an office, retail, warehouse, industrial, mixed-use, medical, childcare, or specialised commercial asset. It also applies where a borrower already owns the site and needs funding to move from planning into construction.
 
-Emet Capital works with eligible commercial borrowers. This guide is general information only, not financial advice, tax advice, legal advice, or a recommendation to borrow.
+Emet Capital is a commercial finance broker, not a lender. This guide is general information only, not financial advice, tax advice, legal advice, or a recommendation to borrow.
 
 ## How Does Commercial Property Development Finance Work?
 
@@ -165,7 +165,7 @@ The most common mistake is asking a lender to assess the project before the evid
 
 Other common mistakes include underestimating contingency, relying on unsupported end values, failing to explain the exit, ignoring GST and tax timing, not disclosing existing debts, and treating pre-leasing as guaranteed income before documents are binding.
 
-Borrowers also create problems when they compare only headline pricing. Development finance should be assessed on total structure: fees, drawdown rules, extension options, reporting obligations, security, contingency treatment, and what happens if the project runs late.
+Borrowers also create problems when they compare only headline pricing. The Australian Government's [business loan preparation guide](https://business.gov.au/finance/funding/apply-for-a-business-loan) says loans vary in costs and conditions, including the term, interest rate, setup costs and ongoing fees, and that it is a good idea to compare loan products from multiple lenders before applying. Development finance should be assessed on total structure: fees, drawdown rules, extension options, reporting obligations, security, contingency treatment, and what happens if the project runs late.
 
 ## Land Holding Costs Before Construction
 
@@ -182,9 +182,9 @@ Bridging finance can be appropriate for a short, identifiable timing gap such as
 
 ## Frequently Asked Questions
 
-### What is commercial property development finance?
+### What is commercial development finance?
 
-Commercial property development finance is funding used for business-purpose commercial development projects, including land, construction, professional costs, and project completion. It is usually structured around progressive drawdowns, verified construction milestones, borrower contribution, and a defined exit strategy.
+Commercial development finance is funding used for business-purpose commercial development projects, including land, construction, professional costs, and project completion. It is usually structured around progressive drawdowns, verified construction milestones, borrower contribution, and a defined exit strategy.
 
 ### How is development finance different from a normal commercial property loan?
 
@@ -192,7 +192,7 @@ Development finance funds a property while it is being built or repositioned, so
 
 ### What documents do lenders need for commercial development finance?
 
-Lenders commonly request a development feasibility, cost plan, planning approvals, builder contract, QS report, valuation evidence, title details, existing loan statements, borrower financials, pre-lease or pre-sale evidence, and a written exit strategy. The exact documents depend on the project stage and lender type.
+Documentation requirements vary between loans. Lenders commonly request a development feasibility, cost plan, planning approvals, builder contract, QS report, valuation evidence, title details, existing loan statements, borrower financials, pre-lease or pre-sale evidence, and a written exit strategy. The exact documents depend on the project stage and lender type.
 
 ### Can private lending be used for commercial property development?
 
@@ -211,6 +211,6 @@ The biggest risk is relying on a funding structure that cannot absorb delays, co
 - [Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)
 - [Mezzanine Finance Australia](/resources/guides/mezzanine-finance-australia-complete-guide)
 - [Commercial Bridging Finance](/resources/guides/bridging-finance-australia-complete-property-guide)
-- [Property Development Finance](/services/commercial-property-development)
+- [Commercial development finance arranged through a broker](/services/commercial-property-development)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. It does not lend or fund loans. It helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
