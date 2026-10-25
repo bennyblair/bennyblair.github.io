@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_find-caveat-loan-brokers-australia-20261020",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-19T20:57:37Z",
+    "score": 90,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/find-caveat-loan-brokers-australia.md:80",
+        "finding": "The business.gov.au identity sentence adds the word registered and speaks of the business you deal with. The source heading is Check who you're dealing with, and the method is to search the name or ABN on the ASIC register to make sure it is a real company, in the section about a lender already chosen. The search method is supported."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/find-caveat-loan-brokers-australia.md:54-58",
+        "finding": "Step 3 names Emet Capital's commercial-only scope inside a process introduced as the same for any broker. The sentence is about Emet, not the market."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/find-caveat-loan-brokers-australia.md",
+      "pageId": "pg_068b00cff20d4525a62d9d5890733ba2",
+      "path": "/resources/guides/find-caveat-loan-brokers-australia",
+      "beforeSha256": "b7064adf364eb144547dfc1eb5af924000422fa3239f9e562b43ba9e47d7fbc8",
+      "afterSha256": "cad1acfcc65826365bd7669822cb00c9a4fc1c0104800dfa2ec42b24787129c7",
+      "reason": "Decision: improve the existing caveat-loan-broker selection guide, not a new URL. The page owns the query caveat loan broker Australia. It keeps the scorecard, questions, document list and warning signs; adds how a broker works a caveat file and how Emet Capital works as a broker; and points to /services/caveat-loans and the lender-types guide. Independent review of writer head e2c01ae was REVISE at 86. Revision 256241727ff45963dc68f3d35f8dfe0062d21f8f removed the raw markdown link from the last FAQ, replaced the unsourced market sentence about consumer or household use with Emet's own commercial-only scope, stopped step 2 from calling a caveat structure lawful, and aligned the credit-representative sentence with ASIC's of-no-effect grounds. This independent re-review PASS 90 of that prose found no blockers. This commit sets reviewedBy to OpenClaw independent reviewer, reviewedAt 2026-10-19T20:57:37Z and expiresAt 2027-01-17T20:57:37Z, and removes the reviewed_date alias. It does not change the guide body. Slug, canonical, author, author_bio, publication date, contentRisk high, reviewStatus and humanReviewRequired stay unchanged. No rates, LVRs, approval times, invented transactions or aggregate funds-facilitated claims were added. The lender-network-50 statement stays in body prose with its qualification and is not in Article or FAQPage JSON-LD.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-b5052c71-52f8-5718-b10d-1538d7584f41"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-c7bf2842-e7ec-51fa-b9d5-1549b61d68bc"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-915ae069-91c2-5ee6-9716-640994fb2326"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "This scenario is HYPOTHETICAL."
+        },
+        {
+          "kind": "text-added",
+          "value": "does not arrange consumer finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "among other grounds"
+        },
+        {
+          "kind": "text-removed",
+          "value": "guaranteed approval, rate or settlement date"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/caveat-lenders-australia-directory-comparison"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/commercial-mortgage-rates-australia-complete-guide"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-19T20:57:37Z",
+        "reviewedSourceSha256": "cad1acfcc65826365bd7669822cb00c9a4fc1c0104800dfa2ec42b24787129c7",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 90,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/",
+            "checkedAt": "2026-10-19T20:57:37Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/",
+            "checkedAt": "2026-10-19T20:57:37Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-19T20:57:37Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "you can use a business loan broker to help you find the right loan",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A good broker will understand your business needs, recommend some loan options and handle most of the paperwork for you.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Some brokers charge for their services, while others are free and get a commission from the lender.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "it’s a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "read each loan’s terms and conditions carefully",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "check who they’re dealing with",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "searching for the name or ABN on the Australian Securities and Investments Commission (ASIC) register",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "search several registers at once to find out about a person or an organisation registered or licensed with ASIC to provide a service",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "Those registers include credit licensees and credit representatives.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "You can search by individual or company name, registration or licence number, ACN or ABN.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "Before you choose a professional, ASIC says you may want to check the professional is registered or licensed and the services they are licensed to provide.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "an authorisation is of no effect if the credit activities are not covered by the licensee’s licence, among other grounds.",
+            "sources": [
+              "https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Prose was reviewed at git revision 256241727ff45963dc68f3d35f8dfe0062d21f8f. This metadata commit does not change the guide body. reviewedSourceSha256 is the post-metadata file.",
+          "Non-blocking: the business.gov.au identity sentence says real registered company and the business you deal with. The source says real company and places the ASIC name-or-ABN search in the section about a lender already chosen, under the heading Check who you're dealing with.",
+          "Non-blocking: step 3 states Emet Capital's commercial-only scope inside a working sequence introduced as the same for any broker. The sentence names Emet Capital.",
+          "The prior blocker is fixed: all five FAQ answers are plain sentences. Built HTML and FAQPage JSON-LD contain no ]( sequence.",
+          "The prior medium is fixed: the page no longer says consumer or household use is outside this market. Consumer exclusion is stated as Emet Capital's own scope and matches the caveat loans service page.",
+          "The prior lawful wording is fixed: step 2 tells the broker to check that the proposed caveatable interest is documented and flag it for the borrower's lawyer.",
+          "author_bio still states 10 years' experience. That protected author field was not edited.",
+          "Emet Capital has access to over 50 lenders is the verified lender-network-50 claim, followed by its display qualification. schemaAllowed is false. The sentence is in the body and is absent from Article and FAQPage JSON-LD.",
+          "data/seo-page-registry.json still records governance.sourceCount 2. The registry is not edited in this content lane.",
+          "featuredImageAlt matches the documented representative alt for this existing image, including Sydney, and says representative property photograph."
+        ],
+        "claimCorrections": [
+          {
+            "before": "Last FAQ answer contained a markdown link to /services/caveat-loans.",
+            "after": "Provide the purpose, security, current debt, deadline and exit evidence. General information only; not legal, tax or credit advice.",
+            "reason": "FAQ answers are copied into FAQPage JSON-LD as plain text. A markdown link rendered as raw ](."
+          },
+          {
+            "before": "Consumer or household use is outside this market.",
+            "after": "Emet Capital arranges commercial and business-purpose caveat loans and does not arrange consumer finance.",
+            "reason": "The market-wide exclusion was unsourced. The replacement is Emet's own broker scope."
+          },
+          {
+            "before": "whether a caveat structure is even a lawful and practical security method for this property",
+            "after": "Check that the proposed caveatable interest is documented and flag it for the borrower’s lawyer.",
+            "reason": "The broker is not asked to decide whether a caveat structure is lawful."
+          },
+          {
+            "before": "an authorisation is of no effect if the credit activity is not covered by the licensee’s licence",
+            "after": "an authorisation is of no effect if the credit activities are not covered by the licensee’s licence, among other grounds",
+            "reason": "ASIC INFO 126 lists that ground among others, including banning, a prescribed order and a recent serious-fraud conviction."
+          }
+        ],
+        "dimensions": {
+          "intentCoverage": 92,
+          "informationGain": 90,
+          "specificity": 88,
+          "evidence": 88,
+          "readability": 90,
+          "repetition": 86,
+          "compliance": 94,
+          "aiAnswerUsefulness": 90
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-17T20:57:37Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-915ae069-91c2-5ee6-9716-640994fb2326",
+          "reviewedRevision": "256241727ff45963dc68f3d35f8dfe0062d21f8f"
+        },
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/find-caveat-loan-brokers-australia.md",
+          "result": "PASS 0 errors, 1 warning (protected legacy author aliases retained)"
+        }
+      }
+    }
+  ]
+}
