@@ -141,6 +141,8 @@ Closed bridges are a bad fit when everyone treats the exit as guaranteed just be
 
 If the settlement chain is fragile, the property is unusual, or the refinance is still missing major conditions, the file may look less closed than the borrower expects. Good structuring matters more than the label on the term sheet.
 
+When the open-versus-closed choice still needs to be placed against a real commercial transaction, [commercial bridging finance arranged through a broker](/services/bridging-finance) is the practical next step. Working with a broker on a bridging file means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. An enquiry starts a discussion about options, not an approval or a promised outcome.
+
 ## FAQs
 
 ### What is the main difference between an open and a closed bridging loan?
