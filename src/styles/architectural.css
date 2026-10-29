@@ -119,6 +119,10 @@ img{max-width:100%}button,input,textarea,select{font:inherit}button,a{touch-acti
 .location-page{background:var(--paper);color:var(--ink)}.location-header>div{justify-content:flex-start}.location-header h1{margin:0}.location-header .grid{margin:28px 0}.location-header>p{margin:22px 0}.location-header .text-primary{color:var(--green)}
 
 .footer-grid{display:grid;grid-template-columns:1fr;gap:36px}.footer-grid>div{min-width:0}.site-footer a{overflow-wrap:anywhere}.site-footer .brand{max-width:100%;white-space:normal}.brand{white-space:normal;max-width:calc(100% - 74px)}.brand span{min-width:0}
+.preferred-source-link{display:inline-flex;max-width:100%;line-height:0;text-decoration:none}
+.site-footer a.preferred-source-link{margin-top:18px;line-height:0}
+.preferred-source-link img{display:block;width:220px;max-width:100%;height:auto}
+.article-preferred-source{display:flex;justify-content:flex-start;margin-top:40px}
 .nav-inner{height:auto;min-height:84px;flex-wrap:wrap;padding-block:16px}.desktop-nav{flex-wrap:wrap;flex:1;min-width:0;gap:4px 24px;justify-content:center}.desktop-nav a{white-space:normal;padding-block:10px}.nav-contact{flex-wrap:wrap;max-width:100%}.nav-phone,.nav-enquiry{white-space:normal}
 .location-page .grid>div{min-width:0;overflow-wrap:anywhere}
 @media(min-width:560px){.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
