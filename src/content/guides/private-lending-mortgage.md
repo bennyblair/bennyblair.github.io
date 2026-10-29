@@ -103,6 +103,8 @@ Emet Capital’s role is to turn the funding request into a lender-readable stru
 
 A borrower might ask for a private lending mortgage, but the better answer could be [commercial property refinancing](/services/refinancing-solutions), asset-backed lending, a second mortgage, or bridging finance. For asset-heavy borrowers, the [asset-backed lending guide](/resources/guides/asset-backed-lending-and-asset-finance) is also worth comparing.
 
+When a commercial private lending mortgage may fit, the practical next step is [commercial private lending arranged through a broker](/services/private-lending). Working with a broker means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. An enquiry starts a discussion about options, not an approval or a promised outcome.
+
 ## Practical Summary
 
 A private lending mortgage is commercial property-secured finance funded by a private or specialist non-bank lender. It is commonly considered when timing or transaction complexity does not fit a bank process, subject to security, purpose, documents and a credible exit.
