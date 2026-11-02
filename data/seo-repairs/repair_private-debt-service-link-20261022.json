@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-debt-service-link-20261022",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-21T20:54:13.744Z",
+    "score": 90,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-debt-australia.md",
+      "pageId": "pg_f1b8d3840a6f4d45b8c872771d09db52",
+      "path": "/resources/guides/private-debt-australia",
+      "beforeSha256": "81a63ea8dc475a934e1afac6e34682538f41f009bf9b229a8756f4b8ac5e0f92",
+      "afterSha256": "d7e26d8ff4e175de82f9ca990686ecde617968351a65cfb46a8cf60927fa7df2",
+      "reason": "Add one contextual link from the private-debt-australia guide to the designated service /services/private-lending, and state the broker role without lender positioning. The Who This Is For sentence and the closer now say Emet Capital helps eligible business borrowers compare options from lenders. The closer states that Emet Capital is a commercial finance broker and does not lend or fund loans. The new paragraph says an enquiry is a discussion about options, not an approval or a promised outcome. Publication-contract frontmatter required for this material change: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, an existing 1200x630 featured image, and one business.gov.au source. Duplicate related-list entries were reduced so no internal target appears more than twice. Independent Grok 4.7 review of writer head a8941d8496c576a868c894ab3f198f57f982ec95 scored 90 with no blockers. This review commit does not change body prose. It sets reviewedBy to OpenClaw independent reviewer, reviewedAt to 2026-10-21T20:54:13.744Z and expiresAt to 2027-04-19T20:54:13.744Z, the registry 180-day cadence for this medium-risk page, and removes the reviewed_date alias. No rates, volumes, licence, membership, or invented transaction results were added.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-03bdacc3-c503-5dc7-a293-a20668278dc9"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-0e7e29b1-0b39-5a13-9025-34f2fa341f65"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "Working with a broker on a private-debt file means Emet Capital gathers the transaction facts, the security and the exit plan"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital helps eligible business borrowers compare options from lenders across structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital connects eligible business borrowers with commercial lending solutions and helps compare structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-21T20:54:13.744Z",
+        "reviewedSourceSha256": "d7e26d8ff4e175de82f9ca990686ecde617968351a65cfb46a8cf60927fa7df2",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 90,
+        "dimensions": {
+          "intentCoverage": 94,
+          "informationGain": 88,
+          "specificity": 88,
+          "evidence": 86,
+          "readability": 91,
+          "repetition": 86,
+          "compliance": 94,
+          "aiAnswerUsefulness": 90
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-21T20:54:13.744Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "Emet Capital connects eligible business borrowers with commercial lending solutions",
+            "after": "Emet Capital helps eligible business borrowers compare options from lenders across structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance.",
+            "reason": "The Who This Is For sentence positioned Emet Capital as connecting borrowers with lending solutions. The replacement states a broker comparison role."
+          },
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders.",
+            "reason": "The closing sentence positioned Emet Capital as providing lending. The replacement states the broker role and that it does not lend or fund loans."
+          }
+        ],
+        "articleQa": {
+          "command": "npm run qa:article -- src/content/guides/private-debt-australia.md",
+          "result": "PASS 0 errors, 2 warning(s)",
+          "metrics": {
+            "wordCount": 2015,
+            "faqPresent": true,
+            "faqQuestions": 6,
+            "internalLinks": 19,
+            "uniqueGuideLinks": 11,
+            "highestParagraphSimilarity": 0.094
+          },
+          "acceptedWarnings": [
+            "possible internal-link stuffing; found 19 links",
+            "legacy author overrides remain compatible but should be removed: author_name, author_title, author_url, author_bio, author_links"
+          ]
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorBylineUnchanged": true,
+          "bodyProseUnchangedByReviewMetadata": true,
+          "oneH1InBuiltHtml": true,
+          "selfCanonical": true,
+          "indexFollow": true,
+          "noBrokenMarkdownInBuiltHtml": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review by Grok 4.7, not human or professional financial approval. The writer was Grok 4.6.",
+          "Reviewed writer revision a8941d8496c576a868c894ab3f198f57f982ec95. Body prose is unchanged by this metadata commit. afterSha256 includes the canonical review metadata.",
+          "Registry contentRisk is medium and reviewEveryDays is 180, so expiresAt is reviewedAt plus 180 days.",
+          "business.gov.au Apply for a business loan returned HTTP 200 on 21 October 2026. Its Shop around section says it is a good idea to compare loan products from multiple lenders before applying. The page uses that sentence only. It does not use the source to define private debt.",
+          "The following clause, an enquiry starts a discussion about options, not an approval or a promised outcome, is Emet Capital process wording and is not attributed to business.gov.au.",
+          "author_bio still states 10 years' experience. That protected author field was not edited. The Ben byline is approved to stay.",
+          "Non-blocking: the page still says many Australian private debt facilities are property-backed, and that private debt is often more expensive with stricter default consequences. Those are qualitative and unsourced. They are not rates, LVRs, volumes, or dollar results.",
+          "Non-blocking: compares suitable private lenders is broader than compare options, and the same paragraph says the borrower decides and Emet Capital does not approve credit.",
+          "Non-blocking: article QA warns on 19 internal links. No target appears more than twice.",
+          "The featured image is the existing office photograph also used by what-is-private-lending-australia. The alt says it is a representative property photograph. This page has no separate caption.",
+          "Built robots are the site template value index, follow plus max-snippet, max-image-preview and max-video-preview. The page is not noindex or nofollow.",
+          "data/seo-page-registry.json still records governance.sourceCount 0 and reviewedBy null. The registry is not edited in this content lane.",
+          "No src/content/claims.json statements were added."
+        ],
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 180,
+          "reviewExpiresAt": "2027-04-19T20:54:13.744Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-0e7e29b1-0b39-5a13-9025-34f2fa341f65",
+          "reviewedRevision": "a8941d8496c576a868c894ab3f198f57f982ec95"
+        }
+      }
+    }
+  ]
+}

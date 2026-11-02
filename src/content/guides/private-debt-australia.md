@@ -11,14 +11,25 @@ keywords:
   - "private lending Australia"
 readTime: "9 min read"
 author: "Ben"
-reviewed_date: "2026-06-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Private Debt Australia | Commercial Borrower Guide"
-metaDescription: "Private debt in Australia explained for commercial borrowers. Learn how private debt works, when it fits, lender assessment, risks, exits, and alternatives."
+metaDescription: "Private debt in Australia explained for commercial borrowers. How broker-arranged private lending works, when it fits, lender assessment, risks, and next steps."
+primaryQuery: "private debt Australia"
+searchIntent: "informational"
+designatedServicePage: "/services/private-lending"
+contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-10-21T20:54:13.744Z"
+expiresAt: "2027-04-19T20:54:13.744Z"
+featuredImage: "/images/uploads/what-is-private-lending-australia.jpg"
+featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
+sources:
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 Private debt in Australia is non-bank lending where capital is provided by private credit funds, specialist lenders, family offices, investors, or other non-bank sources rather than a traditional bank. For commercial borrowers, private debt is usually considered when timing, property security, loan purpose, documentation, or bank appetite does not fit a standard bank process.
@@ -27,16 +38,14 @@ In practice, private debt can include [private lending](/resources/guides/what-i
 
 This guide explains how private debt works for Australian business owners, property investors, and developers, when it may be useful, what lenders assess, and how to compare it with bank finance. It is general information only and not financial advice.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
-- **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — the main borrower guide to private lending structures.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — how non-bank funding differs from traditional bank credit.
-- **[Private Debt vs Private Lending](/resources/guides/private-debt-vs-private-lending-australia)** — terminology and structure differences.
 - **[Private Credit for SME Borrowers](/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance)** — when private credit replaces bank finance for businesses.
 - **[Private Commercial Loans for SMEs](/resources/guides/private-commercial-loans-for-smes)** — practical SME borrower scenarios.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial property finance context.
 
-### At a Glance
+## At a Glance
 
 | Question | Practical answer |
 |---|---|
@@ -47,11 +56,11 @@ This guide explains how private debt works for Australian business owners, prope
 | **Main risk** | Higher cost, shorter terms, stricter default consequences, and pressure if the exit strategy fails. |
 | **Best preparation** | Clear purpose, security evidence, realistic exit, entity documents, and full visibility on costs and legal obligations. |
 
-### Who This Is For
+## Who This Is For
 
 This guide is for commercial borrowers considering private debt in Australia. That includes business owners seeking working capital, property investors refinancing commercial assets, developers bridging a project timing gap, and SMEs comparing non-bank funding after a bank delay or decline.
 
-It is not a personal finance guide. Emet Capital connects eligible business borrowers with commercial lending solutions and helps compare structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance.
+It is not a personal finance guide. Emet Capital helps eligible business borrowers compare options from lenders across structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance.
 
 ## What Is Private Debt in Australia?
 
@@ -156,6 +165,8 @@ The broker role is not to make the debt risk-free. It is to make the scenario cl
 
 A well-prepared private debt enquiry usually includes borrower structure, property details, current debt, purpose, deadline, supporting documents, and exit evidence. That gives lenders a fair chance to respond quickly and accurately.
 
+When a commercial deal may fit private debt, Emet Capital can help compare [private lending for Australian businesses](/services/private-lending). Working with a broker on a private-debt file means Emet Capital gathers the transaction facts, the security and the exit plan, compares suitable private lenders, and presents terms for the borrower to decide. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. It's a good idea to compare loan products from multiple lenders before applying; an enquiry starts a discussion about options, not an approval or a promised outcome.
+
 ## Related Guides
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — core guide to non-bank private lending.
@@ -194,4 +205,4 @@ The biggest risk is entering a short-term facility without a realistic exit stra
 
 Private debt in Australia can be useful when a commercial borrower has a clear funding need, adequate security, and a realistic repayment pathway, but it should be treated as a structured commercial tool, not a shortcut around weak fundamentals. The best private debt files explain the purpose, risk, security, and exit clearly before asking a lender for terms.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
