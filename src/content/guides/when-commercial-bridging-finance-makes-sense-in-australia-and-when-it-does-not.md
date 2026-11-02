@@ -6,7 +6,6 @@ category: "Bridging Finance"
 tags: ["Commercial Bridging Finance", "Bridging Loans", "Private Lending", "Commercial Property Loans", "Short-Term Finance"]
 readingTime: 11
 author: "Daniel"
-reviewed_date: "2026-08-05"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,11 +21,11 @@ searchIntent: "commercial investigation"
 intentCluster: "commercial-bridging-finance-fit"
 designatedServicePage: "/services/bridging-finance"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-02T07:44:09Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-01-31T07:44:09Z"
 sources:
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
