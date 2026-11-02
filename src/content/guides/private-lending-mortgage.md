@@ -138,9 +138,9 @@ They are often more expensive than clean mainstream bank loans because the lende
 
 The most important parts are usable property security and a credible repayment exit. Lenders also assess title position, existing debt, borrower structure, loan purpose, documents, and valuation confidence.
 
-### Can Emet Capital guarantee approval or rates?
+### Can Emet Capital promise an approval or a rate?
 
-No. Emet Capital does not guarantee approval, interest rates, lender appetite, or settlement timing. Outcomes depend on the borrower, security, documents, legal position, lender criteria, and market conditions at the time of assessment.
+No. An approval is not promised. Interest rates, lender appetite, and settlement timing depend on the borrower, security, documents, legal position, lender criteria, and market conditions at the time of assessment.
 
 ## Related Guides
 
