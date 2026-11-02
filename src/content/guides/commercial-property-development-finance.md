@@ -7,17 +7,16 @@ category: "Property Finance"
 tags: ["commercial development finance", "commercial property development finance", "development funding", "construction loans", "property development", "commercial finance", "development lending"]
 readingTime: 10
 author: "Ben"
-reviewed_date: "2026-05-15"
 primaryQuery: "commercial property development finance Australia"
 searchIntent: "commercial investigation"
 intentCluster: "commercial-property-development"
 designatedServicePage: "/services/commercial-property-development"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-02T07:21:17Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-01-31T07:21:17Z"
 sources:
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
