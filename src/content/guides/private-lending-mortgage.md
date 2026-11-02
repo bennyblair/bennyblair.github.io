@@ -19,15 +19,22 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Private Lending Mortgage Australia | Commercial Borrower Guide"
 metaDescription: "Private lending mortgage explained for Australian commercial borrowers. Learn when it may fit, what lenders assess, documents, exits and risks."
+primaryQuery: "private lending mortgage"
+searchIntent: "informational"
+designatedServicePage: "/services/private-lending"
+contentRisk: "medium"
+featuredImage: "/images/uploads/what-is-private-lending-australia.jpg"
+featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
+sources:
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
-
-# Private Lending Mortgage: Guide for Commercial Borrowers
 
 A private lending mortgage is commercial finance secured by real property and funded by a private lender, private credit fund, family office, or specialist non-bank lender rather than a mainstream bank. For Australian business borrowers, it is usually considered when timing, documentation, asset type, credit history, or transaction complexity does not fit a standard bank process.
 
-A private lending mortgage is not automatically better than a bank loan. It can be useful when the borrower has strong security and a clear commercial exit, but it can also be more expensive and less forgiving if the repayment plan is weak. Emet Capital helps borrowers compare private lending mortgages with [bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), second mortgages, caveat loans, and refinance options.
+A private lending mortgage is not automatically better than a bank loan. It can be useful when the borrower has strong security and a clear commercial exit, but it can also be more expensive and less forgiving if the repayment plan is weak. Emet Capital helps borrowers compare private lending mortgages with [bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), commercial property loans, second mortgages, caveat loans, and refinance options.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — the core private lending explainer for commercial borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare flexibility, speed, documentation, cost, and risk.
@@ -103,7 +110,7 @@ Emet Capital’s role is to turn the funding request into a lender-readable stru
 
 A borrower might ask for a private lending mortgage, but the better answer could be [commercial property refinancing](/services/refinancing-solutions), asset-backed lending, a second mortgage, or bridging finance. For asset-heavy borrowers, the [asset-backed lending guide](/resources/guides/asset-backed-lending-and-asset-finance) is also worth comparing.
 
-When a commercial private lending mortgage may fit, the practical next step is [commercial private lending arranged through a broker](/services/private-lending). Working with a broker means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. An enquiry starts a discussion about options, not an approval or a promised outcome.
+When a commercial private lending mortgage may fit, the practical next step is [commercial private lending arranged through a broker](/services/private-lending). Working with a broker means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. It's a good idea to compare loan products from multiple lenders before applying; an enquiry starts a discussion about options, not an approval or a promised outcome.
 
 ## Practical Summary
 
