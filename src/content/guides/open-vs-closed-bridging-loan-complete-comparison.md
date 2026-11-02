@@ -119,7 +119,7 @@ That is why many experienced borrowers still model the downside. If the supposed
 
 ## Worked Example: Open Bridge
 
-A Melbourne investor needs to settle on a mixed-use acquisition in 21 days. Their existing commercial property is being marketed for sale, and agent feedback is strong, but contracts are not yet exchanged. The investor has reasonable equity and wants to avoid missing the new asset.
+A Melbourne investor is buying a mixed-use property, and the contract timetable is short. Their existing commercial property is being marketed for sale, and agent feedback is strong, but contracts are not yet exchanged. The investor has reasonable equity and wants to avoid missing the new asset.
 
 That is typically an open bridge scenario. The exit is believable, but it is not locked in. The lender will likely focus on asset quality, equity, current debt, and what happens if the sale takes longer than expected. In some cases, the borrower may also compare this with a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide) or a transitional refinance.
 
