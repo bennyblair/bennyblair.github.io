@@ -28,8 +28,8 @@ reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
 expiresAt: "2026-11-05"
 sources:
-  - label: "Moneysmart — Bridging finance"
-    url: "https://moneysmart.gov.au/glossary/bridging-finance"
+  - label: "business.gov.au — Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "NSW Government — Buying property at an auction"
     url: "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/buying-property-at-an-auction"
 ---
@@ -267,7 +267,7 @@ Commercial bridging finance makes sense when it is being used exactly as intende
 
 It does not make sense when the borrower is using short-term debt to disguise a long-term problem. The difference is simple but important. A good bridge protects a viable transaction. A bad bridge makes an already-uncertain position more expensive and more fragile.
 
-When the timing gap is genuine and the repayment event is documented, Emet Capital can help compare [commercial bridging finance arranged through a broker](/services/bridging-finance). Working with a broker on a commercial bridging file means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. An enquiry starts a discussion about options, not an approval or a promised outcome.
+When the timing gap is genuine and the repayment event is documented, Emet Capital can help compare [commercial bridging finance arranged through a broker](/services/bridging-finance). Working with a broker on a commercial bridging file means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide, because it’s a good idea to compare loan products from multiple lenders before applying. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. An enquiry starts a discussion about options, not an approval or a promised outcome.
 
 ## Related Guides
 
