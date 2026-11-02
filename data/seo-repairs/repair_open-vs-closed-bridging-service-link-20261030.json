@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_open-vs-closed-bridging-service-link-20261030",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "bb4e38d98b5e180707401c2d87fecf5a532ea88c",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-02T08:05:43Z",
+    "score": 90,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/open-vs-closed-bridging-loan-complete-comparison.md",
+        "finding": "The broker-not-lender sentence appears in Who This Is For, the process paragraph, and the disclaimer. The repetition is the required correction from lender wording. Article QA paragraph similarity is 0.288."
+      },
+      {
+        "severity": "low",
+        "location": "sources and Who This Is For",
+        "finding": "business.gov.au encodes the shop-around apostrophe as &rsquo;. The guide uses a straight apostrophe in It's. The words match, and the sentence is under Shop around. Open-versus-closed definitions and the broker paragraph are not attributed to that page."
+      },
+      {
+        "severity": "low",
+        "location": "featuredImageAlt",
+        "finding": "The shared 1200x630 JPEG is also catalogued for the when-commercial-bridging route with a Dandenong alt. This page's alt describes the glass office and street trees and does not name a suburb. The photograph matches that alt. There is no article-images.json override for this route."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/open-vs-closed-bridging-loan-complete-comparison.md",
+      "pageId": "pg_4b4bda028000494f881eb0d1e36173c9",
+      "path": "/resources/guides/open-vs-closed-bridging-loan-complete-comparison",
+      "beforeSha256": "2dec85c87edeaeadee9dcbd3ee88eaa14c1c297f723578db07d14a9bfd102cd6",
+      "afterSha256": "c94c8cc26fe4a66aa7e9b30c6238928bb180a744e574ea800bfd82684cd10739",
+      "reason": "Add one contextual link from the open-versus-closed bridging comparison to the designated service /services/bridging-finance, and state that Emet Capital is a commercial finance broker that does not lend or fund loans. Publication-contract fixes kept from independent REVISE 80: no body H1, one related-guides section, unique pros/cons H3s, plain FAQ answers, broker wording, publication frontmatter, the existing 1200x630 featured image, and the business.gov.au shop-around sentence. Independent REVISE 87 flagged a time promise in 'A Melbourne investor needs to settle on a mixed-use acquisition in 21 days.' That sentence is now 'A Melbourne investor is buying a mixed-use property, and the contract timetable is short.' This PASS review of prose head 756cf09d347deef371d2f2d0352efc3f4957a84a, after merging origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c (#249), found no blockers. This commit does not change guide prose. It removes the reviewed_date alias and sets reviewedBy to OpenClaw independent reviewer, reviewedAt to 2026-11-02T08:05:43Z and expiresAt to 2027-05-01T08:05:43Z, the registry 180-day cadence for this medium-risk page. No rates, volumes, memberships, credit-licence claims, consumer loans, or invented transaction results were added. The Daniel byline is unchanged.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-5c1ec17b-bbfa-5cfa-97a0-32d2577542f9"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-a8f83dca-8ec2-5b21-8fb3-64103e2bc6ae"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit."
+        },
+        {
+          "kind": "text-added",
+          "value": "A Melbourne investor is buying a mixed-use property, and the contract timetable is short."
+        },
+        {
+          "kind": "text-added",
+          "value": "see the related guide on when commercial bridging finance makes sense in Australia and when it does not."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital deals with commercial lending solutions to eligible business borrowers only."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "A Melbourne investor needs to settle on a mixed-use acquisition in 21 days."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Core guide to how commercial bridging finance works."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-02T08:05:43Z",
+        "reviewedSourceSha256": "c94c8cc26fe4a66aa7e9b30c6238928bb180a744e574ea800bfd82684cd10739",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 90,
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 86,
+          "specificity": 87,
+          "evidence": 88,
+          "readability": 90,
+          "repetition": 84,
+          "compliance": 95,
+          "aiAnswerUsefulness": 91
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-02T08:05:43Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "A Melbourne investor needs to settle on a mixed-use acquisition in 21 days.",
+            "after": "A Melbourne investor is buying a mixed-use property, and the contract timetable is short.",
+            "reason": "The 21-day settlement sentence matched the general-information time-promise check. The replacement keeps a short-timetable example and states no day count."
+          },
+          {
+            "before": "Emet Capital deals with commercial lending solutions to eligible business borrowers only.",
+            "after": "Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders.",
+            "reason": "The audience sentence positioned Emet Capital as dealing in lending solutions. The replacement states a broker comparison role and keeps the consumer-loan exclusion in the same paragraph."
+          },
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders.",
+            "reason": "The disclaimer positioned Emet Capital as providing lending solutions. The replacement states that Emet Capital is a broker and does not lend or fund loans."
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Reviewed prose head is 756cf09d347deef371d2f2d0352efc3f4957a84a. This record is https://cursor.com/agents/bc-a8f83dca-8ec2-5b21-8fb3-64103e2bc6ae (Grok 4.7), a different model from the writer (Grok 4.6, https://cursor.com/agents/bc-5c1ec17b-bbfa-5cfa-97a0-32d2577542f9). Independent REVISE 87 on the 21-day sentence is cleared. This metadata commit does not change guide prose.",
+          "The Daniel byline and author frontmatter stay unchanged, including the existing 10 years' experience sentence. reviewed_date 2026-05-15 was the legacy alias and is removed.",
+          "business.gov.au Apply for a business loan was re-read at review time (HTTP 200). The mapped shop-around sentence appears on that page. The guide uses a straight apostrophe in It's; the source HTML uses a typographic apostrophe entity. The words otherwise match. Open-versus-closed definitions and the broker process paragraph are not attributed to that page.",
+          "The closed-bridge worked example still says a sale settlement is due in six weeks. That is an illustrative scenario already on main, not a promise that approval or settlement will occur within a stated number of days. The time-promise check does not match it.",
+          "No rate, fee, LVR, volume, FBAA, MFAA, credit-licence, or consumer-loan claim was added. The page still excludes owner-occupier home lending and consumer bridging products.",
+          "The featured image is the existing 1200x630 JPEG. This route has no article-images.json override, so the built page uses the frontmatter image and alt."
+        ]
+      }
+    }
+  ]
+}

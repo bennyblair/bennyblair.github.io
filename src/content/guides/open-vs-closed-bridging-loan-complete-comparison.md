@@ -12,7 +12,6 @@ keywords:
   - "bridging finance Australia"
 readTime: "11 min read"
 author: "Daniel"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -24,6 +23,9 @@ primaryQuery: "open vs closed bridging loan"
 searchIntent: "informational"
 designatedServicePage: "/services/bridging-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-02T08:05:43Z"
+expiresAt: "2027-05-01T08:05:43Z"
 featuredImage: "/images/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.jpg"
 featuredImageAlt: "Glass commercial office building on a tree-lined street; representative property photograph."
 sources:
