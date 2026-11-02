@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-lending-mortgage-service-link-20261030",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "bb4e38d98b5e180707401c2d87fecf5a532ea88c",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-02T08:05:28Z",
+    "score": 91,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/private-lending-mortgage.md closer",
+        "finding": "The closer still says Emet Capital provides commercial lending solutions to eligible business borrowers. The service paragraph says Emet Capital is a commercial finance broker, not a lender, and that it does not fund loans or approve credit. Left for a later brief, as on the prior reviews of this page."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/private-lending-mortgage.md",
+        "finding": "Article QA warns on 18 internal links and on the legacy Ben author_* fields. Word count is 1,569, with 6 FAQs and paragraph similarity 0.323. The related lists and the Ben byline stay."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/private-lending-mortgage.md body",
+        "finding": "generally more expensive, can be faster, and often move quickly stay qualitative and unsourced. They were already on the page. The business.gov.au sentence uses a straight apostrophe in the guide. The live page encodes the same words with a right single quotation mark."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-lending-mortgage.md",
+      "pageId": "pg_4b20e74999024d8fa81ccf2c7bceb3a8",
+      "path": "/resources/guides/private-lending-mortgage",
+      "beforeSha256": "5975b2c317d5bbb7245a86d5e6fb41b781e5daa641bbd660033baea6a4ae7427",
+      "afterSha256": "8235a19f89ceee3fca3c61a6670ad699548d9b2a64e59b87ebf5109a7b8b6a43",
+      "reason": "Existing-page improvement of the private-lending-mortgage guide. Add one contextual link to the designated service /services/private-lending and state that Emet Capital is a commercial finance broker, not a lender, and does not fund loans or approve credit. Keep the approved Ben byline, title, slug, canonical path, and meta fields. Publication-contract frontmatter was required for this material change: primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source. The body H1 is removed, Related In-Depth Guides is an H2, and the intro commercial-property-loans phrase is unlinked so that URL appears twice. Independent review REVISE 91 of writer head 35408d8696f7f3f8e29fc51e8e50e2540054522d blocked only on validateGeneralInformationReview matching guarantee directly before approval in the FAQ. Writer revision ddb4fd18c57147ead32030b7c979a96810606dc4 reworded that FAQ to Can Emet Capital promise an approval or a rate? and An approval is not promised. This re-review of prose head 404919a63cd944cb1a907c4822067c52622a7d73 finds that pattern cleared and no new blocker. origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c is merged. package.json and package-lock.json match that main commit, with no dependency edits on this branch. Canonical review metadata only: remove the reviewed_date alias and set reviewedBy, reviewedAt and expiresAt on the registry 180-day medium-risk cadence. No further prose change. baseSha is current origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-792c9777-0a48-5500-8a53-adf8a4c10a86"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-9b5e3ca4-b4b9-54de-b3ae-ec7e3079de86"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-4b396175-7815-5930-bcac-42cdfa731233"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-dd5dd945-4094-513e-98f2-ef80b9448af4"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-da7491ca-1e1c-5797-b6ab-641eb688512b"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-c652d019-5160-5166-b9bd-fc20b057ea66"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "Can Emet Capital promise an approval or a rate?"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Can Emet Capital guarantee approval or rates?"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital does not guarantee approval, interest rates, lender appetite, or settlement timing."
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-02T08:05:28Z",
+        "reviewedSourceSha256": "8235a19f89ceee3fca3c61a6670ad699548d9b2a64e59b87ebf5109a7b8b6a43",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 91,
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 88,
+          "specificity": 87,
+          "evidence": 90,
+          "readability": 91,
+          "repetition": 84,
+          "compliance": 95,
+          "aiAnswerUsefulness": 92
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-02T08:05:28Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Reviewed prose head is 404919a63cd944cb1a907c4822067c52622a7d73. This record is https://cursor.com/agents/bc-c652d019-5160-5166-b9bd-fc20b057ea66 by a different model from the writer (Grok 4.6). The earlier REVISE 91 on 35408d8696f7f3f8e29fc51e8e50e2540054522d is not this review.",
+          "The Ben byline and author frontmatter stay as approved, including the existing 10 years' experience sentence. Those author fields were not edited.",
+          "business.gov.au Apply for a business loan was re-read at review time (HTTP 200). The mapped shop-around words appear in the Shop around section. The guide uses a straight apostrophe and joins the clause with a semicolon. The live page uses a right single quotation mark and a full stop. The words otherwise match. The page's right loan and recommend some loan options lines are not used.",
+          "The FAQ heading and answer no longer place guarantee directly before approval. validateGeneralInformationReview returns no errors on the resulting page.",
+          "origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c is an ancestor. The merge changed only the dependency files that main already contained. This branch does not edit those versions.",
+          "The guide body was not changed by the review-metadata commit. No rate, term, transaction, volume, licence, or association claim was added."
+        ],
+        "claimCorrections": [
+          {
+            "before": "Can Emet Capital guarantee approval or rates? No. Emet Capital does not guarantee approval, interest rates, lender appetite, or settlement timing.",
+            "after": "Can Emet Capital promise an approval or a rate? No. An approval is not promised. Interest rates, lender appetite, and settlement timing depend on the borrower, security, documents, legal position, lender criteria, and market conditions at the time of assessment.",
+            "reason": "The general-information gate treats guarantee directly before approval as an outcome guarantee, including inside a denial. The reword keeps the denial and clears that pattern."
+          },
+          {
+            "before": "No broker identity paragraph and no link to /services/private-lending in the decision section.",
+            "after": "Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. One body link: commercial private lending arranged through a broker.",
+            "reason": "Emet is a broker, never a lender. The designated service is linked once from the decision section."
+          },
+          {
+            "before": "reviewed_date: 2026-06-25. No reviewedBy, reviewedAt, or expiresAt.",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-02T08:05:28Z; expiresAt: 2027-05-01T08:05:28Z; score 91; blockingFindings empty",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence after PASS 91. Guide body unchanged."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 180,
+          "reviewExpiresAt": "2027-05-01T08:05:28Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-c652d019-5160-5166-b9bd-fc20b057ea66",
+          "reviewedRevision": "404919a63cd944cb1a907c4822067c52622a7d73"
+        },
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/private-lending-mortgage.md",
+          "result": "PASS 0 errors, 2 warnings"
+        }
+      }
+    }
+  ]
+}
