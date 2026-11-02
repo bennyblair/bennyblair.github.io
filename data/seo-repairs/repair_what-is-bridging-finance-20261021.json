@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_what-is-bridging-finance-20261021",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e037237bb385e204ecfe953a8ad4dfcbcc45b986",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-10-20T20:58:56Z",
+    "score": 91,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/what-is-bridging-finance.md",
+        "finding": "qa:article and qa:content warn that 18 internal links exceed the preferred maximum of 15. No target appears more than twice, and the designated service link /services/bridging-finance appears once."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/what-is-bridging-finance.md author frontmatter",
+        "finding": "qa:article warns that legacy author fields remain (author_name, author_title, author_url, author_bio, author_links). The existing Ben byline is approved to stay, and those author fields are protected from this repair."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/what-is-bridging-finance.md Practical Broker View",
+        "finding": "The sentence about comparing loan products from multiple lenders matches the business.gov.au Shop around section and is declared in frontmatter, but the body does not name that source."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/what-is-bridging-finance.md Practical Summary",
+        "finding": "The summary says the FAQ answers are written so they can stand alone if quoted outside the page. That is reader-facing production commentary, not a financial claim."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/what-is-bridging-finance.md",
+      "pageId": "pg_5f2a8d51731b41f5bebf6663b19eddd9",
+      "path": "/resources/guides/what-is-bridging-finance",
+      "beforeSha256": "5a69855c92c95bacc4779f49a2bc39a051d75f4357e7b42a0d542b5687314a8c",
+      "afterSha256": "050425853556bfd90f14d8cd9812ba486e8934b90eb22069bcd155c5c85ce256",
+      "reason": "Add one contextual link from the what-is-bridging-finance guide to the designated service /services/bridging-finance, and replace the closing lender-positioning sentence with broker wording. The closer now says Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders. Publication-contract frontmatter was required for this material change: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, an existing 1200x630 featured image, and one business.gov.au source. Independent Grok 4.7 review of writer head 0de9c6d2d875bf5ab73a52b14400331ec4831c1a scored 91 with no blockers. This metadata commit does not change body prose. It sets reviewedBy to OpenClaw independent reviewer, reviewedAt to 2026-10-20T20:58:56Z and expiresAt to 2027-04-18T20:58:56Z, the registry 180-day cadence for this medium-risk page, and removes the reviewed_date alias. No rates, volumes, licence, membership, or invented transaction results were added.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-eab5db17-b73c-595d-b6bc-17b2c5158c70"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-32786c57-24d1-5f99-9b0e-9b020c399e82"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "The main pillar guide for commercial and investment bridging scenarios."
+        },
+        {
+          "kind": "text-removed",
+          "value": "When a second mortgage may sit beside or replace a bridging structure."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Exit planning options when the bridge is repaid by refinance."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-20T20:58:56Z",
+        "reviewedSourceSha256": "050425853556bfd90f14d8cd9812ba486e8934b90eb22069bcd155c5c85ce256",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 91,
+        "dimensions": {
+          "intentCoverage": 94,
+          "informationGain": 89,
+          "specificity": 90,
+          "evidence": 88,
+          "readability": 92,
+          "repetition": 87,
+          "compliance": 95,
+          "aiAnswerUsefulness": 93
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-10-20T20:58:56Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "articleQa": {
+          "command": "npm run qa:article -- src/content/guides/what-is-bridging-finance.md",
+          "result": "PASS",
+          "errors": 0,
+          "warnings": 2,
+          "metrics": {
+            "wordCount": 1839,
+            "faqPresent": true,
+            "faqQuestions": 6,
+            "internalLinks": 18,
+            "uniqueGuideLinks": 9,
+            "highestParagraphSimilarity": 0.081
+          },
+          "internalContentLinksResolved": 15,
+          "canonicalAuthorAndReviewFieldsComplete": true,
+          "acceptedWarnings": [
+            "possible internal-link stuffing; found 18 links",
+            "legacy author overrides remain compatible but should be removed: author_name, author_title, author_url, author_bio, author_links"
+          ]
+        },
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorBylineUnchanged": true,
+          "bodyProseUnchangedByReviewMetadata": true,
+          "featuredImageCheckedByArticleQa": true,
+          "featuredImageAltChecked": true,
+          "headingHierarchyChecked": true,
+          "oneH1InBuiltHtml": true,
+          "selfCanonical": true,
+          "indexFollow": true,
+          "noBrokenMarkdownInBuiltHtml": true
+        },
+        "limitations": [
+          "This is an automated independent editorial and source review by Grok 4.7, not human or professional financial approval. The writer was Grok 4.6.",
+          "Reviewed writer revision 0de9c6d2d875bf5ab73a52b14400331ec4831c1a. The manifest afterSha256 includes only the canonical review metadata added after that PASS. Body prose is unchanged by this metadata commit.",
+          "An earlier metadata commit, 2e05f93, recorded PASS 91 against writer revision 6d2f7f9 while the closer still said Emet Capital provides commercial lending solutions. That record was removed before this review and is not reused.",
+          "Registry contentRisk is medium and reviewEveryDays is 180, so expiresAt is reviewedAt plus 180 days.",
+          "business.gov.au Apply for a business loan returned HTTP 200 on 20 October 2026. Its Shop around section says it is a good idea to compare loan products from multiple lenders before applying. The page does not use that source to define bridging finance, and the body does not name the source.",
+          "The warehouse purchase example is hypothetical. It names no party, amount, rate, or completed result.",
+          "author_bio still states 10 years' experience. That protected author field was not edited. The Ben byline is approved to stay.",
+          "data/seo-page-registry.json still records governance.sourceCount 0 and reviewedBy null. The registry is not edited in this content lane.",
+          "The shared site footer, which this repair does not change, still says Specialised commercial lending solutions for Australian businesses and property investors. The guide itself does not say that Emet Capital provides lending solutions."
+        ],
+        "claimCorrections": [
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders.",
+            "reason": "The closing sentence positioned Emet Capital as providing lending. The replacement states the broker role, that it does not lend or fund loans, and that it helps eligible business borrowers compare lender options."
+          }
+        ],
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 180,
+          "reviewExpiresAt": "2027-04-18T20:58:56Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-32786c57-24d1-5f99-9b0e-9b020c399e82",
+          "reviewedRevision": "0de9c6d2d875bf5ab73a52b14400331ec4831c1a"
+        }
+      }
+    }
+  ]
+}
