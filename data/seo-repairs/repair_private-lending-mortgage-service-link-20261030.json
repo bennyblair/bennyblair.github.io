@@ -5,11 +5,11 @@
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "bb4e38d98b5e180707401c2d87fecf5a532ea88c",
+  "baseSha": "caccd716b216f561d17d8d4c39ea8049bb595a31",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
-    "reviewedAt": "2026-11-02T08:05:28Z",
+    "reviewedAt": "2026-11-04T07:09:19Z",
     "score": 91,
     "blockingFindings": [],
     "findings": [
@@ -38,8 +38,8 @@
       "pageId": "pg_4b20e74999024d8fa81ccf2c7bceb3a8",
       "path": "/resources/guides/private-lending-mortgage",
       "beforeSha256": "5975b2c317d5bbb7245a86d5e6fb41b781e5daa641bbd660033baea6a4ae7427",
-      "afterSha256": "8235a19f89ceee3fca3c61a6670ad699548d9b2a64e59b87ebf5109a7b8b6a43",
-      "reason": "Existing-page improvement of the private-lending-mortgage guide. Add one contextual link to the designated service /services/private-lending and state that Emet Capital is a commercial finance broker, not a lender, and does not fund loans or approve credit. Keep the approved Ben byline, title, slug, canonical path, and meta fields. Publication-contract frontmatter was required for this material change: primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source. The body H1 is removed, Related In-Depth Guides is an H2, and the intro commercial-property-loans phrase is unlinked so that URL appears twice. Independent review REVISE 91 of writer head 35408d8696f7f3f8e29fc51e8e50e2540054522d blocked only on validateGeneralInformationReview matching guarantee directly before approval in the FAQ. Writer revision ddb4fd18c57147ead32030b7c979a96810606dc4 reworded that FAQ to Can Emet Capital promise an approval or a rate? and An approval is not promised. This re-review of prose head 404919a63cd944cb1a907c4822067c52622a7d73 finds that pattern cleared and no new blocker. origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c is merged. package.json and package-lock.json match that main commit, with no dependency edits on this branch. Canonical review metadata only: remove the reviewed_date alias and set reviewedBy, reviewedAt and expiresAt on the registry 180-day medium-risk cadence. No further prose change. baseSha is current origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c.",
+      "afterSha256": "aa854ccd70de35e6b8991a9c8d4d80ef3a17f55fc68c1d683c200424439b57fd",
+      "reason": "Existing-page improvement of the private-lending-mortgage guide. Add one contextual link to the designated service /services/private-lending and state that Emet Capital is a commercial finance broker, not a lender, and does not fund loans or approve credit. Keep the approved Ben byline, title, slug, canonical path, and meta fields. Publication-contract frontmatter was required for this material change: primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source. The body H1 is removed, Related In-Depth Guides is an H2, and the intro commercial-property-loans phrase is unlinked so that URL appears twice. Independent review REVISE 91 of writer head 35408d8696f7f3f8e29fc51e8e50e2540054522d blocked only on validateGeneralInformationReview matching guarantee directly before approval in the FAQ. Writer revision ddb4fd18c57147ead32030b7c979a96810606dc4 reworded that FAQ to Can Emet Capital promise an approval or a rate? and An approval is not promised. This re-review of prose head 404919a63cd944cb1a907c4822067c52622a7d73 finds that pattern cleared and no new blocker. PASS 91 was recorded at 63b85b2afc47037fa3ef103ebc747de6f88ce97d. Guide prose was re-verified byte-identical to that commit after merging origin/main caccd716b216f561d17d8d4c39ea8049bb595a31 (#248). package.json and package-lock.json match current main, with no dependency edits on this branch. Canonical review metadata only: remove the reviewed_date alias and set reviewedBy, reviewedAt and expiresAt on the registry 180-day medium-risk cadence. Review timestamps are refreshed to reviewedAt 2026-11-04T07:09:19Z and expiresAt 2027-05-03T07:09:19Z. No further prose change. baseSha is current origin/main caccd716b216f561d17d8d4c39ea8049bb595a31.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-792c9777-0a48-5500-8a53-adf8a4c10a86"
@@ -93,8 +93,8 @@
         "status": "reviewed_draft",
         "outcome": "PASS",
         "reviewer": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-02T08:05:28Z",
-        "reviewedSourceSha256": "8235a19f89ceee3fca3c61a6670ad699548d9b2a64e59b87ebf5109a7b8b6a43",
+        "reviewedAt": "2026-11-04T07:09:19Z",
+        "reviewedSourceSha256": "aa854ccd70de35e6b8991a9c8d4d80ef3a17f55fc68c1d683c200424439b57fd",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
@@ -122,7 +122,7 @@
         "sources": [
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-11-02T08:05:28Z",
+            "checkedAt": "2026-11-04T07:09:19Z",
             "status": 200
           }
         ],
@@ -138,10 +138,10 @@
           "This is an automated independent editorial and source review, not human or professional financial approval.",
           "Reviewed prose head is 404919a63cd944cb1a907c4822067c52622a7d73. This record is https://cursor.com/agents/bc-c652d019-5160-5166-b9bd-fc20b057ea66 by a different model from the writer (Grok 4.6). The earlier REVISE 91 on 35408d8696f7f3f8e29fc51e8e50e2540054522d is not this review.",
           "The Ben byline and author frontmatter stay as approved, including the existing 10 years' experience sentence. Those author fields were not edited.",
-          "business.gov.au Apply for a business loan was re-read at review time (HTTP 200). The mapped shop-around words appear in the Shop around section. The guide uses a straight apostrophe and joins the clause with a semicolon. The live page uses a right single quotation mark and a full stop. The words otherwise match. The page's right loan and recommend some loan options lines are not used.",
+          "business.gov.au Apply for a business loan was re-read at 2026-11-04T07:09:19Z (HTTP 200). The mapped shop-around words appear in the Shop around section. The guide uses a straight apostrophe and joins the clause with a semicolon. The live page uses a right single quotation mark and a full stop. The words otherwise match. The page's right loan and recommend some loan options lines are not used.",
           "The FAQ heading and answer no longer place guarantee directly before approval. validateGeneralInformationReview returns no errors on the resulting page.",
-          "origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c is an ancestor. The merge changed only the dependency files that main already contained. This branch does not edit those versions.",
-          "The guide body was not changed by the review-metadata commit. No rate, term, transaction, volume, licence, or association claim was added."
+          "The earlier merge of origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c brought only the dependency files that main already contained. This branch does not edit those versions. Current origin/main caccd716b216f561d17d8d4c39ea8049bb595a31 adds the commercial-bridging-fit guide and its repair manifest (#248). This branch does not edit those files.",
+          "The guide body was not changed by the review-metadata commit. Prose remains byte-identical to 63b85b2afc47037fa3ef103ebc747de6f88ce97d. No rate, term, transaction, volume, licence, or association claim was added."
         ],
         "claimCorrections": [
           {
@@ -156,7 +156,7 @@
           },
           {
             "before": "reviewed_date: 2026-06-25. No reviewedBy, reviewedAt, or expiresAt.",
-            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-02T08:05:28Z; expiresAt: 2027-05-01T08:05:28Z; score 91; blockingFindings empty",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-04T07:09:19Z; expiresAt: 2027-05-03T07:09:19Z; score 91; blockingFindings empty",
             "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence after PASS 91. Guide body unchanged."
           }
         ],
@@ -176,7 +176,7 @@
           "humanReviewClaimed": false,
           "professionalFinancialReviewClaimed": false,
           "reviewEveryDays": 180,
-          "reviewExpiresAt": "2027-05-01T08:05:28Z",
+          "reviewExpiresAt": "2027-05-03T07:09:19Z",
           "independentReviewRun": "https://cursor.com/agents/bc-c652d019-5160-5166-b9bd-fc20b057ea66",
           "reviewedRevision": "404919a63cd944cb1a907c4822067c52622a7d73"
         },
