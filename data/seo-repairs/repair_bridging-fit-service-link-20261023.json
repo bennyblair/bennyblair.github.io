@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_bridging-fit-service-link-20261023",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "bb4e38d98b5e180707401c2d87fecf5a532ea88c",
+  "editor": "Cursor cloud agent writer",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-02T07:44:09Z",
+    "score": 89,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "frontmatter sources and the NSW auction page",
+        "finding": "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/buying-property-at-an-auction returned HTTP 200 to Node fetch and is unchanged from main. No sentence in this guide appears on that page. The page is a residential and rural auction guide, including home-loan navigation. It is not mapped to a body sentence and it is not used as support for a new claim. The new business.gov.au citation is the sourced sentence."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.md broker paragraph",
+        "finding": "business.gov.au states \"It's a good idea to compare loan products from multiple lenders before applying.\" with a straight apostrophe. The guide uses a typographic apostrophe and joins that sentence after \"because\". The words otherwise match. The broker-process wording around it is not presented as a government quotation."
+      },
+      {
+        "severity": "low",
+        "location": "built HTML hero, og:image:alt and twitter:image:alt",
+        "finding": "The published alt is the article-images.json override: \"Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph.\" Frontmatter featuredImageAlt describes the same JPEG as a glass-fronted commercial office building beside a tree-lined street with parked cars. The catalog override predates this repair and is outside the repair file set. It is not a finance, rate, transaction, licence, or association claim."
+      },
+      {
+        "severity": "low",
+        "location": "title, source labels, and related-list blurbs",
+        "finding": "The template H1 still uses the unchanged title, which contains an em dash. Source labels and the remaining related-list blurbs also use em dashes. The new broker paragraph, metaTitle, metaDescription, and featuredImageAlt do not add an em dash."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.md",
+      "pageId": "pg_dbb401e8e8dc411dadf0db4d919a5c67",
+      "path": "/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not",
+      "beforeSha256": "c681f1898c29a89581ce31f6fcf3fe089afcbdff3a4bf1968ac7ecbd1aea2a68",
+      "afterSha256": "305ee09ba17bcc1d3cb3e8caeb4003931abafdf75296527842a1a44ea9a14432",
+      "reason": "Existing-page improvement of the commercial bridging fit guide. Add one contextual body link to /services/bridging-finance with the anchor commercial bridging finance arranged through a broker. State that Emet Capital is a commercial finance broker and does not lend, fund loans, or approve credit. Replace the Moneysmart bridging glossary, which returns HTTP 403 to Node fetch, with business.gov.au apply-for-a-business-loan and use its shop-around sentence. Remove the markdown H1 so the template owns the only H1. Add metaTitle, metaDescription, and featuredImageAlt required on a changed article. Trim related-list copies of /services/refinancing-solutions and /resources/guides/what-is-private-lending-australia so neither internal URL exceeds two occurrences. Keep the Daniel byline. Independent review PASS 89 with no blockers at https://cursor.com/agents/bc-9c816f4c-6244-513e-a62c-466fc4383bbd of writer revision 9b18aa5b56a022da91cef9f450099e448545c611. Canonical review metadata set: reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-02T07:44:09Z, expiresAt 2027-01-31T07:44:09Z (registry high-risk cadence of 90 days). Guide body unchanged by the metadata commit. baseSha is origin/main bb4e38d98b5e180707401c2d87fecf5a532ea88c.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-01994b15-19e6-5e85-8c83-59ddebf3a06e"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-9c816f4c-6244-513e-a62c-466fc4383bbd"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders"
+        },
+        {
+          "kind": "text-added",
+          "value": "it’s a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "provides commercial lending solutions"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-02T07:44:09Z",
+        "reviewedSourceSha256": "305ee09ba17bcc1d3cb3e8caeb4003931abafdf75296527842a1a44ea9a14432",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 89,
+        "dimensions": {
+          "intentCoverage": 92,
+          "informationGain": 88,
+          "specificity": 86,
+          "evidence": 88,
+          "readability": 88,
+          "repetition": 84,
+          "compliance": 95,
+          "aiAnswerUsefulness": 90
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-02T07:44:09Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/buying-property-at-an-auction",
+            "checkedAt": "2026-11-02T07:44:09Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "it’s a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval.",
+          "Reviewed prose head is 9b18aa5b56a022da91cef9f450099e448545c611. This record is https://cursor.com/agents/bc-9c816f4c-6244-513e-a62c-466fc4383bbd. The guide body was not changed by the review-metadata commit.",
+          "business.gov.au Apply for a business loan was fetched with Node fetch at review time (HTTP 200, self-canonical). The shop-around sentence appears on that page. The page uses a straight apostrophe in It's; the guide uses a typographic apostrophe. The words otherwise match.",
+          "The Moneysmart bridging glossary returned HTTP 403 to Node fetch and is not a declared source.",
+          "The NSW auction page returned HTTP 200 to Node fetch. No sentence in this guide appears on that page. It remains a pre-existing declared source and is not mapped to a new claim.",
+          "The Daniel byline and author frontmatter stay as approved, including the existing 10 years' experience sentence. Those author fields were not edited.",
+          "No rate, term, volume, licence, association, or consumer-loan claim was added. Emet Capital is described as a commercial finance broker, not a lender.",
+          "Rendered og:image:alt, twitter:image:alt and the hero img use the article-images.json override naming Dandenong, not the frontmatter tree-lined-street alt. That catalog pairing is outside the repair file set."
+        ],
+        "claimCorrections": [
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders.",
+            "reason": "Emet is a broker, never a lender. The previous closing sentence could be read as implying Emet funds loans."
+          },
+          {
+            "before": "Declared source https://moneysmart.gov.au/glossary/bridging-finance",
+            "after": "Declared source https://business.gov.au/finance/funding/apply-for-a-business-loan, with the shop-around sentence in the broker paragraph.",
+            "reason": "Node fetch receives HTTP 403 for the Moneysmart glossary, so it cannot be cited. The shop-around sentence is on the business.gov.au page at HTTP 200."
+          },
+          {
+            "before": "Body H1 duplicated the title.",
+            "after": "Body has no H1. The article template renders the unchanged title as the only H1.",
+            "reason": "The article contract forbids a body H1."
+          },
+          {
+            "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; reviewed_date: 2026-08-05; expiresAt: 2026-11-05",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-02T07:44:09Z; expiresAt: 2027-01-31T07:44:09Z; reviewed_date removed; score 89; blockingFindings empty",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence after PASS 89. Guide body unchanged."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-01-31T07:44:09Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-9c816f4c-6244-513e-a62c-466fc4383bbd",
+          "reviewedRevision": "9b18aa5b56a022da91cef9f450099e448545c611"
+        },
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not.md",
+          "result": "PASS 0 errors, 1 warning (legacy Daniel author_* fields left unchanged)"
+        }
+      }
+    }
+  ]
+}
