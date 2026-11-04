@@ -5,11 +5,11 @@
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "767e2abb8fcec57d3d4d77603cb8f8201d73ffbd",
+  "baseSha": "caccd716b216f561d17d8d4c39ea8049bb595a31",
   "editor": "Cursor cloud agent writer",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
-    "reviewedAt": "2026-11-02T07:21:17Z",
+    "reviewedAt": "2026-11-04T07:09:31Z",
     "score": 92,
     "blockingFindings": [],
     "findings": [
@@ -21,7 +21,7 @@
       {
         "severity": "low",
         "location": "src/content/guides/commercial-property-development-finance.md",
-        "finding": "business.gov.au says loans vary a lot in their costs and conditions, including loan term, interest rate, and set-up costs and ongoing fees, and that it is a good idea to compare loan products from multiple lenders before applying. The page omits 'a lot', writes 'setup', and expands It's to 'it is'. The official page title is Apply for a business loan; the anchor calls it a business loan preparation guide. The cited facts are on that page."
+        "finding": "business.gov.au says loans vary a lot in their costs and conditions, including the amount you can borrow, loan term, interest rate, whether the rate is fixed or variable, and set-up costs and ongoing fees, and that it's a good idea to compare loan products from multiple lenders before applying. The page omits 'a lot', the amount, and the fixed-or-variable item, writes 'setup', and expands It's to 'it is'. The official page title is Apply for a business loan; the anchor calls it a business loan preparation guide. The cited facts are on that page."
       },
       {
         "severity": "low",
@@ -38,14 +38,17 @@
       "pageId": "pg_edb52afcaf164f6f912a89d0bf413819",
       "path": "/resources/guides/commercial-property-development-finance",
       "beforeSha256": "cdb65a858937cd36a775cba0ea05a7d3f826724da4187f0e36518473b0bfd7b5",
-      "afterSha256": "43d3d0b0c321c6223ebd1ba094539f252a9dbcbf27b40636bc327407b3d6e002",
-      "reason": "Existing-page review of the commercial development finance guide. Keep the slug, canonical, H1, author byline, publication date and contentRisk high. Differentiate the guide metaTitle from the service page, replace the unsupported APRA APG 113 source with ASIC INFO 207, cite business.gov.au on loan comparison and varying documentation, and state that Emet Capital is a commercial finance broker and does not lend or fund loans. Independent review PASS 92 of writer revision 3440f8de1d07c374629d21a2c95afe14c32a8ff7 at https://cursor.com/agents/bc-29909602-a9f3-5326-bedb-b7278960c575. Guide body unchanged by the review commit. Canonical review metadata: reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-02T07:21:17Z, expiresAt 2027-01-31T07:21:17Z (registry high-risk cadence of 90 days). reviewed_date alias removed. baseSha is current origin/main 767e2abb8fcec57d3d4d77603cb8f8201d73ffbd.",
+      "afterSha256": "eb4712d556e93238c952d0f4e0a1c13f86b626020222c4a366fbcc76b1ec36fd",
+      "reason": "Existing-page review of the commercial development finance guide. Keep the slug, canonical, H1, author byline, publication date and contentRisk high. Differentiate the guide metaTitle from the service page, replace the unsupported APRA APG 113 source with ASIC INFO 207, cite business.gov.au on loan comparison and varying documentation, and state that Emet Capital is a commercial finance broker and does not lend or fund loans. Independent re-review PASS 92 of merged head 5efdac5a79af191906e4f9d439ec0e4b96107ad5 (writer revision 3440f8de1d07c374629d21a2c95afe14c32a8ff7) at https://cursor.com/agents/bc-b62aa443-0c56-5a1b-8853-2f09ae02e367. Guide prose unchanged by the review commit. Canonical review metadata: reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-04T07:09:31Z, expiresAt 2027-02-02T07:09:31Z (registry high-risk cadence of 90 days). reviewed_date alias removed. baseSha is current origin/main caccd716b216f561d17d8d4c39ea8049bb595a31.",
       "evidence": [
         {
-          "reference": "https://cursor.com/agents/bc-29909602-a9f3-5326-bedb-b7278960c575"
+          "reference": "https://cursor.com/agents/bc-b62aa443-0c56-5a1b-8853-2f09ae02e367"
         },
         {
           "reference": "https://cursor.com/agents/bc-c50ed39b-6c4f-5e41-9139-60a2eb09b2ec"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-29909602-a9f3-5326-bedb-b7278960c575"
         }
       ],
       "verification": [
@@ -89,8 +92,8 @@
         "status": "reviewed_draft",
         "outcome": "PASS",
         "reviewer": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-02T07:21:17Z",
-        "reviewedSourceSha256": "43d3d0b0c321c6223ebd1ba094539f252a9dbcbf27b40636bc327407b3d6e002",
+        "reviewedAt": "2026-11-04T07:09:31Z",
+        "reviewedSourceSha256": "eb4712d556e93238c952d0f4e0a1c13f86b626020222c4a366fbcc76b1ec36fd",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
@@ -118,12 +121,12 @@
         "sources": [
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-11-02T07:21:17Z",
+            "checkedAt": "2026-11-04T07:09:31Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
-            "checkedAt": "2026-11-02T07:21:17Z",
+            "checkedAt": "2026-11-04T07:09:31Z",
             "status": 200
           }
         ],
@@ -161,16 +164,16 @@
         ],
         "limitations": [
           "This is an automated independent editorial and source review, not human or professional financial approval.",
-          "Reviewed writer revision is 3440f8de1d07c374629d21a2c95afe14c32a8ff7. This record is https://cursor.com/agents/bc-29909602-a9f3-5326-bedb-b7278960c575. The review commit changes only canonical review metadata. The guide body is unchanged from that revision.",
+          "Re-review of merged head 5efdac5a79af191906e4f9d439ec0e4b96107ad5 after merging origin/main caccd716b216f561d17d8d4c39ea8049bb595a31. Guide prose is unchanged from writer revision 3440f8de1d07c374629d21a2c95afe14c32a8ff7. This record is https://cursor.com/agents/bc-b62aa443-0c56-5a1b-8853-2f09ae02e367. The review commit refreshes canonical review metadata and baseSha only.",
           "The Ben byline and author frontmatter stay. contentRisk stays high. humanReviewRequired stays true and is not a claim that a human review occurred.",
           "ASIC Information Sheet 207 and business.gov.au Apply for a business loan were read at review time. Both returned HTTP 200 to the same GET the repair verifier uses. The two INFO 207 sentences match the information sheet. The business.gov.au comparison and documentation sentences are on that page, with the paraphrase limits recorded in findings.",
-          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend or fund loans."
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend or fund loans. No new em dash was added in the guide prose."
         ],
         "metadataChanges": [
           {
             "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-05-15",
-            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-02T07:21:17Z; expiresAt: 2027-01-31T07:21:17Z; score 92; blockingFindings empty",
-            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence after PASS 92. The reviewed_date alias is removed. Guide body unchanged."
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-04T07:09:31Z; expiresAt: 2027-02-02T07:09:31Z; score 92; blockingFindings empty",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence after PASS 92. The reviewed_date alias is removed. Guide prose unchanged."
           }
         ],
         "scopeVerification": {
@@ -189,9 +192,9 @@
           "humanReviewClaimed": false,
           "professionalFinancialReviewClaimed": false,
           "reviewEveryDays": 90,
-          "reviewExpiresAt": "2027-01-31T07:21:17Z",
-          "independentReviewRun": "https://cursor.com/agents/bc-29909602-a9f3-5326-bedb-b7278960c575",
-          "reviewedRevision": "3440f8de1d07c374629d21a2c95afe14c32a8ff7"
+          "reviewExpiresAt": "2027-02-02T07:09:31Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-b62aa443-0c56-5a1b-8853-2f09ae02e367",
+          "reviewedRevision": "5efdac5a79af191906e4f9d439ec0e4b96107ad5"
         },
         "articleQa": {
           "command": "node scripts/article-qa.mjs src/content/guides/commercial-property-development-finance.md --fail-on-warnings",

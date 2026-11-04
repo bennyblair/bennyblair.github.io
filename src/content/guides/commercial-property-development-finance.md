@@ -13,10 +13,10 @@ intentCluster: "commercial-property-development"
 designatedServicePage: "/services/commercial-property-development"
 contentRisk: "high"
 reviewedBy: "OpenClaw independent reviewer"
-reviewedAt: "2026-11-02T07:21:17Z"
+reviewedAt: "2026-11-04T07:09:31Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2027-01-31T07:21:17Z"
+expiresAt: "2027-02-02T07:09:31Z"
 sources:
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
