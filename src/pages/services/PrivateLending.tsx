@@ -32,7 +32,7 @@ const PrivateLending = () => {
     },
     {
       question: "How does the broker compare indicative private-lending terms?",
-      answer: "Where a lender is willing to consider the scenario, indicative terms are compared on the same amount, expected period and exit, including net funds after known costs, how interest is charged, and fees that sit outside a headline rate. Indicative terms are not an approval, a valuation, or a commitment to settle. Product-class cost questions belong on the educational guides; this service uses the comparison as a working sheet for the file in front of us."
+      answer: "Where a lender is willing to consider the scenario, indicative terms are compared on the same amount, expected period and exit, including net funds after known costs, how interest is charged, and fees that sit outside a headline rate. Indicative terms are not an approval, a valuation, or a commitment to settle. Two proposals with different fee shapes can produce very different total cost for the same facility size."
     },
     {
       question: "Is this service limited to business-purpose borrowing?",
@@ -95,7 +95,7 @@ const PrivateLending = () => {
     <>
       <SEO
         title="Private Lending Broker for Property-Secured Business Loans | Emet Capital"
-        description="Emet Capital is a broker, not a lender. This service page explains how we work a private-lending file for property-secured business loans. Guides educate; enquire when you are ready to discuss a transaction."
+        description="Emet Capital is a broker, not a lender. Compare private and non-bank property-secured business loans after a bank decline or timing mismatch, then discuss the transaction with a broker."
         canonical="/services/private-lending"
         keywords="private lending broker Australia, private mortgage business loan, non-bank commercial lending, property-backed business finance"
         noindex={isDesignPreview}
@@ -127,10 +127,10 @@ const PrivateLending = () => {
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Emet Capital is a commercial finance broker, not a lender, and it does not fund loans.
-              This is the private-lending service page: how Emet works a property-secured business
-              file when you are ready to discuss a transaction. Guides on this site educate on
-              definitions and comparisons. They are not an application. An enquiry starts a broker
-              discussion of the file. It is not a lender submission and not an approval.
+              We compare private and non-bank lenders for property-secured business loans when a
+              bank has declined the file, cannot meet the required date, or will not consider the
+              structure. An enquiry starts a broker discussion of the transaction. It is not a
+              lender submission and not an approval.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -152,27 +152,28 @@ const PrivateLending = () => {
 
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">What this service page answers</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Who arranges the file, and what the broker does</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                The reader question here is not "what is private lending?" It is "when the bank says
-                no, who arranges private property-secured lending for my business, and what does the
-                broker actually do?" Emet Capital packages the file, tests security and exit, and
-                approaches third-party private and non-bank lenders. It does not advance the money.
+                When a bank says no, or cannot meet the date, a commercial finance broker can compare
+                private and non-bank lenders against the security, ranking, purpose and exit. Emet
+                Capital packages the file, tests those points, and approaches third-party lenders. It
+                does not advance the money.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Definitions sit on{" "}
+                For a plain-English definition, read{" "}
                 <Link to="/resources/guides/what-is-private-lending-australia" className="text-accent underline">
                   what private lending is in Australia
                 </Link>
-                . The broader non-bank debt picture sits on{" "}
+                . Non-bank debt structures and risks are covered in{" "}
                 <Link to="/resources/guides/private-debt-australia" className="text-accent underline">
                   private debt in Australia
                 </Link>
-                . Mortgage-backed structure, documents and exits sit on the{" "}
+                . Ranking, documents and exits for a property-secured private mortgage are covered in
+                the{" "}
                 <Link to="/resources/guides/private-lending-mortgage" className="text-accent underline">
                   private lending mortgage guide
                 </Link>
-                . This page stays on the broker method: intake, the security and exit test, the
+                . The working order on a typical file is intake, the security and exit test, the
                 private and non-bank shortlist, indicative terms, valuation, documents and settlement
                 coordination.
               </p>
@@ -183,10 +184,9 @@ const PrivateLending = () => {
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Files are reviewed by{" "}
                 <Link to="/about/ben" className="text-accent underline">Ben</Link>, a commercial
-                finance broker at Emet Capital with 10 years' experience in private lending. The
-                sequence below is the working order for a typical property-secured business file.
-                Steps can overlap, restart, or stop. None of them is a promise of terms, valuation
-                outcome, or settlement date.
+                finance broker at Emet Capital. The sequence below is the working order for a
+                typical property-secured business file. Steps can overlap, restart, or stop. None
+                of them is a promise of terms, valuation outcome, or settlement date.
               </p>
               <ol className="space-y-6">
                 {processSteps.map((step, index) => (
@@ -272,11 +272,11 @@ const PrivateLending = () => {
                       an intention. If it is only hoped for, the file stops before a shortlist. If
                       the gap is dated and the asset can be explained, a private or non-bank
                       shortlist may be the next step, not a second bank submission of the same pack.
-                      Education on decline diagnosis sits on{" "}
+                      For decline diagnosis, see{" "}
                       <Link to="/resources/guides/private-commercial-loans-after-bank-decline" className="text-accent underline">
                         private commercial loans after a bank decline
                       </Link>
-                      {" "}and on{" "}
+                      {" "}and{" "}
                       <Link to="/resources/guides/private-debt-australia" className="text-accent underline">
                         private debt in Australia
                       </Link>
@@ -330,8 +330,8 @@ const PrivateLending = () => {
                       </Link>
                       {" "}where the gap is a true timing bridge. If the purchase cannot be completed
                       without stretching the exit past a supportable date, the transaction should be
-                      renegotiated or paused rather than forced into private credit. Structure
-                      questions for a property-secured private mortgage sit on the{" "}
+                      renegotiated or paused rather than forced into private credit. For ranking,
+                      documents and exits on a property-secured private mortgage, see the{" "}
                       <Link to="/resources/guides/private-lending-mortgage" className="text-accent underline">
                         private lending mortgage guide
                       </Link>
@@ -346,9 +346,8 @@ const PrivateLending = () => {
               <h2 className="text-3xl font-bold text-foreground mb-4">When private lending is the wrong tool</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Private credit is not a way to bypass a weak asset, an unexplained purpose, or a
-                missing repayment plan. Educational "when it may not fit" lists live on the guides
-                linked above. On this service, the next step is a different product path, or a pause,
-                when the facts below apply.
+                missing repayment plan. It often costs more and runs for a shorter term than bank
+                debt. Use a different path, or pause, when the facts below apply.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <Card>
@@ -411,14 +410,13 @@ const PrivateLending = () => {
             <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How we compare indicative terms</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                There is no single private-lending rate on this page, and a headline rate is not the
+                There is no single private-lending rate quoted here, and a headline rate is not the
                 cost of the facility. Bank-versus-private trade-offs are explained on{" "}
                 <Link to="/resources/guides/private-lending-vs-bank-lending-which-is-better" className="text-accent underline">
                   private lending vs bank lending
                 </Link>
-                . On this service, indicative responses are put on one sheet: same amount, expected
-                period and repayment scenario, then net money received against the amount likely to
-                be repaid.
+                . Indicative responses are put on one sheet: same amount, expected period and
+                repayment scenario, then net money received against the amount likely to be repaid.
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 {costQuestions.map((item) => (
@@ -471,16 +469,16 @@ const PrivateLending = () => {
             <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
-                Guides that answer neighbouring questions
+                Guides & Resources
               </h2>
               <p className="text-muted-foreground mb-6">
-                Use these guides for definitions, mortgage structure and document detail. This
-                service page stays on how the broker file is run.
+                Use these guides if you need the product definition, mortgage structure or the full
+                document list before an enquiry.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <Link to="/resources/guides/what-is-private-lending-australia" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
                   <h3 className="font-semibold text-foreground mb-2">What is private lending in Australia?</h3>
-                  <p className="text-sm text-muted-foreground mb-2">The definition, fit, cost questions and limits, kept off this service page on purpose.</p>
+                  <p className="text-sm text-muted-foreground mb-2">What private lending is, when it may fit, cost questions and limits.</p>
                   <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
                 </Link>
                 <Link to="/resources/guides/private-debt-australia" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
