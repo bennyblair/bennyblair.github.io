@@ -103,7 +103,7 @@ const BridgingFinance = () => {
     <>
       <SEO
         title="Commercial Bridging Finance Broker Australia | Emet Capital"
-        description="Emet Capital is a commercial finance broker, not a lender. This service page is how we work a commercial bridging file from intake through settlement coordination."
+        description="Emet Capital is a commercial finance broker, not a lender. We structure commercial bridging finance from intake through settlement coordination."
         canonical="/services/bridging-finance"
         keywords="commercial bridging finance broker Australia, arrange bridging finance, commercial bridging service, bridging loan exit plan, commercial bridging finance"
         geo={false}
@@ -135,14 +135,12 @@ const BridgingFinance = () => {
               Commercial bridging finance, arranged by a broker
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              This is Emet Capital&apos;s bridging service page: how we work a commercial bridging
-              file for a borrower who is ready to discuss a transaction. Guides on this site educate.
-              They are not this service. Emet Capital is a commercial finance broker, not a lender,
-              and it does not fund loans. We structure and arrange business-purpose bridging finance
-              when a commercial purchase, refinance or other property-backed obligation has a date,
-              and repayment depends on a documented sale, refinance or similar event. It may suit a
-              business owner, investor or developer with usable property security and an evidenced
-              repayment path. Consumer bridging and home loans are not offered.
+              Emet Capital is a commercial finance broker, not a lender, and it does not fund loans.
+              We structure and arrange business-purpose bridging finance when a commercial purchase,
+              refinance or other property-backed obligation has a date, and repayment depends on a
+              documented sale, refinance or similar event. It may suit a business owner, investor or
+              developer with usable property security and an evidenced repayment path who is ready to
+              discuss a transaction. Consumer bridging and home loans are not offered.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -164,32 +162,30 @@ const BridgingFinance = () => {
 
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">A broker-run file, not a bridging explainer</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">How we arrange a commercial bridge</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                The reader question here is not what bridging finance is. It is how a broker actually
-                runs a commercial bridging file, and how that differs from reading a guide. Emet Capital
-                packages the transaction, tests security and the exit, compares third-party lenders and
-                coordinates the work through to settlement. It does not advance the money.
+                Emet Capital packages the transaction, tests security and the exit, compares third-party
+                lenders and coordinates the work through to settlement. It does not advance the money.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Definitions sit on{" "}
+                For the definition, read{" "}
                 <Link to="/resources/guides/what-is-bridging-finance" className="text-accent underline">
                   what bridging finance is
                 </Link>
-                . Fit, timing and when a bridge is the wrong tool sit on{" "}
+                . For fit, and when a bridge is the wrong tool, see{" "}
                 <Link to="/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not" className="text-accent underline">
                   when commercial bridging finance makes sense
                 </Link>
-                . Peak debt, cost components and alternatives sit on the{" "}
+                . Peak debt, cost components and alternatives are in the{" "}
                 <Link to="/resources/guides/bridging-finance-australia-complete-property-guide" className="text-accent underline">
                   complete bridging finance guide
                 </Link>
-                . Lender-type comparison sits on the{" "}
+                . Lender-type comparison is in the{" "}
                 <Link to="/resources/guides/best-bridging-loan-lenders-companies-2025" className="text-accent underline">
                   bridging loan lenders guide
                 </Link>
-                . This page stays on the live file: intake, the security and exit test, the shortlist,
-                indicative terms, valuation, documents and settlement coordination.
+                . On a live file we run intake, the security and exit test, the shortlist, indicative
+                terms, valuation, documents and settlement coordination.
               </p>
             </ServiceChapter>
 
@@ -200,10 +196,9 @@ const BridgingFinance = () => {
                 <Link to="/about/ben" className="text-accent underline">
                   Ben
                 </Link>
-                , a commercial finance broker at Emet Capital with 10 years&apos; experience in private
-                lending. The sequence below is the working order for a typical commercial bridge. Steps
-                can overlap, restart or stop. None of them is a promise of terms, valuation outcome or
-                settlement date.
+                , a commercial finance broker at Emet Capital. The sequence below is the working order
+                for a typical commercial bridge. Steps can overlap, restart or stop. None of them is a
+                promise of terms, valuation outcome or settlement date.
               </p>
               <ol className="grid gap-4 mb-8">
                 {processSteps.map((step, index) => (
@@ -224,7 +219,7 @@ const BridgingFinance = () => {
                 <Link to="/resources/guides/open-vs-closed-bridging-loan-complete-comparison" className="text-accent underline">
                   open versus closed comparison
                 </Link>{" "}
-                is the education layer for classifying the exit on today&apos;s evidence. The{" "}
+                explains how to classify the exit on today&apos;s evidence. The{" "}
                 <Link to="/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path" className="text-accent underline">
                   bridging loan exit-strategy guide
                 </Link>{" "}
@@ -232,8 +227,8 @@ const BridgingFinance = () => {
                 <Link to="/resources/guides/bridging-loan-exit-strategy-broker-take" className="text-accent underline">
                   broker-take exit checklist
                 </Link>{" "}
-                cover how a delayed-exit plan is written. On this page those tests are file work, not
-                a second copy of the guides.
+                cover how a delayed-exit plan is written. We apply those tests to the file before any
+                lender sees it.
               </p>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm">
@@ -281,8 +276,7 @@ const BridgingFinance = () => {
                 Emet discusses commercial and business-purpose bridging only, secured by residential or commercial
                 property, subject to lender assessment. Consumer bridging and home loans are
                 not offered. A consumer-style purchase-before-sale of a home is a different product and
-                is outside this service. The list below is who we will discuss a live file with; the
-                neighbouring guides cover category fit.
+                is outside this service. The list below is who we will discuss a live file with.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <Card>
@@ -389,8 +383,8 @@ const BridgingFinance = () => {
                       can repay the bridge. Only then would a shortlist compare net proceeds.
                     </p>
                     <p>
-                      This HYPOTHETICAL is an illustration of the method, not a result. For the education
-                      layer, see the{" "}
+                      This HYPOTHETICAL is an illustration of the method, not a result. For auction
+                      settlement detail, see the{" "}
                       <Link to="/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide" className="text-accent underline">
                         commercial bridging for auctions guide
                       </Link>{" "}
@@ -429,8 +423,7 @@ const BridgingFinance = () => {
                       <Link to="/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path" className="text-accent underline">
                         exit-strategy guide
                       </Link>
-                      . A dedicated case-study guide for this exact purchase-before-refinance pattern is
-                      not published; those two pages are the live resources.
+                      .
                     </p>
                   </CardContent>
                 </Card>
@@ -457,7 +450,7 @@ const BridgingFinance = () => {
                       <Link to="/resources/guides/bridging-finance-subdivision-registration-delay-australia" className="text-accent underline">
                         subdivision registration delay guide
                       </Link>{" "}
-                      covers the education, evidence and option comparison for that pattern.
+                      covers evidence and option comparison for that pattern.
                     </p>
                   </CardContent>
                 </Card>
@@ -497,12 +490,12 @@ const BridgingFinance = () => {
             <ServiceChapter className="mb-12">
               <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BookOpen className="h-6 w-6 text-accent" />
-                Guides that answer neighbouring questions
+                Guides for definitions and comparison
               </h2>
               <p className="text-muted-foreground mb-6">
                 Use these pages for definition, fit, lender comparison and broker-selection questions.
-                This service page stays on how Emet works the file. Broker-comparison questions belong
-                on the selection guide, not in a second FAQ here.
+                If you are comparing brokers rather than discussing a file, start with the selection
+                guide.
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="md:col-span-2 lg:col-span-3">
@@ -515,7 +508,7 @@ const BridgingFinance = () => {
                       <div>
                         <h3 className="text-xl font-semibold text-foreground mb-2">Complete Bridging Finance Guide</h3>
                         <p className="text-muted-foreground mb-3">
-                          Education on peak debt, total cost, delayed-settlement risk and alternatives.
+                          Peak debt, total cost, delayed-settlement risk and alternatives.
                         </p>
                         <span className="text-accent font-medium inline-flex items-center">
                           Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
