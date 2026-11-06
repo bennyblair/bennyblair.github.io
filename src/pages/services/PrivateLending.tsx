@@ -27,47 +27,43 @@ const PrivateLending = () => {
       answer: "Ask whether the firm is a broker or a lender, who reviews the file, how lenders are shortlisted, and how indicative terms will be compared on the same amount, period and exit. Ask which costs are paid to the broker, to the lender and to third parties, and when each amount becomes payable. A useful broker will test security and exit before approaching lenders, and will say when private lending is the wrong tool."
     },
     {
-      question: "What should I compare besides a headline interest rate?",
-      answer: "Compare net funds received after known costs, how interest is charged, establishment, valuation, legal, registration, brokerage, ongoing, exit and extension costs, security ranking, conditions, default provisions and the amount likely to be owing on the planned repayment date. Two proposals with different fee shapes can produce very different total cost for the same facility size."
+      question: "What happens after I enquire about this private-lending service?",
+      answer: "An enquiry starts a broker discussion of the transaction. It is not a lender application and not an approval. Intake covers the business purpose, amount, required date, borrower entity, property offered as security, existing debt, and what a bank has already said if a bank has been involved. If the file is worth assembling, the next step is the security and exit test. No decision or settlement date is promised from the first conversation."
     },
     {
-      question: "When is private lending the wrong tool for a business?",
-      answer: "It is a poor fit where the purpose is not commercial, there is no usable property security, the exit is only hoped for, or the business cannot absorb a delayed sale or refinance. A second mortgage or a defined bridging facility may be the clearer structure. Emet does not offer consumer-purpose or residential home loans."
+      question: "How does the broker compare indicative private-lending terms?",
+      answer: "Where a lender is willing to consider the scenario, indicative terms are compared on the same amount, expected period and exit, including net funds after known costs, how interest is charged, and fees that sit outside a headline rate. Indicative terms are not an approval, a valuation, or a commitment to settle. Two proposals with different fee shapes can produce very different total cost for the same facility size."
     },
     {
       question: "Is this service limited to business-purpose borrowing?",
-      answer: "Yes. The property-backed funding discussed here is for business purposes only, secured by residential or commercial property. Having an ABN does not by itself establish eligibility. The borrower, use of funds, security and repayment plan still need assessment for the specific transaction."
+      answer: "Yes. The property-backed funding discussed here is for business purposes only, secured by residential or commercial property. Having an ABN does not by itself establish eligibility. The borrower, use of funds, security and repayment plan still need assessment for the specific transaction. Emet Capital does not offer consumer-purpose or residential home loans."
     }
   ];
 
   const processSteps = [
     {
-      title: "Initial call",
-      body: "The first conversation is a transaction briefing, not a lender submission. Expect questions on the business purpose, amount required, required date, borrower entity, property offered as security, existing debt, and what a bank has already said if a bank has been involved. Incomplete answers are normal at this stage; the aim is to see whether the file is worth assembling."
+      title: "Intake",
+      body: "The first conversation is a transaction briefing, not a lender submission. Expect questions on the business purpose, amount required, required date, borrower entity, property offered as security, existing debt, and what a bank has already said if a bank has been involved. Incomplete answers are normal at this stage. The aim is to see whether the file is worth assembling."
     },
     {
       title: "Security and exit test",
-      body: "Before any lender is approached, the broker tests two constraints. First, is there identifiable residential or commercial property, with a title position and existing debt that can be explained? Second, what event is meant to repay the facility—a refinance, a sale, a contracted business receipt, or another supportable path—and what happens if that event is late? If either answer is missing, the file is not ready for a private-lender shortlist."
+      body: "Before any lender is approached, the broker tests two constraints. First, is there identifiable residential or commercial property, with a title position and existing debt that can be explained? Second, what event is meant to repay the facility (a refinance, a sale, a contracted business receipt, or another supportable path), and what happens if that event is late? If either answer is missing, the file is not ready for a private-lender shortlist."
     },
     {
-      title: "Lender shortlist",
-      body: `Emet acts only as a broker and can provide ${lenderNetwork.statement.toLowerCase()}. ${lenderNetwork.displayQualification} The shortlist is a subset that can consider this security, ranking, purpose and exit—not a blast of the same pack to every name. Some files never leave this step because no suitable appetite is identified.`
+      title: "Private and non-bank lender shortlist",
+      body: `Emet acts only as a broker and can provide ${lenderNetwork.statement.toLowerCase()}. ${lenderNetwork.displayQualification} The shortlist is a subset that can consider this security, ranking, purpose and exit. It is not a blast of the same pack to every name. Some files never leave this step because no suitable appetite is identified.`
     },
     {
-      title: "Indicative terms",
+      title: "Indicative terms discussion",
       body: "Where a lender is willing to consider the scenario, indicative terms may be issued. Indicative terms are not an approval, a valuation, or a commitment to settle. They should be compared on the same amount, the same expected period and the same exit assumption, including fees that sit outside the headline rate."
     },
     {
-      title: "Valuation",
-      body: "Most property-secured private facilities require a valuation on terms the lender will accept. The valuer, instructions and reliance are usually the lender's. A borrower-supplied appraisal does not replace that step. Valuation outcomes can change the amount, conditions or whether the proposal proceeds at all."
+      title: "Valuation and documents",
+      body: "Most property-secured private facilities require a valuation on terms the lender will accept. The valuer, instructions and reliance are usually the lender's. A borrower-supplied appraisal does not replace that step. Identity, entity, title, debt, purpose and exit evidence are completed to the lender's list. Missing or conflicting documents are flagged rather than estimated. Legal documents (facility, mortgage or other security, guarantees and any priority arrangements) are explained by the borrower's solicitor, not by a brochure."
     },
     {
-      title: "Documents",
-      body: "Identity, entity, title, debt, purpose and exit evidence are completed to the lender's list. Missing or conflicting documents are flagged rather than estimated. Sensitive records should move through a secure process. Legal documents—facility, mortgage or other security, guarantees and any priority arrangements—are explained by the borrower's solicitor, not by a brochure."
-    },
-    {
-      title: "Settlement",
-      body: "If the lender issues final terms and the borrower proceeds, solicitors, the valuer and the lender's requirements determine when funds can settle. Emet Capital does not fund the loan. Timing depends on third parties, complete information and the lender's credit process. No turnaround is promised from the initial call."
+      title: "Settlement coordination",
+      body: "If the lender issues final terms and the borrower proceeds, solicitors, the valuer and the lender's requirements determine when funds can settle. Emet Capital does not fund the loan. Timing depends on third parties, complete information and the lender's credit process. No turnaround is promised from intake."
     }
   ];
 
@@ -82,7 +78,7 @@ const PrivateLending = () => {
 
   const costQuestions = [
     "What net amount would the business receive after known establishment, brokerage, valuation and legal costs?",
-    "How is interest charged—serviced, prepaid, or capitalised—and what would be owing on the planned repayment date?",
+    "How is interest charged (serviced, prepaid, or capitalised), and what would be owing on the planned repayment date?",
     "Which valuation, solicitor, registration, discharge, priority and search costs sit outside the lender's headline figure?",
     "What brokerage is payable, who pays it, and when does it become due?",
     "What happens to cost if the exit is late: extension, default interest, or a requirement to refinance on new terms?",
@@ -130,12 +126,11 @@ const PrivateLending = () => {
               Private lending for business borrowers, arranged by a broker
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Emet Capital is a commercial finance broker. We compare private and non-bank lenders for
-              property-secured business loans. Emet is not a lender and does not fund loans. This service
-              suits Australian businesses that can offer residential or commercial property as security when
-              a bank has declined the file, cannot meet the required date, or will not consider the structure.
-              An enquiry starts a broker discussion of the transaction; it is not a lender application and not
-              an approval.
+              Emet Capital is a commercial finance broker, not a lender, and it does not fund loans.
+              We compare private and non-bank lenders for property-secured business loans when a
+              bank has declined the file, cannot meet the required date, or will not consider the
+              structure. An enquiry starts a broker discussion of the transaction. It is not a
+              lender submission and not an approval.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -157,33 +152,41 @@ const PrivateLending = () => {
 
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">A broker-run file, not a product explainer</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Who arranges the file, and what the broker does</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Guides on this site define private lending, compare bank and non-bank paths, and list
-                documents. This service is narrower: it is how Emet Capital, as a broker, works a
-                private-lending file for a business that can offer property as security. For the product
-                definition, read{" "}
+                When a bank says no, or cannot meet the date, a commercial finance broker can compare
+                private and non-bank lenders against the security, ranking, purpose and exit. Emet
+                Capital packages the file, tests those points, and approaches third-party lenders. It
+                does not advance the money.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                For a plain-English definition, read{" "}
                 <Link to="/resources/guides/what-is-private-lending-australia" className="text-accent underline">
                   what private lending is in Australia
                 </Link>
-                .
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Files are reviewed by{" "}
-                <Link to="/about/ben" className="text-accent underline">Ben</Link>, a commercial
-                finance broker at Emet Capital with 10 years' experience in private lending. The review looks
-                at purpose, security, existing debt and exit before any lender sees the pack. A broker can
-                organise and compare; a lender still decides whether to offer terms, and a solicitor should
-                explain the documents before anyone signs.
+                . Non-bank debt structures and risks are covered in{" "}
+                <Link to="/resources/guides/private-debt-australia" className="text-accent underline">
+                  private debt in Australia
+                </Link>
+                . Ranking, documents and exits for a property-secured private mortgage are covered in
+                the{" "}
+                <Link to="/resources/guides/private-lending-mortgage" className="text-accent underline">
+                  private lending mortgage guide
+                </Link>
+                . The working order on a typical file is intake, the security and exit test, the
+                private and non-bank shortlist, indicative terms, valuation, documents and settlement
+                coordination.
               </p>
             </ServiceChapter>
 
             <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet works a private-lending file</h2>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                The sequence below is the working order for a typical property-secured business file. Steps
-                can overlap, restart, or stop. None of them is a promise of terms, valuation outcome, or
-                settlement date.
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Files are reviewed by{" "}
+                <Link to="/about/ben" className="text-accent underline">Ben</Link>, a commercial
+                finance broker at Emet Capital. The sequence below is the working order for a
+                typical property-secured business file. Steps can overlap, restart, or stop. None
+                of them is a promise of terms, valuation outcome, or settlement date.
               </p>
               <ol className="space-y-6">
                 {processSteps.map((step, index) => (
@@ -201,11 +204,23 @@ const PrivateLending = () => {
             </ServiceChapter>
 
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Private-lender documents checklist</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">What we collect before a lender is asked</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Private lenders still need to understand who is borrowing, why the funds are required, what
-                property supports the loan, what debt already sits on title, and how the facility is meant to
-                be repaid. The full pack, section by section, is in the{" "}
+                Intake still needs to show who is borrowing, why the funds are required, what
+                property supports the loan, what debt already sits on title, and how the facility is
+                meant to be repaid. The Australian Government's{" "}
+                <a
+                  href="https://business.gov.au/finance/funding/apply-for-a-business-loan"
+                  className="text-accent underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  business-loan preparation guide
+                </a>
+                {" "}lists identification, a business plan, financial reports and similar inputs as
+                possible application material, and notes it is a good idea to compare loan products
+                from multiple lenders before applying. A property-secured private file also needs
+                title, existing debt and exit evidence. The full pack, section by section, is in the{" "}
                 <Link to="/resources/guides/private-lender-document-pack-broker-take" className="text-accent underline">
                   private lender document pack
                 </Link>
@@ -222,17 +237,18 @@ const PrivateLending = () => {
                 ))}
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed mt-4">
-                Flag gaps and conflicting balances instead of guessing them. Low-doc language does not remove
-                identity, security, purpose or exit checks. Send identification and financial records only
-                through an appropriate secure process.
+                Flag gaps and conflicting balances instead of guessing them. Low-doc language does not
+                remove identity, security, purpose or exit checks. Send identification and financial
+                records only through an appropriate secure process.
               </p>
             </ServiceChapter>
 
             <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Hypothetical scenarios</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Each scenario below is labelled hypothetical. None is an Emet Capital customer, a completed
-                transaction, or an indication that similar facts would be approved.
+                Each scenario below is labelled hypothetical. None is an Emet Capital customer, a
+                completed transaction, or an indication that similar facts would be approved. They
+                show how intake, the security and exit test and the shortlist change the file.
               </p>
               <div className="space-y-4">
                 <Card>
@@ -240,20 +256,31 @@ const PrivateLending = () => {
                     <div className="flex items-center gap-3 mb-1">
                       <Badge variant="outline">HYPOTHETICAL</Badge>
                     </div>
-                    <CardTitle className="text-lg">Bank decline with a clear exit</CardTitle>
+                    <CardTitle className="text-lg">HYPOTHETICAL: bank decline with a dated takeout</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground leading-relaxed space-y-3">
                     <p>
-                      A trading company is declined by its bank on a business-purpose refinance because the
-                      income presentation or property type sits outside that bank's policy. The company can
-                      offer a freehold property with an existing first mortgage, and another refinance file is
-                      already underway that will not be ready by the current maturity date.
+                      A trading company is declined by its bank on a business-purpose refinance
+                      because the income presentation or property type sits outside that bank's
+                      policy. The company can offer a freehold property with an existing first
+                      mortgage, and another refinance file is already underway that will not be
+                      ready by the current maturity date.
                     </p>
                     <p>
-                      A broker would test whether the decline is a policy mismatch rather than a weak asset,
-                      whether the takeout refinance is real work-in-progress, and whether a private facility
-                      would only cover a dated gap. If the takeout is only an intention, private lending is
-                      the wrong tool. This example is hypothetical and is not a customer or approval case.
+                      Intake records the decline reason, the amount and the date. The security and
+                      exit test asks whether the takeout refinance is real work-in-progress or only
+                      an intention. If it is only hoped for, the file stops before a shortlist. If
+                      the gap is dated and the asset can be explained, a private or non-bank
+                      shortlist may be the next step, not a second bank submission of the same pack.
+                      For decline diagnosis, see{" "}
+                      <Link to="/resources/guides/private-commercial-loans-after-bank-decline" className="text-accent underline">
+                        private commercial loans after a bank decline
+                      </Link>
+                      {" "}and{" "}
+                      <Link to="/resources/guides/private-debt-australia" className="text-accent underline">
+                        private debt in Australia
+                      </Link>
+                      . This example is hypothetical and is not a customer or approval case.
                     </p>
                   </CardContent>
                 </Card>
@@ -263,20 +290,21 @@ const PrivateLending = () => {
                     <div className="flex items-center gap-3 mb-1">
                       <Badge variant="outline">HYPOTHETICAL</Badge>
                     </div>
-                    <CardTitle className="text-lg">ATO debt with property security</CardTitle>
+                    <CardTitle className="text-lg">HYPOTHETICAL: business tax debt with property security</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground leading-relaxed space-y-3">
                     <p>
-                      A company faces pressure on a business tax debt and has unused equity in a property used
-                      in the business. Directors want to know whether a private, property-secured facility
-                      could stand behind a commercial repayment plan.
+                      A company faces pressure on a business tax debt and has unused equity in a
+                      property used in the business. Directors want to know whether a private,
+                      property-secured facility could stand behind a commercial repayment plan.
                     </p>
                     <p>
-                      A broker would still need a commercial purpose, usable security, a complete tax and
-                      debt picture, and a repayment event that does not assume an unassessed refinance. This
-                      is not tax, legal or insolvency advice. If the liability is personal, the exit is only
-                      hoped for, or the business cannot absorb a failed refinance, the file should stop.
-                      This example is hypothetical and is not a customer or approval case.
+                      A broker would still need a commercial purpose, usable security, a complete
+                      tax and debt picture, and a repayment event that does not assume an unassessed
+                      refinance. This is not tax, legal or insolvency advice. If the liability is
+                      personal, the exit is only hoped for, or the business cannot absorb a failed
+                      refinance, the file should stop at the security and exit test. This example is
+                      hypothetical and is not a customer or approval case.
                     </p>
                   </CardContent>
                 </Card>
@@ -286,24 +314,28 @@ const PrivateLending = () => {
                     <div className="flex items-center gap-3 mb-1">
                       <Badge variant="outline">HYPOTHETICAL</Badge>
                     </div>
-                    <CardTitle className="text-lg">Settlement deadline the bank will not meet</CardTitle>
+                    <CardTitle className="text-lg">HYPOTHETICAL: settlement date the bank process will not meet</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground leading-relaxed space-y-3">
                     <p>
-                      A business has exchanged on a commercial purchase. The remaining funds and security can
-                      be explained, but the bank credit process will not be complete by the contracted
-                      settlement date. The borrower can point to a later refinance or another dated source
-                      that is meant to repay a short facility.
+                      A business has exchanged on a commercial purchase. The remaining funds and
+                      security can be explained, but the bank credit process will not be complete by
+                      the contracted settlement date. The borrower can point to a later refinance or
+                      another dated source that is meant to repay a short facility.
                     </p>
                     <p>
-                      A broker would compare a private first or second mortgage with{" "}
+                      After intake, the broker would compare a private first or second mortgage with{" "}
                       <Link to="/services/bridging-finance" className="text-accent underline">
                         bridging finance
                       </Link>
-                      {" "}where the gap is a true timing bridge. If the purchase cannot be completed without
-                      stretching the exit past a supportable date, the transaction should be renegotiated or
-                      paused rather than forced into private credit. This example is hypothetical and is not
-                      a customer or approval case.
+                      {" "}where the gap is a true timing bridge. If the purchase cannot be completed
+                      without stretching the exit past a supportable date, the transaction should be
+                      renegotiated or paused rather than forced into private credit. For ranking,
+                      documents and exits on a property-secured private mortgage, see the{" "}
+                      <Link to="/resources/guides/private-lending-mortgage" className="text-accent underline">
+                        private lending mortgage guide
+                      </Link>
+                      . This example is hypothetical and is not a customer or approval case.
                     </p>
                   </CardContent>
                 </Card>
@@ -313,9 +345,9 @@ const PrivateLending = () => {
             <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">When private lending is the wrong tool</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Private credit is not a way to bypass a weak asset, an unexplained purpose, or a missing
-                repayment plan. It often costs more and runs for a shorter term than bank debt. Use a
-                different path, or pause, when the facts below apply.
+                Private credit is not a way to bypass a weak asset, an unexplained purpose, or a
+                missing repayment plan. It often costs more and runs for a shorter term than bank
+                debt. Use a different path, or pause, when the facts below apply.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <Card>
@@ -326,13 +358,13 @@ const PrivateLending = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground leading-relaxed">
-                    If the need is extra business funding while an existing first mortgage stays in place,
-                    start with{" "}
+                    If the need is extra business funding while an existing first mortgage stays in
+                    place, start with{" "}
                     <Link to="/services/first-second-mortgages" className="text-accent underline">
                       first and second mortgages
                     </Link>
-                    . That path is about ranking, consent and combined debt, not about shopping a private
-                    label.
+                    . That path is about ranking, consent and combined debt, not about shopping a
+                    private label.
                   </CardContent>
                 </Card>
                 <Card>
@@ -348,8 +380,8 @@ const PrivateLending = () => {
                     <Link to="/services/bridging-finance" className="text-accent underline">
                       bridging finance
                     </Link>
-                    {" "}on the same exit and cost questions. A private mortgage is not automatically the
-                    better bridge.
+                    {" "}on the same exit and cost questions. A private mortgage is not automatically
+                    the better bridge.
                   </CardContent>
                 </Card>
                 <Card>
@@ -357,9 +389,9 @@ const PrivateLending = () => {
                     <CardTitle className="text-lg">No usable security or exit</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground leading-relaxed">
-                    If there is no identifiable property equity, the title cannot be explained, or repayment
-                    depends on an unassessed future refinance, a private lender is unlikely to repair the
-                    file. Packaging will not create an exit.
+                    If there is no identifiable property equity, the title cannot be explained, or
+                    repayment depends on an unassessed future refinance, a private lender is unlikely
+                    to repair the file. Packaging will not create an exit.
                   </CardContent>
                 </Card>
                 <Card>
@@ -367,20 +399,24 @@ const PrivateLending = () => {
                     <CardTitle className="text-lg">Consumer or home-loan purpose</CardTitle>
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground leading-relaxed">
-                    Emet Capital discusses commercial and business-purpose finance only. It does not offer
-                    residential home loans or personal consumer credit, including where the security happens
-                    to be a house.
+                    Emet Capital discusses commercial and business-purpose finance only. It does not
+                    offer residential home loans or personal consumer credit, including where the
+                    security happens to be a house.
                   </CardContent>
                 </Card>
               </div>
             </ServiceChapter>
 
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Cost components and how to compare total cost</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">How we compare indicative terms</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                There is no single private-lending rate on this page, and a headline rate is not the cost of
-                the facility. Ask for written terms on the same amount, expected period and repayment
-                scenario, then compare the net money received against the amount likely to be repaid.
+                There is no single private-lending rate quoted here, and a headline rate is not the
+                cost of the facility. Bank-versus-private trade-offs are explained on{" "}
+                <Link to="/resources/guides/private-lending-vs-bank-lending-which-is-better" className="text-accent underline">
+                  private lending vs bank lending
+                </Link>
+                . Indicative responses are put on one sheet: same amount, expected period and
+                repayment scenario, then net money received against the amount likely to be repaid.
               </p>
               <ul className="space-y-3 text-muted-foreground">
                 {costQuestions.map((item) => (
@@ -392,8 +428,8 @@ const PrivateLending = () => {
               </ul>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 Brokerage, lender fees and third-party costs are separate lines. Ask who receives each
-                payment and when it becomes payable before deciding to proceed. Indicative terms can still
-                change after valuation, legal review and final credit conditions.
+                payment and when it becomes payable before deciding to proceed. Indicative terms can
+                still change after valuation, legal review and final credit conditions.
               </p>
             </ServiceChapter>
 
@@ -401,16 +437,18 @@ const PrivateLending = () => {
               <h2 className="text-3xl font-bold text-foreground mb-4">Who this service is for</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 It is for Australian business owners, companies, trusts and property investors with a
-                commercial purpose and residential or commercial property that can be offered as security.
-                Typical prompts are a bank decline, a policy or structure mismatch, or a date a bank process
-                cannot meet. Complex income or non-standard property can still be discussed; they are not a
-                substitute for security, purpose and exit.
+                commercial purpose and residential or commercial property that can be offered as
+                security, who are ready to discuss a specific transaction. Typical prompts are a bank
+                decline, a policy or structure mismatch, or a date a bank process cannot meet. Complex
+                income or non-standard property can still be discussed. They are not a substitute for
+                security, purpose and exit.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Bring the amount, purpose, property, current debt, deadline and intended repayment path to
-                the first discussion.{" "}
+                Bring the amount, purpose, property, current debt, deadline and intended repayment
+                path to the first discussion.{" "}
                 <Link to="/about/ben" className="text-accent underline">Ben</Link> will say which
-                information is still missing, and whether a private-lender shortlist is even the next step.
+                information is still missing, and whether a private-lender shortlist is even the next
+                step.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -434,28 +472,28 @@ const PrivateLending = () => {
                 Guides & Resources
               </h2>
               <p className="text-muted-foreground mb-6">
-                Use these guides for definitions, document detail and bank-versus-private comparison. This
-                service page stays on how the broker file is run.
+                Use these guides if you need the product definition, mortgage structure or the full
+                document list before an enquiry.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <Link to="/resources/guides/what-is-private-lending-australia" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
                   <h3 className="font-semibold text-foreground mb-2">What is private lending in Australia?</h3>
-                  <p className="text-sm text-muted-foreground mb-2">The definition, fit, cost questions and limits—kept off this service page on purpose.</p>
+                  <p className="text-sm text-muted-foreground mb-2">What private lending is, when it may fit, cost questions and limits.</p>
+                  <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
+                </Link>
+                <Link to="/resources/guides/private-debt-australia" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
+                  <h3 className="font-semibold text-foreground mb-2">Private debt in Australia</h3>
+                  <p className="text-sm text-muted-foreground mb-2">How non-bank debt is used by commercial borrowers, including structures, risks and when it may not fit.</p>
+                  <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
+                </Link>
+                <Link to="/resources/guides/private-lending-mortgage" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
+                  <h3 className="font-semibold text-foreground mb-2">Private lending mortgage</h3>
+                  <p className="text-sm text-muted-foreground mb-2">Property-secured private mortgages: assessment, documents, exits and first versus second ranking.</p>
                   <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
                 </Link>
                 <Link to="/resources/guides/private-lender-document-pack-broker-take" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
                   <h3 className="font-semibold text-foreground mb-2">Private lender document pack</h3>
                   <p className="text-sm text-muted-foreground mb-2">The full evidence list a broker uses before a lender is asked for terms.</p>
-                  <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
-                </Link>
-                <Link to="/resources/guides/private-lending-vs-bank-lending-which-is-better" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
-                  <h3 className="font-semibold text-foreground mb-2">Private lending vs bank lending</h3>
-                  <p className="text-sm text-muted-foreground mb-2">Compare assessment style, flexibility and trade-offs beyond the product name.</p>
-                  <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
-                </Link>
-                <Link to="/resources/guides/private-commercial-loans-after-bank-decline" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
-                  <h3 className="font-semibold text-foreground mb-2">Private commercial loans after a bank decline</h3>
-                  <p className="text-sm text-muted-foreground mb-2">Diagnose a decline before another lender is asked to read the same file.</p>
                   <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
                 </Link>
               </div>
@@ -467,9 +505,9 @@ const PrivateLending = () => {
           <DiscoveryGuides service="private-lending" />
 
           <RelatedReading articles={[
-            { title: "Private Credit Broker vs Direct Private Credit Fund", slug: "private-credit-broker-vs-direct-private-credit-fund-australia", description: "When comparing lenders through a broker is useful, and when a single fund may be enough" },
-            { title: "Finding and comparing private lenders", slug: "finding-comparing-private-lenders-loans-2025-guide", description: "How to evaluate private-lender fit without treating a directory as an approval" },
-            { title: "Bank vs non-bank commercial lending", slug: "bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved", description: "Which borrowers may fit bank, non-bank, or private assessment" }
+            { title: "Private Debt Australia", slug: "private-debt-australia", description: "Non-bank debt structures, assessment and risks for commercial borrowers" },
+            { title: "Private Lending Mortgage", slug: "private-lending-mortgage", description: "How a property-secured private mortgage is assessed, documented and repaid" },
+            { title: "Private Credit Broker vs Direct Private Credit Fund", slug: "private-credit-broker-vs-direct-private-credit-fund-australia", description: "When comparing lenders through a broker is useful, and when a single fund may be enough" }
           ] as RelatedArticle[]} />
 
           <section className="mb-16">
@@ -501,7 +539,7 @@ const PrivateLending = () => {
               <h2 className="text-2xl font-bold text-foreground mb-4">Private Lending by Location</h2>
               <p className="text-muted-foreground mb-6">
                 City pages add local market context. Lender assessment still depends on the individual
-                transaction, security and exit—not on the suburb name.
+                transaction, security and exit, not on the suburb name.
               </p>
               <div className="flex flex-wrap gap-3">
                 {[

@@ -20155,7 +20155,9 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "expiresAt": null
+        "reviewedBy": "Ben Blair",
+        "reviewedAt": "2026-11-06T12:48:00+11:00",
+        "expiresAt": "2027-02-04T12:48:00+11:00"
       },
       "lifecycle": {
         "state": "observing",
@@ -22126,5 +22128,5 @@
       "programIds": []
     }
   ],
-  "checksum": "71ed0dd039470e13cd8f97cc44bf37f89080a62177fed57b6c663f9a19496103"
+  "checksum": "04e72785dc0f12c9db10b6a1d26cebb0d467f39ad677c49cb49a72e5157476a1"
 }
