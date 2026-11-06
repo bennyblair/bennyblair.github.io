@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_023e541e68284b16a84da5b5da73f5ed",
+  "pageId": "pg_2fae09425aeb436a998243dcccca43df",
+  "path": "/services/private-lending",
+  "sourcePath": "src/pages/services/PrivateLending.tsx",
+  "status": "approved",
+  "risk": "R3",
+  "problem": "The designated private-lending service page repeated guide definitions and editorial page-role language instead of describing Emet Capital's live broker arrangement process from intake through settlement coordination.",
+  "targeting": {
+    "primaryQuery": "private lending",
+    "intent": "transactional",
+    "audience": "Australian business-purpose borrowers with usable property security and an evidenced repayment path",
+    "country": "AU",
+    "pillar": "private-lending"
+  },
+  "uniqueValue": [
+    "First-screen broker-not-lender service framing for a live private-lending file, not a what-is guide.",
+    "Six-step arrangement process: intake, security and exit test, private and non-bank lender shortlist, indicative terms discussion, valuation and documents, settlement coordination.",
+    "Process FAQs and contextual links to indexed guides instead of repeating those guides on this URL."
+  ],
+  "evidence": [
+    {
+      "type": "named_human_approval",
+      "approvedBy": "Ben Blair",
+      "roles": [
+        "financial-review",
+        "seo-owner"
+      ],
+      "approvedAt": "2026-11-06T12:48:00+11:00",
+      "pullRequest": 254,
+      "reviewedHeadSha": "91720970bdd1de302d63a2229291432ff43a80b6",
+      "sourcePath": "src/pages/services/PrivateLending.tsx",
+      "afterSha256": "00854e6081039a2a321c6bd939b96f38a91886403f89c5d2cfca3f9c6e76a762",
+      "summary": "Named approval by Ben Blair as financial-review and seo owner covering only the reviewed PrivateLending.tsx bytes at head 91720970bdd1de302d63a2229291432ff43a80b6. Registry maxAutomatedChangeRisk remains R0. This record does not raise automated change permission."
+    },
+    {
+      "type": "independent_editorial_review",
+      "reference": "https://cursor.com/agents/bc-157a70fb-6af8-5bdf-9669-298e7a7de088",
+      "reviewedHeadSha": "91720970bdd1de302d63a2229291432ff43a80b6",
+      "score": 91,
+      "outcome": "PASS",
+      "reviewedAt": "2026-11-05T21:00:45Z",
+      "summary": "Independent grok-4.7 editorial PASS 91 of exact head 91720970bdd1de302d63a2229291432ff43a80b6. Editorial PASS is not named approval and is not a release."
+    },
+    {
+      "type": "writer_package",
+      "reference": "https://cursor.com/agents/bc-bea4e0d7-c8d0-57a4-badf-9b33cfba9355",
+      "pullRequest": 254,
+      "summary": "Writer package for the existing /services/private-lending service component on the infrastructure technical-change path."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/resources/guides/what-is-private-lending-australia",
+      "/resources/guides/private-debt-australia",
+      "/resources/guides/private-lending-mortgage",
+      "/resources/guides/short-term-private-lenders-fast-business-finance-solutions"
+    ],
+    "to": [
+      "/resources/guides/what-is-private-lending-australia",
+      "/resources/guides/private-debt-australia",
+      "/resources/guides/private-lending-mortgage",
+      "/resources/guides/private-lender-document-pack-broker-take",
+      "/resources/guides/private-commercial-loans-after-bank-decline",
+      "/resources/guides/private-lending-vs-bank-lending-which-is-better",
+      "/services/first-second-mortgages",
+      "/services/bridging-finance",
+      "/about/ben",
+      "/contact?purpose=private_lending"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "qualified_organic_lead",
+    "successRule": "Review at 28, 56 and 90 days: inspect relevant AU queries, clicks, service-page engagement and available qualified opportunities. Missing lead data stays unavailable.",
+    "exitRule": "Do not consolidate or noindex from low traffic alone. Investigate only with demonstrated intent overlap or a content defect.",
+    "firstReviewAt": "2026-12-04T01:48:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 25,
+      "demonstratedDemand": 12,
+      "top20Probability": 10,
+      "conversionPotential": 15,
+      "evidenceAuthority": 8,
+      "differentiation": 10,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 85
+  },
+  "approval": {
+    "approvedBy": "Ben Blair",
+    "approvedAt": "2026-11-06T12:48:00+11:00",
+    "automated": false,
+    "roles": [
+      "financial-review",
+      "seo-owner"
+    ],
+    "pullRequest": 254,
+    "reviewedHeadSha": "91720970bdd1de302d63a2229291432ff43a80b6",
+    "sourcePath": "src/pages/services/PrivateLending.tsx",
+    "afterSha256": "00854e6081039a2a321c6bd939b96f38a91886403f89c5d2cfca3f9c6e76a762",
+    "basis": "Named human approval as financial-review and seo owner for the reviewed PrivateLending.tsx content at 91720970bdd1de302d63a2229291432ff43a80b6 only. Independent editorial PASS 91 is separate and is not this approval. maxAutomatedChangeRisk remains R0."
+  }
+}

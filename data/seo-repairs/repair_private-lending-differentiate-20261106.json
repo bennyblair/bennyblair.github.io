@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-lending-differentiate-20261106",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "35daddf9f21c720a453b9add875f88091693ef57",
+  "editor": "Cursor cloud agent writer",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-05T21:00:45Z",
+    "score": 91,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/pages/services/PrivateLending.tsx",
+        "finding": "Independent editorial PASS 91 of exact head 91720970bdd1de302d63a2229291432ff43a80b6. Editorial PASS is not named approval and is not a release."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "namedApproval": {
+    "approvedBy": "Ben Blair",
+    "roles": [
+      "financial-review",
+      "seo-owner"
+    ],
+    "approvedAt": "2026-11-06T12:48:00+11:00",
+    "risk": "R3",
+    "pullRequest": 254,
+    "reviewedHeadSha": "91720970bdd1de302d63a2229291432ff43a80b6",
+    "sourcePath": "src/pages/services/PrivateLending.tsx",
+    "afterSha256": "00854e6081039a2a321c6bd939b96f38a91886403f89c5d2cfca3f9c6e76a762",
+    "automated": false,
+    "scope": "Named approval covers only the reviewed PrivateLending.tsx bytes at 91720970bdd1de302d63a2229291432ff43a80b6 on PR 254. It does not raise registry maxAutomatedChangeRisk from R0 and does not approve other files or later page edits."
+  },
+  "pages": [
+    {
+      "sourcePath": "src/pages/services/PrivateLending.tsx",
+      "pageId": "pg_2fae09425aeb436a998243dcccca43df",
+      "path": "/services/private-lending",
+      "beforeSha256": "17e1d25c7e73d9f428296be56b8664f57ba9edcf1e3c8bea7bb8748d239bb8c5",
+      "afterSha256": "00854e6081039a2a321c6bd939b96f38a91886403f89c5d2cfca3f9c6e76a762",
+      "reason": "Infrastructure technical-change path for the existing high-risk service page /services/private-lending. Keep the slug and canonical. Rewrite the page as the live broker arrangement process (intake through settlement coordination) instead of repeating indexed guide definitions. Independent editorial PASS 91 of reviewed head 91720970bdd1de302d63a2229291432ff43a80b6 at https://cursor.com/agents/bc-157a70fb-6af8-5bdf-9669-298e7a7de088. Named human approval by Ben Blair as financial-review and seo owner at 2026-11-06T12:48:00+11:00 covers only those reviewed page bytes. This metadata commit does not change PrivateLending.tsx. baseSha is current origin/main 35daddf9f21c720a453b9add875f88091693ef57. Registry maxAutomatedChangeRisk remains R0.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-bea4e0d7-c8d0-57a4-badf-9b33cfba9355"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-157a70fb-6af8-5bdf-9669-298e7a7de088"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "What happens after I enquire about this private-lending service?"
+        },
+        {
+          "kind": "text-added",
+          "value": "Who arranges the file, and what the broker does"
+        },
+        {
+          "kind": "text-added",
+          "value": "Settlement coordination"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and it does not fund loans."
+        },
+        {
+          "kind": "text-removed",
+          "value": "A broker-run file, not a product explainer"
+        },
+        {
+          "kind": "text-removed",
+          "value": "What should I compare besides a headline interest rate?"
+        }
+      ]
+    }
+  ]
+}
