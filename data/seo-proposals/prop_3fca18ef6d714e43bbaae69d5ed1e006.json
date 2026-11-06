@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_3fca18ef6d714e43bbaae69d5ed1e006",
+  "pageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
+  "path": "/services/bridging-finance",
+  "sourcePath": "src/pages/services/BridgingFinance.tsx",
+  "status": "approved",
+  "risk": "R3",
+  "problem": "The designated bridging service page repeated guide definitions and editorial page-role language instead of describing Emet Capital's live broker arrangement process from intake through settlement coordination.",
+  "targeting": {
+    "primaryQuery": "bridging finance",
+    "intent": "transactional",
+    "audience": "Australian business-purpose borrowers and developers with usable property security and an evidenced repayment path",
+    "country": "AU",
+    "pillar": "bridging"
+  },
+  "uniqueValue": [
+    "First-screen broker-not-lender service framing for a live commercial bridging file, not a what-is guide.",
+    "Six-step arrangement process: intake, security and exit test, lender shortlist and compare, indicative terms discussion, valuation and documents, settlement coordination.",
+    "Process FAQs and contextual links to indexed 200 guides instead of repeating those guides on this URL."
+  ],
+  "evidence": [
+    {
+      "type": "named_human_approval",
+      "approvedBy": "Ben Blair",
+      "roles": [
+        "financial-review",
+        "seo-owner"
+      ],
+      "approvedAt": "2026-11-06T12:48:00+11:00",
+      "pullRequest": 253,
+      "reviewedHeadSha": "1da99f2107abf2e3e829f29c79813e12e29f4af5",
+      "sourcePath": "src/pages/services/BridgingFinance.tsx",
+      "afterSha256": "d1978b80db751a41f35c0c4b7173f9ffce21225241d7eea3924d893435b6933e",
+      "summary": "Named approval by Ben Blair as financial-review and seo owner covering only the reviewed BridgingFinance.tsx bytes at head 1da99f2107abf2e3e829f29c79813e12e29f4af5. Registry maxAutomatedChangeRisk remains R0. This record does not raise automated change permission."
+    },
+    {
+      "type": "independent_editorial_review",
+      "reference": "https://cursor.com/agents/bc-a4ca9355-4c7c-51e8-ac71-5c3f45ef5fef",
+      "reviewedHeadSha": "1da99f2107abf2e3e829f29c79813e12e29f4af5",
+      "score": 89.5,
+      "outcome": "PASS",
+      "reviewedAt": "2026-11-05T21:01:25Z",
+      "summary": "Independent grok-4.7 editorial PASS 89.5 of exact head 1da99f2107abf2e3e829f29c79813e12e29f4af5. Editorial PASS is not named approval and is not a release."
+    },
+    {
+      "type": "writer_package",
+      "reference": "https://cursor.com/agents/bc-3289f07b-d9b4-5d97-871f-b37b077b5ce6",
+      "pullRequest": 253,
+      "summary": "Writer package for the existing /services/bridging-finance service component on the infrastructure technical-change path."
+    }
+  ],
+  "internalLinks": {
+    "from": [
+      "/resources/guides/what-is-bridging-finance",
+      "/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not",
+      "/resources/guides/bridging-finance-australia-complete-property-guide",
+      "/resources/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide"
+    ],
+    "to": [
+      "/resources/guides/what-is-bridging-finance",
+      "/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not",
+      "/resources/guides/bridging-finance-australia-complete-property-guide",
+      "/resources/guides/best-bridging-loan-lenders-companies-2025",
+      "/resources/guides/open-vs-closed-bridging-loan-complete-comparison",
+      "/about/ben",
+      "/contact?purpose=bridge"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "qualified_organic_lead",
+    "successRule": "Review at 28, 56 and 90 days: inspect relevant AU queries, clicks, service-page engagement and available qualified opportunities. Missing lead data stays unavailable.",
+    "exitRule": "Do not consolidate or noindex from low traffic alone. Investigate only with demonstrated intent overlap or a content defect.",
+    "firstReviewAt": "2026-12-04T01:48:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 25,
+      "demonstratedDemand": 12,
+      "top20Probability": 10,
+      "conversionPotential": 15,
+      "evidenceAuthority": 8,
+      "differentiation": 10,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 85
+  },
+  "approval": {
+    "approvedBy": "Ben Blair",
+    "approvedAt": "2026-11-06T12:48:00+11:00",
+    "automated": false,
+    "roles": [
+      "financial-review",
+      "seo-owner"
+    ],
+    "pullRequest": 253,
+    "reviewedHeadSha": "1da99f2107abf2e3e829f29c79813e12e29f4af5",
+    "sourcePath": "src/pages/services/BridgingFinance.tsx",
+    "afterSha256": "d1978b80db751a41f35c0c4b7173f9ffce21225241d7eea3924d893435b6933e",
+    "basis": "Named human approval as financial-review and seo owner for the reviewed BridgingFinance.tsx content at 1da99f2107abf2e3e829f29c79813e12e29f4af5 only. Independent editorial PASS 89.5 is separate and is not this approval. maxAutomatedChangeRisk remains R0."
+  }
+}

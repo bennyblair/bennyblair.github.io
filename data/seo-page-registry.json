@@ -17534,15 +17534,17 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "expiresAt": null
+        "reviewedBy": "Ben Blair",
+        "reviewedAt": "2026-11-06T12:48:00+11:00",
+        "expiresAt": "2027-02-04T12:48:00+11:00"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_commit_c18cbee",
-        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
+        "lastMaterialChangeId": "chg_pr_253",
+        "lastMaterialChangeAt": "2026-11-06T12:48:00+11:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -22124,5 +22126,5 @@
       "programIds": []
     }
   ],
-  "checksum": "956964e765abff4127f19688cd7321e7c240691fdacd9dc154993d4d25f45387"
+  "checksum": "71ed0dd039470e13cd8f97cc44bf37f89080a62177fed57b6c663f9a19496103"
 }
