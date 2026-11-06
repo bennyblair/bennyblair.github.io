@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_bridging-finance-differentiate-20261106",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "c57325b40c3edd0603de209f77136e5a0b061151",
+  "editor": "Cursor cloud agent writer",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-05T21:01:25Z",
+    "score": 89.5,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/pages/services/BridgingFinance.tsx",
+        "finding": "Independent editorial PASS 89.5 of exact head 1da99f2107abf2e3e829f29c79813e12e29f4af5. Editorial PASS is not named approval and is not a release."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "namedApproval": {
+    "approvedBy": "Ben Blair",
+    "roles": [
+      "financial-review",
+      "seo-owner"
+    ],
+    "approvedAt": "2026-11-06T12:48:00+11:00",
+    "risk": "R3",
+    "pullRequest": 253,
+    "reviewedHeadSha": "1da99f2107abf2e3e829f29c79813e12e29f4af5",
+    "sourcePath": "src/pages/services/BridgingFinance.tsx",
+    "afterSha256": "d1978b80db751a41f35c0c4b7173f9ffce21225241d7eea3924d893435b6933e",
+    "automated": false,
+    "scope": "Named approval covers only the reviewed BridgingFinance.tsx bytes at 1da99f2107abf2e3e829f29c79813e12e29f4af5 on PR 253. It does not raise registry maxAutomatedChangeRisk from R0 and does not approve other files or later page edits."
+  },
+  "pages": [
+    {
+      "sourcePath": "src/pages/services/BridgingFinance.tsx",
+      "pageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
+      "path": "/services/bridging-finance",
+      "beforeSha256": "6423fedfc583307abb2162ece8e5f1f7d8167c58ba0fd8b15a19be0fce5e15af",
+      "afterSha256": "d1978b80db751a41f35c0c4b7173f9ffce21225241d7eea3924d893435b6933e",
+      "reason": "Infrastructure technical-change path for the existing high-risk service page /services/bridging-finance. Keep the slug and canonical. Rewrite the page as the live broker arrangement process (intake through settlement coordination) instead of repeating indexed guide definitions. Independent editorial PASS 89.5 of reviewed head 1da99f2107abf2e3e829f29c79813e12e29f4af5 at https://cursor.com/agents/bc-a4ca9355-4c7c-51e8-ac71-5c3f45ef5fef. Named human approval by Ben Blair as financial-review and seo owner at 2026-11-06T12:48:00+11:00 covers only those reviewed page bytes. This metadata commit does not change BridgingFinance.tsx. baseSha is current origin/main c57325b40c3edd0603de209f77136e5a0b061151. Registry maxAutomatedChangeRisk remains R0.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-3289f07b-d9b4-5d97-871f-b37b077b5ce6"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-a4ca9355-4c7c-51e8-ac71-5c3f45ef5fef"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "How we arrange a commercial bridge"
+        },
+        {
+          "kind": "text-added",
+          "value": "What should I have ready for a first bridging discussion?"
+        },
+        {
+          "kind": "text-added",
+          "value": "When does Emet pause a bridging file instead of circulating it?"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender. We structure commercial bridging finance from intake through settlement coordination."
+        },
+        {
+          "kind": "text-removed",
+          "value": "What this service page answers"
+        },
+        {
+          "kind": "text-removed",
+          "value": "a commercial finance broker at Emet Capital with 10 years"
+        }
+      ]
+    }
+  ]
+}
