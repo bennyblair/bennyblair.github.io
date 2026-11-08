@@ -6,23 +6,22 @@ category: "Property Finance"
 tags: ["Commercial Property", "Property Loans", "Business Finance", "LVR", "Interest Rates", "Property Investment"]
 readingTime: 10
 author: "Ben"
-reviewed_date: "2026-06-20"
 primaryQuery: "commercial property loans Australia"
 searchIntent: "commercial investigation"
 intentCluster: "commercial-property-loans"
 designatedServicePage: "/services/commercial-property-finance"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-08T21:10:07.000Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-02-06T21:10:07.000Z"
 sources:
-  - label: "ATO — Property used in running a business"
-    url: "https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business"
-  - label: "business.gov.au — Apply for a business loan"
+  - label: "business.gov.au: Tax"
+    url: "https://business.gov.au/finance/tax"
+  - label: "business.gov.au: Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
-  - label: "APRA — APG 113 capital adequacy and specialised lending guidance"
+  - label: "APRA: APG 113 capital adequacy and specialised lending guidance"
     url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
 featuredImage: "/images/articles/commercial-property-loans-australia-complete-guide.webp"
 keywords: ["commercial property loans", "commercial property finance", "commercial property lending", "business property loans", "commercial mortgage", "property finance Australia"]
@@ -32,7 +31,7 @@ featuredImageAlt: "Australia-wide commercial property loans eligibility and asse
 protectedUntil: "2026-10-19T00:00:00+11:00"
 ---
 
-> **Direct answer:** A commercial property loan is business-purpose finance used to buy, refinance or improve property such as offices, warehouses, shops, medical premises or mixed-use assets. Approval and structure depend on property risk, borrower contribution, lease or trading cash flow, valuation, legal due diligence and a repayment plan—not on property value alone.
+> **Direct answer:** A commercial property loan is business-purpose finance used to buy, refinance or improve property such as offices, warehouses, shops, medical premises or mixed-use assets. Approval and structure depend on property risk, borrower contribution, lease or trading cash flow, valuation, legal due diligence and a repayment plan, not on property value alone.
 
 This is the Australia-wide eligibility, structure and assessment guide for commercial property loans. It explains how these facilities work for business-purpose property across Australia: eligibility considerations, loan structure, lender assessment, documents and risks. It is distinct from the [commercial mortgage rates guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide), which explains pricing, and the [development finance guide](/resources/guides/commercial-property-development-finance), which covers construction and project risk.
 
@@ -110,9 +109,9 @@ The Australian Government’s [business-loan guide](https://business.gov.au/fina
 
 ## Tax and negative-gearing caution
 
-Interest and property expenses may receive different tax treatment depending on ownership, use, income and the connection between borrowing and assessable income. Negative cash flow should not be treated as a finance strategy by itself. The ATO’s [property-used-in-business guidance](https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business) notes that property can involve income tax, GST and capital-gains consequences. Obtain tax advice for the actual structure.
+Interest and property expenses may receive different tax treatment depending on ownership, use, income and the connection between borrowing and assessable income. Negative cash flow should not be treated as a finance strategy by itself. The Australian Government’s [business tax guidance](https://business.gov.au/finance/tax) notes that different types of taxes may apply to a business, including income tax, capital gains tax and taxes on property. Obtain tax advice for the actual structure.
 
-## Illustrative scenario — not a client outcome
+## Illustrative scenario (not a client outcome)
 
 A trading business considers buying the warehouse it occupies. The credit question is not only whether the property value supports the request. The lender also needs to understand the business’s capacity after the deposit and acquisition costs, the lease or occupancy arrangement, existing debts, property condition and contingency liquidity. A stronger submission shows both property and operating-business evidence.
 

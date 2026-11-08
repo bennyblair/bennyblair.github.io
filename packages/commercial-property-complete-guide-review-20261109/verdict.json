@@ -1,0 +1,203 @@
+{
+  "outcome": "PASS",
+  "contentVerdict": "PASS",
+  "releaseEligibility": "NOT_ELIGIBLE",
+  "score": 90.5,
+  "minimumScore": 85,
+  "blockingFindings": [],
+  "reviewerModel": "Grok 4.7",
+  "writerModel": "Grok 4.6",
+  "reviewerPolicyIdentity": "OpenClaw independent reviewer",
+  "human": false,
+  "professionalFinancialReview": false,
+  "ownerApprovalInvented": false,
+  "reviewedAt": "2026-11-08T21:10:07.000Z",
+  "suggestedExpiresAt": "2027-02-06T21:10:07.000Z",
+  "reviewEveryDays": 90,
+  "pr": "https://github.com/bennyblair/bennyblair.github.io/pull/255",
+  "prState": "open-draft",
+  "labels": [],
+  "branch": "ai/content-repair-commercial-property-complete-guide-review-20261109",
+  "baseSha": "fa421ca4dffdfe9fb3030455f92ad26b7718a9b5",
+  "headSha": "6ad0483f4847c8f85aea100ae81349d6e610ae1e",
+  "path": "/resources/guides/commercial-property-loans-australia-complete-guide",
+  "sourcePath": "src/content/guides/commercial-property-loans-australia-complete-guide.md",
+  "pageId": "pg_1eadcbf19fb84e9f94c862642b20ee3f",
+  "diff": { "files": 1, "insertions": 12, "deletions": 12 },
+  "beforeSha256": "023d08dc5a6641f99190d069797dfa62d04212991e76a9aeaf7aaf4c9a952805",
+  "afterSha256": "29126036fb202a486261f8c448c5b233414169761c7826a0bc12e3ce97f6cc2f",
+  "dimensions": {
+    "intentCoverage": 94,
+    "informationGain": 90,
+    "specificity": 88,
+    "evidence": 84,
+    "readability": 92,
+    "repetition": 90,
+    "compliance": 94,
+    "aiAnswerUsefulness": 92
+  },
+  "changeRisk": {
+    "computed": "R2",
+    "reason": "material content or targeting change",
+    "registryMaxAutomatedChangeRisk": "R0",
+    "registryContentRisk": "high",
+    "dailyContentR2Applies": false,
+    "labelsPresent": []
+  },
+  "releaseBlockers": [
+    {
+      "severity": "release-blocker",
+      "id": "expired-review",
+      "detail": "expiresAt 2026-11-05 is in the past. content-quality-gate reports it twice. article-qa reports it once and has 0 warnings."
+    },
+    {
+      "severity": "release-blocker",
+      "id": "missing-manifest",
+      "detail": "verify-content-repair-scope.mjs: Repair release requires exactly one added manifest."
+    },
+    {
+      "severity": "release-blocker",
+      "id": "stale-review-metadata",
+      "detail": "reviewedBy remains OpenClaw SEO source audit, reviewedAt 2026-08-05, reviewed_date 2026-06-20. Intentionally untouched. Not canonical independent metadata."
+    },
+    {
+      "severity": "release-blocker",
+      "id": "ato-verifier-403",
+      "detail": "Declared ATO HTML URL returns HTTP 403 to Node fetch and curl. Do not record status 200. WebFetch text supports the sentence but is not a gate status."
+    }
+  ],
+  "notes": [
+    {
+      "severity": "note",
+      "id": "preexisting-em-dashes",
+      "detail": "No new U+2014. Five remain: source labels lines 21, 23, 25; reader line 35; heading line 115. Rendered page shows three."
+    },
+    {
+      "severity": "note",
+      "id": "image-alt-shadowed",
+      "detail": "Frontmatter featuredImageAlt changed. Rendered alt and og:image:alt stay the article-images.json string. Do not edit src/config in this repair."
+    },
+    {
+      "severity": "note",
+      "id": "sydney-geo-template",
+      "detail": "Rendered geo.region AU-NSW and geo.placename Sydney come from GuideArticle defaults. National copy is in title, description, and H1. Component change is outside this repair."
+    },
+    {
+      "severity": "note",
+      "id": "footer-lending-tagline",
+      "detail": "Footer still says Specialised commercial lending solutions. Article disclaimer says broker, not a lender. Footer is not part of the 12 lines."
+    },
+    {
+      "severity": "note",
+      "id": "author-profile-ten-years",
+      "detail": "JSON-LD uses the shared Ben profile, commercial finance broker, 10 years in private lending. Not a licence, membership, or volume claim. Not introduced by this diff."
+    }
+  ],
+  "brokerIdentity": {
+    "pass": true,
+    "quote": "Emet Capital is a commercial finance broker, not a lender. It arranges commercial-purpose finance and does not lend, fund or approve loans.",
+    "line": 159,
+    "consumerLoans": false,
+    "volumeClaims": false,
+    "licenceOrMembershipClaimed": false,
+    "claimsRegistryIdsUsed": []
+  },
+  "rendered": {
+    "http": 200,
+    "title": "Commercial Property Loans Australia: How They Work",
+    "h1": "Commercial Property Loans in Australia: Eligibility, Structure and Assessment",
+    "h1Count": 1,
+    "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loans-australia-complete-guide",
+    "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "dateModified": "2026-08-05",
+    "visibleReviewed": "Reviewed 5 August 2026",
+    "rawMarkdownLinkResidue": false
+  },
+  "internalLinks": [
+    {
+      "path": "/resources/guides/commercial-mortgage-rates-australia-complete-guide",
+      "http": 200,
+      "canonical": "https://emetcapital.com.au/resources/guides/commercial-mortgage-rates-australia-complete-guide"
+    },
+    {
+      "path": "/resources/guides/commercial-property-development-finance",
+      "http": 200,
+      "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-development-finance"
+    },
+    {
+      "path": "/resources/guides/commercial-property-loan-deposits-how-much-do-you-need",
+      "http": 200,
+      "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loan-deposits-how-much-do-you-need"
+    },
+    {
+      "path": "/resources/guides/commercial-property-valuation-for-finance-lender-requirements",
+      "http": 200,
+      "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-valuation-for-finance-lender-requirements"
+    },
+    {
+      "path": "/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow",
+      "http": 200,
+      "canonical": "https://emetcapital.com.au/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow"
+    },
+    {
+      "path": "/services/commercial-property-finance",
+      "http": 200,
+      "canonical": "https://emetcapital.com.au/services/commercial-property-finance"
+    },
+    {
+      "path": "/about/ben",
+      "http": 200,
+      "canonical": "https://emetcapital.com.au/about/ben"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business",
+      "nodeStatus": 403,
+      "curlStatus": 403,
+      "webFetchTextSupportsClaim": true,
+      "webFetchHttpStatus": null,
+      "recordableAs200": false,
+      "supports": "GST, capital gains tax, and tax-return income/deduction obligations. Income tax in the guide is a paraphrase, not a verbatim heading."
+    },
+    {
+      "url": "https://www.ato.gov.au/api/public/content/0-184b2878-2f88-4d62-b42c-c1bb1b5f08a0",
+      "nodeStatus": 403,
+      "role": "previous citation, no longer declared"
+    },
+    {
+      "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+      "nodeStatus": 200,
+      "supports": "Shop around and compare lenders; paperwork list is a baseline for documents and offer comparison."
+    },
+    {
+      "url": "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf",
+      "nodeStatus": 200,
+      "finalUrl": "https://www.apra.gov.au/system/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf",
+      "bytes": 888553,
+      "supports": "IPRE repayment depends primarily on asset cash flows. Attachment B maps cash-flow commercial property and ADC development/construction exposures to different bank capital classes. ADI capital guidance, not a borrower rate rule."
+    }
+  ],
+  "metadataRenewal": {
+    "appliesOnlyIfProseSha256Remains": "29126036fb202a486261f8c448c5b233414169761c7826a0bc12e3ce97f6cc2f",
+    "reviewedBy": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-08T21:10:07.000Z",
+    "expiresAt": "2027-02-06T21:10:07.000Z",
+    "remove": ["reviewed_date"],
+    "doNotChange": ["reviewStatus", "humanReviewRequired", "contentRisk", "author", "date", "canonical", "slug"],
+    "reviewStatusStays": "automated-editorial-review",
+    "humanReviewRequiredStays": true,
+    "contentRiskStays": "high",
+    "doNotEditRegistry": true,
+    "atoStatus200ForbiddenUnlessGetReturns2xx": true,
+    "atoUrlChangeRequiresNewReview": true
+  },
+  "checksRun": {
+    "seoRisk": "R2 pass",
+    "contentQualityGate": "fail expiresAt in the past (twice)",
+    "articleQa": "fail 1 error expiresAt, 0 warnings, words 1180, faqs 4, internalLinks 8, uniqueGuideLinks 5, similarity 0.086",
+    "repairScope": "fail exactly one added manifest required",
+    "viteBuildAndTargetedPrerender": "pass for target and linked routes",
+    "notRerun": ["typecheck", "lint", "tests-162", "audit:prod", "full-384-build", "smoke", "lighthouse"]
+  }
+}
