@@ -1,7 +1,7 @@
 ---
-title: "Commercial Property Loans in Australia: The Complete Guide"
+title: "Commercial Property Loans in Australia: Eligibility, Structure and Assessment"
 date: "2025-10-08"
-description: "Complete guide to commercial property loans in Australia. Learn about rates, LVR, eligibility, loan structures, and how to secure finance for business property. General information only - not advice."
+description: "Australia-wide guide to commercial property loans, covering eligibility, structure, lender assessment, documents and risks. General information only, not advice."
 category: "Property Finance"
 tags: ["Commercial Property", "Property Loans", "Business Finance", "LVR", "Interest Rates", "Property Investment"]
 readingTime: 10
@@ -19,22 +19,22 @@ humanReviewRequired: true
 expiresAt: "2026-11-05"
 sources:
   - label: "ATO — Property used in running a business"
-    url: "https://www.ato.gov.au/api/public/content/0-184b2878-2f88-4d62-b42c-c1bb1b5f08a0"
+    url: "https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business"
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "APRA — APG 113 capital adequacy and specialised lending guidance"
     url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
 featuredImage: "/images/articles/commercial-property-loans-australia-complete-guide.webp"
-keywords: ["commercial property loans", "commercial property finance", "business property loans", "commercial mortgage", "property finance Australia", "LVR commercial property", "commercial loan rates"]
-metaTitle: "Commercial Property Loans Australia | Complete Guide"
-metaDescription: "Commercial property loans in Australia explained, including lender assessment, deposits, valuation, serviceability, documents, costs and repayment risks."
-featuredImageAlt: "Commercial property loans Australia complete business borrower guide"
+keywords: ["commercial property loans", "commercial property finance", "commercial property lending", "business property loans", "commercial mortgage", "property finance Australia"]
+metaTitle: "Commercial Property Loans Australia: How They Work"
+metaDescription: "How commercial property loans work across Australia, covering eligibility, structure, lender assessment, documents and risks. General information only."
+featuredImageAlt: "Australia-wide commercial property loans eligibility and assessment guide"
 protectedUntil: "2026-10-19T00:00:00+11:00"
 ---
 
 > **Direct answer:** A commercial property loan is business-purpose finance used to buy, refinance or improve property such as offices, warehouses, shops, medical premises or mixed-use assets. Approval and structure depend on property risk, borrower contribution, lease or trading cash flow, valuation, legal due diligence and a repayment plan—not on property value alone.
 
-This is the main eligibility and structure guide for commercial property loans. It is distinct from the [commercial mortgage rates guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide), which explains pricing, and the [development finance guide](/resources/guides/commercial-property-development-finance), which covers construction and project risk.
+This is the Australia-wide eligibility, structure and assessment guide for commercial property loans. It explains how these facilities work for business-purpose property across Australia: eligibility considerations, loan structure, lender assessment, documents and risks. It is distinct from the [commercial mortgage rates guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide), which explains pricing, and the [development finance guide](/resources/guides/commercial-property-development-finance), which covers construction and project risk.
 
 ## Common loan purposes
 
@@ -94,7 +94,7 @@ The consolidated retail-property material now sits on this page because retail i
 
 Compare the total structure: interest basis, fees, valuation and legal costs, repayment type, covenants, review events, early repayment, extension and default terms. A lower rate is not automatically a better transaction if the facility cannot settle, restricts the intended use or creates an unworkable refinance date.
 
-See commercial mortgage rates in Australia for the calculation method.
+See [commercial mortgage rates in Australia](/resources/guides/commercial-mortgage-rates-australia-complete-guide) for the calculation method.
 
 ## A practical application sequence
 
@@ -110,7 +110,7 @@ The Australian Government’s [business-loan guide](https://business.gov.au/fina
 
 ## Tax and negative-gearing caution
 
-Interest and property expenses may receive different tax treatment depending on ownership, use, income and the connection between borrowing and assessable income. Negative cash flow should not be treated as a finance strategy by itself. The ATO’s [property-used-in-business guidance](https://www.ato.gov.au/api/public/content/0-184b2878-2f88-4d62-b42c-c1bb1b5f08a0) notes that property can involve income tax, GST and capital-gains consequences. Obtain tax advice for the actual structure.
+Interest and property expenses may receive different tax treatment depending on ownership, use, income and the connection between borrowing and assessable income. Negative cash flow should not be treated as a finance strategy by itself. The ATO’s [property-used-in-business guidance](https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business) notes that property can involve income tax, GST and capital-gains consequences. Obtain tax advice for the actual structure.
 
 ## Illustrative scenario — not a client outcome
 
@@ -147,7 +147,7 @@ Sometimes, but the reason for decline must be understood. A different lender doe
 
 ## Next step
 
-For a live purchase or refinance, use the [commercial property finance service](/services/commercial-property-finance) and provide the contract or current loan statement, property details, leases, financials, contribution and timing. General information only; not financial, legal or tax advice.
+To speak with a broker about a live purchase or refinance, use the [commercial property finance service](/services/commercial-property-finance) and provide the contract or current loan statement, property details, leases, financials, contribution and timing. General information only; not financial, legal or tax advice.
 
 ## Related Guides
 
@@ -156,4 +156,4 @@ For a live purchase or refinance, use the [commercial property finance service](
 - [Commercial Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
 - [Commercial Property Finance](/services/commercial-property-finance)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. It arranges commercial-purpose finance and does not lend, fund or approve loans. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
