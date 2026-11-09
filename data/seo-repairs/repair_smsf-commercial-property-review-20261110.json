@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_smsf-commercial-property-review-20261110",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-09T20:14:22.000Z",
+    "score": 0,
+    "blockingFindings": [
+      "Independent whole-page general-information review of the exact resulting file is pending. The writer has not claimed PASS."
+    ],
+    "findings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/smsf-loans-for-commercial-property.md",
+      "pageId": "pg_6406e8715ee74487881df3ecb97afffe",
+      "path": "/resources/guides/smsf-loans-for-commercial-property",
+      "beforeSha256": "a0a2cb24b90957a0f2f9cc38c8f9fb3010f091a06f7d6e59fa8262849ce3a63b",
+      "afterSha256": "70f3ab5bcb750595f3bf80eea5c48388d7c2bdc53dc2dd516cefa0e2b4748c26",
+      "reason": "Expiry review of the SMSF commercial-property loan guide. Keep slug, canonical path, H1 title, author Ben, author_* fields, publication date, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Leave reviewedBy, reviewedAt, expiresAt and reviewed_date unchanged pending independent review. Remove unsourced interest-rate ranges, 70% LVR / 30% deposit statements, wrong or unsourced tax figures including the 47% NALI rate, and the dollar-amount worked example from body and FAQ/JSON-LD. Keep LRBA structure, single acquirable asset, holding trust, limited recourse, related-party and business real property rules with regulator sources. Emet Capital stays a commercial finance broker, not a lender or adviser. No consumer-loan, volume, licence or membership claims. baseSha is current origin/main 6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d. Draft only.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-35a7ff68-b358-5e7b-a308-7b879cb75913"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "This article is for informational purposes only and does not constitute financial advice."
+        },
+        {
+          "kind": "text-added",
+          "value": "The borrowed money cannot be used to improve an asset."
+        },
+        {
+          "kind": "text-added",
+          "value": "must only be for business real property"
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "it is a good idea to compare loan products from multiple lenders before applying."
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically range from 5-8% per annum"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically allow maximum 70% loan-to-value ratios, requiring 30% deposits"
+        },
+        {
+          "kind": "text-removed",
+          "value": "penalty taxation rates of 47%"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Monthly loan repayments of approximately $5,700"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Capital growth projections of 4% per annum"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Rental income from SMSF commercial properties is typically taxed at 15% during accumulation phases, reducing to 10%"
+        },
+        {
+          "kind": "link-added",
+          "value": "https://www.legislation.gov.au/C2004A04633/latest/text"
+        },
+        {
+          "kind": "link-added",
+          "value": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+        },
+        {
+          "kind": "link-added",
+          "value": "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+        },
+        {
+          "kind": "link-added",
+          "value": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-investing/restrictions-on-smsf-investments/smsf-borrowing-restrictions/limited-recourse-borrowing-arrangements/about-lrbas"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "pending_independent_review",
+        "outcome": "PENDING",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-09T20:14:22.000Z",
+        "reviewedSourceSha256": "70f3ab5bcb750595f3bf80eea5c48388d7c2bdc53dc2dd516cefa0e2b4748c26",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 0,
+        "blockingFindings": [
+          "Independent whole-page review of sha256 70f3ab5bcb750595f3bf80eea5c48388d7c2bdc53dc2dd516cefa0e2b4748c26 is pending. Writer has not claimed PASS."
+        ],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.legislation.gov.au/C2004A04633/latest/text",
+            "checkedAt": "2026-11-09T20:14:22.000Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-09T20:14:22.000Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-09T20:14:22.000Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "it is a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Documentation requirements vary between loans.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Limited recourse borrowing arrangements in sections 67A and 67B are a narrow exception",
+            "sources": [
+              "https://www.legislation.gov.au/C2004A04633/latest/text"
+            ]
+          }
+        ],
+        "limitations": [
+          "Writer package only. Independent Grok 4.7 whole-page review is required at this exact head before GI metadata supersession. reviewedBy remains OpenClaw SEO source audit, reviewedAt 2026-08-05, expiresAt 2026-11-05, reviewed_date 2026-05-15. humanReviewRequired stays true. No Ben or owner approval is invented.",
+          "Current ATO LRBA guidance exists at https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-investing/restrictions-on-smsf-investments/smsf-borrowing-restrictions/limited-recourse-borrowing-arrangements/about-lrbas and the rules page including the 10 August 2026 business real property change. Node fetch and curl GET returned HTTP 403 (Access Denied). Cursor WebFetch returned the page text and the body links those URLs. Following PR 255, 403 ATO HTML is not declared in frontmatter because the repair live-source gate requires 2xx. Declared sources are legislation.gov.au SIS Act latest text (200), ASIC INFO 207 (200) and business.gov.au apply-for-a-business-loan (200).",
+          "The 2020 ATO annual-return instruction LRBA URL was replaced. The related-party acquisition URL also returned 403 to Node/curl; current ATO investment-restrictions guidance is linked in the body.",
+          "ATO How SMSFs are taxed (WebFetch) states NALI is taxed at the highest marginal tax rate of 45%, not 47%, and that complying fund income has a concessional 15% rate with ECPI for retirement-phase income streams. Those percentages are not restated on this page. The 10% accumulation CGT wording and the rental-income reducing-to-10% claim were removed.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-05-15",
+            "after": "unchanged pending independent review",
+            "reason": "Follow PR 255 writer convention: leave review metadata pending independent review of the exact resulting file."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}

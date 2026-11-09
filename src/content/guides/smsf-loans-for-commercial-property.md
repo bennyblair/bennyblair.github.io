@@ -1,8 +1,9 @@
 ---
 title: "SMSF Loans for Commercial Property: The Complete Guide"
 date: "2025-09-26T06:00:00Z"
-description: "Complete guide to SMSF loans for commercial property in Australia. Learn about LRBA rules, eligibility, benefits, and compliance requirements. General information only - not advice."
+description: "Guide to SMSF loans for commercial property in Australia, covering LRBA structure, related-party rules and lender assessment. General information only, not advice."
 featuredImage: "/images/uploads/smsf-loans-for-commercial-property.jpg"
+featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
 category: "Specialized Finance"
 tags: ["SMSF loans", "SMSF commercial property", "limited recourse borrowing arrangement", "LRBA", "self managed super fund property", "superannuation property investment"]
 readingTime: 10
@@ -24,367 +25,159 @@ reviewedAt: "2026-08-05"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
 expiresAt: "2026-11-05"
+metaTitle: "SMSF Loans for Commercial Property in Australia"
+metaDescription: "How SMSF borrowing for commercial property works in Australia: LRBA structure, business real property rules, assessment and risks. General information only."
 sources:
-  - label: "ATO - SMSF limited recourse borrowing arrangements"
-    url: "https://www.ato.gov.au/forms-and-instructions/self-managed-superannuation-fund-annual-return-2020-instructions/instructions-to-complete-your-annual-return/section-h-assets-and-liabilities/15b-australian-direct-investments/j1-to-j7-and-j-limited-recourse-borrowing-arrangements"
-  - label: "ATO - SMSF investment restrictions"
-    url: "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/investing/restrictions-on-investments/acquiring-assets-from-related-parties"
+  - label: "Federal Register of Legislation: Superannuation Industry (Supervision) Act 1993"
+    url: "https://www.legislation.gov.au/C2004A04633/latest/text"
+  - label: "ASIC: Information Sheet 207 disputes about commercial loans"
+    url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+  - label: "business.gov.au: Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-# SMSF Loans for Commercial Property: The Complete Guide
+> **Direct answer:** An SMSF can borrow to buy a single acquirable asset, including commercial premises that meet the current rules, only through a limited recourse borrowing arrangement. The asset is held in a separate trust from the SMSF, known as a holding trust. Lender recourse is limited to that asset. New real-property LRBAs are now limited to business real property. This is general information, not a recommendation to buy, borrow or restructure a fund.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "SMSF Loans for Commercial Property: The Complete Guide",
-  "description": "Complete guide to SMSF loans for commercial property in Australia, covering LRBA structures, compliance requirements, tax benefits, and strategic considerations.",
-  "author": {
-    "@type": "Organization",
-    "name": "Emet Capital",
-    "url": "https://emetcapital.com.au"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Emet Capital",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://emetcapital.com.au/images/emet-capital-logo.png"
-    }
-  },
-  "datePublished": "2025-09-26",
-  "dateModified": "2025-09-29",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://emetcapital.com.au/resources/guides/smsf-loans-for-commercial-property"
-  },
-  "articleSection": "Specialized Finance",
-  "keywords": ["SMSF loans", "SMSF commercial property", "limited recourse borrowing arrangement", "LRBA", "self managed super fund property", "superannuation property investment", "commercial property SMSF", "NALI provisions"],
-  "wordCount": 3100,
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://emetcapital.com.au/images/uploads/smsf-loans-for-commercial-property.jpg",
-    "width": 1200,
-    "height": 630
-  },
-  "about": {
-    "@type": "Thing",
-    "name": "SMSF Commercial Property Loans",
-    "description": "Specialized lending arrangements for Self-Managed Super Funds to invest in commercial property through Limited Recourse Borrowing Arrangements"
-  }
-}
-</script>
+This is the national guide to [SMSF commercial property loans](/services/smsf-lending). It explains how limited recourse borrowing arrangements work, what superannuation law requires, what lenders usually assess, and what can go wrong. It is not the general commercial-property loans guide. Emet Capital is a commercial finance broker, not a lender. It does not lend, fund, approve loans or give financial, tax or superannuation advice.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can my SMSF borrow money to buy commercial property?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, SMSFs can borrow to purchase commercial property through Limited Recourse Borrowing Arrangements (LRBAs), provided the property is a single acquirable asset and the arrangement complies with superannuation law. The loan must be limited recourse, meaning lenders can only claim against the specific property purchased, not other fund assets."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What loan-to-value ratio can I achieve for SMSF commercial property loans?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SMSF commercial property loans typically allow maximum 70% LVR, requiring 30% deposits from SMSF assets or member contributions. Some specialist lenders may offer slightly higher ratios for prime commercial properties or established funds, but personal guarantees from members are generally prohibited under superannuation law."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can my business lease commercial property owned by my SMSF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, but the lease must be at arm's length terms with market-based rental rates and commercial lease documentation. Related party leases face strict compliance requirements and potential Non-Arm's Length Income (NALI) penalties if terms are not genuinely commercial."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the tax benefits of owning commercial property in my SMSF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SMSF commercial property rental income is taxed at 15% during accumulation phase, reducing to potentially zero during pension phase. Capital gains are taxed at 15% (or 10% for assets held over 12 months) during accumulation, with potential exemptions during pension phase."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I improve or renovate commercial property owned by my SMSF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SMSF-owned properties can only undergo repairs and maintenance, not substantial improvements that would fundamentally change the asset's character. The property must remain substantially the same as when acquired. Major renovations would breach the single acquirable asset rule."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if my SMSF cannot service the loan payments?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SMSF loan defaults are limited to the specific property under LRBA structures, protecting other fund assets. However, defaults can result in property disposal, potential losses, and compliance issues. Adequate cash flow planning and conservative borrowing help prevent servicing difficulties."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I choose between different SMSF commercial property loan lenders?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Consider interest rates, loan terms, LVR ratios, fees, and lender expertise with SMSF compliance requirements. Specialist SMSF lenders often provide better service and understanding of regulatory requirements than mainstream banks. Professional advice helps evaluate options."
-      }
-    }
-  ]
-}
-</script>
+ASIC's [commercial-loan information](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) explains that the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses.
 
-Self-Managed Super Fund (SMSF) loans for commercial property enable fund trustees to leverage superannuation savings for property investment through Limited Recourse Borrowing Arrangements (LRBA). These specialized financing structures allow SMSFs to purchase commercial properties using borrowed funds while maintaining compliance with strict superannuation and taxation legislation. For trustees seeking [SMSF commercial property loans](/services/smsf-lending), understanding these arrangements is essential for compliant and successful investment.
+> **Series context:** Construction and development funding sits on a different path. For that overview, see the [complete construction finance guide](/resources/guides/construction-finance-australia-complete-guide).
 
-The Australian Tax Office (ATO) permits SMSFs to borrow money to acquire single acquirable assets through LRBAs, with commercial properties being among the most popular investment choices due to their potential for stable rental income and long-term capital growth. However, these arrangements require careful structuring to ensure ongoing compliance with complex regulatory requirements.
+## At a glance
 
-Interest rates for SMSF commercial property loans typically range from 5-8% per annum, with loan-to-value ratios generally limited to 70% of property values. Lenders specializing in SMSF lending understand the unique compliance requirements and offer tailored products that align with superannuation legislation while providing competitive terms.
-
-This comprehensive guide examines SMSF loans for commercial property investment, covering LRBA structures, compliance requirements, application processes, and strategic considerations. Whether trustees are considering their first SMSF property investment or expanding existing portfolios, understanding these specialized lending arrangements is essential for successful implementation while maintaining superannuation compliance and maximizing retirement savings outcomes.
-
----
-
-> **📖 Series Context**: This guide is part of our **Construction & Development Finance** series. For a complete overview, see our [Complete Construction Finance Guide](/resources/guides/construction-finance-australia-complete-guide).
-
-### At a Glance
-
-| | |
+| Question | Practical answer |
 |---|---|
-| **Who this guide is for** | SMSF trustees considering commercial property |
-| **What it addresses** | Limited recourse borrowing arrangements for super funds |
-| **When this is appropriate** | When purchasing commercial property through your SMSF |
-| **When it's NOT appropriate** | For personal or company purchases outside super |
+| Who this is for | SMSF trustees considering commercial or business premises through the fund |
+| What it addresses | Limited recourse borrowing, holding trusts, related-party and business real property rules |
+| When it may be relevant | When the fund proposes to borrow to acquire a single acquirable asset that the law allows |
+| When it is not a fit | Personal, consumer or company borrowing outside the SMSF, or assets the fund cannot acquire |
+| Main risk | Treating lender appetite as a substitute for SMSF law, tax advice and arm's-length terms |
 
----
+## How limited recourse borrowing works
 
-## Understanding SMSF Commercial Property Lending
+The [Superannuation Industry (Supervision) Act 1993](https://www.legislation.gov.au/C2004A04633/latest/text) generally prohibits a regulated superannuation fund from borrowing. Limited recourse borrowing arrangements in sections 67A and 67B are a narrow exception. The ATO's [about LRBAs](https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-investing/restrictions-on-smsf-investments/smsf-borrowing-restrictions/limited-recourse-borrowing-arrangements/about-lrbas) page describes the structure as follows.
 
-SMSF commercial property lending operates under specific legislative frameworks that distinguish it from traditional property finance. The Limited Recourse Borrowing Arrangement structure ensures compliance with superannuation law while enabling property investment leverage within strict parameters.
+An LRBA is an arrangement where the:
 
-### Limited Recourse Borrowing Arrangements (LRBA)
+- SMSF trustee obtains a loan that is used to purchase an acquirable asset
+- asset is held in a separate trust from the SMSF, known as a holding trust
+- SMSF acquires beneficial interest in the asset and after repaying the loan has the right to legal ownership of the asset
+- other assets of the SMSF are protected if the loan defaults
 
-LRBAs allow SMSFs to borrow money to acquire property while limiting lender recourse to the specific asset purchased, protecting other fund assets from potential loss. The property must be held in a separate trust structure with the SMSF holding beneficial ownership and the lender holding security over the asset.
+While the asset is not held directly by the SMSF, any investment returns earned from the asset go to the SMSF. Superannuation law does not specify the type of trust that must be used as a holding trust, but the SMSF trustee must have a beneficial interest in the asset and the right to acquire legal ownership after making one or more payments. A discretionary trust cannot be used as the holding trust.
 
-Upon loan completion, property ownership transfers fully to the SMSF, enabling normal fund asset management and potential disposal decisions. During the loan term, the SMSF cannot improve the property beyond repairs and maintenance, ensuring the asset remains substantially the same as originally acquired.
+Any investment must still meet the fund's investment strategy and governing rules. Before acting, the ATO says trustees should seek advice from a qualified, licensed professional.
 
-### Single Acquirable Asset Requirements
+## Single acquirable asset, repairs and improvements
 
-SMSF borrowing is restricted to single acquirable assets, meaning properties must be capable of being acquired as a single transaction. Commercial buildings, individual offices, retail shops, and industrial properties typically qualify, while multiple properties or strata title combinations may face restrictions.
+The ATO [rules for entering an LRBA](https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-investing/restrictions-on-smsf-investments/smsf-borrowing-restrictions/limited-recourse-borrowing-arrangements/rules-for-entering-an-lrba) state that borrowed money must be used to acquire either a single asset, or a collection of identical assets that have the same market value and can be treated as a single asset.
 
-The single asset principle prevents SMSFs from borrowing to acquire property portfolios or making significant improvements that would fundamentally change the asset's nature. However, incidental improvements and essential repairs are permitted within specific guidelines.
+The borrowed money can also be used to pay for expenses from the borrowing or asset acquisition, such as loan establishment costs or stamp duty, and for maintaining or repairing the asset. The borrowed money cannot be used to improve an asset. The asset cannot be subject to a charge other than as provided in relation to the borrowing by the SMSF.
 
-### Compliance and Regulatory Framework
+That is why substantial renovations, development or a change that would make the asset a different asset are a compliance problem during the loan, not only a credit issue. Replacement of the asset is allowed only in limited circumstances set out in the SIS Act and ATO guidance.
 
-SMSF commercial property investments must satisfy the sole purpose test, ensuring investments are made solely to provide retirement benefits for members. Related party transactions face additional restrictions, with commercial properties leased to related businesses subject to strict arm's length terms and commercial lease documentation. Understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) helps structure appropriate LRBA security arrangements.
+## Business real property rules from 10 August 2026
 
-Investment strategies must be documented and reviewed annually, demonstrating that commercial property investments align with fund objectives and member circumstances. Professional advice is essential to ensure ongoing compliance with evolving superannuation and taxation legislation.
+Changes to the LRBA provisions for real property commenced on 10 August 2026. The ATO states that LRBAs entered into on or after 10 August 2026 to finance a real property asset acquired after this date, must only be for business real property. Those arrangements must be maintained or refinanced while still meeting the definition of business real property. The identity of the lender does not determine whether the real property must be business real property.
 
-## Commercial Property Types and Investment Strategies
+The ATO also states that the changes do not apply if an SMSF has exchanged a binding contract to acquire real property before 10 August 2026, even if the contract is settled or the LRBA is entered into after this date, or if the fund maintains or refinances an earlier LRBA on or after 10 August 2026.
 
-SMSFs can invest in various commercial property types, each offering different risk and return profiles that suit different fund objectives and member circumstances. Understanding these options helps trustees make informed investment decisions aligned with their retirement strategies.
+Business real property generally means land and buildings used wholly and exclusively in a business. It is an exception to the in-house asset and related party acquisition rules. Whether a particular office, warehouse, shop, medical suite or mixed-use site meets that test is a legal and factual question for the fund's advisers, not a lending slogan.
 
-### Office Buildings and Business Premises
+Residential property that is not business real property cannot be financed under a new real-property LRBA. An SMSF may still be able to hold some residential property without borrowing, if the rest of superannuation law is met.
 
-Commercial office buildings provide stable rental income through long-term lease arrangements with established businesses, often featuring regular rental reviews and professional property management. These investments suit SMSFs seeking predictable cash flows to meet pension obligations or fund administrative expenses.
+## Related-party purchases and leases
 
-Small office buildings, medical centres, and professional suites offer accessible entry points for SMSFs with limited capital while providing exposure to commercial property markets. Location, tenant quality, and lease terms significantly impact investment performance and ongoing management requirements.
+The ATO's [SMSF investment restrictions](https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-investing/restrictions-on-smsf-investments/what-are-the-smsf-investment-restrictions) page states that your SMSF cannot acquire an asset from a related party unless the price reflects the market value and the asset is in an allowed class. Allowed classes include listed securities, business real property, and limited in-house assets. Related parties include members, relatives, controlled companies and trusts, and standard employer-sponsors.
 
-### Industrial and Warehouse Properties
+Business real property leased between the fund and a related party is an exception to the in-house asset rules. Any lease must be made on an arm's length basis and reflect the market value. If an asset is not acquired or sold at arm's length, all or part of any income from the transaction may be non-arm's length income and taxed at the highest marginal rate.
 
-Industrial properties including warehouses, manufacturing facilities, and distribution centres typically offer higher rental yields than office buildings while requiring less intensive management. These assets often feature longer lease terms and established tenant relationships providing stable cash flows.
+Using the SMSF as a guarantor for a member or a member's relative is not allowed. Related-party leases of business premises still attract the arm's-length, documentation and NALI rules. Trustees should not treat a related-party rent figure as commercial because it is convenient.
 
-Location near transport infrastructure, industrial estates, or manufacturing hubs enhances property values and tenant appeal. However, industrial properties may face higher vacancy risks and require specialist knowledge for effective management and valuation. For commercial property investors outside superannuation, [commercial property refinancing](/services/refinancing-solutions) offers strategies to optimize property debt structures.
+## What lenders assess
 
-### Retail Commercial Properties
+There is no single deposit, loan-to-value ratio, interest rate or term that applies to every SMSF commercial property loan. Acceptable leverage, pricing, term, repayment type and covenants are set by each lender's policy and by the property, lease, fund liquidity and documents in front of them.
 
-Retail properties including shops, restaurants, and service businesses offer direct exposure to consumer spending patterns and local economic conditions. These investments may provide higher yields but often involve more intensive management and potentially shorter lease terms.
+A lender will usually want to understand:
 
-Shopping centres, retail strips, and standalone retail buildings each present different risk profiles and management requirements. Successful retail property investment requires understanding of retail trends, consumer behaviour, and local market dynamics.
+- the SMSF deed, members, investment strategy and auditor position
+- the holding trust, loan contract and limited-recourse security
+- the property, valuation, zoning and building condition
+- the lease, tenant and whether the occupier is related
+- rental and other fund cash flow after vacancies, outgoings, contributions and pension needs
+- insurance, liquidity and how the fund would meet payments if rent paused
 
-## SMSF Loan Structures and Requirements
+Understanding [first and second mortgages](/resources/guides/second-mortgages-for-business-guide) helps when comparing security ranking, but an SMSF LRBA is not a standard company mortgage. Personal guarantees, if requested at all, do not expand lender rights beyond the acquirable asset under the limited-recourse rules. Members should get legal advice before signing any guarantee.
 
-SMSF commercial property loans require specialized structures that comply with superannuation legislation while providing practical financing solutions. Understanding these requirements helps trustees navigate the application process and ensure ongoing compliance.
+The Australian Government's [business-loan guide](https://business.gov.au/finance/funding/apply-for-a-business-loan) notes that it is a good idea to compare loan products from multiple lenders before applying. Documentation requirements vary between loans.
 
-### Loan-to-Value Ratios and Equity Requirements
+## Documents that usually support an application
 
-SMSF commercial property loans typically allow maximum 70% loan-to-value ratios, requiring 30% deposits from fund assets or member contributions. Some lenders offer higher ratios for prime commercial properties or established funds with strong financial positions.
+Applications are easier to assess when the structure and the property evidence are complete. Typical items include the SMSF trust deed and variations, investment strategy, recent financial statements, member details, ATO registration evidence, auditor reports, the contract of sale, valuation, building and pest or environmental reports where relevant, lease and rent schedule, holding-trust documents, insurance, and a funds-to-complete statement that includes duty, legal costs and working liquidity after settlement.
 
-Deposit funding must come from existing SMSF assets, member contributions, or fund income, with personal guarantees from members generally prohibited under superannuation law. This restriction requires careful cash flow planning to ensure adequate deposit availability without compromising fund liquidity.
+Related-party occupancy needs extra care: a written lease, evidence that rent and terms match the market, and a clear explanation of how the business and the fund are dealing with each other. Missing deed powers, an incomplete holding trust or an improvement plan funded from the loan are common reasons a file cannot be submitted as an LRBA.
 
-### Interest Rate Structures and Terms
+For commercial property owned outside superannuation, [commercial property refinancing](/services/refinancing-solutions) is a different pathway. Do not assume an SMSF refinance can use the same structure as a company or family-trust loan.
 
-SMSF commercial property loan rates typically range from 5-8% per annum, with specialist SMSF lenders often providing competitive terms comparable to traditional commercial property finance. Fixed and variable rate options are available, with choice depending on fund cash flow requirements and interest rate outlook.
+## Tax and NALI caution
 
-Loan terms commonly extend 15-30 years, aligning with long-term superannuation investment horizons while managing cash flow requirements. Interest-only periods may be available during initial years, though principal and interest structures provide better long-term debt reduction outcomes.
+This guide does not state SMSF tax rates, CGT discounts or penalty percentages. Tax treatment depends on whether the fund is complying, whether income is ordinary or non-arm's length, and whether assets support a retirement-phase income stream. The ATO explains those categories in [How SMSFs are taxed](https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-administration-and-reporting/how-smsfs-are-taxed). Deductibility of interest and property expenses is not automatic and can differ where income is exempt.
 
-### Security and Documentation Requirements
+Non-arm's length income is a live risk on related-party leases, cheap related-party services and purchases that are not at market value. NALI is taxed at the highest marginal rate. Trustees should not plan a property purchase around an assumed concessional outcome.
 
-LRBA structures require comprehensive legal documentation including loan agreements, trust deeds for holding trusts, and security documents that comply with superannuation legislation. Professional legal advice is essential to ensure appropriate structure implementation and ongoing compliance.
+Get written SMSF tax advice before exchanging contracts.
 
-Security arrangements typically include first mortgage over the property held by the holding trust, with additional security generally limited due to limited recourse provisions. Insurance requirements protect both fund and lender interests while ensuring compliance with superannuation asset protection obligations.
+## Illustrative scenario (not a client outcome)
 
-## Application Process and Documentation
+A two-member SMSF considers buying the warehouse used by a related trading business. The questions are not only whether a lender will look at the property. Trustees also need to confirm that the asset is a single acquirable asset, that a new real-property LRBA meets the business real property rules, that the holding trust and limited-recourse documents are in place, that any related-party lease is at market terms, and that the fund can meet loan payments from rent and other fund resources without personal use of the asset.
 
-SMSF commercial property loan applications require extensive documentation demonstrating fund compliance, financial capacity, and investment rationale. Understanding these requirements helps trustees prepare effectively and expedite approval processes.
+This example is hypothetical and does not state an approval, rate, leverage, yield, growth result or settlement time.
 
-### SMSF Compliance and Governance Documentation
+Timing tools used outside superannuation, such as [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), are not a substitute for a complying LRBA. SMSF borrowing remains limited to the SIS Act exceptions.
 
-Applications require current SMSF trust deeds, investment strategies, financial statements, and ATO registration confirmations demonstrating fund compliance and good standing. Recent auditor reports and actuarial certificates for pension funds provide additional compliance verification.
+## Main risks
 
-Trustee identification, member statements, and contribution histories demonstrate fund membership and financial positions. Some lenders require specialist SMSF accountant or adviser confirmations regarding fund compliance and proposed investment appropriateness.
-
-### Property and Investment Analysis
-
-Detailed property information including contracts of sale, building reports, valuations, and lease documentation supports loan applications and demonstrates investment viability. Commercial property analysis should include rental market reviews, comparable sales evidence, and future performance projections.
-
-Investment strategy documentation must demonstrate how commercial property investments align with fund objectives and member circumstances. Professional property advice and market analysis strengthen applications while supporting ongoing compliance requirements.
-
-### Financial Assessment and Servicing Capacity
-
-Fund financial statements, cash flow projections, and debt servicing analyses demonstrate capacity to meet loan obligations from rental income and other fund resources. Conservative projections accounting for vacancy periods, maintenance costs, and fund expenses support sustainable borrowing decisions.
-
-Member contribution capacities, pension payment requirements, and fund administrative costs must be considered in cash flow analysis to ensure loans remain serviceable throughout their terms without compromising fund objectives or member benefits.
-
-## Tax Implications and Benefits
-
-SMSF commercial property investments through LRBAs create complex tax implications requiring careful planning and ongoing management. Understanding these factors helps optimize investment outcomes while maintaining compliance with superannuation and taxation legislation.
-
-### Rental Income and Deductions
-
-Rental income from SMSF commercial properties is typically taxed at 15% during accumulation phases, reducing to 10% for complying funds or potentially zero for funds in pension phase. This concessional taxation provides significant advantages over direct property ownership outside superannuation.
-
-Loan interest, property management fees, maintenance costs, and depreciation are generally deductible against rental income, reducing taxable returns. However, deductions cannot be claimed against other fund income when properties generate losses, limiting negative gearing benefits within SMSF structures.
-
-### Capital Gains Tax Considerations
-
-Capital gains on SMSF commercial properties are taxed at 15% during accumulation phases, with potential reductions to 10% for assets held longer than 12 months. Properties sold during pension phases may qualify for capital gains tax exemptions, providing substantial tax advantages.
-
-The timing of property sales relative to fund phases significantly impacts tax outcomes, requiring strategic planning around member retirement timing and pension commencements. Professional tax advice helps optimize timing and structure decisions for maximum tax effectiveness.
-
-### Non-Arm's Length Income (NALI) Provisions
-
-Recent legislative changes regarding Non-Arm's Length Income create additional compliance requirements for SMSF property investments, particularly those involving related party leases or non-commercial arrangements. NALI provisions can result in penalty taxation rates of 47%.
-
-Commercial property leases to related businesses must be documented at arm's length terms with market-based rental rates and appropriate lease conditions. Professional advice ensures compliance with evolving NALI provisions and avoids inadvertent penalty taxation.
-
-## Worked Example: Medical Centre Investment
-
-For urgent SMSF funding needs, [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) can provide interim solutions, while [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) offer rapid access for time-sensitive SMSF investment opportunities.
-
-Consider an SMSF with two members approaching retirement, holding $800,000 in accumulation phase assets and seeking to invest in a $1.2 million medical centre with established tenant leases generating $96,000 annual rental income.
-
-### Investment Structure and Financing
-
-The SMSF requires a $360,000 deposit (30% of purchase price) plus approximately $40,000 for transaction costs and initial expenses, totaling $400,000 from existing fund assets. An SMSF specialist lender provides $840,000 financing at 6.5% interest over 25 years through an appropriate LRBA structure.
-
-Monthly loan repayments of approximately $5,700 are serviced from rental income of $8,000 monthly, providing positive cash flow of $2,300 before expenses. Property management fees, insurance, and fund administrative costs total approximately $1,200 monthly, generating net positive cash flow.
-
-### Financial Analysis and Projections
-
-The investment provides initial rental yield of 8% on total investment with positive cash flow supporting fund liquidity and member benefit payments. Debt service coverage ratio of 1.4 times provides adequate safety margin for vacancy periods or rental reductions.
-
-Capital growth projections of 4% per annum would increase property value to approximately $1.6 million over 10 years, while loan balance reduces to approximately $650,000 through principal repayments. Total investment return including rental income and capital growth projects attractive outcomes for retirement funding.
-
-### Tax Optimization Strategies
-
-During accumulation phase, rental income attracts 15% tax while loan interest and depreciation provide offsetting deductions. Transition to pension phase eliminates rental income taxation and potentially capital gains tax on eventual disposal.
-
-Strategic timing of pension commencement relative to property disposal could maximize tax benefits, while ongoing compliance with NALI provisions ensures concessional taxation treatment throughout the investment period.
-
-## Risk Management and Compliance
-
-SMSF commercial property investments involve specific risks requiring comprehensive management strategies to protect fund assets and ensure ongoing compliance with superannuation legislation.
-
-### Property Investment Risks
-
-Commercial property investments face vacancy risks, tenant default, market value fluctuations, and potential obsolescence affecting rental income and capital values. Diversification across property types, locations, and tenants helps mitigate these risks while maintaining compliance with SMSF investment restrictions.
-
-Regular property inspections, maintenance programmes, and lease management protect asset values while ensuring ongoing tenant satisfaction. Professional property management services often prove cost-effective for complex commercial properties or geographically distant investments.
-
-### SMSF Compliance and Regulatory Risks
-
-Superannuation legislation changes, ATO interpretation updates, and compliance failures can impact SMSF commercial property investments significantly. Regular compliance reviews, professional advice, and appropriate documentation help maintain regulatory compliance.
-
-Annual investment strategy reviews ensure commercial property investments remain aligned with fund objectives and member circumstances. Changes in member situations, retirement timing, or fund objectives may require investment strategy modifications or property disposal considerations.
-
-### Liquidity and Cash Flow Management
-
-Commercial property investments are relatively illiquid compared to other superannuation assets, requiring careful liquidity management to meet member benefit payments and fund expenses. Adequate cash reserves or readily convertible assets help manage unexpected cash flow requirements.
-
-Loan servicing obligations create fixed commitments regardless of rental income variations, requiring conservative cash flow planning and appropriate contingency arrangements. Professional cash flow modelling helps identify potential issues and plan appropriate solutions.
-
----
-
-*This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.*
+- the property is not a single acquirable asset, or the fund tries to improve it with borrowed money
+- a new real-property LRBA is used for an asset that is not business real property
+- the holding trust does not give the SMSF the required beneficial interest and purchase right
+- a related-party lease or purchase is not at market terms, creating NALI or other breaches
+- rent, vacancies or pension payments leave the fund unable to meet the loan
+- the asset is relatively illiquid when a member needs a benefit payment
+- a significant change to the arrangement is treated as a new LRBA under later rules
+- trustees treat a broker discussion as approval, tax advice or superannuation advice
 
 ## Frequently Asked Questions
 
-**Can my SMSF borrow money to buy commercial property?**
+### Can my SMSF borrow money to buy commercial property?
 
-Yes, SMSFs can borrow to purchase commercial property through Limited Recourse Borrowing Arrangements (LRBAs), provided the property is a single acquirable asset and the arrangement complies with superannuation law. The loan must be limited recourse, meaning lenders can only claim against the specific property purchased, not other fund assets.
+Yes, but only if the borrowing is a complying limited recourse borrowing arrangement for a single acquirable asset, the asset is held in a holding trust, and current superannuation law is met. From 10 August 2026, a new LRBA used to finance real property acquired after that date must be for business real property. The loan must be limited recourse, so lender rights on default relate to that asset rather than the rest of the fund.
 
-**What loan-to-value ratio can I achieve for SMSF commercial property loans?**
+### What deposit or loan-to-value ratio applies to SMSF commercial property loans?
 
-SMSF commercial property loans typically allow maximum 70% LVR, requiring 30% deposits from SMSF assets or member contributions. Some specialist lenders may offer slightly higher ratios for prime commercial properties or established funds, but personal guarantees from members are generally prohibited under superannuation law.
+There is no single percentage that applies to every fund or property. Deposit, leverage, term and pricing are set by each lender's policy and by the asset, lease, liquidity and documents. Members should not assume that a figure quoted for ordinary commercial property finance will be available inside an SMSF.
 
-**Can my business lease commercial property owned by my SMSF?**
+### Can my business lease commercial property owned by my SMSF?
 
-Yes, but the lease must be at arm's length terms with market-based rental rates and commercial lease documentation. Related party leases face strict compliance requirements and potential Non-Arm's Length Income (NALI) penalties if terms are not genuinely commercial. Professional advice is essential for structuring compliant arrangements.
+A related-party lease of business real property can be allowed if it is at arm's length and at market value, and if the in-house asset exceptions apply. Related-party terms that are not commercial can create non-arm's length income and other breaches. Document the lease properly and get SMSF legal and tax advice before occupying fund property.
 
-**What are the tax benefits of owning commercial property in my SMSF?**
+### How is rental income from SMSF commercial property taxed?
 
-SMSF commercial property rental income is taxed at 15% during accumulation phase, reducing to potentially zero during pension phase. Capital gains are taxed at 15% (or 10% for assets held over 12 months) during accumulation, with potential exemptions during pension phase. These rates are typically lower than personal tax rates.
+It depends on whether the fund is complying, whether the income is ordinary or non-arm's length, and whether the asset supports a retirement-phase income stream. This page does not quote tax rates. Use current ATO SMSF tax guidance and advice from an SMSF accountant. Do not assume pension-phase income is automatically exempt.
 
-**Can I improve or renovate commercial property owned by my SMSF?**
+### Can I improve or renovate commercial property owned by my SMSF while an LRBA is in place?
 
-SMSF-owned properties can only undergo repairs and maintenance, not substantial improvements that would fundamentally change the asset's character. The property must remain substantially the same as when acquired. Major renovations or improvements would breach the single acquirable asset rule and require loan refinancing.
+Borrowed money can be used to maintain or repair the asset. The borrowed money cannot be used to improve an asset. Major works that change the character of the asset can breach the single acquirable asset rules. Get advice before any renovation, not after invoices are issued.
 
-**What happens if my SMSF cannot service the loan payments?**
+### What happens if my SMSF cannot service the loan payments?
 
-SMSF loan defaults are limited to the specific property under LRBA structures, protecting other fund assets. However, defaults can result in property disposal, potential losses, and compliance issues. Adequate cash flow planning, conservative borrowing, and professional advice help prevent servicing difficulties.
+Limited recourse is intended to confine lender rights to the acquirable asset, which can still mean sale of that property, losses in the fund and compliance issues. Other fund assets are the point of the limited-recourse design, not a promise that members or related businesses are unaffected. Conservative cash-flow planning is part of trustee duty, not a lender marketing feature.
 
-**How do I choose between different SMSF commercial property loan lenders?**
-
-Consider interest rates, loan terms, LVR ratios, fees, and lender expertise with SMSF compliance requirements. Specialist SMSF lenders often provide better service and understanding of regulatory requirements than mainstream banks. Professional advice helps evaluate options and select appropriate lenders for specific circumstances.
-
-## Glossary
-
-**Limited Recourse Borrowing Arrangement (LRBA)**: Specialized loan structure allowing SMSFs to borrow money where lender recourse is limited to the specific asset purchased, protecting other fund assets.
-
-**Non-Arm's Length Income (NALI)**: Income derived from arrangements that are not conducted at arm's length, potentially subject to penalty taxation at 47% within SMSF structures.
-
-**Single Acquirable Asset**: Property or asset that can be acquired in a single transaction, meeting SMSF borrowing requirements under superannuation legislation.
-
-**Sole Purpose Test**: Fundamental requirement that SMSF investments must be made solely to provide retirement benefits for fund members, not for other purposes.
-
-**Accumulation Phase**: SMSF operational phase where members are contributing to and building retirement savings, with fund income typically taxed at 15%.
-
-**Pension Phase**: SMSF phase where members receive retirement benefits, often providing concessional taxation treatment including potential tax exemptions.
-
-**Holding Trust**: Separate trust structure required under LRBA arrangements where property is held during the loan term before transferring to the SMSF upon completion.
-
-**Investment Strategy**: Formal document outlining SMSF investment approach, objectives, and considerations that must be reviewed annually and guide investment decisions.
-
-## Conclusion
-
-SMSF loans for commercial property investment provide sophisticated opportunities for fund trustees to leverage superannuation savings while accessing competitive property investment returns within compliant structures. The Limited Recourse Borrowing Arrangement framework enables property investment leverage while protecting fund assets through appropriate risk limitation.
-
-Understanding the complex regulatory requirements, documentation needs, and ongoing compliance obligations is essential for successful SMSF commercial property investment. Professional advice from specialists in SMSF law, taxation, and property investment proves invaluable in structuring appropriate arrangements and maintaining ongoing compliance.
-
-Commercial property types offer different risk and return profiles suitable for various fund objectives and member circumstances. From stable office buildings to higher-yielding industrial properties, trustees must carefully evaluate options against fund strategies and long-term retirement planning objectives.
-
-Tax benefits including concessional income taxation and potential capital gains exemptions make SMSF commercial property investment attractive compared to direct ownership outside superannuation. However, these benefits require careful planning and ongoing compliance to ensure their realization and avoid penalty taxation.
-
-Risk management through diversification, professional property management, and adequate liquidity planning helps protect fund assets while ensuring sustainable investment outcomes. Regular compliance reviews and professional advice help navigate the evolving regulatory environment and maintain appropriate investment structures.
-
-## Related decision guides
+## Related Guides
 
 - [How to buy commercial property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide)
+- [Complete construction finance guide](/resources/guides/construction-finance-australia-complete-guide)
 
-The Australian SMSF commercial property lending market continues developing with specialist lenders providing tailored products and competitive terms for compliant arrangements. Trustees who understand these opportunities and engage appropriate professional support can successfully implement commercial property investments that enhance retirement savings outcomes while maintaining regulatory compliance throughout their superannuation journey.
+To speak with a broker about a live SMSF commercial-property scenario, use the [SMSF lending service](/services/smsf-lending) with the contract or listing, SMSF deed, financials, lease, contribution position and timing. An enquiry starts a discussion about options. It is not an approval or a promised outcome.
+
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. It arranges commercial-purpose finance and does not lend, fund or approve loans. This page is not financial, tax or superannuation advice. Readers should get advice from their SMSF accountant, a licensed financial adviser and a lawyer before acting.
