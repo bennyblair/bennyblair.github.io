@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_commercial-property-complete-guide-review-20261109",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "fa421ca4dffdfe9fb3030455f92ad26b7718a9b5",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-08T21:10:07.000Z",
+    "score": 92,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/config/article-images.json",
+        "finding": "Rendered image alt is still the article-images.json string, not the frontmatter featuredImageAlt. That path is outside this repair."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/commercial-property-loans-australia-complete-guide.md",
+        "finding": "GuideArticle still emits Sydney geo tags. National wording is in the title, description, and H1."
+      },
+      {
+        "severity": "low",
+        "location": "src/components/Footer.tsx",
+        "finding": "Footer chrome still says Specialised commercial lending solutions. The article disclaimer states Emet Capital is a commercial finance broker, not a lender."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/commercial-property-loans-australia-complete-guide.md",
+      "pageId": "pg_1eadcbf19fb84e9f94c862642b20ee3f",
+      "path": "/resources/guides/commercial-property-loans-australia-complete-guide",
+      "beforeSha256": "023d08dc5a6641f99190d069797dfa62d04212991e76a9aeaf7aaf4c9a952805",
+      "afterSha256": "dd53122423eae767669ec7ae1ff893a61ec7d1a12f8d542c6a5f0ee73de8b87b",
+      "reason": "Existing-page keep/refresh of the Australia-wide commercial property loans eligibility, structure and assessment guide. Keep slug, canonical path, H1, author Ben, publication date 2025-10-08, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Guide prose sha256 dd53122423eae767669ec7ae1ff893a61ec7d1a12f8d542c6a5f0ee73de8b87b at git dbd4045f7abcae850875b716d8523ef73c373b13 received independent Grok 4.7 re-review PASS 92.0 with release withheld at https://cursor.com/agents/bc-67415a2a-a6b9-56d1-b774-37708c290708. This commit does not change the guide file. It points generalInformationReview.reviewedSourceSha256 at that exact hash, keeps reviewedBy OpenClaw independent reviewer with reviewedAt 2026-11-08T21:10:07.000Z and expiresAt 2027-02-06T21:10:07.000Z, and removes the three packages/ provenance files from the repair diff (retained outside git). Historical PASS 90.5 of 6ad0483 / sha256 29126036fb202a486261f8c448c5b233414169761c7826a0bc12e3ce97f6cc2f remains historical. Emet Capital stays a commercial finance broker, not a lender. No consumer-loan, volume, licence or membership claims. baseSha is current origin/main fa421ca4dffdfe9fb3030455f92ad26b7718a9b5. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-67415a2a-a6b9-56d1-b774-37708c290708"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-88bcb429-43f3-5ff1-9f6f-2396fab5b6aa"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-39d5391c-d861-529b-a41b-ee728912b16e"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "This is the Australia-wide eligibility, structure and assessment guide"
+        },
+        {
+          "kind": "text-added",
+          "value": "To speak with a broker about a live purchase or refinance"
+        },
+        {
+          "kind": "text-added",
+          "value": "different types of taxes may apply to a business, including income tax, capital gains tax and taxes on property"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "property can involve income tax, GST and capital-gains consequences"
+        },
+        {
+          "kind": "link-added",
+          "value": "https://business.gov.au/finance/tax"
+        },
+        {
+          "kind": "link-removed",
+          "value": "https://www.ato.gov.au/api/public/content/0-184b2878-2f88-4d62-b42c-c1bb1b5f08a0"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-08T21:10:07.000Z",
+        "reviewedSourceSha256": "dd53122423eae767669ec7ae1ff893a61ec7d1a12f8d542c6a5f0ee73de8b87b",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "dimensions": {
+          "intentCoverage": 94,
+          "informationGain": 90,
+          "specificity": 90,
+          "evidence": 92,
+          "readability": 93,
+          "repetition": 90,
+          "compliance": 95,
+          "aiAnswerUsefulness": 92
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/tax",
+            "checkedAt": "2026-11-08T21:33:00.050Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-08T21:35:53.000Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf",
+            "checkedAt": "2026-11-08T21:35:53.000Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "different types of taxes may apply to a business, including income tax, capital gains tax and taxes on property",
+            "sources": [
+              "https://business.gov.au/finance/tax"
+            ]
+          },
+          {
+            "claim": "provides a useful baseline for documentation and offer comparison",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "property cash flows and development exposures are treated differently within bank risk frameworks",
+            "sources": [
+              "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review of guide sha256 dd53122423eae767669ec7ae1ff893a61ec7d1a12f8d542c6a5f0ee73de8b87b at git dbd4045f7abcae850875b716d8523ef73c373b13, not human or professional financial approval. Independent re-review PASS 92.0 observed 2026-11-08T21:35:53Z at https://cursor.com/agents/bc-67415a2a-a6b9-56d1-b774-37708c290708. This metadata commit does not change the guide file. reviewedAt 2026-11-08T21:10:07.000Z and expiresAt 2027-02-06T21:10:07.000Z stay. Writer revision https://cursor.com/agents/bc-88bcb429-43f3-5ff1-9f6f-2396fab5b6aa. Historical PASS 90.5 of 6ad0483 / sha256 29126036fb202a486261f8c448c5b233414169761c7826a0bc12e3ce97f6cc2f remains historical.",
+          "humanReviewRequired stays true and is not a claim that a human review occurred. contentRisk stays high. Author Ben and date 2025-10-08 stay. No Ben or owner approval is invented.",
+          "ATO public HTML https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business returned HTTP 403 to Node fetch and curl GET (513 bytes, Access Denied) and is not declared. Alternate independent fetch text is not HTTP 200. Replacement https://business.gov.au/finance/tax returned HTTP 200 (366592 bytes) to the verifier GET. The sourced sentence matches that page: income tax, capital gains tax and taxes on property. GST is not claimed. business.gov.au apply-for-a-business-loan HTTP 200. APRA APG 113 declared URL HTTP 200 after redirect to the /system/ PDF.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. Registry maxAutomatedChangeRisk remains R0. Package provenance files are retained outside the git diff and are not shipped in this repair."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-06-20",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-08T21:10:07.000Z; expiresAt: 2027-02-06T21:10:07.000Z; reviewed_date removed. Guide prose sha256 dd53122423eae767669ec7ae1ff893a61ec7d1a12f8d542c6a5f0ee73de8b87b independently reviewed PASS 92.0.",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence. The reviewed_date alias is removed. This commit does not change the guide file or that pair."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-02-06T21:10:07.000Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-67415a2a-a6b9-56d1-b774-37708c290708",
+          "reviewedRevision": "dbd4045f7abcae850875b716d8523ef73c373b13",
+          "reviewedSourceSha256": "dd53122423eae767669ec7ae1ff893a61ec7d1a12f8d542c6a5f0ee73de8b87b"
+        },
+        "priorIndependentReview": {
+          "headSha": "6ad0483f4847c8f85aea100ae81349d6e610ae1e",
+          "sourceSha256": "29126036fb202a486261f8c448c5b233414169761c7826a0bc12e3ce97f6cc2f",
+          "run": "https://cursor.com/agents/bc-67415a2a-a6b9-56d1-b774-37708c290708",
+          "contentVerdict": "PASS",
+          "score": 90.5,
+          "releaseEligibility": "NOT_ELIGIBLE",
+          "coversResultingFile": false
+        },
+        "articleQa": {
+          "command": "node scripts/article-qa.mjs src/content/guides/commercial-property-loans-australia-complete-guide.md --fail-on-warnings",
+          "result": "PASS 0 errors, 0 warnings (1175 words, 4 FAQs, 8 internal links, 5 unique guide links, paragraph similarity 0.086)"
+        }
+      }
+    }
+  ]
+}
