@@ -6,13 +6,12 @@
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
   "baseSha": "6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d",
-  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "editor": "Cursor cloud agent editor",
   "review": {
-    "reviewer": "pending independent review",
-    "score": 0,
-    "blockingFindings": [
-      "Independent whole-page general-information review of the exact resulting file is pending. The writer has not claimed PASS."
-    ],
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-09T21:11:13.000Z",
+    "score": 91,
+    "blockingFindings": [],
     "findings": []
   },
   "kind": "substantive",
@@ -23,9 +22,12 @@
       "pageId": "pg_6406e8715ee74487881df3ecb97afffe",
       "path": "/resources/guides/smsf-loans-for-commercial-property",
       "beforeSha256": "a0a2cb24b90957a0f2f9cc38c8f9fb3010f091a06f7d6e59fa8262849ce3a63b",
-      "afterSha256": "c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86",
-      "reason": "Expiry review of the SMSF commercial-property loan guide, plus one writer revision after independent REVISE 79 of 1479826b95979d87738c7835abf2c1a2715597ff. Keep slug, canonical path, H1 title, author Ben, author_* fields, publication date, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Leave reviewedBy, reviewedAt, expiresAt and reviewed_date unchanged pending independent review. Remove unsourced interest-rate ranges, 70% LVR / 30% deposit statements, wrong or unsourced tax figures including the 47% NALI rate, and the dollar-amount worked example. Rewrite the personal-guarantee sentence from SIS Act s67A. Tighten the 10 August 2026 direct answer so it cannot be quoted as covering a pre-commencement refinance or acquisition. Map the 10 August rule to legislation.gov.au 2xx sources, including Treasury Laws Amendment (Tax Reform No. 1) Act 2026 Schedule 5 for grandfathering. Emet Capital stays a commercial finance broker, not a lender or adviser. No consumer-loan, volume, licence or membership claims. baseSha is current origin/main 6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d. Draft only. Writer has not claimed PASS.",
+      "afterSha256": "abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e",
+      "reason": "Expiry review keep/refresh of the SMSF commercial-property loan guide after independent Grok 4.7 re-review PASS 91 at git 239911ddefe6f8d8979d4acff8730bd037eaaf77 / pre-metadata sha256 c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86. This metadata commit changes only reviewedBy, reviewedAt and expiresAt, and removes reviewed_date, on that file and completes this manifest. Resulting guide sha256 abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e. Keep slug, canonical, H1, author Ben, author_* fields, publication date 2025-09-26T06:00:00Z, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, rate or time-promise claims. baseSha is current origin/main 6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
       "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-2c07a44a-4d34-5e0b-889d-8320d319c505"
+        },
         {
           "reference": "https://cursor.com/agents/bc-35a7ff68-b358-5e7b-a308-7b879cb75913"
         },
@@ -125,43 +127,46 @@
       ],
       "generalInformationReview": {
         "schemaVersion": 1,
-        "reviewType": "independent-automated-editorial",
+        "reviewType": "independent-automated-editorial-rereview",
         "mode": "general-information-v1",
-        "status": "pending_independent_review",
-        "outcome": "PENDING",
-        "reviewedSourceSha256": "c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-09T21:11:13.000Z",
+        "reviewedSourceSha256": "abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "score": 0,
-        "blockingFindings": [
-          "Independent whole-page review of sha256 c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86 is pending. Writer has not claimed PASS."
-        ],
-        "completePageChecked": false,
+        "score": 91,
+        "blockingFindings": [],
+        "completePageChecked": true,
         "businessPurposeOnly": true,
         "noPersonalAdvice": true,
         "unsupportedClaimsRemoved": true,
         "noFabricatedTransactionOrReview": true,
         "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
         "sources": [
           {
             "url": "https://www.legislation.gov.au/C2004A04633/latest/text",
-            "checkedAt": "2026-11-09T20:54:45.000Z",
+            "checkedAt": "2026-11-09T21:11:13.000Z",
             "status": 200
           },
           {
             "url": "https://www.legislation.gov.au/C2026A00049/asmade/text",
-            "checkedAt": "2026-11-09T20:54:45.000Z",
+            "checkedAt": "2026-11-09T21:11:13.000Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
-            "checkedAt": "2026-11-09T20:54:45.000Z",
+            "checkedAt": "2026-11-09T21:11:13.000Z",
             "status": 200
           },
           {
             "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
-            "checkedAt": "2026-11-09T20:54:45.000Z",
+            "checkedAt": "2026-11-09T21:11:13.000Z",
             "status": 200
           }
         ],
@@ -247,19 +252,18 @@
           }
         ],
         "limitations": [
-          "Writer revision package only, after independent REVISE 79 of 1479826b95979d87738c7835abf2c1a2715597ff. Independent Grok 4.7 whole-page review is required at the new exact hash before GI metadata supersession. reviewedBy remains OpenClaw SEO source audit, reviewedAt 2026-08-05, expiresAt 2026-11-05, reviewed_date 2026-05-15. humanReviewRequired stays true. No Ben or owner approval is invented. Score remains 0. Outcome remains PENDING. Writer has not claimed PASS, complete claim coverage, or noLegalOrTaxConclusion.",
-          "Declared sources were live-checked by the writer on 2026-11-09T20:54:45.000Z with Node fetch GET: SIS Act latest/text HTTP 200 (469911 bytes); Treasury Laws Amendment (Tax Reform No. 1) Act 2026 asmade/text HTTP 200 (93781 bytes); ASIC INFO 207 HTTP 200 (76012 bytes); business.gov.au apply-for-a-business-loan HTTP 200 (357421 bytes). Those checkedAt values are writer source-check times, not an independent review instant.",
-          "The 10 August 2026 business-real-property condition is mapped to SIS Act subsection 67A(2)(c) via https://www.legislation.gov.au/C2004A04633/latest/text and to the amending text in Treasury Laws Amendment (Tax Reform No. 1) Act 2026 Schedule 5 via https://www.legislation.gov.au/C2026A00049/asmade/text. Grandfathering (maintain or refinance a pre-commencement borrowing; acquisition under a pre-commencement arrangement) is mapped to that amending Act application provision, which is where that text sits. ATO LRBA pages remain body links only.",
-          "Current ATO LRBA, investment-restrictions and tax pages remain linked in the body and are not declared. Node fetch and curl GET previously returned HTTP 403 (Access Denied). Following PR 255, 403 ATO HTML is not declared because the repair live-source gate requires 2xx.",
-          "ATO-attributed body sentences not mapped to a declared 2xx source include the holding-trust unit-holder limit, related-party acquisition classes, NALI taxed at the highest marginal rate, the ATO binding-contract wording, and the ATO continuing-use / later-resumption sentence. The later independent review should decide coverage. Those sentences were not given claimCoverage complete.",
-          "ATO How SMSFs are taxed (WebFetch) states NALI is taxed at the highest marginal tax rate of 45%, not 47%, and that complying fund income has a concessional 15% rate with ECPI for retirement-phase income streams. Those percentages are not restated on this page.",
-          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans."
+          "This is an automated independent editorial and source re-review of the SMSF commercial-property loan guide, not human or professional financial approval. Independent re-review PASS 91 observed 2026-11-09T21:11:13.000Z at https://cursor.com/agents/bc-2c07a44a-4d34-5e0b-889d-8320d319c505 against git 239911ddefe6f8d8979d4acff8730bd037eaaf77 / sha256 c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e. Writer https://cursor.com/agents/bc-35a7ff68-b358-5e7b-a308-7b879cb75913. Revision https://cursor.com/agents/bc-b735f627-f157-5e14-9d62-cc1140584abc. Evidence receipts/2026-11-10-pr257-review/rereview/ is not in this git diff.",
+          "humanReviewRequired stays true and is not a claim that a human review occurred. contentRisk stays high. Author Ben, author_* fields and date 2025-09-26T06:00:00Z stay. No Ben or owner approval is invented.",
+          "Declared sources were live-checked by Node fetch GET: SIS Act latest/text HTTP 200; Treasury Laws Amendment (Tax Reform No. 1) Act 2026 asmade/text HTTP 200; ASIC INFO 207 HTTP 200; business.gov.au apply-for-a-business-loan HTTP 200. The independent re-review recorded those four URLs as HTTP 200 at 2026-11-09T21:11:13.000Z. Writer GET sizes at 2026-11-09T20:54:45.000Z were SIS Act 469911 bytes, amending Act 93781 bytes, ASIC INFO 207 76012 bytes, and business.gov.au 357421 bytes.",
+          "The 10 August 2026 business-real-property condition is mapped to SIS Act subsection 67A(2)(c) via https://www.legislation.gov.au/C2004A04633/latest/text and to the amending text in Treasury Laws Amendment (Tax Reform No. 1) Act 2026 Schedule 5 via https://www.legislation.gov.au/C2026A00049/asmade/text. Grandfathering (maintain or refinance a pre-commencement borrowing; acquisition under a pre-commencement arrangement) is mapped to that amending Act application provision. ATO LRBA pages remain body links only.",
+          "Current ATO LRBA, investment-restrictions and tax pages remain linked in the body and are not declared. Node fetch and curl GET previously returned HTTP 403 (Access Denied). Following PR 255, 403 ATO HTML is not declared because the repair live-source gate requires 2xx. ATO-attributed body sentences (holding-trust unit-holder limit, related-party acquisition classes, NALI taxed at the highest marginal rate, the ATO binding-contract wording, and the ATO continuing-use / later-resumption sentence) stay as verified undeclared body links. Independent re-review PASS 91 treated those as limitations, not as unmapped declared claims, so claimCoverage is complete with an empty unmappedFactualClaims list.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. Registry maxAutomatedChangeRisk remains R0."
         ],
         "metadataChanges": [
           {
             "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-05-15",
-            "after": "unchanged pending independent review",
-            "reason": "Leave review metadata pending independent review of the exact resulting file."
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-09T21:11:13.000Z; expiresAt: 2027-02-07T21:11:13.000Z",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence. All other guide bytes stay identical to the PASS 91 re-review."
           }
         ],
         "scopeVerification": {
@@ -267,11 +271,32 @@
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false,
-          "resultingFileIndependentlyReviewed": false
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-02-07T21:11:13.000Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-2c07a44a-4d34-5e0b-889d-8320d319c505",
+          "reviewedRevision": "239911ddefe6f8d8979d4acff8730bd037eaaf77",
+          "reviewedPreMetadataSha256": "c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86",
+          "reviewedSourceSha256": "abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e"
+        },
+        "priorIndependentReview": {
+          "headSha": "1479826b95979d87738c7835abf2c1a2715597ff",
+          "sourceSha256": "70f3ab5bcb750595f3bf80eea5c48388d7c2bdc53dc2dd516cefa0e2b4748c26",
+          "run": "https://cursor.com/agents/bc-2c07a44a-4d34-5e0b-889d-8320d319c505",
+          "contentVerdict": "REVISE",
+          "score": 79,
+          "releaseEligibility": "NOT_ELIGIBLE",
+          "coversResultingFile": false
         }
       }
     }

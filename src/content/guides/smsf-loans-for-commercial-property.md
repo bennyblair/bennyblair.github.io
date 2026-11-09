@@ -8,7 +8,6 @@ category: "Specialized Finance"
 tags: ["SMSF loans", "SMSF commercial property", "limited recourse borrowing arrangement", "LRBA", "self managed super fund property", "superannuation property investment"]
 readingTime: 10
 author: "Ben"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -20,11 +19,11 @@ searchIntent: "commercial investigation"
 intentCluster: "smsf-commercial-property-finance"
 designatedServicePage: "/services/smsf-lending"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-09T21:11:13.000Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-02-07T21:11:13.000Z"
 metaTitle: "SMSF Loans for Commercial Property in Australia"
 metaDescription: "How SMSF borrowing for commercial property works in Australia: LRBA structure, business real property rules, assessment and risks. General information only."
 sources:
