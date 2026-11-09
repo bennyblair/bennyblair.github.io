@@ -25,8 +25,8 @@ sources:
     url: "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
 metaTitle: "Urgent Caveat Loans Australia | Readiness Guide"
 metaDescription: "Urgent caveat loans for Australian businesses: what controls timing, how valuation and title affect a file, documents to prepare, total-cost checks and exit risk."
-featuredImage: "/images/articles/caveat-loan-emergency-business-funding.webp"
-featuredImageAlt: "Emet Capital caveat loan emergency business funding title card"
+featuredImage: "/images/caveat-loan-emergency.jpg"
+featuredImageAlt: "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph."
 ---
 
 > **Direct answer:** An urgent caveat loan is short-term, business-purpose finance considered when a documented commercial deadline is too close for a standard process. "Urgent" describes the borrower's situation. It is not a promise of approval, funding or a settlement time. Timing is controlled by title, valuation, legal work, lender credit and registration, and those steps apply across Australia.
