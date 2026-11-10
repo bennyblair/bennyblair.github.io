@@ -8,9 +8,11 @@
   "baseSha": "e1e2d90123d39ff3e9804bc68f797428956577ea",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
-    "reviewer": "PENDING independent reviewer",
-    "status": "PENDING",
-    "blockingFindings": []
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-10T20:40:10.356Z",
+    "score": 92,
+    "blockingFindings": [],
+    "findings": []
   },
   "kind": "substantive",
   "reviewMode": "general-information-v1",
@@ -20,7 +22,7 @@
       "pageId": "pg_687585f3aab64287b0d9bd0e6ed6788e",
       "path": "/resources/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide",
       "beforeSha256": "ac718abffbc33dca7ef884f1fa14f5d4efa4a0fc80ec1233159796ac083cbdd5",
-      "afterSha256": "648d636eb38e771f396eb54121ceb80305daf1f74b889936e3a0cef8e144f943",
+      "afterSha256": "b1e97566eb91f9ac2187b56de197975f7069719a4068f11288c4132e1c5a7475",
       "reason": "Existing-page improvement of the commercial-mortgage-broker selection guide. Keep slug (filename-derived), canonical path, title, description, H1 owner, author Daniel, author_* fields, publication date 2026-03-17, and reviewed_date 2026-05-15. Do not claim Emet Capital is the best, leading, or only broker. Add one descriptive body link to the designated service /services/commercial-property-finance, a short working-with-a-broker paragraph (facts, security, exit, compare lenders, borrower decides), and contextual links to /services/first-second-mortgages and /services/bridging-finance only where those products were already discussed. Replace the closer 'Emet Capital provides commercial lending solutions to eligible business borrowers' with broker-accurate wording. Publication-contract frontmatter was required for this material change: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, featuredImageAlt for the existing 1200x630 JPEG, and two official sources. Independent-review fields, scores, reviewedBy, reviewedAt and expiresAt are left PENDING. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is current origin/main e1e2d90123d39ff3e9804bc68f797428956577ea. Computed change class expected R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
       "evidence": [
         {
@@ -65,35 +67,82 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "pending_independent_review",
-        "outcome": "PENDING",
-        "reviewer": "PENDING independent reviewer",
-        "reviewedSourceSha256": "648d636eb38e771f396eb54121ceb80305daf1f74b889936e3a0cef8e144f943",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:40:10.356Z",
+        "reviewedSourceSha256": "b1e97566eb91f9ac2187b56de197975f7069719a4068f11288c4132e1c5a7475",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
+        "score": 92,
         "blockingFindings": [],
-        "completePageChecked": false,
-        "claimCoverage": "pending",
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
         "unmappedFactualClaims": [],
-        "sources": [],
-        "sourceClaimMap": [],
-        "limitations": [
-          "Writer package only. Independent review is PENDING at this exact guide sha256 648d636eb38e771f396eb54121ceb80305daf1f74b889936e3a0cef8e144f943. Do not treat this manifest as a completed general-information review, human review, or professional financial approval.",
-          "Author Daniel, author_* fields, date 2026-03-17, reviewed_date 2026-05-15, title, description and featured image path are unchanged. contentRisk medium was added to match the trusted registry. reviewedBy, reviewedAt and expiresAt were not added.",
-          "Writer live GET (Node fetch, no custom User-Agent, redirect follow) at 2026-11-10T20:11:00.000Z: https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans HTTP 200, 76012 bytes; https://business.gov.au/finance/funding/apply-for-a-business-loan HTTP 200, 357421 bytes. Independent review must re-check these sources.",
-          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve credit. Registry maxAutomatedChangeRisk remains R0."
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-10T20:28:37.034Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-10T20:28:39.052Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "you can use a business loan broker to help you find the right loan",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A good broker will understand your business needs, recommend some loan options and handle most of the paperwork for you.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
         ],
         "scopeVerification": {
           "canonicalWebsiteTouched": true,
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false,
-          "resultingFileIndependentlyReviewed": false
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "reviewedPreMetadataSha256": "648d636eb38e771f396eb54121ceb80305daf1f74b889936e3a0cef8e144f943"
         }
       }
     }
