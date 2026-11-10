@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_bridge-lending-service-link-20261111",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e1e2d90123d39ff3e9804bc68f797428956577ea",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/bridge-lending-australia-commercial-property.md",
+      "pageId": "pg_7b5692548a4c47e0b65af3f805ea77db",
+      "path": "/resources/guides/bridge-lending-australia-commercial-property",
+      "beforeSha256": "0b6d4282ebf71d99719359a9b55857d701823f8c5350027c6132eee49491bb04",
+      "afterSha256": "43d7e522a5c9e9281e0d39e92684352599a71e47b58c9637d8594a4c99ab9b27",
+      "reason": "Existing-page improvement of the commercial bridge-lending explainer. Add one contextual body link to /services/bridging-finance with the descriptive anchor commercial bridging finance arranged through a broker. Add a short working-with-a-broker paragraph: Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide, with no approval, speed or outcome promise. Replace the closer line that said Emet Capital provides commercial lending solutions with broker-accurate wording that Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the existing title/keyword, searchIntent informational, designatedServicePage /services/bridging-finance, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source used for the shop-around sentence. Related In-Depth Guides is an H2 so the template owns the only H1. The related-list copy of commercial-property-loans-australia-complete-guide is removed so that URL appears twice. Keep title, slug, description, keywords, author Ben, and author_* fields, including the existing 10 years bio wording. Keep the existing /services/refinancing-solutions link. Independent review is PENDING at this writer revision. No rates, volumes, licence, membership, consumer-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-e9b71326-872c-5767-b2fb-32aea139492d"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "commercial bridging finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Working with a broker on a bridge file means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is 43d7e522a5c9e9281e0d39e92684352599a71e47b58c9637d8594a4c99ab9b27. beforeSha256 is 0b6d4282ebf71d99719359a9b55857d701823f8c5350027c6132eee49491bb04 at main e1e2d90123d39ff3e9804bc68f797428956577ea.",
+          "business.gov.au Apply for a business loan returned HTTP 200 to Node fetch from this writer box. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "ASIC INFO 207 disputes-about-commercial-loans returned HTTP 200 to Node fetch from this writer box and is not a declared source.",
+          "Author Ben, author_* fields, slug, title, description and keywords are unchanged. reviewedBy, reviewedAt and expiresAt are not set; independent review metadata remains PENDING.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund loans, or approve credit."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false
+        }
+      }
+    }
+  ]
+}
