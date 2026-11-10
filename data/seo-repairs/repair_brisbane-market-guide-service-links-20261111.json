@@ -5,7 +5,7 @@
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "e1e2d90123d39ff3e9804bc68f797428956577ea",
+  "baseSha": "f87f759ae401a45c11fe8fc26790c1180306a043",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
@@ -22,7 +22,7 @@
       "path": "/resources/guides/commercial-property-loans-brisbane-queensland-market-guide",
       "beforeSha256": "3b6fdb105b706527079dd78150563092c6ec37e4ba9363d203791af7060fdf97",
       "afterSha256": "d0d4a364c151eab2d8fafc9c5efc57fa13effe113e1cbe60effefed3f7f9905c",
-      "reason": "Existing-page improvement of the Brisbane / Queensland commercial property loans city guide. Add one contextual body link to /services/bridging-finance and one to /services/private-lending from sentences that already discuss those options. Keep the existing body link to /services/commercial-property-finance, the national complete-guide mention, title, H1, slug, canonical path, and Daniel author / author_* fields. Replace the closer that said Emet Capital provides commercial lending solutions with broker-accurate wording. Publication-contract fields required by qa:content for this material change: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source. Related In-Depth Guides is an H2 so the template still owns the only H1. Two Related Guides list items were removed so /services/refinancing-solutions and the valuation guide each appear at most twice. Independent review PENDING. Do not treat this record as a completed review, score, or professional approval. Draft only. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is origin/main e1e2d90123d39ff3e9804bc68f797428956577ea.",
+      "reason": "Existing-page improvement of the Brisbane / Queensland commercial property loans city guide. Add one contextual body link to /services/bridging-finance and one to /services/private-lending from sentences that already discuss those options. Keep the existing body link to /services/commercial-property-finance, the national complete-guide mention, title, H1, slug, canonical path, and Daniel author / author_* fields. Replace the closer that said Emet Capital provides commercial lending solutions with broker-accurate wording. Publication-contract fields required by qa:content for this material change: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source. Related In-Depth Guides is an H2 so the template still owns the only H1. Two Related Guides list items were removed so /services/refinancing-solutions and the valuation guide each appear at most twice. Independent review PENDING. Do not treat this record as a completed review, score, or professional approval. Draft only. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is origin/main f87f759ae401a45c11fe8fc26790c1180306a043.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-6d4e48fa-5c84-5d7d-b6cb-4432e8595bcf"
