@@ -13,7 +13,19 @@ author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 featuredImage: "/images/how-to-find-the-best-commercial-mortgage-broker-complete-guide.jpg"
+featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
 keywords: ["commercial mortgage brokers", "best commercial mortgage broker", "commercial finance broker australia", "commercial property loan broker"]
+metaTitle: "How to Find the Best Commercial Mortgage Broker [Complete Guide]"
+metaDescription: "How to compare commercial mortgage brokers in Australia: what to ask, what good brokers do, and how to start a file without wasting time."
+primaryQuery: "commercial mortgage broker australia"
+searchIntent: "informational"
+designatedServicePage: "/services/commercial-property-finance"
+contentRisk: "medium"
+sources:
+  - label: "ASIC: Disputes about commercial loans"
+    url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+  - label: "business.gov.au: Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 Finding the best commercial mortgage broker is not about finding the loudest broker or the one promising the cheapest headline deal in five minutes.
@@ -22,19 +34,25 @@ It is about finding someone who understands your transaction, knows which lender
 
 For investors, developers, and business owners, commercial property debt is rarely a simple tick-box exercise. A good broker helps with structure, lender fit, and execution. A weak broker mostly forwards documents and hopes the lender says yes.
 
+This page explains how to compare commercial mortgage brokers in Australia. It does not rank brokers and does not claim that Emet Capital is the best, leading, or only commercial mortgage broker.
+
+This guide is for business-purpose commercial mortgages, not household lending. [ASIC's information on disputes about commercial loans](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) records that the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses.
+
 ## What a commercial mortgage broker actually does
 
 A commercial mortgage broker helps match a business-purpose property transaction to the right lender and structure.
 
 That may involve:
 
-- first mortgage finance for acquisition or refinance
+- first mortgage finance for acquisition or refinance, including [first and second mortgages](/services/first-second-mortgages) where ranking is part of the file
 - second mortgage or layered debt scenarios
-- short-term property-backed transitions
+- short-term property-backed transitions, including [bridging finance](/services/bridging-finance) where timing is the issue
 - owner-occupied commercial premises funding
 - investor and development-related funding paths
 
 The important point is that a broker should do more than compare lender names. They should be able to explain why a certain lender or structure fits your asset, leverage, time frame, and commercial objective.
+
+[business.gov.au](https://business.gov.au/finance/funding/apply-for-a-business-loan) notes that you can use a business loan broker to help you find the right loan. A good broker will understand your business needs, recommend some loan options and handle most of the paperwork for you. It's a good idea to compare loan products from multiple lenders before applying.
 
 ## Why broker fit matters in commercial property finance
 
@@ -211,6 +229,10 @@ Some red flags show up early.
 
 One red flag does not always mean walk away. Several together usually do.
 
+## Starting a commercial mortgage file
+
+Once the transaction, security and timing are clear, a complete file is more useful than a branded pitch. For a live commercial purchase, refinance or property-backed business-purpose loan, use [commercial property finance arranged through a broker](/services/commercial-property-finance). Working with a broker means Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide. Emet Capital is a commercial finance broker, not a lender, and it does not fund loans or approve credit. An enquiry starts a discussion about options, not an approval or a promised outcome.
+
 ## What the best broker looks like for different borrowers
 
 ### For investors
@@ -225,7 +247,7 @@ The best broker is often the one who can explain debt layering, timing pressure,
 
 The best broker usually understands owner-occupied property, company structure, and how the commercial property supports the operating business.
 
-## Related guides worth reading
+## Related Guides
 
 If your decision is mostly about mortgage structure, [first and second mortgages for business](/resources/guides/second-mortgages-for-business-guide) gives a practical view of how priority and leverage affect lender fit.
 
@@ -267,4 +289,4 @@ It is the one who understands your transaction, knows which lenders actually fit
 
 If a broker can explain the problem clearly, identify the right lender lane, and manage the file properly, that is usually a much better sign than polished marketing or quick headline claims.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. It does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.
