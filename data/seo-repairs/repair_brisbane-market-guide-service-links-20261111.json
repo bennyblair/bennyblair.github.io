@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_brisbane-market-guide-service-links-20261111",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "e1e2d90123d39ff3e9804bc68f797428956577ea",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/commercial-property-loans-brisbane-queensland-market-guide.md",
+      "pageId": "pg_1e8ce7854bee40e096c40e13637a7fb8",
+      "path": "/resources/guides/commercial-property-loans-brisbane-queensland-market-guide",
+      "beforeSha256": "3b6fdb105b706527079dd78150563092c6ec37e4ba9363d203791af7060fdf97",
+      "afterSha256": "71b0f72bfa8ee9379742e1d57769c808cb131c1a09bbb399a37a8ca638f73729",
+      "reason": "Existing-page improvement of the Brisbane / Queensland commercial property loans city guide. Add one contextual body link to /services/bridging-finance and one to /services/private-lending from sentences that already discuss those options. Keep the existing body link to /services/commercial-property-finance, the national complete-guide mention, title, H1, slug, canonical path, and Daniel author / author_* fields. Replace the closer that said Emet Capital provides commercial lending solutions with broker-accurate wording. Publication-contract fields required by qa:content for this material change: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source. Related In-Depth Guides is an H2 so the template still owns the only H1. Two Related Guides list items were removed so /services/refinancing-solutions and the valuation guide each appear at most twice. Independent review PENDING. Do not treat this record as a completed review, score, or professional approval. Draft only. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is origin/main e1e2d90123d39ff3e9804bc68f797428956577ea.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-6d4e48fa-5c84-5d7d-b6cb-4432e8595bcf"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "It does not lend, fund or approve loans"
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "71b0f72bfa8ee9379742e1d57769c808cb131c1a09bbb399a37a8ca638f73729",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": null,
+        "blockingFindings": [],
+        "completePageChecked": false,
+        "limitations": [
+          "Writer-stage package only. Independent Grok 4.7 review has not run on this head. Review attestations are PENDING and must not be treated as a PASS, score, or professional financial approval.",
+          "humanReviewRequired is not claimed. contentRisk is recorded as medium to match the trusted registry. Author Daniel, author_* fields, slug, title and date 2026-04-23 stay. No owner approval is invented."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": false,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
