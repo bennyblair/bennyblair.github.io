@@ -5,7 +5,7 @@
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d",
+  "baseSha": "8689a0e2470ed94713f44b9e6d51a2eb2c9e8a54",
   "editor": "Cursor cloud agent editor",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
@@ -23,7 +23,7 @@
       "path": "/resources/guides/smsf-loans-for-commercial-property",
       "beforeSha256": "a0a2cb24b90957a0f2f9cc38c8f9fb3010f091a06f7d6e59fa8262849ce3a63b",
       "afterSha256": "abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e",
-      "reason": "Expiry review keep/refresh of the SMSF commercial-property loan guide after independent Grok 4.7 re-review PASS 91 at git 239911ddefe6f8d8979d4acff8730bd037eaaf77 / pre-metadata sha256 c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86. This metadata commit changes only reviewedBy, reviewedAt and expiresAt, and removes reviewed_date, on that file and completes this manifest. Resulting guide sha256 abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e. Keep slug, canonical, H1, author Ben, author_* fields, publication date 2025-09-26T06:00:00Z, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, rate or time-promise claims. baseSha is current origin/main 6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
+      "reason": "Expiry review keep/refresh of the SMSF commercial-property loan guide after independent Grok 4.7 re-review PASS 91 at git 239911ddefe6f8d8979d4acff8730bd037eaaf77 / pre-metadata sha256 c06a46a295c08a8517c9436314f2b7260cc34d519afcecb1e2d4d85b67f9df86. This metadata commit changes only reviewedBy, reviewedAt and expiresAt, and removes reviewed_date, on that file and completes this manifest. Resulting guide sha256 abe0fefaf9413e2ba753457f86730015ab9627850dd141dc00feeea94245c60e. Keep slug, canonical, H1, author Ben, author_* fields, publication date 2025-09-26T06:00:00Z, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, rate or time-promise claims. baseSha is current origin/main 8689a0e2470ed94713f44b9e6d51a2eb2c9e8a54. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-2c07a44a-4d34-5e0b-889d-8320d319c505"
