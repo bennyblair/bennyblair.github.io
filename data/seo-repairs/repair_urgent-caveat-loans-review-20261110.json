@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_urgent-caveat-loans-review-20261110",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d",
+  "editor": "Cursor cloud agent editor",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-09T20:53:01.459Z",
+    "score": 92,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/urgent-caveat-loans.md:73",
+        "finding": "The NSW LRS compensation sentence omits the pecuniary-loss limit. Not a blocker."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/urgent-caveat-loans.md:124",
+        "finding": "Pre-existing hedged sentence that some lenders have rapid assessment pathways. No numeric timeframe. Not mapped to NSW LRS or ASIC."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/urgent-caveat-loans.md:7",
+        "finding": "Keywords still include fast caveat finance and emergency business funding. The body says urgent is not a time promise."
+      },
+      {
+        "severity": "low",
+        "location": "rendered chrome outside the guide",
+        "finding": "GuideArticle still emits Sydney geo tags and the footer still mentions Sydney. The article body has no city section. The hero alt names Sydney because that is the photograph's documented location."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/urgent-caveat-loans.md",
+      "pageId": "pg_484f4bf45a8d42c89164ae676e2e9843",
+      "path": "/resources/guides/urgent-caveat-loans",
+      "beforeSha256": "00c13bc8978b70c4cb54026c2999e0124a35630e5f379c2dbb5d6cf4ec3efd6a",
+      "afterSha256": "3c3f8b6bc1752ca20433af3bb30a9305a2cd3a08141f69ca2e2a9e4442ffd753",
+      "reason": "Expiry review keep/refresh of the national urgent caveat loan readiness guide after independent Grok 4.7 re-review PASS 92 at git 343aa4865ee8ef69a2c34d718b8bc3fdadc1d35e / pre-metadata sha256 55c76bfd78913cc7e12445acdb3e8adbf8f5ca8597a48c6171231a9e00f13420. This metadata commit changes only reviewedBy, reviewedAt and expiresAt on that file and adds this manifest. Resulting guide sha256 3c3f8b6bc1752ca20433af3bb30a9305a2cd3a08141f69ca2e2a9e4442ffd753. Keep slug, canonical, H1, author Ben, publication date 2025-10-10, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, rate or time-promise claims. baseSha is current origin/main 6feb02906e2cb1de0bd0e7f83b8c800e3343ef9d. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-d96ef224-d203-50c7-8c88-e9e6749aa5d6"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-b21c5e10-783e-552f-a027-83ca3e34dca6"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-077900ff-3512-5e19-9582-46454a0ade26"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "It is not a promise that no valuation will be required"
+        },
+        {
+          "kind": "text-removed",
+          "value": "can assess whether a scenario is ready to approach lenders"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial-rereview",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-09T20:53:01.459Z",
+        "reviewedSourceSha256": "3c3f8b6bc1752ca20433af3bb30a9305a2cd3a08141f69ca2e2a9e4442ffd753",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 90,
+          "specificity": 90,
+          "evidence": 91,
+          "readability": 93,
+          "repetition": 92,
+          "compliance": 94,
+          "aiAnswerUsefulness": 93
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat",
+            "checkedAt": "2026-11-09T20:51:59.759Z",
+            "status": 200
+          },
+          {
+            "url": "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/",
+            "checkedAt": "2026-11-09T20:51:59.759Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "a form of statutory injunction under the Real Property Act 1900 recording a claim to an estate or interest in land",
+            "sources": [
+              "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+            ]
+          },
+          {
+            "claim": "A caveat prevents the registration of dealings and/or plans except for certain statutory exceptions and any specifically permitted dealings.",
+            "sources": [
+              "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+            ]
+          },
+          {
+            "claim": "it is not required to be satisfied that the caveator is entitled to the estate or interest claimed",
+            "sources": [
+              "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+            ]
+          },
+          {
+            "claim": "if a caveat is lodged without reasonable cause the caveator may be liable to pay compensation",
+            "sources": [
+              "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+            ]
+          },
+          {
+            "claim": "the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan",
+            "sources": [
+              "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans/"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source re-review of the urgent caveat loans guide, not human or professional financial approval. Independent re-review PASS 92 observed 2026-11-09T20:53:01.459Z at https://cursor.com/agents/bc-d96ef224-d203-50c7-8c88-e9e6749aa5d6 against git 343aa4865ee8ef69a2c34d718b8bc3fdadc1d35e / sha256 55c76bfd78913cc7e12445acdb3e8adbf8f5ca8597a48c6171231a9e00f13420. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 3c3f8b6bc1752ca20433af3bb30a9305a2cd3a08141f69ca2e2a9e4442ffd753. Writer https://cursor.com/agents/bc-b21c5e10-783e-552f-a027-83ca3e34dca6. Image revision https://cursor.com/agents/bc-077900ff-3512-5e19-9582-46454a0ade26.",
+          "humanReviewRequired stays true and is not a claim that a human review occurred. contentRisk stays high. Author Ben and date 2025-10-10 stay. No Ben or owner approval is invented.",
+          "NSW LRS What is a caveat? returned HTTP 200 (307569 bytes) to Node fetch with no custom User-Agent at 2026-11-09T20:51:59.759Z. ASIC INFO 207 returned HTTP 200 (76012 bytes) after redirect to https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans. Curl without a browser User-Agent and WebFetch 404s for NSW LRS remain true for those clients and are not recorded as 200.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund, approve or control settlement timing. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewedBy: OpenClaw SEO content audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-09T20:53:01.459Z; expiresAt: 2027-02-07T20:53:01.459Z",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence. All other guide bytes stay identical to the PASS 92 re-review."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-02-07T20:53:01.459Z",
+          "independentReviewRun": "https://cursor.com/agents/bc-d96ef224-d203-50c7-8c88-e9e6749aa5d6",
+          "reviewedRevision": "343aa4865ee8ef69a2c34d718b8bc3fdadc1d35e",
+          "reviewedPreMetadataSha256": "55c76bfd78913cc7e12445acdb3e8adbf8f5ca8597a48c6171231a9e00f13420",
+          "reviewedSourceSha256": "3c3f8b6bc1752ca20433af3bb30a9305a2cd3a08141f69ca2e2a9e4442ffd753"
+        },
+        "priorIndependentReview": {
+          "headSha": "5aa68419482b1bb4c3f170d1f35390f54052427c",
+          "sourceSha256": "0d61dd574173c2d2b64159aaeccfe8ed919a6db12e2b3f54320b3440869cb491",
+          "run": "https://cursor.com/agents/bc-d96ef224-d203-50c7-8c88-e9e6749aa5d6",
+          "contentVerdict": "REVISE",
+          "score": 88,
+          "releaseEligibility": "NOT_ELIGIBLE",
+          "coversResultingFile": false
+        }
+      }
+    }
+  ]
+}
