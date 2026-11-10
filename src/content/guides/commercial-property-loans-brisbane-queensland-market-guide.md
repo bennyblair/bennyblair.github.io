@@ -10,7 +10,6 @@ keywords:
   - "brisbane commercial property loans"
 readTime: "11 min read"
 author: "Daniel"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,6 +21,9 @@ primaryQuery: "commercial property loan brisbane"
 searchIntent: "informational"
 designatedServicePage: "/services/commercial-property-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-10T20:30:00.000Z"
+expiresAt: "2027-05-09T20:30:00.000Z"
 featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
 featuredImageAlt: "Glass-fronted multi-storey commercial building with street trees and parked cars; representative property photograph."
 sources:
