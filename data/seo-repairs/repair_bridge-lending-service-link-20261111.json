@@ -8,11 +8,21 @@
   "baseSha": "e1e2d90123d39ff3e9804bc68f797428956577ea",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
-    "reviewer": "PENDING independent reviewer",
-    "reviewedAt": "PENDING",
-    "score": null,
-    "blockingFindings": [
-      "Independent review not yet completed at this writer revision"
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-10T20:30:52Z",
+    "score": 90,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "Practical Summary and business.gov.au Shop around",
+        "finding": "business.gov.au encodes the shop-around apostrophe as &rsquo;. The guide uses a straight apostrophe in It's. The words match, and the sentence is under 4. Shop around. The broker paragraph and the bridge-lending explanation are not attributed to that page."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/bridge-lending-australia-commercial-property.md",
+        "finding": "Article QA warns of 26 internal links. Main already had 26. This commit removes the third commercial-property-loans link and adds one bridging-finance link. Paragraph similarity is 0.128."
+      }
     ]
   },
   "kind": "substantive",
@@ -23,7 +33,7 @@
       "pageId": "pg_7b5692548a4c47e0b65af3f805ea77db",
       "path": "/resources/guides/bridge-lending-australia-commercial-property",
       "beforeSha256": "0b6d4282ebf71d99719359a9b55857d701823f8c5350027c6132eee49491bb04",
-      "afterSha256": "43d7e522a5c9e9281e0d39e92684352599a71e47b58c9637d8594a4c99ab9b27",
+      "afterSha256": "3e725bda29c46a8c64c5f49fc2c29eb8e34ea57ce90886f579b9d6362db35f30",
       "reason": "Existing-page improvement of the commercial bridge-lending explainer. Add one contextual body link to /services/bridging-finance with the descriptive anchor commercial bridging finance arranged through a broker. Add a short working-with-a-broker paragraph: Emet Capital gathers the transaction facts, the security and the documented exit, compares suitable lenders, and presents terms for the borrower to decide, with no approval, speed or outcome promise. Replace the closer line that said Emet Capital provides commercial lending solutions with broker-accurate wording that Emet Capital is a commercial finance broker, does not lend or fund loans, and helps eligible business borrowers compare options from lenders. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the existing title/keyword, searchIntent informational, designatedServicePage /services/bridging-finance, contentRisk medium matching the registry, the existing 1200x630 JPEG, and one business.gov.au source used for the shop-around sentence. Related In-Depth Guides is an H2 so the template owns the only H1. The related-list copy of commercial-property-loans-australia-complete-guide is removed so that URL appears twice. Keep title, slug, description, keywords, author Ben, and author_* fields, including the existing 10 years bio wording. Keep the existing /services/refinancing-solutions link. Independent review is PENDING at this writer revision. No rates, volumes, licence, membership, consumer-loan, or invented transaction results were added. Draft only. No human or professional approval.",
       "evidence": [
         {
@@ -64,39 +74,65 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "PENDING",
-        "outcome": "PENDING",
-        "reviewer": "PENDING independent reviewer",
-        "reviewedAt": "PENDING",
-        "reviewedSourceSha256": "PENDING",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:30:52Z",
+        "reviewedSourceSha256": "3e725bda29c46a8c64c5f49fc2c29eb8e34ea57ce90886f579b9d6362db35f30",
+        "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "blockingFindings": [
-          "Independent review not yet completed at this writer revision"
-        ],
-        "completePageChecked": false,
-        "claimCoverage": "PENDING",
+        "score": 90,
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 86,
+          "specificity": 88,
+          "evidence": 90,
+          "readability": 91,
+          "repetition": 86,
+          "compliance": 95,
+          "aiAnswerUsefulness": 91
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
         "unmappedFactualClaims": [],
-        "sources": [],
-        "sourceClaimMap": [],
-        "limitations": [
-          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
-          "Guide sha256 at this writer revision is 43d7e522a5c9e9281e0d39e92684352599a71e47b58c9637d8594a4c99ab9b27. beforeSha256 is 0b6d4282ebf71d99719359a9b55857d701823f8c5350027c6132eee49491bb04 at main e1e2d90123d39ff3e9804bc68f797428956577ea.",
-          "business.gov.au Apply for a business loan returned HTTP 200 to Node fetch from this writer box. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
-          "ASIC INFO 207 disputes-about-commercial-loans returned HTTP 200 to Node fetch from this writer box and is not a declared source.",
-          "Author Ben, author_* fields, slug, title, description and keywords are unchanged. reviewedBy, reviewedAt and expiresAt are not set; independent review metadata remains PENDING.",
-          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund loans, or approve credit."
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-10T20:30:52Z",
+            "status": 200
+          }
         ],
-        "scopeVerification": {
-          "canonicalWebsiteTouched": false,
-          "urlAndCanonicalUnchanged": true,
-          "contentRiskUnchanged": true,
-          "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
-          "metadataChecked": true,
-          "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false
-        }
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders.",
+            "reason": "The closer described Emet Capital as providing lending solutions. The replacement states that Emet Capital is a commercial finance broker and does not lend or fund loans."
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review by grok-4.7, not human or professional financial approval. The writer was grok-4.6. The reviewer field remains the trusted identity OpenClaw independent reviewer.",
+          "Reviewed prose head is c9acb2e00b4170695459c3bda1ed80c7f9292574. Prose sha256 is 43d7e522a5c9e9281e0d39e92684352599a71e47b58c9637d8594a4c99ab9b27. reviewedSourceSha256 3e725bda29c46a8c64c5f49fc2c29eb8e34ea57ce90886f579b9d6362db35f30 is that file plus removal of reviewed_date and insertion of reviewedBy, reviewedAt 2026-11-10T20:30:52Z and expiresAt 2027-05-09T20:30:52Z immediately after contentRisk. expiresAt is the registry 180-day cadence for this medium-risk page.",
+          "business.gov.au Apply for a business loan returned HTTP 200 at 2026-11-10T20:23:07Z. The mapped sentence appears under 4. Shop around. The guide uses a straight apostrophe. The source HTML uses It&rsquo;s. The claim string omits a trailing period because the guide continues with a semicolon.",
+          "Author Ben and author_* fields, including the existing 10 years' experience sentence, stay unchanged. Slug, title, description, keywords, date and contentRisk stay unchanged.",
+          "No rate, fee, LVR, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan claim was added. Emet Capital is described as a commercial finance broker that does not lend, fund loans, or approve credit.",
+          "The featured image is the existing 1200x630 JPEG. The alt describes the glass office and street trees and does not name a suburb."
+        ]
       }
     }
   ]
