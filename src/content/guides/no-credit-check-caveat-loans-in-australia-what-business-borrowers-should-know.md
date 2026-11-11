@@ -11,7 +11,6 @@ keywords:
   - "property secured business loans"
 readTime: "9 min read"
 author: "Daniel"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,11 +21,11 @@ searchIntent: "urgent commercial investigation"
 intentCluster: "caveat-loan-risk"
 designatedServicePage: "/services/caveat-loans"
 contentRisk: "high"
-reviewedBy: "OpenClaw SEO source audit"
-reviewedAt: "2026-08-05"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-11T20:34:46.601Z"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2026-11-05"
+expiresAt: "2027-02-09T20:34:46.601Z"
 sources:
   - label: "ASIC - Professional registers search"
     url: "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"

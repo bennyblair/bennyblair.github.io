@@ -6,14 +6,39 @@
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
   "baseSha": "77a71c2f0695e7c2539e8d9579670f841855c323",
-  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "editor": "Cursor cloud agent editor",
   "review": {
-    "reviewer": "pending independent review",
-    "score": 0,
-    "blockingFindings": [
-      "Independent whole-page general-information review of the exact resulting file is pending. The writer has not claimed PASS."
-    ],
-    "findings": []
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-11T20:34:46.601Z",
+    "score": 91,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.md:94",
+        "finding": "The INFO 126 sentence states one of four 'no effect' conditions and omits the ban, prescribed order, and 10-year serious-fraud conviction. The stated condition is true."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.md:94",
+        "finding": "The commercial-versus-consumer sentence is the guide's hedge. INFO 126 does not state it. It is not presented as a quotation."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.md:74",
+        "finding": "The two NSW LRS sentences are verbatim. The page stops before the eligible-interest and pecuniary-loss compensation sentences."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.md:62",
+        "finding": "The at-a-glance row names private lending without a link. The second-mortgage guide is linked later."
+      },
+      {
+        "severity": "low",
+        "location": "rendered chrome outside the guide",
+        "finding": "GuideArticle still emits Sydney geo tags. The footer still says Sydney, Australia, and Specialised commercial lending solutions. The article closer describes a commercial finance broker. The hero alt names Sydney because that is the photograph's location."
+      }
+    ]
   },
   "kind": "substantive",
   "reviewMode": "general-information-v1",
@@ -23,11 +48,17 @@
       "pageId": "pg_eb501e4e4c504e6db7fa4425940c4841",
       "path": "/resources/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know",
       "beforeSha256": "859f0ed044c8579f64605ef5749ff6df5c3bc7b975e25cc71c3a4eaaefa306f6",
-      "afterSha256": "090ecc28dae704a0049b9a049d51389f214d5a1d2f60cbbe5634e32b8a4b60d6",
-      "reason": "Expiry review keep/refresh of the no-credit-check caveat risk-education guide. Keep slug, canonical path, H1 title, author Daniel, author_* fields, publication date 2026-05-10, primaryQuery, searchIntent, intentCluster, designatedServicePage /services/caveat-loans, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Leave reviewedBy, reviewedAt, expiresAt and reviewed_date unchanged pending independent review. Explain that no credit check is a marketing phrase, not a promise that nothing is assessed; lenders may still assess security, title, existing encumbrances, the borrower and the exit, and may still use credit information. Add one descriptive body link to /services/caveat-loans. Replace the closer that said Emet Capital provides commercial lending solutions with broker-accurate wording. Re-fetched ASIC professional registers search (HTTP 200) and ASIC credit representatives (HTTP 200). Added NSW LRS What is a caveat? after a live Node fetch returned HTTP 200. Emet Capital is a commercial finance broker, not a lender, and does not arrange consumer or personal-use caveat loans. No directory or broker-finder retitle. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is current origin/main 77a71c2f0695e7c2539e8d9579670f841855c323. Draft only. Writer has not claimed PASS.",
+      "afterSha256": "b6542c5b3e460520491da9a54457f83264d645a9ffa7c5bf1e4705e5296c5c3c",
+      "reason": "Expiry review keep/refresh of the no-credit-check caveat risk-education guide after independent Grok 4.7 re-review PASS 91 at git 21c5d66fb8d1a8b068509ceacd22bd2c37c27670 / pre-metadata sha256 090ecc28dae704a0049b9a049d51389f214d5a1d2f60cbbe5634e32b8a4b60d6. This metadata commit changes only reviewedBy, reviewedAt and expiresAt, and removes reviewed_date, on that file and completes this manifest. Resulting guide sha256 b6542c5b3e460520491da9a54457f83264d645a9ffa7c5bf1e4705e5296c5c3c. Keep slug, canonical path, H1 title, author Daniel, author_* fields, publication date 2026-05-10, primaryQuery, searchIntent, intentCluster, designatedServicePage /services/caveat-loans, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, rate or time-promise claims. baseSha is current origin/main 77a71c2f0695e7c2539e8d9579670f841855c323. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
       "evidence": [
         {
+          "reference": "https://cursor.com/agents/bc-03b8e1ac-bbee-58f7-933e-fb26b3f5bb52"
+        },
+        {
           "reference": "https://cursor.com/agents/bc-f230b1b7-a4af-5451-b792-a3b7e159b295"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-83941d22-dc10-5d0a-9d3f-1dfd7b41a01a"
         }
       ],
       "verification": [
@@ -56,40 +87,49 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "pending_independent_review",
-        "outcome": "PENDING",
-        "reviewer": "pending independent review",
-        "reviewedSourceSha256": "090ecc28dae704a0049b9a049d51389f214d5a1d2f60cbbe5634e32b8a4b60d6",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-11T20:34:46.601Z",
+        "reviewedSourceSha256": "b6542c5b3e460520491da9a54457f83264d645a9ffa7c5bf1e4705e5296c5c3c",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "score": 0,
-        "blockingFindings": [
-          "Independent whole-page general-information review of the exact resulting file is pending. The writer has not claimed PASS."
-        ],
-        "completePageChecked": false,
+        "score": 91,
+        "dimensions": {
+          "intentCoverage": 93,
+          "informationGain": 90,
+          "specificity": 91,
+          "evidence": 89,
+          "readability": 93,
+          "repetition": 88,
+          "compliance": 95,
+          "aiAnswerUsefulness": 92
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
         "businessPurposeOnly": true,
         "noPersonalAdvice": true,
         "unsupportedClaimsRemoved": true,
         "noFabricatedTransactionOrReview": true,
         "noUnsupportedRatesSpeedOrEligibilityPromise": true,
         "noLegalOrTaxConclusion": true,
-        "claimCoverage": "pending",
+        "claimCoverage": "complete",
         "unmappedFactualClaims": [],
         "sources": [
           {
             "url": "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/",
-            "checkedAt": "2026-11-11T20:10:44.767Z",
+            "checkedAt": "2026-11-11T20:34:46.602Z",
             "status": 200
           },
           {
             "url": "https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/",
-            "checkedAt": "2026-11-11T20:10:44.767Z",
+            "checkedAt": "2026-11-11T20:34:46.602Z",
             "status": 200
           },
           {
             "url": "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat",
-            "checkedAt": "2026-11-11T20:10:44.767Z",
+            "checkedAt": "2026-11-11T20:34:46.602Z",
             "status": 200
           }
         ],
@@ -108,6 +148,18 @@
           },
           {
             "claim": "You can search by individual or company name, registration or licence number, ACN or ABN.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "Before you choose a professional, you may want to check the professional is registered or licensed and the services they are licensed to provide.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "Those registers include credit licensees and credit representatives.",
             "sources": [
               "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
             ]
@@ -132,21 +184,39 @@
           }
         ],
         "limitations": [
-          "Writer-stage package only. Independent Grok 4.7 review has not run on this head. Review attestations are PENDING and must not be treated as a PASS, score, or professional financial approval.",
-          "humanReviewRequired stays true and is not a claim that a human review occurred. contentRisk stays high. Author Daniel, author_* fields, slug, title and date 2026-05-10 stay. reviewedBy, reviewedAt, expiresAt and reviewed_date are left unchanged pending independent review. No owner approval is invented.",
-          "ASIC professional registers search returned HTTP 200 (77198 bytes after redirect to the no-trailing-slash URL) to Node fetch with no custom User-Agent at 2026-11-11T20:10:44.767Z. ASIC credit representatives returned HTTP 200 (83678 bytes after redirect). NSW LRS What is a caveat? returned HTTP 200 (307569 bytes) to Node fetch. WebFetch 404 for NSW LRS remains true for that client and is not recorded as 200.",
+          "Automated independent editorial review of the no-credit-check caveat guide, not human or professional financial approval. PASS 91 at 2026-11-11T20:34:46.601Z against git 21c5d66fb8d1a8b068509ceacd22bd2c37c27670 and pre-metadata sha256 090ecc28dae704a0049b9a049d51389f214d5a1d2f60cbbe5634e32b8a4b60d6. The metadata edit specified above produces sha256 b6542c5b3e460520491da9a54457f83264d645a9ffa7c5bf1e4705e5296c5c3c. Recompute afterSha256 and reviewedSourceSha256 if any byte differs.",
+          "humanReviewRequired stays true and is not a claim that a human review occurred. contentRisk stays high. Author Daniel, author_* fields, slug, title and date 2026-05-10 stay. reviewStatus stays automated-editorial-review. Delete reviewed_date. Do not add reviewedDate.",
+          "ASIC professional registers search returned HTTP 200 (77198 bytes after redirect to the no-trailing-slash URL) to Node fetch with no custom User-Agent at 2026-11-11T20:34:46.602Z. ASIC credit representatives returned HTTP 200 (83678 bytes after redirect). NSW LRS What is a caveat? returned HTTP 200 (307569 bytes) to Node fetch. WebFetch 404 for NSW LRS remains true for that client and is not recorded as 200.",
           "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence number, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans and does not arrange consumer or personal-use caveat loans. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewedBy: OpenClaw SEO source audit; reviewedAt: 2026-08-05; expiresAt: 2026-11-05; reviewed_date: 2026-05-15",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-11T20:34:46.601Z; expiresAt: 2027-02-09T20:34:46.601Z; reviewed_date removed",
+            "reason": "Canonical independent-review metadata on the registered 90-day high-risk cadence. reviewStatus stays automated-editorial-review and humanReviewRequired stays true."
+          }
         ],
         "scopeVerification": {
           "canonicalWebsiteTouched": true,
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false,
-          "resultingFileIndependentlyReviewed": false
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "kind": "general-information-review-metadata-supersession-v1",
+          "contentRiskLowered": false,
+          "humanReviewClaimed": false,
+          "professionalFinancialReviewClaimed": false,
+          "reviewEveryDays": 90,
+          "reviewExpiresAt": "2027-02-09T20:34:46.601Z",
+          "reviewedRevision": "21c5d66fb8d1a8b068509ceacd22bd2c37c27670",
+          "reviewedPreMetadataSha256": "090ecc28dae704a0049b9a049d51389f214d5a1d2f60cbbe5634e32b8a4b60d6",
+          "reviewedSourceSha256": "b6542c5b3e460520491da9a54457f83264d645a9ffa7c5bf1e4705e5296c5c3c"
         }
       }
     }
