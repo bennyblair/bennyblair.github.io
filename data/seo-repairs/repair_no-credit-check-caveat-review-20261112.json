@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_no-credit-check-caveat-review-20261112",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "77a71c2f0695e7c2539e8d9579670f841855c323",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "pending independent review",
+    "score": 0,
+    "blockingFindings": [
+      "Independent whole-page general-information review of the exact resulting file is pending. The writer has not claimed PASS."
+    ],
+    "findings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know.md",
+      "pageId": "pg_eb501e4e4c504e6db7fa4425940c4841",
+      "path": "/resources/guides/no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know",
+      "beforeSha256": "859f0ed044c8579f64605ef5749ff6df5c3bc7b975e25cc71c3a4eaaefa306f6",
+      "afterSha256": "090ecc28dae704a0049b9a049d51389f214d5a1d2f60cbbe5634e32b8a4b60d6",
+      "reason": "Expiry review keep/refresh of the no-credit-check caveat risk-education guide. Keep slug, canonical path, H1 title, author Daniel, author_* fields, publication date 2026-05-10, primaryQuery, searchIntent, intentCluster, designatedServicePage /services/caveat-loans, contentRisk high, reviewStatus automated-editorial-review, and humanReviewRequired true. Leave reviewedBy, reviewedAt, expiresAt and reviewed_date unchanged pending independent review. Explain that no credit check is a marketing phrase, not a promise that nothing is assessed; lenders may still assess security, title, existing encumbrances, the borrower and the exit, and may still use credit information. Add one descriptive body link to /services/caveat-loans. Replace the closer that said Emet Capital provides commercial lending solutions with broker-accurate wording. Re-fetched ASIC professional registers search (HTTP 200) and ASIC credit representatives (HTTP 200). Added NSW LRS What is a caveat? after a live Node fetch returned HTTP 200. Emet Capital is a commercial finance broker, not a lender, and does not arrange consumer or personal-use caveat loans. No directory or broker-finder retitle. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is current origin/main 77a71c2f0695e7c2539e8d9579670f841855c323. Draft only. Writer has not claimed PASS.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-f230b1b7-a4af-5451-b792-a3b7e159b295"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "\"no credit check\" is a marketing phrase, not a promise that nothing is assessed."
+        },
+        {
+          "kind": "text-added",
+          "value": "A valuation may still be required."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/caveat-loans"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "pending_independent_review",
+        "outcome": "PENDING",
+        "reviewer": "pending independent review",
+        "reviewedSourceSha256": "090ecc28dae704a0049b9a049d51389f214d5a1d2f60cbbe5634e32b8a4b60d6",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 0,
+        "blockingFindings": [
+          "Independent whole-page general-information review of the exact resulting file is pending. The writer has not claimed PASS."
+        ],
+        "completePageChecked": false,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "pending",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/",
+            "checkedAt": "2026-11-11T20:10:44.767Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/",
+            "checkedAt": "2026-11-11T20:10:44.767Z",
+            "status": 200
+          },
+          {
+            "url": "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat",
+            "checkedAt": "2026-11-11T20:10:44.767Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "ASIC's professional registers search allows you to search several registers at once.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "You can search the professional registers to find out about a person or an organisation registered or licensed with ASIC to provide a service.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "You can search by individual or company name, registration or licence number, ACN or ABN.",
+            "sources": [
+              "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+            ]
+          },
+          {
+            "claim": "The authorisation of a credit representative is of no effect if the authorisation to engage in credit activities is not covered by the licensee's licence.",
+            "sources": [
+              "https://www.asic.gov.au/for-finance-professionals/credit-licensees/credit-representatives/"
+            ]
+          },
+          {
+            "claim": "A caveat is a form of statutory injunction provided for under the Real Property Act 1900 recording a claim to an estate or interest in land.",
+            "sources": [
+              "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+            ]
+          },
+          {
+            "claim": "A caveat prevents the registration of dealings and/or plans (except for certain statutory exceptions and any specifically permitted dealings).",
+            "sources": [
+              "https://rg-guidelines.nswlrs.com.au/land_dealings/land_title_questions/what-is-a-caveat"
+            ]
+          }
+        ],
+        "limitations": [
+          "Writer-stage package only. Independent Grok 4.7 review has not run on this head. Review attestations are PENDING and must not be treated as a PASS, score, or professional financial approval.",
+          "humanReviewRequired stays true and is not a claim that a human review occurred. contentRisk stays high. Author Daniel, author_* fields, slug, title and date 2026-05-10 stay. reviewedBy, reviewedAt, expiresAt and reviewed_date are left unchanged pending independent review. No owner approval is invented.",
+          "ASIC professional registers search returned HTTP 200 (77198 bytes after redirect to the no-trailing-slash URL) to Node fetch with no custom User-Agent at 2026-11-11T20:10:44.767Z. ASIC credit representatives returned HTTP 200 (83678 bytes after redirect). NSW LRS What is a caveat? returned HTTP 200 (307569 bytes) to Node fetch. WebFetch 404 for NSW LRS remains true for that client and is not recorded as 200.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence number, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans and does not arrange consumer or personal-use caveat loans. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
