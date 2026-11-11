@@ -25,9 +25,15 @@ designatedServicePage: "/services/business-acquisition"
 contentRisk: "low"
 reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
+metaTitle: "Rent Roll Finance Australia: Acquisition Guide"
+metaDescription: "Learn how lenders assess rent roll acquisitions, recurring management income, valuation, security, buyer contribution and transfer risk in Australia."
+featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
+featuredImageAlt: "Glass-fronted multi-storey commercial building with street trees and parked cars; representative property photograph."
 sources:
   - label: "business.gov.au — Buy an existing business"
     url: "https://business.gov.au/planning/new-businesses/buy-an-existing-business"
+  - label: "business.gov.au: Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 Rent roll finance in Australia is business-purpose funding used to buy, expand, or refinance a real estate agency's property management portfolio. The core asset is the recurring management income attached to landlord relationships, so lenders focus on retention quality, management fee income, portfolio spread, purchase terms, borrower experience, and the security available behind the transaction.
@@ -36,7 +42,7 @@ For Emet Capital, the practical question is not simply whether a rent roll has v
 
 This guide explains how rent roll acquisition finance works, what lenders assess, when property-backed or private lending may be relevant, and what buyers should prepare before approaching lenders.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[Business Acquisition Finance in Australia](/resources/guides/business-acquisition-finance-australia)** — the broader framework for funding business purchases, goodwill, and settlement structures.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — how private and non-bank lenders assess speed, security, and exit strategy.
@@ -114,7 +120,7 @@ Private lenders may consider a shorter-term facility where a bank needs more tim
 
 Bank finance may suit established agency owners with strong financials, industry experience, sensible leverage, and a straightforward purchase. Banks usually want detailed financial statements, purchase contracts, management income evidence, borrower contribution, and comfort that the post-acquisition business can service the debt.
 
-Private lending may be relevant when the deal is time-sensitive, the borrower has property security, the acquisition structure is unusual, or the bank process will not meet settlement. It can also help where the buyer plans to refinance after integration, once the acquired income is visible in the business accounts.
+[Commercial private lending arranged through a broker](/services/private-lending) may be relevant when the deal is time-sensitive, the borrower has property security, the acquisition structure is unusual, or the bank process will not meet settlement. It can also help where the buyer plans to refinance after integration, once the acquired income is visible in the business accounts.
 
 The right path depends on the transaction, not the label. Emet Capital often compares [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) by looking at timing, security, cost, lender appetite, and exit certainty.
 
@@ -166,7 +172,6 @@ The biggest risk is that landlords leave after settlement and the income used to
 
 ## Related Guides
 
-- **[Business Acquisition Finance in Australia](/resources/guides/business-acquisition-finance-australia)** — structure funding for business purchases and goodwill-heavy acquisitions.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — options when refinance is part of the exit strategy.
 - **[Invoice Finance in Australia](/resources/guides/invoice-finance-australia-complete-guide)** — cash-flow funding context for businesses with receivables.
 - **[Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)** — useful when the acquisition includes vehicles, fitout, or operational equipment.
@@ -176,4 +181,4 @@ The biggest risk is that landlords leave after settlement and the income used to
 
 - [Franchise acquisition finance](/resources/guides/franchise-acquisition-finance-in-australia-buying-an-existing-franchise-business)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. It's a good idea to compare loan products from multiple lenders before applying. Please consult a licensed financial adviser before making any financial decisions.
