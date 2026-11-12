@@ -11,7 +11,6 @@ keywords:
   - "property secured business finance"
 readTime: "9 min read"
 author: "Ben"
-reviewed_date: "2026-06-17"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -23,6 +22,9 @@ primaryQuery: "private mortgage lending"
 searchIntent: "informational"
 designatedServicePage: "/services/private-lending"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-12T20:32:39.951Z"
+expiresAt: "2027-05-11T20:32:39.951Z"
 featuredImage: "/images/uploads/what-is-private-lending-australia.jpg"
 featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
 sources:
