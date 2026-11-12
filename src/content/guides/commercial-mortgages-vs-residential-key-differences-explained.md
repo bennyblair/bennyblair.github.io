@@ -37,7 +37,7 @@ featuredImageAlt: "Business borrower comparing commercial property finance optio
 
 Commercial and residential property loans can both involve real estate security, but the property offered does not answer every finance question. For an Australian business borrower, the lender will also consider what the money is for, who is borrowing, how repayments will be made and what happens if the plan changes.
 
-The security property alone does not establish whether a loan is for personal, household, residential-investment or business purposes. [ASIC explains](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) that the laws and borrower protections differ depending on the purpose of the loan. Ask the lender or broker to explain the proposed facility and documented purpose in writing, and ask an independent solicitor to review the documents when needed.
+The security property alone does not establish whether a loan is for personal, household, residential-investment or business purposes. [ASIC explains](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) that the laws and borrower protections differ depending on the purpose of the loan. A commercial loan secured by residential property is still a business-purpose proposal when the funds are for a documented business need. Purpose and assessment decide the path, not the house used as security. Ask the lender or broker to explain the proposed facility and documented purpose in writing, and ask an independent solicitor to review the documents when needed.
 
 For help preparing a business property transaction, see Emet Capital's [commercial property finance service](/services/commercial-property-finance). An enquiry starts a discussion; it is not an approval or a commitment to lend.
 
@@ -49,7 +49,7 @@ Start with these questions:
 2. **Who will borrow and own the property?** Identify the individual, company or trust involved, without assuming a structure is suitable.
 3. **What property will support the request?** Note whether it is residential, commercial, mixed-use, owner-occupied or tenanted.
 4. **What will make the repayments?** Separate business cash flow, rental income and any proposed sale or refinance.
-5. **How will the debt be repaid in full?** For a short-term facility, document the expected repayment event and a contingency.
+5. **How will the debt be repaid in full?** For a short-term facility, document the expected repayment event and a contingency. Where that short-term need is a business-purpose timing gap, the comparison includes [bridging finance arranged through a broker](/services/bridging-finance).
 
 The [Australian Government's business-loan guide](https://business.gov.au/finance/funding/apply-for-a-business-loan) recommends comparing the loan term, interest rate, setup costs, ongoing fees and security, and preparing financial records and forecasts. Using the same written summary for each lender makes the responses easier to compare.
 
@@ -71,6 +71,8 @@ Do not use the label “commercial mortgage” as a shortcut for the final legal
 ## Security property and loan purpose are separate questions
 
 A company may seek business funds and offer a director-owned residential property as security. Another borrower may buy a warehouse that will be leased to a third party. In each case, the lender still needs to understand the purpose, borrower, repayment source and security.
+
+When business funds are secured by a house, the residential title is only the security. Lenders still assess purpose, the borrower, and how repayments will be made. Emet Capital arranges commercial, business-purpose loans only. It does not arrange consumer home loans. If the documented purpose is personal, household, or buying or refinancing a home as a consumer, this is not the Emet Capital pathway. For a business-purpose request, including one secured by residential property, start with [commercial property finance arranged through a broker](/services/commercial-property-finance).
 
 Where personal property supports business debt, the owner should understand the consequences before signing. Property can be at risk if the agreed repayments are not made. Ask for a clear explanation of:
 
@@ -186,4 +188,4 @@ Prepare a one-page transaction summary and the five-folder document pack. Then c
 - [First and second mortgages for business](/services/first-second-mortgages)
 - [Commercial refinancing](/services/refinancing-solutions)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. It arranges commercial-purpose finance and does not lend, fund or approve loans. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

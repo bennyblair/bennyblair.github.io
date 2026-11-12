@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_commercial-vs-residential-service-links-20261112",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "77a71c2f0695e7c2539e8d9579670f841855c323",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-11T20:31:38Z",
+    "outcome": "PASS",
+    "score": 92,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "Lead, purpose versus security",
+        "finding": "\"Purpose and assessment decide the path, not the house used as security.\" ASIC INFO 207 supports the purpose test: \"The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan.\" Assessment is the lender's credit process. The same paragraph tells the reader to get the documented purpose in writing and to ask a solicitor."
+      },
+      {
+        "severity": "low",
+        "location": "Residential home-loan comparison, pre-existing",
+        "finding": "\"Moneysmart points readers to the repayment method and frequency, interest-rate type, rate, fees, features, total amount to be repaid and monthly repayment shown in a Key Facts Sheet.\" The current Moneysmart page says the Key Facts Sheet \"doesn't include every feature or condition.\" This sentence was not changed in this diff."
+      },
+      {
+        "severity": "low",
+        "location": "Residential-security paragraph",
+        "finding": "The new paragraph answers the same opening idea as /resources/guides/business-loans-secured-by-residential-property-in-australia and does not link that guide. It points to /services/commercial-property-finance, which states that residential property may support a business-purpose transaction."
+      },
+      {
+        "severity": "low",
+        "location": "Declared Moneysmart source",
+        "finding": "Node fetch and curl receive HTTP 403 from https://moneysmart.gov.au/home-loans/choosing-a-home-loan. The page content was read through a separate fetch. general-information-v1 live-source validation will fail until the gate fetch returns 2xx."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/commercial-mortgages-vs-residential-key-differences-explained.md",
+      "pageId": "pg_78a23bf2990c4585804587417932a279",
+      "path": "/resources/guides/commercial-mortgages-vs-residential-key-differences-explained",
+      "beforeSha256": "9f629fa3029737d914ad96e0072b91cd0029fda0cb27a315c1624811c58f4a99",
+      "afterSha256": "9f01f770b4dfa07ff359f4cace579382dfc9cf3ccaa7facf95aa3770b35442a0",
+      "reason": "Existing-page improvement of the commercial vs residential comparison (Thursday 12 Nov slot 1; near-ranking comparison intent). Keep title, slug, primaryQuery, designatedServicePage /services/commercial-property-finance, contentRisk medium, expiresAt 2027-04-04T12:06:33Z, reviewedBy, reviewedAt, author Daniel and author_* fields including the existing 10 years bio wording. This is not an expiry review. Answer the commercial-loan-secured-by-residential-property intent in plain language: purpose and assessment matter, and Emet Capital arranges commercial, business-purpose loans only, not consumer home loans. Keep existing /services/commercial-property-finance and /services/first-second-mortgages links and add a second descriptive commercial-property-finance inlink on the residential-security pathway. Add one descriptive contextual link to /services/bridging-finance where the body already discusses short-term facilities. Do not add /services/private-lending; the body does not discuss non-bank options and no new product section was added. Replace the closer 'Emet Capital provides commercial lending solutions to eligible business borrowers' with broker-accurate wording. Independent review is PENDING at this writer revision. Do not treat this record as a completed review, score, or professional approval. Manifest uses metadataReview rather than general-information-v1 so existing medium-risk reviewedBy/reviewedAt/expiresAt stay unchanged and so a Cloudflare 403 on Moneysmart does not block a live official source. Emet Capital is a commercial finance broker, not a lender. No consumer-loan advice, rates, volumes, licence, membership, or invented transaction results. baseSha is current origin/main 77a71c2f0695e7c2539e8d9579670f841855c323. Computed change class expected R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-d40e3b58-0588-5b20-aa8a-2c6b72abe762"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "A commercial loan secured by residential property is still a business-purpose proposal when the funds are for a documented business need."
+        },
+        {
+          "kind": "text-added",
+          "value": "Purpose and assessment decide the path, not the house used as security."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital arranges commercial, business-purpose loans only."
+        },
+        {
+          "kind": "text-added",
+          "value": "It does not arrange consumer home loans."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "It arranges commercial-purpose finance and does not lend, fund or approve loans."
+        },
+        {
+          "kind": "text-added",
+          "value": "bridging finance arranged through a broker"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        }
+      ],
+      "metadataReview": {
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-11T20:31:38Z",
+        "contentRisk": "medium",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "score": 92,
+        "notes": "Independent review of head 474f2156faa21b9f2cc8d91508b16ae5d520273a. Keep existing frontmatter reviewedBy, reviewedAt 2026-10-06T12:06:33Z and expiresAt 2027-04-04T12:06:33Z. Registry reviewEveryDays for medium risk is 180, and the existing expiry already matches that cadence. No human or professional financial approval."
+      },
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-11T20:31:38Z",
+        "reviewedSourceSha256": "9f01f770b4dfa07ff359f4cace579382dfc9cf3ccaa7facf95aa3770b35442a0",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "dimensions": {
+          "intentCoverage": 94,
+          "informationGain": 90,
+          "specificity": 91,
+          "evidence": 90,
+          "readability": 92,
+          "repetition": 88,
+          "compliance": 96,
+          "aiAnswerUsefulness": 92
+        },
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "attachAsReviewMode": false,
+        "attachAsReviewModeReason": "Do not set reviewMode to general-information-v1 on this repair. Frontmatter review metadata must stay unchanged, and the Moneysmart gate fetch is HTTP 403.",
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-11T20:31:38Z",
+            "status": 200,
+            "method": "node-fetch"
+          },
+          {
+            "url": "https://moneysmart.gov.au/home-loans/choosing-a-home-loan",
+            "checkedAt": "2026-11-11T20:31:38Z",
+            "status": 403,
+            "method": "node-fetch",
+            "contentReadBySeparateFetch": true,
+            "contentLastUpdated": "2026-09-16"
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-11T20:31:38Z",
+            "status": 200,
+            "method": "node-fetch"
+          },
+          {
+            "url": "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf",
+            "checkedAt": "2026-11-11T20:31:38Z",
+            "status": 200,
+            "method": "node-fetch"
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "The security property alone does not establish whether a loan is for personal, household, residential-investment or business purposes.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "ASIC explains that the laws and borrower protections differ depending on the purpose of the loan.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "A commercial loan secured by residential property is still a business-purpose proposal when the funds are for a documented business need.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The Australian Government's business-loan guide recommends comparing the loan term, interest rate, setup costs, ongoing fees and security, and preparing financial records and forecasts.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Business cash flow, lease income, financial statements, forecasts and the transaction plan may all need to be documented",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A Key Facts Sheet sets out standard cost and feature information for comparison",
+            "sources": [
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "Interest rate, comparison rate, fees, repayment type, features and loan term can be compared in a standard format",
+            "sources": [
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "Consumer-credit protections may apply to regulated residential lending",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "Property can be at risk if the agreed repayments are not made.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Lenders still assess purpose, the borrower, and how repayments will be made.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "For residential home-loan comparison, Moneysmart points readers to the repayment method and frequency, interest-rate type, rate, fees, features, total amount to be repaid and monthly repayment shown in a Key Facts Sheet.",
+            "sources": [
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "Business.gov.au lists financial reports, cash-flow statements, forecasts, identification, business plans and relevant agreements among the documents a lender may request.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A lower headline rate does not necessarily mean a lower total cost.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+              "https://moneysmart.gov.au/home-loans/choosing-a-home-loan"
+            ]
+          },
+          {
+            "claim": "ASIC's current credit advertising guidance calls for a balanced account of benefits, risks and limitations.",
+            "sources": [
+              "https://download.asic.gov.au/media/cvcjdpy5/rg234-published-09-june-2026.pdf"
+            ]
+          }
+        ],
+        "businessIdentityChecks": [
+          {
+            "claim": "Emet Capital arranges commercial, business-purpose loans only. It does not arrange consumer home loans.",
+            "result": "pass",
+            "basis": "Commercial property service page treats consumer-purpose use as a blocker. No consumer or owner-occupier loan is offered."
+          },
+          {
+            "claim": "Emet Capital is a commercial finance broker, not a lender. It arranges commercial-purpose finance and does not lend, fund or approve loans.",
+            "result": "pass",
+            "basis": "Matches the site disclosure that Emet Capital is a commercial finance broker and does not lend or fund loans."
+          }
+        ]
+      }
+    }
+  ]
+}
