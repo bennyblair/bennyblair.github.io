@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_low-doc-business-finance-service-link-20261113",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "77a71c2f0695e7c2539e8d9579670f841855c323",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/low-doc-business-finance.md",
+      "pageId": "pg_5b505abbf051466b81bd4e44c2f6692f",
+      "path": "/resources/guides/low-doc-business-finance",
+      "beforeSha256": "782d88f376423961468c8cc03ebc66961e07ed70f2cdfeb19762d45a7f787ad7",
+      "afterSha256": "ba24887aae6c53421e0bccda2449ee608075211a30689692237c1849535f073c",
+      "reason": "Existing-page improvement of the low-doc business finance explainer. Keep slug, canonical path, title, description, H1 owner, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-04-11, and reviewed_date 2026-05-15 pending independent review. Add one descriptive contextual body link to /services/private-lending with the anchor private property-secured lending arranged through a broker, in the existing property-backed private-lending sentence. Do not replace the remaining what-is-private-lending-australia guide links wholesale. Replace the closer Emet Capital provides commercial lending solutions to eligible business borrowers with broker-accurate wording. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the existing title, searchIntent informational, designatedServicePage /services/business-finance matching the registry, contentRisk medium matching the registry, the existing 1200x630 JPEG, featuredImageAlt, and one business.gov.au source for the shop-around sentence. Duplicate related-list copies of commercial-property-loans-australia-complete-guide, what-is-private-lending-australia, second-mortgages-for-business-guide, and one extra refinancing-solutions list item were removed so each URL appears at most twice. One extra body commercial-property-loans link was unlinked for the same publication-contract maximum. The existing does not guarantee approval sentence was reworded to does not promise an approval so the later general-information gate is not blocked by that pattern. Independent review is PENDING at this writer revision. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-0b81f880-876f-5af3-bc2d-b17ab0357666"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/business-finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "private property-secured lending arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "This structure does not guarantee approval."
+        },
+        {
+          "kind": "text-added",
+          "value": "This structure does not promise an approval."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is ba24887aae6c53421e0bccda2449ee608075211a30689692237c1849535f073c. beforeSha256 is 782d88f376423961468c8cc03ebc66961e07ed70f2cdfeb19762d45a7f787ad7 at main 77a71c2f0695e7c2539e8d9579670f841855c323.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (357421 bytes) to Node fetch GET at 2026-11-12T20:20:00Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, date and reviewed_date are unchanged. Independent review metadata remains PENDING. No reviewedBy, reviewedAt or expiresAt was added.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, consumer-loan, or caveat-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend or fund loans."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
