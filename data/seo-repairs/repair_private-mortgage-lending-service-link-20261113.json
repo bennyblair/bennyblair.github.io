@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-mortgage-lending-service-link-20261113",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "77a71c2f0695e7c2539e8d9579670f841855c323",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-mortgage-lending.md",
+      "pageId": "pg_b47b76647dde4bd8b7646728c174d2ac",
+      "path": "/resources/guides/private-mortgage-lending",
+      "beforeSha256": "92a97e4bb57088aff6a98db7ee63a0171efe4ec8f60a6be9da40ad5e52dcdfa0",
+      "afterSha256": "2338fa38a906d5ebc0a309fb3cc14f00bf7a36312c63411b5cbba89eeda56111",
+      "reason": "Existing-page improvement of the private-mortgage-lending explainer for commercial borrowers. Keep slug, canonical path, title, description, H1 owner, keywords, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-06-17, and reviewed_date 2026-06-17. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Add one descriptive contextual body link to /services/private-lending with the anchor commercial private lending arranged through a broker, replacing the intro caveat-loan link (caveat loans are retired; the related-list caveat guide link is unchanged existing copy). Replace the closer Emet Capital provides commercial lending solutions to eligible business borrowers with broker-accurate wording. Publication-contract fields required for this material change: primaryQuery matching the existing title/keyword, searchIntent informational, designatedServicePage /services/private-lending (the inlink target; registry service path is not edited), contentRisk medium matching the registry, the existing 1200x630 JPEG, featuredImageAlt, and one business.gov.au source used for the shop-around sentence. Related In-Depth Guides is an H2 so the template owns the only H1. Related-list copies of second-mortgages-for-business-guide, private-lending-vs-bank-lending-which-is-better, and refinancing-solutions are removed so those URLs appear twice. Two existing denial sentences that contained the token sequence guaranteed approval are reworded so contentRisk can stay medium. Independent review is PENDING at this writer revision. No rates, volumes, licence, membership, consumer-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-ab179e2e-cc91-5ac3-9d61-316b5e7629af"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        },
+        {
+          "kind": "text-added",
+          "value": "commercial private lending arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "An approval is not promised."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital does not make guaranteed approval claims."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is 2338fa38a906d5ebc0a309fb3cc14f00bf7a36312c63411b5cbba89eeda56111. beforeSha256 is 92a97e4bb57088aff6a98db7ee63a0171efe4ec8f60a6be9da40ad5e52dcdfa0 at main 77a71c2f0695e7c2539e8d9579670f841855c323.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (357421 bytes) to Node fetch GET at 2026-11-12T20:19:14.622Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans returned HTTP 200 (76012 bytes) at the same check. It is not declared and not quoted.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, date and reviewed_date are unchanged. Independent review metadata remains PENDING. No reviewedBy, reviewedAt or expiresAt was added.",
+          "Registry designatedServicePagePath remains /services/business-finance. The article designatedServicePage is /services/private-lending so the required inlink satisfies the publication contract without adding a second service URL.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend or fund loans."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}

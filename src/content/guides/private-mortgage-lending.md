@@ -19,13 +19,22 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Private Mortgage Lending Australia | Commercial Borrower Guide"
 metaDescription: "Private mortgage lending explained for Australian business borrowers using property security. Learn use cases, assessment, documents, risks, and exit planning."
+primaryQuery: "private mortgage lending"
+searchIntent: "informational"
+designatedServicePage: "/services/private-lending"
+contentRisk: "medium"
+featuredImage: "/images/uploads/what-is-private-lending-australia.jpg"
+featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
+sources:
+  - label: "business.gov.au: Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 Private mortgage lending is commercial finance provided by a private or non-bank lender and usually secured by a mortgage over real property. For Australian business borrowers, it is most often considered when timing, documentation, security position, or bank policy makes a standard bank approval difficult, but the borrower has a clear business purpose and a credible repayment pathway.
 
-Emet Capital helps business owners, property investors, and developers compare whether a private mortgage loan, [second mortgage](/resources/guides/second-mortgages-for-business-guide), [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), or [commercial property refinance](/services/refinancing-solutions) is the cleaner structure. The core question is not simply whether funding can be arranged. It is whether the loan term, cost, security, and exit plan fit the commercial problem.
+Emet Capital helps business owners, property investors, and developers compare whether a private mortgage loan, [second mortgage](/resources/guides/second-mortgages-for-business-guide), [commercial private lending arranged through a broker](/services/private-lending), or [commercial property refinance](/services/refinancing-solutions) is the cleaner structure. The core question is not simply whether funding can be arranged. It is whether the loan term, cost, security, and exit plan fit the commercial problem.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — the broader private lending framework for commercial borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — how private lenders and banks differ in timing, policy, and flexibility.
@@ -71,7 +80,7 @@ A private mortgage may also suit files where the bank is not saying no forever, 
 
 Private mortgage lending may not fit when the borrower cannot identify a realistic exit, cannot tolerate the cost, or is using short-term finance to cover a permanent cash-flow shortfall. If there is no sale, refinance, retained earnings event, debtor collection, or asset sale expected, the loan may simply move the pressure forward.
 
-It may also be unsuitable where the available property security is already highly leveraged, title is disputed, the borrower entity is unclear, or the requested loan purpose is personal rather than commercial. Emet Capital does not position private mortgage lending as a guaranteed approval path. Each file still needs to make sense to a lender.
+It may also be unsuitable where the available property security is already highly leveraged, title is disputed, the borrower entity is unclear, or the requested loan purpose is personal rather than commercial. Emet Capital does not position private mortgage lending as a promised approval path. Each file still needs to make sense to a lender.
 
 For urgent but smaller short-term property-backed needs, [short-term business finance](/resources/guides/short-term-business-finance-australia) and caveat finance may be compared. For longer-term restructuring, [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be more relevant.
 
@@ -147,14 +156,11 @@ Repayment usually comes from a defined exit such as refinance, property sale, bu
 
 ### Is private mortgage lending guaranteed if there is enough equity?
 
-No. Equity helps, but it is not enough by itself. Lenders also consider title position, property type, borrower identity, loan purpose, documents, legal risk, and the exit strategy. Emet Capital does not make guaranteed approval claims.
+No. Equity helps, but it is not enough by itself. Lenders also consider title position, property type, borrower identity, loan purpose, documents, legal risk, and the exit strategy. An approval is not promised.
 
 ## Related Guides
 
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)**
-- **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)**
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)**
-- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)**
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. It's a good idea to compare loan products from multiple lenders before applying. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
