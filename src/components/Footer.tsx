@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Building2, Mail, Phone, MapPin } from "lucide-react";
+import PreferredSourceLink from "@/components/PreferredSourceLink";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -21,6 +22,7 @@ const Footer = () => {
               <p>ABN 50 682 228 182</p>
               <p>Commercial-purpose finance brokerage.</p>
             </div>
+            <PreferredSourceLink variant="dark" />
           </div>
 
           {/* Quick Links */}
