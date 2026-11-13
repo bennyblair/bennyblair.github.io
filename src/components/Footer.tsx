@@ -78,9 +78,9 @@ const Footer = () => {
                   enquiry@emetcapital.com.au
                 </a>
               </li>
-              <li className="flex items-center text-muted-foreground">
-                <MapPin className="w-4 h-4 mr-2 text-accent" />
-                <span>Sydney, Australia</span>
+              <li className="flex items-start text-muted-foreground">
+                <MapPin className="w-4 h-4 mr-2 mt-0.5 text-accent" />
+                <span>2C/3-5 Anzac Parade, Kensington NSW 2033</span>
               </li>
             </ul>
           </div>

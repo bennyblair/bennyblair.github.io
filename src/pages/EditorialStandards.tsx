@@ -54,8 +54,8 @@ const EditorialStandards = () => {
                 property finance.
               </li>
               <li>
-                Publicly available information from government sources (ASIC, ATO, ABS), industry bodies
-                (MFAA, FBAA, CAFBA), and reputable financial publications.
+                Publicly available information from government sources (ASIC, ATO, ABS) and reputable
+                financial publications.
               </li>
               <li>Lender-published criteria, term sheets, and product disclosure documents.</li>
             </ol>

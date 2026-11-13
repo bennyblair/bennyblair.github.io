@@ -20,8 +20,8 @@ const WorkingCapital = () => {
       answer: "Property, equipment, inventory, receivables, or a combination of business assets. Some lenders offer unsecured options for established businesses with strong financials."
     },
     {
-      question: "How fast can approval take?",
-      answer: "Initial assessments typically within 24-48 hours for straightforward applications. Approval timeframes depend on security type and documentation completeness."
+      question: "How quickly can an application be reviewed?",
+      answer: "We work to move applications quickly; timeframes depend on the lender, the security and the deal. The lender, not Emet Capital, decides whether to approve."
     },
     {
       question: "Are these loans available Australia-wide?",
@@ -58,7 +58,7 @@ const WorkingCapital = () => {
         <title>Working Capital Finance Solutions Australia | Emet Capital</title>
         <meta 
           name="description" 
-          content="Access working capital from $50K-$20M+ with flexible credit lines and fast approval for business cash flow needs across Australia." 
+          content="Access working capital from $50K-$20M+ with flexible credit lines for business cash flow needs across Australia." 
         />
         <meta name="keywords" content="working capital, business cash flow, revolving credit, business finance, operational funding" />
       <link rel="canonical" href="https://emetcapital.com.au/services/working-capital" />

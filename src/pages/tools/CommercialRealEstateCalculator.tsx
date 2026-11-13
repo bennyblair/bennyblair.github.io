@@ -61,7 +61,7 @@ const CommercialRealEstateCalculator = () => {
     },
     {
       question: "How fast can funding be arranged?",
-      answer: "Indicative terms are often achievable in 24-48 hours for straightforward scenarios. Settlement timing depends on security, docs and valuation."
+      answer: "We work to move applications quickly; timeframes depend on the lender and the deal. Settlement timing depends on security, documents and valuation."
     },
     {
       question: "What security is usually required?",

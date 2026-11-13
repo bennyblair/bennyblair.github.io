@@ -1,4 +1,3 @@
-import { claimCanBeAddedToSchema, getClaim } from "@/lib/claims";
 import articleAuthors from "@/data/article-authors.json";
 
 // Utility functions for generating JSON-LD structured data schemas
@@ -43,6 +42,15 @@ const EMET_ADDRESS_SCHEMA = {
   "postalCode": "2033",
   "addressCountry": "AU"
 };
+
+/** Nominatim OpenStreetMap geocode for 3-5 Anzac Parade, Kensington NSW 2033 (queried 2026-11-13). */
+export const EMET_GEO = {
+  latitude: "-33.9029642",
+  longitude: "151.2231989"
+};
+
+const ORGANIZATION_DESCRIPTION =
+  "Australian commercial finance brokers. We connect businesses with financing options through our network of private and institutional lenders.";
 
 /**
  * Generates Person JSON-LD schema for Ben.
@@ -119,7 +127,13 @@ export const generateBreadcrumbSchema = (items: BreadcrumbItem[], baseUrl: strin
 };
 
 /**
- * Generates Organization JSON-LD schema
+ * Generates Organization JSON-LD schema.
+ *
+ * sameAs is omitted. The previous company LinkedIn slug pointed at EMET Capital
+ * in Bogota, a different company. Do not add a replacement LinkedIn URL until
+ * the correct public profile is confirmed.
+ *
+ * memberOf is omitted: Emet Capital has no industry association memberships.
  */
 export const generateOrganizationSchema = () => {
   return {
@@ -129,7 +143,9 @@ export const generateOrganizationSchema = () => {
     "legalName": "Emet Capital Pty Ltd",
     "url": "https://emetcapital.com.au",
     "logo": EMET_LOGO_URL,
-    "description": "Australia's trusted commercial lending specialists. We connect businesses with the right financing solutions through our extensive network of private and institutional lenders.",
+    "description": ORGANIZATION_DESCRIPTION,
+    "telephone": "+61-485-952-651",
+    "email": "enquiry@emetcapital.com.au",
     "taxID": "50 682 228 182",
     "identifier": {
       "@type": "PropertyValue",
@@ -144,9 +160,6 @@ export const generateOrganizationSchema = () => {
       "areaServed": "AU",
       "availableLanguage": "English"
     },
-    "sameAs": [
-      "https://www.linkedin.com/company/emet-capital"
-    ],
     "employee": [
       authorEmployeeSchema(BEN_AUTHOR),
       authorEmployeeSchema(DANIEL_AUTHOR)
@@ -155,22 +168,13 @@ export const generateOrganizationSchema = () => {
 };
 
 /**
- * Generates AggregateRating JSON-LD schema
- */
-export const generateAggregateRatingSchema = () => {
-  const ratingClaim = getClaim("google-rating-5-18");
-  if (!claimCanBeAddedToSchema("google-rating-5-18")) return undefined;
-  return {
-    "@type": "AggregateRating",
-    "ratingValue": ratingClaim.statement.match(/(\d+(?:\.\d+)?)/)?.[1] || "5.0",
-    "reviewCount": ratingClaim.statement.match(/from\s+(\d+)\s+reviews/i)?.[1] || "18",
-    "bestRating": "5",
-    "worstRating": "1"
-  };
-};
-
-/**
- * Generates LocalBusiness JSON-LD schema with reviews
+ * Generates LocalBusiness JSON-LD schema.
+ *
+ * openingHours and openingHoursSpecification are omitted. Public listings do not
+ * publish hours, and the site owner confirmed they should not be displayed.
+ *
+ * Hardcoded aggregateRating is omitted: the Google review count is not sourced live.
+ * memberOf is omitted: Emet Capital has no industry association memberships.
  */
 export const generateLocalBusinessSchema = () => {
   return {
@@ -191,29 +195,14 @@ export const generateLocalBusinessSchema = () => {
     "address": EMET_ADDRESS_SCHEMA,
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "-33.8688",
-      "longitude": "151.2093"
+      "latitude": EMET_GEO.latitude,
+      "longitude": EMET_GEO.longitude
     },
     "priceRange": "$$",
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "08:00",
-      "closes": "18:00"
-    },
     "employee": [
       authorEmployeeSchema(BEN_AUTHOR),
       authorEmployeeSchema(DANIEL_AUTHOR)
-    ],
-    ...(generateAggregateRatingSchema()
-      ? { "aggregateRating": generateAggregateRatingSchema() }
-      : {})
+    ]
   };
 };
 
@@ -225,7 +214,7 @@ export const generateAboutPageSchema = () => {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "About Emet Capital",
-    "description": "Australia's trusted commercial lending specialists. We connect businesses with the right financing solutions through our extensive network of private and institutional lenders.",
+    "description": ORGANIZATION_DESCRIPTION,
     "url": "https://emetcapital.com.au/about",
     "mainEntity": generateOrganizationSchema()
   };
@@ -239,7 +228,7 @@ export const generateContactPageSchema = () => {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contact Emet Capital",
-    "description": "Get in touch with our commercial lending specialists. Fast approvals and competitive rates for Australian businesses.",
+    "description": "Get in touch with our commercial finance brokers. We work to move applications quickly; timeframes depend on the lender and the deal.",
     "url": "https://emetcapital.com.au/contact",
     "mainEntity": {
       "@type": "Organization",
@@ -250,19 +239,7 @@ export const generateContactPageSchema = () => {
         "email": "enquiry@emetcapital.com.au",
         "contactType": "Customer Service",
         "areaServed": "AU",
-        "availableLanguage": "English",
-        "hoursAvailable": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "08:00",
-          "closes": "18:00"
-        }
+        "availableLanguage": "English"
       }
     }
   };
@@ -328,6 +305,7 @@ export const generateServiceSchema = (
     "provider": {
       "@type": "FinancialService",
       "name": "Emet Capital",
+      "legalName": "Emet Capital Pty Ltd",
       "url": "https://emetcapital.com.au",
       "telephone": "+61-485-952-651",
       "email": "enquiry@emetcapital.com.au",

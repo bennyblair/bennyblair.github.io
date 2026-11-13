@@ -72,8 +72,8 @@
     "owner": "Emet Capital",
     "verifiedAt": "",
     "expiresAt": "",
-    "displayQualification": "Review count and rating should be checked against the live profile before renewal.",
-    "schemaAllowed": true,
+    "displayQualification": "Review count and rating should be checked against the live profile before renewal. Do not hardcode aggregateRating in schema.",
+    "schemaAllowed": false,
     "status": "expired",
     "riskAcceptedAt": "2026-07-30"
   },

@@ -239,7 +239,7 @@ const Tools = () => {
                 <div className="bg-card p-6 rounded-lg border border-border">
                   <h4 className="font-semibold text-foreground mb-3">Key Benefits</h4>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• Fast approval (24-48 hours)</li>
+                    <li>• We work to move applications quickly; timeframes depend on the lender and the deal</li>
                     <li>• Flexible repayment terms</li>
                     <li>• No prepayment penalties</li>
                     <li>• Asset-based security</li>
