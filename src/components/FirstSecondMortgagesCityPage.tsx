@@ -48,7 +48,7 @@ type Props = {
 };
 
 const stats = [
-  { label: 'Indicative review', value: '24-48hrs', icon: Clock },
+  { label: 'Indicative review', value: 'Lender-dependent', icon: Clock },
   { label: 'Typical leverage', value: 'Up to 75%', icon: TrendingUp },
   { label: 'Common term', value: '1-30 years', icon: CheckCircle },
   { label: 'Facility size', value: '$100K-$50M+', icon: DollarSign }

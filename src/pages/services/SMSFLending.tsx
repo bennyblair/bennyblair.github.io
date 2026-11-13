@@ -19,8 +19,8 @@ const SMSFLending = () => {
       answer: "Commercial and residential property purchased by the SMSF. Property must be held in compliant custody trust structures and meet regulatory requirements for SMSF property investment."
     },
     {
-      question: "How fast can approval take?",
-      answer: "Initial assessments typically within 48-72 hours for SMSF applications. Full approval depends on property valuation, SMSF documentation, and compliance verification."
+      question: "How quickly can an application be reviewed?",
+      answer: "We work to move applications quickly; timeframes depend on the lender, the property and the SMSF documentation. The lender, not Emet Capital, decides whether to approve."
     },
     {
       question: "Are these loans available Australia-wide?",

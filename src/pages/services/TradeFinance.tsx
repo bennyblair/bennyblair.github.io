@@ -20,8 +20,8 @@ const TradeFinance = () => {
       answer: "Goods being imported/exported, receivables from trade transactions, purchase orders, property, or business assets. Security requirements vary by facility type and lender."
     },
     {
-      question: "How fast can approval take?",
-      answer: "Invoice factoring within 5-10 days typically. Letters of credit establishment takes 2-4 weeks depending on complexity and bank requirements."
+      question: "How quickly can an application be reviewed?",
+      answer: "Timeframes vary by facility. We work to move applications quickly; timeframes depend on the lender and the deal. The lender, not Emet Capital, decides whether to approve."
     },
     {
       question: "Are these loans available Australia-wide?",

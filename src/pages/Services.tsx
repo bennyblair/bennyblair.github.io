@@ -301,7 +301,7 @@ const Services = () => {
           </h1>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
             Professional commercial finance brokers comparing bank, non-bank, private and specialist lenders across Australia.
-            Fast approvals, competitive rates, and flexible terms for all your business financing needs.
+            We work to move applications quickly; timeframes depend on the lender and the deal.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -617,7 +617,7 @@ const Services = () => {
                     <div className="space-y-2">
                       <div className="flex justify-between">
                         <span className="text-sm font-medium">Approval Time:</span>
-                        <span className="text-sm">24-48 hours</span>
+                        <span className="text-sm">Depends on the lender and the deal</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-sm font-medium">Interest Rates:</span>

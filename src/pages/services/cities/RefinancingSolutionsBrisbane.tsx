@@ -11,7 +11,7 @@ const data = {
   "heroStats": [
     {
       "label": "Typical first review",
-      "value": "24-48hrs"
+      "value": "Lender-dependent"
     },
     {
       "label": "Facility sizes",

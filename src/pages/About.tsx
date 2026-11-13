@@ -20,7 +20,8 @@ import {
   TrendingUp,
   Handshake,
   Scale,
-  Network
+  Network,
+  type LucideIcon
 } from "lucide-react";
 import { generateAboutPageSchema } from "@/lib/schema-utils";
 
@@ -30,10 +31,18 @@ const About = () => {
     { label: "About Us" }
   ];
 
-  const stats = [
+  const stats: {
+    icon: LucideIcon;
+    label: string;
+    description: string;
+    value?: number;
+    prefix?: string;
+    suffix?: string;
+    decimals?: number;
+  }[] = [
     { icon: Award, label: "Years Experience", value: 15, prefix: "", suffix: "+", description: "Combined team experience" },
     { icon: Users, label: "Deals Completed", value: 500, prefix: "", suffix: "+", description: "Successful transactions" },
-    { icon: Star, label: "Google Rating", value: 5.0, prefix: "", suffix: "", decimals: 1, description: "18 client reviews" }
+    { icon: Star, label: "Google reviews", description: "reviews from clients on Google" }
   ];
 
   const values = [
@@ -45,7 +54,7 @@ const About = () => {
     {
       icon: Clock,
       title: "Speed & Efficiency", 
-      description: "Fast turnaround times with approvals possible within 24-48 hours."
+      description: "We work to move applications quickly; timeframes depend on the lender and the deal."
     },
     {
       icon: Shield,
@@ -67,7 +76,7 @@ const About = () => {
     "Australia-wide service coverage",
     "Flexible lending criteria and creative structuring",
     "Ongoing support throughout the loan lifecycle",
-    "5-star Google rating from satisfied clients"
+    "reviews from clients on Google"
   ];
 
   return (
@@ -88,8 +97,11 @@ const About = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             About Emet Capital
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            Australia's trusted commercial lending specialists. We connect businesses with the right financing solutions through our extensive network of private and institutional lenders.
+          <p className="text-xl text-muted-foreground mb-4 leading-relaxed">
+            Australian commercial finance brokers. We connect businesses with financing options through our network of private and institutional lenders.
+          </p>
+          <p className="text-base text-muted-foreground mb-8 leading-relaxed">
+            Emet Capital (Sydney) is not affiliated with Emet Capital Management (New York), Emet Mortgage (California), Emit Capital (Melbourne) or EMET Capital (Bogota).
           </p>
         </div>
 
@@ -100,13 +112,17 @@ const About = () => {
             <Card className="premium-card text-center">
               <CardContent className="p-6">
                 <stat.icon className="h-10 w-10 text-accent mx-auto mb-4" />
-                <AnimatedCounter
-                  end={stat.value}
-                  prefix={stat.prefix}
-                  suffix={stat.suffix}
-                  decimals={'decimals' in stat ? stat.decimals : 0}
-                  className="text-3xl font-bold gradient-text mb-2"
-                />
+                {typeof stat.value === "number" ? (
+                  <AnimatedCounter
+                    end={stat.value}
+                    prefix={stat.prefix ?? ""}
+                    suffix={stat.suffix ?? ""}
+                    decimals={stat.decimals ?? 0}
+                    className="text-3xl font-bold gradient-text mb-2"
+                  />
+                ) : (
+                  <div className="text-3xl font-bold gradient-text mb-2">Client reviews</div>
+                )}
                 <div className="font-semibold text-foreground mb-1">{stat.label}</div>
                 <div className="text-sm text-muted-foreground">{stat.description}</div>
               </CardContent>

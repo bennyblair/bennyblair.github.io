@@ -15,7 +15,7 @@ const Contact = () => {
 
   const benefits = [
     "Success-based fee structure - We'll discuss our complete fee approach upfront",
-    "Access to 100+ commercial lenders",
+    "Access to a panel of commercial lenders",
     "Expert guidance through the entire process",
     "Competitive rates and terms",
     "Coordination through lender assessment and settlement",
@@ -89,7 +89,7 @@ const Contact = () => {
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-primary" />
                     <div>
-                      <div className="font-medium text-foreground">Sydney, Australia</div>
+                      <div className="font-medium text-foreground">2C/3-5 Anzac Parade, Kensington NSW 2033</div>
                       <div className="text-sm text-muted-foreground">Serving all Australian states</div>
                     </div>
                   </div>

@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { normalizeSeoDescription, normalizeSeoTitle } from '@/lib/seo-metadata';
 import { isDesignPreview } from '@/lib/design-preview';
+import { EMET_GEO } from '@/lib/schema-utils';
 
 interface SEOProps {
   title: string;
@@ -12,7 +13,7 @@ interface SEOProps {
   imageAlt?: string;
   schemas?: object[];
   noindex?: boolean;
-  /** When false, omit Sydney geo meta tags. Defaults to the existing site-wide tags. */
+  /** When false, omit Kensington geo meta tags. Defaults to the existing site-wide tags. */
   geo?: boolean;
 }
 
@@ -56,11 +57,11 @@ const SEO = ({
       <link rel="alternate" hrefLang="en" href={fullCanonical} />
       <link rel="alternate" hrefLang="x-default" href={fullCanonical} />
       
-      {/* Geo targeting. National pages can opt out; other pages keep the Sydney tags. */}
+      {/* Geo targeting. National pages can opt out; other pages keep the Kensington office tags. */}
       {geo && <meta name="geo.region" content="AU-NSW" />}
-      {geo && <meta name="geo.placename" content="Sydney" />}
-      {geo && <meta name="geo.position" content="-33.8688;151.2093" />}
-      {geo && <meta name="ICBM" content="-33.8688, 151.2093" />}
+      {geo && <meta name="geo.placename" content="Kensington" />}
+      {geo && <meta name="geo.position" content={`${EMET_GEO.latitude};${EMET_GEO.longitude}`} />}
+      {geo && <meta name="ICBM" content={`${EMET_GEO.latitude}, ${EMET_GEO.longitude}`} />}
       
       {/* Open Graph */}
       <meta property="og:type" content={type} />

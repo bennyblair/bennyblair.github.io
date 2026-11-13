@@ -84,7 +84,7 @@ const ComplaintsProcess = () => {
           <p>Avenues that may be available to you include:</p>
           <ul>
             <li>
-              The relevant industry body for your matter (such as MFAA, FBAA, or CAFBA,
+              The relevant industry body for your matter (such as CAFBA,
               depending on the broker channel involved).
             </li>
             <li>
@@ -121,6 +121,8 @@ const ComplaintsProcess = () => {
             <strong>Emet Capital Pty Ltd</strong>
             <br />
             ABN 50 682 228 182
+            <br />
+            2C/3-5 Anzac Parade, Kensington NSW 2033
             <br />
             Email:{" "}
             <a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a>

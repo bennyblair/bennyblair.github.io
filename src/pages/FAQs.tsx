@@ -28,7 +28,7 @@ const FAQs = () => {
       {
         id: "gen-2", 
         question: "How long does the commercial loan approval process take?",
-        answer: "Approval timeframes vary by loan type and complexity. Simple asset finance can be approved in 24-48 hours, while development finance may take 2-4 weeks. Bridging finance is typically faster at 5-10 business days. We work closely with lenders to expedite applications wherever possible."
+        answer: "Timeframes vary by loan type and complexity. Lenders approve credit, not Emet Capital. We work to move applications quickly; timeframes depend on the lender and the deal. Development finance often takes longer than simpler asset-backed facilities."
       },
       {
         id: "gen-3",
@@ -94,7 +94,7 @@ const FAQs = () => {
       {
         id: "bridge-2",
         question: "How quickly can bridging finance be arranged?",
-        answer: "Bridging finance can often be arranged within 5-10 business days for straightforward applications. In urgent situations, we've arranged approval and settlement within 48 hours, though this requires all documentation to be immediately available."
+        answer: "Bridging finance can sometimes be arranged in a matter of days when the file is complete, but that is not a promise. We work to move applications quickly; timeframes depend on the lender, the security and the deal. Lenders approve credit, not Emet Capital."
       },
       {
         id: "bridge-3",

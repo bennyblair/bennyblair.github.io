@@ -17,8 +17,8 @@ const AssetFinance = () => {
       answer: "Business equipment, machinery, vehicles, technology assets, and specialized tools across all industries. Assets must be for commercial business use only."
     },
     {
-      question: "How fast can approval take?",
-      answer: "Initial assessments typically within 24-48 hours. Full approval depends on asset type, value, and documentation completeness."
+      question: "How quickly can an application be reviewed?",
+      answer: "We work to move applications quickly; timeframes depend on the lender, the asset and the deal. The lender, not Emet Capital, decides whether to approve."
     },
     {
       question: "Are these loans available Australia-wide?",
