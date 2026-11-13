@@ -30,7 +30,7 @@ In today's competitive business environment, access to fast funding can make the
 
 ## What is Fast Business Funding?
 
-Fast business funding refers to financing solutions that can be approved and disbursed quickly, typically within 24-48 hours to a few weeks. Unlike traditional bank loans that may take months to process, fast funding options are designed for businesses that need immediate capital injection.
+Fast business funding refers to financing solutions that lenders can review more quickly than a typical bank loan. Timeframes depend on the lender and the deal. Fast funding options are designed for businesses that need capital on a shorter timeline than a standard bank process.
 
 ## Types of Fast Business Funding Available
 
@@ -193,7 +193,7 @@ In today's competitive business environment, access to fast funding can make the
 
 ## What is Fast Business Funding?
 
-Fast business funding refers to financing solutions that can be approved and disbursed quickly, typically within 24-48 hours to a few weeks. Unlike traditional bank loans that may take months to process, fast funding options are designed for businesses that need immediate capital injection.
+Fast business funding refers to financing solutions that lenders can review more quickly than a typical bank loan. Timeframes depend on the lender and the deal. Fast funding options are designed for businesses that need capital on a shorter timeline than a standard bank process.
 
 ## Types of Fast Business Funding Available
 
@@ -395,7 +395,7 @@ These are indicative only and vary by lender, asset quality and exit.
 4. **Signing**
 5. **Funding**
 
-**Case vignette.** NSW wholesaler used *bridging loan financing* to raise $1,200,000. Structure: approx 65% LVR, 6-month term. Indicative terms in 24–48h; settlement in 7 business days. Fees: 3.0% establishment + legals. Security and pricing always depend on the asset and exit.
+**Case vignette.** NSW wholesaler used *bridging loan financing* to raise $1,200,000. Structure: approx 65% LVR, 6-month term. We work to move applications quickly; timeframes depend on the lender and the deal. Settlement timing depends on security, documents and valuation. Fees: 3.0% establishment + legals. Security and pricing always depend on the asset and exit.
 
 ## FAQs
 
@@ -403,7 +403,7 @@ These are indicative only and vary by lender, asset quality and exit.
 For business‑purpose loans, NCCP consumer credit rules generally do not apply. We arrange commercial finance only.
 
 **How fast can funding be arranged?**
-Indicative terms are often achievable in 24–48 hours for straightforward scenarios. Settlement timing depends on security, docs and valuation.
+We work to move applications quickly; timeframes depend on the lender and the deal. Settlement timing depends on security, documents and valuation.
 
 **What security is usually required?**
 Commonly 1st/2nd mortgage over investment or commercial property; caveat. The exact structure is lender‑ and asset‑dependent.
@@ -462,7 +462,7 @@ These are indicative only and vary by lender, asset quality and exit.
 4. **Final docs**
 5. **Settlement**
 
-**Case vignette.** NSW wholesaler used *no doc abn loans* to raise $600,000. Structure: approx 75% LVR, 36-month term. Indicative terms in 24–48h; settlement in 3 weeks. Fees: 1.5% establishment + legals. Security and pricing always depend on the asset and exit.`
+**Case vignette.** NSW wholesaler used *no doc abn loans* to raise $600,000. Structure: approx 75% LVR, 36-month term. We work to move applications quickly; timeframes depend on the lender and the deal. Settlement timing depends on security, documents and valuation. Fees: 1.5% establishment + legals. Security and pricing always depend on the asset and exit.`
   }
 };
 

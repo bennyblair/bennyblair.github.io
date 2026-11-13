@@ -79,14 +79,11 @@ const ComplaintsProcess = () => {
             If you are not satisfied with how we have handled your complaint, or with our
             final response, external dispute resolution options for commercial finance
             complaints depend on the nature of the matter and the specific facts of your
-            situation.
+            situation. Emet Capital is not a member of CAFBA or any other industry
+            association.
           </p>
           <p>Avenues that may be available to you include:</p>
           <ul>
-            <li>
-              The relevant industry body for your matter (such as CAFBA,
-              depending on the broker channel involved).
-            </li>
             <li>
               Independent legal advice from a commercial litigation or financial services
               lawyer.

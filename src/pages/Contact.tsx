@@ -71,7 +71,6 @@ const Contact = () => {
                       <a className="font-medium text-foreground hover:text-accent" href="tel:+61485952651">
                         0485 952 651
                       </a>
-                      <div className="text-sm text-muted-foreground">Monday to Friday, 8:00 AM - 6:00 PM</div>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">

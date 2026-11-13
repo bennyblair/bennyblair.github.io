@@ -132,6 +132,8 @@ export const generateBreadcrumbSchema = (items: BreadcrumbItem[], baseUrl: strin
  * sameAs is omitted. The previous company LinkedIn slug pointed at EMET Capital
  * in Bogota, a different company. Do not add a replacement LinkedIn URL until
  * the correct public profile is confirmed.
+ *
+ * memberOf is omitted: Emet Capital has no industry association memberships.
  */
 export const generateOrganizationSchema = () => {
   return {
@@ -168,11 +170,11 @@ export const generateOrganizationSchema = () => {
 /**
  * Generates LocalBusiness JSON-LD schema.
  *
- * Opening hours match the existing Contact page (Monday to Friday, 08:00-18:00).
- * Yellow Pages, TrueLocal and other public listings checked on 2026-11-13 do not
- * publish hours. Confirm with Ben before treating these as independently verified.
+ * openingHours and openingHoursSpecification are omitted. Public listings do not
+ * publish hours, and the site owner confirmed they should not be displayed.
  *
  * Hardcoded aggregateRating is omitted: the Google review count is not sourced live.
+ * memberOf is omitted: Emet Capital has no industry association memberships.
  */
 export const generateLocalBusinessSchema = () => {
   return {
@@ -197,18 +199,6 @@ export const generateLocalBusinessSchema = () => {
       "longitude": EMET_GEO.longitude
     },
     "priceRange": "$$",
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "08:00",
-      "closes": "18:00"
-    },
     "employee": [
       authorEmployeeSchema(BEN_AUTHOR),
       authorEmployeeSchema(DANIEL_AUTHOR)
@@ -249,19 +239,7 @@ export const generateContactPageSchema = () => {
         "email": "enquiry@emetcapital.com.au",
         "contactType": "Customer Service",
         "areaServed": "AU",
-        "availableLanguage": "English",
-        "hoursAvailable": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "08:00",
-          "closes": "18:00"
-        }
+        "availableLanguage": "English"
       }
     }
   };
