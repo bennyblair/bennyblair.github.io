@@ -10,7 +10,7 @@ author: "Daniel"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 articleSchema: |
@@ -121,7 +121,7 @@ This comprehensive caveat loan comparison examines approval speeds, cost structu
 
 ---
 
-> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+> **📖 Series Context**: This guide is part of the **Caveat Loans** series. For a complete overview, see the [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
 
 ### At a Glance
 

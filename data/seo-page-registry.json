@@ -803,10 +803,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "reviewAt": "2026-11-08T00:00:00.000Z",
         "protectedUntil": null,
-        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
-        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+        "lastMaterialChangeId": "chg_agent_readiness_20261008",
+        "lastMaterialChangeAt": "2026-10-08T00:00:00.000Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -3216,19 +3216,19 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 3,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-14T20:43:48Z",
-        "expiresAt": "2027-01-12T20:43:48Z"
+        "reviewedBy": "OpenClaw SEO content audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_content_review_2026_10_14T20_43_48Z",
-        "lastMaterialChangeAt": "2026-10-14T20:43:48Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4746,17 +4746,17 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-19T20:56:21.829Z",
-        "expiresAt": "2027-01-17T20:56:21.829Z"
+        "reviewedBy": "OpenClaw SEO content audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_content_review_2026_10_19T20_56_21_829Z",
-        "lastMaterialChangeAt": "2026-10-19T20:56:21.829Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -6541,17 +6541,17 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-04T07:09:31Z",
-        "expiresAt": "2027-02-02T07:09:31Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_content_review_2026_11_04T07_09_31Z",
-        "lastMaterialChangeAt": "2026-11-04T07:09:31Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7239,11 +7239,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 7,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-13T21:58:10Z",
-        "expiresAt": "2027-01-11T21:58:10Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -7417,17 +7417,17 @@
         "sourceRequired": true,
         "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-08T21:10:07.000Z",
-        "expiresAt": "2027-02-06T21:10:07.000Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_content_review_2026_11_08T21_10_07_000Z",
-        "lastMaterialChangeAt": "2026-11-08T21:10:07.000Z"
+        "lastMaterialChangeId": "chg_content_review_2026_08_05",
+        "lastMaterialChangeAt": "2026-08-05"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -9030,11 +9030,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 3,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-19T20:57:37Z",
-        "expiresAt": "2027-01-17T20:57:37Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -9253,9 +9253,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-18T20:45:10Z",
-        "expiresAt": "2027-01-16T20:45:10Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -11439,9 +11439,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-15T20:41:43Z",
-        "expiresAt": "2027-01-13T20:41:43Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -13715,11 +13715,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 5,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-13T22:06:06Z",
-        "expiresAt": "2027-01-11T22:06:06Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -14286,11 +14286,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 4,
+        "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-14T20:30:16.428Z",
-        "expiresAt": "2027-01-12T20:30:16.428Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -14460,11 +14460,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 3,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-21T21:14:31Z",
-        "expiresAt": "2027-01-19T21:14:31Z"
+        "reviewedBy": "OpenClaw SEO content audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -14548,11 +14548,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 4,
+        "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-09T21:11:13.000Z",
-        "expiresAt": "2027-02-07T21:11:13.000Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -15287,9 +15287,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-09T20:53:01.459Z",
-        "expiresAt": "2027-02-07T20:53:01.459Z"
+        "reviewedBy": "OpenClaw SEO content audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -15682,9 +15682,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-02T07:44:09Z",
-        "expiresAt": "2027-01-31T07:44:09Z"
+        "reviewedBy": "OpenClaw SEO source audit",
+        "reviewedAt": "2026-08-05",
+        "expiresAt": "2026-11-05"
       },
       "lifecycle": {
         "state": "observing",
@@ -17534,15 +17534,17 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "expiresAt": null
+        "reviewedBy": "Ben Blair",
+        "reviewedAt": "2026-11-06T12:48:00+11:00",
+        "expiresAt": "2027-02-04T12:48:00+11:00"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_commit_c18cbee",
-        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
+        "lastMaterialChangeId": "chg_pr_253",
+        "lastMaterialChangeAt": "2026-11-06T12:48:00+11:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -20425,7 +20427,9 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "expiresAt": null
+        "reviewedBy": "Ben Blair",
+        "reviewedAt": "2026-11-06T12:48:00+11:00",
+        "expiresAt": "2027-02-04T12:48:00+11:00"
       },
       "lifecycle": {
         "state": "observing",
@@ -22396,5 +22400,5 @@
       "programIds": []
     }
   ],
-  "checksum": "000e2521eb90b013c8cd7d7ff52e97d55b400e602ced36cae982da329d297692"
+  "checksum": "f1582b250a05e264b87d232bcfafd6aa67bf92e2d144f89a6947f5bd7bdd477d"
 }

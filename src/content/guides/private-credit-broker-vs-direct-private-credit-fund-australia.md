@@ -8,7 +8,7 @@ author: "Daniel"
 reviewed_date: "2026-06-22"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 keywords: ["private credit broker vs private credit fund Australia", "private credit broker", "private credit fund", "private lending Australia", "SME private credit"]

@@ -15,7 +15,7 @@ author: "Ben"
 reviewed_date: "2026-06-19"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Caveat Lending Australia | Business Borrower Guide"
@@ -26,7 +26,7 @@ Caveat lending is short-term, business-purpose finance where a lender's interest
 
 The key point is simple: caveat lending is not just a fast loan. It is a property-backed structure that depends on title position, equity, legal documentation, borrower consent, loan purpose, and exit strategy. If any of those pieces are weak, speed can create risk rather than solve the problem.
 
-For context, compare this guide with Emet Capital's main [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide), the guide to [short-term caveat loans](/resources/guides/short-term-caveat-loans-australia), and the broader [private lending Australia guide](/resources/guides/what-is-private-lending-australia). This article is general information only and not financial advice.
+For context, compare this guide with the [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide), the guide to [short-term caveat loans](/resources/guides/short-term-caveat-loans-australia), and the broader [private lending Australia guide](/resources/guides/what-is-private-lending-australia). This article is general information only and not financial advice.
 
 ### Related In-Depth Guides
 

@@ -14,7 +14,7 @@ author: "Daniel"
 reviewed_date: "2026-05-28"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 ---
@@ -110,11 +110,11 @@ Do not ignore legal and title issues. Caveats, priority, consent, co-owners, tru
 
 ## How Emet Capital Frames The Decision
 
-Emet Capital starts with four questions: what is the urgent business purpose, what property security supports it, what evidence confirms the value, and how does the loan end? If those answers are strong, lender matching becomes faster and more realistic.
+A broker typically starts with four questions: what is the urgent business purpose, what property security supports it, what evidence confirms the value, and how does the loan end? If those answers are strong, lender matching becomes faster and more realistic.
 
 A strong caveat file does not rely on urgency alone. It combines clear property evidence, a defined commercial use, prepared documents, and an exit that can be explained without optimism.
 
-Where a caveat loan is not the cleanest structure, we compare adjacent options such as [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or business finance alternatives.
+Where a short-term property-secured facility is not the cleanest structure, adjacent options include [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or business finance alternatives.
 
 ## Practical Summary
 

@@ -13,7 +13,7 @@ readTime: "9 min read"
 author: "Ben"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Bridge Lending Australia for Commercial Property"
@@ -77,7 +77,7 @@ Bridge lending may suit a commercial borrower when there is a specific deadline 
 
 Common examples include a commercial purchase settling before an existing property sale, a refinance that is approved in principle but not ready for settlement, a development project needing completion funding before sale, or a borrower needing short-term capital while a bank works through documents.
 
-A bridge may also be considered where a borrower wants to avoid disturbing an existing facility for a short-term need. In that case, a broker may compare a bridge facility with a [second mortgage without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia) or a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), depending on the security and urgency.
+A bridge may also be considered where a borrower wants to avoid disturbing an existing facility for a short-term need. In that case, a broker may compare a bridge facility with a [second mortgage without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia), depending on the security and urgency.
 
 ## When Not To Use Bridge Lending
 

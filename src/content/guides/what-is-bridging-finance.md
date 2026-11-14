@@ -13,7 +13,7 @@ readTime: "9 min read"
 author: "Ben"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "What Is Bridging Finance? Australian Business Property Guide"
@@ -63,7 +63,7 @@ Bridging finance is short-term commercial funding used to bridge a timing gap be
 
 Bridging finance is for commercial borrowers who have a timing problem, not a permanent funding problem. It may suit a business owner buying a commercial property before another asset settles, a developer waiting for incoming proceeds, or an investor who needs to complete a transaction while a refinance is still being processed.
 
-It can also suit borrowers who are comparing bank and non-bank options. When the deadline is tight, a specialist broker can help compare a bridge against [private lending](/resources/guides/what-is-private-lending-australia), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), or [commercial refinance](/services/refinancing-solutions) before the borrower commits to one pathway.
+It can also suit borrowers who are comparing bank and non-bank options. When the deadline is tight, a specialist broker can help compare a bridge against [private lending](/resources/guides/what-is-private-lending-australia) or [commercial refinance](/services/refinancing-solutions) before the borrower commits to one pathway.
 
 ## How Bridging Finance Works
 

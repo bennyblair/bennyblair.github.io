@@ -86,7 +86,7 @@ Caveat pricing is usually driven by urgency, enforceability, and the lender’s 
 
 The strongest caveat files are not always the prettiest files. They are the files with a believable exit. If the lender can see how repayment happens, whether through sale, refinance, or another near-term event, the risk story is easier to price.
 
-That is why our [caveat loan exit strategies guide](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance) is one of the most important companion pieces to any pricing discussion. If the exit is vague, pricing usually gets worse and lender appetite narrows.
+That is why the [caveat loan exit strategies guide](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance) is one of the most important companion pieces to any pricing discussion. If the exit is vague, pricing usually gets worse and lender appetite narrows.
 
 ### Equity and security position
 

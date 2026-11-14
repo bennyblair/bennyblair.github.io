@@ -10,7 +10,7 @@ author: "Ben"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 articleSchema: {
@@ -100,7 +100,7 @@ Understanding what determines actual settlement speed helps you assess whether q
 
 ---
 
-> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+> **📖 Series Context**: This guide is part of the **Caveat Loans** series. For a complete overview, see the [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
 
 ### At a Glance
 
@@ -267,7 +267,7 @@ Understanding what actually drives settlement speed helps you maximise your chan
 
 Compare multiple caveat lenders focusing on actual delivery track records rather than marketing promises. Ask about their median settlement timeframes (not best cases), recent similar transactions, and what factors might extend timelines for your specific situation. Transparent lenders acknowledging realistic timelines often deliver more reliably than those promising impossible speed then disappointing with delays.
 
-Ready to explore quick caveat loan options for your urgent funding needs? Engage with experienced finance brokers specialising in caveat lending who can match you with lenders genuinely capable of delivering speed, prepare your application comprehensively to eliminate common delays, and provide realistic timeline expectations based on your specific circumstances and property characteristics.
+If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). An experienced commercial finance broker can help match you with lenders that may be able to assess the file, prepare the application, and give realistic timeline expectations based on the property and documents.
 
 ---
 

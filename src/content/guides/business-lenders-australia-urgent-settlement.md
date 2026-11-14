@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-05-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -49,7 +49,7 @@ Emet Capital helps Australian business owners compare urgent business lender opt
 
 This guide is for Australian business borrowers who have a genuine settlement deadline and need to understand what fast commercial lenders are likely to assess. It is relevant if you are trying to settle a business or commercial property transaction, protect a supplier arrangement, bridge a refinance delay, or fund a short-term commercial gap.
 
-It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions).
+It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing](/services/refinancing-solutions).
 
 ## What Urgent Settlement Means in Business Lending
 

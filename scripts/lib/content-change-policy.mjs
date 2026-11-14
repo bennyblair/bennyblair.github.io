@@ -240,6 +240,66 @@ export const RETIRED_CAVEAT_PRODUCT_REPLACEMENTS = Object.freeze([
     "Sometimes it is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), bridging facility, invoice finance, asset finance, or a reworked bank submission.",
     "Sometimes it is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), bridging facility, invoice finance, asset finance, or a reworked bank submission.",
   ],
+  [
+    "Emet Capital helps borrowers compare private lending mortgages with [bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), commercial property loans, second mortgages, caveat loans, and refinance options.",
+    "Emet Capital helps borrowers compare private lending mortgages with [bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), commercial property loans, second mortgages, and refinance options.",
+  ],
+  [
+    "Emet Capital helps borrowers compare [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) when timing is tight.",
+    "Emet Capital helps borrowers compare [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), and [private lending](/resources/guides/what-is-private-lending-australia) when timing is tight.",
+  ],
+  [
+    "Emet Capital helps borrowers compare [first and second mortgage options](/services/first-second-mortgages), [commercial property refinancing](/services/refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) when consent becomes a roadblock.",
+    "Emet Capital helps borrowers compare [first and second mortgage options](/services/first-second-mortgages), [commercial property refinancing](/services/refinancing-solutions), and [private lending](/resources/guides/what-is-private-lending-australia) when consent becomes a roadblock.",
+  ],
+  [
+    "It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions).",
+    "It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing](/services/refinancing-solutions).",
+  ],
+  [
+    "It is not written for consumer borrowing. Emet Capital works with eligible business borrowers, property investors, and developers. If your need is specifically property-backed, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions).",
+    "It is not written for consumer borrowing. Emet Capital works with eligible business borrowers, property investors, and developers. If your need is specifically property-backed, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing](/services/refinancing-solutions).",
+  ],
+  [
+    "Ready to explore quick caveat loan options for your urgent funding needs? Engage with experienced finance brokers specialising in caveat lending who can match you with lenders genuinely capable of delivering speed, prepare your application comprehensively to eliminate common delays, and provide realistic timeline expectations based on your specific circumstances and property characteristics.",
+    "If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). An experienced commercial finance broker can help match you with lenders that may be able to assess the file, prepare the application, and give realistic timeline expectations based on the property and documents.",
+  ],
+  [
+    'At Emet Capital, we look at caveat-related issues from a commercial lending perspective. The real question is not just “what is a caveatable interest?” It is “does a real property-linked interest exist, and what does that mean for funding, settlement, refinance, or enforcement?”',
+    'From a commercial lending perspective, the real question is not just “what is a caveatable interest?” It is “does a real property-linked interest exist, and what does that mean for funding, settlement, refinance, or enforcement?”',
+  ],
+  [
+    "When the deadline is tight, a specialist broker can help compare a bridge against [private lending](/resources/guides/what-is-private-lending-australia), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), or [commercial refinance](/services/refinancing-solutions) before the borrower commits to one pathway.",
+    "When the deadline is tight, a specialist broker can help compare a bridge against [private lending](/resources/guides/what-is-private-lending-australia) or [commercial refinance](/services/refinancing-solutions) before the borrower commits to one pathway.",
+  ],
+  [
+    "For property-backed files, a broker may compare [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia), and [bridge lending for commercial property](/resources/guides/bridge-lending-australia-commercial-property).",
+    "For property-backed files, a broker may compare [second mortgages without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia) and [bridge lending for commercial property](/resources/guides/bridge-lending-australia-commercial-property).",
+  ],
+  [
+    "In that case, a broker may compare a bridge facility with a [second mortgage without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia) or a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), depending on the security and urgency.",
+    "In that case, a broker may compare a bridge facility with a [second mortgage without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia), depending on the security and urgency.",
+  ],
+  [
+    "For context, compare this guide with Emet Capital's main [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide), the guide to [short-term caveat loans](/resources/guides/short-term-caveat-loans-australia), and the broader [private lending Australia guide](/resources/guides/what-is-private-lending-australia). This article is general information only and not financial advice.",
+    "For context, compare this guide with the [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide), the guide to [short-term caveat loans](/resources/guides/short-term-caveat-loans-australia), and the broader [private lending Australia guide](/resources/guides/what-is-private-lending-australia). This article is general information only and not financial advice.",
+  ],
+  [
+    "This guide gives business borrowers a decision framework for comparing a delayed second mortgage with a caveat finance fallback. It is written from Emet Capital's position as a broker connecting borrowers with lenders.",
+    "This guide gives business borrowers a decision framework for comparing a delayed second mortgage with other short-term property-secured structures. Emet Capital is a commercial finance broker connecting borrowers with lenders.",
+  ],
+  [
+    "Where a caveat loan is not the cleanest structure, we compare adjacent options such as [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or business finance alternatives.",
+    "Where a short-term property-secured facility is not the cleanest structure, adjacent options include [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or business finance alternatives.",
+  ],
+  [
+    "Emet Capital starts with four questions: what is the urgent business purpose, what property security supports it, what evidence confirms the value, and how does the loan end? If those answers are strong, lender matching becomes faster and more realistic.",
+    "A broker typically starts with four questions: what is the urgent business purpose, what property security supports it, what evidence confirms the value, and how does the loan end? If those answers are strong, lender matching becomes faster and more realistic.",
+  ],
+  [
+    "This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).",
+    "This guide is part of the **Caveat Loans** series. For a complete overview, see the [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).",
+  ],
 ]);
 
 export function applyRetiredCaveatProductCopy(source) {
@@ -251,6 +311,13 @@ export function applyRetiredCaveatProductCopy(source) {
   for (const [from, to] of RETIRED_CAVEAT_PRODUCT_REPLACEMENTS) {
     updated = updated.replaceAll(from, to);
   }
+  updated = updated.replaceAll(
+    "across caveat loans, second mortgages,",
+    "across second mortgages,",
+  );
+  updated = updated.replaceAll("our **[caveat", "the **[caveat");
+  updated = updated.replaceAll("our [caveat", "the [caveat");
+  updated = updated.replaceAll("our [Complete Caveat Loans Guide]", "the [Complete Caveat Loans Guide]");
   return updated.replace(
     /\[[^\]]*caveat[^\]]*\]\(\/services\/first-second-mortgages\)/gi,
     "[first and second mortgages page](/services/first-second-mortgages)",
