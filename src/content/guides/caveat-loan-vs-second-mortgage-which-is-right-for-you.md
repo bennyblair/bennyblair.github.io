@@ -165,7 +165,7 @@ Caveat finance is usually a poor substitute for a missing long-term plan. If the
 
 Emet Capital helps commercial borrowers package the file so lenders can quickly understand the security, purpose, timing, and exit. That may mean testing a second mortgage pathway or another private lending structure.
 
-The aim is not to force the borrower into the fastest product. The aim is to identify which lender type and security structure best matches the transaction. In some cases, that may be [urgent caveat finance](/resources/guides/urgent-caveat-loans). In others, it may be [second mortgage finance](/services/first-second-mortgages), [bridging finance](/services/bridging-finance), [private lending](/services/private-lending), or [commercial property finance](/services/commercial-property-finance).
+The aim is not to force the borrower into the fastest product. The aim is to identify which lender type and security structure best matches the transaction. That may be [second mortgage finance](/services/first-second-mortgages), [bridging finance](/services/bridging-finance), [private lending](/services/private-lending), or [commercial property finance](/services/commercial-property-finance).
 
 ## Frequently Asked Questions
 

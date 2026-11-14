@@ -73,7 +73,7 @@ If those points are not clear, direct contact can still work, but the risk of a 
 
 A private credit broker adds value when the file needs interpretation before it needs distribution. Many SME borrowers do not only need a lender list. They need the transaction shaped so the right lenders can understand the purpose, security, risk, and exit quickly.
 
-This is common where the borrower is comparing [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), a caveat-backed facility, or a short-term commercial property refinance. The same borrower may technically qualify for several structures, but only one or two may make sense once timing, consent, costs, and exit are considered.
+This is common where the borrower is comparing [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a short-term commercial property refinance. The same borrower may technically qualify for several structures, but only one or two may make sense once timing, consent, costs, and exit are considered.
 
 A broker can also protect time. Instead of approaching one fund, waiting for feedback, and then starting again, the broker can test appetite across lenders that actually operate in the relevant slice of the market.
 
@@ -129,7 +129,7 @@ A direct fund may be better where you already have a relationship, the facility 
 
 Do not go direct if the transaction is too important to rely on one lender's appetite. This includes settlement deadlines, conservative valuations, consent issues, partial-doc files, unusual property types, or business cash-flow events where a decline would consume valuable time.
 
-If the borrower is comparing [commercial property refinancing](/services/refinancing-solutions), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and second mortgages at the same time, a broker can help avoid choosing the first available option just because it is visible.
+If the borrower is comparing [commercial property refinancing](/services/refinancing-solutions) and second mortgages at the same time, a broker can help avoid choosing the first available option just because it is visible.
 
 ## Practical Borrower Checklist
 

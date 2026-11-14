@@ -146,7 +146,7 @@ No. An approval is not promised. Interest rates, lender appetite, and settlement
 
 ## Related Guides
 
-- **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — compare a caveat structure where timing is urgent.
+- **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — educational guide to how caveat lending works in the Australian market.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — compare short-term finance linked to sale or refinance events.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — consider whether the real issue is multiple debts rather than a new facility.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — understand mainstream commercial property loan assessment.

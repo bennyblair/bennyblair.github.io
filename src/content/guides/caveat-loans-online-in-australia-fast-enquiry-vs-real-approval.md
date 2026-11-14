@@ -107,7 +107,7 @@ The [commercial property due diligence checklist](/resources/guides/commercial-p
 
 Emet Capital looks at the commercial purpose, security, timing and exit before suggesting a structure. The goal is not to force every urgent enquiry into one product label. The goal is to find the most workable funding path for the facts.
 
-A borrower with strong equity and a two-week deadline may suit a caveat-led approach. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/services/refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/second-mortgages-for-business-guide).
+A borrower with strong equity and a two-week deadline may need a short-term property-secured facility such as bridging finance or a second mortgage. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/services/refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/second-mortgages-for-business-guide).
 
 ## Practical Example
 

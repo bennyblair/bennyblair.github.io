@@ -118,7 +118,7 @@ Borrowers often compare [private lending vs bank lending](/resources/guides/priv
 
 Emet Capital's first step is to identify the commercial problem and the exit. If the problem is timing, a short-term facility may be appropriate. If the problem is structure, a refinance or [private credit refinance](/resources/guides/private-credit-refinance-commercial-property-australia) may be more relevant. If the problem is cash-flow discipline, finance alone may not fix it.
 
-The second step is to map security options. A first mortgage, second mortgage, caveat, commercial property refinance, or asset-backed facility can all sit in different risk positions. Choosing the wrong security structure can make a workable deal harder than it needs to be.
+The second step is to map security options. A first mortgage, second mortgage, commercial property refinance, or asset-backed facility can all sit in different risk positions. Choosing the wrong security structure can make a workable deal harder than it needs to be.
 
 The third step is lender matching. Private lenders vary widely in preferred property types, loan sizes, maximum leverage, state coverage, documentation tolerance, and transaction speed. A good broker does not just ask who is cheapest. They ask who can understand the file, document it cleanly, and settle without creating a bigger exit problem.
 

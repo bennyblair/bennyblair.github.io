@@ -241,7 +241,7 @@ Ready to evaluate whether second mortgages suit your business? Conduct thorough 
 
 ## Related Guides
 
-- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare urgent caveat funding with structured second mortgage finance.
+- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — consider when a full refinance may be cleaner than layered debt.
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — useful where equity release supports an ownership or acquisition event.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare unsecured or cash-flow-led options before using property equity.

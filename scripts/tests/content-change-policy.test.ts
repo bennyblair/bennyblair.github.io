@@ -105,3 +105,17 @@ test("does not keep Emet as the actor comparing caveat loans", () => {
   assert.doesNotMatch(after, /our \*\*\[caveat/i);
   assert.match(after, /the \*\*\[caveat loans in Australia guide/);
 });
+
+test("rewrites Emet-framed sections that still invite caveat loans", () => {
+  const before = [
+    "We usually start with four questions: what deadline is being solved, what property supports the facility, what is the exact repayment event, and what happens if the exit is late? If those answers are clear, a short-term caveat loan may be worth comparing.",
+    "The aim is not to force the borrower into the fastest product. The aim is to identify which lender type and security structure best matches the transaction. In some cases, that may be [urgent caveat finance](/resources/guides/urgent-caveat-loans). In others, it may be [second mortgage finance](/services/first-second-mortgages), [bridging finance](/services/bridging-finance), [private lending](/services/private-lending), or [commercial property finance](/services/commercial-property-finance).",
+    "A borrower with strong equity and a two-week deadline may suit a caveat-led approach. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/services/refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/second-mortgages-for-business-guide).",
+  ].join("\n");
+  const after = applyRetiredCaveatProductCopy(before);
+  assert.equal(isRetiredProductCopyChange(before, after), true);
+  assert.doesNotMatch(after, /caveat loan may be worth comparing/i);
+  assert.doesNotMatch(after, /urgent caveat finance/i);
+  assert.doesNotMatch(after, /caveat-led approach/i);
+  assert.match(after, /second mortgage, bridging finance, or private lending facility may be worth comparing/);
+});

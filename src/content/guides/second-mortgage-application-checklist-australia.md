@@ -33,7 +33,7 @@ This guide explains what to prepare before applying for a [second mortgage for b
 - **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — how the process usually works from enquiry to settlement.
 - **[Second Mortgage Lender Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — a broker-side view of the documents lenders commonly ask for.
 - **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — how priority, risk, and lender assessment differ.
-- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — when a caveat loan may be considered instead.
+- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial property lending context.
 
 ### At a Glance

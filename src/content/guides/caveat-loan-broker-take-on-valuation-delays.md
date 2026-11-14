@@ -112,7 +112,7 @@ Do not ignore legal and title issues. Caveats, priority, consent, co-owners, tru
 
 A broker typically starts with four questions: what is the urgent business purpose, what property security supports it, what evidence confirms the value, and how does the loan end? If those answers are strong, lender matching becomes faster and more realistic.
 
-A strong caveat file does not rely on urgency alone. It combines clear property evidence, a defined commercial use, prepared documents, and an exit that can be explained without optimism.
+A strong short-term property-secured file does not rely on urgency alone. It combines clear property evidence, a defined commercial use, prepared documents, and an exit that can be explained without optimism.
 
 Where a short-term property-secured facility is not the cleanest structure, adjacent options include [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or business finance alternatives.
 

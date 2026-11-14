@@ -28,7 +28,7 @@ For Australian business borrowers, the checklist matters because a second mortga
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — the main pillar guide for Australian business second mortgages.
 - **[Second Mortgage Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — compare common equity-release use cases.
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — useful when the goal is to preserve the first mortgage.
-- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare urgent caveat finance with a registered second mortgage.
+- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial-property finance context.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare assessment style and timing across lender types.
 

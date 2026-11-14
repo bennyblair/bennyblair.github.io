@@ -300,6 +300,86 @@ export const RETIRED_CAVEAT_PRODUCT_REPLACEMENTS = Object.freeze([
     "This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).",
     "This guide is part of the **Caveat Loans** series. For a complete overview, see the [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).",
   ],
+  [
+    "We usually start with four questions: what deadline is being solved, what property supports the facility, what is the exact repayment event, and what happens if the exit is late? If those answers are clear, a short-term caveat loan may be worth comparing.",
+    "We usually start with four questions: what deadline is being solved, what property supports the facility, what is the exact repayment event, and what happens if the exit is late? If those answers are clear, a second mortgage, bridging finance, or private lending facility may be worth comparing.",
+  ],
+  [
+    "A good broker also tests alternatives. Sometimes the better structure is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), asset-backed facility, or negotiated extension rather than a caveat loan.",
+    "A good broker also tests alternatives. Sometimes the better structure is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), asset-backed facility, or negotiated extension.",
+  ],
+  [
+    "If the business has strong receivables, the conversation may move toward invoice finance. If it owns usable equipment or stock, asset-backed lending may be relevant. If the business owns property and the deadline is compressed, a caveat loan, second mortgage, or short-term private lending structure may be considered. If the issue is several debts maturing at once, [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be part of the discussion.",
+    "If the business has strong receivables, the conversation may move toward invoice finance. If it owns usable equipment or stock, asset-backed lending may be relevant. If the business owns property and the deadline is compressed, a second mortgage, bridging finance, or short-term private lending structure may be considered. If the issue is several debts maturing at once, [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be part of the discussion.",
+  ],
+  [
+    "First, identify whether the second mortgage is still viable. Second, confirm the hard deadline. Third, check whether a caveat fallback is legally and commercially possible. Fourth, compare total cost and exit risk. Fifth, decide whether speed justifies changing the structure.",
+    "First, identify whether the second mortgage is still viable. Second, confirm the hard deadline. Third, check whether refinance, a different security property, or private lending is workable. Fourth, compare total cost and exit risk. Fifth, decide whether speed justifies changing the structure.",
+  ],
+  [
+    "The aim is not to force the borrower into the fastest product. The aim is to identify which lender type and security structure best matches the transaction. In some cases, that may be [urgent caveat finance](/resources/guides/urgent-caveat-loans). In others, it may be [second mortgage finance](/services/first-second-mortgages), [bridging finance](/services/bridging-finance), [private lending](/services/private-lending), or [commercial property finance](/services/commercial-property-finance).",
+    "The aim is not to force the borrower into the fastest product. The aim is to identify which lender type and security structure best matches the transaction. That may be [second mortgage finance](/services/first-second-mortgages), [bridging finance](/services/bridging-finance), [private lending](/services/private-lending), or [commercial property finance](/services/commercial-property-finance).",
+  ],
+  [
+    "The goal is not to force every urgent file into a caveat loan. Sometimes the better answer is a standard bridge. Sometimes it is a [private lending](/resources/guides/what-is-private-lending-australia) structure, a second mortgage, a vendor extension, or a broader refinance.",
+    "The goal is not to force every urgent file into one product label. Sometimes the better answer is a standard bridge. Sometimes it is a [private lending](/resources/guides/what-is-private-lending-australia) structure, a second mortgage, a vendor extension, or a broader refinance.",
+  ],
+  [
+    "A borrower with strong equity and a two-week deadline may suit a caveat-led approach. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/services/refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/second-mortgages-for-business-guide).",
+    "A borrower with strong equity and a two-week deadline may need a short-term property-secured facility such as bridging finance or a second mortgage. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/services/refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/second-mortgages-for-business-guide).",
+  ],
+  [
+    "- **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — compare a caveat structure where timing is urgent.",
+    "- **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — educational guide to how caveat lending works in the Australian market.",
+  ],
+  [
+    "- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — compare faster caveat-backed funding where urgency is high.",
+    "- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — educational guide to how caveat lending works in the Australian market.",
+  ],
+  [
+    "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare urgent caveat finance with a registered second mortgage.",
+    "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.",
+  ],
+  [
+    "A broker may also help when you need to preserve an existing loan while adding new funding. In those cases, a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), or [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may need to be compared against a full refinance.",
+    "A broker may also help when you need to preserve an existing loan while adding new funding. In those cases, a [second mortgage](/resources/guides/second-mortgages-for-business-guide) or [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may need to be compared against a full refinance.",
+  ],
+  [
+    "This is common where the borrower is comparing [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), a caveat-backed facility, or a short-term commercial property refinance. The same borrower may technically qualify for several structures, but only one or two may make sense once timing, consent, costs, and exit are considered.",
+    "This is common where the borrower is comparing [private lending](/resources/guides/what-is-private-lending-australia), a [second mortgage](/resources/guides/second-mortgages-for-business-guide), or a short-term commercial property refinance. The same borrower may technically qualify for several structures, but only one or two may make sense once timing, consent, costs, and exit are considered.",
+  ],
+  [
+    "If the borrower is comparing [commercial property refinancing](/services/refinancing-solutions), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and second mortgages at the same time, a broker can help avoid choosing the first available option just because it is visible.",
+    "If the borrower is comparing [commercial property refinancing](/services/refinancing-solutions) and second mortgages at the same time, a broker can help avoid choosing the first available option just because it is visible.",
+  ],
+  [
+    "The second step is to map security options. A first mortgage, second mortgage, caveat, commercial property refinance, or asset-backed facility can all sit in different risk positions. Choosing the wrong security structure can make a workable deal harder than it needs to be.",
+    "The second step is to map security options. A first mortgage, second mortgage, commercial property refinance, or asset-backed facility can all sit in different risk positions. Choosing the wrong security structure can make a workable deal harder than it needs to be.",
+  ],
+  [
+    "A strong caveat file does not rely on urgency alone. It combines clear property evidence, a defined commercial use, prepared documents, and an exit that can be explained without optimism.",
+    "A strong short-term property-secured file does not rely on urgency alone. It combines clear property evidence, a defined commercial use, prepared documents, and an exit that can be explained without optimism.",
+  ],
+  [
+    "A caveat loan may suit a narrower urgent scenario where property equity exists and timing is extremely compressed. It should be used carefully because the term is short and the exit needs to be clear. Our [caveat loans guide](/resources/guides/caveat-loans-australia-complete-guide) explains the mechanics.",
+    "A caveat loan may suit a narrower urgent scenario where property equity exists and timing is extremely compressed. It should be used carefully because the term is short and the exit needs to be clear. The [caveat loans guide](/resources/guides/caveat-loans-australia-complete-guide) explains the mechanics.",
+  ],
+  [
+    "That is why caveats matter so much in urgent transactions. They can restrict sale, refinance, or further dealings until the claimed interest is resolved. If you need the broader mechanics, start with our guide to [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide).",
+    "That is why caveats matter so much in urgent transactions. They can restrict sale, refinance, or further dealings until the claimed interest is resolved. If you need the broader mechanics, start with the [caveat loans in Australia](/resources/guides/caveat-loans-australia-complete-guide) guide.",
+  ],
+  [
+    "4. Is any second mortgage, caveat, or mezzanine layer proposed?",
+    "4. Is any second mortgage or mezzanine layer proposed?",
+  ],
+  [
+    "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare urgent caveat funding with structured second mortgage finance.",
+    "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.",
+  ],
+  [
+    "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — when a caveat loan may be considered instead.",
+    "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.",
+  ],
 ]);
 
 export function applyRetiredCaveatProductCopy(source) {
@@ -317,6 +397,7 @@ export function applyRetiredCaveatProductCopy(source) {
   );
   updated = updated.replaceAll("our **[caveat", "the **[caveat");
   updated = updated.replaceAll("our [caveat", "the [caveat");
+  updated = updated.replaceAll("Our [caveat", "The [caveat");
   updated = updated.replaceAll("our [Complete Caveat Loans Guide]", "the [Complete Caveat Loans Guide]");
   return updated.replace(
     /\[[^\]]*caveat[^\]]*\]\(\/services\/first-second-mortgages\)/gi,

@@ -112,7 +112,7 @@ Australian businesses commonly compare secured private lending, commercial prope
 
 Secured private lending may suit borrowers who need speed and have property or other acceptable security. It is often assessed around asset position, exit strategy and commercial purpose. Read [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia) for a broader explanation.
 
-A caveat loan may suit a narrower urgent scenario where property equity exists and timing is extremely compressed. It should be used carefully because the term is short and the exit needs to be clear. Our [caveat loans guide](/resources/guides/caveat-loans-australia-complete-guide) explains the mechanics.
+A caveat loan may suit a narrower urgent scenario where property equity exists and timing is extremely compressed. It should be used carefully because the term is short and the exit needs to be clear. The [caveat loans guide](/resources/guides/caveat-loans-australia-complete-guide) explains the mechanics.
 
 Working capital finance may fit where the business has a reliable trading cycle and the issue is timing rather than solvency. For invoice-heavy businesses, [invoice finance](/resources/guides/invoice-finance-australia-complete-guide) can sometimes release cash from receivables without waiting for customers to pay.
 

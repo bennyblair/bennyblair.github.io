@@ -105,11 +105,11 @@ If the borrower has time, a [commercial property refinance](/services/refinancin
 
 ## How Emet Capital Frames the Decision
 
-We usually start with four questions: what deadline is being solved, what property supports the facility, what is the exact repayment event, and what happens if the exit is late? If those answers are clear, a short-term caveat loan may be worth comparing.
+We usually start with four questions: what deadline is being solved, what property supports the facility, what is the exact repayment event, and what happens if the exit is late? If those answers are clear, a second mortgage, bridging finance, or private lending facility may be worth comparing.
 
 If the answers are not clear, the first task is file preparation. A short delay spent clarifying security, purpose, and exit can prevent a borrower from accepting a structure that creates more pressure than it solves.
 
-A good broker also tests alternatives. Sometimes the better structure is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), asset-backed facility, or negotiated extension rather than a caveat loan.
+A good broker also tests alternatives. Sometimes the better structure is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), asset-backed facility, or negotiated extension.
 
 ## Common Borrower Mistakes
 

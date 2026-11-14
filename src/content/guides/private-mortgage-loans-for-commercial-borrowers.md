@@ -161,6 +161,6 @@ Emet Capital is a commercial finance brokerage. We help eligible business borrow
 - **[Private Lending Mortgage](/resources/guides/private-lending-mortgage)** — related property-backed private lending guide.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial mortgage context.
 - **[Commercial Property Refinancing](/services/refinancing-solutions)** — options when a longer-term refinance is possible.
-- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — compare faster caveat-backed funding where urgency is high.
+- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — educational guide to how caveat lending works in the Australian market.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

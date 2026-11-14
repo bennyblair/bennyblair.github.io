@@ -123,7 +123,7 @@ For borrowers preparing a broader funding pack, the [business loan requirements 
 
 We would usually start with three questions: what is the urgent need, what supports repayment, and what happens if the tax timing slips?
 
-If the business has strong receivables, the conversation may move toward invoice finance. If it owns usable equipment or stock, asset-backed lending may be relevant. If the business owns property and the deadline is compressed, a caveat loan, second mortgage, or short-term private lending structure may be considered. If the issue is several debts maturing at once, [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be part of the discussion.
+If the business has strong receivables, the conversation may move toward invoice finance. If it owns usable equipment or stock, asset-backed lending may be relevant. If the business owns property and the deadline is compressed, a second mortgage, bridging finance, or short-term private lending structure may be considered. If the issue is several debts maturing at once, [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be part of the discussion.
 
 The tax benefit can help explain the story, but it should not be the only pillar. A more robust file usually has multiple repayment supports: trading cash flow, invoice collections, asset sale, refinance, confirmed contract receipts, or a documented tax event.
 

@@ -194,7 +194,7 @@ In that review, the broker would test the caveatable interest, first mortgage ba
 
 Emet Capital usually frames this as a decision tree, not a product choice.
 
-First, identify whether the second mortgage is still viable. Second, confirm the hard deadline. Third, check whether a caveat fallback is legally and commercially possible. Fourth, compare total cost and exit risk. Fifth, decide whether speed justifies changing the structure.
+First, identify whether the second mortgage is still viable. Second, confirm the hard deadline. Third, check whether refinance, a different security property, or private lending is workable. Fourth, compare total cost and exit risk. Fifth, decide whether speed justifies changing the structure.
 
 That approach helps avoid a common mistake: replacing one delayed process with another rushed process that has not been properly documented.
 
