@@ -153,7 +153,7 @@ The difference is not polish. It is evidence. Broker files move faster when the 
 
 ## What Documents Are Needed For A Second Mortgage?
 
-A business second mortgage application usually needs borrower ID, company or trust documents, property title details, first mortgage statements, evidence of property value, loan purpose documents, business bank statements, management accounts, tax or BAS information where relevant, and exit strategy evidence. The lender uses these documents to assess ownership, equity, priority position, serviceability, commercial purpose, and repayment pathway. Emet Capital helps business borrowers prepare second mortgage files and compare second mortgages with refinancing, caveat loans, commercial property finance, and private lending. This is general information only and not financial advice.
+A business second mortgage application usually needs borrower ID, company or trust documents, property title details, first mortgage statements, evidence of property value, loan purpose documents, business bank statements, management accounts, tax or BAS information where relevant, and exit strategy evidence. The lender uses these documents to assess ownership, equity, priority position, serviceability, commercial purpose, and repayment pathway. Emet Capital helps business borrowers prepare second mortgage files and compare second mortgages with refinancing, commercial property finance, and private lending. This is general information only and not financial advice.
 
 ## Second Mortgage Readiness Checklist
 
@@ -199,6 +199,6 @@ A second mortgage can be used for business working capital where the purpose, se
 A second mortgage may be faster than refinancing the entire first mortgage in some cases, but timing depends on the lender, valuation, legal documents, first mortgage consent, borrower readiness, and property complexity. A complete file can reduce avoidable delays.
 
 ### How does Emet Capital help with second mortgage documents?
-Emet Capital helps eligible business borrowers identify the documents lenders are likely to need, package the file around purpose and exit, and compare second mortgage options against refinancing, caveat loans, commercial property finance, and private lending.
+Emet Capital helps eligible business borrowers identify the documents lenders are likely to need, package the file around purpose and exit, and compare second mortgage options against refinancing, commercial property finance, and private lending.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

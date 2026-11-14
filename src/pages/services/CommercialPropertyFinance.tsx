@@ -37,7 +37,7 @@ const CommercialPropertyFinance = () => {
     {
       question: "What if my bank approval will not be ready before settlement?",
       answer:
-        "Some borrowers use a short-term bridge, private mortgage, second mortgage, caveat loan, or other property-backed facility while the longer-term refinance or bank loan continues. The right structure depends on the asset, timing, leverage, and exit plan.",
+        "Some borrowers use a short-term bridge, private mortgage, second mortgage, or other property-backed facility while the longer-term refinance or bank loan continues. The right structure depends on the asset, timing, leverage, and exit plan.",
     },
     {
       question: "Can a business owner use property-backed finance to settle a commercial purchase?",
@@ -127,7 +127,7 @@ const CommercialPropertyFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Emet Capital acts as a commercial finance broker, not a bank or direct lender. We help
                 borrowers compare bank, non-bank, and private lender options for commercial property
-                purchases, urgent settlements, refinance gaps, second mortgages, caveat-backed facilities,
+                purchases, urgent settlements, refinance gaps, second mortgages,
                 and short-term property-backed business funding. Commercial property finance can be useful
                 when timing, security, and commercial purpose are clear, but it is not guaranteed and may be
                 unsuitable where equity, documentation, serviceability, legal structure, or repayment pathway
@@ -409,8 +409,8 @@ const CommercialPropertyFinance = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 That may involve comparing a bridge with a direct refinance, considering whether private
-                lending is more suitable than bank debt, or identifying whether a second mortgage or caveat
-                structure is even appropriate. Emet does not provide personal financial advice and does not
+                lending is more suitable than bank debt, or identifying whether a second mortgage
+                is even appropriate. Emet does not provide personal financial advice and does not
                 guarantee funding outcomes.
               </p>
             </ServiceChapter>
@@ -440,7 +440,7 @@ const CommercialPropertyFinance = () => {
                   {
                     label: "Caveat loans for business emergencies",
                     href: "/resources/guides/caveat-loan-emergency-business-funding",
-                    text: "When a caveat-style structure may be considered for urgent business funding.",
+                    text: "Educational guide to caveat-style structures used for urgent business funding.",
                   },
                   {
                     label: "Short-term property-backed business loans",

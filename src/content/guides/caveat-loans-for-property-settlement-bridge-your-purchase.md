@@ -155,11 +155,11 @@ Finally, get legal and accounting input before signing. Caveat finance is secure
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible commercial borrowers compare caveat loans, bridging finance, private lending, second mortgages, and property-backed refinance options for settlement pressure.
+Emet Capital helps eligible commercial borrowers compare bridging finance, private lending, second mortgages, and property-backed refinance options for settlement pressure.
 
 The goal is not to force every urgent file into a caveat loan. Sometimes the better answer is a standard bridge. Sometimes it is a [private lending](/resources/guides/what-is-private-lending-australia) structure, a second mortgage, a vendor extension, or a broader refinance.
 
-We focus on the funding purpose, the available security, the settlement deadline, and the exit. That helps identify whether the transaction needs urgent caveat finance or a more stable commercial facility.
+We focus on the funding purpose, the available security, the settlement deadline, and the exit. That helps identify whether the transaction needs a short-term property-secured facility or a more stable commercial facility.
 
 ## Practical Summary
 

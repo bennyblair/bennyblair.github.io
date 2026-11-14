@@ -147,7 +147,7 @@ The decision is not “secured is better” or “unsecured is safer.” The rig
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible business borrowers compare residential-property-backed business finance against second mortgages, private lending, caveat finance, unsecured finance, equipment finance and refinance options.
+Emet Capital helps eligible business borrowers compare residential-property-backed business finance against second mortgages, private lending, unsecured finance, equipment finance and refinance options.
 
 The aim is not to use the biggest available security. The aim is to match the business purpose to a structure that has a sensible repayment path, clear documents and lender appetite.
 

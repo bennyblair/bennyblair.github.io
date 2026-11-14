@@ -118,7 +118,7 @@ Private lenders specialize in time-sensitive deals, complex scenarios, and situa
 
 ### Emet Capital
 
-Emet Capital provides commercial property finance including first and second mortgages, bridging finance, and caveat loans. Active across all Australian capital cities and regional centers. LVR up to 70-75% first position, combined LVR to 80%+ in second position scenarios.
+Emet Capital is a commercial finance broker that can help eligible borrowers compare first and second mortgages and bridging finance. Active across all Australian capital cities and regional centers. LVR up to 70-75% first position, combined LVR to 80%+ in second position scenarios.
 
 Specialization in time-sensitive transactions, refinance deadlines, auction settlements, and complex ownership structures. Typical approval 24-72 hours with settlement possible within days when documentation permits.
 

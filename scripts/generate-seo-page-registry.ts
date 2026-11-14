@@ -188,6 +188,14 @@ function lifecycleFor(pathValue: string, indexability: string, decision = "none"
 }
 
 function staticTargeting(route: JsonRecord) {
+  if (route.path === "/docs") {
+    return {
+      primaryQuery: "Emet Capital API and agent documentation",
+      intent: "informational",
+      designatedServicePagePath: null,
+      serviceOwnershipException: "resource page is not a service-supporting search landing page",
+    };
+  }
   const query = route.path === "/" ? "commercial finance broker Australia" : routeWords(route.path);
   let intent = "informational";
   let servicePath: string | null = null;

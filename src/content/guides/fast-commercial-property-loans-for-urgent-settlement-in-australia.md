@@ -177,7 +177,7 @@ A developer needs to refinance a maturing facility but residual stock sales are 
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible business borrowers compare commercial property, bridging, caveat, second mortgage, refinance, and private lending pathways. The first step is usually to identify what is actually urgent: settlement, payout, legal pressure, business continuity, or an opportunity deadline.
+Emet Capital helps eligible business borrowers compare commercial property, bridging, second mortgage, refinance, and private lending pathways. The first step is usually to identify what is actually urgent: settlement, payout, legal pressure, business continuity, or an opportunity deadline.
 
 From there, the file can be shaped around lender decision points. That means matching the right lender to the property security, timing, documents, and exit rather than sending a half-prepared urgent request to every lender in the market.
 
@@ -209,7 +209,7 @@ Prepare the contract, settlement deadline, title search, current mortgage statem
 
 ### Can Emet Capital help after a bank decline?
 
-Yes. Emet Capital can help eligible commercial borrowers compare private, non-bank, bridging, caveat, second mortgage, and refinance options after a bank decline, subject to security, purpose, and lender assessment.
+Yes. Emet Capital can help eligible commercial borrowers compare private, non-bank, bridging, second mortgage, and refinance options after a bank decline, subject to security, purpose, and lender assessment.
 
 ## Related Guides
 

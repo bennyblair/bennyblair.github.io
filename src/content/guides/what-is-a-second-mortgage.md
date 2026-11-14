@@ -161,7 +161,7 @@ Preparation matters because second mortgage lending can move quickly only when t
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible business borrowers compare second mortgages, refinances, caveat loans, private lending, working capital finance and asset-backed options. The aim is to match the structure to the business purpose, property position and repayment pathway.
+Emet Capital helps eligible business borrowers compare second mortgages, refinances, private lending, working capital finance and asset-backed options. The aim is to match the structure to the business purpose, property position and repayment pathway.
 
 For some borrowers, a second mortgage may be the right way to access equity while keeping the first mortgage in place. For others, [private lending](/resources/guides/what-is-private-lending-australia), a refinance, [business debt consolidation](/resources/guides/business-debt-consolidation-australia), or invoice finance may be more suitable.
 

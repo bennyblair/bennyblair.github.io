@@ -282,7 +282,7 @@ const AssetBackedLending = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Caveat Loans Guide</h3>
-                <p className="text-sm text-muted-foreground mb-2">Property-secured finance using caveat arrangements where timing is compressed.</p>
+                <p className="text-sm text-muted-foreground mb-2">Educational guide to short-term caveat-secured facilities in the Australian market.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>

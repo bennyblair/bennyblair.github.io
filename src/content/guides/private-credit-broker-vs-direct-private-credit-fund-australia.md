@@ -180,7 +180,7 @@ Ask whether the fund is active in your loan size, property type, term, priority 
 
 ### Can Emet Capital help compare broker-led and direct private credit options?
 
-Emet Capital can help eligible commercial borrowers assess private lending pathways, prepare a lender-ready file, and compare structures across private credit, second mortgages, caveat loans, bridging finance, and commercial property refinance. This is general information only and not financial advice.
+Emet Capital can help eligible commercial borrowers assess private lending pathways, prepare a lender-ready file, and compare structures across private credit, second mortgages, bridging finance, and commercial property refinance. This is general information only and not financial advice.
 
 ## Disclaimer
 

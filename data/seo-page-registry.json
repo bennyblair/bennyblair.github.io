@@ -783,7 +783,7 @@
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
-        "primaryQuery": "docs",
+        "primaryQuery": "Emet Capital API and agent documentation",
         "intent": "informational",
         "designatedServicePagePath": null,
         "serviceOwnershipException": "resource page is not a service-supporting search landing page",
@@ -3245,13 +3245,13 @@
       "sourcePath": "src/content/guides/bridge-lending-australia-commercial-property.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "bridge lending australia for commercial property",
         "intent": "informational",
-        "designatedServicePagePath": "/services/bridging-finance",
-        "designatedServicePageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
+        "designatedServicePagePath": "/services/commercial-property-finance",
+        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -3261,11 +3261,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-10T20:30:52Z",
-        "expiresAt": "2027-05-09T20:30:52Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-18",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -4909,8 +4909,8 @@
       "targeting": {
         "primaryQuery": "urgent business funding Australia",
         "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/working-capital",
-        "designatedServicePageId": "pg_cdc22adf500d4db8aa6380ff6b39c265",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -6480,11 +6480,11 @@
       "sourcePath": "src/content/guides/commercial-mortgages-vs-residential-key-differences-explained.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
-        "primaryQuery": "commercial vs residential property loans Australia",
-        "intent": "commercial investigation",
+        "primaryQuery": "Commercial Mortgages vs Residential: Key Differences Explained",
+        "intent": "informational",
         "designatedServicePagePath": "/services/commercial-property-finance",
         "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
         "serviceOwnershipException": null,
@@ -6496,11 +6496,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 4,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-06T12:06:33Z",
-        "expiresAt": "2027-04-04T12:06:33Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-15",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -7444,8 +7444,8 @@
       "sourcePath": "src/content/guides/commercial-property-loans-brisbane-queensland-market-guide.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "commercial property loan brisbane",
         "intent": "informational",
@@ -7460,11 +7460,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-10T20:30:00.000Z",
-        "expiresAt": "2027-05-09T20:30:00.000Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-15",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -9849,10 +9849,10 @@
       "sourcePath": "src/content/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
-        "primaryQuery": "commercial mortgage broker australia",
+        "primaryQuery": "commercial mortgage brokers",
         "intent": "informational",
         "designatedServicePagePath": "/services/commercial-property-finance",
         "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
@@ -9865,11 +9865,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-10T20:40:10.356Z",
-        "expiresAt": "2027-05-09T20:40:10.356Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-15",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -10502,8 +10502,8 @@
       "sourcePath": "src/content/guides/low-doc-business-finance.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "Low Doc Business Finance in Australia",
         "intent": "informational",
@@ -10518,11 +10518,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-12T20:40:52.424Z",
-        "expiresAt": "2027-05-11T20:40:52.424Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-15",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -11071,8 +11071,8 @@
       "sourcePath": "src/content/guides/open-vs-closed-bridging-loan-complete-comparison.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "open vs closed bridging loan",
         "intent": "informational",
@@ -11087,11 +11087,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-04T22:36:36Z",
-        "expiresAt": "2027-05-03T22:36:36Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-15",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -11726,8 +11726,8 @@
       "sourcePath": "src/content/guides/private-debt-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "private debt Australia",
         "intent": "informational",
@@ -11742,11 +11742,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-21T20:54:13.744Z",
-        "expiresAt": "2027-04-19T20:54:13.744Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-06-15",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -12162,8 +12162,8 @@
       "sourcePath": "src/content/guides/private-lending-mortgage.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "private lending mortgage",
         "intent": "informational",
@@ -12178,11 +12178,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-05T22:38:20Z",
-        "expiresAt": "2027-05-04T22:38:20Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-06-25",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -12383,13 +12383,13 @@
       "sourcePath": "src/content/guides/private-mortgage-lending.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "private mortgage lending",
         "intent": "informational",
-        "designatedServicePagePath": "/services/private-lending",
-        "designatedServicePageId": "pg_2fae09425aeb436a998243dcccca43df",
+        "designatedServicePagePath": "/services/business-finance",
+        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -12399,11 +12399,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-11-12T20:32:39.951Z",
-        "expiresAt": "2027-05-11T20:32:39.951Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-06-17",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -14141,8 +14141,8 @@
       "sourcePath": "src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "settlement shortfall finance",
         "intent": "informational",
@@ -14157,11 +14157,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-20T21:20:04Z",
-        "expiresAt": "2027-04-18T21:20:04Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-15",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -15576,8 +15576,8 @@
       "sourcePath": "src/content/guides/what-is-bridging-finance.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "verified",
-      "metadataConfidence": "high",
+      "metadataStatus": "needs_review",
+      "metadataConfidence": "low",
       "targeting": {
         "primaryQuery": "what is bridging finance",
         "intent": "informational",
@@ -15592,11 +15592,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 1,
+        "sourceCount": 0,
         "reviewEveryDays": 180,
-        "reviewedBy": "OpenClaw independent reviewer",
-        "reviewedAt": "2026-10-20T20:58:56Z",
-        "expiresAt": "2027-04-18T20:58:56Z"
+        "reviewedBy": null,
+        "reviewedAt": "2026-05-17",
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -22396,5 +22396,5 @@
       "programIds": []
     }
   ],
-  "checksum": "4f8418b682b87ee2b4e8214eab591496e9e4048d5bfa76d847c74b427a6fa358"
+  "checksum": "000e2521eb90b013c8cd7d7ff52e97d55b400e602ced36cae982da329d297692"
 }

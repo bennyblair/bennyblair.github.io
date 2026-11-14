@@ -156,7 +156,7 @@ Before proceeding, ask these questions:
 - Have all fees, legal costs, default terms, and minimum interest periods been reviewed?
 - Would a second mortgage, bridging loan, refinance, or business finance facility be safer if timing allowed?
 
-A broker's role is to pressure-test those questions, not just find a lender. Emet Capital helps borrowers compare structure, timing, and risk across caveat lending, [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), and private lending options.
+A broker's role is to pressure-test those questions, not just find a lender. Emet Capital helps borrowers compare structure, timing, and risk across [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), first and second mortgages, and private lending options.
 
 ## Frequently Asked Questions
 

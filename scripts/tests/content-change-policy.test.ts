@@ -1,6 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { isInternalLinkOnlyChange, normalizeInternalLinkDestinations } from "../lib/content-change-policy.mjs";
+import {
+  applyRetiredCaveatProductCopy,
+  isInternalLinkOnlyChange,
+  isRetiredProductCopyChange,
+  normalizeInternalLinkDestinations,
+} from "../lib/content-change-policy.mjs";
 
 test("normalizes supported internal markdown, HTML and reference-link destinations", () => {
   const content = [
@@ -42,4 +47,31 @@ test("does not exempt a route migration when substantive copy also changes", () 
   const after = "Always compare [refinancing](/services/refinancing-solutions) before applying.";
 
   assert.equal(isInternalLinkOnlyChange(before, after), false);
+});
+
+test("retires caveat product CTAs while keeping educational guide links", () => {
+  const before = [
+    "---",
+    'designatedServicePage: "/services/caveat-loans"',
+    "---",
+    "Borrowers seeking a transaction assessment can review Emet Capital's [caveat loan service](/services/caveat-loans); this guide provides general information, not legal, tax or financial advice.",
+    "- [Caveat Loan Service](/services/caveat-loans)",
+    "See the [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide).",
+  ].join("\n");
+  const after = applyRetiredCaveatProductCopy(before);
+
+  assert.equal(isRetiredProductCopyChange(before, after), true);
+  assert.match(after, /designatedServicePage: "\/services\/first-second-mortgages"/);
+  assert.match(after, /first and second mortgages page\]\(\/services\/first-second-mortgages\)/);
+  assert.doesNotMatch(after, /caveat loan service/i);
+  assert.match(after, /caveat loans Australia guide\]\(\/resources\/guides\/caveat-loans-australia-complete-guide\)/);
+  assert.equal(isInternalLinkOnlyChange(before, after), false);
+  assert.equal(isRetiredProductCopyChange(before, `${after}\nA new financial claim.`), false);
+});
+
+test("retargets retired city product URLs to the live mortgages page", () => {
+  const before = "- [Caveat Loans Sydney](/services/caveat-loans/cities/sydney)";
+  const after = applyRetiredCaveatProductCopy(before);
+  assert.equal(after, "- [first and second mortgages page](/services/first-second-mortgages)");
+  assert.equal(isRetiredProductCopyChange(before, after), true);
 });

@@ -10,7 +10,7 @@ author: "Ben"
 primaryQuery: "caveat loans Australia"
 searchIntent: "commercial investigation"
 intentCluster: "caveat-loans"
-designatedServicePage: "/services/caveat-loans"
+designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 canonical: "https://emetcapital.com.au/resources/guides/caveat-loans-australia-complete-guide"
 reviewedBy: "OpenClaw SEO content audit"
@@ -32,7 +32,7 @@ protectedUntil: "2026-10-19T00:00:00+11:00"
 
 Caveat loans in Australia are short-term, business-purpose facilities commonly supported by lodging a caveat over real property. They may help when a defined commercial deadline cannot wait for a mainstream lending process, but they are not automatically suitable because a borrower has equity or needs money urgently.
 
-The first decision is whether the loan solves a temporary timing problem with an evidenced exit. The second is whether the borrower understands the full cost and the legal consequences attached to the documents. Borrowers seeking a transaction assessment can review Emet Capital's [caveat loan service](/services/first-second-mortgages); this guide provides general information, not legal, tax or financial advice.
+The first decision is whether the loan solves a temporary timing problem with an evidenced exit. The second is whether the borrower understands the full cost and the legal consequences attached to the documents. If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). This guide provides general information, not legal, tax or financial advice.
 
 ## Quick answer: how does a caveat loan work?
 
@@ -120,6 +120,6 @@ Compare eligibility, security position, net proceeds, interest method, all fees,
 - [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
-- [Caveat Loan Service](/services/first-second-mortgages)
+- [first and second mortgages page](/services/first-second-mortgages)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

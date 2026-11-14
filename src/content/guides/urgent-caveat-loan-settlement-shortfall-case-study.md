@@ -25,7 +25,7 @@ metaDescription: "An anonymised Australian settlement shortfall scenario showing
 
 An urgent caveat loan settlement shortfall occurs when a commercial borrower is close to settlement but does not have enough available funds to complete on time. In that situation, a caveat loan may be assessed as short-term property-backed finance where the borrower has usable equity, a business purpose, clear documents, and a realistic repayment path.
 
-This anonymised case study shows the decision process, not a promise of approval or speed. Emet Capital helps business borrowers compare whether an [urgent caveat loan](/resources/guides/urgent-caveat-loans), [settlement shortfall finance](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement), bridging finance, a second mortgage, or another private lending structure is more suitable for the file.
+This anonymised case study shows the decision process, not a promise of approval or speed. This case study compares whether an [urgent caveat loan](/resources/guides/urgent-caveat-loans), [settlement shortfall finance](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement), bridging finance, a second mortgage, or another private lending structure is more suitable for the file.
 
 ### Related In-Depth Guides
 

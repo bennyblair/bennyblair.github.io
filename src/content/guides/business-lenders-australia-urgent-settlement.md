@@ -23,7 +23,7 @@ Business lenders in Australia for urgent settlement are commercial lenders that 
 
 Urgent settlement finance is not just a faster version of a normal bank loan. It is usually assessed around security, purpose, documents, timing, and exit. The best files explain why the money is needed, why the deadline matters, and how the facility will be repaid or refinanced after settlement.
 
-Emet Capital helps Australian business owners compare urgent business lender options against [private lending](/resources/guides/what-is-private-lending-australia), [business finance](/resources/guides/working-capital-loans-for-smes), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide). This guide explains when urgent settlement lending may fit and when it should be avoided.
+Emet Capital helps Australian business owners compare urgent business lender options against [private lending](/resources/guides/what-is-private-lending-australia), [business finance](/resources/guides/working-capital-loans-for-smes), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide). This guide explains when urgent settlement lending may fit and when it should be avoided.
 
 ### Related In-Depth Guides
 

@@ -112,7 +112,7 @@ It is also important to avoid using the full available equity just because it is
 
 ## How Emet Capital Helps
 
-Emet Capital helps commercial borrowers compare private, non-bank and commercial property lending options when timing is tight. The goal is not to push every borrower into bridging finance. The goal is to identify whether a bridge, refinance, second mortgage, caveat loan, or standard commercial loan is the most practical fit for the transaction.
+Emet Capital helps commercial borrowers compare private, non-bank and commercial property lending options when timing is tight. The goal is not to push every borrower into bridging finance. The goal is to identify whether a bridge, refinance, second mortgage, or standard commercial loan is the most practical fit for the transaction.
 
 A broker-led process can help package the scenario clearly for lenders. That matters because lenders make faster decisions when the security, purpose, exit and documents are easy to understand.
 

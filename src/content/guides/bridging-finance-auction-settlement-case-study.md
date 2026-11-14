@@ -119,7 +119,7 @@ The third lesson is to treat the exit as the centre of the file. The lender is n
 
 ## How Emet Capital Frames Auction Settlement Files
 
-Emet Capital usually starts with the settlement deadline, property security, borrower contribution, and exit strategy. If those parts are clear, we can compare whether a bridge, second mortgage, caveat loan, private mortgage facility, or longer-term commercial property loan is the cleaner option.
+Emet Capital usually starts with the settlement deadline, property security, borrower contribution, and exit strategy. If those parts are clear, we can compare whether a bridge, second mortgage, private mortgage facility, or longer-term commercial property loan is the cleaner option.
 
 A strong file has a specific purpose, documents ready, enough equity, and an exit that can be explained in plain English. A weak file relies on urgency and assumes the lender will solve the timing problem without enough evidence.
 

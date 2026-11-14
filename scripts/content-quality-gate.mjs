@@ -8,7 +8,7 @@ import {
   normalizePhrase,
   resolveDesignatedService,
 } from "./lib/seo-policy.mjs";
-import { isInternalLinkOnlyChange } from "./lib/content-change-policy.mjs";
+import { isInternalLinkOnlyChange, isRetiredProductCopyChange } from "./lib/content-change-policy.mjs";
 import { isExactEditorialMigration } from "./lib/content-repair-policy.mjs";
 import { validateArticlePublicationContract } from "./lib/article-publication-contract.mjs";
 import { readPublicImageInfo } from "./lib/image-metadata.mjs";
@@ -82,7 +82,9 @@ function changedContentFiles() {
         }
 
         const current = fs.readFileSync(absolute, "utf8");
-        if (isInternalLinkOnlyChange(previous, current)) linkOnlyChanges += 1;
+        if (isInternalLinkOnlyChange(previous, current) || isRetiredProductCopyChange(previous, current)) {
+          linkOnlyChanges += 1;
+        }
         else {
           materialChanges.add(absolute);
           if (isExactEditorialMigration(previous, current)) {
@@ -308,5 +310,5 @@ if (errors.length) {
 }
 
 console.log(
-  `Content quality gate passed for ${parsed.length} articles (${changed.size} material changes; ${changeSet.linkOnlyChanges} internal-link-only migrations exempted).`,
+  `Content quality gate passed for ${parsed.length} articles (${changed.size} material changes; ${changeSet.linkOnlyChanges} internal-link-only or retired-product CTA migrations exempted).`,
 );

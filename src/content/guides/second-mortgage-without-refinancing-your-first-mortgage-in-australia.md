@@ -200,7 +200,7 @@ Incomplete files slow second mortgage assessment. The lender needs enough detail
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible business borrowers compare second mortgages, full refinance, caveat loans, private lending, working capital facilities and asset-backed options.
+Emet Capital helps eligible business borrowers compare second mortgages, full refinance, private lending, working capital facilities and asset-backed options.
 
 The assessment starts with the first mortgage balance, property value, available equity, business purpose, deadline and exit. From there, Emet Capital can identify whether a second-ranking structure is commercially sensible or whether another pathway is cleaner.
 

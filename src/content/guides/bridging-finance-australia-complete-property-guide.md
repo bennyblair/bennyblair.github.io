@@ -111,7 +111,7 @@ A business sale, capital contribution or receivable should be supported by docum
 
 The central risks are exit delay, valuation shortfall, cost accumulation, contract default and property enforcement. Capitalised interest can erode the equity buffer, while an unexpected vacancy or weaker sale market can reduce proceeds. A default may also trigger fees, a higher rate or enforcement rights under the contract.
 
-Alternatives include a negotiated settlement extension, [commercial property refinance](/services/refinancing-solutions), [caveat finance](/services/first-second-mortgages), a registered second mortgage, vendor finance or restructuring the transaction. The appropriate alternative depends on purpose, time, security and cash flow.
+Alternatives include a negotiated settlement extension, [commercial property refinance](/services/refinancing-solutions), a registered [first or second mortgage](/services/first-second-mortgages), vendor finance or restructuring the transaction. The appropriate alternative depends on purpose, time, security and cash flow.
 
 ## Bridging finance action checklist
 

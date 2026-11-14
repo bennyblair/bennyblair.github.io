@@ -17,7 +17,7 @@ author_name: "Daniel"
 
 A caveat loan is usually a short-term speed tool, while a second mortgage is usually a more formal property-backed loan sitting behind an existing first mortgage. The right choice depends on timing, security position, exit strategy, and whether the borrower needs urgent bridging support or a more structured funding facility.
 
-For Australian business owners, property investors, and developers, the comparison is not simply “which one is cheaper?” It is “which structure solves the commercial problem without creating a worse exit problem later?” Emet Capital helps borrowers compare [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide) options based on the actual file, not a generic product label.
+For Australian business owners, property investors, and developers, the comparison is not simply “which one is cheaper?” It is “which structure solves the commercial problem without creating a worse exit problem later?” Borrowers can compare the [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide) based on the actual file, not a generic product label.
 
 ## Caveat Loan vs Second Mortgage
 
@@ -163,7 +163,7 @@ Caveat finance is usually a poor substitute for a missing long-term plan. If the
 
 ## How Emet Capital Helps Borrowers Compare the Options
 
-Emet Capital helps commercial borrowers package the file so lenders can quickly understand the security, purpose, timing, and exit. That may mean testing a caveat-loan pathway, a second mortgage pathway, or another private lending structure.
+Emet Capital helps commercial borrowers package the file so lenders can quickly understand the security, purpose, timing, and exit. That may mean testing a second mortgage pathway or another private lending structure.
 
 The aim is not to force the borrower into the fastest product. The aim is to identify which lender type and security structure best matches the transaction. In some cases, that may be [urgent caveat finance](/resources/guides/urgent-caveat-loans). In others, it may be [second mortgage finance](/services/first-second-mortgages), [bridging finance](/services/bridging-finance), [private lending](/services/private-lending), or [commercial property finance](/services/commercial-property-finance).
 

@@ -143,7 +143,7 @@ If the funding need involves multiple debts, the borrower should also read [busi
 
 ## Can Private Lending Help After A Bank Decline?
 
-Private lending can sometimes help after a bank decline when the borrower has a clear commercial purpose, usable security, sufficient equity, acceptable risk, and a credible repayment or refinance exit. A bank decline does not automatically mean a private lender will approve the loan. The file should first be diagnosed to identify whether the problem was policy, timing, documentation, serviceability, property security, or exit strategy. Emet Capital helps eligible business borrowers compare private lending, commercial property finance, second mortgages, caveat loans, and refinancing options. This is general information only and not financial advice.
+Private lending can sometimes help after a bank decline when the borrower has a clear commercial purpose, usable security, sufficient equity, acceptable risk, and a credible repayment or refinance exit. A bank decline does not automatically mean a private lender will approve the loan. The file should first be diagnosed to identify whether the problem was policy, timing, documentation, serviceability, property security, or exit strategy. Emet Capital helps eligible business borrowers compare private lending, commercial property finance, second mortgages, and refinancing options. This is general information only and not financial advice.
 
 ## Readiness Checklist After A Bank Decline
 
@@ -187,7 +187,7 @@ Low-doc does not mean no documents. It usually means the lender may rely on alte
 The first step is to identify why the bank declined the application. Then prepare a clearer file showing commercial purpose, security, financial position, repayment capacity, and exit strategy before approaching another lender.
 
 ### How does Emet Capital help bank-declined borrowers?
-Emet Capital helps eligible commercial borrowers diagnose the decline reason, package the file, compare lender pathways, and assess whether private lending, second mortgage finance, caveat finance, bridging finance, or commercial refinancing may be relevant. This is general information only and not financial advice.
+Emet Capital helps eligible commercial borrowers diagnose the decline reason, package the file, compare lender pathways, and assess whether private lending, second mortgage finance, bridging finance, or commercial refinancing may be relevant. This is general information only and not financial advice.
 
 ## Disclaimer
 

@@ -10,7 +10,7 @@ author: "Ben"
 primaryQuery: "urgent caveat loans Australia"
 searchIntent: "commercial investigation"
 intentCluster: "caveat-loans"
-designatedServicePage: "/services/caveat-loans"
+designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 canonical: "https://emetcapital.com.au/resources/guides/urgent-caveat-loans"
 reviewedBy: "OpenClaw independent reviewer"
@@ -31,7 +31,7 @@ featuredImageAlt: "Brick facade of the former Broughton House warehouse in Sydne
 
 > **Direct answer:** An urgent caveat loan is short-term, business-purpose finance considered when a documented commercial deadline is too close for a standard process. "Urgent" describes the borrower's situation. It is not a promise of approval, funding or a settlement time. Timing is controlled by title, valuation, legal work, lender credit and registration, and those steps apply across Australia.
 
-The most reliable way to reduce avoidable delay is a decision-ready file. That means the property owner, title position, existing debt, business purpose, required amount and repayment exit can all be evidenced immediately. Emet Capital is a commercial finance broker, not a lender. It does not lend, fund, approve or control settlement timing. Emet Capital's [caveat loan service](/services/first-second-mortgages) can help prepare a business-purpose file and compare whether it is ready to take to lenders. This guide is general information and does not replace legal, tax or financial advice.
+The most reliable way to reduce avoidable delay is a decision-ready file. That means the property owner, title position, existing debt, business purpose, required amount and repayment exit can all be evidenced immediately. Emet Capital is a commercial finance broker, not a lender. It does not lend, fund, approve or control settlement timing. If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). Emet Capital can help prepare a business-purpose file and compare whether it is ready to take to lenders. This guide is general information and does not replace legal, tax or financial advice.
 
 ## What "urgent" actually controls
 
@@ -144,6 +144,6 @@ The descriptions can overlap, but the comparison should focus on legal structure
 - [Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)
 - [Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
 - [Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)
-- [Caveat Loan Service](/services/first-second-mortgages)
+- [first and second mortgages page](/services/first-second-mortgages)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. It arranges commercial-purpose finance and does not lend, fund or approve loans. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

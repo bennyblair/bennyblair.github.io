@@ -94,7 +94,7 @@ For property-backed scenarios, valuation support is important. That might includ
 
 ## How Emet Capital Frames the Options
 
-Emet Capital's role is to help the borrower compare the file across realistic lender types rather than forcing it into one product. Sometimes the answer is a private commercial loan. Sometimes it is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), bridging facility, invoice finance, asset finance, or a reworked bank submission.
+Emet Capital's role is to help the borrower compare the file across realistic lender types rather than forcing it into one product. Sometimes the answer is a private commercial loan. Sometimes it is a [second mortgage](/resources/guides/second-mortgages-for-business-guide), bridging facility, invoice finance, asset finance, or a reworked bank submission.
 
 The comparison should cover speed, total cost, security risk, repayment flexibility, and exit quality. A lower-cost loan that misses the deadline may be useless. A fast loan with no exit may be dangerous. The right structure balances both.
 

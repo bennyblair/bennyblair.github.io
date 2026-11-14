@@ -105,7 +105,7 @@ The [commercial property due diligence checklist](/resources/guides/commercial-p
 
 ## How Emet Capital Triage Works
 
-Emet Capital looks at the commercial purpose, security, timing and exit before suggesting a structure. The goal is not to force every urgent enquiry into a caveat loan. The goal is to find the most workable funding path for the facts.
+Emet Capital looks at the commercial purpose, security, timing and exit before suggesting a structure. The goal is not to force every urgent enquiry into one product label. The goal is to find the most workable funding path for the facts.
 
 A borrower with strong equity and a two-week deadline may suit a caveat-led approach. A borrower with more time and a clean refinance path may be better served by [commercial property refinancing](/services/refinancing-solutions). A borrower wanting to preserve an existing first mortgage may need [first and second mortgage funding](/resources/guides/second-mortgages-for-business-guide).
 
@@ -149,7 +149,7 @@ Neither is automatically better. A caveat loan may suit urgent short-term scenar
 
 - [Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
 - [Quick Caveat Loans: 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)
-- [Caveat Loans Sydney](/services/first-second-mortgages)
+- [first and second mortgages page](/services/first-second-mortgages)
 - [Commercial Property Due Diligence Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 

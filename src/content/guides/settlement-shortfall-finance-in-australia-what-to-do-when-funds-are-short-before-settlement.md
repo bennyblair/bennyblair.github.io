@@ -159,7 +159,7 @@ If GST is part of the issue, read [GST Loan for Commercial Property Settlement](
 
 ## How Emet Capital Helps
 
-Emet Capital is a commercial finance broker, not a lender. It helps commercial borrowers identify whether the shortfall is a refinance issue, bridging issue, caveat issue, second mortgage issue or negotiation issue. That distinction matters because the wrong structure can make a time-sensitive problem more expensive.
+Emet Capital is a commercial finance broker, not a lender. It helps commercial borrowers identify whether the shortfall is a refinance issue, bridging issue, second mortgage issue or negotiation issue. That distinction matters because the wrong structure can make a time-sensitive problem more expensive.
 
 A broker-side assessment starts with the settlement date, shortfall amount, property security, current lender position and exit strategy. From there, the file can be matched to lenders that are actually likely to understand the scenario. You can use a business loan broker to help you find the right loan; approval, terms and settlement remain with the lender.
 

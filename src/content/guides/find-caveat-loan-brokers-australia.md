@@ -14,7 +14,7 @@ author_name: "Daniel"
 primaryQuery: "caveat loan broker Australia"
 searchIntent: "commercial investigation"
 intentCluster: "caveat-loan-broker-selection"
-designatedServicePage: "/services/caveat-loans"
+designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 reviewedBy: "OpenClaw independent reviewer"
 reviewedAt: "2026-10-19T20:57:37Z"
@@ -54,7 +54,7 @@ A useful broker process is the same whether the firm is Emet Capital or another 
 
 1. **Facts.** Confirm the legal borrowers, directors, trustees and guarantors; the exact amount needed; the required date; and who will sign.
 2. **Title and security.** Establish ownership, existing mortgages and caveats, ranking and consent issues. Check that the proposed caveatable interest is documented and flag it for the borrower’s lawyer.
-3. **Purpose.** Document a genuine business purpose. Emet Capital arranges commercial and business-purpose caveat loans and does not arrange consumer finance.
+3. **Purpose.** Document a genuine business purpose. Emet Capital arranges commercial and business-purpose finance and does not arrange consumer finance.
 4. **Exit.** Identify the primary repayment event, the evidence already in hand, remaining steps and a fallback if that event is late.
 5. **Lender fit.** Explain which lender types may be able to assess this combination of property, title, purpose and exit—and which facts would exclude others.
 6. **Submission.** Send one consistent pack. Incomplete or contradictory versions sent to several lenders make the file harder to assess.
@@ -131,13 +131,13 @@ Ask whether every quote uses the same facility amount, security and exit date. A
 
 Emet Capital is a commercial finance broker, not a lender. It does not fund caveat loans or any other loan.
 
-On a caveat or other short-term property-secured commercial file, the firm assesses the purpose, title position, property support, required date and exit before approaching specialist lenders that may be able to assess the file. The objective is to compare structures that can actually be assessed, not to send an urgent application indiscriminately across the market.
+On a short-term property-secured commercial file, the firm assesses the purpose, title position, property support, required date and exit before approaching specialist lenders that may be able to assess the file. The objective is to compare structures that can actually be assessed, not to send an urgent application indiscriminately across the market.
 
 That work includes identifying missing documents, surfacing legal or consent dependencies, and comparing indicative terms on total cost and exit risk. Lender assessment, valuation, legal work and settlement remain subject to the facts of the transaction. Neither approval nor a particular settlement date can be promised. An enquiry starts a discussion about options; it is not an approval or a commitment to lend.
 
 Emet Capital has access to over 50 lenders. Availability and lender appetite vary by transaction.
 
-For a business-purpose caveat-file discussion, use the [caveat loans service](/services/first-second-mortgages). This is commercial work only; consumer finance is not offered. Emet Capital can assess business-purpose enquiries from across Australia. Actual availability depends on the property jurisdiction, title position, lender coverage and the complete transaction.
+If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). This is commercial work only; consumer finance is not offered. Emet Capital can assess business-purpose enquiries from across Australia. Actual availability depends on the property jurisdiction, title position, lender coverage and the complete transaction.
 
 ## Hypothetical example — not a client outcome
 

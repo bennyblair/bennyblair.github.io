@@ -113,7 +113,7 @@ For commercial property, include leases and rent schedules where relevant. For b
 
 ## How Emet Capital Helps
 
-Emet Capital helps commercial borrowers compare whether a private mortgage loan, second mortgage, caveat loan, commercial refinance, or working-capital structure is the cleaner fit. The aim is not to force every urgent file into private lending. The aim is to identify the structure that matches the timing, security, purpose, and exit.
+Emet Capital helps commercial borrowers compare whether a private mortgage loan, second mortgage, commercial refinance, or working-capital structure is the cleaner fit. The aim is not to force every urgent file into private lending. The aim is to identify the structure that matches the timing, security, purpose, and exit.
 
 For some borrowers, the right answer is to slow down and prepare a bank refinance. For others, a short-term private mortgage may protect a settlement, unlock equity, or bridge a documented gap while a longer-term outcome is arranged.
 
