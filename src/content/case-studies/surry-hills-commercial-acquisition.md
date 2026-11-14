@@ -150,7 +150,7 @@ A borrower in this scenario could proceed with a preferred Surry Hills hospitali
 
 ## Related Services
 
-- [Caveat Loans](/services/caveat-loans) - Fast property-secured funding
+- [Caveat Loans](/services/first-second-mortgages) - Fast property-secured funding
 - [Commercial Property Finance](/services/commercial-property-finance) - Funding for commercial acquisitions
 - [Working Capital](/services/working-capital) - Business cash-flow support
 

@@ -292,16 +292,16 @@ const CommercialPropertyFinance = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center text-lg">
                       <FileText className="mr-2 h-5 w-5 text-accent" />
-                      Caveat Loan
+                      Working Capital
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground mb-4">
-                      A short-term property-backed option sometimes considered when timing is compressed and
-                      the security position is straightforward.
+                      Short-term funding for operations, inventory, or cash-flow timing when the business
+                      purpose and repayment path are clear.
                     </p>
-                    <Link to="/services/caveat-loans" className="text-accent hover:underline text-sm inline-flex items-center">
-                      Caveat loans <ArrowRight className="ml-1 h-4 w-4" />
+                    <Link to="/services/working-capital" className="text-accent hover:underline text-sm inline-flex items-center">
+                      Working capital <ArrowRight className="ml-1 h-4 w-4" />
                     </Link>
                   </CardContent>
                 </Card>

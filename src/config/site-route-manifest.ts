@@ -88,7 +88,6 @@ const cityFamilies = [
   },
   { slug: "working-capital", component: "WorkingCapital", sourcePrefix: "WorkingCapital", usesCitiesPath: true },
   { slug: "trade-finance", component: "TradeFinance", sourcePrefix: "TradeFinance", usesCitiesPath: true },
-  { slug: "caveat-loans", component: "CaveatLoans", sourcePrefix: "CaveatLoans", usesCitiesPath: true },
 ] as const;
 
 const cityRoutes: SiteRouteDefinition[] = cityFamilies.flatMap((family) =>
@@ -275,7 +274,6 @@ export const siteRoutes: SiteRouteDefinition[] = [
     ["private-lending", "PrivateLending"],
     ["smsf-lending", "SMSFLending"],
     ["debt-consolidation", "DebtConsolidation"],
-    ["caveat-loans", "CaveatLoans"],
     ["asset-finance", "AssetFinance"],
   ].map(([slug, component]) => ({
     path: `/services/${slug}`,
@@ -360,9 +358,9 @@ const guideAliases: Record<string, string> = {
   "caveat-loans-vs-second-mortgages": "caveat-loans-vs-bank-loans-speed-comparison",
   "private-lending-sydney-business-guide": "../../services/private-lending/cities/sydney",
   "second-mortgage-australia": "second-mortgages-for-business-guide",
-  "caveat-loans-sydney-same-day-approval-available": "../../services/caveat-loans/cities/sydney",
-  "caveat-loans-melbourne-quick-business-finance": "../../services/caveat-loans/cities/melbourne",
-  "caveat-loans-perth-business-property-finance": "../../services/caveat-loans/cities/perth",
+  "caveat-loans-sydney-same-day-approval-available": "../../services/first-second-mortgages",
+  "caveat-loans-melbourne-quick-business-finance": "../../services/first-second-mortgages",
+  "caveat-loans-perth-business-property-finance": "../../services/first-second-mortgages",
   "second-mortgage-for-business": "second-mortgages-for-business-guide",
   "first-and-second-mortgages-for-business": "second-mortgages-for-business-guide",
   "2nd-loan-mortgage-business-capital": "second-mortgages-for-business-guide",
@@ -447,10 +445,23 @@ const commercialToolAliases = [
   status: 301 as const,
 }));
 
+const retiredCaveatLoanRedirects: RedirectRule[] = [
+  "/services/caveat-loans",
+  ...cities.flatMap((city) => [
+    `/services/caveat-loans/cities/${city.slug}`,
+    `/services/caveat-loans/${city.slug}`,
+  ]),
+].map((from) => ({
+  from,
+  to: "/services/first-second-mortgages",
+  status: 301 as const,
+}));
+
 export const redirectRules: RedirectRule[] = [
   { from: "http://emetcapital.com.au/*", to: `${DOMAIN}/:splat`, status: 301, force: true },
   { from: "https://www.emetcapital.com.au/*", to: `${DOMAIN}/:splat`, status: 301, force: true },
   ...Object.entries(simpleAliases).map(([from, to]) => ({ from, to, status: 301 as const })),
+  ...retiredCaveatLoanRedirects,
   ...oldCityPathRedirects,
   ...Object.entries(guideAliases).map(([slug, target]) => ({
     from: `/resources/guides/${slug}`,

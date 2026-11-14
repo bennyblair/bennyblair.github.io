@@ -7,10 +7,10 @@ test("repair deployment proof checks changed visible copy and exact link destina
   const proofs = [
     { kind: "text-added", value: "Practical Summary" },
     { kind: "text-removed", value: "LLM-Ready Summary" },
-    { kind: "link-added", value: "/services/caveat-loans" },
+    { kind: "link-added", value: "/services/first-second-mortgages" },
     { kind: "link-removed", value: "/services/old-route" },
   ];
-  assert.equal(deploymentProofPassed(proofs, '<main><h2>Practical Summary</h2><a href="/services/caveat-loans">Service</a></main>'), true);
+  assert.equal(deploymentProofPassed(proofs, '<main><h2>Practical Summary</h2><a href="/services/first-second-mortgages">Service</a></main>'), true);
   assert.equal(deploymentProofPassed(proofs, '<h2>LLM-Ready Summary</h2><a href="/services/old-route">Service</a>'), false);
   assert.equal(deploymentProofPassed([{ kind: "text-added", value: "Practical Summary" }], '<script>Practical Summary</script>'), false);
 });

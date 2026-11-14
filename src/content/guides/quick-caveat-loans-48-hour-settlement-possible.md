@@ -169,7 +169,7 @@ Not all lenders offering quick caveat loans deliver equal speed. Established cav
 
 Lenders with strong relationships with valuation firms sometimes secure priority service enabling same-day desktop valuations. This matters enormously—if valuation takes 24 hours instead of 72 hours, you've gained two days toward achieving genuine compressed settlement. Similarly, lenders using panel lawyers specialising in caveat documentation process legal work faster than those engaging general commercial lawyers unfamiliar with these products.
 
-Consider using experienced mortgage brokers specialising in [caveat loans](/services/caveat-loans) rather than approaching lenders directly. Specialist brokers know which lenders genuinely deliver speed versus those with more marketing than capability. They can pre-qualify your scenario, submit to appropriate lenders, and chase documentation processing—services that often accelerate settlement versus self-managed applications. Discuss their fee structure upfront—brokers may receive commission from lenders, charge fees directly to clients, or use a combination of both models.
+Consider using experienced mortgage brokers specialising in [caveat loans](/services/first-second-mortgages) rather than approaching lenders directly. Specialist brokers know which lenders genuinely deliver speed versus those with more marketing than capability. They can pre-qualify your scenario, submit to appropriate lenders, and chase documentation processing—services that often accelerate settlement versus self-managed applications. Discuss their fee structure upfront—brokers may receive commission from lenders, charge fees directly to clients, or use a combination of both models.
 
 ## Common Delays in Quick Caveat Loans
 

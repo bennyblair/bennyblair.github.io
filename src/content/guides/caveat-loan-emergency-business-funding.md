@@ -130,7 +130,7 @@ Missing documents, inconsistent amounts, valuation, title issues, existing-lende
 
 ### Where can I ask about a property-backed option?
 
-Use the [caveat loans service](/services/caveat-loans) with the notice, amount, deadline, property, current debt and exit evidence. General information only; not financial, legal, insolvency or tax advice.
+Use the [caveat loans service](/services/first-second-mortgages) with the notice, amount, deadline, property, current debt and exit evidence. General information only; not financial, legal, insolvency or tax advice.
 
 ## Test whether urgent finance solves the underlying problem
 
@@ -143,6 +143,6 @@ Where ATO debt, creditor enforcement or insolvency concerns are involved, obtain
 - [ATO Tax Debt Finance](/resources/guides/ato-tax-debt-finance-for-australian-business-owners)
 - [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
-- [Caveat Loan Service](/services/caveat-loans)
+- [Caveat Loan Service](/services/first-second-mortgages)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

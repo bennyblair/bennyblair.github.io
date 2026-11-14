@@ -149,7 +149,7 @@ Neither is automatically better. A caveat loan may suit urgent short-term scenar
 
 - [Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
 - [Quick Caveat Loans: 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)
-- [Caveat Loans Sydney](/services/caveat-loans/cities/sydney)
+- [Caveat Loans Sydney](/services/first-second-mortgages)
 - [Commercial Property Due Diligence Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 

@@ -137,7 +137,7 @@ That work includes identifying missing documents, surfacing legal or consent dep
 
 Emet Capital has access to over 50 lenders. Availability and lender appetite vary by transaction.
 
-For a business-purpose caveat-file discussion, use the [caveat loans service](/services/caveat-loans). This is commercial work only; consumer finance is not offered. Emet Capital can assess business-purpose enquiries from across Australia. Actual availability depends on the property jurisdiction, title position, lender coverage and the complete transaction.
+For a business-purpose caveat-file discussion, use the [caveat loans service](/services/first-second-mortgages). This is commercial work only; consumer finance is not offered. Emet Capital can assess business-purpose enquiries from across Australia. Actual availability depends on the property jurisdiction, title position, lender coverage and the complete transaction.
 
 ## Hypothetical example — not a client outcome
 

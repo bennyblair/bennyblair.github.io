@@ -296,7 +296,7 @@ const FirstSecondMortgages = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 { title: "Commercial Property Finance", description: "Finance preparation for a commercial property purchase or refinance", to: "/services/commercial-property-finance" },
-                { title: "Caveat Loans", description: "Short-term business-purpose proposals requiring careful cost and exit review", to: "/services/caveat-loans" },
+                { title: "Bridging Finance", description: "Short-term property-backed funding for settlements, acquisitions, and timing gaps", to: "/services/bridging-finance" },
                 { title: "Private Lending", description: "Non-bank property-backed business finance considerations", to: "/services/private-lending" },
                 { title: "Refinancing", description: "Compare replacing an existing property-secured business facility", to: "/services/refinancing-solutions" }
               ].map((service) => (

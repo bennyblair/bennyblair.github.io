@@ -148,7 +148,7 @@ try {
   assert.equal(posts.length, before);
   assert.equal(await leadCount(preview), 0);
 
-  for (const service of ["commercial-property-finance", "refinancing-solutions", "bridging-finance", "first-second-mortgages", "caveat-loans"]) {
+  for (const service of ["commercial-property-finance", "refinancing-solutions", "bridging-finance", "first-second-mortgages"]) {
     await page.goto("https://enquiry-check.invalid/services/" + service);
     await page.getByRole("heading", { level: 1 }).waitFor();
     assert.equal(await page.getByRole("heading", { level: 1 }).count(), 1, service);
@@ -165,7 +165,7 @@ try {
   assert.equal(await page.locator("#how-it-works.home-process").count(), 1);
   await page.locator(".home-contact-card").screenshot({ path: path.join(output, "homepage-desktop-contact-transaction.png") });
   assert.deepEqual(errors, []);
-  console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "private fields excluded from analytics", "landing category retained", "localhost preview does not send or count", "five service pages"] }, null, 2));
+  console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "private fields excluded from analytics", "landing category retained", "localhost preview does not send or count", "four service pages"] }, null, 2));
 } finally {
   await browser.close();
 }

@@ -320,11 +320,11 @@ const AssetBackedLending = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Caveat Loans</CardTitle>
+                  <CardTitle className="text-lg">Bridging Finance</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">Short-term property-backed business funding where the file fits</p>
-                  <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <Link to="/services/bridging-finance" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

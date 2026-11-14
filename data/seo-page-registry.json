@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-10-08T07:41:41.030Z",
+  "generatedAt": "2026-11-14T07:24:19.178Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -783,7 +783,7 @@
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
-        "primaryQuery": "Emet Capital API and agent documentation",
+        "primaryQuery": "docs",
         "intent": "informational",
         "designatedServicePagePath": null,
         "serviceOwnershipException": "resource page is not a service-supporting search landing page",
@@ -803,10 +803,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-08T00:00:00.000Z",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
         "protectedUntil": null,
-        "lastMaterialChangeId": "chg_agent_readiness_20261008",
-        "lastMaterialChangeAt": "2026-10-08T00:00:00.000Z"
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -2169,8 +2169,8 @@
       "targeting": {
         "primaryQuery": "caveat loan Sydney",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -3216,19 +3216,19 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-14T20:43:48Z",
+        "expiresAt": "2027-01-12T20:43:48Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_10_14T20_43_48Z",
+        "lastMaterialChangeAt": "2026-10-14T20:43:48Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -3245,13 +3245,13 @@
       "sourcePath": "src/content/guides/bridge-lending-australia-commercial-property.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "bridge lending australia for commercial property",
         "intent": "informational",
-        "designatedServicePagePath": "/services/commercial-property-finance",
-        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
+        "designatedServicePagePath": "/services/bridging-finance",
+        "designatedServicePageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -3261,11 +3261,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-18",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:30:52Z",
+        "expiresAt": "2027-05-09T20:30:52Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -4510,8 +4510,8 @@
       "targeting": {
         "primaryQuery": "can a caveat loan stop a mortgagee sale Australia",
         "intent": "urgent commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -4733,8 +4733,8 @@
       "targeting": {
         "primaryQuery": "caveat lenders Australia",
         "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -4746,17 +4746,17 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-19T20:56:21.829Z",
+        "expiresAt": "2027-01-17T20:56:21.829Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_10_19T20_56_21_829Z",
+        "lastMaterialChangeAt": "2026-10-19T20:56:21.829Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -4778,8 +4778,8 @@
       "targeting": {
         "primaryQuery": "caveat lending",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -4866,8 +4866,8 @@
       "targeting": {
         "primaryQuery": "caveat loan broker take on valuation delays",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -4909,8 +4909,8 @@
       "targeting": {
         "primaryQuery": "urgent business funding Australia",
         "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/working-capital",
+        "designatedServicePageId": "pg_cdc22adf500d4db8aa6380ff6b39c265",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -4954,8 +4954,8 @@
       "targeting": {
         "primaryQuery": "caveat loan EOFY tax bill unsold development stock",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -4997,8 +4997,8 @@
       "targeting": {
         "primaryQuery": "caveat loan exit plan",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5040,8 +5040,8 @@
       "targeting": {
         "primaryQuery": "caveat loan exit",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5083,8 +5083,8 @@
       "targeting": {
         "primaryQuery": "caveat loan interest rates Australia",
         "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5128,8 +5128,8 @@
       "targeting": {
         "primaryQuery": "caveat loan for tax debt",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5173,8 +5173,8 @@
       "targeting": {
         "primaryQuery": "caveat loan rejected",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5304,8 +5304,8 @@
       "targeting": {
         "primaryQuery": "caveat loans Australia",
         "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5435,8 +5435,8 @@
       "targeting": {
         "primaryQuery": "Caveat Loans for Property Settlement: Bridge Your Purchase",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5475,8 +5475,8 @@
       "indexability": "redirected",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
-      "redirectToPageId": "pg_392565a20fc042bdab77d5d93aac886c",
-      "redirectToPath": "/services/caveat-loans/cities/melbourne",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
         "primaryQuery": "caveat loans melbourne quick business finance legacy route",
         "intent": "redirect",
@@ -5523,8 +5523,8 @@
       "targeting": {
         "primaryQuery": "caveat loans online",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -5565,8 +5565,8 @@
       "indexability": "redirected",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
-      "redirectToPageId": "pg_c7ea150abe3e42a9925b654d55d1350c",
-      "redirectToPath": "/services/caveat-loans/cities/perth",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
         "primaryQuery": "caveat loans perth business property finance legacy route",
         "intent": "redirect",
@@ -5610,8 +5610,8 @@
       "indexability": "redirected",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
-      "redirectToPageId": "pg_4a34b02160734fb3ac2a26bed557c968",
-      "redirectToPath": "/services/caveat-loans/cities/sydney",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
         "primaryQuery": "caveat loans sydney same day approval available legacy route",
         "intent": "redirect",
@@ -6480,11 +6480,11 @@
       "sourcePath": "src/content/guides/commercial-mortgages-vs-residential-key-differences-explained.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
-        "primaryQuery": "Commercial Mortgages vs Residential: Key Differences Explained",
-        "intent": "informational",
+        "primaryQuery": "commercial vs residential property loans Australia",
+        "intent": "commercial investigation",
         "designatedServicePagePath": "/services/commercial-property-finance",
         "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
         "serviceOwnershipException": null,
@@ -6496,11 +6496,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 4,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-06T12:06:33Z",
+        "expiresAt": "2027-04-04T12:06:33Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -6541,17 +6541,17 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-04T07:09:31Z",
+        "expiresAt": "2027-02-02T07:09:31Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_11_04T07_09_31Z",
+        "lastMaterialChangeAt": "2026-11-04T07:09:31Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7239,11 +7239,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 7,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-13T21:58:10Z",
+        "expiresAt": "2027-01-11T21:58:10Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -7417,17 +7417,17 @@
         "sourceRequired": true,
         "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-08T21:10:07.000Z",
+        "expiresAt": "2027-02-06T21:10:07.000Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_11_08T21_10_07_000Z",
+        "lastMaterialChangeAt": "2026-11-08T21:10:07.000Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7444,8 +7444,8 @@
       "sourcePath": "src/content/guides/commercial-property-loans-brisbane-queensland-market-guide.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "commercial property loan brisbane",
         "intent": "informational",
@@ -7460,11 +7460,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:30:00.000Z",
+        "expiresAt": "2027-05-09T20:30:00.000Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -9019,8 +9019,8 @@
       "targeting": {
         "primaryQuery": "caveat loan broker Australia",
         "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -9030,11 +9030,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-19T20:57:37Z",
+        "expiresAt": "2027-01-17T20:57:37Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -9253,9 +9253,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-18T20:45:10Z",
+        "expiresAt": "2027-01-16T20:45:10Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -9849,10 +9849,10 @@
       "sourcePath": "src/content/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
-        "primaryQuery": "commercial mortgage brokers",
+        "primaryQuery": "commercial mortgage broker australia",
         "intent": "informational",
         "designatedServicePagePath": "/services/commercial-property-finance",
         "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
@@ -9865,11 +9865,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:40:10.356Z",
+        "expiresAt": "2027-05-09T20:40:10.356Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -9940,8 +9940,8 @@
       "targeting": {
         "primaryQuery": "remove caveat from title",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -10502,8 +10502,8 @@
       "sourcePath": "src/content/guides/low-doc-business-finance.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "Low Doc Business Finance in Australia",
         "intent": "informational",
@@ -10518,11 +10518,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-12T20:40:52.424Z",
+        "expiresAt": "2027-05-11T20:40:52.424Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -10902,8 +10902,8 @@
       "targeting": {
         "primaryQuery": "no credit check caveat loans Australia",
         "intent": "urgent commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -11071,8 +11071,8 @@
       "sourcePath": "src/content/guides/open-vs-closed-bridging-loan-complete-comparison.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "open vs closed bridging loan",
         "intent": "informational",
@@ -11087,11 +11087,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-04T22:36:36Z",
+        "expiresAt": "2027-05-03T22:36:36Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -11439,9 +11439,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-15T20:41:43Z",
+        "expiresAt": "2027-01-13T20:41:43Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -11726,8 +11726,8 @@
       "sourcePath": "src/content/guides/private-debt-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private debt Australia",
         "intent": "informational",
@@ -11742,11 +11742,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-21T20:54:13.744Z",
+        "expiresAt": "2027-04-19T20:54:13.744Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -12162,8 +12162,8 @@
       "sourcePath": "src/content/guides/private-lending-mortgage.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private lending mortgage",
         "intent": "informational",
@@ -12178,11 +12178,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-25",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-05T22:38:20Z",
+        "expiresAt": "2027-05-04T22:38:20Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -12383,13 +12383,13 @@
       "sourcePath": "src/content/guides/private-mortgage-lending.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private mortgage lending",
         "intent": "informational",
-        "designatedServicePagePath": "/services/business-finance",
-        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "designatedServicePagePath": "/services/private-lending",
+        "designatedServicePageId": "pg_2fae09425aeb436a998243dcccca43df",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -12399,11 +12399,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-17",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-12T20:32:39.951Z",
+        "expiresAt": "2027-05-11T20:32:39.951Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -12781,8 +12781,8 @@
       "targeting": {
         "primaryQuery": "quick caveat loans",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -13715,11 +13715,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 5,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-13T22:06:06Z",
+        "expiresAt": "2027-01-11T22:06:06Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14141,8 +14141,8 @@
       "sourcePath": "src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "settlement shortfall finance",
         "intent": "informational",
@@ -14157,11 +14157,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-20T21:20:04Z",
+        "expiresAt": "2027-04-18T21:20:04Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14232,8 +14232,8 @@
       "targeting": {
         "primaryQuery": "short term caveat loans",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -14286,11 +14286,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 3,
+        "sourceCount": 4,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-14T20:30:16.428Z",
+        "expiresAt": "2027-01-12T20:30:16.428Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14460,11 +14460,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-21T21:14:31Z",
+        "expiresAt": "2027-01-19T21:14:31Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14548,11 +14548,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 4,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-09T21:11:13.000Z",
+        "expiresAt": "2027-02-07T21:11:13.000Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15274,8 +15274,8 @@
       "targeting": {
         "primaryQuery": "urgent caveat loans Australia",
         "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -15287,9 +15287,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-09T20:53:01.459Z",
+        "expiresAt": "2027-02-07T20:53:01.459Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15452,8 +15452,8 @@
       "targeting": {
         "primaryQuery": "caveatable interest",
         "intent": "informational",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "designatedServicePagePath": "/services/first-second-mortgages",
+        "designatedServicePageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -15576,8 +15576,8 @@
       "sourcePath": "src/content/guides/what-is-bridging-finance.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "what is bridging finance",
         "intent": "informational",
@@ -15592,11 +15592,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-17",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-20T20:58:56Z",
+        "expiresAt": "2027-04-18T20:58:56Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15682,9 +15682,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-02T07:44:09Z",
+        "expiresAt": "2027-01-31T07:44:09Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -17534,17 +17534,15 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "reviewedBy": "Ben Blair",
-        "reviewedAt": "2026-11-06T12:48:00+11:00",
-        "expiresAt": "2027-02-04T12:48:00+11:00"
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_253",
-        "lastMaterialChangeAt": "2026-11-06T12:48:00+11:00"
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -18392,207 +18390,303 @@
     {
       "pageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
       "path": "/services/caveat-loans",
-      "sourcePath": "src/pages/services/CaveatLoans.tsx",
-      "pageType": "service",
-      "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "medium",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
-        "primaryQuery": "caveat loans",
-        "intent": "transactional",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "serviceOwnershipException": null,
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "primaryQuery": "caveat loans legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "high",
+        "contentRisk": "low",
         "maxAutomatedChangeRisk": "R0",
-        "contentOwner": "seo",
-        "reviewOwner": "financial-review",
-        "sourceRequired": true,
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
         "sourceCount": 0,
-        "reviewEveryDays": 90,
+        "reviewEveryDays": 365,
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
+        "state": "closed",
+        "decision": "consolidate",
         "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_commit_c18cbee",
         "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
-        "primaryOutcome": "qualified_organic_lead",
-        "successRuleId": "sr_qualified_service_demand_v1",
-        "exitRuleId": "er_service_guardrail_v1"
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
       ]
     },
     {
-      "pageId": "pg_07bb8b60d8ed4d13ad29306e8e69e67c",
-      "path": "/services/caveat-loans/cities/adelaide",
-      "sourcePath": "src/pages/services/cities/CaveatLoansAdelaide.tsx",
-      "pageType": "location",
-      "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "pageId": "pg_0849efaf55f44a3e87f8543d7e376ef0",
+      "path": "/services/caveat-loans/adelaide",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
-        "primaryQuery": "caveat loans adelaide",
-        "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "serviceOwnershipException": null,
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "primaryQuery": "adelaide legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "high",
+        "contentRisk": "low",
         "maxAutomatedChangeRisk": "R0",
-        "contentOwner": "seo",
-        "reviewOwner": "financial-review",
-        "sourceRequired": true,
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
         "sourceCount": 0,
-        "reviewEveryDays": 90,
+        "reviewEveryDays": 365,
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
       },
       "measurement": {
-        "primaryOutcome": "qualified_organic_lead",
-        "successRuleId": "sr_qualified_service_demand_v1",
-        "exitRuleId": "er_service_guardrail_v1"
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_a12f08e6e3a742f3bdfd0e3ba6747125",
+      "path": "/services/caveat-loans/brisbane",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
+      "targeting": {
+        "primaryQuery": "brisbane legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_07bb8b60d8ed4d13ad29306e8e69e67c",
+      "path": "/services/caveat-loans/cities/adelaide",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
+      "targeting": {
+        "primaryQuery": "adelaide legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
     },
     {
       "pageId": "pg_db1c8f5b63194f08a341277eb4d86dd6",
       "path": "/services/caveat-loans/cities/brisbane",
-      "sourcePath": "src/pages/services/cities/CaveatLoansBrisbane.tsx",
-      "pageType": "location",
-      "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
-        "primaryQuery": "caveat loans brisbane",
-        "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "serviceOwnershipException": null,
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "primaryQuery": "brisbane legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "high",
+        "contentRisk": "low",
         "maxAutomatedChangeRisk": "R0",
-        "contentOwner": "seo",
-        "reviewOwner": "financial-review",
-        "sourceRequired": true,
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
         "sourceCount": 0,
-        "reviewEveryDays": 90,
+        "reviewEveryDays": 365,
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
       },
       "measurement": {
-        "primaryOutcome": "qualified_organic_lead",
-        "successRuleId": "sr_qualified_service_demand_v1",
-        "exitRuleId": "er_service_guardrail_v1"
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
     },
     {
       "pageId": "pg_da8b728989704fa1b0ec89e273a97a50",
       "path": "/services/caveat-loans/cities/gold-coast",
-      "sourcePath": "src/pages/services/cities/CaveatLoansGoldCoast.tsx",
-      "pageType": "location",
-      "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
-        "primaryQuery": "caveat loans gold coast",
-        "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "serviceOwnershipException": null,
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "primaryQuery": "gold coast legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "high",
+        "contentRisk": "low",
         "maxAutomatedChangeRisk": "R0",
-        "contentOwner": "seo",
-        "reviewOwner": "financial-review",
-        "sourceRequired": true,
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
         "sourceCount": 0,
-        "reviewEveryDays": 90,
+        "reviewEveryDays": 365,
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
       },
       "measurement": {
-        "primaryOutcome": "qualified_organic_lead",
-        "successRuleId": "sr_qualified_service_demand_v1",
-        "exitRuleId": "er_service_guardrail_v1"
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
     },
     {
       "pageId": "pg_392565a20fc042bdab77d5d93aac886c",
       "path": "/services/caveat-loans/cities/melbourne",
-      "sourcePath": "src/pages/services/cities/CaveatLoansMelbourne.tsx",
-      "pageType": "location",
-      "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
-        "primaryQuery": "caveat loans melbourne",
-        "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "serviceOwnershipException": null,
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "primaryQuery": "melbourne legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "high",
+        "contentRisk": "low",
         "maxAutomatedChangeRisk": "R0",
-        "contentOwner": "seo",
-        "reviewOwner": "financial-review",
-        "sourceRequired": true,
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
         "sourceCount": 0,
-        "reviewEveryDays": 90,
+        "reviewEveryDays": 365,
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
+        "state": "closed",
+        "decision": "consolidate",
         "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_155",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
       "measurement": {
-        "primaryOutcome": "qualified_organic_lead",
-        "successRuleId": "sr_qualified_service_demand_v1",
-        "exitRuleId": "er_service_guardrail_v1"
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
@@ -18601,41 +18695,43 @@
     {
       "pageId": "pg_c7ea150abe3e42a9925b654d55d1350c",
       "path": "/services/caveat-loans/cities/perth",
-      "sourcePath": "src/pages/services/cities/CaveatLoansPerth.tsx",
-      "pageType": "location",
-      "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
-        "primaryQuery": "caveat loans perth",
-        "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "serviceOwnershipException": null,
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "primaryQuery": "perth legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "high",
+        "contentRisk": "low",
         "maxAutomatedChangeRisk": "R0",
-        "contentOwner": "seo",
-        "reviewOwner": "financial-review",
-        "sourceRequired": true,
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
         "sourceCount": 0,
-        "reviewEveryDays": 90,
+        "reviewEveryDays": 365,
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
+        "state": "closed",
+        "decision": "consolidate",
         "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_154",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
       },
       "measurement": {
-        "primaryOutcome": "qualified_organic_lead",
-        "successRuleId": "sr_qualified_service_demand_v1",
-        "exitRuleId": "er_service_guardrail_v1"
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
@@ -18644,41 +18740,215 @@
     {
       "pageId": "pg_4a34b02160734fb3ac2a26bed557c968",
       "path": "/services/caveat-loans/cities/sydney",
-      "sourcePath": "src/pages/services/cities/CaveatLoansSydney.tsx",
-      "pageType": "location",
-      "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
-        "primaryQuery": "caveat loans sydney",
-        "intent": "commercial investigation",
-        "designatedServicePagePath": "/services/caveat-loans",
-        "serviceOwnershipException": null,
-        "designatedServicePageId": "pg_d9de09a5f1cf4c46a8b06035b8f1c4b5",
+        "primaryQuery": "sydney legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "high",
+        "contentRisk": "low",
         "maxAutomatedChangeRisk": "R0",
-        "contentOwner": "seo",
-        "reviewOwner": "financial-review",
-        "sourceRequired": true,
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
         "sourceCount": 0,
-        "reviewEveryDays": 90,
+        "reviewEveryDays": 365,
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
       },
       "measurement": {
-        "primaryOutcome": "qualified_organic_lead",
-        "successRuleId": "sr_qualified_service_demand_v1",
-        "exitRuleId": "er_service_guardrail_v1"
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_fba0a90c782e4847bdf23c16c0f852fc",
+      "path": "/services/caveat-loans/gold-coast",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
+      "targeting": {
+        "primaryQuery": "gold coast legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_5c15369f4b2e460d816565c854b365ee",
+      "path": "/services/caveat-loans/melbourne",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
+      "targeting": {
+        "primaryQuery": "melbourne legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_b2fbb935134148a8a1a03d0ef5373991",
+      "path": "/services/caveat-loans/perth",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
+      "targeting": {
+        "primaryQuery": "perth legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
+      },
+      "programIds": []
+    },
+    {
+      "pageId": "pg_8d99f124fc314d7ca7f145462cf873e6",
+      "path": "/services/caveat-loans/sydney",
+      "sourcePath": "src/config/site-route-manifest.ts",
+      "pageType": "redirect",
+      "indexability": "redirected",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
+      "targeting": {
+        "primaryQuery": "sydney legacy route",
+        "intent": "redirect",
+        "designatedServicePagePath": null,
+        "designatedServicePageId": null,
+        "serviceOwnershipException": "redirect source has no independent search mission",
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R0",
+        "contentOwner": "engineering",
+        "reviewOwner": "seo-engineering",
+        "sourceRequired": false,
+        "sourceCount": 0,
+        "reviewEveryDays": 365,
+        "expiresAt": null
+      },
+      "lifecycle": {
+        "state": "closed",
+        "decision": "consolidate",
+        "reviewAt": null,
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "eligible_discovery",
+        "successRuleId": "sr_eligible_discovery_v1",
+        "exitRuleId": "er_no_search_mission_v1"
       },
       "programIds": []
     },
@@ -20155,9 +20425,7 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "reviewedBy": "Ben Blair",
-        "reviewedAt": "2026-11-06T12:48:00+11:00",
-        "expiresAt": "2027-02-04T12:48:00+11:00"
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -22128,5 +22396,5 @@
       "programIds": []
     }
   ],
-  "checksum": "04e72785dc0f12c9db10b6a1d26cebb0d467f39ad677c49cb49a72e5157476a1"
+  "checksum": "4f8418b682b87ee2b4e8214eab591496e9e4048d5bfa76d847c74b427a6fa358"
 }

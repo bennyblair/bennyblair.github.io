@@ -223,6 +223,6 @@ Potentially, but only if the overall position is still salvageable. Where tax de
 - [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)
-- [Caveat Loan Service](/services/caveat-loans)
+- [Caveat Loan Service](/services/first-second-mortgages)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
