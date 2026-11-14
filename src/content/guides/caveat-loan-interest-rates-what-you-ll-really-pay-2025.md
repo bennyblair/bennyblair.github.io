@@ -15,7 +15,7 @@ reviewed_date: "2026-08-05"
 primaryQuery: "caveat loan interest rates Australia"
 searchIntent: "commercial investigation"
 intentCluster: "caveat-loan-pricing"
-designatedServicePage: "/services/caveat-loans"
+designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
@@ -40,7 +40,7 @@ Caveat loan interest rates in Australia are the pricing terms attached to short-
 
 That means the headline rate is only one part of the commercial picture. Caveat lenders are usually pricing speed, legal simplicity, risk, and exit uncertainty as much as they are pricing the property itself. A borrower comparing caveat loan pricing should therefore ask two questions at the same time: “what is this facility costing?” and “what problem is this facility solving that ordinary lending cannot solve quickly enough?”
 
-At Emet Capital, we treat caveat pricing as a timing-and-exit question first. The right caveat loan is usually the one that solves an urgent problem cleanly and then gets repaid or refinanced quickly, not the one with the most attractive-looking headline in isolation.
+Treat caveat pricing as a timing-and-exit question first. The right caveat loan is usually the one that solves an urgent problem cleanly and then gets repaid or refinanced quickly, not the one with the most attractive-looking headline in isolation.
 
 ## At a Glance
 
@@ -86,7 +86,7 @@ Caveat pricing is usually driven by urgency, enforceability, and the lender’s 
 
 The strongest caveat files are not always the prettiest files. They are the files with a believable exit. If the lender can see how repayment happens, whether through sale, refinance, or another near-term event, the risk story is easier to price.
 
-That is why our [caveat loan exit strategies guide](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance) is one of the most important companion pieces to any pricing discussion. If the exit is vague, pricing usually gets worse and lender appetite narrows.
+That is why the [caveat loan exit strategies guide](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance) is one of the most important companion pieces to any pricing discussion. If the exit is vague, pricing usually gets worse and lender appetite narrows.
 
 ### Equity and security position
 
@@ -198,6 +198,6 @@ The most important thing a caveat lender usually looks at is exit clarity. If th
 - [Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
-- [Caveat Loan Service](/services/caveat-loans)
+- [first and second mortgages page](/services/first-second-mortgages)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-05-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -23,7 +23,7 @@ Business lenders in Australia for urgent settlement are commercial lenders that 
 
 Urgent settlement finance is not just a faster version of a normal bank loan. It is usually assessed around security, purpose, documents, timing, and exit. The best files explain why the money is needed, why the deadline matters, and how the facility will be repaid or refinanced after settlement.
 
-Emet Capital helps Australian business owners compare urgent business lender options against [private lending](/resources/guides/what-is-private-lending-australia), [business finance](/resources/guides/working-capital-loans-for-smes), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide). This guide explains when urgent settlement lending may fit and when it should be avoided.
+Emet Capital helps Australian business owners compare urgent business lender options against [private lending](/resources/guides/what-is-private-lending-australia), [business finance](/resources/guides/working-capital-loans-for-smes), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide). This guide explains when urgent settlement lending may fit and when it should be avoided.
 
 ### Related In-Depth Guides
 
@@ -49,7 +49,7 @@ Emet Capital helps Australian business owners compare urgent business lender opt
 
 This guide is for Australian business borrowers who have a genuine settlement deadline and need to understand what fast commercial lenders are likely to assess. It is relevant if you are trying to settle a business or commercial property transaction, protect a supplier arrangement, bridge a refinance delay, or fund a short-term commercial gap.
 
-It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions).
+It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing](/services/refinancing-solutions).
 
 ## What Urgent Settlement Means in Business Lending
 

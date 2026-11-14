@@ -15,7 +15,7 @@ reviewed_date: "2026-08-05"
 primaryQuery: "can a caveat loan stop a mortgagee sale Australia"
 searchIntent: "urgent commercial investigation"
 intentCluster: "caveat-loan-mortgagee-sale"
-designatedServicePage: "/services/caveat-loans"
+designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
@@ -40,7 +40,7 @@ A caveat loan can sometimes help stop a mortgagee sale in Australia, but only wh
 
 The key point is simple. A lender considering rescue finance is not just asking whether your property has value. They are asking whether the problem is temporary and whether the transaction genuinely improves the position. If the sale campaign is already advanced, the equity is thin, or there is no believable repayment strategy, a caveat loan usually will not solve the problem.
 
-At Emet Capital, we see this as a timing and structure question, not just a funding question. A caveat loan may buy time for a refinance, negotiated discharge, or urgent asset sale on better terms. It may also be the wrong tool when the issue is deeper insolvency, unrealistic leverage, or a title problem that makes new lending unworkable.
+This is a timing and structure question, not just a funding question. A caveat loan may buy time for a refinance, negotiated discharge, or urgent asset sale on better terms. It may also be the wrong tool when the issue is deeper insolvency, unrealistic leverage, or a title problem that makes new lending unworkable.
 
 ## At a Glance
 
@@ -223,6 +223,6 @@ Potentially, but only if the overall position is still salvageable. Where tax de
 - [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
 - [Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)
-- [Caveat Loan Service](/services/caveat-loans)
+- [first and second mortgages page](/services/first-second-mortgages)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

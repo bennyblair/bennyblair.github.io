@@ -50,7 +50,7 @@ const EditorialStandards = () => {
             <ol>
               <li>
                 Direct experience working on commercial finance transactions across private lending,
-                bridging finance, caveat loans, development finance, asset-backed lending, and commercial
+                bridging finance, first and second mortgages, development finance, asset-backed lending, and commercial
                 property finance.
               </li>
               <li>

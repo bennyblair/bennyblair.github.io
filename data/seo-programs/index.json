@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T11:09:27.875Z",
+  "generatedAt": "2026-11-14T07:24:19.178Z",
   "programs": [
     {
       "programId": "seo-ai-growth-outstanding-2026-08-05",
       "kind": "measurement-and-remediation",
       "definitionPath": "data/seo-outstanding-program.json",
       "status": "active",
-      "contentChecksum": "632c8e77838aa18ec101210032750d0b10e088821b01f53b24e82decb5849dd8"
+      "contentChecksum": "1e998750fb57ff79c489179cb48b85cc71100d912a6e9815f230fb73e5c71472"
     },
     {
       "programId": "seo-growth-2026-h2",

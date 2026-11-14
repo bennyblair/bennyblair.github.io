@@ -86,7 +86,7 @@
     "allTargetsVerifiedEligibleAt": "2026-08-05T12:00:00+10:00"
   },
   "targets": [
-    {"cluster":"caveat","path":"/services/caveat-loans","sourcePath":"src/pages/services/CaveatLoans.tsx","primaryQuery":"caveat loans","clicks":0,"impressions":2476,"ctr":0,"averagePosition":80.7},
+    {"cluster":"caveat","path":"/services/caveat-loans","sourcePath":"src/config/site-route-manifest.ts","primaryQuery":"caveat loans","clicks":0,"impressions":2476,"ctr":0,"averagePosition":80.7},
     {"cluster":"caveat","path":"/resources/guides/caveat-loans-australia-complete-guide","sourcePath":"src/content/guides/caveat-loans-australia-complete-guide.md","primaryQuery":"caveat loans Australia","clicks":2,"impressions":2145,"ctr":0.001,"averagePosition":38.7},
     {"cluster":"caveat","path":"/resources/guides/urgent-caveat-loans","sourcePath":"src/content/guides/urgent-caveat-loans.md","primaryQuery":"urgent caveat loan","clicks":0,"impressions":2915,"ctr":0,"averagePosition":52.3},
     {"cluster":"caveat","path":"/resources/guides/caveat-lenders-australia-directory-comparison","sourcePath":"src/content/guides/caveat-lenders-australia-directory-comparison.md","primaryQuery":"caveat loan broker Australia","clicks":2,"impressions":1393,"ctr":0.001,"averagePosition":21.6},

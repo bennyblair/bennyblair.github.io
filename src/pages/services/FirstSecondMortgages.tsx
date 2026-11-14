@@ -124,7 +124,7 @@ const FirstSecondMortgages = () => {
             </ServiceChapter>
 
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">First Mortgage, Second Mortgage or Caveat-Supported Finance?</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">First Mortgage or Second Mortgage?</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Product names do not describe every legal or cost consequence. Ask for the proposed facility and security documents, then compare them on the same amount and expected repayment date.
               </p>
@@ -143,15 +143,10 @@ const FirstSecondMortgages = () => {
                       <td className="py-3 pr-4">A property purchase, refinance or equity release where the lender will hold the primary mortgage position.</td>
                       <td className="py-3 pr-4">Does replacing the existing facility improve the total structure after all costs and conditions?</td>
                     </tr>
-                    <tr className="border-b">
+                    <tr>
                       <td className="py-3 pr-4 font-medium text-foreground">Second mortgage</td>
                       <td className="py-3 pr-4">Additional business-purpose funding while an existing first mortgage remains in place.</td>
                       <td className="py-3 pr-4">Are consent or priority arrangements required, and can the combined debt be repaid?</td>
-                    </tr>
-                    <tr>
-                      <td className="py-3 pr-4 font-medium text-foreground">Caveat-supported facility</td>
-                      <td className="py-3 pr-4">A short-term business proposal where the security documents and timing need specific investigation.</td>
-                      <td className="py-3 pr-4">What legal interest is proposed, what does it cost for the expected period, and what repays it?</td>
                     </tr>
                   </tbody>
                 </table>
@@ -296,7 +291,7 @@ const FirstSecondMortgages = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
                 { title: "Commercial Property Finance", description: "Finance preparation for a commercial property purchase or refinance", to: "/services/commercial-property-finance" },
-                { title: "Caveat Loans", description: "Short-term business-purpose proposals requiring careful cost and exit review", to: "/services/caveat-loans" },
+                { title: "Bridging Finance", description: "Short-term property-backed funding for settlements, acquisitions, and timing gaps", to: "/services/bridging-finance" },
                 { title: "Private Lending", description: "Non-bank property-backed business finance considerations", to: "/services/private-lending" },
                 { title: "Refinancing", description: "Compare replacing an existing property-secured business facility", to: "/services/refinancing-solutions" }
               ].map((service) => (

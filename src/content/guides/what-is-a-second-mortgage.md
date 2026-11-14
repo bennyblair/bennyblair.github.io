@@ -9,7 +9,7 @@ author: "Ben"
 reviewed_date: "2026-05-17"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/second-mortgage-business.jpg"
@@ -161,7 +161,7 @@ Preparation matters because second mortgage lending can move quickly only when t
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible business borrowers compare second mortgages, refinances, caveat loans, private lending, working capital finance and asset-backed options. The aim is to match the structure to the business purpose, property position and repayment pathway.
+Emet Capital helps eligible business borrowers compare second mortgages, refinances, private lending, working capital finance and asset-backed options. The aim is to match the structure to the business purpose, property position and repayment pathway.
 
 For some borrowers, a second mortgage may be the right way to access equity while keeping the first mortgage in place. For others, [private lending](/resources/guides/what-is-private-lending-australia), a refinance, [business debt consolidation](/resources/guides/business-debt-consolidation-australia), or invoice finance may be more suitable.
 

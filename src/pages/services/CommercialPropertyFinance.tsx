@@ -37,7 +37,7 @@ const CommercialPropertyFinance = () => {
     {
       question: "What if my bank approval will not be ready before settlement?",
       answer:
-        "Some borrowers use a short-term bridge, private mortgage, second mortgage, caveat loan, or other property-backed facility while the longer-term refinance or bank loan continues. The right structure depends on the asset, timing, leverage, and exit plan.",
+        "Some borrowers use a short-term bridge, private mortgage, second mortgage, or other property-backed facility while the longer-term refinance or bank loan continues. The right structure depends on the asset, timing, leverage, and exit plan.",
     },
     {
       question: "Can a business owner use property-backed finance to settle a commercial purchase?",
@@ -127,7 +127,7 @@ const CommercialPropertyFinance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Emet Capital acts as a commercial finance broker, not a bank or direct lender. We help
                 borrowers compare bank, non-bank, and private lender options for commercial property
-                purchases, urgent settlements, refinance gaps, second mortgages, caveat-backed facilities,
+                purchases, urgent settlements, refinance gaps, second mortgages,
                 and short-term property-backed business funding. Commercial property finance can be useful
                 when timing, security, and commercial purpose are clear, but it is not guaranteed and may be
                 unsuitable where equity, documentation, serviceability, legal structure, or repayment pathway
@@ -292,16 +292,16 @@ const CommercialPropertyFinance = () => {
                   <CardHeader>
                     <CardTitle className="flex items-center text-lg">
                       <FileText className="mr-2 h-5 w-5 text-accent" />
-                      Caveat Loan
+                      Working Capital
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground mb-4">
-                      A short-term property-backed option sometimes considered when timing is compressed and
-                      the security position is straightforward.
+                      Short-term funding for operations, inventory, or cash-flow timing when the business
+                      purpose and repayment path are clear.
                     </p>
-                    <Link to="/services/caveat-loans" className="text-accent hover:underline text-sm inline-flex items-center">
-                      Caveat loans <ArrowRight className="ml-1 h-4 w-4" />
+                    <Link to="/services/working-capital" className="text-accent hover:underline text-sm inline-flex items-center">
+                      Working capital <ArrowRight className="ml-1 h-4 w-4" />
                     </Link>
                   </CardContent>
                 </Card>
@@ -409,8 +409,8 @@ const CommercialPropertyFinance = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 That may involve comparing a bridge with a direct refinance, considering whether private
-                lending is more suitable than bank debt, or identifying whether a second mortgage or caveat
-                structure is even appropriate. Emet does not provide personal financial advice and does not
+                lending is more suitable than bank debt, or identifying whether a second mortgage
+                is even appropriate. Emet does not provide personal financial advice and does not
                 guarantee funding outcomes.
               </p>
             </ServiceChapter>
@@ -440,7 +440,7 @@ const CommercialPropertyFinance = () => {
                   {
                     label: "Caveat loans for business emergencies",
                     href: "/resources/guides/caveat-loan-emergency-business-funding",
-                    text: "When a caveat-style structure may be considered for urgent business funding.",
+                    text: "Educational guide to caveat-style structures used for urgent business funding.",
                   },
                   {
                     label: "Short-term property-backed business loans",

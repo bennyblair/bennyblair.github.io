@@ -23,7 +23,6 @@ const AboutDaniel = () => {
   };
 
   const expertise = [
-    "Caveat loans",
     "Second mortgages",
     "Bridging finance",
     "Commercial property finance",
@@ -53,7 +52,7 @@ const AboutDaniel = () => {
             Daniel
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-            Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.
+            Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.
           </p>
         </header>
 

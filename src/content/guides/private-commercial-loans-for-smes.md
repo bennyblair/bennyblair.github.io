@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-05-19"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -47,7 +47,7 @@ A private commercial loan is not a shortcut around a weak business case. The str
 
 This guide is for Australian SME owners considering private commercial finance for a business-purpose need. It is relevant if a bank is moving too slowly, your business has a time-sensitive deadline, or your file does not fit standard bank policy but still has a sensible commercial explanation.
 
-It is not written for consumer borrowing. Emet Capital works with eligible business borrowers, property investors, and developers. If your need is specifically property-backed, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), and [commercial property refinancing](/services/refinancing-solutions).
+It is not written for consumer borrowing. Emet Capital works with eligible business borrowers, property investors, and developers. If your need is specifically property-backed, compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing](/services/refinancing-solutions).
 
 ## What Private Commercial Loans Mean for SMEs
 

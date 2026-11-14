@@ -14,14 +14,14 @@ author: "Daniel"
 reviewed_date: "2026-05-28"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 ---
 
 A caveat loan valuation delay is a timing problem, not just an admin problem. In commercial caveat finance, the lender still needs enough confidence in the property value, equity position, title, and exit strategy before funds can move, even when the loan is designed to be faster than a standard mortgage.
 
-The practical broker take is simple: borrowers lose time when they treat valuation as something that happens after approval. In urgent caveat lending, valuation evidence should be prepared at the same time as the loan purpose, title documents, existing debt position, and exit pathway. Emet Capital helps business borrowers compare [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [private lending](/resources/guides/what-is-private-lending-australia) when timing is tight.
+The practical broker take is simple: borrowers lose time when they treat valuation as something that happens after approval. In urgent caveat lending, valuation evidence should be prepared at the same time as the loan purpose, title documents, existing debt position, and exit pathway. This guide explains how valuation delays affect caveat files. For market structure, see the [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide). If you need property-secured business funding, Emet Capital can help you compare [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), and [private lending](/resources/guides/what-is-private-lending-australia).
 
 ### Related In-Depth Guides
 
@@ -110,11 +110,11 @@ Do not ignore legal and title issues. Caveats, priority, consent, co-owners, tru
 
 ## How Emet Capital Frames The Decision
 
-Emet Capital starts with four questions: what is the urgent business purpose, what property security supports it, what evidence confirms the value, and how does the loan end? If those answers are strong, lender matching becomes faster and more realistic.
+A broker typically starts with four questions: what is the urgent business purpose, what property security supports it, what evidence confirms the value, and how does the loan end? If those answers are strong, lender matching becomes faster and more realistic.
 
-A strong caveat file does not rely on urgency alone. It combines clear property evidence, a defined commercial use, prepared documents, and an exit that can be explained without optimism.
+A strong short-term property-secured file does not rely on urgency alone. It combines clear property evidence, a defined commercial use, prepared documents, and an exit that can be explained without optimism.
 
-Where a caveat loan is not the cleanest structure, we compare adjacent options such as [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or business finance alternatives.
+Where a short-term property-secured facility is not the cleanest structure, adjacent options include [private mortgage lending](/resources/guides/private-mortgage-lending-commercial-borrowers), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [asset-backed lending](/resources/guides/asset-backed-lending-and-asset-finance), or business finance alternatives.
 
 ## Practical Summary
 

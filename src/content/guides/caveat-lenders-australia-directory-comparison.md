@@ -10,7 +10,7 @@ author: "Daniel"
 primaryQuery: "caveat lenders Australia"
 searchIntent: "commercial investigation"
 intentCluster: "caveat-loans"
-designatedServicePage: "/services/caveat-loans"
+designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 canonical: "https://emetcapital.com.au/resources/guides/caveat-lenders-australia-directory-comparison"
 reviewedBy: "OpenClaw independent reviewer"
@@ -32,7 +32,7 @@ featuredImageAlt: "Australian caveat lender types and comparison framework"
 
 Australian caveat lenders differ in capital source, mandate, decision process, property appetite and legal requirements. A useful comparison does not rank a changing list of companies as universally “best”. It identifies which lender type can assess the specific borrower, property, deadline and exit, then compares written terms on the same assumptions.
 
-This page compares caveat lender types and their terms. It is not a guide to choosing a broker. A commercial finance broker can help package a scenario and compare written offers; [how to find and vet a caveat loan broker](/resources/guides/find-caveat-loan-brokers-australia) is covered separately. For the product pathway, see [caveat loans](/services/caveat-loans). Emet Capital is a commercial finance broker, not a lender, and does not fund loans. This guide is general information, not legal, tax or financial advice.
+This page compares caveat lender types and their terms. It is not a guide to choosing a broker. A commercial finance broker can help package a scenario and compare written offers; [how to find and vet a caveat loan broker](/resources/guides/find-caveat-loan-brokers-australia) is covered separately. If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). Emet Capital is a commercial finance broker, not a lender, and does not fund loans. This guide is general information, not legal, tax or financial advice.
 
 ## Caveat lender types in Australia
 
@@ -125,6 +125,6 @@ Provide a concise purpose and deadline, entity details, property ownership and d
 - [Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)
 - [Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)
 - [Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)
-- [Caveat Loan Service](/services/caveat-loans)
+- [first and second mortgages page](/services/first-second-mortgages)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-05-31"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -28,7 +28,7 @@ For Australian business borrowers, the checklist matters because a second mortga
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — the main pillar guide for Australian business second mortgages.
 - **[Second Mortgage Equity Access Strategies](/resources/guides/second-mortgage-loan-equity-access-strategies)** — compare common equity-release use cases.
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — useful when the goal is to preserve the first mortgage.
-- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare urgent caveat finance with a registered second mortgage.
+- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial-property finance context.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare assessment style and timing across lender types.
 
@@ -153,7 +153,7 @@ The difference is not polish. It is evidence. Broker files move faster when the 
 
 ## What Documents Are Needed For A Second Mortgage?
 
-A business second mortgage application usually needs borrower ID, company or trust documents, property title details, first mortgage statements, evidence of property value, loan purpose documents, business bank statements, management accounts, tax or BAS information where relevant, and exit strategy evidence. The lender uses these documents to assess ownership, equity, priority position, serviceability, commercial purpose, and repayment pathway. Emet Capital helps business borrowers prepare second mortgage files and compare second mortgages with refinancing, caveat loans, commercial property finance, and private lending. This is general information only and not financial advice.
+A business second mortgage application usually needs borrower ID, company or trust documents, property title details, first mortgage statements, evidence of property value, loan purpose documents, business bank statements, management accounts, tax or BAS information where relevant, and exit strategy evidence. The lender uses these documents to assess ownership, equity, priority position, serviceability, commercial purpose, and repayment pathway. Emet Capital helps business borrowers prepare second mortgage files and compare second mortgages with refinancing, commercial property finance, and private lending. This is general information only and not financial advice.
 
 ## Second Mortgage Readiness Checklist
 
@@ -199,6 +199,6 @@ A second mortgage can be used for business working capital where the purpose, se
 A second mortgage may be faster than refinancing the entire first mortgage in some cases, but timing depends on the lender, valuation, legal documents, first mortgage consent, borrower readiness, and property complexity. A complete file can reduce avoidable delays.
 
 ### How does Emet Capital help with second mortgage documents?
-Emet Capital helps eligible business borrowers identify the documents lenders are likely to need, package the file around purpose and exit, and compare second mortgage options against refinancing, caveat loans, commercial property finance, and private lending.
+Emet Capital helps eligible business borrowers identify the documents lenders are likely to need, package the file around purpose and exit, and compare second mortgage options against refinancing, commercial property finance, and private lending.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

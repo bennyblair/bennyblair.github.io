@@ -108,7 +108,7 @@ In practice, that means answering these questions:
 1. What is the total funding requirement?
 2. How much borrower equity is contributed?
 3. Which lender ranks first?
-4. Is any second mortgage, caveat, or mezzanine layer proposed?
+4. Is any second mortgage or mezzanine layer proposed?
 5. Are all fees, taxes, and settlement costs included?
 6. What happens if valuation or refinance timing changes?
 7. Who is repaid first if the exit occurs?

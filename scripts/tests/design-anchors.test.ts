@@ -25,3 +25,8 @@ test("FAQ answers do not absorb a trailing disclosure on Windows", () => {
   assert.deepEqual(extractFAQs(source.replaceAll("\n", "\r\n")), extractFAQs(source));
   assert.equal(extractFAQs(source)[0].answer, "Evidence of the exit.");
 });
+
+test("FAQ JSON-LD answers strip markdown links to plain text", () => {
+  const source = "## FAQ\n### Where can I ask about a property-backed option?\nUse the [first and second mortgages page](/services/first-second-mortgages) with the notice.\n";
+  assert.equal(extractFAQs(source)[0].answer, "Use the first and second mortgages page with the notice.");
+});

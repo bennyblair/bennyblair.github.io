@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-06-11"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 primaryQuery: "second mortgage consent refused Australia"
@@ -32,7 +32,7 @@ sources:
 
 Second mortgage consent is refused when the existing first mortgagee will not agree to another lender registering behind them on the same property title. For Australian commercial borrowers, this does not always end the funding conversation, but it does change the pathway. The borrower may need to restructure, refinance, offer different security, use a different facility type, or accept that the original second mortgage plan is not workable.
 
-A second mortgage can support business-purpose funding where there is usable property equity, but the first lender’s consent and priority requirements matter. Emet Capital helps borrowers compare [first and second mortgage options](/services/first-second-mortgages), [commercial property refinancing](/services/refinancing-solutions), [private lending](/resources/guides/what-is-private-lending-australia), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) when consent becomes a roadblock.
+A second mortgage can support business-purpose funding where there is usable property equity, but the first lender’s consent and priority requirements matter. Emet Capital helps borrowers compare [first and second mortgage options](/services/first-second-mortgages), [commercial property refinancing](/services/refinancing-solutions), and [private lending](/resources/guides/what-is-private-lending-australia) when consent becomes a roadblock.
 
 ### Related In-Depth Guides
 

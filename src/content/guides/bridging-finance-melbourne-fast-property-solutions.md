@@ -9,7 +9,7 @@ author: "Ben"
 reviewed_date: "2026-06-16"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 slug: "bridging-finance-melbourne-fast-property-solutions"
@@ -112,7 +112,7 @@ It is also important to avoid using the full available equity just because it is
 
 ## How Emet Capital Helps
 
-Emet Capital helps commercial borrowers compare private, non-bank and commercial property lending options when timing is tight. The goal is not to push every borrower into bridging finance. The goal is to identify whether a bridge, refinance, second mortgage, caveat loan, or standard commercial loan is the most practical fit for the transaction.
+Emet Capital helps commercial borrowers compare private, non-bank and commercial property lending options when timing is tight. The goal is not to push every borrower into bridging finance. The goal is to identify whether a bridge, refinance, second mortgage, or standard commercial loan is the most practical fit for the transaction.
 
 A broker-led process can help package the scenario clearly for lenders. That matters because lenders make faster decisions when the security, purpose, exit and documents are easy to understand.
 

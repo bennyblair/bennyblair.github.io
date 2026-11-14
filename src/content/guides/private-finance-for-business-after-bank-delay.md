@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-05-18"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -63,7 +63,7 @@ This is different from using private finance because the transaction cannot supp
 
 Private finance may fit where the bank delay is procedural rather than fundamental. Examples include valuation timing, internal credit backlog, slow document review, pending refinance approval, or a settlement deadline that arrives before a mainstream lender can complete.
 
-It may also fit when the borrower has property security and a defined exit. That exit might be a bank refinance, property sale, incoming receivable, business sale, project completion, or another funding event. For property-backed files, a broker may compare [caveat loans](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia), and [bridge lending for commercial property](/resources/guides/bridge-lending-australia-commercial-property).
+It may also fit when the borrower has property security and a defined exit. That exit might be a bank refinance, property sale, incoming receivable, business sale, project completion, or another funding event. For property-backed files, a broker may compare [second mortgages without refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia) and [bridge lending for commercial property](/resources/guides/bridge-lending-australia-commercial-property).
 
 A private lender may also be relevant where the bank's structure is too rigid for the commercial reality. For example, the business may have strong asset backing but uneven trading results, or the transaction may involve a time-sensitive acquisition where a bank cannot complete all checks before the contract deadline.
 

@@ -23,7 +23,7 @@ const FAQs = () => {
       {
         id: "gen-1",
         question: "What types of commercial lending do you facilitate?",
-        answer: "We facilitate a comprehensive range of commercial lending solutions including asset finance, development and construction finance, bridging and caveat loans, working capital facilities, trade and import/export finance, and specialized non-bank lending. We work exclusively with commercial lending - no residential or consumer finance."
+        answer: "We facilitate a comprehensive range of commercial lending solutions including asset finance, development and construction finance, bridging finance, first and second mortgages, working capital facilities, trade and import/export finance, and specialized non-bank lending. We work exclusively with commercial lending, not residential or consumer finance."
       },
       {
         id: "gen-2", 
