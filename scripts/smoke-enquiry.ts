@@ -24,7 +24,11 @@ await context.route("**/*", async (route) => {
   }
   if (route.request().method() === "POST") {
     posts.push(new URLSearchParams(route.request().postData() || ""));
-    await route.fulfill({ status: responseStatus, body: responseStatus === 200 ? "Accepted in isolated test" : "Test failure" });
+    await route.fulfill({
+      status: responseStatus,
+      contentType: "text/plain; charset=utf-8",
+      body: responseStatus === 200 ? "Accepted in isolated test" : "Test failure",
+    });
     return;
   }
   const relative = decodeURIComponent(url.pathname).slice(1);
@@ -56,7 +60,10 @@ const contactDetails = async (formName: string) => {
   await page.locator("#" + formName + "-name").fill("Isolated Test");
   await page.locator("#" + formName + "-email").fill("test@example.invalid");
 };
-const submit = () => page.getByRole("button", { name: "Submit business finance enquiry" }).click();
+const submit = () =>
+  page.getByRole("button", { name: "Submit business finance enquiry" }).click({ noWaitAfter: true });
+const waitForEnquiryPost = () =>
+  page.waitForResponse((response) => response.request().method() === "POST" && new URL(response.url()).pathname === "/");
 
 try {
   await page.goto("https://enquiry-check.invalid/services/refinancing-solutions?utm_source=chatgpt.com&email=private@example.invalid");
@@ -78,12 +85,16 @@ try {
   await snapshot("contact-mobile-details");
 
   responseStatus = 500;
+  const failedPost = waitForEnquiryPost();
   await submit();
+  assert.equal((await failedPost).status(), 500);
   await page.getByRole("alert").filter({ hasText: "could not be submitted" }).waitFor();
   assert.equal(await leadCount(page), 0);
   assert.equal(await page.locator("#contact-name").inputValue(), "Isolated Test");
   responseStatus = 200;
+  const acceptedPost = waitForEnquiryPost();
   await submit();
+  assert.equal((await acceptedPost).status(), 200);
   await page.getByRole("status").filter({ hasText: "Your enquiry has been submitted" }).waitFor();
   assert.equal(await leadCount(page), 1);
   assert.equal(posts.length, 2);
