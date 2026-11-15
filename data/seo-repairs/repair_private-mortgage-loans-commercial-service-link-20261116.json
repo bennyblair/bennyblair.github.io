@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-mortgage-loans-commercial-service-link-20261116",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "eefbdbf522d4be6939f6dbd4736fc6624a642d5e",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-mortgage-loans-for-commercial-borrowers.md",
+      "pageId": "pg_09ed40ef4ea34c2a9b14b1e8dbab8b56",
+      "path": "/resources/guides/private-mortgage-loans-for-commercial-borrowers",
+      "beforeSha256": "9ad9db2bd6a906fbe2833d358bba2a516615caaecd59ef60c82f1c015eed4af5",
+      "afterSha256": "18ab0d95aa1c7a817e6a7c378c297d77a22b7c0a5b5effa0c35788ae156475cc",
+      "reason": "Existing-page improvement of the private-mortgage-loans-for-commercial-borrowers explainer. Keep slug, canonical path, title, description, H1 owner, keywords, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-06-28, and reviewed_date 2026-06-28. Registry designatedServicePagePath /services/private-lending, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Branched from origin/main eefbdbf after PR #267 (Retire caveat loans as a product) squash-merged; beforeSha256 is the post-#267 file hash 9ad9db2bd6a906fbe2833d358bba2a516615caaecd59ef60c82f1c015eed4af5. Add one descriptive contextual body link to /services/private-lending with the anchor commercial private lending arranged through a broker. Retitle First Mortgage, Second Mortgage, or Caveat Structure? to First Mortgage or Second Mortgage Position?, keep one neutral caveat-on-title sentence, and remove caveat-loan comparison copy and links. Remove the Related Guides Caveat Loans Australia bullet. Drop the Related In-Depth copy of second-mortgages-for-business-guide so that URL appears twice. Replace the closer Emet Capital provides commercial lending solutions to eligible business borrowers with broker-accurate wording. Publication-contract fields required for this material change: primaryQuery matching the existing title/keyword, searchIntent informational, designatedServicePage /services/private-lending matching the registry and the inlink target, contentRisk medium matching the registry, the existing 1200x630 JPEG, featuredImageAlt, and one business.gov.au source used for the shop-around sentence. Related In-Depth Guides is an H2 so the template owns the only H1. Independent review is PENDING at this writer revision. No rates, volumes, licence, membership, consumer-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-bc4c9f16-e605-55fe-a1be-7c03efed4843"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        },
+        {
+          "kind": "text-added",
+          "value": "commercial private lending arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "First Mortgage or Second Mortgage Position?"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "First Mortgage, Second Mortgage, or Caveat Structure?"
+        },
+        {
+          "kind": "text-removed",
+          "value": "compare the risks and timing in caveat loans Australia"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is 18ab0d95aa1c7a817e6a7c378c297d77a22b7c0a5b5effa0c35788ae156475cc. beforeSha256 is 9ad9db2bd6a906fbe2833d358bba2a516615caaecd59ef60c82f1c015eed4af5 at main eefbdbf522d4be6939f6dbd4736fc6624a642d5e after PR #267 merged.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (357421 bytes) to Python urllib GET at 2026-11-15T21:42:02.503Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans returned HTTP 200 (76012 bytes) at the 2026-11-15T20:25:34Z pre-check. It is not declared and not quoted.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, date and reviewed_date are unchanged. Independent review metadata remains PENDING. No reviewedBy, reviewedAt or expiresAt was added.",
+          "Registry designatedServicePagePath remains /services/private-lending. The article designatedServicePage is /services/private-lending so the required inlink satisfies the publication contract.",
+          "Caveat loans remain retired as an Emet product. This page no longer compares, frames, or invites caveat loans as a current option. One neutral caveat-on-title sentence remains. The FAQ token caveat-backed is unchanged existing educational copy with no caveat-guide link.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend or fund loans."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
