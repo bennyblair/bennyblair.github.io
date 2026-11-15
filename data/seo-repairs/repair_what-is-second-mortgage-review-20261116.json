@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_what-is-second-mortgage-review-20261116",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "4df3f0db4e0f9a4714299dfa520bad089608778e",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-15T22:05:20.000Z",
+    "score": 89,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "medium",
+        "location": "featuredImage / article-images.json",
+        "finding": "Frontmatter featuredImage is /images/intercreditor-agreements-second-mortgage-complexity.jpg. The built page, Open Graph, Twitter and Article JSON-LD still use /images/second-mortgage-business.jpg from src/config/article-images.json. That JPEG is 1800x2062 and 280596 bytes. This repair cannot edit the catalog. Leave it for a later catalog change."
+      },
+      {
+        "severity": "medium",
+        "location": "Practical Summary",
+        "finding": "The sentence 'A second mortgage in Australia is a property-secured commercial loan that ranks behind an existing first mortgage' does not restate INFO 207's exception that loans to buy residential property, including investment property, are treated like consumer loans. The opening and 'It is not a guide to consumer borrowing' keep the page on business-purpose borrowing. Not a blocker."
+      },
+      {
+        "severity": "low",
+        "location": "Second Mortgage vs Refinance",
+        "finding": "The commercial property refinancing guide anchor points at /services/refinancing-solutions, a service page. The old guide slug redirects there. The link resolves."
+      },
+      {
+        "severity": "low",
+        "location": "How Second-Ranking Security Works",
+        "finding": "Consent is stated as usual in one sentence and as may be needed in the numbered step. The section says the order is a typical starting point, not a legal conclusion."
+      },
+      {
+        "severity": "low",
+        "location": "Second Mortgage vs Caveat Loan",
+        "finding": "The heading still frames a product comparison. The body says the caveat is not a current product to compare and does not invite caveat funding."
+      },
+      {
+        "severity": "low",
+        "location": "intro",
+        "finding": "The sentence that this is now the canonical Emet Capital explainer for a broad second mortgage Australia search is broader than the registry query what is a second mortgage. The business guide still owns the decision framework and receives the remaining intro link."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/what-is-a-second-mortgage.md",
+      "pageId": "pg_b5bcd34797d340b7a8b273048c2721fa",
+      "path": "/resources/guides/what-is-a-second-mortgage",
+      "beforeSha256": "8feb11ae2d9950dd171f59b584cb6b57c4da2fde8b7e8c5689dbdf5c1d8ccfce",
+      "afterSha256": "3e763f2447bf1fd690318aa7bc3fcc76fb4120a28b9bd8f561f851910ddf55a4",
+      "reason": "Existing-page keep/refresh of the second-mortgage definitional explainer (package what-is-second-mortgage-review-20261116) after PR #267 merged to main. Keep slug, canonical path, title, H1 owner, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-05-16. Answer-first opening, one designated-service inlink to /services/first-second-mortgages, one comparison inlink to /resources/guides/first-mortgage-vs-second-mortgage-key-differences, a hedged first-mortgagee consent step list, broker-accurate closer, and caveat-loan table row removed so caveat is education only. Independent Grok 4.7 review PASS 89 of writer head 6618bc1e673cebe109c256f752463ce977f6ef6c / pre-stamp sha256 2e91b1b3f340f79d24443158e12f160ab935e0bfb073ff6d79481495e304f8ae at https://cursor.com/agents/bc-142b2bf6-a030-5dd0-a53c-3010f280a1f3. This stamp changes only reviewedAt 2026-11-15T22:05:20.000Z and expiresAt 2027-05-14T22:05:20.000Z (180-day medium cadence) and this manifest. Resulting guide sha256 3e763f2447bf1fd690318aa7bc3fcc76fb4120a28b9bd8f561f851910ddf55a4. Publication-contract fields: metaTitle, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/first-second-mortgages, contentRisk medium matching the registry, a 1200x630 JPEG already in public/, featuredImageAlt, and two official sources. reviewed_date removed. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, or invented transaction results were added. Draft only. No human or professional approval. baseSha is origin/main eefbdbf522d4be6939f6dbd4736fc6624a642d5e after #267. Computed change class expected R2; registry maxAutomatedChangeRisk stays R0.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-28b29276-852f-53e8-ad97-b6765fbec65a"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-142b2bf6-a030-5dd0-a53c-3010f280a1f3"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "second mortgage finance arranged through a commercial broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "The existing first mortgage remains on the title."
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital focuses on commercial lending solutions for eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "It does not guarantee approval"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Funding is urgent and the structure is very short-term."
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/first-second-mortgages"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/first-mortgage-vs-second-mortgage-key-differences"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-15T22:05:20.000Z",
+        "reviewedSourceSha256": "3e763f2447bf1fd690318aa7bc3fcc76fb4120a28b9bd8f561f851910ddf55a4",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 89,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-15T21:59:34.942Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-15T21:59:36.510Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "Emet Capital focuses on commercial lending solutions for eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender.",
+            "reason": "The Who This Is For line described Emet Capital as focusing on commercial lending solutions. The replacement states that Emet Capital is a commercial finance broker and is not the lender."
+          },
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender.",
+            "reason": "The closer described Emet Capital as providing lending solutions. The replacement states that Emet Capital is a commercial finance broker and is not the lender."
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review of the second-mortgage definitional explainer, not human or professional financial approval. Independent Grok 4.7 review PASS 89 observed 2026-11-15T22:05:20.000Z at https://cursor.com/agents/bc-142b2bf6-a030-5dd0-a53c-3010f280a1f3 against git 6618bc1e673cebe109c256f752463ce977f6ef6c / pre-stamp sha256 2e91b1b3f340f79d24443158e12f160ab935e0bfb073ff6d79481495e304f8ae. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 3e763f2447bf1fd690318aa7bc3fcc76fb4120a28b9bd8f561f851910ddf55a4. Writer https://cursor.com/agents/bc-28b29276-852f-53e8-ad97-b6765fbec65a.",
+          "humanReviewRequired is not claimed. contentRisk is recorded as medium to match the trusted registry. Author Ben, author_* fields, slug, title and date 2026-05-16 stay. No owner approval is invented.",
+          "Declared sources were live-checked by the independent reviewer GET: ASIC INFO 207 HTTP 200 (76012 bytes) at 2026-11-15T21:59:34.942Z; business.gov.au apply-for-a-business-loan HTTP 200 (357421 bytes) at 2026-11-15T21:59:36.510Z. Queensland Land Title Act 1994 whole HTML HTTP 200 (811630 bytes) at 2026-11-15T21:59:58.134Z was reviewer evidence only and is not declared. Two NSW LRS paths the reviewer tried returned 404 and are not cited. ASIC credit resources remain undeclared so this page does not imply Emet holds a credit licence.",
+          "featuredImage in frontmatter points to the existing 1200x630 JPEG /images/intercreditor-agreements-second-mortgage-complexity.jpg because /images/second-mortgage-business.jpg is 1800x2062 and over 250 KB. src/config/article-images.json still maps this route to the old image; that file is outside this repair. Independent review finding 1: leave the catalog for a later change.",
+          "Publication contract requires 3-6 FAQ questions. The previous page had 7. File-stronger content was merged into the lenders-check answer. The optional How does a second mortgage work FAQ was not added because the opening already answers it and an eighth (or seventh) question would fail the contract. Duplicate related-list copies were removed so each internal URL appears at most twice and total internal links stay at 15.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. Registry maxAutomatedChangeRisk remains R0. Six non-blocking findings from the independent review are recorded in review.findings."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewedAt: 2026-11-15T21:43:28.000Z; expiresAt: 2027-05-14T21:43:28.000Z",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-15T22:05:20.000Z; expiresAt: 2027-05-14T22:05:20.000Z",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. Guide prose is otherwise identical to the PASS 89 review of 6618bc1."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": false,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        }
+      }
+    }
+  ]
+}
