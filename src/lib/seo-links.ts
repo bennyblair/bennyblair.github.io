@@ -1,5 +1,6 @@
 import policy from "../../data/seo-topic-policy.json";
 import type { ArticleSummary } from "@/lib/content";
+import { isRedirectSource, siteRoutes } from "@/config/site-route-manifest";
 
 export interface ServiceLink {
   id: string;
@@ -9,7 +10,11 @@ export interface ServiceLink {
   terms: string[];
 }
 
-const serviceClusters = policy.serviceClusters as ServiceLink[];
+const serviceClusters = (policy.serviceClusters as ServiceLink[]).filter(
+  (cluster) =>
+    siteRoutes.some((route) => route.path === cluster.path && route.pageType === "service" && route.indexable) &&
+    !isRedirectSource(cluster.path),
+);
 
 function normalize(value: unknown) {
   return String(value ?? "")

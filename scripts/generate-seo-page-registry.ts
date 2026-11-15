@@ -188,6 +188,14 @@ function lifecycleFor(pathValue: string, indexability: string, decision = "none"
 }
 
 function staticTargeting(route: JsonRecord) {
+  if (route.path === "/docs") {
+    return {
+      primaryQuery: "Emet Capital API and agent documentation",
+      intent: "informational",
+      designatedServicePagePath: null,
+      serviceOwnershipException: "resource page is not a service-supporting search landing page",
+    };
+  }
   const query = route.path === "/" ? "commercial finance broker Australia" : routeWords(route.path);
   let intent = "informational";
   let servicePath: string | null = null;
@@ -249,6 +257,12 @@ for (const route of getIndexableStaticRoutes()) {
   });
 }
 
+const liveServicePaths = new Set(
+  siteRoutes
+    .filter((route) => route.pageType === "service" && route.indexable && !isRedirectSource(route.path))
+    .map((route) => route.path),
+);
+
 const contentIndex = buildContentIndex(repoRoot);
 for (const article of Object.values(contentIndex).flat() as JsonRecord[]) {
   const pathValue = normaliseRoute(article.route)!;
@@ -257,7 +271,10 @@ for (const article of Object.values(contentIndex).flat() as JsonRecord[]) {
   let primaryQuery = explicitValue(source.data, "primaryQuery", "primary_query") || article.keywords?.[0] || article.title;
   const searchIntent = explicitValue(source.data, "searchIntent", "search_intent") || "informational";
   const explicitService = explicitValue(source.data, "designatedServicePage", "designated_service_page");
-  const servicePath = explicitService || resolveDesignatedService({ ...article, ...source.data, primaryQuery })?.path || null;
+  const resolvedService = resolveDesignatedService({ ...article, ...source.data, primaryQuery })?.path || null;
+  const servicePath =
+    (typeof explicitService === "string" && liveServicePaths.has(explicitService) ? explicitService : null) ||
+    (resolvedService && liveServicePaths.has(resolvedService) ? resolvedService : resolvedService);
   const existingQueryOwner = records.find(
     (record) => record.indexability === "indexable" && record.targeting.primaryQuery.toLowerCase() === String(primaryQuery).toLowerCase(),
   );

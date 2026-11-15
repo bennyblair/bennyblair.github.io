@@ -23,7 +23,6 @@ const AboutBen = () => {
   };
 
   const expertise = [
-    "Caveat loans",
     "Second mortgages",
     "Bridging finance",
     "Commercial property finance",
@@ -36,7 +35,7 @@ const AboutBen = () => {
       <SEO
         title="Ben | Commercial Finance Broker at Emet Capital"
         description="Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending, specialising in operational guides, scenario walkthroughs, and case studies across Emet Capital's six finance pillars."
-        keywords="Ben, Emet Capital, commercial finance broker, private lending broker, caveat loans broker, second mortgage broker, bridging finance broker"
+        keywords="Ben, Emet Capital, commercial finance broker, private lending broker, second mortgage broker, bridging finance broker"
         canonical="/about/ben"
         schemas={[profilePageSchema, generateBenPersonSchema(), generateOrganizationSchema()]}
       />
@@ -53,7 +52,7 @@ const AboutBen = () => {
             Ben
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-            Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.
+            Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors.
           </p>
         </header>
 

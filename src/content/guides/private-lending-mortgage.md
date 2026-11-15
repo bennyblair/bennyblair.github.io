@@ -13,7 +13,7 @@ readTime: "8 min read"
 author: "Ben"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Private Lending Mortgage Australia | Commercial Borrower Guide"
@@ -34,7 +34,7 @@ sources:
 
 A private lending mortgage is commercial finance secured by real property and funded by a private lender, private credit fund, family office, or specialist non-bank lender rather than a mainstream bank. For Australian business borrowers, it is usually considered when timing, documentation, asset type, credit history, or transaction complexity does not fit a standard bank process.
 
-A private lending mortgage is not automatically better than a bank loan. It can be useful when the borrower has strong security and a clear commercial exit, but it can also be more expensive and less forgiving if the repayment plan is weak. Emet Capital helps borrowers compare private lending mortgages with [bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), commercial property loans, second mortgages, caveat loans, and refinance options.
+A private lending mortgage is not automatically better than a bank loan. It can be useful when the borrower has strong security and a clear commercial exit, but it can also be more expensive and less forgiving if the repayment plan is weak. Emet Capital helps borrowers compare private lending mortgages with [bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), commercial property loans, second mortgages, and refinance options.
 
 ## Related In-Depth Guides
 
@@ -146,7 +146,7 @@ No. An approval is not promised. Interest rates, lender appetite, and settlement
 
 ## Related Guides
 
-- **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — compare a caveat structure where timing is urgent.
+- **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — educational guide to how caveat lending works in the Australian market.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — compare short-term finance linked to sale or refinance events.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — consider whether the real issue is multiple debts rather than a new facility.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — understand mainstream commercial property loan assessment.

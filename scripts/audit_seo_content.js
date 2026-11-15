@@ -16,7 +16,6 @@ const servicePages = [
     '/services/commercial-property-development',
     '/services/working-capital',
     '/services/business-acquisition',
-    '/services/caveat-loans',
     '/services/first-second-mortgages',
     '/services/debt-consolidation',
     '/services/refinancing-solutions',

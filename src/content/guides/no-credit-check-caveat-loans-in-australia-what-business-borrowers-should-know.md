@@ -14,13 +14,13 @@ author: "Daniel"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 primaryQuery: "no credit check caveat loans Australia"
 searchIntent: "urgent commercial investigation"
 intentCluster: "caveat-loan-risk"
-designatedServicePage: "/services/caveat-loans"
+designatedServicePage: "/services/first-second-mortgages"
 contentRisk: "high"
 reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
@@ -36,7 +36,7 @@ sources:
 
 No credit check caveat loans are usually marketed as fast, property-backed business finance where the lender focuses more on security, loan purpose and exit strategy than on a full bank-style credit assessment. In Australia, that does not mean there is no assessment. A commercial lender still needs to understand who is borrowing, what property interest supports the loan, whether there is enough equity, why the funds are needed, and how the loan will be repaid.
 
-For business owners, developers and property investors, the phrase "no credit check" can be misleading. A caveat loan may be more flexible than a bank facility, but responsible lenders do not ignore risk. They assess the transaction differently. Emet Capital helps borrowers compare whether caveat loans, [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or [commercial refinancing](/services/refinancing-solutions) is the cleaner pathway.
+For business owners, developers and property investors, the phrase "no credit check" can be misleading. A caveat loan may be more flexible than a bank facility, but responsible lenders do not ignore risk. They assess the transaction differently. Emet Capital helps borrowers compare [private lending](/resources/guides/what-is-private-lending-australia), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) or [commercial refinancing](/services/refinancing-solutions). If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages).
 
 ### Related In-Depth Guides
 

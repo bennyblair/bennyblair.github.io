@@ -14,7 +14,7 @@ author: "Daniel"
 reviewed_date: "2026-06-20"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 metaTitle: "First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage"
@@ -23,7 +23,7 @@ metaDescription: "Compare second mortgage consent delays with caveat finance fal
 
 A first mortgagee consent delay can stop a second mortgage from settling even when the borrower has equity and a clear business purpose. In that situation, a caveat loan may be considered as a fallback, but it is not automatically better. The right structure depends on timing, first-lender requirements, security position, exit certainty, legal advice, and total cost.
 
-This guide gives business borrowers a decision framework for comparing a delayed second mortgage with a caveat finance fallback. It is written from Emet Capital's position as a broker connecting borrowers with lenders. It is general information only, not financial advice.
+This guide gives business borrowers a decision framework for comparing a delayed second mortgage with other short-term property-secured structures. Emet Capital is a commercial finance broker connecting borrowers with lenders. It is general information only, not financial advice.
 
 ### Related In-Depth Guides
 
@@ -194,7 +194,7 @@ In that review, the broker would test the caveatable interest, first mortgage ba
 
 Emet Capital usually frames this as a decision tree, not a product choice.
 
-First, identify whether the second mortgage is still viable. Second, confirm the hard deadline. Third, check whether a caveat fallback is legally and commercially possible. Fourth, compare total cost and exit risk. Fifth, decide whether speed justifies changing the structure.
+First, identify whether the second mortgage is still viable. Second, confirm the hard deadline. Third, check whether refinance, a different security property, or private lending is workable. Fourth, compare total cost and exit risk. Fifth, decide whether speed justifies changing the structure.
 
 That approach helps avoid a common mistake: replacing one delayed process with another rushed process that has not been properly documented.
 

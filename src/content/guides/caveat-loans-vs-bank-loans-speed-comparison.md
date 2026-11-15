@@ -10,7 +10,7 @@ author: "Daniel"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 articleSchema: |
@@ -117,11 +117,11 @@ Caveat loan comparison against traditional bank lending reveals fundamental trad
 
 Understanding when caveat loans justify their premium pricing versus when bank loan timelines prove adequate determines optimal funding choices. A $150,000 caveat loan for one month costs approximately $4,500 in interest and fees, while avoiding a $400,000 contract penalty makes this expensive capital worthwhile. The same caveat loan held for six months costs $27,000+, potentially making cheaper bank finance the smarter choice despite longer approval times.
 
-This comprehensive caveat loan comparison examines approval speeds, cost structures, documentation requirements, and strategic use cases helping you determine which funding option suits your business circumstances. Emet Capital provides [caveat loan solutions](/services/caveat-loans) for businesses requiring fast property-secured funding.
+This comprehensive caveat loan comparison examines approval speeds, cost structures, documentation requirements, and strategic use cases helping you determine which funding option suits your business circumstances. If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages).
 
 ---
 
-> **📖 Series Context**: This guide is part of our **Caveat Loans** series. For a complete overview, see our [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
+> **📖 Series Context**: This guide is part of the **Caveat Loans** series. For a complete overview, see the [Complete Caveat Loans Guide](/resources/guides/caveat-loans-australia-complete-guide).
 
 ### At a Glance
 

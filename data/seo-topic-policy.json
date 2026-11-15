@@ -22,18 +22,11 @@
   ],
   "serviceClusters": [
     {
-      "id": "caveat-loans",
-      "path": "/services/caveat-loans",
-      "label": "Caveat Loans",
-      "description": "Compare short-term business-purpose funding supported by property equity, including timing, costs and exit requirements.",
-      "terms": ["caveat loan", "caveat finance", "caveatable interest"]
-    },
-    {
       "id": "second-mortgages",
       "path": "/services/first-second-mortgages",
       "label": "First and Second Mortgages",
       "description": "Explore business-purpose first and second mortgage structures using available property equity.",
-      "terms": ["second mortgage", "2nd mortgage", "first mortgage", "mortgage priority", "subordination agreement"]
+      "terms": ["second mortgage", "2nd mortgage", "first mortgage", "mortgage priority", "subordination agreement", "caveat loan", "caveat finance", "caveatable interest"]
     },
     {
       "id": "bridging-finance",

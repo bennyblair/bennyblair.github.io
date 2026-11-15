@@ -40,7 +40,14 @@ test("changed guide owners carry explicit review and source metadata", () => {
     assert.equal(data.humanReviewRequired, true);
     assert.ok(data.reviewedAt && data.expiresAt);
     assert.ok(Array.isArray(data.sources) && data.sources.length > 0);
-    assert.ok(content.includes(`](${data.designatedServicePage})`));
+    const liveServiceLink =
+      data.designatedServicePage === "/services/caveat-loans"
+        ? "/services/first-second-mortgages"
+        : data.designatedServicePage;
+    assert.ok(
+      content.includes(`](${liveServiceLink})`),
+      `${target.path} must link to ${liveServiceLink}`,
+    );
     assert.equal(/^#\s+/m.test(content), false, `${target.path} must use the page template's H1`);
   }
 });

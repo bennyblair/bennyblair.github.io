@@ -53,6 +53,34 @@ test("redirect contract contains no self redirects or conflicting duplicate sour
   assert.equal(redirectRules.at(-1)?.from, "/*");
 });
 
+test("retired caveat loan product pages permanently redirect in one hop", () => {
+  const redirects = new Map(redirectRules.map((rule) => [rule.from, rule]));
+  const sources = [
+    "/services/caveat-loans",
+    "/services/caveat-loans/cities/sydney",
+    "/services/caveat-loans/cities/melbourne",
+    "/services/caveat-loans/cities/brisbane",
+    "/services/caveat-loans/cities/perth",
+    "/services/caveat-loans/cities/adelaide",
+    "/services/caveat-loans/cities/gold-coast",
+    "/services/caveat-loans/sydney",
+    "/services/caveat-loans/melbourne",
+    "/services/caveat-loans/brisbane",
+    "/services/caveat-loans/perth",
+    "/services/caveat-loans/adelaide",
+    "/services/caveat-loans/gold-coast",
+  ];
+  for (const from of sources) {
+    assert.deepEqual(redirects.get(from), {
+      from,
+      to: "/services/first-second-mortgages",
+      status: 301,
+    });
+    assert.equal(isRedirectSource("/services/first-second-mortgages"), false);
+    assert.equal(isRedirectSource(from), true);
+  }
+});
+
 test("the legacy terms-and-conditions route redirects directly to the canonical terms page", () => {
   const redirect = redirectRules.find((rule) => rule.from === "/terms-and-conditions");
   assert.deepEqual(redirect, { from: "/terms-and-conditions", to: "/terms", status: 301 });
@@ -118,7 +146,7 @@ test("legacy GSC 404 URLs permanently redirect to current guide equivalents", ()
 
 test("approved consolidation sources use one-hop permanent redirects to canonical keepers", () => {
   const expected = new Map<string, string>([
-    ["caveat-loans-melbourne-quick-business-finance", "/services/caveat-loans/cities/melbourne"],
+    ["caveat-loans-melbourne-quick-business-finance", "/services/first-second-mortgages"],
     ["line-of-credit-equity", "/resources/guides/second-mortgage-vs-line-of-credit"],
     ["private-mortgage-lenders-australia-directory-2026", "/resources/guides/private-mortgage-lenders-australia-directory"],
     ["negative-gearing-commercial-property-tax-strategies", "/resources/guides/commercial-property-loans-australia-complete-guide"],
@@ -178,7 +206,6 @@ test("discovery guides are indexable, linked from their service hub and have two
     ["bridging-finance", "BridgingFinance.tsx"],
     ["business-acquisition", "BusinessAcquisition.tsx"],
     ["business-finance", "BusinessFinance.tsx"],
-    ["caveat-loans", "CaveatLoans.tsx"],
     ["commercial-property-finance", "CommercialPropertyFinance.tsx"],
     ["private-lending", "PrivateLending.tsx"],
     ["trade-finance", "TradeFinance.tsx"],
@@ -192,8 +219,8 @@ test("discovery guides are indexable, linked from their service hub and have two
   const guideFiles = fs.readdirSync(path.join(repoRoot, "src/content/guides"))
     .filter((file) => file.endsWith(".md"));
 
-  assert.equal(discoveryGuideUrls.length, 19);
-  assert.equal(new Set(discoveryGuideUrls).size, 19, "discovery targets must be unique");
+  assert.equal(discoveryGuideUrls.length, 18);
+  assert.equal(new Set(discoveryGuideUrls).size, 18, "discovery targets must be unique");
   assert.deepEqual(new Set(Object.keys(discoveryGuidesByService)), new Set(expectedServiceComponents.keys()));
 
   for (const [service, componentFile] of expectedServiceComponents) {
@@ -300,7 +327,7 @@ test("new location-led finance variants are blocked while national topics remain
 
 test("commercial topics resolve to one valid designated service page", () => {
   const cases = [
-    ["urgent caveat loans", "/services/caveat-loans"],
+    ["urgent caveat loans", "/services/first-second-mortgages"],
     ["commercial property refinancing", "/services/refinancing-solutions"],
     ["equipment loans for small business", "/services/equipment-finance"],
     ["business turnaround finance", "/services/working-capital"],

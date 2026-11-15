@@ -9,7 +9,7 @@ author: "Ben"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/second-mortgage-business.jpg"
@@ -200,7 +200,7 @@ Incomplete files slow second mortgage assessment. The lender needs enough detail
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible business borrowers compare second mortgages, full refinance, caveat loans, private lending, working capital facilities and asset-backed options.
+Emet Capital helps eligible business borrowers compare second mortgages, full refinance, private lending, working capital facilities and asset-backed options.
 
 The assessment starts with the first mortgage balance, property value, available equity, business purpose, deadline and exit. From there, Emet Capital can identify whether a second-ranking structure is commercially sensible or whether another pathway is cleaner.
 

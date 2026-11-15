@@ -9,7 +9,7 @@ author: "Ben"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featured: false
@@ -90,7 +90,7 @@ A caveat loan may be used where the lender is comfortable taking caveat security
 
 Second mortgages can be useful when there is existing first mortgage debt and enough remaining equity. They may involve more documentation and coordination with the existing lender, but they can provide clearer mortgage security.
 
-If you are deciding between the two, compare urgency, property title position, existing lender requirements, loan size, legal timing, and the exit. The comparison is explained in more detail in our [caveat loan vs second mortgage guide](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
+If you are deciding between the two, compare urgency, property title position, existing lender requirements, loan size, legal timing, and the exit. The comparison is explained in more detail in the [caveat loan vs second mortgage guide](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you).
 
 ## What Lenders Assess Before Funding a Settlement Gap
 
@@ -155,11 +155,11 @@ Finally, get legal and accounting input before signing. Caveat finance is secure
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible commercial borrowers compare caveat loans, bridging finance, private lending, second mortgages, and property-backed refinance options for settlement pressure.
+Emet Capital helps eligible commercial borrowers compare bridging finance, private lending, second mortgages, and property-backed refinance options for settlement pressure.
 
-The goal is not to force every urgent file into a caveat loan. Sometimes the better answer is a standard bridge. Sometimes it is a [private lending](/resources/guides/what-is-private-lending-australia) structure, a second mortgage, a vendor extension, or a broader refinance.
+The goal is not to force every urgent file into one product label. Sometimes the better answer is a standard bridge. Sometimes it is a [private lending](/resources/guides/what-is-private-lending-australia) structure, a second mortgage, a vendor extension, or a broader refinance.
 
-We focus on the funding purpose, the available security, the settlement deadline, and the exit. That helps identify whether the transaction needs urgent caveat finance or a more stable commercial facility.
+We focus on the funding purpose, the available security, the settlement deadline, and the exit. That helps identify whether the transaction needs a short-term property-secured facility or a more stable commercial facility.
 
 ## Practical Summary
 

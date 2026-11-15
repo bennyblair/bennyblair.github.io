@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -23,7 +23,7 @@ A caveatable interest is a legally recognisable interest in land that may justif
 
 For business borrowers, this matters because a caveat is not just a note someone files casually. A caveat usually needs a genuine legal basis. If that basis is weak, disputed, or misunderstood, the caveat can cause delays, legal costs, and financing problems.
 
-At Emet Capital, we look at caveat-related issues from a commercial lending perspective. The real question is not just “what is a caveatable interest?” It is “does a real property-linked interest exist, and what does that mean for funding, settlement, refinance, or enforcement?”
+From a commercial lending perspective, the real question is not just “what is a caveatable interest?” It is “does a real property-linked interest exist, and what does that mean for funding, settlement, refinance, or enforcement?”
 
 ### Related In-Depth Guides
 
@@ -38,7 +38,7 @@ At Emet Capital, we look at caveat-related issues from a commercial lending pers
 
 A caveatable interest usually means there is a real legal interest tied to land, not merely a commercial hope or a handshake expectation. If the interest is genuine, a caveat may be used to protect that interest until the dispute, settlement, or financing issue is resolved.
 
-That distinction matters because not every unpaid debt or broken promise creates a caveatable interest. The interest normally needs to be connected to the property itself. For borrowers trying to understand urgent title issues, our **[caveat loans in Australia guide](/resources/guides/caveat-loans-australia-complete-guide)** gives the broader commercial context around how caveats affect short-term property-secured finance.
+That distinction matters because not every unpaid debt or broken promise creates a caveatable interest. The interest normally needs to be connected to the property itself. For borrowers trying to understand urgent title issues, the **[caveat loans in Australia guide](/resources/guides/caveat-loans-australia-complete-guide)** gives the broader commercial context around how caveats affect short-term property-secured finance.
 
 ## Why caveatable interests matter in lending
 

@@ -9,7 +9,7 @@ author: "Ben"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/commercial-property-loans-guide.jpg"
@@ -23,7 +23,7 @@ Land tax debt finance is business-purpose funding used when a property investor,
 
 In Australia, land tax is administered by state and territory revenue offices, not the ATO. That distinction matters because arrears, payment arrangements, interest, recovery powers and title impacts can differ from federal tax debt. A lender assessing land tax arrears will usually want to know the exact amount owing, the property security position, whether any caveat or charge has been registered, and how the debt will ultimately be cleared.
 
-For Emet Capital borrowers, the practical question is simple: can the land tax pressure be resolved with a clean payment plan, refinance, sale proceeds, commercial property loan, caveat-style short-term facility or second mortgage before enforcement makes the file harder?
+For a commercial borrower, the practical question is simple: can the land tax pressure be resolved with a clean payment plan, refinance, sale proceeds, commercial property loan or second mortgage before enforcement makes the file harder?
 
 ### Related In-Depth Guides
 
@@ -153,7 +153,7 @@ Incomplete information slows urgent files. A lender cannot price or approve arou
 
 ## How Emet Capital Helps
 
-Emet Capital helps eligible commercial borrowers work out whether land tax arrears are best handled through refinance, second mortgage, caveat-style funding, private lending, sale timing or a negotiated non-loan option.
+Emet Capital helps eligible commercial borrowers work out whether land tax arrears are best handled through refinance, a second mortgage, private lending, sale timing or a negotiated non-loan option. If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages).
 
 The starting point is practical: how much is owed, what property is available, what title issues exist, what the deadline is, and what event will repay the facility. From there, the file can be matched to lenders that understand property-backed commercial scenarios.
 

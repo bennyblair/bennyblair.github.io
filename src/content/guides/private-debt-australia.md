@@ -13,7 +13,7 @@ readTime: "9 min read"
 author: "Ben"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Private Debt Australia | Commercial Borrower Guide"
@@ -60,7 +60,7 @@ This guide explains how private debt works for Australian business owners, prope
 
 This guide is for commercial borrowers considering private debt in Australia. That includes business owners seeking working capital, property investors refinancing commercial assets, developers bridging a project timing gap, and SMEs comparing non-bank funding after a bank delay or decline.
 
-It is not a personal finance guide. Emet Capital helps eligible business borrowers compare options from lenders across structures such as private debt, private lending, second mortgages, caveat loans, and commercial refinance.
+It is not a personal finance guide. Emet Capital helps eligible business borrowers compare options from lenders across structures such as private debt, private lending, second mortgages, and commercial refinance.
 
 ## What Is Private Debt in Australia?
 
@@ -159,7 +159,7 @@ Legal documentation matters. Security, guarantees, priority, default rights, and
 
 ## How Emet Capital Helps Compare Private Debt Options
 
-Emet Capital helps commercial borrowers package the file, identify the likely lender appetite, compare structures, and understand whether private debt, bank refinance, second mortgage, caveat loan, or another commercial facility is the better fit.
+Emet Capital helps commercial borrowers package the file, identify the likely lender appetite, compare structures, and understand whether private debt, bank refinance, second mortgage, or another commercial facility is the better fit.
 
 The broker role is not to make the debt risk-free. It is to make the scenario clear enough for the right lender to assess and for the borrower to understand the trade-offs before proceeding.
 

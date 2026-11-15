@@ -10,7 +10,7 @@ author: "Ben"
 reviewed_date: "2026-06-26"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -19,7 +19,7 @@ author_name: "Ben"
 
 A caveat loan exit plan is the repayment pathway that shows how short-term caveat finance will be cleared after the immediate deadline is solved. In this anonymised case study, the issue was not that the borrower lacked a workable commercial objective. The issue was that a bank delay created a timing gap between a refinance approval process and a hard commercial deadline.
 
-The borrower needed a short-term property-backed facility to protect the transaction while the bank process caught up. Emet Capital's role was to frame the file around security, timing, documents, and exit evidence, then compare whether a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), [second mortgage](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or refinance pathway was the cleaner structure.
+The borrower needed a short-term property-backed facility to protect the transaction while the bank process caught up. Emet Capital's role was to frame the file around security, timing, documents, and exit evidence, then compare whether a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), or refinance pathway was the cleaner structure.
 
 This article is general information only, not financial advice. The facts are anonymised and simplified to explain the decision process, not to describe a specific client's private circumstances.
 
@@ -50,7 +50,7 @@ It is not for borrowers looking for an open-ended cash-flow fix. If the underlyi
 
 ## What Is a Caveat Loan Exit Plan After a Bank Delay?
 
-A caveat loan exit plan after a bank delay is a short-term repayment strategy showing how a borrower will clear caveat finance once a delayed bank refinance, sale, settlement, or other capital event completes. The lender is not just assessing the property; it is assessing whether the temporary loan has a believable end point. Strong files usually include title details, existing mortgage balances, deadline evidence, refinance correspondence, valuation support, and a backup exit if the bank delay extends. Emet Capital helps commercial borrowers compare caveat finance with second mortgages, bridging loans, private lending, and refinance options. This is general information only and not financial advice.
+A caveat loan exit plan after a bank delay is a short-term repayment strategy showing how a borrower will clear caveat finance once a delayed bank refinance, sale, settlement, or other capital event completes. The lender is not just assessing the property; it is assessing whether the temporary loan has a believable end point. Strong files usually include title details, existing mortgage balances, deadline evidence, refinance correspondence, valuation support, and a backup exit if the bank delay extends. Emet Capital helps commercial borrowers compare second mortgages, bridging loans, private lending, and refinance options. This is general information only and not financial advice.
 
 ## The Scenario: A Refinance Was Moving, But Not Fast Enough
 

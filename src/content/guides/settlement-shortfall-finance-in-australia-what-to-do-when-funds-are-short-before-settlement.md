@@ -10,7 +10,7 @@ readingTime: 9
 author: "Ben"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/articles/commercial-property-investor-loan-checklist.jpg"
@@ -159,7 +159,7 @@ If GST is part of the issue, read [GST Loan for Commercial Property Settlement](
 
 ## How Emet Capital Helps
 
-Emet Capital is a commercial finance broker, not a lender. It helps commercial borrowers identify whether the shortfall is a refinance issue, bridging issue, caveat issue, second mortgage issue or negotiation issue. That distinction matters because the wrong structure can make a time-sensitive problem more expensive.
+Emet Capital is a commercial finance broker, not a lender. It helps commercial borrowers identify whether the shortfall is a refinance issue, bridging issue, second mortgage issue or negotiation issue. That distinction matters because the wrong structure can make a time-sensitive problem more expensive.
 
 A broker-side assessment starts with the settlement date, shortfall amount, property security, current lender position and exit strategy. From there, the file can be matched to lenders that are actually likely to understand the scenario. You can use a business loan broker to help you find the right loan; approval, terms and settlement remain with the lender.
 

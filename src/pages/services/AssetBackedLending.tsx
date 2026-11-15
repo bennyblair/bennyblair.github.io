@@ -282,7 +282,7 @@ const AssetBackedLending = () => {
                 className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
               >
                 <h3 className="font-semibold text-foreground mb-2">Caveat Loans Guide</h3>
-                <p className="text-sm text-muted-foreground mb-2">Property-secured finance using caveat arrangements where timing is compressed.</p>
+                <p className="text-sm text-muted-foreground mb-2">Educational guide to short-term caveat-secured facilities in the Australian market.</p>
                 <span className="text-accent text-sm inline-flex items-center">
                   Read Guide <ArrowRight className="ml-1 h-3 w-3" />
                 </span>
@@ -320,11 +320,11 @@ const AssetBackedLending = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Caveat Loans</CardTitle>
+                  <CardTitle className="text-lg">Bridging Finance</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">Short-term property-backed business funding where the file fits</p>
-                  <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <Link to="/services/bridging-finance" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

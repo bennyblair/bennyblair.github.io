@@ -14,7 +14,7 @@ author: "Ben"
 reviewed_date: "2026-06-28"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Private Mortgage Loans for Commercial Borrowers | Emet Capital"
@@ -113,7 +113,7 @@ For commercial property, include leases and rent schedules where relevant. For b
 
 ## How Emet Capital Helps
 
-Emet Capital helps commercial borrowers compare whether a private mortgage loan, second mortgage, caveat loan, commercial refinance, or working-capital structure is the cleaner fit. The aim is not to force every urgent file into private lending. The aim is to identify the structure that matches the timing, security, purpose, and exit.
+Emet Capital helps commercial borrowers compare whether a private mortgage loan, second mortgage, commercial refinance, or working-capital structure is the cleaner fit. The aim is not to force every urgent file into private lending. The aim is to identify the structure that matches the timing, security, purpose, and exit.
 
 For some borrowers, the right answer is to slow down and prepare a bank refinance. For others, a short-term private mortgage may protect a settlement, unlock equity, or bridge a documented gap while a longer-term outcome is arranged.
 
@@ -161,6 +161,6 @@ Emet Capital is a commercial finance brokerage. We help eligible business borrow
 - **[Private Lending Mortgage](/resources/guides/private-lending-mortgage)** — related property-backed private lending guide.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial mortgage context.
 - **[Commercial Property Refinancing](/services/refinancing-solutions)** — options when a longer-term refinance is possible.
-- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — compare faster caveat-backed funding where urgency is high.
+- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — educational guide to how caveat lending works in the Australian market.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

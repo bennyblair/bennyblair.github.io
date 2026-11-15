@@ -10,7 +10,7 @@ author: "Daniel"
 reviewed_date: "2026-06-26"
 author_links: [{"label":"Daniel bio","url":"/about/daniel"}]
 author_url: "/about/daniel"
-author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 ---
@@ -86,7 +86,7 @@ This is where [bank vs non-bank commercial lending](/resources/guides/bank-vs-no
 
 Use a broker when you need to compare lender appetite, structure a complex regional file, refinance after a bank delay, fund a settlement deadline, or understand whether the property can support business-purpose borrowing.
 
-A broker may also help when you need to preserve an existing loan while adding new funding. In those cases, a [second mortgage](/resources/guides/second-mortgages-for-business-guide), [caveat loan](/resources/guides/caveat-loans-australia-complete-guide), or [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may need to be compared against a full refinance.
+A broker may also help when you need to preserve an existing loan while adding new funding. In those cases, a [second mortgage](/resources/guides/second-mortgages-for-business-guide) or [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) may need to be compared against a full refinance.
 
 ## When Not To Use a Broker-Led Specialist Structure
 

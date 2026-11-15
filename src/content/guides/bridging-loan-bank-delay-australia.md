@@ -14,14 +14,14 @@ author: "Ben"
 reviewed_date: "2026-06-11"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
 
 A bridging loan for a bank delay is short-term, business-purpose property finance used when a commercial borrower has a real deadline but their bank approval, valuation, discharge, refinance, or settlement process is moving too slowly. It is not a way to ignore credit problems. It is a timing tool that may help protect a transaction while the permanent finance, sale, or refinance catches up.
 
-For Australian business owners, property investors, and developers, the key question is simple: is the delay temporary and fixable, or is the bank process showing that the original exit is not reliable? Emet Capital helps borrowers compare [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide) when timing is tight.
+For Australian business owners, property investors, and developers, the key question is simple: is the delay temporary and fixable, or is the bank process showing that the original exit is not reliable? Emet Capital helps borrowers compare [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), and [private lending](/resources/guides/what-is-private-lending-australia) when timing is tight.
 
 ### Related In-Depth Guides
 

@@ -39,7 +39,6 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-foreground">Key Services</h3>
             <ul className="space-y-2 text-sm">
               <li><Link to="/services/commercial-property-finance" className="text-muted-foreground hover:text-accent">Commercial Property Finance</Link></li>
-              <li><Link to="/services/caveat-loans" className="text-muted-foreground hover:text-accent">Caveat Loans</Link></li>
               <li><Link to="/services/first-second-mortgages" className="text-muted-foreground hover:text-accent">First & Second Mortgages</Link></li>
               <li><Link to="/services/bridging-finance" className="text-muted-foreground hover:text-accent">Bridging Finance</Link></li>
               <li><Link to="/services/private-lending" className="text-muted-foreground hover:text-accent">Private Lending</Link></li>

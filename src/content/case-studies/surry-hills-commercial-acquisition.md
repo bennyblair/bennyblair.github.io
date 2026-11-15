@@ -1,6 +1,6 @@
 ---
-title: "Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success"
-description: "How Emet Capital secured a $3.2M caveat loan in 48 hours for a prime Surry Hills restaurant acquisition in Sydney's competitive hospitality market."
+title: "Surry Hills Restaurant Acquisition: $3.2M Short-Term Property-Secured Facility"
+description: "An illustrative $3.2 million short-term property-secured facility for a Surry Hills restaurant acquisition, arranged through a commercial finance broker under compressed timing."
 date: "2024-01-15"
 category: "Case Studies" 
 slug: "surry-hills-commercial-acquisition"
@@ -10,12 +10,12 @@ author: "Ben"
 reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/assets/sydney-skyline-hero.jpg"
 loanAmount: "$3.2M"
-loanType: "Caveat Loan"
+loanType: "Short-term property-secured facility"
 industry: "Hospitality"
 duration: "12 months"
 outcome: "Illustrative scenario based on: Successful acquisition, restaurant opened within 3 months"
@@ -25,9 +25,9 @@ propertyType: "Commercial Hospitality"
 lvr: "75%"
 ---
 
-# Surry Hills Restaurant Acquisition: $3.2M Caveat Loan Success
+# Surry Hills Restaurant Acquisition: $3.2M Short-Term Property-Secured Facility
 
-*Example scenario — illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
+*Example scenario: illustrative of the commercial finance situations Emet Capital is positioned to support. Not based on a specific client matter.*
 
 When an experienced restaurateur identified a prime opportunity in Surry Hills' thriving food scene, time was of the essence. The coveted corner location in one of Sydney's most sought-after dining precincts required immediate action to secure the lease and begin fit-out works.
 
@@ -150,7 +150,7 @@ A borrower in this scenario could proceed with a preferred Surry Hills hospitali
 
 ## Related Services
 
-- [Caveat Loans](/services/caveat-loans) - Fast property-secured funding
+- [first and second mortgages page](/services/first-second-mortgages) - Property-secured business funding
 - [Commercial Property Finance](/services/commercial-property-finance) - Funding for commercial acquisitions
 - [Working Capital](/services/working-capital) - Business cash-flow support
 

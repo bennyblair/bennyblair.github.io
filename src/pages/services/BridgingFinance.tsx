@@ -622,11 +622,11 @@ const BridgingFinance = () => {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Caveat Loans</CardTitle>
+                  <CardTitle className="text-lg">First and Second Mortgages</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground mb-4">Short-term business-purpose finance supported by a workable property and title position</p>
-                  <Link to="/services/caveat-loans" className="text-accent hover:underline inline-flex items-center text-sm">
+                  <p className="text-sm text-muted-foreground mb-4">Property-backed business finance structured as a first or second ranking mortgage</p>
+                  <Link to="/services/first-second-mortgages" className="text-accent hover:underline inline-flex items-center text-sm">
                     Learn More <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

@@ -148,11 +148,11 @@ function renderRedirects() {
 }
 
 function renderLlmsTxt() {
+  // Outstanding program still records historical GSC path "/services/caveat-loans".
   const primaryPages = [
     ["/services/business-finance", "Business finance"],
     ["/services/commercial-property-finance", "Commercial property finance"],
     ["/services/commercial-property-development", "Property development finance"],
-    ["/services/caveat-loans", "Caveat loans"],
     ["/services/bridging-finance", "Bridging finance"],
     ["/services/equipment-finance", "Equipment finance"],
     ["/services/first-second-mortgages", "First and second mortgages"],

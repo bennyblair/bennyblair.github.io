@@ -8,7 +8,7 @@ author: "Ben"
 reviewed_date: "2026-06-20"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 image: "https://www.emetcapital.com.au/images/second-mortgage-business.jpg"
@@ -55,7 +55,7 @@ This guide provides a systematic decision framework for evaluating whether first
 
 ## What Is a Second Mortgage for Business?
 
-A second mortgage for business is a property-backed loan registered behind an existing first mortgage, allowing a borrower to access equity without replacing the current first loan. It may be used for business-purpose funding such as working capital, debt consolidation, equipment, settlement shortfalls, business expansion, or bridging to a refinance or sale. Because the second mortgage lender ranks behind the first lender, the structure usually carries higher risk, tighter equity requirements, and a higher cost than a standard first mortgage. The key assessment points are property value, first mortgage balance, combined loan-to-value ratio, business purpose, documents, lender consent where required, and a credible exit strategy. Emet Capital helps borrowers compare second mortgage options against refinancing, caveat loans, bridging finance, private lending, and unsecured business finance. This is general information only and not financial advice.
+A second mortgage for business is a property-backed loan registered behind an existing first mortgage, allowing a borrower to access equity without replacing the current first loan. It may be used for business-purpose funding such as working capital, debt consolidation, equipment, settlement shortfalls, business expansion, or bridging to a refinance or sale. Because the second mortgage lender ranks behind the first lender, the structure usually carries higher risk, tighter equity requirements, and a higher cost than a standard first mortgage. The key assessment points are property value, first mortgage balance, combined loan-to-value ratio, business purpose, documents, lender consent where required, and a credible exit strategy. Emet Capital helps borrowers compare second mortgage options against refinancing, bridging finance, private lending, and unsecured business finance. This is general information only and not financial advice.
 ## Understanding Second Mortgage Business Applications
 
 Second mortgages serve distinct business purposes, each with different risk-reward profiles and suitability criteria. Understanding common applications helps assess whether your intended use aligns with scenarios where second mortgages typically deliver value.
@@ -241,7 +241,7 @@ Ready to evaluate whether second mortgages suit your business? Conduct thorough 
 
 ## Related Guides
 
-- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — compare urgent caveat funding with structured second mortgage finance.
+- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — consider when a full refinance may be cleaner than layered debt.
 - **[Business Acquisition Finance Australia](/resources/guides/business-acquisition-finance-australia)** — useful where equity release supports an ownership or acquisition event.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — compare unsecured or cash-flow-led options before using property equity.

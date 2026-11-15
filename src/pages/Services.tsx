@@ -134,13 +134,6 @@ const Services = () => {
           terms: '2-7 years'
         },
         {
-          title: 'Caveat Loans',
-          description: 'Fast secured loans against property equity',
-          link: '/services/caveat-loans',
-          loanRange: '$100K - $20M+',
-          terms: '1-12 months'
-        },
-        {
           title: 'Private Lending',
           description: 'Non-bank private financing solutions',
           link: '/services/private-lending',
@@ -373,7 +366,7 @@ const Services = () => {
                   Not every commercial lending solution is built for the same borrower or transaction. Some facilities are designed for speed. Others are built around longer terms, lower rates, or more complex security structures. This hub brings those options together in one place so you can compare loan types before you enquire.
                 </p>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
-                  If you're weighing short-term funding, start with <Link to="/services/bridging-finance" className="text-accent underline-offset-4 hover:underline">bridging finance</Link>, <Link to="/services/caveat-loans" className="text-accent underline-offset-4 hover:underline">caveat loans</Link>, or <Link to="/services/private-lending" className="text-accent underline-offset-4 hover:underline">private lending</Link>. If you're planning a longer-term business or property strategy, compare <Link to="/services/first-second-mortgages" className="text-accent underline-offset-4 hover:underline">first and second mortgages</Link>, <Link to="/services/commercial-property-development" className="text-accent underline-offset-4 hover:underline">commercial property development finance</Link>, and <Link to="/services/working-capital" className="text-accent underline-offset-4 hover:underline">working capital solutions</Link>.
+                  If you're weighing short-term funding, start with <Link to="/services/bridging-finance" className="text-accent underline-offset-4 hover:underline">bridging finance</Link> or <Link to="/services/private-lending" className="text-accent underline-offset-4 hover:underline">private lending</Link>. If you're planning a longer-term business or property strategy, compare <Link to="/services/first-second-mortgages" className="text-accent underline-offset-4 hover:underline">first and second mortgages</Link>, <Link to="/services/commercial-property-development" className="text-accent underline-offset-4 hover:underline">commercial property development finance</Link>, and <Link to="/services/working-capital" className="text-accent underline-offset-4 hover:underline">working capital solutions</Link>.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   We’ve organised the services below by use case, funding style, and borrower need so the page works as a genuine commercial lending reference point rather than just a directory.

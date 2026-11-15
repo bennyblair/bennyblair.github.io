@@ -37,13 +37,6 @@ export const discoveryGuidesByService = {
       description: "Separate tax-sensitive timing from the finance decision before acquiring assets or funding obligations.",
     },
   ],
-  "caveat-loans": [
-    {
-      title: "Caveat loans online: enquiry versus approval",
-      href: "/resources/guides/caveat-loans-online-in-australia-fast-enquiry-vs-real-approval",
-      description: "What an online enquiry can establish, and what a lender still needs to assess.",
-    },
-  ],
   "commercial-property-finance": [
     {
       title: "Commercial property loan serviceability",

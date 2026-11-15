@@ -15,7 +15,7 @@ author: "Ben"
 reviewed_date: "2026-05-22"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
-author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across caveat loans, second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
+author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
@@ -124,7 +124,7 @@ The second risk is property exposure. A second mortgage is not unsecured funding
 
 ## How Emet Capital Helps Compare Options
 
-Emet Capital helps commercial borrowers compare second mortgages against the wider funding market. That can include [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), private lending, caveat loans, bridging finance, asset finance, invoice finance, and commercial refinance.
+Emet Capital helps commercial borrowers compare second mortgages against the wider funding market. That can include [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), private lending, bridging finance, asset finance, invoice finance, and commercial refinance.
 
 The aim is to match the structure to the problem. If the issue is urgent settlement, timing matters. If the issue is preserving a first mortgage, the second mortgage structure may matter. If the issue is cash-flow timing, a business finance product may be cleaner.
 

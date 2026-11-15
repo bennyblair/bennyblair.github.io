@@ -34,6 +34,16 @@ export interface FAQItem {
   answer: string;
 }
 
+export function plainFaqText(value: string): string {
+  return String(value || "")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function getFaqHeadingId(markdown: string): string {
   markdown = markdown.replace(/\r\n?/g, "\n");
   const heading = markdown.match(/^##\s+((?:\d+\.\s*)?(?:Frequently Asked Questions|FAQs?|FAQ Section)\b[^\n]*)/im)?.[1];
@@ -123,7 +133,7 @@ export function extractFAQs(markdown: string): FAQItem[] {
       // Split by newline to separate question and answer
       const parts = match.split(/\n+/);
       const question = parts[0].replace(/^###\s+/, '').trim();
-      const answer = parts.slice(1).join('\n').trim();
+      const answer = plainFaqText(parts.slice(1).join('\n').trim());
       if (question && answer) {
         faqs.push({ question, answer });
       }
@@ -164,7 +174,10 @@ export function extractFAQs(markdown: string): FAQItem[] {
   
   // Don't forget the last FAQ
   if (currentFAQ.question && currentFAQ.answer) {
-    faqs.push(currentFAQ as FAQItem);
+    faqs.push({
+      question: currentFAQ.question,
+      answer: plainFaqText(currentFAQ.answer),
+    });
   }
   
   return faqs;
