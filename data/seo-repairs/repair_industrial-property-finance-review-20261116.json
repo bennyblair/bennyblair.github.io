@@ -9,11 +9,32 @@
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
     "reviewer": "OpenClaw independent reviewer",
-    "reviewedAt": null,
-    "score": null,
+    "reviewedAt": "2026-11-15T21:59:51.613Z",
+    "verdict": "PASS",
+    "score": 92,
     "blockingFindings": [],
-    "findings": [],
-    "status": "pending_independent_review"
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: Understanding Industrial Property Lending",
+        "finding": "Some industrial assets appeal to lenders because occupiers often stay longer than typical retail tenants and because goods still need storage and production when other commercial sectors slow. No source for that comparison. The next sentence says That is a tendency, not a rule. No number, rate, or eligibility threshold."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: Documents lenders often request",
+        "finding": "A cash flow statement, business plan, lease agreements and personal financial information are among the items business.gov.au lists as paperwork that may be required. The fetched page lists financial reports, including cash flow statements (if available), your business plan, lease agreements, and your personal financial information. if available is not repeated. The mapped sentence Documentation requirements vary between loans is exact."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: Series Context",
+        "finding": "This guide is part of our Construction & Development Finance series. The page explains existing industrial assets. The body sends a new build to /services/commercial-property-development. Kept by the repair brief."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: business.gov.au shop-around sentence",
+        "finding": "It's a good idea to compare loan products from multiple lenders before applying. Source HTML is It&rsquo;s. The words match. HTTP 200, 357421 bytes."
+      }
+    ]
   },
   "kind": "substantive",
   "reviewMode": "general-information-v1",
@@ -23,11 +44,14 @@
       "pageId": "pg_d87472c5e5964ef3b2e74f019fda6fc1",
       "path": "/resources/guides/industrial-property-finance-warehouses-manufacturing",
       "beforeSha256": "d2008f3d353c801520d4c0975730cadea8bba8d282454e2fccd157d9dde0f137",
-      "afterSha256": "b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050",
-      "reason": "Existing-page keep/refresh of the industrial property finance explainer after PR #267 merged to main (squash eefbdbf522d4be6939f6dbd4736fc6624a642d5e). beforeSha256 is the expected post-#267 blob d2008f3d353c801520d4c0975730cadea8bba8d282454e2fccd157d9dde0f137. Remove unsupported rates, LVR ranges, fee amounts, approval timeframes and named-city deal examples. Rename Interest Rates and Costs / Current Rate Environment to What Drives Cost / Cost Factors. Add one descriptive body link to /services/commercial-property-finance. Keep the existing /services/commercial-property-development link only on development. Replace lender-unsafe 'Emet Capital provides' with broker-accurate wording. Answer-first opening on how lenders assess industrial security. SMSF FAQ shortened because ATO HTML returned HTTP 403; point to the existing SMSF commercial-property guide. Keep Series Context, title, H1 owner, slug, author Ben, author_* including post-#267 author_bio, date 2025-10-14 and reviewed_date 2026-05-15. Publication-contract fields required by qa:content: metaTitle, metaDescription, primaryQuery, searchIntent, designatedServicePage /services/commercial-property-finance, contentRisk medium matching the registry, featuredImage, featuredImageAlt, and two official sources. Independent-review fields, scores, reviewedBy, reviewedAt and expiresAt are left PENDING. Do not treat this record as a completed review, score, or professional approval. Registry designatedServicePagePath stays /services/business-finance (registry not edited). Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is current origin/main eefbdbf522d4be6939f6dbd4736fc6624a642d5e. Computed change class expected R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
+      "afterSha256": "a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971",
+      "reason": "Existing-page keep/refresh of the industrial property finance explainer after PR #267 merged to main (squash eefbdbf522d4be6939f6dbd4736fc6624a642d5e). beforeSha256 is the expected post-#267 blob d2008f3d353c801520d4c0975730cadea8bba8d282454e2fccd157d9dde0f137. Independent Grok 4.7 review PASS 92 at git a534ed05b84baecb2fbd07d8923ef05a8349cca4 / pre-metadata sha256 b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050 (https://cursor.com/agents/bc-b7edc09c-6953-565b-828b-bbde915fc0bd). This metadata stamp deletes reviewed_date 2026-05-15 and sets reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-15T21:59:51.613Z, expiresAt 2027-05-14T21:59:51.613Z (registry 180-day cadence). Resulting guide sha256 a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971. Guide prose is unchanged. Keep slug, canonical, H1, author Ben, author_* including post-#267 author_bio, date 2025-10-14, contentRisk medium. Publication-contract fields stay. Registry designatedServicePagePath stays /services/business-finance (registry not edited). Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is current origin/main eefbdbf522d4be6939f6dbd4736fc6624a642d5e. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-375393e7-443f-52cf-9036-0b663fa70b87"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-b7edc09c-6953-565b-828b-bbde915fc0bd"
         }
       ],
       "verification": [
@@ -108,24 +132,24 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "pending_independent_review",
-        "outcome": "PENDING",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
         "reviewer": "OpenClaw independent reviewer",
-        "reviewedAt": null,
-        "reviewedSourceSha256": "b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050",
+        "reviewedAt": "2026-11-15T21:59:51.613Z",
+        "reviewedSourceSha256": "a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971",
         "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "score": null,
+        "score": 92,
         "blockingFindings": [],
-        "completePageChecked": false,
+        "completePageChecked": true,
         "businessPurposeOnly": true,
         "noPersonalAdvice": true,
         "unsupportedClaimsRemoved": true,
         "noFabricatedTransactionOrReview": true,
         "noUnsupportedRatesSpeedOrEligibilityPromise": true,
         "noLegalOrTaxConclusion": true,
-        "claimCoverage": "writer_prepared",
+        "claimCoverage": "complete",
         "unmappedFactualClaims": [],
         "sources": [
           {
@@ -190,10 +214,11 @@
           }
         ],
         "limitations": [
-          "Writer-stage package only. Independent Grok 4.7 review has not run on this head. Review attestations are PENDING and must not be treated as a PASS, score, or professional financial approval.",
-          "humanReviewRequired is not claimed. contentRisk is recorded as medium to match the trusted registry. Author Ben, author_* fields including post-#267 author_bio, slug, title and date 2025-10-14 stay. reviewed_date 2026-05-15 stays. No owner approval is invented.",
+          "This is an automated independent editorial and source review of the industrial property finance guide, not human or professional financial approval. Independent review PASS 92 observed 2026-11-15T21:59:51.613Z at https://cursor.com/agents/bc-b7edc09c-6953-565b-828b-bbde915fc0bd against git a534ed05b84baecb2fbd07d8923ef05a8349cca4 / pre-metadata sha256 b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971. Writer https://cursor.com/agents/bc-375393e7-443f-52cf-9036-0b663fa70b87.",
+          "humanReviewRequired is not claimed. contentRisk stays medium to match the trusted registry. Author Ben, author_* fields including post-#267 author_bio, slug, title and date 2025-10-14 stay. No owner approval is invented.",
           "ATO business-real-property and related-party HTML returned HTTP 403 to automated GET. SMSF FAQ is shortened to a general statement plus the existing /resources/guides/smsf-loans-for-commercial-property link. No ATO URL is declared.",
           "https://www.nswlrs.com.au/ returned HTTP 200 but the HTML is JS-rendered with no extractable title-search prose from this box; it is not declared.",
+          "Declared sources were live-checked HTTP 200: ASIC INFO 207 disputes-about-commercial-loans; business.gov.au apply-for-a-business-loan. Independent review recorded both as HTTP 200.",
           "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. Registry maxAutomatedChangeRisk remains R0. Registry designatedServicePagePath remains /services/business-finance."
         ],
         "scopeVerification": {
@@ -201,12 +226,19 @@
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": false,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false,
-          "resultingFileIndependentlyReviewed": false
-        }
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-05-15; no reviewedBy, reviewedAt or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-15T21:59:51.613Z; expiresAt: 2027-05-14T21:59:51.613Z",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. All other guide bytes stay identical to the PASS 92 review of pre-metadata sha256 b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050."
+          }
+        ]
       }
     }
   ]

@@ -6,7 +6,6 @@ category: "Property Finance"
 tags: ["industrial property finance", "warehouse loans", "manufacturing facility finance", "industrial property loans Australia"]
 readingTime: 9
 author: "Ben"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,6 +21,9 @@ primaryQuery: "industrial property finance"
 searchIntent: "informational"
 designatedServicePage: "/services/commercial-property-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-15T21:59:51.613Z"
+expiresAt: "2027-05-14T21:59:51.613Z"
 sources:
   - label: "ASIC: Disputes about commercial loans"
     url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
