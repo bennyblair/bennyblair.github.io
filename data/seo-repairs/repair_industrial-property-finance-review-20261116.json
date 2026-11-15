@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_industrial-property-finance-review-20261116",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "eefbdbf522d4be6939f6dbd4736fc6624a642d5e",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-15T21:59:51.613Z",
+    "verdict": "PASS",
+    "score": 92,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: Understanding Industrial Property Lending",
+        "finding": "Some industrial assets appeal to lenders because occupiers often stay longer than typical retail tenants and because goods still need storage and production when other commercial sectors slow. No source for that comparison. The next sentence says That is a tendency, not a rule. No number, rate, or eligibility threshold."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: Documents lenders often request",
+        "finding": "A cash flow statement, business plan, lease agreements and personal financial information are among the items business.gov.au lists as paperwork that may be required. The fetched page lists financial reports, including cash flow statements (if available), your business plan, lease agreements, and your personal financial information. if available is not repeated. The mapped sentence Documentation requirements vary between loans is exact."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: Series Context",
+        "finding": "This guide is part of our Construction & Development Finance series. The page explains existing industrial assets. The body sends a new build to /services/commercial-property-development. Kept by the repair brief."
+      },
+      {
+        "severity": "low",
+        "location": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md: business.gov.au shop-around sentence",
+        "finding": "It's a good idea to compare loan products from multiple lenders before applying. Source HTML is It&rsquo;s. The words match. HTTP 200, 357421 bytes."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md",
+      "pageId": "pg_d87472c5e5964ef3b2e74f019fda6fc1",
+      "path": "/resources/guides/industrial-property-finance-warehouses-manufacturing",
+      "beforeSha256": "d2008f3d353c801520d4c0975730cadea8bba8d282454e2fccd157d9dde0f137",
+      "afterSha256": "a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971",
+      "reason": "Existing-page keep/refresh of the industrial property finance explainer after PR #267 merged to main (squash eefbdbf522d4be6939f6dbd4736fc6624a642d5e). beforeSha256 is the expected post-#267 blob d2008f3d353c801520d4c0975730cadea8bba8d282454e2fccd157d9dde0f137. Independent Grok 4.7 review PASS 92 at git a534ed05b84baecb2fbd07d8923ef05a8349cca4 / pre-metadata sha256 b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050 (https://cursor.com/agents/bc-b7edc09c-6953-565b-828b-bbde915fc0bd). This metadata stamp deletes reviewed_date 2026-05-15 and sets reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-15T21:59:51.613Z, expiresAt 2027-05-14T21:59:51.613Z (registry 180-day cadence). Resulting guide sha256 a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971. Guide prose is unchanged. Keep slug, canonical, H1, author Ben, author_* including post-#267 author_bio, date 2025-10-14, contentRisk medium. Publication-contract fields stay. Registry designatedServicePagePath stays /services/business-finance (registry not edited). Emet Capital is a commercial finance broker, not a lender. No consumer-loan, volume, licence, membership, rate or time-promise claims. baseSha is current origin/main eefbdbf522d4be6939f6dbd4736fc6624a642d5e. Computed change class R2; registry maxAutomatedChangeRisk stays R0. Draft only. No human or professional approval. No owner approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-375393e7-443f-52cf-9036-0b663fa70b87"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-b7edc09c-6953-565b-828b-bbde915fc0bd"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker, not a lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "commercial property finance for industrial purchases and refinances"
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying."
+        },
+        {
+          "kind": "text-added",
+          "value": "This article is for informational purposes only and does not constitute financial advice."
+        },
+        {
+          "kind": "text-added",
+          "value": "What Drives Cost"
+        },
+        {
+          "kind": "text-added",
+          "value": "In a hypothetical example"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically achieves 65-75% LVR"
+        },
+        {
+          "kind": "text-removed",
+          "value": "interest rates ranging from 6.2% to 8.5%"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides"
+        },
+        {
+          "kind": "text-removed",
+          "value": "One Melbourne investor purchased an industrial warehouse for $3.2 million"
+        },
+        {
+          "kind": "text-removed",
+          "value": "72% LVR at 6.8% interest"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Establishment fees typically range from 0.5% to 1.5%"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Written by the expert team at Emet Capital"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Interest Rates and Costs"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Current Rate Environment"
+        },
+        {
+          "kind": "text-removed",
+          "value": "A Perth industrial property loan of $1.8 million"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/commercial-property-finance"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-15T21:59:51.613Z",
+        "reviewedSourceSha256": "a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-15T21:40:51.000Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-15T21:40:51.000Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "Commercial loans are loans provided to companies and business owners.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "You can use a business loan broker to help you find the right loan.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A good broker will understand your business needs, recommend some loan options and handle most of the paperwork for you.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Some brokers charge for their services, while others are free and get a commission from the lender.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Documentation requirements vary between loans",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review of the industrial property finance guide, not human or professional financial approval. Independent review PASS 92 observed 2026-11-15T21:59:51.613Z at https://cursor.com/agents/bc-b7edc09c-6953-565b-828b-bbde915fc0bd against git a534ed05b84baecb2fbd07d8923ef05a8349cca4 / pre-metadata sha256 b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 a4330e3a2fa2bfc9651dd6cd62286709d9d07c3f88d6f418b616beb634ab6971. Writer https://cursor.com/agents/bc-375393e7-443f-52cf-9036-0b663fa70b87.",
+          "humanReviewRequired is not claimed. contentRisk stays medium to match the trusted registry. Author Ben, author_* fields including post-#267 author_bio, slug, title and date 2025-10-14 stay. No owner approval is invented.",
+          "ATO business-real-property and related-party HTML returned HTTP 403 to automated GET. SMSF FAQ is shortened to a general statement plus the existing /resources/guides/smsf-loans-for-commercial-property link. No ATO URL is declared.",
+          "https://www.nswlrs.com.au/ returned HTTP 200 but the HTML is JS-rendered with no extractable title-search prose from this box; it is not declared.",
+          "Declared sources were live-checked HTTP 200: ASIC INFO 207 disputes-about-commercial-loans; business.gov.au apply-for-a-business-loan. Independent review recorded both as HTTP 200.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. Registry maxAutomatedChangeRisk remains R0. Registry designatedServicePagePath remains /services/business-finance."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": false,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-05-15; no reviewedBy, reviewedAt or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-15T21:59:51.613Z; expiresAt: 2027-05-14T21:59:51.613Z",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. All other guide bytes stay identical to the PASS 92 review of pre-metadata sha256 b40697feafebb89a5507b18ca7fd65ea5021dd2bab7e9c500e57c128532a3050."
+          }
+        ]
+      }
+    }
+  ]
+}
