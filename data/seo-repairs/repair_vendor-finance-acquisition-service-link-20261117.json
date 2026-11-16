@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_vendor-finance-acquisition-service-link-20261117",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "1d3f338b558a2e9bc21c74db736febd80d69ca9a",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/vendor-finance-vs-business-acquisition-loan-in-australia.md",
+      "pageId": "pg_73c16c6053ae47cb82c0e28c5b857d99",
+      "path": "/resources/guides/vendor-finance-vs-business-acquisition-loan-in-australia",
+      "beforeSha256": "4dba8d1ece2a9d6dbe19d29c773e3327e7f5feb4882b72ae7b9413fb0f64fdf6",
+      "afterSha256": "ffa82d43960fe440cfde9a60860f85521f911cae3b3ef4a61a8be9da091354a4",
+      "reason": "Existing-page improvement of the vendor-finance versus business-acquisition-loan comparison. Keep slug, canonical path, title, description, H1 owner, keywords, author Daniel, author_* fields including the existing 10 years bio wording, publication date 2026-04-28, and reviewed_date 2026-05-15 pending independent review. Registry designatedServicePagePath /services/business-acquisition, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Add a two-sentence answer-first opening that defines vendor finance and a business acquisition loan and states that buyers often combine them, using only facts already on the page. Add one descriptive contextual body link to /services/business-acquisition with the anchor business acquisition finance arranged through a broker, in Blended Structures. Soften the Decision Framework Use vendor finance / Use external acquisition finance / Use a blended structure sentences so they do not read as personal advice. Replace the closer Emet Capital provides commercial lending solutions to eligible business borrowers, and the intro structured lending solution sentence, with broker-accurate wording. Related In-Depth Guides is an H2 so the first body heading is H2 and the template owns the only H1. Publication-contract fields required for this material change: metaTitle matching the existing title, metaDescription shortened from the existing description into the 80-180 band, primaryQuery matching the registry query, searchIntent informational, designatedServicePage /services/business-acquisition matching the registry, contentRisk medium matching the registry, an existing 1200x630 JPEG under 250 KB, featuredImageAlt, and one business.gov.au source used for the shop-around sentence. Keep existing guide links. Independent review is PENDING at this writer revision. Do not treat this record as a completed review, score, or professional approval. No rates, fees, LVRs, equity percentages, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. No figures were present at base and none were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-84311a01-e245-56a0-87b1-e29f57bfe086"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/business-acquisition"
+        },
+        {
+          "kind": "text-added",
+          "value": "business acquisition finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Vendor finance means the seller agrees to receive part of the purchase price over time. A business acquisition loan is external lender debt used to complete the purchase, and buyers often combine both when cash and debt do not cover the full price."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare business acquisition funding pathways where the transaction has a clear commercial purpose."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "Vendor finance tends to fit when trust, documentation, and seller risk appetite are strong."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital helps commercial borrowers compare business acquisition funding pathways where the transaction has a clear commercial purpose and the borrower needs a structured lending solution."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Use vendor finance when trust, documentation, and seller risk appetite are strong."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval. No reviewedBy, reviewedAt or expiresAt was added. reviewed_date 2026-05-15 stays.",
+          "Guide sha256 at this writer revision is ffa82d43960fe440cfde9a60860f85521f911cae3b3ef4a61a8be9da091354a4 (19108 bytes). beforeSha256 is 4dba8d1ece2a9d6dbe19d29c773e3327e7f5feb4882b72ae7b9413fb0f64fdf6 (18211 bytes) at main 1d3f338b558a2e9bc21c74db736febd80d69ca9a.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (357421 bytes) to Node fetch GET at 2026-11-16T20:22:26.484Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "https://business.gov.au/planning/new-businesses/buy-an-existing-business returned HTTP 200 (358188 bytes) to Node fetch GET. It is not declared and not quoted.",
+          "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans returned HTTP 200 (76012 bytes) to Node fetch GET. It is not declared and not quoted.",
+          "https://www.ato.gov.au/ returned HTTP 403 (372 bytes) to Node fetch GET and is not declared. https://www.afca.org.au/ returned HTTP 403 and is not declared.",
+          "Production https://emetcapital.com.au/services/business-acquisition returned HTTP 200, self-canonical https://emetcapital.com.au/services/business-acquisition, one H1 Business Acquisition Finance. Production https://emetcapital.com.au/resources/guides/vendor-finance-vs-business-acquisition-loan-in-australia returned HTTP 200, self-canonical, index/follow, one H1 matching the title.",
+          "Author Daniel and author_* fields, including the existing 10 years' experience sentence, stay unchanged. Slug, title, description, keywords, date and reviewed_date stay unchanged. Independent review metadata remains PENDING.",
+          "Registry designatedServicePagePath remains /services/business-acquisition. The article designatedServicePage is the same path so the required inlink satisfies the publication contract without adding a second service URL.",
+          "No rate, fee, LVR, equity percentage, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. Emet Capital is described as a commercial finance broker that does not lend or fund loans.",
+          "The featured image is an existing 1200x630 JPEG (133105 bytes) already used by the bank-versus-non-bank comparison guide. The alt describes the glass office and structural columns and does not name a suburb as a client property."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
