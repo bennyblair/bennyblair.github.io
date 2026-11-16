@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-lenders-land-loans-claims-20261117",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "1d3f338b558a2e9bc21c74db736febd80d69ca9a",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-lenders-for-land-loans-alternative-financing.md",
+      "pageId": "pg_6e242117cdf54110bb6f5936bc33ca71",
+      "path": "/resources/guides/private-lenders-for-land-loans-alternative-financing",
+      "beforeSha256": "70766de8193e792ee7d89697f3b3cd22875b1a19e9322a2a6c818e73463115ef",
+      "afterSha256": "c2070e67241c0ffad849d0beeaf5b69a20b8ab98744e77c599973f5e035c16b8",
+      "reason": "Existing-page keep/refresh of the private-lenders-for-land-loans explainer (package private-lenders-land-loans-claims-20261117). Keep slug, canonical path, title, H1 owner, author Ben, author_* fields including the existing 10 years bio wording, publication date 2025-10-20, and reviewed_date 2026-05-15 pending independent review. Registry designatedServicePagePath /services/private-lending, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Remove unsupported rates, LVRs, deposits, fees, timeframes, named-city deal examples and vendor-finance tax conclusions from body, FAQ and frontmatter JSON-LD (articleSchema/faqSchema removed so the template emits FAQ JSON-LD from the visible FAQ). Answer-first opening on how private lenders assess land. Rewrite the existing /services/private-lending inlink to the descriptive anchor private lending for land and development sites arranged through a broker (still one inlink). Remove unindexed /resources/guides/what-is-private-lending-australia links. Broker-accurate closer. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/private-lending, contentRisk medium matching the registry, existing 1200x630 JPEG, featuredImageAlt, two official sources, and claimIds lender-network-50. Related Guides is an H2 so the template owns the only H1. Independent review is PENDING at this writer revision. No rates, LVRs, fee amounts, timeframes, named-city deals, volumes, licence numbers, membership, consumer-loan, caveat-loan pitch, or invented transaction results were added. Draft only. No human or professional approval. baseSha is current origin/main 1d3f338b558a2e9bc21c74db736febd80d69ca9a.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-629615d5-17a0-55b6-a81e-6bdeffd77efc"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "private lending for land and development sites arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that helps eligible business borrowers compare lender options and is not the lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "Lenders usually require a meaningful equity contribution and set it case by case"
+        },
+        {
+          "kind": "text-added",
+          "value": "What Drives Cost"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically charge 8% to 15% annually"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically require 30% to 40% deposits"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically span 12 to 36 months"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Written by the expert team at Emet Capital"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/commercial-property-development-finance"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/bridging-finance-australia-complete-property-guide"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/what-is-private-lending-australia"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is c2070e67241c0ffad849d0beeaf5b69a20b8ab98744e77c599973f5e035c16b8. beforeSha256 is 70766de8193e792ee7d89697f3b3cd22875b1a19e9322a2a6c818e73463115ef at main 1d3f338b558a2e9bc21c74db736febd80d69ca9a.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (357421 bytes) to Python urllib GET at 2026-11-16T20:25:56.075Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "ASIC INFO 207 Disputes about commercial loans returned HTTP 200 (76012 bytes) to Python urllib GET at 2026-11-16T20:25:56.972Z. Mapped sentences are taken from Legal differences between consumer and commercial loans and from the AFCA membership paragraph.",
+          "ATO, moneysmart.gov.au and afca.org.au HTML returned HTTP 403 to automated GET and are not cited. No vacant-land, credit-licence-number or tax-treatment conclusion is made.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title and date 2025-10-20 stay. reviewed_date 2026-05-15 stays. Independent review metadata remains PENDING.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence number, consumer-loan offer, named-city deal or caveat-loan pitch was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. lender-network-50 is used in the body only, with its display qualification. schemaAllowed is false."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": false,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
