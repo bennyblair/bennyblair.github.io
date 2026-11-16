@@ -22,7 +22,7 @@ metaTitle: "Second Mortgage for Construction Finance Australia"
 metaDescription: "Second mortgages for construction finance explained for Australian business borrowers, developers and property investors. Learn uses, risks, documents and exits."
 primaryQuery: "second mortgage for construction"
 searchIntent: "informational"
-designatedServicePage: "/services/first-second-mortgages"
+designatedServicePage: "/services/commercial-property-development"
 contentRisk: "medium"
 featuredImage: "/images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg"
 featuredImageAlt: "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph."
@@ -62,7 +62,7 @@ This guide explains how second mortgages may be used for construction-related fi
 
 This guide is for commercial borrowers using property-backed finance around a construction or development project. That may include developers trying to finish works, builders managing project cash flow, property investors completing improvements, or business owners funding construction tied to a commercial asset.
 
-It is not a consumer mortgage guide. It does not cover personal home-loan advice, retail lending, or owner-occupier borrowing. The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses. See [ASIC's information on disputes about commercial loans](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans). Emet Capital is a commercial finance broker that works with eligible business borrowers and property-backed commercial lending scenarios. It does not lend, fund or approve loans.
+It is not a consumer mortgage guide. It does not cover personal home-loan advice, retail lending, or owner-occupier borrowing. The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses. Borrowing to buy a residential property as an investment is treated in a similar way to a consumer loan. See [ASIC's information on disputes about commercial loans](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans). Emet Capital is a commercial finance broker that works with eligible business borrowers and property-backed commercial lending scenarios. It does not lend, fund or approve loans.
 
 ## What Is A Second Mortgage For Construction Finance?
 
@@ -142,7 +142,7 @@ The borrower should choose the structure based on the actual problem.
 | Construction finance | Funding a build through staged progress payments. | More detailed project controls and lender oversight. |
 | Bridging finance | Timing gap between sale, refinance, purchase, or completion events. | Exit must be clear and dated. |
 
-For project funding strategy, compare the construction finance, property development loan, and commercial property development finance guides already linked in this article. A broker can help compare those options with first and second mortgage finance.
+For project funding strategy, compare the construction finance, property development loan, and commercial property development finance guides already linked in this article. For [commercial property development finance arranged through a broker](/services/commercial-property-development), use the development service page. A broker can help compare those options with first and second mortgage finance.
 
 ## Exit Planning For Construction Second Mortgages
 
@@ -206,7 +206,6 @@ The main risk is that construction delays or cost overruns prevent repayment wit
 
 ## Related Guides
 
-- **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)**: explore options for unfinished projects.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**: plan refinance exits after completion or stabilisation.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
