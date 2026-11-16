@@ -12,7 +12,6 @@ keywords:
   - "business second mortgage construction"
 readingTime: 8
 author: "Ben"
-reviewed_date: "2026-06-19"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -24,6 +23,9 @@ primaryQuery: "second mortgage for construction"
 searchIntent: "informational"
 designatedServicePage: "/services/commercial-property-development"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-16T21:00:05.302Z"
+expiresAt: "2027-05-15T21:00:05.302Z"
 featuredImage: "/images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg"
 featuredImageAlt: "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph."
 sources:
