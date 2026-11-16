@@ -11,7 +11,6 @@ keywords:
   - "property secured business loan"
 readTime: "9 min read"
 author: "Ben"
-reviewed_date: "2026-06-28"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -19,23 +18,32 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Private Mortgage Loans for Commercial Borrowers | Emet Capital"
 metaDescription: "Private mortgage loans explained for Australian commercial borrowers using property security for business-purpose funding."
+primaryQuery: "private mortgage loan"
+searchIntent: "informational"
+designatedServicePage: "/services/private-lending"
+contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-15T22:11:27.094Z"
+expiresAt: "2027-05-14T22:11:27.094Z"
+featuredImage: "/images/uploads/what-is-private-lending-australia.jpg"
+featuredImageAlt: "Glass commercial facade with structural columns in Sydney; representative property photograph."
+sources:
+  - label: "business.gov.au: Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
-
-# Private Mortgage Loans for Commercial Borrowers
 
 A private mortgage loan is business-purpose finance secured by real property and funded outside the standard bank channel. For Australian commercial borrowers, it can be used when timing, documentation, property type, or business circumstances do not fit a mainstream bank process, provided the security, purpose, and exit strategy are clear.
 
 The word "mortgage" matters. Unlike an unsecured business loan, a private mortgage loan is tied to property security. That can improve lender appetite for a complex commercial file, but it also raises the consequences if the borrower cannot repay or refinance as planned. This guide explains the structure in practical terms for business owners, property investors, and developers.
 
-For the broader lending category, start with [what private lending is in Australia](/resources/guides/what-is-private-lending-australia). If you are comparing bank and non-bank routes, read [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) before committing to a short-term facility.
+For the broader lending category, start with [what private lending is in Australia](/resources/guides/what-is-private-lending-australia) and [commercial private lending arranged through a broker](/services/private-lending). If you are comparing bank and non-bank routes, read [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better) before committing to a short-term facility.
 
-### Related In-Depth Guides
+## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — the core private lending explainer for commercial borrowers.
 - **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)** — how private mortgage structures are assessed and documented.
 - **[Private Lending Mortgage](/resources/guides/private-lending-mortgage)** — a closely related guide on property-backed private lending.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare timing, flexibility, and trade-offs.
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — useful when the proposed private mortgage ranks behind an existing lender.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial property finance context.
 
 ## At a Glance
@@ -59,7 +67,7 @@ It is not written for consumer home loans or owner-occupier mortgage advice. Eme
 
 A private mortgage loan may be considered when the funding need is commercial, the property position is clear, and a mainstream bank process is too slow or too rigid for the transaction. Common examples include a pending settlement, a delayed refinance, a short-term working-capital requirement, or a business opportunity where timing matters.
 
-Borrowers often compare this option with [commercial property refinancing](/services/refinancing-solutions), [second mortgages for business](/resources/guides/second-mortgages-for-business-guide), and [caveat loans](/resources/guides/caveat-loans-australia-complete-guide). The right structure depends on urgency, existing debt, title complexity, and the repayment plan.
+Borrowers often compare this option with [commercial property refinancing](/services/refinancing-solutions) and [second mortgages for business](/resources/guides/second-mortgages-for-business-guide). The right structure depends on urgency, existing debt, title complexity, and the repayment plan.
 
 A private mortgage loan works best when it solves a defined timing problem. It should not be treated as open-ended cash flow or a way to avoid fixing an underlying business issue.
 
@@ -79,11 +87,11 @@ A clean file normally includes title details, existing mortgage statements, rate
 
 The lender is not only asking, "Is there equity?" They are asking whether the proposed loan is enforceable, commercially sensible, and likely to be repaid within the intended term.
 
-## First Mortgage, Second Mortgage, or Caveat Structure?
+## First Mortgage or Second Mortgage Position?
 
-Private mortgage loans can be structured differently depending on the title position. A first mortgage gives the lender first-ranking registered security. A second mortgage sits behind an existing first mortgage and may require consent or careful review of the first lender's terms. A caveat-backed facility may be faster in some scenarios but carries different legal and priority considerations.
+Private mortgage loans can be structured differently depending on the title position. A first mortgage gives the lender first-ranking registered security. A second mortgage sits behind an existing first mortgage and may require consent or careful review of the first lender's terms. A caveat on title is a notice of a claimed interest; it is not the same as a registered first or second mortgage.
 
-If an existing first mortgage must stay in place, read [second mortgage vs line of credit](/resources/guides/second-mortgage-vs-line-of-credit) and [second mortgages for business](/resources/guides/second-mortgages-for-business-guide). If the need is extremely urgent, compare the risks and timing in [caveat loans Australia](/resources/guides/caveat-loans-australia-complete-guide).
+If an existing first mortgage must stay in place, read [second mortgage vs line of credit](/resources/guides/second-mortgage-vs-line-of-credit) and [second mortgages for business](/resources/guides/second-mortgages-for-business-guide).
 
 The practical choice depends on urgency, consent, cost, equity, and how quickly the borrower expects to repay.
 
@@ -161,6 +169,5 @@ Emet Capital is a commercial finance brokerage. We help eligible business borrow
 - **[Private Lending Mortgage](/resources/guides/private-lending-mortgage)** — related property-backed private lending guide.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial mortgage context.
 - **[Commercial Property Refinancing](/services/refinancing-solutions)** — options when a longer-term refinance is possible.
-- **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — educational guide to how caveat lending works in the Australian market.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. It's a good idea to compare loan products from multiple lenders before applying. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
