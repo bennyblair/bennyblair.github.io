@@ -20,31 +20,41 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Second Mortgage for Construction Finance Australia"
 metaDescription: "Second mortgages for construction finance explained for Australian business borrowers, developers and property investors. Learn uses, risks, documents and exits."
+primaryQuery: "second mortgage for construction"
+searchIntent: "informational"
+designatedServicePage: "/services/first-second-mortgages"
+contentRisk: "medium"
+featuredImage: "/images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg"
+featuredImageAlt: "Modern glass-fronted commercial building in Dandenong, Victoria; representative property photograph."
+sources:
+  - label: "ASIC: Disputes about commercial loans"
+    url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+  - label: "business.gov.au: Apply for a business loan"
+    url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
 A second mortgage for construction finance is a property-backed commercial facility that sits behind an existing first mortgage and may be used to fund construction-related business needs. It can help when a builder, developer, or property investor has usable equity but does not want to refinance the first mortgage, or cannot wait for a full bank restructure.
 
 The structure needs discipline. Construction projects already carry timing, valuation, cost-overrun, and contractor risk. Adding second-ranking debt can solve a funding gap, but only when the purpose, security, priority position, drawdown need, and exit strategy are clear.
 
-This guide explains how second mortgages may be used for construction-related finance in Australia, what lenders check, when the structure may or may not fit, and how it compares with [construction finance](/resources/guides/construction-finance-australia-complete-guide), [property development loans](/resources/guides/property-development-loans-complete-funding-guide), and [second mortgages for business](/resources/guides/second-mortgages-for-business-guide). It is general information only and not financial advice.
+This guide covers second mortgages used for construction and development. For second mortgages generally, see [what is a second mortgage](/resources/guides/what-is-a-second-mortgage). For [second mortgage and first mortgage finance arranged through a broker](/services/first-second-mortgages), use the service page.
 
-### Related In-Depth Guides
+This guide explains how second mortgages may be used for construction-related finance in Australia, what lenders check, when the structure may or may not fit, and how it compares with [construction finance](/resources/guides/construction-finance-australia-complete-guide) and [property development loans](/resources/guides/property-development-loans-complete-funding-guide). It is general information only and not financial advice.
 
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — the main pillar guide for business second mortgage structures.
-- **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)** — broader construction funding, progress claims, and project assessment.
-- **[Property Development Loans Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)** — development finance structures and project-risk checks.
-- **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)** — options when a project stalls before completion.
-- **[Progress Claim Finance](/resources/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia)** — funding timing gaps around claims and fitouts.
-- **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader property-backed commercial finance context.
+## Related In-Depth Guides
 
-### At a Glance
+- **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)**: broader construction funding, progress claims, and project assessment.
+- **[Property Development Loans Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)**: development finance structures and project-risk checks.
+- **[Progress Claim Finance](/resources/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia)**: funding timing gaps around claims and fitouts.
+
+## At a Glance
 
 | Question | Practical answer |
 |---|---|
 | What is it? | A second-ranking property-backed loan used for a construction-related business purpose. |
 | Who may use it? | Builders, developers, commercial property owners, and investors with equity and a defined funding gap. |
 | Common uses | Cost overruns, retention pressure, stalled works, deposit gaps, refinancing delays, or project completion funding. |
-| Main lender focus | Combined LVR, first mortgage position, project status, valuation evidence, builder risk, and exit. |
+| Main lender focus | Combined leverage, first mortgage position, project status, valuation evidence, builder risk, and exit. |
 | Main risk | Construction delays can collide with short loan terms and higher-cost second-ranking debt. |
 | Better alternatives | Development finance, construction facility variations, refinance, bridging finance, or working-capital finance where suitable. |
 
@@ -52,7 +62,7 @@ This guide explains how second mortgages may be used for construction-related fi
 
 This guide is for commercial borrowers using property-backed finance around a construction or development project. That may include developers trying to finish works, builders managing project cash flow, property investors completing improvements, or business owners funding construction tied to a commercial asset.
 
-It is not a consumer mortgage guide. It does not cover personal home-loan advice, retail lending, or owner-occupier borrowing. Emet Capital works with eligible business borrowers and property-backed commercial lending scenarios.
+It is not a consumer mortgage guide. It does not cover personal home-loan advice, retail lending, or owner-occupier borrowing. The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses. See [ASIC's information on disputes about commercial loans](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans). Emet Capital is a commercial finance broker that works with eligible business borrowers and property-backed commercial lending scenarios. It does not lend, fund or approve loans.
 
 ## What Is A Second Mortgage For Construction Finance?
 
@@ -85,9 +95,9 @@ A stalled project needs particular care. Borrowers should compare a second mortg
 
 A second mortgage for construction finance is usually not suitable where the project does not have a reliable cost-to-complete budget, the builder position is uncertain, title or consent issues are unresolved, or the exit relies on unrealistic timing.
 
-It may also be a poor fit where the borrower is trying to fund repeated cost overruns without fixing the project cause. If the loan only buys a few weeks before another shortfall appears, the structure may increase risk rather than solve the project.
+It may also be a poor fit where the borrower is trying to fund repeated cost overruns without fixing the project cause. If the loan only buys a short interval before another shortfall appears, the structure may increase risk rather than solve the project.
 
-Where the project still needs a full construction facility, a purpose-built [construction finance Australia](/resources/guides/construction-finance-australia-complete-guide) structure may be more appropriate. Where the issue is broader business liquidity, [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes) or [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be relevant alternatives.
+Where the project still needs a full construction facility, a purpose-built construction finance structure may be more appropriate. Where the issue is broader business liquidity, [working capital loans for SMEs](/resources/guides/working-capital-loans-for-smes) or [business debt consolidation](/resources/guides/business-debt-consolidation-australia) may be relevant alternatives.
 
 ## What Lenders Check
 
@@ -131,9 +141,8 @@ The borrower should choose the structure based on the actual problem.
 | Second mortgage | Accessing equity without replacing the first mortgage. | Consent, priority, and combined debt pressure. |
 | Construction finance | Funding a build through staged progress payments. | More detailed project controls and lender oversight. |
 | Bridging finance | Timing gap between sale, refinance, purchase, or completion events. | Exit must be clear and dated. |
-| Caveat lending | Very short-term urgent commercial funding. | Usually higher urgency and shorter-term risk. |
 
-For urgent funding, compare [caveat lending in Australia](/resources/guides/caveat-lending-australia) and [caveat loan vs second mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you). For project funding strategy, compare [property development mortgage Australia](/resources/guides/property-development-mortgage-australia) and [commercial property development finance](/resources/guides/commercial-property-development-finance).
+For project funding strategy, compare the construction finance, property development loan, and commercial property development finance guides already linked in this article. A broker can help compare those options with first and second mortgage finance.
 
 ## Exit Planning For Construction Second Mortgages
 
@@ -159,7 +168,7 @@ Practical controls include:
 - keep contractors, valuers, accountants, and brokers aligned on evidence;
 - compare alternatives before accepting a short-term property-backed facility.
 
-If the project has already stalled, read [progress claim finance for stalled fitouts and construction projects](/resources/guides/progress-claim-finance-for-stalled-fitouts-and-construction-projects-in-australia) before assuming a second mortgage is the only path.
+If the project has already stalled, read the progress claim finance guide linked above before assuming a second mortgage is the only path.
 
 ## Practical Broker View
 
@@ -167,7 +176,7 @@ The strongest construction second mortgage files have three qualities: a specifi
 
 A broker should test whether the second mortgage is solving a temporary funding gap or masking a deeper project issue. If the builder has left site, approvals are incomplete, or the end value no longer supports the debt, the conversation needs to slow down.
 
-Emet Capital helps business borrowers compare second mortgages with [private lending vs bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), construction finance, bridging finance, and commercial property refinance options. The goal is structure fit, not just speed.
+Emet Capital is a commercial finance broker. It can help eligible business borrowers compare second mortgages with private lending, construction finance, bridging finance, and commercial property refinance options. It does not lend, fund or approve loans. The goal is structure fit, not just speed. It's a good idea to compare loan products from multiple lenders before applying. See [business.gov.au's guide to applying for a business loan](https://business.gov.au/finance/funding/apply-for-a-business-loan).
 
 ## Frequently Asked Questions
 
@@ -197,10 +206,7 @@ The main risk is that construction delays or cost overruns prevent repayment wit
 
 ## Related Guides
 
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — understand the main business second mortgage structure.
-- **[Construction Finance Australia](/resources/guides/construction-finance-australia-complete-guide)** — compare project-based funding options.
-- **[Property Development Loans Complete Guide](/resources/guides/property-development-loans-complete-funding-guide)** — review development finance assessment and risk factors.
-- **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)** — explore options for unfinished projects.
-- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — plan refinance exits after completion or stabilisation.
+- **[Construction Completion Finance](/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled)**: explore options for unfinished projects.
+- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**: plan refinance exits after completion or stabilisation.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

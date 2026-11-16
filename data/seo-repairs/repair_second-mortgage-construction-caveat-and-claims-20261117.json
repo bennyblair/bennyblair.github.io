@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_second-mortgage-construction-caveat-and-claims-20261117",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "1d3f338b558a2e9bc21c74db736febd80d69ca9a",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/second-mortgage-for-construction-finance-australia.md",
+      "pageId": "pg_b5aea4fef21f45bf87fc3bdc77433736",
+      "path": "/resources/guides/second-mortgage-for-construction-finance-australia",
+      "beforeSha256": "ad911859c457ac51dfd9480b7442de6b401db6666fda27e3f8a6043bdb5b65ed",
+      "afterSha256": "fd3ba7624d1c113a857b902eb1500feb212b953f4126c418382a5b1988923fd3",
+      "reason": "Existing-page review of the construction second-mortgage guide (package second-mortgage-construction-caveat-and-claims-20261117). Keep title, H1 owner, slug, canonical path, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-06-19, and reviewed_date 2026-06-19 pending independent review. Scope the URL to construction and development second mortgages and stop it standing in for generic second-mortgage business-loan queries. Add a short scoping paragraph with one descriptive body link to /resources/guides/what-is-a-second-mortgage and one to /services/first-second-mortgages (anchor: second mortgage and first mortgage finance arranged through a broker). Remove the caveat lending table row and the sentence linking /resources/guides/caveat-lending-australia and /resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you. Replace that paragraph with a prose pointer to first and second mortgage finance and to the development-finance guides already linked. Do not link /resources/guides/second-mortgages-for-business-guide (Crawled - currently not indexed). Soften Combined LVR to Combined leverage and a few weeks to a short interval. Replace the closer Emet Capital provides commercial lending solutions to eligible business borrowers with broker-accurate wording. Replace em dashes with colons on changed list items only. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry second mortgage for construction, searchIntent informational, designatedServicePage /services/first-second-mortgages (the required inlink; registry designatedServicePagePath /services/commercial-property-development is not edited), contentRisk medium matching the registry, the existing 1200x630 JPEG /images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg, featuredImageAlt, and two official sources. Related In-Depth Guides is an H2 so the template owns the only H1. Duplicate related-list copies were removed so each internal URL appears at most twice and total internal links stay at 15. Independent review is PENDING at this writer revision. No rates, fees, LVR figures, volumes, licence, membership, consumer-loan, caveat-loan pitch, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-e9915a54-eb1d-5457-9776-bc40ec00e5e3"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/first-second-mortgages"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/what-is-a-second-mortgage"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/caveat-lending-australia"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/second-mortgages-for-business-guide"
+        },
+        {
+          "kind": "text-added",
+          "value": "This guide covers second mortgages used for construction and development."
+        },
+        {
+          "kind": "text-added",
+          "value": "second mortgage and first mortgage finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Combined LVR"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Caveat lending"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is fd3ba7624d1c113a857b902eb1500feb212b953f4126c418382a5b1988923fd3. beforeSha256 is ad911859c457ac51dfd9480b7442de6b401db6666fda27e3f8a6043bdb5b65ed at main 1d3f338b558a2e9bc21c74db736febd80d69ca9a.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (357421 bytes) to Python urllib GET at 2026-11-16T20:23:54.007707Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "ASIC INFO 207 disputes-about-commercial-loans returned HTTP 200 (76012 bytes) to Python urllib GET at 2026-11-16T20:23:55.737785Z. Mapped sentences: The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+          "Production GET HTTP 200: https://emetcapital.com.au/services/first-second-mortgages (67593 bytes) at 2026-11-16T20:23:52.357249Z; https://emetcapital.com.au/resources/guides/what-is-a-second-mortgage (66401 bytes) at 2026-11-16T20:23:52.768231Z.",
+          "ATO, AFCA and MoneySmart returned HTTP 403 to automated GET and are not declared.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, date and reviewed_date stay. Independent review metadata remains PENDING. contentRisk medium is recorded to match the trusted registry for the publication contract; reviewedBy, reviewedAt and expiresAt are not invented.",
+          "No rate, fee, LVR figure, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, consumer-loan or caveat-loan pitch was added. Combined LVR was softened to Combined leverage. A few weeks was softened to a short interval. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. lender-network-50 was not used."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": false,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
