@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_private-lenders-land-loans-claims-20261117",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "bb2fbc07a9e62282f24b4517241102260a8ff602",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-16T20:47:10.289Z",
+    "score": 92,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/private-lenders-for-land-loans-alternative-financing.md",
+      "pageId": "pg_6e242117cdf54110bb6f5936bc33ca71",
+      "path": "/resources/guides/private-lenders-for-land-loans-alternative-financing",
+      "beforeSha256": "70766de8193e792ee7d89697f3b3cd22875b1a19e9322a2a6c818e73463115ef",
+      "afterSha256": "30c69d0fc8b69a857798c7d7d7aeadaec0e1ebfcde4abbfd8076c55193c419d8",
+      "reason": "Existing-page keep/refresh of the private-lenders-for-land-loans explainer (package private-lenders-land-loans-claims-20261117). Keep slug, canonical path, title, H1 owner, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2025-10-20. Registry designatedServicePagePath /services/private-lending, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Remove unsupported rates, LVRs, deposits, fees, timeframes, named-city deal examples and vendor-finance tax conclusions from body, FAQ and frontmatter JSON-LD (articleSchema/faqSchema removed so the template emits FAQ JSON-LD from the visible FAQ). Answer-first opening on how private lenders assess land. Rewrite the existing /services/private-lending inlink to the descriptive anchor private lending for land and development sites arranged through a broker (still one inlink). Remove /resources/guides/what-is-private-lending-australia links. Broker-accurate closer. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/private-lending, contentRisk medium matching the registry, existing 1200x630 JPEG, featuredImageAlt, two official sources, and claimIds lender-network-50. Related Guides is an H2 so the template owns the only H1. Independent Grok 4.7 review PASS 92 at git a966606d1fb854f651969b26341d8fa6a4bf7723 / pre-metadata sha256 c2070e67241c0ffad849d0beeaf5b69a20b8ab98744e77c599973f5e035c16b8 (https://github.com/bennyblair/bennyblair.github.io/pull/273#issuecomment-6928898774). This metadata stamp deletes reviewed_date 2026-05-15 and sets reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-16T20:47:10.289Z, expiresAt 2027-05-15T20:47:10.289Z (registry 180-day cadence). Resulting guide sha256 30c69d0fc8b69a857798c7d7d7aeadaec0e1ebfcde4abbfd8076c55193c419d8. Guide prose is unchanged from the PASS review. No rates, LVRs, fee amounts, timeframes, named-city deals, volumes, licence numbers, membership, consumer-loan, caveat-loan pitch, or invented transaction results were added. Draft only. No human or professional approval. baseSha is current origin/main 1d3f338b558a2e9bc21c74db736febd80d69ca9a.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-629615d5-17a0-55b6-a81e-6bdeffd77efc"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "text-added",
+          "value": "private lending for land and development sites arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that helps eligible business borrowers compare lender options and is not the lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "Lenders usually require a meaningful equity contribution and set it case by case"
+        },
+        {
+          "kind": "text-added",
+          "value": "What Drives Cost"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically charge 8% to 15% annually"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically require 30% to 40% deposits"
+        },
+        {
+          "kind": "text-removed",
+          "value": "typically span 12 to 36 months"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Written by the expert team at Emet Capital"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/commercial-property-development-finance"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/bridging-finance-australia-complete-property-guide"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/what-is-private-lending-australia"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-16T20:47:10.289Z",
+        "reviewedSourceSha256": "30c69d0fc8b69a857798c7d7d7aeadaec0e1ebfcde4abbfd8076c55193c419d8",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "completePageChecked": true,
+        "unsupportedClaimsRemoved": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "blockingFindings": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-16T20:39:24.058Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-16T20:39:24.058Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "Commercial loans are loans provided to companies and business owners.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "Lenders that only provide commercial loans are not required to have a credit licence and are not legally required to be a member of AFCA.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "You can use a business loan broker to help you find the right loan.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "A good broker will understand your business needs, recommend some loan options and handle most of the paperwork for you.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Some brokers charge for their services, while others are free and get a commission from the lender.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "Documentation requirements vary between loans, but you may need to provide proof of identification, your business plan, financial reports, including cash flow statements (if available), financial forecasts, lease agreements and your personal financial information.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "read each loan's terms and conditions carefully to compare upfront and ongoing charges, interest rates, term lengths, security and other conditions.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review of the private land-lenders guide, not human or professional financial approval. Independent review PASS 92 observed 2026-11-16T20:47:10.289Z at https://github.com/bennyblair/bennyblair.github.io/pull/273#issuecomment-6928898774 against git a966606d1fb854f651969b26341d8fa6a4bf7723 / pre-metadata sha256 c2070e67241c0ffad849d0beeaf5b69a20b8ab98744e77c599973f5e035c16b8. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 30c69d0fc8b69a857798c7d7d7aeadaec0e1ebfcde4abbfd8076c55193c419d8. Writer https://cursor.com/agents/bc-629615d5-17a0-55b6-a81e-6bdeffd77efc.",
+          "humanReviewRequired is not claimed. contentRisk stays medium to match the trusted registry. Author Ben, author_* fields including the existing 10 years bio wording, slug, title and date 2025-10-20 stay. No owner approval is invented.",
+          "ATO, moneysmart.gov.au and afca.org.au HTML returned HTTP 403 to automated GET and are not cited. No vacant-land, credit-licence-number or tax-treatment conclusion is made.",
+          "Declared sources were live-checked HTTP 200: ASIC INFO 207 disputes-about-commercial-loans; business.gov.au apply-for-a-business-loan. Independent review recorded both as HTTP 200 at 2026-11-16T20:39:24.058Z.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. lender-network-50 is used in the body only, with its display qualification. schemaAllowed is false. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": false,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-05-15; no reviewedBy, reviewedAt or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-16T20:47:10.289Z; expiresAt: 2027-05-15T20:47:10.289Z; contentRisk: medium",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. All other guide bytes stay identical to the PASS 92 review of pre-metadata sha256 c2070e67241c0ffad849d0beeaf5b69a20b8ab98744e77c599973f5e035c16b8."
+          }
+        ]
+      }
+    }
+  ]
+}
