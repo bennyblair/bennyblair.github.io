@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_vendor-finance-acquisition-service-link-20261117",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "1fbc9d4e0adcca2eeee97ac67f1e9744d368df97",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-16T20:40:29.848Z",
+    "score": 91,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/vendor-finance-vs-business-acquisition-loan-in-australia.md",
+      "pageId": "pg_73c16c6053ae47cb82c0e28c5b857d99",
+      "path": "/resources/guides/vendor-finance-vs-business-acquisition-loan-in-australia",
+      "beforeSha256": "4dba8d1ece2a9d6dbe19d29c773e3327e7f5feb4882b72ae7b9413fb0f64fdf6",
+      "afterSha256": "6cfbf065da07457c016fbd48f630f43dedfa11b32e12189f742cb725dc21ec15",
+      "reason": "Existing-page improvement of the vendor-finance versus business-acquisition-loan comparison. Keep slug, canonical path, title, description, H1 owner, keywords, author Daniel, author_* fields including the existing 10 years bio wording, and publication date 2026-04-28. Registry designatedServicePagePath /services/business-acquisition, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Writer revision ed7c46e76963a8afe401353f564a6e3547d08be9 added a two-sentence answer-first opening, one descriptive contextual body link to /services/business-acquisition with the anchor business acquisition finance arranged through a broker, broker-accurate closer, and publication-contract fields. Independent Grok 4.7 review PASS 91 of that writer head / pre-stamp sha256 ffa82d43960fe440cfde9a60860f85521f911cae3b3ef4a61a8be9da091354a4. This stamp changes only reviewedBy, reviewedAt 2026-11-16T20:40:29.848Z and expiresAt 2027-05-15T20:40:29.848Z (180-day medium cadence) and this manifest. Resulting guide sha256 6cfbf065da07457c016fbd48f630f43dedfa11b32e12189f742cb725dc21ec15 (19201 bytes). reviewed_date 2026-05-15 removed. No rates, fees, LVRs, equity percentages, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-84311a01-e245-56a0-87b1-e29f57bfe086"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/business-acquisition"
+        },
+        {
+          "kind": "text-added",
+          "value": "business acquisition finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Vendor finance means the seller agrees to receive part of the purchase price over time. A business acquisition loan is external lender debt used to complete the purchase, and buyers often combine both when cash and debt do not cover the full price."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare business acquisition funding pathways where the transaction has a clear commercial purpose."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "Vendor finance tends to fit when trust, documentation, and seller risk appetite are strong."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital helps commercial borrowers compare business acquisition funding pathways where the transaction has a clear commercial purpose and the borrower needs a structured lending solution."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Use vendor finance when trust, documentation, and seller risk appetite are strong."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-16T20:40:29.848Z",
+        "reviewedSourceSha256": "6cfbf065da07457c016fbd48f630f43dedfa11b32e12189f742cb725dc21ec15",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 91,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "completePageChecked": true,
+        "unsupportedClaimsRemoved": true,
+        "blockingFindings": [],
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-16T20:40:29.848Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review, not human or professional financial approval. Independent Grok 4.7 review PASS 91 observed 2026-11-16T20:40:29.848Z of writer head ed7c46e76963a8afe401353f564a6e3547d08be9 / pre-stamp sha256 ffa82d43960fe440cfde9a60860f85521f911cae3b3ef4a61a8be9da091354a4. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 6cfbf065da07457c016fbd48f630f43dedfa11b32e12189f742cb725dc21ec15 (19201 bytes). Writer https://cursor.com/agents/bc-84311a01-e245-56a0-87b1-e29f57bfe086.",
+          "humanReviewRequired is not claimed. contentRisk is recorded as medium to match the trusted registry. Author Daniel, author_* fields including the existing 10 years bio, slug, title and date 2026-04-28 stay. No owner approval is invented.",
+          "Declared source was live-checked by the independent reviewer: https://business.gov.au/finance/funding/apply-for-a-business-loan HTTP 200 (357421 bytes) at 2026-11-16T20:40:29.848Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words match. That page does not mention vendor finance. The comparison is the page's own general information, not a government quotation.",
+          "Production https://emetcapital.com.au/services/business-acquisition returned HTTP 200, self-canonical, one H1 Business Acquisition Finance. The featured image is an existing 1200x630 JPEG (133105 bytes) already used by the bank-versus-non-bank comparison guide.",
+          "No rate, fee, LVR, equity percentage, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. Emet Capital is described as a commercial finance broker that does not lend or fund loans. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-05-15; no reviewedBy, reviewedAt or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-16T20:40:29.848Z; expiresAt: 2027-05-15T20:40:29.848Z",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. Guide prose is otherwise identical to the PASS 91 review of ed7c46e."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        }
+      }
+    }
+  ]
+}
