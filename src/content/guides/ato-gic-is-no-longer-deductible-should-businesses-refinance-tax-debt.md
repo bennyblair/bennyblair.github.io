@@ -174,4 +174,4 @@ The biggest risk is replacing ATO debt with lender debt without fixing the cash-
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)**
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

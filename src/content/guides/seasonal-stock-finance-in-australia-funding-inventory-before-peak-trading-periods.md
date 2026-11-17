@@ -198,4 +198,4 @@ Emet Capital can help eligible business borrowers compare commercial funding pat
 - **[Debtor Finance vs Trade Finance](/resources/guides/debtor-finance-vs-trade-finance-in-australia)** — compare receivables-led and supplier-led funding.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare lender types where speed and flexibility matter.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

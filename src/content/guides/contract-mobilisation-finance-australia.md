@@ -150,4 +150,4 @@ SMEs should compare working capital loans, invoice finance, business lines of cr
 - **[Private Finance After Bank Delay](/resources/guides/private-finance-for-business-after-bank-delay)**
 - **[Low Doc Business Finance](/resources/guides/low-doc-business-finance)**
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

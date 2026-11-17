@@ -216,4 +216,4 @@ Speculative stock is harder to finance because repayment depends on future sales
 - [Purchase order finance versus trade finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia)
 - [Supplier deposit finance for large orders](/resources/guides/supplier-deposit-finance-for-large-orders-australia)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

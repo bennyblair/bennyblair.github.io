@@ -237,4 +237,4 @@ The strongest files are usually simple to explain. The business is genuine. The 
 
 If those pieces are not in place, unsecured private lending can be the wrong tool. If they are in place, it may help a business move on an opportunity that would otherwise be slowed down by mainstream credit timing.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

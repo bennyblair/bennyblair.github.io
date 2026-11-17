@@ -176,4 +176,4 @@ A second mortgage may suit larger or more structured funding where consent and l
 
 A second mortgage application is strongest when the borrower can show usable equity, first-lender pathway, commercial purpose, borrower structure, supporting documents, and a realistic exit strategy in one clear pack. The checklist is not admin for its own sake. It is how the lender decides whether the risk can be understood quickly and responsibly.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

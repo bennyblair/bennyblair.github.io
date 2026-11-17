@@ -239,4 +239,4 @@ For borrowers, the real lesson is to treat lender-to-lender coordination as part
 - [Second Mortgage for Business](/resources/guides/second-mortgages-for-business-guide)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

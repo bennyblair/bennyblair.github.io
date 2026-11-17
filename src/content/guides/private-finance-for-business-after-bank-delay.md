@@ -147,4 +147,4 @@ Private finance may help after a bank decline if the issue is policy fit, timing
 - **[Low Doc Business Finance](/resources/guides/low-doc-business-finance)** — when documentation-light commercial finance may be considered.
 - **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — private mortgage lender context for property-backed business borrowing.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

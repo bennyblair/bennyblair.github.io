@@ -247,4 +247,4 @@ No. A second mortgage is usually second-ranking mortgage security, while a cavea
 - [Second mortgage for a business partner buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)
 - [Using a second mortgage to buy investment property](/resources/guides/can-i-use-a-second-mortgage-to-buy-investment-property)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

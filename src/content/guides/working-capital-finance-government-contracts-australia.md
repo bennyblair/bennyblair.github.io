@@ -218,4 +218,4 @@ Working capital finance can help deliver an awarded government contract when cos
 
 A government counterparty does not remove delivery, documentation or timing risk. Emet Capital helps eligible business borrowers compare structures and present contract cash flow to commercial lenders.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

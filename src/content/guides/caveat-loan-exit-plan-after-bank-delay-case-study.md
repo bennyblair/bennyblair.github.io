@@ -159,4 +159,4 @@ If the bank delay continues, the borrower needs a backup exit such as another re
 
 No. This article is general information for commercial borrowers and does not recommend a specific product or lender. Borrowers should obtain professional advice before making financial decisions.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

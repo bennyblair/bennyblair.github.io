@@ -210,4 +210,4 @@ The main risks are paying unnecessary costs, increasing debt without solving the
 - [Commercial Property Development Finance](/resources/guides/commercial-property-development-finance)
 - [Refinancing Solutions](/services/refinancing-solutions)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

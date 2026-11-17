@@ -207,4 +207,4 @@ A subordination agreement is not just legal noise in a second mortgage transacti
 
 If you are considering a second mortgage, the smartest move is to treat priority and consent issues as core deal items from the start. That usually leads to faster assessment, cleaner structuring, and fewer surprises at settlement.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

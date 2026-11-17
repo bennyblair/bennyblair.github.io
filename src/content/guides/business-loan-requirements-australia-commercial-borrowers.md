@@ -190,4 +190,4 @@ Prepare clean documents, explain the purpose clearly, disclose existing debts, m
 
 Business loan requirements are not just a document list. A lender wants a complete commercial story: who is borrowing, why funds are needed, what evidence supports repayment, what security is available, and how the structure fits the business. The cleaner that story is, the easier the assessment becomes.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -157,4 +157,4 @@ A private lender may be considered where timing, documentation, security, or tra
 - **[Commercial Property Loan Deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)** — how deposit and equity positions affect commercial borrowing.
 - **[Fast Commercial Property Loans](/resources/guides/fast-commercial-property-loans-for-urgent-settlement-in-australia)** — when speed becomes part of the finance strategy.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

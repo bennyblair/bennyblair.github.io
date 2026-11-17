@@ -149,4 +149,4 @@ A settlement delay can create contractual, legal and cash-flow consequences that
 - [Commercial Property Due Diligence](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [Commercial Property Finance](/services/commercial-property-finance)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

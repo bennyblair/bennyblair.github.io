@@ -155,4 +155,4 @@ The biggest mistake is borrowing without fixing the cause of the pressure. Fundi
 - **[Merchant Cash Advance Refinance](/resources/guides/merchant-cash-advance-refinance-australia)**, for replacing expensive daily repayment pressure.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)**, for broader cash-flow funding options.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

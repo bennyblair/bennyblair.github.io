@@ -156,4 +156,4 @@ Identify both parties separately and provide the documents showing their roles. 
 - [Commercial property loans in Australia](/resources/guides/commercial-property-loans-australia-complete-guide) — purchase and refinance context.
 - [Business acquisition finance](/resources/guides/business-acquisition-finance-australia) — preparing the commercial transaction supported by the security.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

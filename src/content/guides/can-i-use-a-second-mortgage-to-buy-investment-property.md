@@ -248,4 +248,4 @@ Emet Capital can help eligible commercial borrowers compare second mortgage, pri
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — When restructuring the existing loan is cleaner.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Funding options for settlement timing gaps.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

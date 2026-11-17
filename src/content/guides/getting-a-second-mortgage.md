@@ -163,4 +163,4 @@ The biggest risk is adding secured debt without a realistic exit strategy. Becau
 - [Private Lending in Australia](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
