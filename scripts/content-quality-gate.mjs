@@ -12,6 +12,7 @@ import { isInternalLinkOnlyChange, isRetiredProductCopyChange } from "./lib/cont
 import { isExactEditorialMigration } from "./lib/content-repair-policy.mjs";
 import { validateArticlePublicationContract } from "./lib/article-publication-contract.mjs";
 import { readPublicImageInfo } from "./lib/image-metadata.mjs";
+import { loadReviewedRepairContext, dataWithReviewedRepairRisk } from "./lib/reviewed-repair-context.mjs";
 
 const repoRoot = process.cwd();
 const contentRoot = path.join(repoRoot, "src", "content");
@@ -136,6 +137,7 @@ function asArray(value) {
 const files = allMarkdownFiles();
 const changeSet = changedContentFiles();
 const changed = changeSet.files;
+const reviewedRepairRisks = loadReviewedRepairContext(repoRoot);
 const parsed = files.map((file) => {
   const raw = fs.readFileSync(file, "utf8");
   const result = matter(raw);
@@ -171,7 +173,7 @@ for (const article of parsed) {
 
   if (!isLegacyEditorialMigration) {
     const publication = validateArticlePublicationContract({
-      data: article.data,
+      data: dataWithReviewedRepairRisk(article.data, relative, reviewedRepairRisks),
       body: article.body,
       imageInfo: (featuredImage) => readPublicImageInfo(repoRoot, featuredImage),
     });
@@ -208,7 +210,7 @@ for (const article of parsed) {
   const detectedHighRisk =
     relative.includes("/case-studies/") ||
     highRiskPattern.test(`${article.data.title || ""}\n${article.data.description || ""}\n${article.body}`);
-  const resolvedRisk = article.data.contentRisk || article.data.content_risk || (detectedHighRisk ? "high" : "low");
+  const resolvedRisk = article.data.contentRisk || article.data.content_risk || reviewedRepairRisks.get(relative) || (detectedHighRisk ? "high" : "low");
   if (detectedHighRisk && resolvedRisk !== "high") {
     errors.push(`${relative}: financial/statistical claims require contentRisk: high`);
   }
