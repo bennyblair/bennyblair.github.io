@@ -172,4 +172,4 @@ The caveatable interest is the underlying legal right or interest in the land. T
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Helpful when the issue is already time critical.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — A broader comparison for borrowers navigating specialist funding options.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

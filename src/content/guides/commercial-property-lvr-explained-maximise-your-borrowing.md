@@ -203,4 +203,4 @@ Borrowers should also look at valuation assumptions, serviceability, lease stren
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Relevant when the LVR needs to work at refinance, not just settlement.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — A strong comparison if lender appetite is driving the real decision.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -243,4 +243,4 @@ No. This article provides general information only. Hospitality operators should
 - [Inventory Finance in Australia: Funding Stock Without Killing Cash Flow](/resources/guides/inventory-finance-in-australia-funding-stock-without-killing-cash-flow)
 - [Trade Finance in Australia: How It Helps Businesses Manage Imports](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

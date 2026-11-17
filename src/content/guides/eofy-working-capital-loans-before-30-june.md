@@ -161,4 +161,4 @@ The biggest risk is borrowing to postpone a structural cash-flow problem. If Jul
 ### How can Emet Capital help with EOFY working capital finance?
 Emet Capital helps eligible business borrowers compare working capital, invoice finance, trade finance, equipment finance, and secured business lending options. The role is to help structure the finance conversation around purpose, documents, timing, security, and exit.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

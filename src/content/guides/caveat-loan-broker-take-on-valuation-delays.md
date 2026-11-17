@@ -158,4 +158,4 @@ The main lesson is to prepare valuation evidence before the lender asks for it. 
 
 A valuation delay can decide whether a caveat loan remains genuinely fast. Prepare the property evidence early, keep the requested facility realistic, and do not treat urgency as a substitute for security, equity, and exit clarity.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

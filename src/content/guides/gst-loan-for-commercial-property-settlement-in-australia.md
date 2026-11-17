@@ -246,4 +246,4 @@ It tends to work best when the shortfall is clearly defined, the asset and senio
 - [Commercial Property Due Diligence: Finance Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

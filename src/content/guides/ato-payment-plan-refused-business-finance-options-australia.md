@@ -189,4 +189,4 @@ Useful documents include the ATO account statement, refusal correspondence, lodg
 
 Borrowing may be risky if the business keeps falling behind on tax because the new loan may not fix the underlying cash-flow issue. In that situation, professional accounting, tax, legal, or restructuring advice may be more important than finance.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

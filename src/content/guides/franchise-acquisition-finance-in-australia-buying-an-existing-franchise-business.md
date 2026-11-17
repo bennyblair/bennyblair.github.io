@@ -172,4 +172,4 @@ The required working capital depends on the business model, wages, rent, supplie
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)** — short-term property-backed funding context for urgent commercial transactions.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — property-backed business funding where existing security remains in place.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

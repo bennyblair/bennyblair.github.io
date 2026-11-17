@@ -178,4 +178,4 @@ Yes. Tax debt can involve accounting, cash-flow, compliance, and director-risk i
 - **[Commercial Property Refinancing](/services/refinancing-solutions)** — relevant where property equity can support a longer-term structure.
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — compare flexible business-purpose property-backed lending.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

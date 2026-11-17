@@ -201,4 +201,4 @@ That depends on the borrower's tax position, cash flow, property equity, timing,
 - **[Property Development Loans Complete Funding Guide](/resources/guides/property-development-loans-complete-funding-guide)** — broader developer funding context.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lending basics for business borrowers.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

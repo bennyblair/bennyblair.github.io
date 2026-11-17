@@ -203,4 +203,4 @@ A borrower may compare these options where bank policy does not fit, timing is t
 - [Commercial Property Loan Deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)
 - [Commercial Property Finance](/services/commercial-property-finance)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

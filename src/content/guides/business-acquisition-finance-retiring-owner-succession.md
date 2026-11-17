@@ -176,4 +176,4 @@ Ask for financial statements, tax returns, BAS, management accounts, bank statem
 
 Retiring owner succession can be a strong acquisition opportunity when the business is real, the buyer is capable, and the handover is planned. The funding structure should protect the business after settlement, not just help the buyer reach settlement.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -130,6 +130,6 @@ The secondary mortgage market is the invisible backbone of Australian property f
 
 For business owners and investors, understanding this market provides context to the lending landscape. It explains the pricing of non-bank loans, the availability of credit during economic cycles, and the emerging opportunities in green finance and private debt. As the market evolves with technology and ESG demands, the secondary market will continue to be a critical driver of innovation and liquidity in Australia's financial system.
 
-*This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.*
+*This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.*
 
 *Written by the expert team at Emet Capital, experienced finance brokers specialising in commercial property and business lending across Australia.*

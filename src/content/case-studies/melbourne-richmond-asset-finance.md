@@ -576,7 +576,7 @@ Melbourne's position as Australia's specialty food manufacturing hub, combined w
 
 ---
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.
 
 *Emet Capital provides specialised asset finance for manufacturing businesses in Melbourne and across Victoria. This illustrative scenario with food production, equipment financing, and working capital preservation enables us to structure facilities that support rapid growth while maintaining financial flexibility.*
 

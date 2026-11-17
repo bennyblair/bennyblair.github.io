@@ -39,6 +39,10 @@ const exactReplacements = new Map([
     "Emet Capital’s editorial checklist is to prepare one pack containing:",
     "A practical application checklist is to prepare one pack containing:",
   ],
+  [
+    "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+    "Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders.",
+  ],
 ]);
 
 function publicHeading(heading) {
@@ -58,7 +62,7 @@ function publicHeading(heading) {
 
 export function remediatePublicEditorialLanguage(source) {
   let updated = source.split(/\r?\n/).map(publicHeading).join("\n");
-  for (const [from, to] of exactReplacements) updated = updated.replace(from, to);
+  for (const [from, to] of exactReplacements) updated = updated.replaceAll(from, to);
   return updated;
 }
 

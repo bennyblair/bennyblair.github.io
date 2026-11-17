@@ -201,4 +201,4 @@ A second mortgage may be faster than refinancing the entire first mortgage in so
 ### How does Emet Capital help with second mortgage documents?
 Emet Capital helps eligible business borrowers identify the documents lenders are likely to need, package the file around purpose and exit, and compare second mortgage options against refinancing, commercial property finance, and private lending.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

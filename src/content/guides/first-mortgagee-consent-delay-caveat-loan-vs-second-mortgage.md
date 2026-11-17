@@ -236,4 +236,4 @@ The biggest risk is using short-term finance without a reliable repayment source
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — longer-term refinance pathways after the urgent issue is solved.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — private lending basics for commercial borrowers.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

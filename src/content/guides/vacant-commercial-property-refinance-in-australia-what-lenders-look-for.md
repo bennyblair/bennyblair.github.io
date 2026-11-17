@@ -274,4 +274,4 @@ The absence of rent does make the lender’s job harder, but it does not automat
 - [Bank vs Non-Bank Commercial Lending in Australia: Which Borrowers Get Approved?](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
 - [When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

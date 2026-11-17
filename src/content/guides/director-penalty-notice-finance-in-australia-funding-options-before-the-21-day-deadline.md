@@ -170,4 +170,4 @@ Directors should speak to their accountant, tax adviser or lawyer immediately, t
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)**
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)**
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

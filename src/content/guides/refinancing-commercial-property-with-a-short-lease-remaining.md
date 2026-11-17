@@ -258,4 +258,4 @@ The best outcomes happen when the borrower is realistic about valuation risk, pr
 - [When Commercial Bridging Finance Makes Sense in Australia — and When It Does Not](/resources/guides/when-commercial-bridging-finance-makes-sense-in-australia-and-when-it-does-not)
 - [Commercial Property Loan Eligibility: What You Need to Qualify](/resources/guides/commercial-property-loan-eligibility-what-you-need-to-qualify)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

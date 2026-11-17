@@ -261,4 +261,4 @@ For borrowers, the smartest move is to compare second mortgage offers as full st
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Lenders in Australia: Complete Directory](/resources/guides/commercial-property-lenders-in-australia-complete-directory)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

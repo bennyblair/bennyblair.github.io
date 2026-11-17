@@ -224,4 +224,4 @@ But refinancing is not automatically a win. If it does not improve control, clar
 - [Refinancing Commercial Property with a Short Lease Remaining](/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining)
 - [Vacant Commercial Property Refinance in Australia: What Lenders Look For](/resources/guides/vacant-commercial-property-refinance-in-australia-what-lenders-look-for)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

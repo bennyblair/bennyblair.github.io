@@ -194,4 +194,4 @@ A broker can help clarify the funding purpose, organise documents, compare lende
 - [Equipment Finance and Leasing Australia](/resources/guides/equipment-finance-and-leasing-australia)
 - [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
