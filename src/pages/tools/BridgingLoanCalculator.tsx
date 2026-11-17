@@ -7,7 +7,36 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Calculator, TrendingUp, DollarSign, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import { EMET_LOGO_URL } from "@/lib/schema-utils";
+import FAQSection from "@/components/FAQSection";
+import { EMET_LOGO_URL, generateFAQPageSchema } from "@/lib/schema-utils";
+
+const faqs = [
+  {
+    question: "How accurate is the bridging loan calculator?",
+    answer:
+      "The calculator estimates interest-only monthly interest and total interest from the loan amount, annual rate and term you enter. It does not include establishment, valuation, legal, broker or exit fees, default interest or extension costs. Treat the result as indicative only. Lenders set actual pricing for each file.",
+  },
+  {
+    question: "What interest rate should I enter in the calculator?",
+    answer:
+      "Enter the annual interest rate a lender has quoted for your file. If the quote is a monthly rate, multiply it by 12 before you enter it. The calculator uses that simple annual rate and does not compound. Use the rate that applies to your security and circumstances, not an advertised headline rate.",
+  },
+  {
+    question: "Can I reduce my monthly payments on bridging loans?",
+    answer:
+      "Monthly payments in this calculator are interest-only. You can lower the shown payment by entering a smaller loan amount or a lower annual rate. Some lenders allow interest to be capitalised, so cash interest is not paid monthly and the debt rises instead. Capitalisation is a lender setting, not something this calculator changes automatically.",
+  },
+  {
+    question: "How do bridging loan costs compare to standard commercial loans?",
+    answer:
+      "Do not compare a bridging facility to a longer-term commercial loan on monthly interest alone. Bridging is used when timing does not allow a standard assessment. Compare total cost over the period you need the money, including fees this calculator excludes.",
+  },
+  {
+    question: "What loan term should I enter in the calculator?",
+    answer:
+      "Enter your realistic time until you can repay through sale, refinance or another evidenced exit, not a hopeful minimum. If the exit might be delayed, run the calculator again with a longer term. This tool does not add default interest or extension fees; those costs, if any, are set by the lender.",
+  },
+];
 
 const BridgingLoanCalculator = () => {
   const [loanAmount, setLoanAmount] = useState<number>(0);
@@ -53,58 +82,11 @@ const BridgingLoanCalculator = () => {
     "dateModified": "2025-10-21"
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How accurate is the bridging loan calculator?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The bridging loan calculator provides accurate estimates of interest costs and monthly payments based on inputs you provide. However, it doesn't include establishment fees (a lender-specific range), legal costs (an indicative amount to an indicative amount), valuation fees (an indicative amount to an indicative amount), or potential exit fees. Total costs typically run a lender-specific range higher than calculator interest figures alone."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What interest rate should I enter in the calculator?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Enter the annual interest rate your lender quotes, typically a lender-specific range annually. If your lender quotes monthly rates, multiply by 12: a lender-specific monthly percentage equals a lender-specific annual percentage, a lender-specific monthly percentage equals a lender-specific annual percentage. Prime residential property typically attracts a lender-specific rate range, commercial property faces a lender-specific range, and higher-risk scenarios might reach a lender-specific range."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I reduce my monthly payments on bridging loans?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Monthly payments reflect interest-only structure. To reduce payments: reduce loan amount, negotiate lower interest rates, or choose interest capitalisation where monthly interest adds to principal rather than requiring cash payment. Interest capitalisation reduces monthly outflow to zero but increases total debt significantly over the loan term."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do bridging loan costs compare to standard commercial loans?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Bridging loans cost significantly more but provide faster approval. Commercial loans charge a lender-specific range annually with 4 to 8 week approval, whilst bridging loans charge a lender-specific range annually but approve within days. On an indicative amount over 12 months, commercial lending costs approximately an indicative amount interest, whilst bridging finance costs an indicative amount to an indicative amount—roughly a lender-specific range more expensive."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What loan term should I enter in the calculator?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Enter your realistic timeline until you can repay through sale, refinancing, or other exit—not the maximum term offered. Typical terms span 6 to 18 months. If uncertain, calculate multiple scenarios: 6 months (optimistic), 12 months (realistic), and 18 months (pessimistic) to understand cost ranges and prepare for possible delays."
-        }
-      }
-    ]
-  };
-
   return (
     <>
       <Helmet>
         <title>Bridging Loan Calculator Australia: Calculate Costs Instantly</title>
-        <meta name="description" content="Use our bridging loan calculator to estimate costs, interest payments & repayments. Instant calculations for Australian commercial bridging finance." />
+        <meta name="description" content="Estimate interest-only monthly interest and total interest for a commercial bridging loan. Excludes establishment, valuation, legal, broker and exit fees, default interest and extensions. Indicative only; lenders set pricing." />
         <meta name="keywords" content="bridging loan calculator, bridging finance calculator, bridge loan calculator, commercial bridging calculator" />
       <link rel="canonical" href="https://emetcapital.com.au/resources/tools/bridging-loan-calculator" />
       <meta property="og:image" content="https://emetcapital.com.au/hero-property-finance-poster.webp" />
@@ -114,6 +96,9 @@ const BridgingLoanCalculator = () => {
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify(generateFAQPageSchema(faqs))}
+        </script>
       {isDesignPreview && <meta name="robots" content="noindex, nofollow, noarchive" />}
       </Helmet>
 
@@ -122,9 +107,17 @@ const BridgingLoanCalculator = () => {
         <div className="max-w-4xl mx-auto mb-16">
           <div className="page-header text-center mb-8">
             <h1 className="text-4xl font-bold mb-4 text-foreground">Bridging Loan Calculator</h1>
-            <p className="text-lg text-muted-foreground">
-              Calculate your bridging loan costs, monthly payments, and total interest instantly
-            </p>
+            <div className="text-lg text-muted-foreground max-w-3xl mx-auto space-y-3">
+              <p>
+                This calculator estimates interest-only monthly interest and total interest from the loan amount, annual interest rate and term you enter.
+              </p>
+              <p>
+                It excludes establishment, valuation, legal, broker and exit fees, default interest and extension costs.
+              </p>
+              <p>
+                Results are indicative only, and lenders set actual pricing.
+              </p>
+            </div>
           </div>
 
           <Card className="calculator-workspace calculator-workspace--light mb-8">
@@ -207,7 +200,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Our bridging loan calculator above provides instant estimates of your monthly payments and total costs, but comprehensive assessment requires understanding what drives these figures and what additional expenses aren't captured in basic calculations. A Melbourne property investor might see that an indicative bridging loan at a lender-specific monthly percentage costs an indicative amount in monthly interest, but total costs including an indicative amount in establishment fees and an indicative amount in legal expenses over six months actually reach an indicative amount—substantially more than the calculator's interest-only projection suggests.
+                The calculator above shows monthly interest and total interest on the three inputs you provide. It does not show peak debt after capitalised costs, and it does not show what happens if the exit is late. For a business or commercial property purchase, run the term you expect and a longer term so a delayed sale or refinance is visible in the interest total.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -225,7 +218,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                A Brisbane buyer purchasing an indicative amount commercial property with an indicative deposit needs an indicative amount base borrowing. If establishment fees total an indicative amount and you prefer capitalising these, your actual loan amount becomes an indicative amount. Enter the total you'll actually draw, including any capitalised costs, not just the base funding requirement.
+                Enter the total you expect to draw, including any fees or prepaid interest the lender will capitalise, not only the base purchase gap. If you enter only the purchase shortfall, the monthly interest figure will understate the cost of the facility you actually take.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -234,20 +227,16 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Understanding Interest Rate Inputs</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Bridging loan interest rates require careful interpretation. Most bridging lenders quote monthly rates—typically a lender-specific range monthly—which the calculator converts to annual equivalents. If your lender quotes a lender-specific monthly percentage, that's a lender-specific annual percentage (a lender-specific percentage × 12), though the effective compound rate you'd pay over a full year would be a lender-specific percentage.
+                Enter the annual interest rate from a lender quote for this file. If the quote is a monthly rate, multiply it by 12 and enter the annual figure. The calculator uses simple annual interest divided by twelve. It does not compound, and it does not apply a different rate after an extension.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                The calculator uses the simple annual rate for clarity. Enter the annual rate your lender quotes, or if they provide monthly rates, multiply by 12 before entering. Different security types attract different rates: prime residential property in capital cities might receive a lender-specific monthly percentage (a lender-specific percentage annual), whilst commercial property or regional locations could face a lender-specific range monthly (a lender-specific range annual).
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Your actual rate depends on property type, location, loan-to-value ratio, and credit profile. Use the rate your lender indicates for your specific circumstances rather than advertised best-case rates that might not apply to your situation.
+                The rate a lender will quote depends on the security, location, loan-to-value settings, existing debt and the rest of the file. Use the rate indicated for your circumstances rather than an advertised headline rate that may not apply.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Setting Realistic Loan Terms</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Bridging loan terms typically span 6 to 18 months, with 12 months being most common. However, input your realistic timeframe—how long until you sell an existing property, complete a development, or refinance to permanent finance. Underestimating term length creates artificially low cost projections.
+                Input your realistic timeframe: how long until you sell an existing property, complete a development, or refinance to longer-term finance. Underestimating term length creates artificially low cost projections. This calculator does not assume a standard term.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -255,7 +244,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Extension options impact total costs significantly. Many bridging loans allow 6 to 12-month extensions beyond the initial term, often at slightly higher rates. If there's reasonable chance you'll need extensions, calculate costs for your likely total timeframe rather than just the initial term.
+                If a delayed exit is realistic, enter a longer term as well. Extension pricing, default interest and extra fees are set by the lender and are not in this calculator. Modelling extra months of ordinary interest is the way to see delay cost here.
               </p>
 
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">Understanding Your Calculator Results</h2>
@@ -269,37 +258,29 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                For an indicative amount loan at a lender-specific monthly percentage (a lender-specific annual percentage), the calculator shows approximately an indicative amount monthly payments. Over 12 months, that's an indicative amount in interest—a substantial ongoing expense requiring careful budgeting. Can your business or investment generate sufficient cash flow to sustain these payments comfortably?
+                Ask whether the business or investment can meet that monthly interest from cash, or whether the file depends on capitalising interest. A payment you cannot sustain is a file risk, not only a calculator output.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Some lenders offer interest capitalisation where monthly interest adds to principal rather than requiring cash payment. This preserves working capital but increases total debt progressively. An indicative amount loan with capitalised interest at a lender-specific monthly percentage grows to approximately an indicative amount after 12 months—an indicative amount total interest capitalised into the principal.
+                Some lenders offer interest capitalisation where monthly interest adds to principal rather than requiring cash payment. This preserves working capital but increases total debt progressively. This calculator still shows the interest as a monthly amount; it does not add that interest back onto the loan balance for you.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Total Interest and Cost Projections</h3>
               <p className="text-muted-foreground leading-relaxed">
-                The total interest figure shows cumulative interest over your specified loan term. However, this represents only part of your total borrowing cost. Additional expenses not reflected in basic calculator outputs include establishment fees (typically a lender-specific range of loan amount), application fees (an indicative amount to an indicative amount), legal fees (an indicative amount to an indicative amount), valuation costs (an indicative amount to an indicative amount depending on property type), and potential exit fees (a lender-specific range of loan amount).
+                The total interest figure shows cumulative interest over your specified loan term. It is only part of the borrowing cost. Establishment, application, legal, valuation and exit fees sit outside the three outputs above. Add those from the lender proposal before you treat the result as a budget.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Calculate comprehensive costs by adding these fees to the calculator's interest total. A Perth business owner borrowing an indicative amount at a lender-specific monthly percentage for 12 months sees an indicative amount interest in the calculator. Add an indicative amount in establishment fees (a lender-specific percentage), an indicative amount in legal costs, an indicative amount for valuation, and an indicative amount of exit fees (a lender-specific percentage), and total costs reach an indicative amount—nearly a lender-specific percentage more than interest alone.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Understanding total all-in costs helps compare bridging finance against alternatives. <Link to="/resources/guides/bridging-finance-australia-complete-property-guide" className="text-primary hover:underline">Bridging finance in Australia</Link> costs significantly more than traditional commercial loans but delivers dramatically faster approval and funding—assess whether the speed premium justifies the cost differential for your circumstances.
+                Understanding total all-in costs helps compare bridging finance against alternatives. <Link to="/resources/guides/bridging-finance-australia-complete-property-guide" className="text-primary hover:underline">Bridging finance in Australia</Link> is used when timing, not only price, drives the structure. Assess whether the speed of a short-term facility is worth the extra cost for your circumstances.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Effective Interest Rate Calculations</h3>
               <p className="text-muted-foreground leading-relaxed">
-                The calculator shows your nominal annual rate, but your effective rate—accounting for all fees capitalised into the loan—runs higher. If you capitalise an indicative amount in establishment fees into an indicative amount loan, you're actually borrowing an indicative amount and paying interest on that higher amount throughout the term.
+                The calculator shows your nominal annual rate, but your effective cost is higher if fees are capitalised into the drawn amount. You then pay interest on a larger balance throughout the term even though the rate field has not changed.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                This increases your effective cost even though the interest rate remains unchanged. Calculate true effective rates by dividing total costs (interest plus all fees) by the base loan amount, then annualising. Total costs of an indicative amount on an indicative loan over 12 months represent a lender-specific percentage effective annual cost versus the a lender-specific percentage nominal rate you entered.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Understanding effective rates enables accurate comparison shopping. A loan at a lender-specific monthly percentage with a lender-specific percentage establishment fees might cost more than one at a lender-specific monthly percentage with a lender-specific percentage establishment fees despite the lower headline rate. Always calculate total costs rather than focusing solely on interest rates.
+                To compare facilities, add interest plus every fee, then divide by the money you actually needed, and look at that cost over the term you will use. A lower headline rate with heavier fees can cost more than a higher rate with lighter fees. Always compare total cost rather than the rate field alone.
               </p>
 
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">Comparing Bridging Loan Scenarios</h2>
@@ -309,41 +290,29 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Short-Term vs Extended Terms</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Calculate costs at different timeframes to understand how loan duration impacts total expenses. A Sydney investor purchasing an indicative amount property might compare: 6 months at a lender-specific monthly percentage costs approximately an indicative amount interest, whilst 12 months costs an indicative amount—exactly double for twice the duration.
+                Because this calculator multiplies monthly interest by the number of months you enter, a longer term increases total interest in proportion. Fixed fees charged once do not rise with extra months, so the all-in cost does not double just because the term doubles.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                However, establishment fees remain constant regardless of term. At an indicative amount in establishment fees, 6-month total costs reach approximately an indicative amount whilst 12-month costs hit an indicative amount. The proportional cost increase from 6 to 12 months is a lender-specific percentage rather than a lender-specific percentage because fixed fees don't increase with duration.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                This calculation reveals opportunity costs. If you can execute your exit strategy six months sooner, you save an indicative amount in interest. This might justify accepting lower sale prices to accelerate timelines—saving an indicative amount in interest costs makes accepting an indicative amount less on your property sale economically rational.
+                That is why a delayed exit matters. Extra months of interest can outweigh a slightly lower sale price that lets you repay on time. Run the expected term and a delayed term before you treat the first result as the cost of the deal.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Different Interest Rate Impacts</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Model various interest rates to understand rate sensitivity and inform your lender negotiations. Compare the same an indicative amount loan over 12 months at different rates: a lender-specific monthly percentage (a lender-specific percentage annual) costs an indicative amount interest, a lender-specific monthly percentage (a lender-specific percentage annual) costs an indicative amount and a lender-specific monthly percentage (a lender-specific percentage annual) costs an indicative amount.
+                Model more than one annual rate if you have more than one quote, or if the quote is still a range. Small rate differences accumulate over the term because the monthly interest is a share of the whole loan amount.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                The indicative difference between a lender-specific range monthly rates, or an indicative amount between a lender-specific range, makes rate negotiation worthwhile. Even modest rate reductions—a lender-specific range monthly—save thousands over typical loan terms. These savings often exceed mortgage broker fees, making professional broker engagement valuable for securing competitive rates.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Rate variations often reflect property quality and borrower strength rather than arbitrary lender policies. Prime residential property in capital cities attracts better rates than commercial property or regional locations. Strong borrower credit and substantial equity might secure a lender-specific range monthly rate reductions compared to borderline applications.
+                Rate variations often reflect property quality and borrower strength rather than arbitrary lender policies. Security type, location, existing debt and the evidence for the exit can all change the rate a lender will quote. Compare quotes on the same amount, term and fee assumptions.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Loan Amount Optimisation</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Calculate costs for different borrowing amounts to determine optimal leverage. Sometimes borrowing less reduces total costs sufficiently to justify contributing more equity. Compare borrowing an indicative amount versus an indicative amount on an indicative amount property purchase: the indicative difference saves approximately an indicative amount in interest over 12 months at a lender-specific monthly percentage.
+                Calculate costs for different borrowing amounts to determine how much you actually need to draw. Borrowing less reduces interest. Contributing more equity ties up capital you might need for the purchase, works or working capital. Use the calculator to see the monthly interest difference, then weigh that against the cash you would otherwise keep.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                However, contributing that additional an indicative equity contribution ties up capital you might deploy elsewhere. Calculate opportunity costs: if that an indicative amount could generate a lender-specific percentage return in alternative investments, you'd earn an indicative amount—less than the indicative amount interest saving, suggesting the higher equity approach makes sense. Conversely, if alternative opportunities offer a lender-specific percentage returns (an indicative amount), you're better off borrowing more despite higher interest costs.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Maximum borrowing capacity also requires consideration. Lenders typically cap bridging loans at a lender-specific range loan-to-value ratio. Calculate maximum available borrowing against your property value to ensure your requirements fall within lender parameters before proceeding with plans assuming certain funding levels.
+                Maximum borrowing is set by the lender against the security, existing debt and the file. There is no single loan-to-value figure that applies to every commercial bridging loan. Confirm the lender's limit before you plan a purchase that assumes a draw the security cannot support.
               </p>
 
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">Beyond the Calculator: Hidden Costs</h2>
@@ -353,41 +322,33 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Establishment and Application Fees</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Establishment fees typically range from a lender-specific range of loan amount—an indicative amount to an indicative amount on an indicative amount loan. These substantial upfront costs aren't reflected in calculator monthly payment figures but significantly impact total expenses. Some lenders allow capitalising establishment fees into the loan amount, whilst others require cash payment at settlement.
+                Establishment fees are charged on many bridging facilities and are not part of the monthly payment shown above. Some lenders allow those fees to be capitalised into the loan amount, whilst others require cash at settlement. If they are capitalised, increase the loan amount input so the interest total matches the drawn facility.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Application or assessment fees add another an indicative amount to an indicative amount covering lender evaluation work regardless of whether the loan proceeds. This creates risk—paying an indicative amount for assessment of an ultimately declined application represents dead cost with no benefit. Legal fees for documentation preparation typically cost an indicative amount to an indicative amount depending on loan complexity.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Valuation fees vary dramatically by property type: an indicative amount to an indicative amount for standard residential property, an indicative amount to an indicative amount for commercial property, and potentially an indicative amount to an indicative amount for large commercial or industrial sites requiring detailed assessment. These costs occur early in the process, often before formal approval.
+                Application or assessment fees may be payable for the lender's evaluation even if the loan does not proceed. Legal fees for documents vary with the complexity of the security and the existing debt. Valuation costs vary by property type and usually fall due before formal approval.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Ongoing and Exit Expenses</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Monthly account keeping fees, though small individually (an indicative amount to an indicative amount monthly), accumulate over the loan term. These often go unnoticed in cost calculations but add an indicative amount to an indicative amount over 12 months. Early repayment terms matter significantly—some lenders charge minimum interest periods (typically 3 to 6 months) regardless of actual loan duration.
+                Account-keeping fees can accumulate over the term even when each charge is small. Some facilities also have a minimum interest period, so an early repayment may still cost more than the months you actually used. Other lenders allow repayment when the exit completes, with no minimum. Confirm that term before you rely on an early-exit saving.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                You might repay after two months but owe six months' interest—an indicative amount versus an indicative amount on an indicative amount loan at a lender-specific monthly percentage. Other lenders allow genuine early repayment with no minimum, potentially saving substantial amounts if your exit strategy proceeds faster than expected. Clarify these terms before committing.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Exit fees charged when repaying bridging loans vary by lender. Some charge a lender-specific range of loan amount as discharge fees (an indicative amount to an indicative amount on an indicative amount loan), whilst others charge flat fees of an indicative amount to an indicative amount and some charge nothing beyond standard legal costs (an indicative amount to an indicative amount). An indicative amount bridging loan with a lender-specific percentage exit fee costs an indicative amount just to repay.
+                Exit or discharge fees, if charged, are separate from the interest total. Some lenders charge a percentage of the loan, some charge a flat fee, and some charge only ordinary legal discharge costs. Add the exit cost from the proposal when you compare all-in cost.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Opportunity Costs and Alternatives</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Beyond direct costs, consider opportunity costs of capital tied to deposits and ongoing interest payments. An indicative deposit on bridging finance could alternatively earn investment returns elsewhere. If that capital generates a lender-specific annual percentage (an indicative amount), you're sacrificing this return during the bridging period—effectively adding to your cost.
+                Beyond direct costs, consider opportunity costs of capital tied to deposits and ongoing interest payments. Cash used as a deposit cannot earn a return elsewhere during the bridging period. That forgone return is part of the economic cost even though it does not appear in the calculator.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Compare calculator results against alternative financing options. What would <Link to="/resources/guides/commercial-property-loans-australia-complete-guide" className="text-primary hover:underline">commercial property loans in Australia</Link> cost over the same period? Traditional commercial loans at a lender-specific annual percentage cost substantially less than bridging loans at a lender-specific range, but require months for approval. Calculate both options: sometimes the speed premium justifies bridging loan costs, whilst other times slower but cheaper traditional lending makes sense if timeline permits.
+                Compare calculator results against alternative financing options. What would <Link to="/resources/guides/commercial-property-loans-australia-complete-guide" className="text-primary hover:underline">commercial property loans in Australia</Link> cost over the same period? A longer-term commercial loan follows a different assessment path and may not meet a short required date. Calculate both options when the timeline actually allows a standard facility.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                <Link to="/resources/guides/caveat-loans-australia-complete-guide" className="text-primary hover:underline">Caveat loans in Australia</Link> might deliver similar speed to bridging loans but different cost structures. Caveat loans typically charge a lender-specific range monthly with lower establishment fees, sometimes providing cheaper alternatives for short-term property-secured funding. However, caveat loans often provide lower LVRs (a lender-specific range), requiring larger deposits that might not suit your cash position.
+                A caveat on title can delay a sale or refinance exit even when the bridging interest looks manageable. That is a title issue, not a product Emet Capital offers. For educational background on caveats on title, see <Link to="/resources/guides/caveat-loans-australia-complete-guide" className="text-primary hover:underline">Caveat loans in Australia</Link>.
               </p>
 
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">When Calculator Results Suggest Alternatives</h2>
@@ -397,50 +358,48 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Cost-Benefit Analysis Thresholds</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Compare calculated bridging loan costs against the value you're obtaining. If bridging finance costs an indicative amount over 12 months but enables a property purchase generating an indicative profit, the a lender-specific percentage cost-to-benefit ratio seems reasonable. Conversely, if bridging costs an indicative amount to hold a property you'll ultimately sell for only an indicative amount more than waiting would achieve, economics don't support bridging finance.
+                Compare calculated bridging costs against the value of completing the purchase or works on the required date. If the interest and fees consume most of the expected commercial benefit, the facility may not be worth taking. If the alternative is losing a contracted opportunity or paying a commercial penalty, the same cost may still be rational.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Assess costs against your alternatives. What happens if you don't use bridging finance? Perhaps you lose a property opportunity worth an indicative potential profit—paying an indicative amount in bridging costs to capture an indicative profit makes sense. However, if the alternative is simply slightly delayed timelines without material profit impact, paying an indicative amount to save three months might not justify the expense.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                High costs in absolute terms might still be acceptable if they solve critical business problems or prevent larger losses. A business facing an indicative amount in penalty clauses for late project delivery might readily pay an indicative amount in bridging loan costs to avoid those penalties—the 4:1 benefit-to-cost ratio clearly supports the decision despite bridging finance being expensive in isolation.
+                Assess costs against your alternatives. What happens if you do not use bridging finance? A slightly later timeline with a cheaper facility can be the better file. Paying bridging interest only to save a short wait is harder to justify when nothing commercial is lost by waiting.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Stress Testing Scenarios</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Run calculator scenarios with pessimistic assumptions to understand downside risks. If you've calculated based on 12-month term assuming property sale within that timeframe, model 18 months to assess extended-timeline costs. The difference might reveal that delays you consider unlikely would create financially catastrophic outcomes if they occur.
+                Run calculator scenarios with pessimistic assumptions to understand downside risks. If you have calculated based on a sale or refinance inside the first term, model a longer term as well. The difference is the interest cost of a delayed exit, before any default interest or extension fee the lender may add.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                A Canberra investor planning 12-month bridging at an indicative amount total cost faces an indicative amount if circumstances extend to 18 months—an indicative amount additional expense potentially eliminating project profits. Understanding this downside helps assess whether the risk-reward balance supports proceeding or suggests alternative approaches providing more flexibility or lower risk profiles.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Model different interest rate scenarios if considering variable-rate bridging loans. Calculate costs if rates increase a lender-specific range during your loan term—does this stress your cash flow or fundamentally alter project economics? Fixed-rate bridging loans eliminate this uncertainty but typically cost a lender-specific range monthly more than variable rates.
+                If the facility is variable, enter a higher annual rate as a second scenario. This calculator does not forecast rate movements. A higher input is the way to see whether a rate increase would stress cash flow or the project.
               </p>
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Alternative Funding Strategies</h3>
               <p className="text-muted-foreground leading-relaxed">
-                If calculator results show bridging costs consuming significant portions of expected profits or returns, explore alternatives. Vendor finance arrangements—where property sellers provide funding—eliminate third-party lender costs entirely. Some vendors accept a lender-specific range interest versus a lender-specific range for bridging loans, potentially halving your financing costs.
+                If calculator results show bridging costs consuming significant portions of expected profits or returns, explore alternatives. Vendor finance arrangements, where a property seller provides funding, remove a third-party lender's interest and fees. Whether a vendor will do that, and on what terms, depends on the contract, not on this calculator.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Traditional commercial lending, whilst slower, might suit situations where speed isn't absolutely critical. If your timeline allows 6 to 8 weeks for approval, commercial loans at a lender-specific range annually cost dramatically less than bridging finance. Calculate both scenarios: sometimes accepting modest project delays to secure cheaper funding improves overall economics substantially.
+                Traditional commercial lending, whilst slower, might suit situations where speed isn't absolutely critical. If your timeline allows a standard assessment, a longer-term commercial loan may cost less over the same holding period. Calculate both scenarios: sometimes accepting a later start to access cheaper funding improves overall economics, whilst other files genuinely need a short-term bridge.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
                 Joint venture partnerships with equity investors represent another alternative—rather than borrowing, you partner with capital providers who fund acquisition in exchange for profit shares. JVs eliminate interest costs and debt service pressure, though you sacrifice ownership and profit compared to debt-financed deals. Calculate break-even points: at what profit level does JV equity dilution cost less than bridging loan interest?
               </p>
+            </div>
 
+            <div className="mt-8">
+              <FAQSection faqs={faqs} />
+            </div>
+
+            <div className="article-content space-y-6 prose prose-lg max-w-none mt-8">
               <h2 className="text-foreground text-2xl font-bold mt-8 mb-4">Conclusion</h2>
               <p className="text-muted-foreground leading-relaxed">
-                The bridging loan calculator above provides immediate visibility into monthly payments and interest costs, enabling quick assessment of whether short-term commercial finance fits your budget and project economics. However, comprehensive cost evaluation extends beyond basic interest calculations to encompass establishment fees, legal expenses, valuations, potential exit charges, and opportunity costs that significantly impact total financial commitment.
+                The bridging loan calculator above provides immediate visibility into monthly payments and interest costs, enabling quick assessment of whether short-term commercial finance fits your budget and project economics. Comprehensive cost evaluation still has to include establishment fees, legal expenses, valuations, potential exit charges, and opportunity costs that the three outputs do not show.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Use the calculator as your starting point, not your ending point. Model multiple scenarios varying loan amounts, interest rates, and terms to understand how different variables affect costs. Add establishment fees (typically a lender-specific range), legal costs (an indicative amount to an indicative amount), and valuation expenses (an indicative amount to an indicative amount) to calculator results for realistic total cost projections. Compare these comprehensive costs against the benefits you're achieving—property profit opportunities, urgent business needs, or time-sensitive acquisition advantages.
+                Use the calculator as your starting point, not your ending point. Model more than one loan amount, rate and term, including a delayed-exit term. Add fees from a lender proposal to the interest total before you treat the figure as a budget. Compare that all-in cost against the commercial benefit you are trying to protect.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -448,20 +407,16 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Ready to explore whether bridging finance suits your situation? Use the calculator above for initial estimates, then consult with experienced finance brokers who can provide personalised quotes based on your specific property, circumstances, and objectives. Professional guidance helps you navigate lender options, negotiate competitive rates, and structure financing optimally whilst ensuring you understand total costs before committing to any bridging arrangement.
+                If you need a business-purpose facility discussed against security and an evidenced exit, see <Link to="/services/bridging-finance" className="text-primary hover:underline">how a broker arranges commercial bridging finance</Link>. Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. It does not quote rates or approve loans.
               </p>
 
               <p className="text-muted-foreground text-sm italic mt-8">
-                <strong>Disclaimer:</strong> This article provides general information only and should not be considered financial advice. Consult with a licensed finance professional for advice specific to your circumstances.
-              </p>
-
-              <p className="text-muted-foreground text-sm">
-                <strong>Author:</strong> Written by the expert team at Emet Capital, experienced finance brokers specialising in commercial property and business lending across Australia.
+                <strong>Disclaimer:</strong> This calculator provides general information only and is not financial advice. It is for business-purpose commercial bridging finance. Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. Emet Capital does not arrange consumer loans. This page is pending independent review.
               </p>
 
               <div className="mt-8 text-center">
                 <Button asChild size="lg">
-                  <Link to="/contact">Get Your Custom Quote</Link>
+                  <Link to="/contact">Speak with a broker</Link>
                 </Button>
               </div>
             </div>
