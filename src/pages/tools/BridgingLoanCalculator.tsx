@@ -62,7 +62,7 @@ const BridgingLoanCalculator = () => {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Bridging Loan Calculator: Calculate Costs & Repayments Instantly",
-    "description": "Comprehensive guide to using bridging loan calculators for accurate cost estimation, including hidden fees, total expense calculations, and scenario comparisons for Australian commercial bridging finance.",
+    "description": "Guide to using this calculator to estimate interest-only monthly interest and total interest for Australian commercial bridging finance. Results exclude establishment, valuation, legal, broker and exit fees, default interest and extensions, and are indicative only.",
     "image": "https://emetcapital.com.au/images/bridging-loan-calculator.jpg",
     "author": {
       "@type": "Organization",
@@ -196,7 +196,7 @@ const BridgingLoanCalculator = () => {
           <Card className="p-8 shadow-lg">
             <div className="article-content space-y-6 prose prose-lg max-w-none">
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Understanding the true cost of bridging finance before committing to any lending arrangement protects you from unexpected expenses and helps assess whether short-term funding suits your situation. Bridging loans serve critical functions—funding property purchases before selling existing assets, covering urgent business expenses, or securing time-sensitive opportunities—but their cost structure differs substantially from traditional mortgages. Monthly interest charges, establishment fees, and total borrowing costs add up quickly over even short timeframes, making accurate calculation essential.
+                Understanding the true cost of bridging finance before committing to any lending arrangement protects you from unexpected expenses and helps assess whether short-term funding suits your situation. Bridging loans serve critical functions: funding property purchases before selling existing assets, covering urgent business expenses, or securing time-sensitive opportunities. Their cost structure differs substantially from traditional mortgages. Monthly interest charges, establishment fees, and total borrowing costs add up quickly over even short timeframes, making accurate calculation essential.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -214,7 +214,7 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Entering Your Loan Amount</h3>
               <p className="text-muted-foreground leading-relaxed">
-                The loan amount represents total funds you need to borrow. For property bridging loans, this equals your purchase price minus any deposit you're contributing. However, you might also capitalise certain costs—establishment fees, legal expenses, and sometimes initial interest payments—into the loan amount rather than paying them from pocket.
+                The loan amount represents total funds you need to borrow. For property bridging loans, this equals your purchase price minus any deposit you're contributing. However, you might also capitalise certain costs, including establishment fees, legal expenses, and sometimes initial interest payments, into the loan amount rather than paying them from pocket.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -240,7 +240,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Most bridging loans structure as interest-only with principal due at maturity. The calculator reflects this—your monthly payment equals only the interest charge, with the full principal amount repaid when you exit the loan through sale, refinance, or other means.
+                Most bridging loans structure as interest-only with principal due at maturity. The calculator reflects this: your monthly payment equals only the interest charge, with the full principal amount repaid when you exit the loan through sale, refinance, or other means.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -254,7 +254,7 @@ const BridgingLoanCalculator = () => {
 
               <h3 className="text-foreground text-xl font-semibold mt-6 mb-3">Monthly Payment Breakdown</h3>
               <p className="text-muted-foreground leading-relaxed">
-                The monthly payment figure represents your ongoing cash flow requirement throughout the loan term. Most bridging loans require monthly interest payments despite being interest-only structures. This amount must be paid from your available cash flow—missing payments triggers default provisions.
+                The monthly payment figure represents your ongoing cash flow requirement throughout the loan term. Most bridging loans require monthly interest payments despite being interest-only structures. This amount must be paid from your available cash flow. Missing payments triggers default provisions.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -384,7 +384,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Joint venture partnerships with equity investors represent another alternative—rather than borrowing, you partner with capital providers who fund acquisition in exchange for profit shares. JVs eliminate interest costs and debt service pressure, though you sacrifice ownership and profit compared to debt-financed deals. Calculate break-even points: at what profit level does JV equity dilution cost less than bridging loan interest?
+                Joint venture partnerships with equity investors represent another alternative: rather than borrowing, you partner with capital providers who fund acquisition in exchange for profit shares. JVs eliminate interest costs and debt service pressure, though you sacrifice ownership and profit compared to debt-financed deals. Calculate break-even points: at what profit level does JV equity dilution cost less than bridging loan interest?
               </p>
             </div>
 
@@ -411,7 +411,7 @@ const BridgingLoanCalculator = () => {
               </p>
 
               <p className="text-muted-foreground text-sm italic mt-8">
-                <strong>Disclaimer:</strong> This calculator provides general information only and is not financial advice. It is for business-purpose commercial bridging finance. Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. Emet Capital does not arrange consumer loans. This page is pending independent review.
+                <strong>Disclaimer:</strong> This calculator provides general information only and is not financial advice. It is for business-purpose commercial bridging finance. Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. Emet Capital does not arrange consumer loans.
               </p>
 
               <div className="mt-8 text-center">
