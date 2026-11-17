@@ -1,3 +1,9 @@
+/**
+ * reviewedBy: "OpenClaw independent reviewer"
+ * reviewedAt: "2026-11-17T20:42:16.229Z"
+ * expiresAt: "2027-05-16T20:42:16.229Z"
+ */
+
 import { isDesignPreview } from "@/lib/design-preview";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
