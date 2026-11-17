@@ -171,4 +171,4 @@ No. Emet Capital does not provide tax or financial advice. We help eligible comm
 - **[Private Credit for SME Borrowers](/resources/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance)** — Explains when private credit replaces bank finance for business borrowers.
 - **[Asset-Backed Business Loans](/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia)** — Relevant when equipment or receivables support the funding request.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

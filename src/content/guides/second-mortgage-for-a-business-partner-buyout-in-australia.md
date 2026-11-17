@@ -280,4 +280,4 @@ That usually makes funding harder. A lender is more likely to proceed when the p
 - **[Bank vs Non-Bank Commercial Lending in Australia](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)** — Why lender type can matter in ownership-transition files
 - **[Second Mortgage Interest Rates: Current Market Analysis](/resources/guides/second-mortgage-interest-rates-current-market-analysis)** — Broader context on how second-mortgage pricing is usually assessed
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

@@ -184,4 +184,4 @@ Potentially, yes. That is one of the classic bridge scenarios, provided the sale
 - [Sydney Bridging Finance Service Page](/services/bridging-finance/cities/sydney)
 - [Second Mortgages in Sydney Fast Local Approval](/resources/guides/second-mortgages-in-sydney-fast-local-approval)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

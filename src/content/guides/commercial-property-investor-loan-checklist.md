@@ -171,4 +171,4 @@ No. This checklist is general information for commercial property investors and 
 - **[Commercial Property LVR Explained](/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing)** — see how leverage affects borrowing capacity.
 - **[Private Credit Refinance Commercial Property](/resources/guides/private-credit-refinance-commercial-property-australia)** — useful where a specialist credit pathway is being considered.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

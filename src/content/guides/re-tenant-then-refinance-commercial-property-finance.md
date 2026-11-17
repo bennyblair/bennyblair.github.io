@@ -197,4 +197,4 @@ Prepare the current loan statement, title details, rent roll, lease documents, o
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — How lender type changes assessment and timing.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — How equity can sometimes be accessed without replacing the first mortgage.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

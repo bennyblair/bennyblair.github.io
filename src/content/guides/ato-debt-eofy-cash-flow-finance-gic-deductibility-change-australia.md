@@ -168,4 +168,4 @@ Useful documents include tax portal evidence, current ATO balance, lodgement sta
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — review wider liability restructures.
 - **[What Is Private Lending Australia](/resources/guides/what-is-private-lending-australia)** — understand private lending in complex timing scenarios.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -180,4 +180,4 @@ Invoice finance may be better when the cash-flow gap is mainly caused by unpaid 
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — relevant where the line is being considered because existing debts are hard to manage.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — compare property-backed funding where a larger secured amount is needed.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

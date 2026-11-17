@@ -239,4 +239,4 @@ The best directory is not the longest one. It is the one that helps you sort len
 
 If you know the purpose of funds, the security, the urgency, the debt position, and the exit, you are already in a better position than most borrowers entering the market. That clarity usually leads to a shorter shortlist, better lender conversations, and a cleaner path to settlement.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

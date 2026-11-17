@@ -200,4 +200,4 @@ Before the bridge is approved, not after settlement. The cleaner the exit logic 
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [Commercial Loan Refinance](/resources/guides/commercial-loan-refinance)
 
-**Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+**Disclaimer:** This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

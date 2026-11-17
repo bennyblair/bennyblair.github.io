@@ -199,4 +199,4 @@ The facility should include a realistic timing buffer and fallback plan. Delays 
 - **[Asset-Backed Business Loans](/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia)** — For broader funding supported by business assets.
 - **[Business Line of Credit Australia](/resources/guides/business-line-of-credit-australia)** — For recurring working-capital gaps rather than one shipment. 
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

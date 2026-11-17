@@ -151,4 +151,4 @@ No. An approval is not promised. Interest rates, lender appetite, and settlement
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — consider whether the real issue is multiple debts rather than a new facility.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — understand mainstream commercial property loan assessment.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

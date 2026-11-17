@@ -230,4 +230,4 @@ No. Some borrowers use private credit for urgent settlements, acquisitions, grow
 
 Prepare a concise loan summary, financials, bank statements, asset and liability details, security information, existing lender correspondence, and evidence supporting repayment. A clear file helps lenders understand the deal quickly and assess whether it fits their appetite.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

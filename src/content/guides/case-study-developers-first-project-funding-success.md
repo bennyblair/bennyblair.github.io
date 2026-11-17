@@ -228,4 +228,4 @@ Emet Capital can help commercial borrowers organise the funding story, identify 
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)** — Short-term funding where timing is critical.
 - **[Mezzanine Finance Australia](/resources/guides/mezzanine-finance-australia-complete-guide)** — Layered funding for more complex capital stacks.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

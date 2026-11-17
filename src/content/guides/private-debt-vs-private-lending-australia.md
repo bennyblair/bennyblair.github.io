@@ -145,4 +145,4 @@ A borrower should compare lender type, capital source, security requirements, to
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — urgent property-backed business funding context.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)** — when consolidation may be more suitable than short-term private debt.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

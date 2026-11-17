@@ -138,4 +138,4 @@ The borrower should confirm the exact shortfall, collect the settlement statemen
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — understand the broader private credit market for commercial borrowers.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — compare a registered second mortgage where there is time and consent.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

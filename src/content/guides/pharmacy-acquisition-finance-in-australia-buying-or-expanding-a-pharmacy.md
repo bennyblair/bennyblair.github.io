@@ -189,4 +189,4 @@ Vendor finance may be used where the seller agrees to defer part of the purchase
 - [Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.
