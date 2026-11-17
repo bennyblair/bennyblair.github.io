@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_second-mortgage-construction-caveat-and-claims-20261117",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "aa05f86f642d6b94502a4dc264f0fba3c99680b2",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-16T21:00:05.302Z",
+    "score": 92,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "Who This Is For",
+        "finding": "The page sentence drops the source's 'An exception to this is' and 'which' so the residential-investment rule stands alone after the two verbatim INFO 207 protection sentences. The operative words match the source."
+      },
+      {
+        "severity": "low",
+        "location": "Practical Broker View",
+        "finding": "business.gov.au uses U+2019 in It's a good idea to compare loan products from multiple lenders before applying. The page uses U+0027. The words match."
+      },
+      {
+        "severity": "low",
+        "location": "featuredImage",
+        "finding": "Featured image remains the shared 1200x630 construction-completion JPEG. A later change can give this URL its own photograph."
+      },
+      {
+        "severity": "low",
+        "location": "second-mortgages-for-business-guide",
+        "finding": "The live business second-mortgage guide was previously observed as index, follow. Search Console not indexed was not re-checked. Leaving it unlinked from this construction guide stays correct."
+      }
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/second-mortgage-for-construction-finance-australia.md",
+      "pageId": "pg_b5aea4fef21f45bf87fc3bdc77433736",
+      "path": "/resources/guides/second-mortgage-for-construction-finance-australia",
+      "beforeSha256": "ad911859c457ac51dfd9480b7442de6b401db6666fda27e3f8a6043bdb5b65ed",
+      "afterSha256": "43b5288439c8d437f43ad629f9647fd0277d0f42e8f64b5d32b7a5b31ea81414",
+      "reason": "Existing-page review of the construction second-mortgage guide (package second-mortgage-construction-caveat-and-claims-20261117). Keep title, H1 owner, slug, canonical path, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-06-19. Scope the URL to construction and development second mortgages. Keep one descriptive body link to /resources/guides/what-is-a-second-mortgage and one to /services/first-second-mortgages (anchor: second mortgage and first mortgage finance arranged through a broker). Independent review REVISE 83 of writer head 985d98160a968facf68760f14739bae5bfe63ab7 blocked because designatedServicePage /services/first-second-mortgages filled the prerendered Related Guides rail with caveat-loan-exit-plan-after-bank-delay-case-study. Writer revision 8bf17d2c197139a6d6f3e323342fb7976a1b5dc9 / pre-stamp sha256 687097d3c1fd5ab7e10811c64053557a588e19c08081171f169ec3a07cf744ba set designatedServicePage to the registry path /services/commercial-property-development, added one body link to that service (anchor: commercial property development finance arranged through a broker), dropped the duplicate construction-completion related-list link so markdown internal links stay at 15, and restated the ASIC INFO 207 residential-investment exception. Independent Grok 4.7 review PASS 92 of that head at https://cursor.com/agents/bc-092303df-07f1-5b63-9af6-b09c4a5e682e. This stamp removes reviewed_date and sets reviewedBy to OpenClaw independent reviewer, reviewedAt to 2026-11-16T21:00:05.302Z and expiresAt to 2027-05-15T21:00:05.302Z, the registry 180-day cadence for this medium-risk page. Resulting guide sha256 43b5288439c8d437f43ad629f9647fd0277d0f42e8f64b5d32b7a5b31ea81414. Caveat lending table row and caveat-loan guide links remain removed. Do not link /resources/guides/second-mortgages-for-business-guide. Combined LVR softened to Combined leverage and a few weeks to a short interval. Closer is broker-accurate. Publication-contract fields: metaTitle, metaDescription, primaryQuery matching the registry second mortgage for construction, searchIntent informational, designatedServicePage /services/commercial-property-development, contentRisk medium matching the registry, the existing 1200x630 JPEG, featuredImageAlt, and two official sources. No rates, fees, LVR figures, volumes, licence, membership, consumer-loan, caveat-loan pitch, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-e9915a54-eb1d-5457-9776-bc40ec00e5e3"
+        },
+        {
+          "reference": "https://cursor.com/agents/bc-092303df-07f1-5b63-9af6-b09c4a5e682e"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/commercial-property-development"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/first-second-mortgages"
+        },
+        {
+          "kind": "link-added",
+          "value": "/resources/guides/what-is-a-second-mortgage"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/caveat-lending-australia"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/second-mortgages-for-business-guide"
+        },
+        {
+          "kind": "text-added",
+          "value": "This guide covers second mortgages used for construction and development."
+        },
+        {
+          "kind": "text-added",
+          "value": "second mortgage and first mortgage finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "commercial property development finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Borrowing to buy a residential property as an investment is treated in a similar way to a consumer loan."
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Combined LVR"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Caveat lending"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-16T21:00:05.302Z",
+        "reviewedSourceSha256": "43b5288439c8d437f43ad629f9647fd0277d0f42e8f64b5d32b7a5b31ea81414",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-16T20:54:13.793458Z",
+            "status": 200
+          },
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-16T20:54:14.687388Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "The law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "Borrowing to buy a residential property as an investment is treated in a similar way to a consumer loan.",
+            "sources": [
+              "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
+            ]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying.",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
+        "claimCorrections": [
+          {
+            "before": "Emet Capital provides commercial lending solutions to eligible business borrowers.",
+            "after": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders.",
+            "reason": "The closer described Emet Capital as providing commercial lending solutions. The replacement states that Emet Capital is a commercial finance broker and does not lend or fund loans."
+          },
+          {
+            "before": "Combined LVR",
+            "after": "Combined leverage",
+            "reason": "The At a Glance lender-focus cell used Combined LVR. The replacement is Combined leverage, without a numeric LVR."
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review of the construction second-mortgage guide, not human or professional financial approval. Independent Grok 4.7 review PASS 92 observed 2026-11-16T21:00:05.302Z at https://cursor.com/agents/bc-092303df-07f1-5b63-9af6-b09c4a5e682e against git 8bf17d2c197139a6d6f3e323342fb7976a1b5dc9 / pre-stamp sha256 687097d3c1fd5ab7e10811c64053557a588e19c08081171f169ec3a07cf744ba. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 43b5288439c8d437f43ad629f9647fd0277d0f42e8f64b5d32b7a5b31ea81414. Writer https://cursor.com/agents/bc-e9915a54-eb1d-5457-9776-bc40ec00e5e3.",
+          "humanReviewRequired is not claimed. contentRisk is recorded as medium to match the trusted registry. Author Ben, author_* fields including the existing 10 years bio wording, slug, title and date 2026-06-19 stay. No owner approval is invented.",
+          "Declared sources were live-checked by the independent reviewer GET: ASIC INFO 207 HTTP 200 (76012 bytes) at 2026-11-16T20:54:13.793458Z; business.gov.au apply-for-a-business-loan HTTP 200 (357421 bytes) at 2026-11-16T20:54:14.687388Z. ATO, AFCA and MoneySmart returned HTTP 403 to automated GET and are not declared.",
+          "designatedServicePage is /services/commercial-property-development so the prerendered Related Guides rail stays in the construction cluster. The first-and-second-mortgages service remains one descriptive body inlink. Caveat loans remain retired as a product.",
+          "Featured image remains the existing 1200x630 JPEG /images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg. Independent review recorded that as a non-blocking later photograph change.",
+          "No rate, fee, LVR figure, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, consumer-loan or caveat-loan pitch was added. Combined LVR was softened to Combined leverage. A few weeks was softened to a short interval. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. lender-network-50 was not used. Four non-blocking findings from the independent review are recorded in review.findings."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-06-19; no reviewedBy, reviewedAt or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-16T21:00:05.302Z; expiresAt: 2027-05-15T21:00:05.302Z",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. Guide prose is otherwise identical to the PASS 92 review of 8bf17d2."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": true,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": false,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        }
+      }
+    }
+  ]
+}
