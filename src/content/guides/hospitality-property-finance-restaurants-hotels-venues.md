@@ -8,7 +8,6 @@ category: "Hospitality Finance"
 tags: ["hospitality finance", "property finance", "restaurant finance", "hotel finance", "liquor licence"]
 readingTime: 9
 author: "Ben"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -20,6 +19,9 @@ primaryQuery: "Hospitality Property Finance: Restaurants, Hotels & Venues"
 searchIntent: "informational"
 designatedServicePage: "/services/commercial-property-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-18T20:34:51.635Z"
+expiresAt: "2027-05-17T20:34:51.635Z"
 sources:
   - label: "ASIC: Disputes about commercial loans"
     url: "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"
