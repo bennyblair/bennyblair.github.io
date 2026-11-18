@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_pharmacy-acquisition-service-link-20261119",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "0176c8c631d335ae603c180046e0d4c6800e662d",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-18T20:31:05.223Z",
+    "verdict": "PASS",
+    "score": 92,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy.md",
+      "pageId": "pg_7eeac95cf2e44bb7960a8e84f18120d0",
+      "path": "/resources/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy",
+      "beforeSha256": "ed6f28a0d85af592679cf1105faafb6be93eef2da2063c1562bd50dfaa801e3f",
+      "afterSha256": "d3aeba231e8a2aeac1fb47d1a91eef51780f31a9da78c1ee2e6f739b0edc7a6d",
+      "reason": "Existing-page improvement of the pharmacy acquisition finance owner URL. Keep slug, canonical path, title, H1 owner, keywords, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-05-14. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Add one descriptive contextual body link to /services/business-acquisition with the anchor business acquisition finance for a pharmacy purchase arranged through a broker, in When To Use Pharmacy Acquisition Finance. Keep the existing refinancing-solutions link only in Related Guides. Answer-first opening states that lenders look at trading, goodwill, stock, the lease and location approvals, and the buyer's experience. Meta description mentions pharmacy business loan once. Replace Who This Is For commercial lending scenarios wording and the How Emet Capital Helps lead with broker-accurate wording. Publication-contract fields required for this material change: metaTitle matching the existing title, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/business-acquisition (the inlink target; registry service path is not edited), contentRisk medium matching the registry, a passing 1200x630 JPEG already used by other acquisition guides, and featuredImageAlt. Related In-Depth Guides is an H2 so the template owns the only H1. Related-list copies of business-acquisition-finance-australia, asset-backed-lending-and-asset-finance, equipment-finance-and-leasing-australia, and working-capital-loans-for-smes are removed so those URLs appear twice. Pharmacy Location Rules and state ownership claims are limited to fetched official pages: legislation.gov.au Determination 2018 HTTP 200, and NSW Pharmacy Council how-we-regulate HTTP 200. health.gov.au Pharmacy Location Rules timed out and is not cited. Independent Grok 4.7 review PASS 92 at 2026-11-18T20:31:05.223Z applied as a metadata-only stamp: reviewed_date removed; reviewedBy, reviewedAt, and expiresAt (registry 180-day cadence) inserted after contentRisk. Guide body is unchanged from the writer revision. Draft only. No human or professional approval. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-d82c5a05-3d62-5dbb-9ece-d9665b372b58"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/business-acquisition"
+        },
+        {
+          "kind": "text-added",
+          "value": "business acquisition finance for a pharmacy purchase arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Lenders look at trading, goodwill, stock, the lease and location approvals, and the buyer's experience"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "In NSW, the Pharmacy Council regulates both pharmacy businesses and registered pharmacy practitioners"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital works with eligible business borrowers on commercial lending scenarios."
+        },
+        {
+          "kind": "text-removed",
+          "value": "the buyer's ability to operate within pharmacy ownership rules"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-18T20:31:05.223Z",
+        "reviewedSourceSha256": "d3aeba231e8a2aeac1fb47d1a91eef51780f31a9da78c1ee2e6f739b0edc7a6d",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-18T20:31:05.223Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.legislation.gov.au/F2018L01321/latest/text",
+            "checkedAt": "2026-11-18T20:31:05.223Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.hpca.nsw.gov.au/councils/pharmacy/how-we-regulate-pharmacy-businesses",
+            "checkedAt": "2026-11-18T20:31:05.223Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "The National Health (Australian Community Pharmacy Authority Rules) Determination 2018 is a legislative instrument administered by the Department of Health, Disability and Ageing.",
+            "sources": [
+              "https://www.legislation.gov.au/F2018L01321/latest/text"
+            ]
+          },
+          {
+            "claim": "In NSW, the Pharmacy Council regulates both pharmacy businesses and registered pharmacy practitioners",
+            "sources": [
+              "https://www.hpca.nsw.gov.au/councils/pharmacy/how-we-regulate-pharmacy-businesses"
+            ]
+          },
+          {
+            "claim": "This model differs from the way other states and territories regulate pharmacy.",
+            "sources": [
+              "https://www.hpca.nsw.gov.au/councils/pharmacy/how-we-regulate-pharmacy-businesses"
+            ]
+          }
+        ],
+        "limitations": [
+          "Automated independent editorial and source review by grok-4.7. The writer was grok-4.6. The reviewer field is the trusted identity OpenClaw independent reviewer. This is not human or professional financial approval.",
+          "Prose head is be0584f1193a12f73e866e636031a67962d5adb8. Prose sha256 is 1ea0178a5410ef21b9692dbe37977797498f00e4c0b5431c61bf595d823e0036. reviewedSourceSha256 d3aeba231e8a2aeac1fb47d1a91eef51780f31a9da78c1ee2e6f739b0edc7a6d is that file after removing reviewed_date and inserting reviewedBy, reviewedAt 2026-11-18T20:31:05.223Z and expiresAt 2027-05-17T20:31:05.223Z. expiresAt is the registry 180-day cadence. Guide body is unchanged.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (354791 bytes). The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "legislation.gov.au F2018L01321/latest/text returned HTTP 200 (89482 bytes). The page identifies the National Health (Australian Community Pharmacy Authority Rules) Determination 2018 (PB 46 of 2018), administered by the Department of Health, Disability and Ageing. The live HTML is a Register of Legislation viewer; the phrase Pharmacy Location Rules was not present in the fetched markup, so that label is not used as a quoted claim.",
+          "hpca.nsw.gov.au/councils/pharmacy/how-we-regulate-pharmacy-businesses returned HTTP 200 (152517 bytes). Exact sentences used: In NSW, the Pharmacy Council regulates both pharmacy businesses and registered pharmacy practitioners. This model differs from the way other states and territories regulate pharmacy. The page is NSW-specific; no national ownership conclusion is drawn.",
+          "health.gov.au/committees-and-groups/australian-community-pharmacy-authority-acpa/pharmacy-location-rules timed out twice from the writer box on 18 Nov 2026 and is not cited.",
+          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. Emet Capital is described as a commercial finance broker that does not lend or fund loans. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "reviewedPreMetadataSha256": "1ea0178a5410ef21b9692dbe37977797498f00e4c0b5431c61bf595d823e0036"
+        }
+      }
+    }
+  ]
+}
