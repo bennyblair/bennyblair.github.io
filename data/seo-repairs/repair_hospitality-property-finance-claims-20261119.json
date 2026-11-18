@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_hospitality-property-finance-claims-20261119",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "0176c8c631d335ae603c180046e0d4c6800e662d",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/hospitality-property-finance-restaurants-hotels-venues.md",
+      "pageId": "pg_0984783549274a91a76ba0c5c9242cab",
+      "path": "/resources/guides/hospitality-property-finance-restaurants-hotels-venues",
+      "beforeSha256": "85cffae10cb3ea36900a2c5841d4db347e3db60bfbafc6d6d5804b1fd3a2ac6c",
+      "afterSha256": "e57674bc892546cf2b4a01eeb46821321ff35559a13e36c16e8bb0013b2bc484",
+      "reason": "Existing-page keep/refresh of the hospitality property finance explainer (package hospitality-property-finance-claims-20261119). Keep slug, canonical path, title, H1 owner, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2025-10-29T10:00:00Z. Keep reviewed_date 2026-05-15 pending independent review. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Remove unsupported rates, LVRs, deposits, fees, valuation multiples, terms, timeframes, dollar examples and named-city deal figures from body, FAQ and inline JSON-LD (inline article/FAQ JSON-LD removed so the template emits FAQ JSON-LD from the visible FAQ). Answer-first opening on how lenders assess hospitality property as freehold plus trading plus licence. Add one descriptive contextual body link to /services/commercial-property-finance with the anchor commercial property finance for hotel, motel and venue property arranged through a broker, in the property component section. Keep the existing /services/private-lending inlink. Make motel, hotel and pub property explicit in the Hotel and Accommodation and Licensed Venue sections. Broker-accurate closer. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/commercial-property-finance, contentRisk medium matching the registry, existing 1200x630 JPEG, featuredImageAlt, and four official sources. Related Guides is an H2 so the template owns the only H1. Independent review is PENDING at this writer revision. No rates, LVRs, fee amounts, timeframes, named-city deals, volumes, licence numbers, membership, consumer-loan, caveat-loan pitch, or invented transaction results were added. Draft only. No human or professional approval. baseSha is current origin/main 0176c8c631d335ae603c180046e0d4c6800e662d.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-df688703-81d4-5304-ae72-36e6ab5617f4"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/commercial-property-finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "commercial property finance for hotel, motel and venue property arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "The law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-added",
+          "value": "There is no published loan-to-value ratio that applies to every restaurant, hotel or pub."
+        },
+        {
+          "kind": "text-added",
+          "value": "This article is for informational purposes only and does not constitute financial advice."
+        },
+        {
+          "kind": "text-removed",
+          "value": "Hospitality property finance typically provides 60% to 70% LVR"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Written by the expert team at Emet Capital"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Banks offering hospitality lending usually cap at 60% LVR"
+        },
+        {
+          "kind": "text-removed",
+          "value": "at rates from 8% to 14%"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is e57674bc892546cf2b4a01eeb46821321ff35559a13e36c16e8bb0013b2bc484. beforeSha256 is 85cffae10cb3ea36900a2c5841d4db347e3db60bfbafc6d6d5804b1fd3a2ac6c at main 0176c8c631d335ae603c180046e0d4c6800e662d.",
+          "ASIC INFO 207 disputes-about-commercial-loans returned HTTP 200 (76012 bytes) to Python urllib GET at 2026-11-18T20:09:51Z.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (354791 bytes) to Python urllib GET at 2026-11-18T20:09:51Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "business.gov.au Register licences and permits returned HTTP 200 (339627 bytes) to Python urllib GET at 2026-11-18T20:10:17Z. Exact live wording includes The licences and permits you need depend on your business type, business activities, state or territory and local government area.",
+          "business.gov.au Accommodation and food services industry returned HTTP 200 (365103 bytes) to Python urllib GET at 2026-11-18T20:10:17Z. Exact live wording includes Local councils and state or territory governments manage most licence and permits in this industry and You may need a licence or permit to sell alcohol to consume on site or take away.",
+          "https://www.nswlrs.com.au/ returned HTTP 200 (141540 bytes) but is not declared. https://business.gov.au/planning/new-businesses/licences-and-permits returned HTTP 404. https://www.vic.gov.au/liquor-licences returned HTTP 404. ATO and AFCA HTML were not fetched as declared sources.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, title, date 2025-10-29T10:00:00Z and reviewed_date 2026-05-15 are unchanged. Independent review metadata remains PENDING.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend, fund or approve loans. Registry maxAutomatedChangeRisk remains R0. Registry designatedServicePagePath remains /services/business-finance."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
