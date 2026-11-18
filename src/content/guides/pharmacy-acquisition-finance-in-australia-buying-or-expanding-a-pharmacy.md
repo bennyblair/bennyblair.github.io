@@ -6,7 +6,6 @@ category: "Business Finance"
 tags: ["Pharmacy Acquisition Finance", "Business Acquisition", "Commercial Finance", "Working Capital", "Private Lending"]
 readingTime: 8
 author: "Ben"
-reviewed_date: "2026-05-15"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -22,6 +21,9 @@ primaryQuery: "pharmacy acquisition finance australia"
 searchIntent: "informational"
 designatedServicePage: "/services/business-acquisition"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-18T20:31:05.223Z"
+expiresAt: "2027-05-17T20:31:05.223Z"
 sources:
   - label: "business.gov.au: Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
