@@ -23,8 +23,8 @@
       "pageId": "pg_5346bbe127264f8e801c8edf870314b0",
       "path": "/resources/guides/understanding-secondary-mortgage-markets-australia",
       "beforeSha256": "91da81ffefd59541ae4faefe286a331096a94f0504001dcfbf65e807e4ddee03",
-      "afterSha256": "105ade6de1f50d58eca13ece711598fe4e79e38e37d6531094bed5c7ce1f5014",
-      "reason": "Existing-page keep/refresh of the secondary-mortgage-market / securitisation / RMBS explainer (package secondary-mortgage-markets-decannibalise-20261119) after PR #274. Keep slug, canonical path, author Daniel, all author_* fields including the existing 10 years bio wording, and publication date 2025-11-27. Retarget title, meta description and opening so this URL is unambiguously the wholesale-market owner and not a second-mortgage loan page. Answer-first opening states the secondary mortgage market is not the same thing as taking out a second mortgage. One descriptive inlink each to /resources/guides/what-is-a-second-mortgage and /services/first-second-mortgages (the designated service link already existed once; it is moved to the intro and not duplicated). Rewrite the second-mortgage disambiguation section and FAQ so they hand off to those owners instead of competing as a product explainer. Remove unsourced dollar figures ($500 million pool example; minimum $500k+ RMBS investment). Remove named non-bank originators. Neutralise the private-debt secondary-market forecast and delete the caveat-loan mention. Broker-accurate closer. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry (secondary mortgage market Australia), searchIntent informational, designatedServicePage /services/first-second-mortgages, contentRisk medium matching the registry, the existing 1200x630 JPEG, featuredImageAlt, and three official sources. reviewed_date 2026-05-15 kept pending independent review. Independent review is PENDING at this writer revision. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan product, or invented transaction results were added. Draft only. No human or professional approval.",
+      "afterSha256": "c295e9d54b23b8e7e6228a3bd44eccad29d84626974d9e781b7e39c96bc2224d",
+      "reason": "Existing-page keep/refresh of the secondary-mortgage-market / securitisation / RMBS explainer (package secondary-mortgage-markets-decannibalise-20261119) after PR #274, revised after independent review of head 9b343d5665d6715bb23ba2cc30027a1529fb2479. Keep slug, canonical path, author Daniel, all author_* fields including the existing 10 years bio wording, and publication date 2025-11-27. Retarget title, meta description and opening so this URL is unambiguously the wholesale-market owner and not a second-mortgage loan page. Answer-first opening states the secondary mortgage market is not the same thing as taking out a second mortgage. One descriptive inlink each to /resources/guides/what-is-a-second-mortgage and /services/first-second-mortgages. Rewrite the second-mortgage disambiguation section and FAQ so they hand off to those owners. Restore the Second Mortgages tag shared with the definitional guide so the template Related Guides rail ranks that handoff instead of recency-filling a caveat case study. Remove unsourced dollar figures ($500 million pool example; minimum $500k+ RMBS investment). Remove named non-bank originators. Neutralise the private-debt forecast and delete the caveat-loan mention. Hedge the unsourced AAA rating, high-safety tranche wording, and almost-every-borrower-profile claim. Broker-accurate closer. Publication-contract fields: metaTitle, metaDescription, primaryQuery matching the registry (secondary mortgage market Australia), searchIntent informational, designatedServicePage /services/first-second-mortgages, contentRisk medium matching the registry, the existing 1200x630 JPEG, featuredImageAlt, and three official sources. reviewed_date 2026-05-15 kept pending independent review. Independent review is PENDING at this writer revision. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan product, or invented transaction results were added. Draft only. No human or professional approval.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-0b976d0f-d41c-5e1a-b341-fdb4210680ec"
@@ -90,6 +90,30 @@
         {
           "kind": "link-added",
           "value": "https://www.rba.gov.au/publications/bulletin/2026/feb/recent-changes-in-credit-markets-and-their-implications-for-monetary-policy.html"
+        },
+        {
+          "kind": "text-added",
+          "value": "The senior tranche is paid first"
+        },
+        {
+          "kind": "text-added",
+          "value": "It does not mean every borrower profile has a matching lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "A credit rating, if one is assigned, is an opinion on a specific tranche"
+        },
+        {
+          "kind": "text-removed",
+          "value": "is rated AAA, offering the lowest yield but highest safety"
+        },
+        {
+          "kind": "text-removed",
+          "value": "a high degree of safety"
+        },
+        {
+          "kind": "text-removed",
+          "value": "for almost every borrower profile, there is a lender with a funding line to match"
         }
       ],
       "generalInformationReview": {
@@ -113,14 +137,15 @@
         "sourceClaimMap": [],
         "limitations": [
           "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
-          "Guide sha256 at this writer revision is 105ade6de1f50d58eca13ece711598fe4e79e38e37d6531094bed5c7ce1f5014 (17603 bytes). beforeSha256 is 91da81ffefd59541ae4faefe286a331096a94f0504001dcfbf65e807e4ddee03 (17443 bytes) at main 0176c8c631d335ae603c180046e0d4c6800e662d.",
+          "Guide sha256 at this writer revision is c295e9d54b23b8e7e6228a3bd44eccad29d84626974d9e781b7e39c96bc2224d (17761 bytes). beforeSha256 is 91da81ffefd59541ae4faefe286a331096a94f0504001dcfbf65e807e4ddee03 (17443 bytes) at main 0176c8c631d335ae603c180046e0d4c6800e662d. Previous writer head 9b343d5665d6715bb23ba2cc30027a1529fb2479 was independently reviewed as REVISE 83/100; no review stamp is authorized on this new head.",
           "business.gov.au Apply for a business loan returned HTTP 200 (354791 bytes) to Python urllib GET at 2026-11-18T20:10:08.565122Z. Shop around encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match. Declared.",
           "ASIC INFO 207 Disputes about commercial loans returned HTTP 200 (76012 bytes) to Python urllib GET at 2026-11-18T20:10:10.243275Z. Mapped sentences for later review: The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses. Declared.",
           "RBA Bulletin February 2026 Recent Changes in Credit Markets returned HTTP 200 (90890 bytes) to Python urllib GET at 2026-11-18T20:13:31.203107Z. Exact qualitative sentences used: the growth of non-bank and specialist lenders has been partly underpinned by favourable conditions in wholesale debt and securitisation markets, which have lowered non-bank lenders' funding costs; what appears to be a structural deepening in the Australian securitisation market over recent years. No RBA dollar figure or spread number was copied. Declared.",
           "RBA eligible-securities technical note returned HTTP 200 (74495 bytes) at 2026-11-18T20:10:11.578640Z. It lists RMBS and CMBS among asset-backed securities that may be eligible for domestic market operations. Not declared and not cited, because this page does not rely on that eligibility list.",
           "RBA bulletin index HTTP 200. Guessed 2019 and 2023 securitisation bulletin URLs returned HTTP 404 and are not cited. APRA /securitisation returned HTTP 404 and is not cited. ASIC regulatory-resources/credit returned HTTP 200 (73713 bytes) after redirect to the no-trailing-slash URL; not declared so this page does not imply Emet holds a credit licence. NSW LRS homepage HTTP 200; not used. Live emetcapital.com.au /resources/guides/what-is-a-second-mortgage HTTP 200 and /services/first-second-mortgages HTTP 200.",
           "Author Daniel, author_* fields including the existing 10 years bio wording, slug, date 2025-11-27 and reviewed_date 2026-05-15 are unchanged. Independent review metadata remains PENDING. contentRisk medium was added to match the trusted registry because this is a material publication-contract change.",
-          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, consumer-loan offer, or caveat-loan product pitch was added. Emet Capital is described as a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. Registry maxAutomatedChangeRisk remains R0. Registry row was not edited."
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, FBAA, MFAA, credit-licence, consumer-loan offer, or caveat-loan product pitch was added. Restored the Second Mortgages tag so the related-guides rail can rank the definitional handoff instead of an untagged caveat case study. Hedged unsourced AAA, high-safety and almost-every-borrower-profile wording. Emet Capital is described as a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. Registry maxAutomatedChangeRisk remains R0. Registry row was not edited.",
+          "Prerendered this URL after the tag restore. Related Guides rail titles: What Is a Second Mortgage?; Second Mortgage Without Refinancing Your First Mortgage in Australia; Second Mortgage Interest Rates: Pricing Factors and Comparison. Hrefs: /resources/guides/what-is-a-second-mortgage, /resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia, /resources/guides/second-mortgage-interest-rates-current-market-analysis. No caveat title or href in the rail, and caveat does not appear anywhere on the built page."
         ],
         "scopeVerification": {
           "canonicalWebsiteTouched": false,

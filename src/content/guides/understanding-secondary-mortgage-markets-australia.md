@@ -3,7 +3,7 @@ title: "Secondary Mortgage Market in Australia: Securitisation and RMBS Explaine
 date: "2025-11-27"
 description: "How Australia's secondary mortgage market works: securitisation, RMBS, non-bank funding, and what wholesale loan trading means for business borrowers."
 category: "Finance Markets"
-tags: ["Secondary Mortgage Market", "Securitisation", "RMBS", "Wholesale Funding"]
+tags: ["Secondary Mortgage Market", "Securitisation", "RMBS", "Second Mortgages"]
 readingTime: 11
 author: "Daniel"
 reviewed_date: "2026-05-15"
@@ -69,7 +69,7 @@ The secondary market also serves a vital risk management function. By transferri
 
 ## How Securitisation Drives Lending Liquidity
 
-Securitisation is the mechanism that powers the secondary mortgage market. It involves pooling a portfolio of loans and transferring them to a special purpose vehicle (SPV), a separate legal entity. The SPV then issues bonds to investors, backed by the cash flow from the mortgage repayments. These bonds are "tranched" into different risk levels. The top tranche (Class A) gets paid first and is rated AAA, offering the lowest yield but highest safety. Lower tranches (Class B, C, etc.) take the first loss if borrowers default, offering higher yields to compensate for the risk.
+Securitisation is the mechanism that powers the secondary mortgage market. It involves pooling a portfolio of loans and transferring them to a special purpose vehicle (SPV), a separate legal entity. The SPV then issues bonds to investors, backed by the cash flow from the mortgage repayments. These bonds are "tranched" into different risk levels. The senior tranche is paid first. Junior tranches take earlier losses if borrowers default, and they typically offer higher yields to compensate for that extra risk. A credit rating, if one is assigned, is an opinion on a specific tranche, not a general safety label for RMBS.
 
 This structure is crucial for non-bank lenders. Unlike big banks, non-banks cannot take customer deposits (savings accounts) to fund their loans. They rely almost entirely on the securitisation market (and warehouse facilities provided by major banks) to fund their lending books. The [Reserve Bank of Australia](https://www.rba.gov.au/publications/bulletin/2026/feb/recent-changes-in-credit-markets-and-their-implications-for-monetary-policy.html) has observed that the growth of non-bank and specialist lenders has been partly underpinned by favourable conditions in wholesale debt and securitisation markets, which have lowered non-bank lenders' funding costs.
 
@@ -93,11 +93,11 @@ While distinct, the two topics can still interact at the funding layer. Some pri
 
 ## Risks and Opportunities for Investors and Borrowers
 
-For investors, the secondary mortgage market offers a way to gain exposure to the Australian property market without buying physical real estate. RMBS offers regular income (yield) and, for the highly-rated tranches, a high degree of safety. However, risks remain. **Prepayment risk** occurs when borrowers pay off their loans early (e.g., refinancing), reducing the interest income for investors. **Credit risk** is the danger of borrower default, though this is usually absorbed by the lower tranches and Lenders Mortgage Insurance (LMI).
+For investors, the secondary mortgage market offers a way to gain exposure to the Australian property market without buying physical real estate. RMBS can pay regular income (yield). How much credit protection a tranche has depends on its place in the payment structure, not on a general safety label. Risks remain. **Prepayment risk** occurs when borrowers pay off their loans early (e.g., refinancing), reducing the interest income for investors. **Credit risk** is the danger of borrower default, though this is usually absorbed by the lower tranches and Lenders Mortgage Insurance (LMI).
 
 For borrowers, the main risk is the transmission of global volatility. Because non-banks are funded by global markets, a shock in offshore bond markets can lift funding costs in Australia even if domestic cash-rate settings have not changed. On the flip side, the opportunity is access. The secondary market enables lenders to fund "non-conforming" loans (borrowers with minor credit impairments or unusual income structures) that banks would reject.
 
-The existence of a deep secondary market helps explain why [private lending in Australia](/resources/guides/what-is-private-lending-australia) can sit beside bank funding rather than simply replacing it. It allows lenders to specialise. Some lenders focus solely on prime borrowers and sell the loans to pension funds; others focus on specialist lending and sell to high-yield investors. This specialisation means that for almost every borrower profile, there is a lender with a funding line to match.
+The existence of a deep secondary market helps explain why [private lending in Australia](/resources/guides/what-is-private-lending-australia) can sit beside bank funding rather than simply replacing it. It allows lenders to specialise. Some lenders focus solely on prime borrowers and sell the loans to pension funds; others focus on specialist lending and sell to high-yield investors. That specialisation can widen the range of files some non-bank lenders will consider. It does not mean every borrower profile has a matching lender or an available funding line.
 
 ## Future Trends in Australian Mortgage Trading
 
