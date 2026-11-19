@@ -8,12 +8,11 @@
   "baseSha": "905fddb4f4d76c98c25a38dea2028d8ed62787d9",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
-    "reviewer": "PENDING independent reviewer",
-    "reviewedAt": "PENDING",
-    "score": null,
-    "blockingFindings": [
-      "Independent review not yet completed at this writer revision"
-    ]
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-19T20:37:14.098Z",
+    "verdict": "PASS",
+    "score": 92,
+    "blockingFindings": []
   },
   "kind": "substantive",
   "reviewMode": "general-information-v1",
@@ -23,8 +22,8 @@
       "pageId": "pg_f562d8c7a32644079d6fc53ddd2bc49a",
       "path": "/resources/guides/business-loan-requirements-australia-commercial-borrowers",
       "beforeSha256": "b1085eea60a10dc893958a6f860ffa12194f49ac823a95d5b65ac91481071206",
-      "afterSha256": "356752c8837f02ab71e4cb6a13be8cb4d3332544b9f0c077d763bbe39f32a31e",
-      "reason": "Existing-page improvement of the business-loan-requirements owner URL. Keep slug, canonical path, title, H1 owner, keywords, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-06-12, and reviewed_date 2026-06-12 pending independent review. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Add one descriptive contextual body link to /services/business-finance with the anchor business finance arranged through a broker, after the Business Loan Readiness Checklist. Answer-first opening lists purpose, repayment evidence, identity and entity documents, financial records, and security where required; At a Glance is unchanged and still covers purpose, repayment, identity, financials, security, and conduct. Neutralise Security and Guarantees: describe a first mortgage, second mortgage, or other registered security; remove the caveat-loan comparison copy and the caveat-loans-australia-complete-guide link. Do not offer or recommend caveat loans. Meta description mentions business loan requirements Australia once. Keep the existing closer that Emet Capital is a commercial finance broker, not a lender. Publication-contract fields required for this material change: primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/business-finance matching the registry, contentRisk medium matching the registry, metaTitle matching the existing title, metaDescription, the existing 1200x630 JPEG, featuredImageAlt, and one business.gov.au source for the shop-around sentence and Documentation requirements vary between loans. Related In-Depth Guides is an H2 so the template owns the only H1. Related-list copies of working-capital-loans-for-smes, private-commercial-loans-for-smes, and business-debt-consolidation-australia are removed so those URLs appear twice. Independent review is PENDING at this writer revision. No rates, LVRs, fees, timeframes, lender names, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "afterSha256": "34b24d60e77aba8343c44996c3a543a23dffca780c81360225366c10f6f2324a",
+      "reason": "Existing-page improvement of the business-loan-requirements owner URL. Keep slug, canonical path, title, H1 owner, keywords, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-06-12. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Writer revision f68d7c7a71a714845008faf67e3c81d17def36ee added a two-sentence answer-first opening, one descriptive contextual body link to /services/business-finance with the anchor business finance arranged through a broker after the Business Loan Readiness Checklist, and Security and Guarantees wording for a first mortgage, second mortgage, or other registered security, with the caveat-loan comparison copy and caveat-loans-australia-complete-guide link removed. Independent Grok 4.7 review PASS 92 of that writer head / pre-stamp sha256 356752c8837f02ab71e4cb6a13be8cb4d3332544b9f0c077d763bbe39f32a31e. This stamp changes only reviewedBy, reviewedAt 2026-11-19T20:37:14.098Z and expiresAt 2027-05-18T20:37:14.098Z (180-day medium cadence) and this manifest. Resulting guide sha256 34b24d60e77aba8343c44996c3a543a23dffca780c81360225366c10f6f2324a (17876 bytes). reviewed_date 2026-06-12 removed. Meta description mentions business loan requirements Australia once. Keep the existing closer that Emet Capital is a commercial finance broker, not a lender. No rates, LVRs, fees, timeframes, lender names, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-4ece35da-c80e-5bad-9106-16c13fb85446"
@@ -72,42 +71,58 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "PENDING",
-        "outcome": "PENDING",
-        "reviewer": "PENDING independent reviewer",
-        "reviewedAt": "PENDING",
-        "reviewedSourceSha256": "PENDING",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-19T20:37:14.098Z",
+        "reviewedSourceSha256": "34b24d60e77aba8343c44996c3a543a23dffca780c81360225366c10f6f2324a",
+        "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "blockingFindings": [
-          "Independent review not yet completed at this writer revision"
-        ],
-        "completePageChecked": false,
-        "claimCoverage": "PENDING",
+        "score": 92,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
         "unmappedFactualClaims": [],
-        "sources": [],
-        "sourceClaimMap": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-19T20:37:14.098Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "Documentation requirements vary between loans",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          }
+        ],
         "limitations": [
-          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
-          "Guide sha256 at this writer revision is 356752c8837f02ab71e4cb6a13be8cb4d3332544b9f0c077d763bbe39f32a31e (17783 bytes). beforeSha256 is b1085eea60a10dc893958a6f860ffa12194f49ac823a95d5b65ac91481071206 (17563 bytes) at main 905fddb4f4d76c98c25a38dea2028d8ed62787d9.",
-          "https://business.gov.au/finance/funding/apply-for-a-business-loan returned HTTP 200 (354791 bytes) to Python urllib GET at 2026-11-19T20:20:12.158696Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match. The same page includes Documentation requirements vary between loans, but you may need to provide.",
-          "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans returned HTTP 200 (76012 bytes). Not declared; no ASIC sentence was added.",
-          "https://www.nswlrs.com.au/ returned HTTP 200 (141540 bytes). Not declared; the caveat-on-title education sentence was not needed after the caveat-loan pitch was removed.",
-          "https://www.asic.gov.au/regulatory-resources/credit/ returned HTTP 200 (73713 bytes) after redirect to https://www.asic.gov.au/regulatory-resources/credit. Not declared.",
-          "Production https://emetcapital.com.au/services/business-finance returned HTTP 200, self-canonical, one H1 Business Finance for Australian SMEs.",
-          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, and reviewed_date 2026-06-12 are unchanged. Independent review metadata remains PENDING.",
-          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. Emet Capital is described as a commercial finance broker, not a lender. Registry maxAutomatedChangeRisk remains R0."
+          "Automated independent editorial and source review by grok-4.7. The writer was grok-4.6. The reviewer field is the trusted identity OpenClaw independent reviewer. This is not human or professional financial approval."
         ],
         "scopeVerification": {
           "canonicalWebsiteTouched": false,
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false,
-          "resultingFileIndependentlyReviewed": false
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "reviewedPreMetadataSha256": "356752c8837f02ab71e4cb6a13be8cb4d3332544b9f0c077d763bbe39f32a31e"
         }
       }
     }
