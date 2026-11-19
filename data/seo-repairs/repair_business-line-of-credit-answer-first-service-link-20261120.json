@@ -8,11 +8,32 @@
   "baseSha": "905fddb4f4d76c98c25a38dea2028d8ed62787d9",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
-    "reviewer": "PENDING independent reviewer",
-    "reviewedAt": "PENDING",
-    "score": null,
-    "blockingFindings": [
-      "Independent review not yet completed at this writer revision"
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-19T20:39:23.727Z",
+    "verdict": "PASS",
+    "score": 91,
+    "blockingFindings": [],
+    "findings": [
+      {
+        "severity": "low",
+        "location": "metaDescription",
+        "finding": "Meta description is slightly compressed to fit the required phrase once: What a business line of credit Australia facility does: draw, repay and redraw within a limit, how that differs from a term loan, and what lenders look at first."
+      },
+      {
+        "severity": "low",
+        "location": "opening",
+        "finding": "Lenders look first at cash flow, bank conduct, trading history, security, debt position, and how the facility will be used and controlled is editorial general information. business.gov.au lists income, expenses, debts, and cash flow under Understand your finances, and it does not rank those factors. At a Glance matches the same factors under What lenders assess without claiming an order."
+      },
+      {
+        "severity": "low",
+        "location": "How A Business Line Of Credit Works",
+        "finding": "The attributed description drops the source adverb quickly. Source wording is: A line of credit is a revolving loan that lets you quickly borrow money up to a pre-approved limit. The following sentence is verbatim. No quotation marks are invented."
+      },
+      {
+        "severity": "low",
+        "location": "inherited body and metadata",
+        "finding": "Author bio 10 years experience is in frontmatter and Article JSON-LD; related-guide blurbs still use em dashes; An unsecured line of credit may be faster or simpler in some cases has no timeframe. qa:article warns on 20 internal links and protected author_* fields."
+      }
     ]
   },
   "kind": "substantive",
@@ -23,8 +44,8 @@
       "pageId": "pg_f5126ff603c84a99a70a2a68d02102ac",
       "path": "/resources/guides/business-line-of-credit-australia",
       "beforeSha256": "38f42ed708fa1c88f6293c97dfa98c3f635777f5d2bcc0379e5acaa19b540509",
-      "afterSha256": "41dde0eb7ab0fac53212344bfe9753c626f143bad172145904b43e798cd5a9ab",
-      "reason": "Existing-page improvement of the business line of credit Australia owner URL (package business-line-of-credit-answer-first-service-link-20261120). Keep slug, canonical path, title, H1 owner, description, keywords, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-06-05, and reviewed_date 2026-06-05 pending independent review. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Add one descriptive contextual body link to /services/business-finance with the anchor business finance arranged through a broker, in When A Business Line Of Credit Helps, and reuse that destination in the How does Emet Capital help FAQ. Answer-first opening states what a business line of credit is, how draw, repay and redraw differs from a term loan, and what lenders look at first; At a Glance matches. Meta description mentions business line of credit Australia once. Replace Who This Is For Emet Capital works with eligible commercial borrowers wording with broker-accurate wording that Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. Publication-contract fields required for this material change: metaTitle matching the existing title, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/business-finance matching the registry, contentRisk medium matching the registry, an existing 1200x630 JPEG, featuredImageAlt, and one business.gov.au source for the shop-around sentence and the official line-of-credit description. Related In-Depth Guides is an H2 so the template owns the only H1. Related-list copies of working-capital-loans-for-smes, invoice-finance-australia-complete-guide, and business-debt-consolidation-australia are removed so those URLs appear twice. The existing tax timing cell said tax advice should be sought; that phrase is rewritten so contentRisk can stay medium. Independent review is PENDING at this writer revision. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. No unsourced figures were present at base. Draft only. No human or professional approval.",
+      "afterSha256": "695a6d4ee683c87b05cc1524228a47adaa4ec43edbc0f2aefa9a3d65bd16c8ac",
+      "reason": "Existing-page improvement of the business line of credit Australia owner URL (package business-line-of-credit-answer-first-service-link-20261120). Keep slug, canonical path, title, H1 owner, description, keywords, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-06-05. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Writer revision 749b586b9635c32d5694bb1740511d6a34db7e36 added a two-sentence answer-first opening, one descriptive contextual body link to /services/business-finance with the anchor business finance arranged through a broker, the same destination in the How does Emet Capital help FAQ, broker-accurate closer, and publication-contract fields. Independent Grok 4.7 review PASS 91 of that writer head / pre-stamp sha256 41dde0eb7ab0fac53212344bfe9753c626f143bad172145904b43e798cd5a9ab at https://github.com/bennyblair/bennyblair.github.io/pull/281#issuecomment-7021625226. This stamp deletes reviewed_date 2026-06-05 and sets reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-19T20:39:23.727Z, expiresAt 2027-05-18T20:39:23.727Z (registry 180-day cadence). Resulting guide sha256 695a6d4ee683c87b05cc1524228a47adaa4ec43edbc0f2aefa9a3d65bd16c8ac (15560 bytes). Guide prose is unchanged. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-fa7232da-7244-5933-b003-71f6f6a3871d"
@@ -72,40 +93,73 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "PENDING",
-        "outcome": "PENDING",
-        "reviewer": "PENDING independent reviewer",
-        "reviewedAt": "PENDING",
-        "reviewedSourceSha256": "PENDING",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-19T20:39:23.727Z",
+        "reviewedSourceSha256": "695a6d4ee683c87b05cc1524228a47adaa4ec43edbc0f2aefa9a3d65bd16c8ac",
+        "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "blockingFindings": [
-          "Independent review not yet completed at this writer revision"
-        ],
-        "completePageChecked": false,
-        "claimCoverage": "PENDING",
+        "score": 91,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
         "unmappedFactualClaims": [],
-        "sources": [],
-        "sourceClaimMap": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-19T20:39:23.727Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          },
+          {
+            "claim": "You can borrow funds as often as you need to, as long as you stay below your credit limit",
+            "sources": [
+              "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+            ]
+          }
+        ],
         "limitations": [
-          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
-          "Guide sha256 at this writer revision is 41dde0eb7ab0fac53212344bfe9753c626f143bad172145904b43e798cd5a9ab (15467 bytes). beforeSha256 is 38f42ed708fa1c88f6293c97dfa98c3f635777f5d2bcc0379e5acaa19b540509 (14482 bytes) at main 905fddb4f4d76c98c25a38dea2028d8ed62787d9.",
-          "business.gov.au Apply for a business loan returned HTTP 200 (354791 bytes) to Python urllib GET at 2026-11-19T20:18:00Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match. The Line of credit section describes a revolving loan up to a pre-approved limit and borrowing as often as needed below the credit limit. The guide drops the source word quickly and does not copy rates, fees or limits.",
-          "https://emetcapital.com.au/services/business-finance returned HTTP 200 (49002 bytes) at 2026-11-19T20:18:49.209Z, self-canonical, one H1 Business Finance for Australian SMEs.",
-          "Fetched and not cited: ASIC INFO 207 commercial-loan disputes HTTP 200 (76012 bytes); ASIC credit resources HTTP 200 (73713 bytes, trailing slash redirected); NSW LRS HTTP 200 (141540 bytes). Live guide URL HTTP 200 (63389 bytes).",
-          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, date 2026-06-05 and reviewed_date 2026-06-05 are unchanged. Independent review metadata remains PENDING.",
-          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. The tax timing table cell was rewritten only to remove the phrase tax advice so the material-change quality gate can keep contentRisk medium. Emet Capital is described as a commercial finance broker that does not lend or fund loans. Registry maxAutomatedChangeRisk remains R0."
+          "This is an automated independent editorial and source review, not human or professional financial approval. Independent Grok 4.7 review PASS 91 observed 2026-11-19T20:39:23.727Z of writer head 749b586b9635c32d5694bb1740511d6a34db7e36 / pre-stamp sha256 41dde0eb7ab0fac53212344bfe9753c626f143bad172145904b43e798cd5a9ab at https://github.com/bennyblair/bennyblair.github.io/pull/281#issuecomment-7021625226. This commit applies only the authorized review metadata pair and this manifest. Resulting sha256 695a6d4ee683c87b05cc1524228a47adaa4ec43edbc0f2aefa9a3d65bd16c8ac (15560 bytes). Writer https://cursor.com/agents/bc-fa7232da-7244-5933-b003-71f6f6a3871d.",
+          "humanReviewRequired is not claimed. contentRisk is recorded as medium to match the trusted registry. Author Ben, author_* fields including the existing 10 years bio, slug, title and date 2026-06-05 stay. No owner approval is invented.",
+          "Declared source was live-checked by the independent reviewer: https://business.gov.au/finance/funding/apply-for-a-business-loan HTTP 200 (354791 bytes) at 2026-11-19T20:39:23.727Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match. The second mapped sentence is verbatim from the Line of credit section. The guide drops the source adverb quickly.",
+          "Production https://emetcapital.com.au/services/business-finance returned HTTP 200 (49002 bytes), self-canonical, one H1 Business Finance for Australian SMEs. The featured image is an existing 1200x630 JPEG (133105 bytes) already used by other commercial-finance guides.",
+          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. Emet Capital is described as a commercial finance broker that does not lend or fund loans. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-06-05; no reviewedBy, reviewedAt or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-19T20:39:23.727Z; expiresAt: 2027-05-18T20:39:23.727Z",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. Guide prose is otherwise identical to the PASS 91 review of 749b586."
+          }
         ],
         "scopeVerification": {
           "canonicalWebsiteTouched": false,
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false,
-          "resultingFileIndependentlyReviewed": false
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "reviewedPreMetadataSha256": "41dde0eb7ab0fac53212344bfe9753c626f143bad172145904b43e798cd5a9ab"
         }
       }
     }
