@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_business-loan-terms-service-link-20261120",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "905fddb4f4d76c98c25a38dea2028d8ed62787d9",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/business-loan-terms-explained-australia.md",
+      "pageId": "pg_08c5a9b807f04b9a8306b5874c11f110",
+      "path": "/resources/guides/business-loan-terms-explained-australia",
+      "beforeSha256": "b6c37890d207160cc89dda7f8af5788e3744c041dbc362ca114356b199fe25a8",
+      "afterSha256": "ff47b060fcb401e1d740c54ca5f43ec4ba4a2c7194683644bd9f6a6d442dea1d",
+      "reason": "Existing-page improvement of the business-loan-terms explainer. Keep slug, canonical path, title, description, H1 owner, keywords, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-06-13, and reviewed_date 2026-06-13 pending independent review. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Add one descriptive contextual body link to /services/business-finance with the anchor business finance arranged through a broker, in How Emet Capital Reviews Loan Terms. Keep existing links, including the educational caveat-loans guide link. Answer-first opening defines a business loan term and the three comparison points: length, repayment structure, and security and conditions. At a Glance restates those three points. In Security and Guarantees, replace caveat-style security with registered first or second mortgage, or specific asset security; no caveat-loan offer or recommendation. Meta description mentions business loan terms once, copying the existing description. Publication-contract fields required for this material change: metaTitle matching the existing title, metaDescription, primaryQuery matching the registry (business loan term), searchIntent informational, designatedServicePage /services/business-finance matching the registry, contentRisk medium matching the registry, a passing 1200x630 JPEG already used by other business-finance guides, featuredImageAlt, and one business.gov.au source for the shop-around sentence. Related In-Depth Guides is an H2 so the template owns the only H1. Broker-accurate wording added in How Emet Capital Reviews Loan Terms. Closer already stated Emet Capital is a commercial finance broker, not a lender; the shop-around sentence is appended. Independent review is PENDING at this writer revision. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, or invented transaction results were added. No unsourced term-length, rate, or fee figures were present at base, so none were removed. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-5ccdc249-ea80-5132-8c61-16124bc84fa4"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/business-finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "business finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker that arranges finance for eligible business borrowers and is not the lender"
+        },
+        {
+          "kind": "text-added",
+          "value": "When comparing two offers, borrowers should look first at length, repayment structure, and security and conditions."
+        },
+        {
+          "kind": "text-added",
+          "value": "registered first or second mortgage, or specific asset security"
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "caveat-style security"
+        },
+        {
+          "kind": "text-removed",
+          "value": "In Australia, business loan terms usually cover the facility length, repayment frequency, interest calculation method, fees, security, covenants, review events, and exit requirements."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is ff47b060fcb401e1d740c54ca5f43ec4ba4a2c7194683644bd9f6a6d442dea1d (17978 bytes). beforeSha256 is b6c37890d207160cc89dda7f8af5788e3744c041dbc362ca114356b199fe25a8 (16777 bytes) at main 905fddb4f4d76c98c25a38dea2028d8ed62787d9.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (354791 bytes) to Python urllib GET at 2026-11-19T20:18:56.351899Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "Production https://emetcapital.com.au/services/business-finance returned HTTP 200 (49002 bytes) at 2026-11-19T20:18:55.927676Z, self-canonical, one H1 Business Finance for Australian SMEs.",
+          "Fetched and not cited (no body claim mapped): https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans HTTP 200 (76012 bytes); https://www.nswlrs.com.au/ HTTP 200 (141540 bytes); https://www.asic.gov.au/regulatory-resources/credit/ HTTP 200 after redirect to /credit (73713 bytes).",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, date 2026-06-13, and reviewed_date 2026-06-13 are unchanged. Independent review metadata remains PENDING. contentRisk medium is recorded to match the trusted registry for the publication contract.",
+          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. Caveat-style security wording was replaced with registered first or second mortgage, or specific asset security. The educational caveat-loans guide link is kept. Emet Capital is described as a commercial finance broker that arranges finance for eligible business borrowers and is not the lender. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
