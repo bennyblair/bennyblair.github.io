@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_business-loan-requirements-service-link-20261120",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "0cc1fc71924adc77624241e66dbe521db0ce9f13",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-19T20:37:14.098Z",
+    "verdict": "PASS",
+    "score": 92,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/business-loan-requirements-australia-commercial-borrowers.md",
+      "pageId": "pg_f562d8c7a32644079d6fc53ddd2bc49a",
+      "path": "/resources/guides/business-loan-requirements-australia-commercial-borrowers",
+      "beforeSha256": "b1085eea60a10dc893958a6f860ffa12194f49ac823a95d5b65ac91481071206",
+      "afterSha256": "34b24d60e77aba8343c44996c3a543a23dffca780c81360225366c10f6f2324a",
+      "reason": "Existing-page improvement of the business-loan-requirements owner URL. Keep slug, canonical path, title, H1 owner, keywords, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-06-12. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Writer revision f68d7c7a71a714845008faf67e3c81d17def36ee added a two-sentence answer-first opening, one descriptive contextual body link to /services/business-finance with the anchor business finance arranged through a broker after the Business Loan Readiness Checklist, and Security and Guarantees wording for a first mortgage, second mortgage, or other registered security, with the caveat-loan comparison copy and caveat-loans-australia-complete-guide link removed. Independent Grok 4.7 review PASS 92 of that writer head / pre-stamp sha256 356752c8837f02ab71e4cb6a13be8cb4d3332544b9f0c077d763bbe39f32a31e. This stamp changes only reviewedBy, reviewedAt 2026-11-19T20:37:14.098Z and expiresAt 2027-05-18T20:37:14.098Z (180-day medium cadence) and this manifest. Resulting guide sha256 34b24d60e77aba8343c44996c3a543a23dffca780c81360225366c10f6f2324a (17876 bytes). reviewed_date 2026-06-12 removed. Meta description mentions business loan requirements Australia once. Keep the existing closer that Emet Capital is a commercial finance broker, not a lender. No rates, LVRs, fees, timeframes, lender names, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-4ece35da-c80e-5bad-9106-16c13fb85446"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/business-finance"
+        },
+        {
+          "kind": "text-added",
+          "value": "business finance arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "To qualify for a business loan in Australia you usually need a clear commercial purpose"
+        },
+        {
+          "kind": "text-added",
+          "value": "a first mortgage, second mortgage, or other registered security"
+        },
+        {
+          "kind": "text-added",
+          "value": "Documentation requirements vary between loans"
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "first mortgage, second mortgage, caveat, or other security structure"
+        },
+        {
+          "kind": "text-removed",
+          "value": "caveat loans in Australia"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/caveat-loans-australia-complete-guide"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-19T20:37:14.098Z",
+        "reviewedSourceSha256": "34b24d60e77aba8343c44996c3a543a23dffca780c81360225366c10f6f2324a",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 92,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "noFabricatedTransactionOrReview": true,
+        "noUnsupportedRatesSpeedOrEligibilityPromise": true,
+        "noLegalOrTaxConclusion": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-19T20:37:14.098Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "Documentation requirements vary between loans",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "It's a good idea to compare loan products from multiple lenders before applying",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          }
+        ],
+        "limitations": [
+          "Automated independent editorial and source review by grok-4.7. The writer was grok-4.6. The reviewer field is the trusted identity OpenClaw independent reviewer. This is not human or professional financial approval."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        },
+        "gateReconciliation": {
+          "reviewedPreMetadataSha256": "356752c8837f02ab71e4cb6a13be8cb4d3332544b9f0c077d763bbe39f32a31e"
+        }
+      }
+    }
+  ]
+}
