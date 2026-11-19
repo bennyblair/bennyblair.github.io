@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_rent-roll-finance-review-20261112",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "77a71c2f0695e7c2539e8d9579670f841855c323",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "PENDING independent reviewer",
+    "reviewedAt": "PENDING",
+    "score": null,
+    "blockingFindings": [
+      "Independent review not yet completed at this writer revision"
+    ]
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/rent-roll-finance-in-australia-funding-real-estate-agency-acquisitions.md",
+      "pageId": "pg_b60d3d0893ba4370a6e9a6e1dd3c008f",
+      "path": "/resources/guides/rent-roll-finance-in-australia-funding-real-estate-agency-acquisitions",
+      "beforeSha256": "a331c9c9e8a267ee3726b6facd4fadb21fe2a9986c052358ba7148788bbc4e04",
+      "afterSha256": "0554355b7d9253358d5232d9d452edc2b044b3f8f7d62228991255c3376f7d3e",
+      "reason": "Existing-page improvement of the rent-roll acquisition-finance owner URL. Keep slug, canonical path, title, description, H1 owner, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-05-13, reviewed_date 2026-05-15, primaryQuery rent roll finance Australia, searchIntent commercial investigation, intentCluster business-acquisition, designatedServicePage /services/business-acquisition, and contentRisk low matching the registry. Keep reviewedBy OpenClaw SEO source audit and reviewedAt 2026-08-05 pending independent review. Keep the existing body link to /services/business-acquisition and /services/refinancing-solutions. Add one descriptive contextual body link to /services/private-lending with the anchor commercial private lending arranged through a broker, in the existing bank-versus-private section. Replace the closer Emet Capital provides commercial lending solutions to eligible business borrowers with broker-accurate wording. Publication-contract fields required for this material change: metaTitle, metaDescription, the existing 1200x630 JPEG, and featuredImageAlt. Related In-Depth Guides is an H2 so the template owns the only H1. The related-list copy of business-acquisition-finance-australia is removed so that URL appears twice. Live GET of business.gov.au buy-an-existing-business returned HTTP 200; the current body does not contradict that page, so no source wording rewrite was made. The optional apply-for-a-business-loan page was fetched HTTP 200 and is declared for the shop-around sentence. Independent review is PENDING at this writer revision. No rates, yields, IRR, valuation multiples, portfolio-size statistics, volumes, licence, membership, consumer-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-5914c2c8-8c9c-56bc-a49b-107d7a8a6443"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/private-lending"
+        },
+        {
+          "kind": "text-added",
+          "value": "Commercial private lending arranged through a broker"
+        },
+        {
+          "kind": "text-added",
+          "value": "Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders."
+        },
+        {
+          "kind": "text-added",
+          "value": "It's a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-removed",
+          "value": "Emet Capital provides commercial lending solutions to eligible business borrowers."
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "PENDING",
+        "outcome": "PENDING",
+        "reviewer": "PENDING independent reviewer",
+        "reviewedAt": "PENDING",
+        "reviewedSourceSha256": "PENDING",
+        "human": false,
+        "professionalFinancialReview": false,
+        "blockingFindings": [
+          "Independent review not yet completed at this writer revision"
+        ],
+        "completePageChecked": false,
+        "claimCoverage": "PENDING",
+        "unmappedFactualClaims": [],
+        "sources": [],
+        "sourceClaimMap": [],
+        "limitations": [
+          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
+          "Guide sha256 at this writer revision is 0554355b7d9253358d5232d9d452edc2b044b3f8f7d62228991255c3376f7d3e. beforeSha256 is a331c9c9e8a267ee3726b6facd4fadb21fe2a9986c052358ba7148788bbc4e04 at main 77a71c2f0695e7c2539e8d9579670f841855c323.",
+          "business.gov.au Buy an existing business returned HTTP 200 (358188 bytes) to Python urllib GET at 2026-11-11T20:09:58.139716Z. The current rent-roll body does not contradict that live page, so no source wording rewrite was made. The source remains declared.",
+          "business.gov.au Apply for a business loan returned HTTP 200 (357421 bytes) to Python urllib GET at 2026-11-11T20:09:59.728297Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, primaryQuery, searchIntent, intentCluster, designatedServicePage, contentRisk, reviewedBy and reviewedAt are unchanged. Independent review metadata remains PENDING.",
+          "No rate, fee, LVR, timeframe, lender name, dollar-volume, yield, IRR, valuation multiple, portfolio-size statistic, FBAA, MFAA, credit-licence, or consumer-loan offer was added. Emet Capital is described as a commercial finance broker that does not lend or fund loans."
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": false,
+          "resultingFileIndependentlyReviewed": false
+        }
+      }
+    }
+  ]
+}
