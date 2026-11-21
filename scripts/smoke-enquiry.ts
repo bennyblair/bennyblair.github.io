@@ -66,7 +66,7 @@ const waitForEnquiryPost = () =>
   page.waitForResponse((response) => response.request().method() === "POST" && new URL(response.url()).pathname === "/");
 
 try {
-  await page.goto("https://enquiry-check.invalid/services/refinancing-solutions?utm_source=chatgpt.com&email=private@example.invalid");
+  await page.goto("https://enquiry-check.invalid/services/refinancing-solutions?utm_source=chatgpt.com&utm_medium=referral&utm_campaign=ai-assist&email=private@example.invalid");
   await page.getByRole("heading", { level: 1 }).waitFor();
   await page.locator('a[href="/contact?purpose=refinance"]').first().click();
   await page.getByRole("heading", { level: 1, name: "Discuss Your Business Finance Transaction" }).waitFor();
@@ -108,8 +108,20 @@ try {
   assert.equal(posts[1].get("aiLandingPath"), "/services/refinancing-solutions");
   assert.equal(posts[1].get("aiDetectionMethod"), "campaign");
   assert.equal(posts[1].get("aiAttributionScope"), "session");
+  const enquiryId = posts[1].get("enquiryId") || "";
+  assert.match(enquiryId, /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i);
+  assert.notEqual(posts[0].get("enquiryId"), enquiryId);
+  assert.equal(posts[1].get("trafficChannel"), "ai");
+  assert.equal(posts[1].get("utm_source"), "chatgpt.com");
+  assert.equal(posts[1].get("utm_medium"), "referral");
+  assert.equal(posts[1].get("utm_campaign"), "ai-assist");
   const acceptedAiLead = await page.evaluate(() => (window.dataLayer || []).map((item) => Array.from(item as ArrayLike<unknown>)).find((item) => item[1] === "generate_lead")?.[2]);
   assert.equal((acceptedAiLead as { ai_source: string }).ai_source, "chatgpt");
+  assert.equal((acceptedAiLead as { enquiry_id: string }).enquiry_id, enquiryId);
+  assert.equal((acceptedAiLead as { traffic_channel: string }).traffic_channel, "ai");
+  assert.equal((acceptedAiLead as { utm_source: string }).utm_source, "chatgpt.com");
+  assert.equal((acceptedAiLead as { utm_medium: string }).utm_medium, "referral");
+  assert.equal((acceptedAiLead as { utm_campaign: string }).utm_campaign, "ai-assist");
   const analytics = await page.evaluate(() => JSON.stringify(window.dataLayer));
   assert.doesNotMatch(analytics, /private@example|test@example|Isolated Test|500,000|Private suburb|1,200,000|300,000|Private repayment|Private message/);
   await snapshot("contact-mobile-success");
@@ -128,6 +140,9 @@ try {
   await page.getByRole("status").filter({ hasText: "Your enquiry has been submitted" }).waitFor();
   assert.equal(posts.at(-1)?.get("form-name"), "homepage-contact");
   assert.equal(posts.at(-1)?.get("transactionPurpose"), "equity_release");
+  assert.equal(posts.at(-1)?.get("trafficChannel"), "ai");
+  assert.equal(posts.at(-1)?.get("utm_source"), "chatgpt.com");
+  assert.notEqual(posts.at(-1)?.get("enquiryId"), enquiryId);
   assert.equal(await leadCount(page), 1);
 
   // A subsequent visit can be AI-assisted without being labelled a new AI referral.
@@ -145,6 +160,28 @@ try {
   await page.evaluate(() => { window.gtag = () => { throw new Error("Analytics unavailable in test"); }; });
   await submit();
   await page.getByRole("status").filter({ hasText: "Your enquiry has been submitted" }).waitFor();
+
+  await page.goto("https://enquiry-check.invalid/resources/insights");
+  await page.getByRole("heading", { level: 1, name: "Commercial Lending Market Insights" }).waitFor();
+  const leadsBeforeNewsletter = await leadCount(page);
+  await page.locator("#newsletter-email").fill("news@example.invalid");
+  responseStatus = 500;
+  const failedNewsletter = waitForEnquiryPost();
+  await page.getByRole("button", { name: "Subscribe" }).click();
+  assert.equal((await failedNewsletter).status(), 500);
+  await page.getByRole("alert").filter({ hasText: "could not be submitted" }).waitFor();
+  assert.equal(await leadCount(page), leadsBeforeNewsletter);
+  responseStatus = 200;
+  const acceptedNewsletter = waitForEnquiryPost();
+  await page.getByRole("button", { name: "Subscribe" }).click();
+  assert.equal((await acceptedNewsletter).status(), 200);
+  await page.getByRole("status").filter({ hasText: "Thanks, we have received your email" }).waitFor();
+  assert.equal(posts.at(-1)?.get("form-name"), "newsletter");
+  assert.equal(posts.at(-1)?.get("email"), "news@example.invalid");
+  assert.equal(posts.at(-1)?.get("sourcePath"), "/resources/insights");
+  assert.equal(await leadCount(page), leadsBeforeNewsletter);
+  const analyticsAfterNewsletter = await page.evaluate(() => JSON.stringify(window.dataLayer));
+  assert.doesNotMatch(analyticsAfterNewsletter, /news@example\.invalid/);
 
   // Production-built code on localhost must still avoid simulated leads and network submissions.
   const preview = await context.newPage();
@@ -176,7 +213,7 @@ try {
   assert.equal(await page.locator("#how-it-works.home-process").count(), 1);
   await page.locator(".home-contact-card").screenshot({ path: path.join(output, "homepage-desktop-contact-transaction.png") });
   assert.deepEqual(errors, []);
-  console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "private fields excluded from analytics", "landing category retained", "localhost preview does not send or count", "four service pages"] }, null, 2));
+  console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "shared enquiryId on Netlify body and generate_lead", "first-touch trafficChannel and utm fields", "private fields excluded from analytics", "landing category retained", "newsletter posts to Netlify without generate_lead", "localhost preview does not send or count", "four service pages"] }, null, 2));
 } finally {
   await browser.close();
 }
