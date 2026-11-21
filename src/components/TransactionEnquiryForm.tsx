@@ -1,11 +1,10 @@
-import { isDesignPreview } from "@/lib/design-preview";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { getLandingAttribution, trackEnquiryStep, trackLead, type LandingAttribution } from "@/lib/analytics";
-import { submitEnquiry } from "@/lib/enquiry-submission";
+import { createEnquiryId, isPreviewSubmission, submitEnquiry } from "@/lib/enquiry-submission";
 import { ENQUIRY_RESPONSE_MESSAGE, enquiryPurposeLabel, normaliseTransactionPurpose, TRANSACTION_JOURNEYS } from "@/lib/transactions";
 
 const selectClass = "mt-1 flex min-h-11 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
@@ -26,7 +25,18 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
   const [fields, setFields] = useState(emptyFields);
   const [submitting, setSubmitting] = useState(false);
   const [notice, setNotice] = useState<{ kind: "success" | "error" | "preview"; text: string } | null>(null);
-  const [attribution, setAttribution] = useState<LandingAttribution>({ landing_path: "", landing_category: "", ai_source: "not_detected", ai_landing_path: "/unknown", ai_detection_method: "not_detected", ai_attribution_scope: "not_detected" });
+  const [attribution, setAttribution] = useState<LandingAttribution>({
+    landing_path: "",
+    landing_category: "",
+    ai_source: "not_detected",
+    ai_landing_path: "/unknown",
+    ai_detection_method: "not_detected",
+    ai_attribution_scope: "not_detected",
+    traffic_channel: "direct",
+    utm_source: "",
+    utm_medium: "",
+    utm_campaign: "",
+  });
   const purposeRef = useRef<HTMLSelectElement>(null);
   const contactRef = useRef<HTMLInputElement>(null);
   const busy = useRef(false);
@@ -61,14 +71,15 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
     setNotice(null);
     try {
       const formData = new FormData(event.currentTarget);
-      const preview = isDesignPreview || import.meta.env.DEV || ["localhost", "127.0.0.1", "[::1]"].includes(window.location.hostname);
-      const result = await submitEnquiry(formData, preview);
+      const enquiryId = createEnquiryId();
+      formData.set("enquiryId", enquiryId);
+      const result = await submitEnquiry(formData, isPreviewSubmission());
       if (result === "ignored") return;
       if (result === "preview") {
         setNotice({ kind: "preview", text: "Preview only: no enquiry was sent or counted." });
         return;
       }
-      trackLead(formName, purpose);
+      trackLead(formName, purpose, enquiryId);
       setNotice({ kind: "success", text: "Your enquiry has been submitted. " + ENQUIRY_RESPONSE_MESSAGE });
       setFields(emptyFields);
       setPurpose("");
@@ -91,6 +102,11 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
       <input type="hidden" name="aiLandingPath" value={attribution.ai_landing_path} />
       <input type="hidden" name="aiDetectionMethod" value={attribution.ai_detection_method} />
       <input type="hidden" name="aiAttributionScope" value={attribution.ai_attribution_scope} />
+      <input type="hidden" name="enquiryId" value="" />
+      <input type="hidden" name="trafficChannel" value={attribution.traffic_channel} />
+      <input type="hidden" name="utm_source" value={attribution.utm_source} />
+      <input type="hidden" name="utm_medium" value={attribution.utm_medium} />
+      <input type="hidden" name="utm_campaign" value={attribution.utm_campaign} />
       <p hidden><label htmlFor={id("bot-field")}>Do not fill this out</label><input id={id("bot-field")} name="bot-field" tabIndex={-1} autoComplete="off" /></p>
       <p className="text-sm text-muted-foreground" aria-live="polite">{ready ? "Step " + step + " of 2 · " + (step === 1 ? "Your transaction" : "Your contact details") : "Preparing the enquiry form…"}</p>
 

@@ -108,10 +108,21 @@ export function trackEvent(name: string, parameters: AnalyticsParameters = {}) {
 
 const publicAnalyticsPaths = new Set(["/", "/contact"]);
 const landingKey = "emet_landing_v1";
+const firstTouchKey = "emet_first_touch_v1";
 const aiSessionKey = "emet_ai_session_v1";
 const aiAssistKey = "emet_ai_assist_v1";
+const PAID_MEDIA = new Set(["cpc", "ppc", "paid", "paidsearch", "display", "cpm"]);
+const CAMPAIGN_VALUE_MAX = 100;
 export const AI_ASSIST_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
 export type AiTouch = AiReferralClassification & { landingPath: string; observedAt: number };
+export type TrafficChannel = "organic" | "paid" | "direct" | "referral" | "ai";
+export type FirstTouch = {
+  referrerHost: string;
+  utmSource: string;
+  utmMedium: string;
+  utmCampaign: string;
+  gclidPresent: boolean;
+};
 export type LandingAttribution = {
   landing_path: string;
   landing_category: string;
@@ -119,8 +130,132 @@ export type LandingAttribution = {
   ai_landing_path: string;
   ai_detection_method: "campaign" | "referrer" | "not_detected";
   ai_attribution_scope: "session" | "return_visit" | "not_detected";
+  traffic_channel: TrafficChannel;
+  utm_source: string;
+  utm_medium: string;
+  utm_campaign: string;
 };
 let landingAttribution: LandingAttribution | undefined;
+
+const emptyLandingAttribution: LandingAttribution = {
+  landing_path: "/unknown",
+  landing_category: "other",
+  ai_source: "not_detected",
+  ai_landing_path: "/unknown",
+  ai_detection_method: "not_detected",
+  ai_attribution_scope: "not_detected",
+  traffic_channel: "direct",
+  utm_source: "",
+  utm_medium: "",
+  utm_campaign: "",
+};
+
+/** Drop in-memory attribution so tests can re-read the current window and storage. */
+export function resetLandingAttributionForTests() {
+  landingAttribution = undefined;
+}
+
+/** Keep only a short campaign token. Never retain emails, URLs or query strings. */
+export function sanitiseCampaignValue(value: string) {
+  const trimmed = value.trim().slice(0, CAMPAIGN_VALUE_MAX);
+  if (!trimmed || /@|:\/\/|[/?#]/.test(trimmed)) return "";
+  return trimmed;
+}
+
+function isSafeHostname(value: string) {
+  if (!value) return true;
+  const host = value.toLowerCase();
+  if (host.length > 253 || /[^a-z0-9.-]/.test(host) || host.includes("..")) return false;
+  if (host.startsWith("-") || host.endsWith("-") || host.startsWith(".") || host.endsWith(".")) return false;
+  return host === "localhost" || host.includes(".");
+}
+
+/** Hostname only. Never a full referrer URL. */
+export function referrerHostname(referrer = "") {
+  if (!referrer) return "";
+  try {
+    const host = new URL(referrer).hostname.toLowerCase().replace(/^www\./, "");
+    return isSafeHostname(host) ? host : "";
+  } catch {
+    return "";
+  }
+}
+
+export function isOwnSiteHost(host: string) {
+  return host.replace(/^www\./, "") === "emetcapital.com.au";
+}
+
+export function isSearchEngineHost(host: string) {
+  const h = host.toLowerCase().replace(/^www\./, "");
+  if (/^google\.[a-z]{2,3}(?:\.[a-z]{2})?$/.test(h)) return true;
+  if (h === "bing.com" || h.endsWith(".bing.com")) return true;
+  if (h === "yahoo.com" || h.endsWith(".yahoo.com") || /^yahoo\.[a-z]{2,3}(?:\.[a-z]{2})?$/.test(h)) return true;
+  if (h === "duckduckgo.com" || h.endsWith(".duckduckgo.com")) return true;
+  if (h === "ecosia.org" || h === "startpage.com" || h === "search.brave.com") return true;
+  return false;
+}
+
+export function classifyTrafficChannel(input: {
+  aiDetected: boolean;
+  gclidPresent: boolean;
+  utmMedium: string;
+  referrerHost: string;
+}): TrafficChannel {
+  if (input.aiDetected) return "ai";
+  const medium = input.utmMedium.trim().toLowerCase();
+  if (input.gclidPresent || PAID_MEDIA.has(medium)) return "paid";
+  if (medium === "organic" || isSearchEngineHost(input.referrerHost)) return "organic";
+  if (input.referrerHost && !isOwnSiteHost(input.referrerHost)) return "referral";
+  return "direct";
+}
+
+function parseFirstTouch(raw: string | null): FirstTouch | null {
+  if (!raw) return null;
+  try {
+    const value = JSON.parse(raw);
+    if (!value || typeof value !== "object") return null;
+    if (typeof value.referrerHost !== "string" || !isSafeHostname(value.referrerHost) || /[/?#:]/.test(value.referrerHost)) return null;
+    if (typeof value.gclidPresent !== "boolean") return null;
+    const utmSource = sanitiseCampaignValue(String(value.utmSource ?? ""));
+    const utmMedium = sanitiseCampaignValue(String(value.utmMedium ?? ""));
+    const utmCampaign = sanitiseCampaignValue(String(value.utmCampaign ?? ""));
+    if (value.utmSource && value.utmSource !== utmSource) return null;
+    if (value.utmMedium && value.utmMedium !== utmMedium) return null;
+    if (value.utmCampaign && value.utmCampaign !== utmCampaign) return null;
+    return {
+      referrerHost: value.referrerHost,
+      utmSource,
+      utmMedium,
+      utmCampaign,
+      gclidPresent: value.gclidPresent,
+    };
+  } catch {
+    return null;
+  }
+}
+
+function captureFirstTouch(search = "", referrer = ""): FirstTouch {
+  const params = new URLSearchParams(search.startsWith("?") ? search.slice(1) : search);
+  return {
+    referrerHost: referrerHostname(referrer),
+    utmSource: sanitiseCampaignValue(params.get("utm_source") || ""),
+    utmMedium: sanitiseCampaignValue(params.get("utm_medium") || ""),
+    utmCampaign: sanitiseCampaignValue(params.get("utm_campaign") || ""),
+    gclidPresent: params.has("gclid"),
+  };
+}
+
+function readFirstTouch(): FirstTouch {
+  const empty: FirstTouch = { referrerHost: "", utmSource: "", utmMedium: "", utmCampaign: "", gclidPresent: false };
+  if (typeof window === "undefined") return empty;
+  try {
+    const saved = parseFirstTouch(window.sessionStorage.getItem(firstTouchKey));
+    if (saved) return saved;
+  } catch { /* Storage may be unavailable. */ }
+  const captured = captureFirstTouch(window.location.search, document.referrer);
+  try { window.sessionStorage.setItem(firstTouchKey, JSON.stringify(captured)); } catch { /* Keep this page session in memory. */ }
+  return captured;
+}
 
 /** Strictly validate stored public attribution; do not retain full URLs or visitor identity. */
 export function parseAiTouch(raw: string | null, now = Date.now()): AiTouch | null {
@@ -161,8 +296,7 @@ export function landingCategory(path: string) {
 
 export function getLandingAttribution() {
   if (landingAttribution) return landingAttribution;
-  const empty: LandingAttribution = { landing_path: "/unknown", landing_category: "other", ai_source: "not_detected", ai_landing_path: "/unknown", ai_detection_method: "not_detected", ai_attribution_scope: "not_detected" };
-  if (typeof window === "undefined") return empty;
+  if (typeof window === "undefined") return emptyLandingAttribution;
   let path = safeAnalyticsPath(window.location.pathname);
   try {
     const saved = window.sessionStorage.getItem(landingKey);
@@ -186,9 +320,19 @@ export function getLandingAttribution() {
       else window.localStorage.removeItem(aiAssistKey);
     } catch { /* Attribution cannot block navigation or enquiries. */ }
   }
+  const firstTouch = readFirstTouch();
   landingAttribution = {
-    ...empty, landing_path: path, landing_category: landingCategory(path),
+    ...emptyLandingAttribution, landing_path: path, landing_category: landingCategory(path),
     ...(touch ? { ai_source: touch.aiSource, ai_landing_path: touch.landingPath, ai_detection_method: touch.detectionMethod, ai_attribution_scope: scope } : {}),
+    traffic_channel: classifyTrafficChannel({
+      aiDetected: Boolean(touch),
+      gclidPresent: firstTouch.gclidPresent,
+      utmMedium: firstTouch.utmMedium,
+      referrerHost: firstTouch.referrerHost,
+    }),
+    utm_source: firstTouch.utmSource,
+    utm_medium: firstTouch.utmMedium,
+    utm_campaign: firstTouch.utmCampaign,
   };
   return landingAttribution;
 }
@@ -222,8 +366,11 @@ export function trackEnquiryStep(formName: string, purpose?: string) {
 }
 
 /** Call only after the form endpoint accepts the submission. Clicks and preview runs are not leads. */
-export function trackLead(formName: string, purpose?: string) {
-  trackEvent("generate_lead", enquiryParameters(formName, purpose));
+export function trackLead(formName: string, purpose?: string, enquiryId?: string) {
+  trackEvent("generate_lead", {
+    ...enquiryParameters(formName, purpose),
+    enquiry_id: enquiryId,
+  });
   if (typeof window === "undefined" || typeof window.gtag !== "function") return;
   try {
     window.gtag("event", "conversion", {

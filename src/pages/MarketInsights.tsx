@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,11 +7,15 @@ import { Label } from "@/components/ui/label";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { TrendingUp, Calendar, Clock, Filter, Star, Mail } from "lucide-react";
 import { getContentSummaries } from "@/lib/content";
+import { isPreviewSubmission, submitNetlifyForm } from "@/lib/enquiry-submission";
 import SEO from "@/components/SEO";
 
 const MarketInsights = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [email, setEmail] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+  const [notice, setNotice] = useState<{ kind: "success" | "error" | "preview"; text: string } | null>(null);
+  const busy = useRef(false);
   const publishedInsights = getContentSummaries("insights");
   const latestInsight = publishedInsights[0] ?? null;
 
@@ -118,11 +122,28 @@ const MarketInsights = () => {
     averageApproval: "14-21 days"
   };
 
-  const handleNewsletterSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle newsletter signup
-    console.log("Newsletter signup:", email);
-    setEmail("");
+  const handleNewsletterSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (busy.current) return;
+    busy.current = true;
+    setSubmitting(true);
+    setNotice(null);
+    try {
+      const formData = new FormData(event.currentTarget);
+      const result = await submitNetlifyForm(formData, isPreviewSubmission());
+      if (result === "ignored") return;
+      if (result === "preview") {
+        setNotice({ kind: "preview", text: "Preview only: your email was not sent." });
+        return;
+      }
+      setNotice({ kind: "success", text: "Thanks, we have received your email." });
+      setEmail("");
+    } catch {
+      setNotice({ kind: "error", text: "Your signup could not be submitted. Please try again." });
+    } finally {
+      busy.current = false;
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -337,26 +358,37 @@ const MarketInsights = () => {
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
               Get weekly market updates, rate alerts, and industry analysis delivered directly to your inbox. Stay ahead of market changes that could impact your business.
             </p>
-            <form onSubmit={handleNewsletterSubmit} className="max-w-md mx-auto">
+            <form name="newsletter" method="POST" action="/" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleNewsletterSubmit} className="max-w-md mx-auto">
+              <input type="hidden" name="form-name" value="newsletter" />
+              <input type="hidden" name="sourcePath" value="/resources/insights" />
+              <p hidden>
+                <label htmlFor="newsletter-bot-field">Do not fill this out</label>
+                <input id="newsletter-bot-field" name="bot-field" tabIndex={-1} autoComplete="off" />
+              </p>
               <div className="flex gap-4">
                 <div className="flex-1">
-                  <Label htmlFor="email" className="sr-only">Email address</Label>
+                  <Label htmlFor="newsletter-email" className="sr-only">Email address</Label>
                   <Input
-                    id="email"
+                    id="newsletter-email"
+                    name="email"
                     type="email"
+                    autoComplete="email"
                     placeholder="Enter your email address"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
                   />
                 </div>
-                <Button 
+                <Button
                   type="submit"
+                  disabled={submitting}
                   className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground"
                 >
-                  Subscribe
+                  {submitting ? "Submitting..." : "Subscribe"}
                 </Button>
               </div>
+              <p className="text-sm text-muted-foreground mt-4">We'll use this address for market updates. This is not a business-finance enquiry.</p>
+              {notice && <p role={notice.kind === "error" ? "alert" : "status"} className={notice.kind === "error" ? "text-destructive mt-3" : "text-foreground mt-3"}>{notice.text}</p>}
             </form>
           </CardContent>
         </Card>
