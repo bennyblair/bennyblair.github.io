@@ -27,10 +27,11 @@ const Guides = () => {
   const guideCategoryHighlights = [
     {
       title: "Property-backed short-term finance",
-      description: "Guides covering caveat loans, bridging finance, second mortgages and refinance gaps where timing, security position and exit strategy need to be assessed carefully.",
+      description: "Guides covering bridging finance, second mortgages, private lending and refinance gaps where timing, security position and exit strategy need to be assessed carefully.",
       links: [
-        { label: "Caveat loans guide", url: "/resources/guides/caveat-loans-australia-complete-guide" },
-        { label: "Urgent caveat loans", url: "/resources/guides/urgent-caveat-loans" },
+        { label: "Bridging finance for commercial borrowers", url: "/services/bridging-finance" },
+        { label: "Second mortgages for business", url: "/services/first-second-mortgages" },
+        { label: "Private lending options", url: "/services/private-lending" },
         { label: "Bridging finance guide", url: "/resources/guides/bridging-finance-australia-complete-property-guide" }
       ]
     },
@@ -38,6 +39,7 @@ const Guides = () => {
       title: "Commercial property finance",
       description: "Practical explainers for business owners and investors comparing deposits, lender assessment, serviceability, commercial property LVR and settlement readiness.",
       links: [
+        { label: "Commercial property finance service", url: "/services/commercial-property-finance" },
         { label: "Commercial property finance Sydney", url: "/resources/guides/commercial-property-finance-sydney-local-expert-hub" },
         { label: "Commercial property LVR", url: "/resources/guides/commercial-property-lvr-explained-maximise-your-borrowing" },
         { label: "Commercial refinance after bank decline", url: "/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia" }

@@ -35,7 +35,7 @@ sources:
 
 > **Direct answer:** Neither private nor bank lending is universally better. Bank debt often suits stable, well-evidenced, longer-term needs that fit policy; private lending may suit a defined commercial transition where structure or timing matters. Compare total cost, conditions, certainty, security, term and exit—not the lender label alone.
 
-Private lending and bank lending are not competing versions of the same product. They solve different problems.
+Private lending and bank lending are not competing versions of the same product. They solve different problems. Our [private lending options](/services/private-lending) page explains when a broker would put a deal to private lenders.
 
 A bank is usually designed for lower-risk, more standardised lending. A private lender is usually designed for speed, flexibility, complexity, or situations that do not fit neatly inside mainstream policy. That means the better option depends less on ideology and more on transaction fit.
 

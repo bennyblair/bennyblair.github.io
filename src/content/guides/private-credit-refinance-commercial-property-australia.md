@@ -34,7 +34,7 @@ sources:
     url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
 ---
 
-Private credit refinance for commercial property is a non-bank refinancing pathway for business owners, investors, and developers who need to replace, restructure, or stabilise commercial property debt when a standard bank refinance is too slow, too rigid, or unavailable. It is usually considered when the property has usable equity, the borrower has a commercial purpose, and there is a credible exit plan.
+Private credit refinance for commercial property is a non-bank refinancing pathway for business owners, investors, and developers who need to replace, restructure, or stabilise commercial property debt when a standard bank refinance is too slow, too rigid, or unavailable. It is usually considered when the property has usable equity, the borrower has a commercial purpose, and there is a credible exit plan. Emet Capital arranges [private and non-bank commercial loans](/services/private-lending) as a broker.
 
 In plain English, private credit refinance uses specialist private or non-bank capital to refinance an existing commercial property loan. It can help with maturity pressure, tenant disruption, valuation problems, covenant issues, settlement timing, or a bank decline, but it is still debt secured against property and should not be treated as a permanent fix for weak cash flow.
 

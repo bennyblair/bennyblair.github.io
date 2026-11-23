@@ -32,7 +32,7 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-A private lending mortgage is commercial finance secured by real property and funded by a private lender, private credit fund, family office, or specialist non-bank lender rather than a mainstream bank. For Australian business borrowers, it is usually considered when timing, documentation, asset type, credit history, or transaction complexity does not fit a standard bank process.
+A private lending mortgage is commercial finance secured by real property and funded by a [private lender](/services/private-lending), private credit fund, family office, or specialist non-bank lender rather than a mainstream bank. For Australian business borrowers, it is usually considered when timing, documentation, asset type, credit history, or transaction complexity does not fit a standard bank process.
 
 A private lending mortgage is not automatically better than a bank loan. It can be useful when the borrower has strong security and a clear commercial exit, but it can also be more expensive and less forgiving if the repayment plan is weak. Emet Capital helps borrowers compare private lending mortgages with [bank lending](/resources/guides/private-lending-vs-bank-lending-which-is-better), commercial property loans, second mortgages, and refinance options.
 

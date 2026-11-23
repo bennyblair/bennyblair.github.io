@@ -21,7 +21,7 @@ metaTitle: "Private Debt for SME Borrowers Australia | Emet Capital"
 metaDescription: "Private debt explained for Australian SME borrowers, including use cases, lender assessment, documents, risks, exit planning, and alternatives."
 ---
 
-Private debt for SME borrowers is non-bank commercial finance provided by private credit funds, specialist lenders, or private capital sources. In Australia, SMEs usually consider private debt when bank finance is too slow, too rigid, or unavailable for the specific transaction, but the business has a clear purpose, repayment capacity, security, or exit event.
+Private debt for SME borrowers is non-bank commercial finance provided by private credit funds, specialist lenders, or private capital sources. In Australia, SMEs usually consider private debt when bank finance is too slow, too rigid, or unavailable for the specific transaction, but the business has a clear purpose, repayment capacity, security, or exit event. Emet Capital is a broker that arranges [private lending for business borrowers](/services/private-lending); it does not lend its own funds.
 
 For Emet Capital, private debt is not a shortcut around weak fundamentals. It is a tool for business owners, property investors, and developers who need a commercial funding structure that can be assessed on security, timing, transaction logic, and exit strategy. It should be compared with [private lending](/resources/guides/what-is-private-lending-australia), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [working capital loans](/resources/guides/working-capital-loans-for-smes), and [business debt consolidation](/resources/guides/business-debt-consolidation-australia) before a borrower commits.
 

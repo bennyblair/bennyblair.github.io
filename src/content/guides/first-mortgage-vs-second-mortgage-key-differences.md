@@ -34,7 +34,7 @@ category: "1st & 2nd Mortgages for Business"
 
 > **Direct answer:** A first mortgage has the senior registered claim over the property. A second mortgage — also called a 2nd mortgage — usually ranks behind it and is generally repaid from enforcement or sale proceeds only after the first lender’s secured claim and relevant costs. That ranking can be varied by a registered priority agreement or amendment. Refinance or take a new first when the senior facility itself should change. Add a 2nd mortgage when the existing first should stay, the need is defined, usable equity and cash flow support the extra debt, and there is a dated exit.
 
-This page owns the ranking and structure comparison. For equity-release strategy, read [second mortgage loans for business equity access](/resources/guides/second-mortgage-loan-equity-access-strategies). For lender-to-lender documents, read [priority agreements](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean).
+This page owns the ranking and structure comparison. For equity-release strategy, read [second mortgage loans for business equity access](/resources/guides/second-mortgage-loan-equity-access-strategies). For lender-to-lender documents, read [priority agreements](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean). For a live deal, see our [business first and second mortgage options](/services/first-second-mortgages).
 
 Emet Capital is a finance broker, not a lender. An enquiry starts a discussion about options; it is not an approval or a commitment to lend.
 

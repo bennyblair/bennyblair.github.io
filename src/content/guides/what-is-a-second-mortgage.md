@@ -31,7 +31,7 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-A second mortgage is a loan secured by real property where the new lender takes security behind an existing first mortgage. In business lending, that structure can let a borrower use remaining equity without replacing the first loan, if the first-lender position, the property, the commercial purpose and the exit are acceptable.
+A second mortgage is a loan secured by real property where the new lender takes security behind an existing first mortgage. In business lending, that structure can let a borrower use remaining equity without replacing the first loan, if the first-lender position, the property, the commercial purpose and the exit are acceptable. Emet Capital is a broker that helps business borrowers compare [second mortgage loans](/services/first-second-mortgages); it is not the lender.
 
 How it works: the existing first mortgage stays; first-mortgagee consent or a priority arrangement may be needed; a later-ranking mortgage is then registered; and on a sale or enforcement the first lender is generally paid first. The second lender looks to the equity left after the first loan, costs and any prior claims.
 

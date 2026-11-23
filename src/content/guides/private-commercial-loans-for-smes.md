@@ -19,7 +19,7 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
 
-Private commercial loans for SMEs are business-purpose facilities provided by private, specialist, or non-bank lenders when a standard bank loan is too slow, too rigid, or not matched to the transaction. In Australia, SME borrowers usually consider private commercial loans when they need funding against property, business assets, receivables, or a clear commercial event, and when the loan has a defined repayment pathway.
+Private commercial loans for SMEs are business-purpose facilities provided by private, specialist, or [non-bank lenders](/services/private-lending) when a standard bank loan is too slow, too rigid, or not matched to the transaction. In Australia, SME borrowers usually consider private commercial loans when they need funding against property, business assets, receivables, or a clear commercial event, and when the loan has a defined repayment pathway.
 
 A private commercial loan is not a shortcut around a weak business case. The strongest files have a clear purpose, usable security, realistic timing, and an exit plan. Emet Capital helps business owners compare [private lending](/resources/guides/what-is-private-lending-australia), [working capital loans](/resources/guides/working-capital-loans-for-smes), [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), and [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) before approaching lenders.
 
