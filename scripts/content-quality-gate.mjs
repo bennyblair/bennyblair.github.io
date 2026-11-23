@@ -89,7 +89,7 @@ function changedContentFiles() {
         if (
           isInternalLinkOnlyChange(previous, current)
           || isRetiredProductCopyChange(previous, current)
-          || isContextualInternalInlinkChange(previous, current)
+          || isContextualInternalInlinkChange(previous, current, relative)
         ) {
           linkOnlyChanges += 1;
         }

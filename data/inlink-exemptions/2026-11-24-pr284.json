@@ -1,0 +1,109 @@
+{
+  "id": "2026-11-24-pr284",
+  "entries": [
+    {
+      "id": "C1",
+      "file": "src/content/guides/gst-loan-for-commercial-property-settlement-in-australia.md",
+      "before": "A GST loan for commercial property settlement is a short-term commercial funding solution used when GST creates a cash gap at settlement and the borrower needs extra capital to complete the purchase on time.",
+      "after": "A GST loan for commercial property settlement is a short-term commercial funding solution used when GST creates a cash gap at settlement and the borrower needs extra capital to complete the purchase on time. If the main purchase loan is still being arranged, see how Emet Capital approaches [commercial property finance](/services/commercial-property-finance) as a broker.",
+      "beforeSha256": "184897cfaaeed6a7faf3bec88f44460d99ee9c97a7e761b1b3ee21b37127a67c",
+      "afterSha256": "2ab835c38fff3907ccec96d1660bd29c6bd45fa6a8be4d0ddd855b3745357da7"
+    },
+    {
+      "id": "C2",
+      "file": "src/content/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia.md",
+      "before": "A commercial property loan declined by a bank does not always mean the transaction is unworkable. It usually means the deal did not fit that bank's policy, servicing model, valuation view, asset appetite, lease requirements, or timing. Non-bank lenders and private credit providers may assess the same commercial property differently, but the file still needs a clear purpose, security position, repayment pathway, and risk story.",
+      "after": "A commercial property loan declined by a bank does not always mean the transaction is unworkable. It usually means the deal did not fit that bank's policy, servicing model, valuation view, asset appetite, lease requirements, or timing. Non-bank lenders and private credit providers may assess the same commercial property differently, but the file still needs a clear purpose, security position, repayment pathway, and risk story. Emet Capital is a broker, not a lender, and our [commercial property loan options](/services/commercial-property-finance) page explains how we compare bank and non-bank pathways.",
+      "beforeSha256": "be131f2fef3f7f9a5265e0d61bf9f6e34f858380460c269415f496679545b23d",
+      "afterSha256": "12dee63a1f7df89f58f178a7ddc86bae742e458b9884b3f417344de4bb14cf48"
+    },
+    {
+      "id": "C3",
+      "file": "src/content/guides/office-property-loans-financing-commercial-workspace.md",
+      "before": "Office property loans operate differently from other commercial property finance, reflecting the unique risk profile of workspace assets. Lenders assess these properties based on tenancy stability, location desirability, and the broader office market outlook in your target area.",
+      "after": "Office property loans operate differently from other [commercial property finance](/services/commercial-property-finance), reflecting the unique risk profile of workspace assets. Lenders assess these properties based on tenancy stability, location desirability, and the broader office market outlook in your target area.",
+      "beforeSha256": "3be6ca5f836e6f6f190fcb6d5199d3bc976426dc814ca07d76a34dbd22f17f4e",
+      "afterSha256": "470b6c4a11c99a93b07fb5ac0ab0eb0f1d6f6207c3fcd5b8dd882d9b081ddfb8"
+    },
+    {
+      "id": "C4",
+      "file": "src/content/guides/commercial-property-lvr-explained-maximise-your-borrowing.md",
+      "before": "Commercial property LVR is the loan-to-value ratio a lender uses to compare proposed debt against the commercial property value it accepts for finance. In simple terms, it shows how much of the property value is being funded by debt and how much equity buffer remains in the deal.",
+      "after": "Commercial property LVR is the loan-to-value ratio a lender uses to compare proposed debt against the commercial property value it accepts for finance. In simple terms, it shows how much of the property value is being funded by debt and how much equity buffer remains in the deal. To see where LVR fits in a full application, read about [commercial property loans arranged through a broker](/services/commercial-property-finance).",
+      "beforeSha256": "15c36e261b92f9b79f6a4441ea077f22aa1f122d2ca0a9ac948426786ce112b4",
+      "afterSha256": "46102827cdf501ebc8227dc32a14271981ae80e19bfe1b0246407d40436c2bea"
+    },
+    {
+      "id": "C7",
+      "file": "src/content/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide.md",
+      "before": "It is about finding someone who understands your transaction, knows which lenders actually suit it, and can keep the file moving when valuation, legal, or timing pressure starts biting.",
+      "after": "It is about finding someone who understands your transaction, knows which lenders actually suit it, and can keep the file moving when valuation, legal, or timing pressure starts biting. For how Emet Capital works as a broker on these files, see our [commercial mortgage broker page](/services/commercial-property-finance).",
+      "beforeSha256": "00198f584b04deafdd21f6f4476e66fddb4425f956da18f3cd7ed93a3792c772",
+      "afterSha256": "c062998188e9b44ed1eaf0f28870e9d4b97f9ed8235c3c525c44114e5eab9c34"
+    },
+    {
+      "id": "C8",
+      "file": "src/content/guides/commercial-property-finance-sydney-local-expert-hub.md",
+      "before": "When a borrower is trying to secure a warehouse in the Inner West, refinance a mixed-use asset in Parramatta, or move quickly on an industrial opportunity in Western Sydney, the funding structure matters almost as much as the asset itself. Commercial property finance in Sydney is shaped by high values, tight timeframes, diverse asset classes, and lender scrutiny around serviceability, leverage, and exit.",
+      "after": "When a borrower is trying to secure a warehouse in the Inner West, refinance a mixed-use asset in Parramatta, or move quickly on an industrial opportunity in Western Sydney, the funding structure matters almost as much as the asset itself. [Commercial property finance](/services/commercial-property-finance) in Sydney is shaped by high values, tight timeframes, diverse asset classes, and lender scrutiny around serviceability, leverage, and exit.",
+      "beforeSha256": "ab6595fa9e669e78fa29546cc5257c3e969393332bd953d0b0e0f68d4de61d27",
+      "afterSha256": "bc9ec4c87a905f23fd1b6b775b66481bc124f54bd6341d1df30315c95b3f67d2"
+    },
+    {
+      "id": "B1",
+      "file": "src/content/guides/bridge-lending-australia-commercial-property.md",
+      "before": "Bridge lending in Australia for commercial property is short-term, business-purpose finance used to bridge a timing gap between one property or funding event and another. In plain terms, it can help a business borrower settle, refinance, complete a sale, or protect a transaction while a longer-term funding source is being finalised.",
+      "after": "Bridge lending in Australia for commercial property is short-term, business-purpose finance used to bridge a timing gap between one property or funding event and another. In plain terms, it can help a business borrower settle, refinance, complete a sale, or protect a transaction while a longer-term funding source is being finalised. Emet Capital arranges [commercial bridging loans](/services/bridging-finance) as a broker, not as the lender.",
+      "beforeSha256": "17591e6cfc8193afb00deebec6957d6de34db36294a389dbee1a578b0d11f4ad",
+      "afterSha256": "31742656039d1eee1a770da945e683ce5275e72cdea670efe4f9d29a671cdfa6"
+    },
+    {
+      "id": "B2",
+      "file": "src/content/guides/what-is-bridging-finance.md",
+      "before": "Bridging finance is short-term funding used to cover a timing gap between a purchase, refinance, sale, settlement, or other confirmed funding event. In Australia, business owners, property investors, and developers commonly use bridging finance when they need to complete a commercial property transaction before longer-term funds are available.",
+      "after": "Bridging finance is short-term funding used to cover a timing gap between a purchase, refinance, sale, settlement, or other confirmed funding event. In Australia, business owners, property investors, and developers commonly use bridging finance when they need to complete a commercial property transaction before longer-term funds are available. If you have a live timing gap, our [bridging finance service](/services/bridging-finance) explains what lenders will ask for.",
+      "beforeSha256": "db1e1e8aff09f6b07f4ee87f0d41744cb4002e85829f45e0b2e9303c73ed58e9",
+      "afterSha256": "4b82b845de16339173d2b932ed8d6597cbe219eece3b460dde0b006c6f2b1028"
+    },
+    {
+      "id": "B3",
+      "file": "src/content/guides/open-vs-closed-bridging-loan-complete-comparison.md",
+      "before": "An open bridging loan is a short-term commercial facility where the exit date is expected but not fully locked in at settlement. A closed bridging loan is a short-term commercial facility where the repayment event is already defined, documented, and usually tied to a contracted sale or a refinance with a known completion path. That is the cleanest way to separate the two.",
+      "after": "An open bridging loan is a short-term commercial facility where the exit date is expected but not fully locked in at settlement. A closed bridging loan is a short-term commercial facility where the repayment event is already defined, documented, and usually tied to a contracted sale or a refinance with a known completion path. That is the cleanest way to separate the two. Either structure can be discussed through our [short-term bridging finance](/services/bridging-finance) page.",
+      "beforeSha256": "90d0e7d4d89285037f274d4b789b195b7ecfa18233b73fe0d582de7ef7f80463",
+      "afterSha256": "43a70921cf20e3146bdecba27f90615cbc699a995bfa3cb08d839399acdca8e0"
+    },
+    {
+      "id": "B4",
+      "file": "src/content/guides/how-to-choose-a-bridging-loan-broker-expert-selection-guide.md",
+      "before": "Choosing a **bridging loan broker** is not just about finding someone who says they can move quickly. In short-term commercial finance, speed matters, but structure matters just as much. A broker who understands lender appetite, security quality, documentation gaps, valuation timing, and exit strategy can save you a lot of friction when the transaction is under pressure.",
+      "after": "Choosing a **bridging loan broker** is not just about finding someone who says they can move quickly. In short-term commercial finance, speed matters, but structure matters just as much. A broker who understands lender appetite, security quality, documentation gaps, valuation timing, and exit strategy can save you a lot of friction when the transaction is under pressure. If you want to see how we work, start with our [bridging loan broker service](/services/bridging-finance).",
+      "beforeSha256": "a7b4f52c2c45806761fc7940527ddcc57e18237816c2d107648b6203b071035c",
+      "afterSha256": "89f32bc4c27733c9e351573f3389c2d1f7c9f576459627666f4dc56ea19635b2"
+    },
+    {
+      "id": "B5",
+      "file": "src/content/guides/business-lenders-australia-urgent-settlement.md",
+      "before": "This guide is for Australian business borrowers who have a genuine settlement deadline and need to understand what fast commercial lenders are likely to assess. It is relevant if you are trying to settle a business or commercial property transaction, protect a supplier arrangement, bridge a refinance delay, or fund a short-term commercial gap.",
+      "after": "This guide is for Australian business borrowers who have a genuine settlement deadline and need to understand what fast commercial lenders are likely to assess. It is relevant if you are trying to settle a business or commercial property transaction, protect a supplier arrangement, bridge a refinance delay, or fund a short-term commercial gap. Where the gap is secured by property and the exit is a sale or refinance, [bridging finance](/services/bridging-finance) may be the structure to assess first.",
+      "beforeSha256": "0a6932a322520170972e047ec634b9aa8cd6f0c44e6beb0290334de3d18b3c3c",
+      "afterSha256": "5bcdba9eb931f1b0ec8141f8aeb3643b16ef1a29879337f62a2607a2eac7d99f"
+    },
+    {
+      "id": "B6",
+      "file": "src/content/guides/commercial-property-settlement-process-finance-timeline.md",
+      "before": "This page owns settlement coordination. For loan eligibility, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For the broader acquisition process, use [how to buy commercial property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide).",
+      "after": "This page owns settlement coordination. For loan eligibility, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For the broader acquisition process, use [how to buy commercial property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide). If settlement funds will arrive late, see [bridging finance for settlement timing gaps](/services/bridging-finance).",
+      "beforeSha256": "3f759446ad8e75116dd17448181597fc5085aa2f49d1c1b85f7a7fae19e4ed7d",
+      "afterSha256": "3fd5f93f39bd83e308bdc079e4943112ced568d4a63a5ab8d08cb81973e67b93"
+    },
+    {
+      "id": "B7",
+      "file": "src/content/guides/commercial-bridging-loans-for-property-auctions-expert-guide.md",
+      "before": "Commercial bridging loans for property auctions are short-term commercial facilities used when an investor, developer, or business owner needs to settle an auction purchase before longer-term finance, a property sale, or another exit event is complete. The facility bridges a timing gap. It does not remove the need for due diligence, security, valuation, legal review, or a credible repayment plan.",
+      "after": "Commercial bridging loans for property auctions are short-term commercial facilities used when an investor, developer, or business owner needs to settle an auction purchase before longer-term finance, a property sale, or another exit event is complete. Our [bridging loans page](/services/bridging-finance) explains how we prepare an auction file for lenders. The facility bridges a timing gap. It does not remove the need for due diligence, security, valuation, legal review, or a credible repayment plan.",
+      "beforeSha256": "dfa9c99e6f7db98db44cb405f23159db80f3c202e6ceac75af84b5dbdc1ab1ab",
+      "afterSha256": "65cf449534bde6d9d50e18acf78c39b9c06d6db46bf5942c587b63c224033088"
+    }
+  ]
+}

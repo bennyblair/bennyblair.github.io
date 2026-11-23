@@ -1,3 +1,8 @@
+import fs from "node:fs";
+import path from "node:path";
+import { createHash } from "node:crypto";
+import { fileURLToPath } from "node:url";
+
 const internalRoute = String.raw`(?:https?:\/\/(?:www\.)?emetcapital\.com\.au)?\/(?:resources\/(?:guides|case-studies|insights)|services)\/[a-z0-9][a-z0-9\-/]*(?:[?#][^\s<>'"\)\]]*)?`;
 
 const markdownDestination = new RegExp(String.raw`(\]\(\s*)${internalRoute}(\s*(?:["'][^"']*["'])?\))`, "gi");
@@ -20,19 +25,12 @@ export function isInternalLinkOnlyChange(before, after) {
   return normalizeInternalLinkDestinations(before) === normalizeInternalLinkDestinations(after);
 }
 
-const ALLOWED_SERVICE_PATHS = Object.freeze([
-  "/services/commercial-property-finance",
-  "/services/bridging-finance",
-  "/services/private-lending",
-  "/services/first-second-mortgages",
-]);
-const ALLOWED_SERVICE_PATH_SET = new Set(ALLOWED_SERVICE_PATHS);
-const ALLOWED_SERVICE_PATH_PATTERN = ALLOWED_SERVICE_PATHS.map((path) => path.replaceAll("/", "\\/")).join("|");
-const WRAP_CLOSE = new RegExp(`^\\]\\((?:${ALLOWED_SERVICE_PATH_PATTERN})\\)$`);
-const FORBIDDEN_DASH = /[\u2014\u2013]|--/;
-const INLINK_CLAIM_DENYLIST =
-  /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b|\bwe are the lender\b|\bis the lender\b|\bACL\b|\bcredit\s+licen[cs]es?\b|\blicen[cs]es?\b|\b(?:FBAA|MFAA|CAFBA)\b|\$[^\n]{0,80}\b(?:billion|million)\b[^\n]{0,80}\b(?:settled|funded|facilitated)\b|caveat/i;
-const MAX_INLINK_INSERTION_CHARS = 280;
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const inlinkExemptionsDir = path.join(repoRoot, "data", "inlink-exemptions");
+
+export function sha256Utf8(value) {
+  return createHash("sha256").update(String(value), "utf8").digest("hex");
+}
 
 function splitFrontmatter(source) {
   const normalised = source.replace(/\r\n?/g, "\n");
@@ -41,149 +39,110 @@ function splitFrontmatter(source) {
   return { frontmatter: match[0], body: normalised.slice(match[0].length) };
 }
 
-function markdownLinkPattern() {
-  return /\[([^\]]+)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+function normalizeExemptionFile(filePath) {
+  return String(filePath || "").replaceAll("\\", "/");
 }
 
-function markdownLinks(text) {
-  return [...text.matchAll(markdownLinkPattern())].map((match) => ({
-    anchor: match[1],
-    url: match[2],
-  }));
-}
-
-function internalLinkCounts(body) {
-  const counts = new Map();
-  for (const match of body.matchAll(/\[[^\]]+\]\((\/[^)\s#]+)(?:#[^)\s]*)?\)/g)) {
-    counts.set(match[1], (counts.get(match[1]) || 0) + 1);
+function assertExemptionEntry(entry, sourceName, index) {
+  const prefix = `${sourceName}[${index}]`;
+  if (!entry || typeof entry !== "object" || Array.isArray(entry)) {
+    throw new Error(`${prefix} must be an object`);
   }
-  return counts;
-}
-
-function editIncreasesAnyUrlPastTwo(beforeBody, afterBody) {
-  const beforeCounts = internalLinkCounts(beforeBody);
-  const afterCounts = internalLinkCounts(afterBody);
-  for (const [url, afterCount] of afterCounts) {
-    if (afterCount <= 2) continue;
-    if (afterCount > (beforeCounts.get(url) || 0)) return true;
-  }
-  return false;
-}
-
-function containsForbiddenInlinkCopy(value) {
-  return FORBIDDEN_DASH.test(value) || INLINK_CLAIM_DENYLIST.test(value);
-}
-
-function insertedSegments(before, after) {
-  let beforeIndex = 0;
-  let afterIndex = 0;
-  const inserts = [];
-  let current = "";
-  while (beforeIndex < before.length && afterIndex < after.length) {
-    if (before[beforeIndex] === after[afterIndex]) {
-      if (current) {
-        inserts.push(current);
-        current = "";
-      }
-      beforeIndex += 1;
-      afterIndex += 1;
-    } else {
-      current += after[afterIndex];
-      afterIndex += 1;
+  for (const key of ["id", "file", "beforeSha256", "afterSha256"]) {
+    if (typeof entry[key] !== "string" || !entry[key].trim()) {
+      throw new Error(`${prefix} is missing a valid ${key}`);
     }
   }
-  if (beforeIndex !== before.length) return null;
-  if (current || afterIndex < after.length) inserts.push(current + after.slice(afterIndex));
-  return inserts;
-}
-
-function isAnchorOnlyServiceChange(before, after) {
-  const beforeLinks = markdownLinks(before);
-  const afterLinks = markdownLinks(after);
-  if (!beforeLinks.length || beforeLinks.length !== afterLinks.length) return false;
-  if (beforeLinks.some((link, index) => link.url !== afterLinks[index].url)) return false;
-  if (afterLinks.some((link) => !ALLOWED_SERVICE_PATH_SET.has(link.url))) return false;
-  const placeholder = (source) => source.replace(/\[[^\]]+\]\((\/[^)\s]+)(?:\s+"[^"]*")?\)/g, "[<anchor>]($1)");
-  if (placeholder(before) !== placeholder(after)) return false;
-  return afterLinks.every((link, index) => {
-    if (link.anchor === beforeLinks[index].anchor) return true;
-    return !containsForbiddenInlinkCopy(link.anchor);
-  });
-}
-
-function isAllowedInlinkInsertion(segment) {
-  if (segment === "[") return true;
-  if (WRAP_CLOSE.test(segment)) return true;
-  if (segment.length > MAX_INLINK_INSERTION_CHARS) return false;
-  if (/<a\b/i.test(segment)) return false;
-  if (/https?:\/\//i.test(segment)) return false;
-  if (containsForbiddenInlinkCopy(segment)) return false;
-  const hrefs = [...segment.matchAll(/\[[^\]]+\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)].map((match) => match[1]);
-  if (!hrefs.length) return false;
-  return hrefs.every((href) => ALLOWED_SERVICE_PATH_SET.has(href));
-}
-
-function isAllowedInlinkLineEdit(before, after) {
-  if (before === after) return true;
-  if (/^\s*#/.test(after) && !/^\s*#/.test(before)) return false;
-  if ((after.match(/<a\b/gi) || []).length > (before.match(/<a\b/gi) || []).length) return false;
-
-  const beforeLinks = markdownLinks(before);
-  const afterLinks = markdownLinks(after);
-  const remainingUrls = new Map();
-  for (const link of beforeLinks) remainingUrls.set(link.url, (remainingUrls.get(link.url) || 0) + 1);
-  for (const link of afterLinks) {
-    const count = remainingUrls.get(link.url) || 0;
-    if (count) remainingUrls.set(link.url, count - 1);
-    else if (!ALLOWED_SERVICE_PATH_SET.has(link.url)) return false;
+  if (typeof entry.before !== "string" || typeof entry.after !== "string") {
+    throw new Error(`${prefix} before and after must be strings`);
   }
+  if (entry.before === entry.after) {
+    throw new Error(`${prefix} before and after lines must differ`);
+  }
+  const file = normalizeExemptionFile(entry.file);
+  if (!file || file.startsWith("/") || file.includes("..") || file.includes("\n")) {
+    throw new Error(`${prefix} file must be a relative repository path`);
+  }
+  if (!/^[a-f0-9]{64}$/.test(entry.beforeSha256) || !/^[a-f0-9]{64}$/.test(entry.afterSha256)) {
+    throw new Error(`${prefix} sha256 fields must be 64-character hex`);
+  }
+  if (entry.beforeSha256 !== sha256Utf8(entry.before) || entry.afterSha256 !== sha256Utf8(entry.after)) {
+    throw new Error(`${prefix} sha256 does not match the stored line text`);
+  }
+}
 
-  const beforeExact = new Set(beforeLinks.map((link) => `${link.anchor}\0${link.url}`));
-  const hasNewAllowedServiceLink = afterLinks.some(
-    (link) => ALLOWED_SERVICE_PATH_SET.has(link.url) && !beforeExact.has(`${link.anchor}\0${link.url}`),
+export function loadInlinkExemptionEntries(directory = inlinkExemptionsDir) {
+  if (!fs.existsSync(directory)) return [];
+  const names = fs.readdirSync(directory).filter((name) => name.endsWith(".json")).sort();
+  const entries = [];
+  const filesSeen = new Map();
+  for (const name of names) {
+    const fullPath = path.join(directory, name);
+    let parsed;
+    try {
+      parsed = JSON.parse(fs.readFileSync(fullPath, "utf8"));
+    } catch {
+      throw new Error(`inlink exemption ${name} is not valid JSON`);
+    }
+    if (!parsed || typeof parsed !== "object" || !Array.isArray(parsed.entries)) {
+      throw new Error(`inlink exemption ${name} must have an entries array`);
+    }
+    parsed.entries.forEach((entry, index) => {
+      assertExemptionEntry(entry, name, index);
+      const file = normalizeExemptionFile(entry.file);
+      if (filesSeen.has(file)) {
+        throw new Error(`duplicate inlink exemption file key ${file} in ${name} and ${filesSeen.get(file)}`);
+      }
+      filesSeen.set(file, name);
+      entries.push({
+        id: entry.id,
+        file,
+        before: entry.before,
+        after: entry.after,
+        beforeSha256: entry.beforeSha256,
+        afterSha256: entry.afterSha256,
+        source: name,
+      });
+    });
+  }
+  return entries;
+}
+
+const inlinkExemptions = loadInlinkExemptionEntries();
+
+function matchesExemptionEntry(entry, file, beforeLine, afterLine) {
+  return (
+    entry.file === file
+    && entry.before === beforeLine
+    && entry.after === afterLine
+    && entry.beforeSha256 === sha256Utf8(beforeLine)
+    && entry.afterSha256 === sha256Utf8(afterLine)
   );
-  if (!hasNewAllowedServiceLink) return false;
-  if (
-    afterLinks.some(
-      (link) => !beforeExact.has(`${link.anchor}\0${link.url}`) && containsForbiddenInlinkCopy(link.anchor),
-    )
-  ) {
-    return false;
-  }
-
-  const insertions = insertedSegments(before, after);
-  if (insertions) return insertions.every(isAllowedInlinkInsertion);
-  return isAnchorOnlyServiceChange(before, after);
 }
 
-// Single-line contextual inlink on an existing guide. Frontmatter bytes and
-// body line count must not change, and only one body line may change. That
-// line may wrap existing words in one of
-// /services/commercial-property-finance, /services/bridging-finance,
-// /services/private-lending, or /services/first-second-mortgages (no trailing
-// slash, city path, query, or HTML <a>), append one short sentence that
-// contains such a markdown link, or change the anchor of an existing
-// allowlisted service link. Headings, caveat copy, high-risk or lender-role
-// claims, licence or membership claims, loan-volume claims, em dashes, and
-// any added non-allowlisted link are rejected, including in new anchor text.
-// An edit that increases any internal URL above two occurrences is not exempt.
-export function isContextualInternalInlinkChange(before, after) {
+// Exact-match exemption only. Frontmatter bytes must be identical, exactly one
+// body line may change, and (file path, before-line, after-line) must equal a
+// committed entry in data/inlink-exemptions/*.json, compared by full text and
+// SHA-256 of both lines. There is no denylist, service-path allowlist, or
+// regex heuristic. Anything else is material.
+export function isContextualInternalInlinkChange(before, after, filePath) {
   if (before === after) return false;
+  const file = normalizeExemptionFile(filePath);
+  if (!file) return false;
   const previous = splitFrontmatter(before);
   const next = splitFrontmatter(after);
   if (previous.frontmatter !== next.frontmatter) return false;
   const beforeLines = previous.body.split("\n");
   const afterLines = next.body.split("\n");
   if (beforeLines.length !== afterLines.length) return false;
-  if (editIncreasesAnyUrlPastTwo(previous.body, next.body)) return false;
-  let changedLines = 0;
+  const changed = [];
   for (let index = 0; index < beforeLines.length; index += 1) {
     if (beforeLines[index] === afterLines[index]) continue;
-    if (!isAllowedInlinkLineEdit(beforeLines[index], afterLines[index])) return false;
-    changedLines += 1;
-    if (changedLines > 1) return false;
+    changed.push({ before: beforeLines[index], after: afterLines[index] });
+    if (changed.length > 1) return false;
   }
-  return changedLines === 1;
+  if (changed.length !== 1) return false;
+  return inlinkExemptions.some((entry) => matchesExemptionEntry(entry, file, changed[0].before, changed[0].after));
 }
 
 export const isContextualInternalLinkChange = isContextualInternalInlinkChange;
