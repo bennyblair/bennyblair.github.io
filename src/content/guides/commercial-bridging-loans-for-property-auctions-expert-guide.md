@@ -32,7 +32,7 @@ protectedUntil: "2026-10-19T00:00:00+11:00"
 
 > **Direct answer:** Auction bridging finance may fit when a commercial buyer must settle an unconditional purchase before a documented sale or refinance completes. The pre-bid decision should be based on written lender fit, verified funds to complete, property and borrower evidence, legal review and a credible exit—not an assumption that approval or settlement will be available after the hammer falls.
 
-Commercial bridging loans for property auctions are short-term commercial facilities used when an investor, developer, or business owner needs to settle an auction purchase before longer-term finance, a property sale, or another exit event is complete. The facility bridges a timing gap. It does not remove the need for due diligence, security, valuation, legal review, or a credible repayment plan.
+Commercial bridging loans for property auctions are short-term commercial facilities used when an investor, developer, or business owner needs to settle an auction purchase before longer-term finance, a property sale, or another exit event is complete. Our [bridging loans page](/services/bridging-finance) explains how we prepare an auction file for lenders. The facility bridges a timing gap. It does not remove the need for due diligence, security, valuation, legal review, or a credible repayment plan.
 
 The key risk with auctions is that the contract is usually unconditional once the hammer falls. Settlement may be due on a fixed date while a bank valuation, refinance, lease review, or asset sale is still in progress. Bridging finance may help when the transaction is commercial, the borrower has usable security, and the exit is clear enough for a lender to assess.
 

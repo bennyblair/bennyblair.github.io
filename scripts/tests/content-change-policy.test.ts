@@ -1,10 +1,18 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
 import test from "node:test";
+import { fileURLToPath } from "node:url";
 import {
   applyRetiredCaveatProductCopy,
+  isContextualInternalInlinkChange,
+  isContextualInternalLinkChange,
   isInternalLinkOnlyChange,
   isRetiredProductCopyChange,
+  loadInlinkExemptionEntries,
   normalizeInternalLinkDestinations,
+  sha256Utf8,
 } from "../lib/content-change-policy.mjs";
 
 test("normalizes supported internal markdown, HTML and reference-link destinations", () => {
@@ -47,6 +55,155 @@ test("does not exempt a route migration when substantive copy also changes", () 
   const after = "Always compare [refinancing](/services/refinancing-solutions) before applying.";
 
   assert.equal(isInternalLinkOnlyChange(before, after), false);
+});
+
+function guideSource(body, extraFrontmatter = []) {
+  return ["---", 'title: "Guide"', ...extraFrontmatter, "---", body].join("\n");
+}
+
+function sampleExemption() {
+  const entry = loadInlinkExemptionEntries().find((item) => item.id === "C3");
+  assert.ok(entry, "C3 must exist in the committed inlink exemption manifest");
+  return entry;
+}
+
+test("a manifest entry matches", () => {
+  const entry = sampleExemption();
+  const before = guideSource(entry.before);
+  const after = guideSource(entry.after);
+
+  assert.equal(isInternalLinkOnlyChange(before, after), false);
+  assert.equal(isContextualInternalInlinkChange(before, after, entry.file), true);
+  assert.equal(isContextualInternalLinkChange(before, after, entry.file), true);
+});
+
+test("one changed character in after-line is rejected", () => {
+  const entry = sampleExemption();
+  const before = guideSource(entry.before);
+  const after = guideSource(`${entry.after}x`);
+
+  assert.equal(isContextualInternalInlinkChange(before, after, entry.file), false);
+});
+
+test("the right after-line on the wrong file is rejected", () => {
+  const entry = sampleExemption();
+  const before = guideSource(entry.before);
+  const after = guideSource(entry.after);
+
+  assert.equal(
+    isContextualInternalInlinkChange(
+      before,
+      after,
+      "src/content/guides/gst-loan-for-commercial-property-settlement-in-australia.md",
+    ),
+    false,
+  );
+});
+
+test("an extra changed line is rejected", () => {
+  const entry = sampleExemption();
+  const before = guideSource(`${entry.before}\nUnchanged second sentence.`);
+  const after = guideSource(`${entry.after}\nChanged second sentence.`);
+
+  assert.equal(isContextualInternalInlinkChange(before, after, entry.file), false);
+});
+
+test("a frontmatter change is rejected", () => {
+  const entry = sampleExemption();
+  const before = guideSource(entry.before, ['expiresAt: "2026-11-05"']);
+  const after = guideSource(entry.after, ['expiresAt: "2027-02-03"']);
+
+  assert.equal(isContextualInternalInlinkChange(before, after, entry.file), false);
+});
+
+test("a hidden-span variant of the same line is rejected", () => {
+  const entry = sampleExemption();
+  const before = guideSource(entry.before);
+  const after = guideSource(entry.after.replace("](", "<span hidden>x</span>]("));
+
+  assert.equal(isContextualInternalInlinkChange(before, after, entry.file), false);
+});
+
+test("a titled link variant of the same line is rejected", () => {
+  const entry = sampleExemption();
+  const before = guideSource(entry.before);
+  const after = guideSource(
+    entry.after.replace("](/services/commercial-property-finance)", '](/services/commercial-property-finance "Commercial property finance")'),
+  );
+
+  assert.equal(isContextualInternalInlinkChange(before, after, entry.file), false);
+});
+
+test("an image variant of the same line is rejected", () => {
+  const entry = sampleExemption();
+  const before = guideSource(entry.before);
+  const after = guideSource(entry.after.replace("[commercial property finance]", "![commercial property finance]"));
+
+  assert.equal(isContextualInternalInlinkChange(before, after, entry.file), false);
+});
+
+test("removing the manifest lookup makes the suite fail", () => {
+  const policyPath = fileURLToPath(new URL("../lib/content-change-policy.mjs", import.meta.url));
+  const source = fs.readFileSync(policyPath, "utf8");
+  const fnStart = source.indexOf("export function isContextualInternalInlinkChange");
+  const fnEnd = source.indexOf("export const isContextualInternalLinkChange");
+  assert.ok(fnStart >= 0 && fnEnd > fnStart);
+  const fn = source.slice(fnStart, fnEnd);
+  assert.match(source, /data\/inlink-exemptions/);
+  assert.match(source, /loadInlinkExemptionEntries\(/);
+  assert.match(source, /sha256Utf8/);
+  assert.match(source, /matchesExemptionEntry/);
+  assert.match(fn, /inlinkExemptions\.some/);
+  assert.match(fn, /matchesExemptionEntry/);
+  assert.doesNotMatch(source, /INLINK_CLAIM_DENYLIST|ALLOWED_SERVICE_PATH|isAllowedInlinkLineEdit|WRAP_CLOSE/);
+  const entries = loadInlinkExemptionEntries();
+  assert.equal(entries.length, 13);
+  assert.equal(new Set(entries.map((entry) => entry.file)).size, 13);
+  for (const entry of entries) {
+    assert.equal(entry.beforeSha256, sha256Utf8(entry.before), entry.id);
+    assert.equal(entry.afterSha256, sha256Utf8(entry.after), entry.id);
+    assert.equal(
+      isContextualInternalInlinkChange(guideSource(entry.before), guideSource(entry.after), entry.file),
+      true,
+      entry.id,
+    );
+  }
+});
+
+test("malformed exemption entries and duplicate file keys fail to load", () => {
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), "inlink-exemptions-"));
+  const valid = {
+    id: "fixture",
+    entries: [
+      {
+        id: "C3",
+        file: "src/content/guides/office-property-loans-financing-commercial-workspace.md",
+        before: "before line",
+        after: "after line",
+        beforeSha256: sha256Utf8("before line"),
+        afterSha256: sha256Utf8("after line"),
+      },
+    ],
+  };
+  fs.writeFileSync(path.join(directory, "ok.json"), JSON.stringify(valid));
+  assert.equal(loadInlinkExemptionEntries(directory).length, 1);
+
+  fs.writeFileSync(path.join(directory, "bad.json"), "{not json");
+  assert.throws(() => loadInlinkExemptionEntries(directory), /not valid JSON/);
+  fs.unlinkSync(path.join(directory, "bad.json"));
+
+  fs.writeFileSync(path.join(directory, "missing.json"), JSON.stringify({ id: "x" }));
+  assert.throws(() => loadInlinkExemptionEntries(directory), /entries array/);
+  fs.unlinkSync(path.join(directory, "missing.json"));
+
+  const mismatch = structuredClone(valid);
+  mismatch.entries[0].afterSha256 = sha256Utf8("other line");
+  fs.writeFileSync(path.join(directory, "mismatch.json"), JSON.stringify(mismatch));
+  assert.throws(() => loadInlinkExemptionEntries(directory), /sha256 does not match/);
+  fs.unlinkSync(path.join(directory, "mismatch.json"));
+
+  fs.writeFileSync(path.join(directory, "dup.json"), JSON.stringify(valid));
+  assert.throws(() => loadInlinkExemptionEntries(directory), /duplicate inlink exemption file key/);
 });
 
 test("retires caveat product CTAs while keeping educational guide links", () => {

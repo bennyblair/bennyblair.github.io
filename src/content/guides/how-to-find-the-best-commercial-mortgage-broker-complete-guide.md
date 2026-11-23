@@ -32,7 +32,7 @@ sources:
 
 Finding the best commercial mortgage broker is not about finding the loudest broker or the one promising the cheapest headline deal in five minutes.
 
-It is about finding someone who understands your transaction, knows which lenders actually suit it, and can keep the file moving when valuation, legal, or timing pressure starts biting.
+It is about finding someone who understands your transaction, knows which lenders actually suit it, and can keep the file moving when valuation, legal, or timing pressure starts biting. For how Emet Capital works as a broker on these files, see our [commercial mortgage broker page](/services/commercial-property-finance).
 
 For investors, developers, and business owners, commercial property debt is rarely a simple tick-box exercise. A good broker helps with structure, lender fit, and execution. A weak broker mostly forwards documents and hopes the lender says yes.
 

@@ -47,7 +47,7 @@ Emet Capital helps Australian business owners compare urgent business lender opt
 
 ## Who This Guide Is For
 
-This guide is for Australian business borrowers who have a genuine settlement deadline and need to understand what fast commercial lenders are likely to assess. It is relevant if you are trying to settle a business or commercial property transaction, protect a supplier arrangement, bridge a refinance delay, or fund a short-term commercial gap.
+This guide is for Australian business borrowers who have a genuine settlement deadline and need to understand what fast commercial lenders are likely to assess. It is relevant if you are trying to settle a business or commercial property transaction, protect a supplier arrangement, bridge a refinance delay, or fund a short-term commercial gap. Where the gap is secured by property and the exit is a sale or refinance, [bridging finance](/services/bridging-finance) may be the structure to assess first.
 
 It is not for consumer borrowing or personal-purpose lending. Emet Capital works with eligible business borrowers, property investors, and developers. If your funding need is specifically property-backed, also compare [second mortgages for business](/resources/guides/second-mortgages-for-business-guide) and [commercial property refinancing](/services/refinancing-solutions).
 

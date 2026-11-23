@@ -1,3 +1,8 @@
+import fs from "node:fs";
+import path from "node:path";
+import { createHash } from "node:crypto";
+import { fileURLToPath } from "node:url";
+
 const internalRoute = String.raw`(?:https?:\/\/(?:www\.)?emetcapital\.com\.au)?\/(?:resources\/(?:guides|case-studies|insights)|services)\/[a-z0-9][a-z0-9\-/]*(?:[?#][^\s<>'"\)\]]*)?`;
 
 const markdownDestination = new RegExp(String.raw`(\]\(\s*)${internalRoute}(\s*(?:["'][^"']*["'])?\))`, "gi");
@@ -19,6 +24,128 @@ export function isInternalLinkOnlyChange(before, after) {
   if (before === after) return false;
   return normalizeInternalLinkDestinations(before) === normalizeInternalLinkDestinations(after);
 }
+
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const inlinkExemptionsDir = path.join(repoRoot, "data", "inlink-exemptions");
+
+export function sha256Utf8(value) {
+  return createHash("sha256").update(String(value), "utf8").digest("hex");
+}
+
+function splitFrontmatter(source) {
+  const normalised = source.replace(/\r\n?/g, "\n");
+  const match = normalised.match(/^---\n[\s\S]*?\n---\n/);
+  if (!match) return { frontmatter: "", body: normalised };
+  return { frontmatter: match[0], body: normalised.slice(match[0].length) };
+}
+
+function normalizeExemptionFile(filePath) {
+  return String(filePath || "").replaceAll("\\", "/");
+}
+
+function assertExemptionEntry(entry, sourceName, index) {
+  const prefix = `${sourceName}[${index}]`;
+  if (!entry || typeof entry !== "object" || Array.isArray(entry)) {
+    throw new Error(`${prefix} must be an object`);
+  }
+  for (const key of ["id", "file", "beforeSha256", "afterSha256"]) {
+    if (typeof entry[key] !== "string" || !entry[key].trim()) {
+      throw new Error(`${prefix} is missing a valid ${key}`);
+    }
+  }
+  if (typeof entry.before !== "string" || typeof entry.after !== "string") {
+    throw new Error(`${prefix} before and after must be strings`);
+  }
+  if (entry.before === entry.after) {
+    throw new Error(`${prefix} before and after lines must differ`);
+  }
+  const file = normalizeExemptionFile(entry.file);
+  if (!file || file.startsWith("/") || file.includes("..") || file.includes("\n")) {
+    throw new Error(`${prefix} file must be a relative repository path`);
+  }
+  if (!/^[a-f0-9]{64}$/.test(entry.beforeSha256) || !/^[a-f0-9]{64}$/.test(entry.afterSha256)) {
+    throw new Error(`${prefix} sha256 fields must be 64-character hex`);
+  }
+  if (entry.beforeSha256 !== sha256Utf8(entry.before) || entry.afterSha256 !== sha256Utf8(entry.after)) {
+    throw new Error(`${prefix} sha256 does not match the stored line text`);
+  }
+}
+
+export function loadInlinkExemptionEntries(directory = inlinkExemptionsDir) {
+  if (!fs.existsSync(directory)) return [];
+  const names = fs.readdirSync(directory).filter((name) => name.endsWith(".json")).sort();
+  const entries = [];
+  const filesSeen = new Map();
+  for (const name of names) {
+    const fullPath = path.join(directory, name);
+    let parsed;
+    try {
+      parsed = JSON.parse(fs.readFileSync(fullPath, "utf8"));
+    } catch {
+      throw new Error(`inlink exemption ${name} is not valid JSON`);
+    }
+    if (!parsed || typeof parsed !== "object" || !Array.isArray(parsed.entries)) {
+      throw new Error(`inlink exemption ${name} must have an entries array`);
+    }
+    parsed.entries.forEach((entry, index) => {
+      assertExemptionEntry(entry, name, index);
+      const file = normalizeExemptionFile(entry.file);
+      if (filesSeen.has(file)) {
+        throw new Error(`duplicate inlink exemption file key ${file} in ${name} and ${filesSeen.get(file)}`);
+      }
+      filesSeen.set(file, name);
+      entries.push({
+        id: entry.id,
+        file,
+        before: entry.before,
+        after: entry.after,
+        beforeSha256: entry.beforeSha256,
+        afterSha256: entry.afterSha256,
+        source: name,
+      });
+    });
+  }
+  return entries;
+}
+
+const inlinkExemptions = loadInlinkExemptionEntries();
+
+function matchesExemptionEntry(entry, file, beforeLine, afterLine) {
+  return (
+    entry.file === file
+    && entry.before === beforeLine
+    && entry.after === afterLine
+    && entry.beforeSha256 === sha256Utf8(beforeLine)
+    && entry.afterSha256 === sha256Utf8(afterLine)
+  );
+}
+
+// Exact-match exemption only. Frontmatter bytes must be identical, exactly one
+// body line may change, and (file path, before-line, after-line) must equal a
+// committed entry in data/inlink-exemptions/*.json, compared by full text and
+// SHA-256 of both lines. There is no denylist, service-path allowlist, or
+// regex heuristic. Anything else is material.
+export function isContextualInternalInlinkChange(before, after, filePath) {
+  if (before === after) return false;
+  const file = normalizeExemptionFile(filePath);
+  if (!file) return false;
+  const previous = splitFrontmatter(before);
+  const next = splitFrontmatter(after);
+  if (previous.frontmatter !== next.frontmatter) return false;
+  const beforeLines = previous.body.split("\n");
+  const afterLines = next.body.split("\n");
+  if (beforeLines.length !== afterLines.length) return false;
+  const changed = [];
+  for (let index = 0; index < beforeLines.length; index += 1) {
+    if (beforeLines[index] === afterLines[index]) continue;
+    changed.push({ before: beforeLines[index], after: afterLines[index] });
+    if (changed.length > 1) return false;
+  }
+  if (changed.length !== 1) return false;
+  return inlinkExemptions.some((entry) => matchesExemptionEntry(entry, file, changed[0].before, changed[0].after));
+}
+
+export const isContextualInternalLinkChange = isContextualInternalInlinkChange;
 
 // Finite, exact copy remaps used when caveat loans were retired as an Emet
 // product. Educational caveat guides may remain; these strings only stop the

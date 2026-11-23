@@ -19,7 +19,7 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 ---
 
-Commercial property LVR is the loan-to-value ratio a lender uses to compare proposed debt against the commercial property value it accepts for finance. In simple terms, it shows how much of the property value is being funded by debt and how much equity buffer remains in the deal.
+Commercial property LVR is the loan-to-value ratio a lender uses to compare proposed debt against the commercial property value it accepts for finance. In simple terms, it shows how much of the property value is being funded by debt and how much equity buffer remains in the deal. To see where LVR fits in a full application, read about [commercial property loans arranged through a broker](/services/commercial-property-finance).
 
 LVR matters because it influences loan size, lender appetite, pricing, conditions, and the amount of equity a borrower needs to contribute. But LVR is not the whole borrowing decision. A higher ratio can look attractive at settlement while making the facility harder to refinance, service, or exit later.
 

@@ -29,7 +29,7 @@ sources:
     url: "https://www.ato.gov.au/law/view/document?LocID=%22GST%2FGSTR200028%2FNAT%2Fft8B%22&PiT=20170220000001"
 ---
 
-A GST loan for commercial property settlement is a short-term commercial funding solution used when GST creates a cash gap at settlement and the borrower needs extra capital to complete the purchase on time.
+A GST loan for commercial property settlement is a short-term commercial funding solution used when GST creates a cash gap at settlement and the borrower needs extra capital to complete the purchase on time. If the main purchase loan is still being arranged, see how Emet Capital approaches [commercial property finance](/services/commercial-property-finance) as a broker.
 
 That gap usually appears because commercial property transactions can involve GST on the purchase price, while the borrower’s main senior facility may only cover part of the total amount needed on settlement day. In practice, the borrower may have the deposit, the core loan, and an otherwise workable deal, but still be short once GST, stamp duty, fees, and adjustments are added together.
 

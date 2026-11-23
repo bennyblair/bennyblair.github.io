@@ -37,7 +37,7 @@ sources:
 
 > **Direct answer:** Choose a bridging-loan broker by verifying the legal business and relevant registrations, then testing whether the broker can explain lender selection, all remuneration, valuation and legal dependencies, funds to complete, the primary exit and a delayed-exit fallback. Speed claims without a documented critical path are not evidence of settlement capability.
 
-Choosing a **bridging loan broker** is not just about finding someone who says they can move quickly. In short-term commercial finance, speed matters, but structure matters just as much. A broker who understands lender appetite, security quality, documentation gaps, valuation timing, and exit strategy can save you a lot of friction when the transaction is under pressure.
+Choosing a **bridging loan broker** is not just about finding someone who says they can move quickly. In short-term commercial finance, speed matters, but structure matters just as much. A broker who understands lender appetite, security quality, documentation gaps, valuation timing, and exit strategy can save you a lot of friction when the transaction is under pressure. If you want to see how we work, start with our [bridging loan broker service](/services/bridging-finance).
 
 That matters because bridging finance usually shows up when something important cannot wait. You may be buying before selling. You may be trying to settle before a refinance completes. You may have an expiring facility, a project transition, or a business-backed property transaction that needs a short-term solution while the long-term one catches up.
 
