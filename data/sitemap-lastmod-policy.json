@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "description": "Commits that must not change sitemap lastmod (mechanical, sitewide or link-only edits).",
+  "ignoreCommits": [
+    { "sha": "4e8aeb906b2601ed5e7c375220ec2114031a4a59", "reason": "broker identity wording sweep (#275)" },
+    { "sha": "eefbdbf522d4be6939f6dbd4736fc6624a642d5e", "reason": "caveat product retirement sweep (#267)" },
+    { "sha": "b1b0913131477ed90291de69516ac61ffb8a9d8f", "reason": "inner page navigation and service-template simplification" },
+    { "sha": "3e996f9fe0f9a5b17c733ec10356598152884794", "reason": "LLM-ready heading label wording sweep (20 guides)" },
+    { "sha": "4d5c43fd3bbc92a9db2595dc8b734e95fafd8b42", "reason": "LLM-ready heading label wording sweep (20 additional guides)" },
+    { "sha": "65ca29ab2cef5ab5426cda5cff7da06b696dc058", "reason": "LLM-ready heading label wording sweep (12 additional guides)" },
+    { "sha": "9d344839ce9bc15dee27d27d77ffdf06b28487e7", "reason": "architectural design-review template sweep" },
+    { "sha": "f7e4b1e0728644766628c6bb254768a74c4ad94c", "reason": "secondary-guide discovery link sweep (#165)" },
+    { "sha": "7b4020ac628be25ce7d0b0456733c496759310af", "reason": "overlapping SEO page consolidation link sweep (#155)" },
+    { "sha": "e8de846b4c65b03ed870cdd0cb652970a8b8ae6c", "reason": "author entity metadata sweep (#84)" },
+    { "sha": "4aab30a593f660cd8cd24853f950219a21a778d7", "reason": "duplicate-cluster consolidation, redirects and compliance wording" },
+    { "sha": "26c79c47c00f8bee9cb9cc474dcacb12cd205d6f", "reason": "legacy internal link path repair" },
+    { "sha": "444c9f636c27647ae2b5c6f9eab1f2b8c7e2b29a", "reason": "service CTA wording and link sweep" }
+  ],
+  "trailer": "Sitemap-Lastmod",
+  "bulkFileThreshold": 25
+}
