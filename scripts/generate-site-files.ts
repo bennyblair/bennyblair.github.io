@@ -11,6 +11,11 @@ import {
 import { buildContentIndex } from "./lib/content-index.mjs";
 import { siteRevisionManifest } from "./lib/site-revision.mjs";
 import { createOpenApi } from "./lib/agent-openapi.mjs";
+import {
+  computeLastModified,
+  gitLastmodLogArgs,
+  loadSitemapLastmodPolicy,
+} from "./lib/sitemap-lastmod.mjs";
 
 const repoRoot = process.cwd();
 const distDir = path.join(repoRoot, "dist");
@@ -27,37 +32,22 @@ function xmlEscape(value: string) {
 let lastModifiedBySource: Map<string, string> | null = null;
 
 function loadLastModifiedBySource() {
-  const dates = new Map<string, string>();
+  const policy = loadSitemapLastmodPolicy(repoRoot);
 
   try {
-    const output = execFileSync(
-      "git",
-      ["log", "--format=@@DATE@@%cs", "--name-only", "--no-renames", "--", "src"],
-      {
-        cwd: repoRoot,
-        encoding: "utf8",
-        maxBuffer: 20 * 1024 * 1024,
-        stdio: ["ignore", "pipe", "ignore"],
-      },
-    );
-    let currentDate = "";
-
-    for (const rawLine of output.split(/\r?\n/)) {
-      const line = rawLine.trim();
-      if (line.startsWith("@@DATE@@")) {
-        currentDate = line.slice("@@DATE@@".length);
-        continue;
-      }
-      if (!line || !currentDate) continue;
-
-      const sourcePath = line.replaceAll("\\", "/");
-      if (!dates.has(sourcePath)) dates.set(sourcePath, currentDate);
-    }
+    const output = execFileSync("git", gitLastmodLogArgs(policy), {
+      cwd: repoRoot,
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+      stdio: ["ignore", "pipe", "ignore"],
+    });
+    return computeLastModified(output, policy);
   } catch {
-    // Individual filesystem timestamps remain available as a fallback.
+    // Individual filesystem timestamps remain available as a fallback for
+    // files with no git history. Files whose commits are all skipped still
+    // receive their oldest commit date from computeLastModified.
+    return new Map<string, string>();
   }
-
-  return dates;
 }
 
 function gitLastModified(sourcePath: string) {
