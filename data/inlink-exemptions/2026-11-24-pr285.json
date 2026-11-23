@@ -106,14 +106,6 @@
       "afterSha256": "a4ccbe3bdd40dee12f6c25323a27430dc48115b5d271bd73d1508df92c7d4d80"
     },
     {
-      "id": "F6",
-      "file": "src/content/guides/second-mortgage-loan-equity-access-strategies.md",
-      "before": "This guide covers two decisions in a business equity request: how much equity is realistically usable, and which structure suits the need. It does not walk through how to keep the existing first mortgage in place; that belongs to [second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia). For a basic product definition, read [what a second mortgage is](/resources/guides/what-is-a-second-mortgage). For a side-by-side comparison of two facilities, see [second mortgage vs line of credit](/resources/guides/second-mortgage-vs-line-of-credit).",
-      "after": "This guide covers two decisions in a business equity request: how much equity is realistically usable, and which structure suits the need. It does not walk through how to keep the existing first mortgage in place; that belongs to [second mortgage without refinancing your first mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia). To discuss usable equity on a specific property, see [second mortgage finance for business](/services/first-second-mortgages). For a basic product definition, read [what a second mortgage is](/resources/guides/what-is-a-second-mortgage). For a side-by-side comparison of two facilities, see [second mortgage vs line of credit](/resources/guides/second-mortgage-vs-line-of-credit).",
-      "beforeSha256": "e64bcdddb7a1085d5fe3258e3dd16c134b1bccb8b61730d314ba36c5cb6f3996",
-      "afterSha256": "ac3418f94d4f819b7b5bdbf393f95606c098b0a0d1b2e134eb4a908c4a26ebce"
-    },
-    {
       "id": "F7",
       "file": "src/content/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you.md",
       "before": "A caveat loan is usually a short-term speed tool, while a second mortgage is usually a more formal property-backed loan sitting behind an existing first mortgage. The right choice depends on timing, security position, exit strategy, and whether the borrower needs urgent bridging support or a more structured funding facility.",
