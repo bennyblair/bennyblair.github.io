@@ -36,7 +36,7 @@ sources:
 
 > **Direct answer:** Australian second mortgages are commonly considered by specialist non-bank lenders, private credit funds, mortgage funds and private investors rather than offered as a standard product by every bank. There is no universal “best” lender. Fit depends on business purpose, property, first-mortgage position, usable equity, repayment capacity, term, consent and exit.
 
-This is a product-specific lender-market guide, not a paid ranking or exhaustive provider list. For a broader provider-research framework, use the [private mortgage lender directory](/resources/guides/private-mortgage-lenders-australia-directory). For structure, use the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide).
+This is a product-specific lender-market guide, not a paid ranking or exhaustive provider list. For a broader provider-research framework, use the [private mortgage lender directory](/resources/guides/private-mortgage-lenders-australia-directory). For structure, use the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide). To discuss a specific deal, see [second mortgages arranged through Emet Capital](/services/first-second-mortgages).
 
 ## Second-mortgage lender categories
 

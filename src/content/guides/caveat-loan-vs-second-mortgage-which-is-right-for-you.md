@@ -15,7 +15,7 @@ author_name: "Daniel"
 
 # Caveat Loan vs Second Mortgage: Which Is Right for You?
 
-A caveat loan is usually a short-term speed tool, while a second mortgage is usually a more formal property-backed loan sitting behind an existing first mortgage. The right choice depends on timing, security position, exit strategy, and whether the borrower needs urgent bridging support or a more structured funding facility.
+A caveat loan is usually a short-term speed tool, while a [second mortgage](/services/first-second-mortgages) is usually a more formal property-backed loan sitting behind an existing first mortgage. The right choice depends on timing, security position, exit strategy, and whether the borrower needs urgent bridging support or a more structured funding facility.
 
 For Australian business owners, property investors, and developers, the comparison is not simply “which one is cheaper?” It is “which structure solves the commercial problem without creating a worse exit problem later?” Borrowers can compare the [caveat loans Australia guide](/resources/guides/caveat-loans-australia-complete-guide), [second mortgages](/resources/guides/second-mortgages-for-business-guide), [private lending](/resources/guides/what-is-private-lending-australia), and [commercial property finance](/resources/guides/commercial-property-loans-australia-complete-guide) based on the actual file, not a generic product label.
 

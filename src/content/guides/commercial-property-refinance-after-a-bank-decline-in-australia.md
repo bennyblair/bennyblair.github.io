@@ -20,7 +20,7 @@ keywords: ["commercial property refinance after bank decline", "bank declined co
 
 A bank decline on a commercial property refinance does not always mean the deal is dead. In many Australian scenarios, it means the deal did not fit that lender, that timing, or that policy window.
 
-Commercial property refinance after a bank decline usually becomes a lender-fit problem, not just a credit-score problem. A borrower may still refinance successfully through a different bank, a specialist commercial lender, or a [private lending](/resources/guides/what-is-private-lending-australia) structure if the security, leverage, and exit still make sense.
+Commercial property refinance after a bank decline usually becomes a lender-fit problem, not just a credit-score problem. A borrower may still refinance successfully through a different bank, a specialist commercial lender, or a [private lending](/resources/guides/what-is-private-lending-australia) structure if the security, leverage, and exit still make sense. Our [private lending service](/services/private-lending) explains how we approach these refinances as a broker.
 
 For business owners, investors, and developers, the practical question is not “why did the bank say no?” in isolation. It is what the decline actually means, what can be fixed, what should be restructured, and whether short-term or non-bank debt can create breathing room before a cleaner long-term refinance.
 

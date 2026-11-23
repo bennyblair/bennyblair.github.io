@@ -20,7 +20,7 @@ author_title: "Director, Emet Capital"
 author_name: "Daniel"
 ---
 
-Private credit for SME borrowers is commercial lending provided outside the major bank system, usually by private lenders, credit funds, family offices, or specialist non-bank financiers. In Australia, SME borrowers may consider private credit when a bank cannot move quickly enough, cannot fit the transaction inside standard policy, or declines the file despite a commercial repayment path.
+Private credit for SME borrowers is commercial lending provided outside the major bank system, usually by [private lenders](/services/private-lending), credit funds, family offices, or specialist non-bank financiers. In Australia, SME borrowers may consider private credit when a bank cannot move quickly enough, cannot fit the transaction inside standard policy, or declines the file despite a commercial repayment path.
 
 Private credit is not a magic approval channel. It is a different lending market with different priorities. Instead of relying only on standard bank scorecards, private credit lenders may place more weight on asset security, business purpose, deal structure, urgency, and exit strategy. Emet Capital helps business owners compare these pathways where the borrower is commercial, the funding purpose is clear, and the risks are understood.
 

@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-24-pr285",
+  "entries": [
+    {
+      "id": "P1",
+      "file": "src/content/guides/private-credit-for-sme-borrowers-in-australia-when-it-replaces-bank-finance.md",
+      "before": "Private credit for SME borrowers is commercial lending provided outside the major bank system, usually by private lenders, credit funds, family offices, or specialist non-bank financiers. In Australia, SME borrowers may consider private credit when a bank cannot move quickly enough, cannot fit the transaction inside standard policy, or declines the file despite a commercial repayment path.",
+      "after": "Private credit for SME borrowers is commercial lending provided outside the major bank system, usually by [private lenders](/services/private-lending), credit funds, family offices, or specialist non-bank financiers. In Australia, SME borrowers may consider private credit when a bank cannot move quickly enough, cannot fit the transaction inside standard policy, or declines the file despite a commercial repayment path.",
+      "beforeSha256": "fa8fe958086f77c5542d66b7fb95358a94dd3f540a67f56017a9698257606269",
+      "afterSha256": "0378b23561e100bb44bf7bd60b7f6a04a42ed648b4096e021db8e26278676d00"
+    },
+    {
+      "id": "P2",
+      "file": "src/content/guides/private-debt-for-sme-borrowers.md",
+      "before": "Private debt for SME borrowers is non-bank commercial finance provided by private credit funds, specialist lenders, or private capital sources. In Australia, SMEs usually consider private debt when bank finance is too slow, too rigid, or unavailable for the specific transaction, but the business has a clear purpose, repayment capacity, security, or exit event.",
+      "after": "Private debt for SME borrowers is non-bank commercial finance provided by private credit funds, specialist lenders, or private capital sources. In Australia, SMEs usually consider private debt when bank finance is too slow, too rigid, or unavailable for the specific transaction, but the business has a clear purpose, repayment capacity, security, or exit event. Emet Capital is a broker that arranges [private lending for business borrowers](/services/private-lending); it does not lend its own funds.",
+      "beforeSha256": "29dcea2c6702c12f1c91e56b89a8c4544dcc4123c7a902fb8e3d37f7e19b735c",
+      "afterSha256": "a39620e9f5ca21f384f56e640b3061810de6e0256ad10036266a8270f21f04ff"
+    },
+    {
+      "id": "P3",
+      "file": "src/content/guides/private-lending-mortgage.md",
+      "before": "A private lending mortgage is commercial finance secured by real property and funded by a private lender, private credit fund, family office, or specialist non-bank lender rather than a mainstream bank. For Australian business borrowers, it is usually considered when timing, documentation, asset type, credit history, or transaction complexity does not fit a standard bank process.",
+      "after": "A private lending mortgage is commercial finance secured by real property and funded by a [private lender](/services/private-lending), private credit fund, family office, or specialist non-bank lender rather than a mainstream bank. For Australian business borrowers, it is usually considered when timing, documentation, asset type, credit history, or transaction complexity does not fit a standard bank process.",
+      "beforeSha256": "7ee6a45058a266d3dfe9fe62bf4f6a3cf92b9bb1da17ea1434bdf34fbe645dc1",
+      "afterSha256": "48daa4eeba20300fc01cd46f94f49d21819d2ecb3fc0131a9ae069791b71de20"
+    },
+    {
+      "id": "P4",
+      "file": "src/content/guides/private-debt-australia.md",
+      "before": "Private debt in Australia is non-bank lending where capital is provided by private credit funds, specialist lenders, family offices, investors, or other non-bank sources rather than a traditional bank. For commercial borrowers, private debt is usually considered when timing, property security, loan purpose, documentation, or bank appetite does not fit a standard bank process.",
+      "after": "Private debt in Australia is non-bank lending where capital is provided by private credit funds, specialist lenders, family offices, investors, or other non-bank sources rather than a traditional bank. For commercial borrowers, private debt is usually considered when timing, property security, loan purpose, documentation, or bank appetite does not fit a standard bank process. Business borrowers comparing private options on a live deal can see [private lending through Emet Capital](/services/private-lending).",
+      "beforeSha256": "22f350b0667f2fe7db9ab65f4b0a632c5e421805bbae896e623b6e3dd2565f38",
+      "afterSha256": "42fc028877ae071a27b579dfffad27a50b35636ecf84681fba3f2f8d32e90271"
+    },
+    {
+      "id": "P5",
+      "file": "src/content/guides/private-lending-vs-bank-lending-which-is-better.md",
+      "before": "Private lending and bank lending are not competing versions of the same product. They solve different problems.",
+      "after": "Private lending and bank lending are not competing versions of the same product. They solve different problems. Our [private lending options](/services/private-lending) page explains when a broker would put a deal to private lenders.",
+      "beforeSha256": "91efb5a3a0225dfb2d416b55ae350019de9688e5eb901ce5f4b94f4f1435a622",
+      "afterSha256": "4adf828850c163bd619b398377eef728a95e6cdd053953e067f6f8404f02bd78"
+    },
+    {
+      "id": "P6",
+      "file": "src/content/guides/private-credit-refinance-commercial-property-australia.md",
+      "before": "Private credit refinance for commercial property is a non-bank refinancing pathway for business owners, investors, and developers who need to replace, restructure, or stabilise commercial property debt when a standard bank refinance is too slow, too rigid, or unavailable. It is usually considered when the property has usable equity, the borrower has a commercial purpose, and there is a credible exit plan.",
+      "after": "Private credit refinance for commercial property is a non-bank refinancing pathway for business owners, investors, and developers who need to replace, restructure, or stabilise commercial property debt when a standard bank refinance is too slow, too rigid, or unavailable. It is usually considered when the property has usable equity, the borrower has a commercial purpose, and there is a credible exit plan. Emet Capital arranges [private and non-bank commercial loans](/services/private-lending) as a broker.",
+      "beforeSha256": "0de03a6735881933134323c128e206d4b47c3df146dcb7930d8fb27d24fd1463",
+      "afterSha256": "2e15aaf10d08904893f97d4fb8b653922a4ae7ad6ef6c8ca31903a5a38ca8333"
+    },
+    {
+      "id": "P7",
+      "file": "src/content/guides/commercial-property-refinance-after-a-bank-decline-in-australia.md",
+      "before": "Commercial property refinance after a bank decline usually becomes a lender-fit problem, not just a credit-score problem. A borrower may still refinance successfully through a different bank, a specialist commercial lender, or a [private lending](/resources/guides/what-is-private-lending-australia) structure if the security, leverage, and exit still make sense.",
+      "after": "Commercial property refinance after a bank decline usually becomes a lender-fit problem, not just a credit-score problem. A borrower may still refinance successfully through a different bank, a specialist commercial lender, or a [private lending](/resources/guides/what-is-private-lending-australia) structure if the security, leverage, and exit still make sense. Our [private lending service](/services/private-lending) explains how we approach these refinances as a broker.",
+      "beforeSha256": "20eb32acb2e48b0ef41a0c3504c675d5c12c4af2f0c6700b044c6a3556dc910d",
+      "afterSha256": "b17ce0ca5fa69ba2bb74d7bbcd11bcc9b995ee996337d29acd9086b67bbec5a1"
+    },
+    {
+      "id": "P8",
+      "file": "src/content/guides/private-commercial-loans-for-smes.md",
+      "before": "Private commercial loans for SMEs are business-purpose facilities provided by private, specialist, or non-bank lenders when a standard bank loan is too slow, too rigid, or not matched to the transaction. In Australia, SME borrowers usually consider private commercial loans when they need funding against property, business assets, receivables, or a clear commercial event, and when the loan has a defined repayment pathway.",
+      "after": "Private commercial loans for SMEs are business-purpose facilities provided by private, specialist, or [non-bank lenders](/services/private-lending) when a standard bank loan is too slow, too rigid, or not matched to the transaction. In Australia, SME borrowers usually consider private commercial loans when they need funding against property, business assets, receivables, or a clear commercial event, and when the loan has a defined repayment pathway.",
+      "beforeSha256": "ba6f1adcce1d754538baf337b24ad8655e2b79da4c89b64d2a7d90230b158742",
+      "afterSha256": "00b27246950db6963c4b4782380cb7b21dc143e050753eba1063241e463aca24"
+    },
+    {
+      "id": "F1",
+      "file": "src/content/guides/second-mortgage-interest-rates-current-market-analysis.md",
+      "before": "Second mortgage interest rates in Australia are usually higher than first-mortgage pricing because the lender is taking a junior security position and accepting more risk. In commercial lending, that pricing difference is not just about the headline loan amount. It is shaped by leverage, title position, asset quality, urgency, exit strategy, and how easy the underlying security would be to refinance or sell if things go wrong.",
+      "after": "Second mortgage interest rates in Australia are usually higher than first-mortgage pricing because the lender is taking a junior security position and accepting more risk. In commercial lending, that pricing difference is not just about the headline loan amount. It is shaped by leverage, title position, asset quality, urgency, exit strategy, and how easy the underlying security would be to refinance or sell if things go wrong. To compare structures on a real file, see our [second mortgage business loans](/services/first-second-mortgages) page.",
+      "beforeSha256": "fcbfb7e05089ac913279aa9a9053203b4e2ab23e601d065c15f58a57be1cada4",
+      "afterSha256": "99b5c2ecd44e09f974ba0e14e6dd38e75b935ef54334d8a193733dd71c5052af"
+    },
+    {
+      "id": "F2",
+      "file": "src/content/guides/second-mortgage-lenders-australia-directory.md",
+      "before": "This is a product-specific lender-market guide, not a paid ranking or exhaustive provider list. For a broader provider-research framework, use the [private mortgage lender directory](/resources/guides/private-mortgage-lenders-australia-directory). For structure, use the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide).",
+      "after": "This is a product-specific lender-market guide, not a paid ranking or exhaustive provider list. For a broader provider-research framework, use the [private mortgage lender directory](/resources/guides/private-mortgage-lenders-australia-directory). For structure, use the [second mortgages for business guide](/resources/guides/second-mortgages-for-business-guide). To discuss a specific deal, see [second mortgages arranged through Emet Capital](/services/first-second-mortgages).",
+      "beforeSha256": "38f87017af5584a1444ddf6a8a2a9a85d8b1a265fa6268439d48d90a6c65b226",
+      "afterSha256": "e3a8e5617a10e625ba0127967c946564718ac43d3b2dde749f72e749acfd54a6"
+    },
+    {
+      "id": "F3",
+      "file": "src/content/guides/second-mortgage-application-checklist-australia.md",
+      "before": "A second mortgage application checklist helps Australian business borrowers prepare the evidence a lender needs before considering a loan secured behind an existing first mortgage. The checklist should cover property equity, first-mortgage consent, borrower identity, business purpose, loan amount, documents, valuation evidence, exit strategy, and legal risks.",
+      "after": "A second mortgage application checklist helps Australian business borrowers prepare the evidence a lender needs before considering a loan secured behind an existing first mortgage. The checklist should cover property equity, first-mortgage consent, borrower identity, business purpose, loan amount, documents, valuation evidence, exit strategy, and legal risks. When your documents are ready, our [first and second mortgage service](/services/first-second-mortgages) explains the next step.",
+      "beforeSha256": "22731a32f69a01c6fe86bd88b5b609eb2f1fc3a13d704fe2e2c19980bfe25557",
+      "afterSha256": "1b58a72338e054a5dd113bd9ce0c4fbcc4a9419e85ae4d5a8e5cf1d3a58a78d0"
+    },
+    {
+      "id": "F4",
+      "file": "src/content/guides/what-is-a-second-mortgage.md",
+      "before": "A second mortgage is a loan secured by real property where the new lender takes security behind an existing first mortgage. In business lending, that structure can let a borrower use remaining equity without replacing the first loan, if the first-lender position, the property, the commercial purpose and the exit are acceptable.",
+      "after": "A second mortgage is a loan secured by real property where the new lender takes security behind an existing first mortgage. In business lending, that structure can let a borrower use remaining equity without replacing the first loan, if the first-lender position, the property, the commercial purpose and the exit are acceptable. Emet Capital is a broker that helps business borrowers compare [second mortgage loans](/services/first-second-mortgages); it is not the lender.",
+      "beforeSha256": "408e70c31f5fbbae0f4ae7294e04708dba0c03b05f57feedb5acb376824530ed",
+      "afterSha256": "9b98e3a30fad9bd50e0dbe500b43fb52b9672f34a8682ec2cfe53a80e23e4c40"
+    },
+    {
+      "id": "F5",
+      "file": "src/content/guides/first-mortgage-vs-second-mortgage-key-differences.md",
+      "before": "This page owns the ranking and structure comparison. For equity-release strategy, read [second mortgage loans for business equity access](/resources/guides/second-mortgage-loan-equity-access-strategies). For lender-to-lender documents, read [priority agreements](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean).",
+      "after": "This page owns the ranking and structure comparison. For equity-release strategy, read [second mortgage loans for business equity access](/resources/guides/second-mortgage-loan-equity-access-strategies). For lender-to-lender documents, read [priority agreements](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean). For a live deal, see our [business first and second mortgage options](/services/first-second-mortgages).",
+      "beforeSha256": "94b8b71ed9817054400be116a9538b2e126042135bfa26ec2f02379a83422c4e",
+      "afterSha256": "a4ccbe3bdd40dee12f6c25323a27430dc48115b5d271bd73d1508df92c7d4d80"
+    },
+    {
+      "id": "F7",
+      "file": "src/content/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you.md",
+      "before": "A caveat loan is usually a short-term speed tool, while a second mortgage is usually a more formal property-backed loan sitting behind an existing first mortgage. The right choice depends on timing, security position, exit strategy, and whether the borrower needs urgent bridging support or a more structured funding facility.",
+      "after": "A caveat loan is usually a short-term speed tool, while a [second mortgage](/services/first-second-mortgages) is usually a more formal property-backed loan sitting behind an existing first mortgage. The right choice depends on timing, security position, exit strategy, and whether the borrower needs urgent bridging support or a more structured funding facility.",
+      "beforeSha256": "d46fcd9c8c8c0f5d010e3e6416a942c2bbe582cbf0be39b4fed99fd1b5652d2e",
+      "afterSha256": "796eaecc722edfd6503890f5a0ab700ef886c0f32f9fbefdffcb06d67f91ffaa"
+    }
+  ]
+}

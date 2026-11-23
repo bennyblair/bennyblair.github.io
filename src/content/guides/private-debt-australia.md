@@ -32,7 +32,7 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-Private debt in Australia is non-bank lending where capital is provided by private credit funds, specialist lenders, family offices, investors, or other non-bank sources rather than a traditional bank. For commercial borrowers, private debt is usually considered when timing, property security, loan purpose, documentation, or bank appetite does not fit a standard bank process.
+Private debt in Australia is non-bank lending where capital is provided by private credit funds, specialist lenders, family offices, investors, or other non-bank sources rather than a traditional bank. For commercial borrowers, private debt is usually considered when timing, property security, loan purpose, documentation, or bank appetite does not fit a standard bank process. Business borrowers comparing private options on a live deal can see [private lending through Emet Capital](/services/private-lending).
 
 In practice, private debt can include [private lending](/resources/guides/what-is-private-lending-australia), mortgage-backed commercial loans, short-term business finance, bridging facilities, second mortgages, caveat loans, and other negotiated credit structures. The common thread is that the funding is assessed outside the mainstream bank channel.
 

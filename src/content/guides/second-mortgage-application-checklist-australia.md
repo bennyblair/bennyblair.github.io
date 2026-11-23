@@ -21,7 +21,7 @@ metaTitle: "Second Mortgage Application Checklist Australia | Emet Capital"
 metaDescription: "Second mortgage application checklist for Australian business borrowers. See what lenders review, which documents matter, and how to prepare a stronger file."
 ---
 
-A second mortgage application checklist helps Australian business borrowers prepare the evidence a lender needs before considering a loan secured behind an existing first mortgage. The checklist should cover property equity, first-mortgage consent, borrower identity, business purpose, loan amount, documents, valuation evidence, exit strategy, and legal risks.
+A second mortgage application checklist helps Australian business borrowers prepare the evidence a lender needs before considering a loan secured behind an existing first mortgage. The checklist should cover property equity, first-mortgage consent, borrower identity, business purpose, loan amount, documents, valuation evidence, exit strategy, and legal risks. When your documents are ready, our [first and second mortgage service](/services/first-second-mortgages) explains the next step.
 
 For Emet Capital, the strongest second mortgage files are not the biggest files. They are the clearest files. A lender should be able to understand the property, the existing debt, why the money is needed, how the borrower will repay, and what could go wrong if the first lender or settlement timing changes.
 
