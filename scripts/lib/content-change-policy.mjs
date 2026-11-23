@@ -20,12 +20,18 @@ export function isInternalLinkOnlyChange(before, after) {
   return normalizeInternalLinkDestinations(before) === normalizeInternalLinkDestinations(after);
 }
 
-const SERVICE_MARKDOWN_LINK =
-  /\[[^\]]+\]\(\/services\/(?!caveat-loans)[a-z0-9][a-z0-9\-/]*\)/;
-const WRAP_CLOSE = /^\]\(\/services\/(?!caveat-loans)[a-z0-9][a-z0-9\-/]*\)$/;
-const INLINK_INSERTION_HIGH_RISK =
-  /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b/i;
+const ALLOWED_SERVICE_PATHS = Object.freeze([
+  "/services/commercial-property-finance",
+  "/services/bridging-finance",
+  "/services/private-lending",
+  "/services/first-second-mortgages",
+]);
+const ALLOWED_SERVICE_PATH_SET = new Set(ALLOWED_SERVICE_PATHS);
+const ALLOWED_SERVICE_PATH_PATTERN = ALLOWED_SERVICE_PATHS.map((path) => path.replaceAll("/", "\\/")).join("|");
+const WRAP_CLOSE = new RegExp(`^\\]\\((?:${ALLOWED_SERVICE_PATH_PATTERN})\\)$`);
 const FORBIDDEN_DASH = /[\u2014\u2013]|--/;
+const INLINK_CLAIM_DENYLIST =
+  /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b|\bwe are the lender\b|\bis the lender\b|\bACL\b|\bcredit\s+licen[cs]es?\b|\blicen[cs]es?\b|\b(?:FBAA|MFAA|CAFBA)\b|\$[^\n]{0,80}\b(?:billion|million)\b[^\n]{0,80}\b(?:settled|funded|facilitated)\b|caveat/i;
 const MAX_INLINK_INSERTION_CHARS = 280;
 
 function splitFrontmatter(source) {
@@ -33,6 +39,39 @@ function splitFrontmatter(source) {
   const match = normalised.match(/^---\n[\s\S]*?\n---\n/);
   if (!match) return { frontmatter: "", body: normalised };
   return { frontmatter: match[0], body: normalised.slice(match[0].length) };
+}
+
+function markdownLinkPattern() {
+  return /\[([^\]]+)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+}
+
+function markdownLinks(text) {
+  return [...text.matchAll(markdownLinkPattern())].map((match) => ({
+    anchor: match[1],
+    url: match[2],
+  }));
+}
+
+function internalLinkCounts(body) {
+  const counts = new Map();
+  for (const match of body.matchAll(/\[[^\]]+\]\((\/[^)\s#]+)(?:#[^)\s]*)?\)/g)) {
+    counts.set(match[1], (counts.get(match[1]) || 0) + 1);
+  }
+  return counts;
+}
+
+function editIncreasesAnyUrlPastTwo(beforeBody, afterBody) {
+  const beforeCounts = internalLinkCounts(beforeBody);
+  const afterCounts = internalLinkCounts(afterBody);
+  for (const [url, afterCount] of afterCounts) {
+    if (afterCount <= 2) continue;
+    if (afterCount > (beforeCounts.get(url) || 0)) return true;
+  }
+  return false;
+}
+
+function containsForbiddenInlinkCopy(value) {
+  return FORBIDDEN_DASH.test(value) || INLINK_CLAIM_DENYLIST.test(value);
 }
 
 function insertedSegments(before, after) {
@@ -58,42 +97,76 @@ function insertedSegments(before, after) {
   return inserts;
 }
 
-function serviceMarkdownLinkPattern() {
-  return /\[([^\]]+)\]\((\/services\/(?!caveat-loans)[a-z0-9][a-z0-9\-/]*)\)/g;
-}
-
 function isAnchorOnlyServiceChange(before, after) {
-  const beforeLinks = [...before.matchAll(serviceMarkdownLinkPattern())];
-  const afterLinks = [...after.matchAll(serviceMarkdownLinkPattern())];
+  const beforeLinks = markdownLinks(before);
+  const afterLinks = markdownLinks(after);
   if (!beforeLinks.length || beforeLinks.length !== afterLinks.length) return false;
-  const placeholder = (source) =>
-    source.replace(serviceMarkdownLinkPattern(), (_match, _anchor, url) => `[<anchor>](${url})`);
-  return placeholder(before) === placeholder(after);
+  if (beforeLinks.some((link, index) => link.url !== afterLinks[index].url)) return false;
+  if (afterLinks.some((link) => !ALLOWED_SERVICE_PATH_SET.has(link.url))) return false;
+  const placeholder = (source) => source.replace(/\[[^\]]+\]\((\/[^)\s]+)(?:\s+"[^"]*")?\)/g, "[<anchor>]($1)");
+  if (placeholder(before) !== placeholder(after)) return false;
+  return afterLinks.every((link, index) => {
+    if (link.anchor === beforeLinks[index].anchor) return true;
+    return !containsForbiddenInlinkCopy(link.anchor);
+  });
 }
 
 function isAllowedInlinkInsertion(segment) {
   if (segment === "[") return true;
   if (WRAP_CLOSE.test(segment)) return true;
   if (segment.length > MAX_INLINK_INSERTION_CHARS) return false;
-  if (!SERVICE_MARKDOWN_LINK.test(segment)) return false;
+  if (/<a\b/i.test(segment)) return false;
   if (/https?:\/\//i.test(segment)) return false;
-  if (FORBIDDEN_DASH.test(segment)) return false;
-  if (INLINK_INSERTION_HIGH_RISK.test(segment)) return false;
-  if (/\]\(\/services\/caveat-loans/i.test(segment)) return false;
-  return true;
+  if (containsForbiddenInlinkCopy(segment)) return false;
+  const hrefs = [...segment.matchAll(/\[[^\]]+\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)].map((match) => match[1]);
+  if (!hrefs.length) return false;
+  return hrefs.every((href) => ALLOWED_SERVICE_PATH_SET.has(href));
 }
 
 function isAllowedInlinkLineEdit(before, after) {
   if (before === after) return true;
+  if (/^\s*#/.test(after) && !/^\s*#/.test(before)) return false;
+  if ((after.match(/<a\b/gi) || []).length > (before.match(/<a\b/gi) || []).length) return false;
+
+  const beforeLinks = markdownLinks(before);
+  const afterLinks = markdownLinks(after);
+  const remainingUrls = new Map();
+  for (const link of beforeLinks) remainingUrls.set(link.url, (remainingUrls.get(link.url) || 0) + 1);
+  for (const link of afterLinks) {
+    const count = remainingUrls.get(link.url) || 0;
+    if (count) remainingUrls.set(link.url, count - 1);
+    else if (!ALLOWED_SERVICE_PATH_SET.has(link.url)) return false;
+  }
+
+  const beforeExact = new Set(beforeLinks.map((link) => `${link.anchor}\0${link.url}`));
+  const hasNewAllowedServiceLink = afterLinks.some(
+    (link) => ALLOWED_SERVICE_PATH_SET.has(link.url) && !beforeExact.has(`${link.anchor}\0${link.url}`),
+  );
+  if (!hasNewAllowedServiceLink) return false;
+  if (
+    afterLinks.some(
+      (link) => !beforeExact.has(`${link.anchor}\0${link.url}`) && containsForbiddenInlinkCopy(link.anchor),
+    )
+  ) {
+    return false;
+  }
+
   const insertions = insertedSegments(before, after);
   if (insertions) return insertions.every(isAllowedInlinkInsertion);
   return isAnchorOnlyServiceChange(before, after);
 }
 
-// Contextual /services inlinks on existing guides: wrapping existing words,
-// adding one short sentence that contains the service link, or changing the
-// anchor of an existing service link. Frontmatter must stay identical so this
-// does not skip publication-contract backfill for metadata or body rewrites.
+// Single-line contextual inlink on an existing guide. Frontmatter bytes and
+// body line count must not change, and only one body line may change. That
+// line may wrap existing words in one of
+// /services/commercial-property-finance, /services/bridging-finance,
+// /services/private-lending, or /services/first-second-mortgages (no trailing
+// slash, city path, query, or HTML <a>), append one short sentence that
+// contains such a markdown link, or change the anchor of an existing
+// allowlisted service link. Headings, caveat copy, high-risk or lender-role
+// claims, licence or membership claims, loan-volume claims, em dashes, and
+// any added non-allowlisted link are rejected, including in new anchor text.
+// An edit that increases any internal URL above two occurrences is not exempt.
 export function isContextualInternalInlinkChange(before, after) {
   if (before === after) return false;
   const previous = splitFrontmatter(before);
@@ -102,14 +175,18 @@ export function isContextualInternalInlinkChange(before, after) {
   const beforeLines = previous.body.split("\n");
   const afterLines = next.body.split("\n");
   if (beforeLines.length !== afterLines.length) return false;
-  let changed = false;
+  if (editIncreasesAnyUrlPastTwo(previous.body, next.body)) return false;
+  let changedLines = 0;
   for (let index = 0; index < beforeLines.length; index += 1) {
     if (beforeLines[index] === afterLines[index]) continue;
     if (!isAllowedInlinkLineEdit(beforeLines[index], afterLines[index])) return false;
-    changed = true;
+    changedLines += 1;
+    if (changedLines > 1) return false;
   }
-  return changed;
+  return changedLines === 1;
 }
+
+export const isContextualInternalLinkChange = isContextualInternalInlinkChange;
 
 // Finite, exact copy remaps used when caveat loans were retired as an Emet
 // product. Educational caveat guides may remain; these strings only stop the

@@ -153,6 +153,5 @@ To speak with a broker about a live purchase or refinance, use the [talk to us a
 - [Commercial Property Loan Deposits](/resources/guides/commercial-property-loan-deposits-how-much-do-you-need)
 - [Commercial Property Valuation](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Commercial Loan Serviceability](/resources/guides/commercial-property-loan-serviceability-how-much-can-you-borrow)
-- [Commercial Property Finance](/services/commercial-property-finance)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender. It arranges commercial-purpose finance and does not lend, fund or approve loans. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

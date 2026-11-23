@@ -50,13 +50,14 @@ test("does not exempt a route migration when substantive copy also changes", () 
   assert.equal(isInternalLinkOnlyChange(before, after), false);
 });
 
+function guideSource(body, extraFrontmatter = []) {
+  return ["---", 'title: "Guide"', ...extraFrontmatter, "---", body].join("\n");
+}
+
 test("classifies wrapping existing words in a live service link as a contextual inlink", () => {
-  const before = [
-    "---",
-    'title: "Office loans"',
-    "---",
+  const before = guideSource(
     "Office property loans operate differently from other commercial property finance, reflecting the unique risk profile of workspace assets.",
-  ].join("\n");
+  );
   const after = before.replace(
     "other commercial property finance, reflecting",
     "other [commercial property finance](/services/commercial-property-finance), reflecting",
@@ -66,13 +67,26 @@ test("classifies wrapping existing words in a live service link as a contextual 
   assert.equal(isContextualInternalInlinkChange(before, after), true);
 });
 
+test("classifies wrapping private-lending and first-second-mortgages paths as contextual inlinks", () => {
+  const privateBefore = guideSource("Funds are usually provided by private lenders, credit funds, or specialist financiers.");
+  const privateAfter = privateBefore.replace(
+    "by private lenders, credit funds",
+    "by [private lenders](/services/private-lending), credit funds",
+  );
+  const mortgageBefore = guideSource("A second mortgage is usually a more formal property-backed loan.");
+  const mortgageAfter = mortgageBefore.replace(
+    "A second mortgage is usually",
+    "A [second mortgage](/services/first-second-mortgages) is usually",
+  );
+
+  assert.equal(isContextualInternalInlinkChange(privateBefore, privateAfter), true);
+  assert.equal(isContextualInternalInlinkChange(mortgageBefore, mortgageAfter), true);
+});
+
 test("classifies appending one short service-link sentence as a contextual inlink", () => {
-  const before = [
-    "---",
-    'title: "GST loan"',
-    "---",
+  const before = guideSource(
     "A GST loan for commercial property settlement is a short-term commercial funding solution used when GST creates a cash gap at settlement and the borrower needs extra capital to complete the purchase on time.",
-  ].join("\n");
+  );
   const after = before.replace(
     "complete the purchase on time.",
     "complete the purchase on time. If the main purchase loan is still being arranged, see how Emet Capital approaches [commercial property finance](/services/commercial-property-finance) as a broker.",
@@ -82,12 +96,9 @@ test("classifies appending one short service-link sentence as a contextual inlin
 });
 
 test("classifies changing the anchor of an existing service link as a contextual inlink", () => {
-  const before = [
-    "---",
-    'title: "Commercial property loans"',
-    "---",
+  const before = guideSource(
     "Use the [commercial property finance service](/services/commercial-property-finance) and provide the contract.",
-  ].join("\n");
+  );
   const after = before.replace(
     "[commercial property finance service]",
     "[talk to us about a commercial property loan]",
@@ -97,36 +108,155 @@ test("classifies changing the anchor of an existing service link as a contextual
   assert.equal(isContextualInternalInlinkChange(before, after), true);
 });
 
-test("does not classify frontmatter, caveat, claim, or unlinked prose edits as contextual inlinks", () => {
-  const before = [
-    "---",
-    'reviewedAt: "2026-08-01"',
-    "---",
-    "A commercial property loan declined by a bank does not always mean the transaction is unworkable.",
-  ].join("\n");
+const inlinkProbes = [
+  [
+    "H1 insertion",
+    guideSource("Commercial property finance in Sydney is shaped by high values."),
+    (source) =>
+      source.replace(
+        "Commercial property finance in Sydney is shaped by high values.",
+        "# [Commercial property finance](/services/commercial-property-finance) in Sydney is shaped by high values.",
+      ),
+  ],
+  [
+    "third link to same URL",
+    guideSource(
+      [
+        "See [bridging finance](/services/bridging-finance) in the first mention.",
+        "See [bridging finance](/services/bridging-finance) in the second mention.",
+        "A timing gap can stall a commercial settlement.",
+      ].join("\n"),
+    ),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. See [bridging finance](/services/bridging-finance).",
+      ),
+  ],
+  [
+    "multi-line edits",
+    guideSource("First commercial property finance sentence.\nSecond commercial property finance sentence."),
+    (source) =>
+      source
+        .replace("First commercial property finance sentence.", "First [commercial property finance](/services/commercial-property-finance) sentence.")
+        .replace("Second commercial property finance sentence.", "Second [commercial property finance](/services/commercial-property-finance) sentence."),
+  ],
+  [
+    "em dash in an anchor",
+    guideSource("Use the [commercial property finance service](/services/commercial-property-finance) and provide the contract."),
+    (source) => source.replace("[commercial property finance service]", "[commercial property finance — service]"),
+  ],
+  [
+    "claim phrase in an anchor",
+    guideSource("Use the [commercial property finance service](/services/commercial-property-finance) and provide the contract."),
+    (source) => source.replace("[commercial property finance service]", "[guaranteed approval]"),
+  ],
+  [
+    "lender-role sentence",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. Emet Capital is the lender on [bridging finance](/services/bridging-finance).",
+      ),
+  ],
+  [
+    "we are the lender sentence",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. We are the lender behind [bridging finance](/services/bridging-finance).",
+      ),
+  ],
+  [
+    "ACL sentence",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. We hold ACL 123456 and arrange [bridging finance](/services/bridging-finance).",
+      ),
+  ],
+  [
+    "FBAA membership sentence",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. We are FBAA members arranging [bridging finance](/services/bridging-finance).",
+      ),
+  ],
+  [
+    "volume sentence",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. We have $2 billion settled via [bridging finance](/services/bridging-finance).",
+      ),
+  ],
+  [
+    "caveat text",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. This is not a caveat product; see [bridging finance](/services/bridging-finance).",
+      ),
+  ],
+  [
+    "bundled caveat guide link",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. See [bridging finance](/services/bridging-finance) and the [caveat loans guide](/resources/guides/caveat-loans-australia-complete-guide).",
+      ),
+  ],
+  [
+    "HTML anchor",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        'A timing gap can stall a commercial settlement. See <a href="/services/bridging-finance">bridging finance</a>.',
+      ),
+  ],
+  [
+    "city /services URL",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. See [Sydney bridging](/services/bridging-finance/cities/sydney).",
+      ),
+  ],
+  [
+    "trailing slash",
+    guideSource("A timing gap can stall a commercial settlement."),
+    (source) =>
+      source.replace(
+        "A timing gap can stall a commercial settlement.",
+        "A timing gap can stall a commercial settlement. See [bridging finance](/services/bridging-finance/).",
+      ),
+  ],
+  [
+    "expiresAt frontmatter edit",
+    guideSource("A timing gap can stall a commercial settlement.", ['expiresAt: "2026-11-05"']),
+    (source) => source.replace('expiresAt: "2026-11-05"', 'expiresAt: "2027-02-03"'),
+  ],
+  [
+    "metaTitle frontmatter edit",
+    guideSource("A timing gap can stall a commercial settlement.", ['metaTitle: "Old title for the guide page"']),
+    (source) => source.replace('metaTitle: "Old title for the guide page"', 'metaTitle: "New title for the guide page"'),
+  ],
+];
 
-  assert.equal(
-    isContextualInternalInlinkChange(before, before.replace("2026-08-01", "2026-08-05")),
-    false,
-  );
-  assert.equal(
-    isContextualInternalInlinkChange(
-      before,
-      `${before.slice(0, -1)} See [caveat loans](/services/caveat-loans).`,
-    ),
-    false,
-  );
-  assert.equal(
-    isContextualInternalInlinkChange(
-      before,
-      `${before.slice(0, -1)} We offer guaranteed approval via [commercial property finance](/services/commercial-property-finance).`,
-    ),
-    false,
-  );
-  assert.equal(
-    isContextualInternalInlinkChange(before, `${before.slice(0, -1)} Extra financial guidance with no service link.`),
-    false,
-  );
+test("rejects contextual-inlink probes that must stay material", () => {
+  for (const [name, before, mutate] of inlinkProbes) {
+    assert.equal(isContextualInternalInlinkChange(before, mutate(before)), false, name);
+  }
 });
 
 test("retires caveat product CTAs while keeping educational guide links", () => {
