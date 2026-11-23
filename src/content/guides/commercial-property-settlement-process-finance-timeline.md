@@ -29,7 +29,7 @@ protectedUntil: "2026-10-19T00:00:00+11:00"
 
 > **Direct answer:** A commercial property settlement moves from contract review and finance assessment through valuation, due diligence, formal approval, loan documents, conditions precedent and electronic settlement. There is no universal timeline. The contract date controls the deadline, while finance timing depends on borrower evidence, property complexity, valuation, legal work, lender conditions and third parties.
 
-This page owns settlement coordination. For loan eligibility, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For the broader acquisition process, use [how to buy commercial property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide).
+This page owns settlement coordination. For loan eligibility, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For the broader acquisition process, use [how to buy commercial property](/resources/guides/how-to-buy-commercial-property-step-by-step-guide). If settlement funds will arrive late, see [bridging finance for settlement timing gaps](/services/bridging-finance).
 
 ## Settlement-stage map
 

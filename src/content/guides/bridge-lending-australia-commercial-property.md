@@ -32,7 +32,7 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-Bridge lending in Australia for commercial property is short-term, business-purpose finance used to bridge a timing gap between one property or funding event and another. In plain terms, it can help a business borrower settle, refinance, complete a sale, or protect a transaction while a longer-term funding source is being finalised.
+Bridge lending in Australia for commercial property is short-term, business-purpose finance used to bridge a timing gap between one property or funding event and another. In plain terms, it can help a business borrower settle, refinance, complete a sale, or protect a transaction while a longer-term funding source is being finalised. Emet Capital arranges [commercial bridging loans](/services/bridging-finance) as a broker, not as the lender.
 
 For commercial property borrowers, bridge lending is not just a faster loan. It is a temporary structure that needs a clear purpose, usable security, and a realistic exit. If the exit is weak, a bridge facility can quickly become stressful because the loan is designed for a defined transition period, not permanent working capital.
 

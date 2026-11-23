@@ -21,7 +21,7 @@ metaTitle: "Commercial Property Loan Declined by Bank? Non-Bank Options"
 metaDescription: "Commercial property loan declined by a bank in Australia? Understand common bank decline reasons and when non-bank or private credit options may fit."
 ---
 
-A commercial property loan declined by a bank does not always mean the transaction is unworkable. It usually means the deal did not fit that bank's policy, servicing model, valuation view, asset appetite, lease requirements, or timing. Non-bank lenders and private credit providers may assess the same commercial property differently, but the file still needs a clear purpose, security position, repayment pathway, and risk story.
+A commercial property loan declined by a bank does not always mean the transaction is unworkable. It usually means the deal did not fit that bank's policy, servicing model, valuation view, asset appetite, lease requirements, or timing. Non-bank lenders and private credit providers may assess the same commercial property differently, but the file still needs a clear purpose, security position, repayment pathway, and risk story. Emet Capital is a broker, not a lender, and our [commercial property loan options](/services/commercial-property-finance) page explains how we compare bank and non-bank pathways.
 
 For Australian business borrowers and property investors, the first step after a bank decline is not to panic or shotgun the file to every lender. The better step is to diagnose why the bank said no. A serviceability decline, valuation shortfall, lease issue, property-type concern, ATO arrears, or timing problem each points to a different funding path.
 

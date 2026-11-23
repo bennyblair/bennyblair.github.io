@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   applyRetiredCaveatProductCopy,
+  isContextualInternalInlinkChange,
   isInternalLinkOnlyChange,
   isRetiredProductCopyChange,
   normalizeInternalLinkDestinations,
@@ -47,6 +48,85 @@ test("does not exempt a route migration when substantive copy also changes", () 
   const after = "Always compare [refinancing](/services/refinancing-solutions) before applying.";
 
   assert.equal(isInternalLinkOnlyChange(before, after), false);
+});
+
+test("classifies wrapping existing words in a live service link as a contextual inlink", () => {
+  const before = [
+    "---",
+    'title: "Office loans"',
+    "---",
+    "Office property loans operate differently from other commercial property finance, reflecting the unique risk profile of workspace assets.",
+  ].join("\n");
+  const after = before.replace(
+    "other commercial property finance, reflecting",
+    "other [commercial property finance](/services/commercial-property-finance), reflecting",
+  );
+
+  assert.equal(isInternalLinkOnlyChange(before, after), false);
+  assert.equal(isContextualInternalInlinkChange(before, after), true);
+});
+
+test("classifies appending one short service-link sentence as a contextual inlink", () => {
+  const before = [
+    "---",
+    'title: "GST loan"',
+    "---",
+    "A GST loan for commercial property settlement is a short-term commercial funding solution used when GST creates a cash gap at settlement and the borrower needs extra capital to complete the purchase on time.",
+  ].join("\n");
+  const after = before.replace(
+    "complete the purchase on time.",
+    "complete the purchase on time. If the main purchase loan is still being arranged, see how Emet Capital approaches [commercial property finance](/services/commercial-property-finance) as a broker.",
+  );
+
+  assert.equal(isContextualInternalInlinkChange(before, after), true);
+});
+
+test("classifies changing the anchor of an existing service link as a contextual inlink", () => {
+  const before = [
+    "---",
+    'title: "Commercial property loans"',
+    "---",
+    "Use the [commercial property finance service](/services/commercial-property-finance) and provide the contract.",
+  ].join("\n");
+  const after = before.replace(
+    "[commercial property finance service]",
+    "[talk to us about a commercial property loan]",
+  );
+
+  assert.equal(isInternalLinkOnlyChange(before, after), false);
+  assert.equal(isContextualInternalInlinkChange(before, after), true);
+});
+
+test("does not classify frontmatter, caveat, claim, or unlinked prose edits as contextual inlinks", () => {
+  const before = [
+    "---",
+    'reviewedAt: "2026-08-01"',
+    "---",
+    "A commercial property loan declined by a bank does not always mean the transaction is unworkable.",
+  ].join("\n");
+
+  assert.equal(
+    isContextualInternalInlinkChange(before, before.replace("2026-08-01", "2026-08-05")),
+    false,
+  );
+  assert.equal(
+    isContextualInternalInlinkChange(
+      before,
+      `${before.slice(0, -1)} See [caveat loans](/services/caveat-loans).`,
+    ),
+    false,
+  );
+  assert.equal(
+    isContextualInternalInlinkChange(
+      before,
+      `${before.slice(0, -1)} We offer guaranteed approval via [commercial property finance](/services/commercial-property-finance).`,
+    ),
+    false,
+  );
+  assert.equal(
+    isContextualInternalInlinkChange(before, `${before.slice(0, -1)} Extra financial guidance with no service link.`),
+    false,
+  );
 });
 
 test("retires caveat product CTAs while keeping educational guide links", () => {

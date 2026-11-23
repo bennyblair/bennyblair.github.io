@@ -20,6 +20,97 @@ export function isInternalLinkOnlyChange(before, after) {
   return normalizeInternalLinkDestinations(before) === normalizeInternalLinkDestinations(after);
 }
 
+const SERVICE_MARKDOWN_LINK =
+  /\[[^\]]+\]\(\/services\/(?!caveat-loans)[a-z0-9][a-z0-9\-/]*\)/;
+const WRAP_CLOSE = /^\]\(\/services\/(?!caveat-loans)[a-z0-9][a-z0-9\-/]*\)$/;
+const INLINK_INSERTION_HIGH_RISK =
+  /\b(?:guaranteed approval|guaranteed settlement|best lender|top lender|current (?:interest )?rates?|legal advice|tax advice)\b|\b\d+(?:\.\d+)?%\s+(?:interest|rate|lvr|return)\b/i;
+const FORBIDDEN_DASH = /[\u2014\u2013]|--/;
+const MAX_INLINK_INSERTION_CHARS = 280;
+
+function splitFrontmatter(source) {
+  const normalised = source.replace(/\r\n?/g, "\n");
+  const match = normalised.match(/^---\n[\s\S]*?\n---\n/);
+  if (!match) return { frontmatter: "", body: normalised };
+  return { frontmatter: match[0], body: normalised.slice(match[0].length) };
+}
+
+function insertedSegments(before, after) {
+  let beforeIndex = 0;
+  let afterIndex = 0;
+  const inserts = [];
+  let current = "";
+  while (beforeIndex < before.length && afterIndex < after.length) {
+    if (before[beforeIndex] === after[afterIndex]) {
+      if (current) {
+        inserts.push(current);
+        current = "";
+      }
+      beforeIndex += 1;
+      afterIndex += 1;
+    } else {
+      current += after[afterIndex];
+      afterIndex += 1;
+    }
+  }
+  if (beforeIndex !== before.length) return null;
+  if (current || afterIndex < after.length) inserts.push(current + after.slice(afterIndex));
+  return inserts;
+}
+
+function serviceMarkdownLinkPattern() {
+  return /\[([^\]]+)\]\((\/services\/(?!caveat-loans)[a-z0-9][a-z0-9\-/]*)\)/g;
+}
+
+function isAnchorOnlyServiceChange(before, after) {
+  const beforeLinks = [...before.matchAll(serviceMarkdownLinkPattern())];
+  const afterLinks = [...after.matchAll(serviceMarkdownLinkPattern())];
+  if (!beforeLinks.length || beforeLinks.length !== afterLinks.length) return false;
+  const placeholder = (source) =>
+    source.replace(serviceMarkdownLinkPattern(), (_match, _anchor, url) => `[<anchor>](${url})`);
+  return placeholder(before) === placeholder(after);
+}
+
+function isAllowedInlinkInsertion(segment) {
+  if (segment === "[") return true;
+  if (WRAP_CLOSE.test(segment)) return true;
+  if (segment.length > MAX_INLINK_INSERTION_CHARS) return false;
+  if (!SERVICE_MARKDOWN_LINK.test(segment)) return false;
+  if (/https?:\/\//i.test(segment)) return false;
+  if (FORBIDDEN_DASH.test(segment)) return false;
+  if (INLINK_INSERTION_HIGH_RISK.test(segment)) return false;
+  if (/\]\(\/services\/caveat-loans/i.test(segment)) return false;
+  return true;
+}
+
+function isAllowedInlinkLineEdit(before, after) {
+  if (before === after) return true;
+  const insertions = insertedSegments(before, after);
+  if (insertions) return insertions.every(isAllowedInlinkInsertion);
+  return isAnchorOnlyServiceChange(before, after);
+}
+
+// Contextual /services inlinks on existing guides: wrapping existing words,
+// adding one short sentence that contains the service link, or changing the
+// anchor of an existing service link. Frontmatter must stay identical so this
+// does not skip publication-contract backfill for metadata or body rewrites.
+export function isContextualInternalInlinkChange(before, after) {
+  if (before === after) return false;
+  const previous = splitFrontmatter(before);
+  const next = splitFrontmatter(after);
+  if (previous.frontmatter !== next.frontmatter) return false;
+  const beforeLines = previous.body.split("\n");
+  const afterLines = next.body.split("\n");
+  if (beforeLines.length !== afterLines.length) return false;
+  let changed = false;
+  for (let index = 0; index < beforeLines.length; index += 1) {
+    if (beforeLines[index] === afterLines[index]) continue;
+    if (!isAllowedInlinkLineEdit(beforeLines[index], afterLines[index])) return false;
+    changed = true;
+  }
+  return changed;
+}
+
 // Finite, exact copy remaps used when caveat loans were retired as an Emet
 // product. Educational caveat guides may remain; these strings only stop the
 // firm from selling caveat loans as a current service.

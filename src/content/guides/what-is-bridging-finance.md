@@ -32,7 +32,7 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-Bridging finance is short-term funding used to cover a timing gap between a purchase, refinance, sale, settlement, or other confirmed funding event. In Australia, business owners, property investors, and developers commonly use bridging finance when they need to complete a commercial property transaction before longer-term funds are available.
+Bridging finance is short-term funding used to cover a timing gap between a purchase, refinance, sale, settlement, or other confirmed funding event. In Australia, business owners, property investors, and developers commonly use bridging finance when they need to complete a commercial property transaction before longer-term funds are available. If you have a live timing gap, our [bridging finance service](/services/bridging-finance) explains what lenders will ask for.
 
 The core idea is simple: a borrower has a real transaction that needs money now, and a credible exit that should repay the loan later. That exit might be a property sale, refinance, incoming settlement proceeds, staged project funding, or another commercial cash event. For borrowers comparing options, our broader [bridging finance Australia guide](/resources/guides/bridging-finance-australia-complete-property-guide) explains the full category in more detail.
 

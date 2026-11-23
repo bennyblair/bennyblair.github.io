@@ -33,7 +33,7 @@ protectedUntil: "2026-10-19T00:00:00+11:00"
 
 > **Direct answer:** A commercial property loan is business-purpose finance used to buy, refinance or improve property such as offices, warehouses, shops, medical premises or mixed-use assets. Approval and structure depend on property risk, borrower contribution, lease or trading cash flow, valuation, legal due diligence and a repayment plan, not on property value alone.
 
-This is the Australia-wide eligibility, structure and assessment guide for commercial property loans. It explains how these facilities work for business-purpose property across Australia: eligibility considerations, loan structure, lender assessment, documents and risks. It is distinct from the [commercial mortgage rates guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide), which explains pricing, and the [development finance guide](/resources/guides/commercial-property-development-finance), which covers construction and project risk.
+This is the Australia-wide eligibility, structure and assessment guide for commercial property loans. It explains how these facilities work for business-purpose property across Australia: eligibility considerations, loan structure, lender assessment, documents and risks. It is distinct from the [commercial mortgage rates guide](/resources/guides/commercial-mortgage-rates-australia-complete-guide), which explains pricing, and the [development finance guide](/resources/guides/commercial-property-development-finance), which covers construction and project risk. If you have a specific purchase or refinance in mind, see our [commercial property finance service](/services/commercial-property-finance).
 
 ## Common loan purposes
 
@@ -146,7 +146,7 @@ Sometimes, but the reason for decline must be understood. A different lender doe
 
 ## Next step
 
-To speak with a broker about a live purchase or refinance, use the [commercial property finance service](/services/commercial-property-finance) and provide the contract or current loan statement, property details, leases, financials, contribution and timing. General information only; not financial, legal or tax advice.
+To speak with a broker about a live purchase or refinance, use the [talk to us about a commercial property loan](/services/commercial-property-finance) and provide the contract or current loan statement, property details, leases, financials, contribution and timing. General information only; not financial, legal or tax advice.
 
 ## Related Guides
 

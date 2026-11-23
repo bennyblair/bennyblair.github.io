@@ -20,7 +20,7 @@ keywords: ["commercial property finance sydney", "sydney commercial property loa
 
 Sydney is not a market where slow finance usually feels harmless.
 
-When a borrower is trying to secure a warehouse in the Inner West, refinance a mixed-use asset in Parramatta, or move quickly on an industrial opportunity in Western Sydney, the funding structure matters almost as much as the asset itself. Commercial property finance in Sydney is shaped by high values, tight timeframes, diverse asset classes, and lender scrutiny around serviceability, leverage, and exit.
+When a borrower is trying to secure a warehouse in the Inner West, refinance a mixed-use asset in Parramatta, or move quickly on an industrial opportunity in Western Sydney, the funding structure matters almost as much as the asset itself. [Commercial property finance](/services/commercial-property-finance) in Sydney is shaped by high values, tight timeframes, diverse asset classes, and lender scrutiny around serviceability, leverage, and exit.
 
 For investors, developers, and business owners, the practical challenge is not just finding a lender. It is choosing a structure that fits the asset, the business purpose, and the timing pressure of the deal. In Sydney, that often means deciding between a standard [commercial property loan](/resources/guides/commercial-property-loans-australia-complete-guide), a cleaner [refinance path](/services/refinancing-solutions), or a faster [bridging finance](/resources/guides/bridging-finance-australia-complete-property-guide) solution when settlement speed is the real pressure point.
 

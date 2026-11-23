@@ -96,7 +96,7 @@ Understanding these market dynamics helps you position your loan application str
 
 ## Understanding Office Property Loan Fundamentals
 
-Office property loans operate differently from other commercial property finance, reflecting the unique risk profile of workspace assets. Lenders assess these properties based on tenancy stability, location desirability, and the broader office market outlook in your target area.
+Office property loans operate differently from other [commercial property finance](/services/commercial-property-finance), reflecting the unique risk profile of workspace assets. Lenders assess these properties based on tenancy stability, location desirability, and the broader office market outlook in your target area.
 
 ### Loan-to-Value Ratios for Office Properties
 

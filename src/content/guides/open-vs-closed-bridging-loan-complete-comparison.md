@@ -33,7 +33,7 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
 ---
 
-An open bridging loan is a short-term commercial facility where the exit date is expected but not fully locked in at settlement. A closed bridging loan is a short-term commercial facility where the repayment event is already defined, documented, and usually tied to a contracted sale or a refinance with a known completion path. That is the cleanest way to separate the two.
+An open bridging loan is a short-term commercial facility where the exit date is expected but not fully locked in at settlement. A closed bridging loan is a short-term commercial facility where the repayment event is already defined, documented, and usually tied to a contracted sale or a refinance with a known completion path. That is the cleanest way to separate the two. Either structure can be discussed through our [short-term bridging finance](/services/bridging-finance) page.
 
 For commercial borrowers, the difference matters because lenders are not only funding the property or business-purpose transaction in front of them. They are funding the **gap between today and the exit**. If the exit is firm, a closed bridge is usually easier to explain and often easier to place. If the exit is likely but still moving, an open bridge may be the more realistic structure.
 
