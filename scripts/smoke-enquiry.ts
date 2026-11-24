@@ -251,7 +251,10 @@ try {
   assert.equal(await leadCount(preview), 0);
 
   await page.goto("https://enquiry-check.invalid/resources/guides/what-is-bridging-finance");
-  await page.getByRole("heading", { level: 1 }).waitFor();
+  // Isolated harness serves dist/index.html (the homepage) for HTML routes, so a
+  // generic h1 wait can pass before the guide hydrates. Wait for the CTA itself.
+  await page.locator(".article-side-cta a[href='/contact?purpose=bridge']").waitFor();
+  await page.getByRole("heading", { level: 1, name: /bridging finance/i }).waitFor();
   assert.ok(await page.locator(".article-side-cta a[href='/contact?purpose=bridge']").count());
   assert.ok(await page.locator(".article-closing-cta a[href='/contact?purpose=bridge']").count());
   assert.ok(await page.locator('main a[href="tel:+61485952651"]').count());
@@ -270,7 +273,7 @@ try {
   const phoneClicks = await page.evaluate(() => (window.dataLayer || []).filter((item) => Array.from(item as ArrayLike<unknown>)[1] === "phone_click").length);
   assert.equal(phoneClicks, 1);
   assert.equal(await leadCount(page), 0);
-  await page.getByRole("link", { name: "Send an enquiry" }).first().click();
+  await page.locator(".article-side-cta a[href='/contact?purpose=bridge']").click();
   await page.locator("#contact-purpose").waitFor();
   assert.equal(await page.locator("#contact-purpose").inputValue(), "bridge");
 
@@ -287,7 +290,7 @@ try {
   await page.locator('#enquire form[name="contact"][data-enquiry-ready="true"]').waitFor();
   await page.locator("#enquire").screenshot({ path: path.join(output, "bridging-enquire-desktop.png") });
   await page.goto("https://enquiry-check.invalid/resources/guides/what-is-bridging-finance");
-  await page.getByRole("heading", { level: 1 }).waitFor();
+  await page.locator(".article-closing-cta a[href='/contact?purpose=bridge']").waitFor();
   await page.locator(".article-closing-cta").screenshot({ path: path.join(output, "guide-cta-desktop.png") });
   assert.deepEqual(errors, []);
   console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "shared enquiryId on Netlify body and generate_lead", "first-touch trafficChannel and utm fields", "private fields excluded from analytics", "landing category retained", "newsletter posts to Netlify without generate_lead", "localhost preview does not send or count", "four service pages", "embedded service contact forms", "url purpose wins over initialPurpose", "localhost service preview does not send or count", "guide enquiry CTA purpose and phone_click"] }, null, 2));
