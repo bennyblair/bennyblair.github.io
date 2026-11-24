@@ -198,7 +198,7 @@ Prepare:
 9. written exit strategy
 10. contingency plan if the exit is delayed
 
-Documentation requirements vary between loans. The preparation process overlaps with [business loan terms](/resources/guides/business-loan-terms-explained-australia), but short-term files need sharper timing evidence because the lender is assessing urgency and exit risk.
+[business.gov.au](https://business.gov.au/finance/funding/apply-for-a-business-loan) notes that documentation requirements vary between loans. The preparation process overlaps with [business loan terms](/resources/guides/business-loan-terms-explained-australia), but short-term files need sharper timing evidence because the lender is assessing urgency and exit risk.
 
 ## Cost and Risk Considerations
 
@@ -208,7 +208,7 @@ Borrowers should ask for all fees in writing, including establishment costs, leg
 
 The biggest practical risk is delay. If the expected refinance, sale, debtor payment, or settlement does not happen, the borrower may need an extension, replacement facility, asset sale, or capital injection. That plan should exist before the loan settles.
 
-It's a good idea to compare loan products from multiple lenders before applying. The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan. The law provides the lowest level of protection to commercial loans, including loans to small businesses.
+[business.gov.au's guide to applying for a business loan](https://business.gov.au/finance/funding/apply-for-a-business-loan) says it is a good idea to compare loan products from multiple lenders before applying. [ASIC Information Sheet 207](https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans) states that the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan, and that the law provides the lowest level of protection to commercial loans, including loans to small businesses.
 
 ## How Emet Capital Reviews Short-Term Finance Scenarios
 
@@ -244,7 +244,7 @@ Short-term finance is risky when the borrower has no credible exit, the repaymen
 
 ### Can short-term finance help with ATO or BAS pressure?
 
-Short-term finance may be considered for eligible commercial borrowers dealing with ATO or BAS timing pressure, but it is not automatically suitable. Borrowers should compare payment arrangements, cash-flow repair, refinancing, and professional advice before using new debt.
+Short-term finance may be considered for eligible commercial borrowers dealing with ATO or BAS timing pressure, but it is not automatically suitable. Borrowers should compare payment arrangements, cash-flow repair, refinancing, and advice from an accountant before using new debt.
 
 ## Related Guides
 
@@ -252,4 +252,4 @@ Short-term finance may be considered for eligible commercial borrowers dealing w
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)**: supplier and import timing facilities.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)**: understand lender assessment differences.
 
-This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
+This article is for informational purposes only and does not constitute financial advice. It is not legal advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
