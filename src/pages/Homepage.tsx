@@ -6,7 +6,8 @@ import { useHomepageMotion } from "@/hooks/use-homepage-motion";
 import ProcessJourney from "@/components/ProcessJourney";
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
-import { generateOrganizationSchema, generateLocalBusinessSchema } from "@/lib/schema-utils";
+import EmetEntityFaq, { HOME_ENTITY_FAQS } from "@/components/EmetEntityFaq";
+import { generateOrganizationSchema, generateLocalBusinessSchema, generateFAQPageSchema } from "@/lib/schema-utils";
 import { ArrowDown, ArrowRight, Pause, Play, Phone } from "lucide-react";
 import type { ArticleSummary } from "@/lib/content";
 import homepageContent from "virtual:homepage-content";
@@ -57,7 +58,7 @@ const Homepage = () => {
       <SEO title="Commercial Lending Solutions Australia | Emet Capital"
         description="Commercial lending solutions for Australian businesses, investors, and developers, including private lending, bridging finance, and property-backed funding."
         canonical="/" keywords="commercial lending australia, business finance, private lending, bridging finance, commercial property loans, commercial finance brokers"
-        schemas={[generateOrganizationSchema(), generateLocalBusinessSchema()]} />
+        schemas={[generateOrganizationSchema(), generateLocalBusinessSchema(), generateFAQPageSchema(HOME_ENTITY_FAQS)]} />
 
       <section className="home-hero">
         <svg className="hero-survey" viewBox="0 0 1200 900" fill="none" aria-hidden="true" focusable="false">
@@ -73,7 +74,7 @@ const Homepage = () => {
           <h1><span className="hero-title-line">Property-Backed </span><span className="hero-title-line">Business Finance</span></h1>
         </div>
         <div className="hero-aside">
-          <p className="hero-description">Purchases, refinances, bridging and equity release for business purposes. Residential or commercial property security, Australia-wide, from $100K to $50M+.</p>
+          <p className="hero-description">Purchases, refinances, bridging and equity release for business purposes. Residential or commercial property security, Australia-wide.</p>
           <div className="hero-actions">
             <Link className="action-link action-light" to="/contact">Discuss Your Transaction <ArrowRight aria-hidden="true" /></Link>
             <a className="phone-link" href="tel:+61485952651"><Phone aria-hidden="true" />0485 952 651</a>
@@ -144,6 +145,8 @@ const Homepage = () => {
         <div className="insight-grid">{latestArticles.slice(0,3).map(article=><article className="insight-entry" data-motion-enter key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div><details className="content-disclosure"><summary>More articles & insights <span aria-hidden="true">+</span></summary><div className="insight-grid">{latestArticles.slice(3).map(article=><article className="insight-entry" data-motion-enter key={article.slug}><div className="article-meta"><span>{article.category}</span>{isNewArticle(article.date)&&<span className="new-label">New</span>}</div><Link to={getArticleUrl(article)}><h3>{article.title}</h3></Link><p>{article.description}</p><div className="article-byline"><span>{article.author}</span><time dateTime={article.date}>{new Date(article.date).toLocaleDateString('en-AU')}</time></div></article>)}</div></details>
         <div className="resource-links"><p>Explore more resources tailored to your needs</p><Link to="/resources/guides" className="text-link">View All Guides <ArrowRight aria-hidden="true" /></Link><Link to="/resources/case-studies" className="text-link">Browse Case Studies <ArrowRight aria-hidden="true" /></Link><Link to="/resources/insights" className="text-link">Market Insights <ArrowRight aria-hidden="true" /></Link></div>
       </section>
+
+      <EmetEntityFaq className="home-entity-faq" groups={[{ heading: "About Emet Capital: common questions", faqs: HOME_ENTITY_FAQS }]} />
 
       <section className="home-contact">
         <div className="home-contact-inner section-pad">

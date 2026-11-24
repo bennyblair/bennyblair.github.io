@@ -23,7 +23,8 @@ import {
   Network,
   type LucideIcon
 } from "lucide-react";
-import { generateAboutPageSchema } from "@/lib/schema-utils";
+import EmetEntityFaq, { EMET_WHAT_WE_DO_FAQS, EMET_HOW_IT_WORKS_FAQS } from "@/components/EmetEntityFaq";
+import { generateAboutPageSchema, generateFAQPageSchema } from "@/lib/schema-utils";
 
 const About = () => {
   const breadcrumbItems = [
@@ -86,7 +87,7 @@ const About = () => {
         description="Learn about Emet Capital, our commercial finance background, lender network, and how we help Australian businesses and property borrowers structure funding."
         keywords="about emet capital, commercial finance specialists, commercial finance broker australia, property finance broker, business lending specialists"
         canonical="/about"
-        schemas={[generateAboutPageSchema()]}
+        schemas={[generateAboutPageSchema(), generateFAQPageSchema([...EMET_WHAT_WE_DO_FAQS, ...EMET_HOW_IT_WORKS_FAQS])]}
       />
       
       <div className="container mx-auto px-4">
@@ -98,7 +99,7 @@ const About = () => {
             About Emet Capital
           </h1>
           <p className="text-xl text-muted-foreground mb-4 leading-relaxed">
-            Australian commercial finance brokers. We connect businesses with financing options through our network of private and institutional lenders.
+            Emet Capital is an Australian commercial finance broker, not a lender. We help businesses, property investors and developers compare and arrange business-purpose finance from bank, non-bank and private lenders.
           </p>
           <p className="text-base text-muted-foreground mb-8 leading-relaxed">
             Emet Capital (Sydney) is not affiliated with Emet Capital Management (New York), Emet Mortgage (California), Emit Capital (Melbourne) or EMET Capital (Bogota).
@@ -407,6 +408,8 @@ const About = () => {
             </Card>
           </div>
         </section>
+
+        <EmetEntityFaq className="about-entity-faq" groups={[{ heading: "What Emet Capital does", faqs: EMET_WHAT_WE_DO_FAQS }, { heading: "How it works", faqs: EMET_HOW_IT_WORKS_FAQS }]} />
 
         {/* CTA Section */}
         <section className="interior-enquiry text-center py-16 bg-gradient-to-r from-primary to-primary-light rounded-2xl">
