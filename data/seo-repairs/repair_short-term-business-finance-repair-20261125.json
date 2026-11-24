@@ -5,15 +5,15 @@
   "policyVersion": "2026-10-03.1",
   "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
   "authorizationRef": "automatic-general-information-programme-2026-10-03",
-  "baseSha": "3585498efaa358d29db22c9385dd380e4311db0d",
+  "baseSha": "8292068244944ea05df6a5cd98069a8e71e0e4a7",
   "editor": "Cursor cloud agent writer (Grok 4.6)",
   "review": {
-    "reviewer": "PENDING independent reviewer",
-    "reviewedAt": "PENDING",
-    "score": null,
-    "blockingFindings": [
-      "Independent review not yet completed at this writer revision"
-    ]
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-24T21:21:43.555Z",
+    "expiresAt": "2027-05-23T21:21:43.555Z",
+    "verdict": "PASS",
+    "score": 94,
+    "blockingFindings": []
   },
   "kind": "substantive",
   "reviewMode": "general-information-v1",
@@ -23,8 +23,8 @@
       "pageId": "pg_18fb7070de9a408492f3aa0dec669da7",
       "path": "/resources/guides/short-term-business-finance-australia",
       "beforeSha256": "215e6d71faf512d97871c7e5e26190245056d7620e603d3316c3fc48e39ea3c0",
-      "afterSha256": "adcd4da4045c4b917d2d086532a16c3e691476b6e92bbc1c5ddb3bb993f38ab9",
-      "reason": "Existing-page repair of the short-term business finance owner URL (package short-term-business-finance-repair-20261125). Keep slug, canonical path, title, description, keywords, author Ben, author_* fields including the existing 10 years bio wording, publication date 2026-06-14, and reviewed_date 2026-06-14. The page carries no reviewedBy; independent review metadata remains PENDING. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Remove all caveat-loan product listings and links. Add a product-fit table, a property-backed handoff to bridging finance and second mortgages, and one in-body link each to /services/business-finance and /services/bridging-finance. Keep the existing /services/refinancing-solutions sentence. Replace do-not-link guide targets from the parent-owned site-cleanup list. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/business-finance, contentRisk medium matching the registry, existing 1200x630 JPEG, featuredImageAlt, and two official sources. Related In-Depth Guides is an H2 so the template owns the only H1. Independent review is PENDING at this writer revision. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "afterSha256": "88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81",
+      "reason": "Existing-page repair of the short-term business finance owner URL (package short-term-business-finance-repair-20261125). Keep slug, canonical path, title, description, keywords, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-06-14. Remove reviewed_date 2026-06-14 and set canonical independent-review metadata reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-24T21:21:43.555Z, expiresAt 2027-05-23T21:21:43.555Z on the 180-day medium-risk cadence. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Remove all caveat-loan product listings and links. Add a product-fit table, a property-backed handoff to bridging finance and second mortgages, and one in-body link each to /services/business-finance and /services/bridging-finance. Keep the existing /services/refinancing-solutions sentence. Replace do-not-link guide targets from the parent-owned site-cleanup list. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/business-finance, contentRisk medium matching the registry, existing 1200x630 JPEG, featuredImageAlt, and two official sources. Related In-Depth Guides is an H2 so the template owns the only H1. Independent Grok 4.7 review PASS 94 at pre-metadata sha256 adcd4da4045c4b917d2d086532a16c3e691476b6e92bbc1c5ddb3bb993f38ab9 / git 739137276e2a8f0ebb184578e090b1b91446f2a5, rebased as 56a41f309b02d31e7ade3869c320e2ab7ae563ff onto main 8292068244944ea05df6a5cd98069a8e71e0e4a7. Resulting guide sha256 88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81. Body is unchanged from that reviewed revision except the metadata stamp. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
       "evidence": [
         {
           "reference": "https://cursor.com/agents/bc-9cd1b5f1-5176-58a7-90b7-f1cb4bee1f06"
@@ -92,41 +92,75 @@
         "schemaVersion": 1,
         "reviewType": "independent-automated-editorial",
         "mode": "general-information-v1",
-        "status": "PENDING",
-        "outcome": "PENDING",
-        "reviewer": "PENDING independent reviewer",
-        "reviewedAt": "PENDING",
-        "reviewedSourceSha256": "PENDING",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-24T21:21:43.555Z",
+        "reviewedSourceSha256": "88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81",
+        "automated": true,
         "human": false,
         "professionalFinancialReview": false,
-        "blockingFindings": [
-          "Independent review not yet completed at this writer revision"
-        ],
-        "completePageChecked": false,
-        "claimCoverage": "PENDING",
+        "score": 94,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "claimCoverage": "complete",
         "unmappedFactualClaims": [],
-        "sources": [],
-        "sourceClaimMap": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-24T21:21:43.555Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-24T21:21:43.555Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "documentation requirements vary between loans",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "it is a good idea to compare loan products from multiple lenders before applying",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "the law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          }
+        ],
         "limitations": [
-          "Writer draft only. Independent review attestations are PENDING at this revision. Do not treat this record as a PASS, score, or professional approval.",
-          "Guide sha256 at this writer revision is eab8e2b348b4d9d67e39f18c5445e4661d63cffdc1d9e5c67ff6d23385fa1491. beforeSha256 is 215e6d71faf512d97871c7e5e26190245056d7620e603d3316c3fc48e39ea3c0 at main 3585498efaa358d29db22c9385dd380e4311db0d.",
-          "business.gov.au Apply for a business loan returned HTTP 200 (354791 bytes) to Python urllib GET at 2026-11-24T20:28:48.775319Z. The Shop around section encodes It's with a right single quotation mark as It&rsquo;s a good idea to compare loan products from multiple lenders before applying. The guide uses a straight apostrophe. The words otherwise match. Documentation requirements vary between loans is also on that page and is used in the prepare section.",
-          "ASIC Disputes about commercial loans returned HTTP 200 (76012 bytes) to Python urllib GET at 2026-11-24T20:28:49.360335Z. Final URL was the requested URL. The guide uses the live sentences The law provides the lowest level of protection to commercial loans, including loans to small businesses and The laws, and the protections they provide to borrowers, differ depending on the purpose of the loan.",
-          "packages/site-cleanup-20261124/work/noindex_final.json is not on current main. Registry rows for invoice-finance-australia-complete-guide and trade-finance-in-australia-how-it-helps-businesses-manage-imports remain indexable. Those targets are used.",
-          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, and reviewed_date are unchanged. Independent review metadata remains PENDING. contentRisk medium, primaryQuery, searchIntent, designatedServicePage, metaTitle, metaDescription, featuredImage and sources are publication-contract fields required for this material change.",
-          "The page already had 6 FAQ questions. The publication contract allows 3-6, so two extra FAQ headings were not added. The overdraft or line of credit question is answered in a dedicated H3 and in the existing business-loan FAQ. The security question is answered in the property-backed section and in the existing lender-need FAQ.",
-          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. No such figures were present at base. All caveat-loan product listings and links were removed. Emet Capital is described as a commercial finance broker, not a lender. Registry maxAutomatedChangeRisk remains R0."
+          "This is an automated independent editorial and source review of resulting guide sha256 88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81. Independent Grok 4.7 review PASS 94 of pre-metadata sha256 adcd4da4045c4b917d2d086532a16c3e691476b6e92bbc1c5ddb3bb993f38ab9 at git 739137276e2a8f0ebb184578e090b1b91446f2a5 (rebased as 56a41f309b02d31e7ade3869c320e2ab7ae563ff after same-day main 8292068244944ea05df6a5cd98069a8e71e0e4a7). Posted on PR 290. This metadata commit does not change the article body. reviewedAt 2026-11-24T21:21:43.555Z and expiresAt 2027-05-23T21:21:43.555Z (180 days). Writer run https://cursor.com/agents/bc-9cd1b5f1-5176-58a7-90b7-f1cb4bee1f06. Not human or professional financial approval.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, and publication date 2026-06-14 stay. reviewed_date 2026-06-14 is removed. contentRisk stays medium. No Ben or owner approval is invented.",
+          "business.gov.au Apply for a business loan returned HTTP 200 to the independent review at 2026-11-24T21:21:43.555Z. ASIC Disputes about commercial loans returned HTTP 200 at the same instant. CI must re-observe 2xx within 30 days of checkedAt.",
+          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. All caveat-loan product listings and links were removed. Emet Capital is described as a commercial finance broker, not a lender. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-06-14; no reviewedBy, reviewedAt, or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-24T21:21:43.555Z; expiresAt: 2027-05-23T21:21:43.555Z; reviewed_date removed. Guide sha256 88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81 independently reviewed PASS 94.",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. The reviewed_date alias is removed. Article body is unchanged from git 739137276e2a8f0ebb184578e090b1b91446f2a5, rebased as 56a41f309b02d31e7ade3869c320e2ab7ae563ff."
+          }
         ],
         "scopeVerification": {
           "canonicalWebsiteTouched": false,
           "urlAndCanonicalUnchanged": true,
           "contentRiskUnchanged": true,
           "authorAndPublicationDateUnchanged": true,
-          "reviewMetadataUnchangedPendingIndependentReview": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
           "metadataChecked": true,
           "allInternalLinksResolved": true,
-          "canonicalReviewMetadataSet": false,
-          "resultingFileIndependentlyReviewed": false
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
         }
       }
     }

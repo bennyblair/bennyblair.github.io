@@ -11,7 +11,6 @@ keywords:
   - "commercial short term finance"
 readTime: "9 min read"
 author: "Ben"
-reviewed_date: "2026-06-14"
 author_links: [{"label":"Ben bio","url":"/about/ben"}]
 author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
@@ -23,6 +22,9 @@ primaryQuery: "short term business finance"
 searchIntent: "informational"
 designatedServicePage: "/services/business-finance"
 contentRisk: "medium"
+reviewedBy: "OpenClaw independent reviewer"
+reviewedAt: "2026-11-24T21:21:43.555Z"
+expiresAt: "2027-05-23T21:21:43.555Z"
 featuredImage: "/images/uploads/short-term-business-finance.jpg"
 featuredImageAlt: "Brick facade of the former Broughton House warehouse in Sydney; representative property photograph."
 sources:
