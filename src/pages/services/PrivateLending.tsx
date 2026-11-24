@@ -227,12 +227,7 @@ const PrivateLending = () => {
                 </a>
                 {" "}lists identification, a business plan, financial reports and similar inputs as
                 possible application material, and notes it is a good idea to compare loan products
-                from multiple lenders before applying. A property-secured private file also needs
-                title, existing debt and exit evidence. The full pack, section by section, is in the{" "}
-                <Link to="/resources/guides/private-lender-document-pack-broker-take" className="text-accent underline">
-                  private lender document pack
-                </Link>
-                . Do not treat that guide as a substitute for the lender's own list.
+                from multiple lenders before applying. A property-secured private file also needs title, existing debt and exit evidence. A guide is not a substitute for the lender's own list.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 {documentItems.map((item) => (
@@ -316,14 +311,14 @@ const PrivateLending = () => {
                 <a href="https://www.legislation.gov.au/F2010L00631/latest" className="text-accent underline" target="_blank" rel="noopener noreferrer">
                   regulation 68 of the National Consumer Credit Protection Regulations 2010
                 </a>
-                , and it says the credit will be used wholly or predominantly for business purposes or for investment other than in residential property.
+                , and the prescribed form says the credit is to be applied wholly or predominantly for business purposes, or investment purposes other than investment in residential property.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 The declaration does not change what the money is really for. Under{" "}
                 <a href="https://www.legislation.gov.au/C2009A00134/latest/text" className="text-accent underline" target="_blank" rel="noopener noreferrer">
                   section 13 of the National Credit Code
                 </a>
-                , it is ineffective if the lender knew, or would have known after reasonable inquiries, that the loan was for a personal, household or residential investment purpose. In 2025 the Federal Court found that two lenders had used business purpose declarations on loans that were in fact consumer loans (
+                , it is ineffective if, when it was made, the credit provider or a prescribed person knew, or had reason to believe, or would have known or had reason to believe if they had made reasonable inquiries, that the credit was to be applied wholly or predominantly for a Code purpose: a personal, domestic or household purpose; purchasing, renovating or improving residential property for investment; or refinancing credit provided wholly or predominantly for that residential investment purpose. The regulations' prescribed persons include a person who obtained the declaration, referred the borrower, or assisted the application. In 2025 the Federal Court found that business lender Green County Pty Ltd and business loan introducer Max Funding Pty Ltd engaged in unlicensed credit activity on loans Green County made to two consumers. For one consumer, they could not rely on the business purpose declaration: had they made reasonable inquiries, they would have known or had reason to believe the loan was not for a business purpose. ASIC was not successful on one loan (
                 <a href="https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-060mr-federal-court-finds-green-county-and-max-funding-engaged-in-unlicensed-lending-practices" className="text-accent underline" target="_blank" rel="noopener noreferrer">
                   ASIC media release 25-060MR
                 </a>
@@ -364,10 +359,6 @@ const PrivateLending = () => {
                       For decline diagnosis, see{" "}
                       <Link to="/resources/guides/private-commercial-loans-after-bank-decline" className="text-accent underline">
                         private commercial loans after a bank decline
-                      </Link>
-                      {" "}and{" "}
-                      <Link to="/resources/guides/private-debt-australia" className="text-accent underline">
-                        private debt in Australia
                       </Link>
                       . Illustration only.
                     </p>
@@ -419,11 +410,8 @@ const PrivateLending = () => {
                       {" "}where the gap is a true timing bridge. If the purchase cannot be completed
                       without stretching the exit past a supportable date, the transaction should be
                       renegotiated or paused rather than forced into private credit. For ranking,
-                      documents and exits on a property-secured private mortgage, see the{" "}
-                      <Link to="/resources/guides/private-lending-mortgage" className="text-accent underline">
-                        private lending mortgage guide
-                      </Link>
-                      . Illustration only.
+                      documents and exits on a property-secured private mortgage, see the private lending mortgage guide.
+                      Illustration only.
                     </p>
                   </CardContent>
                 </Card>
@@ -464,11 +452,7 @@ const PrivateLending = () => {
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground leading-relaxed">
                     If the only problem is a defined timing gap before an evidenced sale or refinance,
-                    compare{" "}
-                    <Link to="/services/bridging-finance" className="text-accent underline">
-                      bridging finance
-                    </Link>
-                    {" "}on the same exit and cost questions. A private mortgage is not automatically
+                    compare bridging finance on the same exit and cost questions. A private mortgage is not automatically
                     the better bridge.
                   </CardContent>
                 </Card>
@@ -569,11 +553,6 @@ const PrivateLending = () => {
                   <p className="text-sm text-muted-foreground mb-2">What private lending is, when it may fit, cost questions and limits.</p>
                   <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
                 </Link>
-                <Link to="/resources/guides/private-debt-australia" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
-                  <h3 className="font-semibold text-foreground mb-2">Private debt in Australia</h3>
-                  <p className="text-sm text-muted-foreground mb-2">How non-bank debt is used by commercial borrowers, including structures, risks and when it may not fit.</p>
-                  <span className="text-accent text-sm inline-flex items-center">Read Guide <ArrowRight className="ml-1 h-3 w-3" /></span>
-                </Link>
                 <Link to="/resources/guides/private-lending-mortgage" className="block p-5 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all">
                   <h3 className="font-semibold text-foreground mb-2">Private lending mortgage</h3>
                   <p className="text-sm text-muted-foreground mb-2">Property-secured private mortgages: assessment, documents, exits and first versus second ranking.</p>
@@ -593,8 +572,6 @@ const PrivateLending = () => {
           <DiscoveryGuides service="private-lending" />
 
           <RelatedReading articles={[
-            { title: "Private Debt Australia", slug: "private-debt-australia", description: "Non-bank debt structures, assessment and risks for commercial borrowers" },
-            { title: "Private Lending Mortgage", slug: "private-lending-mortgage", description: "How a property-secured private mortgage is assessed, documented and repaid" },
             { title: "Private Credit Broker vs Direct Private Credit Fund", slug: "private-credit-broker-vs-direct-private-credit-fund-australia", description: "When comparing lenders through a broker is useful, and when a single fund may be enough" }
           ] as RelatedArticle[]} />
 

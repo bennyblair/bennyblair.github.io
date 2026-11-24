@@ -394,9 +394,6 @@ const CommercialPropertyFinance = () => {
                       Short-term funding used to bridge a settlement, sale, refinance, or another defined
                       timing gap.
                     </p>
-                    <Link to="/services/bridging-finance" className="text-accent hover:underline text-sm inline-flex items-center">
-                      Bridging finance <ArrowRight className="ml-1 h-4 w-4" />
-                    </Link>
                   </CardContent>
                 </Card>
 
@@ -430,9 +427,6 @@ const CommercialPropertyFinance = () => {
                       Additional property-backed funding behind an existing first mortgage where the first
                       facility should not be disturbed.
                     </p>
-                    <Link to="/services/first-second-mortgages" className="text-accent hover:underline text-sm inline-flex items-center">
-                      First and second mortgages <ArrowRight className="ml-1 h-4 w-4" />
-                    </Link>
                   </CardContent>
                 </Card>
 

@@ -507,25 +507,6 @@ const BridgingFinance = () => {
                 guide.
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className="md:col-span-2 lg:col-span-3">
-                  <Link
-                    to="/resources/guides/bridging-finance-australia-complete-property-guide"
-                    className="block p-6 bg-accent/5 border-2 border-accent/20 rounded-lg hover:border-accent/40 hover:bg-accent/10 transition-all"
-                  >
-                    <div className="flex items-start gap-4">
-                      <BookOpen className="h-8 w-8 text-accent flex-shrink-0 mt-1" />
-                      <div>
-                        <h3 className="text-xl font-semibold text-foreground mb-2">Complete Bridging Finance Guide</h3>
-                        <p className="text-muted-foreground mb-3">
-                          Peak debt, total cost, delayed-settlement risk and alternatives.
-                        </p>
-                        <span className="text-accent font-medium inline-flex items-center">
-                          Read Complete Guide <ArrowRight className="ml-2 h-4 w-4" />
-                        </span>
-                      </div>
-                    </div>
-                  </Link>
-                </div>
                 <Link
                   to="/resources/guides/what-is-bridging-finance"
                   className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
