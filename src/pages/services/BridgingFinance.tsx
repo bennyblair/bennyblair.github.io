@@ -46,6 +46,16 @@ const BridgingFinance = () => {
       answer:
         "The file should pause when the purpose is not commercial, the security or existing debt cannot be explained, the repayment event is only hoped for, or a delayed-exit plan cannot cover interest, known fees and a later repayment. Circulating an incomplete file wastes lender time and does not create an exit. A conventional facility, a smaller requirement or not proceeding can be the clearer outcome.",
     },
+    {
+      question: "Is a commercial bridge the same as a buy-before-you-sell home bridging loan?",
+      answer:
+        "No. Buy-before-you-sell bridging for a family home is consumer credit, and Emet Capital does not arrange it. Emet only discusses business-purpose bridges, such as a commercial purchase, a refinance that will not finish before a maturity date, or a subdivision or development timing gap.",
+    },
+    {
+      question: "How is a bridge different from a second mortgage?",
+      answer:
+        "A bridge is short-term funding repaid by a specific event, such as a sale or refinance, and the exit is tested before anything else. A second mortgage sits behind an existing first mortgage and may run for a longer term with regular repayments. The right choice depends on the exit, the existing lender's position and the total cost over the expected term.",
+    },
   ];
 
   const serviceSchema = generateServiceSchema(
@@ -102,8 +112,8 @@ const BridgingFinance = () => {
   return (
     <>
       <SEO
-        title="Commercial Bridging Finance Broker Australia | Emet Capital"
-        description="Emet Capital is a commercial finance broker, not a lender. We structure commercial bridging finance from intake through settlement coordination."
+        title="Commercial Bridging Loans & Finance Broker | Emet Capital"
+        description="Commercial bridging finance arranged by a broker, not a lender. We test the exit, compare lenders on one cost sheet and coordinate the file to settlement."
         canonical="/services/bridging-finance"
         keywords="commercial bridging finance broker Australia, arrange bridging finance, commercial bridging service, bridging loan exit plan, commercial bridging finance"
         geo={false}
@@ -220,14 +230,10 @@ const BridgingFinance = () => {
                   open versus closed comparison
                 </Link>{" "}
                 explains how to classify the exit on today&apos;s evidence. The{" "}
-                <Link to="/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path" className="text-accent underline">
-                  bridging loan exit-strategy guide
-                </Link>{" "}
-                and the{" "}
                 <Link to="/resources/guides/bridging-loan-exit-strategy-broker-take" className="text-accent underline">
                   broker-take exit checklist
                 </Link>{" "}
-                cover how a delayed-exit plan is written. We apply those tests to the file before any
+                covers how a delayed-exit plan is written. We apply those tests to the file before any
                 lender sees it.
               </p>
               <div className="overflow-x-auto">
@@ -325,6 +331,19 @@ const BridgingFinance = () => {
             </ServiceChapter>
 
             <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Commercial bridge or home bridging loan?</h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Most bridging loan information online is about buying a new home before selling the old one. That is consumer credit, and Emet Capital does not arrange it. A commercial bridge is different in three ways: the purpose is a business or commercial investment transaction, the lender assesses the business-purpose evidence as well as the property, and the repayment event is a commercial sale, refinance or settlement rather than the sale of a family home.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                The practical differences show up in the file. A commercial bridge usually needs entity documents, evidence of the business purpose, a valuation the lender will rely on and a delayed-exit plan. Interest is often capitalised or prepaid rather than paid monthly, so the amount owing at the planned exit, and if that exit is late, matters more than the headline rate.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                If you are not sure which side of the line your transaction sits on, raise it at the first conversation. A transaction with a personal or household purpose is not something Emet can help with, however it is described.
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">Documents we ask for at intake</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 The Australian Government&apos;s{" "}
@@ -358,20 +377,18 @@ const BridgingFinance = () => {
             </ServiceChapter>
 
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">HYPOTHETICAL scenarios</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Illustrative scenarios</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                The three illustrations below are labelled HYPOTHETICAL. They are not Emet Capital
-                clients, completed transactions, case studies or indications of approval. They show how
-                intake, the security and exit test and the shortlist comparison change the file.
+                The three scenarios below illustrate the method. They are not Emet Capital clients, completed transactions or indications of approval.
               </p>
 
               <div className="space-y-6">
                 <Card>
                   <CardHeader>
                     <div className="flex items-center gap-2 mb-2">
-                      <Badge variant="outline">HYPOTHETICAL</Badge>
+                      <Badge variant="outline">Illustrative scenario</Badge>
                     </div>
-                    <CardTitle className="text-lg">HYPOTHETICAL: auction settlement before sale</CardTitle>
+                    <CardTitle className="text-lg">Auction settlement before sale</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
                     <p>
@@ -383,14 +400,10 @@ const BridgingFinance = () => {
                       can repay the bridge. Only then would a shortlist compare net proceeds.
                     </p>
                     <p>
-                      This HYPOTHETICAL is an illustration of the method, not a result. For auction
+                      Illustration only. For auction
                       settlement detail, see the{" "}
                       <Link to="/resources/guides/commercial-bridging-loans-for-property-auctions-expert-guide" className="text-accent underline">
                         commercial bridging for auctions guide
-                      </Link>{" "}
-                      and the{" "}
-                      <Link to="/resources/guides/bridging-finance-auction-settlement-case-study" className="text-accent underline">
-                        auction-settlement case-study pattern
                       </Link>
                       .
                     </p>
@@ -400,9 +413,9 @@ const BridgingFinance = () => {
                 <Card>
                   <CardHeader>
                     <div className="flex items-center gap-2 mb-2">
-                      <Badge variant="outline">HYPOTHETICAL</Badge>
+                      <Badge variant="outline">Illustrative scenario</Badge>
                     </div>
-                    <CardTitle className="text-lg">HYPOTHETICAL: commercial purchase before refinance</CardTitle>
+                    <CardTitle className="text-lg">Commercial purchase before refinance</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
                     <p>
@@ -415,13 +428,9 @@ const BridgingFinance = () => {
                       a short-term bridge against the cost of missing settlement.
                     </p>
                     <p>
-                      This HYPOTHETICAL is not a completed Emet file. Compare the refinance pathway on{" "}
+                      Illustration only. Compare the refinance pathway on{" "}
                       <Link to="/services/refinancing-solutions" className="text-accent underline">
                         commercial property refinancing
-                      </Link>{" "}
-                      and the{" "}
-                      <Link to="/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path" className="text-accent underline">
-                        exit-strategy guide
                       </Link>
                       .
                     </p>
@@ -431,9 +440,9 @@ const BridgingFinance = () => {
                 <Card>
                   <CardHeader>
                     <div className="flex items-center gap-2 mb-2">
-                      <Badge variant="outline">HYPOTHETICAL</Badge>
+                      <Badge variant="outline">Illustrative scenario</Badge>
                     </div>
-                    <CardTitle className="text-lg">HYPOTHETICAL: subdivision registration delay</CardTitle>
+                    <CardTitle className="text-lg">Subdivision registration delay</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
                     <p>
@@ -446,7 +455,7 @@ const BridgingFinance = () => {
                       those numbers still close.
                     </p>
                     <p>
-                      This HYPOTHETICAL is an illustration only. The existing{" "}
+                      Illustration only. The existing{" "}
                       <Link to="/resources/guides/bridging-finance-subdivision-registration-delay-australia" className="text-accent underline">
                         subdivision registration delay guide
                       </Link>{" "}
