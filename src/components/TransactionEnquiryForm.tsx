@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { getLandingAttribution, trackEnquiryStep, trackLead, type LandingAttribution } from "@/lib/analytics";
 import { createEnquiryId, isPreviewSubmission, submitEnquiry } from "@/lib/enquiry-submission";
-import { ENQUIRY_RESPONSE_MESSAGE, enquiryPurposeLabel, normaliseTransactionPurpose, TRANSACTION_JOURNEYS } from "@/lib/transactions";
+import { ENQUIRY_RESPONSE_MESSAGE, enquiryPurposeLabel, normaliseTransactionPurpose, TRANSACTION_JOURNEYS, type TransactionPurpose } from "@/lib/transactions";
 
 const selectClass = "mt-1 flex min-h-11 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
 const emptyFields = { name: "", email: "", phone: "", business: "", loanAmount: "", timing: "", message: "", securityType: "", securityLocation: "", securityValue: "", existingDebt: "", repaymentPlan: "" };
@@ -18,7 +18,7 @@ function focusEnquiryField(field: HTMLElement | null) {
   field.scrollIntoView({ block: "center", behavior: "instant" });
 }
 
-export default function TransactionEnquiryForm({ formName, className = "" }: { formName: "contact" | "homepage-contact"; className?: string }) {
+export default function TransactionEnquiryForm({ formName, className = "", initialPurpose }: { formName: "contact" | "homepage-contact"; className?: string; initialPurpose?: TransactionPurpose }) {
   const [ready, setReady] = useState(false);
   const [step, setStep] = useState(1);
   const [purpose, setPurpose] = useState("");
@@ -42,14 +42,15 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
   const busy = useRef(false);
 
   useEffect(() => {
-    const initial = normaliseTransactionPurpose(new URLSearchParams(window.location.search).get("purpose"));
-    if (initial !== "not_provided") setPurpose(initial);
+    const fromUrl = normaliseTransactionPurpose(new URLSearchParams(window.location.search).get("purpose"));
+    if (fromUrl !== "not_provided") setPurpose(fromUrl);
+    else if (initialPurpose && initialPurpose !== "not_provided") setPurpose(initialPurpose);
     setAttribution(getLandingAttribution());
     // The build browser also runs effects. Keep its serialized controls disabled
     // so the real browser cannot edit them before React has attached handlers.
     const runtime = window as Window & { __EMET_PRERENDER__?: boolean };
     if (!runtime.__EMET_PRERENDER__) setReady(true);
-  }, []);
+  }, [initialPurpose]);
 
   const update = (key: keyof typeof fields, value: string) => setFields((previous) => ({ ...previous, [key]: value }));
   const id = (field: string) => formName + "-" + field;
@@ -73,6 +74,7 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
       const formData = new FormData(event.currentTarget);
       const enquiryId = createEnquiryId();
       formData.set("enquiryId", enquiryId);
+      formData.set("enquiryPath", window.location.pathname);
       const result = await submitEnquiry(formData, isPreviewSubmission());
       if (result === "ignored") return;
       if (result === "preview") {
@@ -103,6 +105,7 @@ export default function TransactionEnquiryForm({ formName, className = "" }: { f
       <input type="hidden" name="aiDetectionMethod" value={attribution.ai_detection_method} />
       <input type="hidden" name="aiAttributionScope" value={attribution.ai_attribution_scope} />
       <input type="hidden" name="enquiryId" value="" />
+      <input type="hidden" name="enquiryPath" value="" />
       <input type="hidden" name="trafficChannel" value={attribution.traffic_channel} />
       <input type="hidden" name="utm_source" value={attribution.utm_source} />
       <input type="hidden" name="utm_medium" value={attribution.utm_medium} />

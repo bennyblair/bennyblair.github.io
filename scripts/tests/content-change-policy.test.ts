@@ -157,8 +157,8 @@ test("removing the manifest lookup makes the suite fail", () => {
   assert.match(fn, /matchesExemptionEntry/);
   assert.doesNotMatch(source, /INLINK_CLAIM_DENYLIST|ALLOWED_SERVICE_PATH|isAllowedInlinkLineEdit|WRAP_CLOSE/);
   const entries = loadInlinkExemptionEntries();
-  assert.equal(entries.length, 27);
-  assert.equal(new Set(entries.map((entry) => entry.file)).size, 27);
+  assert.equal(entries.length, 31);
+  assert.equal(new Set(entries.map((entry) => entry.file)).size, 31);
   for (const entry of entries) {
     assert.equal(entry.beforeSha256, sha256Utf8(entry.before), entry.id);
     assert.equal(entry.afterSha256, sha256Utf8(entry.after), entry.id);

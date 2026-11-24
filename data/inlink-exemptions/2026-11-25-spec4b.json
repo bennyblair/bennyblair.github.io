@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-25-spec4b",
+  "entries": [
+    {
+      "id": "L1",
+      "file": "src/content/guides/low-doc-business-finance.md",
+      "before": "In practice, low doc funding is most useful when the business purpose is clear, the exit is credible, and the security position is strong. A borrower buying a warehouse, refinancing short-term debt, or releasing equity from commercial property may still be financeable even when the paperwork is incomplete by mainstream bank standards. Emet Capital arranges [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) and other [business finance](/services/business-finance) options for eligible business borrowers who need a realistic path through that gap.",
+      "after": "In practice, low doc funding is most useful when the business purpose is clear, the exit is credible, and the security position is strong. A borrower [buying a warehouse](/services/commercial-property-finance), refinancing short-term debt, or releasing equity from commercial property may still be financeable even when the paperwork is incomplete by mainstream bank standards. Emet Capital arranges [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) and other [business finance](/services/business-finance) options for eligible business borrowers who need a realistic path through that gap.",
+      "beforeSha256": "51c1432fb154496305f7be4f60512b0e24c696e781343ac81869888ac46a3938",
+      "afterSha256": "2c4557769bafc89a778d629307b8730e64650f4d5d4aa32da51b1d67f0b0a797"
+    },
+    {
+      "id": "L2",
+      "file": "src/content/guides/commercial-property-loans-australia-complete-guide.md",
+      "before": "Longer-term facilities rely on sustainable serviceability. Transitional or short-term facilities need a dated, evidenced exit such as refinance, sale, lease stabilisation or another defined capital event.",
+      "after": "Longer-term facilities rely on sustainable serviceability. Transitional or short-term facilities need a dated, evidenced exit such as refinance, sale, lease stabilisation or another defined capital event. Emet Capital applies that exit test before it arranges [commercial bridging finance](/services/bridging-finance) for a transitional purchase or refinance.",
+      "beforeSha256": "d42c7ceda357e0e87c92336415e8d3b23dfd5187ea980776dfa360f73fe8fa42",
+      "afterSha256": "9eff77cf8b589fb98330598b33407df3483ac65986393965e8c0c9cc9052f742"
+    },
+    {
+      "id": "L3",
+      "file": "src/content/guides/commercial-property-development-finance.md",
+      "before": "Development finance may suit a borrower acquiring a commercial site with planning upside, funding construction after approvals, completing a partially built project, or refinancing an existing lender before the final exit. It may also suit business owners building premises for operational use, provided the business purpose and repayment strategy are clear.",
+      "after": "Development finance may suit a borrower acquiring a commercial site with planning upside, funding construction after approvals, completing a partially built project, or refinancing an existing lender before the final exit. It may also suit business owners building premises for operational use, provided the business purpose and repayment strategy are clear. If construction is complete and only a sale or refinance date remains, compare that shorter gap with [commercial bridging finance](/services/bridging-finance).",
+      "beforeSha256": "d3658236bdb749263249fa882bde368842befe0ef17abf66d648d2605e883f22",
+      "afterSha256": "590cf22f6d15e3c3843f9213eefbb7bc014aaf7979d02028916947dd16980f3b"
+    },
+    {
+      "id": "L4",
+      "file": "src/content/guides/secured-vs-unsecured-business-loans-australia.md",
+      "before": "For property-supported requests, see [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia). For lender-market context, see [unsecured business loan lenders](/resources/guides/unsecured-business-loan-lenders-australia).",
+      "after": "For property-supported requests, see [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia). For lender-market context, see [unsecured business loan lenders](/resources/guides/unsecured-business-loan-lenders-australia). If a bank has declined a property-secured request or cannot meet the date, Emet Capital compares [private lenders for business loans](/services/private-lending) as a broker.",
+      "beforeSha256": "dea7f55514725bfa1b84bc6892874c3a78aa560b2f840f1e7864471ef200d694",
+      "afterSha256": "79458023a70dd540888ff8025bd3722c151f7b4bc6a6358b7129341af5b08dc6"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ sources:
 
 Low doc business finance is not "no questions asked" lending. It usually means a lender is willing to assess a commercial borrower with reduced financial documents, often using BAS statements, bank statements, asset position, and security quality instead of two full years of tax returns. For Australian business owners dealing with timing pressure, recent growth, or uneven financial reporting, that can make the difference between moving forward and missing an opportunity.
 
-In practice, low doc funding is most useful when the business purpose is clear, the exit is credible, and the security position is strong. A borrower buying a warehouse, refinancing short-term debt, or releasing equity from commercial property may still be financeable even when the paperwork is incomplete by mainstream bank standards. Emet Capital arranges [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) and other [business finance](/services/business-finance) options for eligible business borrowers who need a realistic path through that gap.
+In practice, low doc funding is most useful when the business purpose is clear, the exit is credible, and the security position is strong. A borrower [buying a warehouse](/services/commercial-property-finance), refinancing short-term debt, or releasing equity from commercial property may still be financeable even when the paperwork is incomplete by mainstream bank standards. Emet Capital arranges [commercial property loans](/resources/guides/commercial-property-loans-australia-complete-guide) and other [business finance](/services/business-finance) options for eligible business borrowers who need a realistic path through that gap.
 
 ## Low doc business finance at a glance
 

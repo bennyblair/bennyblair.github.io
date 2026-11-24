@@ -10,7 +10,9 @@ import FAQSection from "@/components/FAQSection";
 import SEO from "@/components/SEO";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
 import { EMET_LOGO_URL, resolveArticleAuthor } from "@/lib/schema-utils";
+import { EnquiryCta } from "@/components/EnquiryCta";
 import { getDesignatedService, rankRelatedArticles } from "@/lib/seo-links";
+import { purposeForServicePath } from "@/lib/transactions";
 import {
   formatArticleDate,
   getArticlePublicationLabels,
@@ -527,18 +529,7 @@ const GuideArticle = () => {
 
             {/* CTA Card */}
             <Card className="article-side-cta p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
-              <h3 className="text-lg font-bold text-foreground mb-3">
-                Want to Understand Your Options?
-              </h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                We share general information on financing solutions and guide you through the next steps.
-              </p>
-              <Button 
-                asChild 
-                className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent"
-              >
-                <Link to="/contact">Reach Out to Us Today</Link>
-              </Button>
+              <EnquiryCta variant="card" heading="Discuss your transaction" purpose={purposeForServicePath(designatedService?.path)} />
             </Card>
           </aside>
         </div>
@@ -546,20 +537,8 @@ const GuideArticle = () => {
         {/* Bottom CTA Section */}
         <Card className="article-closing-cta">
           <CardContent className="p-10 text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-4">
-              Ready to Discuss Your Financing Needs?
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Contact us today to discuss your situation. We share general information and guidance on financing solutions.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button 
-                asChild 
-                size="lg"
-                className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-accent-foreground px-8 py-3"
-              >
-                <Link to="/contact">Get Your Custom Quote</Link>
-              </Button>
+            <EnquiryCta variant="band" heading="Ready to discuss your transaction?" purpose={purposeForServicePath(designatedService?.path)} />
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-4">
               <Button 
                 asChild 
                 variant="outline" 

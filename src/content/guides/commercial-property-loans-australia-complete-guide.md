@@ -66,7 +66,7 @@ There is no universal deposit or loan-to-value ratio for every commercial asset.
 
 ### 5. Exit and term
 
-Longer-term facilities rely on sustainable serviceability. Transitional or short-term facilities need a dated, evidenced exit such as refinance, sale, lease stabilisation or another defined capital event.
+Longer-term facilities rely on sustainable serviceability. Transitional or short-term facilities need a dated, evidenced exit such as refinance, sale, lease stabilisation or another defined capital event. Emet Capital applies that exit test before it arranges [commercial bridging finance](/services/bridging-finance) for a transitional purchase or refinance.
 
 ## Borrower-readiness matrix
 

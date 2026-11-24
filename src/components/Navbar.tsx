@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import { takeNavigationState } from "@/lib/navigation-state";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowUpRight, Menu, Phone, X } from "lucide-react";
+import { ArrowUpRight, Mail, Menu, Phone, X } from "lucide-react";
 const primaryLinks = [
   { href: "/services", label: "Services" },
   { href: "/resources/guides", label: "Guides" },
@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="nav-contact"><a href="tel:+61485952651" className="nav-phone"><Phone aria-hidden="true" />0485 952 651</a><Link to="/contact" className="nav-enquiry" data-analytics-event="header_enquiry_cta">Discuss a deal <ArrowUpRight aria-hidden="true" /></Link></div>
       <details className="mobile-menu" ref={disclosure} onKeyDown={event => { if(event.key === "Escape" && disclosure.current) { disclosure.current.open=false; disclosure.current.querySelector("summary")?.focus(); } }}>
         <summary aria-label="Navigation menu"><Menu className="menu-open-icon" aria-hidden="true" /><X className="menu-close-icon" aria-hidden="true" /></summary>
-        <div id="mobile-navigation" className="mobile-navigation" onClick={event => { if((event.target as Element).closest("a") && disclosure.current) disclosure.current.open=false; }}>{links}<Link to="/resources/case-studies">Case Studies</Link><Link to="/contact" data-analytics-event="header_enquiry_cta">Contact</Link><a href="tel:+61485952651"><Phone aria-hidden="true" />Call 0485 952 651</a></div>
+        <div id="mobile-navigation" className="mobile-navigation" onClick={event => { if((event.target as Element).closest("a") && disclosure.current) disclosure.current.open=false; }}>{links}<Link to="/resources/case-studies">Case Studies</Link><Link to="/contact" data-analytics-event="header_enquiry_cta">Contact</Link><a href="tel:+61485952651"><Phone aria-hidden="true" />Call 0485 952 651</a><a href="mailto:enquiry@emetcapital.com.au"><Mail aria-hidden="true" />Email enquiry@emetcapital.com.au</a></div>
       </details>
     </div>
   </nav>;

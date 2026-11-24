@@ -107,7 +107,7 @@ Emet Capital’s editorial process for a comparison file is:
 5. prepare one consistent document pack; and
 6. compare lender terms on the same amount, term and exit assumptions.
 
-For property-supported requests, see [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia). For lender-market context, see [unsecured business loan lenders](/resources/guides/unsecured-business-loan-lenders-australia).
+For property-supported requests, see [business loans secured by residential property](/resources/guides/business-loans-secured-by-residential-property-in-australia). For lender-market context, see [unsecured business loan lenders](/resources/guides/unsecured-business-loan-lenders-australia). If a bank has declined a property-secured request or cannot meet the date, Emet Capital compares [private lenders for business loans](/services/private-lending) as a broker.
 
 ## Illustrative decision example — not a client outcome
 

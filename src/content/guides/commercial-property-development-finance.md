@@ -80,7 +80,7 @@ This distinction matters because a lender cannot rely only on today’s property
 
 Developers should consider development finance when the project has moved beyond an idea and can be supported by documented feasibility, planning status, cost estimates, security, and a realistic exit. The stronger the evidence, the more lender options are likely to be available.
 
-Development finance may suit a borrower acquiring a commercial site with planning upside, funding construction after approvals, completing a partially built project, or refinancing an existing lender before the final exit. It may also suit business owners building premises for operational use, provided the business purpose and repayment strategy are clear.
+Development finance may suit a borrower acquiring a commercial site with planning upside, funding construction after approvals, completing a partially built project, or refinancing an existing lender before the final exit. It may also suit business owners building premises for operational use, provided the business purpose and repayment strategy are clear. If construction is complete and only a sale or refinance date remains, compare that shorter gap with [commercial bridging finance](/services/bridging-finance).
 
 It is usually not the right structure for a speculative project with unresolved approvals, uncertain construction pricing, weak borrower contribution, or no credible path to sale or refinance. In those cases, the project may need more equity, more due diligence, or a different staged approach before debt is introduced.
 

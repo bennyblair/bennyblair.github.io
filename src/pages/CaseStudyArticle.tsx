@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, MapPin, DollarSign, Calendar, Building2, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { EnquiryCta } from "@/components/EnquiryCta";
 import { getArticleBySlug, type Article } from "@/lib/content";
 import { convertMarkdownToHtml, stripFirstHeading } from "@/lib/markdown-converter";
 import { initializeArticleEnhancements } from "@/lib/article-enhancements";
@@ -315,23 +316,15 @@ const CaseStudyArticle = () => {
               )}
 
               <Card className="article-side-cta p-6 bg-gradient-to-br from-accent/10 to-accent-light/10 border-accent/20">
-                <h3 className="text-lg font-bold text-foreground mb-3">Want to Understand Your Options?</h3>
-                <p className="text-sm text-muted-foreground mb-4">We share general information on financing solutions and guide you through the next steps.</p>
-                <Button asChild className="w-full bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent">
-                  <Link to="/contact">Reach Out to Us Today</Link>
-                </Button>
+                <EnquiryCta variant="card" heading="Discuss a similar transaction" />
               </Card>
             </aside>
           </div>
 
           <Card className="article-closing-cta">
             <CardContent className="p-10 text-center">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Ready to Discuss Your Financing Needs?</h2>
-              <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">We can provide information and guidance on potential financing solutions for your next property venture.</p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button asChild size="lg" className="min-w-[200px]">
-                  <Link to="/contact">Reach Out to Us Today<ArrowLeft className="w-4 h-4 ml-2 rotate-180" /></Link>
-                </Button>
+              <EnquiryCta variant="band" heading="Discuss a similar transaction" />
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
                 <Button asChild variant="outline" size="lg" className="min-w-[200px]">
                   <Link to="/resources/case-studies">View More Case Studies</Link>
                 </Button>
