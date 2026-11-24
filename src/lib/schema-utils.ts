@@ -49,8 +49,31 @@ export const EMET_GEO = {
   longitude: "151.2231989"
 };
 
+export const EMET_ORGANIZATION_ID = "https://emetcapital.com.au/#organization";
+export const EMET_FINANCIAL_SERVICE_ID = "https://emetcapital.com.au/#financialservice";
+
 const ORGANIZATION_DESCRIPTION =
-  "Australian commercial finance brokers. We connect businesses with financing options through our network of private and institutional lenders.";
+  "Emet Capital is an Australian commercial finance broker, not a lender. It helps businesses, property investors and developers compare and arrange business-purpose finance secured by property, including commercial property finance, bridging finance, first and second mortgages and private lending.";
+
+const ORGANIZATION_DISAMBIGUATION =
+  "Emet Capital Pty Ltd, ABN 50 682 228 182, Kensington NSW, Australia. Not affiliated with Emet Capital Management (New York), Emet Mortgage (California), Emit Capital (Melbourne) or EMET Capital (Bogota).";
+
+const EMET_AREA_SERVED = { "@type": "Country", "name": "Australia" };
+
+const EMET_KNOWS_ABOUT = [
+  "Commercial property finance",
+  "Bridging finance",
+  "First and second mortgages for business purposes",
+  "Private lending for businesses",
+  "Business-purpose property-secured finance"
+];
+
+const EMET_CORE_SERVICES = [
+  { name: "Commercial property finance", path: "/services/commercial-property-finance" },
+  { name: "Bridging finance", path: "/services/bridging-finance" },
+  { name: "First and second mortgages", path: "/services/first-second-mortgages" },
+  { name: "Private lending", path: "/services/private-lending" }
+];
 
 /**
  * Generates Person JSON-LD schema for Ben.
@@ -139,11 +162,13 @@ export const generateOrganizationSchema = () => {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": EMET_ORGANIZATION_ID,
     "name": "Emet Capital",
     "legalName": "Emet Capital Pty Ltd",
     "url": "https://emetcapital.com.au",
     "logo": EMET_LOGO_URL,
     "description": ORGANIZATION_DESCRIPTION,
+    "disambiguatingDescription": ORGANIZATION_DISAMBIGUATION,
     "telephone": "+61-485-952-651",
     "email": "enquiry@emetcapital.com.au",
     "taxID": "50 682 228 182",
@@ -153,6 +178,8 @@ export const generateOrganizationSchema = () => {
       "value": "50 682 228 182"
     },
     "address": EMET_ADDRESS_SCHEMA,
+    "areaServed": EMET_AREA_SERVED,
+    "knowsAbout": EMET_KNOWS_ABOUT,
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+61-485-952-651",
@@ -180,10 +207,12 @@ export const generateLocalBusinessSchema = () => {
   return {
     "@context": "https://schema.org",
     "@type": "FinancialService",
+    "@id": EMET_FINANCIAL_SERVICE_ID,
     "name": "Emet Capital",
     "legalName": "Emet Capital Pty Ltd",
     "image": EMET_LOGO_URL,
     "url": "https://emetcapital.com.au",
+    "description": ORGANIZATION_DESCRIPTION,
     "telephone": "+61-485-952-651",
     "email": "enquiry@emetcapital.com.au",
     "taxID": "50 682 228 182",
@@ -197,6 +226,23 @@ export const generateLocalBusinessSchema = () => {
       "@type": "GeoCoordinates",
       "latitude": EMET_GEO.latitude,
       "longitude": EMET_GEO.longitude
+    },
+    "parentOrganization": {
+      "@id": EMET_ORGANIZATION_ID
+    },
+    "areaServed": EMET_AREA_SERVED,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Business-purpose property finance arranged by Emet Capital",
+      "itemListElement": EMET_CORE_SERVICES.map(service => ({
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": service.name,
+          "url": `https://emetcapital.com.au${service.path}`,
+          "provider": { "@id": EMET_ORGANIZATION_ID }
+        }
+      }))
     },
     "priceRange": "$$",
     "employee": [
