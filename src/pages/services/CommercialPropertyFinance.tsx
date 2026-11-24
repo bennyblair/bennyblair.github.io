@@ -208,11 +208,7 @@ const CommercialPropertyFinance = () => {
                 If the business will occupy part of the building and lease the rest, say so at the start. Lenders treat mixed occupancy in different ways, and it changes both the evidence and the shortlist.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                For deposit and serviceability questions on a premises purchase, see the{" "}
-                <Link to="/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises" className="text-accent hover:underline">
-                  owner-occupier commercial loans guide
-                </Link>
-                .
+                For deposit and serviceability questions on a premises purchase, see the owner-occupier commercial loans guide.
               </p>
             </ServiceChapter>
 
