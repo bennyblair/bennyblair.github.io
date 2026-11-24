@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "proposalId": "prop_685e5b37b1624667b806e6e2847af62d",
+  "pageId": "pg_852229296d10434c9d052f7ea2ae3d41",
+  "path": "/resources/guides/notice-to-complete-commercial-property-finance",
+  "sourcePath": "src/content/guides/notice-to-complete-commercial-property-finance.md",
+  "status": "approved",
+  "risk": "R2",
+  "problem": "A commercial buyer who has received, or expects, a notice to complete needs a same-day finance checklist and a comparison of short-term property-secured options. Existing settlement pages own shortfall, urgent-lender and ordinary-timeline queries, not this notice-to-complete finance question. General information only; no legal interpretation, fixed notice periods, deposit conclusions, rates or predicted approvals.",
+  "targeting": {
+    "primaryQuery": "notice to complete commercial property",
+    "intent": "commercial-investigation",
+    "audience": "Australian business-purpose buyers of commercial property or business premises facing a notice to complete",
+    "country": "AU"
+  },
+  "uniqueValue": [
+    "Same-day buyer checklist (solicitor-confirmed deadline, existing-approval conditions, funds to complete, solicitor-led extension, available security) plus a lender-ready pack and exit test, without stating notice periods or deposit outcomes."
+  ],
+  "evidence": [
+    {
+      "type": "openseo-keyword-metrics",
+      "summary": "Paid AU keyword metrics 24 Nov 2026: notice to complete 140/mo; notice to complete nsw 40; notice to complete settlement 20; delayed settlement 50. Exact commercial-property query is a distinct finance gap, not a retarget of those parent terms.",
+      "checkedAt": "2026-11-24T08:10:58.000Z",
+      "reference": "OpenSEO AU keyword_metrics_candidates 24 Nov 2026"
+    },
+    {
+      "type": "gsc-gap",
+      "summary": "AU GSC 21 Aug to 21 Nov 2026: zero impressions for any notice to complete query. Related settlement-urgency queries already reach Emet on mismatched owners (urgent property settlement finance; quick property settlement finance australia) and are not retargeted here.",
+      "checkedAt": "2026-11-24T08:10:58.000Z",
+      "reference": "gsc_qp_3m_notice.txt / gsc_qp_3m_settle.txt"
+    },
+    {
+      "type": "current-search-results",
+      "summary": "Live AU SERP 24 Nov for notice to complete buyer finance is won by finance brokers and legal sites. Emet has no competing URL. This page owns the business-purpose, property-secured finance angle and does not copy competitor time limits, fees or rates.",
+      "checkedAt": "2026-11-24T08:10:58.000Z",
+      "url": "https://www.lawsociety.com.au/sites/default/files/2026-03/LS4831_PAP_ContractLand2026Contract_Watermarked_2026-02-24.pdf"
+    },
+    {
+      "type": "cannibalisation_distinct_owner",
+      "summary": "Does not take primary queries from settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement (settlement shortfall), business-lenders-australia-urgent-settlement (urgent settlement), commercial-property-settlement-process-finance-timeline (settlement process), or gst-loan-for-commercial-property-settlement-in-australia. Those pages remain the owners of those queries.",
+      "checkedAt": "2026-11-24T08:10:58.000Z"
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.lawsociety.com.au/sites/default/files/2026-03/LS4831_PAP_ContractLand2026Contract_Watermarked_2026-02-24.pdf",
+      "summary": "On the Law Society of NSW and REINSW 2026 standard contract, clause 15 says the parties must complete by the date for completion and, if they do not, a party can serve a notice to complete if otherwise entitled to do so."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/contracts-and-deposits",
+      "summary": "NSW Government buying-property guidance says settlement usually takes place around 6 weeks after contracts are exchanged, and that NSW settlements are completed electronically."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.lawsociety.com.au/for-the-public/know-your-rights/selling-a-home/finalising-sale",
+      "summary": "The Law Society of NSW selling-a-home page records that late settlement can involve interest and, in limited cases, termination of the sale."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://www.nswlrs.com.au/",
+      "summary": "NSW settlements are prepared in an electronic workspace and, when documents and funds are ready, lodged with NSW Land Registry Services."
+    },
+    {
+      "type": "primary_source_claim",
+      "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+      "summary": "business.gov.au notes that documentation requirements vary between loans, that it is a good idea to compare loan products from multiple lenders before applying, and that a secured loan is backed by collateral such as property."
+    }
+  ],
+  "internalLinks": {
+    "from": [],
+    "to": [
+      "/services/bridging-finance",
+      "/services/first-second-mortgages",
+      "/services/private-lending",
+      "/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
+      "/resources/guides/what-is-bridging-finance",
+      "/resources/guides/open-vs-closed-bridging-loan-complete-comparison",
+      "/resources/guides/commercial-property-settlement-process-finance-timeline",
+      "/resources/guides/business-lenders-australia-urgent-settlement"
+    ]
+  },
+  "measurement": {
+    "primaryOutcome": "Relevant Australian organic visits to this guide that continue to /services/bridging-finance and a business-purpose enquiry where attribution is available.",
+    "successRule": "Review at 28, 56 and 90 days: inspect GSC impressions and position for notice to complete queries, service-page transitions and available qualified opportunities. Missing lead data stays unavailable.",
+    "exitRule": "Investigate consolidation only if actual query or intent overlap with an existing owner is demonstrated; low traffic alone is not a removal rule.",
+    "reviewDays": [
+      28,
+      56,
+      90
+    ],
+    "firstReviewAt": "2026-12-23T00:00:00.000Z"
+  },
+  "score": {
+    "components": {
+      "commercialFit": 24,
+      "demonstratedDemand": 12,
+      "top20Probability": 8,
+      "conversionPotential": 14,
+      "evidenceAuthority": 9,
+      "differentiation": 9,
+      "internalLinkFit": 5
+    },
+    "penalties": {
+      "cannibalisation": 0,
+      "templatedLocation": 0,
+      "unsupportedClaim": 0,
+      "noBusinessPath": 0
+    },
+    "total": 81,
+    "reviewer": "Grok 4.6 writer editorial review",
+    "reviewedAt": "2026-11-24T08:10:58.000Z",
+    "rationale": {
+      "commercialFit": "Time-critical commercial-property purchase with an existing designated service owner at /services/bridging-finance.",
+      "demonstratedDemand": "OpenSEO AU 140/mo for the parent term notice to complete; Emet GSC impressions for the phrase are zero. Exact commercial-property query volume is not separately measured, so the score stays mid-range.",
+      "top20Probability": "Editorial judgement only. The live finance SERP already has broker competitors; this is not a rank forecast.",
+      "conversionPotential": "A same-day deadline file can continue to the bridging service enquiry; no conversion forecast.",
+      "evidenceAuthority": "Five live primary sources (Law Society contract clause 15, NSW Government settlement guidance, Law Society finalising-sale page, NSW LRS, business.gov.au) support the procedural claims actually made.",
+      "differentiation": "Buyer-finance checklist, lender-ready pack and exit test, without competitor-style fixed notice periods or deposit conclusions.",
+      "internalLinkFit": "Existing bridging, second-mortgage and private-lending service pages plus distinct settlement guides can receive contextual links without changing query ownership."
+    },
+    "sourceSha256": "79e6c07ae8c0ad33edf45865042fdb905ac4228085f19f3030598af6eca31d03"
+  },
+  "approval": {
+    "automated": true,
+    "approvedBy": "seo-policy-bot",
+    "approvedAt": "2026-11-24T08:10:58.000Z",
+    "policyId": "daily-content-automerge",
+    "policyVersion": "2026-09-27.1",
+    "policyChecksum": "bba5ac5994c7a69c6ee7d1e058ade10f0857f3f08b6ed034abbb454f0c77c644",
+    "basis": "Due reviewed low-risk R2 package with eligibility review, article quality review of at least 85, and live primary-source revalidation under the current single-publisher policy. Ben approved the package on 24 Nov 2026."
+  },
+  "eligibilityReview": {
+    "commercialFit": true,
+    "intentOwnerChecked": true,
+    "permissionChecked": true,
+    "evidenceReady": true,
+    "professionalReviewRequired": false,
+    "checkedAt": "2026-11-24T08:10:58.000Z",
+    "blockingFindings": []
+  },
+  "qualityReview": {
+    "promptVersion": "article-quality-v1",
+    "evaluatorModel": "grok-4.6",
+    "reviewedAt": "2026-11-24T08:10:58.000Z",
+    "dimensions": {
+      "intentCoverage": 91,
+      "informationGain": 88,
+      "specificity": 90,
+      "evidence": 91,
+      "readability": 88,
+      "repetition": 84,
+      "compliance": 94,
+      "aiAnswerUsefulness": 90
+    },
+    "overallScore": 89.5,
+    "blockingFindings": [],
+    "sourceClaimMap": [
+      {
+        "claim": "On the Law Society of NSW and REINSW 2026 standard contract, clause 15 says the parties must complete by the date for completion and, if they do not, a party can serve a notice to complete if otherwise entitled to do so.",
+        "sourceUrl": "https://www.lawsociety.com.au/sites/default/files/2026-03/LS4831_PAP_ContractLand2026Contract_Watermarked_2026-02-24.pdf",
+        "assessment": "Direct clause-15 wording. The article does not treat that form as a national rule or state a notice period.",
+        "sourceType": "primary",
+        "checkedAt": "2026-11-24T08:10:58.000Z",
+        "verificationMethod": "Live HTTP 200 fetch of the 2026 contract PDF"
+      },
+      {
+        "claim": "NSW Government buying-property guidance says settlement usually takes place around 6 weeks after contracts are exchanged, and that NSW settlements are completed electronically.",
+        "sourceUrl": "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/contracts-and-deposits",
+        "assessment": "Cited as a typical exchange-to-settlement timetable, not as a notice-to-complete period.",
+        "sourceType": "primary",
+        "checkedAt": "2026-11-24T08:10:58.000Z",
+        "verificationMethod": "Live HTTP 200 fetch of the NSW Government page"
+      },
+      {
+        "claim": "The Law Society of NSW selling-a-home page records that late settlement can involve interest and, in limited cases, termination of the sale.",
+        "sourceUrl": "https://www.lawsociety.com.au/for-the-public/know-your-rights/selling-a-home/finalising-sale",
+        "assessment": "General selling-a-home information. The article does not apply those outcomes to a named contract.",
+        "sourceType": "primary",
+        "checkedAt": "2026-11-24T08:10:58.000Z",
+        "verificationMethod": "Live HTTP 200 fetch of the Law Society page"
+      },
+      {
+        "claim": "NSW settlements are prepared in an electronic workspace and, when documents and funds are ready, lodged with NSW Land Registry Services.",
+        "sourceUrl": "https://www.nswlrs.com.au/",
+        "assessment": "Supports the lodgment context for a lender-ready pack. No processing-time promise is made.",
+        "sourceType": "primary",
+        "checkedAt": "2026-11-24T08:10:58.000Z",
+        "verificationMethod": "Live HTTP 200 fetch of nswlrs.com.au"
+      },
+      {
+        "claim": "business.gov.au notes that documentation requirements vary between loans, that it is a good idea to compare loan products from multiple lenders before applying, and that a secured loan is backed by collateral such as property.",
+        "sourceUrl": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+        "assessment": "Direct support for comparing lenders and for the security-risk statement on a property-backed facility.",
+        "sourceType": "primary",
+        "checkedAt": "2026-11-24T08:10:58.000Z",
+        "verificationMethod": "Live HTTP 200 fetch of the business.gov.au page"
+      }
+    ],
+    "reviewer": "Grok 4.6 writer editorial review",
+    "automated": true,
+    "isHumanFinancialReview": false,
+    "sourceSha256": "79e6c07ae8c0ad33edf45865042fdb905ac4228085f19f3030598af6eca31d03"
+  }
+}

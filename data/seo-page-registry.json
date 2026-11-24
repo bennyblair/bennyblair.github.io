@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-11-14T07:24:19.178Z",
+  "generatedAt": "2026-11-24T08:20:00.000Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -10978,6 +10978,49 @@
       "programIds": [
         "seo-ai-growth-outstanding-2026-08-05"
       ]
+    },
+    {
+      "pageId": "pg_852229296d10434c9d052f7ea2ae3d41",
+      "path": "/resources/guides/notice-to-complete-commercial-property-finance",
+      "sourcePath": "src/content/guides/notice-to-complete-commercial-property-finance.md",
+      "pageType": "guide",
+      "indexability": "indexable",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
+      "targeting": {
+        "primaryQuery": "notice to complete commercial property",
+        "intent": "commercial-investigation",
+        "designatedServicePagePath": "/services/bridging-finance",
+        "designatedServicePageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
+        "serviceOwnershipException": null,
+        "country": "AU"
+      },
+      "governance": {
+        "contentRisk": "low",
+        "maxAutomatedChangeRisk": "R1",
+        "contentOwner": "seo-content",
+        "reviewOwner": "seo-content-review",
+        "sourceRequired": false,
+        "sourceCount": 5,
+        "reviewEveryDays": 365,
+        "reviewedBy": "Grok 4.6 writer editorial review",
+        "reviewedAt": "2026-11-24T08:10:58.000Z",
+        "expiresAt": "2027-02-22T08:10:58.000Z"
+      },
+      "lifecycle": {
+        "state": "observing",
+        "decision": "none",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "protectedUntil": null,
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
+      },
+      "measurement": {
+        "primaryOutcome": "nonbrand_click_and_service_assist",
+        "successRuleId": "sr_supporting_demand_v1",
+        "exitRuleId": "er_low_value_overlap_v1"
+      },
+      "programIds": []
     },
     {
       "pageId": "pg_1c7864c768c94aa7af40f86d6ce2e5e8",
@@ -22400,5 +22443,5 @@
       "programIds": []
     }
   ],
-  "checksum": "f1582b250a05e264b87d232bcfafd6aa67bf92e2d144f89a6947f5bd7bdd477d"
+  "checksum": "2fffc0bc20d6aba59662a92739126068712ae465a9213dfbcb1a7839b30a957b"
 }
