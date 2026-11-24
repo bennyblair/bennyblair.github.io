@@ -203,6 +203,80 @@ try {
     assert.ok((await page.locator("main").innerText()).includes("residential or commercial"), service);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), service + " overflows");
   }
+
+  const moneyPages = [
+    { slug: "bridging-finance", purpose: "bridge" },
+    { slug: "private-lending", purpose: "private_lending" },
+    { slug: "commercial-property-finance", purpose: "purchase" },
+    { slug: "first-second-mortgages", purpose: "equity_release" },
+  ] as const;
+  for (const { slug, purpose } of moneyPages) {
+    await page.goto("https://enquiry-check.invalid/services/" + slug);
+    await page.getByRole("heading", { level: 1 }).waitFor();
+    await page.locator('#enquire form[name="contact"][data-enquiry-ready="true"]').waitFor();
+    assert.equal(await page.locator('#enquire form[name="contact"]').count(), 1, slug);
+    assert.equal(await page.locator("#contact-purpose").inputValue(), purpose, slug);
+    if (slug === "bridging-finance") {
+      await page.locator("#enquire").screenshot({ path: path.join(output, "bridging-enquire-mobile.png") });
+    }
+    await contactDetails("contact");
+    const acceptedService = waitForEnquiryPost();
+    await submit();
+    assert.equal((await acceptedService).status(), 200, slug);
+    assert.equal(posts.at(-1)?.get("form-name"), "contact", slug);
+    assert.equal(posts.at(-1)?.get("transactionPurpose"), purpose, slug);
+    assert.equal(posts.at(-1)?.get("enquiryPath"), "/services/" + slug, slug);
+    const serviceEnquiryId = posts.at(-1)?.get("enquiryId") || "";
+    assert.match(serviceEnquiryId, /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i, slug);
+    assert.equal(await leadCount(page), 1, slug);
+    const serviceLead = await page.evaluate(() => (window.dataLayer || []).map((item) => Array.from(item as ArrayLike<unknown>)).find((item) => item[1] === "generate_lead")?.[2]) as { enquiry_path: string };
+    assert.equal(serviceLead.enquiry_path, "/services/" + slug, slug);
+    const serviceAnalytics = await page.evaluate(() => JSON.stringify(window.dataLayer));
+    assert.doesNotMatch(serviceAnalytics, /test@example|Isolated Test/, slug);
+  }
+
+  await page.goto("https://enquiry-check.invalid/services/bridging-finance?purpose=refinance");
+  await page.locator('#enquire form[name="contact"][data-enquiry-ready="true"]').waitFor();
+  assert.equal(await page.locator("#contact-purpose").inputValue(), "refinance");
+
+  const previewPosts = posts.length;
+  await preview.goto("http://localhost/services/private-lending");
+  await preview.locator('#enquire form[name="contact"][data-enquiry-ready="true"]').waitFor();
+  await preview.getByRole("button", { name: "Continue to contact details" }).click();
+  await preview.locator("#contact-name").fill("Preview Test");
+  await preview.locator("#contact-email").fill("preview@example.invalid");
+  await preview.getByRole("button", { name: "Submit business finance enquiry" }).click();
+  await preview.getByRole("status").filter({ hasText: "Preview only" }).waitFor();
+  assert.equal(posts.length, previewPosts);
+  assert.equal(await leadCount(preview), 0);
+
+  await page.goto("https://enquiry-check.invalid/resources/guides/what-is-bridging-finance");
+  // Isolated harness serves dist/index.html (the homepage) for HTML routes, so a
+  // generic h1 wait can pass before the guide hydrates. Wait for the CTA itself.
+  await page.locator(".article-side-cta a[href='/contact?purpose=bridge']").waitFor();
+  await page.getByRole("heading", { level: 1, name: /bridging finance/i }).waitFor();
+  assert.ok(await page.locator(".article-side-cta a[href='/contact?purpose=bridge']").count());
+  assert.ok(await page.locator(".article-closing-cta a[href='/contact?purpose=bridge']").count());
+  assert.ok(await page.locator('main a[href="tel:+61485952651"]').count());
+  assert.ok(await page.locator('main a[href="mailto:enquiry@emetcapital.com.au"]').count());
+  await page.locator(".article-closing-cta").screenshot({ path: path.join(output, "guide-cta-mobile.png") });
+  await page.evaluate(() => {
+    delete window.gtag;
+    window.gtag = function (...args) { window.dataLayer.push(args); };
+    const nativeSetTimeout = window.setTimeout.bind(window);
+    window.setTimeout = function (handler, timeout, ...args) {
+      if (timeout === 700) return 0;
+      return nativeSetTimeout(handler, timeout, ...args);
+    };
+  });
+  await page.locator('main a[href="tel:+61485952651"]').first().click({ noWaitAfter: true });
+  const phoneClicks = await page.evaluate(() => (window.dataLayer || []).filter((item) => Array.from(item as ArrayLike<unknown>)[1] === "phone_click").length);
+  assert.equal(phoneClicks, 1);
+  assert.equal(await leadCount(page), 0);
+  await page.locator(".article-side-cta a[href='/contact?purpose=bridge']").click();
+  await page.locator("#contact-purpose").waitFor();
+  assert.equal(await page.locator("#contact-purpose").inputValue(), "bridge");
+
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("https://enquiry-check.invalid/");
   await page.getByRole("heading", { level: 1 }).waitFor();
@@ -212,8 +286,14 @@ try {
   assert.equal(await page.locator(".home-contact-form").count(), 1);
   assert.equal(await page.locator("#how-it-works.home-process").count(), 1);
   await page.locator(".home-contact-card").screenshot({ path: path.join(output, "homepage-desktop-contact-transaction.png") });
+  await page.goto("https://enquiry-check.invalid/services/bridging-finance");
+  await page.locator('#enquire form[name="contact"][data-enquiry-ready="true"]').waitFor();
+  await page.locator("#enquire").screenshot({ path: path.join(output, "bridging-enquire-desktop.png") });
+  await page.goto("https://enquiry-check.invalid/resources/guides/what-is-bridging-finance");
+  await page.locator(".article-closing-cta a[href='/contact?purpose=bridge']").waitFor();
+  await page.locator(".article-closing-cta").screenshot({ path: path.join(output, "guide-cta-desktop.png") });
   assert.deepEqual(errors, []);
-  console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "shared enquiryId on Netlify body and generate_lead", "first-touch trafficChannel and utm fields", "private fields excluded from analytics", "landing category retained", "newsletter posts to Netlify without generate_lead", "localhost preview does not send or count", "four service pages"] }, null, 2));
+  console.log(JSON.stringify({ status: "pass", interceptedPosts: posts.length, realExternalRequests: 0, externalRequestsBlocked: blockedExternal, screenshots: output, checks: ["mobile and desktop", "four journeys", "service-purpose prefill", "failed submission retains data and emits no lead", "accepted contact/home forms emit one lead", "shared enquiryId on Netlify body and generate_lead", "first-touch trafficChannel and utm fields", "private fields excluded from analytics", "landing category retained", "newsletter posts to Netlify without generate_lead", "localhost preview does not send or count", "four service pages", "embedded service contact forms", "url purpose wins over initialPurpose", "localhost service preview does not send or count", "guide enquiry CTA purpose and phone_click"] }, null, 2));
 } finally {
   await browser.close();
 }

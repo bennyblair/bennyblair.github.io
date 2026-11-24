@@ -20,3 +20,8 @@ export function enquiryPurposeLabel(purpose: string) {
 }
 
 export const ENQUIRY_RESPONSE_MESSAGE = "We aim to respond within 1-2 business days. Call us if a funding deadline is close.";
+
+export function purposeForServicePath(path?: string): TransactionPurpose | undefined {
+  if (path === "/services/private-lending") return "private_lending";
+  return TRANSACTION_JOURNEYS.find((journey) => journey.path === path)?.value;
+}

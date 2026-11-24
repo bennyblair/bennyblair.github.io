@@ -76,7 +76,7 @@ const Homepage = () => {
           <p className="hero-description">Purchases, refinances, bridging and equity release for business purposes. Residential or commercial property security, Australia-wide, from $100K to $50M+.</p>
           <div className="hero-actions">
             <Link className="action-link action-light" to="/contact">Discuss Your Transaction <ArrowRight aria-hidden="true" /></Link>
-            <a className="phone-link" href="tel:0485952651"><Phone aria-hidden="true" />0485 952 651</a>
+            <a className="phone-link" href="tel:+61485952651"><Phone aria-hidden="true" />0485 952 651</a>
           </div>
         </div>
         <figure className="hero-image">
@@ -94,7 +94,7 @@ const Homepage = () => {
 
       <section id="finance-overview" className="home-positioning section-pad">
         <div className="section-heading" data-motion-enter><p className="eyebrow">The right structure</p><h2>Commercial Finance Specialists for Complex Australian Transactions</h2></div>
-        <div className="positioning-copy" data-motion-enter><p>Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending. We compare suitable bank, non-bank and private-credit options against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.</p>
+        <div className="positioning-copy" data-motion-enter><p>Emet Capital arranges commercial finance across property, business acquisition, working capital, bridging and specialist lending. We compare suitable bank, non-bank and <Link to="/services/private-lending">private-credit options</Link> against the transaction purpose, security, timing and exit rather than promising a particular approval outcome.</p>
           <div className="proof-line"><div><strong>Broker-led</strong><span>Structured Lender Comparison</span></div><div><strong>Australia-wide</strong><span>Commercial Finance Coverage</span></div><div><strong>Case-by-case</strong><span>Lender and Structure Assessment</span></div></div>
         </div>
       </section>
@@ -147,7 +147,7 @@ const Homepage = () => {
 
       <section className="home-contact">
         <div className="home-contact-inner section-pad">
-        <div className="contact-intro" data-motion-enter><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>{ENQUIRY_RESPONSE_MESSAGE}</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:0485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
+        <div className="contact-intro" data-motion-enter><p className="eyebrow">Your next move</p><h2>Ready to Get Started?</h2><p>{ENQUIRY_RESPONSE_MESSAGE}</p><div className="contact-details"><div><h3>Call Us</h3><a href="tel:+61485952651">0485 952 651</a></div><div><h3>Email Us</h3><a href="mailto:enquiry@emetcapital.com.au">enquiry@emetcapital.com.au</a></div><div><h3>Australia Wide</h3><p>Serving all states & territories</p></div></div></div>
         <div className="home-contact-card"><TransactionEnquiryForm formName="homepage-contact" className="home-contact-form" /></div>
         </div>
       </section>

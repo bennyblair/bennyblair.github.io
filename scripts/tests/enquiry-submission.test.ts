@@ -62,6 +62,18 @@ test("preview, honeypot, failed HTTP and network responses cannot be accepted en
   await assert.rejects(submitEnquiry(form(), false, noNetwork));
 });
 
+test("preview mode returns preview and never sends when enquiryPath is present", async () => {
+  const data = form();
+  data.set("enquiryPath", "/services/bridging-finance");
+  let calls = 0;
+  const send: typeof fetch = async () => {
+    calls += 1;
+    throw new Error("Network must not run");
+  };
+  assert.equal(await submitEnquiry(data, true, send), "preview");
+  assert.equal(calls, 0);
+});
+
 test("transaction values are a fixed allowlist with four equal core journeys", () => {
   assert.deepEqual(TRANSACTION_JOURNEYS.map((journey) => journey.value), ["purchase", "refinance", "bridge", "equity_release"]);
   assert.equal(normaliseTransactionPurpose("purchase"), "purchase");

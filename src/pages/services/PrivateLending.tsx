@@ -12,6 +12,8 @@ import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
 import PropertyFinanceDisclosure from "@/components/PropertyFinanceDisclosure";
+import TransactionEnquiryForm from "@/components/TransactionEnquiryForm";
+import { EnquiryCta } from "@/components/EnquiryCta";
 import { getClaim } from "@/lib/claims";
 
 const lenderNetwork = getClaim("lender-network-50");
@@ -148,12 +150,13 @@ const PrivateLending = () => {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:0485952651">
+                <a href="tel:+61485952651">
                   <Phone className="mr-2 h-5 w-5" />
-                  Call Emet Capital
+                  Call 0485 952 651
                 </a>
               </Button>
             </div>
+            <p className="text-sm text-muted-foreground mt-3">Or <a href="#enquire" className="underline">send a short enquiry on this page</a>, or email <a href="mailto:enquiry@emetcapital.com.au" className="underline">enquiry@emetcapital.com.au</a>.</p>
           </div>
 
           <PropertyFinanceDisclosure />
@@ -522,20 +525,13 @@ const PrivateLending = () => {
                 information is still missing, and whether a private-lender shortlist is even the next
                 step.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
-                  <Link to="/contact?purpose=private_lending" data-analytics-event="service_enquiry" data-transaction-purpose="private_lending">
-                    <FileText className="mr-2 h-5 w-5" />
-                    Discuss your transaction with a broker
-                  </Link>
-                </Button>
-                <Button size="lg" variant="outline" asChild>
-                  <a href="tel:0485952651">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Speak with a broker
-                  </a>
-                </Button>
-              </div>
+            </ServiceChapter>
+
+            <ServiceChapter id="enquire" className="scroll-mt-24">
+              <h2 className="text-3xl font-bold text-foreground mb-4">Send a short enquiry</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">Two steps: the transaction, then your contact details. Approximate figures are enough. Emet Capital is a broker, not a lender, and an enquiry is not an application or an approval.</p>
+              <TransactionEnquiryForm formName="contact" initialPurpose="private_lending" className="max-w-2xl" />
+              <EnquiryCta variant="band" heading="Prefer to talk first?" hideEnquire />
             </ServiceChapter>
 
             <ServiceChapter className="mb-12">
