@@ -8,11 +8,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import {
-  AlertTriangle,
   ArrowRight,
-  BookOpen,
   Building2,
-  CheckCircle2,
   FileText,
   Landmark,
   Phone,
@@ -21,52 +18,86 @@ import {
 import FAQSection, { FAQItem } from "@/components/FAQSection";
 import RelatedReading, { RelatedArticle } from "@/components/RelatedReading";
 import DiscoveryGuides from "@/components/DiscoveryGuides";
+import PropertyFinanceDisclosure from "@/components/PropertyFinanceDisclosure";
+
+const processSteps = [
+  {
+    title: "Purpose and property brief",
+    detail:
+      "We record what the loan is for, the property, who occupies it, the buying or borrowing entity, the deadline and the existing debt. Unknowns are written down as unknowns. This is a broker conversation, not a lender application or an approval.",
+  },
+  {
+    title: "Valuation and lease readiness",
+    detail:
+      "Before a lender is approached we check what a valuer and a lender's solicitor will ask for: the contract or title, leases and rent evidence for an investment property, and trading evidence for an owner-occupier. Gaps found now are cheaper than gaps found after a valuation is ordered.",
+  },
+  {
+    title: "Lender selection",
+    detail:
+      "We shortlist the bank, non-bank or private lenders whose policy fits this property type, location, occupancy and purpose. A specialised or regional property narrows the list; we say so rather than sending the file everywhere.",
+  },
+  {
+    title: "Terms side by side",
+    detail:
+      "Indicative responses are compared on one sheet: net funds after known costs, the interest basis, the term and review dates, covenants, and what happens at maturity. Indicative terms are not an approval.",
+  },
+  {
+    title: "Credit, legal and settlement",
+    detail:
+      "If you proceed, the lender assesses the file, instructs its valuation and issues its documents. We track conditions with your solicitor and accountant. The lender decides whether and when funds settle.",
+  },
+];
 
 const CommercialPropertyFinance = () => {
   const faqs: FAQItem[] = [
     {
-      question: "Can commercial property settlement finance be arranged quickly?",
+      question: "Does Emet Capital lend money for commercial property?",
       answer:
-        "It may be possible where the security, ownership structure, documents, and exit strategy are clear. Timing depends on lender appetite, valuation, legal requirements, and how complete the file is. Fast settlement is never guaranteed.",
+        "No. Emet Capital is a commercial finance broker, not a lender. We prepare the transaction, compare suitable bank, non-bank and private lenders, and coordinate the file. The lender decides whether to approve, sets the terms and controls settlement.",
     },
     {
-      question: "What documents are usually needed for urgent commercial property finance?",
+      question: "What types of commercial property can be financed?",
       answer:
-        "Useful documents include the contract of sale, title or rates notice, current loan payout figures, company or trust documents, ID, details of the security property, solicitor contacts, and evidence of the planned exit such as a sale, refinance, or business event.",
+        "Offices, warehouses and industrial units, shops, medical and professional suites, mixed-use buildings and owner-occupied business premises may be considered. Specialised, vacant or single-tenant properties and some regional locations narrow the lender pool and can change the terms. Residential property can also be offered as security for a business-purpose loan, subject to the lender.",
+    },
+    {
+      question: "How much deposit or equity do lenders expect?",
+      answer:
+        "There is no single figure. Lenders set the maximum loan by property type, location, lease or trading income, borrower strength, purpose and the valuation they accept. Specialised or vacant property usually needs more equity. Budget separately for duty, legal, valuation and other purchase costs.",
+    },
+    {
+      question: "Does it matter whether my business will occupy the property?",
+      answer:
+        "Yes. For owner-occupied premises, lenders look mainly at whether the trading business can meet the repayments. For an investment property, they look at the lease, the tenant, the remaining lease term and vacancy risk. The same building can be assessed differently depending on who occupies it.",
     },
     {
       question: "What if my bank approval will not be ready before settlement?",
       answer:
-        "Some borrowers use a short-term bridge, private mortgage, second mortgage, or other property-backed facility while the longer-term refinance or bank loan continues. The right structure depends on the asset, timing, leverage, and exit plan.",
+        "Some borrowers use a short-term bridge or a private first or second mortgage while the longer-term loan finishes. That only works when the bank process is genuinely under way and the delay is about timing, not about whether the loan can be repaid. We compare the cost of a short-term loan with the cost of a settlement extension before suggesting one.",
     },
     {
-      question: "Can a business owner use property-backed finance to settle a commercial purchase?",
+      question: "What documents should I have ready?",
       answer:
-        "Yes, eligible business-purpose borrowers may be able to use commercial or residential property security to support a commercial premises purchase or settlement shortfall, subject to assessment and legal suitability.",
+        "Useful documents include the contract of sale, title or rates notice, current loan payout figures, company or trust documents, ID, details of the security property, solicitor contacts, and evidence of the planned exit such as a sale, refinance, or business event.",
     },
     {
-      question: "What can stop urgent commercial property finance from working?",
+      question: "Do you arrange home loans or personal borrowing?",
       answer:
-        "Common blockers include unclear title, incomplete documents, insufficient equity, unresolved existing debt, a weak exit strategy, complex ownership issues, consumer-purpose use, or a timeframe that is too compressed for legal and lender checks.",
-    },
-    {
-      question: "Is urgent settlement finance more expensive than standard commercial finance?",
-      answer:
-        "Short-term and private facilities can cost more than standard bank finance because they are designed for speed, flexibility, or non-standard scenarios. Borrowers should weigh the cost against the transaction risk and obtain professional advice where needed.",
+        "No. Emet Capital discusses business-purpose and commercial investment finance only. It does not offer residential home loans or personal consumer credit.",
     },
   ];
 
   return (
     <>
       <SEO
-        title="Commercial Property Finance Australia | Emet Capital"
-        description="Commercial property finance for Australian purchases, developments, urgent settlements, refinancing, bridging, and business-purpose equity release."
+        title="Commercial Property Finance Broker Australia | Emet Capital"
+        description="Finance for business premises and commercial investment property, arranged by a broker. Bank, non-bank and private lenders compared on one sheet."
         canonical="/services/commercial-property-finance"
-        keywords="commercial property finance Australia, commercial property loan, property development finance, commercial refinance, bridging finance, equity release"
+        keywords="commercial property finance broker, commercial property loan, commercial mortgage broker, owner-occupier commercial loan, commercial investment property finance"
         schemas={[
           generateServiceSchema(
             "Commercial Property Finance",
-            "Commercial property finance for Australian purchases, developments, urgent settlements, refinancing transitions, and business-purpose equity release.",
+            "Emet Capital is a commercial finance broker that arranges finance for business premises and commercial investment property in Australia. It is not a lender and does not fund loans.",
             "https://emetcapital.com.au/services/commercial-property-finance"
           ),
           generateFAQPageSchema(faqs),
@@ -86,12 +117,10 @@ const CommercialPropertyFinance = () => {
           <div className="page-header text-center max-w-4xl mx-auto mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">Commercial Property Finance</Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Commercial Property Finance for Australian Borrowers
+              Commercial property finance, arranged by a broker
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Arrange business-purpose property finance for purchases, refinances, bridging and equity release.
-              Residential or commercial property may be used as security, subject to the lender and transaction.
-              We help compare bank, non-bank and private lending pathways across Australia.
+              Emet Capital is a commercial finance broker, not a lender. We arrange finance to buy, refinance or release equity from business premises and commercial investment property, comparing bank, non-bank and private lenders on the same assumptions. Residential or commercial property may be offered as security for a business-purpose loan, subject to the lender.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90">
@@ -109,125 +138,244 @@ const CommercialPropertyFinance = () => {
             </div>
           </div>
 
+          <PropertyFinanceDisclosure />
           <TransactionJourneys />
           <div className="service-body max-w-4xl mx-auto space-y-12 mb-16">
             <ServiceChapter className="bg-muted/30 rounded-2xl p-6 border border-border">
               <h2 className="text-3xl font-bold text-foreground mb-4">
-                What Is Commercial Property Finance?
+                What commercial property finance covers
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Commercial property finance is business-purpose lending used to buy, refinance, settle,
-                improve, or release equity from commercial property. It may apply to offices, warehouses,
-                retail premises, industrial sites, mixed-use assets, development sites, and owner-occupied
-                business premises. The right structure depends on the property, borrower, loan purpose,
-                available equity, lease or business income, lender policy, documents, and repayment pathway.
-                An existing residential property may also support an eligible business-purpose transaction;
-                the property used as security and the purpose of the loan are separate assessment questions.
+                Commercial property finance is business-purpose lending secured by property: buying premises for your own business, buying or refinancing a leased investment property, or releasing equity from property you already own for a business use. It can include offices, warehouses and industrial units, shops, medical and professional suites, and mixed-use buildings.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Emet Capital acts as a commercial finance broker, not a bank or direct lender. We help
-                borrowers compare bank, non-bank, and private lender options for commercial property
-                purchases, urgent settlements, refinance gaps, second mortgages,
-                and short-term property-backed business funding. Commercial property finance can be useful
-                when timing, security, and commercial purpose are clear, but it is not guaranteed and may be
-                unsuitable where equity, documentation, serviceability, legal structure, or repayment pathway
-                is weak. This page provides general information only and is not financial advice.
-              </p>
-            </ServiceChapter>
-
-            <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">Purchases and Refinances Without a Funding Emergency</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Start with the transaction objective. A business buying premises needs a purchase and settlement plan;
-                an existing borrower may need to review pricing, replace a maturing facility or release equity for business use.
-                These enquiries can be assessed before a deadline becomes urgent.
+                The right structure depends on the property, who occupies it, the borrower entity, the income that will repay the loan, the equity available and the deadline. A longer-term bank facility, a non-bank loan and a short-term private loan solve different problems. We compare them on the same amount and the same dates so the trade-offs are visible before you choose.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Emet reviews the proposed security, existing debt, income or repayment evidence, required term and transaction costs.
-                A longer-term facility and a short-term bridge serve different needs. The comparison should show how the loan is repaid,
-                what conditions remain and whether the total cost supports the business objective.
+                Land subdivision and construction funding is a separate service: see{" "}
+                <Link to="/services/commercial-property-development" className="text-accent hover:underline">
+                  commercial property development finance
+                </Link>
+                . Property-backed business funding behind an existing loan is covered on{" "}
+                <Link to="/services/first-second-mortgages" className="text-accent hover:underline">
+                  first and second mortgages
+                </Link>
+                .
               </p>
             </ServiceChapter>
 
             <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">
-                Urgent Commercial Property Settlement
+                Owner-occupied premises or investment property?
               </h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Commercial property settlement finance is used when a business-purpose property transaction
-                needs funding before a standard bank or refinance process can finish. For an urgent
-                commercial property loan in Australia, assessment may be possible where the security,
-                documents, settlement date, borrower structure, and exit strategy are clear.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                The facility may support a purchase, settlement shortfall, outgoing lender deadline,
-                refinance transition, or other property-backed commercial funding requirement. It is not a
-                shortcut around credit assessment, legal checks, or exit planning. Lenders still need to
-                understand the security, borrower, purpose, and repayment pathway before funds can be made
-                available.
-              </p>
-            </ServiceChapter>
-
-            <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">
-                Commercial Property Finance for Australian Business Owners Buying Premises
-              </h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                An Australian business owner buying premises may need commercial property finance to fund
-                a planned purchase or meet an approaching settlement date. The right structure depends on whether the goal is to
-                settle the purchase, bridge to a bank refinance, release equity from another property, or
-                cover a short-term settlement gap.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Emet helps frame the file around the practical questions lenders ask first: what property
-                secures the loan, how much equity is available, what entity is buying, how the business will
-                use the premises, and how the proposed debt will be serviced or repaid.
-              </p>
-            </ServiceChapter>
-
-            <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">When Settlement Becomes Urgent</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                {[
-                  "A bank approval is close but will not complete before the settlement date.",
-                  "A valuation, lease review, or legal condition has delayed the permanent lender.",
-                  "A vendor, liquidator, or auction contract will not allow more time.",
-                  "An outgoing lender needs repayment before a replacement facility settles.",
-                  "An Australian business owner is buying premises and needs a short-term structure first.",
-                  "A developer or investor needs to hold control of the asset while an exit catches up.",
-                ].map((item) => (
-                  <Card key={item}>
-                    <CardContent className="pt-6">
-                      <div className="flex gap-3">
-                        <AlertTriangle className="h-5 w-5 text-accent flex-shrink-0 mt-1" />
-                        <p className="text-sm text-muted-foreground">{item}</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </ServiceChapter>
-
-            <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">What Lenders Need Quickly</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                A fast commercial property finance file is usually a complete file. The fewer unknowns a
-                lender has to resolve, the more realistic an urgent assessment may be.
+                Lenders assess the same building differently depending on who occupies it. Knowing which side of this line your purchase sits on tells you which evidence matters most.
               </p>
-              <div className="grid md:grid-cols-2 gap-4">
-                {[
-                  "Contract of sale, settlement date, and solicitor details",
-                  "Security property details, title search, rates notice, or valuation support",
-                  "Existing debt and payout figures for any secured loans",
-                  "Company, trust, ABN/ACN, director, and ID documents",
-                  "Clear use of funds and amount required to settle",
-                  "Exit evidence such as sale proceeds, refinance pathway, or other repayment event",
-                ].map((item) => (
-                  <div key={item} className="flex gap-3">
-                    <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                    <p className="text-muted-foreground">{item}</p>
-                  </div>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left py-3 pr-4 font-semibold">Question</th>
+                      <th className="text-left py-3 pr-4 font-semibold">Owner-occupied premises</th>
+                      <th className="text-left py-3 font-semibold">Investment property</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-muted-foreground">
+                    <tr className="border-b">
+                      <td className="py-3 pr-4 font-medium text-foreground">What repays the loan?</td>
+                      <td className="py-3 pr-4">The trading business that occupies the premises</td>
+                      <td className="py-3">Rent from the tenant or tenants</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="py-3 pr-4 font-medium text-foreground">What the lender reads first</td>
+                      <td className="py-3 pr-4">Business financial statements, BAS and trading history</td>
+                      <td className="py-3">The lease, tenant quality, remaining lease term and vacancy risk</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="py-3 pr-4 font-medium text-foreground">What weakens the file</td>
+                      <td className="py-3 pr-4">Uneven trading, recent losses or an unclear link between the business and the buying entity</td>
+                      <td className="py-3">A short remaining lease, a single tenant, a vacancy or a specialised use with few alternative tenants</td>
+                    </tr>
+                    <tr>
+                      <td className="py-3 pr-4 font-medium text-foreground">Common entity question</td>
+                      <td className="py-3 pr-4">Whether the property sits in the operating company, a related trust or a self-managed fund</td>
+                      <td className="py-3">Whether guarantees from directors or a related trading entity will be required</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-muted-foreground leading-relaxed mt-6 mb-4">
+                If the business will occupy part of the building and lease the rest, say so at the start. Lenders treat mixed occupancy in different ways, and it changes both the evidence and the shortlist.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                For deposit and serviceability questions on a premises purchase, see the owner-occupier commercial loans guide.
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                How Emet works a commercial property file
+              </h2>
+              <ol className="grid gap-4 mb-8">
+                {processSteps.map((step, index) => (
+                  <li key={step.title} className="flex gap-4">
+                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent/10 font-semibold text-accent">
+                      {index + 1}
+                    </span>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-1">{step.title}</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">{step.detail}</p>
+                    </div>
+                  </li>
                 ))}
+              </ol>
+              <p className="text-muted-foreground leading-relaxed">
+                Files are reviewed by{" "}
+                <Link to="/about/ben" className="text-accent hover:underline">
+                  Ben
+                </Link>
+                , a commercial finance broker at Emet Capital.
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                Property types lenders treat differently
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Lender appetite changes with the asset. These are the patterns that most often change the shortlist or the terms.
+              </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li>Industrial units and warehouses: usually the widest lender appetite when the building suits more than one type of tenant.</li>
+                <li>Retail shops and strip retail: location, tenant mix and lease length carry a lot of weight.</li>
+                <li>Offices: vacancy and the cost of re-leasing are tested closely, especially for older or smaller buildings.</li>
+                <li>Medical, childcare and other specialised premises: fewer lenders, and the operator's business is often assessed alongside the property.</li>
+                <li>Mixed-use buildings: residential parts may be assessed under different policy from the commercial parts.</li>
+                <li>Vacant land and development sites: usually a development finance question rather than a commercial property loan.</li>
+              </ul>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">
+                When the settlement date is the problem
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Sometimes the property and the borrower are sound but the timetable is not: a bank approval will not finish before settlement, a valuation or lease review has delayed the main lender, or an outgoing lender needs repayment first. A short-term structure can hold the transaction while the longer-term loan finishes, but only when the delay is about timing, not about whether the loan can be repaid.
+              </p>
+              <ul className="space-y-3 text-muted-foreground mb-6">
+                <li>A bank approval is close but will not complete before the settlement date.</li>
+                <li>A valuation, lease review, or legal condition has delayed the permanent lender.</li>
+                <li>A vendor, liquidator, or auction contract will not allow more time.</li>
+                <li>An outgoing lender needs repayment before a replacement facility settles.</li>
+                <li>A developer or investor needs to hold control of the asset while an exit catches up.</li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A complete file moves faster than a fast lender. Have these ready:
+              </p>
+              <ul className="space-y-3 text-muted-foreground mb-6">
+                <li>Contract of sale, settlement date, and solicitor details</li>
+                <li>Security property details, title search, rates notice, or valuation support</li>
+                <li>Existing debt and payout figures for any secured loans</li>
+                <li>Company, trust, ABN/ACN, director, and ID documents</li>
+                <li>Clear use of funds and amount required to settle</li>
+                <li>Exit evidence such as sale proceeds, refinance pathway, or other repayment event</li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A lender may pause or decline when any of these cannot be cleared in time:
+              </p>
+              <ul className="space-y-3 text-muted-foreground mb-6">
+                <li>Unclear title, ownership, trust, or corporate authority.</li>
+                <li>Existing debts or caveats that reduce usable equity.</li>
+                <li>A requested loan amount that is too high for the available security.</li>
+                <li>No practical exit strategy or repayment pathway.</li>
+                <li>Incomplete documents close to settlement.</li>
+                <li>Consumer-purpose use, personal advice needs, or legal issues outside lender appetite.</li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed">
+                For the timetable itself, see the{" "}
+                <Link to="/resources/guides/commercial-property-settlement-process-finance-timeline" className="text-accent hover:underline">
+                  commercial property settlement timeline
+                </Link>
+                . Where a dated sale or refinance repays the short-term loan, compare{" "}
+                <Link to="/services/bridging-finance" className="text-accent hover:underline">
+                  commercial bridging finance
+                </Link>
+                .
+              </p>
+            </ServiceChapter>
+
+            <ServiceChapter>
+              <h2 className="text-3xl font-bold text-foreground mb-4">Illustrative scenarios</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                These scenarios illustrate how we work a file. They are not Emet Capital clients, completed transactions or indications that a lender would approve similar facts.
+              </p>
+              <div className="space-y-6">
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="outline">Illustrative scenario</Badge>
+                    </div>
+                    <CardTitle className="text-lg">Buying the warehouse the business already leases</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      <span className="font-semibold text-foreground">Situation: </span>
+                      A manufacturing business has the chance to buy the warehouse it rents. Its bank is interested, but the business had one weaker trading year during a plant upgrade.
+                    </p>
+                    <p>
+                      <span className="font-semibold text-foreground">What we checked: </span>
+                      Whether the weaker year has a documented cause and recovery, which entity should own the property, and whether a related-party lease from the operating company to the property owner would be put in place.
+                    </p>
+                    <p>
+                      <span className="font-semibold text-foreground">What decided the path: </span>
+                      If recent trading supports repayments, a bank facility is compared first. If the bank wants more history, a non-bank loan with a planned refinance is compared against waiting another year, including the cost of each.
+                    </p>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="outline">Illustrative scenario</Badge>
+                    </div>
+                    <CardTitle className="text-lg">Investment property with a lease expiring soon</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      <span className="font-semibold text-foreground">Situation: </span>
+                      An investor wants to refinance a strip shop whose main tenant has less than a year left on its lease.
+                    </p>
+                    <p>
+                      <span className="font-semibold text-foreground">What we checked: </span>
+                      Whether the tenant has an option to renew, what rent the market supports if it leaves, and whether the borrower can carry the loan through a vacancy.
+                    </p>
+                    <p>
+                      <span className="font-semibold text-foreground">What decided the path: </span>
+                      Lenders treat a short remaining lease as a risk. A renewed or extended lease before refinancing can widen the shortlist more than any lender comparison can.
+                    </p>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge variant="outline">Illustrative scenario</Badge>
+                    </div>
+                    <CardTitle className="text-lg">Bank approval running late for settlement</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                    <p>
+                      <span className="font-semibold text-foreground">Situation: </span>
+                      A business has exchanged on premises. Its bank has the application, but a valuation query means approval will not arrive by the settlement date.
+                    </p>
+                    <p>
+                      <span className="font-semibold text-foreground">What we checked: </span>
+                      Whether the bank's query is about timing or about the loan itself, the cost of a settlement extension from the vendor, and whether a short-term loan could be repaid by the bank facility.
+                    </p>
+                    <p>
+                      <span className="font-semibold text-foreground">What decided the path: </span>
+                      A short-term loan is only compared when the bank process is genuinely under way. If the query is about the borrower's ability to repay, a bridge would just move the problem.
+                    </p>
+                  </CardContent>
+                </Card>
               </div>
             </ServiceChapter>
 
@@ -246,9 +394,6 @@ const CommercialPropertyFinance = () => {
                       Short-term funding used to bridge a settlement, sale, refinance, or another defined
                       timing gap.
                     </p>
-                    <Link to="/services/bridging-finance" className="text-accent hover:underline text-sm inline-flex items-center">
-                      Bridging finance <ArrowRight className="ml-1 h-4 w-4" />
-                    </Link>
                   </CardContent>
                 </Card>
 
@@ -282,9 +427,6 @@ const CommercialPropertyFinance = () => {
                       Additional property-backed funding behind an existing first mortgage where the first
                       facility should not be disturbed.
                     </p>
-                    <Link to="/services/first-second-mortgages" className="text-accent hover:underline text-sm inline-flex items-center">
-                      First and second mortgages <ArrowRight className="ml-1 h-4 w-4" />
-                    </Link>
                   </CardContent>
                 </Card>
 
@@ -327,79 +469,6 @@ const CommercialPropertyFinance = () => {
             </ServiceChapter>
 
             <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">
-                What Makes Fast Settlement Realistic
-              </h2>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Fast settlement is most realistic where the loan purpose is commercial, the security can be
-                assessed quickly, and the exit is credible. Timing is always subject to lender assessment,
-                legal checks, valuation support, and document readiness.
-              </p>
-              <div className="grid md:grid-cols-2 gap-6">
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">Clear Security</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      The property type, value, ownership, title, and current debt position can be understood
-                      quickly.
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">Defined Exit</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      Repayment is tied to a credible event such as refinance, sale, settlement proceeds, or
-                      another documented commercial outcome.
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">Complete File</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      Borrower, entity, loan purpose, payout, legal, and settlement documents are available
-                      early.
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">Commercial Purpose</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      The funding is for a business or investment purpose and fits commercial lending
-                      requirements.
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-            </ServiceChapter>
-
-            <ServiceChapter>
-              <h2 className="text-3xl font-bold text-foreground mb-4">What Can Stop Urgent Finance</h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Urgency does not remove the need for a sound transaction. A lender may pause or decline a
-                file if key risks cannot be clarified quickly enough.
-              </p>
-              <ul className="space-y-3 text-muted-foreground">
-                <li>Unclear title, ownership, trust, or corporate authority.</li>
-                <li>Existing debts or caveats that reduce usable equity.</li>
-                <li>A requested loan amount that is too high for the available security.</li>
-                <li>No practical exit strategy or repayment pathway.</li>
-                <li>Incomplete documents close to settlement.</li>
-                <li>Consumer-purpose use, personal advice needs, or legal issues outside lender appetite.</li>
-              </ul>
-            </ServiceChapter>
-
-            <ServiceChapter>
               <h2 className="text-3xl font-bold text-foreground mb-4">How Emet Helps</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Emet Capital helps borrowers and advisers frame the transaction in lender-ready terms:
@@ -420,10 +489,7 @@ const CommercialPropertyFinance = () => {
                 Commercial Property Finance Pathways to Compare
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                For an Australian business owner buying premises or an urgent commercial settlement, the useful
-                question is usually not just how quickly funding can be assessed. It is which structure fits
-                the asset, deadline, existing debt, and exit. Emet compares adjacent property-backed options
-                before recommending a pathway.
+                The useful question is rarely only how fast a loan can be assessed. It is which structure fits the asset, the occupancy, the deadline, the existing debt and the exit. These guides cover the comparison in more depth.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 {[
@@ -433,14 +499,14 @@ const CommercialPropertyFinance = () => {
                     text: "Broader lending options, deposits, LVR, assessment, and lender selection.",
                   },
                   {
-                    label: "Commercial property settlement timeline",
-                    href: "/resources/guides/commercial-property-settlement-process-finance-timeline",
-                    text: "Finance milestones, document timing, and settlement pressure points.",
+                    label: "Commercial property loan after a bank decline",
+                    href: "/resources/guides/commercial-property-loan-after-bank-decline-non-bank-options-australia",
+                    text: "Non-bank options when a bank will not fund the property or the borrower.",
                   },
                   {
-                    label: "Caveat loans for business emergencies",
-                    href: "/resources/guides/caveat-loan-emergency-business-funding",
-                    text: "Educational guide to caveat-style structures used for urgent business funding.",
+                    label: "Owner-occupier commercial loans",
+                    href: "/resources/guides/owner-occupier-commercial-loans-buy-your-business-premises",
+                    text: "Deposit, serviceability and ownership structure when buying premises for your business.",
                   },
                   {
                     label: "Short-term property-backed business loans",
@@ -467,48 +533,13 @@ const CommercialPropertyFinance = () => {
               <h2 className="text-3xl font-bold text-foreground mb-4">Risks and Disclaimers</h2>
               <div className="bg-muted/30 rounded-lg p-6">
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Urgent commercial property finance can be useful where timing is the real problem, but it
-                  may involve higher costs, shorter terms, more concentrated exit risk, and stricter legal or
-                  security requirements than standard commercial lending.
+                  Short-term and private commercial property loans can be useful where timing is the real problem, but they may involve higher costs, shorter terms, more concentrated exit risk and stricter legal or security requirements than standard commercial lending.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   This page is general information only and does not take into account your objectives,
                   financial situation, or needs. Borrowers should obtain legal, tax, accounting, and financial
                   advice before entering any commercial finance arrangement.
                 </p>
-              </div>
-            </ServiceChapter>
-
-            <ServiceChapter className="property-useful-guides">
-              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
-                <BookOpen className="h-6 w-6 text-accent" />
-                Useful Guides
-              </h2>
-              <div className="grid md:grid-cols-2 gap-4">
-                <Link
-                  to="/resources/guides/commercial-property-settlement-process-finance-timeline"
-                  className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
-                >
-                  <h3 className="font-semibold text-foreground mb-2">Commercial Property Settlement Timeline</h3>
-                  <p className="text-sm text-muted-foreground mb-2">
-                    Finance timing, documentation, and common settlement pressure points.
-                  </p>
-                  <span className="text-accent text-sm inline-flex items-center">
-                    Read guide <ArrowRight className="ml-1 h-3 w-3" />
-                  </span>
-                </Link>
-                <Link
-                  to="/services/refinancing-solutions"
-                  className="block p-4 border border-border rounded-lg hover:border-accent/40 hover:bg-accent/5 transition-all"
-                >
-                  <h3 className="font-semibold text-foreground mb-2">Refinancing Solutions</h3>
-                  <p className="text-sm text-muted-foreground mb-2">
-                    Compare a direct refinance with a short-term bridge-to-refinance structure.
-                  </p>
-                  <span className="text-accent text-sm inline-flex items-center">
-                    View service <ArrowRight className="ml-1 h-3 w-3" />
-                  </span>
-                </Link>
               </div>
             </ServiceChapter>
 
@@ -534,8 +565,7 @@ const CommercialPropertyFinance = () => {
             <ServiceChapter className="rounded-xl border border-border bg-card p-6 text-sm text-muted-foreground">
               <p className="font-semibold text-foreground">Reviewed by Ben, Commercial Finance Broker</p>
               <p className="mt-2">
-                Reviewed 30 July 2026. General commercial-finance information only—not personal financial,
-                legal, tax, or credit advice. Criteria and availability vary by lender and transaction.
+                Reviewed 25 November 2026. General commercial finance information only, not personal financial, legal, tax or credit advice. Criteria and availability vary by lender and transaction.
               </p>
               <div className="mt-4 flex flex-wrap gap-4">
                 <Link to="/about/ben" className="text-accent hover:underline">Reviewer credentials</Link>
