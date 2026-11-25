@@ -50,7 +50,7 @@ const processSteps = [
   'Settle the new facility and use the cleaner structure to improve cash flow, simplify management, and support the next commercial step.'
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker. We are not a lender and do not provide credit; we help eligible business borrowers compare lenders. Please consult a licensed financial adviser before making any financial decisions.';
 
 export default function DebtConsolidationCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (

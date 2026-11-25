@@ -50,7 +50,7 @@ const processSteps = [
   'Settle the acquisition into the correct structure and keep the fund strategy, loan obligations, and compliance position aligned over time.'
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible borrowers. Please consult a licensed financial adviser and qualified SMSF adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker. We are not a lender and do not provide credit; we help eligible business borrowers compare lenders. Please consult a licensed financial adviser and qualified SMSF adviser before making any financial decisions.';
 
 export default function SMSFLendingCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (

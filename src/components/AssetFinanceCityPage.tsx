@@ -68,7 +68,7 @@ const processSteps = [
   'Settle the facility and put the asset to work with a structure that matches the business rather than forcing a generic template.'
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker. We are not a lender and do not provide credit; we help eligible business borrowers compare lenders. Please consult a licensed financial adviser before making any financial decisions.';
 
 export default function AssetFinanceCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (

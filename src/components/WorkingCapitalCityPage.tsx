@@ -59,7 +59,7 @@ const cityLinks: LinkItem[] = [
   { title: 'Gold Coast business funding timing', href: '/services/working-capital/cities/gold-coast', description: 'Compare Gold Coast working-capital needs across seasonal and growth-led cash flow.' },
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker. We are not a lender and do not provide credit; we help eligible business borrowers compare lenders. Please consult a licensed financial adviser before making any financial decisions.';
 
 export default function WorkingCapitalCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks: baseRelatedLinks, faqs }: Props) {
   const relatedCityLinks = cityLinks.filter((item) => item.href !== canonical).slice(0, 5);

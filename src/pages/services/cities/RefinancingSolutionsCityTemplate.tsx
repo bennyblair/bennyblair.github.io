@@ -237,7 +237,7 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
             <div className="flex items-start gap-3">
               <FileText className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
               <p className="text-sm text-muted-foreground">
-                This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Lending structure, timing, leverage, and approval outcomes depend on lender policy, security, and scenario-specific due diligence.
+                This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker. We are not a lender and do not provide credit; we help eligible business borrowers compare lenders. Lending structure, timing, leverage, and approval outcomes depend on lender policy, security, and scenario-specific due diligence.
               </p>
             </div>
           </div>

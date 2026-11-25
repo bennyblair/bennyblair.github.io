@@ -8,6 +8,7 @@ import { resolveDesignatedService } from "./lib/seo-policy.mjs";
 import {
   canonicalJson,
   checksum,
+  isAllowedRedirectTarget,
   newStableId,
   normaliseRoute,
 } from "./lib/seo-control-plane.mjs";
@@ -364,11 +365,7 @@ for (const article of Object.values(contentIndex).flat() as JsonRecord[]) {
 
 records.sort((left, right) => left.path.localeCompare(right.path));
 const canonicalByPath = new Map(records.filter((record) => record.indexability === "indexable").map((record) => [record.path, record]));
-const liveByPath = new Map(
-  records
-    .filter((record) => record.indexability === "indexable" || record.indexability === "noindex")
-    .map((record) => [record.path, record]),
-);
+const liveByPath = new Map(records.filter((record) => isAllowedRedirectTarget(record)).map((record) => [record.path, record]));
 
 for (const record of records) {
   const servicePath = record.targeting.designatedServicePagePath;

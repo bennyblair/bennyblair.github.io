@@ -43,6 +43,17 @@ export function normaliseRoute(value) {
   }
 }
 
+/** Noindex city routes such as /services/asset-finance/cities/sydney. */
+export function isNoindexCityRoutePath(path) {
+  return /^\/services\/[a-z0-9-]+\/cities\/[a-z0-9-]+$/.test(path || "");
+}
+
+export function isAllowedRedirectTarget(targetPage) {
+  if (!targetPage) return false;
+  if (targetPage.indexability === "indexable") return true;
+  return targetPage.indexability === "noindex" && isNoindexCityRoutePath(targetPage.path);
+}
+
 export function normaliseQuery(value) {
   return String(value ?? "")
     .toLowerCase()
@@ -183,14 +194,7 @@ export function validateRegistry(registry, { now = new Date(), allowOverdue = tr
 
   const pageIds = new Set();
   const paths = new Set();
-  const canonicalPaths = new Set(
-    registry.pages.filter((page) => page.indexability === "indexable").map((page) => page.path),
-  );
-  const liveRegisteredPaths = new Set(
-    registry.pages
-      .filter((page) => page.indexability === "indexable" || page.indexability === "noindex")
-      .map((page) => page.path),
-  );
+  const pagesByPath = new Map(registry.pages.map((page) => [page.path, page]));
   const normalizedQueryOwners = new Map();
 
   for (const [index, page] of registry.pages.entries()) {
@@ -224,7 +228,7 @@ export function validateRegistry(registry, { now = new Date(), allowOverdue = tr
       if (page.lifecycle.state !== "closed" || page.lifecycle.decision !== "consolidate") {
         errors.push(`${prefix}: redirect must be closed with consolidate decision`);
       }
-      if (!page.redirectToPath || !liveRegisteredPaths.has(page.redirectToPath)) {
+      if (!page.redirectToPath || !isAllowedRedirectTarget(pagesByPath.get(page.redirectToPath))) {
         errors.push(`${prefix}: redirect target is not a registered live page: ${page.redirectToPath}`);
       }
     }
