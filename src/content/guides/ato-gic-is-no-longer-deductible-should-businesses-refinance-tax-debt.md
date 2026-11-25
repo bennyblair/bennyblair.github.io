@@ -18,6 +18,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 ATO GIC is no longer deductible for amounts incurred from 1 July 2025, which changes how Australian businesses should think about the true cost of carrying tax debt. The general interest charge, or GIC, is the ATO's interest charge on unpaid tax debts. When deductibility changes, the comparison between leaving debt with the ATO and refinancing that debt through commercial finance becomes more important.

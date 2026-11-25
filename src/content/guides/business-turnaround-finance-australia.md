@@ -13,6 +13,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 keywords: ["business turnaround finance Australia", "turnaround funding", "business recovery finance", "working capital recovery", "private credit for SMEs"]
 slug: "business-turnaround-finance-australia"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Business Turnaround Finance in Australia: Funding a Recovery Plan Without Overpromising

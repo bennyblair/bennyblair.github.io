@@ -13,6 +13,8 @@ author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
 keywords: ["unsecured business loan lenders", "unsecured business lenders Australia", "business finance lenders", "SME unsecured finance"]
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Unsecured Business Loan Lenders in Australia: Broker Guide

@@ -268,30 +268,74 @@ test("content articles do not link to their own canonical route", () => {
 });
 
 test("illustrative scenarios pending transaction evidence are explicitly noindex", () => {
-  const expectedNoindex = new Set([
-    "/resources/case-studies/adelaide-cbd-asset-backed-lending",
-    "/resources/case-studies/adelaide-cbd-office-complex",
-    "/resources/case-studies/melbourne-richmond-asset-finance",
-    "/resources/case-studies/newcastle-merewether-equipment-finance",
-    "/resources/case-studies/newcastle-wickham-business-acquisition",
-    "/resources/case-studies/perth-business-group-debt-consolidation",
-    "/resources/case-studies/perth-fremantle-first-mortgage",
-    "/resources/case-studies/rose-bay-property-development-bridging-loan",
-    "/resources/case-studies/south-yarra-apartment-development",
-    "/resources/guides/case-study-developers-first-project-funding-success",
-    "/resources/guides/caveat-loan-prevented-business-closure-tax-debt-case-study",
+  const expectedReasons = new Map([
+    ["/resources/case-studies/adelaide-cbd-asset-backed-lending", "pending-transaction-evidence"],
+    ["/resources/case-studies/adelaide-cbd-office-complex", "pending-transaction-evidence"],
+    ["/resources/case-studies/melbourne-richmond-asset-finance", "pending-transaction-evidence"],
+    ["/resources/case-studies/newcastle-merewether-equipment-finance", "pending-transaction-evidence"],
+    ["/resources/case-studies/newcastle-wickham-business-acquisition", "pending-transaction-evidence"],
+    ["/resources/case-studies/perth-business-group-debt-consolidation", "pending-transaction-evidence"],
+    ["/resources/case-studies/perth-fremantle-first-mortgage", "pending-transaction-evidence"],
+    ["/resources/case-studies/rose-bay-property-development-bridging-loan", "pending-transaction-evidence"],
+    ["/resources/case-studies/south-yarra-apartment-development", "pending-transaction-evidence"],
+    ["/resources/guides/case-study-developers-first-project-funding-success", "pending-transaction-evidence"],
+    ["/resources/guides/caveat-loan-prevented-business-closure-tax-debt-case-study", "pending-transaction-evidence"],
+    ["/resources/guides/merchant-cash-advance-alternatives-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/ato-payment-plan-vs-business-finance-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/bad-credit-business-loans-for-commercial-borrowers", "pruned-low-value-20261124"],
+    ["/resources/guides/letters-of-credit-vs-trade-finance-australian-importers", "pruned-low-value-20261124"],
+    ["/resources/guides/unsecured-business-loan-lenders-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/commercial-property-valuation-delay-case-study", "pruned-low-value-20261124"],
+    ["/resources/guides/motel-acquisition-finance-private-credit-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/pre-settlement-finance-commercial-property-purchases-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/bridging-loan-bank-delay-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/tradex-scheme-import-gst-trade-finance-australian-importers", "pruned-low-value-20261124"],
+    ["/resources/guides/building-development-loans-funding-guide", "pruned-low-value-20261124"],
+    ["/resources/guides/bridging-loan-repayment-calculator", "pruned-low-value-20261124"],
+    ["/resources/guides/superannuation-guarantee-charge-business-finance-options-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining", "pruned-low-value-20261124"],
+    ["/resources/guides/commercial-property-finance-broker-selection-checklist", "pruned-low-value-20261124"],
+    ["/resources/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods", "pruned-low-value-20261124"],
+    ["/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled", "pruned-low-value-20261124"],
+    ["/resources/guides/insurance-premium-funding-alternatives-australian-businesses", "pruned-low-value-20261124"],
+    ["/resources/guides/bridging-finance-auction-settlement-case-study", "pruned-low-value-20261124"],
+    ["/resources/guides/payroll-tax-debt-finance-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/commercial-property-finance-melbourne-local-expert-hub", "pruned-low-value-20261124"],
+    ["/resources/guides/division-7a-loan-secured-by-real-property-business-finance", "pruned-low-value-20261124"],
+    ["/resources/guides/contract-mobilisation-finance-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline", "pruned-low-value-20261124"],
+    ["/resources/guides/restaurant-expansion-second-mortgage-case-study", "pruned-low-value-20261124"],
+    ["/resources/guides/second-mortgages-in-sydney-fast-local-approval", "pruned-low-value-20261124"],
+    ["/resources/guides/business-turnaround-finance-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/commercial-property-loan-deposit-shortfall-case-study", "pruned-low-value-20261124"],
+    ["/resources/guides/commercial-rent-arrears-finance-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/unsecured-private-lenders-for-business-growth", "pruned-low-value-20261124"],
+    ["/resources/guides/working-capital-finance-insurance-claim-delay-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/private-lender-document-pack-broker-take", "pruned-low-value-20261124"],
+    ["/resources/guides/construction-funding-gap-private-credit-bank-shortfall-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt", "pruned-low-value-20261124"],
+    ["/resources/guides/bridging-finance-melbourne-fast-property-solutions", "pruned-low-value-20261124"],
+    ["/resources/guides/property-development-mortgage-australia", "pruned-low-value-20261124"],
+    ["/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them", "pruned-low-value-20261124"],
+    ["/resources/guides/capital-stack-commercial-property-finance-case-example", "pruned-low-value-20261124"],
+    ["/resources/guides/private-finance-for-business-after-bank-delay", "pruned-low-value-20261124"],
+    ["/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path", "pruned-low-value-20261124"],
+    ["/resources/guides/commercial-property-loans-for-startups-first-time-buyers", "pruned-low-value-20261124"],
+    ["/resources/guides/fitout-finance-landlord-contribution-delay-australia", "pruned-low-value-20261124"],
   ]);
   const index = buildContentIndex(repoRoot);
-  const actualNoindex = new Set(
-    Object.values(index)
-      .flat()
-      .filter((article) => article.noindex)
-      .map((article) => article.route),
-  );
+  const actualNoindex = Object.values(index)
+    .flat()
+    .filter((article) => article.noindex);
 
-  assert.deepEqual(actualNoindex, expectedNoindex);
-  for (const article of Object.values(index).flat().filter((item) => item.noindex)) {
-    assert.equal(article.indexingReason, "pending-transaction-evidence");
+  assert.deepEqual(new Set(actualNoindex.map((article) => article.route)), new Set(expectedReasons.keys()));
+  for (const article of actualNoindex) {
+    assert.equal(
+      article.indexingReason,
+      expectedReasons.get(article.route),
+      `${article.route} must keep its expected indexingReason`,
+    );
   }
 });
 

@@ -14,6 +14,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/unsecured-private-lenders-for-business-growth.jpg"
 keywords: ["unsecured private lenders", "unsecured business lending", "private lenders for business growth", "commercial unsecured finance"]
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Unsecured Private Lenders for Business Growth

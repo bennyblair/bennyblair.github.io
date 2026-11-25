@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Sydney second mortgage approval readiness depends on more than equity. A commercial borrower may have enough property value on paper, but the file still needs a clear business purpose, first mortgage position, consent pathway, combined leverage, and exit strategy before a lender can move quickly.

@@ -29,6 +29,8 @@ sources:
     url: "https://www.apra.gov.au/sites/default/files/2024-06/Final%20Prudential%20Practice%20Guide%20APG%20113%20Capital%20Adequacy%20Internal%20Ratings-based%20Approach%20to%20Credit%20Risk%20-%20Clean_0.pdf"
   - label: "NSW Small Business Commissioner — Retail and commercial leases"
     url: "https://www.smallbusiness.nsw.gov.au/help/common-questions/retail-and-commercial-leases"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Refinancing Commercial Property with a Short Lease Remaining

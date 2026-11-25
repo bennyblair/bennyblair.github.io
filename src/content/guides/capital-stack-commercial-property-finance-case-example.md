@@ -32,6 +32,8 @@ metaTitle: "Commercial Property Capital Stack | Worked Example"
 metaDescription: "See how a commercial property capital stack can combine senior debt, subordinated funding and borrower equity in a worked educational example."
 featuredImage: "/images/articles/capital-stack-commercial-property-finance-case-example.webp"
 featuredImageAlt: "Commercial property finance capital stack worked example"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 > **Direct answer:** A commercial-property capital stack is the ordered set of equity, senior debt and any junior, vendor or mezzanine funding used in a transaction. The stack should reconcile every dollar of sources and uses, identify security and priority, show cash cost and maturity, and explain how each layer is repaid under both the expected and downside exits.

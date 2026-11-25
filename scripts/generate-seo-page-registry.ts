@@ -314,9 +314,11 @@ for (const article of Object.values(contentIndex).flat() as JsonRecord[]) {
     lifecycle.lastMaterialChangeId = `chg_content_review_${String(article.reviewedAt || source.data.reviewedAt || "manual").replaceAll(/[^0-9a-z]+/gi, "_")}`;
     lifecycle.lastMaterialChangeAt = article.reviewedAt || source.data.reviewedAt || new Date().toISOString();
   }
-  const reviewAt = article.noindex
-    ? null
-    : lifecycle.protectedUntil || protectedItem?.reviewAfter || (contentRisk === "high" ? defaultHighReview : defaultStandardReview);
+  const reviewAt = explicitProtectedUntil
+    ? lifecycle.protectedUntil
+    : article.noindex
+      ? null
+      : lifecycle.protectedUntil || protectedItem?.reviewAfter || (contentRisk === "high" ? defaultHighReview : defaultStandardReview);
 
   records.push({
     pageId: initialId(existing, pathValue, article.sourcePath, article.contentType === "case-studies" ? "case-study" : "guide"),

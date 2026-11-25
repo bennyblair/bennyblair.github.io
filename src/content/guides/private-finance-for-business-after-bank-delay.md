@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Private finance for business after a bank delay is short-term or alternative commercial funding considered when a mainstream lender cannot move quickly enough for a business deadline. It may help where the borrower still has a viable transaction, usable security, and a clear repayment or refinance plan, but it is not a shortcut around weak fundamentals.

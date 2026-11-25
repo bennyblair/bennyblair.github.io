@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "site": "https://emetcapital.com.au",
-  "generatedAt": "2026-11-24T08:20:00.000Z",
+  "generatedAt": "2026-11-25T21:54:22.185Z",
   "bootstrap": {
     "capturedAt": "2026-08-06T00:00:00.000Z",
     "baselineCommit": "2cd594074c5495220c77f1c016569852fe527bd3",
@@ -803,10 +803,10 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2026-11-08T00:00:00.000Z",
+        "reviewAt": "2027-02-02T00:00:00.000Z",
         "protectedUntil": null,
-        "lastMaterialChangeId": "chg_agent_readiness_20261008",
-        "lastMaterialChangeAt": "2026-10-08T00:00:00.000Z"
+        "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
+        "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -2720,7 +2720,7 @@
       "path": "/resources/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt",
       "sourcePath": "src/content/guides/ato-gic-is-no-longer-deductible-should-businesses-refinance-tax-debt.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -2744,9 +2744,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -2806,7 +2806,7 @@
       "path": "/resources/guides/ato-payment-plan-vs-business-finance-australia",
       "sourcePath": "src/content/guides/ato-payment-plan-vs-business-finance-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -2830,8 +2830,8 @@
         "expiresAt": "2026-11-05"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
+        "state": "closed",
+        "decision": "noindex",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_content_review_2026_08_05",
@@ -2941,7 +2941,7 @@
       "path": "/resources/guides/bad-credit-business-loans-for-commercial-borrowers",
       "sourcePath": "src/content/guides/bad-credit-business-loans-for-commercial-borrowers.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -2965,9 +2965,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -3216,19 +3216,19 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-14T20:43:48Z",
+        "expiresAt": "2027-01-12T20:43:48Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_10_14T20_43_48Z",
+        "lastMaterialChangeAt": "2026-10-14T20:43:48Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -3245,13 +3245,13 @@
       "sourcePath": "src/content/guides/bridge-lending-australia-commercial-property.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "bridge lending australia for commercial property",
         "intent": "informational",
-        "designatedServicePagePath": "/services/commercial-property-finance",
-        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
+        "designatedServicePagePath": "/services/bridging-finance",
+        "designatedServicePageId": "pg_1096ce3b9c1a409eac15928d824f5b24",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -3261,11 +3261,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-18",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:30:52Z",
+        "expiresAt": "2027-05-09T20:30:52Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -3287,7 +3287,7 @@
       "path": "/resources/guides/bridging-finance-auction-settlement-case-study",
       "sourcePath": "src/content/guides/bridging-finance-auction-settlement-case-study.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -3311,9 +3311,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -3508,7 +3508,7 @@
       "path": "/resources/guides/bridging-finance-melbourne-fast-property-solutions",
       "sourcePath": "src/content/guides/bridging-finance-melbourne-fast-property-solutions.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -3532,9 +3532,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -3639,7 +3639,7 @@
       "path": "/resources/guides/bridging-loan-bank-delay-australia",
       "sourcePath": "src/content/guides/bridging-loan-bank-delay-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -3663,9 +3663,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -3682,7 +3682,7 @@
       "path": "/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path",
       "sourcePath": "src/content/guides/bridging-loan-exit-strategies-plan-your-repayment-path.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -3706,9 +3706,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -3770,7 +3770,7 @@
       "path": "/resources/guides/bridging-loan-repayment-calculator",
       "sourcePath": "src/content/guides/bridging-loan-repayment-calculator.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -3794,9 +3794,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -3856,7 +3856,7 @@
       "path": "/resources/guides/building-development-loans-funding-guide",
       "sourcePath": "src/content/guides/building-development-loans-funding-guide.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -3880,9 +3880,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -4115,8 +4115,8 @@
       "sourcePath": "src/content/guides/business-line-of-credit-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "business line of credit",
         "intent": "informational",
@@ -4131,11 +4131,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-05",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-19T20:39:23.727Z",
+        "expiresAt": "2027-05-18T20:39:23.727Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -4244,8 +4244,8 @@
       "sourcePath": "src/content/guides/business-loan-requirements-australia-commercial-borrowers.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "business loan requirements",
         "intent": "informational",
@@ -4260,11 +4260,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-12",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-19T20:37:14.098Z",
+        "expiresAt": "2027-05-18T20:37:14.098Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -4287,8 +4287,8 @@
       "sourcePath": "src/content/guides/business-loan-terms-explained-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "business loan term",
         "intent": "informational",
@@ -4303,11 +4303,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-13",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-19T20:38:32.482Z",
+        "expiresAt": "2027-05-18T20:38:32.482Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -4461,7 +4461,7 @@
       "path": "/resources/guides/business-turnaround-finance-australia",
       "sourcePath": "src/content/guides/business-turnaround-finance-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -4485,9 +4485,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -4594,7 +4594,7 @@
       "path": "/resources/guides/capital-stack-commercial-property-finance-case-example",
       "sourcePath": "src/content/guides/capital-stack-commercial-property-finance-case-example.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -4618,8 +4618,8 @@
         "expiresAt": "2026-11-05"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
+        "state": "closed",
+        "decision": "noindex",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
         "lastMaterialChangeId": "chg_content_review_2026_08_05",
@@ -4746,17 +4746,17 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-19T20:56:21.829Z",
+        "expiresAt": "2027-01-17T20:56:21.829Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-05T00:00:00+10:00",
         "protectedUntil": "2026-10-05T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_10_19T20_56_21_829Z",
+        "lastMaterialChangeAt": "2026-10-19T20:56:21.829Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -6480,11 +6480,11 @@
       "sourcePath": "src/content/guides/commercial-mortgages-vs-residential-key-differences-explained.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
-        "primaryQuery": "Commercial Mortgages vs Residential: Key Differences Explained",
-        "intent": "informational",
+        "primaryQuery": "commercial vs residential property loans Australia",
+        "intent": "commercial investigation",
         "designatedServicePagePath": "/services/commercial-property-finance",
         "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
         "serviceOwnershipException": null,
@@ -6496,11 +6496,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 4,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-06T12:06:33Z",
+        "expiresAt": "2027-04-04T12:06:33Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -6541,17 +6541,17 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-04T07:09:31Z",
+        "expiresAt": "2027-02-02T07:09:31Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_11_04T07_09_31Z",
+        "lastMaterialChangeAt": "2026-11-04T07:09:31Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -6653,7 +6653,7 @@
       "path": "/resources/guides/commercial-property-finance-broker-selection-checklist",
       "sourcePath": "src/content/guides/commercial-property-finance-broker-selection-checklist.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -6677,9 +6677,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -6696,7 +6696,7 @@
       "path": "/resources/guides/commercial-property-finance-melbourne-local-expert-hub",
       "sourcePath": "src/content/guides/commercial-property-finance-melbourne-local-expert-hub.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -6720,9 +6720,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -7136,7 +7136,7 @@
       "path": "/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them",
       "sourcePath": "src/content/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -7160,9 +7160,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -7179,7 +7179,7 @@
       "path": "/resources/guides/commercial-property-loan-deposit-shortfall-case-study",
       "sourcePath": "src/content/guides/commercial-property-loan-deposit-shortfall-case-study.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -7203,9 +7203,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -7239,11 +7239,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 7,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-13T21:58:10Z",
+        "expiresAt": "2027-01-11T21:58:10Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -7417,17 +7417,17 @@
         "sourceRequired": true,
         "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-08T21:10:07.000Z",
+        "expiresAt": "2027-02-06T21:10:07.000Z"
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
-        "lastMaterialChangeId": "chg_content_review_2026_08_05",
-        "lastMaterialChangeAt": "2026-08-05"
+        "lastMaterialChangeId": "chg_content_review_2026_11_08T21_10_07_000Z",
+        "lastMaterialChangeAt": "2026-11-08T21:10:07.000Z"
       },
       "measurement": {
         "primaryOutcome": "nonbrand_click_and_service_assist",
@@ -7444,8 +7444,8 @@
       "sourcePath": "src/content/guides/commercial-property-loans-brisbane-queensland-market-guide.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "commercial property loan brisbane",
         "intent": "informational",
@@ -7460,11 +7460,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:30:00.000Z",
+        "expiresAt": "2027-05-09T20:30:00.000Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -7529,7 +7529,7 @@
       "path": "/resources/guides/commercial-property-loans-for-startups-first-time-buyers",
       "sourcePath": "src/content/guides/commercial-property-loans-for-startups-first-time-buyers.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -7553,8 +7553,8 @@
         "expiresAt": "2026-11-05"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
+        "state": "closed",
+        "decision": "noindex",
         "reviewAt": "2026-10-19T00:00:00+11:00",
         "protectedUntil": "2026-10-19T00:00:00+11:00",
         "lastMaterialChangeId": "chg_content_review_2026_08_05",
@@ -7750,7 +7750,7 @@
       "path": "/resources/guides/commercial-property-valuation-delay-case-study",
       "sourcePath": "src/content/guides/commercial-property-valuation-delay-case-study.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -7774,9 +7774,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -7926,7 +7926,7 @@
       "path": "/resources/guides/commercial-rent-arrears-finance-australia",
       "sourcePath": "src/content/guides/commercial-rent-arrears-finance-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -7950,9 +7950,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -8055,7 +8055,7 @@
       "path": "/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled",
       "sourcePath": "src/content/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -8079,9 +8079,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -8186,7 +8186,7 @@
       "path": "/resources/guides/construction-funding-gap-private-credit-bank-shortfall-australia",
       "sourcePath": "src/content/guides/construction-funding-gap-private-credit-bank-shortfall-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -8210,9 +8210,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -8315,7 +8315,7 @@
       "path": "/resources/guides/contract-mobilisation-finance-australia",
       "sourcePath": "src/content/guides/contract-mobilisation-finance-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -8339,9 +8339,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -8579,7 +8579,7 @@
       "path": "/resources/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline",
       "sourcePath": "src/content/guides/director-penalty-notice-finance-in-australia-funding-options-before-the-21-day-deadline.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -8603,9 +8603,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -8622,7 +8622,7 @@
       "path": "/resources/guides/division-7a-loan-secured-by-real-property-business-finance",
       "sourcePath": "src/content/guides/division-7a-loan-secured-by-real-property-business-finance.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -8646,9 +8646,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -9030,11 +9030,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-19T20:57:37Z",
+        "expiresAt": "2027-01-17T20:57:37Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -9253,9 +9253,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-18T20:45:10Z",
+        "expiresAt": "2027-01-16T20:45:10Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -9322,7 +9322,7 @@
       "path": "/resources/guides/fitout-finance-landlord-contribution-delay-australia",
       "sourcePath": "src/content/guides/fitout-finance-landlord-contribution-delay-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -9346,9 +9346,9 @@
         "expiresAt": "2026-11-09"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -9673,13 +9673,13 @@
       "sourcePath": "src/content/guides/hospitality-property-finance-restaurants-hotels-venues.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "Hospitality Property Finance: Restaurants, Hotels & Venues",
         "intent": "informational",
-        "designatedServicePagePath": "/services/business-finance",
-        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "designatedServicePagePath": "/services/commercial-property-finance",
+        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -9689,11 +9689,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 4,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-18T20:34:51.635Z",
+        "expiresAt": "2027-05-17T20:34:51.635Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -9849,10 +9849,10 @@
       "sourcePath": "src/content/guides/how-to-find-the-best-commercial-mortgage-broker-complete-guide.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
-        "primaryQuery": "commercial mortgage brokers",
+        "primaryQuery": "commercial mortgage broker australia",
         "intent": "informational",
         "designatedServicePagePath": "/services/commercial-property-finance",
         "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
@@ -9865,11 +9865,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-10T20:40:10.356Z",
+        "expiresAt": "2027-05-09T20:40:10.356Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -10021,13 +10021,13 @@
       "sourcePath": "src/content/guides/industrial-property-finance-warehouses-manufacturing.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "industrial property finance",
         "intent": "informational",
-        "designatedServicePagePath": "/services/business-finance",
-        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "designatedServicePagePath": "/services/commercial-property-finance",
+        "designatedServicePageId": "pg_4c7846880ede4f9286f6ec21daa477d1",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -10037,11 +10037,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-15T21:59:51.613Z",
+        "expiresAt": "2027-05-14T21:59:51.613Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -10108,7 +10108,7 @@
       "path": "/resources/guides/insurance-premium-funding-alternatives-australian-businesses",
       "sourcePath": "src/content/guides/insurance-premium-funding-alternatives-australian-businesses.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -10132,9 +10132,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -10368,7 +10368,7 @@
       "path": "/resources/guides/letters-of-credit-vs-trade-finance-australian-importers",
       "sourcePath": "src/content/guides/letters-of-credit-vs-trade-finance-australian-importers.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -10392,9 +10392,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -10502,8 +10502,8 @@
       "sourcePath": "src/content/guides/low-doc-business-finance.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "Low Doc Business Finance in Australia",
         "intent": "informational",
@@ -10518,11 +10518,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-12T20:40:52.424Z",
+        "expiresAt": "2027-05-11T20:40:52.424Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -10634,7 +10634,7 @@
       "path": "/resources/guides/merchant-cash-advance-alternatives-australia",
       "sourcePath": "src/content/guides/merchant-cash-advance-alternatives-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -10658,9 +10658,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -10808,7 +10808,7 @@
       "path": "/resources/guides/motel-acquisition-finance-private-credit-australia",
       "sourcePath": "src/content/guides/motel-acquisition-finance-private-credit-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -10832,9 +10832,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -10996,13 +10996,13 @@
         "country": "AU"
       },
       "governance": {
-        "contentRisk": "low",
-        "maxAutomatedChangeRisk": "R1",
+        "contentRisk": "high",
+        "maxAutomatedChangeRisk": "R0",
         "contentOwner": "seo-content",
-        "reviewOwner": "seo-content-review",
-        "sourceRequired": false,
+        "reviewOwner": "financial-review",
+        "sourceRequired": true,
         "sourceCount": 5,
-        "reviewEveryDays": 365,
+        "reviewEveryDays": 90,
         "reviewedBy": "Grok 4.6 writer editorial review",
         "reviewedAt": "2026-11-24T08:10:58.000Z",
         "expiresAt": "2027-02-22T08:10:58.000Z"
@@ -11010,7 +11010,7 @@
       "lifecycle": {
         "state": "observing",
         "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "reviewAt": "2026-11-04T00:00:00.000Z",
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -11114,8 +11114,8 @@
       "sourcePath": "src/content/guides/open-vs-closed-bridging-loan-complete-comparison.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "open vs closed bridging loan",
         "intent": "informational",
@@ -11130,11 +11130,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-04T22:36:36Z",
+        "expiresAt": "2027-05-03T22:36:36Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -11244,7 +11244,7 @@
       "path": "/resources/guides/payroll-tax-debt-finance-australia",
       "sourcePath": "src/content/guides/payroll-tax-debt-finance-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -11268,9 +11268,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -11331,13 +11331,13 @@
       "sourcePath": "src/content/guides/pharmacy-acquisition-finance-in-australia-buying-or-expanding-a-pharmacy.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "pharmacy acquisition finance australia",
         "intent": "informational",
-        "designatedServicePagePath": "/services/business-finance",
-        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "designatedServicePagePath": "/services/business-acquisition",
+        "designatedServicePageId": "pg_796e54e4ad01447a9f2032938f91b04b",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -11347,11 +11347,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 3,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-18T20:31:05.223Z",
+        "expiresAt": "2027-05-17T20:31:05.223Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -11418,7 +11418,7 @@
       "path": "/resources/guides/pre-settlement-finance-commercial-property-purchases-australia",
       "sourcePath": "src/content/guides/pre-settlement-finance-commercial-property-purchases-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -11442,9 +11442,9 @@
         "expiresAt": "2026-11-05"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
@@ -11482,9 +11482,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-15T20:41:43Z",
+        "expiresAt": "2027-01-13T20:41:43Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -11769,8 +11769,8 @@
       "sourcePath": "src/content/guides/private-debt-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private debt Australia",
         "intent": "informational",
@@ -11785,11 +11785,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-21T20:54:13.744Z",
+        "expiresAt": "2027-04-19T20:54:13.744Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -11944,7 +11944,7 @@
       "path": "/resources/guides/private-finance-for-business-after-bank-delay",
       "sourcePath": "src/content/guides/private-finance-for-business-after-bank-delay.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -11968,9 +11968,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -11987,7 +11987,7 @@
       "path": "/resources/guides/private-lender-document-pack-broker-take",
       "sourcePath": "src/content/guides/private-lender-document-pack-broker-take.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -12011,9 +12011,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -12031,8 +12031,8 @@
       "sourcePath": "src/content/guides/private-lenders-for-land-loans-alternative-financing.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private lenders for land loans",
         "intent": "informational",
@@ -12047,11 +12047,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-16T20:47:10.289Z",
+        "expiresAt": "2027-05-15T20:47:10.289Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -12205,8 +12205,8 @@
       "sourcePath": "src/content/guides/private-lending-mortgage.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private lending mortgage",
         "intent": "informational",
@@ -12221,11 +12221,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-25",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-05T22:38:20Z",
+        "expiresAt": "2027-05-04T22:38:20Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -12426,13 +12426,13 @@
       "sourcePath": "src/content/guides/private-mortgage-lending.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private mortgage lending",
         "intent": "informational",
-        "designatedServicePagePath": "/services/business-finance",
-        "designatedServicePageId": "pg_79b115ba18e845d985c0dee9905eb148",
+        "designatedServicePagePath": "/services/private-lending",
+        "designatedServicePageId": "pg_2fae09425aeb436a998243dcccca43df",
         "serviceOwnershipException": null,
         "country": "AU"
       },
@@ -12442,11 +12442,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-17",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-12T20:32:39.951Z",
+        "expiresAt": "2027-05-11T20:32:39.951Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -12514,8 +12514,8 @@
       "sourcePath": "src/content/guides/private-mortgage-loans-for-commercial-borrowers.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "private mortgage loan",
         "intent": "informational",
@@ -12530,11 +12530,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-28",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-15T22:11:27.094Z",
+        "expiresAt": "2027-05-14T22:11:27.094Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -12730,7 +12730,7 @@
       "path": "/resources/guides/property-development-mortgage-australia",
       "sourcePath": "src/content/guides/property-development-mortgage-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -12754,9 +12754,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -12904,7 +12904,7 @@
       "path": "/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining",
       "sourcePath": "src/content/guides/refinancing-commercial-property-with-a-short-lease-remaining.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -12928,9 +12928,9 @@
         "expiresAt": "2026-11-05"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
@@ -13039,7 +13039,7 @@
       "path": "/resources/guides/restaurant-expansion-second-mortgage-case-study",
       "sourcePath": "src/content/guides/restaurant-expansion-second-mortgage-case-study.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -13063,9 +13063,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -13082,7 +13082,7 @@
       "path": "/resources/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods",
       "sourcePath": "src/content/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -13106,9 +13106,9 @@
         "expiresAt": "2026-11-05"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-09-02T00:00:00+10:00",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": "2026-09-02T00:00:00+10:00",
         "lastMaterialChangeId": "chg_pr_157_158_159_160_161_162_163_164",
         "lastMaterialChangeAt": "2026-08-05T00:09:08Z"
@@ -13480,8 +13480,8 @@
       "sourcePath": "src/content/guides/second-mortgage-for-construction-finance-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "second mortgage for construction",
         "intent": "informational",
@@ -13496,11 +13496,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-06-19",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-16T21:00:05.302Z",
+        "expiresAt": "2027-05-15T21:00:05.302Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -13758,11 +13758,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 5,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-13T22:06:06Z",
+        "expiresAt": "2027-01-11T22:06:06Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -13919,7 +13919,7 @@
       "path": "/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia",
       "sourcePath": "src/content/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -13943,9 +13943,9 @@
         "expiresAt": "2026-11-05"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -14007,7 +14007,7 @@
       "path": "/resources/guides/second-mortgages-in-sydney-fast-local-approval",
       "sourcePath": "src/content/guides/second-mortgages-in-sydney-fast-local-approval.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -14031,9 +14031,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -14184,8 +14184,8 @@
       "sourcePath": "src/content/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "settlement shortfall finance",
         "intent": "informational",
@@ -14200,11 +14200,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-20T21:20:04Z",
+        "expiresAt": "2027-04-18T21:20:04Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14329,11 +14329,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 3,
+        "sourceCount": 4,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-14T20:30:16.428Z",
+        "expiresAt": "2027-01-12T20:30:16.428Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14503,11 +14503,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 3,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-21T21:14:31Z",
+        "expiresAt": "2027-01-19T21:14:31Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14591,11 +14591,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "financial-review",
         "sourceRequired": true,
-        "sourceCount": 2,
+        "sourceCount": 4,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-09T21:11:13.000Z",
+        "expiresAt": "2027-02-07T21:11:13.000Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -14750,7 +14750,7 @@
       "path": "/resources/guides/superannuation-guarantee-charge-business-finance-options-australia",
       "sourcePath": "src/content/guides/superannuation-guarantee-charge-business-finance-options-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -14774,9 +14774,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -15010,7 +15010,7 @@
       "path": "/resources/guides/tradex-scheme-import-gst-trade-finance-australian-importers",
       "sourcePath": "src/content/guides/tradex-scheme-import-gst-trade-finance-australian-importers.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -15034,9 +15034,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -15097,8 +15097,8 @@
       "sourcePath": "src/content/guides/understanding-secondary-mortgage-markets-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "secondary mortgage market Australia",
         "intent": "informational",
@@ -15113,11 +15113,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 3,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-18T20:45:38.448Z",
+        "expiresAt": "2027-05-17T20:45:38.448Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15139,7 +15139,7 @@
       "path": "/resources/guides/unsecured-business-loan-lenders-australia",
       "sourcePath": "src/content/guides/unsecured-business-loan-lenders-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -15163,9 +15163,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -15225,7 +15225,7 @@
       "path": "/resources/guides/unsecured-private-lenders-for-business-growth",
       "sourcePath": "src/content/guides/unsecured-private-lenders-for-business-growth.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -15249,9 +15249,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2027-02-02T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -15330,9 +15330,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO content audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-09T20:53:01.459Z",
+        "expiresAt": "2027-02-07T20:53:01.459Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15447,8 +15447,8 @@
       "sourcePath": "src/content/guides/vendor-finance-vs-business-acquisition-loan-in-australia.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "vendor finance vs business acquisition loan",
         "intent": "informational",
@@ -15463,11 +15463,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-15",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-16T20:40:29.848Z",
+        "expiresAt": "2027-05-15T20:40:29.848Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15533,8 +15533,8 @@
       "sourcePath": "src/content/guides/what-is-a-second-mortgage.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "what is a second mortgage",
         "intent": "informational",
@@ -15549,11 +15549,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 2,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-17",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-15T22:05:20.000Z",
+        "expiresAt": "2027-05-14T22:05:20.000Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15619,8 +15619,8 @@
       "sourcePath": "src/content/guides/what-is-bridging-finance.md",
       "pageType": "guide",
       "indexability": "indexable",
-      "metadataStatus": "needs_review",
-      "metadataConfidence": "low",
+      "metadataStatus": "verified",
+      "metadataConfidence": "high",
       "targeting": {
         "primaryQuery": "what is bridging finance",
         "intent": "informational",
@@ -15635,11 +15635,11 @@
         "contentOwner": "seo-content",
         "reviewOwner": "seo-content-review",
         "sourceRequired": true,
-        "sourceCount": 0,
+        "sourceCount": 1,
         "reviewEveryDays": 180,
-        "reviewedBy": null,
-        "reviewedAt": "2026-05-17",
-        "expiresAt": null
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-10-20T20:58:56Z",
+        "expiresAt": "2027-04-18T20:58:56Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15725,9 +15725,9 @@
         "sourceRequired": true,
         "sourceCount": 2,
         "reviewEveryDays": 90,
-        "reviewedBy": "OpenClaw SEO source audit",
-        "reviewedAt": "2026-08-05",
-        "expiresAt": "2026-11-05"
+        "reviewedBy": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-02T07:44:09Z",
+        "expiresAt": "2027-01-31T07:44:09Z"
       },
       "lifecycle": {
         "state": "observing",
@@ -15839,7 +15839,7 @@
       "path": "/resources/guides/working-capital-finance-insurance-claim-delay-australia",
       "sourcePath": "src/content/guides/working-capital-finance-insurance-claim-delay-australia.md",
       "pageType": "guide",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
       "targeting": {
@@ -15863,9 +15863,9 @@
         "expiresAt": "2026-11-08"
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -17577,17 +17577,15 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "reviewedBy": "Ben Blair",
-        "reviewedAt": "2026-11-06T12:48:00+11:00",
-        "expiresAt": "2027-02-04T12:48:00+11:00"
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
         "decision": "none",
         "reviewAt": "2026-09-02T00:00:00+10:00",
         "protectedUntil": "2026-09-02T00:00:00+10:00",
-        "lastMaterialChangeId": "chg_pr_253",
-        "lastMaterialChangeAt": "2026-11-06T12:48:00+11:00"
+        "lastMaterialChangeId": "chg_commit_c18cbee",
+        "lastMaterialChangeAt": "2026-08-05T15:57:57+10:00"
       },
       "measurement": {
         "primaryOutcome": "qualified_organic_lead",
@@ -20470,9 +20468,7 @@
         "sourceRequired": true,
         "sourceCount": 0,
         "reviewEveryDays": 90,
-        "reviewedBy": "Ben Blair",
-        "reviewedAt": "2026-11-06T12:48:00+11:00",
-        "expiresAt": "2027-02-04T12:48:00+11:00"
+        "expiresAt": null
       },
       "lifecycle": {
         "state": "observing",
@@ -22443,5 +22439,5 @@
       "programIds": []
     }
   ],
-  "checksum": "2fffc0bc20d6aba59662a92739126068712ae465a9213dfbcb1a7839b30a957b"
+  "checksum": "c0b59e478e07772e9a861599d92e80098ef648e0b30356c6ad7703cfef171822"
 }

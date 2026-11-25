@@ -15,6 +15,8 @@ author_name: "Ben"
 featuredImage: "/images/construction-completion-finance-in-australia-funding-a-project-that-has-stalled.jpg"
 keywords: ["construction completion finance australia", "completion finance", "stalled construction finance", "development completion funding", "private construction finance"]
 slug: "construction-completion-finance-in-australia-funding-a-project-that-has-stalled"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Construction Completion Finance in Australia: Funding a Project That Has Stalled

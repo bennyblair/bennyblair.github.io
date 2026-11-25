@@ -17,6 +17,8 @@ author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A private lender document pack is the core evidence a commercial borrower gives a broker or lender so the file can be assessed quickly and honestly. It usually includes identity and entity details, loan purpose, security information, financial context, bank statements, title details, debt position, and a written exit strategy.

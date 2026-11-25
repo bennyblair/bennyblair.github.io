@@ -19,6 +19,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "SGC Debt and Business Finance Options | Emet Capital"
 metaDescription: "Guide to Superannuation Guarantee Charge debt and business finance options in Australia. Learn what funding can and cannot solve for SGC pressure."
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Superannuation Guarantee Charge Debt and Business Finance Options

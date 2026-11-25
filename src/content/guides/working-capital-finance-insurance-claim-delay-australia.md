@@ -38,6 +38,8 @@ metaTitle: "Working Capital Finance During an Insurance Claim Delay"
 metaDescription: "Map payroll, repairs, stock and reopening costs while a business insurance claim is delayed. Learn evidence, finance options and exit risks."
 featuredImage: "/images/articles/working-capital-finance-insurance-claim-delay-australia.jpg"
 featuredImageAlt: "Monochrome shadow and light study illustrating uncertainty during an insurance claim delay"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Working capital finance during an insurance claim delay is business-purpose funding used to cover essential operating costs before an insurer decides or pays a claim. It may help an eligible Australian business fund payroll, urgent repairs, replacement stock, rent, supplier invoices or reopening costs, but it does not accelerate the insurance process or guarantee that the claim will be accepted.

@@ -32,6 +32,8 @@ sources:
     url: "https://business.gov.au/finance/cash-flow"
   - label: "business.gov.au — Apply for a business loan"
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Seasonal Stock Finance in Australia

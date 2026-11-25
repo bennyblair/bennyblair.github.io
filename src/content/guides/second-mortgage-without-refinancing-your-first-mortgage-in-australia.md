@@ -30,6 +30,8 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "ASIC - Professional registers search"
     url: "https://www.asic.gov.au/online-services/search-asic-registers/professional-registers-search/"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Second Mortgage Without Refinancing Your First Mortgage in Australia

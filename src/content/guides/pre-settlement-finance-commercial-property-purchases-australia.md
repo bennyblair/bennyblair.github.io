@@ -30,6 +30,8 @@ sources:
     url: "https://www.nsw.gov.au/housing-and-construction/buying-and-selling-property/buying-property-nsw/contracts-and-deposits"
   - label: "Moneysmart — Bridging finance"
     url: "https://moneysmart.gov.au/glossary/bridging-finance"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Pre-Settlement Finance for Commercial Property Purchases in Australia

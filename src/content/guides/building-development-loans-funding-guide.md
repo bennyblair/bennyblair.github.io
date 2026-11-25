@@ -94,6 +94,8 @@ faqSchema: |
       }
     ]
   }
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Building Development Loans: Complete Funding Guide for Developers

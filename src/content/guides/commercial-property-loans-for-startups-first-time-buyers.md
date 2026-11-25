@@ -26,6 +26,8 @@ metaDescription: "Finance considerations for newer businesses buying their first
 featuredImage: "/images/articles/commercial-property-loans-for-startups-first-time-buyers.webp"
 featuredImageAlt: "First commercial premises loan guide for newer Australian businesses"
 protectedUntil: "2026-10-19T00:00:00+11:00"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 > **Direct answer:** A newer business may qualify for a first commercial premises loan when the property, deposit source, director experience, current trading, serviceability, purchase costs and post-settlement liquidity form a supportable case. Thin financial history cannot be hidden; the application must show what reliable evidence replaces it and what happens if approval or trading is weaker than expected.
