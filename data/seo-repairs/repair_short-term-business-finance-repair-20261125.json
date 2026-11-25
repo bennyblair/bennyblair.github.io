@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "repairId": "repair_short-term-business-finance-repair-20261125",
+  "policyId": "property-content-repair",
+  "policyVersion": "2026-10-03.1",
+  "policyChecksum": "f0eed6f990499b778fb59ec9dc16bae21e0aca53995fad4d6ca111fb47cb1c86",
+  "authorizationRef": "automatic-general-information-programme-2026-10-03",
+  "baseSha": "ed750935cea6ab80840771957fe0302d8dd31317",
+  "editor": "Cursor cloud agent writer (Grok 4.6)",
+  "review": {
+    "reviewer": "OpenClaw independent reviewer",
+    "reviewedAt": "2026-11-24T21:21:43.555Z",
+    "expiresAt": "2027-05-23T21:21:43.555Z",
+    "verdict": "PASS",
+    "score": 94,
+    "blockingFindings": []
+  },
+  "kind": "substantive",
+  "reviewMode": "general-information-v1",
+  "pages": [
+    {
+      "sourcePath": "src/content/guides/short-term-business-finance-australia.md",
+      "pageId": "pg_18fb7070de9a408492f3aa0dec669da7",
+      "path": "/resources/guides/short-term-business-finance-australia",
+      "beforeSha256": "215e6d71faf512d97871c7e5e26190245056d7620e603d3316c3fc48e39ea3c0",
+      "afterSha256": "88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81",
+      "reason": "Existing-page repair of the short-term business finance owner URL (package short-term-business-finance-repair-20261125). Keep slug, canonical path, title, description, keywords, author Ben, author_* fields including the existing 10 years bio wording, and publication date 2026-06-14. Remove reviewed_date 2026-06-14 and set canonical independent-review metadata reviewedBy OpenClaw independent reviewer, reviewedAt 2026-11-24T21:21:43.555Z, expiresAt 2027-05-23T21:21:43.555Z on the 180-day medium-risk cadence. Registry designatedServicePagePath /services/business-finance, contentRisk medium, and maxAutomatedChangeRisk R0 are left unchanged. Remove all caveat-loan product listings and links. Add a product-fit table, a property-backed handoff to bridging finance and second mortgages, and one in-body link each to /services/business-finance and /services/bridging-finance. Keep the existing /services/refinancing-solutions sentence. Replace do-not-link guide targets from the parent-owned site-cleanup list. Publication-contract fields required for this material change: metaTitle, metaDescription, primaryQuery matching the registry, searchIntent informational, designatedServicePage /services/business-finance, contentRisk medium matching the registry, existing 1200x630 JPEG, featuredImageAlt, and two official sources. Related In-Depth Guides is an H2 so the template owns the only H1. Independent Grok 4.7 review PASS 94 at pre-metadata sha256 adcd4da4045c4b917d2d086532a16c3e691476b6e92bbc1c5ddb3bb993f38ab9 / git 739137276e2a8f0ebb184578e090b1b91446f2a5, rebased as 56a41f309b02d31e7ade3869c320e2ab7ae563ff onto main ed750935cea6ab80840771957fe0302d8dd31317. Resulting guide sha256 88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81. Body is unchanged from that reviewed revision except the metadata stamp. No rates, fees, LVRs, volumes, licence, membership, consumer-loan, caveat-loan, or invented transaction results were added. Draft only. No human or professional approval.",
+      "evidence": [
+        {
+          "reference": "https://cursor.com/agents/bc-9cd1b5f1-5176-58a7-90b7-f1cb4bee1f06"
+        }
+      ],
+      "verification": [
+        {
+          "kind": "link-added",
+          "value": "/services/business-finance"
+        },
+        {
+          "kind": "link-added",
+          "value": "/services/bridging-finance"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/caveat-loans-australia-complete-guide"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/working-capital-loans-for-smes"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/how-to-get-a-business-loan-australia"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/business-line-of-credit-australia"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/asset-backed-lending-and-asset-finance"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/ato-payment-plan-vs-business-finance-australia"
+        },
+        {
+          "kind": "link-removed",
+          "value": "/resources/guides/business-debt-consolidation-australia"
+        },
+        {
+          "kind": "text-added",
+          "value": "A general business borrower can start with business finance to discuss which of those structures may fit the file."
+        },
+        {
+          "kind": "text-added",
+          "value": "A bank overdraft or line of credit is usually a standing limit that the business can draw and repay."
+        },
+        {
+          "kind": "text-added",
+          "value": "it is a good idea to compare loan products from multiple lenders before applying"
+        },
+        {
+          "kind": "text-added",
+          "value": "the law provides the lowest level of protection to commercial loans, including loans to small businesses."
+        },
+        {
+          "kind": "text-removed",
+          "value": "caveat loans"
+        }
+      ],
+      "generalInformationReview": {
+        "schemaVersion": 1,
+        "reviewType": "independent-automated-editorial",
+        "mode": "general-information-v1",
+        "status": "reviewed_draft",
+        "outcome": "PASS",
+        "reviewer": "OpenClaw independent reviewer",
+        "reviewedAt": "2026-11-24T21:21:43.555Z",
+        "reviewedSourceSha256": "88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81",
+        "automated": true,
+        "human": false,
+        "professionalFinancialReview": false,
+        "score": 94,
+        "blockingFindings": [],
+        "completePageChecked": true,
+        "businessPurposeOnly": true,
+        "noPersonalAdvice": true,
+        "unsupportedClaimsRemoved": true,
+        "claimCoverage": "complete",
+        "unmappedFactualClaims": [],
+        "sources": [
+          {
+            "url": "https://business.gov.au/finance/funding/apply-for-a-business-loan",
+            "checkedAt": "2026-11-24T21:21:43.555Z",
+            "status": 200
+          },
+          {
+            "url": "https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans",
+            "checkedAt": "2026-11-24T21:21:43.555Z",
+            "status": 200
+          }
+        ],
+        "sourceClaimMap": [
+          {
+            "claim": "documentation requirements vary between loans",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "it is a good idea to compare loan products from multiple lenders before applying",
+            "sources": ["https://business.gov.au/finance/funding/apply-for-a-business-loan"]
+          },
+          {
+            "claim": "the laws, and the protections they provide to borrowers, differ depending on the purpose of the loan",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          },
+          {
+            "claim": "the law provides the lowest level of protection to commercial loans, including loans to small businesses.",
+            "sources": ["https://www.asic.gov.au/about-asic/contact-us/reporting-misconduct-to-asic/disputes-about-commercial-loans"]
+          }
+        ],
+        "limitations": [
+          "This is an automated independent editorial and source review of resulting guide sha256 88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81. Independent Grok 4.7 review PASS 94 of pre-metadata sha256 adcd4da4045c4b917d2d086532a16c3e691476b6e92bbc1c5ddb3bb993f38ab9 at git 739137276e2a8f0ebb184578e090b1b91446f2a5 (rebased as 56a41f309b02d31e7ade3869c320e2ab7ae563ff after same-day main ed750935cea6ab80840771957fe0302d8dd31317). Posted on PR 290. This metadata commit does not change the article body. reviewedAt 2026-11-24T21:21:43.555Z and expiresAt 2027-05-23T21:21:43.555Z (180 days). Writer run https://cursor.com/agents/bc-9cd1b5f1-5176-58a7-90b7-f1cb4bee1f06. Not human or professional financial approval.",
+          "Author Ben, author_* fields including the existing 10 years bio wording, slug, title, description, keywords, and publication date 2026-06-14 stay. reviewed_date 2026-06-14 is removed. contentRisk stays medium. No Ben or owner approval is invented.",
+          "business.gov.au Apply for a business loan returned HTTP 200 to the independent review at 2026-11-24T21:21:43.555Z. ASIC Disputes about commercial loans returned HTTP 200 at the same instant. CI must re-observe 2xx within 30 days of checkedAt.",
+          "No rate, fee, LVR, timeframe promise, lender name, dollar-volume, FBAA, MFAA, credit-licence, or consumer-loan offer was added. All caveat-loan product listings and links were removed. Emet Capital is described as a commercial finance broker, not a lender. Registry maxAutomatedChangeRisk remains R0."
+        ],
+        "metadataChanges": [
+          {
+            "before": "reviewed_date: 2026-06-14; no reviewedBy, reviewedAt, or expiresAt",
+            "after": "reviewedBy: OpenClaw independent reviewer; reviewedAt: 2026-11-24T21:21:43.555Z; expiresAt: 2027-05-23T21:21:43.555Z; reviewed_date removed. Guide sha256 88eaddaa0f55e0c606a49dc102797346d85172b7ea3473463656ddbd0c411e81 independently reviewed PASS 94.",
+            "reason": "Canonical independent-review metadata on the registered 180-day medium-risk cadence. The reviewed_date alias is removed. Article body is unchanged from git 739137276e2a8f0ebb184578e090b1b91446f2a5, rebased as 56a41f309b02d31e7ade3869c320e2ab7ae563ff."
+          }
+        ],
+        "scopeVerification": {
+          "canonicalWebsiteTouched": false,
+          "urlAndCanonicalUnchanged": true,
+          "contentRiskUnchanged": true,
+          "authorAndPublicationDateUnchanged": true,
+          "reviewMetadataUnchangedPendingIndependentReview": false,
+          "metadataChecked": true,
+          "allInternalLinksResolved": true,
+          "canonicalReviewMetadataSet": true,
+          "resultingFileIndependentlyReviewed": true
+        }
+      }
+    }
+  ]
+}
