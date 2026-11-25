@@ -48,33 +48,27 @@ export default function BridgingFinanceBrisbane() {
       scenarios={[
         {
           title: 'South Brisbane Mixed-Use Settlement Bridge',
-          scenario: 'An investor was buying a $2.15 million mixed-use property in South Brisbane, but the refinance of another asset in Milton had not reached final credit sign-off and the vendor would not extend settlement.',
-          solution: 'A bridging facility of $1.34 million allowed the acquisition to settle on time while the Milton refinance continued toward completion, preserving the purchase without forcing a weaker long-term choice under deadline pressure.',
+          scenario: 'An investor was buying a mixed-use property in South Brisbane, but the refinance of another asset in Milton had not reached final credit sign-off and the vendor would not extend settlement.',
+          solution: 'A bridging facility allowed the acquisition to settle on time while the Milton refinance continued toward completion, preserving the purchase without forcing a weaker long-term choice under deadline pressure.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.15M' },
-            { label: 'Bridge facility', value: '$1.34M' },
             { label: 'Indicative leverage', value: '62% LVR' },
             { label: 'Expected exit', value: 'Refinance of existing asset' }
           ]
         },
         {
           title: 'Rocklea Warehouse Refinance Transition',
-          scenario: 'A transport operator owned a Rocklea warehouse valued at $3.9 million, but its lender wanted repayment before a major contract renewal was documented and before the incoming lender was ready to settle.',
-          solution: 'A $2.3 million bridge created breathing room for the contract renewal and refinance conditions to be completed, with the facility structured as a short transition rather than a permanent debt solution.',
+          scenario: 'A transport operator owned a Rocklea warehouse, but its lender wanted repayment before a major contract renewal was documented and before the incoming lender was ready to settle.',
+          solution: 'A bridge created breathing room for the contract renewal and refinance conditions to be completed, with the facility structured as a short transition rather than a permanent debt solution.',
           outcomes: [
-            { label: 'Security value', value: '$3.9M warehouse' },
-            { label: 'Bridge facility', value: '$2.3M' },
             { label: 'Planned term', value: '3 to 5 months' },
             { label: 'Exit path', value: 'Incoming commercial refinance' }
           ]
         },
         {
           title: 'North Lakes Commercial Purchase Before Sale',
-          scenario: 'A business owner secured a $2.62 million commercial property in North Lakes to relocate operations, but the sale of their existing premises in Kedron was still under contract and not due to settle for another nine weeks.',
-          solution: 'A $1.58 million bridge allowed the new property to settle first, keeping the relocation on track and enabling repayment once the Kedron sale completed.',
+          scenario: 'A business owner secured a commercial property in North Lakes to relocate operations, but the sale of their existing premises in Kedron was still under contract and not due to settle for another nine weeks.',
+          solution: 'A bridge allowed the new property to settle first, keeping the relocation on track and enabling repayment once the Kedron sale completed.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.62M owner-occupied commercial' },
-            { label: 'Bridge facility', value: '$1.58M' },
             { label: 'Expected exit source', value: 'Sale of existing premises' },
             { label: 'Planned term', value: '2 to 4 months' }
           ]

@@ -48,33 +48,27 @@ export default function BridgingFinanceMelbourne() {
       scenarios={[
         {
           title: 'Brighton Sale-and-Purchase Timing Gap',
-          scenario: 'A borrower was purchasing a $3.85 million Brighton asset while their Camberwell property was under contract but still 10 weeks from settlement. Waiting would likely mean losing the new acquisition.',
-          solution: 'A short-term bridge of $2.45 million allowed the Brighton purchase to settle immediately and be repaid from the Camberwell sale once that transaction completed.',
+          scenario: 'A borrower was purchasing a Brighton asset while their Camberwell property was under contract but still 10 weeks from settlement. Waiting would likely mean losing the new acquisition.',
+          solution: 'A short-term bridge allowed the Brighton purchase to settle immediately and be repaid from the Camberwell sale once that transaction completed.',
           outcomes: [
-            { label: 'New purchase', value: '$3.85M' },
-            { label: 'Bridge facility', value: '$2.45M' },
             { label: 'Expected exit source', value: 'Sale of existing Camberwell asset' },
             { label: 'Planned holding period', value: 'Up to 4 months' }
           ]
         },
         {
           title: 'Dandenong South Industrial Refinance Bridge',
-          scenario: 'A manufacturing business owned a warehouse in Dandenong South valued at $4.6 million, but its existing lender matured before the incoming refinance could complete valuation and legal conditions.',
-          solution: 'A $2.9 million bridging facility bought enough time to complete the takeout refinance properly and avoid forced rollover pressure while the business remained focused on operations.',
+          scenario: 'A manufacturing business owned a warehouse in Dandenong South, but its existing lender matured before the incoming refinance could complete valuation and legal conditions.',
+          solution: 'A bridging facility bought enough time to complete the takeout refinance properly and avoid forced rollover pressure while the business remained focused on operations.',
           outcomes: [
-            { label: 'Security value', value: '$4.6M industrial property' },
-            { label: 'Bridge facility', value: '$2.9M' },
             { label: 'Indicative leverage', value: '63% LVR' },
             { label: 'Expected exit', value: 'Refinance within 3 months' }
           ]
         },
         {
           title: 'Collingwood Mixed-Use Short Settlement',
-          scenario: 'An investor exchanged on a $2.7 million Collingwood mixed-use property with a 21-day settlement, but the preferred lender needed more time to complete tenancy analysis and issue final docs.',
-          solution: 'A $1.68 million acquisition bridge preserved the purchase and gave the borrower time to refinance into a longer-term facility once the lender completed its normal process.',
+          scenario: 'An investor exchanged on a Collingwood mixed-use property with a 21-day settlement, but the preferred lender needed more time to complete tenancy analysis and issue final docs.',
+          solution: 'An acquisition bridge preserved the purchase and gave the borrower time to refinance into a longer-term facility once the lender completed its normal process.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.7M mixed-use asset' },
-            { label: 'Bridge facility', value: '$1.68M' },
             { label: 'Contract pressure', value: '21-day settlement' },
             { label: 'Expected exit', value: 'Takeout refinance within 2 months' }
           ]

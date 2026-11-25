@@ -186,6 +186,11 @@ export function validateRegistry(registry, { now = new Date(), allowOverdue = tr
   const canonicalPaths = new Set(
     registry.pages.filter((page) => page.indexability === "indexable").map((page) => page.path),
   );
+  const liveRegisteredPaths = new Set(
+    registry.pages
+      .filter((page) => page.indexability === "indexable" || page.indexability === "noindex")
+      .map((page) => page.path),
+  );
   const normalizedQueryOwners = new Map();
 
   for (const [index, page] of registry.pages.entries()) {
@@ -219,8 +224,8 @@ export function validateRegistry(registry, { now = new Date(), allowOverdue = tr
       if (page.lifecycle.state !== "closed" || page.lifecycle.decision !== "consolidate") {
         errors.push(`${prefix}: redirect must be closed with consolidate decision`);
       }
-      if (!page.redirectToPath || !canonicalPaths.has(page.redirectToPath)) {
-        errors.push(`${prefix}: redirect target is not an indexable registered page: ${page.redirectToPath}`);
+      if (!page.redirectToPath || !liveRegisteredPaths.has(page.redirectToPath)) {
+        errors.push(`${prefix}: redirect target is not a registered live page: ${page.redirectToPath}`);
       }
     }
     if (page.lifecycle?.protectedUntil && Date.parse(page.lifecycle.protectedUntil) > now.getTime()) {

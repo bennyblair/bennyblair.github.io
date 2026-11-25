@@ -13,6 +13,7 @@ import {
 } from "../lib/seo-control-plane.mjs";
 import {
   getIndexableStaticRoutes,
+  getNoindexStaticRoutes,
   isRedirectSource,
   redirectRules,
 } from "../../src/config/site-route-manifest";
@@ -34,9 +35,10 @@ test("canonical SEO registry validates and exactly covers the current route esta
   );
   assert.deepEqual(registeredIndexable, expectedIndexable);
 
-  const expectedNoindex = new Set(
-    content.filter((article) => article.noindex && !isRedirectSource(article.route)).map((article) => article.route),
-  );
+  const expectedNoindex = new Set([
+    ...getNoindexStaticRoutes().map((route) => route.path),
+    ...content.filter((article) => article.noindex && !isRedirectSource(article.route)).map((article) => article.route),
+  ]);
   const registeredNoindex = new Set(
     registry.pages.filter((page: any) => page.indexability === "noindex").map((page: any) => page.path),
   );

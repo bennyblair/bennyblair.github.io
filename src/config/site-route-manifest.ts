@@ -16,6 +16,7 @@ export interface SiteRouteDefinition {
   pageType: PageType;
   canonical?: string;
   indexable: boolean;
+  noindex?: boolean;
   source: string;
   changefreq?: "daily" | "weekly" | "monthly" | "yearly";
   priority?: number;
@@ -40,7 +41,7 @@ export const cities = [
 ] as const;
 
 const cityFamilies = [
-  { slug: "smsf-lending", component: "SMSFLending", sourcePrefix: "SMSFLending", usesCitiesPath: true },
+  { slug: "smsf-lending", component: "SMSFLending", sourcePrefix: "SMSFLending", usesCitiesPath: true, noindex: true },
   { slug: "private-lending", component: "PrivateLending", sourcePrefix: "PrivateLending", usesCitiesPath: true },
   {
     slug: "first-second-mortgages",
@@ -55,7 +56,7 @@ const cityFamilies = [
     usesCitiesPath: true,
   },
   { slug: "bridging-finance", component: "BridgingFinance", sourcePrefix: "BridgingFinance", usesCitiesPath: true },
-  { slug: "asset-finance", component: "AssetFinance", sourcePrefix: "AssetFinance", usesCitiesPath: true },
+  { slug: "asset-finance", component: "AssetFinance", sourcePrefix: "AssetFinance", usesCitiesPath: true, noindex: true },
   {
     slug: "asset-backed-lending",
     component: "AssetBackedLending",
@@ -73,21 +74,36 @@ const cityFamilies = [
     component: "BusinessAcquisition",
     sourcePrefix: "BusinessAcquisition",
     usesCitiesPath: true,
+    noindex: true,
   },
   {
     slug: "debt-consolidation",
     component: "DebtConsolidation",
     sourcePrefix: "DebtConsolidation",
     usesCitiesPath: true,
+    noindex: true,
   },
   {
     slug: "equipment-finance",
     component: "EquipmentFinance",
     sourcePrefix: "EquipmentFinance",
     usesCitiesPath: true,
+    noindex: true,
   },
-  { slug: "working-capital", component: "WorkingCapital", sourcePrefix: "WorkingCapital", usesCitiesPath: true },
-  { slug: "trade-finance", component: "TradeFinance", sourcePrefix: "TradeFinance", usesCitiesPath: true },
+  {
+    slug: "working-capital",
+    component: "WorkingCapital",
+    sourcePrefix: "WorkingCapital",
+    usesCitiesPath: true,
+    noindex: true,
+  },
+  {
+    slug: "trade-finance",
+    component: "TradeFinance",
+    sourcePrefix: "TradeFinance",
+    usesCitiesPath: true,
+    noindex: true,
+  },
 ] as const;
 
 const cityRoutes: SiteRouteDefinition[] = cityFamilies.flatMap((family) =>
@@ -96,8 +112,9 @@ const cityRoutes: SiteRouteDefinition[] = cityFamilies.flatMap((family) =>
     component: `${family.component}${city.suffix}`,
     pageType: "location",
     indexable: true,
+    ...("noindex" in family && family.noindex ? { noindex: true as const } : {}),
     source: `src/pages/services/cities/${family.sourcePrefix}${city.suffix}.tsx`,
-    changefreq: "monthly",
+    changefreq: "monthly" as const,
     priority: 0.7,
   })),
 );
@@ -530,8 +547,18 @@ export function isRedirectSource(pathname: string) {
   return redirectRules.some((rule) => rule.status === 301 && rule.from === pathname);
 }
 
-export function getIndexableStaticRoutes() {
+export function getPrerenderStaticRoutes() {
   return siteRoutes.filter(
     (route) => route.indexable && !route.path.includes(":") && route.path !== "*" && !isRedirectSource(route.path),
   );
 }
+
+export function getIndexableStaticRoutes() {
+  return getPrerenderStaticRoutes().filter((route) => !route.noindex);
+}
+
+export function getNoindexStaticRoutes() {
+  return getPrerenderStaticRoutes().filter((route) => route.noindex);
+}
+
+export const noindexRoutePaths = new Set(getNoindexStaticRoutes().map((route) => route.path));

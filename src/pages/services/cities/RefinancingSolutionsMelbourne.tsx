@@ -90,40 +90,15 @@ const data = {
     {
       "title": "Truganina warehouse refinance for working capital release",
       "summary": "A transport and distribution business refinanced its Truganina warehouse after several years of trading growth. The existing facility no longer matched the scale of operations and the borrower wanted additional liquidity for racking, yard works, and contract mobilisation without selling a strategic site.",
-      "figures": [
-        {
-          "label": "Security value",
-          "value": "$6.4 million"
-        },
-        {
-          "label": "Outgoing debt",
-          "value": "$3.55 million"
-        },
-        {
-          "label": "New facility",
-          "value": "$4.2 million"
-        },
-        {
-          "label": "Released capital",
-          "value": "$650,000"
-        }
-      ]
+      "figures": []
     },
     {
       "title": "Collingwood mixed-use consolidation before tenant resets",
       "summary": "An investor holding adjacent mixed-use assets in Collingwood wanted to consolidate two lenders before retail lease negotiations and planned building improvements. The refinance focused on simplifying the debt stack and preserving strategic flexibility while the properties were repositioned.",
       "figures": [
         {
-          "label": "Combined value",
-          "value": "$5.1 million"
-        },
-        {
           "label": "Previous lenders",
           "value": "2 lenders"
-        },
-        {
-          "label": "New debt",
-          "value": "$3.05 million"
         },
         {
           "label": "Primary goal",
@@ -135,14 +110,6 @@ const data = {
       "title": "Moorabbin owner-occupier refinance after covenant fatigue",
       "summary": "A manufacturing business in Moorabbin refinanced its premises after annual reviews and covenant settings had become overly restrictive relative to current trading performance. The replacement facility prioritised a cleaner amortisation profile and more predictable reporting requirements.",
       "figures": [
-        {
-          "label": "Property value",
-          "value": "$3.6 million"
-        },
-        {
-          "label": "Refinanced balance",
-          "value": "$2.2 million"
-        },
         {
           "label": "Repayment structure",
           "value": "Longer amortisation"

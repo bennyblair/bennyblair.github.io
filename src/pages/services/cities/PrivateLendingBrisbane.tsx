@@ -48,22 +48,18 @@ export default function PrivateLendingBrisbane() {
       scenarios={[
         {
           title: 'Rocklea warehouse refinance bridge',
-          scenario: 'A transport operator owned a Rocklea warehouse valued at $4 million and needed to repay an outgoing lender before the replacement refinance completed contract and legal review.',
-          solution: 'A private first mortgage of $2.35 million bought enough time to complete the refinance properly without losing control of the asset.',
+          scenario: 'A transport operator owned a Rocklea warehouse and needed to repay an outgoing lender before the replacement refinance completed contract and legal review.',
+          solution: 'A private first mortgage bought enough time to complete the refinance properly without losing control of the asset.',
           outcomes: [
-            { label: 'Security value', value: '$4.0M warehouse' },
-            { label: 'Private facility', value: '$2.35M' },
             { label: 'Indicative leverage', value: '59% LVR' },
             { label: 'Expected exit', value: 'Refinance within 4 months' }
           ]
         },
         {
           title: 'South Brisbane mixed-use acquisition',
-          scenario: 'An investor exchanged on a $2.2 million South Brisbane mixed-use property with a short settlement while their long-term lender was still completing due diligence.',
-          solution: 'A $1.32 million private facility allowed settlement first and refinance later once the permanent facility was ready to draw.',
+          scenario: 'An investor exchanged on a South Brisbane mixed-use property with a short settlement while their long-term lender was still completing due diligence.',
+          solution: 'A private facility allowed settlement first and refinance later once the permanent facility was ready to draw.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.2M mixed-use asset' },
-            { label: 'Private facility', value: '$1.32M' },
             { label: 'Settlement issue', value: 'Vendor timeline pressure' },
             { label: 'Expected exit', value: 'Takeout refinance' }
           ]
@@ -71,10 +67,8 @@ export default function PrivateLendingBrisbane() {
         {
           title: 'North Lakes business expansion event',
           scenario: 'A business owner needed short-term capital against a North Lakes commercial property to complete an expansion and equity reshuffle before bank debt could be reset.',
-          solution: 'A private property-backed facility of $1.85 million created the required liquidity and kept the expansion timetable on track.',
+          solution: 'A private property-backed facility created the required liquidity and kept the expansion timetable on track.',
           outcomes: [
-            { label: 'Security value', value: '$3.1M commercial property' },
-            { label: 'Private facility', value: '$1.85M' },
             { label: 'Commercial purpose', value: 'Expansion and equity reshuffle' },
             { label: 'Planned term', value: '3 to 6 months' }
           ]

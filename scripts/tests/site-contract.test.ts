@@ -5,6 +5,7 @@ import test from "node:test";
 import { buildContentIndex } from "../lib/content-index.mjs";
 import {
   getIndexableStaticRoutes,
+  getPrerenderStaticRoutes,
   isRedirectSource,
   redirectRules,
   siteRoutes,
@@ -399,4 +400,79 @@ test("intent overlap catches near-duplicate ideas within the same service cluste
   const overlaps = findIntentOverlaps(candidate, [existing]);
   assert.equal(overlaps.length, 1);
   assert.equal(overlaps[0].candidate.file, "existing.md");
+});
+
+const prunedCityNoindexPaths = [
+  "/services/asset-finance/cities/sydney",
+  "/services/asset-finance/cities/melbourne",
+  "/services/asset-finance/cities/brisbane",
+  "/services/asset-finance/cities/perth",
+  "/services/asset-finance/cities/adelaide",
+  "/services/asset-finance/cities/gold-coast",
+  "/services/business-acquisition/cities/sydney",
+  "/services/business-acquisition/cities/melbourne",
+  "/services/business-acquisition/cities/brisbane",
+  "/services/business-acquisition/cities/perth",
+  "/services/business-acquisition/cities/adelaide",
+  "/services/business-acquisition/cities/gold-coast",
+  "/services/debt-consolidation/cities/sydney",
+  "/services/debt-consolidation/cities/melbourne",
+  "/services/debt-consolidation/cities/brisbane",
+  "/services/debt-consolidation/cities/perth",
+  "/services/debt-consolidation/cities/adelaide",
+  "/services/debt-consolidation/cities/gold-coast",
+  "/services/equipment-finance/cities/sydney",
+  "/services/equipment-finance/cities/melbourne",
+  "/services/equipment-finance/cities/brisbane",
+  "/services/equipment-finance/cities/perth",
+  "/services/equipment-finance/cities/adelaide",
+  "/services/equipment-finance/cities/gold-coast",
+  "/services/smsf-lending/cities/sydney",
+  "/services/smsf-lending/cities/melbourne",
+  "/services/smsf-lending/cities/brisbane",
+  "/services/smsf-lending/cities/perth",
+  "/services/smsf-lending/cities/adelaide",
+  "/services/smsf-lending/cities/gold-coast",
+  "/services/trade-finance/cities/sydney",
+  "/services/trade-finance/cities/melbourne",
+  "/services/trade-finance/cities/brisbane",
+  "/services/trade-finance/cities/perth",
+  "/services/trade-finance/cities/adelaide",
+  "/services/trade-finance/cities/gold-coast",
+  "/services/working-capital/cities/sydney",
+  "/services/working-capital/cities/melbourne",
+  "/services/working-capital/cities/brisbane",
+  "/services/working-capital/cities/perth",
+  "/services/working-capital/cities/adelaide",
+  "/services/working-capital/cities/gold-coast",
+];
+
+test("pruned low-value city pages stay prerendered but are not indexable or redirect sources", () => {
+  assert.equal(prunedCityNoindexPaths.length, 42);
+  const indexable = new Set(getIndexableStaticRoutes().map((route) => route.path));
+  const prerendered = new Set(getPrerenderStaticRoutes().map((route) => route.path));
+  for (const pathValue of prunedCityNoindexPaths) {
+    assert.equal(indexable.has(pathValue), false, `${pathValue} must not be indexable`);
+    assert.equal(prerendered.has(pathValue), true, `${pathValue} must remain prerendered`);
+    assert.equal(isRedirectSource(pathValue), false, `${pathValue} must not be a redirect source`);
+    const route = siteRoutes.find((item) => item.path === pathValue);
+    assert.ok(route, `${pathValue} must remain in the route manifest`);
+    assert.equal(route.noindex, true, `${pathValue} must carry noindex`);
+    assert.equal(route.indexable, true, `${pathValue} must stay indexable so it continues to prerender`);
+  }
+});
+
+test("city-page scenario and example content does not include unverified dollar figures", () => {
+  const cityDir = path.join(repoRoot, "src/pages/services/cities");
+  const files = fs
+    .readdirSync(cityDir)
+    .filter((file) => file.endsWith(".tsx") && file !== "RefinancingSolutionsCityTemplate.tsx");
+  const errors = [];
+  for (const file of files) {
+    const source = fs
+      .readFileSync(path.join(cityDir, file), "utf8")
+      .replace(/"heroStats"\s*:\s*\[[\s\S]*?\]/, "");
+    if (/\$[\d,]/.test(source)) errors.push(`${file}: scenario/example content still contains a dollar figure`);
+  }
+  assert.deepEqual(errors, []);
 });

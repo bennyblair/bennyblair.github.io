@@ -48,25 +48,19 @@ export default function CommercialDevelopmentGoldCoast() {
       scenarios={[
         {
           title: 'Palm Beach Boutique Coastal Apartments',
-          scenario: 'A developer controlled a Palm Beach site approved for 14 premium apartments targeting downsizers from Brisbane, Sydney, and Melbourne. Total project costs were budgeted at $13.6 million with projected gross realisation of $18.7 million, but the borrower needed a lender comfortable with premium stock selling progressively rather than all before commencement.',
-          solution: 'A $9.8 million facility was arranged with staged drawdowns, interest capitalisation during the build, and a measured presale covenant that reflected the product\'s owner-occupier profile. The structure gave the project time to sell on quality rather than forcing early discounting to satisfy a rigid bank metric.',
+          scenario: 'A developer controlled a Palm Beach site approved for 14 premium apartments targeting downsizers from Brisbane, Sydney, and Melbourne. The borrower needed a lender comfortable with premium stock selling progressively rather than all before commencement.',
+          solution: 'A facility was arranged with staged drawdowns, interest capitalisation during the build, and a measured presale covenant that reflected the product\'s owner-occupier profile. The structure gave the project time to sell on quality rather than forcing early discounting to satisfy a rigid bank metric.',
           outcomes: [
             { label: 'Apartments', value: '14 units' },
-            { label: 'Development cost', value: '$13.6M' },
-            { label: 'Development finance', value: '$9.8M' },
-            { label: 'Projected realisation', value: '$18.7M' }
-          ]
+            ]
         },
         {
           title: 'Coomera Townhouse and Retail Stage',
-          scenario: 'A borrower planned a staged Coomera project combining 26 townhouses with a small neighbourhood retail component intended to service nearby masterplanned communities. Total costs were estimated at $11.1 million and projected end value at $15.2 million once the residential stock was sold and the retail component leased.',
-          solution: 'Funding of $8.0 million was structured in stages so civil works, townhouse delivery, and the retail shell could each be drawn against clear milestones. This reduced the risk of overfunding the entire scheme too early while still keeping the site moving through construction.',
+          scenario: 'A borrower planned a staged Coomera project combining 26 townhouses with a small neighbourhood retail component intended to service nearby masterplanned communities. The funding needed to match staged delivery of the residential and retail components.',
+          solution: 'Funding was structured in stages so civil works, townhouse delivery, and the retail shell could each be drawn against clear milestones. This reduced the risk of overfunding the entire scheme too early while still keeping the site moving through construction.',
           outcomes: [
             { label: 'Townhouses', value: '26 dwellings' },
-            { label: 'Development cost', value: '$11.1M' },
-            { label: 'Development finance', value: '$8.0M' },
-            { label: 'Projected end value', value: '$15.2M' }
-          ]
+            ]
         }
       ]}
       relatedLinks={[

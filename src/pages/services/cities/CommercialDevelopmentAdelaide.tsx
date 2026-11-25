@@ -48,25 +48,19 @@ export default function CommercialDevelopmentAdelaide() {
       scenarios={[
         {
           title: 'Prospect Medium-Density Townhouse Project',
-          scenario: 'A developer secured an infill Prospect site for 12 architect-designed townhouses aimed at downsizers and professionals priced out of detached housing nearby. Total project costs were expected to be $7.8 million, with projected gross realisation of $10.6 million once the dwellings were completed and sold.',
-          solution: 'A $5.7 million facility was structured with drawdowns linked to demolition, civil works, frame, lock-up, and completion. The lender accepted a moderate presale position because the sponsor had strong local delivery experience and the suburb had clear resale evidence for well-finished stock.',
+          scenario: 'A developer secured an infill Prospect site for 12 architect-designed townhouses aimed at downsizers and professionals priced out of detached housing nearby. The funding needed to match construction milestones and a realistic sell-down path.',
+          solution: 'A facility was structured with drawdowns linked to demolition, civil works, frame, lock-up, and completion. The lender accepted a moderate presale position because the sponsor had strong local delivery experience and the suburb had clear resale evidence for well-finished stock.',
           outcomes: [
             { label: 'Townhouses', value: '12 dwellings' },
-            { label: 'Development cost', value: '$7.8M' },
-            { label: 'Development finance', value: '$5.7M' },
-            { label: 'Projected realisation', value: '$10.6M' }
-          ]
+            ]
         },
         {
           title: 'Edinburgh Parks Industrial Facility',
-          scenario: 'A sponsor planned a specialised industrial building in the broader Edinburgh Parks precinct to service defence and advanced-manufacturing contractors needing high-clearance warehousing, secure yard, and integrated office space. Total project costs were projected at $16.3 million with a stabilised value of $22.1 million once completed and occupied.',
-          solution: 'Development finance of $11.9 million was arranged with milestone-based drawdowns, capitalised interest during construction, and additional diligence around the tenant and specification profile. The structure gave the borrower room to complete specialised works without having to refinance too early.',
+          scenario: 'A sponsor planned a specialised industrial building in the broader Edinburgh Parks precinct to service defence and advanced-manufacturing contractors needing high-clearance warehousing, secure yard, and integrated office space. The funding needed to match specialised construction and a realistic occupation path.',
+          solution: 'Development finance was arranged with milestone-based drawdowns, capitalised interest during construction, and additional diligence around the tenant and specification profile. The structure gave the borrower room to complete specialised works without having to refinance too early.',
           outcomes: [
             { label: 'Facility size', value: '6,900sqm GLA' },
-            { label: 'Development cost', value: '$16.3M' },
-            { label: 'Development finance', value: '$11.9M' },
-            { label: 'Projected end value', value: '$22.1M' }
-          ]
+            ]
         }
       ]}
       relatedLinks={[

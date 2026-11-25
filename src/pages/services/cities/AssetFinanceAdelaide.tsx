@@ -52,7 +52,6 @@ export default function AssetFinanceAdelaide() {
           solution: 'A structured asset-finance facility funded the rollout and let the business preserve liquidity for staffing and operating costs.',
           outcomes: [
             { label: 'Asset type', value: 'Vehicles + business equipment' },
-            { label: 'Facility size', value: '$310K' },
             { label: 'Commercial purpose', value: 'Growth and rollout' },
             { label: 'Indicative term', value: '4 to 5 years' }
           ]
@@ -63,7 +62,6 @@ export default function AssetFinanceAdelaide() {
           solution: 'An equipment-finance structure spread the cost over time and supported a cleaner expansion path.',
           outcomes: [
             { label: 'Asset type', value: 'Healthcare equipment' },
-            { label: 'Facility size', value: '$470K' },
             { label: 'Commercial purpose', value: 'Capacity expansion' },
             { label: 'Indicative term', value: '5 to 7 years' }
           ]
@@ -74,7 +72,6 @@ export default function AssetFinanceAdelaide() {
           solution: 'Asset finance reduced the upfront burden and helped the business preserve cash for launch-stage execution.',
           outcomes: [
             { label: 'Asset type', value: 'Hospitality equipment' },
-            { label: 'Facility size', value: '$185K' },
             { label: 'Commercial pressure', value: 'Opening timeline' },
             { label: 'Indicative term', value: '3 to 5 years' }
           ]

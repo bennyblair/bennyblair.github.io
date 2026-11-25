@@ -48,25 +48,17 @@ export default function CommercialDevelopmentSydney() {
       scenarios={[
         {
           title: 'Alexandria Urban Logistics Redevelopment',
-          scenario: 'A sponsor exchanged on a 4,600sqm Alexandria site previously improved with obsolete light-industrial buildings. The plan was to deliver a 3-level last-mile logistics asset with warehouse space, loading areas, and small-format trade suites to capture occupier demand close to the CBD and airport. Total project costs were estimated at $24.6 million with a projected stabilised value of $33.8 million once completed and leased.',
-          solution: 'A development facility of $17.8 million was structured against total costs with staged drawdowns linked to demolition, civil works, superstructure, services, and completion. The structure included capitalised interest during construction plus a short lease-up tail so the borrower was not forced into a premature refinance before tenant commitments were documented.',
-          outcomes: [
-            { label: 'Total development cost', value: '$24.6M' },
-            { label: 'Development finance', value: '$17.8M' },
-            { label: 'Developer equity', value: '$6.8M' },
-            { label: 'Projected end value', value: '$33.8M' }
-          ]
+          scenario: 'A sponsor exchanged on a 4,600sqm Alexandria site previously improved with obsolete light-industrial buildings. The plan was to deliver a 3-level last-mile logistics asset with warehouse space, loading areas, and small-format trade suites to capture occupier demand close to the CBD and airport. The funding needed to match construction, lease-up, and a realistic exit.',
+          solution: 'A development facility was structured against total costs with staged drawdowns linked to demolition, civil works, superstructure, services, and completion. The structure included capitalised interest during construction plus a short lease-up tail so the borrower was not forced into a premature refinance before tenant commitments were documented.',
+          outcomes: []
         },
         {
           title: 'Parramatta Infill Apartment Site',
-          scenario: 'A developer controlled a corner site in Parramatta suitable for 38 apartments above ground-floor retail. The project had DA support but required a funding solution that could handle elevated consultant costs, a detailed QS review, and presales being built progressively rather than fully locked in before commencement. Total costs were $19.4 million and projected gross realisation was $26.7 million.',
-          solution: 'A facility of $14.5 million was arranged with progressive drawdowns and a covenant package based on updated presale reporting, certified build progress, and contingency reserves. That gave the borrower time to convert enquiry from owner-occupiers and investors without relying on a rigid major-bank presale hurdle at day one.',
+          scenario: 'A developer controlled a corner site in Parramatta suitable for 38 apartments above ground-floor retail. The project had DA support but required a funding solution that could handle elevated consultant costs, a detailed QS review, and presales being built progressively rather than fully locked in before commencement. The funding needed to match construction milestones and a realistic sales path.',
+          solution: 'A facility was arranged with progressive drawdowns and a covenant package based on updated presale reporting, certified build progress, and contingency reserves. That gave the borrower time to convert enquiry from owner-occupiers and investors without relying on a rigid major-bank presale hurdle at day one.',
           outcomes: [
             { label: 'Apartments', value: '38 units' },
-            { label: 'Development cost', value: '$19.4M' },
-            { label: 'Development finance', value: '$14.5M' },
-            { label: 'Projected realisation', value: '$26.7M' }
-          ]
+            ]
         }
       ]}
       relatedLinks={[

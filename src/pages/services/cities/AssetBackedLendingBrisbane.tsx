@@ -52,7 +52,6 @@ export default function AssetBackedLendingBrisbane() {
           solution: 'A facility secured across the warehouse and transport assets cleared the immediate pressure and gave the business time to move toward a longer-term debt solution.',
           outcomes: [
             { label: 'Security pool', value: 'Warehouse + fleet assets' },
-            { label: 'Facility size', value: '$2.35M' },
             { label: 'Primary purpose', value: 'Refinance and liquidity support' },
             { label: 'Planned exit', value: 'Takeout refinance' }
           ]
@@ -63,7 +62,6 @@ export default function AssetBackedLendingBrisbane() {
           solution: 'A structured asset-backed facility supported by stock and receivables gave the business the working capital to trade through the cycle without overrelying on unsecured debt.',
           outcomes: [
             { label: 'Security type', value: 'Inventory + receivables' },
-            { label: 'Facility size', value: '$980K' },
             { label: 'Commercial pressure', value: 'Supplier and stock timing' },
             { label: 'Expected exit', value: 'Debtor collections / revolving use' }
           ]
@@ -74,7 +72,6 @@ export default function AssetBackedLendingBrisbane() {
           solution: 'An asset-backed structure funded the expansion while preserving flexibility for a later refinance once the business had completed the growth phase.',
           outcomes: [
             { label: 'Security value', value: 'Equipment + supporting property' },
-            { label: 'Facility size', value: '$1.6M' },
             { label: 'Commercial purpose', value: 'Expansion and fitout support' },
             { label: 'Term', value: '12 to 18 months' }
           ]

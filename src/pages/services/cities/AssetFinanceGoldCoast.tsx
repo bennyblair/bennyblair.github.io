@@ -52,7 +52,6 @@ export default function AssetFinanceGoldCoast() {
           solution: 'A vehicle-finance structure funded the fleet expansion while smoothing the cost over the useful life of the assets.',
           outcomes: [
             { label: 'Asset type', value: 'Commercial vehicles' },
-            { label: 'Facility size', value: '$275K' },
             { label: 'Commercial purpose', value: 'Growth and service capacity' },
             { label: 'Indicative term', value: '4 to 5 years' }
           ]
@@ -63,7 +62,6 @@ export default function AssetFinanceGoldCoast() {
           solution: 'Asset finance funded the equipment and helped preserve cash for launch execution, staffing, and early trading.',
           outcomes: [
             { label: 'Asset type', value: 'Hospitality equipment' },
-            { label: 'Facility size', value: '$198K' },
             { label: 'Commercial pressure', value: 'Launch deadline' },
             { label: 'Indicative term', value: '3 to 5 years' }
           ]
@@ -74,7 +72,6 @@ export default function AssetFinanceGoldCoast() {
           solution: 'An equipment-finance structure spread the cost over time and preserved more capital for ongoing business operations.',
           outcomes: [
             { label: 'Asset type', value: 'Healthcare equipment' },
-            { label: 'Facility size', value: '$390K' },
             { label: 'Commercial purpose', value: 'Service expansion' },
             { label: 'Indicative term', value: '5 to 7 years' }
           ]

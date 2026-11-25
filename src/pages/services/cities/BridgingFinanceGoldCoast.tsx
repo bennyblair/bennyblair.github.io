@@ -48,34 +48,27 @@ export default function BridgingFinanceGoldCoast() {
       scenarios={[
         {
           title: 'Broadbeach Mixed-Use Acquisition Bridge',
-          scenario: 'An investor identified a $3.45 million mixed-use building in Broadbeach, but the approved long-term lender still needed extra time for tenant, valuation, and legal work while the vendor refused to extend beyond 28 days.',
-          solution: 'A short-term acquisition bridge of $2.15 million allowed the purchase to complete on time and later refinance into the approved permanent facility once the lender finished its normal process.',
+          scenario: 'An investor identified a mixed-use building in Broadbeach, but the approved long-term lender still needed extra time for tenant, valuation, and legal work while the vendor refused to extend beyond 28 days.',
+          solution: 'A short-term acquisition bridge allowed the purchase to complete on time and later refinance into the approved permanent facility once the lender finished its normal process.',
           outcomes: [
-            { label: 'Purchase price', value: '$3.45M mixed-use building' },
-            { label: 'Bridge facility', value: '$2.15M' },
             { label: 'Indicative leverage', value: '62% LVR' },
             { label: 'Expected exit', value: 'Refinance within 8 weeks' }
           ]
         },
         {
           title: 'Southport Commercial Refinance Deadline',
-          scenario: 'A professional services group had a $2.95 million office building in Southport CBD, but its existing lender wanted discharge before the replacement lender could finish valuation and tenancy review.',
-          solution: 'A short-term first-ranking bridge of $1.82 million gave the borrower time to complete the refinance and avoid penalty pricing or enforcement pressure from the outgoing lender.',
+          scenario: 'A professional services group had a office building in Southport CBD, but its existing lender wanted discharge before the replacement lender could finish valuation and tenancy review.',
+          solution: 'A short-term first-ranking bridge gave the borrower time to complete the refinance and avoid penalty pricing or enforcement pressure from the outgoing lender.',
           outcomes: [
-            { label: 'Security value', value: '$2.95M office building' },
-            { label: 'Bridge facility', value: '$1.82M' },
             { label: 'Indicative leverage', value: '62% LVR' },
             { label: 'Expected exit', value: 'Refinance within 3 to 4 months' }
           ]
         },
         {
           title: 'Surfers Paradise Hospitality Purchase Before Sale',
-          scenario: 'A hospitality operator identified a $2.18 million restaurant and bar premises in Surfers Paradise, but the sale of another hospitality property in Burleigh Heads was still 10 weeks from settlement.',
-          solution: 'A short-term bridge of $1.38 million allowed the new venue to settle first while the Burleigh Heads sale progressed, preserving the opportunity in a competitive beachfront market.',
+          scenario: 'A hospitality operator identified a restaurant and bar premises in Surfers Paradise, but the sale of another hospitality property in Burleigh Heads was still 10 weeks from settlement.',
+          solution: 'A short-term bridge allowed the new venue to settle first while the Burleigh Heads sale progressed, preserving the opportunity in a competitive beachfront market.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.18M hospitality premises' },
-            { label: 'Bridge facility', value: '$1.38M' },
-            { label: 'Support asset sale', value: '$1.25M expected proceeds' },
             { label: 'Planned term', value: '10 to 12 weeks' }
           ]
         }

@@ -48,23 +48,18 @@ export default function FirstSecondMortgagesPerth() {
       scenarios={[
         {
           title: 'Welshpool Industrial Refinance',
-          scenario: 'A logistics business owned a Welshpool warehouse valued at $4.4 million with debt nearing maturity and capex upgrades underway. The business needed a lender that would look through the temporary disruption and focus on the longer-term operational position.',
-          solution: 'A first mortgage refinance of $2.75 million gave the borrower time to complete upgrades and stabilise the site. The lender focused on asset quality, tenant-equivalent usability, and the broader business rationale rather than treating the temporary capex period as a fatal flaw.',
+          scenario: 'A logistics business owned a Welshpool warehouse with debt nearing maturity and capex upgrades underway. The business needed a lender that would look through the temporary disruption and focus on the longer-term operational position.',
+          solution: 'A first mortgage refinance gave the borrower time to complete upgrades and stabilise the site. The lender focused on asset quality, tenant-equivalent usability, and the broader business rationale rather than treating the temporary capex period as a fatal flaw.',
           outcomes: [
-            { label: 'Security value', value: '$4.4M warehouse' },
-            { label: 'Refinance facility', value: '$2.75M' },
             { label: 'Indicative leverage', value: '63% LVR' },
             { label: 'Planned next step', value: 'Review post-upgrade' }
           ]
         },
         {
           title: 'Subiaco Equity Release for Acquisition',
-          scenario: 'An investor held a Subiaco commercial asset valued at $2.95 million with an existing first mortgage balance of $1.45 million and wanted capital for a business acquisition opportunity with a tight timetable.',
-          solution: 'A second mortgage of $550,000 was structured behind the senior debt so the borrower could act quickly without refinancing the full property stack. The file relied on moderate leverage, clear property value, and a defined business-purpose use of funds.',
+          scenario: 'An investor held a Subiaco commercial asset with an existing first mortgage and wanted capital for a business acquisition opportunity with a tight timetable.',
+          solution: 'A second mortgage was structured behind the senior debt so the borrower could act quickly without refinancing the full property stack. The file relied on moderate leverage, clear property value, and a defined business-purpose use of funds.',
           outcomes: [
-            { label: 'Security value', value: '$2.95M commercial asset' },
-            { label: 'Existing first mortgage', value: '$1.45M' },
-            { label: 'Second mortgage', value: '$550K' },
             { label: 'Combined leverage', value: '68% LVR' }
           ]
         }

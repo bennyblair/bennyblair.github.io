@@ -48,25 +48,19 @@ export default function CommercialDevelopmentPerth() {
       scenarios={[
         {
           title: 'Jandakot Trade and Warehouse Estate',
-          scenario: 'A sponsor secured a Jandakot site to deliver a 12-unit trade and warehouse estate targeting contractors, auto-related users, and small logistics businesses needing south-of-river access. Total development costs were projected at $11.4 million with an expected end value of $15.5 million once the units were completed and sold.',
-          solution: 'A facility of $8.3 million was arranged with progressive drawdowns against civil works, slabs, structure, and completion. The debt was matched to a staged sell-down approach so the borrower could pre-sell some units while retaining flexibility to hold the balance for stronger market pricing if needed.',
+          scenario: 'A sponsor secured a Jandakot site to deliver a 12-unit trade and warehouse estate targeting contractors, auto-related users, and small logistics businesses needing south-of-river access. The funding needed to match staged construction and a realistic sell-down path.',
+          solution: 'A facility was arranged with progressive drawdowns against civil works, slabs, structure, and completion. The debt was matched to a staged sell-down approach so the borrower could pre-sell some units while retaining flexibility to hold the balance for stronger market pricing if needed.',
           outcomes: [
             { label: 'Industrial units', value: '12 units' },
-            { label: 'Development cost', value: '$11.4M' },
-            { label: 'Development finance', value: '$8.3M' },
-            { label: 'Projected end value', value: '$15.5M' }
-          ]
+            ]
         },
         {
           title: 'Como Boutique Apartment Redevelopment',
-          scenario: 'A Perth borrower acquired an older riverside site in Como with plans for 18 boutique apartments aimed at downsizers seeking low-maintenance stock close to the CBD and foreshore amenity. Total costs were estimated at $14.1 million with projected gross realisation of $19.2 million.',
-          solution: 'Development finance of $10.2 million was structured with a measured presale covenant, interest capitalisation during construction, and reporting milestones that reflected the slower but premium nature of the target buyer pool. That gave the sponsor time to market properly rather than discounting early to satisfy a generic metropolitan rule set.',
+          scenario: 'A Perth borrower acquired an older riverside site in Como with plans for 18 boutique apartments aimed at downsizers seeking low-maintenance stock close to the CBD and foreshore amenity. The funding needed to match construction and a realistic sales path.',
+          solution: 'Development finance was structured with a measured presale covenant, interest capitalisation during construction, and reporting milestones that reflected the slower but premium nature of the target buyer pool. That gave the sponsor time to market properly rather than discounting early to satisfy a generic metropolitan rule set.',
           outcomes: [
             { label: 'Apartments', value: '18 units' },
-            { label: 'Development cost', value: '$14.1M' },
-            { label: 'Development finance', value: '$10.2M' },
-            { label: 'Projected realisation', value: '$19.2M' }
-          ]
+            ]
         }
       ]}
       relatedLinks={[

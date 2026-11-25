@@ -48,22 +48,18 @@ export default function PrivateLendingSydney() {
       scenarios={[
         {
           title: 'North Sydney office refinance gap',
-          scenario: 'A professional services group owned a North Sydney office suite valued at $3.4 million and needed to repay an expiring facility before its replacement lender finished valuation and legal sign-off.',
-          solution: 'A short-term private first mortgage of $2.05 million created enough room to meet the maturity deadline and refinance later into a more conventional facility once documents were complete.',
+          scenario: 'A professional services group owned a North Sydney office suite and needed to repay an expiring facility before its replacement lender finished valuation and legal sign-off.',
+          solution: 'A short-term private first mortgage created enough room to meet the maturity deadline and refinance later into a more conventional facility once documents were complete.',
           outcomes: [
-            { label: 'Security value', value: '$3.4M office suite' },
-            { label: 'Private facility', value: '$2.05M' },
             { label: 'Indicative leverage', value: '60% LVR' },
             { label: 'Expected exit', value: 'Refinance within 4 months' }
           ]
         },
         {
           title: 'Marrickville mixed-use short settlement',
-          scenario: 'An investor exchanged on a $2.62 million Marrickville mixed-use asset with a tight settlement date while their preferred lender was still reviewing tenancy and entity structure details.',
-          solution: 'A private acquisition facility of $1.58 million allowed settlement on time and preserved the purchase while the longer-term refinance path stayed in motion.',
+          scenario: 'An investor exchanged on a Marrickville mixed-use asset with a tight settlement date while their preferred lender was still reviewing tenancy and entity structure details.',
+          solution: 'A private acquisition facility allowed settlement on time and preserved the purchase while the longer-term refinance path stayed in motion.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.62M mixed-use asset' },
-            { label: 'Private facility', value: '$1.58M' },
             { label: 'Contract pressure', value: 'Short settlement window' },
             { label: 'Expected exit', value: 'Takeout refinance' }
           ]
@@ -71,10 +67,8 @@ export default function PrivateLendingSydney() {
         {
           title: 'Silverwater industrial liquidity event',
           scenario: 'A transport operator needed commercial liquidity against a Silverwater warehouse while finalising a shareholder restructure and could not wait for a slower mainstream approval path.',
-          solution: 'A private property-backed loan of $2.4 million gave the business time to complete the restructure and move to a longer-term debt solution on a cleaner footing.',
+          solution: 'A private property-backed loan gave the business time to complete the restructure and move to a longer-term debt solution on a cleaner footing.',
           outcomes: [
-            { label: 'Security value', value: '$4.1M warehouse asset' },
-            { label: 'Private facility', value: '$2.4M' },
             { label: 'Commercial purpose', value: 'Shareholder restructure' },
             { label: 'Planned term', value: '3 to 6 months' }
           ]

@@ -52,7 +52,6 @@ export default function AssetBackedLendingMelbourne() {
           solution: 'A blended structure against the warehouse and transport assets created enough certainty to clear the outgoing debt and stabilise the file before a longer-term refinancing process.',
           outcomes: [
             { label: 'Security pool', value: 'Industrial property + fleet' },
-            { label: 'Facility size', value: '$3.1M' },
             { label: 'Primary purpose', value: 'Maturity refinance' },
             { label: 'Planned exit', value: 'Refinance within 6-9 months' }
           ]
@@ -63,7 +62,6 @@ export default function AssetBackedLendingMelbourne() {
           solution: 'An asset-backed facility supported by inventory and debtor strength helped the business maintain trading momentum and supplier relationships without relying on unsecured cash-flow lending alone.',
           outcomes: [
             { label: 'Security type', value: 'Inventory + receivables' },
-            { label: 'Facility size', value: '$1.4M' },
             { label: 'Commercial pressure', value: 'Working-capital timing gap' },
             { label: 'Expected exit', value: 'Trading-cycle repayment / refinance' }
           ]
@@ -74,7 +72,6 @@ export default function AssetBackedLendingMelbourne() {
           solution: 'An asset-backed facility tied to equipment and supporting security funded the expansion while preserving room for a later refinance into a longer-term structure.',
           outcomes: [
             { label: 'Security value', value: 'Equipment + property support' },
-            { label: 'Facility size', value: '$2.05M' },
             { label: 'Commercial purpose', value: 'Expansion funding' },
             { label: 'Term', value: '12 to 24 months' }
           ]

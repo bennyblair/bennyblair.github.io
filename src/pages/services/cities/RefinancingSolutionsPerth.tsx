@@ -90,41 +90,12 @@ const data = {
     {
       "title": "Kewdale industrial refinance for fleet and yard upgrades",
       "summary": "A transport-linked business refinanced its Kewdale industrial property ahead of facility maturity so it could repay the outgoing lender, preserve operational certainty, and release funds for fleet-related capex and yard improvements.",
-      "figures": [
-        {
-          "label": "Security value",
-          "value": "$5.1 million"
-        },
-        {
-          "label": "Outgoing debt",
-          "value": "$2.9 million"
-        },
-        {
-          "label": "New facility",
-          "value": "$3.45 million"
-        },
-        {
-          "label": "Released capital",
-          "value": "$550,000"
-        }
-      ]
+      "figures": []
     },
     {
       "title": "West Perth office refinance after tenant reshuffle",
       "summary": "An investor refinanced a boutique West Perth office asset after several tenancy changes created friction with the current lender. The new structure was built around realistic leasing assumptions and a lender with a more pragmatic view of the building's revised income profile.",
       "figures": [
-        {
-          "label": "Property value",
-          "value": "$3.4 million"
-        },
-        {
-          "label": "Refinanced debt",
-          "value": "$2.0 million"
-        },
-        {
-          "label": "Lease incentive reserve",
-          "value": "$100,000"
-        },
         {
           "label": "Outcome",
           "value": "More workable lender fit"
@@ -136,16 +107,8 @@ const data = {
       "summary": "A borrower with two WA commercial facilities across related entities refinanced into one structure secured against stronger industrial property. The objective was to reduce administration and create a clearer platform for business growth.",
       "figures": [
         {
-          "label": "Combined value",
-          "value": "$5.9 million"
-        },
-        {
           "label": "Previous lenders",
           "value": "2 lenders"
-        },
-        {
-          "label": "New debt",
-          "value": "$3.35 million"
         },
         {
           "label": "Primary benefit",

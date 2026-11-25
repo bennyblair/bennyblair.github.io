@@ -52,7 +52,6 @@ export default function AssetFinanceSydney() {
           solution: 'A structured vehicle-finance facility funded multiple commercial vehicles with repayments aligned to the business cash-flow profile rather than forcing a large upfront capital hit.',
           outcomes: [
             { label: 'Asset type', value: 'Commercial vehicle fleet' },
-            { label: 'Facility size', value: '$420K' },
             { label: 'Commercial purpose', value: 'Fleet expansion' },
             { label: 'Indicative term', value: '4 to 5 years' }
           ]
@@ -63,7 +62,6 @@ export default function AssetFinanceSydney() {
           solution: 'An asset finance structure funded the equipment and allowed the business to roll the cost over time while keeping cash available for recruitment and operations.',
           outcomes: [
             { label: 'Asset type', value: 'Specialist medical equipment' },
-            { label: 'Facility size', value: '$780K' },
             { label: 'Commercial purpose', value: 'Capacity expansion' },
             { label: 'Indicative term', value: '5 to 7 years' }
           ]
@@ -74,7 +72,6 @@ export default function AssetFinanceSydney() {
           solution: 'A tailored equipment-finance facility supported the rollout so the venue could open on time without tying up too much launch-stage working capital.',
           outcomes: [
             { label: 'Asset type', value: 'Hospitality equipment and fitout items' },
-            { label: 'Facility size', value: '$265K' },
             { label: 'Commercial pressure', value: 'Opening-date deadline' },
             { label: 'Indicative term', value: '3 to 5 years' }
           ]

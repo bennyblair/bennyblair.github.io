@@ -48,22 +48,18 @@ export default function PrivateLendingMelbourne() {
       scenarios={[
         {
           title: 'Dandenong South warehouse maturity',
-          scenario: 'A manufacturing business owned a Dandenong South warehouse valued at $4.8 million and faced lender maturity before the replacement refinance cleared final credit and legal conditions.',
-          solution: 'A private first mortgage of $2.95 million created breathing room to complete the takeout refinance without a distressed rollover.',
+          scenario: 'A manufacturing business owned a Dandenong South warehouse and faced lender maturity before the replacement refinance cleared final credit and legal conditions.',
+          solution: 'A private first mortgage created breathing room to complete the takeout refinance without a distressed rollover.',
           outcomes: [
-            { label: 'Security value', value: '$4.8M industrial asset' },
-            { label: 'Private facility', value: '$2.95M' },
             { label: 'Indicative leverage', value: '61% LVR' },
             { label: 'Expected exit', value: 'Refinance within 3 months' }
           ]
         },
         {
           title: 'Collingwood mixed-use acquisition',
-          scenario: 'An investor secured a $2.85 million Collingwood mixed-use property on a short settlement while their preferred lender was still reviewing leases and trust documents.',
-          solution: 'A $1.72 million private facility preserved the purchase and allowed the borrower to refinance later once the long-form process was complete.',
+          scenario: 'An investor secured a Collingwood mixed-use property on a short settlement while their preferred lender was still reviewing leases and trust documents.',
+          solution: 'A private facility preserved the purchase and allowed the borrower to refinance later once the long-form process was complete.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.85M mixed-use property' },
-            { label: 'Private facility', value: '$1.72M' },
             { label: 'Pressure point', value: 'Short settlement deadline' },
             { label: 'Expected exit', value: 'Takeout refinance' }
           ]
@@ -71,10 +67,8 @@ export default function PrivateLendingMelbourne() {
         {
           title: 'Brighton property-backed restructure',
           scenario: 'A business owner needed interim capital against a Brighton commercial asset while finalising a shareholder separation and broader debt cleanup.',
-          solution: 'A private property-backed loan of $2.15 million created controlled liquidity so the restructure could complete before the borrower moved to a more conventional facility.',
+          solution: 'A private property-backed loan created controlled liquidity so the restructure could complete before the borrower moved to a more conventional facility.',
           outcomes: [
-            { label: 'Security value', value: '$3.7M commercial asset' },
-            { label: 'Private facility', value: '$2.15M' },
             { label: 'Commercial purpose', value: 'Shareholder separation' },
             { label: 'Planned term', value: 'Up to 6 months' }
           ]

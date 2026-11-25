@@ -48,22 +48,18 @@ export default function BridgingFinancePerth() {
       scenarios={[
         {
           title: 'Kewdale Warehouse Acquisition Bridge',
-          scenario: 'A logistics operator identified a $1.85 million warehouse in Kewdale, but the sale of another property in Joondalup was still seven weeks from settlement and the vendor required completion within 30 days.',
-          solution: 'A short-term first-ranking bridge of $1.15 million allowed the warehouse purchase to settle on time while the Joondalup sale progressed, preserving the deal without forcing a rushed disposal or permanent refinance.',
+          scenario: 'A logistics operator identified a warehouse in Kewdale, but the sale of another property in Joondalup was still seven weeks from settlement and the vendor required completion within 30 days.',
+          solution: 'A short-term first-ranking bridge allowed the warehouse purchase to settle on time while the Joondalup sale progressed, preserving the deal without forcing a rushed disposal or permanent refinance.',
           outcomes: [
-            { label: 'Purchase price', value: '$1.85M warehouse asset' },
-            { label: 'Bridge facility', value: '$1.15M' },
             { label: 'Indicative leverage', value: '62% LVR' },
             { label: 'Planned term', value: '2 to 3 months to sale settlement' }
           ]
         },
         {
           title: 'Malaga Commercial Refinance Deadline',
-          scenario: 'A manufacturing business had a $2.65 million commercial property in Malaga, but its senior facility matured before the incoming refinance could complete valuation, tenant review, and legal documentation.',
-          solution: 'A short-term first-ranking bridge of $1.62 million gave the borrower time to complete the refinance properly and avoid default pricing or a distressed asset response from the outgoing lender.',
+          scenario: 'A manufacturing business had a commercial property in Malaga, but its senior facility matured before the incoming refinance could complete valuation, tenant review, and legal documentation.',
+          solution: 'A short-term first-ranking bridge gave the borrower time to complete the refinance properly and avoid default pricing or a distressed asset response from the outgoing lender.',
           outcomes: [
-            { label: 'Security value', value: '$2.65M commercial property' },
-            { label: 'Bridge facility', value: '$1.62M' },
             { label: 'Indicative leverage', value: '61% LVR' },
             { label: 'Expected exit', value: 'Refinance within 4 to 5 months' }
           ]
@@ -71,10 +67,9 @@ export default function BridgingFinancePerth() {
         {
           title: 'Osborne Park Trade Business Buyout',
           scenario: 'An engineering-services business in Osborne Park needed to complete a shareholder buyout tied to a key contract renewal, but its long-term refinance against commercial property security could not settle for another six weeks.',
-          solution: 'A $1.48 million bridge supported the short-term buyout funding need, with repayment expected from the incoming refinance once valuation and legal work were complete.',
+          solution: 'A bridge supported the short-term buyout funding need, with repayment expected from the incoming refinance once valuation and legal work were complete.',
           outcomes: [
             { label: 'Security', value: 'Commercial premises in Osborne Park' },
-            { label: 'Bridge facility', value: '$1.48M' },
             { label: 'Commercial purpose', value: 'Shareholder exit and restructuring' },
             { label: 'Expected exit', value: 'Refinance within 6 weeks' }
           ]

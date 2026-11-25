@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { normalizeSeoDescription, normalizeSeoTitle } from '@/lib/seo-metadata';
 import { isDesignPreview } from '@/lib/design-preview';
 import { EMET_GEO } from '@/lib/schema-utils';
+import { noindexRoutePaths } from '@/config/site-route-manifest';
 
 interface SEOProps {
   title: string;
@@ -40,7 +41,10 @@ const SEO = ({
   const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
   const normalizedTitle = normalizeSeoTitle(title);
   const normalizedDescription = normalizeSeoDescription(description);
-  const robots = noindex || isDesignPreview
+  const routePath = canonicalPath.startsWith('http')
+    ? new URL(canonicalPath).pathname.replace(/\/+$/, '') || '/'
+    : canonicalPath;
+  const robots = noindex || isDesignPreview || noindexRoutePaths.has(routePath)
     ? "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1";
 

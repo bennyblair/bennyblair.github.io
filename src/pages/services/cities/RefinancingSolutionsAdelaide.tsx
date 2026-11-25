@@ -90,37 +90,12 @@ const data = {
     {
       "title": "Wingfield industrial refinance for plant upgrades",
       "summary": "A fabrication business refinanced its Wingfield industrial property to release capital for plant upgrades while keeping leverage conservative. The outgoing facility still worked technically, but it did not suit the next investment phase of the business.",
-      "figures": [
-        {
-          "label": "Security value",
-          "value": "$4.0 million"
-        },
-        {
-          "label": "Outgoing debt",
-          "value": "$2.1 million"
-        },
-        {
-          "label": "New facility",
-          "value": "$2.55 million"
-        },
-        {
-          "label": "Released capital",
-          "value": "$450,000"
-        }
-      ]
+      "figures": []
     },
     {
       "title": "Adelaide CBD office refinance after tighter review settings",
       "summary": "An investor refinanced a smaller Adelaide CBD office asset after the current lender tightened review conditions and flexibility around future leasing. The replacement structure prioritised certainty and cleaner long-term planning rather than aggressive leverage.",
       "figures": [
-        {
-          "label": "Property value",
-          "value": "$4.3 million"
-        },
-        {
-          "label": "Refinanced debt",
-          "value": "$2.35 million"
-        },
         {
           "label": "Purpose",
           "value": "Lender change + stability"
@@ -136,16 +111,8 @@ const data = {
       "summary": "A borrower combined debt secured over a showroom and adjoining warehouse in Edwardstown into one refinance. The objective was to reduce administration, align repayments, and create a cleaner structure before a broader business expansion.",
       "figures": [
         {
-          "label": "Combined value",
-          "value": "$5.2 million"
-        },
-        {
           "label": "Previous loans",
           "value": "2 facilities"
-        },
-        {
-          "label": "New debt",
-          "value": "$3.0 million"
         },
         {
           "label": "Primary benefit",

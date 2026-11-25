@@ -13,6 +13,7 @@ import {
 } from "./lib/seo-control-plane.mjs";
 import {
   getIndexableStaticRoutes,
+  getNoindexStaticRoutes,
   isRedirectSource,
   redirectRules,
   siteRoutes,
@@ -227,17 +228,16 @@ function staticTargeting(route: JsonRecord) {
   return { primaryQuery: query, intent, designatedServicePagePath: servicePath, serviceOwnershipException: exception };
 }
 
-const records: JsonRecord[] = [];
-for (const route of getIndexableStaticRoutes()) {
+function staticPageRecord(route: JsonRecord, indexability: "indexable" | "noindex") {
   const pathValue = normaliseRoute(route.path)!;
   const financial = ["home", "service", "location", "tool"].includes(route.pageType);
-  const lifecycle = lifecycleFor(pathValue, "indexable");
-  records.push({
+  const lifecycle = lifecycleFor(pathValue, indexability, indexability === "noindex" ? "noindex" : "none");
+  return {
     pageId: initialId(existing, pathValue, route.source, route.pageType),
     path: pathValue,
     sourcePath: route.source,
     pageType: route.pageType,
-    indexability: "indexable",
+    indexability,
     metadataStatus: "needs_review",
     metadataConfidence: route.pageType === "service" ? "medium" : "low",
     targeting: { ...staticTargeting(route), designatedServicePageId: null, country: "AU" },
@@ -251,11 +251,21 @@ for (const route of getIndexableStaticRoutes()) {
       reviewEveryDays: financial ? 90 : 365,
       expiresAt: null,
     },
-    lifecycle: { ...lifecycle, reviewAt: lifecycle.protectedUntil || (financial ? defaultHighReview : defaultStandardReview) },
+    lifecycle: {
+      ...lifecycle,
+      reviewAt:
+        indexability === "noindex"
+          ? null
+          : lifecycle.protectedUntil || (financial ? defaultHighReview : defaultStandardReview),
+    },
     measurement: measurementFor(route.pageType),
     programIds: [...(programsByPath.get(pathValue) || [])].sort(),
-  });
+  };
 }
+
+const records: JsonRecord[] = [];
+for (const route of getIndexableStaticRoutes()) records.push(staticPageRecord(route, "indexable"));
+for (const route of getNoindexStaticRoutes()) records.push(staticPageRecord(route, "noindex"));
 
 const liveServicePaths = new Set(
   siteRoutes
@@ -354,6 +364,11 @@ for (const article of Object.values(contentIndex).flat() as JsonRecord[]) {
 
 records.sort((left, right) => left.path.localeCompare(right.path));
 const canonicalByPath = new Map(records.filter((record) => record.indexability === "indexable").map((record) => [record.path, record]));
+const liveByPath = new Map(
+  records
+    .filter((record) => record.indexability === "indexable" || record.indexability === "noindex")
+    .map((record) => [record.path, record]),
+);
 
 for (const record of records) {
   const servicePath = record.targeting.designatedServicePagePath;
@@ -370,7 +385,7 @@ for (const rule of redirectRules) {
   if (rule.status !== 301 || !rule.from.startsWith("/") || rule.from.includes("*") || rule.from.includes(":")) continue;
   const sourcePath = normaliseRoute(rule.from)!;
   const destinationPath = normaliseRoute(rule.to)!;
-  const destination = canonicalByPath.get(destinationPath);
+  const destination = liveByPath.get(destinationPath) || canonicalByPath.get(destinationPath);
   records.push({
     pageId: initialId(existing, sourcePath, "src/config/site-route-manifest.ts", "redirect"),
     path: sourcePath,

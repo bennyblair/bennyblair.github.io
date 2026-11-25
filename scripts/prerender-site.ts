@@ -4,7 +4,7 @@ import { spawn } from "node:child_process";
 import { stripVTControlCharacters } from "node:util";
 import { chromium, type Browser, type Page } from "playwright";
 import { buildContentIndex } from "./lib/content-index.mjs";
-import { getIndexableStaticRoutes, isRedirectSource } from "../src/config/site-route-manifest";
+import { getPrerenderStaticRoutes, isRedirectSource } from "../src/config/site-route-manifest";
 
 const repoRoot = process.cwd();
 const distDir = path.join(repoRoot, "dist");
@@ -18,7 +18,7 @@ type RenderFailure = { path: string; message: string };
 function getRoutes(): RenderRoute[] {
   const content = buildContentIndex(repoRoot);
   const routes = [
-    ...getIndexableStaticRoutes().map((route) => ({ path: route.path, pageType: route.pageType })),
+    ...getPrerenderStaticRoutes().map((route) => ({ path: route.path, pageType: route.pageType })),
     ...(content.guides ?? [])
       .filter((article) => !isRedirectSource(article.route))
       .map((article) => ({ path: article.route, pageType: "guide" })),

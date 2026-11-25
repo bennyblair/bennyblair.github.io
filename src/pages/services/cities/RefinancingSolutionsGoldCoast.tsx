@@ -90,37 +90,12 @@ const data = {
     {
       "title": "Southport medical suite refinance for practice expansion",
       "summary": "A borrower refinanced a cluster of Southport medical suites after occupancy and income stabilised. The aim was to simplify the existing debt and release funds for practice growth while keeping leverage at a level that preserved lender comfort.",
-      "figures": [
-        {
-          "label": "Security value",
-          "value": "$4.4 million"
-        },
-        {
-          "label": "Outgoing debt",
-          "value": "$2.35 million"
-        },
-        {
-          "label": "New facility",
-          "value": "$2.85 million"
-        },
-        {
-          "label": "Released capital",
-          "value": "$500,000"
-        }
-      ]
+      "figures": []
     },
     {
       "title": "Molendinar industrial refinance after restrictive review terms",
       "summary": "An owner-occupier in Molendinar refinanced an industrial property after the outgoing lender reduced flexibility around annual reviews and cash flow management. The new lender was better aligned with the operating business and the property's local market position.",
       "figures": [
-        {
-          "label": "Property value",
-          "value": "$3.7 million"
-        },
-        {
-          "label": "Refinanced debt",
-          "value": "$2.2 million"
-        },
         {
           "label": "Purpose",
           "value": "Certainty + cleaner terms"
@@ -136,16 +111,8 @@ const data = {
       "summary": "An investor refinanced two facilities secured against a Broadbeach mixed-use property to simplify debt before upcoming lease negotiations. The refinance was structured conservatively so the borrower retained room to manage vacancy and incentives if needed.",
       "figures": [
         {
-          "label": "Combined value",
-          "value": "$5.6 million"
-        },
-        {
           "label": "Previous lenders",
           "value": "2 lenders"
-        },
-        {
-          "label": "New debt",
-          "value": "$3.1 million"
         },
         {
           "label": "Primary benefit",

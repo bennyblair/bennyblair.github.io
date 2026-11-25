@@ -141,15 +141,17 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
 
       <section className="py-16 bg-muted/20">
         <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl font-bold mb-8 text-center">Local case studies and scenarios</h2>
+          <h2 className="text-3xl font-bold mb-3 text-center">Illustrative {data.city} refinancing scenarios</h2>
+          <p className="text-sm text-muted-foreground text-center max-w-3xl mx-auto mb-8">These examples are illustrative only. They are not case studies or records of completed client deals.</p>
           <div className="space-y-8">
             {data.caseStudies.map((item) => (
               <div key={item.title} className="bg-background rounded-lg border p-8">
                 <h3 className="text-2xl font-semibold mb-4">{item.title}</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <p className="text-muted-foreground">{item.summary}</p>
+                  {item.figures.length > 0 && (
                   <div className="bg-muted/20 rounded-lg p-6 border">
-                    <h4 className="font-semibold mb-3">Illustrative scenario numbers</h4>
+                    <h4 className="font-semibold mb-3">Scenario snapshot</h4>
                     <div className="space-y-3 text-sm">
                       {item.figures.map((figure) => (
                         <div key={figure.label} className="flex justify-between gap-4 border-b border-border/60 pb-2 last:border-0 last:pb-0">
@@ -159,6 +161,7 @@ const RefinancingSolutionsCityTemplate: React.FC<{ data: CityPageData }> = ({ da
                       ))}
                     </div>
                   </div>
+                  )}
                 </div>
               </div>
             ))}

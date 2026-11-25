@@ -90,40 +90,15 @@ const data = {
     {
       "title": "Mascot warehouse refinance ahead of lender expiry",
       "summary": "An owner-occupier in Mascot had less than six weeks before a non-bank facility matured on a modern warehouse used by a wholesale distribution business. The refinance needed to repay the outgoing lender, preserve operational cash flow, and release funds for fit-out and racking without stretching leverage beyond a level acceptable to the incoming lender.",
-      "figures": [
-        {
-          "label": "Security value",
-          "value": "$5.6 million"
-        },
-        {
-          "label": "Outgoing debt",
-          "value": "$3.35 million"
-        },
-        {
-          "label": "New facility",
-          "value": "$3.9 million"
-        },
-        {
-          "label": "Capital released",
-          "value": "$550,000"
-        }
-      ]
+      "figures": []
     },
     {
       "title": "North Sydney medical suite consolidation",
       "summary": "A borrower holding multiple medical suites across related entities wanted to replace three separate loans with one cleaner structure before upcoming lease reviews. The refinance focused on simplicity, future flexibility, and a lender comfortable with specialist medical tenancies rather than maximum leverage.",
       "figures": [
         {
-          "label": "Portfolio value",
-          "value": "$4.9 million"
-        },
-        {
           "label": "Previous facilities",
           "value": "3 loans"
-        },
-        {
-          "label": "New consolidated debt",
-          "value": "$3.0 million"
         },
         {
           "label": "Primary outcome",
@@ -135,18 +110,6 @@ const data = {
       "title": "Parramatta mixed-use refinance during tenant changeover",
       "summary": "An investor with a Parramatta mixed-use building needed a refinance while one retail tenancy was changing over and the existing lender was tightening conditions. The new structure prioritised workable leverage, a sensible interest cover story, and enough flexibility to complete leasing adjustments rather than force a rushed asset sale.",
       "figures": [
-        {
-          "label": "Property value",
-          "value": "$4.2 million"
-        },
-        {
-          "label": "Refinanced balance",
-          "value": "$2.4 million"
-        },
-        {
-          "label": "Lease-up reserve",
-          "value": "$160,000"
-        },
         {
           "label": "Primary outcome",
           "value": "Avoid forced timing"

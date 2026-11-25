@@ -52,7 +52,6 @@ export default function AssetBackedLendingAdelaide() {
           solution: 'A structured facility secured against the warehouse and equipment cleared the immediate deadline and gave the business time to work toward a longer-term refinance.',
           outcomes: [
             { label: 'Security pool', value: 'Industrial property + machinery' },
-            { label: 'Facility size', value: '$1.85M' },
             { label: 'Primary purpose', value: 'Refinance and liquidity' },
             { label: 'Planned exit', value: 'Refinance / deleveraging' }
           ]
@@ -63,7 +62,6 @@ export default function AssetBackedLendingAdelaide() {
           solution: 'An asset-backed facility supported by stock and receivables helped the business maintain supply and trade through the working-capital gap.',
           outcomes: [
             { label: 'Security type', value: 'Inventory + receivables' },
-            { label: 'Facility size', value: '$760K' },
             { label: 'Commercial pressure', value: 'Supplier and stock timing' },
             { label: 'Expected exit', value: 'Collections / ongoing trade cycle' }
           ]
@@ -74,7 +72,6 @@ export default function AssetBackedLendingAdelaide() {
           solution: 'A tailored asset-backed structure funded the expansion and kept the opportunity moving while preserving future refinance options.',
           outcomes: [
             { label: 'Security value', value: 'Equipment + support assets' },
-            { label: 'Facility size', value: '$1.1M' },
             { label: 'Commercial purpose', value: 'Expansion funding' },
             { label: 'Term', value: '12 to 18 months' }
           ]

@@ -181,7 +181,8 @@ export default function AssetFinanceCityPage({ city, canonical, title, descripti
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Local {city} case studies</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-3 text-center">Illustrative {city} scenarios</h2>
+          <p className="text-sm text-muted-foreground text-center max-w-3xl mx-auto mb-8">These examples are illustrative only. They are not case studies or records of completed client deals.</p>
           <div className="grid md:grid-cols-2 gap-6">
             {scenarios.map((item) => (
               <div key={item.title} className="bg-muted border border-border rounded-xl p-6 shadow-sm">
@@ -195,8 +196,9 @@ export default function AssetFinanceCityPage({ city, canonical, title, descripti
                     <div className="text-muted-foreground text-sm mb-1">Solution</div>
                     <p className="text-foreground leading-relaxed">{item.solution}</p>
                   </div>
+                  {item.outcomes.length > 0 && (
                   <div>
-                    <div className="text-muted-foreground text-sm mb-2">Transaction snapshot</div>
+                    <div className="text-muted-foreground text-sm mb-2">Scenario snapshot</div>
                     <div className="bg-card border border-border rounded-lg p-4 space-y-2">
                       {item.outcomes.map((o) => (
                         <div key={o.label} className="flex items-center justify-between gap-4">
@@ -206,6 +208,7 @@ export default function AssetFinanceCityPage({ city, canonical, title, descripti
                       ))}
                     </div>
                   </div>
+                  )}
                 </div>
               </div>
             ))}

@@ -52,7 +52,6 @@ export default function AssetFinanceBrisbane() {
           solution: 'A fleet finance structure funded the vehicles and spread the cost across the operating period rather than creating a large upfront cash drain.',
           outcomes: [
             { label: 'Asset type', value: 'Commercial fleet vehicles' },
-            { label: 'Facility size', value: '$390K' },
             { label: 'Commercial purpose', value: 'Fleet expansion' },
             { label: 'Indicative term', value: '4 to 5 years' }
           ]
@@ -63,7 +62,6 @@ export default function AssetFinanceBrisbane() {
           solution: 'An equipment-finance structure helped spread the cost over time and kept cash available for staffing and operations.',
           outcomes: [
             { label: 'Asset type', value: 'Healthcare equipment' },
-            { label: 'Facility size', value: '$640K' },
             { label: 'Commercial purpose', value: 'Capacity expansion' },
             { label: 'Indicative term', value: '5 to 7 years' }
           ]
@@ -74,7 +72,6 @@ export default function AssetFinanceBrisbane() {
           solution: 'Asset finance reduced the upfront funding load and let the business reserve capital for launch and operating requirements.',
           outcomes: [
             { label: 'Asset type', value: 'Hospitality equipment' },
-            { label: 'Facility size', value: '$215K' },
             { label: 'Commercial pressure', value: 'Launch deadline' },
             { label: 'Indicative term', value: '3 to 5 years' }
           ]
