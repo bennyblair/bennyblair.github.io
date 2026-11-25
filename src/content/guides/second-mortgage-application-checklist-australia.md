@@ -25,7 +25,7 @@ A second mortgage application checklist helps Australian business borrowers prep
 
 For Emet Capital, the strongest second mortgage files are not the biggest files. They are the clearest files. A lender should be able to understand the property, the existing debt, why the money is needed, how the borrower will repay, and what could go wrong if the first lender or settlement timing changes.
 
-This guide explains what to prepare before applying for a [second mortgage for business](/resources/guides/what-is-a-second-mortgage), how to organise the document pack, and when a second mortgage may be a better fit than a caveat loan, refinance, or private lending structure. It is general information only and not financial advice.
+This guide explains what to prepare before applying for a [second mortgage for business](/resources/guides/second-mortgages-for-business-guide), how to organise the document pack, and when a second mortgage may be a better fit than a caveat loan, refinance, or private lending structure. It is general information only and not financial advice.
 
 ### Related In-Depth Guides
 
@@ -142,7 +142,7 @@ Use this practical list before sending a second mortgage enquiry:
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — start here for the full structure overview.
 - **[Second Mortgage Lender Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — document detail from broker files.
-- **[Getting a Second Mortgage](/resources/guides/what-is-a-second-mortgage)** — process steps and timing considerations.
+- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — process steps and timing considerations.
 - **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — understand lender priority before applying.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare whether replacing debt is cleaner than adding debt.
 

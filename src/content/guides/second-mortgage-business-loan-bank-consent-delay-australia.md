@@ -47,7 +47,7 @@ Consent requirements are lender-specific, document-specific and can also be affe
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — the main second mortgage pillar guide for Australian business borrowers.
 - **[How To Get a Business Loan in Australia](/resources/guides/how-to-get-a-business-loan-australia)** — an overview of commercial funding preparation and assessment.
-- **[First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — a focused comparison of two possible structures when timing becomes critical.
+- **[First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage](/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage)** — a focused comparison of two possible structures when timing becomes critical.
 - **[Priority Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)** — how ranking and enforcement arrangements can affect documentation.
 - **[Second Mortgage Without Refinancing the First Mortgage](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — why borrowers may want to preserve an existing senior facility.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — differences in commercial assessment and process.
@@ -192,7 +192,7 @@ A full refinance may be one option, but it changes the entire senior facility an
 ## Related Guides
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — core second mortgage concepts, uses and risks.
-- **[First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — a detailed fallback comparison.
+- **[First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage](/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage)** — a detailed fallback comparison.
 - **[Priority Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)** — priority terms and why they matter.
 - **[How To Get a Business Loan in Australia](/resources/guides/how-to-get-a-business-loan-australia)** — broader business-purpose funding preparation.
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — caveat finance fundamentals and legal risk points.

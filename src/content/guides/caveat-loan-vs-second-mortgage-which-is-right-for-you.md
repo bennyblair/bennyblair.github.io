@@ -27,7 +27,7 @@ A caveat loan is generally used when a business borrower needs fast, short-term 
 
 - **[Caveat Loans Australia Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Full guide to caveat lending mechanics, risk, timing, and exit planning.
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — How second mortgages work for commercial borrowers using property equity.
-- **[First and Second Mortgages for Business](/resources/guides/what-is-a-second-mortgage)** — Broader guide to first and second ranking mortgage structures.
+- **[First and Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — Broader guide to first and second ranking mortgage structures.
 - **[Caveat Loan Exit Strategies](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — How borrowers repay, refinance, or restructure out of short-term caveat finance.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — What fast caveat lending usually requires in practice.
 - **[Private Mortgage Lenders Australia Directory](/resources/guides/private-mortgage-lenders-australia-directory)** — Private lender landscape across caveat, first mortgage, and second mortgage scenarios.
@@ -201,7 +201,7 @@ The better option depends on the business problem. A caveat loan may suit a genu
 
 - [Priority Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)
 - [Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)
-- [Caveat Loan Interest Rates](/resources/guides/urgent-caveat-loans)
+- [Caveat Loan Interest Rates](/resources/guides/caveat-loan-interest-rates-what-you-ll-really-pay-2025)
 - [Quick Caveat Loans: Is 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [Short-Term Property Loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance)

@@ -27,7 +27,7 @@ For business owners, property investors, and developers, the real question is no
 ### Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to how caveat loans work and where they fit.
-- **[Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Useful if your exit depends on a linked settlement or purchase transaction.
+- **[Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if your exit depends on a linked settlement or purchase transaction.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Important if the intended exit is a refinance into longer-term debt.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Helpful when the file may need another specialist lender rather than a bank.
 - **[Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)** — Relevant where the caveat exit depends on another property event.
@@ -264,9 +264,9 @@ The strongest caveat files are usually the ones where the borrower already knows
 ## Related Guides
 
 - [Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)
-- [Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)
-- [Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)
-- [What Is Private Lending in Australia?](/resources/guides/private-lending-vs-bank-lending-which-is-better)
+- [Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)
+- [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
+- [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.
