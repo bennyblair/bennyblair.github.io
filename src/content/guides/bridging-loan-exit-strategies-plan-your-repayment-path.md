@@ -18,8 +18,6 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
-noindex: true
-indexingReason: "pruned-low-value-20261124"
 ---
 
 A bridging loan exit strategy is the specific plan for how a short-term loan will be repaid. In commercial lending, that usually means one of three things: a refinance into longer-term debt, a property sale, or another defined capital event such as settlement proceeds or a business liquidity event. If the exit is weak, the bridging loan is weak. It is that simple.

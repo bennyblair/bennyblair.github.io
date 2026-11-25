@@ -291,10 +291,8 @@ test("illustrative scenarios pending transaction evidence are explicitly noindex
     ["/resources/guides/pre-settlement-finance-commercial-property-purchases-australia", "pruned-low-value-20261124"],
     ["/resources/guides/bridging-loan-bank-delay-australia", "pruned-low-value-20261124"],
     ["/resources/guides/tradex-scheme-import-gst-trade-finance-australian-importers", "pruned-low-value-20261124"],
-    ["/resources/guides/building-development-loans-funding-guide", "pruned-low-value-20261124"],
     ["/resources/guides/bridging-loan-repayment-calculator", "pruned-low-value-20261124"],
     ["/resources/guides/superannuation-guarantee-charge-business-finance-options-australia", "pruned-low-value-20261124"],
-    ["/resources/guides/refinancing-commercial-property-with-a-short-lease-remaining", "pruned-low-value-20261124"],
     ["/resources/guides/commercial-property-finance-broker-selection-checklist", "pruned-low-value-20261124"],
     ["/resources/guides/seasonal-stock-finance-in-australia-funding-inventory-before-peak-trading-periods", "pruned-low-value-20261124"],
     ["/resources/guides/construction-completion-finance-in-australia-funding-a-project-that-has-stalled", "pruned-low-value-20261124"],
@@ -320,7 +318,6 @@ test("illustrative scenarios pending transaction evidence are explicitly noindex
     ["/resources/guides/commercial-property-loan-covenants-what-happens-when-a-business-breaches-them", "pruned-low-value-20261124"],
     ["/resources/guides/capital-stack-commercial-property-finance-case-example", "pruned-low-value-20261124"],
     ["/resources/guides/private-finance-for-business-after-bank-delay", "pruned-low-value-20261124"],
-    ["/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path", "pruned-low-value-20261124"],
     ["/resources/guides/commercial-property-loans-for-startups-first-time-buyers", "pruned-low-value-20261124"],
     ["/resources/guides/fitout-finance-landlord-contribution-delay-australia", "pruned-low-value-20261124"],
   ]);
