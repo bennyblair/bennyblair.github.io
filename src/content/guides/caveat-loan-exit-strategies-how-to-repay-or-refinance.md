@@ -27,7 +27,7 @@ For business owners, property investors, and developers, the real question is no
 ### Related In-Depth Guides
 
 - **[Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)** — Core guide to how caveat loans work and where they fit.
-- **[Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if your exit depends on a linked settlement or purchase transaction.
+- **[Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful if your exit depends on a linked settlement or purchase transaction.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — Important if the intended exit is a refinance into longer-term debt.
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — Helpful when the file may need another specialist lender rather than a bank.
 - **[Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)** — Relevant where the caveat exit depends on another property event.
@@ -264,7 +264,7 @@ The strongest caveat files are usually the ones where the borrower already knows
 ## Related Guides
 
 - [Caveat Loans in Australia: The Complete Guide](/resources/guides/caveat-loans-australia-complete-guide)
-- [Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)
+- [Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)
 - [Commercial Property Refinancing Solutions](/services/refinancing-solutions)
 - [What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)
 - [Commercial Property Settlement Process: Finance Timeline](/resources/guides/commercial-property-settlement-process-finance-timeline)

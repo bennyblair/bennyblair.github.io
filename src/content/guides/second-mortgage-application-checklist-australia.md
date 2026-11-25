@@ -142,7 +142,7 @@ Use this practical list before sending a second mortgage enquiry:
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — start here for the full structure overview.
 - **[Second Mortgage Lender Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — document detail from broker files.
-- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — process steps and timing considerations.
+- **Getting a Second Mortgage** — process steps and timing considerations.
 - **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — understand lender priority before applying.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare whether replacing debt is cleaner than adding debt.
 

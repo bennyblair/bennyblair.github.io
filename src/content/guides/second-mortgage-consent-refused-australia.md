@@ -92,7 +92,7 @@ Another option is offering different security. If the borrower has another comme
 
 A lower loan amount may also help. If the consent refusal was linked to leverage or risk appetite, reducing the facility size can sometimes change the conversation. It will not fix a lender policy that bans second mortgages altogether.
 
-In limited urgent commercial scenarios, a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide) or [caveat loan for settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase) may be discussed. Legal advice is important because caveats, mortgages, and consent rights are different security concepts.
+In limited urgent commercial scenarios, a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide) or [settlement shortfall finance](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement) may be discussed. Legal advice is important because caveats, mortgages, and consent rights are different security concepts.
 
 ## What To Do Before Reapplying
 

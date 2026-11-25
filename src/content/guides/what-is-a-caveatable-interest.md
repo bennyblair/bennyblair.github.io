@@ -28,7 +28,7 @@ From a commercial lending perspective, the real question is not just “what is 
 ### Related In-Depth Guides
 
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — The main guide to how caveat lending works, when it is used, and why title security matters.
-- **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if caveat issues arise during a time-sensitive settlement.
+- **[Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful if caveat issues arise during a time-sensitive settlement.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — A practical comparison when borrowers are deciding how to secure short-term funding.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Relevant for borrowers under immediate time pressure.
 - **[Quick Caveat Loans](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Helpful if speed is driving the funding decision.
@@ -92,7 +92,7 @@ A caveat can interfere with:
 - title transfers
 - security registration for a new lender
 
-That is why caveat issues often become urgent funding problems. A borrower may suddenly need a shorter-term structure, extra time, or a negotiated title solution. Where timing is critical, **[caveat loans for settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** and **[urgent caveat loans](/resources/guides/urgent-caveat-loans)** are often the first practical comparison points.
+That is why caveat issues often become urgent funding problems. A borrower may suddenly need a shorter-term structure, extra time, or a negotiated title solution. Where timing is critical, caveat loans for settlement and **[urgent caveat loans](/resources/guides/urgent-caveat-loans)** are often the first practical comparison points.
 
 ## How lenders think about caveatable interests
 
@@ -167,7 +167,7 @@ The caveatable interest is the underlying legal right or interest in the land. T
 ## Related Guides
 
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — The main guide if you need the full commercial picture.
-- **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful when a title issue is colliding with a settlement deadline.
+- **[Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful when a title issue is colliding with a settlement deadline.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — A practical comparison of two different short-term security structures.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Helpful when the issue is already time critical.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — A broader comparison for borrowers navigating specialist funding options.
