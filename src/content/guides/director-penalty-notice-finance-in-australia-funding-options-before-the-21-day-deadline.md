@@ -18,6 +18,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Director Penalty Notice finance is short-term business funding used by eligible company directors who need to deal with urgent ATO liabilities before personal director exposure escalates. It does not make a Director Penalty Notice disappear, and it is not a substitute for tax, legal or insolvency advice. Its role is narrower: it may create liquidity so a business can pay, refinance or restructure an ATO debt while directors and advisers work through the legal response.

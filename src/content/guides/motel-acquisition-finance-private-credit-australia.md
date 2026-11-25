@@ -20,6 +20,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Motel Acquisition Finance Australia | Private Credit Guide"
 metaDescription: "Motel acquisition finance with private credit explained for Australian business buyers. Learn deal fit, lender assessment, documents, risks and exit planning."
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Motel acquisition finance is funding used to buy a motel business, motel freehold, leasehold interest, or a combined business-and-property transaction. In Australia, private credit may be considered when the opportunity is commercial, time-sensitive, property-backed, or too non-standard for a bank timeline.

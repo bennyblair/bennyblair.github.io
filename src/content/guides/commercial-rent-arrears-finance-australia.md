@@ -19,6 +19,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Commercial Rent Arrears Finance Australia | Emet Capital"
 metaDescription: "Commercial rent arrears finance options for Australian businesses dealing with landlord pressure, lease default risk, cash-flow gaps, and lender evidence requirements."
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Commercial rent arrears finance is business-purpose funding considered when an Australian business has fallen behind on lease payments and needs to stabilise cash flow, negotiate with the landlord, or protect trading continuity. It may involve secured working capital, debtor finance, property-backed private lending, or another commercial facility, but it only makes sense where the business has a credible recovery and repayment plan.

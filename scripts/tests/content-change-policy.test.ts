@@ -8,6 +8,7 @@ import {
   applyRetiredCaveatProductCopy,
   isContextualInternalInlinkChange,
   isContextualInternalLinkChange,
+  isExactNoindexFrontmatterChange,
   isInternalLinkOnlyChange,
   isRetiredProductCopyChange,
   loadInlinkExemptionEntries,
@@ -55,6 +56,99 @@ test("does not exempt a route migration when substantive copy also changes", () 
   const after = "Always compare [refinancing](/services/refinancing-solutions) before applying.";
 
   assert.equal(isInternalLinkOnlyChange(before, after), false);
+});
+
+test("classifies adding only noindex and indexingReason frontmatter as exact noindex", () => {
+  const before = [
+    "---",
+    'title: "Guide"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+  const after = [
+    "---",
+    'title: "Guide"',
+    "noindex: true",
+    'indexingReason: "pruned-low-value-20261124"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+
+  assert.equal(isExactNoindexFrontmatterChange(before, after), true);
+  assert.equal(isInternalLinkOnlyChange(before, after), false);
+});
+
+test("rejects noindex frontmatter edits that also change body or other keys", () => {
+  const before = [
+    "---",
+    'title: "Guide"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+  const afterNoindex = [
+    "---",
+    'title: "Guide"',
+    "noindex: true",
+    'indexingReason: "pruned-low-value-20261124"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+
+  assert.equal(
+    isExactNoindexFrontmatterChange(before, afterNoindex.replace("Opening paragraph", "Rewritten paragraph")),
+    false,
+  );
+  assert.equal(
+    isExactNoindexFrontmatterChange(before, afterNoindex.replace('title: "Guide"', 'title: "Changed"')),
+    false,
+  );
+  assert.equal(
+    isExactNoindexFrontmatterChange(before, `${afterNoindex}\ncanonical: "/elsewhere"`),
+    false,
+  );
+  assert.equal(isExactNoindexFrontmatterChange(before, before), false);
+});
+
+test("rejects noindex exemption when the file is already noindex", () => {
+  const alreadyNoindex = [
+    "---",
+    'title: "Guide"',
+    "noindex: true",
+    'indexingReason: "pending-transaction-evidence"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+  const rewrittenReason = [
+    "---",
+    'title: "Guide"',
+    "noindex: true",
+    'indexingReason: "pruned-low-value-20261124"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+
+  assert.equal(isExactNoindexFrontmatterChange(alreadyNoindex, rewrittenReason), false);
+  assert.equal(isExactNoindexFrontmatterChange(alreadyNoindex, alreadyNoindex), false);
+});
+
+test("rejects noindex exemption when an extra frontmatter key is added", () => {
+  const before = [
+    "---",
+    'title: "Guide"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+  const extraFrontmatterKey = [
+    "---",
+    'title: "Guide"',
+    "noindex: true",
+    'indexingReason: "pruned-low-value-20261124"',
+    'canonical: "/elsewhere"',
+    "---",
+    "Opening paragraph stays identical.",
+  ].join("\n");
+
+  assert.equal(isExactNoindexFrontmatterChange(before, extraFrontmatterKey), false);
 });
 
 function guideSource(body, extraFrontmatter = []) {

@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A bridging loan repayment calculator is a planning tool that helps you estimate how a short-term property loan may behave over the intended hold period. For commercial borrowers, the key value is not the exact repayment output. It is the ability to test timing assumptions, debt structure, and exit pressure before you commit to a short-term facility.

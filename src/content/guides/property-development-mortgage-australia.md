@@ -19,6 +19,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Property Development Mortgage Australia | Developer Guide"
 metaDescription: "Property development mortgages in Australia explained for commercial borrowers, including lender assessment, security, feasibility, documents, and exits."
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A property development mortgage is commercial finance secured by real property and used to support a development-related transaction, site acquisition, refinance, construction milestone, residual stock position, or project funding gap. In Australia, developers and property investors usually consider this type of funding when a bank process is too slow, the project is outside standard policy, or a short-term property-secured structure is needed before a clearer refinance, sale, or construction facility.

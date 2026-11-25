@@ -10,6 +10,7 @@ import {
 } from "./lib/seo-policy.mjs";
 import {
   isContextualInternalInlinkChange,
+  isExactNoindexFrontmatterChange,
   isInternalLinkOnlyChange,
   isRetiredProductCopyChange,
 } from "./lib/content-change-policy.mjs";
@@ -72,6 +73,7 @@ function changedContentFiles() {
       const materialChanges = new Set(untrackedContentFiles());
       const editorialMigrations = new Set();
       let linkOnlyChanges = 0;
+      let noindexFrontmatterChanges = 0;
 
       for (const relative of output.split(/\r?\n/).filter((file) => file.endsWith(".md"))) {
         const absolute = path.resolve(repoRoot, relative);
@@ -92,6 +94,8 @@ function changedContentFiles() {
           || isContextualInternalInlinkChange(previous, current, relative)
         ) {
           linkOnlyChanges += 1;
+        } else if (isExactNoindexFrontmatterChange(previous, current)) {
+          noindexFrontmatterChanges += 1;
         }
         else {
           materialChanges.add(absolute);
@@ -101,7 +105,7 @@ function changedContentFiles() {
         }
       }
 
-      return { files: materialChanges, editorialMigrations, linkOnlyChanges, mergeBase };
+      return { files: materialChanges, editorialMigrations, linkOnlyChanges, noindexFrontmatterChanges, mergeBase };
     } catch (error) {
       failures.push(`${base}: ${error instanceof Error ? error.message : String(error)}`);
     }
@@ -318,5 +322,5 @@ if (errors.length) {
 }
 
 console.log(
-  `Content quality gate passed for ${parsed.length} articles (${changed.size} material changes; ${changeSet.linkOnlyChanges} internal-link-only, contextual service inlinks, or retired-product CTA migrations exempted).`,
+  `Content quality gate passed for ${parsed.length} articles (${changed.size} material changes; ${changeSet.linkOnlyChanges} internal-link-only, contextual service inlinks, or retired-product CTA migrations exempted; ${changeSet.noindexFrontmatterChanges || 0} exact noindex frontmatter additions exempted).`,
 );

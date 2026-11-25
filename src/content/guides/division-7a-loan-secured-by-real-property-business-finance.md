@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A Division 7A loan secured by real property is a company-to-shareholder or associate loan arrangement where real estate is used as security for the repayment obligation. For finance purposes, the key issue is not just the tax treatment. The practical question is how the existing company loan, security documents, repayment timetable, and property title affect any new business finance application.

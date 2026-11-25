@@ -14,6 +14,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 slug: "bridging-finance-melbourne-fast-property-solutions"
 keywords: ["fast commercial property settlement Melbourne", "Melbourne refinance timing gap", "bridging finance settlement documents"]
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Fast Melbourne Commercial Property Settlement: Bridging Finance Timing Guide

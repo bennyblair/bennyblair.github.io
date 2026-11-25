@@ -25,6 +25,8 @@ designatedServicePage: "/services/trade-finance"
 contentRisk: "low"
 reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Letters of credit and trade finance both help Australian importers manage supplier payments, shipment timing, and working capital pressure, but they solve different problems. A letter of credit is mainly a bank-backed payment undertaking used to give an overseas supplier confidence that payment will be made if agreed documents are presented. Trade finance is the broader funding category that may include import loans, purchase order finance, supplier payment facilities, receivables finance, and working capital support.

@@ -25,6 +25,38 @@ export function isInternalLinkOnlyChange(before, after) {
   return normalizeInternalLinkDestinations(before) === normalizeInternalLinkDestinations(after);
 }
 
+const NOINDEX_TRUE_LINE = /^noindex:\s*true\s*$/;
+const INDEXING_REASON_LINE = /^indexingReason:\s*"[^"]+"\s*$/;
+const NOINDEX_OR_REASON_KEY = /^(?:noindex|indexingReason)\s*:/;
+
+// Exact mechanical noindex only. Body bytes must be identical. Existing
+// frontmatter lines must stay in order. The only added lines are
+// `noindex: true` and `indexingReason: "<reason>"`. This does not classify
+// canonical, robots, slug, or any other metadata edit.
+export function isExactNoindexFrontmatterChange(before, after) {
+  if (before === after) return false;
+  const previous = splitFrontmatter(before);
+  const next = splitFrontmatter(after);
+  if (!previous.frontmatter || !next.frontmatter) return false;
+  if (previous.body !== next.body) return false;
+  const beforeLines = previous.frontmatter.split("\n");
+  const afterLines = next.frontmatter.split("\n");
+  if (beforeLines.some((line) => NOINDEX_OR_REASON_KEY.test(line))) return false;
+  const extra = [];
+  let beforeIndex = 0;
+  for (const line of afterLines) {
+    if (beforeIndex < beforeLines.length && line === beforeLines[beforeIndex]) {
+      beforeIndex += 1;
+      continue;
+    }
+    extra.push(line);
+  }
+  if (beforeIndex !== beforeLines.length || extra.length !== 2) return false;
+  const noindexLines = extra.filter((line) => NOINDEX_TRUE_LINE.test(line));
+  const reasonLines = extra.filter((line) => INDEXING_REASON_LINE.test(line));
+  return noindexLines.length === 1 && reasonLines.length === 1;
+}
+
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const inlinkExemptionsDir = path.join(repoRoot, "data", "inlink-exemptions");
 

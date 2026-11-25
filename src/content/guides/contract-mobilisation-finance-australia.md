@@ -20,6 +20,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 metaTitle: "Contract Mobilisation Finance Australia | Emet Capital"
 metaDescription: "Contract mobilisation finance explained for Australian SMEs funding labour, materials, equipment, bonds, deposits, and working capital before a new contract pays."
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Contract mobilisation finance is short-term business funding used to prepare for a new contract before the first customer payment arrives. Australian SMEs may use it to cover labour, materials, equipment hire, insurance, deposits, subcontractors, or other startup costs tied to delivering the contract.

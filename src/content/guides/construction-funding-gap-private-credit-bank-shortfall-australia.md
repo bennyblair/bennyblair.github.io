@@ -19,6 +19,8 @@ author_title: "Director, Emet Capital"
 author_name: "Daniel"
 metaTitle: "Construction Funding Gap and Private Credit | Emet Capital"
 metaDescription: "Guide to construction funding gaps when banks do not cover the full requirement. Learn when private credit may help and what risks to manage."
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Construction Funding Gap: When Private Credit Fills the Bank Shortfall

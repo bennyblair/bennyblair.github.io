@@ -18,6 +18,8 @@ author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Commercial property loan covenants are promises a business borrower makes to a lender after settlement. In Australia, those promises often relate to loan-to-value ratio, interest cover, debt serviceability, financial reporting, property income, tenant quality, tax compliance, and how the secured property can be used or changed.

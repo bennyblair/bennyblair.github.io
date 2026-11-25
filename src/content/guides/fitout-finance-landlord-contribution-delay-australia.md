@@ -38,6 +38,8 @@ metaTitle: "Fit-Out Finance for a Delayed Landlord Contribution"
 metaDescription: "Assess a temporary fit-out funding gap when reimbursement under an executed Australian commercial lease is delayed. General information only."
 featuredImage: "/images/articles/fitout-finance-landlord-contribution-delay-australia.jpg"
 featuredImageAlt: "Monochrome minimalist interior forms illustrating a delayed fit-out contribution"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 **Fitout finance for a landlord contribution delay in Australia is temporary business-purpose funding used when a tenant must pay approved fit-out costs before the landlord reimburses its agreed contribution under an executed commercial lease.** It addresses timing between contractor invoices and reimbursement. It does not create, enlarge, or enforce the tenant's lease entitlement.

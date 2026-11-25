@@ -17,6 +17,8 @@ author_url: "/about/daniel"
 author_bio: "Daniel is the Director at Emet Capital with 10 years' experience in commercial finance and private lending. He focuses on market commentary, lender behaviour, and strategic comparisons across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Director, Emet Capital"
 author_name: "Daniel"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A commercial property finance broker selection checklist is a practical way to assess whether a broker can handle a business-purpose property loan, not just introduce you to a lender. In Australia, the right commercial broker should understand property security, lender appetite, valuation issues, lease risk, settlement timing, refinance paths, and the difference between bank, non-bank, and private lending options.

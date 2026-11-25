@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A bridging loan for a bank delay is short-term, business-purpose property finance used when a commercial borrower has a real deadline but their bank approval, valuation, discharge, refinance, or settlement process is moving too slowly. It is not a way to ignore credit problems. It is a timing tool that may help protect a transaction while the permanent finance, sale, or refinance catches up.

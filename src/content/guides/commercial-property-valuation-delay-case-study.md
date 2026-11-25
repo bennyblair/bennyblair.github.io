@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A commercial property valuation delay is a finance risk where the loan assessment cannot move cleanly because the lender, valuer, borrower, or broker does not yet have reliable property evidence. In this anonymised case study, the issue was not simply that the valuation took longer than expected. The real problem was that the borrower needed funding by a fixed commercial deadline while the property evidence was incomplete.

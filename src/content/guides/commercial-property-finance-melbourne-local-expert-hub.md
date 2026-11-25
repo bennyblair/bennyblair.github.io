@@ -14,6 +14,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 featuredImage: "/images/commercial-property-finance-melbourne-local-expert-hub.jpg"
 keywords: ["commercial property finance melbourne", "melbourne commercial property loans", "commercial finance melbourne", "property investors melbourne"]
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Commercial Property Finance Melbourne: Local Expert Hub

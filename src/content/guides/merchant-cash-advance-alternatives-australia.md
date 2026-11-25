@@ -29,6 +29,8 @@ sources:
     url: "https://business.gov.au/finance/funding/apply-for-a-business-loan"
   - label: "business.gov.au — Choose your funding"
     url: "https://business.gov.au/finance/funding/choose-your-funding"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 Merchant cash advance alternatives are funding options that may give Australian businesses working capital without relying on daily card-sale deductions or revenue-linked repayments. Common alternatives include invoice finance, trade finance, business lines of credit, asset-backed lending, equipment finance, and property-secured working capital.

@@ -14,6 +14,8 @@ author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
 slug: "tradex-scheme-import-gst-trade-finance-australian-importers"
 keywords: ["Tradex Scheme import GST trade finance Australia", "import GST finance Australia", "trade finance Australian importers", "customs duty finance"]
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 # Tradex Scheme, Import GST and Trade Finance for Australian Importers

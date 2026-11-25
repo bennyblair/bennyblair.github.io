@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A commercial property loan deposit shortfall occurs when a borrower has a genuine purchase or refinance opportunity but does not yet have enough verified equity, cash, or acceptable contribution to complete the transaction. In this anonymised case study, the issue was not simply "not enough deposit". The real issue was whether the borrower could explain the gap, support the security, and show a credible exit or contribution source.

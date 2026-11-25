@@ -17,6 +17,8 @@ author_url: "/about/ben"
 author_bio: "Ben is a commercial finance broker at Emet Capital with 10 years' experience in private lending. He specialises in operational finance guides, scenario walkthroughs, and case studies across second mortgages, bridging finance, commercial property finance, private lending, and business finance for SMEs and property investors."
 author_title: "Commercial Finance Broker, Emet Capital"
 author_name: "Ben"
+noindex: true
+indexingReason: "pruned-low-value-20261124"
 ---
 
 A bad credit business loan is commercial finance considered by a business borrower whose credit history, tax position, trading conduct, or previous lender record is not clean enough for a standard bank approval path. In Australia, these loans are usually assessed on the full commercial story: what caused the credit issue, what has changed, what security is available, how the funds will be used, and how the facility will be repaid.
