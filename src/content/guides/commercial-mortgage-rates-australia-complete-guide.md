@@ -21,7 +21,7 @@ reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2027-02-25"
+expiresAt: "2026-11-05"
 sources:
   - label: "Reserve Bank of Australia — Interest rates"
     url: "https://www.rba.gov.au/statistics/interest-rates/"

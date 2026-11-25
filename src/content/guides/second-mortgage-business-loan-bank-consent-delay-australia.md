@@ -27,7 +27,7 @@ contentRisk: "high"
 reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-18"
 reviewStatus: "automated-editorial-review"
-expiresAt: "2027-02-25"
+expiresAt: "2026-11-18"
 sources:
   - label: "NSW Registrar General's Guidelines — priority between mortgages"
     url: "https://rg-guidelines.nswlrs.com.au/land_dealings/dealing_requirements/mortgages/priority_between_mortgages"
