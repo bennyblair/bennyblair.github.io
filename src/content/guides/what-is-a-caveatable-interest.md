@@ -28,7 +28,7 @@ From a commercial lending perspective, the real question is not just “what is 
 ### Related In-Depth Guides
 
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — The main guide to how caveat lending works, when it is used, and why title security matters.
-- **[Caveat Loans for Property Settlement](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful if caveat issues arise during a time-sensitive settlement.
+- **[Caveat Loans for Property Settlement](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Useful if caveat issues arise during a time-sensitive settlement.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — A practical comparison when borrowers are deciding how to secure short-term funding.
 - **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Relevant for borrowers under immediate time pressure.
 - **[Quick Caveat Loans](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — Helpful if speed is driving the funding decision.
@@ -38,7 +38,7 @@ From a commercial lending perspective, the real question is not just “what is 
 
 A caveatable interest usually means there is a real legal interest tied to land, not merely a commercial hope or a handshake expectation. If the interest is genuine, a caveat may be used to protect that interest until the dispute, settlement, or financing issue is resolved.
 
-That distinction matters because not every unpaid debt or broken promise creates a caveatable interest. The interest normally needs to be connected to the property itself. For borrowers trying to understand urgent title issues, the **[caveat loans in Australia guide](/resources/guides/caveat-loans-australia-complete-guide)** gives the broader commercial context around how caveats affect short-term property-secured finance.
+That distinction matters because not every unpaid debt or broken promise creates a caveatable interest. The interest normally needs to be connected to the property itself. For borrowers trying to understand urgent title issues, the **[caveat loans in Australia guide](/resources/guides/caveat-lenders-australia-directory-comparison)** gives the broader commercial context around how caveats affect short-term property-secured finance.
 
 ## Why caveatable interests matter in lending
 
@@ -92,7 +92,7 @@ A caveat can interfere with:
 - title transfers
 - security registration for a new lender
 
-That is why caveat issues often become urgent funding problems. A borrower may suddenly need a shorter-term structure, extra time, or a negotiated title solution. Where timing is critical, **[caveat loans for settlement](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** and **[urgent caveat loans](/resources/guides/urgent-caveat-loans)** are often the first practical comparison points.
+That is why caveat issues often become urgent funding problems. A borrower may suddenly need a shorter-term structure, extra time, or a negotiated title solution. Where timing is critical, **[caveat loans for settlement](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** and **[urgent caveat loans](/resources/guides/urgent-caveat-loans)** are often the first practical comparison points.
 
 ## How lenders think about caveatable interests
 
@@ -167,9 +167,9 @@ The caveatable interest is the underlying legal right or interest in the land. T
 ## Related Guides
 
 - **[Caveat Loans in Australia](/resources/guides/caveat-loans-australia-complete-guide)** — The main guide if you need the full commercial picture.
-- **[Caveat Loans for Property Settlement](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful when a title issue is colliding with a settlement deadline.
+- **[Caveat Loans for Property Settlement](/resources/guides/caveat-loan-exit-strategies-how-to-repay-or-refinance)** — Useful when a title issue is colliding with a settlement deadline.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — A practical comparison of two different short-term security structures.
-- **[Urgent Caveat Loans](/resources/guides/urgent-caveat-loans)** — Helpful when the issue is already time critical.
-- **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — A broader comparison for borrowers navigating specialist funding options.
+- **[Urgent Caveat Loans](/resources/guides/caveat-lenders-australia-directory-comparison)** — Helpful when the issue is already time critical.
+- **[Private Lending vs Bank Lending](/resources/guides/what-is-private-lending-australia)** — A broader comparison for borrowers navigating specialist funding options.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser before making any financial decisions.

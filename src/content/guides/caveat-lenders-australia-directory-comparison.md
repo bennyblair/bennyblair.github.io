@@ -32,7 +32,7 @@ featuredImageAlt: "Australian caveat lender types and comparison framework"
 
 Australian caveat lenders differ in capital source, mandate, decision process, property appetite and legal requirements. A useful comparison does not rank a changing list of companies as universally “best”. It identifies which lender type can assess the specific borrower, property, deadline and exit, then compares written terms on the same assumptions.
 
-This page compares caveat lender types and their terms. It is not a guide to choosing a broker. A commercial finance broker can help package a scenario and compare written offers; how to find and vet a caveat loan broker is covered separately. If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). Emet Capital is a commercial finance broker, not a lender, and does not fund loans. This guide is general information, not legal, tax or financial advice.
+This page compares caveat lender types and their terms. It is not a guide to choosing a broker. A commercial finance broker can help package a scenario and compare written offers. If you need property-secured business funding, see our [first and second mortgages page](/services/first-second-mortgages). Emet Capital is a commercial finance broker, not a lender, and does not fund loans. This guide is general information, not legal, tax or financial advice.
 
 ## Caveat lender types in Australia
 

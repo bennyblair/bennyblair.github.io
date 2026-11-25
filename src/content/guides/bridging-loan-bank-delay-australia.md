@@ -32,7 +32,7 @@ For Australian business owners, property investors, and developers, the key ques
 - **[Bridging Finance Auction Settlement Case Study](/resources/guides/bridging-finance-auction-settlement-case-study)** — timing pressure in a settlement-led scenario.
 - **[Commercial Property Loans Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — mainstream commercial property finance context.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways once the urgent window has passed.
-- **Caveat Loans for Property Settlement** — a related urgent-settlement funding structure.
+- **[Caveat Loans for Property Settlement](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)** — a related urgent-settlement funding structure.
 
 ### At a Glance
 
@@ -139,10 +139,10 @@ Borrowers should speak with their accountant, solicitor, and commercial finance 
 
 ## Related Guides
 
-- **[Bridging Finance Complete Property Guide](/resources/guides/bridging-finance-australia-complete-property-guide)**
-- **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**
+- **[Bridging Finance Complete Property Guide](/resources/guides/what-is-bridging-finance)**
+- **[Commercial Property Refinancing Solutions](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)**
 - **[Private Lending in Australia](/resources/guides/what-is-private-lending-australia)**
-- **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)**
+- **[Second Mortgages for Business](/resources/guides/what-is-a-second-mortgage)**
 - **[Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide)**
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

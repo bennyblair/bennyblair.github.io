@@ -21,7 +21,7 @@ reviewedBy: "OpenClaw SEO source audit"
 reviewedAt: "2026-08-05"
 reviewStatus: "automated-editorial-review"
 humanReviewRequired: true
-expiresAt: "2027-05-24T00:00:00.000Z"
+expiresAt: "2026-11-05"
 sources:
   - label: "Reserve Bank of Australia — Interest rates"
     url: "https://www.rba.gov.au/statistics/interest-rates/"
@@ -36,7 +36,7 @@ protectedUntil: "2026-10-19T00:00:00+11:00"
 
 > **Direct answer:** There is no single commercial mortgage rate in Australia. A lender prices the property, borrower, leverage, lease or trading income, loan term, repayment structure and execution risk together. Compare written offers using total dollar cost over the expected holding period, not a rate advertised without fees, conditions or a matching credit scenario.
 
-This page owns the decision intent **how commercial mortgage pricing works and how to compare offers**. For product eligibility and application steps, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). Emet Capital is a broker, not a lender, and our [commercial property finance](/services/commercial-property-finance) page explains how we compare bank and non-bank pathways.
+This page owns the decision intent **how commercial mortgage pricing works and how to compare offers**. For product eligibility and application steps, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For lender-type comparisons, see [bank versus private commercial loan pricing](/resources/guides/private-lending-vs-bank-lending-which-is-better).
 
 ## What a commercial mortgage quote contains
 
@@ -154,6 +154,8 @@ For a scenario-based comparison, use the [commercial property finance service](/
 ## Related Guides
 
 - [Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
+- [Commercial Loan Rates Comparison](/resources/guides/bank-vs-non-bank-commercial-lending-in-australia-which-borrowers-get-approved)
 - [Commercial Property Valuation](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
+- [Commercial Property Finance](/services/commercial-property-finance)
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker, not a lender, and helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.
