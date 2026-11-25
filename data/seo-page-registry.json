@@ -4818,8 +4818,8 @@
       "indexability": "redirected",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
-      "redirectToPageId": "pg_7d77f94996fb4608aee99c6f21a8ed48",
-      "redirectToPath": "/resources/guides/caveat-loan-rejected-heres-what-to-do-next",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
         "primaryQuery": "caveat loan application rejected what to do next legacy route",
         "intent": "redirect",
@@ -5696,8 +5696,8 @@
       "indexability": "redirected",
       "metadataStatus": "verified",
       "metadataConfidence": "high",
-      "redirectToPageId": "pg_61ea60d4e61549c399fef66b452d6de4",
-      "redirectToPath": "/resources/guides/caveat-loans-vs-bank-loans-speed-comparison",
+      "redirectToPageId": "pg_1debf5a91b284fc1ace322e25c1ccd17",
+      "redirectToPath": "/services/first-second-mortgages",
       "targeting": {
         "primaryQuery": "caveat loans vs second mortgages legacy route",
         "intent": "redirect",
@@ -22443,5 +22443,5 @@
       "programIds": []
     }
   ],
-  "checksum": "f8f40b696d6b939a7bf385dbbb2db15451e4d5a2c40d10454c4554d77d092b4b"
+  "checksum": "c4b1ac2c4471a9241285ea827c19cbcfd5a2ebfbcfd4dafeea09397a1f61f9d8"
 }
