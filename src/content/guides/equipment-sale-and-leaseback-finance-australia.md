@@ -163,7 +163,7 @@ The main risks are unaffordable lease payments, loss of unencumbered asset flexi
 
 - **[Asset-Backed Lending and Asset Finance](/resources/guides/asset-backed-lending-and-asset-finance)**, the broader pillar guide for asset-supported business funding.
 - **[What Is Asset-Backed Lending Australia](/resources/guides/what-is-asset-backed-lending-australia)**, a plain-English explainer for asset-supported finance.
-- **[Balloon Payment Refinance for Equipment and Asset Finance](/resources/guides/balloon-payment-refinance-for-equipment-and-asset-finance)**, compare refinance options for residual payment pressure.
+- **[Balloon Payment Refinance for Equipment and Asset Finance](/resources/guides/equipment-finance-balloon-payment-refinance-australia)**, compare refinance options for residual payment pressure.
 - **[Cashflow Facility Stack in Australia](/resources/guides/cashflow-facility-stack-in-australia-line-of-credit-vs-working-capital-loan-vs-invoice-finance)**, compare working-capital structures side by side.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)**, relevant when equipment funding is part of a broader debt restructure.
 

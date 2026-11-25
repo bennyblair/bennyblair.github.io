@@ -38,7 +38,7 @@ A second mortgage can support business-purpose funding where there is usable pro
 
 - **[Second Mortgages for Business Guide](/resources/guides/second-mortgages-for-business-guide)** — how second mortgages work for commercial borrowers.
 - **[Second Mortgage Without Refinancing](/resources/guides/second-mortgage-without-refinancing-your-first-mortgage-in-australia)** — options when the first loan is staying in place.
-- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — borrower preparation and approval considerations.
+- **[Getting a Second Mortgage](/services/first-second-mortgages)** — borrower preparation and approval considerations.
 - **[Second Mortgage Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — documents that make a file easier to assess.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — when refinance is cleaner than adding a second mortgage.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — how lender appetite differs across the market.
@@ -92,7 +92,7 @@ Another option is offering different security. If the borrower has another comme
 
 A lower loan amount may also help. If the consent refusal was linked to leverage or risk appetite, reducing the facility size can sometimes change the conversation. It will not fix a lender policy that bans second mortgages altogether.
 
-In limited urgent commercial scenarios, a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide) or [caveat loan for settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase) may be discussed. Legal advice is important because caveats, mortgages, and consent rights are different security concepts.
+In limited urgent commercial scenarios, a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide) or [caveat loan for settlement](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement) may be discussed. Legal advice is important because caveats, mortgages, and consent rights are different security concepts.
 
 ## What To Do Before Reapplying
 

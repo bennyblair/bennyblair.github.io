@@ -96,7 +96,7 @@ A working capital loan may fit a defined short-term gap where the borrower needs
 
 Asset finance may help where the contract requires vehicles, machinery, or equipment. If the business already owns equipment or receivables, [asset-backed business loans](/resources/guides/asset-backed-business-loans-using-equipment-and-receivables-in-australia) may create another pathway.
 
-Trade finance can also matter where the contract requires imported stock or supplier deposits. In that case, compare [trade finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports), [purchase order finance vs trade finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia), and [supplier deposit finance](/resources/guides/supplier-deposit-finance-high-value-import-orders-australia).
+Trade finance can also matter where the contract requires imported stock or supplier deposits. In that case, compare [trade finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports), [purchase order finance vs trade finance](/resources/guides/purchase-order-finance-vs-trade-finance-in-australia), and [supplier deposit finance](/resources/guides/supplier-deposit-finance-for-large-orders-australia).
 
 ## Documents To Prepare
 

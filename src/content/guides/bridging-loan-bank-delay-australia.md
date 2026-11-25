@@ -32,7 +32,7 @@ For Australian business owners, property investors, and developers, the key ques
 - **[Bridging Finance Auction Settlement Case Study](/resources/guides/bridging-finance-auction-settlement-case-study)** — timing pressure in a settlement-led scenario.
 - **[Commercial Property Loans Guide](/resources/guides/commercial-property-loans-australia-complete-guide)** — mainstream commercial property finance context.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways once the urgent window has passed.
-- **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — a related urgent-settlement funding structure.
+- **Caveat Loans for Property Settlement** — a related urgent-settlement funding structure.
 
 ### At a Glance
 

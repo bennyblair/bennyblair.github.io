@@ -30,7 +30,7 @@ This guide explains what to prepare before applying for a [second mortgage for b
 ### Related In-Depth Guides
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — the main guide to business-purpose second mortgages in Australia.
-- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — how the process usually works from enquiry to settlement.
+- **[Getting a Second Mortgage](/services/first-second-mortgages)** — how the process usually works from enquiry to settlement.
 - **[Second Mortgage Lender Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — a broker-side view of the documents lenders commonly ask for.
 - **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — how priority, risk, and lender assessment differ.
 - **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.
@@ -142,7 +142,7 @@ Use this practical list before sending a second mortgage enquiry:
 
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — start here for the full structure overview.
 - **[Second Mortgage Lender Document Checklist](/resources/guides/second-mortgage-lender-document-checklist-from-broker-files)** — document detail from broker files.
-- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — process steps and timing considerations.
+- **[Getting a Second Mortgage](/services/first-second-mortgages)** — process steps and timing considerations.
 - **[First Mortgage vs Second Mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences)** — understand lender priority before applying.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — compare whether replacing debt is cleaner than adding debt.
 

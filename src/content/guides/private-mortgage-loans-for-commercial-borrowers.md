@@ -41,7 +41,7 @@ For the broader lending category, start with [what private lending is in Austral
 ## Related In-Depth Guides
 
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)** — the core private lending explainer for commercial borrowers.
-- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)** — how private mortgage structures are assessed and documented.
+- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending-commercial-borrowers)** — how private mortgage structures are assessed and documented.
 - **[Private Lending Mortgage](/resources/guides/private-lending-mortgage)** — a closely related guide on property-backed private lending.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare timing, flexibility, and trade-offs.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial property finance context.
@@ -75,7 +75,7 @@ A private mortgage loan works best when it solves a defined timing problem. It s
 
 A private mortgage loan is usually a poor fit when there is no credible exit, the borrower cannot explain the commercial purpose, or the property security is already too heavily geared. It is also risky where the borrower is relying on uncertain future events without backup options.
 
-If the need is smaller, unsecured, or linked to everyday cash-flow management, a [business line of credit](/resources/guides/business-loan-line-of-credit-australia) or [working capital loan](/resources/guides/working-capital-loans-for-smes) may be more relevant. If the funding relates to equipment, compare [asset-backed lending and asset finance](/resources/guides/asset-backed-lending-and-asset-finance) before offering real property as security.
+If the need is smaller, unsecured, or linked to everyday cash-flow management, a [business line of credit](/resources/guides/business-line-of-credit-australia) or [working capital loan](/resources/guides/working-capital-loans-for-smes) may be more relevant. If the funding relates to equipment, compare [asset-backed lending and asset finance](/resources/guides/asset-backed-lending-and-asset-finance) before offering real property as security.
 
 The key question is simple: if the exit is delayed by 60 to 90 days, does the structure still survive? If not, the file needs more work before a private mortgage is considered.
 
@@ -165,7 +165,7 @@ Emet Capital is a commercial finance brokerage. We help eligible business borrow
 
 ## Related Guides
 
-- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)** — deeper detail on lender assessment and structure.
+- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending-commercial-borrowers)** — deeper detail on lender assessment and structure.
 - **[Private Lending Mortgage](/resources/guides/private-lending-mortgage)** — related property-backed private lending guide.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — broader commercial mortgage context.
 - **[Commercial Property Refinancing](/services/refinancing-solutions)** — options when a longer-term refinance is possible.

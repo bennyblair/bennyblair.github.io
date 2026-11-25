@@ -201,7 +201,7 @@ The better option depends on the business problem. A caveat loan may suit a genu
 
 - [Priority Agreements in Second Mortgages](/resources/guides/priority-agreements-in-second-mortgages-what-they-mean)
 - [Second Mortgage vs Line of Credit](/resources/guides/second-mortgage-vs-line-of-credit)
-- [Caveat Loan Interest Rates](/resources/guides/caveat-loan-interest-rates-what-you-ll-really-pay-2025)
+- [Caveat Loan Interest Rates](/services/first-second-mortgages)
 - [Quick Caveat Loans: Is 48-Hour Settlement Possible?](/resources/guides/quick-caveat-loans-48-hour-settlement-possible)
 - [Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)
 - [Short-Term Property Loans](/resources/guides/short-term-property-loans-when-you-need-fast-finance)

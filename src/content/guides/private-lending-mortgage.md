@@ -40,7 +40,7 @@ A private lending mortgage is not automatically better than a bank loan. It can 
 
 - **[What Is Private Lending in Australia?](/resources/guides/what-is-private-lending-australia)** — the core private lending explainer for commercial borrowers.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare flexibility, speed, documentation, cost, and risk.
-- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)** — a related guide focused on mortgage-backed private credit structures.
+- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending-commercial-borrowers)** — a related guide focused on mortgage-backed private credit structures.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)** — mainstream commercial property loan mechanics and assessment.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)** — when a registered second mortgage may be used behind an existing first mortgage.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)** — refinance pathways once the short-term issue is resolved.

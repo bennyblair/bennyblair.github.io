@@ -174,7 +174,7 @@ Avoid choosing based only on speed. A fast structure with unclear security, weak
 ## Related Guides
 
 - **[Business Debt Consolidation](/resources/guides/business-debt-consolidation-australia)** — Useful if the acquisition includes restructuring existing business liabilities.
-- **[Commercial Loan Rates: Banks vs Private Lenders](/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared)** — How to compare lender pricing without focusing only on headline rates.
+- **[Commercial Loan Rates: Banks vs Private Lenders](/resources/guides/commercial-mortgage-rates-australia-complete-guide)** — How to compare lender pricing without focusing only on headline rates.
 - **[Commercial Property Loan Guarantors](/resources/guides/guarantor-requirements-for-commercial-property-loans)** — Relevant where directors or property owners support the facility.
 - **[Second Mortgage for Business Partner Buyout](/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia)** — Related transition finance for ownership changes.
 - **[Commercial Property Refinance After a Bank Decline](/resources/guides/commercial-property-refinance-after-a-bank-decline-in-australia)** — Useful if the buyer's funding path has already been declined by a bank.

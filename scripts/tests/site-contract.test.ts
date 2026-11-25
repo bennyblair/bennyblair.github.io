@@ -168,7 +168,7 @@ test("approved consolidation sources use one-hop permanent redirects to canonica
     ["commercial-real-estate-lenders-australia-directory", "/resources/guides/commercial-property-lenders-in-australia-complete-directory"],
     ["first-and-second-mortgages-for-business", "/resources/guides/second-mortgages-for-business-guide"],
     ["secured-business-loans-australia", "/resources/guides/secured-vs-unsecured-business-loans-australia"],
-    ["caveat-loan-application-rejected-what-to-do-next", "/resources/guides/caveat-loan-rejected-heres-what-to-do-next"],
+    ["caveat-loan-application-rejected-what-to-do-next", "/services/first-second-mortgages"],
     ["second-mortgage-partnership-buyout-financing-transitions", "/resources/guides/second-mortgage-for-a-business-partner-buyout-in-australia"],
   ]);
   const redirects = new Map(redirectRules.map((rule) => [rule.from, rule]));
