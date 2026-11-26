@@ -52,7 +52,6 @@ export default function AssetBackedLendingPerth() {
           solution: 'A blended asset-backed structure secured against industrial property and fleet assets created time to stabilise the balance sheet and prepare for a longer-term refinancing path.',
           outcomes: [
             { label: 'Security pool', value: 'Warehouse + fleet assets' },
-            { label: 'Facility size', value: '$2.45M' },
             { label: 'Primary purpose', value: 'Refinance and liquidity support' },
             { label: 'Planned exit', value: 'Takeout refinance / deleveraging' }
           ]
@@ -63,7 +62,6 @@ export default function AssetBackedLendingPerth() {
           solution: 'An asset-backed facility tied to stock and receivables helped the business keep trading momentum while waiting for contracted cash inflows to clear.',
           outcomes: [
             { label: 'Security type', value: 'Inventory + receivables' },
-            { label: 'Facility size', value: '$1.05M' },
             { label: 'Commercial pressure', value: 'Contract and supplier timing' },
             { label: 'Expected exit', value: 'Trading-cycle repayment' }
           ]
@@ -74,7 +72,6 @@ export default function AssetBackedLendingPerth() {
           solution: 'A structured asset-backed facility funded the expansion while preserving flexibility for a later refinance once operations and revenues had normalised at the higher capacity level.',
           outcomes: [
             { label: 'Security value', value: 'Specialist equipment + support assets' },
-            { label: 'Facility size', value: '$1.7M' },
             { label: 'Commercial purpose', value: 'Expansion funding' },
             { label: 'Term', value: '12 to 24 months' }
           ]

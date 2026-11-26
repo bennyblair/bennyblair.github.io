@@ -48,22 +48,18 @@ export default function PrivateLendingAdelaide() {
       scenarios={[
         {
           title: 'Wingfield warehouse refinance gap',
-          scenario: 'A logistics operator owned a Wingfield warehouse valued at $3.3 million and needed to repay a maturing facility before its incoming refinance could finish due diligence.',
-          solution: 'A private first mortgage of $1.95 million stabilised the position and gave the borrower time to complete the longer-term refinance properly.',
+          scenario: 'A logistics operator owned a Wingfield warehouse and needed to repay a maturing facility before its incoming refinance could finish due diligence.',
+          solution: 'A private first mortgage stabilised the position and gave the borrower time to complete the longer-term refinance properly.',
           outcomes: [
-            { label: 'Security value', value: '$3.3M warehouse' },
-            { label: 'Private facility', value: '$1.95M' },
             { label: 'Indicative leverage', value: '59% LVR' },
             { label: 'Expected exit', value: 'Refinance within 4 months' }
           ]
         },
         {
           title: 'Mile End owner-occupied acquisition',
-          scenario: 'A business owner secured a $2.05 million Mile End commercial property but faced a tighter settlement date than their preferred lender could accommodate.',
-          solution: 'A $1.22 million private facility allowed settlement first and refinance later once the long-term lender was ready to proceed.',
+          scenario: 'A business owner secured a Mile End commercial property but faced a tighter settlement date than their preferred lender could accommodate.',
+          solution: 'A private facility allowed settlement first and refinance later once the long-term lender was ready to proceed.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.05M commercial premises' },
-            { label: 'Private facility', value: '$1.22M' },
             { label: 'Pressure point', value: 'Short settlement' },
             { label: 'Expected exit', value: 'Takeout refinance' }
           ]
@@ -71,10 +67,8 @@ export default function PrivateLendingAdelaide() {
         {
           title: 'Norwood mixed-use restructure',
           scenario: 'A borrower needed temporary property-backed liquidity against a Norwood mixed-use asset while finalising a partner separation and broader debt restructure.',
-          solution: 'A private facility of $1.48 million created time to complete the restructure before moving into a cleaner long-term debt arrangement.',
+          solution: 'A private facility created time to complete the restructure before moving into a cleaner long-term debt arrangement.',
           outcomes: [
-            { label: 'Security value', value: '$2.6M mixed-use asset' },
-            { label: 'Private facility', value: '$1.48M' },
             { label: 'Commercial purpose', value: 'Partner separation' },
             { label: 'Planned term', value: '3 to 6 months' }
           ]

@@ -48,23 +48,18 @@ export default function FirstSecondMortgagesGoldCoast() {
       scenarios={[
         {
           title: 'Southport Office Acquisition',
-          scenario: 'A professional services firm wanted to buy a Southport office suite for $2.05 million instead of renewing a lease. The directors needed a lender willing to move quickly and assess the property on commercial fundamentals rather than a consumer-style mortgage lens.',
-          solution: 'A first mortgage of $1.35 million was arranged against the office asset, supported by the owner-occupied use, the location, and the borrower’s trading history. That allowed the business to secure the premises without an overcomplicated process.',
+          scenario: 'A professional services firm wanted to buy a Southport office suite instead of renewing a lease. The directors needed a lender willing to move quickly and assess the property on commercial fundamentals rather than a consumer-style mortgage lens.',
+          solution: 'A first mortgage was arranged against the office asset, supported by the owner-occupied use, the location, and the borrower’s trading history. That allowed the business to secure the premises without an overcomplicated process.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.05M' },
-            { label: 'First mortgage', value: '$1.35M' },
             { label: 'Indicative leverage', value: '66% LVR' },
             { label: 'Property use', value: 'Owner-occupied office' }
           ]
         },
         {
           title: 'Bundall Equity Release for Expansion',
-          scenario: 'An investor owned a Bundall commercial property valued at $3.15 million with existing senior debt of $1.55 million and needed additional capital to support a business expansion and fit-out program.',
-          solution: 'A second mortgage of $500,000 was structured behind the first mortgage. The file relied on moderate combined leverage, a well-located asset, and a clear commercial explanation for the use of funds rather than broad, undefined liquidity requests.',
+          scenario: 'An investor owned a Bundall commercial property with existing senior debt and needed additional capital to support a business expansion and fit-out program.',
+          solution: 'A second mortgage was structured behind the first mortgage. The file relied on moderate combined leverage, a well-located asset, and a clear commercial explanation for the use of funds rather than broad, undefined liquidity requests.',
           outcomes: [
-            { label: 'Security value', value: '$3.15M commercial property' },
-            { label: 'Existing first mortgage', value: '$1.55M' },
-            { label: 'Second mortgage', value: '$500K' },
             { label: 'Combined leverage', value: '65% LVR' }
           ]
         }

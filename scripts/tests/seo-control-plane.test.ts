@@ -8,11 +8,13 @@ import { buildContentIndex } from "../lib/content-index.mjs";
 import { buildProtectedRouteMap } from "../lib/protected-cohort-policy.mjs";
 import {
   assertTransition,
+  checksum,
   classifyFileChange,
   validateRegistry,
 } from "../lib/seo-control-plane.mjs";
 import {
   getIndexableStaticRoutes,
+  getNoindexStaticRoutes,
   isRedirectSource,
   redirectRules,
 } from "../../src/config/site-route-manifest";
@@ -34,9 +36,10 @@ test("canonical SEO registry validates and exactly covers the current route esta
   );
   assert.deepEqual(registeredIndexable, expectedIndexable);
 
-  const expectedNoindex = new Set(
-    content.filter((article) => article.noindex && !isRedirectSource(article.route)).map((article) => article.route),
-  );
+  const expectedNoindex = new Set([
+    ...getNoindexStaticRoutes().map((route) => route.path),
+    ...content.filter((article) => article.noindex && !isRedirectSource(article.route)).map((article) => article.route),
+  ]);
   const registeredNoindex = new Set(
     registry.pages.filter((page: any) => page.indexability === "noindex").map((page: any) => page.path),
   );
@@ -185,4 +188,43 @@ test("risk classifier only treats explicit low-risk internal-link-only edits as 
     classifyFileChange({ relativePath: "data/authority-outreach-work-order.json", previous: "", current: "" }).risk,
     "R4",
   );
+});
+
+test("redirects may target noindex city routes but not noindex guides", () => {
+  const noindexGuide = registry.pages.find(
+    (page: any) => page.pageType === "guide" && page.indexability === "noindex",
+  );
+  const noindexCity = registry.pages.find(
+    (page: any) => page.pageType === "location" && page.indexability === "noindex" && page.path.includes("/cities/"),
+  );
+  const redirectTemplate = registry.pages.find((page: any) => page.indexability === "redirected");
+  assert.ok(noindexGuide, "need a noindex guide fixture");
+  assert.ok(noindexCity, "need a noindex city fixture");
+  assert.ok(redirectTemplate, "need a redirect fixture");
+
+  const failClone = structuredClone(registry);
+  failClone.pages.push({
+    ...redirectTemplate,
+    pageId: "pg_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    path: "/resources/guides/synthetic-redirect-to-noindex-guide",
+    redirectToPath: noindexGuide.path,
+    redirectToPageId: noindexGuide.pageId,
+  });
+  failClone.checksum = checksum({ ...failClone, checksum: undefined });
+  const failResult = validateRegistry(failClone);
+  assert.ok(
+    failResult.errors.some((error: string) => error.includes(noindexGuide.path)),
+    failResult.errors.join("\n"),
+  );
+
+  const passClone = structuredClone(registry);
+  passClone.pages.push({
+    ...redirectTemplate,
+    pageId: "pg_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    path: "/services/synthetic-redirect-to-noindex-city",
+    redirectToPath: noindexCity.path,
+    redirectToPageId: noindexCity.pageId,
+  });
+  passClone.checksum = checksum({ ...passClone, checksum: undefined });
+  assert.deepEqual(validateRegistry(passClone).errors, []);
 });

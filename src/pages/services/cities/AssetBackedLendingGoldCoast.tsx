@@ -52,7 +52,6 @@ export default function AssetBackedLendingGoldCoast() {
           solution: 'A structured asset-backed facility against the warehouse and supporting assets cleared the maturity pressure and bought time for a more stable medium-term funding plan.',
           outcomes: [
             { label: 'Security pool', value: 'Warehouse + business assets' },
-            { label: 'Facility size', value: '$1.65M' },
             { label: 'Primary purpose', value: 'Refinance and liquidity reset' },
             { label: 'Planned exit', value: 'Refinance / deleveraging' }
           ]
@@ -63,7 +62,6 @@ export default function AssetBackedLendingGoldCoast() {
           solution: 'A structured facility supported by stock and receivables gave the business room to trade through the peak period without relying solely on unsecured funding.',
           outcomes: [
             { label: 'Security type', value: 'Inventory + receivables' },
-            { label: 'Facility size', value: '$690K' },
             { label: 'Commercial pressure', value: 'Seasonal working capital' },
             { label: 'Expected exit', value: 'Trading-cycle cash flow' }
           ]
@@ -74,7 +72,6 @@ export default function AssetBackedLendingGoldCoast() {
           solution: 'An asset-backed structure funded the expansion and preserved flexibility for a later refinance once the facility had served its short- to medium-term purpose.',
           outcomes: [
             { label: 'Security value', value: 'Equipment + support assets' },
-            { label: 'Facility size', value: '$1.2M' },
             { label: 'Commercial purpose', value: 'Expansion funding' },
             { label: 'Term', value: '12 to 18 months' }
           ]

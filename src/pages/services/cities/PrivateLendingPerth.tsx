@@ -48,22 +48,18 @@ export default function PrivateLendingPerth() {
       scenarios={[
         {
           title: 'Welshpool warehouse refinance deadline',
-          scenario: 'A transport-linked business owned a Welshpool warehouse valued at $3.9 million and needed to repay its current lender before the replacement refinance could settle.',
-          solution: 'A private first mortgage of $2.25 million created enough runway for the borrower to complete valuation, legal, and takeout documentation.',
+          scenario: 'A transport-linked business owned a Welshpool warehouse and needed to repay its current lender before the replacement refinance could settle.',
+          solution: 'A private first mortgage created enough runway for the borrower to complete valuation, legal, and takeout documentation.',
           outcomes: [
-            { label: 'Security value', value: '$3.9M warehouse' },
-            { label: 'Private facility', value: '$2.25M' },
             { label: 'Indicative leverage', value: '58% LVR' },
             { label: 'Expected exit', value: 'Refinance within 3 to 5 months' }
           ]
         },
         {
           title: 'West Perth office acquisition',
-          scenario: 'An investor secured a $2.45 million West Perth office asset on a compressed settlement timetable while mainstream finance was still moving through due diligence.',
-          solution: 'A $1.46 million private facility preserved the purchase and allowed the borrower to refinance later into a longer-term office loan.',
+          scenario: 'An investor secured a West Perth office asset on a compressed settlement timetable while mainstream finance was still moving through due diligence.',
+          solution: 'A private facility preserved the purchase and allowed the borrower to refinance later into a longer-term office loan.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.45M office asset' },
-            { label: 'Private facility', value: '$1.46M' },
             { label: 'Pressure point', value: 'Compressed settlement' },
             { label: 'Expected exit', value: 'Takeout refinance' }
           ]
@@ -71,10 +67,8 @@ export default function PrivateLendingPerth() {
         {
           title: 'Fremantle mixed-use restructure',
           scenario: 'A business owner needed temporary liquidity against a Fremantle mixed-use property while completing a corporate restructure and debt cleanup.',
-          solution: 'A private property-backed facility of $1.7 million gave the borrower enough time to complete the restructure before moving to a cleaner long-term facility.',
+          solution: 'A private property-backed facility gave the borrower enough time to complete the restructure before moving to a cleaner long-term facility.',
           outcomes: [
-            { label: 'Security value', value: '$2.95M mixed-use property' },
-            { label: 'Private facility', value: '$1.7M' },
             { label: 'Commercial purpose', value: 'Corporate restructure' },
             { label: 'Planned term', value: 'Up to 6 months' }
           ]

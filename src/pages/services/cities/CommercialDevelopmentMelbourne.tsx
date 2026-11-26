@@ -48,25 +48,17 @@ export default function CommercialDevelopmentMelbourne() {
       scenarios={[
         {
           title: 'Brunswick Mixed-Use Corner Redevelopment',
-          scenario: 'A borrower assembled two adjoining Brunswick sites and proposed a 6-level project with ground-floor hospitality and 22 apartments above. The location offered strong end-buyer demand, but the deal carried design review risk and a longer consultant program than the sponsor first expected. Total development costs were budgeted at $15.8 million with projected gross realisation of $21.9 million.',
-          solution: 'A $11.7 million facility was structured with interest capitalisation, progressive drawdowns against consultant, demolition, structure, and completion milestones, plus a covenant package that allowed the sponsor to update sales evidence as campaigns matured. That reduced pressure to force early pricing into a soft launch.' ,
-          outcomes: [
-            { label: 'Total development cost', value: '$15.8M' },
-            { label: 'Development finance', value: '$11.7M' },
-            { label: 'Developer equity', value: '$4.1M' },
-            { label: 'Projected realisation', value: '$21.9M' }
-          ]
+          scenario: 'A borrower assembled two adjoining Brunswick sites and proposed a 6-level project with ground-floor hospitality and 22 apartments above. The location offered strong end-buyer demand, but the deal carried design review risk and a longer consultant program than the sponsor first expected. The funding needed to match construction, design review, and a realistic sales path.',
+          solution: 'A facility was structured with interest capitalisation, progressive drawdowns against consultant, demolition, structure, and completion milestones, plus a covenant package that allowed the sponsor to update sales evidence as campaigns matured. That reduced pressure to force early pricing into a soft launch.' ,
+          outcomes: []
         },
         {
           title: 'Truganina Industrial Estate Stage',
-          scenario: 'An experienced sponsor sought funding for a 9-unit industrial estate in Truganina targeting owner-occupiers and trade businesses wanting access to the Western Freeway and Port of Melbourne freight routes. Total project costs were $13.2 million, with a projected end value of $17.6 million once completed and sold down.',
-          solution: 'Development finance of $9.9 million was arranged with staged drawdowns and a structure that recognised a mix of pre-committed sales and speculative stock. The lender focused on local comparables, builder capacity, and estate design rather than imposing apartment-style presale hurdles that did not fit the asset class.',
+          scenario: 'An experienced sponsor sought funding for a 9-unit industrial estate in Truganina targeting owner-occupiers and trade businesses wanting access to the Western Freeway and Port of Melbourne freight routes. The funding needed to match staged construction and a realistic sell-down path.',
+          solution: 'Development finance was arranged with staged drawdowns and a structure that recognised a mix of pre-committed sales and speculative stock. The lender focused on local comparables, builder capacity, and estate design rather than imposing apartment-style presale hurdles that did not fit the asset class.',
           outcomes: [
             { label: 'Industrial units', value: '9 units' },
-            { label: 'Development cost', value: '$13.2M' },
-            { label: 'Development finance', value: '$9.9M' },
-            { label: 'Projected end value', value: '$17.6M' }
-          ]
+            ]
         }
       ]}
       relatedLinks={[

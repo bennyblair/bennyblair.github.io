@@ -48,22 +48,17 @@ export default function FirstSecondMortgagesMelbourne() {
       scenarios={[
         {
           title: 'Dandenong South Warehouse Expansion',
-          scenario: 'A manufacturing business owned a Dandenong South warehouse valued at $5.25 million with a senior mortgage balance of $2.9 million. The business needed capital for a new production line and warehouse upgrades but did not want to refinance the whole facility during a strong trading period.',
-          solution: 'A second mortgage of $900,000 was structured behind the existing senior loan. The file worked because the warehouse security was well understood, leverage remained controlled, and the use of funds was clearly tied to business growth rather than a vague equity release request.',
+          scenario: 'A manufacturing business owned a Dandenong South warehouse with a senior mortgage. The business needed capital for a new production line and warehouse upgrades but did not want to refinance the whole facility during a strong trading period.',
+          solution: 'A second mortgage was structured behind the existing senior loan. The file worked because the warehouse security was well understood, leverage remained controlled, and the use of funds was clearly tied to business growth rather than a vague equity release request.',
           outcomes: [
-            { label: 'Security value', value: '$5.25M warehouse' },
-            { label: 'Existing first mortgage', value: '$2.9M' },
-            { label: 'Second mortgage', value: '$900K' },
             { label: 'Combined leverage', value: '72% LVR' }
           ]
         },
         {
           title: 'Richmond Mixed-Use Refinance',
-          scenario: 'An investor held a Richmond mixed-use asset valued at $3.6 million with an expiring facility and lease renewals underway. A standard bank refinance was possible, but not before the existing lender required discharge.',
-          solution: 'A first mortgage refinance of $2.2 million stabilised the position and gave the borrower time to complete the leasing strategy before revisiting the long-term debt market. The deal was underwritten around asset quality, tenant mix, and a realistic next-step plan.',
+          scenario: 'An investor held a Richmond mixed-use asset with an expiring facility and lease renewals underway. A standard bank refinance was possible, but not before the existing lender required discharge.',
+          solution: 'A first mortgage refinance stabilised the position and gave the borrower time to complete the leasing strategy before revisiting the long-term debt market. The deal was underwritten around asset quality, tenant mix, and a realistic next-step plan.',
           outcomes: [
-            { label: 'Security value', value: '$3.6M mixed-use asset' },
-            { label: 'Refinance facility', value: '$2.2M' },
             { label: 'Indicative leverage', value: '61% LVR' },
             { label: 'Expected review', value: 'After lease-up program' }
           ]

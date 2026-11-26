@@ -48,23 +48,18 @@ export default function FirstSecondMortgagesBrisbane() {
       scenarios={[
         {
           title: 'Rocklea Warehouse Purchase',
-          scenario: 'A transport operator wanted to acquire a Rocklea warehouse for $2.9 million to consolidate leased depots into one owner-occupied site. The business needed a lender comfortable with the property, the operational story, and a shorter settlement period than a mainstream bank would accept.',
-          solution: 'A first mortgage of $1.95 million was structured around the warehouse security, trading history, and owner-occupied use. That gave the borrower control of the site while preserving working capital for the operating business.',
+          scenario: 'A transport operator wanted to acquire a Rocklea warehouse to consolidate leased depots into one owner-occupied site. The business needed a lender comfortable with the property, the operational story, and a shorter settlement period than a mainstream bank would accept.',
+          solution: 'A first mortgage was structured around the warehouse security, trading history, and owner-occupied use. That gave the borrower control of the site while preserving working capital for the operating business.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.9M' },
-            { label: 'First mortgage', value: '$1.95M' },
             { label: 'Indicative leverage', value: '67% LVR' },
             { label: 'Property use', value: 'Owner-occupied industrial' }
           ]
         },
         {
           title: 'Fortitude Valley Equity Release',
-          scenario: 'An investor held a Fortitude Valley mixed-use property valued at $3.35 million with a senior debt balance of $1.8 million. They needed additional capital for a business acquisition deposit but wanted to keep the existing first mortgage in place.',
-          solution: 'A second mortgage of $500,000 was arranged behind the current senior lender, with emphasis on the property value, moderate combined leverage, and a clean business-purpose rationale for the funds.',
+          scenario: 'An investor held a Fortitude Valley mixed-use property with a senior debt balance. They needed additional capital for a business acquisition deposit but wanted to keep the existing first mortgage in place.',
+          solution: 'A second mortgage was arranged behind the current senior lender, with emphasis on the property value, moderate combined leverage, and a clean business-purpose rationale for the funds.',
           outcomes: [
-            { label: 'Security value', value: '$3.35M mixed-use asset' },
-            { label: 'Existing first mortgage', value: '$1.8M' },
-            { label: 'Second mortgage', value: '$500K' },
             { label: 'Combined leverage', value: '69% LVR' }
           ]
         }

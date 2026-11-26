@@ -52,7 +52,6 @@ export default function AssetBackedLendingSydney() {
           solution: 'A blended asset-backed structure using the warehouse and transport assets created enough room to clear the expiring debt and stabilise the business while a longer-term refinance path remained available.',
           outcomes: [
             { label: 'Security pool', value: 'Warehouse + heavy vehicle fleet' },
-            { label: 'Facility size', value: '$2.8M' },
             { label: 'Primary purpose', value: 'Refinance and liquidity reset' },
             { label: 'Planned exit', value: 'Takeout refinance within 6 months' }
           ]
@@ -63,7 +62,6 @@ export default function AssetBackedLendingSydney() {
           solution: 'A structured facility backed by inventory and debtor strength gave the business room to meet supplier obligations and trade through the cash-flow gap without relying on unsecured debt.',
           outcomes: [
             { label: 'Security type', value: 'Inventory + receivables support' },
-            { label: 'Facility size', value: '$1.15M' },
             { label: 'Commercial pressure', value: 'Import and supplier timing' },
             { label: 'Expected exit', value: 'Debtor collections and trading cycle' }
           ]
@@ -74,7 +72,6 @@ export default function AssetBackedLendingSydney() {
           solution: 'An asset-backed facility secured against equipment and property support funded the expansion while keeping the business on schedule and preserving room for a later refinance if needed.',
           outcomes: [
             { label: 'Security value', value: 'Equipment + property support' },
-            { label: 'Facility size', value: '$1.9M' },
             { label: 'Commercial purpose', value: 'Capacity expansion' },
             { label: 'Term', value: '12 to 24 months' }
           ]

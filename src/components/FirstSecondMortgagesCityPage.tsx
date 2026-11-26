@@ -61,7 +61,7 @@ const processSteps = [
   'Settle the facility and keep the next step clear, whether that is acquisition, refinance, equity release, business growth, or a later restructure.'
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker. We are not a lender and do not provide credit; we help eligible business borrowers compare lenders. Please consult a licensed financial adviser before making any financial decisions.';
 
 export default function FirstSecondMortgagesCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (
@@ -160,7 +160,8 @@ export default function FirstSecondMortgagesCityPage({ city, canonical, title, d
         </section>
 
         <section className="max-w-5xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Local {city} case studies</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-3 text-center">Illustrative {city} scenarios</h2>
+          <p className="text-sm text-muted-foreground text-center max-w-3xl mx-auto mb-8">These examples are illustrative only. They are not case studies or records of completed client deals.</p>
           <div className="grid md:grid-cols-2 gap-6">
             {scenarios.map((item) => (
               <div key={item.title} className="bg-muted border border-border rounded-xl p-6 shadow-sm">
@@ -174,8 +175,9 @@ export default function FirstSecondMortgagesCityPage({ city, canonical, title, d
                     <div className="text-muted-foreground text-sm mb-1">Solution</div>
                     <p className="text-foreground leading-relaxed">{item.solution}</p>
                   </div>
+                  {item.outcomes.length > 0 && (
                   <div>
-                    <div className="text-muted-foreground text-sm mb-2">Transaction snapshot</div>
+                    <div className="text-muted-foreground text-sm mb-2">Scenario snapshot</div>
                     <div className="bg-card border border-border rounded-lg p-4 space-y-2">
                       {item.outcomes.map((o) => (
                         <div key={o.label} className="flex items-center justify-between gap-4">
@@ -185,6 +187,7 @@ export default function FirstSecondMortgagesCityPage({ city, canonical, title, d
                       ))}
                     </div>
                   </div>
+                  )}
                 </div>
               </div>
             ))}

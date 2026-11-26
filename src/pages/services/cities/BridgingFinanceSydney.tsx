@@ -49,10 +49,8 @@ export default function BridgingFinanceSydney() {
         {
           title: 'Illustrative: North Sydney Office Refinance Deadline',
           scenario: 'Illustrative scenario only: a professional services group owns a North Sydney office suite and faces a hard maturity date before the incoming refinance can complete lease review, valuation sign-off, and final legal conditions.',
-          solution: 'A short-term first-ranking bridge of $1.95 million created enough time to finish the replacement refinance properly without copping default pricing or losing control of the transaction to the outgoing lender.',
+          solution: 'A short-term first-ranking bridge created enough time to finish the replacement refinance properly without copping default pricing or losing control of the transaction to the outgoing lender.',
           outcomes: [
-            { label: 'Security value', value: '$3.2M office suite asset' },
-            { label: 'Bridge facility', value: '$1.95M' },
             { label: 'Indicative leverage', value: '61% LVR' },
             { label: 'Expected exit', value: 'Refinance within 4 months' }
           ]
@@ -60,21 +58,16 @@ export default function BridgingFinanceSydney() {
         {
           title: 'Illustrative: Marrickville Mixed-Use Purchase Before Sale',
           scenario: 'Illustrative scenario only: an investor secures a Marrickville mixed-use property, but the sale of another asset is still several weeks from settlement and the vendor will not grant more time.',
-          solution: 'A $1.55 million bridge allowed the borrower to settle the new purchase first, preserve the opportunity, and repay the short-term debt from the Dulwich Hill sale once settlement completed.',
+          solution: 'A bridge allowed the borrower to settle the new purchase first, preserve the opportunity, and repay the short-term debt from the Dulwich Hill sale once settlement completed.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.48M' },
-            { label: 'Bridge facility', value: '$1.55M' },
-            { label: 'Support asset sale', value: '$1.36M expected proceeds' },
             { label: 'Planned term', value: '3 to 6 months' }
           ]
         },
         {
           title: 'Illustrative: Silverwater Industrial Auction Settlement',
           scenario: 'Illustrative scenario only: a transport operator wins a warehouse asset in Silverwater at auction, but its preferred long-term lender cannot meet the contractual settlement date because valuation access and final credit sign-off are still pending.',
-          solution: 'A short-term acquisition bridge of $2.7 million let the borrower complete on time, keep the asset, and refinance out once the permanent industrial facility was ready to settle.',
+          solution: 'A short-term acquisition bridge let the borrower complete on time, keep the asset, and refinance out once the permanent industrial facility was ready to settle.',
           outcomes: [
-            { label: 'Purchase price', value: '$4.4M industrial warehouse' },
-            { label: 'Bridge facility', value: '$2.7M' },
             { label: 'Contract pressure', value: 'Auction settlement deadline' },
             { label: 'Expected exit', value: 'Takeout refinance in 6 to 10 weeks' }
           ]

@@ -48,25 +48,19 @@ export default function CommercialDevelopmentBrisbane() {
       scenarios={[
         {
           title: 'Woolloongabba Mid-Rise Apartment Project',
-          scenario: 'A borrower secured a site near the future Woolloongabba transport and stadium precinct for a 28-unit apartment project aimed at professionals and downsizers wanting inner-city access without CBD pricing. Total project costs were forecast at $12.9 million with projected gross realisation of $17.8 million, but the sponsor needed a lender comfortable with a partially established presale campaign rather than a fully banked one.',
-          solution: 'A $9.4 million development facility was arranged with milestone-based drawdowns, interest capitalisation during construction, and reporting linked to presale progress and QS-certified cost-to-complete. The structure let the project move while still giving the lender visibility around sales traction.',
+          scenario: 'A borrower secured a site near the future Woolloongabba transport and stadium precinct for a 28-unit apartment project aimed at professionals and downsizers wanting inner-city access without CBD pricing. The sponsor needed a lender comfortable with a partially established presale campaign rather than a fully banked one.',
+          solution: 'A development facility was arranged with milestone-based drawdowns, interest capitalisation during construction, and reporting linked to presale progress and QS-certified cost-to-complete. The structure let the project move while still giving the lender visibility around sales traction.',
           outcomes: [
             { label: 'Apartments', value: '28 units' },
-            { label: 'Development cost', value: '$12.9M' },
-            { label: 'Development finance', value: '$9.4M' },
-            { label: 'Projected realisation', value: '$17.8M' }
-          ]
+            ]
         },
         {
           title: 'Berrinba Industrial Warehouse Stage',
-          scenario: 'An experienced sponsor acquired an industrial parcel in Berrinba to develop four freestanding warehouses targeting trade users and logistics operators servicing Brisbane and the Gold Coast. Total costs were $10.6 million with a forecast end value of $14.4 million on completion and lease-up.',
-          solution: 'Funding of $7.8 million was structured with staged drawdowns across civil works, slab, structure, and completion. The lender was selected based on practical industrial experience so the assessment focused on access, bay sizing, local demand, and leaseability rather than generic metro apartment metrics.',
+          scenario: 'An experienced sponsor acquired an industrial parcel in Berrinba to develop four freestanding warehouses targeting trade users and logistics operators servicing Brisbane and the Gold Coast. The funding needed to match construction, lease-up, and a realistic exit.',
+          solution: 'Funding was structured with staged drawdowns across civil works, slab, structure, and completion. The lender was selected based on practical industrial experience so the assessment focused on access, bay sizing, local demand, and leaseability rather than generic metro apartment metrics.',
           outcomes: [
             { label: 'Warehouse buildings', value: '4 assets' },
-            { label: 'Development cost', value: '$10.6M' },
-            { label: 'Development finance', value: '$7.8M' },
-            { label: 'Projected end value', value: '$14.4M' }
-          ]
+            ]
         }
       ]}
       relatedLinks={[

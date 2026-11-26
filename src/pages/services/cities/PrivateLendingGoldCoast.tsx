@@ -48,22 +48,18 @@ export default function PrivateLendingGoldCoast() {
       scenarios={[
         {
           title: 'Southport mixed-use refinance transition',
-          scenario: 'An investor owned a Southport mixed-use asset valued at $3.2 million and needed to repay a maturing lender before the replacement refinance had completed tenancy and legal review.',
-          solution: 'A private first mortgage of $1.9 million created enough runway for the refinance to complete without forced pressure on the asset.',
+          scenario: 'An investor owned a Southport mixed-use asset and needed to repay a maturing lender before the replacement refinance had completed tenancy and legal review.',
+          solution: 'A private first mortgage created enough runway for the refinance to complete without forced pressure on the asset.',
           outcomes: [
-            { label: 'Security value', value: '$3.2M mixed-use property' },
-            { label: 'Private facility', value: '$1.9M' },
             { label: 'Indicative leverage', value: '59% LVR' },
             { label: 'Expected exit', value: 'Refinance within 4 months' }
           ]
         },
         {
           title: 'Burleigh commercial acquisition',
-          scenario: 'A business owner exchanged on a $2.3 million Burleigh commercial asset with a settlement date too tight for the preferred mainstream lender to meet.',
-          solution: 'A $1.36 million private facility allowed the purchase to settle on time while the longer-term debt solution continued in parallel.',
+          scenario: 'A business owner exchanged on a Burleigh commercial asset with a settlement date too tight for the preferred mainstream lender to meet.',
+          solution: 'A private facility allowed the purchase to settle on time while the longer-term debt solution continued in parallel.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.3M commercial asset' },
-            { label: 'Private facility', value: '$1.36M' },
             { label: 'Pressure point', value: 'Tight settlement timeline' },
             { label: 'Expected exit', value: 'Takeout refinance' }
           ]
@@ -71,10 +67,8 @@ export default function PrivateLendingGoldCoast() {
         {
           title: 'Bundall property-backed restructure',
           scenario: 'A borrower needed temporary liquidity against a Bundall office asset while finalising a shareholder restructure and debt realignment.',
-          solution: 'A private facility of $1.62 million created the required liquidity and gave the borrower time to move into a cleaner long-term facility afterward.',
+          solution: 'A private facility created the required liquidity and gave the borrower time to move into a cleaner long-term facility afterward.',
           outcomes: [
-            { label: 'Security value', value: '$2.85M office asset' },
-            { label: 'Private facility', value: '$1.62M' },
             { label: 'Commercial purpose', value: 'Shareholder restructure' },
             { label: 'Planned term', value: 'Up to 6 months' }
           ]

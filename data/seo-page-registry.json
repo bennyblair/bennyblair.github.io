@@ -17140,7 +17140,7 @@
       "path": "/services/asset-finance/cities/adelaide",
       "sourcePath": "src/pages/services/cities/AssetFinanceAdelaide.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -17162,9 +17162,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -17181,7 +17181,7 @@
       "path": "/services/asset-finance/cities/brisbane",
       "sourcePath": "src/pages/services/cities/AssetFinanceBrisbane.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -17203,9 +17203,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -17222,7 +17222,7 @@
       "path": "/services/asset-finance/cities/gold-coast",
       "sourcePath": "src/pages/services/cities/AssetFinanceGoldCoast.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -17244,9 +17244,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -17263,7 +17263,7 @@
       "path": "/services/asset-finance/cities/melbourne",
       "sourcePath": "src/pages/services/cities/AssetFinanceMelbourne.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -17285,9 +17285,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -17304,7 +17304,7 @@
       "path": "/services/asset-finance/cities/perth",
       "sourcePath": "src/pages/services/cities/AssetFinancePerth.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -17326,9 +17326,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -17345,7 +17345,7 @@
       "path": "/services/asset-finance/cities/sydney",
       "sourcePath": "src/pages/services/cities/AssetFinanceSydney.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -17367,9 +17367,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -18150,7 +18150,7 @@
       "path": "/services/business-acquisition/cities/adelaide",
       "sourcePath": "src/pages/services/cities/BusinessAcquisitionAdelaide.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -18172,9 +18172,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -18191,7 +18191,7 @@
       "path": "/services/business-acquisition/cities/brisbane",
       "sourcePath": "src/pages/services/cities/BusinessAcquisitionBrisbane.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -18213,9 +18213,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -18232,7 +18232,7 @@
       "path": "/services/business-acquisition/cities/gold-coast",
       "sourcePath": "src/pages/services/cities/BusinessAcquisitionGoldCoast.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -18254,9 +18254,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -18273,7 +18273,7 @@
       "path": "/services/business-acquisition/cities/melbourne",
       "sourcePath": "src/pages/services/cities/BusinessAcquisitionMelbourne.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -18295,9 +18295,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -18314,7 +18314,7 @@
       "path": "/services/business-acquisition/cities/perth",
       "sourcePath": "src/pages/services/cities/BusinessAcquisitionPerth.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -18336,9 +18336,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -18355,7 +18355,7 @@
       "path": "/services/business-acquisition/cities/sydney",
       "sourcePath": "src/pages/services/cities/BusinessAcquisitionSydney.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -18377,9 +18377,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19371,7 +19371,7 @@
       "path": "/services/debt-consolidation/cities/adelaide",
       "sourcePath": "src/pages/services/cities/DebtConsolidationAdelaide.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19393,9 +19393,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19412,7 +19412,7 @@
       "path": "/services/debt-consolidation/cities/brisbane",
       "sourcePath": "src/pages/services/cities/DebtConsolidationBrisbane.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19434,9 +19434,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19453,7 +19453,7 @@
       "path": "/services/debt-consolidation/cities/gold-coast",
       "sourcePath": "src/pages/services/cities/DebtConsolidationGoldCoast.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19475,9 +19475,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19494,7 +19494,7 @@
       "path": "/services/debt-consolidation/cities/melbourne",
       "sourcePath": "src/pages/services/cities/DebtConsolidationMelbourne.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19516,9 +19516,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19535,7 +19535,7 @@
       "path": "/services/debt-consolidation/cities/perth",
       "sourcePath": "src/pages/services/cities/DebtConsolidationPerth.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19557,9 +19557,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19576,7 +19576,7 @@
       "path": "/services/debt-consolidation/cities/sydney",
       "sourcePath": "src/pages/services/cities/DebtConsolidationSydney.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19598,9 +19598,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19660,7 +19660,7 @@
       "path": "/services/equipment-finance/cities/adelaide",
       "sourcePath": "src/pages/services/cities/EquipmentFinanceAdelaide.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19682,9 +19682,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19701,7 +19701,7 @@
       "path": "/services/equipment-finance/cities/brisbane",
       "sourcePath": "src/pages/services/cities/EquipmentFinanceBrisbane.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19723,9 +19723,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19742,7 +19742,7 @@
       "path": "/services/equipment-finance/cities/gold-coast",
       "sourcePath": "src/pages/services/cities/EquipmentFinanceGoldCoast.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19764,9 +19764,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19783,7 +19783,7 @@
       "path": "/services/equipment-finance/cities/melbourne",
       "sourcePath": "src/pages/services/cities/EquipmentFinanceMelbourne.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19805,9 +19805,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19824,7 +19824,7 @@
       "path": "/services/equipment-finance/cities/perth",
       "sourcePath": "src/pages/services/cities/EquipmentFinancePerth.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19846,9 +19846,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -19865,7 +19865,7 @@
       "path": "/services/equipment-finance/cities/sydney",
       "sourcePath": "src/pages/services/cities/EquipmentFinanceSydney.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -19887,9 +19887,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21371,7 +21371,7 @@
       "path": "/services/smsf-lending/cities/adelaide",
       "sourcePath": "src/pages/services/cities/SMSFLendingAdelaide.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21393,9 +21393,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21412,7 +21412,7 @@
       "path": "/services/smsf-lending/cities/brisbane",
       "sourcePath": "src/pages/services/cities/SMSFLendingBrisbane.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21434,9 +21434,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21453,7 +21453,7 @@
       "path": "/services/smsf-lending/cities/gold-coast",
       "sourcePath": "src/pages/services/cities/SMSFLendingGoldCoast.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21475,9 +21475,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21494,7 +21494,7 @@
       "path": "/services/smsf-lending/cities/melbourne",
       "sourcePath": "src/pages/services/cities/SMSFLendingMelbourne.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21516,9 +21516,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21535,7 +21535,7 @@
       "path": "/services/smsf-lending/cities/perth",
       "sourcePath": "src/pages/services/cities/SMSFLendingPerth.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21557,9 +21557,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21576,7 +21576,7 @@
       "path": "/services/smsf-lending/cities/sydney",
       "sourcePath": "src/pages/services/cities/SMSFLendingSydney.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21598,9 +21598,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21658,7 +21658,7 @@
       "path": "/services/trade-finance/cities/adelaide",
       "sourcePath": "src/pages/services/cities/TradeFinanceAdelaide.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21680,9 +21680,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21699,7 +21699,7 @@
       "path": "/services/trade-finance/cities/brisbane",
       "sourcePath": "src/pages/services/cities/TradeFinanceBrisbane.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21721,9 +21721,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21740,7 +21740,7 @@
       "path": "/services/trade-finance/cities/gold-coast",
       "sourcePath": "src/pages/services/cities/TradeFinanceGoldCoast.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21762,9 +21762,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21781,7 +21781,7 @@
       "path": "/services/trade-finance/cities/melbourne",
       "sourcePath": "src/pages/services/cities/TradeFinanceMelbourne.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21803,9 +21803,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21822,7 +21822,7 @@
       "path": "/services/trade-finance/cities/perth",
       "sourcePath": "src/pages/services/cities/TradeFinancePerth.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21844,9 +21844,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21863,7 +21863,7 @@
       "path": "/services/trade-finance/cities/sydney",
       "sourcePath": "src/pages/services/cities/TradeFinanceSydney.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21885,9 +21885,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21945,7 +21945,7 @@
       "path": "/services/working-capital/cities/adelaide",
       "sourcePath": "src/pages/services/cities/WorkingCapitalAdelaide.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -21967,9 +21967,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -21986,7 +21986,7 @@
       "path": "/services/working-capital/cities/brisbane",
       "sourcePath": "src/pages/services/cities/WorkingCapitalBrisbane.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -22008,9 +22008,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -22027,7 +22027,7 @@
       "path": "/services/working-capital/cities/gold-coast",
       "sourcePath": "src/pages/services/cities/WorkingCapitalGoldCoast.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -22049,9 +22049,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -22068,7 +22068,7 @@
       "path": "/services/working-capital/cities/melbourne",
       "sourcePath": "src/pages/services/cities/WorkingCapitalMelbourne.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -22090,9 +22090,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -22109,7 +22109,7 @@
       "path": "/services/working-capital/cities/perth",
       "sourcePath": "src/pages/services/cities/WorkingCapitalPerth.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -22131,9 +22131,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -22150,7 +22150,7 @@
       "path": "/services/working-capital/cities/sydney",
       "sourcePath": "src/pages/services/cities/WorkingCapitalSydney.tsx",
       "pageType": "location",
-      "indexability": "indexable",
+      "indexability": "noindex",
       "metadataStatus": "needs_review",
       "metadataConfidence": "low",
       "targeting": {
@@ -22172,9 +22172,9 @@
         "expiresAt": null
       },
       "lifecycle": {
-        "state": "observing",
-        "decision": "none",
-        "reviewAt": "2026-11-04T00:00:00.000Z",
+        "state": "closed",
+        "decision": "noindex",
+        "reviewAt": null,
         "protectedUntil": null,
         "lastMaterialChangeId": "chg_registry_bootstrap_20260806",
         "lastMaterialChangeAt": "2026-08-06T00:00:00.000Z"
@@ -22443,5 +22443,5 @@
       "programIds": []
     }
   ],
-  "checksum": "c4b1ac2c4471a9241285ea827c19cbcfd5a2ebfbcfd4dafeea09397a1f61f9d8"
+  "checksum": "d39ada74bc5f8dd600a863a96114fffc9b377d4686a0ee6a6a00977c5d773f25"
 }

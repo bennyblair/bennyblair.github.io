@@ -90,41 +90,12 @@ const data = {
     {
       "title": "Eagle Farm warehouse refinance for contract growth",
       "summary": "A logistics operator in Eagle Farm refinanced a warehouse facility after winning larger distribution contracts. The refinance needed to improve certainty around debt term while releasing enough capital for equipment and yard improvements ahead of the growth phase.",
-      "figures": [
-        {
-          "label": "Security value",
-          "value": "$4.9 million"
-        },
-        {
-          "label": "Outgoing debt",
-          "value": "$2.7 million"
-        },
-        {
-          "label": "New facility",
-          "value": "$3.2 million"
-        },
-        {
-          "label": "Released capital",
-          "value": "$500,000"
-        }
-      ]
+      "figures": []
     },
     {
       "title": "South Brisbane mixed-use refinance during tenant change",
       "summary": "An investor refinanced a South Brisbane mixed-use property while one tenancy was turning over and the prior lender had become conservative on lease and revaluation settings. The new structure focused on sustainability and flexibility rather than pushing leverage.",
       "figures": [
-        {
-          "label": "Property value",
-          "value": "$3.8 million"
-        },
-        {
-          "label": "Refinanced debt",
-          "value": "$2.15 million"
-        },
-        {
-          "label": "Vacancy reserve",
-          "value": "$130,000"
-        },
         {
           "label": "Primary outcome",
           "value": "Reduced lender pressure"
@@ -135,18 +106,6 @@ const data = {
       "title": "Acacia Ridge owner-occupier reset for machinery spend",
       "summary": "A manufacturing business refinanced its Acacia Ridge premises to better align debt with seasonal cash flow and fund machinery upgrades. The outgoing structure had become too tight for the business's operating cycle.",
       "figures": [
-        {
-          "label": "Property value",
-          "value": "$5.3 million"
-        },
-        {
-          "label": "Existing debt",
-          "value": "$3.05 million"
-        },
-        {
-          "label": "New facility",
-          "value": "$3.55 million"
-        },
         {
           "label": "Business purpose",
           "value": "Capex + restructure"

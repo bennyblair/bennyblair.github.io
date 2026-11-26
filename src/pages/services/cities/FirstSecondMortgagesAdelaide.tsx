@@ -48,23 +48,18 @@ export default function FirstSecondMortgagesAdelaide() {
       scenarios={[
         {
           title: 'Wingfield Warehouse Acquisition',
-          scenario: 'A transport and storage operator wanted to buy a Wingfield warehouse for $2.4 million to bring a leased site into owner-occupation. Timing mattered because the vendor wanted a firm settlement and the borrower needed a lender comfortable with industrial security.',
-          solution: 'A first mortgage of $1.58 million was used to complete the purchase, supported by the warehouse quality, owner-occupied rationale, and a clear view of the business cash flow behind the transaction.',
+          scenario: 'A transport and storage operator wanted to buy a Wingfield warehouse to bring a leased site into owner-occupation. Timing mattered because the vendor wanted a firm settlement and the borrower needed a lender comfortable with industrial security.',
+          solution: 'A first mortgage was used to complete the purchase, supported by the warehouse quality, owner-occupied rationale, and a clear view of the business cash flow behind the transaction.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.4M' },
-            { label: 'First mortgage', value: '$1.58M' },
             { label: 'Indicative leverage', value: '66% LVR' },
             { label: 'Property use', value: 'Owner-occupied warehouse' }
           ]
         },
         {
           title: 'Norwood Commercial Equity Release',
-          scenario: 'A borrower owned a Norwood commercial property valued at $2.7 million with existing senior debt of $1.3 million and needed capital for a related business acquisition and fit-out program.',
-          solution: 'A second mortgage of $450,000 was structured behind the first mortgage so the borrower could access equity without disturbing the original senior facility. The lender focused on total leverage, property liquidity, and a clearly commercial use of funds.',
+          scenario: 'A borrower owned a Norwood commercial property with existing senior debt and needed capital for a related business acquisition and fit-out program.',
+          solution: 'A second mortgage was structured behind the first mortgage so the borrower could access equity without disturbing the original senior facility. The lender focused on total leverage, property liquidity, and a clearly commercial use of funds.',
           outcomes: [
-            { label: 'Security value', value: '$2.7M commercial asset' },
-            { label: 'Existing first mortgage', value: '$1.3M' },
-            { label: 'Second mortgage', value: '$450K' },
             { label: 'Combined leverage', value: '65% LVR' }
           ]
         }

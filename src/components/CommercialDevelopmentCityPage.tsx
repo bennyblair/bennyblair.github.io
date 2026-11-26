@@ -62,7 +62,7 @@ const processSteps = [
   'Complete construction, obtain occupancy certificate, and execute exit strategy (sale or refinance).'
 ];
 
-const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital provides commercial lending solutions to eligible business borrowers. Please consult a licensed financial adviser before making any financial decisions.';
+const disclaimer = 'This page is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker. We are not a lender and do not provide credit; we help eligible business borrowers compare lenders. Please consult a licensed financial adviser before making any financial decisions.';
 
 export default function CommercialDevelopmentCityPage({ city, canonical, title, description, localIntro, localFocus, marketOverview, timingPressures, suburbCoverage, localUseCases, scenarios, relatedLinks, faqs }: Props) {
   return (
@@ -145,7 +145,8 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
         </section>
 
         <section className="max-w-5xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-foreground mb-6">{city} Development Scenarios</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-3">{city} development scenarios</h2>
+          <p className="text-sm text-muted-foreground mb-6">These examples are illustrative only. They are not case studies or records of completed client deals.</p>
           <div className="space-y-8">
             {scenarios.map((scenario, index) => (
               <div key={index} className="bg-card border border-border rounded-xl p-6">
@@ -157,8 +158,9 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
                     <h4 className="text-lg font-semibold text-foreground/70 mb-2">Solution</h4>
                     <p className="text-muted-foreground">{scenario.solution}</p>
                   </div>
+                  {scenario.outcomes.length > 0 && (
                   <div>
-                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Outcomes</h4>
+                    <h4 className="text-lg font-semibold text-foreground/70 mb-2">Scenario snapshot</h4>
                     <div className="grid grid-cols-2 gap-4">
                       {scenario.outcomes.map((outcome, idx) => (
                         <div key={idx} className="bg-muted rounded-lg p-4">
@@ -168,6 +170,7 @@ export default function CommercialDevelopmentCityPage({ city, canonical, title, 
                       ))}
                     </div>
                   </div>
+                  )}
                 </div>
               </div>
             ))}

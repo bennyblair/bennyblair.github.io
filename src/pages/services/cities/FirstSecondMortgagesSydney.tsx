@@ -48,22 +48,17 @@ export default function FirstSecondMortgagesSydney() {
       scenarios={[
         {
           title: 'Parramatta Office Equity Release',
-          scenario: 'A professional services group owned a Parramatta office asset valued at $4.8 million with an existing first mortgage balance of $2.35 million. The directors wanted to fund a bolt-on acquisition and fit-out without refinancing the original facility, which still had favourable terms.',
-          solution: 'A second mortgage of $850,000 was structured behind the existing first mortgage so the acquisition could complete while the original debt remained in place. The lender focused on total leverage, the quality of the office asset, and the business-purpose use of funds rather than pushing the borrower into a full refinance.',
+          scenario: 'A professional services group owned a Parramatta office asset with an existing first mortgage. The directors wanted to fund a bolt-on acquisition and fit-out without refinancing the original facility, which still had favourable terms.',
+          solution: 'A second mortgage was structured behind the existing first mortgage so the acquisition could complete while the original debt remained in place. The lender focused on total leverage, the quality of the office asset, and the business-purpose use of funds rather than pushing the borrower into a full refinance.',
           outcomes: [
-            { label: 'Security value', value: '$4.8M office asset' },
-            { label: 'Existing first mortgage', value: '$2.35M' },
-            { label: 'Second mortgage', value: '$850K' },
             { label: 'Combined leverage', value: '67% LVR' }
           ]
         },
         {
           title: 'Marrickville Mixed-Use Acquisition',
-          scenario: 'An investor secured a $3.1 million mixed-use property in Marrickville with strong lease coverage, but needed certainty around settlement while restructuring debt on another asset. A mainstream lender could not complete in time.',
-          solution: 'A first mortgage facility of $2.05 million was used to settle the acquisition quickly, with documentation framed around the property cash flow, borrower experience, and a later refinance path once the wider portfolio restructure was completed.',
+          scenario: 'An investor secured a mixed-use property in Marrickville with strong lease coverage, but needed certainty around settlement while restructuring debt on another asset. A mainstream lender could not complete in time.',
+          solution: 'A first mortgage facility was used to settle the acquisition quickly, with documentation framed around the property cash flow, borrower experience, and a later refinance path once the wider portfolio restructure was completed.',
           outcomes: [
-            { label: 'Purchase price', value: '$3.1M' },
-            { label: 'First mortgage', value: '$2.05M' },
             { label: 'Indicative leverage', value: '66% LVR' },
             { label: 'Expected next step', value: 'Refinance after portfolio restructure' }
           ]

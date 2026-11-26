@@ -52,7 +52,6 @@ export default function AssetFinancePerth() {
           solution: 'A vehicle-finance structure spread the acquisition cost over the useful period of the vehicles and preserved cash for staff and mobilisation.',
           outcomes: [
             { label: 'Asset type', value: 'Commercial fleet vehicles' },
-            { label: 'Facility size', value: '$455K' },
             { label: 'Commercial purpose', value: 'Fleet refresh and growth' },
             { label: 'Indicative term', value: '4 to 5 years' }
           ]
@@ -63,7 +62,6 @@ export default function AssetFinancePerth() {
           solution: 'An equipment-finance structure supported the machinery purchase while spreading the cost into manageable repayments.',
           outcomes: [
             { label: 'Asset type', value: 'Industrial machinery' },
-            { label: 'Facility size', value: '$620K' },
             { label: 'Commercial purpose', value: 'Capacity and productivity upgrade' },
             { label: 'Indicative term', value: '5 to 7 years' }
           ]
@@ -74,7 +72,6 @@ export default function AssetFinancePerth() {
           solution: 'Asset finance reduced the upfront capital burden and let the business start using the equipment sooner while preserving operational liquidity.',
           outcomes: [
             { label: 'Asset type', value: 'Specialist business equipment' },
-            { label: 'Facility size', value: '$240K' },
             { label: 'Commercial pressure', value: 'Expansion timeline' },
             { label: 'Indicative term', value: '3 to 5 years' }
           ]

@@ -52,7 +52,6 @@ export default function AssetFinanceMelbourne() {
           solution: 'A vehicle-finance structure funded the fleet expansion with repayments aligned to the business trading profile rather than forcing a major upfront spend.',
           outcomes: [
             { label: 'Asset type', value: 'Commercial fleet vehicles' },
-            { label: 'Facility size', value: '$510K' },
             { label: 'Commercial purpose', value: 'Growth and capacity' },
             { label: 'Indicative term', value: '4 to 5 years' }
           ]
@@ -63,7 +62,6 @@ export default function AssetFinanceMelbourne() {
           solution: 'An equipment-finance structure spread the cost over time and kept cash available for recruitment, fitout, and operating reserves.',
           outcomes: [
             { label: 'Asset type', value: 'Specialist medical equipment' },
-            { label: 'Facility size', value: '$860K' },
             { label: 'Commercial purpose', value: 'Service expansion' },
             { label: 'Indicative term', value: '5 to 7 years' }
           ]
@@ -74,7 +72,6 @@ export default function AssetFinanceMelbourne() {
           solution: 'Asset finance supported the equipment rollout and reduced the upfront hit, helping the business preserve flexibility during the opening phase.',
           outcomes: [
             { label: 'Asset type', value: 'Hospitality equipment' },
-            { label: 'Facility size', value: '$295K' },
             { label: 'Commercial pressure', value: 'Launch timeline' },
             { label: 'Indicative term', value: '3 to 5 years' }
           ]

@@ -48,33 +48,26 @@ export default function BridgingFinanceAdelaide() {
       scenarios={[
         {
           title: 'Norwood Office Refinance Transition',
-          scenario: 'A professional services group had a $2.75 million office asset in Norwood, but its senior facility matured before the incoming refinance could complete valuation, tenant review, and final legal conditions.',
-          solution: 'A short-term first-ranking bridge of $1.68 million gave the borrower time to complete the refinance properly and avoid distressed rollover pressure from the outgoing lender.',
+          scenario: 'A professional services group had a office asset in Norwood, but its senior facility matured before the incoming refinance could complete valuation, tenant review, and final legal conditions.',
+          solution: 'A short-term first-ranking bridge gave the borrower time to complete the refinance properly and avoid distressed rollover pressure from the outgoing lender.',
           outcomes: [
-            { label: 'Security value', value: '$2.75M office property' },
-            { label: 'Bridge facility', value: '$1.68M' },
             { label: 'Indicative leverage', value: '61% LVR' },
             { label: 'Expected exit', value: 'Refinance within 3 to 4 months' }
           ]
         },
         {
           title: 'Glenelg Purchase Before Sale',
-          scenario: 'An investor identified a $1.95 million mixed-use property in Glenelg, but their Burnside property sale was still eight weeks from settlement and the vendor required completion within 30 days.',
-          solution: 'A short-term bridge of $1.22 million allowed the Glenelg purchase to settle first, with repayment expected from the Burnside sale once settlement completed.',
+          scenario: 'An investor identified a mixed-use property in Glenelg, but their Burnside property sale was still eight weeks from settlement and the vendor required completion within 30 days.',
+          solution: 'A short-term bridge allowed the Glenelg purchase to settle first, with repayment expected from the Burnside sale once settlement completed.',
           outcomes: [
-            { label: 'Purchase price', value: '$1.95M coastal mixed-use' },
-            { label: 'Bridge facility', value: '$1.22M' },
-            { label: 'Support asset sale', value: '$1.14M expected proceeds' },
             { label: 'Planned term', value: '2 to 3 months' }
           ]
         },
         {
           title: 'Gepps Cross Industrial Settlement Gap',
-          scenario: 'A logistics business secured a $2.48 million warehouse in Gepps Cross, but its long-term lender needed more time to complete valuation and issue final documents while the vendor refused to extend beyond 21 days.',
-          solution: 'A short-term acquisition bridge of $1.55 million allowed the purchase to complete on schedule and then be refinanced into the approved permanent facility once documentation was finalised.',
+          scenario: 'A logistics business secured a warehouse in Gepps Cross, but its long-term lender needed more time to complete valuation and issue final documents while the vendor refused to extend beyond 21 days.',
+          solution: 'A short-term acquisition bridge allowed the purchase to complete on schedule and then be refinanced into the approved permanent facility once documentation was finalised.',
           outcomes: [
-            { label: 'Purchase price', value: '$2.48M warehouse asset' },
-            { label: 'Bridge facility', value: '$1.55M' },
             { label: 'Indicative leverage', value: '62% LVR' },
             { label: 'Expected exit', value: 'Refinance within 6 to 8 weeks' }
           ]
