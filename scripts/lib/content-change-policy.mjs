@@ -539,6 +539,62 @@ export const RETIRED_CAVEAT_PRODUCT_REPLACEMENTS = Object.freeze([
     "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — when a caveat loan may be considered instead.",
     "- **[Caveat Loan vs Second Mortgage](/resources/guides/caveat-loan-vs-second-mortgage-which-is-right-for-you)** — educational comparison of caveat security and registered second mortgages.",
   ],
+  [
+    "- **[Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if your exit depends on a linked settlement or purchase transaction.",
+    "- **[Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful if your exit depends on a linked settlement or purchase transaction.",
+  ],
+  [
+    "- [Caveat Loans for Property Settlement: Bridge Your Purchase](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)",
+    "- [Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)",
+  ],
+  [
+    "- **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful if caveat issues arise during a time-sensitive settlement.",
+    "- **[Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful if caveat issues arise during a time-sensitive settlement.",
+  ],
+  [
+    "That is why caveat issues often become urgent funding problems. A borrower may suddenly need a shorter-term structure, extra time, or a negotiated title solution. Where timing is critical, **[caveat loans for settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** and **[urgent caveat loans](/resources/guides/urgent-caveat-loans)** are often the first practical comparison points.",
+    "That is why caveat issues often become urgent funding problems. A borrower may suddenly need a shorter-term structure, extra time, or a negotiated title solution. Where timing is critical, caveat loans for settlement and **[urgent caveat loans](/resources/guides/urgent-caveat-loans)** are often the first practical comparison points.",
+  ],
+  [
+    "- **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — Useful when a title issue is colliding with a settlement deadline.",
+    "- **[Settlement Shortfall Finance in Australia](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement)** — Useful when a title issue is colliding with a settlement deadline.",
+  ],
+  [
+    "- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — borrower preparation and approval considerations.",
+    "- **[Getting a Second Mortgage](/services/first-second-mortgages)** — borrower preparation and approval considerations.",
+  ],
+  [
+    "In limited urgent commercial scenarios, a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide) or [caveat loan for settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase) may be discussed. Legal advice is important because caveats, mortgages, and consent rights are different security concepts.",
+    "In limited urgent commercial scenarios, a [caveat loan](/resources/guides/caveat-loans-australia-complete-guide) or [settlement shortfall finance](/resources/guides/settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement) may be discussed. Legal advice is important because caveats, mortgages, and consent rights are different security concepts.",
+  ],
+  [
+    "- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — how the process usually works from enquiry to settlement.",
+    "- **[Getting a Second Mortgage](/services/first-second-mortgages)** — how the process usually works from enquiry to settlement.",
+  ],
+  [
+    "- **[Getting a Second Mortgage](/resources/guides/getting-a-second-mortgage)** — process steps and timing considerations.",
+    "- **Getting a Second Mortgage** — process steps and timing considerations.",
+  ],
+  [
+    "- [Caveat Loan Interest Rates](/resources/guides/caveat-loan-interest-rates-what-you-ll-really-pay-2025)",
+    "- Caveat Loan Interest Rates",
+  ],
+  [
+    "This page owns the decision intent **how commercial mortgage pricing works and how to compare offers**. For product eligibility and application steps, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For lender-type comparisons, see [bank versus private commercial loan pricing](/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared).",
+    "This page owns the decision intent **how commercial mortgage pricing works and how to compare offers**. For product eligibility and application steps, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For lender-type comparisons, see bank versus private commercial loan pricing.",
+  ],
+  [
+    "- [Commercial Loan Rates Comparison](/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared)",
+    "- Commercial Loan Rates Comparison",
+  ],
+  [
+    "- **[First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage](/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage)** — a focused comparison of two possible structures when timing becomes critical.",
+    "- **First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage** — a focused comparison of two possible structures when timing becomes critical.",
+  ],
+  [
+    "- **[First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage](/resources/guides/first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage)** — a detailed fallback comparison.",
+    "- **First Mortgagee Consent Delay: Caveat Loan vs Second Mortgage** — a detailed fallback comparison.",
+  ],
 ]);
 
 export function applyRetiredCaveatProductCopy(source) {

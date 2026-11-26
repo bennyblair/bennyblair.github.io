@@ -54,7 +54,7 @@ const MarketInsights = () => {
       readTime: "6 min",
       publishDate: "2024-01-12",
       featured: false,
-      href: "/resources/guides/commercial-loan-interest-rates-australia-2025-comparison"
+      href: "/resources/guides/commercial-mortgage-rates-australia-complete-guide"
     },
     {
       title: "New APRA Regulations for Commercial Property Finance",

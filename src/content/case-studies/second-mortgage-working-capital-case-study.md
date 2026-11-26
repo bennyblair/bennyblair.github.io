@@ -72,7 +72,7 @@ The borrower wanted to preserve the existing first mortgage because refinancing 
 
 A second mortgage narrowed the question. The lender could focus on the available equity, the ranking behind the first mortgage, the commercial purpose, and the repayment pathway. That does not make the structure automatically suitable, but it can make it more practical where timing matters.
 
-Borrowers weighing this choice should also read [getting a second mortgage](/resources/guides/getting-a-second-mortgage) and [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences) before deciding whether layering debt is acceptable.
+Borrowers weighing this choice should also read [getting a second mortgage](/services/first-second-mortgages) and [first mortgage vs second mortgage](/resources/guides/first-mortgage-vs-second-mortgage-key-differences) before deciding whether layering debt is acceptable.
 
 ## Indicative Structure Without Rate Claims
 

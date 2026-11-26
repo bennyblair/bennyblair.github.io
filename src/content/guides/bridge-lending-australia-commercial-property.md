@@ -151,6 +151,5 @@ Bridge lending may be considered after a bank delay if the borrower has a genuin
 - **[Bridging Loan Exit Strategies](/resources/guides/bridging-loan-exit-strategies-plan-your-repayment-path)** — plan repayment before settlement pressure builds.
 - **[Commercial Property Due Diligence Checklist](/resources/guides/commercial-property-due-diligence-finance-checklist)** — check the documents lenders usually need.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)** — compare speed, flexibility, and trade-offs.
-- **[Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase)** — another short-term property-backed option for urgent settlement gaps.
 
 This article is for informational purposes only and does not constitute financial advice. Emet Capital is a commercial finance broker: it does not lend or fund loans, and it helps eligible business borrowers compare options from lenders. Please consult a licensed financial adviser, accountant, or commercial finance specialist as appropriate before making any financial decisions.

@@ -28,7 +28,7 @@ This guide compares both paths for Australian commercial borrowers considering p
 - **[What Is Private Lending in Australia](/resources/guides/what-is-private-lending-australia)**, the main pillar guide for private lending fundamentals.
 - **[Private Lending vs Bank Lending](/resources/guides/private-lending-vs-bank-lending-which-is-better)**, a strategic comparison of private lenders and banks.
 - **[Private Debt for SME Borrowers](/resources/guides/private-debt-for-sme-borrowers)**, borrower-focused guidance on private debt structures.
-- **[Private Mortgage Lending in Australia](/resources/guides/private-mortgage-lending)**, a guide to mortgage-backed private lending.
+- **[Private Mortgage Lending in Australia](/resources/guides/private-mortgage-lending-commercial-borrowers)**, a guide to mortgage-backed private lending.
 - **[Second Mortgages for Business](/resources/guides/second-mortgages-for-business-guide)**, useful where a second-ranking registered mortgage is being considered.
 - **[Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)**, the commercial property finance pillar guide.
 
@@ -147,7 +147,7 @@ A broker can use this memo to test lender fit. A direct fund can use it to give 
 
 ## Related Guides
 
-- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending)**, for property-secured private credit structures.
+- **[Private Mortgage Lending](/resources/guides/private-mortgage-lending-commercial-borrowers)**, for property-secured private credit structures.
 - **[Commercial Property Refinancing Solutions](/services/refinancing-solutions)**, for borrowers replacing or restructuring existing property debt.
 - **[Business Debt Consolidation Australia](/resources/guides/business-debt-consolidation-australia)**, for borrowers comparing consolidation with short-term private credit.
 - **[Bridging Finance Australia](/resources/guides/bridging-finance-australia-complete-property-guide)**, for settlement timing and transition funding.

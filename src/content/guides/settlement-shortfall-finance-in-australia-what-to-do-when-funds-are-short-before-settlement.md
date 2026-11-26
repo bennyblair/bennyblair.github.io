@@ -116,7 +116,7 @@ A caveat loan may be considered for urgent business-purpose funding where the bo
 
 This can be useful for a narrow settlement gap, but it is not automatic and not risk-free. The lender still checks ownership, consent, title, existing debt, valuation evidence, loan purpose and exit strategy. If the property already has caveats, disputes or insufficient equity, this path may not be available.
 
-For more context, see [Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide) and [Caveat Loans for Property Settlement](/resources/guides/caveat-loans-for-property-settlement-bridge-your-purchase).
+For more context, see [Caveat Loans Australia](/resources/guides/caveat-loans-australia-complete-guide) and Caveat Loans for Property Settlement.
 
 ## Option 5: Second Mortgage or Private Lending
 

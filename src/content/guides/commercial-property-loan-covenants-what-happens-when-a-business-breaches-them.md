@@ -143,7 +143,7 @@ A covenant-breach refinance file moves faster when the borrower can explain the 
 - Details of any arrears, legal disputes, or creditor pressure.
 - Exit strategy, such as sale, refinance, project completion, tenant replacement, or trading recovery.
 
-If the issue is a property purchase or settlement deadline, the [commercial property settlement process](/resources/guides/commercial-property-settlement-process-finance-timeline) guide can help frame timing. If the problem is debt stack complexity, [commercial loan rates](/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared) and [commercial property lenders](/resources/guides/commercial-property-lenders-in-australia-complete-directory) explain lender comparison factors beyond headline price.
+If the issue is a property purchase or settlement deadline, the [commercial property settlement process](/resources/guides/commercial-property-settlement-process-finance-timeline) guide can help frame timing. If the problem is debt stack complexity, [commercial loan rates](/resources/guides/commercial-mortgage-rates-australia-complete-guide) and [commercial property lenders](/resources/guides/commercial-property-lenders-in-australia-complete-directory) explain lender comparison factors beyond headline price.
 
 ## Practical Scenario: Breach Caused by Vacancy
 

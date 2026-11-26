@@ -36,7 +36,7 @@ protectedUntil: "2026-10-19T00:00:00+11:00"
 
 > **Direct answer:** There is no single commercial mortgage rate in Australia. A lender prices the property, borrower, leverage, lease or trading income, loan term, repayment structure and execution risk together. Compare written offers using total dollar cost over the expected holding period, not a rate advertised without fees, conditions or a matching credit scenario.
 
-This page owns the decision intent **how commercial mortgage pricing works and how to compare offers**. For product eligibility and application steps, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For lender-type comparisons, see [bank versus private commercial loan pricing](/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared).
+This page owns the decision intent **how commercial mortgage pricing works and how to compare offers**. For product eligibility and application steps, use the [commercial property loans guide](/resources/guides/commercial-property-loans-australia-complete-guide). For lender-type comparisons, see bank versus private commercial loan pricing.
 
 ## What a commercial mortgage quote contains
 
@@ -154,7 +154,7 @@ For a scenario-based comparison, use the [commercial property finance service](/
 ## Related Guides
 
 - [Commercial Property Loans Australia](/resources/guides/commercial-property-loans-australia-complete-guide)
-- [Commercial Loan Rates Comparison](/resources/guides/commercial-loan-rates-banks-vs-private-lenders-compared)
+- Commercial Loan Rates Comparison
 - [Commercial Property Valuation](/resources/guides/commercial-property-valuation-for-finance-lender-requirements)
 - [Commercial Property Finance](/services/commercial-property-finance)
 

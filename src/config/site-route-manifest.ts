@@ -355,7 +355,7 @@ const guideAliases: Record<string, string> = {
   "short-term-property-loan": "short-term-property-loans-when-you-need-fast-finance",
   "short-term-property-loans": "short-term-property-loans-when-you-need-fast-finance",
   "short-term-property-funding": "short-term-property-loans-when-you-need-fast-finance",
-  "caveat-loans-vs-second-mortgages": "caveat-loans-vs-bank-loans-speed-comparison",
+  "caveat-loans-vs-second-mortgages": "../../services/first-second-mortgages",
   "private-lending-sydney-business-guide": "../../services/private-lending/cities/sydney",
   "second-mortgage-australia": "second-mortgages-for-business-guide",
   "caveat-loans-sydney-same-day-approval-available": "../../services/first-second-mortgages",
@@ -410,9 +410,46 @@ const guideAliases: Record<string, string> = {
     "commercial-property-lenders-in-australia-complete-directory",
   "secured-business-loans-australia": "secured-vs-unsecured-business-loans-australia",
   "caveat-loan-application-rejected-what-to-do-next":
-    "caveat-loan-rejected-heres-what-to-do-next",
+    "../../services/first-second-mortgages",
   "second-mortgage-partnership-buyout-financing-transitions":
     "second-mortgage-for-a-business-partner-buyout-in-australia",
+  // SPEC-2 A: retired caveat-loan product pages and duplicate-intent consolidations.
+  "caveat-lending-australia": "../../services/first-second-mortgages",
+  "short-term-caveat-loans-australia": "../../services/first-second-mortgages",
+  "no-credit-check-caveat-loans-in-australia-what-business-borrowers-should-know":
+    "../../services/first-second-mortgages",
+  "caveat-loans-online-in-australia-fast-enquiry-vs-real-approval":
+    "../../services/first-second-mortgages",
+  "caveat-loan-interest-rates-what-you-ll-really-pay-2025":
+    "../../services/first-second-mortgages",
+  "caveat-loans-vs-bank-loans-speed-comparison": "../../services/first-second-mortgages",
+  "find-caveat-loan-brokers-australia": "../../services/first-second-mortgages",
+  "caveat-loan-eofy-tax-bill-unsold-development-stock-australia":
+    "../../services/first-second-mortgages",
+  "caveat-loan-rejected-heres-what-to-do-next": "../../services/first-second-mortgages",
+  "caveat-loan-broker-take-on-valuation-delays": "../../services/first-second-mortgages",
+  "can-a-caveat-loan-stop-a-mortgagee-sale-in-australia":
+    "../../services/first-second-mortgages",
+  "caveat-loan-exit-plan-after-bank-delay-case-study":
+    "../../services/first-second-mortgages",
+  "caveat-loans-for-property-settlement-bridge-your-purchase":
+    "settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
+  "urgent-caveat-loan-settlement-shortfall-case-study":
+    "settlement-shortfall-finance-in-australia-what-to-do-when-funds-are-short-before-settlement",
+  "first-mortgagee-consent-delay-caveat-loan-vs-second-mortgage":
+    "second-mortgage-business-loan-bank-consent-delay-australia",
+  "business-loan-line-of-credit-australia": "business-line-of-credit-australia",
+  "supplier-deposit-finance-high-value-import-orders-australia":
+    "supplier-deposit-finance-for-large-orders-australia",
+  "balloon-payment-refinance-for-equipment-and-asset-finance":
+    "equipment-finance-balloon-payment-refinance-australia",
+  "obtaining-a-business-loan-australia": "how-to-get-a-business-loan-australia",
+  "private-mortgage-lending": "private-mortgage-lending-commercial-borrowers",
+  "getting-a-second-mortgage": "../../services/first-second-mortgages",
+  "commercial-loan-rates-banks-vs-private-lenders-compared":
+    "commercial-mortgage-rates-australia-complete-guide",
+  "commercial-loan-interest-rates-australia-2025-comparison":
+    "commercial-mortgage-rates-australia-complete-guide",
 };
 
 function guideTarget(target: string) {

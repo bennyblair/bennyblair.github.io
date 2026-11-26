@@ -49,7 +49,7 @@ The contract, tariff and service-provider terms control the actual labels, free-
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — the core guide to import funding structures and transaction timing.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — the working-capital pillar guide for short-term operating gaps.
 - **[Invoice Finance Australia Complete Guide](/resources/guides/invoice-finance-australia-complete-guide)** — how eligible receivables may support ongoing liquidity.
-- **[Supplier Deposit Finance for High-Value Import Orders](/resources/guides/supplier-deposit-finance-high-value-import-orders-australia)** — planning cash requirements before goods ship.
+- **[Supplier Deposit Finance for High-Value Import Orders](/resources/guides/supplier-deposit-finance-for-large-orders-australia)** — planning cash requirements before goods ship.
 - **[Letters of Credit vs Trade Finance](/resources/guides/letters-of-credit-vs-trade-finance-australian-importers)** — compare payment assurance and funding roles.
 - **[Foreign Exchange Timing and Trade Finance](/resources/guides/foreign-exchange-timing-trade-finance-importers-australia)** — separate currency exposure from the import funding schedule.
 
@@ -195,7 +195,7 @@ A repayment source may include cash generated when the released inventory is del
 
 - **[Trade Finance in Australia](/resources/guides/trade-finance-in-australia-how-it-helps-businesses-manage-imports)** — understand import funding from supplier payment to inventory conversion.
 - **[Working Capital Loans for SMEs](/resources/guides/working-capital-loans-for-smes)** — review broader cash-flow structures for operating expenses.
-- **[Supplier Deposit Finance](/resources/guides/supplier-deposit-finance-high-value-import-orders-australia)** — plan the cash cycle before a high-value order ships.
+- **[Supplier Deposit Finance](/resources/guides/supplier-deposit-finance-for-large-orders-australia)** — plan the cash cycle before a high-value order ships.
 - **[Letters of Credit vs Trade Finance](/resources/guides/letters-of-credit-vs-trade-finance-australian-importers)** — separate payment assurance from funding.
 - **[Foreign Exchange Timing for Importers](/resources/guides/foreign-exchange-timing-trade-finance-importers-australia)** — identify currency timing as a separate commercial risk.
 
