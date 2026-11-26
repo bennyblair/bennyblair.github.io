@@ -18,6 +18,7 @@ import {
   getArticlePublicationLabels,
   resolveArticleDateModified,
 } from "@/lib/article-dates";
+import PreferredSourceLink from "@/components/PreferredSourceLink";
 
 const GuideArticle = () => {
   const { slug } = useParams();
@@ -610,6 +611,12 @@ const GuideArticle = () => {
               ))}
             </div>
           </section>
+        )}
+
+        {contentType === "guides" && (
+          <div className="article-preferred-source">
+            <PreferredSourceLink />
+          </div>
         )}
       </div>
     </div>
